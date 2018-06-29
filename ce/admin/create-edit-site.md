@@ -24,23 +24,23 @@ You can create a new site to add an office location or other facility where serv
   
 1. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)]  
   
-2.  Choose **Sites**.  
+2. Choose **Sites**.  
   
-3.  To create a new site, on the Actions toolbar, choose **New**.  
+3. To create a new site, on the Actions toolbar, choose **New**.  
   
-     \- OR -  
+    \- OR -  
   
-     To edit an existing site, in the list of sites, under Name, double-click or tap the entry for the site you want to edit details for.  
+    To edit an existing site, in the list of sites, under Name, double-click or tap the entry for the site you want to edit details for.  
   
-4.  Under **General**, in the **Name** text box, specify or edit the name for the site.  
+4. Under **General**, in the **Name** text box, specify or edit the name for the site.  
   
-     You can also enter or update contact information for the site.  
+    You can also enter or update contact information for the site.  
   
-5.  Under **Primary Address**, enter or update address details.  
+5. Under **Primary Address**, enter or update address details.  
   
-6.  In the **Time Zone** box, ensure that the default time zone is appropriate for the site.  
+6. In the **Time Zone** box, ensure that the default time zone is appropriate for the site.  
   
-7.  Choose **Save and Close**.  
+7. Choose **Save and Close**.  
   
 ### See also  
  [Create or edit business units](../admin/create-edit-business-units.md)   

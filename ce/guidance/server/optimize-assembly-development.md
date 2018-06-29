@@ -62,11 +62,11 @@ Plug-ins and custom workflow activities developed for a [!INCLUDE [pn-dynamics-3
 
 > [!IMPORTANT]
 > [!INCLUDE [pn-dyn-365-op](../../includes/pn-dyn-365-op.md)] deployments can identify the assembly size constraint by executing the following SQL query
->```sql
-    USE MSCRM_CONFIG
-    SELECT ColumnName, IntColumn FROM DeploymentProperties
-    WHERE ColumnName = 'SandboxClientMaxAssemblySizeInKByte'
->```
+> ```sql
+>     USE MSCRM_CONFIG
+>     SELECT ColumnName, IntColumn FROM DeploymentProperties
+>     WHERE ColumnName = 'SandboxClientMaxAssemblySizeInKByte'
+> ```
 
 [//]: <> (Not able to validate that this can be set via PowerShell. As far as I can tell, the only way to modify this setting is via SQL script.  Will need to confirm.)
 

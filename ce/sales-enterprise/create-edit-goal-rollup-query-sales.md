@@ -30,7 +30,7 @@ Use the rollup query to gather data about a given goal, including all its relate
 ## Create a rollup query (Sales Hub app)
 
 > [!IMPORTANT]
-
+> 
 > Currently, you can't create a goal rollup query in the Sales Hub app. To create a goal rollup query, use the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] - custom app.
 
 ## Create a rollup query (Sales app)
@@ -41,17 +41,17 @@ Use the rollup query to gather data about a given goal, including all its relate
   
     #### Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2.  Go to **Rollup Queries**. [How do I get there?](../basics/navigation-customer-engagement-enterprise.md)  
+2. Go to **Rollup Queries**. [How do I get there?](../basics/navigation-customer-engagement-enterprise.md)  
   
-3.  To create a new rollup query, in the **Records** group, select **New**.  
+3. To create a new rollup query, in the **Records** group, select **New**.  
   
-     -OR-  
+    -OR-  
   
-     To edit a rollup query, select **Edit**.  
+    To edit a rollup query, select **Edit**.  
   
 4. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
@@ -64,13 +64,13 @@ Use the rollup query to gather data about a given goal, including all its relate
         > [!NOTE]
         >  If you change this selection after you add your query criteria in the **Query** section, your query criteria will be deleted.  
   
-5.  In the **Query** section, add the criteria for your query. The criteria you can add depends on the record type.  
+5. In the **Query** section, add the criteria for your query. The criteria you can add depends on the record type.  
   
-6.  To see the results for the query, select **View Records**.  
+6. To see the results for the query, select **View Records**.  
   
-7.  Select **Save**, **Save and Close**, or, to create a new rollup query, **Save and New**.  
+7. Select **Save**, **Save and Close**, or, to create a new rollup query, **Save and New**.  
   
-8.  To view the data for a goal, on the nav bar, select **Sales**, and then select **Goals**.  
+8. To view the data for a goal, on the nav bar, select **Sales**, and then select **Goals**.  
   
 9. Select the goal you want, and then select **More Commands**![More Commands button in Appointment Activity](../sales-enterprise/media/more-commands-button.gif "More Commands button in Appointment Activity"), and then select **Recalculate**.  
   

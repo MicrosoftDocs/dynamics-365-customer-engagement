@@ -26,9 +26,9 @@ Large [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organizations 
   
 1. [!INCLUDE[proc_customization_customize_system](../includes/proc-customization-customize-system.md)]  
   
-2.  Select an entity, and under **Data Services**, select the **Change Tracking** check box.  
+2. Select an entity, and under **Data Services**, select the **Change Tracking** check box.  
   
- ![Select Change Tracking for an entity](../admin/media/change-tracking.PNG "Select Change Tracking for an entity")  
+   ![Select Change Tracking for an entity](../admin/media/change-tracking.PNG "Select Change Tracking for an entity")  
   
 ### See also  
  [](../admin/manage-your-data.md "Manage your data")

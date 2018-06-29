@@ -110,7 +110,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Select the  "Finish to Start" type of dependency.|
+|Description|Select the  "Finish to Start" type of dependency.|
 |DisplayName|Link Type|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -702,6 +702,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_projecttaskdependency_SyncErrors"></a> msdyn_projecttaskdependency_SyncErrors
 
 Same as syncerror entity [msdyn_projecttaskdependency_SyncErrors](syncerror.md#BKMK_msdyn_projecttaskdependency_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -716,6 +717,7 @@ Same as syncerror entity [msdyn_projecttaskdependency_SyncErrors](syncerror.md#B
 ### <a name="BKMK_msdyn_projecttaskdependency_DuplicateMatchingRecord"></a> msdyn_projecttaskdependency_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_projecttaskdependency_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_projecttaskdependency_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -730,6 +732,7 @@ Same as duplicaterecord entity [msdyn_projecttaskdependency_DuplicateMatchingRec
 ### <a name="BKMK_msdyn_projecttaskdependency_DuplicateBaseRecord"></a> msdyn_projecttaskdependency_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_projecttaskdependency_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_projecttaskdependency_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -744,6 +747,7 @@ Same as duplicaterecord entity [msdyn_projecttaskdependency_DuplicateBaseRecord]
 ### <a name="BKMK_msdyn_projecttaskdependency_AsyncOperations"></a> msdyn_projecttaskdependency_AsyncOperations
 
 Same as asyncoperation entity [msdyn_projecttaskdependency_AsyncOperations](asyncoperation.md#BKMK_msdyn_projecttaskdependency_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -758,6 +762,7 @@ Same as asyncoperation entity [msdyn_projecttaskdependency_AsyncOperations](asyn
 ### <a name="BKMK_msdyn_projecttaskdependency_MailboxTrackingFolders"></a> msdyn_projecttaskdependency_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_projecttaskdependency_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_projecttaskdependency_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -772,6 +777,7 @@ Same as mailboxtrackingfolder entity [msdyn_projecttaskdependency_MailboxTrackin
 ### <a name="BKMK_msdyn_projecttaskdependency_UserEntityInstanceDatas"></a> msdyn_projecttaskdependency_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_projecttaskdependency_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_projecttaskdependency_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -786,6 +792,7 @@ Same as userentityinstancedata entity [msdyn_projecttaskdependency_UserEntityIns
 ### <a name="BKMK_msdyn_projecttaskdependency_ProcessSession"></a> msdyn_projecttaskdependency_ProcessSession
 
 Same as processsession entity [msdyn_projecttaskdependency_ProcessSession](processsession.md#BKMK_msdyn_projecttaskdependency_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -800,6 +807,7 @@ Same as processsession entity [msdyn_projecttaskdependency_ProcessSession](proce
 ### <a name="BKMK_msdyn_projecttaskdependency_BulkDeleteFailures"></a> msdyn_projecttaskdependency_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_projecttaskdependency_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_projecttaskdependency_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -814,6 +822,7 @@ Same as bulkdeletefailure entity [msdyn_projecttaskdependency_BulkDeleteFailures
 ### <a name="BKMK_msdyn_projecttaskdependency_PrincipalObjectAttributeAccesses"></a> msdyn_projecttaskdependency_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_projecttaskdependency_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_projecttaskdependency_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -828,6 +837,7 @@ Same as principalobjectattributeaccess entity [msdyn_projecttaskdependency_Princ
 ### <a name="BKMK_msdyn_projecttaskdependency_Annotations"></a> msdyn_projecttaskdependency_Annotations
 
 Same as annotation entity [msdyn_projecttaskdependency_Annotations](annotation.md#BKMK_msdyn_projecttaskdependency_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|

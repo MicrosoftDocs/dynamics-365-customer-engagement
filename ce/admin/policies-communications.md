@@ -35,13 +35,13 @@ Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/p
 ## Planned maintenance  
  Planned maintenance includes updates and changes to the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service to provide increased stability, reliability, and performance. These changes can include:  
   
--   Hardware or infrastructure updates  
+- Hardware or infrastructure updates  
   
--   Integrated services, such as a new version of [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] or [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)]  
+- Integrated services, such as a new version of [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] or [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)]  
   
 - [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service changes and software updates  
   
--   Minor service updates to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] that occur about 10 times per year. See [Service updates](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases).  
+- Minor service updates to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] that occur about 10 times per year. See [Service updates](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases).  
   
 **How do I find out about planned maintenance?**  
   
@@ -119,13 +119,13 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
 ## Service incidents  
  A service incident occurs when your organization is inaccessible or you’re unable to use the service or one of its components. Examples include:  
   
--   Getting a “page not found” or 404 error when you try to access [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+- Getting a “page not found” or 404 error when you try to access [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
   
--   All of your users are unable to sign in to your organization.  
+- All of your users are unable to sign in to your organization.  
   
--   Your users can sign in, but can’t save their changes.  
+- Your users can sign in, but can’t save their changes.  
   
--   Users can sign in, but see a blank screen.  
+- Users can sign in, but see a blank screen.  
   
 **How do I find out about service incidents?**  
   

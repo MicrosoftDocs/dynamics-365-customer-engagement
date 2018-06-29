@@ -13,7 +13,7 @@ manager: "jdaly"
 ---
 # msdyn_project Entity Reference
 
-Delivery entity in an engagement.
+Delivery entity in an engagement.
 
 **Added by**: Project Service Automation Solution<br />
 
@@ -1968,6 +1968,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_project_SyncErrors"></a> msdyn_project_SyncErrors
 
 Same as syncerror entity [msdyn_project_SyncErrors](syncerror.md#BKMK_msdyn_project_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1982,6 +1983,7 @@ Same as syncerror entity [msdyn_project_SyncErrors](syncerror.md#BKMK_msdyn_proj
 ### <a name="BKMK_msdyn_project_DuplicateMatchingRecord"></a> msdyn_project_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_project_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_project_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1996,6 +1998,7 @@ Same as duplicaterecord entity [msdyn_project_DuplicateMatchingRecord](duplicate
 ### <a name="BKMK_msdyn_project_DuplicateBaseRecord"></a> msdyn_project_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_project_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_project_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -2010,6 +2013,7 @@ Same as duplicaterecord entity [msdyn_project_DuplicateBaseRecord](duplicatereco
 ### <a name="BKMK_msdyn_project_SharePointDocumentLocations"></a> msdyn_project_SharePointDocumentLocations
 
 Same as sharepointdocumentlocation entity [msdyn_project_SharePointDocumentLocations](sharepointdocumentlocation.md#BKMK_msdyn_project_SharePointDocumentLocations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocumentlocation|
@@ -2024,6 +2028,7 @@ Same as sharepointdocumentlocation entity [msdyn_project_SharePointDocumentLocat
 ### <a name="BKMK_msdyn_project_SharePointDocuments"></a> msdyn_project_SharePointDocuments
 
 Same as sharepointdocument entity [msdyn_project_SharePointDocuments](sharepointdocument.md#BKMK_msdyn_project_SharePointDocuments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocument|
@@ -2038,6 +2043,7 @@ Same as sharepointdocument entity [msdyn_project_SharePointDocuments](sharepoint
 ### <a name="BKMK_msdyn_project_AsyncOperations"></a> msdyn_project_AsyncOperations
 
 Same as asyncoperation entity [msdyn_project_AsyncOperations](asyncoperation.md#BKMK_msdyn_project_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -2052,6 +2058,7 @@ Same as asyncoperation entity [msdyn_project_AsyncOperations](asyncoperation.md#
 ### <a name="BKMK_msdyn_project_MailboxTrackingFolders"></a> msdyn_project_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_project_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_project_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -2066,6 +2073,7 @@ Same as mailboxtrackingfolder entity [msdyn_project_MailboxTrackingFolders](mail
 ### <a name="BKMK_msdyn_project_UserEntityInstanceDatas"></a> msdyn_project_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_project_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_project_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -2080,6 +2088,7 @@ Same as userentityinstancedata entity [msdyn_project_UserEntityInstanceDatas](us
 ### <a name="BKMK_msdyn_project_ProcessSession"></a> msdyn_project_ProcessSession
 
 Same as processsession entity [msdyn_project_ProcessSession](processsession.md#BKMK_msdyn_project_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -2094,6 +2103,7 @@ Same as processsession entity [msdyn_project_ProcessSession](processsession.md#B
 ### <a name="BKMK_msdyn_project_BulkDeleteFailures"></a> msdyn_project_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_project_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_project_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -2108,6 +2118,7 @@ Same as bulkdeletefailure entity [msdyn_project_BulkDeleteFailures](bulkdeletefa
 ### <a name="BKMK_msdyn_project_PrincipalObjectAttributeAccesses"></a> msdyn_project_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_project_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_project_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -2122,6 +2133,7 @@ Same as principalobjectattributeaccess entity [msdyn_project_PrincipalObjectAttr
 ### <a name="BKMK_msdyn_project_connections1"></a> msdyn_project_connections1
 
 Same as connection entity [msdyn_project_connections1](connection.md#BKMK_msdyn_project_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -2136,6 +2148,7 @@ Same as connection entity [msdyn_project_connections1](connection.md#BKMK_msdyn_
 ### <a name="BKMK_msdyn_project_connections2"></a> msdyn_project_connections2
 
 Same as connection entity [msdyn_project_connections2](connection.md#BKMK_msdyn_project_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -2150,6 +2163,7 @@ Same as connection entity [msdyn_project_connections2](connection.md#BKMK_msdyn_
 ### <a name="BKMK_msdyn_project_QueueItems"></a> msdyn_project_QueueItems
 
 Same as queueitem entity [msdyn_project_QueueItems](queueitem.md#BKMK_msdyn_project_QueueItems) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queueitem|
@@ -2164,6 +2178,7 @@ Same as queueitem entity [msdyn_project_QueueItems](queueitem.md#BKMK_msdyn_proj
 ### <a name="BKMK_msdyn_project_Annotations"></a> msdyn_project_Annotations
 
 Same as annotation entity [msdyn_project_Annotations](annotation.md#BKMK_msdyn_project_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -2178,6 +2193,7 @@ Same as annotation entity [msdyn_project_Annotations](annotation.md#BKMK_msdyn_p
 ### <a name="BKMK_bpf_msdyn_project_msdyn_bpf_665e73aa18c247d886bfc50499c73b82"></a> bpf_msdyn_project_msdyn_bpf_665e73aa18c247d886bfc50499c73b82
 
 Same as msdyn_bpf_665e73aa18c247d886bfc50499c73b82 entity [bpf_msdyn_project_msdyn_bpf_665e73aa18c247d886bfc50499c73b82](msdyn_bpf_665e73aa18c247d886bfc50499c73b82.md#BKMK_bpf_msdyn_project_msdyn_bpf_665e73aa18c247d886bfc50499c73b82) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bpf_665e73aa18c247d886bfc50499c73b82|
@@ -2192,6 +2208,7 @@ Same as msdyn_bpf_665e73aa18c247d886bfc50499c73b82 entity [bpf_msdyn_project_msd
 ### <a name="BKMK_msdyn_msdyn_project_bookableresourcebooking_projectid"></a> msdyn_msdyn_project_bookableresourcebooking_projectid
 
 Same as bookableresourcebooking entity [msdyn_msdyn_project_bookableresourcebooking_projectid](bookableresourcebooking.md#BKMK_msdyn_msdyn_project_bookableresourcebooking_projectid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcebooking|
@@ -2206,6 +2223,7 @@ Same as bookableresourcebooking entity [msdyn_msdyn_project_bookableresourcebook
 ### <a name="BKMK_msdyn_msdyn_project_bookableresourcebookingheader_projectid"></a> msdyn_msdyn_project_bookableresourcebookingheader_projectid
 
 Same as bookableresourcebookingheader entity [msdyn_msdyn_project_bookableresourcebookingheader_projectid](bookableresourcebookingheader.md#BKMK_msdyn_msdyn_project_bookableresourcebookingheader_projectid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcebookingheader|
@@ -2220,6 +2238,7 @@ Same as bookableresourcebookingheader entity [msdyn_msdyn_project_bookableresour
 ### <a name="BKMK_msdyn_msdyn_project_invoicedetail_Project"></a> msdyn_msdyn_project_invoicedetail_Project
 
 Same as invoicedetail entity [msdyn_msdyn_project_invoicedetail_Project](invoicedetail.md#BKMK_msdyn_msdyn_project_invoicedetail_Project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|invoicedetail|
@@ -2234,6 +2253,7 @@ Same as invoicedetail entity [msdyn_msdyn_project_invoicedetail_Project](invoice
 ### <a name="BKMK_msdyn_msdyn_project_msdyn_actual_Project"></a> msdyn_msdyn_project_msdyn_actual_Project
 
 Same as msdyn_actual entity [msdyn_msdyn_project_msdyn_actual_Project](msdyn_actual.md#BKMK_msdyn_msdyn_project_msdyn_actual_Project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_actual|
@@ -2248,6 +2268,7 @@ Same as msdyn_actual entity [msdyn_msdyn_project_msdyn_actual_Project](msdyn_act
 ### <a name="BKMK_msdyn_msdyn_project_msdyn_contractlinescheduleofvalue_project"></a> msdyn_msdyn_project_msdyn_contractlinescheduleofvalue_project
 
 Same as msdyn_contractlinescheduleofvalue entity [msdyn_msdyn_project_msdyn_contractlinescheduleofvalue_project](msdyn_contractlinescheduleofvalue.md#BKMK_msdyn_msdyn_project_msdyn_contractlinescheduleofvalue_project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_contractlinescheduleofvalue|
@@ -2262,6 +2283,7 @@ Same as msdyn_contractlinescheduleofvalue entity [msdyn_msdyn_project_msdyn_cont
 ### <a name="BKMK_msdyn_msdyn_project_msdyn_estimate_Project"></a> msdyn_msdyn_project_msdyn_estimate_Project
 
 Same as msdyn_estimate entity [msdyn_msdyn_project_msdyn_estimate_Project](msdyn_estimate.md#BKMK_msdyn_msdyn_project_msdyn_estimate_Project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_estimate|
@@ -2276,6 +2298,7 @@ Same as msdyn_estimate entity [msdyn_msdyn_project_msdyn_estimate_Project](msdyn
 ### <a name="BKMK_msdyn_msdyn_project_msdyn_estimateline_Project"></a> msdyn_msdyn_project_msdyn_estimateline_Project
 
 Same as msdyn_estimateline entity [msdyn_msdyn_project_msdyn_estimateline_Project](msdyn_estimateline.md#BKMK_msdyn_msdyn_project_msdyn_estimateline_Project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_estimateline|
@@ -2290,6 +2313,7 @@ Same as msdyn_estimateline entity [msdyn_msdyn_project_msdyn_estimateline_Projec
 ### <a name="BKMK_msdyn_msdyn_project_msdyn_expense_Project"></a> msdyn_msdyn_project_msdyn_expense_Project
 
 Same as msdyn_expense entity [msdyn_msdyn_project_msdyn_expense_Project](msdyn_expense.md#BKMK_msdyn_msdyn_project_msdyn_expense_Project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_expense|
@@ -2304,6 +2328,7 @@ Same as msdyn_expense entity [msdyn_msdyn_project_msdyn_expense_Project](msdyn_e
 ### <a name="BKMK_msdyn_msdyn_project_msdyn_fact_Project"></a> msdyn_msdyn_project_msdyn_fact_Project
 
 Same as msdyn_fact entity [msdyn_msdyn_project_msdyn_fact_Project](msdyn_fact.md#BKMK_msdyn_msdyn_project_msdyn_fact_Project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_fact|
@@ -2318,6 +2343,7 @@ Same as msdyn_fact entity [msdyn_msdyn_project_msdyn_fact_Project](msdyn_fact.md
 ### <a name="BKMK_msdyn_msdyn_project_msdyn_invoicelinetransaction_Project"></a> msdyn_msdyn_project_msdyn_invoicelinetransaction_Project
 
 Same as msdyn_invoicelinetransaction entity [msdyn_msdyn_project_msdyn_invoicelinetransaction_Project](msdyn_invoicelinetransaction.md#BKMK_msdyn_msdyn_project_msdyn_invoicelinetransaction_Project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_invoicelinetransaction|
@@ -2332,6 +2358,7 @@ Same as msdyn_invoicelinetransaction entity [msdyn_msdyn_project_msdyn_invoiceli
 ### <a name="BKMK_msdyn_msdyn_project_msdyn_journal_DefaultProject"></a> msdyn_msdyn_project_msdyn_journal_DefaultProject
 
 Same as msdyn_journal entity [msdyn_msdyn_project_msdyn_journal_DefaultProject](msdyn_journal.md#BKMK_msdyn_msdyn_project_msdyn_journal_DefaultProject) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_journal|
@@ -2346,6 +2373,7 @@ Same as msdyn_journal entity [msdyn_msdyn_project_msdyn_journal_DefaultProject](
 ### <a name="BKMK_msdyn_msdyn_project_msdyn_journalline_Project"></a> msdyn_msdyn_project_msdyn_journalline_Project
 
 Same as msdyn_journalline entity [msdyn_msdyn_project_msdyn_journalline_Project](msdyn_journalline.md#BKMK_msdyn_msdyn_project_msdyn_journalline_Project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_journalline|
@@ -2360,6 +2388,7 @@ Same as msdyn_journalline entity [msdyn_msdyn_project_msdyn_journalline_Project]
 ### <a name="BKMK_msdyn_msdyn_project_msdyn_opportunitylinetransaction_Project"></a> msdyn_msdyn_project_msdyn_opportunitylinetransaction_Project
 
 Same as msdyn_opportunitylinetransaction entity [msdyn_msdyn_project_msdyn_opportunitylinetransaction_Project](msdyn_opportunitylinetransaction.md#BKMK_msdyn_msdyn_project_msdyn_opportunitylinetransaction_Project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_opportunitylinetransaction|
@@ -2374,6 +2403,7 @@ Same as msdyn_opportunitylinetransaction entity [msdyn_msdyn_project_msdyn_oppor
 ### <a name="BKMK_msdyn_msdyn_project_msdyn_orderlinetransaction_Project"></a> msdyn_msdyn_project_msdyn_orderlinetransaction_Project
 
 Same as msdyn_orderlinetransaction entity [msdyn_msdyn_project_msdyn_orderlinetransaction_Project](msdyn_orderlinetransaction.md#BKMK_msdyn_msdyn_project_msdyn_orderlinetransaction_Project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderlinetransaction|
@@ -2388,6 +2418,7 @@ Same as msdyn_orderlinetransaction entity [msdyn_msdyn_project_msdyn_orderlinetr
 ### <a name="BKMK_msdyn_msdyn_project_msdyn_project_ProjectTemplate"></a> msdyn_msdyn_project_msdyn_project_ProjectTemplate
 
 Same as msdyn_project entity [msdyn_msdyn_project_msdyn_project_ProjectTemplate](msdyn_project.md#BKMK_msdyn_msdyn_project_msdyn_project_ProjectTemplate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_project|
@@ -2402,6 +2433,7 @@ Same as msdyn_project entity [msdyn_msdyn_project_msdyn_project_ProjectTemplate]
 ### <a name="BKMK_msdyn_msdyn_project_msdyn_projectapproval_Project"></a> msdyn_msdyn_project_msdyn_projectapproval_Project
 
 Same as msdyn_projectapproval entity [msdyn_msdyn_project_msdyn_projectapproval_Project](msdyn_projectapproval.md#BKMK_msdyn_msdyn_project_msdyn_projectapproval_Project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projectapproval|
@@ -2416,6 +2448,7 @@ Same as msdyn_projectapproval entity [msdyn_msdyn_project_msdyn_projectapproval_
 ### <a name="BKMK_msdyn_msdyn_project_msdyn_projectpricelist_Project"></a> msdyn_msdyn_project_msdyn_projectpricelist_Project
 
 Same as msdyn_projectpricelist entity [msdyn_msdyn_project_msdyn_projectpricelist_Project](msdyn_projectpricelist.md#BKMK_msdyn_msdyn_project_msdyn_projectpricelist_Project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projectpricelist|
@@ -2430,6 +2463,7 @@ Same as msdyn_projectpricelist entity [msdyn_msdyn_project_msdyn_projectpricelis
 ### <a name="BKMK_msdyn_msdyn_project_msdyn_projecttask_project"></a> msdyn_msdyn_project_msdyn_projecttask_project
 
 Same as msdyn_projecttask entity [msdyn_msdyn_project_msdyn_projecttask_project](msdyn_projecttask.md#BKMK_msdyn_msdyn_project_msdyn_projecttask_project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projecttask|
@@ -2444,6 +2478,7 @@ Same as msdyn_projecttask entity [msdyn_msdyn_project_msdyn_projecttask_project]
 ### <a name="BKMK_msdyn_msdyn_project_msdyn_projecttaskdependency_Project"></a> msdyn_msdyn_project_msdyn_projecttaskdependency_Project
 
 Same as msdyn_projecttaskdependency entity [msdyn_msdyn_project_msdyn_projecttaskdependency_Project](msdyn_projecttaskdependency.md#BKMK_msdyn_msdyn_project_msdyn_projecttaskdependency_Project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projecttaskdependency|
@@ -2458,6 +2493,7 @@ Same as msdyn_projecttaskdependency entity [msdyn_msdyn_project_msdyn_projecttas
 ### <a name="BKMK_msdyn_msdyn_project_msdyn_projectteam_project"></a> msdyn_msdyn_project_msdyn_projectteam_project
 
 Same as msdyn_projectteam entity [msdyn_msdyn_project_msdyn_projectteam_project](msdyn_projectteam.md#BKMK_msdyn_msdyn_project_msdyn_projectteam_project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projectteam|
@@ -2472,6 +2508,7 @@ Same as msdyn_projectteam entity [msdyn_msdyn_project_msdyn_projectteam_project]
 ### <a name="BKMK_msdyn_msdyn_project_msdyn_projecttransactioncategory_Project"></a> msdyn_msdyn_project_msdyn_projecttransactioncategory_Project
 
 Same as msdyn_projecttransactioncategory entity [msdyn_msdyn_project_msdyn_projecttransactioncategory_Project](msdyn_projecttransactioncategory.md#BKMK_msdyn_msdyn_project_msdyn_projecttransactioncategory_Project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projecttransactioncategory|
@@ -2486,6 +2523,7 @@ Same as msdyn_projecttransactioncategory entity [msdyn_msdyn_project_msdyn_proje
 ### <a name="BKMK_msdyn_msdyn_project_msdyn_quotelinetransaction_Project"></a> msdyn_msdyn_project_msdyn_quotelinetransaction_Project
 
 Same as msdyn_quotelinetransaction entity [msdyn_msdyn_project_msdyn_quotelinetransaction_Project](msdyn_quotelinetransaction.md#BKMK_msdyn_msdyn_project_msdyn_quotelinetransaction_Project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelinetransaction|
@@ -2500,6 +2538,7 @@ Same as msdyn_quotelinetransaction entity [msdyn_msdyn_project_msdyn_quotelinetr
 ### <a name="BKMK_msdyn_msdyn_project_msdyn_resourceassignment_projectid"></a> msdyn_msdyn_project_msdyn_resourceassignment_projectid
 
 Same as msdyn_resourceassignment entity [msdyn_msdyn_project_msdyn_resourceassignment_projectid](msdyn_resourceassignment.md#BKMK_msdyn_msdyn_project_msdyn_resourceassignment_projectid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourceassignment|
@@ -2514,6 +2553,7 @@ Same as msdyn_resourceassignment entity [msdyn_msdyn_project_msdyn_resourceassig
 ### <a name="BKMK_msdyn_msdyn_project_msdyn_timeentry_project"></a> msdyn_msdyn_project_msdyn_timeentry_project
 
 Same as msdyn_timeentry entity [msdyn_msdyn_project_msdyn_timeentry_project](msdyn_timeentry.md#BKMK_msdyn_msdyn_project_msdyn_timeentry_project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_timeentry|
@@ -2528,6 +2568,7 @@ Same as msdyn_timeentry entity [msdyn_msdyn_project_msdyn_timeentry_project](msd
 ### <a name="BKMK_msdyn_msdyn_project_opportunityproduct_Project"></a> msdyn_msdyn_project_opportunityproduct_Project
 
 Same as opportunityproduct entity [msdyn_msdyn_project_opportunityproduct_Project](opportunityproduct.md#BKMK_msdyn_msdyn_project_opportunityproduct_Project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityproduct|
@@ -2542,6 +2583,7 @@ Same as opportunityproduct entity [msdyn_msdyn_project_opportunityproduct_Projec
 ### <a name="BKMK_msdyn_msdyn_project_quotedetail_Project"></a> msdyn_msdyn_project_quotedetail_Project
 
 Same as quotedetail entity [msdyn_msdyn_project_quotedetail_Project](quotedetail.md#BKMK_msdyn_msdyn_project_quotedetail_Project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quotedetail|
@@ -2556,6 +2598,7 @@ Same as quotedetail entity [msdyn_msdyn_project_quotedetail_Project](quotedetail
 ### <a name="BKMK_msdyn_msdyn_project_salesorderdetail_Project"></a> msdyn_msdyn_project_salesorderdetail_Project
 
 Same as salesorderdetail entity [msdyn_msdyn_project_salesorderdetail_Project](salesorderdetail.md#BKMK_msdyn_msdyn_project_salesorderdetail_Project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|salesorderdetail|
@@ -2570,6 +2613,7 @@ Same as salesorderdetail entity [msdyn_msdyn_project_salesorderdetail_Project](s
 ### <a name="BKMK_msdyn_project_resourcerequirement"></a> msdyn_project_resourcerequirement
 
 Same as msdyn_resourcerequirement entity [msdyn_project_resourcerequirement](msdyn_resourcerequirement.md#BKMK_msdyn_project_resourcerequirement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourcerequirement|

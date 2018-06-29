@@ -33,13 +33,13 @@ If your customer has accepted your proposal, congratulations! However, whether y
 
    If you're using the Sales Hub app, select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Opportunities**.
   
-2.  Select the opportunity you want to edit.  
+2. Select the opportunity you want to edit.  
   
-3.  At the top of the **Opportunity** form, do one of the following:  
+3. At the top of the **Opportunity** form, do one of the following:  
 
-    - To close your opportunity as won, select **Close as Won**.  
+   - To close your opportunity as won, select **Close as Won**.  
  
-    - To close your opportunity as lost, select **Close as Lost**.
+   - To close your opportunity as lost, select **Close as Lost**.
   
 ### See also  
  [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)   

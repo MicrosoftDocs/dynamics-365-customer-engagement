@@ -43,9 +43,9 @@ Several [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] features use
   
      Resuming restarts a system job that was paused.  
   
-    > [!TIP]
-    >  1.  If a system job fails, you can view the details about what steps failed and what the problems may have been.  First, open the system job record.  To display details about system job failures, move your pointer over the warning symbols.  
-    > 2.  To view system job failures in a format that you can print or copy and paste, click the **Print** button.  
+  > [!TIP]
+  > 1. If a system job fails, you can view the details about what steps failed and what the problems may have been.  First, open the system job record.  To display details about system job failures, move your pointer over the warning symbols.  
+  >    2.  To view system job failures in a format that you can print or copy and paste, click the **Print** button.  
   
 > [!NOTE]
 >  You cannot make changes to the status of a system job that has been completed or canceled.

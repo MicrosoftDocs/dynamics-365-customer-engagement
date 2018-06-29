@@ -85,7 +85,7 @@ Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engageme
   
 > [!TIP]
 >  To see the posts assigned to a user or a group, apply an **Assignee** filter. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get to know your filters](understand-filters.md)  
->   
+> 
 >  For more information about groups, see [Work with Office 365 Groups in Social Engagement](office-365-groups-social-engagement.md).  
   
 <a name="Add_a_custom_tag"></a>   
@@ -107,9 +107,9 @@ Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engageme
  You may find posts in your data set that match one of your search topics but are irrelevant in your context. It’s easy to remove those posts. Reduce unwanted noise by deleting posts from your solution’s database. Once a post is deleted, it can’t be restored and it will no longer count against your solution’s monthly post quota.  
   
 > [!NOTE]
->  -   You can’t undo this action, and Support can’t restore deleted posts.  
-> -   Deleting a post also deletes associated data like notes, sentiment edits, user assignments, labels, or information about linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records assigned to a post.  
-> -   Please be aware that tweets which are deleted on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] will also be deleted in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to meet the expectation and intent of users. The information if a tweet was deleted on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] will not be disclosed.  
+> - You can’t undo this action, and Support can’t restore deleted posts.  
+>   - Deleting a post also deletes associated data like notes, sentiment edits, user assignments, labels, or information about linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records assigned to a post.  
+>   - Please be aware that tweets which are deleted on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] will also be deleted in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to meet the expectation and intent of users. The information if a tweet was deleted on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] will not be disclosed.  
   
  You must have at least a Power Analyst Analytics role to perform this task.  
   

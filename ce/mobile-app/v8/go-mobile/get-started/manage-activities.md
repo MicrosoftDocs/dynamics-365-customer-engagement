@@ -29,19 +29,19 @@ manager: "kvivek"
   
  On your dashboard, **My Activities** shows activities that are past due or due today in a darker color than those that aren’t. You can do the following from your activity feed:  
   
--   To view an activity, select it from your **My Activities** feed on the dashboard.  
+- To view an activity, select it from your **My Activities** feed on the dashboard.  
   
--   To add an activity, tap **+** at the top of your **My Activities** feed.  
+- To add an activity, tap **+** at the top of your **My Activities** feed.  
   
--   To mark an activity complete, tap the check box next to the activity in the feed.  
+- To mark an activity complete, tap the check box next to the activity in the feed.  
   
--   To see a subset of your activities:  
+- To see a subset of your activities:  
   
-    -   On a tablet, press and hold **My Activities** and tap **Select View** on the command bar.  
+  -   On a tablet, press and hold **My Activities** and tap **Select View** on the command bar.  
   
-    -   On a phone, tap **Select View** on the command bar.  
+  -   On a phone, tap **Select View** on the command bar.  
   
- ![Dynamics 365 for phones and tablets activity feed](../../../media/mobile-activity-feed.png "Dynamics 365 for phones and tablets activity feed")  
+  ![Dynamics 365 for phones and tablets activity feed](../../../media/mobile-activity-feed.png "Dynamics 365 for phones and tablets activity feed")  
   
 ### See also  
  [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

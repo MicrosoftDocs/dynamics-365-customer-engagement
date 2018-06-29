@@ -70,21 +70,21 @@ manager: "amyla"
 ### Translating labels and display strings  
  You can only perform customizations in the application by using the base language. Therefore, when you want to provide localized labels and display strings for these customizations, you must export the text of the labels so that they can be localized for any other languages enabled for the organization. Use the following steps:  
   
-1.  Ensure that the organization that you’re working on has all the MUI packs installed and languages provisioned for languages you want to provide translations for.  
+1. Ensure that the organization that you’re working on has all the MUI packs installed and languages provisioned for languages you want to provide translations for.  
   
-2.  Create your solution and modify the components.  
+2. Create your solution and modify the components.  
   
-3.  After you have finished developing your solution use the “Export Translations” functionality. This generates a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] spreadsheet (CrmTranslations.xml) that contains all the labels that need translation.  
+3. After you have finished developing your solution use the “Export Translations” functionality. This generates a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] spreadsheet (CrmTranslations.xml) that contains all the labels that need translation.  
   
-4.  In the spreadsheet, provide the corresponding translations.  
+4. In the spreadsheet, provide the corresponding translations.  
   
-5.  Import translations back into the same [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization using the “Import Translations” functionality and publish your changes.  
+5. Import translations back into the same [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization using the “Import Translations” functionality and publish your changes.  
   
-6.  The next time the solution is exported it carries all the translations that you provided.  
+6. The next time the solution is exported it carries all the translations that you provided.  
   
- When a solution is imported, labels for languages that aren’t available in the target system are discarded and a warning is logged.  
+   When a solution is imported, labels for languages that aren’t available in the target system are discarded and a warning is logged.  
   
- If labels for the base language of the target system are not provided in the solution package, the labels of the base language of the source are used instead. For example, if you import a solution that contains labels for English and French with English as the base language, but the target system has Japanese and French with Japanese as the base language, English labels are used instead of Japanese labels. The base languages labels cannot be **null** or empty.  
+   If labels for the base language of the target system are not provided in the solution package, the labels of the base language of the source are used instead. For example, if you import a solution that contains labels for English and French with English as the base language, but the target system has Japanese and French with Japanese as the base language, English labels are used instead of Japanese labels. The base languages labels cannot be **null** or empty.  
   
 #### Exporting translations  
  Before you export translations you must first install the language packs and provision all the languages you want to have localized. You can export the translations in the web application or by using the <xref:Microsoft.Crm.Sdk.Messages.ExportTranslationRequest> message. For more information, see [Export Customized Entity and Field Text for Translation](../customize/export-customized-entity-field-text-translation.md).  
@@ -145,37 +145,37 @@ manager: "amyla"
 ## Separate component for each language  
  The following solution components each may contain a considerable amount of text to be localized:  
   
--   Article Templates  
+- Article Templates  
   
--   Email Templates  
+- Email Templates  
   
--   Mail Merge Templates  
+- Mail Merge Templates  
   
--   Reports  
+- Reports  
   
--   Dialogs  
+- Dialogs  
   
- For these types of solution components, the recommended tactic is to create separate components for each language. This means that you typically create a base managed solution that contains your core solution components and then a separate managed solution that contains these solution components for each language. After customers install the base solution, they can install the managed solutions for the languages they have provisioned for the organization.  
+  For these types of solution components, the recommended tactic is to create separate components for each language. This means that you typically create a base managed solution that contains your core solution components and then a separate managed solution that contains these solution components for each language. After customers install the base solution, they can install the managed solutions for the languages they have provisioned for the organization.  
   
- Unlike **Processes (Workflows)**, you can create **Dialogs** that will reflect the user’s current language preference settings and display the dialogs only to users of that language.  
+  Unlike **Processes (Workflows)**, you can create **Dialogs** that will reflect the user’s current language preference settings and display the dialogs only to users of that language.  
   
 #### Create a localized dialog box  
   
-1.  Install the appropriate language pack and provision the language.  
+1. Install the appropriate language pack and provision the language.  
   
-     For more information, see [Language Pack Installation Instructions](https://technet.microsoft.com/library/hh699674.aspx).  
+    For more information, see [Language Pack Installation Instructions](https://technet.microsoft.com/library/hh699674.aspx).  
   
-2.  Change your personal options to specify the **User Interface Language** for the language you want for the dialog.  
+2. Change your personal options to specify the **User Interface Language** for the language you want for the dialog.  
   
-3.  Navigate to **Settings** and, in the **Process Center** group, select **Processes**.  
+3. Navigate to **Settings** and, in the **Process Center** group, select **Processes**.  
   
-4.  Click **New** and create the dialog in the language that you specified.  
+4. Click **New** and create the dialog in the language that you specified.  
   
-5.  After you have created the dialog, change your personal options to specify the organization base language.  
+5. After you have created the dialog, change your personal options to specify the organization base language.  
   
-6.  While using the organization base language you can navigate to the **Solutions** area in **Settings** and add the localized dialog as part of a solution.  
+6. While using the organization base language you can navigate to the **Solutions** area in **Settings** and add the localized dialog as part of a solution.  
   
- The dialog created in the other language will only be displayed to users who view [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] using that language.  
+   The dialog created in the other language will only be displayed to users who view [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] using that language.  
   
 <a name="BKMK_UseXMLWebResourcesAsLanguageResources"></a>   
 ## Use XML web resources as language resources  

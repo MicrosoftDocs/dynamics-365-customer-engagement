@@ -26,8 +26,8 @@ manager: "austinj"
 - The following script error will be displayed to users or included in your error logs: `Error: Blocked a frame with origin "https://<yourinstance>.dynamics.com" from accessing a cross-origin frame.`
 - Customizations might not behave correctly in the context of [!include[](../../includes/pn-dyn-365-app-outlook.md)], [!include[](../../includes/pn-dynamics-crm.md)] for phones and tablets, or an external application that hosts [!include[](../../includes/pn-dynamics-crm.md)] within an iframe.
 
- > [!NOTE]
- > There might be some scenarios where error handling masks the error and continues script processing, causing unexpected behavior.
+  > [!NOTE]
+  > There might be some scenarios where error handling masks the error and continues script processing, causing unexpected behavior.
 
 <a name='guidance'></a>
 

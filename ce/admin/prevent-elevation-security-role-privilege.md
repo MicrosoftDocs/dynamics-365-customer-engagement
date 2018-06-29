@@ -27,16 +27,17 @@ The following steps describe a method to create a new custom security role with 
 ### Create a new custom security role that only has access to "Security Role"
 
 1. Make sure that you have the System Administrator permissions.
-  
+
     Check your security role  
-  
-    - [!INCLUDE[proc_check_your_security_role](../includes/proc-check-your-security-role.md)]  
-  
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+
+   - [!INCLUDE[proc_check_your_security_role](../includes/proc-check-your-security-role.md)]  
+
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+
 2. Go to **Settings** > **Security** > **Security Roles**, and then choose **New**.
 3. Enter a role name, and then select the **Business Management** tab.
 4. Scroll down to the **Entity** list and set the **Security Role** entity privileges as follows:
-   
+
    |Privilege  |Setting  |
    |---------|---------|
    |Create     |Business Unit         |

@@ -133,17 +133,17 @@ The following procedure provides the steps to enable the security roles for the 
   
 2. Under **Components**, select **Dashboards**.  
   
-4.  In the grid, select the interactive dashboard you want and select **Enable Security Roles** on the task bar.  
+3. In the grid, select the interactive dashboard you want and select **Enable Security Roles** on the task bar.  
   
-5.  In the **Assign Security Roles** dialog, select the **Display only to these selected security roles** option and select the roles that you want to enable. Select **OK**.  
+4. In the **Assign Security Roles** dialog, select the **Display only to these selected security roles** option and select the roles that you want to enable. Select **OK**.  
   
-6.  Select **Publish** for your changes to take effect.  
+5. Select **Publish** for your changes to take effect.  
   
-7.  Select **Prepare Client Customizations**.  
+6. Select **Prepare Client Customizations**.  
   
- ![Enable security roles](../customize/media/interactive-dashboards-enable-security-roles.png "Enable security roles")  
+   ![Enable security roles](../customize/media/interactive-dashboards-enable-security-roles.png "Enable security roles")  
   
- ![Assign security roles](../customize/media/interactive-dashboards-assign-security-roles.png "Assign security roles")  
+   ![Assign security roles](../customize/media/interactive-dashboards-assign-security-roles.png "Assign security roles")  
   
 <a name="BKMK_Configure"></a>   
 ## Configure interactive experience dashboards  
@@ -151,35 +151,35 @@ The following procedure provides the steps to enable the security roles for the 
   
 ### Configure a multi-stream interactive dashboard using the 4-column layout  
  
-1.	Sign in to [PowerApps](https://web.powerapps.com).
+1. Sign in to [PowerApps](https://web.powerapps.com).
 
-2.	Select **Model-driven** (lower left).  
+2. Select **Model-driven** (lower left).  
   
-3.  Select **Data** > **Entities** > select the entity you want. 
+3. Select **Data** > **Entities** > select the entity you want. 
 
-4.  Select the **Dashboards** tab, and then on the toolbar select **Add dashboard**.  
+4. Select the **Dashboards** tab, and then on the toolbar select **Add dashboard**.  
   
-5.  Choose the layout, either 2, 3, or 4 column width.  
+5. Choose the layout, either 2, 3, or 4 column width.  
   
-6.  When the dashboard form opens, fill in the filtering information at the top of form, as shown here.  
+6. When the dashboard form opens, fill in the filtering information at the top of form, as shown here.  
   
- ![Add visual filters](../customize/media/interactive-dashboards-add-visual-filters.png "Add visual filters")  
+   ![Add visual filters](../customize/media/interactive-dashboards-add-visual-filters.png "Add visual filters")  
   
    - **Filter Entity**: The visual filters (interactive charts) and global filter attributes are based on this entity.  
       
-    - **Entity View**: The visual filters (interactive charts) are based on this view.  
+   - **Entity View**: The visual filters (interactive charts) are based on this view.  
       
-    - **Filter By**: The field that the time frame filter applies to.  
+   - **Filter By**: The field that the time frame filter applies to.  
       
-    - **Time Frame**: The default time frame filter value for the **Filter By** field.  
+   - **Time Frame**: The default time frame filter value for the **Filter By** field.  
       
- After you  have specified the filtering information, start adding components for the charts and the data streams. To add a component, simply select the element in the center of the chart or stream, and when the dialog appears, enter the required information, as shown in the following illustrations.  
+   After you  have specified the filtering information, start adding components for the charts and the data streams. To add a component, simply select the element in the center of the chart or stream, and when the dialog appears, enter the required information, as shown in the following illustrations.  
   
- Add the **Cases By Priority** doughnut chart.
+   Add the **Cases By Priority** doughnut chart.
   
- ![Add a doughnut chart component.](../customize/media/interactive-dashboards-add-chart-circle.png "Add a doughnut chart component.")  
+   ![Add a doughnut chart component.](../customize/media/interactive-dashboards-add-chart-circle.png "Add a doughnut chart component.")  
   
- Some charts, such as bar charts or pie charts, render showing the data stored in the system. The doughnut charts and tag charts load as static images and don’t show the preview of the actual data.  
+   Some charts, such as bar charts or pie charts, render showing the data stored in the system. The doughnut charts and tag charts load as static images and don’t show the preview of the actual data.  
   
 > [!NOTE]
 >  The charts configured for the visual filters can use the fields of the **Filter** entity as well as related entities. When you use charts based on related entity fields, the customer service representatives can filter charts using these related entity fields. The fields that are based on the related entity usually have the following format in the chart configuration window: “field name (entity name)”, such as the **Modified By (Delegate)** field. To create multi-entity charts, you must add  fields of a related entity to any of the views, and then use these fields while creating charts.  
@@ -215,32 +215,32 @@ The following procedure provides the steps to enable the security roles for the 
    
    Open [solution explorer](../../powerapps-cds/maker/model-driven-apps/advanced-navigation.md#solution-explorer), and then under **Components** select **Dashboards**.
   
-3.  In the grid, select the interactive dashboard that you want to edit to open it.  
+3. In the grid, select the interactive dashboard that you want to edit to open it.  
   
-4.  Select the stream that you want to edit to select it, and then select **Edit Component**.  
+4. Select the stream that you want to edit to select it, and then select **Edit Component**.  
   
-5.  Depending on whether you want to add a view or queue to the stream, select the view or queue details for the stream, and then select **Set**.  
+5. Depending on whether you want to add a view or queue to the stream, select the view or queue details for the stream, and then select **Set**.  
   
-6.  Select **Save**.  
+6. Select **Save**.  
   
- You can also delete an individual stream from a dashboard. To do this, select the stream, and then on the command bar, select **Delete**.  
+   You can also delete an individual stream from a dashboard. To do this, select the stream, and then on the command bar, select **Delete**.  
   
 ### Configure an entity-specific dashboard  
  An entity-specific dashboard is a multi-stream dashboard. Configuring this dashboard is similar to configuring a home page multi-stream dashboard, but you do it in the different place in the UI and there are other minor differences. For example, instead of selecting an entity, some fields in the entity-specific dashboard are preset to the entity for which you are creating the dashboard.  
   
-1.	Sign in to [PowerApps](https://web.powerapps.com).
+1. Sign in to [PowerApps](https://web.powerapps.com).
 
-2.	Select **Model-driven** (lower left).  
+2. Select **Model-driven** (lower left).  
   
-3.  Select **Data** > **Entities** > select the entity you want. 
+3. Select **Data** > **Entities** > select the entity you want. 
 
-4.  Select the **Dashboards** tab, and then on the toolbar select **Add dashboard**.  
+4. Select the **Dashboards** tab, and then on the toolbar select **Add dashboard**.  
   
-5.  Choose the layout, either 2, 3, or 4 column width.    
+5. Choose the layout, either 2, 3, or 4 column width.    
   
-6.  When the dashboard form opens, the **Filter Entity** is preset to the entity for which you are creating the dashboard. The **Entity View** drop-down list contains the available views for the entity. Select the view and fill in the rest of the required information on the page.  
+6. When the dashboard form opens, the **Filter Entity** is preset to the entity for which you are creating the dashboard. The **Entity View** drop-down list contains the available views for the entity. Select the view and fill in the rest of the required information on the page.  
   
- The rest of the setup is very similar to the home page multi-stream dashboard setup described in the previous section.  
+   The rest of the setup is very similar to the home page multi-stream dashboard setup described in the previous section.  
   
 ### Configure a single-stream dashboard  
  Configuring a single-stream dashboard is similar to the multi-stream dashboard. All UI navigation steps are the same as for the multi-stream dashboard. You can choose a layout that includes tiles or the layout that doesn’t include tiles. If the tiles are included, they are always displayed on the dashboard. To configure a tile, you select the icon in the center of the tile. When the **Add Tile** window opens, fill in the required data. The following illustration is an example of the tile setup.  

@@ -56,24 +56,24 @@ Publishing customizations makes the Web application aware of changes to the data
  **RetrieveAsIfPublished parameter**  
  Retrieves entity, attribute, entity relationship, and option set data by using the following messages:  
   
--   <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllEntitiesRequest>  
+- <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllEntitiesRequest>  
   
--   <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllOptionSetsRequest>  
+- <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAllOptionSetsRequest>  
   
--   <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAttributeRequest>  
+- <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAttributeRequest>  
   
--   <xref:Microsoft.Xrm.Sdk.Messages.RetrieveEntityRequest>  
+- <xref:Microsoft.Xrm.Sdk.Messages.RetrieveEntityRequest>  
   
--   <xref:Microsoft.Xrm.Sdk.Messages.RetrieveOptionSetRequest>  
+- <xref:Microsoft.Xrm.Sdk.Messages.RetrieveOptionSetRequest>  
   
--   <xref:Microsoft.Xrm.Sdk.Messages.RetrieveRelationshipRequest>  
+- <xref:Microsoft.Xrm.Sdk.Messages.RetrieveRelationshipRequest>  
   
- **RetrieveUnpublished Request**  
- Retrieves user interface items, such as form, template, visualization and Web resource definitions, by using the following messages:  
+  **RetrieveUnpublished Request**  
+  Retrieves user interface items, such as form, template, visualization and Web resource definitions, by using the following messages:  
   
--   <xref:Microsoft.Crm.Sdk.Messages.RetrieveUnpublishedRequest>  
+- <xref:Microsoft.Crm.Sdk.Messages.RetrieveUnpublishedRequest>  
   
--   <xref:Microsoft.Crm.Sdk.Messages.RetrieveUnpublishedMultipleRequest>  
+- <xref:Microsoft.Crm.Sdk.Messages.RetrieveUnpublishedMultipleRequest>  
   
 ### See also  
  [Customize Dynamics 365 Customer Engagement](customize-applications.md)   

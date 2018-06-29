@@ -29,17 +29,17 @@ You can restrict a resource from performing a service and define the service cap
   
     #### Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    -   Don’t have the correct permissions? Contact your system administrator.  
+   - Don’t have the correct permissions? Contact your system administrator.  
   
 2. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
   
-3.  Click **Users**.  
+3. Click **Users**.  
   
 4. In the list, open the resource record you want to modify. The resource name appears in the nav bar. Click the arrow beside the resource name and select **Work hours**.
       
-5.  On the **Monthly View** tab, double-click a date on the calendar that is either the first day you want to restrict the resource from performing the service or a date in a recurring schedule.  
+5. On the **Monthly View** tab, double-click a date on the calendar that is either the first day you want to restrict the resource from performing the service or a date in a recurring schedule.  
   
 6. In the **Edit Weekly Schedule** dialog box, select one of the following options, and then click **OK**.  
   

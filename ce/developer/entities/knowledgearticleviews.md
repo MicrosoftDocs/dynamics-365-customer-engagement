@@ -634,6 +634,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_KnowledgeArticleViews_SyncErrors"></a> KnowledgeArticleViews_SyncErrors
 
 Same as syncerror entity [KnowledgeArticleViews_SyncErrors](syncerror.md#BKMK_KnowledgeArticleViews_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -648,6 +649,7 @@ Same as syncerror entity [KnowledgeArticleViews_SyncErrors](syncerror.md#BKMK_Kn
 ### <a name="BKMK_knowledgearticleview_principalobjectattributeaccess"></a> knowledgearticleview_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [knowledgearticleview_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_knowledgearticleview_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

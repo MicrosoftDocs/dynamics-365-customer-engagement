@@ -50,13 +50,13 @@ To qualify multiple leads at once, go to the list of leads, select the leads tha
   
 1. [!INCLUDE[proc_sales_leads](../includes/proc-sales-leads.md)]  
   
-2.  Select the lead you want to qualify.  
+2. Select the lead you want to qualify.  
   
-3.  In the **Qualify** section of the sales process bar, enter all applicable information.  
+3. In the **Qualify** section of the sales process bar, enter all applicable information.  
   
-4.  Select **Qualify** at the top of the **Lead** form.  
+4. Select **Qualify** at the top of the **Lead** form.  
   
-5.  Select **Save** in the lower-right corner of the screen.  
+5. Select **Save** in the lower-right corner of the screen.  
 
 To qualify multiple leads, go to the list of leads, select the leads you want to qualify, and on the command bar, select **Qualify**.
 
@@ -64,11 +64,11 @@ To qualify multiple leads, go to the list of leads, select the leads you want to
 <a name="bkmk3"></a>   
 ## Additional considerations  
   
--   Increase your marketing and sales effectiveness.  [Boost sales with Versium Predict](../versium-predict/versium-predict.md)  
+- Increase your marketing and sales effectiveness.  [Boost sales with Versium Predict](../versium-predict/versium-predict.md)  
 
--   Research leads through social media channels like LinkedIn and Twitter. [Qualify leads faster with Insights](https://www.microsoft.com/en-us/dynamics/crm-customer-center/insights-for-microsoft-dynamics-crm-powered-by-insideview.aspx)  
+- Research leads through social media channels like LinkedIn and Twitter. [Qualify leads faster with Insights](https://www.microsoft.com/en-us/dynamics/crm-customer-center/insights-for-microsoft-dynamics-crm-powered-by-insideview.aspx)  
 
--   Nurture your leads through a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] marketing campaign. [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)  (applies to the Sales app only)
+- Nurture your leads through a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] marketing campaign. [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)  (applies to the Sales app only)
 
   
 <a name="bkmk4"></a>   

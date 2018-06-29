@@ -677,6 +677,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_orderlinetransactionclassification_SyncErrors"></a> msdyn_orderlinetransactionclassification_SyncErrors
 
 Same as syncerror entity [msdyn_orderlinetransactionclassification_SyncErrors](syncerror.md#BKMK_msdyn_orderlinetransactionclassification_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -691,6 +692,7 @@ Same as syncerror entity [msdyn_orderlinetransactionclassification_SyncErrors](s
 ### <a name="BKMK_msdyn_orderlinetransactionclassification_DuplicateMatchingRecord"></a> msdyn_orderlinetransactionclassification_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_orderlinetransactionclassification_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_orderlinetransactionclassification_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -705,6 +707,7 @@ Same as duplicaterecord entity [msdyn_orderlinetransactionclassification_Duplica
 ### <a name="BKMK_msdyn_orderlinetransactionclassification_DuplicateBaseRecord"></a> msdyn_orderlinetransactionclassification_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_orderlinetransactionclassification_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_orderlinetransactionclassification_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -719,6 +722,7 @@ Same as duplicaterecord entity [msdyn_orderlinetransactionclassification_Duplica
 ### <a name="BKMK_msdyn_orderlinetransactionclassification_AsyncOperations"></a> msdyn_orderlinetransactionclassification_AsyncOperations
 
 Same as asyncoperation entity [msdyn_orderlinetransactionclassification_AsyncOperations](asyncoperation.md#BKMK_msdyn_orderlinetransactionclassification_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -733,6 +737,7 @@ Same as asyncoperation entity [msdyn_orderlinetransactionclassification_AsyncOpe
 ### <a name="BKMK_msdyn_orderlinetransactionclassification_MailboxTrackingFolders"></a> msdyn_orderlinetransactionclassification_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_orderlinetransactionclassification_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_orderlinetransactionclassification_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -747,6 +752,7 @@ Same as mailboxtrackingfolder entity [msdyn_orderlinetransactionclassification_M
 ### <a name="BKMK_msdyn_orderlinetransactionclassification_UserEntityInstanceDatas"></a> msdyn_orderlinetransactionclassification_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_orderlinetransactionclassification_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_orderlinetransactionclassification_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -761,6 +767,7 @@ Same as userentityinstancedata entity [msdyn_orderlinetransactionclassification_
 ### <a name="BKMK_msdyn_orderlinetransactionclassification_ProcessSession"></a> msdyn_orderlinetransactionclassification_ProcessSession
 
 Same as processsession entity [msdyn_orderlinetransactionclassification_ProcessSession](processsession.md#BKMK_msdyn_orderlinetransactionclassification_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -775,6 +782,7 @@ Same as processsession entity [msdyn_orderlinetransactionclassification_ProcessS
 ### <a name="BKMK_msdyn_orderlinetransactionclassification_BulkDeleteFailures"></a> msdyn_orderlinetransactionclassification_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_orderlinetransactionclassification_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_orderlinetransactionclassification_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -789,6 +797,7 @@ Same as bulkdeletefailure entity [msdyn_orderlinetransactionclassification_BulkD
 ### <a name="BKMK_msdyn_orderlinetransactionclassification_PrincipalObjectAttributeAccesses"></a> msdyn_orderlinetransactionclassification_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_orderlinetransactionclassification_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_orderlinetransactionclassification_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -803,6 +812,7 @@ Same as principalobjectattributeaccess entity [msdyn_orderlinetransactionclassif
 ### <a name="BKMK_msdyn_orderlinetransactionclassification_Annotations"></a> msdyn_orderlinetransactionclassification_Annotations
 
 Same as annotation entity [msdyn_orderlinetransactionclassification_Annotations](annotation.md#BKMK_msdyn_orderlinetransactionclassification_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -817,6 +827,7 @@ Same as annotation entity [msdyn_orderlinetransactionclassification_Annotations]
 ### <a name="BKMK_msdyn_orderlinetransactionclassification_msdyn_orderlineresourcecategory_ContractLineTransactionCla"></a> msdyn_orderlinetransactionclassification_msdyn_orderlineresourcecategory_ContractLineTransactionCla
 
 Same as msdyn_orderlineresourcecategory entity [msdyn_orderlinetransactionclassification_msdyn_orderlineresourcecategory_ContractLineTransactionCla](msdyn_orderlineresourcecategory.md#BKMK_msdyn_orderlinetransactionclassification_msdyn_orderlineresourcecategory_ContractLineTransactionCla) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderlineresourcecategory|
@@ -831,6 +842,7 @@ Same as msdyn_orderlineresourcecategory entity [msdyn_orderlinetransactionclassi
 ### <a name="BKMK_msdyn_orderlinetransactionclassification_msdyn_orderlinetransactioncategory_ContractLineTransaction"></a> msdyn_orderlinetransactionclassification_msdyn_orderlinetransactioncategory_ContractLineTransaction
 
 Same as msdyn_orderlinetransactioncategory entity [msdyn_orderlinetransactionclassification_msdyn_orderlinetransactioncategory_ContractLineTransaction](msdyn_orderlinetransactioncategory.md#BKMK_msdyn_orderlinetransactionclassification_msdyn_orderlinetransactioncategory_ContractLineTransaction) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderlinetransactioncategory|

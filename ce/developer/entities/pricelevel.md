@@ -158,6 +158,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_BreakHoursBillable"></a> msdyn_BreakHoursBillable
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -182,6 +183,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_CopiedFromPriceLevel"></a> msdyn_CopiedFromPriceLevel
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the price level that this price level was copied from.|
@@ -197,6 +199,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Entity"></a> msdyn_Entity
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the entity for this price level.|
@@ -221,6 +224,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Module"></a> msdyn_Module
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the context for this price level i.e whether it is sales prices, cost prices or purchase prices|
@@ -244,6 +248,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_TimeUnit"></a> msdyn_TimeUnit
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the default unit of role based time on this price list|
@@ -723,6 +728,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_OrganizationId"></a> OrganizationId
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the organization|
@@ -842,6 +848,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_PriceLevel_SyncErrors"></a> PriceLevel_SyncErrors
 
 Same as syncerror entity [PriceLevel_SyncErrors](syncerror.md#BKMK_PriceLevel_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -856,6 +863,7 @@ Same as syncerror entity [PriceLevel_SyncErrors](syncerror.md#BKMK_PriceLevel_Sy
 ### <a name="BKMK_PriceLevel_AsyncOperations"></a> PriceLevel_AsyncOperations
 
 Same as asyncoperation entity [PriceLevel_AsyncOperations](asyncoperation.md#BKMK_PriceLevel_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -870,6 +878,7 @@ Same as asyncoperation entity [PriceLevel_AsyncOperations](asyncoperation.md#BKM
 ### <a name="BKMK_pricelevel_MailboxTrackingFolders"></a> pricelevel_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [pricelevel_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_pricelevel_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -884,6 +893,7 @@ Same as mailboxtrackingfolder entity [pricelevel_MailboxTrackingFolders](mailbox
 ### <a name="BKMK_userentityinstancedata_pricelevel"></a> userentityinstancedata_pricelevel
 
 Same as userentityinstancedata entity [userentityinstancedata_pricelevel](userentityinstancedata.md#BKMK_userentityinstancedata_pricelevel) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -898,6 +908,7 @@ Same as userentityinstancedata entity [userentityinstancedata_pricelevel](useren
 ### <a name="BKMK_PriceLevel_ProcessSessions"></a> PriceLevel_ProcessSessions
 
 Same as processsession entity [PriceLevel_ProcessSessions](processsession.md#BKMK_PriceLevel_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -912,6 +923,7 @@ Same as processsession entity [PriceLevel_ProcessSessions](processsession.md#BKM
 ### <a name="BKMK_PriceLevel_BulkDeleteFailures"></a> PriceLevel_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [PriceLevel_BulkDeleteFailures](bulkdeletefailure.md#BKMK_PriceLevel_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -926,6 +938,7 @@ Same as bulkdeletefailure entity [PriceLevel_BulkDeleteFailures](bulkdeletefailu
 ### <a name="BKMK_pricelevel_principalobjectattributeaccess"></a> pricelevel_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [pricelevel_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_pricelevel_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -940,6 +953,7 @@ Same as principalobjectattributeaccess entity [pricelevel_principalobjectattribu
 ### <a name="BKMK_pricelevel_connections1"></a> pricelevel_connections1
 
 Same as connection entity [pricelevel_connections1](connection.md#BKMK_pricelevel_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -954,6 +968,7 @@ Same as connection entity [pricelevel_connections1](connection.md#BKMK_priceleve
 ### <a name="BKMK_pricelevel_connections2"></a> pricelevel_connections2
 
 Same as connection entity [pricelevel_connections2](connection.md#BKMK_pricelevel_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -968,6 +983,7 @@ Same as connection entity [pricelevel_connections2](connection.md#BKMK_priceleve
 ### <a name="BKMK_price_level_product_price_levels"></a> price_level_product_price_levels
 
 Same as productpricelevel entity [price_level_product_price_levels](productpricelevel.md#BKMK_price_level_product_price_levels) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|productpricelevel|
@@ -982,6 +998,7 @@ Same as productpricelevel entity [price_level_product_price_levels](productprice
 ### <a name="BKMK_price_level_accounts"></a> price_level_accounts
 
 Same as account entity [price_level_accounts](account.md#BKMK_price_level_accounts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|account|
@@ -996,6 +1013,7 @@ Same as account entity [price_level_accounts](account.md#BKMK_price_level_accoun
 ### <a name="BKMK_price_level_contacts"></a> price_level_contacts
 
 Same as contact entity [price_level_contacts](contact.md#BKMK_price_level_contacts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contact|
@@ -1010,6 +1028,7 @@ Same as contact entity [price_level_contacts](contact.md#BKMK_price_level_contac
 ### <a name="BKMK_price_level_products"></a> price_level_products
 
 Same as product entity [price_level_products](product.md#BKMK_price_level_products) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|product|
@@ -1024,6 +1043,7 @@ Same as product entity [price_level_products](product.md#BKMK_price_level_produc
 ### <a name="BKMK_PriceList_Campaigns"></a> PriceList_Campaigns
 
 Same as campaign entity [PriceList_Campaigns](campaign.md#BKMK_PriceList_Campaigns) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaign|
@@ -1038,6 +1058,7 @@ Same as campaign entity [PriceList_Campaigns](campaign.md#BKMK_PriceList_Campaig
 ### <a name="BKMK_price_level_invoices"></a> price_level_invoices
 
 Same as invoice entity [price_level_invoices](invoice.md#BKMK_price_level_invoices) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|invoice|
@@ -1052,6 +1073,7 @@ Same as invoice entity [price_level_invoices](invoice.md#BKMK_price_level_invoic
 ### <a name="BKMK_price_level_opportunties"></a> price_level_opportunties
 
 Same as opportunity entity [price_level_opportunties](opportunity.md#BKMK_price_level_opportunties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunity|
@@ -1066,6 +1088,7 @@ Same as opportunity entity [price_level_opportunties](opportunity.md#BKMK_price_
 ### <a name="BKMK_price_level_orders"></a> price_level_orders
 
 Same as salesorder entity [price_level_orders](salesorder.md#BKMK_price_level_orders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|salesorder|
@@ -1080,6 +1103,7 @@ Same as salesorder entity [price_level_orders](salesorder.md#BKMK_price_level_or
 ### <a name="BKMK_price_level_quotes"></a> price_level_quotes
 
 Same as quote entity [price_level_quotes](quote.md#BKMK_price_level_quotes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quote|
@@ -1094,6 +1118,7 @@ Same as quote entity [price_level_quotes](quote.md#BKMK_price_level_quotes) Many
 ### <a name="BKMK_msdyn_pricelevel_msdyn_actual_PriceList"></a> msdyn_pricelevel_msdyn_actual_PriceList
 
 Same as msdyn_actual entity [msdyn_pricelevel_msdyn_actual_PriceList](msdyn_actual.md#BKMK_msdyn_pricelevel_msdyn_actual_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_actual|
@@ -1108,6 +1133,7 @@ Same as msdyn_actual entity [msdyn_pricelevel_msdyn_actual_PriceList](msdyn_actu
 ### <a name="BKMK_msdyn_pricelevel_msdyn_accountpricelist_PriceList"></a> msdyn_pricelevel_msdyn_accountpricelist_PriceList
 
 Same as msdyn_accountpricelist entity [msdyn_pricelevel_msdyn_accountpricelist_PriceList](msdyn_accountpricelist.md#BKMK_msdyn_pricelevel_msdyn_accountpricelist_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_accountpricelist|
@@ -1122,6 +1148,7 @@ Same as msdyn_accountpricelist entity [msdyn_pricelevel_msdyn_accountpricelist_P
 ### <a name="BKMK_msdyn_pricelevel_msdyn_contactpricelist_PriceList"></a> msdyn_pricelevel_msdyn_contactpricelist_PriceList
 
 Same as msdyn_contactpricelist entity [msdyn_pricelevel_msdyn_contactpricelist_PriceList](msdyn_contactpricelist.md#BKMK_msdyn_pricelevel_msdyn_contactpricelist_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_contactpricelist|
@@ -1136,6 +1163,7 @@ Same as msdyn_contactpricelist entity [msdyn_pricelevel_msdyn_contactpricelist_P
 ### <a name="BKMK_msdyn_pricelevel_msdyn_estimateline_PriceList"></a> msdyn_pricelevel_msdyn_estimateline_PriceList
 
 Same as msdyn_estimateline entity [msdyn_pricelevel_msdyn_estimateline_PriceList](msdyn_estimateline.md#BKMK_msdyn_pricelevel_msdyn_estimateline_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_estimateline|
@@ -1150,6 +1178,7 @@ Same as msdyn_estimateline entity [msdyn_pricelevel_msdyn_estimateline_PriceList
 ### <a name="BKMK_msdyn_pricelevel_msdyn_invoicelinetransaction_PriceList"></a> msdyn_pricelevel_msdyn_invoicelinetransaction_PriceList
 
 Same as msdyn_invoicelinetransaction entity [msdyn_pricelevel_msdyn_invoicelinetransaction_PriceList](msdyn_invoicelinetransaction.md#BKMK_msdyn_pricelevel_msdyn_invoicelinetransaction_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_invoicelinetransaction|
@@ -1164,6 +1193,7 @@ Same as msdyn_invoicelinetransaction entity [msdyn_pricelevel_msdyn_invoicelinet
 ### <a name="BKMK_msdyn_pricelevel_msdyn_journalline_PriceList"></a> msdyn_pricelevel_msdyn_journalline_PriceList
 
 Same as msdyn_journalline entity [msdyn_pricelevel_msdyn_journalline_PriceList](msdyn_journalline.md#BKMK_msdyn_pricelevel_msdyn_journalline_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_journalline|
@@ -1178,6 +1208,7 @@ Same as msdyn_journalline entity [msdyn_pricelevel_msdyn_journalline_PriceList](
 ### <a name="BKMK_msdyn_pricelevel_msdyn_opportunitylinetransaction_PriceList"></a> msdyn_pricelevel_msdyn_opportunitylinetransaction_PriceList
 
 Same as msdyn_opportunitylinetransaction entity [msdyn_pricelevel_msdyn_opportunitylinetransaction_PriceList](msdyn_opportunitylinetransaction.md#BKMK_msdyn_pricelevel_msdyn_opportunitylinetransaction_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_opportunitylinetransaction|
@@ -1192,6 +1223,7 @@ Same as msdyn_opportunitylinetransaction entity [msdyn_pricelevel_msdyn_opportun
 ### <a name="BKMK_msdyn_pricelevel_msdyn_opportunitypricelist_PriceList"></a> msdyn_pricelevel_msdyn_opportunitypricelist_PriceList
 
 Same as msdyn_opportunitypricelist entity [msdyn_pricelevel_msdyn_opportunitypricelist_PriceList](msdyn_opportunitypricelist.md#BKMK_msdyn_pricelevel_msdyn_opportunitypricelist_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_opportunitypricelist|
@@ -1206,6 +1238,7 @@ Same as msdyn_opportunitypricelist entity [msdyn_pricelevel_msdyn_opportunitypri
 ### <a name="BKMK_msdyn_pricelevel_msdyn_orderlinetransaction_PriceList"></a> msdyn_pricelevel_msdyn_orderlinetransaction_PriceList
 
 Same as msdyn_orderlinetransaction entity [msdyn_pricelevel_msdyn_orderlinetransaction_PriceList](msdyn_orderlinetransaction.md#BKMK_msdyn_pricelevel_msdyn_orderlinetransaction_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderlinetransaction|
@@ -1220,6 +1253,7 @@ Same as msdyn_orderlinetransaction entity [msdyn_pricelevel_msdyn_orderlinetrans
 ### <a name="BKMK_msdyn_pricelevel_msdyn_orderpricelist_PriceList"></a> msdyn_pricelevel_msdyn_orderpricelist_PriceList
 
 Same as msdyn_orderpricelist entity [msdyn_pricelevel_msdyn_orderpricelist_PriceList](msdyn_orderpricelist.md#BKMK_msdyn_pricelevel_msdyn_orderpricelist_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderpricelist|
@@ -1234,6 +1268,7 @@ Same as msdyn_orderpricelist entity [msdyn_pricelevel_msdyn_orderpricelist_Price
 ### <a name="BKMK_msdyn_pricelevel_msdyn_projectparameterpricelist_PriceList"></a> msdyn_pricelevel_msdyn_projectparameterpricelist_PriceList
 
 Same as msdyn_projectparameterpricelist entity [msdyn_pricelevel_msdyn_projectparameterpricelist_PriceList](msdyn_projectparameterpricelist.md#BKMK_msdyn_pricelevel_msdyn_projectparameterpricelist_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projectparameterpricelist|
@@ -1248,6 +1283,7 @@ Same as msdyn_projectparameterpricelist entity [msdyn_pricelevel_msdyn_projectpa
 ### <a name="BKMK_msdyn_pricelevel_msdyn_projectpricelist_PriceList"></a> msdyn_pricelevel_msdyn_projectpricelist_PriceList
 
 Same as msdyn_projectpricelist entity [msdyn_pricelevel_msdyn_projectpricelist_PriceList](msdyn_projectpricelist.md#BKMK_msdyn_pricelevel_msdyn_projectpricelist_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projectpricelist|
@@ -1262,6 +1298,7 @@ Same as msdyn_projectpricelist entity [msdyn_pricelevel_msdyn_projectpricelist_P
 ### <a name="BKMK_msdyn_pricelevel_msdyn_quotelinetransaction_PriceList"></a> msdyn_pricelevel_msdyn_quotelinetransaction_PriceList
 
 Same as msdyn_quotelinetransaction entity [msdyn_pricelevel_msdyn_quotelinetransaction_PriceList](msdyn_quotelinetransaction.md#BKMK_msdyn_pricelevel_msdyn_quotelinetransaction_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelinetransaction|
@@ -1276,6 +1313,7 @@ Same as msdyn_quotelinetransaction entity [msdyn_pricelevel_msdyn_quotelinetrans
 ### <a name="BKMK_msdyn_pricelevel_msdyn_quotepricelist_PriceList"></a> msdyn_pricelevel_msdyn_quotepricelist_PriceList
 
 Same as msdyn_quotepricelist entity [msdyn_pricelevel_msdyn_quotepricelist_PriceList](msdyn_quotepricelist.md#BKMK_msdyn_pricelevel_msdyn_quotepricelist_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotepricelist|
@@ -1290,6 +1328,7 @@ Same as msdyn_quotepricelist entity [msdyn_pricelevel_msdyn_quotepricelist_Price
 ### <a name="BKMK_msdyn_pricelevel_msdyn_resourcecategorypricelevel_PriceList"></a> msdyn_pricelevel_msdyn_resourcecategorypricelevel_PriceList
 
 Same as msdyn_resourcecategorypricelevel entity [msdyn_pricelevel_msdyn_resourcecategorypricelevel_PriceList](msdyn_resourcecategorypricelevel.md#BKMK_msdyn_pricelevel_msdyn_resourcecategorypricelevel_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourcecategorypricelevel|
@@ -1304,6 +1343,7 @@ Same as msdyn_resourcecategorypricelevel entity [msdyn_pricelevel_msdyn_resource
 ### <a name="BKMK_msdyn_pricelevel_msdyn_transactioncategorypricelevel_PriceList"></a> msdyn_pricelevel_msdyn_transactioncategorypricelevel_PriceList
 
 Same as msdyn_transactioncategorypricelevel entity [msdyn_pricelevel_msdyn_transactioncategorypricelevel_PriceList](msdyn_transactioncategorypricelevel.md#BKMK_msdyn_pricelevel_msdyn_transactioncategorypricelevel_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_transactioncategorypricelevel|
@@ -1318,6 +1358,7 @@ Same as msdyn_transactioncategorypricelevel entity [msdyn_pricelevel_msdyn_trans
 ### <a name="BKMK_msdyn_pricelevel_pricelevel_CopiedFromPriceLevel"></a> msdyn_pricelevel_pricelevel_CopiedFromPriceLevel
 
 Same as pricelevel entity [msdyn_pricelevel_pricelevel_CopiedFromPriceLevel](pricelevel.md#BKMK_msdyn_pricelevel_pricelevel_CopiedFromPriceLevel) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|pricelevel|
@@ -1332,6 +1373,7 @@ Same as pricelevel entity [msdyn_pricelevel_pricelevel_CopiedFromPriceLevel](pri
 ### <a name="BKMK_msdyn_pricelevel_msdyn_agreement_PriceList"></a> msdyn_pricelevel_msdyn_agreement_PriceList
 
 Same as msdyn_agreement entity [msdyn_pricelevel_msdyn_agreement_PriceList](msdyn_agreement.md#BKMK_msdyn_pricelevel_msdyn_agreement_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreement|
@@ -1346,6 +1388,7 @@ Same as msdyn_agreement entity [msdyn_pricelevel_msdyn_agreement_PriceList](msdy
 ### <a name="BKMK_msdyn_pricelevel_msdyn_agreementbookingproduct_PriceList"></a> msdyn_pricelevel_msdyn_agreementbookingproduct_PriceList
 
 Same as msdyn_agreementbookingproduct entity [msdyn_pricelevel_msdyn_agreementbookingproduct_PriceList](msdyn_agreementbookingproduct.md#BKMK_msdyn_pricelevel_msdyn_agreementbookingproduct_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementbookingproduct|
@@ -1360,6 +1403,7 @@ Same as msdyn_agreementbookingproduct entity [msdyn_pricelevel_msdyn_agreementbo
 ### <a name="BKMK_msdyn_pricelevel_msdyn_agreementbookingservice_PriceList"></a> msdyn_pricelevel_msdyn_agreementbookingservice_PriceList
 
 Same as msdyn_agreementbookingservice entity [msdyn_pricelevel_msdyn_agreementbookingservice_PriceList](msdyn_agreementbookingservice.md#BKMK_msdyn_pricelevel_msdyn_agreementbookingservice_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementbookingservice|
@@ -1374,6 +1418,7 @@ Same as msdyn_agreementbookingservice entity [msdyn_pricelevel_msdyn_agreementbo
 ### <a name="BKMK_msdyn_pricelevel_msdyn_agreementinvoiceproduct_PriceList"></a> msdyn_pricelevel_msdyn_agreementinvoiceproduct_PriceList
 
 Same as msdyn_agreementinvoiceproduct entity [msdyn_pricelevel_msdyn_agreementinvoiceproduct_PriceList](msdyn_agreementinvoiceproduct.md#BKMK_msdyn_pricelevel_msdyn_agreementinvoiceproduct_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementinvoiceproduct|
@@ -1388,6 +1433,7 @@ Same as msdyn_agreementinvoiceproduct entity [msdyn_pricelevel_msdyn_agreementin
 ### <a name="BKMK_msdyn_pricelevel_msdyn_fieldservicepricelistitem_PriceList"></a> msdyn_pricelevel_msdyn_fieldservicepricelistitem_PriceList
 
 Same as msdyn_fieldservicepricelistitem entity [msdyn_pricelevel_msdyn_fieldservicepricelistitem_PriceList](msdyn_fieldservicepricelistitem.md#BKMK_msdyn_pricelevel_msdyn_fieldservicepricelistitem_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_fieldservicepricelistitem|
@@ -1402,6 +1448,7 @@ Same as msdyn_fieldservicepricelistitem entity [msdyn_pricelevel_msdyn_fieldserv
 ### <a name="BKMK_msdyn_pricelevel_msdyn_quotebookingproduct_PriceList"></a> msdyn_pricelevel_msdyn_quotebookingproduct_PriceList
 
 Same as msdyn_quotebookingproduct entity [msdyn_pricelevel_msdyn_quotebookingproduct_PriceList](msdyn_quotebookingproduct.md#BKMK_msdyn_pricelevel_msdyn_quotebookingproduct_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotebookingproduct|
@@ -1416,6 +1463,7 @@ Same as msdyn_quotebookingproduct entity [msdyn_pricelevel_msdyn_quotebookingpro
 ### <a name="BKMK_msdyn_pricelevel_msdyn_quotebookingservice_PriceList"></a> msdyn_pricelevel_msdyn_quotebookingservice_PriceList
 
 Same as msdyn_quotebookingservice entity [msdyn_pricelevel_msdyn_quotebookingservice_PriceList](msdyn_quotebookingservice.md#BKMK_msdyn_pricelevel_msdyn_quotebookingservice_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotebookingservice|
@@ -1430,6 +1478,7 @@ Same as msdyn_quotebookingservice entity [msdyn_pricelevel_msdyn_quotebookingser
 ### <a name="BKMK_msdyn_pricelevel_msdyn_rma_PriceList"></a> msdyn_pricelevel_msdyn_rma_PriceList
 
 Same as msdyn_rma entity [msdyn_pricelevel_msdyn_rma_PriceList](msdyn_rma.md#BKMK_msdyn_pricelevel_msdyn_rma_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rma|
@@ -1444,6 +1493,7 @@ Same as msdyn_rma entity [msdyn_pricelevel_msdyn_rma_PriceList](msdyn_rma.md#BKM
 ### <a name="BKMK_msdyn_pricelevel_msdyn_rmaproduct_PriceList"></a> msdyn_pricelevel_msdyn_rmaproduct_PriceList
 
 Same as msdyn_rmaproduct entity [msdyn_pricelevel_msdyn_rmaproduct_PriceList](msdyn_rmaproduct.md#BKMK_msdyn_pricelevel_msdyn_rmaproduct_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rmaproduct|
@@ -1458,6 +1508,7 @@ Same as msdyn_rmaproduct entity [msdyn_pricelevel_msdyn_rmaproduct_PriceList](ms
 ### <a name="BKMK_msdyn_pricelevel_msdyn_workorder_PriceList"></a> msdyn_pricelevel_msdyn_workorder_PriceList
 
 Same as msdyn_workorder entity [msdyn_pricelevel_msdyn_workorder_PriceList](msdyn_workorder.md#BKMK_msdyn_pricelevel_msdyn_workorder_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorder|
@@ -1472,6 +1523,7 @@ Same as msdyn_workorder entity [msdyn_pricelevel_msdyn_workorder_PriceList](msdy
 ### <a name="BKMK_msdyn_pricelevel_msdyn_workorderproduct_PriceList"></a> msdyn_pricelevel_msdyn_workorderproduct_PriceList
 
 Same as msdyn_workorderproduct entity [msdyn_pricelevel_msdyn_workorderproduct_PriceList](msdyn_workorderproduct.md#BKMK_msdyn_pricelevel_msdyn_workorderproduct_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorderproduct|
@@ -1486,6 +1538,7 @@ Same as msdyn_workorderproduct entity [msdyn_pricelevel_msdyn_workorderproduct_P
 ### <a name="BKMK_msdyn_pricelevel_msdyn_workorderservice_PriceList"></a> msdyn_pricelevel_msdyn_workorderservice_PriceList
 
 Same as msdyn_workorderservice entity [msdyn_pricelevel_msdyn_workorderservice_PriceList](msdyn_workorderservice.md#BKMK_msdyn_pricelevel_msdyn_workorderservice_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorderservice|
@@ -1500,6 +1553,7 @@ Same as msdyn_workorderservice entity [msdyn_pricelevel_msdyn_workorderservice_P
 ### <a name="BKMK_msdyn_pricelevel_msdyn_workordertype_PriceList"></a> msdyn_pricelevel_msdyn_workordertype_PriceList
 
 Same as msdyn_workordertype entity [msdyn_pricelevel_msdyn_workordertype_PriceList](msdyn_workordertype.md#BKMK_msdyn_pricelevel_msdyn_workordertype_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workordertype|
@@ -1514,6 +1568,7 @@ Same as msdyn_workordertype entity [msdyn_pricelevel_msdyn_workordertype_PriceLi
 ### <a name="BKMK_msdyn_pricelevel_opportunityproduct_PriceList"></a> msdyn_pricelevel_opportunityproduct_PriceList
 
 Same as opportunityproduct entity [msdyn_pricelevel_opportunityproduct_PriceList](opportunityproduct.md#BKMK_msdyn_pricelevel_opportunityproduct_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityproduct|
@@ -1528,6 +1583,7 @@ Same as opportunityproduct entity [msdyn_pricelevel_opportunityproduct_PriceList
 ### <a name="BKMK_msdyn_pricelevel_quotedetail_PriceList"></a> msdyn_pricelevel_quotedetail_PriceList
 
 Same as quotedetail entity [msdyn_pricelevel_quotedetail_PriceList](quotedetail.md#BKMK_msdyn_pricelevel_quotedetail_PriceList) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quotedetail|

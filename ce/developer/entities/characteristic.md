@@ -143,6 +143,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_requireapproval"></a> msdyn_requireapproval
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Require approval|
@@ -699,6 +700,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Characteristic_SyncErrors"></a> Characteristic_SyncErrors
 
 Same as syncerror entity [Characteristic_SyncErrors](syncerror.md#BKMK_Characteristic_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -713,6 +715,7 @@ Same as syncerror entity [Characteristic_SyncErrors](syncerror.md#BKMK_Character
 ### <a name="BKMK_characteristic_DuplicateMatchingRecord"></a> characteristic_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [characteristic_DuplicateMatchingRecord](duplicaterecord.md#BKMK_characteristic_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -727,6 +730,7 @@ Same as duplicaterecord entity [characteristic_DuplicateMatchingRecord](duplicat
 ### <a name="BKMK_characteristic_DuplicateBaseRecord"></a> characteristic_DuplicateBaseRecord
 
 Same as duplicaterecord entity [characteristic_DuplicateBaseRecord](duplicaterecord.md#BKMK_characteristic_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -741,6 +745,7 @@ Same as duplicaterecord entity [characteristic_DuplicateBaseRecord](duplicaterec
 ### <a name="BKMK_characteristic_AsyncOperations"></a> characteristic_AsyncOperations
 
 Same as asyncoperation entity [characteristic_AsyncOperations](asyncoperation.md#BKMK_characteristic_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -755,6 +760,7 @@ Same as asyncoperation entity [characteristic_AsyncOperations](asyncoperation.md
 ### <a name="BKMK_characteristic_MailboxTrackingFolders"></a> characteristic_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [characteristic_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_characteristic_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -769,6 +775,7 @@ Same as mailboxtrackingfolder entity [characteristic_MailboxTrackingFolders](mai
 ### <a name="BKMK_characteristic_UserEntityInstanceDatas"></a> characteristic_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [characteristic_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_characteristic_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -783,6 +790,7 @@ Same as userentityinstancedata entity [characteristic_UserEntityInstanceDatas](u
 ### <a name="BKMK_characteristic_ProcessSession"></a> characteristic_ProcessSession
 
 Same as processsession entity [characteristic_ProcessSession](processsession.md#BKMK_characteristic_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -797,6 +805,7 @@ Same as processsession entity [characteristic_ProcessSession](processsession.md#
 ### <a name="BKMK_characteristic_BulkDeleteFailures"></a> characteristic_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [characteristic_BulkDeleteFailures](bulkdeletefailure.md#BKMK_characteristic_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -811,6 +820,7 @@ Same as bulkdeletefailure entity [characteristic_BulkDeleteFailures](bulkdeletef
 ### <a name="BKMK_characteristic_PrincipalObjectAttributeAccess"></a> characteristic_PrincipalObjectAttributeAccess
 
 Same as principalobjectattributeaccess entity [characteristic_PrincipalObjectAttributeAccess](principalobjectattributeaccess.md#BKMK_characteristic_PrincipalObjectAttributeAccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -825,6 +835,7 @@ Same as principalobjectattributeaccess entity [characteristic_PrincipalObjectAtt
 ### <a name="BKMK_characteristic_bookableresourcecharacteristic_Characteristic"></a> characteristic_bookableresourcecharacteristic_Characteristic
 
 Same as bookableresourcecharacteristic entity [characteristic_bookableresourcecharacteristic_Characteristic](bookableresourcecharacteristic.md#BKMK_characteristic_bookableresourcecharacteristic_Characteristic) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcecharacteristic|
@@ -839,6 +850,7 @@ Same as bookableresourcecharacteristic entity [characteristic_bookableresourcech
 ### <a name="BKMK_msdyn_characteristic_msdyn_requirementcharacteristic_characteristic"></a> msdyn_characteristic_msdyn_requirementcharacteristic_characteristic
 
 Same as msdyn_requirementcharacteristic entity [msdyn_characteristic_msdyn_requirementcharacteristic_characteristic](msdyn_requirementcharacteristic.md#BKMK_msdyn_characteristic_msdyn_requirementcharacteristic_characteristic) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_requirementcharacteristic|
@@ -853,6 +865,7 @@ Same as msdyn_requirementcharacteristic entity [msdyn_characteristic_msdyn_requi
 ### <a name="BKMK_msdyn_characteristic_msdyn_characteristicreqforteammember_characteristic"></a> msdyn_characteristic_msdyn_characteristicreqforteammember_characteristic
 
 Same as msdyn_characteristicreqforteammember entity [msdyn_characteristic_msdyn_characteristicreqforteammember_characteristic](msdyn_characteristicreqforteammember.md#BKMK_msdyn_characteristic_msdyn_characteristicreqforteammember_characteristic) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_characteristicreqforteammember|
@@ -867,6 +880,7 @@ Same as msdyn_characteristicreqforteammember entity [msdyn_characteristic_msdyn_
 ### <a name="BKMK_msdyn_characteristic_msdyn_rolecompetencyrequirement_characteristic"></a> msdyn_characteristic_msdyn_rolecompetencyrequirement_characteristic
 
 Same as msdyn_rolecompetencyrequirement entity [msdyn_characteristic_msdyn_rolecompetencyrequirement_characteristic](msdyn_rolecompetencyrequirement.md#BKMK_msdyn_characteristic_msdyn_rolecompetencyrequirement_characteristic) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rolecompetencyrequirement|
@@ -881,6 +895,7 @@ Same as msdyn_rolecompetencyrequirement entity [msdyn_characteristic_msdyn_rolec
 ### <a name="BKMK_msdyn_characteristic_msdyn_incidenttypecharacteristic_Characteristic"></a> msdyn_characteristic_msdyn_incidenttypecharacteristic_Characteristic
 
 Same as msdyn_incidenttypecharacteristic entity [msdyn_characteristic_msdyn_incidenttypecharacteristic_Characteristic](msdyn_incidenttypecharacteristic.md#BKMK_msdyn_characteristic_msdyn_incidenttypecharacteristic_Characteristic) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_incidenttypecharacteristic|
@@ -895,6 +910,7 @@ Same as msdyn_incidenttypecharacteristic entity [msdyn_characteristic_msdyn_inci
 ### <a name="BKMK_msdyn_characteristic_msdyn_workordercharacteristic_Characteristic"></a> msdyn_characteristic_msdyn_workordercharacteristic_Characteristic
 
 Same as msdyn_workordercharacteristic entity [msdyn_characteristic_msdyn_workordercharacteristic_Characteristic](msdyn_workordercharacteristic.md#BKMK_msdyn_characteristic_msdyn_workordercharacteristic_Characteristic) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workordercharacteristic|

@@ -52,23 +52,23 @@ Below is an overview of the general process for creating and sending a marketing
 
 1. Go to **Marketing Execution** &gt; **Marketing emails** to open the marketing email list view.
 
-1. Select **New** to create a new message.
+2. Select **New** to create a new message.
 
-1. Choose a template, which establishes the basic format of your message.
+3. Choose a template, which establishes the basic format of your message.
 
-1. Design your message by using the drag-and-drop designer or HTML editor.
+4. Design your message by using the drag-and-drop designer or HTML editor.
 
-1. Add a compelling **Subject** for your message.
+5. Add a compelling **Subject** for your message.
 
-1. Preview your message by using the **Preview** tab and by sending test messages.
+6. Preview your message by using the **Preview** tab and by sending test messages.
 
-1. Save your work as often as you want. The message remains in draft status until you go live with it.
+7. Save your work as often as you want. The message remains in draft status until you go live with it.
 
-1. Run an error check on your message. This makes sure you've included all the required elements and haven't introduced any invalid code. If errors are found, you'll see error messages with advice about how to fix them. Fix the errors as suggested, and continue to recheck until the message passes the error check.
+8. Run an error check on your message. This makes sure you've included all the required elements and haven't introduced any invalid code. If errors are found, you'll see error messages with advice about how to fix them. Fix the errors as suggested, and continue to recheck until the message passes the error check.
 
-1. Select **Go Live**. A final error check is done automatically as part of this process, so you won't be able to go live with a message unless it passes the check.
+9. Select **Go Live**. A final error check is done automatically as part of this process, so you won't be able to go live with a message unless it passes the check.
 
-1. The message is now live and ready on your server, but it hasn't been addressed or sent yet; to do that, add it to a customer journey. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
+10. The message is now live and ready on your server, but it hasn't been addressed or sent yet; to do that, add it to a customer journey. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
 
 ## Establish your basic layout by choosing the right template
 
@@ -124,16 +124,17 @@ To view, edit, create, or delete a content-settings set, go to **Templates** &gt
 
 Each content-settings record provides the settings described in the following table.
 
-|**Setting**  |**Description**  |
-|---------|---------|
-|**Name**     |A name for the customer-settings set. This is the name shown when you're assigning content settings to a customer journey or email-message preview.|
-|**Owner**     |The [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] user who created the set.  |
-|**Subscription Center**     |Specify an existing marketing page that is set up as a subscription center. Select the **&lt;/&gt;** button to choose from a list of available pages. All marketing email messages must include a valid subscription-center link taken from a content-settings set. |
-|**Address Main**     |Enter the main part of your organization's postal address. All marketing email messages must include a valid main address taken from a content-settings set.|
-|**Address Line 2**     |Enter supplemental postal address information (if needed).|
-|**Default**     |Set to **Yes** to make the current content-settings set the default for all new customer journeys. There must always be exactly one default; if you change the default, the existing default will automatically be changed to **No**.|
-|**Forward to a Friend**     |Specify an existing marketing page that is set up as a forward-to-a-friend page. Select the **&lt;/&gt;** button to choose from a list of available pages.   |
-|**[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] URL**, **[!INCLUDE[tn-twitter](../includes/tn-twitter.md)] URL**, **[!INCLUDE[tn-facebook](../includes/tn-facebook.md)] URL**, and **[!INCLUDE[tn-youtube](../includes/tn-youtube.md)] URL**.      |For each of these social-media services, enter the landing page for your organization. |
+
+|                                                                                                                     **Setting**                                                                                                                     |                                                                                                                           **Description**                                                                                                                           |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                                                                                      **Name**                                                                                                                       |                                                         A name for the customer-settings set. This is the name shown when you're assigning content settings to a customer journey or email-message preview.                                                         |
+|                                                                                                                      **Owner**                                                                                                                      |                                                                                      The [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] user who created the set.                                                                                      |
+|                                                                                                               **Subscription Center**                                                                                                               | Specify an existing marketing page that is set up as a subscription center. Select the **&lt;/&gt;** button to choose from a list of available pages. All marketing email messages must include a valid subscription-center link taken from a content-settings set. |
+|                                                                                                                  **Address Main**                                                                                                                   |                                                    Enter the main part of your organization's postal address. All marketing email messages must include a valid main address taken from a content-settings set.                                                     |
+|                                                                                                                 **Address Line 2**                                                                                                                  |                                                                                                     Enter supplemental postal address information (if needed).                                                                                                      |
+|                                                                                                                     **Default**                                                                                                                     |                Set to **Yes** to make the current content-settings set the default for all new customer journeys. There must always be exactly one default; if you change the default, the existing default will automatically be changed to **No**.                |
+|                                                                                                               **Forward to a Friend**                                                                                                               |                                                     Specify an existing marketing page that is set up as a forward-to-a-friend page. Select the **&lt;/&gt;** button to choose from a list of available pages.                                                      |
+| **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] URL**, **[!INCLUDE[tn-twitter](../includes/tn-twitter.md)] URL**, **[!INCLUDE[tn-facebook](../includes/tn-facebook.md)] URL**, and **[!INCLUDE[tn-youtube](../includes/tn-youtube.md)] URL**. |                                                                                       For each of these social-media services, enter the landing page for your organization.                                                                                        |
 
 ### Use assist-edit to place standard dynamic content
 

@@ -36,15 +36,15 @@ To delete data in bulk, you have to submit a bulk delete job by using the <xref:
   
  A bulk delete job is represented by the bulk delete operation entity. The schema name for this entity is `BulkDeleteOperation`. A bulk delete operation record includes the following information:  
   
--   Number of records that the bulk delete job deleted.  
+- Number of records that the bulk delete job deleted.  
   
--   Number of records that the bulk delete job failed to delete.  
+- Number of records that the bulk delete job failed to delete.  
   
--   Whether the bulk delete job is a recurring job or not.  
+- Whether the bulk delete job is a recurring job or not.  
   
--   Start time of the bulk delete job.  
+- Start time of the bulk delete job.  
   
- A bulk delete job only deletes records that are created before the job starts to run.  
+  A bulk delete job only deletes records that are created before the job starts to run.  
   
 > [!NOTE]
 >  If a bulk delete job fails or ends prematurely, any records that were deleted before the failure or ending of the job are not rolled back and remain deleted. The failures of the `BulkDeleteOperation` are stored in the `BulkDeleteFailure` records and can be retrieved by using the          <xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> message or the  <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> message.  

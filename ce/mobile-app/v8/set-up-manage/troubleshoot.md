@@ -64,10 +64,10 @@ If you receive this error:
   
 ##### If you’re using a computer or tablet  
   
-|||  
-|-|-|  
-|**Users:**|Notify your [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] administrator that you received this error.|  
-|**Admins:**|To enable the [!INCLUDE[pn_microsoft_dynamics_crm_for_windows_81](../../../includes/pn-microsoft-dynamics-crm-for-windows-81.md)] app for on-premises [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] deployments, you need to make some configuration changes. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Set up Dynamics 365 for phones and tablets](set-up.md) **Important:** [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] on-premises deployments require Windows 10 and the [Dynamics 365 for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909).|  
+|             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Users:**  |                                                                                                                                                                                                                                                                     Notify your [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] administrator that you received this error.                                                                                                                                                                                                                                                                     |
+| **Admins:** | To enable the [!INCLUDE[pn_microsoft_dynamics_crm_for_windows_81](../../../includes/pn-microsoft-dynamics-crm-for-windows-81.md)] app for on-premises [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] deployments, you need to make some configuration changes. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Set up Dynamics 365 for phones and tablets](set-up.md) **Important:** [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] on-premises deployments require Windows 10 and the [Dynamics 365 for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909). |
   
 ##### If you’re using a Windows phone  
  You received this error because you’re trying to connect to an on-premises deployment of [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)], which is  not supported for your version on Windows Phones. Windows Phone connection to [!INCLUDE[pn_crm_2016](../../../includes/pn-crm-2016.md)] on-premises requires the [Dynamics 365 for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909). [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Support for Dynamics 365 for phones and tablets](support.md)  
@@ -78,41 +78,41 @@ If you receive this error:
   
  If you’re an admin, you can avoid users getting this error by making sure all mobile users have access to the sales dashboard:  
   
-1.  In the web app, go to **Settings > Customizations > Customize the System**.  
+1. In the web app, go to **Settings > Customizations > Customize the System**.  
   
-2.  Click **Dashboards**.  
+2. Click **Dashboards**.  
   
-3.  Select **Sales Dashboard**.  
+3. Select **Sales Dashboard**.  
   
-4.  Click **Enable Security Roles**.  
+4. Click **Enable Security Roles**.  
   
-5.  Select **Display to everyone** and then click **OK**. If you prefer to display only to select security roles, be sure to select your user’s security role.  
+5. Select **Display to everyone** and then click **OK**. If you prefer to display only to select security roles, be sure to select your user’s security role.  
   
-6.  Click **Publish**.  
+6. Click **Publish**.  
   
-7.  Have your user close and open the mobile app so your dashboard changes will download.  
+7. Have your user close and open the mobile app so your dashboard changes will download.  
   
- If you’re an end user and you’re seeing this message on your home page, you can choose a different dashboard and set it as your home page:  
+   If you’re an end user and you’re seeing this message on your home page, you can choose a different dashboard and set it as your home page:  
   
-1.  From the mobile app, tap the menu and then tap **Dashboards**.  
+8. From the mobile app, tap the menu and then tap **Dashboards**.  
   
-2.  On the command bar, tap **Select Dashboard** and then select the dashboard you would like to use as your home page.  
+9. On the command bar, tap **Select Dashboard** and then select the dashboard you would like to use as your home page.  
   
-3.  On the command bar, tap **Set as Home**.  
+10. On the command bar, tap **Set as Home**.  
   
- If you’re an end user and you’re seeing this message on the dashboards page, you can create a personal dashboard through the web app and enable it for mobile:  
+    If you’re an end user and you’re seeing this message on the dashboards page, you can create a personal dashboard through the web app and enable it for mobile:  
   
-1.  In the web app, go to **Sales > Dashboards**.  
+11. In the web app, go to **Sales > Dashboards**.  
   
-2.  Click **New**.  
+12. Click **New**.  
   
-3.  Click **Properties**.  
+13. Click **Properties**.  
   
-4.  Enter a name for your dashboard and select **Enable for mobile**.  
+14. Enter a name for your dashboard and select **Enable for mobile**.  
   
-5.  Add the components you want on your dashboard and click **Save**.  
+15. Add the components you want on your dashboard and click **Save**.  
   
-6.  In the mobile app, follow the previous procedure to select your new dashboard and set it as your home page.  
+16. In the mobile app, follow the previous procedure to select your new dashboard and set it as your home page.  
   
 #### Error message: “Your server is not available or does not support this application.”  
  **Cause 1**: The [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] server is down. Verify that the server is on and connected to your network.  
@@ -181,45 +181,45 @@ If you receive this error:
   
  **Windows 8**  
   
-1.  Swipe from the right side of the screen to access the charms bar and then tap **Settings**.  
+1. Swipe from the right side of the screen to access the charms bar and then tap **Settings**.  
   
- ![Windows 8 charms bar](../../../admin/media/mobile-app-bar.png "Windows 8 charms bar")  
+   ![Windows 8 charms bar](../../../admin/media/mobile-app-bar.png "Windows 8 charms bar")  
   
-2.  Tap **Change PC settings**.  
+2. Tap **Change PC settings**.  
   
- ![Change PC settings](../../../admin/media/mobile-app-change-pc-settngs.png "Change PC settings")  
+   ![Change PC settings](../../../admin/media/mobile-app-change-pc-settngs.png "Change PC settings")  
   
-3.  Tap **Users**.  
+3. Tap **Users**.  
   
-4.  Check to see if under the **Your Account** section it says “This domain account is connected to *\<Your Microsoft account>*”  
+4. Check to see if under the **Your Account** section it says “This domain account is connected to *\<Your Microsoft account>*”  
   
- ![Your Account settings](../../../admin/media/mobile-app-your-account.png "Your Account settings")  
+   ![Your Account settings](../../../admin/media/mobile-app-your-account.png "Your Account settings")  
   
- **Windows RT**  
+   **Windows RT**  
   
- If you are using a [!INCLUDE[pn_Windows_RT](../../../includes/pn-windows-rt.md)] device and need to authenticate as a [!INCLUDE[pn_Windows_Live_ID](../../../includes/pn-windows-live-id.md)] that is different than the one you use to log on to your device, you must create another account and switch to that account when using the app. For example: you currently sign in to your [!INCLUDE[pn_Windows_RT](../../../includes/pn-windows-rt.md)] device as *\<userid>*@live.com, but want to access your [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] organization via the tablet app as *\<userid>*@outlook.com. For more information on how to create a new account on your device, see [Video: Create a user account](http://go.microsoft.com/fwlink/p/?LinkId=513273).  
+   If you are using a [!INCLUDE[pn_Windows_RT](../../../includes/pn-windows-rt.md)] device and need to authenticate as a [!INCLUDE[pn_Windows_Live_ID](../../../includes/pn-windows-live-id.md)] that is different than the one you use to log on to your device, you must create another account and switch to that account when using the app. For example: you currently sign in to your [!INCLUDE[pn_Windows_RT](../../../includes/pn-windows-rt.md)] device as *\<userid>*@live.com, but want to access your [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] organization via the tablet app as *\<userid>*@outlook.com. For more information on how to create a new account on your device, see [Video: Create a user account](http://go.microsoft.com/fwlink/p/?LinkId=513273).  
   
- **Sample Trace Message for Cause 1**:  
+   **Sample Trace Message for Cause 1**:  
   
- `The app couldn’t navigate to https://port.crm.dynamics.com/portal/notification/notification.aspx?lc=1033&organizationid=<OrganizationId> because of this error: FORBIDFRAMING.`  
+   `The app couldn’t navigate to https://port.crm.dynamics.com/portal/notification/notification.aspx?lc=1033&organizationid=<OrganizationId> because of this error: FORBIDFRAMING.`  
   
- **Cause 2**: This error may occur if you previously authenticated to the app as a different Microsoft account and chose the option “Keep me signed in”. Even after uninstalling and reinstalling the app, the token for the previous credentials is still stored on your device. If you are trying to connect as a different user, you will need to remove the token. To completely clear the app, after you uninstall the app, you must clear the Indexed DB folder (Drive:\Users\\%USERNAME%\AppData\Local\Microsoft\Internet Explorer\Indexed DB). You may have to sign in as a different user and use the command prompt as an administrator to clear the Indexed DB folder. That is because some files in this folder can be held by the Host Process for Windows Tasks. Once the token is successfully removed, you should see the sign-in page after you enter your URL in the app.  
+   **Cause 2**: This error may occur if you previously authenticated to the app as a different Microsoft account and chose the option “Keep me signed in”. Even after uninstalling and reinstalling the app, the token for the previous credentials is still stored on your device. If you are trying to connect as a different user, you will need to remove the token. To completely clear the app, after you uninstall the app, you must clear the Indexed DB folder (Drive:\Users\\%USERNAME%\AppData\Local\Microsoft\Internet Explorer\Indexed DB). You may have to sign in as a different user and use the command prompt as an administrator to clear the Indexed DB folder. That is because some files in this folder can be held by the Host Process for Windows Tasks. Once the token is successfully removed, you should see the sign-in page after you enter your URL in the app.  
   
- ![Sign&#45;in page](../../../admin/media/mobile-app-signin-page.png "Sign-in page")  
+   ![Sign&#45;in page](../../../admin/media/mobile-app-signin-page.png "Sign-in page")  
   
- The same error as Cause 1 may be found in the traces.  
+   The same error as Cause 1 may be found in the traces.  
   
- **Cause 3**: You have not accepted your invitation to the [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] organization. If you attempt to access the same URL through your browser, you see a notification that you are invited to the organization but need to accept the invitation. Once you accept the invitation, you are able to configure the app successfully.  
+   **Cause 3**: You have not accepted your invitation to the [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] organization. If you attempt to access the same URL through your browser, you see a notification that you are invited to the organization but need to accept the invitation. Once you accept the invitation, you are able to configure the app successfully.  
   
- **Sample Trace Message for Cause 3**:  
+   **Sample Trace Message for Cause 3**:  
   
- `The app couldn’t navigate to https://port.crm.dynamics.com/portal/response/Response.aspx?token=KFES-CK5C-NL8R-X1U0&expiration=635211904207200000&cs=Lkya6zs9EeOtJXjjtRc6AeZa5xqt94YAppfqrXFgZa5slinq2iaabTmwfX0AR4HLGvz&cb=invite&cbcxt=invite&wlid=<username>%40live.com&lc=1033 because of this error: FORBIDFRAMING.`  
+   `The app couldn’t navigate to https://port.crm.dynamics.com/portal/response/Response.aspx?token=KFES-CK5C-NL8R-X1U0&expiration=635211904207200000&cs=Lkya6zs9EeOtJXjjtRc6AeZa5xqt94YAppfqrXFgZa5slinq2iaabTmwfX0AR4HLGvz&cb=invite&cbcxt=invite&wlid=<username>%40live.com&lc=1033 because of this error: FORBIDFRAMING.`  
   
- For each of the causes listed previously, you may also see the following event logged in the traces:  
+   For each of the causes listed previously, you may also see the following event logged in the traces:  
   
- `“Authentication: Failed - cookie setup”`  
+   `“Authentication: Failed - cookie setup”`  
   
- **Cause 4**: If you connect to a [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] organization on an Android device, this error can occur if the certificate from the [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] website or the federated server, such as AD FS, is not trusted by the device. To avoid this scenario, make sure to use a publicly trusted certificate or add the Certificate Authority certificate to the device. For more information, see KB article: [While configuring Dynamics CRM for phones and tablets, you receive an error message](https://support.microsoft.com/kb/2899983).  
+   **Cause 4**: If you connect to a [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] organization on an Android device, this error can occur if the certificate from the [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] website or the federated server, such as AD FS, is not trusted by the device. To avoid this scenario, make sure to use a publicly trusted certificate or add the Certificate Authority certificate to the device. For more information, see KB article: [While configuring Dynamics CRM for phones and tablets, you receive an error message](https://support.microsoft.com/kb/2899983).  
   
 #### Error message, [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)]: “We’re sorry. Your server is not available or does not support this application”  
  Users must update to the latest version of the [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../includes/pn-microsoft-dynamics-crm-for-good.md)] application prior to updating to [!INCLUDE[pn_crm_online_2015_update_1](../../../includes/pn-crm-online-2015-update-1.md)]. On the [Apple App store](http://go.microsoft.com/fwlink/p/?LinkID=524762), the version the users need is 1.1. On the [Good Dynamics Marketplace](http://go.microsoft.com/fwlink/p/?LinkId=524809) or (Good Control Console), the version needed is listed as 1.1.0.  
@@ -233,16 +233,16 @@ If you receive this error:
 #### Event 10001 messages appear in the Event Log when you run [!INCLUDE[pn_crm_for_windows_8](../../../includes/pn-crm-for-windows-8.md)]  
  The following event may be recorded multiple times to the Event Log, when **Show Analytic and Debug Logs** is enabled, on the device where [!INCLUDE[pn_crm_for_windows_8](../../../includes/pn-crm-for-windows-8.md)] is running. Notice that, by default, **Show Analytic and Debug Logs** is disabled in [!INCLUDE[pn_Event_Viewer](../../../includes/pn-event-viewer.md)] and these messages won’t be recorded. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Enable Analytic and Debug Logs](https://technet.microsoft.com/library/cc749492.aspx)  
   
--   Event Id: 10001  
+- Event Id: 10001  
   
--   Message: `SEC7131 : Security of a sandboxed iframe is potentially compromised by allowing script and same origin access.`  
+- Message: `SEC7131 : Security of a sandboxed iframe is potentially compromised by allowing script and same origin access.`  
   
- Verify the source of the messages. If the source is [!INCLUDE[pn_microsoftcrm_server](../../../includes/pn-microsoftcrm-server.md)], these events don’t pose a security threat and can be ignored.  
+  Verify the source of the messages. If the source is [!INCLUDE[pn_microsoftcrm_server](../../../includes/pn-microsoftcrm-server.md)], these events don’t pose a security threat and can be ignored.  
   
 #### By design: “—d” added to URL  
  **For [!INCLUDE[pn_CRM_Online](../../../includes/pn-crm-online.md)] users**  
   
- To improve the reliability of DNS resolutions to [!INCLUDE[pn_CRM_Online](../../../includes/pn-crm-online.md)] organizations, [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] modifies the organization URL used when signing in. When a user signs in, [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] adds “—d” (two dashes + d) to the URL. For example, if the organization URL is **https://contoso.crm.dynamics.com**, [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] will change the URL to **https://contoso--d.crm.dynamics.com**.  
+ To improve the reliability of DNS resolutions to [!INCLUDE[pn_CRM_Online](../../../includes/pn-crm-online.md)] organizations, [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] modifies the organization URL used when signing in. When a user signs in, [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] adds “—d” (two dashes + d) to the URL. For example, if the organization URL is **<https://contoso.crm.dynamics.com>**, [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] will change the URL to **<https://contoso--d.crm.dynamics.com>**.  
   
  If a user needs to retry signing in, they’ll see “—d” in the web address. They can sign in with the modified URL or reset it to the URL normally used.  
   
@@ -264,7 +264,7 @@ If you receive this error:
   
 > [!IMPORTANT]
 >  To resolve this issue by running **Repair**, the [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] deployment must already be configured for claims-based authentication and IFD.  
-  
+> 
 > [!NOTE]
 >  When the logon prompt appears, it is an [!INCLUDE[pn_Active_Directory](../../../includes/pn-active-directory.md)] logon prompt instead of the sign-in page of your Secure Token Service (STS) such as [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../../../includes/pn-active-dir-fed-svcs-ad-fs.md)]. The prompt looks like the one shown here.  
   
@@ -277,7 +277,7 @@ If you receive this error:
 #### Redirected URLs do not work when you configure [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] or [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)]  
  URLs that redirect, such as [!INCLUDE[pn_iis](../../../includes/pn-iis.md)] host headers or link-shortening websites such as tinyurl or bitly, do not work when you use the URL in the **Dynamics 365 web address** field with [!INCLUDE[pn_moca_full](../../../includes/pn-moca-full.md)] or [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] during configuration.  
   
- For example, an *https://www.contosocrm.com* host header for a Dynamics 365 online  website URL that is actually *https://crm.contososerver001.com*, will not work and will display an error message. To work around this behavior, you must enter the actual web address for the [!INCLUDE[pn_CRM_Online](../../../includes/pn-crm-online.md)] organization. When this issue occurs and you have enabled logging, the information logged is similar to the following. Notice that the URLs in lines 2 and 3 are different. That difference indicates a redirected URL.  
+ For example, an *<https://www.contosocrm.com>* host header for a Dynamics 365 online  website URL that is actually *<https://crm.contososerver001.com>*, will not work and will display an error message. To work around this behavior, you must enter the actual web address for the [!INCLUDE[pn_CRM_Online](../../../includes/pn-crm-online.md)] organization. When this issue occurs and you have enabled logging, the information logged is similar to the following. Notice that the URLs in lines 2 and 3 are different. That difference indicates a redirected URL.  
   
 1.  User entered URL: *https://URL_entered*  
   
@@ -341,13 +341,13 @@ If you receive this error:
 #### App restart required after reconfiguring [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../includes/pn-microsoft-dynamics-crm-for-good.md)]  
  After you reconfigure [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../includes/pn-microsoft-dynamics-crm-for-good.md)], the app can get stuck in a loop. You need to close and reopen the app.  
   
-1.  On your [!INCLUDE[tn_ipad](../../../includes/tn-ipad.md)], press the **Home** button two times quickly. You'll see small previews of your recently used apps.  
+1. On your [!INCLUDE[tn_ipad](../../../includes/tn-ipad.md)], press the **Home** button two times quickly. You'll see small previews of your recently used apps.  
   
-2.  Swipe to find the [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)] app.  
+2. Swipe to find the [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)] app.  
   
-3.  Swipe up on the app's preview to close it.  
+3. Swipe up on the app's preview to close it.  
   
-4.  Tap the [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)] app icon to launch the app and configure for the new org.  
+4. Tap the [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)] app icon to launch the app and configure for the new org.  
   
 ### Prevent click for mapping and [!INCLUDE[pn_crm_online_2015_update_1](../../../includes/pn-crm-online-2015-update-1.md)]  
  For users of version 1.0 (1.0.0) of the [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../includes/pn-microsoft-dynamics-crm-for-good.md)] app that have updated to [!INCLUDE[pn_crm_online_2015_update_1](../../../includes/pn-crm-online-2015-update-1.md)], note that the **Prevent click for mapping** setting does not work.  
@@ -363,15 +363,15 @@ If you receive this error:
 
 The following are some suggested details to provide: 
   
--   What are the specific symptoms you encounter? For example, if you encounter an error, what is the exact error message?  
+- What are the specific symptoms you encounter? For example, if you encounter an error, what is the exact error message?  
   
--   Does the issue only occur for users with certain [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] security roles?  
+- Does the issue only occur for users with certain [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] security roles?  
   
--   Does the issue only occur on certain devices but works correctly for the same user on another device?  
+- Does the issue only occur on certain devices but works correctly for the same user on another device?  
   
--   If you attempt to connect to a different [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] organization that does not include your customizations, does the same issue occur? If the issue only occurs with your customizations, provide a copy of the customizations if possible.  
+- If you attempt to connect to a different [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] organization that does not include your customizations, does the same issue occur? If the issue only occurs with your customizations, provide a copy of the customizations if possible.  
   
--   Does the issue still occur after uninstalling the app and reinstalling it?  
+- Does the issue still occur after uninstalling the app and reinstalling it?  
  
 <!-- -   Please provide traces. See [Enable tracing for Dynamics 365 for tablets](../Topic/Monitor%20and%20troubleshoot%20Microsoft%20Dynamics%20365.md#BKMK_MoCA_tracing).  -->
  

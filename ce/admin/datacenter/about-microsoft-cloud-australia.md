@@ -51,11 +51,11 @@ You may request migration to the Australia datacenter upon datacenter availabili
 ### What does this announcement mean for customers in the Australia Geo?  
  [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] is committed to meeting the growing demand for reliable and connected devices and services for our customers around the globe. We have heard loud and clear that our customers in the Australia Geo need locally delivered services. The growth of [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] in the Australia Geo means we can better serve the needs of these customers in three ways:  
   
--   Most customer data will be kept within Australia, except for [!INCLUDE[pn_azure_active_directory](../../includes/pn-azure-active-directory.md)] data*, helping customers meet data residency requirements.  
+- Most customer data will be kept within Australia, except for [!INCLUDE[pn_azure_active_directory](../../includes/pn-azure-active-directory.md)] data*, helping customers meet data residency requirements.  
   
--   Customers who deploy applications to the new Australia datacenters enjoy improved performance within the Australia Geo as network latency is reduced.  
+- Customers who deploy applications to the new Australia datacenters enjoy improved performance within the Australia Geo as network latency is reduced.  
   
--   Our expansion in the Australia Geo also provides customers with the same level of high availability and redundancy as with our datacenters in other countries/regions. Customers in Australia, New Zealand, and Oceania will enjoy the benefit of a financially backed 99.9% service level agreement (SLA) and redundancy both inside of the primary datacenter where they are deployed as well as to the secondary datacenter in the Australia geography to help ensure ongoing uptime and protect against a major disaster in a single region.  
+- Our expansion in the Australia Geo also provides customers with the same level of high availability and redundancy as with our datacenters in other countries/regions. Customers in Australia, New Zealand, and Oceania will enjoy the benefit of a financially backed 99.9% service level agreement (SLA) and redundancy both inside of the primary datacenter where they are deployed as well as to the secondary datacenter in the Australia geography to help ensure ongoing uptime and protect against a major disaster in a single region.  
   
 *The Australia Geo will be considered a separate Geo subject to the same data location commitments we make for other Geos. For the definition of customer data and details on our data flow maps in Geo, see the [Dynamics Trust Center](http://www.microsoft.com/en-us/dynamics/crm-trust-center.aspx).  
   
@@ -64,29 +64,29 @@ You may request migration to the Australia datacenter upon datacenter availabili
   
  For the Australia East and Southeast Region datacenters, access to provisioning resources in these datacenters is limited, as described here:  
   
--   For Web Direct, access to the datacenters is based on the country/region set in your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] account.  
+- For Web Direct, access to the datacenters is based on the country/region set in your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] account.  
   
-    -   If the account country/region is Australia, New Zealand or Fiji, [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] resources will be provisioned in the Australia East and Southeast Region datacenters.  
+  - If the account country/region is Australia, New Zealand or Fiji, [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] resources will be provisioned in the Australia East and Southeast Region datacenters.  
   
-    -   If the account country/region is not Australia, New Zealand, or Fiji, the customer will not be able to provision [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] services in the Australia East and Southeast Region datacenters. To do so a customer needs to try or purchase [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] for an organization located in Australia, New Zealand or Fiji. The customer can create another Web direct account for organizations located in Australia, New Zealand and Fiji, with a billing address in any these regions, if they wish to select and deploy [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] services in the Australia East and Southeast Region datacenters.  
+  - If the account country/region is not Australia, New Zealand, or Fiji, the customer will not be able to provision [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] services in the Australia East and Southeast Region datacenters. To do so a customer needs to try or purchase [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] for an organization located in Australia, New Zealand or Fiji. The customer can create another Web direct account for organizations located in Australia, New Zealand and Fiji, with a billing address in any these regions, if they wish to select and deploy [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] services in the Australia East and Southeast Region datacenters.  
   
--   For Volume Licensing (VL) customers, access to the datacenters is based on the country/region in which the volume license agreement was signed.  
+- For Volume Licensing (VL) customers, access to the datacenters is based on the country/region in which the volume license agreement was signed.  
   
-    -   If the VL agreement was signed in Australia, New Zealand, or Fiji, the customer will be able to use [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] services in the Australia East and Southeast region datacenters. Accounts added to the VL agreement will be enabled to use [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] in the Australia East and Southeast Region datacenters.  
+  - If the VL agreement was signed in Australia, New Zealand, or Fiji, the customer will be able to use [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] services in the Australia East and Southeast region datacenters. Accounts added to the VL agreement will be enabled to use [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] in the Australia East and Southeast Region datacenters.  
   
-    -   VL customers can also create a secondary deployment in Australia, New Zealand, or Fiji under an existing VL agreement by either signing an enrollment in Australia, New Zealand, or Fiji or by applying for a multitenant amendment through the local Licensing Specialist.  
+  - VL customers can also create a secondary deployment in Australia, New Zealand, or Fiji under an existing VL agreement by either signing an enrollment in Australia, New Zealand, or Fiji or by applying for a multitenant amendment through the local Licensing Specialist.  
   
--   Web direct and VL customers in Australia will still have the ability to deploy instances in datacenters outside of Australia – however, you must have a tenant already provisioned in Australia. Under this multitenant/multi-geo scenario, AU GST will still be applied to instances deployed in other regions.  
+- Web direct and VL customers in Australia will still have the ability to deploy instances in datacenters outside of Australia – however, you must have a tenant already provisioned in Australia. Under this multitenant/multi-geo scenario, AU GST will still be applied to instances deployed in other regions.  
   
 ### How do I find what country or region my account is under?  
   
-1.  Sign in to [https://portal.office.com](https://portal.office.com).  
+1. Sign in to [https://portal.office.com](https://portal.office.com).  
   
-2.  In the upper-right corner of [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)], choose your organization.  
+2. In the upper-right corner of [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)], choose your organization.  
   
- ![Choose your organization](../../admin/media/data-center-choose-organization.png "Choose your organization")  
+   ![Choose your organization](../../admin/media/data-center-choose-organization.png "Choose your organization")  
   
-3.  On the **Company profile** page, your account country/region is listed under **Country or region**.  
+3. On the **Company profile** page, your account country/region is listed under **Country or region**.  
   
 <a name="BKMK_ServiceOverview"></a>   
 
@@ -94,9 +94,9 @@ You may request migration to the Australia datacenter upon datacenter availabili
   
 ### Will multi-geo instances be available to customers in Australia?  
   
--   Multi-geo instances will be supported for Australian customers as long as the tenant is first provisioned in Australia.  For customers who aren’t located in Australia but want to provision an instance of [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] within the Australia datacenter, they must first purchase a tenant for an organization located in Australia and then the tenant will be able to get provisioned in Australia.  
+- Multi-geo instances will be supported for Australian customers as long as the tenant is first provisioned in Australia.  For customers who aren’t located in Australia but want to provision an instance of [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] within the Australia datacenter, they must first purchase a tenant for an organization located in Australia and then the tenant will be able to get provisioned in Australia.  
   
--   Availability of multi-geo instance support will be limited in the initial rollout to a fixed number of eligible customers upon request, and we will continue to expand over time.  
+- Availability of multi-geo instance support will be limited in the initial rollout to a fixed number of eligible customers upon request, and we will continue to expand over time.  
   
 ### Will the standard Dynamics 365 Online SLA be offered at general availability launch?  
  Yes, on the date of general availability, the standard 99.9 % financially backed service level agreement (SLA) for [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] will apply, just as it does in our other regions around the world. Note: the SLA for [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] doesn’t cover [!INCLUDE[pn_netbreeze_long](../../includes/pn-social-engagement-long.md)].  
@@ -131,44 +131,44 @@ You may request migration to the Australia datacenter upon datacenter availabili
 ### I have applications and data in an existing Microsoft Dynamics 365 (online) datacenter. Will I be able to move those resources to the Australia datacenters?  
  For Web direct customers, if the account country/region is Australia, New Zealand, or Fiji, the customer will be eligible to have his instances moved to the Australia East and Southeast region datacenters.  
   
--   The account country/region can be found in the [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)].  
+- The account country/region can be found in the [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)].  
   
-    1.  Sign in to [https://portal.office.com](https://portal.office.com).  
+  1. Sign in to [https://portal.office.com](https://portal.office.com).  
   
-    2.  In the upper-right corner of [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)], choose your organization.  
+  2. In the upper-right corner of [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)], choose your organization.  
   
-    ![Choose your organization](../../admin/media/data-center-choose-organization.png "Choose your organization")  
+  ![Choose your organization](../../admin/media/data-center-choose-organization.png "Choose your organization")  
   
-    3.  On the **Company profile** page, your account country/region is listed under **Country or region**.  
+  3.  On the **Company profile** page, your account country/region is listed under **Country or region**.  
   
--   If the account country/region is outside Australia, New Zealand, or Fiji, you’ll need to create another Web direct account with a billing address in Australia, New Zealand, or Oceania. Once the new account and tenant are created, you can then request the move of their [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] instance and data from other regions into the Australia region by contacting [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] Support. For more information, see [How do I request my instance to be moved to the Australia datacenter?](about-microsoft-cloud-australia.md#BKMK_RequestMove) [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] reserves the right to make a unilateral decision to migrate accounts based on multiple conditions.  
+- If the account country/region is outside Australia, New Zealand, or Fiji, you’ll need to create another Web direct account with a billing address in Australia, New Zealand, or Oceania. Once the new account and tenant are created, you can then request the move of their [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] instance and data from other regions into the Australia region by contacting [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] Support. For more information, see [How do I request my instance to be moved to the Australia datacenter?](about-microsoft-cloud-australia.md#BKMK_RequestMove) [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] reserves the right to make a unilateral decision to migrate accounts based on multiple conditions.  
   
- If you’re a volume license customer and the volume license agreement was signed in Australia, New Zealand, or Oceania, you’ll be eligible to move applications and data to the Australia East and Southeast region datacenters and deploy services there.  
+  If you’re a volume license customer and the volume license agreement was signed in Australia, New Zealand, or Oceania, you’ll be eligible to move applications and data to the Australia East and Southeast region datacenters and deploy services there.  
   
--   Accounts added to the volume license agreement are eligible to move applications and data to the Australia East and Southeast region datacenters and deploy services there.  
+- Accounts added to the volume license agreement are eligible to move applications and data to the Australia East and Southeast region datacenters and deploy services there.  
   
--   To provision a tenant in the Australia datacenter, if you have a volume license enrollment outside the Australia datacenter you will need to sign an enrollment in Australia, New Zealand, or Oceania and then migrate existing instances to the Australia datacenter.  
+- To provision a tenant in the Australia datacenter, if you have a volume license enrollment outside the Australia datacenter you will need to sign an enrollment in Australia, New Zealand, or Oceania and then migrate existing instances to the Australia datacenter.  
   
--   To move your tenants, instances, and data to the Australia regions, you should contact [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] Support for additional information regarding migrating your instances. For more information, see [How do I request my instance to be moved to the Australia datacenter?](about-microsoft-cloud-australia.md#BKMK_RequestMove) [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] reserves the right to make a unilateral decision to migrate accounts based on multiple conditions.  
+- To move your tenants, instances, and data to the Australia regions, you should contact [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] Support for additional information regarding migrating your instances. For more information, see [How do I request my instance to be moved to the Australia datacenter?](about-microsoft-cloud-australia.md#BKMK_RequestMove) [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] reserves the right to make a unilateral decision to migrate accounts based on multiple conditions.  
   
- For additional guidance regarding multiple tenants and multiple instances, see [Multiple online instances or tenants](../../admin/multiple-online-instances-tenants.md). This link will be updated with the [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] 2015 launch.  
+  For additional guidance regarding multiple tenants and multiple instances, see [Multiple online instances or tenants](../../admin/multiple-online-instances-tenants.md). This link will be updated with the [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] 2015 launch.  
   
 <a name="BKMK_RequestMove"></a> 
   
 ### How do I request my instance to be moved to the Australia datacenter?  
  You can request a move to the new Australian datacenter by submitting a technical support incident through the [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)].  
   
-1.  Sign in to [https://portal.office.com](https://portal.office.com).  
+1. Sign in to [https://portal.office.com](https://portal.office.com).  
   
-2.  Go to **Support** > **Service Requests** > **+**  
+2. Go to **Support** > **Service Requests** > **+**  
   
-3.  Choose **More** > **Dynamics 365 Online**  
+3. Choose **More** > **Dynamics 365 Online**  
   
-4.  For **Feature**, select **Data Management**. For **Symptom**, select **Data Center migration request**.  
+4. For **Feature**, select **Data Management**. For **Symptom**, select **Data Center migration request**.  
   
-5.  Fill in the rest of the information to submit a service request.  
+5. Fill in the rest of the information to submit a service request.  
   
- A [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] support engineer will assist you in verifying required prerequisites and provide guidance throughout the move process.  
+   A [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] support engineer will assist you in verifying required prerequisites and provide guidance throughout the move process.  
   
 ### How will Microsoft engage with me on the migration?  
  Once you have been scheduled for migration, a member of the [!INCLUDE[pn_Microsoft_Support](../../includes/pn-microsoft-support.md)] team will work directly with you to discuss scheduling and any other issues that may come up during the migration.  

@@ -1636,6 +1636,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_emailserverprofile_mailbox"></a> emailserverprofile_mailbox
 
 Same as mailbox entity [emailserverprofile_mailbox](mailbox.md#BKMK_emailserverprofile_mailbox) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailbox|
@@ -1650,6 +1651,7 @@ Same as mailbox entity [emailserverprofile_mailbox](mailbox.md#BKMK_emailserverp
 ### <a name="BKMK_EmailServerProfile_SyncErrors"></a> EmailServerProfile_SyncErrors
 
 Same as syncerror entity [EmailServerProfile_SyncErrors](syncerror.md#BKMK_EmailServerProfile_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1664,6 +1666,7 @@ Same as syncerror entity [EmailServerProfile_SyncErrors](syncerror.md#BKMK_Email
 ### <a name="BKMK_tracelog_EmailServerProfile"></a> tracelog_EmailServerProfile
 
 Same as tracelog entity [tracelog_EmailServerProfile](tracelog.md#BKMK_tracelog_EmailServerProfile) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|tracelog|
@@ -1678,6 +1681,7 @@ Same as tracelog entity [tracelog_EmailServerProfile](tracelog.md#BKMK_tracelog_
 ### <a name="BKMK_emailserverprofile_bulkdeletefailures"></a> emailserverprofile_bulkdeletefailures
 
 Same as bulkdeletefailure entity [emailserverprofile_bulkdeletefailures](bulkdeletefailure.md#BKMK_emailserverprofile_bulkdeletefailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1692,6 +1696,7 @@ Same as bulkdeletefailure entity [emailserverprofile_bulkdeletefailures](bulkdel
 ### <a name="BKMK_emailserverprofile_asyncoperations"></a> emailserverprofile_asyncoperations
 
 Same as asyncoperation entity [emailserverprofile_asyncoperations](asyncoperation.md#BKMK_emailserverprofile_asyncoperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1706,6 +1711,7 @@ Same as asyncoperation entity [emailserverprofile_asyncoperations](asyncoperatio
 ### <a name="BKMK_EmailServerProfile_Annotation"></a> EmailServerProfile_Annotation
 
 Same as annotation entity [EmailServerProfile_Annotation](annotation.md#BKMK_EmailServerProfile_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1720,6 +1726,7 @@ Same as annotation entity [EmailServerProfile_Annotation](annotation.md#BKMK_Ema
 ### <a name="BKMK_emailserverprofile_duplicatebaserecord"></a> emailserverprofile_duplicatebaserecord
 
 Same as duplicaterecord entity [emailserverprofile_duplicatebaserecord](duplicaterecord.md#BKMK_emailserverprofile_duplicatebaserecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1734,6 +1741,7 @@ Same as duplicaterecord entity [emailserverprofile_duplicatebaserecord](duplicat
 ### <a name="BKMK_emailserverprofile_duplicatematchingrecord"></a> emailserverprofile_duplicatematchingrecord
 
 Same as duplicaterecord entity [emailserverprofile_duplicatematchingrecord](duplicaterecord.md#BKMK_emailserverprofile_duplicatematchingrecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1748,6 +1756,7 @@ Same as duplicaterecord entity [emailserverprofile_duplicatematchingrecord](dupl
 ### <a name="BKMK_EmailServerProfile_Organization"></a> EmailServerProfile_Organization
 
 Same as organization entity [EmailServerProfile_Organization](organization.md#BKMK_EmailServerProfile_Organization) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|organization|

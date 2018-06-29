@@ -256,6 +256,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_topichistory_SyncErrors"></a> topichistory_SyncErrors
 
 Same as syncerror entity [topichistory_SyncErrors](syncerror.md#BKMK_topichistory_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -270,6 +271,7 @@ Same as syncerror entity [topichistory_SyncErrors](syncerror.md#BKMK_topichistor
 ### <a name="BKMK_topichistory_AsyncOperations"></a> topichistory_AsyncOperations
 
 Same as asyncoperation entity [topichistory_AsyncOperations](asyncoperation.md#BKMK_topichistory_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -284,6 +286,7 @@ Same as asyncoperation entity [topichistory_AsyncOperations](asyncoperation.md#B
 ### <a name="BKMK_topichistory_MailboxTrackingFolders"></a> topichistory_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [topichistory_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_topichistory_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -298,6 +301,7 @@ Same as mailboxtrackingfolder entity [topichistory_MailboxTrackingFolders](mailb
 ### <a name="BKMK_topichistory_UserEntityInstanceDatas"></a> topichistory_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [topichistory_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_topichistory_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -312,6 +316,7 @@ Same as userentityinstancedata entity [topichistory_UserEntityInstanceDatas](use
 ### <a name="BKMK_topichistory_BulkDeleteFailures"></a> topichistory_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [topichistory_BulkDeleteFailures](bulkdeletefailure.md#BKMK_topichistory_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -326,6 +331,7 @@ Same as bulkdeletefailure entity [topichistory_BulkDeleteFailures](bulkdeletefai
 ### <a name="BKMK_topichistory_PrincipalObjectAttributeAccesses"></a> topichistory_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [topichistory_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_topichistory_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

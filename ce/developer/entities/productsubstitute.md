@@ -655,6 +655,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_ProductSubstitute_SyncErrors"></a> ProductSubstitute_SyncErrors
 
 Same as syncerror entity [ProductSubstitute_SyncErrors](syncerror.md#BKMK_ProductSubstitute_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -669,6 +670,7 @@ Same as syncerror entity [ProductSubstitute_SyncErrors](syncerror.md#BKMK_Produc
 ### <a name="BKMK_ProductSubstitute_AsyncOperations"></a> ProductSubstitute_AsyncOperations
 
 Same as asyncoperation entity [ProductSubstitute_AsyncOperations](asyncoperation.md#BKMK_ProductSubstitute_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -683,6 +685,7 @@ Same as asyncoperation entity [ProductSubstitute_AsyncOperations](asyncoperation
 ### <a name="BKMK_productsubstitute_MailboxTrackingFolders"></a> productsubstitute_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [productsubstitute_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_productsubstitute_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -697,6 +700,7 @@ Same as mailboxtrackingfolder entity [productsubstitute_MailboxTrackingFolders](
 ### <a name="BKMK_productsubstitute_UserEntityInstanceDatas"></a> productsubstitute_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [productsubstitute_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_productsubstitute_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -711,6 +715,7 @@ Same as userentityinstancedata entity [productsubstitute_UserEntityInstanceDatas
 ### <a name="BKMK_ProductSubstitute_ProcessSession"></a> ProductSubstitute_ProcessSession
 
 Same as processsession entity [ProductSubstitute_ProcessSession](processsession.md#BKMK_ProductSubstitute_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -725,6 +730,7 @@ Same as processsession entity [ProductSubstitute_ProcessSession](processsession.
 ### <a name="BKMK_ProductSubstitute_BulkDeleteFailures"></a> ProductSubstitute_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [ProductSubstitute_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ProductSubstitute_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -739,6 +745,7 @@ Same as bulkdeletefailure entity [ProductSubstitute_BulkDeleteFailures](bulkdele
 ### <a name="BKMK_ProductSubstitute_PrincipalObjectAttributeAccess"></a> ProductSubstitute_PrincipalObjectAttributeAccess
 
 Same as principalobjectattributeaccess entity [ProductSubstitute_PrincipalObjectAttributeAccess](principalobjectattributeaccess.md#BKMK_ProductSubstitute_PrincipalObjectAttributeAccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

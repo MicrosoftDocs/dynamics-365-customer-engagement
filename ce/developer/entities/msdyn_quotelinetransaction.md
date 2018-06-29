@@ -1748,6 +1748,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_quotelinetransaction_SyncErrors"></a> msdyn_quotelinetransaction_SyncErrors
 
 Same as syncerror entity [msdyn_quotelinetransaction_SyncErrors](syncerror.md#BKMK_msdyn_quotelinetransaction_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1762,6 +1763,7 @@ Same as syncerror entity [msdyn_quotelinetransaction_SyncErrors](syncerror.md#BK
 ### <a name="BKMK_msdyn_quotelinetransaction_DuplicateMatchingRecord"></a> msdyn_quotelinetransaction_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_quotelinetransaction_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_quotelinetransaction_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1776,6 +1778,7 @@ Same as duplicaterecord entity [msdyn_quotelinetransaction_DuplicateMatchingReco
 ### <a name="BKMK_msdyn_quotelinetransaction_DuplicateBaseRecord"></a> msdyn_quotelinetransaction_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_quotelinetransaction_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_quotelinetransaction_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1790,6 +1793,7 @@ Same as duplicaterecord entity [msdyn_quotelinetransaction_DuplicateBaseRecord](
 ### <a name="BKMK_msdyn_quotelinetransaction_AsyncOperations"></a> msdyn_quotelinetransaction_AsyncOperations
 
 Same as asyncoperation entity [msdyn_quotelinetransaction_AsyncOperations](asyncoperation.md#BKMK_msdyn_quotelinetransaction_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1804,6 +1808,7 @@ Same as asyncoperation entity [msdyn_quotelinetransaction_AsyncOperations](async
 ### <a name="BKMK_msdyn_quotelinetransaction_MailboxTrackingFolders"></a> msdyn_quotelinetransaction_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_quotelinetransaction_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_quotelinetransaction_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1818,6 +1823,7 @@ Same as mailboxtrackingfolder entity [msdyn_quotelinetransaction_MailboxTracking
 ### <a name="BKMK_msdyn_quotelinetransaction_UserEntityInstanceDatas"></a> msdyn_quotelinetransaction_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_quotelinetransaction_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_quotelinetransaction_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1832,6 +1838,7 @@ Same as userentityinstancedata entity [msdyn_quotelinetransaction_UserEntityInst
 ### <a name="BKMK_msdyn_quotelinetransaction_ProcessSession"></a> msdyn_quotelinetransaction_ProcessSession
 
 Same as processsession entity [msdyn_quotelinetransaction_ProcessSession](processsession.md#BKMK_msdyn_quotelinetransaction_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1846,6 +1853,7 @@ Same as processsession entity [msdyn_quotelinetransaction_ProcessSession](proces
 ### <a name="BKMK_msdyn_quotelinetransaction_BulkDeleteFailures"></a> msdyn_quotelinetransaction_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_quotelinetransaction_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_quotelinetransaction_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1860,6 +1868,7 @@ Same as bulkdeletefailure entity [msdyn_quotelinetransaction_BulkDeleteFailures]
 ### <a name="BKMK_msdyn_quotelinetransaction_PrincipalObjectAttributeAccesses"></a> msdyn_quotelinetransaction_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_quotelinetransaction_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_quotelinetransaction_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1874,6 +1883,7 @@ Same as principalobjectattributeaccess entity [msdyn_quotelinetransaction_Princi
 ### <a name="BKMK_msdyn_quotelinetransaction_Annotations"></a> msdyn_quotelinetransaction_Annotations
 
 Same as annotation entity [msdyn_quotelinetransaction_Annotations](annotation.md#BKMK_msdyn_quotelinetransaction_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1888,6 +1898,7 @@ Same as annotation entity [msdyn_quotelinetransaction_Annotations](annotation.md
 ### <a name="BKMK_msdyn_msdyn_quotelinetransaction_msdyn_quotelineanalyticsbreakdown_QuoteLineDetail"></a> msdyn_msdyn_quotelinetransaction_msdyn_quotelineanalyticsbreakdown_QuoteLineDetail
 
 Same as msdyn_quotelineanalyticsbreakdown entity [msdyn_msdyn_quotelinetransaction_msdyn_quotelineanalyticsbreakdown_QuoteLineDetail](msdyn_quotelineanalyticsbreakdown.md#BKMK_msdyn_msdyn_quotelinetransaction_msdyn_quotelineanalyticsbreakdown_QuoteLineDetail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelineanalyticsbreakdown|
@@ -1902,6 +1913,7 @@ Same as msdyn_quotelineanalyticsbreakdown entity [msdyn_msdyn_quotelinetransacti
 ### <a name="BKMK_msdyn_msdyn_quotelinetransaction_msdyn_quotelinetransaction_Origin"></a> msdyn_msdyn_quotelinetransaction_msdyn_quotelinetransaction_Origin
 
 Same as msdyn_quotelinetransaction entity [msdyn_msdyn_quotelinetransaction_msdyn_quotelinetransaction_Origin](msdyn_quotelinetransaction.md#BKMK_msdyn_msdyn_quotelinetransaction_msdyn_quotelinetransaction_Origin) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelinetransaction|

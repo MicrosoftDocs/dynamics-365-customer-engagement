@@ -31,55 +31,55 @@ You can track your [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-fu
 ## Step 1: Get ready  
  Before you add your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contacts:  
   
--   For best results, make sure your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contact data is as complete and accurate as possible. Fill in any missing info and verify that people’s names are spelled correctly.  
+- For best results, make sure your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contact data is as complete and accurate as possible. Fill in any missing info and verify that people’s names are spelled correctly.  
   
--   Because you will have the opportunity to “map” the company names in your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contact list to an account name in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)], make sure the accounts have the same spelling in both applications.  
+- Because you will have the opportunity to “map” the company names in your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contact list to an account name in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)], make sure the accounts have the same spelling in both applications.  
   
 ## Step 2: Run the wizard  
   
-1.  Choose **File** > **Dynamics 365** > **Import Contacts** > **Add Contacts**.  
+1. Choose **File** > **Dynamics 365** > **Import Contacts** > **Add Contacts**.  
   
-2.  Choose **Next**.  
+2. Choose **Next**.  
   
-3.  Confirm the folder where your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contacts are stored, and then choose **Next**.  
+3. Confirm the folder where your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contacts are stored, and then choose **Next**.  
   
-    > [!NOTE]
-    >  -   The wizard determines the folder, usually called **Contacts**. You can select or clear subfolders in the **Contacts** folder.  
-    > -   If you allow someone else to manage your email (called a “delegate”), you can’t add contacts from that person’s contacts folder.  
+   > [!NOTE]
+   > - The wizard determines the folder, usually called **Contacts**. You can select or clear subfolders in the **Contacts** folder.  
+   >   -   If you allow someone else to manage your email (called a “delegate”), you can’t add contacts from that person’s contacts folder.  
   
-4.  Select how to group your contacts. The groups are:  
+4. Select how to group your contacts. The groups are:  
   
-    -   **Company Name**. Group the contacts by the matching account name in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. The wizard lists the number of contacts associated with each account. Choose the link to verify the list of names for each account.  
+   - **Company Name**. Group the contacts by the matching account name in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. The wizard lists the number of contacts associated with each account. Choose the link to verify the list of names for each account.  
   
-    -   **Email Domain**. Group the contacts by email domain. The email domain is the part of the address after the @ symbol. For example, in the email address someone@contoso.com, "contoso.com" is the domain. Choose the link to verify the list of names in each domain.  
+   - **Email Domain**. Group the contacts by email domain. The email domain is the part of the address after the @ symbol. For example, in the email address someone@contoso.com, "contoso.com" is the domain. Choose the link to verify the list of names in each domain.  
   
-    -   **Categories**. Group the contacts by the category you use to organize contacts in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], if applicable. Choose the link to verify the list of names for each category.  
+   - **Categories**. Group the contacts by the category you use to organize contacts in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], if applicable. Choose the link to verify the list of names for each category.  
   
      If you don’t want to add all the groups, clear the check boxes to the left of any groups you don’t want.  
   
-    > [!NOTE]
-    >  The **Number of Contacts** column displays a color to indicate how many of the contacts are already linked to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]:  
-    >   
-    >  -   **Green**. All of the contacts are already in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
-    > -   **Yellow**. More than 50% of the contacts are already in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
-    > -   **Red**. At least one contact is already in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+   > [!NOTE]
+   >  The **Number of Contacts** column displays a color to indicate how many of the contacts are already linked to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]:  
+   > 
+   > - **Green**. All of the contacts are already in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+   >   - **Yellow**. More than 50% of the contacts are already in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+   >   - **Red**. At least one contact is already in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+   > 
+   > [!TIP]
+   >  You may find that the groupings have many variations if the company names don’t match exactly. If so, it may be best to cancel the wizard, correct the company names in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], and then run the wizard again.  
   
-    > [!TIP]
-    >  You may find that the groupings have many variations if the company names don’t match exactly. If so, it may be best to cancel the wizard, correct the company names in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], and then run the wizard again.  
+5. Verify that **Use Company Name to be the Account** is selected (recommended). Otherwise, if you want to associate an account name with each contact later in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)], clear this check box.  
   
-5.  Verify that **Use Company Name to be the Account** is selected (recommended). Otherwise, if you want to associate an account name with each contact later in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)], clear this check box.  
+6. Select **Track all communications for added contacts** to track the messages, appointments, and tasks associated with these [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contacts in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
-6.  Select **Track all communications for added contacts** to track the messages, appointments, and tasks associated with these [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contacts in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+7. To manually select the accounts to associate the contacts with, choose **Advanced**. In the **Set Account** column, choose the row for the contact. From the drop-down list, select one of the following:  
   
-7.  To manually select the accounts to associate the contacts with, choose **Advanced**. In the **Set Account** column, choose the row for the contact. From the drop-down list, select one of the following:  
+   - Leave the field blank (**Not Set**) to associate the contacts with an account later in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
-    -   Leave the field blank (**Not Set**) to associate the contacts with an account later in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+   - Select **Use Company Name** to associate the contacts with a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] account using the company name.  
   
-    -   Select **Use Company Name** to associate the contacts with a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] account using the company name.  
+   - Select **Pick Existing Account**, select an account or contact, and then choose **OK**.  
   
-    -   Select **Pick Existing Account**, select an account or contact, and then choose **OK**.  
-  
-8.  In the **Include Communication** column, clear the check box for any grouping for which you don’t want to track email messages, appointments, or tasks in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+8. In the **Include Communication** column, clear the check box for any grouping for which you don’t want to track email messages, appointments, or tasks in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
 9. Choose **Add Contacts**.  
   

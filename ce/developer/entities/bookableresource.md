@@ -171,6 +171,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_BookingsToDrip"></a> msdyn_BookingsToDrip
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The number of bookings to drip on the Mobile . This field is disabled/enabled based on Enable Drip Scheduling field|
@@ -188,6 +189,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_DisplayOnScheduleAssistant"></a> msdyn_DisplayOnScheduleAssistant
 
 **Added by**: Unified Resource Scheduling Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Specify if this resource should be enabled for availablity search.|
@@ -212,6 +214,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_DisplayOnScheduleBoard"></a> msdyn_DisplayOnScheduleBoard
 
 **Added by**: Unified Resource Scheduling Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Specify if this resource should be displayed on the schedule board.|
@@ -236,6 +239,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_EnableDripScheduling"></a> msdyn_EnableDripScheduling
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Enables drip scheduling on the mobile app.|
@@ -260,6 +264,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_EndLocation"></a> msdyn_EndLocation
 
 **Added by**: Unified Resource Scheduling Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the default ending location type when booking daily schedules for this resource.|
@@ -283,6 +288,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_GenericType"></a> msdyn_GenericType
 
 **Added by**: Unified Resource Scheduling Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -304,6 +310,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_HourlyRate"></a> msdyn_HourlyRate
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -322,6 +329,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_isgenericresourceprojectscoped"></a> msdyn_isgenericresourceprojectscoped
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Is Default|
@@ -346,6 +354,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_organizationalunit"></a> msdyn_organizationalunit
 
 **Added by**: Unified Resource Scheduling Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Organizational Unit that resource belong to|
@@ -361,6 +370,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_PrimaryEMail"></a> msdyn_PrimaryEMail
 
 **Added by**: Unified Resource Scheduling Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -378,6 +388,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_StartLocation"></a> msdyn_StartLocation
 
 **Added by**: Unified Resource Scheduling Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the default starting location type when booking daily schedules for this resource.|
@@ -401,6 +412,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_targetutilization"></a> msdyn_targetutilization
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the target utilization for the resource.|
@@ -418,6 +430,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_TimeOffApprovalRequired"></a> msdyn_TimeOffApprovalRequired
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Specifies if approval required for Time Off Requests.|
@@ -442,6 +455,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Warehouse"></a> msdyn_Warehouse
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Default Warehouse for this resource.|
@@ -1051,6 +1065,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_hourlyrate_Base"></a> msdyn_hourlyrate_Base
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the Hourly Rate in base currency.|
@@ -1296,6 +1311,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_BookableResource_SyncErrors"></a> BookableResource_SyncErrors
 
 Same as syncerror entity [BookableResource_SyncErrors](syncerror.md#BKMK_BookableResource_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1310,6 +1326,7 @@ Same as syncerror entity [BookableResource_SyncErrors](syncerror.md#BKMK_Bookabl
 ### <a name="BKMK_bookableresource_DuplicateMatchingRecord"></a> bookableresource_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [bookableresource_DuplicateMatchingRecord](duplicaterecord.md#BKMK_bookableresource_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1324,6 +1341,7 @@ Same as duplicaterecord entity [bookableresource_DuplicateMatchingRecord](duplic
 ### <a name="BKMK_bookableresource_DuplicateBaseRecord"></a> bookableresource_DuplicateBaseRecord
 
 Same as duplicaterecord entity [bookableresource_DuplicateBaseRecord](duplicaterecord.md#BKMK_bookableresource_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1338,6 +1356,7 @@ Same as duplicaterecord entity [bookableresource_DuplicateBaseRecord](duplicater
 ### <a name="BKMK_bookableresource_AsyncOperations"></a> bookableresource_AsyncOperations
 
 Same as asyncoperation entity [bookableresource_AsyncOperations](asyncoperation.md#BKMK_bookableresource_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1352,6 +1371,7 @@ Same as asyncoperation entity [bookableresource_AsyncOperations](asyncoperation.
 ### <a name="BKMK_bookableresource_MailboxTrackingFolders"></a> bookableresource_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [bookableresource_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_bookableresource_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1366,6 +1386,7 @@ Same as mailboxtrackingfolder entity [bookableresource_MailboxTrackingFolders](m
 ### <a name="BKMK_bookableresource_UserEntityInstanceDatas"></a> bookableresource_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [bookableresource_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_bookableresource_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1380,6 +1401,7 @@ Same as userentityinstancedata entity [bookableresource_UserEntityInstanceDatas]
 ### <a name="BKMK_bookableresource_ProcessSession"></a> bookableresource_ProcessSession
 
 Same as processsession entity [bookableresource_ProcessSession](processsession.md#BKMK_bookableresource_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1394,6 +1416,7 @@ Same as processsession entity [bookableresource_ProcessSession](processsession.m
 ### <a name="BKMK_bookableresource_BulkDeleteFailures"></a> bookableresource_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [bookableresource_BulkDeleteFailures](bulkdeletefailure.md#BKMK_bookableresource_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1408,6 +1431,7 @@ Same as bulkdeletefailure entity [bookableresource_BulkDeleteFailures](bulkdelet
 ### <a name="BKMK_bookableresource_PrincipalObjectAttributeAccess"></a> bookableresource_PrincipalObjectAttributeAccess
 
 Same as principalobjectattributeaccess entity [bookableresource_PrincipalObjectAttributeAccess](principalobjectattributeaccess.md#BKMK_bookableresource_PrincipalObjectAttributeAccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1422,6 +1446,7 @@ Same as principalobjectattributeaccess entity [bookableresource_PrincipalObjectA
 ### <a name="BKMK_bookableresource_Annotations"></a> bookableresource_Annotations
 
 Same as annotation entity [bookableresource_Annotations](annotation.md#BKMK_bookableresource_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1436,6 +1461,7 @@ Same as annotation entity [bookableresource_Annotations](annotation.md#BKMK_book
 ### <a name="BKMK_bookableresource_bookableresourcebooking_Resource"></a> bookableresource_bookableresourcebooking_Resource
 
 Same as bookableresourcebooking entity [bookableresource_bookableresourcebooking_Resource](bookableresourcebooking.md#BKMK_bookableresource_bookableresourcebooking_Resource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcebooking|
@@ -1450,6 +1476,7 @@ Same as bookableresourcebooking entity [bookableresource_bookableresourcebooking
 ### <a name="BKMK_bookableresource_bookableresourcecategoryassn_Resource"></a> bookableresource_bookableresourcecategoryassn_Resource
 
 Same as bookableresourcecategoryassn entity [bookableresource_bookableresourcecategoryassn_Resource](bookableresourcecategoryassn.md#BKMK_bookableresource_bookableresourcecategoryassn_Resource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcecategoryassn|
@@ -1464,6 +1491,7 @@ Same as bookableresourcecategoryassn entity [bookableresource_bookableresourceca
 ### <a name="BKMK_bookableresource_bookableresourcecharacteristic_Resource"></a> bookableresource_bookableresourcecharacteristic_Resource
 
 Same as bookableresourcecharacteristic entity [bookableresource_bookableresourcecharacteristic_Resource](bookableresourcecharacteristic.md#BKMK_bookableresource_bookableresourcecharacteristic_Resource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcecharacteristic|
@@ -1478,6 +1506,7 @@ Same as bookableresourcecharacteristic entity [bookableresource_bookableresource
 ### <a name="BKMK_bookableresource_bookableresourcegroup_ChildResource"></a> bookableresource_bookableresourcegroup_ChildResource
 
 Same as bookableresourcegroup entity [bookableresource_bookableresourcegroup_ChildResource](bookableresourcegroup.md#BKMK_bookableresource_bookableresourcegroup_ChildResource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcegroup|
@@ -1492,6 +1521,7 @@ Same as bookableresourcegroup entity [bookableresource_bookableresourcegroup_Chi
 ### <a name="BKMK_bookableresource_bookableresourcegroup_ParentResource"></a> bookableresource_bookableresourcegroup_ParentResource
 
 Same as bookableresourcegroup entity [bookableresource_bookableresourcegroup_ParentResource](bookableresourcegroup.md#BKMK_bookableresource_bookableresourcegroup_ParentResource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcegroup|
@@ -1506,6 +1536,7 @@ Same as bookableresourcegroup entity [bookableresource_bookableresourcegroup_Par
 ### <a name="BKMK_msdyn_bookableresource_bookableresourcebooking_ResourceGroup"></a> msdyn_bookableresource_bookableresourcebooking_ResourceGroup
 
 Same as bookableresourcebooking entity [msdyn_bookableresource_bookableresourcebooking_ResourceGroup](bookableresourcebooking.md#BKMK_msdyn_bookableresource_bookableresourcebooking_ResourceGroup) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcebooking|
@@ -1520,6 +1551,7 @@ Same as bookableresourcebooking entity [msdyn_bookableresource_bookableresourceb
 ### <a name="BKMK_msdyn_bookableresource_bookableresourcebookingheader_bookableresourceid"></a> msdyn_bookableresource_bookableresourcebookingheader_bookableresourceid
 
 Same as bookableresourcebookingheader entity [msdyn_bookableresource_bookableresourcebookingheader_bookableresourceid](bookableresourcebookingheader.md#BKMK_msdyn_bookableresource_bookableresourcebookingheader_bookableresourceid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcebookingheader|
@@ -1534,6 +1566,7 @@ Same as bookableresourcebookingheader entity [msdyn_bookableresource_bookableres
 ### <a name="BKMK_msdyn_bookableresource_msdyn_actual_bookableresource"></a> msdyn_bookableresource_msdyn_actual_bookableresource
 
 Same as msdyn_actual entity [msdyn_bookableresource_msdyn_actual_bookableresource](msdyn_actual.md#BKMK_msdyn_bookableresource_msdyn_actual_bookableresource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_actual|
@@ -1548,6 +1581,7 @@ Same as msdyn_actual entity [msdyn_bookableresource_msdyn_actual_bookableresourc
 ### <a name="BKMK_msdyn_bookableresource_msdyn_requirementresourcepreference_BookableResource"></a> msdyn_bookableresource_msdyn_requirementresourcepreference_BookableResource
 
 Same as msdyn_requirementresourcepreference entity [msdyn_bookableresource_msdyn_requirementresourcepreference_BookableResource](msdyn_requirementresourcepreference.md#BKMK_msdyn_bookableresource_msdyn_requirementresourcepreference_BookableResource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_requirementresourcepreference|
@@ -1562,6 +1596,7 @@ Same as msdyn_requirementresourcepreference entity [msdyn_bookableresource_msdyn
 ### <a name="BKMK_msdyn_bookableresource_msdyn_resourceterritory_Resource"></a> msdyn_bookableresource_msdyn_resourceterritory_Resource
 
 Same as msdyn_resourceterritory entity [msdyn_bookableresource_msdyn_resourceterritory_Resource](msdyn_resourceterritory.md#BKMK_msdyn_bookableresource_msdyn_resourceterritory_Resource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourceterritory|
@@ -1576,6 +1611,7 @@ Same as msdyn_resourceterritory entity [msdyn_bookableresource_msdyn_resourceter
 ### <a name="BKMK_msdyn_bookableresource_msdyn_workhourtemplate_bookableresourceid"></a> msdyn_bookableresource_msdyn_workhourtemplate_bookableresourceid
 
 Same as msdyn_workhourtemplate entity [msdyn_bookableresource_msdyn_workhourtemplate_bookableresourceid](msdyn_workhourtemplate.md#BKMK_msdyn_bookableresource_msdyn_workhourtemplate_bookableresourceid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workhourtemplate|
@@ -1590,6 +1626,7 @@ Same as msdyn_workhourtemplate entity [msdyn_bookableresource_msdyn_workhourtemp
 ### <a name="BKMK_msdyn_bookableresource_msdyn_delegation_delegationfrom"></a> msdyn_bookableresource_msdyn_delegation_delegationfrom
 
 Same as msdyn_delegation entity [msdyn_bookableresource_msdyn_delegation_delegationfrom](msdyn_delegation.md#BKMK_msdyn_bookableresource_msdyn_delegation_delegationfrom) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_delegation|
@@ -1604,6 +1641,7 @@ Same as msdyn_delegation entity [msdyn_bookableresource_msdyn_delegation_delegat
 ### <a name="BKMK_msdyn_bookableresource_msdyn_delegation_delegationto"></a> msdyn_bookableresource_msdyn_delegation_delegationto
 
 Same as msdyn_delegation entity [msdyn_bookableresource_msdyn_delegation_delegationto](msdyn_delegation.md#BKMK_msdyn_bookableresource_msdyn_delegation_delegationto) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_delegation|
@@ -1618,6 +1656,7 @@ Same as msdyn_delegation entity [msdyn_bookableresource_msdyn_delegation_delegat
 ### <a name="BKMK_msdyn_bookableresource_msdyn_estimateline_bookableresource"></a> msdyn_bookableresource_msdyn_estimateline_bookableresource
 
 Same as msdyn_estimateline entity [msdyn_bookableresource_msdyn_estimateline_bookableresource](msdyn_estimateline.md#BKMK_msdyn_bookableresource_msdyn_estimateline_bookableresource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_estimateline|
@@ -1632,6 +1671,7 @@ Same as msdyn_estimateline entity [msdyn_bookableresource_msdyn_estimateline_boo
 ### <a name="BKMK_msdyn_bookableresource_msdyn_expense_bookableresource"></a> msdyn_bookableresource_msdyn_expense_bookableresource
 
 Same as msdyn_expense entity [msdyn_bookableresource_msdyn_expense_bookableresource](msdyn_expense.md#BKMK_msdyn_bookableresource_msdyn_expense_bookableresource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_expense|
@@ -1646,6 +1686,7 @@ Same as msdyn_expense entity [msdyn_bookableresource_msdyn_expense_bookableresou
 ### <a name="BKMK_msdyn_bookableresource_msdyn_fact_bookableresource"></a> msdyn_bookableresource_msdyn_fact_bookableresource
 
 Same as msdyn_fact entity [msdyn_bookableresource_msdyn_fact_bookableresource](msdyn_fact.md#BKMK_msdyn_bookableresource_msdyn_fact_bookableresource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_fact|
@@ -1660,6 +1701,7 @@ Same as msdyn_fact entity [msdyn_bookableresource_msdyn_fact_bookableresource](m
 ### <a name="BKMK_msdyn_bookableresource_msdyn_findworkevent_BookableResource"></a> msdyn_bookableresource_msdyn_findworkevent_BookableResource
 
 Same as msdyn_findworkevent entity [msdyn_bookableresource_msdyn_findworkevent_BookableResource](msdyn_findworkevent.md#BKMK_msdyn_bookableresource_msdyn_findworkevent_BookableResource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_findworkevent|
@@ -1674,6 +1716,7 @@ Same as msdyn_findworkevent entity [msdyn_bookableresource_msdyn_findworkevent_B
 ### <a name="BKMK_msdyn_bookableresource_msdyn_invoicelinetransaction_bookableresource"></a> msdyn_bookableresource_msdyn_invoicelinetransaction_bookableresource
 
 Same as msdyn_invoicelinetransaction entity [msdyn_bookableresource_msdyn_invoicelinetransaction_bookableresource](msdyn_invoicelinetransaction.md#BKMK_msdyn_bookableresource_msdyn_invoicelinetransaction_bookableresource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_invoicelinetransaction|
@@ -1688,6 +1731,7 @@ Same as msdyn_invoicelinetransaction entity [msdyn_bookableresource_msdyn_invoic
 ### <a name="BKMK_msdyn_bookableresource_msdyn_journalline_bookableresource"></a> msdyn_bookableresource_msdyn_journalline_bookableresource
 
 Same as msdyn_journalline entity [msdyn_bookableresource_msdyn_journalline_bookableresource](msdyn_journalline.md#BKMK_msdyn_bookableresource_msdyn_journalline_bookableresource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_journalline|
@@ -1702,6 +1746,7 @@ Same as msdyn_journalline entity [msdyn_bookableresource_msdyn_journalline_booka
 ### <a name="BKMK_msdyn_bookableresource_msdyn_opportunitylinetransaction_bookableresource"></a> msdyn_bookableresource_msdyn_opportunitylinetransaction_bookableresource
 
 Same as msdyn_opportunitylinetransaction entity [msdyn_bookableresource_msdyn_opportunitylinetransaction_bookableresource](msdyn_opportunitylinetransaction.md#BKMK_msdyn_bookableresource_msdyn_opportunitylinetransaction_bookableresource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_opportunitylinetransaction|
@@ -1716,6 +1761,7 @@ Same as msdyn_opportunitylinetransaction entity [msdyn_bookableresource_msdyn_op
 ### <a name="BKMK_msdyn_bookableresource_msdyn_orderlinetransaction_bookableresource"></a> msdyn_bookableresource_msdyn_orderlinetransaction_bookableresource
 
 Same as msdyn_orderlinetransaction entity [msdyn_bookableresource_msdyn_orderlinetransaction_bookableresource](msdyn_orderlinetransaction.md#BKMK_msdyn_bookableresource_msdyn_orderlinetransaction_bookableresource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderlinetransaction|
@@ -1730,6 +1776,7 @@ Same as msdyn_orderlinetransaction entity [msdyn_bookableresource_msdyn_orderlin
 ### <a name="BKMK_msdyn_bookableresource_msdyn_projectapproval_bookableresource"></a> msdyn_bookableresource_msdyn_projectapproval_bookableresource
 
 Same as msdyn_projectapproval entity [msdyn_bookableresource_msdyn_projectapproval_bookableresource](msdyn_projectapproval.md#BKMK_msdyn_bookableresource_msdyn_projectapproval_bookableresource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projectapproval|
@@ -1744,6 +1791,7 @@ Same as msdyn_projectapproval entity [msdyn_bookableresource_msdyn_projectapprov
 ### <a name="BKMK_msdyn_bookableresource_msdyn_projectapproval_SubmittedBy"></a> msdyn_bookableresource_msdyn_projectapproval_SubmittedBy
 
 Same as msdyn_projectapproval entity [msdyn_bookableresource_msdyn_projectapproval_SubmittedBy](msdyn_projectapproval.md#BKMK_msdyn_bookableresource_msdyn_projectapproval_SubmittedBy) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projectapproval|
@@ -1758,6 +1806,7 @@ Same as msdyn_projectapproval entity [msdyn_bookableresource_msdyn_projectapprov
 ### <a name="BKMK_msdyn_bookableresource_msdyn_projecttaskstatususer_BookableResource"></a> msdyn_bookableresource_msdyn_projecttaskstatususer_BookableResource
 
 Same as msdyn_projecttaskstatususer entity [msdyn_bookableresource_msdyn_projecttaskstatususer_BookableResource](msdyn_projecttaskstatususer.md#BKMK_msdyn_bookableresource_msdyn_projecttaskstatususer_BookableResource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projecttaskstatususer|
@@ -1772,6 +1821,7 @@ Same as msdyn_projecttaskstatususer entity [msdyn_bookableresource_msdyn_project
 ### <a name="BKMK_msdyn_bookableresource_msdyn_projectteam_bookableresourceid"></a> msdyn_bookableresource_msdyn_projectteam_bookableresourceid
 
 Same as msdyn_projectteam entity [msdyn_bookableresource_msdyn_projectteam_bookableresourceid](msdyn_projectteam.md#BKMK_msdyn_bookableresource_msdyn_projectteam_bookableresourceid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projectteam|
@@ -1786,6 +1836,7 @@ Same as msdyn_projectteam entity [msdyn_bookableresource_msdyn_projectteam_booka
 ### <a name="BKMK_msdyn_bookableresource_msdyn_projectteammembersignup_BookableResource"></a> msdyn_bookableresource_msdyn_projectteammembersignup_BookableResource
 
 Same as msdyn_projectteammembersignup entity [msdyn_bookableresource_msdyn_projectteammembersignup_BookableResource](msdyn_projectteammembersignup.md#BKMK_msdyn_bookableresource_msdyn_projectteammembersignup_BookableResource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projectteammembersignup|
@@ -1800,6 +1851,7 @@ Same as msdyn_projectteammembersignup entity [msdyn_bookableresource_msdyn_proje
 ### <a name="BKMK_msdyn_bookableresource_msdyn_quotelinetransaction_bookableresource"></a> msdyn_bookableresource_msdyn_quotelinetransaction_bookableresource
 
 Same as msdyn_quotelinetransaction entity [msdyn_bookableresource_msdyn_quotelinetransaction_bookableresource](msdyn_quotelinetransaction.md#BKMK_msdyn_bookableresource_msdyn_quotelinetransaction_bookableresource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelinetransaction|
@@ -1814,6 +1866,7 @@ Same as msdyn_quotelinetransaction entity [msdyn_bookableresource_msdyn_quotelin
 ### <a name="BKMK_msdyn_bookableresource_msdyn_resourceassignment_bookableresourceid"></a> msdyn_bookableresource_msdyn_resourceassignment_bookableresourceid
 
 Same as msdyn_resourceassignment entity [msdyn_bookableresource_msdyn_resourceassignment_bookableresourceid](msdyn_resourceassignment.md#BKMK_msdyn_bookableresource_msdyn_resourceassignment_bookableresourceid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourceassignment|
@@ -1828,6 +1881,7 @@ Same as msdyn_resourceassignment entity [msdyn_bookableresource_msdyn_resourceas
 ### <a name="BKMK_msdyn_bookableresource_msdyn_timeentry_bookableresource"></a> msdyn_bookableresource_msdyn_timeentry_bookableresource
 
 Same as msdyn_timeentry entity [msdyn_bookableresource_msdyn_timeentry_bookableresource](msdyn_timeentry.md#BKMK_msdyn_bookableresource_msdyn_timeentry_bookableresource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_timeentry|
@@ -1842,6 +1896,7 @@ Same as msdyn_timeentry entity [msdyn_bookableresource_msdyn_timeentry_bookabler
 ### <a name="BKMK_msdyn_bookableresource_msdyn_userworkhistory_Bookableresource"></a> msdyn_bookableresource_msdyn_userworkhistory_Bookableresource
 
 Same as msdyn_userworkhistory entity [msdyn_bookableresource_msdyn_userworkhistory_Bookableresource](msdyn_userworkhistory.md#BKMK_msdyn_bookableresource_msdyn_userworkhistory_Bookableresource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_userworkhistory|
@@ -1856,6 +1911,7 @@ Same as msdyn_userworkhistory entity [msdyn_bookableresource_msdyn_userworkhisto
 ### <a name="BKMK_msdyn_bookableresource_account_PreferredResource"></a> msdyn_bookableresource_account_PreferredResource
 
 Same as account entity [msdyn_bookableresource_account_PreferredResource](account.md#BKMK_msdyn_bookableresource_account_PreferredResource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|account|
@@ -1870,6 +1926,7 @@ Same as account entity [msdyn_bookableresource_account_PreferredResource](accoun
 ### <a name="BKMK_msdyn_bookableresource_msdyn_agreementbookingdate_Resource"></a> msdyn_bookableresource_msdyn_agreementbookingdate_Resource
 
 Same as msdyn_agreementbookingdate entity [msdyn_bookableresource_msdyn_agreementbookingdate_Resource](msdyn_agreementbookingdate.md#BKMK_msdyn_bookableresource_msdyn_agreementbookingdate_Resource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementbookingdate|
@@ -1884,6 +1941,7 @@ Same as msdyn_agreementbookingdate entity [msdyn_bookableresource_msdyn_agreemen
 ### <a name="BKMK_msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource"></a> msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource
 
 Same as msdyn_agreementbookingsetup entity [msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource](msdyn_agreementbookingsetup.md#BKMK_msdyn_bookableresource_msdyn_agreementbookingsetup_PreferredResource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementbookingsetup|
@@ -1898,6 +1956,7 @@ Same as msdyn_agreementbookingsetup entity [msdyn_bookableresource_msdyn_agreeme
 ### <a name="BKMK_msdyn_bookableresource_msdyn_inventoryadjustment_AdjustedByResource"></a> msdyn_bookableresource_msdyn_inventoryadjustment_AdjustedByResource
 
 Same as msdyn_inventoryadjustment entity [msdyn_bookableresource_msdyn_inventoryadjustment_AdjustedByResource](msdyn_inventoryadjustment.md#BKMK_msdyn_bookableresource_msdyn_inventoryadjustment_AdjustedByResource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_inventoryadjustment|
@@ -1912,6 +1971,7 @@ Same as msdyn_inventoryadjustment entity [msdyn_bookableresource_msdyn_inventory
 ### <a name="BKMK_msdyn_bookableresource_msdyn_inventoryadjustment_RequestedByResource"></a> msdyn_bookableresource_msdyn_inventoryadjustment_RequestedByResource
 
 Same as msdyn_inventoryadjustment entity [msdyn_bookableresource_msdyn_inventoryadjustment_RequestedByResource](msdyn_inventoryadjustment.md#BKMK_msdyn_bookableresource_msdyn_inventoryadjustment_RequestedByResource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_inventoryadjustment|
@@ -1926,6 +1986,7 @@ Same as msdyn_inventoryadjustment entity [msdyn_bookableresource_msdyn_inventory
 ### <a name="BKMK_msdyn_bookableresource_msdyn_inventorytransfer_TransferredByResource"></a> msdyn_bookableresource_msdyn_inventorytransfer_TransferredByResource
 
 Same as msdyn_inventorytransfer entity [msdyn_bookableresource_msdyn_inventorytransfer_TransferredByResource](msdyn_inventorytransfer.md#BKMK_msdyn_bookableresource_msdyn_inventorytransfer_TransferredByResource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_inventorytransfer|
@@ -1940,6 +2001,7 @@ Same as msdyn_inventorytransfer entity [msdyn_bookableresource_msdyn_inventorytr
 ### <a name="BKMK_msdyn_bookableresource_msdyn_purchaseorder_RequestedByResource"></a> msdyn_bookableresource_msdyn_purchaseorder_RequestedByResource
 
 Same as msdyn_purchaseorder entity [msdyn_bookableresource_msdyn_purchaseorder_RequestedByResource](msdyn_purchaseorder.md#BKMK_msdyn_bookableresource_msdyn_purchaseorder_RequestedByResource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_purchaseorder|
@@ -1954,6 +2016,7 @@ Same as msdyn_purchaseorder entity [msdyn_bookableresource_msdyn_purchaseorder_R
 ### <a name="BKMK_msdyn_bookableresource_msdyn_quotebookingsetup_PreferredResource"></a> msdyn_bookableresource_msdyn_quotebookingsetup_PreferredResource
 
 Same as msdyn_quotebookingsetup entity [msdyn_bookableresource_msdyn_quotebookingsetup_PreferredResource](msdyn_quotebookingsetup.md#BKMK_msdyn_bookableresource_msdyn_quotebookingsetup_PreferredResource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotebookingsetup|
@@ -1968,6 +2031,7 @@ Same as msdyn_quotebookingsetup entity [msdyn_bookableresource_msdyn_quotebookin
 ### <a name="BKMK_msdyn_bookableresource_msdyn_timeoffrequest_Resource"></a> msdyn_bookableresource_msdyn_timeoffrequest_Resource
 
 Same as msdyn_timeoffrequest entity [msdyn_bookableresource_msdyn_timeoffrequest_Resource](msdyn_timeoffrequest.md#BKMK_msdyn_bookableresource_msdyn_timeoffrequest_Resource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_timeoffrequest|
@@ -1982,6 +2046,7 @@ Same as msdyn_timeoffrequest entity [msdyn_bookableresource_msdyn_timeoffrequest
 ### <a name="BKMK_msdyn_bookableresource_msdyn_workorder_PreferredResource"></a> msdyn_bookableresource_msdyn_workorder_PreferredResource
 
 Same as msdyn_workorder entity [msdyn_bookableresource_msdyn_workorder_PreferredResource](msdyn_workorder.md#BKMK_msdyn_bookableresource_msdyn_workorder_PreferredResource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorder|
@@ -1996,6 +2061,7 @@ Same as msdyn_workorder entity [msdyn_bookableresource_msdyn_workorder_Preferred
 ### <a name="BKMK_msdyn_bookableresource_msdyn_workorderresourcerestriction_Resource"></a> msdyn_bookableresource_msdyn_workorderresourcerestriction_Resource
 
 Same as msdyn_workorderresourcerestriction entity [msdyn_bookableresource_msdyn_workorderresourcerestriction_Resource](msdyn_workorderresourcerestriction.md#BKMK_msdyn_bookableresource_msdyn_workorderresourcerestriction_Resource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorderresourcerestriction|

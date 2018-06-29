@@ -28,7 +28,7 @@ Billing support agents for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcr
 ### Microsoft online services platform  
  If you sign in to your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] account with a user name that follows this format, `email@contoso.onmicrosoft.com`, you’re on the [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)]. To find a contact in billing and subscription support, you can:  
   
--   Find your local [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] [billing support number](http://go.microsoft.com/fwlink/p/?LinkID=278814).  
+- Find your local [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] [billing support number](http://go.microsoft.com/fwlink/p/?LinkID=278814).  
   
 ### Microsoft commerce transaction platform  
  If you sign in to your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] account with a user name that follows this format, `email@live.com`, you’re on the [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] commerce transaction platform. To find a contact in billing and subscription support, you can submit a query to CRMAOC@microsoft.com.  
@@ -38,19 +38,19 @@ Billing support agents for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcr
   
  You can resolve many billing-related issues by yourself, but there are some requests that only billing support can resolve. Please refer to the [Billing support](../admin/billing-support.md) page if you want to do any of the following:  
   
-1.  Make a change to billing frequency.  
+1. Make a change to billing frequency.  
   
-2.  Make a change to payment method, that is, change from invoicing to credit card payments outside of subscription renewal. If you want to change your payment method during subscription renewal, see the next question for more information.  
+2. Make a change to payment method, that is, change from invoicing to credit card payments outside of subscription renewal. If you want to change your payment method during subscription renewal, see the next question for more information.  
   
-3.  Reactivate an expired account.  
+3. Reactivate an expired account.  
   
-4.  Cancel a subscription or reduce the number of seats on a subscription. This can also be managed in the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)], without having to contact Support.  
+4. Cancel a subscription or reduce the number of seats on a subscription. This can also be managed in the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)], without having to contact Support.  
   
-5.  Dispute a charge or clarify a subscription discrepancy.  
+5. Dispute a charge or clarify a subscription discrepancy.  
   
-6.  Request a service level agreement (SLA) billing credit.  
+6. Request a service level agreement (SLA) billing credit.  
   
-7.  Correct or change a Partner of Record attachment. This can also now be self-managed through the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)].  
+7. Correct or change a Partner of Record attachment. This can also now be self-managed through the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)].  
   
 ## When I renew my subscription, can I change my payment method?  
  During subscription renewal, you can move from credit card to invoice payment, but not from invoice to credit card. Please refer to the **Dynamics 365 (online)** tab on the [Billing support](../admin/billing-support.md) page if you wish to change from invoice to credit card payments at subscription renewal time.  
@@ -79,9 +79,9 @@ Billing support agents for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcr
   
 You should have also made the following decisions:  
   
-1.  Do you want to keep your existing data? If so, you can export it to [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)]. For more information, see [Export Data to Excel](../basics/export-data-excel.md).  
+1. Do you want to keep your existing data? If so, you can export it to [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)]. For more information, see [Export Data to Excel](../basics/export-data-excel.md).  
   
-2.  Do you want to keep any Internet Marketing service campaigns running? If you’re not the person who signed up for the marketing service, you must work with that person to cancel or maintain it.  
+2. Do you want to keep any Internet Marketing service campaigns running? If you’re not the person who signed up for the marketing service, you must work with that person to cancel or maintain it.  
   
 In addition, you can now do a self-serve cancellation of your subscription from the [Admin portal](https://portal.office.com/default.aspx).  
   

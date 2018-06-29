@@ -920,6 +920,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_MobileOfflineProfileItem_MobileOfflineProfileItemAssociation"></a> MobileOfflineProfileItem_MobileOfflineProfileItemAssociation
 
 Same as mobileofflineprofileitemassociation entity [MobileOfflineProfileItem_MobileOfflineProfileItemAssociation](mobileofflineprofileitemassociation.md#BKMK_MobileOfflineProfileItem_MobileOfflineProfileItemAssociation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mobileofflineprofileitemassociation|

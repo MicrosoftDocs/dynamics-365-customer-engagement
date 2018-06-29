@@ -953,6 +953,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_bookingsetupmetadata_SyncErrors"></a> msdyn_bookingsetupmetadata_SyncErrors
 
 Same as syncerror entity [msdyn_bookingsetupmetadata_SyncErrors](syncerror.md#BKMK_msdyn_bookingsetupmetadata_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -967,6 +968,7 @@ Same as syncerror entity [msdyn_bookingsetupmetadata_SyncErrors](syncerror.md#BK
 ### <a name="BKMK_msdyn_bookingsetupmetadata_AsyncOperations"></a> msdyn_bookingsetupmetadata_AsyncOperations
 
 Same as asyncoperation entity [msdyn_bookingsetupmetadata_AsyncOperations](asyncoperation.md#BKMK_msdyn_bookingsetupmetadata_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -981,6 +983,7 @@ Same as asyncoperation entity [msdyn_bookingsetupmetadata_AsyncOperations](async
 ### <a name="BKMK_msdyn_bookingsetupmetadata_MailboxTrackingFolders"></a> msdyn_bookingsetupmetadata_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_bookingsetupmetadata_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_bookingsetupmetadata_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -995,6 +998,7 @@ Same as mailboxtrackingfolder entity [msdyn_bookingsetupmetadata_MailboxTracking
 ### <a name="BKMK_msdyn_bookingsetupmetadata_UserEntityInstanceDatas"></a> msdyn_bookingsetupmetadata_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_bookingsetupmetadata_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_bookingsetupmetadata_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1009,6 +1013,7 @@ Same as userentityinstancedata entity [msdyn_bookingsetupmetadata_UserEntityInst
 ### <a name="BKMK_msdyn_bookingsetupmetadata_ProcessSession"></a> msdyn_bookingsetupmetadata_ProcessSession
 
 Same as processsession entity [msdyn_bookingsetupmetadata_ProcessSession](processsession.md#BKMK_msdyn_bookingsetupmetadata_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1023,6 +1028,7 @@ Same as processsession entity [msdyn_bookingsetupmetadata_ProcessSession](proces
 ### <a name="BKMK_msdyn_bookingsetupmetadata_BulkDeleteFailures"></a> msdyn_bookingsetupmetadata_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_bookingsetupmetadata_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_bookingsetupmetadata_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1037,6 +1043,7 @@ Same as bulkdeletefailure entity [msdyn_bookingsetupmetadata_BulkDeleteFailures]
 ### <a name="BKMK_msdyn_bookingsetupmetadata_PrincipalObjectAttributeAccesses"></a> msdyn_bookingsetupmetadata_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_bookingsetupmetadata_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_bookingsetupmetadata_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1051,6 +1058,7 @@ Same as principalobjectattributeaccess entity [msdyn_bookingsetupmetadata_Princi
 ### <a name="BKMK_msdyn_msdyn_bookingsetupmetadata_bookableresourcebooking"></a> msdyn_msdyn_bookingsetupmetadata_bookableresourcebooking
 
 Same as bookableresourcebooking entity [msdyn_msdyn_bookingsetupmetadata_bookableresourcebooking](bookableresourcebooking.md#BKMK_msdyn_msdyn_bookingsetupmetadata_bookableresourcebooking) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcebooking|
@@ -1065,6 +1073,7 @@ Same as bookableresourcebooking entity [msdyn_msdyn_bookingsetupmetadata_bookabl
 ### <a name="BKMK_msdyn_msdyn_bookingsetupmetadata_msdyn_resourcerequirement"></a> msdyn_msdyn_bookingsetupmetadata_msdyn_resourcerequirement
 
 Same as msdyn_resourcerequirement entity [msdyn_msdyn_bookingsetupmetadata_msdyn_resourcerequirement](msdyn_resourcerequirement.md#BKMK_msdyn_msdyn_bookingsetupmetadata_msdyn_resourcerequirement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourcerequirement|

@@ -24,17 +24,17 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
   
 ## Prerequisites  
   
--   A [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] package must be deployed on your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, and the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application must already be installed to test the application at the end of the walkthrough. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install, upgrade, and deploy Unified Service Desk](../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  
+- A [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] package must be deployed on your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, and the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application must already be installed to test the application at the end of the walkthrough. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install, upgrade, and deploy Unified Service Desk](../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  
   
--   You must have required [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] permissions to configure [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Access management in Unified Service Desk](../unified-service-desk/admin/security-unified-service-desk.md)  
+- You must have required [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] permissions to configure [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Access management in Unified Service Desk](../unified-service-desk/admin/security-unified-service-desk.md)  
   
--   You must be familiar with the following concepts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]:  
+- You must be familiar with the following concepts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]:  
   
-    -   [Unified Service Desk Hosted Controls](../unified-service-desk/unified-service-desk-hosted-controls.md)  
+  - [Unified Service Desk Hosted Controls](../unified-service-desk/unified-service-desk-hosted-controls.md)  
   
-    -   These three types of hosted controls: Connection Manager, Global Manager, and Panel Layout. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
+  - These three types of hosted controls: Connection Manager, Global Manager, and Panel Layout. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
   
-    -   Filter access using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](../unified-service-desk/admin/manage-access-using-unified-service-desk-configuration.md)  
+  - Filter access using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](../unified-service-desk/admin/manage-access-using-unified-service-desk-configuration.md)  
   
 <a name="Top"></a>   
 ## In This Walkthrough  
@@ -52,37 +52,37 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
 ## Step 1: Create the basic hosted controls  
  Create the following three types of hosted control so that the application can connect to an instance of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]: Connection Manager, Global Manager, and Panel Type.  
   
-1.  Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
-3.  Click **Hosted Controls**.  
+3. Click **Hosted Controls**.  
   
-4.  Click **New**.  
+4. Click **New**.  
   
-5.  On the **New Hosted Control** page, specify the following values.  
+5. On the **New Hosted Control** page, specify the following values.  
   
-    |Field|Value|  
-    |-----------|-----------|  
-    |Name|Contoso Connection Manager|  
-    |Sort Order|1|  
-    |USD Component Type|Connection Manager|  
+   |Field|Value|  
+   |-----------|-----------|  
+   |Name|Contoso Connection Manager|  
+   |Sort Order|1|  
+   |USD Component Type|Connection Manager|  
   
- ![Connection Manager hosted control](../unified-service-desk/media/crm-itpro-usd-wt01-01.png "Connection Manager hosted control")
+   ![Connection Manager hosted control](../unified-service-desk/media/crm-itpro-usd-wt01-01.png "Connection Manager hosted control")
   
-6.  Click **Save**.  
+6. Click **Save**.  
   
-7.  Click **New** to create another hosted control.  
+7. Click **New** to create another hosted control.  
   
-8.  On the **New Hosted Control** page, specify the following values.  
+8. On the **New Hosted Control** page, specify the following values.  
   
-    |Field|Value|  
-    |-----------|-----------|  
-    |Name|Contoso Global Manager|  
-    |Sort Order|2|  
-    |USD Component Type|Global Manager|  
+   |Field|Value|  
+   |-----------|-----------|  
+   |Name|Contoso Global Manager|  
+   |Sort Order|2|  
+   |USD Component Type|Global Manager|  
   
- ![Global Manager hosted control](../unified-service-desk/media/crm-itpro-usd-wt01-02.png "Global Manager hosted control")
+   ![Global Manager hosted control](../unified-service-desk/media/crm-itpro-usd-wt01-02.png "Global Manager hosted control")
   
 9. Click **Save**.  
   
@@ -98,7 +98,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
     |Application is Dynamic|No|  
     |User Can Close|Unchecked|  
   
- ![Panel Layout hosted control](../unified-service-desk/media/crm-itpro-usd-wt01-03.png "Panel Layout hosted control")  
+    ![Panel Layout hosted control](../unified-service-desk/media/crm-itpro-usd-wt01-03.png "Panel Layout hosted control")  
   
 12. Click **Save**.  
   
@@ -109,25 +109,25 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
 ## Step 2: Add the hosted controls to a configuration  
  A configuration in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] helps you filter access to components that are displayed in the agent application to a user. In this step, create a configuration, and then add the hosted controls created earlier to the configuration.  
   
-1.  Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
-3.  Click **Configuration**.  
+3. Click **Configuration**.  
   
-4.  Click **New**.  
+4. Click **New**.  
   
-5.  On the **New Configuration** page, type `Contoso Configuration` as the name of the configuration, and click **Save**.  
+5. On the **New Configuration** page, type `Contoso Configuration` as the name of the configuration, and click **Save**.  
   
-6.  After the new configuration is saved, on the nav bar, click the down arrow next to the configuration name, and then select **Hosted Controls**.  
+6. After the new configuration is saved, on the nav bar, click the down arrow next to the configuration name, and then select **Hosted Controls**.  
   
-7.  Click **Add Existing Hosted Control**, type `Contoso` in the search bar, and then press ENTER or click the search icon.  
+7. Click **Add Existing Hosted Control**, type `Contoso` in the search bar, and then press ENTER or click the search icon.  
   
-8.  The three hosted controls added earlier display in the search results. Click the **Look up more Records** link.  
+8. The three hosted controls added earlier display in the search results. Click the **Look up more Records** link.  
   
 9. Select the three hosted controls, click **Select**, and then click **Add**.  
   
- ![Add the hosted controls to the configuration](../unified-service-desk/media/crm-itpro-usd-wt01-04.PNG "Add the hosted controls to the configuration")  
+   ![Add the hosted controls to the configuration](../unified-service-desk/media/crm-itpro-usd-wt01-04.PNG "Add the hosted controls to the configuration")  
   
 10. The hosted controls are added to the configuration. Click **Save**.  
   
@@ -135,13 +135,13 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
 ## Step 3: Assign users to the configuration  
  In this step, assign users to the configuration so that when they sign in using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, they can only access the three hosted controls that are added to this configuration. For this walkthrough, assign only a single user to the configuration who will be testing the application at the end of the walkthrough.  
   
-1.  On the nav bar, click the down arrow next to the **Contoso Configuration**, and then select **Assigned Users**.  
+1. On the nav bar, click the down arrow next to the **Contoso Configuration**, and then select **Assigned Users**.  
   
-2.  On the next page, click **Add Existing User**, type the name of the user in the search bar, and then press ENTER or click the search icon.  
+2. On the next page, click **Add Existing User**, type the name of the user in the search bar, and then press ENTER or click the search icon.  
   
-3.  From the search result, click the user name that you want to be assigned to the configuration. The user is added to the configuration. In this case, assign **Randy Blythe** to the configuration. Click **Save**.  
+3. From the search result, click the user name that you want to be assigned to the configuration. The user is added to the configuration. In this case, assign **Randy Blythe** to the configuration. Click **Save**.  
   
- ![User added to the configuration](../unified-service-desk/media/crm-itpro-usd-wt01-05.png "User added to the configuration") 
+   ![User added to the configuration](../unified-service-desk/media/crm-itpro-usd-wt01-05.png "User added to the configuration") 
   
 <a name="Step4"></a>   
 ## Step 4: Test the application  

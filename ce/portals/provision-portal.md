@@ -27,16 +27,16 @@ Portals are websites that you can customize to provide a more personalized exper
 
 To complete provisioning a portal, after you have purchased a new portal license, return to your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance.
 
-1.  Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)], and then select the **Applications** tab.
-2.  Select the application row titled **Portal Add-On**, and then select **Manage.**
-3.  In the **General Settings** section, enter a **Name** for your portal. The **Name** will help to identify the portal and can be changed later.
-4.  The **Type** field represents the type of portal subscription (Trial or Production). This is a system field, so it cannot be changed by the user. The value changes based on whether it is trial subscription or paid subscription.
-5.  In the **Portal URL** field, enter the subdomain name you want for your portal. You can only use alphanumeric characters or hyphens (-); other characters are not permitted. After the portal is provisioned, the URL cannot be changed, but you can use a custom domain name.
-6.  Use the **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Instance** drop-down list to choose which [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance you want to link the portal to. Requires System Administrator or System Customizer role in the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance you pick to select it.
-7.  Choose the default language for your portal from the **Select Portal Language** drop-down list. The available languages will depend on the languages that are installed in your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance. 
+1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)], and then select the **Applications** tab.
+2. Select the application row titled **Portal Add-On**, and then select **Manage.**
+3. In the **General Settings** section, enter a **Name** for your portal. The **Name** will help to identify the portal and can be changed later.
+4. The **Type** field represents the type of portal subscription (Trial or Production). This is a system field, so it cannot be changed by the user. The value changes based on whether it is trial subscription or paid subscription.
+5. In the **Portal URL** field, enter the subdomain name you want for your portal. You can only use alphanumeric characters or hyphens (-); other characters are not permitted. After the portal is provisioned, the URL cannot be changed, but you can use a custom domain name.
+6. Use the **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Instance** drop-down list to choose which [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance you want to link the portal to. Requires System Administrator or System Customizer role in the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance you pick to select it.
+7. Choose the default language for your portal from the **Select Portal Language** drop-down list. The available languages will depend on the languages that are installed in your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance. 
 
-    >[!NOTE]
-    > Sample data is only provided in one language, so choosing a default language will also decide how the sample data is translated. Arabic and Hebrew are not supported and will not appear in the list.
+   >[!NOTE]
+   > Sample data is only provided in one language, so choosing a default language will also decide how the sample data is translated. Arabic and Hebrew are not supported and will not appear in the list.
 
 8. In the **Select Portal Administrator** drop-down list, select the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] user who will configure, customize, and maintain the portal. All [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users who have the System Administrator role in the organization will appear as options. 
 9. In the **Portal Audience** section, choose the type of audience who will visit the new portal. This will determine what options of portals you will be given. You can choose:
@@ -48,47 +48,48 @@ To complete provisioning a portal, after you have purchased a new portal license
         -   Partner Project Service (Optional, requires solutions installed)
         -   Partner Field Service (Optional, requires solutions installed)
         -   Community Portal
-    
+
     -   Customer
         -   Customer Self Service Portal
         -   Custom Portal
         -   Community Portal
-    
+
     -   Employee
         -   Employee Self Service Portal
 
 The table below summarizes the features associated with each portal option:
 
 
-| Feature                                | Customer Self-Service Portal | Partner Portal | Employee Self-Service Portal | Community Portal | Custom Portal |
-|----------------------------------------|------------------------------|----------------|------------------------------|------------------|---------------|
-| World Ready                            | •                            | •              | •                            | •                | •             |
-| Multi-Language Support                 | •                            | •              | •                            | •                | •             |
-| Portal Administration                  | •                            | •              | •                            | •                | •             |
-| Customization and Extensibility        | •                            | •              | •                            | •                | •             |
-| Theming                                | •                            | •              | •                            | •                | •             |
-| Content Management                     | •                            |                | •                            | •                |               |
-| Knowledge Management                   | •                            | •              | •                            | •                |               |
-| Support/Case Management                | •                            |                | •                            | •                |               |
-| Forums                                 | •                            |                | •                            | •                |               |
-| Faceted Search                         | •                            |                | •                            |                  |               |
-| Profile Management                     | •                            |                | •                            |                  |               |
-| Subscribe to Forum Thread              | •                            |                | •                            |                  |               |
-| Comments                               | •                            |                | •                            | •                |               |
-| [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD Authentication                |                              |                | •                            |                  |               |
-| Ideas                                  |                              |                |                              | •                |               |
-| Blogs                                  |                              |                |                              | •                |               |
-| Project Service Automation Integration |                              | •              |                              |                  |               |
-| Field Service Integration              |                              | •              |                              |                  |               |
-| Partner Onboarding                     |                              | •              |                              |                  |               |
-| Portal Base                            |  •                           | •              |  •                           | •                | •             |
-| Portal Workflows                       |  •                           | •              |  •                           | •                | •             |
-| Web Notifications                      |  •                           | •              |  •                           | •                | •             |
-| [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Identity                     |     •                         |  •              |     •                         |   •               | •             |
-| Identity Workflows                     | •                            |  •             |     •                         |   •               | •             |
-| Web Forms                              |  •                            | •               |    •                          | •                 | •             |
-| Feedback                               |   •                           |  •              |  •                            | •                 | •             |
-||
+|                                      Feature                                      | Customer Self-Service Portal | Partner Portal | Employee Self-Service Portal | Community Portal | Custom Portal |
+|-----------------------------------------------------------------------------------|------------------------------|----------------|------------------------------|------------------|---------------|
+|                                    World Ready                                    |              •               |       •        |              •               |        •         |       •       |
+|                              Multi-Language Support                               |              •               |       •        |              •               |        •         |       •       |
+|                               Portal Administration                               |              •               |       •        |              •               |        •         |       •       |
+|                          Customization and Extensibility                          |              •               |       •        |              •               |        •         |       •       |
+|                                      Theming                                      |              •               |       •        |              •               |        •         |       •       |
+|                                Content Management                                 |              •               |                |              •               |        •         |               |
+|                               Knowledge Management                                |              •               |       •        |              •               |        •         |               |
+|                              Support/Case Management                              |              •               |                |              •               |        •         |               |
+|                                      Forums                                       |              •               |                |              •               |        •         |               |
+|                                  Faceted Search                                   |              •               |                |              •               |                  |               |
+|                                Profile Management                                 |              •               |                |              •               |                  |               |
+|                             Subscribe to Forum Thread                             |              •               |                |              •               |                  |               |
+|                                     Comments                                      |              •               |                |              •               |        •         |               |
+| [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD Authentication |                              |                |              •               |                  |               |
+|                                       Ideas                                       |                              |                |                              |        •         |               |
+|                                       Blogs                                       |                              |                |                              |        •         |               |
+|                      Project Service Automation Integration                       |                              |       •        |                              |                  |               |
+|                             Field Service Integration                             |                              |       •        |                              |                  |               |
+|                                Partner Onboarding                                 |                              |       •        |                              |                  |               |
+|                                    Portal Base                                    |              •               |       •        |              •               |        •         |       •       |
+|                                 Portal Workflows                                  |              •               |       •        |              •               |        •         |       •       |
+|                                 Web Notifications                                 |              •               |       •        |              •               |        •         |       •       |
+|          [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Identity           |              •               |       •        |              •               |        •         |       •       |
+|                                Identity Workflows                                 |              •               |       •        |              •               |        •         |       •       |
+|                                     Web Forms                                     |              •               |       •        |              •               |        •         |       •       |
+|                                     Feedback                                      |              •               |       •        |              •               |        •         |       •       |
+|                                                                                   |                              |                |                              |                  |               |
+
 10. In the **Select portal to be deployed** section, choose what type of portal you want to create. The options you see are based on the audience you selected.
 
     ![Configure settings for your portal](media/configure-settings-portal.png "Configure settings for your portal")  
@@ -112,11 +113,11 @@ If "*Name*-Configuring" changes to "*Name*-Provisioning Failed," you need to res
 2. Select the blue pencil button labeled **Manage**.
 3. Choose one of the following options:
 
-    -   **Restart Provisioning**: Restarts the installation process with the configuration that was previously defined.
+   - **Restart Provisioning**: Restarts the installation process with the configuration that was previously defined.
 
-    -   **Change Values and Restart Provisioning**: Lets you change some of the values before restarting the provisioning process.
+   - **Change Values and Restart Provisioning**: Lets you change some of the values before restarting the provisioning process.
 
-    ![Provisioning error](media/error-provisioning.png "Provisioning error")  
+     ![Provisioning error](media/error-provisioning.png "Provisioning error")  
 
 If the package installation has failed, the portal administrator page will open without any issues, but navigating to the actual portal URL will show a message "Getting set up." To confirm this:
 
@@ -134,6 +135,6 @@ When you install Dynamics 365 Portals version 9.0 and higher, the Dynamics 365 P
 
 ### Open Dynamics 365 Portals app
 
-1.	Sign in to Dynamics 365.
-2.	Open the URL `<organization URL>/apps` or go to **Settings** > **My Apps**. 
-3.	Select the Dynamics 365 Portals app.
+1.  Sign in to Dynamics 365.
+2.  Open the URL `<organization URL>/apps` or go to **Settings** > **My Apps**. 
+3.  Select the Dynamics 365 Portals app.
