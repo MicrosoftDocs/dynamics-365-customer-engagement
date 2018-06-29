@@ -182,7 +182,7 @@ Keep track of all conversations that happen on a [!INCLUDE[tn_facebook](../inclu
      Select a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page from the social profiles that you added.  
   
     > [!NOTE]
-    >  You can also add multiple [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profiles or pages to a rule in one step by clicking **Add** (![Add button](media/add-icon.png "Add button")) next to each page.  
+    >  You can also add multiple [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages to a rule in one step by clicking **Add** (![Add button](media/add-icon.png "Add button")) next to each page.  
   
 7.  Click **Continue** in the **Add Rule** pane to add the rule to the search topic.  
   

@@ -2,7 +2,7 @@
 title: "Manage social profiles in Social Engagement | Microsoft Docs"
 description: "Learn how to add, edit, share, or remove a social profile in Social Engagement."
 keywords: "social profile, tokens, shared profile"
-ms.date: 02/27/2018
+ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -11,7 +11,6 @@ ms.assetid: b84d4554-04b9-49fb-9f63-3ea913ef64fb
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-topic-status: Drafting
 ms.custom:
   - dyn365-socialengagement
 ---
@@ -36,8 +35,6 @@ Data acquisition and acquisition of private messages from your social profiles r
 Currently, you can add the following social profiles: 
 
 - **[!INCLUDE[tn-twitter](../includes/tn-twitter.md)] user**: Publish new posts and interact with posts on [!INCLUDE[tn-twitter](../includes/tn-twitter.md)]. Optionally, you can allow data acquisition for direct messages sent to this profile to allow other users create search rules that acquire gather these direct messages. 
-
-- **[!INCLUDE[tn-facebook](../includes/tn-facebook.md)] user**: Interact with posts on [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] with a [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] user profile.
 
 - **[!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page**: Interact with posts on [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] with a [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page profile. To add this type of profile, you need to have admin permissions to create posts as the Page, or to send messages as the page. Get in touch with the admin of the [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page to adjust these settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Facebook Help Center: Page Roles](http://go.microsoft.com/fwlink/p/?LinkID=723360)
 

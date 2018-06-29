@@ -2,7 +2,7 @@
 title: "Manage access tokens in Social Engagement | Microsoft Docs"
 description: "Learn how to manage tokens for social profiles in Social Engagement."
 keywords: "tokens, oauth, validation"
-ms.date: 02/20/2018
+ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -11,7 +11,6 @@ ms.assetid: d4d0e9fd-4d8c-4323-9f11-88f82913156b
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-topic-status: Drafting
 ms.custom:
   - dyn365-socialengagement
 ---
@@ -21,7 +20,7 @@ ms.custom:
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] requires you to provide access tokens in order to acquire data from some sources and interact with posts using social profiles. Access tokens enable data acquisition and can be easily supplied by [adding a social profile](manage-social-profiles.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] where users sign in to social media accounts. We recommend that multiple users add tokens to guarantee a faster data acquisition and reduce the risk of data acquisition stopping due to expired access tokens.  
   
 > [!NOTE]
-> The data acquired through a user's token is not shared with any other [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solutions.  
+> The data acquired through a user's token is exclusively available in your organization's [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solutions.  
   
 [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] provides acquisition tokens (to acquire data on behalf of a user from a social media site) and interaction tokens (to post on behalf of a user to a social media site). The following table shows the tokens available tokens for social profiles.  
   
@@ -77,14 +76,6 @@ You can check your token health states to make sure your tokens aren't expired. 
   
 > [!NOTE]
 >  View your social profiles page to add a token. If you don't see the social profile in question, you can add a social profile and add tokens directly.  
-  
-### Add a Facebook user token to interact with posts  
-  
-1.  Go to **Settings** > **Social Profiles**.  
-  
-2.  Select the appropriate social profile, and then in the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] user details panel, under **Allow Interactions**, select **Reauthenticate your token** ![Reauthenticate tokens button in Social Engagement](media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") and enter your log-in credentials.  
-  
-3.  Select **Save**.  
   
 ### Add a Facebook page token and allow data acquisition for private messages  
   
