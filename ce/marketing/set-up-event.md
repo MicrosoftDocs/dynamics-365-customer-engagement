@@ -100,6 +100,8 @@ When setting up a speaker engagement, you map a speaker to a specific session fo
 - A speaker record must exist.
 - If you're assigning a session, a session record must exist. (For single-session events, you might not have a session record and instead will treat the event itself as a session.)
 
+<a name="event-passes"></a>
+
 ## Set up event passes
 
 Event passes are essentially tickets that you can sell or give away to grant access to your event and/or its various sessions and tracks. Passes are optional, but if you want to use them, you'll start by setting up the basic types of passes that you need for an event. Later, you'll assign a pass of the appropriate type to each attendee by mapping each event registration to one or more pass types. Passes can also be shown on the event portal, so attendees can register for the passes they want while registering for the event itself; in this case, the registration/pass mapping is made automatically. For each assigned pass, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] generates a unique QR code, which you can print onto a physical badge that event personnel can quickly scan on entrance to confirm eligibility and record attendance.
