@@ -138,6 +138,7 @@ The following are not currently available with Unified Interface:
 - Position entity 
 - Global notifications
 - Admin experiences 
+- Editable grids on phones 
 
 ### See also
 [Overview of building model-driven apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
