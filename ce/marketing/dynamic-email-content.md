@@ -72,6 +72,7 @@ Start by positioning your cursor in the field where you want to insert the dynam
 - **Account**: Places a value from a specific account record.
 - **Contact**: Places a value from a specific contact record (not the recipient's record).
 - **Event**: Places a link to a specific event sign-up page, or a field value from the page.
+- **Lead**: Places a value from a specific lead record.
 - **Marketing list**: Places a value from a specific marketing list.
 - **Marketing list member**: Places a value from a specific marketing list member.
 - **Marketing page**: Places a link to a specific marketing page, or a field value from the page.
