@@ -2,7 +2,7 @@
 title: "Detect duplicate data for developers (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Overview of the duplicate detection capabilities, including detection policies and duplicate detection rules for entity types."
 ms.custom: ""
-ms.date: 11/28/2017
+ms.date: 07/02/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -19,6 +19,9 @@ manager: "amyla"
 # Detect duplicate data for developers
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+
+> [!NOTE]
+> For information on how to create rules and run system jobs for detecting duplicate data using the Dynamics 365 user interface(UI), see [Detect duplicate data so you can fix or remove it](../admin/detect-duplicate-data.md).
 
 Duplicate detection lets organizations set duplicate detection policies and create duplicate detection rules for business and custom entities. These rules can be applied across different record types in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For example, an organization may define that a lead is a duplicate of a contact, if they have the same name and phone number. Based on the duplicate detection rules set by the administrator, the system alerts the user about potential duplicates when the user tries to create new records or update existing records. To maintain data quality, you can schedule a duplicate detection job to check for duplicates for all records that match a certain criteria. You can clean the data by deleting, deactivating, or merging the duplicates reported by a duplicate detection job.  
   
