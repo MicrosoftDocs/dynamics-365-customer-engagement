@@ -28,9 +28,12 @@
 #### [Manage sample data](additional-settings.md)
 #### [Quota management](quota-management.md)
 
+### Privacy and compliance
+#### [Data protection and GDPR](gdpr.md)
+#### [Set up double opt-in](double-opt-in.md)
+#### [How the app uses cookies](cookies.md)
+
 ### [Customize Marketing](customize.md)
-### [Data protection and GDPR](gdpr.md)
-### [How the app uses cookies](cookies.md)
 ### [Administration and setup FAQ](setup-troubleshooting.md)
 
 ## [User Guide](user-guide.md)
@@ -69,7 +72,6 @@
 #### [Add dynamic content to email messages](dynamic-email-content.md)
 #### [Work with email templates](email-templates.md)
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
-#### [Set up double opt-in](double-opt-in.md)
 
 ### Segmentation and customer journeys
 #### [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
