@@ -105,6 +105,25 @@ Choose a Team, verify **Yes** is enabled, and then select **Install** to install
 
 ![Install Team app](media/teams-first-settings.png "Install Team app")
 
+With the Team app installed, select the **Add** button ![Add button](media/plus-2.png "Add button") to add the Dynamics 365 tab to a Microsoft Team channel. 
+
+![Select Add button](media/teams-add-tab.png "Select Add button")
+
+Select the Dynamics 365 icon to pin a Dynamics 365 record to a Microsoft Team discussion channel.
+
+![Add Dynamics 365 Team channel](media/teams-add-channel.png "Add Dynamics 365 Team channel")
+
+Search for an entity to pin. Use **Filter** to narrow the search to an entity type. Select **Save**.
+
+![Search for entity](media/teams-add-channel-pin-record.png "Search for entity")
+
+The Dynamics 365 tab appears on the menu bar.
+
+![Dynamics 365 tab](media/teams-pinned-record.png "Dynamics 365 tab")
+
+You can fully interact with the record. Those with Write permissions can edit the record and changes will be synchronized with the Dynamics 365 web application.
+
+
 
 . <br/>
 . <br/> 
