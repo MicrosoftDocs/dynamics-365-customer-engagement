@@ -1718,6 +1718,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_incidentresolution_activity_parties"></a> incidentresolution_activity_parties
 
 Same as activityparty entity [incidentresolution_activity_parties](activityparty.md#BKMK_incidentresolution_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1732,6 +1733,7 @@ Same as activityparty entity [incidentresolution_activity_parties](activityparty
 ### <a name="BKMK_CampaignResponse_IncidentResolutions"></a> CampaignResponse_IncidentResolutions
 
 Same as campaignresponse entity [CampaignResponse_IncidentResolutions](campaignresponse.md#BKMK_CampaignResponse_IncidentResolutions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -1746,6 +1748,7 @@ Same as campaignresponse entity [CampaignResponse_IncidentResolutions](campaignr
 ### <a name="BKMK_IncidentResolution_SyncErrors"></a> IncidentResolution_SyncErrors
 
 Same as syncerror entity [IncidentResolution_SyncErrors](syncerror.md#BKMK_IncidentResolution_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1760,6 +1763,7 @@ Same as syncerror entity [IncidentResolution_SyncErrors](syncerror.md#BKMK_Incid
 ### <a name="BKMK_IncidentResolution_AsyncOperations"></a> IncidentResolution_AsyncOperations
 
 Same as asyncoperation entity [IncidentResolution_AsyncOperations](asyncoperation.md#BKMK_IncidentResolution_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1774,6 +1778,7 @@ Same as asyncoperation entity [IncidentResolution_AsyncOperations](asyncoperatio
 ### <a name="BKMK_incidentresolution_MailboxTrackingFolders"></a> incidentresolution_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [incidentresolution_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_incidentresolution_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1788,6 +1793,7 @@ Same as mailboxtrackingfolder entity [incidentresolution_MailboxTrackingFolders]
 ### <a name="BKMK_userentityinstancedata_incidentresolution"></a> userentityinstancedata_incidentresolution
 
 Same as userentityinstancedata entity [userentityinstancedata_incidentresolution](userentityinstancedata.md#BKMK_userentityinstancedata_incidentresolution) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1802,6 +1808,7 @@ Same as userentityinstancedata entity [userentityinstancedata_incidentresolution
 ### <a name="BKMK_IncidentResolution_BulkDeleteFailures"></a> IncidentResolution_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [IncidentResolution_BulkDeleteFailures](bulkdeletefailure.md#BKMK_IncidentResolution_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1816,6 +1823,7 @@ Same as bulkdeletefailure entity [IncidentResolution_BulkDeleteFailures](bulkdel
 ### <a name="BKMK_incidentresolution_PrincipalObjectAttributeAccesses"></a> incidentresolution_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [incidentresolution_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_incidentresolution_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1830,6 +1838,7 @@ Same as principalobjectattributeaccess entity [incidentresolution_PrincipalObjec
 ### <a name="BKMK_IncidentResolution_Annotation"></a> IncidentResolution_Annotation
 
 Same as annotation entity [IncidentResolution_Annotation](annotation.md#BKMK_IncidentResolution_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|

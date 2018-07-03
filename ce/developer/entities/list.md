@@ -963,6 +963,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_List_SyncErrors"></a> List_SyncErrors
 
 Same as syncerror entity [List_SyncErrors](syncerror.md#BKMK_List_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -977,6 +978,7 @@ Same as syncerror entity [List_SyncErrors](syncerror.md#BKMK_List_SyncErrors) Ma
 ### <a name="BKMK_List_DuplicateMatchingRecord"></a> List_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [List_DuplicateMatchingRecord](duplicaterecord.md#BKMK_List_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -991,6 +993,7 @@ Same as duplicaterecord entity [List_DuplicateMatchingRecord](duplicaterecord.md
 ### <a name="BKMK_List_DuplicateBaseRecord"></a> List_DuplicateBaseRecord
 
 Same as duplicaterecord entity [List_DuplicateBaseRecord](duplicaterecord.md#BKMK_List_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1005,6 +1008,7 @@ Same as duplicaterecord entity [List_DuplicateBaseRecord](duplicaterecord.md#BKM
 ### <a name="BKMK_List_AsyncOperations"></a> List_AsyncOperations
 
 Same as asyncoperation entity [List_AsyncOperations](asyncoperation.md#BKMK_List_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1019,6 +1023,7 @@ Same as asyncoperation entity [List_AsyncOperations](asyncoperation.md#BKMK_List
 ### <a name="BKMK_list_MailboxTrackingFolders"></a> list_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [list_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_list_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1033,6 +1038,7 @@ Same as mailboxtrackingfolder entity [list_MailboxTrackingFolders](mailboxtracki
 ### <a name="BKMK_userentityinstancedata_list"></a> userentityinstancedata_list
 
 Same as userentityinstancedata entity [userentityinstancedata_list](userentityinstancedata.md#BKMK_userentityinstancedata_list) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1047,6 +1053,7 @@ Same as userentityinstancedata entity [userentityinstancedata_list](userentityin
 ### <a name="BKMK_List_ProcessSessions"></a> List_ProcessSessions
 
 Same as processsession entity [List_ProcessSessions](processsession.md#BKMK_List_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1061,6 +1068,7 @@ Same as processsession entity [List_ProcessSessions](processsession.md#BKMK_List
 ### <a name="BKMK_List_BulkDeleteFailures"></a> List_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [List_BulkDeleteFailures](bulkdeletefailure.md#BKMK_List_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1075,6 +1083,7 @@ Same as bulkdeletefailure entity [List_BulkDeleteFailures](bulkdeletefailure.md#
 ### <a name="BKMK_list_principalobjectattributeaccess"></a> list_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [list_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_list_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1089,6 +1098,7 @@ Same as principalobjectattributeaccess entity [list_principalobjectattributeacce
 ### <a name="BKMK_list_connections1"></a> list_connections1
 
 Same as connection entity [list_connections1](connection.md#BKMK_list_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1103,6 +1113,7 @@ Same as connection entity [list_connections1](connection.md#BKMK_list_connection
 ### <a name="BKMK_list_connections2"></a> list_connections2
 
 Same as connection entity [list_connections2](connection.md#BKMK_list_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1117,6 +1128,7 @@ Same as connection entity [list_connections2](connection.md#BKMK_list_connection
 ### <a name="BKMK_List_Annotation"></a> List_Annotation
 
 Same as annotation entity [List_Annotation](annotation.md#BKMK_List_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1131,6 +1143,7 @@ Same as annotation entity [List_Annotation](annotation.md#BKMK_List_Annotation) 
 ### <a name="BKMK_List_BulkOperations"></a> List_BulkOperations
 
 Same as bulkoperation entity [List_BulkOperations](bulkoperation.md#BKMK_List_BulkOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkoperation|

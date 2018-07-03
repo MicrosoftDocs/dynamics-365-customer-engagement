@@ -126,6 +126,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Sequence number of the import that created this record.|
@@ -144,6 +145,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_AccountCustomer"></a> msdyn_AccountCustomer
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the customer.|
@@ -159,6 +161,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_AccountingDate"></a> msdyn_AccountingDate
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -175,6 +178,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_AccountVendor"></a> msdyn_AccountVendor
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -190,6 +194,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_actualId"></a> msdyn_actualId
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
@@ -205,6 +210,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_AdjustmentStatus"></a> msdyn_AdjustmentStatus
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the adjustment status ID of the transaction.|
@@ -228,6 +234,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Agreement"></a> msdyn_Agreement
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -243,6 +250,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Amount"></a> msdyn_Amount
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Enter the amount in transaction currency.|
@@ -261,6 +269,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_AmountMethod"></a> msdyn_AmountMethod
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the method by which the amount was computed.|
@@ -286,6 +295,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_BasisAmount"></a> msdyn_BasisAmount
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Enter the cost amount of the sales transaction in the transaction currency.|
@@ -304,6 +314,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_BasisPrice"></a> msdyn_BasisPrice
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Enter the cost price of the sales transaction in transaction currency.|
@@ -322,6 +333,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_BasisQuantity"></a> msdyn_BasisQuantity
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Enter the cost quantity of the sales transaction in the base (organization) currency.|
@@ -339,6 +351,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_BillingStatus"></a> msdyn_BillingStatus
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the billing status ID.|
@@ -364,6 +377,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_BillingType"></a> msdyn_BillingType
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the billing type ID.|
@@ -388,6 +402,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_bookableresource"></a> msdyn_bookableresource
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the bookable resource for which the actual is recorded.|
@@ -403,6 +418,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_ContactCustomer"></a> msdyn_ContactCustomer
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the customer contact.|
@@ -418,6 +434,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_ContactVendor"></a> msdyn_ContactVendor
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -433,6 +450,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_contractorganizationalunitid"></a> msdyn_contractorganizationalunitid
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the organizational unit ID for the contract.|
@@ -448,6 +466,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_CustomerType"></a> msdyn_CustomerType
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the customer type ID.|
@@ -470,6 +489,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_description"></a> msdyn_description
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Type the record description.|
@@ -487,6 +507,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_DocumentDate"></a> msdyn_DocumentDate
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -503,6 +524,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_EndDateTime"></a> msdyn_EndDateTime
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -519,6 +541,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_ExchangeRateDate"></a> msdyn_ExchangeRateDate
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -535,6 +558,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_externaldescription"></a> msdyn_externaldescription
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The external description of the business transaction.|
@@ -583,6 +607,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_IncidentType"></a> msdyn_IncidentType
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -612,6 +637,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_IsJournalized"></a> msdyn_IsJournalized
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -636,6 +662,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_JournalType"></a> msdyn_JournalType
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Type of journal for resource cost.|
@@ -661,6 +688,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Percent"></a> msdyn_Percent
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Enter the percent.|
@@ -678,6 +706,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Price"></a> msdyn_Price
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Enter the price in the transaction currency.|
@@ -696,6 +725,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_PriceList"></a> msdyn_PriceList
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the price list.|
@@ -711,6 +741,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Product"></a> msdyn_Product
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the product ID.|
@@ -726,6 +757,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_ProductType"></a> msdyn_ProductType
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -749,6 +781,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Project"></a> msdyn_Project
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the project ID.|
@@ -764,6 +797,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Quantity"></a> msdyn_Quantity
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Enter the quantity.|
@@ -781,6 +815,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_ResourceCategory"></a> msdyn_ResourceCategory
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the role ID of the resource performing the work.|
@@ -796,6 +831,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_ResourceOrganizationalUnitId"></a> msdyn_ResourceOrganizationalUnitId
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Organizational unit at the time the actual was registered of the resource who performed the work.|
@@ -811,6 +847,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_SalesContract"></a> msdyn_SalesContract
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the project contract.|
@@ -826,6 +863,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_SalesContractLine"></a> msdyn_SalesContractLine
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Type the project contract line.|
@@ -843,6 +881,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_ServiceAccount"></a> msdyn_ServiceAccount
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Account that was serviced|
@@ -858,6 +897,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_ServiceTerritory"></a> msdyn_ServiceTerritory
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -873,6 +913,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_StartDateTime"></a> msdyn_StartDateTime
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -889,6 +930,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Task"></a> msdyn_Task
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the task.|
@@ -904,6 +946,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_TaxCode"></a> msdyn_TaxCode
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -919,6 +962,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_TransactionCategory"></a> msdyn_TransactionCategory
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the transaction category.|
@@ -934,6 +978,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_TransactionClassification"></a> msdyn_TransactionClassification
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the transaction classification of this transaction.|
@@ -962,6 +1007,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_TransactionTypeCode"></a> msdyn_TransactionTypeCode
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the transaction type of this transaction.|
@@ -988,6 +1034,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Unit"></a> msdyn_Unit
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the unit of measure.|
@@ -1003,6 +1050,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_UnitSchedule"></a> msdyn_UnitSchedule
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the unit schedule.|
@@ -1018,6 +1066,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_VendorType"></a> msdyn_VendorType
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -1040,6 +1089,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Warehouse"></a> msdyn_Warehouse
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -1055,6 +1105,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_WorkLocation"></a> msdyn_WorkLocation
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -1078,6 +1129,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_WorkOrder"></a> msdyn_WorkOrder
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -1093,6 +1145,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_WorkOrderType"></a> msdyn_WorkOrderType
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -1108,6 +1161,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -1125,6 +1179,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Owner Id|
@@ -1153,6 +1208,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_statecode"></a> statecode
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Status of the Actual|
@@ -1176,6 +1232,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_statuscode"></a> statuscode
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Reason for the status of the Actual|
@@ -1214,6 +1271,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_TransactionCurrencyId"></a> TransactionCurrencyId
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the currency associated with the entity.|
@@ -1306,6 +1364,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who created the record.|
@@ -1353,6 +1412,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_CreatedOn"></a> CreatedOn
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -1369,6 +1429,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who created the record.|
@@ -1432,6 +1493,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the user who modified the record.|
@@ -1479,6 +1541,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_ModifiedOn"></a> ModifiedOn
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -1495,6 +1558,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the delegate user who modified the record.|
@@ -2122,6 +2186,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the business unit that owns the record|
@@ -2137,6 +2202,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the team that owns the record.|
@@ -2152,6 +2218,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the user that owns the record.|
@@ -2215,6 +2282,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_actual_SyncErrors"></a> msdyn_actual_SyncErrors
 
 Same as syncerror entity [msdyn_actual_SyncErrors](syncerror.md#BKMK_msdyn_actual_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -2229,6 +2297,7 @@ Same as syncerror entity [msdyn_actual_SyncErrors](syncerror.md#BKMK_msdyn_actua
 ### <a name="BKMK_msdyn_actual_DuplicateMatchingRecord"></a> msdyn_actual_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_actual_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_actual_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -2243,6 +2312,7 @@ Same as duplicaterecord entity [msdyn_actual_DuplicateMatchingRecord](duplicater
 ### <a name="BKMK_msdyn_actual_DuplicateBaseRecord"></a> msdyn_actual_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_actual_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_actual_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -2257,6 +2327,7 @@ Same as duplicaterecord entity [msdyn_actual_DuplicateBaseRecord](duplicaterecor
 ### <a name="BKMK_msdyn_actual_AsyncOperations"></a> msdyn_actual_AsyncOperations
 
 Same as asyncoperation entity [msdyn_actual_AsyncOperations](asyncoperation.md#BKMK_msdyn_actual_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -2271,6 +2342,7 @@ Same as asyncoperation entity [msdyn_actual_AsyncOperations](asyncoperation.md#B
 ### <a name="BKMK_msdyn_actual_MailboxTrackingFolders"></a> msdyn_actual_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_actual_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_actual_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -2285,6 +2357,7 @@ Same as mailboxtrackingfolder entity [msdyn_actual_MailboxTrackingFolders](mailb
 ### <a name="BKMK_msdyn_actual_UserEntityInstanceDatas"></a> msdyn_actual_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_actual_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_actual_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -2299,6 +2372,7 @@ Same as userentityinstancedata entity [msdyn_actual_UserEntityInstanceDatas](use
 ### <a name="BKMK_msdyn_actual_ProcessSession"></a> msdyn_actual_ProcessSession
 
 Same as processsession entity [msdyn_actual_ProcessSession](processsession.md#BKMK_msdyn_actual_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -2313,6 +2387,7 @@ Same as processsession entity [msdyn_actual_ProcessSession](processsession.md#BK
 ### <a name="BKMK_msdyn_actual_BulkDeleteFailures"></a> msdyn_actual_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_actual_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_actual_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -2327,6 +2402,7 @@ Same as bulkdeletefailure entity [msdyn_actual_BulkDeleteFailures](bulkdeletefai
 ### <a name="BKMK_msdyn_actual_PrincipalObjectAttributeAccesses"></a> msdyn_actual_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_actual_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_actual_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -2341,6 +2417,7 @@ Same as principalobjectattributeaccess entity [msdyn_actual_PrincipalObjectAttri
 ### <a name="BKMK_msdyn_actual_Annotations"></a> msdyn_actual_Annotations
 
 Same as annotation entity [msdyn_actual_Annotations](annotation.md#BKMK_msdyn_actual_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|

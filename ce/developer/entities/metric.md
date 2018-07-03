@@ -550,6 +550,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_metric_goal"></a> metric_goal
 
 Same as goal entity [metric_goal](goal.md#BKMK_metric_goal) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|goal|
@@ -564,6 +565,7 @@ Same as goal entity [metric_goal](goal.md#BKMK_metric_goal) Many-To-One relation
 ### <a name="BKMK_metric_rollupfield"></a> metric_rollupfield
 
 Same as rollupfield entity [metric_rollupfield](rollupfield.md#BKMK_metric_rollupfield) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|rollupfield|
@@ -578,6 +580,7 @@ Same as rollupfield entity [metric_rollupfield](rollupfield.md#BKMK_metric_rollu
 ### <a name="BKMK_metric_AsyncOperations"></a> metric_AsyncOperations
 
 Same as asyncoperation entity [metric_AsyncOperations](asyncoperation.md#BKMK_metric_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -592,6 +595,7 @@ Same as asyncoperation entity [metric_AsyncOperations](asyncoperation.md#BKMK_me
 ### <a name="BKMK_userentityinstancedata_metric"></a> userentityinstancedata_metric
 
 Same as userentityinstancedata entity [userentityinstancedata_metric](userentityinstancedata.md#BKMK_userentityinstancedata_metric) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -606,6 +610,7 @@ Same as userentityinstancedata entity [userentityinstancedata_metric](userentity
 ### <a name="BKMK_Metric_SyncErrors"></a> Metric_SyncErrors
 
 Same as syncerror entity [Metric_SyncErrors](syncerror.md#BKMK_Metric_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -620,6 +625,7 @@ Same as syncerror entity [Metric_SyncErrors](syncerror.md#BKMK_Metric_SyncErrors
 ### <a name="BKMK_metric_ProcessSessions"></a> metric_ProcessSessions
 
 Same as processsession entity [metric_ProcessSessions](processsession.md#BKMK_metric_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|

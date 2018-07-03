@@ -39,17 +39,17 @@ Characteristics are skills that resources possess. For example, they can be used
 <a name="BKMK_AssignCharacteristicsToResources"></a>   
 ## Assign characteristics to resources  
   
-1.  From the main menu, click **Field Service** > **Administration**, and then choose **Bookable Resources**. This will take you to the **Active Bookable Resources** screen, where you will find a list of all available resources in the system.  
+1. From the main menu, click **Field Service** > **Administration**, and then choose **Bookable Resources**. This will take you to the **Active Bookable Resources** screen, where you will find a list of all available resources in the system.  
   
- **Note**: More information: [Set up bookable resources](../field-service/set-up-bookable-resources.md)  
+   **Note**: More information: [Set up bookable resources](../field-service/set-up-bookable-resources.md)  
   
-2.  From the list, click a bookable resource name.  
+2. From the list, click a bookable resource name.  
   
-3.  Go to the **Characteristics** section, and on the left, click **+Add Bookable Resource Characteristics record**.  
+3. Go to the **Characteristics** section, and on the left, click **+Add Bookable Resource Characteristics record**.  
   
-4.  This will open a pop-up window where you can find and select the required **Characteristics** and add a **Rating Value** for the resource.  
+4. This will open a pop-up window where you can find and select the required **Characteristics** and add a **Rating Value** for the resource.  
   
-5.  Click **Save & Close**.  
+5. Click **Save & Close**.  
   
 <a name="BKMK_AssignCharacteristicsToWorkOrders"></a>   
 ## Assign characteristics to work orders  

@@ -71,7 +71,7 @@ Xrm.WebApi.online.executeMultiple(requests).then(successCallback, errorCallback)
 <li>objects where each object is an action, function, or CRUD request that you want to execute against the Web API endpoint. Each object exposes a <b>getMetadata</b> method that lets you define the metadata for the action, function or CRUD request you want to execute. This is the same object that you pass in the <code>execute</code> method. For information about the object, see <a href="execute.md">execute</a>.</li>
 <li>Change set (an array of objects), where each object in the change set is as defined above. In this case, all the request objects specified in the change set will get executed in a transaction.</li>
 </ul>
-<p>See request examples earlier in the **Syntax** section for more information.</p>
+<p>See request examples earlier in the <strong>Syntax</strong> section for more information.</p>
 </td>
 </tr>
 <tr>
@@ -85,7 +85,7 @@ Xrm.WebApi.online.executeMultiple(requests).then(successCallback, errorCallback)
 <li><b>ok</b>: Boolean. Indicates whether the request was successful.</li>
 <li><b>status</b>: Number. Numeric value in the response status code. For example: <b>200</b></li>
 <li><b>statusText</b>: String. Description of the response status code. For example: <b>OK</b></li>
-<li><b>type</b>: String. Response type. Values are: the empty string (default), "arraybuffer", "blob", "document", "json", and "text".</b></li>
+<li><b>type</b>: String. Response type. Values are: the empty string (default), &quot;arraybuffer&quot;, &quot;blob&quot;, &quot;document&quot;, &quot;json&quot;, and &quot;text&quot;.</b></li>
 <li><b>url</b>: String. Request URL of the action, function, or CRUD request that was sent to the Web API endpoint.</b></li>
 </ul>
 </td>

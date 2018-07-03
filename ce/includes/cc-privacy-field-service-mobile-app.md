@@ -1,4 +1,4 @@
-﻿By installing and using the [!INCLUDE[pn_fieldservice_mobile_app_long](pn-fieldservice-mobile-app-long.md)] mobile app on a mobile device, users consent to transmission of user organization's assigned ID and assigned end user ID, and device ID to Microsoft and Resco.net, Inc. for purposes of providing the services and verifying that the software is properly licensed.  
+By installing and using the [!INCLUDE[pn_fieldservice_mobile_app_long](pn-fieldservice-mobile-app-long.md)] mobile app on a mobile device, users consent to transmission of user organization's assigned ID and assigned end user ID, and device ID to Microsoft and Resco.net, Inc. for purposes of providing the services and verifying that the software is properly licensed.  
 &nbsp;<br />
 If users use the [!INCLUDE[pn_fieldservice_mobile_app_long](pn-fieldservice-mobile-app-long.md)] mobile app to connect [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)] with [!include[](../includes/tn-glympse.md)] Services, by installing or using the software, users consent to transmission of Customer Data to [!include[](../includes/tn-glympse.md)] for purposes of enabling real-time location based services. This feature requires that an authorized user or administrator integrate and configure organization's existing [!include[](../includes/tn-glympse.md)] account to work with [!include[](../includes/pn-dynamics-crm.md)]. Use of [!include[](../includes/tn-glympse.md)] Services is subject to the terms and privacy statement that apply to your [!include[](../includes/tn-glympse.md)] account.  
 &nbsp;<br />
@@ -12,9 +12,9 @@ By enabling the [!INCLUDE[pn_fieldservice_mobile_app_long](pn-fieldservice-mobil
 &nbsp;<br />
 The real-time location data sent by the field service mobile app is used to support the following scenarios:  
 
- -  To show the location of a user's customers. Data about the user's current location is passed to the mapping provider as context for the map rendered by the provider and displayed within field service mobile app.  
+- To show the location of a user's customers. Data about the user's current location is passed to the mapping provider as context for the map rendered by the provider and displayed within field service mobile app.  
 
- -  To create and update a user's schedule. Data about the user's current location is passed to the field service capabilities in [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)] to create and update a user's schedule. For example, to assign a task to the nearest technician.  
+- To create and update a user's schedule. Data about the user's current location is passed to the field service capabilities in [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)] to create and update a user's schedule. For example, to assign a task to the nearest technician.  
   
 In addition, by enabling the field service mobile app on a mobile device, mobile app usage information, such as application errors, will be sent to Microsoft through a secure connection to Organization Insights and stored in [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Table Storage.  
   

@@ -27,11 +27,11 @@ Monitor real-time updates in the activity feed to stay current with fast-moving 
   
 ## Like or unlike a post in the activity feed  
   
-1.  Under **What’s new**, point to the post.  
+1. Under **What’s new**, point to the post.  
   
-2.  Click **Like** or **Unlike**.  
+2. Click **Like** or **Unlike**.  
   
- Below a post, you’ll see the number of people who have liked it, and the names of people who liked the post most recently. Click the counter to see more names.  
+   Below a post, you’ll see the number of people who have liked it, and the names of people who liked the post most recently. Click the counter to see more names.  
   
 ## Comment on someone’s post in the activity feed  
   

@@ -30,22 +30,22 @@ Implementers and administrators for [!INCLUDE[pn_microsoftcrm](../includes/pn-dy
 
 <h2> Get started </h2>
 
-<li>[Getting started](getting-started.md)</li>
-<li>[Onboard your organization and users](onboard-your-organization-and-users-to-dynamics-365-online.md)</li>
-<li>[Onboarding cheat sheet for admins](onboarding-cheat-sheet-admins.md)</li>
-<li>[Create users and assign security roles](create-users-assign-online-security-roles.md)</li>
-<li>[Manage your data](manage-your-data.md)</li>
-<li>[Extend Dynamics 365 Customer Engagement](extend.md)</li>
+<li><a href="getting-started.md" data-raw-source="[Getting started](getting-started.md)">Getting started</a></li>
+<li><a href="onboard-your-organization-and-users-to-dynamics-365-online.md" data-raw-source="[Onboard your organization and users](onboard-your-organization-and-users-to-dynamics-365-online.md)">Onboard your organization and users</a></li>
+<li><a href="onboarding-cheat-sheet-admins.md" data-raw-source="[Onboarding cheat sheet for admins](onboarding-cheat-sheet-admins.md)">Onboarding cheat sheet for admins</a></li>
+<li><a href="create-users-assign-online-security-roles.md" data-raw-source="[Create users and assign security roles](create-users-assign-online-security-roles.md)">Create users and assign security roles</a></li>
+<li><a href="manage-your-data.md" data-raw-source="[Manage your data](manage-your-data.md)">Manage your data</a></li>
+<li><a href="extend.md" data-raw-source="[Extend Dynamics 365 Customer Engagement](extend.md)">Extend Dynamics 365 Customer Engagement</a></li>
 </td>
 <td>
 
 <h2> Manage subscriptions </h2>
 
-<li>[Manage subscriptions, licenses, and user accounts](manage-subscriptions-licenses-user-accounts.md)</li>
-<li>[Purchase and assign licenses](purchase-assign-online-licenses.md)</li>
-<li>[Grant users access](grant-users-access.md)</li>
-<li>[Switch from Dynamics CRM Online](switch-dynamics-crm-online-dynamics-365.md)</li>
-<li>[Support and billing](billing-support.md)</li>
+<li><a href="manage-subscriptions-licenses-user-accounts.md" data-raw-source="[Manage subscriptions, licenses, and user accounts](manage-subscriptions-licenses-user-accounts.md)">Manage subscriptions, licenses, and user accounts</a></li>
+<li><a href="purchase-assign-online-licenses.md" data-raw-source="[Purchase and assign licenses](purchase-assign-online-licenses.md)">Purchase and assign licenses</a></li>
+<li><a href="grant-users-access.md" data-raw-source="[Grant users access](grant-users-access.md)">Grant users access</a></li>
+<li><a href="switch-dynamics-crm-online-dynamics-365.md" data-raw-source="[Switch from Dynamics CRM Online](switch-dynamics-crm-online-dynamics-365.md)">Switch from Dynamics CRM Online</a></li>
+<li><a href="billing-support.md" data-raw-source="[Support and billing](billing-support.md)">Support and billing</a></li>
 </td>
 </tr>
 <tr>
@@ -53,19 +53,19 @@ Implementers and administrators for [!INCLUDE[pn_microsoftcrm](../includes/pn-dy
 
 <h2> Extend </h2>
 
-<li>[Integrate your email system](integrate-synchronize-your-email-system.md)</li>
-<li>[Manage your documents using SharePoint](manage-documents-using-sharepoint.md)</li>
-<li>[Add Office 365 Online services](add-office-365-online-services.md)</li>
-<li>[Install or remove a preferred solution](install-remove-preferred-solution.md)</li>
+<li><a href="integrate-synchronize-your-email-system.md" data-raw-source="[Integrate your email system](integrate-synchronize-your-email-system.md)">Integrate your email system</a></li>
+<li><a href="manage-documents-using-sharepoint.md" data-raw-source="[Manage your documents using SharePoint](manage-documents-using-sharepoint.md)">Manage your documents using SharePoint</a></li>
+<li><a href="add-office-365-online-services.md" data-raw-source="[Add Office 365 Online services](add-office-365-online-services.md)">Add Office 365 Online services</a></li>
+<li><a href="install-remove-preferred-solution.md" data-raw-source="[Install or remove a preferred solution](install-remove-preferred-solution.md)">Install or remove a preferred solution</a></li>
 </td>
 <td>
 
 <h2> Manage instances </h2>
 
-<li>[Manage instances](manage-online-instances.md)</li>
-<li>[Sandbox instances](manage-sandbox-instances.md)</li>
-<li>[Add an instance](add-instance-subscription.md)</li>
-<li>[Switch an instance](switch-instance.md)</li>
+<li><a href="manage-online-instances.md" data-raw-source="[Manage instances](manage-online-instances.md)">Manage instances</a></li>
+<li><a href="manage-sandbox-instances.md" data-raw-source="[Sandbox instances](manage-sandbox-instances.md)">Sandbox instances</a></li>
+<li><a href="add-instance-subscription.md" data-raw-source="[Add an instance](add-instance-subscription.md)">Add an instance</a></li>
+<li><a href="switch-instance.md" data-raw-source="[Switch an instance](switch-instance.md)">Switch an instance</a></li>
 </td>
 </tr>
 <tr>
@@ -73,18 +73,18 @@ Implementers and administrators for [!INCLUDE[pn_microsoftcrm](../includes/pn-dy
 
 <h2> Additional resources </h2>
 
-<li>[YouTube playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT90l9YCf0IGddsp0xVMpTVw)</li>
-<li>[Community forum](https://community.dynamics.com/crm/f/117)</li>
-<li>[Contact support](http://go.microsoft.com/fwlink/p/?LinkId=394391)</li>
+<li><a href="https://www.youtube.com/playlist?list=PLcakwueIHoT90l9YCf0IGddsp0xVMpTVw" data-raw-source="[YouTube playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT90l9YCf0IGddsp0xVMpTVw)">YouTube playlist</a></li>
+<li><a href="https://community.dynamics.com/crm/f/117" data-raw-source="[Community forum](https://community.dynamics.com/crm/f/117)">Community forum</a></li>
+<li><a href="http://go.microsoft.com/fwlink/p/?LinkId=394391" data-raw-source="[Contact support](http://go.microsoft.com/fwlink/p/?LinkId=394391)">Contact support</a></li>
 
 </td>
 <td>
 
 <h2> Product updates </h2>
 
-<li>[What's new in Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/)</li>
-<li>[Release history](release-history.md)</li>
-<li>[Dynamics 365 Customer Engagement Readme](readme-9.md)</li>
+<li><a href="https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/" data-raw-source="[What&#39;s new in Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/)">What&#39;s new in Dynamics 365</a></li>
+<li><a href="release-history.md" data-raw-source="[Release history](release-history.md)">Release history</a></li>
+<li><a href="readme-9.md" data-raw-source="[Dynamics 365 Customer Engagement Readme](readme-9.md)">Dynamics 365 Customer Engagement Readme</a></li>
 </td>
 </tr>
 </table>

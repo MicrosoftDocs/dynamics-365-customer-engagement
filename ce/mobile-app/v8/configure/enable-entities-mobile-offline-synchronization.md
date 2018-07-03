@@ -65,10 +65,10 @@ You can enable any entity for mobile offline that is enabled for mobile. By defa
   
 > [!WARNING]
 >  Keep in mind that the amount of data you make available to users while they’re offline can affect the data usage rates for devices on cellular networks. The amount of data depends on:  
->   
->  -   The number of entities you enable for mobile offline  
-> -   The number of days you specify since records were last modified  
-> -   The filters you set while creating mobile offline profiles in [Create a mobile offline profile](create-mobile-offline-profile.md)  
+> 
+> - The number of entities you enable for mobile offline  
+>   -   The number of days you specify since records were last modified  
+>   -   The filters you set while creating mobile offline profiles in [Create a mobile offline profile](create-mobile-offline-profile.md)  
   
 1.  Go to **Settings > Customizations**.  
   

@@ -37,8 +37,8 @@ tags:
   
 - **Can change Additional Properties**  
   
- These options are self-explanatory. If you set all the individual options to `False`, you might as well set **Can be customized** to `False`.  
+  These options are self-explanatory. If you set all the individual options to `False`, you might as well set **Can be customized** to `False`.  
 
- ### See also
+  ### See also
 
- [Create and edit fields](../customize/create-edit-fields.md)
+  [Create and edit fields](../customize/create-edit-fields.md)

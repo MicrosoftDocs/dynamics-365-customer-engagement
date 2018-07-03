@@ -27,15 +27,15 @@ Here are some guidelines that can help you improve the performance of the report
 ## General  
  These guidelines are applicable for both Fetch-based reports.  
   
--   Limit a report to display information from a specified time period, instead of displaying all records in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] database.  
+- Limit a report to display information from a specified time period, instead of displaying all records in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] database.  
   
--   Pre-filter a report so that the dataset is limited.  
+- Pre-filter a report so that the dataset is limited.  
   
--   Calculate aggregate totals by using aggregations in a FetchXML query, instead of passing raw data to Reporting Services and grouping.  
+- Calculate aggregate totals by using aggregations in a FetchXML query, instead of passing raw data to Reporting Services and grouping.  
   
--   Limit the number of datasets used, if possible.  
+- Limit the number of datasets used, if possible.  
   
--   When you compare dates, use the UTC date fields for comparisons. For example, compare the `createdonutc` fields and not the `createdon` fields in the FetchXML query or a filtered view.  
+- When you compare dates, use the UTC date fields for comparisons. For example, compare the `createdonutc` fields and not the `createdon` fields in the FetchXML query or a filtered view.  
   
 ### See also  
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   

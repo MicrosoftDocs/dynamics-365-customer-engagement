@@ -37,7 +37,7 @@ The **msdyn_RetrieveTypeValuesFromDCI** action expects the following input param
 </tr>
 <tr>
 <td valign="top"><code>CrmRecord</code></td>
-<td valign="top">[mscrm.crmbaseentity](/dynamics365/customer-engagement/web-api/crmbaseentity)</td>
+<td valign="top"><a href="/dynamics365/customer-engagement/web-api/crmbaseentity" data-raw-source="[mscrm.crmbaseentity](/dynamics365/customer-engagement/web-api/crmbaseentity)">mscrm.crmbaseentity</a></td>
 <td valign="top">Entity type for which you want to retrieve the data. Required.
 <p>You can specify one of the following values:</p>
 <ul>
@@ -48,7 +48,7 @@ The **msdyn_RetrieveTypeValuesFromDCI** action expects the following input param
 </ul>
 
 <p>Depending on the specified entity type, you must specify <code>accountid</code>, 
-<code>contactid</code>, <code>leadid</code>, or <code>opportunityid</code> as the second key to identify the entity record you want to retrieve data for. See [Example](#example) later in this topic.</p></td>
+<code>contactid</code>, <code>leadid</code>, or <code>opportunityid</code> as the second key to identify the entity record you want to retrieve data for. See <a href="#example" data-raw-source="[Example](#example)">Example</a> later in this topic.</p></td>
 </tr>
 
 <tr>
@@ -370,7 +370,7 @@ The **msdyn_RetrieveTypeValuesFromDCI** action expects the following input param
 <td valign="top"><code>EndDate</code></td>
 <td valign="top">Edm.DateTimeOffset</td>
 <td>Date and time until which you want to retrieve the data. Optional.
-<p>If you don't specify a value for this parameter, current date and time is passed by default.</td>
+<p>If you don&#39;t specify a value for this parameter, current date and time is passed by default.</td>
 </tr>
 </table>
 

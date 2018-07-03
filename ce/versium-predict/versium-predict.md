@@ -34,7 +34,7 @@ manager: sakudes
   
 - **Enhance your lead data:** Enhance your marketing lists with additional information from  Versium Predict Data Warehouse, such as email addresses, phone numbers, financial information, social network information, and demographic data.  
   
- Predict Versium is a preferred provider solution that your administrator can add from the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] admin center. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install or remove a preferred solution](../admin/install-remove-preferred-solution.md).  
+  Predict Versium is a preferred provider solution that your administrator can add from the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] admin center. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install or remove a preferred solution](../admin/install-remove-preferred-solution.md).  
   
 ## Get started  
  [Versium Predict home page](http://versium.com/predict-by-versium/)  

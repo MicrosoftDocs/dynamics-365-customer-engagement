@@ -29,13 +29,13 @@ manager: "kvivek"
   
  Here's how to do it:  
   
-1.  Tap ![Dynamics 365 ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 ellipsis").  
+1. Tap ![Dynamics 365 ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 ellipsis").  
   
-2.  Tap **Settings**.  
+2. Tap **Settings**.  
   
-3.  Tap **Reconfigure**.  
+3. Tap **Reconfigure**.  
   
- You can now sign in to a different server or organization.  
+   You can now sign in to a different server or organization.  
   
 ### See also  
  [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

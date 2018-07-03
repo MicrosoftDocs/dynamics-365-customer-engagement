@@ -20,15 +20,15 @@ manager: "kvivek"
 
 When configuring workflows you have four major areas to consider:  
   
--   When to start them?  
+- When to start them?  
   
--   Should they run as a real-time workflow or a background workflow?  
+- Should they run as a real-time workflow or a background workflow?  
   
--   What actions should they perform?  
+- What actions should they perform?  
   
--   Under what conditions actions should be performed?  
+- Under what conditions actions should be performed?  
   
- The [Workflows processes overview](../customize/workflow-processes.md) topic shows how to find workflow processes, when to start them, and if they should run as real time or background. This topic shows which actions workflows can perform and conditions to perform those actions.  
+  The [Workflows processes overview](../customize/workflow-processes.md) topic shows how to find workflow processes, when to start them, and if they should run as real time or background. This topic shows which actions workflows can perform and conditions to perform those actions.  
   
 <a name="BKMK_WorkflowStagesAndSteps"></a>   
 

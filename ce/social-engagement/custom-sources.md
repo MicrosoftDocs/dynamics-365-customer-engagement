@@ -28,20 +28,20 @@ Extend the coverage of your data sources by adding public RSS feeds in [!INCLUDE
 > [!TIP]
 > You need to create a group and add feeds before adding custom sources in Search Setup but you can have one custom source per group.
 
-1.  Go to **Search Setup** > **Custom Sources**.
+1. Go to **Search Setup** > **Custom Sources**.
 
-2.  In the **Custom Sources** pane, click **Add a custom source** ![Add button](media/add-icon.png "Add button").
+2. In the **Custom Sources** pane, click **Add a custom source** ![Add button](media/add-icon.png "Add button").
 
-3.  Enter the name of the group and initials to uniquely identify your sources.
+3. Enter the name of the group and initials to uniquely identify your sources.
 
-    > [!NOTE]
-    > It is important to create distinct initials so you can differentiate your custom sources when analyzing your data. The initials will appear anywhere your custom sources are displayed.
+   > [!NOTE]
+   > It is important to create distinct initials so you can differentiate your custom sources when analyzing your data. The initials will appear anywhere your custom sources are displayed.
 
-4.  Enter your RSS or Atom feed and click the **Add** ![New or Add button](media/plus-icon.png "New or Add button") button to validate and add a source.
+4. Enter your RSS or Atom feed and click the **Add** ![New or Add button](media/plus-icon.png "New or Add button") button to validate and add a source.
 
- **Example of feed URL**: `http://contoso.com/rss`
+   **Example of feed URL**: `http://contoso.com/rss`
 
-5.  Click **Save** ![Save button](media/save-icon.png "Save button").
+5. Click **Save** ![Save button](media/save-icon.png "Save button").
 
 ## Edit custom sources
 

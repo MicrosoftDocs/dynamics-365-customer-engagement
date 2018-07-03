@@ -46,23 +46,23 @@ You can create a Single Page Apps (SPAs) which uses [!INCLUDE[pn_JavaScript](../
 ## Preparing to use ADAL.js with a SPA  
  In order to configure your SPA to work with adal.js you will need to :  
   
-1.  Register your application with the Azure Active Directory tenant  
+1. Register your application with the Azure Active Directory tenant  
   
-2.  Export your registered application manifest and edit it to allow OAuth2 Implicit Flow, and then import the JSON file back to your application registration.  
+2. Export your registered application manifest and edit it to allow OAuth2 Implicit Flow, and then import the JSON file back to your application registration.  
   
-3.  Set configuration variables in your SPA with information from that registration.  
+3. Set configuration variables in your SPA with information from that registration.  
   
-     You will need to include the following:  
+    You will need to include the following:  
   
-    -   The URL to your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization  
+   - The URL to your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization  
   
-    -   The name of the Active Directory tenant your organization uses to authenticate  
+   - The name of the Active Directory tenant your organization uses to authenticate  
   
-    -   The client ID you get when you register your application  
+   - The client ID you get when you register your application  
   
-    -   The URL to where the SPA will be deployed or debugged during development  
+   - The URL to where the SPA will be deployed or debugged during development  
   
- The set of steps required are described in [Walkthrough: Registering and configuring SimpleSPA application with adal.js](walkthrough-registering-configuring-simplespa-application-adal-js.md).  
+   The set of steps required are described in [Walkthrough: Registering and configuring SimpleSPA application with adal.js](walkthrough-registering-configuring-simplespa-application-adal-js.md).  
   
 ### See also  
  [Authenticate users in Dynamics 365](authenticate-users.md)   

@@ -922,6 +922,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_SavedQuery_SyncErrors"></a> SavedQuery_SyncErrors
 
 Same as syncerror entity [SavedQuery_SyncErrors](syncerror.md#BKMK_SavedQuery_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -936,6 +937,7 @@ Same as syncerror entity [SavedQuery_SyncErrors](syncerror.md#BKMK_SavedQuery_Sy
 ### <a name="BKMK_userentityinstancedata_savedquery"></a> userentityinstancedata_savedquery
 
 Same as userentityinstancedata entity [userentityinstancedata_savedquery](userentityinstancedata.md#BKMK_userentityinstancedata_savedquery) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -950,6 +952,7 @@ Same as userentityinstancedata entity [userentityinstancedata_savedquery](useren
 ### <a name="BKMK_lk_mobileofflineprofileitem_savedquery"></a> lk_mobileofflineprofileitem_savedquery
 
 Same as mobileofflineprofileitem entity [lk_mobileofflineprofileitem_savedquery](mobileofflineprofileitem.md#BKMK_lk_mobileofflineprofileitem_savedquery) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mobileofflineprofileitem|
@@ -964,6 +967,7 @@ Same as mobileofflineprofileitem entity [lk_mobileofflineprofileitem_savedquery]
 ### <a name="BKMK_SavedQuery_BulkDeleteFailures"></a> SavedQuery_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [SavedQuery_BulkDeleteFailures](bulkdeletefailure.md#BKMK_SavedQuery_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -978,6 +982,7 @@ Same as bulkdeletefailure entity [SavedQuery_BulkDeleteFailures](bulkdeletefailu
 ### <a name="BKMK_SavedQuery_AsyncOperations"></a> SavedQuery_AsyncOperations
 
 Same as asyncoperation entity [SavedQuery_AsyncOperations](asyncoperation.md#BKMK_SavedQuery_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|

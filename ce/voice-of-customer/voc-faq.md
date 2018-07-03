@@ -33,13 +33,13 @@ Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-201
 
 After you've installed the Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] preferred solution, you need to enable and configure it in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-1.  Go to **Settings** &gt; **Customizations**.
+1. Go to **Settings** &gt; **Customizations**.
 
-2.  Select **Solutions**.
+2. Select **Solutions**.
 
-3.  In the list of available solutions, select **Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]**.
+3. In the list of available solutions, select **Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]**.
  
-4.  In the **Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] Configuration** screen, select **I agree to the terms and conditions** and select **Enable Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]**.
+4. In the **Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] Configuration** screen, select **I agree to the terms and conditions** and select **Enable Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]**.
 
 When the configuration is complete, you can start using the Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] solution.
 

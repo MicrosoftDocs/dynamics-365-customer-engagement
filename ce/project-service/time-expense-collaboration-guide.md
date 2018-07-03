@@ -25,15 +25,15 @@ Welcome to the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service
   
  This guides you through entering your time and expenses for the projects you’re working on. Stay on top of your time and expense entry to make sure:  
   
--   Your clients are billed properly  
+- Your clients are billed properly  
   
--   You get credit for the work you’ve done  
+- You get credit for the work you’ve done  
   
--   Your managers know the status of your projects  
+- Your managers know the status of your projects  
   
- You can also collaborate with your fellow team members by sharing documents and starting conversations through [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] associated with your projects.  
+  You can also collaborate with your fellow team members by sharing documents and starting conversations through [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] associated with your projects.  
   
- You can enter time and expenses through the web app (browser-based app), or with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for phones and tablets app on your mobile device. When you’re ready for your next project, you can use the Project Finder Mobile app.  
+  You can enter time and expenses through the web app (browser-based app), or with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for phones and tablets app on your mobile device. When you’re ready for your next project, you can use the Project Finder Mobile app.  
   
 Click on a link below to learn more about what you can do with [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]:  
   

@@ -782,6 +782,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_appmodule_appconfig"></a> appmodule_appconfig
 
 Same as appconfig entity [appmodule_appconfig](appconfig.md#BKMK_appmodule_appconfig) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appconfig|
@@ -796,6 +797,7 @@ Same as appconfig entity [appmodule_appconfig](appconfig.md#BKMK_appmodule_appco
 ### <a name="BKMK_appmodule_appmodulecomponent"></a> appmodule_appmodulecomponent
 
 Same as appmodulecomponent entity [appmodule_appmodulecomponent](appmodulecomponent.md#BKMK_appmodule_appmodulecomponent) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appmodulecomponent|

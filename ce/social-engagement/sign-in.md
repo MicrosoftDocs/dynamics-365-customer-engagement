@@ -27,15 +27,15 @@ Using the [sign-in page for Social Engagement](https://social.dynamics.com/login
 
 Sign in to the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] online service from the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
-1.  In your browser, open [https://portal.office.com](https://portal.office.com).  
+1. In your browser, open [https://portal.office.com](https://portal.office.com).  
   
-2.  Sign in with your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] credentials, for example, user@contoso.onmicrosoft.com.  
+2. Sign in with your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] credentials, for example, user@contoso.onmicrosoft.com.  
   
-3.  From the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher, click **Social Engagement**.  
+3. From the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher, click **Social Engagement**.  
   
-     You'll be redirected to your organization's [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution.  
+    You'll be redirected to your organization's [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution.  
   
- For more information and to learn about important administration features, see [About the Office 365 admin center - Admin Help](https://support.office.com/article/About-the-Office-365-admin-center-Admin-Help-58537702-d421-4d02-8141-e128e3703547).  
+   For more information and to learn about important administration features, see [About the Office 365 admin center - Admin Help](https://support.office.com/article/About-the-Office-365-admin-center-Admin-Help-58537702-d421-4d02-8141-e128e3703547).  
   
 > [!TIP]
 >  If you don’t see a shortcut to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] on the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] nav bar, verify that a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] license is assigned to you.  
@@ -44,7 +44,7 @@ Sign in to the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-sh
 
 We recommend saving the URL for your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution to your browser's favorites, and getting to know the app URL. You'll need this URL each time you want to  sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
- If you’re looking for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], the URL includes your organization’s appID, and will look like this: **https://listening-prod.dynamics.com/app/\<appID>**.  
+ If you’re looking for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], the URL includes your organization’s appID, and will look like this: <strong>https://listening-prod.dynamics.com/app/\<appID></strong>.  
   
 ### See Also  
  [Get started with Social Engagement](get-started.md)   

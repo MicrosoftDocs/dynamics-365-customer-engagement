@@ -1,26 +1,17 @@
 ---
 title: "Retrieve specific columns for an entity via query APIs | MicrosoftDocs"
 description: "Queries submitted to retrieve data should include specific columns in the ColumnSet instance associated to the query rather than All Columns."
-ms.date: 01/26/2018
+ms.date: 06/28/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
-	- "Dynamics 365 (online)"
+  - "Dynamics 365 (online)"
 ms.assetid: 752dae5d-0ac5-4f5b-b3bf-67d5abb0db46
 author: "jowells1"
 ms.author: "jowells"
 manager: "michu"
----
+--- 
 # Do not retrieve Entity all columns via query APIs
-
-**Applies to**:
-
-- [!include[](../../includes/pn-crm-9-0-0-online.md)]
-- [!include[](../../includes/pn-crm-2016.md)]
-- [!include[](../../includes/pn-crm-8-1-0-both.md)]
-- [!include[](../../includes/pn-crm-2015.md)]
-- [!include[](../../includes/pn-crmv6.md)]
-- [!include[](../../includes/pn-crm-2011.md)]
 
 **Category**: Performance
 
@@ -39,7 +30,7 @@ Retrieving all columns can cause:
 
 ## Guidance
 
-For optimal performance, you should only select the minimum amount of data needed by your application when querying [!INCLUDE [pn-dynamics-365](../../includes/pn-dynamics-365.md)] data. 
+For optimal performance, you should only select the minimum amount of data needed by your application when querying Dynamics 365 data. 
 
 ### ColumnSet Parameter
 
@@ -145,7 +136,7 @@ Queries that include a defined <xref:Microsoft.Xrm.Sdk.Query.ColumnSet> where th
 
 ## Additional information
 
-Queries submitted to retrieve data from [!INCLUDE [pn-dynamics-365](../../includes/pn-dynamics-365.md)] should not select all columns.  Rather, specific individual columns should be specified in the <xref:Microsoft.Xrm.Sdk.Query.ColumnSet> instance associated to the query. Retrieving all columns for an entity can have a negative impact on performance. Additionally, you can unintentionally trigger plug-in registration events by retrieving columns you are not working with and issuing an update.
+Queries submitted to retrieve data from Dynamics 365 should not select all columns.  Rather, specific individual columns should be specified in the <xref:Microsoft.Xrm.Sdk.Query.ColumnSet> instance associated to the query. Retrieving all columns for an entity can have a negative impact on performance. Additionally, you can unintentionally trigger plug-in registration events by retrieving columns you are not working with and issuing an update.
 
 <a name='seealso'></a>
 

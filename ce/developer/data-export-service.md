@@ -28,26 +28,26 @@ Data Export is an add-on service made available as a [!INCLUDE[pn_CRM_Online](..
   
  Your [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] service must be configured so that:  
   
--   You must have [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] or a later instance with the original or full data copy. For more information, see [Copy an instance](https://technet.microsoft.com/en-us/library/dn659832.aspx).  
+- You must have [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] or a later instance with the original or full data copy. For more information, see [Copy an instance](https://technet.microsoft.com/en-us/library/dn659832.aspx).  
   
--   The entities that will be exported are enabled with change tracking. For more information, see [Use change tracking to synchronize data with external systems](use-change-tracking-synchronize-data-external-systems.md).  
+- The entities that will be exported are enabled with change tracking. For more information, see [Use change tracking to synchronize data with external systems](use-change-tracking-synchronize-data-external-systems.md).  
   
--   Code is run in the context of a user with the System Administrator security role.  
+- Code is run in the context of a user with the System Administrator security role.  
   
 > [!NOTE]
 >  Note that programmatic access to this service does *not* require the installation of the associated Data Export managed solution.  
   
  The target Azure SQL Database must be configured so that:  
   
--   The subscription must support the volume of data being replicated from your [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] instance.  
+- The subscription must support the volume of data being replicated from your [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] instance.  
   
--   Firewall settings must allow access from the IP address of your  Data Export service. For more information, see [Configure an Azure SQL Database server-level firewall rule using the Azure Portal](https://azure.microsoft.com/en-us/documentation/articles/sql-database-configure-firewall-settings/).  
+- Firewall settings must allow access from the IP address of your  Data Export service. For more information, see [Configure an Azure SQL Database server-level firewall rule using the Azure Portal](https://azure.microsoft.com/en-us/documentation/articles/sql-database-configure-firewall-settings/).  
   
--   It is recommended that option “Allow access to azure services” be enabled.  
+- It is recommended that option “Allow access to azure services” be enabled.  
   
--   The database user, specified in the  data export connection string, must have the proper create and alter permissions on the target database.  At minimum these include: `CRTB`, `CRTY`, `CRVW`,     `CRPR`, and `ALUS`. For more information, see [Permissions (Database Engine)](https://msdn.microsoft.com/en-us/library/ms191291.aspx).  
+- The database user, specified in the  data export connection string, must have the proper create and alter permissions on the target database.  At minimum these include: `CRTB`, `CRTY`, `CRVW`,     `CRPR`, and `ALUS`. For more information, see [Permissions (Database Engine)](https://msdn.microsoft.com/en-us/library/ms191291.aspx).  
   
--   At least one user have extensive permissions on the schema. The following script creates such a new user.  
+- At least one user have extensive permissions on the schema. The following script creates such a new user.  
   
 ```sql  
   
@@ -128,17 +128,17 @@ using Microsoft.IdentityModel.Clients.ActiveDirectory;
 ### Error handling and failure processing  
  Once a profile is correctly configured, the synchronization process is typically highly reliable. However, if a record fails to synchronize, the following failure processing is applied:  
   
-1.  After the configured retry interval, another attempt is made to synchronize the record. This is repeated up to the configured maximum number of retries.  
+1. After the configured retry interval, another attempt is made to synchronize the record. This is repeated up to the configured maximum number of retries.  
   
-2.  The record is marked as processed.  
+2. The record is marked as processed.  
   
-3.  A corresponding failed record entry is written to the error log.  
+3. A corresponding failed record entry is written to the error log.  
   
-4.  The next record is processed.  
+4. The next record is processed.  
   
- Because the record is marked as processed, no future attempt is made to synchronize the record until its value or schema changes. (Note that writing identical values back into an entity instance also marks it as modified.)  
+   Because the record is marked as processed, no future attempt is made to synchronize the record until its value or schema changes. (Note that writing identical values back into an entity instance also marks it as modified.)  
   
- The entries in the error log are write-only. Future successes or failures during synchronization of the same record do not result in the alteration of past entries for this record. For example, a failure entry will remain in the error log even after the record has been successfully synchronized during some later synchronization cycle.  
+   The entries in the error log are write-only. Future successes or failures during synchronization of the same record do not result in the alteration of past entries for this record. For example, a failure entry will remain in the error log even after the record has been successfully synchronized during some later synchronization cycle.  
   
 > [!CAUTION]
 >  This error processing logic is subject to change in future releases of this service.  

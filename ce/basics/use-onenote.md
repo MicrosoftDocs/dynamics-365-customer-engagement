@@ -37,40 +37,40 @@ If your administrator has set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md
 [//]: # (In step 2, I replaced the graphic with the plus sign in parentheses. That's all you need for this button and similarly, for the ellipsis. If you put the graphic back, you'll want to use a different one--icon.png included the tooltip in addition to the icon, and you only need the graphical element here.)
 ### Get started with OneNote (mobile-optimized app)
 
-1.  Open the record you want to open or edit the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook for.  
+1. Open the record you want to open or edit the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook for.  
 
-2.  In the **Timeline** section, select **Add info and activities (+)**, and then select **OneNote**.
+2. In the **Timeline** section, select **Add info and activities (+)**, and then select **OneNote**.
   
- ![Choose OneNote in the Timeline section](media/onenote-option-in-timeline.png "Choose OneNote in the Timeline section")  
+   ![Choose OneNote in the Timeline section](media/onenote-option-in-timeline.png "Choose OneNote in the Timeline section")  
   
-	If a notebook is already associated with the record, the notebook opens. Otherwise, a new notebook is created and opened.   
+   If a notebook is already associated with the record, the notebook opens. Otherwise, a new notebook is created and opened.   
   
- ![Notebook linked to the record is opened](media/open-onenote.png "Notebook linked to the record is opened") 
+   ![Notebook linked to the record is opened](media/open-onenote.png "Notebook linked to the record is opened") 
   
-3.  The notebook is stored in the associated [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] folder for the record. If there is more than one associated folder, the notebook is created in the first folder.  
+3. The notebook is stored in the associated [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] folder for the record. If there is more than one associated folder, the notebook is created in the first folder.  
   
    ![Notebooks in Document Associated Grid](media/document-associated-grid.png "Notebooks in Document Associated Grid")
 
 [//]: # (The graphic for step 3 is the same as for step 1. In the Note in step 3, I used the pn-crm-shortest.md token for "Dynamics 365," to match the token you used above. Also in the Note, please note that I changed ". onetoc2" to ".onetoc2". I assume it and .one are both file name extensions?)
 ### Get started with OneNote (web app)  
 
-1.  In the activities area of a record, select **OneNote**.  
+1. In the activities area of a record, select **OneNote**.  
   
    ![Choose OneNote on the activity wall](../basics/media/use-onenote.PNG "Choose OneNote on the activity wall")  
   
-2.  Select a notebook to make entries.  
+2. Select a notebook to make entries.  
   
    ![Select a notebook](../basics/media/select-notebook.PNG "Select a notebook")  
  
-3.  The notebook is stored in the associated [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] folder for the record. If there is more than one associated folder, the notebook is created in the first folder.  
+3. The notebook is stored in the associated [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] folder for the record. If there is more than one associated folder, the notebook is created in the first folder.  
   
- ![Notebooks in associated SharePoint folder](../basics/media/use-onenote.PNG "Notebooks in their associated SharePoint folder")  
+   ![Notebooks in associated SharePoint folder](../basics/media/use-onenote.PNG "Notebooks in their associated SharePoint folder")  
   
 > [!NOTE]
-> -   You can't edit the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] file from within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. This can be done only from the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] app that opens when you choose the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] link. In the web app, [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] is opened in the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] app of [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] in a separate tab.  
-> -   Don't delete any [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] .onetoc2 or .one file types in the **OneNote** section in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. If you do, you won't be able to access your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook.  
-> -   Section groups that keep related sections together in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] aren't supported in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
-> -   You can only rename a section in the desktop version of [!INCLUDE[pn_onenote](../includes/pn-onenote.md)]. If you rename a section in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] online, you won't see the updated section name in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+> - You can't edit the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] file from within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. This can be done only from the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] app that opens when you choose the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] link. In the web app, [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] is opened in the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] app of [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] in a separate tab.  
+> - Don't delete any [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] .onetoc2 or .one file types in the **OneNote** section in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. If you do, you won't be able to access your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook.  
+> - Section groups that keep related sections together in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] aren't supported in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+> - You can only rename a section in the desktop version of [!INCLUDE[pn_onenote](../includes/pn-onenote.md)]. If you rename a section in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] online, you won't see the updated section name in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
 ### See also  
  [Set up OneNote integration in Dynamics 365](../admin/set-up-onenote-integration-in-dynamics-365.md)   

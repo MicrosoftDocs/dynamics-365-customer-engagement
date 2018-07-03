@@ -610,6 +610,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_ownermapping"></a> userentityinstancedata_ownermapping
 
 Same as userentityinstancedata entity [userentityinstancedata_ownermapping](userentityinstancedata.md#BKMK_userentityinstancedata_ownermapping) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

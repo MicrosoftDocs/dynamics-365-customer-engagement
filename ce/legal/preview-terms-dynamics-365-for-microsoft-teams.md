@@ -19,13 +19,13 @@ such entity to this agreement. If you do not accept these terms, you must not
 **1. INSTALLATION AND USE RIGHTS.**
 
 >   **a. Installation and Use.**
-
+> 
 > >   • You may install and use one copy of the Preview Offering to test how it
->   runs with your Microsoft Dynamics 365 and Microsoft Teams online services.
-
+> >   runs with your Microsoft Dynamics 365 and Microsoft Teams online services.
+> > 
 > >   • You may not test the Preview Offering in a live operating environment
->   unless Microsoft permits you to do so under another agreement.
-
+> >   unless Microsoft permits you to do so under another agreement.
+> 
 >   **b. Third Party Programs.** The Preview Offering may include third party
 >   programs that Microsoft, not the third party, licenses to you under this
 >   agreement. Notices, if any, for the third party program are included for
@@ -43,7 +43,7 @@ such entity to this agreement. If you do not accept these terms, you must not
 >   you breach this agreement and either (i) the breach is one that cannot be
 >   cured, or (ii) you fail to cure the breach within five days after it
 >   receives notice of the breach.
-
+> 
 >   **b. Effect of Termination.** Upon the termination or expiration of this
 >   agreement, you will cease using the Preview Offering unless you and
 >   Microsoft have entered into an arrangement for your continued use of the
@@ -89,20 +89,20 @@ Microsoft and its suppliers.
 >   to your employees and consultants who need to know the information. You must
 >   have written agreements with them that protect the confidential information
 >   at least as much as this agreement.
-
+> 
 >   **b. Survival.** Your duty to protect confidential information survives this
 >   agreement.
-
+> 
 >   **c. Exclusions.** You may disclose confidential information in response to
 >   a judicial or governmental order. You must first give written notice to
 >   Microsoft to allow it to seek a protective order or otherwise protect the
 >   information. Confidential information does not include information that
-
+> 
 > >   • becomes publicly known through no wrongful act;
-
+> > 
 > >   • you received from a third party who did not breach confidentiality
->   obligations to Microsoft or its suppliers; or
-
+> >   obligations to Microsoft or its suppliers; or
+> > 
 > >   • you developed independently.
 
 **7. SCOPE OF LICENSE.** The Preview Offering is licensed, not sold. This
@@ -113,20 +113,20 @@ this agreement. In doing so, you must comply with any technical limitations in
 the Preview Offering that only allow you to use it in certain ways. You may not
 
 >   • work around any technical limitations in the Preview Offering;
-
+> 
 >   • reverse engineer, decompile or disassemble the Preview Offering, except
 >   and only to the extent that applicable law expressly permits, despite this
 >   limitation;
-
+> 
 >   • make more copies of the Preview Offering than specified in this agreement
 >   or allowed by applicable law, despite this limitation;
-
+> 
 >   • publish the Preview Offering for others to copy;
-
+> 
 >   • rent, lease or lend the Preview Offering;
-
+> 
 >   • transfer the Preview Offering or this agreement to any third party; or
-
+> 
 >   • use the Preview Offering for commercial software hosting services.
 
 **8. DOCUMENTATION.** You may copy and use the documentation for your internal,

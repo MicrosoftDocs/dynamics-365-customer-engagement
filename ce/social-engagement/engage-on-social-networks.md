@@ -23,8 +23,8 @@ ms.custom:
 > [!IMPORTANT]
 >  Before you can interact with posts in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], be sure to meet the following prerequisites:
 > 
->  1.  You have at least a Responder role in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
->  2.  You own at least one social profile or have it shared with you. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md)
+> 1. You have at least a Responder role in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
+> 2. You own at least one social profile or have it shared with you. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md)
 
 -   Visit the **Social Center** to see your streams—a steady flow of recent posts, based on the underlying data set.
 

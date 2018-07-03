@@ -39,7 +39,7 @@ Select an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service, such 
 ## View service health history  
 Select **View history** in the upper-right corner to view the past 7 or the past 30 days of service. 
 
-![Sevice health view history](media/view-history.png)
+![Service health view history](media/view-history.png)
 
 Select an item to see service health status and details for that item. 
   

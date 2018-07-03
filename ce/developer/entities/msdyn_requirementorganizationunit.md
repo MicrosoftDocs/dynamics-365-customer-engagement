@@ -645,6 +645,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_requirementorganizationunit_SyncErrors"></a> msdyn_requirementorganizationunit_SyncErrors
 
 Same as syncerror entity [msdyn_requirementorganizationunit_SyncErrors](syncerror.md#BKMK_msdyn_requirementorganizationunit_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -659,6 +660,7 @@ Same as syncerror entity [msdyn_requirementorganizationunit_SyncErrors](syncerro
 ### <a name="BKMK_msdyn_requirementorganizationunit_DuplicateMatchingRecord"></a> msdyn_requirementorganizationunit_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_requirementorganizationunit_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_requirementorganizationunit_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -673,6 +675,7 @@ Same as duplicaterecord entity [msdyn_requirementorganizationunit_DuplicateMatch
 ### <a name="BKMK_msdyn_requirementorganizationunit_DuplicateBaseRecord"></a> msdyn_requirementorganizationunit_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_requirementorganizationunit_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_requirementorganizationunit_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -687,6 +690,7 @@ Same as duplicaterecord entity [msdyn_requirementorganizationunit_DuplicateBaseR
 ### <a name="BKMK_msdyn_requirementorganizationunit_AsyncOperations"></a> msdyn_requirementorganizationunit_AsyncOperations
 
 Same as asyncoperation entity [msdyn_requirementorganizationunit_AsyncOperations](asyncoperation.md#BKMK_msdyn_requirementorganizationunit_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -701,6 +705,7 @@ Same as asyncoperation entity [msdyn_requirementorganizationunit_AsyncOperations
 ### <a name="BKMK_msdyn_requirementorganizationunit_MailboxTrackingFolders"></a> msdyn_requirementorganizationunit_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_requirementorganizationunit_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_requirementorganizationunit_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -715,6 +720,7 @@ Same as mailboxtrackingfolder entity [msdyn_requirementorganizationunit_MailboxT
 ### <a name="BKMK_msdyn_requirementorganizationunit_UserEntityInstanceDatas"></a> msdyn_requirementorganizationunit_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_requirementorganizationunit_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_requirementorganizationunit_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -729,6 +735,7 @@ Same as userentityinstancedata entity [msdyn_requirementorganizationunit_UserEnt
 ### <a name="BKMK_msdyn_requirementorganizationunit_ProcessSession"></a> msdyn_requirementorganizationunit_ProcessSession
 
 Same as processsession entity [msdyn_requirementorganizationunit_ProcessSession](processsession.md#BKMK_msdyn_requirementorganizationunit_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -743,6 +750,7 @@ Same as processsession entity [msdyn_requirementorganizationunit_ProcessSession]
 ### <a name="BKMK_msdyn_requirementorganizationunit_BulkDeleteFailures"></a> msdyn_requirementorganizationunit_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_requirementorganizationunit_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_requirementorganizationunit_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -757,6 +765,7 @@ Same as bulkdeletefailure entity [msdyn_requirementorganizationunit_BulkDeleteFa
 ### <a name="BKMK_msdyn_requirementorganizationunit_PrincipalObjectAttributeAccesses"></a> msdyn_requirementorganizationunit_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_requirementorganizationunit_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_requirementorganizationunit_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

@@ -568,6 +568,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_UserQueryVisualization_SyncErrors"></a> UserQueryVisualization_SyncErrors
 
 Same as syncerror entity [UserQueryVisualization_SyncErrors](syncerror.md#BKMK_UserQueryVisualization_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -582,6 +583,7 @@ Same as syncerror entity [UserQueryVisualization_SyncErrors](syncerror.md#BKMK_U
 ### <a name="BKMK_userentityinstancedata_userqueryvisualization"></a> userentityinstancedata_userqueryvisualization
 
 Same as userentityinstancedata entity [userentityinstancedata_userqueryvisualization](userentityinstancedata.md#BKMK_userentityinstancedata_userqueryvisualization) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

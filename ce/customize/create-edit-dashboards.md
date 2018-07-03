@@ -44,15 +44,15 @@ There are two types of dashboards, user dashboards and system dashboards. Any us
   
 1. Open solution explorer, and then select **Components** > **Dashboards**.  
   
-2.  Open (double-click) a dashboard, select one of the component areas, and then select **Edit Component**.  
+2. Open (double-click) a dashboard, select one of the component areas, and then select **Edit Component**.  
   
-3.  In the **Set Properties** dialog box, make your changes. When you’re done, select **Set**.  
+3. In the **Set Properties** dialog box, make your changes. When you’re done, select **Set**.  
   
-     For details on setting properties, see [Set properties for a chart or list included in a dashboard](../customize/set-properties-chart-list-included-dashboard.md).  
+    For details on setting properties, see [Set properties for a chart or list included in a dashboard](../customize/set-properties-chart-list-included-dashboard.md).  
   
-4.  When you’ve completed your changes be sure to save them, and then publish them.  
+4. When you’ve completed your changes be sure to save them, and then publish them.  
   
- Additional system dashboards tasks you can perform include:  
+   Additional system dashboards tasks you can perform include:  
   
 -   Remove a list or chart from a dashboard  
   

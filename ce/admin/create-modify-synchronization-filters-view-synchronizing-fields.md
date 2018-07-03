@@ -28,17 +28,17 @@ Looking for help on the **Synchronization Settings for Outlook or Exchange**  di
   
 - **Synchronization Settings for [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] dialog box**. This dialog box has three tabs:  
   
-    - **User Filters**. Use this tab to choose the records that are synchronized between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] when you’re online. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-dynamics-365-outlook-exchange.md)  
+  - **User Filters**. Use this tab to choose the records that are synchronized between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] when you’re online. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-dynamics-365-outlook-exchange.md)  
   
-    - **System Filters**. System administrators can programmatically modify online synchronization filters for an entire organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Offline and Outlook filters and templates](../developer/outlook-client/offline-outlook-filters-templates.md) 
+  - **System Filters**. System administrators can programmatically modify online synchronization filters for an entire organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Offline and Outlook filters and templates](../developer/outlook-client/offline-outlook-filters-templates.md) 
   
-    - **Synchronization Fields.** Use this tab to view the fields that are synchronized between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)], and to view the synchronization direction (one-way or two-way synchronization). 
+  - **Synchronization Fields.** Use this tab to view the fields that are synchronized between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)], and to view the synchronization direction (one-way or two-way synchronization). 
   
 - **Go Offline Settings dialog box**. This dialog box has two tabs:  
   
-    - **User Filters**. Use this tab to choose the records to work with when you go offline with [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. 
+  - **User Filters**. Use this tab to choose the records to work with when you go offline with [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. 
   
-    - **System Filters**. System administrators can programmatically modify offline synchronization filters for an entire organization. 
+  - **System Filters**. System administrators can programmatically modify offline synchronization filters for an entire organization. 
  
 
 ### See also  

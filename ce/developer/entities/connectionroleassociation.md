@@ -119,6 +119,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_connectionroleassociation"></a> userentityinstancedata_connectionroleassociation
 
 Same as userentityinstancedata entity [userentityinstancedata_connectionroleassociation](userentityinstancedata.md#BKMK_userentityinstancedata_connectionroleassociation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

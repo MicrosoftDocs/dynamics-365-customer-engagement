@@ -758,6 +758,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_LeadToOpportunitySalesProcess_SyncErrors"></a> LeadToOpportunitySalesProcess_SyncErrors
 
 Same as syncerror entity [LeadToOpportunitySalesProcess_SyncErrors](syncerror.md#BKMK_LeadToOpportunitySalesProcess_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -772,6 +773,7 @@ Same as syncerror entity [LeadToOpportunitySalesProcess_SyncErrors](syncerror.md
 ### <a name="BKMK_leadtoopportunitysalesprocess_AsyncOperations"></a> leadtoopportunitysalesprocess_AsyncOperations
 
 Same as asyncoperation entity [leadtoopportunitysalesprocess_AsyncOperations](asyncoperation.md#BKMK_leadtoopportunitysalesprocess_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -786,6 +788,7 @@ Same as asyncoperation entity [leadtoopportunitysalesprocess_AsyncOperations](as
 ### <a name="BKMK_lk_leadtoopportunitysalesprocess_workflowlogs"></a> lk_leadtoopportunitysalesprocess_workflowlogs
 
 Same as workflowlog entity [lk_leadtoopportunitysalesprocess_workflowlogs](workflowlog.md#BKMK_lk_leadtoopportunitysalesprocess_workflowlogs) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|workflowlog|
@@ -800,6 +803,7 @@ Same as workflowlog entity [lk_leadtoopportunitysalesprocess_workflowlogs](workf
 ### <a name="BKMK_leadtoopportunitysalesprocess_MailboxTrackingFolders"></a> leadtoopportunitysalesprocess_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [leadtoopportunitysalesprocess_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_leadtoopportunitysalesprocess_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -814,6 +818,7 @@ Same as mailboxtrackingfolder entity [leadtoopportunitysalesprocess_MailboxTrack
 ### <a name="BKMK_leadtoopportunitysalesprocess_UserEntityInstanceDatas"></a> leadtoopportunitysalesprocess_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [leadtoopportunitysalesprocess_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_leadtoopportunitysalesprocess_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -828,6 +833,7 @@ Same as userentityinstancedata entity [leadtoopportunitysalesprocess_UserEntityI
 ### <a name="BKMK_leadtoopportunitysalesprocess_ProcessSession"></a> leadtoopportunitysalesprocess_ProcessSession
 
 Same as processsession entity [leadtoopportunitysalesprocess_ProcessSession](processsession.md#BKMK_leadtoopportunitysalesprocess_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -842,6 +848,7 @@ Same as processsession entity [leadtoopportunitysalesprocess_ProcessSession](pro
 ### <a name="BKMK_leadtoopportunitysalesprocess_BulkDeleteFailures"></a> leadtoopportunitysalesprocess_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [leadtoopportunitysalesprocess_BulkDeleteFailures](bulkdeletefailure.md#BKMK_leadtoopportunitysalesprocess_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -856,6 +863,7 @@ Same as bulkdeletefailure entity [leadtoopportunitysalesprocess_BulkDeleteFailur
 ### <a name="BKMK_leadtoopportunitysalesprocess_PrincipalObjectAttributeAccesses"></a> leadtoopportunitysalesprocess_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [leadtoopportunitysalesprocess_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_leadtoopportunitysalesprocess_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

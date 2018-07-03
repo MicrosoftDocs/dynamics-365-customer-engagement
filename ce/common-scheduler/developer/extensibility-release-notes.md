@@ -18,6 +18,9 @@ ms.technology:
   - "field-service"
   - "project-service"
 ms.assetid: a5df453e-9246-47f8-b979-a73371be838e
+ms.custom:
+  - dyn365-projectservice
+  - dyn365-fieldservice
 ---
 
 # URS Extensibility Release Notes
@@ -121,7 +124,7 @@ The below snippet (not shipped) shows how the Resource Cell Template can then be
 <div>Booking Count: {{bookingcount}}</div>
 ```
 > When changing the dates on the Schedule Board, the Resource Query is not automatically executed again. Rather, you must click the search button to re-execute the search using the new Schedule Board visible dates.
-
+> 
 > For more context, here is a blog post on the subject - https://blogs.msdn.microsoft.com/crm/2017/12/15/new-use-schedule-board-date-ranges-in-custom-queries-in-universal-resource-scheduling/
 
 ### Schedule Assistant Filter Layout

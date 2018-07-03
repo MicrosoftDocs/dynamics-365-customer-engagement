@@ -621,6 +621,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_postruleconfig_SyncErrors"></a> msdyn_postruleconfig_SyncErrors
 
 Same as syncerror entity [msdyn_postruleconfig_SyncErrors](syncerror.md#BKMK_msdyn_postruleconfig_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -635,6 +636,7 @@ Same as syncerror entity [msdyn_postruleconfig_SyncErrors](syncerror.md#BKMK_msd
 ### <a name="BKMK_msdyn_postruleconfig_AsyncOperations"></a> msdyn_postruleconfig_AsyncOperations
 
 Same as asyncoperation entity [msdyn_postruleconfig_AsyncOperations](asyncoperation.md#BKMK_msdyn_postruleconfig_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -649,6 +651,7 @@ Same as asyncoperation entity [msdyn_postruleconfig_AsyncOperations](asyncoperat
 ### <a name="BKMK_msdyn_postruleconfig_MailboxTrackingFolders"></a> msdyn_postruleconfig_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_postruleconfig_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_postruleconfig_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -663,6 +666,7 @@ Same as mailboxtrackingfolder entity [msdyn_postruleconfig_MailboxTrackingFolder
 ### <a name="BKMK_msdyn_postruleconfig_UserEntityInstanceDatas"></a> msdyn_postruleconfig_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_postruleconfig_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_postruleconfig_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -677,6 +681,7 @@ Same as userentityinstancedata entity [msdyn_postruleconfig_UserEntityInstanceDa
 ### <a name="BKMK_msdyn_postruleconfig_ProcessSession"></a> msdyn_postruleconfig_ProcessSession
 
 Same as processsession entity [msdyn_postruleconfig_ProcessSession](processsession.md#BKMK_msdyn_postruleconfig_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -691,6 +696,7 @@ Same as processsession entity [msdyn_postruleconfig_ProcessSession](processsessi
 ### <a name="BKMK_msdyn_postruleconfig_BulkDeleteFailures"></a> msdyn_postruleconfig_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_postruleconfig_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_postruleconfig_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -705,6 +711,7 @@ Same as bulkdeletefailure entity [msdyn_postruleconfig_BulkDeleteFailures](bulkd
 ### <a name="BKMK_msdyn_postruleconfig_PrincipalObjectAttributeAccesses"></a> msdyn_postruleconfig_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_postruleconfig_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_postruleconfig_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

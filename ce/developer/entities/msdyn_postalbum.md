@@ -596,6 +596,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_postalbum_ActivityPointers"></a> msdyn_postalbum_ActivityPointers
 
 Same as activitypointer entity [msdyn_postalbum_ActivityPointers](activitypointer.md#BKMK_msdyn_postalbum_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -610,6 +611,7 @@ Same as activitypointer entity [msdyn_postalbum_ActivityPointers](activitypointe
 ### <a name="BKMK_msdyn_postalbum_SyncErrors"></a> msdyn_postalbum_SyncErrors
 
 Same as syncerror entity [msdyn_postalbum_SyncErrors](syncerror.md#BKMK_msdyn_postalbum_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -624,6 +626,7 @@ Same as syncerror entity [msdyn_postalbum_SyncErrors](syncerror.md#BKMK_msdyn_po
 ### <a name="BKMK_msdyn_postalbum_DuplicateMatchingRecord"></a> msdyn_postalbum_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_postalbum_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_postalbum_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -638,6 +641,7 @@ Same as duplicaterecord entity [msdyn_postalbum_DuplicateMatchingRecord](duplica
 ### <a name="BKMK_msdyn_postalbum_DuplicateBaseRecord"></a> msdyn_postalbum_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_postalbum_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_postalbum_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -652,6 +656,7 @@ Same as duplicaterecord entity [msdyn_postalbum_DuplicateBaseRecord](duplicatere
 ### <a name="BKMK_msdyn_postalbum_AsyncOperations"></a> msdyn_postalbum_AsyncOperations
 
 Same as asyncoperation entity [msdyn_postalbum_AsyncOperations](asyncoperation.md#BKMK_msdyn_postalbum_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -666,6 +671,7 @@ Same as asyncoperation entity [msdyn_postalbum_AsyncOperations](asyncoperation.m
 ### <a name="BKMK_msdyn_postalbum_MailboxTrackingFolders"></a> msdyn_postalbum_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_postalbum_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_postalbum_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -680,6 +686,7 @@ Same as mailboxtrackingfolder entity [msdyn_postalbum_MailboxTrackingFolders](ma
 ### <a name="BKMK_msdyn_postalbum_UserEntityInstanceDatas"></a> msdyn_postalbum_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_postalbum_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_postalbum_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -694,6 +701,7 @@ Same as userentityinstancedata entity [msdyn_postalbum_UserEntityInstanceDatas](
 ### <a name="BKMK_msdyn_postalbum_ProcessSession"></a> msdyn_postalbum_ProcessSession
 
 Same as processsession entity [msdyn_postalbum_ProcessSession](processsession.md#BKMK_msdyn_postalbum_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -708,6 +716,7 @@ Same as processsession entity [msdyn_postalbum_ProcessSession](processsession.md
 ### <a name="BKMK_msdyn_postalbum_BulkDeleteFailures"></a> msdyn_postalbum_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_postalbum_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_postalbum_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -722,6 +731,7 @@ Same as bulkdeletefailure entity [msdyn_postalbum_BulkDeleteFailures](bulkdelete
 ### <a name="BKMK_msdyn_postalbum_PrincipalObjectAttributeAccesses"></a> msdyn_postalbum_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_postalbum_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_postalbum_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -736,6 +746,7 @@ Same as principalobjectattributeaccess entity [msdyn_postalbum_PrincipalObjectAt
 ### <a name="BKMK_msdyn_postalbum_Appointments"></a> msdyn_postalbum_Appointments
 
 Same as appointment entity [msdyn_postalbum_Appointments](appointment.md#BKMK_msdyn_postalbum_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -750,6 +761,7 @@ Same as appointment entity [msdyn_postalbum_Appointments](appointment.md#BKMK_ms
 ### <a name="BKMK_msdyn_postalbum_Emails"></a> msdyn_postalbum_Emails
 
 Same as email entity [msdyn_postalbum_Emails](email.md#BKMK_msdyn_postalbum_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -764,6 +776,7 @@ Same as email entity [msdyn_postalbum_Emails](email.md#BKMK_msdyn_postalbum_Emai
 ### <a name="BKMK_msdyn_postalbum_Faxes"></a> msdyn_postalbum_Faxes
 
 Same as fax entity [msdyn_postalbum_Faxes](fax.md#BKMK_msdyn_postalbum_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -778,6 +791,7 @@ Same as fax entity [msdyn_postalbum_Faxes](fax.md#BKMK_msdyn_postalbum_Faxes) Ma
 ### <a name="BKMK_msdyn_postalbum_Letters"></a> msdyn_postalbum_Letters
 
 Same as letter entity [msdyn_postalbum_Letters](letter.md#BKMK_msdyn_postalbum_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -792,6 +806,7 @@ Same as letter entity [msdyn_postalbum_Letters](letter.md#BKMK_msdyn_postalbum_L
 ### <a name="BKMK_msdyn_postalbum_PhoneCalls"></a> msdyn_postalbum_PhoneCalls
 
 Same as phonecall entity [msdyn_postalbum_PhoneCalls](phonecall.md#BKMK_msdyn_postalbum_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -806,6 +821,7 @@ Same as phonecall entity [msdyn_postalbum_PhoneCalls](phonecall.md#BKMK_msdyn_po
 ### <a name="BKMK_msdyn_postalbum_Tasks"></a> msdyn_postalbum_Tasks
 
 Same as task entity [msdyn_postalbum_Tasks](task.md#BKMK_msdyn_postalbum_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -820,6 +836,7 @@ Same as task entity [msdyn_postalbum_Tasks](task.md#BKMK_msdyn_postalbum_Tasks) 
 ### <a name="BKMK_msdyn_postalbum_RecurringAppointmentMasters"></a> msdyn_postalbum_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_postalbum_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_postalbum_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -834,6 +851,7 @@ Same as recurringappointmentmaster entity [msdyn_postalbum_RecurringAppointmentM
 ### <a name="BKMK_msdyn_postalbum_SocialActivities"></a> msdyn_postalbum_SocialActivities
 
 Same as socialactivity entity [msdyn_postalbum_SocialActivities](socialactivity.md#BKMK_msdyn_postalbum_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -848,6 +866,7 @@ Same as socialactivity entity [msdyn_postalbum_SocialActivities](socialactivity.
 ### <a name="BKMK_msdyn_postalbum_connections1"></a> msdyn_postalbum_connections1
 
 Same as connection entity [msdyn_postalbum_connections1](connection.md#BKMK_msdyn_postalbum_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -862,6 +881,7 @@ Same as connection entity [msdyn_postalbum_connections1](connection.md#BKMK_msdy
 ### <a name="BKMK_msdyn_postalbum_connections2"></a> msdyn_postalbum_connections2
 
 Same as connection entity [msdyn_postalbum_connections2](connection.md#BKMK_msdyn_postalbum_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -876,6 +896,7 @@ Same as connection entity [msdyn_postalbum_connections2](connection.md#BKMK_msdy
 ### <a name="BKMK_msdyn_postalbum_Annotations"></a> msdyn_postalbum_Annotations
 
 Same as annotation entity [msdyn_postalbum_Annotations](annotation.md#BKMK_msdyn_postalbum_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -890,6 +911,7 @@ Same as annotation entity [msdyn_postalbum_Annotations](annotation.md#BKMK_msdyn
 ### <a name="BKMK_msdyn_postalbum_ServiceAppointments"></a> msdyn_postalbum_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_postalbum_ServiceAppointments](serviceappointment.md#BKMK_msdyn_postalbum_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -904,6 +926,7 @@ Same as serviceappointment entity [msdyn_postalbum_ServiceAppointments](servicea
 ### <a name="BKMK_msdyn_postalbum_msdyn_bookingalerts"></a> msdyn_postalbum_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_postalbum_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_postalbum_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -918,6 +941,7 @@ Same as msdyn_bookingalert entity [msdyn_postalbum_msdyn_bookingalerts](msdyn_bo
 ### <a name="BKMK_msdyn_postalbum_msdyn_approvals"></a> msdyn_postalbum_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_postalbum_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_postalbum_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|

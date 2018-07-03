@@ -55,7 +55,7 @@ An HTML web resource can accept the parameter values described in [Pass paramete
 
   `Xrm.Navigation.openWebResource("new_webResource.htm",null,"dataItemValue");`
 
- ### Related topics
+  ### Related topics
 
 [Xrm.Navigation](../xrm-navigation.md)
 

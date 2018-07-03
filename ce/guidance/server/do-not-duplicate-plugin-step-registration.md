@@ -1,31 +1,17 @@
 ---
 title: "Do not duplicate plug-in step registration | MicrosoftDocs"
 description: "Duplicate plug-in step registration will cause the plug-in to fire multiple times on the same message/event."
-ms.date: 01/26/2018
+ms.date: 06/28/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
-	- "Dynamics 365 (online)"
+  - "Dynamics 365 (online)"
 ms.assetid: 176c2bc4-3b40-477c-9c29-1f48b4cb0f6f
 author: "jowells1"
 ms.author: "jowells"
 manager: "michu"
 ---
 # Do not duplicate plug-in step registration
-
-**Applies to**:
-
-- [!include[](../../includes/pn-crm-9-0-0-online.md)]
-- [!include[](../../includes/pn-crm-2016.md)]
-
-**Applies to**:
-
-- [!include[](../../includes/pn-crm-9-0-0-online.md)]
-- [!include[](../../includes/pn-crm-2016.md)]
-- [!include[](../../includes/pn-crm-8-1-0-both.md)]
-- [!include[](../../includes/pn-crm-2015.md)]
-- [!include[](../../includes/pn-crmv6.md)]
-- [!include[](../../includes/pn-crm-2011.md)]
 
 **Category**: Performance
 

@@ -401,6 +401,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_RelationshipRoleMap_BulkDeleteFailures"></a> RelationshipRoleMap_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [RelationshipRoleMap_BulkDeleteFailures](bulkdeletefailure.md#BKMK_RelationshipRoleMap_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -415,6 +416,7 @@ Same as bulkdeletefailure entity [RelationshipRoleMap_BulkDeleteFailures](bulkde
 ### <a name="BKMK_userentityinstancedata_relationshiprolemap"></a> userentityinstancedata_relationshiprolemap
 
 Same as userentityinstancedata entity [userentityinstancedata_relationshiprolemap](userentityinstancedata.md#BKMK_userentityinstancedata_relationshiprolemap) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -429,6 +431,7 @@ Same as userentityinstancedata entity [userentityinstancedata_relationshiprolema
 ### <a name="BKMK_RelationshipRoleMap_AsyncOperations"></a> RelationshipRoleMap_AsyncOperations
 
 Same as asyncoperation entity [RelationshipRoleMap_AsyncOperations](asyncoperation.md#BKMK_RelationshipRoleMap_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|

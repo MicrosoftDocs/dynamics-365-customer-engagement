@@ -24,7 +24,7 @@ There are multiple ways to sign in and access your Dynamics and [!INCLUDE[pn_Off
   
 > [!TIP]
 >  Admins: Be sure to share this information with your end users.  
->   
+> 
 >  You can troubleshoot issues with signing in to [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] using the Support and Recovery Assistant for Office 365. For more information, see the blog [New diagnostic scenario for web sign-in](https://community.dynamics.com/crm/b/dynamicscrmsupportblog/archive/2016/11/15/new-diagnostic-scenario-for-web-sign-in).  
   
 <a name="BKMK_PortalSignIn"></a>   
@@ -49,29 +49,29 @@ There are multiple ways to sign in and access your Dynamics and [!INCLUDE[pn_Off
 ## Direct sign in to the Dynamics 365 Administration Center  
  Some [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] admin or Office 365 admin roles might be unable to access the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] after signing in to https://portal.office.com. Use the following steps to directly navigate to the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] and manage your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance.  
   
-1.  Go to https://port.\<region>.dynamics.com/G/instances/InstancePicker.aspx  
+1. Go to https://port.\<region>.dynamics.com/G/instances/InstancePicker.aspx  
   
-     Replace \<region> with the region identifier or use one of the links below.  
+    Replace \<region> with the region identifier or use one of the links below.  
   
-    |Region identifier|URL|  
-    |-----------------------|---------|  
-    |**crm** for North America (NAM)|[https://port.crm.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm.dynamics.com/G/instances/InstancePicker.aspx)|  
-    |**crm2** for South America (LATAM/SAM)|[https://port.crm2.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm2.dynamics.com/G/instances/InstancePicker.aspx)|  
-    |**crm3** for Canada (CAN)|[https://port.crm3.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm3.dynamics.com/G/instances/InstancePicker.aspx)|  
-    |**crm4** for Europe, Middle East, Africa (EMEA)|[https://port.crm4.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm4.dynamics.com/G/instances/InstancePicker.aspx)|  
-    |**crm5** for Asia Pacific (APAC)|[https://port.crm5.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm5.dynamics.com/G/instances/InstancePicker.aspx)|  
-    |**crm6** for Oceania (OCE)|[https://port.crm6.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm6.dynamics.com/G/instances/InstancePicker.aspx)|  
-    |**crm7** for Japan (JPN)|[https://port.crm7.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm7.dynamics.com/G/instances/InstancePicker.aspx)|  
-    |**crm8** for India (IND)|[https://port.crm8.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm8.dynamics.com/G/instances/InstancePicker.aspx)|  
-    |**crm11** for United Kingdom (UK)|[https://port.crm11.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm11.dynamics.com/G/instances/InstancePicker.aspx)|  
+   |Region identifier|URL|  
+   |-----------------------|---------|  
+   |**crm** for North America (NAM)|[https://port.crm.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm.dynamics.com/G/instances/InstancePicker.aspx)|  
+   |**crm2** for South America (LATAM/SAM)|[https://port.crm2.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm2.dynamics.com/G/instances/InstancePicker.aspx)|  
+   |**crm3** for Canada (CAN)|[https://port.crm3.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm3.dynamics.com/G/instances/InstancePicker.aspx)|  
+   |**crm4** for Europe, Middle East, Africa (EMEA)|[https://port.crm4.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm4.dynamics.com/G/instances/InstancePicker.aspx)|  
+   |**crm5** for Asia Pacific (APAC)|[https://port.crm5.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm5.dynamics.com/G/instances/InstancePicker.aspx)|  
+   |**crm6** for Oceania (OCE)|[https://port.crm6.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm6.dynamics.com/G/instances/InstancePicker.aspx)|  
+   |**crm7** for Japan (JPN)|[https://port.crm7.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm7.dynamics.com/G/instances/InstancePicker.aspx)|  
+   |**crm8** for India (IND)|[https://port.crm8.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm8.dynamics.com/G/instances/InstancePicker.aspx)|  
+   |**crm11** for United Kingdom (UK)|[https://port.crm11.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm11.dynamics.com/G/instances/InstancePicker.aspx)|  
   
-     For Germany (DEU), use the following: https://port.crm.microsoftdynamics.de/g/instances.instancepicker.aspx.  
+    For Germany (DEU), use the following: https://port.crm.microsoftdynamics.de/g/instances.instancepicker.aspx.  
   
-2.  Sign in with your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] admin credentials.  
+2. Sign in with your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] admin credentials.  
   
 <a name="BKMK_DirectHomePage"></a>   
 ## Direct sign in to the Dynamics 365 home page  
- We have a new [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] home page for you to use  to manage and open [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] apps. You can sign in to this page directly using your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] (or Active Directory) credentials with this URL: https://home.dynamics.com  
+ We have a new [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] home page for you to use  to manage and open [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] apps. You can sign in to this page directly using your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] (or Active Directory) credentials with this URL: <https://home.dynamics.com>  
   
  For information on the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] home page, see: [For admins and end users: Introducing the Dynamics 365 home page](../admin/quickly-navigate-office-365-app-launcher.md#BKMK_IntroD365HomePage).  
   

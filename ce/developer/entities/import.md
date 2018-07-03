@@ -599,6 +599,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Import_ImportFile"></a> Import_ImportFile
 
 Same as importfile entity [Import_ImportFile](importfile.md#BKMK_Import_ImportFile) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|importfile|
@@ -613,6 +614,7 @@ Same as importfile entity [Import_ImportFile](importfile.md#BKMK_Import_ImportFi
 ### <a name="BKMK_userentityinstancedata_import"></a> userentityinstancedata_import
 
 Same as userentityinstancedata entity [userentityinstancedata_import](userentityinstancedata.md#BKMK_userentityinstancedata_import) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -627,6 +629,7 @@ Same as userentityinstancedata entity [userentityinstancedata_import](userentity
 ### <a name="BKMK_Import_BulkDeleteFailures"></a> Import_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Import_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Import_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -641,6 +644,7 @@ Same as bulkdeletefailure entity [Import_BulkDeleteFailures](bulkdeletefailure.m
 ### <a name="BKMK_Import_AsyncOperations"></a> Import_AsyncOperations
 
 Same as asyncoperation entity [Import_AsyncOperations](asyncoperation.md#BKMK_Import_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|

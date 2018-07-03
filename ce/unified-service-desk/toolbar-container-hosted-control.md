@@ -32,9 +32,9 @@ Use **Toolbar Container** type of hosted control to create a toolbar in your app
   
  In the **New Hosted Control** screen:  
   
--   From the **USD Component Type** drop-down list, select **Toolbar Container**.  
+- From the **USD Component Type** drop-down list, select **Toolbar Container**.  
   
--   The **Display Group** field displays the panel where this hosted control will be displayed. **ToolbarPanel** is the most common for this hosted control type. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels](../unified-service-desk/panels-panel-types-panel-layouts.md#Panels).  
+- The **Display Group** field displays the panel where this hosted control will be displayed. **ToolbarPanel** is the most common for this hosted control type. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels](../unified-service-desk/panels-panel-types-panel-layouts.md#Panels).  
   
 <a name="Actions"></a>   
 ## Predefined UII actions  

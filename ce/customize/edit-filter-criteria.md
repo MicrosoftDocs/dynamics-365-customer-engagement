@@ -26,13 +26,13 @@ manager: "kvivek"
 
 Along with the columns displayed in a view, the filter criteria applied to a view is a critical part of the value provided by the view.  
   
-1.  When you create or edit the view, select **Edit Filter Criteria**.  
+1. When you create or edit the view, select **Edit Filter Criteria**.  
   
-2.  The dialog shows a user interface similar to **Advanced Find**. You can use **AND** and **OR** clauses to specify and group criteria.  
+2. The dialog shows a user interface similar to **Advanced Find**. You can use **AND** and **OR** clauses to specify and group criteria.  
   
-3.  Select **OK** to close the **Edit Filter Criteria** dialog box.  
+3. Select **OK** to close the **Edit Filter Criteria** dialog box.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create, edit, or save an Advanced Find search](../basics/save-advanced-find-search.md)  
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create, edit, or save an Advanced Find search](../basics/save-advanced-find-search.md)  
  
 ### See also
 [Create or edit a views](create-edit-views.md)

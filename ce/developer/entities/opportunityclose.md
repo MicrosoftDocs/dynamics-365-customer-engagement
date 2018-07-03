@@ -1786,6 +1786,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_opportunityclose_activity_parties"></a> opportunityclose_activity_parties
 
 Same as activityparty entity [opportunityclose_activity_parties](activityparty.md#BKMK_opportunityclose_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1800,6 +1801,7 @@ Same as activityparty entity [opportunityclose_activity_parties](activityparty.m
 ### <a name="BKMK_CampaignResponse_OpportunityCloses"></a> CampaignResponse_OpportunityCloses
 
 Same as campaignresponse entity [CampaignResponse_OpportunityCloses](campaignresponse.md#BKMK_CampaignResponse_OpportunityCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -1814,6 +1816,7 @@ Same as campaignresponse entity [CampaignResponse_OpportunityCloses](campaignres
 ### <a name="BKMK_OpportunityClose_SyncErrors"></a> OpportunityClose_SyncErrors
 
 Same as syncerror entity [OpportunityClose_SyncErrors](syncerror.md#BKMK_OpportunityClose_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1828,6 +1831,7 @@ Same as syncerror entity [OpportunityClose_SyncErrors](syncerror.md#BKMK_Opportu
 ### <a name="BKMK_OpportunityClose_AsyncOperations"></a> OpportunityClose_AsyncOperations
 
 Same as asyncoperation entity [OpportunityClose_AsyncOperations](asyncoperation.md#BKMK_OpportunityClose_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1842,6 +1846,7 @@ Same as asyncoperation entity [OpportunityClose_AsyncOperations](asyncoperation.
 ### <a name="BKMK_opportunityclose_MailboxTrackingFolders"></a> opportunityclose_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [opportunityclose_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_opportunityclose_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1856,6 +1861,7 @@ Same as mailboxtrackingfolder entity [opportunityclose_MailboxTrackingFolders](m
 ### <a name="BKMK_userentityinstancedata_opportunityclose"></a> userentityinstancedata_opportunityclose
 
 Same as userentityinstancedata entity [userentityinstancedata_opportunityclose](userentityinstancedata.md#BKMK_userentityinstancedata_opportunityclose) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1870,6 +1876,7 @@ Same as userentityinstancedata entity [userentityinstancedata_opportunityclose](
 ### <a name="BKMK_OpportunityClose_BulkDeleteFailures"></a> OpportunityClose_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [OpportunityClose_BulkDeleteFailures](bulkdeletefailure.md#BKMK_OpportunityClose_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1884,6 +1891,7 @@ Same as bulkdeletefailure entity [OpportunityClose_BulkDeleteFailures](bulkdelet
 ### <a name="BKMK_opportunityclose_PrincipalObjectAttributeAccesses"></a> opportunityclose_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [opportunityclose_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_opportunityclose_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1898,6 +1906,7 @@ Same as principalobjectattributeaccess entity [opportunityclose_PrincipalObjectA
 ### <a name="BKMK_OpportunityClose_Annotation"></a> OpportunityClose_Annotation
 
 Same as annotation entity [OpportunityClose_Annotation](annotation.md#BKMK_OpportunityClose_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|

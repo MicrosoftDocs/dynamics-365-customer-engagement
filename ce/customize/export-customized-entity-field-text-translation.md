@@ -30,9 +30,9 @@ After you create customized entity and field text, you may want to translate it 
   
 3. On the Actions toolbar, click **Export Translations**.  
   
-4.  After completing the export, open or save the compressed (.zip) file that contains the exported labels to your local computer or network.  
+4. After completing the export, open or save the compressed (.zip) file that contains the exported labels to your local computer or network.  
   
-5.  Extract the XML file from the compressed (.zip) file and translate it.  
+5. Extract the XML file from the compressed (.zip) file and translate it.  
 
 ## Community tools
 
