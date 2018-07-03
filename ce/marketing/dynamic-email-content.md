@@ -195,11 +195,11 @@ The following table lists all the operators that you can use in your conditional
 For example, this conditional statement could be used to establish the language used in a message salutation based on the country of each message recipient:
 
  ```Handlebars
-{{#if (eq contact.address1_country 'Denmark')}}
+<p>{{#if (eq contact.address1_country 'Denmark')}}
      Hej
 {{else if (eq contact.address1_country 'US')}}
      Hi
-{{/if}} {{contact.firstname}}!
+{{/if}} {{contact.firstname}}!</p>
 ```
 
 > [!TIP]
@@ -258,11 +258,13 @@ Where:
 
 For example, your database could include a list of products that a contact has ordered. You could list these in an email message using code such as:
 
- ```Handlebars
-<p>You have purchased:
-{{#each contact.contact_product_productid}}</p>
-    <p class="productList">{{this.name}}
-{{/each}}</p>
+```Handlebars
+<p>You have purchased:</p>
+<ul>
+<!-- {{#each contact.contact_product_productid}} -->
+<li>{{this.name}}</li>
+<!-- {{/each}} -->
+</ul>
 ``` 
 
 In this example, the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] system has been customized to include a [custom entity](../customize/create-edit-entities.md) called _product_, which is set up with a 1:N [relationship](../customize/create-edit-entity-relationships.md) between the _contact_ and _product_ entities on the _productid_ field. For the product entity to be available to your email messages, it must also be [synced](marketing-settings.md#dci-sync) with the customer-insights database (as usual).
@@ -273,15 +275,25 @@ Often, programmers use multiple lines and indents to format their code during de
 
 - You can work on either the **HTML** or **Designer** tab.
 - If are working on the **Designer** tab, avoid all extra spaces and carriage returns because these will create `&nbsp;`and `<p>` tags in your code, which will result in unwanted empty space in your rendered design. If you got to the **HTML** tab, you'll see all of these extra tags in your code.
-- If you are working on the **HTML** tab, then all the code and static text that is part of a single paragraph must be contained within a single set of &lt;p&gt; tags (or some other HTML tag pair). Do not place code outside of valid HTML tag pairs, as that will confuse the editor (especially if you switch between the **HTML** and **Design** tabs).
+- If you are working on the **HTML** tab, then all the code must either be contained within a set of start and end tags (such as `<p>` and `</p>`) or within an HTML comment (for code that is entirely separate from displayed text). Do not place code outside of comments or valid HTML tag pairs, as that will confuse the editor (especially if you switch between the **HTML** and **Design** tabs).
 - If you are working on the **HTML** tab, then you can add extra spaces and carriage returns to your code, but these will probably be collapsed automatically into a single line if you or anyone else opens the message using the **Designer** tab.
 
-Here are some examples of how some of the other examples given in this topic should be entered onto the HTML tab of the designer:
- ```Handlebars
-<p>{{#if (eq contact.address1_country 'Denmark')}}Hej{{else if (eq contact.address1_country 'US')}}Hi{{/if}}{{contact.firstname}}!</p>
+For example, you could set up the salutation line of an email message by entering the following onto the **HTML** tab of the designer:
 
-<p>You have purchased:{{#each contact.contact_product_productid}}</p><p class="productList">{{this.name}}{{/each}}</p>
-``` 
+```Handlebars
+<p>{{#if (eq contact.address1_country 'Denmark')}}Hej{{else if (eq contact.address1_country 'US')}}Hi{{/if}}{{contact.firstname}}!</p>
+```
+
+This example (also shown previously) shows how to use comments to enclose code that exists entirely outside of displayed content (also on the **HTML** tab):
+
+```Handlebars
+<p>You have purchased:</p>
+<ul>
+<!-- {{#each contact.contact_product_productid}} -->
+<li>{{this.name}}</li>
+<!-- {{/each}} -->
+</ul>
+```
 
 ### See also
 
