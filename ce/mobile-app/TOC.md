@@ -9,8 +9,9 @@
 ## [Company News Timeline](../company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets.md)
 ## [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)
 
+# [Install the mobile app](install-dynamics-365-for-phones-and-tablets.md)
+
 # [User Guide](dynamics-365-phones-tablets-users-guide.md)
-## [Install the mobile app](install-dynamics-365-for-phones-and-tablets.md)
 
 # Older version (8.x)
 ## [Overview](../mobile-app/v8/about-this-content.md)
