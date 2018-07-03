@@ -19,6 +19,8 @@ ms.reviewer: renwe
 topic-status: Drafting
 ---
 
+<!--Note to author: Reminder to change to the publication date.-->
+
 # Add dynamic content to email messages
 
 Dynamic content gets resolved just before a message is sent to a specific individual. You'll typically use dynamic content to merge information from the recipient's contact record (such as first and last name), to place special links, and to place information and links from the content settings. If you're comfortable working in code, you can also create custom logic that includes conditional statements, for-each loops, and more. You can use dynamic content anywhere in your message body and can also use a few types of dynamic values in the message header fields (subject, from address, and from name).
@@ -33,27 +35,29 @@ Content settings are sets of standard and required values that are available for
 
 The values for content settings are first evaluated at send time, which means that you can edit a content-settings set at any time, and all pending and future email messages will automatically use the latest values.
 
-Each content-settings record that you use must be available to the external marketing services, which manages email assembly and delivery. Therefore you must publish your content-settings records by choosing **Go Live** whenever you create a new one.
+Each content-settings record that you use must be available to the external marketing services, which manage email assembly and delivery. Therefore, you must publish your content-settings records by choosing **Go Live** whenever you create a new one.
 
 To view, edit, or create a content-settings set:
+
 1. Go to **Marketing** > **Templates**  >  **Content Settings**.
 
-1. A standard list page opens, where you can view, sort, search, and filter the list to find a specific record, and use buttons on the command bar to add or remove a record. Select a record to open it for editing or select **New** on the command bar to create a new one.
+1. A standard list page opens where you can view, sort, search, and filter the list to find a specific record and use buttons on the command bar to add or remove a record. Select a record to open it for editing or select **New** on the command bar to create a new one.
 
 1. The **Content Settings** form opens. If you are editing a record that is already live, you must choose **Edit** in the command bar before you can edit it. If you are creating a new one, you can just start filling in the fields.  
+
     ![The content-settings form](media/content-settings-form.png "The content-settings form")
 
 1. Make the following settings, as needed:
 
     - **Name**: Enter a name for the customer-settings set. This is the name shown when you're assigning content settings to a customer journey or email-message preview.
     - **Owner**: Shows the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] user who created the set.
-    - **Subscription Center**: Specify an existing marketing page that is set up as a subscription center. Select the  **&lt;/&gt;**  button to choose from a list of available pages. All marketing email messages must include a valid subscription-center link taken from a content-settings set.
-    - **Address Main**: Enter the main part of your organization's postal address. All marketing email messages must include a valid main address taken from a content-settings set.
-    - **Address Line 2**: Enter supplemental postal address information (if needed).
+    - **Address main**: Enter the main part of your organization's postal address. All marketing email messages must include a valid main address taken from a content-settings set.
+    - **Address line 2**: Enter supplemental postal address information (if needed).
     - **Default**: Set to **Yes** to make the current content-settings set the default for all new customer journeys. There must always be exactly one default; if you change the default, the existing default will automatically be changed to **No**.
-    - **Forward to a Friend**: Specify an existing marketing page that is set up as a forward-to-a-friend page. Select the  **&lt;/&gt;**  button to choose from a list of available pages.
-    - **LinkedIn URL**,  **Twitter URL**,  **Facebook URL**, and  **YouTube URL**: For each of these social-media services, enter the URL for landing page for your organization.
-
+    - **LinkedIn URL**,  **Twitter URL**,  **Facebook URL**, and  **YouTube URL**: For each of these social-media services, enter the URL for the landing page for your organization.  
+    - **Subscription center**: Specify an existing marketing page that is set up as a subscription center. Select the  **&lt;/&gt;**  button to choose from a list of available pages. All marketing email messages must include a valid subscription-center link taken from a content-settings set.
+    - **Forward to a friend**: Specify an existing marketing page that is set up as a forward-to-a-friend page. Select the  **&lt;/&gt;**  button to choose from a list of available pages.
+    
 1. Select **Save** in the bottom-right corner of the window to save your settings.
 
 1. If you are editing a content-settings record that was already live, then the record is republished automatically when you save it. If you are creating a new record, then select **Go live** on the command bar to publish it to the marketing services so you can start using it.
@@ -64,7 +68,7 @@ To view, edit, or create a content-settings set:
 
 The **Assist Edit**  button  **&lt;/&gt;**  helps you construct valid dynamic expressions to position field values from recipient contact records, the message content settings, and other database values. This button is provided on the text formatting toolbar whenever you select a text block in the graphical designer. The button is also provided for some settings fields, such as the subject, from-address, and from-name fields.
 
-Start by positioning your cursor in the field where you want to insert the dynamic text, and then select the  **Assist Edit**  button  **&lt;/&gt;**  to open a drop-down list showing a selection of data sources appropriate for your current context, which can include some or all the following:
+Start by positioning your cursor in the field where you want to insert the dynamic text, and then select the  **Assist Edit**  button  **&lt;/&gt;**  to open a drop-down list showing a selection of data sources appropriate for your current context, which can include some or all of the following:
 
 - **Contact[context]**: Places a field value, such as a first name, from each recipient's contact record.
 - **Content settings[context]**: Places a field value from the content settings—a subscription center URL, forwarding URL, and the sender postal address are included here.
@@ -95,9 +99,9 @@ Places the URL to the forwarding page identified in the content settings configu
 - `{{Message.ViewAsWebpageURL}}`  
 Places the URL for opening the current message in a web browser.
 - `{{msevtmgt_event(8a519395-856c-4e22-b560-650ce6d6a79d).msevtmgt_webinarurl}}`  
-Places the webinar URL for the event identified by the specified event ID (in parenthesis).
+Places the webinar URL for the event identified by the specified event ID (in parentheses).
 - `{{msdyn_survey(39128da2-c968-4627-9595-f030b6571be4).msdyn_name}}`  
-Places the name of the survey identified by the specified survey ID (in parenthesis).
+Places the name of the survey identified by the specified survey ID (in parentheses).
 
 ## Find record IDs
 
@@ -117,16 +121,16 @@ On the **Summary** tab of the **Marketing Email** form, you can make various non
 Though these settings provide assist-edit buttons, you must only place static values, or values from the **Contact[context]** entity, such as `{{contact.emailaddress1}}` (which is the default for the **To** address). These settings don't currently support any other entities or lookup-field values.
 
 > [!TIP]
-> You can include conditional statements in the **Advanced Header** fields, for example to use `contact.emailaddress2` if `contact.emailaddress1` is empty. But you can still only refer to the contact entity in your conditional expressions and displayed fields.
+> You can include conditional statements in the **Advanced Header** fields—for example, to use `contact.emailaddress2` if `contact.emailaddress1` is empty. But you can still only refer to the contact entity in your conditional expressions and displayed fields.
 
 ## Advanced dynamic content
 
 You can add advanced logical processing to your email designs, which can make the content even more responsive to recipients, demographics, and context. This type of customization requires you to have a basic understanding of scripting and programming. You can enter the code while working on either the **Designer** or **HTML** tab of the content designer.
 
-As you've seen in previous examples, dynamic content is surrounded by double curly-brackets ( `{{` and `}}` ). This includes both standard field values that you add using the assist-edit feature, and the more advanced programming constructs described in this section.
+As you've seen in previous examples, dynamic content is surrounded by double braces ( `{{` and `}}` ). This includes both standard field values that you add using the assist-edit feature, and the more advanced programming constructs described in this section.
 
 > [!TIP]
-> If you want to display double curly-brackets in a message, rather than use them to denote the start or end of a code block, then prepend (escape) the first bracket with a backslash, such as `\{{` or `\}}`. The slashes won't appear in your final, rendered message, but the double brackets will.
+> If you want to display double braces in a message, rather than use them to denote the start or end of a code block, then prepend (escape) the first brace with a backslash, such as `\{{` or `\}}`. The slashes won't appear in your final, rendered message, but the double braces will.
 
 ### Fetch custom values from fields and lookup fields
 
@@ -135,7 +139,7 @@ As we've seen, you can use the assist-edit feature to insert both context-sensit
 > [!TIP]
 > If you require the types of data that are supported by assist-edit, then it's usually best to use the assist-edit feature to place the code. This will ensure that the entity and field names match those used in the database and will help you avoid misspellings.
 
-You can place nearly any database value into your messages using the same types of syntax created when using assist-edit, but you'll need to find the correct entity, relationship, and field names (for example by using the tools for [customizing entities, relationships and fields](../customize/customize-entities-relationships-fields.md)).
+You can place nearly any database value into your messages using the same types of syntax created when using assist-edit, but you'll need to find the correct entity, relationship, and field names (for example, by using the tools for [customizing entities, relationships and fields](../customize/customize-entities-relationships-fields.md)).
 
 > [!NOTE]
 > You can only use data from entities that are synced with the customer-insights service (and therefore also listed in the assist-edit menu). If you need to show information from an entity that isn't yet synced, then talk to your admin. If you are an admin, then see [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync) for instructions.
@@ -175,7 +179,7 @@ Conditional (if-then-else) statements display content depending on whether one o
 Where:
 
 - The conditional block must always open with `{{#if … }}`.
-- Conditional expressions must be contained in parenthesis.
+- Conditional expressions must be contained in parentheses.
 - Conditional expressions start with an &lt;operator&gt;, which must be one of the values listed in the following table. It establishes how the first value is to be compared to the second value.
 - &lt;value1&gt; and &lt;value2&gt; are values to be compared by the conditional expression, and each can be either dynamic or constant values. If either &lt;value1&gt; or &lt;value2&gt; is a constant string value (not a number or expression), then it must be surrounded with single quotes ('); for real numbers, use a period (.) as a decimal delineator.
 - `{{else}}` and `{{else if … }}` clauses are optional.
@@ -207,7 +211,7 @@ For example, this conditional statement could be used to establish the language 
 > ```Handlebars
 > {{#if (eq contact.lastname '')}}
 > ```
-> Where `''` is two single quotes, not a double quote. This finds empty fields, but not null fields.
+> Where `''` is two single quotation marks, not a double quotation mark. This finds empty fields, but not null fields.
 
 > [!TIP]
 > Though you can't use complex Boolean expressions in your conditional expressions, you can implement similar functionality as follows:
@@ -232,7 +236,7 @@ For example, this conditional statement could be used to establish the language 
 
 ### For-each loops
 
-For-each loops let you step through a collection of records that are related to a specific current record, for example to provide a list of all the recent transactions associated with a given contact.
+For-each loops let you step through a collection of records that are related to a specific current record—for example, to provide a list of all the recent transactions associated with a given contact.
 
 For-each loops take the following form:
 
@@ -274,7 +278,7 @@ In this example, the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]
 Often, programmers use multiple lines and indents to format their code during development. This makes the code easier to read and understand. The examples in this help topic likewise use techniques such as these to illustrate the structure of the code. However, when you enter your code into the designer, it's important that you compact the code and maintain your page layout—and that means removing all the extra lines and spaces. Here are some tips for how to enter your code in the designer:
 
 - You can work on either the **HTML** or **Designer** tab.
-- If are working on the **Designer** tab, avoid all extra spaces and carriage returns because these will create `&nbsp;`and `<p>` tags in your code, which will result in unwanted empty space in your rendered design. If you got to the **HTML** tab, you'll see all of these extra tags in your code.
+- If are working on the **Designer** tab, avoid all extra spaces and carriage returns because these will create `&nbsp;`and `<p>` tags in your code, which will result in unwanted empty space in your rendered design. If you go to the **HTML** tab, you'll see all of these extra tags in your code.
 - If you are working on the **HTML** tab, then all the code must either be contained within a set of start and end tags (such as `<p>` and `</p>`) or within an HTML comment (for code that is entirely separate from displayed text). Do not place code outside of comments or valid HTML tag pairs, as that will confuse the editor (especially if you switch between the **HTML** and **Design** tabs).
 - If you are working on the **HTML** tab, then you can add extra spaces and carriage returns to your code, but these will probably be collapsed automatically into a single line if you or anyone else opens the message using the **Designer** tab.
 
