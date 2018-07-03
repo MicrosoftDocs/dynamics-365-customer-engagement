@@ -27,9 +27,9 @@ For important, late-breaking information and a list of known issues, see the [So
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.7
 
-### Removal of interaction functionality for Facebook user profiles
+### Removal of interaction functionality for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] user profiles
 
-With the release of Facebook's Graph API v3.0 on August 1 2018, social profiles for Facebook users in Social Engagement can't like, share, or comment posts anymore. With this release, we're removing the interaction controls for Facebook user profiles from the Social Engagement user interface. The logic for data acquisition doesn't change. You still need to create a Facebook Acquisition profile to allow data acquisition from Facebook for Facebook pages you administer.
+With the release of [!INCLUDE [tn-facebook](../includes/tn-facebook.md)]'s Graph API v3.0 on August 1 2018, [social profiles for Facebook](manage-social-profiles.md) users in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] can't interact with posts anymore. With this release, we're removing the option to create new [interaction tokens for Facebook](manage-access-tokens.md) user profiles. The logic for data acquisition doesn't change. You still need to create a **[!INCLUDE [tn-facebook](../includes/tn-facebook.md)] Acquisition** profile to allow data acquisition from [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages you administer. With the upcoming Update 1.8 in August, we'll also remove the interaction controls for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] user profiles from the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user interface. 
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.6
 
