@@ -31,8 +31,8 @@
 ### [Secure and manage](v8/set-up-manage/secure-manage.md) 
 ### [Troubleshoot](v8/set-up-manage/troubleshoot.md)
 
-## User Guide 
-### Get started
+# User Guide 
+# Get started
 #### [Install](../mobile-app/v8/go-mobile/get-started/install.md)
 #### [Signing in and signing out](../mobile-app/v8/go-mobile/get-started/sign-in-out.md)
 #### [Reconfigure](../mobile-app/v8/go-mobile/get-started/reconfigure.md)
