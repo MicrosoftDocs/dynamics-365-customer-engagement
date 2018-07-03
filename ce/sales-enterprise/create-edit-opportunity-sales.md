@@ -49,7 +49,14 @@ If you're following the sales process from start to finish, you *qualify* a lead
    - **Contact**: The contact associated with this opportunity.
  
    - **Account**: The account associated with this opportunity.
- 
+
+   - **Currency**: Choose the currency for the opportunity. This is the currency the opportunity amount is calculated in.
+
+     > [!NOTE]
+     > 
+     > Your base record and all its line items must use the same currency. For example, if your opportunity has the currency set to U.S Dollars, you must use the same currency for the price list items that you add to the opportunity. You can’t change the currency of the base record (in this case, an opportunity), unless you remove all the list items associated with the record.
+     > Similarly, all the records created from an opportunity, such as a quote, order or invoice must use the same currency as the opportunity.
+
    - **Purchase Timeframe**: The timeframe by when the account or contact is likely to make the purchase.
  
    - **Budget Amount**: Enter a value to indicate the lead's potential available budget. 
@@ -60,19 +67,19 @@ If you're following the sales process from start to finish, you *qualify* a lead
   
    - **Est. Revenue**: A field calculated for opportunities that have products added to them. Estimated revenue is calculated based on base price, volume discounts, manual discounts, taxes, and other pricing modifications. When opportunities are saved, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] recalculates the estimated revenue based on any changes to the products or product quantities associated with the opportunity.
 
-4.	Select **Save** to enable other sections on the form.
+4. Select **Save** to enable other sections on the form.
 
-5.	In the **Stakeholders** section, select the **More Commands** button ![More Commands button](media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
+5. In the **Stakeholders** section, select the **More Commands** button ![More Commands button](media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
 
-    In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you have entered the name you want, select **Add**. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Select the role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer. 
+   In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you have entered the name you want, select **Add**. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Select the role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer. 
 
-6.	In the **Sales Team** section, select the **More Commands** button ![More Commands button](media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a member of the sales team (from your organization).
+6. In the **Sales Team** section, select the **More Commands** button ![More Commands button](media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a member of the sales team (from your organization).
 
-7.	In the **Competitors** section, select **Add Existing Competitor** to add a competitor who's competing with your organization for this opportunity.
+7. In the **Competitors** section, select **Add Existing Competitor** to add a competitor who's competing with your organization for this opportunity.
 
-8.	To save your changes, on the command bar, select **Save**.
+8. To save your changes, on the command bar, select **Save**.
 
-9.	Add products to your opportunity. [!include[proc-more-information](../includes/proc-more-information.md)] [Add products to an opportunity](#add-products-to-an-opportunity-sales-hub) 
+9. Add products to your opportunity. [!include[proc-more-information](../includes/proc-more-information.md)] [Add products to an opportunity](#add-products-to-an-opportunity-sales-hub) 
 
 10.	Follow the process bar to move the opportunity to the next stage. In the **Develop** stage, enter data for the following fields:
     
@@ -150,23 +157,23 @@ If you want to create an opportunity without first creating a lead, do the follo
   
 1. [!INCLUDE[proc_sales_opportunities](../includes/proc-sales-opportunities.md)]  
   
-2.  Select **New**.  
+2. Select **New**.  
   
-3.  In the **Summary** area, enter the company and contact information for the opportunity.  
+3. In the **Summary** area, enter the company and contact information for the opportunity.  
   
-4.  In the **Details** area of the **Opportunity** form, enter information about your opportunity's industry and preferred contact method.  
+4. In the **Details** area of the **Opportunity** form, enter information about your opportunity's industry and preferred contact method.  
   
-5.  Add any notes and activities (for example, phone calls or emails) related to this opportunity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
+5. Add any notes and activities (for example, phone calls or emails) related to this opportunity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
   
-6.  In the **Stakeholders** section, select the **Add Connection record** button ![Add Connection record button](media/add-connection-record-button.png "Add Connection record button") to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
+6. In the **Stakeholders** section, select the **Add Connection record** button ![Add Connection record button](media/add-connection-record-button.png "Add Connection record button") to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
 
-    In the Lookup box, enter a name or select the Lookup icon to choose from a list of suggestions. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Select the role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer.   
+   In the Lookup box, enter a name or select the Lookup icon to choose from a list of suggestions. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Select the role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer.   
   
-7.  In the **Sales Team** section, select the **Add Connection record** button ![Add Connection record button](media/add-connection-record-button.png "Add Connection record button"), and then select **+ New Connection** to add a member of the sales team (from your organization).  
+7. In the **Sales Team** section, select the **Add Connection record** button ![Add Connection record button](media/add-connection-record-button.png "Add Connection record button"), and then select **+ New Connection** to add a member of the sales team (from your organization).  
   
-8.  To add competitors, in the **Competitors** area, select **+**.  
+8. To add competitors, in the **Competitors** area, select **+**.  
   
-9.  To add products, in the **Products** area, select **+**.  
+9. To add products, in the **Products** area, select **+**.  
   
 10. To add a quote, in the **Quotes** area, select **+**. [!include[proc-more-information](../includes/proc-more-information.md)] [Create or edit a quote](../sales-enterprise/create-edit-quote-sales.md)  
   
@@ -174,11 +181,11 @@ If you want to create an opportunity without first creating a lead, do the follo
   
 ## Additional considerations  
   
--   A way that might help you increase your sales is to add all products that your customer might need. You can add product bundles or product families to make it easier for you to choose products for upsell and cross-sell.  
+- A way that might help you increase your sales is to add all products that your customer might need. You can add product bundles or product families to make it easier for you to choose products for upsell and cross-sell.  
   
--   If other people in your organization are working on this sale, be sure to add them as sales team members.  
+- If other people in your organization are working on this sale, be sure to add them as sales team members.  
   
--   Nurture your opportunities through a marketing campaign. [!include[proc-more-information](../includes/proc-more-information.md)] [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md) (applies to the Sales app only)
+- Nurture your opportunities through a marketing campaign. [!include[proc-more-information](../includes/proc-more-information.md)] [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md) (applies to the Sales app only)
   
 ## Tips and tricks  
 

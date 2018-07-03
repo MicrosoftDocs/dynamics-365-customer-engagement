@@ -559,6 +559,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_businessunitnewsarticle"></a> userentityinstancedata_businessunitnewsarticle
 
 Same as userentityinstancedata entity [userentityinstancedata_businessunitnewsarticle](userentityinstancedata.md#BKMK_userentityinstancedata_businessunitnewsarticle) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -573,6 +574,7 @@ Same as userentityinstancedata entity [userentityinstancedata_businessunitnewsar
 ### <a name="BKMK_BusinessUnitNewsArticle_ProcessSessions"></a> BusinessUnitNewsArticle_ProcessSessions
 
 Same as processsession entity [BusinessUnitNewsArticle_ProcessSessions](processsession.md#BKMK_BusinessUnitNewsArticle_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -587,6 +589,7 @@ Same as processsession entity [BusinessUnitNewsArticle_ProcessSessions](processs
 ### <a name="BKMK_BusinessUnitNewsArticle_AsyncOperations"></a> BusinessUnitNewsArticle_AsyncOperations
 
 Same as asyncoperation entity [BusinessUnitNewsArticle_AsyncOperations](asyncoperation.md#BKMK_BusinessUnitNewsArticle_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -601,6 +604,7 @@ Same as asyncoperation entity [BusinessUnitNewsArticle_AsyncOperations](asyncope
 ### <a name="BKMK_BusinessUnitNewsArticle_BulkDeleteFailures"></a> BusinessUnitNewsArticle_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [BusinessUnitNewsArticle_BulkDeleteFailures](bulkdeletefailure.md#BKMK_BusinessUnitNewsArticle_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|

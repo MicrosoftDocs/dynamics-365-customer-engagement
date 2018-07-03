@@ -34,23 +34,23 @@ Replacement parameters can be used throughout the application to pull data from 
 ## View the Replacement Parameters in Unified Service Desk  
  The Debugger control in the client application can be used to view the list of available replacement parameters at any given time.  
   
-1.  Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, and log on to Microsoft Dynamics 365 where you have installed the sample packages.  
+1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, and log on to Microsoft Dynamics 365 where you have installed the sample packages.  
   
-2.  In the main screen of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, click the down arrow next to the gear on the top-right corner, and select **Debug**. The Debugger appears.  
+2. In the main screen of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, click the down arrow next to the gear on the top-right corner, and select **Debug**. The Debugger appears.  
   
- ![Debug option to open Debugger](../unified-service-desk/media/usd-view-debugger.png "Debug option to open Debugger")  
+   ![Debug option to open Debugger](../unified-service-desk/media/usd-view-debugger.png "Debug option to open Debugger")  
   
-3.  In the Debugger, click **Data Parameters** to view the replacement parameters.  
+3. In the Debugger, click **Data Parameters** to view the replacement parameters.  
   
- ![Replacement parameters on Data Parameters tab](../unified-service-desk/media/usd-replacement-parameters.PNG "Replacement parameters on Data Parameters tab")  
+   ![Replacement parameters on Data Parameters tab](../unified-service-desk/media/usd-replacement-parameters.PNG "Replacement parameters on Data Parameters tab")  
   
- A tree view is used to represent the available variables. When specifying the variable, specify the name at the root level, followed by a period (.), and then the name in the list. Here are some examples:  
+   A tree view is used to represent the available variables. When specifying the variable, specify the name at the root level, followed by a period (.), and then the name in the list. Here are some examples:  
   
--   `[[$Session.IsGlobal]]`  
+- `[[$Session.IsGlobal]]`  
   
--   `[[$User.fullname]]`  
+- `[[$User.fullname]]`  
   
- These values will change as the user interacts in the the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. Action calls will pick up the current value and use in its parameter list, or wherever else it may be used. Any time the variables are updated, a **NotifyContextChange** event is fired in the base controls even if the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context didn’t change itself. This allows features like the Session Lines to recheck the values of the replacement parameters to see if it needs to update its display.  
+  These values will change as the user interacts in the the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. Action calls will pick up the current value and use in its parameter list, or wherever else it may be used. Any time the variables are updated, a **NotifyContextChange** event is fired in the base controls even if the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context didn’t change itself. This allows features like the Session Lines to recheck the values of the replacement parameters to see if it needs to update its display.  
   
 <a name="SystemReplacementParameters"></a>   
 ## System Replacement Parameters  

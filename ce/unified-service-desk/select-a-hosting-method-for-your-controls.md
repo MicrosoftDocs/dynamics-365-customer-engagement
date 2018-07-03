@@ -32,15 +32,15 @@ manager: sakudes
   
 > [!NOTE]
 >  To use the **IE Process** browser control, you must select the **Enable Protected Mode** check box for the **Local Intranet** security zone in Internet Explorer. More information: [What does Internet Explorer protected mode do?](http://windows.microsoft.com/en-US/windows-vista/What-does-Internet-Explorer-protected-mode-do)  
->   
+> 
 >  If enabling protected mode for intranet sites is not feasible, you must instead add the following URLs to the **Restricted Sites** security zone in Internet Explorer:  
->   
->  -   http://close  
-> -   http://event  
-> -   http://uii  
->   
+> 
+> - http://close  
+>   -   http://event  
+>   -   http://uii  
+> 
 > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security zones: adding or removing websites](http://windows.microsoft.com/en-us/windows/security-zones-adding-removing-websites#1TC=windows-7)  
->   
+> 
 >  If you do not enable the protected mode for the **Local Intranet** security zone or add the above URLs to the **Restricted Sites** security zone, blank pages with `http://event?eventname=usdreload` in the address bar will pop up for users when they work in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Blog: IE Process mode gives http://event popup](https://blogs.msdn.microsoft.com/usd/2016/01/26/ie-process-mode-gives-httpevent-popup/)  
   
  The `IE Process` browser control has been rewritten in [!INCLUDE[pn_unified_service_desk_20](../includes/pn-unified-service-desk-20.md)] to offer significant memory and performance enhancements:  

@@ -26,19 +26,19 @@ Calculated fields let you automate manual calculations used in your business pro
   
  **The calculated field capabilities:**  
   
--   The calculated fields comprise of calculations that use the fields from the current entity or related parent entities.  
+- The calculated fields comprise of calculations that use the fields from the current entity or related parent entities.  
   
--   The expression support is available on the current entity and the related parent entity fields in the **Condition** sections and the **Action** sections. The built-in functions include:  
+- The expression support is available on the current entity and the related parent entity fields in the **Condition** sections and the **Action** sections. The built-in functions include:  
   
- **ADDHOURS**, **ADDDAYS**, **ADDWEEKS**, **ADDMONTHS**, **ADDYEARS**, **SUBTRACTHOURS**, **SUBTRACTDAYS**, **SUBTRACTWEEKS**, **SUBTRACTMONTHS**, **SUBTRACTYEARS**, **DIFFINDAYS**, **DIFFINHOURS**, **DIFFINMINUTES**, **DIFFINMONTHS**, **DIFFINWEEKS**, **DIFFINYEARS**, **CONCAT**, **TRIMLEFT**, and **TRIMRIGHT**.  
+  **ADDHOURS**, **ADDDAYS**, **ADDWEEKS**, **ADDMONTHS**, **ADDYEARS**, **SUBTRACTHOURS**, **SUBTRACTDAYS**, **SUBTRACTWEEKS**, **SUBTRACTMONTHS**, **SUBTRACTYEARS**, **DIFFINDAYS**, **DIFFINHOURS**, **DIFFINMINUTES**, **DIFFINMONTHS**, **DIFFINWEEKS**, **DIFFINYEARS**, **CONCAT**, **TRIMLEFT**, and **TRIMRIGHT**.  
   
--   A rich conditional support provides branching and multiple conditions. The logical operations include **AND** and **OR** operators.  
+- A rich conditional support provides branching and multiple conditions. The logical operations include **AND** and **OR** operators.  
   
--   The visual editing capabilities include modern user interface and intellisense in the **ACTION** section.  
+- The visual editing capabilities include modern user interface and intellisense in the **ACTION** section.  
   
--   A seamless integration of the calculated fields with the forms, views, charts, and reports is available in real time.  
+- A seamless integration of the calculated fields with the forms, views, charts, and reports is available in real time.  
   
--   If you updated your Online organization to [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], you can configure calculated fields to use custom controls.  
+- If you updated your Online organization to [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], you can configure calculated fields to use custom controls.  
   
   
  **A few examples of the calculated fields**  
@@ -64,31 +64,31 @@ Calculated fields let you automate manual calculations used in your business pro
   
 1. Open solution explorer 
   
-2.  Expand **Components** > **Entities**.  
+2. Expand **Components** > **Entities**.  
   
-3.  Select the entity you want and choose **Fields**. Choose **New**.  
+3. Select the entity you want and choose **Fields**. Choose **New**.  
   
- In the editor, provide the required information for the field, including the **Field Type** and **Data Type**. The **Field Type** is **Calculated**. The available data types for the calculated field:  
+   In the editor, provide the required information for the field, including the **Field Type** and **Data Type**. The **Field Type** is **Calculated**. The available data types for the calculated field:  
   
--   Single line of text  
+- Single line of text  
   
--   Option Set  
+- Option Set  
   
--   Two Options  
+- Two Options  
   
--   Whole Number  
+- Whole Number  
   
--   Decimal Number  
+- Decimal Number  
   
--   Currency  
+- Currency  
   
--   Date and Time  
+- Date and Time  
   
- The **Edit** button next to the **Field Type** takes you to the calculated field definition editor, where the new calculated field has been created, but no formula has been set. The calculated field definition consists of two sections: **CONDITION** and **ACTION**.  
+  The **Edit** button next to the **Field Type** takes you to the calculated field definition editor, where the new calculated field has been created, but no formula has been set. The calculated field definition consists of two sections: **CONDITION** and **ACTION**.  
   
--   In the **Condition** section, you can specify an entity, field, operator, type, and value. In the dropdown box for the **Entity**, you can choose a current entity or a related entity. In the **Field** dropdown box, you have a selection of all available fields for the entity. Depending on the operator you choose, you may need to provide type and value. You can specify multiple conditions using the `AND` or `OR` operators.  
+- In the **Condition** section, you can specify an entity, field, operator, type, and value. In the dropdown box for the **Entity**, you can choose a current entity or a related entity. In the **Field** dropdown box, you have a selection of all available fields for the entity. Depending on the operator you choose, you may need to provide type and value. You can specify multiple conditions using the `AND` or `OR` operators.  
   
--   In the **Action** section, you provide the formula for the calculated field.  
+- In the **Action** section, you provide the formula for the calculated field.  
   
 > [!NOTE]
 >  You can use data from Lookup records within your Action. You first have to select the Lookup field and then type a period. After that, you can select one of the fields available on the related entity. For example, in the case of \<LookupFieldName>.\<RelatedFieldName>, you can select: ParentAccountId.AccountNumber.  
@@ -185,7 +185,7 @@ Calculated fields let you automate manual calculations used in your business pro
   
 > [!NOTE]
 >  All DIFF functions require that the first **Date and Time** field and the second **Date and Time** field have the same behavior: **User Local**, **Date Only** or **Time-Zone Independent**. If the behavior of the second field doesn’t match the behavior of the first field, the error message is shown, indicating that the second field can’t be used in the current function. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Behavior and format of the Date and Time field](../customize/behavior-format-date-time-field.md).  
-  
+> 
 > [!NOTE]
 >  You cannot enter a date, such as 01/01/2015, as the Date value in a calculated field. Date and DateTime values can only be set or compared using other DateTime fields.  
   
@@ -200,40 +200,40 @@ Calculated fields let you automate manual calculations used in your business pro
 ## Calculated fields considerations  
  You should be aware of certain conditions and limitations when working with calculated fields:  
   
--   Saved queries, charts, and visualizations can have a maximum of 10 unique calculated fields.  
+- Saved queries, charts, and visualizations can have a maximum of 10 unique calculated fields.  
   
--   The calculated field values are not displayed in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Outlook Offline mode in the tile views or on entity main forms.  
+- The calculated field values are not displayed in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Outlook Offline mode in the tile views or on entity main forms.  
   
--   A maximum number of chained calculated fields is 5.  
+- A maximum number of chained calculated fields is 5.  
   
--   A calculated field can’t refer to itself or have cyclic chains.  
+- A calculated field can’t refer to itself or have cyclic chains.  
   
--   If you change one of the condition operators in a multiple condition clause, all of the condition operators will update to that condition. For example, in the clause `IF (x > 50) OR (y ==10) OR (z < 5)`, if you change the `OR` operator to the `AND` operator, then all `OR` operators in the clause will become `AND` operators.  
+- If you change one of the condition operators in a multiple condition clause, all of the condition operators will update to that condition. For example, in the clause `IF (x > 50) OR (y ==10) OR (z < 5)`, if you change the `OR` operator to the `AND` operator, then all `OR` operators in the clause will become `AND` operators.  
   
--   You can access parental fields via the Lookup field to the parent entity, such as `<LookupFieldName>.<FieldName>`. This is not possible with multi-entity Lookup fields like `Customer` which can be `Account` or `Contact`. However, some entities have individual Lookup fields for a specific entity, such as  `ParentAccountid.<FieldName>` or `ParentContactid.<FieldName>`.  
+- You can access parental fields via the Lookup field to the parent entity, such as `<LookupFieldName>.<FieldName>`. This is not possible with multi-entity Lookup fields like `Customer` which can be `Account` or `Contact`. However, some entities have individual Lookup fields for a specific entity, such as  `ParentAccountid.<FieldName>` or `ParentContactid.<FieldName>`.  
   
--   Sorting is disabled on:  
+- Sorting is disabled on:  
   
-    -   A calculated field that contains a field of a parent record.  
+  -   A calculated field that contains a field of a parent record.  
   
-    -   A calculated field that contains a logical field (for example, address field).  
+  -   A calculated field that contains a logical field (for example, address field).  
   
-    -   A calculated field that contains another calculated field.  
+  -   A calculated field that contains another calculated field.  
   
--   Calculated fields can span two entities only.  
+- Calculated fields can span two entities only.  
   
-    -   A calculated field can contain a field from another entity (spanning two entities – current entity and parent record).  
+  -   A calculated field can contain a field from another entity (spanning two entities – current entity and parent record).  
   
-    -   A calculated field can’t contain a calculated field from another entity that also contains another field from a different entity (spanning three entities):   
-        (Current Entity)Calculated Field <- (Parent Record) Calculated Field 1 <- (Parent Record) Calculated Field 2.  
+  -   A calculated field can’t contain a calculated field from another entity that also contains another field from a different entity (spanning three entities):   
+      (Current Entity)Calculated Field <- (Parent Record) Calculated Field 1 <- (Parent Record) Calculated Field 2.  
   
--   You can’t trigger workflows or plug-ins on calculated fields.  
+- You can’t trigger workflows or plug-ins on calculated fields.  
   
--   You can’t change an existing simple field to a calculated field. If your current application is using [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] or plug-ins to calculate a field, you would not be able to use the calculated fields feature without creating a new field.  
+- You can’t change an existing simple field to a calculated field. If your current application is using [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] or plug-ins to calculate a field, you would not be able to use the calculated fields feature without creating a new field.  
   
--   Duplicate detection rules are not triggered on calculated fields.  
+- Duplicate detection rules are not triggered on calculated fields.  
   
--   A rollup can't reference a calculated field that uses another calculated field, even if all the fields of the other calculated field are on the current entity.  
+- A rollup can't reference a calculated field that uses another calculated field, even if all the fields of the other calculated field are on the current entity.  
   
 ### See also  
  [Create and edit fields](../customize/create-edit-fields.md#BKMK_CreatingAndEditngFields)   

@@ -256,6 +256,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_topic_SyncErrors"></a> topic_SyncErrors
 
 Same as syncerror entity [topic_SyncErrors](syncerror.md#BKMK_topic_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -270,6 +271,7 @@ Same as syncerror entity [topic_SyncErrors](syncerror.md#BKMK_topic_SyncErrors) 
 ### <a name="BKMK_topic_AsyncOperations"></a> topic_AsyncOperations
 
 Same as asyncoperation entity [topic_AsyncOperations](asyncoperation.md#BKMK_topic_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -284,6 +286,7 @@ Same as asyncoperation entity [topic_AsyncOperations](asyncoperation.md#BKMK_top
 ### <a name="BKMK_topic_MailboxTrackingFolders"></a> topic_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [topic_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_topic_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -298,6 +301,7 @@ Same as mailboxtrackingfolder entity [topic_MailboxTrackingFolders](mailboxtrack
 ### <a name="BKMK_topic_UserEntityInstanceDatas"></a> topic_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [topic_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_topic_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -312,6 +316,7 @@ Same as userentityinstancedata entity [topic_UserEntityInstanceDatas](userentity
 ### <a name="BKMK_topic_BulkDeleteFailures"></a> topic_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [topic_BulkDeleteFailures](bulkdeletefailure.md#BKMK_topic_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -326,6 +331,7 @@ Same as bulkdeletefailure entity [topic_BulkDeleteFailures](bulkdeletefailure.md
 ### <a name="BKMK_topic_PrincipalObjectAttributeAccesses"></a> topic_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [topic_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_topic_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

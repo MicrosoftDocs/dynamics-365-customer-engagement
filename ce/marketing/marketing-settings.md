@@ -1,7 +1,7 @@
 ---
 title: "Configure core marketing functionality in Dynamics 365 for Marketing | Microsoft Docs"
-description: "Use the marketing settings to configure landing pages, email marketing, and Customer Insights in Dynamics 365 for Marketing"
-keywords: "administration; landing page; Customer Insights"
+description: "Use the marketing settings to configure landing pages, email marketing, and customer-insights sync in Dynamics 365 for Marketing"
+keywords: "administration; landing page; customer-insights sync"
 ms.date: 04/01/2018
 ms.service:
   - "dynamics-365-marketing"
@@ -139,7 +139,7 @@ Use the **Marketing email** tab to set defaults that apply to your marketing ema
 - **Default contact**. Choose a default contact record to provide dynamic values for the preview feature of the marketing email designer.
 - **Enable Litmus integration**: Set this to **Yes** to enable the  [inbox preview feature](prepare-marketing-emails.md#inbox-preview), which provides pixel-perfect renderings of how your email messages will look on specific client and platform combinations. The feature is provided by a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] partner called Litmus Software, Inc. ([litmus.com](https://litmus.com/)), and is optional. 
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Check your work with previews and test sends](#check-your-work-with-previews-and-test-sends)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Check your work with previews and test sends](prepare-marketing-emails.md#preview-message)
 
 ### The Customer journey tab
 

@@ -23,21 +23,21 @@ manager: "kvivek"
 # Customize the Reading Pane in Dynamics 365 for Outlook
 When you use [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-full.md)], you can choose the sections in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] records that are displayed in the Reading Pane so that you don't have to open the record to see the details.  
   
-1.  In the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] Navigation Pane, click your organization.  
+1. In the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] Navigation Pane, click your organization.  
   
-2.  Click the area that contains the records you want to work with (for example, Service), and then click the record type.  
+2. Click the area that contains the records you want to work with (for example, Service), and then click the record type.  
   
-3.  Click the **View** tab, and then in the **List** group, click **Customize Reading Pane**.  
+3. Click the **View** tab, and then in the **List** group, click **Customize Reading Pane**.  
   
-     By default, all the sections that you can add or remove are listed in the **Displayed Sections** box.  
+    By default, all the sections that you can add or remove are listed in the **Displayed Sections** box.  
   
-4.  To remove a section, in the **Displayed Sections** box, click the section, and then click **Remove**.  
+4. To remove a section, in the **Displayed Sections** box, click the section, and then click **Remove**.  
   
-5.  To add a section, in the **Available Sections** box, click the section, and then click **Add**.  
+5. To add a section, in the **Available Sections** box, click the section, and then click **Add**.  
   
-6.  To change the order of the sections in the Reading Pane, in the **Displayed Sections** box, click the section, and then click the **Move Up** or **Move Down** button.  
+6. To change the order of the sections in the Reading Pane, in the **Displayed Sections** box, click the section, and then click the **Move Up** or **Move Down** button.  
   
-7.  Click **OK**.  
+7. Click **OK**.  
   
 ### See also  
  [Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)   

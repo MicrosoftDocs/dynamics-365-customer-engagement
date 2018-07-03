@@ -26,36 +26,36 @@ Microsoft Flow lets you create automated processes between your favorite apps an
 ## Manage your flows  
  Connect with Microsoft Flow from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to manage your flows.  
   
-1.  On the Actions toolbar, select **Flows**.  
+1. On the Actions toolbar, select **Flows**.  
   
- ![Create, see, or run a flow.](../basics/media/embedflow-create.png "Create, see, or run a flow.")  
+   ![Create, see, or run a flow.](../basics/media/embedflow-create.png "Create, see, or run a flow.")  
   
-2.  The following options appear:  
+2. The following options appear:  
   
-    -   Select **Create a flow** to open a new browser tab and direct you to the Microsoft Flow site. On the Microsoft Flow page, select Continue to use an existing template or select X to close choose or create a different one.  
+   -   Select **Create a flow** to open a new browser tab and direct you to the Microsoft Flow site. On the Microsoft Flow page, select Continue to use an existing template or select X to close choose or create a different one.  
   
-    -   Select **See your flows** to open a new browser tab and direct you to the Microsoft Flow site where any flows in the Flow environment are displayed.  
+   -   Select **See your flows** to open a new browser tab and direct you to the Microsoft Flow site where any flows in the Flow environment are displayed.  
   
-    -   Select **Login to flow** to connect with Microsoft Flow and display available flows for you to run. This only appears if you aren’t currently signed in to Microsoft Flow.  
+   -   Select **Login to flow** to connect with Microsoft Flow and display available flows for you to run. This only appears if you aren’t currently signed in to Microsoft Flow.  
   
-    -   Select a flow to run. See [Run an embedded flow from Dynamics 365](#Flow_run).  
+   -   Select a flow to run. See [Run an embedded flow from Dynamics 365](#Flow_run).  
   
 <a name="Flow_run"></a>   
 ## Run an embedded flow from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]  
  You can run a flow from views, forms, and Advanced Find.  
   
-1.  Select the records that you want to run the flow on, such as a selection of account records from the Active Accounts view.  
+1. Select the records that you want to run the flow on, such as a selection of account records from the Active Accounts view.  
   
-2.  On the Actions toolbar, select **Flows**, and then under **Run** select the flow that you want to run.  
+2. On the Actions toolbar, select **Flows**, and then under **Run** select the flow that you want to run.  
   
-     Flows that include actions for entities associated with your current location in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] app appear under Run on the Flow menu. For example, a flow that triggers whenever an account record is selected will appear in the Active Accounts view.  
+    Flows that include actions for entities associated with your current location in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] app appear under Run on the Flow menu. For example, a flow that triggers whenever an account record is selected will appear in the Active Accounts view.  
   
-    > [!TIP]
-    >  If you don’t see any flows under Run, click **Login to flow**.  
+   > [!TIP]
+   >  If you don’t see any flows under Run, click **Login to flow**.  
   
- ![Run a flow from Dynamics 365](../basics/media/embedflow-run.png "Run a flow from Dynamics 365")  
+   ![Run a flow from Dynamics 365](../basics/media/embedflow-run.png "Run a flow from Dynamics 365")  
   
-3.  If required, input additional information. Then, follow the instructions on your screen to run the flow.  
+3. If required, input additional information. Then, follow the instructions on your screen to run the flow.  
 
 ## Known issues
 ### Flow commands do not respond from your mobile device

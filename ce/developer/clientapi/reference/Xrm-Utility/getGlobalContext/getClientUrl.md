@@ -28,11 +28,12 @@ globalContext.getClientUrl();
 
 **Description**: The values returned will resemble those listed in the following table.
 
-|Value |Client |
-|---|---|
-|https://[org].crm.dynamics.com|Dynamics 365 Customer Engagement (online)|
-|http(s)://[server]/[org]|Dynamics 365 Customer Engagement (on-premises)|
-|http://localhost:2525|Dynamics 365 Customer Engagement for Outlook with Offline Access when offline|
+
+|             Value              |                                    Client                                     |
+|--------------------------------|-------------------------------------------------------------------------------|
+| https://[org].crm.dynamics.com |                   Dynamics 365 Customer Engagement (online)                   |
+|    http(s)://[server]/[org]    |                Dynamics 365 Customer Engagement (on-premises)                 |
+|     http://localhost:2525      | Dynamics 365 Customer Engagement for Outlook with Offline Access when offline |
 
 ### Related topics
 

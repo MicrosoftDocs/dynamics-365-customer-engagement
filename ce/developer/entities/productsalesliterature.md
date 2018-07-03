@@ -213,6 +213,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_productsalesliterature_AsyncOperations"></a> productsalesliterature_AsyncOperations
 
 Same as asyncoperation entity [productsalesliterature_AsyncOperations](asyncoperation.md#BKMK_productsalesliterature_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -227,6 +228,7 @@ Same as asyncoperation entity [productsalesliterature_AsyncOperations](asyncoper
 ### <a name="BKMK_productsalesliterature_MailboxTrackingFolders"></a> productsalesliterature_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [productsalesliterature_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_productsalesliterature_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -241,6 +243,7 @@ Same as mailboxtrackingfolder entity [productsalesliterature_MailboxTrackingFold
 ### <a name="BKMK_productsalesliterature_UserEntityInstanceDatas"></a> productsalesliterature_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [productsalesliterature_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_productsalesliterature_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -255,6 +258,7 @@ Same as userentityinstancedata entity [productsalesliterature_UserEntityInstance
 ### <a name="BKMK_productsalesliterature_BulkDeleteFailures"></a> productsalesliterature_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [productsalesliterature_BulkDeleteFailures](bulkdeletefailure.md#BKMK_productsalesliterature_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -269,6 +273,7 @@ Same as bulkdeletefailure entity [productsalesliterature_BulkDeleteFailures](bul
 ### <a name="BKMK_productsalesliterature_PrincipalObjectAttributeAccesses"></a> productsalesliterature_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [productsalesliterature_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_productsalesliterature_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -283,6 +288,7 @@ Same as principalobjectattributeaccess entity [productsalesliterature_PrincipalO
 ### <a name="BKMK_userentityinstancedata_productsalesliterature"></a> userentityinstancedata_productsalesliterature
 
 Same as userentityinstancedata entity [userentityinstancedata_productsalesliterature](userentityinstancedata.md#BKMK_userentityinstancedata_productsalesliterature) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

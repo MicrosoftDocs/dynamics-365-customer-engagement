@@ -34,24 +34,24 @@ When you purchase a subscription to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-
 ## Running out of Dynamics 365 (online) licenses?  
  If you are running out of licenses, you have several options:  
   
--   Add licenses to your subscription and then assign licenses to users.  
+- Add licenses to your subscription and then assign licenses to users.  
   
-     For step-by-step instructions for adding licenses to a subscription that is managed through [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)], see [Manage licenses](http://go.microsoft.com/fwlink/p/?LinkId=255512).  
+   For step-by-step instructions for adding licenses to a subscription that is managed through [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)], see [Manage licenses](http://go.microsoft.com/fwlink/p/?LinkId=255512).  
   
--   Remove licenses from other users. This disables the user account in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and frees up the license so that you can re-assign it.  
+- Remove licenses from other users. This disables the user account in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and frees up the license so that you can re-assign it.  
   
-     For step-by-step instructions for removing a license that you manage through [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)], see [Manage licenses](http://go.microsoft.com/fwlink/p/?LinkId=255512).  
+   For step-by-step instructions for removing a license that you manage through [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)], see [Manage licenses](http://go.microsoft.com/fwlink/p/?LinkId=255512).  
   
--   Remove a user account by deleting it. This disables the user account in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and frees up the license so that you can re-assign it.  
+- Remove a user account by deleting it. This disables the user account in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and frees up the license so that you can re-assign it.  
   
-    > [!TIP]
-    >  Delete the user accounts of people who leave your company. This frees up the licenses so that you can re-assign them.  
+  > [!TIP]
+  >  Delete the user accounts of people who leave your company. This frees up the licenses so that you can re-assign them.  
   
-     For step-by-step instructions about deleting a user account that you manage through [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)], see [Delete or restore users](http://go.microsoft.com/fwlink/p/?LinkId=255518).  
+   For step-by-step instructions about deleting a user account that you manage through [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)], see [Delete or restore users](http://go.microsoft.com/fwlink/p/?LinkId=255518).  
   
--   If a license conflict occurs because your credit card information has become outdated in [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)], you can renew your subscription by updating the credit card information, for example, by updating the card’s expiration date, or by adding a new credit card.  
+- If a license conflict occurs because your credit card information has become outdated in [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)], you can renew your subscription by updating the credit card information, for example, by updating the card’s expiration date, or by adding a new credit card.  
   
-     For step-by-step instructions for updating credit card information, see [Update your credit card information](http://go.microsoft.com/fwlink/p/?LinkId=255525).  
+   For step-by-step instructions for updating credit card information, see [Update your credit card information](http://go.microsoft.com/fwlink/p/?LinkId=255525).  
   
 > [!IMPORTANT]
 >  Signing out of the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] doesn't sign you out of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. You must do that separately.  
@@ -60,7 +60,7 @@ When you purchase a subscription to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-
   
 > [!NOTE]
 >  If you don’t have access to a phone, you may submit your cancellation request as a service request. To enter the service request, sign in to your account, and then, under **Support**, click or tap **Service Requests**. In the **Problem Description** area, fill out the form for a new service request by choosing **Cancel subscription**.  
-  
+> 
 > [!IMPORTANT]
 >  Save your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] data to a location where you can retrieve it later, if needed.  
   

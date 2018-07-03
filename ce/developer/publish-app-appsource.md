@@ -27,13 +27,13 @@ Publish your app on [Microsoft AppSource](https://appsource.microsoft.com) so th
 Use the following steps to prepare for submitting your app to be listed on Microsoft AppSource:
 
 > [Step 1: Fill the app submission form on AppSource](fill-app-submission-form-appsource.md)
-
+> 
 > [Step 2: Register for Microsoft Partner Network account](register-microsoft-partner-network.md)
-
+> 
 > [Step 3: Create a managed solution for your app](create-solution-app-appsource.md)
-
+> 
 > [Step 4: Create an AppSource package for your app](create-package-app-appsource.md)
-
+> 
 > [Step 5: Store your package on Azure Storage](store-appsource-package-azure-storage.md)
 
 ## Submit your app on Cloud Partner Portal

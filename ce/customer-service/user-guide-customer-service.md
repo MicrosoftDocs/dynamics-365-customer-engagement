@@ -24,7 +24,7 @@ manager: shellyha
 This User's Guide shows customer service agents how to use the application. 
   
 > [!IMPORTANT]
-This User Guide covers the Customer Service app that you can use with a desktop browser for case management. If you want to manage knowledge articles or do case management on a mobile device, use the new Customer Service Hub app, which is built on the Unified Interface framework. To learn about the  Customer Service Hub app, see [User Guide (Customer Service Hub)](user-guide-customer-service-hub.md). For information on Dynamics 365 basics, [see the Basics Guide](../basics/basics-guide.md).
+> This User Guide covers the Customer Service app that you can use with a desktop browser for case management. If you want to manage knowledge articles or do case management on a mobile device, use the new Customer Service Hub app, which is built on the Unified Interface framework. To learn about the  Customer Service Hub app, see [User Guide (Customer Service Hub)](user-guide-customer-service-hub.md). For information on Dynamics 365 basics, [see the Basics Guide](../basics/basics-guide.md).
   
 ## Create and manage a case
 Keep track of your customer requests and issues by creating support cases in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. When a customer contacts support with a question or problem, you can quickly check if there is an existing case or open a new case and start tracking the issue. You can also escalate, reassign, or put a case back into the service queue if you don’t have enough information or time to work on it.  
@@ -39,34 +39,34 @@ Keep track of your customer requests and issues by creating support cases in [!I
   
 1. [!INCLUDE[proc_service_cases](../includes/proc-service-cases.md)]  
   
-2.  Click **New Case**.  
+2. Click **New Case**.  
   
-3.  Find the customer:  
+3. Find the customer:  
   
-    1.  Click the **Customer** lookup button. By default, this field shows both account and contact records. Or, type a few letters and press **Enter** to search for records that contain the letters. When you select an existing customer, the customer details will show the contact details, along with recent cases and activities for the customer.  
+   1.  Click the **Customer** lookup button. By default, this field shows both account and contact records. Or, type a few letters and press **Enter** to search for records that contain the letters. When you select an existing customer, the customer details will show the contact details, along with recent cases and activities for the customer.  
   
-    2.  If a customer record doesn’t exist, click **New** in the inline lookup results to create a new record.  
+   2.  If a customer record doesn’t exist, click **New** in the inline lookup results to create a new record.  
   
-4.  Click the **Contact** lookup button and select an existing contact for the case or click **New** in the inline lookup results to create a new contact record.  
+4. Click the **Contact** lookup button and select an existing contact for the case or click **New** in the inline lookup results to create a new contact record.  
   
-5.  Before you create a new case, check if there is an existing case:  
+5. Before you create a new case, check if there is an existing case:  
   
-    1.  From the **Identify** area of the process bar, click the **Find Case** lookup button and then select a case from the list of cases.  
+   1.  From the **Identify** area of the process bar, click the **Find Case** lookup button and then select a case from the list of cases.  
   
-    2.  If a case doesn’t exist, click **New** in the inline lookup results to create a new case record.  
+   2.  If a case doesn’t exist, click **New** in the inline lookup results to create a new case record.  
   
-6.  In the **Case title** field, type a subject or descriptive name to identify the case.  
+6. In the **Case title** field, type a subject or descriptive name to identify the case.  
   
-7.  To track your conversation with the customer, add activities. 
+7. To track your conversation with the customer, add activities. 
   
-8.  To see what kind of support you should provide the customer, click the **Entitlements** lookup button and select an active entitlement.  
+8. To see what kind of support you should provide the customer, click the **Entitlements** lookup button and select an active entitlement.  
   
-    > [!NOTE]
-    > If your manager has set default entitlements for a customer, a default entitlement is automatically associated with a case when:  
-    >   
-    > - A case is created  
-    > - A case is updated and the customer, contact, or product field has changed  
-    > - When a case is created and an entitlement is applied to it (or when the case gets resolved), the entitlement terms from the associated entitlement are decremented. However, if you don’t want the entitlement terms to be decremented for a case, from the command bar click **Do not decrement entitlement terms**.  
+   > [!NOTE]
+   > If your manager has set default entitlements for a customer, a default entitlement is automatically associated with a case when:  
+   >   
+   > - A case is created  
+   > - A case is updated and the customer, contact, or product field has changed  
+   > - When a case is created and an entitlement is applied to it (or when the case gets resolved), the entitlement terms from the associated entitlement are decremented. However, if you don’t want the entitlement terms to be decremented for a case, from the command bar click **Do not decrement entitlement terms**.  
   
 9. Fill in the other details that apply to the case, and then click **Save**.  
   
@@ -75,48 +75,48 @@ Keep track of your customer requests and issues by creating support cases in [!I
   
 1. [!INCLUDE[proc_service_cases](../includes/proc-service-cases.md)]  
   
-2.  In the list of active cases, open the case you’re looking for.  
+2. In the list of active cases, open the case you’re looking for.  
   
-3.  When the case is open, to find similar cases, click **Case Relationships** to expand the menu.  
+3. When the case is open, to find similar cases, click **Case Relationships** to expand the menu.  
   
-4.  For **Similar Cases**, click (**+**) **Add Connection record**.  
+4. For **Similar Cases**, click (**+**) **Add Connection record**.  
   
-5.  From the **Find Similar Cases** dialog box, use the search to find similar cases.  
+5. From the **Find Similar Cases** dialog box, use the search to find similar cases.  
   
-     Select a different subject to see the cases with that subject. You can also search for cases by typing the keyword in the searc box, and then click the **Search** button. When you use a search keyword, it searches on the title of the case and shows the matching results.  
+    Select a different subject to see the cases with that subject. You can also search for cases by typing the keyword in the searc box, and then click the **Search** button. When you use a search keyword, it searches on the title of the case and shows the matching results.  
   
-6.  When you find a similar case, click the case to review the case activities, posts, and notes.  
+6. When you find a similar case, click the case to review the case activities, posts, and notes.  
   
-     Typically, a phone call, task, or case resolution activity has the information about how the case was resolved.  
+    Typically, a phone call, task, or case resolution activity has the information about how the case was resolved.  
   
-7.  Once you find the case that has the information you need, click the case, and then click **Found a Solution**.  
+7. Once you find the case that has the information you need, click the case, and then click **Found a Solution**.  
   
-     The case you select is added to the **Similar Cases** area for the case you’re working on.  
+    The case you select is added to the **Similar Cases** area for the case you’re working on.  
   
 ### Resolve a case   
   
 1. [!INCLUDE[proc_service_cases](../includes/proc-service-cases.md)]  
   
-2.  In the list of active cases, open the one you want to resolve.  
+2. In the list of active cases, open the one you want to resolve.  
   
-3.  On the command bar, click **Resolve case**.  
+3. On the command bar, click **Resolve case**.  
   
-    > [!IMPORTANT]
-    >  Before you resolve a case, make sure that all the case activities are closed. Otherwise, you’ll get a message saying that you still have open activities associated with the case, which will be canceled if the case is resolved.  
+   > [!IMPORTANT]
+   >  Before you resolve a case, make sure that all the case activities are closed. Otherwise, you’ll get a message saying that you still have open activities associated with the case, which will be canceled if the case is resolved.  
   
-4.  In the **Resolve Case** dialog box, in the **Resolution Type** list, select how the case was resolved.  
+4. In the **Resolve Case** dialog box, in the **Resolution Type** list, select how the case was resolved.  
   
-5.  In the **Resolution** box, type a short explanation of the resolution.  
+5. In the **Resolution** box, type a short explanation of the resolution.  
   
-     The actual time spent on all activities for this case, as recorded in the **Duration** box in each activity, is filled out automatically in the **Total Time** box.  
+    The actual time spent on all activities for this case, as recorded in the **Duration** box in each activity, is filled out automatically in the **Total Time** box.  
   
-6.  In the **Billable Time** list, select the amount of time spent on the case to be billed to the customer.  
+6. In the **Billable Time** list, select the amount of time spent on the case to be billed to the customer.  
   
-     If this case is linked to a contract or entitlement, the billable time will be subtracted from the allotted minutes for that contract.  
+    If this case is linked to a contract or entitlement, the billable time will be subtracted from the allotted minutes for that contract.  
   
-7.  Click **Resolve**.  
+7. Click **Resolve**.  
   
-     A case resolution activity is created and shown in the **Activities** area. The resolution activity contains information about a resolved case, including the resolution and total time spent on the case. You can reactivate a resolved case at any time.  
+    A case resolution activity is created and shown in the **Activities** area. The resolution activity contains information about a resolved case, including the resolution and total time spent on the case. You can reactivate a resolved case at any time.  
   
 <a name="Collapsed4"></a>   
 ### Cancel a case  
@@ -124,28 +124,28 @@ Keep track of your customer requests and issues by creating support cases in [!I
   
 1. [!INCLUDE[proc_service_cases](../includes/proc-service-cases.md)]  
   
-2.  In the list of active cases, open the case that you want to cancel, and then on the command bar, click **Cancel Case**.  
+2. In the list of active cases, open the case that you want to cancel, and then on the command bar, click **Cancel Case**.  
   
-3.  In the **Confirm Cancellation** dialog box, select the case status:  
+3. In the **Confirm Cancellation** dialog box, select the case status:  
   
-    - **Canceled**: This means the case is canceled and it will no longer be assigned to you.  
+   - **Canceled**: This means the case is canceled and it will no longer be assigned to you.  
   
-    - **Merged**: This means the case is merged into another case. When the case is merged, the case activities will be moved to the case it was merged into.  
+   - **Merged**: This means the case is merged into another case. When the case is merged, the case activities will be moved to the case it was merged into.  
   
-4.  Click **Confirm**.  
+4. Click **Confirm**.  
   
 ### Reassign a case  
  If you don’t have enough information to resolve a case, or if you think another member in your team has expertise on the subject, you can assign the case to another user or team.  
   
 1. [!INCLUDE[proc_service_cases](../includes/proc-service-cases.md)]  
   
-2.  Select the case that you want to reassign.  
+2. Select the case that you want to reassign.  
   
-3.  On the command bar, click **More Commands** ![Ellipsis button](../customer-service/media/crm-ua-ellipsis-v4.gif "Ellipsis button"), and then select **Assign**.  
+3. On the command bar, click **More Commands** ![Ellipsis button](../customer-service/media/crm-ua-ellipsis-v4.gif "Ellipsis button"), and then select **Assign**.  
   
-4.  Click the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button"), and select who you want to assign the case to.  
+4. Click the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button"), and select who you want to assign the case to.  
   
-5.  Click **Assign**.  
+5. Click **Assign**.  
   
 ### Add a case to a queue  
  If you think another group in your team has the expertise on the subject, you can move the case to a queue so that someone else can pick it up.  
@@ -156,24 +156,24 @@ Keep track of your customer requests and issues by creating support cases in [!I
   
 3. Click the **More Commands** ![Ellipsis button](../customer-service/media/crm-ua-ellipsis-v4.gif "Ellipsis button"), and select **Add to Queue**.  
   
-4.  Click the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button"), select the queue that you want to add the case to, and then click **Add**.  
+4. Click the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button"), select the queue that you want to add the case to, and then click **Add**.  
   
 ### Save and route a case  
  When you create a new case, you can save it and route it with a single click using the **Save & Route** button.  
   
 1. [!INCLUDE[proc_service_cases](../includes/proc-service-cases.md)]  
   
-2.  Open a case record.  
+2. Open a case record.  
   
-3.  On the command bar, click **Save & Route**.  
+3. On the command bar, click **Save & Route**.  
   
-4.  In the **Route Case** dialog box, click **Route**.  
+4. In the **Route Case** dialog box, click **Route**.  
   
-     The case is routed based on the active routing rule set.  
+    The case is routed based on the active routing rule set.  
   
-    > [!IMPORTANT]
-    > - The **Save & Route** button is available only on active cases.  
-    > - The **Apply Routing Rule** button that was earlier available on the case form is now available in the list of records for applying the routing rule on multiple cases.    
+   > [!IMPORTANT]
+   > - The **Save & Route** button is available only on active cases.  
+   > - The **Apply Routing Rule** button that was earlier available on the case form is now available in the list of records for applying the routing rule on multiple cases.    
 
 ## Add a phone call, task, email, or appointment activity to a case
 The activity and notes area helps you keep track of all the interactions with your customers. Record all important conversations with the customer or the communication with your team members regarding a record in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Add a phone call, task, notes, email, or appointments right within the case, account, contact, lead, or opportunity records without navigating to a different area and opening another form.  
@@ -203,45 +203,45 @@ The activity and notes area helps you keep track of all the interactions with yo
   
 ### Add a task  
   
-1.  Open the record you want to add the activity to.  
+1. Open the record you want to add the activity to.  
   
-2.  In the middle of the page, click **Activities** > **Add Task**.  
+2. In the middle of the page, click **Activities** > **Add Task**.  
   
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
-4.  The **Owner** field is set to the current user by default. If you want to reassign the task, click the lookup icon, and then select another user or team.  
+4. The **Owner** field is set to the current user by default. If you want to reassign the task, click the lookup icon, and then select another user or team.  
   
-5.  Click **OK** to save the task.  
+5. Click **OK** to save the task.  
   
 ### Add an email  
  To add an email activity to a record, you must first save the record you are adding the activity to.  
   
-1.  Open the record you want to add the activity to.  
+1. Open the record you want to add the activity to.  
   
-2.  In the middle of the page, click **Activities** > **More Commands** ![More Commands button in Appointment Activity](../customer-service/media/morecommands.gif "More Commands button in Appointment Activity") > **Email**.  
+2. In the middle of the page, click **Activities** > **More Commands** ![More Commands button in Appointment Activity](../customer-service/media/morecommands.gif "More Commands button in Appointment Activity") > **Email**.  
   
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
-4.  To save the record, click **Save**.  
+4. To save the record, click **Save**.  
   
-5.  To add an attachment to the email, under **Attachments**, on the right, click **+**.  
+5. To add an attachment to the email, under **Attachments**, on the right, click **+**.  
   
-6.  To use a template for the email body, in the email editor, click **Insert Template**, and then select the template.  
+6. To use a template for the email body, in the email editor, click **Insert Template**, and then select the template.  
   
-7.  To attach an article to the email, in the email editor, click **Insert Article**, and then add the article.  
+7. To attach an article to the email, in the email editor, click **Insert Article**, and then add the article.  
   
-8.  Click **Save**.  
+8. Click **Save**.  
   
 ### Add an appointment  
  To add an appointment activity to a record, you must first save the record you are adding the activity to.  
   
-1.  Open the record you want to add the activity to.  
+1. Open the record you want to add the activity to.  
   
-2.  In the middle of the page, click **Activities** > **More Commands** ![More Commands button in Appointment Activity](../customer-service/media/morecommands.gif "More Commands button in Appointment Activity") > **Appointment**.  
+2. In the middle of the page, click **Activities** > **More Commands** ![More Commands button in Appointment Activity](../customer-service/media/morecommands.gif "More Commands button in Appointment Activity") > **Appointment**.  
   
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
-4.  To save the record, click **Save**.  
+4. To save the record, click **Save**.  
   
 ### Add notes  
  You can also easily add notes in the activities area. And if you’re on the latest version of [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.md)], you have the benefits of using OneNote to take or review customer notes from within your Dynamics 365 records. For more information on OneNote, see: [Set up OneNote integration in Dynamics 365 Customer Engagement](../admin/set-up-onenote-integration-in-dynamics-365.md).  
@@ -254,25 +254,25 @@ The activity and notes area helps you keep track of all the interactions with yo
   
 2.  In the middle of the page, click **Notes** or **OneNote**. Then do one of the following:  
   
--   In the **Notes** area, start typing your notes.  
+- In the **Notes** area, start typing your notes.  
   
--   In the **OneNote** area, select a notebook to make entries.  
+- In the **OneNote** area, select a notebook to make entries.  
   
- ![Add Meeting Notes in OneNote](../customer-service/media/addonenotenotes.png "Add Meeting Notes in OneNote")  
+  ![Add Meeting Notes in OneNote](../customer-service/media/addonenotenotes.png "Add Meeting Notes in OneNote")  
   
-    > [!NOTE]
-    >  The notebook is stored in the associated SharePoint folder for the record. If there is more than one associated folder, the notebook is created in the first folder. For more information see, [Set up OneNote integration in Dynamics 365 Customer Engagement](../admin/set-up-onenote-integration-in-dynamics-365.md).  
+  > [!NOTE]
+  >  The notebook is stored in the associated SharePoint folder for the record. If there is more than one associated folder, the notebook is created in the first folder. For more information see, [Set up OneNote integration in Dynamics 365 Customer Engagement](../admin/set-up-onenote-integration-in-dynamics-365.md).  
   
 ### Create an activity and associate it with a customer  
  You can also create an activity from the Activity area and then link it to a customer or support case.  
   
-1.  Go to your work area.  
+1. Go to your work area.  
   
 2. [!INCLUDE[proc_activities](../includes/proc-activities.md)]  
   
-3.  On the command bar, select and add an activity. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
+3. On the command bar, select and add an activity. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
-4.  Use the **Regarding** field on the activity form to associate it with a customer or support case.    
+4. Use the **Regarding** field on the activity form to associate it with a customer or support case.    
 
 ## Find what's assigned to you in a queue
 Quickly see the items assigned to you or that are available to work on by using queues in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Think of them as to-do lists that help you organize your work.  
@@ -288,9 +288,9 @@ Quickly see the items assigned to you or that are available to work on by using 
   
 1. [!INCLUDE[proc_service_queues](../includes/proc-service-queues.md)]  
   
-2.  Select a view and a filter to see the items that you want.  
+2. Select a view and a filter to see the items that you want.  
   
- ![View lists used to find queue items](../customer-service/media/crm-ua-queues-view-list.png "View lists used to find queue items")  
+   ![View lists used to find queue items](../customer-service/media/crm-ua-queues-view-list.png "View lists used to find queue items")  
   
 #### Find all cases in selected queues  
   
@@ -378,34 +378,34 @@ Quickly see the items assigned to you or that are available to work on by using 
   
 ### Pick an activity or case to work on  
   
-1.  In the **View** list, select one of the views that show the items or cases available to work on.  
+1. In the **View** list, select one of the views that show the items or cases available to work on.  
   
-2.  Select the case or item that you want to work on, and on the command bar, click **Pick**.  
+2. Select the case or item that you want to work on, and on the command bar, click **Pick**.  
   
- You also have an option to remove the item from the queue once you pick it up.  
+   You also have an option to remove the item from the queue once you pick it up.  
   
- When you pick an activity or a case, it gets assigned to you. The **Worked By** field (in the list of queue items) is also set to you if you leave the activity or case in the queue.  
+   When you pick an activity or a case, it gets assigned to you. The **Worked By** field (in the list of queue items) is also set to you if you leave the activity or case in the queue.  
   
 ### Release an item or case that you’re working on so someone else can pick it up  
   
-1.  In the **View** list, select one of the views that show the items or cases you’re working on.  
+1. In the **View** list, select one of the views that show the items or cases you’re working on.  
   
-2.  Select the case or item that you want to release, and on the command bar click **Release**.  
+2. Select the case or item that you want to release, and on the command bar click **Release**.  
   
- When you release an item, your name is removed from the **Worked By** field, and the item is no longer assigned to you; it’s assigned to the queue owner.  
+   When you release an item, your name is removed from the **Worked By** field, and the item is no longer assigned to you; it’s assigned to the queue owner.  
   
 ### Route an activity or case to another queue or assign to a different user or team  
   
-1.  Select the case that you want to move to another queue, and on the command bar click **Route**.  
+1. Select the case that you want to move to another queue, and on the command bar click **Route**.  
   
-2.  To move an activity or case to a different queue, click **Route**, and select a queue.  
-<!--  
-    > [!IMPORTANT]
-    >  If you’re using [!INCLUDE[pn_crm_2013_sp_shortest](../includes/pn-crm-2013-sp-shortest.md)] and you click **Look Up More Records**, you’ll only see business queues, which is the default view. Business queues only include user-created queues and leave out all user and team queues. You can’t set a different view as the default view. To choose a different queue, in the **Look Up Records** dialog box, in the **Look in** list, click the **All Queues** view. 
---> 
-     -OR-  
+2. To move an activity or case to a different queue, click **Route**, and select a queue.  
+   <!--  
+   > [!IMPORTANT]
+   >  If you’re using [!INCLUDE[pn_crm_2013_sp_shortest](../includes/pn-crm-2013-sp-shortest.md)] and you click **Look Up More Records**, you’ll only see business queues, which is the default view. Business queues only include user-created queues and leave out all user and team queues. You can’t set a different view as the default view. To choose a different queue, in the **Look Up Records** dialog box, in the **Look in** list, click the **All Queues** view. 
+   --> 
+    -OR-  
   
-     To assign the activity or case to another user or team to work on, click **User/Team**, and select the user or team. When you assign the activity or case to someone else to work on, the **Worked By** field is set to that user or team. You also have the option to remove the item from the queue.  
+    To assign the activity or case to another user or team to work on, click **User/Team**, and select the user or team. When you assign the activity or case to someone else to work on, the **Worked By** field is set to that user or team. You also have the option to remove the item from the queue.  
   
 ### Remove an activity or case from a queue  
   
@@ -420,13 +420,13 @@ If you want another person in your organization to work on an activity, you can 
   
 1. [!INCLUDE[proc_activities](../includes/proc-activities.md)]  
   
-2.  In the list of activities, select the activity you want, and on the command bar, click **More Commands** ![More commands button](../customer-service/media/crm-ua-not-available.gif "More commands button"), and then click **Assign**.    
+2. In the list of activities, select the activity you want, and on the command bar, click **More Commands** ![More commands button](../customer-service/media/crm-ua-not-available.gif "More commands button"), and then click **Assign**.    
   
-3.  In the **Assign to another user or team** field, click **Lookup**, and select the user or team you want to assign the activity to.  
+3. In the **Assign to another user or team** field, click **Lookup**, and select the user or team you want to assign the activity to.  
   
-    If you don’t see the user or team you are looking for, click **Lookup**, and then click **Look Up More Records**. From the **Look for** drop-down list, select **User** or **Team**. In the **Search** box, type the name, click the search button, and then click the name to select it. Click **Add**.  
+   If you don’t see the user or team you are looking for, click **Lookup**, and then click **Look Up More Records**. From the **Look for** drop-down list, select **User** or **Team**. In the **Search** box, type the name, click the search button, and then click the name to select it. Click **Add**.  
   
-4.  Click **Assign**.  
+4. Click **Assign**.  
   
 ### Add to a queue  
   
@@ -457,13 +457,13 @@ To merge similar cases:
 
 1. [!INCLUDE[proc_service_cases](../includes/proc-service-cases.md)]  
   
-2.  In the list of active cases, select the cases you want to merge. You must select at least two active cases.  
+2. In the list of active cases, select the cases you want to merge. You must select at least two active cases.  
   
-3.  On the command bar, click **Merge Cases**.  
+3. On the command bar, click **Merge Cases**.  
   
-4.  In the **Merge Cases** dialog box, from the list of cases, select the case the other cases will be merged into, and then click **Merge**.  
+4. In the **Merge Cases** dialog box, from the list of cases, select the case the other cases will be merged into, and then click **Merge**.  
   
-5.  To see the merged case, open the case it was merged into, and you’ll find the merged case listed under **Case Relationships** > **Merged Cases**.  
+5. To see the merged case, open the case it was merged into, and you’ll find the merged case listed under **Case Relationships** > **Merged Cases**.  
 
 ## Create and manage parent and child cases
 You can manage multiple cases more efficiently if you use parent and child cases in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. When you need to track a case where work needs to be done by other departments or when you need to track the same issue for multiple customers, you can open a primary case called the parent case, and then create secondary cases called child cases.  
@@ -489,15 +489,15 @@ You can manage multiple cases more efficiently if you use parent and child cases
   
 1. [!INCLUDE[proc_service_cases](../includes/proc-service-cases.md)]  
   
-2.  When the case form is open, do one of the following:  
+2. When the case form is open, do one of the following:  
   
-    -   On the command bar at the top, click **Create Child Case**.  
+   -   On the command bar at the top, click **Create Child Case**.  
   
-    -   Or, choose to expand **Case Relationships**, and next to **Child Case**, click **(+) Add Case** **record**.  
+   -   Or, choose to expand **Case Relationships**, and next to **Child Case**, click **(+) Add Case** **record**.  
   
-3.  Next, fill in the necessary case information for the child case, and then click **Save**.  
+3. Next, fill in the necessary case information for the child case, and then click **Save**.  
   
-4.  To see the child case that was just created, from the parent case, click **Case Relationships**, and you’ll see the child case listed under **Child Cases**.  
+4. To see the child case that was just created, from the parent case, click **Case Relationships**, and you’ll see the child case listed under **Child Cases**.  
   
 ### Associate a parent case to a child case  
  You can create a case and then associate it as child case.  
@@ -507,30 +507,30 @@ You can manage multiple cases more efficiently if you use parent and child cases
   
 1. [!INCLUDE[proc_service_cases](../includes/proc-service-cases.md)]  
   
-2.  Then, do one of the following:  
+2. Then, do one of the following:  
   
-    #### From your active list of cases, do this:  
+   #### From your active list of cases, do this:  
   
-    1.  Select the cases that you want to associate as parent and child case(s). You must select at least two cases.  
+   1.  Select the cases that you want to associate as parent and child case(s). You must select at least two cases.  
   
-    2.  On the command bar at the top, click **Associate Child Cases**.  
+   2.  On the command bar at the top, click **Associate Child Cases**.  
   
-    3.  In the **Set Parent Child Relationship** dialog box, from the list of cases, select the case that you want to make the parent case, and then click **Set**.  
+   3.  In the **Set Parent Child Relationship** dialog box, from the list of cases, select the case that you want to make the parent case, and then click **Set**.  
   
-    #### From an open case, do this:  
+   #### From an open case, do this:  
   
-    1.  From the open case form, choose to expand **Case Relationships**, and next to **Child Case**, click (**+**) **Add Case record**.  
+   1.  From the open case form, choose to expand **Case Relationships**, and next to **Child Case**, click (**+**) **Add Case record**.  
   
-    2.  Click the **Lookup** button, and then find the case you want associate as the child case.  
+   2.  Click the **Lookup** button, and then find the case you want associate as the child case.  
   
 ### Associate a child case to a parent case  
  You can associate a parent case to a case from the Case form.  
   
 1. [!INCLUDE[proc_service_cases](../includes/proc-service-cases.md)]  
   
-2.  Open the case that you want to link a parent case to.  
+2. Open the case that you want to link a parent case to.  
   
-3.  From the case form, click the **Parent Case** and use the search to find a case that you want to associate as the parent case for this case.  
+3. From the case form, click the **Parent Case** and use the search to find a case that you want to associate as the parent case for this case.  
   
 ### Resolve a case with a parent and child relationship  
  Depending on your settings, a case with a parent and child relationship can be closed in one of the following ways:  
@@ -548,26 +548,26 @@ You can manage multiple cases more efficiently if you use parent and child cases
   
 1. [!INCLUDE[proc_service_cases](../includes/proc-service-cases.md)]  
   
-2.  In the list of active cases, open the one you want to resolve.  
+2. In the list of active cases, open the one you want to resolve.  
   
-3.  On the command bar, click **Resolve case**.  
+3. On the command bar, click **Resolve case**.  
   
-    > [!IMPORTANT]
-    >  Before you resolve a parent case with active child cases, make sure that all the case activities are closed. Otherwise, you’ll get a warning stating that you need to manually close the open activities or the system will automatically cancel the open activities when the case is resolved. Also, performance may be slow when you close a parent case with lots of active child case associated with it.  
+   > [!IMPORTANT]
+   >  Before you resolve a parent case with active child cases, make sure that all the case activities are closed. Otherwise, you’ll get a warning stating that you need to manually close the open activities or the system will automatically cancel the open activities when the case is resolved. Also, performance may be slow when you close a parent case with lots of active child case associated with it.  
   
-4.  In the **Resolve Case** dialog box, in the **Resolution Type** list, select how the case was resolved.  
+4. In the **Resolve Case** dialog box, in the **Resolution Type** list, select how the case was resolved.  
   
-5.  In the **Resolution** box, type a short explanation of the resolution.  
+5. In the **Resolution** box, type a short explanation of the resolution.  
   
-     The actual time spent on all activities for this case, as recorded in the **Duration** box in each activity, is filled out automatically in the **Total Time**  
+    The actual time spent on all activities for this case, as recorded in the **Duration** box in each activity, is filled out automatically in the **Total Time**  
   
-6.  In the **Billable Time** list, select the amount of time spent on the case to be billed to the customer.  
+6. In the **Billable Time** list, select the amount of time spent on the case to be billed to the customer.  
   
-     If this case is linked to a contract or entitlement, the billable time will be subtracted from the allotted minutes for that contract.  
+    If this case is linked to a contract or entitlement, the billable time will be subtracted from the allotted minutes for that contract.  
   
-7.  Click **Resolve**.  
+7. Click **Resolve**.  
   
-     A case resolution activity is created and shown in the **Activities** area. A case resolution activity contains information about a resolved case, including the resolution and total time spent on the case. You can reactivate a resolved case at any time.  
+    A case resolution activity is created and shown in the **Activities** area. A case resolution activity contains information about a resolved case, including the resolution and total time spent on the case. You can reactivate a resolved case at any time.  
 
 ### See also 
 [Understanding how data is organized in Dynamics 365](../basics/how-data-organized.md)  

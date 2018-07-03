@@ -3,9 +3,10 @@ title: "Create or edit a quote (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Quotes include the pricing details of the products your potential customer is interested in."
 keywords: "Quote, proposal, create quote, products, price"
 ms.date: 09/22/2017
-ms.service: dynamics-365-sales
+ms.service:
+  - "dynamics-365-sales"
 ms.custom:
-  - dyn365-sales
+  - "dyn365-sales"
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -54,6 +55,11 @@ One way that can help you increase your sales is to add all products that your c
 
 8.	When your quote is ready to send to your customer, on the command bar, select **Activate Quote**.
 
+> [!NOTE]
+> 
+> Your base record and all its line items must use the same currency. For example, if your quote has the currency set to U.S Dollars, you must use the same currency for the price list items that you add to the quote. You can’t change the currency of the base record (in this case, an quote), unless you remove all the line items associated with the record.
+> Similarly, if the quote is created from an opportunity, it must use the same currency as the opportunity.
+
 <a name="bkmk2"></a>  
 ## Create a quote (Sales Hub app)
 
@@ -87,38 +93,38 @@ One way that can help you increase your sales is to add all products that your c
   
 1. [!INCLUDE[proc_sales_opportunities](../includes/proc-sales-opportunities.md)]  
   
-2.  Select the opportunity you want to add a quote to.  
+2. Select the opportunity you want to add a quote to.  
   
-3.  In the **Quotes** area of the **Opportunity** form, select **+**.  
+3. In the **Quotes** area of the **Opportunity** form, select **+**.  
   
-4.  To add products from your opportunity to your quote, select **Get Products** at the top of the **Quote** form, and then select **OK**.  
+4. To add products from your opportunity to your quote, select **Get Products** at the top of the **Quote** form, and then select **OK**.  
   
-5.  Enter shipping and payment information in the **Shipping Information** area of the **Quote** form.  
+5. Enter shipping and payment information in the **Shipping Information** area of the **Quote** form.  
   
-6.  Enter the billing and shipping addresses in the **Addresses** area of the **Quote** form.  
+6. Enter the billing and shipping addresses in the **Addresses** area of the **Quote** form.  
   
-7.  Select **Save** in the lower-right corner of the screen.  
+7. Select **Save** in the lower-right corner of the screen.  
   
-8.  When your quote is ready to send to your customer, select **Activate Quote** at the top of the screen.  
+8. When your quote is ready to send to your customer, select **Activate Quote** at the top of the screen.  
   
 <a name="bkmk4"></a>   
 ## Create a quote  (Sales app)
   
 1. [!INCLUDE[proc_sales_quotes](../includes/proc-sales-quotes.md)]  
   
-2.  Select **New**.  
+2. Select **New**.  
   
-3.  Add your customer's contact information.  
+3. Add your customer's contact information.  
   
-4.  To add products from your opportunity to your quote, select **Get Products** at the top of the **Quote** form, and then select **OK**.  
+4. To add products from your opportunity to your quote, select **Get Products** at the top of the **Quote** form, and then select **OK**.  
   
-5.  In the **Shipping Information** area, enter shipping details.  
+5. In the **Shipping Information** area, enter shipping details.  
   
-6.  In the **Addresses** area, enter shipping and billing addresses.  
+6. In the **Addresses** area, enter shipping and billing addresses.  
   
-7.  Select **Save** in the lower-right corner of the screen.  
+7. Select **Save** in the lower-right corner of the screen.  
   
-8.  When your quote is ready to send to your customer, select **Activate Quote** at the top of the screen.  
+8. When your quote is ready to send to your customer, select **Activate Quote** at the top of the screen.  
   
  
 <a name="bkmk5"></a>   

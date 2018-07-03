@@ -22,17 +22,17 @@ manager: "amyla"
 
 XRM tooling is a set of APIs built on top of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement SDK assembly APIs (Organization service and IDiscoveryService) that provide support for building [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] client applications for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. It provides the following capabilities:  
   
--   Supports all the authentication modes to sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], including OAuth.  
+- Supports all the authentication modes to sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], including OAuth.  
   
--   Provides [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] support for authentication and connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+- Provides [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] support for authentication and connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
--   Provides thread safety for actions performed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in a multithreaded environment. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Multithreading in Components](https://msdn.microsoft.com/library/vstudio/3es4b6yy.aspx), [Thread-Safe Components](https://msdn.microsoft.com/library/vstudio/a8544e2s.aspx)  
+- Provides thread safety for actions performed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in a multithreaded environment. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Multithreading in Components](https://msdn.microsoft.com/library/vstudio/3es4b6yy.aspx), [Thread-Safe Components](https://msdn.microsoft.com/library/vstudio/a8544e2s.aspx)  
   
--   Provides a common [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)] login control for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for consistent sign-in experience to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from your Windows client applications.  
+- Provides a common [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)] login control for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for consistent sign-in experience to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from your Windows client applications.  
   
--   Supports secure storage of the sign-in credentials and reuse of the stored credentials to automatically sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] after initial sign in.  
+- Supports secure storage of the sign-in credentials and reuse of the stored credentials to automatically sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] after initial sign in.  
   
--   Provides built-in diagnostic tracing and performance reporting of the actions performed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], which you can configure based on your organization’s requirements.  
+- Provides built-in diagnostic tracing and performance reporting of the actions performed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], which you can configure based on your organization’s requirements.  
   
 ## Components of XRM tooling  
  XRM tooling has the following three components:  

@@ -119,15 +119,15 @@ System query options `$filter`, `$orderby` and `$top` are not supported when usi
   
  You should be aware of the following constraints when retrieving changes for an entity:  
   
--   Only one entity will be tracked in retrieve changes. If retrieve changes is executed with no version / or token, the server will treat it as the system minimum version, returning all of the records as new. Deleted objects won’t be returned.  
+- Only one entity will be tracked in retrieve changes. If retrieve changes is executed with no version / or token, the server will treat it as the system minimum version, returning all of the records as new. Deleted objects won’t be returned.  
   
--   Changes will be returned if the last token is within a default value of 90 days. If it is more than 90 days, the system will return all the records.  
+- Changes will be returned if the last token is within a default value of 90 days. If it is more than 90 days, the system will return all the records.  
   
--   If a client has a set of changes for an entity, say version 1, a record is created and deleted prior to the next query for changes, they will get the deleted item even if they didn’t have the item to begin with.  
+- If a client has a set of changes for an entity, say version 1, a record is created and deleted prior to the next query for changes, they will get the deleted item even if they didn’t have the item to begin with.  
   
--   Records are retrieved in the order determined by server side logic. Usually, the end user will always get all new or updated records first (sorted by version number) followed by deleted records.  If there are 3000 records created or updated and 2000 records deleted, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] returns a collection of 5000 records, which have the first 3000 entries comprised of new or updated records and the last 2000 entries for deleted records.  
+- Records are retrieved in the order determined by server side logic. Usually, the end user will always get all new or updated records first (sorted by version number) followed by deleted records.  If there are 3000 records created or updated and 2000 records deleted, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] returns a collection of 5000 records, which have the first 3000 entries comprised of new or updated records and the last 2000 entries for deleted records.  
   
--   If the new or updated item collection is greater than 5000, the user can page through the collection.  
+- If the new or updated item collection is greater than 5000, the user can page through the collection.  
   
 <a name="BKMK_SampleCode"></a>   
 ## Sample code  

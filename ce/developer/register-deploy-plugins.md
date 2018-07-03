@@ -66,10 +66,10 @@ Depending on your plug-in’s design, your plug-ins may require other referenced
 **To move a plug-in from a development environment to a staging or production server**
 
 1. On the development computer, build the plug-in code. Do not include debug information. Optimize the plug-in for performance.
-1. Register the plug-in in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server database.
-1. Using the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application, create a solution or use an existing one, and add the plug-in to that solution.
-1. After you have added any other desired components to the solution, export the solution.
-1. Import the solution on to the staging or production server.
+2. Register the plug-in in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server database.
+3. Using the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application, create a solution or use an existing one, and add the plug-in to that solution.
+4. After you have added any other desired components to the solution, export the solution.
+5. Import the solution on to the staging or production server.
 
 <a name="bkmk_versioning"></a>
 
@@ -83,7 +83,7 @@ Plug-in assemblies can be versioned using a number format of *major.minor.build.
 - **The major or minor assembly version number, except for the build or revision numbers, is changed.**<br />
   When an updated solution containing the revised assembly is imported, the assembly is considered a completely different assembly than the previous version of that assembly in the existing solution. Plug-in registration steps in the existing solution will continue to refer to the previous version of the assembly. If you want existing plug-in registration steps for the previous assembly to point to the revised assembly, you will need to use the Plug-in Registration tool to manually change the step configuration to refer to the revised assembly type. This should be done before exporting the updated assembly into a solution for later import.  
 
- For more information about solutions, refer to [Introduction to Solutions](introduction-solutions.md).
+  For more information about solutions, refer to [Introduction to Solutions](introduction-solutions.md).
 
 <a name="bkmk_securityrestrictions"></a>
 
@@ -101,9 +101,9 @@ Plug-in assemblies can be versioned using a number format of *major.minor.build.
 - prvCreateSdkMessageProcessingStepImage
 - prvCreateSdkMessageProcessingStepSecureConfig
 
- For more information, see [The Security Model of Dynamics 365](security-dev/Security-model.md).  
+  For more information, see [The Security Model of Dynamics 365](security-dev/Security-model.md).  
 
- For plug-ins registered in the sandbox (isolation mode), the system user account under which the plug-in is being registered must have the System Administrator role. Membership in the **Deployment Administrators** group is not required.  
+  For plug-ins registered in the sandbox (isolation mode), the system user account under which the plug-in is being registered must have the System Administrator role. Membership in the **Deployment Administrators** group is not required.  
   
 <a name="bkmk_registerprog"></a>
 
@@ -123,26 +123,26 @@ Plug-in assemblies can be versioned using a number format of *major.minor.build.
 
 1. Open a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command window.
 
-1. Add the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] PowerShell snap-in:
+2. Add the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] PowerShell snap-in:
 
     ```powershell
     Add-PSSnapin Microsoft.Crm.PowerShell
     ```
 
-1. Retrieve the current setting:
+3. Retrieve the current setting:
 
     ```powershell
     $setting = get-crmsetting customcodesettings
     ```
 
-1. Modify the current setting:
+4. Modify the current setting:
 
     ```powershell
     $setting.AllowExternalCode="True"
     set-crmsetting $setting
     ```
 
-1. Verify the setting:
+5. Verify the setting:
 
     ```powershell
     get-crmsetting customcodesettings
@@ -151,22 +151,22 @@ Plug-in assemblies can be versioned using a number format of *major.minor.build.
 ### To disable custom code execution
 
 1. Open a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command window.
-1. Add the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] PowerShell snap-in:
+2. Add the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] PowerShell snap-in:
     ```powershell
     Add-PSSnapin Microsoft.Crm.PowerShell
     ```
-1. Retrieve the current setting:
+3. Retrieve the current setting:
     ```powershell
     $setting = get-crmsetting customcodesettings
     ```
 
-1. Modify the current setting:
+4. Modify the current setting:
     ```powershell
     $setting.AllowExternalCode=0
     set-crmsetting $setting
     ```
 
-1. Verify the setting:
+5. Verify the setting:
     ```powershell
     get-crmsetting customcodesettings
     ```

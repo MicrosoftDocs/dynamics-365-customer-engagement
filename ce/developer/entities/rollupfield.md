@@ -534,6 +534,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_rollupfield_ProcessSessions"></a> rollupfield_ProcessSessions
 
 Same as processsession entity [rollupfield_ProcessSessions](processsession.md#BKMK_rollupfield_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -548,6 +549,7 @@ Same as processsession entity [rollupfield_ProcessSessions](processsession.md#BK
 ### <a name="BKMK_userentityinstancedata_rollupfield"></a> userentityinstancedata_rollupfield
 
 Same as userentityinstancedata entity [userentityinstancedata_rollupfield](userentityinstancedata.md#BKMK_userentityinstancedata_rollupfield) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -562,6 +564,7 @@ Same as userentityinstancedata entity [userentityinstancedata_rollupfield](usere
 ### <a name="BKMK_RollupField_SyncErrors"></a> RollupField_SyncErrors
 
 Same as syncerror entity [RollupField_SyncErrors](syncerror.md#BKMK_RollupField_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -576,6 +579,7 @@ Same as syncerror entity [RollupField_SyncErrors](syncerror.md#BKMK_RollupField_
 ### <a name="BKMK_rollupfield_AsyncOperations"></a> rollupfield_AsyncOperations
 
 Same as asyncoperation entity [rollupfield_AsyncOperations](asyncoperation.md#BKMK_rollupfield_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|

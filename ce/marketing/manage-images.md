@@ -51,20 +51,20 @@ To view and edit your image library:
 
 1. Go to **Marketing** &gt; **Internet Marketing** &gt; **Files**. You now see a list of all existing images and files. Choose any row in the table here to view information about the file and edit its settings (including keywords).
 
-1. On the command bar, select **New** to upload a new file. The **Upload Files** dialog box opens.
+2. On the command bar, select **New** to upload a new file. The **Upload Files** dialog box opens.
 
-1. Either drag a file from File Explorer to this dialog box or choose **browse** to locate and choose an image by using a file browser window.  
+3. Either drag a file from File Explorer to this dialog box or choose **browse** to locate and choose an image by using a file browser window.  
     ![The Upload Files dialog](media/files-upload.png "The Upload Files dialog box")
 
-1. While working here, you can:
+4. While working here, you can:
     - Drag several images to add more than one image at a time.
     - Apply keywords to each image by using the **Add Keywords** drop-down list.
     - Remove a keyword from an image by selecting the close button **(X)** for the keyword.
     - Remove an image by selecting its close button **(X)** on the right (also an X).
 
-1. Select **Save** to upload your images to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+5. Select **Save** to upload your images to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-1. If you want to edit the display name for an image, go back to **Marketing** &gt; **Internet Marketing** &gt; **Files**.
+6. If you want to edit the display name for an image, go back to **Marketing** &gt; **Internet Marketing** &gt; **Files**.
 
 ### See also
 

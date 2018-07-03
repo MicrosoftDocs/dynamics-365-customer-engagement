@@ -185,9 +185,10 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_AmountMethod"></a> msdyn_AmountMethod
 
-|Property|Value|
-|--------|-----|
-|Description|Select the amount calculation method used for this project contract estimate line. Valid values are: 
+|  Property   |                                                Value                                                 |
+|-------------|------------------------------------------------------------------------------------------------------|
+| Description | Select the amount calculation method used for this project contract estimate line. Valid values are: |
+
 0: Multiply Quantity By Price
 1: Fixed Price
 2: Multiply Basis Quantity By Price
@@ -1727,6 +1728,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_orderlinetransaction_SyncErrors"></a> msdyn_orderlinetransaction_SyncErrors
 
 Same as syncerror entity [msdyn_orderlinetransaction_SyncErrors](syncerror.md#BKMK_msdyn_orderlinetransaction_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1741,6 +1743,7 @@ Same as syncerror entity [msdyn_orderlinetransaction_SyncErrors](syncerror.md#BK
 ### <a name="BKMK_msdyn_orderlinetransaction_DuplicateMatchingRecord"></a> msdyn_orderlinetransaction_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_orderlinetransaction_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_orderlinetransaction_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1755,6 +1758,7 @@ Same as duplicaterecord entity [msdyn_orderlinetransaction_DuplicateMatchingReco
 ### <a name="BKMK_msdyn_orderlinetransaction_DuplicateBaseRecord"></a> msdyn_orderlinetransaction_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_orderlinetransaction_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_orderlinetransaction_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1769,6 +1773,7 @@ Same as duplicaterecord entity [msdyn_orderlinetransaction_DuplicateBaseRecord](
 ### <a name="BKMK_msdyn_orderlinetransaction_AsyncOperations"></a> msdyn_orderlinetransaction_AsyncOperations
 
 Same as asyncoperation entity [msdyn_orderlinetransaction_AsyncOperations](asyncoperation.md#BKMK_msdyn_orderlinetransaction_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1783,6 +1788,7 @@ Same as asyncoperation entity [msdyn_orderlinetransaction_AsyncOperations](async
 ### <a name="BKMK_msdyn_orderlinetransaction_MailboxTrackingFolders"></a> msdyn_orderlinetransaction_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_orderlinetransaction_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_orderlinetransaction_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1797,6 +1803,7 @@ Same as mailboxtrackingfolder entity [msdyn_orderlinetransaction_MailboxTracking
 ### <a name="BKMK_msdyn_orderlinetransaction_UserEntityInstanceDatas"></a> msdyn_orderlinetransaction_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_orderlinetransaction_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_orderlinetransaction_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1811,6 +1818,7 @@ Same as userentityinstancedata entity [msdyn_orderlinetransaction_UserEntityInst
 ### <a name="BKMK_msdyn_orderlinetransaction_ProcessSession"></a> msdyn_orderlinetransaction_ProcessSession
 
 Same as processsession entity [msdyn_orderlinetransaction_ProcessSession](processsession.md#BKMK_msdyn_orderlinetransaction_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1825,6 +1833,7 @@ Same as processsession entity [msdyn_orderlinetransaction_ProcessSession](proces
 ### <a name="BKMK_msdyn_orderlinetransaction_BulkDeleteFailures"></a> msdyn_orderlinetransaction_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_orderlinetransaction_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_orderlinetransaction_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1839,6 +1848,7 @@ Same as bulkdeletefailure entity [msdyn_orderlinetransaction_BulkDeleteFailures]
 ### <a name="BKMK_msdyn_orderlinetransaction_PrincipalObjectAttributeAccesses"></a> msdyn_orderlinetransaction_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_orderlinetransaction_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_orderlinetransaction_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1853,6 +1863,7 @@ Same as principalobjectattributeaccess entity [msdyn_orderlinetransaction_Princi
 ### <a name="BKMK_msdyn_orderlinetransaction_Annotations"></a> msdyn_orderlinetransaction_Annotations
 
 Same as annotation entity [msdyn_orderlinetransaction_Annotations](annotation.md#BKMK_msdyn_orderlinetransaction_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1867,6 +1878,7 @@ Same as annotation entity [msdyn_orderlinetransaction_Annotations](annotation.md
 ### <a name="BKMK_msdyn_msdyn_orderlinetransaction_msdyn_orderlinetransaction_Origin"></a> msdyn_msdyn_orderlinetransaction_msdyn_orderlinetransaction_Origin
 
 Same as msdyn_orderlinetransaction entity [msdyn_msdyn_orderlinetransaction_msdyn_orderlinetransaction_Origin](msdyn_orderlinetransaction.md#BKMK_msdyn_msdyn_orderlinetransaction_msdyn_orderlinetransaction_Origin) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderlinetransaction|

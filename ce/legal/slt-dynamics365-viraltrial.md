@@ -12,7 +12,7 @@ when:
 >   **(A)** an individual signs up for any Trial Service (as defined below) with
 >   an email address that has been provided by an organization by virtue of the
 >   individual’s relationship with the organization; or
-
+> 
 >   **(B)** an individual becomes a qualified administrator by proving ownership
 >   of the Internet domain associated with the email address used by an
 >   individual entering into this Agreement to sign up for any Trial Service

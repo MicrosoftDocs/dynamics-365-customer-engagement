@@ -70,19 +70,19 @@ In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]
 <a name="bkmk_step5"></a>   
 ### Step 5: Add P.O. receipt products  
   
-1.  Form the top menu, click the drop-down arrow next to the P.O. name that you created, and then click **Receipt Products**.  
+1. Form the top menu, click the drop-down arrow next to the P.O. name that you created, and then click **Receipt Products**.  
   
-2.  To show open P.O. products in the **Purchase Order Receipt Product**field, click **Show Purchase Order Products not fully received yet**.  
+2. To show open P.O. products in the **Purchase Order Receipt Product**field, click **Show Purchase Order Products not fully received yet**.  
   
- ![Show purchase order products not received in Dynamics 365 field service](../field-service/media/field-service-add-po-receipt-product.PNG "Show purchase order products not received in Dynamics 365 field service")  
+   ![Show purchase order products not received in Dynamics 365 field service](../field-service/media/field-service-add-po-receipt-product.PNG "Show purchase order products not received in Dynamics 365 field service")  
   
-3.  Click the area under the **Quantity** field and type in the quantity to be received  
+3. Click the area under the **Quantity** field and type in the quantity to be received  
   
- ![Purchase order receipt quantity in Dynamics 365 field service](../field-service/media/field-service-add-po-receipt-product-quantity.PNG "Purchase order receipt quantity in Dynamics 365 field service")  
+   ![Purchase order receipt quantity in Dynamics 365 field service](../field-service/media/field-service-add-po-receipt-product-quantity.PNG "Purchase order receipt quantity in Dynamics 365 field service")  
   
-4.  Click **Save**.  
+4. Click **Save**.  
   
-     If the product is an inventory item, then an inventory adjustment product record is created automatically when you receive the product. When inventory adjustment product records are created, inventory journals are automatically created, which drives your totalinventory count in the product inventory table.  
+    If the product is an inventory item, then an inventory adjustment product record is created automatically when you receive the product. When inventory adjustment product records are created, inventory journals are automatically created, which drives your totalinventory count in the product inventory table.  
   
 <a name="BKMK_step6"></a>   
 ### Step 6: Create P.O. bill  

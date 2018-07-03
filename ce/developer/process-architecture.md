@@ -42,19 +42,19 @@ This diagram shows the process architecture of [!INCLUDE[pn_dynamics_crm](../inc
   
 **Process Infrastructure**. The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] process infrastructure consists of the following components:  
   
--   Process entity model, which contains a set of classes that use the [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] object model and expose [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] workflow activities.  
+- Process entity model, which contains a set of classes that use the [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] object model and expose [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] workflow activities.  
   
--   Process business logic, which implements business logic for process-specific entities.  
+- Process business logic, which implements business logic for process-specific entities.  
   
--   Process execution, which provides workflow execution services, such as workflow hosting and persistence.  
+- Process execution, which provides workflow execution services, such as workflow hosting and persistence.  
   
 **Process Data**. The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] process programming model is supported by the following data:  
   
--   Business data, which contains information associated with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] entities.  
+- Business data, which contains information associated with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] entities.  
   
--   Process configuration data, which includes workflow process definitions, compiled workflow processes, and workflow process settings.  
+- Process configuration data, which includes workflow process definitions, compiled workflow processes, and workflow process settings.  
   
--   Process runtime data, which is required to execute workflow processes and implement workflow process features, such as persistence and notifications.  
+- Process runtime data, which is required to execute workflow processes and implement workflow process features, such as persistence and notifications.  
   
 <a name="UnifiedEventModel"></a>
 
@@ -76,11 +76,11 @@ The workflow life cycle is as follows:
   
 1. When you create a workflow, it is in the Draft state. You must activate the workflow before it can run. When you activate a workflow, it subscribes to specific [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] events. When these events are triggered in the platform, a snapshot of the workflow dependencies and input parameters are created and a new asynchronous operation is added to the asynchronous service queue manager. The asynchronous operation represents a workflow execution job and awaits execution in the queue in the Ready state.  
   
-1. When the asynchronous operation is processed, a workflow instance, associated with this operation, is created by the [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] run-time engine and the state of it is changed from Ready to Locked.  
+2. When the asynchronous operation is processed, a workflow instance, associated with this operation, is created by the [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] run-time engine and the state of it is changed from Ready to Locked.  
   
-1. The asynchronous operation is updated with the workflow instance state status on each transition. When the asynchronous operation is blocked, the [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] run-time engine puts the workflow instance into the Suspended state and removes it from memory. When the Suspended state conditions are satisfied, the workflow instance is loaded back into memory.  
+3. The asynchronous operation is updated with the workflow instance state status on each transition. When the asynchronous operation is blocked, the [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] run-time engine puts the workflow instance into the Suspended state and removes it from memory. When the Suspended state conditions are satisfied, the workflow instance is loaded back into memory.  
   
-1. The workflow execution resumes by putting the workflow instance into a Ready state and then into a Locked state. In the simple scenario, the workflow instance moves to a Completed state when all workflow activities have completed successfully.  
+4. The workflow execution resumes by putting the workflow instance into a Ready state and then into a Locked state. In the simple scenario, the workflow instance moves to a Completed state when all workflow activities have completed successfully.  
   
 The state of asynchronous operations can also be changed by the user. For example, an asynchronous operation that is in a Suspended state can explicitly be restarted by the user.  
   

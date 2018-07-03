@@ -530,6 +530,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_calendar_bookableresources"></a> calendar_bookableresources
 
 Same as bookableresource entity [calendar_bookableresources](bookableresource.md#BKMK_calendar_bookableresources) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresource|
@@ -544,6 +545,7 @@ Same as bookableresource entity [calendar_bookableresources](bookableresource.md
 ### <a name="BKMK_calendar_equipment"></a> calendar_equipment
 
 Same as equipment entity [calendar_equipment](equipment.md#BKMK_calendar_equipment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|equipment|
@@ -558,6 +560,7 @@ Same as equipment entity [calendar_equipment](equipment.md#BKMK_calendar_equipme
 ### <a name="BKMK_calendar_services"></a> calendar_services
 
 Same as service entity [calendar_services](service.md#BKMK_calendar_services) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|service|
@@ -572,6 +575,7 @@ Same as service entity [calendar_services](service.md#BKMK_calendar_services) Ma
 ### <a name="BKMK_calendar_system_users"></a> calendar_system_users
 
 Same as systemuser entity [calendar_system_users](systemuser.md#BKMK_calendar_system_users) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|systemuser|
@@ -586,6 +590,7 @@ Same as systemuser entity [calendar_system_users](systemuser.md#BKMK_calendar_sy
 ### <a name="BKMK_userentityinstancedata_calendar"></a> userentityinstancedata_calendar
 
 Same as userentityinstancedata entity [userentityinstancedata_calendar](userentityinstancedata.md#BKMK_userentityinstancedata_calendar) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -600,6 +605,7 @@ Same as userentityinstancedata entity [userentityinstancedata_calendar](userenti
 ### <a name="BKMK_Calendar_AsyncOperations"></a> Calendar_AsyncOperations
 
 Same as asyncoperation entity [Calendar_AsyncOperations](asyncoperation.md#BKMK_Calendar_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -614,6 +620,7 @@ Same as asyncoperation entity [Calendar_AsyncOperations](asyncoperation.md#BKMK_
 ### <a name="BKMK_Calendar_Annotation"></a> Calendar_Annotation
 
 Same as annotation entity [Calendar_Annotation](annotation.md#BKMK_Calendar_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -628,6 +635,7 @@ Same as annotation entity [Calendar_Annotation](annotation.md#BKMK_Calendar_Anno
 ### <a name="BKMK_calendar_customercalendar_holidaycalendar"></a> calendar_customercalendar_holidaycalendar
 
 Same as calendar entity [calendar_customercalendar_holidaycalendar](calendar.md#BKMK_calendar_customercalendar_holidaycalendar) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|calendar|
@@ -642,6 +650,7 @@ Same as calendar entity [calendar_customercalendar_holidaycalendar](calendar.md#
 ### <a name="BKMK_Calendar_BulkDeleteFailures"></a> Calendar_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Calendar_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Calendar_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -656,6 +665,7 @@ Same as bulkdeletefailure entity [Calendar_BulkDeleteFailures](bulkdeletefailure
 ### <a name="BKMK_BusinessUnit_Calendar"></a> BusinessUnit_Calendar
 
 Same as businessunit entity [BusinessUnit_Calendar](businessunit.md#BKMK_BusinessUnit_Calendar) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|businessunit|
@@ -670,6 +680,7 @@ Same as businessunit entity [BusinessUnit_Calendar](businessunit.md#BKMK_Busines
 ### <a name="BKMK_slabase_businesshoursid"></a> slabase_businesshoursid
 
 Same as sla entity [slabase_businesshoursid](sla.md#BKMK_slabase_businesshoursid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sla|
@@ -684,6 +695,7 @@ Same as sla entity [slabase_businesshoursid](sla.md#BKMK_slabase_businesshoursid
 ### <a name="BKMK_calendar_organization"></a> calendar_organization
 
 Same as organization entity [calendar_organization](organization.md#BKMK_calendar_organization) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|organization|

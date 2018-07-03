@@ -64,16 +64,17 @@ Although the portal is the primary source for creating or removing alerts. Forum
 
 The table below explains many of the Forum Alert attributes used by portals.
 
-| Name            | Description                                                                                                                           |
-|-----------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Subscriber      | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Contact record of the portal user that is to receive a notification when posts are created in the associated thread. |
-| Thread          | The forum thread that is being subscribed to notification of newly created posts.                                                     |
-| Expiration Date | The date and time when notifications should stop.                                                                                     |
-||
+
+|      Name       |                                                                                     Description                                                                                      |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   Subscriber    | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Contact record of the portal user that is to receive a notification when posts are created in the associated thread. |
+|     Thread      |                                                  The forum thread that is being subscribed to notification of newly created posts.                                                   |
+| Expiration Date |                                                                  The date and time when notifications should stop.                                                                   |
+|                 |                                                                                                                                                                                      |
 
 ### See also
 
-[Setup and moderate forums](setup-moderate-forums.md)  
+[Setup and manage forums](setup-manage-forums.md)  
 [Manage forum threads](manage-forum-threads.md)  
 [Create forum posts on the portal](create-forum-posts.md)  
 [Moderate forums](moderate-forums.md)  

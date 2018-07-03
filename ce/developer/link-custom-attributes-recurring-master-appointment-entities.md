@@ -35,13 +35,13 @@ You can link the custom attributes created for the `RecurringAppointmentMaster` 
   
 ### Link custom attributes  
   
-1.  Create a custom attribute for the appointment entity using the <xref:Microsoft.Xrm.Sdk.Messages.CreateAttributeRequest> class.  
+1. Create a custom attribute for the appointment entity using the <xref:Microsoft.Xrm.Sdk.Messages.CreateAttributeRequest> class.  
   
-2.  Create a custom attribute for the recurring appointment series (recurring appointment master) entity. While specifying the attribute metadata for the custom attribute, use the <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.LinkedAttributeId> property to link to the custom attribute that you created in step 1.  
+2. Create a custom attribute for the recurring appointment series (recurring appointment master) entity. While specifying the attribute metadata for the custom attribute, use the <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.LinkedAttributeId> property to link to the custom attribute that you created in step 1.  
   
-3.  Publish the changes to the solution.  
+3. Publish the changes to the solution.  
   
- For sample code, see [Sample: Link Custom Attributes between Series and Instances](sample-link-custom-attributes-between-series-instances.md).  
+   For sample code, see [Sample: Link Custom Attributes between Series and Instances](sample-link-custom-attributes-between-series-instances.md).  
   
 ### See also
 

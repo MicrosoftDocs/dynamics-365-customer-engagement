@@ -48,20 +48,20 @@ You can find your activities under **My Work**. Once there, click the **Activiti
 ## Change your activities view  
  You can view all of the activities assigned to you, or you can view only certain types of activities (for example only tasks, or only phone calls).  
   
--   Click the down arrow next to **My Activities**, and then select **All Activities**, or select the activity type you want (for example, **Email**).  
+- Click the down arrow next to **My Activities**, and then select **All Activities**, or select the activity type you want (for example, **Email**).  
   
- ![Shows all activities in Dynamics 365](../basics/media/crm-ua-basicsguide-actvities-view.png "Shows all activities in Dynamics 365")  
+  ![Shows all activities in Dynamics 365](../basics/media/crm-ua-basicsguide-actvities-view.png "Shows all activities in Dynamics 365")  
   
 <a name="Filter"></a>  
  
 ## Filter the list of activities  
  You can filter the list of activities to see only the ones you’re interested in. For example, filter the list to see closed activities, or to see activities assigned to other people on your team.  
   
-1.  Click the down arrow next to **My Activities** and then point to **All Activities** to include all the activity types, or point to the activity type you want (for example, **Email** or **Phone Call**).  
+1. Click the down arrow next to **My Activities** and then point to **All Activities** to include all the activity types, or point to the activity type you want (for example, **Email** or **Phone Call**).  
   
-2.  Click the right arrow on the drop-down list, and then select the view you want. The views that are available depend on the type of activity.  
+2. Click the right arrow on the drop-down list, and then select the view you want. The views that are available depend on the type of activity.  
   
- ![Shows all activities in Dynamics 365](../basics/media/crm-ua-basicsguide-activities-view-select.png "Shows all activities in Dynamics 365")  
+   ![Shows all activities in Dynamics 365](../basics/media/crm-ua-basicsguide-activities-view-select.png "Shows all activities in Dynamics 365")  
   
 <a name="New"></a>   
 
@@ -72,11 +72,11 @@ You can find your activities under **My Work**. Once there, click the **Activiti
 
 To add an activity for a customer:
   
-1.  Open the record.  You can use Quick Search on the navigation bar to find a record quickly.  
+1. Open the record.  You can use Quick Search on the navigation bar to find a record quickly.  
   
-2.  Click **Activities** to add a task or phone call to the record. Click **More (…)** to add an email or appointment. Or, click **Notes**, and then start typing.  
+2. Click **Activities** to add a task or phone call to the record. Click **More (…)** to add an email or appointment. Or, click **Notes**, and then start typing.  
   
- ![Add an activity](../basics/media/add-an-activity.png "Add an activity")  
+   ![Add an activity](../basics/media/add-an-activity.png "Add an activity")  
   
 <a name="Yourself"></a>
    
@@ -97,24 +97,24 @@ To add an activity for yourself:
 
 To attach a document:
   
-1.  Open the note or task.  
+1. Open the note or task.  
   
-2.  Click **Attach**. (For tasks, look in the **Notes** section. You might have to scroll down to see the **Attach** button.)  
+2. Click **Attach**. (For tasks, look in the **Notes** section. You might have to scroll down to see the **Attach** button.)  
   
-3.  Browse to and then click the file that you want to attach, and then click **Done**.  
+3. Browse to and then click the file that you want to attach, and then click **Done**.  
   
- ![Attach a document to an activity](../basics/media/attach-a-document-to-an-activity.png "Attach a document to an activity")  
+   ![Attach a document to an activity](../basics/media/attach-a-document-to-an-activity.png "Attach a document to an activity")  
   
 <a name="MarkOne"></a>   
 
 ## Mark an activity complete  
  After you call someone, complete a task, send an email, or go to an appointment, you can mark the Dynamics 365 activity for that action as completed.  
   
-1.   Open the activity.  
+1. Open the activity.  
   
-2.   On the command bar, click **Mark Complete**.  
+2. On the command bar, click **Mark Complete**.  
   
- ![Shows closed proposal in Dynamics 365](../basics/media/crm-ua-basicsguide-activities-closed.png "Shows closed proposal in Dynamics 365")  
+   ![Shows closed proposal in Dynamics 365](../basics/media/crm-ua-basicsguide-activities-closed.png "Shows closed proposal in Dynamics 365")  
   
 <a name="MarkSeveral"></a>   
 ## Mark several activities complete at the same time  
@@ -138,7 +138,7 @@ To attach a document:
   
      Use the **Create** command on the nav bar. Find these activities in the list by sorting on the **Regarding** column, which is blank to let you know that the activity isn’t associated with a customer record.  
   
- ![Find activities not associated with a customer](../basics/media/find-activities-not-associated-with-a-customer.png "Find activities not associated with a customer")  
+  ![Find activities not associated with a customer](../basics/media/find-activities-not-associated-with-a-customer.png "Find activities not associated with a customer")  
   
 - **Keep in mind that activities “roll up” under their associated records.** Let’s say you want to remind yourself to follow up with Chris Preston, a contact who’s associated with the account, Imported Sports. You’ll need to add the task activity to the contact record for Chris (not for the account, Imported Sports).  
   

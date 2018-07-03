@@ -26,39 +26,39 @@ To make reports available to users, publish the reports in [!INCLUDE[pn_dynamics
   
 ## Publish a report in Dynamics 365 by using the web application  
   
-1.  Create a new report or modify a report by using [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create Custom Reports Using Business Intelligence Development Studio](../analytics/create-a-new-report-using-sql-server-data-tools.md)  
+1. Create a new report or modify a report by using [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create Custom Reports Using Business Intelligence Development Studio](../analytics/create-a-new-report-using-sql-server-data-tools.md)  
   
-2.  Sign in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], and then go to **Sales** > **Reports**.  
+2. Sign in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], and then go to **Sales** > **Reports**.  
   
-3.  On the command bar, click **New**.  
+3. On the command bar, click **New**.  
   
-4.  In the **Report:New Report** dialog box, in the **Report Type** list, select **Existing File**, click **Browse**, and then specify the location of the .rdl file in the **File Location** box.  
+4. In the **Report:New Report** dialog box, in the **Report Type** list, select **Existing File**, click **Browse**, and then specify the location of the .rdl file in the **File Location** box.  
   
-5.  Emter appropriate data in the **Details** section of the **Report:New Report** dialog box.  
+5. Emter appropriate data in the **Details** section of the **Report:New Report** dialog box.  
   
-6.  Click **Save and Close**.  
+6. Click **Save and Close**.  
   
-     You can test the report by selecting it from the Available Reports list. To add the report to context-sensitive lists and forms in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], follow the steps in [Determine where the report will appear](../analytics/publish-reports.md#BKMK_reportappear).  
+    You can test the report by selecting it from the Available Reports list. To add the report to context-sensitive lists and forms in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], follow the steps in [Determine where the report will appear](../analytics/publish-reports.md#BKMK_reportappear).  
   
-    > [!TIP]
-    >  To update the report or to update the information that is displayed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], such as the description, in the Available Reports list, select the report, and then click **Edit** on the command bar.  
+   > [!TIP]
+   >  To update the report or to update the information that is displayed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], such as the description, in the Available Reports list, select the report, and then click **Edit** on the command bar.  
   
 <a name="BKMK_reportappear"></a>   
 ## Determine where the report will appear  
   
-1.  Select the report in the Reports view, and then click **Edit** on the command bar.  
+1. Select the report in the Reports view, and then click **Edit** on the command bar.  
   
-2.  In the **Report** dialog box, specify values in the **Categorization** section according to the following descriptions:  
+2. In the **Report** dialog box, specify values in the **Categorization** section according to the following descriptions:  
   
-    - **Categories**: Categorizes the report by its intended purpose. For example, a sales report can be included in context-sensitive lists and forms in the Sales area of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+   - **Categories**: Categorizes the report by its intended purpose. For example, a sales report can be included in context-sensitive lists and forms in the Sales area of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
-    - **Related Record Types**: Associates the report to specific entities, such as accounts or contacts.  
+   - **Related Record Types**: Associates the report to specific entities, such as accounts or contacts.  
   
-    - **Display In**: Allows the report to be displayed in context-sensitive forms and lists. You can restrict where the report is displayed. If you intend to publish a hidden report, clear the **Display In** check box.  
+   - **Display In**: Allows the report to be displayed in context-sensitive forms and lists. You can restrict where the report is displayed. If you intend to publish a hidden report, clear the **Display In** check box.  
   
-3.  Click **Save and Close**.  
+3. Click **Save and Close**.  
   
- By default, a report is uploaded as a user-owned report. To make the report visible to the whole organization, you can do either of the following when editing a report:  
+   By default, a report is uploaded as a user-owned report. To make the report visible to the whole organization, you can do either of the following when editing a report:  
   
 -   In the **Report** dialog box, click the **Administration** tab, and then in the **Viewable By** field, select **Individual**.  
   

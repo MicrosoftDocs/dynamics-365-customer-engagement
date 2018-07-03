@@ -25,9 +25,9 @@ To [publish or react to posts](publish-react-posts.md), you need active social p
 Data acquisition and acquisition of private messages from your social profiles require [access tokens](manage-access-tokens.md), and you need to explicitly allow data acquisition before you can view or interact with any posts. No posts are published on your profiles unless you decide to take action on a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 > [!IMPORTANT]
->  -   All social profiles are user-specific. You can interact only by using owned profiles or profiles that are shared with you. You must have an [interaction role](user-roles.md) of **Responder** or **Manager** to work with social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
->  -   A social profile can have multiple owners. Every owner has the same level of access privileges to the social profile. 
->  -   Make sure you have the correct credentials before you attempt to add a social profile or [claim ownership](#claim-ownership-of-a-social-profile) for an existing profile.  
+> - All social profiles are user-specific. You can interact only by using owned profiles or profiles that are shared with you. You must have an [interaction role](user-roles.md) of **Responder** or **Manager** to work with social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
+> - A social profile can have multiple owners. Every owner has the same level of access privileges to the social profile. 
+> - Make sure you have the correct credentials before you attempt to add a social profile or [claim ownership](#claim-ownership-of-a-social-profile) for an existing profile.  
 
 ## Types of social profiles you can manage
 
@@ -132,7 +132,7 @@ You can delete a social profile that you own. You can also delete a social profi
 
 4. Click **Confirm** to delete the profile.
 
-> [!NOTE]  
+> [!NOTE]
 > If you allowed data acquisition for private messages, all acquired private messages are hidden for all users but persist in the database. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Data retention in Social Engagement](data-retention-social-engagement.md)  
   
 ## Claim ownership of a social profile  

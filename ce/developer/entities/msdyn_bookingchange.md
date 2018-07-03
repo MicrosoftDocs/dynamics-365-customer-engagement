@@ -596,6 +596,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_bookingchange_SyncErrors"></a> msdyn_bookingchange_SyncErrors
 
 Same as syncerror entity [msdyn_bookingchange_SyncErrors](syncerror.md#BKMK_msdyn_bookingchange_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -610,6 +611,7 @@ Same as syncerror entity [msdyn_bookingchange_SyncErrors](syncerror.md#BKMK_msdy
 ### <a name="BKMK_msdyn_bookingchange_AsyncOperations"></a> msdyn_bookingchange_AsyncOperations
 
 Same as asyncoperation entity [msdyn_bookingchange_AsyncOperations](asyncoperation.md#BKMK_msdyn_bookingchange_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -624,6 +626,7 @@ Same as asyncoperation entity [msdyn_bookingchange_AsyncOperations](asyncoperati
 ### <a name="BKMK_msdyn_bookingchange_MailboxTrackingFolders"></a> msdyn_bookingchange_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_bookingchange_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_bookingchange_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -638,6 +641,7 @@ Same as mailboxtrackingfolder entity [msdyn_bookingchange_MailboxTrackingFolders
 ### <a name="BKMK_msdyn_bookingchange_UserEntityInstanceDatas"></a> msdyn_bookingchange_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_bookingchange_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_bookingchange_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -652,6 +656,7 @@ Same as userentityinstancedata entity [msdyn_bookingchange_UserEntityInstanceDat
 ### <a name="BKMK_msdyn_bookingchange_ProcessSession"></a> msdyn_bookingchange_ProcessSession
 
 Same as processsession entity [msdyn_bookingchange_ProcessSession](processsession.md#BKMK_msdyn_bookingchange_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -666,6 +671,7 @@ Same as processsession entity [msdyn_bookingchange_ProcessSession](processsessio
 ### <a name="BKMK_msdyn_bookingchange_BulkDeleteFailures"></a> msdyn_bookingchange_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_bookingchange_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_bookingchange_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -680,6 +686,7 @@ Same as bulkdeletefailure entity [msdyn_bookingchange_BulkDeleteFailures](bulkde
 ### <a name="BKMK_msdyn_bookingchange_PrincipalObjectAttributeAccesses"></a> msdyn_bookingchange_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_bookingchange_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_bookingchange_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

@@ -495,6 +495,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_messagepair_sdkmessagerequest"></a> messagepair_sdkmessagerequest
 
 Same as sdkmessagerequest entity [messagepair_sdkmessagerequest](sdkmessagerequest.md#BKMK_messagepair_sdkmessagerequest) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sdkmessagerequest|
@@ -509,6 +510,7 @@ Same as sdkmessagerequest entity [messagepair_sdkmessagerequest](sdkmessagereque
 ### <a name="BKMK_userentityinstancedata_sdkmessagepair"></a> userentityinstancedata_sdkmessagepair
 
 Same as userentityinstancedata entity [userentityinstancedata_sdkmessagepair](userentityinstancedata.md#BKMK_userentityinstancedata_sdkmessagepair) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

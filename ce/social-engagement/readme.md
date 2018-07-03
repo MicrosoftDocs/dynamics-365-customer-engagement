@@ -1,8 +1,8 @@
 ---
-title: "Social Engagement 2018 Update 1.5 Readme"
+title: "Social Engagement 2018 Update 1.6 Readme"
 description: "Important and late-breaking information about Microsoft Social Engagement"
 keywords: "readme, known issues, information"
-ms.date: 05/08/2018
+ms.date: 06/13/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -15,10 +15,10 @@ ms.custom:
   - dyn365-socialengagement
 ---
 
-# Social Engagement 2018 Update 1.5 Readme
+# Social Engagement 2018 Update 1.6 Readme
 
 This document provides important, late-breaking information about Microsoft
-Social Engagement 2018 Update 1.5. 
+Social Engagement 2018 Update 1.6. 
 
 ## Resources
 
@@ -143,6 +143,10 @@ authors.](https://docs.microsoft.com/dynamics365/customer-engagement/social-enga
 Instagram authors are currently listed as "Unknown Author" in Social Engagement. This is a temporary issue and will be fixed with one of the upcoming releases. 
 
 ## Search setup - known issues
+
+### Retweets not acquired if keyword is after the 140th character
+
+If a retweet is longer than 140 characters and the matching search term of a keyword rule appears after the 140th character, the retweet isn't acquired by the system.
 
 ### Deleted searches are counted in the quota total
 

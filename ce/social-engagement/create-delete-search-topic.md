@@ -23,27 +23,27 @@ It’s important to start with a clear idea of what kind of online information y
 >  This topic is part of a walkthrough on how you can set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](set-up-searches.md)  
   
 ## Create a search topic  
- > [!NOTE]
+> [!NOTE]
 > [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-social-listening-admin-power-analyst.md)] [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
   
-1.  Go to **Search Setup**.  
+1. Go to **Search Setup**.  
   
-2.  In the **Search Topics** pane, click **Add Search Topic** ![Add button](media/add-icon.png "Add button") to open the **New Search topic** page.  
+2. In the **Search Topics** pane, click **Add Search Topic** ![Add button](media/add-icon.png "Add button") to open the **New Search topic** page.  
   
-3.  Provide a name for your search topic in the **Name** text box and verify the category of your topic.  
+3. Provide a name for your search topic in the **Name** text box and verify the category of your topic.  
   
-    > [!NOTE]
-    >  You can add search topic names that contain up to 35 characters. The search topic names are only for your reference; they aren’t included in the actual search. Search topic names are like titles for your search topics so you can quickly relate to and use or reuse them.  
+   > [!NOTE]
+   >  You can add search topic names that contain up to 35 characters. The search topic names are only for your reference; they aren’t included in the actual search. Search topic names are like titles for your search topics so you can quickly relate to and use or reuse them.  
   
-4.  If you want another user to be the owner of this search topic, click **Edit Owner** ![Edit button](media/edit-icon.png "Edit button") next the search topic owner and enter the user name in the search box or click the name in the list below.  
+4. If you want another user to be the owner of this search topic, click **Edit Owner** ![Edit button](media/edit-icon.png "Edit button") next the search topic owner and enter the user name in the search box or click the name in the list below.  
   
-5.  Under **Rules**, click **Add Rule** ![Add button](media/add-icon.png "Add button") to open the **Add Rule** page.  
+5. Under **Rules**, click **Add Rule** ![Add button](media/add-icon.png "Add button") to open the **Add Rule** page.  
   
-6.  Select the rule type you want to create, and then provide the required information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find out what's covered by sources](sources-coverage.md)  
+6. Select the rule type you want to create, and then provide the required information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find out what's covered by sources](sources-coverage.md)  
   
-7.  Click **Continue** to estimate the number of results and see a preview of posts matching this rule.  
+7. Click **Continue** to estimate the number of results and see a preview of posts matching this rule.  
   
-8.  Add another search rule to your topic (optional).  
+8. Add another search rule to your topic (optional).  
   
 9. In the **Search Topics** pane, click **Save** ![Save button](media/save-icon.png "Save button") to store the search topic and start the data acquisition.  
   
@@ -86,18 +86,18 @@ Administrators in your organization can change the owner of a search topic to en
 > [!IMPORTANT]
 >  As an Administrator, you can delete search topics at any time. Power Analysts can only delete search topics they own.  
   
-1.  Go to **Search Setup**.  
+1. Go to **Search Setup**.  
   
-2.  In the list of search topics, click the **Delete** button ![Delete button](media/trashbin-icon.png "Delete button") by the topic you want to delete, and then confirm the deletion.  
+2. In the list of search topics, click the **Delete** button ![Delete button](media/trashbin-icon.png "Delete button") by the topic you want to delete, and then confirm the deletion.  
   
-    > [!NOTE]
-    >  Deleting a search topic has the following effects:  
-    >   
-    >  -  Data acquisition for the deleted topic stops immediately.  
-    > -   An automated email notification is sent to the user who created the search topic.  
-    > -   The search topic is no longer visible in the user interface.  
-    > -   Alerts and streams based on this topic are deactivated.  
-    > -   The quota will remain the same even if the search topic has been deleted. You need to add the keywords contained in a deleted topic to the Block Content so your deleted search topics will no longer affect the quota. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage your post quota](manage-post-quota.md)  
+   > [!NOTE]
+   >  Deleting a search topic has the following effects:  
+   > 
+   > - Data acquisition for the deleted topic stops immediately.  
+   >   - An automated email notification is sent to the user who created the search topic.  
+   >   - The search topic is no longer visible in the user interface.  
+   >   - Alerts and streams based on this topic are deactivated.  
+   >   - The quota will remain the same even if the search topic has been deleted. You need to add the keywords contained in a deleted topic to the Block Content so your deleted search topics will no longer affect the quota. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage your post quota](manage-post-quota.md)  
   
 ### Privacy notices  
  [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  

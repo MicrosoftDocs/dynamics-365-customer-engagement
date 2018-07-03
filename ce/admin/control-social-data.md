@@ -30,11 +30,11 @@ You can enable or disable your ability to receive social data in [!INCLUDE[pn_mi
   
 1. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
   
-2.  Choose **System Settings**.  
+2. Choose **System Settings**.  
   
-3.  Under **Disable Social Engagement**, select **Yes** to stop receiving social data in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. To receive data, select **No**.  
+3. Under **Disable Social Engagement**, select **Yes** to stop receiving social data in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. To receive data, select **No**.  
   
-4.  Choose **OK**.  
+4. Choose **OK**.  
   
 ### See also  
  [Connect to Microsoft Social Engagement](../admin/connect-microsoft-social-engagement.md)   

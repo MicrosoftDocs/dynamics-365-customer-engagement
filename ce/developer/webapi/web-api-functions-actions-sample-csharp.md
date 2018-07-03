@@ -20,46 +20,47 @@ ms.author: "jdaly"
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 This sample demonstrates how to call bound and unbound functions and actions, including custom actions, using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API.  
-  
+
 > [!NOTE]
 >  This sample implements the operations detailed in the [Web API Functions and Actions Sample](web-api-functions-actions-sample.md) and uses the common client-side C# constructs described in [Web API Samples (C#)](web-api-samples-csharp.md).  
- 
+
 <a name="bkmk_prerequisites"></a>
 
 ## Prerequisites
 
  Prerequisites for all Dynamics 365 Web API C# samples are detailed in the [Prerequisites](web-api-samples-csharp.md#bkmk_prerequisites) section of the parent topic [Web API Samples (C#)](web-api-samples-csharp.md).  
-  
+
 <a name="bkmk_runSample"></a>
- 
+
 ## Run this sample
 
  First go to [Microsoft CRM Web API Functions and Actions Sample (C#)](http://go.microsoft.com/fwlink/p/?LinkId=824047), download the sample archive file, Microsoft CRM Web API Functions and Actions Sample (CS).zip, and extract its contents into a local folder. This folder should contain the following files:  
-  
-|File|Purpose/Description|  
-|----------|--------------------------|  
-|Program.cs|Contains the primary source code for this sample.|  
-|App.config|The application configuration file, which contains placeholder Dynamics 365 server connection information.|  
-|Authentication.cs<br />Configuration.cs<br />Exceptions.cs|Located in the folder **Web API Helper Code**, these files comprise the supplemental library detailed in [Use the Dynamics 365 Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md).|  
-|FunctionsAndActions.sln <br />FunctionsAndActions.csproj <br />Packages.config <br />AssemblyInfo.cs|The standard [!INCLUDE[pn_microsoft_visual_studio_2015](../../includes/pn-microsoft-visual-studio-2015.md)] solution, project, NuGet package configuration, and assembly information files for this sample.|  
-|WebAPIFunctionsandActions_1_0_0_0_managed.zip|A custom managed solution containing two custom actions called by this sample.|  
-  
+
+
+|                                                 File                                                 |                                                                                                    Purpose/Description                                                                                                    |
+|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                              Program.cs                                              |                                                                                     Contains the primary source code for this sample.                                                                                     |
+|                                              App.config                                              |                                                        The application configuration file, which contains placeholder Dynamics 365 server connection information.                                                         |
+|                      Authentication.cs<br />Configuration.cs<br />Exceptions.cs                      | Located in the folder **Web API Helper Code**, these files comprise the supplemental library detailed in [Use the Dynamics 365 Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md). |
+| FunctionsAndActions.sln <br />FunctionsAndActions.csproj <br />Packages.config <br />AssemblyInfo.cs |        The standard [!INCLUDE[pn_microsoft_visual_studio_2015](../../includes/pn-microsoft-visual-studio-2015.md)] solution, project, NuGet package configuration, and assembly information files for this sample.        |
+|                            WebAPIFunctionsandActions_1_0_0_0_managed.zip                             |                                                                      A custom managed solution containing two custom actions called by this sample.                                                                       |
+
  Next, use the following procedure to run this sample.  
-  
-1.  Locate and double-click on the solution file, FunctionsAndActions.sln, to load the solution into [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)]. Build the **FunctionsAndActions** solution.  This should automatically download and install all the required NuGet packages that are either missing or need to be updated.  
-  
-2.  Edit the application configuration file, App.config, to specify connection information for your Dynamics 365 server.  For more information, see [Helper code: Configuration classes](web-api-helper-code-configuration-classes.md).  
-  
-3.  Run the **FunctionsAndActions** project from within [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].  All sample solutions are configured to run in debug mode by default.  
-  
+
+1. Locate and double-click on the solution file, FunctionsAndActions.sln, to load the solution into [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)]. Build the **FunctionsAndActions** solution.  This should automatically download and install all the required NuGet packages that are either missing or need to be updated.  
+
+2. Edit the application configuration file, App.config, to specify connection information for your Dynamics 365 server.  For more information, see [Helper code: Configuration classes](web-api-helper-code-configuration-classes.md).  
+
+3. Run the **FunctionsAndActions** project from within [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].  All sample solutions are configured to run in debug mode by default.  
+
 <a name="bkmk_codeListing"></a>   
 ## Code listing  
  The most current source for this file  is found in sample download package.  
-  
+
  `Program.cs`  
-  
+
 ```csharp  
-  
+
 using Microsoft.Crm.Sdk.Samples.HelperCode;  
 using Newtonsoft.Json;  
 using Newtonsoft.Json.Linq;  
@@ -72,7 +73,7 @@ using System.Net.Http.Headers;
 using System.Threading.Tasks;  
 using System.Linq;  
 using System.Net;  
-  
+
 namespace Microsoft.Crm.Sdk.Samples  
 {  
     /// <summary> This program demonstrates calling bound and unbound  
@@ -109,13 +110,13 @@ namespace Microsoft.Crm.Sdk.Samples
         //Objects associated with created URIs, where required.  
         JObject contact1;  
         Guid myUserId;  //CRM User ID for current user.  
-  
+
         /// <summary> Principal sample code that demonstrates calling bound and unbound functions   
         ///  and actions.</summary>  
         public async Task RunAsync()  
         {  
             HttpResponseMessage response = null;  
-  
+
             #region Call an unbound function with no parameters.  
             //Retrieve the current user's full name from the WhoAmI function:  
             // https://msdn.microsoft.com/library/mt607925.aspx, which returns a WhoAmIResponse   
@@ -147,7 +148,7 @@ namespace Microsoft.Crm.Sdk.Samples
             }  
             Console.WriteLine("\tCurrent user has system name '{0}'.", currentUser);  
             #endregion Call an unbound function with no parameters.  
-  
+
             #region Call an unbound function that requires parameters.  
             //Retrieve the time zone code for the specified time zone, using the GetTimeZoneCodeByLocalizedName   
             //function: https://msdn.microsoft.com/library/mt607644.aspx, which returns a GetTimeZoneCodeBy-  
@@ -180,7 +181,7 @@ namespace Microsoft.Crm.Sdk.Samples
             timeZoneCode = LocalizedNameResponse["TimeZoneCode"].ToString();  
             Console.WriteLine("\tThe time zone '{0}' has the code '{1}'.", timeZoneName, timeZoneCode);  
             #endregion Call an unbound function that requires parameters.  
-  
+
             #region Call a bound function.      
             //Retrieve the total time, in minutes, spent on all tasks associated with an incident.  
             //Uses the CalculateTotalTimeIncident function: https://msdn.microsoft.com/library/mt593054.aspx,   
@@ -204,7 +205,7 @@ namespace Microsoft.Crm.Sdk.Samples
             Console.WriteLine("\tThe total duration of tasks associated with the incident " +  
                 "is {0} minutes.", totalTime);  
             #endregion Call a bound function.      
-  
+
             #region Call an unbound action that requires parameters.  
             //Close an opportunity and marks it as won. Uses the WinOpportunity action:   
             //https://msdn.microsoft.com/library/mt607971.aspx,   
@@ -226,7 +227,7 @@ namespace Microsoft.Crm.Sdk.Samples
             }  
             Console.WriteLine("\tOpportunity won.");  
             #endregion Call an unbound action that requires parameters.  
-  
+
             #region Call a bound action that requires parameters.  
             //Add a new letter tracking activity to the current user's queue. Uses the AddToQueue   
             //action: https://msdn.microsoft.com/library/mt607880.aspx, which is bound to the queue   
@@ -249,7 +250,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 Console.WriteLine("Error creating tracking letter!");  
                 throw new CrmHttpResponseException(response.Content);  
             }  
-  
+
             //Retrieve the ID associated with this new letter tracking activity.  
             string letterActivityId;  
             response = await httpClient.GetAsync(letterUri + "?$select=activityid",  
@@ -265,7 +266,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 Console.WriteLine("Error retrieving tracking letter activity ID!");  
                 throw new CrmHttpResponseException(response.Content);  
             }  
-  
+
             //Retrieve URL to current user's queue.  
             string myQueueUri;  
             response = await httpClient.GetAsync("systemusers(" + myUserId + ")/queueid/$ref",  
@@ -281,7 +282,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 Console.WriteLine("Error retrieving current user queue URL!");  
                 throw new CrmHttpResponseException(response.Content);  
             }  
-  
+
             //Add letter activity to current user's queue, then return its queue ID.  
             JObject addToQueueParams = new JObject();  
             addToQueueParams["Target"] = JObject.Parse(  
@@ -301,7 +302,7 @@ namespace Microsoft.Crm.Sdk.Samples
             }  
             Console.WriteLine("\tQueueItemId returned from AddToQueue action: {0}", queueItemId);  
             #endregion Call a bound action that requires parameters.  
-  
+
             //Attempt to load the associated managed solution so that we can call its custom actions.   
             await InstallCustomSolutionAsync(true);  
             if (customSolutionID == null)  
@@ -309,7 +310,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 Console.WriteLine("Failed to install custom solution, so custom operations cannot be called.");  
                 return;  
             }  
-  
+
             #region Call a bound custom action that requires parameters.  
             //Add a note to a specified contact. Uses the custom action sample_AddNoteToContact, which  
             //is bound to the contact to annotate, and takes a single param, the note to add. It also    
@@ -336,7 +337,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 note1["NoteTitle"], note1["NoteText"],  
                 contact1["firstname"] + " '" + contact1["lastname"] + "'");  
             #endregion Call a bound custom action that requires parameters.  
-  
+
             #region Call an unbound custom action that requires parameters.  
             //Create a customer of the specified type, using the custom action sample_CreateCustomer,  
             //which takes two prams: the type of customer ('account' or 'contact') and the name of   
@@ -353,7 +354,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 throw new CrmHttpResponseException(response.Content);  
             }  
             Console.WriteLine("\tThe account '" + customerName1 + "' was created.");  
-  
+
             //Try to call the same custom action with invalid parameters, here the same name is  
             //not valid for a contact. (ContactFirstname and ContactLastName parameters are    
             //required when CustomerType is contact.)  
@@ -370,7 +371,7 @@ namespace Microsoft.Crm.Sdk.Samples
             }  
             #endregion Call an unbound custom action that requires parameters.  
         }  
-  
+
         /// <summary> Retrieves the solution ID associated with a solution name </summary>  
         /// <param name="solutionName">Unique name of the solution (uniquename)</param>  
         /// <returns>The solutionid property for this solution if found; otherwise null.</returns>  
@@ -395,7 +396,7 @@ namespace Microsoft.Crm.Sdk.Samples
             { throw new CrmHttpResponseException(response.Content); }  
             return solutionID;  
         }  
-  
+
         /// <summary> Installs (or uninstalls) the custom, managed solution associated with   
         /// this sample </summary>  
         /// <remarks>Uses the ImportSolution action: https://msdn.microsoft.com/library/mt608117.aspx  
@@ -407,7 +408,7 @@ namespace Microsoft.Crm.Sdk.Samples
             HttpResponseMessage response;  
             //Check first if the solution is already installed by retrieving its ID.  
             customSolutionID = await GetSolutionIDAsync(customSolutionName);  
-  
+
             //Request to install and solution is not already present  
             if (install == true && customSolutionID == null)  
             {  
@@ -443,7 +444,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 customSolutionID = null;  
             }  
         }  
-  
+
         static void Main(string[] args)  
         {  
             FunctionsAndActions app = new FunctionsAndActions();  
@@ -461,14 +462,14 @@ namespace Microsoft.Crm.Sdk.Samples
                 if (app.httpClient != null)  
                 {  
                     app.DeleteRequiredRecords(true);  
-  
+
                     app.httpClient.Dispose();  
                 }  
                 Console.WriteLine("Press <Enter> to exit the program.");  
                 Console.ReadLine();  
             }  
         }  
-  
+
         /// <summary>  
         /// Obtains the connection information from the application's configuration file, then   
         /// uses this info to connect to the specified CRM service.  
@@ -497,7 +498,7 @@ namespace Microsoft.Crm.Sdk.Samples
             httpClient.DefaultRequestHeaders.Accept.Add(  
                 new MediaTypeWithQualityHeaderValue("application/json"));  
         }  
-  
+
         /// <summary> Creates the CRM entity instances used by this sample. </summary>  
         private void CreateRequiredRecords()  
         {  
@@ -515,7 +516,7 @@ namespace Microsoft.Crm.Sdk.Samples
             }  
             else  
             { throw new CrmHttpResponseException(response.Content); }  
-  
+
             JArray tasks = new JArray(new JObject[]  
             {  
                 JObject.Parse(@"{subject: 'Task 1', actualdurationminutes: 30}"),  
@@ -555,7 +556,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 if (!response.IsSuccessStatusCode)  
                 { throw new CrmHttpResponseException(response.Content); }  
             }  
-  
+
             //Create another account and associated opportunity (required for CloseOpportunityAsWon).  
             JObject account2 = new JObject();  
             string account2Uri;  
@@ -581,7 +582,7 @@ namespace Microsoft.Crm.Sdk.Samples
             }  
             else  
             { throw new CrmHttpResponseException(response.Content); }  
-  
+
             //Create a contact to use with custom action sample_AddNoteToContact   
             contact1 = JObject.Parse(@"{firstname: 'Jon', lastname: 'Fogg'}");  
             response = SendAsJsonAsync(httpClient, HttpMethod.Post, "contacts", contact1).Result;  
@@ -593,7 +594,7 @@ namespace Microsoft.Crm.Sdk.Samples
             else  
             { throw new CrmHttpResponseException(response.Content); }  
         }  
-  
+
         /// <summary> Deletes the CRM entity instance sample data created by this sample. </summary>  
         /// <param name="prompt">True to prompt the user for confirmation and display results;   
         ///   otherwise False to execute silently.</param>  
@@ -636,7 +637,7 @@ namespace Microsoft.Crm.Sdk.Samples
             { Console.WriteLine("Deleted {0} records!", successCnt); }  
             return successCnt;  
         }  
-  
+
         /// <summary> Sends an HTTP message containing a JSON payload to the target URL. </summary>  
         /// <typeparam name="T">Type of the data to send in the message content (payload)</typeparam>  
         /// <param name="client">A preconfigured HTTP client</param>  
@@ -661,7 +662,7 @@ namespace Microsoft.Crm.Sdk.Samples
             request.Content.Headers.ContentType = MediaTypeHeaderValue.Parse("application/json");  
             return await client.SendAsync(request);  
         }  
-  
+
         /// <summary> Helper method to display caught exceptions </summary>  
         private static void DisplayException(Exception ex)  
         {  
@@ -673,11 +674,11 @@ namespace Microsoft.Crm.Sdk.Samples
                 ex = ex.InnerException;  
             }  
         }  
-  
+
     }  
 }  
 ```  
-  
+
 ### See also
 
  [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   

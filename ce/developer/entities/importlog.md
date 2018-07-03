@@ -791,6 +791,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_importlog"></a> userentityinstancedata_importlog
 
 Same as userentityinstancedata entity [userentityinstancedata_importlog](userentityinstancedata.md#BKMK_userentityinstancedata_importlog) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -805,6 +806,7 @@ Same as userentityinstancedata entity [userentityinstancedata_importlog](userent
 ### <a name="BKMK_ImportLog_BulkDeleteFailures"></a> ImportLog_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [ImportLog_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ImportLog_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -819,6 +821,7 @@ Same as bulkdeletefailure entity [ImportLog_BulkDeleteFailures](bulkdeletefailur
 ### <a name="BKMK_ImportLog_AsyncOperations"></a> ImportLog_AsyncOperations
 
 Same as asyncoperation entity [ImportLog_AsyncOperations](asyncoperation.md#BKMK_ImportLog_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|

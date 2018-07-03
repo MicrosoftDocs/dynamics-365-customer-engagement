@@ -24,25 +24,25 @@ Add a **Knowledge Base Search** control to [!INCLUDE[pn_dynamics_crm](../include
   
  You can configure the Knowledge Base Search control to:  
   
--   Show automatic suggestions in search results based on certain fields, or based on text analytics. The text analytics feature in only available for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+- Show automatic suggestions in search results based on certain fields, or based on text analytics. The text analytics feature in only available for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
--   Define filters that users can use on search results.  
+- Define filters that users can use on search results.  
   
--   Choose from a set of predefined contextual actions the users can take on an article  
+- Choose from a set of predefined contextual actions the users can take on an article  
   
--   Add the control on any section of any entity that is enabled for knowledge management, including the timeline, and also in custom entities. The control is added by default to the case form of type **Main**. The control can be added to other Main forms also.  
+- Add the control on any section of any entity that is enabled for knowledge management, including the timeline, and also in custom entities. The control is added by default to the case form of type **Main**. The control can be added to other Main forms also.  
   
-    > [!NOTE]
-    >  The Knowledge Base Search control can be used on Microsoft Dynamics 365 for tablets and phones. However, some actions like Pop Out, Email Link, and Email Content aren't supported.  
+  > [!NOTE]
+  >  The Knowledge Base Search control can be used on Microsoft Dynamics 365 for tablets and phones. However, some actions like Pop Out, Email Link, and Email Content aren't supported.  
 
 Microsoft Dynamics 365 supports the native Dynamics 365 knowledge management. This option is available for Dynamics 365 online users.
   
 ## Prerequisites  
  Before you add the Knowledge Base Search control, make sure to:  
   
--   Set up knowledge management in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up knowledge management](set-up-knowledge-management.md)
+- Set up knowledge management in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up knowledge management](set-up-knowledge-management.md)
   
--   Select the entity you want to enable knowledge management on while setting up knowledge management.  
+- Select the entity you want to enable knowledge management on while setting up knowledge management.  
 
 > [!NOTE]
 > All customization tasks for the Customer Service Hub must be done in the Microsoft Dynamics 365 web application.
@@ -53,27 +53,27 @@ Microsoft Dynamics 365 supports the native Dynamics 365 knowledge management. Th
   
 2. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-3.  Choose **Customize the System**.  
+3. Choose **Customize the System**.  
   
-4.  In the solution explorer, choose the entity you want to add the search control to, and under **Communication & Collaboration**, make sure the **Knowledge Management** check box is selected.  
+4. In the solution explorer, choose the entity you want to add the search control to, and under **Communication & Collaboration**, make sure the **Knowledge Management** check box is selected.  
   
-    ![Setting to enable knowledge management](media/check-knowledge-management.png "Setting to enable knowledge management")
+   ![Setting to enable knowledge management](media/check-knowledge-management.png "Setting to enable knowledge management")
 
-    Select **Save** icon to save the setting for the entity.
+   Select **Save** icon to save the setting for the entity.
   
-5.  Expand the entity you’re adding the search control to, and select **Forms**.  
+5. Expand the entity you’re adding the search control to, and select **Forms**.  
   
-6.  Choose the entity form of type **Main**.  
+6. Choose the entity form of type **Main**.  
   
-    ![Choose form type](media/choose-form-type-km.png "Choose form type")
+   ![Choose form type](media/choose-form-type-km.png "Choose form type")
   
-7.  Select the area where you want to place the search control, and on the **Insert** tab, select **Knowledge Base Search**.  
+7. Select the area where you want to place the search control, and on the **Insert** tab, select **Knowledge Base Search**.  
   
-     If the option to add Knowledge Base Search is disabled, it could be because knowledge management isn’t set up or isn’t enabled for the entity you’re adding the search control to.  
+    If the option to add Knowledge Base Search is disabled, it could be because knowledge management isn’t set up or isn’t enabled for the entity you’re adding the search control to.  
   
-8.  In the **Set Properties** dialog box, on the **Display** tab, specify fields as given in the table below:
+8. In the **Set Properties** dialog box, on the **Display** tab, specify fields as given in the table below:
   
-    ![Set properties for Knowledge Base Search control](media/km-search-control-tab.png "Set properties for Knowledge Base Search control") 
+   ![Set properties for Knowledge Base Search control](media/km-search-control-tab.png "Set properties for Knowledge Base Search control") 
 
 9. Select **Set** to apply the settings.   
     

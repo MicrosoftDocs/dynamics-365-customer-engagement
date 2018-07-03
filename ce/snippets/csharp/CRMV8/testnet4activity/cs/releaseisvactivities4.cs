@@ -103,7 +103,7 @@
 
          //Check to see if the credit score should be saved to the entity
          //If the value of the property has not been set or it is set to true
-         if (null != this.UpdateEntity &amp;&amp; this.UpdateEntity.Get(executionContext))
+         if (null != this.UpdateEntity && this.UpdateEntity.Get(executionContext))
          {
              //Create the entity
              Entity updateEntity = new Entity(loanApplication.LogicalName);

@@ -40,11 +40,11 @@ We’re introducing [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integratio
   
 > [!NOTE]
 > [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] is a Preview feature. [!INCLUDE[cc_preview_feature](../includes/cc-preview-feature.md)]  
->   
+> 
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
->   
+> 
 > [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
->   
+> 
 >  This Preview feature was introduced in [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)].  
  
 ## Privacy notice  

@@ -1,7 +1,7 @@
 ---
 title: "Use Outlook category to track appointments and emails with Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 05/04/2018
+ms.date: 06/11/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -32,9 +32,6 @@ To enable the special **Tracked to Dynamics 365** Outlook category, you need to 
 3. Enabling the OrgDBOrgSetting will create the category **Tracked to Dynamics 365** on all Exchange mailboxes of the Dynamics 365 organization which have server-side synchronization enabled in about 15 minutes.
 
 You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releases/) to edit the OrgDBOrgSetting **TrackCategorizedItems**.
-
-### Known issue
-Category-based tracking is currently available for organizations on Dynamics 365 (online) version 8.2 and Exchange Online. We are aware of an issue with Exchange Server on-premises configuration. We are working on fixing this issue and support for configurations with Exchange Server on-premises will be available soon.
 
 > [!NOTE]
 > Once the category **Tracked to Dynamics 365** is created, it can be renamed without losing the associated tracking capability. If you delete the category, server-side synchronization will attempt to recreate the category in about 15 minutes.

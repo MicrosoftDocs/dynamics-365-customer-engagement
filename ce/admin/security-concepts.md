@@ -54,11 +54,11 @@ You combine business units, role-based security, record-based security, and fiel
   
 **Access mode**. This setting determines the level of access for each user.  
   
--   Read-Write access. By default, users have Read-Write access that allows them access to data for which they have appropriate permission set by security roles.  
+- Read-Write access. By default, users have Read-Write access that allows them access to data for which they have appropriate permission set by security roles.  
   
--   Administrative access. Allows access to areas that the user has appropriate permission set by security roles but doesn’t allow the user to view or access business data typically found in the Sales, Service, and Marketing areas, such as accounts, contacts, leads, opportunities, campaigns, and cases. For example, Administrative access can be used to create [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrators who can have access to perform a complete variety of administrative tasks, such as create business units, create users, set duplicate detection, but cannot view or access any business data. Notice that users who are assigned this access mode do not consume a CAL.  
+- Administrative access. Allows access to areas that the user has appropriate permission set by security roles but doesn’t allow the user to view or access business data typically found in the Sales, Service, and Marketing areas, such as accounts, contacts, leads, opportunities, campaigns, and cases. For example, Administrative access can be used to create [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrators who can have access to perform a complete variety of administrative tasks, such as create business units, create users, set duplicate detection, but cannot view or access any business data. Notice that users who are assigned this access mode do not consume a CAL.  
   
--   Read access. Allows access to areas for which the user has appropriate access set by security role but the user with Read access can only view data and can’t create or change existing data. For example, a user with the system administrator security role who has read access can view business units, users, and teams but can’t create or modify those records.  
+- Read access. Allows access to areas for which the user has appropriate access set by security role but the user with Read access can only view data and can’t create or change existing data. For example, a user with the system administrator security role who has read access can view business units, users, and teams but can’t create or modify those records.  
   
 **License type**. This sets the user CAL and determines what features and areas are available to the user. This feature and area control is separate from the user’s security role setting. By default, users are created with Professional CAL for the most feature and area access that they have permission granted.  
   

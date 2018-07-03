@@ -1586,6 +1586,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_opportunitylinetransaction_SyncErrors"></a> msdyn_opportunitylinetransaction_SyncErrors
 
 Same as syncerror entity [msdyn_opportunitylinetransaction_SyncErrors](syncerror.md#BKMK_msdyn_opportunitylinetransaction_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1600,6 +1601,7 @@ Same as syncerror entity [msdyn_opportunitylinetransaction_SyncErrors](syncerror
 ### <a name="BKMK_msdyn_opportunitylinetransaction_DuplicateMatchingRecord"></a> msdyn_opportunitylinetransaction_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_opportunitylinetransaction_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_opportunitylinetransaction_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1614,6 +1616,7 @@ Same as duplicaterecord entity [msdyn_opportunitylinetransaction_DuplicateMatchi
 ### <a name="BKMK_msdyn_opportunitylinetransaction_DuplicateBaseRecord"></a> msdyn_opportunitylinetransaction_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_opportunitylinetransaction_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_opportunitylinetransaction_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1628,6 +1631,7 @@ Same as duplicaterecord entity [msdyn_opportunitylinetransaction_DuplicateBaseRe
 ### <a name="BKMK_msdyn_opportunitylinetransaction_AsyncOperations"></a> msdyn_opportunitylinetransaction_AsyncOperations
 
 Same as asyncoperation entity [msdyn_opportunitylinetransaction_AsyncOperations](asyncoperation.md#BKMK_msdyn_opportunitylinetransaction_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1642,6 +1646,7 @@ Same as asyncoperation entity [msdyn_opportunitylinetransaction_AsyncOperations]
 ### <a name="BKMK_msdyn_opportunitylinetransaction_MailboxTrackingFolders"></a> msdyn_opportunitylinetransaction_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_opportunitylinetransaction_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_opportunitylinetransaction_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1656,6 +1661,7 @@ Same as mailboxtrackingfolder entity [msdyn_opportunitylinetransaction_MailboxTr
 ### <a name="BKMK_msdyn_opportunitylinetransaction_UserEntityInstanceDatas"></a> msdyn_opportunitylinetransaction_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_opportunitylinetransaction_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_opportunitylinetransaction_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1670,6 +1676,7 @@ Same as userentityinstancedata entity [msdyn_opportunitylinetransaction_UserEnti
 ### <a name="BKMK_msdyn_opportunitylinetransaction_ProcessSession"></a> msdyn_opportunitylinetransaction_ProcessSession
 
 Same as processsession entity [msdyn_opportunitylinetransaction_ProcessSession](processsession.md#BKMK_msdyn_opportunitylinetransaction_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1684,6 +1691,7 @@ Same as processsession entity [msdyn_opportunitylinetransaction_ProcessSession](
 ### <a name="BKMK_msdyn_opportunitylinetransaction_BulkDeleteFailures"></a> msdyn_opportunitylinetransaction_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_opportunitylinetransaction_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_opportunitylinetransaction_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1698,6 +1706,7 @@ Same as bulkdeletefailure entity [msdyn_opportunitylinetransaction_BulkDeleteFai
 ### <a name="BKMK_msdyn_opportunitylinetransaction_PrincipalObjectAttributeAccesses"></a> msdyn_opportunitylinetransaction_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_opportunitylinetransaction_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_opportunitylinetransaction_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1712,6 +1721,7 @@ Same as principalobjectattributeaccess entity [msdyn_opportunitylinetransaction_
 ### <a name="BKMK_msdyn_opportunitylinetransaction_Annotations"></a> msdyn_opportunitylinetransaction_Annotations
 
 Same as annotation entity [msdyn_opportunitylinetransaction_Annotations](annotation.md#BKMK_msdyn_opportunitylinetransaction_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|

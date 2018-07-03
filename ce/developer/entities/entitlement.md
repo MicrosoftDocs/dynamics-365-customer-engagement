@@ -1143,6 +1143,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_entitlement_ActivityPointers"></a> entitlement_ActivityPointers
 
 Same as activitypointer entity [entitlement_ActivityPointers](activitypointer.md#BKMK_entitlement_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -1157,6 +1158,7 @@ Same as activitypointer entity [entitlement_ActivityPointers](activitypointer.md
 ### <a name="BKMK_Entitlement_SyncErrors"></a> Entitlement_SyncErrors
 
 Same as syncerror entity [Entitlement_SyncErrors](syncerror.md#BKMK_Entitlement_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1171,6 +1173,7 @@ Same as syncerror entity [Entitlement_SyncErrors](syncerror.md#BKMK_Entitlement_
 ### <a name="BKMK_entitlement_ActivityParties"></a> entitlement_ActivityParties
 
 Same as activityparty entity [entitlement_ActivityParties](activityparty.md#BKMK_entitlement_ActivityParties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1185,6 +1188,7 @@ Same as activityparty entity [entitlement_ActivityParties](activityparty.md#BKMK
 ### <a name="BKMK_entitlement_AsyncOperations"></a> entitlement_AsyncOperations
 
 Same as asyncoperation entity [entitlement_AsyncOperations](asyncoperation.md#BKMK_entitlement_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1199,6 +1203,7 @@ Same as asyncoperation entity [entitlement_AsyncOperations](asyncoperation.md#BK
 ### <a name="BKMK_Entitlement_MailboxTrackingFolder"></a> Entitlement_MailboxTrackingFolder
 
 Same as mailboxtrackingfolder entity [Entitlement_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_Entitlement_MailboxTrackingFolder) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1213,6 +1218,7 @@ Same as mailboxtrackingfolder entity [Entitlement_MailboxTrackingFolder](mailbox
 ### <a name="BKMK_entitlement_UserEntityInstanceDatas"></a> entitlement_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [entitlement_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_entitlement_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1227,6 +1233,7 @@ Same as userentityinstancedata entity [entitlement_UserEntityInstanceDatas](user
 ### <a name="BKMK_entitlement_ProcessSession"></a> entitlement_ProcessSession
 
 Same as processsession entity [entitlement_ProcessSession](processsession.md#BKMK_entitlement_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1241,6 +1248,7 @@ Same as processsession entity [entitlement_ProcessSession](processsession.md#BKM
 ### <a name="BKMK_entitlement_BulkDeleteFailures"></a> entitlement_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [entitlement_BulkDeleteFailures](bulkdeletefailure.md#BKMK_entitlement_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1255,6 +1263,7 @@ Same as bulkdeletefailure entity [entitlement_BulkDeleteFailures](bulkdeletefail
 ### <a name="BKMK_entitlement_PrincipalObjectAttributeAccesses"></a> entitlement_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [entitlement_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_entitlement_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1269,6 +1278,7 @@ Same as principalobjectattributeaccess entity [entitlement_PrincipalObjectAttrib
 ### <a name="BKMK_entitlement_Appointments"></a> entitlement_Appointments
 
 Same as appointment entity [entitlement_Appointments](appointment.md#BKMK_entitlement_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -1283,6 +1293,7 @@ Same as appointment entity [entitlement_Appointments](appointment.md#BKMK_entitl
 ### <a name="BKMK_entitlement_Emails"></a> entitlement_Emails
 
 Same as email entity [entitlement_Emails](email.md#BKMK_entitlement_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -1297,6 +1308,7 @@ Same as email entity [entitlement_Emails](email.md#BKMK_entitlement_Emails) Many
 ### <a name="BKMK_entitlement_Faxes"></a> entitlement_Faxes
 
 Same as fax entity [entitlement_Faxes](fax.md#BKMK_entitlement_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -1311,6 +1323,7 @@ Same as fax entity [entitlement_Faxes](fax.md#BKMK_entitlement_Faxes) Many-To-On
 ### <a name="BKMK_entitlement_Letters"></a> entitlement_Letters
 
 Same as letter entity [entitlement_Letters](letter.md#BKMK_entitlement_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -1325,6 +1338,7 @@ Same as letter entity [entitlement_Letters](letter.md#BKMK_entitlement_Letters) 
 ### <a name="BKMK_entitlement_PhoneCalls"></a> entitlement_PhoneCalls
 
 Same as phonecall entity [entitlement_PhoneCalls](phonecall.md#BKMK_entitlement_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -1339,6 +1353,7 @@ Same as phonecall entity [entitlement_PhoneCalls](phonecall.md#BKMK_entitlement_
 ### <a name="BKMK_entitlement_Tasks"></a> entitlement_Tasks
 
 Same as task entity [entitlement_Tasks](task.md#BKMK_entitlement_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -1353,6 +1368,7 @@ Same as task entity [entitlement_Tasks](task.md#BKMK_entitlement_Tasks) Many-To-
 ### <a name="BKMK_entitlement_RecurringAppointmentMasters"></a> entitlement_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [entitlement_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_entitlement_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -1367,6 +1383,7 @@ Same as recurringappointmentmaster entity [entitlement_RecurringAppointmentMaste
 ### <a name="BKMK_entitlement_SocialActivities"></a> entitlement_SocialActivities
 
 Same as socialactivity entity [entitlement_SocialActivities](socialactivity.md#BKMK_entitlement_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -1381,6 +1398,7 @@ Same as socialactivity entity [entitlement_SocialActivities](socialactivity.md#B
 ### <a name="BKMK_entitlement_connections1"></a> entitlement_connections1
 
 Same as connection entity [entitlement_connections1](connection.md#BKMK_entitlement_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1395,6 +1413,7 @@ Same as connection entity [entitlement_connections1](connection.md#BKMK_entitlem
 ### <a name="BKMK_entitlement_connections2"></a> entitlement_connections2
 
 Same as connection entity [entitlement_connections2](connection.md#BKMK_entitlement_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1409,6 +1428,7 @@ Same as connection entity [entitlement_connections2](connection.md#BKMK_entitlem
 ### <a name="BKMK_entitlement_Annotations"></a> entitlement_Annotations
 
 Same as annotation entity [entitlement_Annotations](annotation.md#BKMK_entitlement_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1423,6 +1443,7 @@ Same as annotation entity [entitlement_Annotations](annotation.md#BKMK_entitleme
 ### <a name="BKMK_entitlement_IncidentResolutions"></a> entitlement_IncidentResolutions
 
 Same as incidentresolution entity [entitlement_IncidentResolutions](incidentresolution.md#BKMK_entitlement_IncidentResolutions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incidentresolution|
@@ -1437,6 +1458,7 @@ Same as incidentresolution entity [entitlement_IncidentResolutions](incidentreso
 ### <a name="BKMK_entitlement_ServiceAppointments"></a> entitlement_ServiceAppointments
 
 Same as serviceappointment entity [entitlement_ServiceAppointments](serviceappointment.md#BKMK_entitlement_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -1451,6 +1473,7 @@ Same as serviceappointment entity [entitlement_ServiceAppointments](serviceappoi
 ### <a name="BKMK_entitlement_cases"></a> entitlement_cases
 
 Same as incident entity [entitlement_cases](incident.md#BKMK_entitlement_cases) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incident|
@@ -1465,6 +1488,7 @@ Same as incident entity [entitlement_cases](incident.md#BKMK_entitlement_cases) 
 ### <a name="BKMK_entitlement_entitlementchannel_EntitlementId"></a> entitlement_entitlementchannel_EntitlementId
 
 Same as entitlementchannel entity [entitlement_entitlementchannel_EntitlementId](entitlementchannel.md#BKMK_entitlement_entitlementchannel_EntitlementId) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|entitlementchannel|
@@ -1479,6 +1503,7 @@ Same as entitlementchannel entity [entitlement_entitlementchannel_EntitlementId]
 ### <a name="BKMK_entitlement_DuplicateBaseRecord"></a> entitlement_DuplicateBaseRecord
 
 Same as duplicaterecord entity [entitlement_DuplicateBaseRecord](duplicaterecord.md#BKMK_entitlement_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1493,6 +1518,7 @@ Same as duplicaterecord entity [entitlement_DuplicateBaseRecord](duplicaterecord
 ### <a name="BKMK_entitlement_DuplicateMatchingRecord"></a> entitlement_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [entitlement_DuplicateMatchingRecord](duplicaterecord.md#BKMK_entitlement_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1507,6 +1533,7 @@ Same as duplicaterecord entity [entitlement_DuplicateMatchingRecord](duplicatere
 ### <a name="BKMK_entitlement_OpportunityCloses"></a> entitlement_OpportunityCloses
 
 Same as opportunityclose entity [entitlement_OpportunityCloses](opportunityclose.md#BKMK_entitlement_OpportunityCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityclose|
@@ -1521,6 +1548,7 @@ Same as opportunityclose entity [entitlement_OpportunityCloses](opportunityclose
 ### <a name="BKMK_entitlement_OrderCloses"></a> entitlement_OrderCloses
 
 Same as orderclose entity [entitlement_OrderCloses](orderclose.md#BKMK_entitlement_OrderCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|orderclose|
@@ -1535,6 +1563,7 @@ Same as orderclose entity [entitlement_OrderCloses](orderclose.md#BKMK_entitleme
 ### <a name="BKMK_entitlement_QuoteCloses"></a> entitlement_QuoteCloses
 
 Same as quoteclose entity [entitlement_QuoteCloses](quoteclose.md#BKMK_entitlement_QuoteCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quoteclose|
@@ -1549,6 +1578,7 @@ Same as quoteclose entity [entitlement_QuoteCloses](quoteclose.md#BKMK_entitleme
 ### <a name="BKMK_entitlement_msdyn_bookingalerts"></a> entitlement_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [entitlement_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_entitlement_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -1563,6 +1593,7 @@ Same as msdyn_bookingalert entity [entitlement_msdyn_bookingalerts](msdyn_bookin
 ### <a name="BKMK_entitlement_msdyn_approvals"></a> entitlement_msdyn_approvals
 
 Same as msdyn_approval entity [entitlement_msdyn_approvals](msdyn_approval.md#BKMK_entitlement_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|

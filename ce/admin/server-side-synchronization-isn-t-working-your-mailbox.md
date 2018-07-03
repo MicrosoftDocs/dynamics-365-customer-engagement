@@ -28,9 +28,9 @@ You’re trying to track email using [!INCLUDE[pn_Exchange](../includes/pn-excha
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
--   For information about [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder tracking, see [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md).  
+- For information about [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder tracking, see [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md).  
   
--   For admin information about setting up server-side synchronization, see [Set up server-side synchronization](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).  
+- For admin information about setting up server-side synchronization, see [Set up server-side synchronization](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).  
   
 ### See also  
  [Set up server-side synchronization](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)

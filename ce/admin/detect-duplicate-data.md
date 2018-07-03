@@ -26,27 +26,27 @@ To determine whether a record is a potential duplicate, [!INCLUDE[pn_microsoftcr
   
 > [!NOTE]
 >  Duplicate detection works with [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)], but isn't available for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)].  
-  
+> 
 > [!IMPORTANT]
 >  You have to be a system administrator or a system customizer to create, enable, and publish duplicate detection rules for your organization.  
->   
+> 
 >  After publishing a duplicate detection rule, increasing the length of fields that are included in the duplicate detection criteria goes undetected. The field length could exceed the matchcode length limit and not be verified. This may result in duplicates not being detected.  
->   
+> 
 >  You can create multiple detection rules for the same entity type. However, you can publish a maximum of five duplicate detection rules per entity type at one time.  
   
  You can detect duplicates:  
   
--   When you create or update records for entities that enabled for duplicate detection. This includes records created with [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and tracked in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application. The duplicate detection dialog is only displayed for the records created or updated in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user interface (UI). For example, for records created by a workflow, the duplicate detection dialog is not displayed.  
+- When you create or update records for entities that enabled for duplicate detection. This includes records created with [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and tracked in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application. The duplicate detection dialog is only displayed for the records created or updated in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user interface (UI). For example, for records created by a workflow, the duplicate detection dialog is not displayed.  
   
-    > [!NOTE]
-    > [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] has the ability to detect duplicates for the updated UI entities when you create or update records using entity forms or grid views in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application.  
+  > [!NOTE]
+  > [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] has the ability to detect duplicates for the updated UI entities when you create or update records using entity forms or grid views in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application.  
   
--   When [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] goes from offline to online.  
+- When [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] goes from offline to online.  
   
--   During data import. You can specify whether or not to check for duplicates during the import.  
+- During data import. You can specify whether or not to check for duplicates during the import.  
   
-    > [!NOTE]
-    >  Duplicates can’t be detected when a user merges two records, converts a lead, or saves an activity as completed. Duplicates also aren’t detected when a user changes the status of a record, such as activating or reactivating it.  
+  > [!NOTE]
+  >  Duplicates can’t be detected when a user merges two records, converts a lead, or saves an activity as completed. Duplicates also aren’t detected when a user changes the status of a record, such as activating or reactivating it.  
   
 To check for duplicates in the web application, you can use **Detect Duplicates** capability provided in **More Commands** (![More commands button](../admin/media/not-available.gif "More commands button")) on the nav bar in the grid. The duplicate records are also detected when you import data programmatically or through Import Data Wizard. In addition, you can check for duplicates by running scheduled duplicate detection jobs. For step-by-step instructions on how to set up the duplicate detection job, see [Run system jobs to detect duplicates](run-bulk-system-jobs-detect-duplicate-records.md).  
   

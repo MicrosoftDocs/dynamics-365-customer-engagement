@@ -37,13 +37,13 @@ ms.author: "jimholtz"
   
 ### How do I find what country or region my account is under?  
   
-1.  Sign in to [https://portal.office.com](https://portal.office.com).  
+1. Sign in to [https://portal.office.com](https://portal.office.com).  
   
-2.  In the upper-right corner of the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] admin center menu bar, click your organization.  
+2. In the upper-right corner of the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] admin center menu bar, click your organization.  
   
- ![Choose your organization](../../admin/media/data-center-choose-organization.png "Choose your organization")  
+   ![Choose your organization](../../admin/media/data-center-choose-organization.png "Choose your organization")  
   
-3.  On the **Company profile** page, your account country/region is listed under **Country or region**.  
+3. On the **Company profile** page, your account country/region is listed under **Country or region**.  
   
 <a name="BKMK_Overview"></a>   
 ## Dynamics 365 (online) service overview  

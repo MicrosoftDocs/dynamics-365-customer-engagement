@@ -486,6 +486,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_DuplicateRuleCondition_SyncErrors"></a> DuplicateRuleCondition_SyncErrors
 
 Same as syncerror entity [DuplicateRuleCondition_SyncErrors](syncerror.md#BKMK_DuplicateRuleCondition_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -500,6 +501,7 @@ Same as syncerror entity [DuplicateRuleCondition_SyncErrors](syncerror.md#BKMK_D
 ### <a name="BKMK_userentityinstancedata_duplicaterulecondition"></a> userentityinstancedata_duplicaterulecondition
 
 Same as userentityinstancedata entity [userentityinstancedata_duplicaterulecondition](userentityinstancedata.md#BKMK_userentityinstancedata_duplicaterulecondition) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

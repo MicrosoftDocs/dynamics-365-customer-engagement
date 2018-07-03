@@ -29,15 +29,14 @@ Provides properties and methods to work with the data on a form.
 
 ## Methods 
 
-|Name|Description|
-|--|--|
-|[addOnLoad](formContext-data/addOnload.md)|[!INCLUDE[formContext-data/includes/addOnLoad-description.md](formContext-data/includes/addOnLoad-description.md)]|
-|[getIsDirty](formContext-data/getIsDirty.md)|[!INCLUDE[formContext-data/includes/getIsDirty-description.md](formContext-data/includes/getIsDirty-description.md)]|
-|[isValid](formContext-data/isValid.md)|[!INCLUDE[formContext-data/includes/isValid-description.md](formContext-data/includes/isValid-description.md)]|
-|[refresh](formContext-data/refresh.md)|[!INCLUDE[formContext-data/includes/refresh-description.md](formContext-data/includes/refresh-description.md)]|
-|[removeOnLoad](formContext-data/removeOnLoad.md)|[!INCLUDE[formContext-data/includes/removeOnLoad-description.md](formContext-data/includes/removeOnLoad-description.md)]|
-|[save](formContext-data/save.md)|[!INCLUDE[formContext-data/includes/save-description.md](formContext-data/includes/save-description.md)]|
-
+|                       Name                       |                                                       Description                                                        |
+|--------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+|    [addOnLoad](formContext-data/addOnload.md)    |    [!INCLUDE[formContext-data/includes/addOnLoad-description.md](formContext-data/includes/addOnLoad-description.md)]    |
+|   [getIsDirty](formContext-data/getIsDirty.md)   |   [!INCLUDE[formContext-data/includes/getIsDirty-description.md](formContext-data/includes/getIsDirty-description.md)]   |
+|      [isValid](formContext-data/isValid.md)      |      [!INCLUDE[formContext-data/includes/isValid-description.md](formContext-data/includes/isValid-description.md)]      |
+|      [refresh](formContext-data/refresh.md)      |      [!INCLUDE[formContext-data/includes/refresh-description.md](formContext-data/includes/refresh-description.md)]      |
+| [removeOnLoad](formContext-data/removeOnLoad.md) | [!INCLUDE[formContext-data/includes/removeOnLoad-description.md](formContext-data/includes/removeOnLoad-description.md)] |
+|         [save](formContext-data/save.md)         |         [!INCLUDE[formContext-data/includes/save-description.md](formContext-data/includes/save-description.md)]         |
 
 ### Related topics
 

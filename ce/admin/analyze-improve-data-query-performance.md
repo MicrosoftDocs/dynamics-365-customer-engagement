@@ -38,23 +38,23 @@ You can analyze and optimize query performance using the Data Performance view, 
   
 ## Use the All Data Performance Logs view to apply or remove an optimization  
   
-1.  Go to **Settings** > **Administration** > **Data Performance**.  
+1. Go to **Settings** > **Administration** > **Data Performance**.  
   
-2.  In the **All Data Performance Logs** view, if one or more long running entity queries are detected, log items are displayed in the view. If several items appear in the view, you can sort by the **Count** or **Optimization Impact** columns to easily identify the most used queries that do not already have an optimization. Notice that out-of-box and custom entity queries that complete within three seconds aren't displayed in the view.  
+2. In the **All Data Performance Logs** view, if one or more long running entity queries are detected, log items are displayed in the view. If several items appear in the view, you can sort by the **Count** or **Optimization Impact** columns to easily identify the most used queries that do not already have an optimization. Notice that out-of-box and custom entity queries that complete within three seconds aren't displayed in the view.  
   
- ![All Data Performance Logs view](../admin/media/data-performance-logs-view.png "All Data Performance Logs view")  
+   ![All Data Performance Logs view](../admin/media/data-performance-logs-view.png "All Data Performance Logs view")  
   
-     The columns displayed in the view provide information that can help you determine whether to add an optimization or not.  
+    The columns displayed in the view provide information that can help you determine whether to add an optimization or not.  
   
-    - **Count**. Indicates the number of times a query has been executed, which indicates the popularity of the query.  
+   - **Count**. Indicates the number of times a query has been executed, which indicates the popularity of the query.  
   
-    - **Optimization Status**. Indicates whether an optimization has been created for the entity. **Optimization Available** indicates that the entity does not have  an optimization applied or that a new optimization is available for an entity that already has at least one optimization.  
+   - **Optimization Status**. Indicates whether an optimization has been created for the entity. **Optimization Available** indicates that the entity does not have  an optimization applied or that a new optimization is available for an entity that already has at least one optimization.  
   
-    - **Optimization Impact**. All potential optimizations begin with an optimization impact value of 0. Potential optimizations have no impact measurement yet because the optimization hasn't been applied. Over time, after an optimization is applied by clicking **OPTIMIZE**, an  integer value is displayed that represents query performance impact. For example, after one  week since the optimization was applied, the value that appears can help indicate whether an optimization has improved or degraded query performance for the given entity. A negative value suggests an improvement in query performance, whereas a positive number suggests a degradation in query performance. So,  an optimization applied one week ago that has a value of -10% suggests a 10 percent improvement in query performance.  
+   - **Optimization Impact**. All potential optimizations begin with an optimization impact value of 0. Potential optimizations have no impact measurement yet because the optimization hasn't been applied. Over time, after an optimization is applied by clicking **OPTIMIZE**, an  integer value is displayed that represents query performance impact. For example, after one  week since the optimization was applied, the value that appears can help indicate whether an optimization has improved or degraded query performance for the given entity. A negative value suggests an improvement in query performance, whereas a positive number suggests a degradation in query performance. So,  an optimization applied one week ago that has a value of -10% suggests a 10 percent improvement in query performance.  
   
-3.  Select the entity that you want to create an optimization for, and then click **OPTIMIZE**.  To remove an applied optimization, click **REMOVE OPTIMIZATION**.  
+3. Select the entity that you want to create an optimization for, and then click **OPTIMIZE**.  To remove an applied optimization, click **REMOVE OPTIMIZATION**.  
   
- Optimizations take effect immediately after they are applied. However, for entities that have large tables, it can take two or more hours before the optimization fully takes effect. Optimizations are processed as an asynchronous process and can be viewed in the **Settings** > **System Jobs** area of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Notice that an optimization may not be completely applied even after the system job is completed because the actual index must be built in the back-end storage engine.  
+   Optimizations take effect immediately after they are applied. However, for entities that have large tables, it can take two or more hours before the optimization fully takes effect. Optimizations are processed as an asynchronous process and can be viewed in the **Settings** > **System Jobs** area of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Notice that an optimization may not be completely applied even after the system job is completed because the actual index must be built in the back-end storage engine.  
   
 ### See also  
  [Performance tuning and optimization](../admin/performance-tuning-and-optimization.md)   

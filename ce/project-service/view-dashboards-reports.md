@@ -27,17 +27,17 @@ Dashboards and reports give you an understanding of where your business stands. 
   
  To view dashboards that provide an all-up view of your project sales and resource utilization:  
   
-1.  Go to **Project Service > Dashboards**.  
+1. Go to **Project Service > Dashboards**.  
   
-2.  In the bar across the top of the screen, select the down arrow next to **Dashboards** and select the dashboard you want to see.  
+2. In the bar across the top of the screen, select the down arrow next to **Dashboards** and select the dashboard you want to see.  
   
- To view [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] reports:  
+   To view [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] reports:  
   
-1.  Go to **Project Service > Reports**.  
+3. Go to **Project Service > Reports**.  
   
-2.  Click the report you want to see.  
+4. Click the report you want to see.  
   
-3.  Select a date range and click **View Report**.  
+5. Select a date range and click **View Report**.  
   
 ### See Also  
  [Project Manager Guide](../project-service/project-manager-guide.md)
