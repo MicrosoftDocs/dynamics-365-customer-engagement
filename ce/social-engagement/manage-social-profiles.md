@@ -34,17 +34,19 @@ Data acquisition and acquisition of private messages from your social profiles r
 
 Currently, you can add the following social profiles: 
 
-- **[!INCLUDE[tn-twitter](../includes/tn-twitter.md)] user**: Publish new posts and interact with posts on [!INCLUDE[tn-twitter](../includes/tn-twitter.md)]. Optionally, you can allow data acquisition for direct messages sent to this profile to allow other users create search rules that acquire gather these direct messages. 
+- **[!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Acquisition**: A [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] user account to use within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. This profile is used to allow data acquisition from [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] and it's needed to acquire data for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages.
 
 - **[!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page**: Interact with posts on [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] with a [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page profile. To add this type of profile, you need to have admin permissions to create posts as the Page, or to send messages as the page. Get in touch with the admin of the [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page to adjust these settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Facebook Help Center: Page Roles](http://go.microsoft.com/fwlink/p/?LinkID=723360)
 
-- **[!INCLUDE[tn-instagram](../includes/tn-instagram.md)] account**: Interact with posts on [!INCLUDE[tn-instagram](../includes/tn-instagram.md)]. At least one active social profile for [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] is required to gather data from [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] feeds.
+- **[!INCLUDE[tn-twitter](../includes/tn-twitter.md)] Profile**: Publish new posts and interact with posts on [!INCLUDE[tn-twitter](../includes/tn-twitter.md)]. Optionally, you can allow data acquisition for direct messages sent to this profile to allow other users create search rules that acquire gather these direct messages. 
 
-- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user**: Share posts on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] with a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile. 
+- **[!INCLUDE[tn-instagram](../includes/tn-instagram.md)] Account**: Interact with posts on [!INCLUDE[tn-instagram](../includes/tn-instagram.md)]. At least one active social profile for [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] is required to gather data from [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] feeds.
 
-- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Page**: Reply to and like posts on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages with a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] organization page profile. To add this type of profile, you need to be an [Organization Page Administrator](https://www.linkedin.com/help/linkedin/answer/4783) on the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] page. At least one active social profile for [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages is required to gather data from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages.
+- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Profile**: Share posts on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] with a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile. 
 
-- **[!INCLUDE[tn-youtube](../includes/tn-youtube.md)] user**: Interact with posts on [!INCLUDE[tn-youtube](../includes/tn-youtube.md)] with a [!INCLUDE[tn-youtube](../includes/tn-youtube.md)] user profile.
+- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Page**: Reply to and like posts on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages with a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] organization page profile. To add this type of profile, you need to be an [Organization Page Administrator](https://www.linkedin.com/help/linkedin/answer/4783) on the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] page. At least one active social profile for [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages is required to gather data from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages.
+
+- **[!INCLUDE[tn-youtube](../includes/tn-youtube.md)] Profile**: Interact with posts on [!INCLUDE[tn-youtube](../includes/tn-youtube.md)] with a [!INCLUDE[tn-youtube](../includes/tn-youtube.md)] user profile.
 
 With a **Responder** or **Manager** user role, you can add, share, and delete social profiles you own.    
 To learn more about social profiles for data acquisition, see [Manage access tokens](manage-access-tokens.md).
