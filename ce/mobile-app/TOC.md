@@ -33,7 +33,7 @@
 
 # User Guide 
 # Get started
-#### [Install](../mobile-app/v8/go-mobile/get-started/install.md)
+# [Install](../mobile-app/v8/go-mobile/get-started/install.md)
 #### [Signing in and signing out](../mobile-app/v8/go-mobile/get-started/sign-in-out.md)
 #### [Reconfigure](../mobile-app/v8/go-mobile/get-started/reconfigure.md)
 #### [Basic navigation](../mobile-app/v8/go-mobile/get-started/basic-navigation.md)
