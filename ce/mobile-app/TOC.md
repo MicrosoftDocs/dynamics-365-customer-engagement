@@ -9,9 +9,8 @@
 ## [Company News Timeline](../company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets.md)
 ## [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)
 
-# [Install the mobile app (users)](install-dynamics-365-for-phones-and-tablets.md)
-
 # [User Guide](dynamics-365-phones-tablets-users-guide.md)
+## [Install the mobile app](install-dynamics-365-for-phones-and-tablets.md)
 
 # Older version (8.x)
 ## [Overview](../mobile-app/v8/about-this-content.md)
@@ -39,7 +38,7 @@
 #### [Troubleshoot error code 800c0019 on Windows Phones](../mobile-app/v8/go-mobile/admin-troubleshoot/troubleshoot-error-code-800c0019-windows-phones.md)
 
 ## User Guide 
-### [Install](../mobile-app/v8/go-mobile/get-started/install.md)
+### [Install the mobile app](../mobile-app/v8/go-mobile/get-started/install.md)
 ### [Signing in and signing out](../mobile-app/v8/go-mobile/get-started/sign-in-out.md)
 ### [Reconfigure](../mobile-app/v8/go-mobile/get-started/reconfigure.md)
 ### [Basic navigation](../mobile-app/v8/go-mobile/get-started/basic-navigation.md)
