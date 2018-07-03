@@ -65,11 +65,11 @@ To edit all non-custom events in a series:
 1. Do one of the following:
     - Find any occurrence of your target event series in the list and select that event to open it. The **Open recurring item** dialog opens; select **The entire series** to edit the entire series (rather than just the event occurrence you happen to have selected). 
     
-    ![Open the entire series after selecting a single event of the series](media/event-recurring-open-series.png "Open the entire series after selecting a single event of the series")
+      ![Open the entire series after selecting a single event of the series](media/event-recurring-open-series.png "Open the entire series after selecting a single event of the series")
 
     - Open the view selector (located just above the list) and choose **Event Series**. The list now shows just one row for the event series you have set up. Select an event series to open it.  
     
-    ![The view selector menu](media/events-recurring-view-selector.png "The view selector menu")
+      ![The view selector menu](media/events-recurring-view-selector.png "The view selector menu")
 
 1. Edit the event series as required and save your settings.
 
