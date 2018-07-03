@@ -74,7 +74,7 @@ To add a new payment page to your event portal:
     - **Parent page**: Select **Home**.
     - **Partial URL**: Enter a folder name that you want to show in the URL path for this page. This text must form part of a valid URL, so use only letters, numbers, hyphens, and underscores (avoid spaces, special characters, illegal URL characters, and slashes). This value becomes part of the page URL using the following pattern: `https://<YourPortalDomain>/<PartialURL>/`.
     - **Page Template**: Select the page template that you created earlier in this procedure.
-    - **Publish state**: Set to **Published**.
+    - **Publishing State**: Set to **Published**.
 
 <!--Note to author: Could "invalid" replace "illegal" in the previous list's 4th bullet? Illegal sounds like it breaks a law.-->
 
@@ -88,7 +88,7 @@ To assign a payment gateway to an event:
 
 1. Find and open an existing event or create a new one.
 
-1. On the **General** tab of the **Event** form, scroll down to the **Website** section and select your payment gateway page in the **Portal Payment Gateway** field.  
+1. On the **General** tab of the **Event** form, scroll down to the **Website** section and select your payment gateway page in the **Portal payment gateway** field.  
 
     ![The portal payment gateway setting](media/payment-gateway-setting.png "The portal payment gateway setting")
 
