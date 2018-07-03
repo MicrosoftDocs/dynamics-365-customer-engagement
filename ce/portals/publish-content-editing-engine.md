@@ -26,39 +26,40 @@ The editor toolbar has a number of buttons to help with content editing. Move th
 
 ![Portal front-side editor](media/front-side-editing-tool.png "Portal front-side editor")
 
-| Button                                       | Description    |
-|--------------------------------------------|------------------------------------------------------------|
-| Save                                       | Saves the changes made to the content and closes the editor. |
-| Source                           | Opens a dialog containing the HTML source for the content. The HTML can be directly modified and updated from this window. This dialog will not validate the HTML! It is recommended that only users with knowledge of HTML use this feature. |  
-| Cut, Copy, Paste                           | Cuts, copies, or pastes the selected text to and from the clipboard.|
-| Paste as Plain Text                        | Pastes text from the clipboard with all formatting and styling removed. |
-| Paste from Word                            | Pastes text from the clipboard while trying to maintain formatting and styling that originated from [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Word. |
-| Undo, Redo                                 | Will undo the previous change or redo an undone change. Only changes that have been done since the editor was opened can be undone. Changes that have been saved or canceled cannot be undone, or re-done. |
-| Find                         | Opens a dialog for searching content. It also allows you to replace the found content.  |
-| Link                           | Inserts or edits a hyperlink for selected text. More information: [Create a link](#create-a-link). |
-| Unlink                                     | Changes a hyperlink back to text. |
-| Anchor                         | Inserts or edits an anchor link for selected text.   |
-| Image                          | Inserts or edits an image into the content. More information: [Insert an image](#insert-an-image).  |
-|Flash |Inserts or edits a flash object into the content. |
-| Table     | Inserts or edits tables and their rows, cells, and properties.  |
-| Insert Horizontal Line                     | Inserts a horizontal line at the text cursor.    |
-| Insert Special Character                   | Opens a dialog containing special characters and inserts the selected character at the text cursor.   |
-|IFrame |Inserts or edits inline frames in the content.  |
-|Insert template |Inserts a pre-defined content template. |
-| Maximize                    | Resizes the editor to the size of the containing browser window.|
-|Show Blocks |Displays the block-level elements and their element name at the top-left corner of the surrounding box. |
-| Bold, Italic, Underline, Strikethrough     | Makes selected text bold, italic, underline, or strikethrough as well as newly typed text.   |
-|Copy Formatting |Copies the formatting and styling for the selected text |
-| Remove Format       | Removes the formatting and styling for the selected text.   |
-| Insert/Remove Bulleted List, Insert/Remove Numbered List | Inserts a bulleted or numbered list for selected text or at the text cursor if the list isn't already present. If the list is already present, it will be removed.      |
-| Decrease Indent, Increase Indent      | Reduces or increases the indentation of the text or a list item.   |
-| Block Quote  | Places the selected text or newly typed text within a quote block.      |
-| Align Left, Center, Align Right, Justify            | Aligns selected text to the left, center, right, or justify as well as newly typed text.    |
-|Formatting Styles |Changes the selected text as well as newly typed text to the pre-defined style selected. |
-| Paragraph Format  | Changes the selected text as well as newly typed text to the pre-defined paragraph format selected.     |
-|Text Color |Changes the color of the selected text as well as newly typed text. |
-|Background Color |Changes the background color of the selected text as well as newly typed text. |
-| | |
+
+|                          Button                          |                                                                                                                  Description                                                                                                                  |
+|----------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                           Save                           |                                                                                         Saves the changes made to the content and closes the editor.                                                                                          |
+|                          Source                          | Opens a dialog containing the HTML source for the content. The HTML can be directly modified and updated from this window. This dialog will not validate the HTML! It is recommended that only users with knowledge of HTML use this feature. |
+|                     Cut, Copy, Paste                     |                                                                                     Cuts, copies, or pastes the selected text to and from the clipboard.                                                                                      |
+|                   Paste as Plain Text                    |                                                                                    Pastes text from the clipboard with all formatting and styling removed.                                                                                    |
+|                     Paste from Word                      |                                        Pastes text from the clipboard while trying to maintain formatting and styling that originated from [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Word.                                        |
+|                        Undo, Redo                        |                  Will undo the previous change or redo an undone change. Only changes that have been done since the editor was opened can be undone. Changes that have been saved or canceled cannot be undone, or re-done.                   |
+|                           Find                           |                                                                            Opens a dialog for searching content. It also allows you to replace the found content.                                                                             |
+|                           Link                           |                                                                      Inserts or edits a hyperlink for selected text. More information: [Create a link](#create-a-link).                                                                       |
+|                          Unlink                          |                                                                                                       Changes a hyperlink back to text.                                                                                                       |
+|                          Anchor                          |                                                                                              Inserts or edits an anchor link for selected text.                                                                                               |
+|                          Image                           |                                                                      Inserts or edits an image into the content. More information: [Insert an image](#insert-an-image).                                                                       |
+|                          Flash                           |                                                                                               Inserts or edits a flash object into the content.                                                                                               |
+|                          Table                           |                                                                                        Inserts or edits tables and their rows, cells, and properties.                                                                                         |
+|                  Insert Horizontal Line                  |                                                                                                 Inserts a horizontal line at the text cursor.                                                                                                 |
+|                 Insert Special Character                 |                                                                      Opens a dialog containing special characters and inserts the selected character at the text cursor.                                                                      |
+|                          IFrame                          |                                                                                                Inserts or edits inline frames in the content.                                                                                                 |
+|                     Insert template                      |                                                                                                    Inserts a pre-defined content template.                                                                                                    |
+|                         Maximize                         |                                                                                       Resizes the editor to the size of the containing browser window.                                                                                        |
+|                       Show Blocks                        |                                                                    Displays the block-level elements and their element name at the top-left corner of the surrounding box.                                                                    |
+|          Bold, Italic, Underline, Strikethrough          |                                                                          Makes selected text bold, italic, underline, or strikethrough as well as newly typed text.                                                                           |
+|                     Copy Formatting                      |                                                                                            Copies the formatting and styling for the selected text                                                                                            |
+|                      Remove Format                       |                                                                                           Removes the formatting and styling for the selected text.                                                                                           |
+| Insert/Remove Bulleted List, Insert/Remove Numbered List |                                      Inserts a bulleted or numbered list for selected text or at the text cursor if the list isn't already present. If the list is already present, it will be removed.                                       |
+|             Decrease Indent, Increase Indent             |                                                                                       Reduces or increases the indentation of the text or a list item.                                                                                        |
+|                       Block Quote                        |                                                                                      Places the selected text or newly typed text within a quote block.                                                                                       |
+|         Align Left, Center, Align Right, Justify         |                                                                           Aligns selected text to the left, center, right, or justify as well as newly typed text.                                                                            |
+|                    Formatting Styles                     |                                                                           Changes the selected text as well as newly typed text to the pre-defined style selected.                                                                            |
+|                     Paragraph Format                     |                                                                      Changes the selected text as well as newly typed text to the pre-defined paragraph format selected.                                                                      |
+|                        Text Color                        |                                                                                      Changes the color of the selected text as well as newly typed text.                                                                                      |
+|                     Background Color                     |                                                                                Changes the background color of the selected text as well as newly typed text.                                                                                 |
+|                                                          |                                                                                                                                                                                                                                               |
 
 > [!NOTE]
 > When in full screen mode, the **Save** button will not be available. To save the changes, select **Minimize** to return to the regular mode where the buttons are available.

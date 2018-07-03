@@ -1227,6 +1227,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_site_ActivityPointers"></a> site_ActivityPointers
 
 Same as activitypointer entity [site_ActivityPointers](activitypointer.md#BKMK_site_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -1241,6 +1242,7 @@ Same as activitypointer entity [site_ActivityPointers](activitypointer.md#BKMK_s
 ### <a name="BKMK_Site_SyncErrors"></a> Site_SyncErrors
 
 Same as syncerror entity [Site_SyncErrors](syncerror.md#BKMK_Site_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1255,6 +1257,7 @@ Same as syncerror entity [Site_SyncErrors](syncerror.md#BKMK_Site_SyncErrors) Ma
 ### <a name="BKMK_Site_AsyncOperations"></a> Site_AsyncOperations
 
 Same as asyncoperation entity [Site_AsyncOperations](asyncoperation.md#BKMK_Site_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1269,6 +1272,7 @@ Same as asyncoperation entity [Site_AsyncOperations](asyncoperation.md#BKMK_Site
 ### <a name="BKMK_site_MailboxTrackingFolders"></a> site_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [site_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_site_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1283,6 +1287,7 @@ Same as mailboxtrackingfolder entity [site_MailboxTrackingFolders](mailboxtracki
 ### <a name="BKMK_userentityinstancedata_site"></a> userentityinstancedata_site
 
 Same as userentityinstancedata entity [userentityinstancedata_site](userentityinstancedata.md#BKMK_userentityinstancedata_site) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1297,6 +1302,7 @@ Same as userentityinstancedata entity [userentityinstancedata_site](userentityin
 ### <a name="BKMK_Site_ProcessSessions"></a> Site_ProcessSessions
 
 Same as processsession entity [Site_ProcessSessions](processsession.md#BKMK_Site_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1311,6 +1317,7 @@ Same as processsession entity [Site_ProcessSessions](processsession.md#BKMK_Site
 ### <a name="BKMK_Site_BulkDeleteFailures"></a> Site_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Site_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Site_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1325,6 +1332,7 @@ Same as bulkdeletefailure entity [Site_BulkDeleteFailures](bulkdeletefailure.md#
 ### <a name="BKMK_site_PrincipalObjectAttributeAccesses"></a> site_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [site_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_site_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1339,6 +1347,7 @@ Same as principalobjectattributeaccess entity [site_PrincipalObjectAttributeAcce
 ### <a name="BKMK_site_Appointments"></a> site_Appointments
 
 Same as appointment entity [site_Appointments](appointment.md#BKMK_site_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -1353,6 +1362,7 @@ Same as appointment entity [site_Appointments](appointment.md#BKMK_site_Appointm
 ### <a name="BKMK_site_Emails"></a> site_Emails
 
 Same as email entity [site_Emails](email.md#BKMK_site_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -1367,6 +1377,7 @@ Same as email entity [site_Emails](email.md#BKMK_site_Emails) Many-To-One relati
 ### <a name="BKMK_site_Faxes"></a> site_Faxes
 
 Same as fax entity [site_Faxes](fax.md#BKMK_site_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -1381,6 +1392,7 @@ Same as fax entity [site_Faxes](fax.md#BKMK_site_Faxes) Many-To-One relationship
 ### <a name="BKMK_site_Letters"></a> site_Letters
 
 Same as letter entity [site_Letters](letter.md#BKMK_site_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -1395,6 +1407,7 @@ Same as letter entity [site_Letters](letter.md#BKMK_site_Letters) Many-To-One re
 ### <a name="BKMK_site_PhoneCalls"></a> site_PhoneCalls
 
 Same as phonecall entity [site_PhoneCalls](phonecall.md#BKMK_site_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -1409,6 +1422,7 @@ Same as phonecall entity [site_PhoneCalls](phonecall.md#BKMK_site_PhoneCalls) Ma
 ### <a name="BKMK_site_Tasks"></a> site_Tasks
 
 Same as task entity [site_Tasks](task.md#BKMK_site_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -1423,6 +1437,7 @@ Same as task entity [site_Tasks](task.md#BKMK_site_Tasks) Many-To-One relationsh
 ### <a name="BKMK_site_RecurringAppointmentMasters"></a> site_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [site_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_site_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -1437,6 +1452,7 @@ Same as recurringappointmentmaster entity [site_RecurringAppointmentMasters](rec
 ### <a name="BKMK_site_SocialActivities"></a> site_SocialActivities
 
 Same as socialactivity entity [site_SocialActivities](socialactivity.md#BKMK_site_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -1451,6 +1467,7 @@ Same as socialactivity entity [site_SocialActivities](socialactivity.md#BKMK_sit
 ### <a name="BKMK_site_ServiceAppointments"></a> site_ServiceAppointments
 
 Same as serviceappointment entity [site_ServiceAppointments](serviceappointment.md#BKMK_site_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -1465,6 +1482,7 @@ Same as serviceappointment entity [site_ServiceAppointments](serviceappointment.
 ### <a name="BKMK_site_equipment"></a> site_equipment
 
 Same as equipment entity [site_equipment](equipment.md#BKMK_site_equipment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|equipment|
@@ -1479,6 +1497,7 @@ Same as equipment entity [site_equipment](equipment.md#BKMK_site_equipment) Many
 ### <a name="BKMK_site_resources"></a> site_resources
 
 Same as resource entity [site_resources](resource.md#BKMK_site_resources) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|resource|
@@ -1493,6 +1512,7 @@ Same as resource entity [site_resources](resource.md#BKMK_site_resources) Many-T
 ### <a name="BKMK_site_system_users"></a> site_system_users
 
 Same as systemuser entity [site_system_users](systemuser.md#BKMK_site_system_users) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|systemuser|
@@ -1507,6 +1527,7 @@ Same as systemuser entity [site_system_users](systemuser.md#BKMK_site_system_use
 ### <a name="BKMK_site_service_appointments"></a> site_service_appointments
 
 Same as serviceappointment entity [site_service_appointments](serviceappointment.md#BKMK_site_service_appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -1521,6 +1542,7 @@ Same as serviceappointment entity [site_service_appointments](serviceappointment
 ### <a name="BKMK_site_OpportunityCloses"></a> site_OpportunityCloses
 
 Same as opportunityclose entity [site_OpportunityCloses](opportunityclose.md#BKMK_site_OpportunityCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityclose|
@@ -1535,6 +1557,7 @@ Same as opportunityclose entity [site_OpportunityCloses](opportunityclose.md#BKM
 ### <a name="BKMK_site_OrderCloses"></a> site_OrderCloses
 
 Same as orderclose entity [site_OrderCloses](orderclose.md#BKMK_site_OrderCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|orderclose|
@@ -1549,6 +1572,7 @@ Same as orderclose entity [site_OrderCloses](orderclose.md#BKMK_site_OrderCloses
 ### <a name="BKMK_site_QuoteCloses"></a> site_QuoteCloses
 
 Same as quoteclose entity [site_QuoteCloses](quoteclose.md#BKMK_site_QuoteCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quoteclose|
@@ -1563,6 +1587,7 @@ Same as quoteclose entity [site_QuoteCloses](quoteclose.md#BKMK_site_QuoteCloses
 ### <a name="BKMK_site_msdyn_bookingalerts"></a> site_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [site_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_site_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -1577,6 +1602,7 @@ Same as msdyn_bookingalert entity [site_msdyn_bookingalerts](msdyn_bookingalert.
 ### <a name="BKMK_site_msdyn_approvals"></a> site_msdyn_approvals
 
 Same as msdyn_approval entity [site_msdyn_approvals](msdyn_approval.md#BKMK_site_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|

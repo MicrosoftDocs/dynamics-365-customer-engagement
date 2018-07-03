@@ -28,12 +28,13 @@ Applies to Dynamics 365 (online), version 9.0.2
 
 ## Requirements and prerequisites  
 There are some feature restrictions depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you're running, as detailed in the following table.  
-  
-|Product version|Available embedded intelligence features|  
-|---------------------|----------------------------------------------|  
-|[!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] with [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)]|<ul><li>Relationship assistant</li> <li>Email engagement</li> <li>Auto capture</li></ul>|  
-|[!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] with [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] (on-premises)|<ul><li>Relationship assistant (not including cards for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)])</li> <li>Email engagement</li></ul>|  
-|[!INCLUDE[pn_crm_8_2_0_op_subsequent](../includes/pn-crm-8-2-0-op-subsequent.md)]|<ul><li>Only Relationship assistant is available, and only its *base cards* are supported. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](../sales-enterprise/action-cards-reference.md)</li> <li>No features or action cards are available for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], so your [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] version isn't important.</li></ul>|  
+
+
+|                                                                        Product version                                                                         |                                                                                                                                                                                                           Available embedded intelligence features                                                                                                                                                                                                           |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] with [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] |                                                                                                                                                                                   <ul><li>Relationship assistant</li> <li>Email engagement</li> <li>Auto capture</li></ul>                                                                                                                                                                                   |
+| [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] with [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] (on-premises) |                                                                                                                                                       <ul><li>Relationship assistant (not including cards for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)])</li> <li>Email engagement</li></ul>                                                                                                                                                       |
+|                                       [!INCLUDE[pn_crm_8_2_0_op_subsequent](../includes/pn-crm-8-2-0-op-subsequent.md)]                                        | <ul><li>Only Relationship assistant is available, and only its <em>base cards</em> are supported. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](../sales-enterprise/action-cards-reference.md)</li> <li>No features or action cards are available for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], so your [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] version isn't important.</li></ul> |
 
 ## How to enable embedded intelligence 
 As a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator, you can enable embedded intelligence for your organization to:
@@ -67,26 +68,27 @@ For complete details about each available action card, including details about t
 ### Prerequisites
 Assign user privileges to give access to the Relationship assistant features. The privileges required to access embedded intelligence features are automatically enabled for all out-of-the-box security roles, but they're initially disabled for all custom roles. If you enable any embedded intelligence features, you must check the settings listed in the following table to help ensure that your users can access those features, and to help ensure that other features don't stop working because of privilege cascades related to these features.
 
-|Privilege|Security role tab|Description and requirements|  
-|---------------|-----------------------|----------------------------------|  
-|**Action Card**|**Core Records**|Gives the ability to view and interact with action cards that are generated by Relationship assistant. **Warning:** If Relationship assistant is enabled, all users *must* have a role with read access for this privilege. Because of cascading, users without this privilege will lose access to many [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] features when Relationship assistant is enabled.|  
-|**Action Card User Settings**|**Core Records**|Gives the ability to view and change user preferences for action cards that are generated by Relationship assistant. **Warning:** If Relationship assistant is enabled, all users *must* have a role with read access for this privilege. Because of cascading, users without this privilege will lose access to many [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] features when Relationship assistant is enabled.|  
-  
+
+|           Privilege           | Security role tab |                                                                                                                                                                                                    Description and requirements                                                                                                                                                                                                    |
+|-------------------------------|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        **Action Card**        | **Core Records**  |        Gives the ability to view and interact with action cards that are generated by Relationship assistant. **Warning:** If Relationship assistant is enabled, all users *must* have a role with read access for this privilege. Because of cascading, users without this privilege will lose access to many [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] features when Relationship assistant is enabled.        |
+| **Action Card User Settings** | **Core Records**  | Gives the ability to view and change user preferences for action cards that are generated by Relationship assistant. **Warning:** If Relationship assistant is enabled, all users *must* have a role with read access for this privilege. Because of cascading, users without this privilege will lose access to many [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] features when Relationship assistant is enabled. |
+
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security roles and privileges](../admin/security-roles-privileges.md)  
 
 ### How to configure Relationship assistant
 
-1.	Go to **Settings** > **Intelligence Configuration**.
-2.  To open the Relationship assistant configuration page, select **Configure** on the **Relationship assistant** tile or select the **Relationship assistant** tab.<br>
-![Select Relationship assistant configuration](../sales-enterprise/media/relationship-assistant-configuration.png "Select Relationship assistant configuration") <br>    
-3.	Configure which cards to use in your organization and fine tune their behavior. Work with these settings as follows:
-    - Cards are categorized by type, such as **Base** and **Advanced**.
-    - Enable or disable specific action cards as needed by using the check boxes provided for each card.
-    - Some cards have extra configuration settings that modify their behavior. These settings are provided to the right of the check box for only the relevant cards.<br>
-![Relationship assistant configuration page](../sales-enterprise/media/relationship-assistant-configuration-page.png "Relationship assistant configuration page") <br>
-<!--4.	To enable notes analysis, select **Turn on Notes Analysis for your organization** check box under **Notes Analysis** tile.
-<<add image>>   -->
-4.	On top of the page, select **Save** to save your settings.<br> 
+1. Go to **Settings** > **Intelligence Configuration**.
+2. To open the Relationship assistant configuration page, select **Configure** on the **Relationship assistant** tile or select the **Relationship assistant** tab.<br>
+   ![Select Relationship assistant configuration](../sales-enterprise/media/relationship-assistant-configuration.png "Select Relationship assistant configuration") <br>    
+3. Configure which cards to use in your organization and fine tune their behavior. Work with these settings as follows:
+   - Cards are categorized by type, such as **Base** and **Advanced**.
+   - Enable or disable specific action cards as needed by using the check boxes provided for each card.
+   - Some cards have extra configuration settings that modify their behavior. These settings are provided to the right of the check box for only the relevant cards.<br>
+   ![Relationship assistant configuration page](../sales-enterprise/media/relationship-assistant-configuration-page.png "Relationship assistant configuration page") <br>
+   <!--4.  To enable notes analysis, select **Turn on Notes Analysis for your organization** check box under **Notes Analysis** tile.
+   <<add image>>   -->
+4. On top of the page, select **Save** to save your settings.<br> 
 
 Users can also set their own personal preferences for their action cards. They can't add cards that you disable here, but they can disable cards that you have enabled if they don't find them useful. They can also change the configuration settings for those cards that have them, though your settings will be the defaults. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship assistant](../sales-enterprise/relationship-assistant.md)
 
@@ -94,7 +96,7 @@ Users can also set their own personal preferences for their action cards. They c
 Enabling the Email engagement helps the user in your organization to receive alerts and reminders that help build customer relationships.
 > [!NOTE]
 > If you enable Email engagement, we strongly recommend that you also enable Relationship assistant, because Email engagement relies on some of its features.
-
+> 
 > [!IMPORTANT]
 > By enabling this feature, you consent to share data about your customers' email activity with an external system. Data imported from external systems into  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] are subject to our privacy statement.
 
@@ -106,8 +108,8 @@ Verify the following prerequisites before enabling Email engagement for your org
 
 ### How to enable Email engagement
 
-1.	Go to **Settings** > **Intelligence Configuration**.
-2.	Select **Grant Permissions**. <br>
+1.  Go to **Settings** > **Intelligence Configuration**.
+2.  Select **Grant Permissions**. <br>
     > [!NOTE]
     > If the Sales insights add-on is installed using Intelligence Configuration, this step will be skipped. You don't have to grant permissions to Email engagement.<br>
 
@@ -127,10 +129,10 @@ Verify the following prerequisites before enabling Email engagement for your org
 ### Prerequisites
 
 Verify the following prerequisites before enabling Auto capture for your organization: 
--   You must use [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] as your email server. 
--   Users must use the web client for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] (other front ends aren't supported).  
--   For each user that requires access to this feature, you must approve their email address to allow queries against [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] (requires tenant-level admin privileges). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Approve email](../admin/connect-exchange-online.md#approve-email) 
--   To track incoming email messages, you must set up server-side synchronization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)  
+- You must use [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] as your email server. 
+- Users must use the web client for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] (other front ends aren't supported).  
+- For each user that requires access to this feature, you must approve their email address to allow queries against [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] (requires tenant-level admin privileges). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Approve email](../admin/connect-exchange-online.md#approve-email) 
+- To track incoming email messages, you must set up server-side synchronization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)  
 
 ### How to enable Auto capture
 After you accept the privacy statement for embedded intelligence, Auto capture is enabled by default. If it's not enabled, select the toggle button to enable Auto capture.<br>

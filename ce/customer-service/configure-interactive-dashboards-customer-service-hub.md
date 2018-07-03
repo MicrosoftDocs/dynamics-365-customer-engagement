@@ -104,15 +104,15 @@ Refer the screen below to see the two flags enabled in the **Case** entity for t
 
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-2.  Select **Customize the System**.  
+2. Select **Customize the System**.  
   
-3.  Under **Components**, expand **Entities**, and then expand the entity you want.  
+3. Under **Components**, expand **Entities**, and then expand the entity you want.  
   
-4.  In the navigation pane, select **Fields** and in the grid, double-click the field you want to enable.  
+4. In the navigation pane, select **Fields** and in the grid, double-click the field you want to enable.  
   
-5.  In the **General** tab, select the **Appears in global filter in interactive experience** check box. Select **Save and Close**.  
+5. In the **General** tab, select the **Appears in global filter in interactive experience** check box. Select **Save and Close**.  
   
-6.  Select **Publish All Customizations** for your changes to take effect.
+6. Select **Publish All Customizations** for your changes to take effect.
   
 The fields that you configure will appear in the global filter flyout window when the global filter icon is selected from the dashboard header. In the flyout window, the service reps can select the fields on which they want to filter globally, in charts, and also in streams and tiles that are based on the filter entity.  
 
@@ -127,15 +127,15 @@ The global filter flyout window is shown here:
 
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-2.  Select **Customize the System**.  
+2. Select **Customize the System**.  
   
-3.  Under **Components**, expand **Entities**, and then expand the entity you want.  
+3. Under **Components**, expand **Entities**, and then expand the entity you want.  
   
-4.  In the navigation pane, select **Fields** and in the grid, double-click the field you want to enable.  
+4. In the navigation pane, select **Fields** and in the grid, double-click the field you want to enable.  
   
-5.  In the **General** tab, select the **Sortable in interactive experience dashboard** check box. Select **Save and Close**.  
+5. In the **General** tab, select the **Sortable in interactive experience dashboard** check box. Select **Save and Close**.  
   
-6.  Select **Publish All Customizations** for your changes to take effect.
+6. Select **Publish All Customizations** for your changes to take effect.
 
 The fields that you configure for sorting will appear when you select the drop-down list on the stream header. 
 
@@ -150,19 +150,19 @@ The following illustration shows the flyout dialog with the list of the availabl
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-2.  Select **Customize the System**.  
+2. Select **Customize the System**.  
   
-3.  Under **Components**, select **Dashboards**.  
+3. Under **Components**, select **Dashboards**.  
   
-4.  In the grid, select the interactive dashboard you want and select **Enable Security Roles** on the task bar.  
+4. In the grid, select the interactive dashboard you want and select **Enable Security Roles** on the task bar.  
   
-5.  In the **Assign Security Roles** dialog, select the **Display only to these selected security roles** option and select the roles that you want to enable. Select **OK**.  
+5. In the **Assign Security Roles** dialog, select the **Display only to these selected security roles** option and select the roles that you want to enable. Select **OK**.  
   
-6.  Select **Publish All Customizations** for your changes to take effect. 
+6. Select **Publish All Customizations** for your changes to take effect. 
 
-    ![Choose to enable security role](media/choose-enable-security-role.png "Choose to enable security role")
+   ![Choose to enable security role](media/choose-enable-security-role.png "Choose to enable security role")
 
-    ![Enable security roles](media/security-roles.png "Enable security roles")
+   ![Enable security roles](media/security-roles.png "Enable security roles")
 
   
 ## Configure interactive dashboards  
@@ -172,35 +172,35 @@ The following illustration shows the flyout dialog with the list of the availabl
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-2.  Select **Customize the System**.  
+2. Select **Customize the System**.  
   
-3.  Under **Components**, select **Dashboards**.  
+3. Under **Components**, select **Dashboards**.  
   
-4.  In the grid, select **New**, and select **Interactive experience dashboard** in the drop-down list, as shown below:  
+4. In the grid, select **New**, and select **Interactive experience dashboard** in the drop-down list, as shown below:  
   
-    ![Select interactive experience dashboard](media/configure-dashboard.png "Select interactive experience dashboard")
+   ![Select interactive experience dashboard](media/configure-dashboard.png "Select interactive experience dashboard")
   
-5.  Choose the layout and select **Create**.  
+5. Choose the layout and select **Create**.  
   
-6.  When the dashboard form opens, fill in the filtering information at the top of form, as shown here.  
+6. When the dashboard form opens, fill in the filtering information at the top of form, as shown here.  
   
-    ![Add visual filters](../customer-service/media/interactive-dashboards-add-visual-filters.png "Add visual filters")  
+   ![Add visual filters](../customer-service/media/interactive-dashboards-add-visual-filters.png "Add visual filters")  
   
-    - **Filter Entity**: The visual filters and global filter attributes are based on this entity.  
+   - **Filter Entity**: The visual filters and global filter attributes are based on this entity.  
       
-    - **Entity View**: The visual filters are based on this view.  
+   - **Entity View**: The visual filters are based on this view.  
       
-    - **Filter By**: The field that the time frame filter applies to.  
+   - **Filter By**: The field that the time frame filter applies to.  
       
-    - **Time Frame**: The default time frame filter value for the **Filter By** field.  
+   - **Time Frame**: The default time frame filter value for the **Filter By** field.  
       
- After you  have specified the filtering information, start adding components for the charts and the data streams in the **Visual filters** section . To add a component, simply select the element in the center of the chart or stream, and when the dialog appears, select the required information from the drop-down, as shown in the following illustrations.  
+   After you  have specified the filtering information, start adding components for the charts and the data streams in the **Visual filters** section . To add a component, simply select the element in the center of the chart or stream, and when the dialog appears, select the required information from the drop-down, as shown in the following illustrations.  
   
- The following shows adding the **Cases By Priority** doughnut chart.  
+   The following shows adding the **Cases By Priority** doughnut chart.  
   
- ![Add a doughnut chart component](media/add-stream.png "Add a doughnut chart component")
+   ![Add a doughnut chart component](media/add-stream.png "Add a doughnut chart component")
   
- Some charts, such as bar charts or pie charts, render showing the data stored in the system. The doughnut charts and tag charts load as static images and don’t show the preview of the actual data.  
+   Some charts, such as bar charts or pie charts, render showing the data stored in the system. The doughnut charts and tag charts load as static images and don’t show the preview of the actual data.  
   
 > [!NOTE]
 >  The charts configured for the visual filters can use the fields of the **Filter** entity as well as related entities. When you use charts based on related entity fields, the customer service representatives can filter charts using these related entity fields. The fields that are based on the related entity usually have the following format in the chart configuration window: “field name (entity name)”, such as the **Modified By (Delegate)** field. To create multi-entity charts, you must add  fields of a related entity to any of the views, and then use these fields while creating charts.
@@ -229,23 +229,23 @@ Follow the steps given below to edit individual streams of an existing dashboard
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-2.  Select **Customize the System**.  
+2. Select **Customize the System**.  
   
-3.  Under **Components**, select **Dashboards**.  
+3. Under **Components**, select **Dashboards**.  
   
-     -OR-  
+    -OR-  
   
-     If you want to edit the stream of an entity dashboard, then under **Components**, expand **Entities** and select the entity you want. Select **Dashboards** under the entity, in the navigation pane.  
+    If you want to edit the stream of an entity dashboard, then under **Components**, expand **Entities** and select the entity you want. Select **Dashboards** under the entity, in the navigation pane.  
   
-4.  In the grid, double-click the interactive dashboard that you want to edit, to open it.  
+4. In the grid, double-click the interactive dashboard that you want to edit, to open it.  
   
-5.  Select the stream that you want to edit, and then select **Edit Component**.  
+5. Select the stream that you want to edit, and then select **Edit Component**.  
   
-6.  Depending on whether you want to add a view or queue to the stream, select the view or queue details for the stream, and then select **Set**.  
+6. Depending on whether you want to add a view or queue to the stream, select the view or queue details for the stream, and then select **Set**.  
   
-7.  Select **Save**.  
+7. Select **Save**.  
   
- You can also delete an individual stream from a dashboard. To do this, select the stream, and then on the command bar, select **Delete**.  
+   You can also delete an individual stream from a dashboard. To do this, select the stream, and then on the command bar, select **Delete**.  
   
 ### Configure an entity-specific dashboard  
  An entity-specific dashboard is a multi-stream dashboard. Configuring this dashboard is similar to configuring a home page multi-stream dashboard, but you do it in the different place in the UI and there are other minor differences. 
@@ -254,17 +254,17 @@ For example, instead of selecting an entity, some fields in the entity-specific 
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-2.  Select **Customize the System**.  
+2. Select **Customize the System**.  
   
-3.  Under **Components**, expand **Entities** and select the entity you want. Select **Dashboards** under the entity, in the navigation pane.  
+3. Under **Components**, expand **Entities** and select the entity you want. Select **Dashboards** under the entity, in the navigation pane.  
   
-4.  In the grid, select **New**, and select **Interactive experience dashboard** in the drop-down list.  
+4. In the grid, select **New**, and select **Interactive experience dashboard** in the drop-down list.  
   
-5.  Choose the layout and select **Create**.  
+5. Choose the layout and select **Create**.  
   
-6.  When the dashboard form opens, the **Filter Entity** is preset to the entity for which you are creating the dashboard. The **Entity View** drop-down list contains the available views for the entity. Select the view and fill in the rest of the required information on the page.  
+6. When the dashboard form opens, the **Filter Entity** is preset to the entity for which you are creating the dashboard. The **Entity View** drop-down list contains the available views for the entity. Select the view and fill in the rest of the required information on the page.  
   
- The rest of the setup is very similar to the home page multi-stream dashboard setup described in the previous section.  
+   The rest of the setup is very similar to the home page multi-stream dashboard setup described in the previous section.  
   
 ### Configure a single-stream dashboard  
  Configuring a single-stream dashboard is similar to the multi-stream dashboard. All UI navigation steps are the same as for the multi-stream dashboard. You can choose a layout that includes tiles or the layout that doesn’t include tiles. 
@@ -281,19 +281,19 @@ For example, instead of selecting an entity, some fields in the entity-specific 
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-2.  Select **Customize the System**.  
+2. Select **Customize the System**.  
   
-3.  Under **Components**, expand **Entities**, and then expand the entity you want.  
+3. Under **Components**, expand **Entities**, and then expand the entity you want.  
   
-4.  In the navigation pane, select **Fields**. In the grid, double-click the field that you want to configure the color for.  
+4. In the navigation pane, select **Fields**. In the grid, double-click the field that you want to configure the color for.  
   
-5.  In the **General** tab, in the **Type** sub-area, select **Yes** and select **Edit**.  
+5. In the **General** tab, in the **Type** sub-area, select **Yes** and select **Edit**.  
   
-6.  When the **Modify List Value** dialog appears, set the new value in the **Color** text box. Select **OK**.  
+6. When the **Modify List Value** dialog appears, set the new value in the **Color** text box. Select **OK**.  
   
-     Select **Save and Close**.  
+    Select **Save and Close**.  
   
-7.  Select **Publish** for your changes to take effect.  
+7. Select **Publish** for your changes to take effect.  
   
 In the following example, we’re changing the color for the **IsEscalated** field. Use the **Edit** button to open the **Modify List Value** dialog box:  
   

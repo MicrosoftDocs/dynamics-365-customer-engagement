@@ -40,7 +40,7 @@ manager: "amyla"
 <li><b>entityName</b>: (Optional) String. Logical name of the entity to display the form for.</li>
 <li><b>formId</b>: (Optional) String. ID of the form instance to be displayed.</li>
 <li><b>height</b>: (Optional) Number. Height of the form window to be displayed in pixels.</li>
-<li><b>navBar</b>: (Optional) String. Controls whether the navigation bar is displayed and whether application navigation is available using the areas and subareas defined in the sitemap. Valid vlaues are: "on", "off", or "entity".<ul><li><code>on</code>: The navigation bar is displayed. This is the default behavior if the <b>navBar</b> parameter is not used.</li>
+<li><b>navBar</b>: (Optional) String. Controls whether the navigation bar is displayed and whether application navigation is available using the areas and subareas defined in the sitemap. Valid vlaues are: &quot;on&quot;, &quot;off&quot;, or &quot;entity&quot;.<ul><li><code>on</code>: The navigation bar is displayed. This is the default behavior if the <b>navBar</b> parameter is not used.</li>
 <li><code>off</code>: The navigation bar is not displayed. People can navigate using other user interface elements or the back and forward buttons.</li><li><code>entity</code>: On an entity form, only the navigation options for related entities are available. After navigating to a related entity, a back button is displayed in the navigation bar to allow returning to the original record.</li></ul></li>
 <li><b>openInNewWindow</b>: (Optional) Boolean. Indicates whether to display form in a new window.</li>
 <li><b>windowPosition</b>: (Optional) Number. Specify one of the following values for the window position of the form on the screen:<ul><li><code>1:center</code></li><li><code>2:side</code></li></ul>
@@ -90,7 +90,7 @@ manager: "amyla"
 <td>formParameters</td>
 <td>Object</td>
 <td>No</td>
-<td>A dictionary object that passes extra parameters to the form. Invalid parameters will cause an error.<br/><br/>For information about passing parameters to a form, see [Set field values using parameters passed to a form](../../../set-field-values-using-parameters-passed-form.md) and [Configure a form to accept custom querystring parameters](../../../configure-form-accept-custom-querystring-parameters.md) </td>
+<td>A dictionary object that passes extra parameters to the form. Invalid parameters will cause an error.<br/><br/>For information about passing parameters to a form, see <a href="../../../set-field-values-using-parameters-passed-form.md" data-raw-source="[Set field values using parameters passed to a form](../../../set-field-values-using-parameters-passed-form.md)">Set field values using parameters passed to a form</a> and <a href="../../../configure-form-accept-custom-querystring-parameters.md" data-raw-source="[Configure a form to accept custom querystring parameters](../../../configure-form-accept-custom-querystring-parameters.md)">Configure a form to accept custom querystring parameters</a> </td>
 </tr>
 <tr>
 <td>successCallback</td>
@@ -102,7 +102,7 @@ manager: "amyla"
 <li>The record is saved in the entity form displayed for a new record.</li>
 <li>The record is saved in the quick create form.</li>
 </ul>
-<b>NOTE</b>: On [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps), the <b>successCallback</b> function is executed only when you save a record in a quick create form that was opened using the **openForm** method.
+<b>NOTE</b>: On <a href="/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps" data-raw-source="[Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps)">Unified Interface</a>, the <b>successCallback</b> function is executed only when you save a record in a quick create form that was opened using the <strong>openForm</strong> method.
 
 This function is passed an object as a parameter. The object has a <b>savedEntityReference</b> array with the following properties to identify the record(s) displayed or created:
 <ul>

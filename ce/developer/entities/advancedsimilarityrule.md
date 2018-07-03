@@ -677,6 +677,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_advancedsimilarityrule_textanalyticsentitymapping"></a> advancedsimilarityrule_textanalyticsentitymapping
 
 Same as textanalyticsentitymapping entity [advancedsimilarityrule_textanalyticsentitymapping](textanalyticsentitymapping.md#BKMK_advancedsimilarityrule_textanalyticsentitymapping) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|textanalyticsentitymapping|

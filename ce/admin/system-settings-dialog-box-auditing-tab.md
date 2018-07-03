@@ -28,19 +28,19 @@ Enable auditing to track changes to your organization’s data and maintain a lo
   
     Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
   
-3.  Choose **System Settings** > **Auditing** tab.  
+3. Choose **System Settings** > **Auditing** tab.  
   
-|Settings|Description|  
-|--------------|-----------------|  
-|**Audit Settings**||
-|Start Auditing|Start or stop auditing.|  
-|Audit user access|If enabled, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] tracks when the user started accessing [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and whether or not the user accessed the application by using the web application or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].|  
+|      Settings      |                                                                                                                                                                  Description                                                                                                                                                                   |
+|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Audit Settings** |                                                                                                                                                                                                                                                                                                                                                |
+|   Start Auditing   |                                                                                                                                                            Start or stop auditing.                                                                                                                                                             |
+| Audit user access  | If enabled, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] tracks when the user started accessing [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and whether or not the user accessed the application by using the web application or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. |
   
 Specify to audit specific areas of the product, as described in the following table.  
   

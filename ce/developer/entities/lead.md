@@ -1607,6 +1607,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_ordertype"></a> msdyn_ordertype
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Whether the Opportunity created when qualifying this Lead is for an Item- based or a Work-based sale|
@@ -3398,6 +3399,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Lead_ActivityPointers"></a> Lead_ActivityPointers
 
 Same as activitypointer entity [Lead_ActivityPointers](activitypointer.md#BKMK_Lead_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -3412,6 +3414,7 @@ Same as activitypointer entity [Lead_ActivityPointers](activitypointer.md#BKMK_L
 ### <a name="BKMK_Lead_SyncErrors"></a> Lead_SyncErrors
 
 Same as syncerror entity [Lead_SyncErrors](syncerror.md#BKMK_Lead_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -3426,6 +3429,7 @@ Same as syncerror entity [Lead_SyncErrors](syncerror.md#BKMK_Lead_SyncErrors) Ma
 ### <a name="BKMK_lead_activity_parties"></a> lead_activity_parties
 
 Same as activityparty entity [lead_activity_parties](activityparty.md#BKMK_lead_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -3440,6 +3444,7 @@ Same as activityparty entity [lead_activity_parties](activityparty.md#BKMK_lead_
 ### <a name="BKMK_Lead_DuplicateMatchingRecord"></a> Lead_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [Lead_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Lead_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -3454,6 +3459,7 @@ Same as duplicaterecord entity [Lead_DuplicateMatchingRecord](duplicaterecord.md
 ### <a name="BKMK_Lead_DuplicateBaseRecord"></a> Lead_DuplicateBaseRecord
 
 Same as duplicaterecord entity [Lead_DuplicateBaseRecord](duplicaterecord.md#BKMK_Lead_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -3468,6 +3474,7 @@ Same as duplicaterecord entity [Lead_DuplicateBaseRecord](duplicaterecord.md#BKM
 ### <a name="BKMK_Lead_SharepointDocumentLocation"></a> Lead_SharepointDocumentLocation
 
 Same as sharepointdocumentlocation entity [Lead_SharepointDocumentLocation](sharepointdocumentlocation.md#BKMK_Lead_SharepointDocumentLocation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocumentlocation|
@@ -3482,6 +3489,7 @@ Same as sharepointdocumentlocation entity [Lead_SharepointDocumentLocation](shar
 ### <a name="BKMK_Lead_SharepointDocument"></a> Lead_SharepointDocument
 
 Same as sharepointdocument entity [Lead_SharepointDocument](sharepointdocument.md#BKMK_Lead_SharepointDocument) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocument|
@@ -3496,6 +3504,7 @@ Same as sharepointdocument entity [Lead_SharepointDocument](sharepointdocument.m
 ### <a name="BKMK_Lead_AsyncOperations"></a> Lead_AsyncOperations
 
 Same as asyncoperation entity [Lead_AsyncOperations](asyncoperation.md#BKMK_Lead_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -3510,6 +3519,7 @@ Same as asyncoperation entity [Lead_AsyncOperations](asyncoperation.md#BKMK_Lead
 ### <a name="BKMK_Lead_MailboxTrackingFolder"></a> Lead_MailboxTrackingFolder
 
 Same as mailboxtrackingfolder entity [Lead_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_Lead_MailboxTrackingFolder) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -3524,6 +3534,7 @@ Same as mailboxtrackingfolder entity [Lead_MailboxTrackingFolder](mailboxtrackin
 ### <a name="BKMK_userentityinstancedata_lead"></a> userentityinstancedata_lead
 
 Same as userentityinstancedata entity [userentityinstancedata_lead](userentityinstancedata.md#BKMK_userentityinstancedata_lead) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -3538,6 +3549,7 @@ Same as userentityinstancedata entity [userentityinstancedata_lead](userentityin
 ### <a name="BKMK_Lead_ProcessSessions"></a> Lead_ProcessSessions
 
 Same as processsession entity [Lead_ProcessSessions](processsession.md#BKMK_Lead_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -3552,6 +3564,7 @@ Same as processsession entity [Lead_ProcessSessions](processsession.md#BKMK_Lead
 ### <a name="BKMK_Lead_BulkDeleteFailures"></a> Lead_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Lead_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Lead_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -3566,6 +3579,7 @@ Same as bulkdeletefailure entity [Lead_BulkDeleteFailures](bulkdeletefailure.md#
 ### <a name="BKMK_lead_principalobjectattributeaccess"></a> lead_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [lead_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_lead_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -3580,6 +3594,7 @@ Same as principalobjectattributeaccess entity [lead_principalobjectattributeacce
 ### <a name="BKMK_Lead_Appointments"></a> Lead_Appointments
 
 Same as appointment entity [Lead_Appointments](appointment.md#BKMK_Lead_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -3594,6 +3609,7 @@ Same as appointment entity [Lead_Appointments](appointment.md#BKMK_Lead_Appointm
 ### <a name="BKMK_Lead_Emails"></a> Lead_Emails
 
 Same as email entity [Lead_Emails](email.md#BKMK_Lead_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -3608,6 +3624,7 @@ Same as email entity [Lead_Emails](email.md#BKMK_Lead_Emails) Many-To-One relati
 ### <a name="BKMK_Lead_Faxes"></a> Lead_Faxes
 
 Same as fax entity [Lead_Faxes](fax.md#BKMK_Lead_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -3622,6 +3639,7 @@ Same as fax entity [Lead_Faxes](fax.md#BKMK_Lead_Faxes) Many-To-One relationship
 ### <a name="BKMK_Lead_Letters"></a> Lead_Letters
 
 Same as letter entity [Lead_Letters](letter.md#BKMK_Lead_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -3636,6 +3654,7 @@ Same as letter entity [Lead_Letters](letter.md#BKMK_Lead_Letters) Many-To-One re
 ### <a name="BKMK_Lead_Phonecalls"></a> Lead_Phonecalls
 
 Same as phonecall entity [Lead_Phonecalls](phonecall.md#BKMK_Lead_Phonecalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -3650,6 +3669,7 @@ Same as phonecall entity [Lead_Phonecalls](phonecall.md#BKMK_Lead_Phonecalls) Ma
 ### <a name="BKMK_Lead_Tasks"></a> Lead_Tasks
 
 Same as task entity [Lead_Tasks](task.md#BKMK_Lead_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -3664,6 +3684,7 @@ Same as task entity [Lead_Tasks](task.md#BKMK_Lead_Tasks) Many-To-One relationsh
 ### <a name="BKMK_Lead_RecurringAppointmentMasters"></a> Lead_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [Lead_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_Lead_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -3678,6 +3699,7 @@ Same as recurringappointmentmaster entity [Lead_RecurringAppointmentMasters](rec
 ### <a name="BKMK_Lead_SocialActivities"></a> Lead_SocialActivities
 
 Same as socialactivity entity [Lead_SocialActivities](socialactivity.md#BKMK_Lead_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -3692,6 +3714,7 @@ Same as socialactivity entity [Lead_SocialActivities](socialactivity.md#BKMK_Lea
 ### <a name="BKMK_lead_connections1"></a> lead_connections1
 
 Same as connection entity [lead_connections1](connection.md#BKMK_lead_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -3706,6 +3729,7 @@ Same as connection entity [lead_connections1](connection.md#BKMK_lead_connection
 ### <a name="BKMK_lead_connections2"></a> lead_connections2
 
 Same as connection entity [lead_connections2](connection.md#BKMK_lead_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -3720,6 +3744,7 @@ Same as connection entity [lead_connections2](connection.md#BKMK_lead_connection
 ### <a name="BKMK_Lead_Annotation"></a> Lead_Annotation
 
 Same as annotation entity [Lead_Annotation](annotation.md#BKMK_Lead_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -3734,6 +3759,7 @@ Same as annotation entity [Lead_Annotation](annotation.md#BKMK_Lead_Annotation) 
 ### <a name="BKMK_Lead_actioncard"></a> Lead_actioncard
 
 Same as actioncard entity [Lead_actioncard](actioncard.md#BKMK_Lead_actioncard) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|actioncard|
@@ -3748,6 +3774,7 @@ Same as actioncard entity [Lead_actioncard](actioncard.md#BKMK_Lead_actioncard) 
 ### <a name="BKMK_Lead_Email_EmailSender"></a> Lead_Email_EmailSender
 
 Same as email entity [Lead_Email_EmailSender](email.md#BKMK_Lead_Email_EmailSender) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -3762,6 +3789,7 @@ Same as email entity [Lead_Email_EmailSender](email.md#BKMK_Lead_Email_EmailSend
 ### <a name="BKMK_lead_addresses"></a> lead_addresses
 
 Same as leadaddress entity [lead_addresses](leadaddress.md#BKMK_lead_addresses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|leadaddress|
@@ -3776,6 +3804,7 @@ Same as leadaddress entity [lead_addresses](leadaddress.md#BKMK_lead_addresses) 
 ### <a name="BKMK_lead_PostFollows"></a> lead_PostFollows
 
 Same as postfollow entity [lead_PostFollows](postfollow.md#BKMK_lead_PostFollows) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|postfollow|
@@ -3790,6 +3819,7 @@ Same as postfollow entity [lead_PostFollows](postfollow.md#BKMK_lead_PostFollows
 ### <a name="BKMK_lead_master_lead"></a> lead_master_lead
 
 Same as lead entity [lead_master_lead](lead.md#BKMK_lead_master_lead) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|lead|
@@ -3804,6 +3834,7 @@ Same as lead entity [lead_master_lead](lead.md#BKMK_lead_master_lead) Many-To-On
 ### <a name="BKMK_slakpiinstance_lead"></a> slakpiinstance_lead
 
 Same as slakpiinstance entity [slakpiinstance_lead](slakpiinstance.md#BKMK_slakpiinstance_lead) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|slakpiinstance|
@@ -3818,6 +3849,7 @@ Same as slakpiinstance entity [slakpiinstance_lead](slakpiinstance.md#BKMK_slakp
 ### <a name="BKMK_account_originating_lead"></a> account_originating_lead
 
 Same as account entity [account_originating_lead](account.md#BKMK_account_originating_lead) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|account|
@@ -3832,6 +3864,7 @@ Same as account entity [account_originating_lead](account.md#BKMK_account_origin
 ### <a name="BKMK_contact_originating_lead"></a> contact_originating_lead
 
 Same as contact entity [contact_originating_lead](contact.md#BKMK_contact_originating_lead) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contact|
@@ -3846,6 +3879,7 @@ Same as contact entity [contact_originating_lead](contact.md#BKMK_contact_origin
 ### <a name="BKMK_lead_BulkOperations"></a> lead_BulkOperations
 
 Same as bulkoperation entity [lead_BulkOperations](bulkoperation.md#BKMK_lead_BulkOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkoperation|
@@ -3860,6 +3894,7 @@ Same as bulkoperation entity [lead_BulkOperations](bulkoperation.md#BKMK_lead_Bu
 ### <a name="BKMK_lead_CampaignActivities"></a> lead_CampaignActivities
 
 Same as campaignactivity entity [lead_CampaignActivities](campaignactivity.md#BKMK_lead_CampaignActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignactivity|
@@ -3874,6 +3909,7 @@ Same as campaignactivity entity [lead_CampaignActivities](campaignactivity.md#BK
 ### <a name="BKMK_lead_CampaignResponses"></a> lead_CampaignResponses
 
 Same as campaignresponse entity [lead_CampaignResponses](campaignresponse.md#BKMK_lead_CampaignResponses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -3888,6 +3924,7 @@ Same as campaignresponse entity [lead_CampaignResponses](campaignresponse.md#BKM
 ### <a name="BKMK_CreatedLead_BulkOperationLogs"></a> CreatedLead_BulkOperationLogs
 
 Same as bulkoperationlog entity [CreatedLead_BulkOperationLogs](bulkoperationlog.md#BKMK_CreatedLead_BulkOperationLogs) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkoperationlog|
@@ -3902,6 +3939,7 @@ Same as bulkoperationlog entity [CreatedLead_BulkOperationLogs](bulkoperationlog
 ### <a name="BKMK_SourceLead_BulkOperationLogs"></a> SourceLead_BulkOperationLogs
 
 Same as bulkoperationlog entity [SourceLead_BulkOperationLogs](bulkoperationlog.md#BKMK_SourceLead_BulkOperationLogs) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkoperationlog|
@@ -3916,6 +3954,7 @@ Same as bulkoperationlog entity [SourceLead_BulkOperationLogs](bulkoperationlog.
 ### <a name="BKMK_lead_IncidentResolutions"></a> lead_IncidentResolutions
 
 Same as incidentresolution entity [lead_IncidentResolutions](incidentresolution.md#BKMK_lead_IncidentResolutions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incidentresolution|
@@ -3930,6 +3969,7 @@ Same as incidentresolution entity [lead_IncidentResolutions](incidentresolution.
 ### <a name="BKMK_Lead_ServiceAppointments"></a> Lead_ServiceAppointments
 
 Same as serviceappointment entity [Lead_ServiceAppointments](serviceappointment.md#BKMK_Lead_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -3944,6 +3984,7 @@ Same as serviceappointment entity [Lead_ServiceAppointments](serviceappointment.
 ### <a name="BKMK_lead_OpportunityCloses"></a> lead_OpportunityCloses
 
 Same as opportunityclose entity [lead_OpportunityCloses](opportunityclose.md#BKMK_lead_OpportunityCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityclose|
@@ -3958,6 +3999,7 @@ Same as opportunityclose entity [lead_OpportunityCloses](opportunityclose.md#BKM
 ### <a name="BKMK_lead_OrderCloses"></a> lead_OrderCloses
 
 Same as orderclose entity [lead_OrderCloses](orderclose.md#BKMK_lead_OrderCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|orderclose|
@@ -3972,6 +4014,7 @@ Same as orderclose entity [lead_OrderCloses](orderclose.md#BKMK_lead_OrderCloses
 ### <a name="BKMK_lead_QuoteCloses"></a> lead_QuoteCloses
 
 Same as quoteclose entity [lead_QuoteCloses](quoteclose.md#BKMK_lead_QuoteCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quoteclose|
@@ -3986,6 +4029,7 @@ Same as quoteclose entity [lead_QuoteCloses](quoteclose.md#BKMK_lead_QuoteCloses
 ### <a name="BKMK_opportunity_originating_lead"></a> opportunity_originating_lead
 
 Same as opportunity entity [opportunity_originating_lead](opportunity.md#BKMK_opportunity_originating_lead) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunity|
@@ -4000,6 +4044,7 @@ Same as opportunity entity [opportunity_originating_lead](opportunity.md#BKMK_op
 ### <a name="BKMK_lk_leadtoopportunitysalesprocess_leadid"></a> lk_leadtoopportunitysalesprocess_leadid
 
 Same as leadtoopportunitysalesprocess entity [lk_leadtoopportunitysalesprocess_leadid](leadtoopportunitysalesprocess.md#BKMK_lk_leadtoopportunitysalesprocess_leadid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|leadtoopportunitysalesprocess|
@@ -4014,6 +4059,7 @@ Same as leadtoopportunitysalesprocess entity [lk_leadtoopportunitysalesprocess_l
 ### <a name="BKMK_lead_msdyn_bookingalerts"></a> lead_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [lead_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_lead_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -4028,6 +4074,7 @@ Same as msdyn_bookingalert entity [lead_msdyn_bookingalerts](msdyn_bookingalert.
 ### <a name="BKMK_lead_msdyn_approvals"></a> lead_msdyn_approvals
 
 Same as msdyn_approval entity [lead_msdyn_approvals](msdyn_approval.md#BKMK_lead_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|

@@ -64,11 +64,11 @@ Service level agreements (SLAs) in [!INCLUDE[pn_microsoftcrm](../includes/pn-mic
 ## Limitations to applying SLAs in Dynamics 365 (online)  
  In [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], the following limitations are applicable for SLAs per [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance (organization):  
   
--   You can have a maximum of 7 entities that can have active SLAs. You will encounter an error on activating an SLA if this limit is exceeded.  
+- You can have a maximum of 7 entities that can have active SLAs. You will encounter an error on activating an SLA if this limit is exceeded.  
   
--   You can have a maximum of 5 SLA KPIs per entity for active SLAs. You will encounter an error on activating an SLA if this limit is exceeded. This limit is not applicable for the `Incident` entity.  
+- You can have a maximum of 5 SLA KPIs per entity for active SLAs. You will encounter an error on activating an SLA if this limit is exceeded. This limit is not applicable for the `Incident` entity.  
   
- These limits aren't applicable for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] on-premises.  
+  These limits aren't applicable for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] on-premises.  
   
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
 

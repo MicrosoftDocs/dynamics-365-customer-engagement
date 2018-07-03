@@ -44,13 +44,13 @@ A model-driven app can be made available as a solution. This allows you to packa
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-2.  Select **Solutions**.  
+2. Select **Solutions**.  
   
-3.  In the Solution window, under **Components**, select **Apps**.  
+3. In the Solution window, under **Components**, select **Apps**.  
   
-4.  Select the app you want to delete, and on the command bar, select **Delete**.  
+4. Select the app you want to delete, and on the command bar, select **Delete**.  
   
-     You can delete unmanaged components or managed components that are customizable. If the component has dependencies such as relationships, you must remove the dependencies before you can delete the component. See **Show Dependencies**.  
+    You can delete unmanaged components or managed components that are customizable. If the component has dependencies such as relationships, you must remove the dependencies before you can delete the component. See **Show Dependencies**.  
   
 ### See also  
  [Design custom business apps by using the app designer](design-custom-business-apps-using-app-designer.md)

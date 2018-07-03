@@ -23,12 +23,12 @@ var viewSelector = gridContext.getViewSelector();
 
 Methods
 
-|Name|Description|Available for|
-|--|--|--|
-|[getCurrentView](viewselector/getCurrentView.md)|[!INCLUDE[viewselector/includes/getCurrentView-description.md](viewselector/includes/getCurrentView-description.md)]|Read-only grid|
-|[isVisible](viewselector/isVisible.md)|[!INCLUDE[viewselector/includes/isVisible-description.md](viewselector/includes/isVisible-description.md)]|Read-only grid|
-|[setCurrentView](viewselector/setCurrentView.md)|[!INCLUDE[viewselector/includes/setCurrentView-description.md](viewselector/includes/setCurrentView-description.md)]|Read-only grid|
 
+|                       Name                       |                                                     Description                                                      | Available for  |
+|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|----------------|
+| [getCurrentView](viewselector/getCurrentView.md) | [!INCLUDE[viewselector/includes/getCurrentView-description.md](viewselector/includes/getCurrentView-description.md)] | Read-only grid |
+|      [isVisible](viewselector/isVisible.md)      |      [!INCLUDE[viewselector/includes/isVisible-description.md](viewselector/includes/isVisible-description.md)]      | Read-only grid |
+| [setCurrentView](viewselector/setCurrentView.md) | [!INCLUDE[viewselector/includes/setCurrentView-description.md](viewselector/includes/setCurrentView-description.md)] | Read-only grid |
 
 ### Related topics
 

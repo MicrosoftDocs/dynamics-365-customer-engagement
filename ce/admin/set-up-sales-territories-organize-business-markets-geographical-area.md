@@ -28,32 +28,32 @@ Improve sales potential and revenues by creating territories for customer and ma
   
     Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)]  
   
-3.  Choose **Sales Territories**.  
+3. Choose **Sales Territories**.  
   
-4.  On the command bar, choose **New**.  
+4. On the command bar, choose **New**.  
   
-5.  Fill in your information.  
+5. Fill in your information.  
   
-    - **Name**. Enter the geographical name for the territory such as the name of a city, country/region, or a state.  
+   - **Name**. Enter the geographical name for the territory such as the name of a city, country/region, or a state.  
   
-    - **Manager**. Enter the name of the user who is the manager for this territory. This person would typically assign leads to salespeople.  
+   - **Manager**. Enter the name of the user who is the manager for this territory. This person would typically assign leads to salespeople.  
   
-        > [!IMPORTANT]
-        >  You can’t allocate the same user to multiple territories. If you need to assign a user to a larger area (more than one existing territory), create a new territory that includes the existing territories, and then assign the user to that new territory.  
+       > [!IMPORTANT]
+       >  You can’t allocate the same user to multiple territories. If you need to assign a user to a larger area (more than one existing territory), create a new territory that includes the existing territories, and then assign the user to that new territory.  
   
-    - **Description**. Enter any details that you’d like to include for this territory, for example, “Sales territory created for education and training.”  
+   - **Description**. Enter any details that you’d like to include for this territory, for example, “Sales territory created for education and training.”  
   
-6.  When you’re done, on the command bar, choose **Save** or **Save and Close**.  
+6. When you’re done, on the command bar, choose **Save** or **Save and Close**.  
   
-7.  To assign members to a sales territory, open the territory, and then in the left pane, under **Common**, choose **Members**.  
+7. To assign members to a sales territory, open the territory, and then in the left pane, under **Common**, choose **Members**.  
   
-8.  On the **Users** tab, in the **Records** group, choose **Add Members**.  
+8. On the **Users** tab, in the **Records** group, choose **Add Members**.  
   
 9. In the **Look Up Records** dialog box, select a user, and then choose **Add**.  
   

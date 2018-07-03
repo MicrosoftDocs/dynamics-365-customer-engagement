@@ -29,21 +29,21 @@ Avoid having your service level agreements (SLAs) affected when your service org
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)] [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)] [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
   
-3.  Click **Holiday Schedule**.  
+3. Click **Holiday Schedule**.  
   
-4.  Click **+** **New** and in the **Create Holiday Schedule** dialog box, enter a name and description for the holiday, and then click **Create**.  
+4. Click **+** **New** and in the **Create Holiday Schedule** dialog box, enter a name and description for the holiday, and then click **Create**.  
   
-5.  In the list of holidays, click the holiday you created.  
+5. In the list of holidays, click the holiday you created.  
   
-6.  When the holiday is open, click **New** to add the holiday to your customer service calendar.  
+6. When the holiday is open, click **New** to add the holiday to your customer service calendar.  
   
-7.  In the **Add a Holiday** dialog box, specify the name and select the time of the holiday, and then click **OK**.  
+7. In the **Add a Holiday** dialog box, specify the name and select the time of the holiday, and then click **OK**.  
   
- The holiday is created and associated with your customer service calendar. After the customer service schedule is associated to an SLA,  then your SLA during business hours is not affected. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define service level agreements](../customer-service/define-service-level-agreements.md)  
+   The holiday is created and associated with your customer service calendar. After the customer service schedule is associated to an SLA,  then your SLA during business hours is not affected. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define service level agreements](../customer-service/define-service-level-agreements.md)  
   
 ### See also  
  [Create a customer service schedule and define the work hours](../customer-service/create-customer-service-schedule-define-work-hours.md)   

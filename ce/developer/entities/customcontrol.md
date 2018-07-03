@@ -564,6 +564,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_customcontrol_resource_id"></a> customcontrol_resource_id
 
 Same as customcontrolresource entity [customcontrol_resource_id](customcontrolresource.md#BKMK_customcontrol_resource_id) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|customcontrolresource|

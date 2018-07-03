@@ -34,9 +34,9 @@ If you have customized entity or field text, such as field labels or drop-down l
   
 2. In the solution explorer, on the Actions toolbar, select **Import Translations**.  
   
-3.  In the **Import Translated Text** dialog box, specify the file that contains the translated text, and then select **Import**.  
+3. In the **Import Translated Text** dialog box, specify the file that contains the translated text, and then select **Import**.  
   
-4.  When the import is complete, select **Close**.  
+4. When the import is complete, select **Close**.  
   
 > [!NOTE]
 >  Publishing customizations can interfere with normal system operation. We recommend you schedule publishing when it’s least disruptive to users.  

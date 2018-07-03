@@ -680,6 +680,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_savedqueryvisualization"></a> userentityinstancedata_savedqueryvisualization
 
 Same as userentityinstancedata entity [userentityinstancedata_savedqueryvisualization](userentityinstancedata.md#BKMK_userentityinstancedata_savedqueryvisualization) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -694,6 +695,7 @@ Same as userentityinstancedata entity [userentityinstancedata_savedqueryvisualiz
 ### <a name="BKMK_SavedQueryVisualization_SyncErrors"></a> SavedQueryVisualization_SyncErrors
 
 Same as syncerror entity [SavedQueryVisualization_SyncErrors](syncerror.md#BKMK_SavedQueryVisualization_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|

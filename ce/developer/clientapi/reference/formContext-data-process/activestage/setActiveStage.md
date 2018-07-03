@@ -52,7 +52,7 @@ manager: "amyla"
 <td>invalid</td>
 <td>There are three reasons why this value may be returned:
 <ul>
-<li>The *stageId* parameter is a non-existent stage ID value.</li>
+<li>The <em>stageId</em> parameter is a non-existent stage ID value.</li>
 <li>The active stage isn’t the selected stage.</li>
 <li>The record hasn’t been saved yet.</li>
 </ul>

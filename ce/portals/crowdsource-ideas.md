@@ -95,17 +95,19 @@ For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, provided 
 
 The table below explains the standard attributes and relationships of the Idea Comment entity.
 
-| Name             | Description                                                               |
+
+|       Name       |                                Description                                |
 |------------------|---------------------------------------------------------------------------|
-| Name             | A title for the idea comment.                                             |
-| Idea             | The idea to which the comment belongs.                                    |
-| Content          | The content of the comment in HTML format.                                |
-| Published to Web | Whether the comment is visible on the website.                            |
-| Author Name      | Text specifying the name of the user that submitted the comment.          |
-| Author E-mail    | Text specifying the e-mail of the user that submitted the comment.        |
-| Author           | Relationship specifying which portal user is associated with the comment. |
-| Posted On        | The date and time that the comment was created.                           |
-||
+|       Name       |                       A title for the idea comment.                       |
+|       Idea       |                  The idea to which the comment belongs.                   |
+|     Content      |                The content of the comment in HTML format.                 |
+| Published to Web |              Whether the comment is visible on the website.               |
+|   Author Name    |     Text specifying the name of the user that submitted the comment.      |
+|  Author E-mail   |    Text specifying the e-mail of the user that submitted the comment.     |
+|      Author      | Relationship specifying which portal user is associated with the comment. |
+|    Posted On     |              The date and time that the comment was created.              |
+|                  |                                                                           |
+
 ## Manage idea votes in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
 
 For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, provided the portal customizations have been imported into your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, Idea Vote records can be managed under the Community tab.

@@ -83,7 +83,7 @@ More information: [Contact Technical Support](contact-technical-support.md)
   
  ![Office 365 admin center active users](../admin/media/o365-admin-center-manage-users.png "Office 365 admin center active users")  
   
-> [!NOTE] 
+> [!NOTE]
 > [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] uses [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-whatis) as its identity provider. You access [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] through an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] user ID that is created and managed in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. For simplicity, we’ll refer to the [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] user ID as the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user ID in this documentation.  
   
  If your company uses on-premises [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] for user identity, you have options that can simplify user management such as providing a single sign-on experience for your users. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage user account synchronization](../admin/manage-user-account-synchronization.md)  

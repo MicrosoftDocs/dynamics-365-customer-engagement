@@ -1369,6 +1369,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_activity_pointer_BulkOperation"></a> activity_pointer_BulkOperation
 
 Same as bulkoperation entity [activity_pointer_BulkOperation](bulkoperation.md#BKMK_activity_pointer_BulkOperation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkoperation|
@@ -1383,6 +1384,7 @@ Same as bulkoperation entity [activity_pointer_BulkOperation](bulkoperation.md#B
 ### <a name="BKMK_activity_pointer_campaignactivity"></a> activity_pointer_campaignactivity
 
 Same as campaignactivity entity [activity_pointer_campaignactivity](campaignactivity.md#BKMK_activity_pointer_campaignactivity) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignactivity|
@@ -1397,6 +1399,7 @@ Same as campaignactivity entity [activity_pointer_campaignactivity](campaignacti
 ### <a name="BKMK_activity_pointer_campaignresponse"></a> activity_pointer_campaignresponse
 
 Same as campaignresponse entity [activity_pointer_campaignresponse](campaignresponse.md#BKMK_activity_pointer_campaignresponse) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -1411,6 +1414,7 @@ Same as campaignresponse entity [activity_pointer_campaignresponse](campaignresp
 ### <a name="BKMK_activity_pointer_BulkOperation_logs"></a> activity_pointer_BulkOperation_logs
 
 Same as bulkoperationlog entity [activity_pointer_BulkOperation_logs](bulkoperationlog.md#BKMK_activity_pointer_BulkOperation_logs) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkoperationlog|
@@ -1425,6 +1429,7 @@ Same as bulkoperationlog entity [activity_pointer_BulkOperation_logs](bulkoperat
 ### <a name="BKMK_CreatedActivity_BulkOperationLogs"></a> CreatedActivity_BulkOperationLogs
 
 Same as bulkoperationlog entity [CreatedActivity_BulkOperationLogs](bulkoperationlog.md#BKMK_CreatedActivity_BulkOperationLogs) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkoperationlog|
@@ -1439,6 +1444,7 @@ Same as bulkoperationlog entity [CreatedActivity_BulkOperationLogs](bulkoperatio
 ### <a name="BKMK_ActivityPointer_CampaignActivityItems"></a> ActivityPointer_CampaignActivityItems
 
 Same as campaignactivityitem entity [ActivityPointer_CampaignActivityItems](campaignactivityitem.md#BKMK_ActivityPointer_CampaignActivityItems) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignactivityitem|
@@ -1453,6 +1459,7 @@ Same as campaignactivityitem entity [ActivityPointer_CampaignActivityItems](camp
 ### <a name="BKMK_activity_campaignresponse"></a> activity_campaignresponse
 
 Same as campaignresponse entity [activity_campaignresponse](campaignresponse.md#BKMK_activity_campaignresponse) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -1467,6 +1474,7 @@ Same as campaignresponse entity [activity_campaignresponse](campaignresponse.md#
 ### <a name="BKMK_activity_pointer_incident_resolution"></a> activity_pointer_incident_resolution
 
 Same as incidentresolution entity [activity_pointer_incident_resolution](incidentresolution.md#BKMK_activity_pointer_incident_resolution) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incidentresolution|
@@ -1481,6 +1489,7 @@ Same as incidentresolution entity [activity_pointer_incident_resolution](inciden
 ### <a name="BKMK_activity_pointer_service_appointment"></a> activity_pointer_service_appointment
 
 Same as serviceappointment entity [activity_pointer_service_appointment](serviceappointment.md#BKMK_activity_pointer_service_appointment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -1495,6 +1504,7 @@ Same as serviceappointment entity [activity_pointer_service_appointment](service
 ### <a name="BKMK_activity_pointer_opportunity_close"></a> activity_pointer_opportunity_close
 
 Same as opportunityclose entity [activity_pointer_opportunity_close](opportunityclose.md#BKMK_activity_pointer_opportunity_close) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityclose|
@@ -1509,6 +1519,7 @@ Same as opportunityclose entity [activity_pointer_opportunity_close](opportunity
 ### <a name="BKMK_activity_pointer_order_close"></a> activity_pointer_order_close
 
 Same as orderclose entity [activity_pointer_order_close](orderclose.md#BKMK_activity_pointer_order_close) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|orderclose|
@@ -1523,6 +1534,7 @@ Same as orderclose entity [activity_pointer_order_close](orderclose.md#BKMK_acti
 ### <a name="BKMK_activity_pointer_quote_close"></a> activity_pointer_quote_close
 
 Same as quoteclose entity [activity_pointer_quote_close](quoteclose.md#BKMK_activity_pointer_quote_close) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quoteclose|
@@ -1537,6 +1549,7 @@ Same as quoteclose entity [activity_pointer_quote_close](quoteclose.md#BKMK_acti
 ### <a name="BKMK_activity_pointer_msdyn_bookingalert"></a> activity_pointer_msdyn_bookingalert
 
 Same as msdyn_bookingalert entity [activity_pointer_msdyn_bookingalert](msdyn_bookingalert.md#BKMK_activity_pointer_msdyn_bookingalert) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -1551,6 +1564,7 @@ Same as msdyn_bookingalert entity [activity_pointer_msdyn_bookingalert](msdyn_bo
 ### <a name="BKMK_activity_pointer_msdyn_approval"></a> activity_pointer_msdyn_approval
 
 Same as msdyn_approval entity [activity_pointer_msdyn_approval](msdyn_approval.md#BKMK_activity_pointer_msdyn_approval) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -1565,6 +1579,7 @@ Same as msdyn_approval entity [activity_pointer_msdyn_approval](msdyn_approval.m
 ### <a name="BKMK_activity_pointer_fax"></a> activity_pointer_fax
 
 Same as fax entity [activity_pointer_fax](fax.md#BKMK_activity_pointer_fax) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -1579,6 +1594,7 @@ Same as fax entity [activity_pointer_fax](fax.md#BKMK_activity_pointer_fax) Many
 ### <a name="BKMK_activity_pointer_recurrencerule"></a> activity_pointer_recurrencerule
 
 Same as recurrencerule entity [activity_pointer_recurrencerule](recurrencerule.md#BKMK_activity_pointer_recurrencerule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurrencerule|
@@ -1593,6 +1609,7 @@ Same as recurrencerule entity [activity_pointer_recurrencerule](recurrencerule.m
 ### <a name="BKMK_activity_pointer_letter"></a> activity_pointer_letter
 
 Same as letter entity [activity_pointer_letter](letter.md#BKMK_activity_pointer_letter) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -1607,6 +1624,7 @@ Same as letter entity [activity_pointer_letter](letter.md#BKMK_activity_pointer_
 ### <a name="BKMK_activitypointer_connections1"></a> activitypointer_connections1
 
 Same as connection entity [activitypointer_connections1](connection.md#BKMK_activitypointer_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1621,6 +1639,7 @@ Same as connection entity [activitypointer_connections1](connection.md#BKMK_acti
 ### <a name="BKMK_activity_pointer_phonecall"></a> activity_pointer_phonecall
 
 Same as phonecall entity [activity_pointer_phonecall](phonecall.md#BKMK_activity_pointer_phonecall) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -1635,6 +1654,7 @@ Same as phonecall entity [activity_pointer_phonecall](phonecall.md#BKMK_activity
 ### <a name="BKMK_activity_pointer_email"></a> activity_pointer_email
 
 Same as email entity [activity_pointer_email](email.md#BKMK_activity_pointer_email) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -1649,6 +1669,7 @@ Same as email entity [activity_pointer_email](email.md#BKMK_activity_pointer_ema
 ### <a name="BKMK_activitypointer_activity_parties"></a> activitypointer_activity_parties
 
 Same as activityparty entity [activitypointer_activity_parties](activityparty.md#BKMK_activitypointer_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1663,6 +1684,7 @@ Same as activityparty entity [activitypointer_activity_parties](activityparty.md
 ### <a name="BKMK_activity_pointer_activity_mime_attachment"></a> activity_pointer_activity_mime_attachment
 
 Same as activitymimeattachment entity [activity_pointer_activity_mime_attachment](activitymimeattachment.md#BKMK_activity_pointer_activity_mime_attachment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitymimeattachment|
@@ -1677,6 +1699,7 @@ Same as activitymimeattachment entity [activity_pointer_activity_mime_attachment
 ### <a name="BKMK_activity_pointer_appointment"></a> activity_pointer_appointment
 
 Same as appointment entity [activity_pointer_appointment](appointment.md#BKMK_activity_pointer_appointment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -1691,6 +1714,7 @@ Same as appointment entity [activity_pointer_appointment](appointment.md#BKMK_ac
 ### <a name="BKMK_activitypointer_connections2"></a> activitypointer_connections2
 
 Same as connection entity [activitypointer_connections2](connection.md#BKMK_activitypointer_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1705,6 +1729,7 @@ Same as connection entity [activitypointer_connections2](connection.md#BKMK_acti
 ### <a name="BKMK_slakpiinstance_activitypointer"></a> slakpiinstance_activitypointer
 
 Same as slakpiinstance entity [slakpiinstance_activitypointer](slakpiinstance.md#BKMK_slakpiinstance_activitypointer) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|slakpiinstance|
@@ -1719,6 +1744,7 @@ Same as slakpiinstance entity [slakpiinstance_activitypointer](slakpiinstance.md
 ### <a name="BKMK_ActivityPointer_QueueItem"></a> ActivityPointer_QueueItem
 
 Same as queueitem entity [ActivityPointer_QueueItem](queueitem.md#BKMK_ActivityPointer_QueueItem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queueitem|
@@ -1733,6 +1759,7 @@ Same as queueitem entity [ActivityPointer_QueueItem](queueitem.md#BKMK_ActivityP
 ### <a name="BKMK_activity_pointer_task"></a> activity_pointer_task
 
 Same as task entity [activity_pointer_task](task.md#BKMK_activity_pointer_task) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -1747,6 +1774,7 @@ Same as task entity [activity_pointer_task](task.md#BKMK_activity_pointer_task) 
 ### <a name="BKMK_activity_pointer_socialactivity"></a> activity_pointer_socialactivity
 
 Same as socialactivity entity [activity_pointer_socialactivity](socialactivity.md#BKMK_activity_pointer_socialactivity) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -1761,6 +1789,7 @@ Same as socialactivity entity [activity_pointer_socialactivity](socialactivity.m
 ### <a name="BKMK_ActivityPointer_AsyncOperations"></a> ActivityPointer_AsyncOperations
 
 Same as asyncoperation entity [ActivityPointer_AsyncOperations](asyncoperation.md#BKMK_ActivityPointer_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1775,6 +1804,7 @@ Same as asyncoperation entity [ActivityPointer_AsyncOperations](asyncoperation.m
 ### <a name="BKMK_ActivityPointer_BulkDeleteFailures"></a> ActivityPointer_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [ActivityPointer_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ActivityPointer_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1789,6 +1819,7 @@ Same as bulkdeletefailure entity [ActivityPointer_BulkDeleteFailures](bulkdelete
 ### <a name="BKMK_activity_pointer_recurringappointmentmaster"></a> activity_pointer_recurringappointmentmaster
 
 Same as recurringappointmentmaster entity [activity_pointer_recurringappointmentmaster](recurringappointmentmaster.md#BKMK_activity_pointer_recurringappointmentmaster) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|

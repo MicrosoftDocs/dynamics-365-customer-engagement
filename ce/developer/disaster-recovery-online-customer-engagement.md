@@ -36,27 +36,27 @@ Disaster recovery is a feature of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-on
   
 #### Typical application logic flow for a disaster event and failover  
   
-1.  A disaster event occurs in the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] datacenter.  
+1. A disaster event occurs in the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] datacenter.  
   
-2.  Your application makes a service call through a service proxy class object: <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy>, <xref:Microsoft.Xrm.Sdk.Client.DiscoveryServiceProxy>.  
+2. Your application makes a service call through a service proxy class object: <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy>, <xref:Microsoft.Xrm.Sdk.Client.DiscoveryServiceProxy>.  
   
-3.  The service proxy class object receives an exception after attempting the service call.  
+3. The service proxy class object receives an exception after attempting the service call.  
   
-4.  If the target organization of the call is not enabled for failover, go to step 9.  
+4. If the target organization of the call is not enabled for failover, go to step 9.  
   
-5.  The <xref:Microsoft.Xrm.Sdk.Client.ServiceProxy`1.EndpointSwitchRequired> event is thrown.  
+5. The <xref:Microsoft.Xrm.Sdk.Client.ServiceProxy`1.EndpointSwitchRequired> event is thrown.  
   
-6.  The <xref:Microsoft.Xrm.Sdk.Client.ServiceProxy`1.EndpointSwitched> event is thrown.  
+6. The <xref:Microsoft.Xrm.Sdk.Client.ServiceProxy`1.EndpointSwitched> event is thrown.  
   
-7.  The service proxy class object automatically tries the call again.  
+7. The service proxy class object automatically tries the call again.  
   
-8.  If the second call was successful, the application continues normally.  
+8. If the second call was successful, the application continues normally.  
   
 9. If the call was not successful, an exception is returned to the application: `EndpointNotFoundException`, `TimeoutException`, `FaultException<OrganizationServiceFault>` where `fault.Detail.ErrorCode` == -2147176347.  
   
- You may want to implement code that checks for potential data loss after endpoint switch events are received and handle it appropriately.  
+   You may want to implement code that checks for potential data loss after endpoint switch events are received and handle it appropriately.  
   
- After the disaster affecting the primary organization endpoint has been corrected in the datacenter, a fail back from the alternate endpoint URL to the primary endpoint URL for the organization occurs as part of planned organization maintenance.  
+   After the disaster affecting the primary organization endpoint has been corrected in the datacenter, a fail back from the alternate endpoint URL to the primary endpoint URL for the organization occurs as part of planned organization maintenance.  
   
 <a name="develop_fail"></a>   
 

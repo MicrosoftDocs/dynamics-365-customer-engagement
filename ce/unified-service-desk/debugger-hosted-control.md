@@ -32,9 +32,9 @@ Use **Debugger** hosted control type in Unified Service Desk to configure a debu
   
  In the **New Hosted Control** screen:  
   
--   Under **Unified Service Desk** area, select **Debugger** from the **USD Component Type** drop-down list.  
+- Under **Unified Service Desk** area, select **Debugger** from the **USD Component Type** drop-down list.  
   
--   The **Display Group** field displays the panel where this hosted control will be displayed. **MainPanel** is the most common for this hosted control type. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md). For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
+- The **Display Group** field displays the panel where this hosted control will be displayed. **MainPanel** is the most common for this hosted control type. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md). For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
 <a name="actions"></a>   
 ## Predefined UII actions  

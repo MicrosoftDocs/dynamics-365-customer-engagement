@@ -21,12 +21,12 @@ manager: "amyla"
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Because [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement is a metadata-driven application, developers may need to query the system metadata at run-time to adapt to how an organization has been configured. This capability is available using the Web API as well as using the organization service by using the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesRequest> and the classes of the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace. The Web API allows for querying metadata but does not provide the ability to detect changes to metadata from a point in time.
-  
+
 <a name="bkmk_QueryingEntityMetadata"></a>
 
 ## Querying the EntityMetadata entity type
  You’ll use the same techniques described in [Query Data using the Web API](query-data-web-api.md) when you query EntityMetadata, with a few variations. Use the `EntityDefinitions` entity set path to retrieve information about the <xref href="Microsoft.Dynamics.CRM.EntityMetadata?text=EntityMetadata EntityType" />. EntityMetadata entities contain a lot of data so you will want to be careful to only retrieve the data that you need. The following example shows the data returned for just the DisplayName, IsKnowledgeManagementEnabled, and EntitySetName properties of the metadata for the `Account` entity. The `MetadataId` property value is always returned.  
-  
+
  **Request**
 
 ```http
@@ -70,7 +70,6 @@ OData-Version: 4.0
   }  
  ]  
 }  
-  
 ```
 
  You can use any of the `EntityMetadata` properties with `$select` system query options and you can use `$filter` on any properties which use primitive or enumeration values.  
@@ -92,7 +91,7 @@ GET [Organization URI]/api/data/v9.0/EntityDefinitions?$select=LogicalName&$filt
 ## Use complex types in $filter operations
 
  When you need to filter metadata entities based on the value of a property that uses a complex type, you must include the path to the underlying primitive type. Complex types are used as property values only in metadata entities. For example, if you need to filter entities based on the CanCreateAttributes property, which uses the <xref href="Microsoft.Dynamics.CRM.BooleanManagedProperty?text=BooleanManagedProperty ComplexType" />, you can use the following `$filter` to return only those entities that have a `Value` of `true`.
-  
+
 ```http
 GET [Organization URI]/api/data/v9.0/EntityDefinitions?$select=LogicalName&$filter=CanCreateAttributes/Value eq true  
 ```
@@ -123,7 +122,7 @@ GET [Organization URI]/api/data/v9.0/EntityDefinitions(LogicalName='account')/At
 > Despite the fact that the OptionSet and GlobalOptionSet collection-valued navigation properties are defined within <xref href="Microsoft.Dynamics.CRM.EnumAttributeMetadata?text=EnumAttributeMetadata EntityType" />, you cannot cast the attributes to this type. This means that if you want to filter on other types which also inherit these properties (see [Entity types that inherit from EnumAttributeMetadata](/dynamics365/customer-engagement/web-api/enumattributemetadata?view=dynamics-ce-odata-9#Derived_Types) ), you must perform separate queries to filter for each type.
 
  Another example of this is accessing the Precision property available in <xref href="Microsoft.Dynamics.CRM.MoneyAttributeMetadata?text=MoneyAttributeMetadata EntityType" /> and <xref href="Microsoft.Dynamics.CRM.DecimalAttributeMetadata?text=DecimalAttributeMetadata EntityType" /> attributes. To access this property you must cast the attributes collection either as MoneyAttributeMetadata or DecimalAttributeMetadata. An example showing casting to MoneyAttributeMetadata is shown here.
-  
+
 ```http
 GET [Organization URI]/api/data/v9.0/EntityDefinitions(LogicalName='account')/Attributes/Microsoft.Dynamics.CRM.MoneyAttributeMetadata?$select=LogicalName,Precision
 ```
@@ -246,7 +245,6 @@ Additional options removed for brevity
   "HasChanged": null  
  }  
 }  
-  
 ```
 
  If you don’t require any properties of the attribute and only want the values of a collection-valued navigation property such as OptionsSet, you can include that in the URL and limit the properties with a `$select` system query option for a somewhat more efficient query. In the following example only the Options property of the OptionSet are included.  
@@ -265,7 +263,7 @@ OData-Version: 4.0
 HTTP/1.1 200 OK  
 Content-Type: application/json; odata.metadata=minimal  
 OData-Version: 4.0  
-  
+
 {  
  "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#EntityDefinitions('account')/Attributes(5967e7cc-afbb-4c10-bf7e-e7ef430c52be)/Microsoft.Dynamics.CRM.PicklistAttributeMetadata/OptionSet(Options)/$entity",  
  "Options": [{  

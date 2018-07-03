@@ -1,7 +1,7 @@
 ---
 title: "Overview of guidance content | MicrosoftDocs"
 description: "Technical guidance for developers created by the Microsoft Dynamics 365 Customer Engagement team based on common issues and problems reported by customers. The guidance in these topics includes guidance regarding usage, design, performance, security, upgrade readiness, online migration, maintainability, and supportability. This content describes common symptoms, problematic patterns, and the potential impact of common problems as well as guidance about how to avoid them."
-ms.date: 02/05/2018
+ms.date: 06/28/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
@@ -13,15 +13,6 @@ manager: "austinj"
 ---
 # Overview of guidance content
 
-**Applies to**:
-
-- [!include[](../includes/pn-crm-9-0-0-online.md)]
-- [!include[](../includes/pn-crm-2016.md)]
-- [!include[](../includes/pn-crm-8-1-0-both.md)]
-- [!include[](../includes/pn-crm-2015.md)]
-- [!include[](../includes/pn-crmv6.md)]
-- [!include[](../includes/pn-crm-2011.md)]
-
 We have identified common issues that can occur if best practices are not followed when you are customizing, extending, or integrating with the platform. This section provides you a centralized location to learn about the issues we have identified, their impact, and understand the guidance to resolve them. You will have some background about why things should be done in a certain way and avoid potential problems in the future. This can benefit the usability, supportability, and performance of your environment.  The guidance documentation supports the existing information within the SDK and the Developer and Administration guides.
 
 <a name='custtypes'></a>
@@ -30,10 +21,10 @@ We have identified common issues that can occur if best practices are not follow
 
 The documentation targets the following customization types:
 
-- Configuration changes through a [!include[](../includes/pn-dynamics-crm.md)] designer or administrative console
+- Configuration changes through a Dynamics 365 designer or administrative console
 - Client scripts
 - Custom workflow activities and plug-ins
-- Integrations through the [!include[](../includes/pn-dynamics-crm.md)] SDK, the various [!include[](../includes/pn-dynamics-crm.md)] web based services, [!include[](../includes/pn-azure-shortest.md)], [!include[](../includes/pn-flow.md)], and PowerApps.
+- Integrations through the Dynamics 365 SDK, the various Dynamics 365 web based services, Azure, Microsoft Flow, and PowerApps.
 
 <a name='sections'></a>
 
@@ -42,7 +33,6 @@ The documentation targets the following customization types:
 Each guidance article includes most or all of the following sections:
 
 - *Title* - description of the guidance
-- *Applies to* - supported versions of the product in which the guidance applies
 - *Category* - one or more areas impacted by not following the guidance
 - *Impact potential* - the level of risk (high, medium, or low) of affecting the environment by not following the guidance
 - *Symptoms* - possible indications that the guidance has not been followed

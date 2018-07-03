@@ -25,15 +25,15 @@ A [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] competition includ
   
 ## Post on the smack talk board in Gamification  
   
-1.  In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **My Games** > **Smack Talk**.  
+1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **My Games** > **Smack Talk**.  
   
-2.  Enter your message in the input box.  
+2. Enter your message in the input box.  
   
-3.  Optionally, add a photo to your post or turn your post into a *BAM post*—a special type of post that runs a short animation to celebrate an achievement.  
+3. Optionally, add a photo to your post or turn your post into a *BAM post*—a special type of post that runs a short animation to celebrate an achievement.  
   
-4.  To publish your update, click **Submit Post**.  
+4. To publish your update, click **Submit Post**.  
   
- All players in the selected game will see your post in their **Smack Talk** feed.  
+   All players in the selected game will see your post in their **Smack Talk** feed.  
   
 ### See also
 

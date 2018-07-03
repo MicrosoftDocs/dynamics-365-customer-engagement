@@ -892,6 +892,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_ActionCardUserState_ActionCard"></a> ActionCardUserState_ActionCard
 
 Same as actioncarduserstate entity [ActionCardUserState_ActionCard](actioncarduserstate.md#BKMK_ActionCardUserState_ActionCard) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|actioncarduserstate|

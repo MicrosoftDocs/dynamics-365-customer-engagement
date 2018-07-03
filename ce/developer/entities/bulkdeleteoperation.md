@@ -594,6 +594,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_BulkDeleteOperation_BulkDeleteFailure"></a> BulkDeleteOperation_BulkDeleteFailure
 
 Same as bulkdeletefailure entity [BulkDeleteOperation_BulkDeleteFailure](bulkdeletefailure.md#BKMK_BulkDeleteOperation_BulkDeleteFailure) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -608,6 +609,7 @@ Same as bulkdeletefailure entity [BulkDeleteOperation_BulkDeleteFailure](bulkdel
 ### <a name="BKMK_userentityinstancedata_bulkdeleteoperation"></a> userentityinstancedata_bulkdeleteoperation
 
 Same as userentityinstancedata entity [userentityinstancedata_bulkdeleteoperation](userentityinstancedata.md#BKMK_userentityinstancedata_bulkdeleteoperation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

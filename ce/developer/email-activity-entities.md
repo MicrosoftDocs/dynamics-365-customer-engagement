@@ -52,17 +52,17 @@ The email activity lets you track and manage email communications with customers
 ## Actions on an Email Activity  
  Using [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)], you can perform the following actions on an email activity:  
   
--   Create, retrieve, update, and delete the email activity.  
+- Create, retrieve, update, and delete the email activity.  
   
--   Send email messages, or send email messages by using email templates (`Template`). For more information about email templates, see [Template Entity](entities/template.md).  
+- Send email messages, or send email messages by using email templates (`Template`). For more information about email templates, see [Template Entity](entities/template.md).  
   
--   Attach files as attachments by using the (`ActivityMimeAttachment`) attribute in the email message.  
+- Attach files as attachments by using the (`ActivityMimeAttachment`) attribute in the email message.  
   
--   Send mass or bulk email messages.  
+- Send mass or bulk email messages.  
   
--   Configure incoming email messages to be delivered from [!INCLUDE[pn_Exchange_Server_full](../includes/pn-exchange-server-full.md)] to any user or queue, or outgoing messages to be sent from any user or queue to [!INCLUDE[pn_Exchange_Server_full](../includes/pn-exchange-server-full.md)]. For information about how to configure incoming email messages for queues, see  [Configure email for incoming messages](configure-email-incoming-messages.md).  
+- Configure incoming email messages to be delivered from [!INCLUDE[pn_Exchange_Server_full](../includes/pn-exchange-server-full.md)] to any user or queue, or outgoing messages to be sent from any user or queue to [!INCLUDE[pn_Exchange_Server_full](../includes/pn-exchange-server-full.md)]. For information about how to configure incoming email messages for queues, see  [Configure email for incoming messages](configure-email-incoming-messages.md).  
   
-     If the `Organization.RequireApprovalForuserEmail` and `Organization.RequireApprovalForQueueEmail` (process emails only for approved users/queues) organization attributes are set to **true** (1),  the following occurs: email messages are delivered or sent from a user or queue only if the primary email address of the user or queue is approved. The `SystemUser.EmailRouterAccessApproval` and the `Queue.EmailRouterAccessApproval` attributes indicate the status of the primary email address of the user and queue respectively, and the value must be set to 1. Otherwise, the incoming and outgoing messages will be blocked. You can update the user or queue record to change the attribute value, if it is not already in the approved state, provided your user account has the **prvApproveRejectEmailAddress** privilege assigned.
+   If the `Organization.RequireApprovalForuserEmail` and `Organization.RequireApprovalForQueueEmail` (process emails only for approved users/queues) organization attributes are set to **true** (1),  the following occurs: email messages are delivered or sent from a user or queue only if the primary email address of the user or queue is approved. The `SystemUser.EmailRouterAccessApproval` and the `Queue.EmailRouterAccessApproval` attributes indicate the status of the primary email address of the user and queue respectively, and the value must be set to 1. Otherwise, the incoming and outgoing messages will be blocked. You can update the user or queue record to change the attribute value, if it is not already in the approved state, provided your user account has the **prvApproveRejectEmailAddress** privilege assigned.
   
 > [!NOTE]
 >  In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], the `Email.StatusCode` attribute cannot be **null**.  
@@ -73,17 +73,17 @@ The email activity lets you track and manage email communications with customers
   
  The <xref:Microsoft.Crm.Sdk.Messages.SendBulkMailRequest> and <xref:Microsoft.Crm.Sdk.Messages.BackgroundSendEmailRequest> messages are used for sending bulk email messages. The following lists the sequence used to send bulk email:  
   
-1.  Execute the `SendBulkMail` request. This request contains a query that selects the target email recipients and an email template for composing each email.  
+1. Execute the `SendBulkMail` request. This request contains a query that selects the target email recipients and an email template for composing each email.  
   
-2.  The asynchronous service creates the email activities for each recipient.  
+2. The asynchronous service creates the email activities for each recipient.  
   
-3.  The asynchronous service sends each email message. The email messages have a "pending" send status.  
+3. The asynchronous service sends each email message. The email messages have a "pending" send status.  
   
-4.  The email router, [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)], or a third-party email send component polls [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for pending email messages, and if one is found, downloads it by using the `BackgroundSendEmail` request.  
+4. The email router, [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)], or a third-party email send component polls [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for pending email messages, and if one is found, downloads it by using the `BackgroundSendEmail` request.  
   
-5.  The `BackgroundSendEmail` request performs the following operations: checks if pending email messages are present, downloads the email to the caller of the <xref:Microsoft.Crm.Sdk.Messages.BackgroundSendEmailRequest> message, and synchronizes the downloads if there are multiple callers.  
+5. The `BackgroundSendEmail` request performs the following operations: checks if pending email messages are present, downloads the email to the caller of the <xref:Microsoft.Crm.Sdk.Messages.BackgroundSendEmailRequest> message, and synchronizes the downloads if there are multiple callers.  
   
-6.  The caller of the <xref:Microsoft.Crm.Sdk.Messages.BackgroundSendEmailRequest> message receives the downloaded email message, and sends it out.  
+6. The caller of the <xref:Microsoft.Crm.Sdk.Messages.BackgroundSendEmailRequest> message receives the downloaded email message, and sends it out.  
   
 <a name="E-MailAttachments"></a>   
 ## Email Attachments  

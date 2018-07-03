@@ -29,20 +29,20 @@ When you enable auditing, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm
   
     Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_auditing](../includes/proc-settings-auditing.md)]  
   
-3.  Choose **Audit Log Management**  
+3. Choose **Audit Log Management**  
   
-4.  Select the oldest audit log. Then, on the command bar, choose **Delete Logs**.  
+4. Select the oldest audit log. Then, on the command bar, choose **Delete Logs**.  
   
-5.  In the confirmation message, choose **OK**.  
+5. In the confirmation message, choose **OK**.  
   
-    > [!NOTE]
-    >  You can only delete the oldest audit log in the system. To delete more than one audit log, continue to delete the oldest audit log until you have deleted enough logs.  
+   > [!NOTE]
+   >  You can only delete the oldest audit log in the system. To delete more than one audit log, continue to delete the oldest audit log until you have deleted enough logs.  
   
 ### See also  
  [Audit data and user activity](audit-data-user-activity.md)

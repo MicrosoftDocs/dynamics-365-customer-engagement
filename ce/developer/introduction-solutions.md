@@ -90,17 +90,17 @@ manager: "amyla"
 ### Unmanaged solutions  
  When a solution is unmanaged, you can perform the following actions:  
   
--   Add components.  
+- Add components.  
   
--   Remove components.  
+- Remove components.  
   
--   Delete components that allow for deletion.  
+- Delete components that allow for deletion.  
   
--   Export and import the unmanaged solution.  
+- Export and import the unmanaged solution.  
   
--   Export the solution as a managed solution.  
+- Export the solution as a managed solution.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create, Export, or Import an Unmanaged Solution](create-export-import-unmanaged-solution.md)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create, Export, or Import an Unmanaged Solution](create-export-import-unmanaged-solution.md)  
   
 #### Importing unmanaged solutions  
  When you import an unmanaged solution, you can edit its components in the new organization.  
@@ -148,17 +148,17 @@ manager: "amyla"
   
  After you install a managed solution, the following applies:  
   
--   You can’t add or remove solution components in a managed solution.  
+- You can’t add or remove solution components in a managed solution.  
   
--   You can’t export a managed solution.  
+- You can’t export a managed solution.  
   
--   Deleting a managed solution uninstalls all the solution components in it.  
+- Deleting a managed solution uninstalls all the solution components in it.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create, Install, and Update a Managed Solution](create-install-update-managed-solution.md)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create, Install, and Update a Managed Solution](create-install-update-managed-solution.md)  
   
- After you install a managed solution you may be able to customize the solution components if the creator of the managed solution has configured the managed solution to enable it. You must access the customizable solution components using **Customize the System** instead of through the managed solution itself.  
+  After you install a managed solution you may be able to customize the solution components if the creator of the managed solution has configured the managed solution to enable it. You must access the customizable solution components using **Customize the System** instead of through the managed solution itself.  
   
- Use [Managed Properties](introduction-solutions.md#BKMK_ManagedProperties) to control whether a solution component is customizable and what specific customization actions are enabled.  
+  Use [Managed Properties](introduction-solutions.md#BKMK_ManagedProperties) to control whether a solution component is customizable and what specific customization actions are enabled.  
   
 <a name="BKMK_SoluitonPublisherManagedSolutions"></a>   
 #### Solution publisher for managed solutions  
@@ -198,11 +198,11 @@ manager: "amyla"
   
  When you release an update to a managed solution, the organization installing the update can select:  
   
--   To preserve any customizations it has applied on top of your managed solution.  
+- To preserve any customizations it has applied on top of your managed solution.  
   
--   To overwrite any customizations it has applied on top of your managed solution.  
+- To overwrite any customizations it has applied on top of your managed solution.  
   
- Organizations installing an update to a managed solution should work with the managed solution creator to evaluate which option is best.  
+  Organizations installing an update to a managed solution should work with the managed solution creator to evaluate which option is best.  
   
 > [!IMPORTANT]
 >  Changes to entity forms and the sitemap won’t be overwritten even when the overwrite option is selected. Refer to [Merge Form Customizations](understand-managed-solutions-merged.md#BKMK_MergingFormCustomizations) and  [Merge Navigation (SiteMap) Customizations](understand-managed-solutions-merged.md#BKMK_MergingNavigationCustomizations) for guidance about managing changes. Some manual customization may be required to merge unmanaged customizations into changes included in an update to a managed solution.  
@@ -213,17 +213,17 @@ manager: "amyla"
   
  As a result of dependency tracking, the following behaviors are enforced:  
   
--   Deleting a component is prevented if another component in the system depends on it.  
+- Deleting a component is prevented if another component in the system depends on it.  
   
--   Exporting a solution warns the user if there are any missing components that could potentially cause failure when importing that solution in another system.  
+- Exporting a solution warns the user if there are any missing components that could potentially cause failure when importing that solution in another system.  
   
-     Warnings during export can be ignored if the solution developer intends that the solution is only to be installed in an organization where dependent components are expected to exist. For example, when you’re creating a solution that’s designed to be installed over a pre-installed “base” solution.  
+   Warnings during export can be ignored if the solution developer intends that the solution is only to be installed in an organization where dependent components are expected to exist. For example, when you’re creating a solution that’s designed to be installed over a pre-installed “base” solution.  
   
--   Importing a solution fails if all required components aren’t included in the solution and also don’t exist in the target system.  
+- Importing a solution fails if all required components aren’t included in the solution and also don’t exist in the target system.  
   
-    -   Additionally, when you import a managed solution, all required components must match the package type of the solution. A component in a managed solution can only depend on another managed component.  
+  -   Additionally, when you import a managed solution, all required components must match the package type of the solution. A component in a managed solution can only depend on another managed component.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dependency Tracking for Solution Components](dependency-tracking-solution-components.md)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dependency Tracking for Solution Components](dependency-tracking-solution-components.md)  
   
 <a name="BKMK_SupportforMultipleLanguages"></a>   
 ## Support for multiple languages  

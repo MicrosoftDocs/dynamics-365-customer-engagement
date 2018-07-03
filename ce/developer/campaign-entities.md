@@ -38,13 +38,13 @@ A *campaign* in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is d
 ## Campaigns and Quick Campaigns  
  A campaign or a quick campaign can be used to accomplish the following:  
   
--   Create campaign activities to communicate with a customer, such as sending an email, a letter, or making a telephone call.  
+- Create campaign activities to communicate with a customer, such as sending an email, a letter, or making a telephone call.  
   
--   Use marketing lists to distribute the campaign activities. Marketing lists are usually assembled based on certain criteria, such as customers that previously bought a particular product or used a particular service.  
+- Use marketing lists to distribute the campaign activities. Marketing lists are usually assembled based on certain criteria, such as customers that previously bought a particular product or used a particular service.  
   
--   Analyze campaign responses to the campaign activities.  
+- Analyze campaign responses to the campaign activities.  
   
- The following table compares campaigns and quick campaigns:  
+  The following table compares campaigns and quick campaigns:  
   
 |Feature|Campaign|Quick Campaign|  
 |-------------|--------------|--------------------|  

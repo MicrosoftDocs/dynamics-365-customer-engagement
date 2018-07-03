@@ -23,23 +23,23 @@ The following settings must be configured after deploying RSO.
 1. Go to **Resource Scheduling Optimization** \> **Administration** \>
     **Resource Scheduling Parameters**.
 
-  - Set **Enable Resource Scheduling Optimization** as **Yes**.
+   - Set **Enable Resource Scheduling Optimization** as **Yes**.
 
-  - Set **Default Goal** if needed. It can help you speed up interactions with
-    RSO through the schedule board by predefining how the engine should optimize
-    data. Users can still pick different goals. For more details, see “4.3
-    Leverage schedule board to review optimization results.”
+   - Set **Default Goal** if needed. It can help you speed up interactions with
+     RSO through the schedule board by predefining how the engine should optimize
+     data. Users can still pick different goals. For more details, see “4.3
+     Leverage schedule board to review optimization results.”
 
-  - Set **Connect to Maps** as **Yes**. The connect to maps feature allows this
-    organization to interact with the Bing Maps service that the schedule board
-    uses.
+   - Set **Connect to Maps** as **Yes**. The connect to maps feature allows this
+     organization to interact with the Bing Maps service that the schedule board
+     uses.
 
-    ![](media/9311df68c981d7f4c5e984622ca1e244.png)
+     ![](media/9311df68c981d7f4c5e984622ca1e244.png)
 
-    ![](media/c2e5f7299860832f2823f285d0fcd113.png)
+     ![](media/c2e5f7299860832f2823f285d0fcd113.png)
 
-    > [!NOTE]
-    > Only a user with the System Administrator role can enable this. 
+     > [!NOTE]
+     > Only a user with the System Administrator role can enable this. 
 
 2. Go to **Settings** \> **Security** \> **Users**, navigate to the
     **Application Users** view, and assign the Field Service - Administrator
@@ -49,17 +49,17 @@ The following settings must be configured after deploying RSO.
     **Field Service – Administrator**, and add **Resource Scheduling
     Optimization** into the Field Security Profile.
 
-    > [!NOTE]
-    > Steps 2 and 3 help ensure that RSO is able to optimize work order-related requirements and bookings. For Field Service dispatchers who want to interact with RSO:
-
-    > 1. Go to **Settings** \> **Security** \> **Users**.
-    > 2. Locate the user or team of dispatchers.
-    > 3. Click **Manage Roles**.
-    > 4. Grant **RSO Dispatcher** a security role.
-    > 5. Click **Save**.
-    > 6. Go to **Settings** \> **Security** \> **Field Security Profiles**.
-    > 7. Open **Resource Scheduling Optimization - Dispatcher** and add the user or
-    team to the profile and then click **Save**.
+   > [!NOTE]
+   > Steps 2 and 3 help ensure that RSO is able to optimize work order-related requirements and bookings. For Field Service dispatchers who want to interact with RSO:
+   > 
+   > 1. Go to **Settings** \> **Security** \> **Users**.
+   > 2. Locate the user or team of dispatchers.
+   > 3. Click **Manage Roles**.
+   > 4. Grant **RSO Dispatcher** a security role.
+   > 5. Click **Save**.
+   > 6. Go to **Settings** \> **Security** \> **Field Security Profiles**.
+   > 7. Open **Resource Scheduling Optimization - Dispatcher** and add the user or
+   >  team to the profile and then click **Save**.
 
 Settings to prepare data for optimization 
 ------------------------------------------
@@ -71,12 +71,12 @@ The basic settings here will be checked and respected by all optimization scopes
     **Scheduling Summary** view, select one or more resource records, and then
     click **EDIT** to bulk edit the Optimize Schedule field to YES.
 
-  > [!NOTE]
-  > - Once you have enabled your resources for RSO, you need to set the latitude
+   > [!NOTE]
+   > - Once you have enabled your resources for RSO, you need to set the latitude
     and longitude for the resources’ organizational unit or personal address,
     depending on whether their start/end location is an organizational unit or a
     personal address.
-  > - Start location and end location should have the same setting. For example,
+   > - Start location and end location should have the same setting. For example,
     you cannot have the start location be a personal address and the end
     location be location agnostic. 
   
@@ -115,14 +115,14 @@ The basic settings here will be checked and respected by all optimization scopes
     > [!NOTE]
     > Any booking status with an empty scheduling method will be treated as Do Not Move.
     
-  - **Optimize**: This means RSO is free to move this booking around. 
-  - **Do Not Move**: This means RSO will not alter the booking (RSO will
+   - **Optimize**: This means RSO is free to move this booking around. 
+   - **Do Not Move**: This means RSO will not alter the booking (RSO will
     preserve the estimated arrival time and assigned resource. The booking’s
     start time and estimated travel duration may be changed if RSO schedules a
     booking in a new location before the Do Not Move booking). This operates the
     same as if the user set the booking to **Locked to resource + time** on the
     scheduling lock options field.
-  - **Ignore**: RSO will completely ignore this booking. It will ignore for both
+   - **Ignore**: RSO will completely ignore this booking. It will ignore for both
     location and time, meaning there will be overlaps. It is as if the booking
     doesn’t exist. Use this when the booking status is in the state of proposed or canceled.
 
@@ -217,53 +217,53 @@ The following explains how to define an optimization scope.
 4. Optimization Range Settings is the time range where bookings can be created,
     updated, and deleted.
 
-  **Example 1:** You want to have a booking created/moved ahead 24 hours but from 1 hour on; in other words, bookings will be moved into a range starting Now+1hour and ending Now+1hour+1day (which might partly still be today).
+   **Example 1:** You want to have a booking created/moved ahead 24 hours but from 1 hour on; in other words, bookings will be moved into a range starting Now+1hour and ending Now+1hour+1day (which might partly still be today).
   
-  ![](media/62ab888c08dfc0bdd81587535de73d5d.png)
+   ![](media/62ab888c08dfc0bdd81587535de73d5d.png)
 
-  - **Range Reference**: The start moment for all subsequent work order range
-    calculation (Job current time or Beginning of the Job’s current day).
-  - **Range Offset**: Amount of time added to the range reference to define the
-    range start.
-  - **Range Duration (days)**: Number of days added to the range reference.
+   - **Range Reference**: The start moment for all subsequent work order range
+     calculation (Job current time or Beginning of the Job’s current day).
+   - **Range Offset**: Amount of time added to the range reference to define the
+     range start.
+   - **Range Duration (days)**: Number of days added to the range reference.
   
-    > [!div class="mx-imgBorder"]
-    > ![](media/06e5a506621a550cc2d05df234a3dbde.png)
+     > [!div class="mx-imgBorder"]
+     > ![](media/06e5a506621a550cc2d05df234a3dbde.png)
 
-  **Example 2**: You want to have a booking created/moved into the next two days.
+   **Example 2**: You want to have a booking created/moved into the next two days.
   
-  ![](media/6a06b7a1a69c2f493686442af5e44520.png)
-  > [!div class="mx-imgBorder"]
-  > ![](media/5d265da65e27891ebab3319627e9a3fa.png)
+   ![](media/6a06b7a1a69c2f493686442af5e44520.png)
+   > [!div class="mx-imgBorder"]
+   > ![](media/5d265da65e27891ebab3319627e9a3fa.png)
 
-  > [!NOTE]
-  > If bookings or resource requirements are defined in the Requirement/Booking view, but the promised date/time windows are outside the optimization range, RSO will NOT create/update these requirements/bookings after respecting the scheduling window constraint. If the promised date/time windows are overlapping the optimization range, RSO will create/update these requirements/bookings after respecting the scheduling window constraint.
+   > [!NOTE]
+   > If bookings or resource requirements are defined in the Requirement/Booking view, but the promised date/time windows are outside the optimization range, RSO will NOT create/update these requirements/bookings after respecting the scheduling window constraint. If the promised date/time windows are overlapping the optimization range, RSO will create/update these requirements/bookings after respecting the scheduling window constraint.
 
 5. You can preview resources, requirements, and bookings for optimization scope
     through the schedule board:
 
-  - Resource filters on the schedule board are prepopulated from the
+   - Resource filters on the schedule board are prepopulated from the
         Resource View. The resource list matches the number of resources defined
         in the Resource View. RSO will display a lock icon and tooltip to
         indicate if a resource is not enabled for optimization (even though it
         was added into Resource View).
-  - Requirements under Eligible for Optimization match the records from the
+   - Requirements under Eligible for Optimization match the records from the
         Requirement View.
         
-    > [!div class="mx-imgBorder"]
-    > ![](media/9b12b09d64d881041edd3d93f27be00c.png)
+     > [!div class="mx-imgBorder"]
+     > ![](media/9b12b09d64d881041edd3d93f27be00c.png)
 
 6. You can modify filters on the left panel and save it into scope:
 
-  - If Resource View referred by optimization scope is a system view,
+   - If Resource View referred by optimization scope is a system view,
         modified filters through the schedule board will be saved as a new
         personal view.
-  - If Resource View referred by optimization scope is a personal view,
+   - If Resource View referred by optimization scope is a personal view,
         modified filters through the schedule board will be saved back into the
         same personal view.
         
-    > [!div class="mx-imgBorder"]
-    > ![](media/d3b94e01e4d75db77d4f06e20b8d83d9.png)
+     > [!div class="mx-imgBorder"]
+     > ![](media/d3b94e01e4d75db77d4f06e20b8d83d9.png)
 
 Define the optimization goal 
 -----------------------------
@@ -297,34 +297,34 @@ You can define how bookings should be optimized (constraints and objectives). Th
     the time window start and end fields on the resource requirement or booking
     record.
 
-    - If **From Date** and **To Date** on resource requirement or **Date
-        Window Start** and **Date Window End** on resource booking are set as
-        shown in the following example, it indicates you want RSO to schedule
-        the booking on 5/24/2018 and time of day doesn’t matter.
+  - If **From Date** and **To Date** on resource requirement or **Date
+      Window Start** and **Date Window End** on resource booking are set as
+      shown in the following example, it indicates you want RSO to schedule
+      the booking on 5/24/2018 and time of day doesn’t matter.
     > [!div class="mx-imgBorder"]
     > ![](media/753086631f45017fa9cef8f3795078ba.png)
 
-    - If **Time Window Start** and **Time Window End** are set as shown in the
+  - If **Time Window Start** and **Time Window End** are set as shown in the
     following example, it indicates you want RSO to schedule a booking from 2 AM
     to 6 AM and the date doesn’t matter.
     > [!div class="mx-imgBorder"]
     > ![](media/8dfb6c914473209fa9b74cad5b6dcd45.png)
 
-    - If **Time From Promised** and **Time To Promised** are set as shown in the
+  - If **Time From Promised** and **Time To Promised** are set as shown in the
     following example, it indicates you want RSO to schedule a booking between 4
     AM and 8 AM on 5/24/2018. It has to be a specific date and specific time
     range.
     > [!div class="mx-imgBorder"]
     > ![](media/f08dd1dd681a4369a2b46a968c08e631.png)
-
+    > 
     > [!NOTE]
-
+    > 
     > - If the above fields are conflicted, RSO will use **Time From Promised** and
-    **Time To Promised** first. Then it will use one or a combination of other
-    fields.
+    > **Time To Promised** first. Then it will use one or a combination of other
+    > fields.
     > - RSO will ensure the **Estimated Arrival Time** falls into the window
-    specified above. It does not guarantee that the booking’s end time will fall
-    within the time window.
+    > specified above. It does not guarantee that the booking’s end time will fall
+    > within the time window.
 
 - **Restricted Resources**: If marked, RSO will not schedule a restricted
     resource to the booking.

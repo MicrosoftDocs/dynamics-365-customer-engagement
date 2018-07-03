@@ -276,6 +276,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_bulkdeletefailure"></a> userentityinstancedata_bulkdeletefailure
 
 Same as userentityinstancedata entity [userentityinstancedata_bulkdeletefailure](userentityinstancedata.md#BKMK_userentityinstancedata_bulkdeletefailure) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

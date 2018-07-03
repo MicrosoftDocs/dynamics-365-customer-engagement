@@ -31,11 +31,11 @@ I get this error message:
  
     We can’t find the notebook. The [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook might have been removed or moved to another location. Check the notebook location or contact your administrator to update the location record stored in Dynamics 365. (Error: 0x80060729)  
   
-1.  To fix the issue, go to **Settings** > **Document Management** > **Document Location Records**.  
+1. To fix the issue, go to **Settings** > **Document Management** > **Document Location Records**.  
   
-2.  Go to the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] view and search for the document location record that is regarding your account.  
+2. Go to the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] view and search for the document location record that is regarding your account.  
   
-3.  Open that document location record, and then change the corresponding URL to match your notebook location.  
+3. Open that document location record, and then change the corresponding URL to match your notebook location.  
   
 ## Can I edit a OneNote file from with Dynamics 365?  
  No. This can be done only from the OneNote app that opens when you click the OneNote link.  
@@ -52,11 +52,11 @@ I get this error message:
 ## Why do I see records that should be in the OneNote tab?  
  This happens if you deleted all of the sections in the notebook. It’s recommended that you have at least one section in your [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook. To fix the issue do this:  
   
-1.  Go to the record where you see the issue. For example, from the main menu click, **Sales** > **Accounts** > click an account record.  
+1. Go to the record where you see the issue. For example, from the main menu click, **Sales** > **Accounts** > click an account record.  
   
-2.  From the main menu click the drop down menu next to the record name, and then click **Documents**.  
+2. From the main menu click the drop down menu next to the record name, and then click **Documents**.  
   
-3.  Click **Open in SharePoint** and then create a new section using the desktop version of [!INCLUDE[pn_onenote](../includes/pn-onenote.md)].  
+3. Click **Open in SharePoint** and then create a new section using the desktop version of [!INCLUDE[pn_onenote](../includes/pn-onenote.md)].  
   
 ## Error message: File cannot be found
 I get this error message: 

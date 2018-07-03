@@ -38,7 +38,7 @@ If the Voice of the Customer solution is accidentally deleted or misconfigured, 
 
 3. Select **Configure** from the toolbar at the top of the screen.
 
-  ![Configure Voice of the Customer](media/reconfigure-voc.png "Configure Voice of the Customer")  
+   ![Configure Voice of the Customer](media/reconfigure-voc.png "Configure Voice of the Customer")  
 
 **Voice of the Customer app**
 
@@ -48,7 +48,7 @@ If the Voice of the Customer solution is accidentally deleted or misconfigured, 
 
 3. Select **Configure** from the toolbar at the top of the screen.
 
-  ![Configure Voice of the Customer](media/reconfigure-voc-uci.png "Configure Voice of the Customer")
+   ![Configure Voice of the Customer](media/reconfigure-voc-uci.png "Configure Voice of the Customer")
 
 ## Validating the Voice of the Customer solution
 
@@ -61,17 +61,17 @@ To validate the Voice of the Customer solution:
 
 **Web client**
 
-1.	Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-2.	Go to **Settings** > **Voice of the Customer Configurations**.
+2. Go to **Settings** > **Voice of the Customer Configurations**.
 
-3.	Select **Voice of the Customer Configuration** from the list of active configurations.
+3. Select **Voice of the Customer Configuration** from the list of active configurations.
 
-4.	Select **Validate** from the toolbar at the top of the screen. A confirmation message appears, asking your consent for the validation process to start.
+4. Select **Validate** from the toolbar at the top of the screen. A confirmation message appears, asking your consent for the validation process to start.
 
-5.	Select **OK** to start the validation process. The results are displayed under the **Voice of the Customer Validation Results** area.
+5. Select **OK** to start the validation process. The results are displayed under the **Voice of the Customer Validation Results** area.
 
-6.	Select **Download Log File** to download the detailed report.
+6. Select **Download Log File** to download the detailed report.
 
 **Voice of the Customer app**
 
@@ -91,23 +91,23 @@ To validate the Voice of the Customer solution:
 
 As a survey administrator, you can validate whether a survey has created any issues.
 
-1.	Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
-2.	Go to **Voice of the Customer** > **Surveys**.
+2. Go to **Voice of the Customer** > **Surveys**.
 
-3.	Select the name of the survey you want to validate.
+3. Select the name of the survey you want to validate.
 
-4.	Select **Validate Survey** from the toolbar at the top of the screen. A confirmation message appears, asking your consent for the validation process to start with or without publishing the survey.
+4. Select **Validate Survey** from the toolbar at the top of the screen. A confirmation message appears, asking your consent for the validation process to start with or without publishing the survey.
 
-5.	Select one of the following buttons in the confirmation message:
+5. Select one of the following buttons in the confirmation message:
 
-  - **Publish**: All the validation tests are performed.
+   - **Publish**: All the validation tests are performed.
 
-  - **Skip Publish**: Only the validation tests that do not require publishing the survey are performed.
+   - **Skip Publish**: Only the validation tests that do not require publishing the survey are performed.
   
-  The results are displayed under **Survey Validation Results**.
+   The results are displayed under **Survey Validation Results**.
   
-6.	Select **Download Log File** to download the detailed report.
+6. Select **Download Log File** to download the detailed report.
 
 ### See also
 [Plan a survey](plan-survey.md)   

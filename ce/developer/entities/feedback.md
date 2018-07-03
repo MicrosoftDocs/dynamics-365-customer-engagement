@@ -906,6 +906,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Feedback_SyncErrors"></a> Feedback_SyncErrors
 
 Same as syncerror entity [Feedback_SyncErrors](syncerror.md#BKMK_Feedback_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -920,6 +921,7 @@ Same as syncerror entity [Feedback_SyncErrors](syncerror.md#BKMK_Feedback_SyncEr
 ### <a name="BKMK_feedback_feedback"></a> feedback_feedback
 
 Same as feedback entity [feedback_feedback](feedback.md#BKMK_feedback_feedback) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|feedback|
@@ -934,6 +936,7 @@ Same as feedback entity [feedback_feedback](feedback.md#BKMK_feedback_feedback) 
 ### <a name="BKMK_feedback_principalobjectattributeaccess"></a> feedback_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [feedback_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_feedback_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

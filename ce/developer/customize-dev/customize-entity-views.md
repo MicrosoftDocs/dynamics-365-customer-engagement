@@ -48,19 +48,19 @@ Entity views are special saved queries that retrieve data by using a specific fi
 ### Create views  
  To create a public view, specify the following properties:  
   
--   `SavedQuery.Name`: A unique identifier for the saved query.  
+- `SavedQuery.Name`: A unique identifier for the saved query.  
   
--   `SavedQuery.ReturnedTypeCode`: Matches the logical name of the entity.  
+- `SavedQuery.ReturnedTypeCode`: Matches the logical name of the entity.  
   
--   `SavedQuery.FetchXml`: See [Use FetchXML to Construct a Query](../org-service/use-fetchxml-construct-query.md).  
+- `SavedQuery.FetchXml`: See [Use FetchXML to Construct a Query](../org-service/use-fetchxml-construct-query.md).  
   
--   `SavedQuery.LayoutXml`: See the `layoutxml` element in the [Customization solutions file schema](customization-solutions-file-schema.md)  for the valid elements.  
+- `SavedQuery.LayoutXml`: See the `layoutxml` element in the [Customization solutions file schema](customization-solutions-file-schema.md)  for the valid elements.  
   
--   `SavedQuery.QueryType`: Must always be zero (0).  
+- `SavedQuery.QueryType`: Must always be zero (0).  
   
- The following sample creates a new public view for the opportunity entity:  
+  The following sample creates a new public view for the opportunity entity:  
   
- [!code-csharp[WorkWithViews#WorkWithViews1](../../snippets/csharp/CRMV8/workwithviews/cs/workwithviews1.cs#workwithviews1)]  
+  [!code-csharp[WorkWithViews#WorkWithViews1](../../snippets/csharp/CRMV8/workwithviews/cs/workwithviews1.cs#workwithviews1)]  
   
 <a name="BKMK_UpdateViews"></a>   
 ### Update views  

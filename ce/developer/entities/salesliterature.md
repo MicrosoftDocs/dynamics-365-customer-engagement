@@ -823,6 +823,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_SalesLiterature_SyncErrors"></a> SalesLiterature_SyncErrors
 
 Same as syncerror entity [SalesLiterature_SyncErrors](syncerror.md#BKMK_SalesLiterature_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -837,6 +838,7 @@ Same as syncerror entity [SalesLiterature_SyncErrors](syncerror.md#BKMK_SalesLit
 ### <a name="BKMK_SalesLiterature_SharepointDocumentLocation"></a> SalesLiterature_SharepointDocumentLocation
 
 Same as sharepointdocumentlocation entity [SalesLiterature_SharepointDocumentLocation](sharepointdocumentlocation.md#BKMK_SalesLiterature_SharepointDocumentLocation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocumentlocation|
@@ -851,6 +853,7 @@ Same as sharepointdocumentlocation entity [SalesLiterature_SharepointDocumentLoc
 ### <a name="BKMK_SalesLiterature_SharepointDocument"></a> SalesLiterature_SharepointDocument
 
 Same as sharepointdocument entity [SalesLiterature_SharepointDocument](sharepointdocument.md#BKMK_SalesLiterature_SharepointDocument) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocument|
@@ -865,6 +868,7 @@ Same as sharepointdocument entity [SalesLiterature_SharepointDocument](sharepoin
 ### <a name="BKMK_SalesLiterature_AsyncOperations"></a> SalesLiterature_AsyncOperations
 
 Same as asyncoperation entity [SalesLiterature_AsyncOperations](asyncoperation.md#BKMK_SalesLiterature_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -879,6 +883,7 @@ Same as asyncoperation entity [SalesLiterature_AsyncOperations](asyncoperation.m
 ### <a name="BKMK_salesliterature_MailboxTrackingFolders"></a> salesliterature_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [salesliterature_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_salesliterature_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -893,6 +898,7 @@ Same as mailboxtrackingfolder entity [salesliterature_MailboxTrackingFolders](ma
 ### <a name="BKMK_userentityinstancedata_salesliterature"></a> userentityinstancedata_salesliterature
 
 Same as userentityinstancedata entity [userentityinstancedata_salesliterature](userentityinstancedata.md#BKMK_userentityinstancedata_salesliterature) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -907,6 +913,7 @@ Same as userentityinstancedata entity [userentityinstancedata_salesliterature](u
 ### <a name="BKMK_SalesLiterature_ProcessSessions"></a> SalesLiterature_ProcessSessions
 
 Same as processsession entity [SalesLiterature_ProcessSessions](processsession.md#BKMK_SalesLiterature_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -921,6 +928,7 @@ Same as processsession entity [SalesLiterature_ProcessSessions](processsession.m
 ### <a name="BKMK_SalesLiterature_BulkDeleteFailures"></a> SalesLiterature_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [SalesLiterature_BulkDeleteFailures](bulkdeletefailure.md#BKMK_SalesLiterature_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -935,6 +943,7 @@ Same as bulkdeletefailure entity [SalesLiterature_BulkDeleteFailures](bulkdelete
 ### <a name="BKMK_salesliterature_principalobjectattributeaccess"></a> salesliterature_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [salesliterature_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_salesliterature_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -949,6 +958,7 @@ Same as principalobjectattributeaccess entity [salesliterature_principalobjectat
 ### <a name="BKMK_sales_literature_items"></a> sales_literature_items
 
 Same as salesliteratureitem entity [sales_literature_items](salesliteratureitem.md#BKMK_sales_literature_items) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|salesliteratureitem|

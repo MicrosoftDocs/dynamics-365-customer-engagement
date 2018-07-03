@@ -28,32 +28,32 @@ tags:
   
  The reporting capabilities built in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] are designed to let users run reports on datasets that span shorter periods of time. Considering this, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] has the following fixed settings:  
   
--   Reports and queries can execute for up to five minutes. When the maximum period is reached, the report will time out and a message is returned to the user. Within the five-minute duration, reports and queries are allowed to span large datasets that are beyond 50,000 records, which provides significant flexibility to satisfy most operational reporting needs.  
+- Reports and queries can execute for up to five minutes. When the maximum period is reached, the report will time out and a message is returned to the user. Within the five-minute duration, reports and queries are allowed to span large datasets that are beyond 50,000 records, which provides significant flexibility to satisfy most operational reporting needs.  
   
--   To improve query response, we recommend that detailed reports minimize the display of large numbers of records. To do this, apply suitable filtering to reduce the number of records that are returned. When you create aggregated or summarized reports, queries should push the aggregation to the query rather than fetch detailed records to perform aggregation in the report.  This can be done by using Fetch XML aggregation. <!-- More information: [Use FetchXML aggregation](../developer/use-fetchxml-aggregation.md)  -->
+- To improve query response, we recommend that detailed reports minimize the display of large numbers of records. To do this, apply suitable filtering to reduce the number of records that are returned. When you create aggregated or summarized reports, queries should push the aggregation to the query rather than fetch detailed records to perform aggregation in the report.  This can be done by using Fetch XML aggregation. <!-- More information: [Use FetchXML aggregation](../developer/use-fetchxml-aggregation.md)  -->
   
--   For charts and grids displayed in dashboards, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] allows users to run queries that have a dataset that has fewer than 50,000 rows. Should a user run a dashboard query that spans a dataset of 50,000 or more rows, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] returns the message “The maximum record limit is exceeded. Reduce the number of records.”  The dataset practical setting helps to ensure optimal performance of the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] application.  
+- For charts and grids displayed in dashboards, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] allows users to run queries that have a dataset that has fewer than 50,000 rows. Should a user run a dashboard query that spans a dataset of 50,000 or more rows, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] returns the message “The maximum record limit is exceeded. Reduce the number of records.”  The dataset practical setting helps to ensure optimal performance of the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] application.  
  
   
 <a name="BKMK_ReportTips"></a>   
 ## Tips and solutions for reporting  
  Typically, for most organizations' reporting needs, these settings are adequate. To make sure that your users do not exceed these settings and to improve report querying performance in general, consider the following best practices.  
   
--   When you create custom reports or dashboards, design them to query smaller datasets over shorter periods of time by adding a time-based filter in the report, such as the current month or quarter, to limit the results.  
+- When you create custom reports or dashboards, design them to query smaller datasets over shorter periods of time by adding a time-based filter in the report, such as the current month or quarter, to limit the results.  
   
--   We recommend that you limit the number of entities that are needed to return the result. This helps reduce the time required to run the query and return the result set.  
+- We recommend that you limit the number of entities that are needed to return the result. This helps reduce the time required to run the query and return the result set.  
   
--   We recommend that you reduce the number of records shown in detailed reports. Suitable filtering can be used to reduce the number of records returned by the query to reduce timeouts.  
+- We recommend that you reduce the number of records shown in detailed reports. Suitable filtering can be used to reduce the number of records returned by the query to reduce timeouts.  
   
--   For aggregated or summarized reports, queries must be used to push the aggregation to the database and not fetch detailed records and perform aggregation in the [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] report.  
+- For aggregated or summarized reports, queries must be used to push the aggregation to the database and not fetch detailed records and perform aggregation in the [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] report.  
   
--   When appropriate for your business, users should run the default (out-of-the-box) reports and dashboards. These reports and dashboards are typically designed to query per user datasets, so in most cases will not exceed the dataset limit.  
+- When appropriate for your business, users should run the default (out-of-the-box) reports and dashboards. These reports and dashboards are typically designed to query per user datasets, so in most cases will not exceed the dataset limit.  
   
- If [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] users must run reports that exceed these settings, we recommend that you review the following options for assistance with complex reporting needs. Both options effectively offload reporting workloads from [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] to another [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] datastore by using a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] data integration solution.  
+  If [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] users must run reports that exceed these settings, we recommend that you review the following options for assistance with complex reporting needs. Both options effectively offload reporting workloads from [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] to another [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] datastore by using a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] data integration solution.  
   
--   [Adapters](../analytics/reporting-considerations.md#BKMK_ThirdPartyAdapt) are used in conjunction with [!INCLUDE[pn_ms_SQL_Server_Integration_Services_short](../includes/pn-ms-sql-server-integration-services-short.md)] (SSIS) to extend the capabilities for integration with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] data.  
+- [Adapters](../analytics/reporting-considerations.md#BKMK_ThirdPartyAdapt) are used in conjunction with [!INCLUDE[pn_ms_SQL_Server_Integration_Services_short](../includes/pn-ms-sql-server-integration-services-short.md)] (SSIS) to extend the capabilities for integration with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] data.  
   
--   Extract transform load [(ETL) tools](../analytics/reporting-considerations.md#BKMK_ETL) provide a new tool set for creating analysis of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] data by combining multiple data sources or extracting data to the data warehouse solution if SSIS is not in use. ETL tools provide comprehensive solutions for connecting [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] systems to move data.  
+- Extract transform load [(ETL) tools](../analytics/reporting-considerations.md#BKMK_ETL) provide a new tool set for creating analysis of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] data by combining multiple data sources or extracting data to the data warehouse solution if SSIS is not in use. ETL tools provide comprehensive solutions for connecting [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] systems to move data.  
   
 > [!IMPORTANT]
 >  When you use these tools, we recommend you move or synchronize data during nonbusiness hours.  

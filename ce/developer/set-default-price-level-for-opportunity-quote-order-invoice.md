@@ -26,19 +26,19 @@ You can automatically set a default price level (price list) for an opportunity,
 ## Enable automatic selection of default price level  
  To enable selection of default price level for opportunities, quotes, orders, or invoices based on the sales territory relationship, the following conditions must be true:  
   
--   The value of the `Organization.UseInbuiltRuleForDefaultPriceSelectionRule` attribute is set to 1 (true). By default, the value is set to 1 (true).  
+- The value of the `Organization.UseInbuiltRuleForDefaultPriceSelectionRule` attribute is set to 1 (true). By default, the value is set to 1 (true).  
   
-     You can also use the **Sales** tab in the system settings area in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to specify whether the default price level should be automatically selected for opportunities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure product catalog information](http://go.microsoft.com/fwlink/p/?LinkId=512492)  
+   You can also use the **Sales** tab in the system settings area in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to specify whether the default price level should be automatically selected for opportunities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure product catalog information](http://go.microsoft.com/fwlink/p/?LinkId=512492)  
   
--   A price level is associated with a territory using the **Territory Default Pricelist** connection role, and the territory is assigned to the user who creates or updates the opportunity, quote, order, or invoice record.  
+- A price level is associated with a territory using the **Territory Default Pricelist** connection role, and the territory is assigned to the user who creates or updates the opportunity, quote, order, or invoice record.  
   
--   The user has permission on the price level that is associated with the territory by using the **Territory Default Pricelist** connection role.  
+- The user has permission on the price level that is associated with the territory by using the **Territory Default Pricelist** connection role.  
   
- [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] internally uses the <xref:Microsoft.Crm.Sdk.Messages.GetDefaultPriceLevelRequest> message to determine the default price level for an opportunity, quote, order, or invoice based on the current user and the territory relationship with the price level. This is how the price level is set:  
+  [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] internally uses the <xref:Microsoft.Crm.Sdk.Messages.GetDefaultPriceLevelRequest> message to determine the default price level for an opportunity, quote, order, or invoice based on the current user and the territory relationship with the price level. This is how the price level is set:  
   
--   If a single price level is returned, the price level is automatically set for the opportunity, quote, order, or invoice record that the user is creating or updating.  
+- If a single price level is returned, the price level is automatically set for the opportunity, quote, order, or invoice record that the user is creating or updating.  
   
--   If multiple price levels are returned, the price level field isn’t populated and the user must specify a price level for the opportunity, quote, order, or invoice record.  
+- If multiple price levels are returned, the price level field isn’t populated and the user must specify a price level for the opportunity, quote, order, or invoice record.  
   
 <a name="Disable"></a>   
 ## Disable automatic selection of default price level  
@@ -53,13 +53,13 @@ You can automatically set a default price level (price list) for an opportunity,
   
  To extend the default price level selection:  
   
-1.  Ensure that the value of the `Organization.UseInbuiltRuleForDefaultPriceSelectionRule` attribute is set to 1 (true).  
+1. Ensure that the value of the `Organization.UseInbuiltRuleForDefaultPriceSelectionRule` attribute is set to 1 (true).  
   
-2.  Create a plug-in that contains custom code for returning price levels based on your business requirement.  
+2. Create a plug-in that contains custom code for returning price levels based on your business requirement.  
   
-3.  Register the plug-in on the `GetDefaultPriceLevel` message.  
+3. Register the plug-in on the `GetDefaultPriceLevel` message.  
   
- When you register a plug-in on the `GetDefaultPriceLevel` message, every time you create an opportunity, quote, order, or invoice record in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], the plug-in is executed to return the price level based on your custom code.  
+   When you register a plug-in on the `GetDefaultPriceLevel` message, every time you create an opportunity, quote, order, or invoice record in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], the plug-in is executed to return the price level based on your custom code.  
   
 -   If a single price level is returned as a result of the plug-in execution, the price level is set for the opportunity, quote, order, or invoice record that the user is creating.  
   

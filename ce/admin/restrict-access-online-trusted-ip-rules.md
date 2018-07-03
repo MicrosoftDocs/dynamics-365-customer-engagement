@@ -24,11 +24,11 @@ You can limit access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-onl
   
  **Requirements**  
   
--   A subscription to [Azure Active Directory Premium](https://www.microsoft.com/cloud-platform/azure-active-directory).  
+- A subscription to [Azure Active Directory Premium](https://www.microsoft.com/cloud-platform/azure-active-directory).  
   
--   A federated or managed [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] tenant.  
+- A federated or managed [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] tenant.  
   
--   Federated tenants require that multi-factor authentication (MFA) be enabled.  
+- Federated tenants require that multi-factor authentication (MFA) be enabled.  
   
 <a name="BKMK_AdditionalConsiderations"></a>   
 ## Additional security considerations  
@@ -40,60 +40,60 @@ You can limit access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-onl
 ## Create security group (optional)  
  You can restrict access to all Users or groups of users.  It's more efficient to restrict by a group if only a subset of your Azure Active Directory (AAD) users are accessing [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
   
-1.  Sign in to your [Azure portal](https://portal.azure.com).  
+1. Sign in to your [Azure portal](https://portal.azure.com).  
   
-2.  Click **Browse** > **Active Directory**, and then select your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] directory.  
+2. Click **Browse** > **Active Directory**, and then select your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] directory.  
   
-3.  Click **Groups** > **Add Group**, and then fill in the settings to create a new group.  
+3. Click **Groups** > **Add Group**, and then fill in the settings to create a new group.  
   
-  ![Create a security group](media/CreateGroup65HL.png "Create a security group")
+   ![Create a security group](media/CreateGroup65HL.png "Create a security group")
   
-4.  Click the group you created and add members.  
+4. Click the group you created and add members.  
  
-  ![Add members to a restricted group](media/RestrictIPGroup65.png "Add members to a restricted group")
+   ![Add members to a restricted group](media/RestrictIPGroup65.png "Add members to a restricted group")
   
 <a name="BKMK_CreateTrustedIPRule"></a>   
 ## Create a location based access rule  
  Access restriction is set using Azure Active Directory (AD) Conditional Access. See [Getting started with conditional access to Azure AD](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-azuread-connected-apps/).  You control Conditional Access through an access rule.  
   
 > [!NOTE]
->  Setting Conditional Access is only available with an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] Premium license.  Upgrade your Azure AD to a Premium license in the Office 365 admin center (**https://portal.office.com** > **Billing** > **Purchase services**).  
+>  Setting Conditional Access is only available with an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] Premium license.  Upgrade your Azure AD to a Premium license in the Office 365 admin center (**<https://portal.office.com>** > **Billing** > **Purchase services**).  
   
-1.  Sign in to your [Azure portal](https://portal.azure.com).  
+1. Sign in to your [Azure portal](https://portal.azure.com).  
   
-2.  Click **Browse** > **Active Directory**, and then select your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] directory.  
+2. Click **Browse** > **Active Directory**, and then select your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] directory.  
   
-3.  Click **Applications**, and then click  the **Dynamics 365 Online** web application.  
+3. Click **Applications**, and then click  the **Dynamics 365 Online** web application.  
  
-  ![Select the Dynamics 365 (online) web app](media/SelectCRMApp65HL.png "Select the Dynamics 365 (online) web app") 
+   ![Select the Dynamics 365 (online) web app](media/SelectCRMApp65HL.png "Select the Dynamics 365 (online) web app") 
   
-4.  Click **Configure**.  
+4. Click **Configure**.  
  
-  ![Configure Active Directory properties for Dynamics 365 (online) instance](media/ConfigureAD65HL.png "Configure Active Directory properties for Dynamics 365 (online) instance")
+   ![Configure Active Directory properties for Dynamics 365 (online) instance](media/ConfigureAD65HL.png "Configure Active Directory properties for Dynamics 365 (online) instance")
 
-5.  Set the following on the Properties page:  
+5. Set the following on the Properties page:  
   
-    1.  Set **Enable Access Rule** to **On**.  
+   1. Set **Enable Access Rule** to **On**.  
   
-    2.  Optional: Set **Apply to** to **Groups**.  
+   2. Optional: Set **Apply to** to **Groups**.  
   
-    3.  Optional: Click **Add Group** to select a group.  
+   3. Optional: Click **Add Group** to select a group.  
   
-    4.  Set **Rules** to **Block access when not at work**.  
+   4. Set **Rules** to **Block access when not at work**.  
   
       ![Set rule to Block access when not at work](media/IPRulesProperties65HL.png "Set rule to Block access when not at work")
   
-    5.  Click **Save** > **OK**.  
+   5. Click **Save** > **OK**.  
   
-    6.  Click **Click here to define/edit your work network location**.  
+   6. Click **Click here to define/edit your work network location**.  
   
       ![Define or edit you work network location](media/DefineNetworkLoc85HL.png "Define or edit you work network location")
 
-6.  Enter  trusted IP addresses (using [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)).  
+6. Enter  trusted IP addresses (using [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)).  
   
-  ![Enter trusted IP addresses](media/EnterTrustedIPs75.png "Enter trusted IP addresses")
+   ![Enter trusted IP addresses](media/EnterTrustedIPs75.png "Enter trusted IP addresses")
   
-7.  Click **Save**.  
+7. Click **Save**.  
   
 ### See also  
  [How to set Azure Active Directory device-based conditional access policy for access control to Azure Active Directory connected applications](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-policy-connected-applications/)   

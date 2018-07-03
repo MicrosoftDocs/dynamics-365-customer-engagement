@@ -32,7 +32,7 @@ A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-inte
   
 - **Automation adapters**: Used by HAT. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understanding HAT adapters](../unified-service-desk/use-uii-automation-adapter-interact-external-web-applications.md)  
   
- All types of adapters provide virtual methods that can be overridden.  
+  All types of adapters provide virtual methods that can be overridden.  
   
 ### See also  
  [Hosted Application Toolkit (HAT)](../unified-service-desk/uii-hosted-application-toolkit-hat.md)   

@@ -212,6 +212,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_accountleads_AsyncOperations"></a> accountleads_AsyncOperations
 
 Same as asyncoperation entity [accountleads_AsyncOperations](asyncoperation.md#BKMK_accountleads_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -226,6 +227,7 @@ Same as asyncoperation entity [accountleads_AsyncOperations](asyncoperation.md#B
 ### <a name="BKMK_accountleads_MailboxTrackingFolders"></a> accountleads_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [accountleads_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_accountleads_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -240,6 +242,7 @@ Same as mailboxtrackingfolder entity [accountleads_MailboxTrackingFolders](mailb
 ### <a name="BKMK_accountleads_UserEntityInstanceDatas"></a> accountleads_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [accountleads_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_accountleads_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -254,6 +257,7 @@ Same as userentityinstancedata entity [accountleads_UserEntityInstanceDatas](use
 ### <a name="BKMK_accountleads_BulkDeleteFailures"></a> accountleads_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [accountleads_BulkDeleteFailures](bulkdeletefailure.md#BKMK_accountleads_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -268,6 +272,7 @@ Same as bulkdeletefailure entity [accountleads_BulkDeleteFailures](bulkdeletefai
 ### <a name="BKMK_accountleads_PrincipalObjectAttributeAccesses"></a> accountleads_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [accountleads_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_accountleads_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

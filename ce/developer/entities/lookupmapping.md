@@ -598,6 +598,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_lookupmapping"></a> userentityinstancedata_lookupmapping
 
 Same as userentityinstancedata entity [userentityinstancedata_lookupmapping](userentityinstancedata.md#BKMK_userentityinstancedata_lookupmapping) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

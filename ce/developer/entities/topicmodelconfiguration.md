@@ -518,6 +518,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_topicmodelconfiguration_SyncErrors"></a> topicmodelconfiguration_SyncErrors
 
 Same as syncerror entity [topicmodelconfiguration_SyncErrors](syncerror.md#BKMK_topicmodelconfiguration_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -532,6 +533,7 @@ Same as syncerror entity [topicmodelconfiguration_SyncErrors](syncerror.md#BKMK_
 ### <a name="BKMK_topicmodelconfiguration_AsyncOperations"></a> topicmodelconfiguration_AsyncOperations
 
 Same as asyncoperation entity [topicmodelconfiguration_AsyncOperations](asyncoperation.md#BKMK_topicmodelconfiguration_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -546,6 +548,7 @@ Same as asyncoperation entity [topicmodelconfiguration_AsyncOperations](asyncope
 ### <a name="BKMK_topicmodelconfiguration_MailboxTrackingFolders"></a> topicmodelconfiguration_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [topicmodelconfiguration_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_topicmodelconfiguration_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -560,6 +563,7 @@ Same as mailboxtrackingfolder entity [topicmodelconfiguration_MailboxTrackingFol
 ### <a name="BKMK_topicmodelconfiguration_UserEntityInstanceDatas"></a> topicmodelconfiguration_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [topicmodelconfiguration_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_topicmodelconfiguration_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -574,6 +578,7 @@ Same as userentityinstancedata entity [topicmodelconfiguration_UserEntityInstanc
 ### <a name="BKMK_topicmodelconfiguration_BulkDeleteFailures"></a> topicmodelconfiguration_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [topicmodelconfiguration_BulkDeleteFailures](bulkdeletefailure.md#BKMK_topicmodelconfiguration_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -588,6 +593,7 @@ Same as bulkdeletefailure entity [topicmodelconfiguration_BulkDeleteFailures](bu
 ### <a name="BKMK_topicmodelconfiguration_PrincipalObjectAttributeAccesses"></a> topicmodelconfiguration_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [topicmodelconfiguration_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_topicmodelconfiguration_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -602,6 +608,7 @@ Same as principalobjectattributeaccess entity [topicmodelconfiguration_Principal
 ### <a name="BKMK_topicmodelconfiguration_textanalyticsentitymapping"></a> topicmodelconfiguration_textanalyticsentitymapping
 
 Same as textanalyticsentitymapping entity [topicmodelconfiguration_textanalyticsentitymapping](textanalyticsentitymapping.md#BKMK_topicmodelconfiguration_textanalyticsentitymapping) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|textanalyticsentitymapping|
@@ -616,6 +623,7 @@ Same as textanalyticsentitymapping entity [topicmodelconfiguration_textanalytics
 ### <a name="BKMK_topicmodelconfiguration_topicmodel"></a> topicmodelconfiguration_topicmodel
 
 Same as topicmodel entity [topicmodelconfiguration_topicmodel](topicmodel.md#BKMK_topicmodelconfiguration_topicmodel) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|topicmodel|
@@ -630,6 +638,7 @@ Same as topicmodel entity [topicmodelconfiguration_topicmodel](topicmodel.md#BKM
 ### <a name="BKMK_topicmodelconfiguration_topicmodelexecutionhistory"></a> topicmodelconfiguration_topicmodelexecutionhistory
 
 Same as topicmodelexecutionhistory entity [topicmodelconfiguration_topicmodelexecutionhistory](topicmodelexecutionhistory.md#BKMK_topicmodelconfiguration_topicmodelexecutionhistory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|topicmodelexecutionhistory|
