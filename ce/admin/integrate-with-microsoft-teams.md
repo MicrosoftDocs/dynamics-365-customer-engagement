@@ -117,9 +117,15 @@ Once you've selected the Dynamics 365 app (see [Select the app in the app Store]
 
    ![Search for entity](media/teams-add-channel-pin-record.png "Search for entity")
 
-   If you have multiple organizations, select **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which organization's records to search.
+   If you have multiple organizations or app modules, select **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which records to pin to the discussion channel.
+ 
+   ![Specify org and app](media/teams-change-org-app.png "Specify org and app")
 
-The Dynamics 365 tab appears on the menu bar.
+   Enable **Remember this preference** to set the org and app selections to be the default personal dashboard that appears when you select **My Dashboard**.
+
+   Use the **Settings** tab to change these settings any time.
+
+Once you complete the above steps, the Dynamics 365 tab appears on the menu bar.
 
 ![Dynamics 365 tab](media/teams-pinned-record.png "Dynamics 365 tab")
 
