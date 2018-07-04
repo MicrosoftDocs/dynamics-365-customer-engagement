@@ -2,7 +2,7 @@
 title: "About Unified Interface Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Introducing the new Unified Interface."
 ms.custom: ""
-ms.date: 04/11/2018
+ms.date: 07/04/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,7 +15,7 @@ ms.assetid: 64987a8b-21e4-4c2a-9366-39dabef90bb1
 caps.latest.revision: 21
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
 ---
 # About Unified Interface
 
@@ -139,6 +139,25 @@ The following are not currently available with Unified Interface:
 - Global notifications
 - Admin experiences 
 - Editable grids on phones 
+
+## Read-only entities on Unified Interface
+
+There are certain entities that are currently read-only on Unified Interface. Users will not be able to make changes to these entity records within an Unified Interface app. We are working to make them editable in future releases.
+
+The following are entities that are currently read-only in Unified Interface:
+
+- EmailSignature
+- Entitlement
+- KnowledgeArticleViews
+- KnowledgeBaseRecord
+- Queue
+- SharePointDocument
+- SharePointSite
+- SLA
+- SLAKPIInstance
+- SystemUser
+- Team
+- Template
 
 ### See also
 [Overview of building model-driven apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
