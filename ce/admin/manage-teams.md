@@ -34,21 +34,21 @@ Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is op
   
 ### When to use owner teams  
   
--   Your organization’s policies require the ability for records to be owned by entities other than users, such as the team entity.  
+- Your organization’s policies require the ability for records to be owned by entities other than users, such as the team entity.  
   
--   The number of teams is known at the design time of your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] system.  
+- The number of teams is known at the design time of your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] system.  
   
--   Daily reporting on progress by owning teams is required.  
+- Daily reporting on progress by owning teams is required.  
   
 ### When to use access teams  
   
--   The teams are dynamically formed and dissolved. This typically happens if the clear criteria for defining the teams, such as established territory, product, or volume are not provided.  
+- The teams are dynamically formed and dissolved. This typically happens if the clear criteria for defining the teams, such as established territory, product, or volume are not provided.  
   
--   The number of teams is not known at the design time of your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] system.  
+- The number of teams is not known at the design time of your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] system.  
   
--   The team members require different access rights on the records. You can share a record with several access teams, each team providing different access rights on the record. For example, one team is granted the Read access right on the account and another team, the Read, Write, and Share access rights on the same account.  
+- The team members require different access rights on the records. You can share a record with several access teams, each team providing different access rights on the record. For example, one team is granted the Read access right on the account and another team, the Read, Write, and Share access rights on the same account.  
   
--   A unique set of users requires access to a single record without having an ownership of the record.  
+- A unique set of users requires access to a single record without having an ownership of the record.  
   
 <a name="AboutOwner"></a>   
 ## About owner teams  
@@ -67,19 +67,19 @@ Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is op
   
     Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    -   Don’t have the correct permissions? Contact your system administrator.  
+   - Don’t have the correct permissions? Contact your system administrator.  
   
-2.  Go to **Settings > Security**.  
+2. Go to **Settings > Security**.  
   
-     (In [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)], go to **Settings > System > Security**.)  
+    (In [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)], go to **Settings > System > Security**.)  
   
-3.  Click **Teams**.  
+3. Click **Teams**.  
   
-4.  On the Actions toolbar, click the **New** button, complete the required fields, and then click **Save**.  
+4. On the Actions toolbar, click the **New** button, complete the required fields, and then click **Save**.  
   
-     If you don’t select the business unit to which the team will belong, by default, the root business unit is selected. The root business unit is the first business unit created for an organization.  
+    If you don’t select the business unit to which the team will belong, by default, the root business unit is selected. The root business unit is the first business unit created for an organization.  
   
 <a name="EditTeam"></a>   
 ## Edit a team  
@@ -88,21 +88,21 @@ Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is op
   
     Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    -   Don’t have the correct permissions? Contact your system administrator.  
+   - Don’t have the correct permissions? Contact your system administrator.  
   
-2.  Go to **Settings > Security**.  
+2. Go to **Settings > Security**.  
   
-     (In [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], go to **Settings > System > Security**.)  
+    (In [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], go to **Settings > System > Security**.)  
   
-3.  Click **Teams**.  
+3. Click **Teams**.  
   
-4.  In the **Teams** dropdown list, select **All Teams** or another appropriate view.  
+4. In the **Teams** dropdown list, select **All Teams** or another appropriate view.  
   
-5.  In the grid, select the team you want to edit.  
+5. In the grid, select the team you want to edit.  
   
-6.  On the Actions toolbar, click **Edit**, change the desired fields, and then click **Save**.   
+6. On the Actions toolbar, click **Edit**, change the desired fields, and then click **Save**.   
 
 <a name="AboutAccess"></a>   
 ## About access teams and team templates  

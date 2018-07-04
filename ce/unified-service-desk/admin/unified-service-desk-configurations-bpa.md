@@ -52,7 +52,7 @@ Replace the **PageLoadComplete** event with a **BrowserDocumentComplete** event 
 
 > [!Note]
 > The **DataReady** event is available for use in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
-3.0 or later.
+> 3.0 or later.
 
 ## Actions Calls with Events
 
@@ -94,11 +94,11 @@ To work without interruption, you can set the **ShowScriptErrors** value to **fa
 
 Set **ShowScriptErrors** to **false**:
 
-1.  Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
-2.  Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
-3.  In the list of options, select **ShowScriptErrors**.
-4.  In the **Value** field, select **false**.
-5.  Select **Save**.
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
+2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
+3. In the list of options, select **ShowScriptErrors**.
+4. In the **Value** field, select **false**.
+5. Select **Save**.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/manage-options-unified-service-desk)
 
@@ -112,13 +112,13 @@ You can use client caching to reduce the amount of bandwidth required during [!I
 
 Enable client caching:
 
-1.  Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
-2.  Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
-3.  To create a new option, select **New** on the command bar.
-4.  For the new option, select **ClientCacheVersionNumber** in the **Name** box, and then type an alphanumeric number in the **Value** box. <br/>The alphanumeric value is used as the cache key for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. The alphanumeric value can be of any value but unique for each time you change.
-5.  Select **Save**.
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
+2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
+3. To create a new option, select **New** on the command bar.
+4. For the new option, select **ClientCacheVersionNumber** in the **Name** box, and then type an alphanumeric number in the **Value** box. <br/>The alphanumeric value is used as the cache key for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. The alphanumeric value can be of any value but unique for each time you change.
+5. Select **Save**.
 
-> [!Note] 
+> [!Note]
 > When an agent launches the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client again, client caching isn't used. However, it doesn't delete or refresh the client cache store for the agent. When you remove the **DisableCaching** key for the agent, the agent returns to using the previously stored client cache store.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Enable client caching](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/configure-client-caching-unified-service-desk)
@@ -141,11 +141,11 @@ Enable client caching:
 
 Set the **maxNumberOfSesions** value to less than or equal to **3**: 
 
-1.  Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
-2.  Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
-3.  In the list of options, select **maxNumberOfSesions**.
-4.  In the **Value** field, type **3**.
-5.  Select **Save**.
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
+2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
+3. In the list of options, select **maxNumberOfSesions**.
+4. In the **Value** field, type **3**.
+5. Select **Save**.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/manage-options-unified-service-desk)
 
@@ -159,12 +159,12 @@ By using the Help Improve [!INCLUDE[pn_unified_service_desk](../../includes/pn-u
 
 Set `HelpImproveUSD` to **true**:
 
-1.  Sign in to Dynamics 365.
-2.  Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
-3.  To create a new option, select **New** on the command bar.
-4.  On the New Option page, select **HelpImproveUSD** in the **Global Options** list.
-5.  In the **Value** field, select **true**.
-6.  Select **Save**.
+1. Sign in to Dynamics 365.
+2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
+3. To create a new option, select **New** on the command bar.
+4. On the New Option page, select **HelpImproveUSD** in the **Global Options** list.
+5. In the **Value** field, select **true**.
+6. Select **Save**.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Enable client caching](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/configure-client-caching-unified-service-desk)
 
@@ -179,13 +179,13 @@ Internet Explorer Pooling enhances performance of CRM entity page loading in [!I
 
 Set the **InternetExplorerPooling** option to **true**:
 
-1.  Sign in to Dynamics 365.
-2.  Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
-3.  On the **Active UII Options** page, select **New**.
-4.  In the **Global Option** field, select **Others**.
-5.  In the **Name** field, enter **InternetExplorerPooling**.
-6.  In the **Vaule** field, select **true**.
-7.  Select **Save**.
+1. Sign in to Dynamics 365.
+2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
+3. On the **Active UII Options** page, select **New**.
+4. In the **Global Option** field, select **Others**.
+5. In the **Name** field, enter **InternetExplorerPooling**.
+6. In the **Vaule** field, select **true**.
+7. Select **Save**.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [**Enable Internet Explorer pooling**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/performance-enhancement-crm-entity-page-loads)
 
@@ -199,10 +199,10 @@ By using Activity Tracking Enabled options, you can track all the events for aud
 
 Enable the **Activity Tracking Enabled** option:
 
-1.  Sign in to Dynamics 365.
-2.  Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Audit & Diagnostics Settings**
-3.  In the **Audit Settings** section, select the **Activity Tracking Enabled** check box.
-4.  Select **Save**.
+1. Sign in to Dynamics 365.
+2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Audit & Diagnostics Settings**
+3. In the **Audit Settings** section, select the **Activity Tracking Enabled** check box.
+4. Select **Save**.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [**Auditing**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk)
 
@@ -215,10 +215,10 @@ By using **Diagnostic Tracking Enabled**, you can record operational events and 
 
 Enable the **Diagnostic Tracking Enabled** option:
 
-1.  Sign in to Dynamics 365.
-2.  Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Audit & Diagnostics Settings**
-3.  In the **Diagnostic Settings** section, select the **Diagnostic Tracking Enabled** check box.
-4.  Select **Save**.
+1. Sign in to Dynamics 365.
+2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Audit & Diagnostics Settings**
+3. In the **Diagnostic Settings** section, select the **Diagnostic Tracking Enabled** check box.
+4. Select **Save**.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [**Diagnostics**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk)
 
@@ -232,10 +232,10 @@ Enable the **Diagnostic Tracking Enabled** option:
 
 Enable the **Enable Exit Monitoring** option:
 
-1.  Sign in to Dynamics 365.
-2.  Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Audit & Diagnostics Settings**
-3.  In the **Diagnostic Settings** section, select the **Enable Exit Monitoring** check box.
-4.  Select **Save**.
+1. Sign in to Dynamics 365.
+2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Audit & Diagnostics Settings**
+3. In the **Diagnostic Settings** section, select the **Enable Exit Monitoring** check box.
+4. Select **Save**.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [**Diagnostics**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk)
 
@@ -249,10 +249,10 @@ By using Enable Crash Dump Generation, you can collect dump files during a fatal
 
 Enable the **Enable Crash Dump Generation** option:
 
-1.  Sign in to Dynamics 365.
-2.  Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Audit & Diagnostics Settings**
-3.  In the **Diagnostic Settings** section, select the **Enable Crash Dump Generation** check box.
-4.  Select **Save**.
+1. Sign in to Dynamics 365.
+2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Audit & Diagnostics Settings**
+3. In the **Diagnostic Settings** section, select the **Enable Crash Dump Generation** check box.
+4. Select **Save**.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [**Diagnostics**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk)  
 
@@ -266,11 +266,11 @@ Enable the **Enable Crash Dump Generation** option:
 
 Set the `IEWebPageRecovery` option to **true**.
 
-1.  Sign in to Dynamics 365.
-2.  Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
-3.  In the list of options, select **IEWebPageRecovery**.
-4.  In the **Value** field, select **true**.
-5.  Specify **Save**.
+1. Sign in to Dynamics 365.
+2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
+3. In the list of options, select **IEWebPageRecovery**.
+4. In the **Value** field, select **true**.
+5. Specify **Save**.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/manage-options-unified-service-desk)
 
@@ -285,11 +285,11 @@ process (usdmp.exe) waits before terminating an unresponsive Internet Explorer p
 
 Set the **ProcessTerminationThreshold** value between the range **0** and **30000**:
 
-1.  Sign in to Dynamics 365.
-2.  Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
-3.  In the list of options, select **ProcessTerminationThreshold**.
-4.  In the **Value** field, type a value between **0** and **30000**.
-5.  Select **Save**.
+1. Sign in to Dynamics 365.
+2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
+3. In the list of options, select **ProcessTerminationThreshold**.
+4. In the **Value** field, type a value between **0** and **30000**.
+5. Select **Save**.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/manage-options-unified-service-desk)
 

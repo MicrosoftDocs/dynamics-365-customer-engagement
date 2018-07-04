@@ -35,11 +35,11 @@ You can either update the whole series or update an instance of a recurring appo
 ### Update recurrence information  
  When you update the recurring information of a recurring appointment series, such as pattern and range, the following things occur:  
   
-1.  A new series with a new `RecurringAppointmentMaster.ActivityId` is created that has the same information as the original series, and the date in the `RecurringAppointmentMaster.EffectiveEndDate` attribute of the new series is set to the last occurring past instance of the original series. All the future instances of the original series are deleted. In this manner, the original series is ended, and the history of the past instances is preserved in the system by storing it in a new series.  
+1. A new series with a new `RecurringAppointmentMaster.ActivityId` is created that has the same information as the original series, and the date in the `RecurringAppointmentMaster.EffectiveEndDate` attribute of the new series is set to the last occurring past instance of the original series. All the future instances of the original series are deleted. In this manner, the original series is ended, and the history of the past instances is preserved in the system by storing it in a new series.  
   
-2.  The new information is used to create the future instances of the new series from the effective start date (`RecurringAppointmentMaster.EffectiveStartDate`).  
+2. The new information is used to create the future instances of the new series from the effective start date (`RecurringAppointmentMaster.EffectiveStartDate`).  
   
- Also, the `RecurringAppointmentMaster.GroupId` attribute for both the original and the new series  is populated with the same value. This implies that whenever you update the recurrence information in a recurring appointment series, all the new series’ that are created have the same value for the `RecurringAppointmentMaster.GroupId` attribute as the recurring appointment series that is updated, although each series has a unique series ID.  
+   Also, the `RecurringAppointmentMaster.GroupId` attribute for both the original and the new series  is populated with the same value. This implies that whenever you update the recurrence information in a recurring appointment series, all the new series’ that are created have the same value for the `RecurringAppointmentMaster.GroupId` attribute as the recurring appointment series that is updated, although each series has a unique series ID.  
   
 > [!NOTE]
 >  When you update the recurrence information of a recurring appointment series that has all the instances slated to occur in future, all instances are deleted and new recurrence information is used to create or expand new instances.  

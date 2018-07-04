@@ -61,11 +61,11 @@ After asynchronous operations are added to the asynchronous queue, they exist in
   
 #### Change the state code  
   
-1.  Modify the retrieved state code attribute to a new value according to the allowed operation states. You could also change the `AsyncOperation.PostponeUntil` attribute.  
+1. Modify the retrieved state code attribute to a new value according to the allowed operation states. You could also change the `AsyncOperation.PostponeUntil` attribute.  
   
-2.  Call <xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*> to change the value of those attributes in the database.  
+2. Call <xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*> to change the value of those attributes in the database.  
   
- The previous operations can also be performed by using the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method with the appropriate request messages. Attributes of `AsyncOperation` other than `AsyncOperation.StateCode` and `AsyncOperation.PostponeUntil` should be considered read-only.  
+   The previous operations can also be performed by using the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method with the appropriate request messages. Attributes of `AsyncOperation` other than `AsyncOperation.StateCode` and `AsyncOperation.PostponeUntil` should be considered read-only.  
   
 ## Recurring system jobs  
  You cannot cancel, pause, or resume most system jobs. Refer to the following list that identifies some of these restricted system jobs. The value in the first column is the value of the `OperationType` attribute of the `AsyncOperation` entity.  

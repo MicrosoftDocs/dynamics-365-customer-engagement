@@ -47,7 +47,7 @@ Creating, editing, and deleting shortcuts can be done within [!INCLUDE[pn-dynami
 | Disable Shortcut Target Validation | If unchecked, the security of the shortcut will be based on the target. Otherwise, it will be based on the parent. For more details, see "Security" below.                                   |
 ||
 
->[!Note]
+> [!Note]
 > A shortcut needs only to have **one** of the 'Target' fields (External URL, Web Page, Survey, Web File, Event, Forum) assigned a value, and a shortcut will only have one target. For example, a shortcut does not point at both a Web Page and a survey, or an External URL and a Web File. If more than one target attribute exists for a shortcut, the shortcut will just take the first one, ignoring all others. The order of priority for which target will be chosen is reflected on the main [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] shortcut form. So, it will first check if there exists an External URL for the shortcut, and if there is, then the shortcut's target will be the External URL and all other target attributes will be ignored. If there is no External URL, then the shortcut will check the Web Page, then the Survey, Web file, Event, and finally Forum. 
 
 ## Secure shortcuts

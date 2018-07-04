@@ -34,15 +34,15 @@ To use debugger control in one of your sample [!INCLUDE[pn_unified_service_desk]
   
  The following color highlights are used for the records in the **Action Calls** tab:  
   
--   Yellow indicates an action call didn’t run because a condition failed.  
+- Yellow indicates an action call didn’t run because a condition failed.  
   
--   Red indicates the condition succeeded but the action failed, either due to an exception or because required parameters in the data weren’t replaceable.  
+- Red indicates the condition succeeded but the action failed, either due to an exception or because required parameters in the data weren’t replaceable.  
   
- ![Unified Service Desk Debugger Action Call fail](../unified-service-desk/media/usd-debugger-action-calls-issues.PNG "Unified Service Desk Debugger Action Call fail")  
+  ![Unified Service Desk Debugger Action Call fail](../unified-service-desk/media/usd-debugger-action-calls-issues.PNG "Unified Service Desk Debugger Action Call fail")  
   
- Right-click on a row or multiple rows in the **Action Calls** tab, and select **Copy Data To Clipboard** from the shortcut menu to copy action call data and then paste it in another application (say Microsoft Word or Notepad) to easily review the data or share the copied data with others using email for troubleshooting.  
+  Right-click on a row or multiple rows in the **Action Calls** tab, and select **Copy Data To Clipboard** from the shortcut menu to copy action call data and then paste it in another application (say Microsoft Word or Notepad) to easily review the data or share the copied data with others using email for troubleshooting.  
   
- You can also refresh the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to use the latest configuration changes on the server without having to manually restart it by clicking the refresh icon (![Refresh Unified Service Desk Configuration symbol](../unified-service-desk/media/usd-action-call-refresh-icon.png "Refresh Unified Service Desk Configuration symbol")). On clicking this icon, you are prompted whether to reload the configuration. Click **Yes** to reload the configuration or click **No** to cancel.  
+  You can also refresh the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to use the latest configuration changes on the server without having to manually restart it by clicking the refresh icon (![Refresh Unified Service Desk Configuration symbol](../unified-service-desk/media/usd-action-call-refresh-icon.png "Refresh Unified Service Desk Configuration symbol")). On clicking this icon, you are prompted whether to reload the configuration. Click **Yes** to reload the configuration or click **No** to cancel.  
   
 <a name="DebugOutput"></a>   
 ## Debug Output tab  
@@ -64,9 +64,9 @@ To use debugger control in one of your sample [!INCLUDE[pn_unified_service_desk]
   
  ![Test action calls & UII actions in debugger](../unified-service-desk/media/usd-customize-display-2.png "Test action calls & UII actions in debugger")  
   
--   In the **Action Calls** tab, select an action call from the drop-down list, and then click the **Run Action Call** button ![USD debugger Run Action Call button](../unified-service-desk/media/usd-run-action-call-icon.png "USD debugger Run Action Call button") to view the results of the action call. For more information about testing an action call, see the [Test the action call for customizing your display](https://msdn.microsoft.com/library/dn864892.aspx#Test) section in the topic for customizing a theme.  
+- In the **Action Calls** tab, select an action call from the drop-down list, and then click the **Run Action Call** button ![USD debugger Run Action Call button](../unified-service-desk/media/usd-run-action-call-icon.png "USD debugger Run Action Call button") to view the results of the action call. For more information about testing an action call, see the [Test the action call for customizing your display](https://msdn.microsoft.com/library/dn864892.aspx#Test) section in the topic for customizing a theme.  
   
--   In the **Direct Action** tab, you can directly call UII actions on hosted controls in the system. This is a great way to test action call configuration before creating an action call for the UII action. Replacement parameters can be used in the **Data** field while testing UII actions. If you have the required permissions, you can also create hosted controls and UII actions by clicking the Add buttons next to the respective drop-down lists. This opens the **New Hosted Control** or **New UII Action** page in Internet Explorer based on what you chose to create. For more information about testing a UII action, see the [Run the Unified Service Desk client to work with custom hosted control](https://msdn.microsoft.com/library/dn864925.aspx#run) section in the topic for creating a custom [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] hosted control.  
+- In the **Direct Action** tab, you can directly call UII actions on hosted controls in the system. This is a great way to test action call configuration before creating an action call for the UII action. Replacement parameters can be used in the **Data** field while testing UII actions. If you have the required permissions, you can also create hosted controls and UII actions by clicking the Add buttons next to the respective drop-down lists. This opens the **New Hosted Control** or **New UII Action** page in Internet Explorer based on what you chose to create. For more information about testing a UII action, see the [Run the Unified Service Desk client to work with custom hosted control](https://msdn.microsoft.com/library/dn864925.aspx#run) section in the topic for creating a custom [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] hosted control.  
   
 ### See also  
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)   

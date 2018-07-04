@@ -34,9 +34,9 @@ Keep the product inventory updated by quickly revising properties for the produc
   
 2. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Products**. 
     
-3.  Open an active product, bundle, or family you want to change, and on the command bar, select **Revise**.  
+3. Open an active product, bundle, or family you want to change, and on the command bar, select **Revise**.  
 
-    ![Revise Product button on the Product form](media/revise-product.png "Revise Product button on the Product form")
+   ![Revise Product button on the Product form](media/revise-product.png "Revise Product button on the Product form")
   
 4. In the **Confirm Revise** dialog box, select **Confirm**.
 
@@ -44,42 +44,42 @@ Keep the product inventory updated by quickly revising properties for the produc
 
     This will change the product status to **Under Revision**.  
   
-5.  Change the product properties, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
+5. Change the product properties, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
   
-6.  After you're done making the changes, on the command bar, select **Publish** or **Publish Hierarchy**.  
+6. After you're done making the changes, on the command bar, select **Publish** or **Publish Hierarchy**.  
   
-    > [!TIP]
-    
-    >  If some of the product properties-related information that you changed doesn't align with the customer or business needs, revert the changes and continue with the last active version of the product. To do this, select **Revert**. This changes the status of the product back to **Active**.  
+   > [!TIP]
+   > 
+   >  If some of the product properties-related information that you changed doesn't align with the customer or business needs, revert the changes and continue with the last active version of the product. To do this, select **Revert**. This changes the status of the product back to **Active**.  
   
- Revising a family sets all the products and bundles under it to the **Under Revision** state.   
+   Revising a family sets all the products and bundles under it to the **Under Revision** state.   
 
 ## Revise a product (Sales app)
  
-1.  [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
+1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
-    #### Check your security role  
+   #### Check your security role  
   
-    -   [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    -   [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2.  [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
+2. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
   
-3.  In the Product Catalog area, select **Families & Products**.  
+3. In the Product Catalog area, select **Families & Products**.  
   
-4.  Open an active product, bundle, or family you want to change, and on the command bar, select **Revise**.  
+4. Open an active product, bundle, or family you want to change, and on the command bar, select **Revise**.  
   
-     This will change the product status to **Under Revision**.  
+    This will change the product status to **Under Revision**.  
   
-5.  Change the product properties, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
+5. Change the product properties, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
   
-6.  After you're done making the changes, on the command bar, select **Publish** or **Publish Hierarchy**.  
+6. After you're done making the changes, on the command bar, select **Publish** or **Publish Hierarchy**.  
   
-    > [!TIP]
-    >  If some of the information that you changed doesn't align with the customer or business needs, revert the changes and continue with the last active version of the product. To do this, select **Revert**. This changes the status of the product back to **Active**.  
+   > [!TIP]
+   >  If some of the information that you changed doesn't align with the customer or business needs, revert the changes and continue with the last active version of the product. To do this, select **Revert**. This changes the status of the product back to **Active**.  
   
- Revising a family sets all the products and bundles under it to the **Under Revision** state.   
+   Revising a family sets all the products and bundles under it to the **Under Revision** state.   
   
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/orange-right-arrow-button.png "Right arrow button") [Retire a product](../sales-enterprise/retire-product.md)  

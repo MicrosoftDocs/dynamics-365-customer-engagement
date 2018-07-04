@@ -972,6 +972,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_quotelineanalyticsbreakdown_SyncErrors"></a> msdyn_quotelineanalyticsbreakdown_SyncErrors
 
 Same as syncerror entity [msdyn_quotelineanalyticsbreakdown_SyncErrors](syncerror.md#BKMK_msdyn_quotelineanalyticsbreakdown_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -986,6 +987,7 @@ Same as syncerror entity [msdyn_quotelineanalyticsbreakdown_SyncErrors](syncerro
 ### <a name="BKMK_msdyn_quotelineanalyticsbreakdown_DuplicateMatchingRecord"></a> msdyn_quotelineanalyticsbreakdown_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_quotelineanalyticsbreakdown_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_quotelineanalyticsbreakdown_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1000,6 +1002,7 @@ Same as duplicaterecord entity [msdyn_quotelineanalyticsbreakdown_DuplicateMatch
 ### <a name="BKMK_msdyn_quotelineanalyticsbreakdown_DuplicateBaseRecord"></a> msdyn_quotelineanalyticsbreakdown_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_quotelineanalyticsbreakdown_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_quotelineanalyticsbreakdown_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1014,6 +1017,7 @@ Same as duplicaterecord entity [msdyn_quotelineanalyticsbreakdown_DuplicateBaseR
 ### <a name="BKMK_msdyn_quotelineanalyticsbreakdown_AsyncOperations"></a> msdyn_quotelineanalyticsbreakdown_AsyncOperations
 
 Same as asyncoperation entity [msdyn_quotelineanalyticsbreakdown_AsyncOperations](asyncoperation.md#BKMK_msdyn_quotelineanalyticsbreakdown_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1028,6 +1032,7 @@ Same as asyncoperation entity [msdyn_quotelineanalyticsbreakdown_AsyncOperations
 ### <a name="BKMK_msdyn_quotelineanalyticsbreakdown_MailboxTrackingFolders"></a> msdyn_quotelineanalyticsbreakdown_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_quotelineanalyticsbreakdown_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_quotelineanalyticsbreakdown_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1042,6 +1047,7 @@ Same as mailboxtrackingfolder entity [msdyn_quotelineanalyticsbreakdown_MailboxT
 ### <a name="BKMK_msdyn_quotelineanalyticsbreakdown_UserEntityInstanceDatas"></a> msdyn_quotelineanalyticsbreakdown_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_quotelineanalyticsbreakdown_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_quotelineanalyticsbreakdown_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1056,6 +1062,7 @@ Same as userentityinstancedata entity [msdyn_quotelineanalyticsbreakdown_UserEnt
 ### <a name="BKMK_msdyn_quotelineanalyticsbreakdown_ProcessSession"></a> msdyn_quotelineanalyticsbreakdown_ProcessSession
 
 Same as processsession entity [msdyn_quotelineanalyticsbreakdown_ProcessSession](processsession.md#BKMK_msdyn_quotelineanalyticsbreakdown_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1070,6 +1077,7 @@ Same as processsession entity [msdyn_quotelineanalyticsbreakdown_ProcessSession]
 ### <a name="BKMK_msdyn_quotelineanalyticsbreakdown_BulkDeleteFailures"></a> msdyn_quotelineanalyticsbreakdown_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_quotelineanalyticsbreakdown_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_quotelineanalyticsbreakdown_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1084,6 +1092,7 @@ Same as bulkdeletefailure entity [msdyn_quotelineanalyticsbreakdown_BulkDeleteFa
 ### <a name="BKMK_msdyn_quotelineanalyticsbreakdown_PrincipalObjectAttributeAccesses"></a> msdyn_quotelineanalyticsbreakdown_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_quotelineanalyticsbreakdown_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_quotelineanalyticsbreakdown_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

@@ -28,19 +28,19 @@ In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], se
   
  Server-side synchronization offers the following capabilities:  
   
--   Process emails of a user and a queue using the email address, email delivery method, and credentials from the related mailbox record.  
+- Process emails of a user and a queue using the email address, email delivery method, and credentials from the related mailbox record.  
   
--   Process appointments, contacts, and tasks.  
+- Process appointments, contacts, and tasks.  
   
--   Use mailbox records to process emails for users and queues having the incoming delivery method set as Forward Mailbox.  
+- Use mailbox records to process emails for users and queues having the incoming delivery method set as Forward Mailbox.  
   
--   Use information from a related email profile record to process emails for all mailboxes.  
+- Use information from a related email profile record to process emails for all mailboxes.  
   
--   Prevent email processing for inactive mailboxes or for mailboxes that don’t have an associated email profile.  
+- Prevent email processing for inactive mailboxes or for mailboxes that don’t have an associated email profile.  
   
--   Automatically relate an associated mailbox to the default email profile when a user or a queue is created with the email delivery method set as server-side synchronization.  
+- Automatically relate an associated mailbox to the default email profile when a user or a queue is created with the email delivery method set as server-side synchronization.  
   
--   Automatically track [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] emails in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for a user based on the folder-level tracking rules.  
+- Automatically track [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] emails in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for a user based on the folder-level tracking rules.  
   
 ## In This Section  
  [Configure folder level tracking rules](configure-exchange-folder-level-tracking-rules.md)  

@@ -26,23 +26,23 @@ By default, a report is a personal report and can be used only by the author unl
 1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
     #### Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)].  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)].  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-3.  Click **Customize the System**.  
+3. Click **Customize the System**.  
   
-4.  Click **Components** > **reports**, and then click or tap the report that you want to share.  
+4. Click **Components** > **reports**, and then click or tap the report that you want to share.  
   
-5.  Click **Actions**.  
+5. Click **Actions**.  
   
-    -   To change the owner, select **Assign**, and then select the user or team.  
+   -   To change the owner, select **Assign**, and then select the user or team.  
   
-    -   To share the report, select **Sharing**, add the user or team you want to share the report with, and then give them specific permissions. Click or tap **Share**.  
+   -   To share the report, select **Sharing**, add the user or team you want to share the report with, and then give them specific permissions. Click or tap **Share**.  
   
-6.  Click **Save** or **Save and Close**.  
+6. Click **Save** or **Save and Close**.  
   
 ### See also  
  [Get a list of available reports](../basics/get-list-available-reports.md)   

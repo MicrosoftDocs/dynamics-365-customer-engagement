@@ -38,7 +38,7 @@ manager: "brycho"
   
 > [!NOTE]
 > **TIP**: If you've just started a trial or upgraded to [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)], you might need to refresh or open a new browser session to see your apps. There might be a delay for your instance to fully provision.  
->   
+> 
 >  For [!INCLUDE[pn_CRM_Online_Government_Full](../includes/pn-crm-online-government-full.md)] subscriptions, the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher will take users to either [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] or the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)]. Admins will go to the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)].  
   
 <a name="BKMK_SelectAdminFromAppLaunch"></a>   
@@ -53,7 +53,7 @@ manager: "brycho"
   
 <a name="BKMK_IntroD365HomePage"></a>   
 ## For admins and end users: Introducing the Dynamics 365 home page  
- If you've transitioned to [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], we have a new page for you to manage and open [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] apps. Click **[!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)]**from the app launcher, to go to the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] home page ([home.dynamics.com](http://home.dynamics.com)).  
+ If you've transitioned to [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], we have a new page for you to manage and open [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] apps. Click <strong>[!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)]</strong>from the app launcher, to go to the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] home page ([home.dynamics.com](http://home.dynamics.com)).  
   
  ![Dynamics 365 tile on the Office 365 app launcher](../admin/media/select-dynamics-365-app-launcher.png "Dynamics 365 tile on the Office 365 app launcher")  
   
@@ -79,19 +79,19 @@ manager: "brycho"
   
 > [!NOTE]
 > **What is "Dynamics 365 - custom"?**  
->   
+> 
 >  "Dynamics 365 - custom" is the app name for all online organizations with a version 8.1 and lower as well as the default app on 8.2. The name for the 8.2 default app can be changed by the administrator.  
->   
+> 
 > **What are the tiles on the home page?**  
->   
+> 
 > [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] is introducing a new app model and what you're seeing are [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] apps for which you're licensed once you've upgraded to [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)].  
->   
+> 
 > **Admins: You have options for displaying and naming Dynamics 365 - custom.**  
->   
+> 
 >  Once you update to [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], you have options.  Go to **Settings** > **Administration** > **System Setting** > **General** tab. Scroll down to **Set options for the default app: Dynamics 365 - custom**.  
->   
+> 
 > **Where do I get more information about upgrading to Dynamics 365?**  
->   
+> 
 > -   [Important information for CRM Online customers](../admin/important-information-customers.md)  
 > -   [Switch from Dynamics CRM Online to Dynamics 365 (online)](../admin/switch-dynamics-crm-online-dynamics-365.md)  
   
@@ -99,21 +99,21 @@ manager: "brycho"
 ### Pin your frequently-used apps  
  For companies with lots of [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] apps, you can do a variety of things to make the home page more manageable.  For example, pin your frequently-used apps to the top of your page.  
   
-1.  Select the app on the home page.  
+1. Select the app on the home page.  
   
-2.  Click the **ellipses** (...), and then click **Pin this app**.  
+2. Click the **ellipses** (...), and then click **Pin this app**.  
   
- ![Pin This App button in Dynamics 365](../admin/media/pin-dynamics-365-app.png "Pin This App button in Dynamics 365")  
+   ![Pin This App button in Dynamics 365](../admin/media/pin-dynamics-365-app.png "Pin This App button in Dynamics 365")  
   
- The app will appear at the top of the home page and in the task pane.  
+   The app will appear at the top of the home page and in the task pane.  
   
- ![Dynamics 365 app pinned to the home page](../admin/media/dynamics-365-app-pinned-onhome-page.png "Dynamics 365 app pinned to the home page")  
+   ![Dynamics 365 app pinned to the home page](../admin/media/dynamics-365-app-pinned-onhome-page.png "Dynamics 365 app pinned to the home page")  
   
- Pinned in the home page.  
+   Pinned in the home page.  
   
- ![App pinned in the task pane](../admin/media/app-pinned-in-task-pane.png "App pinned in the task pane")  
+   ![App pinned in the task pane](../admin/media/app-pinned-in-task-pane.png "App pinned in the task pane")  
   
- Pinned in the task pane.  
+   Pinned in the task pane.  
   
 <a name="BKMK_SearchApps"></a>   
 ### Search your apps  

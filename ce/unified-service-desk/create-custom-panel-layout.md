@@ -45,152 +45,152 @@ Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
 ## Create a custom panel layout  
   
 <a name="Step1"></a>   
-1.  Start [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)], and create a new project.  
+1. Start [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)], and create a new project.  
   
-2.  In the **New Project** dialog box:  
+2. In the **New Project** dialog box:  
   
-    1.  From the list of installed templates, expand **Visual C#**, and select **CRM SDK Templates** > **Unified Service Desk** > **USD Custom Panel Layout**.  
+   1. From the list of installed templates, expand **Visual C#**, and select **CRM SDK Templates** > **Unified Service Desk** > **USD Custom Panel Layout**.  
   
-    2.  Ensure that **[!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] 4.5.2** is selected.  
+   2. Ensure that **[!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] 4.5.2** is selected.  
   
-    3.  Specify the name and location of the project, and click **OK**.  
+   3. Specify the name and location of the project, and click **OK**.  
   
- ![Create a custom panel layout](../unified-service-desk/media/usd-custom-panel-type-1.png "Create a custom panel layout")  
+   ![Create a custom panel layout](../unified-service-desk/media/usd-custom-panel-type-1.png "Create a custom panel layout")  
   
-3.  In **Solution Explorer**, double-click the `CustomLayout.xaml` file to bring up the XAML designer. The XAML designer displays the default panel layout in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
+3. In **Solution Explorer**, double-click the `CustomLayout.xaml` file to bring up the XAML designer. The XAML designer displays the default panel layout in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
-4.  Replace the XAML code in the `CustomLayout.xaml` file with the code provided in the following sample. To do this, select all the code (CTRL+A) in the XAML area (as shown in the illustration), delete it, and then paste the XAML code provided at the same place. This is done to change the location of the expander pane from left to right.  
+4. Replace the XAML code in the `CustomLayout.xaml` file with the code provided in the following sample. To do this, select all the code (CTRL+A) in the XAML area (as shown in the illustration), delete it, and then paste the XAML code provided at the same place. This is done to change the location of the expander pane from left to right.  
   
- ![Update the XAML code for the custom panel layout](../unified-service-desk/media/usd-create-custom-panel-layout-2.png "Update the XAML code for the custom panel layout")  
+   ![Update the XAML code for the custom panel layout](../unified-service-desk/media/usd-create-custom-panel-layout-2.png "Update the XAML code for the custom panel layout")  
   
-    ```  
-    <USD:PanelLayoutBase             
-            x:Class="MyUSDCustomPanelLayout.CustomLayout"  
-            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
-            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
-            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"  
-            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"  
-            mc:Ignorable="d"   
-            xmlns:local="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"  
-            xmlns:USD="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics.PanelLayouts;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"  
-            d:DesignHeight="500" d:DesignWidth="500">  
-        <Grid x:Name="LayoutRoot">  
-            <Grid.Resources>  
-                <local:CRMImageConverter x:Key="CRMImageLoader" />  
-                <Style x:Key="ImageLogo" TargetType="{x:Type Image}">  
-                    <Setter Property="FlowDirection" Value="LeftToRight"/>  
-                    <Setter Property="Width" Value="161" />  
-                    <Setter Property="Height" Value="25" />  
-                    <Setter Property="Margin" Value="0" />  
-                    <Setter Property="HorizontalAlignment" Value="Left" />  
-                    <Setter Property="VerticalAlignment" Value="Center" />  
-                </Style>  
-            </Grid.Resources>  
-            <Grid.RowDefinitions>  
-                <RowDefinition Height="auto"/>  
-                <RowDefinition Height="*"/>  
-                <RowDefinition Height="auto"/>  
-            </Grid.RowDefinitions>  
-            <Border Grid.Row="0" BorderBrush="#d8d8d8" BorderThickness="0,1,0,1">  
-                <Grid Background="{DynamicResource WindowHeaderStyle}" Grid.Row="0"  Margin="0">  
-                    <Grid.ColumnDefinitions>  
-                        <ColumnDefinition Width="auto" />  
-                        <ColumnDefinition Width="auto" />  
-                        <ColumnDefinition Width="*" />  
-                        <ColumnDefinition Width="Auto" />  
-                    </Grid.ColumnDefinitions>  
-                    <Image Grid.Column="0" Source="{Binding Source=msdyusd_Logo, Converter={StaticResource CRMImageLoader}}"  Style="{DynamicResource ImageLogo}"   />  
-                    <Rectangle Width="10" Grid.Column="1" />  
-                    <USD:USDDeckTabPanel x:Name="ToolbarPanel" Grid.Column="2" AutomationProperties.Name="Toolbar Panel" VerticalAlignment="Stretch" Focusable="False" Margin="1" />  
-                    <Grid Grid.Column="3">  
-                        <Grid.ColumnDefinitions>  
-                            <ColumnDefinition Width="*" />  
-                            <ColumnDefinition Width="412"/>  
-                        </Grid.ColumnDefinitions>  
-                        <Grid.Background>  
-                            <ImageBrush ImageSource="{Binding Source=msdyusd_Office15, Converter={StaticResource CRMImageLoader}}" Stretch="Fill" ></ImageBrush>  
-                        </Grid.Background>  
-                        <USD:USDStackPanel Grid.Column="0" x:Name="CtiPanel"  Orientation="Horizontal" Focusable="False" VerticalAlignment="Center" AutomationProperties.Name="Cti Panel" SelectedAppChanged="SelectedAppChangedHander"/>  
-                        <USD:USDStackPanel Grid.Column="1" HorizontalAlignment="Right" x:Name="AboutPanel"  Orientation="Horizontal" Focusable="False" VerticalAlignment="Center" AutomationProperties.Name="AboutPanel"/>  
-                    </Grid>  
-                </Grid>  
-            </Border>  
-            <Grid Grid.Row="1" VerticalAlignment="Stretch" Margin="0" Background="{DynamicResource WindowBackgroundStyle}">  
-                <Grid.RowDefinitions>  
-                    <RowDefinition Height="auto" />  
-                    <RowDefinition Height="*" />  
-                    <RowDefinition Height="auto" />  
-                </Grid.RowDefinitions>  
-                <USD:USDDeckTabPanel x:Name="SessionTabsPanel" Grid.Row="0" Margin="5,5,0,5" AutomationProperties.Name="Session Tabs Panel" Focusable="False" ClipToBounds="True" />  
-                <Grid x:Name="MainGrid" Grid.Row="1" AutomationProperties.Name="Main Panels">  
-                    <Grid.ColumnDefinitions>  
-                        <ColumnDefinition Width="*" />  
-                        <ColumnDefinition Width="auto"/>  
-                    </Grid.ColumnDefinitions>  
-                    <Expander Grid.Column="1" Style="{DynamicResource StretchExpanderStyle}"  ExpandDirection="Right" x:Name="RightExpander" IsExpanded="false" BorderBrush="White" Expanded="Expander_Expanded" Collapsed="Expander_Collapsed" >  
-                        <Grid Style="{DynamicResource LeftPanelGrid}">  
-                            <Grid.RowDefinitions>  
-                                <RowDefinition Height="auto" />  
-                                <RowDefinition Height="auto" />  
-                                <RowDefinition Height="auto" Name="ChatPanelRow" />  
-                                <RowDefinition Height="auto" />  
-                                <RowDefinition Height="auto" />  
-                                <RowDefinition Height="*" />  
-                            </Grid.RowDefinitions>  
-                            <USD:USDCollapsePanel x:Name="SessionExplorerPanel" AutomationProperties.Name="Session Explorer Panel" Grid.Row="0" Margin="1" SelectedAppChanged="SelectedAppChangedHander" />  
-                            <USD:USDCollapsePanel x:Name="WorkflowPanel" AutomationProperties.Name="Workflow Panel" Grid.Row="1" Margin="1" SelectedAppChanged="SelectedAppChangedHander" />  
-                            <USD:USDCollapsePanel x:Name="ChatPanel" AutomationProperties.Name="Workflow Panel" Grid.Row="2" Margin="1" SelectedAppChanged="SelectedAppChangedHander"/>  
-                            <USD:USDCollapsePanel x:Name="LeftPanel1" AutomationProperties.Name="Left Panel 1" Grid.Row="3" Margin="1" SelectedAppChanged="SelectedAppChangedHander"/>  
-                            <USD:USDCollapsePanel x:Name="LeftPanel2" AutomationProperties.Name="Left Panel 2" Grid.Row="4" Margin="1" SelectedAppChanged="SelectedAppChangedHander"/>  
-                            <USD:USDDeckTabPanel x:Name="LeftPanelFill" AutomationProperties.Name="Left Panel Fill" Grid.Row="5" Margin="1" SelectedAppChanged="SelectedAppChangedHander"/>  
-                        </Grid>  
-                    </Expander>  
-                    <Grid Grid.Column="0" Background="Transparent">  
-                        <Grid.RowDefinitions>  
-                            <RowDefinition Height="0" />  
-                            <RowDefinition Height="*" />  
-                        </Grid.RowDefinitions>  
-                        <USD:USDCollapsePanel x:Name="RibbonPanel" Grid.Row="0" Visibility="Collapsed"  AutomationProperties.Name="Ribbon Panel" Focusable="False" Margin="1" ClipToBounds="False" SnapsToDevicePixels="True" />  
-                        <USD:USDTabPanel x:Name="MainPanel" Grid.Row="1" AutomationProperties.Name="Main Panel" SelectedAppChanged="SelectedAppChangedHander"/>  
-                    </Grid>  
-                </Grid>  
-            </Grid>  
-            <StatusBar Margin="0" Background="{DynamicResource WindowHeaderStyle}"  Grid.Row="2" Height="auto" VerticalAlignment="Bottom">  
-                <StatusBarItem Background="{DynamicResource WindowHeaderStyle}" >  
-                    <USD:USDStackPanel x:Name="StatusPanel" Orientation="Horizontal" AutomationProperties.Name="Status Panel" Margin="1" SelectedAppChanged="SelectedAppChangedHander" />  
-                </StatusBarItem>  
-            </StatusBar>  
-        </Grid>  
-    </USD:PanelLayoutBase>  
-    ```  
+   ```  
+   <USD:PanelLayoutBase             
+           x:Class="MyUSDCustomPanelLayout.CustomLayout"  
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"  
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"  
+           mc:Ignorable="d"   
+           xmlns:local="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"  
+           xmlns:USD="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics.PanelLayouts;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"  
+           d:DesignHeight="500" d:DesignWidth="500">  
+       <Grid x:Name="LayoutRoot">  
+           <Grid.Resources>  
+               <local:CRMImageConverter x:Key="CRMImageLoader" />  
+               <Style x:Key="ImageLogo" TargetType="{x:Type Image}">  
+                   <Setter Property="FlowDirection" Value="LeftToRight"/>  
+                   <Setter Property="Width" Value="161" />  
+                   <Setter Property="Height" Value="25" />  
+                   <Setter Property="Margin" Value="0" />  
+                   <Setter Property="HorizontalAlignment" Value="Left" />  
+                   <Setter Property="VerticalAlignment" Value="Center" />  
+               </Style>  
+           </Grid.Resources>  
+           <Grid.RowDefinitions>  
+               <RowDefinition Height="auto"/>  
+               <RowDefinition Height="*"/>  
+               <RowDefinition Height="auto"/>  
+           </Grid.RowDefinitions>  
+           <Border Grid.Row="0" BorderBrush="#d8d8d8" BorderThickness="0,1,0,1">  
+               <Grid Background="{DynamicResource WindowHeaderStyle}" Grid.Row="0"  Margin="0">  
+                   <Grid.ColumnDefinitions>  
+                       <ColumnDefinition Width="auto" />  
+                       <ColumnDefinition Width="auto" />  
+                       <ColumnDefinition Width="*" />  
+                       <ColumnDefinition Width="Auto" />  
+                   </Grid.ColumnDefinitions>  
+                   <Image Grid.Column="0" Source="{Binding Source=msdyusd_Logo, Converter={StaticResource CRMImageLoader}}"  Style="{DynamicResource ImageLogo}"   />  
+                   <Rectangle Width="10" Grid.Column="1" />  
+                   <USD:USDDeckTabPanel x:Name="ToolbarPanel" Grid.Column="2" AutomationProperties.Name="Toolbar Panel" VerticalAlignment="Stretch" Focusable="False" Margin="1" />  
+                   <Grid Grid.Column="3">  
+                       <Grid.ColumnDefinitions>  
+                           <ColumnDefinition Width="*" />  
+                           <ColumnDefinition Width="412"/>  
+                       </Grid.ColumnDefinitions>  
+                       <Grid.Background>  
+                           <ImageBrush ImageSource="{Binding Source=msdyusd_Office15, Converter={StaticResource CRMImageLoader}}" Stretch="Fill" ></ImageBrush>  
+                       </Grid.Background>  
+                       <USD:USDStackPanel Grid.Column="0" x:Name="CtiPanel"  Orientation="Horizontal" Focusable="False" VerticalAlignment="Center" AutomationProperties.Name="Cti Panel" SelectedAppChanged="SelectedAppChangedHander"/>  
+                       <USD:USDStackPanel Grid.Column="1" HorizontalAlignment="Right" x:Name="AboutPanel"  Orientation="Horizontal" Focusable="False" VerticalAlignment="Center" AutomationProperties.Name="AboutPanel"/>  
+                   </Grid>  
+               </Grid>  
+           </Border>  
+           <Grid Grid.Row="1" VerticalAlignment="Stretch" Margin="0" Background="{DynamicResource WindowBackgroundStyle}">  
+               <Grid.RowDefinitions>  
+                   <RowDefinition Height="auto" />  
+                   <RowDefinition Height="*" />  
+                   <RowDefinition Height="auto" />  
+               </Grid.RowDefinitions>  
+               <USD:USDDeckTabPanel x:Name="SessionTabsPanel" Grid.Row="0" Margin="5,5,0,5" AutomationProperties.Name="Session Tabs Panel" Focusable="False" ClipToBounds="True" />  
+               <Grid x:Name="MainGrid" Grid.Row="1" AutomationProperties.Name="Main Panels">  
+                   <Grid.ColumnDefinitions>  
+                       <ColumnDefinition Width="*" />  
+                       <ColumnDefinition Width="auto"/>  
+                   </Grid.ColumnDefinitions>  
+                   <Expander Grid.Column="1" Style="{DynamicResource StretchExpanderStyle}"  ExpandDirection="Right" x:Name="RightExpander" IsExpanded="false" BorderBrush="White" Expanded="Expander_Expanded" Collapsed="Expander_Collapsed" >  
+                       <Grid Style="{DynamicResource LeftPanelGrid}">  
+                           <Grid.RowDefinitions>  
+                               <RowDefinition Height="auto" />  
+                               <RowDefinition Height="auto" />  
+                               <RowDefinition Height="auto" Name="ChatPanelRow" />  
+                               <RowDefinition Height="auto" />  
+                               <RowDefinition Height="auto" />  
+                               <RowDefinition Height="*" />  
+                           </Grid.RowDefinitions>  
+                           <USD:USDCollapsePanel x:Name="SessionExplorerPanel" AutomationProperties.Name="Session Explorer Panel" Grid.Row="0" Margin="1" SelectedAppChanged="SelectedAppChangedHander" />  
+                           <USD:USDCollapsePanel x:Name="WorkflowPanel" AutomationProperties.Name="Workflow Panel" Grid.Row="1" Margin="1" SelectedAppChanged="SelectedAppChangedHander" />  
+                           <USD:USDCollapsePanel x:Name="ChatPanel" AutomationProperties.Name="Workflow Panel" Grid.Row="2" Margin="1" SelectedAppChanged="SelectedAppChangedHander"/>  
+                           <USD:USDCollapsePanel x:Name="LeftPanel1" AutomationProperties.Name="Left Panel 1" Grid.Row="3" Margin="1" SelectedAppChanged="SelectedAppChangedHander"/>  
+                           <USD:USDCollapsePanel x:Name="LeftPanel2" AutomationProperties.Name="Left Panel 2" Grid.Row="4" Margin="1" SelectedAppChanged="SelectedAppChangedHander"/>  
+                           <USD:USDDeckTabPanel x:Name="LeftPanelFill" AutomationProperties.Name="Left Panel Fill" Grid.Row="5" Margin="1" SelectedAppChanged="SelectedAppChangedHander"/>  
+                       </Grid>  
+                   </Expander>  
+                   <Grid Grid.Column="0" Background="Transparent">  
+                       <Grid.RowDefinitions>  
+                           <RowDefinition Height="0" />  
+                           <RowDefinition Height="*" />  
+                       </Grid.RowDefinitions>  
+                       <USD:USDCollapsePanel x:Name="RibbonPanel" Grid.Row="0" Visibility="Collapsed"  AutomationProperties.Name="Ribbon Panel" Focusable="False" Margin="1" ClipToBounds="False" SnapsToDevicePixels="True" />  
+                       <USD:USDTabPanel x:Name="MainPanel" Grid.Row="1" AutomationProperties.Name="Main Panel" SelectedAppChanged="SelectedAppChangedHander"/>  
+                   </Grid>  
+               </Grid>  
+           </Grid>  
+           <StatusBar Margin="0" Background="{DynamicResource WindowHeaderStyle}"  Grid.Row="2" Height="auto" VerticalAlignment="Bottom">  
+               <StatusBarItem Background="{DynamicResource WindowHeaderStyle}" >  
+                   <USD:USDStackPanel x:Name="StatusPanel" Orientation="Horizontal" AutomationProperties.Name="Status Panel" Margin="1" SelectedAppChanged="SelectedAppChangedHander" />  
+               </StatusBarItem>  
+           </StatusBar>  
+       </Grid>  
+   </USD:PanelLayoutBase>  
+   ```  
   
-5.  You can also define a keyboard shortcut to access a panel in your custom panel layout. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define keyboard shortcuts for panels in custom panel layout](../unified-service-desk/keyboard-shortcuts-panels.md)  
+5. You can also define a keyboard shortcut to access a panel in your custom panel layout. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define keyboard shortcuts for panels in custom panel layout](../unified-service-desk/keyboard-shortcuts-panels.md)  
   
-6.  In **Solution Explorer**, right-click the `CustomLayout.xaml` file, and click **View Code** to add the code behind the XAML. This opens up the `CustomLayout.xaml.cs` file.  
+6. In **Solution Explorer**, right-click the `CustomLayout.xaml` file, and click **View Code** to add the code behind the XAML. This opens up the `CustomLayout.xaml.cs` file.  
   
-7.  Update the `NotifyContextChange` method definition by adding the following code.  
+7. Update the `NotifyContextChange` method definition by adding the following code.  
   
-    ```  
-    if (context.Count != 0)  
-    {  
-       RightExpander.IsExpanded = true;  
-    }  
-    else  
-    {   
-       RightExpander.IsExpanded = false;  
-    }  
-    ```  
+   ```  
+   if (context.Count != 0)  
+   {  
+      RightExpander.IsExpanded = true;  
+   }  
+   else  
+   {   
+      RightExpander.IsExpanded = false;  
+   }  
+   ```  
   
-     The code checks if there are any sessions active in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and automatically displays (expands) or hides (collapses) the expander pane.  
+    The code checks if there are any sessions active in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and automatically displays (expands) or hides (collapses) the expander pane.  
   
-     This is the updated `NotifyContextChange` method definition.  
+    This is the updated `NotifyContextChange` method definition.  
   
- ![Updated NotifyContextChange method](../unified-service-desk/media/usd-create-custom-panel-layout-3.png "Updated NotifyContextChange method")  
+   ![Updated NotifyContextChange method](../unified-service-desk/media/usd-create-custom-panel-layout-3.png "Updated NotifyContextChange method")  
   
-8.  Save your project, and build it (**Build** > **Build Solution**) to check if it builds successfully.  
+8. Save your project, and build it (**Build** > **Build Solution**) to check if it builds successfully.  
   
-    > [!NOTE]
-    >  Note the name of the class that is used to build your custom panel layout in the `CustomLayout.xaml.cs` file. In this case, it’s `CustomLayout`. You’ll need this information in the next step.  
+   > [!NOTE]
+   >  Note the name of the class that is used to build your custom panel layout in the `CustomLayout.xaml.cs` file. In this case, it’s `CustomLayout`. You’ll need this information in the next step.  
   
 <a name="Test"></a>   
 ## Test your custom panel layout  
@@ -198,39 +198,39 @@ Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
   
 ### Define the custom panel layout hosted control on server  
   
-1.  Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
-2.  On the nav bar, choose **Microsoft Dynamics 365**, and select **Settings**.  
+2. On the nav bar, choose **Microsoft Dynamics 365**, and select **Settings**.  
   
-3.  Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
+3. Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
   
-4.  Choose **NEW**, and then specify values in the **New Hosted Control** screen as shown here.  
+4. Choose **NEW**, and then specify values in the **New Hosted Control** screen as shown here.  
   
- ![Custom panel hosted control definition](../unified-service-desk/media/usd-custom-panel-type-2.png "Custom panel hosted control definition")  
+   ![Custom panel hosted control definition](../unified-service-desk/media/usd-custom-panel-type-2.png "Custom panel hosted control definition")  
   
-    > [!NOTE]
-    > **Assembly URI** is the name of your assembly and the **Assembly Type** is the name of your assembly file (dll) followed by a dot (.) and then the class name in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project. In this example, the name of the assembly is **MyUSDCustomPanelLayout** and name of the class is **CustomLayout**, which is the default class name when you create a custom panel layout.  
+   > [!NOTE]
+   > **Assembly URI** is the name of your assembly and the **Assembly Type** is the name of your assembly file (dll) followed by a dot (.) and then the class name in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project. In this example, the name of the assembly is **MyUSDCustomPanelLayout** and name of the class is **CustomLayout**, which is the default class name when you create a custom panel layout.  
   
-5.  Save the hosted control.  
+5. Save the hosted control.  
   
 ### Run the Unified Service Desk client to work with the custom panel layout  
   
-1.  Copy the assembly file (dll) that contains your custom hosted control definition from your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project debug folder to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application directory, which is, by default, c:\Program Files\Microsoft Dynamics CRM USD\USD.  
+1. Copy the assembly file (dll) that contains your custom hosted control definition from your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project debug folder to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application directory, which is, by default, c:\Program Files\Microsoft Dynamics CRM USD\USD.  
   
-2.  Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server.  
+2. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server.  
   
-3.  On successful sign in, you’ll see the custom panel layout without the expander pane in the left side. The expander pane is now on the right side.  
+3. On successful sign in, you’ll see the custom panel layout without the expander pane in the left side. The expander pane is now on the right side.  
   
- ![Screenshot of custom panel layout](../unified-service-desk/media/usd-create-custom-panel-layout-4.png "Screenshot of custom panel layout")  
+   ![Screenshot of custom panel layout](../unified-service-desk/media/usd-create-custom-panel-layout-4.png "Screenshot of custom panel layout")  
   
-4.  Choose **Search** on the toolbar, and then select a record to be displayed in a session. In this case, choose **Contacts** in the **Search** window, and then choose **Maria Campbell (Sample)**. The right pane automatically appears to display the associated session data, agent scripting, and other information about the current contact record.  
+4. Choose **Search** on the toolbar, and then select a record to be displayed in a session. In this case, choose **Contacts** in the **Search** window, and then choose **Maria Campbell (Sample)**. The right pane automatically appears to display the associated session data, agent scripting, and other information about the current contact record.  
   
- ![The right expander pane displays automatically](../unified-service-desk/media/usd-create-custom-panel-layout-5.png "The right expander pane displays automatically")  
+   ![The right expander pane displays automatically](../unified-service-desk/media/usd-create-custom-panel-layout-5.png "The right expander pane displays automatically")  
   
-5.  Close the session by clicking cross in the session tab at the top, and the right pane will automatically close/collapse.  
+5. Close the session by clicking cross in the session tab at the top, and the right pane will automatically close/collapse.  
   
-    > [!NOTE]
-    >  In case of multiple sessions, the right pane will continue to display until you have closed all the session tabs.  
+   > [!NOTE]
+   >  In case of multiple sessions, the right pane will continue to display until you have closed all the session tabs.  
   
 ### See also  
  [Display hosted controls in the custom panel layout](../unified-service-desk/display-hosted-controls-custom-panel-layout.md)   

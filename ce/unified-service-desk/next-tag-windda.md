@@ -26,13 +26,13 @@ manager: sakudes
   
 ## Attributes of \<Next>  
   
--   `Match` – Returns the nth matching attribute.  
+- `Match` – Returns the nth matching attribute.  
   
--   `Offset` – Returns the nth attribute after the matching attribute.  
+- `Offset` – Returns the nth attribute after the matching attribute.  
   
--   `Culture` – Uses the `culture` tag.  
+- `Culture` – Uses the `culture` tag.  
   
- The `match="2"` attribute specifies how many times a text match has to occur for the criteria to be satisfied. When this number is reached, the `offset` attribute can be used to select an `IAccessible` node adjacent to the node that was successfully matched. The offset value wraps around, so it is not possible to reference outside of the child `IAccessible` array. The culture tag allows you to search for language-specific attributes as shown in the following example:  
+  The `match="2"` attribute specifies how many times a text match has to occur for the criteria to be satisfied. When this number is reached, the `offset` attribute can be used to select an `IAccessible` node adjacent to the node that was successfully matched. The offset value wraps around, so it is not possible to reference outside of the child `IAccessible` array. The culture tag allows you to search for language-specific attributes as shown in the following example:  
   
 ```xml  
 <AccControl name="closeButton">  

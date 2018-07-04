@@ -663,6 +663,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_role_parent_role"></a> role_parent_role
 
 Same as role entity [role_parent_role](role.md#BKMK_role_parent_role) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|role|
@@ -677,6 +678,7 @@ Same as role entity [role_parent_role](role.md#BKMK_role_parent_role) Many-To-On
 ### <a name="BKMK_Role_AsyncOperations"></a> Role_AsyncOperations
 
 Same as asyncoperation entity [Role_AsyncOperations](asyncoperation.md#BKMK_Role_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -691,6 +693,7 @@ Same as asyncoperation entity [Role_AsyncOperations](asyncoperation.md#BKMK_Role
 ### <a name="BKMK_role_parent_root_role"></a> role_parent_root_role
 
 Same as role entity [role_parent_root_role](role.md#BKMK_role_parent_root_role) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|role|
@@ -705,6 +708,7 @@ Same as role entity [role_parent_root_role](role.md#BKMK_role_parent_root_role) 
 ### <a name="BKMK_Role_BulkDeleteFailures"></a> Role_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Role_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Role_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -719,6 +723,7 @@ Same as bulkdeletefailure entity [Role_BulkDeleteFailures](bulkdeletefailure.md#
 ### <a name="BKMK_Role_SyncErrors"></a> Role_SyncErrors
 
 Same as syncerror entity [Role_SyncErrors](syncerror.md#BKMK_Role_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -733,6 +738,7 @@ Same as syncerror entity [Role_SyncErrors](syncerror.md#BKMK_Role_SyncErrors) Ma
 ### <a name="BKMK_userentityinstancedata_role"></a> userentityinstancedata_role
 
 Same as userentityinstancedata entity [userentityinstancedata_role](userentityinstancedata.md#BKMK_userentityinstancedata_role) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

@@ -1097,6 +1097,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_lk_workflowlog_processsession"></a> lk_workflowlog_processsession
 
 Same as workflowlog entity [lk_workflowlog_processsession](workflowlog.md#BKMK_lk_workflowlog_processsession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|workflowlog|
@@ -1111,6 +1112,7 @@ Same as workflowlog entity [lk_workflowlog_processsession](workflowlog.md#BKMK_l
 ### <a name="BKMK_lk_workflowlog_processsession_childworkflow"></a> lk_workflowlog_processsession_childworkflow
 
 Same as workflowlog entity [lk_workflowlog_processsession_childworkflow](workflowlog.md#BKMK_lk_workflowlog_processsession_childworkflow) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|workflowlog|
@@ -1125,6 +1127,7 @@ Same as workflowlog entity [lk_workflowlog_processsession_childworkflow](workflo
 ### <a name="BKMK_lk_processsession_previouslinkedsessionid"></a> lk_processsession_previouslinkedsessionid
 
 Same as processsession entity [lk_processsession_previouslinkedsessionid](processsession.md#BKMK_lk_processsession_previouslinkedsessionid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1139,6 +1142,7 @@ Same as processsession entity [lk_processsession_previouslinkedsessionid](proces
 ### <a name="BKMK_lk_processsession_nextlinkedsessionid"></a> lk_processsession_nextlinkedsessionid
 
 Same as processsession entity [lk_processsession_nextlinkedsessionid](processsession.md#BKMK_lk_processsession_nextlinkedsessionid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1153,6 +1157,7 @@ Same as processsession entity [lk_processsession_nextlinkedsessionid](processses
 ### <a name="BKMK_lk_processsession_originatingsessionid"></a> lk_processsession_originatingsessionid
 
 Same as processsession entity [lk_processsession_originatingsessionid](processsession.md#BKMK_lk_processsession_originatingsessionid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1167,6 +1172,7 @@ Same as processsession entity [lk_processsession_originatingsessionid](processse
 ### <a name="BKMK_processsession_connections2"></a> processsession_connections2
 
 Same as connection entity [processsession_connections2](connection.md#BKMK_processsession_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1181,6 +1187,7 @@ Same as connection entity [processsession_connections2](connection.md#BKMK_proce
 ### <a name="BKMK_ProcessSession_SyncErrors"></a> ProcessSession_SyncErrors
 
 Same as syncerror entity [ProcessSession_SyncErrors](syncerror.md#BKMK_ProcessSession_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1195,6 +1202,7 @@ Same as syncerror entity [ProcessSession_SyncErrors](syncerror.md#BKMK_ProcessSe
 ### <a name="BKMK_processsession_connections1"></a> processsession_connections1
 
 Same as connection entity [processsession_connections1](connection.md#BKMK_processsession_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1209,6 +1217,7 @@ Same as connection entity [processsession_connections1](connection.md#BKMK_proce
 ### <a name="BKMK_processsession_PostFollows"></a> processsession_PostFollows
 
 Same as postfollow entity [processsession_PostFollows](postfollow.md#BKMK_processsession_PostFollows) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|postfollow|
@@ -1223,6 +1232,7 @@ Same as postfollow entity [processsession_PostFollows](postfollow.md#BKMK_proces
 ### <a name="BKMK_userentityinstancedata_processsession"></a> userentityinstancedata_processsession
 
 Same as userentityinstancedata entity [userentityinstancedata_processsession](userentityinstancedata.md#BKMK_userentityinstancedata_processsession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

@@ -32,7 +32,7 @@ manager: "amyla"
 <td>entityLogicalName</td>
 <td>String</td>
 <td>Yes</td>
-<td>The entity logical name of the record you want to update. For example: "account".</td>
+<td>The entity logical name of the record you want to update. For example: &quot;account&quot;.</td>
 </tr>
 <tr>
 <td>id</td>
@@ -44,7 +44,7 @@ manager: "amyla"
 <td>data</td>
 <td>Object</td>
 <td>Yes</td>
-<td><p>A JSON object containing <code>key: value</code> pairs, where `key` is the property of the entity and <code>value</code> is the value of the property you want to update.</p>
+<td><p>A JSON object containing <code>key: value</code> pairs, where <code>key</code> is the property of the entity and <code>value</code> is the value of the property you want to update.</p>
 <p>See examples later in this topic to see how you can define the <code>data</code> object for various update scenarios.</td>
 </tr>
 <tr>

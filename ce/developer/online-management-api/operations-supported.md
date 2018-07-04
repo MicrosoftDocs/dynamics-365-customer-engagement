@@ -30,6 +30,7 @@ You can perform the following core operations on instances:
 
 ## Back up and restore instances
 You can perform the following operations to backup and restore instances:
+
 |Operation  |Description  |Rest API   |
 |----------|--------------|-----------|
 |Retrieve instance backup  |Retrieve all backups of an instance or retrieve a specific backup by specifying the restore point. |[Get Instance Backups](/rest/api/admin.services.crm.dynamics.com/getinstancebackups)<br /> <br />[Get Instance Backup](/rest/api/admin.services.crm.dynamics.com/getinstancebackup)   |

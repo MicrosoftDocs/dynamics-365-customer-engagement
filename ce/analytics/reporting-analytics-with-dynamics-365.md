@@ -41,14 +41,14 @@ tags:
   
  There are several ways you can use [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]:  
   
--   Load a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] content pack and start using the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] service to display Dynamics 365 insights.  
+- Load a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] content pack and start using the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] service to display Dynamics 365 insights.  
   
--   Customize a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] content pack. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customize Dynamics 365 Power BI content packs](../analytics/customize-power-bi-content-packs.md)  
+- Customize a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] content pack. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customize Dynamics 365 Power BI content packs](../analytics/customize-power-bi-content-packs.md)  
   
--   Use [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] to modify and customize your reports and visualizations.  
+- Use [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] to modify and customize your reports and visualizations.  
   
--   Embed a [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] tile in a Dynamics 365 personal dashboard.  
+- Embed a [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] tile in a Dynamics 365 personal dashboard.  
   
--   Use [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] and [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] together.  
+- Use [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] and [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] together.  
   
 

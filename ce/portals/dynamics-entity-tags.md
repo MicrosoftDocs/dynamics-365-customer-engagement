@@ -601,7 +601,7 @@ Having multiple search providers is an advanced configuration that will not appl
 Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-configured [entity forms](entity-forms-custom-logic.md), by name or ID.  
 
 > [!Note]
-> The entityform tag is only available for use in content rendered inside a *[web template](store-content-web-templates.md)–*based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything.                                                                                                                                                                             You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.       
+> The entityform tag is only available for use in content rendered inside a <em>[web template](store-content-web-templates.md)–</em>based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything.                                                                                                                                                                             You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.       
 
 `{% entityform name: 'My Entity Form' %}`
 

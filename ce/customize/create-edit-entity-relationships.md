@@ -24,15 +24,15 @@ Entity relationships define how records can be related to each other in the data
   
  Beyond simply defining how records can be related to other records, 1:N entity relationships also provide data to address the following questions:  
   
--   When I delete a record should any records related to that record also be deleted?  
+- When I delete a record should any records related to that record also be deleted?  
   
--   When I assign a record, do I also need to assign all records related to that record to the new owner?  
+- When I assign a record, do I also need to assign all records related to that record to the new owner?  
   
--   How can I streamline the data entry process when I create a new related record in the context of an existing record?  
+- How can I streamline the data entry process when I create a new related record in the context of an existing record?  
   
--   How should people viewing a record be able to view the associated records?  
+- How should people viewing a record be able to view the associated records?  
   
- Entities can also participate in a N:N (many-to-many) relationship where any number of records for two entities can be associated with each other.  
+  Entities can also participate in a N:N (many-to-many) relationship where any number of records for two entities can be associated with each other.  
   
 <a name="BKMK_Connections"></a>   
 ## Decide whether to use entity relationships or connections  

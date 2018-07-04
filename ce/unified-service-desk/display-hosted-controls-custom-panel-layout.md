@@ -37,7 +37,7 @@ PanelLayoutControlName/NameOfPanelInsideControl
   
 - **NameOfPanelInsideControl**: This is the name of the panel inside your custom panel layout. See [Panel types](../unified-service-desk/panels-panel-types-panel-layouts.md#PanelTypes) for the various panels that might be referenced here.  
   
- For example, if you want to configure a hosted control and display it on the MainPanel of your custom panel layout (MyUSDCustomPanelLayout), you will specify the following for as the Display Group value for the new hosted control: **MyUSDCustomPanelLayout/MainPanel**  
+  For example, if you want to configure a hosted control and display it on the MainPanel of your custom panel layout (MyUSDCustomPanelLayout), you will specify the following for as the Display Group value for the new hosted control: **MyUSDCustomPanelLayout/MainPanel**  
   
 ### See also  
  [Create custom panel layout in Unified Service Desk](../unified-service-desk/create-custom-panel-layout.md)

@@ -27,7 +27,9 @@ topic-status: Drafting
 If you already have a paid [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance in use (probably with other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] customer engagements apps running on it), then you can integrate [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] with your instance by adding a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app to your tenant and then assigning it to the appropriate instance.
 
 > [!IMPORTANT]
-> [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can only be used on instances running [!include[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or higher.
+> - [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can only be used on instances running [!include[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or higher.
+> - You can only install the product if you are located in a country/region where it is supported. To read the latest list of countries/regions where you can use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
+
 
 ## How [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] is licensed
 
@@ -49,19 +51,21 @@ When a new [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-modul
 
 1. Go to [portal.office.com](https://portal.office.com) and sign in to your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant using an administrator account that has a [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] license assigned.
 
-1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md).
+2. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md).
 
-1. Go to the **Applications** tab of the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] admin center.
-    > [!IMPORTANT]
-    > Don't work on the **Instances** tab when setting up [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. Though you can open details about an instance there and see that the various [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] apps and solutions are available, your setup is likely to fail or be incomplete if you try to work from there.
-
-1. Find a **Dynamics 365 Marketing Application** in the list.
-    > [!NOTE]
-    > If you see the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app listed several times, then you probably have several [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] apps available on your tenant. [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] apps that are already configured show an instance ID appended to the app name and show a value of **Configured** in the **Status** column. [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] apps that aren't assigned show a value of **Not configured** in the **Status** column and don't include an instance ID in their name.
+3. Go to the **Applications** tab of the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] admin center.
+   > [!IMPORTANT]
+   > Don't work on the **Instances** tab when setting up [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. Though you can open details about an instance there and see that the various [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] apps and solutions are available, your setup is likely to fail or be incomplete if you try to work from there.
 
    ![Set up Marketing using the Applications tab, not the Instances tab](media/purchase-app-tab.png "Set up Marketing using the Applications tab, not the Instances tab")
 
-1. Select an unconfigured [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app in the list and then choose **Manage** from the side panel.  
+4. Find a **Dynamics 365 Marketing Application** in the list on the **Applications** tab.
+   > [!NOTE]
+   > If you see the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app listed several times, then you probably have several [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] apps available on your tenant. [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] apps that are already configured show an instance ID appended to the app name and show a value of **Configured** in the **Status** column. [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] apps that aren't assigned show a value of **Not configured** in the **Status** column and don't include an instance ID in their name.
+
+
+
+5. Select an unconfigured [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app in the list and then choose **Manage** from the side panel.  
     ![Choose an app and then select the Manage button](media/purchase-manage-button.png "Choose an app and then select the Manage button")
 
-1. The setup wizard launches, which you will use to make initial settings for the app (including the choice of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance to install on (here called an _organization_)). Follow the instructions in [Run the setup wizard](purchase-setup.md) as you work through the setup wizard.
+6. The setup wizard launches, which you will use to make initial settings for the app (including the choice of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance to install on (here called an *organization*)). Follow the instructions in [Run the setup wizard](purchase-setup.md) as you work through the setup wizard.

@@ -22,15 +22,15 @@ manager: "brycho"
 
 Preview features are features that aren’t complete, but are made available on a “preview” basis so customers can get early access and provide feedback. Preview features:  
   
--   Are subject to separate [Supplemental Terms of Use](http://go.microsoft.com/fwlink/p/?LinkId=511446).  
+- Are subject to separate [Supplemental Terms of Use](http://go.microsoft.com/fwlink/p/?LinkId=511446).  
   
 - **Are not supported by [!INCLUDE[pn_Microsoft_Support](../includes/pn-microsoft-support.md)]**.  
   
--   May have limited or restricted functionality.  
+- May have limited or restricted functionality.  
   
--   Aren’t meant for production use.  
+- Aren’t meant for production use.  
   
--   May be available only in selected geographic areas.  
+- May be available only in selected geographic areas.  
 
 ## What preview features are included in [!INCLUDE [pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)]
 
@@ -65,13 +65,13 @@ The following table lists preview features as well as learning resources for eac
 ## What preview features were included in [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)]?  
  The following table lists the features that are still in preview, as well as  learning resources for each.  
   
-|||  
-|-|-|  
-|**Preview feature**|**Learning resource**|  
-|Data Loader for bulk importing|[Preview feature: Import bulk data](import-bulk-data-data-loader.md)|  
-|Get a quick overview of key Dynamics 365 (online) performance metrics|[Preview feature: View metrics about your instance with Organization Insights dashboard](use-organization-insights-dashboard-view-instance-metrics.md)|  
-|Track your Dynamics 365 deals and activities using [!INCLUDE[pn_cortana](../includes/pn-cortana.md)]|We are working to deliver a robust and scalable digital assistant experience across all of our Dynamics 365 offerings. This includes natural language integration for customers and partners across multiple channels including [!INCLUDE[pn_cortana](../includes/pn-cortana.md)]. To that end, we are discontinuing the current [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration preview feature that was made available for Dynamics 365 and we are focusing on building a new long term intelligent solution experience, which will include [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] digital assistant integration.|  
 
+|                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                         **Preview feature**                                          |                                                                                                                                                                                                                                                                                                            **Learning resource**                                                                                                                                                                                                                                                                                                             |
+|                                    Data Loader for bulk importing                                    |                                                                                                                                                                                                                                                                                     [Preview feature: Import bulk data](import-bulk-data-data-loader.md)                                                                                                                                                                                                                                                                                     |
+|                Get a quick overview of key Dynamics 365 (online) performance metrics                 |                                                                                                                                                                                                                                            [Preview feature: View metrics about your instance with Organization Insights dashboard](use-organization-insights-dashboard-view-instance-metrics.md)                                                                                                                                                                                                                                            |
+| Track your Dynamics 365 deals and activities using [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] | We are working to deliver a robust and scalable digital assistant experience across all of our Dynamics 365 offerings. This includes natural language integration for customers and partners across multiple channels including [!INCLUDE[pn_cortana](../includes/pn-cortana.md)]. To that end, we are discontinuing the current [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration preview feature that was made available for Dynamics 365 and we are focusing on building a new long term intelligent solution experience, which will include [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] digital assistant integration. |
   
 > [!NOTE]
 >  The Data Loader preview feature does not have to be enabled through the **Previews** tab.  
@@ -81,11 +81,11 @@ The following table lists preview features as well as learning resources for eac
   
 1. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
   
-2.  Choose **System Settings**, and then click the **Previews** tab.  
+2. Choose **System Settings**, and then click the **Previews** tab.  
   
-3.  Read the [license terms](http://go.microsoft.com/fwlink/p/?LinkId=511446), and if you agree, select the **I’ve read and agree to the license terms** check box.  
+3. Read the [license terms](http://go.microsoft.com/fwlink/p/?LinkId=511446), and if you agree, select the **I’ve read and agree to the license terms** check box.  
   
-4.  For each preview feature you want to enable, click **Yes**.  
+4. For each preview feature you want to enable, click **Yes**.  
   
 ## How do I report an issue or provide other feedback?  
  If you’d like to provide feedback, offer suggestions, or report issues for a preview feature, please go to [Microsoft Dynamics Ideas](https://experience.dynamics.com/ideas/). This website provides a collaboration platform for gathering actionable feedback to build and improve products and services.

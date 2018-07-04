@@ -30,12 +30,12 @@ For more information on organizing and creating reports, see: [Customize and org
   
 1. [!INCLUDE[proc_reports](../includes/proc-reports.md)]  
   
-2.  Choose the report you want > **Run Report**.  
+2. Choose the report you want > **Run Report**.  
   
-    > [!NOTE]
-    >  In **Report Viewer** dialog box, you can leave the search criteria as is, or change it as needed.  
+   > [!NOTE]
+   >  In **Report Viewer** dialog box, you can leave the search criteria as is, or change it as needed.  
   
- ![Default reports in Dynamics 365](../basics/media/default-reports.png "Default reports in Dynamics 365")  
+   ![Default reports in Dynamics 365](../basics/media/default-reports.png "Default reports in Dynamics 365")  
   
 ## Privacy notice  
 [!INCLUDE[cc_privacy_crm_print](../includes/cc-privacy-crm-print.md)]

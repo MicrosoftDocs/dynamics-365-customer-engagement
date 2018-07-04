@@ -52,15 +52,15 @@ manager: "brycho"
   
     ### Check your security role  
   
-    1. [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   1. [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    2. [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   2. [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2.  Go to **Settings > Data Management**.  
+2. Go to **Settings > Data Management**.  
   
-3.  Select **Add Ready-to-Use Business Processes**.  
+3. Select **Add Ready-to-Use Business Processes**.  
   
-4.  Choose **Add**.  
+4. Choose **Add**.  
   
 ### See also    
  [Create custom business logic with processes](../customize/guide-staff-through-common-tasks-processes.md)   

@@ -46,9 +46,9 @@ tags:
   
 - **[!INCLUDE[pn_user_interface_integration](../../includes/pn-user-interface-integration.md)] for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]**: This solution contains the underlying entities required by the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration entities.  
   
- [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] comes with four sample applications. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Sample Unified Service Desk applications](../../unified-service-desk/admin/sample-unified-service-desk-applications.md)  
+  [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] comes with four sample applications. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Sample Unified Service Desk applications](../../unified-service-desk/admin/sample-unified-service-desk-applications.md)  
   
- For information about the core [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] concepts, see [Core concepts for configuring Unified Service Desk](../../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md).  
+  For information about the core [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] concepts, see [Core concepts for configuring Unified Service Desk](../../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md).  
   
 
 ## See also  

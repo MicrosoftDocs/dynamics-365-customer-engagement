@@ -32,13 +32,13 @@ manager: "amyla"
 
 Data import runs directly on the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server. To run data import, set up asynchronous jobs to run in the background that do the following, in this order:  
   
--   Parse source data that is contained in the import file.  
+- Parse source data that is contained in the import file.  
   
--   Transform parsed data by using the data map.  
+- Transform parsed data by using the data map.  
   
--   Upload transformed data into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+- Upload transformed data into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
- All [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users who have appropriate permissions can run data import.  
+  All [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users who have appropriate permissions can run data import.  
   
 <a name="parse"></a>   
 ## Parse source data  

@@ -36,44 +36,44 @@ If you want to import data into [!INCLUDE[pn_microsoftcrm](../includes/pn-micros
   
  The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web services provide the following additional capabilities that aren’t available in the Import Data Wizard:  
   
--   Create data maps that include complex transformation mapping, such as concatenation, split, and replace.  
+- Create data maps that include complex transformation mapping, such as concatenation, split, and replace.  
   
--   Define custom transformation mapping.  
+- Define custom transformation mapping.  
   
--   View source data that is stored inside the temporary parse tables.  
+- View source data that is stored inside the temporary parse tables.  
   
--   Access error logs to build custom error reporting tools with improved error logging views.  
+- Access error logs to build custom error reporting tools with improved error logging views.  
   
--   Run data import by using command-line scripts.  
+- Run data import by using command-line scripts.  
   
--   Add `LookupMap`XML tags in the data map to indicate that the data lookup will be initiated and performed on a source file that is used in the import.  
+- Add `LookupMap`XML tags in the data map to indicate that the data lookup will be initiated and performed on a source file that is used in the import.  
   
--   Add custom `OwnerMetadata`XML tags in the data map to match the user records in the source file with the records of the user (system user) in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+- Add custom `OwnerMetadata`XML tags in the data map to match the user records in the source file with the records of the user (system user) in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
--   Use optional validation checks.  
+- Use optional validation checks.  
   
-    > [!NOTE]
-    >  Validation isn’t optional in the Import Data Wizard.  
+  > [!NOTE]
+  >  Validation isn’t optional in the Import Data Wizard.  
   
- To implement data import, you typically do the following:  
+  To implement data import, you typically do the following:  
   
--   Create a comma-separated values (CSV), XML Spreadsheet 2003 (XMLSS), or text source file.  
+- Create a comma-separated values (CSV), XML Spreadsheet 2003 (XMLSS), or text source file.  
   
--   Create a data map or use an existing data map.  
+- Create a data map or use an existing data map.  
   
--   Associate an import file with a data map.  
+- Associate an import file with a data map.  
   
--   Upload the content from a source file to the associated import file.  
+- Upload the content from a source file to the associated import file.  
   
--   Parse the import file.  
+- Parse the import file.  
   
--   Transform the parsed data.  
+- Transform the parsed data.  
   
--   Upload the transformed data into the target [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server.  
+- Upload the transformed data into the target [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server.  
   
- You can import data from one source file or several source files. A source file can contain data for one entity type or multiple entity types.  
+  You can import data from one source file or several source files. A source file can contain data for one entity type or multiple entity types.  
   
- Parsing, transforming, and uploading of data is done by the asynchronous jobs that run in the background.  
+  Parsing, transforming, and uploading of data is done by the asynchronous jobs that run in the background.  
   
 > [!NOTE]
 >  By default, all custom entities are enabled for import. To determine if a business entity is enabled for import, see the entity metadata for the specific entity. If an entity is enabled for import, the entity metadata property `IsImportable` is set to `true`. The value of this property can’t be changed for the out-of-the-box business entities. [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  

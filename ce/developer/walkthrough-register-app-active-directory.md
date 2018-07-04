@@ -31,13 +31,13 @@ This walkthrough describes how to register a desktop client or mobile applicatio
 ## Prerequisites  
  For an on-premises or Internet-facing deployment (IFD):  
   
--   A [!INCLUDE[pn_windows_server_2012_r2](../includes/pn-windows-server-2012-r2.md)] with [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)].  
+- A [!INCLUDE[pn_windows_server_2012_r2](../includes/pn-windows-server-2012-r2.md)] with [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)].  
   
--   You must have administrator access to the server hosting the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] deployment services role and the [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] server.  
+- You must have administrator access to the server hosting the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] deployment services role and the [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] server.  
   
--   The on-premises server must be configured to use claims authentication.  
+- The on-premises server must be configured to use claims authentication.  
   
--   The redirect URL for your application. Instructions for finding that URL are provided in the section named [Obtain the redirect URL](walkthrough-register-app-active-directory.md#bkmk_redirect).  
+- The redirect URL for your application. Instructions for finding that URL are provided in the section named [Obtain the redirect URL](walkthrough-register-app-active-directory.md#bkmk_redirect).  
   
 <a name="bkmk_redirect"></a>   
 ## Obtain the redirect URI  
@@ -67,9 +67,9 @@ Windows.Security.Authentication.Web.WebAuthenticationBroker.getCurrentApplicatio
   
 #### The ISV or Partner performs the following tasks:  
   
-1.  Configures the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] on-premises (IFD) server and [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] server using [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] commands that are provided later in this section.  
+1. Configures the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] on-premises (IFD) server and [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] server using [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] commands that are provided later in this section.  
   
-2.  Provides the client ID and server address URL information to the customer.  
+2. Provides the client ID and server address URL information to the customer.  
   
 #### The customer or other person performs the following tasks:  
   
@@ -80,23 +80,23 @@ Windows.Security.Authentication.Web.WebAuthenticationBroker.getCurrentApplicatio
   
 ##### Configure claims settings  
   
-1.  Log on as administrator on the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server that hosts the deployment service role and open a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command window.  
+1. Log on as administrator on the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server that hosts the deployment service role and open a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command window.  
   
-2.  Add the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)][!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] snap-in (Microsoft.Crm.PowerShell.dll). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer the deployment using Windows PowerShell](https://technet.microsoft.com/library/dn531202.aspx)  
+2. Add the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)][!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] snap-in (Microsoft.Crm.PowerShell.dll). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer the deployment using Windows PowerShell](https://technet.microsoft.com/library/dn531202.aspx)  
   
-    ```powershell  
-    Add-PSSnapin Microsoft.Crm.PowerShell  
-    ```  
+   ```powershell  
+   Add-PSSnapin Microsoft.Crm.PowerShell  
+   ```  
   
-3.  Enter the following [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] commands.  
+3. Enter the following [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] commands.  
   
-    ```powershell  
+   ```powershell  
   
-    $ClaimsSettings = Get-CrmSetting -SettingType OAuthClaimsSettings  
-    $ClaimsSettings.Enabled = $true  
-    Set-CrmSetting -Setting $ClaimsSettings  
+   $ClaimsSettings = Get-CrmSetting -SettingType OAuthClaimsSettings  
+   $ClaimsSettings.Enabled = $true  
+   Set-CrmSetting -Setting $ClaimsSettings  
   
-    ```  
+   ```  
   
 <a name="bkmk_adfs"></a>   
 ### AD FS server setup  
@@ -104,15 +104,15 @@ Windows.Security.Authentication.Web.WebAuthenticationBroker.getCurrentApplicatio
   
 ##### Register the application in Active Directory  
   
-1.  Log on to the [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] server as administrator and open a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command window.  
+1. Log on to the [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] server as administrator and open a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command window.  
   
-2.  Enter the following command.  
+2. Enter the following command.  
   
-    ```powershell  
-    Add-AdfsClient -ClientId <CLIENT_ID> -Name <APP_NAME> -RedirectUri <REDIRECT_URI>  
-    ```  
+   ```powershell  
+   Add-AdfsClient -ClientId <CLIENT_ID> -Name <APP_NAME> -RedirectUri <REDIRECT_URI>  
+   ```  
   
-     Where <CLIENT_ID> is a unique number, <APP_NAME> is a name for the application, and <REDIRECT_URI> is any valid URI that [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] is to redirect to after authentication has completed. It is recommended that the client ID be a GUID. You can generate a GUID in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] by opening the **Tools** menu and clicking **Create GUID**.  
+    Where <CLIENT_ID> is a unique number, <APP_NAME> is a name for the application, and <REDIRECT_URI> is any valid URI that [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] is to redirect to after authentication has completed. It is recommended that the client ID be a GUID. You can generate a GUID in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] by opening the **Tools** menu and clicking **Create GUID**.  
   
 ### See also  
  [Adding, Updating, and Removing an Application](https://msdn.microsoft.com/library/dn132599.aspx)   

@@ -715,6 +715,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_KnowledgeArticleIncident_SyncErrors"></a> KnowledgeArticleIncident_SyncErrors
 
 Same as syncerror entity [KnowledgeArticleIncident_SyncErrors](syncerror.md#BKMK_KnowledgeArticleIncident_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -729,6 +730,7 @@ Same as syncerror entity [KnowledgeArticleIncident_SyncErrors](syncerror.md#BKMK
 ### <a name="BKMK_knowledgearticleincident_AsyncOperations"></a> knowledgearticleincident_AsyncOperations
 
 Same as asyncoperation entity [knowledgearticleincident_AsyncOperations](asyncoperation.md#BKMK_knowledgearticleincident_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -743,6 +745,7 @@ Same as asyncoperation entity [knowledgearticleincident_AsyncOperations](asyncop
 ### <a name="BKMK_knowledgearticleincident_MailboxTrackingFolders"></a> knowledgearticleincident_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [knowledgearticleincident_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_knowledgearticleincident_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -757,6 +760,7 @@ Same as mailboxtrackingfolder entity [knowledgearticleincident_MailboxTrackingFo
 ### <a name="BKMK_knowledgearticleincident_UserEntityInstanceDatas"></a> knowledgearticleincident_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [knowledgearticleincident_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_knowledgearticleincident_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -771,6 +775,7 @@ Same as userentityinstancedata entity [knowledgearticleincident_UserEntityInstan
 ### <a name="BKMK_knowledgearticleincident_ProcessSession"></a> knowledgearticleincident_ProcessSession
 
 Same as processsession entity [knowledgearticleincident_ProcessSession](processsession.md#BKMK_knowledgearticleincident_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -785,6 +790,7 @@ Same as processsession entity [knowledgearticleincident_ProcessSession](processs
 ### <a name="BKMK_knowledgearticleincident_BulkDeleteFailures"></a> knowledgearticleincident_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [knowledgearticleincident_BulkDeleteFailures](bulkdeletefailure.md#BKMK_knowledgearticleincident_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -799,6 +805,7 @@ Same as bulkdeletefailure entity [knowledgearticleincident_BulkDeleteFailures](b
 ### <a name="BKMK_knowledgearticleincident_principalobjectattributeaccess"></a> knowledgearticleincident_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [knowledgearticleincident_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_knowledgearticleincident_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

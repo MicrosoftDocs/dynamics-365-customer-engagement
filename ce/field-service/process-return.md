@@ -36,21 +36,21 @@ In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]
 <a name="BKMK_1"></a>   
 ## Step 1: Create an RMA  
   
-1.  From the main menu, click **Field Service** > **RMAs**.  
+1. From the main menu, click **Field Service** > **RMAs**.  
   
-2.  On the **Active RMAs** screen, click **+New**  
+2. On the **Active RMAs** screen, click **+New**  
   
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
-    -   If the product was used in a work order, choose the related **Work Order** where the product was used. The related **Service Account** is automatically filled in when you choose a work order.  
+   - If the product was used in a work order, choose the related **Work Order** where the product was used. The related **Service Account** is automatically filled in when you choose a work order.  
   
-    -   Choose an RMA substatus, for example, Exchange, Repair, Retire, or Upgrade. These options are configurable in the admin section. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create an RMA sub-status](../field-service/create-rma-sub-status.md)  
+   - Choose an RMA substatus, for example, Exchange, Repair, Retire, or Upgrade. These options are configurable in the admin section. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create an RMA sub-status](../field-service/create-rma-sub-status.md)  
   
-    -   Select the **Date Requested** and if it's **Taxable** or not.  
+   - Select the **Date Requested** and if it's **Taxable** or not.  
   
-    -   Specify the price of the product being returned by choosing a **Price List**.  
+   - Specify the price of the product being returned by choosing a **Price List**.  
   
-4.  When you're done, click **Save**.  
+4. When you're done, click **Save**.  
   
 <a name="BKMK_2"></a>   
 ## Step 2: Add RMA products  
@@ -117,15 +117,15 @@ To **Add WO Products**, a work order must be associated with the RMA.
 <a name="BKMK_5"></a>   
 ## Step 5: Add RMA receipt products  
   
-1.  From the RMA receipt record, scroll down to the **Products** section.  
+1. From the RMA receipt record, scroll down to the **Products** section.  
   
-2.  Click **+Add New RMA Receipt Product record**.  
+2. Click **+Add New RMA Receipt Product record**.  
   
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
-4.  Enter the **RMA Product** and **Quantity** received.  
+4. Enter the **RMA Product** and **Quantity** received.  
   
-5.  Click **Save**.  
+5. Click **Save**.  
   
 <a name="BKMK_6"></a>   
 ## Step 6: (Optional) Create an RTV  

@@ -864,6 +864,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_resourceassignment_SyncErrors"></a> msdyn_resourceassignment_SyncErrors
 
 Same as syncerror entity [msdyn_resourceassignment_SyncErrors](syncerror.md#BKMK_msdyn_resourceassignment_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -878,6 +879,7 @@ Same as syncerror entity [msdyn_resourceassignment_SyncErrors](syncerror.md#BKMK
 ### <a name="BKMK_msdyn_resourceassignment_AsyncOperations"></a> msdyn_resourceassignment_AsyncOperations
 
 Same as asyncoperation entity [msdyn_resourceassignment_AsyncOperations](asyncoperation.md#BKMK_msdyn_resourceassignment_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -892,6 +894,7 @@ Same as asyncoperation entity [msdyn_resourceassignment_AsyncOperations](asyncop
 ### <a name="BKMK_msdyn_resourceassignment_MailboxTrackingFolders"></a> msdyn_resourceassignment_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_resourceassignment_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_resourceassignment_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -906,6 +909,7 @@ Same as mailboxtrackingfolder entity [msdyn_resourceassignment_MailboxTrackingFo
 ### <a name="BKMK_msdyn_resourceassignment_UserEntityInstanceDatas"></a> msdyn_resourceassignment_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_resourceassignment_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_resourceassignment_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -920,6 +924,7 @@ Same as userentityinstancedata entity [msdyn_resourceassignment_UserEntityInstan
 ### <a name="BKMK_msdyn_resourceassignment_ProcessSession"></a> msdyn_resourceassignment_ProcessSession
 
 Same as processsession entity [msdyn_resourceassignment_ProcessSession](processsession.md#BKMK_msdyn_resourceassignment_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -934,6 +939,7 @@ Same as processsession entity [msdyn_resourceassignment_ProcessSession](processs
 ### <a name="BKMK_msdyn_resourceassignment_BulkDeleteFailures"></a> msdyn_resourceassignment_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_resourceassignment_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_resourceassignment_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -948,6 +954,7 @@ Same as bulkdeletefailure entity [msdyn_resourceassignment_BulkDeleteFailures](b
 ### <a name="BKMK_msdyn_resourceassignment_PrincipalObjectAttributeAccesses"></a> msdyn_resourceassignment_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_resourceassignment_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_resourceassignment_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -962,6 +969,7 @@ Same as principalobjectattributeaccess entity [msdyn_resourceassignment_Principa
 ### <a name="BKMK_msdyn_msdyn_resourceassignment_msdyn_resourceassignmentdetail_resourceassignmentid"></a> msdyn_msdyn_resourceassignment_msdyn_resourceassignmentdetail_resourceassignmentid
 
 Same as msdyn_resourceassignmentdetail entity [msdyn_msdyn_resourceassignment_msdyn_resourceassignmentdetail_resourceassignmentid](msdyn_resourceassignmentdetail.md#BKMK_msdyn_msdyn_resourceassignment_msdyn_resourceassignmentdetail_resourceassignmentid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourceassignmentdetail|

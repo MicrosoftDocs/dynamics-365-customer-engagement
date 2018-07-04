@@ -627,6 +627,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_connection_role_connections1"></a> connection_role_connections1
 
 Same as connection entity [connection_role_connections1](connection.md#BKMK_connection_role_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -641,6 +642,7 @@ Same as connection entity [connection_role_connections1](connection.md#BKMK_conn
 ### <a name="BKMK_ConnectionRole_SyncErrors"></a> ConnectionRole_SyncErrors
 
 Same as syncerror entity [ConnectionRole_SyncErrors](syncerror.md#BKMK_ConnectionRole_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -655,6 +657,7 @@ Same as syncerror entity [ConnectionRole_SyncErrors](syncerror.md#BKMK_Connectio
 ### <a name="BKMK_userentityinstancedata_connectionrole"></a> userentityinstancedata_connectionrole
 
 Same as userentityinstancedata entity [userentityinstancedata_connectionrole](userentityinstancedata.md#BKMK_userentityinstancedata_connectionrole) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -669,6 +672,7 @@ Same as userentityinstancedata entity [userentityinstancedata_connectionrole](us
 ### <a name="BKMK_ConnectionRole_ProcessSessions"></a> ConnectionRole_ProcessSessions
 
 Same as processsession entity [ConnectionRole_ProcessSessions](processsession.md#BKMK_ConnectionRole_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -683,6 +687,7 @@ Same as processsession entity [ConnectionRole_ProcessSessions](processsession.md
 ### <a name="BKMK_connection_role_connection_role_object_type_codes"></a> connection_role_connection_role_object_type_codes
 
 Same as connectionroleobjecttypecode entity [connection_role_connection_role_object_type_codes](connectionroleobjecttypecode.md#BKMK_connection_role_connection_role_object_type_codes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connectionroleobjecttypecode|
@@ -697,6 +702,7 @@ Same as connectionroleobjecttypecode entity [connection_role_connection_role_obj
 ### <a name="BKMK_Connection_Role_AsyncOperations"></a> Connection_Role_AsyncOperations
 
 Same as asyncoperation entity [Connection_Role_AsyncOperations](asyncoperation.md#BKMK_Connection_Role_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -711,6 +717,7 @@ Same as asyncoperation entity [Connection_Role_AsyncOperations](asyncoperation.m
 ### <a name="BKMK_connection_role_connections2"></a> connection_role_connections2
 
 Same as connection entity [connection_role_connections2](connection.md#BKMK_connection_role_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|

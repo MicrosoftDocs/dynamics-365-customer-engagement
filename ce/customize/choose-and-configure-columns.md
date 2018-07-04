@@ -52,15 +52,15 @@ topic-status: Drafting
   
 #### Add columns to views  
   
-1.  While creating and editing views, select **Add Columns** and the **Add Columns** dialog box appears.  
+1. While creating and editing views, select **Add Columns** and the **Add Columns** dialog box appears.  
   
-2.  Select the **Record type** if you want to include fields from related entities.  
+2. Select the **Record type** if you want to include fields from related entities.  
   
-3.  You can select multiple fields, even from related entities.  
+3. You can select multiple fields, even from related entities.  
   
-4.  When you have selected the fields you want, select **OK** to close the **Add Columns** dialog box.  
+4. When you have selected the fields you want, select **OK** to close the **Add Columns** dialog box.  
   
- As you add columns, you will increase the width of the view. If the width of the view exceeds the space available to show it in the page, horizontal scrollbars will allow people to scroll and see the hidden columns.  
+   As you add columns, you will increase the width of the view. If the width of the view exceeds the space available to show it in the page, horizontal scrollbars will allow people to scroll and see the hidden columns.  
   
 > [!TIP]
 >  If your view filters on data for a certain field so that only records with a certain value are shown, don’t include that column in the view. For example, if you are only showing active records, don’t include the status column in the view. Instead, name the view to indicate that all the records shown in the view are active.  
@@ -97,15 +97,15 @@ topic-status: Drafting
 ### Enable or disable presence for a column  
  When the following conditions are true, people can see a Skype for Business online presence control in lists that shows if the person is available and allows people to interact with them by instant messaging:  
   
--   People use [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)].  
+- People use [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)].  
   
--   People have Skype for Business installed.  
+- People have Skype for Business installed.  
   
--   People have [!INCLUDE[pn_ms_ActiveX_long](../includes/pn-ms-activex-long.md)] enabled in [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)].  
+- People have [!INCLUDE[pn_ms_ActiveX_long](../includes/pn-ms-activex-long.md)] enabled in [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)].  
   
--   Your organization has enabled presence for the system in the system settings.  
+- Your organization has enabled presence for the system in the system settings.  
   
- The presence control and the setting to enable it are available only for columns that display primary fields for email-enabled entities (users, contacts, opportunities, leads, or custom entities).  
+  The presence control and the setting to enable it are available only for columns that display primary fields for email-enabled entities (users, contacts, opportunities, leads, or custom entities).  
   
 #### Enable or disable Skype for Business presence for a column  
   

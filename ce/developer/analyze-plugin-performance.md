@@ -59,10 +59,10 @@ You do not need to re-deploy the plug-in to the [!INCLUDE[pn_dynamics_crm](../in
 *Replay plug-in execution*
 
 1. Launch [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] and attach the debugger to the PluginRegistration.exe process.  
-1. Click **REPLAY PLUG-IN EXECUTION**.
-1. Enter the log and plug-in assembly locations in the dialog box.
-1. Click **Start Execution**.
-1. Debug the plug-in as you would normally.
+2. Click **REPLAY PLUG-IN EXECUTION**.
+3. Enter the log and plug-in assembly locations in the dialog box.
+4. Click **Start Execution**.
+5. Debug the plug-in as you would normally.
 
 <a name="run"></a>
 

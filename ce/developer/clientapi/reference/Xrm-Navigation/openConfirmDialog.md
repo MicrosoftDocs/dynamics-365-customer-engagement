@@ -42,7 +42,6 @@ function (success) {
     else
         console.log("Dialog closed using Cancel button or X.");
 });
-
 ```
 
 ### Related topics

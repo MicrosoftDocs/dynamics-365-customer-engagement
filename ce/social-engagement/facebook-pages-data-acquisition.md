@@ -59,21 +59,21 @@ Starting February 6, 2018, [!INCLUDE[pn-social-engagement-short](../includes/pn-
 
 ### Current setup 
 
-Let’s assume the organization _Contoso_ currently uses [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] for tracking of their main competitor and to engage with their customers through social channels. For this they setup search rules for three [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages:
+Let’s assume the organization *Contoso* currently uses [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] for tracking of their main competitor and to engage with their customers through social channels. For this they setup search rules for three [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages:
 - Contoso
 - Fabrikam
 - Proseware
 
 To enable data acquisition, two members of their social team added [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] acquisition tokens with their personal [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] users.
-For their own _Contoso_ page, the team added a social profile for the page itself, so they can publish posts or comments on their page and receive private messages. 
+For their own *Contoso* page, the team added a social profile for the page itself, so they can publish posts or comments on their page and receive private messages. 
 They currently get all posts and comments for all three pages with full author information.
 
 ### After the change 
 
 Because the team can’t allow interactions for pages they don’t own, and they already have an interaction token for their owned page, the team didn’t need to change anything.
 Once the changes go live in early February, assuming all tokens stay valid, this is how [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] data will be acquired: 
-- All posts acquired from the _Fabrikam_ and _Proseware_ [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages will have no author information and show **Unknown author**.
-- All posts acquired from the _Contoso_ [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page will have author information.
+- All posts acquired from the *Fabrikam* and *Proseware* [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages will have no author information and show **Unknown author**.
+- All posts acquired from the *Contoso* [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page will have author information.
 
 ### See also
 

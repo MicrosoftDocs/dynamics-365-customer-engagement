@@ -30,10 +30,10 @@ When you work with the feed of your Social Selling Assistant, keep in mind that 
 
 - Click **More actions** (![More options button. Click this button to see more options for this post in the Social Selling Assistant](media/more-options-social-selling-assistant.png "More options button. Click this button to see more options for this post in the Social Selling Assistant")) for more options to work with this post.
 
-  -  Clicking **Not interested** indicates to the algorithm that the recommended content wasn’t relevant for you.  
-     This sends a signal to the recommendation model to improve it over time.
+  - Clicking **Not interested** indicates to the algorithm that the recommended content wasn’t relevant for you.  
+    This sends a signal to the recommendation model to improve it over time.
 
-  -  You can click **Copy to clipboard** ( ![Copy button](media/copy-url-icon.png "Copy button") ) if you want to work with the source of the post. For example, you can create a new task in [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] if you plan to follow up on a post later.  
+  - You can click **Copy to clipboard** ( ![Copy button](media/copy-url-icon.png "Copy button") ) if you want to work with the source of the post. For example, you can create a new task in [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] if you plan to follow up on a post later.  
 
   - You can **Retweet** ![Retweet button in Social Engagement](media/share-retweet-icon.png "Retweet button in Social Engagement") on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)].
 

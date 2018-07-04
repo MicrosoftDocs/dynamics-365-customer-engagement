@@ -57,14 +57,14 @@ You can use the <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> message
 ## Run-time limitations  
  There are several constraints related to the use of the <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> as described in the following list.  
   
--   No recursion is allowed - <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> cannot invoke <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest>. An <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> found in the request collection will generate a fault for that request item.  
+- No recursion is allowed - <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> cannot invoke <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest>. An <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> found in the request collection will generate a fault for that request item.  
   
--   Maximum batch size – there is a limit to how many requests can be added to a request collection. If that limit is exceeded, a fault is thrown before the first request is ever executed. A limit of 1000 requests is typical though this maximum amount can be set for the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] deployment. The deployment setting for this limit is <xref:Microsoft.Xrm.Sdk.Deployment.ImportSettings.BatchSize>.  
+- Maximum batch size – there is a limit to how many requests can be added to a request collection. If that limit is exceeded, a fault is thrown before the first request is ever executed. A limit of 1000 requests is typical though this maximum amount can be set for the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] deployment. The deployment setting for this limit is <xref:Microsoft.Xrm.Sdk.Deployment.ImportSettings.BatchSize>.  
   
--   Throttling of concurrent calls – for [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] there is a limit of 2 concurrent <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> executions per organization. If that limit is exceeded, a “Server Busy” fault is thrown before the first request is ever executed. For an on-premises deployment, throttling is not enabled by default. The deployment setting for this limit is <xref:Microsoft.Xrm.Sdk.Deployment.ThrottleSettings.ExecuteAsyncPerOrgMaxConnectionsPerServer>.  
+- Throttling of concurrent calls – for [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] there is a limit of 2 concurrent <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> executions per organization. If that limit is exceeded, a “Server Busy” fault is thrown before the first request is ever executed. For an on-premises deployment, throttling is not enabled by default. The deployment setting for this limit is <xref:Microsoft.Xrm.Sdk.Deployment.ThrottleSettings.ExecuteAsyncPerOrgMaxConnectionsPerServer>.  
   
-    > [!TIP]
-    >  For any [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] deployment, a deployment administrator can set or change the throttling limit.  
+  > [!TIP]
+  >  For any [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] deployment, a deployment administrator can set or change the throttling limit.  
   
 <a name="fault"></a>   
 ## Handle a batch size fault  

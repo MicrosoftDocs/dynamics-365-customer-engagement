@@ -426,6 +426,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_messageresponse_sdkmessageresponsefield"></a> messageresponse_sdkmessageresponsefield
 
 Same as sdkmessageresponsefield entity [messageresponse_sdkmessageresponsefield](sdkmessageresponsefield.md#BKMK_messageresponse_sdkmessageresponsefield) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sdkmessageresponsefield|
@@ -440,6 +441,7 @@ Same as sdkmessageresponsefield entity [messageresponse_sdkmessageresponsefield]
 ### <a name="BKMK_userentityinstancedata_sdkmessageresponse"></a> userentityinstancedata_sdkmessageresponse
 
 Same as userentityinstancedata entity [userentityinstancedata_sdkmessageresponse](userentityinstancedata.md#BKMK_userentityinstancedata_sdkmessageresponse) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

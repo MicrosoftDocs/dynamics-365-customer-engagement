@@ -169,6 +169,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_license"></a> userentityinstancedata_license
 
 Same as userentityinstancedata entity [userentityinstancedata_license](userentityinstancedata.md#BKMK_userentityinstancedata_license) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

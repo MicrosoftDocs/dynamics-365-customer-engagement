@@ -42,11 +42,11 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can create a
 <a name="BKMK_Viewconnections"></a>   
 ## View connections for a record  
   
-1.  Open the record that you want to view connections for.  
+1. Open the record that you want to view connections for.  
   
-2.  To view all the connections, select the related records drop-down menu next to the record name, and then click **Connections**.  
+2. To view all the connections, select the related records drop-down menu next to the record name, and then click **Connections**.  
   
- ![Select related records dropdown to view Connection](../admin/media/select-related-records-view-connection.PNG "Select related records dropdown to view Connection")  
+   ![Select related records dropdown to view Connection](../admin/media/select-related-records-view-connection.PNG "Select related records dropdown to view Connection")  
   
 <a name="BKMK_Deactivateordelete"></a>   
 ## Deactivate or delete a connection  

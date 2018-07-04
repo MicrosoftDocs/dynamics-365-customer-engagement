@@ -44,7 +44,7 @@ manager: "amyla"
   
 - **Server-to-server integration with SharePoint**: This does not require you to install the [!INCLUDE[pn_list_component_short](../../includes/pn-list-component-short.md)] in [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] or any other additional software to have the [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] document management functionality within [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. After you enable server-based [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] integration for your organization, you can’t revert to the client-based authentication method.  
   
- After enabling [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] integration:  
+  After enabling [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] integration:  
   
 - **Enable document management for entities**: Select the entities in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] for which you want to create and manage documents on [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Enable SharePoint Integration for Entities](enable-document-management-entities.md).  
   
@@ -56,19 +56,19 @@ manager: "amyla"
 ## Microsoft Dynamics CRM list component for Microsoft SharePoint Server  
  [!INCLUDE[pn_list_component](../../includes/pn-list-component.md)] and [!INCLUDE[pn_microsoft_sharepoint_2013](../../includes/pn-microsoft-sharepoint-2013.md)] is a [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] solution package file (.wsp) that must be installed (uploaded and activated) on the site collection on the target [!INCLUDE[pn_ms_SharePoint_long](../../includes/pn-ms-sharepoint-long.md)] 2010 or 2013 server to enable the following:  
   
--   View documents that are stored on the [!INCLUDE[pn_sharepoint_server_2010](../../includes/pn-sharepoint-server-2010.md)] server in a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] List view (look and feel of Dynamics 365).  
+- View documents that are stored on the [!INCLUDE[pn_sharepoint_server_2010](../../includes/pn-sharepoint-server-2010.md)] server in a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] List view (look and feel of Dynamics 365).  
   
--   Automatic creation of the document locations on the [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] server.  
+- Automatic creation of the document locations on the [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] server.  
   
- You can [download and install the Microsoft Dynamics CRM 2013 List Component](http://go.microsoft.com/fwlink/p/?LinkId=516963) for [!INCLUDE[pn_sharepoint_server_2010](../../includes/pn-sharepoint-server-2010.md)] and [!INCLUDE[pn_sharepoint_server_2013](../../includes/pn-sharepoint-server-2013.md)]. To install this component, you must have [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] site collection administrator privileges on the target [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] server.  
+  You can [download and install the Microsoft Dynamics CRM 2013 List Component](http://go.microsoft.com/fwlink/p/?LinkId=516963) for [!INCLUDE[pn_sharepoint_server_2010](../../includes/pn-sharepoint-server-2010.md)] and [!INCLUDE[pn_sharepoint_server_2013](../../includes/pn-sharepoint-server-2013.md)]. To install this component, you must have [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] site collection administrator privileges on the target [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] server.  
   
- There are two versions of the [!INCLUDE[pn_list_component_short](../../includes/pn-list-component-short.md)]:  
+  There are two versions of the [!INCLUDE[pn_list_component_short](../../includes/pn-list-component-short.md)]:  
   
 - **[!INCLUDE[pn_list_component](../../includes/pn-list-component.md)]** : This version only works with [!INCLUDE[pn_ms_SharePoint_2010_short](../../includes/pn-ms-sharepoint-2010-short.md)].  
   
 - **[!INCLUDE[pn_crm_list_component_sharepoint_server_2013](../../includes/pn-crm-list-component-sharepoint-server-2013.md)]** : This version only works with [!INCLUDE[pn_sharepoint_2013](../../includes/pn-sharepoint-2013.md)] and [!INCLUDE[pn_sharepoint_online](../../includes/pn-sharepoint-online.md)].  
   
- For more information about installing the component, see [Configure SharePoint integration using the list component](https://technet.microsoft.com/library/dn894708.aspx)  
+  For more information about installing the component, see [Configure SharePoint integration using the list component](https://technet.microsoft.com/library/dn894708.aspx)  
   
 ### See also  
  [Integrate SharePoint with Microsoft Dynamics 365 5](integrate-sharepoint.md)   

@@ -645,6 +645,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_kb_article_template_kb_articles"></a> kb_article_template_kb_articles
 
 Same as kbarticle entity [kb_article_template_kb_articles](kbarticle.md#BKMK_kb_article_template_kb_articles) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|kbarticle|
@@ -659,6 +660,7 @@ Same as kbarticle entity [kb_article_template_kb_articles](kbarticle.md#BKMK_kb_
 ### <a name="BKMK_KbArticleTemplate_SyncErrors"></a> KbArticleTemplate_SyncErrors
 
 Same as syncerror entity [KbArticleTemplate_SyncErrors](syncerror.md#BKMK_KbArticleTemplate_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -673,6 +675,7 @@ Same as syncerror entity [KbArticleTemplate_SyncErrors](syncerror.md#BKMK_KbArti
 ### <a name="BKMK_KbArticleTemplate_AsyncOperations"></a> KbArticleTemplate_AsyncOperations
 
 Same as asyncoperation entity [KbArticleTemplate_AsyncOperations](asyncoperation.md#BKMK_KbArticleTemplate_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -687,6 +690,7 @@ Same as asyncoperation entity [KbArticleTemplate_AsyncOperations](asyncoperation
 ### <a name="BKMK_KbArticleTemplate_BulkDeleteFailures"></a> KbArticleTemplate_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [KbArticleTemplate_BulkDeleteFailures](bulkdeletefailure.md#BKMK_KbArticleTemplate_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -701,6 +705,7 @@ Same as bulkdeletefailure entity [KbArticleTemplate_BulkDeleteFailures](bulkdele
 ### <a name="BKMK_userentityinstancedata_kbarticletemplate"></a> userentityinstancedata_kbarticletemplate
 
 Same as userentityinstancedata entity [userentityinstancedata_kbarticletemplate](userentityinstancedata.md#BKMK_userentityinstancedata_kbarticletemplate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -715,6 +720,7 @@ Same as userentityinstancedata entity [userentityinstancedata_kbarticletemplate]
 ### <a name="BKMK_KbArticleTemplate_ProcessSessions"></a> KbArticleTemplate_ProcessSessions
 
 Same as processsession entity [KbArticleTemplate_ProcessSessions](processsession.md#BKMK_KbArticleTemplate_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|

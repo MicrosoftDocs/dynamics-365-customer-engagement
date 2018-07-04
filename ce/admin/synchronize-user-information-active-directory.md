@@ -22,9 +22,9 @@ Applies to [!INCLUDE[pn-dyn-365-op](../includes/pn-dyn-365-op.md)]
 
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] supports two methods for authenticating users:  
   
--   Integrated [!INCLUDE[pn_Windows_Authentication](../includes/pn-windows-authentication.md)]  
+- Integrated [!INCLUDE[pn_Windows_Authentication](../includes/pn-windows-authentication.md)]  
   
--   Claims-based authentication  
+- Claims-based authentication  
   
 By default, customers who purchase [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and deploy it on-premises use [!INCLUDE[pn_Windows_Authentication](../includes/pn-windows-authentication.md)]. These customers also can set up claims-based authentication for Internet-facing deployments (IFDs) of the product.  
   
@@ -41,20 +41,20 @@ Before you start, be sure to record the value of the **User SamAccountName logon
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
-2.  Choose **Users**.  
+2. Choose **Users**.  
   
-3.  In the list of users, choose to select the user record you want to update, and then choose **Edit**.  
+3. In the list of users, choose to select the user record you want to update, and then choose **Edit**.  
   
-4.  In the **User Name** text box, type an [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] user name that isn’t used by any [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user record.  
+4. In the **User Name** text box, type an [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] user name that isn’t used by any [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user record.  
   
-    > [!IMPORTANT]
-    >  If you specify a user name that already exists in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)], [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] will try to map the user to the updated user in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)], and when it locates an existing record with the same GUID, the mapping will fail.  
+   > [!IMPORTANT]
+   >  If you specify a user name that already exists in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)], [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] will try to map the user to the updated user in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)], and when it locates an existing record with the same GUID, the mapping will fail.  
   
-     If all the user accounts in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] are used by [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user records, create a temporary [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] user account.  
+    If all the user accounts in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] are used by [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user records, create a temporary [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] user account.  
   
-5.  Save the user record, and then in the **User Name** text box, type in the **User SamAccountName logon** value that appears for the user [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)], which you recorded prior to starting this procedure.  
+5. Save the user record, and then in the **User Name** text box, type in the **User SamAccountName logon** value that appears for the user [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)], which you recorded prior to starting this procedure.  
   
-6.  Choose **Save and Close**.  
+6. Choose **Save and Close**.  
   
 ### See also  
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)   

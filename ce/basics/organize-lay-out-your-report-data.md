@@ -30,25 +30,25 @@ When you create a report, you have to decide which columns to include, the order
 
 To group items so that they are organized together in the report by date or other common properties.  
 
-1.  For each grouping level you need, click or tap **Click here to add a grouping**.  
+1. For each grouping level you need, click or tap **Click here to add a grouping**.  
 
-2.  Define the grouping:  
+2. Define the grouping:  
 
-    - **Record type**. You can select records from the primary record type you selected, and from any related record types. If you selected a secondary record type, you can also select records from the secondary record type and its related records types.  
+   - **Record type**. You can select records from the primary record type you selected, and from any related record types. If you selected a secondary record type, you can also select records from the secondary record type and its related records types.  
 
-    - **Column**. The name of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] field that contains the data to define the grouping.  
+   - **Column**. The name of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] field that contains the data to define the grouping.  
 
-    - **Time interval**.  For datetime fields, group the data by Month, Day, Week, or Year.  
+   - **Time interval**.  For datetime fields, group the data by Month, Day, Week, or Year.  
 
-    - **Sort order**. Sort order for displaying the groups.  
+   - **Sort order**. Sort order for displaying the groups.  
 
-    - **Column width**. Width of the column heading in pixels.  
+   - **Column width**. Width of the column heading in pixels.  
 
-    - **Summary type**. You can group records by a count of matching records.  
+   - **Summary type**. You can group records by a count of matching records.  
 
-3.  To reorder the grouping levels, use the up and down arrows in the **Common Tasks** section.  
+3. To reorder the grouping levels, use the up and down arrows in the **Common Tasks** section.  
 
-4.  Click or tap **OK**.  
+4. Click or tap **OK**.  
 
 ### To define the sort order within each group
 
@@ -72,31 +72,31 @@ To group items so that they are organized together in the report by date or othe
 
 You can display columns that show data from a record, or columns that show summary information.  
 
-1.  For each column you want to include, click or tap **Click here to add a column**:  
+1. For each column you want to include, click or tap **Click here to add a column**:  
 
-    - **Record type**.  You can select records from the primary record type you selected, and from any related record types.  If you selected a secondary record type, you can also select records from the secondary record type and its related records types.  
+   - **Record type**.  You can select records from the primary record type you selected, and from any related record types.  If you selected a secondary record type, you can also select records from the secondary record type and its related records types.  
 
-    - **Column**. The name of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] field that contains the data to display or summarize.  
+   - **Column**. The name of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] field that contains the data to display or summarize.  
 
-    - **Data type**. The data type of the column, one of: primarykey,  nvarchar,  picklist,  bit,  decimal, int,  float,  money,  ntext, datetime,  owner, lookup.  
+   - **Data type**. The data type of the column, one of: primarykey,  nvarchar,  picklist,  bit,  decimal, int,  float,  money,  ntext, datetime,  owner, lookup.  
 
-    - **Name**. The name used in the database.  
+   - **Name**. The name used in the database.  
 
-    - **Column width**. The width in pixels of the column.  
+   - **Column width**. The width in pixels of the column.  
 
-    - **Summary type**.  The specific type of summaries available depends on the data type of the column.  
+   - **Summary type**.  The specific type of summaries available depends on the data type of the column.  
 
-    - **None**:  lookup,  datetime,  owner,  picklist, bit,  ntext  
+   - **None**:  lookup,  datetime,  owner,  picklist, bit,  ntext  
 
-    - **Average**, **Maximum**, **Minimum**, **Percent of Total**, **Sum**: all numeric record types (decimal, int, float, money)  
+   - **Average**, **Maximum**, **Minimum**, **Percent of Total**, **Sum**: all numeric record types (decimal, int, float, money)  
 
-    - **Include unformatted value column**. Typically, in a report, the underlying data is formatted as plain text. When you export the report to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)], you can’t change the format of the cell that contains the exported data (plain text) to a different format. This causes problems with calculations. To avoid this, you can select the **Include unformatted value column** check box for fields of type Date Only, Date and Time, Whole Number, Decimal, Currency, or Floating Point Number. This adds a column, which contains the unformatted value of the fields, to the report.  
+   - **Include unformatted value column**. Typically, in a report, the underlying data is formatted as plain text. When you export the report to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)], you can’t change the format of the cell that contains the exported data (plain text) to a different format. This causes problems with calculations. To avoid this, you can select the **Include unformatted value column** check box for fields of type Date Only, Date and Time, Whole Number, Decimal, Currency, or Floating Point Number. This adds a column, which contains the unformatted value of the fields, to the report.  
 
-2.  Use the left and right arrows to reorganize the columns.  
+2. Use the left and right arrows to reorganize the columns.  
 
-3.  Click or tap **OK**.  
+3. Click or tap **OK**.  
 
-4.  Click or tap **Next**.  
+4. Click or tap **Next**.  
   
 ### See also  
  [Create, edit, or copy a report using the Report Wizard](../basics/create-edit-copy-report-wizard.md)

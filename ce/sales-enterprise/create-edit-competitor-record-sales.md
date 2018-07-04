@@ -46,13 +46,13 @@ Tracking your competitors and their strengths and weaknesses can help you win sa
 
 1. [!INCLUDE[proc_sales_competitors](../includes/proc-sales-competitors.md)]  
   
-2.  Select **New**.  
+2. Select **New**.  
   
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
-4.  Select **Save**.  
+4. Select **Save**.  
   
-5.  To associate a competitor with an opportunity, in the **Opportunity** area, choose ![Add button](../sales-enterprise/media/add-button.PNG "Add button"). In the **Search** box, choose the Lookup icon, and then select an opportunity from the results.  
+5. To associate a competitor with an opportunity, in the **Opportunity** area, choose ![Add button](../sales-enterprise/media/add-button.PNG "Add button"). In the **Search** box, choose the Lookup icon, and then select an opportunity from the results.  
 
 
 ### See also  

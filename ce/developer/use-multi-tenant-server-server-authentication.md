@@ -31,13 +31,13 @@ This is the most common scenario and the one which is used for apps distributed 
 
  To create and test a multi-tenant application that uses server-to-server (S2S) authentication you will need:  
   
--   An Azure AD tenant you will use to publish your application or service.  
+- An Azure AD tenant you will use to publish your application or service.  
   
--   2 [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] subscriptions  
+- 2 [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] subscriptions  
   
-    -   One must be associated with Azure AD tenant you will use to publish your application or service.  
+  -   One must be associated with Azure AD tenant you will use to publish your application or service.  
   
-    -   The other might be a trial subscription to use for testing how a subscriber will access your application.  
+  -   The other might be a trial subscription to use for testing how a subscriber will access your application.  
   
 <a name="bkmk_DevelopAndTest"></a>  
  
@@ -47,17 +47,17 @@ This is the most common scenario and the one which is used for apps distributed 
   
  At a high level, the process consists of:  
   
-1.  Create a multi-tenant web application registered with your Azure AD tenant.  
+1. Create a multi-tenant web application registered with your Azure AD tenant.  
   
-2.  Create an application user associated with the registered application  in your [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] tenant  
+2. Create an application user associated with the registered application  in your [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] tenant  
   
-3.  Create a custom security role and assign it to the application user in your [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] tenant  
+3. Create a custom security role and assign it to the application user in your [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] tenant  
   
-4.  Test your application using your [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] tenant  
+4. Test your application using your [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] tenant  
   
-5.  Test your application using a separate [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] tenant  
+5. Test your application using a separate [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] tenant  
   
- For a complete example of this process, see [Walkthrough: Multi-tenant server-to-server authentication](walkthrough-multi-tenant-server-server-authentication.md).  
+   For a complete example of this process, see [Walkthrough: Multi-tenant server-to-server authentication](walkthrough-multi-tenant-server-server-authentication.md).  
   
 <a name="bkmk_CreateAMultitenantWebApp"></a>
    
@@ -67,11 +67,11 @@ This is the most common scenario and the one which is used for apps distributed 
   
  Exactly how you do this will not be the focus of this topic. There are a number of ways you can approach this and make choices that fit your requirements or preferences. See the following links for more information and samples:  
   
--   [Build a multi-tenant SaaS web application using Azure AD &amp; OpenID Connect](https://azure.microsoft.com/en-us/documentation/samples/active-directory-dotnet-webapp-multitenant-openidconnect/)  
+- [Build a multi-tenant SaaS web application using Azure AD &amp; OpenID Connect](https://azure.microsoft.com/en-us/documentation/samples/active-directory-dotnet-webapp-multitenant-openidconnect/)  
   
--   [Build a multi-tenant SaaS web application that calls a web API using Azure AD](https://azure.microsoft.com/en-us/documentation/samples/active-directory-webapp-webapi-multitenant-openidconnect-aspnetcore/)  
+- [Build a multi-tenant SaaS web application that calls a web API using Azure AD](https://azure.microsoft.com/en-us/documentation/samples/active-directory-webapp-webapi-multitenant-openidconnect-aspnetcore/)  
   
- Azure AD requires the following values to register your application:  
+  Azure AD requires the following values to register your application:  
   
 |Value|Description|  
 |-----------|-----------------|  
@@ -98,19 +98,19 @@ This is the most common scenario and the one which is used for apps distributed 
   
  This is the reason why your [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] instance must be associated with your Azure AD tenant. If your Azure AD tenant is not associated with a [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] tenant, you will not be able to perform the following steps.  
   
-1.  Go to [https://portal.azure.com](https://portal.azure.com) and select **Azure Active Directory**.  
+1. Go to [https://portal.azure.com](https://portal.azure.com) and select **Azure Active Directory**.  
   
-2.  Click **App registrations** and look for the application you created using [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
+2. Click **App registrations** and look for the application you created using [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
   
-3.  You need to give your application privileges to access [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] data. In the **API Access** area click **Required permissions**. You should see that it already has permissions for **Windows Azure Active Directory**.  
+3. You need to give your application privileges to access [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] data. In the **API Access** area click **Required permissions**. You should see that it already has permissions for **Windows Azure Active Directory**.  
   
-4.  Click **Add**, then **Select an API**. In the list, select **Dynamics 365** and then click the **Select** button.  
+4. Click **Add**, then **Select an API**. In the list, select **Dynamics 365** and then click the **Select** button.  
   
-5.  In **Select permissions**, select **Access Dynamics 365 as organization users**. Then click the **Select** button.  
+5. In **Select permissions**, select **Access Dynamics 365 as organization users**. Then click the **Select** button.  
   
-6.  Click **Done** to add these permissions. When you are done you should see the permissions applied.  
+6. Click **Done** to add these permissions. When you are done you should see the permissions applied.  
   
- ![Grant Dynamics 365&#45;Permissions to application](media/grant-crm-permissions-to-application.png "Grant Dynamics 365-Permissions to application")  
+   ![Grant Dynamics 365&#45;Permissions to application](media/grant-crm-permissions-to-application.png "Grant Dynamics 365-Permissions to application")  
   
 <a name="bkmk_CreateAppUser"></a>
    
@@ -129,7 +129,7 @@ This is the most common scenario and the one which is used for apps distributed 
   
 > [!NOTE]
 >  When you are initially developing your application with your own [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] tenant and the Azure AD tenant associated with it, you can simply create the application user because the registered application is already part of your Azure AD tenant.  
->   
+> 
 >  However, in order to create the application user in a different organization for testing, or whenever a subscriber will use your application, they must first grant consent for your application, so the steps in the process are different. See [Test your application using a separate Dynamics 365 tenant](#bkmk_TestUsingSeparateTenant) for more information.  
   
 <a name="bkmk_CreateSecurityRole"></a>  
@@ -147,29 +147,29 @@ This is the most common scenario and the one which is used for apps distributed 
 
  The procedure to create this user is different from creating a licensed user. Use the following steps:  
   
-1.  Navigate to **Settings** > **Security** > **Users**  
+1. Navigate to **Settings** > **Security** > **Users**  
   
-2.  In the view drop-down, select **Application Users**.  
+2. In the view drop-down, select **Application Users**.  
   
-3.  Click **New**. Then verify that you are using the **Application user** form.  
+3. Click **New**. Then verify that you are using the **Application user** form.  
   
-     If you do not see the **Application ID**, **Application ID URI** and **Azure AD Object ID** fields in the form, you must select the **Application User** form from the list:  
+    If you do not see the **Application ID**, **Application ID URI** and **Azure AD Object ID** fields in the form, you must select the **Application User** form from the list:  
   
- ![Select Application User Form](media/select-application-user-form.PNG "Select Application User Form")  
+   ![Select Application User Form](media/select-application-user-form.PNG "Select Application User Form")  
   
-4.  Add the appropriate values to the fields:  
+4. Add the appropriate values to the fields:  
   
-    |Field|Value|  
-    |-----------|-----------|  
-    |**Application ID**|The Application ID value for the application registered with Azure AD.|  
-    |**Full Name**|The name of your application.|  
-    |**Primary Email**|The email address you want your subscribers to use to contact you.|  
+   |Field|Value|  
+   |-----------|-----------|  
+   |**Application ID**|The Application ID value for the application registered with Azure AD.|  
+   |**Full Name**|The name of your application.|  
+   |**Primary Email**|The email address you want your subscribers to use to contact you.|  
   
-     The **User Name**, **Application ID URI** and **Azure AD Object ID** fields are locked and you cannot set values for these fields.  
+    The **User Name**, **Application ID URI** and **Azure AD Object ID** fields are locked and you cannot set values for these fields.  
   
-     When you create this user the values for these fields will be retrieved from Azure AD based on the **Application ID** value when you save the user.  
+    When you create this user the values for these fields will be retrieved from Azure AD based on the **Application ID** value when you save the user.  
   
-5.  Associate the application user with the custom security role you created in [Create a security role for the application user](#bkmk_CreateSecurityRole). More information: [Create users in Dynamics 365 (online) and assign security roles](../admin/create-users-assign-online-security-roles.md)  
+5. Associate the application user with the custom security role you created in [Create a security role for the application user](#bkmk_CreateSecurityRole). More information: [Create users in Dynamics 365 (online) and assign security roles](../admin/create-users-assign-online-security-roles.md)  
   
 <a name="bkmk_TestUsingYourTenant"></a>  
  
@@ -201,20 +201,20 @@ This is the most common scenario and the one which is used for apps distributed 
   
  For information about creating custom security roles, see  
   
--   [Create or edit a security role](../admin/create-edit-security-role.md)  
--   [Copy a security role](../admin/copy-security-role.md)  
--   [Add solution components](../customize/create-solution.md#add-solution-components)
+- [Create or edit a security role](../admin/create-edit-security-role.md)  
+- [Copy a security role](../admin/copy-security-role.md)  
+- [Add solution components](../customize/create-solution.md#add-solution-components)
   
- For information about creating a [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] solution, see the following topics:
+  For information about creating a [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] solution, see the following topics:
   
--   [Use solutions for your customizations](../customize/use-solutions-for-your-customizations.md)  
--   [Package and distribute extensions using solutions](package-distribute-extensions-use-solutions.md)  
+- [Use solutions for your customizations](../customize/use-solutions-for-your-customizations.md)  
+- [Package and distribute extensions using solutions](package-distribute-extensions-use-solutions.md)  
   
- However, the application user cannot be included with a solution so you will need to provide a way to create this application user and associate it with the custom security role.  
+  However, the application user cannot be included with a solution so you will need to provide a way to create this application user and associate it with the custom security role.  
   
- There are several ways that you can achieve this, including writing your own program using the [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)] and having the subscriber run the program.  
+  There are several ways that you can achieve this, including writing your own program using the [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)] and having the subscriber run the program.  
   
- The [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] is an application which can be used to prepare a package to automate transferring solutions and data to a different [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create packages for the Dynamics 365 Package Deployer](create-packages-package-deployer.md)  
+  The [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] is an application which can be used to prepare a package to automate transferring solutions and data to a different [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create packages for the Dynamics 365 Package Deployer](create-packages-package-deployer.md)  
   
 ### See also  
  [Walkthrough: Multi-tenant server-to-server authentication](walkthrough-multi-tenant-server-server-authentication.md)   

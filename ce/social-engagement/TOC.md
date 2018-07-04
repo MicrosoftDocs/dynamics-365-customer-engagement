@@ -9,6 +9,7 @@
 ### [Service scenarios](overview-service-scenario.md)
 ## [Get started with Social Engagement](get-started.md)
 ### [Social Engagement training videos](https://go.microsoft.com/fwlink/p/?linkid=861639)
+### [Set up a trial solution](provision-trial-solutions.md)
 ### [Sign in to Social Engagement](sign-in.md)
 ### [Set your preferences for the user interface](user-preferences.md)
 ### [Get help with Social Engagement](get-help.md)
@@ -77,4 +78,5 @@
 ### [Social Engagement FAQ](faq.md)
 ### [Accessibility for Social Engagement](accessibility.md)
 ### [Social Engagement Privacy Notices](privacy-notices.md)
+## [Request a trial](https://experience.dynamics.com/trials/)
 

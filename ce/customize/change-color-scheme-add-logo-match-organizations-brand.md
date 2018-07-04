@@ -91,15 +91,15 @@ The following screenshot shows the default theme setup.
 ## Preview and publish a theme  
  To preview and publish a theme, do the following steps:  
   
--   Create a new theme from scratch or clone an existing one.  
+- Create a new theme from scratch or clone an existing one.  
   
--   Preview the new theme by choosing **Preview** on the command bar. To exit the Preview mode, choose **Exit Preview** on the command bar, next to the **Preview** button.  
+- Preview the new theme by choosing **Preview** on the command bar. To exit the Preview mode, choose **Exit Preview** on the command bar, next to the **Preview** button.  
   
--   Publish a theme. Choose **Publish Theme** on the command bar.  
+- Publish a theme. Choose **Publish Theme** on the command bar.  
   
- The following screenshot shows the buttons on the command bar for preview and publishing.  
+  The following screenshot shows the buttons on the command bar for preview and publishing.  
   
- ![Use preview buttons to enter&#47;exit the preview mode](../customize/media/themes-preview-buttons.PNG "Use preview buttons to enter/exit the preview mode")  
+  ![Use preview buttons to enter&#47;exit the preview mode](../customize/media/themes-preview-buttons.PNG "Use preview buttons to enter/exit the preview mode")  
   
 <a name="BestPracticies"></a>   
 ## Best practices  
@@ -108,9 +108,9 @@ The following screenshot shows the default theme setup.
 ### Theme contrast  
  We recommend the following approach to providing contrast colors:  
   
--   Carefully choose the contrasting colors. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] out-of-the-box default theme has the correct contrast ratios to ensure optimal usability. Use similar rations for your new themes.  
+- Carefully choose the contrasting colors. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] out-of-the-box default theme has the correct contrast ratios to ensure optimal usability. Use similar rations for your new themes.  
   
--   For high contrast mode, use the default color settings.  
+- For high contrast mode, use the default color settings.  
   
 ### Theme colors  
  We recommend that you don’t use a large number of different colors. Although you can set a different color for every entity, we recommend one of two patterns:  

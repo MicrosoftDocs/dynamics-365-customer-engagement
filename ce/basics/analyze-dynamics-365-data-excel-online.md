@@ -28,11 +28,11 @@ manager: "sakudes"
   
 ## Prerequisites  
   
--   [!INCLUDE[cc_feature_requires_office_365](../includes/cc-feature-requires-office-365.md)]  
+- [!INCLUDE[cc_feature_requires_office_365](../includes/cc-feature-requires-office-365.md)]  
   
--   You need a [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] account.  
+- You need a [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] account.  
   
--   You need export to [!INCLUDE[pn_excel_short](../includes/pn-excel-short.md)] privileges in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+- You need export to [!INCLUDE[pn_excel_short](../includes/pn-excel-short.md)] privileges in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
 ## Open [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)]  
  The option to open data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] isn’t available in all [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record types. If you don’t see the option, it’s not available for that record.  
@@ -49,27 +49,27 @@ To open a list of records in [!INCLUDE[pn_crm_online_shortest](../includes/pn-cr
   
 ## Save your data and import it back to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]  
   
-1.  On the top right, click **Save Changes to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]**.  
+1. On the top right, click **Save Changes to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]**.  
   
-    > [!NOTE]
-    >  -   The data for *ad-hoc* analysis with [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] is stored temporarily. Any additions, such as charts, calculations, and columns won’t be saved from the ad-hoc analysis that you do in Excel Online back to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. If you need to make lots of changes to your data and import it back to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], it’s recommended that you export the worksheet in [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)].  
-    >
-    > -   The file import might fail if you made a lot of changes or changed the format of the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file. If you need to make lots of changes to your data and import it back to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], it’s recommended that you export the worksheet in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)].  
-    >
-    > -   By design, you can’t do a **File** > **Save As** in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)]. If you do, you’ll get a **Can’t Save Workbook** error message.  
+   > [!NOTE]
+   > - The data for *ad-hoc* analysis with [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] is stored temporarily. Any additions, such as charts, calculations, and columns won’t be saved from the ad-hoc analysis that you do in Excel Online back to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. If you need to make lots of changes to your data and import it back to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], it’s recommended that you export the worksheet in [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)].  
+   > 
+   > - The file import might fail if you made a lot of changes or changed the format of the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file. If you need to make lots of changes to your data and import it back to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], it’s recommended that you export the worksheet in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)].  
+   > 
+   > - By design, you can’t do a **File** > **Save As** in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)]. If you do, you’ll get a **Can’t Save Workbook** error message.  
   
-2.  On the **Data Submitted for Import** dialog box, click **Close**.  
+2. On the **Data Submitted for Import** dialog box, click **Close**.  
   
 ## Check the status of the data import  
  After you save your changes from [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], verify that the data has been imported back in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
   
-1.  In the **Data Submitted for Import** dialog box, click **Imports**.  
+1. In the **Data Submitted for Import** dialog box, click **Imports**.  
   
-     -OR-  
+    -OR-  
   
- [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)] Then click **Imports**.  
+   [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)] Then click **Imports**.  
   
-2.  In the list of imported files, look for your imported file and check the status.  
+2. In the list of imported files, look for your imported file and check the status.  
   
 ## Watch this video  
  Find out how to analyze your data and transform it into meaningful knowledge with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)][!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] integration.  

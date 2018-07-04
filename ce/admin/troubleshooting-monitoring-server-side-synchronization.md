@@ -61,15 +61,15 @@ This page is your source for issues and resolutions for troubleshooting server-s
   
  Verify that the user who sent the email is enabled for sending email.  
   
-1.  Click **Settings**, and then click **Email Configuration**.  
+1. Click **Settings**, and then click **Email Configuration**.  
   
-2.  Click **Mailboxes**, and then change the view to **Active Mailboxes.**  
+2. Click **Mailboxes**, and then change the view to **Active Mailboxes.**  
   
-3.  Select the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] mailbox record for the user who sent the email, and then click the **Edit** button.  
+3. Select the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] mailbox record for the user who sent the email, and then click the **Edit** button.  
   
-4.  Verify the user is correctly configured and enabled for sending email:  
+4. Verify the user is correctly configured and enabled for sending email:  
   
-    -   If the user’s [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] mailbox record is configured to use server-side synchronization for outgoing email, verify the user’s email address is approved and is also tested and enabled.  For more information about configuring server-side synchronization, see [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).  
+   - If the user’s [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] mailbox record is configured to use server-side synchronization for outgoing email, verify the user’s email address is approved and is also tested and enabled.  For more information about configuring server-side synchronization, see [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).  
   
 ### Email address requires approval by Office 365 administrator  
  **Alert:** Email cannot be sent/received because the email address of the mailbox \<User Name> requires an approval by an Office 365 administrator. The mailbox has been disabled for sending/receiving email and the owner of the email server profile Exchange Online has been notified.  
@@ -82,19 +82,19 @@ This page is your source for issues and resolutions for troubleshooting server-s
   
  To approve one or more mailboxes:  
   
-1.  Sign in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] as a user with the global administrator role in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)].  
+1. Sign in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] as a user with the global administrator role in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)].  
   
 2. [!INCLUDE[proc_settings_email_config](../includes/proc-settings-email-config.md)]  
   
-3.  Click **Mailboxes**.  
+3. Click **Mailboxes**.  
   
-4.  Select **Active Mailboxes** or perform an **Advanced Find** query to identify a list of mailboxes to update.  
+4. Select **Active Mailboxes** or perform an **Advanced Find** query to identify a list of mailboxes to update.  
   
-5.  Select the list of mailboxes you want to approve and then click **Approve Email**.  
+5. Select the list of mailboxes you want to approve and then click **Approve Email**.  
   
-6.  Click **OK** to approve the email addresses.  
+6. Click **OK** to approve the email addresses.  
   
-7.  Click **Test & Enable Mailboxes** to retest email processing for the enabled mailboxes.  
+7. Click **Test & Enable Mailboxes** to retest email processing for the enabled mailboxes.  
   
 ### Email addresses must be approved  
  **Alert:** One or more mailboxes have been disabled for sending/receiving email because their email addresses have not been approved. Approve the email addresses, and then enable the mailboxes for sending/receiving email." or "Email cannot be received for the mailbox \<Mailbox Name> because the email address of the mailbox \<Mailbox Name> is not approved and the mailbox has been disabled. The owner of the associated email server profile \<Email Server Profile name> has been notified.  
@@ -103,19 +103,19 @@ This page is your source for issues and resolutions for troubleshooting server-s
   
  Mailboxes must be approved before the email will be processed. To approve mailboxes:  
   
-1.  Sign in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] as a user with the global administrator role in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)].  
+1. Sign in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] as a user with the global administrator role in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)].  
   
 2. [!INCLUDE[proc_settings_email_config](../includes/proc-settings-email-config.md)]  
   
-3.  Click **Mailboxes**.  
+3. Click **Mailboxes**.  
   
-4.  Select **Active Mailboxes** or perform an **Advanced Find** query to identify a list of mailboxes to update.  
+4. Select **Active Mailboxes** or perform an **Advanced Find** query to identify a list of mailboxes to update.  
   
-5.  Select the list of mailboxes you want to approve and then click **Approve Email**.  
+5. Select the list of mailboxes you want to approve and then click **Approve Email**.  
   
-6.  Click **OK** to approve the email addresses.  
+6. Click **OK** to approve the email addresses.  
   
-7.  Click **Test & Enable Mailboxes** to retest email processing for the enabled mailboxes.  
+7. Click **Test & Enable Mailboxes** to retest email processing for the enabled mailboxes.  
   
 > [!NOTE]
 >  You can remove the requirement for approving mailboxes using: **Settings** > **Administration** > **System Settings** > **Email** tab. Uncheck **Process emails only for approved users** and **Process emails only for approved queues**, then click **OK**. If you are using the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] profile, email addresses must still be approved by an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] global administrator.  
@@ -184,30 +184,30 @@ For more information, see this [kb article](https://support.microsoft.com/kb/318
   
  [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] supports server-side synchronization with [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] in the same tenant with Server to Server Authentication. Other authentication methods or settings are not recommended or supported, including:  
   
--   Using Credentials Specified by a User or Queue  
+- Using Credentials Specified by a User or Queue  
   
--   Using Credentials Specified in Email Server Profile  
+- Using Credentials Specified in Email Server Profile  
   
--   Using Impersonation  
+- Using Impersonation  
   
--   Setting Auto Discover Server Location to No  
+- Setting Auto Discover Server Location to No  
   
--   Using an email server profile other than [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]  
+- Using an email server profile other than [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]  
   
 <!--
 -   Using non-default [network ports](https://technet.microsoft.com/library/hh699823.aspx)  
 -->
  
--   Connecting [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] with [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] in different tenant is not supported.  
+- Connecting [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] with [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] in different tenant is not supported.  
   
 ### Mailbox deliveries regularly disabled  
  Mailbox delivery errors are classified as follows:  
   
-1.  A permanent error (for example, 401 Unauthorized) or a transient error (for example, a network issue).  
+1. A permanent error (for example, 401 Unauthorized) or a transient error (for example, a network issue).  
   
-2.  A server error (for example, invalid profile credentials) or a mailbox error (for example, invalid mailbox credentials).  
+2. A server error (for example, invalid profile credentials) or a mailbox error (for example, invalid mailbox credentials).  
   
- [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] responds to the error as follows:  
+   [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] responds to the error as follows:  
   
 -   For server or mailbox permanent errors, the mailbox is disabled as soon as the error is detected.  
   
@@ -218,15 +218,15 @@ Review the troubleshooting steps in this topic and if the issue is successfully 
 ### Unsupported email service configurations  
  Server-side synchronization doesn’t support the following scenarios:  
   
--   Mix of [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)]/SMTP and POP3/[!INCLUDE[pn_Exchange](../includes/pn-exchange.md)].  
+- Mix of [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)]/SMTP and POP3/[!INCLUDE[pn_Exchange](../includes/pn-exchange.md)].  
   
--   Creation of mass email marketing campaigns.  
+- Creation of mass email marketing campaigns.  
   
--   Extensibility scenarios like extending EWS/POP3/SMTP protocols and creating custom email providers.  
+- Extensibility scenarios like extending EWS/POP3/SMTP protocols and creating custom email providers.  
   
 - [!INCLUDE[pn_ms_Exchange_Server_2003_short](../includes/pn-ms-exchange-server-2003-short.md)] and [!INCLUDE[pn_ms_Exchange_Server_2007_short](../includes/pn-ms-exchange-server-2007-short.md)].  
   
--   Server-side synchronization in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], or in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] (on premises) deployment that is configured for FIPS 140-2 compliancy, requires a [!INCLUDE[pn_POP3_short](../includes/pn-pop3-short.md)]/SMTP email server that is also FIPS 140-2 compliant. Some email servers are not FIPS 140-2 compliant, such as MSN, Outlook.com, or Windows Live Mail.  
+- Server-side synchronization in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], or in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] (on premises) deployment that is configured for FIPS 140-2 compliancy, requires a [!INCLUDE[pn_POP3_short](../includes/pn-pop3-short.md)]/SMTP email server that is also FIPS 140-2 compliant. Some email servers are not FIPS 140-2 compliant, such as MSN, Outlook.com, or Windows Live Mail.  
   
 For most situations not supported by server-side synchronization, you can use the [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate your email system with Dynamics 365](../admin/integrate-synchronize-your-email-system.md)  
   
@@ -236,15 +236,15 @@ For most situations not supported by server-side synchronization, you can use th
 ### Appointment record is not created in Dynamics 365 when tracked by invitee  
  Consider the following scenario regarding tracking an event in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]:  
   
-1.  An event organizer uses [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] for the synchronization method.  
+1. An event organizer uses [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] for the synchronization method.  
   
-2.  An event invitee uses server-side synchronization for the synchronization method.  
+2. An event invitee uses server-side synchronization for the synchronization method.  
   
-3.  In [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], the organizer creates an appointment and sends an invite to the invitee.  
+3. In [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], the organizer creates an appointment and sends an invite to the invitee.  
   
-4.  In [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], the invitee tracks the appointment.  
+4. In [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], the invitee tracks the appointment.  
   
-5.  The invitee logs in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and navigates to **Marketing** > **Activities** > **Appointment** > **My Appointments**  
+5. The invitee logs in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and navigates to **Marketing** > **Activities** > **Appointment** > **My Appointments**  
   
 Result: the appointment is not created in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for the invitee.  
   

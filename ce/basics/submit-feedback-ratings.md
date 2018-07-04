@@ -31,38 +31,38 @@ To improve customer satisfaction, tracking customer feedback for the products an
   
  The steps in this topic explain how to add feedback to a case record. You can navigate to the record you want to add feedback to.  
   
-1.  Go to **Service** > **Cases**.  
+1. Go to **Service** > **Cases**.  
   
-2.  Open the case record you want to add the feedback to.  
+2. Open the case record you want to add the feedback to.  
   
-3.  On the nav bar, click the arrow next to the record name, and then click **Feedback**.  
+3. On the nav bar, click the arrow next to the record name, and then click **Feedback**.  
   
- ![Go to the list of associated records](../basics/media/v8-1-associatedlist.png "Go to the list of associated records")  
+   ![Go to the list of associated records](../basics/media/v8-1-associatedlist.png "Go to the list of associated records")  
   
-4.  On the Action toolbar, click **Add New Feedback**.  
+4. On the Action toolbar, click **Add New Feedback**.  
   
  
-5.  Fill in the information:  
+5. Fill in the information:  
   
-    - **Title**. Type a descriptive  title for the feedback. For example, if the feedback is about customer satisfaction, type that.  
+   - **Title**. Type a descriptive  title for the feedback. For example, if the feedback is about customer satisfaction, type that.  
   
-    - **Source**. Select whether the feedback is internal or from a portal. If you've received the feedback from a phone call, you can select **Internal**.  
+   - **Source**. Select whether the feedback is internal or from a portal. If you've received the feedback from a phone call, you can select **Internal**.  
   
-         You system administrator or customizer can customize the Source field to add more values, as needed.  
+        You system administrator or customizer can customize the Source field to add more values, as needed.  
   
-    - **Comments**. Type any feedback comments that you want.  
+   - **Comments**. Type any feedback comments that you want.  
   
-    - **Rating**. Type a number to specify how useful the related record is. For example, if you are tracking the customer satisfaction for a case, and you want to rate it a 2 on a scale of 1 - 10, type 2.  
+   - **Rating**. Type a number to specify how useful the related record is. For example, if you are tracking the customer satisfaction for a case, and you want to rate it a 2 on a scale of 1 - 10, type 2.  
   
-    - **Minimum Rating Value** and **Maximum Rating Value**. Specify a minimum and maximum rating to define a feedback rating scale. For example, if you want to give a rating of 2  on a scale of 1 - 10, type 1 as the minimum rating and 10 as the maximum rating.  
+   - **Minimum Rating Value** and **Maximum Rating Value**. Specify a minimum and maximum rating to define a feedback rating scale. For example, if you want to give a rating of 2  on a scale of 1 - 10, type 1 as the minimum rating and 10 as the maximum rating.  
   
-    - **Created by (Contact)**. If you're creating feedback on behalf of a customer contact, select the contact here.  
+   - **Created by (Contact)**. If you're creating feedback on behalf of a customer contact, select the contact here.  
   
-         The **Created By** and **Closed By** fields are automatically populated with the user who creates or deactivates the feedback record.  
+        The **Created By** and **Closed By** fields are automatically populated with the user who creates or deactivates the feedback record.  
   
-    - **Normalized Rating**. Normalizes the rating down to a 0 - 1 scale. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] calculates the normalized rating based on the following formula: (Rating - Minimum Rating)/ (Maximum Rating - Minimum Rating).  
+   - **Normalized Rating**. Normalizes the rating down to a 0 - 1 scale. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] calculates the normalized rating based on the following formula: (Rating - Minimum Rating)/ (Maximum Rating - Minimum Rating).  
   
-6.  After you're done, click **Save & Close**.  
+6. After you're done, click **Save & Close**.  
   
 ### See also  
  [Enable an entity for feedback](../customize/enable-entity-feedback.md)

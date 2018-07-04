@@ -4,7 +4,7 @@
  using (ServiceContext svcContext = new ServiceContext(_serviceProxy))
  {
   var query_orderbypicklist = from c in svcContext.ContactSet
-                              where c.LastName != "Parker" &amp;&amp;
+                              where c.LastName != "Parker" &&
                               c.AccountRoleCode != null
                               orderby c.AccountRoleCode, c.FirstName
                               select new

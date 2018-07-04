@@ -1530,6 +1530,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_knowledgearticle_SharePointDocuments"></a> knowledgearticle_SharePointDocuments
 
 Same as sharepointdocument entity [knowledgearticle_SharePointDocuments](sharepointdocument.md#BKMK_knowledgearticle_SharePointDocuments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocument|
@@ -1544,6 +1545,7 @@ Same as sharepointdocument entity [knowledgearticle_SharePointDocuments](sharepo
 ### <a name="BKMK_knowledgearticle_BulkOperations"></a> knowledgearticle_BulkOperations
 
 Same as bulkoperation entity [knowledgearticle_BulkOperations](bulkoperation.md#BKMK_knowledgearticle_BulkOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkoperation|
@@ -1558,6 +1560,7 @@ Same as bulkoperation entity [knowledgearticle_BulkOperations](bulkoperation.md#
 ### <a name="BKMK_knowledgearticle_CampaignActivities"></a> knowledgearticle_CampaignActivities
 
 Same as campaignactivity entity [knowledgearticle_CampaignActivities](campaignactivity.md#BKMK_knowledgearticle_CampaignActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignactivity|
@@ -1572,6 +1575,7 @@ Same as campaignactivity entity [knowledgearticle_CampaignActivities](campaignac
 ### <a name="BKMK_knowledgearticle_CampaignResponses"></a> knowledgearticle_CampaignResponses
 
 Same as campaignresponse entity [knowledgearticle_CampaignResponses](campaignresponse.md#BKMK_knowledgearticle_CampaignResponses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -1586,6 +1590,7 @@ Same as campaignresponse entity [knowledgearticle_CampaignResponses](campaignres
 ### <a name="BKMK_knowledgearticle_IncidentResolutions"></a> knowledgearticle_IncidentResolutions
 
 Same as incidentresolution entity [knowledgearticle_IncidentResolutions](incidentresolution.md#BKMK_knowledgearticle_IncidentResolutions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incidentresolution|
@@ -1600,6 +1605,7 @@ Same as incidentresolution entity [knowledgearticle_IncidentResolutions](inciden
 ### <a name="BKMK_KnowledgeArticle_ServiceAppointments"></a> KnowledgeArticle_ServiceAppointments
 
 Same as serviceappointment entity [KnowledgeArticle_ServiceAppointments](serviceappointment.md#BKMK_KnowledgeArticle_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -1614,6 +1620,7 @@ Same as serviceappointment entity [KnowledgeArticle_ServiceAppointments](service
 ### <a name="BKMK_incident_knowledgearticles"></a> incident_knowledgearticles
 
 Same as knowledgearticleincident entity [incident_knowledgearticles](knowledgearticleincident.md#BKMK_incident_knowledgearticles) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|knowledgearticleincident|
@@ -1628,6 +1635,7 @@ Same as knowledgearticleincident entity [incident_knowledgearticles](knowledgear
 ### <a name="BKMK_knowledgearticle_OpportunityCloses"></a> knowledgearticle_OpportunityCloses
 
 Same as opportunityclose entity [knowledgearticle_OpportunityCloses](opportunityclose.md#BKMK_knowledgearticle_OpportunityCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityclose|
@@ -1642,6 +1650,7 @@ Same as opportunityclose entity [knowledgearticle_OpportunityCloses](opportunity
 ### <a name="BKMK_knowledgearticle_OrderCloses"></a> knowledgearticle_OrderCloses
 
 Same as orderclose entity [knowledgearticle_OrderCloses](orderclose.md#BKMK_knowledgearticle_OrderCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|orderclose|
@@ -1656,6 +1665,7 @@ Same as orderclose entity [knowledgearticle_OrderCloses](orderclose.md#BKMK_know
 ### <a name="BKMK_knowledgearticle_QuoteCloses"></a> knowledgearticle_QuoteCloses
 
 Same as quoteclose entity [knowledgearticle_QuoteCloses](quoteclose.md#BKMK_knowledgearticle_QuoteCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quoteclose|
@@ -1670,6 +1680,7 @@ Same as quoteclose entity [knowledgearticle_QuoteCloses](quoteclose.md#BKMK_know
 ### <a name="BKMK_knowledgearticle_msdyn_bookingalerts"></a> knowledgearticle_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [knowledgearticle_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_knowledgearticle_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -1684,6 +1695,7 @@ Same as msdyn_bookingalert entity [knowledgearticle_msdyn_bookingalerts](msdyn_b
 ### <a name="BKMK_knowledgearticle_msdyn_approvals"></a> knowledgearticle_msdyn_approvals
 
 Same as msdyn_approval entity [knowledgearticle_msdyn_approvals](msdyn_approval.md#BKMK_knowledgearticle_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -1698,6 +1710,7 @@ Same as msdyn_approval entity [knowledgearticle_msdyn_approvals](msdyn_approval.
 ### <a name="BKMK_knowledgearticle_connections1"></a> knowledgearticle_connections1
 
 Same as connection entity [knowledgearticle_connections1](connection.md#BKMK_knowledgearticle_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1712,6 +1725,7 @@ Same as connection entity [knowledgearticle_connections1](connection.md#BKMK_kno
 ### <a name="BKMK_knowledgearticle_connections2"></a> knowledgearticle_connections2
 
 Same as connection entity [knowledgearticle_connections2](connection.md#BKMK_knowledgearticle_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1726,6 +1740,7 @@ Same as connection entity [knowledgearticle_connections2](connection.md#BKMK_kno
 ### <a name="BKMK_knowledgearticle_DuplicateMatchingRecord"></a> knowledgearticle_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [knowledgearticle_DuplicateMatchingRecord](duplicaterecord.md#BKMK_knowledgearticle_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1740,6 +1755,7 @@ Same as duplicaterecord entity [knowledgearticle_DuplicateMatchingRecord](duplic
 ### <a name="BKMK_knowledgearticle_DuplicateBaseRecord"></a> knowledgearticle_DuplicateBaseRecord
 
 Same as duplicaterecord entity [knowledgearticle_DuplicateBaseRecord](duplicaterecord.md#BKMK_knowledgearticle_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1754,6 +1770,7 @@ Same as duplicaterecord entity [knowledgearticle_DuplicateBaseRecord](duplicater
 ### <a name="BKMK_knowledgearticle_SharePointDocumentLocations"></a> knowledgearticle_SharePointDocumentLocations
 
 Same as sharepointdocumentlocation entity [knowledgearticle_SharePointDocumentLocations](sharepointdocumentlocation.md#BKMK_knowledgearticle_SharePointDocumentLocations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocumentlocation|
@@ -1768,6 +1785,7 @@ Same as sharepointdocumentlocation entity [knowledgearticle_SharePointDocumentLo
 ### <a name="BKMK_knowledgearticle_QueueItems"></a> knowledgearticle_QueueItems
 
 Same as queueitem entity [knowledgearticle_QueueItems](queueitem.md#BKMK_knowledgearticle_QueueItems) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queueitem|
@@ -1782,6 +1800,7 @@ Same as queueitem entity [knowledgearticle_QueueItems](queueitem.md#BKMK_knowled
 ### <a name="BKMK_knowledgearticle_Annotations"></a> knowledgearticle_Annotations
 
 Same as annotation entity [knowledgearticle_Annotations](annotation.md#BKMK_knowledgearticle_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1796,6 +1815,7 @@ Same as annotation entity [knowledgearticle_Annotations](annotation.md#BKMK_know
 ### <a name="BKMK_knowledgearticle_Teams"></a> knowledgearticle_Teams
 
 Same as team entity [knowledgearticle_Teams](team.md#BKMK_knowledgearticle_Teams) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|team|
@@ -1810,6 +1830,7 @@ Same as team entity [knowledgearticle_Teams](team.md#BKMK_knowledgearticle_Teams
 ### <a name="BKMK_knowledgearticle_AsyncOperations"></a> knowledgearticle_AsyncOperations
 
 Same as asyncoperation entity [knowledgearticle_AsyncOperations](asyncoperation.md#BKMK_knowledgearticle_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1824,6 +1845,7 @@ Same as asyncoperation entity [knowledgearticle_AsyncOperations](asyncoperation.
 ### <a name="BKMK_knowledgearticle_UserEntityInstanceDatas"></a> knowledgearticle_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [knowledgearticle_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_knowledgearticle_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1838,6 +1860,7 @@ Same as userentityinstancedata entity [knowledgearticle_UserEntityInstanceDatas]
 ### <a name="BKMK_knowledgearticle_ProcessSession"></a> knowledgearticle_ProcessSession
 
 Same as processsession entity [knowledgearticle_ProcessSession](processsession.md#BKMK_knowledgearticle_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1852,6 +1875,7 @@ Same as processsession entity [knowledgearticle_ProcessSession](processsession.m
 ### <a name="BKMK_knowledgearticle_BulkDeleteFailures"></a> knowledgearticle_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [knowledgearticle_BulkDeleteFailures](bulkdeletefailure.md#BKMK_knowledgearticle_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1866,6 +1890,7 @@ Same as bulkdeletefailure entity [knowledgearticle_BulkDeleteFailures](bulkdelet
 ### <a name="BKMK_knowledgearticle_PrincipalObjectAttributeAccess"></a> knowledgearticle_PrincipalObjectAttributeAccess
 
 Same as principalobjectattributeaccess entity [knowledgearticle_PrincipalObjectAttributeAccess](principalobjectattributeaccess.md#BKMK_knowledgearticle_PrincipalObjectAttributeAccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1880,6 +1905,7 @@ Same as principalobjectattributeaccess entity [knowledgearticle_PrincipalObjectA
 ### <a name="BKMK_KnowledgeArticle_SocialActivities"></a> KnowledgeArticle_SocialActivities
 
 Same as socialactivity entity [KnowledgeArticle_SocialActivities](socialactivity.md#BKMK_KnowledgeArticle_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -1894,6 +1920,7 @@ Same as socialactivity entity [KnowledgeArticle_SocialActivities](socialactivity
 ### <a name="BKMK_KnowledgeArticle_Letters"></a> KnowledgeArticle_Letters
 
 Same as letter entity [KnowledgeArticle_Letters](letter.md#BKMK_KnowledgeArticle_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -1908,6 +1935,7 @@ Same as letter entity [KnowledgeArticle_Letters](letter.md#BKMK_KnowledgeArticle
 ### <a name="BKMK_KnowledgeArticle_Tasks"></a> KnowledgeArticle_Tasks
 
 Same as task entity [KnowledgeArticle_Tasks](task.md#BKMK_KnowledgeArticle_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -1922,6 +1950,7 @@ Same as task entity [KnowledgeArticle_Tasks](task.md#BKMK_KnowledgeArticle_Tasks
 ### <a name="BKMK_knowledgearticle_views"></a> knowledgearticle_views
 
 Same as knowledgearticleviews entity [knowledgearticle_views](knowledgearticleviews.md#BKMK_knowledgearticle_views) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|knowledgearticleviews|
@@ -1936,6 +1965,7 @@ Same as knowledgearticleviews entity [knowledgearticle_views](knowledgearticlevi
 ### <a name="BKMK_KnowledgeArticle_Faxes"></a> KnowledgeArticle_Faxes
 
 Same as fax entity [KnowledgeArticle_Faxes](fax.md#BKMK_KnowledgeArticle_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -1950,6 +1980,7 @@ Same as fax entity [KnowledgeArticle_Faxes](fax.md#BKMK_KnowledgeArticle_Faxes) 
 ### <a name="BKMK_lk_expiredprocess_knowledgearticleid"></a> lk_expiredprocess_knowledgearticleid
 
 Same as expiredprocess entity [lk_expiredprocess_knowledgearticleid](expiredprocess.md#BKMK_lk_expiredprocess_knowledgearticleid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|expiredprocess|
@@ -1964,6 +1995,7 @@ Same as expiredprocess entity [lk_expiredprocess_knowledgearticleid](expiredproc
 ### <a name="BKMK_KnowledgeArticle_Appointments"></a> KnowledgeArticle_Appointments
 
 Same as appointment entity [KnowledgeArticle_Appointments](appointment.md#BKMK_KnowledgeArticle_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -1978,6 +2010,7 @@ Same as appointment entity [KnowledgeArticle_Appointments](appointment.md#BKMK_K
 ### <a name="BKMK_lk_newprocess_knowledgearticleid"></a> lk_newprocess_knowledgearticleid
 
 Same as newprocess entity [lk_newprocess_knowledgearticleid](newprocess.md#BKMK_lk_newprocess_knowledgearticleid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|newprocess|
@@ -1992,6 +2025,7 @@ Same as newprocess entity [lk_newprocess_knowledgearticleid](newprocess.md#BKMK_
 ### <a name="BKMK_knowledgearticle_rootarticle_id"></a> knowledgearticle_rootarticle_id
 
 Same as knowledgearticle entity [knowledgearticle_rootarticle_id](knowledgearticle.md#BKMK_knowledgearticle_rootarticle_id) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|knowledgearticle|
@@ -2006,6 +2040,7 @@ Same as knowledgearticle entity [knowledgearticle_rootarticle_id](knowledgeartic
 ### <a name="BKMK_lk_translationprocess_knowledgearticleid"></a> lk_translationprocess_knowledgearticleid
 
 Same as translationprocess entity [lk_translationprocess_knowledgearticleid](translationprocess.md#BKMK_lk_translationprocess_knowledgearticleid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|translationprocess|
@@ -2020,6 +2055,7 @@ Same as translationprocess entity [lk_translationprocess_knowledgearticleid](tra
 ### <a name="BKMK_KnowledgeArticle_RecurringAppointmentMasters"></a> KnowledgeArticle_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [KnowledgeArticle_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_KnowledgeArticle_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -2034,6 +2070,7 @@ Same as recurringappointmentmaster entity [KnowledgeArticle_RecurringAppointment
 ### <a name="BKMK_KnowledgeArticle_ActivityPointers"></a> KnowledgeArticle_ActivityPointers
 
 Same as activitypointer entity [KnowledgeArticle_ActivityPointers](activitypointer.md#BKMK_KnowledgeArticle_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -2048,6 +2085,7 @@ Same as activitypointer entity [KnowledgeArticle_ActivityPointers](activitypoint
 ### <a name="BKMK_KnowledgeArticle_SyncErrors"></a> KnowledgeArticle_SyncErrors
 
 Same as syncerror entity [KnowledgeArticle_SyncErrors](syncerror.md#BKMK_KnowledgeArticle_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -2062,6 +2100,7 @@ Same as syncerror entity [KnowledgeArticle_SyncErrors](syncerror.md#BKMK_Knowled
 ### <a name="BKMK_KnowledgeArticle_Feedback"></a> KnowledgeArticle_Feedback
 
 Same as feedback entity [KnowledgeArticle_Feedback](feedback.md#BKMK_KnowledgeArticle_Feedback) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|feedback|
@@ -2076,6 +2115,7 @@ Same as feedback entity [KnowledgeArticle_Feedback](feedback.md#BKMK_KnowledgeAr
 ### <a name="BKMK_knowledgearticle_previousarticle_contentid"></a> knowledgearticle_previousarticle_contentid
 
 Same as knowledgearticle entity [knowledgearticle_previousarticle_contentid](knowledgearticle.md#BKMK_knowledgearticle_previousarticle_contentid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|knowledgearticle|
@@ -2090,6 +2130,7 @@ Same as knowledgearticle entity [knowledgearticle_previousarticle_contentid](kno
 ### <a name="BKMK_knowledgearticle_PostFollows"></a> knowledgearticle_PostFollows
 
 Same as postfollow entity [knowledgearticle_PostFollows](postfollow.md#BKMK_knowledgearticle_PostFollows) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|postfollow|
@@ -2104,6 +2145,7 @@ Same as postfollow entity [knowledgearticle_PostFollows](postfollow.md#BKMK_know
 ### <a name="BKMK_knowledgearticle_activity_parties"></a> knowledgearticle_activity_parties
 
 Same as activityparty entity [knowledgearticle_activity_parties](activityparty.md#BKMK_knowledgearticle_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -2118,6 +2160,7 @@ Same as activityparty entity [knowledgearticle_activity_parties](activityparty.m
 ### <a name="BKMK_knowledgearticle_parentarticle_contentid"></a> knowledgearticle_parentarticle_contentid
 
 Same as knowledgearticle entity [knowledgearticle_parentarticle_contentid](knowledgearticle.md#BKMK_knowledgearticle_parentarticle_contentid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|knowledgearticle|
@@ -2132,6 +2175,7 @@ Same as knowledgearticle entity [knowledgearticle_parentarticle_contentid](knowl
 ### <a name="BKMK_KnowledgeArticle_Phonecalls"></a> KnowledgeArticle_Phonecalls
 
 Same as phonecall entity [KnowledgeArticle_Phonecalls](phonecall.md#BKMK_KnowledgeArticle_Phonecalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -2146,6 +2190,7 @@ Same as phonecall entity [KnowledgeArticle_Phonecalls](phonecall.md#BKMK_Knowled
 ### <a name="BKMK_KnowledgeArticle_Emails"></a> KnowledgeArticle_Emails
 
 Same as email entity [KnowledgeArticle_Emails](email.md#BKMK_KnowledgeArticle_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|

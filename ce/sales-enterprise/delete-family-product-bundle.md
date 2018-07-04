@@ -37,9 +37,9 @@ To stop selling a product, delete it. If you delete a parent family, its child p
   
 2. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Products**.
   
-3.  Select a product family, product, or bundle record you want to delete, and on the command bar, select **Delete**.  
+3. Select a product family, product, or bundle record you want to delete, and on the command bar, select **Delete**.  
 
-    ![Delete a product](media/delete-product.png "Delete a product")
+   ![Delete a product](media/delete-product.png "Delete a product")
 
 4. In the **Confirm Deletion** dialog box, select **Delete**.
 
@@ -52,15 +52,15 @@ To stop selling a product, delete it. If you delete a parent family, its child p
   
     #### Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
   
-3.  In the **Product Catalog** area, select **Families & Products**.  
+3. In the **Product Catalog** area, select **Families & Products**.  
   
-4.  Select a product family, product, or bundle record you want to delete, and on the command bar, select **Delete**.  
+4. Select a product family, product, or bundle record you want to delete, and on the command bar, select **Delete**.  
   
 ### See also  
  [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)   
