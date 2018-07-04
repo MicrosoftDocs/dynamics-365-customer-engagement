@@ -95,6 +95,11 @@ If you have more than one organization or Unified Interface app, you can use the
 
 ![Dashboard settings](media/teams-settings-page.png "Dashboard settings")
 
+> [!NOTE]
+> - Only Dynamics 365 version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
+> - Only Unified Interface apps are listed.
+> - Only app modules licensed for the selected organization are listed. 
+
 ## Install the Team app
 
 You can also install the Team app which integrates Dynamics 365 and Teams to use with your team members. These steps are for installing the Team app - the settings under **Add to a team**.
@@ -105,11 +110,11 @@ Once you've selected the Dynamics 365 app (see [Select the app in the app Store]
 
    ![Install Team app](media/teams-first-settings.png "Install Team app")
 
-2. With the Team app installed, select the **Add** button ![Add button](media/plus-2.png "Add button") to add the Dynamics 365 tab to a Microsoft Team channel. 
+2. With the Team app installed, select the **Add** button (![Add button](media/plus-2.png "Add button")) to add the Dynamics 365 tab to a Microsoft Team channel. 
 
    ![Select Add button](media/teams-add-tab.png "Select Add button")
 
-3. Select the Dynamics 365 icon to pin a Dynamics 365 record to a Microsoft Team discussion channel.
+3. Select the **Dynamics 365** icon to pin a Dynamics 365 record to a Microsoft Team discussion channel.
 
    ![Add Dynamics 365 Team channel](media/teams-add-channel.png "Add Dynamics 365 Team channel")
 
@@ -130,34 +135,6 @@ Once you complete the above steps, the Dynamics 365 tab appears on the menu bar.
 ![Dynamics 365 tab](media/teams-pinned-record.png "Dynamics 365 tab")
 
 You can interact with the record as if you were using the Dynamics 365 web app. Those with Write permissions can edit the record; changes will be synchronized with the Dynamics 365 web app.
-
-<!--
-
-5. Select **Open**.
-
-    ![Select Open](media/select-open.png "Select Open")
-
-6. Select **Login** and sign in with your **Dynamics 365** credentials.
-7. Select the **Settings** tab. 
-8. Under **Org Name**, select an organization.  
-    Note: only Dynamics 365 version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
-9. Under **App Module**, select the app module from which to build a dashboard.  
-    Note: only app modules licensed for the selected organization are listed. 
-10. Select **Save**. 
-
-## Add Dynamics 365 to Microsoft Teams
-
-Follow these steps to add Dynamics 365 to your Microsoft Teams app.
-
-
-
-![Configure Settings](../admin/media/select-org-app-module-save.png "Configure Settings")
-
-The Microsoft Dynamics 365 default dashboard appears for the app module selected.
-
-![Microsoft Teams integrated with Dynamics 365](media/teams-dynamics-365-dashboard.png "Microsoft Teams integrated with Dynamics 365")
-
--->
 
 ## Delete user data
 Your privacy is important to us! You can remove Dynamics 365 app personal data from Microsoft Teams.
