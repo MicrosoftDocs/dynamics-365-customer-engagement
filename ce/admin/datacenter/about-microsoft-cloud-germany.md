@@ -1,7 +1,7 @@
 ---
 title: "About Microsoft Cloud Germany | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 07/03/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,13 +17,13 @@ ms.author: "jimholtz"
 ---
 # About the Microsoft Cloud Germany datacenter
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 [!INCLUDE[pn_dyn_365_germany](../../includes/pn-dyn-365-germany.md)] address the needs of the most regulated customers in Germany, the European Union (EU), and the European Free Trade Association (EFTA). The German datacenter delivers services that bring together the best of Microsoft in productivity, collaboration, intelligence and platform to grow, evolve and transform your business.  
   
 > [!NOTE]
 >  Due to the unique nature of [!INCLUDE[pn_dyn_365_germany](../../includes/pn-dyn-365-germany.md)], there are some features that have not yet been enabled. The key sales, marketing, and service features for Dynamics 365 will be the same as in other regions. However, there may be external factors that are made available in other clouds, but will not be available to German cloud customers at this time.  
->   
+> 
 >  Please check back for the latest information.  
   
 <a name="BKMK_DataResidency"></a>   
@@ -34,14 +34,14 @@ ms.author: "jimholtz"
   
  Note the following:  
   
--   Customer Data is stored at rest in Germany  
+- Customer Data is stored at rest in Germany  
   
--   Access control is through  a German Data Trustee.  
+- Access control is through  a German Data Trustee.  
   
--   All security and compliance capabilities of [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] are included.  
+- All security and compliance capabilities of [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] are included.  
   
- ![Dynamics 365 Germany data residence](../../admin/media/germany-data-residence.png "Dynamics 365 Germany data residence")  
-<a name="BKMK_DataTrustee"></a>   
+  ![Dynamics 365 Germany data residence](../../admin/media/germany-data-residence.png "Dynamics 365 Germany data residence")  
+  <a name="BKMK_DataTrustee"></a>   
 
 ## German Data Trustee  
  The German Data Trustee controls access to Customer Data by anyone except the customer or the customer’s end users. This means that access to Customer Data or the infrastructure on which Customer Data resides for performing operational tasks must be granted and supervised by the German Data Trustee, or else directly by the customer.  
@@ -83,7 +83,7 @@ Customer Engagement Plan is a user subscription that includes [!INCLUDE[pn_ms_dy
   
 - [!INCLUDE[pn_gamification_subsequent](../../includes/pn-gamification-subsequent.md)]  
   
--   Mobile offline synchronization  
+- Mobile offline synchronization  
   
 - Relevance Search  
   
