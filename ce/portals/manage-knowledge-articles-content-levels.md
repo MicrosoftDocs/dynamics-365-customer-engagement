@@ -77,7 +77,7 @@ If you want to add content access level in a knowledge article from the Customer
 
 In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portals app, you can access a knowledge article and add content access level to it by going to **Portals** > **Knowledge Article**.
 
-1. [Open the Dynamics 365 Portal app](provision-portal.md#open-dynamics-365-portals-app).
+1. [Open the Dynamics 365 Portal app](provision-portal.md#open-dynamics-365-portal-app).
 
 2. Go to **Portals** > **Knowledge Article** and open the knowledge article you want to assign content access level.
 
