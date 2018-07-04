@@ -2,7 +2,7 @@
 title: "Set and use event templates (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Describes how to create an event template and how to use templates when creating a new event in Dynamics 365 for Marketing"
 keywords: "events; template"
-ms.date: 07/01/2018
+ms.date: 07/06/2018
 ms.service:
   - "dynamics-365-marketing"
 ms.custom:
@@ -17,8 +17,6 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 ---
-
-<!--Note to author: Reminder to update the publication date.-->
 
 # Create and use event templates
 

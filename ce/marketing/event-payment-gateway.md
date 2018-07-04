@@ -2,7 +2,7 @@
 title: "Add a payment gateway to your event portal (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Describes how to set up a payment gateway for the event portal, so contacts can pay for a ticket while registering in  Dynamics 365 for Marketing"
 keywords: "events; payment"
-ms.date: 07/01/2018
+ms.date: 07/06/2018
 ms.service:
   - "dynamics-365-marketing"
 ms.custom:
@@ -17,8 +17,6 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 ---
-
-<!--Note to author: Change date to date of publication-->
 
 # Set up a custom payment page for the event portal
 
@@ -72,11 +70,9 @@ To add a new payment page to your event portal:
     - **Name**: Enter a name for your web page.
     - **Website**: Select the **Event Portal**.
     - **Parent page**: Select **Home**.
-    - **Partial URL**: Enter a folder name that you want to show in the URL path for this page. This text must form part of a valid URL, so use only letters, numbers, hyphens, and underscores (avoid spaces, special characters, illegal URL characters, and slashes). This value becomes part of the page URL using the following pattern: `https://<YourPortalDomain>/<PartialURL>/`.
+    - **Partial URL**: Enter a folder name that you want to show in the URL path for this page. This text must form part of a valid URL, so use only letters, numbers, hyphens, and underscores (avoid spaces, special characters, invalid URL characters, and slashes). This value becomes part of the page URL using the following pattern: `https://<YourPortalDomain>/<PartialURL>/`.
     - **Page Template**: Select the page template that you created earlier in this procedure.
     - **Publishing State**: Set to **Published**.
-
-<!--Note to author: Could "invalid" replace "illegal" in the previous list's 4th bullet? Illegal sounds like it breaks a law.-->
 
 1. **Save** your page. Your new payment gateway is now available to your event portal.
 
