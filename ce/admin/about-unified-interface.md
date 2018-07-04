@@ -140,5 +140,24 @@ The following are not currently available with Unified Interface:
 - Admin experiences 
 - Editable grids on phones 
 
+## Read-only entities on Unified Interface
+
+There are certain entities that are currently read-only on Unified Interface. Users will not be able to make changes to these entity records within an Unified Interface App. We are working to make them editable in future releases.
+
+The following are entities that not currently read-only in Unified Interface:
+
+- EmailSignature
+- Entitlement
+- KnowledgeArticleViews
+- KnowledgeBaseRecord
+- Queue
+- SharePointDocument
+- SharePointSite
+- SLA
+- SLAKPIInstance
+- SystemUser
+- Team
+- Template
+
 ### See also
 [Overview of building model-driven apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
