@@ -3,7 +3,7 @@ title: "Create and expose portal content easily in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create and expose portal content by using the administrative wizard in Dynamics 365."
 ms.custom:
   - dyn365-portal
-ms.date: 06/08/2018
+ms.date: 07/04/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -40,9 +40,9 @@ The true potential of a portal connected with [!INCLUDE[pn-dynamics-crm](../incl
 
     ![Create portal content using administrative wizard](media/create-portal-content.png "Create portal content by using the administrative wizard")  
 
-**Dynamics 365 Portals app**
+**Dynamics 365 Portal app**
 
-1.	[Open the Dynamics 365 Portals app](provision-portal.md#open-dynamics-365-portals-app).
+1.	[Open the Dynamics 365 Portal app](provision-portal.md#open-dynamics-365-portals-app).
 
 2.	Go to **Portals** > **Create Portal Content**. The Create Portal Content window appears.
 
