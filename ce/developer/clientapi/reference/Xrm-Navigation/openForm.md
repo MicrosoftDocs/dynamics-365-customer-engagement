@@ -1,6 +1,6 @@
 ---
 title: "openForm (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 01/17/2018
+ms.date: 07/03/2018
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -102,7 +102,6 @@ manager: "amyla"
 <li>The record is saved in the entity form displayed for a new record.</li>
 <li>The record is saved in the quick create form.</li>
 </ul>
-<b>NOTE</b>: On <a href="/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps" data-raw-source="[Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps)">Unified Interface</a>, the <b>successCallback</b> function is executed only when you save a record in a quick create form that was opened using the <strong>openForm</strong> method.
 
 This function is passed an object as a parameter. The object has a <b>savedEntityReference</b> array with the following properties to identify the record(s) displayed or created:
 <ul>
@@ -110,7 +109,13 @@ This function is passed an object as a parameter. The object has a <b>savedEntit
 <li><b>id</b>: A string representation of a GUID value for the record.</li>
 <li><b>name</b>: The primary attribute value of the record displayed or created.</li></ul>
 
-<b>NOTE</b>: When you open a form for an existing record or to create a record, <b>savedEntityReference</b> will contain a single item. When you open a quick create form on [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps), and create multiple records by clicking <b>Save & New</b>, <b>savedEntityReference</b> will contain multiple items, each item representing the record created using the quick create form.
+<b>NOTE</b>:
+<ul>
+<li>On web client, when you open a form for an existing or new record, or open a quick create form, the <b>savedEntityReference</b> array will contain a single item.</li> 
+<li>On <a href="/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps" data-raw-source="[Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps)">Unified Interface</a>:
+<ul>
+<li>The <b>successCallback</b> function is executed only when you save a record in a quick create form that was opened using the <strong>openForm</strong> method.</li>
+<li>When you open a quick create form, and create multiple records by clicking <b>Save & New</b>, the <b>savedEntityReference</b> array will contain multiple items, each item representing the record created using the quick create form.</li>
 </td>
 </tr>
 <tr>
