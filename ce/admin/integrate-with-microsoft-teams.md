@@ -101,36 +101,31 @@ You can also install the Team app which integrates Dynamics 365 and Teams to use
 
 Once you've selected the Dynamics 365 app (see [Select the app in the app Store](#select-the-app-in-the-app-store)), the settings page opens. 
 
-Choose a Team, verify **Yes** is enabled, and then select **Install** to install the Team app.
+1. Choose a Team, verify **Yes** is enabled, and then select **Install** to install the Team app.
 
-![Install Team app](media/teams-first-settings.png "Install Team app")
+   ![Install Team app](media/teams-first-settings.png "Install Team app")
 
-With the Team app installed, select the **Add** button ![Add button](media/plus-2.png "Add button") to add the Dynamics 365 tab to a Microsoft Team channel. 
+2. With the Team app installed, select the **Add** button ![Add button](media/plus-2.png "Add button") to add the Dynamics 365 tab to a Microsoft Team channel. 
 
-![Select Add button](media/teams-add-tab.png "Select Add button")
+   ![Select Add button](media/teams-add-tab.png "Select Add button")
 
-Select the Dynamics 365 icon to pin a Dynamics 365 record to a Microsoft Team discussion channel.
+3. Select the Dynamics 365 icon to pin a Dynamics 365 record to a Microsoft Team discussion channel.
 
-![Add Dynamics 365 Team channel](media/teams-add-channel.png "Add Dynamics 365 Team channel")
+   ![Add Dynamics 365 Team channel](media/teams-add-channel.png "Add Dynamics 365 Team channel")
 
-Search for an entity to pin. Use **Filter** to narrow the search to an entity type. Select **Save**.
+4. Search for an entity to pin. Use **Filter by** to narrow the search to an entity type. Select **Save**.
 
-![Search for entity](media/teams-add-channel-pin-record.png "Search for entity")
+   ![Search for entity](media/teams-add-channel-pin-record.png "Search for entity")
+
+   If you have multiple organizations, select **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which organization's records to search.
 
 The Dynamics 365 tab appears on the menu bar.
 
 ![Dynamics 365 tab](media/teams-pinned-record.png "Dynamics 365 tab")
 
-You can fully interact with the record. Those with Write permissions can edit the record and changes will be synchronized with the Dynamics 365 web application.
+You can interact with the record as if you were using the Dynamics 365 web app. Those with Write permissions can edit the record; changes will be synchronized with the Dynamics 365 web app.
 
-
-
-. <br/>
-. <br/> 
-. <br/>
-. <br/>
-
-
+<!--
 
 5. Select **Open**.
 
@@ -156,9 +151,7 @@ The Microsoft Dynamics 365 default dashboard appears for the app module selected
 
 ![Microsoft Teams integrated with Dynamics 365](media/teams-dynamics-365-dashboard.png "Microsoft Teams integrated with Dynamics 365")
 
-## Configure and use the personal bot
-
-## Configure and use the personal dashboard
+-->
 
 ## Delete user data
 Your privacy is important to us! You can remove Dynamics 365 app personal data from Microsoft Teams.
