@@ -32,7 +32,7 @@ When creating a new entity form, the first step is to decide the **Entity** and 
 > - An **Entity Form** must be associated with a webpage for a given [website](#website-1) for the form to be viewable within the site.
 > - The Connection entity subgrids are not supported in entity forms. If you add a Connection entity subgrid to the form using Form designer, error messages are displayed when you render the form on the portal and use the Connection entity.
 > - Duplicate fields and multi-select option set are not supported in entity forms.
-> - If you create an entity form in Insert mode, you cannot change a button's alignment or place an action button above the entity form.
+> - If you create an entity form in the Insert mode, you can't change a button's alignment or place an action button above the entity form.
 
 The webpages associated with the entity form can be viewed by selecting the **Web Pages** link listed in the **Related** navigation links in the leftmost menu.
 
