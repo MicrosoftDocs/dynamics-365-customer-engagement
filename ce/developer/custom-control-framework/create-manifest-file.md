@@ -19,8 +19,4 @@ ms.assetid: e90c6271-9408-4c99-b4af-af7db8a12a12
 [!INCLUDE [manifest](manifest-schema-reference/manifest.md)]
 
 
-### Related Topics
 
-[Control](manifest-schema-reference/control.md)<br />
-[PowerApps Control Framework API Reference](index.md)<br />
-[PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
