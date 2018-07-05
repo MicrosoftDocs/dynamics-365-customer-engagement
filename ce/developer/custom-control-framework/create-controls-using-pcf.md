@@ -22,12 +22,12 @@ ms.assetid: d2cbf58a-9112-45c2-b823-2c07a310714c
 
 This topic will walkthrough how to implement custom controls using PowerApps Control Framework.
 
-To create custom controls, you need to follow the steps below:
+To create custom controls, follow the steps below:
 
-- Create Manifest file.
-- Control implementation library.
-- Import controls to Dynamics 365.
-- Debugging custom controls.
+[Create Manifest file](create-maifest.md)<br/>
+[Control implementation library using TypeScript or JavaScript](control-implementation-library.md)<br/>
+[Import controls to Dynamics 365]<br/>
+[Debugging custom controls](debugging-custom-controls.md)<br/>
 
 
 ### Related Topics
