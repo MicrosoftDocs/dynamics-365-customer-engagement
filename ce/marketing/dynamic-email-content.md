@@ -29,7 +29,7 @@ Dynamic content gets resolved just before a message is sent to a specific indivi
 
 Content settings are sets of standard and required values that are available for use in marketing email messages. Each includes a subscription-center link, a forward-to-a-friend link, social-media links, your postal address, and other information that can be placed into the message as dynamic values by using the assist-edit feature.
 
-[!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] is delivered with a single default set of content settings, which is preconfigured to use the default subscription center (also included out of the box). You can customize this set as needed, and you can also create additional sets. You'll set up each customer journey to use a specific content-settings set, which means that all messages sent by that journey will use the same set. However, each journey can use a different set, which means that you can use an identical marketing-email design in two or more customer journeys, each specifying a different set of content settings. If you have more than one set of content settings, exactly one of them will be the default and will be applied automatically to each new customer journey that you create.
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is delivered with a single default set of content settings, which is preconfigured to use the default subscription center (also included out of the box). You can customize this set as needed, and you can also create additional sets. You'll set up each customer journey to use a specific content-settings set, which means that all messages sent by that journey will use the same set. However, each journey can use a different set, which means that you can use an identical marketing-email design in two or more customer journeys, each specifying a different set of content settings. If you have more than one set of content settings, exactly one of them will be the default and will be applied automatically to each new customer journey that you create.
 
 The values for content settings are first evaluated at send time, which means that you can edit a content-settings set at any time, and all pending and future email messages will automatically use the latest values.
 
@@ -70,7 +70,7 @@ Start by positioning your cursor in the field where you want to insert the dynam
 
 - **Contact[context]**: Places a field value, such as a first name, from each recipient's contact record.
 - **Content settings[context]**: Places a field value from the content settings—a subscription center URL, forwarding URL, and the sender postal address are included here.
-- **Message[context]**: Places values that relate to the message itself; currently, this includes the open-as-webpage URL and the various dynamic values used in [double opt-in emails](double-opt-in.md).
+- **Message[context]**: Places values that relate to the message itself; currently, this includes the open-as-webpage URL<!-- and the various dynamic values used in [double opt-in emails](double-opt-in.md)-->.
 - **Account**: Places a value from a specific account record.
 - **Contact**: Places a value from a specific contact record (not the recipient's record).
 - **Event**: Places a link to a specific event sign-up page, or a field value from the page.
@@ -122,6 +122,9 @@ Though these settings provide assist-edit buttons, you must only place static va
 > You can include conditional statements in the **Advanced Header** fields—for example, to use `contact.emailaddress2` if `contact.emailaddress1` is empty. But you can still only refer to the contact entity in your conditional expressions and displayed fields.
 
 ## Advanced dynamic content
+
+> [!NOTE]
+> The advanced dynamic-content features described in this section are scheduled to be rolled out to customer organizations gradually between July and September 2018. To see if they are available to your organization, create a message that includes a conditional (if-then) expression as described here, then open the **Preview** tab to see if it works. If you do not yet have the feature available, and require it urgently, then please contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] for assistance.
 
 You can add advanced logical processing to your email designs, which can make the content even more responsive to recipients, demographics, and context. This type of customization requires you to have a basic understanding of scripting and programming. You can enter the code while working on either the **Designer** or **HTML** tab of the content designer.
 

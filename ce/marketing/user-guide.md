@@ -67,7 +67,6 @@ topic-status: Drafting
 <li>[Add dynamic content to email messages](dynamic-email-content.md)</li>
 <li>[Work with email templates](email-templates.md)</li>
 <li>[Create and deploy marketing pages](create-deploy-marketing-pages.md)</li>
-<li>[Set up double opt-in](double-opt-in.md)</li>
 
 </td></tr>
 <tr><td>
