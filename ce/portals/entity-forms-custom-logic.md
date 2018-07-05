@@ -3,7 +3,7 @@ title: "Define entity forms and custom logic within a portal in Dynamics 365 | M
 description: "Instructions to create entity forms in a portal."
 ms.custom:
   - dyn365-portal
-ms.date: 12/05/2017
+ms.date: 06/18/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -31,6 +31,7 @@ When creating a new entity form, the first step is to decide the **Entity** and 
 > [!Note]
 > - An **Entity Form** must be associated with a webpage for a given [website](#website-1) for the form to be viewable within the site.
 > - The Connection entity subgrids are not supported in entity forms. If you add a Connection entity subgrid to the form using Form designer, error messages are displayed when you render the form on the portal and use the Connection entity.
+> - Duplicate fields and multi-select option set are not supported in entity forms.
 
 The webpages associated with the entity form can be viewed by selecting the **Web Pages** link listed in the **Related** navigation links in the leftmost menu.
 

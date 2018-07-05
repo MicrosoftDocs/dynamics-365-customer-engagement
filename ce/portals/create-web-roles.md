@@ -3,7 +3,7 @@ title: "Create web roles for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create web roles for a portal."
 ms.custom:
   - dyn365-portal
-ms.date: 06/08/2018
+ms.date: 07/04/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -15,13 +15,20 @@ ms.author: shjais
 manager: sakudes
 ---
 # Create web roles for portals
+
 After a contact has been configured to use the portal, it must be given one or more web roles to perform any special actions or access any protected content on the portal. For example, to access a restricted page, the contact must be assigned to a role to which read for that page is restricted to. To publish new content, the contact must be placed in a role which is given content publishing permissions.
 
 To create a web role:
 
-1. Go to **Portals** > **Web Roles** > **New**.
-3. Specify values for the required fields.
-4. Select **Save**.
+1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+
+2. Go to **Portals** > **Web Roles**.
+
+3. Select **New**.
+
+4. Enter appropriate values in the fields.
+
+5. Select **Save**.
 
 ## Attributes and relationships
 
