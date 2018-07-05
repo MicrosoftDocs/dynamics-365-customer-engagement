@@ -40,7 +40,7 @@ manager: "kvivek"
   
 - **New views can be created**  
   
- Except for **Can Change Additional Properties**, these options should be self-explanatory. The **Can Change Additional Properties** property simply means anything not covered by the other options. If you set all the individual options to `False`, you might as well set **Can be customized** to `False`.  
+  Except for **Can Change Additional Properties**, these options should be self-explanatory. The **Can Change Additional Properties** property simply means anything not covered by the other options. If you set all the individual options to `False`, you might as well set **Can be customized** to `False`.  
 
- ### See also
- [Entities, metadata, and the metadata browser](create-edit-metadata.md)
+  ### See also
+  [Entities, metadata, and the metadata browser](create-edit-metadata.md)

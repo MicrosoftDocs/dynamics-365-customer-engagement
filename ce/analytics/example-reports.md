@@ -26,13 +26,13 @@ This section provides example reports that show how to implement common techniqu
   
 ## Create a report using an example  
   
-1.  Create a report using SQL Data Tools. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Report writing environment using SQL Server Data Tools](../analytics/report-writing-environment-using-sql-server-data-tools.md)  
+1. Create a report using SQL Data Tools. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Report writing environment using SQL Server Data Tools](../analytics/report-writing-environment-using-sql-server-data-tools.md)  
   
-2.  During the report configuration, paste the example into the report and follow any additional report configuration instructions included in the example.  
+2. During the report configuration, paste the example into the report and follow any additional report configuration instructions included in the example.  
   
-    -   For a Fetch XML example, see [Create a custom Fetch-based report (Dynamics 365 (online) and Dynamics 365 on-premises)](../analytics/create-a-new-report-using-sql-server-data-tools.md#FetchBased).  
+   -   For a Fetch XML example, see [Create a custom Fetch-based report (Dynamics 365 (online) and Dynamics 365 on-premises)](../analytics/create-a-new-report-using-sql-server-data-tools.md#FetchBased).  
   
-3.  Publish the report. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish reports](../analytics/publish-reports.md)  
+3. Publish the report. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish reports](../analytics/publish-reports.md)  
    
   
 ### See also  

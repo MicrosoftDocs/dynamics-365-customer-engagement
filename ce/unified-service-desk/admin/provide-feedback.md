@@ -30,14 +30,14 @@ The walkthrough demonstrates how to set up provide feedback window in your agent
 
 You must know about the following in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:<br>  
     - The Toolbar Container type of hosted control. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Hosted control types and action/event reference](../../unified-service-desk/hosted-control-types-action-event-reference.md)  
-  
+
     - Action call and how to configure it. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Action calls](../../unified-service-desk/action-calls.md)
 
 <a name="Top"></a>   
 ## In This Walkthrough
 
  [Step 1: Create a toolbar container type of hosted control](#Step1)
-  
+
  [Step 2: Add a toolbar and attach it to the toolbar container](#Step2)
 
  [Step 3: Add toolbar button and action call to display the feedback window](#Step3)
@@ -45,62 +45,64 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
  [Step 4: Add the controls to the configuration ](#Step4)
 
  [Step 5: Test the provide feedback option in the application](#Step5)
-  
+
  [Conclusion](#Conclusion)
 
 <a name="Step1"></a>   
 ## Step 1: Create a toolbar container type of hosted control  
- 
+
  Toolbar Container type of hosted control are used to hold and display the toolbars in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. In this section, you’ll create a **Toolbar Container** hosted control that will appear at the top of the client application.  
-  
-1.  Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
-  
+
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
-3.  Click **Hosted Controls**.  
-  
-4.  Click **New**.  
-  
-5.  On the **New Hosted Control** page, specify the following values  
-  
-    |Field|Value|  
-    |-----------|-----------|
-    |Name|About Toolbar Container|
-    |USD Component Type|Toolbar Container|
-    |Display Group|AboutPanel|
-  
-6.  Click **Save**.  
+3. Click **Hosted Controls**.  
+
+4. Click **New**.  
+
+5. On the **New Hosted Control** page, specify the following values  
+
+
+   |       Field        |          Value          |
+   |--------------------|-------------------------|
+   |        Name        | About Toolbar Container |
+   | USD Component Type |    Toolbar Container    |
+   |   Display Group    |       AboutPanel        |
+
+
+6. Click **Save**.  
 
 <a name="Step2"></a>   
 ## Step 2: Add a toolbar and attach it to the toolbar container  
  In this step, you’ll create a toolbar, and attach the toolbar to the toolbar container hosted control created in step 1. This is done to display the toolbar in your agent application.  
-  
+
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
-  
+
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
-  
+
 3. Click **Toolbars**.  
-  
+
 4. Click **New**.
-  
+
 5. On the **New Toolbar** page, type **About Toolbar** in the **Name** box, and then click **Save**.  
-  
+
 6. Attach the toolbar to the toolbar container hosted control created in step 1. On the nav bar, click the down arrow next to **About Toolbar**, and click **Hosted Controls**.  
-  
+
 7. On the next page, click **Add Existing Hosted Control**, type `About Toolbar Container` in the search bar, and then press **ENTER** or click the search icon.
-  
+
 8. From the search result, click **About Toolbar Container** to add.  
-  
+
 9. Click **Save**.
 
 <a name="Step3"></a>   
 ## Step 3: Add toolbar button and action call to display the feedback window
 
  In this step, you’ll add button on the toolbar and attach action call to the button so that when the button is clicked, **Provide Feedback** window is displayed in the hosted control that were created in step 1.
-  
+
 1. After you save the toolbar in step 2, the **Buttons** area becomes available. In the **Buttons** area, click **+** on the right corner to add a button.  
-  
+
 2. On the **New Toolbar Button** page, specify the following values:  
-  
+
     |Field|Value|  
     |-----------|-----------|  
     |Name|Provide Feedback|
@@ -113,26 +115,26 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
 4. You need add the action call to display the **Provide Feedback** in the hosted control created in step 1.
 
     In the **Actions** area, click **+** on the right corner to add an action call.  
-  
+
 5. In the search box in the **Actions** area, press **ENTER** or click the search icon.  
-  
+
 6. In the search results box, click **New** in the lower right corner to create an action call for this toolbar button.
-  
+
 7. On the **New Action Call** page, specify the following values:
-  
+
     |Field|Value|  
     |-----------|-----------|  
     |Name|Show FeedBack Window|  
     |Order|1|  
     |Hosted Control|CRM Global Manager|  
     |Action|ShowFeedback|
-  
+
 8. Click **Save**. The new action call gets added to the **Provide Feedback** button.
 
 <a name="Step4"></a>   
 ## Step 4: Add the controls to the configuration  
  In this step, you’ll add the action call, hosted control, and toolbar that were created in this walkthrough to **Contoso Configuration** to display these controls to the user who is assigned to the configuration. If you have not created **Contoso Configuration**. Visit, [Walkthrough 1: Build a simple agent application](../../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md).
-  
+
  Add the following to **Contoso Configuration**.
 
 |Control name|Control type|  
@@ -140,25 +142,25 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
 |Show FeedBack Window|Action Call| 
 |About Toolbar Container|Hosted Control| 
 |Provide Feedback|Toolbar|
-  
+
  To add a control to the configuration:  
-  
-1.  Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
-  
+
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
-  
-3.  Click **Configuration**.  
-  
-4.  Click **Contoso Configuration** to open the definition.  
-  
-5.  On the nav bar, click the down arrow next to **Contoso Configuration**, and select **Action Calls**.  
-  
-6.  On the next page, click **Add Existing Action Call**, type `Show FeedBack Window` in the search bar, and then press **ENTER** or click the search icon.  
-  
-7.  The action call listed earlier are displayed in the search results. Add these action call.  
-  
-8.  Similarly, add the hosted control and the toolbar by clicking the down arrow next to **Contoso Configuration**, and clicking **Hosted Controls** and **Toolbars** respectively.  
-  
+
+3. Click **Configuration**.  
+
+4. Click **Contoso Configuration** to open the definition.  
+
+5. On the nav bar, click the down arrow next to **Contoso Configuration**, and select **Action Calls**.  
+
+6. On the next page, click **Add Existing Action Call**, type `Show FeedBack Window` in the search bar, and then press **ENTER** or click the search icon.  
+
+7. The action call listed earlier are displayed in the search results. Add these action call.  
+
+8. Similarly, add the hosted control and the toolbar by clicking the down arrow next to **Contoso Configuration**, and clicking **Hosted Controls** and **Toolbars** respectively.  
+
 9. Click **Save**.
 
 
@@ -171,13 +173,13 @@ Your agent application will now have a **Smiley** button in the toolbar area.
 
 1. On the toolbar, select the **Provide Feedback** smiley. <br/>The **Feedback** window appears.<br>
 2. Select a smiley from the list:
-  - Good
-  - Normal
-  - Bad
-3.	Type your feedback or suggestion in the text box. 
-4.	Select **Submit** to send your feedback to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].<br>
+   - Good
+   - Normal
+   - Bad
+3. Type your feedback or suggestion in the text box. 
+4. Select **Submit** to send your feedback to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].<br>
 
-    ![Provide feedback smiley and window](../media/provide-feedback-smiley-window.PNG "Provide feedback smiley and window")
+   ![Provide feedback smiley and window](../media/provide-feedback-smiley-window.PNG "Provide feedback smiley and window")
 
 
 <a name="Conclusion"></a> 
@@ -187,10 +189,10 @@ Your agent application will now have a **Smiley** button in the toolbar area.
 
 > [!Note]
 > It is recommended that you do not submit any feedback containing personal or other data that is subject to legal or regulatory compliance requirements.
-
+> 
 > [!Note]
 > Setting the **HelpImproveUsd** global option to **False**, disables the data collection and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] dose not send information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. If the data collection is disabled, then agent or system administrator cannot provide feedback due to insufficient permissions.<br>
-![Insufficient Permissions](../media/insufficient-permissions-provide-feedback-window.PNG "Insufficient Permissions")
+> ![Insufficient Permissions](../media/insufficient-permissions-provide-feedback-window.PNG "Insufficient Permissions")
 
 ## See also
 

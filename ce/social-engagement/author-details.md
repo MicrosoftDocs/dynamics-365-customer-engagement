@@ -44,13 +44,13 @@ The author name, user name, profile picture, location, website, and bio is displ
   
    > [!IMPORTANT]
    > A [social profile](manage-social-profiles.md) for [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] needs to be configured in order for the relationship widget to load.  
-   >   
+   > 
    > A rate limit on how often you can check the relationships applies. For more details, see [Twitter: API rate limits](https://dev.twitter.com/rest/public/rate-limiting)  
   
 6. **Posts**: Lists all of the author's posts. Select **Load more** to see older posts.  
   
-    > [!NOTE]
-    >  Posts are an external service provided by [!INCLUDE[tn_twitter](../includes/tn-twitter.md)].  
+   > [!NOTE]
+   >  Posts are an external service provided by [!INCLUDE[tn_twitter](../includes/tn-twitter.md)].  
   
 ## Privacy notice  
  [!INCLUDE[cc_privacy_mse_engagement_analytics](../includes/cc-privacy-mse-engagement-analytics.md)]  

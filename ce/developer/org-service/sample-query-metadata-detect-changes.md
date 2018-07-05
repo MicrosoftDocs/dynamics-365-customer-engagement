@@ -39,43 +39,43 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
   
  The sample will display output similar to the following when it is complete.  
   
--   463 option labels for 5 entities added to the cache.  
+- 463 option labels for 5 entities added to the cache.  
   
--   ClientVersionStamp: 296297!10/22/2012 21:41:57  
+- ClientVersionStamp: 296297!10/22/2012 21:41:57  
   
--   Adding a custom entity named sample_SampleEntityForMetadataQuery with a custom optionset attribute named : sample_ExampleOptionSet  
+- Adding a custom entity named sample_SampleEntityForMetadataQuery with a custom optionset attribute named : sample_ExampleOptionSet  
   
--   8 option labels for 1 entities were added to the cache.  
+- 8 option labels for 1 entities were added to the cache.  
   
--   471 Option Labels cached  
+- 471 Option Labels cached  
   
--   No Option Labels removed.  
+- No Option Labels removed.  
   
--   ClientVersionStamp: 296646!10/22/2012 21:42:06  
+- ClientVersionStamp: 296646!10/22/2012 21:42:06  
   
--   Adding an additional option to the sample_ExampleOptionSet attribute options.  
+- Adding an additional option to the sample_ExampleOptionSet attribute options.  
   
--   1 option labels for 1 entities were added to the cache.  
+- 1 option labels for 1 entities were added to the cache.  
   
--   472 Option Labels cached  
+- 472 Option Labels cached  
   
--   No Option Labels removed.  
+- No Option Labels removed.  
   
--   ClientVersionStamp: 296649!10/22/2012 21:42:16  
+- ClientVersionStamp: 296649!10/22/2012 21:42:16  
   
--   Current Options: 472  
+- Current Options: 472  
   
--   Deleting the sample_SampleEntityForMetadataQuery custom entity  
+- Deleting the sample_SampleEntityForMetadataQuery custom entity  
   
--   No option labels were added to the cache.  
+- No option labels were added to the cache.  
   
--   9 Option Labels removed  
+- 9 Option Labels removed  
   
--   463 Total Option Labels currently cached  
+- 463 Total Option Labels currently cached  
   
--   ClientVersionStamp: 297079!10/22/2012 21:42:34  
+- ClientVersionStamp: 297079!10/22/2012 21:42:34  
   
- [!code-csharp[MetadataQuery#MetadataQuery](../../snippets/csharp/CRMV8/metadataquery/cs/metadataquery.cs#metadataquery)]  
+  [!code-csharp[MetadataQuery#MetadataQuery](../../snippets/csharp/CRMV8/metadataquery/cs/metadataquery.cs#metadataquery)]  
   
 ### See also  
  [Retrieve and detect changes to metadata](../retrieve-detect-changes-metadata.md)

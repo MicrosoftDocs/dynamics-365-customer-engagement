@@ -21,42 +21,42 @@ manager: "amyla"
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 This sample demonstrates how to perform basic CRUD (create, retrieve, update, and delete) and association and dissociation operations on entity instances using client-side [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)].  
-  
+
 > [!NOTE]
 >  This sample implements the operations detailed in the [Web API Basic Operations Sample](web-api-basic-operations-sample.md) and uses the common [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] constructs described in [Web API Samples (Client-side JavaScript)](web-api-samples-client-side-javascript.md)  
-  
+
 <a name="bkmk_prerequisites"></a>
 
 ## Prerequisites
 
  To run this sample, the following is required:  
-  
--   Access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] online or on-premises version 8.0 or higher.  
-  
--   A user account with privileges to import solutions and perform CRUD operations, typically a system administrator or system customizer security role.  
-  
+
+- Access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] online or on-premises version 8.0 or higher.  
+
+- A user account with privileges to import solutions and perform CRUD operations, typically a system administrator or system customizer security role.  
+
 <a name="bkmk_runsample"></a>
 
 ## Run this sample
 
  To run this sample, download the solution package here [Microsoft CRM Web API Basic Operations Sample (Client-side JavaScript)](http://go.microsoft.com/fwlink/p/?LinkId=824043). Download the Microsoft CRM Web API Basic Operations Sample (Client-side JavaScript).zip file and extract the contents. Locate the  WebAPIBasicOperations_1_0_0_1_managed.zip solution and import it into your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization and run the sample. For instructions on how to import the sample solution, see [Web API Samples (Client-side JavaScript)](web-api-samples-client-side-javascript.md).  
-  
+
 <a name="bkmk_codesample"></a>
 
 ## Code sample
 
  This sample includes two web resources:  
-  
+
 -   [WebAPIBasicOperations.html](#bkmk_WebAPIBasicOperations)  
-  
+
 -   [WebAPIBasicOperations.js](#bkmk_WebAPIBasicOperationsJS)  
-  
+
 <a name="bkmk_WebAPIBasicOperations"></a>
 
 ### WebAPIBasicOperations.html
 
  The WebAPIBasicOperations.html web resource provides the context in which the [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] code will run.  
-  
+
 ```html  
 <html>  
 <head>  
@@ -66,17 +66,17 @@ This sample demonstrates how to perform basic CRUD (create, retrieve, update, an
     <script src="../ClientGlobalContext.js.aspx" type="text/javascript"></script>  
     <script src="scripts/es6promise.js" type="text/javascript"></script>  
     <script src="scripts/WebAPIBasicOperations.js" type="text/javascript"></script>  
-  
+
     <style type="text/css">  
         body {  
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
         }  
-  
+
         #preferences {  
             border: inset;  
             padding: 10px 10px;  
         }  
-  
+
         #output_area {  
             border: inset;  
             background-color: gainsboro;  
@@ -87,7 +87,7 @@ This sample demonstrates how to perform basic CRUD (create, retrieve, update, an
 <body>  
     <h1>Microsoft CRM Web API Basic Operations Example</h1>  
     <p>This page demonstrates the CRM Web API's basic operations using JavaScript.</p>  
-  
+
     <h2>Instructions</h2>  
     <p>  
         Choose your preferences and run the JavaScript code.   
@@ -103,23 +103,23 @@ This sample demonstrates how to perform basic CRUD (create, retrieve, update, an
         No  
     </p>  
     <input type="button" name="start_sample" value="Start Sample" onclick="Sdk.startSample()" />  
-  
+
 </body>  
 </html>  
-  
+
 ```  
-  
+
 <a name="bkmk_WebAPIBasicOperationsJS"></a>
 
 ### WebAPIBasicOperations.js
 
  The WebAPIBasicOperations.js web resource is the [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] library that defines the operations this sample performs.  
-  
+
 ```javascript
-  
+
 "use strict";  
 var Sdk = window.Sdk || {};  
-  
+
 /**  
  * @function getClientUrl  
  * @description Get the client URL.  
@@ -140,9 +140,9 @@ Sdk.getClientUrl = function () {
   }  
  }  
  return context.getClientUrl();  
-  
+
 };  
-  
+
 /**  
  * An object instantiated to manage detecting the  
  * Web API version in conjunction with the   
@@ -182,9 +182,9 @@ Sdk.versionManager = new function () {
    }  
   }  
  })  
-  
+
 }  
-  
+
 //Setting variables specific to this sample within a container so they won't be   
 // overwritten by another scripts code  
 Sdk.SampleVariables = {  
@@ -197,9 +197,9 @@ Sdk.SampleVariables = {
  contact2Uri: null,      // e.g.: Susie Curtis  
  opportunity1Uri: null,  // e.g.: Adventure Works  
  competitor1Uri: null  
-  
+
 }  
-  
+
 /**  
  * @function request  
  * @description Generic helper function to handle basic XMLHttpRequest calls.  
@@ -225,14 +225,14 @@ Sdk.request = function (action, uri, data, addHeader) {
    throw new Error("Sdk.request: addHeader parameter must have header and value properties that are strings.");  
   }  
  }  
-  
+
  // Construct a fully qualified URI if a relative URI is passed in.  
  if (uri.charAt(0) === "/") {  
   //This sample will try to use the latest version of the web API as detected by the   
   // Sdk.retrieveVersion function.  
   uri = Sdk.getClientUrl() + Sdk.versionManager.WebAPIPath + uri;  
  }  
-  
+
  return new Promise(function (resolve, reject) {  
   var request = new XMLHttpRequest();  
   request.open(action, encodeURI(uri), true);  
@@ -267,7 +267,7 @@ Sdk.request = function (action, uri, data, addHeader) {
   request.send(JSON.stringify(data));  
  });  
 };  
-  
+
 /**  
  * @function startSample  
  * @description Runs the sample.   
@@ -284,12 +284,12 @@ Sdk.startSample = function () {
  Sdk.SampleVariables.contact2Uri = "";  
  Sdk.SampleVariables.opportunity1Uri = "";  
  Sdk.SampleVariables.competitor1Uri = "";  
-  
+
  /**  
   * Behavior of this sample varies by version  
   * So starting by retrieving the version;  
   */  
-  
+
  Sdk.retrieveVersion()  
  .then(function () {  
   return Sdk.basicCreateAndUpdatesAsync()  
@@ -309,9 +309,9 @@ Sdk.startSample = function () {
 .catch(function (err) {  
  console.log("ERROR: " + err.message);  
 });  
-  
+
 }  
-  
+
 Sdk.retrieveVersion = function () {  
  return new Promise(function (resolve, reject) {  
   Sdk.request("GET", "/RetrieveVersion")  
@@ -332,10 +332,10 @@ Sdk.retrieveVersion = function () {
   })  
  });  
 };  
-  
+
 Sdk.basicCreateAndUpdatesAsync = function () {  
  return new Promise(function (resolve, reject) {  
-  
+
   // Section 1.  
   //  
   // Create the contact using POST request.   
@@ -344,16 +344,16 @@ Sdk.basicCreateAndUpdatesAsync = function () {
   var contact = {};  
   contact.firstname = "Peter";  
   contact.lastname = "Cambel";  
-  
+
   var entitySetName = "/contacts";  
-  
+
   Sdk.request("POST", entitySetName, contact)  
  .then(function (request) {  
   // Process response from previous request.  
   Sdk.SampleVariables.contact1Uri = request.getResponseHeader("OData-EntityId");  
   Sdk.SampleVariables.entitiesToDelete.push(Sdk.SampleVariables.contact1Uri); // To delete later  
   console.log("Contact 'Peter Cambel' created with URI: %s", Sdk.SampleVariables.contact1Uri);  
-  
+
   // Setup for next request.  
   //  
   // Update contact.  
@@ -366,19 +366,19 @@ Sdk.basicCreateAndUpdatesAsync = function () {
  .then(function () {  
   // Process response from previous request.  
   console.log("Contact 'Peter Cambel' updated with job title and annual income.");  
-  
+
   // Setup for next request.  
   //  
   // Retrieve selected properties of a Contact entity using GET request.   
   // NOTE: It is performance best practice to select only the properties you need.  
-  
+
   // Retrieved contact properties.  
   var properties = [  
    "fullname",  
    "annualincome",  
    "jobtitle",  
    "description"].join();  
-  
+
   // NOTE: For performance best practices, use $select to limit the properties you want to return  
   // See also: https://msdn.microsoft.com/en-us/library/gg334767.aspx#bkmk_requestProperties  
   var query = "?$select=" + properties;  
@@ -396,7 +396,7 @@ Sdk.basicCreateAndUpdatesAsync = function () {
       contact1.annualincome,  
       contact1.jobtitle,  
       contact1.description); // Description will be "null" because it has not been set yet.  
-  
+
   // Setup for next request.  
   //  
   // Update properties.  
@@ -415,7 +415,7 @@ Sdk.basicCreateAndUpdatesAsync = function () {
                       + "\tJob title: Senior Developer, \n"  
                       + "\tAnnual income: 95000, \n"  
                       + "\tDescription: Assignment to-be-determined.");  
-  
+
   // Setup for next request.  
   //  
   // Set value for a single property using PUT request.  
@@ -426,7 +426,7 @@ Sdk.basicCreateAndUpdatesAsync = function () {
  .then(function () {  
   // Process response from previous request.  
   console.log("Contact 'Peter Cambel' phone number updated.");  
-  
+
   // Setup for next request.  
   //  
   // Retrieve single value property.  
@@ -525,7 +525,7 @@ Sdk.basicCreateAndUpdatesAsync = function () {
  });  
  });  
 };  
-  
+
 Sdk.createWithAssociationAsync = function () {  
  return new Promise(function (resolve, reject) {  
   // Section 2.  
@@ -536,16 +536,16 @@ Sdk.createWithAssociationAsync = function () {
   account.name = "Contoso, Ltd.";  
   account.telephone1 = "555-5555";  
   account["primarycontactid@odata.bind"] = Sdk.SampleVariables.contact1Uri; //relative URI ok. E.g.: "/contacts(###)".  
-  
+
   var entitySetName = "/accounts";  
-  
+
   Sdk.request("POST", entitySetName, account)  
  .then(function (request) {  
   // Process response from previous request.  
   Sdk.SampleVariables.account1Uri = request.getResponseHeader("OData-EntityId");  
   Sdk.SampleVariables.entitiesToDelete.push(Sdk.SampleVariables.account1Uri);  
   console.log("Account 'Contoso, Ltd.' created.");  
-  
+
   // Setup for next request.  
   //  
   // Retrieve account's primary contact with selected properties using GET request and 'expand' query.  
@@ -576,10 +576,10 @@ Sdk.createWithAssociationAsync = function () {
  });  
  });  
 };  
-  
+
 Sdk.createRelatedAsync = function () {  
  return new Promise(function (resolve, reject) {  
-  
+
   // Section 3.  
   //  
   // Create related entities (deep insert).  
@@ -616,7 +616,7 @@ Sdk.createRelatedAsync = function () {
        }  
    ]  
   };  
-  
+
   var entitySetName = "/accounts";  
   Sdk.request("POST", entitySetName, account)  
  .then(function (request) {  
@@ -624,7 +624,7 @@ Sdk.createRelatedAsync = function () {
   Sdk.SampleVariables.account2Uri = request.getResponseHeader("OData-EntityId");  
   Sdk.SampleVariables.entitiesToDelete.push(Sdk.SampleVariables.account2Uri);  
   console.log("Account 'Fourth Coffee' created.");  
-  
+
   // Setup for next request.  
   //  
   // Retrieve account entity info using GET request and 'expand' query.  
@@ -632,7 +632,7 @@ Sdk.createRelatedAsync = function () {
    "fullname",  
    "jobtitle",  
    "annualincome"].join();  
-  
+
   // Expand on primarycontactid to select some of contact's properties.  
   // NOTE: With $expand, the CRM server will return values for the selected properties.   
   // The CRM Web API only supports expansions one level deep.  
@@ -651,7 +651,7 @@ Sdk.createRelatedAsync = function () {
       account2.primarycontactid.fullname,  
       account2.primarycontactid.jobtitle,  
       account2.primarycontactid.annualincome);  
-  
+
   // Setup for next request.  
   //  
   // Retrieve contact entity and expanding on its tasks using GET request.  
@@ -659,7 +659,7 @@ Sdk.createRelatedAsync = function () {
   Sdk.SampleVariables.entitiesToDelete.push(Sdk.SampleVariables.contact2Uri); // For Susie Curtis  
   var contactProperties = ["fullname", "jobtitle"].join();  
   var contactTaskProperties = ["subject", "description", "scheduledstart", "scheduledend"].join();  
-  
+
   // Expand on contact_tasks to select some of its properties for each task.  
   var query = "?$select=" + contactProperties +  
       "&$expand=Contact_Tasks($select=" + contactTaskProperties + ")";  
@@ -669,13 +669,13 @@ Sdk.createRelatedAsync = function () {
   // Process response from previous request.  
   var contact2 = JSON.parse(request.response);  
   console.log("Contact '%s' has the following assigned tasks:", contact2.fullname);  
-  
+
   // construct the output string.  
   var successMsg = "Subject: %s \n"  
   + "\tDescription: %s \n"  
   + "\tStart: %s \n"  
   + "\tEnd: %s \n";  
-  
+
   for (var i = 0; i < contact2.Contact_Tasks.length; i++) {  
    console.log(successMsg,  
        contact2.Contact_Tasks[i].subject,  
@@ -684,7 +684,7 @@ Sdk.createRelatedAsync = function () {
        contact2.Contact_Tasks[i].scheduledend  
    );  
   }  
-  
+
   //End this series of operations:  
   resolve();  
  })  
@@ -693,10 +693,10 @@ Sdk.createRelatedAsync = function () {
  });  
  });  
 };  
-  
+
 Sdk.associateExistingAsync = function () {  
  return new Promise(function (resolve, reject) {  
-  
+
   // Section 4  
   //  
   // Entity associations:  
@@ -704,21 +704,21 @@ Sdk.associateExistingAsync = function () {
   // 1) 1:N relationship - Associate an existing contact to an existing account   
   //      (e.g.: contact - Peter Cambel to account - Fourth Coffee).  
   // 2) N:N relationship - Associate an competitor to opportunity.  
-  
+
   console.log("\n--Section 4 started--");  
   var contact = {};  
   contact["@odata.id"] = Sdk.SampleVariables.contact1Uri;  
-  
+
   Sdk.request("POST", Sdk.SampleVariables.account2Uri + "/contact_customer_accounts/$ref", contact)  
  .then(function () {  
   // Process response from previous request.  
   console.log("Contact 'Peter Cambel' associated to account 'Fourth Coffee'.");  
-  
+
   // Setup for next request.  
   //  
   // Verify that the reference was made as expected.  
   var contactProperties = ["fullname", "jobtitle"].join();  
-  
+
   // This returns a collection of all associated contacts...in a "value" array.  
   var query = "/contact_customer_accounts?$select=" + contactProperties;  
   return Sdk.request("GET", Sdk.SampleVariables.account2Uri + query, null);  
@@ -728,16 +728,16 @@ Sdk.associateExistingAsync = function () {
   var relatedContacts = JSON.parse(request.response).value; //collection is in the "value" array.  
   var successMsg = "\tName: %s, "  
                   + "Job title: %s ";  
-  
+
   console.log("Contact list for account 'Fourth Coffee': ");  
-  
+
   for (var i = 0; i < relatedContacts.length; i++) {  
    console.log(successMsg,  
        relatedContacts[i].fullname,  
        relatedContacts[i].jobtitle  
    );  
   }  
-  
+
   // Setup for next request.  
   //  
   // Disassociate a contact from an account.  
@@ -746,7 +746,7 @@ Sdk.associateExistingAsync = function () {
  .then(function () {  
   // Process response from previous request.  
   console.log("Contact 'Peter Cambel' disassociated from account 'Fourth Coffee'.");  
-  
+
   // Setup for next request.  
   //  
   // N:N relationship:  
@@ -754,7 +754,7 @@ Sdk.associateExistingAsync = function () {
   var competitor = {};  
   competitor.name = "Adventure Works";  
   competitor.strengths = "Strong promoter of private tours for multi-day outdoor adventures.";  
-  
+
   var entitySetName = "/competitors";  
   return Sdk.request("POST", entitySetName, competitor);  
  })  
@@ -763,7 +763,7 @@ Sdk.associateExistingAsync = function () {
   Sdk.SampleVariables.competitor1Uri = request.getResponseHeader("OData-EntityId");  
   Sdk.SampleVariables.entitiesToDelete.push(Sdk.SampleVariables.competitor1Uri);  
   console.log("Competitor 'Adventure Works' created.");  
-  
+
   // Setup for next request.  
   //   
   // Create a new opportunity...  
@@ -778,7 +778,7 @@ Sdk.associateExistingAsync = function () {
   Sdk.SampleVariables.opportunity1Uri = request.getResponseHeader("OData-EntityId");  
   Sdk.SampleVariables.entitiesToDelete.push(Sdk.SampleVariables.opportunity1Uri);  
   console.log("Opportunity 'River rafting adventure' created.");  
-  
+
   // Setup for next request.  
   //  
   // Associate competitor to opportunity.  
@@ -789,7 +789,7 @@ Sdk.associateExistingAsync = function () {
  .then(function () {  
   // Process response from previous request.  
   console.log("Opportunity 'River rafting adventure' associated with competitor 'Adventure Works'.");  
-  
+
   // Setup for next request.  
   //  
   // Retrieve competitor entity and expanding on its opportunitycompetitors_association  
@@ -812,7 +812,7 @@ Sdk.associateExistingAsync = function () {
        competitor1.opportunitycompetitors_association[i].description  
    );  
   }  
-  
+
   // Setup for next request.  
   //  
   // Disassociate competitor from opportunity.  
@@ -830,10 +830,10 @@ Sdk.associateExistingAsync = function () {
  });  
  });  
 };  
-  
+
 Sdk.deleteSampleData = function () {  
  return new Promise(function (resolve, reject) {  
-  
+
   // House cleaning - deleting sample data  
   // NOTE: If instances have a parent-child relationship, then deleting the parent will,   
   // by default, automatically cascade delete child instances. In this program,   
@@ -854,12 +854,11 @@ Sdk.deleteSampleData = function () {
    console.log("Sample data not deleted.");  
    resolve();  
   }  
-  
+
  });  
 };  
-  
 ```  
-  
+
 ### See also
 
  [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   

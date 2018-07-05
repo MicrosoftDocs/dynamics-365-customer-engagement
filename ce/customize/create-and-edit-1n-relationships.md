@@ -130,15 +130,15 @@ tags:
   
  Let’s say that you have a new salesperson and you want to assign them a number of existing opportunities currently assigned to another salesperson. Each opportunity record may have a number of task activities associated with it. You can easily locate the active opportunities you want to reassign and assign them to the new salesperson. But what should happen for any of the task activities that are associated with the opportunities? Do you want to open each task and decide whether they should also be assigned to the new salesperson? Probably not. Instead, you can let the relationship apply some standard rules for you automatically. These rules only apply to task records associated to the opportunities you are reassigning. The entity relationship is named **Opportunity_Tasks**. Your options are:  
   
--   Reassign all active tasks.  
+- Reassign all active tasks.  
   
--   Reassign all tasks. This is the default behavior.  
+- Reassign all tasks. This is the default behavior.  
   
--   Reassign none of the tasks.  
+- Reassign none of the tasks.  
   
--   Reassign all tasks currently assigned to the former owner of the opportunity.  
+- Reassign all tasks currently assigned to the former owner of the opportunity.  
   
- The relationship can control how actions performed on a record for the primary entity record cascade down to any related entity records. The actions and possible behaviors are shown in the following table.  
+  The relationship can control how actions performed on a record for the primary entity record cascade down to any related entity records. The actions and possible behaviors are shown in the following table.  
   
 |Action|Description|Possible behaviors|  
 |------------|-----------------|------------------------|  

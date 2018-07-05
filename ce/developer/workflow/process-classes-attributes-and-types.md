@@ -36,25 +36,25 @@ This topic provides information about the process classes and types found in [!I
   
  The following types are supported for custom workflow activities:  
   
--   `Bool`  
+- `Bool`  
   
--   `DateTime`  
+- `DateTime`  
   
--   `Decimal`  
+- `Decimal`  
   
--   `Double`  
+- `Double`  
   
--   <xref:Microsoft.Xrm.Sdk.EntityReference>  
+- <xref:Microsoft.Xrm.Sdk.EntityReference>  
   
--   `Int`  
+- `Int`  
   
--   `Money`  
+- `Money`  
   
--   <xref:Microsoft.Xrm.Sdk.OptionSetValue>  
+- <xref:Microsoft.Xrm.Sdk.OptionSetValue>  
   
--   `String`  
+- `String`  
   
- Apart from the `Input`, `Output`, and `Default` attributes, some of the supported [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] types in the custom workflow activities require you to specify additional attributes such as `ReferenceTarget` and `AttributeTarget`. These are described in the following section.  
+  Apart from the `Input`, `Output`, and `Default` attributes, some of the supported [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] types in the custom workflow activities require you to specify additional attributes such as `ReferenceTarget` and `AttributeTarget`. These are described in the following section.  
   
 <a name="InputAttribute"></a>
 

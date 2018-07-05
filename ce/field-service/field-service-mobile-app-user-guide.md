@@ -33,29 +33,29 @@ manager: shellyha
   
 - [!INCLUDE[pn_windows_10](../includes/pn-windows-10.md)]  
   
--   iOS 6 +  
+- iOS 6 +  
   
 - [!INCLUDE[tn_android](../includes/tn-android.md)] phone  
   
- To download the app, search for  Field Service Mobile in your device's app store.  
+  To download the app, search for  Field Service Mobile in your device's app store.  
   
- ![Download the Field Service Mobile app](../field-service/media/field-service-download-mobile-app.png "Download the Field Service Mobile app")  
+  ![Download the Field Service Mobile app](../field-service/media/field-service-download-mobile-app.png "Download the Field Service Mobile app")  
   
 <a name="bkmk_signin"></a>   
 ## Sign in  
  Now that you've installed [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile), let's get started! First, you need to sign in. You'll need your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web address, user name, and password. If you don't have any of these, contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 administrator or support person](../basics/find-administrator-support.md)  
   
-1.  When the app is installed, sign in with your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] credentials, and then tap **Sync**.  
+1. When the app is installed, sign in with your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] credentials, and then tap **Sync**.  
   
- ![Sign&#45;in screen for the Field Service Mobile app](../field-service/media/field-service-sign-screen.PNG "Sign-in screen for the Field Service Mobile app")  
+   ![Sign&#45;in screen for the Field Service Mobile app](../field-service/media/field-service-sign-screen.PNG "Sign-in screen for the Field Service Mobile app")  
   
-2.  After you sign in, you'll see the Home screen. Here, you can tap **Setup** to see or change your sign-in information.  
+2. After you sign in, you'll see the Home screen. Here, you can tap **Setup** to see or change your sign-in information.  
   
- ![Home screen in the Field Service Mobile app](../field-service/media/field-service-mobile-home-screen.PNG "Home screen in the Field Service Mobile app")  
+   ![Home screen in the Field Service Mobile app](../field-service/media/field-service-mobile-home-screen.PNG "Home screen in the Field Service Mobile app")  
   
-3.  To sync your device to the server, tap the Sync button. This  downloads changes made on the server to your device, and uploads information from your mobile device to the server.  
+3. To sync your device to the server, tap the Sync button. This  downloads changes made on the server to your device, and uploads information from your mobile device to the server.  
   
- ![Sync the Field Service Mobile app device](../field-service/media/field-service-sync-mobile-device.PNG "Sync the Field Service Mobile app device")  
+   ![Sync the Field Service Mobile app device](../field-service/media/field-service-sync-mobile-device.PNG "Sync the Field Service Mobile app device")  
   
 <a name="bkmk_online"></a>   
 ## Work online or offline  
@@ -66,16 +66,16 @@ manager: shellyha
 ### Online mode  
  When you’re working online, information continuously syncs with the server, so you don’t need to manually sync your device.  
   
--   To work online, tap the Online/Offline mode button.  This is how the button looks when you’re online.  
+- To work online, tap the Online/Offline mode button.  This is how the button looks when you’re online.  
   
- ![Online mode in the Field Service Mobile app](../field-service/media/field-service-online-mode.PNG "Online mode in the Field Service Mobile app")  
+  ![Online mode in the Field Service Mobile app](../field-service/media/field-service-online-mode.PNG "Online mode in the Field Service Mobile app")  
   
 ### Offline mode  
  When you're working offline, all the information you need is downloaded  to your device. This way you can continue your work even without an Internet connection. When you enter information, it’s saved to your device and sent to the server on the next sync.  
   
--   To work offline, tap the Online/Offline Mode button.  This is how the button looks when you’re offline.  
+- To work offline, tap the Online/Offline Mode button.  This is how the button looks when you’re offline.  
   
- ![Offline mode in the Field Service Mobile app](../field-service/media/field-service-offline-mode.PNG "Offline mode in the Field Service Mobile app")  
+  ![Offline mode in the Field Service Mobile app](../field-service/media/field-service-offline-mode.PNG "Offline mode in the Field Service Mobile app")  
   
 <a name="bkmk_getaround"></a>   
 ## Get around the app (for all security roles)  
@@ -157,14 +157,14 @@ manager: shellyha
   
 ### Time off requests  
   
-1.  If you need to take time off or you are not available to take a new work order, tap **Time Off Requests**, and then tap the **+**  button.  
+1. If you need to take time off or you are not available to take a new work order, tap **Time Off Requests**, and then tap the **+**  button.  
   
-2.  Fill in your time off information, and then tap the Save button.  
+2. Fill in your time off information, and then tap the Save button.  
   
-    > [!NOTE]
-    >  This will gray your name out on the schedule board, which lets the dispatcher and scheduling assistant know that you aren't available.  
+   > [!NOTE]
+   >  This will gray your name out on the schedule board, which lets the dispatcher and scheduling assistant know that you aren't available.  
   
- ![Request time off](../field-service/media/field-service-request-time-off.PNG "Request time off")  
+   ![Request time off](../field-service/media/field-service-request-time-off.PNG "Request time off")  
   
 ### Map  
  The map shows the location of your accounts and contacts on a map.  
@@ -195,57 +195,57 @@ manager: shellyha
   
  By default, you can only see work orders for the current day plus the next 7 days, that have a status of scheduled, traveling, or in progress. Once a work order is completed, you can no longer see it in [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile).  
   
-1.  To see your work order bookings, tap **Bookable Resource Booking**.  
+1. To see your work order bookings, tap **Bookable Resource Booking**.  
   
-2.  By default, work orders are listed in the **Agenda** view. To change views, tap **Day**, **Week**, or **Month**.  
+2. By default, work orders are listed in the **Agenda** view. To change views, tap **Day**, **Week**, or **Month**.  
   
- ![Bookable Resource Bookings in the agenda view](../field-service/media/field-service-booking-view.PNG "Bookable Resource Bookings in the agenda view")  
+   ![Bookable Resource Bookings in the agenda view](../field-service/media/field-service-booking-view.PNG "Bookable Resource Bookings in the agenda view")  
   
- You can also tap the Arrow button to see your bookings for the next day. Or, you can use the  filter to see work orders with a specific booking status.  
+   You can also tap the Arrow button to see your bookings for the next day. Or, you can use the  filter to see work orders with a specific booking status.  
   
- ![Booking info view](../field-service/media/field-service-book-view-info.PNG "Booking info view")  
+   ![Booking info view](../field-service/media/field-service-book-view-info.PNG "Booking info view")  
   
 ### Open a work order  
   
-1.  To open a work order, from the list of bookings, tap the work order that you want to open. The work order opens on the right.  
+1. To open a work order, from the list of bookings, tap the work order that you want to open. The work order opens on the right.  
   
-2.  To open the work order in full screen view, at the top, double-tap **Work Order**.  
+2. To open the work order in full screen view, at the top, double-tap **Work Order**.  
   
- ![View work order](../field-service/media/field-service-view-work-order.PNG "View work order")  
+   ![View work order](../field-service/media/field-service-view-work-order.PNG "View work order")  
   
 ### See the location of a work order on a map  
   
-1.  Open the work order, and then tap **Map**. This shows the location of the work order on a map.  
+1. Open the work order, and then tap **Map**. This shows the location of the work order on a map.  
   
-2.  To get driving directions, tap the Driving Direction button. This opens the default driving directions app on your mobile device. It provides turn-by-turn directions from your location to the work order location.  
+2. To get driving directions, tap the Driving Direction button. This opens the default driving directions app on your mobile device. It provides turn-by-turn directions from your location to the work order location.  
   
- ![Work order map view](../field-service/media/field-service-work-order-map-view.PNG "Work order map view")  
+   ![Work order map view](../field-service/media/field-service-work-order-map-view.PNG "Work order map view")  
   
 ### Update the work order status  
  The minute you start driving to the next job, it’s important to update the status of the work order. This keeps the dispatcher up to date on what’s going on with the work order, and lets the dispatch team provide the customer with the current status.  
   
-1.  Open the work order, and then tap **Booking**.  
+1. Open the work order, and then tap **Booking**.  
   
-2.  Tap Add button for **Booking Status**.  
+2. Tap Add button for **Booking Status**.  
   
-3.  Select a status. If you’re driving to the work order location, then update your status to **Traveling**.  
+3. Select a status. If you’re driving to the work order location, then update your status to **Traveling**.  
   
- ![Update booking status](../field-service/media/field-service-update-booking-status.PNG "Update booking status")  
+   ![Update booking status](../field-service/media/field-service-update-booking-status.PNG "Update booking status")  
   
-    > [!NOTE]
-    >  Make sure to update the status again when you arrive on site, and again when you complete the work order.  
+   > [!NOTE]
+   >  Make sure to update the status again when you arrive on site, and again when you complete the work order.  
   
-4.  When you’re done, tap the **Save** button.  
+4. When you’re done, tap the **Save** button.  
   
-    > [!NOTE]
-    >  When the work order is complete, remember to mark it as **Completed**.  
+   > [!NOTE]
+   >  When the work order is complete, remember to mark it as **Completed**.  
   
 ### Update the work order start time  
  When a dispatcher schedules a work order, the booking will have a start and end time. This may be the time promised to the customer, but if you’re running late or the job is taking longer than expected, it’s important to update the start and end time. This automatically keeps the dispatcher up to date on the schedule board.  
   
--   Open the work order, tap **Booking**, and then change the **Start Time**.  
+- Open the work order, tap **Booking**, and then change the **Start Time**.  
   
- ![Update work order start time](../field-service/media/field-service-update-start-time.PNG "Update work order start time")  
+  ![Update work order start time](../field-service/media/field-service-update-start-time.PNG "Update work order start time")  
   
 ### Check the work order details  
  To get more information on what work needs to be done for the service call, look at the **Info**, **Other**, and **Incidents** tabs.  
@@ -269,97 +269,97 @@ manager: shellyha
   
 **Check service tasks**  
   
-1.  Open the work order, and then tap **Service Tasks**.  
+1. Open the work order, and then tap **Service Tasks**.  
   
- ![List of service tasks](../field-service/media/field-service-list-service-tasks.PNG "List of service tasks")  
+   ![List of service tasks](../field-service/media/field-service-list-service-tasks.PNG "List of service tasks")  
   
-2.  Tap a service task to open it.  
+2. Tap a service task to open it.  
   
-3.  When the service task is open, add notes, mark percentage complete, and how long it took to complete the task.  
+3. When the service task is open, add notes, mark percentage complete, and how long it took to complete the task.  
   
- ![Work Order Service Task details view](../field-service/media/field-service-service-task-details-view.PNG "Work Order Service Task details view")  
+   ![Work Order Service Task details view](../field-service/media/field-service-service-task-details-view.PNG "Work Order Service Task details view")  
   
-4.  When you’re done tap, the **Save** button.  
+4. When you’re done tap, the **Save** button.  
   
 **Check products**  
   
-1.  Open the work order, and then tap **Products**.  
+1. Open the work order, and then tap **Products**.  
   
-2.  Tap a product name to open it.  
+2. Tap a product name to open it.  
   
- ![List of products](../field-service/media/field-service-list-products.PNG "List of products")  
+   ![List of products](../field-service/media/field-service-list-products.PNG "List of products")  
   
-3.  Mark if the product was used, enter the correct quantity, make sure the price is correct, and add any additional notes.  
+3. Mark if the product was used, enter the correct quantity, make sure the price is correct, and add any additional notes.  
   
- ![Mark product as used](../field-service/media/field-service-mark-product-used.PNG "Mark product as used")  
+   ![Mark product as used](../field-service/media/field-service-mark-product-used.PNG "Mark product as used")  
   
-4.  When you’re done, tap the **Save** button.  
+4. When you’re done, tap the **Save** button.  
   
 **Check services**  
   
-1.  Open the work order, and then tap **Services**.  
+1. Open the work order, and then tap **Services**.  
   
-2.  Tap a service name to open it.  
+2. Tap a service name to open it.  
   
- ![List of labor service](../field-service/media/field-service-list-labor-service.PNG "List of labor service")  
+   ![List of labor service](../field-service/media/field-service-list-labor-service.PNG "List of labor service")  
   
-3.  If the service was performed, mark it as used, and then add any additional information.  
+3. If the service was performed, mark it as used, and then add any additional information.  
   
- ![Mark service as used](../field-service/media/field-service-mark-service-used.PNG "Mark service as used")  
+   ![Mark service as used](../field-service/media/field-service-mark-service-used.PNG "Mark service as used")  
   
-4.  When you’re done, tap the Save button.  
+4. When you’re done, tap the Save button.  
   
 ### Add notes, pictures, signatures, and more  
  When you’re working on a work order you can add your notes, attachments, pictures, and signatures.  
   
 **Add a picture**  
   
-1.  Open the work order, tap **Notes**, and then tap the **Camera** button.  
+1. Open the work order, tap **Notes**, and then tap the **Camera** button.  
   
- ![Add picture](../field-service/media/field-service-add-picture.PNG "Add picture")  
+   ![Add picture](../field-service/media/field-service-add-picture.PNG "Add picture")  
   
-2.  Tap the **Camera** button to take the picture  
+2. Tap the **Camera** button to take the picture  
   
-3.  Adjust the picture as needed, and when you’re done, tap the Save button.  
+3. Adjust the picture as needed, and when you’re done, tap the Save button.  
   
 **Add notes**  
   
-1.  Open the work order, and then tap **Notes**.  
+1. Open the work order, and then tap **Notes**.  
   
-2.  To add notes, tap the **Add** button **+**  .  
+2. To add notes, tap the **Add** button **+**  .  
   
- ![Add notes in the Field Service Mobile app](../field-service/media/field-service-add-notes.PNG "Add notes in the Field Service Mobile app")  
+   ![Add notes in the Field Service Mobile app](../field-service/media/field-service-add-notes.PNG "Add notes in the Field Service Mobile app")  
   
-3.  Add your notes in the **Description** area.  
+3. Add your notes in the **Description** area.  
   
- ![Type notes in field service](../field-service/media/field-service-type-your-notes.PNG "Type notes in field service")  
+   ![Type notes in field service](../field-service/media/field-service-type-your-notes.PNG "Type notes in field service")  
   
-4.  When you’re done, tap **Save**.  
+4. When you’re done, tap **Save**.  
   
 **Add attachments, signatures, record video, and more**  
   
-1.  Open the work order, and then tap **Notes**.  
+1. Open the work order, and then tap **Notes**.  
   
-2.  Tap the **Add** button **+**  .  
+2. Tap the **Add** button **+**  .  
   
-3.  Tap the **Menu** button to add attachments, signatures, record video and more.  
+3. Tap the **Menu** button to add attachments, signatures, record video and more.  
   
- ![Add attachments and signatures](../field-service/media/field-service-add-attachments-signature.PNG "Add attachments and signatures")  
+   ![Add attachments and signatures](../field-service/media/field-service-add-attachments-signature.PNG "Add attachments and signatures")  
   
-4.  When you’re done, tap **Save**.  
+4. When you’re done, tap **Save**.  
   
 ### Create a follow-up  
 If work still needs to be done, you can create a follow-up booking.  
   
-1.  Open the work order, and then tap **Booking**.  
+1. Open the work order, and then tap **Booking**.  
   
-2.  Tap the **Menu** button , and then tap **Create follow up**.  
+2. Tap the **Menu** button , and then tap **Create follow up**.  
   
- ![Create a follow up](../field-service/media/field-service-create-follow-up.PNG "Create a follow up")  
+   ![Create a follow up](../field-service/media/field-service-create-follow-up.PNG "Create a follow up")  
   
-3.  Tap **Open**, and then add your information  
+3. Tap **Open**, and then add your information  
   
-4.  When you’re done, tap **Save**.  
+4. When you’re done, tap **Save**.  
   
 <a name="bkmk_Privacy"></a>   
 ## Privacy notice  

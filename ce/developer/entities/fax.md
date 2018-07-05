@@ -1307,6 +1307,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_fax_campaignresponse"></a> fax_campaignresponse
 
 Same as campaignresponse entity [fax_campaignresponse](campaignresponse.md#BKMK_fax_campaignresponse) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -1321,6 +1322,7 @@ Same as campaignresponse entity [fax_campaignresponse](campaignresponse.md#BKMK_
 ### <a name="BKMK_fax_principalobjectattributeaccess"></a> fax_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [fax_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_fax_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1335,6 +1337,7 @@ Same as principalobjectattributeaccess entity [fax_principalobjectattributeacces
 ### <a name="BKMK_Fax_AsyncOperations"></a> Fax_AsyncOperations
 
 Same as asyncoperation entity [Fax_AsyncOperations](asyncoperation.md#BKMK_Fax_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1349,6 +1352,7 @@ Same as asyncoperation entity [Fax_AsyncOperations](asyncoperation.md#BKMK_Fax_A
 ### <a name="BKMK_slakpiinstance_fax"></a> slakpiinstance_fax
 
 Same as slakpiinstance entity [slakpiinstance_fax](slakpiinstance.md#BKMK_slakpiinstance_fax) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|slakpiinstance|
@@ -1363,6 +1367,7 @@ Same as slakpiinstance entity [slakpiinstance_fax](slakpiinstance.md#BKMK_slakpi
 ### <a name="BKMK_Fax_DuplicateBaseRecord"></a> Fax_DuplicateBaseRecord
 
 Same as duplicaterecord entity [Fax_DuplicateBaseRecord](duplicaterecord.md#BKMK_Fax_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1377,6 +1382,7 @@ Same as duplicaterecord entity [Fax_DuplicateBaseRecord](duplicaterecord.md#BKMK
 ### <a name="BKMK_Fax_BulkDeleteFailures"></a> Fax_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Fax_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Fax_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1391,6 +1397,7 @@ Same as bulkdeletefailure entity [Fax_BulkDeleteFailures](bulkdeletefailure.md#B
 ### <a name="BKMK_fax_activity_parties"></a> fax_activity_parties
 
 Same as activityparty entity [fax_activity_parties](activityparty.md#BKMK_fax_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1405,6 +1412,7 @@ Same as activityparty entity [fax_activity_parties](activityparty.md#BKMK_fax_ac
 ### <a name="BKMK_fax_connections2"></a> fax_connections2
 
 Same as connection entity [fax_connections2](connection.md#BKMK_fax_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1419,6 +1427,7 @@ Same as connection entity [fax_connections2](connection.md#BKMK_fax_connections2
 ### <a name="BKMK_Fax_SyncErrors"></a> Fax_SyncErrors
 
 Same as syncerror entity [Fax_SyncErrors](syncerror.md#BKMK_Fax_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1433,6 +1442,7 @@ Same as syncerror entity [Fax_SyncErrors](syncerror.md#BKMK_Fax_SyncErrors) Many
 ### <a name="BKMK_userentityinstancedata_fax"></a> userentityinstancedata_fax
 
 Same as userentityinstancedata entity [userentityinstancedata_fax](userentityinstancedata.md#BKMK_userentityinstancedata_fax) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1447,6 +1457,7 @@ Same as userentityinstancedata entity [userentityinstancedata_fax](userentityins
 ### <a name="BKMK_Fax_DuplicateMatchingRecord"></a> Fax_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [Fax_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Fax_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1461,6 +1472,7 @@ Same as duplicaterecord entity [Fax_DuplicateMatchingRecord](duplicaterecord.md#
 ### <a name="BKMK_Fax_Annotation"></a> Fax_Annotation
 
 Same as annotation entity [Fax_Annotation](annotation.md#BKMK_Fax_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1475,6 +1487,7 @@ Same as annotation entity [Fax_Annotation](annotation.md#BKMK_Fax_Annotation) Ma
 ### <a name="BKMK_Fax_ProcessSessions"></a> Fax_ProcessSessions
 
 Same as processsession entity [Fax_ProcessSessions](processsession.md#BKMK_Fax_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1489,6 +1502,7 @@ Same as processsession entity [Fax_ProcessSessions](processsession.md#BKMK_Fax_P
 ### <a name="BKMK_fax_connections1"></a> fax_connections1
 
 Same as connection entity [fax_connections1](connection.md#BKMK_fax_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1503,6 +1517,7 @@ Same as connection entity [fax_connections1](connection.md#BKMK_fax_connections1
 ### <a name="BKMK_Fax_QueueItem"></a> Fax_QueueItem
 
 Same as queueitem entity [Fax_QueueItem](queueitem.md#BKMK_Fax_QueueItem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queueitem|
@@ -1517,6 +1532,7 @@ Same as queueitem entity [Fax_QueueItem](queueitem.md#BKMK_Fax_QueueItem) Many-T
 ### <a name="BKMK_fax_actioncard"></a> fax_actioncard
 
 Same as actioncard entity [fax_actioncard](actioncard.md#BKMK_fax_actioncard) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|actioncard|

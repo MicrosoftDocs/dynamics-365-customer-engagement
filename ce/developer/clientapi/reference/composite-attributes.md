@@ -188,8 +188,7 @@ The following table lists the composite attributes available in Customer Engagem
                     address2_composite
                 </p>
             </td>
-        </tr>        
-        <tr>
+        </tr><br/>        <tr>
             <td rowspan="2">
                 <p>
                     Quote

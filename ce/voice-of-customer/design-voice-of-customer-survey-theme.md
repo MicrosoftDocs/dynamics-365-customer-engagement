@@ -16,15 +16,15 @@ manager: sakudes
 # Design a theme for your Voice of the Customer surveys to match your company's style 
 Before you start designing [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] surveys, you'll want to define one or more themes to use to match your company's style. Themes define the color scheme for your surveys. You can design multiple themes if you want to use different ones for other surveys.  
   
-1.  From the menu, go to **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] > Themes**.  
+1. From the menu, go to **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] > Themes**.  
   
-2.  Click **New**. Or, if you want to edit the default theme, click **Default** in the list of themes.  
+2. Click **New**. Or, if you want to edit the default theme, click **Default** in the list of themes.  
   
-3.  Fill out the **Name** field.  
+3. Fill out the **Name** field.  
   
-4.  Adjust the survey’s color values by specifying the hexadecimal value for each part of the survey (for example, the hex value for blue is #0000FF). [w3schools](https://www.w3schools.com/html/html_colors.asp) provides a handy reference chart for hexadecimal color values. Click a hex value in the chart to see a chart with corresponding RGB values (for example, the RGB value for blue is 0, 0, 255).  
+4. Adjust the survey’s color values by specifying the hexadecimal value for each part of the survey (for example, the hex value for blue is #0000FF). [w3schools](https://www.w3schools.com/html/html_colors.asp) provides a handy reference chart for hexadecimal color values. Click a hex value in the chart to see a chart with corresponding RGB values (for example, the RGB value for blue is 0, 0, 255).  
   
-5.  If you want, add custom CSS instructions under **CSS**.  
+5. If you want, add custom CSS instructions under **CSS**.  
   
-6.  Click **Save**.  
+6. Click **Save**.  
  

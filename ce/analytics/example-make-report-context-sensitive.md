@@ -28,26 +28,26 @@ The following steps describe how to set up a context-sensitive report in [!INCLU
   
 ## Create and configure a context-sensitive report  
   
-1.  Create a report that contains fields from a Filtered\<entity> database view and establish one or more SQL JOINs with other related filtered views as required.  
+1. Create a report that contains fields from a Filtered\<entity> database view and establish one or more SQL JOINs with other related filtered views as required.  
   
-2.  If you have a Fetch-based report, you can use the following FetchXML query.  
+2. If you have a Fetch-based report, you can use the following FetchXML query.  
   
-    ```xml  
-    <fetch>  
-      <entity name="activitypointer" enableprefiltering="1" >  
-        <attribute name="activitytypecode" />  
-        <attribute name="regardingobjectid" />  
-        <attribute name="subject" alias="subject" />  
-        <link-entity name="account" from="accountid" to="regardingobjectid" link-type='inner' alias="accountLink">  
-          <attribute name="name" alias="name" />  
-        </link-entity>  
-    </entity>  
-    </fetch>  
-    ```  
+   ```xml  
+   <fetch>  
+     <entity name="activitypointer" enableprefiltering="1" >  
+       <attribute name="activitytypecode" />  
+       <attribute name="regardingobjectid" />  
+       <attribute name="subject" alias="subject" />  
+       <link-entity name="account" from="accountid" to="regardingobjectid" link-type='inner' alias="accountLink">  
+         <attribute name="name" alias="name" />  
+       </link-entity>  
+   </entity>  
+   </fetch>  
+   ```  
   
-3.  When you upload the report to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] through the **Report: New** form, select all entities in the **Related Record Types** categorization that filtered views are referred to in the report's SQL code.  
+3. When you upload the report to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] through the **Report: New** form, select all entities in the **Related Record Types** categorization that filtered views are referred to in the report's SQL code.  
   
-4.  In the **Display In** field, select **Forms for related record types** or **Lists for related record types**. Selecting Lists for related record types lets you run a report from the entity list grid. Selecting **Forms for related record types** lets you run a report from the entity form.  
+4. In the **Display In** field, select **Forms for related record types** or **Lists for related record types**. Selecting Lists for related record types lets you run a report from the entity list grid. Selecting **Forms for related record types** lets you run a report from the entity form.  
   
 ### See also  
  [Sample Reports](../analytics/example-reports.md)   

@@ -17,15 +17,15 @@ manager: sakudes
 # Upload a logo or other image for your Voice of the Customer survey
 Before you can add a logo or other image to your [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] survey, you need to upload the images to [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)].  
   
-1.  From the menu, go to **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] > Images**.  
+1. From the menu, go to **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] > Images**.  
   
-2.  Click **New**.  
+2. Click **New**.  
   
-3.  Fill out the **Name** and **Image Title** fields.  
+3. Fill out the **Name** and **Image Title** fields.  
   
-4.  Click **Save** to save the record so you can upload an image and add other information.  
+4. Click **Save** to save the record so you can upload an image and add other information.  
   
-5.  Under **Custom Icon**, in the **Upload your image to remote server** field, click **Browse…**, select the image you want to upload, and then click **Submit**.  
+5. Under **Custom Icon**, in the **Upload your image to remote server** field, click **Browse…**, select the image you want to upload, and then click **Submit**.  
   
-6.  Click the **Save** button in the bottom right corner of the screen.  
+6. Click the **Save** button in the bottom right corner of the screen.  
   

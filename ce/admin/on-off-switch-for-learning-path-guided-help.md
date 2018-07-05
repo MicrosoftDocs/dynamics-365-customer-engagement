@@ -36,15 +36,15 @@ Learning Path (guided help) is turned on by default, but is easy to turn off.
   
     Check your security role  
   
-    1. [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   1. [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    2. [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   2. [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)].  
   
-3.  On the **Administration** page, click **System Settings**.  
+3. On the **Administration** page, click **System Settings**.  
   
-4.  On the **General** tab, scroll down to the **Set custom Help URL** section. Next to **Enable Learning Path**, select **Yes** or **No**.  
+4. On the **General** tab, scroll down to the **Set custom Help URL** section. Next to **Enable Learning Path**, select **Yes** or **No**.  
   
 <a name="BKMK_Privacy"></a>   
 ## Privacy notice  

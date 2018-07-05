@@ -31,7 +31,5 @@
       href: server/remove-deactivated-disabled-configurations.md
     - name: Set KeepAlive to False within Plugins
       href: server/set-keepalive-false-interacting-external-hosts-plugin.md
-    - name: Use ITracingService in Plug-ins
-      href: server/use-itracingservice-plugins.md
     - name: Use InvalidPluginExecutionException in plug-ins and workflow activities
       href: server/use-invalidpluginexecutionexception-plugin-workflow-activities.md

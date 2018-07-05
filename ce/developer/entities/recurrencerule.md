@@ -863,6 +863,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_recurrencerule_recurringappointmentmaster"></a> recurrencerule_recurringappointmentmaster
 
 Same as recurringappointmentmaster entity [recurrencerule_recurringappointmentmaster](recurringappointmentmaster.md#BKMK_recurrencerule_recurringappointmentmaster) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|

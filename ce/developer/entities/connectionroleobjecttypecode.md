@@ -156,6 +156,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_connectionroleobjecttypecode"></a> userentityinstancedata_connectionroleobjecttypecode
 
 Same as userentityinstancedata entity [userentityinstancedata_connectionroleobjecttypecode](userentityinstancedata.md#BKMK_userentityinstancedata_connectionroleobjecttypecode) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

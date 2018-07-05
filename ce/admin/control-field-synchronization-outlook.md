@@ -29,22 +29,22 @@ With field synchronization, admins can set the sync direction between [!INCLUDE[
   
 ## Set field synchronization between Dynamics 365 and Outlook  
   
-1.  In the web app, in the upper-right corner of the screen, click the **Settings** button ![User profile Settings button](../outlook-app/media/priv-user.gif "User profile Settings button") > **Options**.  
+1. In the web app, in the upper-right corner of the screen, click the **Settings** button ![User profile Settings button](../outlook-app/media/priv-user.gif "User profile Settings button") > **Options**.  
   
-2.  In the **Set Personal Options** dialog box, choose the **Synchronization** tab.    
+2. In the **Set Personal Options** dialog box, choose the **Synchronization** tab.    
   
-3.  Choose **synchronized fields**.  
+3. Choose **synchronized fields**.  
   
-4.  For the fields you want to change synchronization, choose the arrows in the Sync Direction column. Each choice will change the direction.  
+4. For the fields you want to change synchronization, choose the arrows in the Sync Direction column. Each choice will change the direction.  
   
- ![Appointment fields for synchronization](../admin/media/appointment-field-sync.png "Appointment fields for synchronization")  
+   ![Appointment fields for synchronization](../admin/media/appointment-field-sync.png "Appointment fields for synchronization")  
   
-    > [!TIP]
-    >  Hover over a field name to see the fields mapped to it.  
+   > [!TIP]
+   >  Hover over a field name to see the fields mapped to it.  
   
-5.  Choose **OK** > **OK** to close the open dialog boxes.  
+5. Choose **OK** > **OK** to close the open dialog boxes.  
   
- Let your users know they can view (not change) the synchronization settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [What fields can be synchronized between Dynamics 365 and Outlook?](what-fields-synchronized-outlook.md)  
+   Let your users know they can view (not change) the synchronization settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [What fields can be synchronized between Dynamics 365 and Outlook?](what-fields-synchronized-outlook.md)  
   
 ## Performance and synchronization  
  Configuring synchronization might have an impact on the time it takes to sync between [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You should test your configuration before deploying to ensure satisfactory sync times.  

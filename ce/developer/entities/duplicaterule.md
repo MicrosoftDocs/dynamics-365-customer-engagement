@@ -1859,6 +1859,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_duplicaterule"></a> userentityinstancedata_duplicaterule
 
 Same as userentityinstancedata entity [userentityinstancedata_duplicaterule](userentityinstancedata.md#BKMK_userentityinstancedata_duplicaterule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1873,6 +1874,7 @@ Same as userentityinstancedata entity [userentityinstancedata_duplicaterule](use
 ### <a name="BKMK_DuplicateRule_Annotation"></a> DuplicateRule_Annotation
 
 Same as annotation entity [DuplicateRule_Annotation](annotation.md#BKMK_DuplicateRule_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1887,6 +1889,7 @@ Same as annotation entity [DuplicateRule_Annotation](annotation.md#BKMK_Duplicat
 ### <a name="BKMK_DuplicateRule_SyncErrors"></a> DuplicateRule_SyncErrors
 
 Same as syncerror entity [DuplicateRule_SyncErrors](syncerror.md#BKMK_DuplicateRule_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1901,6 +1904,7 @@ Same as syncerror entity [DuplicateRule_SyncErrors](syncerror.md#BKMK_DuplicateR
 ### <a name="BKMK_DuplicateRule_DuplicateRuleConditions"></a> DuplicateRule_DuplicateRuleConditions
 
 Same as duplicaterulecondition entity [DuplicateRule_DuplicateRuleConditions](duplicaterulecondition.md#BKMK_DuplicateRule_DuplicateRuleConditions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterulecondition|
@@ -1915,6 +1919,7 @@ Same as duplicaterulecondition entity [DuplicateRule_DuplicateRuleConditions](du
 ### <a name="BKMK_DuplicateRule_DuplicateBaseRecord"></a> DuplicateRule_DuplicateBaseRecord
 
 Same as duplicaterecord entity [DuplicateRule_DuplicateBaseRecord](duplicaterecord.md#BKMK_DuplicateRule_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|

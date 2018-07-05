@@ -124,6 +124,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_RatableEntity"></a> msdyn_RatableEntity
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows whether the entity can use the rating model.|
@@ -687,6 +688,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_RatingModel_SyncErrors"></a> RatingModel_SyncErrors
 
 Same as syncerror entity [RatingModel_SyncErrors](syncerror.md#BKMK_RatingModel_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -701,6 +703,7 @@ Same as syncerror entity [RatingModel_SyncErrors](syncerror.md#BKMK_RatingModel_
 ### <a name="BKMK_ratingmodel_DuplicateMatchingRecord"></a> ratingmodel_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [ratingmodel_DuplicateMatchingRecord](duplicaterecord.md#BKMK_ratingmodel_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -715,6 +718,7 @@ Same as duplicaterecord entity [ratingmodel_DuplicateMatchingRecord](duplicatere
 ### <a name="BKMK_ratingmodel_DuplicateBaseRecord"></a> ratingmodel_DuplicateBaseRecord
 
 Same as duplicaterecord entity [ratingmodel_DuplicateBaseRecord](duplicaterecord.md#BKMK_ratingmodel_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -729,6 +733,7 @@ Same as duplicaterecord entity [ratingmodel_DuplicateBaseRecord](duplicaterecord
 ### <a name="BKMK_ratingmodel_AsyncOperations"></a> ratingmodel_AsyncOperations
 
 Same as asyncoperation entity [ratingmodel_AsyncOperations](asyncoperation.md#BKMK_ratingmodel_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -743,6 +748,7 @@ Same as asyncoperation entity [ratingmodel_AsyncOperations](asyncoperation.md#BK
 ### <a name="BKMK_ratingmodel_MailboxTrackingFolders"></a> ratingmodel_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [ratingmodel_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_ratingmodel_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -757,6 +763,7 @@ Same as mailboxtrackingfolder entity [ratingmodel_MailboxTrackingFolders](mailbo
 ### <a name="BKMK_ratingmodel_UserEntityInstanceDatas"></a> ratingmodel_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [ratingmodel_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_ratingmodel_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -771,6 +778,7 @@ Same as userentityinstancedata entity [ratingmodel_UserEntityInstanceDatas](user
 ### <a name="BKMK_ratingmodel_ProcessSession"></a> ratingmodel_ProcessSession
 
 Same as processsession entity [ratingmodel_ProcessSession](processsession.md#BKMK_ratingmodel_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -785,6 +793,7 @@ Same as processsession entity [ratingmodel_ProcessSession](processsession.md#BKM
 ### <a name="BKMK_ratingmodel_BulkDeleteFailures"></a> ratingmodel_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [ratingmodel_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ratingmodel_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -799,6 +808,7 @@ Same as bulkdeletefailure entity [ratingmodel_BulkDeleteFailures](bulkdeletefail
 ### <a name="BKMK_ratingmodel_PrincipalObjectAttributeAccess"></a> ratingmodel_PrincipalObjectAttributeAccess
 
 Same as principalobjectattributeaccess entity [ratingmodel_PrincipalObjectAttributeAccess](principalobjectattributeaccess.md#BKMK_ratingmodel_PrincipalObjectAttributeAccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -813,6 +823,7 @@ Same as principalobjectattributeaccess entity [ratingmodel_PrincipalObjectAttrib
 ### <a name="BKMK_ratingmodel_ratingvalue_RatingModel"></a> ratingmodel_ratingvalue_RatingModel
 
 Same as ratingvalue entity [ratingmodel_ratingvalue_RatingModel](ratingvalue.md#BKMK_ratingmodel_ratingvalue_RatingModel) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|ratingvalue|

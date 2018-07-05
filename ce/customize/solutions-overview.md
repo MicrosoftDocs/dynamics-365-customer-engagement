@@ -34,73 +34,73 @@ manager: "kvivek"
   
  If you are just interested in customizing [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], here is what you need to know about solutions:  
   
--   Creating solutions is optional. You can customize your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system directly without ever creating a solution.  
+- Creating solutions is optional. You can customize your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system directly without ever creating a solution.  
   
--   When you customize the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system directly, you work with a special solution called the **Default Solution**. This solution contains all the components in your system.  
+- When you customize the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system directly, you work with a special solution called the **Default Solution**. This solution contains all the components in your system.  
   
--   You can export your Default Solution to create a backup of the customizations you have defined in your organization. This is good to have in a worst case scenario.  
+- You can export your Default Solution to create a backup of the customizations you have defined in your organization. This is good to have in a worst case scenario.  
   
 <a name="BKMK_SolutionComponents"></a>   
 ### Solution components  
  A solution component represents something that you can potentially customize. Anything that can be included in a solution is a solution component. The following is a list of solution components that you can view in a solution:  
   
--   Application Ribbon  
+- Application Ribbon  
 
--   App 
+- App 
   
--   Article Template  
+- Article Template  
   
--   Business Rule  
+- Business Rule  
   
--   Chart  
+- Chart  
   
--   Connection Role  
+- Connection Role  
   
--   Contract Template  
+- Contract Template  
  
--   Custom Control
+- Custom Control
   
--   Dashboard  
+- Dashboard  
   
--   Email Template  
+- Email Template  
   
--   Entity  
+- Entity  
   
--   Entity Relationship  
+- Entity Relationship  
   
--   Field  
+- Field  
   
--   Field Security Profile  
+- Field Security Profile  
   
--   Form  
+- Form  
   
--   Mail Merge Template  
+- Mail Merge Template  
   
--   Message  
+- Message  
   
--   Option Set  
+- Option Set  
   
--   Plug-in Assembly  
+- Plug-in Assembly  
   
--   Process  
+- Process  
   
--   Sdk Message Processing Step  
+- Sdk Message Processing Step  
   
--   Security Role  
+- Security Role  
   
--   Service Endpoint  
+- Service Endpoint  
   
--   Site Map  
+- Site Map  
 
--   Virtual Entity Data Provider
+- Virtual Entity Data Provider
 
--   Virtual Entity Data Source
+- Virtual Entity Data Source
   
--   Web Resource  
+- Web Resource  
   
- Most solution components are nested within other solution components. For example, an entity contains forms, views, charts, fields, entity relationships, messages, and business rules. Each of those solution components requires an entity to exist. A field can’t exist outside of an entity. We say that the field is dependent on the entity. There are actually twice as many types of solution components as shown in the preceding list, but most of them are not visible in the application.  
+  Most solution components are nested within other solution components. For example, an entity contains forms, views, charts, fields, entity relationships, messages, and business rules. Each of those solution components requires an entity to exist. A field can’t exist outside of an entity. We say that the field is dependent on the entity. There are actually twice as many types of solution components as shown in the preceding list, but most of them are not visible in the application.  
   
- The purpose of having solution components is to keep track of any limitations on what can be customized using Managed properties and all the solution dependencies so that it can be exported, imported, and (in managed solutions) deleted without leaving anything behind.  
+  The purpose of having solution components is to keep track of any limitations on what can be customized using Managed properties and all the solution dependencies so that it can be exported, imported, and (in managed solutions) deleted without leaving anything behind.  
   
 <a name="BKMK_ManagedAndUnmanagedSolutions"></a>   
 ### Managed and unmanaged solutions  

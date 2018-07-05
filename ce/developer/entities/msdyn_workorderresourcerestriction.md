@@ -749,6 +749,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_workorderresourcerestriction_ActivityPointers"></a> msdyn_workorderresourcerestriction_ActivityPointers
 
 Same as activitypointer entity [msdyn_workorderresourcerestriction_ActivityPointers](activitypointer.md#BKMK_msdyn_workorderresourcerestriction_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -763,6 +764,7 @@ Same as activitypointer entity [msdyn_workorderresourcerestriction_ActivityPoint
 ### <a name="BKMK_msdyn_workorderresourcerestriction_msdyn_approvals"></a> msdyn_workorderresourcerestriction_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_workorderresourcerestriction_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_workorderresourcerestriction_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -777,6 +779,7 @@ Same as msdyn_approval entity [msdyn_workorderresourcerestriction_msdyn_approval
 ### <a name="BKMK_msdyn_workorderresourcerestriction_msdyn_bookingalerts"></a> msdyn_workorderresourcerestriction_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_workorderresourcerestriction_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_workorderresourcerestriction_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -791,6 +794,7 @@ Same as msdyn_bookingalert entity [msdyn_workorderresourcerestriction_msdyn_book
 ### <a name="BKMK_msdyn_workorderresourcerestriction_SyncErrors"></a> msdyn_workorderresourcerestriction_SyncErrors
 
 Same as syncerror entity [msdyn_workorderresourcerestriction_SyncErrors](syncerror.md#BKMK_msdyn_workorderresourcerestriction_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -805,6 +809,7 @@ Same as syncerror entity [msdyn_workorderresourcerestriction_SyncErrors](syncerr
 ### <a name="BKMK_msdyn_workorderresourcerestriction_DuplicateMatchingRecord"></a> msdyn_workorderresourcerestriction_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_workorderresourcerestriction_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_workorderresourcerestriction_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -819,6 +824,7 @@ Same as duplicaterecord entity [msdyn_workorderresourcerestriction_DuplicateMatc
 ### <a name="BKMK_msdyn_workorderresourcerestriction_DuplicateBaseRecord"></a> msdyn_workorderresourcerestriction_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_workorderresourcerestriction_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_workorderresourcerestriction_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -833,6 +839,7 @@ Same as duplicaterecord entity [msdyn_workorderresourcerestriction_DuplicateBase
 ### <a name="BKMK_msdyn_workorderresourcerestriction_AsyncOperations"></a> msdyn_workorderresourcerestriction_AsyncOperations
 
 Same as asyncoperation entity [msdyn_workorderresourcerestriction_AsyncOperations](asyncoperation.md#BKMK_msdyn_workorderresourcerestriction_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -847,6 +854,7 @@ Same as asyncoperation entity [msdyn_workorderresourcerestriction_AsyncOperation
 ### <a name="BKMK_msdyn_workorderresourcerestriction_MailboxTrackingFolders"></a> msdyn_workorderresourcerestriction_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_workorderresourcerestriction_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_workorderresourcerestriction_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -861,6 +869,7 @@ Same as mailboxtrackingfolder entity [msdyn_workorderresourcerestriction_Mailbox
 ### <a name="BKMK_msdyn_workorderresourcerestriction_UserEntityInstanceDatas"></a> msdyn_workorderresourcerestriction_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_workorderresourcerestriction_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_workorderresourcerestriction_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -875,6 +884,7 @@ Same as userentityinstancedata entity [msdyn_workorderresourcerestriction_UserEn
 ### <a name="BKMK_msdyn_workorderresourcerestriction_ProcessSession"></a> msdyn_workorderresourcerestriction_ProcessSession
 
 Same as processsession entity [msdyn_workorderresourcerestriction_ProcessSession](processsession.md#BKMK_msdyn_workorderresourcerestriction_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -889,6 +899,7 @@ Same as processsession entity [msdyn_workorderresourcerestriction_ProcessSession
 ### <a name="BKMK_msdyn_workorderresourcerestriction_BulkDeleteFailures"></a> msdyn_workorderresourcerestriction_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_workorderresourcerestriction_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_workorderresourcerestriction_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -903,6 +914,7 @@ Same as bulkdeletefailure entity [msdyn_workorderresourcerestriction_BulkDeleteF
 ### <a name="BKMK_msdyn_workorderresourcerestriction_PrincipalObjectAttributeAccesses"></a> msdyn_workorderresourcerestriction_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_workorderresourcerestriction_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_workorderresourcerestriction_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -917,6 +929,7 @@ Same as principalobjectattributeaccess entity [msdyn_workorderresourcerestrictio
 ### <a name="BKMK_msdyn_workorderresourcerestriction_Appointments"></a> msdyn_workorderresourcerestriction_Appointments
 
 Same as appointment entity [msdyn_workorderresourcerestriction_Appointments](appointment.md#BKMK_msdyn_workorderresourcerestriction_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -931,6 +944,7 @@ Same as appointment entity [msdyn_workorderresourcerestriction_Appointments](app
 ### <a name="BKMK_msdyn_workorderresourcerestriction_Emails"></a> msdyn_workorderresourcerestriction_Emails
 
 Same as email entity [msdyn_workorderresourcerestriction_Emails](email.md#BKMK_msdyn_workorderresourcerestriction_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -945,6 +959,7 @@ Same as email entity [msdyn_workorderresourcerestriction_Emails](email.md#BKMK_m
 ### <a name="BKMK_msdyn_workorderresourcerestriction_Faxes"></a> msdyn_workorderresourcerestriction_Faxes
 
 Same as fax entity [msdyn_workorderresourcerestriction_Faxes](fax.md#BKMK_msdyn_workorderresourcerestriction_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -959,6 +974,7 @@ Same as fax entity [msdyn_workorderresourcerestriction_Faxes](fax.md#BKMK_msdyn_
 ### <a name="BKMK_msdyn_workorderresourcerestriction_Letters"></a> msdyn_workorderresourcerestriction_Letters
 
 Same as letter entity [msdyn_workorderresourcerestriction_Letters](letter.md#BKMK_msdyn_workorderresourcerestriction_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -973,6 +989,7 @@ Same as letter entity [msdyn_workorderresourcerestriction_Letters](letter.md#BKM
 ### <a name="BKMK_msdyn_workorderresourcerestriction_PhoneCalls"></a> msdyn_workorderresourcerestriction_PhoneCalls
 
 Same as phonecall entity [msdyn_workorderresourcerestriction_PhoneCalls](phonecall.md#BKMK_msdyn_workorderresourcerestriction_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -987,6 +1004,7 @@ Same as phonecall entity [msdyn_workorderresourcerestriction_PhoneCalls](phoneca
 ### <a name="BKMK_msdyn_workorderresourcerestriction_Tasks"></a> msdyn_workorderresourcerestriction_Tasks
 
 Same as task entity [msdyn_workorderresourcerestriction_Tasks](task.md#BKMK_msdyn_workorderresourcerestriction_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -1001,6 +1019,7 @@ Same as task entity [msdyn_workorderresourcerestriction_Tasks](task.md#BKMK_msdy
 ### <a name="BKMK_msdyn_workorderresourcerestriction_RecurringAppointmentMasters"></a> msdyn_workorderresourcerestriction_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_workorderresourcerestriction_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_workorderresourcerestriction_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -1015,6 +1034,7 @@ Same as recurringappointmentmaster entity [msdyn_workorderresourcerestriction_Re
 ### <a name="BKMK_msdyn_workorderresourcerestriction_SocialActivities"></a> msdyn_workorderresourcerestriction_SocialActivities
 
 Same as socialactivity entity [msdyn_workorderresourcerestriction_SocialActivities](socialactivity.md#BKMK_msdyn_workorderresourcerestriction_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -1029,6 +1049,7 @@ Same as socialactivity entity [msdyn_workorderresourcerestriction_SocialActiviti
 ### <a name="BKMK_msdyn_workorderresourcerestriction_connections1"></a> msdyn_workorderresourcerestriction_connections1
 
 Same as connection entity [msdyn_workorderresourcerestriction_connections1](connection.md#BKMK_msdyn_workorderresourcerestriction_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1043,6 +1064,7 @@ Same as connection entity [msdyn_workorderresourcerestriction_connections1](conn
 ### <a name="BKMK_msdyn_workorderresourcerestriction_connections2"></a> msdyn_workorderresourcerestriction_connections2
 
 Same as connection entity [msdyn_workorderresourcerestriction_connections2](connection.md#BKMK_msdyn_workorderresourcerestriction_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1057,6 +1079,7 @@ Same as connection entity [msdyn_workorderresourcerestriction_connections2](conn
 ### <a name="BKMK_msdyn_workorderresourcerestriction_Annotations"></a> msdyn_workorderresourcerestriction_Annotations
 
 Same as annotation entity [msdyn_workorderresourcerestriction_Annotations](annotation.md#BKMK_msdyn_workorderresourcerestriction_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1071,6 +1094,7 @@ Same as annotation entity [msdyn_workorderresourcerestriction_Annotations](annot
 ### <a name="BKMK_msdyn_workorderresourcerestriction_ServiceAppointments"></a> msdyn_workorderresourcerestriction_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_workorderresourcerestriction_ServiceAppointments](serviceappointment.md#BKMK_msdyn_workorderresourcerestriction_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|

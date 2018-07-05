@@ -31,32 +31,32 @@ manager: "brycho"
   
 1. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
-2.  Click **Data Encryption**.  
+2. Click **Data Encryption**.  
   
-3.  In the **Change Encryption Key** box type the new encryption key and then select **Change**.  
+3. In the **Change Encryption Key** box type the new encryption key and then select **Change**.  
   
-4.  Select **OK** in the confirmation message and then click **Close** to exit the Data Encryption page.  
+4. Select **OK** in the confirmation message and then click **Close** to exit the Data Encryption page.  
   
-5.  We recommend that you copy the key to a safe place. [Copy your organization data encryption key](../admin/data-encryption.md#BKMK_copy_your_org_enc_key)  
+5. We recommend that you copy the key to a safe place. [Copy your organization data encryption key](../admin/data-encryption.md#BKMK_copy_your_org_enc_key)  
   
 <a name="BKMK_copy_your_org_enc_key"></a>   
 ## Copy your organization data encryption key  
  We strongly recommend that you make a copy of your data encryption key.  
   
-1.  Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] as a user with the system administrator security role.  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] as a user with the system administrator security role.  
   
 2. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
-3.  Click **Data Encryption**.  
+3. Click **Data Encryption**.  
   
-4.  In the **Data Encryption** dialog box, select **Show Encryption Key**, in the **Current encryption key box** select the encryption key, and copy it to the clipboard.  
+4. In the **Data Encryption** dialog box, select **Show Encryption Key**, in the **Current encryption key box** select the encryption key, and copy it to the clipboard.  
   
-5.  Paste the encryption key in to a text editor, such as Notepad.  
+5. Paste the encryption key in to a text editor, such as Notepad.  
   
-    > [!WARNING]
-    >  By default, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] generates a passphrase that is a random collection of Unicode characters. Therefore, you must save the system-generated passphrase by using an application and file that supports Unicode characters. Some text editors, such as Notepad use ANSI coding by default. Before you save the passphrase using Notepad, select **Save As**, and then in the **Encoding** list, select **Unicode**.  
+   > [!WARNING]
+   >  By default, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] generates a passphrase that is a random collection of Unicode characters. Therefore, you must save the system-generated passphrase by using an application and file that supports Unicode characters. Some text editors, such as Notepad use ANSI coding by default. Before you save the passphrase using Notepad, select **Save As**, and then in the **Encoding** list, select **Unicode**.  
   
-6.  As a best practice, save the text file that contains the encryption key on a computer in a secure location on an encrypted hard drive.  
+6. As a best practice, save the text file that contains the encryption key on a computer in a secure location on an encrypted hard drive.  
   
 ### See also  
  [SQL Server Encryption](https://technet.microsoft.com/library/bb510663.aspx)   

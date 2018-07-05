@@ -26,15 +26,15 @@ Defining and enforcing consistent business processes is one of the main reasons 
   
 [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] includes five  types of processes, each designed for a different purpose:  
   
--   Business process flows  
+- Business process flows  
   
--   Mobile task flows  
+- Mobile task flows  
   
--   Workflows  
+- Workflows  
   
--   Actions  
+- Actions  
   
- Similar to processes, you can also create  business rules and recommendations. For more information, see [Create business rules and recommendations to apply logic in a form](../customize/create-business-rules-recommendations-apply-logic-form.md)  
+  Similar to processes, you can also create  business rules and recommendations. For more information, see [Create business rules and recommendations to apply logic in a form](../customize/create-business-rules-recommendations-apply-logic-form.md)  
 
 > [!NOTE]
 >  Using processes can impact the license requirements for PowerApps and flows. For more information, see [Entity license requirements](/powerapps/maker/common-data-service/data-platform-entity-licenses). 
@@ -77,7 +77,7 @@ Defining and enforcing consistent business processes is one of the main reasons 
   
 - In solution explorer. **Components > Processes.** This path provides convenient access when you are doing other customization work in the customization tools.  
   
- Individual business process flows can also be edited using the **Edit Process** button in the command bar for the form where the business process flow is active.  
+  Individual business process flows can also be edited using the **Edit Process** button in the command bar for the form where the business process flow is active.  
   
 <a name="BKMK_WhoCreate"></a>   
 ## Who can create processes?  

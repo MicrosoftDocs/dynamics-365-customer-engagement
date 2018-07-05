@@ -30,25 +30,25 @@ You can create new security roles to accommodate changes in your business requir
   
     Check your security role  
   
-    - [!INCLUDE[proc_check_your_security_role](../includes/proc-check-your-security-role.md)]  
+   - [!INCLUDE[proc_check_your_security_role](../includes/proc-check-your-security-role.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
-3.  Click **Security Roles**.  
+3. Click **Security Roles**.  
   
-4.  On the Actions toolbar, click **New**.  
+4. On the Actions toolbar, click **New**.  
   
-5.  Set the privileges on each tab.  
+5. Set the privileges on each tab.  
   
-     To change the access level for a privilege, click the symbol until you see the symbol you want. The possible access levels depend on whether the record type is organization-owned or user-owned.  
+    To change the access level for a privilege, click the symbol until you see the symbol you want. The possible access levels depend on whether the record type is organization-owned or user-owned.  
   
-    > [!TIP]
-    >  To cycle through the access levels, you can also click the privilege column heading, or click the record type multiple times.  
-    >  There are a set of minimum privileges that are required in order for the new security role to be used - see below Minimum Privileges for common tasks.
+   > [!TIP]
+   >  To cycle through the access levels, you can also click the privilege column heading, or click the record type multiple times.  
+   >  There are a set of minimum privileges that are required in order for the new security role to be used - see below Minimum Privileges for common tasks.
   
-6.  When you have finished configuring the security role, on the toolbar, click or tap **Save and Close**.  
+6. When you have finished configuring the security role, on the toolbar, click or tap **Save and Close**.  
   
 ## Create a security role by Copy Role
 
@@ -56,29 +56,29 @@ You can create new security roles to accommodate changes in your business requir
   
     Check your security role  
   
-    - [!INCLUDE[proc_check_your_security_role](../includes/proc-check-your-security-role.md)]  
+   - [!INCLUDE[proc_check_your_security_role](../includes/proc-check-your-security-role.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
-3.  Click **Security Roles**.  
+3. Click **Security Roles**.  
   
-4.  Click on the Security role you want to copy from.
+4. Click on the Security role you want to copy from.
 
-5.  On the Actions toolbar, click **Copy Role**.  
+5. On the Actions toolbar, click **Copy Role**.  
 
-6.  Enter the New Role Name, and check the box for **Open the new security role when copying is complete**.
+6. Enter the New Role Name, and check the box for **Open the new security role when copying is complete**.
 
-7.  Click the OK button.
+7. Click the OK button.
   
-8.  When Copying Role is complete, navigate to each tab, ie Core Records, Business Management, Customization, etc.
+8. When Copying Role is complete, navigate to each tab, ie Core Records, Business Management, Customization, etc.
 
-9.  Set the privileges on each tab.
+9. Set the privileges on each tab.
 
 > [!TIP]
-    >  To cycle through the access levels, you can also click the privilege column heading, or click the record type multiple times.  
-    >  There are a set of minimum privileges that are required in order for the new security role to be used - see below Minimum Privileges for common tasks.
+>  To cycle through the access levels, you can also click the privilege column heading, or click the record type multiple times.  
+>  There are a set of minimum privileges that are required in order for the new security role to be used - see below Minimum Privileges for common tasks.
 
 ## Edit a security role  
  Before you edit an existing security role, make sure that you understand the principles of data access. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Controlling Data Access](../admin/security-roles-privileges.md)  
@@ -90,45 +90,45 @@ You can create new security roles to accommodate changes in your business requir
   
     Check your security role  
   
-    - [!INCLUDE[proc_check_your_security_role](../includes/proc-check-your-security-role.md)]  
+   - [!INCLUDE[proc_check_your_security_role](../includes/proc-check-your-security-role.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
-3.  Click **Security Roles**.  
+3. Click **Security Roles**.  
   
-4.  In the list of security roles, double-click or tap a name to open the page associated with that security role.  
+4. In the list of security roles, double-click or tap a name to open the page associated with that security role.  
   
-5.  Set the privileges on each tab.  
+5. Set the privileges on each tab.  
   
-     To change the access level for a privilege, click the symbol until you see the symbol you want. The possible access levels depend on whether the record type is organization-owned or user-owned.  
+    To change the access level for a privilege, click the symbol until you see the symbol you want. The possible access levels depend on whether the record type is organization-owned or user-owned.  
   
-    > [!TIP]
-    >  To cycle through the access levels, you can also click the privilege column heading, or click the record type multiple times.  
-    >  There are a set of minimum privileges that are required in order for the new security role to be used - see below Minimum Privileges for common tasks. 
+   > [!TIP]
+   >  To cycle through the access levels, you can also click the privilege column heading, or click the record type multiple times.  
+   >  There are a set of minimum privileges that are required in order for the new security role to be used - see below Minimum Privileges for common tasks. 
     
-6.  When you have finished configuring the security role, on the toolbar, click or tap **Save and Close**.  
+6. When you have finished configuring the security role, on the toolbar, click or tap **Save and Close**.  
   
 ## Minimum privileges for common tasks  
  It's helpful to keep in mind the minimum privileges that are needed for some common tasks. These include:  
   
--   When logging in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]:  
+- When logging in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]:  
   
-    -   Assign the following privileges on the Customization tab: Read Customizations, Read Process, Read System Form, Read View, and Read Web Resource.
+  -   Assign the following privileges on the Customization tab: Read Customizations, Read Process, Read System Form, Read View, and Read Web Resource.
   
-    -   To render an entity grid (that is, to view lists of records and other data), assign the following privileges on the Core Records tab: Read privilege on the entity, Read Saved View, Create/Read/Write User Entity UI Settings
-        and assign the following privilege on the Business Management tab: Read User   
+  -   To render an entity grid (that is, to view lists of records and other data), assign the following privileges on the Core Records tab: Read privilege on the entity, Read Saved View, Create/Read/Write User Entity UI Settings
+      and assign the following privilege on the Business Management tab: Read User   
   
--   When running PowerApps
+- When running PowerApps
 
--   When logging in to [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]:  
+- When logging in to [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]:  
   
-    -   To render navigation for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and all [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] buttons: Read Entity and Read View on the Customizations tab  
+  - To render navigation for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and all [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] buttons: Read Entity and Read View on the Customizations tab  
   
-    -   To render an entity grid: Read privilege on the entity, Read Customizations and Read Web Resource on the Customization tab,  and Read Saved View on the Core Records tab  
+  - To render an entity grid: Read privilege on the entity, Read Customizations and Read Web Resource on the Customization tab,  and Read Saved View on the Core Records tab  
   
-    -   To render entities: Read privilege on the entity, Read System Form on the Customization tab, and Create, Read, and Write User Entity UI Settings on the Core Records tab  
+  - To render entities: Read privilege on the entity, Read System Form on the Customization tab, and Create, Read, and Write User Entity UI Settings on the Core Records tab  
   
 ## Privacy notices  
 [!INCLUDE[cc_privacy_crm_for_phones](../includes/cc-privacy-crm-for-phones.md)]

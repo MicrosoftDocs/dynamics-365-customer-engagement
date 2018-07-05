@@ -30,24 +30,24 @@ manager: "kvivek"
   
  To use these controls in the form editor:  
   
-1.  Double-click the field or list you want to add the control to.  
+1. Double-click the field or list you want to add the control to.  
   
-2.  Click the **Controls** tab.  
+2. Click the **Controls** tab.  
   
-3.  Click **Add control**.  
+3. Click **Add control**.  
   
-4.  Select the control you want and then click **Add**.  
+4. Select the control you want and then click **Add**.  
   
-    > [!NOTE]
-    >  Different controls are available depending on the field or list type. For example, slider controls might only be available for numerical or money fields, and the calendar control is only available for lists.  
+   > [!NOTE]
+   >  Different controls are available depending on the field or list type. For example, slider controls might only be available for numerical or money fields, and the calendar control is only available for lists.  
   
-5.  Select the devices you want the control to appear on (phone, tablet, or both). Controls aren’t available for phone header fields.  
+5. Select the devices you want the control to appear on (phone, tablet, or both). Controls aren’t available for phone header fields.  
   
-6.  Configure the values for each property.  
+6. Configure the values for each property.  
   
-7.  Click **OK** when you’re done configuring the control.  
+7. Click **OK** when you’re done configuring the control.  
   
- Following are descriptions for each control you can use on forms for Dynamics 365 for phones and tablets.  
+   Following are descriptions for each control you can use on forms for Dynamics 365 for phones and tablets.  
   
 ## Calendar control  
  Use this control to configure forms so they show up as a calendar view in Dynamics 365 for phones and tablets. You can also use this control to replace dashboards, lists, or entity grids for phones and tablets.  
@@ -147,7 +147,7 @@ manager: "kvivek"
   
 > [!IMPORTANT]
 >  By enabling this control, you consent to allow your users to share certain identifiable device information with an external system. Data imported from external systems into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] are subject to our privacy statement at [Microsoft Privacy and Cookies](http://go.microsoft.com/fwlink/p/?LinkId=521839).  
->   
+> 
 >  [Privacy notices](../customize/use-the-form-editor-legacy.md#BKMK_PrivacyNotices)  
   
 |Property|Description|  
@@ -199,15 +199,15 @@ manager: "kvivek"
   
  Supported media types include:  
   
--   Streaming MP4 files  
+- Streaming MP4 files  
   
--   YouTube videos  
+- YouTube videos  
   
--   Azure media  
+- Azure media  
   
--   Audio streams  
+- Audio streams  
   
- [Privacy notice](../customize/use-the-form-editor-legacy.md#BKMK_PrivacyNotices)  
+  [Privacy notice](../customize/use-the-form-editor-legacy.md#BKMK_PrivacyNotices)  
   
 |Property|Description|  
 |--------------|-----------------|  

@@ -28,10 +28,10 @@ The _double opt-in_ process (also known as _confirmed opt-in_) asks contacts who
 The double opt-in process works as follows:
 
 1. A new or existing contact uses a [subscription form](set-up-subscription-center.md) or landing page to subscribe to a newsletter or adjust their consent level.
-1. On submitting the form, the contact is shown a page that tells them to check their email for a confirmation message that includes a link the contact must click on to confirm their request.
-1. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] sends a confirmation email of the appropriate type (subscribe or consent) to the address registered for the contact.
-1. The contact opens the confirmation email, reads the text, and clicks the link. This opens a web browser, which submits a coded URL that identifies the contact and request message to [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)].
-1. [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] registers the click, applies the requested subscription or consent change, logs the change, and immediately redirects to a thank-you page that is shown to the contact.
+2. On submitting the form, the contact is shown a page that tells them to check their email for a confirmation message that includes a link the contact must click on to confirm their request.
+3. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] sends a confirmation email of the appropriate type (subscribe or consent) to the address registered for the contact.
+4. The contact opens the confirmation email, reads the text, and clicks the link. This opens a web browser, which submits a coded URL that identifies the contact and request message to [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)].
+5. [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] registers the click, applies the requested subscription or consent change, logs the change, and immediately redirects to a thank-you page that is shown to the contact.
 
 Double opt-in is a good idea in all countries/regions, and in many countries/regions (especially in Europe), it's required by law.
 
@@ -48,25 +48,25 @@ To create a subscription confirmation-request message:
 
 1. Go to **Marketing execution** > **Marketing emails** to open the marketing email list view.
 
-1. Select **New** to create a new message.
+2. Select **New** to create a new message.
 
-1. In the **Select an email template** window, go to the **Purpose** tab and choose **Double opt-in, email base confirmation** from the drop-down list there.
+3. In the **Select an email template** window, go to the **Purpose** tab and choose **Double opt-in, email base confirmation** from the drop-down list there.
 
-1. Select the **diamante** template (or another template created by your organization for this purpose), which is already prepared with the following:
+4. Select the **diamante** template (or another template created by your organization for this purpose), which is already prepared with the following:
 
-    - Default content that includes Handlebars expressions to place the recommended dynamic content.
-    - A confirmation button preconfigured with the required target URL (as a Handlebars expression).
-    - The **Content type** set to **Confirmation request**.
-    - The **Legal designation** set to **Transactional**.
+   - Default content that includes Handlebars expressions to place the recommended dynamic content.
+   - A confirmation button preconfigured with the required target URL (as a Handlebars expression).
+   - The **Content type** set to **Confirmation request**.
+   - The **Legal designation** set to **Transactional**.
     
-    See also the example given after this procedure.
+     See also the example given after this procedure.
 
-    > [!NOTE]
-    > The show-as-webpage feature doesn't work with confirmation-consent messages, so it's not included in the template and you shouldn't try to add it.
+     > [!NOTE]
+     > The show-as-webpage feature doesn't work with confirmation-consent messages, so it's not included in the template and you shouldn't try to add it.
 
-1. Customize the message as required.
+5. Customize the message as required.
 
-1. Check for errors and go live.
+6. Check for errors and go live.
     > [!NOTE]
     > You can't use the **Test Send** button to send yourself a test message when you are designing a confirmation-request message. To test your message design, set up a test subscription page and try to sign yourself up for a mailing list.
 
@@ -96,25 +96,25 @@ To create an increase consent confirmation-request message:
 
 1. Go to **Marketing execution** > **Marketing emails** to open the marketing email list view.
 
-1. Select **New** to create a new message.
+2. Select **New** to create a new message.
 
-1. In the **Select an email template** window, go to the **Purpose** tab and chose **Double opt-in, email base confirmation** from the drop-down list there.
+3. In the **Select an email template** window, go to the **Purpose** tab and chose **Double opt-in, email base confirmation** from the drop-down list there.
 
-1. Select the **custonaci** template (or another template created by your organization for this purpose), which is already prepared with the following:
+4. Select the **custonaci** template (or another template created by your organization for this purpose), which is already prepared with the following:
 
-    - Default content that includes Handlebars expressions to place the recommended dynamic content.
-    - A confirmation button preconfigured with the required target URL (as a Handlebars expression).
-    - The **Content type** set to **Confirmation request**.
-    - The **Legal designation** set to **Transactional**.
+   - Default content that includes Handlebars expressions to place the recommended dynamic content.
+   - A confirmation button preconfigured with the required target URL (as a Handlebars expression).
+   - The **Content type** set to **Confirmation request**.
+   - The **Legal designation** set to **Transactional**.
 
-    See also the example given after this procedure.
+     See also the example given after this procedure.
     
-    > [!NOTE]
-    > The show-as-webpage feature doesn't work with confirmation-consent messages, so it's not included in the template and you shouldn't try to add it.
+     > [!NOTE]
+     > The show-as-webpage feature doesn't work with confirmation-consent messages, so it's not included in the template and you shouldn't try to add it.
 
-1. Customize the message as required.
+5. Customize the message as required.
 
-1. Check for errors and go live.
+6. Check for errors and go live.
     > [!NOTE]
     > You can't use the **Test Send** button to send yourself a test message when you are designing a confirmation-request message. To test your message design, set up a test subscription page and use it to increase your consent level.
 

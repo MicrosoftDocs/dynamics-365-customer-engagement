@@ -34,13 +34,13 @@ This topic describes how to develop a custom webpage that can make SDK calls to 
 ### Background information  
  For more information about how to configure claims and a relying party, see the following topics in [Deploying and administering Microsoft Dynamics CRM](https://technet.microsoft.com/library/hh699811.aspx):  
   
--   [Post-Installation and Configuration Guidelines](https://technet.microsoft.com/library/hh699726.aspx) - Configure a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]Internet-facing deployment (IFD)  
+- [Post-Installation and Configuration Guidelines](https://technet.microsoft.com/library/hh699726.aspx) - Configure a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]Internet-facing deployment (IFD)  
   
--   [System requirements and required technologies](https://technet.microsoft.com/library/hh699831.aspx) - Accessing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] from the Internet - Claims-based authentication and [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)] requirements  
+- [System requirements and required technologies](https://technet.microsoft.com/library/hh699831.aspx) - Accessing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] from the Internet - Claims-based authentication and [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)] requirements  
   
- For more information about identity management, see [the identity training course](http://channel9.msdn.com/Learn/Courses/IdentityTrainingCourse).  
+  For more information about identity management, see [the identity training course](http://channel9.msdn.com/Learn/Courses/IdentityTrainingCourse).  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Walkthrough: Single Sign-on from a Custom Web Page](https://msdn.microsoft.com/library/gg509057\(v=crm.5\).aspx) in the [!INCLUDE[pn_CRM_2011](../includes/pn-crm-2011.md)] SDK.  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Walkthrough: Single Sign-on from a Custom Web Page](https://msdn.microsoft.com/library/gg509057\(v=crm.5\).aspx) in the [!INCLUDE[pn_CRM_2011](../includes/pn-crm-2011.md)] SDK.  
   
 <a name="crmonline-azure"></a>   
 ## [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] with an Azure-hosted webpage  

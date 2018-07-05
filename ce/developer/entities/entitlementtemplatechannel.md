@@ -574,6 +574,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_entitlementtemplatechannel_SyncErrors"></a> entitlementtemplatechannel_SyncErrors
 
 Same as syncerror entity [entitlementtemplatechannel_SyncErrors](syncerror.md#BKMK_entitlementtemplatechannel_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -588,6 +589,7 @@ Same as syncerror entity [entitlementtemplatechannel_SyncErrors](syncerror.md#BK
 ### <a name="BKMK_entitlementtemplatechannel_AsyncOperations"></a> entitlementtemplatechannel_AsyncOperations
 
 Same as asyncoperation entity [entitlementtemplatechannel_AsyncOperations](asyncoperation.md#BKMK_entitlementtemplatechannel_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -602,6 +604,7 @@ Same as asyncoperation entity [entitlementtemplatechannel_AsyncOperations](async
 ### <a name="BKMK_entitlementtemplatechannel_MailboxTrackingFolders"></a> entitlementtemplatechannel_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [entitlementtemplatechannel_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_entitlementtemplatechannel_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -616,6 +619,7 @@ Same as mailboxtrackingfolder entity [entitlementtemplatechannel_MailboxTracking
 ### <a name="BKMK_entitlementtemplatechannel_UserEntityInstanceDatas"></a> entitlementtemplatechannel_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [entitlementtemplatechannel_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_entitlementtemplatechannel_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -630,6 +634,7 @@ Same as userentityinstancedata entity [entitlementtemplatechannel_UserEntityInst
 ### <a name="BKMK_entitlementtemplatechannel_BulkDeleteFailures"></a> entitlementtemplatechannel_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [entitlementtemplatechannel_BulkDeleteFailures](bulkdeletefailure.md#BKMK_entitlementtemplatechannel_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -644,6 +649,7 @@ Same as bulkdeletefailure entity [entitlementtemplatechannel_BulkDeleteFailures]
 ### <a name="BKMK_entitlementtemplatechannel_PrincipalObjectAttributeAccesses"></a> entitlementtemplatechannel_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [entitlementtemplatechannel_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_entitlementtemplatechannel_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -658,6 +664,7 @@ Same as principalobjectattributeaccess entity [entitlementtemplatechannel_Princi
 ### <a name="BKMK_entitlementtemplatechannel_connections1"></a> entitlementtemplatechannel_connections1
 
 Same as connection entity [entitlementtemplatechannel_connections1](connection.md#BKMK_entitlementtemplatechannel_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -672,6 +679,7 @@ Same as connection entity [entitlementtemplatechannel_connections1](connection.m
 ### <a name="BKMK_entitlementtemplatechannel_connections2"></a> entitlementtemplatechannel_connections2
 
 Same as connection entity [entitlementtemplatechannel_connections2](connection.md#BKMK_entitlementtemplatechannel_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|

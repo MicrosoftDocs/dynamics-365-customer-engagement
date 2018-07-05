@@ -32,36 +32,36 @@ When the templates are ready, users can generate standardized documents that are
 
 1. Sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] as a user with the System Administrator role.
 
-1. Go to **Settings** > **Advanced Settings** > **Organization** > **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] & [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates** and choose **New Template**.
+2. Go to **Settings** > **Advanced Settings** > **Organization** > **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] & [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates** and choose **New Template**.
 
-1. Select **[!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Template**, and then select **Next**.
+3. Select **[!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Template**, and then select **Next**.
 
     ![Choose which type of template to create](media/create-template-type.png "Choose which type of template to create")
 
-1. Select an entity to which the template applies. The template will use data from this entity.
+4. Select an entity to which the template applies. The template will use data from this entity.
 
     ![Choose an entity for the template](media/create-template-word-entity.png "Choose an entity for the template")
 
-1. To select the fields that you want to be included in the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template, select **Choose Related Entities**.
+5. To select the fields that you want to be included in the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template, select **Choose Related Entities**.
 
-1. The **Choose Related Entity** dialog box opens. The relationships you select on this screen determine what entities and fields are available later when you define the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template. Only select the relationships you need to add [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] data to the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template. Here are some example relationships for the account entity:
+6. The **Choose Related Entity** dialog box opens. The relationships you select on this screen determine what entities and fields are available later when you define the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template. Only select the relationships you need to add [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] data to the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template. Here are some example relationships for the account entity:
 
-    - 1:N Relationship. An account can have multiple contacts.
-    - N:1 Relationship. A lead, account, or contact can have multiple accounts.
-    - N:N Relationship. An account can have multiple marketing lists. A marketing list can have multiple accounts.
+   - 1:N Relationship. An account can have multiple contacts.
+   - N:1 Relationship. A lead, account, or contact can have multiple accounts.
+   - N:N Relationship. An account can have multiple marketing lists. A marketing list can have multiple accounts.
 
-    When you're done choosing relationships, select **Done**.
+     When you're done choosing relationships, select **Done**.
 
-    > [!NOTE]
-    > To ensure that documents are downloaded in a timely matter, there is an upper limit of 100 for the number of related records returned for each relationship. For example, if you're exporting a template for an account and you want to include a list of its contacts, the document will return at most 100 of the account's contacts.
+     > [!NOTE]
+     > To ensure that documents are downloaded in a timely matter, there is an upper limit of 100 for the number of related records returned for each relationship. For example, if you're exporting a template for an account and you want to include a list of its contacts, the document will return at most 100 of the account's contacts.
 
-1. In the **Select Entity** dialog box, select **Next**.
+7. In the **Select Entity** dialog box, select **Next**.
 
-1. Select **Download** to create a [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] file on your local computer with the exported entity included as XML data.
+8. Select **Download** to create a [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] file on your local computer with the exported entity included as XML data.
 
-1. To upload the template later, select **Upload the template later** check box, and then select **Next**.
+9. To upload the template later, select **Upload the template later** check box, and then select **Next**.
 
-1. To upload the template after you customize the data, go to the list of templates, and then select **Upload Template**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Step 4: Upload the Word template back into Dynamics 365](#step-4-upload-the-word-template-back-into-dynamics-365)
+10. To upload the template after you customize the data, go to the list of templates, and then select **Upload Template**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Step 4: Upload the Word template back into Dynamics 365](#step-4-upload-the-word-template-back-into-dynamics-365)
 
 ## Step 2: Enable the Developer tab
 
@@ -93,14 +93,14 @@ Use the **XML Mapping Pane** to define the [!INCLUDE[pn-ms-word-short](../includ
 
     ![The XML Mapping pane in Word](media/word-XML-mapping-pane.png "The XML Mapping pane in Word")
 
-1. Select the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] XML schema. It will begin with "urn:microsoft-crm/document-template/".
+2. Select the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] XML schema. It will begin with "urn:microsoft-crm/document-template/".
 
     ![Select the Dynamics 365 XML schema](media/ill-word-d365-schema.png "Select the Dynamics 365 XML schema")
 
-    > [!IMPORTANT]
-    > If you have frequent accidental edits that cause [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] to freeze or degrade its performance, turn off the AutoCorrect options.
+   > [!IMPORTANT]
+   > If you have frequent accidental edits that cause [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] to freeze or degrade its performance, turn off the AutoCorrect options.
 
-1. Expand the entity to see all available fields, right-click the field you want to add, and then select **Insert Content Control** &gt; **Plain Text**.
+3. Expand the entity to see all available fields, right-click the field you want to add, and then select **Insert Content Control** &gt; **Plain Text**.
 
     ![Insert Content Control menu](media/ill-word-add-field.png "Select a field to add as plain text")
 
@@ -108,25 +108,25 @@ Use the **XML Mapping Pane** to define the [!INCLUDE[pn-ms-word-short](../includ
 
     ![A Word template with one field added](media/word-field-added.png "A Word template with one field added")
 
-1. Add additional entity fields, add descriptive labels and text, and format the document. A completed template might look like this:
+4. Add additional entity fields, add descriptive labels and text, and format the document. A completed template might look like this:
 
     ![An example of a completed Word template](media/word-template-example.png "An example of a completed Word template")
 
-1. Some content control fields you entered are likely to have multiple lines of data. For example, accounts have more than one contact. To include all the data in your [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template, set the content control field to repeat as follows:
+5. Some content control fields you entered are likely to have multiple lines of data. For example, accounts have more than one contact. To include all the data in your [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template, set the content control field to repeat as follows:
 
-    1. Put fields with repeating data in a table row.
+   1. Put fields with repeating data in a table row.
 
-    1. Select the entire table row in the template.
+   2. Select the entire table row in the template.
 
-        ![A table in Word with a full row selected](media/word-template-row.png "A table in Word with a full row selected")
+       ![A table in Word with a full row selected](media/word-template-row.png "A table in Word with a full row selected")
 
-    1. In the **XML Mapping** pane, right-click the relationship containing the content control fields, and then select **Repeating**.
+   3. In the **XML Mapping** pane, right-click the relationship containing the content control fields, and then select **Repeating**.
 
-        ![Set a field to repeating in the XML Mapping pane](media/word-template-repeating.png "Set a field to repeating in the XML Mapping pane")
+       ![Set a field to repeating in the XML Mapping pane](media/word-template-repeating.png "Set a field to repeating in the XML Mapping pane")
 
-    When you use the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to create a document, the table will be populated with multiple rows of data.
+      When you use the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to create a document, the table will be populated with multiple rows of data.
 
-1. When the template has the fields and formatting you want, save it and upload it into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
+6. When the template has the fields and formatting you want, save it and upload it into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 
 <a name="step-4-upload-the-word-template-back-into-dynamics-365"></a>
 
@@ -141,15 +141,15 @@ An administrator can use the **Settings** page to upload the [!INCLUDE[pn-ms-wor
 
 1. In [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], go to **Settings** > **Advanced Settings** > **Organization** > **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] & [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates**.
 
-1. Select **Upload Template**.
+2. Select **Upload Template**.
 
-1. Find and upload the file.
+3. Find and upload the file.
 
     ![Upload Template dialog](media/excel-upload-template.png "Upload Template dialog box")
 
-1. Select **Upload**. You'll see the summary of the file you're uploading.
+4. Select **Upload**. You'll see the summary of the file you're uploading.
 
-1. Select **Finish**.
+5. Select **Finish**.
 
 ### See also
 

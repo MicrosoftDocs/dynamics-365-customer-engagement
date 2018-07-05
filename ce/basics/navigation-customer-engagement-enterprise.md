@@ -28,25 +28,25 @@ With [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engage
   
 ## Open an app  
   
-1.  Sign in to [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], click the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher, and then click the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** icon.  
+1. Sign in to [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], click the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher, and then click the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** icon.  
   
- ![Office 365 app launcher with Dynamics 365 iconselected](../basics/media/office-365-app-launcher-with-dynamics-365-iconselected.png "Office 365 app launcher with Dynamics 365 iconselected")  
+   ![Office 365 app launcher with Dynamics 365 iconselected](../basics/media/office-365-app-launcher-with-dynamics-365-iconselected.png "Office 365 app launcher with Dynamics 365 iconselected")  
   
 > [!NOTE]
 >  The apps available to you in the app launcher depend on your subscription.  
   
-2.  In the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Home page, select the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] app for your role.  
+2. In the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Home page, select the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] app for your role.  
   
- ![Dynamics 365 Home page with 4 apps](../basics/media/dynamics-365-home-page-with-4-apps.png "Dynamics 365 Home page with 4 apps")  
+   ![Dynamics 365 Home page with 4 apps](../basics/media/dynamics-365-home-page-with-4-apps.png "Dynamics 365 Home page with 4 apps")  
   
 > [!TIP]
 >  To go directly to the Home page, go to [https://home.dynamics.com](https://home.dynamics.com). You can also sign in to an app directly using a URL. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sign in with a URL](../admin/sign-in-office-365-apps.md)  
   
 ## Switch to a different app  
   
--   On the navigation bar, go to **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]>My apps**, and then select the app you want.  
+- On the navigation bar, go to **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]>My apps**, and then select the app you want.  
   
- ![Dynamics 365 app switcher](../basics/media/dynamics-365-app-switcher.png "Dynamics 365 app switcher")  
+  ![Dynamics 365 app switcher](../basics/media/dynamics-365-app-switcher.png "Dynamics 365 app switcher")  
   
 ## Find your way around the app menus
  When you open an app, you’ll see tiles and icons (called a *sitemap*) for that app. Use the icons to access different types of information relevant to that role.  

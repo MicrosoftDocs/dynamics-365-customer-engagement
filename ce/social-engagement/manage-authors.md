@@ -47,7 +47,7 @@ Deleting an author will result in:
 5. Go to **Analytics > Overview**. In the **Authors** widget, select **Widget actions** ![Widget actions symbol](media/more-options-icon.png "Widget actions symbol") and select **Expand to full view** ![Expand to full view symbol](media/open-full-view-icon.png "Expand to full view symbol").
 
 6. In the expanded view, select the **Remove Author** ![Remove author symbol](media/trashbin-icon.png "Remove author symbol") symbol and confirm your deletion.    
-![Remove author control in full view of Authors widget](media/remove-author-full-view.png "Remove author control in full view of Authors widget")
+   ![Remove author control in full view of Authors widget](media/remove-author-full-view.png "Remove author control in full view of Authors widget")
 
 ## Export author information
 
@@ -67,7 +67,7 @@ To inform an author about personal social profile data that is stored in [!INCLU
 5. Go to **Analytics** > **Overview**. In the **Authors** widget, select the **View author details** ![View author details symbol](media/author-details-icon.png "View author details symbol") symbol.
 
 6. In the author details view, select the **Export personal data for this author** ![Export symbol](media/export-data-icon.png "Export symbol") symbol and download the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] file.    
-![Control to export personal data for this author](media/export-author-details.png "Control to export personal data for this author")  
+   ![Control to export personal data for this author](media/export-author-details.png "Control to export personal data for this author")  
 
 ## Stop processing specific authors
 

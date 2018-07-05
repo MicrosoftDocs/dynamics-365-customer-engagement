@@ -29,14 +29,14 @@ You can delete [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Sandbox i
   
 2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]  
   
-3.  Choose the **Instances** tab.  
+3. Choose the **Instances** tab.  
   
-4.  Select the instance that you want, and then click **Delete**.  
+4. Select the instance that you want, and then click **Delete**.  
   
-    > [!WARNING]
-    >  Your data will be lost! Be sure you’ve selected the correct instance.  
+   > [!WARNING]
+   >  Your data will be lost! Be sure you’ve selected the correct instance.  
   
-5.  Click **Confirm** to delete the instance.  
+5. Click **Confirm** to delete the instance.  
   
 Deleting an instance doesn’t change the number of your licenses purchased. For example, say you have two instances - one Sandbox and one production - and you decide to delete your Sandbox instance. After the delete has successfully completed, you’ll see one production instance and one instance to configure in the **Instance** tab of the **Manage your Dynamics 365 updates** page.  
   

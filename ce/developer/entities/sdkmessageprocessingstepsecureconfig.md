@@ -339,6 +339,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_sdkmessageprocessingstepsecureconfig"></a> userentityinstancedata_sdkmessageprocessingstepsecureconfig
 
 Same as userentityinstancedata entity [userentityinstancedata_sdkmessageprocessingstepsecureconfig](userentityinstancedata.md#BKMK_userentityinstancedata_sdkmessageprocessingstepsecureconfig) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -353,6 +354,7 @@ Same as userentityinstancedata entity [userentityinstancedata_sdkmessageprocessi
 ### <a name="BKMK_sdkmessageprocessingstepsecureconfigid_sdkmessageprocessingstep"></a> sdkmessageprocessingstepsecureconfigid_sdkmessageprocessingstep
 
 Same as sdkmessageprocessingstep entity [sdkmessageprocessingstepsecureconfigid_sdkmessageprocessingstep](sdkmessageprocessingstep.md#BKMK_sdkmessageprocessingstepsecureconfigid_sdkmessageprocessingstep) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sdkmessageprocessingstep|

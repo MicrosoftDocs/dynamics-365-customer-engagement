@@ -40,7 +40,7 @@ You can create, edit, and delete forum threads in [!INCLUDE[pn-dynamics-crm](../
     > [!Note]                                
     > You will need to create the original [forum posts](create-forum-posts.md) to be associated with this thread and assign the newly created forum post record to the **First Post** and **Last Post** lookup fields provided.  
 
-4.  Select **Save**.
+6. Select **Save**.
 
 ## Create forum threads on the portal
 
@@ -85,8 +85,8 @@ The table below explains many of the Forum Thread attributes used by portals. It
 1. Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
 2. Navigate to **Community**. 
 3. Select **Forum Thread Types**.
-- To create a new thread type, select **New**.
-- To edit an existing thread type, double-click to select the **Forum Thread Type** listed in the grid, specify values for the fields provided, and then select **Save & Close**.
+4. To create a new thread type, select **New**.
+5. To edit an existing thread type, double-click to select the **Forum Thread Type** listed in the grid, specify values for the fields provided, and then select **Save & Close**.
 
 ## Forum thread type attributes
 

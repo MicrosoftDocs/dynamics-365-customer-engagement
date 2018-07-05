@@ -740,6 +740,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_SLAItem_SyncErrors"></a> SLAItem_SyncErrors
 
 Same as syncerror entity [SLAItem_SyncErrors](syncerror.md#BKMK_SLAItem_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|

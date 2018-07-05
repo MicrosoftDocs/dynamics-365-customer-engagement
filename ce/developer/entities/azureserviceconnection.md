@@ -483,6 +483,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_azureserviceconnection_topicmodel"></a> azureserviceconnection_topicmodel
 
 Same as topicmodel entity [azureserviceconnection_topicmodel](topicmodel.md#BKMK_azureserviceconnection_topicmodel) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|topicmodel|
@@ -497,6 +498,7 @@ Same as topicmodel entity [azureserviceconnection_topicmodel](topicmodel.md#BKMK
 ### <a name="BKMK_azureserviceconnection_knowledgesearchmodel"></a> azureserviceconnection_knowledgesearchmodel
 
 Same as knowledgesearchmodel entity [azureserviceconnection_knowledgesearchmodel](knowledgesearchmodel.md#BKMK_azureserviceconnection_knowledgesearchmodel) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|knowledgesearchmodel|
@@ -511,6 +513,7 @@ Same as knowledgesearchmodel entity [azureserviceconnection_knowledgesearchmodel
 ### <a name="BKMK_azureserviceconnection_advancedsimilarityrule"></a> azureserviceconnection_advancedsimilarityrule
 
 Same as advancedsimilarityrule entity [azureserviceconnection_advancedsimilarityrule](advancedsimilarityrule.md#BKMK_azureserviceconnection_advancedsimilarityrule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|advancedsimilarityrule|

@@ -61,15 +61,15 @@ An option set is a type of field that can be included in an entity. It defines a
 In the **Options** section you can create, edit, delete, and change the order in which options are presented.  
   
 ###### Create new options  
-1.  Choose the green **+** icon to create an option.  
+1. Choose the green **+** icon to create an option.  
   
-2.  Each option you create will have a **Label** value of **Item** and a **Value** that starts with 10,000 and increments for each option you add.  
+2. Each option you create will have a **Label** value of **Item** and a **Value** that starts with 10,000 and increments for each option you add.  
   
- Edit the **Label** to be the text you want to display.  
+   Edit the **Label** to be the text you want to display.  
   
- You can edit the **Value**, but we recommend that you accept the auto-generated value. The value must be unique within the options.  
+   You can edit the **Value**, but we recommend that you accept the auto-generated value. The value must be unique within the options.  
   
- The **Description** for each option is not visible to people using the application. Use it to provide some definition of the category it represents so that others editing this option set in the future can understand your intention in adding it.
+   The **Description** for each option is not visible to people using the application. Use it to provide some definition of the category it represents so that others editing this option set in the future can understand your intention in adding it.
  
 ###### Edit existing options  
 - To edit an option that already exists you may change the **Label**, **Value** and **Description** values just as you would when creating a new option. 
@@ -77,8 +77,8 @@ In the **Options** section you can create, edit, delete, and change the order in
 ###### Delete an option  
 - To delete an option you select one and choose the delete icon.  
   
- > [!IMPORTANT]
- > If you delete an option that has already been used in entity records, the data value in those records will be invalid. If you are not sure, use Advanced Find to see if there are any records set to the value you are about to delete. If they are set to the option you plan to delete, you should change the data before you delete the option. After you delete the option you will no longer be able to use Advanced Find to query records that have that option set.
+  > [!IMPORTANT]
+  > If you delete an option that has already been used in entity records, the data value in those records will be invalid. If you are not sure, use Advanced Find to see if there are any records set to the value you are about to delete. If they are set to the option you plan to delete, you should change the data before you delete the option. After you delete the option you will no longer be able to use Advanced Find to query records that have that option set.
  
 ###### Change the order used by options  
 - Use the green arrows in options toolbar to move selected options up or down.  

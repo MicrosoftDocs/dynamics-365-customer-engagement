@@ -59,15 +59,15 @@ Data-driven adapters (DDAs) are the adapters leveraged generally by the [!INCLUD
   
  You can use the following classes to extend the existing UII DDAs:  
   
--   [WinDataDrivenAdapter](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.windatadrivenadapter): Creates an adapter based on the WinDDA.  
+- [WinDataDrivenAdapter](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.windatadrivenadapter): Creates an adapter based on the WinDDA.  
   
--   [WebDataDrivenAdapter](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.webdatadrivenadapter): Creates an adapter based on the WebDDA.  
+- [WebDataDrivenAdapter](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.webdatadrivenadapter): Creates an adapter based on the WebDDA.  
   
--   [JavaDataDrivenAdapter](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.javadatadrivenadapter): Creates an adapter based on the JavaDDA.  
+- [JavaDataDrivenAdapter](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.javadatadrivenadapter): Creates an adapter based on the JavaDDA.  
   
--   [UIADataDrivenAdapter](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.uiadatadrivenadapter): Creates an adapter based on the UIADDA.  
+- [UIADataDrivenAdapter](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.uiadatadrivenadapter): Creates an adapter based on the UIADDA.  
   
- All the preceding classes derive from [DataDrivenAdapterBase](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase) class.  
+  All the preceding classes derive from [DataDrivenAdapterBase](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase) class.  
   
 <a name="bindings"></a>   
 ## Bindings  

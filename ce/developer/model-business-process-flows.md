@@ -68,7 +68,7 @@ A *business process flow* lets you create more efficient and streamlined sales, 
   
 > [!IMPORTANT]
 >  The sample business process flow records available in [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] use system entities to store the corresponding business process flow instance records. Couple of the sample business process flow entity records are [OpportunitySalesProcess Entity](entities/opportunitysalesprocess.md) and [LeadToOpportunitySalesProcess Entity](entities/leadtoopportunitysalesprocess.md).  
->   
+> 
 >  However, any new business process flow definitions you create will use custom entities to store its instance records as explained earlier.  
 
 <a name="BPFSecurity"></a>   

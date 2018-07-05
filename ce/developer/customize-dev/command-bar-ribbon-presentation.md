@@ -64,7 +64,7 @@ Data defining commands in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dy
   
 > [!NOTE]
 >  Icons configured for commands will not display and labels that are too long will be truncated.  
->   
+> 
 > [!INCLUDE[pn_moca_full](../../includes/pn-moca-full.md)] does not support adding dynamic elements to `<FlyoutAnchor>` or `<SplitButton>` elements at runtime.  
   
  Subgrid commands are displayed when people tap and press the subgrid control. These commands are shown on the bottom left of the screen in order from left to right.  
@@ -87,15 +87,15 @@ Data defining commands in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dy
   
  `<CommandClientTypeRule>` contains a `Type` attribute that will be evaluated based on the presentation. The following valid options correspond to the presentation:  
   
--   `Refresh`: Updated user experience  
+- `Refresh`: Updated user experience  
   
--   `Legacy`: Classic user experience  
+- `Legacy`: Classic user experience  
   
--   `Modern`: Dynamics 365 for tablets  
+- `Modern`: Dynamics 365 for tablets  
   
- Use this element as you define commands to control whether they display in the different presentations.  
+  Use this element as you define commands to control whether they display in the different presentations.  
   
- There is also a pre-existing `<CrmClientTypeRule>` element, but the `Type` attribute for element can only differentiate between `Web` and `Outlook` clients. This rule will evaluate the Dynamics 365 for tablets client as the web client.  
+  There is also a pre-existing `<CrmClientTypeRule>` element, but the `Type` attribute for element can only differentiate between `Web` and `Outlook` clients. This rule will evaluate the Dynamics 365 for tablets client as the web client.  
   
 ### See also  
  [Customize commands and the ribbon](customize-commands-ribbon.md)   

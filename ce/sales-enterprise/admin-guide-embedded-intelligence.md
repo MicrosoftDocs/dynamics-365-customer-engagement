@@ -26,14 +26,14 @@ topic-status: Drafting
 <tr>
 <h2>Enable and configuration</h2>
 <ul>
-<li>[Configure and enable embedded intelligence](../sales-enterprise/action-cards-reference.md)</li>
+<li><a href="../sales-enterprise/action-cards-reference.md" data-raw-source="[Configure and enable embedded intelligence](../sales-enterprise/action-cards-reference.md)">Configure and enable embedded intelligence</a></li>
 </ul>
 
 <h2>General Data Protection Regulation (GDPR)</h2>
 <ul>
-<li>[Embedded Intelligence and GDPR](../sales-enterprise/embedded-intelligence-gdpr.md)</li>
-<li>[Opt out of relationship analytics (GDPR)](../sales-enterprise/optout-relationship-analytics-gdpr.md)</li>
-<li>[View and export KPI data (GDPR)](../sales-enterprise/view-export-KPI-data-gdpr.md)</li>
+<li><a href="../sales-enterprise/embedded-intelligence-gdpr.md" data-raw-source="[Embedded Intelligence and GDPR](../sales-enterprise/embedded-intelligence-gdpr.md)">Embedded Intelligence and GDPR</a></li>
+<li><a href="../sales-enterprise/optout-relationship-analytics-gdpr.md" data-raw-source="[Opt out of relationship analytics (GDPR)](../sales-enterprise/optout-relationship-analytics-gdpr.md)">Opt out of relationship analytics (GDPR)</a></li>
+<li><a href="../sales-enterprise/view-export-KPI-data-gdpr.md" data-raw-source="[View and export KPI data (GDPR)](../sales-enterprise/view-export-KPI-data-gdpr.md)">View and export KPI data (GDPR)</a></li>
 </ul>
 </tr>
 </table>

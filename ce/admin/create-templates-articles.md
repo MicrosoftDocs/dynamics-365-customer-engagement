@@ -26,31 +26,31 @@ Article templates help you create new articles for your organization's knowledge
   
     Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
   
-3.  Click or tap **Article Templates**.  
+3. Click or tap **Article Templates**.  
   
-4.  To create a new article template, choose **New**.  
+4. To create a new article template, choose **New**.  
   
-5.  In the **Article Template Properties** dialog box, type the new article title, select the language, and then click **OK**.  
+5. In the **Article Template Properties** dialog box, type the new article title, select the language, and then click **OK**.  
   
-6.  To add a section, in the **Common Tasks** area, choose **Add a Section**, and specify the following:  
+6. To add a section, in the **Common Tasks** area, choose **Add a Section**, and specify the following:  
   
-    1.  In the **Title** box, type a title.  
+   1. In the **Title** box, type a title.  
   
-    2.  In the **Instructions** box, type a description of the information that users should provide in this section when they use this template.  
+   2. In the **Instructions** box, type a description of the information that users should provide in this section when they use this template.  
   
-     When a user creates a new article with this template, these instructions appear in the body text for this section, and disappear when the user starts typing.  
+      When a user creates a new article with this template, these instructions appear in the body text for this section, and disappear when the user starts typing.  
   
-7.  To reposition a section from the template, select the section you want to reposition, and in the **Common Tasks** area, click the green arrows to move the section to the position you want.  
+7. To reposition a section from the template, select the section you want to reposition, and in the **Common Tasks** area, click the green arrows to move the section to the position you want.  
   
-     When you select a section, its border turns green and the border lines become solid.  
+    When you select a section, its border turns green and the border lines become solid.  
   
-8.  To remove the section, select the section you want to remove, and in the **Common Tasks** area, click **Remove a Section**.  
+8. To remove the section, select the section you want to remove, and in the **Common Tasks** area, click **Remove a Section**.  
   
 9. To edit a section, select the section you want to edit, and in the **Common Tasks** area, click **Section Properties**. Edit the title and description.  
   
