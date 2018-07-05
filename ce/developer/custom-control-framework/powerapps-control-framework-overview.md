@@ -24,7 +24,7 @@ Majority of the controls found in model-driven apps that use the **Unified Inter
 > [!NOTE] 
 > Custom controls are supported only on Unified Interface. 
 
-## What are custom controls?
+## What are custom controls
 
 Custom controls are a type of solution component, which means they can be included in a solution and installed in different environments. More information: Package and distribute extensions using solutions.
 
@@ -67,21 +67,27 @@ These methods control the lifecycle of the custom control.
 
 #### Page load
 When the page loads, the application requires an object to work with. Using data from the Manifest, the code will get the object by calling
+
 ```js
-var obj =  new ["namespace on manifest"].["constructor on maifest"]();
+var obj =  new ["namespace on manifest"].["constructor on manifest"]();
 ```
+
 If the namespace and constructor values from the manifest were *"MyNameSpace"* and *"LinearInputControl"* respectively, the code run to instantiate the object would be this:
+
 ```js
 var controlObj = new MyNameSpace.LinearInputControl();
 ```
+
 When the page is ready, it will initialize the control by calling the init function. The page will call the init function with a set of parameters.
+
 ```js
 controlObj.init(context,notifyOutputChanged,state,container);
 ```
-|Parameter|	Description|
+
+|Parameter|Description|
 |---|---|
-|context| Contains all the information about how the control is configured and all the PCF API's that can be used within the custom control.For example, the *context.parameters.["property name from manifest"]* can be used to access an input property.|
-|notifyOutputChanged |	A function that your code will call to alert the framework that the control has new outputs ready to be retrieved asynchronously. You must implement this within the init function. More information: User changes data.|
+|context| Contains all the information about how the control is configured and all the PCF Api's that can be used within the custom control.For example, the *context.parameters.["property name from manifest"]* can be used to access an input property.|
+|notifyOutputChanged |A function that your code will call to alert the framework that the control has new outputs ready to be retrieved asynchronously. You must implement this within the init function. More information: User changes data.|
 |state|Contains control data from the previous page load in the current session.|
 |container|An HTML div element to which you will append the HTML elements for the UI that defines your control. To display the value in your UI, you must get the data from the context.parameters.controlValue object. You must implement this in the init function.|
 
@@ -97,8 +103,6 @@ When the user navigates away from the page the control will lose scope and usual
 You should define a destroy method in your object. This will be called when the page closes and you should use it to remove any clean up code such as removing any event handlers. 
 
 Before you go ahead and start creating your custom controls, make sure you have all the pre-requisites. 
-
-
 
 ### Related topics
 
