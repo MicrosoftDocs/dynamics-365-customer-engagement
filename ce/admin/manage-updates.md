@@ -74,15 +74,6 @@ Here are the recent versions.
 |n-1     |8.2         |Dynamics 365, version 8.2         |
 |n-2     |8.1         |Microsoft Dynamics CRM Online 2016 Update 1          |
 
-## Sandbox
-
-We have enabled our customers and partners to test latest capabilities which are part of the updates early in the cycle. You can get access to Dynamics 365 updates before they are deployed in your production environment. Our ISV partners can take advantage of this to innovate early to be better prepared for general availability.  
-
-Starting with the April 2019 update, you can **validate major updates in a sandbox environment** in advance of the update release. This will help you assess productivity and efficiency gains of the new capabilities, as well as train your end users about new capabilities. We will publish the timeline of when to expect updates in sandbox environments in advance. 
-
-Should you face any issues while testing the update, we will work closely to support you and resolve issues in a timely manner to ensure business continuity for your organization. 
-
-
 <a name="BKMK_Scenarios"></a>   
 
 ## Update scenarios  
