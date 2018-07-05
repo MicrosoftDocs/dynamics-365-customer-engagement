@@ -17,7 +17,7 @@ ms.assetid: a48831c6-133a-4747-99fa-7cc1df4558d0
 ---
 
 
-# manifest element
+# Manifest element
 
 [!INCLUDE [cc_applies_to_update_9_0_0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -47,4 +47,4 @@ ms.assetid: a48831c6-133a-4747-99fa-7cc1df4558d0
 
 [PowerApps Control Framework Manifest Schema Reference](index.md)<br />
 [PowerApps Control Framework API Reference](../reference/index.md)<br />
-[PowerApps Control Framework Overview](../powerappscontrol-framework-overview.md)
+[PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
