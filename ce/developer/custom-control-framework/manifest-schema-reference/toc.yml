@@ -1,14 +1,10 @@
 - name: Manifest Schema Reference
   href: index.md
-  items:
-  - name: child
-    href: child.md
+  items: 
   - name: code
     href: code.md
   - name: control
     href: control.md
-  - name: customcontrol
-    href: customcontrol.md
   - name: data-set
     href: data-set.md
   - name: html
