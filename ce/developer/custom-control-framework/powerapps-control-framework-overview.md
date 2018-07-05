@@ -92,17 +92,18 @@ controlObj.init(context,notifyOutputChanged,state,container);
 |container|An HTML div element to which you will append the HTML elements for the UI that defines your control. To display the value in your UI, you must get the data from the context.parameters.controlValue object. You must implement this in the init function.|
 
 
-### User changes data
+#### User changes data
 After the page loads, your control is just displaying the data until the user interacts with the control to change the data. When this occurs, you can manage it any way you like, but you must call the function passed in as notifyOutputChanged parameter in the init function. When you use this function, the platform will then respond by calling the getOutputs method that you must implement. The getOutputs methods will return any values that represent changes a user made. For a field control, this would typically be the new value for the control.
 
-### App changes data
+#### App changes data
 If the data is changed by the platform it will call the updateView method of your control object and pass a new context object as a parameter. You must implement this method and use it to update the value displayed in the control.
 
-### Page close
+#### Page close
 When the user navigates away from the page the control will lose scope and usually all the memory allocated in that page for the objects in your control will be cleared. However, some items based on the browser implementation mechanism might stay and consume memory. Typically, these are event handlers. If user wants to store the information, they should implement the “setControlState” method so that the information will be given next time within the same session.
 You should define a destroy method in your object. This will be called when the page closes and you should use it to remove any clean up code such as removing any event handlers. 
 
-Before you go ahead and start creating your custom controls, make sure you have all the pre-requisites. 
+### Resources 
+Each custom control should have a resource file to construct its visualization. More information: [Resources](manifest-schema-reference/resources.md)
 
 ### Related topics
 
