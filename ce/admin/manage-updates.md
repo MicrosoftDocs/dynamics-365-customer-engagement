@@ -140,7 +140,7 @@ n = current version, [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-on
 
    4. Train your users for the changes in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
 
-### Dynamics 365 (online), version 9.0 – Approach Two  
+### CRM Online 2016 Update 1 – Approach Two  
  This scenario applies to those who have Production and Sandbox instances of [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (n-2).  
 
 For version information, see: [Dynamics 365 (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
