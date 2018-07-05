@@ -16,7 +16,7 @@ applies_to:
 ms.assetid: e90c6271-9408-4c99-b4af-af7db8a12a12
 ---
 
-[!INCLUDE [manifest-description](manifest-schema-reference/includes/manifest-description.md)]
+[!INCLUDE [manifest](manifest-schema-reference/manifest.md)]
 
 
 ### Related Topics
