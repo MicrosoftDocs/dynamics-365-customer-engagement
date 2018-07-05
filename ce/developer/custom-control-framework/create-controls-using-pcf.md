@@ -24,7 +24,7 @@ This topic will walkthrough how to implement custom controls using PowerApps Con
 
 To create custom controls, follow the steps below:
 
-[Create Manifest file](create-maifest.md)<br/>
+[Create Manifest file](create-maifest-file.md)<br/>
 [Control implementation library using TypeScript or JavaScript](control-implementation-library.md)<br/>
 [Import controls to Dynamics 365]<br/>
 [Debugging custom controls](debugging-custom-controls.md)<br/>
