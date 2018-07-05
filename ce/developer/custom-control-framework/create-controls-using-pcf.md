@@ -30,5 +30,8 @@ To create custom controls, you need to follow the steps below:
 - Debugging custom controls.
 
 
-## Create Manifest file. 
+### Related Topics
+
+[PowerApps Control Framework API Reference](index.md)<br />
+[PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
 
