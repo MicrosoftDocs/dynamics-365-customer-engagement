@@ -22,7 +22,7 @@ ms.custom:
 > [!NOTE]
 > The data acquired through a user's token is exclusively available in your organization's [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solutions.  
   
-[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] provides acquisition tokens (to acquire data on behalf of a user from a social media site) and interaction tokens (to post on behalf of a user to a social media site). The following table shows the tokens available tokens for social profiles.  
+[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] provides acquisition tokens (to acquire data on behalf of a user from a social media site) and interaction tokens (to post on behalf of a user to a social media site). The following table shows the tokens available for social profiles.  
   
 |||  
 |-|-|  
@@ -51,7 +51,7 @@ You need [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] acquisition profile
 
 2. Select the appropriate social profile, and then in the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page/profile details panel, select **Reauthenticate your token** ![Reauthenticate tokens button in Social Engagement](media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") under **Allow data acquisition**, and enter your log-in credentials.  
 
-3. Under **Use for search acquisition**, select the drop-down arrow next to the search acquisition symbol ![Keywords symbol](media/keywords-search-rule-icon.png "Keywords symbol") and select the checkbox next to **Allow** to acquire data from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages. The token will become active after you select the check box.  
+3. Under **Use for search acquisition**, select the drop-down arrow next to the search acquisition symbol ![Keywords symbol](media/keywords-search-rule-icon.png "Keywords symbol") and select the check box next to **Allow** to acquire data from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages. The token will become active after you select the check box.  
 
 4. Select **Save**.  
 
@@ -71,11 +71,12 @@ You need [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] acquisition profile
 
 ## Tokens for interactions with posts 
 
-Adding tokens for interactions with posts allows you to acquire private messages from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], as well as publish and reply to posts. Additionally, you'll need an active [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page interaction token to be able to pull author information for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages you own. An interaction token is needed for every [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page separately. If no interaction token is provided, post and comments from users on the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page will surface in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] without author information.    
+Adding tokens for interactions with posts allows you to acquire private messages from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], as well as publish and reply to posts. Additionally, you'll need an active [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page interaction token to be able to pull author information for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages you own. An interaction token is needed for every [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page separately. If no interaction token is provided, post and comments from users on the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page will surface in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] without author information.   
+
 You can check your token health states to make sure your tokens aren't expired. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Check the health state of your social profiles](social-profiles-health-state.md)  
 
 > [!NOTE]
->  View your social profiles page to add a token. If you don't see the social profile in question, you can add a social profile and add tokens directly.  
+> View your social profiles page to add a token. If you don't see the social profile in question, you can add a social profile and add tokens directly.  
   
 ### Add a Facebook page token and allow data acquisition for private messages  
 
@@ -83,7 +84,7 @@ You can check your token health states to make sure your tokens aren't expired. 
 
 2. Select the appropriate social profile, and in the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page details panel, select **Reauthenticate your token** ![Reauthenticate tokens button in Social Engagement](media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") and enter your  credentials.  
 
-3. Under **Acquisition of private messages**, select the drop-down arrow next to the private messages symbol ![Private messages symbol](media/private-message-icon.png "Private messages symbol") , and then select the check box next to **Allow** to acquire privates messages to and from your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] account. The token will become active after you select the check box.  
+3. Under **Acquisition of private messages**, select the drop-down arrow next to the private messages symbol ![Private messages symbol](media/private-message-icon.png "Private messages symbol") , and then select the check box next to **Allow** to acquire private messages to and from your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] account. The token will become active after you select the check box.  
 
 4. Select **Save**.  
 

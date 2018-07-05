@@ -36,9 +36,9 @@ Currently, you can add the following social profiles:
 
 - **[!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Acquisition**: A [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] user account to use within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. This profile is used to allow data acquisition from [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] and it's needed to acquire data for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages.
 
-- **[!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page**: Interact with posts on [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] with a [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page profile. To add this type of profile, you need to have admin permissions to create posts as the Page, or to send messages as the page. Get in touch with the admin of the [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page to adjust these settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Facebook Help Center: Page Roles](http://go.microsoft.com/fwlink/p/?LinkID=723360)
+- **[!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page**: Interact with posts on [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] with a [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page profile. To add this type of profile, you need to have admin permissions to create posts as the page, or to send messages as the page. Get in touch with the admin of the [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] Page to adjust these settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Facebook Help Center: Page Roles](http://go.microsoft.com/fwlink/p/?LinkID=723360)
 
-- **[!INCLUDE[tn-twitter](../includes/tn-twitter.md)] Profile**: Publish new posts and interact with posts on [!INCLUDE[tn-twitter](../includes/tn-twitter.md)]. Optionally, you can allow data acquisition for direct messages sent to this profile to allow other users create search rules that acquire gather these direct messages. 
+- **[!INCLUDE[tn-twitter](../includes/tn-twitter.md)] Profile**: Publish new posts and interact with posts on [!INCLUDE[tn-twitter](../includes/tn-twitter.md)]. Optionally, you can allow data acquisition for direct messages sent to this profile to allow other users to create search rules that gather these direct messages. 
 
 - **[!INCLUDE[tn-instagram](../includes/tn-instagram.md)] Account**: Interact with posts on [!INCLUDE[tn-instagram](../includes/tn-instagram.md)]. At least one active social profile for [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] is required to gather data from [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] feeds.
 
@@ -48,7 +48,8 @@ Currently, you can add the following social profiles:
 
 - **[!INCLUDE[tn-youtube](../includes/tn-youtube.md)] Profile**: Interact with posts on [!INCLUDE[tn-youtube](../includes/tn-youtube.md)] with a [!INCLUDE[tn-youtube](../includes/tn-youtube.md)] user profile.
 
-With a **Responder** or **Manager** user role, you can add, share, and delete social profiles you own.    
+With a **Responder** or **Manager** user role, you can add, share, and delete social profiles you own.
+
 To learn more about social profiles for data acquisition, see [Manage access tokens](manage-access-tokens.md).
 
 ## Ownership status of social profiles
@@ -86,6 +87,7 @@ Before you can work with a social profile, or use its token for data acquisition
    When you add a social profile for a page you administer, a list will show with all the pages that you can add. Find the pages you want to add, select the **Add** symbol (![Add button](media/add-icon.png "Add button")) and select **Save** to confirm your selection. 
   
 You can now reply and like on behalf of the organization page, but you can’t write new posts.  
+
 Optionally, you can share this social profile with other users in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 ## Share a social profile with other users
@@ -136,7 +138,7 @@ You can delete a social profile that you own. You can also delete a social profi
   
 ## Claim ownership of a social profile  
 
-If you know the credentials to a social profile, you can claim ownership for it. It's handy, for example, when the original owner of a shared profile is removed from the organization and someone else will take ownership for it. Once you successfully claimed ownership, you can start managing the social profile. 
+If you know the credentials to a social profile, you can claim ownership for it. It's handy, for example, when the original owner of a shared profile is removed from the organization and someone else will take ownership of it. Once you successfully claim ownership, you can start managing the social profile. 
   
 1.  Go to **Settings** > **Social Profiles**.  
   
