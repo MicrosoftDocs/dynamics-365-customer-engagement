@@ -60,17 +60,17 @@ To import data into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)],
   
  Use the following settings for mapping notes and attachments:  
   
--   Set the `ColumnMapping.SourceAttributeName` attribute to “`true`” or “`false`”. The “`true`” value indicates an attachment. The “`false`” value indicates a note.  
+- Set the `ColumnMapping.SourceAttributeName` attribute to “`true`” or “`false`”. The “`true`” value indicates an attachment. The “`false`” value indicates a note.  
   
--   Set the `ColumnMapping.TargetAttributeName` attribute to `IsDocument`.  
+- Set the `ColumnMapping.TargetAttributeName` attribute to `IsDocument`.  
   
--   Set the `ColumnMapping.ProcessCode` attribute to the `ImportProcessCode.Internal` value of the `ImportProcessCode` enumeration, if you are using early bound types. For a list of the ProcessCode values, see the picklist values for this entity.  
+- Set the `ColumnMapping.ProcessCode` attribute to the `ImportProcessCode.Internal` value of the `ImportProcessCode` enumeration, if you are using early bound types. For a list of the ProcessCode values, see the picklist values for this entity.  
   
- If the source data represents a note, map the text of the note to the `Annotation.NoteText` attribute. If you are working with Salesforce files, they are usually stored on the disk under unique identification numbers. To import an attachment, you must map a file identification number that is contained in the source file to the `Annotation.DocumentBody` attribute. The `DocumentBody` attribute stores the contents of the attachment.  
+  If the source data represents a note, map the text of the note to the `Annotation.NoteText` attribute. If you are working with Salesforce files, they are usually stored on the disk under unique identification numbers. To import an attachment, you must map a file identification number that is contained in the source file to the `Annotation.DocumentBody` attribute. The `DocumentBody` attribute stores the contents of the attachment.  
   
- The import asynchronous job checks for mappings that have the source attribute name set to “`true`” and “`false`” to discover notes and attachments. If it finds an attachment mapping, it looks for the specified files on the disk and uploads the file contents as attachments into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. If a file is not found, an error is returned.  
+  The import asynchronous job checks for mappings that have the source attribute name set to “`true`” and “`false`” to discover notes and attachments. If it finds an attachment mapping, it looks for the specified files on the disk and uploads the file contents as attachments into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. If a file is not found, an error is returned.  
   
- If you do not provide mapping for an annotation (note) entity, the import job generates a default mapping for the note.  
+  If you do not provide mapping for an annotation (note) entity, the import job generates a default mapping for the note.  
   
 > [!NOTE]
 > [!INCLUDE[sdk_MaxUploadFileSize](../includes/sdk-maxuploadfilesize.md)] However, an attachment size cannot exceed the maximum HTTP request size (the default is 16MB). For the change to take effect, reset [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)]. To do this, click **Start**, click **Run**, type `iisreset`, and then click **OK**.  

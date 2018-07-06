@@ -22,15 +22,15 @@ ms.custom:
 
 Voice of the Customer stores all survey responses in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], and you can analyze them by using features such as:
 
--   Survey response entity
+- Survey response entity
 
--   Advance find queries
+- Advance find queries
 
--   [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] reports
+- [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] reports
 
--   Feedback entity
+- Feedback entity
 
--   Survey dashboard
+- Survey dashboard
 
 You can also generate custom reports based on the responses to meet your requirements. More information about creating reports: [Create or edit a report using the Report Wizard](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/create-edit-copy-report-wizard)  
 
@@ -40,25 +40,25 @@ A survey response record is created after a respondent submits a survey. Based o
 
 To view all survey responses:
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
-2.  Go to **Voice of the Customer** &gt; **Survey Responses**.
+2. Go to **Voice of the Customer** &gt; **Survey Responses**.
 
-3.  Select the survey response you want to view.
+3. Select the survey response you want to view.
 
 To view survey response for a survey:
 
 **Web client**
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-2.  Go to **Voice of the Customer** &gt; **Surveys**.
+2. Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey for which you want to view survey responses.
+3. Select the name of the survey for which you want to view survey responses.
 
-4.  Select the down arrow next to your survey name at the top of the screen, and then select **Survey Responses**.
+4. Select the down arrow next to your survey name at the top of the screen, and then select **Survey Responses**.
 
-5.  Select the survey response you want to view.
+5. Select the survey response you want to view.
 
 **Voice of the Customer app**
 
@@ -123,29 +123,29 @@ You can run the following reports for a survey:
 
 To run and export a report:
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-2.  Go to **Voice of the Customer** &gt; **Surveys**.
+2. Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey for which you want to run a report.
+3. Select the name of the survey for which you want to run a report.
 
-4.  Select **More Commands** on the toolbar, select **Run Report**, and then select the report you want to run.
+4. Select **More Commands** on the toolbar, select **Run Report**, and then select the report you want to run.
 
-5.  To export the report, select **Export**, and then select the format you want:
+5. To export the report, select **Export**, and then select the format you want:
 
-    -   XML file with report data
+   - XML file with report data
 
-    -   CSV (comma-delimited)
+   - CSV (comma-delimited)
 
-    -   Acrobat (PDF) file
+   - Acrobat (PDF) file
 
-    -   MHTML (web archive)
+   - MHTML (web archive)
 
-    -   [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]
+   - [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]
 
-    -   TIFF file
+   - TIFF file
 
-    -   [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)]
+   - [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)]
 
 The report is exported in the selected format.
 
@@ -155,17 +155,17 @@ The survey dashboard allows you to view the summary of survey invitations and re
 
 ![Survey dashboard with invites and responses charts](media/survey-dashboard-invites.png "Survey dashboard with invitations and responses charts")  
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-2.  Go to **Voice of the Customer** &gt; **Surveys**.
+2. Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey for which you want to view the dashboard.
+3. Select the name of the survey for which you want to view the dashboard.
 
-4.  From the **Survey** box, select **Dashboard**.
+4. From the **Survey** box, select **Dashboard**.
 
-    ![Select survey dashboard](media/survey-dashboard.png "Select survey dashboard")  
+   ![Select survey dashboard](media/survey-dashboard.png "Select survey dashboard")  
 
-5.  Select a view and chart from the view list and chart list, respectively. The corresponding chart is displayed.
+5. Select a view and chart from the view list and chart list, respectively. The corresponding chart is displayed.
 
 Additionally, you can create your own customized dashboard. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create or edit dashboards](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-edit-dashboards)  
 

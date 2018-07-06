@@ -76,20 +76,20 @@ A resource in Dynamics 365 for Field Service is anything that needs to be schedu
 <a name="BKMK_AddCharacteristics"></a>   
 ## Add characteristics  
   
-1.  From the resource name submenu,  click **Bookable Resource Characteristics**.  
+1. From the resource name submenu,  click **Bookable Resource Characteristics**.  
   
-2.  Click **Add New Bookable Resource Characteristics**.  
+2. Click **Add New Bookable Resource Characteristics**.  
   
-3.  Use the tooltips to help fill in information, and then click **Save**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up characteristics](../field-service/set-up-characteristics.md)  
+3. Use the tooltips to help fill in information, and then click **Save**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up characteristics](../field-service/set-up-characteristics.md)  
   
 <a name="BKMK_AddResourceTerritories"></a>   
 ## Add resource territories  
   
-1.  From the resource name submenu, click **Resource Territories**.  
+1. From the resource name submenu, click **Resource Territories**.  
   
-2.  Click **Add New Resource Territory**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up territories](../field-service/set-up-territories.md)  
+2. Click **Add New Resource Territory**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up territories](../field-service/set-up-territories.md)  
   
-3.  Use the tooltips to help fill in your information, and then click **Save & Close**.  
+3. Use the tooltips to help fill in your information, and then click **Save & Close**.  
   
 ### See also   
  [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   

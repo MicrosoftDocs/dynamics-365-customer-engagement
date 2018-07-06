@@ -95,7 +95,7 @@ namespace Microsoft.Crm.Sdk.Samples
 
             int retryCount = 100;
 
-            while (asyncjob.StateCode.Value != AsyncOperationState.Completed &amp;&amp; retryCount > 0)
+            while (asyncjob.StateCode.Value != AsyncOperationState.Completed && retryCount > 0)
             {
                 asyncjob = (AsyncOperation)serviceProxy.Retrieve("asyncoperation", asyncJobId, cs);
                 System.Threading.Thread.Sleep(2000);

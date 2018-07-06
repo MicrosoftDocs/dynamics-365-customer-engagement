@@ -67,13 +67,13 @@ Avoid disruptions in service by making sure that your resources are scheduled op
 ## Test your service  
  Before you start using a service, test it. Create a service activity with no criteria other than the service. You can use the results to confirm that the service is selecting correctly. The message bar will also display any problems with the search.  
   
-1.  Click **[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]** > **Service** > **Service Calendar**.  
+1. Click **[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]** > **Service** > **Service Calendar**.  
   
-2.  Click **Service Activity**. This bypasses the scheduling form.  
+2. Click **Service Activity**. This bypasses the scheduling form.  
   
-3.  Select the service to test.  
+3. Select the service to test.  
   
-4.  Click **Find Available Times**.  
+4. Click **Find Available Times**.  
   
 ### See also    
  [Schedule a service activity](../customer-service/schedule-service-activity.md)<br>

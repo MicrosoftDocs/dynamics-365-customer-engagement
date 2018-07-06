@@ -366,6 +366,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_userentityuisettings"></a> userentityinstancedata_userentityuisettings
 
 Same as userentityinstancedata entity [userentityinstancedata_userentityuisettings](userentityinstancedata.md#BKMK_userentityinstancedata_userentityuisettings) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

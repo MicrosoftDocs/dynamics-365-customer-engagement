@@ -59,7 +59,6 @@ Accept: application/json
 HTTP/1.1 204 No Content
 OData-Version: 4.0
 OData-EntityId: [Organization URI]/api/data/v9.0/accounts(7eb682f1-ca75-e511-80d4-00155d2a68d1)
-
 ```
 
  To create a new entity you must identify the valid property names and types. For all system entities and attributes, you can find this information in the topic for that entity in the [Web API EntityType Reference](../about-entity-reference.md). For custom entities or attributes, refer to the definition of that entity in the [CSDL metadata document](web-api-types-operations.md#bkmk_csdl). [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Entity types](web-api-types-operations.md#bkmk_entityTypes)
@@ -107,7 +106,6 @@ Accept: application/json
   }
  ]
 }
-
 ```
 
 **Response**
@@ -117,7 +115,6 @@ Accept: application/json
 HTTP/1.1 204 No Content
 OData-Version: 4.0
 OData-EntityId: [Organization URI]/api/data/v9.0/accounts(3c6e4b5f-86f6-e411-80dd-00155d2a68cb)
-
 ```
 
 <a name="bkmk_associateOnCreate"></a>
@@ -142,7 +139,6 @@ Accept: application/json
 "name":"Sample Account",
 "primarycontactid@odata.bind":"/contacts(00000000-0000-0000-0000-000000000001)"
 }
-
 ```
 
 **Response**
@@ -152,7 +148,6 @@ Accept: application/json
 HTTP/1.1 204 No Content
 OData-Version: 4.0
 OData-EntityId: [Organization URI]/api/data/v9.0/accounts(00000000-0000-0000-0000-000000000002)
-
 ```
 
 > [!NOTE]
@@ -263,7 +258,6 @@ Prefer: return=representation
     "revenue": 5000000,
     "accountcategorycode": 1
 }
-
 ```
 
 **Response**
@@ -288,7 +282,6 @@ OData-Version: 4.0
     "revenue": 5000000.0000,
     "_transactioncurrencyid_value": "048dddaa-6f7f-e611-80d3-00155db5e0b6"
 }
-
 ```
 
 ### See also

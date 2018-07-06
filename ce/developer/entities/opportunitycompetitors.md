@@ -212,6 +212,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_opportunitycompetitors_AsyncOperations"></a> opportunitycompetitors_AsyncOperations
 
 Same as asyncoperation entity [opportunitycompetitors_AsyncOperations](asyncoperation.md#BKMK_opportunitycompetitors_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -226,6 +227,7 @@ Same as asyncoperation entity [opportunitycompetitors_AsyncOperations](asyncoper
 ### <a name="BKMK_opportunitycompetitors_MailboxTrackingFolders"></a> opportunitycompetitors_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [opportunitycompetitors_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_opportunitycompetitors_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -240,6 +242,7 @@ Same as mailboxtrackingfolder entity [opportunitycompetitors_MailboxTrackingFold
 ### <a name="BKMK_opportunitycompetitors_UserEntityInstanceDatas"></a> opportunitycompetitors_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [opportunitycompetitors_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_opportunitycompetitors_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -254,6 +257,7 @@ Same as userentityinstancedata entity [opportunitycompetitors_UserEntityInstance
 ### <a name="BKMK_opportunitycompetitors_BulkDeleteFailures"></a> opportunitycompetitors_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [opportunitycompetitors_BulkDeleteFailures](bulkdeletefailure.md#BKMK_opportunitycompetitors_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -268,6 +272,7 @@ Same as bulkdeletefailure entity [opportunitycompetitors_BulkDeleteFailures](bul
 ### <a name="BKMK_opportunitycompetitors_PrincipalObjectAttributeAccesses"></a> opportunitycompetitors_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [opportunitycompetitors_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_opportunitycompetitors_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

@@ -350,6 +350,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_timezonelocalizedname"></a> userentityinstancedata_timezonelocalizedname
 
 Same as userentityinstancedata entity [userentityinstancedata_timezonelocalizedname](userentityinstancedata.md#BKMK_userentityinstancedata_timezonelocalizedname) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

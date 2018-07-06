@@ -22,7 +22,7 @@ Group Policy provides an infrastructure for centralized configuration management
   
 > [!IMPORTANT]
 >  You must run the [!INCLUDE[pn_Microsoft_Dynamics_CRM_for_Outlook_Setup](../../includes/pn-microsoft-dynamics-crm-for-outlook-setup.md)] program (SetupClient.exe) by using the administrative installation option (/A) to create a Windows Installer package (CRMClient_*bitversion*.msi) for Group Policy deployment. You cannot use the Windows Installer package (Client.msi) that is included with the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] installation files to deploy by using Group Policy. For more information about how to perform an administrative installation, see [Install Microsoft Dynamics 365 for Outlook](install-using-command-prompt.md).  
->   
+> 
 >  To complete this procedure, you must be a member of the Domain Administrators security group, the Enterprise Administrators security group, or the Group Policy Creator Owners security group.  
   
 <a name="BKMK_PreparingGroupPolicy"></a>   
@@ -31,55 +31,55 @@ Group Policy provides an infrastructure for centralized configuration management
   
 ### Create the CRMClient_*bitversion*.msi file  
   
-1.  Before you build the CRMClient_*bitversion*.msi file, you can edit the Default-Client_Config.xml file that is included with the installation files. This file is used by the [!INCLUDE[pn_Outlook_Config_Wiz_long](../../includes/pn-outlook-config-wiz-long.md)] to establish settings, such as the organization URL, after [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is installed on the user’s computer. Although this step is optional, it can simplify [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] configuration for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] users. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Step 2: Configure Microsoft Dynamics 365 for Outlook by using an XML configuration file](install-using-command-prompt.md#BKMK_Step2Configure)  
+1. Before you build the CRMClient_*bitversion*.msi file, you can edit the Default-Client_Config.xml file that is included with the installation files. This file is used by the [!INCLUDE[pn_Outlook_Config_Wiz_long](../../includes/pn-outlook-config-wiz-long.md)] to establish settings, such as the organization URL, after [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is installed on the user’s computer. Although this step is optional, it can simplify [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] configuration for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] users. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Step 2: Configure Microsoft Dynamics 365 for Outlook by using an XML configuration file](install-using-command-prompt.md#BKMK_Step2Configure)  
   
-2.  Determine the distribution share, and then run [!INCLUDE[pn_Microsoft_Dynamics_CRM_for_Outlook_Setup](../../includes/pn-microsoft-dynamics-crm-for-outlook-setup.md)] to build the administrative installation files.  
+2. Determine the distribution share, and then run [!INCLUDE[pn_Microsoft_Dynamics_CRM_for_Outlook_Setup](../../includes/pn-microsoft-dynamics-crm-for-outlook-setup.md)] to build the administrative installation files.  
   
-    > [!IMPORTANT]
-    >  The CRMClient_*bitversion*.msi file is used as the package for Group Policy software installation. After you follow this procedure, users can select [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] in [!INCLUDE[pn_Control_Panel](../../includes/pn-control-panel.md)] for on-demand installation. You can’t use the CRMClient_*bitversion*.msi file directly to install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
+   > [!IMPORTANT]
+   >  The CRMClient_*bitversion*.msi file is used as the package for Group Policy software installation. After you follow this procedure, users can select [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] in [!INCLUDE[pn_Control_Panel](../../includes/pn-control-panel.md)] for on-demand installation. You can’t use the CRMClient_*bitversion*.msi file directly to install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
   
-    1.  Create a network share that all [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] users will have access to. This share will be the distribution location for the GPO.  
+   1. Create a network share that all [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] users will have access to. This share will be the distribution location for the GPO.  
   
-    2.  Run SetupClient.exe at the command prompt by using the /A and /targetdir parameters. The /A parameter specifies an administrative installation, and /targetdir parameter specifies the distribution share that you created in the previous step. For more information about  [!INCLUDE[pn_Microsoft_Dynamics_CRM_for_Outlook_Setup](../../includes/pn-microsoft-dynamics-crm-for-outlook-setup.md)] command prompt parameters, see [Step 1: Install files](install-using-command-prompt.md#BKMK_Step1Install).  
+   2. Run SetupClient.exe at the command prompt by using the /A and /targetdir parameters. The /A parameter specifies an administrative installation, and /targetdir parameter specifies the distribution share that you created in the previous step. For more information about  [!INCLUDE[pn_Microsoft_Dynamics_CRM_for_Outlook_Setup](../../includes/pn-microsoft-dynamics-crm-for-outlook-setup.md)] command prompt parameters, see [Step 1: Install files](install-using-command-prompt.md#BKMK_Step1Install).  
   
-         Example:  
+       Example:  
   
-        ```  
-        setupclient.exe /a /q /targetdir \\FileShare\CRMforOutlook  
+      ```  
+      setupclient.exe /a /q /targetdir \\FileShare\CRMforOutlook  
   
-        ```  
+      ```  
   
-    3.  Consider using Microsoft Distributed File System (DFS) to help improve the security and availability of your distribution points. For more information about DFS, see [DFS Namespaces and DFS Replication Overview](https://technet.microsoft.com/library/jj127250.aspx). We recommend that you understand the DFS features before you configure your distribution point servers.  
+   3. Consider using Microsoft Distributed File System (DFS) to help improve the security and availability of your distribution points. For more information about DFS, see [DFS Namespaces and DFS Replication Overview](https://technet.microsoft.com/library/jj127250.aspx). We recommend that you understand the DFS features before you configure your distribution point servers.  
   
-3.  Create the Group Policy Object (GPO) and target the application to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] users. To do this, follow these steps:  
+3. Create the Group Policy Object (GPO) and target the application to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] users. To do this, follow these steps:  
   
-    1.  On a domain controller in the domain where [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] is installed, start Group Policy Management.  
+   1. On a domain controller in the domain where [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] is installed, start Group Policy Management.  
   
-    2.  In Group Policy Management, expand **Forest**, **Domains** right-click the domain, and then click **Create a GPO in this domain, and Link it here**.  
+   2. In Group Policy Management, expand **Forest**, **Domains** right-click the domain, and then click **Create a GPO in this domain, and Link it here**.  
   
-    3.  In the **New GPO** dialog, type a name for the GPO, such as *Microsoft Dynamics 365 Users*, and then click **OK**.  
+   3. In the **New GPO** dialog, type a name for the GPO, such as *Microsoft Dynamics 365 Users*, and then click **OK**.  
   
-         Creating a GPO at the domain level configures the GPO with domain-wide scope.  
+       Creating a GPO at the domain level configures the GPO with domain-wide scope.  
   
-    4.  In the group policy pane, right-click the GPO that you created in the previous step, and then click **Edit**.  
+   4. In the group policy pane, right-click the GPO that you created in the previous step, and then click **Edit**.  
   
-         The Group Policy Management Editor opens.  
+       The Group Policy Management Editor opens.  
   
-    5.  In **Group Policy Management Editor**, under **User Configuration**, expand **Policies**, and then expand **Software Settings**.  
+   5. In **Group Policy Management Editor**, under **User Configuration**, expand **Policies**, and then expand **Software Settings**.  
   
-    6.  Right-click **Software Installation**, point to **New**, and then click **Package**.  
+   6. Right-click **Software Installation**, point to **New**, and then click **Package**.  
   
-    7.  Type the full path or locate the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] Windows Installer package (CRMClient_64.msi or CRMClient_32.msi) that was created by the administrative installation, and then click **Open**. For more information about how to create an administrative install package for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see the /A parameter in [Install Microsoft Dynamics 365 for Outlook using a Command Prompt](install-using-command-prompt.md).  
+   7. Type the full path or locate the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] Windows Installer package (CRMClient_64.msi or CRMClient_32.msi) that was created by the administrative installation, and then click **Open**. For more information about how to create an administrative install package for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see the /A parameter in [Install Microsoft Dynamics 365 for Outlook using a Command Prompt](install-using-command-prompt.md).  
   
-        > [!IMPORTANT]
-        >  The [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] administrative installation folders must be on a network share that can be read-accessed by [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] users in the domain.  
+      > [!IMPORTANT]
+      >  The [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] administrative installation folders must be on a network share that can be read-accessed by [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] users in the domain.  
+      > 
+      > [!TIP]
+      >  By default, the package name is *Microsoft Dynamics 365 \<version> for Outlook* for both 32-bit and 64-bit packages. Consider renaming the package to [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] \<version> 64-(bit) or [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] \<version> (32-bit). This name appears in [!INCLUDE[pn_Control_Panel](../../includes/pn-control-panel.md)] in the list of programs to install from the network.  
   
-        > [!TIP]
-         By default, the package name is *Microsoft Dynamics 365 \<version> for Outlook* for both 32-bit and 64-bit packages. Consider renaming the package to [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] \<version> 64-(bit) or [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] \<version> (32-bit). This name appears in [!INCLUDE[pn_Control_Panel](../../includes/pn-control-panel.md)] in the list of programs to install from the network.  
+   8. In the Deploy Software dialog, select **Publish** to publish the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] application, and then click **OK**.  
   
-    8.  In the Deploy Software dialog, select **Publish** to publish the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] application, and then click **OK**.  
-  
-    9. By default, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is available in [!INCLUDE[pn_Control_Panel](../../includes/pn-control-panel.md)] for all authenticated users the next time that they log on to the domain. To limit the scope to a specific organizational unit (OU), group, or individual user, in Group Policy Management, expand **Group Policy Objects**, and click the GPO named *Microsoft Dynamics 365 Users*, and then add or remove the security objects that you want, such as a group, in the **Security Filtering** area of the publication on the **Scope** tab.  
+   9. By default, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is available in [!INCLUDE[pn_Control_Panel](../../includes/pn-control-panel.md)] for all authenticated users the next time that they log on to the domain. To limit the scope to a specific organizational unit (OU), group, or individual user, in Group Policy Management, expand **Group Policy Objects**, and click the GPO named *Microsoft Dynamics 365 Users*, and then add or remove the security objects that you want, such as a group, in the **Security Filtering** area of the publication on the **Scope** tab.  
   
 <a name="BKMK_PublishAssign"></a>   
 ## Publish versus Assign  

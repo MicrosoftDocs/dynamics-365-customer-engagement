@@ -27,27 +27,27 @@ You can enable folder-level tracking for [!INCLUDE[pn_Microsoft_Exchange](../inc
   
 ## Enable folder-level tracking  
   
-1.  In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], click **Settings** > **Email Configuration**.  
+1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], click **Settings** > **Email Configuration**.  
   
-2.  Click **Email Configuration Settings**.  
+2. Click **Email Configuration Settings**.  
   
-3.  Confirm that **Process Email Using** is set to **Server-Side Synchronization**.  
+3. Confirm that **Process Email Using** is set to **Server-Side Synchronization**.  
   
-4.  Enable **Use folder-level tracking from Exchange folders (server-side synchronization must be enabled)**.  
+4. Enable **Use folder-level tracking from Exchange folders (server-side synchronization must be enabled)**.  
   
-5.  Configure other tracking options on this page, and then click **OK**.  
+5. Configure other tracking options on this page, and then click **OK**.  
   
 Once you’ve enabled folder-level tracking, users will need to configure folder-tracking rules in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] with Settings (![Gear button](../admin/media/selection-rule-gear.gif "Gear button")) > **Options** > **Email** > **Configure Folder Tracking Rules**.  
   
 ## Some important points about folder-level tracking  
   
--   Folder-level tracking of emails will work only if your organization is configured to use server-side synchronization for emails. Server-side synchronization must be configured for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] (and not POP3) mailboxes. For more information, see [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).  
+- Folder-level tracking of emails will work only if your organization is configured to use server-side synchronization for emails. Server-side synchronization must be configured for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] (and not POP3) mailboxes. For more information, see [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).  
   
--   You can track emails only in folders under your Inbox folder in [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)]. Other folder emails cannot be tracked.  
+- You can track emails only in folders under your Inbox folder in [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)]. Other folder emails cannot be tracked.  
   
--   You can track up to a maximum of 25 folders per user account.  
+- You can track up to a maximum of 25 folders per user account.  
   
--   Any manual changes done to the regarding object in the tracked activity records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] will be overridden the next time server-side synchronization kicks in. For example, if you have set up a mapping between the Adventure Works folder and the Adventure Works account, all the emails in the Adventure Works [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder will be tracked as activities in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] with the regarding set to the Adventure Works account record. If you change the regarding to some other record, it will automatically be overridden the next time server-side synchronization occurs. To change the regarding for any email, move the email to a different folder such as the Inbox.  
+- Any manual changes done to the regarding object in the tracked activity records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] will be overridden the next time server-side synchronization kicks in. For example, if you have set up a mapping between the Adventure Works folder and the Adventure Works account, all the emails in the Adventure Works [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder will be tracked as activities in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] with the regarding set to the Adventure Works account record. If you change the regarding to some other record, it will automatically be overridden the next time server-side synchronization occurs. To change the regarding for any email, move the email to a different folder such as the Inbox.  
   
 ### See also  
  [System Settings dialog box - Email tab](system-settings-dialog-box-email-tab.md)   

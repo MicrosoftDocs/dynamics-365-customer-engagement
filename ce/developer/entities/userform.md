@@ -572,6 +572,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_socialinsightsconfiguration_userform"></a> socialinsightsconfiguration_userform
 
 Same as socialinsightsconfiguration entity [socialinsightsconfiguration_userform](socialinsightsconfiguration.md#BKMK_socialinsightsconfiguration_userform) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialinsightsconfiguration|
@@ -586,6 +587,7 @@ Same as socialinsightsconfiguration entity [socialinsightsconfiguration_userform
 ### <a name="BKMK_userentityinstancedata_userform"></a> userentityinstancedata_userform
 
 Same as userentityinstancedata entity [userentityinstancedata_userform](userentityinstancedata.md#BKMK_userentityinstancedata_userform) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -600,6 +602,7 @@ Same as userentityinstancedata entity [userentityinstancedata_userform](userenti
 ### <a name="BKMK_UserForm_AsyncOperations"></a> UserForm_AsyncOperations
 
 Same as asyncoperation entity [UserForm_AsyncOperations](asyncoperation.md#BKMK_UserForm_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -614,6 +617,7 @@ Same as asyncoperation entity [UserForm_AsyncOperations](asyncoperation.md#BKMK_
 ### <a name="BKMK_UserForm_BulkDeleteFailures"></a> UserForm_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [UserForm_BulkDeleteFailures](bulkdeletefailure.md#BKMK_UserForm_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|

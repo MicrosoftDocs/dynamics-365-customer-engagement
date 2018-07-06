@@ -593,6 +593,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_position_AsyncOperations"></a> position_AsyncOperations
 
 Same as asyncoperation entity [position_AsyncOperations](asyncoperation.md#BKMK_position_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -607,6 +608,7 @@ Same as asyncoperation entity [position_AsyncOperations](asyncoperation.md#BKMK_
 ### <a name="BKMK_position_ProcessSession"></a> position_ProcessSession
 
 Same as processsession entity [position_ProcessSession](processsession.md#BKMK_position_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -621,6 +623,7 @@ Same as processsession entity [position_ProcessSession](processsession.md#BKMK_p
 ### <a name="BKMK_position_users"></a> position_users
 
 Same as systemuser entity [position_users](systemuser.md#BKMK_position_users) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|systemuser|
@@ -635,6 +638,7 @@ Same as systemuser entity [position_users](systemuser.md#BKMK_position_users) Ma
 ### <a name="BKMK_position_parent_position"></a> position_parent_position
 
 Same as position entity [position_parent_position](position.md#BKMK_position_parent_position) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|position|
@@ -649,6 +653,7 @@ Same as position entity [position_parent_position](position.md#BKMK_position_par
 ### <a name="BKMK_Position_SyncErrors"></a> Position_SyncErrors
 
 Same as syncerror entity [Position_SyncErrors](syncerror.md#BKMK_Position_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -663,6 +668,7 @@ Same as syncerror entity [Position_SyncErrors](syncerror.md#BKMK_Position_SyncEr
 ### <a name="BKMK_position_connection2"></a> position_connection2
 
 Same as connection entity [position_connection2](connection.md#BKMK_position_connection2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -677,6 +683,7 @@ Same as connection entity [position_connection2](connection.md#BKMK_position_con
 ### <a name="BKMK_position_principalobjectattributeaccess"></a> position_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [position_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_position_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -691,6 +698,7 @@ Same as principalobjectattributeaccess entity [position_principalobjectattribute
 ### <a name="BKMK_position_connection1"></a> position_connection1
 
 Same as connection entity [position_connection1](connection.md#BKMK_position_connection1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|

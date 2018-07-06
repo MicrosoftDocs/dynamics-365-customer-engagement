@@ -26,13 +26,13 @@ For [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagem
   
 ### Stop and restart the service  
   
-1.  Navigate to **Start**, select **Administrative Tools**, then click **Services**.  
+1. Navigate to **Start**, select **Administrative Tools**, then click **Services**.  
   
-2.  Right-click **Dynamics 365 Asynchronous Processing Service** in the **Name** column of the service listing.  
+2. Right-click **Dynamics 365 Asynchronous Processing Service** in the **Name** column of the service listing.  
   
-3.  Click **Start** or **Stop**. Or, you can click **Properties** in the shortcut menu and then click **Start** or **Stop** in the dialog box.  
+3. Click **Start** or **Stop**. Or, you can click **Properties** in the shortcut menu and then click **Start** or **Stop** in the dialog box.  
   
- You must have System Administrator privileges to stop or start the service.  
+   You must have System Administrator privileges to stop or start the service.  
   
 ### See also  
  [Asynchronous Service in Dynamics 365](asynchronous-service.md)

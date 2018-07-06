@@ -28,24 +28,24 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)],  you can track m
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)] [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)] [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2.  [!INCLUDE[proc_logo_settings](../includes/proc-logo-settings.md)]  
+2. [!INCLUDE[proc_logo_settings](../includes/proc-logo-settings.md)]  
   
 3. [!INCLUDE[proc_settings_service_mgmt](../includes/proc-settings-service-mgmt.md)]  
     
-4.  Click **Parent and Child case settings**.  
+4. Click **Parent and Child case settings**.  
   
-5.  In the **Case Settings** dialog box, select the attributes that the child case will be inherit from the parent case.  
+5. In the **Case Settings** dialog box, select the attributes that the child case will be inherit from the parent case.  
   
-6.  Using the Parent and Child case settings, specify the information that will be inherited from a parent case to the child case. You can also select a case closure setting that defines how parent and child cases are closed. Select one of the case closure preference for parent and child cases:  
+6. Using the Parent and Child case settings, specify the information that will be inherited from a parent case to the child case. You can also select a case closure setting that defines how parent and child cases are closed. Select one of the case closure preference for parent and child cases:  
   
-    - **Close all child cases when parent case is closed**: The parent case can’t be closed until all the child cases are closed.  
+   - **Close all child cases when parent case is closed**: The parent case can’t be closed until all the child cases are closed.  
   
     > [!NOTE]
     >  If you don’t make a selection, parent and child cases are closed independently of each other. This is the default setting.  
   
-7.  When you’re done, click **OK**.  
+7. When you’re done, click **OK**.  
   
 ### See also  
 [Get started with service management](../customer-service/service-manager-guide.md)</br>

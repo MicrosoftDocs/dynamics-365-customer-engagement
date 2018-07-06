@@ -33,37 +33,37 @@ Products are the backbone of your business. They can be physical products or ser
 
 2. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Products**.  
   
-3.  To create a child product to an existing product family, select the family in the list, and then on the command bar, select **Add Product**. The selected family becomes the parent family of the new product you're creating. You can't change the parent of a product after the product is created. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product family](../sales-enterprise/create-product-family.md)  
+3. To create a child product to an existing product family, select the family in the list, and then on the command bar, select **Add Product**. The selected family becomes the parent family of the new product you're creating. You can't change the parent of a product after the product is created. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product family](../sales-enterprise/create-product-family.md)  
   
-    -OR-  
+   -OR-  
   
-    If you want to create an independent product, simply select **Add Product**. 
+   If you want to create an independent product, simply select **Add Product**. 
 
-    ![List of products](media/products-grid.png "Products grid") 
+   ![List of products](media/products-grid.png "Products grid") 
   
-4.  Fill in your information:  
+4. Fill in your information:  
   
-    - **Name**. 
+   - **Name**. 
 
-    - **Product ID**.
+   - **Product ID**.
 
-    - **Parent**. Select a parent product family for the product. If you're creating a child product in a product family, the name of the parent product family is populated here. This can't be changed after the record is saved.
+   - **Parent**. Select a parent product family for the product. If you're creating a child product in a product family, the name of the parent product family is populated here. This can't be changed after the record is saved.
 
-    - **Valid From**/**Valid To**. Define the period the product is valid for by selecting a **Valid From** and **Valid To** date.
+   - **Valid From**/**Valid To**. Define the period the product is valid for by selecting a **Valid From** and **Valid To** date.
     
-    - **Unit Group**. Select a unit group. A unit group is a collection of various units a product is sold in and defines how individual items are grouped into larger quantities. For example, if you're adding seeds as a product, you may have created a unit group called "Seeds," and defined its primary unit as "packet."  
+   - **Unit Group**. Select a unit group. A unit group is a collection of various units a product is sold in and defines how individual items are grouped into larger quantities. For example, if you're adding seeds as a product, you may have created a unit group called "Seeds," and defined its primary unit as "packet."  
   
-    - **Default Unit**. Select the most common unit in which the product will be sold. Units are the quantities or measurements that you sell your products in. For example, if you're adding seeds as a product, you can sell it in packets, boxes or pallets. Each of these becomes a unit of the product. If seeds are mostly sold in packets, select that as the unit. 
+   - **Default Unit**. Select the most common unit in which the product will be sold. Units are the quantities or measurements that you sell your products in. For example, if you're adding seeds as a product, you can sell it in packets, boxes or pallets. Each of these becomes a unit of the product. If seeds are mostly sold in packets, select that as the unit. 
 
-      [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a unit group and add units to that group](../sales-enterprise/create-unit-group-add-units-that-group.md)  
+     [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a unit group and add units to that group](../sales-enterprise/create-unit-group-add-units-that-group.md)  
 
-    - **Default Price List**. If this is a new product, this field is read-only. Before you can select a default price list, you must complete all the required fields, and then save the record. Although the default price list is not required, after you save the product record, it is a good idea to set a default price list for each product. Then, if a customer record does not contain a price list, [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)] can use the default price list for generating quotes, orders, and invoices.
+   - **Default Price List**. If this is a new product, this field is read-only. Before you can select a default price list, you must complete all the required fields, and then save the record. Although the default price list is not required, after you save the product record, it is a good idea to set a default price list for each product. Then, if a customer record does not contain a price list, [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)] can use the default price list for generating quotes, orders, and invoices.
 
-    - **Decimals Supported**. Enter a whole number between 0 and 5. If the product can't be divided into fractional quantities, enter 0. The precision of the Quantity field in the quote, order, or invoice product record is validated against the value in this field if the product does not have an associated price list.
+   - **Decimals Supported**. Enter a whole number between 0 and 5. If the product can't be divided into fractional quantities, enter 0. The precision of the Quantity field in the quote, order, or invoice product record is validated against the value in this field if the product does not have an associated price list.
 
-    - **Subject**. Associate this product with a subject. You can use subjects to categorize your products and to filter reports.
+   - **Subject**. Associate this product with a subject. You can use subjects to categorize your products and to filter reports.
   
-5.  Select **Save**.  
+5. Select **Save**.  
   
 6. If you're creating this product under a family, the product will inherit the properties from its parent family. To change a product's property, in the Product Properties section, open the property by selecting the name, and selecting **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
   
@@ -77,7 +77,7 @@ Products are the backbone of your business. They can be physical products or ser
 9. Select **Save**.  
   
 > [!NOTE]
-
+> 
 > Previewing the properties of product is currently not supported in the Sales Hub app.
 
 
@@ -87,39 +87,39 @@ Products are the backbone of your business. They can be physical products or ser
   
     #### Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
   
-3.  In the **Product Catalog** area, select **Families & Products**.  
+3. In the **Product Catalog** area, select **Families & Products**.  
   
-4.  If you want to create a child product to an existing product family, select the family in the list, and then select **Add Product**. The selected family becomes the parent family of the new product you're creating. You can't change the parent of a product after the product is created. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product family](../sales-enterprise/create-product-family.md)  
+4. If you want to create a child product to an existing product family, select the family in the list, and then select **Add Product**. The selected family becomes the parent family of the new product you're creating. You can't change the parent of a product after the product is created. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product family](../sales-enterprise/create-product-family.md)  
   
-     -OR-  
+    -OR-  
   
-     If you want to create an independent product, simply select **Add Product**.  
+    If you want to create an independent product, simply select **Add Product**.  
   
-5.  Fill in your information:  
+5. Fill in your information:  
   
-    - **Unit Group**. Select a unit group. A unit group is a collection of various units a product is sold in and defines how individual items are grouped into larger quantities. For example, if you're adding seeds as a product, you may have created a unit group called "Seeds," and defined its primary unit as "packet."  
+   - **Unit Group**. Select a unit group. A unit group is a collection of various units a product is sold in and defines how individual items are grouped into larger quantities. For example, if you're adding seeds as a product, you may have created a unit group called "Seeds," and defined its primary unit as "packet."  
   
-    - **Unit**. Select the most common unit in which the product will be sold. Units are the quantities or measurements that you sell your products in. For example, if you're adding seeds as a product, you can sell it in packets, boxes or pallets. Each of these becomes a unit of the product. If seeds are mostly sold in packets, select that as the unit.  
+   - **Unit**. Select the most common unit in which the product will be sold. Units are the quantities or measurements that you sell your products in. For example, if you're adding seeds as a product, you can sell it in packets, boxes or pallets. Each of these becomes a unit of the product. If seeds are mostly sold in packets, select that as the unit.  
   
-    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a unit group and add units to that group](../sales-enterprise/create-unit-group-add-units-that-group.md)  
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a unit group and add units to that group](../sales-enterprise/create-unit-group-add-units-that-group.md)  
   
-    > [!NOTE]
-    >  The **Valid From** and **Valid To** fields define how long a product is valid for. There's no business logic associated with these fields except that the **Valid To** date must be later than the **Valid From** date. If required, you can implement your own business logic in these fields with a workflow, plug-in, or by using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. For example, run a scheduled job to automatically retire last season's products using the date selected in the **Valid To** field.  
+   > [!NOTE]
+   >  The **Valid From** and **Valid To** fields define how long a product is valid for. There's no business logic associated with these fields except that the **Valid To** date must be later than the **Valid From** date. If required, you can implement your own business logic in these fields with a workflow, plug-in, or by using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. For example, run a scheduled job to automatically retire last season's products using the date selected in the **Valid To** field.  
   
-6.  Select **Save**.  
+6. Select **Save**.  
   
-7.  In the **Price List Items** section, select the **Add a Record** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button"), and create a price list item for each unit the product is available in. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create price lists and price list items to define pricing of products](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)  
+7. In the **Price List Items** section, select the **Add a Record** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button"), and create a price list item for each unit the product is available in. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create price lists and price list items to define pricing of products](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)  
   
-8.  In the **Default price list** box, select a default price list. [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] uses this price list for calculations when the associated price list in the opportunity or order for the product does not contain a price definition of the product.  
+8. In the **Default price list** box, select a default price list. [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] uses this price list for calculations when the associated price list in the opportunity or order for the product does not contain a price definition of the product.  
   
-    > [!NOTE]
-    >  A price list will be available for selection only when the product you're creating is added to it as a price list item (as described in **Step 7**).  
+   > [!NOTE]
+   >  A price list will be available for selection only when the product you're creating is added to it as a price list item (as described in **Step 7**).  
   
 9. If you're creating this product under a family, the product will inherit the properties from its parent family. To change a product's property, in the Product Properties section, open the property by selecting the name, and selecting **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
   

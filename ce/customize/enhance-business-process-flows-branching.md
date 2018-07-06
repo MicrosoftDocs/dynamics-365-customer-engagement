@@ -59,19 +59,19 @@ Business process flows guide you through various stages of sales, marketing, or 
   
 1. [!INCLUDE[proc_settings_processes](../includes/proc-settings-processes.md)]  
   
-2.  Select **New** to create a new process.  
+2. Select **New** to create a new process.  
   
-3.  Specify the **Category** as **Business Process Flow** and for the primary **Entity** choose **Lead**.  
+3. Specify the **Category** as **Business Process Flow** and for the primary **Entity** choose **Lead**.  
   
-4.  Add the first stage to the process called **Qualify** and add steps **Purchase Time frame** and **Car Preference**.  
+4. Add the first stage to the process called **Qualify** and add steps **Purchase Time frame** and **Car Preference**.  
   
-5.  After the common **Qualify** stage, we split the process into to two separate branches, by using the **Condition** tile.  
+5. After the common **Qualify** stage, we split the process into to two separate branches, by using the **Condition** tile.  
   
-    1.  Configure the condition tile with rules that meet your business requirements  
+   1.  Configure the condition tile with rules that meet your business requirements  
   
-    2.  To add the first branch for a stage, add a Stage tile on the “Yes” path of the condition tile  
+   2.  To add the first branch for a stage, add a Stage tile on the “Yes” path of the condition tile  
   
-    3.  To add the second branch that is executed when condition is not satisfied, add another Stage tile on the “No” path of the condition tile  
+   3.  To add the second branch that is executed when condition is not satisfied, add another Stage tile on the “No” path of the condition tile  
   
 > [!TIP]
 >  You can add another condition on the “no” path of an existing condition tile to create more complex branching.  

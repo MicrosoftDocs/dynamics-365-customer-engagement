@@ -45,7 +45,7 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
 - **Invoice and inventory adjustment**: Inventory adjustments are made and an invoice is generated for the corresponding account.  
   
- ![Work order lifecycle in Dynamics 365 field service](../field-service/media/field-service-work-order-lifecycle.png "Work order lifecycle in Dynamics 365 field service")  
+  ![Work order lifecycle in Dynamics 365 field service](../field-service/media/field-service-work-order-lifecycle.png "Work order lifecycle in Dynamics 365 field service")  
   
 ||||||||  
 |-|-|-|-|-|-|-|  
@@ -57,9 +57,9 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
 <a name="BKMK_newworkorder"></a>   
 ## Create a work order  
   
-1.  From the main menu, click **Field Service** > **Work orders**.  
+1. From the main menu, click **Field Service** > **Work orders**.  
   
-2.  Click **+New** in the upper-left corner.  
+2. Click **+New** in the upper-left corner.  
   
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
@@ -95,12 +95,12 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
 ## Add service tasks, products, or services to the work order  
  When the work order has been created and saved, you can then add any related tasks, products, or services to the work order.  
   
--   Go to the **Service Tasks** section and click **+Add Work Order Service Task record**. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)] [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up service task types  ](../field-service/set-up-service-task-types.md)  
+- Go to the **Service Tasks** section and click **+Add Work Order Service Task record**. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)] [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up service task types  ](../field-service/set-up-service-task-types.md)  
   
--   Go to the **Products** or **Services** section and click the **+**  button. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)][!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product or service ](../field-service/create-product-or-service.md)  
+- Go to the **Products** or **Services** section and click the **+**  button. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)][!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product or service ](../field-service/create-product-or-service.md)  
   
-    > [!NOTE]
-    >  When you add a product, remember that if you want to reserve a product for the work order, set **Allocated** to **Yes**.  
+  > [!NOTE]
+  >  When you add a product, remember that if you want to reserve a product for the work order, set **Allocated** to **Yes**.  
   
 ### See also  
     

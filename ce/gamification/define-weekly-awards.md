@@ -40,9 +40,9 @@ Configure weekly awards to keep players focused on delivering results for the ri
 
     Optionally, **Add** ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification") more places and configure prizes for them if you want.  
 
-6.  Click **Save** to apply your configuration.  
+6. Click **Save** to apply your configuration.  
 
- Weekly awards are now awarded automatically to the winning players. Make sure you follow up with them to deliver the prizes. You can edit the weekly awards later if you want to change the prizes or the associated KPIs.  
+   Weekly awards are now awarded automatically to the winning players. Make sure you follow up with them to deliver the prizes. You can edit the weekly awards later if you want to change the prizes or the associated KPIs.  
   
 ### See also
 

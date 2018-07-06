@@ -22,25 +22,25 @@ manager: "brycho"
 
 You may occasionally run across issues that require consultation with your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator. If you don’t know who your administrator is, you can use Advanced Find to find your administrator.  
   
-1.  Sign in to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization.  
+1. Sign in to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization.  
   
-2.  Open the Sales, Customer Service, Field Service, or Project Service Automation app, and then on the nav bar, choose the **Advanced Find** button ![Screen shot of Advanced Find button](../basics/media/advanced-find-button.PNG "Screen shot of Advanced Find button").  
+2. Open the Sales, Customer Service, Field Service, or Project Service Automation app, and then on the nav bar, choose the **Advanced Find** button ![Screen shot of Advanced Find button](../basics/media/advanced-find-button.PNG "Screen shot of Advanced Find button").  
   
- ![Advanced Find on Command bar in Dynamics 365](../basics/media/find-administrator-advanced-find.png "Advanced Find on Command bar in Dynamics 365")  
+   ![Advanced Find on Command bar in Dynamics 365](../basics/media/find-administrator-advanced-find.png "Advanced Find on Command bar in Dynamics 365")  
   
-3.  On the Advanced Find page, in the **Look for** list, select **Users**.  
+3. On the Advanced Find page, in the **Look for** list, select **Users**.  
   
-4.  Point to **Select**, and then select **Security Roles** from the list.  
+4. Point to **Select**, and then select **Security Roles** from the list.  
   
-5.  Under **Fields**, select **Names**.  
+5. Under **Fields**, select **Names**.  
   
-6.  Enter **System Administrator** in the box that says **Enter Text**. At this point, your screen should look like this:  
+6. Enter **System Administrator** in the box that says **Enter Text**. At this point, your screen should look like this:  
   
- ![Advanced Find dialog box in Dynamics 365](../basics/media/find-admnistrator-advanced-find-complete.png "Advanced Find dialog box in Dynamics 365")  
+   ![Advanced Find dialog box in Dynamics 365](../basics/media/find-admnistrator-advanced-find-complete.png "Advanced Find dialog box in Dynamics 365")  
   
-7.  Choose the **Results** button on the ribbon.  
+7. Choose the **Results** button on the ribbon.  
   
- You should see a list of one or more system administrators.  
+   You should see a list of one or more system administrators.  
   
 ### See also  
  [Get Help from the Dynamics 365 Community](http://go.microsoft.com/fwlink/p/?LinkID=856838)

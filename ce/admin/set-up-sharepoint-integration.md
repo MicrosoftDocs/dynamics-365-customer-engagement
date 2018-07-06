@@ -24,15 +24,15 @@ With [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can use th
   
  For document management functionality, you either enable server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration (recommended) or install the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)], a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] solution, on a site collection in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. Server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration is recommended instead of the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] for the following reasons.  
   
--   Users sign-in once and do not have to sign-in to both [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. With the list component, users must sign in to both.  
+- Users sign-in once and do not have to sign-in to both [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. With the list component, users must sign in to both.  
   
--   The list component is a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] sandboxed solution. Sandboxed solutions are being deprecated and will no longer be available for both [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-sharepoint-online.md)] and later versions of [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sandboxed solutions overview](https://technet.microsoft.com/library/ee721992%28v=office.14%29.aspx)  
+- The list component is a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] sandboxed solution. Sandboxed solutions are being deprecated and will no longer be available for both [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-sharepoint-online.md)] and later versions of [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sandboxed solutions overview](https://technet.microsoft.com/library/ee721992%28v=office.14%29.aspx)  
   
--   No additional software is required to install on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
+- No additional software is required to install on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
   
 - [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] documents will display in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] lists.  
   
--   Users can perform [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] actions from the Dynamics 365 command bar.  
+- Users can perform [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] actions from the Dynamics 365 command bar.  
   
 ### See also 
  [Manage your documents](../admin/manage-documents-using-sharepoint.md)   

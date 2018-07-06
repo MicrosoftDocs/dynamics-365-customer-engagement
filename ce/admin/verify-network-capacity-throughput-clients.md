@@ -35,19 +35,19 @@ Networks with high bandwidth don’t guarantee low latency. For example, a netwo
 ## How to check latency  
  [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] includes a basic diagnostic tool that analyzes the client-to-organization connectivity and produces a report. To run the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Diagnostics tool, follow these steps.  
   
-1.  On the user’s computer or device, start a web browser, and sign in to a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization.  
+1. On the user’s computer or device, start a web browser, and sign in to a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization.  
   
-2.  Enter the following URL, *https://myorg.crm.dynamics.com/tools/diagnostics/diag.aspx*, where *myorg.crm.dynamics.com* is the URL of your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organization.  
+2. Enter the following URL, *<https://myorg.crm.dynamics.com/tools/diagnostics/diag.aspx>*, where *myorg.crm.dynamics.com* is the URL of your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organization.  
   
-3.  Click **Run**.  
+3. Click **Run**.  
   
 The report displays a table with test and benchmark information. Of particular importance is the **Latency Test** row value. This value is an average of twenty individual test runs. Generally, the lower the number, the better the performance of the client. Although users may receive a satisfactory experience by using connections with more latency, for best application performance we recommend that the value be 150 ms (milliseconds) or less.  
   
 ## Best practices for improving application performance  
   
--   Maximize how quickly your forms load. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Optimize form performance](../customize/optimize-form-performance.md)  
+- Maximize how quickly your forms load. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Optimize form performance](../customize/optimize-form-performance.md)  
   
--   Make sure you aren’t using legacy form rendering, which can make forms take significantly longer to load. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - General tab](system-settings-dialog-box-general-tab.md)  
+- Make sure you aren’t using legacy form rendering, which can make forms take significantly longer to load. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - General tab](system-settings-dialog-box-general-tab.md)  
   
 ### See also  
  [Performance tuning and optimization](../admin/performance-tuning-and-optimization.md)   

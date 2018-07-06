@@ -423,6 +423,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Privilege_AsyncOperations"></a> Privilege_AsyncOperations
 
 Same as asyncoperation entity [Privilege_AsyncOperations](asyncoperation.md#BKMK_Privilege_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -437,6 +438,7 @@ Same as asyncoperation entity [Privilege_AsyncOperations](asyncoperation.md#BKMK
 ### <a name="BKMK_Privilege_BulkDeleteFailures"></a> Privilege_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Privilege_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Privilege_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -451,6 +453,7 @@ Same as bulkdeletefailure entity [Privilege_BulkDeleteFailures](bulkdeletefailur
 ### <a name="BKMK_userentityinstancedata_privilege"></a> userentityinstancedata_privilege
 
 Same as userentityinstancedata entity [userentityinstancedata_privilege](userentityinstancedata.md#BKMK_userentityinstancedata_privilege) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

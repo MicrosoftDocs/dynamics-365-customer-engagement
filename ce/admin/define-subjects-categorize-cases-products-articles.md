@@ -26,25 +26,25 @@ manager: "brycho"
   
 1. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)] Click > **Subjects**. You can also get there by going to **Settings** > **Service Management** > **Subjects**.  
   
-2.  To add a subject, under **Common Tasks**, click **Add a Subject**.  
+2. To add a subject, under **Common Tasks**, click **Add a Subject**.  
   
-     -OR-  
+    -OR-  
   
-     To edit a subject, in the **Subject Tree**, select a subject, and then under **Common Tasks** click **Edit Selected Subject**.  
+    To edit a subject, in the **Subject Tree**, select a subject, and then under **Common Tasks** click **Edit Selected Subject**.  
   
-3.  In the **Subject** dialog box, enter the required information:  
+3. In the **Subject** dialog box, enter the required information:  
   
-    - **Title**: Type a name for the subject. This is a required field.  
+   - **Title**: Type a name for the subject. This is a required field.  
   
-    - **Parent Subject**: To search for and select a parent subject for the new subject, click the **Lookup** button.  
+   - **Parent Subject**: To search for and select a parent subject for the new subject, click the **Lookup** button.  
   
-         -OR-  
+        -OR-  
   
-         To make the new subject a parent subject, leave the **Parent Subject** box empty.  
+        To make the new subject a parent subject, leave the **Parent Subject** box empty.  
   
-    - **Description**: Type a descriptive statement about the subject.  
+   - **Description**: Type a descriptive statement about the subject.  
   
-4.  Click **OK**.  
+4. Click **OK**.  
   
 ### See also 
  [Customer Service User Guide)](../customer-service/user-guide-customer-service.md)

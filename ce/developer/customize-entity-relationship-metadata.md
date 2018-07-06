@@ -34,9 +34,9 @@ Entity relationships define the ways that entity records can be associated with 
   
 - **[Many-to-many relationships](customize-entity-relationship-metadata.md#BKMK_ManyToManyRelationships)**  
   
- Before you create a new entity relationship programmatically, check to see whether the entities are eligible to participate in the relationship. There are constraints applied to entity relationships that use the following `EntityMetadata` properties: `CanBeInManyToMany`, `CanBePrimaryEntityInRelationship`, and `CanBeRelatedEntityInRelationship`. These restrictions are taken into account when you manually create entity relationships in the customization tools. There are messages that you can use to determine which relationships an entity can use and what other entities are valid for that type of relationship. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Entity Relationship Eligibility](entity-relationship-eligibility.md)  
+  Before you create a new entity relationship programmatically, check to see whether the entities are eligible to participate in the relationship. There are constraints applied to entity relationships that use the following `EntityMetadata` properties: `CanBeInManyToMany`, `CanBePrimaryEntityInRelationship`, and `CanBeRelatedEntityInRelationship`. These restrictions are taken into account when you manually create entity relationships in the customization tools. There are messages that you can use to determine which relationships an entity can use and what other entities are valid for that type of relationship. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Entity Relationship Eligibility](entity-relationship-eligibility.md)  
   
- Both types of entity relationships allow for options to display navigation links between related records. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configuring Associated Menus](customize-entity-relationship-metadata.md#BKMK_ConfiguringAssociatedMenus)  
+  Both types of entity relationships allow for options to display navigation links between related records. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configuring Associated Menus](customize-entity-relationship-metadata.md#BKMK_ConfiguringAssociatedMenus)  
   
 <a name="BKMK_OneToManyRelationships"></a>   
 ## One-to-many relationships  
@@ -101,30 +101,30 @@ Entity relationships define the ways that entity records can be associated with 
  **<xref:Microsoft.Xrm.Sdk.Metadata.AssociatedMenuConfiguration.Behavior>**  
  Provides the following options:  
   
--   DoNotDisplay  
+- DoNotDisplay  
   
--   UseCollectionName  
+- UseCollectionName  
   
--   UseLabel  
+- UseLabel  
   
- **<xref:Microsoft.Xrm.Sdk.Metadata.AssociatedMenuConfiguration.Group>**  
- Provides the following options:  
+  **<xref:Microsoft.Xrm.Sdk.Metadata.AssociatedMenuConfiguration.Group>**  
+  Provides the following options:  
   
--   Details  
+- Details  
   
--   Marketing  
+- Marketing  
   
--   Sales  
+- Sales  
   
--   Service  
+- Service  
   
- You cannot add new groups, but you can change the text displayed for them using the form editor.  
+  You cannot add new groups, but you can change the text displayed for them using the form editor.  
   
- **Label**  
- If you select `AssociatedMenuBehavior.UseLabel`, you must provide a custom label.  
+  **Label**  
+  If you select `AssociatedMenuBehavior.UseLabel`, you must provide a custom label.  
   
- **Order**  
- The integer provided for the order will control the relative position of navigation items in the group. The lower the value, the higher the item appears relative to the values of other items in the group.  
+  **Order**  
+  The integer provided for the order will control the relative position of navigation items in the group. The lower the value, the higher the item appears relative to the values of other items in the group.  
   
 ### See also  
  [Create and update entity relationships using Web API](webapi/create-update-entity-relationships-using-web-api.md)  

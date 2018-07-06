@@ -63,7 +63,7 @@ To install as a service content pack:
 
 4. Select **Service Content Packs**.
 
-  ![Get a service content pack in Power BI](media/voc-analytics-service-content-pack.png "Get a service content pack in Power BI")
+   ![Get a service content pack in Power BI](media/voc-analytics-service-content-pack.png "Get a service content pack in Power BI")
 
 5. In AppSource, select the **Apps** tab.
 
@@ -85,7 +85,7 @@ Delete an app:
 
 3. Point to the app, and then select **Delete**.
 
-  ![Delete an app in Power BI](media/voc-analytics-app-delete.png "Delete an app in Power BI")
+   ![Delete an app in Power BI](media/voc-analytics-app-delete.png "Delete an app in Power BI")
 
 4. In the confirmation dialog box, select **Delete**. The app and its related data are deleted.
 

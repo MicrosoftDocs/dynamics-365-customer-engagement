@@ -25,22 +25,22 @@ Flow lets you create automated processes between your favorite apps and services
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] instances use the default Flow environment. For more information about Flow environments, see [Using environments within Microsoft Flow](https://flow.microsoft.com/documentation/environments-overview-admin/)
   
 The embedded Flow feature is not available in the following service or geographic regions.
--  Microsoft Dynamics 365 Government
--  Germany
--  United Kingdom (UK)
--  South America
+- Microsoft Dynamics 365 Government
+- Germany
+- United Kingdom (UK)
+- South America
 
- Once the embedded Flows feature is enabled, the following privileges are added in the **Miscellaneous** section of the **Customization** tab for security roles.  
+  Once the embedded Flows feature is enabled, the following privileges are added in the **Miscellaneous** section of the **Customization** tab for security roles.  
   
--   Name: prvFlow  
+- Name: prvFlow  
   
--   Name: prvFlow  
+- Name: prvFlow  
   
 ## Prerequisites  
   
--   A Flow connection for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (recommended). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connectors](https://docs.microsoft.com/connectors/)  
+- A Flow connection for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (recommended). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connectors](https://docs.microsoft.com/connectors/)  
   
--   One or more flows created in the Flow environment to use with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a flow by using Dynamics 365 (online)](https://flow.microsoft.com/documentation/connection-dynamics365/)  
+- One or more flows created in the Flow environment to use with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a flow by using Dynamics 365 (online)](https://flow.microsoft.com/documentation/connection-dynamics365/)  
   
 ## Enable or disable Flow in your Dynamics 365 organization  
  By default, all security roles allow users to run flows on the records that they have access to.  

@@ -59,17 +59,17 @@ If you want to add complex rollup criteria for a goal, you can use a rollup quer
 ## Preventing Double Counting and Other Erroneous Results  
  Queries are very effective in filtering the results of a rollup. However, if not used carefully, they can introduce the “double counting” or other erroneous results. The following examples demonstrate how queries may contribute in unwanted results:  
   
--   You are tracking the sales orders for a particular salesperson. However, the rollup did not return any sales orders. This can happen if the query that you used filtered out the territories where the salesperson has customers.  
+- You are tracking the sales orders for a particular salesperson. However, the rollup did not return any sales orders. This can happen if the query that you used filtered out the territories where the salesperson has customers.  
   
--   You set two goals for a salesperson. One goal tracks the opportunities for a particular product and another goal tracks the opportunities in a particular territory. If the opportunity includes selling the specified product in the specified territory, the revenue from this opportunity is included in both goals. If the goals have the same parent goal, their totals are added to the parent goal, resulting in double counting.  
+- You set two goals for a salesperson. One goal tracks the opportunities for a particular product and another goal tracks the opportunities in a particular territory. If the opportunity includes selling the specified product in the specified territory, the revenue from this opportunity is included in both goals. If the goals have the same parent goal, their totals are added to the parent goal, resulting in double counting.  
   
- You can prevent double counting and other incorrect results by following these guidelines:  
+  You can prevent double counting and other incorrect results by following these guidelines:  
   
--   Set the `Goal.ConsiderOnlyGoalOwnersRecords` attribute to `true` to use only the records owned by the goal owner.  
+- Set the `Goal.ConsiderOnlyGoalOwnersRecords` attribute to `true` to use only the records owned by the goal owner.  
   
--   Do not assign multiple goals to a sales person for the same time period.  
+- Do not assign multiple goals to a sales person for the same time period.  
   
--   Do not use a query if you are not sure it will provide the results that you expect.  
+- Do not use a query if you are not sure it will provide the results that you expect.  
   
 ### See also  
  [Goal Management Entities](goal-management-entities.md)   

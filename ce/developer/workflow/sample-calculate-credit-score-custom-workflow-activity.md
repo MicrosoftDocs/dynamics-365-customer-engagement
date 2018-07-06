@@ -28,29 +28,29 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
 ## Requirements  
  The following customizations must exist for this custom workflow activity to work:  
   
--   Entity Schema Name: new_loanapplication  
+- Entity Schema Name: new_loanapplication  
   
--   Attribute: new_loanapplicationid as the primary key  
+- Attribute: new_loanapplicationid as the primary key  
   
--   Attribute: new_creditscore of type `int` with min of 0 and max of 1000 (if it is to be updated)  
+- Attribute: new_creditscore of type `int` with min of 0 and max of 1000 (if it is to be updated)  
   
--   Attribute: new_loanamount of type money with default min/max  
+- Attribute: new_loanamount of type money with default min/max  
   
--   Customize the form to include the attribute new_loanapplicantid  
+- Customize the form to include the attribute new_loanapplicantid  
   
- The contact entity must have the following customizations:  
+  The contact entity must have the following customizations:  
   
--   Attribute: new_ssn as **Single Line of Text** with max length of 15  
+- Attribute: new_ssn as **Single Line of Text** with max length of 15  
   
--   One-To-Many Relationship with these properties:  
+- One-To-Many Relationship with these properties:  
   
-    -   Relationship Definition Schema Name: new_loanapplicant  
+  -   Relationship Definition Schema Name: new_loanapplicant  
   
-    -   Relationship Definition Related Entity Display Name: Loan Application  
+  -   Relationship Definition Related Entity Display Name: Loan Application  
   
-    -   Relationship Attribute Schema Name: new_loanapplicantid  
+  -   Relationship Attribute Schema Name: new_loanapplicantid  
   
-    -   Relationship Behavior Type: Referential  
+  -   Relationship Behavior Type: Referential  
   
 ## Demonstrates  
  The following sample workflow activity calculates the credit score based on the Social Security Number (SSN) and name.  

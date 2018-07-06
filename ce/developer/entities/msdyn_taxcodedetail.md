@@ -687,6 +687,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_taxcodedetail_SyncErrors"></a> msdyn_taxcodedetail_SyncErrors
 
 Same as syncerror entity [msdyn_taxcodedetail_SyncErrors](syncerror.md#BKMK_msdyn_taxcodedetail_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -701,6 +702,7 @@ Same as syncerror entity [msdyn_taxcodedetail_SyncErrors](syncerror.md#BKMK_msdy
 ### <a name="BKMK_msdyn_taxcodedetail_DuplicateMatchingRecord"></a> msdyn_taxcodedetail_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_taxcodedetail_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_taxcodedetail_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -715,6 +717,7 @@ Same as duplicaterecord entity [msdyn_taxcodedetail_DuplicateMatchingRecord](dup
 ### <a name="BKMK_msdyn_taxcodedetail_DuplicateBaseRecord"></a> msdyn_taxcodedetail_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_taxcodedetail_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_taxcodedetail_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -729,6 +732,7 @@ Same as duplicaterecord entity [msdyn_taxcodedetail_DuplicateBaseRecord](duplica
 ### <a name="BKMK_msdyn_taxcodedetail_AsyncOperations"></a> msdyn_taxcodedetail_AsyncOperations
 
 Same as asyncoperation entity [msdyn_taxcodedetail_AsyncOperations](asyncoperation.md#BKMK_msdyn_taxcodedetail_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -743,6 +747,7 @@ Same as asyncoperation entity [msdyn_taxcodedetail_AsyncOperations](asyncoperati
 ### <a name="BKMK_msdyn_taxcodedetail_MailboxTrackingFolders"></a> msdyn_taxcodedetail_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_taxcodedetail_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_taxcodedetail_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -757,6 +762,7 @@ Same as mailboxtrackingfolder entity [msdyn_taxcodedetail_MailboxTrackingFolders
 ### <a name="BKMK_msdyn_taxcodedetail_UserEntityInstanceDatas"></a> msdyn_taxcodedetail_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_taxcodedetail_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_taxcodedetail_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -771,6 +777,7 @@ Same as userentityinstancedata entity [msdyn_taxcodedetail_UserEntityInstanceDat
 ### <a name="BKMK_msdyn_taxcodedetail_ProcessSession"></a> msdyn_taxcodedetail_ProcessSession
 
 Same as processsession entity [msdyn_taxcodedetail_ProcessSession](processsession.md#BKMK_msdyn_taxcodedetail_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -785,6 +792,7 @@ Same as processsession entity [msdyn_taxcodedetail_ProcessSession](processsessio
 ### <a name="BKMK_msdyn_taxcodedetail_BulkDeleteFailures"></a> msdyn_taxcodedetail_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_taxcodedetail_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_taxcodedetail_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -799,6 +807,7 @@ Same as bulkdeletefailure entity [msdyn_taxcodedetail_BulkDeleteFailures](bulkde
 ### <a name="BKMK_msdyn_taxcodedetail_PrincipalObjectAttributeAccesses"></a> msdyn_taxcodedetail_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_taxcodedetail_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_taxcodedetail_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -813,6 +822,7 @@ Same as principalobjectattributeaccess entity [msdyn_taxcodedetail_PrincipalObje
 ### <a name="BKMK_msdyn_taxcodedetail_Annotations"></a> msdyn_taxcodedetail_Annotations
 
 Same as annotation entity [msdyn_taxcodedetail_Annotations](annotation.md#BKMK_msdyn_taxcodedetail_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|

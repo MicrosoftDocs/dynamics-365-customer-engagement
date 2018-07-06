@@ -24,7 +24,7 @@ A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](..
   
 > [!NOTE]
 >  With [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], we no longer require a minimum purchase amount to receive a free Sandbox instance. If you've purchased a subscription and have not received a free Sandbox instance, you will be provided one when you purchase full Dynamics 365 Enterprise licenses. There is a limit of one free Sandbox instance per tenant. You can also purchase additional Sandbox instances. For more information, see [Dynamics 365 pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=321102).  
-  
+> 
 > [!TIP]
 > ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Sandbox instances for Dynamics 365 (3:18)](https://go.microsoft.com/fwlink/p/?linkid=838057).  
   
@@ -37,27 +37,27 @@ A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](..
   
 2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]  
   
-3.  Choose the **Instances** tab.  
+3. Choose the **Instances** tab.  
   
- On the **Manage your Dynamics 365 instances** page, you’ll see a list of all your instances.  
+   On the **Manage your Dynamics 365 instances** page, you’ll see a list of all your instances.  
   
 <a name="BKMK_Reset"></a>   
 ## Reset a Sandbox instance  
  You can reset a Sandbox instance to delete and re-provision it. Consider a reset when you want to:  
   
--   Change to a different version of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+- Change to a different version of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
--   Create a new project  
+- Create a new project  
   
--   Free up storage space  
+- Free up storage space  
   
--   Remove an instance containing Personally Identifiable Information (PII) data  
+- Remove an instance containing Personally Identifiable Information (PII) data  
   
 > [!NOTE]
-> -  You can only reset Sandbox instances.  
-> -  ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Dynamics CRM 2013 Spring '14 Online New Features -Reset](http://youtu.be/nJDyuFdh0Nk).  
->   
->      This video also applies to [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)] and [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)].  
+> - You can only reset Sandbox instances.  
+> - ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Dynamics CRM 2013 Spring '14 Online New Features -Reset](http://youtu.be/nJDyuFdh0Nk).  
+> 
+>     This video also applies to [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)] and [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)].  
   
  **An example scenario**  
   
@@ -71,16 +71,16 @@ A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](..
   
 2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]  
   
-3.  Choose the **Instances** tab.  
+3. Choose the **Instances** tab.  
   
-4.  Select a Sandbox instance, and then click **Reset**.  
+4. Select a Sandbox instance, and then click **Reset**.  
   
-5.  On the **reset instance** page, adjust the instance settings as needed and then click **Reset**.  
+5. On the **reset instance** page, adjust the instance settings as needed and then click **Reset**.  
   
-    > [!WARNING]
-    >  The Sandbox instance will be deleted and reset to factory settings. You will not be able to recover any deleted data.  
+   > [!WARNING]
+   >  The Sandbox instance will be deleted and reset to factory settings. You will not be able to recover any deleted data.  
   
-6.  Click **yes** in the confirmation dialog box.  
+6. Click **yes** in the confirmation dialog box.  
   
 <a name="BKMK_AdminMode"></a>   
 ## Administration mode  
@@ -90,7 +90,7 @@ A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](..
 > - You can only place Sandbox instances in administration mode.  
 > - Processes that use code, such as plug-ins or custom workflow assemblies, continue to be processed by the [!INCLUDE [pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] platform when administration mode is enabled and background operations are disabled.
 > - ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Dynamics CRM 2013 Spring '14 Online New Features -Admin Mode](http://youtu.be/aUgwT-GuKO8).  
->   
+> 
 >      This video also applies to [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)] and [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)].  
   
  On the **admin settings** page, you can set the following.  
@@ -107,11 +107,11 @@ A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](..
   
 2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]  
   
-3.  Choose the **Instances** tab.  
+3. Choose the **Instances** tab.  
   
-4.  Select a Sandbox instance, and then click **Admin**.  
+4. Select a Sandbox instance, and then click **Admin**.  
   
-5.  Select **Enable administration mode** to enable it, and then click **Save**.  
+5. Select **Enable administration mode** to enable it, and then click **Save**.  
   
 ### See also  
  [Blog: Introducing Sandbox Instances in CRM Online](http://blogs.msdn.com/b/crm/archive/2014/03/20/introducing-sandbox-instances-in-crm-online.aspx)   

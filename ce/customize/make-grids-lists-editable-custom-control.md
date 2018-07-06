@@ -62,46 +62,46 @@ In previous releases of Dynamics CRM, users couldn’t enter data directly in gr
   
 ## Make main grids editable  
   
-1.  Open solution explorer.  
+1. Open solution explorer.  
   
-2.  In the **Entities** list, open the appropriate entity, select the **Controls** tab, and then select **Add Control**.  
+2. In the **Entities** list, open the appropriate entity, select the **Controls** tab, and then select **Add Control**.  
   
- ![Add Editable Grids custom control](../customize/media/add-editable-grids-custom-control.png "Add Editable Grids custom control")  
+   ![Add Editable Grids custom control](../customize/media/add-editable-grids-custom-control.png "Add Editable Grids custom control")  
   
-3.  In the **Add Control** dialog box, select **Editable Grid**, and then select **Add**.  
+3. In the **Add Control** dialog box, select **Editable Grid**, and then select **Add**.  
   
-4.  In the **Editable Grid** row that’s added, select the form factor(s) you want to apply the grid to. This makes the editable grid control the default control for the selected form factor(s).  
+4. In the **Editable Grid** row that’s added, select the form factor(s) you want to apply the grid to. This makes the editable grid control the default control for the selected form factor(s).  
   
- ![Editable Grid row with form factor selection](../customize/media/editable-grid-row-wit-factor-selection.png "Editable Grid row with form factor selection")    
+   ![Editable Grid row with form factor selection](../customize/media/editable-grid-row-wit-factor-selection.png "Editable Grid row with form factor selection")    
 
    > [!NOTE]
    >  At runtime, users can toggle between editable grids and read-only grids.  
       
-5.  To add a lookup, in the **Editable Grid** option group, select **Add Lookup**, and then in the **Configure Property “Add Lookup”** dialog box:  
+5. To add a lookup, in the **Editable Grid** option group, select **Add Lookup**, and then in the **Configure Property “Add Lookup”** dialog box:  
   
-    1.  In the **Available Views** list, select the view to add the lookup to (for example, select **My Active Accounts**).  
+   1.  In the **Available Views** list, select the view to add the lookup to (for example, select **My Active Accounts**).  
   
-    2.  In the **Available Columns** list, select the lookup column to add (for example, select **Primary Contact**).  
+   2.  In the **Available Columns** list, select the lookup column to add (for example, select **Primary Contact**).  
   
-    3.  In the **Default View** list, select the data source for the lookup field.  
+   3.  In the **Default View** list, select the data source for the lookup field.  
   
-    4.  If you want to limit the records displayed, select the **Only show records where** check box, and then select your criteria from the list, and then select **OK**.  
+   4.  If you want to limit the records displayed, select the **Only show records where** check box, and then select your criteria from the list, and then select **OK**.  
   
- ![Add lookup in Editable Grid control](../customize/media/add-lookup-in-editable-grid-control.png "Add lookup in Editable Grid control")  
+   ![Add lookup in Editable Grid control](../customize/media/add-lookup-in-editable-grid-control.png "Add lookup in Editable Grid control")  
      
-6.  If you have a nested grid, select the pencil button for **Nested grid view**, and then select the entity and view for the nested grid. For the **Nested grid parent ID** select the relationship for the entities. For example, the ParentAccountID field connects the **Account** and **Contact** entities.  
+6. If you have a nested grid, select the pencil button for **Nested grid view**, and then select the entity and view for the nested grid. For the **Nested grid parent ID** select the relationship for the entities. For example, the ParentAccountID field connects the **Account** and **Contact** entities.  
   
-    > [!NOTE]
-    >  Nested grids are only available for phones and tablets, not the web.  
+   > [!NOTE]
+   >  Nested grids are only available for phones and tablets, not the web.  
   
-7.  If you don’t want to allow the user to group data by any column in the view (you want to save space, for example), in the **Group by Column** row, select the pencil button, and then in the **Configure Property “Group by Column”** dialog box, select **Disabled**, and then select **OK**.  
+7. If you don’t want to allow the user to group data by any column in the view (you want to save space, for example), in the **Group by Column** row, select the pencil button, and then in the **Configure Property “Group by Column”** dialog box, select **Disabled**, and then select **OK**.  
   
-    > [!TIP]
-    >  This is mostly useful for subgrids on forms.  
+   > [!TIP]
+   >  This is mostly useful for subgrids on forms.  
   
-8.  If you want to add [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] events, select the **Events** tab, and then select the appropriate entities, fields, and events. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use editable grids (developer)](../developer/customize-dev/use-editable-grids-dynamics-365.md).  
+8. If you want to add [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] events, select the **Events** tab, and then select the appropriate entities, fields, and events. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use editable grids (developer)](../developer/customize-dev/use-editable-grids-dynamics-365.md).  
   
- ![Add events in Editable Grid control](../customize/media/add-events-in-editable-grid-control.png "Add events in Editable Grid control")  
+   ![Add events in Editable Grid control](../customize/media/add-events-in-editable-grid-control.png "Add events in Editable Grid control")  
   
 9. To save your work, select **Save** on the action bar.  
   

@@ -80,7 +80,7 @@ For the REST contract, the <xref:Microsoft.Xrm.Sdk.IWebHttpServiceEndpointPlugin
   
 > [!NOTE]
 >  When using the out-of-box (ServiceBusPlugin) plug-in with a two-way or REST listener, the plug-in doesn’t use any string data returned from the listener. However, a custom [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)]-aware plug-in could make use of this information.  
->   
+> 
 >  When you run the listener samples, the issuer secret you’re prompted for is the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] management key. The WS2007 Federation HTTP binding uses `token` mode and the WS-Trust 1.3 protocol.  
   
 <a name="filter"></a>

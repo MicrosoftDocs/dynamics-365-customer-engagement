@@ -125,6 +125,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_approvalstatus"></a> msdyn_approvalstatus
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -150,6 +151,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_supportingrecord"></a> msdyn_supportingrecord
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -832,6 +834,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_BookableResourceCharacteristic_SyncErrors"></a> BookableResourceCharacteristic_SyncErrors
 
 Same as syncerror entity [BookableResourceCharacteristic_SyncErrors](syncerror.md#BKMK_BookableResourceCharacteristic_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -846,6 +849,7 @@ Same as syncerror entity [BookableResourceCharacteristic_SyncErrors](syncerror.m
 ### <a name="BKMK_bookableresourcecharacteristic_DuplicateMatchingRecord"></a> bookableresourcecharacteristic_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [bookableresourcecharacteristic_DuplicateMatchingRecord](duplicaterecord.md#BKMK_bookableresourcecharacteristic_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -860,6 +864,7 @@ Same as duplicaterecord entity [bookableresourcecharacteristic_DuplicateMatching
 ### <a name="BKMK_bookableresourcecharacteristic_DuplicateBaseRecord"></a> bookableresourcecharacteristic_DuplicateBaseRecord
 
 Same as duplicaterecord entity [bookableresourcecharacteristic_DuplicateBaseRecord](duplicaterecord.md#BKMK_bookableresourcecharacteristic_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -874,6 +879,7 @@ Same as duplicaterecord entity [bookableresourcecharacteristic_DuplicateBaseReco
 ### <a name="BKMK_bookableresourcecharacteristic_AsyncOperations"></a> bookableresourcecharacteristic_AsyncOperations
 
 Same as asyncoperation entity [bookableresourcecharacteristic_AsyncOperations](asyncoperation.md#BKMK_bookableresourcecharacteristic_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -888,6 +894,7 @@ Same as asyncoperation entity [bookableresourcecharacteristic_AsyncOperations](a
 ### <a name="BKMK_bookableresourcecharacteristic_MailboxTrackingFolders"></a> bookableresourcecharacteristic_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [bookableresourcecharacteristic_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_bookableresourcecharacteristic_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -902,6 +909,7 @@ Same as mailboxtrackingfolder entity [bookableresourcecharacteristic_MailboxTrac
 ### <a name="BKMK_bookableresourcecharacteristic_UserEntityInstanceDatas"></a> bookableresourcecharacteristic_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [bookableresourcecharacteristic_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_bookableresourcecharacteristic_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -916,6 +924,7 @@ Same as userentityinstancedata entity [bookableresourcecharacteristic_UserEntity
 ### <a name="BKMK_bookableresourcecharacteristic_ProcessSession"></a> bookableresourcecharacteristic_ProcessSession
 
 Same as processsession entity [bookableresourcecharacteristic_ProcessSession](processsession.md#BKMK_bookableresourcecharacteristic_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -930,6 +939,7 @@ Same as processsession entity [bookableresourcecharacteristic_ProcessSession](pr
 ### <a name="BKMK_bookableresourcecharacteristic_BulkDeleteFailures"></a> bookableresourcecharacteristic_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [bookableresourcecharacteristic_BulkDeleteFailures](bulkdeletefailure.md#BKMK_bookableresourcecharacteristic_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -944,6 +954,7 @@ Same as bulkdeletefailure entity [bookableresourcecharacteristic_BulkDeleteFailu
 ### <a name="BKMK_bookableresourcecharacteristic_PrincipalObjectAttributeAccess"></a> bookableresourcecharacteristic_PrincipalObjectAttributeAccess
 
 Same as principalobjectattributeaccess entity [bookableresourcecharacteristic_PrincipalObjectAttributeAccess](principalobjectattributeaccess.md#BKMK_bookableresourcecharacteristic_PrincipalObjectAttributeAccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -958,6 +969,7 @@ Same as principalobjectattributeaccess entity [bookableresourcecharacteristic_Pr
 ### <a name="BKMK_bookableresourcecharacteristic_Annotations"></a> bookableresourcecharacteristic_Annotations
 
 Same as annotation entity [bookableresourcecharacteristic_Annotations](annotation.md#BKMK_bookableresourcecharacteristic_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -972,6 +984,7 @@ Same as annotation entity [bookableresourcecharacteristic_Annotations](annotatio
 ### <a name="BKMK_msdyn_bookableresourcecharacteristic_bookableresourcecharacteristic_supportingrecord"></a> msdyn_bookableresourcecharacteristic_bookableresourcecharacteristic_supportingrecord
 
 Same as bookableresourcecharacteristic entity [msdyn_bookableresourcecharacteristic_bookableresourcecharacteristic_supportingrecord](bookableresourcecharacteristic.md#BKMK_msdyn_bookableresourcecharacteristic_bookableresourcecharacteristic_supportingrecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcecharacteristic|
@@ -986,6 +999,7 @@ Same as bookableresourcecharacteristic entity [msdyn_bookableresourcecharacteris
 ### <a name="BKMK_msdyn_bookableresourcecharacteristic_msdyn_approval_Characteristic"></a> msdyn_bookableresourcecharacteristic_msdyn_approval_Characteristic
 
 Same as msdyn_approval entity [msdyn_bookableresourcecharacteristic_msdyn_approval_Characteristic](msdyn_approval.md#BKMK_msdyn_bookableresourcecharacteristic_msdyn_approval_Characteristic) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|

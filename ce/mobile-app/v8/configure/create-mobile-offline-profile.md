@@ -12,8 +12,8 @@ applies_to:
   - "Dynamics 365 Version 8.x"
 ms.assetid: c463347e-a057-4230-951a-1cca07b213f0
 caps.latest.revision: 7
-ms.author: "jimholtz"
-manager: "brycho"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Create a mobile offline profile 
 
@@ -21,59 +21,59 @@ manager: "brycho"
 
 You need to create mobile offline profiles for users to configure filters that determine how much of an entity's data (and related entities' data) will be available to the user while offline.  
   
-1.  Go to **Settings > Mobile Offline**.  
+1. Go to **Settings > Mobile Offline**.  
   
-2.  Click **Mobile Offline Profiles**.  
+2. Click **Mobile Offline Profiles**.  
   
-3.  Click **New** to create a new mobile offline profile. If you already have one that you want to edit, select it from the list.  
+3. Click **New** to create a new mobile offline profile. If you already have one that you want to edit, select it from the list.  
   
-4.  Enter a name and description for your mobile offline profile.  
+4. Enter a name and description for your mobile offline profile.  
   
-5.  Click **Save** to create the mobile offline profile so you can continue editing it.  
+5. Click **Save** to create the mobile offline profile so you can continue editing it.  
   
-6.  In the **Mobile Offline Profile Item Details** area, click **+** to create a new mobile offline profile item. You need to create a mobile offline profile item for each entity you want to make available for this mobile offline profile.  
+6. In the **Mobile Offline Profile Item Details** area, click **+** to create a new mobile offline profile item. You need to create a mobile offline profile item for each entity you want to make available for this mobile offline profile.  
   
-7.  Enter a name and select an entity. Only entities that you enabled for mobile offline appear in this list.  
+7. Enter a name and select an entity. Only entities that you enabled for mobile offline appear in this list.  
   
-8.  Select a data download filter based on the ownership type for the entity:  
+8. Select a data download filter based on the ownership type for the entity:  
   
-     **User or Team**  
+    **User or Team**  
   
-    -   **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
+   - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
   
-    -   **All records**. Make all records for this entity available offline.  
+   - **All records**. Make all records for this entity available offline.  
   
-    -   **Other records**. Make only the specified records for this entity available offline.  
+   - **Other records**. Make only the specified records for this entity available offline.  
   
      If you select **Other records**, you can choose from the following:  
   
-    -   **Download my records**. Make only your records available offline.  
+   - **Download my records**. Make only your records available offline.  
   
-    -   **Download my team’s records**. Make your team’s records available offline.  
+   - **Download my team’s records**. Make your team’s records available offline.  
   
-    -   **Download my business unit’s records**. Make your business unit’s records available offline.  
+   - **Download my business unit’s records**. Make your business unit’s records available offline.  
   
      **Organization**  
   
-    -   **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
+   - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
   
-    -   **All records**. Make all records for this entity available offline.  
+   - **All records**. Make all records for this entity available offline.  
   
      **Business**  
   
-    -   **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
+   - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
   
-    -   **All records**. Make all records for this entity available offline.  
+   - **All records**. Make all records for this entity available offline.  
   
-    -   **Other records**. Make only the specified records for this entity available offline.  
+   - **Other records**. Make only the specified records for this entity available offline.  
   
      If you select **Other records**, you can choose from the following:  
   
-    -   **Download my business unit’s records**. Make your business unit’s records available offline.  
+   - **Download my business unit’s records**. Make your business unit’s records available offline.  
   
      **None**  
   
-    -   **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
+   - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
   
 9. Click **Save** to create the mobile offline profile item so you can continue editing it.  
   

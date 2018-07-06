@@ -229,6 +229,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_servicecontractcontacts_AsyncOperations"></a> servicecontractcontacts_AsyncOperations
 
 Same as asyncoperation entity [servicecontractcontacts_AsyncOperations](asyncoperation.md#BKMK_servicecontractcontacts_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -243,6 +244,7 @@ Same as asyncoperation entity [servicecontractcontacts_AsyncOperations](asyncope
 ### <a name="BKMK_servicecontractcontacts_MailboxTrackingFolders"></a> servicecontractcontacts_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [servicecontractcontacts_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_servicecontractcontacts_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -257,6 +259,7 @@ Same as mailboxtrackingfolder entity [servicecontractcontacts_MailboxTrackingFol
 ### <a name="BKMK_servicecontractcontacts_UserEntityInstanceDatas"></a> servicecontractcontacts_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [servicecontractcontacts_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_servicecontractcontacts_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -271,6 +274,7 @@ Same as userentityinstancedata entity [servicecontractcontacts_UserEntityInstanc
 ### <a name="BKMK_servicecontractcontacts_BulkDeleteFailures"></a> servicecontractcontacts_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [servicecontractcontacts_BulkDeleteFailures](bulkdeletefailure.md#BKMK_servicecontractcontacts_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -285,6 +289,7 @@ Same as bulkdeletefailure entity [servicecontractcontacts_BulkDeleteFailures](bu
 ### <a name="BKMK_servicecontractcontacts_PrincipalObjectAttributeAccesses"></a> servicecontractcontacts_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [servicecontractcontacts_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_servicecontractcontacts_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

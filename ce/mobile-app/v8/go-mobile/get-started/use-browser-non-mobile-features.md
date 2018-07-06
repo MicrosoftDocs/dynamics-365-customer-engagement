@@ -24,13 +24,13 @@ ms.author: "mkaur"
 ## Use your browser for features not in the app  
  The following features in the web application aren’t available in [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] for phones and tablets:  
   
--   [!INCLUDE[pn_yammer](../../../../includes/pn-yammer.md)] and activity feeds  
+- [!INCLUDE[pn_yammer](../../../../includes/pn-yammer.md)] and activity feeds  
   
--   [!INCLUDE[pn_bing_maps](../../../../includes/pn-bing-maps.md)] integration  
+- [!INCLUDE[pn_bing_maps](../../../../includes/pn-bing-maps.md)] integration  
   
--   [!INCLUDE[pn_parature_from_microsoft](../../../../includes/pn-parature-from-microsoft.md)] knowledge base integration  
+- [!INCLUDE[pn_parature_from_microsoft](../../../../includes/pn-parature-from-microsoft.md)] knowledge base integration  
   
- If you need to use these features or want to view a record in the web application, you can do that in your tablet’s browser. (You can only do this in the tablet app.)  
+  If you need to use these features or want to view a record in the web application, you can do that in your tablet’s browser. (You can only do this in the tablet app.)  
   
 1.  Press and hold the record or view you want to see.  
   

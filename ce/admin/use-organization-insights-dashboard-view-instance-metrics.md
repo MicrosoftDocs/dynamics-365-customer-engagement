@@ -28,7 +28,7 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
   
 > [!IMPORTANT]
 >  The Organization Insights dashboard is a preview feature in [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)]. A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  To use this feature, it must be turned on and the license terms must be accepted. [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md) [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
->   
+> 
 >  Consider using the new [Organization Insights solution](use-organization-insights-solution-view-instance-metrics.md) for a richer view of your instance metrics. Organization Insights dashboard will remain a preview feature and will be deprecated once the Organization Insights solution is fully available.  
   
  Note the following:  
@@ -69,9 +69,9 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
   
 ### What's included in this chart  
   
-|Chart element|Description|  
-|-------------------|-----------------|  
-|Reads|List of most active users who performed an operation that caused a `Retrieve` or `Retrieve Multiple` SDK call in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance over the selected time period.|  
+| Chart element |                                                                                                        Description                                                                                                        |
+|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     Reads     | List of most active users who performed an operation that caused a `Retrieve` or `Retrieve Multiple` SDK call in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance over the selected time period. |
   
 ### How to interpret this chart  
  This chart lists the top ten users who performed the most `Read` operations in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
@@ -81,11 +81,11 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
   
 ### What's included in this chart  
   
-|Chart element|Description|  
-|-------------------|-----------------|  
-|Creates|List of most active users who performed an operation that caused a `Create` SDK call in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance over the selected time period.|  
-|Updates|List of most active users who  performed an operation that caused an `Update` SDK call  in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance over the selected time period.|  
-|Deletes|List of most active users who  performed an operation that caused a `Delete` SDK call  in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance over the selected time period.|  
+| Chart element |                                                                                            Description                                                                                             |
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|    Creates    |  List of most active users who performed an operation that caused a `Create` SDK call in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance over the selected time period.   |
+|    Updates    | List of most active users who  performed an operation that caused an `Update` SDK call  in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance over the selected time period. |
+|    Deletes    | List of most active users who  performed an operation that caused a `Delete` SDK call  in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance over the selected time period.  |
   
 ### How to interpret this chart  
  This chart lists the top ten users who  performed the most change  operations (creates, updates, deletes) in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  

@@ -40,15 +40,15 @@ Let customers write feedback for any entity record, or rate entity records withi
   
 3. Under **Components**, expand **Entities**, and then select the entity you want to enable feedback for.  
   
-4.  Under **Communication & Collaboration**, select the **Feedback** check box.  
+4. Under **Communication & Collaboration**, select the **Feedback** check box.  
   
-5.  Publish your customizations:  
+5. Publish your customizations:  
   
-    -   To publish customizations for only the component you are currently editing, on the nav bar or in the navigation pane, select the entity you have been working on, and then select **Publish**.  
+   -   To publish customizations for only the component you are currently editing, on the nav bar or in the navigation pane, select the entity you have been working on, and then select **Publish**.  
   
-    -   To publish customizations for all unpublished components at one time, in the navigation pane, select **Entities**, and then on the Actions toolbar, select **Publish All Customizations**.  
+   -   To publish customizations for all unpublished components at one time, in the navigation pane, select **Entities**, and then on the Actions toolbar, select **Publish All Customizations**.  
   
- After you enable an entity for feedback, a regarding relationship is created between the entity and the Feedback entity.  
+   After you enable an entity for feedback, a regarding relationship is created between the entity and the Feedback entity.  
   
 > [!IMPORTANT]
 >  Once you enable an entity for feedback, you can't disable it.  
@@ -58,19 +58,19 @@ Let customers write feedback for any entity record, or rate entity records withi
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   
-2.  Open solution explorer.  
+2. Open solution explorer.  
   
-3.  Under **Components**, expand **Entities**, and then expand the entity you've enabled for feedback.  
+3. Under **Components**, expand **Entities**, and then expand the entity you've enabled for feedback.  
   
-4.  Select **Forms**.  
+4. Select **Forms**.  
   
-5.  Open the form of type **Main** or **Main - Interactive experience**.  
+5. Open the form of type **Main** or **Main - Interactive experience**.  
   
-     The Main - Interactive experience form is used in the interactive service hub.  
+    The Main - Interactive experience form is used in the interactive service hub.  
   
-6.  Select the section you want to insert the subgrid in, and on the Insert tab, in the Control group, select **Sub-Grid**. 
+6. Select the section you want to insert the subgrid in, and on the Insert tab, in the Control group, select **Sub-Grid**. 
   
-7.  In the Set Properties dialog box, fill in the name and label for the subgrid.  
+7. In the Set Properties dialog box, fill in the name and label for the subgrid.  
   
 8. In the Data Source section, select the information:  
   

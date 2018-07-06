@@ -31,19 +31,19 @@ You can set the values of datetime fields to automatically move forward by a spe
 > [!NOTE]
 > This option is to keep data recent in your demo environments. It is not intended for production use. 
 
-1.  Start the Configuration Migration tool. Double-click **DataMigrationUtility.exe** in the folder: \[your folder]\Tools\ConfigurationMigration\  
+1. Start the Configuration Migration tool. Double-click **DataMigrationUtility.exe** in the folder: \[your folder]\Tools\ConfigurationMigration\  
   
-2.  On the main screen, click **Create schema**, and click **Continue**.  
+2. On the main screen, click **Create schema**, and click **Continue**.  
   
-3.  On the **Login** screen, provide authentication details to connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance from where you want to export data. If you have multiple organizations on the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Click **Login**.  
+3. On the **Login** screen, provide authentication details to connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance from where you want to export data. If you have multiple organizations on the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Click **Login**.  
   
-4.  If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization to connect to.  
+4. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization to connect to.  
 
-5.  On the next screen, select the schema file to be used for the data export or build a new schema.
+5. On the next screen, select the schema file to be used for the data export or build a new schema.
 
-6.  Click **Tools**, and then click **Configure Date Settings**.
+6. Click **Tools**, and then click **Configure Date Settings**.
 
-7.  Choose the default date mode and select an entity to apply the settings to. 
+7. Choose the default date mode and select an entity to apply the settings to. 
 
    - Select **Absolute. Dates are not modified during import** if you do not want dates to move forward by default. 
 
@@ -61,19 +61,19 @@ You can set the values of datetime fields to automatically move forward by a spe
 
    ![Default date mode](media/default-date-mode-absolute-field.png)
 
- 8.  Verify your selections for all fields on all entities in your schema.
+   8.  Verify your selections for all fields on all entities in your schema.
 
- 9.  Click **Save and Export**.
+   9.  Click **Save and Export**.
 
- 10.  Specify the name and location of the data file to be exported.
+   10.  Specify the name and location of the data file to be exported.
 
- 11.  Click **Yes** on the prompt: **The schema save is complete. Would you like to export the data?**
+   11.  Click **Yes** on the prompt: **The schema save is complete. Would you like to export the data?**
  
- 12.  Specify the name and location of the data file to be exported.
+   12.  Specify the name and location of the data file to be exported.
  
- 13.  Click **Export Data**. The screen displays the export progress status and the location of the exported file at the bottom of the screen once the export is complete.
+   13.  Click **Export Data**. The screen displays the export progress status and the location of the exported file at the bottom of the screen once the export is complete.
  
- 14.  Click **Exit** to close the tool.
+   14.  Click **Exit** to close the tool.
 
 > [!NOTE]
 > Date values will be moved forward in one week increments at the time of import. The amount moved is based on the date/time of export and the date/time of import. The timestamp attribute in the header of the data.xml file contains the date and time of export.

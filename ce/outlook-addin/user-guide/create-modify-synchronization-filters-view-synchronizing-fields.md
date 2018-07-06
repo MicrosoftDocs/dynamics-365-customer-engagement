@@ -23,19 +23,19 @@ manager: "kvivek"
 # Create or modify synchronization filters or view synchronizing fields
 Looking for help on the **Synchronization Settings for Outlook or Exchange**  dialog box or the **Go Offline Settings** dialog box?  
   
--   **Synchronization Settings for [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] dialog box**. This dialog box has three tabs:  
+- **Synchronization Settings for [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] dialog box**. This dialog box has three tabs:  
   
-    -   **User Filters**. Use this tab to choose the records that are synchronized between [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] when you’re online. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-exchange.md)  
+  - **User Filters**. Use this tab to choose the records that are synchronized between [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] when you’re online. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-exchange.md)  
   
-    -   **System Filters**. System administrators can programmatically modify online synchronization filters for an entire organization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [MSDN: Offline and Outlook filters and templates](https://msdn.microsoft.com/library/gg328205.aspx)  
+  - **System Filters**. System administrators can programmatically modify online synchronization filters for an entire organization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [MSDN: Offline and Outlook filters and templates](https://msdn.microsoft.com/library/gg328205.aspx)  
   
-    -   **Synchronization Fields.** Use this tab to view the fields that are synchronized between [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], and to view the synchronization direction (one-way or two-way synchronization). [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [View the fields that are synchronized between Dynamics 365 and Dynamics 365 for Outlook](view-fields-synchronized.md)  
+  - **Synchronization Fields.** Use this tab to view the fields that are synchronized between [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], and to view the synchronization direction (one-way or two-way synchronization). [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [View the fields that are synchronized between Dynamics 365 and Dynamics 365 for Outlook](view-fields-synchronized.md)  
   
--   **Go Offline Settings dialog box**. This dialog box has two tabs:  
+- **Go Offline Settings dialog box**. This dialog box has two tabs:  
   
-    -   **User Filters**. Use this tab to choose the records to work with when you go offline with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)  
+  - **User Filters**. Use this tab to choose the records to work with when you go offline with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)  
   
-    -   **System Filters**. System administrators can programmatically modify offline synchronization filters for an entire organization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [MSDN: Offline and Outlook filters and templates](https://msdn.microsoft.com/library/gg328205.aspx)  
+  - **System Filters**. System administrators can programmatically modify offline synchronization filters for an entire organization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [MSDN: Offline and Outlook filters and templates](https://msdn.microsoft.com/library/gg328205.aspx)  
   
 ### See also  
  [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)   

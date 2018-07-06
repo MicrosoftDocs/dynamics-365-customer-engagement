@@ -524,6 +524,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_bulkoperationlog_SyncErrors"></a> bulkoperationlog_SyncErrors
 
 Same as syncerror entity [bulkoperationlog_SyncErrors](syncerror.md#BKMK_bulkoperationlog_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -538,6 +539,7 @@ Same as syncerror entity [bulkoperationlog_SyncErrors](syncerror.md#BKMK_bulkope
 ### <a name="BKMK_BulkOperationLog_AsyncOperations"></a> BulkOperationLog_AsyncOperations
 
 Same as asyncoperation entity [BulkOperationLog_AsyncOperations](asyncoperation.md#BKMK_BulkOperationLog_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -552,6 +554,7 @@ Same as asyncoperation entity [BulkOperationLog_AsyncOperations](asyncoperation.
 ### <a name="BKMK_bulkoperationlog_MailboxTrackingFolders"></a> bulkoperationlog_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [bulkoperationlog_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_bulkoperationlog_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -566,6 +569,7 @@ Same as mailboxtrackingfolder entity [bulkoperationlog_MailboxTrackingFolders](m
 ### <a name="BKMK_userentityinstancedata_bulkoperationlog"></a> userentityinstancedata_bulkoperationlog
 
 Same as userentityinstancedata entity [userentityinstancedata_bulkoperationlog](userentityinstancedata.md#BKMK_userentityinstancedata_bulkoperationlog) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -580,6 +584,7 @@ Same as userentityinstancedata entity [userentityinstancedata_bulkoperationlog](
 ### <a name="BKMK_BulkOperationLog_BulkDeleteFailures"></a> BulkOperationLog_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [BulkOperationLog_BulkDeleteFailures](bulkdeletefailure.md#BKMK_BulkOperationLog_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -594,6 +599,7 @@ Same as bulkdeletefailure entity [BulkOperationLog_BulkDeleteFailures](bulkdelet
 ### <a name="BKMK_bulkoperationlog_PrincipalObjectAttributeAccesses"></a> bulkoperationlog_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [bulkoperationlog_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_bulkoperationlog_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

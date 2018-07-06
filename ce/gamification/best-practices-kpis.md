@@ -29,17 +29,18 @@ There are various way to create useful KPIs based on the data of a [!INCLUDE[pn_
 
 Let us know what KPIs you find work well, or not so well, on the [Dynamics Community Forum](http://go.microsoft.com/fwlink/p/?LinkId=825550).
 
-|KPI name|KPI configuration|Business scenario|  
-|--------------|-----------------------|-----------------------|  
-|Appointments|5 points for every appointment created.|-   Lead generation<br />-   Outside sales|  
-|Calls made|2 points for every successful call with a prospect/lead.|-   Lead generation<br />-   Inside sales<br />-   Customer service|  
-|Cases resolved|20 points for every case resolved in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].|-   Customer service|  
-|Emails sent|1 point for every email sent to a lead.|-   Lead generation<br />-   Inside sales<br />-   Customer service|  
-|Leads created|10 points for every new lead record created in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].|-   Lead generation<br />-   Inside sales|  
-|Opportunities created|20 points for every new opportunity created  in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].|-   Lead generation<br />-   Outside sales|  
-|Pipeline added|1 point for every $1,000 potential revenue added to a sales pipeline.|-   Inside sales<br />-   Outside sales|  
-|Revenue won|3 points for every $1,000 confirmed revenue.|-   Inside sales<br />-   Outside sales|  
-|Tasks completed|10 points for every completed task in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].|-   Customer service|  
+
+|       KPI name        |                                            KPI configuration                                             |                          Business scenario                          |
+|-----------------------|----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+|     Appointments      |                                 5 points for every appointment created.                                  |             -   Lead generation<br />-   Outside sales              |
+|      Calls made       |                         2 points for every successful call with a prospect/lead.                         | -   Lead generation<br />-   Inside sales<br />-   Customer service |
+|    Cases resolved     |      20 points for every case resolved in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].       |                        -   Customer service                         |
+|      Emails sent      |                                 1 point for every email sent to a lead.                                  | -   Lead generation<br />-   Inside sales<br />-   Customer service |
+|     Leads created     | 10 points for every new lead record created in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  |              -   Lead generation<br />-   Inside sales              |
+| Opportunities created | 20 points for every new opportunity created  in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. |             -   Lead generation<br />-   Outside sales              |
+|    Pipeline added     |                  1 point for every $1,000 potential revenue added to a sales pipeline.                   |               -   Inside sales<br />-   Outside sales               |
+|      Revenue won      |                               3 points for every $1,000 confirmed revenue.                               |               -   Inside sales<br />-   Outside sales               |
+|    Tasks completed    |      10 points for every completed task in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].      |                        -   Customer service                         |
 
 > [!TIP]
 > - Have a  look at a comparable periods (previous month/ quarter/ same period in prior year) to estimate the average performance on KPIs and adjust points and scores to your business requirements.

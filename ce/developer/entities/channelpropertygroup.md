@@ -607,6 +607,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_ChannelPropertyGroup_ChannelProperty"></a> ChannelPropertyGroup_ChannelProperty
 
 Same as channelproperty entity [ChannelPropertyGroup_ChannelProperty](channelproperty.md#BKMK_ChannelPropertyGroup_ChannelProperty) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|channelproperty|
@@ -621,6 +622,7 @@ Same as channelproperty entity [ChannelPropertyGroup_ChannelProperty](channelpro
 ### <a name="BKMK_channelpropertygroup_convertrule"></a> channelpropertygroup_convertrule
 
 Same as convertrule entity [channelpropertygroup_convertrule](convertrule.md#BKMK_channelpropertygroup_convertrule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|convertrule|

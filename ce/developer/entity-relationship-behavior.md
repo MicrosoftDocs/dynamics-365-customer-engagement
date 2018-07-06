@@ -51,13 +51,13 @@ When a one-to-many entity relationship exists there are cascading behaviors that
   
  But what if the account or contact that represents the customer is deleted? In a case like this, possible alternatives are to either:  
   
--   Restrict any attempt to delete a customer record with an associated opportunity.  
+- Restrict any attempt to delete a customer record with an associated opportunity.  
   
--   Cascade the delete action when a corresponding customer record is deleted so that any related opportunity records are automatically deleted.  
+- Cascade the delete action when a corresponding customer record is deleted so that any related opportunity records are automatically deleted.  
   
- In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] for the one-to-many relationships that relate opportunities with customers, such as `Opportunity.opportunity_customer_accounts` and `Contact.opportunity_customer_contacts`, the behavior is to cascade the delete action.  
+  In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] for the one-to-many relationships that relate opportunities with customers, such as `Opportunity.opportunity_customer_accounts` and `Contact.opportunity_customer_contacts`, the behavior is to cascade the delete action.  
   
- When you model your data to use in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you will have similar decisions for how you want to preserve data integrity.  
+  When you model your data to use in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you will have similar decisions for how you want to preserve data integrity.  
   
 <a name="BKMK_BusinessProcesses"></a>   
 ## Automate business processes  
@@ -71,7 +71,7 @@ When a one-to-many entity relationship exists there are cascading behaviors that
   
 - **Only assign the opportunities owned by the previous account owner to the new salesperson**. This allows the new salesperson to replace the previous owner.  
   
- These options are common ones you can configure using entity relationship behavior in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. If you require different behaviors consider purchasing a solution containing the behavior you need or developing a plugin to provide additional options.  
+  These options are common ones you can configure using entity relationship behavior in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. If you require different behaviors consider purchasing a solution containing the behavior you need or developing a plugin to provide additional options.  
   
 <a name="BKMK_CascadingBehavior"></a>   
 ## Cascading behavior  

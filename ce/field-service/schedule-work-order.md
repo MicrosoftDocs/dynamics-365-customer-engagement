@@ -78,19 +78,19 @@ Once a work order has been created in [!INCLUDE[pn_dyn_365_field_service](../inc
 <a name="BKMK_SchedulingAssistant"></a>   
 ## Schedule a work order using the scheduling assistant  
   
-1.  From the main menu, click **Field Service** > **Work Orders**.  
+1. From the main menu, click **Field Service** > **Work Orders**.  
   
-2.  Select a work order from the list, or click the work order number.  
+2. Select a work order from the list, or click the work order number.  
   
-3.  On the command bar, click **Schedule Assistant**.  
+3. On the command bar, click **Schedule Assistant**.  
   
-4.  When the schedule assistant opens, choose the constraints that you will use to query the system to find available resources and time slot options.  
+4. When the schedule assistant opens, choose the constraints that you will use to query the system to find available resources and time slot options.  
   
-    - **Duration**: Pulled from the estimated duration on the work order, which is driven by the incidents.  
+   - **Duration**: Pulled from the estimated duration on the work order, which is driven by the incidents.  
   
-    - **Radius Constraint**: Select the radius for the available resources. This defaults from a [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] setting.  
+   - **Radius Constraint**: Select the radius for the available resources. This defaults from a [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] setting.  
   
-    - **Start and End Days**: Choose the date ranges. This is driven from the date window fields on the work order.  
+   - **Start and End Days**: Choose the date ranges. This is driven from the date window fields on the work order.  
   
 <a name="BKMK_ReassignReschedule"></a>   
 ## Reassign and reschedule a work order  

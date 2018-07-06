@@ -68,7 +68,7 @@ A *business process flow* lets you create more efficient and streamlined sales, 
   
 > [!IMPORTANT]
 >  The sample business process flow records available in [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] use system entities to store the corresponding business process flow instance records. Couple of the sample business process flow entity records are [OpportunitySalesProcess Entity](entities/opportunitysalesprocess.md) and [LeadToOpportunitySalesProcess Entity](entities/leadtoopportunitysalesprocess.md).  
->   
+> 
 >  However, any new business process flow definitions you create will use custom entities to store its instance records as explained earlier.  
 
 <a name="BPFSecurity"></a>   
@@ -76,7 +76,9 @@ A *business process flow* lets you create more efficient and streamlined sales, 
 
 The custom entity that is automatically created on activating a business process flow to store business process flow instances adheres to the standard security model as for any other custom entity in Customer Engagement. This implies that privileges granted on these entities define the runtime permissions for users for business process flows.
 
-The custom business process flow entity has organization scope. The regular create, retrieve, update and delete privileges on this entity define the permission the user would have based on his/her assigned roles. By default, when the business process flow custom entity is created, only system administrator and system customizer security roles are granted access to it, and you must explicitly grant permissions to this custom entity for other security roles as required.
+The custom business process flow entity has organization scope. The regular create, retrieve, update and delete privileges on this entity define the permission the user would have based on his/her assigned roles. By default, when the business process flow custom entity is created, only **System Administrator** and **System Customizer** security roles are granted access to it, and you must explicitly grant permissions to the new business process flow entity (for example, **My Custom BPF**) for other security roles as required.
+
+![](media/bpf-privileges.png)
 
 <a name="ManageBPF"></a>   
 ### Manage business process flow instances  

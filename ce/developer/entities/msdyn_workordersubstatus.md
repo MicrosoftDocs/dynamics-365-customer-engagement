@@ -633,6 +633,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_workordersubstatus_SyncErrors"></a> msdyn_workordersubstatus_SyncErrors
 
 Same as syncerror entity [msdyn_workordersubstatus_SyncErrors](syncerror.md#BKMK_msdyn_workordersubstatus_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -647,6 +648,7 @@ Same as syncerror entity [msdyn_workordersubstatus_SyncErrors](syncerror.md#BKMK
 ### <a name="BKMK_msdyn_workordersubstatus_DuplicateMatchingRecord"></a> msdyn_workordersubstatus_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_workordersubstatus_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_workordersubstatus_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -661,6 +663,7 @@ Same as duplicaterecord entity [msdyn_workordersubstatus_DuplicateMatchingRecord
 ### <a name="BKMK_msdyn_workordersubstatus_DuplicateBaseRecord"></a> msdyn_workordersubstatus_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_workordersubstatus_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_workordersubstatus_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -675,6 +678,7 @@ Same as duplicaterecord entity [msdyn_workordersubstatus_DuplicateBaseRecord](du
 ### <a name="BKMK_msdyn_workordersubstatus_AsyncOperations"></a> msdyn_workordersubstatus_AsyncOperations
 
 Same as asyncoperation entity [msdyn_workordersubstatus_AsyncOperations](asyncoperation.md#BKMK_msdyn_workordersubstatus_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -689,6 +693,7 @@ Same as asyncoperation entity [msdyn_workordersubstatus_AsyncOperations](asyncop
 ### <a name="BKMK_msdyn_workordersubstatus_MailboxTrackingFolders"></a> msdyn_workordersubstatus_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_workordersubstatus_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_workordersubstatus_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -703,6 +708,7 @@ Same as mailboxtrackingfolder entity [msdyn_workordersubstatus_MailboxTrackingFo
 ### <a name="BKMK_msdyn_workordersubstatus_UserEntityInstanceDatas"></a> msdyn_workordersubstatus_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_workordersubstatus_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_workordersubstatus_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -717,6 +723,7 @@ Same as userentityinstancedata entity [msdyn_workordersubstatus_UserEntityInstan
 ### <a name="BKMK_msdyn_workordersubstatus_ProcessSession"></a> msdyn_workordersubstatus_ProcessSession
 
 Same as processsession entity [msdyn_workordersubstatus_ProcessSession](processsession.md#BKMK_msdyn_workordersubstatus_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -731,6 +738,7 @@ Same as processsession entity [msdyn_workordersubstatus_ProcessSession](processs
 ### <a name="BKMK_msdyn_workordersubstatus_BulkDeleteFailures"></a> msdyn_workordersubstatus_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_workordersubstatus_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_workordersubstatus_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -745,6 +753,7 @@ Same as bulkdeletefailure entity [msdyn_workordersubstatus_BulkDeleteFailures](b
 ### <a name="BKMK_msdyn_workordersubstatus_PrincipalObjectAttributeAccesses"></a> msdyn_workordersubstatus_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_workordersubstatus_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_workordersubstatus_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -759,6 +768,7 @@ Same as principalobjectattributeaccess entity [msdyn_workordersubstatus_Principa
 ### <a name="BKMK_msdyn_workordersubstatus_Annotations"></a> msdyn_workordersubstatus_Annotations
 
 Same as annotation entity [msdyn_workordersubstatus_Annotations](annotation.md#BKMK_msdyn_workordersubstatus_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -773,6 +783,7 @@ Same as annotation entity [msdyn_workordersubstatus_Annotations](annotation.md#B
 ### <a name="BKMK_msdyn_msdyn_workordersubstatus_msdyn_workorder_Status"></a> msdyn_msdyn_workordersubstatus_msdyn_workorder_Status
 
 Same as msdyn_workorder entity [msdyn_msdyn_workordersubstatus_msdyn_workorder_Status](msdyn_workorder.md#BKMK_msdyn_msdyn_workordersubstatus_msdyn_workorder_Status) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorder|

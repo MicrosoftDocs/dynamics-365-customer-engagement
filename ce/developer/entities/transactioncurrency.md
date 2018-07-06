@@ -757,6 +757,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_TransactionCurrency_Territory"></a> TransactionCurrency_Territory
 
 Same as territory entity [TransactionCurrency_Territory](territory.md#BKMK_TransactionCurrency_Territory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|territory|
@@ -771,6 +772,7 @@ Same as territory entity [TransactionCurrency_Territory](territory.md#BKMK_Trans
 ### <a name="BKMK_transactioncurrency_lead"></a> transactioncurrency_lead
 
 Same as lead entity [transactioncurrency_lead](lead.md#BKMK_transactioncurrency_lead) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|lead|
@@ -785,6 +787,7 @@ Same as lead entity [transactioncurrency_lead](lead.md#BKMK_transactioncurrency_
 ### <a name="BKMK_TransactionCurrency_LeadAddress"></a> TransactionCurrency_LeadAddress
 
 Same as leadaddress entity [TransactionCurrency_LeadAddress](leadaddress.md#BKMK_TransactionCurrency_LeadAddress) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|leadaddress|
@@ -799,6 +802,7 @@ Same as leadaddress entity [TransactionCurrency_LeadAddress](leadaddress.md#BKMK
 ### <a name="BKMK_transactioncurrency_product"></a> transactioncurrency_product
 
 Same as product entity [transactioncurrency_product](product.md#BKMK_transactioncurrency_product) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|product|
@@ -813,6 +817,7 @@ Same as product entity [transactioncurrency_product](product.md#BKMK_transaction
 ### <a name="BKMK_transactioncurrency_productpricelevel"></a> transactioncurrency_productpricelevel
 
 Same as productpricelevel entity [transactioncurrency_productpricelevel](productpricelevel.md#BKMK_transactioncurrency_productpricelevel) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|productpricelevel|
@@ -827,6 +832,7 @@ Same as productpricelevel entity [transactioncurrency_productpricelevel](product
 ### <a name="BKMK_DynamicPropertyAssociation_TransactionCurrency"></a> DynamicPropertyAssociation_TransactionCurrency
 
 Same as dynamicpropertyassociation entity [DynamicPropertyAssociation_TransactionCurrency](dynamicpropertyassociation.md#BKMK_DynamicPropertyAssociation_TransactionCurrency) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|dynamicpropertyassociation|
@@ -841,6 +847,7 @@ Same as dynamicpropertyassociation entity [DynamicPropertyAssociation_Transactio
 ### <a name="BKMK_TransactionCurrency_Dynamicpropertyinsatance"></a> TransactionCurrency_Dynamicpropertyinsatance
 
 Same as dynamicpropertyinstance entity [TransactionCurrency_Dynamicpropertyinsatance](dynamicpropertyinstance.md#BKMK_TransactionCurrency_Dynamicpropertyinsatance) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|dynamicpropertyinstance|
@@ -855,6 +862,7 @@ Same as dynamicpropertyinstance entity [TransactionCurrency_Dynamicpropertyinsat
 ### <a name="BKMK_DynamicPropertyOptionSetItem_TransactionCurrency"></a> DynamicPropertyOptionSetItem_TransactionCurrency
 
 Same as dynamicpropertyoptionsetitem entity [DynamicPropertyOptionSetItem_TransactionCurrency](dynamicpropertyoptionsetitem.md#BKMK_DynamicPropertyOptionSetItem_TransactionCurrency) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|dynamicpropertyoptionsetitem|
@@ -869,6 +877,7 @@ Same as dynamicpropertyoptionsetitem entity [DynamicPropertyOptionSetItem_Transa
 ### <a name="BKMK_transactioncurrency_ProductAssociation"></a> transactioncurrency_ProductAssociation
 
 Same as productassociation entity [transactioncurrency_ProductAssociation](productassociation.md#BKMK_transactioncurrency_ProductAssociation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|productassociation|
@@ -883,6 +892,7 @@ Same as productassociation entity [transactioncurrency_ProductAssociation](produ
 ### <a name="BKMK_transactioncurrency_ProductSubstitute"></a> transactioncurrency_ProductSubstitute
 
 Same as productsubstitute entity [transactioncurrency_ProductSubstitute](productsubstitute.md#BKMK_transactioncurrency_ProductSubstitute) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|productsubstitute|
@@ -897,6 +907,7 @@ Same as productsubstitute entity [transactioncurrency_ProductSubstitute](product
 ### <a name="BKMK_transactioncurrency_pricelevel"></a> transactioncurrency_pricelevel
 
 Same as pricelevel entity [transactioncurrency_pricelevel](pricelevel.md#BKMK_transactioncurrency_pricelevel) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|pricelevel|
@@ -911,6 +922,7 @@ Same as pricelevel entity [transactioncurrency_pricelevel](pricelevel.md#BKMK_tr
 ### <a name="BKMK_TransactionCurrency_bookableresource"></a> TransactionCurrency_bookableresource
 
 Same as bookableresource entity [TransactionCurrency_bookableresource](bookableresource.md#BKMK_TransactionCurrency_bookableresource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresource|
@@ -925,6 +937,7 @@ Same as bookableresource entity [TransactionCurrency_bookableresource](bookabler
 ### <a name="BKMK_TransactionCurrency_bookableresourcebooking"></a> TransactionCurrency_bookableresourcebooking
 
 Same as bookableresourcebooking entity [TransactionCurrency_bookableresourcebooking](bookableresourcebooking.md#BKMK_TransactionCurrency_bookableresourcebooking) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcebooking|
@@ -939,6 +952,7 @@ Same as bookableresourcebooking entity [TransactionCurrency_bookableresourcebook
 ### <a name="BKMK_TransactionCurrency_bookableresourcebookingheader"></a> TransactionCurrency_bookableresourcebookingheader
 
 Same as bookableresourcebookingheader entity [TransactionCurrency_bookableresourcebookingheader](bookableresourcebookingheader.md#BKMK_TransactionCurrency_bookableresourcebookingheader) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcebookingheader|
@@ -953,6 +967,7 @@ Same as bookableresourcebookingheader entity [TransactionCurrency_bookableresour
 ### <a name="BKMK_TransactionCurrency_bookableresourcecategory"></a> TransactionCurrency_bookableresourcecategory
 
 Same as bookableresourcecategory entity [TransactionCurrency_bookableresourcecategory](bookableresourcecategory.md#BKMK_TransactionCurrency_bookableresourcecategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcecategory|
@@ -967,6 +982,7 @@ Same as bookableresourcecategory entity [TransactionCurrency_bookableresourcecat
 ### <a name="BKMK_TransactionCurrency_bookableresourcecategoryassn"></a> TransactionCurrency_bookableresourcecategoryassn
 
 Same as bookableresourcecategoryassn entity [TransactionCurrency_bookableresourcecategoryassn](bookableresourcecategoryassn.md#BKMK_TransactionCurrency_bookableresourcecategoryassn) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcecategoryassn|
@@ -981,6 +997,7 @@ Same as bookableresourcecategoryassn entity [TransactionCurrency_bookableresourc
 ### <a name="BKMK_TransactionCurrency_bookableresourcecharacteristic"></a> TransactionCurrency_bookableresourcecharacteristic
 
 Same as bookableresourcecharacteristic entity [TransactionCurrency_bookableresourcecharacteristic](bookableresourcecharacteristic.md#BKMK_TransactionCurrency_bookableresourcecharacteristic) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcecharacteristic|
@@ -995,6 +1012,7 @@ Same as bookableresourcecharacteristic entity [TransactionCurrency_bookableresou
 ### <a name="BKMK_TransactionCurrency_bookableresourcegroup"></a> TransactionCurrency_bookableresourcegroup
 
 Same as bookableresourcegroup entity [TransactionCurrency_bookableresourcegroup](bookableresourcegroup.md#BKMK_TransactionCurrency_bookableresourcegroup) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcegroup|
@@ -1009,6 +1027,7 @@ Same as bookableresourcegroup entity [TransactionCurrency_bookableresourcegroup]
 ### <a name="BKMK_TransactionCurrency_bookingstatus"></a> TransactionCurrency_bookingstatus
 
 Same as bookingstatus entity [TransactionCurrency_bookingstatus](bookingstatus.md#BKMK_TransactionCurrency_bookingstatus) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookingstatus|
@@ -1023,6 +1042,7 @@ Same as bookingstatus entity [TransactionCurrency_bookingstatus](bookingstatus.m
 ### <a name="BKMK_TransactionCurrency_characteristic"></a> TransactionCurrency_characteristic
 
 Same as characteristic entity [TransactionCurrency_characteristic](characteristic.md#BKMK_TransactionCurrency_characteristic) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|characteristic|
@@ -1037,6 +1057,7 @@ Same as characteristic entity [TransactionCurrency_characteristic](characteristi
 ### <a name="BKMK_TransactionCurrency_ratingmodel"></a> TransactionCurrency_ratingmodel
 
 Same as ratingmodel entity [TransactionCurrency_ratingmodel](ratingmodel.md#BKMK_TransactionCurrency_ratingmodel) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|ratingmodel|
@@ -1051,6 +1072,7 @@ Same as ratingmodel entity [TransactionCurrency_ratingmodel](ratingmodel.md#BKMK
 ### <a name="BKMK_TransactionCurrency_ratingvalue"></a> TransactionCurrency_ratingvalue
 
 Same as ratingvalue entity [TransactionCurrency_ratingvalue](ratingvalue.md#BKMK_TransactionCurrency_ratingvalue) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|ratingvalue|
@@ -1065,6 +1087,7 @@ Same as ratingvalue entity [TransactionCurrency_ratingvalue](ratingvalue.md#BKMK
 ### <a name="BKMK_bulkoperation_transactioncurrency_transactioncurrencyid"></a> bulkoperation_transactioncurrency_transactioncurrencyid
 
 Same as bulkoperation entity [bulkoperation_transactioncurrency_transactioncurrencyid](bulkoperation.md#BKMK_bulkoperation_transactioncurrency_transactioncurrencyid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkoperation|
@@ -1079,6 +1102,7 @@ Same as bulkoperation entity [bulkoperation_transactioncurrency_transactioncurre
 ### <a name="BKMK_transactioncurrency_campaign"></a> transactioncurrency_campaign
 
 Same as campaign entity [transactioncurrency_campaign](campaign.md#BKMK_transactioncurrency_campaign) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaign|
@@ -1093,6 +1117,7 @@ Same as campaign entity [transactioncurrency_campaign](campaign.md#BKMK_transact
 ### <a name="BKMK_transactioncurrency_campaignactivity"></a> transactioncurrency_campaignactivity
 
 Same as campaignactivity entity [transactioncurrency_campaignactivity](campaignactivity.md#BKMK_transactioncurrency_campaignactivity) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignactivity|
@@ -1107,6 +1132,7 @@ Same as campaignactivity entity [transactioncurrency_campaignactivity](campaigna
 ### <a name="BKMK_TransactionCurrency_CampaignResponse"></a> TransactionCurrency_CampaignResponse
 
 Same as campaignresponse entity [TransactionCurrency_CampaignResponse](campaignresponse.md#BKMK_TransactionCurrency_CampaignResponse) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -1121,6 +1147,7 @@ Same as campaignresponse entity [TransactionCurrency_CampaignResponse](campaignr
 ### <a name="BKMK_transactioncurrency_list"></a> transactioncurrency_list
 
 Same as list entity [transactioncurrency_list](list.md#BKMK_transactioncurrency_list) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|list|
@@ -1135,6 +1162,7 @@ Same as list entity [transactioncurrency_list](list.md#BKMK_transactioncurrency_
 ### <a name="BKMK_transactioncurrency_contract"></a> transactioncurrency_contract
 
 Same as contract entity [transactioncurrency_contract](contract.md#BKMK_transactioncurrency_contract) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contract|
@@ -1149,6 +1177,7 @@ Same as contract entity [transactioncurrency_contract](contract.md#BKMK_transact
 ### <a name="BKMK_transactioncurrency_contractdetail"></a> transactioncurrency_contractdetail
 
 Same as contractdetail entity [transactioncurrency_contractdetail](contractdetail.md#BKMK_transactioncurrency_contractdetail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contractdetail|
@@ -1163,6 +1192,7 @@ Same as contractdetail entity [transactioncurrency_contractdetail](contractdetai
 ### <a name="BKMK_incidentresolution_transactioncurrency_transactioncurrencyid"></a> incidentresolution_transactioncurrency_transactioncurrencyid
 
 Same as incidentresolution entity [incidentresolution_transactioncurrency_transactioncurrencyid](incidentresolution.md#BKMK_incidentresolution_transactioncurrency_transactioncurrencyid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incidentresolution|
@@ -1177,6 +1207,7 @@ Same as incidentresolution entity [incidentresolution_transactioncurrency_transa
 ### <a name="BKMK_TransactionCurrency_ServiceAppointment"></a> TransactionCurrency_ServiceAppointment
 
 Same as serviceappointment entity [TransactionCurrency_ServiceAppointment](serviceappointment.md#BKMK_TransactionCurrency_ServiceAppointment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -1191,6 +1222,7 @@ Same as serviceappointment entity [TransactionCurrency_ServiceAppointment](servi
 ### <a name="BKMK_transactioncurrency_phonetocaseprocess"></a> transactioncurrency_phonetocaseprocess
 
 Same as phonetocaseprocess entity [transactioncurrency_phonetocaseprocess](phonetocaseprocess.md#BKMK_transactioncurrency_phonetocaseprocess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonetocaseprocess|
@@ -1205,6 +1237,7 @@ Same as phonetocaseprocess entity [transactioncurrency_phonetocaseprocess](phone
 ### <a name="BKMK_TransactionCurrency_Equipment"></a> TransactionCurrency_Equipment
 
 Same as equipment entity [TransactionCurrency_Equipment](equipment.md#BKMK_TransactionCurrency_Equipment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|equipment|
@@ -1219,6 +1252,7 @@ Same as equipment entity [TransactionCurrency_Equipment](equipment.md#BKMK_Trans
 ### <a name="BKMK_TransactionCurrency_Incident"></a> TransactionCurrency_Incident
 
 Same as incident entity [TransactionCurrency_Incident](incident.md#BKMK_TransactionCurrency_Incident) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incident|
@@ -1233,6 +1267,7 @@ Same as incident entity [TransactionCurrency_Incident](incident.md#BKMK_Transact
 ### <a name="BKMK_TransactionCurrency_entitlementtemplatechannel"></a> TransactionCurrency_entitlementtemplatechannel
 
 Same as entitlementtemplatechannel entity [TransactionCurrency_entitlementtemplatechannel](entitlementtemplatechannel.md#BKMK_TransactionCurrency_entitlementtemplatechannel) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|entitlementtemplatechannel|
@@ -1247,6 +1282,7 @@ Same as entitlementtemplatechannel entity [TransactionCurrency_entitlementtempla
 ### <a name="BKMK_TransactionCurrency_Entitlement"></a> TransactionCurrency_Entitlement
 
 Same as entitlement entity [TransactionCurrency_Entitlement](entitlement.md#BKMK_TransactionCurrency_Entitlement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|entitlement|
@@ -1261,6 +1297,7 @@ Same as entitlement entity [TransactionCurrency_Entitlement](entitlement.md#BKMK
 ### <a name="BKMK_TransactionCurrency_entitlementtemplate"></a> TransactionCurrency_entitlementtemplate
 
 Same as entitlementtemplate entity [TransactionCurrency_entitlementtemplate](entitlementtemplate.md#BKMK_TransactionCurrency_entitlementtemplate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|entitlementtemplate|
@@ -1275,6 +1312,7 @@ Same as entitlementtemplate entity [TransactionCurrency_entitlementtemplate](ent
 ### <a name="BKMK_TransactionCurrency_entitlementchannel"></a> TransactionCurrency_entitlementchannel
 
 Same as entitlementchannel entity [TransactionCurrency_entitlementchannel](entitlementchannel.md#BKMK_TransactionCurrency_entitlementchannel) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|entitlementchannel|
@@ -1289,6 +1327,7 @@ Same as entitlementchannel entity [TransactionCurrency_entitlementchannel](entit
 ### <a name="BKMK_transactioncurrency_knowledgearticleincident"></a> transactioncurrency_knowledgearticleincident
 
 Same as knowledgearticleincident entity [transactioncurrency_knowledgearticleincident](knowledgearticleincident.md#BKMK_transactioncurrency_knowledgearticleincident) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|knowledgearticleincident|
@@ -1303,6 +1342,7 @@ Same as knowledgearticleincident entity [transactioncurrency_knowledgearticleinc
 ### <a name="BKMK_transactioncurrency_discount"></a> transactioncurrency_discount
 
 Same as discount entity [transactioncurrency_discount](discount.md#BKMK_transactioncurrency_discount) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|discount|
@@ -1317,6 +1357,7 @@ Same as discount entity [transactioncurrency_discount](discount.md#BKMK_transact
 ### <a name="BKMK_transactioncurrency_invoice"></a> transactioncurrency_invoice
 
 Same as invoice entity [transactioncurrency_invoice](invoice.md#BKMK_transactioncurrency_invoice) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|invoice|
@@ -1331,6 +1372,7 @@ Same as invoice entity [transactioncurrency_invoice](invoice.md#BKMK_transaction
 ### <a name="BKMK_transactioncurrency_invoicedetail"></a> transactioncurrency_invoicedetail
 
 Same as invoicedetail entity [transactioncurrency_invoicedetail](invoicedetail.md#BKMK_transactioncurrency_invoicedetail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|invoicedetail|
@@ -1345,6 +1387,7 @@ Same as invoicedetail entity [transactioncurrency_invoicedetail](invoicedetail.m
 ### <a name="BKMK_transactioncurrency_opportunity"></a> transactioncurrency_opportunity
 
 Same as opportunity entity [transactioncurrency_opportunity](opportunity.md#BKMK_transactioncurrency_opportunity) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunity|
@@ -1359,6 +1402,7 @@ Same as opportunity entity [transactioncurrency_opportunity](opportunity.md#BKMK
 ### <a name="BKMK_transactioncurrency_opportunityclose"></a> transactioncurrency_opportunityclose
 
 Same as opportunityclose entity [transactioncurrency_opportunityclose](opportunityclose.md#BKMK_transactioncurrency_opportunityclose) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityclose|
@@ -1373,6 +1417,7 @@ Same as opportunityclose entity [transactioncurrency_opportunityclose](opportuni
 ### <a name="BKMK_transactioncurrency_opportunityproduct"></a> transactioncurrency_opportunityproduct
 
 Same as opportunityproduct entity [transactioncurrency_opportunityproduct](opportunityproduct.md#BKMK_transactioncurrency_opportunityproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityproduct|
@@ -1387,6 +1432,7 @@ Same as opportunityproduct entity [transactioncurrency_opportunityproduct](oppor
 ### <a name="BKMK_orderclose_transactioncurrency_transactioncurrencyid"></a> orderclose_transactioncurrency_transactioncurrencyid
 
 Same as orderclose entity [orderclose_transactioncurrency_transactioncurrencyid](orderclose.md#BKMK_orderclose_transactioncurrency_transactioncurrencyid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|orderclose|
@@ -1401,6 +1447,7 @@ Same as orderclose entity [orderclose_transactioncurrency_transactioncurrencyid]
 ### <a name="BKMK_transactioncurrency_quote"></a> transactioncurrency_quote
 
 Same as quote entity [transactioncurrency_quote](quote.md#BKMK_transactioncurrency_quote) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quote|
@@ -1415,6 +1462,7 @@ Same as quote entity [transactioncurrency_quote](quote.md#BKMK_transactioncurren
 ### <a name="BKMK_quoteclose_transactioncurrency_transactioncurrencyid"></a> quoteclose_transactioncurrency_transactioncurrencyid
 
 Same as quoteclose entity [quoteclose_transactioncurrency_transactioncurrencyid](quoteclose.md#BKMK_quoteclose_transactioncurrency_transactioncurrencyid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quoteclose|
@@ -1429,6 +1477,7 @@ Same as quoteclose entity [quoteclose_transactioncurrency_transactioncurrencyid]
 ### <a name="BKMK_transactioncurrency_quotedetail"></a> transactioncurrency_quotedetail
 
 Same as quotedetail entity [transactioncurrency_quotedetail](quotedetail.md#BKMK_transactioncurrency_quotedetail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quotedetail|
@@ -1443,6 +1492,7 @@ Same as quotedetail entity [transactioncurrency_quotedetail](quotedetail.md#BKMK
 ### <a name="BKMK_transactioncurrency_salesorder"></a> transactioncurrency_salesorder
 
 Same as salesorder entity [transactioncurrency_salesorder](salesorder.md#BKMK_transactioncurrency_salesorder) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|salesorder|
@@ -1457,6 +1507,7 @@ Same as salesorder entity [transactioncurrency_salesorder](salesorder.md#BKMK_tr
 ### <a name="BKMK_transactioncurrency_salesorderdetail"></a> transactioncurrency_salesorderdetail
 
 Same as salesorderdetail entity [transactioncurrency_salesorderdetail](salesorderdetail.md#BKMK_transactioncurrency_salesorderdetail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|salesorderdetail|
@@ -1471,6 +1522,7 @@ Same as salesorderdetail entity [transactioncurrency_salesorderdetail](salesorde
 ### <a name="BKMK_transactioncurrency_competitor"></a> transactioncurrency_competitor
 
 Same as competitor entity [transactioncurrency_competitor](competitor.md#BKMK_transactioncurrency_competitor) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|competitor|
@@ -1485,6 +1537,7 @@ Same as competitor entity [transactioncurrency_competitor](competitor.md#BKMK_tr
 ### <a name="BKMK_transactioncurrency_discounttype"></a> transactioncurrency_discounttype
 
 Same as discounttype entity [transactioncurrency_discounttype](discounttype.md#BKMK_transactioncurrency_discounttype) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|discounttype|
@@ -1499,6 +1552,7 @@ Same as discounttype entity [transactioncurrency_discounttype](discounttype.md#B
 ### <a name="BKMK_TransactionCurrency_SalesLiterature"></a> TransactionCurrency_SalesLiterature
 
 Same as salesliterature entity [TransactionCurrency_SalesLiterature](salesliterature.md#BKMK_TransactionCurrency_SalesLiterature) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|salesliterature|
@@ -1513,6 +1567,7 @@ Same as salesliterature entity [TransactionCurrency_SalesLiterature](saleslitera
 ### <a name="BKMK_transactioncurrency_leadtoopportunitysalesprocess"></a> transactioncurrency_leadtoopportunitysalesprocess
 
 Same as leadtoopportunitysalesprocess entity [transactioncurrency_leadtoopportunitysalesprocess](leadtoopportunitysalesprocess.md#BKMK_transactioncurrency_leadtoopportunitysalesprocess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|leadtoopportunitysalesprocess|
@@ -1527,6 +1582,7 @@ Same as leadtoopportunitysalesprocess entity [transactioncurrency_leadtoopportun
 ### <a name="BKMK_transactioncurrency_opportunitysalesprocess"></a> transactioncurrency_opportunitysalesprocess
 
 Same as opportunitysalesprocess entity [transactioncurrency_opportunitysalesprocess](opportunitysalesprocess.md#BKMK_transactioncurrency_opportunitysalesprocess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunitysalesprocess|
@@ -1541,6 +1597,7 @@ Same as opportunitysalesprocess entity [transactioncurrency_opportunitysalesproc
 ### <a name="BKMK_TransactionCurrency_msdyn_actual"></a> TransactionCurrency_msdyn_actual
 
 Same as msdyn_actual entity [TransactionCurrency_msdyn_actual](msdyn_actual.md#BKMK_TransactionCurrency_msdyn_actual) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_actual|
@@ -1555,6 +1612,7 @@ Same as msdyn_actual entity [TransactionCurrency_msdyn_actual](msdyn_actual.md#B
 ### <a name="BKMK_msdyn_bookingalert_transactioncurrency_transactioncurrencyid"></a> msdyn_bookingalert_transactioncurrency_transactioncurrencyid
 
 Same as msdyn_bookingalert entity [msdyn_bookingalert_transactioncurrency_transactioncurrencyid](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_transactioncurrency_transactioncurrencyid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -1569,6 +1627,7 @@ Same as msdyn_bookingalert entity [msdyn_bookingalert_transactioncurrency_transa
 ### <a name="BKMK_msdyn_approval_transactioncurrency_transactioncurrencyid"></a> msdyn_approval_transactioncurrency_transactioncurrencyid
 
 Same as msdyn_approval entity [msdyn_approval_transactioncurrency_transactioncurrencyid](msdyn_approval.md#BKMK_msdyn_approval_transactioncurrency_transactioncurrencyid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -1583,6 +1642,7 @@ Same as msdyn_approval entity [msdyn_approval_transactioncurrency_transactioncur
 ### <a name="BKMK_TransactionCurrency_msdyn_contractlinescheduleofvalue"></a> TransactionCurrency_msdyn_contractlinescheduleofvalue
 
 Same as msdyn_contractlinescheduleofvalue entity [TransactionCurrency_msdyn_contractlinescheduleofvalue](msdyn_contractlinescheduleofvalue.md#BKMK_TransactionCurrency_msdyn_contractlinescheduleofvalue) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_contractlinescheduleofvalue|
@@ -1597,6 +1657,7 @@ Same as msdyn_contractlinescheduleofvalue entity [TransactionCurrency_msdyn_cont
 ### <a name="BKMK_TransactionCurrency_msdyn_estimateline"></a> TransactionCurrency_msdyn_estimateline
 
 Same as msdyn_estimateline entity [TransactionCurrency_msdyn_estimateline](msdyn_estimateline.md#BKMK_TransactionCurrency_msdyn_estimateline) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_estimateline|
@@ -1611,6 +1672,7 @@ Same as msdyn_estimateline entity [TransactionCurrency_msdyn_estimateline](msdyn
 ### <a name="BKMK_TransactionCurrency_msdyn_expense"></a> TransactionCurrency_msdyn_expense
 
 Same as msdyn_expense entity [TransactionCurrency_msdyn_expense](msdyn_expense.md#BKMK_TransactionCurrency_msdyn_expense) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_expense|
@@ -1625,6 +1687,7 @@ Same as msdyn_expense entity [TransactionCurrency_msdyn_expense](msdyn_expense.m
 ### <a name="BKMK_TransactionCurrency_msdyn_fact"></a> TransactionCurrency_msdyn_fact
 
 Same as msdyn_fact entity [TransactionCurrency_msdyn_fact](msdyn_fact.md#BKMK_TransactionCurrency_msdyn_fact) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_fact|
@@ -1639,6 +1702,7 @@ Same as msdyn_fact entity [TransactionCurrency_msdyn_fact](msdyn_fact.md#BKMK_Tr
 ### <a name="BKMK_TransactionCurrency_msdyn_invoicelinetransaction"></a> TransactionCurrency_msdyn_invoicelinetransaction
 
 Same as msdyn_invoicelinetransaction entity [TransactionCurrency_msdyn_invoicelinetransaction](msdyn_invoicelinetransaction.md#BKMK_TransactionCurrency_msdyn_invoicelinetransaction) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_invoicelinetransaction|
@@ -1653,6 +1717,7 @@ Same as msdyn_invoicelinetransaction entity [TransactionCurrency_msdyn_invoiceli
 ### <a name="BKMK_TransactionCurrency_msdyn_journalline"></a> TransactionCurrency_msdyn_journalline
 
 Same as msdyn_journalline entity [TransactionCurrency_msdyn_journalline](msdyn_journalline.md#BKMK_TransactionCurrency_msdyn_journalline) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_journalline|
@@ -1667,6 +1732,7 @@ Same as msdyn_journalline entity [TransactionCurrency_msdyn_journalline](msdyn_j
 ### <a name="BKMK_TransactionCurrency_msdyn_opportunitylinetransaction"></a> TransactionCurrency_msdyn_opportunitylinetransaction
 
 Same as msdyn_opportunitylinetransaction entity [TransactionCurrency_msdyn_opportunitylinetransaction](msdyn_opportunitylinetransaction.md#BKMK_TransactionCurrency_msdyn_opportunitylinetransaction) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_opportunitylinetransaction|
@@ -1681,6 +1747,7 @@ Same as msdyn_opportunitylinetransaction entity [TransactionCurrency_msdyn_oppor
 ### <a name="BKMK_TransactionCurrency_msdyn_orderlinetransaction"></a> TransactionCurrency_msdyn_orderlinetransaction
 
 Same as msdyn_orderlinetransaction entity [TransactionCurrency_msdyn_orderlinetransaction](msdyn_orderlinetransaction.md#BKMK_TransactionCurrency_msdyn_orderlinetransaction) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderlinetransaction|
@@ -1695,6 +1762,7 @@ Same as msdyn_orderlinetransaction entity [TransactionCurrency_msdyn_orderlinetr
 ### <a name="BKMK_TransactionCurrency_msdyn_project"></a> TransactionCurrency_msdyn_project
 
 Same as msdyn_project entity [TransactionCurrency_msdyn_project](msdyn_project.md#BKMK_TransactionCurrency_msdyn_project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_project|
@@ -1709,6 +1777,7 @@ Same as msdyn_project entity [TransactionCurrency_msdyn_project](msdyn_project.m
 ### <a name="BKMK_TransactionCurrency_msdyn_projectapproval"></a> TransactionCurrency_msdyn_projectapproval
 
 Same as msdyn_projectapproval entity [TransactionCurrency_msdyn_projectapproval](msdyn_projectapproval.md#BKMK_TransactionCurrency_msdyn_projectapproval) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projectapproval|
@@ -1723,6 +1792,7 @@ Same as msdyn_projectapproval entity [TransactionCurrency_msdyn_projectapproval]
 ### <a name="BKMK_TransactionCurrency_msdyn_projecttask"></a> TransactionCurrency_msdyn_projecttask
 
 Same as msdyn_projecttask entity [TransactionCurrency_msdyn_projecttask](msdyn_projecttask.md#BKMK_TransactionCurrency_msdyn_projecttask) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projecttask|
@@ -1737,6 +1807,7 @@ Same as msdyn_projecttask entity [TransactionCurrency_msdyn_projecttask](msdyn_p
 ### <a name="BKMK_TransactionCurrency_msdyn_quotelineanalyticsbreakdown"></a> TransactionCurrency_msdyn_quotelineanalyticsbreakdown
 
 Same as msdyn_quotelineanalyticsbreakdown entity [TransactionCurrency_msdyn_quotelineanalyticsbreakdown](msdyn_quotelineanalyticsbreakdown.md#BKMK_TransactionCurrency_msdyn_quotelineanalyticsbreakdown) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelineanalyticsbreakdown|
@@ -1751,6 +1822,7 @@ Same as msdyn_quotelineanalyticsbreakdown entity [TransactionCurrency_msdyn_quot
 ### <a name="BKMK_TransactionCurrency_msdyn_quotelinescheduleofvalue"></a> TransactionCurrency_msdyn_quotelinescheduleofvalue
 
 Same as msdyn_quotelinescheduleofvalue entity [TransactionCurrency_msdyn_quotelinescheduleofvalue](msdyn_quotelinescheduleofvalue.md#BKMK_TransactionCurrency_msdyn_quotelinescheduleofvalue) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelinescheduleofvalue|
@@ -1765,6 +1837,7 @@ Same as msdyn_quotelinescheduleofvalue entity [TransactionCurrency_msdyn_quoteli
 ### <a name="BKMK_TransactionCurrency_msdyn_quotelinetransaction"></a> TransactionCurrency_msdyn_quotelinetransaction
 
 Same as msdyn_quotelinetransaction entity [TransactionCurrency_msdyn_quotelinetransaction](msdyn_quotelinetransaction.md#BKMK_TransactionCurrency_msdyn_quotelinetransaction) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelinetransaction|
@@ -1779,6 +1852,7 @@ Same as msdyn_quotelinetransaction entity [TransactionCurrency_msdyn_quotelinetr
 ### <a name="BKMK_TransactionCurrency_msdyn_resourcecategorypricelevel"></a> TransactionCurrency_msdyn_resourcecategorypricelevel
 
 Same as msdyn_resourcecategorypricelevel entity [TransactionCurrency_msdyn_resourcecategorypricelevel](msdyn_resourcecategorypricelevel.md#BKMK_TransactionCurrency_msdyn_resourcecategorypricelevel) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourcecategorypricelevel|
@@ -1793,6 +1867,7 @@ Same as msdyn_resourcecategorypricelevel entity [TransactionCurrency_msdyn_resou
 ### <a name="BKMK_TransactionCurrency_msdyn_resourcerequirement"></a> TransactionCurrency_msdyn_resourcerequirement
 
 Same as msdyn_resourcerequirement entity [TransactionCurrency_msdyn_resourcerequirement](msdyn_resourcerequirement.md#BKMK_TransactionCurrency_msdyn_resourcerequirement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourcerequirement|
@@ -1807,6 +1882,7 @@ Same as msdyn_resourcerequirement entity [TransactionCurrency_msdyn_resourcerequ
 ### <a name="BKMK_TransactionCurrency_msdyn_transactioncategorypricelevel"></a> TransactionCurrency_msdyn_transactioncategorypricelevel
 
 Same as msdyn_transactioncategorypricelevel entity [TransactionCurrency_msdyn_transactioncategorypricelevel](msdyn_transactioncategorypricelevel.md#BKMK_TransactionCurrency_msdyn_transactioncategorypricelevel) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_transactioncategorypricelevel|
@@ -1821,6 +1897,7 @@ Same as msdyn_transactioncategorypricelevel entity [TransactionCurrency_msdyn_tr
 ### <a name="BKMK_msdyn_organizationalunit_currency"></a> msdyn_organizationalunit_currency
 
 Same as msdyn_organizationalunit entity [msdyn_organizationalunit_currency](msdyn_organizationalunit.md#BKMK_msdyn_organizationalunit_currency) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_organizationalunit|
@@ -1835,6 +1912,7 @@ Same as msdyn_organizationalunit entity [msdyn_organizationalunit_currency](msdy
 ### <a name="BKMK_TransactionCurrency_msdyn_agreementbookingproduct"></a> TransactionCurrency_msdyn_agreementbookingproduct
 
 Same as msdyn_agreementbookingproduct entity [TransactionCurrency_msdyn_agreementbookingproduct](msdyn_agreementbookingproduct.md#BKMK_TransactionCurrency_msdyn_agreementbookingproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementbookingproduct|
@@ -1849,6 +1927,7 @@ Same as msdyn_agreementbookingproduct entity [TransactionCurrency_msdyn_agreemen
 ### <a name="BKMK_TransactionCurrency_msdyn_agreementbookingservice"></a> TransactionCurrency_msdyn_agreementbookingservice
 
 Same as msdyn_agreementbookingservice entity [TransactionCurrency_msdyn_agreementbookingservice](msdyn_agreementbookingservice.md#BKMK_TransactionCurrency_msdyn_agreementbookingservice) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementbookingservice|
@@ -1863,6 +1942,7 @@ Same as msdyn_agreementbookingservice entity [TransactionCurrency_msdyn_agreemen
 ### <a name="BKMK_TransactionCurrency_msdyn_agreementinvoiceproduct"></a> TransactionCurrency_msdyn_agreementinvoiceproduct
 
 Same as msdyn_agreementinvoiceproduct entity [TransactionCurrency_msdyn_agreementinvoiceproduct](msdyn_agreementinvoiceproduct.md#BKMK_TransactionCurrency_msdyn_agreementinvoiceproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementinvoiceproduct|
@@ -1877,6 +1957,7 @@ Same as msdyn_agreementinvoiceproduct entity [TransactionCurrency_msdyn_agreemen
 ### <a name="BKMK_TransactionCurrency_msdyn_bookingjournal"></a> TransactionCurrency_msdyn_bookingjournal
 
 Same as msdyn_bookingjournal entity [TransactionCurrency_msdyn_bookingjournal](msdyn_bookingjournal.md#BKMK_TransactionCurrency_msdyn_bookingjournal) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingjournal|
@@ -1891,6 +1972,7 @@ Same as msdyn_bookingjournal entity [TransactionCurrency_msdyn_bookingjournal](m
 ### <a name="BKMK_TransactionCurrency_msdyn_fieldservicepricelistitem"></a> TransactionCurrency_msdyn_fieldservicepricelistitem
 
 Same as msdyn_fieldservicepricelistitem entity [TransactionCurrency_msdyn_fieldservicepricelistitem](msdyn_fieldservicepricelistitem.md#BKMK_TransactionCurrency_msdyn_fieldservicepricelistitem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_fieldservicepricelistitem|
@@ -1905,6 +1987,7 @@ Same as msdyn_fieldservicepricelistitem entity [TransactionCurrency_msdyn_fields
 ### <a name="BKMK_TransactionCurrency_msdyn_orderinvoicingproduct"></a> TransactionCurrency_msdyn_orderinvoicingproduct
 
 Same as msdyn_orderinvoicingproduct entity [TransactionCurrency_msdyn_orderinvoicingproduct](msdyn_orderinvoicingproduct.md#BKMK_TransactionCurrency_msdyn_orderinvoicingproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderinvoicingproduct|
@@ -1919,6 +2002,7 @@ Same as msdyn_orderinvoicingproduct entity [TransactionCurrency_msdyn_orderinvoi
 ### <a name="BKMK_TransactionCurrency_msdyn_payment"></a> TransactionCurrency_msdyn_payment
 
 Same as msdyn_payment entity [TransactionCurrency_msdyn_payment](msdyn_payment.md#BKMK_TransactionCurrency_msdyn_payment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_payment|
@@ -1933,6 +2017,7 @@ Same as msdyn_payment entity [TransactionCurrency_msdyn_payment](msdyn_payment.m
 ### <a name="BKMK_TransactionCurrency_msdyn_paymentdetail"></a> TransactionCurrency_msdyn_paymentdetail
 
 Same as msdyn_paymentdetail entity [TransactionCurrency_msdyn_paymentdetail](msdyn_paymentdetail.md#BKMK_TransactionCurrency_msdyn_paymentdetail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_paymentdetail|
@@ -1947,6 +2032,7 @@ Same as msdyn_paymentdetail entity [TransactionCurrency_msdyn_paymentdetail](msd
 ### <a name="BKMK_TransactionCurrency_msdyn_purchaseorder"></a> TransactionCurrency_msdyn_purchaseorder
 
 Same as msdyn_purchaseorder entity [TransactionCurrency_msdyn_purchaseorder](msdyn_purchaseorder.md#BKMK_TransactionCurrency_msdyn_purchaseorder) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_purchaseorder|
@@ -1961,6 +2047,7 @@ Same as msdyn_purchaseorder entity [TransactionCurrency_msdyn_purchaseorder](msd
 ### <a name="BKMK_TransactionCurrency_msdyn_purchaseorderbill"></a> TransactionCurrency_msdyn_purchaseorderbill
 
 Same as msdyn_purchaseorderbill entity [TransactionCurrency_msdyn_purchaseorderbill](msdyn_purchaseorderbill.md#BKMK_TransactionCurrency_msdyn_purchaseorderbill) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_purchaseorderbill|
@@ -1975,6 +2062,7 @@ Same as msdyn_purchaseorderbill entity [TransactionCurrency_msdyn_purchaseorderb
 ### <a name="BKMK_TransactionCurrency_msdyn_purchaseorderproduct"></a> TransactionCurrency_msdyn_purchaseorderproduct
 
 Same as msdyn_purchaseorderproduct entity [TransactionCurrency_msdyn_purchaseorderproduct](msdyn_purchaseorderproduct.md#BKMK_TransactionCurrency_msdyn_purchaseorderproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_purchaseorderproduct|
@@ -1989,6 +2077,7 @@ Same as msdyn_purchaseorderproduct entity [TransactionCurrency_msdyn_purchaseord
 ### <a name="BKMK_TransactionCurrency_msdyn_purchaseorderreceiptproduct"></a> TransactionCurrency_msdyn_purchaseorderreceiptproduct
 
 Same as msdyn_purchaseorderreceiptproduct entity [TransactionCurrency_msdyn_purchaseorderreceiptproduct](msdyn_purchaseorderreceiptproduct.md#BKMK_TransactionCurrency_msdyn_purchaseorderreceiptproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_purchaseorderreceiptproduct|
@@ -2003,6 +2092,7 @@ Same as msdyn_purchaseorderreceiptproduct entity [TransactionCurrency_msdyn_purc
 ### <a name="BKMK_TransactionCurrency_msdyn_quotebookingproduct"></a> TransactionCurrency_msdyn_quotebookingproduct
 
 Same as msdyn_quotebookingproduct entity [TransactionCurrency_msdyn_quotebookingproduct](msdyn_quotebookingproduct.md#BKMK_TransactionCurrency_msdyn_quotebookingproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotebookingproduct|
@@ -2017,6 +2107,7 @@ Same as msdyn_quotebookingproduct entity [TransactionCurrency_msdyn_quotebooking
 ### <a name="BKMK_TransactionCurrency_msdyn_quotebookingservice"></a> TransactionCurrency_msdyn_quotebookingservice
 
 Same as msdyn_quotebookingservice entity [TransactionCurrency_msdyn_quotebookingservice](msdyn_quotebookingservice.md#BKMK_TransactionCurrency_msdyn_quotebookingservice) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotebookingservice|
@@ -2031,6 +2122,7 @@ Same as msdyn_quotebookingservice entity [TransactionCurrency_msdyn_quotebooking
 ### <a name="BKMK_TransactionCurrency_msdyn_quotebookingsetup"></a> TransactionCurrency_msdyn_quotebookingsetup
 
 Same as msdyn_quotebookingsetup entity [TransactionCurrency_msdyn_quotebookingsetup](msdyn_quotebookingsetup.md#BKMK_TransactionCurrency_msdyn_quotebookingsetup) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotebookingsetup|
@@ -2045,6 +2137,7 @@ Same as msdyn_quotebookingsetup entity [TransactionCurrency_msdyn_quotebookingse
 ### <a name="BKMK_TransactionCurrency_msdyn_quoteinvoicingproduct"></a> TransactionCurrency_msdyn_quoteinvoicingproduct
 
 Same as msdyn_quoteinvoicingproduct entity [TransactionCurrency_msdyn_quoteinvoicingproduct](msdyn_quoteinvoicingproduct.md#BKMK_TransactionCurrency_msdyn_quoteinvoicingproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quoteinvoicingproduct|
@@ -2059,6 +2152,7 @@ Same as msdyn_quoteinvoicingproduct entity [TransactionCurrency_msdyn_quoteinvoi
 ### <a name="BKMK_TransactionCurrency_msdyn_quoteinvoicingsetup"></a> TransactionCurrency_msdyn_quoteinvoicingsetup
 
 Same as msdyn_quoteinvoicingsetup entity [TransactionCurrency_msdyn_quoteinvoicingsetup](msdyn_quoteinvoicingsetup.md#BKMK_TransactionCurrency_msdyn_quoteinvoicingsetup) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quoteinvoicingsetup|
@@ -2073,6 +2167,7 @@ Same as msdyn_quoteinvoicingsetup entity [TransactionCurrency_msdyn_quoteinvoici
 ### <a name="BKMK_TransactionCurrency_msdyn_rma"></a> TransactionCurrency_msdyn_rma
 
 Same as msdyn_rma entity [TransactionCurrency_msdyn_rma](msdyn_rma.md#BKMK_TransactionCurrency_msdyn_rma) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rma|
@@ -2087,6 +2182,7 @@ Same as msdyn_rma entity [TransactionCurrency_msdyn_rma](msdyn_rma.md#BKMK_Trans
 ### <a name="BKMK_TransactionCurrency_msdyn_rmaproduct"></a> TransactionCurrency_msdyn_rmaproduct
 
 Same as msdyn_rmaproduct entity [TransactionCurrency_msdyn_rmaproduct](msdyn_rmaproduct.md#BKMK_TransactionCurrency_msdyn_rmaproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rmaproduct|
@@ -2101,6 +2197,7 @@ Same as msdyn_rmaproduct entity [TransactionCurrency_msdyn_rmaproduct](msdyn_rma
 ### <a name="BKMK_TransactionCurrency_msdyn_rtv"></a> TransactionCurrency_msdyn_rtv
 
 Same as msdyn_rtv entity [TransactionCurrency_msdyn_rtv](msdyn_rtv.md#BKMK_TransactionCurrency_msdyn_rtv) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rtv|
@@ -2115,6 +2212,7 @@ Same as msdyn_rtv entity [TransactionCurrency_msdyn_rtv](msdyn_rtv.md#BKMK_Trans
 ### <a name="BKMK_TransactionCurrency_msdyn_rtvproduct"></a> TransactionCurrency_msdyn_rtvproduct
 
 Same as msdyn_rtvproduct entity [TransactionCurrency_msdyn_rtvproduct](msdyn_rtvproduct.md#BKMK_TransactionCurrency_msdyn_rtvproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rtvproduct|
@@ -2129,6 +2227,7 @@ Same as msdyn_rtvproduct entity [TransactionCurrency_msdyn_rtvproduct](msdyn_rtv
 ### <a name="BKMK_TransactionCurrency_msdyn_workorder"></a> TransactionCurrency_msdyn_workorder
 
 Same as msdyn_workorder entity [TransactionCurrency_msdyn_workorder](msdyn_workorder.md#BKMK_TransactionCurrency_msdyn_workorder) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorder|
@@ -2143,6 +2242,7 @@ Same as msdyn_workorder entity [TransactionCurrency_msdyn_workorder](msdyn_worko
 ### <a name="BKMK_TransactionCurrency_msdyn_workorderproduct"></a> TransactionCurrency_msdyn_workorderproduct
 
 Same as msdyn_workorderproduct entity [TransactionCurrency_msdyn_workorderproduct](msdyn_workorderproduct.md#BKMK_TransactionCurrency_msdyn_workorderproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorderproduct|
@@ -2157,6 +2257,7 @@ Same as msdyn_workorderproduct entity [TransactionCurrency_msdyn_workorderproduc
 ### <a name="BKMK_TransactionCurrency_msdyn_workorderservice"></a> TransactionCurrency_msdyn_workorderservice
 
 Same as msdyn_workorderservice entity [TransactionCurrency_msdyn_workorderservice](msdyn_workorderservice.md#BKMK_TransactionCurrency_msdyn_workorderservice) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorderservice|
@@ -2171,6 +2272,7 @@ Same as msdyn_workorderservice entity [TransactionCurrency_msdyn_workorderservic
 ### <a name="BKMK_msdyn_transactioncurrency_invoicedetail_Currency"></a> msdyn_transactioncurrency_invoicedetail_Currency
 
 Same as invoicedetail entity [msdyn_transactioncurrency_invoicedetail_Currency](invoicedetail.md#BKMK_msdyn_transactioncurrency_invoicedetail_Currency) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|invoicedetail|
@@ -2185,6 +2287,7 @@ Same as invoicedetail entity [msdyn_transactioncurrency_invoicedetail_Currency](
 ### <a name="BKMK_TransactionCurrency_Goal"></a> TransactionCurrency_Goal
 
 Same as goal entity [TransactionCurrency_Goal](goal.md#BKMK_TransactionCurrency_Goal) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|goal|
@@ -2199,6 +2302,7 @@ Same as goal entity [TransactionCurrency_Goal](goal.md#BKMK_TransactionCurrency_
 ### <a name="BKMK_TransactionCurrency_SharePointSite"></a> TransactionCurrency_SharePointSite
 
 Same as sharepointsite entity [TransactionCurrency_SharePointSite](sharepointsite.md#BKMK_TransactionCurrency_SharePointSite) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointsite|
@@ -2213,6 +2317,7 @@ Same as sharepointsite entity [TransactionCurrency_SharePointSite](sharepointsit
 ### <a name="BKMK_TransactionCurrency_QueueItem"></a> TransactionCurrency_QueueItem
 
 Same as queueitem entity [TransactionCurrency_QueueItem](queueitem.md#BKMK_TransactionCurrency_QueueItem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queueitem|
@@ -2227,6 +2332,7 @@ Same as queueitem entity [TransactionCurrency_QueueItem](queueitem.md#BKMK_Trans
 ### <a name="BKMK_transactioncurrency_actioncard"></a> transactioncurrency_actioncard
 
 Same as actioncard entity [transactioncurrency_actioncard](actioncard.md#BKMK_transactioncurrency_actioncard) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|actioncard|
@@ -2241,6 +2347,7 @@ Same as actioncard entity [transactioncurrency_actioncard](actioncard.md#BKMK_tr
 ### <a name="BKMK_TransactionCurrency_officegraphdocument"></a> TransactionCurrency_officegraphdocument
 
 Same as officegraphdocument entity [TransactionCurrency_officegraphdocument](officegraphdocument.md#BKMK_TransactionCurrency_officegraphdocument) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|officegraphdocument|
@@ -2255,6 +2362,7 @@ Same as officegraphdocument entity [TransactionCurrency_officegraphdocument](off
 ### <a name="BKMK_TransactionCurrency_KnowledgeBaseRecord"></a> TransactionCurrency_KnowledgeBaseRecord
 
 Same as knowledgebaserecord entity [TransactionCurrency_KnowledgeBaseRecord](knowledgebaserecord.md#BKMK_TransactionCurrency_KnowledgeBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|knowledgebaserecord|
@@ -2269,6 +2377,7 @@ Same as knowledgebaserecord entity [TransactionCurrency_KnowledgeBaseRecord](kno
 ### <a name="BKMK_TransactionCurrency_SharePointDocument"></a> TransactionCurrency_SharePointDocument
 
 Same as sharepointdocument entity [TransactionCurrency_SharePointDocument](sharepointdocument.md#BKMK_TransactionCurrency_SharePointDocument) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocument|
@@ -2283,6 +2392,7 @@ Same as sharepointdocument entity [TransactionCurrency_SharePointDocument](share
 ### <a name="BKMK_TransactionCurrency_delveactionhub"></a> TransactionCurrency_delveactionhub
 
 Same as delveactionhub entity [TransactionCurrency_delveactionhub](delveactionhub.md#BKMK_TransactionCurrency_delveactionhub) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|delveactionhub|
@@ -2297,6 +2407,7 @@ Same as delveactionhub entity [TransactionCurrency_delveactionhub](delveactionhu
 ### <a name="BKMK_TransactionCurrency_ActionCardUserState"></a> TransactionCurrency_ActionCardUserState
 
 Same as actioncarduserstate entity [TransactionCurrency_ActionCardUserState](actioncarduserstate.md#BKMK_TransactionCurrency_ActionCardUserState) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|actioncarduserstate|
@@ -2311,6 +2422,7 @@ Same as actioncarduserstate entity [TransactionCurrency_ActionCardUserState](act
 ### <a name="BKMK_TransactionCurrency_SharePointDocumentLocation"></a> TransactionCurrency_SharePointDocumentLocation
 
 Same as sharepointdocumentlocation entity [TransactionCurrency_SharePointDocumentLocation](sharepointdocumentlocation.md#BKMK_TransactionCurrency_SharePointDocumentLocation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocumentlocation|
@@ -2325,6 +2437,7 @@ Same as sharepointdocumentlocation entity [TransactionCurrency_SharePointDocumen
 ### <a name="BKMK_TransactionCurrency_SLAItem"></a> TransactionCurrency_SLAItem
 
 Same as slaitem entity [TransactionCurrency_SLAItem](slaitem.md#BKMK_TransactionCurrency_SLAItem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|slaitem|
@@ -2339,6 +2452,7 @@ Same as slaitem entity [TransactionCurrency_SLAItem](slaitem.md#BKMK_Transaction
 ### <a name="BKMK_transactioncurrency_expiredprocess"></a> transactioncurrency_expiredprocess
 
 Same as expiredprocess entity [transactioncurrency_expiredprocess](expiredprocess.md#BKMK_transactioncurrency_expiredprocess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|expiredprocess|
@@ -2353,6 +2467,7 @@ Same as expiredprocess entity [transactioncurrency_expiredprocess](expiredproces
 ### <a name="BKMK_TransactionCurrency_externalpartyitem"></a> TransactionCurrency_externalpartyitem
 
 Same as externalpartyitem entity [TransactionCurrency_externalpartyitem](externalpartyitem.md#BKMK_TransactionCurrency_externalpartyitem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|externalpartyitem|
@@ -2367,6 +2482,7 @@ Same as externalpartyitem entity [TransactionCurrency_externalpartyitem](externa
 ### <a name="BKMK_TransactionCurrency_profileruleitem"></a> TransactionCurrency_profileruleitem
 
 Same as channelaccessprofileruleitem entity [TransactionCurrency_profileruleitem](channelaccessprofileruleitem.md#BKMK_TransactionCurrency_profileruleitem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|channelaccessprofileruleitem|
@@ -2381,6 +2497,7 @@ Same as channelaccessprofileruleitem entity [TransactionCurrency_profileruleitem
 ### <a name="BKMK_TransactionCurrency_ProcessSessions"></a> TransactionCurrency_ProcessSessions
 
 Same as processsession entity [TransactionCurrency_ProcessSessions](processsession.md#BKMK_TransactionCurrency_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -2395,6 +2512,7 @@ Same as processsession entity [TransactionCurrency_ProcessSessions](processsessi
 ### <a name="BKMK_TransactionCurrency_profilerule"></a> TransactionCurrency_profilerule
 
 Same as channelaccessprofilerule entity [TransactionCurrency_profilerule](channelaccessprofilerule.md#BKMK_TransactionCurrency_profilerule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|channelaccessprofilerule|
@@ -2409,6 +2527,7 @@ Same as channelaccessprofilerule entity [TransactionCurrency_profilerule](channe
 ### <a name="BKMK_TransactionCurrency_SyncErrors"></a> TransactionCurrency_SyncErrors
 
 Same as syncerror entity [TransactionCurrency_SyncErrors](syncerror.md#BKMK_TransactionCurrency_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -2423,6 +2542,7 @@ Same as syncerror entity [TransactionCurrency_SyncErrors](syncerror.md#BKMK_Tran
 ### <a name="BKMK_transactioncurrency_socialactivity"></a> transactioncurrency_socialactivity
 
 Same as socialactivity entity [transactioncurrency_socialactivity](socialactivity.md#BKMK_transactioncurrency_socialactivity) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -2437,6 +2557,7 @@ Same as socialactivity entity [transactioncurrency_socialactivity](socialactivit
 ### <a name="BKMK_TransactionCurrency_MailMergeTemplate"></a> TransactionCurrency_MailMergeTemplate
 
 Same as mailmergetemplate entity [TransactionCurrency_MailMergeTemplate](mailmergetemplate.md#BKMK_TransactionCurrency_MailMergeTemplate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailmergetemplate|
@@ -2451,6 +2572,7 @@ Same as mailmergetemplate entity [TransactionCurrency_MailMergeTemplate](mailmer
 ### <a name="BKMK_TransactionCurrency_UserMapping"></a> TransactionCurrency_UserMapping
 
 Same as usermapping entity [TransactionCurrency_UserMapping](usermapping.md#BKMK_TransactionCurrency_UserMapping) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|usermapping|
@@ -2465,6 +2587,7 @@ Same as usermapping entity [TransactionCurrency_UserMapping](usermapping.md#BKMK
 ### <a name="BKMK_transactioncurrency_fixedmonthlyfiscalcalendar"></a> transactioncurrency_fixedmonthlyfiscalcalendar
 
 Same as fixedmonthlyfiscalcalendar entity [transactioncurrency_fixedmonthlyfiscalcalendar](fixedmonthlyfiscalcalendar.md#BKMK_transactioncurrency_fixedmonthlyfiscalcalendar) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fixedmonthlyfiscalcalendar|
@@ -2479,6 +2602,7 @@ Same as fixedmonthlyfiscalcalendar entity [transactioncurrency_fixedmonthlyfisca
 ### <a name="BKMK_transactioncurrency_semiannualfiscalcalendar"></a> transactioncurrency_semiannualfiscalcalendar
 
 Same as semiannualfiscalcalendar entity [transactioncurrency_semiannualfiscalcalendar](semiannualfiscalcalendar.md#BKMK_transactioncurrency_semiannualfiscalcalendar) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|semiannualfiscalcalendar|
@@ -2493,6 +2617,7 @@ Same as semiannualfiscalcalendar entity [transactioncurrency_semiannualfiscalcal
 ### <a name="BKMK_TransactionCurrency_PhoneCall"></a> TransactionCurrency_PhoneCall
 
 Same as phonecall entity [TransactionCurrency_PhoneCall](phonecall.md#BKMK_TransactionCurrency_PhoneCall) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -2507,6 +2632,7 @@ Same as phonecall entity [TransactionCurrency_PhoneCall](phonecall.md#BKMK_Trans
 ### <a name="BKMK_TransactionCurrency_Fax"></a> TransactionCurrency_Fax
 
 Same as fax entity [TransactionCurrency_Fax](fax.md#BKMK_TransactionCurrency_Fax) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -2521,6 +2647,7 @@ Same as fax entity [TransactionCurrency_Fax](fax.md#BKMK_TransactionCurrency_Fax
 ### <a name="BKMK_transactioncurrency_usersettings"></a> transactioncurrency_usersettings
 
 Same as usersettings entity [transactioncurrency_usersettings](usersettings.md#BKMK_transactioncurrency_usersettings) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|usersettings|
@@ -2535,6 +2662,7 @@ Same as usersettings entity [transactioncurrency_usersettings](usersettings.md#B
 ### <a name="BKMK_userentityinstancedata_transactioncurrency"></a> userentityinstancedata_transactioncurrency
 
 Same as userentityinstancedata entity [userentityinstancedata_transactioncurrency](userentityinstancedata.md#BKMK_userentityinstancedata_transactioncurrency) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -2549,6 +2677,7 @@ Same as userentityinstancedata entity [userentityinstancedata_transactioncurrenc
 ### <a name="BKMK_TransactionCurrency_ActivityPointer"></a> TransactionCurrency_ActivityPointer
 
 Same as activitypointer entity [TransactionCurrency_ActivityPointer](activitypointer.md#BKMK_TransactionCurrency_ActivityPointer) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -2563,6 +2692,7 @@ Same as activitypointer entity [TransactionCurrency_ActivityPointer](activitypoi
 ### <a name="BKMK_transactioncurrency_category"></a> transactioncurrency_category
 
 Same as category entity [transactioncurrency_category](category.md#BKMK_transactioncurrency_category) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|category|
@@ -2577,6 +2707,7 @@ Same as category entity [transactioncurrency_category](category.md#BKMK_transact
 ### <a name="BKMK_TransactionCurrency_ConvertRule"></a> TransactionCurrency_ConvertRule
 
 Same as convertrule entity [TransactionCurrency_ConvertRule](convertrule.md#BKMK_TransactionCurrency_ConvertRule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|convertrule|
@@ -2591,6 +2722,7 @@ Same as convertrule entity [TransactionCurrency_ConvertRule](convertrule.md#BKMK
 ### <a name="BKMK_transactioncurrency_position"></a> transactioncurrency_position
 
 Same as position entity [transactioncurrency_position](position.md#BKMK_transactioncurrency_position) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|position|
@@ -2605,6 +2737,7 @@ Same as position entity [transactioncurrency_position](position.md#BKMK_transact
 ### <a name="BKMK_TransactionCurrency_Task"></a> TransactionCurrency_Task
 
 Same as task entity [TransactionCurrency_Task](task.md#BKMK_TransactionCurrency_Task) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -2619,6 +2752,7 @@ Same as task entity [TransactionCurrency_Task](task.md#BKMK_TransactionCurrency_
 ### <a name="BKMK_TransactionCurrency_SLA"></a> TransactionCurrency_SLA
 
 Same as sla entity [TransactionCurrency_SLA](sla.md#BKMK_TransactionCurrency_SLA) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sla|
@@ -2633,6 +2767,7 @@ Same as sla entity [TransactionCurrency_SLA](sla.md#BKMK_TransactionCurrency_SLA
 ### <a name="BKMK_basecurrency_organization"></a> basecurrency_organization
 
 Same as organization entity [basecurrency_organization](organization.md#BKMK_basecurrency_organization) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|organization|
@@ -2647,6 +2782,7 @@ Same as organization entity [basecurrency_organization](organization.md#BKMK_bas
 ### <a name="BKMK_TransactionCurrency_Letter"></a> TransactionCurrency_Letter
 
 Same as letter entity [TransactionCurrency_Letter](letter.md#BKMK_TransactionCurrency_Letter) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -2661,6 +2797,7 @@ Same as letter entity [TransactionCurrency_Letter](letter.md#BKMK_TransactionCur
 ### <a name="BKMK_transactioncurrency_convertruleitem"></a> transactioncurrency_convertruleitem
 
 Same as convertruleitem entity [transactioncurrency_convertruleitem](convertruleitem.md#BKMK_transactioncurrency_convertruleitem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|convertruleitem|
@@ -2675,6 +2812,7 @@ Same as convertruleitem entity [transactioncurrency_convertruleitem](convertrule
 ### <a name="BKMK_TransactionCurrency_routingruleitem"></a> TransactionCurrency_routingruleitem
 
 Same as routingruleitem entity [TransactionCurrency_routingruleitem](routingruleitem.md#BKMK_TransactionCurrency_routingruleitem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|routingruleitem|
@@ -2689,6 +2827,7 @@ Same as routingruleitem entity [TransactionCurrency_routingruleitem](routingrule
 ### <a name="BKMK_transactioncurrency_cardtype"></a> transactioncurrency_cardtype
 
 Same as cardtype entity [transactioncurrency_cardtype](cardtype.md#BKMK_transactioncurrency_cardtype) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|cardtype|
@@ -2703,6 +2842,7 @@ Same as cardtype entity [transactioncurrency_cardtype](cardtype.md#BKMK_transact
 ### <a name="BKMK_TransactionCurrency_SystemUser"></a> TransactionCurrency_SystemUser
 
 Same as systemuser entity [TransactionCurrency_SystemUser](systemuser.md#BKMK_TransactionCurrency_SystemUser) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|systemuser|
@@ -2717,6 +2857,7 @@ Same as systemuser entity [TransactionCurrency_SystemUser](systemuser.md#BKMK_Tr
 ### <a name="BKMK_TransactionCurrency_Team"></a> TransactionCurrency_Team
 
 Same as team entity [TransactionCurrency_Team](team.md#BKMK_TransactionCurrency_Team) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|team|
@@ -2731,6 +2872,7 @@ Same as team entity [TransactionCurrency_Team](team.md#BKMK_TransactionCurrency_
 ### <a name="BKMK_TransactionCurrency_Email"></a> TransactionCurrency_Email
 
 Same as email entity [TransactionCurrency_Email](email.md#BKMK_TransactionCurrency_Email) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -2745,6 +2887,7 @@ Same as email entity [TransactionCurrency_Email](email.md#BKMK_TransactionCurren
 ### <a name="BKMK_TransactionCurrency_BusinessUnit"></a> TransactionCurrency_BusinessUnit
 
 Same as businessunit entity [TransactionCurrency_BusinessUnit](businessunit.md#BKMK_TransactionCurrency_BusinessUnit) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|businessunit|
@@ -2759,6 +2902,7 @@ Same as businessunit entity [TransactionCurrency_BusinessUnit](businessunit.md#B
 ### <a name="BKMK_transactioncurrency_SocialProfile"></a> transactioncurrency_SocialProfile
 
 Same as socialprofile entity [transactioncurrency_SocialProfile](socialprofile.md#BKMK_transactioncurrency_SocialProfile) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialprofile|
@@ -2773,6 +2917,7 @@ Same as socialprofile entity [transactioncurrency_SocialProfile](socialprofile.m
 ### <a name="BKMK_TransactionCurrency_Queue"></a> TransactionCurrency_Queue
 
 Same as queue entity [TransactionCurrency_Queue](queue.md#BKMK_TransactionCurrency_Queue) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queue|
@@ -2787,6 +2932,7 @@ Same as queue entity [TransactionCurrency_Queue](queue.md#BKMK_TransactionCurren
 ### <a name="BKMK_TransactionCurrency_DuplicateMatchingRecord"></a> TransactionCurrency_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [TransactionCurrency_DuplicateMatchingRecord](duplicaterecord.md#BKMK_TransactionCurrency_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -2801,6 +2947,7 @@ Same as duplicaterecord entity [TransactionCurrency_DuplicateMatchingRecord](dup
 ### <a name="BKMK_TransactionCurrency_Appointment"></a> TransactionCurrency_Appointment
 
 Same as appointment entity [TransactionCurrency_Appointment](appointment.md#BKMK_TransactionCurrency_Appointment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -2815,6 +2962,7 @@ Same as appointment entity [TransactionCurrency_Appointment](appointment.md#BKMK
 ### <a name="BKMK_transactioncurrency_quarterlyfiscalcalendar"></a> transactioncurrency_quarterlyfiscalcalendar
 
 Same as quarterlyfiscalcalendar entity [transactioncurrency_quarterlyfiscalcalendar](quarterlyfiscalcalendar.md#BKMK_transactioncurrency_quarterlyfiscalcalendar) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quarterlyfiscalcalendar|
@@ -2829,6 +2977,7 @@ Same as quarterlyfiscalcalendar entity [transactioncurrency_quarterlyfiscalcalen
 ### <a name="BKMK_TransactionCurrency_KbArticle"></a> TransactionCurrency_KbArticle
 
 Same as kbarticle entity [TransactionCurrency_KbArticle](kbarticle.md#BKMK_TransactionCurrency_KbArticle) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|kbarticle|
@@ -2843,6 +2992,7 @@ Same as kbarticle entity [TransactionCurrency_KbArticle](kbarticle.md#BKMK_Trans
 ### <a name="BKMK_transactioncurrency_monthlyfiscalcalendar"></a> transactioncurrency_monthlyfiscalcalendar
 
 Same as monthlyfiscalcalendar entity [transactioncurrency_monthlyfiscalcalendar](monthlyfiscalcalendar.md#BKMK_transactioncurrency_monthlyfiscalcalendar) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|monthlyfiscalcalendar|
@@ -2857,6 +3007,7 @@ Same as monthlyfiscalcalendar entity [transactioncurrency_monthlyfiscalcalendar]
 ### <a name="BKMK_TransactionCurrency_CustomerAddress"></a> TransactionCurrency_CustomerAddress
 
 Same as customeraddress entity [TransactionCurrency_CustomerAddress](customeraddress.md#BKMK_TransactionCurrency_CustomerAddress) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|customeraddress|
@@ -2871,6 +3022,7 @@ Same as customeraddress entity [TransactionCurrency_CustomerAddress](customeradd
 ### <a name="BKMK_transactioncurrency_annualfiscalcalendar"></a> transactioncurrency_annualfiscalcalendar
 
 Same as annualfiscalcalendar entity [transactioncurrency_annualfiscalcalendar](annualfiscalcalendar.md#BKMK_transactioncurrency_annualfiscalcalendar) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annualfiscalcalendar|
@@ -2885,6 +3037,7 @@ Same as annualfiscalcalendar entity [transactioncurrency_annualfiscalcalendar](a
 ### <a name="BKMK_TransactionCurrency_Connection"></a> TransactionCurrency_Connection
 
 Same as connection entity [TransactionCurrency_Connection](connection.md#BKMK_TransactionCurrency_Connection) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -2899,6 +3052,7 @@ Same as connection entity [TransactionCurrency_Connection](connection.md#BKMK_Tr
 ### <a name="BKMK_transactioncurrency_translationprocess"></a> transactioncurrency_translationprocess
 
 Same as translationprocess entity [transactioncurrency_translationprocess](translationprocess.md#BKMK_transactioncurrency_translationprocess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|translationprocess|
@@ -2913,6 +3067,7 @@ Same as translationprocess entity [transactioncurrency_translationprocess](trans
 ### <a name="BKMK_TransactionCurrency_ExternalParty"></a> TransactionCurrency_ExternalParty
 
 Same as externalparty entity [TransactionCurrency_ExternalParty](externalparty.md#BKMK_TransactionCurrency_ExternalParty) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|externalparty|
@@ -2927,6 +3082,7 @@ Same as externalparty entity [TransactionCurrency_ExternalParty](externalparty.m
 ### <a name="BKMK_transactioncurrency_feedback"></a> transactioncurrency_feedback
 
 Same as feedback entity [transactioncurrency_feedback](feedback.md#BKMK_transactioncurrency_feedback) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|feedback|
@@ -2941,6 +3097,7 @@ Same as feedback entity [transactioncurrency_feedback](feedback.md#BKMK_transact
 ### <a name="BKMK_transactioncurrency_contact"></a> transactioncurrency_contact
 
 Same as contact entity [transactioncurrency_contact](contact.md#BKMK_transactioncurrency_contact) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contact|
@@ -2955,6 +3112,7 @@ Same as contact entity [transactioncurrency_contact](contact.md#BKMK_transaction
 ### <a name="BKMK_TransactionCurrency_ReportCategory"></a> TransactionCurrency_ReportCategory
 
 Same as reportcategory entity [TransactionCurrency_ReportCategory](reportcategory.md#BKMK_TransactionCurrency_ReportCategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|reportcategory|
@@ -2969,6 +3127,7 @@ Same as reportcategory entity [TransactionCurrency_ReportCategory](reportcategor
 ### <a name="BKMK_TransactionCurrency_InteractionForEmail"></a> TransactionCurrency_InteractionForEmail
 
 Same as interactionforemail entity [TransactionCurrency_InteractionForEmail](interactionforemail.md#BKMK_TransactionCurrency_InteractionForEmail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|interactionforemail|
@@ -2983,6 +3142,7 @@ Same as interactionforemail entity [TransactionCurrency_InteractionForEmail](int
 ### <a name="BKMK_TransactionCurrency_suggestioncardtemplate"></a> TransactionCurrency_suggestioncardtemplate
 
 Same as suggestioncardtemplate entity [TransactionCurrency_suggestioncardtemplate](suggestioncardtemplate.md#BKMK_TransactionCurrency_suggestioncardtemplate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|suggestioncardtemplate|
@@ -2997,6 +3157,7 @@ Same as suggestioncardtemplate entity [TransactionCurrency_suggestioncardtemplat
 ### <a name="BKMK_TransactionCurrency_slakpiinstance"></a> TransactionCurrency_slakpiinstance
 
 Same as slakpiinstance entity [TransactionCurrency_slakpiinstance](slakpiinstance.md#BKMK_TransactionCurrency_slakpiinstance) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|slakpiinstance|
@@ -3011,6 +3172,7 @@ Same as slakpiinstance entity [TransactionCurrency_slakpiinstance](slakpiinstanc
 ### <a name="BKMK_TransactionCurrency_DuplicateBaseRecord"></a> TransactionCurrency_DuplicateBaseRecord
 
 Same as duplicaterecord entity [TransactionCurrency_DuplicateBaseRecord](duplicaterecord.md#BKMK_TransactionCurrency_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -3025,6 +3187,7 @@ Same as duplicaterecord entity [TransactionCurrency_DuplicateBaseRecord](duplica
 ### <a name="BKMK_TransactionCurrency_AsyncOperations"></a> TransactionCurrency_AsyncOperations
 
 Same as asyncoperation entity [TransactionCurrency_AsyncOperations](asyncoperation.md#BKMK_TransactionCurrency_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -3039,6 +3202,7 @@ Same as asyncoperation entity [TransactionCurrency_AsyncOperations](asyncoperati
 ### <a name="BKMK_transactioncurrency_knowledgearticleviews"></a> transactioncurrency_knowledgearticleviews
 
 Same as knowledgearticleviews entity [transactioncurrency_knowledgearticleviews](knowledgearticleviews.md#BKMK_transactioncurrency_knowledgearticleviews) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|knowledgearticleviews|
@@ -3053,6 +3217,7 @@ Same as knowledgearticleviews entity [transactioncurrency_knowledgearticleviews]
 ### <a name="BKMK_TransactionCurrency_Theme"></a> TransactionCurrency_Theme
 
 Same as theme entity [TransactionCurrency_Theme](theme.md#BKMK_TransactionCurrency_Theme) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|theme|
@@ -3067,6 +3232,7 @@ Same as theme entity [TransactionCurrency_Theme](theme.md#BKMK_TransactionCurren
 ### <a name="BKMK_TransactionCurrency_ChannelAccessProfile"></a> TransactionCurrency_ChannelAccessProfile
 
 Same as channelaccessprofile entity [TransactionCurrency_ChannelAccessProfile](channelaccessprofile.md#BKMK_TransactionCurrency_ChannelAccessProfile) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|channelaccessprofile|
@@ -3081,6 +3247,7 @@ Same as channelaccessprofile entity [TransactionCurrency_ChannelAccessProfile](c
 ### <a name="BKMK_transactioncurrency_newprocess"></a> transactioncurrency_newprocess
 
 Same as newprocess entity [transactioncurrency_newprocess](newprocess.md#BKMK_transactioncurrency_newprocess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|newprocess|
@@ -3095,6 +3262,7 @@ Same as newprocess entity [transactioncurrency_newprocess](newprocess.md#BKMK_tr
 ### <a name="BKMK_TransactionCurrency_knowledgearticle"></a> TransactionCurrency_knowledgearticle
 
 Same as knowledgearticle entity [TransactionCurrency_knowledgearticle](knowledgearticle.md#BKMK_TransactionCurrency_knowledgearticle) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|knowledgearticle|
@@ -3109,6 +3277,7 @@ Same as knowledgearticle entity [TransactionCurrency_knowledgearticle](knowledge
 ### <a name="BKMK_TransactionCurrency_RecurringAppointmentMaster"></a> TransactionCurrency_RecurringAppointmentMaster
 
 Same as recurringappointmentmaster entity [TransactionCurrency_RecurringAppointmentMaster](recurringappointmentmaster.md#BKMK_TransactionCurrency_RecurringAppointmentMaster) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -3123,6 +3292,7 @@ Same as recurringappointmentmaster entity [TransactionCurrency_RecurringAppointm
 ### <a name="BKMK_transactioncurrency_account"></a> transactioncurrency_account
 
 Same as account entity [transactioncurrency_account](account.md#BKMK_transactioncurrency_account) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|account|
@@ -3137,6 +3307,7 @@ Same as account entity [transactioncurrency_account](account.md#BKMK_transaction
 ### <a name="BKMK_TransactionCurrency_recommendeddocument"></a> TransactionCurrency_recommendeddocument
 
 Same as recommendeddocument entity [TransactionCurrency_recommendeddocument](recommendeddocument.md#BKMK_TransactionCurrency_recommendeddocument) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recommendeddocument|
@@ -3151,6 +3322,7 @@ Same as recommendeddocument entity [TransactionCurrency_recommendeddocument](rec
 ### <a name="BKMK_TransactionCurrency_Routingrule"></a> TransactionCurrency_Routingrule
 
 Same as routingrule entity [TransactionCurrency_Routingrule](routingrule.md#BKMK_TransactionCurrency_Routingrule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|routingrule|

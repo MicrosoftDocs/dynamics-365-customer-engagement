@@ -605,6 +605,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_knowledgesearchmodel_textanalyticsentitymapping"></a> knowledgesearchmodel_textanalyticsentitymapping
 
 Same as textanalyticsentitymapping entity [knowledgesearchmodel_textanalyticsentitymapping](textanalyticsentitymapping.md#BKMK_knowledgesearchmodel_textanalyticsentitymapping) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|textanalyticsentitymapping|
