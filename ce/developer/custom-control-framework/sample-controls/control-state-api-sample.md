@@ -265,6 +265,7 @@ module SampleNamespace
 
 ### Related topics
 
+[Mode](reference/mode.md)<br />
 [PowerApps Control Framework Manifest Schema Reference](manifest-schema-reference/index.md)<br />
 [PowerApps Control Framework API Reference](index.md)<br />
 [PowerApps Control Framework Overview](powerapps-control-framework-overview.md)
