@@ -126,7 +126,7 @@ Though these settings provide assist-edit buttons, you must only place static va
 > [!NOTE]
 > The advanced dynamic-content features described in this section are scheduled to be rolled out to customer organizations gradually between July and September 2018. To see if they are available to your organization, create a message and paste in the following conditional example:
 > 
-> `{{#if (eq ‘123’ ‘123’)}} Advanced dynamic content is enabled. {{else if (eq contact.contact_account_parentcustomerid.name '123')}} Hello. {{/if}}`
+> `{{#if (eq contact.contact_account_parentcustomerid.name 'abc')}} Hello. {{else if (eq '123' '123')}} Advanced dynamic content is enabled. {{/if}}`
 > 
 > Then open the **Preview** tab. If the preview shows "Advanced dynamic content is enabled," then you have the feature. If instead you see the entire line of code, plus error messages like "We couldn't resolve the message template" or "HTML property not found", then you don't have it yet.  If you don't have the feature available, and require it urgently, then please contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] for assistance.
 
