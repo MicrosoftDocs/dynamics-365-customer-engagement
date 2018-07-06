@@ -254,7 +254,7 @@ The control consists of a label and a button. When you click on the button, the 
 
 ### Related topics
 
-[Control](reference/control.md)
-[PowerApps Control Framework API Reference](reference/index.md)<br />
-[PowerApps Control Framework Manifest Schema Reference](manifest-schema-reference/index.md)<br />
+[Control](../reference/control.md)
+[PowerApps Control Framework API Reference](../reference/index.md)<br />
+[PowerApps Control Framework Manifest Schema Reference](../manifest-schema-reference/index.md)<br />
 [PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
