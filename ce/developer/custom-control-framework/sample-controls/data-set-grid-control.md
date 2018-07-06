@@ -16,7 +16,7 @@ applies_to:
 ms.assetid: 356561d0-a36b-4b93-8b76-3e1abf9414e9
 ---
 
-This sample control changes the user experience of interacting with datasets. For example, by default we only see the home page grid on an entity homepage which is like a table. We can build our own custom control that can display that data as per our choice. This sample show the records as tiles instead of the regular tabular grid. 
+The Data Set Grid sample control changes the user experience of interacting with datasets. For example, by default we only see the home page grid on an entity homepage as a table. We can build our own custom control that can display that data as per our choice. This sample show the records as tiles instead of the regular tabular grid. 
 
 ## Manifest 
 
