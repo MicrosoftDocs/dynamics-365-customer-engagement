@@ -15,7 +15,7 @@ ms.assetid: 7341c21e-88d7-4996-ab74-3731f9cbaa1b
 caps.latest.revision: 6
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Manage updates 
 
