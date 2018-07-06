@@ -16,9 +16,9 @@ applies_to:
 ms.assetid: c12184e2-b2ef-4e12-b6f9-7a1ff7dab01a
 ---
 
-This sample showcases how to use third-party libraries to create controls in PowerApps Control Framework.  
+The Flip sample control showcases how to use third-party libraries to create controls in PowerApps Control Framework.  
 
-This sample provides examples on how to add dependencies for third-party libraries, showcases how to perform data-binding between PCF, control model and third party inner data model in bi-direction. 
+This sample provides examples on how to add dependencies for third-party libraries, showcases how to perform data-binding between PowerApps Control Framework, control model and third party inner data model in bi-direction. 
 
 >[NOTE]
 > The control is based on angular.js, angular-ui, angular-animate, angular-sanitize, bootstrap for sampling purpose only. The code may not reveal the best practices for the mentioned third-party libraries. 
@@ -254,6 +254,7 @@ The control consists of a label and a button. When you click on the button, the 
 
 ### Related topics
 
+[Control](reference/control.md)
 [PowerApps Control Framework API Reference](reference/index.md)<br />
 [PowerApps Control Framework Manifest Schema Reference](manifest-schema-reference/index.md)<br />
 [PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
