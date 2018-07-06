@@ -124,7 +124,11 @@ Though these settings provide assist-edit buttons, you must only place static va
 ## Advanced dynamic content
 
 > [!NOTE]
-> The advanced dynamic-content features described in this section are scheduled to be rolled out to customer organizations gradually between July and September 2018. To see if they are available to your organization, create a message that includes a conditional (if-then) expression as described here, then open the **Preview** tab to see if it works. If you do not yet have the feature available, and require it urgently, then please contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] for assistance.
+> The advanced dynamic-content features described in this section are scheduled to be rolled out to customer organizations gradually between July and September 2018. To see if they are available to your organization, create a message and paste in the following conditional example:
+> 
+> `{{#if (eq ‘123’ ‘123’)}} Advanced dynamic content is enabled. {{else if (eq contact.contact_account_parentcustomerid.name '123')}} Hello. {{/if}}`
+> 
+> Then open the **Preview** tab. If the preview shows "Advanced dynamic content is enabled," then you have the feature. If instead you see the entire line of code, plus error messages like "We couldn't resolve the message template" or "HTML property not found", then you don't have it yet.  If you don't have the feature available, and require it urgently, then please contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] for assistance.
 
 You can add advanced logical processing to your email designs, which can make the content even more responsive to recipients, demographics, and context. This type of customization requires you to have a basic understanding of scripting and programming. You can enter the code while working on either the **Designer** or **HTML** tab of the content designer.
 
@@ -145,7 +149,7 @@ You can place nearly any database value into your messages using the same types 
 > [!NOTE]
 > You can only use data from entities that are synced with the customer-insights service (and therefore also listed in the assist-edit menu). If you need to show information from an entity that isn't yet synced, then talk to your admin. If you are an admin, then see [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync) for instructions.
 
-In addition, you can also construct expressions that fetch values from lookup fields (which link to related records) by adding an extra &quot;hop&quot; in your expression, where each hop (also known as an _access operator_) is indicated by a period (.), such as:
+In addition, you can also construct expressions that fetch values from lookup fields (which link to related records) by adding an extra "hop" in your expression, where each hop (also known as an _access operator_) is indicated by a period (.), such as:
 
 - `{{EntityName.RelationshipName.FieldName}}`
 - `{{EntityName(RecordID).RelationshipName.FieldName}}`
@@ -243,13 +247,11 @@ For-each loops take the following form:
 
  ```Handlebars
 {{#each Entity.RelationshipName }}
-    <StaticContent>
+    ...
     {{this.RelatedField1}}
-    <StaticContent>
+    ...
     {{this.RelatedField2}}
-    .
-    .
-    .
+    ...
 {{/each}}
 ``` 
 
@@ -258,7 +260,7 @@ Where:
 - The loop block must always open with `{{#each … }}`.
 - `Entity.RelationshipName` identifies the set of related records that the loop will iterate over.
 - The loop starts with the first available related record, and repeats for each available related record until all related records have been listed. Note that the related records will be returned in an arbitrary and unpredictable order.
-- `{{this.RelatedField<n>}}` identifies a field name from the related record. The &quot;this&quot; part of this expression refers to the related record being processed in the current loop iteration, and must be followed by a valid field name for the related entity. You can include any number of fields in each loop.
+- `{{this.RelatedField<n>}}` identifies a field name from the related record. The "this" part of this expression refers to the related record being processed in the current loop iteration, and must be followed by a valid field name for the related entity. You can include any number of fields in each loop.
 - The loop block must always close with `{{/each}}`.
 
 For example, your database could include a list of products that a contact has ordered. You could list these in an email message using code such as:
