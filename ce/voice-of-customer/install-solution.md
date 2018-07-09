@@ -18,14 +18,14 @@ ms.custom:
   - dyn365-VoC
 ---
 
-# Install the Voice of the Customer solution
+# Install or Upgrade the Voice of the Customer solution
 
 This section provides you the steps to install the Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] solutions. If you're an administrator, you can find the version by going to **Settings** &gt; **Solutions**.
 
 > [!NOTE] 
 > Surveys aren't supported on legacy forms.
 
-## Install the Voice of the Customer solution, version 9.0 and later
+## Install or Upgrade the Voice of the Customer solution, version 9.0 and later
 
  The Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] solution can be installed from [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)]. It is compatible with [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] version 8.2 and later.
 
