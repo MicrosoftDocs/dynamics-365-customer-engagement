@@ -242,4 +242,3 @@ This feature is part of the standard functionality of [!INCLUDE[pn-dynamics-365]
 [Manage customer information](manage-customer-information.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Set up a subscription center](set-up-subscription-center.md)  
-[Set up double opt-in for new subscriptions and consent changes](double-opt-in.md)
