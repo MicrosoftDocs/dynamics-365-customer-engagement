@@ -1,1 +1,0 @@
-Returns a string representing the logical name of the entity for the record.

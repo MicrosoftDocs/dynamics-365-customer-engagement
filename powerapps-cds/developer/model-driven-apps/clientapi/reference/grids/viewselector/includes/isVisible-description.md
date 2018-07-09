@@ -1,1 +1,0 @@
-Returns a boolean value to indicate whether the view selector is visible.
