@@ -116,7 +116,6 @@ To create a segment that finds contacts who _are not_ using automatic registrati
 **Waitlist Item | Invited | is | True**
 
 1. Select **+ And** to add a third clause. Use it to create the logical expression:  
-
 **Waitlist Item | Event msevtmgt\_event | is | &lt;YourEventID&gt;**
 
     Where _&lt;YourEventID&gt;_ is the event ID you found at the start of this procedure.
