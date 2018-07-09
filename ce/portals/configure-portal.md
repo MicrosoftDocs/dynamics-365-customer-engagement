@@ -3,7 +3,7 @@ title: "Configure a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn about how you can configure your portal in different ways."
 ms.custom:
   - dyn365-portal
-ms.date: 09/28/2017
+ms.date: 06/08/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,8 +14,8 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Configure a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal
-[comment]: <> (Can be combined with other topics)
+# Configure a Dynamics 365 portal
+
 Learn how to configure portals and customize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals offer powerful customization options to:
 
 - [Configure site settings for portals to modify the behavior or visual style of a portal](configure-site-settings.md)  

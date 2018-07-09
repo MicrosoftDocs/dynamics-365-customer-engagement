@@ -729,6 +729,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_cardtype_actioncard"></a> cardtype_actioncard
 
 Same as actioncard entity [cardtype_actioncard](actioncard.md#BKMK_cardtype_actioncard) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|actioncard|
@@ -743,6 +744,7 @@ Same as actioncard entity [cardtype_actioncard](actioncard.md#BKMK_cardtype_acti
 ### <a name="BKMK_cardtype_actioncardusersettings"></a> cardtype_actioncardusersettings
 
 Same as actioncardusersettings entity [cardtype_actioncardusersettings](actioncardusersettings.md#BKMK_cardtype_actioncardusersettings) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|actioncardusersettings|

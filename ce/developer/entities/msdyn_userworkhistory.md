@@ -715,6 +715,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_userworkhistory_SyncErrors"></a> msdyn_userworkhistory_SyncErrors
 
 Same as syncerror entity [msdyn_userworkhistory_SyncErrors](syncerror.md#BKMK_msdyn_userworkhistory_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -729,6 +730,7 @@ Same as syncerror entity [msdyn_userworkhistory_SyncErrors](syncerror.md#BKMK_ms
 ### <a name="BKMK_msdyn_userworkhistory_DuplicateMatchingRecord"></a> msdyn_userworkhistory_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_userworkhistory_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_userworkhistory_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -743,6 +745,7 @@ Same as duplicaterecord entity [msdyn_userworkhistory_DuplicateMatchingRecord](d
 ### <a name="BKMK_msdyn_userworkhistory_DuplicateBaseRecord"></a> msdyn_userworkhistory_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_userworkhistory_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_userworkhistory_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -757,6 +760,7 @@ Same as duplicaterecord entity [msdyn_userworkhistory_DuplicateBaseRecord](dupli
 ### <a name="BKMK_msdyn_userworkhistory_AsyncOperations"></a> msdyn_userworkhistory_AsyncOperations
 
 Same as asyncoperation entity [msdyn_userworkhistory_AsyncOperations](asyncoperation.md#BKMK_msdyn_userworkhistory_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -771,6 +775,7 @@ Same as asyncoperation entity [msdyn_userworkhistory_AsyncOperations](asyncopera
 ### <a name="BKMK_msdyn_userworkhistory_MailboxTrackingFolders"></a> msdyn_userworkhistory_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_userworkhistory_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_userworkhistory_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -785,6 +790,7 @@ Same as mailboxtrackingfolder entity [msdyn_userworkhistory_MailboxTrackingFolde
 ### <a name="BKMK_msdyn_userworkhistory_UserEntityInstanceDatas"></a> msdyn_userworkhistory_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_userworkhistory_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_userworkhistory_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -799,6 +805,7 @@ Same as userentityinstancedata entity [msdyn_userworkhistory_UserEntityInstanceD
 ### <a name="BKMK_msdyn_userworkhistory_ProcessSession"></a> msdyn_userworkhistory_ProcessSession
 
 Same as processsession entity [msdyn_userworkhistory_ProcessSession](processsession.md#BKMK_msdyn_userworkhistory_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -813,6 +820,7 @@ Same as processsession entity [msdyn_userworkhistory_ProcessSession](processsess
 ### <a name="BKMK_msdyn_userworkhistory_BulkDeleteFailures"></a> msdyn_userworkhistory_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_userworkhistory_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_userworkhistory_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -827,6 +835,7 @@ Same as bulkdeletefailure entity [msdyn_userworkhistory_BulkDeleteFailures](bulk
 ### <a name="BKMK_msdyn_userworkhistory_PrincipalObjectAttributeAccesses"></a> msdyn_userworkhistory_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_userworkhistory_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_userworkhistory_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

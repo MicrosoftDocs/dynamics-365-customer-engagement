@@ -75,11 +75,11 @@ You can connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-on
   
  The sequence of events as identified in this diagram are as follows:  
   
-1.  A listener application is registered on a [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] solution endpoint and begins actively listening for the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] remote execution context on the service bus.  
+1. A listener application is registered on a [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] solution endpoint and begins actively listening for the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] remote execution context on the service bus.  
   
-2.  A user performs some operation in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] that triggers execution of the registered OOB plug-in or a custom [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)]-aware plug-in. The plug-in initiates a post, through an asynchronous service system job, of the current request data context to the service bus.  
+2. A user performs some operation in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] that triggers execution of the registered OOB plug-in or a custom [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)]-aware plug-in. The plug-in initiates a post, through an asynchronous service system job, of the current request data context to the service bus.  
   
-3.  The claims posted by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] are authenticated. The service bus then relays the remote execution context to the listener. The listener processes the context information and performs some business-related task with that information. The service bus notifies the asynchronous service of a successful post and sets the related system job to a completed status.  
+3. The claims posted by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] are authenticated. The service bus then relays the remote execution context to the listener. The listener processes the context information and performs some business-related task with that information. The service bus notifies the asynchronous service of a successful post and sets the related system job to a completed status.  
   
 <a name="bkmk_establising"></a>  
  

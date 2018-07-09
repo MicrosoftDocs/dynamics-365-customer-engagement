@@ -628,6 +628,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_postalcode_ActivityPointers"></a> msdyn_postalcode_ActivityPointers
 
 Same as activitypointer entity [msdyn_postalcode_ActivityPointers](activitypointer.md#BKMK_msdyn_postalcode_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -642,6 +643,7 @@ Same as activitypointer entity [msdyn_postalcode_ActivityPointers](activitypoint
 ### <a name="BKMK_msdyn_postalcode_msdyn_approvals"></a> msdyn_postalcode_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_postalcode_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_postalcode_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -656,6 +658,7 @@ Same as msdyn_approval entity [msdyn_postalcode_msdyn_approvals](msdyn_approval.
 ### <a name="BKMK_msdyn_postalcode_msdyn_bookingalerts"></a> msdyn_postalcode_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_postalcode_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_postalcode_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -670,6 +673,7 @@ Same as msdyn_bookingalert entity [msdyn_postalcode_msdyn_bookingalerts](msdyn_b
 ### <a name="BKMK_msdyn_postalcode_SyncErrors"></a> msdyn_postalcode_SyncErrors
 
 Same as syncerror entity [msdyn_postalcode_SyncErrors](syncerror.md#BKMK_msdyn_postalcode_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -684,6 +688,7 @@ Same as syncerror entity [msdyn_postalcode_SyncErrors](syncerror.md#BKMK_msdyn_p
 ### <a name="BKMK_msdyn_postalcode_DuplicateMatchingRecord"></a> msdyn_postalcode_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_postalcode_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_postalcode_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -698,6 +703,7 @@ Same as duplicaterecord entity [msdyn_postalcode_DuplicateMatchingRecord](duplic
 ### <a name="BKMK_msdyn_postalcode_DuplicateBaseRecord"></a> msdyn_postalcode_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_postalcode_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_postalcode_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -712,6 +718,7 @@ Same as duplicaterecord entity [msdyn_postalcode_DuplicateBaseRecord](duplicater
 ### <a name="BKMK_msdyn_postalcode_AsyncOperations"></a> msdyn_postalcode_AsyncOperations
 
 Same as asyncoperation entity [msdyn_postalcode_AsyncOperations](asyncoperation.md#BKMK_msdyn_postalcode_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -726,6 +733,7 @@ Same as asyncoperation entity [msdyn_postalcode_AsyncOperations](asyncoperation.
 ### <a name="BKMK_msdyn_postalcode_MailboxTrackingFolders"></a> msdyn_postalcode_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_postalcode_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_postalcode_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -740,6 +748,7 @@ Same as mailboxtrackingfolder entity [msdyn_postalcode_MailboxTrackingFolders](m
 ### <a name="BKMK_msdyn_postalcode_UserEntityInstanceDatas"></a> msdyn_postalcode_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_postalcode_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_postalcode_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -754,6 +763,7 @@ Same as userentityinstancedata entity [msdyn_postalcode_UserEntityInstanceDatas]
 ### <a name="BKMK_msdyn_postalcode_ProcessSession"></a> msdyn_postalcode_ProcessSession
 
 Same as processsession entity [msdyn_postalcode_ProcessSession](processsession.md#BKMK_msdyn_postalcode_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -768,6 +778,7 @@ Same as processsession entity [msdyn_postalcode_ProcessSession](processsession.m
 ### <a name="BKMK_msdyn_postalcode_BulkDeleteFailures"></a> msdyn_postalcode_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_postalcode_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_postalcode_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -782,6 +793,7 @@ Same as bulkdeletefailure entity [msdyn_postalcode_BulkDeleteFailures](bulkdelet
 ### <a name="BKMK_msdyn_postalcode_PrincipalObjectAttributeAccesses"></a> msdyn_postalcode_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_postalcode_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_postalcode_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -796,6 +808,7 @@ Same as principalobjectattributeaccess entity [msdyn_postalcode_PrincipalObjectA
 ### <a name="BKMK_msdyn_postalcode_Appointments"></a> msdyn_postalcode_Appointments
 
 Same as appointment entity [msdyn_postalcode_Appointments](appointment.md#BKMK_msdyn_postalcode_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -810,6 +823,7 @@ Same as appointment entity [msdyn_postalcode_Appointments](appointment.md#BKMK_m
 ### <a name="BKMK_msdyn_postalcode_Emails"></a> msdyn_postalcode_Emails
 
 Same as email entity [msdyn_postalcode_Emails](email.md#BKMK_msdyn_postalcode_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -824,6 +838,7 @@ Same as email entity [msdyn_postalcode_Emails](email.md#BKMK_msdyn_postalcode_Em
 ### <a name="BKMK_msdyn_postalcode_Faxes"></a> msdyn_postalcode_Faxes
 
 Same as fax entity [msdyn_postalcode_Faxes](fax.md#BKMK_msdyn_postalcode_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -838,6 +853,7 @@ Same as fax entity [msdyn_postalcode_Faxes](fax.md#BKMK_msdyn_postalcode_Faxes) 
 ### <a name="BKMK_msdyn_postalcode_Letters"></a> msdyn_postalcode_Letters
 
 Same as letter entity [msdyn_postalcode_Letters](letter.md#BKMK_msdyn_postalcode_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -852,6 +868,7 @@ Same as letter entity [msdyn_postalcode_Letters](letter.md#BKMK_msdyn_postalcode
 ### <a name="BKMK_msdyn_postalcode_PhoneCalls"></a> msdyn_postalcode_PhoneCalls
 
 Same as phonecall entity [msdyn_postalcode_PhoneCalls](phonecall.md#BKMK_msdyn_postalcode_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -866,6 +883,7 @@ Same as phonecall entity [msdyn_postalcode_PhoneCalls](phonecall.md#BKMK_msdyn_p
 ### <a name="BKMK_msdyn_postalcode_Tasks"></a> msdyn_postalcode_Tasks
 
 Same as task entity [msdyn_postalcode_Tasks](task.md#BKMK_msdyn_postalcode_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -880,6 +898,7 @@ Same as task entity [msdyn_postalcode_Tasks](task.md#BKMK_msdyn_postalcode_Tasks
 ### <a name="BKMK_msdyn_postalcode_RecurringAppointmentMasters"></a> msdyn_postalcode_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_postalcode_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_postalcode_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -894,6 +913,7 @@ Same as recurringappointmentmaster entity [msdyn_postalcode_RecurringAppointment
 ### <a name="BKMK_msdyn_postalcode_SocialActivities"></a> msdyn_postalcode_SocialActivities
 
 Same as socialactivity entity [msdyn_postalcode_SocialActivities](socialactivity.md#BKMK_msdyn_postalcode_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -908,6 +928,7 @@ Same as socialactivity entity [msdyn_postalcode_SocialActivities](socialactivity
 ### <a name="BKMK_msdyn_postalcode_connections1"></a> msdyn_postalcode_connections1
 
 Same as connection entity [msdyn_postalcode_connections1](connection.md#BKMK_msdyn_postalcode_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -922,6 +943,7 @@ Same as connection entity [msdyn_postalcode_connections1](connection.md#BKMK_msd
 ### <a name="BKMK_msdyn_postalcode_connections2"></a> msdyn_postalcode_connections2
 
 Same as connection entity [msdyn_postalcode_connections2](connection.md#BKMK_msdyn_postalcode_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -936,6 +958,7 @@ Same as connection entity [msdyn_postalcode_connections2](connection.md#BKMK_msd
 ### <a name="BKMK_msdyn_postalcode_Annotations"></a> msdyn_postalcode_Annotations
 
 Same as annotation entity [msdyn_postalcode_Annotations](annotation.md#BKMK_msdyn_postalcode_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -950,6 +973,7 @@ Same as annotation entity [msdyn_postalcode_Annotations](annotation.md#BKMK_msdy
 ### <a name="BKMK_msdyn_postalcode_ServiceAppointments"></a> msdyn_postalcode_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_postalcode_ServiceAppointments](serviceappointment.md#BKMK_msdyn_postalcode_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|

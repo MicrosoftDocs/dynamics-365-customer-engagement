@@ -303,6 +303,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_duplicaterecord"></a> userentityinstancedata_duplicaterecord
 
 Same as userentityinstancedata entity [userentityinstancedata_duplicaterecord](userentityinstancedata.md#BKMK_userentityinstancedata_duplicaterecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

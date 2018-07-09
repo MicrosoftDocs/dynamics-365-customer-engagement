@@ -1,7 +1,7 @@
 ---
 title: "Actions on SharePoint location records (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 06/14/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -18,7 +18,9 @@ author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
 ---
+# Actions on SharePoint location records
 
+You can perform the actions described in this topic on Microsoft SharePoint location records.
 <a name="CRUDRecords"></a>
 
 ## Create, retrieve, update, and delete location records
@@ -95,17 +97,17 @@ _spDocLocId = _serviceProxy.Create(spDocLoc);
   
  The <xref:Microsoft.Crm.Sdk.Messages.RetrieveAbsoluteAndSiteCollectionUrlRequest> message will work properly only if both are true:  
   
--   The [!INCLUDE[pn_crm_list_component_sharepoint_server](../../includes/pn-crm-list-component-sharepoint-server.md)] is installed on the [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] site collection on the target [!INCLUDE[pn_ms_SharePoint_2010_short](../../includes/pn-ms-sharepoint-2010-short.md)] or [!INCLUDE[pn_sharepoint_2013](../../includes/pn-sharepoint-2013.md)] server. For more information, see [Microsoft Dynamics 365 list component for Microsoft SharePoint Server](get-started-sharepoint-integration.md#CRMListComponent).  
+- The [!INCLUDE[pn_crm_list_component_sharepoint_server](../../includes/pn-crm-list-component-sharepoint-server.md)] is installed on the [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] site collection on the target [!INCLUDE[pn_ms_SharePoint_2010_short](../../includes/pn-ms-sharepoint-2010-short.md)] or [!INCLUDE[pn_sharepoint_2013](../../includes/pn-sharepoint-2013.md)] server. For more information, see [Microsoft Dynamics 365 list component for Microsoft SharePoint Server](get-started-sharepoint-integration.md#CRMListComponent).  
   
--   The location record for the parent [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] site collection exists in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)], and the `SharePointSite.IsGridPresent` property was set to `true` while creating the parent location record.  
+- The location record for the parent [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] site collection exists in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)], and the `SharePointSite.IsGridPresent` property was set to `true` while creating the parent location record.  
   
- Otherwise, you will get a blank value or an incorrect value for the <xref:Microsoft.Crm.Sdk.Messages.RetrieveAbsoluteAndSiteCollectionUrlResponse.SiteCollectionUrl> property.  
+  Otherwise, you will get a blank value or an incorrect value for the <xref:Microsoft.Crm.Sdk.Messages.RetrieveAbsoluteAndSiteCollectionUrlResponse.SiteCollectionUrl> property.  
   
- For more information, see <xref:Microsoft.Crm.Sdk.Messages.RetrieveAbsoluteAndSiteCollectionUrlRequest>.  
+  For more information, see <xref:Microsoft.Crm.Sdk.Messages.RetrieveAbsoluteAndSiteCollectionUrlRequest>.  
   
- The following sample shows how to use the `RetrieveAbsoluteAndSiteCollectionUrl` message:  
+  The following sample shows how to use the `RetrieveAbsoluteAndSiteCollectionUrl` message:  
   
- [!code-csharp[SharePointIntegration#RetrieveAbsoluteAndSiteCollectionURLs2](../../snippets/csharp/CRMV8/sharepointintegration/cs/retrieveabsoluteandsitecollectionurls2.cs#retrieveabsoluteandsitecollectionurls2)]  
+  [!code-csharp[SharePointIntegration#RetrieveAbsoluteAndSiteCollectionURLs2](../../snippets/csharp/CRMV8/sharepointintegration/cs/retrieveabsoluteandsitecollectionurls2.cs#retrieveabsoluteandsitecollectionurls2)]  
   
 ### See Also  
  <xref:Microsoft.Crm.Sdk.Messages.RetrieveAbsoluteAndSiteCollectionUrlRequest>  

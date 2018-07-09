@@ -728,6 +728,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_SyncError_SyncErrors"></a> SyncError_SyncErrors
 
 Same as syncerror entity [SyncError_SyncErrors](syncerror.md#BKMK_SyncError_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|

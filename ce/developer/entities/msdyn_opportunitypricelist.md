@@ -646,6 +646,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_opportunitypricelist_SyncErrors"></a> msdyn_opportunitypricelist_SyncErrors
 
 Same as syncerror entity [msdyn_opportunitypricelist_SyncErrors](syncerror.md#BKMK_msdyn_opportunitypricelist_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -660,6 +661,7 @@ Same as syncerror entity [msdyn_opportunitypricelist_SyncErrors](syncerror.md#BK
 ### <a name="BKMK_msdyn_opportunitypricelist_DuplicateMatchingRecord"></a> msdyn_opportunitypricelist_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_opportunitypricelist_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_opportunitypricelist_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -674,6 +676,7 @@ Same as duplicaterecord entity [msdyn_opportunitypricelist_DuplicateMatchingReco
 ### <a name="BKMK_msdyn_opportunitypricelist_DuplicateBaseRecord"></a> msdyn_opportunitypricelist_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_opportunitypricelist_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_opportunitypricelist_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -688,6 +691,7 @@ Same as duplicaterecord entity [msdyn_opportunitypricelist_DuplicateBaseRecord](
 ### <a name="BKMK_msdyn_opportunitypricelist_AsyncOperations"></a> msdyn_opportunitypricelist_AsyncOperations
 
 Same as asyncoperation entity [msdyn_opportunitypricelist_AsyncOperations](asyncoperation.md#BKMK_msdyn_opportunitypricelist_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -702,6 +706,7 @@ Same as asyncoperation entity [msdyn_opportunitypricelist_AsyncOperations](async
 ### <a name="BKMK_msdyn_opportunitypricelist_MailboxTrackingFolders"></a> msdyn_opportunitypricelist_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_opportunitypricelist_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_opportunitypricelist_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -716,6 +721,7 @@ Same as mailboxtrackingfolder entity [msdyn_opportunitypricelist_MailboxTracking
 ### <a name="BKMK_msdyn_opportunitypricelist_UserEntityInstanceDatas"></a> msdyn_opportunitypricelist_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_opportunitypricelist_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_opportunitypricelist_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -730,6 +736,7 @@ Same as userentityinstancedata entity [msdyn_opportunitypricelist_UserEntityInst
 ### <a name="BKMK_msdyn_opportunitypricelist_ProcessSession"></a> msdyn_opportunitypricelist_ProcessSession
 
 Same as processsession entity [msdyn_opportunitypricelist_ProcessSession](processsession.md#BKMK_msdyn_opportunitypricelist_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -744,6 +751,7 @@ Same as processsession entity [msdyn_opportunitypricelist_ProcessSession](proces
 ### <a name="BKMK_msdyn_opportunitypricelist_BulkDeleteFailures"></a> msdyn_opportunitypricelist_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_opportunitypricelist_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_opportunitypricelist_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -758,6 +766,7 @@ Same as bulkdeletefailure entity [msdyn_opportunitypricelist_BulkDeleteFailures]
 ### <a name="BKMK_msdyn_opportunitypricelist_PrincipalObjectAttributeAccesses"></a> msdyn_opportunitypricelist_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_opportunitypricelist_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_opportunitypricelist_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -772,6 +781,7 @@ Same as principalobjectattributeaccess entity [msdyn_opportunitypricelist_Princi
 ### <a name="BKMK_msdyn_opportunitypricelist_Annotations"></a> msdyn_opportunitypricelist_Annotations
 
 Same as annotation entity [msdyn_opportunitypricelist_Annotations](annotation.md#BKMK_msdyn_opportunitypricelist_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|

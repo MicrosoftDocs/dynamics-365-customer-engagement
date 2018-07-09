@@ -25,74 +25,74 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
  With mail merge, you can:  
   
--   Create new templates or use an existing template to generate form letters for yourself or, with the appropriate permissions, for the whole organization.  
+- Create new templates or use an existing template to generate form letters for yourself or, with the appropriate permissions, for the whole organization.  
   
--   Send form letters or form email messages to contacts, accounts, or marketing mailing lists.  
+- Send form letters or form email messages to contacts, accounts, or marketing mailing lists.  
   
--   Resend old letters to new recipients.  
+- Resend old letters to new recipients.  
   
--   Create faxes.  
+- Create faxes.  
   
--   Create quotes.  
+- Create quotes.  
   
- In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], only one mail merge can be run at a time. If you receive the message "[!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] Mail Merge is already running" and want to discontinue a mail merge, close and then reopen [!INCLUDE[pn_MS_Word_Full](../../includes/pn-ms-word-full.md)] or [!INCLUDE[pn_Internet_Explorer](../../includes/pn-internet-explorer.md)].  
+  In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], only one mail merge can be run at a time. If you receive the message "[!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] Mail Merge is already running" and want to discontinue a mail merge, close and then reopen [!INCLUDE[pn_MS_Word_Full](../../includes/pn-ms-word-full.md)] or [!INCLUDE[pn_Internet_Explorer](../../includes/pn-internet-explorer.md)].  
   
- To use mail merge, your email format must be HTML.  
+  To use mail merge, your email format must be HTML.  
   
- Record types that use mail merge:  
+  Record types that use mail merge:  
   
--   Account  
+- Account  
   
--   Campaign  
+- Campaign  
   
-     To use mail merge with a campaign, you must first distribute a mail campaign activity to a selected marketing list.  
+   To use mail merge with a campaign, you must first distribute a mail campaign activity to a selected marketing list.  
   
--   Contact  
+- Contact  
   
--   Lead  
+- Lead  
   
--   Opportunity  
+- Opportunity  
   
--   List Member in Marketing List  
+- List Member in Marketing List  
   
--   Quick Campaign  
+- Quick Campaign  
   
-     In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you can create a mail merge, and then at the end of the process, create a quick campaign.  
+   In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you can create a mail merge, and then at the end of the process, create a quick campaign.  
   
--   Quote  
+- Quote  
   
-     With mail merge, you can print only one quote at a time.  
+   With mail merge, you can print only one quote at a time.  
   
 ### Create a mail merge document  
   
-1.  In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], open the list of records you want.  
+1. In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], open the list of records you want.  
   
-    > [!TIP]
-    >  This list can be the results of an [Advanced Find search](../../basics/save-advanced-find-search.md).  
+   > [!TIP]
+   >  This list can be the results of an [Advanced Find search](../../basics/save-advanced-find-search.md).  
   
-2.  In the list, select the record you want to add to the mail-merge recipient list.  
+2. In the list, select the record you want to add to the mail-merge recipient list.  
   
-3.  On the **Add** tab, in the **Marketing** group, click or tap **Mail Merge**.  
+3. On the **Add** tab, in the **Marketing** group, click or tap **Mail Merge**.  
   
-4.  If you have other languages installed, you can select a language to filter the list of templates.  
+4. If you have other languages installed, you can select a language to filter the list of templates.  
   
-     In the **Mail Merge** dialog box, select the type of document you want to use.  
+    In the **Mail Merge** dialog box, select the type of document you want to use.  
   
-5.  Choose whether you want to start with a blank document or a template. If you select a template option, click or tap the **Lookup** button ![Lookup button](../media/lookup-button-4.gif "Lookup button") to select a template.  
+5. Choose whether you want to start with a blank document or a template. If you select a template option, click or tap the **Lookup** button ![Lookup button](../media/lookup-button-4.gif "Lookup button") to select a template.  
   
-     New mail merge templates are created in the Settings area. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Work with mail merge templates](../../admin/work-mail-merge-templates.md)
+    New mail merge templates are created in the Settings area. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Work with mail merge templates](../../admin/work-mail-merge-templates.md)
   
-6.  If necessary, you can add or delete data fields.  
+6. If necessary, you can add or delete data fields.  
   
-     [!INCLUDE[pn_MS_Word_Full](../../includes/pn-ms-word-full.md)] supports up to 62 data fields, of which  [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] reserves two data fields to store the primary key and the record owner.  
+    [!INCLUDE[pn_MS_Word_Full](../../includes/pn-ms-word-full.md)] supports up to 62 data fields, of which  [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] reserves two data fields to store the primary key and the record owner.  
   
-7.  Click or tap **Download**.  
+7. Click or tap **Download**.  
   
-     [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] automatically opens a  [!INCLUDE[pn_ms_Word_short](../../includes/pn-ms-word-short.md)] document. You may need to select [!INCLUDE[pn_MS_Word_Full](../../includes/pn-ms-word-full.md)] in the task bar.  
+    [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] automatically opens a  [!INCLUDE[pn_ms_Word_short](../../includes/pn-ms-word-short.md)] document. You may need to select [!INCLUDE[pn_MS_Word_Full](../../includes/pn-ms-word-full.md)] in the task bar.  
   
-     This is not your mail-merge document. This is an interim page.  
+    This is not your mail-merge document. This is an interim page.  
   
-8.  In the **Mail Merge Recipient** dialog box, verify that the list is accurate, and then click or tap **OK**.  
+8. In the **Mail Merge Recipient** dialog box, verify that the list is accurate, and then click or tap **OK**.  
   
 9. To continue the mail merge, follow the instructions provided by the Mail Merge pane. For more information, see the [!INCLUDE[pn_MS_Word_Full](../../includes/pn-ms-word-full.md)] Help documentation for mail merge.  
   

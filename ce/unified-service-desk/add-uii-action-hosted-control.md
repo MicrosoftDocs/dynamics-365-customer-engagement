@@ -31,19 +31,19 @@ As new versions of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
   
 1. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
-2.  Click **Hosted Controls**.  
+2. Click **Hosted Controls**.  
   
-3.  Search for the hosted control record that you want to add a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] action to, and then click the hosted control name to open its definition.  
+3. Search for the hosted control record that you want to add a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] action to, and then click the hosted control name to open its definition.  
   
-4.  On the hosted control definition page, click the arrow next to the hosted control name, and then click **UII Actions**.  
+4. On the hosted control definition page, click the arrow next to the hosted control name, and then click **UII Actions**.  
   
-5.  Click **Add New UII Action**.  
+5. Click **Add New UII Action**.  
   
-6.  On the **New UII Action** page, specify the name of the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] action in the **Name** field, and then click **Save and Close**. You don’t have to specify any other value on this page.  
+6. On the **New UII Action** page, specify the name of the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] action in the **Name** field, and then click **Save and Close**. You don’t have to specify any other value on this page.  
   
- ![Add a UII action to a hosted control](../unified-service-desk/media/usd-new-uii-action-hc.png "Add a UII action to a hosted control")  
+   ![Add a UII action to a hosted control](../unified-service-desk/media/usd-new-uii-action-hc.png "Add a UII action to a hosted control")  
   
-     The new [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] action gets added to the hosted control instance, and can be used in your action calls.  
+    The new [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] action gets added to the hosted control instance, and can be used in your action calls.  
   
 ### See also  
  [Create an action call for a UII action](../unified-service-desk/create-action-call-uii-action.md)   

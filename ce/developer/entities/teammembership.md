@@ -117,6 +117,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_teammembership"></a> userentityinstancedata_teammembership
 
 Same as userentityinstancedata entity [userentityinstancedata_teammembership](userentityinstancedata.md#BKMK_userentityinstancedata_teammembership) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

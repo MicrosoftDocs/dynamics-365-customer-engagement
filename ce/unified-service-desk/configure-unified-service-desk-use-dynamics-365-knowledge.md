@@ -99,13 +99,13 @@ entitytypename=incident
 ## Use the KM Control events to configure various tasks  
  Use the following three events specific to the **KM Control** hosted control to configure various tasks related to the knowledge base articles.  
   
--   Use the `SearchComplete` event to add action calls that you want to be executed when the search for knowledge base articles is complete and the results get loaded in the KM Control hosted control (KB search pane).  
+- Use the `SearchComplete` event to add action calls that you want to be executed when the search for knowledge base articles is complete and the results get loaded in the KM Control hosted control (KB search pane).  
   
--   Use the `ResultOpen` event to add action calls that you want to be executed when the title of a knowledge base article is clicked in the search results in the KM Control hosted control (KB search pane) to open the article.  
+- Use the `ResultOpen` event to add action calls that you want to be executed when the title of a knowledge base article is clicked in the search results in the KM Control hosted control (KB search pane) to open the article.  
   
--   Use the `SelectionChange` event to add action calls that you want to be executed when a knowledge base article is selected in the search results in the KM Control hosted control (KB search pane).  
+- Use the `SelectionChange` event to add action calls that you want to be executed when a knowledge base article is selected in the search results in the KM Control hosted control (KB search pane).  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Predefined events](../unified-service-desk/km-control-hosted-control.md#events)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Predefined events](../unified-service-desk/km-control-hosted-control.md#events)  
   
 <a name="Other"></a>   
 ## Configure other tasks for knowledge base articles  

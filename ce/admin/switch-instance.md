@@ -35,13 +35,13 @@ Switching an instance does not change the number of your purchased licenses. Rev
   
 2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]  
   
-3.  Choose the **Instances** tab.  
+3. Choose the **Instances** tab.  
   
-4.  Select the instance that you want, and then click **Edit**. If this is a new instance, click **Configure**.  
+4. Select the instance that you want, and then click **Edit**. If this is a new instance, click **Configure**.  
   
-5.  Under **Instance type**, choose the instance type and then click **Next**.  
+5. Under **Instance type**, choose the instance type and then click **Next**.  
   
-6.  Review the settings and then click **Save**.  
+6. Review the settings and then click **Save**.  
   
 <a name="BKMK_Licenses"></a>   
 ## License considerations  

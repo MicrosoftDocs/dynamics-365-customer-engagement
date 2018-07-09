@@ -24,11 +24,11 @@ Record-level permissions are granted at the entity level, but you may have certa
   
  The scope of field level security is organization-wide and applies to all data access requests including the following:  
   
--   Data access requests from within a client application, such as web browser, mobile client, or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)].  
+- Data access requests from within a client application, such as web browser, mobile client, or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)].  
   
--   Web service calls using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] (for use in plug-ins, custom workflow activities, and custom code)  
+- Web service calls using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] (for use in plug-ins, custom workflow activities, and custom code)  
   
--   Reporting (using Filtered Views)  
+- Reporting (using Filtered Views)  
   
 <a name="BKMK_Overview"></a>   
 ## Overview of field level security  
@@ -40,11 +40,11 @@ Record-level permissions are granted at the entity level, but you may have certa
   
 A security profile determines the following:  
   
--   Permissions to the secure fields  
+- Permissions to the secure fields  
   
--   Users and Teams  
+- Users and Teams  
   
- A security profile can be configured to grant user or team members the following permissions at the field level:  
+  A security profile can be configured to grant user or team members the following permissions at the field level:  
   
 - **Read**. Read-only access to the field’s data.  
   
@@ -73,42 +73,42 @@ A combination of these three permissions can be configured to determine the user
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-2.  Click **Customize the System**.  
+2. Click **Customize the System**.  
   
-3.  Click **Entities** > **Contact** > **Fields**.  
+3. Click **Entities** > **Contact** > **Fields**.  
   
-4.  Click **mobilephone**, click **Edit**.  
+4. Click **mobilephone**, click **Edit**.  
   
-5.  Next to **Field Security**, click **Enable**, click **Save and Close**.  
+5. Next to **Field Security**, click **Enable**, click **Save and Close**.  
   
-6.  Publish the customization.  
+6. Publish the customization.  
 
 Configure the security profiles.  
   
-1.  Create the field security profile for sales managers.  
+1. Create the field security profile for sales managers.  
   
-    1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
+   1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
-    2.  Click **Field Security Profiles**.  
+   2. Click **Field Security Profiles**.  
   
-    3.  Click **New**, enter a name, such as *Sales Manager access contact mobile phone*, and click **Save**.  
+   3. Click **New**, enter a name, such as *Sales Manager access contact mobile phone*, and click **Save**.  
   
-    4.  Click **Users**, click **Add**, select the users that you want to grant read access to the mobile phone number on the contact form, and then click **Add**.  
+   4. Click **Users**, click **Add**, select the users that you want to grant read access to the mobile phone number on the contact form, and then click **Add**.  
   
-        > [!TIP]
-        >  Instead of adding each user, create one or more teams that include all users that you want to grant read access.  
+      > [!TIP]
+      >  Instead of adding each user, create one or more teams that include all users that you want to grant read access.  
   
-    5.  Click **Field Permissions**, click **mobilephone**, click **Edit**, select **Yes** next to **Allow Read**, and then click **OK**.  
+   5. Click **Field Permissions**, click **mobilephone**, click **Edit**, select **Yes** next to **Allow Read**, and then click **OK**.  
   
-2.  Create the field security profiles for vice presidents.  
+2. Create the field security profiles for vice presidents.  
   
-    1.  Click **New**, enter a name, such as *VP access contact mobile phone*, and click **Save**.  
+   1.  Click **New**, enter a name, such as *VP access contact mobile phone*, and click **Save**.  
   
-    2.  Click **Users**, click **Add**, select the users that you want to grant full access to the mobile phone number on the contact form, and then click **Add**.  
+   2.  Click **Users**, click **Add**, select the users that you want to grant full access to the mobile phone number on the contact form, and then click **Add**.  
   
-    3.  Click **Field Permissions**, click **mobilephone**, click **Edit**, select **Yes** next to **Allow Read**, **Allow Update**, and **Allow Create**, and then click **OK**.  
+   3.  Click **Field Permissions**, click **mobilephone**, click **Edit**, select **Yes** next to **Allow Read**, **Allow Update**, and **Allow Create**, and then click **OK**.  
   
-3.  Click **Save and Close**.  
+3. Click **Save and Close**.  
   
 Any Dynamics 365 users not defined in the previously created field security profiles will not have access to the mobile phone field on contact forms or views. The field value displays ![Lock icon for Dynamics 365](../admin/media/admin-field-level-security-lock.png "Lock icon for Dynamics 365") ********, indicating that the field is secured.  
   

@@ -35,9 +35,9 @@ Use **User Notes** hosted control type to provide agents with a scratch pad to t
   
  In the **New Hosted Control** screen:  
   
--   From the **USD Component Type** drop-down list, select **User Notes**.  
+- From the **USD Component Type** drop-down list, select **User Notes**.  
   
--   In the **Display Group** field, specify a panel where this hosted control will be displayed. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels](../unified-service-desk/panels-panel-types-panel-layouts.md#Panels).  
+- In the **Display Group** field, specify a panel where this hosted control will be displayed. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels](../unified-service-desk/panels-panel-types-panel-layouts.md#Panels).  
   
 <a name="Actions"></a>   
 ## Predefined UII actions  

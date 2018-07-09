@@ -1081,6 +1081,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_agreement_ActivityPointers"></a> msdyn_agreement_ActivityPointers
 
 Same as activitypointer entity [msdyn_agreement_ActivityPointers](activitypointer.md#BKMK_msdyn_agreement_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -1095,6 +1096,7 @@ Same as activitypointer entity [msdyn_agreement_ActivityPointers](activitypointe
 ### <a name="BKMK_msdyn_agreement_msdyn_approvals"></a> msdyn_agreement_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_agreement_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_agreement_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -1109,6 +1111,7 @@ Same as msdyn_approval entity [msdyn_agreement_msdyn_approvals](msdyn_approval.m
 ### <a name="BKMK_msdyn_agreement_msdyn_bookingalerts"></a> msdyn_agreement_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_agreement_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_agreement_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -1123,6 +1126,7 @@ Same as msdyn_bookingalert entity [msdyn_agreement_msdyn_bookingalerts](msdyn_bo
 ### <a name="BKMK_msdyn_agreement_SyncErrors"></a> msdyn_agreement_SyncErrors
 
 Same as syncerror entity [msdyn_agreement_SyncErrors](syncerror.md#BKMK_msdyn_agreement_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1137,6 +1141,7 @@ Same as syncerror entity [msdyn_agreement_SyncErrors](syncerror.md#BKMK_msdyn_ag
 ### <a name="BKMK_msdyn_agreement_DuplicateMatchingRecord"></a> msdyn_agreement_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_agreement_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_agreement_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1151,6 +1156,7 @@ Same as duplicaterecord entity [msdyn_agreement_DuplicateMatchingRecord](duplica
 ### <a name="BKMK_msdyn_agreement_DuplicateBaseRecord"></a> msdyn_agreement_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_agreement_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_agreement_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1165,6 +1171,7 @@ Same as duplicaterecord entity [msdyn_agreement_DuplicateBaseRecord](duplicatere
 ### <a name="BKMK_msdyn_agreement_SharePointDocumentLocations"></a> msdyn_agreement_SharePointDocumentLocations
 
 Same as sharepointdocumentlocation entity [msdyn_agreement_SharePointDocumentLocations](sharepointdocumentlocation.md#BKMK_msdyn_agreement_SharePointDocumentLocations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocumentlocation|
@@ -1179,6 +1186,7 @@ Same as sharepointdocumentlocation entity [msdyn_agreement_SharePointDocumentLoc
 ### <a name="BKMK_msdyn_agreement_SharePointDocuments"></a> msdyn_agreement_SharePointDocuments
 
 Same as sharepointdocument entity [msdyn_agreement_SharePointDocuments](sharepointdocument.md#BKMK_msdyn_agreement_SharePointDocuments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocument|
@@ -1193,6 +1201,7 @@ Same as sharepointdocument entity [msdyn_agreement_SharePointDocuments](sharepoi
 ### <a name="BKMK_msdyn_agreement_AsyncOperations"></a> msdyn_agreement_AsyncOperations
 
 Same as asyncoperation entity [msdyn_agreement_AsyncOperations](asyncoperation.md#BKMK_msdyn_agreement_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1207,6 +1216,7 @@ Same as asyncoperation entity [msdyn_agreement_AsyncOperations](asyncoperation.m
 ### <a name="BKMK_msdyn_agreement_MailboxTrackingFolders"></a> msdyn_agreement_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_agreement_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_agreement_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1221,6 +1231,7 @@ Same as mailboxtrackingfolder entity [msdyn_agreement_MailboxTrackingFolders](ma
 ### <a name="BKMK_msdyn_agreement_UserEntityInstanceDatas"></a> msdyn_agreement_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_agreement_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_agreement_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1235,6 +1246,7 @@ Same as userentityinstancedata entity [msdyn_agreement_UserEntityInstanceDatas](
 ### <a name="BKMK_msdyn_agreement_ProcessSession"></a> msdyn_agreement_ProcessSession
 
 Same as processsession entity [msdyn_agreement_ProcessSession](processsession.md#BKMK_msdyn_agreement_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1249,6 +1261,7 @@ Same as processsession entity [msdyn_agreement_ProcessSession](processsession.md
 ### <a name="BKMK_msdyn_agreement_BulkDeleteFailures"></a> msdyn_agreement_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_agreement_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_agreement_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1263,6 +1276,7 @@ Same as bulkdeletefailure entity [msdyn_agreement_BulkDeleteFailures](bulkdelete
 ### <a name="BKMK_msdyn_agreement_PrincipalObjectAttributeAccesses"></a> msdyn_agreement_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_agreement_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_agreement_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1277,6 +1291,7 @@ Same as principalobjectattributeaccess entity [msdyn_agreement_PrincipalObjectAt
 ### <a name="BKMK_msdyn_agreement_Appointments"></a> msdyn_agreement_Appointments
 
 Same as appointment entity [msdyn_agreement_Appointments](appointment.md#BKMK_msdyn_agreement_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -1291,6 +1306,7 @@ Same as appointment entity [msdyn_agreement_Appointments](appointment.md#BKMK_ms
 ### <a name="BKMK_msdyn_agreement_Emails"></a> msdyn_agreement_Emails
 
 Same as email entity [msdyn_agreement_Emails](email.md#BKMK_msdyn_agreement_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -1305,6 +1321,7 @@ Same as email entity [msdyn_agreement_Emails](email.md#BKMK_msdyn_agreement_Emai
 ### <a name="BKMK_msdyn_agreement_Faxes"></a> msdyn_agreement_Faxes
 
 Same as fax entity [msdyn_agreement_Faxes](fax.md#BKMK_msdyn_agreement_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -1319,6 +1336,7 @@ Same as fax entity [msdyn_agreement_Faxes](fax.md#BKMK_msdyn_agreement_Faxes) Ma
 ### <a name="BKMK_msdyn_agreement_Letters"></a> msdyn_agreement_Letters
 
 Same as letter entity [msdyn_agreement_Letters](letter.md#BKMK_msdyn_agreement_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -1333,6 +1351,7 @@ Same as letter entity [msdyn_agreement_Letters](letter.md#BKMK_msdyn_agreement_L
 ### <a name="BKMK_msdyn_agreement_PhoneCalls"></a> msdyn_agreement_PhoneCalls
 
 Same as phonecall entity [msdyn_agreement_PhoneCalls](phonecall.md#BKMK_msdyn_agreement_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -1347,6 +1366,7 @@ Same as phonecall entity [msdyn_agreement_PhoneCalls](phonecall.md#BKMK_msdyn_ag
 ### <a name="BKMK_msdyn_agreement_Tasks"></a> msdyn_agreement_Tasks
 
 Same as task entity [msdyn_agreement_Tasks](task.md#BKMK_msdyn_agreement_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -1361,6 +1381,7 @@ Same as task entity [msdyn_agreement_Tasks](task.md#BKMK_msdyn_agreement_Tasks) 
 ### <a name="BKMK_msdyn_agreement_RecurringAppointmentMasters"></a> msdyn_agreement_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_agreement_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_agreement_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -1375,6 +1396,7 @@ Same as recurringappointmentmaster entity [msdyn_agreement_RecurringAppointmentM
 ### <a name="BKMK_msdyn_agreement_SocialActivities"></a> msdyn_agreement_SocialActivities
 
 Same as socialactivity entity [msdyn_agreement_SocialActivities](socialactivity.md#BKMK_msdyn_agreement_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -1389,6 +1411,7 @@ Same as socialactivity entity [msdyn_agreement_SocialActivities](socialactivity.
 ### <a name="BKMK_msdyn_agreement_connections1"></a> msdyn_agreement_connections1
 
 Same as connection entity [msdyn_agreement_connections1](connection.md#BKMK_msdyn_agreement_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1403,6 +1426,7 @@ Same as connection entity [msdyn_agreement_connections1](connection.md#BKMK_msdy
 ### <a name="BKMK_msdyn_agreement_connections2"></a> msdyn_agreement_connections2
 
 Same as connection entity [msdyn_agreement_connections2](connection.md#BKMK_msdyn_agreement_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1417,6 +1441,7 @@ Same as connection entity [msdyn_agreement_connections2](connection.md#BKMK_msdy
 ### <a name="BKMK_msdyn_agreement_Annotations"></a> msdyn_agreement_Annotations
 
 Same as annotation entity [msdyn_agreement_Annotations](annotation.md#BKMK_msdyn_agreement_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1431,6 +1456,7 @@ Same as annotation entity [msdyn_agreement_Annotations](annotation.md#BKMK_msdyn
 ### <a name="BKMK_msdyn_agreement_ServiceAppointments"></a> msdyn_agreement_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_agreement_ServiceAppointments](serviceappointment.md#BKMK_msdyn_agreement_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -1445,6 +1471,7 @@ Same as serviceappointment entity [msdyn_agreement_ServiceAppointments](servicea
 ### <a name="BKMK_bpf_msdyn_agreement_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3"></a> bpf_msdyn_agreement_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3
 
 Same as msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 entity [bpf_msdyn_agreement_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3](msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3.md#BKMK_bpf_msdyn_agreement_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3|
@@ -1459,6 +1486,7 @@ Same as msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 entity [bpf_msdyn_agreement_m
 ### <a name="BKMK_msdyn_msdyn_agreement_invoicedetail_Agreement"></a> msdyn_msdyn_agreement_invoicedetail_Agreement
 
 Same as invoicedetail entity [msdyn_msdyn_agreement_invoicedetail_Agreement](invoicedetail.md#BKMK_msdyn_msdyn_agreement_invoicedetail_Agreement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|invoicedetail|
@@ -1473,6 +1501,7 @@ Same as invoicedetail entity [msdyn_msdyn_agreement_invoicedetail_Agreement](inv
 ### <a name="BKMK_msdyn_msdyn_agreement_msdyn_actual_Agreement"></a> msdyn_msdyn_agreement_msdyn_actual_Agreement
 
 Same as msdyn_actual entity [msdyn_msdyn_agreement_msdyn_actual_Agreement](msdyn_actual.md#BKMK_msdyn_msdyn_agreement_msdyn_actual_Agreement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_actual|
@@ -1487,6 +1516,7 @@ Same as msdyn_actual entity [msdyn_msdyn_agreement_msdyn_actual_Agreement](msdyn
 ### <a name="BKMK_msdyn_msdyn_agreement_msdyn_agreement_OriginatingAgreement"></a> msdyn_msdyn_agreement_msdyn_agreement_OriginatingAgreement
 
 Same as msdyn_agreement entity [msdyn_msdyn_agreement_msdyn_agreement_OriginatingAgreement](msdyn_agreement.md#BKMK_msdyn_msdyn_agreement_msdyn_agreement_OriginatingAgreement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreement|
@@ -1501,6 +1531,7 @@ Same as msdyn_agreement entity [msdyn_msdyn_agreement_msdyn_agreement_Originatin
 ### <a name="BKMK_msdyn_msdyn_agreement_msdyn_agreementbookingdate_Agreement"></a> msdyn_msdyn_agreement_msdyn_agreementbookingdate_Agreement
 
 Same as msdyn_agreementbookingdate entity [msdyn_msdyn_agreement_msdyn_agreementbookingdate_Agreement](msdyn_agreementbookingdate.md#BKMK_msdyn_msdyn_agreement_msdyn_agreementbookingdate_Agreement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementbookingdate|
@@ -1515,6 +1546,7 @@ Same as msdyn_agreementbookingdate entity [msdyn_msdyn_agreement_msdyn_agreement
 ### <a name="BKMK_msdyn_msdyn_agreement_msdyn_agreementbookingincident_Agreement"></a> msdyn_msdyn_agreement_msdyn_agreementbookingincident_Agreement
 
 Same as msdyn_agreementbookingincident entity [msdyn_msdyn_agreement_msdyn_agreementbookingincident_Agreement](msdyn_agreementbookingincident.md#BKMK_msdyn_msdyn_agreement_msdyn_agreementbookingincident_Agreement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementbookingincident|
@@ -1529,6 +1561,7 @@ Same as msdyn_agreementbookingincident entity [msdyn_msdyn_agreement_msdyn_agree
 ### <a name="BKMK_msdyn_msdyn_agreement_msdyn_agreementbookingproduct_Agreement"></a> msdyn_msdyn_agreement_msdyn_agreementbookingproduct_Agreement
 
 Same as msdyn_agreementbookingproduct entity [msdyn_msdyn_agreement_msdyn_agreementbookingproduct_Agreement](msdyn_agreementbookingproduct.md#BKMK_msdyn_msdyn_agreement_msdyn_agreementbookingproduct_Agreement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementbookingproduct|
@@ -1543,6 +1576,7 @@ Same as msdyn_agreementbookingproduct entity [msdyn_msdyn_agreement_msdyn_agreem
 ### <a name="BKMK_msdyn_msdyn_agreement_msdyn_agreementbookingservice_Agreement"></a> msdyn_msdyn_agreement_msdyn_agreementbookingservice_Agreement
 
 Same as msdyn_agreementbookingservice entity [msdyn_msdyn_agreement_msdyn_agreementbookingservice_Agreement](msdyn_agreementbookingservice.md#BKMK_msdyn_msdyn_agreement_msdyn_agreementbookingservice_Agreement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementbookingservice|
@@ -1557,6 +1591,7 @@ Same as msdyn_agreementbookingservice entity [msdyn_msdyn_agreement_msdyn_agreem
 ### <a name="BKMK_msdyn_msdyn_agreement_msdyn_agreementbookingservicetask_Agreement"></a> msdyn_msdyn_agreement_msdyn_agreementbookingservicetask_Agreement
 
 Same as msdyn_agreementbookingservicetask entity [msdyn_msdyn_agreement_msdyn_agreementbookingservicetask_Agreement](msdyn_agreementbookingservicetask.md#BKMK_msdyn_msdyn_agreement_msdyn_agreementbookingservicetask_Agreement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementbookingservicetask|
@@ -1571,6 +1606,7 @@ Same as msdyn_agreementbookingservicetask entity [msdyn_msdyn_agreement_msdyn_ag
 ### <a name="BKMK_msdyn_msdyn_agreement_msdyn_agreementbookingsetup_Agreement"></a> msdyn_msdyn_agreement_msdyn_agreementbookingsetup_Agreement
 
 Same as msdyn_agreementbookingsetup entity [msdyn_msdyn_agreement_msdyn_agreementbookingsetup_Agreement](msdyn_agreementbookingsetup.md#BKMK_msdyn_msdyn_agreement_msdyn_agreementbookingsetup_Agreement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementbookingsetup|
@@ -1585,6 +1621,7 @@ Same as msdyn_agreementbookingsetup entity [msdyn_msdyn_agreement_msdyn_agreemen
 ### <a name="BKMK_msdyn_msdyn_agreement_msdyn_agreementinvoicedate_Agreement"></a> msdyn_msdyn_agreement_msdyn_agreementinvoicedate_Agreement
 
 Same as msdyn_agreementinvoicedate entity [msdyn_msdyn_agreement_msdyn_agreementinvoicedate_Agreement](msdyn_agreementinvoicedate.md#BKMK_msdyn_msdyn_agreement_msdyn_agreementinvoicedate_Agreement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementinvoicedate|
@@ -1599,6 +1636,7 @@ Same as msdyn_agreementinvoicedate entity [msdyn_msdyn_agreement_msdyn_agreement
 ### <a name="BKMK_msdyn_msdyn_agreement_msdyn_agreementinvoiceproduct_Agreement"></a> msdyn_msdyn_agreement_msdyn_agreementinvoiceproduct_Agreement
 
 Same as msdyn_agreementinvoiceproduct entity [msdyn_msdyn_agreement_msdyn_agreementinvoiceproduct_Agreement](msdyn_agreementinvoiceproduct.md#BKMK_msdyn_msdyn_agreement_msdyn_agreementinvoiceproduct_Agreement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementinvoiceproduct|
@@ -1613,6 +1651,7 @@ Same as msdyn_agreementinvoiceproduct entity [msdyn_msdyn_agreement_msdyn_agreem
 ### <a name="BKMK_msdyn_msdyn_agreement_msdyn_agreementinvoicesetup_Agreement"></a> msdyn_msdyn_agreement_msdyn_agreementinvoicesetup_Agreement
 
 Same as msdyn_agreementinvoicesetup entity [msdyn_msdyn_agreement_msdyn_agreementinvoicesetup_Agreement](msdyn_agreementinvoicesetup.md#BKMK_msdyn_msdyn_agreement_msdyn_agreementinvoicesetup_Agreement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementinvoicesetup|
@@ -1627,6 +1666,7 @@ Same as msdyn_agreementinvoicesetup entity [msdyn_msdyn_agreement_msdyn_agreemen
 ### <a name="BKMK_msdyn_msdyn_agreement_msdyn_workorder_Agreement"></a> msdyn_msdyn_agreement_msdyn_workorder_Agreement
 
 Same as msdyn_workorder entity [msdyn_msdyn_agreement_msdyn_workorder_Agreement](msdyn_workorder.md#BKMK_msdyn_msdyn_agreement_msdyn_workorder_Agreement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorder|
@@ -1641,6 +1681,7 @@ Same as msdyn_workorder entity [msdyn_msdyn_agreement_msdyn_workorder_Agreement]
 ### <a name="BKMK_msdyn_msdyn_agreement_quotedetail_Agreement"></a> msdyn_msdyn_agreement_quotedetail_Agreement
 
 Same as quotedetail entity [msdyn_msdyn_agreement_quotedetail_Agreement](quotedetail.md#BKMK_msdyn_msdyn_agreement_quotedetail_Agreement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quotedetail|
@@ -1655,6 +1696,7 @@ Same as quotedetail entity [msdyn_msdyn_agreement_quotedetail_Agreement](quotede
 ### <a name="BKMK_msdyn_msdyn_agreement_salesorderdetail_Agreement"></a> msdyn_msdyn_agreement_salesorderdetail_Agreement
 
 Same as salesorderdetail entity [msdyn_msdyn_agreement_salesorderdetail_Agreement](salesorderdetail.md#BKMK_msdyn_msdyn_agreement_salesorderdetail_Agreement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|salesorderdetail|

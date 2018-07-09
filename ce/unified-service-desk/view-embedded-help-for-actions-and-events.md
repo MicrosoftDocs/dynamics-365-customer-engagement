@@ -34,13 +34,13 @@ manager: sakudes
 ## Embedded help for events  
  Open an event definition to view the help for the event. To do so:  
   
-1.  Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
-2.  On the nav bar, choose **Microsoft Dynamics 365** > **Settings** > **Unified Service Desk** > **Events**.  
+2. On the nav bar, choose **Microsoft Dynamics 365** > **Settings** > **Unified Service Desk** > **Events**.  
   
-3.  On the events page, click an event name under the **Name** column to view the event definition. The help is displayed in the lower part of the event definition page.  
+3. On the events page, click an event name under the **Name** column to view the event definition. The help is displayed in the lower part of the event definition page.  
   
- ![Embedded help for events](../unified-service-desk/media/crm-itpro-usd-embeddedhelpevents.png "Embedded help for events")  
+   ![Embedded help for events](../unified-service-desk/media/crm-itpro-usd-embeddedhelpevents.png "Embedded help for events")  
   
 ### See also  
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   

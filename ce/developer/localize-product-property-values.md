@@ -26,15 +26,15 @@ Product names may be localized for different regions. With [!INCLUDE[pn_dynamics
 ## Attributes that support localized property values  
  The following list contains the attributes that support localizable values:  
   
--   `Product.Name`  
+- `Product.Name`  
   
--   `DynamicProperty.Name`  
+- `DynamicProperty.Name`  
   
--   `DynamicPropertyOptionSetItem.DynamicPropertyOptionName`  
+- `DynamicPropertyOptionSetItem.DynamicPropertyOptionName`  
   
--   `DynamicPropertyOptionSetItem.DynamicPropertyOptionDescription`  
+- `DynamicPropertyOptionSetItem.DynamicPropertyOptionDescription`  
   
- The <xref:Microsoft.Xrm.Sdk.Metadata.StringAttributeMetadata> and <xref:Microsoft.Xrm.Sdk.Metadata.MemoAttributeMetadata> classes have a read-only `IsLocalizable` Boolean property that is `false` for all attributes except the four in the preceding table.  
+  The <xref:Microsoft.Xrm.Sdk.Metadata.StringAttributeMetadata> and <xref:Microsoft.Xrm.Sdk.Metadata.MemoAttributeMetadata> classes have a read-only `IsLocalizable` Boolean property that is `false` for all attributes except the four in the preceding table.  
   
 <a name="BKMK_retrieving"></a>   
 ## Retrieve localized property values  
@@ -79,32 +79,32 @@ Product names may be localized for different regions. With [!INCLUDE[pn_dynamics
 ### Monitor the progress of field translation import jobs  
  The system job entity contains the following views to monitor the progress of field translation import jobs:  
   
--   All Field Translation Import Jobs  
+- All Field Translation Import Jobs  
   
--   Completed Field Translation Import Jobs  
+- Completed Field Translation Import Jobs  
   
--   In Progress Field Translation Import Jobs  
+- In Progress Field Translation Import Jobs  
   
--   My Field Translation Import Jobs  
+- My Field Translation Import Jobs  
   
--   Not Started Field Translation Import Jobs  
+- Not Started Field Translation Import Jobs  
   
- The following conditions will cause errors when importing translation jobs:  
+  The following conditions will cause errors when importing translation jobs:  
   
-|Message|Description|  
-|-------------|-----------------|  
-|**Warning**: You don’t have write permissions to one or more of the rows specified in the import file for worksheet {0}, Line {1}.|The person running the import may not have write permissions to a row included in the imported file.<br /><br /> Processing of other rows will continue.|  
-|**Warning**: The base language translation string present in worksheet {0}, row {1}, column {2} is null.|A base language value cannot be cleared by importing translations.<br /><br /> Processing of other rows will continue|  
-|**Warning**: The number of cells in row {0} don’t match the number of cells in row 1 in worksheet {1}.|All rows in the spreadsheet must have the same number of cells.<br /><br /> Processing of other rows will continue.|  
-|**Warning**: An invalid Entity name was found in worksheet {0}, Line {1}, Column A.|There is no valid entity in the system using a name in the worksheet.<br /><br /> Processing of other rows will continue.|  
-|**Warning**: An invalid Object Column Name was found in worksheet {0}, Line {1}, Column C.|There is no valid localizable attribute in the system using a name in the worksheet.<br /><br /> Processing of other rows will continue.|  
-|**Warning**: An invalid Object Id was found in worksheet {0}, Line {1}, Column B.|There is no matching record in the organization for item in this row.<br /><br /> Processing of other rows will continue.|  
-|**Error**: No rows were found in worksheet {0}.|The worksheet to import is empty.|  
-|**Error**: The Organization ID present in worksheet {0} does not match the current Organization ID.|You can only import translations into the same organization they were exported from.|  
-|**Warning**: An invalid language code was found in worksheet {0}, Column {1}. &#124; Details: {2}|The LCID in the column isn’t a valid integer or the Language pack for the language is not installed.<br /><br /> The translations in the column are ignored.<br /><br /> [!INCLUDE[LCID](../includes/lcid.md)]|  
-|**Error**: A duplicate language code was found in worksheet {0}, Column {1}.|Each column must have a different language code.|  
-|**Error**: The translation file is invalid. The compressed file must contain the following files at its root: CrmFieldTranslations.xml, [Content_Types].xml|The compressed (zip) file to be imported must contain only the files described in the error.|  
-|**Error**: The translations file is invalid or doesn’t conform to the required schema.|The CrmFieldTranslations.xml file included in the compressed (zip) file must be a file that was exported from the system and only edited to provide localized values. Other changes may invalidate the file.|  
+|                                                                           Message                                                                           |                                                                                                  Description                                                                                                   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|             **Warning**: You don’t have write permissions to one or more of the rows specified in the import file for worksheet {0}, Line {1}.              |                            The person running the import may not have write permissions to a row included in the imported file.<br /><br /> Processing of other rows will continue.                            |
+|                          **Warning**: The base language translation string present in worksheet {0}, row {1}, column {2} is null.                           |                                             A base language value cannot be cleared by importing translations.<br /><br /> Processing of other rows will continue                                              |
+|                           **Warning**: The number of cells in row {0} don’t match the number of cells in row 1 in worksheet {1}.                            |                                              All rows in the spreadsheet must have the same number of cells.<br /><br /> Processing of other rows will continue.                                               |
+|                                     **Warning**: An invalid Entity name was found in worksheet {0}, Line {1}, Column A.                                     |                                           There is no valid entity in the system using a name in the worksheet.<br /><br /> Processing of other rows will continue.                                            |
+|                                 **Warning**: An invalid Object Column Name was found in worksheet {0}, Line {1}, Column C.                                  |                                    There is no valid localizable attribute in the system using a name in the worksheet.<br /><br /> Processing of other rows will continue.                                    |
+|                                      **Warning**: An invalid Object Id was found in worksheet {0}, Line {1}, Column B.                                      |                                           There is no matching record in the organization for item in this row.<br /><br /> Processing of other rows will continue.                                            |
+|                                                       **Error**: No rows were found in worksheet {0}.                                                       |                                                                                       The worksheet to import is empty.                                                                                        |
+|                             **Error**: The Organization ID present in worksheet {0} does not match the current Organization ID.                             |                                                              You can only import translations into the same organization they were exported from.                                                              |
+|                              **Warning**: An invalid language code was found in worksheet {0}, Column {1}. &#124; Details: {2}                              | The LCID in the column isn’t a valid integer or the Language pack for the language is not installed.<br /><br /> The translations in the column are ignored.<br /><br /> [!INCLUDE[LCID](../includes/lcid.md)] |
+|                                        **Error**: A duplicate language code was found in worksheet {0}, Column {1}.                                         |                                                                                Each column must have a different language code.                                                                                |
+| **Error**: The translation file is invalid. The compressed file must contain the following files at its root: CrmFieldTranslations.xml, [Content_Types].xml |                                                          The compressed (zip) file to be imported must contain only the files described in the error.                                                          |
+|                                   **Error**: The translations file is invalid or doesn’t conform to the required schema.                                    |  The CrmFieldTranslations.xml file included in the compressed (zip) file must be a file that was exported from the system and only edited to provide localized values. Other changes may invalidate the file.  |
   
 <a name="BKMK_uinstallingLanguage"></a>   
 ## Uninstall a language  

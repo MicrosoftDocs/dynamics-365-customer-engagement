@@ -163,7 +163,7 @@ namespace Microsoft.Crm.Sdk.Samples
 
             // Ensure that the wall for systemuser is enabled if there is already a
             // systemuser configuration defined.
-            if (_systemuserConfig != null &amp;&amp;
+            if (_systemuserConfig != null &&
                 (!_systemuserConfig.msdyn_ConfigureWall.HasValue
                 || !_systemuserConfig.msdyn_ConfigureWall.Value))
             {

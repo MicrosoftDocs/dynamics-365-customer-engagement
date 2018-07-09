@@ -38,9 +38,9 @@ In response to the unique and evolving requirements of the United States public 
   
 - [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] for Team Members, for Government  
   
--   Enhance Support for Dynamics 365 Applications and Plan 1 for Government  
+- Enhance Support for Dynamics 365 Applications and Plan 1 for Government  
   
--   Pro Direct Support for Dynamics 365 Applications and Plan 1 for Government  
+- Pro Direct Support for Dynamics 365 Applications and Plan 1 for Government  
   
 - [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] - Additional Portal for Government  
   

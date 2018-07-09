@@ -644,6 +644,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_rmasubstatus_ActivityPointers"></a> msdyn_rmasubstatus_ActivityPointers
 
 Same as activitypointer entity [msdyn_rmasubstatus_ActivityPointers](activitypointer.md#BKMK_msdyn_rmasubstatus_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -658,6 +659,7 @@ Same as activitypointer entity [msdyn_rmasubstatus_ActivityPointers](activitypoi
 ### <a name="BKMK_msdyn_rmasubstatus_msdyn_approvals"></a> msdyn_rmasubstatus_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_rmasubstatus_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_rmasubstatus_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -672,6 +674,7 @@ Same as msdyn_approval entity [msdyn_rmasubstatus_msdyn_approvals](msdyn_approva
 ### <a name="BKMK_msdyn_rmasubstatus_msdyn_bookingalerts"></a> msdyn_rmasubstatus_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_rmasubstatus_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_rmasubstatus_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -686,6 +689,7 @@ Same as msdyn_bookingalert entity [msdyn_rmasubstatus_msdyn_bookingalerts](msdyn
 ### <a name="BKMK_msdyn_rmasubstatus_SyncErrors"></a> msdyn_rmasubstatus_SyncErrors
 
 Same as syncerror entity [msdyn_rmasubstatus_SyncErrors](syncerror.md#BKMK_msdyn_rmasubstatus_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -700,6 +704,7 @@ Same as syncerror entity [msdyn_rmasubstatus_SyncErrors](syncerror.md#BKMK_msdyn
 ### <a name="BKMK_msdyn_rmasubstatus_DuplicateMatchingRecord"></a> msdyn_rmasubstatus_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_rmasubstatus_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_rmasubstatus_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -714,6 +719,7 @@ Same as duplicaterecord entity [msdyn_rmasubstatus_DuplicateMatchingRecord](dupl
 ### <a name="BKMK_msdyn_rmasubstatus_DuplicateBaseRecord"></a> msdyn_rmasubstatus_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_rmasubstatus_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_rmasubstatus_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -728,6 +734,7 @@ Same as duplicaterecord entity [msdyn_rmasubstatus_DuplicateBaseRecord](duplicat
 ### <a name="BKMK_msdyn_rmasubstatus_AsyncOperations"></a> msdyn_rmasubstatus_AsyncOperations
 
 Same as asyncoperation entity [msdyn_rmasubstatus_AsyncOperations](asyncoperation.md#BKMK_msdyn_rmasubstatus_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -742,6 +749,7 @@ Same as asyncoperation entity [msdyn_rmasubstatus_AsyncOperations](asyncoperatio
 ### <a name="BKMK_msdyn_rmasubstatus_MailboxTrackingFolders"></a> msdyn_rmasubstatus_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_rmasubstatus_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_rmasubstatus_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -756,6 +764,7 @@ Same as mailboxtrackingfolder entity [msdyn_rmasubstatus_MailboxTrackingFolders]
 ### <a name="BKMK_msdyn_rmasubstatus_UserEntityInstanceDatas"></a> msdyn_rmasubstatus_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_rmasubstatus_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_rmasubstatus_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -770,6 +779,7 @@ Same as userentityinstancedata entity [msdyn_rmasubstatus_UserEntityInstanceData
 ### <a name="BKMK_msdyn_rmasubstatus_ProcessSession"></a> msdyn_rmasubstatus_ProcessSession
 
 Same as processsession entity [msdyn_rmasubstatus_ProcessSession](processsession.md#BKMK_msdyn_rmasubstatus_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -784,6 +794,7 @@ Same as processsession entity [msdyn_rmasubstatus_ProcessSession](processsession
 ### <a name="BKMK_msdyn_rmasubstatus_BulkDeleteFailures"></a> msdyn_rmasubstatus_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_rmasubstatus_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_rmasubstatus_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -798,6 +809,7 @@ Same as bulkdeletefailure entity [msdyn_rmasubstatus_BulkDeleteFailures](bulkdel
 ### <a name="BKMK_msdyn_rmasubstatus_PrincipalObjectAttributeAccesses"></a> msdyn_rmasubstatus_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_rmasubstatus_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_rmasubstatus_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -812,6 +824,7 @@ Same as principalobjectattributeaccess entity [msdyn_rmasubstatus_PrincipalObjec
 ### <a name="BKMK_msdyn_rmasubstatus_Appointments"></a> msdyn_rmasubstatus_Appointments
 
 Same as appointment entity [msdyn_rmasubstatus_Appointments](appointment.md#BKMK_msdyn_rmasubstatus_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -826,6 +839,7 @@ Same as appointment entity [msdyn_rmasubstatus_Appointments](appointment.md#BKMK
 ### <a name="BKMK_msdyn_rmasubstatus_Emails"></a> msdyn_rmasubstatus_Emails
 
 Same as email entity [msdyn_rmasubstatus_Emails](email.md#BKMK_msdyn_rmasubstatus_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -840,6 +854,7 @@ Same as email entity [msdyn_rmasubstatus_Emails](email.md#BKMK_msdyn_rmasubstatu
 ### <a name="BKMK_msdyn_rmasubstatus_Faxes"></a> msdyn_rmasubstatus_Faxes
 
 Same as fax entity [msdyn_rmasubstatus_Faxes](fax.md#BKMK_msdyn_rmasubstatus_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -854,6 +869,7 @@ Same as fax entity [msdyn_rmasubstatus_Faxes](fax.md#BKMK_msdyn_rmasubstatus_Fax
 ### <a name="BKMK_msdyn_rmasubstatus_Letters"></a> msdyn_rmasubstatus_Letters
 
 Same as letter entity [msdyn_rmasubstatus_Letters](letter.md#BKMK_msdyn_rmasubstatus_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -868,6 +884,7 @@ Same as letter entity [msdyn_rmasubstatus_Letters](letter.md#BKMK_msdyn_rmasubst
 ### <a name="BKMK_msdyn_rmasubstatus_PhoneCalls"></a> msdyn_rmasubstatus_PhoneCalls
 
 Same as phonecall entity [msdyn_rmasubstatus_PhoneCalls](phonecall.md#BKMK_msdyn_rmasubstatus_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -882,6 +899,7 @@ Same as phonecall entity [msdyn_rmasubstatus_PhoneCalls](phonecall.md#BKMK_msdyn
 ### <a name="BKMK_msdyn_rmasubstatus_Tasks"></a> msdyn_rmasubstatus_Tasks
 
 Same as task entity [msdyn_rmasubstatus_Tasks](task.md#BKMK_msdyn_rmasubstatus_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -896,6 +914,7 @@ Same as task entity [msdyn_rmasubstatus_Tasks](task.md#BKMK_msdyn_rmasubstatus_T
 ### <a name="BKMK_msdyn_rmasubstatus_RecurringAppointmentMasters"></a> msdyn_rmasubstatus_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_rmasubstatus_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_rmasubstatus_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -910,6 +929,7 @@ Same as recurringappointmentmaster entity [msdyn_rmasubstatus_RecurringAppointme
 ### <a name="BKMK_msdyn_rmasubstatus_SocialActivities"></a> msdyn_rmasubstatus_SocialActivities
 
 Same as socialactivity entity [msdyn_rmasubstatus_SocialActivities](socialactivity.md#BKMK_msdyn_rmasubstatus_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -924,6 +944,7 @@ Same as socialactivity entity [msdyn_rmasubstatus_SocialActivities](socialactivi
 ### <a name="BKMK_msdyn_rmasubstatus_connections1"></a> msdyn_rmasubstatus_connections1
 
 Same as connection entity [msdyn_rmasubstatus_connections1](connection.md#BKMK_msdyn_rmasubstatus_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -938,6 +959,7 @@ Same as connection entity [msdyn_rmasubstatus_connections1](connection.md#BKMK_m
 ### <a name="BKMK_msdyn_rmasubstatus_connections2"></a> msdyn_rmasubstatus_connections2
 
 Same as connection entity [msdyn_rmasubstatus_connections2](connection.md#BKMK_msdyn_rmasubstatus_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -952,6 +974,7 @@ Same as connection entity [msdyn_rmasubstatus_connections2](connection.md#BKMK_m
 ### <a name="BKMK_msdyn_rmasubstatus_Annotations"></a> msdyn_rmasubstatus_Annotations
 
 Same as annotation entity [msdyn_rmasubstatus_Annotations](annotation.md#BKMK_msdyn_rmasubstatus_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -966,6 +989,7 @@ Same as annotation entity [msdyn_rmasubstatus_Annotations](annotation.md#BKMK_ms
 ### <a name="BKMK_msdyn_rmasubstatus_ServiceAppointments"></a> msdyn_rmasubstatus_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_rmasubstatus_ServiceAppointments](serviceappointment.md#BKMK_msdyn_rmasubstatus_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -980,6 +1004,7 @@ Same as serviceappointment entity [msdyn_rmasubstatus_ServiceAppointments](servi
 ### <a name="BKMK_msdyn_msdyn_rmasubstatus_msdyn_rma_SubStatus"></a> msdyn_msdyn_rmasubstatus_msdyn_rma_SubStatus
 
 Same as msdyn_rma entity [msdyn_msdyn_rmasubstatus_msdyn_rma_SubStatus](msdyn_rma.md#BKMK_msdyn_msdyn_rmasubstatus_msdyn_rma_SubStatus) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rma|

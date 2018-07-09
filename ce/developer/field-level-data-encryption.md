@@ -26,16 +26,16 @@ manager: "amyla"
   
 > [!IMPORTANT]
 >  For both [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], all new and upgraded organizations have data encryption activated.  
->   
+> 
 >  When considering the use of data encryption, be sure to keep in mind the following key points:  
->   
->  -   To help ensure the highest level of security, we recommend that you change the encryption key immediately after creating or updating an organization, and thereafter about once a year.  
-> -   Changing the encryption key requires that [!INCLUDE[pn_ssl_short](../includes/pn-ssl-short.md)] be configured on the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] website.  
-> -   Auditing cannot be enabled on encrypted fields.  
-> -   Encrypted fields cannot be customized.  
-> -   Encrypted fields cannot be indexed.  
-> -   Encrypted fields can be set and updated by using standard Create, Update, and Delete methods.  
-> -   When doing a retrieve of an encrypted field’s value, a **null** is returned.  
+> 
+> - To help ensure the highest level of security, we recommend that you change the encryption key immediately after creating or updating an organization, and thereafter about once a year.  
+>   - Changing the encryption key requires that [!INCLUDE[pn_ssl_short](../includes/pn-ssl-short.md)] be configured on the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] website.  
+>   - Auditing cannot be enabled on encrypted fields.  
+>   - Encrypted fields cannot be customized.  
+>   - Encrypted fields cannot be indexed.  
+>   - Encrypted fields can be set and updated by using standard Create, Update, and Delete methods.  
+>   - When doing a retrieve of an encrypted field’s value, a **null** is returned.  
   
  The encryption key is required to activate data encryption when you import an organization database into a new deployment or into a deployment that has had the configuration database (MSCRM_CONFIG) recreated after the organization was encrypted. You can copy the original encryption key to Notepad and then paste it into the **Settings** > **Data Management** > **Data Encryption** dialog box after the organization import is completed. When activating data encryption after redeployment, we recommend that you use [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] to paste the encryption key into the **Data Encryption** dialog box.  
   

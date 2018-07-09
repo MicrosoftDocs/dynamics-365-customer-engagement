@@ -23,12 +23,13 @@ manager: "amyla"
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 Use the messages listed in the following table to detect duplicates in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
-  
-|Message|Web API Operation|SDK Assembly|  
-|-------------|-----------------|-----------------|  
-|Detects duplicates for a specified entity type based on query criteria and store them as instances of a duplicate record entity type in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] database.<br /><br /> The query expression that describes the records on which to run the duplicate detection job is specified in the <xref:Microsoft.Crm.Sdk.Messages.BulkDetectDuplicatesRequest.Query> property of this request.|<xref href="Microsoft.Dynamics.CRM.BulkDetectDuplicates?text=BulkDetectDuplicates Action" />|<xref:Microsoft.Crm.Sdk.Messages.BulkDetectDuplicatesRequest>|  
-|Detects and retrieves duplicates for a specified record.<br /><br /> The matching entity type is specified in the <xref:Microsoft.Crm.Sdk.Messages.RetrieveDuplicatesRequest.MatchingEntityName> property of this request.|<xref href="Microsoft.Dynamics.CRM.RetrieveDuplicates?text=RetrieveDuplicates Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveDuplicatesRequest>|
-  
+
+
+|                                                                                                                                                                                                                   Message                                                                                                                                                                                                                   |                                      Web API Operation                                       |                         SDK Assembly                          |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| Detects duplicates for a specified entity type based on query criteria and store them as instances of a duplicate record entity type in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] database.<br /><br /> The query expression that describes the records on which to run the duplicate detection job is specified in the <xref:Microsoft.Crm.Sdk.Messages.BulkDetectDuplicatesRequest.Query> property of this request. | <xref href="Microsoft.Dynamics.CRM.BulkDetectDuplicates?text=BulkDetectDuplicates Action" /> | <xref:Microsoft.Crm.Sdk.Messages.BulkDetectDuplicatesRequest> |
+|                                                                                                         Detects and retrieves duplicates for a specified record.<br /><br /> The matching entity type is specified in the <xref:Microsoft.Crm.Sdk.Messages.RetrieveDuplicatesRequest.MatchingEntityName> property of this request.                                                                                                          |  <xref href="Microsoft.Dynamics.CRM.RetrieveDuplicates?text=RetrieveDuplicates Function" />  |  <xref:Microsoft.Crm.Sdk.Messages.RetrieveDuplicatesRequest>  |
+
 ### See also  
  [Enable and disable duplicate detection](enable-disable-duplicate-detection.md)  
  [Running Duplicate Detection](run-duplicate-detection.md)   

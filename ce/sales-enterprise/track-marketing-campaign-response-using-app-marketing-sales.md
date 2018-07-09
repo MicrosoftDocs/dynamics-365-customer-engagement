@@ -27,11 +27,11 @@ Record the replies you get from potential customers in response to a specific ma
   
 1. [!INCLUDE[proc_marketing_campaigns](../includes/proc-marketing-campaigns.md)]  
   
-2.  Select the campaign that you want to add campaign responses to, and under **Responses**, click **Add**![Add button](../sales-enterprise/media/add-button.PNG "Add button").  
+2. Select the campaign that you want to add campaign responses to, and under **Responses**, click **Add**![Add button](../sales-enterprise/media/add-button.PNG "Add button").  
   
-3.  Add information in the **Campaign Response** form.  
+3. Add information in the **Campaign Response** form.  
   
-4.  Click **Save**.  
+4. Click **Save**.  
   
 ## Create campaign responses automatically  
   
@@ -39,15 +39,15 @@ Record the replies you get from potential customers in response to a specific ma
   
     #### Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
   
-3.  Click the **System Settings** > **Marketing** tab.  
+3. Click the **System Settings** > **Marketing** tab.  
   
-4.  Set the **Create campaign responses for incoming email** option to **Yes**.  
+4. Set the **Create campaign responses for incoming email** option to **Yes**.  
   
 ### See also  
  [System Settings dialog box - Marketing tab](../admin/system-settings-dialog-box-marketing-tab.md)   

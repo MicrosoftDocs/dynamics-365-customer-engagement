@@ -32,13 +32,13 @@ The Developer Resources page in the [!INCLUDE[pn_dynamics_crm_online](../include
 
  Shows the unique name for your organization, which is needed when interacting with the discovery service. Note that this may not be the same as the name that’s specified in the URL. This name can be found in the following properties:  
   
--   Deployment web service: <xref:Microsoft.Xrm.Sdk.Deployment.Organization.UniqueName>  
+- Deployment web service: <xref:Microsoft.Xrm.Sdk.Deployment.Organization.UniqueName>  
   
--   Discovery web service: <xref:Microsoft.Xrm.Sdk.Discovery.OrganizationDetail.UniqueName>  
+- Discovery web service: <xref:Microsoft.Xrm.Sdk.Discovery.OrganizationDetail.UniqueName>  
   
--   Organization web service using early bound classes: `Organization.UniqueName`  
+- Organization web service using early bound classes: `Organization.UniqueName`  
   
- You can also retrieve this from the discovery service by using the <xref:Microsoft.Xrm.Sdk.Discovery.RetrieveOrganizationsRequest> message.  
+  You can also retrieve this from the discovery service by using the <xref:Microsoft.Xrm.Sdk.Discovery.RetrieveOrganizationsRequest> message.  
   
 <a name="Windows_Azure"></a>   
 

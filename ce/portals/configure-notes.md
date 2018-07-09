@@ -3,7 +3,7 @@ title: "Configure notes on entity forms and web forms for a portal in Dynamics 3
 description: "Instructions to add and configure notes on entity forms and web forms in a portal."
 ms.custom:
   - dyn365-portal
-ms.date: 12/05/2017
+ms.date: 06/08/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -37,6 +37,7 @@ Just like with subgrids, adding notes to your managed forms on the portal is eas
     After adding the configuration, the Note control will be rendered by using the appropriate options enabled on the portal.
 
 ## Attributes
+
 
 | Name                  | Description                                                                                                                                                  |
 |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -154,7 +155,7 @@ If you created a custom form in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynami
 
 ## Notes configuration for web forms
 
-Web form notes are configured in the same way as [entity form notes](#notes-configuration-for-entity-forms). You must first create a metadata record for the Web Form Step that has notes, and then add the notes configuration metadata. 
+Web form notes are configured in the same way as [entity form notes](#notes-configuration-for-entity-forms). You must first create a metadata record for the Web Form Step that has notes, and then add the notes configuration metadata. 
 
 ### See also
 

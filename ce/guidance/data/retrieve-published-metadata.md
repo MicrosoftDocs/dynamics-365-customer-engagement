@@ -1,26 +1,17 @@
 ---
 title: "Retrieve published metadata | MicrosoftDocs"
 description: "Retrieving unpublished metadata not only will add overhead to processing the request itself, performing more slowly, it could also return metadata that the requestor does not expect."
-ms.date: 1/26/2017
+ms.date: 6/28/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
-	- "Dynamics 365 (online)"
+  - "Dynamics 365 (online)"
 ms.assetid: 14d3a699-110f-4d8c-989b-30ea50ecd214
 author: "jowells1"
 ms.author: "jowells"
 manager: "michu"
 ---
 # Retrieve published metadata
-
-**Applies to**:
-
-- [!include[](../../includes/pn-crm-9-0-0-online.md)]
-- [!include[](../../includes/pn-crm-2016.md)]
-- [!include[](../../includes/pn-crm-8-1-0-both.md)]
-- [!include[](../../includes/pn-crm-2015.md)]
-- [!include[](../../includes/pn-crmv6.md)]
-- [!include[](../../includes/pn-crm-2011.md)]
 
 **Category**: Performance, Usage
 
@@ -41,7 +32,7 @@ Retrieving unpublished metadata could result in:
 
 It is not common to retrieve unpublished customizations and rarely would you have the need to retrieve those customizations.
 
-An example of when you would need to retrieve unpublished customizations is if you want to create an application to edit customizable metadata in [!INCLUDE [pn-dynamics-365](../../includes/pn-dynamics-365.md)].  For instance, if you were to create a custom metadata editor, you must retrieve any unpublished definitions of those items. If a developer defines some changes but does not publish them, your application must be able to retrieve them to ensure the developer is retrieving the latest developed customizations. Failure to do so could result in the loss of unpublished customizations.
+An example of when you would need to retrieve unpublished customizations is if you want to create an application to edit customizable metadata in Dynamics 365.  For instance, if you were to create a custom metadata editor, you must retrieve any unpublished definitions of those items. If a developer defines some changes but does not publish them, your application must be able to retrieve them to ensure the developer is retrieving the latest developed customizations. Failure to do so could result in the loss of unpublished customizations.
 
 However, if you are not creating an editor or do not have an explicit need for retrieving unpublished definitions, then only retrieve those that are published. The following examples show how to retrieve published customizations:
 
@@ -143,7 +134,7 @@ This guidance applies to the following Web API functions as well:
 
 ## Additional information
 
-The [!INCLUDE [pn-dynamics-365](../../includes/pn-dynamics-365.md)] service allows for retrieval of certain metadata that is published or unpublished. Ever since [!INCLUDE [pn-crm-2011](../../includes/pn-crm-2011.md)], published metadata is returned, by default, from the application's in-memory metadata cache unless the developer explicitly assigns the `RetrieveAsIfPublished` property value to `true`.
+The Dynamics 365 service allows for retrieval of certain metadata that is published or unpublished. Ever since Dynamics CRM 2011, published metadata is returned, by default, from the application's in-memory metadata cache unless the developer explicitly assigns the `RetrieveAsIfPublished` property value to `true`.
 
 Retrieving unpublished metadata not only will add overhead to processing the request itself, performing more slowly, it could also return metadata that the requestor does not expect. For example, retrieving unpublished optionset metadata could return a label value that is not visible in the user interface, causing confusion to the end-user.
 

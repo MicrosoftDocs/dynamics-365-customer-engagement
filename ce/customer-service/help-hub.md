@@ -25,36 +25,35 @@ ms.custom:
 <tr>
 <td><h2>Get started</h2>
   <ul>
-  <li>[Explore Customer Service Hub and Customer Service](overview.md)</li>
-  <li>[Learn the basics](customer-service-hub-user-guide-basics.md)</li>
-  <li>[Navigate app on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)</li>
+  <li><a href="overview.md" data-raw-source="[Explore Customer Service Hub and Customer Service](overview.md)">Explore Customer Service Hub and Customer Service</a></li>
+  <li><a href="customer-service-hub-user-guide-basics.md" data-raw-source="[Learn the basics](customer-service-hub-user-guide-basics.md)">Learn the basics</a></li>
+  <li><a href="use-customer-service-hub-on-dynamics-365-mobile.md" data-raw-source="[Navigate app on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)">Navigate app on mobile devices</a></li>
   </ul>
   </td>
 
   <td><h2>Setup</h2>
   <ul>
-  <li>[Service Manager](service-manager-guide.md)</li>
-  <li>[Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)</li>
-  <li>[Upgrade to the Customer Service Hub in Microsoft Dynamics 365 - Blog](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)</li> 
+  <li><a href="service-manager-guide.md" data-raw-source="[Service Manager](service-manager-guide.md)">Service Manager</a></li>
+  <li><a href="../mobile-app/install-dynamics-365-for-phones-and-tablets.md" data-raw-source="[Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)">Dynamics 365 for phones and tablets</a></li>
+  <li><a href="https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/" data-raw-source="[Upgrade to the Customer Service Hub in Microsoft Dynamics 365 - Blog](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)">Upgrade to the Customer Service Hub in Microsoft Dynamics 365 - Blog</a></li> 
   </ul>
   </td>
 </tr>
 <tr> 
  <td><h2>Manage</h2>
    <ul>
-   <li>[Create and manage cases](customer-service-hub-user-guide-case-sla.md)</li>
-  <li>[Work with dashboards](customer-service-hub-user-guide-dashboard.md)</li>
-  <li>[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)</li>
+   <li><a href="customer-service-hub-user-guide-case-sla.md" data-raw-source="[Create and manage cases](customer-service-hub-user-guide-case-sla.md)">Create and manage cases</a></li>
+  <li><a href="customer-service-hub-user-guide-dashboard.md" data-raw-source="[Work with dashboards](customer-service-hub-user-guide-dashboard.md)">Work with dashboards</a></li>
+  <li><a href="customer-service-hub-user-guide-knowledge-article.md" data-raw-source="[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)">Create and manage knowledge articles</a></li>
   </ul>
   </td>
 
  <td><h2>User Guide</h2>
    <ul>
-  <li>[Customer Service Hub](user-guide-customer-service-hub.md)</li>
-   <li>[Customer Service](user-guide-customer-service.md)</li>
-  <li>[Dynamics 365 for mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)</li>
-  </ul>  
-  </td>
+  <li><a href="user-guide-customer-service-hub.md" data-raw-source="[Customer Service Hub](user-guide-customer-service-hub.md)">Customer Service Hub</a></li>
+   <li><a href="user-guide-customer-service.md" data-raw-source="[Customer Service](user-guide-customer-service.md)">Customer Service</a></li>
+  <li><a href="use-customer-service-hub-on-dynamics-365-mobile.md" data-raw-source="[Dynamics 365 for mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)">Dynamics 365 for mobile devices</a></li>
+  </ul><br/>  </td>
 </tr>
 
 
@@ -62,17 +61,17 @@ ms.custom:
 
 <ul>
 
- <li>[Resolve open cases fast with Customer Service Hub dashboards for Customer Engagement](https://www.youtube.com/watch?v=cDN-gv0Yylg)</li>
- <li>[How to use the Reference panel in the Customer Service Hub](https://www.youtube.com/watch?v=ruAPEKY5vNc)</li>
- <li>[Expertly manage your cases in the Customer Service Hub for Customer Engagement](https://www.youtube.com/watch?v=Y_eV4HeIm04)</li>
+ <li><a href="https://www.youtube.com/watch?v=cDN-gv0Yylg" data-raw-source="[Resolve open cases fast with Customer Service Hub dashboards for Customer Engagement](https://www.youtube.com/watch?v=cDN-gv0Yylg)">Resolve open cases fast with Customer Service Hub dashboards for Customer Engagement</a></li>
+ <li><a href="https://www.youtube.com/watch?v=ruAPEKY5vNc" data-raw-source="[How to use the Reference panel in the Customer Service Hub](https://www.youtube.com/watch?v=ruAPEKY5vNc)">How to use the Reference panel in the Customer Service Hub</a></li>
+ <li><a href="https://www.youtube.com/watch?v=Y_eV4HeIm04" data-raw-source="[Expertly manage your cases in the Customer Service Hub for Customer Engagement](https://www.youtube.com/watch?v=Y_eV4HeIm04)">Expertly manage your cases in the Customer Service Hub for Customer Engagement</a></li>
 </ul>
 </td>
 
-<td><h2>Accessibility & GDPR</h2>
+<td><h2>Accessibility &amp; GDPR</h2>
 <ul>
- <li> [Accessibility and GDPR in the Customer Service Hub](user-guide-customer-service-hub.md#accessibility-and-gdpr) </li> 
- <li>[Accessibility features for Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/get-started/accessibility/customer-engagement/accessibility)</li>
- <li>[Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index)</li>
+ <li> <a href="user-guide-customer-service-hub.md#accessibility-and-gdpr" data-raw-source="[Accessibility and GDPR in the Customer Service Hub](user-guide-customer-service-hub.md#accessibility-and-gdpr)">Accessibility and GDPR in the Customer Service Hub</a> </li> 
+ <li><a href="https://docs.microsoft.com/en-us/dynamics365/get-started/accessibility/customer-engagement/accessibility" data-raw-source="[Accessibility features for Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/get-started/accessibility/customer-engagement/accessibility)">Accessibility features for Customer Engagement</a></li>
+ <li><a href="https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index" data-raw-source="[Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index)">Microsoft Dynamics 365 and GDPR</a></li>
 </ul>
 </td>
 <td>&#160;</td>
@@ -82,6 +81,6 @@ ms.custom:
 
 
 
- 
+
 
 

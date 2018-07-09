@@ -31,11 +31,11 @@ You'll need to disqualify the lead and give the reason.
 > [!NOTE]
 >  Although you can delete the lead, we don't recommend it. Deletions can't be undone, and deleting a lead also deletes any notes and documents associated with the lead. Instead, disqualify the lead to preserve the history of the work you've done. In addition, when you disqualify a lead you can reopen it later.  
   
-1.  Open the lead.  
+1. Open the lead.  
   
-2.  On the command bar, select **Disqualify**, and then select the reason.  
+2. On the command bar, select **Disqualify**, and then select the reason.  
   
- ![Shows how to disqualify leads in Dynamics 365](../sales-enterprise/media/sales-lead-disqualify.png "Shows how to disqualify leads in Dynamics 365")  
+   ![Shows how to disqualify leads in Dynamics 365](../sales-enterprise/media/sales-lead-disqualify.png "Shows how to disqualify leads in Dynamics 365")  
   
 ### See also  
  [Create or edit a lead](../sales-enterprise/create-edit-lead-sales.md)   

@@ -24,19 +24,19 @@ You can leverage the same enhanced diagnostic logging capabilities available in 
   
 [LogException](https://docs.microsoft.com/dotnet/api/Microsoft.Crm.UnifiedServiceDesk.Dynamics.DynamicsBaseHostedControl.LogException) method is overloaded, and internally uses [DynamicsLogger](https://docs.microsoft.com/dotnet/api/Microsoft.Crm.UnifiedServiceDesk.Dynamics.DynamicsLogger) to provide rich diagnostic information for exceptions in your custom control. Use one of the following two signatures to use this method:  
   
--   Pass in the exception object and the event type that caused the trace (optional). If you do not specify the event type, by default `Error` trace event type is passed:  
+- Pass in the exception object and the event type that caused the trace (optional). If you do not specify the event type, by default `Error` trace event type is passed:  
   
-    ```csharp  
-    LogException(Exception ex, TraceEventType eventType = TraceEventType.Error);  
-    ```  
+  ```csharp  
+  LogException(Exception ex, TraceEventType eventType = TraceEventType.Error);  
+  ```  
   
--   Pass in the string value for custom error message, event type that caused the trace, and the exception object:  
+- Pass in the string value for custom error message, event type that caused the trace, and the exception object:  
   
-    ```csharp  
-    LogException(string errorMessage, TraceEventType eventType, Exception ex);  
-    ```  
+  ```csharp  
+  LogException(string errorMessage, TraceEventType eventType, Exception ex);  
+  ```  
   
- Here is an example of the diagnostic information as a result of using [LogException](https://docs.microsoft.com/dotnet/api/Microsoft.Crm.UnifiedServiceDesk.Dynamics.DynamicsBaseHostedControl.LogException) method where detailed information about the source (session ID, hosted control name and type) and the exception detail is logged:  
+  Here is an example of the diagnostic information as a result of using [LogException](https://docs.microsoft.com/dotnet/api/Microsoft.Crm.UnifiedServiceDesk.Dynamics.DynamicsBaseHostedControl.LogException) method where detailed information about the source (session ID, hosted control name and type) and the exception detail is logged:  
   
 ```  
 Exception raised in :  Session ID : d14893b0-6859-4827-9ddc-949d3fd36854 - Application : DemoControl - USD Component Type : USDHostedControl - Hosting Type : USD Hosted Control - Display Group : MainPanel -   

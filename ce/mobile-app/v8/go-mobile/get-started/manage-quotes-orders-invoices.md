@@ -23,17 +23,17 @@ ms.author: "mkaur"
 
 As a sales professional, you'll frequently work with the following types of records:  
   
--   **Quotes**: Most sales begin with a price quote, which eventually leads to an order.  
+- **Quotes**: Most sales begin with a price quote, which eventually leads to an order.  
   
--   **Orders**:  When a quote is accepted and approved, it becomes an order.  
+- **Orders**:  When a quote is accepted and approved, it becomes an order.  
   
--   **Invoices**:  Once an order is shipped or delivered, an invoice is created.  
+- **Invoices**:  Once an order is shipped or delivered, an invoice is created.  
   
- With [!INCLUDE[pn_microsoftcrm](../../../../includes/pn-microsoftcrm.md)], it's easy to customize for the way your organization does business, so  you might see different types of records in your [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] system.  
+  With [!INCLUDE[pn_microsoftcrm](../../../../includes/pn-microsoftcrm.md)], it's easy to customize for the way your organization does business, so  you might see different types of records in your [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] system.  
   
 > [!NOTE]
 >  Managing quotes, orders, and invoices is not supported in an offline environment.  
->   
+> 
 >  This feature was introduced in [!INCLUDE[pn_crm_8_1_0_op](../../../../includes/pn-crm-8-1-0-op.md)] and [!INCLUDE[pn_crm_8_1_0_online](../../../../includes/pn-crm-8-1-0-online.md)].  
   
 ## View or change records  

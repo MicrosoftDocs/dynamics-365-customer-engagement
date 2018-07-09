@@ -33,19 +33,19 @@ If you’re in charge of incident management for an organization, it’s importa
   
 2. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-3.  Click **Customize the System**.  
+3. Click **Customize the System**.  
   
-4.  In the solution explorer, in the left navigation pane, expand **Entities**, expand the **Case** entity, and then double-click **Fields**.  
+4. In the solution explorer, in the left navigation pane, expand **Entities**, expand the **Case** entity, and then double-click **Fields**.  
   
-5.  Go to the second page of fields, and then open the **statuscode** (Status Reason of Case) field.  
+5. Go to the second page of fields, and then open the **statuscode** (Status Reason of Case) field.  
   
-6.  In the **Field: Status Reason** dialog box, click **Edit Status Reason Transitions** at the top of the dialog box.  
+6. In the **Field: Status Reason** dialog box, click **Edit Status Reason Transitions** at the top of the dialog box.  
   
- ![Screenshot of status reason transitions dialog](../customer-service/media/crm-ua-admin-status-reason-transition.PNG "Screenshot of status reason transitions dialog")  
+   ![Screenshot of status reason transitions dialog](../customer-service/media/crm-ua-admin-status-reason-transition.PNG "Screenshot of status reason transitions dialog")  
   
-7.  In the **Status Reason Transitions** dialog box, under **New Status Reasons**, click one of the **Enter Value** buttons ![Enter Value button in Status Reason dialog box](../customer-service/media/crm-ua-enter-value-button-status-reason-transition.PNG "Enter Value button in Status Reason dialog box") corresponding with one of the existing status reasons.  
+7. In the **Status Reason Transitions** dialog box, under **New Status Reasons**, click one of the **Enter Value** buttons ![Enter Value button in Status Reason dialog box](../customer-service/media/crm-ua-enter-value-button-status-reason-transition.PNG "Enter Value button in Status Reason dialog box") corresponding with one of the existing status reasons.  
   
-8.  In the **Select Status Reason** dialog box, in the **Available Values** list, select the values you want to add, and then click the chevron button ![Screenshot of chevron button to move items](../customer-service/media/crm-ua-chevron-button-status-reason-transition.PNG "Screenshot of chevron button to move items") to add to the **Selected Values** list. Click **OK** when you’re done with that status reason.  
+8. In the **Select Status Reason** dialog box, in the **Available Values** list, select the values you want to add, and then click the chevron button ![Screenshot of chevron button to move items](../customer-service/media/crm-ua-chevron-button-status-reason-transition.PNG "Screenshot of chevron button to move items") to add to the **Selected Values** list. Click **OK** when you’re done with that status reason.  
   
 9. Click another **Enter Value** button ![Enter Value button in Status Reason dialog box](../customer-service/media/crm-ua-enter-value-button-status-reason-transition.PNG "Enter Value button in Status Reason dialog box") to modify other status reasons. When you’re done, click **OK**.  
   

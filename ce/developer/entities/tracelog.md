@@ -786,6 +786,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_tracelog_parent_tracelog"></a> tracelog_parent_tracelog
 
 Same as tracelog entity [tracelog_parent_tracelog](tracelog.md#BKMK_tracelog_parent_tracelog) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|tracelog|

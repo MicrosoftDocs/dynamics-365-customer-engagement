@@ -521,6 +521,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_activityparty"></a> userentityinstancedata_activityparty
 
 Same as userentityinstancedata entity [userentityinstancedata_activityparty](userentityinstancedata.md#BKMK_userentityinstancedata_activityparty) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -535,6 +536,7 @@ Same as userentityinstancedata entity [userentityinstancedata_activityparty](use
 ### <a name="BKMK_ActivityParty_SyncErrors"></a> ActivityParty_SyncErrors
 
 Same as syncerror entity [ActivityParty_SyncErrors](syncerror.md#BKMK_ActivityParty_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|

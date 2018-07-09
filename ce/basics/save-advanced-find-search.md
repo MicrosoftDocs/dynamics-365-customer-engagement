@@ -26,39 +26,39 @@ With the [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], yo
   
 1. [!INCLUDE[proc_advanced_find](../includes/proc-advanced-find.md)]  
   
-2.  Specify what to search for.  
+2. Specify what to search for.  
   
-    1.  In the **Look for** list, select a record type.  
+   1.  In the **Look for** list, select a record type.  
   
-    2.  Click **Select** to define search criteria: field (for example, Account Name or City), the query relational operator (Part of an expression (for example "is equal to" or "contains") that defines how a specified attribute should be compared with a value.), and the values to locate (for example, "Seattle" or "Email").  
+   2.  Click **Select** to define search criteria: field (for example, Account Name or City), the query relational operator (Part of an expression (for example "is equal to" or "contains") that defines how a specified attribute should be compared with a value.), and the values to locate (for example, "Seattle" or "Email").  
   
-         You can select fields from the current record type, or from related records. For example, an account might have many related contact records.  
+        You can select fields from the current record type, or from related records. For example, an account might have many related contact records.  
   
-         At the bottom of the **Select** list, the **Related** section shows related record types. For example, most record types have a related Notes record type. To select fields from a related record type, select field, and a new **Select** link appears.  
+        At the bottom of the **Select** list, the **Related** section shows related record types. For example, most record types have a related Notes record type. To select fields from a related record type, select field, and a new **Select** link appears.  
          
-         If you’re on July 2017 update for Dynamics 365 (online) or later, can use advanced find to build a “Does not contain data” query. For example, you can query for all cases that do not contain a task. To do this launch advanced find and in the query, choose look for **Cases** and **Tasks (Regarding)** and chooses **Does not contain data**. 
+        If you’re on July 2017 update for Dynamics 365 (online) or later, can use advanced find to build a “Does not contain data” query. For example, you can query for all cases that do not contain a task. To do this launch advanced find and in the query, choose look for **Cases** and **Tasks (Regarding)** and chooses **Does not contain data**. 
          
-         ![Advanced find does not contain query](media/advancedfind.png "Advanced find does not contain query")
+        ![Advanced find does not contain query](media/advancedfind.png "Advanced find does not contain query")
   
-3.  Specify the columns to include in the search results.  
+3. Specify the columns to include in the search results.  
   
-    1.  Click **Edit Columns**, and then click **Add Columns**.  
+   1.  Click **Edit Columns**, and then click **Add Columns**.  
   
-    2.  Select the record type that includes the columns you want to add.  
+   2.  Select the record type that includes the columns you want to add.  
   
-    3.  Select the columns you want to add, and then click **OK**.  
+   3.  Select the columns you want to add, and then click **OK**.  
   
-4.  Specify the sort order.  
+4. Specify the sort order.  
   
-    1.  Click **Edit Columns**.  
+   1.  Click **Edit Columns**.  
   
-    2.  Click **Configure Sorting**.  
+   2.  Click **Configure Sorting**.  
   
-    3.  Specify the column to sort on, specify the sort order, and then click **OK**.  
+   3.  Specify the column to sort on, specify the sort order, and then click **OK**.  
   
-    4.  Click **OK**.  
+   4.  Click **OK**.  
   
-5.  Click **Results**.  
+5. Click **Results**.  
   
 ### See also  
  [Search for records](../basics/search-records.md)

@@ -2,7 +2,7 @@
 title: "Stream data to Azure Event Hubs | Microsoft Docs"
 description: "Find out how you can stream events from Social Engagement to Event Hubs."
 keywords: "azure event hubs, event hub, stream data, connection string "
-ms.date: 02/12/2018
+ms.date: 06/13/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -25,11 +25,11 @@ Start building out your custom metrics or analysis based on the posts found by [
 ## Prerequisites to stream posts to Azure Event Hubs  
  To stream posts to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)], the following prerequisites must be met:  
   
--   You have access to an existing event hub, and you also have its connection string with Send rights. For more information about how to create an [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] and how to get the connection string, see [Microsoft Azure: Get started with Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-dotnet-standard-getstarted-send/).  
+- You have access to an existing event hub, and you also have its connection string with Send rights. For more information about how to create an [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] and how to get the connection string, see [Microsoft Azure: Get started with Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-dotnet-standard-getstarted-send/).  
   
--   You have a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Enterprise license assigned to your [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] user account. Although Administrators with Professional licenses can configure the connection to an event hub, you’ll need an Enterprise license to create automation rules that stream data to a connected event hub. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate Social Engagement with Office 365](manage-licenses.md)  
+- You have a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Enterprise license assigned to your [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] user account. Although Administrators with Professional licenses can configure the connection to an event hub, you’ll need an Enterprise license to create automation rules that stream data to a connected event hub. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate Social Engagement with Office 365](manage-licenses.md)  
   
--   You have an Administrator role in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
+- You have an Administrator role in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
   
 <a name="set_up_connection"></a>   
 ## Connect Social Engagement to Azure Event Hubs  
@@ -38,24 +38,20 @@ Start building out your custom metrics or analysis based on the posts found by [
 <a name="connect_procedure"></a>   
 ### Connect to Azure Event Hubs  
   
-1.  In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], go to **Settings > Connections**.  
+1. In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], go to **Settings > Connections**.  
   
-2.  In the **Connections** pane, select **Microsoft Azure Event Hubs** from the list.  
+2. In the **Connections** pane, select **Microsoft Azure Event Hubs** from the list.  
   
-3.  When adding your first [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] connection, you will be shown a disclaimer.  Read the disclaimer carefully, and then click **Continue** to proceed setting up the connection. More information: [Privacy Notice](#privacy)  
+3. When adding your first [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] connection, you will be shown a disclaimer.  Read the disclaimer carefully, and then click **Continue** to proceed setting up the connection. More information: [Privacy Notice](#privacy)  
   
-4.  In the **Connect to Azure Event Hubs** pane, enter an **Event hub name** and the **Connection string** for the event hub you want to connect. Please make sure the connection string contains the namespace name ```;EntityPath={eventhubname}``` when you paste it to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. If the namespace name isn't part of the connection string, you need to append it manually. 
+4. In the **Connect to Azure Event Hubs** pane, enter an **Event hub name** and the **Connection string** for the event hub you want to connect. Please make sure the connection string contains the namespace name ```;EntityPath={eventhubname}``` when you paste it to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. If the namespace name isn't part of the connection string, you need to append it manually. 
   
-     For more information about where to find the connection string, see [Microsoft Azure: Create an Event Hubs namespace and an event hub using the Azure portal](https://docs.microsoft.com/azure/event-hubs/event-hubs-create).  
+    For more information about where to find the connection string, see [Microsoft Azure: Create an Event Hubs namespace and an event hub using the Azure portal](https://docs.microsoft.com/azure/event-hubs/event-hubs-create).  
   
-5.  Click **Save** ![Save button](media/save-icon.png "Save button").  
+5. Click **Save** ![Save button](media/save-icon.png "Save button").  
   
 > [!TIP]
 >  For an end-to-end example, see [Work with events from Social Engagement in Azure Event Hubs](work-with-event-hubs.md "Work with events from Social Engagement in Azure Event Hubs").  
-
-## Social Engagement as a data source in Customer Insights
-
-[Dynamics 365 for Customer Insights](https://docs.microsoft.com/dynamics365/customer-engagement/customer-insights/getstart) includes a connector to add Social Engagement as a data source. This connector creates and manages the connection between Social Engagement and Azure Event Hubs. For more information about the connector, see [Add Microsoft Social Engagement as a data source](https://docs.microsoft.com/dynamics365/customer-engagement/customer-insights/deploy/datasourcemse)
 
 <a name="disable_connection"></a>   
 ## Disable or re-enable a connection to Azure Event Hubs  
@@ -67,24 +63,24 @@ Start building out your custom metrics or analysis based on the posts found by [
 <a name="disable_procedure"></a>   
 ### Disable a connection  
   
-1.  In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], go to **Settings > Connections**.  
+1. In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], go to **Settings > Connections**.  
   
-2.  In the **Connections** pane, select **Microsoft Azure Event Hubs** from the list.  
+2. In the **Connections** pane, select **Microsoft Azure Event Hubs** from the list.  
   
-3.  Select the connection you want to disable and set **Enable connection** to Off.  
+3. Select the connection you want to disable and set **Enable connection** to Off.  
   
-4.  Click **Save** ![Save button](media/save-icon.png "Save button").  
+4. Click **Save** ![Save button](media/save-icon.png "Save button").  
   
 <a name="re_enable_connection"></a>   
 ### Re-enable a disabled connection  
   
-1.  In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], go to **Settings > Connections**.  
+1. In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], go to **Settings > Connections**.  
   
-2.  In the **Connections** pane, select **Microsoft Azure Event Hubs** from the list.  
+2. In the **Connections** pane, select **Microsoft Azure Event Hubs** from the list.  
   
-3.  Select the connection you want to re-enable and set **Enable connection** to On.  
+3. Select the connection you want to re-enable and set **Enable connection** to On.  
   
-4.  Click **Save** ![Save button](media/save-icon.png "Save button").  
+4. Click **Save** ![Save button](media/save-icon.png "Save button").  
   
 <a name="create_automation_rule"></a>   
 ## Choose the data to stream to event hubs using automation rules  
