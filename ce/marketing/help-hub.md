@@ -25,22 +25,22 @@ topic-status: Drafting
 <tr><td>
 
 <h2>Administer the system</h2>
-<li>[Readme](https://go.microsoft.com/fwlink/p/?linkid=864736)</li>
-<li>[Sign up for a free trial](trial-signup.md)</li>
-<li>[Purchase a production version of Marketing](purchase-marketing.md)</li>
-<li>[Run the setup wizard](purchase-setup.md)</li>
-<li>[Manage Marketing instances](manage-marketing-instances.md)</li>
-<li>[Keep Marketing up to date](apply-updates.md)</li>
-<li>[Open the Settings work area](open-advanced-settings.md)</li>
-<li>[Organization settings](organization-settings.md)</li>
-<li>[Business Management settings](business-management-settings.md)</li>
-<li>[Marketing settings](marketing-settings.md)</li>
-<li>[Event management settings](events-settings.md)</li>
-<li>[Additional settings](additional-settings.md)</li>
-<li>[Manage your quotas](quota-management.md)</li>
-<li>[Customize Dynamics 365 for Marketing](customize.md)</li>
-<li>[Data protection and GDPR](gdpr.md)</li>
-<li>[Administration FAQ](setup-troubleshooting.md)</li>
+<li><a href="https://go.microsoft.com/fwlink/p/?linkid=864736" data-raw-source="[Readme](https://go.microsoft.com/fwlink/p/?linkid=864736)">Readme</a></li>
+<li><a href="trial-signup.md" data-raw-source="[Sign up for a free trial](trial-signup.md)">Sign up for a free trial</a></li>
+<li><a href="purchase-marketing.md" data-raw-source="[Purchase a production version of Marketing](purchase-marketing.md)">Purchase a production version of Marketing</a></li>
+<li><a href="purchase-setup.md" data-raw-source="[Run the setup wizard](purchase-setup.md)">Run the setup wizard</a></li>
+<li><a href="manage-marketing-instances.md" data-raw-source="[Manage Marketing instances](manage-marketing-instances.md)">Manage Marketing instances</a></li>
+<li><a href="apply-updates.md" data-raw-source="[Keep Marketing up to date](apply-updates.md)">Keep Marketing up to date</a></li>
+<li><a href="open-advanced-settings.md" data-raw-source="[Open the Settings work area](open-advanced-settings.md)">Open the Settings work area</a></li>
+<li><a href="organization-settings.md" data-raw-source="[Organization settings](organization-settings.md)">Organization settings</a></li>
+<li><a href="business-management-settings.md" data-raw-source="[Business Management settings](business-management-settings.md)">Business Management settings</a></li>
+<li><a href="marketing-settings.md" data-raw-source="[Marketing settings](marketing-settings.md)">Marketing settings</a></li>
+<li><a href="events-settings.md" data-raw-source="[Event management settings](events-settings.md)">Event management settings</a></li>
+<li><a href="additional-settings.md" data-raw-source="[Additional settings](additional-settings.md)">Additional settings</a></li>
+<li><a href="quota-management.md" data-raw-source="[Manage your quotas](quota-management.md)">Manage your quotas</a></li>
+<li><a href="customize.md" data-raw-source="[Customize Dynamics 365 for Marketing](customize.md)">Customize Dynamics 365 for Marketing</a></li>
+<li><a href="gdpr.md" data-raw-source="[Data protection and GDPR](gdpr.md)">Data protection and GDPR</a></li>
+<li><a href="setup-troubleshooting.md" data-raw-source="[Administration and setup FAQ](setup-troubleshooting.md)">Administration and setup FAQ</a></li>
 
 </td><td>
 
