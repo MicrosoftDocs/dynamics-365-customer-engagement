@@ -58,4 +58,7 @@ You can find event administration settings by going to **Settings** > **Advanced
 ### See also
 
 [Event planning and management in Dynamics 365](event-management.md)  
-[Set up a webinar](set-up-webinar.md)
+[Set up a webinar](set-up-webinar.md)  
+[Set up and manage an event waitlist](event-waitlist.md)  
+[Create and manage recurring events](event-recurring.md)  
+[Create and use event templates](event-templates.md)
