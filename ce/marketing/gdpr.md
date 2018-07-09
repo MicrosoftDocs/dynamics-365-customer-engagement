@@ -140,6 +140,12 @@ A subscription center is probably the best place to enable contacts to confirm a
 
 You can now create a marketing email message that includes a link to your subscription-center page. Make sure your page explains why granting consent is important and how it offers value to the individual.
 
+<!-- ## Set up double opt-in to confirm changes in consent level and subscriptions
+
+To fully comply with the GDPR (and other common regulations), you must set up the double opt-in system. Double opt-in uses email messaging to ensure that all requests to change a contact's consent level or add a subscription were made on purpose by a person who can read that contact's email.
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up double opt-in for new subscriptions and consent changes](double-opt-in.md) -->
+
 ## An example of how to support data requests from your marketing audience
 
 Under GDPR, individuals have the right to submit several types of data requests to your organization. These include requests to access, correct, erase, and transmit (in a readable format) their personal data. [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] is a very flexible and versatile system, so there are many ways to build GDPR-compliance features into it. This section provides a few examples of how to do this, but the methods you choose will depend on how your organization is structured, how it uses [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)], and which types of customizations are in place.
@@ -235,4 +241,5 @@ This feature is part of the standard functionality of [!INCLUDE[pn-dynamics-365]
 [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)  
 [Manage customer information](manage-customer-information.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
-[Set up a subscription center](set-up-subscription-center.md)
+[Set up a subscription center](set-up-subscription-center.md)  
+[Set up double opt-in for new subscriptions and consent changes](double-opt-in.md)

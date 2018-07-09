@@ -40,7 +40,7 @@ topic-status: Drafting
 <li><a href="quota-management.md" data-raw-source="[Manage your quotas](quota-management.md)">Manage your quotas</a></li>
 <li><a href="customize.md" data-raw-source="[Customize Dynamics 365 for Marketing](customize.md)">Customize Dynamics 365 for Marketing</a></li>
 <li><a href="gdpr.md" data-raw-source="[Data protection and GDPR](gdpr.md)">Data protection and GDPR</a></li>
-<li><a href="setup-troubleshooting.md" data-raw-source="[Administration FAQ](setup-troubleshooting.md)">Administration FAQ</a></li>
+<li><a href="setup-troubleshooting.md" data-raw-source="[Administration and setup FAQ](setup-troubleshooting.md)">Administration and setup FAQ</a></li>
 
 </td><td>
 
