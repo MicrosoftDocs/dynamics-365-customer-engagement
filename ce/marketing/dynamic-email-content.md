@@ -276,7 +276,7 @@ For example, your database could include a list of products that a contact has o
 
 In this example, the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] system has been customized to include a [custom entity](../customize/create-edit-entities.md) called _product_, which is set up with a 1:N [relationship](../customize/create-edit-entity-relationships.md) between the _contact_ and _product_ entities on the _productid_ field. For the product entity to be available to your email messages, it must also be [synced](marketing-settings.md#dci-sync) with the customer-insights database (as usual).
 
-## Mix your code with content in the editor
+### Mix your code with content in the editor
 
 Often, programmers use multiple lines and indents to format their code during development. This makes the code easier to read and understand. The examples in this help topic likewise use techniques such as these to illustrate the structure of the code. However, when you enter your code into the designer, it's important that you compact the code and maintain your page layout—and that means removing all the extra lines and spaces. Here are some tips for how to enter your code in the designer:
 
