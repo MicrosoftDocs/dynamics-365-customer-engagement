@@ -13,25 +13,25 @@ ms.assetid: a7f5cc83-80cc-1aad-aab5-fdd52a6891fe
 ms.custom: dyn365-customerservice
 ---
 
-# Upgrade from Interactive Service Hub to the Customer Service Hub in Microsoft Dynamics 365 (online) version 9.0
+# Upgrade from Interactive Service hub to the Customer Service Hub in Microsoft Dynamics 365 (online) version 9.0
 
-The Interactive Service Hub (ISH), a reimagined customer service module, was introduced with Microsoft Dynamics CRM Online 2016 Update 1 and Microsoft Dynamics CRM 2016. ISH offered a web-based client and was designed to simplify daily tasks for Customer Service Representatives and Managers. Under the hood, it had completely new components and page-types, like interactive dashboards, interactive forms, and reference panel control. Though the ISH intuitive interface combined vital information in one place and allowed Customer Service Representatives to prioritize work and be more productive, there were certain limitations in extending it. The new Customer Service Hub (CSH) offers even greater flexibility and improved controls and extensibility.
+The Interactive Service hub was introduced with [!INCLUDE[](../includes/pn-crm-8-1-0-online.md)] and [!INCLUDE[](../includes/pn-crm-8-0-0-op.md)] as a reimagined customer service application. Interactive Service hub offered a web-based client designed to simplify daily tasks for Customer Service Representatives and Managers. Under the hood, it had completely new components and page-types, like interactive dashboards, interactive forms, and reference panel control. Though the Interactive Service hub's intuitive interface combined vital information in one place and allowed Customer Service Representatives to prioritize work and be more productive, there were certain limitations in extending it. The new Customer Service Hub offers even greater flexibility and improved controls and extensibility.
 
-## Introduction to Customer Service Hub
+## Introduction to the Customer Service Hub application
 
-With Dynamics 365 (online) version 9.0, CSH offers a focused, interactive interface that is an App Module running on Unified Interface. Unified Interface is designed with a *build once deploy everywhere* philosophy and features a new Custom Control Framework, responsive UI design, RTL support; and will soon be WCAG 2.0 compliant.
+With [!INCLUDE[](../includes/pn-crm-online.md)] version 9.0, Customer Service Hub offers a focused, interactive interface as an app module running on Unified Interface. Unified Interface is designed with a **build once deploy everywhere** philosophy and features a new Custom Control Framework, responsive UI design, RTL support; and will soon be WCAG 2.0 compliant.
 
-Compared to ISH, Unified Interface eliminates the prolonged initial metadata download and brings greater parity with Dynamics 365 web client in terms of supported entities, controls, and extensibility. And, because it is an App Module, CSH is completely role-based and metadata-driven, allowing greater customization flexibility. It makes it easy and intuitive for System Administrators to filter forms, dashboards, and other metadata components shown to business users, so that they can deliver tailored applications.
+Compared to Interactive Service hub, Unified Interface eliminates the prolonged initial metadata download and brings greater parity with Dynamics 365 web client in terms of supported entities, controls, and extensibility. Also, because it is an app module, Customer Service Hub is completely role-based and metadata-driven, allowing greater customization flexibility. It makes it easy and intuitive for System Administrators to filter forms, dashboards, and other metadata components shown to business users, so that they can deliver tailored applications.
 
 ## Versions eligible for upgrade
 
-Organizations using Dynamics versions CRM 2016, CRM Online 2016 Update 1, and Dynamics 365 (online and on-premises) Update 2.1 are eligible to upgrade to Dynamics 365 (online) version 9.0 during the [Customer Driven Update](https://blogs.msdn.microsoft.com/crm/2018/01/12/scheduling-your-dynamics-365-organization-for-microsoft-dynamics-365-online-version-9-0-update/) schedule. Upgrading from a version earlier than CRM 2016 is not supported. Support for the Interactive Service Hub client is limited to Dynamics 365 Update 2.1.
+Organizations using [!INCLUDE[](../includes/pn-crm-8-0-0-op.md)], [!INCLUDE[](../includes/pn-crm-8-1-0-online.md)], and Dynamics 365 (online and on-premises) Update 2.1 are eligible to upgrade to Dynamics 365 (online) version 9.0 during the [Customer Driven Update](https://blogs.msdn.microsoft.com/crm/2018/01/12/scheduling-your-dynamics-365-organization-for-microsoft-dynamics-365-online-version-9-0-update/) schedule. Upgrading from a version earlier than CRM 2016 is not supported. Support for the Interactive Service hub client is limited to Dynamics 365 Update 2.1.
 
 ## Preparing for the upgrade
 
-Before you upgrade, it is important to note that once you upgrade to CSH, there is no support to roll back to ISH. Please observe these best practices before upgrading any production organization.
+Before you upgrade, it is important to note that once you upgrade to Customer Service Hub, there is no support to roll back to Interactive Service hub. Please observe these best practices before upgrading any production organization:
 
-- Read about known issues with CSH or Unified Interface at [Dynamics 365 Customer Engagement Readme / Known Issues](../admin/readme-9.md).
+- Read about known issues with Customer Service Hub or Unified Interface at [Dynamics 365 Customer Engagement Readme / Known Issues](../admin/readme-9.md).
 - The upgrade is designed to deliver a nearly seamless experience. However, there are certain changes that require manual intervention by a System Administrator. Be sure to read the steps outlined later in this document, [Manual post-upgrade configuration for System Administrators](#post-upgrade-configurations-for-system-administrators).
 - Upgrade a test or sandbox environment with your customizations and data.
 - Back up your customizations and data.
@@ -40,17 +40,15 @@ Before you upgrade, it is important to note that once you upgrade to CSH, there 
 The following sections describe some notable upgrade-specific changes, as well as general customization and user experience changes in Dynamics 365 (online) version 9.0.
 
 ## Converting Interactive experience forms to Main forms
-Like Dynamics 365 web client, the CSH app on Unified Interface uses Main forms. Any existing Interactive experience forms—both out-of-the-box and custom, will be modified and converted to Main forms when you upgrade to Dynamics 365 (online) version 9.0, and will import any solution into Dynamics 365 (online) version 9.0 and later. This change does not affect functionality; the form XML will largely remain the same except for a few changes in properties, shown below.
+Like Dynamics 365 web client, the Customer Service Hub app on Unified Interface uses Main forms. Any existing Interactive experience forms—both out-of-the-box and custom, will be modified and converted to Main forms when you upgrade to Dynamics 365 (online) version 9.0, and will import any solution into Dynamics 365 (online) version 9.0 and later. This change does not affect functionality; the form XML will largely remain the same except for a few changes in properties, shown below.
 
 ![Converting Interactive experience forms to Main forms](media/upgrade-Convert-Interactive-experience-forms-to-Main-forms.png)
 
-The changes to Interactive experience forms include:
-
 - The conversion process changes the form type, and no new forms are created. The name of the form will not change
 - The segment of form XML representing form behavior and customization is unaffected. This conversion will not have an adverse impact on functionality
-- **Form Type** would be changed from *Main – Interactive experience to Main*
-- If the managed properties of the form are set to be customizable, the **Form State** will be changed to Inactive; otherwise it will be unchanged. As Main forms are supported in Unified Interface as well as in Dynamics 365 web client, deactivation is essential to avoid unintended access in Dynamics 365 web client. This behavior is limited to customizable forms, so the upgrade does not force any form to an unrecoverable Inactive state.
-- After conversion to Main forms, Interactive experience forms will be ranked lower than other Main forms in the system, to avoid disruption to Dynamics 365 web client users. System Administrators can review the order and change it to suit the business needs. See [Assign form order](../customize/assign-form-order.md) for more information. 
+- **Form Type** would be changed from **Main – Interactive experience** to **Main**
+- If the managed properties of the form are set to be customizable, the **Form State** will be changed to Inactive; otherwise it will be unchanged. As Main forms are supported in Unified Interface as well as in Dynamics 365 web client, deactivation is essential to avoid unintended access in Dynamics 365 web client. This behavior is limited to customizable forms, so the upgrade does not force any form to an unrecoverable Inactive state
+- After conversion to Main forms, Interactive experience forms will be ranked lower than other Main forms in the system, to avoid disruption to Dynamics 365 web client users. System Administrators can review the order and change it to suit the business needs. See [Assign form order](../customize/assign-form-order.md) for more information
 
 ## Support for Interactive experience forms
 
@@ -58,15 +56,15 @@ Unified Interface does not use Interactive experience forms, so they will no lon
 
 ## Entity support and deprecation of EntityMetadata.IsInteractionCentricEnabled property
 
-With Dynamics 365 (online) version 9.0, Unified Interface supports all ISH entities and many others. Interactive Dashboards, Card Forms, Main forms and any other components like Views, Charts, etc., can be created for any entity supported in Unified Interface and used in the CSH app. The **EntityMetadata.IsInteractionCentricEnabled** property, which indicates whether an entity can be enabled for interactive experience, is removed. The corresponding property in the customization interface, *Enable for interactive experience*, has been removed, and the *EntityMetadata.IsInteractionCentricEnabled* property will be removed from the future version of Dynamics 365 SDK for Customer Engagement.
+With Dynamics 365 (online) version 9.0, Unified Interface supports all Interactive Service hub entities and many others. Interactive Dashboards, Card Forms, Main forms and any other components like Views, Charts, etc., can be created for any entity supported in Unified Interface and used in the Customer Service Hub app. The **EntityMetadata.IsInteractionCentricEnabled** property, which indicates whether an entity can be enabled for interactive experience, is removed. The corresponding property in the customization interface, *Enable for interactive experience*, has been removed, and the *EntityMetadata.IsInteractionCentricEnabled* property will be removed from the future version of Dynamics 365 SDK for Customer Engagement.
 
 ## Unified Service Desk
 
-CSH is not supported on Internet Explorer 11 in Dynamics 365 (online) version 9.0.1. And, since Unified Service Desk uses Internet Explorer 11, it does not support the CSH app. This support will be available in an upcoming version.
+Customer Service Hub is not supported on Internet Explorer 11 in Dynamics 365 (online) version 9.0.1. And, since Unified Service Desk uses Internet Explorer 11, it does not support the Customer Service Hub app. This support will be available in an upcoming version.
 
 ## User interface improvements in Dynamics 365 (online) version 9.0
 
-- Launch the Customer Service Hub app from your Navigation or My Apps page
+- Launch the Customer Service Hub app from **Navigation** or **My Apps** page
 
   From My Apps page:
 
@@ -78,47 +76,46 @@ CSH is not supported on Internet Explorer 11 in Dynamics 365 (online) version 9.
 
 - Interactive Dashboards deliver improved discoverability and reflow behavior. Read more about dashboards in the [ Customer Service Hub user guide](customer-service-hub-user-guide-dashboard.md).
 
-- The sitemap in Unified Interface is oriented vertically, to make it easy to use on smaller devices. In addition to layout changes, CSH has better support for Sitemap customization because its dedicated sitemap can be configured in any way without affecting other apps or Dynamics 365 web client. You can read more about editing sitemaps in the [Sitemap Designer documentation](../customize/create-site-map-app.md). (Please note, this change is not specific to this upgrade.)
+- The sitemap in Unified Interface is oriented vertically, to make it easy to use on smaller devices. In addition to layout changes, Customer Service Hub has better support for Sitemap customization because its dedicated sitemap can be configured in any way without affecting other apps or Dynamics 365 web client. You can read more about editing sitemaps in the [Sitemap Designer documentation](../customize/create-site-map-app.md). (Please note, this change is not specific to this upgrade.)
 
   ![sitemap pre and post upgrade](media/upgrade-Sitemap-pre-and-post-update.png) 
 
 ## After the upgrade
 
-Once you’ve upgraded to Dynamics 365 (online) version 9.0, CSH will be provisioned for your org and will be updated with your customizations from ISH.
+Once you’ve upgraded to Dynamics 365 (online) version 9.0, Customer Service Hub will be provisioned for your org and will be updated with your customizations from Interactive Service hub.
 
 > [!NOTE]
-> System Administrators and customizers must perform the[ Post-upgrade configurations](#post-upgrade-configurations-for-system-administrators) described later in this document. It is advisable to review the CSH runtime experience and compare it with ISH before the app is released to business users for consumption.
+> System Administrators and customizers must perform the[ Post-upgrade configurations](#post-upgrade-configurations-for-system-administrators) described later in this document. It is advisable to review the Customer Service Hub's runtime experience and compare it with Interactive Service hub before the app is released to business users for consumption.
 
 ## What to expect after the upgrade
 
-
-- Existing ways to launch the application will continue to work via the sitemap and bookmarked links. The sitemap link in **Settings -> Application** will continue to be called *Interactive Service Hub*; however, it will redirect to CSH.
-- ISH URLs */nga/engagementhub.aspx* or */engagementhub.aspx* will redirect to the equivalent page in CSH, and all query string parameters will be supported.
-- All customizations done on ISH will be preserved by ensuring that the relevant components—both out-of-the-box and custom—are included in the CSH app module. ISH forms and dashboards will be added to the app, so that the CSH experience resembles ISH. Other components like views and entity dashboards will not be added, though all such components will be part of the runtime experience.
-- All entities that were enabled for ISH will be added to the CSH app definition, along with any business process flows that were part of ISH.
-- Users with Customer Service Representative, Customer Service Representative Manager, and Knowledge Manager roles will have access to CSH by default. System Administrators can manage access to other roles from the My Apps page, as shown here:
+- Existing ways to launch the application will continue to work via the sitemap and bookmarked links. The sitemap link in **Settings > Application** will continue to be called *Interactive Service Hub*; however, it will redirect to Customer Service Hub
+- Interactive Service hub URLs */nga/engagementhub.aspx* or */engagementhub.aspx* will redirect to the equivalent page in Customer Service Hub, and all query string parameters will be supported
+- All customizations done on Interactive Service hub will be preserved by ensuring that the relevant components—both out-of-the-box and custom—are included in the CSCustomer Service HubH app module. Forms and dashboards in the Interactive Service hub will be added to the app, so that the  experience resembles for both the apps. Other components like views and entity dashboards will not be added, though all such components will be part of the runtime experience
+- All entities that were enabled for Interactive Service hub will be added to the Customer Service Hub app definition, along with any business process flows that were part of Interactive Service hub
+- Users with Customer Service Representative, Customer Service Representative Manager, and Knowledge Manager roles will have access to Customer Service Hub by default. System Administrators can manage access to other roles from the My Apps page, as shown here:
 
   ![Manage access roles](media/upgrade-Manage-roles-from-the-My-Apps-page.png)
 
 ## Post-upgrade configurations for System Administrators
 
-As discussed earlier, most of the Main forms would be in *Inactive* state after the upgrade. If CSH does not have an Active form for any entity, users will be given *Fallback forms* when they access an entity record. A fallback form is the default form that is available to users whose security roles do not have any forms assigned to them (read more in [Control access to forms](../customize/control-access-forms.md)). To ensure that users have a seamless experience after upgrading, System Administrators must perform certain manual tasks, as listed in the table below.
+As discussed earlier, most of the Main forms would be in *Inactive* state after the upgrade. If Customer Service Hub does not have an Active form for any entity, users will be given *Fallback forms* when they access an entity record. A fallback form is the default form that is available to users whose security roles do not have any forms assigned to them (read more in [Control access to forms](../customize/control-access-forms.md)). To ensure that users have a seamless experience after upgrading, System Administrators must perform certain manual tasks, as listed in the table below.
 
  
-As Main forms are supported in Unified Interface as well as in Dynamics 365 web client, activation would make them visible in Dynamics 365 web client as well. System Administrators are advised to assign appropriate security roles to avoid unintended access. See [Assign security roles to forms](../admin/assign-security-roles-form.md).
+As Main forms are supported in Unified Interface as well as in Dynamics 365 web client, activation would make them visible in Dynamics 365 web client as well. System Administrators are advised to assign appropriate security roles to avoid unintended access. See [Assign security roles to forms](../admin/assign-security-roles-form.md) for more information.
 
 ![Post upgrade configuration for system administrators](media/upgrade-post-upgrade-configurations-for-system-administrators.png)
 
 ## Working with solutions
 
-- **Importing a solution with ISH components from Dynamics versions CRM 2016, CRM Online 2016 Update 1, and Dynamics 365 (online and on-premises) Update 2.1 into Dynamics 365 (online) version 9.0 or later** would not reflect changes to CSH, since CSH is an App Module and doesn’t show every component in the system. The import would proceed in the usual manner, and the components added in the system would need to be added to CSH. System Administrators can edit the CSH app definition in App Designer and include the solution components. This gives System Administrators greater control over the CSH app definition. Read more about editing app definition in [App Designer](../customize/create-edit-app.md) documentation.
+- Importing a solution with Interactive Service hub components from the versions [!INCLUDE[](../includes/pn-crm-8-0-0-op.md)],[!INCLUDE[](../includes/pn-crm-8-1-0-online.md)], and Dynamics 365 (online and on-premises) Update 2.1 into Dynamics 365 (online) version 9.0 or later would not reflect changes to Customer Service Hub, since it is an app module and doesn’t show every component in the system. The import would proceed in the usual manner, and the components added in the system would need to be added to Customer Service Hub. System Administrators can edit the hub's app definition in App Designer and include the solution components. This gives System Administrators greater control over the hub's app definition. Read more about editing app definition in [App Designer](../customize/create-edit-app.md) documentation.
 
 
-- **Uninstalling older solutions after upgrading to Dynamics 365 (online) version 9.0 or later** may require manual updates to the CSH app in some cases. This typically occurs when the solution contains Business Process Flows. While upgrading, all Business Process Flows in the system (and their relevant entities) get added to CSH, which creates dependencies for CSH on the solution. A solution framework dependency error will appear whenever such solutions are uninstalled.
+- Uninstalling older solutions after upgrading to Dynamics 365 (online) version 9.0 or later may require manual updates to the Customer Service Hub app in some cases. This typically occurs when the solution contains Business Process Flows. While upgrading, all Business Process Flows in the system (and their relevant entities) get added to Customer Service Hub, which creates dependencies on the solution. A solution framework dependency error will appear whenever such solutions are uninstalled.
 
   ![Details link in the Error](media/upgrade-details-link-error.png)
 
-  Clicking on the error details reveals the solution components that are referenced by other components in the system. Resolving these dependencies by editing CSH and removing the referenced components should allow you to uninstall the solution. If this issue persists, it is possible that dependencies still remain and repeating this process should help in identifying them. Read more about editing app definitions in [App Designer](../customize/create-edit-app.md) documentation.
+  Clicking on the error details reveals the solution components that are referenced by other components in the system. Resolving these dependencies by editing the Customer Service Hub and removing the referenced components should allow you to uninstall the solution. If this issue persists, it is possible that dependencies still remain and repeating this process should help in identifying them. Read more about editing app definitions in [App Designer](../customize/create-edit-app.md) documentation.
 
 
 ### See Also

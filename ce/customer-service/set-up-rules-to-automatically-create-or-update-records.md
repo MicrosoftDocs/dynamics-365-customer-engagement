@@ -73,7 +73,7 @@ These activities can be converted to any default (system) entity records or cust
  For an email source type, specifying a queue is mandatory. For all other source types including custom activities, it is optional.  
 
 > [!NOTE]
-> An Email queue item gets deactivated when it is converted to a Case.
+> When an automatic record creation (ARC) rule is applied to an Email queue item, it gets deactivated.
   
 <a name="bkmk_RulesInSolutions"></a>   
 ## Rules in solutions  
