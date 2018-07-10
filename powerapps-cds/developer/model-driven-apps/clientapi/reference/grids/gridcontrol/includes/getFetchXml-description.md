@@ -1,1 +1,0 @@
-Gets the FetchXML query that represents the current data, including filtered and sorted data, in the grid control. 
