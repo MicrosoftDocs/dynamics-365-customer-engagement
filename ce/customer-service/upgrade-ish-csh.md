@@ -15,7 +15,7 @@ ms.custom: dyn365-customerservice
 
 # Upgrade from Interactive Service hub to the Customer Service Hub in Microsoft Dynamics 365 (online) version 9.0
 
-The Interactive Service hub was introduced with [!INCLUDE[](../includes/pn-crm-8-1-0-online.md)] and [!INCLUDE[](../includes/pn-crm-8-0-0-op.md)] as a reimagined customer service application. Interactive Service hub offered a web-based client designed to simplify daily tasks for Customer Service Representatives and Managers. Under the hood, it had completely new components and page-types, like interactive dashboards, interactive forms, and reference panel control. Though the Interactive Service hub's intuitive interface combined vital information in one place and allowed Customer Service Representatives to prioritize work and be more productive, there were certain limitations in extending it. The new Customer Service Hub offers even greater flexibility and improved controls and extensibility.
+The Interactive Service hub was introduced with [!INCLUDE[](../includes/pn-crm-8-1-0-online.md)] and Dynamics CRM 2016 as a reimagined customer service application. Interactive Service hub offered a web-based client designed to simplify daily tasks for Customer Service Representatives and Managers. Under the hood, it had completely new components and page-types, like interactive dashboards, interactive forms, and reference panel control. Though the Interactive Service hub's intuitive interface combined vital information in one place and allowed Customer Service Representatives to prioritize work and be more productive, there were certain limitations in extending it. The new Customer Service Hub offers even greater flexibility and improved controls and extensibility.
 
 ## Introduction to the Customer Service Hub application
 
@@ -25,7 +25,7 @@ Compared to Interactive Service hub, Unified Interface eliminates the prolonged 
 
 ## Versions eligible for upgrade
 
-Organizations using [!INCLUDE[](../includes/pn-crm-8-0-0-op.md)], [!INCLUDE[](../includes/pn-crm-8-1-0-online.md)], and Dynamics 365 (online and on-premises) Update 2.1 are eligible to upgrade to Dynamics 365 (online) version 9.0 during the [Customer Driven Update](https://blogs.msdn.microsoft.com/crm/2018/01/12/scheduling-your-dynamics-365-organization-for-microsoft-dynamics-365-online-version-9-0-update/) schedule. Upgrading from a version earlier than CRM 2016 is not supported. Support for the Interactive Service hub client is limited to Dynamics 365 Update 2.1.
+Organizations using Dynamics CRM 2016, [!INCLUDE[](../includes/pn-crm-8-1-0-online.md)], and Dynamics 365 (online and on-premises) Update 2.1 are eligible to upgrade to Dynamics 365 (online) version 9.0 during the [Customer Driven Update](https://blogs.msdn.microsoft.com/crm/2018/01/12/scheduling-your-dynamics-365-organization-for-microsoft-dynamics-365-online-version-9-0-update/) schedule. Upgrading from a version earlier than CRM 2016 is not supported. Support for the Interactive Service hub client is limited to Dynamics 365 Update 2.1.
 
 ## Preparing for the upgrade
 
@@ -108,7 +108,7 @@ As Main forms are supported in Unified Interface as well as in Dynamics 365 web 
 
 ## Working with solutions
 
-- Importing a solution with Interactive Service hub components from the versions [!INCLUDE[](../includes/pn-crm-8-0-0-op.md)],[!INCLUDE[](../includes/pn-crm-8-1-0-online.md)], and Dynamics 365 (online and on-premises) Update 2.1 into Dynamics 365 (online) version 9.0 or later would not reflect changes to Customer Service Hub, since it is an app module and doesn’t show every component in the system. The import would proceed in the usual manner, and the components added in the system would need to be added to Customer Service Hub. System Administrators can edit the hub's app definition in App Designer and include the solution components. This gives System Administrators greater control over the hub's app definition. Read more about editing app definition in [App Designer](../customize/create-edit-app.md) documentation.
+- Importing a solution with Interactive Service hub components from the versions Dynamics CRM 2016,[!INCLUDE[](../includes/pn-crm-8-1-0-online.md)], and Dynamics 365 (online and on-premises) Update 2.1 into Dynamics 365 (online) version 9.0 or later would not reflect changes to Customer Service Hub, since it is an app module and doesn’t show every component in the system. The import would proceed in the usual manner, and the components added in the system would need to be added to Customer Service Hub. System Administrators can edit the hub's app definition in App Designer and include the solution components. This gives System Administrators greater control over the hub's app definition. Read more about editing app definition in [App Designer](../customize/create-edit-app.md) documentation.
 
 
 - Uninstalling older solutions after upgrading to Dynamics 365 (online) version 9.0 or later may require manual updates to the Customer Service Hub app in some cases. This typically occurs when the solution contains Business Process Flows. While upgrading, all Business Process Flows in the system (and their relevant entities) get added to Customer Service Hub, which creates dependencies on the solution. A solution framework dependency error will appear whenever such solutions are uninstalled.
