@@ -32,9 +32,15 @@ ms.custom: dyn365-customerservice
 
   <td><h2>Setup</h2>
   <ul>
-  <li>[Service Manager](service-manager-guide.md)</li>
-  <li>[Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)</li>
-  <li>[Upgrade to the Customer Service Hub in Microsoft Dynamics 365](upgrade-ish-csh.md)</li> 
+  <li>
+
+[Service Manager guide](service-manager-guide.md)</li>
+<li>
+
+[Dynamics 365 for phones and tablets](use-customer-service-hub-on-dynamics-365-mobile.md)</li>
+<li> 
+
+[Upgrade to the Customer Service Hub in Microsoft Dynamics 365](upgrade-ish-csh.md) </li> 
   </ul>
   </td>
 </tr>
