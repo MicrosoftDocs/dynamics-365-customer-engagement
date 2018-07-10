@@ -1,7 +1,7 @@
 ---
 title: "Deploy Dynamics 365 App for Outlook | MicrosoftDocs"
 ms.custom: ""
-ms.date: 04/20/2017
+ms.date: 07/03/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -128,21 +128,23 @@ Customization tab:
 ### Supported browsers for Outlook on the web  
  You can use [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] with [!INCLUDE[pn_outlook_web_app](../../includes/pn-outlook-web-app.md)] on the following browsers:  
 
-- [!INCLUDE[pn_IE_10](../../includes/pn-ie-10.md)], [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)], or [!INCLUDE[pn_microsoft_edge](../../includes/pn-microsoft-edge.md)]  
-
-   The following configuration is supported:  
-
-  - Protected Mode is enabled for **Internet** security zone. To enable Protected Mode: in IE 10 or 11, go to **Tools** > **Internet options** > **Security tab** > **Internet**.  
-
-  - Protected Mode is enabled for **Local intranet**  security zone. To enable Protected Mode: in IE 10 or 11, go to **Tools** > **Internet options** > **Security tab** > **Local Internet**.  
-
-  - Your [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] URL is in the **Local intranet** security zone list of trusted websites. In IE 10 or 11, go to **Tools** > **Internet options** > **Security tab** > **Local intranet** > **Sites** > **Advanced**.  
-
-- [!INCLUDE[tn_Google_Chrome](../../includes/tn-google-chrome.md)] (latest version) on [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)]  
-
-- [!INCLUDE[tn_Firefox](../../includes/tn-firefox.md)] (latest version) on [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)]  
-
-- [!INCLUDE[tn_apple](../../includes/tn-apple.md)] [!INCLUDE[tn_Safari](../../includes/tn-safari.md)] (version 9 or version 10) on Mac or on OSX  
+  
+-   [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)], or [!INCLUDE[pn_microsoft_edge](../../includes/pn-microsoft-edge.md)]  
+  
+     The following configuration is supported:  
+  
+    -   Protected Mode is enabled for **Internet** security zone. To enable Protected Mode: in IE 11, go to **Tools** > **Internet options** > **Security tab** > **Internet**.  
+  
+    -   Protected Mode is enabled for **Local intranet**  security zone. To enable Protected Mode: in IE 11, go to **Tools** > **Internet options** > **Security tab** > **Local Internet**.  
+  
+    -   Your [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] URL is in the **Local intranet** security zone list of trusted websites. In IE 11, go to **Tools** > **Internet options** > **Security tab** > **Local intranet** > **Sites** > **Advanced**.  
+  
+-   [!INCLUDE[tn_Google_Chrome](../../includes/tn-google-chrome.md)] (latest version) on [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)]  
+  
+-   [!INCLUDE[tn_Firefox](../../includes/tn-firefox.md)] (latest version) on [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)]  
+  
+-   [!INCLUDE[tn_apple](../../includes/tn-apple.md)] [!INCLUDE[tn_Safari](../../includes/tn-safari.md)] (version 9 or version 10) on Mac or on OSX  
+  
 
 ### Supported operating systems for Outlook on the desktop  
  You can use [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] on these versions of [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] for the desktop:  
@@ -259,8 +261,9 @@ Exchange Server version 15.0.1236.3.32 (Cumulative Update 14 for Exchange Server
 
 -   Configure your Dynamics 365 server for Internet-facing deployment. See [Configure IFD for Microsoft Dynamics 365](https://technet.microsoft.com/library/dn609803.aspx).  
 
--   If you're connecting to Exchange on-premises, configure the OAuth provider and register client apps. See [Configure Windows Server 2012 R2 for Dynamics 365 applications that use OAuth](https://technet.microsoft.com/library/hh699726.aspx).  
-
+  
+-   If you are using Dynamics 365 on-premises, you need to enable OAuth on the Dynamics server, and register the Dynamics 365 App for Outlook with ADFS. You also need to make sure that OAuth us enabled for Exchange. See [Configure Windows Server 2012 R2 for Dynamics 365 applications that use OAuth](https://technet.microsoft.com/library/hh699726.aspx).  
+  
 <a name="BKMK_Troubleshoot"></a>   
 
 ## Troubleshooting installation problems  

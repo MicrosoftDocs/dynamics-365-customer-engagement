@@ -1,1 +1,0 @@
-Returns a collection of every [GridRow](../../gridrow.md) in the Grid.
