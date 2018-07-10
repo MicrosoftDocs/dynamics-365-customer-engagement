@@ -85,13 +85,13 @@ Customer Service Hub is not supported on Internet Explorer 11 in Dynamics 365 (o
 Once you’ve upgraded to Dynamics 365 (online) version 9.0, Customer Service Hub will be provisioned for your org and will be updated with your customizations from Interactive Service hub.
 
 > [!NOTE]
-> System Administrators and customizers must perform the[ Post-upgrade configurations](#post-upgrade-configurations-for-system-administrators) described later in this document. It is advisable to review the Customer Service Hub's runtime experience and compare it with Interactive Service hub before the app is released to business users for consumption.
+> System Administrators and customizers must perform the [ Post-upgrade configurations](#post-upgrade-configurations-for-system-administrators) described later in this document. It is advisable to review the Customer Service Hub's runtime experience and compare it with Interactive Service hub before the app is released to business users for consumption.
 
 ## What to expect after the upgrade
 
 - Existing ways to launch the application will continue to work via the sitemap and bookmarked links. The sitemap link in **Settings > Application** will continue to be called *Interactive Service Hub*; however, it will redirect to Customer Service Hub
 - Interactive Service hub URLs */nga/engagementhub.aspx* or */engagementhub.aspx* will redirect to the equivalent page in Customer Service Hub, and all query string parameters will be supported
-- All customizations done on Interactive Service hub will be preserved by ensuring that the relevant components—both out-of-the-box and custom—are included in the CSCustomer Service HubH app module. Forms and dashboards in the Interactive Service hub will be added to the app, so that the  experience resembles for both the apps. Other components like views and entity dashboards will not be added, though all such components will be part of the runtime experience
+- All customizations done on Interactive Service hub will be preserved by ensuring that the relevant components—both out-of-the-box and custom—are included in the Customer Service Hub app module. Forms and dashboards in the Interactive Service hub will be added to the app, so that the experience resembles for both the apps. Other components like views and entity dashboards will not be added, though all such components will be part of the runtime experience
 - All entities that were enabled for Interactive Service hub will be added to the Customer Service Hub app definition, along with any business process flows that were part of Interactive Service hub
 - Users with Customer Service Representative, Customer Service Representative Manager, and Knowledge Manager roles will have access to Customer Service Hub by default. System Administrators can manage access to other roles from the My Apps page, as shown here:
 
@@ -115,7 +115,7 @@ As Main forms are supported in Unified Interface as well as in Dynamics 365 web 
 
   ![Details link in the Error](media/upgrade-details-link-error.png)
 
-  Clicking on the error details reveals the solution components that are referenced by other components in the system. Resolving these dependencies by editing the Customer Service Hub and removing the referenced components should allow you to uninstall the solution. If this issue persists, it is possible that dependencies still remain and repeating this process should help in identifying them. Read more about editing app definitions in [App Designer](../customize/create-edit-app.md) documentation.
+  Clicking on the error details reveals the solution components that are referenced by other components in the system. Resolving these dependencies by editing the Customer Service Hub and removing the referenced components should allow you to uninstall the solution. If this issue persists, it is possible that dependencies remain and repeating this process should help in identifying them. Read more about editing app definitions in [App Designer](../customize/create-edit-app.md) documentation.
 
 
 ### See Also
