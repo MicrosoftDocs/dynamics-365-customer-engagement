@@ -152,7 +152,7 @@ Sales and Customer Service web client apps
 -   In organizations using languages other than English, an unexpected error
     occurs while trying to assign a security role to a newly created user.
 
--   The Relationship assistant control is not supported for custom dashboards.    
+-   The relationship assistant control is not supported for custom dashboards.    
 
 -   Knowledge Articles are displayed unformatted when relevance search is
     enabled.
