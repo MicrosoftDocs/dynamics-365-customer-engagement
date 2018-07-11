@@ -1,7 +1,7 @@
 ---
 title: "Replicate Dynamics 365 (online) data to Azure SQL Database | MicrosoftDocs"
 ms.custom: ""
-ms.date: 01/29/2018
+ms.date: 07/11/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -281,13 +281,7 @@ For information about the programmatic interface for managing configuration and 
   
  ![Zero records failed  indication](../admin/media/data-export-failed-records-zero.PNG "Zero records failed  indication")  
   
-4.  If the record synchronization failures persist after you've tried resynchronizing by following the previous steps, drop the tables, types, and stored procedures from the destination database, and then remove, and add back the entities to the Export Profile.  
-  
-    1.  Delete the associated database objects in the destination [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)]. For example, if you experience persistent leads entity synchronization issues, drop the leads tables, types, and stored procedures from the destination [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to delete Data Export Profile tables and stored procedures for a specific entity](#drop_entity)  
-  
-    2.  Remove the entity, such as the leads entity, from the Export Profile. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Modify an existing Export Profile](#modify_export_profile)  
-  
-    3.  Add the entity, such as the leads entity, back to the Export Profile and then activate the profile.  
+4.  If the record synchronization failures persist after you've tried resynchronizing by following the previous steps, contact [Microsoft Customer Support Services](https://docs.microsoft.com/dynamics365/customer-engagement/admin/contact-technical-support).  
   
 <a name="error_handling"></a>   
 ## Error handling and monitoring  
