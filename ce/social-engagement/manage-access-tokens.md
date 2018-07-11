@@ -74,6 +74,8 @@ You need [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] acquisition profile
 Adding tokens for interactions with posts allows you to acquire private messages from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], as well as publish and reply to posts. Additionally, you'll need an active [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page interaction token to be able to pull author information for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages you own. An interaction token is needed for every [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page separately. If no interaction token is provided, post and comments from users on the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page will surface in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] without author information.   
 
 You can check your token health states to make sure your tokens aren't expired. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Check the health state of your social profiles](social-profiles-health-state.md)  
+
+You can check your token health states to make sure your tokens aren't expired. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Check the health state of your social profiles](social-profiles-health-state.md)  
   
 > [!NOTE]
 > View your social profiles page to add a token. If you don't see the social profile in question, you can add a social profile and add tokens directly.  
