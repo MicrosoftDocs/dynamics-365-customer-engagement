@@ -2,7 +2,7 @@
 title: "Get the Social Engagement content pack | Microsoft Docs"
 description: "Download the use the Social Engagement content pack for Power BI."
 keywords: "Power BI, content pack, engagement details"
-ms.date: 01/30/2018
+ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 ms.assetid: c82b4063-c86c-4922-99dd-1f5ddd18cb00
@@ -204,7 +204,7 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
   
  If you are not already an admin in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], please contact your administrator to make sure you have rights to view the collected data.  
   
- The **Solution ID** of your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution can be found in the Solution URL. The Solution URL can be found in the browser’s address bar after signing in to [https://portal.office.com](https://portal.office.com) and opening [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] from the app switcher.  
+ The **Solution ID** of your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution can be found in the URL. The URL can be found in the browser’s address bar after [signing in to Social Engagement](https://social.dynamics.com/login).  
   
  The Solution URL is also shown on alerts or other email notifications you receive from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. For example: 1 is the Solution ID in the Solution URL [https://listening-prod.dynamics.com/app/1/](https://www.microsoft.com). 
   
