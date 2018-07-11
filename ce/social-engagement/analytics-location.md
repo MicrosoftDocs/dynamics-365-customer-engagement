@@ -2,7 +2,7 @@
 title: "Analytics for locations in Social Engagement | Microsoft Docs"
 description: "Learn how to focus your analysis on location data in Social Engagement."
 keywords: "analytics, locations, maps, location analysis"
-ms.date: 03/19/2018
+ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -10,7 +10,7 @@ applies_to:
 ms.assetid: 8aec5246-e411-4fb9-9790-2bcd94438038
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: annbe
 topic-status: Drafting
 ms.custom:
   - dyn365-socialengagement
@@ -42,18 +42,6 @@ For the United States, you can choose between two ways of grouping visualized da
 ## Sources that provide location data  
 
 A subset of available sources provides location data. Authors need to share their location information, so it can be processed by [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)].  
-
-  
-||Author location|Post location|  
-|-|---------------------|-------------------|  
-|[!INCLUDE[tn_twitter](../includes/tn-twitter.md)]|Yes|Yes|  
-|News|Yes|No|  
-|[!INCLUDE[tn_facebook](../includes/tn-facebook.md)]|No|No|  
-|Blogs|No|No|  
-|Videos|No|No|  
-|Forums|Yes|No|  
-|[!INCLUDE[tn_instagram](../includes/tn-instagram.md)]|No|Yes|  
-  
 ## Authors
 
 The normal view of this widget shows the top five authors and sources, based on the volume of posts and trend indicator. Select the **Full view** button ![Full view button](media/open-full-view-icon.png "Full view button") to expand the widget and find more details such as reach, source, and location for the 100 most-active authors and their posts.    
@@ -96,7 +84,6 @@ Visualizes the posts with location information on a map to find out where the po
 ## Phrases by country/region
 
 Lists the most-mentioned phrases coming from the five countries/regions with the most posts in the current data set.
-  
 
 ## Sentiment
 
