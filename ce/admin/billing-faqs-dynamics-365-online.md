@@ -100,7 +100,7 @@ In addition, you can now do a self-serve cancellation of your subscription from 
   
  You may be eligible for a billing credit if your online service level falls below 99.9% availability. For complete details, including a critical list of exclusions, see the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [Service Level Agreement](http://go.microsoft.com/fwlink/p/?LinkID=272903).  
   
- Submit a claim by contacting Billing support. To contact billing support, please refer to the [Billing support](../admin/billing-support.md) page.  
+ Submit a claim by contacting Billing support. To contact billing support, please refer to the [Contact information for billing support](../admin/contact-information-microsoft-dynamics-365-online-billing-support.md) page.  
   
 ## How do I apply for non-profit pricing?  
  Please refer to the [Non-profit pricing](https://www.microsoft.com/philanthropies/product-donations/products/dynamics-365) page for more information on how to apply.  
