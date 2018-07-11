@@ -54,12 +54,12 @@ and workarounds for Dynamics 365 for Marketing.
         were participating in, but they might continue to be included in other
         actions, such as tasks and workflows.
 
-    -   Insights (across journeys, emails and marketing pages) may take up to
+    -   Insights (across journeys, emails, and marketing pages) may take up to
         six hours to display.
 
     -   The Snapshot view generated for journeys might be missing some tiles.
     
-    -   The “checking for errors” operation triggered in the Customer Journey’s General tab results in a time-out. Users can continue   to “check for errors” from the designer tab.
+    -   The “checking for errors” operation triggered in the customer journey’s General tab results in a time-out. Users can continue   to “check for errors” from the Designer tab.
 
 -   Segmentation
 
