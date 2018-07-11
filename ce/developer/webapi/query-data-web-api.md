@@ -517,15 +517,15 @@ Preference-Applied: odata.include-annotations="*"
 
  Use the `$expand` system query option in the navigation properties to control what data from related entities is returned. There are two types of navigation properties:  
   
--   *Single-valued* navigation properties correspond to Lookup attributes that support many-to-one relationships and allow setting a reference to another entity.  
+- *Single-valued* navigation properties correspond to Lookup attributes that support many-to-one relationships and allow setting a reference to another entity.  
   
--   *Collection-valued* navigation properties correspond to one-to-many or many-to-many relationships.  
+- *Collection-valued* navigation properties correspond to one-to-many or many-to-many relationships.  
   
- If you include only the name of the navigation property, you’ll receive all the properties for related records. You can limit the properties returned for related records using the `$select` system query option in parentheses after the navigation property name. Use this for both single-valued and collection-valued navigation properties.  
+  If you include only the name of the navigation property, you’ll receive all the properties for related records. You can limit the properties returned for related records using the `$select` system query option in parentheses after the navigation property name. Use this for both single-valued and collection-valued navigation properties.  
   
 > [!NOTE]
 >  The capability to retrieve  related entities for entity sets was introduced in [!INCLUDE[pn_crm_8_1_0_online](../../includes/pn-crm-8-1-0-online.md)] and [!INCLUDE[pn_crm_8_1_0_op](../../includes/pn-crm-8-1-0-op.md)].  
->   
+> 
 >  To retrieve related entities for an entity instance, see [Retrieve related entities for an entity by expanding navigation properties](retrieve-entity-using-web-api.md#bkmk_expandRelated).  
   
 - **Retrieve related entities by expanding single-valued navigation properties**: The following example demonstrates how to retrieve the contact for all the account records. For the related contact records, we are only retrieving the contactid and fullname.  

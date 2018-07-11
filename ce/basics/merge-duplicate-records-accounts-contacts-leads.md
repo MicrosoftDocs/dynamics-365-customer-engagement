@@ -38,22 +38,22 @@ Duplicate records can creep into your data when you or others enter data manuall
   
 ## Merge duplicate records  
   
-1.  Select the duplicate records, and then click **Merge**.  
+1. Select the duplicate records, and then click **Merge**.  
   
- ![Merge records button in Dynamics 365](../basics/media/merge-contact-sbutton.png "Merge records button in Dynamics 365")  
+   ![Merge records button in Dynamics 365](../basics/media/merge-contact-sbutton.png "Merge records button in Dynamics 365")  
   
-2.  In the **Merge Records** dialog box, select the master record (the one you want to keep), and then select any fields in the new record that you want to merge into the master record. Data in these fields may override the existing data in the master record. Click **OK**.  
+2. In the **Merge Records** dialog box, select the master record (the one you want to keep), and then select any fields in the new record that you want to merge into the master record. Data in these fields may override the existing data in the master record. Click **OK**.  
   
- ![Dialog box for merging records in Dynamics 365](../basics/media/merge-records-dialog.png "Dialog box for merging records in Dynamics 365")  
+   ![Dialog box for merging records in Dynamics 365](../basics/media/merge-records-dialog.png "Dialog box for merging records in Dynamics 365")  
   
 > [!NOTE]
 >  There are three situations when duplicates may be found:  
->   
->  -   When a record is created or updated.  
-> -   When  you're using [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and you go from offline to online.  
-> -   When you import data using the Import Data wizard.  
->   
->  Duplicates aren't detected when you merge records, convert a lead, save an activity as completed, or change the status of a record, such as activating or reactivating a record.  
+> 
+> - When a record is created or updated.  
+>   - When  you're using [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and you go from offline to online.  
+>   - When you import data using the Import Data wizard.  
+> 
+>   Duplicates aren't detected when you merge records, convert a lead, save an activity as completed, or change the status of a record, such as activating or reactivating a record.  
   
 ## For system administrators  
  If you are a system administrator responsible for setting up and managing duplicate detection, see the following topics:  

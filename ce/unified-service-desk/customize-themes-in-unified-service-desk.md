@@ -82,58 +82,58 @@ Themes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk
   
  Let us create an action call to change the text in the title and the skin color of the agent application to Yellow. Make sure you have the DefaultStyle.xaml file handy as we will need it.  
   
-1.  Sign in to Microsoft Dynamics 365.  
+1. Sign in to Microsoft Dynamics 365.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
-3.  Click **Action Calls**.  
+3. Click **Action Calls**.  
   
-4.  Click **NEW** to create an action call.  
+4. Click **NEW** to create an action call.  
   
-5.  On the **New Action Call** page, set the general properties:  
+5. On the **New Action Call** page, set the general properties:  
   
-    1.  In the **Name** field, type **Action Call for Custom Display**.  
+   1.  In the **Name** field, type **Action Call for Custom Display**.  
   
-    2.  In the **Hosted Control** field, select **Dynamics 365 Global Manager**. If you have a different name for your Global Manager hosted control type, specify that name instead.  
+   2.  In the **Hosted Control** field, select **Dynamics 365 Global Manager**. If you have a different name for your Global Manager hosted control type, specify that name instead.  
   
-    3.  In the **Action** field, select **SetTheme**.  
+   3.  In the **Action** field, select **SetTheme**.  
   
-6.  Now, we will set the parameter for customizing the display. In the **Data** field, copy the following ResourceDictionary reference:  
+6. Now, we will set the parameter for customizing the display. In the **Data** field, copy the following ResourceDictionary reference:  
   
-    ```  
+   ```  
   
-    <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
-         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
-         xmlns:Microsoft_Windows_Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Classic"  
-         xmlns:themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Luna"  
-         xmlns:ribbon="clr-namespace:Microsoft.Windows.Controls.Ribbon;assembly=RibbonControlsLibrary"  
-         xmlns:classic="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Classic"  
-         xmlns:shell="clr-namespace:Microsoft.Windows.Shell;assembly=Microsoft.Windows.Shell"  
-         xmlns:system="clr-namespace:System;assembly=mscorlib">  
-    ```  
+   <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+        xmlns:Microsoft_Windows_Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Classic"  
+        xmlns:themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Luna"  
+        xmlns:ribbon="clr-namespace:Microsoft.Windows.Controls.Ribbon;assembly=RibbonControlsLibrary"  
+        xmlns:classic="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Classic"  
+        xmlns:shell="clr-namespace:Microsoft.Windows.Shell;assembly=Microsoft.Windows.Shell"  
+        xmlns:system="clr-namespace:System;assembly=mscorlib">  
+   ```  
   
-    > [!IMPORTANT]
-    >  This `ResourceDictionary` reference must be included in every action call that you use to customize the default style.  
+   > [!IMPORTANT]
+   >  This `ResourceDictionary` reference must be included in every action call that you use to customize the default style.  
   
-7.  Copy the following command in the **Data** field after the ResourceDictionary reference that you copied earlier.  
+7. Copy the following command in the **Data** field after the ResourceDictionary reference that you copied earlier.  
   
-    ```  
-    <SolidColorBrush x:Key="WindowBackgroundStyle" Color="Yellow"/>  
-    ```  
+   ```  
+   <SolidColorBrush x:Key="WindowBackgroundStyle" Color="Yellow"/>  
+   ```  
   
-     This will change the skin of the agent application to Yellow. You will find this command to set the background color in the `<!-- Region General -->` section in the `DefaultStyle.xaml` file.  
+    This will change the skin of the agent application to Yellow. You will find this command to set the background color in the `<!-- Region General -->` section in the `DefaultStyle.xaml` file.  
   
-8.  Copy the following command after the command that you copied in the previous step:  
+8. Copy the following command after the command that you copied in the previous step:  
   
-    ```  
-    <Style x:Key="MainWindow" TargetType="{x:Type Window}" BasedOn="{StaticResource {x:Type Window}}">  
-        <Setter Property="Title" Value="CUSTOM TITLE: Agent Application for CONTOSO INC."/>  
-        <Setter Property="Icon" Value="/UnifiedServiceDesk;component/imageResources/dynamics16-32-48-256.ico"/>  
-        <Setter Property="FontFamily" Value="Segoe UI" />  
-    </Style>  
-    ```  
+   ```  
+   <Style x:Key="MainWindow" TargetType="{x:Type Window}" BasedOn="{StaticResource {x:Type Window}}">  
+       <Setter Property="Title" Value="CUSTOM TITLE: Agent Application for CONTOSO INC."/>  
+       <Setter Property="Icon" Value="/UnifiedServiceDesk;component/imageResources/dynamics16-32-48-256.ico"/>  
+       <Setter Property="FontFamily" Value="Segoe UI" />  
+   </Style>  
+   ```  
   
-     This will change the text in the title bar to “CUSTOM TITLE: Agent Application for CONTOSO INC.”. You will find this command to set the Window title in the `<!-- Region Window --> section in the DefaultStyle.xaml file.`  
+    This will change the text in the title bar to “CUSTOM TITLE: Agent Application for CONTOSO INC.”. You will find this command to set the Window title in the `<!-- Region Window --> section in the DefaultStyle.xaml file.`  
   
 9. Close the ResourceDictionary tag by adding the following at the end of the **Data** field:  
   
@@ -143,29 +143,29 @@ Themes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk
   
      This is how your action call definition looks like:  
   
- ![Define action call for customizing display](../unified-service-desk/media/crm-itpro-usd-customizedisplay01.png "Define action call for customizing display")  
+   ![Define action call for customizing display](../unified-service-desk/media/crm-itpro-usd-customizedisplay01.png "Define action call for customizing display")  
   
 10. Click **Save**.  
   
- You are done, and now ready to test the action call in the agent application.  
+    You are done, and now ready to test the action call in the agent application.  
   
 <a name="Test"></a>   
 ## Test the action call for customizing your display  
  You can call this action call by creating a toolbar button, and then attaching the action call to it. For the sake of brevity, we will use the Debugger hosted application to test the action call.  
   
-1.  Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to your Dynamics 365 server.  
+1. Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to your Dynamics 365 server.  
   
-2.  In the client application, start Debugger by clicking down arrow next to the settings menu in the top-right corner, and clicking **Debug**.  
+2. In the client application, start Debugger by clicking down arrow next to the settings menu in the top-right corner, and clicking **Debug**.  
   
-3.  In Debugger, click the down arrow above the **Action Calls** tab to display the area where you can test action calls and UII actions.  
+3. In Debugger, click the down arrow above the **Action Calls** tab to display the area where you can test action calls and UII actions.  
   
- ![Test action calls & UII actions in debugger](../unified-service-desk/media/usd-customize-display-2.png "Test action calls & UII actions in debugger")  
+   ![Test action calls & UII actions in debugger](../unified-service-desk/media/usd-customize-display-2.png "Test action calls & UII actions in debugger")  
   
-4.  From the **Action Calls** drop-down list, select **Action Call for Custom Theme**, and click the **Run Action Call** icon (![USD debugger Run Action Call button](../unified-service-desk/media/usd-run-action-call-icon.png "USD debugger Run Action Call button")). The text in the title bar and skin color of the agent application change.  
+4. From the **Action Calls** drop-down list, select **Action Call for Custom Theme**, and click the **Run Action Call** icon (![USD debugger Run Action Call button](../unified-service-desk/media/usd-run-action-call-icon.png "USD debugger Run Action Call button")). The text in the title bar and skin color of the agent application change.  
   
- ![Customized display of the client application](../unified-service-desk/media/crm-itpro-usd-customizedisplay03.PNG "Customized display of the client application")  
+   ![Customized display of the client application](../unified-service-desk/media/crm-itpro-usd-customizedisplay03.PNG "Customized display of the client application")  
   
- To undo the changes, select one of the predefined themes in the client application.  
+   To undo the changes, select one of the predefined themes in the client application.  
   
 <a name="HighContrast"></a>   
 ## High-contrast mode support  for custom themes  

@@ -8,17 +8,17 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
+  - Dynamics 365 (online)
+  - Dynamics 365 (on-premises)
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
 ms.assetid: 47e0acb3-02a4-456e-9037-a4de82bfc405
 caps.latest.revision: 50
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "mduelae"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Track Outlook email by choosing a button in Dynamics 365 for Outlook 
 To get the most out of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)], it’s important to keep track of all your customer interactions, and email communications are key. Create a central repository of your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] email communications by “tracking” them in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. When you track an email message in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], the email is saved as an activity record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. Then you, or anyone who has access to your activity records, can view that email message along with all other customer activities in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], or on a mobile device.  
@@ -41,36 +41,36 @@ To get the most out of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm
 <a name="Track"></a>   
 ## Track an email message  
   
-1.  In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], select the email message you want to track.  
+1. In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], select the email message you want to track.  
   
-2.  Do one of the following:  
+2. Do one of the following:  
   
-    -   To track the email message without linking it to a particular record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], on the **Home** tab, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, click **Track**.  
+   - To track the email message without linking it to a particular record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], on the **Home** tab, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, click **Track**.  
   
-         -Or-  
+      -Or-  
   
-    -   To track the email message and link it to a particular record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], on the **Home** tab, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, click **Set Regarding**, click **More**, and then search for the record in the **Look Up Record** dialog box. After you find the record you want, click **Add**.  
+   - To track the email message and link it to a particular record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], on the **Home** tab, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, click **Set Regarding**, click **More**, and then search for the record in the **Look Up Record** dialog box. After you find the record you want, click **Add**.  
   
      When you click the **Track** button or the **Set Regarding** button, a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] pane (also known as the “tracking pane”) appears at the bottom of the email record. This pane shows that the record is tracked and provides links to related records. If you set a “regarding” record, the tracking pane also provides a link to that record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)  
   
      You can also tell that a record is tracked by looking in the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] folder. You’ll see the **Tracked in Dynamics 365** symbol ![Tracked in Dynamics 365 icon](../media/priv-biz-unit.gif "Tracked in Dynamics 365 icon") next to any tracked records.  
   
-3.  To modify the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] activity record (for example, to change the regarding record), open the email message in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], and then, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, click **View in Dynamics 365**.  
+3. To modify the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] activity record (for example, to change the regarding record), open the email message in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], and then, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, click **View in Dynamics 365**.  
   
 <a name="WhatElse"></a>   
 ## What else to I need to know about tracking email records?  
   
--   **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] address book**. The address book is installed automatically when [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is installed. This makes it possible to search for a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] contact from the **To** field of an email message or appointment when you create it. By default, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] only searches for contacts you own. You can set a personal option to broaden this search. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set address book options in Dynamics 365 for Outlook](set-address-book-options.md)  
+- **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] address book**. The address book is installed automatically when [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is installed. This makes it possible to search for a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] contact from the **To** field of an email message or appointment when you create it. By default, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] only searches for contacts you own. You can set a personal option to broaden this search. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set address book options in Dynamics 365 for Outlook](set-address-book-options.md)  
   
--   **Working offline**. Email messages you track when you’re offline are saved as activities when you go back online. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)  
+- **Working offline**. Email messages you track when you’re offline are saved as activities when you go back online. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)  
   
--   **Replies to tracked messages**. You can set whether replies to tracked messages are also tracked. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
+- **Replies to tracked messages**. You can set whether replies to tracked messages are also tracked. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
   
--   **Editing tracked email messages**. After an email message has been sent, you can’t edit it, but you can set or change a regarding record for it.  
+- **Editing tracked email messages**. After an email message has been sent, you can’t edit it, but you can set or change a regarding record for it.  
   
--   **Attachments**. Any tracked email message can be accessed by anyone who has permission to view your activities. If the email has attachments, the attachments are included in the activity. If you don’t want to make an attachment available, delete it from the email activity.  
+- **Attachments**. Any tracked email message can be accessed by anyone who has permission to view your activities. If the email has attachments, the attachments are included in the activity. If you don’t want to make an attachment available, delete it from the email activity.  
   
-     Your administrator can block messages from being saved if they contain attachments of specific file types, such as .exe files. Any messages stored in locations other than the default [!INCLUDE[pn_Microsoft_Exchange](../../includes/pn-microsoft-exchange.md)] location can’t be linked.  
+   Your administrator can block messages from being saved if they contain attachments of specific file types, such as .exe files. Any messages stored in locations other than the default [!INCLUDE[pn_Microsoft_Exchange](../../includes/pn-microsoft-exchange.md)] location can’t be linked.  
   
 ### See also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   

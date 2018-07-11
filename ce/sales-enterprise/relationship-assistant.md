@@ -36,9 +36,6 @@ Watch this short video about the Dynamics 365 Relationship assistant<br>
 
  The relationship assistant is designed to deliver the most important and relevant information in relation to what you are doing *right now*. The assistant works by analyzing all of the data at its disposal and generating a collection of action cards, each of which includes a message summarizing what the card is about, plus a set of links for taking action. The assistant sorts the cards by priority and filters them for your current context.  
 
- > [!NOTE]
- > The Relationship assistant control is not supported for custom dashboards on web client. 
-
  When you start your day by signing in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], the assistant draws your attention to your most important items and tasks, drawn from all areas of the application.  
   
  ![Relationship assistant carousel on a dashboard](../sales-enterprise/media/relationship-assistant-carousel-on-dashboard.png "Relationship assistant carousel on a dashboard")  
@@ -70,29 +67,29 @@ Action cards are made up of the following elements, as labeled in the figure:
 ## Enable and configure the action cards that are most helpful for you  
  You can customize the relationship assistant by choosing which types of action cards you'd like to see and, for some types of cards, by setting configuration options. To configure the relationship assistant:  
   
-1.  Open the relationship assistant settings by doing *one* of the following:  
+1. Open the relationship assistant settings by doing *one* of the following:  
   
-    -   Go to any page in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] where you can see action cards, and then select the **Customize** button ![Customize cards button in the relationship assistant](../sales-enterprise/media/customize-cards-shown-relationship-assistant.png "Customize cards button in the relationship assistant") in the upper-right corner of the card container.  
+   - Go to any page in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] where you can see action cards, and then select the **Customize** button ![Customize cards button in the relationship assistant](../sales-enterprise/media/customize-cards-shown-relationship-assistant.png "Customize cards button in the relationship assistant") in the upper-right corner of the card container.  
   
-    -   Select the **Settings** button ![Settings button on the nav bar](../sales-enterprise/media/settings--button-the-nav-bar.png "Settings button on the nav bar") on the nav bar, and then choose **Options** from the drop-down list. The **Set Personal Options** dialog opens, with its **General** tab active. Scroll to the bottom of the **General** tab, and then select on **Manage personal relationship assistant settings** link.  
+   - Select the **Settings** button ![Settings button on the nav bar](../sales-enterprise/media/settings--button-the-nav-bar.png "Settings button on the nav bar") on the nav bar, and then choose **Options** from the drop-down list. The **Set Personal Options** dialog opens, with its **General** tab active. Scroll to the bottom of the **General** tab, and then select on **Manage personal relationship assistant settings** link.  
   
-2.  The **Relationship assistant** settings pop-up window opens, showing a list of all the types of action cards that your administrator has made available on your site.  
+2. The **Relationship assistant** settings pop-up window opens, showing a list of all the types of action cards that your administrator has made available on your site.  
   
-    ![Relationship assistant settings window](../sales-enterprise/media/relationship-assistant-settings-window.png "Relationship assistant settings window")  
+   ![Relationship assistant settings window](../sales-enterprise/media/relationship-assistant-settings-window.png "Relationship assistant settings window")  
   
-     Work with these settings as follows:  
+    Work with these settings as follows:  
   
-    -   The cards are organized by category, each with its own section on the page. Expand or collapse each section to show or hide the list of card types for each category.  
+   - The cards are organized by category, each with its own section on the page. Expand or collapse each section to show or hide the list of card types for each category.  
   
-    -   Select the check box for each type of action card that you'd like to see. Clear the check box for card types that you don't want to see.  
+   - Select the check box for each type of action card that you'd like to see. Clear the check box for card types that you don't want to see.  
   
-    -   Some types of cards include additional settings, which are shown in to the right of the check box when available.  
+   - Some types of cards include additional settings, which are shown in to the right of the check box when available.  
   
-    -   If you are not sure what a listed card or its options do, then try hovering your mouse cursor over the preview button ![Action card preview button](media/action-card-preview-icon.png "Action card preview button") next to the card name see a short description of the card.  
+   - If you are not sure what a listed card or its options do, then try hovering your mouse cursor over the preview button ![Action card preview button](media/action-card-preview-icon.png "Action card preview button") next to the card name see a short description of the card.  
   
      For a complete description of all card types, including configuration settings where available, see [Action cards reference](../sales-enterprise/action-cards-reference.md)  
   
-3.  Select **Save** to save your settings and close the window.  
+3. Select **Save** to save your settings and close the window.  
   
 
 ## Privacy notice  

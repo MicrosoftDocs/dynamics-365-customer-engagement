@@ -1,6 +1,6 @@
 ---
 title: "retrieveMultipleRecords (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 11/10/2017
+ms.date: 05/24/2018
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -32,7 +32,7 @@ manager: "amyla"
 <td>entityLogicalName</td>
 <td>String</td>
 <td>Yes</td>
-<td>The entity logical name of the records you want to retrieve. For example: "account".</td>
+<td>The entity logical name of the records you want to retrieve. For example: &quot;account&quot;.</td>
 </tr>
 <tr>
 <td>options</td>
@@ -44,7 +44,7 @@ manager: "amyla"
 <li>To specify a FetchXML query, use the <code>fetchXml</code> attribute to specify the query.</li>
 </ul>
 <p>NOTE: You must always use the <b>$select</b> system query option to limit the properties returned for an entity record by including a comma-separated list of property names. This is an important performance best practice. If properties aren’t specified using <b>$select</b>, all properties will be returned.</li>
-<p>You specify the query options starting with <code>?</code>. You can also specify multiple system query options by using <code>&</code> to separate the query options.
+<p>You specify the query options starting with <code>?</code>. You can also specify multiple system query options by using <code>&amp;</code> to separate the query options.
 <p>See examples later in this topic to see how you can define the <code>options</code> parameter for various retrieve multiple scenarios.</td>
 </tr>
 <tr>
@@ -52,7 +52,7 @@ manager: "amyla"
 <td>Number</td>
 <td>No</td>
 <td><p>Specify a positive number that indicates the number of entity records to be returned per page. If you do not specify this parameter, the default value is passed as 5000.</p>
-<p>If the number of records being retrieved is more than the specified <b>maxPageSize</b> value, <code>nextLink</code> attribute in the returned promise object will contain a link to retrieve the next set of entities. </td>
+<p>If the number of records being retrieved is more than the specified <code>maxPageSize</code> value, <code>nextLink</code> attribute in the returned promise object will contain a link to retrieve the next set of entities. </td>
 </tr>
 <tr>
 <td>successCallback</td>
@@ -61,7 +61,7 @@ manager: "amyla"
 <td><p>A function to call when entity records are retrived. An object with the following attributes is passed to the function:</p>
 <ul>
 <li><b>entities</b>: An array of JSON objects, where each object represents the retrieved entity record containing attributes and their values as <code>key: value</code> pairs. The Id of the entity record is retrieved by default.</li>
-<li><b>nextLink</b>: String. If the number of records being retrieved is more than the value specified in the <b>maxPageSize</b> paramter, this attribute returns the URL to return next set of records.</li>
+<li><b>nextLink</b>: String. If the number of records being retrieved is more than the value specified in the <code>maxPageSize</code> parameter in the request, this attribute returns the URL to return next set of records.</li>
 </ul>
 </td>
 </tr>
@@ -75,7 +75,7 @@ manager: "amyla"
 
 ## Return Value
 
-On success, returns a promise that contains an array of JSON objects (**entities**) containing the retrieved entity records and the **nextLink** attribute (optional) with the URL pointing to next set of records in case paging (**maxPageSize**) is specified and the record count returned exceeds the paging value.
+On success, returns a promise that contains an array of JSON objects (**entities**) containing the retrieved entity records and the **nextLink** attribute (optional) with the URL pointing to next set of records in case paging (`maxPageSize`) is specified in the request, and the record count returned exceeds the paging value.
 
 ## Examples
 
@@ -102,7 +102,7 @@ Xrm.WebApi.retrieveMultipleRecords("account", "?$select=name&$top=3").then(
 
 ### Specify the number of entities to return in a page
 
-The following example demonstrates the use of the **maxPageSize** parameter to specify the number of records (3) to be displayed in a page.
+The following example demonstrates the use of the `maxPageSize` parameter to specify the number of records (3) to be displayed in a page.
 
 ```JavaScript
 Xrm.WebApi.retrieveMultipleRecords("account", "?$select=name", 3).then(

@@ -8,13 +8,13 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-author: "jimholtz"
+  - Dynamics 365 (online)
+  - Dynamics 365 (on-premises)
+author: "mduelae"
 ms.assetid: faa87829-895e-4799-a587-c52551a78415
 caps.latest.revision: 12
 ms.author: "mkaur"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Manage work orders, agreements, customer assets, and time off requests in Dynamics 365 for phones and tablets
 

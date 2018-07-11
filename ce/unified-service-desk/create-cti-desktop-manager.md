@@ -32,15 +32,15 @@ The CTI Desktop Manager component is the interface between the computer telephon
 ## Define a CTI Desktop Manager component  
  The CTI Desktop Manager implements the following interfaces:  
   
--   [ICtiAgentStateManager](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.ictiagentstatemanager)  
+- [ICtiAgentStateManager](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.ictiagentstatemanager)  
   
--   [ICtiCallStateManager](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.icticallstatemanager)  
+- [ICtiCallStateManager](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.icticallstatemanager)  
   
- You define a CTI Desktop Manager component in the same project as the one that you use for defining your CTI Connector using the **USD CTI Connector** project template. For more information about using this template, see [Create a CTI Connector](../unified-service-desk/create-cti-connector.md).  
+  You define a CTI Desktop Manager component in the same project as the one that you use for defining your CTI Connector using the **USD CTI Connector** project template. For more information about using this template, see [Create a CTI Connector](../unified-service-desk/create-cti-connector.md).  
   
- Use the BaseCtiDesktopManagerControl.cs file in the **USD CTI Connector** project template to configure your CTI Desktop Manager, and the AgentStateManager.cs and CallStateManager.cs files in to configure call and agent states. These files provide pre-wired methods and instructions (in the form of comments) to help you create a CTI Desktop Manager component.  
+  Use the BaseCtiDesktopManagerControl.cs file in the **USD CTI Connector** project template to configure your CTI Desktop Manager, and the AgentStateManager.cs and CallStateManager.cs files in to configure call and agent states. These files provide pre-wired methods and instructions (in the form of comments) to help you create a CTI Desktop Manager component.  
   
- ![Manage CTI Desktop Manager](../unified-service-desk/media/usd-manage-cti-desktop-manager.png "Manage CTI Desktop Manager")  
+  ![Manage CTI Desktop Manager](../unified-service-desk/media/usd-manage-cti-desktop-manager.png "Manage CTI Desktop Manager")  
   
 <a name="CustLookup"></a>   
 ## Raise a search request when a call arrives  
@@ -117,33 +117,33 @@ public override void OnCallStateChanged(CtiCoreEventArgs e)
 ## Configure CTI Desktop Manager hosted control in Unified Service Desk  
  After you have created the CTI Desktop Manager along with your CTI connector, you must configure these as hosted controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides a hosted control of type **CTI Desktop Manager**  that can be used to configure your CTI Desktop Manager in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. The CTI Connector should be configured as a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] hosted control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure a hosted control for CTI Connector in Unified Service Desk](../unified-service-desk/create-cti-connector.md#Configure)  
   
-1.  Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
-2.  On the nav bar, choose **Microsoft Dynamics 365** > **Settings** > **Unified Service Desk**.  
+2. On the nav bar, choose **Microsoft Dynamics 365** > **Settings** > **Unified Service Desk**.  
   
-3.  On the **Unified Service Desk** page, click **Hosted Controls**.  
+3. On the **Unified Service Desk** page, click **Hosted Controls**.  
   
-4.  On the **Hosted Controls** page, click **New**.  
+4. On the **Hosted Controls** page, click **New**.  
   
-5.  On the **New Hosted Control** page, specify the following values:  
+5. On the **New Hosted Control** page, specify the following values:  
   
-    |Field|Value|  
-    |-----------|-----------|  
-    |Name|Give name as per your choice.|  
-    |USD Component Type|CTI Desktop Manager|  
-    |Display Group|HiddenPanel|  
-    |Assembly URI|This is the name of your assembly (.dll) file that you built in the previous step.|  
-    |Assembly Type|This is the name of your assembly followed by a dot, and then the class name of your CTI Connector. For example, if your assembly name is MyCtiManager, and the name of the class of your CTI project is DesktopManager, then you must type the following in this field: MyCtiManager.DesktopManager.|  
+   |Field|Value|  
+   |-----------|-----------|  
+   |Name|Give name as per your choice.|  
+   |USD Component Type|CTI Desktop Manager|  
+   |Display Group|HiddenPanel|  
+   |Assembly URI|This is the name of your assembly (.dll) file that you built in the previous step.|  
+   |Assembly Type|This is the name of your assembly followed by a dot, and then the class name of your CTI Connector. For example, if your assembly name is MyCtiManager, and the name of the class of your CTI project is DesktopManager, then you must type the following in this field: MyCtiManager.DesktopManager.|  
   
- ![Configure a CTI Desktop Manager hosted control](../unified-service-desk/media/usd-cti-desktop-manager-hosted-control.png "Configure a CTI Desktop Manager hosted control")  
+   ![Configure a CTI Desktop Manager hosted control](../unified-service-desk/media/usd-cti-desktop-manager-hosted-control.png "Configure a CTI Desktop Manager hosted control")  
   
-6.  Click **Save** to create the hosted control.  
+6. Click **Save** to create the hosted control.  
   
 > [!IMPORTANT]
 >  After you have configured the CTI Desktop Manager hosted control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], you must configure:  
->   
->  -   Actions for your CTI Desktop Manager hosted control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Actions supported for telephony functions](../unified-service-desk/consideration-creating-cti-adapter-unified-service-desk.md#Actions)  
-> -   Window navigation rules to route the CTI search requests appropriately to create sessions and display the search results in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)][!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [CTI search](../unified-service-desk/consideration-creating-cti-adapter-unified-service-desk.md#CTISearch)  
+> 
+> - Actions for your CTI Desktop Manager hosted control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Actions supported for telephony functions](../unified-service-desk/consideration-creating-cti-adapter-unified-service-desk.md#Actions)  
+>   - Window navigation rules to route the CTI search requests appropriately to create sessions and display the search results in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)][!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [CTI search](../unified-service-desk/consideration-creating-cti-adapter-unified-service-desk.md#CTISearch)  
   
 ### See also  
  [Configure the CTI Desktop Manager hosted control for generic listener adapter](../unified-service-desk/use-generic-listener-adapter-unified-service-desk.md#Configure)   

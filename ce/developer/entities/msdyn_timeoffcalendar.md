@@ -630,6 +630,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_timeoffcalendar_SyncErrors"></a> msdyn_timeoffcalendar_SyncErrors
 
 Same as syncerror entity [msdyn_timeoffcalendar_SyncErrors](syncerror.md#BKMK_msdyn_timeoffcalendar_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -644,6 +645,7 @@ Same as syncerror entity [msdyn_timeoffcalendar_SyncErrors](syncerror.md#BKMK_ms
 ### <a name="BKMK_msdyn_timeoffcalendar_DuplicateMatchingRecord"></a> msdyn_timeoffcalendar_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_timeoffcalendar_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_timeoffcalendar_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -658,6 +660,7 @@ Same as duplicaterecord entity [msdyn_timeoffcalendar_DuplicateMatchingRecord](d
 ### <a name="BKMK_msdyn_timeoffcalendar_DuplicateBaseRecord"></a> msdyn_timeoffcalendar_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_timeoffcalendar_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_timeoffcalendar_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -672,6 +675,7 @@ Same as duplicaterecord entity [msdyn_timeoffcalendar_DuplicateBaseRecord](dupli
 ### <a name="BKMK_msdyn_timeoffcalendar_AsyncOperations"></a> msdyn_timeoffcalendar_AsyncOperations
 
 Same as asyncoperation entity [msdyn_timeoffcalendar_AsyncOperations](asyncoperation.md#BKMK_msdyn_timeoffcalendar_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -686,6 +690,7 @@ Same as asyncoperation entity [msdyn_timeoffcalendar_AsyncOperations](asyncopera
 ### <a name="BKMK_msdyn_timeoffcalendar_MailboxTrackingFolders"></a> msdyn_timeoffcalendar_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_timeoffcalendar_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_timeoffcalendar_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -700,6 +705,7 @@ Same as mailboxtrackingfolder entity [msdyn_timeoffcalendar_MailboxTrackingFolde
 ### <a name="BKMK_msdyn_timeoffcalendar_UserEntityInstanceDatas"></a> msdyn_timeoffcalendar_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_timeoffcalendar_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_timeoffcalendar_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -714,6 +720,7 @@ Same as userentityinstancedata entity [msdyn_timeoffcalendar_UserEntityInstanceD
 ### <a name="BKMK_msdyn_timeoffcalendar_ProcessSession"></a> msdyn_timeoffcalendar_ProcessSession
 
 Same as processsession entity [msdyn_timeoffcalendar_ProcessSession](processsession.md#BKMK_msdyn_timeoffcalendar_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -728,6 +735,7 @@ Same as processsession entity [msdyn_timeoffcalendar_ProcessSession](processsess
 ### <a name="BKMK_msdyn_timeoffcalendar_BulkDeleteFailures"></a> msdyn_timeoffcalendar_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_timeoffcalendar_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_timeoffcalendar_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -742,6 +750,7 @@ Same as bulkdeletefailure entity [msdyn_timeoffcalendar_BulkDeleteFailures](bulk
 ### <a name="BKMK_msdyn_timeoffcalendar_PrincipalObjectAttributeAccesses"></a> msdyn_timeoffcalendar_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_timeoffcalendar_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_timeoffcalendar_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

@@ -2,27 +2,27 @@
 # Each line is a file pattern followed by one or more owners.
 
 /ce/admin/                                    @jimholtz
-/ce/analytics/                                @matp
-/ce/common-scheduler/	                        @shelly-haverkamp
+/ce/analytics/                                @Mattp123
+/ce/common-scheduler/	                        @shellyhaverkamp
 /ce/company-news-timeline/                    @jimholtz
 /ce/customer-insights/	                      @jimholtz
-/ce/customer-service/                         @shelly-haverkamp
-/ce/customize/	                              @matp
+/ce/customer-service/                         @shubhadaj
+/ce/customize/	                              @Mattp123
 /ce/developer/	                              @JimDaly
-/ce/field-service/	                          @shelly-haverkamp
-/ce/gamification/	                            @saurabh-kudesia
+/ce/field-service/	                          @shellyhaverkamp
+/ce/gamification/	                            @shellyhaverkamp
 /ce/guidance/	                                @JimDaly	
-/ce/linkedin/	                                @saurabh-kudesia
-/ce/live-assist/	                            @shelly-haverkamp
-/ce/marketing/	                              @saurabh-kudesia
+/ce/linkedin/	                                @shellyhaverkamp
+/ce/live-assist/	                            @shellyhaverkamp
+/ce/marketing/	                              @shellyhaverkamp
 /ce/mobile-app/	                              @jimholtz
 /ce/outlook-app/	                            @jimholtz
-/ce/portals/	                                @saurabh-kudesia
-/ce/project-service/	                        @shelly-haverkamp
-/ce/sales-business/	                          @saurabh-kudesia
-/ce/sales-enterprise/	                        @saurabh-kudesia
+/ce/portals/	                                @shubhadaj
+/ce/project-service/	                        @shellyhaverkamp
+/ce/sales-enterprise/	                        @shubhadaj
 /ce/snippets/	                                @JimDaly
-/ce/social-engagement/	                      @saurabh-kudesia
-/ce/unified-service-desk/	                    @saurabh-kudesia
-/ce/voice-of-customer/	                      @saurabh-kudesia
+/ce/social-engagement/	                      @shellyhaverkamp
+/ce/unified-service-desk/	                    @shubhadaj
+/ce/voice-of-customer/	                      @shubhadaj
 /ce/marketing/developer/                      @KumarVivek
+/ce/admin/readme-9.md                         @ReneeW-CPub @almostdunh

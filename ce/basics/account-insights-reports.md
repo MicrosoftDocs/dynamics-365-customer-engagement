@@ -41,11 +41,11 @@ See which account generates the most revenue for your business. Then use the inf
 ## Account Overview report
 Get a one-page overview of everything that’s happening with an account. The report shows a profile of the account, contact information, and a summary of opportunities and case activities.  
   
--   For opportunities, the report shows charts with active opportunities grouped by the probability of the opportunities turning into a sale and the state the opportunities are currently in.  
+- For opportunities, the report shows charts with active opportunities grouped by the probability of the opportunities turning into a sale and the state the opportunities are currently in.  
   
--   For support cases, the report shows a chart with closed cases grouped by customer satisfaction level and also by the case status.  
+- For support cases, the report shows a chart with closed cases grouped by customer satisfaction level and also by the case status.  
   
- ![Account Distribution report in Dynamics 365 Customer Engagement](../basics/media/account-overview-report.png "Account Distribution report in Dynamics 365 Customer Engagement")  
+  ![Account Distribution report in Dynamics 365 Customer Engagement](../basics/media/account-overview-report.png "Account Distribution report in Dynamics 365 Customer Engagement")  
  
 <a name="BKMK_AccountSummary"></a>   
 ## Account Summary report

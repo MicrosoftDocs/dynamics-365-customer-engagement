@@ -3,7 +3,10 @@ title: "Track online behavior (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "A tutorial for how to enable online behavior analysis for website activity and external clicks in Dynamics 365 for Marketing"
 keywords: "tutorial; tracking; website; redirect URL; behavior analysis"
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,8 +17,6 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom:
-  - dyn365-marketing
 ---
 
 # Track website visits, social media clicks, and banner clicks
@@ -41,7 +42,7 @@ To set up page analytics for a new website:
 
 1. Go to **Marketing** &gt; **Internet Marketing** &gt; **Websites**. You now see a list of existing websites. Make sure you don't already have one set up for your site.
 
-1. On the command bar, select **New**. The **New Website** page opens.  
+2. On the command bar, select **New**. The **New Website** page opens.  
     ![The General Info tab for a new website](media/website-general-info.png "The General Info tab for a new website")
 
     Enter a **Name** to identify the website (or partial website) that you want to track. A **URL** and **[!INCLUDE[description](../includes/description.md)]** might help other users but won't affect the script or its functionality.
@@ -49,15 +50,15 @@ To set up page analytics for a new website:
     > [!TIP]
     > The **Timeout** setting enables closely grouped visits from a single browser to be recorded as a single session. A new session will start after this period of inactivity from a given browser. The default, 20 minutes, is usually a good value.
 
-1. On the command bar, select **Save**.
+3. On the command bar, select **Save**.
 
-1. The page saves your settings and then is reloaded to include code in the **[!INCLUDE[pn-jscript](../includes/pn-jscript.md)] code** field. Copy this code (be sure to select all of it) and share it with your webmaster to ensure it gets placed on each relevant page of your website.
+4. The page saves your settings and then is reloaded to include code in the **[!INCLUDE[pn-jscript](../includes/pn-jscript.md)] code** field. Copy this code (be sure to select all of it) and share it with your webmaster to ensure it gets placed on each relevant page of your website.
 
 To see your website analytics, go to **Marketing** &gt; **Internet Marketing** &gt; **Websites** and open the website you want to learn about. Here you'll find lists of most-visited pages, geographical information about where people who visit your site come from, and more. Explore the various tabs offered here for more details about how visitors are using your site. The [!INCLUDE[pn-jscript](../includes/pn-jscript.md)] code also remains available here in case you need to add it to more pages.
 
 > [!TIP]
 > Each marketing page that you publish from [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] automatically includes its own unique [!INCLUDE[pn-jscript](../includes/pn-jscript.md)] tracking code and therefore appears on the **Websites** list page as a discrete website. To view analytics of any of these pages, go to the **Websites** list view and open its **Marketing Pages Websites** view.
->
+> 
 > ![How to view marketing pages websites](media/website-view-menu.png "How to view marketing pages websites")
 
 ## Set up trackable links with redirect URLs and read results

@@ -3,7 +3,10 @@ title: "Export data (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to export data to a Microsoft Word or Excel document from Dynamics 365 for Marketing"
 keywords: "Word; Excel; export; template"
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,8 +17,6 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom:
-  - dyn365-marketing
 ---
 
 # Export [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] data to [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] or [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] docs
@@ -35,9 +36,9 @@ To export [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] data by us
 
 1. Open a record, such as a single contact, with information you want to use in your document.
 
-1. On the command bar, select **[!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates**, and then under **[!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates**, choose the template want to use. If you don't see the template you are looking for, consider the following:
-    - Only templates built for the selected record type (entity) will be displayed. For example, you won't see a template created for accounts when you are working with a contact.
-    - If you are looking for a brand-new template, you might need to refresh the page to see it. Either refresh your browser or close and reopen [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
+2. On the command bar, select **[!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates**, and then under **[!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates**, choose the template want to use. If you don't see the template you are looking for, consider the following:
+   - Only templates built for the selected record type (entity) will be displayed. For example, you won't see a template created for accounts when you are working with a contact.
+   - If you are looking for a brand-new template, you might need to refresh the page to see it. Either refresh your browser or close and reopen [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 
 After you select your [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] creates a [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] document from the record you selected.
 

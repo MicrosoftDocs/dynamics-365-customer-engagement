@@ -31,17 +31,17 @@ As of the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], D
 ### Can I move existing licenses from a direct purchase subscription to an enterprise agreement?  
  Yes. If you who purchased [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] with a credit card or through invoicing, you can move to an enterprise agreement by following these steps:  
   
-1.  Place an order through a Microsoft Licensing Solutions Partner for [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] licenses.  
+1. Place an order through a Microsoft Licensing Solutions Partner for [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] licenses.  
   
-    > [!IMPORTANT]
-    >  It is important to order (at minimum) the same number of licenses and add-ons that you currently have to ensure that you do not lose data. For example, if you have 50 Professional licenses, 3 additional production instances, and 5 GB of storage, be sure to order the same number of licenses and add-ons (or more).  
+   > [!IMPORTANT]
+   >  It is important to order (at minimum) the same number of licenses and add-ons that you currently have to ensure that you do not lose data. For example, if you have 50 Professional licenses, 3 additional production instances, and 5 GB of storage, be sure to order the same number of licenses and add-ons (or more).  
   
-2.  Once the order has been invoiced, the Online Service Manager (OSM) identified on the enterprise agreement will receive an activation email, which allows the OSM to sign in to the existing [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] account and associate the new licenses to it. The new order will pool with your existing licenses, but does not cancel the direct purchase subscription.  
+2. Once the order has been invoiced, the Online Service Manager (OSM) identified on the enterprise agreement will receive an activation email, which allows the OSM to sign in to the existing [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] account and associate the new licenses to it. The new order will pool with your existing licenses, but does not cancel the direct purchase subscription.  
   
-    > [!NOTE]
-    >  If the purchase was made on an enterprise agreement that already includes [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] licenses, for example [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] or [!INCLUDE[pn_intune](../includes/pn-intune.md)], then the [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] licenses will automatically attach to that [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] account and cannot be associated to your existing [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] account. If the licenses need to be separated, this requires a special amendment from your Microsoft Licensing Sales Specialist.  
+   > [!NOTE]
+   >  If the purchase was made on an enterprise agreement that already includes [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] licenses, for example [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] or [!INCLUDE[pn_intune](../includes/pn-intune.md)], then the [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] licenses will automatically attach to that [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] account and cannot be associated to your existing [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] account. If the licenses need to be separated, this requires a special amendment from your Microsoft Licensing Sales Specialist.  
   
-3.  To cancel the direct purchase subscription, open a Service Request through the Admin Portal to contact Billing Support and inform them that you have purchased a license through volume licensing and request them to cancel the direct purchase subscription. This step is required in order to discontinue the credit card or invoice billing.  
+3. To cancel the direct purchase subscription, open a Service Request through the Admin Portal to contact Billing Support and inform them that you have purchased a license through volume licensing and request them to cancel the direct purchase subscription. This step is required in order to discontinue the credit card or invoice billing.  
   
 ### How can I have the activation email resent?  
  The activation email is sent to the Online Services Manager (OSM), who is a participant identified on the enterprise agreement. If the activation email needs to be resent, call [Billing Support](billing-support.md) to make the request. Please be prepared to provide company information to verify personally identifiable information (PII).  

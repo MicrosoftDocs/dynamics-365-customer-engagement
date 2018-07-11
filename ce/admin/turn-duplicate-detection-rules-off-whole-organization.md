@@ -26,37 +26,37 @@ To maintain the integrity of your data, it’s a good idea to set up duplicate d
   
     Check your security role  
   
-    1. [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   1. [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    2.  Don’t have the correct permissions? Contact your system administrator.  
+   2. Don’t have the correct permissions? Contact your system administrator.  
   
 2. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
-3.  Choose **Duplicate Detection Settings**.  
+3. Choose **Duplicate Detection Settings**.  
   
-4.  Select or clear the **Enable duplicate detection** check box.  
+4. Select or clear the **Enable duplicate detection** check box.  
   
-    > [!NOTE]
-    >  If your system contains a large number of records, checking for duplicates can impact performance.  
+   > [!NOTE]
+   >  If your system contains a large number of records, checking for duplicates can impact performance.  
   
-5.  If you’re turning duplicate detection on, select or clear the check boxes to set when duplicates are detected:  
+5. If you’re turning duplicate detection on, select or clear the check boxes to set when duplicates are detected:  
   
-    - **When a record is created or updated**  
+   - **When a record is created or updated**  
   
-         The system checks for duplicates when a user enters or updates records.  
+        The system checks for duplicates when a user enters or updates records.  
   
-        > [!IMPORTANT]
-        >  Duplicates aren’t detected when a user merges two records, activates or deactivates a record, or saves a completed activity.  
+       > [!IMPORTANT]
+       >  Duplicates aren’t detected when a user merges two records, activates or deactivates a record, or saves a completed activity.  
   
-    - **When [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] goes from offline to online**  
+   - **When [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] goes from offline to online**  
   
-         For users of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)], the system detects duplicates when the user synchronizes their data after working offline, as long as users have enabled duplicate detection in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]. To enable duplicate detection in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)], choose **File > Dynamics 365 > Options**. Choose the **Local Data** tab, and then select the **Enable duplicate detection during offline to online synchronization** check box.  
+        For users of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)], the system detects duplicates when the user synchronizes their data after working offline, as long as users have enabled duplicate detection in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]. To enable duplicate detection in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)], choose **File > Dynamics 365 > Options**. Choose the **Local Data** tab, and then select the **Enable duplicate detection during offline to online synchronization** check box.  
   
-    - **During data import**  
+   - **During data import**  
   
-         When you use the Import Data wizard to bring in contacts, leads, accounts, or other types of data, the wizard detects any duplicate records as long as you enable duplicate detection in the wizard. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)  
+        When you use the Import Data wizard to bring in contacts, leads, accounts, or other types of data, the wizard detects any duplicate records as long as you enable duplicate detection in the wizard. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)  
   
-6.  Choose **OK**.  
+6. Choose **OK**.  
   
 ### See also  
  [Set up duplicate detection rules to keep your data clean](../admin/set-up-duplicate-detection-rules-keep-data-clean.md)   

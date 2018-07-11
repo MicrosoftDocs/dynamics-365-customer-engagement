@@ -28,9 +28,9 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
   
 - [!INCLUDE[pn_microsoft_visual_studio_2015](../../includes/pn-microsoft-visual-studio-2015.md)] installed on your development computer. Any edition, including [Visual Studio Express](https://www.visualstudio.com/products/visual-studio-express-vs.aspx), should be sufficient to work with the Dynamics 365 Web API.
   
--   A [!INCLUDE[tn_nuget](../../includes/tn-nuget.md)] client must be installed: either the command-line utility or the Visual Studio extension. For more information, see [Installing NuGet](https://docs.nuget.org/consume/installing-nuget).  
+- A [!INCLUDE[tn_nuget](../../includes/tn-nuget.md)] client must be installed: either the command-line utility or the Visual Studio extension. For more information, see [Installing NuGet](https://docs.nuget.org/consume/installing-nuget).  
   
--   An internet connection is required to download the [!INCLUDE[tn_nuget](../../includes/tn-nuget.md)] package containing the Dynamics 365 Web API Helper Library, and other dependent packages.
+- An internet connection is required to download the [!INCLUDE[tn_nuget](../../includes/tn-nuget.md)] package containing the Dynamics 365 Web API Helper Library, and other dependent packages.
   
 <a name="bkmk_createProject"></a>   
 ## Create a project  
@@ -39,19 +39,19 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
 <a name="bkmk_newProject"></a>   
 ### New Project  
   
-1.  In [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)], click **New Project**. The **New Project** dialog is displayed.  
+1. In [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)], click **New Project**. The **New Project** dialog is displayed.  
   
-2.  In the left navigation pane under **Templates**, select **Visual C#**.  
+2. In the left navigation pane under **Templates**, select **Visual C#**.  
   
-3.  Above the list of available templates, select **.NET Framework 4.5.2**.  
+3. Above the list of available templates, select **.NET Framework 4.5.2**.  
   
-4.  In the list of templates, select **Console Application**. (Alternately choose the project type suited to your solution.)  All of the Web API C# samples are console applications.  
+4. In the list of templates, select **Console Application**. (Alternately choose the project type suited to your solution.)  All of the Web API C# samples are console applications.  
   
- ![A new console app project dialog in Dynamics 365](../media/new-project.PNG "A new console app project dialog in Dynamics 365")  
+   ![A new console app project dialog in Dynamics 365](../media/new-project.PNG "A new console app project dialog in Dynamics 365")  
   
-5.  In the text boxes near the bottom of the form, supply the project name and location, and then select OK. (For this topic, the solution name “StartWebAPI-CS” was used.) The initial solution files will be generated and the solution loaded into [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)].  
+5. In the text boxes near the bottom of the form, supply the project name and location, and then select OK. (For this topic, the solution name “StartWebAPI-CS” was used.) The initial solution files will be generated and the solution loaded into [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)].  
   
-6.  Under the **Project** menu, open the project’s properties form and verify the target framework is set to **.NET Framework 4.5.2**.  
+6. Under the **Project** menu, open the project’s properties form and verify the target framework is set to **.NET Framework 4.5.2**.  
   
 <a name="bkmk_addAllRequiredResources"></a>   
 ### Add all required resources to your project  
@@ -62,33 +62,33 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
   
  If you have installed the NuGet command line utility or are using the Package Manager Console in Visual Studio:  
   
-1.  Issue the following command to install the helper library package.  
+1. Issue the following command to install the helper library package.  
   
-     `Install-Package Microsoft.CrmSdk.WebApi.Samples.HelperCode`  
+    `Install-Package Microsoft.CrmSdk.WebApi.Samples.HelperCode`  
   
-2.  Several messages are displayed about processing dependency packages. If a **License Acceptance** dialog is displayed, read the license terms and click **Accept**.  
+2. Several messages are displayed about processing dependency packages. If a **License Acceptance** dialog is displayed, read the license terms and click **Accept**.  
   
-3.  Skip to step 6 below to confirm the installation of the helper library package.  
+3. Skip to step 6 below to confirm the installation of the helper library package.  
   
- If you have installed the NuGet Package Manager extension:  
+   If you have installed the NuGet Package Manager extension:  
   
-1.  From the **Project** menu, select **Manage NuGet Packages**.  The **NuGet Package Manager** tab is displayed.  
+4. From the **Project** menu, select **Manage NuGet Packages**.  The **NuGet Package Manager** tab is displayed.  
   
-2.  In the upper right-hand corner, set the **Package** source drop-down to **Nuget.org**.  
+5. In the upper right-hand corner, set the **Package** source drop-down to **Nuget.org**.  
   
-3.  In the upper left-hand corner, click on **Browse** then enter “`Dynamics 365 HelperCode`” in the search box and press Enter.  
+6. In the upper left-hand corner, click on **Browse** then enter “`Dynamics 365 HelperCode`” in the search box and press Enter.  
   
- ![NuGet Package Manager showing Dynamics 365 Helper Code Library &#40;C&#35;&#41;](../media/package-manifest-helper-code.png "NuGet Package Manager showing Dynamics 365 Helper Code Library (C#)")  
+   ![NuGet Package Manager showing Dynamics 365 Helper Code Library &#40;C&#35;&#41;](../media/package-manifest-helper-code.png "NuGet Package Manager showing Dynamics 365 Helper Code Library (C#)")  
   
-4.  Click **Install**.  If the **Preview** dialog is displayed, click **OK**.  
+7. Click **Install**.  If the **Preview** dialog is displayed, click **OK**.  
   
-5.  The **License Acceptance** dialog is displayed. Review the license terms and click **I Accept**.  
+8. The **License Acceptance** dialog is displayed. Review the license terms and click **I Accept**.  
   
-6.  Navigate to the **Solution Explorer** window. Confirm that a new solution folder named **Web API Helper Code** was added.  
+9. Navigate to the **Solution Explorer** window. Confirm that a new solution folder named **Web API Helper Code** was added.  
   
- ![VS Solution Explorer showing helper library files](../media/solution-explorer-helper-code.PNG "VS Solution Explorer showing helper library files")  
+   ![VS Solution Explorer showing helper library files](../media/solution-explorer-helper-code.PNG "VS Solution Explorer showing helper library files")  
   
- The Dynamics 365 SDK Web API Helper Library package, [Microsoft.CrmSdk.WebApi.Samples.HelperCode](https://www.nuget.org/packages/Microsoft.CrmSdk.WebApi.Samples.HelperCode), depends upon the following other packages, which are automatically downloaded and installed alongside the helper library package:  
+   The Dynamics 365 SDK Web API Helper Library package, [Microsoft.CrmSdk.WebApi.Samples.HelperCode](https://www.nuget.org/packages/Microsoft.CrmSdk.WebApi.Samples.HelperCode), depends upon the following other packages, which are automatically downloaded and installed alongside the helper library package:  
   
 -   [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json) – contains [Json.NET](http://www.newtonsoft.com/json), a popular, MIT-licensed JSON framework for .NET.  
   
@@ -99,15 +99,15 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
   
 #### Verify the required assembly references  
   
-1.  In **Solution Explorer**, expand the **References** node.  
+1. In **Solution Explorer**, expand the **References** node.  
   
-2.  Confirm the at the following references have been added to the project.  
+2. Confirm the at the following references have been added to the project.  
   
- ![VS Solution Explorer showing references for the helper library](../media/solution-explorer-references-helper-code.png "VS Solution Explorer showing references for the helper library")  
+   ![VS Solution Explorer showing references for the helper library](../media/solution-explorer-references-helper-code.png "VS Solution Explorer showing references for the helper library")  
   
-3.  If you have additional functionality that you routinely use in your applications, you can add the associated references to the required assemblies now. For more information, see [How to: Add or Remove References by Using the Add Reference Dialog Box](https://msdn.microsoft.com/library/wkze6zky.aspx).  
+3. If you have additional functionality that you routinely use in your applications, you can add the associated references to the required assemblies now. For more information, see [How to: Add or Remove References by Using the Add Reference Dialog Box](https://msdn.microsoft.com/library/wkze6zky.aspx).  
   
- Because the Dynamics 365 Web API is based on REST principles, it does not require client-side assemblies to access.  However, other APIs supported by Dynamics 365 do require these; for more information, see [Assemblies included in Dynamics 365 Customer Engagement SDK](../org-service/assemblies-included-sdk.md).  
+   Because the Dynamics 365 Web API is based on REST principles, it does not require client-side assemblies to access.  However, other APIs supported by Dynamics 365 do require these; for more information, see [Assemblies included in Dynamics 365 Customer Engagement SDK](../org-service/assemblies-included-sdk.md).  
   
 #### Add typical using statements  
   

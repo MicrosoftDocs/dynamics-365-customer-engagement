@@ -2,7 +2,7 @@
 title: "Implement General Data Protection Regulations in Voice of the Customer for Dynamics 365 | MicrosoftDocs"
 description: "Learn how to implement General Data Protection Regulations in Voice of the Customer for Dynamics 365."
 keywords: "implement GDPR in Voice of the Customer,Voice of the Customer GDPR "
-ms.date: 05/10/2018
+ms.date: 05/22/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:

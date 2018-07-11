@@ -22,7 +22,7 @@ Virtual entities replace previous client-side and server-side approaches to inte
 This section discusses the implications of virtual entities for developers. For more information about managing virtual entities from the user interface, see [Create and edit virtual entities](../../customize/create-edit-virtual-entities.md). 
 
 ## Virtual entities, data providers and data sources
-A virtual entity is a definition of an entity in the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] platform metadata without the associated physical tables for entity instances created in the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] database. Instead during runtime, when an entity instance is required, its state is dynamically retrieved from the associated external system. Each virtual entity type is associated with a _virtual entity data provider_ and (optionally) some configuration information from an associated _virtual entity data source_. 
+A virtual entity is a definition of an entity in the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] platform metadata without the associated physical tables for entity instances created in the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] database. Instead during runtime, when an entity instance is required, its state is dynamically retrieved from the associated external system. Each virtual entity type is associated with a *virtual entity data provider* and (optionally) some configuration information from an associated *virtual entity data source*. 
 
 A data provider is a particular type of [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] [plugin](../plugin-development.md), which is registered against CRUD events that occur in the platform. This initial release only supports READ operations. 
 
@@ -42,10 +42,11 @@ In this release, there are some limitations to virtual entities that you need to
 - Data is read-only. The virtual entity feature doesn’t support pushing changes made in [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] back to the external system.
 - Only organization-owned entities are supported. The security filtering applied to user-owned entities is not supported. Access to the virtual entity data can be turned on or off for individual users based on their security role. Field-level security is not supported.
 - It must be possible to model the external data as a [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] entity. This means:
-    - All entities in the external data source must have an associated GUID primary key.  
-    - All entity properties must be represented as [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] attributes. You can use simple types representing text, numbers, optionsets, dates, images, and lookups. 
-    - You must be able to model any entity relationships in [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)].
-    - An attribute on a virtual entity cannot be calculated or rollup.  Any desired calculations must be done on the external side, possibly within or directed by the data provider.
+  - All entities in the external data source must have an associated GUID primary key.  
+  - All entity properties must be represented as [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] attributes. You can use simple types representing text, numbers, optionsets, dates, images, and lookups. 
+  - You must be able to model any entity relationships in [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)].
+  - An attribute on a virtual entity cannot be calculated or rollup.  Any desired calculations must be done on the external side, possibly within or directed by the data provider.
+
 - Auditing and change tracking is not supported.  These may be implemented within the external data store.
 - Virtual entities cannot be enabled for queues.
 - Offline caching of values is not supported for virtual entities.

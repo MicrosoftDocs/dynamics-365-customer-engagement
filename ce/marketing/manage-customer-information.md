@@ -3,7 +3,10 @@ title: "Work with contact, account, and lead records (Dynamics 365 for Marketing
 description: "How to find, create and use contact, account, and lead records in Dynamics 365 for Marketing"
 keywords: "contact; account; lead"
 ms.date: 04/25/2018
-ms.service: dynamics-365-marketing
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,8 +17,6 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom:
-  - dyn365-marketing
 ---
 
 # Manage information about your current and prospective customers
@@ -36,9 +37,10 @@ The contacts entity is common for and shared by most [!INCLUDE[pn-dynamics-365](
 
 - **Marketing source information**: The contact **Details** tab includes a section called **Marketing**, where you can see which marketing initiatives were responsible for generating that contact.
 - **Contact preferences**: The contact **Details** tab includes a section called **Contact preferences**, where you can see information about how that contact prefers to be contacted (or not contacted) by your organization. Important settings for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] here include:
-    - **Follow email**: Controls whether [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is permitted to collect email interaction results (such as open, click and forward) for the current contact. When set to **Do not allow**, no email results will be stored for this contact.
-    - **Bulk email**: Controls whether [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is permitted to send marketing email messages from customer journeys to this contact. When set to **Do not allow**, no marketing email messages will be sent to this contact. Contacts can adjust this setting themselves using a subscription center. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up subscription lists and subscription centers](set-up-subscription-center.md)
-    - **Pre-fill marketing form**: Controls whether [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is permitted to prefill form information (like name and email) on marketing pages for known contacts.  When set to **Do not allow**, all marketing pages (other than subscription centers) will present an empty form to this contact, even when the contact is recognized by the system. 
+  - **Follow email**: Controls whether [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is permitted to collect email interaction results (such as open, click and forward) for the current contact. When set to **Do not allow**, no email results will be stored for this contact.
+  - **Bulk email**: Controls whether [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is permitted to send marketing email messages from customer journeys to this contact. When set to **Do not allow**, no marketing email messages will be sent to this contact. Contacts can adjust this setting themselves using a subscription center. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up subscription lists and subscription centers](set-up-subscription-center.md)
+  - **Pre-fill marketing form**: Controls whether [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is permitted to prefill form information (like name and email) on marketing pages for known contacts.  When set to **Do not allow**, all marketing pages (other than subscription centers) will present an empty form to this contact, even when the contact is recognized by the system. 
+
 - **Data protection**: The contact **Details** tab includes a section called **Data protection**, where you can see and set the data-privacy consent level granted by this contact, and also see whether the contact is a child and, if so, who their parent or guardian is. For more information about these features, see [Data protection and the GDPR](gdpr.md).
 - **Event information**: Each contact record provides the following information about events the contact has registered for or attended:
     - The contact **Details** tab includes a section called **Event information**, where you can see basic information that was collected from the contact when they registered for an event.

@@ -3,7 +3,10 @@ title: "Event invitations, registrations, and hotel bookings (Dynamics 365 for M
 description: "After your event is set up, learn how to invite attendees, register attendees, and enter hotel bookings in Dynamics 365 for Marketing"
 keywords: "events; event management"
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,8 +17,6 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom:
-  - dyn365-marketing
 ---
 
 # Invite, register, and house event attendees
@@ -32,7 +33,7 @@ Each registration results in an event-registration record, which pulls together 
 
 After an attendee is registered for an event, they can then sign up for individual sessions at that event, provided they have the right pass. Each pass allows the purchaser to register for any or all sessions in the track associated with that pass, but it doesn't register the purchaser for any of those sessions. Passes with no track assigned allow access to all sessions. Each session page in the event portal provides a registration button to eligible users (it shows "not available" to others.) As with events, each session registration results in a session-registration record, which links an attendee's contact record and event registration to a session. As with event registration, each session registration also has a unique ID for which [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] automatically generates a QR code.
 
-You can register attendees manually, by creating or importing new event registrations, session registrations, and pass assignments directly in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], or attendees can register themselves by using your event portal. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Import data](business-management-settings.md#import-data)
+You can register attendees manually, by creating or importing new event registrations, session registrations, and pass assignments directly in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], or attendees can register themselves by using your event portal. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Import data](import-data.md)
 
 To view all current registrations and pass assignments, and to create them manually in the system, work in either of the following areas:
 

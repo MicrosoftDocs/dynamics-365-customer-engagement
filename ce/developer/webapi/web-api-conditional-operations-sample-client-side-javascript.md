@@ -29,9 +29,9 @@ This sample demonstrates how to perform conditional operations using [!INCLUDE[p
 ## Prerequisites  
  To run this sample, the following is required:  
   
--   Access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] online or on-premises version 8.0 or higher.  
+- Access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] online or on-premises version 8.0 or higher.  
   
--   A user account with privileges to import solutions and perform CRUD operations, typically a system administrator or system customizer security role.  
+- A user account with privileges to import solutions and perform CRUD operations, typically a system administrator or system customizer security role.  
   
 <a name="bkmk_runsample"></a>   
 ## Run this sample  

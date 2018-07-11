@@ -34,27 +34,27 @@ The *bulk deletion* feature helps you to maintain data quality and manage the co
   
  For example, you can delete the following data in bulk:  
   
--   Stale data.  
+- Stale data.  
   
--   Data that is irrelevant to the business.  
+- Data that is irrelevant to the business.  
   
--   Unneeded test or sample data.  
+- Unneeded test or sample data.  
   
--   Data that is incorrectly imported from other systems.  
+- Data that is incorrectly imported from other systems.  
   
- With bulk deletion you can perform the following operations:  
+  With bulk deletion you can perform the following operations:  
   
--   Delete data across multiple entities.  
+- Delete data across multiple entities.  
   
--   Delete records for a specified entity.  
+- Delete records for a specified entity.  
   
--   Receive email notifications when a bulk deletion finishes.  
+- Receive email notifications when a bulk deletion finishes.  
   
--   Delete data periodically.  
+- Delete data periodically.  
   
--   Schedule the start time of a recurring bulk delete.  
+- Schedule the start time of a recurring bulk delete.  
   
--   Retrieve the information about the failures that occurred during a bulk deletion.  
+- Retrieve the information about the failures that occurred during a bulk deletion.  
   
 ## In This Section  
  [Running Bulk Delete](run-bulk-delete.md)  

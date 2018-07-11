@@ -48,9 +48,9 @@ The administrator must enable auto capture before you can try it out. For comple
   
 4. **Private email label**: Private messages found by auto capture but not yet tracked in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] include this label to indicate their status.  
   
- Initially, the messages that auto capture finds are private for you, so other members of your sales team will not be able to see them in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Select the **Track** link to turn any auto capture message into a *tracked email message*, which copies the message into the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] database and makes it visible to other members of your team. Auto capture messages that don't include a **Track** link are already being tracked. It may take a few minutes for a message to go from untracked to tracked, during which time it will show a **Tracking pending** message.  
+   Initially, the messages that auto capture finds are private for you, so other members of your sales team will not be able to see them in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Select the **Track** link to turn any auto capture message into a *tracked email message*, which copies the message into the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] database and makes it visible to other members of your team. Auto capture messages that don't include a **Track** link are already being tracked. It may take a few minutes for a message to go from untracked to tracked, during which time it will show a **Tracking pending** message.  
   
- As with other types of email message tiles shown in the **Activities** list, click the tile to expand or collapse the message content.  
+   As with other types of email message tiles shown in the **Activities** list, click the tile to expand or collapse the message content.  
   
 > [!NOTE]
 >  Untracked messages do not indicate the send direction (in or out) or if they include an attachment. But once a message is tracked, both the direction and any attachments are indicated.  

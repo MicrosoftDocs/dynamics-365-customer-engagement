@@ -561,6 +561,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_transformationparametermapping"></a> userentityinstancedata_transformationparametermapping
 
 Same as userentityinstancedata entity [userentityinstancedata_transformationparametermapping](userentityinstancedata.md#BKMK_userentityinstancedata_transformationparametermapping) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -575,6 +576,7 @@ Same as userentityinstancedata entity [userentityinstancedata_transformationpara
 ### <a name="BKMK_LookUpMapping_TransformationParameterMapping"></a> LookUpMapping_TransformationParameterMapping
 
 Same as lookupmapping entity [LookUpMapping_TransformationParameterMapping](lookupmapping.md#BKMK_LookUpMapping_TransformationParameterMapping) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|lookupmapping|

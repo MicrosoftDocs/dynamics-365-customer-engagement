@@ -8,12 +8,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
-author: "jimholtz"
+  - Dynamics 365 (online)
+author: "mduelae"
 ms.assetid: 7f9d8425-f26c-43ac-bdc7-ff258977ff80
 caps.latest.revision: 141
-ms.author: "jimholtz"
-manager: "brycho"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Support for Dynamics 365 for phones and Dynamics 365 for tablets
 
@@ -76,9 +76,9 @@ Dynamics CRM for phones express is deprecated and will not connect to releases *
 ### Apple iPad  
 You can run the [!INCLUDE[pn_crm_for_ipad_shortest](../../../includes/pn-crm-for-ipad-shortest.md)] app on devices that meet the following requirements:    
   
--   Device: [!INCLUDE[tn_ipad](../../../includes/tn-ipad.md)] third generation or later  
+- Device: [!INCLUDE[tn_ipad](../../../includes/tn-ipad.md)] third generation or later  
   
--   Screen: 9-inch (diagonal) or larger  
+- Screen: 9-inch (diagonal) or larger  
  
 [Download Microsoft Dynamics 365 for iPad from the Apple Store](http://go.microsoft.com/fwlink/p/?LinkId=313327)
 

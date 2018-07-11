@@ -3,7 +3,10 @@ title: "Use suppression segments to implement unsubscribe requests in running jo
 description: "How to set and assign a suppression segment to ensure customer journeys in Dynamics 365 for Marketing implement unsubscribe requests"
 keywords: "customer journey; suppression segment; segment; subscriptions; unsubscribe"
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,8 +17,6 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom:
-  - dyn365-marketing
 ---
 
 # Use suppression segments to ensure running journeys will implement unsubscribe requests
@@ -53,37 +54,37 @@ Next, you must set up the suppression segment. This new segment will look for un
 
 1. Find the name of the subscription list your suppression segment should track (this is the list you set up in Step 1).
 
-1. Use the list name to find the unique ID for the list. Start by entering the following URL into your browser:  
+2. Use the list name to find the unique ID for the list. Start by entering the following URL into your browser:  
     ```clean
     https://<YourMarketingDomain>/api/data/v9.0/lists?$filter=listname%20eq%20%27<YourListName>%27&$select=listid
     ```
      Where:  
-    - &lt;YourMarketingDomain&gt; is the domain of your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance (such as contoso.crm10.dynamics.com).
-    - &lt;YourListName&gt; is the name of your subscription list. Be sure to apply URL encoding if your list name includes spaces or other special characters.
+   - &lt;YourMarketingDomain&gt; is the domain of your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance (such as contoso.crm10.dynamics.com).
+   - &lt;YourListName&gt; is the name of your subscription list. Be sure to apply URL encoding if your list name includes spaces or other special characters.
 
-1. After loading the URL, your browser displays text such as:  
+3. After loading the URL, your browser displays text such as:  
     ```clean
     {"@odata.context":"https://contoso.crm10.dynamics.com/api/data/v9.0/$metadata#lists(listid)","value":[{"@odata.etag":"W/\"1884167\"","listid":"e5ef57ea-0505-e811-a95a-000d3a135be0"}]}
     ```
     The unique ID is the value shown for "listid" in that text (e5ef57ea-0505-e811-a95a-000d3a135be0, in this example, without quotation marks). Keep the page open in your browser so you can copy this ID later.
 
-1. Open [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and go to **Marketing > Customers > Segments**.
+4. Open [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and go to **Marketing > Customers > Segments**.
 
-1. Select **New** on the command bar to create a new segment.
+5. Select **New** on the command bar to create a new segment.
 
-1. Give the new segment a suitable **Name** on the **General** tab and then open its **Definition** tab.  
+6. Give the new segment a suitable **Name** on the **General** tab and then open its **Definition** tab.  
     ![The segment designer](media/suppression-design1.png "The segment designer")
 
-1. Select the drop-down list currently showing a value of **All&ast;** and type "unsub" here. The list filters to find entries that include the text you typed, leaving just **Link between SegmentUnsubscribed interaction and contact**.  
+7. Select the drop-down list currently showing a value of **All&ast;** and type "unsub" here. The list filters to find entries that include the text you typed, leaving just **Link between SegmentUnsubscribed interaction and contact**.  
     ![Filtered contact options](media/suppression-design2.png "Filtered contact options")
 
-1. Select **Link between SegmentUnsubscribed interaction and contact** to apply it. This setting creates a query that finds _all_ contacts that have unsubscribed from _any_ of your lists. The page updates to show a new selection of drop-down lists.  
+8. Select **Link between SegmentUnsubscribed interaction and contact** to apply it. This setting creates a query that finds _all_ contacts that have unsubscribed from _any_ of your lists. The page updates to show a new selection of drop-down lists.  
     ![Updated designer view](media/suppression-design3.png "Updated designer view")
 
-1. From the new **Select profile or relationship** drop-down list, select **SegmentUnsubscribed**. Then complete the expression, working left to right, by selecting **SegmentId**, **is**, and then pasting in the unique ID you found at the start of this procedure (it should still be open in your browser).  
+9. From the new **Select profile or relationship** drop-down list, select **SegmentUnsubscribed**. Then complete the expression, working left to right, by selecting **SegmentId**, **is**, and then pasting in the unique ID you found at the start of this procedure (it should still be open in your browser).  
     ![The completed expression](media/suppression-design4.png "The completed expression")
 
-1. This query now finds _only_ those contacts that have unsubscribed from the list associated with the ID you entered. Select **Save** on the command bar to save your new segment.
+10. This query now finds _only_ those contacts that have unsubscribed from the list associated with the ID you entered. Select **Save** on the command bar to save your new segment.
 
 ## Step 3: Set up your customer journey
 
@@ -91,11 +92,11 @@ You now have all the segments you need, so you are ready to use them in your cus
 
 1. Go to **Marketing > Marketing Execution > Customer Journeys**, and then find or create a customer journey. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
 
-1. Start your journey pipeline with a segment-group tile in the first position and include a child segment tile that references your subscription segment from Step 1. This will target all subscribers. You can further limit the target segment, for example, by adding more segments and combining them using intersection merge logic, or by adding exclusion segments. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Segment tiles](customer-journey-tiles-reference.md#segment)
+2. Start your journey pipeline with a segment-group tile in the first position and include a child segment tile that references your subscription segment from Step 1. This will target all subscribers. You can further limit the target segment, for example, by adding more segments and combining them using intersection merge logic, or by adding exclusion segments. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Segment tiles](customer-journey-tiles-reference.md#segment)
 
-1. Continue to design your customer journey as needed by adding more tiles, or do it later.
+3. Continue to design your customer journey as needed by adding more tiles, or do it later.
 
-1. Go to the **General** tab and set the **Suppression segment** to the name of the segment you designed in Step 2.  
+4. Go to the **General** tab and set the **Suppression segment** to the name of the segment you designed in Step 2.  
     ![Location of the Suppression segment setting](media/suppression-design5.png "Location of the Suppression segment setting")
 
-1. Save your journey.
+5. Save your journey.

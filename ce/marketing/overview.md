@@ -3,7 +3,10 @@ title: "Overview (Dynamics 365 for Marketing)"
 description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 for Marketing"
 keywords: "features; benefits; overview"
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,8 +17,6 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom:
-  - dyn365-marketing
 ---
 
 # Overview (Marketing)
@@ -27,50 +28,49 @@ ms.custom:
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is a marketing-automation application that helps turn prospects into business relationships. The app is easy to use, works seamlessly with [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], and has built-in business intelligence. Use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to:
 
 - **Create graphical email messages and online content to support marketing initiatives**  
-Customizable templates for emails and landing pages help amplify your digital voice. Intuitive drag-and-drop design tools simplify content creation—from personalizing the message to setting up lead scoring.
+  Customizable templates for emails and landing pages help amplify your digital voice. Intuitive drag-and-drop design tools simplify content creation—from personalizing the message to setting up lead scoring.
 
 - **Design interactive customer journeys to nurture leads with personalized experiences**  
-Use the drag-and-drop journey designer to create an automated, multichannel campaign that sends personalized email messages, generates follow-up activities, launches workflows, and more. Each contact in the target group travels down a customized path that reacts to their interactions and identifies your best prospects. Easily track campaigns and analyze results to build profitable long-term relationships.
+  Use the drag-and-drop journey designer to create an automated, multichannel campaign that sends personalized email messages, generates follow-up activities, launches workflows, and more. Each contact in the target group travels down a customized path that reacts to their interactions and identifies your best prospects. Easily track campaigns and analyze results to build profitable long-term relationships.
 
 - **Tap into [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]'s business prospects**  
-Quickly target and connect with the right [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] audiences by importing leads generated with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]'s lead tools directly into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
+  Quickly target and connect with the right [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] audiences by importing leads generated with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]'s lead tools directly into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 
 - **Share information across teams**  
-Securely share information about leads and contacts across your business, and understand how every interaction affects your results. Connect sales and marketing processes to automate follow-ups and track the progress of every lead.
+  Securely share information about leads and contacts across your business, and understand how every interaction affects your results. Connect sales and marketing processes to automate follow-ups and track the progress of every lead.
 
 - **Know your leads better**  
-Develop a deeper understanding of your market with a 360-degree view of every lead and customer. Connected processes and a single source of information ensure that both sales and marketing have the latest data, including key contacts, recent activities, past purchases, and open opportunities.
+  Develop a deeper understanding of your market with a 360-degree view of every lead and customer. Connected processes and a single source of information ensure that both sales and marketing have the latest data, including key contacts, recent activities, past purchases, and open opportunities.
 
 - **Organize and publicize events**  
-Keep all the information about your event venues, logistics, ticketing, sessions, speakers, sponsors, and more in one place so your whole team can coordinate while working on them. Then generate an online event portal where attendees can review event information and register online. Integrate your events into your marketing email messages and customer journeys to help get the word out.
+  Keep all the information about your event venues, logistics, ticketing, sessions, speakers, sponsors, and more in one place so your whole team can coordinate while working on them. Then generate an online event portal where attendees can review event information and register online. Integrate your events into your marketing email messages and customer journeys to help get the word out.
 
 - **Analyze and document your marketing return on investment (MROI)**  
-Use dashboards and reports to track the performance of your marketing initiatives, and to identify your best lead sources and marketing activities. Bring together sales and marketing results to track and increase their impact on your business.
+  Use dashboards and reports to track the performance of your marketing initiatives, and to identify your best lead sources and marketing activities. Bring together sales and marketing results to track and increase their impact on your business.
 
 - **Prioritize leads for more wins**  
-Set up automated lead-scoring rules that automatically identify your hottest leads based on how they interact with your events and customer journeys. As soon as a lead meets an agreed-on sales-ready score, the system automatically routes it to a salesperson to follow up while the lead's still hot. Route the most promising leads to sales when they reach an agreed-on sales-ready grade.
+  Set up automated lead-scoring rules that automatically identify your hottest leads based on how they interact with your events and customer journeys. As soon as a lead meets an agreed-on sales-ready score, the system automatically routes it to a salesperson to follow up while the lead's still hot. Route the most promising leads to sales when they reach an agreed-on sales-ready grade.
 
 - **Make survey results more actionable**  
-Easy-to-create surveys make it simple to gather actionable feedback from customers. Understand individual customer needs and expectations so you can grow relationships and revenue.
+  Easy-to-create surveys make it simple to gather actionable feedback from customers. Understand individual customer needs and expectations so you can grow relationships and revenue.
 
 - **Configure and expand the application**  
-Customize the application to fit your specific business needs. Make basic customizations by using tools built right into the app. Expand its capabilities and add new features by installing third-party packages from our thriving marketplace—[!INCLUDE[sdk-dynamics-marketplace](../includes/sdk-dynamics-marketplace.md)]. And it's easy to connect with [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] partners to get expert help. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app is built on the same platform and database as the sales app, so both teams share the same records, and customizers can leverage their existing knowledge when adding custom features.
+  Customize the application to fit your specific business needs. Make basic customizations by using tools built right into the app. Expand its capabilities and add new features by installing third-party packages from our thriving marketplace—[!INCLUDE[sdk-dynamics-marketplace](../includes/sdk-dynamics-marketplace.md)]. And it's easy to connect with [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] partners to get expert help. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app is built on the same platform and database as the sales app, so both teams share the same records, and customizers can leverage their existing knowledge when adding custom features.
 
 ## Included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes a bundle of apps and solutions carefully selected to support marketing departments and coordinate with sales. Some of these apps and solutions are also available as bundles or add-ons with other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] products, while others are only available as part of the marketing package. The following are included:
 - **Core marketing**  
-Provides email marketing, customer journeys, behavior tracking, lead scoring, marketing pages, and more. These features form the core of the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app and are unique to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+  Provides email marketing, customer journeys, behavior tracking, lead scoring, marketing pages, and more. These features form the core of the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app and are unique to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 - **Event management**  
-Organize and promote in-person or webinar events, which include an online portal that attendees can use to review the event schedule and speakers, and to register for the event. This feature is currently available only with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+  Organize and promote in-person or webinar events, which include an online portal that attendees can use to review the event schedule and speakers, and to register for the event. This feature is currently available only with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 - **Voice of the Customer**  
-Create online surveys and analyze the results. This feature is bundled with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, but is also available separately as an add-on for other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] products.
+  Create online surveys and analyze the results. This feature is bundled with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, but is also available separately as an add-on for other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] products.
 - **[!INCLUDE[cc-linkedin-solution](../includes/cc-linkedin-solution.md)]**  
-Import leads generated with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]'s lead tools into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. This feature is bundled with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, but is also available separately as an add-on for other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] products.
+  Import leads generated with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]'s lead tools into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. This feature is bundled with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, but is also available separately as an add-on for other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] products.
 - **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Portals**  
-The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app uses [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals to publish its event, marketing pages, and online surveys. The portals feature is bundled with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, but is also available separately as an add-on for other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] products. A ready-to-use, feature-rich event portal is also included, and is unique to the event-management feature.
-- **[!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)]**  
-Better understand and engage with customers by gaining detailed insights through intelligent customer analytics. Set up target segments for your customer journeys based on dynamic or fixed criteria, and incorporate customer analytics into your lead-scoring strategies. [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] charts and widgets measure the health and quality of each lead with metrics such as lead age, lead interaction timeline, lead qualification progression, and more.
+  The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app uses [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals to publish its event, marketing pages, and online surveys. The portals feature is bundled with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, but is also available separately as an add-on for other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] products. A ready-to-use, feature-rich event portal is also included, and is unique to the event-management feature.
+
 
 All these features are fully integrated and work together to create a comprehensive marketing solution.
 
@@ -173,9 +173,9 @@ Key event-management features include:
 - Reviewing the attendance history of each contact, including events and sessions attended
 - Voice of the Customer survey integration
 - Publishing a fully functioning event portal with:
-    - Self-service attendee registration
-    - Important details about all published events, including event name, venue, passes, session schedule, and speakers
-    - All information drawn directly from your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] event-planning records, with updates automatically reflected on the portal
+  - Self-service attendee registration
+  - Important details about all published events, including event name, venue, passes, session schedule, and speakers
+  - All information drawn directly from your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] event-planning records, with updates automatically reflected on the portal
 
 To create, view, and edit your events and all event-related records, go to the **Events** work area of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], where you can create a new event and, working from this single event record, add most of the other types of records and information that you need to plan, publish, promote, and analyze it. Like many types of records in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], the event record provides a customizable business process workflow that helps guide users through each step of the process.
 
@@ -196,7 +196,7 @@ Key lead-management features include:
 - **Generate leads across multiple channels**  
     Create multichannel customer journeys to attract the best leads from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)], email, web landing pages, events, webinars, and more. Easily import marketing lists by using familiar tools such as [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)].
 - **Lead nurturing**  
-    Apply [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)], and implement automated customer journeys to nurture leads by delivering highly relevant, perfectly timed messages and personalized experiences.
+    Apply insights and implement automated customer journeys to nurture leads by delivering highly relevant, perfectly timed messages and personalized experiences.
 - **Lead qualification**  
     Use business process flows to guide each lead through the lead-generation demand waterfall model, from discovery, through nurturing, and on to qualification and close.
 - **Lead scoring**  
@@ -210,8 +210,8 @@ Key lead-management features include:
 - **Analysis and insights**  
     Evaluate the success of your marketing initiatives, and apply lessons learned to your future campaigns, by using rich analytic tools, including:
     - Demand-generation dashboards that measure conversion, volume, velocity, and more
-    - [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] charts and widgets that measure the effectiveness of lead scoring models by calculating metrics such as total leads scored over time, sales readiness distribution per model, and more.
-    - [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] charts and widgets that measure the health and quality of each lead by using metrics such as lead age, lead interaction timeline, lead qualification progression, and more.
+    - Charts and widgets that measure the effectiveness of lead scoring models by calculating metrics such as total leads scored over time, sales readiness distribution per model, and more.
+    - Charts and widgets that measure the health and quality of each lead by using metrics such as lead age, lead interaction timeline, lead qualification progression, and more.
 
 When creating or editing a rule, you'll assemble its logic by using a drag-and-drop rule designer. Each rule has a condition (which establishes a certain property or event) and an action (which establishes how the score for a lead that meets the condition will be adjusted).
 

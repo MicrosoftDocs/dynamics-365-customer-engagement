@@ -3,7 +3,10 @@ title: "Manage image files (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "A tutorial for how to manage keywords and upload images to the file library in Dynamics 365 for Marketing"
 keywords: "tutorial; keywords; images; files; upload; library"
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,15 +17,13 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom:
-  - dyn365-marketing
 ---
 
 # Manage images for landing pages and email messages
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-In [Create a marketing email and go live](create-marketing-email.md), you saw how to upload an image while adding it to an email message. You can use similar techniques to add images to your marketing page designs too. But you can also establish a library of images (and other files) that users can include in their designs. Your library will typically include brand-identity graphics such as logos, product images, and clip art.
+In [Create a marketing email and go live](create-marketing-email.md), you saw how to upload an image while adding it to an email message, and you can use similar techniques to add images to your marketing page designs. Another way to make images (and other files) available in [!INCLUDE[!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] is to upload them directly to the file library, which is shared by all users. Your library will typically include brand-identity graphics such as logos, product images, and clip art.
 
 Here are some best practices for working with images for your marketing materials:
 
@@ -50,20 +51,20 @@ To view and edit your image library:
 
 1. Go to **Marketing** &gt; **Internet Marketing** &gt; **Files**. You now see a list of all existing images and files. Choose any row in the table here to view information about the file and edit its settings (including keywords).
 
-1. On the command bar, select **New** to upload a new file. The **Upload Files** dialog box opens.
+2. On the command bar, select **New** to upload a new file. The **Upload Files** dialog box opens.
 
-1. Either drag a file from File Explorer to this dialog box or choose **browse** to locate and choose an image by using a file browser window.  
+3. Either drag a file from File Explorer to this dialog box or choose **browse** to locate and choose an image by using a file browser window.  
     ![The Upload Files dialog](media/files-upload.png "The Upload Files dialog box")
 
-1. While working here, you can:
+4. While working here, you can:
     - Drag several images to add more than one image at a time.
     - Apply keywords to each image by using the **Add Keywords** drop-down list.
     - Remove a keyword from an image by selecting the close button **(X)** for the keyword.
     - Remove an image by selecting its close button **(X)** on the right (also an X).
 
-1. Select **Save** to upload your images to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+5. Select **Save** to upload your images to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-1. If you want to edit the display name for an image, go back to **Marketing** &gt; **Internet Marketing** &gt; **Files**.
+6. If you want to edit the display name for an image, go back to **Marketing** &gt; **Internet Marketing** &gt; **Files**.
 
 ### See also
 

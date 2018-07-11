@@ -21,12 +21,12 @@ Each item represents one of the available navigation options available in the na
 
 ## Navigation item methods
 
-|Name|Description|
-|--|--|
-|[getId](formContext-ui-navigation/getId.md)|[!INCLUDE[formContext-ui-navigation/includes/getId-description.md](formContext-ui-navigation/includes/getId-description.md)]|
-|[getLabel](formContext-ui-navigation/getLabel.md)|[!INCLUDE[formContext-ui-navigation/includes/getLabel-description.md](formContext-ui-navigation/includes/getLabel-description.md)]|
-|[getVisible](formContext-ui-navigation/getVisible.md)|[!INCLUDE[formContext-ui-navigation/includes/getVisible-description.md](formContext-ui-navigation/includes/getVisible-description.md)]|
-|[setFocus](formContext-ui-navigation/setFocus.md)|[!INCLUDE[formContext-ui-navigation/includes/setFocus-description.md](formContext-ui-navigation/includes/setFocus-description.md)]|
-|[setLabel](formContext-ui-navigation/setLabel.md)|[!INCLUDE[formContext-ui-navigation/includes/setLabel-description.md](formContext-ui-navigation/includes/setLabel-description.md)]|
-|[setVisible](formContext-ui-navigation/setVisible.md)|[!INCLUDE[formContext-ui-navigation/includes/setVisible-description.md](formContext-ui-navigation/includes/setVisible-description.md)]|
+|                         Name                          |                                                              Description                                                               |
+|-------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+|      [getId](formContext-ui-navigation/getId.md)      |      [!INCLUDE[formContext-ui-navigation/includes/getId-description.md](formContext-ui-navigation/includes/getId-description.md)]      |
+|   [getLabel](formContext-ui-navigation/getLabel.md)   |   [!INCLUDE[formContext-ui-navigation/includes/getLabel-description.md](formContext-ui-navigation/includes/getLabel-description.md)]   |
+| [getVisible](formContext-ui-navigation/getVisible.md) | [!INCLUDE[formContext-ui-navigation/includes/getVisible-description.md](formContext-ui-navigation/includes/getVisible-description.md)] |
+|   [setFocus](formContext-ui-navigation/setFocus.md)   |   [!INCLUDE[formContext-ui-navigation/includes/setFocus-description.md](formContext-ui-navigation/includes/setFocus-description.md)]   |
+|   [setLabel](formContext-ui-navigation/setLabel.md)   |   [!INCLUDE[formContext-ui-navigation/includes/setLabel-description.md](formContext-ui-navigation/includes/setLabel-description.md)]   |
+| [setVisible](formContext-ui-navigation/setVisible.md) | [!INCLUDE[formContext-ui-navigation/includes/setVisible-description.md](formContext-ui-navigation/includes/setVisible-description.md)] |
 

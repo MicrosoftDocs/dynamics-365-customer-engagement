@@ -44,15 +44,15 @@ In this step, you’ll also indicate what type of resource allocation you want:
  
 To set project parameters:  
   
-1.  Go to **Project Service > Parameters**.  
+1. Go to **Project Service > Parameters**.  
   
-2.  Click the parameters setting you want to configure (the one you created when you first installed [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]), or click **New** to create a new one.  
+2. Click the parameters setting you want to configure (the one you created when you first installed [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]), or click **New** to create a new one.  
   
-3.  In the **General** area, set all the options for your project parameters.  
+3. In the **General** area, set all the options for your project parameters.  
   
-4.  In the **Price List** area, click **+** to add a price list, select a price list in the **Project Parameter Price List** drop-down list, and then click **Save**.  
+4. In the **Price List** area, click **+** to add a price list, select a price list in the **Project Parameter Price List** drop-down list, and then click **Save**.  
   
-5.  Click the **Save** button in the bottom right corner of the screen.  
+5. Click the **Save** button in the bottom right corner of the screen.  
   
 ### See Also  
  [Set up resources](../project-service/set-up-resources.md)

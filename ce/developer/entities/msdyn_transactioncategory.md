@@ -610,6 +610,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_transactioncategory_SyncErrors"></a> msdyn_transactioncategory_SyncErrors
 
 Same as syncerror entity [msdyn_transactioncategory_SyncErrors](syncerror.md#BKMK_msdyn_transactioncategory_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -624,6 +625,7 @@ Same as syncerror entity [msdyn_transactioncategory_SyncErrors](syncerror.md#BKM
 ### <a name="BKMK_msdyn_transactioncategory_DuplicateMatchingRecord"></a> msdyn_transactioncategory_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_transactioncategory_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_transactioncategory_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -638,6 +640,7 @@ Same as duplicaterecord entity [msdyn_transactioncategory_DuplicateMatchingRecor
 ### <a name="BKMK_msdyn_transactioncategory_DuplicateBaseRecord"></a> msdyn_transactioncategory_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_transactioncategory_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_transactioncategory_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -652,6 +655,7 @@ Same as duplicaterecord entity [msdyn_transactioncategory_DuplicateBaseRecord](d
 ### <a name="BKMK_msdyn_transactioncategory_AsyncOperations"></a> msdyn_transactioncategory_AsyncOperations
 
 Same as asyncoperation entity [msdyn_transactioncategory_AsyncOperations](asyncoperation.md#BKMK_msdyn_transactioncategory_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -666,6 +670,7 @@ Same as asyncoperation entity [msdyn_transactioncategory_AsyncOperations](asynco
 ### <a name="BKMK_msdyn_transactioncategory_MailboxTrackingFolders"></a> msdyn_transactioncategory_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_transactioncategory_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_transactioncategory_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -680,6 +685,7 @@ Same as mailboxtrackingfolder entity [msdyn_transactioncategory_MailboxTrackingF
 ### <a name="BKMK_msdyn_transactioncategory_UserEntityInstanceDatas"></a> msdyn_transactioncategory_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_transactioncategory_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_transactioncategory_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -694,6 +700,7 @@ Same as userentityinstancedata entity [msdyn_transactioncategory_UserEntityInsta
 ### <a name="BKMK_msdyn_transactioncategory_ProcessSession"></a> msdyn_transactioncategory_ProcessSession
 
 Same as processsession entity [msdyn_transactioncategory_ProcessSession](processsession.md#BKMK_msdyn_transactioncategory_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -708,6 +715,7 @@ Same as processsession entity [msdyn_transactioncategory_ProcessSession](process
 ### <a name="BKMK_msdyn_transactioncategory_BulkDeleteFailures"></a> msdyn_transactioncategory_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_transactioncategory_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_transactioncategory_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -722,6 +730,7 @@ Same as bulkdeletefailure entity [msdyn_transactioncategory_BulkDeleteFailures](
 ### <a name="BKMK_msdyn_transactioncategory_PrincipalObjectAttributeAccesses"></a> msdyn_transactioncategory_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_transactioncategory_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_transactioncategory_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -736,6 +745,7 @@ Same as principalobjectattributeaccess entity [msdyn_transactioncategory_Princip
 ### <a name="BKMK_msdyn_transactioncategory_Annotations"></a> msdyn_transactioncategory_Annotations
 
 Same as annotation entity [msdyn_transactioncategory_Annotations](annotation.md#BKMK_msdyn_transactioncategory_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -750,6 +760,7 @@ Same as annotation entity [msdyn_transactioncategory_Annotations](annotation.md#
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_bookableresourcecategory_TransactionCategory"></a> msdyn_msdyn_transactioncategory_bookableresourcecategory_TransactionCategory
 
 Same as bookableresourcecategory entity [msdyn_msdyn_transactioncategory_bookableresourcecategory_TransactionCategory](bookableresourcecategory.md#BKMK_msdyn_msdyn_transactioncategory_bookableresourcecategory_TransactionCategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcecategory|
@@ -764,6 +775,7 @@ Same as bookableresourcecategory entity [msdyn_msdyn_transactioncategory_bookabl
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_msdyn_actual_TransactionCategory"></a> msdyn_msdyn_transactioncategory_msdyn_actual_TransactionCategory
 
 Same as msdyn_actual entity [msdyn_msdyn_transactioncategory_msdyn_actual_TransactionCategory](msdyn_actual.md#BKMK_msdyn_msdyn_transactioncategory_msdyn_actual_TransactionCategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_actual|
@@ -778,6 +790,7 @@ Same as msdyn_actual entity [msdyn_msdyn_transactioncategory_msdyn_actual_Transa
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_msdyn_estimateline_TransactionCategory"></a> msdyn_msdyn_transactioncategory_msdyn_estimateline_TransactionCategory
 
 Same as msdyn_estimateline entity [msdyn_msdyn_transactioncategory_msdyn_estimateline_TransactionCategory](msdyn_estimateline.md#BKMK_msdyn_msdyn_transactioncategory_msdyn_estimateline_TransactionCategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_estimateline|
@@ -792,6 +805,7 @@ Same as msdyn_estimateline entity [msdyn_msdyn_transactioncategory_msdyn_estimat
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_msdyn_expensecatego"></a> msdyn_msdyn_transactioncategory_msdyn_expensecatego
 
 Same as msdyn_expensecategory entity [msdyn_msdyn_transactioncategory_msdyn_expensecatego](msdyn_expensecategory.md#BKMK_msdyn_msdyn_transactioncategory_msdyn_expensecatego) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_expensecategory|
@@ -806,6 +820,7 @@ Same as msdyn_expensecategory entity [msdyn_msdyn_transactioncategory_msdyn_expe
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_msdyn_fact_TransactionCategory"></a> msdyn_msdyn_transactioncategory_msdyn_fact_TransactionCategory
 
 Same as msdyn_fact entity [msdyn_msdyn_transactioncategory_msdyn_fact_TransactionCategory](msdyn_fact.md#BKMK_msdyn_msdyn_transactioncategory_msdyn_fact_TransactionCategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_fact|
@@ -820,6 +835,7 @@ Same as msdyn_fact entity [msdyn_msdyn_transactioncategory_msdyn_fact_Transactio
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_msdyn_invoicelinetransaction_TransactionCategory"></a> msdyn_msdyn_transactioncategory_msdyn_invoicelinetransaction_TransactionCategory
 
 Same as msdyn_invoicelinetransaction entity [msdyn_msdyn_transactioncategory_msdyn_invoicelinetransaction_TransactionCategory](msdyn_invoicelinetransaction.md#BKMK_msdyn_msdyn_transactioncategory_msdyn_invoicelinetransaction_TransactionCategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_invoicelinetransaction|
@@ -834,6 +850,7 @@ Same as msdyn_invoicelinetransaction entity [msdyn_msdyn_transactioncategory_msd
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_msdyn_journalline_TransactionCategory"></a> msdyn_msdyn_transactioncategory_msdyn_journalline_TransactionCategory
 
 Same as msdyn_journalline entity [msdyn_msdyn_transactioncategory_msdyn_journalline_TransactionCategory](msdyn_journalline.md#BKMK_msdyn_msdyn_transactioncategory_msdyn_journalline_TransactionCategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_journalline|
@@ -848,6 +865,7 @@ Same as msdyn_journalline entity [msdyn_msdyn_transactioncategory_msdyn_journall
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_msdyn_opportunitylinetransaction_TransactionCategory"></a> msdyn_msdyn_transactioncategory_msdyn_opportunitylinetransaction_TransactionCategory
 
 Same as msdyn_opportunitylinetransaction entity [msdyn_msdyn_transactioncategory_msdyn_opportunitylinetransaction_TransactionCategory](msdyn_opportunitylinetransaction.md#BKMK_msdyn_msdyn_transactioncategory_msdyn_opportunitylinetransaction_TransactionCategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_opportunitylinetransaction|
@@ -862,6 +880,7 @@ Same as msdyn_opportunitylinetransaction entity [msdyn_msdyn_transactioncategory
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_msdyn_opportunitylinetransactioncategory_TransactionCategory"></a> msdyn_msdyn_transactioncategory_msdyn_opportunitylinetransactioncategory_TransactionCategory
 
 Same as msdyn_opportunitylinetransactioncategory entity [msdyn_msdyn_transactioncategory_msdyn_opportunitylinetransactioncategory_TransactionCategory](msdyn_opportunitylinetransactioncategory.md#BKMK_msdyn_msdyn_transactioncategory_msdyn_opportunitylinetransactioncategory_TransactionCategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_opportunitylinetransactioncategory|
@@ -876,6 +895,7 @@ Same as msdyn_opportunitylinetransactioncategory entity [msdyn_msdyn_transaction
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_msdyn_orderlinetransaction_TransactionCategory"></a> msdyn_msdyn_transactioncategory_msdyn_orderlinetransaction_TransactionCategory
 
 Same as msdyn_orderlinetransaction entity [msdyn_msdyn_transactioncategory_msdyn_orderlinetransaction_TransactionCategory](msdyn_orderlinetransaction.md#BKMK_msdyn_msdyn_transactioncategory_msdyn_orderlinetransaction_TransactionCategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderlinetransaction|
@@ -890,6 +910,7 @@ Same as msdyn_orderlinetransaction entity [msdyn_msdyn_transactioncategory_msdyn
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_msdyn_orderlinetransactioncategory_TransactionCategory"></a> msdyn_msdyn_transactioncategory_msdyn_orderlinetransactioncategory_TransactionCategory
 
 Same as msdyn_orderlinetransactioncategory entity [msdyn_msdyn_transactioncategory_msdyn_orderlinetransactioncategory_TransactionCategory](msdyn_orderlinetransactioncategory.md#BKMK_msdyn_msdyn_transactioncategory_msdyn_orderlinetransactioncategory_TransactionCategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderlinetransactioncategory|
@@ -904,6 +925,7 @@ Same as msdyn_orderlinetransactioncategory entity [msdyn_msdyn_transactioncatego
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_msdyn_projectapproval_TransactionCategory"></a> msdyn_msdyn_transactioncategory_msdyn_projectapproval_TransactionCategory
 
 Same as msdyn_projectapproval entity [msdyn_msdyn_transactioncategory_msdyn_projectapproval_TransactionCategory](msdyn_projectapproval.md#BKMK_msdyn_msdyn_transactioncategory_msdyn_projectapproval_TransactionCategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projectapproval|
@@ -918,6 +940,7 @@ Same as msdyn_projectapproval entity [msdyn_msdyn_transactioncategory_msdyn_proj
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_msdyn_projecttask_transactioncategory"></a> msdyn_msdyn_transactioncategory_msdyn_projecttask_transactioncategory
 
 Same as msdyn_projecttask entity [msdyn_msdyn_transactioncategory_msdyn_projecttask_transactioncategory](msdyn_projecttask.md#BKMK_msdyn_msdyn_transactioncategory_msdyn_projecttask_transactioncategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projecttask|
@@ -932,6 +955,7 @@ Same as msdyn_projecttask entity [msdyn_msdyn_transactioncategory_msdyn_projectt
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_msdyn_projecttransactioncategory_TransactionCategory"></a> msdyn_msdyn_transactioncategory_msdyn_projecttransactioncategory_TransactionCategory
 
 Same as msdyn_projecttransactioncategory entity [msdyn_msdyn_transactioncategory_msdyn_projecttransactioncategory_TransactionCategory](msdyn_projecttransactioncategory.md#BKMK_msdyn_msdyn_transactioncategory_msdyn_projecttransactioncategory_TransactionCategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projecttransactioncategory|
@@ -946,6 +970,7 @@ Same as msdyn_projecttransactioncategory entity [msdyn_msdyn_transactioncategory
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_msdyn_quotelineanalyticsbreakdown_TransactionCategory"></a> msdyn_msdyn_transactioncategory_msdyn_quotelineanalyticsbreakdown_TransactionCategory
 
 Same as msdyn_quotelineanalyticsbreakdown entity [msdyn_msdyn_transactioncategory_msdyn_quotelineanalyticsbreakdown_TransactionCategory](msdyn_quotelineanalyticsbreakdown.md#BKMK_msdyn_msdyn_transactioncategory_msdyn_quotelineanalyticsbreakdown_TransactionCategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelineanalyticsbreakdown|
@@ -960,6 +985,7 @@ Same as msdyn_quotelineanalyticsbreakdown entity [msdyn_msdyn_transactioncategor
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_msdyn_quotelinetransaction_TransactionCategory"></a> msdyn_msdyn_transactioncategory_msdyn_quotelinetransaction_TransactionCategory
 
 Same as msdyn_quotelinetransaction entity [msdyn_msdyn_transactioncategory_msdyn_quotelinetransaction_TransactionCategory](msdyn_quotelinetransaction.md#BKMK_msdyn_msdyn_transactioncategory_msdyn_quotelinetransaction_TransactionCategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelinetransaction|
@@ -974,6 +1000,7 @@ Same as msdyn_quotelinetransaction entity [msdyn_msdyn_transactioncategory_msdyn
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_msdyn_quotelinetransactioncategory_TransactionCategory"></a> msdyn_msdyn_transactioncategory_msdyn_quotelinetransactioncategory_TransactionCategory
 
 Same as msdyn_quotelinetransactioncategory entity [msdyn_msdyn_transactioncategory_msdyn_quotelinetransactioncategory_TransactionCategory](msdyn_quotelinetransactioncategory.md#BKMK_msdyn_msdyn_transactioncategory_msdyn_quotelinetransactioncategory_TransactionCategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelinetransactioncategory|
@@ -988,6 +1015,7 @@ Same as msdyn_quotelinetransactioncategory entity [msdyn_msdyn_transactioncatego
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_msdyn_transactioncategoryclassification_transactioncategory"></a> msdyn_msdyn_transactioncategory_msdyn_transactioncategoryclassification_transactioncategory
 
 Same as msdyn_transactioncategoryclassification entity [msdyn_msdyn_transactioncategory_msdyn_transactioncategoryclassification_transactioncategory](msdyn_transactioncategoryclassification.md#BKMK_msdyn_msdyn_transactioncategory_msdyn_transactioncategoryclassification_transactioncategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_transactioncategoryclassification|
@@ -1002,6 +1030,7 @@ Same as msdyn_transactioncategoryclassification entity [msdyn_msdyn_transactionc
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_msdyn_transactioncategoryhierarchyelement_ChildCategory"></a> msdyn_msdyn_transactioncategory_msdyn_transactioncategoryhierarchyelement_ChildCategory
 
 Same as msdyn_transactioncategoryhierarchyelement entity [msdyn_msdyn_transactioncategory_msdyn_transactioncategoryhierarchyelement_ChildCategory](msdyn_transactioncategoryhierarchyelement.md#BKMK_msdyn_msdyn_transactioncategory_msdyn_transactioncategoryhierarchyelement_ChildCategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_transactioncategoryhierarchyelement|
@@ -1016,6 +1045,7 @@ Same as msdyn_transactioncategoryhierarchyelement entity [msdyn_msdyn_transactio
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_msdyn_transactioncategoryhierarchyelement_ParentCategory"></a> msdyn_msdyn_transactioncategory_msdyn_transactioncategoryhierarchyelement_ParentCategory
 
 Same as msdyn_transactioncategoryhierarchyelement entity [msdyn_msdyn_transactioncategory_msdyn_transactioncategoryhierarchyelement_ParentCategory](msdyn_transactioncategoryhierarchyelement.md#BKMK_msdyn_msdyn_transactioncategory_msdyn_transactioncategoryhierarchyelement_ParentCategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_transactioncategoryhierarchyelement|
@@ -1030,6 +1060,7 @@ Same as msdyn_transactioncategoryhierarchyelement entity [msdyn_msdyn_transactio
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_msdyn_transactioncategorypricelevel_TransactionCategory"></a> msdyn_msdyn_transactioncategory_msdyn_transactioncategorypricelevel_TransactionCategory
 
 Same as msdyn_transactioncategorypricelevel entity [msdyn_msdyn_transactioncategory_msdyn_transactioncategorypricelevel_TransactionCategory](msdyn_transactioncategorypricelevel.md#BKMK_msdyn_msdyn_transactioncategory_msdyn_transactioncategorypricelevel_TransactionCategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_transactioncategorypricelevel|
@@ -1044,6 +1075,7 @@ Same as msdyn_transactioncategorypricelevel entity [msdyn_msdyn_transactioncateg
 ### <a name="BKMK_msdyn_msdyn_transactioncategory_product_TransactionCategory"></a> msdyn_msdyn_transactioncategory_product_TransactionCategory
 
 Same as product entity [msdyn_msdyn_transactioncategory_product_TransactionCategory](product.md#BKMK_msdyn_msdyn_transactioncategory_product_TransactionCategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|product|

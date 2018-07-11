@@ -33,61 +33,61 @@ tags:
 ## Create a custom Fetch-based report  
  To create a custom Fetch-based report:  
   
-1.  Make sure that you have a supported version of [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)], [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)], [!INCLUDE[pn_crm_fetch_extension](../includes/pn-crm-fetch-extension.md)], and the necessary privileges. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Report writing environment using SQL Server Data Tools](../analytics/report-writing-environment-using-sql-server-data-tools.md)  
+1. Make sure that you have a supported version of [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)], [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)], [!INCLUDE[pn_crm_fetch_extension](../includes/pn-crm-fetch-extension.md)], and the necessary privileges. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Report writing environment using SQL Server Data Tools](../analytics/report-writing-environment-using-sql-server-data-tools.md)  
   
-2.  Open [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)], and then create a report server project.  
+2. Open [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)], and then create a report server project.  
   
-3.  In Solution Explorer, right-click the **Reports** folder, and then click **Add New Report**.  
+3. In Solution Explorer, right-click the **Reports** folder, and then click **Add New Report**.  
   
-4.  Click **Next**.  
+4. Click **Next**.  
   
-5.  On the **Select the Data Source** page, click **New Data Source**, and then specify the following details:  
+5. On the **Select the Data Source** page, click **New Data Source**, and then specify the following details:  
   
-    - **Name**: Type a name for the data source.  
+   - **Name**: Type a name for the data source.  
   
-    - **Type**: Select **Microsoft Dynamics 365 Fetch**.  
+   - **Type**: Select **Microsoft Dynamics 365 Fetch**.  
   
-    - **Connection String**: Specify the connection string. The connection string must be specified in the following format:  
+   - **Connection String**: Specify the connection string. The connection string must be specified in the following format:  
   
-         *ServerURL*;*OrganizationName*;*HomeRealmURL*  
+        *ServerURL*;*OrganizationName*;*HomeRealmURL*  
   
-         In this connection string, only *ServerURL* is mandatory. If *OrganizationName* isn't specified, the first organization that the user running this query belongs to is used. *HomeRealmURL* is the Home Realm URL of the Identity Provider used by your organization and is needed when your organization uses Federation for identity management. Contact your network administrator to determine the Home Realm URL.  
+        In this connection string, only *ServerURL* is mandatory. If *OrganizationName* isn't specified, the first organization that the user running this query belongs to is used. *HomeRealmURL* is the Home Realm URL of the Identity Provider used by your organization and is needed when your organization uses Federation for identity management. Contact your network administrator to determine the Home Realm URL.  
   
-         Click **Credentials** to specify the credentials to connect to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], and then click **Next**.  
+        Click **Credentials** to specify the credentials to connect to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], and then click **Next**.  
   
-6.  On the **Design the Query** page, type the FetchXML query in the **Query** box. To get this query, you can do one of the following:  
+6. On the **Design the Query** page, type the FetchXML query in the **Query** box. To get this query, you can do one of the following:  
   
-    -   Get the FetchXML from an Advanced Find query. To do this, open [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], click **Advanced Find**, create the query that you want, and then on the **Advanced Find** tab, click **Download Fetch XML**. Copy the FetchXML into the **Query** box of the Dataset Properties in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)].  
+   - Get the FetchXML from an Advanced Find query. To do this, open [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], click **Advanced Find**, create the query that you want, and then on the **Advanced Find** tab, click **Download Fetch XML**. Copy the FetchXML into the **Query** box of the Dataset Properties in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)].  
   
-    -   Manually enter the FetchXML query. The following example shows how to create a report that displays all accounts with 5,000 or more employees.  
+   - Manually enter the FetchXML query. The following example shows how to create a report that displays all accounts with 5,000 or more employees.  
   
-        ```  
-        <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">  
-          <entity name="account">  
-            <attribute name="name" />      
-            <attribute name="numberofemployees" />  
-            <attribute name="accountnumber" />  
-            <order attribute="name" descending="false" />  
-            <filter type="and">  
-              <condition attribute="numberofemployees" operator="gt" value="5000" />  
-            </filter>  
-          </entity>  
-        </fetch>  
-        ```  
+     ```  
+     <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">  
+       <entity name="account">  
+         <attribute name="name" />      
+         <attribute name="numberofemployees" />  
+         <attribute name="accountnumber" />  
+         <order attribute="name" descending="false" />  
+         <filter type="and">  
+           <condition attribute="numberofemployees" operator="gt" value="5000" />  
+         </filter>  
+       </entity>  
+     </fetch>  
+     ```  
   
- <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Build queries with FetchXML](../developer/build-queries-fetchxml.md)  -->
+   <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Build queries with FetchXML](../developer/build-queries-fetchxml.md)  -->
   
-     Click **Next**.  
+    Click **Next**.  
   
-7.  Verify the fields that will be included in the report, and then click **Next**.  
+7. Verify the fields that will be included in the report, and then click **Next**.  
   
-8.  Select a style to apply to the report, and then click **Next**.  
+8. Select a style to apply to the report, and then click **Next**.  
   
 9. Verify the fields that will be included in the report and enter a name for the report, such as *Accounts With More Than 5,000 Employees*. Click **Finish**.  
   
 10. If you’d like to see how the report will appear when it’s run, click the **Preview** tab.  
   
- This generates an .rdl file with the specified report name. You can use this file to publish your custom report in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] using the Report Wizard. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish reports](../analytics/publish-reports.md)  
+    This generates an .rdl file with the specified report name. You can use this file to publish your custom report in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] using the Report Wizard. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish reports](../analytics/publish-reports.md)  
   
 ### See also  
  [Report Writing Environment](../analytics/report-writing-environment-using-sql-server-data-tools.md)   

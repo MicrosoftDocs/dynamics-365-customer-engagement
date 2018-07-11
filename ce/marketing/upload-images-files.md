@@ -3,25 +3,37 @@ title: "Work with images and other files (Dynamics 365 for Marketing) | Microsof
 description: "How to upload, tag, and find images and other files for use in emails and marketing pages in Dynamics 365 for Marketing"
 keywords: "image, file, keyword"
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)- Dynamics 365 Version 9.x"
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 162d17d7-bdd4-4a44-b84f-8ab94e7267f3
 author: kamaybac
 ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom:
-  - dyn365-marketing
 ---
 
 # Upload and use images and files in online content
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Images are an important part of most marketing-page and marketing-email designs. To use images in your designs, you must upload them to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], which also hosts the images and delivers them when contacts open an email or marketing page. You can also upload other types of files, such as PDFs, to make them available for download or to share them with other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] users.
+Images are an important part of most marketing-page and marketing-email designs. To use images in your designs, you must upload them to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], which also hosts the images and delivers them when contacts open an email or marketing page.
+
+> [!NOTE]
+> For security purposes, this feature only allows you to upload image files. The following image formats are supported:
+> 
+> - GIF
+> - BMP
+> - JPEG
+> - PNG
+> 
+> You will see an error message if you attempt to upload a file of an unsupported type.
 
 ## Upload files to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
 

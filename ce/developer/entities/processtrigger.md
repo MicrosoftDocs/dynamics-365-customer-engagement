@@ -696,6 +696,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_ProcessTrigger_SyncErrors"></a> ProcessTrigger_SyncErrors
 
 Same as syncerror entity [ProcessTrigger_SyncErrors](syncerror.md#BKMK_ProcessTrigger_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|

@@ -613,6 +613,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_post_AsyncOperations"></a> post_AsyncOperations
 
 Same as asyncoperation entity [post_AsyncOperations](asyncoperation.md#BKMK_post_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -627,6 +628,7 @@ Same as asyncoperation entity [post_AsyncOperations](asyncoperation.md#BKMK_post
 ### <a name="BKMK_post_BulkDeleteFailures"></a> post_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [post_BulkDeleteFailures](bulkdeletefailure.md#BKMK_post_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -641,6 +643,7 @@ Same as bulkdeletefailure entity [post_BulkDeleteFailures](bulkdeletefailure.md#
 ### <a name="BKMK_Post_Comments"></a> Post_Comments
 
 Same as postcomment entity [Post_Comments](postcomment.md#BKMK_Post_Comments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|postcomment|
@@ -655,6 +658,7 @@ Same as postcomment entity [Post_Comments](postcomment.md#BKMK_Post_Comments) Ma
 ### <a name="BKMK_Post_Likes"></a> Post_Likes
 
 Same as postlike entity [Post_Likes](postlike.md#BKMK_Post_Likes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|postlike|

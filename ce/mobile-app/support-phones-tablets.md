@@ -8,12 +8,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
-author: "jimholtz"
+  - Dynamics 365 (online)
+author: "mduelae"
 ms.assetid: 7f9d8425-f26c-43ac-bdc7-ff258977ff80
 caps.latest.revision: 135
-ms.author: "jimholtz"
-manager: "brycho"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # What's supported
 
@@ -26,11 +26,11 @@ You can access [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data 
   
 ### Device support  
   
-|Platform|Versions|RAM (minimum)|RAM (recommended for optimal performance)|  
-|--------------|--------------|---------------------|--------------------|  
-|[iOS](http://go.microsoft.com/fwlink/p/?LinkID=519213)|10 and above|1 GB|2 GB|  
-|[Android](http://go.microsoft.com/fwlink/p/?LinkID=519214)|6.0 and above|2 GB|3 GB| 
-|[Windows tablet](https://go.microsoft.com/fwlink/p/?linkid=862402) |10|2 GB|4 GB|<br/>
+|                              Platform                              |   Versions    | RAM (minimum) | RAM (recommended for optimal performance) |
+|--------------------------------------------------------------------|---------------|---------------|-------------------------------------------|
+|       [iOS](http://go.microsoft.com/fwlink/p/?LinkID=519213)       | 10 and above  |     1 GB      |                   2 GB                    |
+|     [Android](http://go.microsoft.com/fwlink/p/?LinkID=519214)     | 6.0 and above |     2 GB      |                   3 GB                    |
+| [Windows tablet](https://go.microsoft.com/fwlink/p/?linkid=862402) |      10       |     2 GB      |                   4 GB                    |
  
 > [!NOTE]
 > On February 21, 2018, we announced the deprecation of the Windows Phone app for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. On May 22, 2018, the Windows Phone app will no longer be supported for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. Support for the  app on Windows tablets and PCs remains unchanged. The Windows Phone app will continue to be available in the store and will be supported for Dynamics 365, (version 8.2) and earlier supported versions. If you wish to continue to use the Windows Phone app, you should not update to Dynamics 365, version 9.0 as the Windows Phone app will not be supported with version 9.x.
@@ -56,9 +56,9 @@ Download the Dynamics 365 app from the Windows Marketplace for [Windows 10](http
 ### Apple iPad  
 You can run the [!INCLUDE[pn_crm_for_ipad_shortest](../includes/pn-crm-for-ipad-shortest.md)] app on devices that meet the following requirements:    
   
--   Device: [!INCLUDE[tn_ipad](../includes/tn-ipad.md)] third generation or later  
+- Device: [!INCLUDE[tn_ipad](../includes/tn-ipad.md)] third generation or later  
   
--   Screen: 9-inch (diagonal) or larger  
+- Screen: 9-inch (diagonal) or larger  
 
 [Download Microsoft Dynamics 365 for iPad from the Apple Store](http://go.microsoft.com/fwlink/p/?LinkId=313327)
  
@@ -83,23 +83,23 @@ You can run the [!INCLUDE[pn_moca_CRM_Android](../includes/pn-moca-crm-android.m
   
  Using [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] on a web browser on an Apple or Android mobile device provides a similar experience to using it with a web browser on a desktop or laptop computer. However, some features are not available, including:  
   
--   Pinch and zoom  
+- Pinch and zoom  
   
 - [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]  
   
--   Reports  
+- Reports  
   
--   Customization/Editors  
+- Customization/Editors  
   
--   System Settings  
+- System Settings  
   
--   Advanced Find  
+- Advanced Find  
   
--   Process dialogs  
+- Process dialogs  
   
 - [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)] presence  
   
--   Entities that use classic forms such as Goal and Order Product see, [Entities using classic forms](../customize/create-design-forms.md).  
+- Entities that use classic forms such as Goal and Order Product see, [Entities using classic forms](../customize/create-design-forms.md).  
   
 ### See also  
  [Set up and manage tablets and phones](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)   

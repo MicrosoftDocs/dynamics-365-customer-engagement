@@ -3,7 +3,10 @@ title: "Guide your prospects through an interactive customer journey (Dynamics 3
 description: "How to create a customer journey by assembling a pipeline of automated communications, activities, and conditional pathways in Dynamics 365 for Marketing"
 keywords: "customer journey; campaign; email; segment; go live; pipeline"
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,8 +17,6 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom:
-  - dyn365-marketing
 ---
 
 # Use customer journeys to create automated campaigns
@@ -34,17 +35,17 @@ The previous figure shows how a simple customer journey might look in [!INCLUDE[
 
 1. A new contact from New York wants to subscribe to your newsletter, and fills out a marketing page on your site. This results in a new contact record in your database.
 
-1. You have a dynamic segment that finds all newsletter subscribers from New York, so the new contact automatically joins that list.
+2. You have a dynamic segment that finds all newsletter subscribers from New York, so the new contact automatically joins that list.
 
-1. You've created a customer journey in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] that starts with the New York subscribers' segment as tile one, so the contact starts there and moves directly to the next tile.
+3. You've created a customer journey in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] that starts with the New York subscribers' segment as tile one, so the contact starts there and moves directly to the next tile.
 
-1. The next tile in the journey is an email tile, so the system automatically sends a marketing email to the new contact, and the contact moves on to the next tile. The email message offers a free white paper for download.
+4. The next tile in the journey is an email tile, so the system automatically sends a marketing email to the new contact, and the contact moves on to the next tile. The email message offers a free white paper for download.
 
-1. The next tile is a trigger (set to trigger on the email). It keeps the contact here until either a week goes by, or they click the download link. The trigger branches the path, so if the contact clicks to download the paper, they'll take the "true" path immediately; but if a week goes by without a click, they'll go down the "false" path.
+5. The next tile is a trigger (set to trigger on the email). It keeps the contact here until either a week goes by, or they click the download link. The trigger branches the path, so if the contact clicks to download the paper, they'll take the "true" path immediately; but if a week goes by without a click, they'll go down the "false" path.
 
-1. The top ("true") path continues with more tiles designed to nurture the lead further. Because the contact clicked the link, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] generated a lead for that contact, which represents their expression of interest in the product promoted in that white paper. Some tiles along this path might initiate or evaluate lead interactions (such as surveys or event invitations), while others might generate internal events (like assigning a task or launching a workflow in the CRM system). As the contact interacts with your initiatives, the lead builds up its score until it's ready to forward to sales.
+6. The top ("true") path continues with more tiles designed to nurture the lead further. Because the contact clicked the link, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] generated a lead for that contact, which represents their expression of interest in the product promoted in that white paper. Some tiles along this path might initiate or evaluate lead interactions (such as surveys or event invitations), while others might generate internal events (like assigning a task or launching a workflow in the CRM system). As the contact interacts with your initiatives, the lead builds up its score until it's ready to forward to sales.
 
-1. The bottom ("false") path starts with another email tile, which sends a reminder with a second chance to get the download, after which the contact might continue down the same type of nurturing path if they respond, or get dropped for now if they don't.
+7. The bottom ("false") path starts with another email tile, which sends a reminder with a second chance to get the download, after which the contact might continue down the same type of nurturing path if they respond, or get dropped for now if they don't.
 
 ## Set up a customer journey
 
@@ -174,15 +175,20 @@ Content settings are sets of standard and required values that are available for
 
 To choose the content settings used by a journey, go to its **General** tab and make a selection for the **Content settings** field.
 
-For more information about how to create and configure content-settings records, see [Use content settings to set up repositories of standard and required values for email messages](prepare-marketing-emails.md#content-settings)
+For more information about how to create and configure content-settings records, see [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#content-settings)
 
 If you have more than one set of content settings, exactly one of them will be the default and will be applied automatically to each new customer journey that you create. For more information about how to establish the default content-settings record for new journeys, see [Default marketing settings](marketing-settings.md#default-marketing-settings).
+
+<a name="suppression-segment"></a>
 
 ### Add a suppression segment
 
 A journey's suppression segment contains a list of contacts that the journey won't send any messages to, even if those contacts are also included among the segments explicitly targeted by the journey, and even if those contacts are already partly through the journey. 
 
 You can use any existing segment as a suppression segment. To choose a suppression segment for your journey, open its **General** tab and then choose a segment in the **Suppression segment** lookup field.
+
+> [!IMPORTANT]
+> The customer-insights services process changes to segment membership asynchronously, which means you can't predict the order in which changes are processed. In some cases, such as when processing very large databases, it can take up to six hours for a given segment to get updated. You therefore can't rely on any one segment being processed before or after a specific other segment, so be careful when orchestrating related campaigns and/or using  suppression segments.
 
 ## Go live to start running the journey and processing contacts
 
@@ -192,9 +198,9 @@ When you've finished designing your customer journey, do the following to verify
 
 1. Double-check the **Start Date** and **End Date** on the **General** tab. The customer journey won't do anything until the **Start Date** arrives and it will stop processing all contacts, no matter which tile they're on, as soon as the **End Date** arrives. Remember also that any contact who joins the target segment while a journey is running will also be processed by that journey, starting at the first tile.
 
-1. Select **Check for Errors** in the command bar to verify your campaign setup and check it for errors. This step makes sure that all required marketing emails and pages are assigned and published, and also checks for other prerequisites and common errors. If problems are found, you'll see an error message with advice for how to fix it. Continue to check, fix reported errors, and check again until your journey passes the test.
+2. Select **Check for Errors** in the command bar to verify your campaign setup and check it for errors. This step makes sure that all required marketing emails and pages are assigned and published, and also checks for other prerequisites and common errors. If problems are found, you'll see an error message with advice for how to fix it. Continue to check, fix reported errors, and check again until your journey passes the test.
 
-1. Now you're ready to publish: select **Go Live** in the command bar. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] runs the error check one last time. If your journey passes, it is published to the active area of your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] server, which also hosts your published marketing email messages and marketing pages.
+3. Now you're ready to publish: select **Go Live** in the command bar. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] runs the error check one last time. If your journey passes, it is published to the active area of your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] server, which also hosts your published marketing email messages and marketing pages.
 
 ### See also
 

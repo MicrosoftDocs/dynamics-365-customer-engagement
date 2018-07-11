@@ -691,6 +691,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_UserQuery_BulkDeleteFailures"></a> UserQuery_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [UserQuery_BulkDeleteFailures](bulkdeletefailure.md#BKMK_UserQuery_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -705,6 +706,7 @@ Same as bulkdeletefailure entity [UserQuery_BulkDeleteFailures](bulkdeletefailur
 ### <a name="BKMK_UserQuery_SyncErrors"></a> UserQuery_SyncErrors
 
 Same as syncerror entity [UserQuery_SyncErrors](syncerror.md#BKMK_UserQuery_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -719,6 +721,7 @@ Same as syncerror entity [UserQuery_SyncErrors](syncerror.md#BKMK_UserQuery_Sync
 ### <a name="BKMK_userentityinstancedata_userquery"></a> userentityinstancedata_userquery
 
 Same as userentityinstancedata entity [userentityinstancedata_userquery](userentityinstancedata.md#BKMK_userentityinstancedata_userquery) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -733,6 +736,7 @@ Same as userentityinstancedata entity [userentityinstancedata_userquery](userent
 ### <a name="BKMK_UserQuery_AsyncOperations"></a> UserQuery_AsyncOperations
 
 Same as asyncoperation entity [UserQuery_AsyncOperations](asyncoperation.md#BKMK_UserQuery_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|

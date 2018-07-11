@@ -26,7 +26,7 @@ Define your product catalog by organizing your products in a hierarchical struct
   
 > [!NOTE]
 >  For products not associated with a product family, that is, products that don’t have a parent product family record assigned to them, you can create them directly in an **Active** state by setting the **Organization.CreateProductsWithoutParentInActiveState** attribute to `1` (true). By default, this attribute is set to `0` (false) for a fresh installation of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and to `1` (true) if you’re upgrading from a previous version of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to ensure compatibility for your applications working with the previous version of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] where the product records were created in an **Active** state.  
->   
+> 
 >  You can also use the **Sales** tab in the system settings area in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to specify whether products are created in an **Active** state. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage product catalog configuration](https://technet.microsoft.com/library/dn832125.aspx)  
   
 <a name="Define"></a>   
@@ -39,19 +39,19 @@ Define your product catalog by organizing your products in a hierarchical struct
   
 - **3** to create a bundle  
   
- Here are some important points to consider while defining product families, products, and bundles:  
+  Here are some important points to consider while defining product families, products, and bundles:  
   
--   A product family record can contain multiple child product family, product, and bundle instances in a hierarchical structure. For a child product family, child product, or child bundle instance, you define the parent product family instance using the `Product.ParentProductId` attribute. You can’t change the parent record once you’ve set it.  
+- A product family record can contain multiple child product family, product, and bundle instances in a hierarchical structure. For a child product family, child product, or child bundle instance, you define the parent product family instance using the `Product.ParentProductId` attribute. You can’t change the parent record once you’ve set it.  
   
--   A product or bundle can’t be set as a parent, which implies that a product or bundle record can’t have child records.  
+- A product or bundle can’t be set as a parent, which implies that a product or bundle record can’t have child records.  
   
--   A product family, product, or bundle instance can be part of only one product family instance.  
+- A product family, product, or bundle instance can be part of only one product family instance.  
   
--   There is no limit on the nesting level for a product family.  
+- There is no limit on the nesting level for a product family.  
   
--   The `Product.ValidFromDate` and `Product.ValidToDate` attributes don’t have any out-of-box business logic associated with them, except that there is a check to ensure that the date in `Product.ValidToDate` should be later than or equal to the date in `Product.ValidFromDate`. If required, you can implement your own business logic based on these attributes. For example, you could run a scheduled job to automatically retire last season’s products by using the date value in the `Product.ValidToDate` attribute.  
+- The `Product.ValidFromDate` and `Product.ValidToDate` attributes don’t have any out-of-box business logic associated with them, except that there is a check to ensure that the date in `Product.ValidToDate` should be later than or equal to the date in `Product.ValidFromDate`. If required, you can implement your own business logic based on these attributes. For example, you could run a scheduled job to automatically retire last season’s products by using the date value in the `Product.ValidToDate` attribute.  
   
- The following code sample demonstrates how you can create a product family and a child product record.  
+  The following code sample demonstrates how you can create a product family and a child product record.  
   
 ```csharp  
 // Create a product family  
@@ -124,7 +124,7 @@ _productPropertyId = _serviceProxy.Create(newProperty);
   
 > [!NOTE]
 >  The way you define a product property determines how it can be used by the sales agent at run time, that is, while adding an associated product to an opportunity, quote, order, or invoice. An *updatable* product property’s value can be changed at run time, whereas the value of a *read-only* product property can’t be. For a product property set as *required*, a value for the property must be specified at the run time. Otherwise, the property is displayed as unresolved. A *hidden* property won’t be displayed to sales agents at the run time.  
->   
+> 
 >  Also, product properties don’t affect the pricing of a product. This implies that the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] pricing engine doesn’t support changing the price of a product based on a change in the product property values.  
   
 <a name="ChangeProductProperties"></a>   
@@ -171,13 +171,13 @@ _serviceProxy.Update(retrievedOverridenProperty);
   
  For a product property in the `Active` state, you can *overwrite* the inherited property for the child product family, product, or bundle record provided both the following clauses are true:  
   
--   The child product family, product, or bundle record is in the **Under Revision** state.  
+- The child product family, product, or bundle record is in the **Under Revision** state.  
   
--   The inherited active product property is already overridden.  
+- The inherited active product property is already overridden.  
   
- **To overwrite a product property**, you create an instance of the product property  and set the `BaseDynamicPropertyId` property to the GUID of the already overridden property. Additionally, you also associate the new property instance with the product family, product, or bundle record that is in the `Under Revision` stage.  
+  **To overwrite a product property**, you create an instance of the product property  and set the `BaseDynamicPropertyId` property to the GUID of the already overridden property. Additionally, you also associate the new property instance with the product family, product, or bundle record that is in the `Under Revision` stage.  
   
- The following sample code demonstrates how you can overwrite a product property record in the active state that is already overridden, say with GUID `_productOverridenPropertyId`, and associate the new property to the product record in the `Under Revision` state, say with GUID `_product1Id`. After this, you can update the attributes of the new property to specify your own values, and complete the overwrite.  
+  The following sample code demonstrates how you can overwrite a product property record in the active state that is already overridden, say with GUID `_productOverridenPropertyId`, and associate the new property to the product record in the `Under Revision` state, say with GUID `_product1Id`. After this, you can update the attributes of the new property to specify your own values, and complete the overwrite.  
   
 ```csharp  
 // Overwrite a product property  
@@ -269,7 +269,7 @@ Console.WriteLine("\nAdded both the products to the bundle");
   
 - **3** for substitute  
   
- While defining product relationships, it’s important to define the direction of the relationship to prevent duplication of data. The supported directions the product relationships are:  
+  While defining product relationships, it’s important to define the direction of the relationship to prevent duplication of data. The supported directions the product relationships are:  
   
 |Product relationship|Direction|  
 |--------------------------|---------------|  
@@ -284,7 +284,7 @@ Console.WriteLine("\nAdded both the products to the bundle");
   
 - **1** for bi-directional  
   
- The following code sample demonstrates how you can define relationships for products.  
+  The following code sample demonstrates how you can define relationships for products.  
   
 ```csharp
 // Set product relationship  

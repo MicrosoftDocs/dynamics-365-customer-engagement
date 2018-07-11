@@ -3,7 +3,10 @@ title: "Register link clicks and website visits (Dynamics 365 for Marketing) | M
 description: "Set up your website to record visits from known and unknown contacts, and create redirect links that register clicks from anywhere in Dynamics 365 for Marketing"
 keywords: "website;redirect URL;behavioral analysis;behavior;tracking"
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,8 +17,6 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom:
-  - dyn365-marketing
 ---
 
 # Set up the event portal
@@ -38,14 +39,15 @@ Most of the information shown on the portal comes directly from your event model
 
 The following table summarizes which types of information are publish to the portal. Be especially careful and thorough when entering values for these fields, because they are exposed to the public.
 
-| **Entity**    | **Where it gets published** | **Which fields get published**|
-|---------------|-----------------------------|-------------------------------|
-| Events         | All published events are listed on the **All Events** page of the portal.|**Event Name**<p>**Start and end dates**</p><p>**Primary Venue**</p><p>**Description**</p>|
-| Sessions       | Each published session is listed on the **Sessions** page for the event it belongs to, on the **Speaker** page for the speaker presenting it, and on the **Session Tracks** page for tracks it belongs to.| **Session Title**<p>**Start Date & Time**</p><p>**End Date & Time**</p><p>**Session Summary**</p><p>**Session Detail Description**</p><p>**Session Tracks**</p><p>**Duration**</p>|
-| Speakers       | Published speakers are listed on the front for each event where they are speaking, on the **Speakers** page, and on session pages for each session they are running. A speaker profile page shows additional details and a schedule of sessions for that speaker. |**Name**<p>**Photo**</p><p>**Title**</p><p>**About**</p><p>**[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]**</p><p>**[!INCLUDE[tn-twitter](../includes/tn-twitter.md)]**</p><p>**Website**</p>|
-| Session Tracks | Published external tracks are listed on the **Session Tracks** page for the event they belong to. Each session track shows its name and a list of sessions that belong to it (with links).<p>You can only publish external tracks (not internal ones).</p>|**Name**<p>**Audience**</p>|
-| Passes         | All passes associated with a published session track are listed on the **Pass Information** page for the event the track belongs to. The system tracks the number of passes available and the number assigned, and indicates when passes are sold out.|**Name**<p>Track **Name** from the related track record</p><p>**Pass Price**</p><p>Sold out status, indicated when the **Passes Remaining** field for a pass reaches zero</p>|
-| Sponsors       | Sponsors associated with published events are displayed at the bottom of most pages of the portal for those events.|**Event Sponsor** (the **Account Name** of the related account record)</p><p>**Logo** (taken from the related account record for each sponsor)</p>|
+
+|   **Entity**   |                                                                                                                    **Where it gets published**                                                                                                                    |                                                                                    **Which fields get published**                                                                                    |
+|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     Events     |                                                                                             All published events are listed on the **All Events** page of the portal.                                                                                             |                                                      **Event Name**<p>**Start and end dates**</p><p>**Primary Venue**</p><p>**Description**</p>                                                      |
+|    Sessions    |                            Each published session is listed on the **Sessions** page for the event it belongs to, on the **Speaker** page for the speaker presenting it, and on the **Session Tracks** page for tracks it belongs to.                             |          **Session Title**<p>**Start Date & Time**</p><p>**End Date & Time**</p><p>**Session Summary**</p><p>**Session Detail Description**</p><p>**Session Tracks**</p><p>**Duration**</p>          |
+|    Speakers    | Published speakers are listed on the front for each event where they are speaking, on the **Speakers** page, and on session pages for each session they are running. A speaker profile page shows additional details and a schedule of sessions for that speaker. | **Name**<p>**Photo**</p><p>**Title**</p><p>**About**</p><p>**[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]**</p><p>**[!INCLUDE[tn-twitter](../includes/tn-twitter.md)]**</p><p>**Website**</p> |
+| Session Tracks |    Published external tracks are listed on the **Session Tracks** page for the event they belong to. Each session track shows its name and a list of sessions that belong to it (with links).<p>You can only publish external tracks (not internal ones).</p>     |                                                                                     **Name**<p>**Audience**</p>                                                                                      |
+|     Passes     |      All passes associated with a published session track are listed on the **Pass Information** page for the event the track belongs to. The system tracks the number of passes available and the number assigned, and indicates when passes are sold out.       |            **Name**<p>Track **Name** from the related track record</p><p>**Pass Price**</p><p>Sold out status, indicated when the **Passes Remaining** field for a pass reaches zero</p>             |
+|    Sponsors    |                                                                        Sponsors associated with published events are displayed at the bottom of most pages of the portal for those events.                                                                        |                          **Event Sponsor** (the **Account Name** of the related account record)</p><p>**Logo** (taken from the related account record for each sponsor)</p>                          |
 
 ## Customize portal graphics
 

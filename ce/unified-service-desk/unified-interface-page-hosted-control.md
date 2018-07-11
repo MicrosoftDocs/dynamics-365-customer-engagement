@@ -1,5 +1,5 @@
 ---
-title: "Analyze best practices in Unified Service Desk (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Unified Interface Page (Hosted Control) (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about the the Unified Interface Page hosted control type to load a URL or page from Dynamics 365. When a Dynamics 365 page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
 ms.custom: ""
 ms.date: 04/24/2018
@@ -28,15 +28,15 @@ While creating a new hosted control, the fields in the New Hosted Control screen
 
 In the New Hosted Control screen:
 
--   Under **[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]** area, select **Unified Interface Page** from the **USD Component Type** drop-down list.
+- Under **[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]** area, select **Unified Interface Page** from the **USD Component Type** drop-down list.
 
--   Select **Pre-fetch Data** to load related information for an entity record in the context along with the entity record page without having to wait for the full entity web page to load in the client application. The fetched entity information is populated in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context thus enabling any hosted control to quickly display relevant entity information on the client application. This could help agents instantly act or kick start discussion with customers, and save crucial interaction time.
+- Select **Pre-fetch Data** to load related information for an entity record in the context along with the entity record page without having to wait for the full entity web page to load in the client application. The fetched entity information is populated in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context thus enabling any hosted control to quickly display relevant entity information on the client application. This could help agents instantly act or kick start discussion with customers, and save crucial interaction time.
 
--   From the **Allow Multiple Pages** drop-down list, select **No** (default) to replace the Dynamics 365 page that is currently displayed, and update the browser history when [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] receives a navigate action call or a page is routed to the tab. Select **Yes** to automatically create a drop-down list when a second URL is called or a window navigation rule directs a page to the tab. This allows the user to quickly search between the Dynamics 365 pages that are attached to this control. Also, when you select **Yes**, an additional field, **Maximum Browsers**, becomes available where you can specify the maximum number of pages to be displayed in the drop-down list.
+- From the **Allow Multiple Pages** drop-down list, select **No** (default) to replace the Dynamics 365 page that is currently displayed, and update the browser history when [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] receives a navigate action call or a page is routed to the tab. Select **Yes** to automatically create a drop-down list when a second URL is called or a window navigation rule directs a page to the tab. This allows the user to quickly search between the Dynamics 365 pages that are attached to this control. Also, when you select **Yes**, an additional field, **Maximum Browsers**, becomes available where you can specify the maximum number of pages to be displayed in the drop-down list.
 
--   Under the **Common Properties** area, select the **Application is Global** check box to set the hosted control as global. Global hosted controls can be displayed outside of a customer session. Controls like the agents’ dashboard, wall or search are common uses for global hosted controls. Global hosted controls do not have session-specific state so when you change sessions, these same global hosted controls remain. If the check box is not selected, the hosted control becomes session based. Session-based controls exist in the context of the customer session. If the user changes to another session, all the session pages from the previous session are hidden.
+- Under the **Common Properties** area, select the **Application is Global** check box to set the hosted control as global. Global hosted controls can be displayed outside of a customer session. Controls like the agents’ dashboard, wall or search are common uses for global hosted controls. Global hosted controls do not have session-specific state so when you change sessions, these same global hosted controls remain. If the check box is not selected, the hosted control becomes session based. Session-based controls exist in the context of the customer session. If the user changes to another session, all the session pages from the previous session are hidden.
 
--   The **Display Group** field displays the panel where this hosted control will be displayed. **MainPanel** is the most common for this hosted control type.
+- The **Display Group** field displays the panel where this hosted control will be displayed. **MainPanel** is the most common for this hosted control type.
 
 For information about other **General** fields, see Create or edit a hosted control.
 
@@ -169,7 +169,7 @@ This action is used to navigate to a Dynamics 365 url. The App Id for the App th
 </tr>
 <tr class="odd">
 <td>postdata</td>
-<td>Data that is sent to the server as part of an HTTPPOST transaction. A POST transaction is typically used to send data gathered by an HTML page. In [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], this data can be received from any event triggered using &quot;<a href="http://event/?" class="uri">http://event/?</a>&quot;. Example: [[postdata]+]<br />
+<td>Data that is sent to the server as part of an HTTPPOST transaction. A POST transaction is typically used to send data gathered by an HTML page. In <!-- BEGIN ERROR INCLUDE: Unable to resolve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]: Couldn&#39;t find file ../includes/pn-unified-service-desk.md. -->[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]<!--END ERROR INCLUDE -->, this data can be received from any event triggered using &quot;<a href="http://event/?" class="uri">http://event/?</a>&quot;. Example: [[postdata]+]<br />
 <br />
 Alternatively, the data can be passed as an encoded string with its header type in the intended format.</td>
 </tr>
@@ -177,7 +177,7 @@ Alternatively, the data can be passed as an encoded string with its header type 
 <td>header</td>
 <td>A string value that contains additional HTTP headers to send to the server. When the postdata parameter is used in the Navigate action, you should also specify an appropriate value for the header parameter. Example: Content-Type:application/x-www-form-urlencoded<br />
 <br />
-If a [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]POST event triggers the Navigate action, the default value of this parameter should be header=[[header]+]</td>
+If a <!-- BEGIN ERROR INCLUDE: Unable to resolve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]: Couldn&#39;t find file ../includes/pn-unified-service-desk.md. -->[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]<!--END ERROR INCLUDE -->POST event triggers the Navigate action, the default value of this parameter should be header=[[header]+]</td>
 </tr>
 </tbody>
 </table>
@@ -347,4 +347,12 @@ Occurs when the page has finished loading. On a Unified Interface Page type of h
 
 ## See also
 
- [Support for Unified Interface Apps in Unified Service Desk](../unified-service-desk/Support-unified-interfaces-apps-usd.md)
+[Support for Unified Interface Apps in Unified Service Desk](../unified-service-desk/Support-unified-interfaces-apps-usd.md)
+[Preview feature: Unified Service Desk and Unified Interface Configuration Walkthroughs](../unified-service-desk/unified-service-desk-unified-interface-configuration-walkthroughs.md)
+[Preview feature: Walkthrough 1: Build a simple agent application for Unified Interface Apps](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md) 
+[Preview feature: Walkthrough 2: Display an external webpage in your agent application](../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md)   
+[Preview feature: Walkthrough 3: Display Microsoft Dynamics 365 Unified Interface app records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
+[Preview feature: Walkthrough 4: Display a Microsoft Dynamics 365 Unified Interface app record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)   
+[Preview feature: Preview feature: Preview feature: Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md)   
+[Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md)
+[Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md) 

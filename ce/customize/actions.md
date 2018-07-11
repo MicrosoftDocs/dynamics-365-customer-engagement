@@ -26,13 +26,13 @@ Actions are a type of process. You can invoke actions, including custom actions,
   
  You can call actions:  
   
--   From code that executes within a plug-in or custom workflow.  
+- From code that executes within a plug-in or custom workflow.  
   
--   From a command that is placed in the application and executes the operation using JavaScript code.  
+- From a command that is placed in the application and executes the operation using JavaScript code.  
   
--   From an integration with another system that uses the [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] web services.  
+- From an integration with another system that uses the [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] web services.  
   
--   From a custom client application that uses the [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] web services.  
+- From a custom client application that uses the [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] web services.  
   
 Developers can learn more in this topic: [Create your own actions](../developer/create-own-actions.md). 
   

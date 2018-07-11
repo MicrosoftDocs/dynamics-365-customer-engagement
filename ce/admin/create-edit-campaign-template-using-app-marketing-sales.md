@@ -26,21 +26,21 @@ Save time when creating multiple campaigns by creating a campaign template. Camp
   
 1. [!INCLUDE[proc_marketing_campaigns](../includes/proc-marketing-campaigns.md)]  
   
-2.  Click **New Template**.  
+2. Click **New Template**.  
   
-     \- OR -  
+    \- OR -  
   
-     Open the campaign you want to edit.  
+    Open the campaign you want to edit.  
   
-3.  Add information in the template form just as you do when creating a campaign. In the template form, enter the information you want to appear in campaigns based on this template, and add items such as planning tasks, campaign activities, and marketing lists.  
+3. Add information in the template form just as you do when creating a campaign. In the template form, enter the information you want to appear in campaigns based on this template, and add items such as planning tasks, campaign activities, and marketing lists.  
   
-4.  Click **Save** or **Save and Close**.  
+4. Click **Save** or **Save and Close**.  
   
 ## Copy an existing campaign as a template  
   
--   Open the campaign that you want to copy. Click **Copy as Template**, type a name for the template, and click **Save**.  
+- Open the campaign that you want to copy. Click **Copy as Template**, type a name for the template, and click **Save**.  
   
- If you need to back up your templates, or use them in a different implementation of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can export them as part of exporting customizations. More information: [Export your customizations as a solution](../customize/use-solutions-for-your-customizations.md)  
+  If you need to back up your templates, or use them in a different implementation of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can export them as part of exporting customizations. More information: [Export your customizations as a solution](../customize/use-solutions-for-your-customizations.md)  
   
 > [!NOTE]
 > [!INCLUDE[cc_CRM_Marketing_and_MDM](../includes/cc-crm-marketing-and-mdm.md)] 

@@ -724,6 +724,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_profileruleitem_Annotations"></a> profileruleitem_Annotations
 
 Same as annotation entity [profileruleitem_Annotations](annotation.md#BKMK_profileruleitem_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -738,6 +739,7 @@ Same as annotation entity [profileruleitem_Annotations](annotation.md#BKMK_profi
 ### <a name="BKMK_ChannelAccessProfileRuleItem_SyncErrors"></a> ChannelAccessProfileRuleItem_SyncErrors
 
 Same as syncerror entity [ChannelAccessProfileRuleItem_SyncErrors](syncerror.md#BKMK_ChannelAccessProfileRuleItem_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|

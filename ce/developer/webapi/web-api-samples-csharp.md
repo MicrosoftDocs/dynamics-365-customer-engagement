@@ -2,7 +2,7 @@
 title: "Web API Samples (C#) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This topic provides a description of various Web API samples that are implemented using C#"
 ms.custom: ""
-ms.date: 12/15/2017
+ms.date: 06/12/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -30,13 +30,13 @@ This topic provides information about the Web API samples implemented with C#. W
 ## Prerequisites  
  The following is required to build and run the Dynamics 365 Web API C# samples :  
   
--   A version of Microsoft Visual Studio 2015 or later.  A free version, [Visual Studio Community](https://www.visualstudio.com/products/visual-studio-community-vs.aspx), is available for download [here](https://www.visualstudio.com/downloads/download-visual-studio-vs.aspx).  
+- A version of Microsoft Visual Studio 2015 or later.  A free version, [Visual Studio Community](https://www.visualstudio.com/products/visual-studio-community-vs.aspx), is available for download [here](https://www.visualstudio.com/downloads/download-visual-studio-vs.aspx).  
   
--   An Internet connection to download and update the referenced NuGet packages.  
+- An Internet connection to download and update the referenced NuGet packages.  
   
--   Access to  Dynamics 365 Online or on-premises (or later). For all Dynamics 365 installation types, a user account with privileges to perform CRUD operations is required.  
+- Access to  Dynamics 365 Online or on-premises (or later). For all Dynamics 365 installation types, a user account with privileges to perform CRUD operations is required.  
   
--   In order to run samples against [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)], you must register your application with Azure Active Directory to obtain a client ID and redirect URL. For more information, see [Walkthrough: Register a Dynamics 365 app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md).  
+- In order to run samples against [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)], you must register your application with Azure Active Directory to obtain a client ID and redirect URL. For more information, see [Walkthrough: Register a Dynamics 365 app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md).  
 
 > [!NOTE]
 > These samples require version 2.x of assembly [Microsoft.IdentityModel.Client.ActiveDirectory](https://docs.microsoft.com/en-us/dotnet/api/microsoft.identitymodel.clients.activedirectory?view=azure-dotnet) for OAuth based authentication with [!INCLUDE[](../../includes/pn-crm-online.md)].
@@ -129,7 +129,7 @@ JObject contact2 = JsonConvert.DeserializeObject<JObject>(await response.Content
   
 if (response.StatusCode == HttpStatusCode.NoContent)  //204  
 {  
-Console.WriteLine("POST succeeded, entity created!”);  
+Console.WriteLine("POST succeeded, entity created!");  
 //optionally process response message headers or body here, for example:  
 entityUri = response.Headers.GetValues("OData-EntityId").FirstOrDefault();  
 entityUris.Add(entityUri);  

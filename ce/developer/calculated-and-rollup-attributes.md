@@ -27,41 +27,41 @@ manager: "amyla"
 ## Common elements and characteristics  
  Calculated and rollup attributes share some common elements and characteristics, for example:  
   
--   They’re read-only.  
+- They’re read-only.  
   
--   They’re not specific to the user. The calculation is performed using a system user account, so the values may be based on records that the user doesn’t otherwise have privileges to view, such as attributes that have field-level security enabled.  
+- They’re not specific to the user. The calculation is performed using a system user account, so the values may be based on records that the user doesn’t otherwise have privileges to view, such as attributes that have field-level security enabled.  
   
- All attributes that inherit from <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata> have a <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.SourceType> property that can contain the values shown in the following table.  
+  All attributes that inherit from <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata> have a <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.SourceType> property that can contain the values shown in the following table.  
   
-|Value|Description|  
-|-----------|-----------------|  
-|[!INCLUDE[null](../includes/null.md)]|Not a valid type of attribute to be a calculated or rollup attribute.|  
-|0|Simple attribute. The attribute isn’t defined as a calculated or rollup attribute.|  
-|1|Calculated attribute|  
-|2|Rollup attribute|  
+|                 Value                 |                                    Description                                     |
+|---------------------------------------|------------------------------------------------------------------------------------|
+| [!INCLUDE[null](../includes/null.md)] |       Not a valid type of attribute to be a calculated or rollup attribute.        |
+|                   0                   | Simple attribute. The attribute isn’t defined as a calculated or rollup attribute. |
+|                   1                   |                                Calculated attribute                                |
+|                   2                   |                                  Rollup attribute                                  |
   
  Calculated and rollup attributes are based on existing attribute types that inherit from <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata>. The following types of attributes have new properties:  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.BooleanAttributeMetadata>  
+- <xref:Microsoft.Xrm.Sdk.Metadata.BooleanAttributeMetadata>  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata>  
+- <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata>  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.DecimalAttributeMetadata>  
+- <xref:Microsoft.Xrm.Sdk.Metadata.DecimalAttributeMetadata>  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.IntegerAttributeMetadata>  
+- <xref:Microsoft.Xrm.Sdk.Metadata.IntegerAttributeMetadata>  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.MoneyAttributeMetadata>  
+- <xref:Microsoft.Xrm.Sdk.Metadata.MoneyAttributeMetadata>  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.PicklistAttributeMetadata>  
+- <xref:Microsoft.Xrm.Sdk.Metadata.PicklistAttributeMetadata>  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.StringAttributeMetadata>  
+- <xref:Microsoft.Xrm.Sdk.Metadata.StringAttributeMetadata>  
   
- Each of these types of attributes have the following properties to support calculations and rollups.  
+  Each of these types of attributes have the following properties to support calculations and rollups.  
   
-|Property|Definition|  
-|--------------|----------------|  
-|`FormulaDefinition`|Contains the XAML definition of the formula used to perform the calculation or rollup. The only supported way to change this value is through the application formula editor.<br /><br /> For information about configuring the formulas for these attributes see the following topics in the customization guide: [Define rollup fields](https://technet.microsoft.com/library/dn832162.aspx) and [Define calculated fields](https://technet.microsoft.com/library/dn832103.aspx).|  
-|`SourceTypeMask`|The bitmask value of this read-only property describes the types of sources used in the formula of the calculated attribute or if the formula of a calculated or rollup attribute is not valid.<br /><br /> -   0: **Undefined**. The default value for simple and rollup attributes.<br />-   1: **Simple**. The calculated attribute refers to an attribute in the same record.<br />-   2: **Related**. The calculated attribute refers to an attribute in a related record.<br />-   4: `Logical`. The calculated attribute refers to an attribute in the same record which is actually stored in a different database table. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Logical attributes](introduction-entity-attributes.md#BKMK_LogicalAttributes)<br />-   8: `Calculated`. The calculated attribute refers to another calculated attribute.<br />-   16: `Rollup`. The calculated attribute refers a rollup attribute.<br />-   32: `Invalid`. The calculated or rollup field is invalid.<br />     Typically this would be where a field refers to an attribute that no longer exists. **Note:**  One or more of these conditions may be true for any calculated or rollup field. Because this is a bitmask value, you may find it useful to use the [SourceTypeMasks enumeration](calculated-rollup-attributes.md#BKMK_SourceTypeMasks) when performing bitwise operations.|  
+|      Property       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Definition                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `FormulaDefinition` |                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Contains the XAML definition of the formula used to perform the calculation or rollup. The only supported way to change this value is through the application formula editor.<br /><br /> For information about configuring the formulas for these attributes see the following topics in the customization guide: [Define rollup fields](https://technet.microsoft.com/library/dn832162.aspx) and [Define calculated fields](https://technet.microsoft.com/library/dn832103.aspx).                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|  `SourceTypeMask`   | The bitmask value of this read-only property describes the types of sources used in the formula of the calculated attribute or if the formula of a calculated or rollup attribute is not valid.<br /><br /> -   0: **Undefined**. The default value for simple and rollup attributes.<br />-   1: **Simple**. The calculated attribute refers to an attribute in the same record.<br />-   2: **Related**. The calculated attribute refers to an attribute in a related record.<br />-   4: `Logical`. The calculated attribute refers to an attribute in the same record which is actually stored in a different database table. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Logical attributes](introduction-entity-attributes.md#BKMK_LogicalAttributes)<br />-   8: `Calculated`. The calculated attribute refers to another calculated attribute.<br />-   16: `Rollup`. The calculated attribute refers a rollup attribute.<br />-   32: `Invalid`. The calculated or rollup field is invalid.<br />     Typically this would be where a field refers to an attribute that no longer exists. **Note:**  One or more of these conditions may be true for any calculated or rollup field. Because this is a bitmask value, you may find it useful to use the [SourceTypeMasks enumeration](calculated-rollup-attributes.md#BKMK_SourceTypeMasks) when performing bitwise operations. |
   
 <a name="BKMK_Calculated"></a>   
 ## Calculated attributes  
@@ -97,9 +97,9 @@ manager: "amyla"
   
  Each rollup attribute for an entity will also include two supporting attributes for the rollup attribute:  
   
--   *\<attribute SchemaName>* `_Date`: DateTime – When the rollup was last calculated.  
+- *\<attribute SchemaName>* `_Date`: DateTime – When the rollup was last calculated.  
   
--   *\<attribute SchemaName>* `_State`: Integer – The state of the rollup calculation. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Rollup state values](calculated-rollup-attributes.md#BKMK_RollupStateValues)  
+- *\<attribute SchemaName>* `_State`: Integer – The state of the rollup calculation. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Rollup state values](calculated-rollup-attributes.md#BKMK_RollupStateValues)  
   
 <a name="BKMK_RollupStateValues"></a>   
 ### Rollup state values  

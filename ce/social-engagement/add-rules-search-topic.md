@@ -2,7 +2,7 @@
 title: "Add rules to a Social Engagement search topic | Microsoft Docs"
 description: "Learn how to add more rules to a search topic to gather additional data."
 keywords: "search topic, search rule, Social Engagement"
-ms.date: 04/10/2018
+ms.date: 05/08/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -28,8 +28,6 @@ You need to be a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-
 
 - **[Twitter rule](#add-a-twitter-rule)** ![Twitter symbol](media/twitter-icon.png "Twitter symbol"): Capture mentions, replies, tweets, or retweets from a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] account.
 
-<!-- - **[Instagram rule](#add-an-instagram-rule)** ![Instagram symbol](media/instagram-icon.png "Instagram symbol"): Gather posts and comments from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts. -->
-
 - **[Private messages rule](#add-a-private-messages-rule)** ![Private messages symbol](media/private-message-icon.png "Private messages symbol"): Get private messages that were sent to a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page that has been authenticated in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and [allows private message acquisition](manage-access-tokens.md#tokens-for-data-acquisition).
 
 - **[Custom sources rule](#add-a-custom-sources-rule)** ![Custom sources symbol](media/custom-sources-icon.png "Custom sources symbol"): Gather posts from public RSS feeds in your custom source groups.
@@ -46,7 +44,7 @@ To enable searches and collect posts, add one or more rules to a search topic.
 
 > [!IMPORTANT]
 >  Your keywords, inclusions, and exclusions can each extend up to 128 characters. You can add up to 15 keywords and inclusions per search rule and up to 25 exclusions per search rule.  
->   
+> 
 >  Adding a rule usually leads to more posts resulting from your searches. The increased number of posts will count against your post quota. You'll need to validate every search topic that you changed before you can save it. It's a good idea to frequently review the results of a new or updated search topic to confirm that it collects relevant data and complies with your quota limits. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage your post quota](manage-post-quota.md)  
   
 ### Add a new rule  
@@ -75,22 +73,22 @@ To enable searches and collect posts, add one or more rules to a search topic.
   
 ### Add a new keywords rule  
   
-1.  Go to **Search Setup**.  
+1. Go to **Search Setup**.  
   
-2.  Select the search topic that you want to add the rule to, or create a new search topic.  
+2. Select the search topic that you want to add the rule to, or create a new search topic.  
   
-3.  Under **Rules**, click **Add new rule** (![Add button](media/add-icon.png "Add button")) to open the **Add Rule** page.  
+3. Under **Rules**, click **Add new rule** (![Add button](media/add-icon.png "Add button")) to open the **Add Rule** page.  
   
-4.  Click **Keywords rule**.  
+4. Click **Keywords rule**.  
   
-5.  Enter the keywords; select the inclusions, exclusions, and the filters that you want to use when searching for posts.  
+5. Enter the keywords; select the inclusions, exclusions, and the filters that you want to use when searching for posts.  
   
-6.  Select **Continue** in the **Add Rule** pane to add the rule to the search topic.  
+6. Select **Continue** in the **Add Rule** pane to add the rule to the search topic.  
   
-    > [!IMPORTANT]
-    >  The solution checks the quota availability for the new rule and prompts you accordingly. If your quota can't accommodate the new rule, you can't save it. Additionally, you'll find a preview of posts on [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] matching your rule.   
+   > [!IMPORTANT]
+   >  The solution checks the quota availability for the new rule and prompts you accordingly. If your quota can't accommodate the new rule, you can't save it. Additionally, you'll find a preview of posts on [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] matching your rule.   
   
-7.  In the search topic pane, click **Save** (![Save button](media/save-icon.png "Save button")) to activate your rule.  
+7. In the search topic pane, click **Save** (![Save button](media/save-icon.png "Save button")) to activate your rule.  
   
 ### Add keywords to search for  
 Keywords define the terms and phrases to listen for. Keywords are exact, but not case-sensitive. We recommend that you include variations of keywords. For example, if your keyword is **phone** and the term that appears in a post is **phones**, your result won't be selected by the search rule and the result won't show up in your analysis. For each keyword, the comma serves as an OR. If you add more than one search term, your search rule looks for at least one of the listed terms. To increase the likelihood of getting the results you want, think about adding acronyms and common contractions.  
@@ -104,7 +102,7 @@ For example, let's assume that you want to listen to posts about a product that 
 ### Add inclusions to a keywords rule  
 Narrow your search by adding inclusions so that you get a much higher quality selection of posts. Think of inclusions as the word AND. Your search will be filtered so that posts are selected only if they contain at least one of the keywords *and* at least one of the inclusions. Inclusions aren't case-sensitive.  
   
-When listening to posts about a product, you want to make sure that posts relate to a product in the manufacturer's portfolio. Consider adding different spellings of the brand or company name. For example, to find posts that mention Contoso's product you might add something like this to the inclusions: **#contoso, Contoso, @contoso**. All posts that mention one of the keywords and one of the inclusions will now be found by this search rule.  
+When listening to posts about a product, you want to make sure that posts relate to a product in the manufacturer's portfolio. Consider adding different spellings of the brand or company name. For example, to find posts that mention Contoso's product you might add something like this to the inclusions: <strong>#contoso, Contoso, @contoso</strong>. All posts that mention one of the keywords and one of the inclusions will now be found by this search rule.  
   
 When you set up your search rule, you can choose from the following options to decide how close a keyword and an inclusion must appear in a post:  
   
@@ -167,28 +165,28 @@ Keep track of all conversations that happen on a [!INCLUDE[tn_facebook](../inclu
   
 ### Add a new Facebook pages rule  
   
-1.  Go to **Search Setup**.  
+1. Go to **Search Setup**.  
   
-2.  Select the search topic that you want to add the rule to, or create a new search topic.  
+2. Select the search topic that you want to add the rule to, or create a new search topic.  
   
-3.  Under **Rules**, click **Add new rule** (![Add button](media/add-icon.png "Add button")) to open the **Add Rule** page.  
+3. Under **Rules**, click **Add new rule** (![Add button](media/add-icon.png "Add button")) to open the **Add Rule** page.  
   
-4.  Click **Facebook pages rule**.  
+4. Click **Facebook pages rule**.  
   
-5.  In the input field, enter a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page URL.  
+5. In the input field, enter a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page URL.  
   
-6.  From the result, select the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page to add.  
+6. From the result, select the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page to add.  
   
-     or  
+    or  
   
-     Select a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page from the social profiles that you added.  
+    Select a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page from the social profiles that you added.  
   
-    > [!NOTE]
-    >  You can also add multiple [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profiles or pages to a rule in one step by clicking **Add** (![Add button](media/add-icon.png "Add button")) next to each page.  
+   > [!NOTE]
+   >  You can also add multiple [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] profiles or pages to a rule in one step by clicking **Add** (![Add button](media/add-icon.png "Add button")) next to each page.  
   
-7.  Click **Continue** in the **Add Rule** pane to add the rule to the search topic.  
+7. Click **Continue** in the **Add Rule** pane to add the rule to the search topic.  
   
-8.  In the search topic pane, click **Save** (![Save button](media/save-icon.png "Save button")) to activate your rule.  
+8. In the search topic pane, click **Save** (![Save button](media/save-icon.png "Save button")) to activate your rule.  
   
 <a name="addTwitterRule"></a>   
 ## Add a Twitter rule  
@@ -196,51 +194,32 @@ Follow conversations on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and ad
   
 ### Add a new Twitter rule  
   
-1.  Go to **Search Setup**.  
+1. Go to **Search Setup**.  
   
-2.  Select the search topic you want to add the rule to, or create a new search topic.  
+2. Select the search topic you want to add the rule to, or create a new search topic.  
   
-3.  Under **Rules**, click **Add new rule** (![Add button](media/add-icon.png "Add button")) to open the **Add Rule** page.  
+3. Under **Rules**, click **Add new rule** (![Add button](media/add-icon.png "Add button")) to open the **Add Rule** page.  
   
-4.  Click **Twitter rule**.  
+4. Click **Twitter rule**.  
   
-5.  In the search field, enter the [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] @username that you want to track.  
+5. In the search field, enter the [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] @username that you want to track.  
   
-    If you don't have a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile added to your social profiles, you need to sign in to [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] first to perform searches on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)].  
+   If you don't have a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile added to your social profiles, you need to sign in to [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] first to perform searches on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)].  
   
-6.  In the list of results, select the [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile to add.  
+6. In the list of results, select the [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile to add.  
   
-     or 
+    or 
   
-     Select a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile from social profiles that have already been added. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md)  
+    Select a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile from social profiles that have already been added. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md)  
   
-    > [!NOTE]
-    >  You can also add multiple [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles to a rule in one step by clicking **Add** (![Add button](media/add-icon.png "Add button")) next to each profile.  
+   > [!NOTE]
+   >  You can also add multiple [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles to a rule in one step by clicking **Add** (![Add button](media/add-icon.png "Add button")) next to each profile.  
   
-7.  Select the message types that you want to add to this rule.  
+7. Select the message types that you want to add to this rule.  
   
-8.  Click **Continue** in the **Add Rule** pane to add the rule to the search topic.  
+8. Click **Continue** in the **Add Rule** pane to add the rule to the search topic.  
   
 9. In the search topic pane, click **Save** (![Save button](media/save-icon.png "Save button")) to activate your rule.  
-  
-<!-- <a name="instagram_rule"></a>   
-## Add an Instagram rule  
-Create rules to gather posts from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts.  
-  
-1.  Go to **Search Setup**.  
-  
-2.  Select the search topic you want to add the rule to, or create a new search topic.  
-  
-3.  Under **Rules**, click **Add new rule** (![Add button](media/add-icon.png "Add button")) to open the **Add Rule** page.  
-  
-4.  Click **Instagram rule**.  
-  
-5.  In the search field, enter the [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] @username that you want to track.  
-  
-    > [!NOTE]
-    >  You can also add multiple [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts to a rule in one step by clicking **Add** (![Add button](media/add-icon.png "Add button")) next to each profile.  
-  
-6.  Click **Continue** in the **Add Rule** pane to add the rule to the search topic.  -->
   
 <a name="privateMessagesRule"></a>   
 ## Add a private messages rule  
@@ -254,24 +233,24 @@ To see the details of private messages that [!INCLUDE[pn_netbreeze_short](../inc
 
 ### Add a new private messages rule  
   
-1.  Go to **Search Setup**.  
+1. Go to **Search Setup**.  
   
-2.  Select the search topic you want to add the rule to, or create a new search topic.  
+2. Select the search topic you want to add the rule to, or create a new search topic.  
   
-3.  Under **Rules**, click **Add new rule** (![Add button](media/add-icon.png "Add button")) to open the **Add Rule** page.  
+3. Under **Rules**, click **Add new rule** (![Add button](media/add-icon.png "Add button")) to open the **Add Rule** page.  
   
-4.  Click **Private messages rule**.  
+4. Click **Private messages rule**.  
   
-5.  Select the social profile for which you want the private messages to be available in Analytics. Keep in mind that you can only choose from social profiles whose owners explicitly allowed data acquisition for private messages. You can also add multiple social profiles to a private messages rule in one step by clicking **Add** (![Add button](media/add-icon.png "Add button")) next to each profile.  
+5. Select the social profile for which you want the private messages to be available in Analytics. Keep in mind that you can only choose from social profiles whose owners explicitly allowed data acquisition for private messages. You can also add multiple social profiles to a private messages rule in one step by clicking **Add** (![Add button](media/add-icon.png "Add button")) next to each profile.  
   
-    > [!NOTE]
-    > If the system can't identify a language in a private message, or if an identified language isn't supported by [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], these private messages will be mapped to the first selected search language in **Global Settings** > **Search Languages**. You can't change the identified language of a post. 
-    > Text content is critical for language recognition. Private messages that contain an image only don't get acquired by [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
+   > [!NOTE]
+   > If the system can't identify a language in a private message, or if an identified language isn't supported by [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], these private messages will be mapped to the first selected search language in **Global Settings** > **Search Languages**. You can't change the identified language of a post. 
+   > Text content is critical for language recognition. Private messages that contain an image only don't get acquired by [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
   
-6.  Click **Continue** in the **Add Rule** pane to add the rule to the search topic.  
+6. Click **Continue** in the **Add Rule** pane to add the rule to the search topic.  
   
-7.  In the search topic pane, click **Save** (![Save button](media/save-icon.png "Save button")) to activate your rule.  
+7. In the search topic pane, click **Save** (![Save button](media/save-icon.png "Save button")) to activate your rule.  
   
 <a name="customSourceRule"></a>   
 ## Add a custom sources rule 
@@ -302,20 +281,20 @@ Gather video posts and comments from [!INCLUDE[tn_youtube](../includes/tn-youtub
 > [!NOTE]
 > After adding a new [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] rule, it might take several hours until the first videos and comments are acquired. The data acquisition of comments is focused on videos that have had user activity in the last month.
 
-1.  Go to **Search Setup**.  
+1. Go to **Search Setup**.  
   
-2.  Select the search topic you want to add the rule to, or create a new search topic.  
+2. Select the search topic you want to add the rule to, or create a new search topic.  
   
-3.  Under **Rules**, click **Add new rule** (![Add button](media/add-icon.png "Add button")) to open the **Add Rule** page.  
+3. Under **Rules**, click **Add new rule** (![Add button](media/add-icon.png "Add button")) to open the **Add Rule** page.  
   
-4.  Click **YouTube rule**.  
+4. Click **YouTube rule**.  
   
-5.  In the search field, enter the [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channel name that you want to track or select a [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] profile from the list.
+5. In the search field, enter the [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channel name that you want to track or select a [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] profile from the list.
   
-    > [!NOTE]
-    >  You can also add multiple [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels to a rule in one step by clicking **Add** (![Add button](media/add-icon.png "Add button")) next to each channel.  
+   > [!NOTE]
+   >  You can also add multiple [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels to a rule in one step by clicking **Add** (![Add button](media/add-icon.png "Add button")) next to each channel.  
   
-6.  Click **Continue** in the **Add Rule** pane to add the rule to the search topic.  
+6. Click **Continue** in the **Add Rule** pane to add the rule to the search topic.  
 
 <a name="linkedin-page-rule"></a> 
 ## Add a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] page rule

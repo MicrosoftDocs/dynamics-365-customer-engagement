@@ -715,6 +715,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_orderlineresourcecategory_SyncErrors"></a> msdyn_orderlineresourcecategory_SyncErrors
 
 Same as syncerror entity [msdyn_orderlineresourcecategory_SyncErrors](syncerror.md#BKMK_msdyn_orderlineresourcecategory_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -729,6 +730,7 @@ Same as syncerror entity [msdyn_orderlineresourcecategory_SyncErrors](syncerror.
 ### <a name="BKMK_msdyn_orderlineresourcecategory_DuplicateMatchingRecord"></a> msdyn_orderlineresourcecategory_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_orderlineresourcecategory_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_orderlineresourcecategory_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -743,6 +745,7 @@ Same as duplicaterecord entity [msdyn_orderlineresourcecategory_DuplicateMatchin
 ### <a name="BKMK_msdyn_orderlineresourcecategory_DuplicateBaseRecord"></a> msdyn_orderlineresourcecategory_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_orderlineresourcecategory_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_orderlineresourcecategory_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -757,6 +760,7 @@ Same as duplicaterecord entity [msdyn_orderlineresourcecategory_DuplicateBaseRec
 ### <a name="BKMK_msdyn_orderlineresourcecategory_AsyncOperations"></a> msdyn_orderlineresourcecategory_AsyncOperations
 
 Same as asyncoperation entity [msdyn_orderlineresourcecategory_AsyncOperations](asyncoperation.md#BKMK_msdyn_orderlineresourcecategory_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -771,6 +775,7 @@ Same as asyncoperation entity [msdyn_orderlineresourcecategory_AsyncOperations](
 ### <a name="BKMK_msdyn_orderlineresourcecategory_MailboxTrackingFolders"></a> msdyn_orderlineresourcecategory_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_orderlineresourcecategory_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_orderlineresourcecategory_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -785,6 +790,7 @@ Same as mailboxtrackingfolder entity [msdyn_orderlineresourcecategory_MailboxTra
 ### <a name="BKMK_msdyn_orderlineresourcecategory_UserEntityInstanceDatas"></a> msdyn_orderlineresourcecategory_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_orderlineresourcecategory_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_orderlineresourcecategory_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -799,6 +805,7 @@ Same as userentityinstancedata entity [msdyn_orderlineresourcecategory_UserEntit
 ### <a name="BKMK_msdyn_orderlineresourcecategory_ProcessSession"></a> msdyn_orderlineresourcecategory_ProcessSession
 
 Same as processsession entity [msdyn_orderlineresourcecategory_ProcessSession](processsession.md#BKMK_msdyn_orderlineresourcecategory_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -813,6 +820,7 @@ Same as processsession entity [msdyn_orderlineresourcecategory_ProcessSession](p
 ### <a name="BKMK_msdyn_orderlineresourcecategory_BulkDeleteFailures"></a> msdyn_orderlineresourcecategory_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_orderlineresourcecategory_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_orderlineresourcecategory_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -827,6 +835,7 @@ Same as bulkdeletefailure entity [msdyn_orderlineresourcecategory_BulkDeleteFail
 ### <a name="BKMK_msdyn_orderlineresourcecategory_PrincipalObjectAttributeAccesses"></a> msdyn_orderlineresourcecategory_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_orderlineresourcecategory_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_orderlineresourcecategory_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -841,6 +850,7 @@ Same as principalobjectattributeaccess entity [msdyn_orderlineresourcecategory_P
 ### <a name="BKMK_msdyn_orderlineresourcecategory_Annotations"></a> msdyn_orderlineresourcecategory_Annotations
 
 Same as annotation entity [msdyn_orderlineresourcecategory_Annotations](annotation.md#BKMK_msdyn_orderlineresourcecategory_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|

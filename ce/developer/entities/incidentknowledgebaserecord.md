@@ -212,6 +212,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_incidentknowledgebaserecord_AsyncOperations"></a> incidentknowledgebaserecord_AsyncOperations
 
 Same as asyncoperation entity [incidentknowledgebaserecord_AsyncOperations](asyncoperation.md#BKMK_incidentknowledgebaserecord_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -226,6 +227,7 @@ Same as asyncoperation entity [incidentknowledgebaserecord_AsyncOperations](asyn
 ### <a name="BKMK_incidentknowledgebaserecord_MailboxTrackingFolders"></a> incidentknowledgebaserecord_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [incidentknowledgebaserecord_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_incidentknowledgebaserecord_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -240,6 +242,7 @@ Same as mailboxtrackingfolder entity [incidentknowledgebaserecord_MailboxTrackin
 ### <a name="BKMK_incidentknowledgebaserecord_UserEntityInstanceDatas"></a> incidentknowledgebaserecord_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [incidentknowledgebaserecord_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_incidentknowledgebaserecord_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -254,6 +257,7 @@ Same as userentityinstancedata entity [incidentknowledgebaserecord_UserEntityIns
 ### <a name="BKMK_incidentknowledgebaserecord_BulkDeleteFailures"></a> incidentknowledgebaserecord_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [incidentknowledgebaserecord_BulkDeleteFailures](bulkdeletefailure.md#BKMK_incidentknowledgebaserecord_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -268,6 +272,7 @@ Same as bulkdeletefailure entity [incidentknowledgebaserecord_BulkDeleteFailures
 ### <a name="BKMK_incidentknowledgebaserecord_PrincipalObjectAttributeAccesses"></a> incidentknowledgebaserecord_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [incidentknowledgebaserecord_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_incidentknowledgebaserecord_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

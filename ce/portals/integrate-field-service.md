@@ -24,7 +24,7 @@ Customers can view active and expired agreements that are connected to their acc
 
 ### To create or edit an agreement to be visible on the portal
 
-1.  In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Field Service** &gt; **Service Delivery** &gt; **Agreements**. 
+1. In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Field Service** &gt; **Service Delivery** &gt; **Agreements**. 
 2. Select an agreement, or select **+ New** at the top of the page to create a new one. 
 3. In the **Service Account** field on the **General** tab, enter the account the customer is connected to. 
 4. Select the **Expose to Customer** check box. 

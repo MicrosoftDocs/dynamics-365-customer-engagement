@@ -8,13 +8,13 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 author: "mduelae"
 ms.assetid: f5c366db-30d2-44c6-89f4-89a566dae188
 caps.latest.revision: 26
-ms.author: "jimholtz"
-manager: "brycho"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Secure your mobile data from loss or theft
 
@@ -29,21 +29,21 @@ manager: "brycho"
  
 ## Start and sign in to the Dynamics 365 for Good app  
   
-1.  Open the [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] app.  
+1. Open the [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] app.  
   
-2.  When prompted, type in your email address and [!INCLUDE[pn_good_shortest](../includes/pn-good-shortest.md)] access key. (If you don’t have a [!INCLUDE[pn_good_shortest](../includes/pn-good-shortest.md)] access key, contact your [!INCLUDE[pn_good_shortest](../includes/pn-good-shortest.md)] admin to get one.) Instead, the sign-in screen might ask for your Auth Delegate or password for other [!INCLUDE[pn_good_shortest](../includes/pn-good-shortest.md)] apps you might have installed for easy activation.  
+2. When prompted, type in your email address and [!INCLUDE[pn_good_shortest](../includes/pn-good-shortest.md)] access key. (If you don’t have a [!INCLUDE[pn_good_shortest](../includes/pn-good-shortest.md)] access key, contact your [!INCLUDE[pn_good_shortest](../includes/pn-good-shortest.md)] admin to get one.) Instead, the sign-in screen might ask for your Auth Delegate or password for other [!INCLUDE[pn_good_shortest](../includes/pn-good-shortest.md)] apps you might have installed for easy activation.  
   
-3.  When prompted, select a [!INCLUDE[pn_good_shortest](../includes/pn-good-shortest.md)] security password.  
+3. When prompted, select a [!INCLUDE[pn_good_shortest](../includes/pn-good-shortest.md)] security password.  
   
-4.  On the **Let’s get set up!** screen, enter your company’s [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web address.  
+4. On the **Let’s get set up!** screen, enter your company’s [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web address.  
   
- ![Dynamics 365 for tablets Let's get started screen for iPad](../admin/media/mobile-start-screen-apple.png "Dynamics 365 for tablets Let's get started screen for iPad")  
+   ![Dynamics 365 for tablets Let's get started screen for iPad](../admin/media/mobile-start-screen-apple.png "Dynamics 365 for tablets Let's get started screen for iPad")  
   
-5.  Tap the **Arrow** button in the lower right corner to continue.  
+5. Tap the **Arrow** button in the lower right corner to continue.  
   
-6.  When prompted, type in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] credentials.  
+6. When prompted, type in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] credentials.  
   
- Now that you’re signed in to the [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] app, check out the [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md) to find out all you can do.  
+   Now that you’re signed in to the [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] app, check out the [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md) to find out all you can do.  
   
 ## Accessing email and other apps through Dynamics 365 for Good  
  If you get an alert when you try to use email or other apps through [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)], your admin may be controlling communication to these apps for security purposes. Contact your [!INCLUDE[pn_good_shortest](../includes/pn-good-shortest.md)] admin to find out which apps your company uses in conjunction with [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)], along with any settings that need to be configured.  

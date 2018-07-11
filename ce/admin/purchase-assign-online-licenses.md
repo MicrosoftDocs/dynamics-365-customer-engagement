@@ -34,41 +34,41 @@ manager: "brycho"
 <a name="BKMK_PurchaseLicense"></a>   
 ## Purchase a Dynamics 365 (online) license  
   
-1.  Browse to the [Office 365 admin center](https://portal.office.com) and sign in as a global admin.  
+1. Browse to the [Office 365 admin center](https://portal.office.com) and sign in as a global admin.  
   
-2.  Click **Billing** > **Purchase Services**.  
+2. Click **Billing** > **Purchase Services**.  
   
- ![Office 365 Purchase Services](../admin/media/office-365-purchase-services.png "Office 365 Purchase Services")  
+   ![Office 365 Purchase Services](../admin/media/office-365-purchase-services.png "Office 365 Purchase Services")  
   
-3.  Select the subscription that best fits your company's [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] needs.  
+3. Select the subscription that best fits your company's [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] needs.  
   
-4.  Click **Buy now** and then follow the steps to purchase a new license.  
+4. Click **Buy now** and then follow the steps to purchase a new license.  
   
- ![Dynamics 365 Sales Plan buy now](../admin/media/dynamics-365-sales-plan-buy-now.png "Dynamics 365 Sales Plan buy now")  
+   ![Dynamics 365 Sales Plan buy now](../admin/media/dynamics-365-sales-plan-buy-now.png "Dynamics 365 Sales Plan buy now")  
   
 <a name="BKMK_AssignLicense"></a>  
  
 ## Assign a license to a user  
   
-1.  Browse to the [Office 365 admin center](https://portal.office.com) and sign in as a global admin.  
+1. Browse to the [Office 365 admin center](https://portal.office.com) and sign in as a global admin.  
   
-2.  Click **Users** > **Active users**.  
+2. Click **Users** > **Active users**.  
   
-3.  Select multiple users, and then click **Edit product licenses**.  
+3. Select multiple users, and then click **Edit product licenses**.  
   
- ![Edit product licenses for multiple users](../admin/media/edit-product-licenses-multiple-users.png "Edit product licenses for multiple users")  
+   ![Edit product licenses for multiple users](../admin/media/edit-product-licenses-multiple-users.png "Edit product licenses for multiple users")  
   
-4.  Click **Replace existing product license assignments**, and then click **Next**.  
+4. Click **Replace existing product license assignments**, and then click **Next**.  
   
-5.  Turn on the license for your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] plan.  
+5. Turn on the license for your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] plan.  
   
- ![Dynamics 365 Customer Engagement Plan Enterprise Edition license](../admin/media/dynamics-365-plan-1-enterprise-edition-license.png "Dynamics 365 Customer Engagement Plan Enterprise Edition license")  
+   ![Dynamics 365 Customer Engagement Plan Enterprise Edition license](../admin/media/dynamics-365-plan-1-enterprise-edition-license.png "Dynamics 365 Customer Engagement Plan Enterprise Edition license")  
   
-6.  Click **Replace**, and then click **Close** twice.  
+6. Click **Replace**, and then click **Close** twice.  
   
-7.  Review the license status on the Active users page and make other assignments as needed.  
+7. Review the license status on the Active users page and make other assignments as needed.  
   
- ![Active users page](../admin/media/active-users-page.png "Active users page")  
+   ![Active users page](../admin/media/active-users-page.png "Active users page")  
 
 ## PowerApps licensing
 

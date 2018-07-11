@@ -44,15 +44,15 @@ Use [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-fiel
 ## Prerequisites  
  Before you install [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)], make sure you have the following:  
   
--   [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)  
+- [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)  
   
--   O365 Global Administrator or Dynamics 365 System Administrator credentials.  
+- O365 Global Administrator or Dynamics 365 System Administrator credentials.  
   
--   An IoT – Administrator role in the IoT solution (to access IoT entities and IoT functionality), plus another role, like Field Service – Dispatcher (to access Dynamics 365).  
+- An IoT – Administrator role in the IoT solution (to access IoT entities and IoT functionality), plus another role, like Field Service – Dispatcher (to access Dynamics 365).  
   
--   An active Azure subscription. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [What is Azure?](https://azure.microsoft.com/en-us/overview/what-is-azure)  
+- An active Azure subscription. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [What is Azure?](https://azure.microsoft.com/en-us/overview/what-is-azure)  
   
--   Microsoft Power BI PRO and the sample report template. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Download the Power BI Template for Connected Field Service](http://download.microsoft.com/download/E/B/5/EB5ED97A-A36A-4CAE-8C04-333A1E463B4F/PowerBI%20Report%20Template%20for%20Connected%20Field%20Service%20for%20Microsoft%20Dynamics%20365.pbix)  
+- Microsoft Power BI PRO and the sample report template. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Download the Power BI Template for Connected Field Service](http://download.microsoft.com/download/E/B/5/EB5ED97A-A36A-4CAE-8C04-333A1E463B4F/PowerBI%20Report%20Template%20for%20Connected%20Field%20Service%20for%20Microsoft%20Dynamics%20365.pbix)  
   
 <a name="bkmk_install"></a>   
 ## Install Connected Field Service  
@@ -60,21 +60,21 @@ Use [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-fiel
   
  Developers can also use the simulator as a sample template to further customize the app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connected Field Service Developer Guide](https://msdn.microsoft.com/en-us/library/mt790241.aspx)  
   
-1.  Sign in to [https://portal.office.com](https://portal.office.com) with your Global Administrator or Dynamics 365 system administrator credentials.  
+1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global Administrator or Dynamics 365 system administrator credentials.  
   
-2.  Click **Admin centers** > **Dynamics 365**  
+2. Click **Admin centers** > **Dynamics 365**  
   
-3.  Click the **Applications** tab, and then select **Connected Field Service**.  
+3. Click the **Applications** tab, and then select **Connected Field Service**.  
   
-4.  Click **Manage**.  
+4. Click **Manage**.  
   
-5.  Read and accept the **Terms of service**.  
+5. Read and accept the **Terms of service**.  
   
-6.  In the **Installing Azure Required Assets** dialog box, enter your Azure account, click **Sign In User**, and then  follow the sign-in process.  
+6. In the **Installing Azure Required Assets** dialog box, enter your Azure account, click **Sign In User**, and then  follow the sign-in process.  
   
-7.  In the **Selecting Azure Subscription** dialog box, select the Azure subscription that you want to create resources under and then click **Next**.  
+7. In the **Selecting Azure Subscription** dialog box, select the Azure subscription that you want to create resources under and then click **Next**.  
   
-8.  In the **Choose a resource group** dialog box, create a new resource group or use an existing resource group.  
+8. In the **Choose a resource group** dialog box, create a new resource group or use an existing resource group.  
   
 9. **Optional Step for Power BI**.  To install the Azure SQL database that is used for Power BI, check the **Enable Power BI Integration** box, and then enter the Azure SQL database user name and password.  
   
@@ -83,7 +83,7 @@ Use [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-fiel
   
 10. Click **Deploy**.  
   
- After you’ve installed all required Azure resources, click **Authorize** to configure the Dynamics 365 connector connection API . When you configure the connection API you’ll need to enter your Dynamics 365 subscription account.  
+    After you’ve installed all required Azure resources, click **Authorize** to configure the Dynamics 365 connector connection API . When you configure the connection API you’ll need to enter your Dynamics 365 subscription account.  
   
 > [!NOTE]
 >  Before you click the **Authorize** button, make sure all required Azure resources are successfully deployed and that the overall deployment status is “Success”.  
@@ -91,19 +91,19 @@ Use [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-fiel
 ### Set up the sample simulator (optional)  
  To find the simulator URL , sign in to your Azure subscription, and then click the App Service resource type under the newly created resource group. You’ll see the URL is in the top right corner. Copy the URL and complete the following steps:  
   
-1.  Paste the URL into your browser’s address bar to load the page.  
+1. Paste the URL into your browser’s address bar to load the page.  
   
-2.  When the simulator page opens, click **Configuration**.  
+2. When the simulator page opens, click **Configuration**.  
   
-3.  Enter the IoT hub host name and key. This information is in your Azure portal.  
+3. Enter the IoT hub host name and key. This information is in your Azure portal.  
   
-4.  Select the IoT hub in the **Resource Group**.  
+4. Select the IoT hub in the **Resource Group**.  
   
-5.  On the left under **General**, click **Shared access policies** to get the host name and primary key.  
+5. On the left under **General**, click **Shared access policies** to get the host name and primary key.  
   
-6.  Make sure **Connection status**  is marked as **Connected** and then close the dialog box.  
+6. Make sure **Connection status**  is marked as **Connected** and then close the dialog box.  
   
- Now you can send a test command by using the sample simulator. For example, click the temperature and increase it to  above 70 degrees.  
+   Now you can send a test command by using the sample simulator. For example, click the temperature and increase it to  above 70 degrees.  
   
 <a name="bkmk_register"></a>   
 ## Register devices that you want to monitor in Dynamics 365  
@@ -128,35 +128,35 @@ Use [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-fiel
 ### Set up a Power BI chart (optional)  
  Set up Power BI  accounts and open the sample .pbix report.  
   
-1.  Go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com) and create a free Power BI account .  
+1. Go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com) and create a free Power BI account .  
   
-2.  [Install Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).  
+2. [Install Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).  
   
-3.  Sign in to Power BI Desktop with the Power BI user credentials (we recommend that this user is the same as the Dynamics 365 user).  
+3. Sign in to Power BI Desktop with the Power BI user credentials (we recommend that this user is the same as the Dynamics 365 user).  
   
-4.  Download and open the sample Power BI template.  
+4. Download and open the sample Power BI template.  
   
- The Power BI report will open with errors because it was created with a sample SQL database and user. Update the query with your SQL database and user, and then publish the report to Power BI.  
+   The Power BI report will open with errors because it was created with a sample SQL database and user. Update the query with your SQL database and user, and then publish the report to Power BI.  
   
 #### Update the query to point to your SQL database  
   
-1.  Click **Edit Queries**.  
+1. Click **Edit Queries**.  
   
-2.  Click **Advanced Editor**.  
+2. Click **Advanced Editor**.  
   
-3.  Replace the source SQL database with the database provisioned in your Azure resource group.  
+3. Replace the source SQL database with the database provisioned in your Azure resource group.  
   
-4.  Click **Close and Apply**.  
+4. Click **Close and Apply**.  
   
-     You can find your SQL server name in the SQL database in the Azure portal.  
+    You can find your SQL server name in the SQL database in the Azure portal.  
   
-5.  Add your IP address to the SQL server firewall to allow Power BI Desktop to connect to the SQL server.  
+5. Add your IP address to the SQL server firewall to allow Power BI Desktop to connect to the SQL server.  
   
-6.  Copy the IP address when you see this message.  
+6. Copy the IP address when you see this message.  
   
- ![Microsoft SQL message](../field-service/media/do-not-use3.png "Microsoft SQL message")  
+   ![Microsoft SQL message](../field-service/media/do-not-use3.png "Microsoft SQL message")  
   
-7.  Go to the Azure portal, open the SQL server, and add your IP address to the firewall.  
+7. Go to the Azure portal, open the SQL server, and add your IP address to the firewall.  
   
 #### Publish to your Power BI account  
   

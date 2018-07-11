@@ -24,9 +24,9 @@ manager: "brycho"
   
  You may see a network or server error message if your computer or your organization's network blocks the URLs you need. The error message might look like one of these:  
   
--   "The specified [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] address (URL) is not responding. Ask your administrator to verify that the server is turned on, and then try again."  
+- "The specified [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] address (URL) is not responding. Ask your administrator to verify that the server is turned on, and then try again."  
   
--   "There is a problem communicating with the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]. The server might be unavailable."  
+- "There is a problem communicating with the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]. The server might be unavailable."  
   
 You can unblock these URLs on your computer by adding them to a list of approved sites in your browser.  
   

@@ -23,26 +23,26 @@ If you would like another person in your organization to handle an account or co
   
  You can also assign a record to a team, or to yourself.  
   
-1.  Go to **Accounts** or **Contacts**. [How do I get there?](../basics/navigation-customer-engagement-enterprise.md)  
+1. Go to **Accounts** or **Contacts**. [How do I get there?](../basics/navigation-customer-engagement-enterprise.md)  
   
-2.  In the list of records, select the record that you want.  
+2. In the list of records, select the record that you want.  
   
-     In the command bar, click the **More Commands** button![More commands button](../basics/media/morecommands.gif "More commands button"), and then click **Assign**.  
+    In the command bar, click the **More Commands** button![More commands button](../basics/media/morecommands.gif "More commands button"), and then click **Assign**.  
   
-3.  If using the Dynamics 365 web application:    In the command bar, click More Commands (![More commands button](../basics/media/morecommands.gif "More commands button")), and then click **Assign**.  
-<!-->  
-     If using Dynamics 365 for Outlook: In the **Collaborate** group, click **Assign**.  
--->
+3. If using the Dynamics 365 web application:    In the command bar, click More Commands (![More commands button](../basics/media/morecommands.gif "More commands button")), and then click **Assign**.  
+   &lt;!--&gt;  
+    If using Dynamics 365 for Outlook: In the **Collaborate** group, click **Assign**.  
+   -->
   
-4.  In the **Assign** dialog box, click:  
+4. In the **Assign** dialog box, click:  
   
-    - **Assign to me**  
+   - **Assign to me**  
   
-         \- OR -  
+        \- OR -  
   
-    - **Assign to another user or team**  
+   - **Assign to another user or team**  
   
-         Click **Lookup**, and then click **Look Up More Records**. From the **Look for** drop-down list, select **User** or **Team**. In the **Search** box, type the name, click the search icon, and then click the name to select it. Click **Add**.  
+        Click **Lookup**, and then click **Look Up More Records**. From the **Look for** drop-down list, select **User** or **Team**. In the **Search** box, type the name, click the search icon, and then click the name to select it. Click **Add**.  
   
 5. [!INCLUDE[proc_click_or_tap_ok](../includes/proc-click-or-tap-ok.md)]
  

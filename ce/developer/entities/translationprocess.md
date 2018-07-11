@@ -669,6 +669,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_TranslationProcess_ProcessSessions"></a> TranslationProcess_ProcessSessions
 
 Same as processsession entity [TranslationProcess_ProcessSessions](processsession.md#BKMK_TranslationProcess_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -683,6 +684,7 @@ Same as processsession entity [TranslationProcess_ProcessSessions](processsessio
 ### <a name="BKMK_lk_translationprocess_workflowlogs"></a> lk_translationprocess_workflowlogs
 
 Same as workflowlog entity [lk_translationprocess_workflowlogs](workflowlog.md#BKMK_lk_translationprocess_workflowlogs) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|workflowlog|
@@ -697,6 +699,7 @@ Same as workflowlog entity [lk_translationprocess_workflowlogs](workflowlog.md#B
 ### <a name="BKMK_TranslationProcess_SyncErrors"></a> TranslationProcess_SyncErrors
 
 Same as syncerror entity [TranslationProcess_SyncErrors](syncerror.md#BKMK_TranslationProcess_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|

@@ -26,7 +26,7 @@ This group of  samples demonstrate how to query data using the [!INCLUDE[pn_dyna
 
 - [Query Data Sample (C#)](web-api-query-data-sample-csharp.md)
 
- This topic describes a common set of operations implemented by each sample in this group. This topic describes the HTTP requests and responses and text output that each sample in this group will perform without the language specific details. See the language specific descriptions and the individual samples for details about how this operations are performed.
+  This topic describes a common set of operations implemented by each sample in this group. This topic describes the HTTP requests and responses and text output that each sample in this group will perform without the language specific details. See the language specific descriptions and the individual samples for details about how this operations are performed.
 
 ## Demonstrates
 
