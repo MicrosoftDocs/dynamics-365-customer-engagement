@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 06/13/2018
+ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -25,6 +25,18 @@ For a detailed list of improvements and bug fixes for the latest release, see ou
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
 
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.7
+
+### New sign-in URL for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+
+A new sign-in page is available to sign in directly to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] without memorizing the solution URL or going through the Office 365 portal. Go to [http://social.dynamics.com/login](http://social.dynamics.com/login) to sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
+
+### Removal of interaction functionality for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] user profiles
+
+With the release of [!INCLUDE [tn-facebook](../includes/tn-facebook.md)]'s Graph API v3.0 on August 1, 2018, [social profiles for Facebook](manage-social-profiles.md) users in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] can't interact with posts anymore. With this release, we're removing the option to create new [interaction tokens for Facebook user](manage-access-tokens.md) profiles. The logic for data acquisition doesn't change. You still need to create a **[!INCLUDE [tn-facebook](../includes/tn-facebook.md)] Acquisition** profile to allow data acquisition from [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages you administer. 
+
+With the upcoming Update 1.8 in August, we'll also remove the interaction controls for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] user profiles from the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user interface. 
+
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.6
 
 ### Change of permissions for newly invited users
@@ -38,6 +50,7 @@ On June 16, 2018, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement
 ### Disabling TLS 1.0 and TLS 1.1 in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
 The [Transport Layer Security (TLS) protocol](https://msdn.microsoft.com/en-us/library/windows/desktop/ms721627(v=vs.85).aspx#_security_transport_layer_security_protocol_gly) is most widely recognized as the protocol that provides secure HTTP (HTTPS) for connections between web browsers and web servers. The TLS 1.0 protocol version was defined in 1999. While no longer the default security protocol in use by modern operating systems, TLS 1.0 is still supported for backward compatibility. The same applies for TLS 1.1. 
+
 [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will remove the support of TLS 1.0 and TLS 1.1 in order to align with [!INCLUDE [cc-microsoft](../includes/cc-microsoft.md)] compliance requirements and security best practices.
 
 #### What is the impact?
@@ -47,7 +60,8 @@ After [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 
 #### How to avoid interruptions in the user experience
 
 We recommend switching to a browser supporting TLS 1.2.
-All major browser (Edge, Internet Explorer, Firefox, Chrome, Safari, Opera) releases after April 2016 support TLS 1.2.
+
+All major releases of browsers (Microsoft Edge, Internet Explorer, Firefox, Chrome, Safari, Opera) after April 2016 support TLS 1.2.
 
 | Browser |  | Version| Remarks |
 |---------|---|--------|---------|
@@ -94,7 +108,7 @@ Existing search rules for [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] 
 
 The [author tags filter](understand-filters.md#author-tags) now lets you exclude specific author tags from your data set. 
 
-### Usability improvements extended tweet length
+### Usability improvements for extended tweet length
 
 Twitter extended its support for longer messages in November 2017. For most languages, the limits were the same. This update adds support for Korean, Thai, and Simplified Chinese. 
 
@@ -140,7 +154,7 @@ With an administrator configuration role in [!INCLUDE[pn_netbreeze_short](../inc
 
 As of February 6, 2018, [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] updated its API to pull data for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages. After that date, author information for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] posts is only available for pages that have been added as a social profile to your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. The content of posts and comments, as well as enrichments such as sentiment, continue to be available for posts and comments without author information. We recommend you add page access tokens for every [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page as a result of this change.   
 
-[Read more about the experience for Facebook Pages in Social Engagement.](facebook-pages-data-acquisition.md)
+[Read more about the experience for Facebook pages in Social Engagement.](facebook-pages-data-acquisition.md)
 
 ### Service and product improvements
 
