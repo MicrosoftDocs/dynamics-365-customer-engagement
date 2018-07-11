@@ -2,7 +2,7 @@
 title: "Analytics for locations in Social Engagement | Microsoft Docs"
 description: "Learn how to focus your analysis on location data in Social Engagement."
 keywords: "analytics, locations, maps, location analysis"
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
