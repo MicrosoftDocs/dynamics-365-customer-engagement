@@ -527,6 +527,9 @@ The Dynamics 365 App for Outlook tracks and synchronizes your mail and calendar 
 
 ![Outlook app sync](media/sync_table.png "Outlook app sync")
 
+   > [!NOTE]
+   > Server Side Synchronization is used to promote emails when Microsoft Outlook includes images in email signatures as attachments.
+
 If the Dynamics 365 App for Outlook uses Server Side Synchronization to track an item to Dynamics 365, the track status of the item will be “Pending”.
 
 ![Outlook app server side sync](media/Outlook_app_server_side_sync.png "Outlook app server side sync")
