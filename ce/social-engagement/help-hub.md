@@ -64,11 +64,11 @@ ms.custom:
 
 <h2> Additional resources </h2>
 
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=861639" data-raw-source="[Video training course on MVA (English only)](https://go.microsoft.com/fwlink/p/?linkid=861639)">Video training course on MVA (English only)</a></li>
-<li><a href="http://go.microsoft.com/fwlink/p/?LinkId=400720" data-raw-source="[YouTube playlist](http://go.microsoft.com/fwlink/p/?LinkId=400720)">YouTube playlist</a></li>
-<li><a href="http://go.microsoft.com/fwlink/p/?LinkId=400719" data-raw-source="[Community forum](http://go.microsoft.com/fwlink/p/?LinkId=400719)">Community forum</a></li>
-<li><a href="http://go.microsoft.com/fwlink/p/?LinkId=394391" data-raw-source="[Contact support](http://go.microsoft.com/fwlink/p/?LinkId=394391)">Contact support</a></li>
-<li><a href="https://experience.dynamics.com/trials/" data-raw-source="[Request a trial] (https://experience.dynamics.com/trials/)">Request a trial</a></li>
+<li>[Video training course on MVA (English only)](https://go.microsoft.com/fwlink/p/?linkid=861639)</li>
+<li>[YouTube playlist](http://go.microsoft.com/fwlink/p/?LinkId=400720)</li>
+<li>[Community forum](http://go.microsoft.com/fwlink/p/?LinkId=400719)</li>
+<li>[Contact support](http://go.microsoft.com/fwlink/p/?LinkId=394391)</li>
+<li>[Request a trial](https://experience.dynamics.com/trials/)</li>
 
 </td>
 <td>

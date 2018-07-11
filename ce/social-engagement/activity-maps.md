@@ -169,7 +169,7 @@ The Sentiment map additionally shows the colors and shapes for the corresponding
  View an activity map on a large screen, in full-screen mode. You can display this large screen at prominent places as appropriate for your business to demonstrate the trends about your products, brand, or organization.  
   
 > [!NOTE]
->  You can display an activity map on a large screen without a need for any user interaction for 30 days. After 30 days, you need to sign in again.  
+>  You can display an activity map on a large screen without a need for any user interaction for 30 days. After 30 days, you need to [sign in](https://social.dynamics.com/login) again.  
   
 1. Go to **Activity Maps**.  
   
