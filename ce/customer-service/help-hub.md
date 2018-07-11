@@ -34,7 +34,7 @@ ms.custom: dyn365-customerservice
   <ul>
   <li><a href="service-manager-guide.md" data-raw-source="[[Service Manager guide](service-manager-guide.md)]">Service Manager guide</a></li>
 
-  <li><a href="install-dynamics-365-for-phones-and-tablets.md" data-raw-source="[[Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)]">Dynamics 365 for phones and tablets</a></li>
+  <li><a href="https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets" data-raw-source="[Dynamics 365 for phones and tablets]https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets">Dynamics 365 for phones and tablets</a></li>
 
   <li> <a href="upgrade-ish-csh.md" data-raw-source="[[Upgrade to the Customer Service Hub app](upgrade-ish-csh.md)]">Upgrade to the Customer Service Hub app</a>
   </li> 
