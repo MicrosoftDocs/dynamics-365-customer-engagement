@@ -37,7 +37,7 @@ topic-status: Drafting
 <li><a href="get-ready-email-marketing.md" data-raw-source="[Best practices for email marketing](get-ready-email-marketing.md)">Best practices for email marketing</a></li>
 <li><a href="gdpr.md" data-raw-source="[Data protection and GDPR](gdpr.md)">Data protection and GDPR</a></li>
 <li><a href="cookies.md" data-raw-source="[How Marketing uses cookies](cookies.md)">How Marketing uses cookies</a></li>
-<li><a href="setup-troubleshooting.md" data-raw-source="[Administration FAQ](setup-troubleshooting.md)">Administration FAQ</a></li>
+<li><a href="setup-troubleshooting.md" data-raw-source="[Administration and setup FAQ](setup-troubleshooting.md)">Administration and setup FAQ</a></li>
 
 </td><td>
 
