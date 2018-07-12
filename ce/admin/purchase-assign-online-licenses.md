@@ -1,7 +1,7 @@
 ---
 title: "Purchase and assign Dynamics 365 (online) licenses | MicrosoftDocs"
 ms.custom: ""
-ms.date: 04/04/2018
+ms.date: 07/12/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,7 +14,7 @@ ms.assetid: ef49fa3d-3359-42a5-b4d7-fda206c82365
 caps.latest.revision: 4
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Purchase and assign Dynamics 365 (online) licenses
 
@@ -26,7 +26,7 @@ manager: "brycho"
 >  Get started with the following resources:  
 >   
 > -   [Important information for CRM Online customers](../admin/important-information-customers.md)  
-> -   Download: [Dynamics 365 Enterprise Edition Licensing Guide](http://download.microsoft.com/documents/en-us/dynamics/pricing/Dynamics_365_Enterprise_edition_Licensing_Guide.pdf)  
+> -   Download: [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544)  
 > - ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Video: [How to buy Dynamics 365](https://www.youtube.com/embed/WOacBzpHwGU?rel=0)  
 > -   [Dynamics 365 Pricing](https://www.microsoft.com/en-us/dynamics365/pricing)  
 > -   Download: [The Dynamics CRM Online pricing and licensing guide](http://aka.ms/gtn5wt)  
