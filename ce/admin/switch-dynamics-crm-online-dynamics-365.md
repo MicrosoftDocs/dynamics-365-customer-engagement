@@ -1,7 +1,7 @@
 ---
 title: "Switch from Dynamics CRM Online to Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 07/12/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,7 +14,7 @@ ms.assetid: 258663fb-fefa-4427-b25d-c935c3896aed
 caps.latest.revision: 13
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Switch from Dynamics CRM Online to Dynamics 365 (online)
 

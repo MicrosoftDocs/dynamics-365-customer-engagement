@@ -1,7 +1,7 @@
 ---
 title: "Important information for CRM Online customers | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 07/12/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,7 +14,7 @@ ms.assetid: 1ae7847e-5b11-4043-a052-2f6c6d1a047e
 caps.latest.revision: 5
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Important information for CRM Online customers
 
