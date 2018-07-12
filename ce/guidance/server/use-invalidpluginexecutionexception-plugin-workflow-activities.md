@@ -142,6 +142,10 @@ Unhandled exceptions of other types should only occur when unexpected errors are
     }
     ```
 
+> [!NOTE] You can insert HTML within the CustomException, for example
+>         throw new CustomException("<H1>Throwing a guarded custom exception in a member method body</H1><img href='/img/source.jpg' ");
+
+
 <a name='seealso'></a>
 
 ### See also
