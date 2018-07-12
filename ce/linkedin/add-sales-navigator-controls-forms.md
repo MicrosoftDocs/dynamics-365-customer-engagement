@@ -91,7 +91,7 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 
 10. In the **Bind to a value on a field** list, select **firstname (SingleLine.Text)** and select **OK**.
 
-   ![Bind value on a field dialog box](media/configure-lastname-property.png "Bind value on a field dialog box")
+  ![Bind value on a field dialog box](media/configure-lastname-property.png "Bind value on a field dialog box")
 
 11. Select **Add** in the Field Properties window.
 
