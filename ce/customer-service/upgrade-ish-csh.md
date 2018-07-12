@@ -6,10 +6,10 @@ author: anjgupta
 applies_to: Dynamics 365 (online) 
 ms.author: anjgup
 manager: shellyha
-ms.date: 02/20/2017
+ms.date: 07/12/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ms.assetid: a7f5cc83-80cc-1aad-aab5-fdd52a6891fe
+ms.assetid: b57d46aa-006b-4805-8afa-595fce9c2457
 ms.custom: dyn365-customerservice
 ---
 
