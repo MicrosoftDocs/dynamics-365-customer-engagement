@@ -77,8 +77,8 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
    ![Click path to add a Sales Navigator controls](media/add-control-to-form.png "Click path to add a Sales Navigator control")
 
 8. Now you need to configure the Sales Navigator control. In the **Control** area, select **Web** form factor for the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] control. 
-    > [!TIP]
-    > Currently, the controls are available on desktop form factors. On mobile (phone and tablet) scenarios, the controls fall back to the default platform control. To hide the default controls from the forms on mobile scenarios, select the **Hide Default Control** check box.
+   > [!TIP]
+   > Currently, the controls are available on desktop form factors. On mobile (phone and tablet) scenarios, the controls fall back to the default platform control. To hide the default controls from the forms on mobile scenarios, select the **Hide Default Control** check box.
 
    
 
@@ -89,7 +89,7 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 
 10. In the **Bind to a value on a field** list, select **firstname (SingleLine.Text)** and select **OK**.   
 
-   ![Bind value on a field dialog box](media/configure-lastname-property.png "Bind value on a field dialog box")
+    ![Bind value on a field dialog box](media/configure-lastname-property.png "Bind value on a field dialog box")
 
 11. Select **Add** in the Field Properties window.
 
