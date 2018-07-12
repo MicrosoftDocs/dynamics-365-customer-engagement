@@ -28,7 +28,7 @@ When you purchase a subscription to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-
 >  Get started with the following resources:  
 >   
 > -   [Important information for CRM Online customers](../admin/important-information-customers.md)  
-> -   Download: [Dynamics 365 Enterprise Edition Licensing Guide](http://download.microsoft.com/documents/en-us/dynamics/pricing/Dynamics_365_Enterprise_edition_Licensing_Guide.pdf)  
+> -   Download: [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544)  
 > -   Download: [The Dynamics CRM Online pricing and licensing guide](http://aka.ms/gtn5wt)  
   
 ## Running out of Dynamics 365 (online) licenses?  

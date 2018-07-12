@@ -28,7 +28,7 @@ Microsoft is introducing [Dynamics 365](https://www.microsoft.com/dynamics365/ho
 
  **Additional resources**  
 
--   [Dynamics 365 Enterprise Edition Licensing Guide](http://download.microsoft.com/documents/en-us/dynamics/pricing/Dynamics_365_Enterprise_edition_Licensing_Guide.pdf)  
+-   [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544)  
 
 -   [Dynamics 365 pricing](https://go.microsoft.com/fwlink/p/?linkid=733924)  
 
