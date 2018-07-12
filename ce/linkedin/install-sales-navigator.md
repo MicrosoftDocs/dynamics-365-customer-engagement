@@ -2,7 +2,7 @@
 title: "Install LinkedIn Sales Navigator for Dynamics 365 | Microsoft Docs"
 description: "Install the LinkedIn Sales Navigator for Dynamics 365 capabilities from AppSource"
 keywords: "installation, setup, sales navigator, appsource"
-ms.date: 06/25/2018
+ms.date: 07/12/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -11,7 +11,7 @@ applies_to:
 ms.assetid: 4b15aff2-3a7b-3488-260c-21611dee658a
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 ---
 
 # Install Sales Navigator Controls for Dynamics 365 Unified Interface
