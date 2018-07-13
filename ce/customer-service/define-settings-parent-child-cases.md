@@ -12,8 +12,7 @@ ms.date: 09/15/2017
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: c919d10e-8881-4ba9-a609-40b11b555648
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
 ---
 
 # Define settings for parent and child cases (Customer Service)
@@ -42,8 +41,6 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)],  you can track m
 6.  Using the Parent and Child case settings, specify the information that will be inherited from a parent case to the child case. You can also select a case closure setting that defines how parent and child cases are closed. Select one of the case closure preference for parent and child cases:  
   
     - **Close all child cases when parent case is closed**: The parent case can’t be closed until all the child cases are closed.  
-  
-    - **Don’t allow parent case closure until all child cases are closed**: The parent case can’t be closed until all the child cases are closed.  
   
     > [!NOTE]
     >  If you don’t make a selection, parent and child cases are closed independently of each other. This is the default setting.  

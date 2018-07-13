@@ -12,8 +12,7 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: d1efcf5e-988b-4e0c-bf11-2dcde1ea739f
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
 ---
 
 # Create and design forms for Customer Service Hub
