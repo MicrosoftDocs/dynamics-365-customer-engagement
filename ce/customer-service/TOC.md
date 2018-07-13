@@ -12,7 +12,7 @@
 ### [Knowledge management setup](set-up-knowledge-management.md)
 ### [Status reason transitions](define-status-reason-transitions-case-management.md)
 ### [Resource scheduling](../common-scheduler/resource-scheduling-optimization.md)
-### [Service scheduling overview (deprecated)](basics-service-service-scheduling.md) 
+### [Service scheduling overview (deprecated)](basics-service-service-scheduling.md)
 ### [Social Care sample application](view-block-deactivate-social-profile.md)
 ## User Guide
 ### [Customer Service Hub](user-guide-customer-service-hub.md)
@@ -21,4 +21,5 @@
 #### [Manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 #### [Work with dashboards](customer-service-hub-user-guide-dashboard.md)
 #### [Use on mobile](use-customer-service-hub-on-dynamics-365-mobile.md)
+#### [Upgrade to the Customer Service Hub](upgrade-ish-csh.md)
 ### [Customer Service](user-guide-customer-service.md)
