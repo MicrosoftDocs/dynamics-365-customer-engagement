@@ -49,11 +49,11 @@ To enable an entity for the business process flow, set the <xref:Microsoft.Xrm.S
 <a name="DefineBPF"></a>   
 ## Define business process flow
   
-Use the visual business process flow designer to define a business process flow. More information: [Create a business process flow]((../customize/create-business-process-flow.md))
+Use the visual business process flow designer to define a business process flow. More information: [Create a business process flow](../customize/create-business-process-flow.md)
 
 By default, a business process flow record is created in the `Draft` state.  
 
-A business process flow definition is stored in the <xref:Microsoft.Dynamics.CRM.workflow> entity, and the stage information for the business process flow is stored in the <xref:Microsoft.Dynamics.CRM.processstages> entity.
+A business process flow definition is stored in the <xref:Microsoft.Dynamics.CRM.workflow> entity, and the stage information for the business process flow is stored in the <xref:Microsoft.Dynamics.CRM.processstage> entity.
   
 <a name="ActivateBPF"></a>   
 ## Activate business process flow  
