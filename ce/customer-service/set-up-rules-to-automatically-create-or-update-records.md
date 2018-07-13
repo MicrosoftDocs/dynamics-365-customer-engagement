@@ -12,8 +12,7 @@ ms.date: 09/15/2017
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 1cbbf33b-e194-4ff3-b840-64e60b094dc9
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
 ---
 
 # Set up rules to automatically create or update records (Customer Service)
@@ -72,6 +71,9 @@ These activities can be converted to any default (system) entity records or cust
  In a record creation and update rule, when you specify a queue for a source type, any incoming activity from that source is added as a queue item for that specified queue. That is, if a rule for a particular source activity and queue combination is active, the rule processes the incoming activity on that queue to create or update records.  
   
  For an email source type, specifying a queue is mandatory. For all other source types including custom activities, it is optional.  
+
+> [!NOTE]
+> When an automatic record creation (ARC) rule is applied to an Email queue item, it gets deactivated.
   
 <a name="bkmk_RulesInSolutions"></a>   
 ## Rules in solutions  
@@ -128,7 +130,8 @@ If your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance mee
         -   If you selected Email as the source type for this rule, you can’t activate the rule unless you select a queue.  
   
         > [!NOTE]
-        >  You can associate only one rule per source type to a specific queue. If you’re creating a rule to convert an email to a case, make sure you specify an email address for this queue. Otherwise, automatic record creation for email won’t work. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](../customer-service/create-edit-queue.md)  
+        >  You can associate only one rule per source type to a specific queue. For example: If you’re creating a rule to convert an email to a case, make sure you specify an email address for this queue. Otherwise, automatic record creation for email won’t work. 
+        [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](../customer-service/create-edit-queue.md)  
   
 6.  Click **Save**.  
 
