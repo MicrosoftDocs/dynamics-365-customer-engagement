@@ -66,11 +66,11 @@ Console.WriteLine("Created {0}", newKnowledgeArticle.Title);
 ## Create major and minor versions of a knowledge article  
  When you create a knowledge article record, the major version is automatically set to 1 and minor version to 0. Use the `CreateKnowledgeArticleVersion` message (<xref href="Microsoft.Dynamics.CRM.CreateKnowledgeArticleVersion ?text=CreateKnowledgeArticleVersion Action" /> or <xref:Microsoft.Crm.Sdk.Messages.CreateKnowledgeArticleVersionRequest>) to create a major or minor version of a knowledge article. In the request message, set `IsMajor` to `true` to create a major version; set it to `false` to create a minor version. The new version record that is created uses the:  
   
--   `KnowledgeArticle`.`RootArticleId` attribute to maintain the association with the root knowledge article record.  
+- `KnowledgeArticle`.`RootArticleId` attribute to maintain the association with the root knowledge article record.  
   
--   `KnowledgeArticle`.`PreviousArticleContentId` attribute to point to the previous version of the record.  
+- `KnowledgeArticle`.`PreviousArticleContentId` attribute to point to the previous version of the record.  
   
- The following sample code shows how to create a major version of a knowledge article record using <xref:Microsoft.Crm.Sdk.Messages.CreateKnowledgeArticleVersionRequest>.  
+  The following sample code shows how to create a major version of a knowledge article record using <xref:Microsoft.Crm.Sdk.Messages.CreateKnowledgeArticleVersionRequest>.  
   
 ```csharp  
 CreateKnowledgeArticleVersionRequest versionRequest = new CreateKnowledgeArticleVersionRequest  
@@ -112,23 +112,23 @@ KnowledgeArticle respObject = (KnowledgeArticle)_serviceProxy.Retrieve(Knowledge
 ## Knowledge article lifecycle: Change the state of a knowledge article  
  During its lifecycle, a knowledge article can be in the following states:  
   
--   0: Draft (after a knowledge article is created)  
+- 0: Draft (after a knowledge article is created)  
   
--   1: Approved (after a knowledge article is approved)  
+- 1: Approved (after a knowledge article is approved)  
   
--   2: Scheduled (after a knowledge article is scheduled to be published)  
+- 2: Scheduled (after a knowledge article is scheduled to be published)  
   
--   3: Published (after a knowledge article is published)  
+- 3: Published (after a knowledge article is published)  
   
--   4: Expired (after a knowledge article is expired as per the expiration date specified while publishing)  
+- 4: Expired (after a knowledge article is expired as per the expiration date specified while publishing)  
   
--   5: Archived (after a knowledge article is archived)  
+- 5: Archived (after a knowledge article is archived)  
   
--   6: Discarded (after a knowledge article is discarded)  
+- 6: Discarded (after a knowledge article is discarded)  
   
- To change the state of the article, use the `Update` message on the knowledge article record to update the `KnowledgeArticle.StateCode` attribute. For early bound types, use the `KnowledgeArticleState` enumeration to set the possible states. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Perform specialized operations using Update](org-service/perform-specialized-operations-using-update.md).  
+  To change the state of the article, use the `Update` message on the knowledge article record to update the `KnowledgeArticle.StateCode` attribute. For early bound types, use the `KnowledgeArticleState` enumeration to set the possible states. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Perform specialized operations using Update](org-service/perform-specialized-operations-using-update.md).  
   
- The following sample code shows how to publish a knowledge article record.  
+  The following sample code shows how to publish a knowledge article record.  
   
 ```csharp  
 // Retrieve the knowledge article record  
@@ -188,15 +188,15 @@ _serviceProxy.Associate(Account.EntityLogicalName, accountId, newRelationship, r
   
  During its lifecycle, a knowledge base article can be in the following states:  
   
--   1: Draft (after an article is created)  
+- 1: Draft (after an article is created)  
   
--   2: Unapproved (during editing)  
+- 2: Unapproved (during editing)  
   
--   3: Published (after an article is published)  
+- 3: Published (after an article is published)  
   
- To change the state of the article, use the <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest> message. For early bound types, use the `KbArticleState` enumeration to set the possible states.  
+  To change the state of the article, use the <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest> message. For early bound types, use the `KbArticleState` enumeration to set the possible states.  
   
- When you create an article, you have to associate it with a template and a subject. An article template describes the sections and formatting for the article. Subjects are used to organize the articles by business categories that are also used to group cases (incidents), sales literature, and products. A best practice is to create a subject tree hierarchy and all necessary article templates before you create an article.  
+  When you create an article, you have to associate it with a template and a subject. An article template describes the sections and formatting for the article. Subjects are used to organize the articles by business categories that are also used to group cases (incidents), sales literature, and products. A best practice is to create a subject tree hierarchy and all necessary article templates before you create an article.  
   
 > [!NOTE]
 > [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] provides several article templates. They include a standard article, a solution to a problem, a procedure, and other templates. The recommended method of creating article templates is by using the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application. If you want to create an article template programmatically, use existing article templates as examples of what information to include and how to format the data.  

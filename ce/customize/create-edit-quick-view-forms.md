@@ -63,13 +63,13 @@ A quick view form can be added to another form as a quick view control. It provi
 ## Add a quick view control to a main form  
  Quick view forms can only be added to a main form where a lookup field exists that targets the entity of the quick view form.  
   
-1.  In an entity main form, choose **Quick View Form** in the **Control** group of the **Insert** tab.  
+1. In an entity main form, choose **Quick View Form** in the **Control** group of the **Insert** tab.  
   
-2.  In the **Quick View Control Properties** dialog box, set the properties described in [Quick view control properties](quick-view-control-properties-legacy.md).  
+2. In the **Quick View Control Properties** dialog box, set the properties described in [Quick view control properties](quick-view-control-properties-legacy.md).  
   
-3.  Choose **OK** to close the **Quick View Control Properties** dialog box.  
+3. Choose **OK** to close the **Quick View Control Properties** dialog box.  
   
- You must save and publish the main form before the quick view control changes will be visible.  
+   You must save and publish the main form before the quick view control changes will be visible.  
   
 ### See also   
  [Create and design forms](../customize/create-design-forms.md)   

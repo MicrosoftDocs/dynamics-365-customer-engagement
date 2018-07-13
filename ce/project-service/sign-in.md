@@ -25,13 +25,13 @@ manager: shellyha
 
 When you sign in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement apps, you need to have the following information from your Dynamics 365 administrator:  
   
--   URL for your organization’s [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system  
+- URL for your organization’s [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system  
   
--   Your user name  
+- Your user name  
   
--   Your password  
+- Your password  
   
- You probably received this information in an email from your admin. If you don’t have all this info, or if you have issues signing in, [Find your Dynamics 365 administrator or support person](../basics/find-administrator-support.md).  
+  You probably received this information in an email from your admin. If you don’t have all this info, or if you have issues signing in, [Find your Dynamics 365 administrator or support person](../basics/find-administrator-support.md).  
   
 ## Set your personal options to allow email  
  You need to configure your email settings to allow others to send email on your behalf, so [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] can send email notifications for you when you have time and expenses to approve or sign up for projects.  

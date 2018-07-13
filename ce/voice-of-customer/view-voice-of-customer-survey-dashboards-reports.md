@@ -25,31 +25,31 @@ The [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-custome
   
 ## View a survey dashboard  
   
-1.  From the menu, go to **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] > Surveys**.  
+1. From the menu, go to **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] > Surveys**.  
   
-2.  Select a survey from the list.  
+2. Select a survey from the list.  
   
-3.  Click the **Survey** box, and then click **Dashboard**.  
+3. Click the **Survey** box, and then click **Dashboard**.  
   
 ## Run a report  
   
-1.  From the menu, go to **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] > Surveys**.  
+1. From the menu, go to **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] > Surveys**.  
   
-2.  Select a survey from the list.  
+2. Select a survey from the list.  
   
-3.  Click **…**, click **Run Report**, and then click the report you want to run..  
+3. Click **…**, click **Run Report**, and then click the report you want to run..  
   
 ## View survey responses  
  You can view survey responses to see an individual’s answers.  
   
-1.  From the menu, go to **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] > Survey Responses**.  
+1. From the menu, go to **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] > Survey Responses**.  
   
-2.  Click the survey response you want to view.  
+2. Click the survey response you want to view.  
   
 ## View survey response outcomes  
  You can view response outcomes for surveys.  
   
-1.  From the menu, go to **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] > Response Outcomes**.  
+1. From the menu, go to **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] > Response Outcomes**.  
   
-2.  Click the response outcome you want to view.  
+2. Click the response outcome you want to view.  
   

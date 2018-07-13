@@ -706,6 +706,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Annotation_SyncErrors"></a> Annotation_SyncErrors
 
 Same as syncerror entity [Annotation_SyncErrors](syncerror.md#BKMK_Annotation_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -720,6 +721,7 @@ Same as syncerror entity [Annotation_SyncErrors](syncerror.md#BKMK_Annotation_Sy
 ### <a name="BKMK_Annotation_AsyncOperations"></a> Annotation_AsyncOperations
 
 Same as asyncoperation entity [Annotation_AsyncOperations](asyncoperation.md#BKMK_Annotation_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -734,6 +736,7 @@ Same as asyncoperation entity [Annotation_AsyncOperations](asyncoperation.md#BKM
 ### <a name="BKMK_userentityinstancedata_annotation"></a> userentityinstancedata_annotation
 
 Same as userentityinstancedata entity [userentityinstancedata_annotation](userentityinstancedata.md#BKMK_userentityinstancedata_annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -748,6 +751,7 @@ Same as userentityinstancedata entity [userentityinstancedata_annotation](useren
 ### <a name="BKMK_Annotation_BulkDeleteFailures"></a> Annotation_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Annotation_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Annotation_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -762,6 +766,7 @@ Same as bulkdeletefailure entity [Annotation_BulkDeleteFailures](bulkdeletefailu
 ### <a name="BKMK_Annotation_ProcessSessions"></a> Annotation_ProcessSessions
 
 Same as processsession entity [Annotation_ProcessSessions](processsession.md#BKMK_Annotation_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|

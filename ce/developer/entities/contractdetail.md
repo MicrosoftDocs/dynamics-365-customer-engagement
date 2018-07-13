@@ -652,11 +652,9 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 #### ContractStateCode Options
 
-|Value|Label|
-|-----|-----|
-
-
-
+| Value | Label |
+|-------|-------|
+|       |       |
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
@@ -1251,6 +1249,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_ContractDetail_SyncErrors"></a> ContractDetail_SyncErrors
 
 Same as syncerror entity [ContractDetail_SyncErrors](syncerror.md#BKMK_ContractDetail_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1265,6 +1264,7 @@ Same as syncerror entity [ContractDetail_SyncErrors](syncerror.md#BKMK_ContractD
 ### <a name="BKMK_ContractDetail_AsyncOperations"></a> ContractDetail_AsyncOperations
 
 Same as asyncoperation entity [ContractDetail_AsyncOperations](asyncoperation.md#BKMK_ContractDetail_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1279,6 +1279,7 @@ Same as asyncoperation entity [ContractDetail_AsyncOperations](asyncoperation.md
 ### <a name="BKMK_contractdetail_MailboxTrackingFolders"></a> contractdetail_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [contractdetail_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_contractdetail_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1293,6 +1294,7 @@ Same as mailboxtrackingfolder entity [contractdetail_MailboxTrackingFolders](mai
 ### <a name="BKMK_userentityinstancedata_contractdetail"></a> userentityinstancedata_contractdetail
 
 Same as userentityinstancedata entity [userentityinstancedata_contractdetail](userentityinstancedata.md#BKMK_userentityinstancedata_contractdetail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1307,6 +1309,7 @@ Same as userentityinstancedata entity [userentityinstancedata_contractdetail](us
 ### <a name="BKMK_ContractDetail_ProcessSessions"></a> ContractDetail_ProcessSessions
 
 Same as processsession entity [ContractDetail_ProcessSessions](processsession.md#BKMK_ContractDetail_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1321,6 +1324,7 @@ Same as processsession entity [ContractDetail_ProcessSessions](processsession.md
 ### <a name="BKMK_ContractDetail_BulkDeleteFailures"></a> ContractDetail_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [ContractDetail_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ContractDetail_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1335,6 +1339,7 @@ Same as bulkdeletefailure entity [ContractDetail_BulkDeleteFailures](bulkdeletef
 ### <a name="BKMK_contractdetail_principalobjectattributeaccess"></a> contractdetail_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [contractdetail_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_contractdetail_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1349,6 +1354,7 @@ Same as principalobjectattributeaccess entity [contractdetail_principalobjectatt
 ### <a name="BKMK_ContractDetail_Annotation"></a> ContractDetail_Annotation
 
 Same as annotation entity [ContractDetail_Annotation](annotation.md#BKMK_ContractDetail_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1363,6 +1369,7 @@ Same as annotation entity [ContractDetail_Annotation](annotation.md#BKMK_Contrac
 ### <a name="BKMK_contract_detail_cases"></a> contract_detail_cases
 
 Same as incident entity [contract_detail_cases](incident.md#BKMK_contract_detail_cases) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incident|

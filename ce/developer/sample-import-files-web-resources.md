@@ -51,14 +51,14 @@ When you develop a large number of files to use as Web resources you can save yo
   
 - **name:** The name that will be used for the Web Resource.  
   
-    > [!NOTE]
-    >  -   Each of these names begin with an underscore character. The customization prefix of the solution publisher will be prepended to the name when the Web resource is created. Rather than hard-coding a specific customization prefix, this sample will detect the current customization prefix for a publisher record that may already exist in the organization.  
-    > -   Because each of these files was developed outside of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and depend on relative paths to access each other, the names include backslash “/” characters to create a virtual folder structure so the relative links will continue to function within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+  > [!NOTE]
+  > - Each of these names begin with an underscore character. The customization prefix of the solution publisher will be prepended to the name when the Web resource is created. Rather than hard-coding a specific customization prefix, this sample will detect the current customization prefix for a publisher record that may already exist in the organization.  
+  >   - Because each of these files was developed outside of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and depend on relative paths to access each other, the names include backslash “/” characters to create a virtual folder structure so the relative links will continue to function within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
 - **type:** Specifies the type of Web Resource to create using the integer values found in [Web Resource Types](web-resources.md#BKMK_WebResourceTypes).
   
- **FilesToImport/ShowData.htm**  
- This HTML Web resource requires each of the other files to display the following table.  
+  **FilesToImport/ShowData.htm**  
+  This HTML Web resource requires each of the other files to display the following table.  
   
 |||  
 |-|-|  
@@ -101,13 +101,13 @@ When you develop a large number of files to use as Web resources you can save yo
 ## Example  
  The following portion of the ImportWebResources.cs file expects the following variables:  
   
--   `_customizationPrefix` : The customization prefix of the **Dynamics 365 SDK Samples** publisher. If this publisher does not exist it will be created with the customization prefix of “sample”.  
+- `_customizationPrefix` : The customization prefix of the **Dynamics 365 SDK Samples** publisher. If this publisher does not exist it will be created with the customization prefix of “sample”.  
   
--   `_ImportWebResourcesSolutionUniqueName` : The unique name of the **Import Web Resources Sample Solution** created in this sample. The value is `ImportWebResourcesSample`.  
+- `_ImportWebResourcesSolutionUniqueName` : The unique name of the **Import Web Resources Sample Solution** created in this sample. The value is `ImportWebResourcesSample`.  
   
- [!code-csharp[ImportWebResources#ImportWebResources1](../snippets/csharp/CRMV8/importwebresources/cs/importwebresources1.cs#importwebresources1)]  
+  [!code-csharp[ImportWebResources#ImportWebResources1](../snippets/csharp/CRMV8/importwebresources/cs/importwebresources1.cs#importwebresources1)]  
   
- It is not necessary to publish Web resources when they are created. It is necessary to publish them when they are updated.  
+  It is not necessary to publish Web resources when they are created. It is necessary to publish them when they are updated.  
   
 ### See also  
  [Sample: Web Resource Utility](sample-web-resource-utility.md)   

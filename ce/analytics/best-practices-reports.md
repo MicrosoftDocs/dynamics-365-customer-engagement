@@ -49,17 +49,17 @@ The following best practices can help you produce reports that are easier to wri
 ### Best practices when you create reports that include date and time fields  
  When you create reports that use date and time fields, be aware of the following:  
   
--   To be consistent with the date and time values in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], when you create reports that use a Coordinated Universal Time (UTC)-based field (Time-Zone Independent or Date Only) don’t convert the value to a regional time-zone based (User Local) value.  
+- To be consistent with the date and time values in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], when you create reports that use a Coordinated Universal Time (UTC)-based field (Time-Zone Independent or Date Only) don’t convert the value to a regional time-zone based (User Local) value.  
   
--   If you make a change to the date and time behavior of a field in an entity, you may need to regenerate reports that use that date and time for the report to display the field correctly.  
+- If you make a change to the date and time behavior of a field in an entity, you may need to regenerate reports that use that date and time for the report to display the field correctly.  
   
-    -   Regenerate Report Wizard reports. Edit the report using the Report Wizard with the same parameters to regenerate the report.  
+  - Regenerate Report Wizard reports. Edit the report using the Report Wizard with the same parameters to regenerate the report.  
   
-    -   Regenerate reports based on a managed solution. For managed solutions, instead of editing the report, re-import the solution to regenerate the report.  
+  - Regenerate reports based on a managed solution. For managed solutions, instead of editing the report, re-import the solution to regenerate the report.  
   
-    -   Regenerate custom reports created with [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. Update the date and time fields in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] as necessary and republish the report. <!-- ADD BACK AFTER Potassium on-prem publish [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Modify an existing SQL-based report using SQL Server Data Tools](../Topic/Modify%20an%20existing%20SQL-based%20report%20using%20SQL%20Server%20Data%20Tools.md)  -->
+  - Regenerate custom reports created with [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. Update the date and time fields in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] as necessary and republish the report. <!-- ADD BACK AFTER Potassium on-prem publish [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Modify an existing SQL-based report using SQL Server Data Tools](../Topic/Modify%20an%20existing%20SQL-based%20report%20using%20SQL%20Server%20Data%20Tools.md)  -->
   
- For more information about date and time fields, see [Behavior of Date and Time data type](../customize/behavior-format-date-time-field.md).  
+  For more information about date and time fields, see [Behavior of Date and Time data type](../customize/behavior-format-date-time-field.md).  
   
 ### See also  
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   

@@ -54,51 +54,51 @@ For more information, see: [Track SLA details with Timer Control](customer-servi
   
     #### Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
 2. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-3.  Select **Customize the System**.  
+3. Select **Customize the System**.  
   
-4.  In the solution explorer, in the left nav pane, expand **Entities**, expand the **Case** entity, and select **Forms**.
+4. In the solution explorer, in the left nav pane, expand **Entities**, expand the **Case** entity, and select **Forms**.
   
-     To add the timer to the form so the customer service representatives can use it in the Customer Service Hub, open the case form of type **Main**.  
+    To add the timer to the form so the customer service representatives can use it in the Customer Service Hub, open the case form of type **Main**.  
   
-5.  Select on the form where you want to place the control. You can add it anywhere except the form header or footer.  
+5. Select on the form where you want to place the control. You can add it anywhere except the form header or footer.  
   
-6.  On the **Insert** tab, in the **Control** group, select **Timer**.  
+6. On the **Insert** tab, in the **Control** group, select **Timer**.  
 
-    ![Timer control button on Insert tab in Customer Service Hub](media/insert-timer-control.png "Timer control button on Insert tab in Customer Service Hub")
+   ![Timer control button on Insert tab in Customer Service Hub](media/insert-timer-control.png "Timer control button on Insert tab in Customer Service Hub")
   
-7.  In the **Timer Control** dialog box:  
+7. In the **Timer Control** dialog box:  
   
-    1.  In the **General** section, type a name and label for the control.  
+   1. In the **General** section, type a name and label for the control.  
   
-    2.  Under **Data Source**, next to **Failure Time Field**, select the date-time field that represents the time when a milestone should be completed. For example, select the **First Response By** field.  
+   2. Under **Data Source**, next to **Failure Time Field**, select the date-time field that represents the time when a milestone should be completed. For example, select the **First Response By** field.  
   
-    3.  Next to **Success Condition**, select a field to use to evaluate the success of the milestone, and then select the condition that indicates success. For example, select the **First Response Sent** field, and then select **Yes** to indicate the success criteria of the First Response metric. This setting is required.  
+   3. Next to **Success Condition**, select a field to use to evaluate the success of the milestone, and then select the condition that indicates success. For example, select the **First Response Sent** field, and then select **Yes** to indicate the success criteria of the First Response metric. This setting is required.  
   
-    4.  Next to **Failure Condition**, select a field to use to evaluate the failure of the milestone, and then select the condition that indicates the failure. For example, in the first drop-down list, select **IsEscalated**. In the second drop-down list, select **Yes**.  
+   4. Next to **Failure Condition**, select a field to use to evaluate the failure of the milestone, and then select the condition that indicates the failure. For example, in the first drop-down list, select **IsEscalated**. In the second drop-down list, select **Yes**.  
   
-    5.  Next to **Warning Condition**, enter the condition that will cause the timer control to display a warning when the time is about to expire. For example, in the first list next to **Warning Condition**, select **First Response SLA Status**. In the list to the right, select **Nearing Noncompliance**. This setting is optional.  
+   5. Next to **Warning Condition**, enter the condition that will cause the timer control to display a warning when the time is about to expire. For example, in the first list next to **Warning Condition**, select **First Response SLA Status**. In the list to the right, select **Nearing Noncompliance**. This setting is optional.  
   
-    6.  Next to **Cancel Condition**, select a field to evaluate whether the achievement of the milestone should be canceled. Then choose the option that indicates the milestone is canceled. This setting is optional.  
+   6. Next to **Cancel Condition**, select a field to evaluate whether the achievement of the milestone should be canceled. Then choose the option that indicates the milestone is canceled. This setting is optional.  
   
-    7.  Next to **Pause Condition**, enter the condition that will cause the timer to pause the count down. For example, you want the timer to pause the count down every time the case status is set to “On-hold”. For this, in the first drop-down list, select **Status**. In the second drop-down list, select **On-hold**.  
+   7. Next to **Pause Condition**, enter the condition that will cause the timer to pause the count down. For example, you want the timer to pause the count down every time the case status is set to “On-hold”. For this, in the first drop-down list, select **Status**. In the second drop-down list, select **On-hold**.  
   
-       ![Timer control in Customer Service Hub](media/timer-control-box-csh.png "Timer control in Customer Service Hub")
+      ![Timer control in Customer Service Hub](media/timer-control-box-csh.png "Timer control in Customer Service Hub")
   
-8.  Select **OK** to add the control to the form.  
+8. Select **OK** to add the control to the form.  
   
- **Notes**  
+   **Notes**  
   
--   The timer control refreshes on the **OnChange** form event, and also when the form is loaded.  
+- The timer control refreshes on the **OnChange** form event, and also when the form is loaded.  
   
--   You can add a timer control to a form based on any record type (entity), including custom record types.  
+- You can add a timer control to a form based on any record type (entity), including custom record types.  
   
--   You can add multiple timer controls for different key performance indicators (KPIs).  
+- You can add multiple timer controls for different key performance indicators (KPIs).  
   
--   You can add a timer control to any Main or Main - Interactive experience form of other entities, but timer controls are not displayed in [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)].  
+- You can add a timer control to any Main or Main - Interactive experience form of other entities, but timer controls are not displayed in [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)].  
   
 ### See also  
 

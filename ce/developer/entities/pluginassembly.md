@@ -789,6 +789,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_pluginassembly_plugintype"></a> pluginassembly_plugintype
 
 Same as plugintype entity [pluginassembly_plugintype](plugintype.md#BKMK_pluginassembly_plugintype) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|plugintype|
@@ -803,6 +804,7 @@ Same as plugintype entity [pluginassembly_plugintype](plugintype.md#BKMK_plugina
 ### <a name="BKMK_userentityinstancedata_pluginassembly"></a> userentityinstancedata_pluginassembly
 
 Same as userentityinstancedata entity [userentityinstancedata_pluginassembly](userentityinstancedata.md#BKMK_userentityinstancedata_pluginassembly) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

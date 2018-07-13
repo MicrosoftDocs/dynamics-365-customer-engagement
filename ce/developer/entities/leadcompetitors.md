@@ -212,6 +212,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_leadcompetitors_AsyncOperations"></a> leadcompetitors_AsyncOperations
 
 Same as asyncoperation entity [leadcompetitors_AsyncOperations](asyncoperation.md#BKMK_leadcompetitors_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -226,6 +227,7 @@ Same as asyncoperation entity [leadcompetitors_AsyncOperations](asyncoperation.m
 ### <a name="BKMK_leadcompetitors_MailboxTrackingFolders"></a> leadcompetitors_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [leadcompetitors_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_leadcompetitors_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -240,6 +242,7 @@ Same as mailboxtrackingfolder entity [leadcompetitors_MailboxTrackingFolders](ma
 ### <a name="BKMK_leadcompetitors_UserEntityInstanceDatas"></a> leadcompetitors_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [leadcompetitors_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_leadcompetitors_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -254,6 +257,7 @@ Same as userentityinstancedata entity [leadcompetitors_UserEntityInstanceDatas](
 ### <a name="BKMK_leadcompetitors_BulkDeleteFailures"></a> leadcompetitors_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [leadcompetitors_BulkDeleteFailures](bulkdeletefailure.md#BKMK_leadcompetitors_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -268,6 +272,7 @@ Same as bulkdeletefailure entity [leadcompetitors_BulkDeleteFailures](bulkdelete
 ### <a name="BKMK_leadcompetitors_PrincipalObjectAttributeAccesses"></a> leadcompetitors_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [leadcompetitors_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_leadcompetitors_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

@@ -10,9 +10,9 @@ ms.author: anjgup
 manager: shellyha
 ms.date: 06/01/2018
 ms.topic: article
-ms.custom: dyn365-customerservice
 ms.service: dynamics-365-customerservice
 ms.assetid: e2050e36-3e95-49b1-9f2b-f0025eb7022c
+ms.custom: dyn365-customerservice
 ---
 
 # Force an activity into a time slot in the service schedule
@@ -23,17 +23,17 @@ You can create a service activity by finding the next available times of resourc
   
  One reason to force a service activity into a time slot is to squeeze another service activity into the leftover time from a previous service activity.  
   
-1.  Make sure you have the Scheduler security role or equivalent permissions in Microsoft Dynamics 365.  
+1. Make sure you have the Scheduler security role or equivalent permissions in Microsoft Dynamics 365.  
   
 2. [!INCLUDE[proc_service_service_calendar](../includes/proc-service-service-calendar.md)]  
   
-3.  On the command bar, click **Service Activity**.  
+3. On the command bar, click **Service Activity**.  
   
-4.  On the Service Activity form, type or change information in the text boxes.  
+4. On the Service Activity form, type or change information in the text boxes.  
   
-     Hovertips provide hints on what to enter.  
+    Hovertips provide hints on what to enter.  
   
-5.  When you’re ready to save your data, click **Save**.  
+5. When you’re ready to save your data, click **Save**.  
   
 > [!TIP]
 >  You can record a customer's preferences for a specific time, day, service, facility, equipment, and customer service representative in the customer record on the **Administration** tab. As you are scheduling a service activity, the customer's preference is displayed in the **Form Assistant** pane.  

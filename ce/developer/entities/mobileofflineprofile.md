@@ -622,6 +622,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_DefaultMobileOfflineProfile_Organization"></a> DefaultMobileOfflineProfile_Organization
 
 Same as organization entity [DefaultMobileOfflineProfile_Organization](organization.md#BKMK_DefaultMobileOfflineProfile_Organization) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|organization|
@@ -636,6 +637,7 @@ Same as organization entity [DefaultMobileOfflineProfile_Organization](organizat
 ### <a name="BKMK_MobileOfflineProfile_MobileOfflineProfileItem"></a> MobileOfflineProfile_MobileOfflineProfileItem
 
 Same as mobileofflineprofileitem entity [MobileOfflineProfile_MobileOfflineProfileItem](mobileofflineprofileitem.md#BKMK_MobileOfflineProfile_MobileOfflineProfileItem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mobileofflineprofileitem|
@@ -650,6 +652,7 @@ Same as mobileofflineprofileitem entity [MobileOfflineProfile_MobileOfflineProfi
 ### <a name="BKMK_MobileOfflineProfile_SystemUser"></a> MobileOfflineProfile_SystemUser
 
 Same as systemuser entity [MobileOfflineProfile_SystemUser](systemuser.md#BKMK_MobileOfflineProfile_SystemUser) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|systemuser|

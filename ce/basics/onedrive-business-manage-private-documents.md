@@ -48,48 +48,48 @@ With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], 
   
  For example,  
   
-1.  Click **Sales** > **Opportunities**  
+1. Click **Sales** > **Opportunities**  
   
-2.  Choose an opportunity from the drop-down menu, and then click **Documents**.  
+2. Choose an opportunity from the drop-down menu, and then click **Documents**.  
   
- ![Choose Opportunities &#62; Documents](../basics/media/choose-opportunity-documents.png "Choose Opportunities > Documents")  
+   ![Choose Opportunities &#62; Documents](../basics/media/choose-opportunity-documents.png "Choose Opportunities > Documents")  
   
- [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] now organizes documents in a consolidated view.  
+   [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] now organizes documents in a consolidated view.  
   
- ![Consolidated view of documents](../basics/media/onedrive-consolidated-view-grid.png "Consolidated view of documents")  
+   ![Consolidated view of documents](../basics/media/onedrive-consolidated-view-grid.png "Consolidated view of documents")  
   
- Documents stored in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] and [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] are viewed in one list.  
+   Documents stored in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] and [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] are viewed in one list.  
   
- Click **Document Location** to filter the document list.  
+   Click **Document Location** to filter the document list.  
   
- ![Choose a document location](../basics/media/onedrive-choose-document-location.PNG "Choose a document location")  
+   ![Choose a document location](../basics/media/onedrive-choose-document-location.PNG "Choose a document location")  
   
- Select a location as described in the following table.  
+   Select a location as described in the following table.  
   
-|Document Location|Description|  
-|-----------------------|-----------------|  
-|All files|All document locations associated with this [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record|  
-|[!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site|Documents stored in your default [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site|  
-|[!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)]|Documents stored in [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)]|  
-|Shared with me|Documents others shared with you that are associated with this [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record|  
+|                            Document Location                             |                                                            Description                                                            |
+|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+|                                All files                                 |          All document locations associated with this [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record           |
+| [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site |             Documents stored in your default [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site             |
+|           [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)]            |                 Documents stored in [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)]                 |
+|                              Shared with me                              | Documents others shared with you that are associated with this [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record |
   
 ## Create a new document  
  To create a new [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] or [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] document in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]:  
   
-1.  Open a view with a document grid.  
+1. Open a view with a document grid.  
   
-2.  Click New ![New button](../basics/media/new-icon.png "New button") and then choose a document type such as [!INCLUDE[pn_MS_Powerpoint](../includes/pn-ms-powerpoint.md)] or [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)].  
+2. Click New ![New button](../basics/media/new-icon.png "New button") and then choose a document type such as [!INCLUDE[pn_MS_Powerpoint](../includes/pn-ms-powerpoint.md)] or [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)].  
   
-3.  Enter a document name, choose a location, and then click **Save**.  
+3. Enter a document name, choose a location, and then click **Save**.  
   
- The document is created and opened in the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Online application.  
+   The document is created and opened in the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Online application.  
   
 ## Change your OneDrive folder settings  
  You can change the location of your [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] documents and rename the folder used for [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)].  
   
-1.  Click **Settings** > **Document Management** > **OneDrive for Business Folder Settings**  
+1. Click **Settings** > **Document Management** > **OneDrive for Business Folder Settings**  
   
-2.  Enter a new location for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to store [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] files, and then click **OK**.  
+2. Enter a new location for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to store [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] files, and then click **OK**.  
   
 > [!NOTE]
 >  The [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] folder is renamed and all the existing files will now be associated with the new folder.  
@@ -99,9 +99,9 @@ With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], 
   
 - [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] storage folders are created in the user’s current [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] language. If the language changes, new folders will be created in the new language. Old folders will remain in the previous language.  
   
--   Folders aren’t supported. Documents in shared folders won’t appear in the document grid.  
+- Folders aren’t supported. Documents in shared folders won’t appear in the document grid.  
   
--   There may be a delay between when the documents are shared in [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] and when they’re available to other users.  
+- There may be a delay between when the documents are shared in [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] and when they’re available to other users.  
   
 ### See also  
  [What is OneDrive for Business?](https://support.office.com/en-US/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)   

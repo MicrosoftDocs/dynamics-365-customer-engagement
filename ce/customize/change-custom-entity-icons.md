@@ -50,17 +50,17 @@ When you create a custom entity, it is automatically assigned a default icon, an
     -   No larger than 10 kilobytes.  
   
   
-1.  Open solution explorer, expand **Entities** if necessary, select the custom entity you want to update the icon for, and then on the command bar, select **Update Icons**.  
+1. Open solution explorer, expand **Entities** if necessary, select the custom entity you want to update the icon for, and then on the command bar, select **Update Icons**.  
   
-2.  In the **Select New Icons** dialog box, under **Icon in Web application** or **Icon for Entity Forms**, to the right of **New Icon**, select the **Browse** button ![Lookup button](../customize/media/lookup-button-4.gif "Lookup button"), select the appropriate image file, and then select **OK**.  
+2. In the **Select New Icons** dialog box, under **Icon in Web application** or **Icon for Entity Forms**, to the right of **New Icon**, select the **Browse** button ![Lookup button](../customize/media/lookup-button-4.gif "Lookup button"), select the appropriate image file, and then select **OK**.  
   
-3.  On the command bar, on the **File** menu, select **Save**.  
+3. On the command bar, on the **File** menu, select **Save**.  
   
-4.  When your customizations are complete, publish them:  
+4. When your customizations are complete, publish them:  
   
-    -   To publish customizations for only the component that you are currently editing, in the Navigation Pane, select the entity you have been working on, and then select **Publish**.  
+   - To publish customizations for only the component that you are currently editing, in the Navigation Pane, select the entity you have been working on, and then select **Publish**.  
   
-    -   To publish customizations for all unpublished components at one time, in the Navigation Pane, select **Entities**, and then on the command bar, select **Publish All Customizations**.  
+   - To publish customizations for all unpublished components at one time, in the Navigation Pane, select **Entities**, and then on the command bar, select **Publish All Customizations**.  
   
      New icons might not display in the app until you close and reopen the it.  
   

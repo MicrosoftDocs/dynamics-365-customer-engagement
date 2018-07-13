@@ -32,15 +32,15 @@ manager: shellyha
 ## Customize [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] forms and reports  
  If you want to customize any of the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] forms, dashboards, or reports, you can find more information about customizing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] in the following links:  
   
--   [Customize your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement system](../customize/getting-started-customization.md)  
+- [Customize your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement system](../customize/getting-started-customization.md)  
   
--   [Create and design forms](../customize/create-design-forms.md)  
+- [Create and design forms](../customize/create-design-forms.md)  
   
--   [Create and edit dashboards](../customize/create-edit-dashboards.md)  
+- [Create and edit dashboards](../customize/create-edit-dashboards.md)  
   
--   [Create and edit processes](../customize/guide-staff-through-common-tasks-processes.md)  
+- [Create and edit processes](../customize/guide-staff-through-common-tasks-processes.md)  
   
--   [Introduction to reporting & analytics](../analytics/reporting-analytics-with-dynamics-365.md)  
+- [Introduction to reporting & analytics](../analytics/reporting-analytics-with-dynamics-365.md)  
   
 ### See Also  
  [Administrator Guide](../project-service/admin-guide.md)   

@@ -32,15 +32,15 @@ manager: "amyla"
 ## Filter on user access events  
  To search for audit records that are related to user access, your code should retrieve `Audit` records of an organization and filter on the value in `Audit.Action`. An enumeration named `AuditAction` is provided to identify supported audit actions. The actions related to user access are shown in the following list.  
   
--   `AuditAction.UserAccessviaWeb`  
+- `AuditAction.UserAccessviaWeb`  
   
--   `AuditAction.UserAccessviaWebServices`  
+- `AuditAction.UserAccessviaWebServices`  
   
--   `AuditAction.UserAccessAuditStarted`  
+- `AuditAction.UserAccessAuditStarted`  
   
--   `AuditAction.UserAccessAuditStopped`  
+- `AuditAction.UserAccessAuditStopped`  
   
- `UserAccessviaWeb` indicates access from the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application or [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)]. `UserAccessviaWebServices` indicates a web service request from the SDK. The `AuditAction` enumeration is available to your code when you include `SampleCode\CS\HelperCode\OptionSets.cs` or `SampleCode\VB\HelperCode\OptionSets.vb` in your application’s project.  
+  `UserAccessviaWeb` indicates access from the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application or [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)]. `UserAccessviaWebServices` indicates a web service request from the SDK. The `AuditAction` enumeration is available to your code when you include `SampleCode\CS\HelperCode\OptionSets.cs` or `SampleCode\VB\HelperCode\OptionSets.vb` in your application’s project.  
   
 ### See also  
  [Audit Entity Data Changes in Dynamics 365](audit-entity-data-changes.md)   

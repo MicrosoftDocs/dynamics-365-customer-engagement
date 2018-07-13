@@ -31,21 +31,21 @@ manager: sakudes
   
 - [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] environments that are already using the interactive service hub.  
   
- With the Unified Service Desk interactive service hub sample application package, the following components are installed:  
+  With the Unified Service Desk interactive service hub sample application package, the following components are installed:  
   
--   User Interface Integration solution  
+- User Interface Integration solution  
   
--   Unified Service Desk solution  
+- Unified Service Desk solution  
   
--   Configuration for integrating interactive service hub with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]  
+- Configuration for integrating interactive service hub with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]  
   
--   Data required for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and customizations  
+- Data required for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and customizations  
   
--   The following sample hosted controls  
+- The following sample hosted controls  
   
-    -   KPI Custom Control  
+  -   KPI Custom Control  
   
-    -   Customer Information system  
+  -   Customer Information system  
   
 > [!IMPORTANT]
 >  The sample applications are not supported for production use.  
@@ -61,25 +61,25 @@ manager: sakudes
   
 - **Reminder** tab: View and dismiss activity reminders.  
   
--   Several dashboards are available.  Here's what you can do with this sample package.  
+- Several dashboards are available.  Here's what you can do with this sample package.  
   
-    -   Click a chart or an item in a list to drillthrough and view the records behind the visualization.  
+  - Click a chart or an item in a list to drillthrough and view the records behind the visualization.  
   
-    -   Select a common date range, such as **Today**, **Yesterday**, **Last Month**, or **This Quarter** or enter your own date range.  
+  - Select a common date range, such as **Today**, **Yesterday**, **Last Month**, or **This Quarter** or enter your own date range.  
   
-    -   Switch between list and chart views by selecting the view type, either stream or tile, located in the lower right.  
+  - Switch between list and chart views by selecting the view type, either stream or tile, located in the lower right.  
   
-     Select from the following service dashboards:  
+    Select from the following service dashboards:  
   
-    - **Knowledge Manager**. Displays lists or visualizations of key knowledge article  data, such as proposed articles, draft articles needs review, expired articles needs review, most popular, and highest rated.  
+  - **Knowledge Manager**. Displays lists or visualizations of key knowledge article  data, such as proposed articles, draft articles needs review, expired articles needs review, most popular, and highest rated.  
   
-    - **My Knowledge Dashboard**. Displays lists or  visualizations for several knowledge article key performance indicators associated with the agent, such as active articles, by subject, by owner, view by subject, by status reason, and agent totals for published articles, expired articles, and articles expiring this month.  
+  - **My Knowledge Dashboard**. Displays lists or  visualizations for several knowledge article key performance indicators associated with the agent, such as active articles, by subject, by owner, view by subject, by status reason, and agent totals for published articles, expired articles, and articles expiring this month.  
   
-    - **Tier 1 Dashboard**. Displays lists or visualizations of agent key service data, such as  active cases, resolved cases, draft emails, and activities.  
+  - **Tier 1 Dashboard**. Displays lists or visualizations of agent key service data, such as  active cases, resolved cases, draft emails, and activities.  
   
-    - **Tier 2 Dashboard**.  Displays lists or visualizations for several service key performance indicators associated with the agent, such as active cases, cases by priority, cases by product, case mix by incident type, and agent totals for active cases, resolved cases, activities, and phone calls.  
+  - **Tier 2 Dashboard**.  Displays lists or visualizations for several service key performance indicators associated with the agent, such as active cases, cases by priority, cases by product, case mix by incident type, and agent totals for active cases, resolved cases, activities, and phone calls.  
   
- ![Unified ServiceDesk interactive service hub package](../../unified-service-desk/media/unifiedservicedeskishpackage.PNG "Unified ServiceDesk interactive service hub package")  
+  ![Unified ServiceDesk interactive service hub package](../../unified-service-desk/media/unifiedservicedeskishpackage.PNG "Unified ServiceDesk interactive service hub package")  
 
   ## See also  
- [Unified Service Desk Overview](../../unified-service-desk/admin/overview-unified-service-desk.md)
+  [Unified Service Desk Overview](../../unified-service-desk/admin/overview-unified-service-desk.md)

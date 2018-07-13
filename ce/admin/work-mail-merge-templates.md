@@ -28,23 +28,23 @@ You can use mail merge templates with Office Word to create customer-ready lette
   
     Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_templates](../includes/proc-settings-templates.md)]  
   
-3.  Click **Mail Merge Templates**.  
+3. Click **Mail Merge Templates**.  
   
-4.  To create a new mail merge template, click **New**.  
+4. To create a new mail merge template, click **New**.  
   
-5.  In the **Mail Merge Templates** form, enter a **Name** and an **Associated Entity** (record type).  
+5. In the **Mail Merge Templates** form, enter a **Name** and an **Associated Entity** (record type).  
   
-6.  You can enter a description of the template. This is not displayed to the recipient.  
+6. You can enter a description of the template. This is not displayed to the recipient.  
   
-7.  Enter the **Ownership** and **Owner** information. Use the handy tooltips as a guide.  
+7. Enter the **Ownership** and **Owner** information. Use the handy tooltips as a guide.  
   
-8.  If you have enabled additional languages, you can select one for the template.  
+8. If you have enabled additional languages, you can select one for the template.  
   
 9. To attach the template, click **Browse**, search for the template on your computer, and then click **Attach**. Only .xml documents can be uploaded.  
   

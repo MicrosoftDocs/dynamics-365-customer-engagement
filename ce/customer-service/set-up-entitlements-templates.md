@@ -28,44 +28,41 @@ Quickly create other entitlements prefilled with the basic information like the 
   
     #### Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2. In the Customer Service Hub sitemap, go to **Service Management** >   **Entitlement Templates**.  
-   
-    - The **All Entitlement Templates** view is displayed. You can switch between multiple views using the drop-down. 
-    - Select **Show Chart** in the command bar to see the chart view. <br>
+2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
   
-4.  To create a new entitlement template, select **New**.  
+3. Choose **Entitlement Templates**.  
   
-     -OR-  
+4. To create a new entitlement template, choose **+ New**.  
   
-     To edit an entitlement template, in the list of records, select the template, and on the command bar, choose **Edit**.  
+    -OR-  
   
-5.  Type or modify information in the text boxes.  
+    To edit an entitlement template, in the list of records, select the template, and on the command bar, choose **Edit**.  
   
-     Hovertips provide hints about what to enter.  
-
-    In the **Information** section:
+5. Type or modify information in the text boxes.  
   
-    - **Entitlement Template Name**  
+    Hovertips provide hints about what to enter.  
   
-    - **Start Date**. Select the date from which the entitlement will be valid.  
+   - **Entitlement Template Name**  
   
-    - **End Date**. Select the date until which the entitlement will be valid.  
+   - **Start Date**. Select the date from which the entitlement will be valid.  
   
-    - **Restrict based on entitlement terms**. To restrict creating case when the entitlement term is over, select Yes. Otherwise, Select **No**.  
+   - **End Date**. Select the date until which the entitlement will be valid.  
   
-    - **SLA**. Select an SLA record to associate the service levels or key performance indicators for the support you are providing with this entitlement.  
+   - **Restrict based on entitlement terms**. To restrict creating case when the entitlement term is over, select Yes. Otherwise, Select **No**.  
+  
+   - **SLA**. Select an SLA record to associate the service levels or key performance indicators for the support you are providing with this entitlement.  
   
      Under **Entitlement Terms**, specify the term details for the entitlement: 
   
-    - **Allocation Type**. Select whether the entitlement is for number of hours or number of cases.  
+   - **Allocation Type**. Select whether the entitlement is for number of hours or number of cases.  
   
-    - **Decrease Remaining On**. Select whether to decrease the remaining term on case creation or resolution.  
+   - **Decrease Remaining On**. Select whether to decrease the remaining term on case creation or resolution.  
   
-    - **Total Term**. Specify the total amount of support the customer is entitled for with respect to the allocation type. For example, if the allocation type is number of cases and you specify 100 in Total term, then the customer is entitled for support up to 100 cases.  
+   - **Total Term**. Specify the total amount of support the customer is entitled for with respect to the allocation type. For example, if the allocation type is number of cases and you specify 100 in Total term, then the customer is entitled for support up to 100 cases.  
   
 6. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
   

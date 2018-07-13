@@ -20,32 +20,33 @@ ms.author: "jdaly"
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Use the configuration class hierarchy to specify the required connection data for accessing [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement web services from your application. You can supply this connection data either by setting values directly in your code, possibly from user input, using the `Configuration` base class. More typically, you supply this information in settings stored in your application configuration file, using the derived class, `FileConfiguration`.  
-  
+
  The source code for the configuration class hierarchy is located in the file Configuration.cs in the [CRM SDK Web API Helper Library](https://www.nuget.org/packages/Microsoft.CrmSdk.WebApi.Samples.HelperCode/). The configuration class hierarchy is designed to work in conjunction with the `Authentication`class to enable you to establish a secure connection to your Dynamics 365 service. For more information, see             [Use the Dynamics 365 Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md).  
-  
+
 <a name="bkmk_Connectiondata"></a>
 
 ## Connection data
 
  The `Configuration`class reads and parses the application configuration file to obtain the following connection data.  
-  
-|Connection data|Deployments|Description|  
-|---------------------|-----------------|-----------------|  
-|Service URL|All|The base URL to the Dynamics 365 service|  
-|Username|All|The user name registered in Dynamics 365|  
-|Password|All|The password for that user|  
-|Domain|All|The domain of the Dynamics 365 service for Active Directory authentication|  
-|Client ID|Online and IFD only|The client ID of the application as it was registered with Azure AD for [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-online.md)] or your Active Directory tenant for [!INCLUDE[pn_dyn_365_op](../../includes/pn-dyn-365-op.md)] using Internet-facing deployment (IFD).|  
-|Redirect URL|Online and IFD only|A callback URI for the current application.|  
-  
+
+
+| Connection data |     Deployments     |                                                                                                                                  Description                                                                                                                                  |
+|-----------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   Service URL   |         All         |                                                                                                                   The base URL to the Dynamics 365 service                                                                                                                    |
+|    Username     |         All         |                                                                                                                   The user name registered in Dynamics 365                                                                                                                    |
+|    Password     |         All         |                                                                                                                          The password for that user                                                                                                                           |
+|     Domain      |         All         |                                                                                                  The domain of the Dynamics 365 service for Active Directory authentication                                                                                                   |
+|    Client ID    | Online and IFD only | The client ID of the application as it was registered with Azure AD for [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-online.md)] or your Active Directory tenant for [!INCLUDE[pn_dyn_365_op](../../includes/pn-dyn-365-op.md)] using Internet-facing deployment (IFD). |
+|  Redirect URL   | Online and IFD only |                                                                                                                  A callback URI for the current application.                                                                                                                  |
+
  For more information on obtaining a client ID and a redirection URL for an application, see [Walkthrough: Register a Dynamics 365 app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md) for use with [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-online.md)] and                 [Walkthrough: Register a Dynamics 365 app with Active Directory](../walkthrough-register-app-active-directory.md) for use with [!INCLUDE[pn_dyn_365_op](../../includes/pn-dyn-365-op.md)] using Internet-facing deployment (IFD).  
-  
+
 <a name="bkmk_FileConfigconnectionsettings"></a>
 
 ### FileConfiguration connection settings
 
  Most of the Dynamics 365 Web API samples use the derived class, `FileConfiguration`, to extract the connection data from the application configuration file, App.config. This file has several application settings that apply to the different Dynamics 365 Server deployment modes. The `connectionString` setting contains the service URL and user name. Additionally, the `ClientId`and `RedirectUrl` settings are required for online or Internet-facing deployments (IFD). The following lines, excerpted from the default App.config file provided with most of the Web API samples, contain this connection data as placeholder values. You must replace these placeholders with values specific to the current user, your Dynamics 365 server, and your client application.  
-  
+
 ```xml  
 <connectionStrings> 
     <add name="default" connectionString="Url=http://myserver/myorg/; Username=name; Password=password; Domain=domain" /> 
@@ -55,85 +56,85 @@ Use the configuration class hierarchy to specify the required connection data fo
     <add key="RedirectUrl" value="http://localhost/SdkSample" /> 
 </appSettings>  
 ```  
-  
+
  The full contents of the default configuration file are provided in [Default configuration file listing](#bkmk_Defaultconfigurationfilelisting).  
-  
+
 <a name="bkmk_Classhierarchyandmembers"></a>
- 
+
 ## Class hierarchy and members
 
  The following diagram shows the public members of the configuration class hierarchy.  
-  
+
  ![Dynamics 365 Web API Helper Library&#45;Configuration Class Diagram](../media/web-api-helper-library-configuration-class-diagram.png "Dynamics 365 Web API Helper Library-Configuration Class Diagram")  
-  
+
  **Configuration class**  
-  
+
  *Properties:*  
-  
+
  All properties map directly to the corresponding connection data detailed in the previous section.  
-  
+
  *Methods*:  
-  
+
  The default constructor leaves all properties uninitialized (null).  
-  
+
  **FileConfiguration Class**  
-  
+
  *Properties:*  
-  
+
  `Name`is the name of the connection string setting entry.  
-  
+
  `PathToConfig`is the full or relative path to the application configuration file.  
-  
+
  *Methods*:  
-  
+
  The default constructor leaves all properties uninitialized (null).  
-  
+
  The non-default constructor takes a single string parameter that specifies the named connection string. An empty string or null string value results in the first connection string entry being used.  
-  
+
  The `Load`method opens, reads, and parses the specified configuration file. It is used by the non-default constructor.  
-  
+
 <a name="bkmk_usage"></a>
 
 ## Usage
 
  The `FileConfiguration` and `Authentication` classes are designed to be used in tandem to read the connection information in App.config and to then establish a secure connection to the target Dynamics 365 service. This can be implemented with the following statements.  
-  
+
 ```csharp  
 FileConfiguration config = new FileConfiguration(null); Authentication auth = new Authentication(config); httpClient = new HttpClient(auth.ClientHandler, true);  
 ```  
-  
+
  The non-default constructor in the `Configuration` class enables the use of a named connection string, for example:  
-  
+
 ```csharp  
 Configuration config = new FileConfiguration(“TestServer”);  
 ```  
-  
+
  If a null or empty connection string name is passed to the `FileConfiguration` class constructor, the first connection string from the top of the configuration file is used.  
-  
+
  Furthermore, the SDK samples support a run-time command parameter, representing the name of the desired connection string, to be passed to the constructor. This option is implemented by the following code:  
-  
+
 ```csharp  
 if (cmdargs.Length > 0) { config = new FileConfiguration(cmdargs[0]); } else { config = new FileConfiguration(null); }  
 ```  
-  
+
 <a name="bkmk_Configurationsearchorder"></a>
 
 ### Configuration search order
 
  Whether using the default or a custom application configuration file, the optional `AlternateConfig` application setting can be supplied within the file to specify an alternative configuration file. If this file exists, its connection settings will be used instead.  
-  
+
 ```xml  
 <add key="AlternateConfig" value="C:\Temp\crmsample.exe.config"/>  
 ```  
-  
+
  One common use of this setting is to supply a global configuration file to be shared among multiple applications, instead of editing each application’s App.config file. This is especially useful for sharing configuration and registration information among                         multiple applications moving through the development and testing stages. Then only for production would you provide unique configuration and registration information for each application.  
-  
+
 <a name="bkmk_Defaultconfigurationfilelisting"></a>
 
 ## Default configuration file listing
 
  The file App.config, provided with most Dynamics 365 Web API samples, contains placeholder connection values that must be edited by the developer or site administrator.  
-  
+
 ```xml  
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
@@ -160,11 +161,11 @@ if (cmdargs.Length > 0) { config = new FileConfiguration(cmdargs[0]); } else { c
    </appSettings>
 </configuration>  
 ```  
-  
+
 ## Class listing
 
  The most current source for this class is found in the [CRM SDK Web API Helper Library](https://www.nuget.org/packages/Microsoft.CrmSdk.WebApi.Samples.HelperCode) NuGet package.  
-  
+
 ```csharp  
 using System;
 using System.IO;
@@ -396,7 +397,7 @@ namespace Microsoft.Crm.Sdk.Samples.HelperCode
     }
 } 
 ```  
-  
+
 ### See also
 
  [Get Started with the Web API (C#)](get-started-dynamics-365-web-api-csharp.md)   

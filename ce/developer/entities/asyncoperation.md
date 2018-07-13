@@ -1212,6 +1212,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_AsyncOperation_MailboxTrackingFolder"></a> AsyncOperation_MailboxTrackingFolder
 
 Same as mailboxtrackingfolder entity [AsyncOperation_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_AsyncOperation_MailboxTrackingFolder) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1226,6 +1227,7 @@ Same as mailboxtrackingfolder entity [AsyncOperation_MailboxTrackingFolder](mail
 ### <a name="BKMK_AsyncOperation_BulkDeleteOperation"></a> AsyncOperation_BulkDeleteOperation
 
 Same as bulkdeleteoperation entity [AsyncOperation_BulkDeleteOperation](bulkdeleteoperation.md#BKMK_AsyncOperation_BulkDeleteOperation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeleteoperation|
@@ -1240,6 +1242,7 @@ Same as bulkdeleteoperation entity [AsyncOperation_BulkDeleteOperation](bulkdele
 ### <a name="BKMK_lk_workflowlog_asyncoperation_childworkflow"></a> lk_workflowlog_asyncoperation_childworkflow
 
 Same as workflowlog entity [lk_workflowlog_asyncoperation_childworkflow](workflowlog.md#BKMK_lk_workflowlog_asyncoperation_childworkflow) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|workflowlog|
@@ -1254,6 +1257,7 @@ Same as workflowlog entity [lk_workflowlog_asyncoperation_childworkflow](workflo
 ### <a name="BKMK_AsyncOperation_Emails"></a> AsyncOperation_Emails
 
 Same as email entity [AsyncOperation_Emails](email.md#BKMK_AsyncOperation_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -1268,6 +1272,7 @@ Same as email entity [AsyncOperation_Emails](email.md#BKMK_AsyncOperation_Emails
 ### <a name="BKMK_AsyncOperation_DuplicateBaseRecord"></a> AsyncOperation_DuplicateBaseRecord
 
 Same as duplicaterecord entity [AsyncOperation_DuplicateBaseRecord](duplicaterecord.md#BKMK_AsyncOperation_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1282,6 +1287,7 @@ Same as duplicaterecord entity [AsyncOperation_DuplicateBaseRecord](duplicaterec
 ### <a name="BKMK_lk_workflowlog_asyncoperations"></a> lk_workflowlog_asyncoperations
 
 Same as workflowlog entity [lk_workflowlog_asyncoperations](workflowlog.md#BKMK_lk_workflowlog_asyncoperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|workflowlog|
@@ -1296,6 +1302,7 @@ Same as workflowlog entity [lk_workflowlog_asyncoperations](workflowlog.md#BKMK_
 ### <a name="BKMK_AsyncOperation_SocialActivities"></a> AsyncOperation_SocialActivities
 
 Same as socialactivity entity [AsyncOperation_SocialActivities](socialactivity.md#BKMK_AsyncOperation_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -1310,6 +1317,7 @@ Same as socialactivity entity [AsyncOperation_SocialActivities](socialactivity.m
 ### <a name="BKMK_userentityinstancedata_asyncoperation"></a> userentityinstancedata_asyncoperation
 
 Same as userentityinstancedata entity [userentityinstancedata_asyncoperation](userentityinstancedata.md#BKMK_userentityinstancedata_asyncoperation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

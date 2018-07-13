@@ -908,6 +908,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_template"></a> userentityinstancedata_template
 
 Same as userentityinstancedata entity [userentityinstancedata_template](userentityinstancedata.md#BKMK_userentityinstancedata_template) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -922,6 +923,7 @@ Same as userentityinstancedata entity [userentityinstancedata_template](userenti
 ### <a name="BKMK_template_activity_mime_attachments"></a> template_activity_mime_attachments
 
 Same as activitymimeattachment entity [template_activity_mime_attachments](activitymimeattachment.md#BKMK_template_activity_mime_attachments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitymimeattachment|
@@ -936,6 +938,7 @@ Same as activitymimeattachment entity [template_activity_mime_attachments](activ
 ### <a name="BKMK_Template_SyncErrors"></a> Template_SyncErrors
 
 Same as syncerror entity [Template_SyncErrors](syncerror.md#BKMK_Template_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -950,6 +953,7 @@ Same as syncerror entity [Template_SyncErrors](syncerror.md#BKMK_Template_SyncEr
 ### <a name="BKMK_Template_AsyncOperations"></a> Template_AsyncOperations
 
 Same as asyncoperation entity [Template_AsyncOperations](asyncoperation.md#BKMK_Template_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -964,6 +968,7 @@ Same as asyncoperation entity [Template_AsyncOperations](asyncoperation.md#BKMK_
 ### <a name="BKMK_Email_EmailTemplate"></a> Email_EmailTemplate
 
 Same as email entity [Email_EmailTemplate](email.md#BKMK_Email_EmailTemplate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -978,6 +983,7 @@ Same as email entity [Email_EmailTemplate](email.md#BKMK_Email_EmailTemplate) Ma
 ### <a name="BKMK_Template_Organization"></a> Template_Organization
 
 Same as organization entity [Template_Organization](organization.md#BKMK_Template_Organization) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|organization|
@@ -992,6 +998,7 @@ Same as organization entity [Template_Organization](organization.md#BKMK_Templat
 ### <a name="BKMK_Template_ProcessSessions"></a> Template_ProcessSessions
 
 Same as processsession entity [Template_ProcessSessions](processsession.md#BKMK_Template_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1006,6 +1013,7 @@ Same as processsession entity [Template_ProcessSessions](processsession.md#BKMK_
 ### <a name="BKMK_emailtemplate_convertrule"></a> emailtemplate_convertrule
 
 Same as convertrule entity [emailtemplate_convertrule](convertrule.md#BKMK_emailtemplate_convertrule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|convertrule|
@@ -1020,6 +1028,7 @@ Same as convertrule entity [emailtemplate_convertrule](convertrule.md#BKMK_email
 ### <a name="BKMK_Template_BulkDeleteFailures"></a> Template_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Template_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Template_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|

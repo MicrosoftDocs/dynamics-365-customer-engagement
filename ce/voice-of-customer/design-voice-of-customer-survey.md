@@ -16,21 +16,21 @@ manager: sakudes
 # Design your Voice of the Customer survey 
 Once you’ve uploaded your images to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], designed at least one theme, and made any planning decisions, it’s time to design your [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] survey.  
   
-1.  From the menu, go to **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] > Surveys**.  
+1. From the menu, go to **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] > Surveys**.  
   
-2.  Click **New**.  
+2. Click **New**.  
   
-3.  Enter information in the **Summary** area, and then click **Save** to create the survey record so you can continue designing your survey.  
+3. Enter information in the **Summary** area, and then click **Save** to create the survey record so you can continue designing your survey.  
   
-4.  In the **Survey Runtime** area, specify the theme and logo image you want to use. Also set the values for header and footer text, navigation, and other options. If you need extra help, hover over any field to read the tooltips.  
+4. In the **Survey Runtime** area, specify the theme and logo image you want to use. Also set the values for header and footer text, navigation, and other options. If you need extra help, hover over any field to read the tooltips.  
   
-5.  In the **Invitations and Actions** area, specify values for each field. If you need extra help, hover over any field to read the tooltips.  
+5. In the **Invitations and Actions** area, specify values for each field. If you need extra help, hover over any field to read the tooltips.  
   
-6.  Edit the items in the **Advanced** and **Feedback** areas as necessary.  
+6. Edit the items in the **Advanced** and **Feedback** areas as necessary.  
   
-7.  When you’re done editing information about the survey, click **Save**.  
+7. When you’re done editing information about the survey, click **Save**.  
   
-8.  In the **Survey** box, click **Designer**.  
+8. In the **Survey** box, click **Designer**.  
   
 9. Edit each page of your survey. These are some of the actions you can take:  
   

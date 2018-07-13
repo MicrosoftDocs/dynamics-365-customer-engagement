@@ -20,7 +20,7 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample of [work with attribute metadata] (https://code.msdn.microsoft.com/Samples-of-attributes-1c0f93e7). 
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample of [work with attribute metadata](https://code.msdn.microsoft.com/Samples-of-attributes-1c0f93e7). 
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
@@ -33,17 +33,17 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
   
  The sample does the following tasks:  
   
-1.  Retrieves status options for the Incident entity  
+1. Retrieves status options for the Incident entity  
   
-2.  Uses a `GetValidStatusOptions` method in the sample to get valid status transitions for each status option  
+2. Uses a `GetValidStatusOptions` method in the sample to get valid status transitions for each status option  
   
-3.  Displays the valid transition options in the console  
+3. Displays the valid transition options in the console  
   
- When status reason transitions for the incident entity are configured in the following way:  
+   When status reason transitions for the incident entity are configured in the following way:  
   
- ![Example of status reason transitions for case](media/status-reason-transitions-example.PNG "Example of status reason transitions for case")  
+   ![Example of status reason transitions for case](media/status-reason-transitions-example.PNG "Example of status reason transitions for case")  
   
- The valid state transitions are filtered and you will see the following representing all the valid transitions for each status option.  
+   The valid state transitions are filtered and you will see the following representing all the valid transitions for each status option.  
   
 ```ms-dos
 [In Progress] incident records can transition to:  

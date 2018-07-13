@@ -872,6 +872,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_ProductPriceLevel_SyncErrors"></a> ProductPriceLevel_SyncErrors
 
 Same as syncerror entity [ProductPriceLevel_SyncErrors](syncerror.md#BKMK_ProductPriceLevel_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -886,6 +887,7 @@ Same as syncerror entity [ProductPriceLevel_SyncErrors](syncerror.md#BKMK_Produc
 ### <a name="BKMK_ProductPriceLevel_AsyncOperations"></a> ProductPriceLevel_AsyncOperations
 
 Same as asyncoperation entity [ProductPriceLevel_AsyncOperations](asyncoperation.md#BKMK_ProductPriceLevel_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -900,6 +902,7 @@ Same as asyncoperation entity [ProductPriceLevel_AsyncOperations](asyncoperation
 ### <a name="BKMK_productpricelevel_MailboxTrackingFolders"></a> productpricelevel_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [productpricelevel_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_productpricelevel_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -914,6 +917,7 @@ Same as mailboxtrackingfolder entity [productpricelevel_MailboxTrackingFolders](
 ### <a name="BKMK_userentityinstancedata_productpricelevel"></a> userentityinstancedata_productpricelevel
 
 Same as userentityinstancedata entity [userentityinstancedata_productpricelevel](userentityinstancedata.md#BKMK_userentityinstancedata_productpricelevel) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -928,6 +932,7 @@ Same as userentityinstancedata entity [userentityinstancedata_productpricelevel]
 ### <a name="BKMK_ProductPriceLevel_ProcessSessions"></a> ProductPriceLevel_ProcessSessions
 
 Same as processsession entity [ProductPriceLevel_ProcessSessions](processsession.md#BKMK_ProductPriceLevel_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -942,6 +947,7 @@ Same as processsession entity [ProductPriceLevel_ProcessSessions](processsession
 ### <a name="BKMK_ProductPriceLevel_BulkDeleteFailures"></a> ProductPriceLevel_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [ProductPriceLevel_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ProductPriceLevel_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -956,6 +962,7 @@ Same as bulkdeletefailure entity [ProductPriceLevel_BulkDeleteFailures](bulkdele
 ### <a name="BKMK_productpricelevel_PrincipalObjectAttributeAccesses"></a> productpricelevel_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [productpricelevel_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_productpricelevel_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

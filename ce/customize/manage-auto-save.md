@@ -43,9 +43,9 @@ Auto-save helps people focus on their work without having to manage saving data 
   
 1. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
   
-2.  Choose **System Settings**.  
+2. Choose **System Settings**.  
   
-3.  For the **Enable auto-save for all forms** option, select **No**.  
+3. For the **Enable auto-save for all forms** option, select **No**.  
   
 <a name="BKMK_DisalbleAutoSaveForm"></a>   
 ## Disable auto-save for a form  
@@ -56,78 +56,78 @@ Auto-save helps people focus on their work without having to manage saving data 
   
 1. [!INCLUDE[proc_logo_settings](../includes/proc-logo-settings.md)]  
   
- [!INCLUDE[proc_settings_appears](../includes/proc-settings-appears.md)]
+   [!INCLUDE[proc_settings_appears](../includes/proc-settings-appears.md)]
   
 2. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-3.  Choose **Customize the System**.  
+3. Choose **Customize the System**.  
   
-4.  Under **Components**, expand **Entities** and locate the entity for the form.  
+4. Under **Components**, expand **Entities** and locate the entity for the form.  
   
-5.  Expand the entity node and choose **Forms**.  
+5. Expand the entity node and choose **Forms**.  
   
-6.  Open the form you want to edit.  
+6. Open the form you want to edit.  
   
-7.  Create a JavaScript web resource and add it to the form:  
+7. Create a JavaScript web resource and add it to the form:  
   
-    1.  In the form editor, in the **Form** group, choose **Form Properties**.  
+   1.  In the form editor, in the **Form** group, choose **Form Properties**.  
   
-    2.  On the **Events** tab, below **Form Libraries** choose **Add**.  
+   2.  On the **Events** tab, below **Form Libraries** choose **Add**.  
   
-    3.  In the **Look Up Record** dialog box, choose **New**.  
+   3.  In the **Look Up Record** dialog box, choose **New**.  
   
-    4.  Enter the following information in the web resource form:  
+   4.  Enter the following information in the web resource form:  
   
-        |||  
-        |-|-|  
-        |**Name**|preventAutoSave|  
-        |**Display Name**|Prevent Auto Save|  
-        |**Type**|Script (JScript)|  
+       |||  
+       |-|-|  
+       |**Name**|preventAutoSave|  
+       |**Display Name**|Prevent Auto Save|  
+       |**Type**|Script (JScript)|  
   
-    5.  Next to the **Type** field, choose **Text Editor**.  
+   5.  Next to the **Type** field, choose **Text Editor**.  
   
-    6.  In the **Source** field, paste the following code:  
+   6.  In the **Source** field, paste the following code:  
   
-        ```javascript  
-        function preventAutoSave(econtext) {  
-            var eventArgs = econtext.getEventArgs();  
-            if (eventArgs.getSaveMode() == 70 || eventArgs.getSaveMode() == 2) {  
-                eventArgs.preventDefault();  
-            }  
-        }  
+       ```javascript  
+       function preventAutoSave(econtext) {  
+           var eventArgs = econtext.getEventArgs();  
+           if (eventArgs.getSaveMode() == 70 || eventArgs.getSaveMode() == 2) {  
+               eventArgs.preventDefault();  
+           }  
+       }  
   
-        ```  
+       ```  
   
-    7.  Choose **OK** to close the text editor.  
+   7.  Choose **OK** to close the text editor.  
   
-    8.  Choose **Save** to save the web resource and then close the web resource window.  
+   8.  Choose **Save** to save the web resource and then close the web resource window.  
   
-    9. In the **Look Up Record** dialog the new web resource you created will be selected. Choose **Add** to close the dialog.  
+   9. In the **Look Up Record** dialog the new web resource you created will be selected. Choose **Add** to close the dialog.  
   
-8.  Configure the OnSave event:  
+8. Configure the OnSave event:  
   
-    1.  In the **Form Properties** window, in the **Event Handlers** section, set **Event** to **OnSave**.  
+   1.  In the **Form Properties** window, in the **Event Handlers** section, set **Event** to **OnSave**.  
   
-    2.  Click **Add**.  
+   2.  Click **Add**.  
   
-    3.  In the **Handler Properties** window, set **Library** to the web resource you added in the previous step.  
+   3.  In the **Handler Properties** window, set **Library** to the web resource you added in the previous step.  
   
-    4.  Type ‘`preventAutoSave`’ in the **Function** field. This is case sensitive. Do not include quotation marks.  
+   4.  Type ‘`preventAutoSave`’ in the **Function** field. This is case sensitive. Do not include quotation marks.  
   
-    5.  Make sure that **Enabled** is checked.  
+   5.  Make sure that **Enabled** is checked.  
   
-    6.  Check **Pass execution context as first parameter**.  
+   6.  Check **Pass execution context as first parameter**.  
   
-        > [!IMPORTANT]
-        >  If you do not do this the script will not work.  
+       > [!IMPORTANT]
+       >  If you do not do this the script will not work.  
   
-         The **Handler Properties** dialog should look like this. The customization prefix: “new_” may vary based on the customization prefix set for the default publisher for your organization.  
+        The **Handler Properties** dialog should look like this. The customization prefix: “new_” may vary based on the customization prefix set for the default publisher for your organization.  
   
- ![OnSave event handler to prevent autosave in Dynamics 365](../customize/media/prevent-auto-save-script.png "OnSave event handler to prevent autosave in Dynamics 365")  
+   ![OnSave event handler to prevent autosave in Dynamics 365](../customize/media/prevent-auto-save-script.png "OnSave event handler to prevent autosave in Dynamics 365")  
   
-    7.  Click **OK** to close the **Handler Properties** dialog.  
+   7.  Click **OK** to close the **Handler Properties** dialog.  
   
-    8.  If there are any other event handlers for the `OnSave` event, use the green arrows to move this one to the top.  
+   8.  If there are any other event handlers for the `OnSave` event, use the green arrows to move this one to the top.  
   
 9. Click **OK** to close the **Form Properties** dialog.  
   
@@ -135,7 +135,7 @@ Auto-save helps people focus on their work without having to manage saving data 
   
 11. In the solution explorer, click **Publish All Customizations**.  
   
- After you apply this script to the `OnSave` event, when people edit a record using this form the message **unsaved changes** will appear in the bottom right corner of the form just as it would if auto-save was not disabled. But this message will not go away until people click the ![Auto save button](../customize/media/auto-save-icon.png "Auto save button") button next to it.  
+    After you apply this script to the `OnSave` event, when people edit a record using this form the message **unsaved changes** will appear in the bottom right corner of the form just as it would if auto-save was not disabled. But this message will not go away until people click the ![Auto save button](../customize/media/auto-save-icon.png "Auto save button") button next to it.  
   
 ### See also  
  [Create and design forms](../customize/create-design-forms.md)      

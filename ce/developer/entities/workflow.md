@@ -1474,6 +1474,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_lk_phonetocaseprocess_processid"></a> lk_phonetocaseprocess_processid
 
 Same as phonetocaseprocess entity [lk_phonetocaseprocess_processid](phonetocaseprocess.md#BKMK_lk_phonetocaseprocess_processid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonetocaseprocess|
@@ -1488,6 +1489,7 @@ Same as phonetocaseprocess entity [lk_phonetocaseprocess_processid](phonetocasep
 ### <a name="BKMK_lk_leadtoopportunitysalesprocess_processid"></a> lk_leadtoopportunitysalesprocess_processid
 
 Same as leadtoopportunitysalesprocess entity [lk_leadtoopportunitysalesprocess_processid](leadtoopportunitysalesprocess.md#BKMK_lk_leadtoopportunitysalesprocess_processid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|leadtoopportunitysalesprocess|
@@ -1502,6 +1504,7 @@ Same as leadtoopportunitysalesprocess entity [lk_leadtoopportunitysalesprocess_p
 ### <a name="BKMK_lk_opportunitysalesprocess_processid"></a> lk_opportunitysalesprocess_processid
 
 Same as opportunitysalesprocess entity [lk_opportunitysalesprocess_processid](opportunitysalesprocess.md#BKMK_lk_opportunitysalesprocess_processid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunitysalesprocess|
@@ -1516,6 +1519,7 @@ Same as opportunitysalesprocess entity [lk_opportunitysalesprocess_processid](op
 ### <a name="BKMK_lk_msdyn_bpf_665e73aa18c247d886bfc50499c73b82_processid"></a> lk_msdyn_bpf_665e73aa18c247d886bfc50499c73b82_processid
 
 Same as msdyn_bpf_665e73aa18c247d886bfc50499c73b82 entity [lk_msdyn_bpf_665e73aa18c247d886bfc50499c73b82_processid](msdyn_bpf_665e73aa18c247d886bfc50499c73b82.md#BKMK_lk_msdyn_bpf_665e73aa18c247d886bfc50499c73b82_processid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bpf_665e73aa18c247d886bfc50499c73b82|
@@ -1530,6 +1534,7 @@ Same as msdyn_bpf_665e73aa18c247d886bfc50499c73b82 entity [lk_msdyn_bpf_665e73aa
 ### <a name="BKMK_lk_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_processid"></a> lk_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_processid
 
 Same as msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d entity [lk_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_processid](msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d.md#BKMK_lk_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_processid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d|
@@ -1544,6 +1549,7 @@ Same as msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d entity [lk_msdyn_bpf_d8f9dc7f
 ### <a name="BKMK_lk_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_processid"></a> lk_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_processid
 
 Same as msdyn_bpf_2c5fe86acc8b414b8322ae571000c799 entity [lk_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_processid](msdyn_bpf_2c5fe86acc8b414b8322ae571000c799.md#BKMK_lk_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_processid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bpf_2c5fe86acc8b414b8322ae571000c799|
@@ -1558,6 +1564,7 @@ Same as msdyn_bpf_2c5fe86acc8b414b8322ae571000c799 entity [lk_msdyn_bpf_2c5fe86a
 ### <a name="BKMK_lk_msdyn_bpf_989e9b1857e24af18787d5143b67523b_processid"></a> lk_msdyn_bpf_989e9b1857e24af18787d5143b67523b_processid
 
 Same as msdyn_bpf_989e9b1857e24af18787d5143b67523b entity [lk_msdyn_bpf_989e9b1857e24af18787d5143b67523b_processid](msdyn_bpf_989e9b1857e24af18787d5143b67523b.md#BKMK_lk_msdyn_bpf_989e9b1857e24af18787d5143b67523b_processid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bpf_989e9b1857e24af18787d5143b67523b|
@@ -1572,6 +1579,7 @@ Same as msdyn_bpf_989e9b1857e24af18787d5143b67523b entity [lk_msdyn_bpf_989e9b18
 ### <a name="BKMK_lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_processid"></a> lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_processid
 
 Same as msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 entity [lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_processid](msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3.md#BKMK_lk_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_processid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3|
@@ -1586,6 +1594,7 @@ Same as msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 entity [lk_msdyn_bpf_baa0a411
 ### <a name="BKMK_lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_processid"></a> lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_processid
 
 Same as msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39 entity [lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_processid](msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39.md#BKMK_lk_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_processid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39|
@@ -1600,6 +1609,7 @@ Same as msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39 entity [lk_msdyn_bpf_d3d97bac
 ### <a name="BKMK_lk_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_processid"></a> lk_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_processid
 
 Same as msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b entity [lk_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_processid](msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b.md#BKMK_lk_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_processid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b|
@@ -1614,6 +1624,7 @@ Same as msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b entity [lk_msdyn_bpf_477c16f5
 ### <a name="BKMK_Workflow_Annotation"></a> Workflow_Annotation
 
 Same as annotation entity [Workflow_Annotation](annotation.md#BKMK_Workflow_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1628,6 +1639,7 @@ Same as annotation entity [Workflow_Annotation](annotation.md#BKMK_Workflow_Anno
 ### <a name="BKMK_workflowid_profilerule"></a> workflowid_profilerule
 
 Same as channelaccessprofilerule entity [workflowid_profilerule](channelaccessprofilerule.md#BKMK_workflowid_profilerule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|channelaccessprofilerule|
@@ -1642,6 +1654,7 @@ Same as channelaccessprofilerule entity [workflowid_profilerule](channelaccesspr
 ### <a name="BKMK_process_processstage"></a> process_processstage
 
 Same as processstage entity [process_processstage](processstage.md#BKMK_process_processstage) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processstage|
@@ -1656,6 +1669,7 @@ Same as processstage entity [process_processstage](processstage.md#BKMK_process_
 ### <a name="BKMK_Workflow_routingrule"></a> Workflow_routingrule
 
 Same as routingrule entity [Workflow_routingrule](routingrule.md#BKMK_Workflow_routingrule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|routingrule|
@@ -1670,6 +1684,7 @@ Same as routingrule entity [Workflow_routingrule](routingrule.md#BKMK_Workflow_r
 ### <a name="BKMK_lk_asyncoperation_workflowactivationid"></a> lk_asyncoperation_workflowactivationid
 
 Same as asyncoperation entity [lk_asyncoperation_workflowactivationid](asyncoperation.md#BKMK_lk_asyncoperation_workflowactivationid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1684,6 +1699,7 @@ Same as asyncoperation entity [lk_asyncoperation_workflowactivationid](asyncoper
 ### <a name="BKMK_process_processtrigger"></a> process_processtrigger
 
 Same as processtrigger entity [process_processtrigger](processtrigger.md#BKMK_process_processtrigger) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processtrigger|
@@ -1698,6 +1714,7 @@ Same as processtrigger entity [process_processtrigger](processtrigger.md#BKMK_pr
 ### <a name="BKMK_lk_expiredprocess_processid"></a> lk_expiredprocess_processid
 
 Same as expiredprocess entity [lk_expiredprocess_processid](expiredprocess.md#BKMK_lk_expiredprocess_processid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|expiredprocess|
@@ -1712,6 +1729,7 @@ Same as expiredprocess entity [lk_expiredprocess_processid](expiredprocess.md#BK
 ### <a name="BKMK_workflow_parent_workflow"></a> workflow_parent_workflow
 
 Same as workflow entity [workflow_parent_workflow](workflow.md#BKMK_workflow_parent_workflow) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|workflow|
@@ -1726,6 +1744,7 @@ Same as workflow entity [workflow_parent_workflow](workflow.md#BKMK_workflow_par
 ### <a name="BKMK_userentityinstancedata_workflow"></a> userentityinstancedata_workflow
 
 Same as userentityinstancedata entity [userentityinstancedata_workflow](userentityinstancedata.md#BKMK_userentityinstancedata_workflow) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1740,6 +1759,7 @@ Same as userentityinstancedata entity [userentityinstancedata_workflow](userenti
 ### <a name="BKMK_slaitembase_workflowid"></a> slaitembase_workflowid
 
 Same as slaitem entity [slaitembase_workflowid](slaitem.md#BKMK_slaitembase_workflowid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|slaitem|
@@ -1754,6 +1774,7 @@ Same as slaitem entity [slaitembase_workflowid](slaitem.md#BKMK_slaitembase_work
 ### <a name="BKMK_slabase_workflowid"></a> slabase_workflowid
 
 Same as sla entity [slabase_workflowid](sla.md#BKMK_slabase_workflowid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sla|
@@ -1768,6 +1789,7 @@ Same as sla entity [slabase_workflowid](sla.md#BKMK_slabase_workflowid) Many-To-
 ### <a name="BKMK_lk_processsession_processid"></a> lk_processsession_processid
 
 Same as processsession entity [lk_processsession_processid](processsession.md#BKMK_lk_processsession_processid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1782,6 +1804,7 @@ Same as processsession entity [lk_processsession_processid](processsession.md#BK
 ### <a name="BKMK_workflow_dependencies"></a> workflow_dependencies
 
 Same as workflowdependency entity [workflow_dependencies](workflowdependency.md#BKMK_workflow_dependencies) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|workflowdependency|
@@ -1796,6 +1819,7 @@ Same as workflowdependency entity [workflow_dependencies](workflowdependency.md#
 ### <a name="BKMK_lk_translationprocess_processid"></a> lk_translationprocess_processid
 
 Same as translationprocess entity [lk_translationprocess_processid](translationprocess.md#BKMK_lk_translationprocess_processid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|translationprocess|
@@ -1810,6 +1834,7 @@ Same as translationprocess entity [lk_translationprocess_processid](translationp
 ### <a name="BKMK_lk_newprocess_processid"></a> lk_newprocess_processid
 
 Same as newprocess entity [lk_newprocess_processid](newprocess.md#BKMK_lk_newprocess_processid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|newprocess|
@@ -1824,6 +1849,7 @@ Same as newprocess entity [lk_newprocess_processid](newprocess.md#BKMK_lk_newpro
 ### <a name="BKMK_Workflow_SyncErrors"></a> Workflow_SyncErrors
 
 Same as syncerror entity [Workflow_SyncErrors](syncerror.md#BKMK_Workflow_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1838,6 +1864,7 @@ Same as syncerror entity [Workflow_SyncErrors](syncerror.md#BKMK_Workflow_SyncEr
 ### <a name="BKMK_workflow_active_workflow"></a> workflow_active_workflow
 
 Same as workflow entity [workflow_active_workflow](workflow.md#BKMK_workflow_active_workflow) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|workflow|
@@ -1852,6 +1879,7 @@ Same as workflow entity [workflow_active_workflow](workflow.md#BKMK_workflow_act
 ### <a name="BKMK_workflowid_convertrule"></a> workflowid_convertrule
 
 Same as convertrule entity [workflowid_convertrule](convertrule.md#BKMK_workflowid_convertrule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|convertrule|
@@ -1866,6 +1894,7 @@ Same as convertrule entity [workflowid_convertrule](convertrule.md#BKMK_workflow
 ### <a name="BKMK_convertruleitembase_workflowid"></a> convertruleitembase_workflowid
 
 Same as convertruleitem entity [convertruleitembase_workflowid](convertruleitem.md#BKMK_convertruleitembase_workflowid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|convertruleitem|

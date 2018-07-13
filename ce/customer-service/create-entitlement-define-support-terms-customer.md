@@ -27,64 +27,59 @@ Define what kind of support your customers are eligible for by creating entitlem
   
     #### Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2.  In the Customer Service Hub sitemap, go to **Service Management** > **Entitlements**.
-    
-    - The **All Entitlements** view is displayed. You can switch between multiple views using the drop-down. 
-    - Select **Show Chart** in the command bar to see the chart view. <br>
+2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
   
-3. To create a new entitlement from scratch, select **New** > **Blank Entitlement**.   
-   
-   To create a new entitlement from a template, select **New** > **From Template**. In the **Select Template** dialog box, click the entitlement template, and click **Select**. For more information about entitlement templates, see [Set up entitlements quickly with templates](set-up-entitlements-templates.md).
+3. [!INCLUDE[proc_click_or_tap_entitlements](../includes/proc-click-or-tap-entitlements.md)]  
   
-4. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]
-
-   Under the **Information** section, specify the details for the entitlement:
+4. To create a new entitlement from a template, click **+ New** > **From Template**. In the **Select Template** dialog box, click the entitlement template, and click **Select**.  
   
-    - **Name**. Give the entitlement a meaningful name.  
+    To create a new entitlement from scratch, click **+ New** > **Blank Entitlement**.  
   
-    - **Primary Customer**. Choose the customer you’re creating this entitlement for.  
+    -OR-  
   
-    - **Start Date**. Choose the date from which the customer will be entitled for support.  
+    To edit an entitlement, in the list of records, click the entitlement, and then on the command bar, click **Edit**.  
   
-    - **End Date**. Choose the date after which the customer will no longer be entitled for support.  
+5. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
-    - **Restrict based on entitlement terms**. To make sure no cases are created when the entitlement term is over, click **Yes**. When you choose **Yes**, a customer service agent won’t be able to create a case when **Remaining Terms** is fewer than zero OR when the term remaining for a channel is less than zero.  
+   - **Name**. Give the entitlement a meaningful name.  
   
-    - **SLA**. Choose a service level agreement (SLA) record to associate the service levels or key performance indicators for the support you’re providing with this entitlement. 
- 
-    - **Owner**. Provide the owner information. You can also use lookup to search for owner.
-
-    - **Description**. Provide a description for the entitlement.
-
-    - **Is Default**. Select the box if you want to make this entitlement as the default entitlement.
+   - **Primary Customer**. Choose the customer you’re creating this entitlement for.  
+  
+   - **Start Date**. Choose the date from which the customer will be entitled for support.  
+  
+   - **End Date**. Choose the date after which the customer will no longer be entitled for support.  
+  
+   - **Restrict based on entitlement terms**. To make sure no cases are created when the entitlement term is over, click **Yes**. When you choose **Yes**, a customer service agent won’t be able to create a case when **Remaining Terms** is fewer than zero OR when the term remaining for a channel is less than zero.  
+  
+   - **SLA**. Choose a service level agreement (SLA) record to associate the service levels or key performance indicators for the support you’re providing with this entitlement.  
   
    Under **Entitlement Terms** section, specify the term details for the entitlement:  
   
-    - **Allocation Type**. Choose whether the entitlement is for number of hours or number of cases.  
+   - **Allocation Type**. Choose whether the entitlement is for number of hours or number of cases.  
   
-    - **Decrease Remaining On**. Choose whether to decrease the remaining term on case creation or resolution.  
+   - **Decrease Remaining On**. Choose whether to decrease the remaining term on case creation or resolution.  
   
-         If you decrease the remaining term based on case creation:  
+        If you decrease the remaining term based on case creation:  
   
-        -   Creating or updating a case with the associated entitlement decreases entitlement terms  
+     - Creating or updating a case with the associated entitlement decreases entitlement terms  
   
-        -   Canceling a case with the associated entitlement increases entitlement terms  
+     - Canceling a case with the associated entitlement increases entitlement terms  
   
-        -   Reactivating a canceled case with the associated entitlement decreases the entitlement terms  
+     - Reactivating a canceled case with the associated entitlement decreases the entitlement terms  
   
-         If you decrease the remaining term based on case resolution:  
+       If you decrease the remaining term based on case resolution:  
   
-        -   Resolving a case with the associated entitlement decreases the entitlement terms  
+     - Resolving a case with the associated entitlement decreases the entitlement terms  
   
-        -   Reactivating a resolved case with the associated entitlement increases the entitlement terms.  
+     - Reactivating a resolved case with the associated entitlement increases the entitlement terms.  
   
-    - **Total Term**. Specify the total amount of support the customer is entitled for with respect to the allocation type. For example, if the allocation type is number of cases and you specify 100 in **Total Term**, the customer is entitled for support up to 100 cases.  
+   - **Total Term**. Specify the total amount of support the customer is entitled for with respect to the allocation type. For example, if the allocation type is number of cases and you specify 100 in **Total Term**, the customer is entitled for support up to 100 cases.  
   
-    -  **Remaining Terms** shows the total number of hours or cases remaining for the customer’s entitlement. The value decrements every time a case is created or resolved (depending on what you select in **Decrease Remaining On**) against the entitlement.  
+   - The **Remaining Term** shows the total number of hours or cases remaining for the customer’s entitlement. The value decrements every time a case is created or resolved (depending on what you select in **Decrease Remaining On**) against the entitlement.  
   
 6. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
   
@@ -120,34 +115,34 @@ Define what kind of support your customers are eligible for by creating entitlem
 > [!NOTE]
 >  If you don’t add a contact, all the contacts for the specified primary customer will be entitled to support.  
   
-1.  While in the entitlement record, in the **Contacts** section, click **+**.  
+1. While in the entitlement record, in the **Contacts** section, click **+**.  
   
-2.  In the **Search** box, type the first few letters of the contact that you want to associate with the entitlement. This contact record must belong to the account or contact specified in the **Customer** field.  
+2. In the **Search** box, type the first few letters of the contact that you want to associate with the entitlement. This contact record must belong to the account or contact specified in the **Customer** field.  
   
-     If a contact isn’t available, click **+ New** to create a new contact record.  
+    If a contact isn’t available, click **+ New** to create a new contact record.  
   
- All active entitlements for a customer appear in the **Active Entitlements** section of the customer record.  
+   All active entitlements for a customer appear in the **Active Entitlements** section of the customer record.  
   
 ## Activate or deactivate an entitlement  
  Before you can start applying an entitlement to a case, you must activate it.  
   
-1.  While in the entitlement record, on the command bar, click **Activate**.  
+1. While in the entitlement record, on the command bar, click **Activate**.  
   
-2.  In the **Confirm Activation** dialog box, click **Activate**.  
+2. In the **Confirm Activation** dialog box, click **Activate**.  
   
-    > [!NOTE]
-    >  If the start and end date of the entitlement fall in the future, the status of the entitlement is set to **Waiting**. On the start date, the status automatically changes to **Active**. If the end date is in the past, the entitlement is set to **Expired**.  
+   > [!NOTE]
+   >  If the start and end date of the entitlement fall in the future, the status of the entitlement is set to **Waiting**. On the start date, the status automatically changes to **Active**. If the end date is in the past, the entitlement is set to **Expired**.  
   
- When an entitlement is active, you can’t edit it. To deactivate an entitlement so you can edit it, on the command bar, click **Deactivate**.  
+   When an entitlement is active, you can’t edit it. To deactivate an entitlement so you can edit it, on the command bar, click **Deactivate**.  
   
 ## Set as default entitlement  
- <!--If you’re on [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] or later, y-->You can activate the entitlement and then set it as the default entitlement for a customer. The entitlement terms from the associated entitlement are automatically decremented. However, if you don’t want the entitlement terms to be decremented for a case, click **Do not decrement entitlement terms** on the command bar.  
+ <!--If you’re on [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] or later, y-->You can activate the entitlement and then set it as the default entitlement for a customer. The entitlement terms from the associated entitlement are automatically decremented. However, if you don’t want the entitlement terms to be decremented for a case, click <strong>Do not decrement entitlement terms</strong> on the command bar.  
   
-1.  On the command bar, click **Set As Default**.  
+1. On the command bar, click **Set As Default**.  
   
-2.  In the **Confirm set default** dialog box, click **OK**.  
+2. In the **Confirm set default** dialog box, click **OK**.  
   
- Now the default entitlement will automatically be applied when a case is created or when a case is updated depending on what you selected for default entitlements in the system settings area. For more information, see the **Automatically apply entitlement** section in  [System Settings dialog box - Service tab](../admin/system-settings-dialog-box-service-tab.md).  
+   Now the default entitlement will automatically be applied when a case is created or when a case is updated depending on what you selected for default entitlements in the system settings area. For more information, see the “Automatically apply entitlement” section in step 4 here, [System Settings dialog box - Service tab](../admin/system-settings-dialog-box-service-tab.md).  
   
 ## Associate entitlements to cases  
  In a case record, in the **Entitlement** field, click the **Lookup** button, and select an entitlement. The inline lookup shows only the active entitlement for the customer of the case.  

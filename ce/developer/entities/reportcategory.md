@@ -661,6 +661,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_ReportCategory_SyncErrors"></a> ReportCategory_SyncErrors
 
 Same as syncerror entity [ReportCategory_SyncErrors](syncerror.md#BKMK_ReportCategory_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -675,6 +676,7 @@ Same as syncerror entity [ReportCategory_SyncErrors](syncerror.md#BKMK_ReportCat
 ### <a name="BKMK_userentityinstancedata_reportcategory"></a> userentityinstancedata_reportcategory
 
 Same as userentityinstancedata entity [userentityinstancedata_reportcategory](userentityinstancedata.md#BKMK_userentityinstancedata_reportcategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -689,6 +691,7 @@ Same as userentityinstancedata entity [userentityinstancedata_reportcategory](us
 ### <a name="BKMK_reportcategory_principalobjectattributeaccess"></a> reportcategory_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [reportcategory_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_reportcategory_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

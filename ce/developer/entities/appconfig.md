@@ -273,7 +273,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 |Property|Value|
 |--------|-----|
-|Description|Shows who created the record on behalfÂ of another user.|
+|Description|Shows who created the record on behalfÂ of another user.|
 |DisplayName|Created By (Delegate)|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -558,6 +558,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_navigationsetting_appconfig"></a> navigationsetting_appconfig
 
 Same as navigationsetting entity [navigationsetting_appconfig](navigationsetting.md#BKMK_navigationsetting_appconfig) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|navigationsetting|
@@ -572,6 +573,7 @@ Same as navigationsetting entity [navigationsetting_appconfig](navigationsetting
 ### <a name="BKMK_appconfig_appconfiginstance"></a> appconfig_appconfiginstance
 
 Same as appconfiginstance entity [appconfig_appconfiginstance](appconfiginstance.md#BKMK_appconfig_appconfiginstance) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appconfiginstance|

@@ -55,7 +55,7 @@ The composite data-driven adapter is an extension of the DDA architecture introd
   
 > [!NOTE]
 >  Every DDA binding should always be called with its respective prefix. For example, if the `DDAType2` and `DDAType3` have a control defined with the name `Button1`, the control names used in the automation are `dda1Button1` and `dda2Button1`.  
-  
+> 
 > [!NOTE]
 >  If the webpage contains a [!INCLUDE[pn_ms_ActiveX_short](../includes/pn-ms-activex-short.md)] control or [!INCLUDE[pn_Java](../includes/pn-java.md)] Applet, the web application default action does not wait for the [!INCLUDE[pn_ms_ActiveX_short](../includes/pn-ms-activex-short.md)] control or [!INCLUDE[pn_Java](../includes/pn-java.md)] Applet to load.  
   

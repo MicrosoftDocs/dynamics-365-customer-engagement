@@ -175,17 +175,17 @@ These updates apply to Dynamics 365 (online), version 8.x.
   
     - **Everyone** – If the user has access to use the schedule board, they will see these boards.  
   
- ![Share the schedule board](../field-service/media/field-service-share-schedule-board.png "Share the schedule board")  
+  ![Share the schedule board](../field-service/media/field-service-share-schedule-board.png "Share the schedule board")  
   
 - **Dim unavailable resources**: When searching for availability on the schedule board, resources that are unavailable in the search are either be dimmed or removed from the schedule board.  
   
      A user who only wants to see a specific set of resources can choose to dim unavailable resources instead of removing resources that are  not a match while a user  without this requirement can have unavailable resources completely removed from the board. This setting can be changed in the schedule board tab settings.  
   
- ![Dim the schedule board](../field-service/media/field-service-dim-schedule-board.png "Dim the schedule board")  
+  ![Dim the schedule board](../field-service/media/field-service-dim-schedule-board.png "Dim the schedule board")  
   
- **Project Service Automation:**  
+  **Project Service Automation:**  
   
--   Now you can credit or correct an invoice that was sent to a customer. Quantity of billable hours, bill rates, and other charges and can be corrected or entirely reversed.  
+- Now you can credit or correct an invoice that was sent to a customer. Quantity of billable hours, bill rates, and other charges and can be corrected or entirely reversed.  
   
 ### See also  
  [Dynamics 365 for Field Service - User's Guide](../field-service/user-guide.md)   

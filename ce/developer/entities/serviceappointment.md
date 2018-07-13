@@ -1662,6 +1662,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_serviceappointment_activity_parties"></a> serviceappointment_activity_parties
 
 Same as activityparty entity [serviceappointment_activity_parties](activityparty.md#BKMK_serviceappointment_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1676,6 +1677,7 @@ Same as activityparty entity [serviceappointment_activity_parties](activityparty
 ### <a name="BKMK_CampaignResponse_ServiceAppointments"></a> CampaignResponse_ServiceAppointments
 
 Same as campaignresponse entity [CampaignResponse_ServiceAppointments](campaignresponse.md#BKMK_CampaignResponse_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -1690,6 +1692,7 @@ Same as campaignresponse entity [CampaignResponse_ServiceAppointments](campaignr
 ### <a name="BKMK_ServiceAppointment_SyncErrors"></a> ServiceAppointment_SyncErrors
 
 Same as syncerror entity [ServiceAppointment_SyncErrors](syncerror.md#BKMK_ServiceAppointment_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1704,6 +1707,7 @@ Same as syncerror entity [ServiceAppointment_SyncErrors](syncerror.md#BKMK_Servi
 ### <a name="BKMK_ServiceAppointment_AsyncOperations"></a> ServiceAppointment_AsyncOperations
 
 Same as asyncoperation entity [ServiceAppointment_AsyncOperations](asyncoperation.md#BKMK_ServiceAppointment_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1718,6 +1722,7 @@ Same as asyncoperation entity [ServiceAppointment_AsyncOperations](asyncoperatio
 ### <a name="BKMK_serviceappointment_MailboxTrackingFolders"></a> serviceappointment_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [serviceappointment_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_serviceappointment_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1732,6 +1737,7 @@ Same as mailboxtrackingfolder entity [serviceappointment_MailboxTrackingFolders]
 ### <a name="BKMK_userentityinstancedata_serviceappointment"></a> userentityinstancedata_serviceappointment
 
 Same as userentityinstancedata entity [userentityinstancedata_serviceappointment](userentityinstancedata.md#BKMK_userentityinstancedata_serviceappointment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1746,6 +1752,7 @@ Same as userentityinstancedata entity [userentityinstancedata_serviceappointment
 ### <a name="BKMK_ServiceAppointment_ProcessSessions"></a> ServiceAppointment_ProcessSessions
 
 Same as processsession entity [ServiceAppointment_ProcessSessions](processsession.md#BKMK_ServiceAppointment_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1760,6 +1767,7 @@ Same as processsession entity [ServiceAppointment_ProcessSessions](processsessio
 ### <a name="BKMK_ServiceAppointment_BulkDeleteFailures"></a> ServiceAppointment_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [ServiceAppointment_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ServiceAppointment_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1774,6 +1782,7 @@ Same as bulkdeletefailure entity [ServiceAppointment_BulkDeleteFailures](bulkdel
 ### <a name="BKMK_serviceappointment_principalobjectattributeaccess"></a> serviceappointment_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [serviceappointment_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_serviceappointment_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1788,6 +1797,7 @@ Same as principalobjectattributeaccess entity [serviceappointment_principalobjec
 ### <a name="BKMK_serviceappointment_connections1"></a> serviceappointment_connections1
 
 Same as connection entity [serviceappointment_connections1](connection.md#BKMK_serviceappointment_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1802,6 +1812,7 @@ Same as connection entity [serviceappointment_connections1](connection.md#BKMK_s
 ### <a name="BKMK_serviceappointment_connections2"></a> serviceappointment_connections2
 
 Same as connection entity [serviceappointment_connections2](connection.md#BKMK_serviceappointment_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1816,6 +1827,7 @@ Same as connection entity [serviceappointment_connections2](connection.md#BKMK_s
 ### <a name="BKMK_ServiceAppointment_QueueItem"></a> ServiceAppointment_QueueItem
 
 Same as queueitem entity [ServiceAppointment_QueueItem](queueitem.md#BKMK_ServiceAppointment_QueueItem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queueitem|
@@ -1830,6 +1842,7 @@ Same as queueitem entity [ServiceAppointment_QueueItem](queueitem.md#BKMK_Servic
 ### <a name="BKMK_ServiceAppointment_Annotation"></a> ServiceAppointment_Annotation
 
 Same as annotation entity [ServiceAppointment_Annotation](annotation.md#BKMK_ServiceAppointment_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1844,6 +1857,7 @@ Same as annotation entity [ServiceAppointment_Annotation](annotation.md#BKMK_Ser
 ### <a name="BKMK_serviceappointment_actioncard"></a> serviceappointment_actioncard
 
 Same as actioncard entity [serviceappointment_actioncard](actioncard.md#BKMK_serviceappointment_actioncard) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|actioncard|
@@ -1858,6 +1872,7 @@ Same as actioncard entity [serviceappointment_actioncard](actioncard.md#BKMK_ser
 ### <a name="BKMK_slakpiinstance_serviceappointment"></a> slakpiinstance_serviceappointment
 
 Same as slakpiinstance entity [slakpiinstance_serviceappointment](slakpiinstance.md#BKMK_slakpiinstance_serviceappointment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|slakpiinstance|

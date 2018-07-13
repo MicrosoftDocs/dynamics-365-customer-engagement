@@ -38,29 +38,29 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you can set a cus
   
 ## Set a custom icon for a custom case origin  
   
-1.  If the customization prefix for the solution publisher associated with the unmanaged solution you are working in is not ‘new’ you must change the solution publisher customization prefix to ‘new’ temporarily while you create this image web resource. After you create this web resource, set it back to whatever value you want to use. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Solution publisher](../customize/change-solution-publisher-prefix.md#BKMK_SolutionPublisher).  
+1. If the customization prefix for the solution publisher associated with the unmanaged solution you are working in is not ‘new’ you must change the solution publisher customization prefix to ‘new’ temporarily while you create this image web resource. After you create this web resource, set it back to whatever value you want to use. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Solution publisher](../customize/change-solution-publisher-prefix.md#BKMK_SolutionPublisher).  
   
-2.  Create a 16x16 pixel icon to represent your custom case origin. A PNG file with a transparent background is recommended.  
+2. Create a 16x16 pixel icon to represent your custom case origin. A PNG file with a transparent background is recommended.  
   
-3.  Identify the value for the custom option for the **Case Origin** global option set. By default, the first custom option value will be set to 100,000,000 and will increment for each additional option.  
+3. Identify the value for the custom option for the **Case Origin** global option set. By default, the first custom option value will be set to 100,000,000 and will increment for each additional option.  
   
-4.  Create a PNG format image web resource using the following naming convention: ‘new_Incident_origincode_icon*#*.png’ where *#* represents the value for the custom option.  
+4. Create a PNG format image web resource using the following naming convention: ‘new_Incident_origincode_icon<em>#</em>.png’ where *#* represents the value for the custom option.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit web resources](../customize/create-edit-web-resources.md)  
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit web resources](../customize/create-edit-web-resources.md)  
   
    For example, for a custom option with a value of 100,000,000 create a web resource with the name new_Incident_origincode_icon100000000.png.  
   
-  > [!IMPORTANT]
-    >  Do not include commas in the name of the web resource.   
-    > The solution publisher customization prefix is prepended to the name of the web resource and this value must be ‘new’.  
+   > [!IMPORTANT]
+   >  Do not include commas in the name of the web resource.   
+   > The solution publisher customization prefix is prepended to the name of the web resource and this value must be ‘new’.  
   
    Use the **Upload File** button in the web resource form to upload the icon file you created.  
   
-5.  Save and publish your web resource.  
+5. Save and publish your web resource.  
   
-6.  To verify, create a case record using the custom case origin and verify that a view that displays the case origin icon shows your custom icon.  
+6. To verify, create a case record using the custom case origin and verify that a view that displays the case origin icon shows your custom icon.  
   
-     There may be a several minutes delay after you publish your custom web resource. You may need to press F5 to refresh the page in your browser.  
+    There may be a several minutes delay after you publish your custom web resource. You may need to press F5 to refresh the page in your browser.  
   
 ### See also  
  [Create and edit global option sets](../customize/create-edit-global-option-sets.md)   

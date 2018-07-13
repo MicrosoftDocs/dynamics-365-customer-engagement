@@ -42,7 +42,7 @@ To retrieve more than one entity at a time, see [Basic query example](query-data
 >  The above example will return all the properties for account record, which is against the performance best practices for retrieving data. This example was just to illustrate how you can do a basic retrieve of an entity instance in Dynamics 365. Because all the properties were returned, we haven't included the response information for the request in this example.
 >
 >  As a performance best practice, you must always use the `$select` system query option to limit the properties returned while retrieving data. See the following section, **Retrieve specific properties**, for information about this.
-  
+
 <a name="bkmk_requestProperties"></a>
 
 ## Retrieve specific properties
@@ -74,7 +74,6 @@ OData-Version: 4.0
 "accountid": "00000000-0000-0000-0000-000000000001",  
 "_transactioncurrencyid_value":"b2a6b689-9a39-e611-80d2-00155db44581"  
 }  
-
 ```
 
 When you request certain types of properties you can expect additional read-only properties to be returned automatically.
@@ -149,7 +148,6 @@ OData-Version: 4.0
 "fullname": "Rene Valdes (sample)",  
 "contactid": "ff390c24-9c72-e511-80d4-00155d2a68d1"  
 }
-
 ```
 
 For collection-valued navigation properties you have the option to request to return only references to the related entities or just a count of the related entities.
@@ -169,7 +167,7 @@ OData-Version: 4.0
 HTTP/1.1 200 OK
 Content-Type: application/json; odata.metadata=minimal
 OData-Version: 4.0
-  
+
 {  
 "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#Collection($ref)",  
 "value": [  
@@ -181,7 +179,6 @@ OData-Version: 4.0
 }  
 ]  
 }  
-  
 ```
 The following example returns the number of tasks related to a specific account using the Account_Tasks collection-valued navigation property with `/$count` appended.  
 
@@ -191,7 +188,6 @@ GET [Organization URI]/api/data/v9.0/accounts(00000000-0000-0000-0000-0000000000
 Accept: application/json  
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
-  
 ```
 **Response**
 ```http
@@ -241,7 +237,6 @@ If you simply include the name of the navigation property, you’ll receive all 
     "fullname":"Nancy Anderson (sample)"  
     }  
     }  
-  
   ```
   Instead of returning the related entities for entity instances, you can also return references (links) to the related entities by expanding the single-valued navigation property with the `$ref` option. The following example returns links to the contact record for the account entity.  
 
@@ -258,7 +253,7 @@ If you simply include the name of the navigation property, you’ll receive all 
     HTTP/1.1 200 OK  
     Content-Type: application/json; odata.metadata=minimal  
     OData-Version: 4.0  
-  
+
     {  
     "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#accounts(name,primarycontactid)/$entity",  
     "@odata.etag":"W/\"550616\"",  
@@ -306,9 +301,9 @@ If you simply include the name of the navigation property, you’ll receive all 
   ]  
   }
   ```
-  
- > [!NOTE]
- > If you expand on collection-valued navigation parameters to retrieve related entities for *entity sets*, a @odata.nextLink property will be returned instead for the related entities. You should use the value of the @odata.nextLink property with a new GET request to return the required data. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Retrieve related entities by expanding navigation properties](query-data-web-api.md#bkmk_expandRelated)
+
+  > [!NOTE]
+  > If you expand on collection-valued navigation parameters to retrieve related entities for *entity sets*, a @odata.nextLink property will be returned instead for the related entities. You should use the value of the @odata.nextLink property with a new GET request to return the required data. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Retrieve related entities by expanding navigation properties](query-data-web-api.md#bkmk_expandRelated)
 
 - **Retrieve related entities for an entity instance by expanding both single-valued and collection-valued navigation properties**: The following example demonstrates how you can expand related entities for an entity instance using both single- and collection-values navigation properties.  
 

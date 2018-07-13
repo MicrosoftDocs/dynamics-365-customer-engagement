@@ -746,6 +746,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_productinventory_ActivityPointers"></a> msdyn_productinventory_ActivityPointers
 
 Same as activitypointer entity [msdyn_productinventory_ActivityPointers](activitypointer.md#BKMK_msdyn_productinventory_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -760,6 +761,7 @@ Same as activitypointer entity [msdyn_productinventory_ActivityPointers](activit
 ### <a name="BKMK_msdyn_productinventory_msdyn_approvals"></a> msdyn_productinventory_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_productinventory_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_productinventory_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -774,6 +776,7 @@ Same as msdyn_approval entity [msdyn_productinventory_msdyn_approvals](msdyn_app
 ### <a name="BKMK_msdyn_productinventory_msdyn_bookingalerts"></a> msdyn_productinventory_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_productinventory_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_productinventory_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -788,6 +791,7 @@ Same as msdyn_bookingalert entity [msdyn_productinventory_msdyn_bookingalerts](m
 ### <a name="BKMK_msdyn_productinventory_SyncErrors"></a> msdyn_productinventory_SyncErrors
 
 Same as syncerror entity [msdyn_productinventory_SyncErrors](syncerror.md#BKMK_msdyn_productinventory_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -802,6 +806,7 @@ Same as syncerror entity [msdyn_productinventory_SyncErrors](syncerror.md#BKMK_m
 ### <a name="BKMK_msdyn_productinventory_DuplicateMatchingRecord"></a> msdyn_productinventory_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_productinventory_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_productinventory_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -816,6 +821,7 @@ Same as duplicaterecord entity [msdyn_productinventory_DuplicateMatchingRecord](
 ### <a name="BKMK_msdyn_productinventory_DuplicateBaseRecord"></a> msdyn_productinventory_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_productinventory_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_productinventory_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -830,6 +836,7 @@ Same as duplicaterecord entity [msdyn_productinventory_DuplicateBaseRecord](dupl
 ### <a name="BKMK_msdyn_productinventory_AsyncOperations"></a> msdyn_productinventory_AsyncOperations
 
 Same as asyncoperation entity [msdyn_productinventory_AsyncOperations](asyncoperation.md#BKMK_msdyn_productinventory_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -844,6 +851,7 @@ Same as asyncoperation entity [msdyn_productinventory_AsyncOperations](asyncoper
 ### <a name="BKMK_msdyn_productinventory_MailboxTrackingFolders"></a> msdyn_productinventory_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_productinventory_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_productinventory_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -858,6 +866,7 @@ Same as mailboxtrackingfolder entity [msdyn_productinventory_MailboxTrackingFold
 ### <a name="BKMK_msdyn_productinventory_UserEntityInstanceDatas"></a> msdyn_productinventory_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_productinventory_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_productinventory_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -872,6 +881,7 @@ Same as userentityinstancedata entity [msdyn_productinventory_UserEntityInstance
 ### <a name="BKMK_msdyn_productinventory_ProcessSession"></a> msdyn_productinventory_ProcessSession
 
 Same as processsession entity [msdyn_productinventory_ProcessSession](processsession.md#BKMK_msdyn_productinventory_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -886,6 +896,7 @@ Same as processsession entity [msdyn_productinventory_ProcessSession](processses
 ### <a name="BKMK_msdyn_productinventory_BulkDeleteFailures"></a> msdyn_productinventory_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_productinventory_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_productinventory_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -900,6 +911,7 @@ Same as bulkdeletefailure entity [msdyn_productinventory_BulkDeleteFailures](bul
 ### <a name="BKMK_msdyn_productinventory_PrincipalObjectAttributeAccesses"></a> msdyn_productinventory_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_productinventory_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_productinventory_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -914,6 +926,7 @@ Same as principalobjectattributeaccess entity [msdyn_productinventory_PrincipalO
 ### <a name="BKMK_msdyn_productinventory_Appointments"></a> msdyn_productinventory_Appointments
 
 Same as appointment entity [msdyn_productinventory_Appointments](appointment.md#BKMK_msdyn_productinventory_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -928,6 +941,7 @@ Same as appointment entity [msdyn_productinventory_Appointments](appointment.md#
 ### <a name="BKMK_msdyn_productinventory_Emails"></a> msdyn_productinventory_Emails
 
 Same as email entity [msdyn_productinventory_Emails](email.md#BKMK_msdyn_productinventory_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -942,6 +956,7 @@ Same as email entity [msdyn_productinventory_Emails](email.md#BKMK_msdyn_product
 ### <a name="BKMK_msdyn_productinventory_Faxes"></a> msdyn_productinventory_Faxes
 
 Same as fax entity [msdyn_productinventory_Faxes](fax.md#BKMK_msdyn_productinventory_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -956,6 +971,7 @@ Same as fax entity [msdyn_productinventory_Faxes](fax.md#BKMK_msdyn_productinven
 ### <a name="BKMK_msdyn_productinventory_Letters"></a> msdyn_productinventory_Letters
 
 Same as letter entity [msdyn_productinventory_Letters](letter.md#BKMK_msdyn_productinventory_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -970,6 +986,7 @@ Same as letter entity [msdyn_productinventory_Letters](letter.md#BKMK_msdyn_prod
 ### <a name="BKMK_msdyn_productinventory_PhoneCalls"></a> msdyn_productinventory_PhoneCalls
 
 Same as phonecall entity [msdyn_productinventory_PhoneCalls](phonecall.md#BKMK_msdyn_productinventory_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -984,6 +1001,7 @@ Same as phonecall entity [msdyn_productinventory_PhoneCalls](phonecall.md#BKMK_m
 ### <a name="BKMK_msdyn_productinventory_Tasks"></a> msdyn_productinventory_Tasks
 
 Same as task entity [msdyn_productinventory_Tasks](task.md#BKMK_msdyn_productinventory_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -998,6 +1016,7 @@ Same as task entity [msdyn_productinventory_Tasks](task.md#BKMK_msdyn_productinv
 ### <a name="BKMK_msdyn_productinventory_RecurringAppointmentMasters"></a> msdyn_productinventory_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_productinventory_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_productinventory_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -1012,6 +1031,7 @@ Same as recurringappointmentmaster entity [msdyn_productinventory_RecurringAppoi
 ### <a name="BKMK_msdyn_productinventory_SocialActivities"></a> msdyn_productinventory_SocialActivities
 
 Same as socialactivity entity [msdyn_productinventory_SocialActivities](socialactivity.md#BKMK_msdyn_productinventory_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -1026,6 +1046,7 @@ Same as socialactivity entity [msdyn_productinventory_SocialActivities](socialac
 ### <a name="BKMK_msdyn_productinventory_connections1"></a> msdyn_productinventory_connections1
 
 Same as connection entity [msdyn_productinventory_connections1](connection.md#BKMK_msdyn_productinventory_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1040,6 +1061,7 @@ Same as connection entity [msdyn_productinventory_connections1](connection.md#BK
 ### <a name="BKMK_msdyn_productinventory_connections2"></a> msdyn_productinventory_connections2
 
 Same as connection entity [msdyn_productinventory_connections2](connection.md#BKMK_msdyn_productinventory_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1054,6 +1076,7 @@ Same as connection entity [msdyn_productinventory_connections2](connection.md#BK
 ### <a name="BKMK_msdyn_productinventory_Annotations"></a> msdyn_productinventory_Annotations
 
 Same as annotation entity [msdyn_productinventory_Annotations](annotation.md#BKMK_msdyn_productinventory_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1068,6 +1091,7 @@ Same as annotation entity [msdyn_productinventory_Annotations](annotation.md#BKM
 ### <a name="BKMK_msdyn_productinventory_ServiceAppointments"></a> msdyn_productinventory_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_productinventory_ServiceAppointments](serviceappointment.md#BKMK_msdyn_productinventory_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|

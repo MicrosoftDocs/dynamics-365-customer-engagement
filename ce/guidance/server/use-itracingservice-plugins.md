@@ -1,26 +1,17 @@
 ---
 title: "Use ITracingService in Plug-ins | MicrosoftDocs"
 description: "Debugging and/or troubleshooting plug-in issues or behaviors are complicated without rich and insightful logging or tracing."
-ms.date: 02/08/2018
+ms.date: 06/28/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
-	- "Dynamics 365 (online)"
+  - "Dynamics 365 (online)"
 ms.assetid: d3b79992-4385-4a0d-b41f-3695356c65fa
 author: "jowells1"
 ms.author: "jowells"
 manager: "michu"
 ---
 # Use ITracingService in Plug-ins
-
-**Applies to**:
-
-- [!include[](../../includes/pn-crm-9-0-0-online.md)]
-- [!include[](../../includes/pn-crm-2016.md)]
-- [!include[](../../includes/pn-crm-8-1-0-both.md)]
-- [!include[](../../includes/pn-crm-2015.md)]
-- [!include[](../../includes/pn-crmv6.md)]
-- [!include[](../../includes/pn-crm-2011.md)]
 
 **Category**: Maintainability, Supportability
 
@@ -74,7 +65,7 @@ if (context.InputParameters.Contains("Target") &&
 
 ## Additional information
 
-Tracing is especially useful to troubleshoot [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] registered custom code as it is the only supported troubleshooting method for that scenario. Tracing is supported for `sandboxed` (partial trust) and full trust registered custom code and during synchronous or asynchronous execution. Tracing isn’t supported for custom code that executes in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] or other mobile client.
+Tracing is especially useful to troubleshoot Dynamics 365 (online) registered custom code as it is the only supported troubleshooting method for that scenario. Tracing is supported for `sandboxed` (partial trust) and full trust registered custom code and during synchronous or asynchronous execution. Tracing isn’t supported for custom code that executes in Microsoft Dynamics 365 for Outlook or other mobile client.
 
 <a name='seealso'></a>
 

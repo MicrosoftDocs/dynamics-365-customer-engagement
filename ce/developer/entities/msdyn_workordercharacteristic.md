@@ -741,6 +741,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_workordercharacteristic_ActivityPointers"></a> msdyn_workordercharacteristic_ActivityPointers
 
 Same as activitypointer entity [msdyn_workordercharacteristic_ActivityPointers](activitypointer.md#BKMK_msdyn_workordercharacteristic_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -755,6 +756,7 @@ Same as activitypointer entity [msdyn_workordercharacteristic_ActivityPointers](
 ### <a name="BKMK_msdyn_workordercharacteristic_msdyn_approvals"></a> msdyn_workordercharacteristic_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_workordercharacteristic_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_workordercharacteristic_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -769,6 +771,7 @@ Same as msdyn_approval entity [msdyn_workordercharacteristic_msdyn_approvals](ms
 ### <a name="BKMK_msdyn_workordercharacteristic_msdyn_bookingalerts"></a> msdyn_workordercharacteristic_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_workordercharacteristic_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_workordercharacteristic_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -783,6 +786,7 @@ Same as msdyn_bookingalert entity [msdyn_workordercharacteristic_msdyn_bookingal
 ### <a name="BKMK_msdyn_workordercharacteristic_SyncErrors"></a> msdyn_workordercharacteristic_SyncErrors
 
 Same as syncerror entity [msdyn_workordercharacteristic_SyncErrors](syncerror.md#BKMK_msdyn_workordercharacteristic_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -797,6 +801,7 @@ Same as syncerror entity [msdyn_workordercharacteristic_SyncErrors](syncerror.md
 ### <a name="BKMK_msdyn_workordercharacteristic_DuplicateMatchingRecord"></a> msdyn_workordercharacteristic_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_workordercharacteristic_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_workordercharacteristic_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -811,6 +816,7 @@ Same as duplicaterecord entity [msdyn_workordercharacteristic_DuplicateMatchingR
 ### <a name="BKMK_msdyn_workordercharacteristic_DuplicateBaseRecord"></a> msdyn_workordercharacteristic_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_workordercharacteristic_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_workordercharacteristic_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -825,6 +831,7 @@ Same as duplicaterecord entity [msdyn_workordercharacteristic_DuplicateBaseRecor
 ### <a name="BKMK_msdyn_workordercharacteristic_AsyncOperations"></a> msdyn_workordercharacteristic_AsyncOperations
 
 Same as asyncoperation entity [msdyn_workordercharacteristic_AsyncOperations](asyncoperation.md#BKMK_msdyn_workordercharacteristic_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -839,6 +846,7 @@ Same as asyncoperation entity [msdyn_workordercharacteristic_AsyncOperations](as
 ### <a name="BKMK_msdyn_workordercharacteristic_MailboxTrackingFolders"></a> msdyn_workordercharacteristic_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_workordercharacteristic_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_workordercharacteristic_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -853,6 +861,7 @@ Same as mailboxtrackingfolder entity [msdyn_workordercharacteristic_MailboxTrack
 ### <a name="BKMK_msdyn_workordercharacteristic_UserEntityInstanceDatas"></a> msdyn_workordercharacteristic_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_workordercharacteristic_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_workordercharacteristic_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -867,6 +876,7 @@ Same as userentityinstancedata entity [msdyn_workordercharacteristic_UserEntityI
 ### <a name="BKMK_msdyn_workordercharacteristic_ProcessSession"></a> msdyn_workordercharacteristic_ProcessSession
 
 Same as processsession entity [msdyn_workordercharacteristic_ProcessSession](processsession.md#BKMK_msdyn_workordercharacteristic_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -881,6 +891,7 @@ Same as processsession entity [msdyn_workordercharacteristic_ProcessSession](pro
 ### <a name="BKMK_msdyn_workordercharacteristic_BulkDeleteFailures"></a> msdyn_workordercharacteristic_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_workordercharacteristic_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_workordercharacteristic_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -895,6 +906,7 @@ Same as bulkdeletefailure entity [msdyn_workordercharacteristic_BulkDeleteFailur
 ### <a name="BKMK_msdyn_workordercharacteristic_PrincipalObjectAttributeAccesses"></a> msdyn_workordercharacteristic_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_workordercharacteristic_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_workordercharacteristic_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -909,6 +921,7 @@ Same as principalobjectattributeaccess entity [msdyn_workordercharacteristic_Pri
 ### <a name="BKMK_msdyn_workordercharacteristic_Appointments"></a> msdyn_workordercharacteristic_Appointments
 
 Same as appointment entity [msdyn_workordercharacteristic_Appointments](appointment.md#BKMK_msdyn_workordercharacteristic_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -923,6 +936,7 @@ Same as appointment entity [msdyn_workordercharacteristic_Appointments](appointm
 ### <a name="BKMK_msdyn_workordercharacteristic_Emails"></a> msdyn_workordercharacteristic_Emails
 
 Same as email entity [msdyn_workordercharacteristic_Emails](email.md#BKMK_msdyn_workordercharacteristic_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -937,6 +951,7 @@ Same as email entity [msdyn_workordercharacteristic_Emails](email.md#BKMK_msdyn_
 ### <a name="BKMK_msdyn_workordercharacteristic_Faxes"></a> msdyn_workordercharacteristic_Faxes
 
 Same as fax entity [msdyn_workordercharacteristic_Faxes](fax.md#BKMK_msdyn_workordercharacteristic_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -951,6 +966,7 @@ Same as fax entity [msdyn_workordercharacteristic_Faxes](fax.md#BKMK_msdyn_worko
 ### <a name="BKMK_msdyn_workordercharacteristic_Letters"></a> msdyn_workordercharacteristic_Letters
 
 Same as letter entity [msdyn_workordercharacteristic_Letters](letter.md#BKMK_msdyn_workordercharacteristic_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -965,6 +981,7 @@ Same as letter entity [msdyn_workordercharacteristic_Letters](letter.md#BKMK_msd
 ### <a name="BKMK_msdyn_workordercharacteristic_PhoneCalls"></a> msdyn_workordercharacteristic_PhoneCalls
 
 Same as phonecall entity [msdyn_workordercharacteristic_PhoneCalls](phonecall.md#BKMK_msdyn_workordercharacteristic_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -979,6 +996,7 @@ Same as phonecall entity [msdyn_workordercharacteristic_PhoneCalls](phonecall.md
 ### <a name="BKMK_msdyn_workordercharacteristic_Tasks"></a> msdyn_workordercharacteristic_Tasks
 
 Same as task entity [msdyn_workordercharacteristic_Tasks](task.md#BKMK_msdyn_workordercharacteristic_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -993,6 +1011,7 @@ Same as task entity [msdyn_workordercharacteristic_Tasks](task.md#BKMK_msdyn_wor
 ### <a name="BKMK_msdyn_workordercharacteristic_RecurringAppointmentMasters"></a> msdyn_workordercharacteristic_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_workordercharacteristic_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_workordercharacteristic_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -1007,6 +1026,7 @@ Same as recurringappointmentmaster entity [msdyn_workordercharacteristic_Recurri
 ### <a name="BKMK_msdyn_workordercharacteristic_SocialActivities"></a> msdyn_workordercharacteristic_SocialActivities
 
 Same as socialactivity entity [msdyn_workordercharacteristic_SocialActivities](socialactivity.md#BKMK_msdyn_workordercharacteristic_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -1021,6 +1041,7 @@ Same as socialactivity entity [msdyn_workordercharacteristic_SocialActivities](s
 ### <a name="BKMK_msdyn_workordercharacteristic_connections1"></a> msdyn_workordercharacteristic_connections1
 
 Same as connection entity [msdyn_workordercharacteristic_connections1](connection.md#BKMK_msdyn_workordercharacteristic_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1035,6 +1056,7 @@ Same as connection entity [msdyn_workordercharacteristic_connections1](connectio
 ### <a name="BKMK_msdyn_workordercharacteristic_connections2"></a> msdyn_workordercharacteristic_connections2
 
 Same as connection entity [msdyn_workordercharacteristic_connections2](connection.md#BKMK_msdyn_workordercharacteristic_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1049,6 +1071,7 @@ Same as connection entity [msdyn_workordercharacteristic_connections2](connectio
 ### <a name="BKMK_msdyn_workordercharacteristic_Annotations"></a> msdyn_workordercharacteristic_Annotations
 
 Same as annotation entity [msdyn_workordercharacteristic_Annotations](annotation.md#BKMK_msdyn_workordercharacteristic_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1063,6 +1086,7 @@ Same as annotation entity [msdyn_workordercharacteristic_Annotations](annotation
 ### <a name="BKMK_msdyn_workordercharacteristic_ServiceAppointments"></a> msdyn_workordercharacteristic_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_workordercharacteristic_ServiceAppointments](serviceappointment.md#BKMK_msdyn_workordercharacteristic_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|

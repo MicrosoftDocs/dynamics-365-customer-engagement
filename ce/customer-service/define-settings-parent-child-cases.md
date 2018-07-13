@@ -25,25 +25,24 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)],  you can track m
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)] [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)] [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2.  Go to **Service Management** > **Case Settings**.
-
-3.  In the **Case Settings** dialog box, specify the information that will be inherited from a parent case to the child case. You can also select a case closure setting that defines how parent and child cases are closed. Select one of the case closure preference for parent and child cases:  
+2. [!INCLUDE[proc_logo_settings](../includes/proc-logo-settings.md)]  
   
     - You can view **Available** and **Selected** attributes in the form of two lists. Using the arrows **>**, **<**, **>>**, and **<<**, you can move the attributes from one list to another. 
     
-      > [!TIP]
-      > To select multiple attributes, press **Shift** and select the required attributes.
+4. Click **Parent and Child case settings**.  
   
-    - **Close all child cases when parent case is closed**: The parent case can’t be closed until all the child cases are closed.  
+5. In the **Case Settings** dialog box, select the attributes that the child case will be inherit from the parent case.  
   
-    - **Don’t allow parent case closure until all child cases are closed**: The parent case can’t be closed until all the child cases are closed.  
+6. Using the Parent and Child case settings, specify the information that will be inherited from a parent case to the child case. You can also select a case closure setting that defines how parent and child cases are closed. Select one of the case closure preference for parent and child cases:  
+  
+   - **Close all child cases when parent case is closed**: The parent case can’t be closed until all the child cases are closed.  
   
     > [!NOTE]
     >  If you choose **None**, parent and child cases are closed independently of each other. This is the default setting.  
   
-5.  When you’re done, select **Save**.  
+7. When you’re done, click **OK**.  
   
 ### See also
 

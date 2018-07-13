@@ -212,6 +212,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_contactinvoices_AsyncOperations"></a> contactinvoices_AsyncOperations
 
 Same as asyncoperation entity [contactinvoices_AsyncOperations](asyncoperation.md#BKMK_contactinvoices_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -226,6 +227,7 @@ Same as asyncoperation entity [contactinvoices_AsyncOperations](asyncoperation.m
 ### <a name="BKMK_contactinvoices_MailboxTrackingFolders"></a> contactinvoices_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [contactinvoices_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_contactinvoices_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -240,6 +242,7 @@ Same as mailboxtrackingfolder entity [contactinvoices_MailboxTrackingFolders](ma
 ### <a name="BKMK_contactinvoices_UserEntityInstanceDatas"></a> contactinvoices_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [contactinvoices_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_contactinvoices_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -254,6 +257,7 @@ Same as userentityinstancedata entity [contactinvoices_UserEntityInstanceDatas](
 ### <a name="BKMK_contactinvoices_BulkDeleteFailures"></a> contactinvoices_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [contactinvoices_BulkDeleteFailures](bulkdeletefailure.md#BKMK_contactinvoices_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -268,6 +272,7 @@ Same as bulkdeletefailure entity [contactinvoices_BulkDeleteFailures](bulkdelete
 ### <a name="BKMK_contactinvoices_PrincipalObjectAttributeAccesses"></a> contactinvoices_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [contactinvoices_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_contactinvoices_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

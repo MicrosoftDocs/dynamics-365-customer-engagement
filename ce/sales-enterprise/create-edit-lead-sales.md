@@ -32,44 +32,44 @@ In the Sales app, you use leads to keep track of business prospects that you hav
   
 1. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Leads**. 
   
-2.  Select **+ New**.
+2. Select **+ New**.
 
-3.  Follow the process bar to enter data into fields and move the lead to the next stage. 
+3. Follow the process bar to enter data into fields and move the lead to the next stage. 
 
-    > [!NOTE]
-
-    > On new (unsaved) lead records, the **Existing Contact** and **Existing Account** fields allow you to choose any records. Once you save the lead record, these fields are filtered to show only the records that meet the duplicate detection rules to avoid duplicates.    
+   > [!NOTE]
+   > 
+   > On new (unsaved) lead records, the **Existing Contact** and **Existing Account** fields allow you to choose any records. Once you save the lead record, these fields are filtered to show only the records that meet the duplicate detection rules to avoid duplicates.    
   
-4.  In the **Summary** area of the **Lead** form, enter your lead's company and contact information.  
+4. In the **Summary** area of the **Lead** form, enter your lead's company and contact information.  
 
-5.	In the **Timeline** section, add any notes or activities (for example, phone calls or tasks) related to this lead. [!include[](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
+5. In the **Timeline** section, add any notes or activities (for example, phone calls or tasks) related to this lead. [!include[](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
 
-6.  In the **Stakeholders** section, select the **More Commands** button ![More Commands button](media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
+6. In the **Stakeholders** section, select the **More Commands** button ![More Commands button](media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
 
-    In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you've entered the name you want, select **Add**. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Select the Role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer. 
+   In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you've entered the name you want, select **Add**. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Select the Role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer. 
   
-7.  In the **Details** area of the **Lead** form, enter information about your lead's industry and preferred contact method.  
+7. In the **Details** area of the **Lead** form, enter information about your lead's industry and preferred contact method.  
    
-8.  On the command bar, select **Save**.  
+8. On the command bar, select **Save**.  
 
 <a name="bkmk2"></a>   
 ## Create a lead  (Sales app)
   
 1. [!INCLUDE[proc_sales_leads](../includes/proc-sales-leads.md)]  
   
-2.  Select **New**.  
+2. Select **New**.  
  
-3.  In the **Summary** area of the **Lead** form, enter your lead's company and contact information.  
+3. In the **Summary** area of the **Lead** form, enter your lead's company and contact information.  
 
-4.  In the **Details** area of the **Lead** form, enter information about your lead's industry and preferred contact method.  
+4. In the **Details** area of the **Lead** form, enter information about your lead's industry and preferred contact method.  
   
-5.  Add any notes or activities (for example, phone calls or emails) related to this lead. [!include[](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
+5. Add any notes or activities (for example, phone calls or emails) related to this lead. [!include[](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
 
-6.  In the **Stakeholders** section, select the **Add Connection record** button ![Add Connection record button](media/add-connection-record-button.png "Add Connection record button") to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
+6. In the **Stakeholders** section, select the **Add Connection record** button ![Add Connection record button](media/add-connection-record-button.png "Add Connection record button") to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
 
-    In the Lookup box, enter a name or select the Lookup icon to choose from a list of suggestions. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Select the Role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer.
+   In the Lookup box, enter a name or select the Lookup icon to choose from a list of suggestions. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Select the Role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer.
   
-7.  Select **Save** in the lower-right corner of the form.  
+7. Select **Save** in the lower-right corner of the form.  
     
 <a name="bkmk3"></a>   
 ## Additional considerations  

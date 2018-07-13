@@ -25,13 +25,13 @@ manager: "amyla"
 
 You can control the appearance and behavior of the service calendar in the following ways:  
   
--   [Set time block appearance](service-calendar-appearance-configuration.md#BKMK_TimeBlock)  
+- [Set time block appearance](service-calendar-appearance-configuration.md#BKMK_TimeBlock)  
   
--   [Set smooth scroll limit](service-calendar-appearance-configuration.md#BKMK_SmoothScrollLimit)  
+- [Set smooth scroll limit](service-calendar-appearance-configuration.md#BKMK_SmoothScrollLimit)  
   
--   [Set validation chunk size](service-calendar-appearance-configuration.md#BKMK_ValidationChunkSize)  
+- [Set validation chunk size](service-calendar-appearance-configuration.md#BKMK_ValidationChunkSize)  
   
- To edit these settings you must export the ISV.Config file by adding it as part of a solution, edit the `<IsvConfig>` element in the customizations.xml file, and then re-import and publish the solution. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Export the ISV.Config](service-calendar-appearance-configuration.md#BKMK_ExportISVConfig)  
+  To edit these settings you must export the ISV.Config file by adding it as part of a solution, edit the `<IsvConfig>` element in the customizations.xml file, and then re-import and publish the solution. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Export the ISV.Config](service-calendar-appearance-configuration.md#BKMK_ExportISVConfig)  
   
 <a name="BKMK_TimeBlock"></a>   
 ## Set time block appearance  

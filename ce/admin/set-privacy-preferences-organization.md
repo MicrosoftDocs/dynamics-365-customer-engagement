@@ -31,23 +31,23 @@ Manage users’ data privacy by controlling when to send error notifications, an
   
     Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
   
-3.  Choose **Privacy Preferences**.  
+3. Choose **Privacy Preferences**.  
   
-4.  Under **Select your error notification preferences**, choose **Specify the Web application error notification preferences on behalf of users**, and then select one of the options.  
+4. Under **Select your error notification preferences**, choose **Specify the Web application error notification preferences on behalf of users**, and then select one of the options.  
   
- ![Select error notification preferences for users](../admin/media/select-error-notification-preference.png "Select error notification preferences for users")  
+   ![Select error notification preferences for users](../admin/media/select-error-notification-preference.png "Select error notification preferences for users")  
   
- When you use this setting, you can control error reporting for the entire organization by:  
+   When you use this setting, you can control error reporting for the entire organization by:  
   
- -   Not allowing users to make changes in how error reporting occurs.  
+   -   Not allowing users to make changes in how error reporting occurs.  
   
- -   Changing the default behavior for how error reporting happens.  
+   -   Changing the default behavior for how error reporting happens.  
   
 ## Replace the privacy statement for the organization  
  By default, the [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] privacy statement is always shown to users with an administrator role only, and not to other (business) users. As an administrator, you can add a link to specify your organization's privacy statement, which is then shown to other users in your organization.  
@@ -56,21 +56,21 @@ Manage users’ data privacy by controlling when to send error notifications, an
   
     Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
   
-3.  Choose **Privacy Preferences**.  
+3. Choose **Privacy Preferences**.  
   
-4.  Under **Select your privacy statement link preferences**, choose **Show a link to the privacy statement**, and then, in the **Privacy statement URL** box, type the link of the webpage you want to show.  
+4. Under **Select your privacy statement link preferences**, choose **Show a link to the privacy statement**, and then, in the **Privacy statement URL** box, type the link of the webpage you want to show.  
   
- ![Replace privacy statement for the organization](../admin/media/privacy-statement-preference.png "Replace privacy statement for the organization")  
+   ![Replace privacy statement for the organization](../admin/media/privacy-statement-preference.png "Replace privacy statement for the organization")  
   
-5.  To make sure the link is correct, choose **Test URL**.  
+5. To make sure the link is correct, choose **Test URL**.  
   
- After you add the privacy statement URL, the link directs all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users to the specified link.  
+   After you add the privacy statement URL, the link directs all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users to the specified link.  
   
 > [!NOTE]
 >  Any user with the System Administrator security role will always see the [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] privacy statement and not the organization’s privacy statement.  

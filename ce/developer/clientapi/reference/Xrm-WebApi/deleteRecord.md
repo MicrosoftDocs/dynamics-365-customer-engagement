@@ -32,7 +32,7 @@ manager: "amyla"
 <td>entityLogicalName</td>
 <td>String</td>
 <td>Yes</td>
-<td>The entity logical name of the record you want to delete. For example: "account". </td>
+<td>The entity logical name of the record you want to delete. For example: &quot;account&quot;. </td>
 </tr>
 <tr>
 <td>id</td>

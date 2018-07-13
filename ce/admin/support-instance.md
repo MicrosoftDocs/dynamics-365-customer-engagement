@@ -28,10 +28,10 @@ A Support instance is any non-production instance of [!INCLUDE[pn_CRM_Online](..
 
 **What data is in a Support instance?**
 
--  When a Support instance is initially created by Microsoft, it contains no customer data or customizations.
--  System admins [manage Support instances](manage-online-instances.md) in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)].
--  System admins can [copy an instance](copy-instance.md) to a Support instance, and then choose whether to provide a [Minimal](copy-instance.md#minimal-copy-instance) or a [Full](copy-instance.md#full-copy-instance) copy of their instance.
--  System admins must consent to providing a copy of their data to Microsoft.
+- When a Support instance is initially created by Microsoft, it contains no customer data or customizations.
+- System admins [manage Support instances](manage-online-instances.md) in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)].
+- System admins can [copy an instance](copy-instance.md) to a Support instance, and then choose whether to provide a [Minimal](copy-instance.md#minimal-copy-instance) or a [Full](copy-instance.md#full-copy-instance) copy of their instance.
+- System admins must consent to providing a copy of their data to Microsoft.
 
 **Who has access to a Support instance?**
 

@@ -27,15 +27,15 @@ manager: sakudes
   
  This package is best used in the following situations:  
   
--   Upgrade the existing [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solutions in the specified [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] organization to the latest version without affecting the existing configuration data.  
+- Upgrade the existing [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solutions in the specified [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] organization to the latest version without affecting the existing configuration data.  
   
--   Configure a new [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] environment without any sample configuration in a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] organization where no [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution is currently deployed.  
+- Configure a new [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] environment without any sample configuration in a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] organization where no [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution is currently deployed.  
   
- With the Unified Service Desk Upgrade sample application package, the following components are installed:  
+  With the Unified Service Desk Upgrade sample application package, the following components are installed:  
   
--   User Interface Integration Solution  
+- User Interface Integration Solution  
   
--   Unified Service Desk Solution  
+- Unified Service Desk Solution  
   
 ## See also  
  [Unified Service Desk Overview](../../unified-service-desk/admin/overview-unified-service-desk.md)

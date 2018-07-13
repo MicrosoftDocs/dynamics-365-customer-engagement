@@ -62,25 +62,25 @@ There are a few steps to follow to add a timer to track time against enhanced SL
   
     #### Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-3.  Choose **Customize the System**.  
+3. Choose **Customize the System**.  
   
-4.  Under **Components**, expand **Entities**, and then expand the entity you want.  
+4. Under **Components**, expand **Entities**, and then expand the entity you want.  
   
-5.  Click **Fields**.  
+5. Click **Fields**.  
   
-6.  On the Actions toolbar, click **New**, and then enter a **Display Name** to generate the **Name**.  
+6. On the Actions toolbar, click **New**, and then enter a **Display Name** to generate the **Name**.  
   
-7.  In the **Data Type** drop-down list, select **Lookup**.  
+7. In the **Data Type** drop-down list, select **Lookup**.  
   
-8.  In the **Target Record Type** drop-down list, select a SLA KPI Instance.  
+8. In the **Target Record Type** drop-down list, select a SLA KPI Instance.  
   
-     If you create a lookup field in an entity form, the relationship is automatically generated. A lookup field is created as a relationship field.  
+    If you create a lookup field in an entity form, the relationship is automatically generated. A lookup field is created as a relationship field.  
   
 9. Click **Save and Close** to close the form editor.  
   
@@ -97,26 +97,26 @@ There are a few steps to follow to add a timer to track time against enhanced SL
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-2.  Choose **Customizations**, then choose **Customize the System**.  
+2. Choose **Customizations**, then choose **Customize the System**.  
   
-3.  In the solutions explorer, expand the SLA KPI Instance entity, and then select **Forms**.  
+3. In the solutions explorer, expand the SLA KPI Instance entity, and then select **Forms**.  
   
-4.  Select **New** > **Quick View Form** from the tool bar.  
+4. Select **New** > **Quick View Form** from the tool bar.  
   
-5.  In the **Form** group, click **Form Properties**, and then specify a form name.  
+5. In the **Form** group, click **Form Properties**, and then specify a form name.  
   
-6.  Double-click the section, type a meaningful name for the section, and then click **OK**.  
+6. Double-click the section, type a meaningful name for the section, and then click **OK**.  
   
-7.  Select the section, and on the **Insert** tab, click **Timer**.  
+7. Select the section, and on the **Insert** tab, click **Timer**.  
   
-8.  Specify a name and label for the timer, and the data source for the failure time.  
+8. Specify a name and label for the timer, and the data source for the failure time.  
   
-     Following is an example of the properties you'd set for a timer for a Case entity.  
+    Following is an example of the properties you'd set for a timer for a Case entity.  
   
-     ![Timer control properties for Enhanced SLA](../customer-service/media/crm-ua-v8-1-timer-control-dialog-box-enhanced-sla.png "Timer control properties for enhanced SLA")  
+    ![Timer control properties for Enhanced SLA](../customer-service/media/crm-ua-v8-1-timer-control-dialog-box-enhanced-sla.png "Timer control properties for enhanced SLA")  
   
-    > [!NOTE]
-    >  Typically, for enhanced SLAs, the timer control is set up using the SLA KPI Instance status field values only.  
+   > [!NOTE]
+   >  Typically, for enhanced SLAs, the timer control is set up using the SLA KPI Instance status field values only.  
   
 9. When you are finished, click **OK**.  
   
@@ -132,28 +132,28 @@ There are a few steps to follow to add a timer to track time against enhanced SL
   
     #### Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
 2. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-3.  Click **Customize the System**.  
+3. Click **Customize the System**.  
   
-4.  In the solution explorer, in the left nav pane, expand **Entities**, expand the entity you want to add the quick view form to, and then click **Forms**.  
+4. In the solution explorer, in the left nav pane, expand **Entities**, expand the entity you want to add the quick view form to, and then click **Forms**.  
   
-5.  To add the timer to use in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], open the form of type **Main**.  
+5. To add the timer to use in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], open the form of type **Main**.  
   
-     -OR-  
+    -OR-  
   
-     To add the timer to the interactive experience form so users can use it in the interactive service hub, open the form of type **Main – Interactive experience**  
+    To add the timer to the interactive experience form so users can use it in the interactive service hub, open the form of type **Main – Interactive experience**  
   
-6.  Add a section to insert the quick view control. On  the **Insert** tab, in the **Section** group, click **Section**, and then click **One Column**.   Double-click the section to specify the section properties. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Section properties](../customize/section-properties-legacy.md).  
+6. Add a section to insert the quick view control. On  the **Insert** tab, in the **Section** group, click **Section**, and then click **One Column**.   Double-click the section to specify the section properties. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Section properties](../customize/section-properties-legacy.md).  
   
-    > [!NOTE]
-    >  You can't add an SLA timer to the reference panel section of the Main - Interactive experience form.  
+   > [!NOTE]
+   >  You can't add an SLA timer to the reference panel section of the Main - Interactive experience form.  
   
-7.  Select the section that you just added, and on the **Insert** tab, in the **Control** group, click **Quick View Form** .  
+7. Select the section that you just added, and on the **Insert** tab, in the **Control** group, click **Quick View Form** .  
   
-8.  Specify a name and label for the quick view control.  
+8. Specify a name and label for the quick view control.  
   
 9. In the **Lookup Field** drop-down list, select the lookup field that you created to point to the SLA KPI Instance entity.  
   
@@ -163,7 +163,7 @@ There are a few steps to follow to add a timer to track time against enhanced SL
   
 12. Click **OK** to close the **Quick View Control Properties** dialog box.  
   
- You must save and publish the Main form before the quick view control changes will be visible.  
+    You must save and publish the Main form before the quick view control changes will be visible.  
   
 ### See also  
  [Add a timer control to the Case form to track time against an SLA](../customer-service/add-timer-control-case-form-track-time-against-sla.md)   

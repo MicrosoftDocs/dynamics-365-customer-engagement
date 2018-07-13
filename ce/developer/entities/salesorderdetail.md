@@ -293,6 +293,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_agreement"></a> msdyn_agreement
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select a Agreement for this order line|
@@ -308,6 +309,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_BillingMethod"></a> msdyn_BillingMethod
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Billing method for the project contract line. Valid values are Time and Material and Fixed Price|
@@ -330,6 +332,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_BillingStartDate"></a> msdyn_BillingStartDate
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -346,6 +349,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_BudgetAmount"></a> msdyn_BudgetAmount
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Enter the amount the customer has set aside or is willing to pay for the project contract component.|
@@ -364,6 +368,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_CostAmount"></a> msdyn_CostAmount
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the total cost price of the product based on the cost price per unit and quantity.|
@@ -382,6 +387,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_CostPricePerUnit"></a> msdyn_CostPricePerUnit
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Cost price per unit of the product. The default is the cost price of the product.|
@@ -400,6 +406,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_IncludeExpense"></a> msdyn_IncludeExpense
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select whether to include expenses in the project contract line.|
@@ -424,6 +431,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_IncludeFee"></a> msdyn_IncludeFee
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select whether to include fees in the project contract line.|
@@ -448,6 +456,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_IncludeMaterial"></a> msdyn_IncludeMaterial
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select whether to include materials in the project contract line.|
@@ -472,6 +481,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_IncludeTime"></a> msdyn_IncludeTime
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select whether to include time transactions in the project contract line.|
@@ -496,6 +506,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_invoicefrequency"></a> msdyn_invoicefrequency
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the frequency for the automatic invoice creation job to create the invoice.|
@@ -511,6 +522,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_LineType"></a> msdyn_LineType
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The field to distinguish the order lines to be of project service or field service|
@@ -533,6 +545,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Project"></a> msdyn_Project
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the project of the project contract line.|
@@ -548,6 +561,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_QuoteLine"></a> msdyn_QuoteLine
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the quote line related to the project contract line.|
@@ -1571,6 +1585,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_budgetamount_Base"></a> msdyn_budgetamount_Base
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the Budget Amount in base currency.|
@@ -1589,6 +1604,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_costamount_Base"></a> msdyn_costamount_Base
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the Cost Amount in base currency.|
@@ -1607,6 +1623,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_costpriceperunit_Base"></a> msdyn_costpriceperunit_Base
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the Cost Price Per Unit in base currency.|
@@ -1841,11 +1858,9 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 #### SalesOrderStateCode Options
 
-|Value|Label|
-|-----|-----|
-
-
-
+| Value | Label |
+|-------|-------|
+|       |       |
 
 ### <a name="BKMK_SalesRepIdName"></a> SalesRepIdName
 
@@ -1996,6 +2011,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_SalesOrderDetail_SyncErrors"></a> SalesOrderDetail_SyncErrors
 
 Same as syncerror entity [SalesOrderDetail_SyncErrors](syncerror.md#BKMK_SalesOrderDetail_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -2010,6 +2026,7 @@ Same as syncerror entity [SalesOrderDetail_SyncErrors](syncerror.md#BKMK_SalesOr
 ### <a name="BKMK_SalesOrderDetail_AsyncOperations"></a> SalesOrderDetail_AsyncOperations
 
 Same as asyncoperation entity [SalesOrderDetail_AsyncOperations](asyncoperation.md#BKMK_SalesOrderDetail_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -2024,6 +2041,7 @@ Same as asyncoperation entity [SalesOrderDetail_AsyncOperations](asyncoperation.
 ### <a name="BKMK_salesorderdetail_MailboxTrackingFolders"></a> salesorderdetail_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [salesorderdetail_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_salesorderdetail_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -2038,6 +2056,7 @@ Same as mailboxtrackingfolder entity [salesorderdetail_MailboxTrackingFolders](m
 ### <a name="BKMK_userentityinstancedata_salesorderdetail"></a> userentityinstancedata_salesorderdetail
 
 Same as userentityinstancedata entity [userentityinstancedata_salesorderdetail](userentityinstancedata.md#BKMK_userentityinstancedata_salesorderdetail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -2052,6 +2071,7 @@ Same as userentityinstancedata entity [userentityinstancedata_salesorderdetail](
 ### <a name="BKMK_SalesOrderDetail_ProcessSessions"></a> SalesOrderDetail_ProcessSessions
 
 Same as processsession entity [SalesOrderDetail_ProcessSessions](processsession.md#BKMK_SalesOrderDetail_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -2066,6 +2086,7 @@ Same as processsession entity [SalesOrderDetail_ProcessSessions](processsession.
 ### <a name="BKMK_SalesOrderDetail_BulkDeleteFailures"></a> SalesOrderDetail_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [SalesOrderDetail_BulkDeleteFailures](bulkdeletefailure.md#BKMK_SalesOrderDetail_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -2080,6 +2101,7 @@ Same as bulkdeletefailure entity [SalesOrderDetail_BulkDeleteFailures](bulkdelet
 ### <a name="BKMK_salesorderdetail_principalobjectattributeaccess"></a> salesorderdetail_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [salesorderdetail_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_salesorderdetail_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -2094,6 +2116,7 @@ Same as principalobjectattributeaccess entity [salesorderdetail_principalobjecta
 ### <a name="BKMK_SalesOrderDetail_Dynamicpropertyinstance"></a> SalesOrderDetail_Dynamicpropertyinstance
 
 Same as dynamicpropertyinstance entity [SalesOrderDetail_Dynamicpropertyinstance](dynamicpropertyinstance.md#BKMK_SalesOrderDetail_Dynamicpropertyinstance) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|dynamicpropertyinstance|
@@ -2108,6 +2131,7 @@ Same as dynamicpropertyinstance entity [SalesOrderDetail_Dynamicpropertyinstance
 ### <a name="BKMK_salesorderdetail_parent_salesorderdetail"></a> salesorderdetail_parent_salesorderdetail
 
 Same as salesorderdetail entity [salesorderdetail_parent_salesorderdetail](salesorderdetail.md#BKMK_salesorderdetail_parent_salesorderdetail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|salesorderdetail|

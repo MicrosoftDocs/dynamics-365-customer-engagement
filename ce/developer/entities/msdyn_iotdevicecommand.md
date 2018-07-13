@@ -135,6 +135,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_CustomerAsset"></a> msdyn_CustomerAsset
 
 **Added by**: Connected Field Service for Microsoft Dynamics 365 Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The command will be sent to a device connected to this asset.|
@@ -782,6 +783,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_iotdevicecommand_SyncErrors"></a> msdyn_iotdevicecommand_SyncErrors
 
 Same as syncerror entity [msdyn_iotdevicecommand_SyncErrors](syncerror.md#BKMK_msdyn_iotdevicecommand_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -796,6 +798,7 @@ Same as syncerror entity [msdyn_iotdevicecommand_SyncErrors](syncerror.md#BKMK_m
 ### <a name="BKMK_msdyn_iotdevicecommand_DuplicateMatchingRecord"></a> msdyn_iotdevicecommand_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_iotdevicecommand_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_iotdevicecommand_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -810,6 +813,7 @@ Same as duplicaterecord entity [msdyn_iotdevicecommand_DuplicateMatchingRecord](
 ### <a name="BKMK_msdyn_iotdevicecommand_DuplicateBaseRecord"></a> msdyn_iotdevicecommand_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_iotdevicecommand_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_iotdevicecommand_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -824,6 +828,7 @@ Same as duplicaterecord entity [msdyn_iotdevicecommand_DuplicateBaseRecord](dupl
 ### <a name="BKMK_msdyn_iotdevicecommand_AsyncOperations"></a> msdyn_iotdevicecommand_AsyncOperations
 
 Same as asyncoperation entity [msdyn_iotdevicecommand_AsyncOperations](asyncoperation.md#BKMK_msdyn_iotdevicecommand_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -838,6 +843,7 @@ Same as asyncoperation entity [msdyn_iotdevicecommand_AsyncOperations](asyncoper
 ### <a name="BKMK_msdyn_iotdevicecommand_MailboxTrackingFolders"></a> msdyn_iotdevicecommand_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_iotdevicecommand_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_iotdevicecommand_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -852,6 +858,7 @@ Same as mailboxtrackingfolder entity [msdyn_iotdevicecommand_MailboxTrackingFold
 ### <a name="BKMK_msdyn_iotdevicecommand_UserEntityInstanceDatas"></a> msdyn_iotdevicecommand_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_iotdevicecommand_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_iotdevicecommand_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -866,6 +873,7 @@ Same as userentityinstancedata entity [msdyn_iotdevicecommand_UserEntityInstance
 ### <a name="BKMK_msdyn_iotdevicecommand_ProcessSession"></a> msdyn_iotdevicecommand_ProcessSession
 
 Same as processsession entity [msdyn_iotdevicecommand_ProcessSession](processsession.md#BKMK_msdyn_iotdevicecommand_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -880,6 +888,7 @@ Same as processsession entity [msdyn_iotdevicecommand_ProcessSession](processses
 ### <a name="BKMK_msdyn_iotdevicecommand_BulkDeleteFailures"></a> msdyn_iotdevicecommand_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_iotdevicecommand_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_iotdevicecommand_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -894,6 +903,7 @@ Same as bulkdeletefailure entity [msdyn_iotdevicecommand_BulkDeleteFailures](bul
 ### <a name="BKMK_msdyn_iotdevicecommand_PrincipalObjectAttributeAccesses"></a> msdyn_iotdevicecommand_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_iotdevicecommand_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_iotdevicecommand_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -908,6 +918,7 @@ Same as principalobjectattributeaccess entity [msdyn_iotdevicecommand_PrincipalO
 ### <a name="BKMK_msdyn_iotdevicecommand_connections1"></a> msdyn_iotdevicecommand_connections1
 
 Same as connection entity [msdyn_iotdevicecommand_connections1](connection.md#BKMK_msdyn_iotdevicecommand_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -922,6 +933,7 @@ Same as connection entity [msdyn_iotdevicecommand_connections1](connection.md#BK
 ### <a name="BKMK_msdyn_iotdevicecommand_connections2"></a> msdyn_iotdevicecommand_connections2
 
 Same as connection entity [msdyn_iotdevicecommand_connections2](connection.md#BKMK_msdyn_iotdevicecommand_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -936,6 +948,7 @@ Same as connection entity [msdyn_iotdevicecommand_connections2](connection.md#BK
 ### <a name="BKMK_msdyn_iotdevicecommand_Annotations"></a> msdyn_iotdevicecommand_Annotations
 
 Same as annotation entity [msdyn_iotdevicecommand_Annotations](annotation.md#BKMK_msdyn_iotdevicecommand_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -950,6 +963,7 @@ Same as annotation entity [msdyn_iotdevicecommand_Annotations](annotation.md#BKM
 ### <a name="BKMK_msdyn_msdyn_iotdevicecommand_msdyn_iotalert_LastCommandSent"></a> msdyn_msdyn_iotdevicecommand_msdyn_iotalert_LastCommandSent
 
 Same as msdyn_iotalert entity [msdyn_msdyn_iotdevicecommand_msdyn_iotalert_LastCommandSent](msdyn_iotalert.md#BKMK_msdyn_msdyn_iotdevicecommand_msdyn_iotalert_LastCommandSent) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_iotalert|
@@ -964,6 +978,7 @@ Same as msdyn_iotalert entity [msdyn_msdyn_iotdevicecommand_msdyn_iotalert_LastC
 ### <a name="BKMK_msdyn_msdyn_iotdevicecommand_msdyn_iotdevice_LastCommandSent"></a> msdyn_msdyn_iotdevicecommand_msdyn_iotdevice_LastCommandSent
 
 Same as msdyn_iotdevice entity [msdyn_msdyn_iotdevicecommand_msdyn_iotdevice_LastCommandSent](msdyn_iotdevice.md#BKMK_msdyn_msdyn_iotdevicecommand_msdyn_iotdevice_LastCommandSent) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_iotdevice|
@@ -978,6 +993,7 @@ Same as msdyn_iotdevice entity [msdyn_msdyn_iotdevicecommand_msdyn_iotdevice_Las
 ### <a name="BKMK_msdyn_msdyn_iotdevicecommand_msdyn_customerasset_LastCommandSent"></a> msdyn_msdyn_iotdevicecommand_msdyn_customerasset_LastCommandSent
 
 Same as msdyn_customerasset entity [msdyn_msdyn_iotdevicecommand_msdyn_customerasset_LastCommandSent](msdyn_customerasset.md#BKMK_msdyn_msdyn_iotdevicecommand_msdyn_customerasset_LastCommandSent) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_customerasset|
