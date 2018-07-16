@@ -1,7 +1,7 @@
 ---
 title: "Enable the hybrid experience | MicrosoftDocs"
 ms.custom: ""
-ms.date: 07/12/2018
+ms.date: 07/20/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -18,4 +18,27 @@ manager: "kvivek"
 ---
 # Enable the hybrid experience
 
-While most of the core functionalities of sales and customer service have moved to the [Unified Interface](about-unified-interface.md) experience, some work remains in bringing all features to Unified Interface. You can enable those features to appear in the Unified Interface client so users can 
+Many of the core functionalities of sales and customer service have moved to the [Unified Interface](about-unified-interface.md) experience. This topic covers those that are not yet on Unified Interface and how you can access them in the Unified Interface client. 
+
+The following features are not yet moved to but can be enabled to view on the Unified Interface.
+
+- [Advanced Find](../basics/save-advanced-find-search.md) 
+- [Bulk edit](manage-your-data.md)
+- [Merge records](../basics/merge-duplicate-records-accounts-contacts-leads.md)
+- [Record sharing](../basics/assign-record-user-team.md)
+- All options under **Set Personal Options** (![Settings gear](../basics/media/settings-gear-icon.png "Settings gear"))
+
+These features are enabled by default through a setting in System Settings.
+
+1. Go to **Settings** > **Administration** > **System Settings**.  
+2. Select the **General** tab.  
+
+![Enable embedding of legacy dialogs](media/hybrid-system-settings.png "Enable embedding of legacy dialogs")
+
+With embedding of legacy dialogs enabled, when you select one of the above features...
+
+![Select Personalization Settings](media/hybrid-personalization-settings.png "Select Personalization Settings")
+
+...the legacy web client dialog opens.
+
+![Legacy Set Personal Options](media/hybrid-set-personal-options-legacy.png "Legacy Set Personal Options")
