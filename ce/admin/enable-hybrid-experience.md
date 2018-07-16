@@ -18,9 +18,9 @@ manager: "kvivek"
 ---
 # Enable the hybrid experience
 
-Many of the core functionalities of sales and customer service have moved to the [Unified Interface](about-unified-interface.md) experience. This topic covers those that are not yet on Unified Interface and how you can access them in the Unified Interface client. 
+Many of the core functionalities of sales and customer service have moved to the [Unified Interface](about-unified-interface.md) experience. Some of the features that are not yet on Unified Interface can be accessed in the Unified Interface client. 
 
-The following features are not yet moved to but can be enabled to view on the Unified Interface.
+The following features are not yet moved to but can be enabled for viewing in the Unified Interface.
 
 - [Advanced Find](../basics/save-advanced-find-search.md) 
 - [Bulk edit](manage-your-data.md)
@@ -39,6 +39,10 @@ With embedding of legacy dialogs enabled, when you select one of the above featu
 
 ![Select Personalization Settings](media/hybrid-personalization-settings.png "Select Personalization Settings")
 
-...the legacy web client dialog opens.
+...the legacy web client dialog opens in the Unified Interface client.
 
 ![Legacy Set Personal Options](media/hybrid-set-personal-options-legacy.png "Legacy Set Personal Options")
+
+If you disable embedding of legacy dialogs, a Unified Interface Personalization Settings page opens.
+
+![Unified Interface Personalization Settings](media/hybrid-system-settings-page.png "Unified Interface Personalization Settings")
