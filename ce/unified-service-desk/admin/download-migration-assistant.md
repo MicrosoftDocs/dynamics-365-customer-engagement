@@ -27,5 +27,19 @@ The Web Client - Unified Interface Migration Assistant is an executable file, wh
 Download the [Web Client – Unified Interface Migration Assistant](https://go.microsoft.com/fwlink/?linkid=2005839).
 
 
+## Prerequesites: Download Configuration Migration Tool
+
+The migration of configurations from Dynamics 365 Web Client to Unified Interface App is a two stage process:
+
+- Fetch and migrate the configuration elements to a **Data.zip** file using the Web Client - Unified Interface Migration Assistant.
+- Import the **Data.zip** to the Unified Interface App using the Configuration Migration Tool (DataMigrationUtility.exe).
+
+Hence, you must download the Configuration Migration Tool (DataMigrationUtility.exe), which is available as a [NuGet package](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf). 
+
+To download the tool, see [Download the tools from NuGet](../../developer/download-tools-nuget.md). Follow the steps on this page to extract the Configuration Migration Tool (DataMigrationUtility.exe).
+
 ## See also
 
+[Migration of Unified Service Desk configurations from Dynamics 365 Web Client to Dynamics 365 Unified Interface App](overview-migration-assistant.md)
+
+[Migration steps of the configurations from Dynamics 365 Web Client to Unified Interface App](web-client-unified-interface-configuration-steps.md)

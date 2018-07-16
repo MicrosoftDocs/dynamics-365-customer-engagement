@@ -108,10 +108,12 @@
       href: admin/manage-access-using-unified-service-desk-configuration.md
   - name: Web Client - Unified Interface Migration Assitant 
     items:
-    - name: Overview  
+    - name: Overview
       href: admin/overview-migration-assistant.md
-    - name: Migration steps  
-      href: admin/web-client-unified-interface-configuration-process.md        
+    - name: Migration steps
+      href: admin/migration-steps-web-client-unified-interface-configuration.md
+    - name: Download the migration assistant
+      href: admin/download-migration-assistant.md
   - name: Migrate your Unified Service Desk configuration to another Customer Engagement instance
     href: admin/migrate-unified-service-desk-configuration-dynamics-365-server.md
     items:
