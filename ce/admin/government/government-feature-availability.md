@@ -38,9 +38,9 @@ There are certain experiences that are currently not available within the Govern
 - Connected Field Service
 - Gamification
 - Home.Dynamics.com
-- Insights by Inside View
-- Mobile Offline
-- PowerBI “Embedded” User Dashboard Experience
+- Insights, powered by InsideView
+- Mobile offline
+- PowerBI “embedded” user dashboard experience
 - Relevance Search
 - Resource Scheduling Optimization
 - Versium Predict
@@ -57,7 +57,7 @@ In addition, please note that it is not possible to connect to a Dynamics 365 Cu
 - 465 Secure SMTP  
 - 995 Secure POP3  
 
-  Customizations or email configurations in [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] can only use these ports.  
+Customizations or email configurations in [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] can only use these ports.  
 
 ### See also  
  [Microsoft Dynamics 365 (online) Government](microsoft-dynamics-365-government.md)   
