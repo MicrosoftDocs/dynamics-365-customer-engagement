@@ -20,7 +20,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# Migration process of the configurations from Dynamics 365 Web Client to Unified Interface App
+# Migration steps of the configurations from Dynamics 365 Web Client to Unified Interface App
   
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] supports Unified Interface apps, and you want to upgrade to the latest version of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to deliver intelligent and personalized experience to the rising expectations of your customers.
 If you are using [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Web Client with all the configurations needed for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to work, you may think on how to use all the configurations in the Unified Interface App. To tackle the issue of configuring in the Unified Interface App, we have introduced a tool, **[!INCLUDE[pn-web-client-unified-interface-configuration-migration-assistant](../../includes/pn-web-client-unified-interface-configuration-migration-assistant.md)]** for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
