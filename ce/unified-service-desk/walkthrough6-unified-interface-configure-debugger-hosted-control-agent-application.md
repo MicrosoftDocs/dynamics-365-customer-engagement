@@ -16,7 +16,7 @@ applies_to:
 ms.assetid: B87B63D0-7BE3-4B43-806A-29429D9DE75A
 author: "kabala123"
 ms.author: "kabala"
-manager: "sakudes"
+manager: "shujoshi"
 ---
 # Walkthrough 6: Configure the Debugger hosted control in your agent application
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides a **Debugger** type of hosted control, which provides you key information about your [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration that helps you to successfully build an agent application and troubleshoot issues in your configuration. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Debug issues in Unified Service Desk](../unified-service-desk/debug-issues-unified-service-desk.md )  

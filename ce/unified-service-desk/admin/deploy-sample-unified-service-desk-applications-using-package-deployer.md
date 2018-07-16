@@ -18,7 +18,7 @@ applies_to:
 ms.assetid: fe906d8e-a06b-46e6-84c9-0c0710157b33
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Overview of Package Deployer and the sample applications
 [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] comes with  sample applications that you can use as the base for starting with your configuration of your agent application.  

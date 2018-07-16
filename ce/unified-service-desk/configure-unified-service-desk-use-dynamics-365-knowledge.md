@@ -19,7 +19,7 @@ ms.assetid: c2e0f4b1-c09a-413c-b703-03ff851ffb9d
 caps.latest.revision: 9
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Configure Unified Service Desk to use Dynamics 365 or Parature knowledge
 The **KM Control** type of hosted control exposes a bunch of events and action calls to configure an integrated experience for your agents to easily search for knowledge base articles in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] or [!INCLUDE[pn_parature](../includes/pn-parature.md)] from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and then perform various actions on the search result items.  

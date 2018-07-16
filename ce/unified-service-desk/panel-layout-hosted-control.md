@@ -19,7 +19,7 @@ ms.assetid: bbc0cc8e-b45c-4ad6-a7e8-616dc1a00f53
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Panel Layout (Hosted Control)
 Use **Panel Layout** hosted control to define the arrangement of panels in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. Panels hold various hosted controls, and a panel layout defines the arrangement of various hosted controls on the main screen of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] comes with several predefined panel types to support various layout options such as tabbed layout, deck, and stacked layout. For more information, see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md).  

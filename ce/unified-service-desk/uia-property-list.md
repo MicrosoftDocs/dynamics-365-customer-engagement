@@ -19,7 +19,7 @@ ms.assetid: c8e19ae7-f240-4eed-b607-6c8e2d69e1ed
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # UIA property list in Unified Service Desk
 The following is a list of the UIA properties:  

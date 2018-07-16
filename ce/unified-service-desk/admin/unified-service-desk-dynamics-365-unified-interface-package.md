@@ -18,7 +18,7 @@ applies_to:
 ms.assetid: FA01CA74-AD17-44A1-8AAD-C296B549F8A2
 author: "kabala123"
 ms.author: "kabala"
-manager: "sakudes"
+manager: "shujoshi"
 ---
 # Unified Interface sample application package
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework. 

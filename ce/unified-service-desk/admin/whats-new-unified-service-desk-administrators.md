@@ -18,7 +18,7 @@ applies_to:
 ms.assetid: 57f18bf9-1e28-481b-9d78-f2adaf281e16
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # New feature information for administrators
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.  

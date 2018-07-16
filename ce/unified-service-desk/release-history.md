@@ -18,7 +18,7 @@ applies_to:
 ms.assetid: 1949915b-77a0-4489-addf-b3b3b37c3e89
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Release history for Unified Service Desk
 This is the release history page for the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Guide.  

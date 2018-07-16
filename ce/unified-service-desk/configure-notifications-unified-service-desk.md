@@ -19,7 +19,7 @@ ms.assetid: ca7905ed-47a0-47c9-bbfe-5cb1738b0125
 caps.latest.revision: 20
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Configure notifications in Unified Service Desk
 Configure notifications in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to display popup notification messages to your customer service agents that contains general information or some customer or process-related information that the agent can act on. The layout and behavior of the notification message is defined in XAML format by using forms in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and displayed as a floating popup message using the new hosted control type, `Popup Notification`. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Popup Notification (Hosted Control)](../unified-service-desk/popup-notification-hosted-control.md)  

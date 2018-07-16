@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: "B96D2870-9475-475B-B37B-221C3EC55D45"
 author: "kabala123"
 ms.author: "kabala"
-manager: "sakudes"
+manager: "shujoshi"
 ---
 # Download and Install Best Practices Analyzer
 

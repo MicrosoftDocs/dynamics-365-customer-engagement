@@ -18,7 +18,7 @@ applies_to:
 ms.assetid: f11820ab-d009-4737-ab46-56d4587881e1
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Add and manage multilanguage support (localized resources) for your agent applications
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] enables you to bundle in localized strings for your controls interface so that they appear in the language based on the locale settings of the user’s computer. The multi-language support is available for all the components except for those that are surfaced through [!INCLUDE[pn_customer_care_accelerator](../includes/pn-customer-care-accelerator.md)], which doesn’t support multi-language scenarios. This includes the hosted control tab names.  

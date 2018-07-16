@@ -19,7 +19,7 @@ ms.assetid: 0271073c-d9b1-4f40-8d9a-c2398ae7df8d
 caps.latest.revision: 13
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Popup Notification (Hosted Control)
 Use the **Popup Notifaction** hosted control type to display notifications in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. The notification layout and content is defined as XAML  in a [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] form instance, and the **Popup Notifaction** hosted control is used to display and hide the form instance as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure notifications in Unified Service Desk](../unified-service-desk/configure-notifications-unified-service-desk.md)  

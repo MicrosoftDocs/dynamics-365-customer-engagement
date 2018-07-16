@@ -19,7 +19,7 @@ ms.assetid: 590fe7cf-9281-41ee-ba7e-c0914ef9e44a
 caps.latest.revision: 6
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Session Tabs (Hosted Control)
 Use **Session Tabs** type of hosted control to display customer information in a session tab in your agent application. The hosted control can read the session lines configuration for the session name configuration, and can evaluate which session line should be used to create the session name. An instance of this hosted control type must be available in your agent application for the session tabs to be displayed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Session management in Unified Service Desk](../unified-service-desk/session-management-unified-service-desk.md)  

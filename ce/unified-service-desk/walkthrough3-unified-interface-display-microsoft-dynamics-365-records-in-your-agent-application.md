@@ -17,7 +17,7 @@ applies_to:
 ms.assetid: FD393D95-FBB9-434B-86B1-23747FBB5B70
 author: "kabala123"
 ms.author: "kabala"
-manager: "sakudes"
+manager: "shujoshi"
 ---
 # Walkthrough 3: Display Microsoft Dynamics 365 Unified Interface app records in your agent application
 This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] records of Unified Interface Apps in your agent application. In this walkthrough, you’ll display all the account and contact records in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. You’ll also create a search button with drop-down menu items for displaying accounts and contacts in the agent application.  

@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: 7ECEC924-5089-4D9C-88B3-50D1BD7B03A9
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 
 # Support for Unified Interface Apps in Unified Service Desk

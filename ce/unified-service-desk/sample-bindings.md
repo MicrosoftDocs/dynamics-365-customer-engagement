@@ -19,7 +19,7 @@ ms.assetid: 750d9d17-41be-4510-9772-291a8cbaddd7
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Sample bindings in Unified Service Desk
 A data-driven adapter uses data, named the bindings, to define the way that it identifies a UI component of a hosted application. The following are some sample bindings:  

@@ -19,7 +19,7 @@ ms.assetid: c9f6c498-68c8-4c67-9b89-c44ce39d6da1
 caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Use HAT automation activities in Unified Service Desk
 The [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)] provides you with a bunch of automation activities that you can use to automate your hosted applications. To view the [!INCLUDE[pn_hat](../includes/pn-hat.md)] automation activities in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]:  

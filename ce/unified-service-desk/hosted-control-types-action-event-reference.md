@@ -19,7 +19,7 @@ ms.assetid: 4b891311-28d7-4776-8414-c6d83bfe43bf
 caps.latest.revision: 12
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Hosted control types, action, and event reference in Unified Service Desk
 This section provides information about the various types of hosted controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and the predefined [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] actions and events available for each hosted control type. You can also view information about the predefined [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions and events for hosted controls in the embedded help in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View embedded help for actions and events](../unified-service-desk/view-embedded-help-for-actions-and-events.md)  

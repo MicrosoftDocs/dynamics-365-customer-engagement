@@ -19,7 +19,7 @@ ms.assetid: 8716818e-8f18-4c29-9cab-0f3ab7416055
 caps.latest.revision: 6
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Use UII adapters to interact with external and web applications in Unified Service Desk
 You can use [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] adapters to interact with your external and web applications without having access to the application’s source code.  

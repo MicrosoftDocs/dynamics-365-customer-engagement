@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: 3AEB8475-FCBE-4526-8000-CF06CED9586C
 author: "kabala123"
 ms.author: "kabala"
-manager: "sakudes"
+manager: "shujoshi"
 ---
 
 # Preview feature: Unified Interface Page (Hosted Control)

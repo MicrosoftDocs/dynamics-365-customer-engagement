@@ -19,7 +19,7 @@ ms.assetid: caf681d7-9dd8-4cb7-8b82-24dcef3c0d5e
 caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Learn to use Unified Service Desk
 This section provides information about the features and capabilities of [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)] that you can use to configure your agent desktop application. We recommend that you read the topics in this section in the order that they appear in the table of contents to make the most of the information in developing your understanding about [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  

@@ -19,7 +19,7 @@ ms.assetid: d3773029-8b2f-4aa3-9317-abc309b01960
 caps.latest.revision: 12
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Updating the solution
 Read this topic only if you have an existing installation of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] from the previous release of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)], and want to update to the [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)] release.  

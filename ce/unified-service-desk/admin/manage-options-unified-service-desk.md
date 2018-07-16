@@ -18,7 +18,7 @@ applies_to:
 ms.assetid: be4effc4-a2a8-414b-87a1-a8b303160bac
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 tags: 
  - "MigrationHO"
 ---

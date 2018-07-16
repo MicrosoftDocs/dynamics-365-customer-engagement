@@ -18,7 +18,7 @@ applies_to:
 ms.assetid: 1f9169ce-cba3-4bb6-af20-f86140139cfe
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Download Unified Service Desk
 This topic provides information about the location from where you can download various versions of Unified Service Desk solutions and the client application. For information about:
