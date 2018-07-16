@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 for Marketing Readme (Known Issues) | MicrosoftDocs"
-ms.date: 05/10/2018
+ms.date: 07/18/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
@@ -26,12 +26,10 @@ and workarounds for Dynamics 365 for Marketing.
 -   You cannot use the Join sign-up process to add more users to a Marketing
     trial that is running on a trial tenant without a mailbox set up for the
     organization admin. Instead, each new user must be added in a specific way.
-    Refer to the [First time setup
-    FAQ](https://go.microsoft.com/fwlink/?linkid=866753).
+    Refer to the [Administration and setup FAQ](https://go.microsoft.com/fwlink/?linkid=866753).
 
 -   You cannot sign up using an \@microsoft.com email address. Please set up a
-    trial instance first as described in the [First time setup
-    FAQ](https://go.microsoft.com/fwlink/p/?linkid=866753).
+    trial instance first as described in the [Administration and setup FAQ](https://go.microsoft.com/fwlink/p/?linkid=866753).
 
 ### Dynamics 365 for Marketing - known issues
 
