@@ -106,6 +106,10 @@
       href: admin/manage-access-using-unified-service-desk-security-roles.md
     - name: Manage access using Unified Service Desk configuration
       href: admin/manage-access-using-unified-service-desk-configuration.md
+  - name: Web Client - Unified Interface Migration Assitant 
+    items:
+    - name: Overview  
+      href: admin/overview-migration-assistant.md   
   - name: Migrate your Unified Service Desk configuration to another Customer Engagement instance
     href: admin/migrate-unified-service-desk-configuration-dynamics-365-server.md
     items:
