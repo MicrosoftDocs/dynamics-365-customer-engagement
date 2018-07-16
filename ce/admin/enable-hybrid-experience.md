@@ -46,3 +46,6 @@ With embedding of legacy dialogs enabled, when you select one of the above featu
 If you disable embedding of legacy dialogs, a Unified Interface Personalization Settings page opens.
 
 ![Unified Interface Personalization Settings](media/hybrid-system-settings-page.png "Unified Interface Personalization Settings")
+
+### See also  
+ [Unified Interface](about-unified-interface.md)
