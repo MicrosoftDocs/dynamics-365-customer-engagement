@@ -10,8 +10,7 @@ ms.date: 02/20/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: ae39f0a0-1909-44b0-8625-ccee22f3ccd4
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
 ---
 
 # Reduce call handling times with Knowledge articles in the Customer Service Hub
@@ -28,7 +27,7 @@ Knowledge articles can address any number of issues your customers encounter whi
 
 
 ## Knowledge management process  
- The following diagram describes the default process for creating and using knowledge articles in the Customer Service Hub.  
+ The following diagram describes the default process for creating and using knowledge articles in the Customer Service Hub. Create an article and mark it for review. The reviewer can approve or reject the article. If the article is rejected, it is sent back for edits or updates. If the article is approved, it is published on the portal. It is also available in search and can also be translated.
   
  ![Knowledge management process in Dynamics 365](../customer-service/media/v8-km-walkthrough.png "Knowledge management process in Dynamics 365")  
   
