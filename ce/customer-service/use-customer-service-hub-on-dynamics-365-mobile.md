@@ -10,8 +10,7 @@ ms.date: 09/13/2017
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: a7f5cc83-80cc-1aad-aab5-fdd52a6891fe
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
 ---
 
 # Use Customer Service Hub on phones and tablets

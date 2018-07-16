@@ -12,8 +12,7 @@ ms.date: 02/20/2018
 ms.topic: get-started-article
 ms.service: dynamics-365-customerservice
 ms.assetid: 67fbf2dd-28c6-415e-aa45-8247f97b3b19
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
 ---
 
 # Customer Service Hub Help & Training
@@ -33,9 +32,12 @@ ms.custom:
 
   <td><h2>Setup</h2>
   <ul>
-  <li><a href="service-manager-guide.md" data-raw-source="[Service Manager](service-manager-guide.md)">Service Manager</a></li>
-  <li><a href="../mobile-app/install-dynamics-365-for-phones-and-tablets.md" data-raw-source="[Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)">Dynamics 365 for phones and tablets</a></li>
-  <li><a href="https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/" data-raw-source="[Upgrade to the Customer Service Hub in Microsoft Dynamics 365 - Blog](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)">Upgrade to the Customer Service Hub in Microsoft Dynamics 365 - Blog</a></li> 
+  <li><a href="service-manager-guide.md" data-raw-source="[[Service Manager guide](service-manager-guide.md)]">Service Manager guide</a></li>
+
+  <li><a href="https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets" data-raw-source="[Dynamics 365 for phones and tablets]https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets">Dynamics 365 for phones and tablets</a></li>
+
+  <li> <a href="upgrade-ish-csh.md" data-raw-source="[[Upgrade to the Customer Service Hub app](upgrade-ish-csh.md)]">Upgrade to the Customer Service Hub app</a>
+  </li> 
   </ul>
   </td>
 </tr>
