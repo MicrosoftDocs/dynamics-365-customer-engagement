@@ -1,7 +1,7 @@
 ---
 title: "Use Outlook category to track appointments and emails with Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 06/11/2018
+ms.date: 07/17/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,11 +14,11 @@ ms.assetid: e1c00214-52a0-48b1-824f-8c613772752f
 caps.latest.revision: 36
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Use Outlook category to track appointments and emails
 
-Applies To: Dynamics 365 (online) version 8.2
+Applies To: [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>Dynamics 365 (online) version 8.2
 
 Server-side synchronization now allows tracking of emails, appointments and tasks in Outlook with a [special category](https://support.office.com/article/video-set-an-email-flag-reminder-or-color-a894348d-b308-4185-840f-aff63063d076?ui=en-US&rs=en-US&ad=US) **Tracked to Dynamics 365**. Assigning this category to an email, appointment or a task in Outlook syncs the item to Dynamics 365. Similarly, removing the category from a tracked email, appointment or task untracks it from Dynamics 365.
 
