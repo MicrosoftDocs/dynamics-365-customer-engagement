@@ -43,7 +43,7 @@ Use the following links to learn about Service Management tasks:
   
 ## Case Settings with Record Creation and Update Rules
 
-[Queues](create-manage-queues.md)
+[Queues](create-edit-queue.md)
 
 [Parent and child case settings](define-settings-parent-child-cases.md)
 
