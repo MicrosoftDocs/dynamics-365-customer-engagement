@@ -1,7 +1,7 @@
 ---
 title: Add a timer in forms to track time against enhanced SLAs (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Understand the procedure to add a timer in forms to track time against enhanced SLAs in Dynamics 365 for Customer Service
-keywords: Timer; Forms; Dynamics 365; Customer Service; Enable an entity for SLA; Create an SLA
+keywords: Timer; Forms; Dynamics 365; Customer Service; Enable an entity for SLA; Create an SLA; Add a timer in forms to track time against enhanced SLAs
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
