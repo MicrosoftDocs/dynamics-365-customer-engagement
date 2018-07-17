@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 (online) Government - Feature availability | MicrosoftDocs"
 ms.custom: ""
-ms.date: 07/17/2018
+ms.date: 07/16/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -20,32 +20,33 @@ manager: "kvivek"
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
-Microsoft strives to maintain functional parity between our commercially available service and that which is servicing the U.S. Government Community Cloud (GCC) customer base.  However, there are notable exceptions to this, affected by dependent service or partner-solution availability, market priorities, or compliance regulations.
+Microsoft strives to maintain functional parity between our commercially available service and that which is servicing the Dynamics 365 Customer Engagement for U.S. Government - for example, “Dynamics 365 Government Community Cloud (GCC)". However, there are notable exceptions to this, affected by dependent service or partner-solution availability, market priorities, or compliance regulations.
 
-At this time, preview features in the commercial offering are not available to GCC customers. This is intentional, as the GCC is a community leveraging our generally available services, further protected with heightened compliance demands of our Government and Government community customers.   
+At this time, preview features in the commercial offering are not available to Dynamics 365 GCC customers. This is intentional, as the GCC represents a community leveraging our generally available services, further protected with heightened compliance demands of the U.S. Government and Government community customers.
 
-Dynamics 365 Customer Engagement for Government Community Cloud currently supports the following versions:
+Dynamics 365 GCC currently supports the following versions:
 
 - Dynamics 365, version 8.2
 - Microsoft Dynamics CRM Online 2016, Update 1
 
-There are certain experiences that are currently not available within the Government Community Cloud. We continue to evaluate these for incorporation into future releases. The following generally available features are not currently available:
+There are certain experiences that are currently not available with Dynamics 365 GCC.  We continue to evaluate these for incorporation into future releases. The following generally available features are not currently available:
 
-- Activity Logging
-- AppSource (ability to install Applications directly from AppSource)
-- Data Export Service
-- CAFEx Integration
-- Connected Field Service
-- Gamification
-- Home.Dynamics.com
-- Insights, powered by InsideView
-- Mobile offline
-- PowerBI “embedded” user dashboard experience
-- Relevance Search
-- Resource Scheduling Optimization
-- Versium Predict
+- [Activity Logging](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-use-comprehensive-auditing)
+- [AppSource](https://appsource.microsoft.com/?product=dynamics-365-business-central%3Bdynamics-365-for-customer-services%3Bdynamics-365-for-field-services%3Bdynamics-365-for-finance-and-operations%3Bdynamics-365-for-project-service-automation%3Bdynamics-365-for-sales) (ability to install Applications directly from AppSource)
+- [Data Export Service](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.44f192ec-e387-436c-886c-879923d8a448)
+- [Organization Insights](https://appsource.microsoft.com/product/dynamics-365/mscrm.04931187-431c-415d-8777-f7f482ba8095)
+- [CAFEx Integration](https://appsource.microsoft.com/product/dynamics-365/cafexliveassistfor365.27ac7522-68b2-44a2-9f36-da66a47e2b19)
+- [Connected Field Service](https://msdn.microsoft.com/library/mt744253.aspx)
+- [Gamification](https://docs.microsoft.com/dynamics365/customer-engagement/gamification/manage-gamification-in-dynamics-365-online)
+- [Home.Dynamics.com](http://home.dynamics.com/)
+- [Insights, powered by InsideView](https://appsource.microsoft.com/en-us/product/dynamics-365/insideviewinc.b5386882-4312-4d69-879a-23081897c012)
+- [Mobile offline](https://docs.microsoft.com/dynamics365/customer-engagement/mobile-app/configure-mobile-offline-synchronization-dynamics-365-phones-tablets)
+- [PowerBI “embedded” user dashboard experience](https://docs.microsoft.com/power-bi/service-connect-to-microsoft-dynamics-crm)
+- [Relevance Search](https://docs.microsoft.com/dynamics365/customer-engagement/basics/relevance-search-results)
+- [Resource Scheduling Optimization](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/resource-scheduling-optimization)
+- [Versium Predict](https://docs.microsoft.com/dynamics365/customer-engagement/versium-predict/versium-predict)
 
-In addition, please note that it is not possible to connect to a Dynamics 365 Customer Engagement GCC environment through PowerApps.  
+In addition, please note that it is not possible to connect to a Dynamics 365 GCC environment through PowerApps.  
 
 <a name="BKMK_NetworkPorts"></a>   
 
@@ -55,9 +56,10 @@ In addition, please note that it is not possible to connect to a Dynamics 365 Cu
 - 80 HTTP  
 - 443 HTTPS  
 - 465 Secure SMTP  
+- 587 Secure SMTP
 - 995 Secure POP3  
 
-Customizations or email configurations in [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] can only use these ports.  
+Customizations or email configurations in Dynamics 365 GCC can only use these ports.
 
 ### See also  
  [Microsoft Dynamics 365 (online) Government](microsoft-dynamics-365-government.md)   
