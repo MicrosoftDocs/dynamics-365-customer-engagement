@@ -61,7 +61,7 @@ When Dynamics 365 tracks an email, it associates the email address to a record w
 5. Equipment
 6. Team
 7. Business unit
-8. Email-enabled custom entities
+8. Email-enabled entities (for example: Queues, custom, etc.)
 
 In the email **To** field, all of the Dynamics 365 records of email-enabled entities with the email address will be listed.
 
