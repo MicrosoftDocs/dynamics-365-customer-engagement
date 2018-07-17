@@ -1,7 +1,7 @@
 ---
 title: "Geo to geo migrations for Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 11/28/2017
+ms.date: 07/12/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,7 +14,7 @@ ms.assetid: c5b836a1-8f9d-42bd-8c11-cb81c68b97d3
 caps.latest.revision: 17
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Geo to geo migrations
 
@@ -51,8 +51,6 @@ We continue to open new datacenter regions for [!INCLUDE[pn_crm_online_shortest]
 -   India (IND) = *.crm8.dynamics.com  
 
 -   United Kingdom (UK) = *.crm11.dynamics.com  
-
-For Germany (DEU), use the following: [https://\<organization>.crm.microsoftdynamics.de](https://<organization>.crm.microsoftdynamics.de).  
 
  [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Direct sign in to Dynamics 365 (online)](../../admin/sign-in-office-365-apps.md#BKMK_directsignin) and [Discover the URL for your organization using the Organization Service](../../developer/org-service/discover-url-organization-organization-service.md)
 
