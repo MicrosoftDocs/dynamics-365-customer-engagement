@@ -37,6 +37,9 @@ The migration assistant helps with the following:
 - Migration of **RunXRM** commands as web resources.
 - Migration of events and actions that are only supported in Web Client to the corresponding events and actions in Unified Interface App.
 
+> [!Div="nextstepaction"]
+> [Download the Migration Assistant](download-migration-assistant.md)
+
 ## See also
 
 [Download the Web Client - Unified Interface Migration Assistant](download-migration-assistant.md)

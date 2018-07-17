@@ -38,6 +38,9 @@ Hence, you must download the Configuration Migration Tool (DataMigrationUtility.
 
 To download the tool, see [Download the tools from NuGet](../../developer/download-tools-nuget.md). Follow the steps on this page to extract the Configuration Migration Tool (DataMigrationUtility.exe).
 
+> [!Div="nextstepaction"]
+> [How to migrate the configurations](migration-steps-web-client-unified-interface-configuration.md)
+
 ## See also
 
 [Migration of Unified Service Desk configurations from Dynamics 365 Web Client to Dynamics 365 Unified Interface App](overview-migration-assistant.md)
