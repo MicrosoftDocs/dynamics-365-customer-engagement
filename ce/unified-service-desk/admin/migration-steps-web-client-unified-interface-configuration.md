@@ -22,6 +22,16 @@ manager: shujoshi
 
 # Migration steps of the configurations from Dynamics 365 Web Client to Unified Interface App
 
+The migration of the Unified Service Desk configurations from Dynamics 365 Web Client to Dynamics 365 Unified Interface is a two stage process.
+
+- Fetch and migrate the configuration elements to a **Data.zip** file using the Web Client - Unified Interface Migration Assistant.
+
+- Import the **Data.zip** to the Unified Interface App using the Configuration Migration Tool (DataMigrationUtility.exe).
+
+The diagram demonstrates the flow of the migration:
+
+![Migration Steps](../media/migration-steps-web-client-unified-interface-migration-assistant.PNG "Migration Steps")
+
 
 
 ## See also
