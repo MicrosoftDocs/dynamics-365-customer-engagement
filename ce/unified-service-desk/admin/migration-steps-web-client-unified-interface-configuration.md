@@ -20,7 +20,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# Migration steps of the configurations from Dynamics 365 Web Client to Unified Interface App
+# How to migrate Unified Service Desk configurations from Dynamics 365 Web Client to Unified Interface App
 
 The migration of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Web Client to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Unified Interface is a two stage process.
 
