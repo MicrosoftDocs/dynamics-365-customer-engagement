@@ -322,4 +322,5 @@ Define the level of service or support that your organization agrees to offer to
 >  To track SLAs for entities other than case, ask your system administrator or customizer to add an enhanced SLA timer on the entity forms. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a timer to forms to track time against enhanced SLAs](../customer-service/add-timer-forms-track-time-against-enhanced-sla.md)  
 
 ### See also  
-[Create an entitlement to define the support terms for a customer](../customer-service/create-entitlement-define-support-terms-customer.md)   
+
+[Enable entities for service level agreements](enable-entities-service-level-agreements.md)

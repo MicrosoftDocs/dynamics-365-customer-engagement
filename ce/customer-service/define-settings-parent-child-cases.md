@@ -46,6 +46,6 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)],  you can track m
   
 ### See also
 
-[Create and manage parent and child cases (Customer Service Hub)](customer-service-hub-user-guide-case-sla.md#create-and-manage-parent-and-child-cases)</br>
+[Create and manage parent and child cases](customer-service-hub-user-guide-case-sla.md#create-and-manage-parent-and-child-cases)</br>
 
   

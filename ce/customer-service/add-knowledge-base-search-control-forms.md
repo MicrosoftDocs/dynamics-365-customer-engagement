@@ -93,3 +93,5 @@ Microsoft Dynamics 365 supports the native Dynamics 365 knowledge management. Th
 ### See also  
 
 [Reduce call handling times with Knowledge articles in the Customer Service Hub](customer-service-hub-user-guide-knowledge-article.md)
+
+[Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)

@@ -98,5 +98,5 @@ For any customer service team, it’s important to give customers the right info
    5. To open the article in a new window, click the **Pop Out** button ![Pop out knowledge article in a new window button in Dynamics 365](../customer-service/media/pop-out-article.png "Pop out knowledge article in a new window button in Dynamics 365").  
   
 ### See also  
- [Create and manage a case (Customer Service Hub)](user-guide-customer-service-hub.md) <br>
- [Create and manage a case (Customer Service)](user-guide-customer-service.md)
+
+[Search the Knowledge base in Dynamics 365](knowledge-base-search.md)

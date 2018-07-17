@@ -104,5 +104,5 @@ For more information, see: [Track SLA details with Timer Control](customer-servi
 
 [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 
-[Define service level agreements](../customer-service/define-service-level-agreements.md)   
+[Track SLA details with Timer Control](customer-service-hub-user-guide-case-sla.md#track-sla-details-with-timer-control)
 

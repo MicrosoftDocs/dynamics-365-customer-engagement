@@ -15,7 +15,7 @@ ms.assetid: fbf7f81b-5c92-40a5-8579-711027c4d8ad
 ms.custom: dyn365-customerservice
 ---
 
-# Service Manager Guide (Customer Service and Customer Service Hub)
+# Service Manager Guide (Customer Service Hub and Customer Service app)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -23,6 +23,8 @@ Easily set up and manage your customer service tasks from one place by using Ser
   
 > [!NOTE]
 > If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../customize/edit-entities.md#enable-or-disable-entity-options).
+
+<!--  
 
 ## Access Service Management
 
@@ -35,13 +37,13 @@ Use the Service manager to set up various service management tasks for customer 
 - You can also select **...** from the service sitemap to access Service Management.  
 
   ![Open service management](media/access-service-management.png)
- 
+--> 
 
 Use the following links to learn about Service Management tasks:  
   
-## Case Settings  
+## Case Settings with Record Creation and Update Rules
 
-[Create and manage queues](create-manage-queues.md)
+[Queues](create-manage-queues.md)
 
 [Parent and child case settings](define-settings-parent-child-cases.md)
 
@@ -51,7 +53,7 @@ Use the following links to learn about Service Management tasks:
 
 [Subjects](create-manage-subject-tree.md)
   
-## Service terms  
+## Service Terms  
 
 [Service Level Agreements](define-service-level-agreements.md)
 
@@ -59,19 +61,23 @@ Use the following links to learn about Service Management tasks:
 
 [Holiday Schedule](set-up-holiday-schedule.md)
 
-[Customer Service Schedule](create-customer-service-schedule-define-work-hours.md)
-
 [Service Configuration Settings](../admin/system-settings-dialog-box-service-tab.md)
+
+[Customer Service Schedule](create-customer-service-schedule-define-work-hours.md)
 
 ## Knowledge Base Management 
 
-[Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
+[Embedded Knowledge Search](set-up-knowledge-management-embedded-knowledge-search.md)
 
 [Categories](create-manage-categories.md)
 
 ## Templates
 
 [Entitlement Templates](set-up-entitlements-templates.md)
+
+[Email Templates](../admin/create-templates-email.md)
+
+[Article Templates](../admin/create-templates-articles.md)
 
 <br>
 

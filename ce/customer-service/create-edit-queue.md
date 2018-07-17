@@ -100,6 +100,6 @@ Use queues to categorize and prioritize your activities and cases. You can categ
   
 ### See also  
  [Queues overview](../customer-service/set-up-queues-manage-activities-cases.md)<br /> 
- [User Guide (Customer Service)](../customer-service/user-guide-customer-service.md)<br />   
+ 
  
    

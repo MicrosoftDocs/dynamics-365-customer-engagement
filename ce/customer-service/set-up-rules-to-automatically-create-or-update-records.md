@@ -1,7 +1,7 @@
 ---
 title: Set up rules to automatically create or update records (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Know how to set up rules to automatically create or update records in Dynamics 365 for Customer Service
-keywords: Set up rules automatically; Dynamics 365; Customer Service
+keywords: Set up rules automatically; Dynamics 365; Customer Service; 
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
@@ -28,7 +28,6 @@ By using record creation and update rules in [!INCLUDE[pn_dynamics_crm](../inclu
 
  To enable the rule to update records, you must add an **Update** step to the rule. Only the entity that you select in the **Update** step is updated based on the properties you set.   
 
-<a name="bkmk_SupportedActivities"></a>   
 ## Activities and entities supported by record creation and update rules  
  By default, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] supports creating records from the following activities, also called source types in the context of record creation and update rules:  
 
@@ -42,7 +41,6 @@ By using record creation and update rules in [!INCLUDE[pn_dynamics_crm](../inclu
 
 These activities can be converted to any default (system) entity records or custom entity records. For example, you could create a lead, opportunity (system record), or incident (custom record) from an incoming email.  
 
-<a name="bkmk_ExternalSources"></a>   
 ## Capture data from external sources  
  You can also capture additional valuable customer information provided by an external application in the form of JSON (a collection of name-value pairs), and use it to enhance the quality of the target records and set various conditions in the record creation and update rules.  
 
@@ -57,8 +55,6 @@ These activities can be converted to any default (system) entity records or cust
 > [!NOTE]
 >  Any configuration done in the channel properties is only valid if those name-value pairs exist in the JSON payload. Also, you must only use parameters received from the external application in the rule item conditions and as record properties.
 
-
-<a name="bkmk_ActivateDeactivate"></a>   
 ## Activate or deactivate a rule  
  For any record creation and update rule to apply to a matching incoming activity, after you add the rule items, you must activate the rule.  
 
@@ -66,7 +62,6 @@ These activities can be converted to any default (system) entity records or cust
 
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure workflow steps](../customize/configure-workflow-steps.md)  
 
-<a name="bkmk_RuleAndQueues"></a>   
 ## How do record creation and update rules work with queues?  
  In a record creation and update rule, when you specify a queue for a source type, any incoming activity from that source is added as a queue item for that specified queue. That is, if a rule for a particular source activity and queue combination is active, the rule processes the incoming activity on that queue to create or update records.  
 
@@ -84,14 +79,12 @@ These activities can be converted to any default (system) entity records or cust
 
 - Any rules upgraded to and edited in [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] or later can’t be exported back to an earlier release.  
 
-<a name="bkmk_Prereqs"></a>   
 ## Prerequisites 
 
 Before you can use automatic record creation rules, be sure your external application/social engagement system is already integrated with your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
 
 If your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance meets the prerequisites, all you need to do is set up rules in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] that will automatically create or update a support case, lead, opportunity, appointment, task, and more from incoming activities.  
 
-<a name="bkmk_SetUpRules"></a>   
 ## Set up a rule to create and update records automatically  
   
 1.  Make sure that you have the customer service, sales manager, or marketing manager role or equivalent permissions.  
@@ -100,9 +93,16 @@ If your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance mee
   
     - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)] 
+
+2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
   
+3. Select **Automatic Record Creation and Update Rules**.
+
+<!--   
 2.  In the Customer Service Hub sitemap, go to **Service Management** and select **Automatic Record Creation and Update Rules**.
+
+ -->
   
 4.  To create a record creation and update rule, click **New**.  
   
@@ -229,7 +229,9 @@ In the **Specify Record Creation and Update Details** section, click ![Add a rec
 Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] can start creating or updating records for incoming activities based on the defined conditions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Activate a record creation and update rule](../customer-service/set-up-rules-to-automatically-create-or-update-records.md#bkmk_ActivateRule).  
 
 > [!TIP]
->  Developers can also apply rules retroactively to the incoming [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records that might have been skipped while a rule was edited. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [ApplyRecordCreationAndUpdateRuleRequest Class](../developer/webapireference/actions/applyrecordcreationandupdaterule.md)  -->
+>  Developers can also apply rules retroactively to the incoming [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records that might have been skipped while a rule was edited. 
+
+<!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [ApplyRecordCreationAndUpdateRuleRequest Class](../developer/webapireference/actions/applyrecordcreationandupdaterule.md)  -->
 
 <a name="bkmk_SetUpChannelProperties"></a>   
 ## Set up channel properties  

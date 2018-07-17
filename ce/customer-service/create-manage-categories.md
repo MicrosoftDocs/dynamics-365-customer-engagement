@@ -25,18 +25,17 @@ Categories are useful for reporting, sorting, segmenting, and categorization of 
 
 Follow the procedure given below to create a category:
 
-1.  Ensure that you have the Sales or Marketing Manager, Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.  
+1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
   
-    **Check your security role**  
+    #### Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-
-2. In the Customer Service Hub sitemap, go to **Service Management** > **Categories**. <br>
-
-    - The **All Categories** view is displayed. You can switch between various views using the drop-down. 
-    - Select **Show Chart** in the command bar to see the chart view. <br>
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+  
+2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
+  
+3. Choose **Categories**.
 
 3. To create a new category, select **New**.  
   

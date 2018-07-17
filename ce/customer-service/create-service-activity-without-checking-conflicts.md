@@ -43,6 +43,5 @@ You can create a service activity by finding the next available times of resourc
 > - To check the schedule for conflicts, in **Service Calendar**, in the **Actions** group, click **Conflicts**.  
   
 ### See also  
- [Navigate the service calendar](../customer-service/navigate-service-calendar.md)   
- [Find the next available time before creating a service activity](../customer-service/find-next-available-time-before-create-service-activity.md)   
- [Overview of service and service scheduling](../field-service/basics-service-service-scheduling.md)   
+
+[Overview of service and service scheduling](../field-service/basics-service-service-scheduling.md)   

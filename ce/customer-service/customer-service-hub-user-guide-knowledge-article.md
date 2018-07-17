@@ -419,3 +419,5 @@ If you are creating an alternate key for Knowledge article entity, include the m
 ### See also
 
 [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
+
+[Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
