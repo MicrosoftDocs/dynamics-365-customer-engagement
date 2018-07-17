@@ -87,3 +87,7 @@ The migration assistant displays the **Download Completed**.</br>
 [Migration of Unified Service Desk configurations from Dynamics 365 Web Client to Dynamics 365 Unified Interface App](overview-migration-assistant.md)
 
 [Download the Web Client - Unified Interface Migration Assistant](download-migration-assistant.md)
+
+[Download the tools from NuGet](../../developer/download-tools-nuget.md)
+
+[Import configuration data](../../admin/import-configuration-data.md)
