@@ -12,8 +12,7 @@ ms.date: 09/15/2017
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 1cbbf33b-e194-4ff3-b840-64e60b094dc9
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
 ---
 
 # Set up rules to automatically create or update records (Customer Service)
@@ -73,6 +72,9 @@ These activities can be converted to any default (system) entity records or cust
 
  For an email source type, specifying a queue is mandatory. For all other source types including custom activities, it is optional.  
 
+> [!NOTE]
+> When an automatic record creation (ARC) rule is applied to an Email queue item, it gets deactivated.
+  
 <a name="bkmk_RulesInSolutions"></a>   
 ## Rules in solutions  
  The record creation and update rules can be packaged as a part of a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] solution. Customizers and developers distribute solutions so organizations can use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to install and uninstall the business functionality defined by the solution.  
@@ -92,45 +94,46 @@ If your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance mee
 
 <a name="bkmk_SetUpRules"></a>   
 ## Set up a rule to create and update records automatically  
-
-1. Make sure that you have the customer service, sales manager, or marketing manager role or equivalent permissions.  
-
-   #### Check your security role  
-
-   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
-
-   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-
-2. Go to **Settings** > **Service Management**. 
-
-3. Click **Automatic Record Creation and Update Rules**.  
-
-4. To create a record creation and update rule, click **New**.  
-
-    -OR-  
-
-    To edit an existing rule, in the list of rules, open the rule you want to edit.  
-
-5. Type or modify information in the fields.  
-
-    Hover over the field labels to see what to enter:  
-
-   - **Name**. Type the name of the rule.  
-
-   - **Source Type**. From the drop-down list, select the activity that’s the source of the record.  
-
-   - **Queue**. Select the queue the rule applies to. Incoming activity arrives in the queue, and then the valid rule and rule item applies for creation or update of records.  
-
-        Here are a few things to consider:  
-
-     - For all activities and custom activities, except email, specifying a queue is optional. For all such activities you can have only one rule with an associated queue and one rule without an associated queue active at any given time. For example, for a Social Activity source type, you can have two active rules, one with a queue specified, and one without a queue.  
-
-     - If you selected Email as the source type for this rule, you can’t activate the rule unless you select a queue.  
-
-       > [!NOTE]
-       >  You can associate only one rule per source type to a specific queue. If you’re creating a rule to convert an email to a case, make sure you specify an email address for this queue. Otherwise, automatic record creation for email won’t work. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](../customer-service/create-edit-queue.md)  
-
-6. Click **Save**.  
+  
+1.  Make sure that you have the customer service, sales manager, or marketing manager role or equivalent permissions.  
+  
+    #### Check your security role  
+  
+    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+  
+    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+  
+2.  Go to **Settings** > **Service Management**. 
+  
+3.  Click **Automatic Record Creation and Update Rules**.  
+  
+4.  To create a record creation and update rule, click **New**.  
+  
+     -OR-  
+  
+     To edit an existing rule, in the list of rules, open the rule you want to edit.  
+  
+5.  Type or modify information in the fields.  
+  
+     Hover over the field labels to see what to enter:  
+  
+    - **Name**. Type the name of the rule.  
+  
+    - **Source Type**. From the drop-down list, select the activity that’s the source of the record.  
+  
+    - **Queue**. Select the queue the rule applies to. Incoming activity arrives in the queue, and then the valid rule and rule item applies for creation or update of records.  
+  
+         Here are a few things to consider:  
+  
+        -   For all activities and custom activities, except email, specifying a queue is optional. For all such activities you can have only one rule with an associated queue and one rule without an associated queue active at any given time. For example, for a Social Activity source type, you can have two active rules, one with a queue specified, and one without a queue.  
+  
+        -   If you selected Email as the source type for this rule, you can’t activate the rule unless you select a queue.  
+  
+        > [!NOTE]
+        >  You can associate only one rule per source type to a specific queue. For example: If you’re creating a rule to convert an email to a case, make sure you specify an email address for this queue. Otherwise, automatic record creation for email won’t work. 
+        [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](../customer-service/create-edit-queue.md)  
+  
+6.  Click **Save**.  
 
 ## Set Channel Properties
 

@@ -1,7 +1,7 @@
 ---
 title: "Geo to geo migrations for Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 07/11/2018
+ms.date: 07/12/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

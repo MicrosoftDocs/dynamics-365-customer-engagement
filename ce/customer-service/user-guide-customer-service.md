@@ -5,14 +5,12 @@ keywords: Customer Service;  Microsoft Dynamics 365
 author: anjgupta
 applies_to: Dynamics 365 (online) 
 ms.author: anjgup
-ms.manager: sakudes
+manager: shellyha
 ms.date: 09/30/2017
 ms.topic: get-started-article
 ms.service: dynamics-365-customerservice
 ms.assetid: 9036f912-b991-48ff-a701-8157e43400b6
-ms.custom:
-  - dyn365-customerservice
-manager: shellyha
+ms.custom: dyn365-customerservice
 ---
 
 # User Guide (Customer Service)
