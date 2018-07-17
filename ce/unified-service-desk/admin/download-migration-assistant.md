@@ -42,4 +42,4 @@ To download the tool, see [Download the tools from NuGet](../../developer/downlo
 
 [Migration of Unified Service Desk configurations from Dynamics 365 Web Client to Dynamics 365 Unified Interface App](overview-migration-assistant.md)
 
-[Migration steps of the configurations from Dynamics 365 Web Client to Unified Interface App](web-client-unified-interface-configuration-steps.md)
+[Migration steps of the configurations from Dynamics 365 Web Client to Unified Interface App](migration-steps-web-client-unified-interface-configuration.md)

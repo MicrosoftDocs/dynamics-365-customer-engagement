@@ -41,4 +41,4 @@ The migration assistant helps with the following:
 
 [Download the Web Client - Unified Interface Migration Assistant](download-migration-assistant.md)
 
-[Migration steps of the configurations from Dynamics 365 Web Client to Unified Interface App](web-client-unified-interface-configuration-steps.md)
+[Migration steps of the configurations from Dynamics 365 Web Client to Unified Interface App](migration-steps-web-client-unified-interface-configuration.md)
