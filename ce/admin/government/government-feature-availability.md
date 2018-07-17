@@ -20,9 +20,9 @@ manager: "kvivek"
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
-Microsoft strives to maintain functional parity between our commercially available service and that which is servicing the Dynamics 365 Customer Engagement for U.S. Government - for example, “Dynamics 365 Government Community Cloud (GCC)". However, there are notable exceptions to this, affected by dependent service or partner-solution availability, market priorities, or compliance regulations.
+Microsoft strives to maintain functional parity between our commercially available service and that which is servicing the Dynamics 365 Customer Engagement for U.S. Government - referred to as Dynamics 365 GCC. However, there are notable exceptions to this affected by dependent service or partner-solution availability, market priorities, or compliance regulations.
 
-At this time, preview features in the commercial offering are not available to Dynamics 365 GCC customers. This is intentional, as the GCC represents a community leveraging our generally available services, further protected with heightened compliance demands of the U.S. Government and Government community customers.
+At this time, preview features in the commercial offering are not available to Dynamics 365 Government Community Cloud (GCC) customers. This is intentional, as the GCC represents a community leveraging our generally available services, further protected with heightened compliance demands of the U.S. Government and Government community customers.
 
 Dynamics 365 GCC currently supports the following versions:
 
