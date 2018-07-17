@@ -48,23 +48,28 @@ The diagram demonstrates the flow of the migration:
 
 2. In the introduction screen, Select **Continue**.
 
-3. In the **Login** screen, provide authentication details to connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance from where you want fetch and migrate the configurations. If you have multiple organizations, and want to select the organization where you want to fetch and migrate the configurations, select the **Display list of available organizations** check box. Select **Login**.
+3. In the **Login** screen, provide authentication details to connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance from where you want fetch and migrate the configurations. If you have multiple organizations, and want to select the organization where you want to fetch and migrate the configurations, select the **Display list of available organizations** check box. Select **Login**.</br>
+![Migration Assistant Login screen](../media/usd-migration-assistant-login.PNG "Migration Assistant Login Screen")
 
 4. In the **Export Configurations** screen, select **Export**.</br>
 **Data file location** is the location where the migration assistant stores **Data.zip** folder. The **Data.zip** folder is present in the **USDConfigurations** folder.</br>
-When the export is successfully completed, select **Next**.
+When the export is successfully completed, select **Next**.</br>
+![Export configurations screen](../media/usd-migration-assistant-export-configurations.PNG "Export configurations screen")
 
-5. In the **Select Configurations** screen, select the configuration elements you want to migrate, and select **Next**.
+5. In the **Select Configurations** screen, select the configuration elements you want to migrate, and select **Next**.</br>
+![Select configurations screen](../media/usd-migration-assistant-select-configurations.PNG "Select configurations screen")
+
 
 6. In the **Confirm Selection** screen, review the configurations you selected for migration, and select **Next**. If you want to change the selection, select **Previous** and repeat the step 5.
 
-7. In the **Migrate Configurations** screen, choose **Migrate**. After the migration is completed, select **Next**.
+7. In the **Migrate Configurations** screen, choose **Migrate**. After the migration is completed, select **Next**.</br>
+![Migrate configurations screen](../media/usd-migration-assistant-migrate.PNG "Migrate configurations screen")
 
 8. In the **File Download** screen, a the migration assistant provides a default location to download the **USDConfigurations.zip** folder. To change the default download location, select **Browse** and choose a location, and select **Download File**.</br>
-The migration assistant displays the **Download Completed**.
+The migration assistant displays the **Download Completed**.</br>
+![File Download screen](../media/usd-migration-assistant-download-file.PNG "File Download screen")
 
 9. Select **Exit** close and exit the tool.
-
 
 
 ## See also
