@@ -42,7 +42,7 @@ The diagram demonstrates the flow of the migration:
 
 **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Unified Inerface App.** The target [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance to which you want to deploy the configurations.
 
-## Use migration assistant to fetch and migrate the Web Client configurations
+## Step 1: Use migration assistant to fetch and migrate the Web Client configurations
 
 1. Run the **UCMigrationTool.exe**.
 
@@ -59,7 +59,6 @@ When the export is successfully completed, select **Next**.</br>
 5. In the **Select Configurations** screen, select the configuration elements you want to migrate, and select **Next**.</br>
 ![Select configurations screen](../media/usd-migration-assistant-select-configurations.PNG "Select configurations screen")
 
-
 6. In the **Confirm Selection** screen, review the configurations you selected for migration, and select **Next**. If you want to change the selection, select **Previous** and repeat the step 5.
 
 7. In the **Migrate Configurations** screen, choose **Migrate**. After the migration is completed, select **Next**.</br>
@@ -71,6 +70,17 @@ The migration assistant displays the **Download Completed**.</br>
 
 9. Select **Exit** close and exit the tool.
 
+## Step 2: Use configuration Migration Tool to import and deploy the configurations on Unified Interface App
+
+**Prerequesites:** Download the Configuration Migration tool (DataMigrationUtility.exe). To download the tool, see [Download the tools from NuGet](../../developer/download-tools-nuget.md).
+
+1. Go to the location where you downloaded the Configuration Migration Tool (DataMigrationUtility.exe).
+
+2. Open **ConfigurationMigation** and execute **DataMigrationUtility.exe**. 
+
+3. In the next screen, select **Import data*, and select **Continue**.
+
+4. In the **Login** screen, provide authentication details to connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance to which you want to deploy the migrated configurations. If you have multiple organizations, and want to select the organization to which you want to deploy the migrated configurations, select the **Display list of available organizations** check box, and select **Login**.
 
 ## See also
 
