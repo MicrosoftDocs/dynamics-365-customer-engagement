@@ -35,7 +35,7 @@ To define when your service or support team is available for providing support t
   
 2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
   
-3. Click **Customer Service Schedule**.  
+3. Select **Customer Service Schedule**.  
   
 4. To create a new customer service schedule, click **+ New**.  
   

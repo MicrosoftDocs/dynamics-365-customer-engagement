@@ -342,4 +342,4 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 ### See also  
  [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   <br>
 
- [Create and manage queues](create-manage-queues.md)
+ [Create and edit queues](create-edit-queue.md)

@@ -12,7 +12,7 @@
 
 ## [Service Manager Guide](service-manager-guide.md)
 ### [Queues](set-up-queues-manage-activities-cases.md)
-#### [Create or change a queue ](create-edit-queue.md)
+#### [Create or edit a queue ](create-edit-queue.md)
 ### [Parent and child case settings](define-settings-parent-child-cases.md)
 ### [Routing rule sets](create-rules-automatically-route-cases.md)
 ### Automatic record creation and update rules
@@ -43,3 +43,4 @@
 #### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 ### [Configure interactive dashboards in the Customer Service Hub ](configure-interactive-dashboards-customer-service-hub.md)
 ### [Set the custom icon in views for Case Origin field](set-custom-icon-custom-case-origin.md)
+### [Define status reason transitions for case management](../customize/define-status-reason-transitions.md)

@@ -105,8 +105,9 @@ Any record types that are enabled for mobile are also available for use in the C
     - **Cases** help you create and track your customer requests and issues.
     - **Queues** keep a track of cases waiting for you to work on.
     - **Knowledge Articles** capture your customer’s questions, issues, feedback, and resolutions, so that other service reps can benefit from them.
+<!-- 
     - **Service Management** lets you perform all the service management tasks. To know more ways to access the Service Management, see [Access Service Management](service-manager-guide.md#access-service-management).
-
+ -->
 2. Select **...** to go to **Training** and access the documentation site to view the **Help Center**. 
 3. Select **Favorites and Recent** button ![recent-button](media/fav-and-recent.png)  to see recently viewed records, or to see views that have been pinned as favorites.
 

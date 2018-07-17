@@ -38,7 +38,7 @@ Reduce the need for manually creating cases from incoming emails and increase th
 
 2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
 
-3. Click **Automatic Case Creation Rules**.  
+3. Select **Automatic Case Creation Rules**.  
 
 4. To create a new case creation rule, click **New**.  
 
@@ -129,6 +129,6 @@ Reduce the need for manually creating cases from incoming emails and increase th
  You can create or manage an automatic case creation rule from a queue form, too. To do this, open the queue record, and on the command bar, click **Email to Case Settings**.  
 
 ### See also  
- [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   
+ [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)    </br>
  [Create or change a queue](../customer-service/create-edit-queue.md)   
 

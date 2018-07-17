@@ -35,7 +35,7 @@ Follow the procedure given below to create a category:
   
 2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
   
-3. Choose **Categories**.
+3. Select **Categories**.
 
 3. To create a new category, select **New**.  
   

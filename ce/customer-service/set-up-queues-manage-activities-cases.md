@@ -33,8 +33,6 @@ Use queues to organize, prioritize, and monitor the progress of your work. In [!
  Queues share cases or activities as a group until these are taken out of the queue, or accepted, by a customer service representative (CSR) who assumes responsibility for handling them. CSRs can pick the items for themselves, or a customer service manager (CSM) can manually route these cases to the CSRs or to other queues, users, or teams.  
   
 ### See also  
- [Create or change a queue](../customer-service/create-edit-queue.md)<br> 
+ [Create or edit a queue](../customer-service/create-edit-queue.md)<br> 
+
  [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   
- [Automatically create a case from an email](../customer-service/automatically-create-case-from-email.md)</br>
- [Find what's assigned to you in a queue (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md)</br>
- [Find what's assigned to you in a queue (Customer Service)](../customer-service/user-guide-customer-service.md) 
