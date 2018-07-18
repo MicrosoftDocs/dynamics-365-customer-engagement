@@ -50,7 +50,9 @@ The configurations are migrated to the **USD_UI_Configurations** zip folder that
 
 The Configuration Migration tool enables you to import the **Data** zip folder and deploy on the target [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Unified Interface App.
 
-**[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Unified Inerface App.** The target [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance to which you want to deploy the configurations.
+### Dynamics 365 Unified Inerface App.
+
+The target [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance to which you want to deploy the configurations.
 
 ## Step 1: Use migration assistant to fetch and migrate the Web Client configurations
 
