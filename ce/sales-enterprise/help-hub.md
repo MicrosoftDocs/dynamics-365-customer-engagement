@@ -2,7 +2,7 @@
 title: "Documentation resources for Dynamics 365 for Sales | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 for Sales."
 keywords: "sales;help"
-ms.date: 04/01/2018
+ms.date: 07/18/2018
 ms.service:
   - "dynamics-365-sales"
 ms.custom:

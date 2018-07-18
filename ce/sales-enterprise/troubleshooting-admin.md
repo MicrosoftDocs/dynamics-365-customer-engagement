@@ -2,7 +2,7 @@
 title: "Troubleshooting guide for administrators for Dynamics 365 for Sales | MicrosoftDocs"
 description: "Follow the instructions in this topic to troubleshoot the issues your users may face while working on Dynamics 365 for Sales."
 keywords: "Dynamics 365 for Sales, troubleshoot, FAQ, issue, resolution"
-ms.date: 06/22/2018
+ms.date: 07/18/2018
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
