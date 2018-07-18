@@ -41,7 +41,7 @@
 ### [Track competitors](../sales-enterprise/create-edit-competitor-record-sales.md)
 ### [Manage sales literature](../sales-enterprise/create-sales-literature.md)
 ### [Troubleshooting guide for sales people](troubleshooting.md)
-## [Use Sales Hub on mobile](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
+## [Mobile guide for Sales Hub](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
 ## [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)
 ### [Create a marketing list](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)  
 ### [Create a quick campaign](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)
