@@ -19,39 +19,24 @@ ms.custom:
 # Manage your post quota
 Keep track of the number of posts that result from your search topics and count toward your solution's post quota. Your solution is priced based on the number of posts you can acquire per month.  
   
-> [!NOTE]
->  This topic is part of a walkthrough on how you can set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](set-up-searches.md)  
-> 
-> [!IMPORTANT]
->  If you're expected to exceed the post quota for the current month, you'll get a notification email. When you exceed your post quota, data acquisition will be stopped for either of the following reasons:  
-> 
->  -   You still exceed your post quota after a grace period of 48 hours from the time the notification was sent.  
->  -   Your solution passes the additional post quota granted for the grace period, which is five times your monthly allocated quota.  
+If you're expected to exceed the post quota for the current month, administrators get a notification email. When you exceed your post quota, data acquisition will be stopped for either of the following reasons:  
+- You still exceed your post quota after a grace period of 48 hours from the time the notification was sent.  
+- Your solution passes the additional post quota granted for the grace period, which is five times your monthly allocated quota.
+
+For example, if your monthly post quota is 10,000 posts, your grace period starts when you receive a notification that your solution will probably exceed your quota limits. Data acquisition will be stopped automatically after 48 hours if you have exceeded your post quota by then, or as soon as your solution gathered more than 50,000 posts before the 48 hours have passed. 
   
- For example, if your monthly post quota is 10,000 posts, your grace period starts when you receive a notification that your solution will probably exceed your quota limits. Data acquisition will be stopped automatically after 48 hours if you have exceeded your post quota by then, or as soon as your solution gathered more than 50,000 posts before the 48 hours have passed.  
-  
- To see the state of your current post quota, go to **Search Setup**.  
-  
- The quota period is one calendar month:  
-  
--   Start: First day of a month, 00:00 AM.  
-  
--   End: Last day of a month, 11:59 PM.  
-  
-## Get the post quota status  
- To get a quick overview of the post quota for all your search topics, for single categories or for single search topics, go to **Search Setup** > **Summary**. For more detailed quota information, drill down into the categories and search topics to see the quota usage of these items.  
-  
- If your solution tends to exceed the quota, all users with an Administrator role will get an email notification. You have the following options to take action:  
-  
--   Optimize your search topics regularly. Review the search topics to make sure that only relevant data is selected. Previewing a search topic before saving it is a great help to get an impression of how many posts we're expecting for the configuration you provided.  
-  
--   Maintain a list of blocked content to avoid any posts appearing in your results from the domains in the list or matching any blocked keywords.  
-  
--   Exclude authors who publish irrelevant posts that match one of your search queries.  
+You have the following options to take action:  
+- Review your search topics regularly to make sure that only relevant data is selected. Previewing a search topic before saving it is a great help to get an impression of how many posts we're expecting for the configuration you provided.  
+- [Maintain a list of blocked content](search-results-quality.md) to avoid any posts appearing in your results from the domains in the list or matching any blocked keywords.  
+- [Exclude authors](manage-authors.md) who publish irrelevant posts that match one of your search queries.  
   
 > [!CAUTION]
->  Proceed carefully when excluding an author or blocking contents. Posts matching items on the list of blocked contents will be deleted irreversibly after four hours. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](search-results-quality.md).  
+>  Proceed carefully when excluding an author or blocking contents. Posts matching items on the list of blocked contents will be deleted irreversibly after four hours.    
+
   
+## Get the post quota status  
+To get a quick overview of the post quota for all your search topics, for single categories or for single search topics, go to **Search Setup** > **Summary**. For more detailed quota information, drill down into the categories and search topics to see the quota usage of these items.  
+
 |       Quota status       |                                                                           Appears                                                                           |                                                                                      What you should do                                                                                      |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |       Within quota       |                                           When the calculated expectations are still within your monthly limits.                                            |                                                                                    No action is required.                                                                                    |
@@ -68,7 +53,7 @@ Keep track of the number of posts that result from your search topics and count 
   
 
 ### Impact of exceeding limits  
- All [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] Administrators receive email notifications about the monthly post quota. To reduce the number of posts found by your solution, you can narrow your search topics by removing rules that you don’t need any more. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](search-results-quality.md)  
+ All [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] administrators receive email notifications about the monthly post quota. To reduce the number of posts found by your solution, you can narrow your search topics by removing rules that you don’t need any more. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](search-results-quality.md)  
   
  If no action is taken, exceeding the post quota will get your solution blocked from data acquisition until the end of the month. No more posts are acquired, even if they match your search topics. You can [purchase additional post quota](https://portal.office.com/) at any time to unblock your solution immediately.  
   
