@@ -2,8 +2,11 @@
 title: "Documentation resources for Dynamics 365 for Sales | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 for Sales."
 keywords: "sales;help"
-ms.date: 04/01/2018
-ms.service: dynamics-365-sales
+ms.date: 07/18/2018
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -13,8 +16,6 @@ author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
 topic-status: Drafting
-ms.custom:
-  - dyn365-sales
 ---
 
 # Sales Help & Training
@@ -43,9 +44,8 @@ ms.custom:
 <li>[Create a product family](create-product-family.md)</li>
 <li>[Create price list and price list items](create-price-lists-price-list-items-define-pricing-products.md)</li>
 
-<li>[Administer Embedded intelligence](../sales-enterprise/configure-enable-embedded-intelligence.md)</li>
-
-<li>[Administer Sales insights add-on](../sales-enterprise/configure-enable-sales-insights-addon.md)</li>
+<li><a href="../sales-enterprise/configure-enable-embedded-intelligence.md" data-raw-source="[Administer Embedded intelligence](../sales-enterprise/configure-enable-embedded-intelligence.md)">Administer Embedded intelligence</a></li>
+<li><a href="../sales-enterprise/configure-enable-sales-insights-addon.md" data-raw-source="[Administer Sales insights add-on](../sales-enterprise/configure-enable-sales-insights-addon.md)">Administer Sales insights add-on</a></li>
 </td></tr>
 
 <tr><td>
@@ -61,25 +61,23 @@ ms.custom:
 
 </td><td>
 
-<h2>In-app marketing</h2>
-<li>[Create a marketing list](create-marketing-list-using-app-marketing-sales.md)</li>
-<li>[Create a quick campaign](create-quick-campaign-using-app-marketing-sales.md)</li>
-<li>[Add assets to a campaign](add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)</li>
-<li>[Create or edit a campaign](create-edit-campaign-using-app-marketing-sales.md)</li>
-<li>[Add an activity to a campaign](add-activity-campaign-using-app-marketing-sales.md)</li>
-<li>[Track a marketing campaign response](track-marketing-campaign-response-using-app-marketing-sales.md)</li>
-
-</td></tr>
-
-<tr><td>
-
 <h2>Analyze customer-interaction data</h2>
 
 <li>[Guide customer communications](../sales-enterprise/relationship-assistant.md)</li>
 <li>[View message interactions](../sales-enterprise/email-engagement.md)</li>
 <li>[Display emails](../sales-enterprise/auto-capture.md)</li>
 
-<li>[View customer activity history](../sales-enterprise/relationship-analytics.md)</li>
+<li><a href="../sales-enterprise/relationship-analytics.md" data-raw-source="[View customer activity history](../sales-enterprise/relationship-analytics.md)">View customer activity history</a></li>
+
+
+</td></tr>
+
+<tr><td>
+<h2>Troubleshooting</h2>
+
+<li><a href="troubleshooting-admin.md"> Troubleshooting guide for administrators</a></li>
+<li><a href="troubleshooting.md"> Troubleshooting guide for sales people</a></li>
+
 </td>
 
 <td>
@@ -93,5 +91,19 @@ ms.custom:
 <li>[Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](../sales-enterprise/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)</li>
 </td></tr>
 
+<tr><td>
+<h2>In-app marketing</h2>
+<li><a href="create-marketing-list-using-app-marketing-sales.md" data-raw-source="[Create a marketing list](create-marketing-list-using-app-marketing-sales.md)">Create a marketing list</a></li>
+<li><a href="create-quick-campaign-using-app-marketing-sales.md" data-raw-source="[Create a quick campaign](create-quick-campaign-using-app-marketing-sales.md)">Create a quick campaign</a></li>
+<li><a href="add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md" data-raw-source="[Add assets to a campaign](add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)">Add assets to a campaign</a></li>
+<li><a href="create-edit-campaign-using-app-marketing-sales.md" data-raw-source="[Create or edit a campaign](create-edit-campaign-using-app-marketing-sales.md)">Create or edit a campaign</a></li>
+<li><a href="add-activity-campaign-using-app-marketing-sales.md" data-raw-source="[Add an activity to a campaign](add-activity-campaign-using-app-marketing-sales.md)">Add an activity to a campaign</a></li>
+<li><a href="track-marketing-campaign-response-using-app-marketing-sales.md" data-raw-source="[Track a marketing campaign response](track-marketing-campaign-response-using-app-marketing-sales.md)">Track a marketing campaign response</a></li>
+</td>
+<td>
+
+
+</td>
+</tr>
 
 </table>
