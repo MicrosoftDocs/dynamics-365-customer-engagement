@@ -38,14 +38,14 @@ During the webinar itself, you must set up a camera, microphone, projector, and 
 
 To configure an event or session for broadcast as a webinar:
 
-1. Sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], and open the event or session that you want to set up as a webinar.
+1. Sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], and [open the event or session](set-up-event.md) that you want to set up as a webinar.
 
 2. On the **Event** or **Session** page, find the **Format** setting (on the **General** tab) and set it to **Webinar** (for webinar-only) or **Hybrid** (to simulcast a live session).
 
-3. Open the event's **Organize** tab, which now includes a **Webinar Set-up** section. Make the following settings:
+3. The **General** tab should now include a **Webinar Set-up** section. Make the following settings:
 
    - **Webinar Configuration**: Identify the webinar-configuration record you will use for this event or session. This configuration record establishes the webinar provider and account that you'll use to run the webinar. Select the magnifying glass icon for this field, and then select a configuration. Your admin must create a configuration entry for each webinar provider that your organization uses; typically, you'll just have one. Talk to your admin if you're not sure which to choose (if you are the admin, see [Event management settings](events-settings.md) for more information).
-   - **Webinar Type**: Choose the webinar type.
+   - **Webinar Type**: Choose the webinar type. This setting can affect the collection of features available to presenters and attendees of the webinar. The available options are established by your webinar provider, so please contact your provider if you need more information about which type to choose.
    - **Language**: Choose the language the webinar will be presented in.
    - **Producer**: Choose the event team member that is responsible for managing the webinar during the event here. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up your event team](set-up-event.md#set-up-your-event-team)
 
@@ -54,7 +54,11 @@ To configure an event or session for broadcast as a webinar:
    - **Webinar URL**: A link to the webinar at the webinar provider. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] uses this link to synchronize registrations and metrics between the two systems.
    - **Presentation Manager URL**: A link that the presenter can use to control his or her presentation.
 
-Attendees who register for the webinar by using a valid email address will receive an email from the webinar provider that confirms the registration and provides a link for accessing the webinar.
+## Send the webinar URL to attendees
+
+Attendees can join the webinar by selecting a link sent to them in email. Some webinar providers may send an invitation message including this link for you, while others may require that you send out the links (or you may prefer to send the links yourself).
+
+If you want to send out the links yourself then one way to do so is to set up a [customer journey](customer-journeys-create-automated-campaigns.md) with an event tile followed by a trigger tile that reacts to event registrations and then an email tile that sends a message with the URL to each contact that registers.
 
 ### See also
 

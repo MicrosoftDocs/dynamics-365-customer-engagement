@@ -57,8 +57,9 @@ Here you can see and edit your basic event information, including
 - **Schedule**: Provides settings for specifying the time zone, start, and end dates for your event. You can also set up a [recurring event](event-recurring.md) here.
 - **Timeline**: As with most types of entities in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)], you can use this section to build a record of the activities (such as calls, emails, and appointments) that you and others do in relation to the current record. You can also share notes here. Use the links, buttons, and menus at the top of this area to create new items and to search and sort the list.
 - **Location**: Specify the location where your event will take place. The location is hierarchical, and you can specify only as much detail as you need. For example, you can specify just a building, but to specify a room, you must first choose the building that contains that room. You'll also be able to assign a separate location to each session if applicable. You must [create each required building, room, and/or layout record](#venues) before you can make the relevant settings here. Each location record can hold useful information such as address, facilities, capacity, and more.
-- **Venue constraints**: Specify the maximum event capacity here and decide whether to enable the [waitlist](event-waitlist.md) if the event becomes full.
-- **Waitlist**: This section only appears if you enable the waitlist in the **Venue constraints** section. Use it to configure options for how to [invite waiting contacts](event-waitlist.md) when space becomes available.  
+- **Venue constraints**: This section only appears for on-site events. Specify the maximum event capacity here and decide whether to enable the [waitlist](event-waitlist.md) if the event becomes full.
+- **Waitlist**: This section only appears if you enable the waitlist in the **Venue constraints** section. Use it to configure options for how to [invite waiting contacts](event-waitlist.md) when space becomes available.
+- **Webinar setup**: This section only appears for webinar and hybrid events. Use the settings here to [set up your webinar configuration](set-up-webinar.md) and find the URLs for viewing and presenting the webinar.
 
 ### The Agenda tab
 
