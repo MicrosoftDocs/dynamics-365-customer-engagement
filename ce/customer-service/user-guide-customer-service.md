@@ -1,7 +1,7 @@
 ---
 title: User Guide (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Understand Customer Service app in Microsoft Dynamics 365
-keywords: Customer Service;  Microsoft Dynamics 365
+keywords: Customer Service;  Microsoft Dynamics 365; Create and manage a case in Customer Service; Add an activity to a case in Customer Service; Find what's assigned to you in a queue ; Merge similar cases; Create and manage parent and child cases
 author: anjgupta
 applies_to: Dynamics 365 (online) 
 ms.author: anjgup
@@ -23,7 +23,21 @@ This User's Guide shows customer service agents how to use the application.
   
 > [!IMPORTANT]
 > This User Guide covers the Customer Service app that you can use with a desktop browser for case management. If you want to manage knowledge articles or do case management on a mobile device, use the new Customer Service Hub app, which is built on the Unified Interface framework. To learn about the  Customer Service Hub app, see [User Guide (Customer Service Hub)](user-guide-customer-service-hub.md). For information on Dynamics 365 basics, [see the Basics Guide](../basics/basics-guide.md).
-  
+ 
+You can do the following in the Customer Service app:
+
+[Create and manage a case](#create-and-manage-a-case)
+
+[Add an activity to a case](#add-an-activity-to-a-case)
+
+[Find what's assigned to you in a queue](#find-whats-assigned-to-you-in-a-queue)
+
+[Assign an activity to a user or queue](#assign-an-activity-to-a-user-or-queue)
+
+[Merge similar cases](#merge-similar-cases)
+
+[Create and manage parent and child cases](#create-and-manage-parent-and-child-cases)
+ 
 ## Create and manage a case
 Keep track of your customer requests and issues by creating support cases in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. When a customer contacts support with a question or problem, you can quickly check if there is an existing case or open a new case and start tracking the issue. You can also escalate, reassign, or put a case back into the service queue if you don’t have enough information or time to work on it.  
   
@@ -116,7 +130,6 @@ Keep track of your customer requests and issues by creating support cases in [!I
   
     A case resolution activity is created and shown in the **Activities** area. The resolution activity contains information about a resolved case, including the resolution and total time spent on the case. You can reactivate a resolved case at any time.  
   
-<a name="Collapsed4"></a>   
 ### Cancel a case  
  All case activities must be closed before you can cancel a case.  
   
@@ -397,14 +410,15 @@ Quickly see the items assigned to you or that are available to work on by using 
 1.  Select the case that you want to move to another queue, and on the command bar select **Route**.  
   
 2.  To move an activity or case to a different queue, select **Route**, and select a queue.  
+
+    -OR- 
+
+    To assign the activity or case to another user or team to work on, select **User/Team**, and select the user or team. When you assign the activity or case to someone else to work on, the **Worked By** field is set to that user or team. You also have the option to remove the item from the queue.
 <!--  
     > [!IMPORTANT]
     >  If you’re using [!INCLUDE[pn_crm_2013_sp_shortest](../includes/pn-crm-2013-sp-shortest.md)] and you select **Look Up More Records**, you’ll only see business queues, which is the default view. Business queues only include user-created queues and leave out all user and team queues. You can’t set a different view as the default view. To choose a different queue, in the **Look Up Records** dialog box, in the **Look in** list, select the **All Queues** view. 
 --> 
-     -OR-  
-  
-     To assign the activity or case to another user or team to work on, select **User/Team**, and select the user or team. When you assign the activity or case to someone else to work on, the **Worked By** field is set to that user or team. You also have the option to remove the item from the queue.  
-  
+     
 ### Remove an activity or case from a queue  
   
 1.  In the **View** list, select one of the views that show the items you want to remove.  
@@ -451,6 +465,7 @@ When a case is merged, the state of the case is changed to canceled, and the sta
 > [!IMPORTANT]
 > This feature was added in CRM 2016 (on-premises)
 -->  
+
 To merge similar cases:
 
 1. [!INCLUDE[proc_service_cases](../includes/proc-service-cases.md)]  

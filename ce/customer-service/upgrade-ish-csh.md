@@ -27,7 +27,7 @@ Compared to Interactive Service hub, Unified Interface eliminates the prolonged 
 
 Organizations using Dynamics CRM 2016, [!INCLUDE[](../includes/pn-crm-8-1-0-online.md)], and Dynamics 365 (online and on-premises) Update 2.1 are eligible to upgrade to Dynamics 365 (online) version 9.0 during the [Customer Driven Update](https://blogs.msdn.microsoft.com/crm/2018/01/12/scheduling-your-dynamics-365-organization-for-microsoft-dynamics-365-online-version-9-0-update/) schedule. Upgrading from a version earlier than CRM 2016 is not supported. Support for the Interactive Service hub client is limited to Dynamics 365 Update 2.1.
 
-## Preparing for the upgrade
+## Prepare for upgrade
 
 Before you upgrade, it is important to note that once you upgrade to Customer Service Hub, there is no support to roll back to Interactive Service hub. Please observe these best practices before upgrading any production organization:
 
@@ -39,7 +39,7 @@ Before you upgrade, it is important to note that once you upgrade to Customer Se
 
 The following sections describe some notable upgrade-specific changes, as well as general customization and user experience changes in Dynamics 365 (online) version 9.0.
 
-## Converting Interactive experience forms to Main forms
+## Convert Interactive experience forms to Main forms
 Like Dynamics 365 web client, the Customer Service Hub app on Unified Interface uses Main forms. Any existing Interactive experience forms—both out-of-the-box and custom, will be modified and converted to Main forms when you upgrade to Dynamics 365 (online) version 9.0, and will import any solution into Dynamics 365 (online) version 9.0 and later. This change does not affect functionality; the form XML will largely remain the same except for a few changes in properties, shown below.
 
 ![Converting Interactive experience forms to Main forms](media/upgrade-Convert-Interactive-experience-forms-to-Main-forms.png)
@@ -106,7 +106,7 @@ As Main forms are supported in Unified Interface as well as in Dynamics 365 web 
 
 ![Post upgrade configuration for system administrators](media/upgrade-post-upgrade-configurations-for-system-administrators.png)
 
-## Working with solutions
+## Work with solutions
 
 - Importing a solution with Interactive Service hub components from the versions Dynamics CRM 2016, [!INCLUDE[](../includes/pn-crm-8-1-0-online.md)], and Dynamics 365 (online and on-premises) Update 2.1 into Dynamics 365 (online) version 9.0 or later would not reflect changes to Customer Service Hub, since it is an app module and doesn’t show every component in the system. The import would proceed in the usual manner, and the components added in the system would need to be added to Customer Service Hub. System Administrators can edit the hub's app definition in App Designer and include the solution components. This gives System Administrators greater control over the hub's app definition. Read more about editing app definition in [App Designer](../customize/create-edit-app.md) documentation.
 

@@ -233,7 +233,6 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 
 <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [ApplyRecordCreationAndUpdateRuleRequest Class](../developer/webapireference/actions/applyrecordcreationandupdaterule.md)  -->
 
-<a name="bkmk_SetUpChannelProperties"></a>   
 ## Set up channel properties  
  Every default or custom activity has an **Additional Parameters** attribute. This attribute stores the JSON payload received from an external application.  
 
@@ -301,7 +300,6 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 
    ![Add channel properties to channel property group](../customer-service/media/crm-ua-channel-property-group.png "Add channel properties to channel property group")  
 
-<a name="bkmk_ActivateRule"></a>   
 ## Activate a record creation and update rule  
  For any record creation and update rule to apply to a matching incoming activity, after you add the rule items, you must activate the rule.  
 
@@ -318,13 +316,12 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 
      After the rule is active, the only way to change the rule is to first deactivate it. Open the rule, and on the command bar, click **Deactivate**.  
 
-<a name="bkmk_RecordCreationFromQueue"></a>   
 ## Manage automatic record creation and update from a queue form  
  You can create or manage an automatic record creation and update rule from a queue form, too. To do this, open the queue record, and on the command bar, click **Email Activity Conversion Settings** or **Social Activity Conversion Settings**.  
 
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](../customer-service/create-edit-queue.md)  
 
-<a name="bkmk_Upgrade"></a>   
+
 ## Upgrade considerations  
  Here are a few things you should know if you’re upgrading to [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] or later from an earlier release, and have existing case creation rules for email and social activity.  
 

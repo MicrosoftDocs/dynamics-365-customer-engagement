@@ -1,7 +1,7 @@
 ---
 title: Define service level agreements (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Know how to define service level agreements in Dynamics 365 for Customer Service
-keywords: Service leve agreements; Dynamics 365; Customer Service
+keywords: Service leve agreements; Dynamics 365; Customer Service; Create a standard SLA ; Create an enhanced SLA ; How is the SLA applied?  ; Apply SLA on demand  
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
@@ -28,7 +28,6 @@ Define the level of service or support that your organization agrees to offer to
 > [!IMPORTANT]
 > This feature was introduced in [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)].  
 
-<a name="bkmk_StdVsEnhancedSla"></a>   
 ## Standard vs. enhanced SLAs: What’s the difference?  
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] lets you create two types of SLAs: Standard and Enhanced.         Standard SLAs can only be created for the Case entity.         We recommend that you use enhanced SLAs, which have some additional capabilities that standard SLAs don’t have. With an enhanced SLA, you can:  
 
@@ -40,7 +39,6 @@ Define the level of service or support that your organization agrees to offer to
 
 -   Track SLA statuses and times right on the case form by default. These details are tracked through the SLA KPI Instance record type.  
 
-<a name="bkmk_SLASupportedEntities"></a>   
 ## Entities (record types) that support SLA  
  In previous releases, you could create SLAs only for case records. With [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] and [!INCLUDE[pn_crm_8_1_0_op_subsequent](../includes/pn-crm-8-1-0-op-subsequent.md)], you can now create enhanced SLAs for entities that are enabled for SLA. A system administrator or customizer can enable SLAs for the following entities:  
 
@@ -65,7 +63,6 @@ Define the level of service or support that your organization agrees to offer to
 
   For more information, see         [Enable entities for service level agreements](../customer-service/enable-entities-service-level-agreements.md).  
 
-<a name="bkmk_CreateStdSLA"></a>   
 ## Create a standard SLA  
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
@@ -168,7 +165,6 @@ Define the level of service or support that your organization agrees to offer to
     > - If the failure or warning times are set to less than 1 hour, processing of failure or warning actions may be delayed.  
     > - Make sure you author the SLAs in a best way suited to your company’s needs. For example, in the SLA **Applicable When** conditions, avoid using case fields that are updated too frequently, because that may lead to frequent SLA computation and impact performance.  
 
-<a name="bkmk_CreateEnhancedSLA"></a>   
 ## Create an enhanced SLA  
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
@@ -272,7 +268,6 @@ Define the level of service or support that your organization agrees to offer to
 > - Make sure that you don't have too many SLA Items in an SLA, because that can directly impact the create and update operations on the record on which the SLA is applied or re-evaluated. We recommend  you not have more than 15 SLA items in an SLA record for performance reasons. 
 > - The SLA business logic relies on SLA KPI Instance record values, so it is not recommended to create plugins or processes to directly update the SLA KPI Instance record values to avoid any conflict. 
 
-<a name="bkmk_SetAsDefault"></a>   
 ## Set the SLA as default  
  For case entity, make an SLA a default one if you want it to apply to all the cases that don’t have an SLA applied through an entitlement. This is useful when a customer wants a service level agreement without an entitlement.  
 
@@ -283,11 +278,9 @@ Define the level of service or support that your organization agrees to offer to
 > [!NOTE]
 >  If you deactivate a default SLA, you must activate it again before resetting it as the default.  
 
-<a name="bkmk_DisableSLA"></a>   
 ## Disable the SLA  
  During maintenance activities or when you’re importing records and you don’t want the SLAs to apply, you can disable SLAs for the organization. A system administrator can disable SLAs from the System Settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab](../admin/system-settings-dialog-box-service-tab.md)  
 
-<a name="bkmk_SLAApplication"></a>   
 ## How is the SLA applied?  
  When a record is created, the SLA is applied (default or through entitlement for the Case entity) and the related record field values are updated. When the record is modified and any of the record field values change, that is, when the fields that are added in the **Applicable When** conditions of the SLA change, the SLA is applied again. For example, if the priority of the case changes from Normal to High, and according to the SLA the first response should happen soon, the SLA is reapplied to make sure the KPIs are tracked based on the updated values.  
 
@@ -295,8 +288,6 @@ Define the level of service or support that your organization agrees to offer to
 
 > [!NOTE]
 >  You can only have one SLA running on one record. When an entity record is updated with a different SLA, the previously applied SLA is canceled.  
-
-<a name="bkmk_SLAonDemand"></a>   
 
 ## Apply SLA on demand  
  With the enhancements made to SLAs, you can now apply SLAs to records manually. You can also automatically apply SLAs to records based on your business logic (using workflows or custom plug-ins).  
@@ -307,7 +298,6 @@ Define the level of service or support that your organization agrees to offer to
 
  To apply SLAs on-demand manually, choose the SLA in the SLA field. This field is not available by default on entity forms. Ask your system administrator to add the field on the entity form.  
 
-<a name="bkmk_TrackSLADetailsOnCaseForm"></a>   
 ## Track SLA status and details on the case record  
  The CSR working on a case can see the SLA details right on the case form.  
 

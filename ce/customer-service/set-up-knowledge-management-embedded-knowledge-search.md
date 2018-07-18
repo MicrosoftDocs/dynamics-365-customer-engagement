@@ -38,7 +38,6 @@ After knowledge management is set up, users will be able to:
   
 - Give timely and consistent information to customers when working on their cases by using actions like opening the article and sharing the information or emailing the article link to customers.   
   
-<a name="BKMK_Setup"></a>   
 ## Set up knowledge management  
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] You must also be the tenant administrator of [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].  
