@@ -103,6 +103,7 @@ For example, the selected configuration elements are as follows:
   |-------|-------|
   |KB Article| CRM Page|
   |KB Search| KM Control|
+
   </br>![Select configurations](../media/usd-migration-assistant-selected-configurations.PNG "Selected configurations")</br>
  You must select **Hosted Controls** to verify.</br></br>
 You can see that configuraitons are migration to Unified Interface specific elements.
@@ -110,6 +111,7 @@ You can see that configuraitons are migration to Unified Interface specific elem
   |-------|-------|
   |KB Article| Unified Interface Page|
   |KB Search| Unified Interface KM Control|
+  
   </br>![Verifying the configuraiton migration](../media/usd-configuration-migration-verification.PNG "Verifying the configuraiton migration")
 
 
