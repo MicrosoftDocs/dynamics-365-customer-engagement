@@ -32,8 +32,9 @@ These features are enabled through a setting in System Settings.
 
 1. Go to **Settings** > **Administration** > **System Settings**.  
 2. Select the **General** tab.  
+3. Set **Enable embedding of certain legacy dialogs in Unified Interface browser client** to **Yes**.
 
-![Enable embedding of legacy dialogs](media/hybrid-system-settings.png "Enable embedding of legacy dialogs")
+![Enable hybrid experience](media/hybrid-system-settings.png "Enable hybrid experience")
 
 When you enable the hybrid experience, commands appear on the command bar. For example, when you select an account, **Edit**, **Merge**, and **Share** commands are available.
 
