@@ -92,7 +92,7 @@ Additionally, if you have [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] sele
 >  Peaks and trending terms can't be estimated. For example, if you set up a search topic in advance for a conference that you plan to establish a hashtag for, the estimates can be far off. Be aware that the post volume will rise significantly when the conference starts, which will affect your post quota. Deleting a search topic will stop the acquisition of posts for this topic, but will not recover your quota&mdash;meaning you will see no difference in the number of current posts. If you want to recover your quota, you will have to add the keywords of a deleted topic to the list of blocked content.
 
 ## Buy additional quota
-When you run out of post quota and data acquisition has stopped, your organization's admin can buy add-on subscriptions for addtional post quota. 
+When you run out of post quota and data acquisition has stopped, your organization's admin can buy add-on subscriptions for additional post quota. 
 Three types of quota add-on subscriptions are available. They are billed on a monthly basis. The price per post drops with the size of the add-on subscription. 
 - [!include[](../includes/pn-social-engagement-long.md)] Additional 10,000 posts (no minimum): 10,000 posts per month.
 - [!include[](../includes/pn-social-engagement-long.md)] Additional 10,000 posts (10-unit minimum): 100,000 posts per month.
