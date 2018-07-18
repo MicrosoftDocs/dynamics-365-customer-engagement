@@ -37,7 +37,6 @@
 ### [Build quotes](../sales-enterprise/create-edit-quote-sales.md)
 ### [Generate orders](../sales-enterprise/create-edit-order-sales.md)
 ### [Generate invoices](../sales-enterprise/create-edit-invoice-sales.md)
-### [No longer working a lead?](../sales-enterprise/no-longer-working-lead-sales.md)
 ### [Reopen a lead](../sales-enterprise/re-open-lead-sales.md)
 ### [Close an opportunity](../sales-enterprise/close-opportunity-won-lost-sales.md)
 ### [Track competitors](../sales-enterprise/create-edit-competitor-record-sales.md)
