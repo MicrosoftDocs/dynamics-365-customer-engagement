@@ -10,6 +10,12 @@
 #### [Upgrade to the Customer Service Hub](upgrade-ish-csh.md)
 #### [Keyboard navigation support](keyboard-navigation-support-customer-service-hub.md)
 ### [Customer Service app](user-guide-customer-service.md)
+#### [Create and manage a case](user-guide-customer-service.md#create-and-manage-a-case)
+#### [Add an activity to a case](user-guide-customer-service.md#add-an-activity-to-a-case)
+#### [Find what's assigned to you in a queue](user-guide-customer-service.md#find-whats-assigned-to-you-in-a-queue)
+#### [Assign an activity to a user or queue](user-guide-customer-service.md#assign-an-activity-to-a-user-or-queue)
+#### [Merge similar cases](user-guide-customer-service.md#merge-similar-cases)
+#### [Create and manage parent and child cases](user-guide-customer-service.md#create-and-manage-parent-and-child-cases)
 
 ## [Service Manager Guide](service-manager-guide.md)
 ### [Queues](set-up-queues-manage-activities-cases.md)

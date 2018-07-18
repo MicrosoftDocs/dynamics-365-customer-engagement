@@ -24,19 +24,6 @@ This User's Guide shows customer service agents how to use the application.
 > [!IMPORTANT]
 > This User Guide covers the Customer Service app that you can use with a desktop browser for case management. If you want to manage knowledge articles or do case management on a mobile device, use the new Customer Service Hub app, which is built on the Unified Interface framework. To learn about the  Customer Service Hub app, see [User Guide (Customer Service Hub)](user-guide-customer-service-hub.md). For information on Dynamics 365 basics, [see the Basics Guide](../basics/basics-guide.md).
  
-You can do the following in the Customer Service app:
-
-[Create and manage a case](#create-and-manage-a-case)
-
-[Add an activity to a case](#add-an-activity-to-a-case)
-
-[Find what's assigned to you in a queue](#find-whats-assigned-to-you-in-a-queue)
-
-[Assign an activity to a user or queue](#assign-an-activity-to-a-user-or-queue)
-
-[Merge similar cases](#merge-similar-cases)
-
-[Create and manage parent and child cases](#create-and-manage-parent-and-child-cases)
  
 ## Create and manage a case
 Keep track of your customer requests and issues by creating support cases in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. When a customer contacts support with a question or problem, you can quickly check if there is an existing case or open a new case and start tracking the issue. You can also escalate, reassign, or put a case back into the service queue if you don’t have enough information or time to work on it.  
