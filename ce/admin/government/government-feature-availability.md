@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 (online) Government - Feature availability | MicrosoftDocs"
 ms.custom: ""
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -46,7 +46,16 @@ There are certain experiences that are currently not available with Dynamics 365
 - [Resource Scheduling Optimization](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/resource-scheduling-optimization)
 - [Versium Predict](https://docs.microsoft.com/dynamics365/customer-engagement/versium-predict/versium-predict)
 
-In addition, please note that it is not possible to connect to a Dynamics 365 GCC environment through PowerApps.  
+There are a number of other business application apps and services that are not currently available as a service operating within the GCC at this time. They include:
+
+- [Microsoft PowerApps](https://docs.microsoft.com/powerapps/)
+- [Microsoft Flow](https://docs.microsoft.com/flow/) – Please note that it is technically possible to connect to Dynamics 365 GCC from Flow.
+- [Microsoft Dynamics 365 for Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/overview)
+- [Microsoft Dynamics 365 for Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/)
+- [Microsoft Dynamics Social Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/get-started) – Please note that while this is not available in GCC, it is available to purchase and associate to a customer’s tenant running GCC services; all integration points will work as they do in our non-GCC environments.  
+- [Microsoft Dynamics 365 for Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/) - Please note that while this is not available in GCC, it is available to purchase and associate to a customer’s tenant running GCC services.  
+- [Microsoft Dynamics 365 for Retail](https://docs.microsoft.com/dynamics365/unified-operations/retail/) - Please note that while this is not available in GCC, it is available to purchase and associate to a customer’s Tenant running GCC services.
+
 
 <a name="BKMK_NetworkPorts"></a>   
 
@@ -62,5 +71,8 @@ In addition, please note that it is not possible to connect to a Dynamics 365 GC
 Customizations or email configurations in Dynamics 365 GCC can only use these ports.
 
 ### See also  
- [Microsoft Dynamics 365 (online) Government](microsoft-dynamics-365-government.md)   
- [Important changes coming in Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming)
+[Microsoft Dynamics 365 (online) Government](microsoft-dynamics-365-government.md)   
+[Important changes coming in Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming)
+[Dynamics 365 IP Address Ranges](https://support.microsoft.com/help/2728473/microsoft-dynamics-crm-online-ip-address-ranges)
+[PowerBI for US Government Customers](https://docs.microsoft.com/power-bi/service-govus-overview)
+[Compliance Offerings for Dynamics 365](https://www.microsoft.com/trustcenter/compliance/complianceofferings?product=Dynamics365)
