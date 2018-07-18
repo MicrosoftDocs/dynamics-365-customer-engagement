@@ -33,23 +33,19 @@ These features are enabled through a setting in System Settings.
 1. Go to **Settings** > **Administration** > **System Settings**.  
 2. Select the **General** tab.  
 
-Redo image
 ![Enable embedding of legacy dialogs](media/hybrid-system-settings.png "Enable embedding of legacy dialogs")
 
 When you enable the hybrid experience, commands appear on the command bar. For example, when you select an account, **Edit**, **Merge**, and **Share** commands are available.
 
-Redo image
-![Select Personalization Settings](media/hybrid-personalization-settings.png "Select Personalization Settings")
+![Commands on command bar](media/hybrid-hybrid-edit-merge-share.png "Commands on command bar")
 
 You can click **Share** to share this account with another user or team.
 
-Redo image
-![Legacy Set Personal Options](media/hybrid-set-personal-options-legacy.png "Legacy Set Personal Options")
+![Share account](media/hybrid-share-account.png "Share account")
 
 If you disable the hybrid experience, these commands are not available in the command bar.
 
-Redo image
-![Unified Interface Personalization Settings](media/hybrid-system-settings-page.png "Unified Interface Personalization Settings")
+![Commands not on command bar](media/hybrid-no-edit-merge-share.png "Commands not on command bar")
 
 ### See also  
  [Unified Interface](about-unified-interface.md)
