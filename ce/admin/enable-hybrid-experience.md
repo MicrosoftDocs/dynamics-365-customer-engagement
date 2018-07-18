@@ -40,7 +40,7 @@ When you enable the hybrid experience, commands appear on the command bar. For e
 
 ![Commands on command bar](media/hybrid-edit-merge-share.png "Commands on command bar")
 
-You can click **Share** to share this account with another user or team.
+You can select **Share** to share this account with another user or team.
 
 ![Share account](media/hybrid-share-account.png "Share account")
 
