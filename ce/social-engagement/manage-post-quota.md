@@ -2,7 +2,7 @@
 title: "Manage the post quota for Social Engagement | Microsoft Docs"
 description: "Learn how you can get the most out of your Social Engagement post quota."
 keywords: "quota, post quota, contingent"
-ms.date: 03/27/2018
+ms.date: 08/22/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -10,7 +10,7 @@ applies_to:
 ms.assetid: 9d9e5115-52c7-4f21-a90b-3bde6804d2fe
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 topic-status: Drafting
 ms.custom:
   - dyn365-socialengagement
@@ -84,7 +84,9 @@ Keep track of the number of posts that result from your search topics and count 
   
 - **Expected number of posts:** The calculated number of posts that [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is expecting until the end of the calendar month, based on the number of current posts.  
   
-  When you set up a search topic, you can validate the rules to estimate how their volume affects your post quota. The rule validation provides the number of posts that would match your query within a month, based on the post volume of the past month. Additionally, if you have [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] selected as a source, you'll find a preview of the most recent tweets matching your keywords rule.  
+When you set up a search topic, you can validate the rules to estimate how their volume affects your post quota. The rule validation provides the number of posts that would match your query within a month, based on the post volume of the past month.   
+We'll warn you before saving a search topic if we expect more posts than your monthly post quota. You can't save a search topic if it the estimations exceed five times the monthly post quota.   
+Additionally, if you have [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] selected as a source, you'll find a preview of the most recent tweets matching your keywords rule.  
   
 > [!CAUTION]
 >  Peaks and trending terms can't be estimated. For example, if you set up a search topic in advance for a conference that you plan to establish a hashtag for, the estimates can be far off. Be aware that the post volume will rise significantly when the conference starts, which will affect your post quota. Deleting a search topic will stop the acquisition of posts for this topic, but will not recover your quota&mdash;meaning you will see no difference in the number of current posts. If you want to recover your quota, you will have to add the keywords of a deleted topic to the list of blocked content.
