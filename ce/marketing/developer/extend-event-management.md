@@ -1,5 +1,5 @@
 ---
-title: "Preview: Extend Event Management App | MicrosoftDocs"
+title: "Extend Event Management App | MicrosoftDocs"
 description: "Provides information about how you can create and manage webinar events."
 ms.custom:
   - dyn365-developer
@@ -16,7 +16,7 @@ author: NavaKiran
 ms.author: nabuthuk
 manager: kvivek
 ---
-# Extend Event Management Application to support more Webinar providers
+# Preview: Extend Event Management Application to support more Webinar providers
 
 Apart from the classic on-site support, it is now possible to create and manage webinar events (or hybrid: on-site and webinar events) as well, where the default webinar provider is On24.
 
@@ -38,6 +38,8 @@ To add a new webinar provide, follow the steps below:
 
 - Navigate through **Settings** > **AdvancedSettings** > **Webinar Providers** and click on **New**. 
 - Fill in the required fields as shown in the screen shot. The  field **Base service URL** is the URL of the webinar service that implements the API.
+
+![Webinar Provider](../media/webinar-provider.png "Webinar Provider")
 
 ## Add a webinar configuration
 
