@@ -53,8 +53,8 @@ topic-status: Drafting
 
 <h2>Troubleshooting</h2>
 <ul>
-<li><a href="troubleshooting-admin.md" data-raw-source="[Dynamics 365 for Sales troubleshooting guide for administrators](troubleshooting-admin.md)">Dynamics 365 for Sales troubleshooting guide for administrators</a></li>
-<li><a href="troubleshooting.md" data-raw-source="[Dynamics 365 for Sales troubleshooting guide for sales people](troubleshooting.md)">Dynamics 365 for Sales troubleshooting guide for sales people</a></li>
+<li><a href="troubleshooting-admin.md" data-raw-source="[Troubleshooting guide for administrators](troubleshooting-admin.md)">Troubleshooting guide for administrators</a></li>
+<li><a href="troubleshooting.md" data-raw-source="[Troubleshooting guide for sales people](troubleshooting.md)">Troubleshooting guide for sales people</a></li>
 </ul>
 
 </td><td>

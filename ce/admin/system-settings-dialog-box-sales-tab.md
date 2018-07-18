@@ -70,5 +70,5 @@ Use the settings on this page to configure system-level settings for the sales a
  [Create price lists and price list items to define pricing of products](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)   
  [Set up a discount list](../sales-enterprise/set-up-discount-list.md)   
  [Create product bundles to sell multiple items together](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)   
- [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)
+ [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
  [Administrator and Sales Manager Guide](../sales-enterprise/admin-guide.md)  
