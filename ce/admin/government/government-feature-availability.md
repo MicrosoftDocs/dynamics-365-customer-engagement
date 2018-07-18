@@ -54,7 +54,7 @@ There are a number of other business application apps and services that are not 
 - [Microsoft Dynamics 365 for Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/)
 - [Microsoft Dynamics Social Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/get-started) – Please note that while this is not available in GCC, it is available to purchase and associate to a customer’s tenant running GCC services; all integration points will work as they do in our non-GCC environments.  
 - [Microsoft Dynamics 365 for Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/) - Please note that while this is not available in GCC, it is available to purchase and associate to a customer’s tenant running GCC services.  
-- [Microsoft Dynamics 365 for Retail](https://docs.microsoft.com/dynamics365/unified-operations/retail/) - Please note that while this is not available in GCC, it is available to purchase and associate to a customer’s Tenant running GCC services.
+- [Microsoft Dynamics 365 for Retail](https://docs.microsoft.com/dynamics365/unified-operations/retail/) - Please note that while this is not available in GCC, it is available to purchase and associate to a customer’s tenant running GCC services.
 
 
 <a name="BKMK_NetworkPorts"></a>   
