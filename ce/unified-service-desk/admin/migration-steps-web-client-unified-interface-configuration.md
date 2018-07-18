@@ -78,9 +78,40 @@ The migration assistant displays the **Download Completed**.</br>
 
 2. Open **ConfigurationMigation** and execute **DataMigrationUtility.exe**. 
 
-3. In the next screen, select **Import data*, and select **Continue**.
+3. In the next screen, select **Import data**, and select **Continue**.</br>
+![Configuration Migration Tool options screen](../media/usd-configuration-migration-tool-options.PNG "Configuration Migration Tool options data screen")
 
-4. In the **Login** screen, provide authentication details to connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance to which you want to deploy the migrated configurations. If you have multiple organizations, and want to select the organization to which you want to deploy the migrated configurations, select the **Display list of available organizations** check box, and select **Login**.
+4. In the **Login** screen, provide authentication details to connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance to which you want to deploy the migrated configurations. If you have multiple organizations, and want to select the organization to which you want to deploy the migrated configurations, select the **Display list of available organizations** check box, and select **Login**.</br>
+![Configuration Migration Tool login screen](../media/usd-configuration-migration-tool-login.PNG "Configuration Migration Tool login screen")
+
+5. In the next screen, browse the **USDConfigurations** folder and select the **Data.zip** folder, and then select **Import Data**.</br>
+![Browse and select data.zip folder](../media/usd-configuration-migration-tool-import-data.PNG "Browse and select data.zip folder")
+
+6. After the import is complete, select **Exit**.</br>
+![Importing is completed. Select Exit](../media/usd-configuration-migration-tool-import-complete.PNG "Importing is completed. Select Exit")
+
+## Test the deployment of the configuraitons on the target Unified Interface App.
+
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
+
+2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+
+3. Select configurations that you migrated from the Web Client.</br>
+For example, the selected configuration elements are as follows:
+
+  |Configuration Name|Description|
+  |-------|-------|
+  |KB Article| CRM Page|
+  |KB Search| KM Control|
+  </br>![Select configurations](../media/usd-migration-assistant-selected-configurations.PNG "Selected configurations")</br>
+ You must select **Hosted Controls** to verify.</br></br>
+You can see that configuraitons are migration to Unified Interface specific elements.
+  |Configuration Name|Description|
+  |-------|-------|
+  |KB Article| Unified Interface Page|
+  |KB Search| Unified Interface KM Control|
+  </br>![Verifying the configuraiton migration](../media/usd-configuration-migration-verification.PNG "Verifying the configuraiton migration")
+
 
 ## See also
 
