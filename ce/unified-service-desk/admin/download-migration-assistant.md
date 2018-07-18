@@ -30,10 +30,11 @@ Download the [Web Client – Unified Interface Migration Assistant](https://go.m
 
 ## Download Configuration Migration Tool
 
-The migration of Unified Service Desk configurations from Dynamics 365 Web Client to Unified Interface App is a two stage process:
+The migration of Unified Service Desk configurations from Dynamics 365 Web Client to Unified Interface App is a three step process:
 
 - Fetch and migrate the configuration elements to a **USD_UI_Configurations** folder using the Web Client - Unified Interface Migration Assistant.
 - Import the **Data** zip folder from the **USD_UI_Configurations** folder to the Unified Interface App using the Configuration Migration Tool (DataMigrationUtility.exe).
+- Import the **USDWebResources** folder, which is in **USD_UI_Configurations** folder, using the **Solutions** option in the Dynamics 365.
 
 Hence, you must download the Configuration Migration Tool (DataMigrationUtility.exe), which is available as a [NuGet package](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf). 
 

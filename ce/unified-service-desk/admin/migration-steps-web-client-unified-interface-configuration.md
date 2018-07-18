@@ -22,7 +22,7 @@ manager: shujoshi
 
 # How to migrate Unified Service Desk configurations from Dynamics 365 Web Client to Unified Interface App
 
-The migration of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Web Client to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Unified Interface is a two stage process.
+The migration of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Web Client to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Unified Interface is a three stage process.
 
 - **Step 1:** Fetch and migrate the configuration elements to a **USD_UI_Configurations** folder using the Web Client - Unified Interface Migration Assistant.
 
@@ -90,7 +90,28 @@ The migration assistant displays the **Download Completed**.</br>
 6. After the import is complete, select **Exit**.</br>
 ![Importing is completed. Select Exit](../media/usd-configuration-migration-tool-import-complete.PNG "Importing is completed. Select Exit")
 
-## Step 3: 
+## Step 3: Import the USDWebResources folder
+
+The **USDWebResources** folder contains the migrated **RunXrmCommand** actions that were present in Web Client. To deploy the **USDWebResources** on the target Unified Intrface App, import the web resources as a soution in the Dynamics 365.
+
+To import the **USDWebResources** zip folder follow the steps:
+
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
+
+2. Go to **Settings** > **Solutions**.
+
+3. Select **Import** to import the web resource.
+
+4. In the **Select Solution Package** window, browse and select the **USDWebResources** zip folder, and select **Next**.
+
+5. In the **Solution Information** screen, review the solution information and select **Import**.</br>
+You can see the success message after the solution is imported successfully.
+
+6. In the **Importing Solution** screen, select **Close**.
+
+You can see the **USDWebResources** in the solutions list.</br>
+
+![USDWebResource imported to Dynamics 365](../media/usd-configuration-migration-webresources-import.PNG "USDWebResource imported to Dynamics 365")
 
 ## Test the deployment of the configuraitons on the target Unified Interface App.
 
@@ -109,6 +130,7 @@ For example, the selected configuration elements are as follows:
   </br>![Select configurations](../media/usd-migration-assistant-selected-configurations.PNG "Selected configurations")</br>
  You must select **Hosted Controls** to verify.</br></br>
 You can see configuraitons are migratied to Unified Interface specific elements.
+
   |Configuration Name|Description|
   |-------|-------|
   |KB Article| Unified Interface Page|
