@@ -25,7 +25,7 @@ topic-status: Drafting
 
 Use the following list of troubleshooting topics to quickly find information to solve your users' issues.
 
-## Lead qualification issues
+## Lead qualification issues and resolution
 
 ### Insufficient permissions or Access denied error when a user is trying to qualify a lead
 
@@ -85,7 +85,7 @@ How you resolve this error depends on the following ownership scenarios for the 
 4.	Assign Read access to any custom entity.
 5.	Assign Read access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**.
 
-## Opportunity Close issue
+## Opportunity Close issues and resolution
 
 ### Insufficient permissions or Access denied error when a user is trying to close an opportunity
 
@@ -96,3 +96,8 @@ How you resolve this error depends on the following ownership scenarios for the 
 2.	Open the security role of the user.
 3.	Assign **Read**, **Create**, **Append**, **Append To** permissions to the user’s Security Role at User level on the Opportunity entity and custom entity.
 
+## Opportunity product line item issues and resolution
+
+### Error Message: You must select a price list before attempting to add a product
+
+Reason: You've not selected a price list for the opportunity.

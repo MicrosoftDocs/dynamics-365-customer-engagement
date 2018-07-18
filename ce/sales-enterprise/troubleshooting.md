@@ -99,7 +99,7 @@ Resolve the duplicates as identified in dialog box or select **Continue** to cre
 If there’s no error, and you are still not able to qualify a lead, please contact the technical support here.
 
 
-## Opportunity close FAQ and troubleshooting
+## Opportunity troubleshooting
 
 ### How do I close an opportunity?
       
@@ -126,7 +126,7 @@ The following sections talk about each of these errors and how you can resolve t
 There may be active or draft quotes associated with the opportunity.
 
 **Resolution:**
-1.	Go to the Quotes tab (or Quotes line item tab).
+1.	In the Opportunity record, go to the Quotes tab (or Quotes line item tab).
 2.	Make sure none of the quotes are in the Draft or Active status.
 
     ![Quotes in the Draft status](media/quotes-in-draft-state.png "Quotes in the Draft status")
@@ -148,6 +148,31 @@ If you have already closed an opportunity as Won or Lost, it becomes read-only a
 To reopen, open the opportunity, and on the command bar, select **Reopen Opportunity**.
  
 ![Reopen opportunity](media/reopen-opportunity.png "Reopen opportunity")
+
+### Error Message: You must select a price list before attempting to add a product
+
+**Reason**: 
+You've not selected a price list for the opportunity. Selecting a price list is required to be able to add products to an opportunity. 
+
+**Resolution:**
+1.  In the Opportunity record, go to the **Product Line Item** tab.
+2.  In the Price List field, select a price list for the opportunity.  
+
+### Error Message: You must provide a value for product description
+
+**Reason**: 
+While creating a write-in product, you've not entered the product name.  
+
+**Resolution:**
+Enter the product name.   
+
+### Error Message: You can only add active products
+
+**Reason**: 
+While adding an existing product, you selected a product in the **Draft** status.  
+
+**Resolution:**
+Make sure the product you want to add is in the Active state, and then add the product.   
 
 
 ### See Also
