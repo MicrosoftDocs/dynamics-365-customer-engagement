@@ -22,11 +22,13 @@ manager: shujoshi
 
 # How to migrate Unified Service Desk configurations from Dynamics 365 Web Client to Unified Interface App
 
-The migration of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Web Client to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Unified Interface is a three stage process.
+The migration of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Web Client to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Unified Interface is a three step process.
 
 - **Step 1:** Fetch and migrate the configuration elements to a **USD_UI_Configurations** folder using the Web Client - Unified Interface Migration Assistant.
 
 - **Step 2:** Import the **Data** zip folder from the **USD_UI_Configurations** folder to the Unified Interface App using the Configuration Migration Tool (DataMigrationUtility.exe).
+
+- **Step 3:** Import the **USDWebResources** folder, which is in **USD_UI_Configurations** folder, using the **Solutions** option in the Dynamics 365.
 
 The diagram demonstrates the flow of the migration:
 
