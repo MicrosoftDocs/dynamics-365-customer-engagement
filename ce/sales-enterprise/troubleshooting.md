@@ -40,7 +40,7 @@ There could be multiple errors you may get while you qualify a lead.
 -  [To move to the next stage, complete the required steps](troubleshooting.md#CompleteSteps)
 -  [Active stage is not on 'lead' entity](troubleshooting.md#NoActiveStage)
 -  [Access denied or Insufficient permissions](troubleshooting.md#AccessDenied)
--  [Duplicate Warning](troubleshooting.md#duplicate)
+-  [Duplicate Warning](troubleshooting.md#DuplicateWarning)
 
 The following sections talk about each of these errors and how you can resolve them.
 
@@ -84,7 +84,7 @@ You do not have sufficient permissions on the lead record.
 **Resolution:**
 Ask your system administrator to grant you the necessary permissions.
 
-<a name="Duplicate"> </a> 
+<a name="DuplicateWarning"> </a> 
 #### Duplicate Warning dialog box appears
 
 **Reason:**

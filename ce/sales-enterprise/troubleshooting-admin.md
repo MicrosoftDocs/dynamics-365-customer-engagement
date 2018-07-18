@@ -96,8 +96,6 @@ How you resolve this error depends on the following ownership scenarios for the 
 2.	Open the security role of the user.
 3.	Assign **Read**, **Create**, **Append**, **Append To** permissions to the user’s Security Role at User level on the Opportunity entity and custom entity.
 
-## Opportunity product line item issues and resolution
 
-### Error Message: You must select a price list before attempting to add a product
-
-Reason: You've not selected a price list for the opportunity.
+### See Also
+[Troubleshooting guide for sales people](troubleshooting.md)
