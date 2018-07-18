@@ -13,11 +13,13 @@ ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
 ms.custom: dyn365-customerservice
 ---
 
-# Track your cases efficiently and act on them quickly in the Customer Service Hub
+# Work with Cases and manage SLAs
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Creating and managing a case can’t be any simpler. With the intuitive case form in the Customer Service Hub, you can do all your important tasks and actions without navigating to different parts of the application.  
+Track your cases efficiently and act on them quickly in the Customer Service Hub application.
+
+Creating and managing a case can’t be any simpler. With the intuitive case form in the Customer Service Hub,you can do all your important tasks and actions without navigating to different parts of the application.  
 
 You can capture important information about customers, interactions you’ve had with them, and all related records of the current case in once single place.  
 

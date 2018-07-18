@@ -13,10 +13,11 @@ ms.assetid: ae39f0a0-1909-44b0-8625-ccee22f3ccd4
 ms.custom: dyn365-customerservice
 ---
 
-# Reduce call handling times with Knowledge articles in the Customer Service Hub
+# Create and manage knowledge articles
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+Reduce call handling times with Knowledge articles in the Customer Service Hub application.
   
 With the new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management module, you can create and manage knowledge articles that your users may be looking for. 
 
