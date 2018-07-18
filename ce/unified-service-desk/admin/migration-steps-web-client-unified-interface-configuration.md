@@ -24,9 +24,9 @@ manager: shujoshi
 
 The migration of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Web Client to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Unified Interface is a two stage process.
 
-- **Step 1:** Fetch and migrate the configuration elements to a **USDConfigurations** folder using the Web Client - Unified Interface Migration Assistant.
+- **Step 1:** Fetch and migrate the configuration elements to a **USD_UI_Configurations** folder using the Web Client - Unified Interface Migration Assistant.
 
-- **Step 2:** Import the **Data** zip folder from the **USDConfigurations** folder to the Unified Interface App using the Configuration Migration Tool (DataMigrationUtility.exe).
+- **Step 2:** Import the **Data** zip folder from the **USD_UI_Configurations** folder to the Unified Interface App using the Configuration Migration Tool (DataMigrationUtility.exe).
 
 The diagram demonstrates the flow of the migration:
 
@@ -34,9 +34,9 @@ The diagram demonstrates the flow of the migration:
 
 **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Web Client**. The [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Web Client is the instance from where you want to migrate your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations.
 
-**Web Client - Unified Interface Migration Assistant.** The tool to fetch and migrate the Web Client configurations to **USDConfigurations** folder, which contains **Data** and **WebResources** zip folder. If you have **RunXrmCommand** action in Web Client configurations, the migration assitant migrates the **RunXRMCommand** actions as web resource and you can find them in the **WebResources** folder under the **USDConfigurations** folder.
+**Web Client - Unified Interface Migration Assistant.** The tool to fetch and migrate the Web Client configurations to **USD_UI_Configurations** folder, which contains **Data** and **WebResources** zip folder. If you have **RunXrmCommand** action in Web Client configurations, the migration assitant migrates the **RunXRMCommand** actions as web resource and you can find them in the **USDWebResources** folder under the **USD_UI_Configurations** folder.
 
-**USDConfigurations.** The configurations are migrated to the **USDConfigurations** zip folder that contains **Data** and/or **WebResources** zip folder.
+**USD_UI_Configurations.** The configurations are migrated to the **USD_UI_Configurations** zip folder that contains **Data** and/or **WebResources** zip folder.
 
 **Configuration Migration Tool.** The Configuration Migration tool enables you to import the **Data** zip folder and deploy on the target [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Unified Interface App.
 
@@ -52,7 +52,7 @@ The diagram demonstrates the flow of the migration:
 ![Migration Assistant Login screen](../media/usd-migration-assistant-login.PNG "Migration Assistant Login Screen")
 
 4. In the **Export Configurations** screen, select **Export**.</br>
-**Data file location** is the location where the migration assistant stores **Data.zip** folder. The **Data.zip** folder is present in the **USDConfigurations** folder.</br>
+**Data file location** is the location where the migration assistant stores **Data.zip** folder. The **Data.zip** folder is present in the **USD_UI_Configurations** folder.</br>
 When the export is successfully completed, select **Next**.</br>
 ![Export configurations screen](../media/usd-migration-assistant-export-configurations.PNG "Export configurations screen")
 
@@ -64,7 +64,7 @@ When the export is successfully completed, select **Next**.</br>
 7. In the **Migrate Configurations** screen, choose **Migrate**. After the migration is completed, select **Next**.</br>
 ![Migrate configurations screen](../media/usd-migration-assistant-migrate.PNG "Migrate configurations screen")
 
-8. In the **File Download** screen, a the migration assistant provides a default location to download the **USDConfigurations.zip** folder. To change the default download location, select **Browse** and choose a location, and select **Download File**.</br>
+8. In the **File Download** screen, a the migration assistant provides a default location to download the **USD_UI_Configurations.zip** folder. To change the default download location, select **Browse** and choose a location, and select **Download File**.</br>
 The migration assistant displays the **Download Completed**.</br>
 ![File Download screen](../media/usd-migration-assistant-download-file.PNG "File Download screen")
 
@@ -84,11 +84,13 @@ The migration assistant displays the **Download Completed**.</br>
 4. In the **Login** screen, provide authentication details to connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance to which you want to deploy the migrated configurations. If you have multiple organizations, and want to select the organization to which you want to deploy the migrated configurations, select the **Display list of available organizations** check box, and select **Login**.</br>
 ![Configuration Migration Tool login screen](../media/usd-configuration-migration-tool-login.PNG "Configuration Migration Tool login screen")
 
-5. In the next screen, browse the **USDConfigurations** folder and select the **Data.zip** folder, and then select **Import Data**.</br>
+5. In the next screen, browse the **USD_UI_Configurations** folder and select the **Data.zip** folder, and then select **Import Data**.</br>
 ![Browse and select data.zip folder](../media/usd-configuration-migration-tool-import-data.PNG "Browse and select data.zip folder")
 
 6. After the import is complete, select **Exit**.</br>
 ![Importing is completed. Select Exit](../media/usd-configuration-migration-tool-import-complete.PNG "Importing is completed. Select Exit")
+
+## Step 3: 
 
 ## Test the deployment of the configuraitons on the target Unified Interface App.
 
@@ -106,14 +108,13 @@ For example, the selected configuration elements are as follows:
 
   </br>![Select configurations](../media/usd-migration-assistant-selected-configurations.PNG "Selected configurations")</br>
  You must select **Hosted Controls** to verify.</br></br>
-You can see that configuraitons are migration to Unified Interface specific elements.
+You can see configuraitons are migratied to Unified Interface specific elements.
   |Configuration Name|Description|
   |-------|-------|
   |KB Article| Unified Interface Page|
   |KB Search| Unified Interface KM Control|
   
   </br>![Verifying the configuraiton migration](../media/usd-configuration-migration-verification.PNG "Verifying the configuraiton migration")
-
 
 ## See also
 
