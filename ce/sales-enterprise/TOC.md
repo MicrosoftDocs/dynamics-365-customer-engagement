@@ -54,10 +54,10 @@
 # [Embedded intelligence](../sales-enterprise/embedded-intelligence.md)
 ## [Overview](../sales-enterprise/embedded-intelligence.md)
 ## [Administer Embedded intelligence](../sales-enterprise/configure-enable-embedded-intelligence.md)
-## [Guide customer communications](../sales-enterprise/relationship-assistant.md)
+## [Guide customer communications with relationship assistant](../sales-enterprise/relationship-assistant.md)
 ## [Stay updated with Action cards](../sales-enterprise/action-cards-reference.md)
-## [View message interactions](../sales-enterprise/email-engagement.md)
-## [Display emails](../sales-enterprise/auto-capture.md)
+## [View message interactions with email engagement](../sales-enterprise/email-engagement.md)
+## [Display related emails with auto capture](../sales-enterprise/auto-capture.md)
 
 # [Sales insights add-on](../sales-enterprise/sales-insights-addon.md)
 ## [Overview](../sales-enterprise/sales-insights-addon.md)
