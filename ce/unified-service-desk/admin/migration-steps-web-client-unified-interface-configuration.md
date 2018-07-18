@@ -113,6 +113,8 @@ You can see the **USDWebResources** in the solutions list.</br>
 
 ![USDWebResource imported to Dynamics 365](../media/usd-configuration-migration-webresources-import.PNG "USDWebResource imported to Dynamics 365")
 
+For more information, see [Import, update, and export solutions](../../customize/import-update-export-solutions.md)
+
 ## Test the deployment of the configuraitons on the target Unified Interface App.
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
