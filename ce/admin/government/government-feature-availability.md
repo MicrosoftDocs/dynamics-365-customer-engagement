@@ -71,7 +71,7 @@ There are a number of other business application apps and services that are not 
 Customizations or email configurations in Dynamics 365 GCC can only use these ports.
 
 ### See also  
-[Microsoft Dynamics 365 (online) Government](microsoft-dynamics-365-government.md)<br/>   
+[Microsoft Dynamics 365 (online) Government](microsoft-dynamics-365-government.md)
 [Important changes coming in Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming)<br/>
 [Dynamics 365 IP Address Ranges](https://support.microsoft.com/help/2728473/microsoft-dynamics-crm-online-ip-address-ranges)<br/>
 [PowerBI for US Government Customers](https://docs.microsoft.com/power-bi/service-govus-overview)<br/>
