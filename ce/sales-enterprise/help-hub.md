@@ -38,12 +38,10 @@ topic-status: Drafting
 
 <h2>Administer the system</h2>
 
-<li>[Set up the product catalog](set-up-product-catalog-walkthrough.md)</li>
-<li>[Set up a discount list](set-up-discount-list.md)</li>
-<li>[Create unit and unit groups](create-unit-group-add-units-that-group.md)</li>
-<li>[Create a product family](create-product-family.md)</li>
-<li>[Create price list and price list items](create-price-lists-price-list-items-define-pricing-products.md)</li>
-
+<li><a href="set-up-product-catalog-walkthrough.md" data-raw-source="[Set up the product catalog](set-up-product-catalog-walkthrough.md)">Set up the product catalog</a></li>
+<li><a href="../admin/system-settings-dialog-box-sales-tab.md" data-raw-source="[Define Sales settings](../admin/system-settings-dialog-box-sales-tab.md)">Define Sales settings</a></li>
+<li><a href="../admin/system-settings-dialog-box-goals-tab.md" data-raw-source="[Define Goals settings](../admin/system-settings-dialog-box-goals-tab.md)">Define Goals settings</a></li>
+<li><a href="create-edit-goal-sales.md" data-raw-source="[Create goals to track progress](create-edit-goal-sales.md)">Create goals to track progress</a></li>
 <li><a href="../sales-enterprise/configure-enable-embedded-intelligence.md" data-raw-source="[Administer Embedded intelligence](../sales-enterprise/configure-enable-embedded-intelligence.md)">Administer Embedded intelligence</a></li>
 <li><a href="../sales-enterprise/configure-enable-sales-insights-addon.md" data-raw-source="[Administer Sales insights add-on](../sales-enterprise/configure-enable-sales-insights-addon.md)">Administer Sales insights add-on</a></li>
 </td></tr>
@@ -63,11 +61,11 @@ topic-status: Drafting
 
 <h2>Analyze customer-interaction data</h2>
 
-<li>[Guide customer communications](../sales-enterprise/relationship-assistant.md)</li>
-<li>[View message interactions](../sales-enterprise/email-engagement.md)</li>
-<li>[Display emails](../sales-enterprise/auto-capture.md)</li>
+<li><a href="../sales-enterprise/relationship-assistant.md" data-raw-source="[Use relationship assistant to guide customer communications](../sales-enterprise/relationship-assistant.md)">Use relationship assistant to guide customer communications</a></li>
+<li><a href="../sales-enterprise/email-engagement.md" data-raw-source="[View message interactions with email engagement](../sales-enterprise/email-engagement.md)">View message interactions with email engagement</a></li>
+<li><a href="../sales-enterprise/auto-capture.md" data-raw-source="[Display related emails with auto capture](../sales-enterprise/auto-capture.md)">Display related emails with auto capture</a></li>
 
-<li><a href="../sales-enterprise/relationship-analytics.md" data-raw-source="[View customer activity history](../sales-enterprise/relationship-analytics.md)">View customer activity history</a></li>
+<li><a href="../sales-enterprise/relationship-analytics.md" data-raw-source="[View customer activity history with relationship analytics](../sales-enterprise/relationship-analytics.md)">View customer activity history</a></li>
 
 
 </td></tr>

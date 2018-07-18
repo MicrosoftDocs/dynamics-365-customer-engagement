@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for Sales troubleshooting guide for end users | MicrosoftDocs"
+title: "Dynamics 365 for Sales troubleshooting guide for sales people | MicrosoftDocs"
 description: "Follow the instructions in this topic to troubleshoot the issues you may face while working on Dynamics 365 for Sales."
 keywords: "Dynamics 365 for Sales, troubleshoot, FAQ, issue, resolution"
 ms.date: 07/18/2018
@@ -21,7 +21,7 @@ ms.tgt_pltfrm:
 topic-status: Drafting
 ---
 
-# Dynamics 365 for Sales troubleshooting guide for end users
+# Dynamics 365 for Sales troubleshooting guide for sales people
 
 Use the following list of troubleshooting topics to quickly find information to solve your issue.
 
