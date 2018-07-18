@@ -25,7 +25,7 @@ topic-status: Drafting
 
 Use the following list of troubleshooting topics to quickly find information to solve your issue.
 
-## Lead qualification FAQs and issues
+## Lead qualification issues and resolution
 
 ### How do I convert or qualify my leads?
 
@@ -48,11 +48,11 @@ The following sections talk about each of these errors and how you can resolve t
 #### A record was not created or updated because a duplicate of the current record already exists
 
 **Reason:**
-The Lead has already been qualified to an Opportunity.
+The lead has already been qualified to an Opportunity.
 
 **Resolution:**
 Make sure that an opportunity is already present. 
-In the Search box, search for the opportunity with the same name as the lead you’re trying to qualify.
+In the **Search** box, search for the opportunity with the same name as the lead you’re trying to qualify.
 
 <a name="CompleteSteps"> </a>
 #### To move to the next stage, complete the required steps
@@ -70,13 +70,13 @@ Fill in data in all the mandatory fields in the current stage, save the record, 
 The lead that you are trying to qualify isn’t in the Active state. This may happen when an already-qualified lead has been reactivated.
 
 **Resolution:**
-1.	Open the Lead record.
+1.	Open the lead record.
 2.	On the process stage, select the Set **Active** button.
 
     ![Set Active button in the Qualify stage of lead form](media/set-active-button-qualify-stage.png "Set Active button in the Qualify stage of lead form")
 
 <a name="AccessDenied"> </a> 
-#### Access denied or Insufficient permissions
+#### I get a message "Access denied or Insufficient permissions"
 
 **Reason:**
 You do not have sufficient permissions on the lead record. 
@@ -88,7 +88,7 @@ Ask your system administrator to grant you the necessary permissions.
 #### Duplicate Warning dialog box appears
 
 **Reason:**
-You have duplicate records in Dynamics 365 for Sales. 
+You have duplicate records in Dynamics 365 for Sales
 
 **Resolution:**
 Resolve the duplicates as identified in dialog box or select **Continue** to create a duplicate record and qualify the lead.
@@ -99,7 +99,7 @@ Resolve the duplicates as identified in dialog box or select **Continue** to cre
 If there’s no error, and you are still not able to qualify a lead, please contact the technical support here.
 
 
-## Opportunity troubleshooting
+## Opportunity issues and resolution
 
 ### How do I close an opportunity?
       
@@ -133,7 +133,7 @@ There may be active or draft quotes associated with the opportunity.
 
 
 <a name="AccessDeniedOpportunity"> </a> 
-#### Access denied or Insufficient permissions
+#### Access denied or Insufficient permissions.
 
 **Reason:**
 You do not have sufficient permissions to the opportunity you are trying to close.
@@ -141,7 +141,7 @@ You do not have sufficient permissions to the opportunity you are trying to clos
 **Resolution:**
 Ask your system administrator to grant you the necessary permissions.
 
-### Why am I not able to edit an opportunity?
+### I am unable to edit an opportunity?
 
 If you have already closed an opportunity as Won or Lost, it becomes read-only and you can no more change it. If you want to make any changes to the opportunity, reopen the opportunity. 
 
@@ -149,7 +149,15 @@ To reopen, open the opportunity, and on the command bar, select **Reopen Opportu
  
 ![Reopen opportunity](media/reopen-opportunity.png "Reopen opportunity")
 
-### Error Message: You must select a price list before attempting to add a product
+### I am unable to add products to opportunity? 
+
+Here are some errors that you may see while you add products to an opportunity. 
+-  [You must select a price list before attempting to add a product](troubleshooting.md#SelectPriceList)
+-  [You must provide a value for product description](troubleshooting.md#ProductName)
+-  [You can only add active products](troubleshooting.md#ActiveProducts)
+
+<a name="SelectPriceList"></a>
+#### You must select a price list before attempting to add a product.
 
 **Reason**: 
 You've not selected a price list for the opportunity. Selecting a price list is required to be able to add products to an opportunity. 
@@ -158,7 +166,8 @@ You've not selected a price list for the opportunity. Selecting a price list is 
 1.  In the Opportunity record, go to the **Product Line Item** tab.
 2.  In the Price List field, select a price list for the opportunity.  
 
-### Error Message: You must provide a value for product description
+<a name="ProductName"></a>
+#### You must provide a value for product description.
 
 **Reason**: 
 While creating a write-in product, you've not entered the product name.  
@@ -166,7 +175,8 @@ While creating a write-in product, you've not entered the product name.
 **Resolution:**
 Enter the product name.   
 
-### Error Message: You can only add active products
+<a name="ActiveProducts"></a>
+### You can only add active products.
 
 **Reason**: 
 While adding an existing product, you selected a product in the **Draft** status.  
