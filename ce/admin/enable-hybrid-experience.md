@@ -18,9 +18,9 @@ manager: "kvivek"
 ---
 # Enable the hybrid experience
 
-Many of the core functionalities of sales and customer service have moved to the [Unified Interface](about-unified-interface.md) experience. Some of the features that are not yet on Unified Interface can be accessed in the Unified Interface client. 
+Most of the core functionalities of sales and customer service have moved to the [Unified Interface](about-unified-interface.md) experience. Some of the features that are not yet on Unified Interface can now be accessed in the Unified Interface client. 
 
-The following features are not yet moved to but can be enabled for viewing in the Unified Interface.
+The following features are not yet present in the Unified Interface but can be enabled in the Unified Interface through the hybrid experience.
 
 - [Advanced Find](../basics/save-advanced-find-search.md) 
 - [Bulk edit](manage-your-data.md)
@@ -28,23 +28,27 @@ The following features are not yet moved to but can be enabled for viewing in th
 - [Record sharing](../basics/assign-record-user-team.md)
 - All options under **Set Personal Options** (![Settings gear](../basics/media/settings-gear-icon.png "Settings gear"))
 
-These features are enabled by default through a setting in System Settings.
+These features are enabled through a setting in System Settings.
 
 1. Go to **Settings** > **Administration** > **System Settings**.  
 2. Select the **General** tab.  
 
+Redo image
 ![Enable embedding of legacy dialogs](media/hybrid-system-settings.png "Enable embedding of legacy dialogs")
 
-With embedding of legacy dialogs enabled, when you select one of the above features...
+When you enable the hybrid experience, commands appear on the command bar. For example, when you select an account, **Edit**, **Merge**, and **Share** commands are available.
 
+Redo image
 ![Select Personalization Settings](media/hybrid-personalization-settings.png "Select Personalization Settings")
 
-...the legacy web client dialog opens in the Unified Interface client.
+You can click **Share** to share this account with another user or team.
 
+Redo image
 ![Legacy Set Personal Options](media/hybrid-set-personal-options-legacy.png "Legacy Set Personal Options")
 
-If you disable embedding of legacy dialogs, a Unified Interface Personalization Settings page opens.
+If you disable the hybrid experience, these commands are not available in the command bar.
 
+Redo image
 ![Unified Interface Personalization Settings](media/hybrid-system-settings-page.png "Unified Interface Personalization Settings")
 
 ### See also  
