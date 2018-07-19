@@ -35,7 +35,8 @@ How you resolve this error depends on the following ownership scenarios for the 
 -  [The lead that the user is trying to qualify is in their organization](troubleshooting-admin.md#Organization)
 
 <a name="OwnedByUser"> </a>
-**Scenario. The lead is owned by the user trying to qualify it.**
+**Scenario:** 
+The lead is owned by the user trying to qualify it.
 
 **Resolution:** 
 1.	Go to **Settings** > **Security Role**.
@@ -52,7 +53,8 @@ How you resolve this error depends on the following ownership scenarios for the 
 5.	On the **Customizations** tab, assign **Read** access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**.
 
 <a name="BusinessUnit"> </a>
-**Scenario: The lead that the user is trying to qualify is in their business unit.**
+**Scenario:**
+The lead that the user is trying to qualify is in their business unit.
 
 **Resolution:**
 1.	Go to **Settings** > **Security Role**.
@@ -69,7 +71,8 @@ How you resolve this error depends on the following ownership scenarios for the 
 5.	Assign **Read** access to **Attribute Map**, **Customizations**, **Entity** and **Entity Map**
 
 <a name="Organization"> </a>
-**Scenario: The lead that the user is trying to qualify is in their organization.**
+**Scenario:**
+The lead that the user is trying to qualify is in their organization.
 
 **Resolution:**
 1.	Go to **Settings** > **Security Role**.
@@ -89,7 +92,8 @@ How you resolve this error depends on the following ownership scenarios for the 
 
 ### Insufficient permissions or Access denied error when a user is trying to close an opportunity
 
-**Reason: The user trying to close the opportunity doesn’t have sufficient permissions on the opportunity they’re working on.**
+**Reason:**
+The user trying to close the opportunity doesn’t have sufficient permissions on the opportunity they’re working on.
 
 **Resolution:**
 1.	Go to **Settings** > **Security Role**.
