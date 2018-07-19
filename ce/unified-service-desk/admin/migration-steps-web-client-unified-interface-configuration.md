@@ -42,15 +42,15 @@ The diagram demonstrates the flow of the migration:
 
 4. **Configuration Migration Tool** </br></br> The Configuration Migration tool enables you to import the **Data** zip folder and deploy on the target [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Unified Interface App.
 
-5. **Dynamics 365 Unified Interface App** V The target [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance to which you want to deploy the configurations.
+5. **Dynamics 365 Unified Interface App** The target [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance to which you want to deploy the configurations.
 
 ## Step 1: Use migration assistant to fetch and migrate the Web Client configurations
 
 1. Run the **UCMigrationTool.exe**.
 
-2. In the introduction screen, Select **Continue**.
+2. In the introduction screen, select **Continue**.
 
-3. In the **Login** screen, provide authentication details to connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance from where you want fetch and migrate the configurations. If you have multiple organizations, and want to select the organization where you want to fetch and migrate the configurations, select the **Display list of available organizations** check box, and select **Login**.</br>
+3. In the **Login** screen, provide authentication details to connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance from where you want to fetch and migrate the configurations. If you have multiple organizations, and want to select the organization where you want to fetch and migrate the configurations, select the **Display list of available organizations** check box, and select **Login**.</br>
 ![Migration Assistant Login screen](../media/usd-migration-assistant-login.PNG "Migration Assistant Login Screen")
 
 4. In the **Export Configurations** screen, select **Export**.</br>
@@ -67,13 +67,13 @@ When the export is successfully completed, select **Next**.</br>
 7. In the **Migrate Configurations** screen, choose **Migrate**. After the migration is completed, select **Next**.</br>
 ![Migrate configurations screen](../media/usd-migration-assistant-migrate.PNG "Migrate configurations screen")
 
-8. In the **File Download** screen, a the migration assistant provides a default location to download the **USD_UI_Configurations.zip** folder. To change the default download location, select **Browse** and choose a location, and select **Download File**.</br>
+8. In the **File Download** screen, the migration assistant provides a default location to download the **USD_UI_Configurations.zip** folder. To change the default download location, select **Browse** and choose a location, and select **Download File**.</br>
 The migration assistant displays the **Download Completed**.</br>
 ![File Download screen](../media/usd-migration-assistant-download-file.PNG "File Download screen")
 
-9. Select **Exit** close and exit the tool.
+9. Select **Exit** to close and exit the tool.
 
-## Step 2: Use configuration Migration Tool to import and deploy the configurations on Unified Interface App
+## Step 2: Use Configuration Migration Tool to import and deploy the configurations on Unified Interface App
 
 **Prerequesites:** Download the Configuration Migration tool (DataMigrationUtility.exe). To download the tool, see [Download the tools from NuGet](../../developer/download-tools-nuget.md).
 
@@ -95,7 +95,7 @@ The migration assistant displays the **Download Completed**.</br>
 
 ## Step 3: Import the USDWebResources folder
 
-The **USDWebResources** folder contains the migrated **RunXrmCommand** actions that were present in Web Client. To deploy the **USDWebResources** on the target Unified Intrface App, import the web resources as a soution in the Dynamics 365.
+The **USDWebResources** folder contains the migrated **RunXrmCommand** actions that were present in Web Client. To deploy the **USDWebResources** on the target Unified Intrface App, import the web resources as a soultion in the Dynamics 365.
 
 To import the **USDWebResources** zip folder follow the steps:
 
@@ -134,7 +134,7 @@ For example, the selected configuration elements are as follows:
 
   </br>![Select configurations](../media/usd-migration-assistant-selected-configurations.PNG "Selected configurations")</br>
  You must select **Hosted Controls** to verify.</br></br>
-You can see configurations are migratied to Unified Interface specific elements.
+You can see configurations are migrated to Unified Interface specific elements.
 
   |Configuration Name|Description|
   |-------|-------|

@@ -106,7 +106,7 @@
       href: admin/manage-access-using-unified-service-desk-security-roles.md
     - name: Manage access using Unified Service Desk configuration
       href: admin/manage-access-using-unified-service-desk-configuration.md
-  - name: Web Client - Unified Interface Migration Assitant 
+  - name: Web Client - Unified Interface Migration Assistant 
     items:
     - name: Overview
       href: admin/overview-migration-assistant.md
