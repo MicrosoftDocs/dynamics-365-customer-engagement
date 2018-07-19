@@ -54,7 +54,7 @@ The diagram demonstrates the flow of the migration:
 ![Migration Assistant Login screen](../media/usd-migration-assistant-login.PNG "Migration Assistant Login Screen")
 
 4. In the **Export Configurations** screen, select **Export**.</br>
-**Data file location** is the location where the migration assistant stores **Data.zip** folder, which contains the configurations that you export from the Web Client is stored.</br>
+**Data file location** is the location where the migration assistant stores **Data.zip** folder, which contains the configurations that you export from the Web Client.</br>
 When the export is successfully completed, select **Next**.</br>
 ![Export configurations screen](../media/usd-migration-assistant-export-configurations.PNG "Export configurations screen")
 
