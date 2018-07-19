@@ -26,7 +26,7 @@ The following features are not yet present in the Unified Interface but can be e
 - [Bulk edit](manage-your-data.md)
 - [Merge records](../basics/merge-duplicate-records-accounts-contacts-leads.md)
 - [Record sharing](../basics/assign-record-user-team.md)
-- All options under **Set Personal Options** (![Settings gear](../basics/media/settings-gear-icon.png "Settings gear"))
+- All options under **Set Personal Options** (![Settings gear](media/settings-gear-icon.png "Settings gear"))
 
 These features are enabled through a setting in System Settings.
 
