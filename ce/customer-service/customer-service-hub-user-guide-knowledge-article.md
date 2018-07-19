@@ -332,7 +332,9 @@ If the article has information that complements an existing knowledge article, a
   
     -   To publish all approved related translated articles with the article, in the **Publish Approved related translations with Article**, select **Yes**.  
   
-    -   Select **Publish**.  
+    -   Select **Publish**. 
+
+        ![Knowledge article publish](media/ka-publish.png)
 
 
 ## Track basic details of an article  
@@ -384,9 +386,11 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
   
         The **Created By** and **Closed By** fields are automatically populated with the user who creates or deactivates the feedback record.  
   
-   - [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] automatically calculates the normalized rating based on the following formula: (Rating - Minimum Rating)/ (Maximum Rating - Minimum Rating).  
+   - [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] automatically calculates the **Normalized Rating** based on the following formula: **(Rating - Minimum Rating)/ (Maximum Rating - Minimum Rating)**.  
   
 3. Select **Save**.
+
+
 
 > [!NOTE]
 > You can also update the owner of the feedback in the flyout.
