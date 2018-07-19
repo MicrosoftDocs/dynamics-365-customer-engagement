@@ -51,7 +51,7 @@ Here you can see and edit your basic event information, including
 
 - **Key information**: Includes the name of your event and other basic details. Note especially the **Format** setting, which is where you can set up your event to be a [webinar](set-up-webinar.md),  webinar simulcast, or on-site only.
 - **Website**: Use these settings to configure your event portal. Settings include:
-  - **Portal image**: Choose a banner image to show on the portal when browsing this event. The image must be [uploaded to your file library](upload-images-files.md).
+  - **Portal image**: Choose a banner image to show on the portal when browsing this event. You can choose any image that is already [uploaded to your file library](upload-images-files.md), or upload a new one from here.
   - **Allow anonymous registrations**: Controls whether contacts can freely register themselves for an event on the portal, or if they must first set up an account with a user name and password. Contacts who create an account have several advantages including: the ability to register any number of attendees and the ability to return to view schedules or edit their registrations at any time.
   - **Portal payment gateway**: To enable online payment during online event registration, set up an account with a third-party online payment provider and then prepare a payment page on your portal according to their instructions. Then choose that page here. 
 - **Schedule**: Provides settings for specifying the time zone, start, and end dates for your event. You can also set up a [recurring event](event-recurring.md) here.
