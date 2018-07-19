@@ -464,6 +464,8 @@
     href: debugger-hosted-control.md
   - name: Interactive Service Hub Page (Hosted Control)
     href: interactive-service-hub-page-hosted-control.md
+  - name: Unified Interface KM Control (Hosted Control)
+    href: unified-interface-km-control-hosted-control.md
   - name: KM Control (Hosted Control)
     href: km-control-hosted-control.md
   - name: Listener Hosted Control (Hosted Control)

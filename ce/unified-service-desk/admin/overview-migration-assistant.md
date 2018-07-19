@@ -33,9 +33,12 @@ The **[!INCLUDE[pn-web-client-unified-interface-configuration-migration-assistan
 
 The migration assistant helps with the following:
 
-- Migration of **CRM Page** hosted controls to **Unified Interface** hosted controls.
+- Migration of **CRM Page** hosted controls to **Unified Interface Page** hosted controls.
 - Migration of **RunXRM** commands as web resources.
 - Migration of events and actions that are only supported in Web Client to the corresponding events and actions in Unified Interface App.
+- Migration of actions, action calls, events, and window navigation rules associated with the hosted control to Unified Interface App.
+- Migration of Dashboards and Search hosted controls.
+- Migration of **KM Control** to **Unified Interface KM Control**.
 
 > [!div class="nextstepaction"]
 > [Download the Migration Assistant](download-migration-assistant.md)
