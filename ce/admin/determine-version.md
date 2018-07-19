@@ -38,7 +38,7 @@ Version info appears.
 
 ## What do the numbers mean?
 
-Let's break down what these numbers.
+Let's break down these numbers.
 
 |Version number  |Meaning  |
 |---------|---------|
