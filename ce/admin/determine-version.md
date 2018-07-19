@@ -20,9 +20,11 @@ manager: "kvivek"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
+<!--
 https://blogs.msdn.microsoft.com/crm/2015/04/14/new-naming-conventions-for-microsoft-dynamics-crm-updates/
 
 https://blogs.msdn.microsoft.com/crm/2018/06/19/de-mystifying-versioning-in-dynamics-365/
+-->
 
 Version information can be useful for feature version requirements and managing updates. It's easy to determine your version of Dynamics 365.
 
@@ -34,7 +36,9 @@ Version info appears.
 
 ![Version info](media/version-dialog-hl.png)
 
-Let's break down what these numbers mean.
+## What do the numbers mean?
+
+Let's break down what these numbers.
 
 |Version number  |Meaning  |
 |---------|---------|
