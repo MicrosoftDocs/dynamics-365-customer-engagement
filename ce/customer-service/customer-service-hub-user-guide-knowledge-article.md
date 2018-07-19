@@ -1,7 +1,7 @@
 ---
 title: Understanding Knowledge Management in Customer Service Hub in Dynamics 365 | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service in Microsoft Dynamics 365
-keywords: Knowledge management; knowledge articles; Customer Service Hub; Customer Service;  Microsoft Dynamics 365
+keywords: Knowledge management; knowledge articles; Customer Service Hub; Customer Service;  Microsoft Dynamics 365; create a knowledge article, send a knowledge article for review; knowledge manager dashboard; Create and manage knpwledge article versions
 author: anjgupta
 applies_to: Dynamics 365 (online)
 ms.author: anjgup
@@ -159,6 +159,8 @@ You can preview the content to view its compatibility on multiple devices, like 
 2.  On the Business process flow, select **Author**.  
   
 3.  In the **Mark for Review** field, select **Mark Complete**.  
+
+    ![Knowledge article review](media/ka-review.png)
   
 4.  To assign the knowledge article to another reviewer or team, on the command bar, select **Assign** and select the user or a team.  
   
@@ -414,7 +416,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
 
-#### Manage versions in alternate keys for Knowledge article entity
+#### Manage versions in alternate keys for knowledge article entity
 If you are creating an alternate key for Knowledge article entity, include the major or minor version in the key to maintain uniqueness. Also, if you are using translations, include the language code along with the version in the key to ensure a seamless translation experience. To know more about alternate keys, see [Define alternate keys for an entity](../developer/define-alternate-keys-entity.md).
 
 ### See also
