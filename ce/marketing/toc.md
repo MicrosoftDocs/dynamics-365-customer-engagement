@@ -119,4 +119,4 @@
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
 #### [Dynamics 365 for Marketing solutions](developer/marketing-solutions.md)
 #### [Dynamics 365 for Marketing entity reference](developer/marketing-entity-reference.md)
-### [Extend Event Management application](developer/extend-event-management.md)
+### [Preview: Extend Event Management application](developer/extend-event-management.md)

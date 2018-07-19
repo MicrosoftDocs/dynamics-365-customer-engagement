@@ -17,9 +17,9 @@ ms.author: nabuthuk
 manager: kvivek
 ---
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 # Preview: Extend Event Management to support more webinar providers
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Microsoft has partnered with a webinar provider called [On24](https://www.on24.com/) to let you plan and manage events using Dynamics 365 for Marketing. On24 is the only webinar provider currently supported out-of-the-box for use with Dynamics 365. More information: [Event settings](../events-settings.md)
 
