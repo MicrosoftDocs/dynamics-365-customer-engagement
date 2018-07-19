@@ -42,7 +42,7 @@ The diagram demonstrates the flow of the migration:
 
 4. **Configuration Migration Tool** </br></br> The Configuration Migration tool enables you to import the **Data** zip folder and deploy on the target [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Unified Interface App.
 
-5. **Dynamics 365 Unified Inerface App** V The target [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance to which you want to deploy the configurations.
+5. **Dynamics 365 Unified Interface App** V The target [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance to which you want to deploy the configurations.
 
 ## Step 1: Use migration assistant to fetch and migrate the Web Client configurations
 
@@ -54,11 +54,12 @@ The diagram demonstrates the flow of the migration:
 ![Migration Assistant Login screen](../media/usd-migration-assistant-login.PNG "Migration Assistant Login Screen")
 
 4. In the **Export Configurations** screen, select **Export**.</br>
-**Data file location** is the location where the migration assistant stores **Data.zip** folder. The **Data.zip** folder is present in the **USD_UI_Configurations** folder.</br>
+**Data file location** is the location where the migration assistant stores **Data.zip** folder, which contains the configurations that you export from the Web Client is stored. The **Data.zip** folder is present in the **USD_UI_Configurations** folder.</br>
 When the export is successfully completed, select **Next**.</br>
 ![Export configurations screen](../media/usd-migration-assistant-export-configurations.PNG "Export configurations screen")
 
-5. In the **Select Configurations** screen, select the configuration elements you want to migrate, and select **Next**.</br>
+5. In the **Select Configurations** screen, select the configuration elements (hosted controls) you want to migrate, and select **Next**.</br>This is a multi-select list, and you can select several configuration elements to migrate.
+</br>The migration assistant displays only the hosted controls to select. If you select a hosted control, the migration assistant exports all the actions, action calls, events, and other elements associated with the particular hosted control.</br>
 ![Select configurations screen](../media/usd-migration-assistant-select-configurations.PNG "Select configurations screen")
 
 6. In the **Confirm Selection** screen, review the configurations you selected for migration, and select **Next**. If you want to change the selection, select **Previous** and repeat the step 5.
@@ -117,7 +118,7 @@ You can see the **USDWebResources** in the solutions list.</br>
 
 For more information, see [Import, update, and export solutions](../../customize/import-update-export-solutions.md)
 
-## Test the deployment of the configuraitons on the target Unified Interface App.
+## Test the deployment of the configurations on the target Unified Interface App.
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
 
@@ -133,14 +134,14 @@ For example, the selected configuration elements are as follows:
 
   </br>![Select configurations](../media/usd-migration-assistant-selected-configurations.PNG "Selected configurations")</br>
  You must select **Hosted Controls** to verify.</br></br>
-You can see configuraitons are migratied to Unified Interface specific elements.
+You can see configurations are migratied to Unified Interface specific elements.
 
   |Configuration Name|Description|
   |-------|-------|
   |KB Article| Unified Interface Page|
   |KB Search| Unified Interface KM Control|
   
-  </br>![Verifying the configuraiton migration](../media/usd-configuration-migration-verification.PNG "Verifying the configuraiton migration")
+  </br>![Verifying the configuration migration](../media/usd-configuration-migration-verification.PNG "Verifying the configuration migration")
 
 ## See also
 
