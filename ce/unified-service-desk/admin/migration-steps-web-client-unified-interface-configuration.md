@@ -26,9 +26,9 @@ The migration of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unifie
 
 - **Step 1:** Fetch and migrate the configuration elements to a **USD_UI_Configurations** folder using the Web Client - Unified Interface Migration Assistant.
 
-- **Step 2:** Import the **Data** zip folder from the **USD_UI_Configurations** folder to the Unified Interface App using the Configuration Migration Tool (DataMigrationUtility.exe).
+- **Step 2:** Import the **USDWebResources** folder, which is in **USD_UI_Configurations** folder, using the **Solutions** option in the Dynamics 365.
 
-- **Step 3:** Import the **USDWebResources** folder, which is in **USD_UI_Configurations** folder, using the **Solutions** option in the Dynamics 365.
+- **Step 3:** Import the **Data** zip folder from the **USD_UI_Configurations** folder to the Unified Interface App using the Configuration Migration Tool (DataMigrationUtility.exe).
 
 The diagram demonstrates the flow of the migration:
 
@@ -73,27 +73,7 @@ The migration assistant displays the **Download Completed**.</br>
 
 9. Select **Exit** to close and exit the tool.
 
-## Step 2: Use Configuration Migration Tool to import and deploy the configurations on Unified Interface App
-
-**Prerequesites:** Download the Configuration Migration tool (DataMigrationUtility.exe). To download the tool, see [Download the tools from NuGet](../../developer/download-tools-nuget.md).
-
-1. Go to the location where you downloaded the Configuration Migration Tool (DataMigrationUtility.exe).
-
-2. Open **ConfigurationMigation** and execute **DataMigrationUtility.exe**. 
-
-3. In the next screen, select **Import data**, and select **Continue**.</br>
-![Configuration Migration Tool options screen](../media/usd-configuration-migration-tool-options.PNG "Configuration Migration Tool options data screen")
-
-4. In the **Login** screen, provide authentication details to connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance to which you want to deploy the migrated configurations. If you have multiple organizations, and want to select the organization to which you want to deploy the migrated configurations, select the **Display list of available organizations** check box, and select **Login**.</br>
-![Configuration Migration Tool login screen](../media/usd-configuration-migration-tool-login.PNG "Configuration Migration Tool login screen")
-
-5. In the next screen, browse the **USD_UI_Configurations** folder and select the **Data.zip** folder, and then select **Import Data**.</br>
-![Browse and select data.zip folder](../media/usd-configuration-migration-tool-import-data.PNG "Browse and select data.zip folder")
-
-6. After the import is complete, select **Exit**.</br>
-![Importing is completed. Select Exit](../media/usd-configuration-migration-tool-import-complete.PNG "Importing is completed. Select Exit")
-
-## Step 3: Import the USDWebResources folder
+## Step 2: Import the USDWebResources folder
 
 The **USDWebResources** folder contains the migrated **RunXrmCommand** actions that were present in Web Client. To deploy the **USDWebResources** on the target Unified Intrface App, import the web resources as a soultion in the Dynamics 365.
 
@@ -117,6 +97,26 @@ You can see the **USDWebResources** in the solutions list.</br>
 ![USDWebResource imported to Dynamics 365](../media/usd-configuration-migration-webresources-import.PNG "USDWebResource imported to Dynamics 365")
 
 For more information, see [Import, update, and export solutions](../../customize/import-update-export-solutions.md)
+
+## Step 3: Use Configuration Migration Tool to import and deploy the configurations on Unified Interface App
+
+**Prerequesites:** Download the Configuration Migration tool (DataMigrationUtility.exe). To download the tool, see [Download the tools from NuGet](../../developer/download-tools-nuget.md).
+
+1. Go to the location where you downloaded the Configuration Migration Tool (DataMigrationUtility.exe).
+
+2. Open **ConfigurationMigation** and execute **DataMigrationUtility.exe**. 
+
+3. In the next screen, select **Import data**, and select **Continue**.</br>
+![Configuration Migration Tool options screen](../media/usd-configuration-migration-tool-options.PNG "Configuration Migration Tool options data screen")
+
+4. In the **Login** screen, provide authentication details to connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance to which you want to deploy the migrated configurations. If you have multiple organizations, and want to select the organization to which you want to deploy the migrated configurations, select the **Display list of available organizations** check box, and select **Login**.</br>
+![Configuration Migration Tool login screen](../media/usd-configuration-migration-tool-login.PNG "Configuration Migration Tool login screen")
+
+5. In the next screen, browse the **USD_UI_Configurations** folder and select the **Data.zip** folder, and then select **Import Data**.</br>
+![Browse and select data.zip folder](../media/usd-configuration-migration-tool-import-data.PNG "Browse and select data.zip folder")
+
+6. After the import is complete, select **Exit**.</br>
+![Importing is completed. Select Exit](../media/usd-configuration-migration-tool-import-complete.PNG "Importing is completed. Select Exit")
 
 ## Test the deployment of the configurations on the target Unified Interface App.
 
