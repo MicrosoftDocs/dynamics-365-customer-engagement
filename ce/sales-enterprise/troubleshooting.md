@@ -169,7 +169,7 @@ While creating a write-in product, you've not entered the product name.
 Enter the product name.   
 
 <a name="ActiveProducts"></a>
-### 3. You can only add active products.
+#### 3. You can only add active products.
 
 **Reason**: 
 While adding an existing product, you selected a product in the **Draft** status.  
