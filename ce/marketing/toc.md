@@ -30,6 +30,7 @@
 
 ### Privacy and compliance
 #### [Data protection and GDPR](gdpr.md)
+#### [Set up double opt-in](double-opt-in.md)
 #### [How the app uses cookies](cookies.md)
 
 ### [Customize Marketing](customize.md)
