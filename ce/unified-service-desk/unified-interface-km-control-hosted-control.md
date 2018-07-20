@@ -186,6 +186,6 @@ Use the **Unified Interface KM Control** type of hosted control to display knowl
 |---------------|-----------------|  
 |`postdata`|The formdata object containing a set of key/value pairs representing form fields and their values for a knowledge article.|  
 
-### See also  
- [Leverage Parature knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)  
+### See also
+ 
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
