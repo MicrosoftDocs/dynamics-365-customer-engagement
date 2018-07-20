@@ -1,7 +1,7 @@
 ---
 title: Understanding Cases and SLA in Customer Service Hub in Dynamics 365 | Microsoft Docs
 description: Understand Cases and SLA in Customer Service Hub for Customer Service in Microsoft Dynamics 365
-keywords: Cases; SLA; Customer Service Hub; Customer Service;  Microsoft Dynamics 365
+keywords: Cases; SLA; Customer Service Hub; Customer Service;  Microsoft Dynamics 365; Create a case; Manage a case;  Merge cases; Resolve a case; Track SLA details with Timer Control; Manage activities from the Timeline; Convert a case to a Knowledge article; Create and manage parent and child cases
 author: anjgupta
 applies_to: Dynamics 365 (online) 
 ms.author: anjgup
@@ -27,7 +27,7 @@ Watch this video to learn more about case management in the Customer Service Hub
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/cde80c83-f592-4b15-b1a1-4fae13be93f9" frameborder="0" allowfullscreen=""></iframe></div>
 
-## Create a case<br/>
+## Create a case
 1. Make sure that you have the Customer Service Manager or Customer Service Representative role, or equivalent permissions.<br/>
 2. In the Customer Service Hub sitemap, go to <strong>Service</strong> &gt; <strong>Cases</strong>.
 
@@ -202,7 +202,7 @@ To know more about adding a timer control to a case form, see [Add a timer contr
   >  This option is available only if your organization is using an external portal to publish the knowledge articles and your administrator has selected the **Use an external portal** check box in the **Embedded Knowledge search** setup. If you use a browser other than [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], this option isn’t available.  
 
 
-## Convert a case to a Knowledge Article  
+## Convert a case to a Knowledge article  
  There are times when existing knowledge articles do not contain relevant information for resolving a case. You, as a CSR, can now contribute to the knowledge base by turning all information that has been researched for a case into a knowledge article. You can convert one case into multiple knowledge articles.  
 
 

@@ -1,7 +1,7 @@
 ---
 title: Force an activity into a time slot (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: See how to force an activity into a time slot in Dynamics 365 for Customer Service
-keywords: Force an activity; Dynamics 365; Customer Service
+keywords: Force an activity; Dynamics 365; Customer Service; Service schedule
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"

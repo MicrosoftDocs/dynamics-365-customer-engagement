@@ -1,7 +1,7 @@
 ---
 title: Set up a holiday schedule (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Understand how to set up a holiday schedule in Dynamics 365 for Customer Service
-keywords: Set up holiday schedule; Dynamics 365; Customer Service
+keywords: Set up holiday schedule; Dynamics 365; Customer Service; Create Holiday schedule 
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
@@ -23,7 +23,7 @@ Avoid having your service level agreements (SLAs) affected when your service org
   
 For example, if your service organization has an SLA to reply to email cases within two business days, you can create a holiday schedule and add it to your service calendar. Then, if a customer submits an email case on that holiday, your SLA is clear and is not affected by the holiday closure.  
 
-## Create Holiday Schedule  
+## Create Holiday schedule  
 Follow the procedure given below to create a new holiday schedule:
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  

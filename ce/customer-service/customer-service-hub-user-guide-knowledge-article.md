@@ -390,7 +390,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
   
 3. Select **Save**.
 
-
+   ![Knowledge article feedback](media/ka-feedback.png)
 
 > [!NOTE]
 > You can also update the owner of the feedback in the flyout.

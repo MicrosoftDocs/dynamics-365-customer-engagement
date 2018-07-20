@@ -1,7 +1,7 @@
 ---
 title: Understanding dashboards in Customer Service Hub in Dynamics 365 | Microsoft Docs
 description: Understand dashboards in Customer Service Hub for Customer Service in Microsoft Dynamics 365
-keywords: Dashboards; Customer Service Hub; Customer Service;  Microsoft Dynamics 365
+keywords: Interactive dashboards; Customer Service Hub; Customer Service;  Microsoft Dynamics 365; Global Filter; Interactive tiles; Visual Filter ; Timeframe filter; Apply Bulk Select
 author: anjgupta
 applies_to: Dynamics 365 (online)
 ms.author: anjgup
@@ -95,8 +95,6 @@ The illustrations given below show multi-stream and single-stream dashboards wit
 A flyout window will open. If there are too many cases to show, the window will have a scrollbar. You can navigate and select a particular case in the list, which will take you straight to the case form. The illustration shows the tiles and underlined cases in the list.  
   
  ![Tiles with the list of cases](../customer-service/media/interactive-dashboards-multi-stream-tiles-flyout-csh.png "Tiles with the list of cases")  
-
-  
 
 ## Visual Filter  
 Visual filters provide a visual snapshot of key metrics, such as cases by priority or by origin. They also help removing clutter from the screen and display information that interests you most. For example, if you select the **High Priority** circle in the **Cases by Priority** chart, the dashboard will refresh and you’ll see only high priority cases in your data streams. You can find different types of charts on your dashboard, such as pie, bar, doughnut, or tag chart. Visual filters and tiles help you see the changes and patterns in data, and act quickly to address the most important issues. 

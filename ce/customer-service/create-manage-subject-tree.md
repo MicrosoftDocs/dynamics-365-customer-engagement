@@ -51,3 +51,7 @@ ms.custom: dyn365-customerservice
 ## Remove a subject  
 
 To remove a subject from the subject tree, select the subject and select **Remove Subject**.
+
+### See also
+
+[Service Manager Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md)
