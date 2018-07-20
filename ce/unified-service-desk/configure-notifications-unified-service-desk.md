@@ -218,11 +218,27 @@ The added custom parameter can be used in the form XAML as replacement parameter
 
     ![Hosted control for with USD Component type as Popup Notification](../unified-service-desk/media/usd-popupnotification-hosted-control.PNG "Hosted control for with USD Component type as Popup Notification")
   
-3. Create an action call to display the notification by specifying the form name to display along with other parameters in the **Data** field of the `Show` action. For example,  create an action call with the following name: `Action Call for Max Sessions Notification`:  
+3. Create an action call to display the notification.</br> For example, create an action call and specify the following: 
+
+    |Field|Value|
+    |--------|--------|
+    |Name|Action Call for Max Sessions Notifications|
+    |Hosted Control|MaxSessionNotificationControl|
+    |Action|Show|
+    |Data|formName = Sample Notification Form</br>top = 10</br>left = 80</br>timeout = 20</br>stack = true</br>stackHeight = 60
   
    ![Action Call for displaying notification](../unified-service-desk/media/usd-action-call-notification.png "Action Call for displaying notification")  
   
-4. Finally, add the action call to an event to execute the action. As we are checking for maximum number of sessions on the creation of a new session to show the notification, add the action call to the `SessionNew` event of the [Global Manager (Hosted Control)](../unified-service-desk/global-manager-hosted-control.md).  
+4. Finally, add the action call to an event to execute the action. </br>
+As we are checking for maximum number of sessions on the creation of a new session to show the notification, add the action call to the `SessionNew` event of the [Global Manager (Hosted Control)](../unified-service-desk/global-manager-hosted-control.md). </br>
+
+    a. Go to **Unified Service Desk** > **Events**.</br>
+    b. Select **SessionNew** from the list.</br>
+    c. On the **SessionNew** event page, under the **Active Actions** area, click **+** to add action calls.</br>
+    d. In the search box, type **Action Call for Max Sessions Notifications** and select search icon. The result appears.
+    e. Select the **Action Call for Max Sessions Notifications**, and select **Save**.</br>
+    ![Add the action Call to the SessionNew event for displaying notification](../unified-service-desk/media/usd-add-action-call-sessionnew-event.PNG "Add the action Call to the SessionNew event for displaying notification")
+
   
 ### See also  
  [Popup Notification (Hosted Control)](../unified-service-desk/popup-notification-hosted-control.md)   
