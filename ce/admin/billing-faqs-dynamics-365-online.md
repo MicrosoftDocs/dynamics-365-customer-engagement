@@ -1,7 +1,7 @@
 ---
 title: "Billing FAQs for Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 07/11/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,7 +14,7 @@ ms.assetid: fb3338ce-6522-46af-9c1e-71a368424e50
 caps.latest.revision: 63
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Billing FAQs for Dynamics 365 (online)
 
@@ -100,7 +100,7 @@ In addition, you can now do a self-serve cancellation of your subscription from 
   
  You may be eligible for a billing credit if your online service level falls below 99.9% availability. For complete details, including a critical list of exclusions, see the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [Service Level Agreement](http://go.microsoft.com/fwlink/p/?LinkID=272903).  
   
- Submit a claim by contacting Billing support. To contact billing support, please refer to the [Billing support](../admin/billing-support.md) page.  
+ Submit a claim by contacting Billing support. To contact billing support, please refer to the [Contact information for billing support](../admin/contact-information-microsoft-dynamics-365-online-billing-support.md) page.  
   
 ## How do I apply for non-profit pricing?  
  Please refer to the [Non-profit pricing](https://www.microsoft.com/philanthropies/product-donations/products/dynamics-365) page for more information on how to apply.  

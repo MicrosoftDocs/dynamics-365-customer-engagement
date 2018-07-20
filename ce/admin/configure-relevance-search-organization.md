@@ -1,7 +1,7 @@
 ---
 title: "Configure Relevance Search for the organization for Dynamics 365 Customer Engagement  | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 07/11/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,7 +11,7 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 5ec1a73d-06cb-4d40-adab-8bb293bcedbb
-caps.latest.revision: 62
+caps.latest.revision: 64
 author: "udag"
 ms.author: "udag"
 manager: "sakudes"
@@ -54,7 +54,7 @@ The following table provides a brief comparison of the three available searches.
 |        Availability        | Available for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organizations that have installed [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)]. Not available for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] organizations. | Available for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] organizations, starting with [!INCLUDE[pn_crm_2015](../includes/pn-crm-2015.md)] Update Rollup 1. |                Available for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organizations and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] organizations.                 |
 |    Enabled by default?     |                                                                                                               No. An administrator must manually enable it.                                                                                                               |                                                                No. An administrator must manually enable it.                                                                |                                                                                                Yes                                                                                                |
 | Single-entity search scope |                                                                                   Not available in an entity grid. You can filter the search results by an entity on the results page.                                                                                    |                                                                        Available in an entity grid.                                                                         |                                                                                   Available in an entity grid.                                                                                    |
-| Multi-entity search scope  |                               There is no maximum limit on the number of entities you can search. **Note:**  While there is no maximum limit on the number of entities you can search, the Record Type filter shows data only 10 entities.                                |                                                              Searches up to 10 entities, grouped by an entity.                                                              |                                                                         Searches up to 10 entities, grouped by an entity.                                                                         |
+| Multi-entity search scope  |                               There is no maximum limit on the number of entities you can search. **Note:**  While there is no maximum limit on the number of entities you can search, the Record Type filter shows data for only 10 entities.                                |                                                              Searches up to 10 entities, grouped by an entity.                                                              |                                                                         Searches up to 10 entities, grouped by an entity.                                                                         |
 |      Search behavior       |                                                                                                 Finds matches to any word in the search term in any field in the entity.                                                                                                  |                    Finds matches to all words in the search term in one field in an entity; however, the words can be matched in any order in the field.                    | Finds matches as in a SQL query with “Like” clauses. You have to use the wildcard characters in the search term to search within a string. All matches must be an exact match to the search term. |
 |       Search results       |                                                                                                 Returns the search results in order of their relevance, in a single list.                                                                                                 | For single-entity, returns the search results in an entity grid. For multi-entity, returns the search results grouped by categories, such as accounts, contacts, or leads.  |            For single-entity, returns the search results in an entity grid. For multi-entity, returns the search results grouped by categories, such as accounts, contacts, or leads.             |
 
@@ -78,8 +78,8 @@ The following table provides a brief comparison of the three available searches.
 > [!IMPORTANT]
 >  Data in your application  begins syncing to the external search index immediately after you enable Relevance Search.  We strongly recommend that you configure the entities and entity fields participating in Relevance Search before you enable the search, to prevent sensitive data from being indexed in a service external to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  For more information about configuring Relevance Search, see            [Select entities for Relevance Search](../admin/configure-relevance-search-organization.md#BKMK_SelectEntities),            [Configure searchable fields for Relevance Search](../admin/configure-relevance-search-organization.md#BKMK_ConfigureFields), and            [Set managed property for Relevance Search](../admin/configure-relevance-search-organization.md#BKMK_SetPropertiy).  
 
- Because you’ll be sharing your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data with the external system, Relevance Search is disabled by default. To enable it, you must accept the consent terms. Depending on the size of your organization, it may take up to an hour or more for the data to become available in the external search index after you enable the search.  
-
+ Because you’ll be sharing your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data with the external system, Relevance Search is disabled by default. To enable it, you must accept the consent terms. Depending on the size of your organization, it may take up to an hour or more for the data to become available in the external search index after you enable the search. Enabling Relevance Search makes this search option available to all members of your organization.
+  
  By default, Relevance Search is disabled. To enable Relevance Search, do the following:  
 
 1. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  

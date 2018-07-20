@@ -1,7 +1,7 @@
 ---
 title: "Email message filtering and correlation for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 06/06/2018
+ms.date: 07/17/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,7 +14,7 @@ ms.assetid: 053e42e3-078e-4768-9c76-5ad3a0ff1fa9
 caps.latest.revision: 24
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Use Email message filtering and correlation to specify which emails are tracked 
 
@@ -61,7 +61,7 @@ When Dynamics 365 tracks an email, it associates the email address to a record w
 5. Equipment
 6. Team
 7. Business unit
-8. Email-enabled custom entities
+8. Email-enabled entities (for example: Queues, custom, etc.)
 
 In the email **To** field, all of the Dynamics 365 records of email-enabled entities with the email address will be listed.
 
