@@ -209,7 +209,17 @@ The added custom parameter can be used in the form XAML as replacement parameter
  
  You can  configure multiple notification controls and invoke actions independently of each other. When multiple notifications are shown at the same time, all the notifications are visible in the order in which they were invoked. If two global notifications are configured to be displayed at the same  position, the latest one will overlay on top of the earlier notification. Similarly, if a global and session-based notifications or multiple session-based notifications are  configured to be displayed at the same  position in a session, the latest one will overlay on top of the earlier notification in the session.
 
- 
+ You can also configure the stack notification by adding the **stack** parameter in the **Data** field of **Show** action. The parameter takes boolean value. Unified Service Desk shows the notifications in stack when the parameter is set to **true**. The default value is **false**. If you do not specify any value, the default value (false) is passed. For example, **stack = true**, shows the notifications in stack.
+
+ Also, you can define the height of the stack by defining the **stackHeight** parameter. The value range is 1 - 100. The default value is 50. If you do not specify any value, specify 0, or specify a value more 100, then the default (50) value is passed. For example, **stackHeight = 60**.
+
+ For more information about the parameters, see  [Popup Notification (Hosted Control)](../unified-service-desk/popup-notification-hosted-control.md).
+
+ The order of the notification in the stack is top to bottom, where the newest notification appears in the bottom. A maximum of 5 stack notification can be displayed at any give point.
+
+ > [!Note]
+ > When there are more than 5 notifications, the new notification overlays the recently shown notification.</br> For example, you see 5 notifications in stack. Now, 6th notification is incoming, then the 6th notification overlays the 5th notification. Similarly, when the 7th notification is incoming, it overlays the 6th notification.<br/>
+ ![New notification replacing the recent notification in the stack](../unified-service-desk/media/stack-notification.PNG "New notification replacing the recent notification in the stack")
   
 <a name="HowTo"></a>   
 ## How to configure a notification?  
