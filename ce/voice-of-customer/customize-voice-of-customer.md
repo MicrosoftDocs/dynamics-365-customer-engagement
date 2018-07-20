@@ -16,40 +16,40 @@ manager: sakudes
 # Customize HTML or XML for particular elements in Voice of the Customer surveys 
 You can start using [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] surveys right away, without any extra configuration. If you have specific customizations you would like to make, however, you can customize the HTML or XML for these elements:  
   
--   Email Face Template  
+- Email Face Template  
   
--   Email NPS Template  
+- Email NPS Template  
   
--   Email Rating Template  
+- Email Rating Template  
   
--   Feedback Charts  
+- Feedback Charts  
   
--   Feedback Dashboards  
+- Feedback Dashboards  
   
--   Feedback Form - Actions Tab  
+- Feedback Form - Actions Tab  
   
--   Feedback Form - Empty Response Section  
+- Feedback Form - Empty Response Section  
   
--   Feedback Form - Feedback Tab  
+- Feedback Form - Feedback Tab  
   
--   Feedback Form - General Tab  
+- Feedback Form - General Tab  
   
--   Feedback Form - Score Tab  
+- Feedback Form - Score Tab  
   
- You can also import XML from an existing survey.  
+  You can also import XML from an existing survey.  
   
 #### Change survey configurations  
   
-1.  Go to **Settings > VoC Configurations**.  
+1. Go to **Settings > VoC Configurations**.  
   
-2.  Choose a configuration to edit from the **Active Configurations** list or click **New** to create one.  
+2. Choose a configuration to edit from the **Active Configurations** list or click **New** to create one.  
   
-3.  Change the values in the **General Settings** area as needed.
+3. Change the values in the **General Settings** area as needed.
 
-  > [!NOTE]
-  > If you're using a version of [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] earlier than 9.0.781.3, you can also change the values in the **Response Fetching** areas. If you're not sure what version you're using, ask your administrator. If you're an administrator, go to **Settings > Solutions** to determine the version.   
+   > [!NOTE]
+   > If you're using a version of [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] earlier than 9.0.781.3, you can also change the values in the **Response Fetching** areas. If you're not sure what version you're using, ask your administrator. If you're an administrator, go to **Settings > Solutions** to determine the version.   
   
-4.  Scroll to the template you want to change and edit the HTML or XML to achieve the look you want.  
+4. Scroll to the template you want to change and edit the HTML or XML to achieve the look you want.  
   
 #### Import survey XML  
   

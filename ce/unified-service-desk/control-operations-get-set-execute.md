@@ -26,13 +26,13 @@ The operations on a control are executed based on the patterns the automation el
   
  The following operations can be performed on the identified controls:  
   
--   Get Control Type  
+- Get Control Type  
   
--   Set Control Type  
+- Set Control Type  
   
--   Execute Control Type  
+- Execute Control Type  
   
- The following table shows the default behavior of these operations for various controls:  
+  The following table shows the default behavior of these operations for various controls:  
   
 |Sl. number|Control type|Get|Set|Execute|  
 |----------------|------------------|---------|---------|-------------|  

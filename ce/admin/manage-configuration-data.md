@@ -24,36 +24,36 @@ The Configuration Migration tool enables you to move configuration data across [
   
  The Configuration Migration tool enables you to:  
   
--   Select the entities and fields from where you want to export the configuration data.  
+- Select the entities and fields from where you want to export the configuration data.  
   
--   Avoid duplicate records on the target system by defining a uniqueness condition for each entity based on a combination of fields in the entity, which is used to compare against the values on the target system. If there are no matching values, a unique record is created on the target system. If a matching record is found, the record is updated on the target system.  
+- Avoid duplicate records on the target system by defining a uniqueness condition for each entity based on a combination of fields in the entity, which is used to compare against the values on the target system. If there are no matching values, a unique record is created on the target system. If a matching record is found, the record is updated on the target system.  
   
-    > [!NOTE]
-    > If no duplicate detection (uniqueness) condition is specified for an entity that is being exported, the tool uses the primary field name of the entity to compare against the existing data on the target system.  
+  > [!NOTE]
+  > If no duplicate detection (uniqueness) condition is specified for an entity that is being exported, the tool uses the primary field name of the entity to compare against the existing data on the target system.  
   
--   Disable plug-ins before exporting data and then re-enable them on the target system after the import is complete for all the entities or selected entities.  
+- Disable plug-ins before exporting data and then re-enable them on the target system after the import is complete for all the entities or selected entities.  
   
--   Validate the schema for the selected entities to be exported to ensure that all the required data/information is present.  
+- Validate the schema for the selected entities to be exported to ensure that all the required data/information is present.  
   
--   Reuse an existing schema to export data from a source system.  
+- Reuse an existing schema to export data from a source system.  
 
--   Automatically move DateTime fields forward at import for demo environments.
+- Automatically move DateTime fields forward at import for demo environments.
   
--   Embed the exported modules created from this tool (schema and data files) in other programs. For example, you can use the exported data in Dynamics 365 Package Deployer along with other solutions files and data to create and deploy packages on a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy packages using Dynamics 365 Package Deployer and Windows PowerShell](../admin/deploy-packages-using-package-deployer-windows-powershell.md)  
+- Embed the exported modules created from this tool (schema and data files) in other programs. For example, you can use the exported data in Dynamics 365 Package Deployer along with other solutions files and data to create and deploy packages on a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy packages using Dynamics 365 Package Deployer and Windows PowerShell](../admin/deploy-packages-using-package-deployer-windows-powershell.md)  
   
 > [!IMPORTANT]
 > The Configuration Migration tool does not support filtering of records in an entity. By default, all the records in the selected entity will be exported.  
 
 <a name="HowItWorks"></a>   
 
-## How does the Configuration Migration tool work?  
+## How does the Configuration Migration tool work? 
  The following diagram illustrates how the Configuration Migration tool is used for migrating configuration data.  
   
  ![Configuration migration process flow diagram](../admin/media/config-migration-process-flow.png "Configuration migration process flow diagram")  
   
  ![Step 1 symbol](../admin/media/config-migration-step-icon.png "Step 1 symbol") **Define the schema of the source data to be exported**: The schema file (.xml) contains information about the data that you want to export such as the entities, attributes, relationships, definition of uniqueness of the data, and whether the plug-ins should be disabled before exporting the data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a schema to export configuration data](create-schema-export-configuration-data.md)  
   
- ![Step 2 symbol](../admin/media/config-migration-step-icon.png "Step 2 symbol") **Use the schema to export data**: Use the schema file to export the data into a .zip file that contains the data and the schema of the exported data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a schema to export configuration data](create-schema-export-configuration-data.md)  
+ ![Step 2 symbol](../admin/media/config-migration-step-two.png "Step 2 symbol") **Use the schema to export data**: Use the schema file to export the data into a .zip file that contains the data and the schema of the exported data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a schema to export configuration data](create-schema-export-configuration-data.md)  
   
  ![Step 3 symbol](../admin/media/configuration-migration-step-icon.png "Step 3 symbol") **Import the exported data**: Use the exported data (.zip file) to import into the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. The data import is done in multiple passes to first import the foundation data while queuing up the dependent data, and then import the dependent data in the subsequent passes to handle any data dependencies or linkages. This ensures clean data import. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Import configuration data](import-configuration-data.md)  
   

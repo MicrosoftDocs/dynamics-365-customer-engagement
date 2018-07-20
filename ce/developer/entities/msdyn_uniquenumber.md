@@ -514,6 +514,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_uniquenumber_SyncErrors"></a> msdyn_uniquenumber_SyncErrors
 
 Same as syncerror entity [msdyn_uniquenumber_SyncErrors](syncerror.md#BKMK_msdyn_uniquenumber_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -528,6 +529,7 @@ Same as syncerror entity [msdyn_uniquenumber_SyncErrors](syncerror.md#BKMK_msdyn
 ### <a name="BKMK_msdyn_uniquenumber_AsyncOperations"></a> msdyn_uniquenumber_AsyncOperations
 
 Same as asyncoperation entity [msdyn_uniquenumber_AsyncOperations](asyncoperation.md#BKMK_msdyn_uniquenumber_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -542,6 +544,7 @@ Same as asyncoperation entity [msdyn_uniquenumber_AsyncOperations](asyncoperatio
 ### <a name="BKMK_msdyn_uniquenumber_MailboxTrackingFolders"></a> msdyn_uniquenumber_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_uniquenumber_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_uniquenumber_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -556,6 +559,7 @@ Same as mailboxtrackingfolder entity [msdyn_uniquenumber_MailboxTrackingFolders]
 ### <a name="BKMK_msdyn_uniquenumber_UserEntityInstanceDatas"></a> msdyn_uniquenumber_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_uniquenumber_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_uniquenumber_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -570,6 +574,7 @@ Same as userentityinstancedata entity [msdyn_uniquenumber_UserEntityInstanceData
 ### <a name="BKMK_msdyn_uniquenumber_ProcessSession"></a> msdyn_uniquenumber_ProcessSession
 
 Same as processsession entity [msdyn_uniquenumber_ProcessSession](processsession.md#BKMK_msdyn_uniquenumber_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -584,6 +589,7 @@ Same as processsession entity [msdyn_uniquenumber_ProcessSession](processsession
 ### <a name="BKMK_msdyn_uniquenumber_BulkDeleteFailures"></a> msdyn_uniquenumber_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_uniquenumber_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_uniquenumber_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -598,6 +604,7 @@ Same as bulkdeletefailure entity [msdyn_uniquenumber_BulkDeleteFailures](bulkdel
 ### <a name="BKMK_msdyn_uniquenumber_PrincipalObjectAttributeAccesses"></a> msdyn_uniquenumber_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_uniquenumber_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_uniquenumber_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

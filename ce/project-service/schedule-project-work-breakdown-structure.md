@@ -27,15 +27,15 @@ A project schedule communicates what work needs to be performed, which resources
   
  Create a project structure with a work breakdown structure, which helps you:  
   
--   Break down work into manageable tasks  
+- Break down work into manageable tasks  
   
--   Estimate the time required to complete a task  
+- Estimate the time required to complete a task  
   
--   Set task dependencies and task duration  
+- Set task dependencies and task duration  
   
--   Determine the roles required to complete each task  
+- Determine the roles required to complete each task  
   
- The project schedule in the work breakdown structure has a familiar look and feel, complete with an interactive Gantt chart.  
+  The project schedule in the work breakdown structure has a familiar look and feel, complete with an interactive Gantt chart.  
   
 ## Create a work breakdown structure for a project  
  Create a work breakdown structure to represent the sequence of tasks in a project. The work breakdown structure includes tasks, requirements for each task, and revenue and cost information. In your work breakdown structure, you can add:  

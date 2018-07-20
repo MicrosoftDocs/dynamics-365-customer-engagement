@@ -462,6 +462,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_relationship_role_customer_opportunity_roles"></a> relationship_role_customer_opportunity_roles
 
 Same as customeropportunityrole entity [relationship_role_customer_opportunity_roles](customeropportunityrole.md#BKMK_relationship_role_customer_opportunity_roles) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|customeropportunityrole|
@@ -476,6 +477,7 @@ Same as customeropportunityrole entity [relationship_role_customer_opportunity_r
 ### <a name="BKMK_relationship_role_relationship_role_map"></a> relationship_role_relationship_role_map
 
 Same as relationshiprolemap entity [relationship_role_relationship_role_map](relationshiprolemap.md#BKMK_relationship_role_relationship_role_map) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|relationshiprolemap|
@@ -490,6 +492,7 @@ Same as relationshiprolemap entity [relationship_role_relationship_role_map](rel
 ### <a name="BKMK_relationship_role_customer_role"></a> relationship_role_customer_role
 
 Same as customerrelationship entity [relationship_role_customer_role](customerrelationship.md#BKMK_relationship_role_customer_role) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|customerrelationship|
@@ -504,6 +507,7 @@ Same as customerrelationship entity [relationship_role_customer_role](customerre
 ### <a name="BKMK_relationship_role_partner_role"></a> relationship_role_partner_role
 
 Same as customerrelationship entity [relationship_role_partner_role](customerrelationship.md#BKMK_relationship_role_partner_role) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|customerrelationship|
@@ -518,6 +522,7 @@ Same as customerrelationship entity [relationship_role_partner_role](customerrel
 ### <a name="BKMK_userentityinstancedata_relationshiprole"></a> userentityinstancedata_relationshiprole
 
 Same as userentityinstancedata entity [userentityinstancedata_relationshiprole](userentityinstancedata.md#BKMK_userentityinstancedata_relationshiprole) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -532,6 +537,7 @@ Same as userentityinstancedata entity [userentityinstancedata_relationshiprole](
 ### <a name="BKMK_RelationshipRole_ProcessSessions"></a> RelationshipRole_ProcessSessions
 
 Same as processsession entity [RelationshipRole_ProcessSessions](processsession.md#BKMK_RelationshipRole_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -546,6 +552,7 @@ Same as processsession entity [RelationshipRole_ProcessSessions](processsession.
 ### <a name="BKMK_RelationshipRole_BulkDeleteFailures"></a> RelationshipRole_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [RelationshipRole_BulkDeleteFailures](bulkdeletefailure.md#BKMK_RelationshipRole_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -560,6 +567,7 @@ Same as bulkdeletefailure entity [RelationshipRole_BulkDeleteFailures](bulkdelet
 ### <a name="BKMK_RelationshipRole_AsyncOperations"></a> RelationshipRole_AsyncOperations
 
 Same as asyncoperation entity [RelationshipRole_AsyncOperations](asyncoperation.md#BKMK_RelationshipRole_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|

@@ -391,6 +391,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_KbArticleComment_ProcessSessions"></a> KbArticleComment_ProcessSessions
 
 Same as processsession entity [KbArticleComment_ProcessSessions](processsession.md#BKMK_KbArticleComment_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -405,6 +406,7 @@ Same as processsession entity [KbArticleComment_ProcessSessions](processsession.
 ### <a name="BKMK_KbArticleComment_AsyncOperations"></a> KbArticleComment_AsyncOperations
 
 Same as asyncoperation entity [KbArticleComment_AsyncOperations](asyncoperation.md#BKMK_KbArticleComment_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -419,6 +421,7 @@ Same as asyncoperation entity [KbArticleComment_AsyncOperations](asyncoperation.
 ### <a name="BKMK_KbArticleComment_BulkDeleteFailures"></a> KbArticleComment_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [KbArticleComment_BulkDeleteFailures](bulkdeletefailure.md#BKMK_KbArticleComment_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -433,6 +436,7 @@ Same as bulkdeletefailure entity [KbArticleComment_BulkDeleteFailures](bulkdelet
 ### <a name="BKMK_userentityinstancedata_kbarticlecomment"></a> userentityinstancedata_kbarticlecomment
 
 Same as userentityinstancedata entity [userentityinstancedata_kbarticlecomment](userentityinstancedata.md#BKMK_userentityinstancedata_kbarticlecomment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

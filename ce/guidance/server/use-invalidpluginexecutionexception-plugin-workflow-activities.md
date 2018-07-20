@@ -1,7 +1,7 @@
 ---
 title: "Use InvalidPluginExecutionException in plug-ins and workflow activities | MicrosoftDocs"
 description: "Use InvalidPluginExecutionException when raising errors within the context of a Dynamics 365 Customer Engagement plug-in and workflow activity."
-ms.date: 02/05/2018
+ms.date: 06/28/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
@@ -12,15 +12,6 @@ ms.author: "michu"
 manager: "austinj"
 ---
 # Use InvalidPluginExecutionException in plug-ins and workflow activities
-
-**Applies to**:
-
-- [!include[](../../includes/pn-crm-9-0-0-online.md)]
-- [!include[](../../includes/pn-crm-2016.md)]
-- [!include[](../../includes/pn-crm-8-1-0-both.md)]
-- [!include[](../../includes/pn-crm-2015.md)]
-- [!include[](../../includes/pn-crmv6.md)]
-- [!include[](../../includes/pn-crm-2011.md)]
 
 **Category**: Supportability, Usability
 

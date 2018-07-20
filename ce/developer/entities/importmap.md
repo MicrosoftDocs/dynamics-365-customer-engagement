@@ -1439,6 +1439,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_importmap"></a> userentityinstancedata_importmap
 
 Same as userentityinstancedata entity [userentityinstancedata_importmap](userentityinstancedata.md#BKMK_userentityinstancedata_importmap) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1453,6 +1454,7 @@ Same as userentityinstancedata entity [userentityinstancedata_importmap](userent
 ### <a name="BKMK_TransformationMapping_ImportMap"></a> TransformationMapping_ImportMap
 
 Same as transformationmapping entity [TransformationMapping_ImportMap](transformationmapping.md#BKMK_TransformationMapping_ImportMap) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|transformationmapping|
@@ -1467,6 +1469,7 @@ Same as transformationmapping entity [TransformationMapping_ImportMap](transform
 ### <a name="BKMK_OwnerMapping_ImportMap"></a> OwnerMapping_ImportMap
 
 Same as ownermapping entity [OwnerMapping_ImportMap](ownermapping.md#BKMK_OwnerMapping_ImportMap) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|ownermapping|
@@ -1481,6 +1484,7 @@ Same as ownermapping entity [OwnerMapping_ImportMap](ownermapping.md#BKMK_OwnerM
 ### <a name="BKMK_ImportMap_AsyncOperations"></a> ImportMap_AsyncOperations
 
 Same as asyncoperation entity [ImportMap_AsyncOperations](asyncoperation.md#BKMK_ImportMap_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1495,6 +1499,7 @@ Same as asyncoperation entity [ImportMap_AsyncOperations](asyncoperation.md#BKMK
 ### <a name="BKMK_ImportMap_ImportFile"></a> ImportMap_ImportFile
 
 Same as importfile entity [ImportMap_ImportFile](importfile.md#BKMK_ImportMap_ImportFile) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|importfile|
@@ -1509,6 +1514,7 @@ Same as importfile entity [ImportMap_ImportFile](importfile.md#BKMK_ImportMap_Im
 ### <a name="BKMK_ImportMap_BulkDeleteFailures"></a> ImportMap_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [ImportMap_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ImportMap_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1523,6 +1529,7 @@ Same as bulkdeletefailure entity [ImportMap_BulkDeleteFailures](bulkdeletefailur
 ### <a name="BKMK_ImportEntityMapping_ImportMap"></a> ImportEntityMapping_ImportMap
 
 Same as importentitymapping entity [ImportEntityMapping_ImportMap](importentitymapping.md#BKMK_ImportEntityMapping_ImportMap) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|importentitymapping|
@@ -1537,6 +1544,7 @@ Same as importentitymapping entity [ImportEntityMapping_ImportMap](importentitym
 ### <a name="BKMK_ImportMap_SyncErrors"></a> ImportMap_SyncErrors
 
 Same as syncerror entity [ImportMap_SyncErrors](syncerror.md#BKMK_ImportMap_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1551,6 +1559,7 @@ Same as syncerror entity [ImportMap_SyncErrors](syncerror.md#BKMK_ImportMap_Sync
 ### <a name="BKMK_ColumnMapping_ImportMap"></a> ColumnMapping_ImportMap
 
 Same as columnmapping entity [ColumnMapping_ImportMap](columnmapping.md#BKMK_ColumnMapping_ImportMap) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|columnmapping|

@@ -36,35 +36,35 @@ You can extend the functionality of [!INCLUDE[pn_dynamics_crm](../includes/pn-dy
 
  An action is defined by using a `Workflow` entity record, similar to a real-time workflow. Some key points of what an action is and how it works are in the following list:  
   
--   Can be associated with a single entity or be global (not associated with any particular entity).  
+- Can be associated with a single entity or be global (not associated with any particular entity).  
   
--   Is executed in the core operation stage 30 of the event execution pipeline.  
+- Is executed in the core operation stage 30 of the event execution pipeline.  
   
--   Supports the invocation of plug-ins registered in the pre-operation and post-operation stages of the event execution pipeline.  
+- Supports the invocation of plug-ins registered in the pre-operation and post-operation stages of the event execution pipeline.  
   
--   Can have plug-ins registered in the pre-operation or post-operation stages only when the action status is Activated.  
+- Can have plug-ins registered in the pre-operation or post-operation stages only when the action status is Activated.  
   
--   Is available through the Web API or `organization.svc` and `organization.svc/web` endpoints.  
+- Is available through the Web API or `organization.svc` and `organization.svc/web` endpoints.  
   
--   Can be executed using a [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resource. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Execute an action using a JavaScript web resource](create-own-actions.md#BKMK_JavaScript)  
+- Can be executed using a [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resource. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Execute an action using a JavaScript web resource](create-own-actions.md#BKMK_JavaScript)  
   
--   Always runs under the security context of the calling user.  
+- Always runs under the security context of the calling user.  
   
--   Record can’t be deleted while there are plug-in steps registered on the action.  
+- Record can’t be deleted while there are plug-in steps registered on the action.  
   
--   Can optionally, through a configuration setting, participate in the current database transaction.  
+- Can optionally, through a configuration setting, participate in the current database transaction.  
   
--   Doesn’t support a scope where the execution is restricted to a user, business unit, or organization. Actions always execute in organization scope.  
+- Doesn’t support a scope where the execution is restricted to a user, business unit, or organization. Actions always execute in organization scope.  
   
--   Supports input and output arguments.  
+- Supports input and output arguments.  
   
--   Supports auditing of data changes.  
+- Supports auditing of data changes.  
   
--   Isn’t supported with offline clients.  
+- Isn’t supported with offline clients.  
   
--   Can be invoked  by a web service method call.  
+- Can be invoked  by a web service method call.  
   
--   Can be invoked directly from a workflow.  
+- Can be invoked directly from a workflow.  
   
 <a name="bkmk_permissions"></a>   
 ## Required permissions  
@@ -201,13 +201,13 @@ CrmSvcUtil.exe /url:https://<organizationUrlName>.api.crm.dynamics.com/XRMServic
 ## Execute an action using the organization service  
  To execute an action using the organization web service using managed code, follow these steps.  
   
-1.  Include the early-bound types file that you generated using the CrmSvcUtil tool in your application’s project.  
+1. Include the early-bound types file that you generated using the CrmSvcUtil tool in your application’s project.  
   
-2.  In your application code, instantiate your action’s request and populate any required properties.  
+2. In your application code, instantiate your action’s request and populate any required properties.  
   
-3.  Invoke <xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*>, passing your request as an argument.  
+3. Invoke <xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*>, passing your request as an argument.  
   
- Before you run your application code, make sure the action is activated. Otherwise, you’ll receive a run-time error.  
+   Before you run your application code, make sure the action is activated. Otherwise, you’ll receive a run-time error.  
   
 <a name="BKMK_JavaScript"></a>   
 ### Execute an action using a JavaScript web resource  
@@ -221,7 +221,7 @@ CrmSvcUtil.exe /url:https://<organizationUrlName>.api.crm.dynamics.com/XRMServic
   
 > [!NOTE]
 >  If a custom action has unsupported parameter types, for example Picklist, Entity, or Entity Collection, the custom action isn’t listed in the **Action** list.  
->   
+> 
 >  The ability to execute an action from a process was introduced with [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)].  
   
  The existing <xref:Microsoft.Xrm.Sdk.IExecutionContext.Depth> platform checks ensure an infinite loop does not occur. For more information on depth limits see <xref:Microsoft.Xrm.Sdk.Deployment.WorkflowSettings.MaxDepth>.  

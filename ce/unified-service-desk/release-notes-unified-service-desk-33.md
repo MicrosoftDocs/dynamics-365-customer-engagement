@@ -55,7 +55,7 @@ This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../
 
 ### RunScript
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > This also applies to:
 > - [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)]
 > - [!INCLUDE[pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)]
@@ -76,7 +76,7 @@ If you open several tabs and want to execute a RunScript action on a tab that is
 
 ### Performance enhancement for CRM entity page loads
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > This also applies to:
 > - [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)]
 
@@ -123,15 +123,15 @@ In this step, you will create an action call to show the webpage.
 4. Click **+ New**.
 5. On the **New Action Call** page, specify the following values.
   
-  | Field | Value |
-  |----------|-----------|
-  |Name | Show Outside |
-  |Hosted Control | CRM Global Manager|
-  |Action| LaunchURL|
-  |Data| [[SUBJECTURL]]|
+   | Field | Value |
+   |----------|-----------|
+   |Name | Show Outside |
+   |Hosted Control | CRM Global Manager|
+   |Action| LaunchURL|
+   |Data| [[SUBJECTURL]]|
 
-  ![Show outside Action Call](media/show-outside-action-call.PNG "Show outside Action Call")
-6.	Click **Save**.
+   ![Show outside Action Call](media/show-outside-action-call.PNG "Show outside Action Call")
+6. Click **Save**.
 
 #### Step 2: Configure Window Navigation Rules and add the Action Call
 
@@ -139,20 +139,20 @@ In this step you will create a navigation rule and set the order before other de
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
-4. Click **Window Navigation Rules**.
-3. Click **+ New**.
+3. Click **Window Navigation Rules**.
+4. Click **+ New**.
 5. On the **New Window Navigation Rules** page, specify the following values.
 
-  | Field | Value |
-  |-------------|----------------|
-  |Name| Show Outside Rule|
-  |Order | 1 <br> **Note:** You can specify any order that is lesser than the default list of Window Navigation Rules. |
-  | Url | https://www.bing.com <br> **Note:** You must to specify a URL to which you want to navigate.|
-  |Route Type | Popup |
-  | Destination | Tab |
-  |Action | None |
+   | Field | Value |
+   |-------------|----------------|
+   |Name| Show Outside Rule|
+   |Order | 1 <br> **Note:** You can specify any order that is lesser than the default list of Window Navigation Rules. |
+   | Url | https://www.bing.com <br> **Note:** You must to specify a URL to which you want to navigate.|
+   |Route Type | Popup |
+   | Destination | Tab |
+   |Action | None |
 
-  ![Show outside Window Navigation Rule](media/show-outside-navigation-rule.PNG "Show outside Window Navigation Rule")
+   ![Show outside Window Navigation Rule](media/show-outside-navigation-rule.PNG "Show outside Window Navigation Rule")
 
 6. Click **Save**.
 7. On the nav bar, click the down arrow next to **Show Outside Rule**, and click **Actions**.

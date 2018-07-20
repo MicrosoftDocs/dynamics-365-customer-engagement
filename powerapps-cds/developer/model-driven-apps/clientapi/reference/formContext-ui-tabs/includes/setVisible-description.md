@@ -1,1 +1,0 @@
-Sets a value that indicates whether the tab is visible.

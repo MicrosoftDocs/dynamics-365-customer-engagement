@@ -33,9 +33,12 @@
 ## [Create an opportunity](create-edit-and-distribute-opportunities-in-dynamics-365.md)
 
 # [Content management in portal](manage-portal-content.md)
+## [Create and manage websites](websites.md)
+### [Create and manage website bindings](website-bindings.md)
 ## [Create and manage web pages](web-page.md)
 ## [Create and manage web files](web-files.md)
 ## [Manage web links](manage-web-links.md)
+## [Create and manage page templates](page-templates.md)
 ## [Manage content snippets](customize-content-snippets.md)
 ## [Create a redirect URL](add-redirect-url.md)
 ## [Use shortcuts to place child nodes](place-child-nodes.md)

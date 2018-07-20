@@ -30,24 +30,24 @@ After your survey is ready, you can distribute the survey and invite respondents
 
 If you configure your survey to allow anonymous respondents, you can copy the survey URL and paste it from the survey to the medium you want to use to send it. You can send it in email, post it on social media sites like [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] or [!INCLUDE[tn-facebook](../includes/tn-facebook.md)], or publish it on your website.
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
-2.  Go to **Voice of the Customer** &gt; **Surveys**.
+2. Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey that you want to receive anonymous responses to.
+3. Select the name of the survey that you want to receive anonymous responses to.
 
-4.  Under **Summary**, select **Yes** for the **Anonymous Responses** field.
+4. Under **Summary**, select **Yes** for the **Anonymous Responses** field.
 
-    > [!NOTE]
-    > If you select **No** for the **Anonymous Responses** field and send the link to a customer, the survey will not be rendered.
+   > [!NOTE]
+   > If you select **No** for the **Anonymous Responses** field and send the link to a customer, the survey will not be rendered.
 
-5.  Under **Invitations and Actions**, copy the link from the **Anonymous Link** field and send it to your respondents.
+5. Under **Invitations and Actions**, copy the link from the **Anonymous Link** field and send it to your respondents.
 
-6.  To embed the survey in an iframe on your website, select the **Run in IFrame** check box. The **IFrame URL** field is displayed with the HTML code.
+6. To embed the survey in an iframe on your website, select the **Run in IFrame** check box. The **IFrame URL** field is displayed with the HTML code.
 
-7.  Copy the HTML code from the **IFrame URL** field and paste it on your website.
+7. Copy the HTML code from the **IFrame URL** field and paste it on your website.
 
-8.  Save the changes.
+8. Save the changes.
 
 [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] doesn't associate responses with a customer record in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]. If you want to create a lead from an anonymous response, set **Create Lead For Anonymous Responses** to **Yes**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a lead from a survey response](design-advanced-survey.md#create-a-lead-from-a-survey-response)  
 
@@ -55,20 +55,20 @@ If you configure your survey to allow anonymous respondents, you can copy the su
 
 For non-anonymous surveys, the link you send to respondents is specific and unique for each customer. [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] generates the URLs for you to use when you create a survey invitation or embed the survey snippet in an email.
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
-2.  Go to **Voice of the Customer** &gt; **Surveys**.
+2. Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey for which you want to receive non-anonymous responses.
+3. Select the name of the survey for which you want to receive non-anonymous responses.
 
-4.  Under **Invitations and Actions**, copy the value from the **Email Snippet** field and send it to your respondents through [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] email.
+4. Under **Invitations and Actions**, copy the value from the **Email Snippet** field and send it to your respondents through [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] email.
 
-    > [!NOTE]
-    > You can also select **Copy Snippet** on the toolbar to copy the email snippet.
+   > [!NOTE]
+   > You can also select **Copy Snippet** on the toolbar to copy the email snippet.
 
-5.  Under **Invitations and Actions**, enter a value in the **Invitation Link Text** field. The value entered in this field is displayed as a link to the respondent when they take the survey.
+5. Under **Invitations and Actions**, enter a value in the **Invitation Link Text** field. The value entered in this field is displayed as a link to the respondent when they take the survey.
 
-6.  Save the changes.
+6. Save the changes.
 
 > [!NOTE]
 > - If the **Restrict Multiple Completions** field is set to **Yes** when you create the survey, the respondent can't take the survey again.
@@ -121,24 +121,24 @@ To create a survey invitation or survey activity:
 
 **Web client**
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-2.  Go to **Voice of the Customer** &gt; **Surveys**.
+2. Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey that you want to create a survey invitation or survey activity for.
+3. Select the name of the survey that you want to create a survey invitation or survey activity for.
 
-4.  Select the down arrow next to your survey name at the top of the screen, and then select **Survey Invitations**.
+4. Select the down arrow next to your survey name at the top of the screen, and then select **Survey Invitations**.
 
-5.  Select **Add New Survey Activity**.
+5. Select **Add New Survey Activity**.
 
-6.  Enter the required information in the **General** and **Advanced** sections. If you need help, point to any field to read the tooltips.
+6. Enter the required information in the **General** and **Advanced** sections. If you need help, point to any field to read the tooltips.
 
-    > [!NOTE]
-    >  If you have used piped data in the survey, ensure that the data is entered in the appropriate piped data field in the **Advanced** section.
+   > [!NOTE]
+   >  If you have used piped data in the survey, ensure that the data is entered in the appropriate piped data field in the **Advanced** section.
 
-7.  Select **Save**. The invitation link is displayed in the **Invitation Link** field.
+7. Select **Save**. The invitation link is displayed in the **Invitation Link** field.
 
-8.  Copy the link and share it by using a third-party email provider.
+8. Copy the link and share it by using a third-party email provider.
 
 **Voice of the Customer app**
 
@@ -224,19 +224,19 @@ You can create a workflow to send email, as shown in the following image. You ca
 
 You can use the survey dashboard to track surveys you have sent to your respondents. Use the dashboard to select a combination of views and charts to see the results you're interested in. You can also create your personal, customized view to see the results.
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-2.  Go to **Voice of the Customer** &gt; **Surveys**.
+2. Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey you want to track.
+3. Select the name of the survey you want to track.
 
-4.  From the **Survey** box, select **Dashboard**.
+4. From the **Survey** box, select **Dashboard**.
 
-    ![Select survey dashboard](media/survey-dashboard.png "Select survey dashboard")  
+   ![Select survey dashboard](media/survey-dashboard.png "Select survey dashboard")  
 
-5.  Select a view and chart from the view list and chart list, respectively&mdash;for example, **My Open Survey Invites** as the view and **Survey Invites By Month** as the chart. The corresponding chart is displayed.
+5. Select a view and chart from the view list and chart list, respectively&mdash;for example, **My Open Survey Invites** as the view and **Survey Invites By Month** as the chart. The corresponding chart is displayed.
 
-    ![Survey dashboard chart](media/survey-dashboard-chart.png "Survey dashboard chart")  
+   ![Survey dashboard chart](media/survey-dashboard-chart.png "Survey dashboard chart")  
 
 ### See also
 [Plan a survey](plan-survey.md)   

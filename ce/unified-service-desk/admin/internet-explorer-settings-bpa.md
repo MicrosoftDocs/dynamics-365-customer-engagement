@@ -33,10 +33,10 @@ Set **TabProcGrowth** value to **16**:
 1. Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
 2. Go to **Computer**\\**HKEY\_CURRENT\_USER**\\**Software**\\**Microsoft**\\**Internet Explorer**\\**Main**.
 3. Right-click **TabProcGrowth**, and then select **Modify**.
-    > [!Note]
-    > If the registry key isn't present, create it:<br>
-        1. Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can see new file.<br>
-        2. Type **TabProcGrowth** as the file name, and then select **Modify**.
+   > [!Note]
+   > If the registry key isn't present, create it:<br>
+   >      1. Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can see new file.<br>
+   >      2. Type **TabProcGrowth** as the file name, and then select **Modify**.
 
 4. In the **Value data** field, type **16**.
 5. Select **OK**.
@@ -51,13 +51,13 @@ Tab Shutdown Delay causes the [!include[pn-internet-explorer](../../includes/pn-
 
 Set **TabShutdownDelay** value to **0**:
 
-1.  Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
-2.  Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Main`.
-3.  Right-click **TabShutdownDelay**, and then select **Modify**.
-    > [!NOTE]
-    > If the registry key isn't present, create it:<br>
-        1.  Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can see new file.<br>
-        2.  Type **TabShutdownDelay** as the file name, and then select **Modify**.
+1. Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
+2. Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Main`.
+3. Right-click **TabShutdownDelay**, and then select **Modify**.
+   > [!NOTE]
+   > If the registry key isn't present, create it:<br>
+   >     1.  Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can see new file.<br>
+   >     2.  Type **TabShutdownDelay** as the file name, and then select **Modify**.
 
 4. In the **Value data** field, type **0**.
 5. In the **Base** group box, select **Decimal**.
@@ -79,23 +79,23 @@ You can disable the option using the Registry Editor or Internet options.
 
 To disable **Enable Enhanced Protected Mode** using the Registry Editor:
 
-1.  Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
-2.  Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Main`.
-3.  Right-click **Isolation**, and then select **Modify**.
-    > [!Note]
-    > If the registry key isn't present, create it:<br>
-        1.  Right-click the blank area, and then select **New** > **String Value**. You can a see new file.<br>
-        2.  Type **Isolation** as the file name, and then select **Modify**.
+1. Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
+2. Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Main`.
+3. Right-click **Isolation**, and then select **Modify**.
+   > [!Note]
+   > If the registry key isn't present, create it:<br>
+   >     1.  Right-click the blank area, and then select **New** > **String Value**. You can a see new file.<br>
+   >     2.  Type **Isolation** as the file name, and then select **Modify**.
 
-4.  In the **Value data** field, type **PMIL**. 
-5.  Select **OK**.
+4. In the **Value data** field, type **PMIL**. 
+5. Select **OK**.
 
 To disable the option using Internet options:
 
-1.  Open **[!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)]**.
-2.  Select **Tools** > **Internet Options** > **Advanced** tab.
-3.  In the **Security** section, clear the **Enable Enhanced Protected Mode** check box.
-4.  Select **Apply**, and then select **OK**.
+1. Open **[!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)]**.
+2. Select **Tools** > **Internet Options** > **Advanced** tab.
+3. In the **Security** section, clear the **Enable Enhanced Protected Mode** check box.
+4. Select **Apply**, and then select **OK**.
 
 ## Enable Automatic Crash Recovery
 
@@ -115,14 +115,14 @@ To disable the option using the Registry Editor:
 
 1. Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
 2. Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Recovery`.
-3.  Right-click **AutoRecover**, and then select **Modify**.
-    > [!Note]
-    > If the registry key isn't present, create it:<br>
-        1.  Right-click the blank area, and then select **New** > **String Value**. You can a see new file.<br>
-        2.  Type **Isolation** as the file name, and then select **Modify**.
+3. Right-click **AutoRecover**, and then select **Modify**.
+   > [!Note]
+   > If the registry key isn't present, create it:<br>
+   >     1.  Right-click the blank area, and then select **New** > **String Value**. You can a see new file.<br>
+   >     2.  Type **Isolation** as the file name, and then select **Modify**.
 
-4.  In the **Value data** field, type **2**.
-5.  Select **OK**.
+4. In the **Value data** field, type **2**.
+5. Select **OK**.
 
 To disable the option using Internet options:
 
@@ -145,21 +145,21 @@ You can enable the option using the Registry Editor or Internet options.
 
 To enable the option using the Registry Editor:
 
-1.  Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
-2.  Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\\\<numerically named key folder>`. <br>
-Numerically named folders are as follows:<br>
-    - 1 (Intranet zone)
-    - 2 (Trusted Sites zone)
-    - 3 (Internet zone)
-    - 4 (Restricted Sites zone)
-3.  Right-click the **2500** file, and then select **Modify**.
-    > [!Note] 
-    > If the registry key isn't present, create it:<br>
-        1. Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can a see new file. <br>
-        2. Type **2500** as the file name, and then select **Modify**.
+1. Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
+2. Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\\\<numerically named key folder>`. <br>
+   Numerically named folders are as follows:<br>
+   - 1 (Intranet zone)
+   - 2 (Trusted Sites zone)
+   - 3 (Internet zone)
+   - 4 (Restricted Sites zone)
+3. Right-click the **2500** file, and then select **Modify**.
+   > [!Note]
+   > If the registry key isn't present, create it:<br>
+   >     1. Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can a see new file. <br>
+   >     2. Type **2500** as the file name, and then select **Modify**.
 
-6.  In the **Value data** field, type **0**..
-7.  Select **OK**.
+4. In the **Value data** field, type **0**..
+5. Select **OK**.
 
 To enable the option using Internet options:
 
@@ -170,8 +170,8 @@ To enable the option using Internet options:
     -   Local intranet
     -   Trusted sites
     -   Restricted sites
-4.  Select the **Enable Protected Mode** check box for the all the zones.
-5.  Select **Apply**, and then select **OK**.
+4. Select the **Enable Protected Mode** check box for the all the zones.
+5. Select **Apply**, and then select **OK**.
 
 ## Cleanup HTCs
 
@@ -183,12 +183,12 @@ To enable the option using Internet options:
 
 Set the **Cleanup HTCs** option to **Yes**:
 
-1.  Go to **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**
-2.  Double-click to open **regedit**.
-3.  Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer`.
-4.  Right-click **Cleanup HTCs**, and then select **Modify**.
-5.  In the **Value data** field, select **Yes**.
-6.  Select **OK**.
+1. Go to **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**
+2. Double-click to open **regedit**.
+3. Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer`.
+4. Right-click **Cleanup HTCs**, and then select **Modify**.
+5. In the **Value data** field, select **Yes**.
+6. Select **OK**.
 
 ## [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] version
 

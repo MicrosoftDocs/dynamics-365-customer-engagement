@@ -213,6 +213,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_competitorsalesliterature_AsyncOperations"></a> competitorsalesliterature_AsyncOperations
 
 Same as asyncoperation entity [competitorsalesliterature_AsyncOperations](asyncoperation.md#BKMK_competitorsalesliterature_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -227,6 +228,7 @@ Same as asyncoperation entity [competitorsalesliterature_AsyncOperations](asynco
 ### <a name="BKMK_competitorsalesliterature_MailboxTrackingFolders"></a> competitorsalesliterature_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [competitorsalesliterature_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_competitorsalesliterature_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -241,6 +243,7 @@ Same as mailboxtrackingfolder entity [competitorsalesliterature_MailboxTrackingF
 ### <a name="BKMK_competitorsalesliterature_UserEntityInstanceDatas"></a> competitorsalesliterature_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [competitorsalesliterature_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_competitorsalesliterature_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -255,6 +258,7 @@ Same as userentityinstancedata entity [competitorsalesliterature_UserEntityInsta
 ### <a name="BKMK_competitorsalesliterature_BulkDeleteFailures"></a> competitorsalesliterature_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [competitorsalesliterature_BulkDeleteFailures](bulkdeletefailure.md#BKMK_competitorsalesliterature_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -269,6 +273,7 @@ Same as bulkdeletefailure entity [competitorsalesliterature_BulkDeleteFailures](
 ### <a name="BKMK_competitorsalesliterature_PrincipalObjectAttributeAccesses"></a> competitorsalesliterature_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [competitorsalesliterature_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_competitorsalesliterature_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -283,6 +288,7 @@ Same as principalobjectattributeaccess entity [competitorsalesliterature_Princip
 ### <a name="BKMK_userentityinstancedata_competitorsalesliterature"></a> userentityinstancedata_competitorsalesliterature
 
 Same as userentityinstancedata entity [userentityinstancedata_competitorsalesliterature](userentityinstancedata.md#BKMK_userentityinstancedata_competitorsalesliterature) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

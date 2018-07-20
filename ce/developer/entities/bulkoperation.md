@@ -1732,6 +1732,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_BulkOperation_ActivityPointers"></a> BulkOperation_ActivityPointers
 
 Same as activitypointer entity [BulkOperation_ActivityPointers](activitypointer.md#BKMK_BulkOperation_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -1746,6 +1747,7 @@ Same as activitypointer entity [BulkOperation_ActivityPointers](activitypointer.
 ### <a name="BKMK_BulkOperation_SyncErrors"></a> BulkOperation_SyncErrors
 
 Same as syncerror entity [BulkOperation_SyncErrors](syncerror.md#BKMK_BulkOperation_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1760,6 +1762,7 @@ Same as syncerror entity [BulkOperation_SyncErrors](syncerror.md#BKMK_BulkOperat
 ### <a name="BKMK_bulkoperation_activity_parties"></a> bulkoperation_activity_parties
 
 Same as activityparty entity [bulkoperation_activity_parties](activityparty.md#BKMK_bulkoperation_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1774,6 +1777,7 @@ Same as activityparty entity [bulkoperation_activity_parties](activityparty.md#B
 ### <a name="BKMK_BulkOperation_AsyncOperations"></a> BulkOperation_AsyncOperations
 
 Same as asyncoperation entity [BulkOperation_AsyncOperations](asyncoperation.md#BKMK_BulkOperation_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1788,6 +1792,7 @@ Same as asyncoperation entity [BulkOperation_AsyncOperations](asyncoperation.md#
 ### <a name="BKMK_BulkOperation_MailboxTrackingFolder"></a> BulkOperation_MailboxTrackingFolder
 
 Same as mailboxtrackingfolder entity [BulkOperation_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_BulkOperation_MailboxTrackingFolder) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1802,6 +1807,7 @@ Same as mailboxtrackingfolder entity [BulkOperation_MailboxTrackingFolder](mailb
 ### <a name="BKMK_userentityinstancedata_bulkoperation"></a> userentityinstancedata_bulkoperation
 
 Same as userentityinstancedata entity [userentityinstancedata_bulkoperation](userentityinstancedata.md#BKMK_userentityinstancedata_bulkoperation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1816,6 +1822,7 @@ Same as userentityinstancedata entity [userentityinstancedata_bulkoperation](use
 ### <a name="BKMK_BulkOperation_BulkDeleteFailures"></a> BulkOperation_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [BulkOperation_BulkDeleteFailures](bulkdeletefailure.md#BKMK_BulkOperation_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1830,6 +1837,7 @@ Same as bulkdeletefailure entity [BulkOperation_BulkDeleteFailures](bulkdeletefa
 ### <a name="BKMK_bulkoperation_PrincipalObjectAttributeAccesses"></a> bulkoperation_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [bulkoperation_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_bulkoperation_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1844,6 +1852,7 @@ Same as principalobjectattributeaccess entity [bulkoperation_PrincipalObjectAttr
 ### <a name="BKMK_BulkOperation_Appointment"></a> BulkOperation_Appointment
 
 Same as appointment entity [BulkOperation_Appointment](appointment.md#BKMK_BulkOperation_Appointment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -1858,6 +1867,7 @@ Same as appointment entity [BulkOperation_Appointment](appointment.md#BKMK_BulkO
 ### <a name="BKMK_BulkOperation_Email"></a> BulkOperation_Email
 
 Same as email entity [BulkOperation_Email](email.md#BKMK_BulkOperation_Email) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -1872,6 +1882,7 @@ Same as email entity [BulkOperation_Email](email.md#BKMK_BulkOperation_Email) Ma
 ### <a name="BKMK_BulkOperation_Faxes"></a> BulkOperation_Faxes
 
 Same as fax entity [BulkOperation_Faxes](fax.md#BKMK_BulkOperation_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -1886,6 +1897,7 @@ Same as fax entity [BulkOperation_Faxes](fax.md#BKMK_BulkOperation_Faxes) Many-T
 ### <a name="BKMK_BulkOperation_Letter"></a> BulkOperation_Letter
 
 Same as letter entity [BulkOperation_Letter](letter.md#BKMK_BulkOperation_Letter) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -1900,6 +1912,7 @@ Same as letter entity [BulkOperation_Letter](letter.md#BKMK_BulkOperation_Letter
 ### <a name="BKMK_BulkOperation_Phonecall"></a> BulkOperation_Phonecall
 
 Same as phonecall entity [BulkOperation_Phonecall](phonecall.md#BKMK_BulkOperation_Phonecall) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -1914,6 +1927,7 @@ Same as phonecall entity [BulkOperation_Phonecall](phonecall.md#BKMK_BulkOperati
 ### <a name="BKMK_bulkoperation_Tasks"></a> bulkoperation_Tasks
 
 Same as task entity [bulkoperation_Tasks](task.md#BKMK_bulkoperation_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -1928,6 +1942,7 @@ Same as task entity [bulkoperation_Tasks](task.md#BKMK_bulkoperation_Tasks) Many
 ### <a name="BKMK_BulkOperation_RecurringAppointmentMaster"></a> BulkOperation_RecurringAppointmentMaster
 
 Same as recurringappointmentmaster entity [BulkOperation_RecurringAppointmentMaster](recurringappointmentmaster.md#BKMK_BulkOperation_RecurringAppointmentMaster) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -1942,6 +1957,7 @@ Same as recurringappointmentmaster entity [BulkOperation_RecurringAppointmentMas
 ### <a name="BKMK_BulkOperation_SocialActivity"></a> BulkOperation_SocialActivity
 
 Same as socialactivity entity [BulkOperation_SocialActivity](socialactivity.md#BKMK_BulkOperation_SocialActivity) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -1956,6 +1972,7 @@ Same as socialactivity entity [BulkOperation_SocialActivity](socialactivity.md#B
 ### <a name="BKMK_bulkoperation_Annotations"></a> bulkoperation_Annotations
 
 Same as annotation entity [bulkoperation_Annotations](annotation.md#BKMK_bulkoperation_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1970,6 +1987,7 @@ Same as annotation entity [bulkoperation_Annotations](annotation.md#BKMK_bulkope
 ### <a name="BKMK_bulkoperation_CampaignActivities"></a> bulkoperation_CampaignActivities
 
 Same as campaignactivity entity [bulkoperation_CampaignActivities](campaignactivity.md#BKMK_bulkoperation_CampaignActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignactivity|
@@ -1984,6 +2002,7 @@ Same as campaignactivity entity [bulkoperation_CampaignActivities](campaignactiv
 ### <a name="BKMK_bulkoperation_CampaignResponses"></a> bulkoperation_CampaignResponses
 
 Same as campaignresponse entity [bulkoperation_CampaignResponses](campaignresponse.md#BKMK_bulkoperation_CampaignResponses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -1998,6 +2017,7 @@ Same as campaignresponse entity [bulkoperation_CampaignResponses](campaignrespon
 ### <a name="BKMK_BulkOperation_CampaignResponse"></a> BulkOperation_CampaignResponse
 
 Same as campaignresponse entity [BulkOperation_CampaignResponse](campaignresponse.md#BKMK_BulkOperation_CampaignResponse) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -2012,6 +2032,7 @@ Same as campaignresponse entity [BulkOperation_CampaignResponse](campaignrespons
 ### <a name="BKMK_BulkOperation_logs"></a> BulkOperation_logs
 
 Same as bulkoperationlog entity [BulkOperation_logs](bulkoperationlog.md#BKMK_BulkOperation_logs) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkoperationlog|
@@ -2026,6 +2047,7 @@ Same as bulkoperationlog entity [BulkOperation_logs](bulkoperationlog.md#BKMK_Bu
 ### <a name="BKMK_BulkOperation_QueueItem"></a> BulkOperation_QueueItem
 
 Same as queueitem entity [BulkOperation_QueueItem](queueitem.md#BKMK_BulkOperation_QueueItem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queueitem|
@@ -2040,6 +2062,7 @@ Same as queueitem entity [BulkOperation_QueueItem](queueitem.md#BKMK_BulkOperati
 ### <a name="BKMK_bulkoperation_IncidentResolutions"></a> bulkoperation_IncidentResolutions
 
 Same as incidentresolution entity [bulkoperation_IncidentResolutions](incidentresolution.md#BKMK_bulkoperation_IncidentResolutions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incidentresolution|
@@ -2054,6 +2077,7 @@ Same as incidentresolution entity [bulkoperation_IncidentResolutions](incidentre
 ### <a name="BKMK_bulkoperation_ServiceAppointments"></a> bulkoperation_ServiceAppointments
 
 Same as serviceappointment entity [bulkoperation_ServiceAppointments](serviceappointment.md#BKMK_bulkoperation_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -2068,6 +2092,7 @@ Same as serviceappointment entity [bulkoperation_ServiceAppointments](serviceapp
 ### <a name="BKMK_bulkoperation_OpportunityCloses"></a> bulkoperation_OpportunityCloses
 
 Same as opportunityclose entity [bulkoperation_OpportunityCloses](opportunityclose.md#BKMK_bulkoperation_OpportunityCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityclose|
@@ -2082,6 +2107,7 @@ Same as opportunityclose entity [bulkoperation_OpportunityCloses](opportunityclo
 ### <a name="BKMK_bulkoperation_OrderCloses"></a> bulkoperation_OrderCloses
 
 Same as orderclose entity [bulkoperation_OrderCloses](orderclose.md#BKMK_bulkoperation_OrderCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|orderclose|
@@ -2096,6 +2122,7 @@ Same as orderclose entity [bulkoperation_OrderCloses](orderclose.md#BKMK_bulkope
 ### <a name="BKMK_bulkoperation_QuoteCloses"></a> bulkoperation_QuoteCloses
 
 Same as quoteclose entity [bulkoperation_QuoteCloses](quoteclose.md#BKMK_bulkoperation_QuoteCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quoteclose|
@@ -2110,6 +2137,7 @@ Same as quoteclose entity [bulkoperation_QuoteCloses](quoteclose.md#BKMK_bulkope
 ### <a name="BKMK_bulkoperation_msdyn_bookingalerts"></a> bulkoperation_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [bulkoperation_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_bulkoperation_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -2124,6 +2152,7 @@ Same as msdyn_bookingalert entity [bulkoperation_msdyn_bookingalerts](msdyn_book
 ### <a name="BKMK_bulkoperation_msdyn_approvals"></a> bulkoperation_msdyn_approvals
 
 Same as msdyn_approval entity [bulkoperation_msdyn_approvals](msdyn_approval.md#BKMK_bulkoperation_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|

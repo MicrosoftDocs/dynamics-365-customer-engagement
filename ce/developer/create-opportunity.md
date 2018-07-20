@@ -55,13 +55,13 @@ You can create an opportunity from a qualified lead or you can create a new oppo
 ## Prepare Data for an Opportunity  
  Before you create an opportunity, ensure that [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] contains necessary data:  
   
--   Create accounts, contacts, and leads before you create an opportunity. You can create an opportunity for an existing account or contact, or convert a qualified lead into an opportunity.  
+- Create accounts, contacts, and leads before you create an opportunity. You can create an opportunity for an existing account or contact, or convert a qualified lead into an opportunity.  
   
--   Each opportunity must be associated with one account or a contact.  
+- Each opportunity must be associated with one account or a contact.  
   
--   Qualify a lead for an opportunity by using your company’s lead qualification criteria. The possible states for a lead are Open, Qualified, and Disqualified.  
+- Qualify a lead for an opportunity by using your company’s lead qualification criteria. The possible states for a lead are Open, Qualified, and Disqualified.  
   
- If you add products to an opportunity, the system must contain a product catalog, products, price lists, and units of measure.  
+  If you add products to an opportunity, the system must contain a product catalog, products, price lists, and units of measure.  
   
 <a name="bkmk_AddExistingProducts"></a>   
 ## Add Existing Products and Write-in Products  
@@ -91,21 +91,21 @@ You can create an opportunity from a qualified lead or you can create a new oppo
   
  The breakdown of the opportunity total costs is a follows:  
   
--   Total amount  
+- Total amount  
   
--   Total amount less freight  
+- Total amount less freight  
   
--   Total discount amount  
+- Total discount amount  
   
--   Total line item amount  
+- Total line item amount  
   
--   Total line item discount amount  
+- Total line item discount amount  
   
--   Total discount  
+- Total discount  
   
--   Total tax  
+- Total tax  
   
- Having information about individual costs helps you analyze your overall cost. You can make necessary adjustments to pricing, discounts, and freight cost to help with closing a deal.  
+  Having information about individual costs helps you analyze your overall cost. You can make necessary adjustments to pricing, discounts, and freight cost to help with closing a deal.  
   
 <a name="bkmk_CloseAnOpportunity"></a>   
 ## Close an Opportunity  

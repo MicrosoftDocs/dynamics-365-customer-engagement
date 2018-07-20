@@ -46,12 +46,12 @@ The administrator must enable email engagement before you can try it out. Email 
   
 > [!NOTE]
 >  Some aspects of the email engagement feature may be visible in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] even when the feature is turned off. These include:  
->   
+> 
 > -   The **Attachments** grid, which is shown when you author an email message or email template, always includes the **Followed** column.  
 > -   The **Followed Email** grid always shows **Opens**, **Last Opened Time**, **Attachment Views**, **Link Clicks**, and **Replies** columns.  
 > -   The **Email Template** grid always shows **Reply Rate**, **Open Rate**, **Recommended**, and **Email Count** columns.  
 > -   The out-of-the-box versions of the account, contact, and lead forms all include the **Follow Email** field.  
->   
+> 
 > While the email engagement feature is disabled, these features will still appear but will usually be empty. Read the rest of this topic for details about what these columns mean and how to use them when the feature is enabled.  
   
   
@@ -69,7 +69,7 @@ Using this information, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.m
   
 > [!IMPORTANT]
 >  You should treat all email interaction data as approximations. The system can only register an email-open event if the recipient also downloads the message's images (including the invisible GIF), so the actual number of opens could be larger than the number recorded in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Similarly, if images are cached (which is typical for web-based email clients), then additional opens may not get reported to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
->   
+> 
 >  It  can therefore be a good idea to include visible images in your followed email messages (such as a company logo or illustration) to encourage recipients to download the images.  
   
 <a name="CreateAndSend"></a>   
@@ -95,7 +95,7 @@ Using this information, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.m
   
 5. **Insert Template button**: Select the button to insert standard text for any of several general purposes (such as a meeting follow-up). You can select from a variety of available templates, and email engagement provides advice on which template to choose based on previous performance.  
   
- See the remainder of this topic for complete details about how to use these controls.  
+   See the remainder of this topic for complete details about how to use these controls.  
   
 > [!TIP]
 >  The **Email** page doesn't include any features to help you add a link to your message, but if you are using [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] then you can do it by selecting  the text you want to add the link to, and then pressing Ctrl-K to open a window where you can define the link target.  
@@ -174,27 +174,27 @@ Using this information, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.m
   
  Followed attachments can tell you when a recipient opens an attachment. To add one or more followed attachments:  
   
-1.  Create a new message as described previously in [Create a new message](#NewMessage).  
+1. Create a new message as described previously in [Create a new message](#NewMessage).  
   
-2.  Make sure that following is enabled for the message as described previously in [Enable or disable following for individual messages](#EnableTrackingOnMessages). You can't add followed attachments if the message recipients are set to not allow following, but you can still add unfollowed attachments. You can also mix followed and unfollowed attachments in any message that is enabled for following.  
+2. Make sure that following is enabled for the message as described previously in [Enable or disable following for individual messages](#EnableTrackingOnMessages). You can't add followed attachments if the message recipients are set to not allow following, but you can still add unfollowed attachments. You can also mix followed and unfollowed attachments in any message that is enabled for following.  
   
-3.  Select **Save** on the toolbar to save your message. This enables the attachment feature for this message.  
+3. Select **Save** on the toolbar to save your message. This enables the attachment feature for this message.  
   
-4.  Select **Add Attachment** button at the top of **Attachment** area.  
+4. Select **Add Attachment** button at the top of **Attachment** area.  
   
- ![Add attachment button](../sales-enterprise/media/add-attachment-button.png "Add attachment button")  
+   ![Add attachment button](../sales-enterprise/media/add-attachment-button.png "Add attachment button")  
   
-5.  The **Manage Attachment** dialog opens.  
+5. The **Manage Attachment** dialog opens.  
   
- ![Manage Attachment window](../sales-enterprise/media/manage-attachment-window.png "Manage Attachment window")  
+   ![Manage Attachment window](../sales-enterprise/media/manage-attachment-window.png "Manage Attachment window")  
   
-6.  Select **Choose File** button to open a file-browser window, then locate and select the file.  
+6. Select **Choose File** button to open a file-browser window, then locate and select the file.  
   
-7.  Your selected file name is now shown in the **Manage Attachment** window. Select **Attach** to upload the file, which may take several seconds, depending on its size.  
+7. Your selected file name is now shown in the **Manage Attachment** window. Select **Attach** to upload the file, which may take several seconds, depending on its size.  
   
- ![Manage Attachment window with document and follow button](../sales-enterprise/media/manage-attachment-window-document-follow-button.png "Manage Attachment window with document and follow button")  
+   ![Manage Attachment window with document and follow button](../sales-enterprise/media/manage-attachment-window-document-follow-button.png "Manage Attachment window with document and follow button")  
   
-8.  Select **Follow** button to enable tracking of the attachment. The button text changes to **Do Not Follow**, which indicates that the attachment is now being followed (select again to stop following the attachment).  
+8. Select **Follow** button to enable tracking of the attachment. The button text changes to **Do Not Follow**, which indicates that the attachment is now being followed (select again to stop following the attachment).  
   
 9. Select **Close** to close the pop-up window.  
   
@@ -216,11 +216,11 @@ Using this information, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.m
   
  The system will sometimes suggest a recommended delivery time, which works as follows:  
   
--   Suggestions are based on the  recipient's time zone.  
+- Suggestions are based on the  recipient's time zone.  
   
--   The system assumes a standard workday of 8:00 AM to 5:00 PM, Monday to Friday, and suggests the next closest working hour if you are currently working outside of this range in the recipient's time zone.  
+- The system assumes a standard workday of 8:00 AM to 5:00 PM, Monday to Friday, and suggests the next closest working hour if you are currently working outside of this range in the recipient's time zone.  
   
--   No suggestion is provided if you have more than one recipient or if address information is not available for that recipient.  
+- No suggestion is provided if you have more than one recipient or if address information is not available for that recipient.  
   
 - [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)] must be enabled for your system to enable the time zone calculation.  
   
@@ -228,29 +228,29 @@ If no advice is given, or if you prefer to use your own logic, then you can alwa
   
 You can use this feature both with followed and unfollowed messages.  
   
-1.  Create a new message as described previously in [Create a new message](#NewMessage).  
+1. Create a new message as described previously in [Create a new message](#NewMessage).  
   
-2.  Finish authoring your message, and enable any other email engagement features that you want to use, as described in the other sections of this topic.  
+2. Finish authoring your message, and enable any other email engagement features that you want to use, as described in the other sections of this topic.  
   
-3.  Take a look at the **Send Later** row  in the **Email Engagement** area. If the system has any information that suggests a preferred delivery time, it will show some advice here. Even if no message is shown, you can decide to delay the delivery anyway.  
+3. Take a look at the **Send Later** row  in the **Email Engagement** area. If the system has any information that suggests a preferred delivery time, it will show some advice here. Even if no message is shown, you can decide to delay the delivery anyway.  
   
-    ![Send Later control](../sales-enterprise/media/send-later-control.png "Send Later control")  
+   ![Send Later control](../sales-enterprise/media/send-later-control.png "Send Later control")  
   
-4.  To delay the message, select the **Send Later** link to open the **Send Later** pop-up window.  
+4. To delay the message, select the **Send Later** link to open the **Send Later** pop-up window.  
   
-    ![Send Later window](../sales-enterprise/media/send-later-window.png "Send Later window")  
+   ![Send Later window](../sales-enterprise/media/send-later-window.png "Send Later window")  
   
-    If the system recommended a time or date, then that information is pre-filled, otherwise it shows a blank date and time. In either case, it uses *your local time* (not the recipients'). Use the **Set at** controls here to set your preferred delivery time and date, and then select **OK** to save your setting and close the window.  
+   If the system recommended a time or date, then that information is pre-filled, otherwise it shows a blank date and time. In either case, it uses *your local time* (not the recipients'). Use the **Set at** controls here to set your preferred delivery time and date, and then select **OK** to save your setting and close the window.  
   
-5.  The **Delay Send**  button now turns green, and links for **Change Schedule** and **Remove Delay** are provided in case you need to change the delay or send right away. You can change the schedule any time from now until it gets sent.  
+5. The **Delay Send**  button now turns green, and links for **Change Schedule** and **Remove Delay** are provided in case you need to change the delay or send right away. You can change the schedule any time from now until it gets sent.  
   
-    ![Send Later control for a scheduled email](../sales-enterprise/media/send-later-control-scheduled.png "Send Later control for a scheduled email")  
+   ![Send Later control for a scheduled email](../sales-enterprise/media/send-later-control-scheduled.png "Send Later control for a scheduled email")  
   
-6.  Finish authoring your message, and enable any other email engagement features that you want to use, as described in the other sections of this topic.  
+6. Finish authoring your message, and enable any other email engagement features that you want to use, as described in the other sections of this topic.  
   
-7.  When you are ready to send the message, select **Send**.  
+7. When you are ready to send the message, select **Send**.  
   
- To specify a delayed send time for a message:  
+   To specify a delayed send time for a message:  
   
 > [!NOTE]
 >  Scheduled messages are listed as such in the **Activities** list for the **Regarding** record. Until the scheduled time arrives, you can still delete or reschedule the message from there. You can also edit the follow-up reminder date or time, but all other settings are read-only once you select **Send**.  
@@ -260,31 +260,31 @@ You can use this feature both with followed and unfollowed messages.
 
  Do you want to be reminded to follow up on an important email for some reason? Then set a follow-up reminder.  
   
-1.  Create a new message as described previously in [Create a new message](#NewMessage).  
+1. Create a new message as described previously in [Create a new message](#NewMessage).  
   
-2.  Finish authoring your message, and enable any other email engagement features that you want to use, as described in the other sections of this topic.  
+2. Finish authoring your message, and enable any other email engagement features that you want to use, as described in the other sections of this topic.  
   
-3.  Select **Set Reminder** link under the **Email Engagement** heading.  
+3. Select **Set Reminder** link under the **Email Engagement** heading.  
   
-    ![Set reminder control](../sales-enterprise/media/set-reminder-control.png "Set reminder control")  
+   ![Set reminder control](../sales-enterprise/media/set-reminder-control.png "Set reminder control")  
   
-4.  The **Set Reminder** pop-up window opens.  
+4. The **Set Reminder** pop-up window opens.  
   
-    ![Set Reminder window](../sales-enterprise/media/set-reminder-window.png "Set Reminder window")  
+   ![Set Reminder window](../sales-enterprise/media/set-reminder-window.png "Set Reminder window")  
   
-5.  Enter a **Title** for your reminder. This is the text that you will see when the reminder is triggered, so enter enough text to ensure that you will know what the reminder is about when the time comes.  
+5. Enter a **Title** for your reminder. This is the text that you will see when the reminder is triggered, so enter enough text to ensure that you will know what the reminder is about when the time comes.  
   
-6.  Use the **Condition** drop-down list to choose one of the following reminder conditions:  
+6. Use the **Condition** drop-down list to choose one of the following reminder conditions:  
   
-    - **If I do not receive a reply by**: Triggers the reminder if no reply has been received by the specified time and date (only available for followed messages).  
+   - **If I do not receive a reply by**: Triggers the reminder if no reply has been received by the specified time and date (only available for followed messages).  
   
-    - **If the email is not opened by**: Triggers the reminder if the message hasn't been opened by the specified time and date (only available for followed messages).  
+   - **If the email is not opened by**: Triggers the reminder if the message hasn't been opened by the specified time and date (only available for followed messages).  
   
-    - **Remind me anyway at**: Triggers the reminder at the specified time and date, no matter what.  
+   - **Remind me anyway at**: Triggers the reminder at the specified time and date, no matter what.  
   
-7.  Use the **Remind by** setting to establish the date and time you would like the reminder to be shown, provided the **Condition** is met.  
+7. Use the **Remind by** setting to establish the date and time you would like the reminder to be shown, provided the **Condition** is met.  
   
-8.  Select **OK** to save the reminder.  
+8. Select **OK** to save the reminder.  
   
 9. The **Set Reminder** button now turns blue, and a short summary of your reminder settings is shown (once the reminder time passes, this text updates to indicate this). The link text next to the button now reads **Change Reminder**, and a **Remove Reminder** link is also added. As the names suggests, you can select here to edit or remove the reminder.  
   

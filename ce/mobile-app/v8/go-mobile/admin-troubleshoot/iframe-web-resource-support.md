@@ -26,21 +26,21 @@ You can add iFrames and web resources in forms and dashboards in the [!INCLUDE[p
   
 > [!NOTE]
 >  iFrames and web resources are supported on [!INCLUDE[tn_Apple_ipad](../../../../includes/tn-apple-ipad.md)], [!INCLUDE[tn_android](../../../../includes/tn-android.md)], and [!INCLUDE[pn_windows_10](../../../../includes/pn-windows-10.md)] tablets. Tablets running Windows 8.1 and earlier are not supported.  
-  
+> 
 > [!IMPORTANT]
 >  [!INCLUDE[cc_feature_included_with_update_2016](../../../../includes/cc-feature-included-with-update-2016.md)]  
   
 ## Known issues  
   
--   You can’t use popups for authentication or other purposes from within iFrames and web resources on [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)].  
+- You can’t use popups for authentication or other purposes from within iFrames and web resources on [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)].  
   
--   Authentication for embedded sites isn’t available.  
+- Authentication for embedded sites isn’t available.  
   
--   Errors and memory leaks in iFrames and web resources can cause [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] to stop responding, and can cause client side data loss.  
+- Errors and memory leaks in iFrames and web resources can cause [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] to stop responding, and can cause client side data loss.  
   
--   Some iFrames and web resources can adversely affect application performance.  
+- Some iFrames and web resources can adversely affect application performance.  
   
--   [!INCLUDE[pn_MS_Silverlight_full](../../../../includes/pn-ms-silverlight-full.md)] and image web resources aren’t available on [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)].  
+- [!INCLUDE[pn_MS_Silverlight_full](../../../../includes/pn-ms-silverlight-full.md)] and image web resources aren’t available on [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)].  
   
 ### See also  
  [MSDN: Create web resources and iFrame content for use with the Dynamics 365 for tablets client](https://msdn.microsoft.com/library/dn858562.aspx)

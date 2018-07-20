@@ -1,26 +1,17 @@
 ---
 title: "Remove deactivated or disabled customizations | MicrosoftDocs"
 description: "Deactivated or disabled customizations should be removed from a solution to improve solution management and to decrease the risk of utilizing or managing an outdated component."
-ms.date: 02/05/2018
+ms.date: 06/28/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
-	- "Dynamics 365 (online)"
+  - "Dynamics 365 (online)"
 ms.assetid: 22d5fc9d-d4d1-43ef-9a2d-1a64f770161f
 author: "jowells1"
 ms.author: "jowells"
 manager: "michu"
 ---
 # Remove deactivated or disabled customizations
-
-**Applies to**:
-
-- [!include[](../../includes/pn-crm-9-0-0-online.md)]
-- [!include[](../../includes/pn-crm-2016.md)]
-- [!include[](../../includes/pn-crm-8-1-0-both.md)]
-- [!include[](../../includes/pn-crm-2015.md)]
-- [!include[](../../includes/pn-crmv6.md)]
-- [!include[](../../includes/pn-crm-2011.md)]
 
 **Category**: Maintainability, Supportability
 

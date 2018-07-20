@@ -46,9 +46,9 @@ Adding the Read Only Grid control to your controls list allows you to  configure
 3. Select **Read Only Grid** from the list of controls, and then choose **Add**.
 
     The control is added to the list of available controls.
-   
+
     ![Select a control](media/UnifiedInterface_ReadOnlyGrid_SelectControl.png "Select a Control")
-    
+
 4. Select the devices (**Web**, **Phone**, or **Tablet**) for which you want to make the grid read-only.
 
     ![Select the device type](media/UnifiedInterface_ReadOnlyGrid_SelectDevice.png "Select devices")
@@ -61,30 +61,31 @@ Adding the Read Only Grid control to your controls list allows you to  configure
 
     ![Edit card form](media/UnifiedInterface_ReadOnlyGrid_CardForm.png "Edit card form")
 
-    b.	Select the **Entity** and **Card Form** types.
+    b.  Select the **Entity** and **Card Form** types.
 
     ![Card form properties](media/UnifiedInterface_ReadOnlyGrid_CardFormProperties.png "Card form properties")
 
     c. Choose **OK**.
 6. Configure the **Reflow behavior** property. 
-    
+
     a. Choose the pencil icon next to **Reflow behavior**.
 
     ![Edit Reflow behaviour](media/UnifiedInterface_ReadOnlyGrid_EditReflow.png "Edit Reflow behaviour")
 
     b. Select the grid flow type from **Bind to static options** drop down.
+
     |Flow Type|Description|
     |--------------|--------------------|
     |**Reflow**|Allows the grid to render into list mode depending when there is no enough display space.|
     |**Grid Only**|Restricts the grid to reflow into list even when there is no enough display space.|
     |**List Only**|Displays only as a list even when there is enough space to display as grid.|
-    
+
      ![Reflow behaviour properties](media/UnifiedInterface_ReadOnlyGrid_ReflowProperties.png "Reflow behaviour properties")
 
     c. Choose **OK**.
 
 
-7.	Save and publish the changes. 
+7. Save and publish the changes. 
 
 
 ## Conditional image

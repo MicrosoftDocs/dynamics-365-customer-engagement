@@ -27,77 +27,77 @@ The session information is displayed under tabs in [!INCLUDE[pn_unified_service_
 <a name="SessionName"></a>   
 ## Configure the session tab name format  
   
-1.  Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
-3.  Click **Session Lines**.  
+3. Click **Session Lines**.  
   
-4.  On new **New Session Information** page:  
+4. On new **New Session Information** page:  
   
-    1.  Type an integer value (say 100) in the **Order** field to ensure that your rule executes in the proper order.  
+   1.  Type an integer value (say 100) in the **Order** field to ensure that your rule executes in the proper order.  
   
-    2.  Type a meaningful name in the **Name** field.  
+   2.  Type a meaningful name in the **Name** field.  
   
-    3.  In the **Selected Entity** field, type the name of the entity for which the session tab will be displayed.  
+   3.  In the **Selected Entity** field, type the name of the entity for which the session tab will be displayed.  
   
-    4.  From the **Type** drop-down list, select **Session Name**.  
+   4.  From the **Type** drop-down list, select **Session Name**.  
   
-    5.  In the **Display** field, type the display format for the tab. In this case, we want to display the name of the account followed by a dash, and then the primary contact name for the account. Type the following value: [[account.name]]-[[account.address1_primarycontactname]].  
+   5.  In the **Display** field, type the display format for the tab. In this case, we want to display the name of the account followed by a dash, and then the primary contact name for the account. Type the following value: [[account.name]]-[[account.address1_primarycontactname]].  
   
- ![Configure session tab name](../unified-service-desk/media/usd-configure-session-name.png "Configure session tab name")  
+   ![Configure session tab name](../unified-service-desk/media/usd-configure-session-name.png "Configure session tab name")  
   
-         Alternatively, you can use replacement parameters as well to pick up values at runtime, and dynamically display the tab name. For example, to display the name of the account followed by a dash and ending with the name of the activity that started the session (such as chat, or phonecall). Type the following value: [[account.name]]-[[$Context.InitialEntity]].  
+        Alternatively, you can use replacement parameters as well to pick up values at runtime, and dynamically display the tab name. For example, to display the name of the account followed by a dash and ending with the name of the activity that started the session (such as chat, or phonecall). Type the following value: [[account.name]]-[[$Context.InitialEntity]].  
   
-        > [!NOTE]
-        >  If all replacement values have matching values in it’s dataset, the rule will be used and the system will stop looking for subsequent rules. If one or more replacement values can’t be replaced, because the data doesn’t exist, the rule will fail and the system will try the next rule ordering to the Order field (checked in order of lowest to highest).  
+       > [!NOTE]
+       >  If all replacement values have matching values in it’s dataset, the rule will be used and the system will stop looking for subsequent rules. If one or more replacement values can’t be replaced, because the data doesn’t exist, the rule will fail and the system will try the next rule ordering to the Order field (checked in order of lowest to highest).  
   
-         In the preceding example, [[account.name]] will be looking for the name field from an account entity that has been loaded somewhere within the current session. Because we used the lowercased version of “account” that matches to the entity name in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], it means that it is looking for the last account page loaded no matter which tab it happens to be loaded within. Because of this, if you load a subaccount and your rules have it loading in a subaccount tab (thus displaying your primary account in the Account tab, and your subaccount in your Sub Account tab), the account name that will be used will be that of the sub account. This is because the subaccount is loaded after the Account tab. If you instead wish to always use the account name of the account that is displayed in the Account tab, you would use the following: **[[Account.name]]**.  
+        In the preceding example, [[account.name]] will be looking for the name field from an account entity that has been loaded somewhere within the current session. Because we used the lowercased version of “account” that matches to the entity name in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], it means that it is looking for the last account page loaded no matter which tab it happens to be loaded within. Because of this, if you load a subaccount and your rules have it loading in a subaccount tab (thus displaying your primary account in the Account tab, and your subaccount in your Sub Account tab), the account name that will be used will be that of the sub account. This is because the subaccount is loaded after the Account tab. If you instead wish to always use the account name of the account that is displayed in the Account tab, you would use the following: **[[Account.name]]**.  
   
-         The [[$Context.InitialEntity]] value is replaced at runtime with the InitialEntity context variable. This is a special context variable populated by the system with the entity name that is used to start the session.  
+        The [[$Context.InitialEntity]] value is replaced at runtime with the InitialEntity context variable. This is a special context variable populated by the system with the entity name that is used to start the session.  
   
-5.  Click **Save**.  
+5. Click **Save**.  
   
 <a name="SessionOverview"></a>   
 ## Define session overview information  
   
-1.  Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
-3.  Click **Session Lines**.  
+3. Click **Session Lines**.  
   
-4.  On **New Session Information** page,  
+4. On **New Session Information** page,  
   
-    1.  Type an integer value (say 100) in the **Order** field to ensure that your rule executes in the proper order.  
+   1. Type an integer value (say 100) in the **Order** field to ensure that your rule executes in the proper order.  
   
-    2.  Type a meaningful name in the **Name** field.  
+   2. Type a meaningful name in the **Name** field.  
   
-    3.  In the **Selected Entity** field, type the name of the entity for which the session overview information.  
+   3. In the **Selected Entity** field, type the name of the entity for which the session overview information.  
   
-    4.  From the **Type** drop-down list, select **Session Overview Line**.  
+   4. From the **Type** drop-down list, select **Session Overview Line**.  
   
-    5.  In the **Display** field, specify XAML script that defines the layout and content of the overview area. You can use designer tools such as [!INCLUDE[pn_blend_for_visual_studio](../includes/pn-blend-for-visual-studio.md)] to create and design the XAML script, and then copy it in this field. The XAML script must be properly formatted for it to display correctly in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
+   5. In the **Display** field, specify XAML script that defines the layout and content of the overview area. You can use designer tools such as [!INCLUDE[pn_blend_for_visual_studio](../includes/pn-blend-for-visual-studio.md)] to create and design the XAML script, and then copy it in this field. The XAML script must be properly formatted for it to display correctly in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
- ![Configure session overview](../unified-service-desk/media/usd-configure-session-overview.png "Configure session overview")  
+   ![Configure session overview](../unified-service-desk/media/usd-configure-session-overview.png "Configure session overview")  
   
-5.  Click **Save**.  
+5. Click **Save**.  
   
 <a name="scriptlet"></a>   
 ## Define session overview information using scriptlets  
  For developers who are familiar with [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)], you can use scriptlets to display session overview information. For example:  
   
-1.  You could create a scriptlet, say **Address Output**, which accepts all the address values.  
+1. You could create a scriptlet, say **Address Output**, which accepts all the address values.  
   
-2.  Using [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)], you could use the string functions to perform the string concatenation to produce the desired output.  
+2. Using [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)], you could use the string functions to perform the string concatenation to produce the desired output.  
   
-3.  In your XAML for the session overview information definition, use the following replacement parameter:  
+3. In your XAML for the session overview information definition, use the following replacement parameter:  
   
-    ```  
-    [[script.Address Output]]  
-    ```  
+   ```  
+   [[script.Address Output]]  
+   ```  
   
- At runtime, this triggers the execution of the scriptlet that formats the address output as you specified. If your scriptlet throws an exception, the rule will be ignored. This method is often the preferred method when the `AutoCollapse` style isn’t sufficient to hide related markup in the output as required. The replacement parameter may output XAML as well, which will be substituted before the XAML processor interprets the final result.  
+   At runtime, this triggers the execution of the scriptlet that formats the address output as you specified. If your scriptlet throws an exception, the rule will be ignored. This method is often the preferred method when the `AutoCollapse` style isn’t sufficient to hide related markup in the output as required. The replacement parameter may output XAML as well, which will be substituted before the XAML processor interprets the final result.  
   
 <a name="Alerts"></a>   
 ## Displaying alerts in the session overview information  

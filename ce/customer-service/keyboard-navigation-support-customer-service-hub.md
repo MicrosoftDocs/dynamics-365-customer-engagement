@@ -5,11 +5,12 @@ keywords: Customer Service Hub; Interactive Service hub; Keyboard shortcuts; Key
 author: anjgupta
 applies_to: Dynamics 365 (online); Dynamics 365 Version 8.x
 ms.author: anjgup
-manager: sakudes
+manager: shellyha
 ms.date: 04/01/2018
 ms.topic: article
 ms.service: crm-online
 ms.assetid: 97ac6ad4-92f0-4785-9186-31d3722e20a1
+ms.custom: dyn365-customerservice
 ---
 
 # Keyboard navigation support for the Customer Service Hub

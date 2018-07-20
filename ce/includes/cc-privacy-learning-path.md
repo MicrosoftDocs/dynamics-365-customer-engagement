@@ -1,4 +1,4 @@
-﻿By enabling the Learning Path feature, static html, you enable images and scripts to be stored on [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Content Delivery Network (CDN). In addition, all dynamic content that is displayed will be stored in [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Redis Cache, which is used to pre-cache from the [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] SQL database.  
+By enabling the Learning Path feature, static html, you enable images and scripts to be stored on [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Content Delivery Network (CDN). In addition, all dynamic content that is displayed will be stored in [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Redis Cache, which is used to pre-cache from the [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] SQL database.  
   
  An administrator can enable and disable use of the Learning Path feature within a [!INCLUDE[pn_crm_online_shortest](pn-crm-online-shortest.md)] instance by using the Enable Guided Help setting in the [!INCLUDE[pn_microsoftcrm](pn-microsoftcrm.md)] organization.  
   
@@ -21,32 +21,32 @@
   
  Learning Path uses SQL Database to store:  
   
--   Content  
+- Content  
   
--   Content metadata  
+- Content metadata  
   
--   System metadata  
+- System metadata  
   
- [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/)  
+  [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/)  
   
- The HTML, images, [!INCLUDE[pn_JavaScript](pn-javascript.md)], and CSS are all stored in [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Blob storage.  
+  The HTML, images, [!INCLUDE[pn_JavaScript](pn-javascript.md)], and CSS are all stored in [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Blob storage.  
   
- [Azure Content Delivery Network  (CDN)](https://azure.microsoft.com/en-us/services/cdn/)  
+  [Azure Content Delivery Network  (CDN)](https://azure.microsoft.com/en-us/services/cdn/)  
   
- Learning Path uses [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Content Delivery Network to serve static content to the survey runtime, such as HTML, images, [!INCLUDE[pn_JavaScript](pn-javascript.md)], and CSS.  
+  Learning Path uses [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Content Delivery Network to serve static content to the survey runtime, such as HTML, images, [!INCLUDE[pn_JavaScript](pn-javascript.md)], and CSS.  
   
- [Azure Active Directory](https://azure.microsoft.com/en-us/services/active-directory/)  
+  [Azure Active Directory](https://azure.microsoft.com/en-us/services/active-directory/)  
   
- Learning Path uses [!INCLUDE[pn_azure_active_directory](pn-azure-active-directory.md)] Service to authenticate web services specifically for the designer. Currently the designer is not exposed to customers and partners. And hence the authentication is within only the [!INCLUDE[cc_Microsoft](cc-microsoft.md)] domain.  
+  Learning Path uses [!INCLUDE[pn_azure_active_directory](pn-azure-active-directory.md)] Service to authenticate web services specifically for the designer. Currently the designer is not exposed to customers and partners. And hence the authentication is within only the [!INCLUDE[cc_Microsoft](cc-microsoft.md)] domain.  
   
- [Azure Redis Cache](https://azure.microsoft.com/en-us/services/cache/)  
+  [Azure Redis Cache](https://azure.microsoft.com/en-us/services/cache/)  
   
- Learning path uses [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Redis Cache to cache dynamic content that we serve to users.  
+  Learning path uses [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Redis Cache to cache dynamic content that we serve to users.  
   
- [Azure Traffic Manager](https://azure.microsoft.com/en-us/services/traffic-manager/)  
+  [Azure Traffic Manager](https://azure.microsoft.com/en-us/services/traffic-manager/)  
   
- Learning Path uses Traffic Manager to improve the availability of important applications by monitoring your [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] or external sites and services and automatically directing users to a new location anytime there’s a failure.  
+  Learning Path uses Traffic Manager to improve the availability of important applications by monitoring your [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] or external sites and services and automatically directing users to a new location anytime there’s a failure.  
   
- [Azure Resource Manager](https://azure.microsoft.com/en-us/features/resource-manager/)  
+  [Azure Resource Manager](https://azure.microsoft.com/en-us/features/resource-manager/)  
   
- Learning Path uses [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Resource Manager to deploy CDN, Redis Cache, SQL Database, and cloud services as resource groups so that they are in a consistent state and can be deployed repeatedly.
+  Learning Path uses [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Resource Manager to deploy CDN, Redis Cache, SQL Database, and cloud services as resource groups so that they are in a consistent state and can be deployed repeatedly.

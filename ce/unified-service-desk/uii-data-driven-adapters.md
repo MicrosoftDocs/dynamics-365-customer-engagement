@@ -36,7 +36,7 @@ Data-driven adapters are used by the [!INCLUDE[pn_hosted_application_toolkit_hat
   
 - **JavaDataDrivenAdapter**: A [!INCLUDE[pn_Java](../includes/pn-java.md)] Development Kit (JDK) level 1.7–based data-driven adapter for [!INCLUDE[pn_Java](../includes/pn-java.md)] applications.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)  
   
 ### See also  
  [UII Hosted Application Toolkit (HAT)](../unified-service-desk/uii-hosted-application-toolkit-hat.md)   

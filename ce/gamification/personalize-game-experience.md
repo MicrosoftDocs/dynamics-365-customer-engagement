@@ -31,13 +31,13 @@ Change the company logo to be shown in [!INCLUDE[pn_gamification_shortest](../in
 
 ### Upload your company logo  
 
-1.  In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)],  go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
+1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)],  go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
 
-2.  Click the **Gamification Settings** tab.  
+2. Click the **Gamification Settings** tab.  
 
-3.  Next to **Organization Logo**, click **Upload Logo**.  
+3. Next to **Organization Logo**, click **Upload Logo**.  
 
-4.  Select a logo and upload it. It will be updated automatically.
+4. Select a logo and upload it. It will be updated automatically.
 
 The company logo is updated when you access games in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)].  
 
@@ -47,13 +47,13 @@ Define how players and fans get in touch with the commissioner. Participants can
 
 ### Set the link for the contact menu  
 
-1.  In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
+1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
 
-2.  Click the **Gamification Settings** tab.  
+2. Click the **Gamification Settings** tab.  
 
-3.  Next to **Contact Menu**, enter an email address or a URL for a help page.  
+3. Next to **Contact Menu**, enter an email address or a URL for a help page.  
 
-4.  To apply your changes, click **Save**.
+4. To apply your changes, click **Save**.
 
 ## Customize player stats
 
@@ -61,17 +61,17 @@ Choose whether you want to show or hide the **Actuals** tab in the **Player Stat
 
 ### Show or hide actuals in player stats  
 
-1.  In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
+1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
 
-2.  Click the **Gamification Settings** tab.  
+2. Click the **Gamification Settings** tab.  
 
-3.  In the **Hide Actuals** line, set the value to **On** if you don't want to show the actuals.  
+3. In the **Hide Actuals** line, set the value to **On** if you don't want to show the actuals.  
 
-     --Or--  
+    --Or--  
 
-     Set the value to **Off** if you want to show actuals.  
+    Set the value to **Off** if you want to show actuals.  
 
-4.  To apply your changes, click **Save**.  
+4. To apply your changes, click **Save**.  
 
 ## Display completed games  
 
@@ -100,15 +100,15 @@ You can opt in for early access to newly developed features to evaluate them for
 
 ## Show or hide completed games  
 
-1.  In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
+1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
 
-2.  Click the **Gamification Settings** tab.  
+2. Click the **Gamification Settings** tab.  
 
-3.  Set the value for **Hide Completed Games** to **On** if you don't want to display completed games more than 31 days after their end date.  
+3. Set the value for **Hide Completed Games** to **On** if you don't want to display completed games more than 31 days after their end date.  
 
-     Set the value for **Hide Completed Games** to **Off** if you want to show completed games continuously.  
+    Set the value for **Hide Completed Games** to **Off** if you want to show completed games continuously.  
 
-4.  To apply your changes, click **Save**.  
+4. To apply your changes, click **Save**.  
 
 ## Define the posts to show in Stream TV games  
 
@@ -116,29 +116,29 @@ You can opt in for early access to newly developed features to evaluate them for
 
 ### Configure Stream TV settings  
 
-1.  In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
+1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
 
-2.  Click the **Stream TV Settings** tab.  
+2. Click the **Stream TV Settings** tab.  
 
-3.  Set the values to meet your requirements.  
+3. Set the values to meet your requirements.  
 
-    - **Show Board Posts**: Shows all posts on the smack talk board from a leaderboard shown in a Stream TV.  
+   - **Show Board Posts**: Shows all posts on the smack talk board from a leaderboard shown in a Stream TV.  
 
-    - **Leaderboard Post Display Time (Seconds)**: Number of seconds a smack talk post appears in a Stream TV.  
+   - **Leaderboard Post Display Time (Seconds)**: Number of seconds a smack talk post appears in a Stream TV.  
 
-    - **Leaderboard Post Display Count**: Define how many times a smack talk post appears in a Stream TV.  
+   - **Leaderboard Post Display Count**: Define how many times a smack talk post appears in a Stream TV.  
 
-    - **Display Waiting Time (Seconds)**: Number of seconds before a smack talk post appears again in a Stream TV.  
+   - **Display Waiting Time (Seconds)**: Number of seconds before a smack talk post appears again in a Stream TV.  
 
-    - **Show BAM Posts**: Show all BAM posts on smack talk from a leaderboard shown in a Stream TV.  
+   - **Show BAM Posts**: Show all BAM posts on smack talk from a leaderboard shown in a Stream TV.  
 
-    - **BAM Display Count**: Define how many times a BAM post appears in a Stream TV.  
+   - **BAM Display Count**: Define how many times a BAM post appears in a Stream TV.  
 
-    - **BAM Display Time (Seconds)**: Number of seconds before a BAM post appears again in a Stream TV.  
+   - **BAM Display Time (Seconds)**: Number of seconds before a BAM post appears again in a Stream TV.  
 
-    - **Enable Public Stream TV**: Allows game owners to create Stream TVs that people can view without signing in to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Manage Stream TV games in Gamification](configure-view-tvs.md)  
+   - **Enable Public Stream TV**: Allows game owners to create Stream TVs that people can view without signing in to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Manage Stream TV games in Gamification](configure-view-tvs.md)  
 
-4.  To apply your changes, click **Save**.
+4. To apply your changes, click **Save**.
 
 ### See also  
 

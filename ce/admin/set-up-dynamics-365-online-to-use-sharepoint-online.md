@@ -22,17 +22,17 @@ manager: "brycho"
 
 When you use [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-sharepoint-online.md)] with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], you can:  
   
--   Create, upload, view, and delete documents stored in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] from within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+- Create, upload, view, and delete documents stored in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] from within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
--   Use the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document management abilities within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], such as checking the document in and out, viewing version history, and changing document properties.  
+- Use the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document management abilities within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], such as checking the document in and out, viewing version history, and changing document properties.  
   
--   Enable non-[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users, such as customers who want to review a bid, to directly access the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] documents, provided they have the appropriate permissions.  
+- Enable non-[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users, such as customers who want to review a bid, to directly access the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] documents, provided they have the appropriate permissions.  
   
 > [!IMPORTANT]
 >  This topic is for organizations who wish to deploy for the first time or upgrade to server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration. After you enable server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, you can’t revert to the previous client-based authentication method.  
->   
+> 
 >  For some organizations, using the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] solution might be a better choice. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure SharePoint integration using the list component](configure-sharepoint-integration-using-list-component.md).  
-  
+> 
 > [!TIP]
 > ![Video symbol](../admin/media/video-thumbnail-4-crm.png "Video symbol") Check out the following video: [Connect Dynamics 365 to SharePoint Online](https://go.microsoft.com/fwlink/p/?linkid=837790)  
   
@@ -47,19 +47,19 @@ When you use [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
   
-2.  Open the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher, and then click **SharePoint**.  
+2. Open the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher, and then click **SharePoint**.  
   
-3.  3.  On the left-side menu, click **Team Site**.  
+3. 3.  On the left-side menu, click **Team Site**.  
   
-4.  On the Home page, click **SHARE** (upper-right corner).  
+4. On the Home page, click **SHARE** (upper-right corner).  
   
- ![SharePoint Share Settings](../admin/media/sharepoint-share-settings.png "SharePoint Share Settings")  
+   ![SharePoint Share Settings](../admin/media/sharepoint-share-settings.png "SharePoint Share Settings")  
   
-5.  To view the default permissions for your team site, click **lots of people**.  
+5. To view the default permissions for your team site, click **lots of people**.  
   
- ![Share Team site](../admin/media/crm-itpro-crmo365tg2-shareteamsite.png "Share Team site")  
+   ![Share Team site](../admin/media/crm-itpro-crmo365tg2-shareteamsite.png "Share Team site")  
   
-6.  By default, all users in your [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] organization are able to add and edit documents on the Team [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site. To invite others, choose **Invite people** and add people external to your organization to share documents.  
+6. By default, all users in your [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] organization are able to add and edit documents on the Team [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site. To invite others, choose **Invite people** and add people external to your organization to share documents.  
   
 For more information about [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] permissions, see [Introduction: Control user access with permissions](https://support.office.com/Article/Introduction-Control-user-access-with-permissions-ab2d1ab1-07cf-4c69-bdd9-390bfd787b26)  
   
@@ -89,20 +89,20 @@ For more information about [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepo
 > [!NOTE]
 >  If you don’t see the alert and have not previously enabled server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, clear your browser cache or open [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] using [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] with InPrivate browsing to have the alert display again. Once you configure server-based integration, the alert will no longer appear.  
   
-1.  In the Enable Server-based SharePoint Integration alert click **Next**.  
+1. In the Enable Server-based SharePoint Integration alert click **Next**.  
   
-2.  Choose **Online** for where your [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] sites are located, and then choose **Next**.  
+2. Choose **Online** for where your [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] sites are located, and then choose **Next**.  
   
- ![Select Online as the SharePoint sites location](../admin/media/crmandsharepointonlineenablestep2.png "Select Online as the SharePoint sites location")  
+   ![Select Online as the SharePoint sites location](../admin/media/crmandsharepointonlineenablestep2.png "Select Online as the SharePoint sites location")  
   
-3.  If your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] is not connected to a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] online site, enter the URL (for example https://contoso.sharepoint.com) of your [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site that you will use for auto folder creation, and then choose **Next**.  
+3. If your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] is not connected to a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] online site, enter the URL (for example <https://contoso.sharepoint.com>) of your [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site that you will use for auto folder creation, and then choose **Next**.  
   
-    > [!TIP]
-    >  To see your [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site collections, in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], click **Admin centers** > **SharePoint**, and then click **site collections**.  
+   > [!TIP]
+   >  To see your [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site collections, in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], click **Admin centers** > **SharePoint**, and then click **site collections**.  
   
- ![Enter the URL of the SharePoint site](../admin/media/crmandsharepointonlineenablestep3.png "Enter the URL of the SharePoint site")  
+   ![Enter the URL of the SharePoint site](../admin/media/crmandsharepointonlineenablestep3.png "Enter the URL of the SharePoint site")  
   
-4.  The URL will be checked for being a valid [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] online site and for existing in the same [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant as your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization. After enabling server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration you can’t go back to the previous client-side integration. Choose **Enable**.  
+4. The URL will be checked for being a valid [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] online site and for existing in the same [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant as your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization. After enabling server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration you can’t go back to the previous client-side integration. Choose **Enable**.  
   
 After you enable server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] the options to Install List Components and to enable server-based integration will no longer appear as an option in Document Management.  
   
@@ -113,29 +113,29 @@ Once server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short
 ## Using Document Management  
  You are now ready to add document storage locations to the entities you enabled above and start managing documents. Begin by opening a document management-enabled record (for example, Contact).  
   
-1.  Browse to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web application.  
+1. Browse to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web application.  
   
-2.  Choose an account, such as the **Adventure Works** sample account.  
+2. Choose an account, such as the **Adventure Works** sample account.  
   
-3.  On the nav bar, click the down arrow next to the account name, and then click **Documents**.  
+3. On the nav bar, click the down arrow next to the account name, and then click **Documents**.  
   
- ![Select Documents for an account](../admin/media/crm-itpro-crmo365tg-seldoc.png "Select Documents for an account")  
+   ![Select Documents for an account](../admin/media/crm-itpro-crmo365tg-seldoc.png "Select Documents for an account")  
   
-4.  Click **Upload**, and then browse to a document to upload to the new folder in your [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)][!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] Team site.  
+4. Click **Upload**, and then browse to a document to upload to the new folder in your [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)][!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] Team site.  
   
- ![Add a document](../admin/media/crm-itpro-crmo365tg-crmadddoc.png "Add a document")  
+   ![Add a document](../admin/media/crm-itpro-crmo365tg-crmadddoc.png "Add a document")  
   
-5.  Select a [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] folder location, and then click **Ok**.  
+5. Select a [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] folder location, and then click **Ok**.  
   
-6.  To see the document in your [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)][!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] Team site, click to the left of the document name (you’ll see a check mark), and then click **Open Location**.  
+6. To see the document in your [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)][!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] Team site, click to the left of the document name (you’ll see a check mark), and then click **Open Location**.  
   
 ![Office 365 Team Site shared document](../admin/media/crm-itpro-crmo365tg-teamdocshare.png "Office 365 Team Site shared document")  
   
-7.  Click **Site Contents** to see all the document libraries created for the managed entities you selected.  
+7. Click **Site Contents** to see all the document libraries created for the managed entities you selected.  
   
-     The entities you selected to be managed by Document Management appear as document libraries (for example: Account, Article, Case, Lead, Opportunity, Product, Quote, and Sales Literature).  
+    The entities you selected to be managed by Document Management appear as document libraries (for example: Account, Article, Case, Lead, Opportunity, Product, Quote, and Sales Literature).  
   
- ![Office 365 Team Site all libraries](../admin/media/crm-itpro-crmo365tg-teamalllib.png "Office 365 Team Site all libraries")  
+   ![Office 365 Team Site all libraries](../admin/media/crm-itpro-crmo365tg-teamalllib.png "Office 365 Team Site all libraries")  
   
 ### See also  
  [Manage your documents using SharePoint](manage-documents-using-sharepoint.md)   

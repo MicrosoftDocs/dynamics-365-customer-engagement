@@ -1163,6 +1163,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Connection_AsyncOperations"></a> Connection_AsyncOperations
 
 Same as asyncoperation entity [Connection_AsyncOperations](asyncoperation.md#BKMK_Connection_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1177,6 +1178,7 @@ Same as asyncoperation entity [Connection_AsyncOperations](asyncoperation.md#BKM
 ### <a name="BKMK_connection_related_connection"></a> connection_related_connection
 
 Same as connection entity [connection_related_connection](connection.md#BKMK_connection_related_connection) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1191,6 +1193,7 @@ Same as connection entity [connection_related_connection](connection.md#BKMK_con
 ### <a name="BKMK_userentityinstancedata_connection"></a> userentityinstancedata_connection
 
 Same as userentityinstancedata entity [userentityinstancedata_connection](userentityinstancedata.md#BKMK_userentityinstancedata_connection) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1205,6 +1208,7 @@ Same as userentityinstancedata entity [userentityinstancedata_connection](useren
 ### <a name="BKMK_connection_principalobjectattributeaccess"></a> connection_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [connection_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_connection_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1219,6 +1223,7 @@ Same as principalobjectattributeaccess entity [connection_principalobjectattribu
 ### <a name="BKMK_Connection_SyncErrors"></a> Connection_SyncErrors
 
 Same as syncerror entity [Connection_SyncErrors](syncerror.md#BKMK_Connection_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1233,6 +1238,7 @@ Same as syncerror entity [Connection_SyncErrors](syncerror.md#BKMK_Connection_Sy
 ### <a name="BKMK_Connection_ProcessSessions"></a> Connection_ProcessSessions
 
 Same as processsession entity [Connection_ProcessSessions](processsession.md#BKMK_Connection_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|

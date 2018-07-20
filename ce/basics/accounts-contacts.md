@@ -32,7 +32,7 @@ If you work mostly with other companies, you’ll probably want to use accounts 
   
 1. [!INCLUDE[proc_sales_accounts](../includes/proc-sales-accounts.md)]  
   
-2.  Choose **New**.  
+2. Choose **New**.  
   
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
@@ -42,7 +42,7 @@ If you work mostly with other companies, you’ll probably want to use accounts 
   
 1. [!INCLUDE[proc_sales_accounts](../includes/proc-sales-accounts.md)]  
   
-2.  Open the account and change the information that you want.  
+2. Open the account and change the information that you want.  
   
 3. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
 
@@ -53,18 +53,18 @@ Use contacts to keep track of the people you do business with. Learn how to impo
   
 1. [!INCLUDE[proc_contacts](../includes/proc-contacts.md)]  
   
-2.  You’ll see a list of your active contacts. [!INCLUDE[proc_need_to_scroll](../includes/proc-need-to-scroll.md)]  
+2. You’ll see a list of your active contacts. [!INCLUDE[proc_need_to_scroll](../includes/proc-need-to-scroll.md)]  
   
-    > [!TIP]
-    > [!INCLUDE[proc_most_recently_used_lead_in](../includes/proc-most-recently-used-lead-in.md)] On the nav bar, next to **Contacts**, choose ![User profile security option More Options button](../basics/media/user-profile-security-option-more-button.gif "User profile security option More Options button"). [!INCLUDE[proc_most_recently_used_conc](../includes/proc-most-recently-used-conc.md)]  
+   > [!TIP]
+   > [!INCLUDE[proc_most_recently_used_lead_in](../includes/proc-most-recently-used-lead-in.md)] On the nav bar, next to **Contacts**, choose ![User profile security option More Options button](../basics/media/user-profile-security-option-more-button.gif "User profile security option More Options button"). [!INCLUDE[proc_most_recently_used_conc](../includes/proc-most-recently-used-conc.md)]  
   
-3.  Click or tap a person’s name to see the details for the contact.  
+3. Click or tap a person’s name to see the details for the contact.  
   
 ## Create a contact  
   
 1. [!INCLUDE[proc_contacts](../includes/proc-contacts.md)]  
   
-2.  Choose **New**.  
+2. Choose **New**.  
   
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
@@ -74,7 +74,7 @@ Use contacts to keep track of the people you do business with. Learn how to impo
   
 1. [!INCLUDE[proc_contacts](../includes/proc-contacts.md)]  
   
-2.  Open the contact and change the information that you want.  
+2. Open the contact and change the information that you want.  
   
 3. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
 

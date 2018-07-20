@@ -36,26 +36,26 @@ To enhance your organization’s collaboration, use [!INCLUDE[pn_microsoftcrm](.
   
  You’ll notice that, if you enable the [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] connection, Activity Feeds behavior changes, as shown here:  
   
--   User posts (manual posts) added through the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user interface are created and stored directly in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]. Existing user posts, created before the [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] connection was enabled, aren’t migrated from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)].  
+- User posts (manual posts) added through the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user interface are created and stored directly in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]. Existing user posts, created before the [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] connection was enabled, aren’t migrated from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)].  
   
--   Auto posts are created and stored in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+- Auto posts are created and stored in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
-    > [!NOTE]
-    >  Selective auto posts are stored in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] in addition to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], if you set the `msdyn_PostRuleConfig.msdyn_PostToYammer` attribute to `true`. Some of the auto post rules for [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] are enabled out-of-the-box. Other rules can be enabled by the administrator. To see the auto post rules that are available for [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application, on the nav bar, click **[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]** > **Settings** > **Post Rule Configurations**. Click the **All Activity Feeds Rules** drop-down list, and then click **All Yammer Rules**.  
+  > [!NOTE]
+  >  Selective auto posts are stored in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] in addition to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], if you set the `msdyn_PostRuleConfig.msdyn_PostToYammer` attribute to `true`. Some of the auto post rules for [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] are enabled out-of-the-box. Other rules can be enabled by the administrator. To see the auto post rules that are available for [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application, on the nav bar, click **[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]** > **Settings** > **Post Rule Configurations**. Click the **All Activity Feeds Rules** drop-down list, and then click **All Yammer Rules**.  
   
--   Objects, except users, are followed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]. You must enable the [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] connection before you can follow an object in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)].  
+- Objects, except users, are followed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]. You must enable the [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] connection before you can follow an object in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)].  
   
--   Users are only followed in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]. A user must have a valid [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] account to be followed.  
+- Users are only followed in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]. A user must have a valid [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] account to be followed.  
   
--   You can stop following an object in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] programmatically or through the user interface. However, this doesn’t unfollow the object in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]. To stop following an object in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], you have to use the [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] user interface. You can’t unfollow an object in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] programmatically.  
+- You can stop following an object in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] programmatically or through the user interface. However, this doesn’t unfollow the object in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]. To stop following an object in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], you have to use the [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] user interface. You can’t unfollow an object in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] programmatically.  
   
- If you’re connected to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], the <xref:Microsoft.Crm.Sdk.Messages.RetrieveRecordWallRequest> message and the <xref:Microsoft.Crm.Sdk.Messages.RetrievePersonalWallRequest> message return the following posts:  
+  If you’re connected to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], the <xref:Microsoft.Crm.Sdk.Messages.RetrieveRecordWallRequest> message and the <xref:Microsoft.Crm.Sdk.Messages.RetrievePersonalWallRequest> message return the following posts:  
   
--   All auto posts.  
+- All auto posts.  
   
--   User posts created by using the [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] web application, before you enabled the connection to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)].  
+- User posts created by using the [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] web application, before you enabled the connection to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)].  
   
--   User posts created programmatically in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] before or after you enabled the connection to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)].  
+- User posts created programmatically in [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] before or after you enabled the connection to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)].  
   
 ### See also  
  [Activity Feeds Entities](activity-feeds-entities.md)   

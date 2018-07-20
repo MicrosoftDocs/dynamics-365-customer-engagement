@@ -26,9 +26,9 @@ This walkthrough will describe the steps to create a multi-tenant web applicatio
   
 - [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)] with web developer tools installed  
   
--   A [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] tenant associated with your [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] (Azure AD) tenant.  
+- A [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] tenant associated with your [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] (Azure AD) tenant.  
   
--   A second [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] tenant associated with a different Azure AD tenant.  This tenant represents a subscriber to your application. This can be a trial [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] subscription.  
+- A second [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] tenant associated with a different Azure AD tenant.  This tenant represents a subscriber to your application. This can be a trial [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] subscription.  
   
 <a name="bkmk_goal"></a>   
 ## Goal of this walkthrough  
@@ -66,58 +66,58 @@ This walkthrough will describe the steps to create a multi-tenant web applicatio
 ## Create an MVC web application  
  Using [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)], you can create a new MVC web application and register it with your Azure AD tenant.  
   
-1.  Open [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)].  
+1. Open [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)].  
   
-2.  Make sure that the [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] you are signed in as is the same one with access to the Azure AD tenant you want to use to register your application.  
+2. Make sure that the [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] you are signed in as is the same one with access to the Azure AD tenant you want to use to register your application.  
   
-3.  Click **New Project** and select **.NET Framework 4.6.1** and the **ASP.NET Web Application** template.  
+3. Click **New Project** and select **.NET Framework 4.6.1** and the **ASP.NET Web Application** template.  
   
-     Click **OK**, and in the New ASP.NET project dialog select **MVC**.  
+    Click **OK**, and in the New ASP.NET project dialog select **MVC**.  
   
-4.  Click the **Change Authentication** button, and in the dialog select **Work And School Accounts**.  
+4. Click the **Change Authentication** button, and in the dialog select **Work And School Accounts**.  
   
-5.  In the drop-down, select **Cloud – Multiple Organizations**.  
+5. In the drop-down, select **Cloud – Multiple Organizations**.  
   
- ![ASP.NET  MVC Change Authentication Dialog](media/mvc-change-authentication-dialog.png "ASP.NET  MVC Change Authentication Dialog")  
+   ![ASP.NET  MVC Change Authentication Dialog](media/mvc-change-authentication-dialog.png "ASP.NET  MVC Change Authentication Dialog")  
   
-6.  Click **OK** and complete initializing the project.  
+6. Click **OK** and complete initializing the project.  
   
-    > [!NOTE]
-    >  Creating a [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project this way will register the application with your Azure AD tenant and add the following keys to the Web.Config appSettings:  
+   > [!NOTE]
+   >  Creating a [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project this way will register the application with your Azure AD tenant and add the following keys to the Web.Config appSettings:  
   
-    ```xml  
-    <add key="ida:ClientId" value="baee6b74-3c39-4c04-bfa5-4414f3dd1c26" />  
-    <add key="ida:AADInstance" value="https://login.microsoftonline.com/" />  
-    <add key="ida:ClientSecret" value="HyPjzuRCbIl/7VUJ2+vG/+Gia6t1+5y4dvtKAcyztL4=" />  
+   ```xml  
+   <add key="ida:ClientId" value="baee6b74-3c39-4c04-bfa5-4414f3dd1c26" />  
+   <add key="ida:AADInstance" value="https://login.microsoftonline.com/" />  
+   <add key="ida:ClientSecret" value="HyPjzuRCbIl/7VUJ2+vG/+Gia6t1+5y4dvtKAcyztL4=" />  
   
-    ```  
+   ```  
   
 <a name="bkmk_RegisterAppOnAAD"></a>   
 ## Register your application on Azure AD  
  If you have followed the steps in [Create an MVC web application](#bkmk_createMVCWebApp), you should find that the web application project you created in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] is already registered in your Azure AD applications. But there is one more step that you must perform within the Azure AD portal.  
   
-1.  Go to [https://portal.azure.com](https://portal.azure.com) and select **Azure Active Directory**.  
+1. Go to [https://portal.azure.com](https://portal.azure.com) and select **Azure Active Directory**.  
   
-2.  Click **App registrations** and look for the application you created using [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)]. In the **General** area, verify the properties:  
+2. Click **App registrations** and look for the application you created using [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)]. In the **General** area, verify the properties:  
   
- ![Application registration data in Azure Active Directory](media/app-registration-data.png "Application registration data in Azure Active Directory")  
+   ![Application registration data in Azure Active Directory](media/app-registration-data.png "Application registration data in Azure Active Directory")  
   
-3.  Verify that the **Application ID** property matches the `ClientId` value added in your Web.Config appSettings.  
+3. Verify that the **Application ID** property matches the `ClientId` value added in your Web.Config appSettings.  
   
-4.  The **Home page URL** value should match SSL URL property in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project and should direct to a localhost URL, i.e. https://localhost:44392/.  
+4. The **Home page URL** value should match SSL URL property in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project and should direct to a localhost URL, i.e. https://localhost:44392/.  
   
-    > [!NOTE]
-    >  You will need to change this later when you actually publish your application. But you need to have this set to the correct localhost value for debugging.  
+   > [!NOTE]
+   >  You will need to change this later when you actually publish your application. But you need to have this set to the correct localhost value for debugging.  
   
-5.  You need to give your application privileges to access [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data. In the **API Access** area click **Required permissions**. You should see that it already has permissions for Windows [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)].  
+5. You need to give your application privileges to access [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data. In the **API Access** area click **Required permissions**. You should see that it already has permissions for Windows [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)].  
   
-6.  Click **Add**, then **Select an API**. In the list, select [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and then click the **Select** button.  
+6. Click **Add**, then **Select an API**. In the list, select [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and then click the **Select** button.  
   
-7.  In **Select permissions**, select **Access Dynamics 365 as organization users**. Then click the **Select** button.  
+7. In **Select permissions**, select **Access Dynamics 365 as organization users**. Then click the **Select** button.  
   
-8.  Click **Done** to add these permissions. When you are done you should see the permissions applied:  
+8. Click **Done** to add these permissions. When you are done you should see the permissions applied:  
   
- ![Dynamics 365 permissions applied to application in Azure Active Directory](media/crm-permissions-applied-app-aad.png "Dynamics 365 permissions applied to application in Azure Active Directory")  
+   ![Dynamics 365 permissions applied to application in Azure Active Directory](media/crm-permissions-applied-app-aad.png "Dynamics 365 permissions applied to application in Azure Active Directory")  
   
 9. In the **API Access** area, confirm that a **Key** value has been added. The **Key** value is not visible in the Azure portal after the application has been created, but this value was added to your Web.Config appSettings as the `ClientSecret`.  
   
@@ -437,29 +437,29 @@ namespace <Your app namespace>
 ### Views/CrmSdk  
  Add a new view named Index.  
   
-1.  Right click the CrmSdk folder and select **Add** > **View…**  
+1. Right click the CrmSdk folder and select **Add** > **View…**  
   
-2.  In the **Add View** dialog, set the following values:  
+2. In the **Add View** dialog, set the following values:  
   
- ![MVC Add View Dialog](media/mvc-add-view-dialog.PNG "MVC Add View Dialog")  
+   ![MVC Add View Dialog](media/mvc-add-view-dialog.PNG "MVC Add View Dialog")  
   
-3.  Click **Add**  
+3. Click **Add**  
   
-4.  Replace the generated code with the following:  
+4. Replace the generated code with the following:  
   
-    ```html  
-    @model string  
-    @{  
-     ViewBag.Title = "SDK Connect";  
-    }  
+   ```html  
+   @model string  
+   @{  
+    ViewBag.Title = "SDK Connect";  
+   }  
   
-    <h2>@ViewBag.Title.</h2>  
+   <h2>@ViewBag.Title.</h2>  
   
-    <p>Connected and executed sdk command WhoAmI.</p>  
+   <p>Connected and executed sdk command WhoAmI.</p>  
   
-    <p>Value: @Model</p>  
+   <p>Value: @Model</p>  
   
-    ```  
+   ```  
   
 <a name="bkmk_DebugApp"></a>   
 ## Debug the app  
@@ -501,15 +501,15 @@ namespace <Your app namespace>
 ### Give consent from the subscribing tenant  
  To give consent, perform the following steps while logged in as the Azure AD admin:  
   
-1.  While you are debugging your application, open a separate InPrivate or incognito window.  
+1. While you are debugging your application, open a separate InPrivate or incognito window.  
   
-2.  In the address field of the window type the URL for your app, i.e. `https://localhost:44392/`  
+2. In the address field of the window type the URL for your app, i.e. `https://localhost:44392/`  
   
-3.  Click the **Sign in** button  and you will be prompted to grant consent.  
+3. Click the **Sign in** button  and you will be prompted to grant consent.  
   
- ![Azure Active Directory consent form](media/mvc-s2s-walkthrough-app-grant-consent.PNG "Azure Active Directory consent form")  
+   ![Azure Active Directory consent form](media/mvc-s2s-walkthrough-app-grant-consent.PNG "Azure Active Directory consent form")  
   
- After you grant consent you will return to the app, but you won’t be able to use it yet. If you click **WhoAmI** at this point you can expect the following exception:  
+   After you grant consent you will return to the app, but you won’t be able to use it yet. If you click **WhoAmI** at this point you can expect the following exception:  
   
 ```
 System.ServiceModel.Security.MessageSecurityException  

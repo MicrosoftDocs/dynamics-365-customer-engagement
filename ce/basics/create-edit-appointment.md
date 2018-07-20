@@ -30,19 +30,19 @@ The calendar displays canceled and completed appointments and service activities
 
 To remove an appointment or service activity from the calendar, delete the record.  
   
-1.  To create an appointment or a recurring appointment on the Service Calendar, on the nav bar: [!INCLUDE[proc_service_service_calendar](../includes/proc-service-service-calendar.md)]  
+1. To create an appointment or a recurring appointment on the Service Calendar, on the nav bar: [!INCLUDE[proc_service_service_calendar](../includes/proc-service-service-calendar.md)]  
   
-    To create an appointment or recurring appointment in the Activities area, on the nav bar: [!INCLUDE[proc_sales_activities](../includes/proc-sales-activities.md)]  
+   To create an appointment or recurring appointment in the Activities area, on the nav bar: [!INCLUDE[proc_sales_activities](../includes/proc-sales-activities.md)]  
   
-2.  On the command bar, click **Appointment**.  
+2. On the command bar, click **Appointment**.  
   
-3.  Type or change information in the text boxes. You can point to a field to get a tip on what data to enter.  
+3. Type or change information in the text boxes. You can point to a field to get a tip on what data to enter.  
   
-4.  If this is a recurring appointment, click **Recurrence**, and then select the time, pattern, and date range you want.  
+4. If this is a recurring appointment, click **Recurrence**, and then select the time, pattern, and date range you want.  
   
-5.  Click **Save**.  
+5. Click **Save**.  
   
-     If any participants have a schedule conflict, a warning appears. You can click **Ignore and Save** to save the appointment anyway.  
+    If any participants have a schedule conflict, a warning appears. You can click **Ignore and Save** to save the appointment anyway.  
   
 If you want to add an attachment, make sure you save the appointment first. Then, in the **Attachments** section, click the **Add attachment record** button ![Add Appointment button](../basics/media/plus-sign-icon.png "Add Appointment button") (you may have to scroll to the right to see the button) and browse for the file. The attachment size limitation is the same as the email attachment size limitation, which can be changed by your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](../admin/system-settings-dialog-box-email-tab.md)
 

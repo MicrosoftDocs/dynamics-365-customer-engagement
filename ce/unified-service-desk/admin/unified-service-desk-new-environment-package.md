@@ -29,11 +29,11 @@ manager: sakudes
   
 - [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] organizations that do not already have a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution installed and need a basic starter solution, which  enables [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] customizers and developers  to add their own customizations and data.  
   
- With the Unified Service Desk New Environment sample application package, the following components are installed:  
+  With the Unified Service Desk New Environment sample application package, the following components are installed:  
   
--   User Interface Integration Solution  
+- User Interface Integration Solution  
   
--   Unified Service Desk Solution  
+- Unified Service Desk Solution  
   
 > [!NOTE]
 >  This sample package includes the minimum required configuration data and may not be suitable for demonstration purposes without further configuration.  

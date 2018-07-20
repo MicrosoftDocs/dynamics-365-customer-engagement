@@ -21,10 +21,10 @@ Keep track of the number of posts that result from your search topics and count 
   
 > [!NOTE]
 >  This topic is part of a walkthrough on how you can set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](set-up-searches.md)  
-  
+> 
 > [!IMPORTANT]
 >  If you're expected to exceed the post quota for the current month, you'll get a notification email. When you exceed your post quota, data acquisition will be stopped for either of the following reasons:  
->   
+> 
 >  -   You still exceed your post quota after a grace period of 48 hours from the time the notification was sent.  
 >  -   Your solution passes the additional post quota granted for the grace period, which is five times your monthly allocated quota.  
   
@@ -52,12 +52,12 @@ Keep track of the number of posts that result from your search topics and count 
 > [!CAUTION]
 >  Proceed carefully when excluding an author or blocking contents. Posts matching items on the list of blocked contents will be deleted irreversibly after four hours. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](search-results-quality.md).  
   
-|Quota status|Appears|What you should do|  
-|------------------|-------------|------------------------|  
-|Within quota|When the calculated expectations are still within your monthly limits.|No action is required.|  
-|Expected to exceed quota|If your solution is expected to reach your monthly quota before the current month ends.|Monitor your post quota closely. Alternatively, increase the post quota, or edit or remove search topics or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages.|  
-|Quota exceeded|If your solution acquired more posts than your post quota allows.|Take immediate action by adding post quota. Your solution will continue to acquire posts until you either surpass the granted grace period or you reach the additionally granted post quota.|  
-|Acquisition stopped|When Administrators were informed and the solution exceeded your post quota without any action taken. The solution's acquisition was stopped automatically.|Increase the post quota to restart your acquisition immediately, or wait until the first day of the next month to restart the acquisition.|  
+|       Quota status       |                                                                           Appears                                                                           |                                                                                      What you should do                                                                                      |
+|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|       Within quota       |                                           When the calculated expectations are still within your monthly limits.                                            |                                                                                    No action is required.                                                                                    |
+| Expected to exceed quota |                                   If your solution is expected to reach your monthly quota before the current month ends.                                   |            Monitor your post quota closely. Alternatively, increase the post quota, or edit or remove search topics or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages.            |
+|      Quota exceeded      |                                              If your solution acquired more posts than your post quota allows.                                              | Take immediate action by adding post quota. Your solution will continue to acquire posts until you either surpass the granted grace period or you reach the additionally granted post quota. |
+|   Acquisition stopped    | When Administrators were informed and the solution exceeded your post quota without any action taken. The solution's acquisition was stopped automatically. |                          Increase the post quota to restart your acquisition immediately, or wait until the first day of the next month to restart the acquisition.                          |
   
  Your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin can upgrade your subscription and purchase additional post quotas for your solution at any time in the [Office 365 admin center](https://portal.office.com/).  
   
@@ -84,7 +84,7 @@ Keep track of the number of posts that result from your search topics and count 
   
 - **Expected number of posts:** The calculated number of posts that [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is expecting until the end of the calendar month, based on the number of current posts.  
   
- When you set up a search topic, you can validate the rules to estimate how their volume affects your post quota. The rule validation provides the number of posts that would match your query within a month, based on the post volume of the past month. Additionally, if you have [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] selected as a source, you'll find a preview of the most recent tweets matching your keywords rule.  
+  When you set up a search topic, you can validate the rules to estimate how their volume affects your post quota. The rule validation provides the number of posts that would match your query within a month, based on the post volume of the past month. Additionally, if you have [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] selected as a source, you'll find a preview of the most recent tweets matching your keywords rule.  
   
 > [!CAUTION]
 >  Peaks and trending terms can't be estimated. For example, if you set up a search topic in advance for a conference that you plan to establish a hashtag for, the estimates can be far off. Be aware that the post volume will rise significantly when the conference starts, which will affect your post quota. Deleting a search topic will stop the acquisition of posts for this topic, but will not recover your quota&mdash;meaning you will see no difference in the number of current posts. If you want to recover your quota, you will have to add the keywords of a deleted topic to the list of blocked content.
@@ -95,7 +95,7 @@ Three types of quota add-on subscriptions are available. They are billed on a mo
 - [!include[](../includes/pn-social-engagement-long.md)] Additional 10,000 posts (no minimum): 10,000 posts per month.
 - [!include[](../includes/pn-social-engagement-long.md)] Additional 10,000 posts (10-unit minimum): 100,000 posts per month.
 - [!include[](../includes/pn-social-engagement-long.md)] Additional 10,000 posts (100-unit minimum): 1,000,000 posts per month.
-[Learn more about pricing and licensing for Dynamics 365.](http://go.microsoft.com/fwlink/p/?LinkID=401462)
+  [Learn more about pricing and licensing for Dynamics 365.](http://go.microsoft.com/fwlink/p/?LinkID=401462)
 
 ### To buy add-on subscriptions for Social Engagement
 

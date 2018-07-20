@@ -458,6 +458,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_messagerequest_sdkmessageresponse"></a> messagerequest_sdkmessageresponse
 
 Same as sdkmessageresponse entity [messagerequest_sdkmessageresponse](sdkmessageresponse.md#BKMK_messagerequest_sdkmessageresponse) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sdkmessageresponse|
@@ -472,6 +473,7 @@ Same as sdkmessageresponse entity [messagerequest_sdkmessageresponse](sdkmessage
 ### <a name="BKMK_messagerequest_sdkmessagerequestfield"></a> messagerequest_sdkmessagerequestfield
 
 Same as sdkmessagerequestfield entity [messagerequest_sdkmessagerequestfield](sdkmessagerequestfield.md#BKMK_messagerequest_sdkmessagerequestfield) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sdkmessagerequestfield|
@@ -486,6 +488,7 @@ Same as sdkmessagerequestfield entity [messagerequest_sdkmessagerequestfield](sd
 ### <a name="BKMK_userentityinstancedata_sdkmessagerequest"></a> userentityinstancedata_sdkmessagerequest
 
 Same as userentityinstancedata entity [userentityinstancedata_sdkmessagerequest](userentityinstancedata.md#BKMK_userentityinstancedata_sdkmessagerequest) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

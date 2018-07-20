@@ -573,6 +573,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_DiscountType_SyncErrors"></a> DiscountType_SyncErrors
 
 Same as syncerror entity [DiscountType_SyncErrors](syncerror.md#BKMK_DiscountType_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -587,6 +588,7 @@ Same as syncerror entity [DiscountType_SyncErrors](syncerror.md#BKMK_DiscountTyp
 ### <a name="BKMK_DiscountType_AsyncOperations"></a> DiscountType_AsyncOperations
 
 Same as asyncoperation entity [DiscountType_AsyncOperations](asyncoperation.md#BKMK_DiscountType_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -601,6 +603,7 @@ Same as asyncoperation entity [DiscountType_AsyncOperations](asyncoperation.md#B
 ### <a name="BKMK_discounttype_MailboxTrackingFolders"></a> discounttype_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [discounttype_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_discounttype_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -615,6 +618,7 @@ Same as mailboxtrackingfolder entity [discounttype_MailboxTrackingFolders](mailb
 ### <a name="BKMK_userentityinstancedata_discounttype"></a> userentityinstancedata_discounttype
 
 Same as userentityinstancedata entity [userentityinstancedata_discounttype](userentityinstancedata.md#BKMK_userentityinstancedata_discounttype) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -629,6 +633,7 @@ Same as userentityinstancedata entity [userentityinstancedata_discounttype](user
 ### <a name="BKMK_DiscountType_ProcessSessions"></a> DiscountType_ProcessSessions
 
 Same as processsession entity [DiscountType_ProcessSessions](processsession.md#BKMK_DiscountType_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -643,6 +648,7 @@ Same as processsession entity [DiscountType_ProcessSessions](processsession.md#B
 ### <a name="BKMK_DiscountType_BulkDeleteFailures"></a> DiscountType_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [DiscountType_BulkDeleteFailures](bulkdeletefailure.md#BKMK_DiscountType_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -657,6 +663,7 @@ Same as bulkdeletefailure entity [DiscountType_BulkDeleteFailures](bulkdeletefai
 ### <a name="BKMK_discounttype_PrincipalObjectAttributeAccesses"></a> discounttype_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [discounttype_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_discounttype_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -671,6 +678,7 @@ Same as principalobjectattributeaccess entity [discounttype_PrincipalObjectAttri
 ### <a name="BKMK_discount_type_discounts"></a> discount_type_discounts
 
 Same as discount entity [discount_type_discounts](discount.md#BKMK_discount_type_discounts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|discount|
@@ -685,6 +693,7 @@ Same as discount entity [discount_type_discounts](discount.md#BKMK_discount_type
 ### <a name="BKMK_discount_type_product_price_levels"></a> discount_type_product_price_levels
 
 Same as productpricelevel entity [discount_type_product_price_levels](productpricelevel.md#BKMK_discount_type_product_price_levels) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|productpricelevel|

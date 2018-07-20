@@ -33,23 +33,23 @@ Your customers and stakeholders are talking about you on Facebook, Twitter, or b
   
 > [!NOTE]
 >  You must ensure that your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] domain is added to the list of allowed domains in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
->   
+> 
 > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Social Engagement to other domains](https://go.microsoft.com/fwlink/p/?linkid=403288)  
   
-1.  Click **Settings** > **Administration** > **Microsoft Social Engagement Configuration**.  
+1. Click **Settings** > **Administration** > **Microsoft Social Engagement Configuration**.  
   
-2.  Click **Continue** to accept the legal disclaimer.  
+2. Click **Continue** to accept the legal disclaimer.  
   
-    > [!NOTE]
-    >  You’re asked to accept this disclaimer  when you connect for the first time.  
+   > [!NOTE]
+   >  You’re asked to accept this disclaimer  when you connect for the first time.  
   
-3.  On the **Microsoft Social Engagement Configuration** page, in the **Select the Microsoft Social Engagement solution to connect to** dropdown box, choose the [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] instance to which you want to connect. Choose the **Select** button next to the dropdown box. The **Select** button becomes grayed out to indicate that the selection is confirmed.  
+3. On the **Microsoft Social Engagement Configuration** page, in the **Select the Microsoft Social Engagement solution to connect to** dropdown box, choose the [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] instance to which you want to connect. Choose the **Select** button next to the dropdown box. The **Select** button becomes grayed out to indicate that the selection is confirmed.  
   
- ![Microsoft Social Engagement configuration](../admin/media/social-engagement-configuration.png "Social Engagement configuration")  
+   ![Microsoft Social Engagement configuration](../admin/media/social-engagement-configuration.png "Social Engagement configuration")  
   
 > [!WARNING]
 >  If you want to switch to a different [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] instance, you are asked to confirm it by clicking or tapping the **Confirm** button. Changing the [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] instance, may cause any existing [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls on forms and dashboards to display error messages, because the new instance may not have matching data. All existing [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls may need to be reconfigured. Also, the existing [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] data in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] may need to be reset to remove references to the old instance data.  
-  
+> 
 > [!NOTE]
 >  In [!INCLUDE[pn_v6_online_ur1](../includes/pn-v6-online-ur1.md)], only one [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] instance is provided for connection to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
   
@@ -58,20 +58,20 @@ Your customers and stakeholders are talking about you on Facebook, Twitter, or b
   
  Use the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)] to assign and verify [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] licenses.  
   
-1.  Browse to the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)] ([https://portal.office.com](https://portal.office.com)) and sign in using Global administrator credentials.  
+1. Browse to the [!INCLUDE[pn_MS_Online_Services_Portal](../includes/pn-ms-online-services-portal.md)] ([https://portal.office.com](https://portal.office.com)) and sign in using Global administrator credentials.  
   
-2.  Choose **Users** > **Active Users** and select a user to assign a license.  
+2. Choose **Users** > **Active Users** and select a user to assign a license.  
   
-3.  On the right side of the page, under Assigned license, choose **Edit**.  
+3. On the right side of the page, under Assigned license, choose **Edit**.  
   
- ![Choose Edit to assign a user license](../admin/media/social-engagement-add-license.png "Choose Edit to assign a user license")  
+   ![Choose Edit to assign a user license](../admin/media/social-engagement-add-license.png "Choose Edit to assign a user license")  
   
-4.  Expand [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. Select the check box for [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] and choose **Save**.  
+4. Expand [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. Select the check box for [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] and choose **Save**.  
   
- ![Choose the Microsoft Social Engagement check box](../admin/media/social-engagement-check-license.png "Choose the Microsoft Social Engagement check box")  
+   ![Choose the Microsoft Social Engagement check box](../admin/media/social-engagement-check-license.png "Choose the Microsoft Social Engagement check box")  
   
-    > [!NOTE]
-    >  If your subscription is not eligible for [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], see [Microsoft Dynamics Social Solutions](http://go.microsoft.com/fwlink/p/?LinkID=401462).  
+   > [!NOTE]
+   >  If your subscription is not eligible for [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], see [Microsoft Dynamics Social Solutions](http://go.microsoft.com/fwlink/p/?LinkID=401462).  
   
 <a name="BKMK_Reset"></a>   
 ## Reset Social Insights  
@@ -79,34 +79,34 @@ Your customers and stakeholders are talking about you on Facebook, Twitter, or b
 > [!WARNING]
 >  This action deletes all existing data in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for the search topics, search topic categories and visuals for [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)].  
   
-1.  Click **Settings** > **Administration** > **Microsoft Social Engagement Configuration**.  
+1. Click **Settings** > **Administration** > **Microsoft Social Engagement Configuration**.  
   
-2.  On the **Microsoft Social Engagement Configuration** page, choose **Reset Social Insights**. The **Reset Social Insights Confirmation** message box appears, choose **Confirm**, if you want to proceed, otherwise choose **Cancel**.  
+2. On the **Microsoft Social Engagement Configuration** page, choose **Reset Social Insights**. The **Reset Social Insights Confirmation** message box appears, choose **Confirm**, if you want to proceed, otherwise choose **Cancel**.  
   
- ![Confirm you want to reset Social Insights](../admin/media/social-engagement-confirm-reset.png "Confirm you want to reset Social Insights")  
+   ![Confirm you want to reset Social Insights](../admin/media/social-engagement-confirm-reset.png "Confirm you want to reset Social Insights")  
   
 <a name="BKMK_Add"></a>   
 
 ## Add the Social Insights control to a Dynamics 365 entity form  
  To add [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to an entity (record type) form, you have to use the form editor provided in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] **Customization** area. You can position the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] control anywhere on the form and resize it, just like you would do with the **iFrame** controls. You can make the control bigger by increasing the number of rows and spanning the control over several columns. This is important if you want to make a graph or a chart in the control appear larger and be more readable. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Form Editor](../customize/use-the-form-editor-legacy.md).  
   
-1.  Click **Settings** > **Customizations** > **Customize the System**.  
+1. Click **Settings** > **Customizations** > **Customize the System**.  
   
-2.  In the Navigation Pane, under **Components**, expand **Entities**.  
+2. In the Navigation Pane, under **Components**, expand **Entities**.  
   
-3.  Expand the entity that you want to add the **[!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)]** control to. Choose **Forms**.  
+3. Expand the entity that you want to add the **[!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)]** control to. Choose **Forms**.  
   
-4.  In the grid view, choose the entity’s Main form. The entity form opens.  
+4. In the grid view, choose the entity’s Main form. The entity form opens.  
   
-5.  Select the **Insert** tab. At the top of the form, on the ribbon, click the **[!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)]** icon. In the setup dialog box, fill out the required fields, such as the unique name of the control and the label name.  
+5. Select the **Insert** tab. At the top of the form, on the ribbon, click the **[!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)]** icon. In the setup dialog box, fill out the required fields, such as the unique name of the control and the label name.  
   
-     Click to enable **Pass record object-type code and unique identifier as parameters**.  
+    Click to enable **Pass record object-type code and unique identifier as parameters**.  
   
- ![Add the Social Insights control to the form](../admin/media/social-engagement-control.png "Add the Social Insights control to the form")  
+   ![Add the Social Insights control to the form](../admin/media/social-engagement-control.png "Add the Social Insights control to the form")  
   
-6.  Click **OK**. The [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] control is now added to the entity form. You can resize the control or move the control to another location on the form.  
+6. Click **OK**. The [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] control is now added to the entity form. You can resize the control or move the control to another location on the form.  
   
-7.  Switch back to the **Home** tab. Choose **Save** and then choose **Publish** to publish the added customizations. The control called **Configure Social Insights** appears on all records based on this form. The search topics, search categories and visuals can be added to the control.  
+7. Switch back to the **Home** tab. Choose **Save** and then choose **Publish** to publish the added customizations. The control called **Configure Social Insights** appears on all records based on this form. The search topics, search categories and visuals can be added to the control.  
   
 > [!NOTE]
 >  You don’t need administrator permissions to set up [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] on the entity record.  
@@ -119,40 +119,40 @@ Your customers and stakeholders are talking about you on Facebook, Twitter, or b
   
  You can add the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to the existing system dashboards or to a new dashboard. Let’s create a new dashboard and add the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] control to it. We’ll use the **Set Up [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)]** wizard to lead us through the setup. Shortly after the setup is finished and customizations are published, the charts and graphs with social data will appear on your dashboard.  
   
-1.  Click **Settings** > **Customizations** > **Customize the System**.  
+1. Click **Settings** > **Customizations** > **Customize the System**.  
   
-2.  In the Navigation Pane, under **Components**, choose **Dashboards**.  
+2. In the Navigation Pane, under **Components**, choose **Dashboards**.  
   
-3.  Choose **New** on the command bar. Choose a layout and choose **Create**.  
+3. Choose **New** on the command bar. Choose a layout and choose **Create**.  
   
-4.  On the dashboard form, enter the name of the dashboard in the **Name** text box and choose **Save**.  
+4. On the dashboard form, enter the name of the dashboard in the **Name** text box and choose **Save**.  
   
-5.  To add the control, choose **Insert Social Insights** icon in the center of the section on the dashboard form, or choose **More Commands** (![More commands button](../admin/media/not-available.gif "More commands button")) on the command bar and then choose **[!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)]** in the dropdown list. **Set Up [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)]** wizard appears.  
+5. To add the control, choose **Insert Social Insights** icon in the center of the section on the dashboard form, or choose **More Commands** (![More commands button](../admin/media/not-available.gif "More commands button")) on the command bar and then choose **[!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)]** in the dropdown list. **Set Up [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)]** wizard appears.  
   
- ![Set up Social Insights in Dynamics 365](../admin/media/social-engagement-setup.png "Set up Social Insights in Dynamics 365")  
+   ![Set up Social Insights in Dynamics 365](../admin/media/social-engagement-setup.png "Set up Social Insights in Dynamics 365")  
   
-6.  In the **Set Up [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)]** wizard, choose **Advanced**. The **Add [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)]** dialog appears. Fill in the required fields and choose **OK**. You can also use the default values and choose **OK** or **Cancel** to close the dialog box.  
+6. In the **Set Up [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)]** wizard, choose **Advanced**. The **Add [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)]** dialog appears. Fill in the required fields and choose **OK**. You can also use the default values and choose **OK** or **Cancel** to close the dialog box.  
   
- ![Add Social Insights to the Dashboard](../admin/media/social-engagement-add-social-insights.png "Add Social Insights to the Dashboard")  
+   ![Add Social Insights to the Dashboard](../admin/media/social-engagement-add-social-insights.png "Add Social Insights to the Dashboard")  
   
-7.  In the **Set Up [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)]** wizard main window, choose **Search topic** or **Search topic category**, and then choose **Next**.  
+7. In the **Set Up [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)]** wizard main window, choose **Search topic** or **Search topic category**, and then choose **Next**.  
   
-8.  To pick the search topic or the search topic category, in the dropdown list, choose the topic or the category, depending on what you chose in the previous step and then choose **Next**.  
+8. To pick the search topic or the search topic category, in the dropdown list, choose the topic or the category, depending on what you chose in the previous step and then choose **Next**.  
   
-    > [!NOTE]
-    >  You can create a new search topic, instead of choosing a search topic in the dropdown list. Choose **Create a new search topic**, fill in the required fields and choose **Next**.  
+   > [!NOTE]
+   >  You can create a new search topic, instead of choosing a search topic in the dropdown list. Choose **Create a new search topic**, fill in the required fields and choose **Next**.  
   
- ![Select a search topic](../admin/media/social-engagement-set-topic.png "Select a search topic")  
+   ![Select a search topic](../admin/media/social-engagement-set-topic.png "Select a search topic")  
   
 9. In the visuals drop-down list, choose a graph or a chart you want, such as **Analytics summary**, **Recent posts** or **Trends**. You can add as many visuals as you want and move them up and down the list using the **MOVE UP** and **MOVE DOWN** arrows. You can also delete a visual by clicking or tapping the delete icon displayed to the right of the visual. Choose **Finish**.  
   
- ![Select the Social Insights visual](../admin/media/social-engagemnet-select-visual.png "Select the Social Insights visual")  
+   ![Select the Social Insights visual](../admin/media/social-engagemnet-select-visual.png "Select the Social Insights visual")  
   
 10. On the command bar, choose **Save** and then choose **Close**.  
   
 11. To publish the customizations, choose **Publish All Customizations** on the command bar. After the customizations are published, you can see the social insights on your dashboard.  
   
- ![Social Insights in dashboard in Dynamics 365](../admin/media/social-engagement-visual-in-dashboard.png "Social Insights in dashboard in Dynamics 365")  
+    ![Social Insights in dashboard in Dynamics 365](../admin/media/social-engagement-visual-in-dashboard.png "Social Insights in dashboard in Dynamics 365")  
   
 ## Privacy notice  
 [!INCLUDE[cc_privacy_crm_gcc_social_listening_configuration](../includes/cc-privacy-crm-gcc-social-listening-configuration.md)]

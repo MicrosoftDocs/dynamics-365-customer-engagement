@@ -38,41 +38,41 @@ Currently, creating a discount list isn't supported in the Sales Hub app. To cre
   
     #### Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
   
-3.  Select **Discount Lists**.  
+3. Select **Discount Lists**.  
   
-4.  To create a new discount list, select **New**.  
+4. To create a new discount list, select **New**.  
   
-     -OR-  
+    -OR-  
   
-     To edit a discount list, open it.  
+    To edit a discount list, open it.  
   
-5.  Fill in the information:  
+5. Fill in the information:  
   
-    - **Name**. Type a name that provides a good description of the kind of discount this list will include.  
+   - **Name**. Type a name that provides a good description of the kind of discount this list will include.  
   
-    - **Type**. To calculate the discount as a percentage of the price of the item, select **Percentage** or to give discount as a fixed amount, select **Amount**.  
+   - **Type**. To calculate the discount as a percentage of the price of the item, select **Percentage** or to give discount as a fixed amount, select **Amount**.  
   
-    - **Currency**. If you chose to give discount as a fixed amount, select the currency.  
+   - **Currency**. If you chose to give discount as a fixed amount, select the currency.  
   
- ![Create a discount list in Dynamics 365](../sales-enterprise/media/v7-discount-lit.png "Create a discount list in Dynamics 365")  
+   ![Create a discount list in Dynamics 365](../sales-enterprise/media/v7-discount-lit.png "Create a discount list in Dynamics 365")  
   
-6.  Select **OK**.  
+6. Select **OK**.  
   
-7.  To set volume discounts, in the left pane, under **Common**, select **Discounts**, and then on the **Discounts** tab, in the **Records** group, select **Add New Discount**.  
+7. To set volume discounts, in the left pane, under **Common**, select **Discounts**, and then on the **Discounts** tab, in the **Records** group, select **Add New Discount**.  
   
-8.  Fill in the information:  
+8. Fill in the information:  
   
-     Here's how:  
+    Here's how:  
   
- ![Create volume discounts in Dynamics 365](../sales-enterprise/media/v7-discounts.png "Create volume discounts in Dynamics 365")  
+   ![Create volume discounts in Dynamics 365](../sales-enterprise/media/v7-discounts.png "Create volume discounts in Dynamics 365")  
   
-     This discount list will offer a discount of 5% whenever the customer purchases between 3 – 5 boxes.  
+    This discount list will offer a discount of 5% whenever the customer purchases between 3 – 5 boxes.  
   
 9. Select **Save** or **Save and Close**.  
   

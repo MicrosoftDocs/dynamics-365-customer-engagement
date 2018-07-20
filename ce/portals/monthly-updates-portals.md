@@ -2,7 +2,7 @@
 title: "Monthly updates in portal capabilities for Dynamics 365 | MicrosoftDocs"
 description: "Learn about what's new in the latest release of portal capabilities for Dynamics 365."
 keywords: "portal new features, portal enhancements, portal user guide"
-ms.date: 06/08/2018
+ms.date: 07/04/2018
 ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-portal
@@ -17,23 +17,23 @@ ms.tgt_pltfrm:
 topic-status: Drafting
 ---
 
-# What’s new in portal capabilities for Dynamics 365
+# What's new in portal capabilities for Dynamics 365
 
 Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Here's a list of features we added recently. For more information about portal capability updates for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to date, see [portal capabilities for Microsoft Dynamics 365 Releases](https://support.microsoft.com/en-us/help/3181191).
 
-## Portals capabilities version 9.0.6 for Dynamics 365
+## Portal capabilities version 9.0.6 for Dynamics 365
 
-Portals capabilities version 9.0.6 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] has brought the following latest updates and features:
+Portal capabilities version 9.0.6 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] has brought the following latest updates and features:
 
-- **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portals app**: The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portals app provides a new experience to configure and manage your online platform to communicate and collaborate with customers. When you install [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portals version 9.0 and higher, the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portals app, built on the Unified Interface framework, is created out-of-the-box.
+- **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal app**: The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal app provides a new experience to configure and manage your online platform to communicate and collaborate with customers. When you install [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal version 9.0 and higher, the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal app, built on the Unified Interface framework, is created out-of-the-box.
 
 - **Reset a portal**: You can now reset a portal if you plan to move to another geolocation or to another tenant, and don't want to use the portal anymore. When you reset a portal, the hosted resources of the portal are deleted, and the portal URL will not be accessible. More information: [Reset a portal](reset-portal.md)
 
 - **Change the base URL of a portal**: You can now change the base URL of a portal after it is provisioned. For example, if you choose contosocommunity.microsoftcrmportals.com as the base URL while provision the portal, you can later change it to contosocommunityportal.microsoftcrmportals.com as per your requirement. More information: [Change base URL](change-base-url.md)
 
-## Portals capabilities version 8.4.1 for Dynamics 365
+## Portal capabilities version 8.4.1 for Dynamics 365
 
-Portals capabilities version 8.4.1 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] brings in bunch of bug fixes, as well as performance improvements, along with the following features:
+Portal capabilities version 8.4.1 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] brings in bunch of bug fixes, as well as performance improvements, along with the following features:
 
 - **Search within attachment content of knowledge articles and web files**: Attachment content of knowledge articles and web files are now searchable to increase the likelihood of relevant search results. More information: [Search within file attachment content](search-file-attachment.md)
 - **Accessibility**: The out-of-the-box portals (Community portal, Partner portal, Customer portal, Employee self-service portal) are now accessible. However, customizer should ensure that the portal remains accessible after any customization or changes.

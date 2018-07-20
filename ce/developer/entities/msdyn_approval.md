@@ -1590,6 +1590,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_approval_activity_parties"></a> msdyn_approval_activity_parties
 
 Same as activityparty entity [msdyn_approval_activity_parties](activityparty.md#BKMK_msdyn_approval_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1604,6 +1605,7 @@ Same as activityparty entity [msdyn_approval_activity_parties](activityparty.md#
 ### <a name="BKMK_CampaignResponse_msdyn_approvals"></a> CampaignResponse_msdyn_approvals
 
 Same as campaignresponse entity [CampaignResponse_msdyn_approvals](campaignresponse.md#BKMK_CampaignResponse_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -1618,6 +1620,7 @@ Same as campaignresponse entity [CampaignResponse_msdyn_approvals](campaignrespo
 ### <a name="BKMK_msdyn_approval_ActionCards"></a> msdyn_approval_ActionCards
 
 Same as actioncard entity [msdyn_approval_ActionCards](actioncard.md#BKMK_msdyn_approval_ActionCards) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|actioncard|
@@ -1632,6 +1635,7 @@ Same as actioncard entity [msdyn_approval_ActionCards](actioncard.md#BKMK_msdyn_
 ### <a name="BKMK_msdyn_approval_SyncErrors"></a> msdyn_approval_SyncErrors
 
 Same as syncerror entity [msdyn_approval_SyncErrors](syncerror.md#BKMK_msdyn_approval_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1646,6 +1650,7 @@ Same as syncerror entity [msdyn_approval_SyncErrors](syncerror.md#BKMK_msdyn_app
 ### <a name="BKMK_msdyn_approval_DuplicateMatchingRecord"></a> msdyn_approval_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_approval_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_approval_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1660,6 +1665,7 @@ Same as duplicaterecord entity [msdyn_approval_DuplicateMatchingRecord](duplicat
 ### <a name="BKMK_msdyn_approval_DuplicateBaseRecord"></a> msdyn_approval_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_approval_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_approval_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1674,6 +1680,7 @@ Same as duplicaterecord entity [msdyn_approval_DuplicateBaseRecord](duplicaterec
 ### <a name="BKMK_msdyn_approval_AsyncOperations"></a> msdyn_approval_AsyncOperations
 
 Same as asyncoperation entity [msdyn_approval_AsyncOperations](asyncoperation.md#BKMK_msdyn_approval_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1688,6 +1695,7 @@ Same as asyncoperation entity [msdyn_approval_AsyncOperations](asyncoperation.md
 ### <a name="BKMK_msdyn_approval_MailboxTrackingFolders"></a> msdyn_approval_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_approval_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_approval_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1702,6 +1710,7 @@ Same as mailboxtrackingfolder entity [msdyn_approval_MailboxTrackingFolders](mai
 ### <a name="BKMK_msdyn_approval_UserEntityInstanceDatas"></a> msdyn_approval_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_approval_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_approval_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1716,6 +1725,7 @@ Same as userentityinstancedata entity [msdyn_approval_UserEntityInstanceDatas](u
 ### <a name="BKMK_msdyn_approval_ProcessSession"></a> msdyn_approval_ProcessSession
 
 Same as processsession entity [msdyn_approval_ProcessSession](processsession.md#BKMK_msdyn_approval_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1730,6 +1740,7 @@ Same as processsession entity [msdyn_approval_ProcessSession](processsession.md#
 ### <a name="BKMK_msdyn_approval_BulkDeleteFailures"></a> msdyn_approval_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_approval_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_approval_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1744,6 +1755,7 @@ Same as bulkdeletefailure entity [msdyn_approval_BulkDeleteFailures](bulkdeletef
 ### <a name="BKMK_msdyn_approval_PrincipalObjectAttributeAccesses"></a> msdyn_approval_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_approval_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_approval_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1758,6 +1770,7 @@ Same as principalobjectattributeaccess entity [msdyn_approval_PrincipalObjectAtt
 ### <a name="BKMK_msdyn_approval_connections1"></a> msdyn_approval_connections1
 
 Same as connection entity [msdyn_approval_connections1](connection.md#BKMK_msdyn_approval_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1772,6 +1785,7 @@ Same as connection entity [msdyn_approval_connections1](connection.md#BKMK_msdyn
 ### <a name="BKMK_msdyn_approval_connections2"></a> msdyn_approval_connections2
 
 Same as connection entity [msdyn_approval_connections2](connection.md#BKMK_msdyn_approval_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1786,6 +1800,7 @@ Same as connection entity [msdyn_approval_connections2](connection.md#BKMK_msdyn
 ### <a name="BKMK_msdyn_approval_QueueItems"></a> msdyn_approval_QueueItems
 
 Same as queueitem entity [msdyn_approval_QueueItems](queueitem.md#BKMK_msdyn_approval_QueueItems) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queueitem|
@@ -1800,6 +1815,7 @@ Same as queueitem entity [msdyn_approval_QueueItems](queueitem.md#BKMK_msdyn_app
 ### <a name="BKMK_msdyn_approval_Annotations"></a> msdyn_approval_Annotations
 
 Same as annotation entity [msdyn_approval_Annotations](annotation.md#BKMK_msdyn_approval_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|

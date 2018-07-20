@@ -62,15 +62,15 @@ For this section, we will use the Plug-in Registration tool, which provides a gr
 6. You should see a collapsed list of registered plug-in or custom workflow activity assemblies. Select **Register** > **Register New Assembly**.
 7. In the **Register New Assembly** dialog box:
     
-    - Under the **Step 1** section, click the ellipses […] button to select the **CustomPlugin-FS-Geospatial.dll** assembly.
-    - Under the **Step 2** section, select both the plug-ins.
-    - Under the **Step 3** section, select the **Sandbox** option.
-    - Under the **Step 4** section, select the **Database** option.
-    - Select **Register Selected Plugins**.
+   - Under the **Step 1** section, click the ellipses […] button to select the **CustomPlugin-FS-Geospatial.dll** assembly.
+   - Under the **Step 2** section, select both the plug-ins.
+   - Under the **Step 3** section, select the **Sandbox** option.
+   - Under the **Step 4** section, select the **Database** option.
+   - Select **Register Selected Plugins**.
 
-    ![](../media/FS-register-plugin-assembly.png)
+     ![](../media/FS-register-plugin-assembly.png)
 
-    The **CustomPlugin-FS-Geospatial.dll** assembly and the two plug-ins for the msdyn_GeocodeAddress and msdyn_RetrieveDistanceMatrix are now registered and deployed to the server.
+     The **CustomPlugin-FS-Geospatial.dll** assembly and the two plug-ins for the msdyn_GeocodeAddress and msdyn_RetrieveDistanceMatrix are now registered and deployed to the server.
 
 8. The next step is to register a step for each action. A *step* refers to the SDK message processing step entity that is used to configure when and how the plug-in is to be executed.
 

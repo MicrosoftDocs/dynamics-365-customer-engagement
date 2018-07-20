@@ -25,17 +25,17 @@ manager: shellyha
 
 Configure the time units in the product catalog that you’ll use as a base for scheduling and billing your projects.  
   
-1.  Go to **Settings > Product Catalog**.  
+1. Go to **Settings > Product Catalog**.  
   
-2.  Click **Unit Groups**.  
+2. Click **Unit Groups**.  
   
-3.  Click the **Time** unit group (created during [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] installation).  
+3. Click the **Time** unit group (created during [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] installation).  
   
-4.  On the **Units** tab, click **Add New Unit**, and then change the values as necessary. Add as many units as you need. For example, you might want to create the following units:  
+4. On the **Units** tab, click **Add New Unit**, and then change the values as necessary. Add as many units as you need. For example, you might want to create the following units:  
   
-    - **Day** with **Base unit** = **Hour** and **Quantity** = 8  
+   - **Day** with **Base unit** = **Hour** and **Quantity** = 8  
   
-    - **Week** with **Base unit** = **Day** and **Quantity** = 5  
+   - **Week** with **Base unit** = **Day** and **Quantity** = 5  
   
 ### See Also  
  [Configure Project Service Automation](../project-service/configure.md)

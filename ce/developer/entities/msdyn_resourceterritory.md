@@ -662,6 +662,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_resourceterritory_ActivityPointers"></a> msdyn_resourceterritory_ActivityPointers
 
 Same as activitypointer entity [msdyn_resourceterritory_ActivityPointers](activitypointer.md#BKMK_msdyn_resourceterritory_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -676,6 +677,7 @@ Same as activitypointer entity [msdyn_resourceterritory_ActivityPointers](activi
 ### <a name="BKMK_msdyn_resourceterritory_msdyn_bookingalerts"></a> msdyn_resourceterritory_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_resourceterritory_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_resourceterritory_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -690,6 +692,7 @@ Same as msdyn_bookingalert entity [msdyn_resourceterritory_msdyn_bookingalerts](
 ### <a name="BKMK_msdyn_resourceterritory_SyncErrors"></a> msdyn_resourceterritory_SyncErrors
 
 Same as syncerror entity [msdyn_resourceterritory_SyncErrors](syncerror.md#BKMK_msdyn_resourceterritory_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -704,6 +707,7 @@ Same as syncerror entity [msdyn_resourceterritory_SyncErrors](syncerror.md#BKMK_
 ### <a name="BKMK_msdyn_resourceterritory_DuplicateMatchingRecord"></a> msdyn_resourceterritory_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_resourceterritory_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_resourceterritory_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -718,6 +722,7 @@ Same as duplicaterecord entity [msdyn_resourceterritory_DuplicateMatchingRecord]
 ### <a name="BKMK_msdyn_resourceterritory_DuplicateBaseRecord"></a> msdyn_resourceterritory_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_resourceterritory_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_resourceterritory_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -732,6 +737,7 @@ Same as duplicaterecord entity [msdyn_resourceterritory_DuplicateBaseRecord](dup
 ### <a name="BKMK_msdyn_resourceterritory_SharePointDocumentLocations"></a> msdyn_resourceterritory_SharePointDocumentLocations
 
 Same as sharepointdocumentlocation entity [msdyn_resourceterritory_SharePointDocumentLocations](sharepointdocumentlocation.md#BKMK_msdyn_resourceterritory_SharePointDocumentLocations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocumentlocation|
@@ -746,6 +752,7 @@ Same as sharepointdocumentlocation entity [msdyn_resourceterritory_SharePointDoc
 ### <a name="BKMK_msdyn_resourceterritory_SharePointDocuments"></a> msdyn_resourceterritory_SharePointDocuments
 
 Same as sharepointdocument entity [msdyn_resourceterritory_SharePointDocuments](sharepointdocument.md#BKMK_msdyn_resourceterritory_SharePointDocuments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocument|
@@ -760,6 +767,7 @@ Same as sharepointdocument entity [msdyn_resourceterritory_SharePointDocuments](
 ### <a name="BKMK_msdyn_resourceterritory_AsyncOperations"></a> msdyn_resourceterritory_AsyncOperations
 
 Same as asyncoperation entity [msdyn_resourceterritory_AsyncOperations](asyncoperation.md#BKMK_msdyn_resourceterritory_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -774,6 +782,7 @@ Same as asyncoperation entity [msdyn_resourceterritory_AsyncOperations](asyncope
 ### <a name="BKMK_msdyn_resourceterritory_MailboxTrackingFolders"></a> msdyn_resourceterritory_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_resourceterritory_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_resourceterritory_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -788,6 +797,7 @@ Same as mailboxtrackingfolder entity [msdyn_resourceterritory_MailboxTrackingFol
 ### <a name="BKMK_msdyn_resourceterritory_UserEntityInstanceDatas"></a> msdyn_resourceterritory_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_resourceterritory_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_resourceterritory_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -802,6 +812,7 @@ Same as userentityinstancedata entity [msdyn_resourceterritory_UserEntityInstanc
 ### <a name="BKMK_msdyn_resourceterritory_ProcessSession"></a> msdyn_resourceterritory_ProcessSession
 
 Same as processsession entity [msdyn_resourceterritory_ProcessSession](processsession.md#BKMK_msdyn_resourceterritory_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -816,6 +827,7 @@ Same as processsession entity [msdyn_resourceterritory_ProcessSession](processse
 ### <a name="BKMK_msdyn_resourceterritory_BulkDeleteFailures"></a> msdyn_resourceterritory_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_resourceterritory_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_resourceterritory_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -830,6 +842,7 @@ Same as bulkdeletefailure entity [msdyn_resourceterritory_BulkDeleteFailures](bu
 ### <a name="BKMK_msdyn_resourceterritory_PrincipalObjectAttributeAccesses"></a> msdyn_resourceterritory_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_resourceterritory_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_resourceterritory_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -844,6 +857,7 @@ Same as principalobjectattributeaccess entity [msdyn_resourceterritory_Principal
 ### <a name="BKMK_msdyn_resourceterritory_Appointments"></a> msdyn_resourceterritory_Appointments
 
 Same as appointment entity [msdyn_resourceterritory_Appointments](appointment.md#BKMK_msdyn_resourceterritory_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -858,6 +872,7 @@ Same as appointment entity [msdyn_resourceterritory_Appointments](appointment.md
 ### <a name="BKMK_msdyn_resourceterritory_Emails"></a> msdyn_resourceterritory_Emails
 
 Same as email entity [msdyn_resourceterritory_Emails](email.md#BKMK_msdyn_resourceterritory_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -872,6 +887,7 @@ Same as email entity [msdyn_resourceterritory_Emails](email.md#BKMK_msdyn_resour
 ### <a name="BKMK_msdyn_resourceterritory_Faxes"></a> msdyn_resourceterritory_Faxes
 
 Same as fax entity [msdyn_resourceterritory_Faxes](fax.md#BKMK_msdyn_resourceterritory_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -886,6 +902,7 @@ Same as fax entity [msdyn_resourceterritory_Faxes](fax.md#BKMK_msdyn_resourceter
 ### <a name="BKMK_msdyn_resourceterritory_Letters"></a> msdyn_resourceterritory_Letters
 
 Same as letter entity [msdyn_resourceterritory_Letters](letter.md#BKMK_msdyn_resourceterritory_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -900,6 +917,7 @@ Same as letter entity [msdyn_resourceterritory_Letters](letter.md#BKMK_msdyn_res
 ### <a name="BKMK_msdyn_resourceterritory_PhoneCalls"></a> msdyn_resourceterritory_PhoneCalls
 
 Same as phonecall entity [msdyn_resourceterritory_PhoneCalls](phonecall.md#BKMK_msdyn_resourceterritory_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -914,6 +932,7 @@ Same as phonecall entity [msdyn_resourceterritory_PhoneCalls](phonecall.md#BKMK_
 ### <a name="BKMK_msdyn_resourceterritory_Tasks"></a> msdyn_resourceterritory_Tasks
 
 Same as task entity [msdyn_resourceterritory_Tasks](task.md#BKMK_msdyn_resourceterritory_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -928,6 +947,7 @@ Same as task entity [msdyn_resourceterritory_Tasks](task.md#BKMK_msdyn_resourcet
 ### <a name="BKMK_msdyn_resourceterritory_RecurringAppointmentMasters"></a> msdyn_resourceterritory_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_resourceterritory_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_resourceterritory_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -942,6 +962,7 @@ Same as recurringappointmentmaster entity [msdyn_resourceterritory_RecurringAppo
 ### <a name="BKMK_msdyn_resourceterritory_SocialActivities"></a> msdyn_resourceterritory_SocialActivities
 
 Same as socialactivity entity [msdyn_resourceterritory_SocialActivities](socialactivity.md#BKMK_msdyn_resourceterritory_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -956,6 +977,7 @@ Same as socialactivity entity [msdyn_resourceterritory_SocialActivities](sociala
 ### <a name="BKMK_msdyn_resourceterritory_connections1"></a> msdyn_resourceterritory_connections1
 
 Same as connection entity [msdyn_resourceterritory_connections1](connection.md#BKMK_msdyn_resourceterritory_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -970,6 +992,7 @@ Same as connection entity [msdyn_resourceterritory_connections1](connection.md#B
 ### <a name="BKMK_msdyn_resourceterritory_connections2"></a> msdyn_resourceterritory_connections2
 
 Same as connection entity [msdyn_resourceterritory_connections2](connection.md#BKMK_msdyn_resourceterritory_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -984,6 +1007,7 @@ Same as connection entity [msdyn_resourceterritory_connections2](connection.md#B
 ### <a name="BKMK_msdyn_resourceterritory_Annotations"></a> msdyn_resourceterritory_Annotations
 
 Same as annotation entity [msdyn_resourceterritory_Annotations](annotation.md#BKMK_msdyn_resourceterritory_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -998,6 +1022,7 @@ Same as annotation entity [msdyn_resourceterritory_Annotations](annotation.md#BK
 ### <a name="BKMK_msdyn_resourceterritory_ServiceAppointments"></a> msdyn_resourceterritory_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_resourceterritory_ServiceAppointments](serviceappointment.md#BKMK_msdyn_resourceterritory_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -1012,6 +1037,7 @@ Same as serviceappointment entity [msdyn_resourceterritory_ServiceAppointments](
 ### <a name="BKMK_msdyn_resourceterritory_msdyn_approvals"></a> msdyn_resourceterritory_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_resourceterritory_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_resourceterritory_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|

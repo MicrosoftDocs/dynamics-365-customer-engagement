@@ -56,7 +56,6 @@ CreateAttributeRequest widgetSerialNumberAttributeRequest = new CreateAttributeR
                 }
             };
             _serviceProxy.Execute(widgetSerialNumberAttributeRequest);
-
 ```
 
 ## Use Web API
@@ -211,7 +210,7 @@ By default, all auto-number sequential values start with 1000 and use 0 as the p
 
 For example, when the length of the sequential number is 5, you may want to start with an initial value of 10000 instead of the default value of 00001. 
 If you want to choose a different starting value after creating the auto-numbering attribute, use the **SetAutoNumberSeed** message. Use the **SetAutoNumberSeedRequest** class when using the SDK assemblies and **SetAutoNumberSeed** action when using the Web API.
-  
+
 The **AutoNumberSeed** message has the following parameters:
 
 

@@ -43,9 +43,9 @@ Tag authors for quicker filtering options and to classify groups of authors.
 
 If a tag is no longer accurate, you can remove it from the author.
 
-1.	In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], open the **[Author Details](author-details.md)** for the author you want to remove tags from. 
-2.	Next to the tag you want to remove, select ![Remove this tag symbol](media/delete-icon.png "Remove this tag symbol") **Remove this tag**.
-3.	Select **Confirm** to remove the tag.
+1. In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], open the **[Author Details](author-details.md)** for the author you want to remove tags from. 
+2. Next to the tag you want to remove, select ![Remove this tag symbol](media/delete-icon.png "Remove this tag symbol") **Remove this tag**.
+3. Select **Confirm** to remove the tag.
 
 ## Change author tags
 

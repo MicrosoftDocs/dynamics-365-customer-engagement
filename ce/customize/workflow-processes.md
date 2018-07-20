@@ -24,15 +24,15 @@ Workflows automate business processes without a user interface. People usually u
   
  Each workflow process is associated with a single entity. When configuring workflows you have four major areas to consider:  
   
--   When to start them?  
+- When to start them?  
   
--   Should they run as a real-time workflow or a background workflow?  
+- Should they run as a real-time workflow or a background workflow?  
   
--   What actions should they perform?  
+- What actions should they perform?  
   
--   Under what conditions should actions be performed?  
+- Under what conditions should actions be performed?  
   
- This topic introduces how to find workflow processes and will describe when to start them and if they should run as real time or background. For information about the actions they should perform, and the conditions, see [Configuring Workflow Processes](../customize/configure-workflow-steps.md).  
+  This topic introduces how to find workflow processes and will describe when to start them and if they should run as real time or background. For information about the actions they should perform, and the conditions, see [Configuring Workflow Processes](../customize/configure-workflow-steps.md).  
   
 <a name="BKMK_WhereToCustomizeWorkflows"></a>   
 ## Where do you customize workflow processes?  
