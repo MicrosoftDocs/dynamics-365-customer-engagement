@@ -214,7 +214,9 @@ The added custom parameter can be used in the form XAML as replacement parameter
   
 1. Create a **Form** record with your notification definition (XAML). For example, create a form with the example XAML illustrated earlier and with the following name: `MaxSessionNotificationForm`.  
   
-2. Create a `Popup Notification` control, and keep it global. For example, create a control with the following name: `MaxSessionNotificationControl`.  
+2. Create a `Popup Notification` control, and keep it global. For example, create a control with the following name: `MaxSessionNotificationControl`.
+
+    ![Hosted control for with USD Component type as Popup Notification](../unified-service-desk/media/usd-popupnotification-hosted-control.PNG "Hosted control for with USD Component type as Popup Notification")
   
 3. Create an action call to display the notification by specifying the form name to display along with other parameters in the **Data** field of the `Show` action. For example,  create an action call with the following name: `Action Call for Max Sessions Notification`:  
   
