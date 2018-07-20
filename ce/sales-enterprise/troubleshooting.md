@@ -2,7 +2,7 @@
 title: "Dynamics 365 for Sales troubleshooting guide for sales people | MicrosoftDocs"
 description: "Follow the instructions in this topic to troubleshoot the issues you may face while working on Dynamics 365 for Sales."
 keywords: "Dynamics 365 for Sales, troubleshoot, FAQ, issue, resolution"
-ms.date: 07/18/2018
+ms.date: 07/20/2018
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -36,23 +36,25 @@ To qualify a lead, select **Qualify** on the command bar of the lead record.
  
 ### Why am I not able to qualify a lead?
 There could be multiple errors you may get while you qualify a lead. 
--  [A record was not created or updated because a duplicate of the current record already exists](troubleshooting.md#duplicate)
+-  [Duplicate warning - There might already be a match for this account or contact. If so, please select it](troubleshooting.md#duplicate)
 -  [To move to the next stage, complete the required steps](troubleshooting.md#CompleteSteps)
 -  [Active stage is not on 'lead' entity](troubleshooting.md#NoActiveStage)
 -  [Access denied or Insufficient permissions](troubleshooting.md#AccessDenied)
--  [Duplicate Warning](troubleshooting.md#DuplicateWarning)
 
 The following sections talk about each of these errors and how you can resolve them.
 
 <a name="duplicate"> </a>
-#### A record was not created or updated because a duplicate of the current record already exists
+#### Duplicate warning - There might already be a match for this account or contact. If so, please select it.
+
+
+![Duplicate warning while qualifying lead](media/duplicate-warning.png "Duplicate warning while qualifying lead")
+
 
 **Reason:**
-The lead has already been qualified to an Opportunity.
+When the lead is qualified to an opportunity, it automatically creates a corresponding account and/or contact and there may already be a match for this account or contact.
 
 **Resolution:**
-Make sure that an opportunity is already present. 
-In the **Search** box, search for the opportunity with the same name as the lead you’re trying to qualify.
+On the **Duplicate warning** dialog box, select the existing account or contact to avoid creating duplicates. To create a new record instead, click **Continue**.
 
 <a name="CompleteSteps"> </a>
 #### To move to the next stage, complete the required steps
@@ -83,17 +85,6 @@ You do not have sufficient permissions on the lead record.
 
 **Resolution:**
 Ask your system administrator to grant you the necessary permissions.
-
-<a name="DuplicateWarning"> </a> 
-#### Duplicate Warning dialog box appears
-
-**Reason:**
-You have duplicate records in Dynamics 365 for Sales
-
-**Resolution:**
-Resolve the duplicates as identified in dialog box or select **Continue** to create a duplicate record and qualify the lead.
-
-![Duplicate warning while qualifying lead](media/duplicate-warning.png "Duplicate warning while qualifying lead")
 
 
 If there’s no error, and you are still not able to qualify a lead, please contact the technical support here.
