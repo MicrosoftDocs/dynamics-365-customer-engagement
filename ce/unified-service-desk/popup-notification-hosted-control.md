@@ -90,5 +90,5 @@ Use the **Popup Notifaction** hosted control type to display notifications in [!
  This event occurs when the timeout value specified for the control in the `Show` action has elapsed without any interaction on the notification message. When this event occurs, the notification control will automatically hide.  
 
 ### See also  
- [Configure notifications in Unified Service Desk](../unified-service-desk/configure-notifications-unified-service-desk.md)   
+ [How to configure notifications in Unified Service Desk](../unified-service-desk/configure-notifications-unified-service-desk.md)   
  [Create a user-defined event](../unified-service-desk/create-user-defined-event.md)
