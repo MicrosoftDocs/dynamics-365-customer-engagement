@@ -33,7 +33,9 @@ When you determine that the lead you’ve nurtured has a potential to turn into 
 To qualify a lead, select **Qualify** on the command bar of the lead record.
 
 ![Qualify button on the Lead form](media/qualify-button-lead-form.png "Qualify button on the Lead form")
- 
+
+You can also qualify a lead from the list of leads. Go to **Sales** > **Leads**. Select the lead you want to qualify and on the command bar, select **Qualify**.
+
 ### Why am I not able to qualify a lead?
 There could be multiple errors you may get while you qualify a lead. 
 -  [Duplicate warning - There might already be a match for this account or contact. If so, please select it](troubleshooting.md#duplicate)
