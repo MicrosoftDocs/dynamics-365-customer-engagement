@@ -85,7 +85,7 @@ You can download tools used in development from NuGet using the  powershell scri
     ##
     ./nuget install Microsoft.CrmSdk.XrmTooling.PackageDeployment.PowerShell -O .\Tools
     $pdPoshFolder = Get-ChildItem ./Tools | Where-Object {$_.Name -match 'Microsoft.CrmSdk.XrmTooling.PackageDeployment.PowerShell.'}
-    move .\Tools\$pdPoshFolder\tools\*.* .\Tools\PackageDeployment -ErrorAction Ignore
+    move .\Tools\$pdPoshFolder\tools\*.* .\Tools\PackageDeployment.PowerShell
     Remove-Item .\Tools\$pdPoshFolder -Force -Recurse
 
     ##
