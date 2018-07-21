@@ -25,7 +25,9 @@ Block time to meet or talk to your customers by using appointments. You can modi
 The calendar displays canceled and completed appointments and service activities. 
 
 > [!NOTE]
->  You can’t insert attachments in a recurring appointment.  
+>  You can’t insert attachments in a recurring appointment.
+
+>  Auto-save capability cannot be enabled on appointment or recurring appointment form.
 
 
 To remove an appointment or service activity from the calendar, delete the record.  
