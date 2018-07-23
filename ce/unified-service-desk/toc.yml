@@ -125,6 +125,8 @@
     href: admin/performance-enhancement-CRM-entity-page-loads.md
   - name: Recover Internet Explorer process instance
     href: admin/recover-internet-explorer-process-instance.md
+  - name: Configure close confirmation dialog
+    href: admin/configure-close-confirmation-dialog.md    
 - name: Analyze best practices in Unified Service Desk
   href: admin/analyze-best-practices-unified-service-desk.md
   items:
