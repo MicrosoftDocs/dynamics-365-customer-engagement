@@ -1,7 +1,7 @@
 ---
 title: "Enable SharePoint document management for specific entities for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 07/23/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
