@@ -36,13 +36,9 @@ To avoid the accidental closure of [!INCLUDE[pn_unified_service_desk](../../incl
   ![Close confirmation window in Unified Service Desk](../../unified-service-desk/media/usd-close-confirm-window.PNG "Close confirmation window in Unified Service Desk")
 
 > [!NOTE]
-> By default, the close confirmation window is enabled and to disable, Unified Service Desk 
+> By default, the close confirmation window is enabled. To disable the close confirmation window, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrator must configure the **HideConfirmationDialog** option on the **Options** page and set it to **true**.
 
 ## Enable/Disable Close Confirmation window
-
-By default, Internet Explorer pooling is disabled. To enable pooling, a System Administrator must configure the option on the **Active UII Options** page and set it to **true**.
-
-To enable Internet Explorer pooling:
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
 
@@ -54,9 +50,9 @@ To enable Internet Explorer pooling:
 
 5. Choose **Others** for the **Global Option** field.
 
-6. Type **InternetExplorerPooling** for the **Name** field.
+6. Type **HideConfirmationDialog** for the **Name** field.
 
-7. Set **true** for the **Value** field.
+7. Sepcify the value in the **Value** field. Specify **false** to enable and **true** to disable.
 
 8. Click **Save**.
 
