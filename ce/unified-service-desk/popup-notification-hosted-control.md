@@ -1,6 +1,6 @@
 ---
 title: "Popup Notification (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
-description: "Learn about using the Popup Notifaction hosted control type to display notifications in Unified Service Desk. The notification layout and content is defined as XAML in a Unified Service Desk form instance, and the Popup Notifaction hosted control is used to display and hide the form instance as required"
+description: "Learn about using the Popup Notification hosted control type to display notifications in Unified Service Desk. The notification layout and content is defined as XAML in a Unified Service Desk form instance, and the Popup Notification hosted control is used to display and hide the form instance as required"
 keywords: ""
 ms.date: 08/03/2018
 ms.service:
@@ -24,7 +24,7 @@ ms.tgt_pltfrm:
 ---
 
 # Popup Notification (Hosted Control)
-Use the **Popup Notifaction** hosted control type to display notifications in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. The notification layout and content is defined as XAML  in a [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] form instance, and the **Popup Notifaction** hosted control is used to display and hide the form instance as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure notifications in Unified Service Desk](../unified-service-desk/configure-notifications-unified-service-desk.md)  
+Use the **Popup Notification** hosted control type to display notifications in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. The notification layout and content is defined as XAML  in a [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] form instance, and the **Popup Notification** hosted control is used to display and hide the form instance as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure notifications in Unified Service Desk](../unified-service-desk/configure-notifications-unified-service-desk.md)  
 
 > [!NOTE]
 >  This hosted control type was introduced in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] 2.2 release.  
@@ -62,7 +62,7 @@ Use the **Popup Notifaction** hosted control type to display notifications in [!
 |      top      | Specifies the position, in percentage, from the top of either your screen or the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client window where the notification should be displayed. If you don’t specify this parameter, 0 is passed by default. |
 |    timeout    | Duration in seconds for the notification to be available without any interaction. If you do not specify a valid value for this parameter, the notification will continue to appear, and won't hide/close automatically. If you want a notification to be explicitly closed, you might leave out this value but should add a cancel/close button to close the notification if the user wants to close the notification. |
 |    stack    | Specifies whether Unified Service Desk shows the notifications as a stack.<br> Set **true** to show the notification in stack.<br>Set **false** to not to show the notifications in stack. |
-|    stackHeight    | Height the notification in pixels in the collapsed state.<br> The range of the value is between 1 - 100. The default is 50. If you do not specify any value, specify 0, or specify more than 100, default value (50) is passed.|
+|    stackHeight    | Height the notification in pixels in the collapsed state.<br> The range of the value is between 1 - 100. The default is 50. If you do not specify any value, the default value (50) is passed. Also, if you specify 0 or specify more than 100, default value (50) is passed.|
 
 
 <a name="Hide"></a>   

@@ -90,11 +90,11 @@ Use **Session Tabs** type of hosted control to display customer information in a
 |SessionId|This is the ID of the session for which you want to reset the progress indicator. The ID can also be retrieved from the context using the replacement parameter: [[context.sessionid]]|
 
 ### SwitchSession  
- This action is used to switch the session between the global and local sessions.  
+ This action is used to switch the session between the local sessions. Also, switch from local to global session.
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|SessionId|This is the ID of the global session. The ID can also be retrieved from the context using the replacement parameter: [[$Session.Global]g]</br>For example: `sessionid=[[$Session.Global]g]`| 
+|SessionId|This is the ID of the global or local session. The global session ID can also be retrieved from the context using the replacement parameter: [[$Session.Global]g]</br>For example: `sessionid=[[$Session.Global]g]`| 
   
 <a name="Events"></a>   
 ## Predefined events  

@@ -211,7 +211,7 @@ The added custom parameter can be used in the form XAML as replacement parameter
 
  You can also configure the stack notification by adding the **stack** parameter in the **Data** field of **Show** action. The parameter takes boolean value. Unified Service Desk shows the notifications in stack when the parameter is set to **true**. The default value is **false**. If you do not specify any value, the default value (false) is passed. For example, **stack = true**, shows the notifications in stack.
 
- Also, you can define the height of the stack by defining the **stackHeight** parameter. The value range is 1 - 100. The default value is 50. If you do not specify any value, specify 0, or specify a value more 100, then the default (50) value is passed. For example, **stackHeight = 60**.
+ Also, you can define the height of the stack by defining the **stackHeight** parameter. The value range is 1 - 100. The default value is 50. If you do not specify any value, the default value (50) is passed. Also, if you specify 0 or specify more than 100, default value (50) is passed. For example, **stackHeight = 60**.
 
  For more information about the parameters, see  [Popup Notification (Hosted Control)](../unified-service-desk/popup-notification-hosted-control.md).
 
@@ -225,7 +225,7 @@ The added custom parameter can be used in the form XAML as replacement parameter
 ## How to configure a notification?  
  These are the broad steps for displaying a notification:  
   
-1. Create a **Form** record with your notification definition (XAML). For example, create a form with the example XAML illustrated earlier and with the following name: `MaxSessionNotificationForm`.  
+1. Create a **Form** record with your notification definition (XAML). For example, create a form with the example XAML illustrated earlier and with the following name: `Sample Notification Form`.  
   
 2. Create a `Popup Notification` control, and keep it global. For example, create a control with the following name: `MaxSessionNotificationControl`.
 
