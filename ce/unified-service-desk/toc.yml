@@ -78,6 +78,8 @@
 - name: Administer and manage Unified Service Desk
   href: admin/administer-manage-unified-service-desk.md
   items:
+  - name: Preview feature - Unified Service Desk Administrator app
+    href: admin/unified-service-desk-administrator-app.md
   - name: Manage Options for Unified Service Desk
     href: admin/manage-options-unified-service-desk.md
     items:
