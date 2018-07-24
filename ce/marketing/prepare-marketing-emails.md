@@ -167,6 +167,9 @@ Select **Test Send** to send your current design to one or more email addresses.
 
 Select the **Save** button the bottom of the flyout panel to send the message to your specified email address(s).
 
+> [!NOTE]
+> You can test-send both draft and live email messages, so you don't have to go live to do a test send.
+
 ### Preview your message in the designer
 
 The content designer provides two types of previews when you're designing a marketing email message:
