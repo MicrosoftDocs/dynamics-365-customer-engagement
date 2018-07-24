@@ -23,7 +23,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ---
 
-# How to configure close confirmation window to prevent accidental closure of Unified Service DeskPerformance enhancement for CRM entity page loads
+# How to configure close confirmation window to prevent accidental closure of Unified Service Desk
 
 ## Accidental closure of Unified Service Desk
 
@@ -56,9 +56,8 @@ To avoid the accidental closure of [!INCLUDE[pn_unified_service_desk](../../incl
 
 8. Click **Save**.
 
-   ![Enable InternetExplorerPooling option](../../unified-service-desk/media/crm-itpro-usd-options-internetexplorerpooling.PNG "Enable InternetExplorerPooling option")
+   ![Enable/disable HideConfirmationDialog option](../../unified-service-desk/media/crm-usd-hideconfirmationdialog-option.PNG "Enable/disable HideConfirmationDialog option")
 
 ## See also
 
 [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)
- 
