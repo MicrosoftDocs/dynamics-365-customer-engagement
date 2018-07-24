@@ -159,7 +159,13 @@ Your marketing email messages will probably be seen by many potential customers,
 
 ### Send a test message
 
-Select **Test Send** to send your current design to any recipient or group of recipients. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] then asks you to specify test recipients by entering one or more email addresses or by choosing a marketing list. If you choose a list, be careful not to send the test to a large audience you didn't intend to send the message to.
+Select **Test Send** to send your current design to one or more email addresses. This command initiates an [error check](#error-check); provided your message passes the error check, a flyout panel opens asking you to specify the following:
+
+- **Email address**: Enter one or more target email addresses (comma-separated). You'll typically just use your own email address here.
+- **Test contact**: Select a contact record to supply values for dynamic content (such as a first name in the salutation). For a live message, these values come from the contact record for each individual recipient.
+- **Test content settings**: Select a content-settings record to supply values for dynamic content (such as subscription-center URL or the sender postal address). For a live message, the content-settings record is specified by the customer journey that sends the message.
+
+Select the **Save** button the bottom of the flyout panel to send the message to your specified email address(s).
 
 ### Preview your message in the designer
 
@@ -194,9 +200,11 @@ The **Inbox Preview** tab displays a grid of icons, each labeled with the name o
 > [!NOTE]
 > Litmus must be enabled for your site before you can use it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Default marketing settings](marketing-settings.md#marketing-configuration)
 
+<a name="error-check"></a>
+
 ## Required elements: How to pass the error check
 
-Before you can send your message, it must pass an error check. You can run an error check at any time by selecting **Check for Errors** in the designer. An error check is also run automatically each time you select **Go Live**.
+Before you can go-live with or test-send your message, it must pass an error check. You can run an error check at any time by selecting **Check for Errors** in the designer. An error check is also run automatically each time you select **Go Live** or **Test Send**.
 
 All messages must include the following:
 
