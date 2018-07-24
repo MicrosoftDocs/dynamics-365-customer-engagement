@@ -29,7 +29,7 @@ manager: "brycho"
 2. Addressed other bug fixes.
 
 ### May 20 
-1. [Experience App for Outlook as a pinnable taskpane.](../outlook-app/v8/dynamics-365-app-outlook-user-s-guide-v8.md) 
+1. [Experience App for Outlook as a pinnable taskpane.](/dynamics-365-app-outlook-user-s-guide-v8.md) 
 2. Address reliability fixes. 
 
 ### May 5, 2018
