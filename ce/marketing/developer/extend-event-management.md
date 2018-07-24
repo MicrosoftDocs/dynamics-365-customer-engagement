@@ -46,7 +46,7 @@ Further, the webinar provider should be able to authenticate with the Event mana
 
 ## Add a webinar provider
 
-When creating a new webinar provider, you will need to have ***Client ID*** and ***Client secret***. The authorization of the Webinar service to Dynamics 365 uses OAuth 2.0 standard protocol. More information: [OAuth, Client ID and Client secret](https://www.oauth.com/oauth2-servers/client-registration/client-id-secret/).
+When adding a new webinar provider in **Dynamics 365**, you will need to have ***Client ID*** and ***Client secret***. This inforamtion is provided when you sign up for a webinar provider. The authorization of the Webinar service to Dynamics 365 uses OAuth 2.0 standard protocol. More information: [OAuth, Client ID and Client secret](https://www.oauth.com/oauth2-servers/client-registration/client-id-secret/).
 
 To add a new webinar provider:
 
