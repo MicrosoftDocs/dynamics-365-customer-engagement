@@ -27,7 +27,7 @@ ms.tgt_pltfrm:
 
 ## Accidental closure of Unified Service Desk
 
-At contact centers, one of the key measure is the Customer Satisfaction (CSAT) where the agents are thriving to increase the CSAT score by solving the customer problems. When you (agent) are working on an important case or attending a customer call using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], it may happen that you accidentally closed [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. Perhaps, you may lose all the unsaved work or the customer call is terminated due to the closure of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. The sudden closure of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] impacts your productivity and also leads to low CSAT score. Prevention of the accidental closure of the Unified Service Desk is key for your business and customers. Hence close confirmation window feature is introduced.
+At contact centers, one of the key measure is the Customer Satisfaction (CSAT) where the agents are thriving to increase the CSAT score by solving the customer problems. When you (agent) are working on an important case or attending a customer call using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], it may happen that you accidentally closed [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. Perhaps, you may lose all the unsaved work or the customer call is terminated due to the closure of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. The sudden closure of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] impacts your productivity and also leads to low CSAT score. Prevention of the accidental closure of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is key for your business and customers. Hence close confirmation window feature is introduced.
 
 ## How to avoid the accidental closure of Unified Service Desk
 
@@ -57,6 +57,18 @@ To avoid the accidental closure of [!INCLUDE[pn_unified_service_desk](../../incl
 8. Click **Save**.
 
    ![Enable/disable HideConfirmationDialog option](../../unified-service-desk/media/crm-usd-hideconfirmationdialog-option.PNG "Enable/disable HideConfirmationDialog option")
+
+## Test the configuration of close confirmation window
+
+1. Start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client by double-clicking the application shortcut on your desktop. More information: [Sign in to Unified Service Desk
+](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#sign-in-to-unified-service-desk)
+
+2. Select the **X** button to close [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+</br>The confirmation window appears with a message.
+
+3. Choose **Yes** to close [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] or choose **No** to stay, save the changes, and continue working.
+
+![Close Confirmation widow](../../unified-service-desk/media/usd-test-close-window.PNG "Close Confirmation widow")
 
 ## See also
 
