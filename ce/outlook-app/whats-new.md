@@ -34,7 +34,7 @@ manager: "kvivek"
 2. Addressed other bug fixes.  
 
 ## May 20 
-1. Support for custom security roles to have access to Dynamics 365 App for Outlook. 
+1. [Support for custom security roles to have access to Dynamics 365 App for Outlook.](deploy-dynamics-365-app-for-outlook.md) 
 2. Rich text appointment editor in Unified Interface and web client. 
 3. Addressed other bug fixes. 
 
