@@ -31,7 +31,7 @@ manager: "amyla"
 |entityTypes|Array|No|The entity types to display.|
 |showBarcodeScanner|Boolean|No|Indicates whether the lookup control should show the barcode scanner in mobile clients.|
 |viewIds|Array|No|The views to be available in the view picker. Only system views are supported.|
-|successCallback |Function |Yes |A function to call when the lookup control is invoked. An object with the following properties is passed:<br/>- **entityType**: String. Entity type of the record selected in the lookup control.<br/>- **id**: String. ID of the record selected in the lookup control.<br/>- **name**: String. Name of the record selected in the lookup control.|
+|successCallback |Function |Yes |A function to call when the lookup control is invoked. An array of objects with the following properties is passed:<br/>- **entityType**: String. Entity type of the record selected in the lookup control.<br/>- **id**: String. ID of the record selected in the lookup control.<br/>- **name**: String. Name of the record selected in the lookup control.|
 |errorCallback |Function |Yes |A function to call when you cancel the lookup control or the operation fails.  |
 
 
