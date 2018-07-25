@@ -52,7 +52,7 @@ The following table shows the fields that are managed in the **Users** section o
 |User Name     |Username         |
 |Full Name     |First name + Last name         |
 |Title     |Job title         |
-|Primary Email     |Email         |
+|Primary Email*     |Email         |
 |Main Phone     |Office phone         |
 |Mobile Phone     |Mobile phone         |
 |Fax     |Fax number         |
@@ -60,6 +60,8 @@ The following table shows the fields that are managed in the **Users** section o
 |Address     |City         |
 |Address     |State or province         |
 |Address     |Country or region         |
+
+*To prevent data loss, the Primary Email field does not automatically update and synchronize with Dynamics 365 (online).
 
 The following are Office 365 user contact fields.
 
