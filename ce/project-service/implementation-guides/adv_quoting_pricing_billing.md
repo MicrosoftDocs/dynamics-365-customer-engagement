@@ -2,7 +2,7 @@
 
 title: Advanced Quoting, Pricing, and Billing
 description: Description - brief
-author: rumant
+author: krbjoran
 manager: ShellyHaverkamp
 ms.date: 7/30/2018
 ms.topic: article
