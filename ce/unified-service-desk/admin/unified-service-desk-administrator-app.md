@@ -27,7 +27,7 @@ ms.tgt_pltfrm:
 
 ## Overview
 
-With Unified Service Desk 4.0, you can use [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator App built on the Unified Interface framework to administer and manage the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
+With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] 4.0, you can use [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator App built on the Unified Interface framework to administer and manage the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
 
 The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app is built on the Unified Interface framework, which has a new user experience - **Unified Interface** - which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. 
 
@@ -35,15 +35,29 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 ## Supportability matrix for Unified Service Desk Administrator app
 
-The matrix explains the support of Unified Service Desk.
+The matrix explains the support of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app with versions of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.
 
-| Checkbox Experiments | [ ] unchecked header  | [x] checked header  |
-| ---------------------|:---------------------:|:-------------------:|
-| checkbox             | [ ] row               | [x] row             |
+### Fresh Installation of Dynamics 365 and Unified Service Desk
+
+| Dynamics 365 Version | Unified Service Desk Version | Unified Service Desk Administrator App  |
+|:--------------------:|:----------------------------:|:---------------------------------------:|
+| V 9.X                | 4.0                          | Yes                                     |
+| V 8.X                | 4.0                          | No                                      |
+| V 7.X                | 4.0                          | No                                      |
+
+### Upgrade Installation of Dynamics 365 and Unified Service Desk
+
+When you are upgrading Dynamics 365 version and Unified Service Desk you need to import the solution to use Unified Service Desk Administrator app. The matrix explains the import scenario. 
+
+| Dynamics 365 Version | Unified Service Desk Version |Import solution to get Unified Service Desk Administrator App  | 
+|:--------------------:|:----------------------------:|:---------------------------------------:|
+| V 8.X to V 9.X       | 4.0                          | Yes                                     | 
+| V 7.X to V 9.X       | 4.0                          | Yes                                     | 
+| V 6.X to V 9.X       | 4.0                          | Yes                                     |
 
 ## Download and install Unified Service Desk Administrator app
 
-The Unified Service Desk Administrator app is made available through the **USDUnifiedInterfaceCustomization_1_0_managed** solution. The solution is present in the following packages under the folder `<Unified Service Desk download directory>\USDPackageDeployer\`:
+The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app is made available through the **USDUnifiedInterfaceCustomization_1_0_managed** solution. The solution is present in the following packages under the folder `<Unified Service Desk download directory>\USDPackageDeployer\`:
 
 - **NewEnvironment**
 - **UpdatePackage**
@@ -51,7 +65,7 @@ The Unified Service Desk Administrator app is made available through the **USDUn
 
 ### Install the Unified Service Desk Administrator app solution
 
-1. Download Unified Service Desk 4.0 and Package Deployer and save it on your computer. See [Download Unified Service Desk](../download-unified-service-desk.md).
+1. Download [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] 4.0 and Package Deployer and save it on your computer. See [Download Unified Service Desk](../download-unified-service-desk.md).
 
 2. Run the downloaded file to extract the Dynamics 365 Package Deployer into a folder.
 
