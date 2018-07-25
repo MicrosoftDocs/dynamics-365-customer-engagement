@@ -1,6 +1,6 @@
 ---
 
-title: Beginner Guide to Quoting, Pricing, and Billing
+title: Basic Guide to Quoting, Pricing, and Billing
 description: Description - brief
 author: author
 manager: ShellyHaverkamp
@@ -13,4 +13,9 @@ ms.author: author
 audience: Admin
 
 ---
-# TITLE
+# Basic guide to quoting, pricing and billing
+
+[insert text]  
+  
+[Basic guide to quoting, pricing, and billing for project service](http://go.microsoft.com/fwlink/?LinkId=nnnnnn)  
+  
