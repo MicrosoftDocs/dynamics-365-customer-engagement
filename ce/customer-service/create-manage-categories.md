@@ -26,7 +26,7 @@ Categories are useful for reporting, sorting, segmenting, and categorization of 
 Follow the procedure given below to create a category:
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
-  
+
     #### Check your security role  
   
    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  

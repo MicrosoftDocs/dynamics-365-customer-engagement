@@ -67,11 +67,14 @@ The interactive dashboards come in two flavors:
   
  ![Single stream dashboard layouts](../customer-service/media/interactive-dashboards-single-stream-layout.png "Single-stream dashboard layouts")  
   
-## Configure entities, fields, and security roles for the interactive dashboards  
- When you configure interactive dashboards, your first task is to enable entities, fields, and security roles, so that interactive dashboards can be configured  for them.  
-  
+## Configure filter fields and security roles for the interactive dashboards  
+ When you configure interactive dashboards, your first task is to enable fields and security roles, so that interactive dashboards can be configured for them. Note, that interactive dashboards are now enabled for all entities and custom entities by default.
+
+To know more about how to enable custom entities, see [Enable custom entities in the Customer Service Hub](../customer-service/create-design-forms-customer-service-hub.md#enable-custom-entities-in-the-customer-service-hub).
+
+<!--  
 ### Enable entities  
- You can create interactive dashboards for all entities in the Customer Service Hub. You can also enable custom entities and custom activities for interactive dashboards. To know more about how to enable custom entities, see [Enable custom entities in the Customer Service Hub](../customer-service/create-design-forms-customer-service-hub.md#enable-custom-entities-in-the-customer-service-hub).
+ You can create interactive dashboards for all entities in the Customer Service Hub. You can also enable custom entities and custom activities for interactive dashboards. 
   
  Out of the box, the following entities are enabled for interactive dashboards in the Customer Service Hub:  
   
@@ -86,7 +89,9 @@ The interactive dashboards come in two flavors:
     - Phone Call
     - Task
     - Appointment
-    - Social Activity  
+    - Social Activity 
+
+-->
 
 > [!NOTE]
 > All customization tasks for the Customer Service Hub must be done in the Microsoft Dynamics 365 web application.

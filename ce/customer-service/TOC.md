@@ -25,7 +25,7 @@
 ### Automatic record creation and update rules
 #### [Automatically create case from email](automatically-create-case-from-email.md)
 #### [Automatically create and update records](set-up-rules-to-automatically-create-or-update-records.md)
-### [Subjects](create-manage-subject-tree.md) 
+### [Subjects](../admin/define-subjects-categorize-cases-products-articles.md) 
 ### [Service level agreements](define-service-level-agreements.md)
 #### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
 ### [Entitlements](create-entitlement-define-support-terms-customer.md)

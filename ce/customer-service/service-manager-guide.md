@@ -51,7 +51,7 @@ Use the following links to learn about Service Management tasks:
 
 [Automatic Record Creation](set-up-rules-to-automatically-create-or-update-records.md)
 
-[Subjects](create-manage-subject-tree.md)
+[Subjects](../admin/define-subjects-categorize-cases-products-articles.md)
   
 ## Service Terms  
 
