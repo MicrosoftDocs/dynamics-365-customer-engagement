@@ -13,3 +13,12 @@ ms.assetid: 689d7cfb-dfd9-4e65-85f3-a422617f1a0f
 ms.custom: dyn365-customerservice
 ---
 
+# SLA timer does not stop, when it's state is changed from OnHold to InProgress on a Holiday
+
+## Issue
+
+## Resolution
+
+## More help
+
+
