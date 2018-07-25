@@ -13,5 +13,10 @@ ms.author: author
 audience: Admin
 
 ---
-# TITLE
+# Advanced quoting, pricing, and billing guide
 
+[insert text]  
+  
+  
+[Advanced guide to quoting, pricing, and billing for project service (version 2)](http://go.microsoft.com/fwlink/?LinkId=nnnnnn)  
+  
