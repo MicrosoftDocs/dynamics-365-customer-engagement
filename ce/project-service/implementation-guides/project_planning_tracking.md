@@ -13,5 +13,9 @@ ms.author: author
 audience: Admin
 
 ---
-# TITLE
+# Project planning and tracking
 
+[Placeholder].  
+  
+[Guide to project planning and tracking for project service](http://go.microsoft.com/fwlink/?LinkId=nnnnnn)  
+  
