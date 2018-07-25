@@ -17,5 +17,5 @@ audience: Admin
 Resources are the most important asset of a service-based organization. The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals. This document explains the resource management capabilities of Dynamics 365 Project Service Automation.
 
     
-[Resource management guide, version 2](https://go.microsoft.com/fwlink/?linkid=2006724)  
+[Download resource management guide, version 2](https://go.microsoft.com/fwlink/?linkid=2006724)  
   
