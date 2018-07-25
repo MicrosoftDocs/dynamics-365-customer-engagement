@@ -1,7 +1,7 @@
 ---
 title: "Deploy Dynamics 365 App for Outlook (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 07/24/2018
+ms.date: 07/25/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -50,32 +50,10 @@ You will receive the message **Sorry, something went wrong. Please try again, or
 
 - [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is an [!INCLUDE [pn-outlook](../includes/pn-outlook.md)] add-in that uses [!INCLUDE [pn-exchange-web-services-ews](../includes/pn-exchange-web-services-ews.md)] to interact with [!INCLUDE [pn-microsoft-exchange](../includes/pn-microsoft-exchange.md)]. This requires OAuth be enabled on [!INCLUDE [pn-microsoft-exchange](../includes/pn-microsoft-exchange.md)]. For more information regarding this dependency, see [Authentication and permission considerations for the makeEwsRequestAsync method](https://docs.microsoft.com/outlook/add-ins/web-services#authentication-and-permission-considerations-for-the-makeewsrequestasync-method).
 
-- Minimum version of Outlook to run App for Outlook:
-
-  -   16.0.4266.1001 for Outlook 2016 MSI version
-  -   16.0.93330.2073 for Outlook 2016 C2R version
-  -   15.0.5023.1000 for Outlook 2013 MSI version
-
 - Required privileges as described below  
 
 > [!NOTE]
 >  Supported configurations and requirements for [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] features are listed throughout our documentation. Specific configurations not documented should be  considered unsupported.  
-
-### Supported browsers  
- You can use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] with [!INCLUDE[pn_outlook_web_app](../includes/pn-outlook-web-app.md)] on the following browsers:  
-
-  
--   [!INCLUDE[pn_ie_11](../includes/pn-ie-11.md)], or [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)]  
-  
-     The following configuration is supported:  
-  
-    -   Protected Mode is enabled for **Internet** security zone. To enable Protected Mode: in IE 11, go to **Tools** > **Internet options** > **Security tab** > **Internet**.  
-  
-    -   Protected Mode is enabled for **Local intranet**  security zone. To enable Protected Mode: in IE 11, go to **Tools** > **Internet options** > **Security tab** > **Local Internet**.  
-  
-    -   Your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] URL is in the **Local intranet** security zone list of trusted websites. In IE 11, go to **Tools** > **Internet options** > **Security tab** > **Local intranet** > **Sites** > **Advanced**.  
- 
-  
 
 ### Required privileges 
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] provides access to [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] through the **Use Dynamics 365 App for Outlook** privilege. If a user doesn’t have this privilege, they’ll receive the following error:  
@@ -153,35 +131,6 @@ If you have custom security roles defined in Dynamics 365, users who have that s
 > [!NOTE]
 >  If you use [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)], you'll need to authenticate with IFD authentication as described below.  
 -->
-
-### Support summary
-
-#### Windows desktop
-- Outlook 2013 (desktop client)*
-- Outlook 2016 (desktop client)
-- Outlook on the web on Internet Explorer 11, Microsoft Edge, and Chrome
-
-*[Support for 2013 versions of Office 365 ProPlus ended February 28, 2017.](https://support.microsoft.com/help/3199744/support-for-the-2013-versions-of-office-365-proplus-ends-february-28)
-
-> [!NOTE]
->  Windows Server is not supported. 
-
-#### Macintosh
-- Outlook 2016 for Mac
-
-#### iPhone
-- Apple iPhone 6S or higher, running iOS version 8 or higher.
-
-#### Android phones
-- Outlook for Android, on Android phones running Android 4.4 (KitKat), 5.0 (Lollipop), 6.0 (Marshmallow), or 7.0 (Nougat).
-
-#### Android tablets
-- Not supported
-
-#### Windows phones and tablets
-- Not supported
-
-Check back later for updates on supported platforms.
 
 ### Feature support per client
 
