@@ -33,6 +33,8 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app brings rich experience to administrate and manage your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
 
+The Administrator app built based on the Unified Interface framework has the same configurational capabilities as the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrator in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Web Client.
+
 ## Supportability matrix for Unified Service Desk Administrator app
 
 The matrix explains the support of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app with versions of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.
@@ -51,9 +53,9 @@ When you are upgrading Dynamics 365 version and Unified Service Desk you need to
 
 | Dynamics 365 Version | Unified Service Desk Version |Import solution to get Unified Service Desk Administrator App  | 
 |:--------------------:|:----------------------------:|:---------------------------------------:|
-| V 8.X to V 9.X       | 4.0                          | Yes                                     | 
-| V 7.X to V 9.X       | 4.0                          | Yes                                     | 
-| V 6.X to V 9.X       | 4.0                          | Yes                                     |
+| **V 8.X** to **V 9.X**       | 4.0                          | Yes                                     | 
+| **V 7.X** to **V 9.X**       | 4.0                          | Yes                                     | 
+| **V 6.X** to **V 9.X**       | 4.0                          | Yes                                     |
 
 ## Download and install Unified Service Desk Administrator app
 
@@ -104,7 +106,86 @@ If you deploy the sample package or import the solution, in either way you can f
 ![Navigate to Unified Service Desk Admin app via settings, My Apps](../media/usd-crm-admin-app-navigate.PNG "Navigate to Unified Service Desk Admin app via settings, My Apps")
 </br></br>
 ![Unified Service Desk Administrator app](../media/usd-crm-admin-app.PNG "Unified Service Desk Administrator app")
+
+## Unified Service Desk Administrator app Layout
+
+When you navigate to the Unified Service Desk Administrator app, by default layout opens the configuration element - **Hosted Controls**.
+
+![Unified Service Desk Administrator app Layout](../media/usd-crm-unified-interface-admin-app-layout.PNG "Unified Service Desk Administrator app Layout")
+
+
+### 1. Quick-Access Configuration Toolbar
+
+The quick-access toolbar is same as **Basic Settings** under the **Site Map** and contains the following configurational elements:
+- Hosted Controls
+- Action Calls
+- Events
+- Window Navigation Rules
+- Toolbars
+- Agents Scripts
+- Entity Searches
+- Scriplets
+- Forms
+- Session Lines
+
+### 2. Site Map
+
+Site Map contains the complete configuration elements required to administrate and manage your Unified Service Desk client application.
+
+![Site Map](../media/usd-crm-admin-app-site-map-callouts.PNG "Site Map")
+
+1. **Favorites and Recent** - You can find all the recently used configurational elements using the **Favorites and Recent** tab. Also, you Pin and Unpin your favorites.
+
+2. **Unified Service Desk Admin** - All the configuration elements that are required to administrate and manage your Unified Service Desk are present under two categories - **Basic Settings** and **Advanced Settings**.
+
+3. **Basic Settings** - The Basic Settings consists of the following configuration elements:
+   - Hosted Controls
+   - Action Calls
+   - Events
+   - Window Navigation Rules
+   - Toolbars
+   - Agents Scripts
+   - Entity Searches
+   - Scriplets
+   - Forms
+   - Session Lines
+
+4. **Advanced Settings** - The Advanced Settings consists of the following configuration elements:
+   - Global Options
+   - User Settings
+   - Customization and Files
+   - Audit & Diagnostics
+   - Unified Interface Settings
+   - Configuration
  
+### 3. Configuration Layout
+
+The configuration Layout defines the behavior of the element that you open to perform the operations. The layout defines certain common options:
+- New
+- Delete
+- Refersh
+- Email a Link
+- Export to Excel
+- Import from Excel
+- List of the configuration element that you are operating
+
+### 4. Navigation Toolbar Icons
+
+The navigation toolbar icons contains the following:
+
+- **Search** - Search for records across multiple entities sorted by relevance.
+- **Task Flow** - Start a task-based flow.
+- **Relationship Assistant** - Get a collection of action cards to discover an actional insights. 
+- **New** - You can create a record using this option.
+- **Settings** - This option lets you to personalize your views with Time Zone, Calendar, and Records/List View.
+- **Help** - This options lets you find the technical documentation required for your support.
+
+![Navigation toolbar buttons](../media/usd-crm-navigation-toolbar-buttons.PNG "Navigation toolbar buttons")
+
+### 5. User Information 
+
+User Information lets you identify the currently signed-in user with the First Name and Last Name.
+
 ## See also  
  [Hosted control types, action, and event reference](../../unified-service-desk/hosted-control-types-action-event-reference.md)  
  
