@@ -1,11 +1,14 @@
 ---
 title: "Support for Unified Interface apps in Unified Service Desk (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: Learn about downloading and installing the Best Practices Analyzer.
-ms.custom: ""
+description: "Learn about the Unified Interface apps supportability in Unified Service Desk."
+keywords: ""
 ms.date: 05/07/2018
-ms.service: usd
+ms.service:
+  - "usd"
+ms.custom:
+  - ""
 ms.topic: article
-applies_to: 
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2013"
