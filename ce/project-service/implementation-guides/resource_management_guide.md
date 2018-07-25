@@ -2,7 +2,7 @@
 
 title: Resource management guide
 description: Description - brief
-author: JohnPBurrows
+author: krbjoran
 manager: ShellyHaverkamp
 ms.date: 7/30/2018
 ms.topic: article
