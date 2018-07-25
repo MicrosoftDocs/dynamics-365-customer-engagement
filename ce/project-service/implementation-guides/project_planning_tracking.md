@@ -17,5 +17,5 @@ audience: Admin
 
 [Placeholder].  
   
-[Guide to project planning and tracking for project service](http://go.microsoft.com/fwlink/?LinkId=nnnnnn)  
+[Project planning and tracking guide, version 2](http://go.microsoft.com/fwlink/?LinkId=nnnnnn)  
   
