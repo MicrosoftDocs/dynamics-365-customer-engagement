@@ -41,9 +41,12 @@ You will receive the message **Sorry, something went wrong. Please try again, or
 
 ## Requirements  
  The following are required to use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]:  
+ 
+  ![Support matrix for Outlook Dashboard](media/supporttable.png "Support matrix for Outlook Dashboard")
+  > [!NOTE]
+>  Support for 2013 versions of Office 365 ProPlus ends February 28, 2017. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See](https://support.microsoft.com/en-us/help/3199744/support-for-the-2013-versions-of-office-365-proplus-ends-february-28-2)    
 
 - [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or later
-
 
 
 - Synchronization of incoming email through server-side synchronization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)  
