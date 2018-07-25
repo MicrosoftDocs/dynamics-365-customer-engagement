@@ -2,14 +2,14 @@
 
 title: Resource management guide
 description: Description - brief
-author: author
+author: JohnPBurrows
 manager: ShellyHaverkamp
 ms.date: 7/30/2018
 ms.topic: article
 ms.prod: 
 ms.service: business-applications
 ms.technology: 
-ms.author: author
+ms.author: JohnPBurrows
 audience: Admin
 
 ---
