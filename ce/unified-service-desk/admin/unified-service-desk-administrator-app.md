@@ -33,6 +33,14 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app brings rich experience to administrate and manage your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
 
+## Supportability matrix for Unified Service Desk Administrator app
+
+The matrix explains the support of Unified Service Desk.
+
+| Checkbox Experiments | [ ] unchecked header  | [x] checked header  |
+| ---------------------|:---------------------:|:-------------------:|
+| checkbox             | [ ] row               | [x] row             |
+
 ## Download and install Unified Service Desk Administrator app
 
 The Unified Service Desk Administrator app is made available through the **USDUnifiedInterfaceCustomization_1_0_managed** solution. The solution is present in the following packages under the folder `<Unified Service Desk download directory>\USDPackageDeployer\`:
