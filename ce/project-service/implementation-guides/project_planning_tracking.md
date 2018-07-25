@@ -2,7 +2,7 @@
 
 title: Project Planning and Tracking
 description: Description - brief
-author: RevathiMuthiah
+author: krbjoran
 manager: ShellyHaverkamp
 ms.date: 7/30/2018
 ms.topic: article
