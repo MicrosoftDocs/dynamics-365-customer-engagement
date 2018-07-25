@@ -130,7 +130,6 @@
 ## [Add or remove sample data](add-remove-sample-data.md)
 ## [Import data](import-data-all-record-types.md)
 ## [Template for data import](download-template-data-import.md)
-## [Preview feature: Import bulk data](import-bulk-data-data-loader.md)
 ## [Detect duplicate data](detect-duplicate-data.md)
 ## [Duplicate detection rules](set-up-duplicate-detection-rules-keep-data-clean.md)
 ## [Turn duplicate detection rules on or off](turn-duplicate-detection-rules-off-whole-organization.md)
