@@ -17,5 +17,5 @@ audience: Admin
 
 [insert text]  
   
-[Basic guide to quoting, pricing, and billing for project service](http://go.microsoft.com/fwlink/?LinkId=nnnnnn)  
+[Basic guide to quoting, pricing, and billing, version 2](http://go.microsoft.com/fwlink/?LinkId=nnnnnn)  
   
