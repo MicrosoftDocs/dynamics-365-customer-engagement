@@ -1,7 +1,7 @@
 ---
 title: "Create users in Dynamics 365 (online) and assign security roles | MicrosoftDocs"
 ms.custom: ""
-ms.date: 06/11/2018
+ms.date: 07/25/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -31,15 +31,15 @@ You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admi
   
 > [!NOTE]
 >  When you create a user and assign a license in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], the user is also created in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. The synchronization process between the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] and [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] can take a few minutes to complete.  
->   
+> 
 >  By entering a user ID and password, a user can access the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] to view information about the service. However, the user will not have access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] until you assign at least one [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] security role to this user.  
-  
+> 
 > [!TIP]
 >  To force an immediate synchronization between the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] and [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], do the following:  
->   
-> -   Sign out of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
-> -   Close all open browsers used for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
-> -   Sign back in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+> 
+> - Sign out of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+> - Close all open browsers used for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+> - Sign back in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
 ## User profile information
 
@@ -52,7 +52,7 @@ The following table shows the fields that are managed in the **Users** section o
 |User Name     |Username         |
 |Full Name     |First name + Last name         |
 |Title     |Job title         |
-|Primary Email     |Email         |
+|Primary Email*     |Email         |
 |Main Phone     |Office phone         |
 |Mobile Phone     |Mobile phone         |
 |Fax     |Fax number         |
@@ -60,6 +60,8 @@ The following table shows the fields that are managed in the **Users** section o
 |Address     |City         |
 |Address     |State or province         |
 |Address     |Country or region         |
+
+*To prevent data loss, the Primary Email field does not automatically update and synchronize with Dynamics 365 (online).
 
 The following are Office 365 user contact fields.
 
@@ -79,13 +81,13 @@ The following are Office 365 user contact fields.
   
 - [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] uses user licenses to provide access to your organization. You need one user license per person with an active user record who logs into your organization.  
   
--   When you add a new person, the **New user account** form displays the number of user licenses available. If you reach your limit, the **On** button is no longer available. You can add additional licenses by choosing **Billing** > **Purchase Services** from the left-side menu in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+- When you add a new person, the **New user account** form displays the number of user licenses available. If you reach your limit, the **On** button is no longer available. You can add additional licenses by choosing **Billing** > **Purchase Services** from the left-side menu in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
--   An unaccepted invitation requires a user license until the invitation expires two weeks after it was issued.  
+- An unaccepted invitation requires a user license until the invitation expires two weeks after it was issued.  
   
--   If you have more user licenses than you are using, contact support to reduce the number of licenses. You cannot reduce the number of licenses to less than you are currently using or less than your offer allows. Any changes are reflected in your next billing cycle.  
+- If you have more user licenses than you are using, contact support to reduce the number of licenses. You cannot reduce the number of licenses to less than you are currently using or less than your offer allows. Any changes are reflected in your next billing cycle.  
   
--   Each user license requires a unique Microsoft account, and every user who logs on to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] needs a license. Most [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] subscriptions include a specific number of user licenses.  
+- Each user license requires a unique Microsoft account, and every user who logs on to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] needs a license. Most [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] subscriptions include a specific number of user licenses.  
   
 <a name="BKMK_AssignSecurity"></a>   
 ## Assign a security role to a user  
@@ -138,56 +140,56 @@ The following are Office 365 user contact fields.
   
 ### Enable a user by assigning a license to the user and adding a user to the security group  
   
-1.  Browse to the [Office 365 admin center](https://portal.office.com) and sign in.  
+1. Browse to the [Office 365 admin center](https://portal.office.com) and sign in.  
   
-2.  Click **Users** > **Active users** and select the user.  
+2. Click **Users** > **Active users** and select the user.  
   
-3.  Under **Product licenses**, click **Edit**.  
+3. Under **Product licenses**, click **Edit**.  
   
-4.  Turn on a **[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]** license, and then click **Save** > **Close**.  
+4. Turn on a **[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]** license, and then click **Save** > **Close**.  
   
-5.  In the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], click **Groups** > **Groups**.  
+5. In the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], click **Groups** > **Groups**.  
   
-6.  Choose the security group that is associated with your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] organization.  
+6. Choose the security group that is associated with your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] organization.  
   
-7.  Under **Members**, click **Edit**, and then **Add members**. Select from the list of users with [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] licenses or use **Search** to find users.  
+7. Under **Members**, click **Edit**, and then **Add members**. Select from the list of users with [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] licenses or use **Search** to find users.  
   
-8.  Select the users to add to the security group, and then click **Save** > **Close** multiple times.  
+8. Select the users to add to the security group, and then click **Save** > **Close** multiple times.  
   
-     To add multiple users, see: [bulk add users to Office365 groups](http://go.microsoft.com/fwlink/p/?LinkID=615203).  
+    To add multiple users, see: [bulk add users to Office365 groups](http://go.microsoft.com/fwlink/p/?LinkID=615203).  
   
 ### Disable a user by removing a license from the user  
   
-1.  In the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], click **Users** > **Active Users** and select a user.  
+1. In the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], click **Users** > **Active Users** and select a user.  
   
-2.  In the right-side menu, under **Product licenses**, click **Edit**.  
+2. In the right-side menu, under **Product licenses**, click **Edit**.  
   
-3.  Turn off the **[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]** license, and then click **Save** > **Close** multiple times.  
+3. Turn off the **[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]** license, and then click **Save** > **Close** multiple times.  
   
 ### Disable a user by removing the user from the security group that is associated with an instance of Dynamics 365 (online)  
   
-1.  In the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], click **Groups** > **Groups**.  
+1. In the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], click **Groups** > **Groups**.  
   
-2.  Choose the security group that is associated with your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] organization.  
+2. Choose the security group that is associated with your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] organization.  
   
-3.  In the right-side menu, under **Members**, click **Edit**.  
+3. In the right-side menu, under **Members**, click **Edit**.  
   
-4.  Click **Remove members**, and then the select  users to remove from the security group.  
+4. Click **Remove members**, and then the select  users to remove from the security group.  
   
-5.  Click **Save** > **Close** multiple times.  
+5. Click **Save** > **Close** multiple times.  
   
 > [!NOTE]
 > You can also delete users in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. When you remove a user from your subscription, the license assigned to that user automatically becomes available to be assigned to a different user. If you want the user to still have access to other applications you manage through [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], for example [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] or [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)], don't delete them as a user. Instead, simply remove the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] license you've assigned to them.  
-  
+> 
 > [!NOTE]
 > When you sign out of the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], you aren’t signing out of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You have to do that separately.  
-  
+> 
 > [!TIP]
 > To force an immediate synchronization between the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] and [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], do the following:  
->   
-> -   Sign out of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
-> -   Close all open browsers used for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
-> -   Sign back in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+> 
+> - Sign out of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+> - Close all open browsers used for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+> - Sign back in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
 ## Create an Administrative user account
 An Administrative user is a user who has access to the Settings and Administration features but has no access to any of the customer engagement functionality.  It is used to allow customers to assign administrative users to perform day-to-day maintenance functions (create user accounts, manage security roles, etc).  Since the administrative user does not have access to customer data and any of the customer engagement functionalities, it does not require a Dynamics 365 (online) license (after setup).
@@ -197,25 +199,25 @@ You need to have the System Administrator security role or equivalent permission
 > [!NOTE]
 > See [Create an administrative user and prevent elevation of security role privilege](prevent-elevation-security-role-privilege.md) for an example of how an Administrative user account can be used.
 
-1.  [Create a user account](../admin/create-users-assign-online-security-roles.md#BKMK_create_users) in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+1. [Create a user account](../admin/create-users-assign-online-security-roles.md#BKMK_create_users) in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
-     Be sure to assign a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license to the account. You'll remove the license (step 6) once you've assigned the **Administrative** Access Mode.
+    Be sure to assign a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license to the account. You'll remove the license (step 6) once you've assigned the **Administrative** Access Mode.
   
-2.  Go to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+2. Go to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
   
 3. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
-4.  Choose **Users** > **Enabled Users**, and then click a user’s full name.  
+4. Choose **Users** > **Enabled Users**, and then click a user’s full name.  
   
-5.  In the user form, scroll down under **Administration**  to the **Client Access License (CAL) Information** section and select **Administrative** for Access Mode.  
+5. In the user form, scroll down under **Administration**  to the **Client Access License (CAL) Information** section and select **Administrative** for Access Mode.  
 
-     You then need to remove the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license from the account.  
+    You then need to remove the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license from the account.  
   
-6.  Go to the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+6. Go to the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
-7.  Click **Users** > **Active Users**.  
+7. Click **Users** > **Active Users**.  
   
-8.  Choose the Administrative user account and under **Product licenses**, click **Edit**.  
+8. Choose the Administrative user account and under **Product licenses**, click **Edit**.  
   
 9. Turn off the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license,  and then click **Save** > **Close** multiple times.
 
@@ -226,25 +228,25 @@ You need to have the System Administrator security role or equivalent permission
   
  You need to have the System Administrator security role or equivalent permissions in Dynamics 365 to create a non-interactive user. First, you’ll create a user account in Office 365 and then in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], select the non-interactive access mode for the account.  
   
-1.  [Create a user account](../admin/create-users-assign-online-security-roles.md#BKMK_create_users) in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+1. [Create a user account](../admin/create-users-assign-online-security-roles.md#BKMK_create_users) in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
-     Be sure to assign a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license to the account.  
+    Be sure to assign a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license to the account.  
   
-2.  Go to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+2. Go to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
   
 3. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
-4.  Choose **Users** > **Enabled Users**, and then click a user’s full name.  
+4. Choose **Users** > **Enabled Users**, and then click a user’s full name.  
   
-5.  In the user form, scroll down under **Administration**  to the **Client Access License (CAL) Information** section and select **Non-interactive** for Access Mode.  
+5. In the user form, scroll down under **Administration**  to the **Client Access License (CAL) Information** section and select **Non-interactive** for Access Mode.  
   
-     You then need to remove the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license from the account.  
+    You then need to remove the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license from the account.  
   
-6.  Go to the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+6. Go to the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
-7.  Click **Users** > **Active Users**.  
+7. Click **Users** > **Active Users**.  
   
-8.  Choose the non-interactive user account and under **Product licenses**, click **Edit**.  
+8. Choose the non-interactive user account and under **Product licenses**, click **Edit**.  
   
 9. Turn off the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license,  and then click **Save** > **Close** multiple times.  
   
