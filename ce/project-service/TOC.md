@@ -1,6 +1,10 @@
 # [Overview](overview.md)
 # [What's new](overview.md)
-# [What's coming](overview.md)
+# Plan your implementation (app version 3.x)
+## [Resource management guide](implementation-guides/resource_management_guide.md)
+## [Basic quoting, pricing, and billing guide](implementation-guides/begin_quoting_pricing_billing.md)
+## [Advanced quoting, pricing, and billing guide](implementation-guides/adv_quoting_pricing_billing.md)
+## [Project planning and tracking guide](implementation-guides/project_planning_tracking.md)
 # Documentation for app version 1.x / 2.x
 ## [Administration](admin-guide.md)
 ### [Install and customize](install-customize.md)
@@ -68,8 +72,3 @@
 ### [Collaborate using Office 365 Groups](collaborate-project-team-members-office-365-groups.md)
 ### [Find projects with Project Finder Mobile](find-next-project-finder-mobile-app.md)
 ## [Project Resource Hub Guide](project-resource-hub-users-guide.md)
-# Guides for app version 3.x
-## [Resource management guide](implementation-guides/resource_management_guide.md)
-## [Basic quoting, pricing, and billing guide](implementation-guides/begin_quoting_pricing_billing.md)
-## [Advanced quoting, pricing, and billing guide](implementation-guides/adv_quoting_pricing_billing.md)
-## [Project planning and tracking guide](implementation-guides/project_planning_tracking.md)
