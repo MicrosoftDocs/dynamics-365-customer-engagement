@@ -1,6 +1,6 @@
 # [Overview](overview.md)
-# [What's new](.........NEEDS FILE..........)
-# [What's coming](........NEEDS FILE........)
+# [What's new](overview.md)
+# [What's coming](overview.md)
 # [Documentation for app version 1.x / 2.x]
 ## [Administration](admin-guide.md)
 ### [Install and customize](install-customize.md)
