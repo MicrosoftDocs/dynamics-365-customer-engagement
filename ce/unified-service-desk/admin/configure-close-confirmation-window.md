@@ -60,8 +60,7 @@ To avoid the accidental closure of [!INCLUDE[pn_unified_service_desk](../../incl
 
 ## Test the configuration of close confirmation window
 
-1. Start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client by double-clicking the application shortcut on your desktop. More information: [Sign in to Unified Service Desk
-](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#sign-in-to-unified-service-desk)
+1. Start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client by double-clicking the application shortcut on your desktop. More information: [Sign in to Unified Service Desk](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#sign-in-to-unified-service-desk)
 
 2. Select the **X** button to close [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 </br>The confirmation window appears with a message.
