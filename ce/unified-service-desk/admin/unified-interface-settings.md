@@ -1,5 +1,5 @@
 ---
-title: "Unified Interface Settings page (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Unified Interface Settings (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about the Unified Interface Settings page in the Unified Service Desk Administrator app."
 keywords: ""
 ms.date: 08/03/2018
@@ -20,10 +20,13 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# 
+# Set default Unified Interface App using Unified Interface Settings
 
+Unified Interface Settings is a new configuration element introduced under the **Advanced Settings** in the Unified Service Desk Administrator app.
 
+![Unified Interface Settings](../media/usd-crm-unified-interface-settings.PNG "Unified Interface Settings")
 
+You can now configure the settings like a theme, Unified Interface App, and assign users (agents) to the Unified Interface Setting record. After creating a Unified Interface Setting record, you can assign this record to a configuration, so that when the users (agent) sign in to Unified Service Desk client, the system authenticates the users straight away without showing the application selection window.
 
 ## See also
  [Unified Interface Page (Hosted Control)](../unified-service-desk/unified-interface-page-hosted-control.md)
