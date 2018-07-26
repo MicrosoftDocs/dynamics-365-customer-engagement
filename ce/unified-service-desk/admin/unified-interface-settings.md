@@ -71,6 +71,7 @@ you can add the Unified Interface Setting record to a configuration in two ways:
 3. In the **Configuration** tab, select **Add Existing Configuration**.<br>
   > [!Note]
   > You can select **Add New Configuration** to create and then add the configuration to the Unified Interface Settings record. In this walkthrough, we are attaching an already created configuration - **Test Configuration**, to the Unified Interface Setting record.
+  
 4. In the **Lookup Records** pane, specify the name of the configuration, and choose search icon.<br> The configuration appears, choose the configuration and then choose **Add**.<br>
 ![Add configuration to the unified interface setting record](../media/usd-crm-add-configuration-unified-interface-record.PNG "Add configuration to the unified interface setting records")
 
