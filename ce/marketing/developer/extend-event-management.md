@@ -46,7 +46,7 @@ Further, the webinar provider should be able to authenticate with the Event mana
 
 ## Add a webinar provider
 
-When adding a new webinar provider in Dynamics 365, you will need to have ***Client ID*** and ***Client secret*** values. This inforamtion is provided when you sign up for a webinar provider. The authorization of the webinar service to Dynamics 365 uses OAuth 2.0 standard protocol. More information: [OAuth, Client ID and Client secret](https://www.oauth.com/oauth2-servers/client-registration/client-id-secret/).
+When adding a new webinar provider in Dynamics 365, you will need to have ***Client ID*** and ***Client secret*** values. This information is provided when you sign up for a webinar provider. The authorization of the webinar service to Dynamics 365 uses OAuth 2.0 standard protocol. More information: [OAuth, Client ID and Client secret](https://www.oauth.com/oauth2-servers/client-registration/client-id-secret/).
 
 To add a new webinar provider:
 
@@ -61,7 +61,7 @@ To create a new webinar configuration,
 
 1. Open **Settings** > **Advanced Settings** > **Event Management** > **Webinar Configuration**. Here you'll see a list of existing     configurations (if any). To create a new configuration, select **New**.
 2. Enter a **Name** that you and others will recognize.
-3. Choose the previously created Webinar Provider. Once you select the webinar provider you will be prompted with a consent message whether you agree the terms of service and privacy policy. 
+3. Choose the previously created webinar provider. Once you select the webinar provider you will be prompted with a consent message whether you agree the terms of service and privacy policy. 
 4. Accept the consent and **Save**.
 5. Click on the **Authenticate** button on the ribbon. This button will trigger the authentication flow to the authentication endpoint of the webinar provider with the specified Client ID and Client secret.
 6. Login using the **User** created in the pre-requisites, this will trigger the OAuth flow with the provider.
