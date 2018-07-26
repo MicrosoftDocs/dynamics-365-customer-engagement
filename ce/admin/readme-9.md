@@ -429,7 +429,7 @@ Grids and lists in Unified Interface
     smaller dragging touch target. The workaround is to change the column width
     in the view definition if some columns need to be wider.
     
--   Grids in the mobile app doesn't remember the scroll position. If the user scrolls down the list, opens a record, and goes back to       the list, they are taken to the top of the list rather than the position where they were in the list before opening the record.
+-   Grids in the mobile app don't retain the scroll position. If the user scrolls down the list, opens a record, and returns to       the list, they will be at the beginning of the list rather than the position they were in when opening the record.
     
 
 Multi-select option set in Unified Interface
