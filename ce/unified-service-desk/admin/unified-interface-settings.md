@@ -44,13 +44,14 @@ In addition, you can now configure the settings like a theme, Unified Interface 
 
 6. In the **New Unified Interface Settings** page, specify the following:
 
-    | Field      | Value        |
-    |:----------|:----------|
-    | Name         | Specify a name of the record.</br> For example, **Sample Setting**. |
-    | Theme        | Select a theme for the App.<br>There are two themes.<br>- Air</br>- Unified Blue |
-    | Unified Interface App | Select a Unified Interface App for the record. </br> For example, **Customer Service Hub**.|
-    | Owner | Add the user profile for the record by choosing the search icon. |
-    ![New Unified Interface Settings record](../media/usd-crm-unified-new-record-interface-settings.PNG "New Unified Interface Settings record")
+  | Field  | Value  |
+  |:----------|:----------|
+  | Name         | Specify a name of the record.</br> For example, **Sample Setting**. |
+  | Theme        | Select a theme for the App.<br>There are two themes.<br>- Air</br>- Unified Blue |
+  | Unified Interface App | Select a Unified Interface App for the record. </br> For example, **Customer Service Hub**.|
+  | Owner | Add the user profile for the record by choosing the search icon. |
+    
+  ![New Unified Interface Settings record](../media/usd-crm-unified-new-record-interface-settings.PNG "New Unified Interface Settings record")
 
 7. Select **Save & Close**.
 
