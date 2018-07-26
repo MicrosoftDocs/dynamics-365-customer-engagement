@@ -428,6 +428,9 @@ Grids and lists in Unified Interface
 -   On tablets, resizing column width on grids can be harder because of the
     smaller dragging touch target. The workaround is to change the column width
     in the view definition if some columns need to be wider.
+    
+-   Grids in the mobile app doesn't remember the scroll position. If the user scrolls down the list, opens a record, and goes back to       the list, they are taken to the top of the list rather than the position where they were in the list before opening the record.
+    
 
 Multi-select option set in Unified Interface
 --------------------------------------------
@@ -454,13 +457,25 @@ Dynamics 365 App for Outlook
 
 -   Initial loading might take some time.
 
+-   In Outlook 2013 and Outlook 2016, Outlook frequently displays "add-in
+    error."
+
 -   In Internet Explorer 11, Internet Explorer frequently displays a "long
     running script" error message.
+
+-   In Outlook 2013 and Outlook 2016, when entering text in the **Look for
+    Records** field when you set regarding, some of the characters disappear. In
+    Chrome, Internet Explorer 11, and Microsoft Edge, the lookup sometimes stays
+    in the "Loading…" state.
 
 -   The ability to follow an email while composing isn't available.
 
 -   The app isn't supported while accessing it from Outlook Web Application from
     Safari or Firefox.
+
+-   When tracking / set regarding for an email, if you select **View email in
+    Dynamics 365**, one of the sections in the email entity might display an
+    error "You are not a member of this organization."
 
 -   Opening and closing the app a few times repeatedly in Internet Explorer and
     Microsoft Edge in Outlook Web Access causes the browser to become
