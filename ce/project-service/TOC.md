@@ -1,5 +1,5 @@
 # [Overview](overview.md)
-# [New & upcoming](overview.md)
+# [New & upcoming](new-upcoming.md)
 # Plan your implementation (app version 3.x)
 ## [Resource management guide](implementation-guides/resource_management_guide.md)
 ## [Basic quoting, pricing, and billing guide](implementation-guides/begin_quoting_pricing_billing.md)
