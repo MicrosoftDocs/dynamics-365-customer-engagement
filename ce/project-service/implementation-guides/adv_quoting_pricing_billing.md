@@ -1,7 +1,7 @@
 ---
 
 title: Advanced Quoting, Pricing, and Billing
-description: Description - brief
+description: An English-language guide to advanced quoting, billing, and pricing in Project Service Automation
 author: krbjoran
 manager: ShellyHaverkamp
 ms.date: 7/30/2018
