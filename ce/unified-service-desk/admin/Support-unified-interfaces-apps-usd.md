@@ -63,7 +63,7 @@ The application selection window appears when you login to [!INCLUDE[pn_unified_
 
 After you update the **SelectAppModule** key in the **UnifiedServiceDesk.exe.config** file, you need to login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to select an web or Unified Interface app.
 
-![Select App Module](media/select-app-module-new.PNG "Select App Module")
+![Select App Module](../media/select-app-module-new.PNG "Select App Module")
 
 ## See also
  [Unified Interface Page (Hosted Control)](../unified-service-desk/unified-interface-page-hosted-control.md)
