@@ -44,10 +44,11 @@
 ## Customization
 ### [Create and design forms for Customer Service Hub](create-design-forms-customer-service-hub.md)
 ### [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
-### [Understand knowledge base search](knowledge-base-search.md)
-#### [Find knowledge articles from within a record](find-knowledge-articles-within-record-dynamics-365.md)
+### [Understand knowledge base search mechanisms](knowledge-base-search.md)
+### [Find knowledge articles from within a record](find-knowledge-articles-within-record-dynamics-365.md)
 ### [Add timer control to forms](add-timer-control-case-form-track-time-against-sla.md)
-#### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
+### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 ### [Configure interactive dashboards in the Customer Service Hub ](configure-interactive-dashboards-customer-service-hub.md)
 ### [Set the custom icon in views for Case Origin field](set-custom-icon-custom-case-origin.md)
 ### [Define status reason transitions for case management](../customize/define-status-reason-transitions.md)
+
