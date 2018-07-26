@@ -22,11 +22,11 @@ manager: shujoshi
 
 # Set default Unified Interface App using Unified Interface Settings
 
-Unified Interface Settings is a new configuration element introduced under the **Advanced Settings** in the Unified Service Desk Administrator app.
+Unified Interface Settings is a new configuration element introduced under the **Advanced Settings** in the Unified Service Desk Administrator app. Unified Interface Settings enables you as an administrator to configure the default Unified Interface App for your agents and transform the Unified Service Desk login experience.  
 
 ![Unified Interface Settings](../media/usd-crm-unified-interface-settings.PNG "Unified Interface Settings")
 
-You can now configure the settings like a theme, Unified Interface App, and assign users (agents) to the Unified Interface Setting record. After creating a Unified Interface Setting record, you can assign this record to a configuration, so that when the users (agent) sign in to Unified Service Desk client, the system authenticates the users straight away without showing the application selection window.
+In addition, you can now configure the settings like a theme, Unified Interface App, and assign users (agents) to the Unified Interface Setting record. After creating a Unified Interface Setting record, you can assign this record to a configuration, so that when the users (agents) sign in to Unified Service Desk client, the system authenticates the users (agents) straight away without showing the application selection window.
 
 
 ## How to create Unified Interface Setting record
