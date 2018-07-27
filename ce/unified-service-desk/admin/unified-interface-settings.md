@@ -20,7 +20,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# Set default Unified Interface App using Unified Interface Settings
+# Preview feature - Set default Unified Interface App using Unified Interface Settings
 
 Unified Interface Settings is a new configuration element introduced under the **Advanced Settings** in the Unified Service Desk Administrator app. Unified Interface Settings enables you as an administrator to configure the default Unified Interface App for your agents and transform the Unified Service Desk login experience.  
 
