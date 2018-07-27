@@ -18,7 +18,7 @@ manager: "amyla"
 ---
 # User Guide (Project Resource Hub)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 With the Project Resource Hub app, you can enter time and expenses for the projects you’re working on the go. Stay on top of your time and expense entry to make sure:
 
