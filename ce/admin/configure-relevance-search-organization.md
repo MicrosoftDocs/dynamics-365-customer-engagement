@@ -1,7 +1,7 @@
 ---
 title: "Configure Relevance Search for the organization for Dynamics 365 Customer Engagement  | MicrosoftDocs"
 ms.custom: ""
-ms.date: 07/11/2018
+ms.date: 07/27/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,10 +11,10 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 5ec1a73d-06cb-4d40-adab-8bb293bcedbb
-caps.latest.revision: 64
+caps.latest.revision: 65
 author: "udag"
-ms.author: "udag"
-manager: "sakudes"
+ms.author: "t-mijosh"
+manager: "ryjones"
 ---
 # Configure Relevance Search to improve search results and performance 
 
@@ -132,7 +132,12 @@ By default, some out-of-the-box system entities are included in Relevance Search
 
 <a name="BKMK_ConfigureFields"></a>   
 ## Configure searchable fields for Relevance Search  
- The fields you add in the Quick Find view become part of the external search index. There is no limit on how many searchable fields you can add for each entity. However, there is a limit on the total number of indexed fields, as was explained in the previous section. **Find Columns** on a **Quick Find View** define the searchable fields in the external search index. Only text fields will be searchable, specifically, Single Line of Text and Multiple Lines of Text data types. **Find Columns** with other data types are ignored. The **View Columns** on a **Quick Find View** define the fields that are displayed in the user interface by default, when the matched results are returned. The fields that are highlighted replace the fields that don’t have the highlighting. The first four matched fields are displayed in the results. The **filter** on a Quick Find view is also applied to the Relevance Search results.  See the table below for the list of filter clauses not supported by Relevance Search. 
+ The fields you add in the Quick Find view become part of the external search index. There is no limit on how many searchable fields you can add for each entity. However, there is a limit on the total number of indexed fields, as was explained in the previous section. **Find Columns** on a **Quick Find View** define the searchable fields in the external search index. Text fields such as Single Line of Text and Multiple Lines of Text, Lookups, and Option Sets are searchable. **Find Columns** with other data types are ignored. The **View Columns** on a **Quick Find View** define the fields that are displayed in the user interface by default, when the matched results are returned. The fields that are highlighted replace the fields that don’t have the highlighting. The first four matched fields are displayed in the results. The **filter** on a Quick Find view is also applied to the Relevance Search results.  See the table below for the list of filter clauses not supported by Relevance Search. 
+
+> [!NOTE]
+> There are some fields common to every CRM entity that are defined on the index by default. Some examples include ownerId, statecode, statuscode, PrimaryName, createon, and modifiedon. These are called common fields.
+> If a common field is added to any entity for Relevance Search, search will be performed for that common field across all entities. However, once you choose a specific entity through the Record Type facet, Relevance Search will follow the settings you have defined for that specific entity through Quick Find View.
+
 
  You can use the **Quick Find** view to define which fields appear as facets when users search by using Relevance Search.  All **View Columns** with data types other than Single Line of Text and Multiple Lines of Text are marked as facetable and filterable in the index. By default, the first four facetable fields in the **Quick Find** view for the selected entity are displayed as facets when users search by using Relevance Search. At any time, you can only have four fields selected as facets.  
 
