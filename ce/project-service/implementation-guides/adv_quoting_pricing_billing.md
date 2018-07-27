@@ -19,5 +19,5 @@ audience: Admin
 
 This English-language document explains some of the advanced features in Dynamics 365 Project Service Automation that help professional service firms define their pricing, quoting, sales process, and billing. Project Service Automation uses organizational units to help a company define a set of billable roles that have distinct cost structures, which helps you understand the costs of a project.
 
-[Download advanced guide to quoting, pricing, and billing for project service (version 2)](https://go.microsoft.com/fwlink/?linkid=2006684)  
+[Download advanced guide to quoting, pricing, and billing for PSA version 3.x](https://go.microsoft.com/fwlink/?linkid=2006684)  
   
