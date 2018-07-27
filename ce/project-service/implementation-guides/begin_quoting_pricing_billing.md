@@ -20,5 +20,5 @@ audience: Admin
 This English-language document explains the basic quoting, pricing and billing capabilities of Microsoft Dynamics 365 for Project Service Automation. These are basic features that small and large organizations use. Knowing them makes it easier for you to customize configurations for partners and implementers.
  
   
-[Download basic guide to quoting, pricing, and billing, version 2](https://go.microsoft.com/fwlink/?linkid=2006770)  
+[Download basic guide to quoting, pricing, and billing for PSA version 3.x](https://go.microsoft.com/fwlink/?linkid=2006770)  
   
