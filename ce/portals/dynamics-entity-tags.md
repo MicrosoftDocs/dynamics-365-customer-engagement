@@ -2,7 +2,7 @@
 title: "Use Dynamics 365 tags for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn about Dynamics 365 tags available in portal"
 keywords: "Dynamics 365 tags; liquid tags"
-ms.date: 05/04/2018
+ms.date: 07/27/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -576,20 +576,6 @@ The size of the result page to be returned. If not provided, a default size of 1
 
 ```
 {% searchindex query: request.params.query, page_size: 20 %}
-
-...
-
-{% endsearchindex %}
-```
-
-**provider**
-
-Specifies the name of the configured search provider to use. If not specified, the default search provider will be used.
-
-Having multiple search providers is an advanced configuration that will not apply to most environments. Generally, it will not be necessary to specify this parameter.
-
-```
-{% searchindex query: request.params.query, provider: 'AlternateIndex' %}
 
 ...
 

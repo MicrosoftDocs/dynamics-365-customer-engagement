@@ -23,7 +23,7 @@
 ### [Configure WS-Federation provider settings](configure-ws-federation-settings.md)
 ### [Configure SAML 2.0 provider settings](configure-saml2-settings.md)
 ### [Migrate identity providers to Azure AD B2C](migrate-identity-providers.md)
-## Search
+## [Search](search.md)
 ### [Improve search by using faceted search](improve-portal-search-faceted-search.md)
 ### [Search within file attachments](search-file-attachment.md)
 ## Knowledge article

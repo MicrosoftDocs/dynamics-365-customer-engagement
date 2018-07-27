@@ -1,7 +1,7 @@
 ---
 title: "Global search in Dynamics 365 portal | MicrosoftDocs"
 description: "Learn how global search works in a portal."
-ms.date: 07/26/2018
+ms.date: 07/27/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -25,7 +25,7 @@ Global search uses an external search index which is based on Lucene.Net and is 
 
 # Global search
 
-Global search of Dynamics 365 Portal allows you to search for records across multiple entities. It also allows you to search across multiple columns and configure what columns of an entity would be searchable.
+Global search of [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal allows you to search for records across multiple entities. It also allows you to search across multiple columns and configure what columns of an entity would be searchable.
 
 A few benefits of global search are:
 - Finds matches to any word in the search term in any field in the entity. Matches can include inflectional words like stream, streaming, or streamed.
@@ -35,7 +35,7 @@ A few benefits of global search are:
 
 In global search, the better the match, the higher it appears in the results. A match has a higher relevancy if more words from the search term are found in close proximity to each other. The smaller the amount of text where the search words are found, the higher the relevancy. For example, if you find the search words in a company name and address, it might be a better match than the same words found in a large article, far apart from each other. Because the results are returned in a single list, you can see a mix of records displayed one after another and matched works are highlighted. 
 
-Below are the details of how global search works in Dynamics 365 Portal and various configuration options available.
+Below are the details of how global search works in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal and various configuration options available.
 
 ## Entities searchable in portal global search
 
@@ -68,7 +68,7 @@ Default value for Search/IndexQueryName is “Portal Search”.
 If the view is not available for any entity, it is not indexed, and the results are not displayed in global search.
 
 > [!NOTE]
-> If you change the value of Search/IndexQueryName site setting, you need to trigger a manual re-index of the build using steps defined in How to rebuild full search index?
+> If you change the value of Search/IndexQueryName site setting, you need to trigger a manual re-index of the build using steps defined in the [Rebuild full search index](#rebuild-full-search-index) section.
 
 ## Related site settings
 
@@ -110,3 +110,161 @@ Following content snippets are related to global search:
 | Search/Facet/SortOrder/Relevance| Relevance| This content snippet determines the label shown for the “Sort by Relevance” option in the sorting drop-down list on the Search Results page.<br>![Sort by relevance](media/sort-relevance.png "Sort by relevance")|
 | Search/Facet/SortOrder/Views| View Count| This content snippet determines the label shown for the “Sort by View Count” option in the sorting drop-down list on the Search Results page.<br>![Sort by view count](media/sort-view-count.png "Sort by view count")|
 |||
+
+## Entity specific handling
+
+- **Case**: By default, only those cases are searchable which are in the **Resolved** state and the **Publish to Web** field is set to **True**. This behavior can be modified by updating the Portal Search view of the Case entity and removing the filters available in the Portal Search view. However, when this check is removed, it is important to ensure that the Customer Service – Case web template is modified appropriately, as this web template restricts all users from viewing cases which are active and are not published to the web. If the web template is not modified, cases will be visible in search results. However, when you select them, the case detail web page is displayed with the Permission denied error.
+
+- **Knowledge Base**: Only those knowledge articles are searchable which are in the **Published** state and the **Internal** field is set to **No**. This behavior cannot be modified. Knowledge articles also have special functionality available in search results which are as follows:
+
+    - **Facets**: There are two special facets available only for knowledge articles and are displayed if knowledge article records are available in search results.
+
+        - **Ratings facet**: This facet allows you to filter search results based on the average rating of knowledge articles.
+
+        - **Product facet**: This facet allows you to filter search results based on the product associated to the knowledge articles.
+
+    - **Attachment search**: This functionality allows you to search within the attachments or notes associated to a knowledge article. This allows you to search within note description, title, attachment file name, and attachment content of notes or attachments which are exposed on portal. More information: [Search within file attachment content](search-file-attachment.md)
+
+## Special characters and syntax supported by search
+
+As part of portal global search, a variety of special characters and syntaxes are supported to filter search results better. These special characters and syntaxes are broadly divided into following groups:
+
+- **Term**: Every query entered by a user for search is parsed into terms and operators. Following are the types of terms: Single term and Phrases.
+
+    - **Single term**: Single term is a single word. For example, a query {hello world} would be parsed into two single terms, “hello” and “world”. Each single term is searched separately. Therefore, in the query {hello world}, all the records having the term “hello” or “world” would be displayed in search results.
+
+    - **Phrases**: A phrase is a group of terms surrounded by double quotes (“”). For example, a query {“hello world”} would be parsed as a phrase “hello world”. Each phrase is searched completely. Therefore, in the query {“hello world”}, all the records having the complete phrase “hello world” would be displayed in search results and any record which only has “hello” or “world” will not be displayed.
+
+    Each search query can comprise of one or many of these terms of any type which are combined using Boolean operators to create complex queries.
+
+- **Term modifiers**
+
+    - **Wildcard search**: There are two types of wildcards available to be used within single terms of search queries (not within phrase queries): Single character wildcard search and multiple character wildcard search.
+
+        - **Single character wildcard search**: To perform a single character wildcard search, use the question mark (?) symbol. The single character wildcard search looks for terms that match that with the single character replaced. For example, to search for "text" or "test" you can use the search query as “te?t”.
+
+        - **Multiple character wildcard search**: To perform a multiple character wildcard search, use the asterisk (\*) symbol. Multiple character wildcard searches look for zero or more characters. For example, to search for test, tests or tester, you can use the search query as “test*”. You can also use multiple character wildcard search in the middle of the query. For example, “te*t”.
+
+        > [!NOTE]
+        > - You cannot use a * or ? symbol as the first character of a search.
+        > - Wildcard search cannot be used in a phrase query. For example, if you use query as “hell* world”, it will not display results with the “hello world” text.
+
+    - **Proximity search**: Proximity search allows you to search words which are within a specific distance from each other. For example, if you want to find the results where words “Picture” and “blurry” appear within 10 words of each other, you can use proximity search to find those.
+    
+        To do proximity searches, use the tilde (~) symbol at the end of the query. For example, if you want to find the results where words “Picture” and “blurry” appear within 10 words of each other, then the query would be “Picture blurry”~10.
+
+    - **Boosting a term**: Global search provides the relevance level of matching documents based on the terms found. To boost a term, use the caret (^) symbol with a boost factor (a number) at the end of the term you are searching. The higher the boost factor, more relevant the term will be.
+
+        Boosting allows you to control the relevance of a document by boosting its term. For example, if you are searching for Smart TV and you want the term "Smart" to be more relevant, boost it using the ^ symbol along with the boost factor next to the term. You would type: Smart^4 TV. This will make documents with the term Smart appear more relevant.
+
+        You can also boost phrase terms as in the example: "Smart TV"^4 "New TV". In this case “Smart TV” phrase would be boosted in comparison to “New TV”
+
+        By default, the boost factor is 1. Although the boost factor must be positive, it can be less than 1 (For example, 0.2).
+
+- **Boolean operators**: Boolean operators allow terms to be combined through logic operators. Global search supports AND, "+", OR, NOT, and "-" as Boolean operators.
+
+    > [!NOTE]
+    > Boolean operators must be written in uppercase.
+
+    - **OR**: The OR operator is the default conjunction operator. This means that if there is no Boolean operator between two terms, the OR operator is used. The OR operator links two terms and finds a matching record if either of the terms exist in a record. This is equivalent to a union using sets. The symbol || can be used in place of the word OR. For example, the search query “Smart TV” (excluding double quotes) will search for all records with word Smart or TV in it. This query can also be written as “Smart OR TV”, “Smart || TV”.
+
+    - **AND:** The AND operator matches records where both terms exist anywhere in the text of a single document. This is equivalent to an intersection using sets. The symbol && can be used in place of the word AND. For example, the search query “Smart AND TV” (excluding double quotes) will search for all records with word Smart and TV in it. This query can also be written as “Smart && TV”.
+
+    - **NOT**: The NOT operator excludes records that contain the term after NOT. This is equivalent to a difference using sets. The symbol ! can be used in place of the word NOT. For example, the search query “Smart NOT TV” (excluding double quotes) will search for all records which has the word Smart but don’t have the word TV in it. This query can also be written as “Smart ! TV”.
+
+    - **Plus (+) symbol**: The plus (+) symbol, also known as the required operator, requires that the term after the "+" symbol exist somewhere in a record. For example, the search query “Smart + TV” will search for all records where the word TV must be present, and the word Smart may be present as well. 
+
+    - **Minus (–) symbol**: The minus (-) symbol, also known as the prohibit operator, excludes documents that contain the term after the "-" symbol. For example, the search query “Smart - TV” will search for all records where the word Smart is present, and the word TV must not be present.
+
+- **Grouping**: Portal global search supports using parentheses to group clauses to form sub queries. This can be very useful if you want to control the Boolean logic for a query. For example, if you want to search for all records where either one of the terms “HD” or “Smart” is present but word TV is always present, then the query can be written as “(HD or Smart) AND TV” (excluding double quotes).
+
+## Liquid search tag
+
+You can invoke portal global search from liquid templates by using the searchindex tag. More information: [searchindex](dynamics-entity-tags.md#searchindex)
+
+> [IMPORTANT]
+> When you use the searchindex tag, facets are not returned as part of results, nor can be applied as a filter.
+
+## Update search index
+
+Search index updates in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal happens automatically like the cache invalidation. There are few important things to keep in mind though:
+
+- All search enabled entities must have the Change Notification metadata flag enabled, otherwise none of the changes would be notified to portal and search index will not be updated.
+
+- Any change can take up to 30 minutes to be reflected in portal search, however 95% of changes will be updated within 15 minutes. However, in case of attachments it can take even longer depending on the size of the attachment.
+
+- It is advisable to rebuild full index manually after performing bulk data migration or performing bulk updates to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] records in short span of time. For details, see [Rebuild full search index](#rebuild-full-search-index).
+
+## Rebuild full search index
+
+Rebuild of full search index is required whenever:
+
+- You make a metadata change to search properties like changing certain query specific site setting or changing the search view of an entity etc.
+- Bulk data migration or updates are performed.
+- A website record, associated to your portal, is changed in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.
+
+You can also rebuild full search index from a portal.
+1.	Sign in to the portal as an administrator.
+2.	Navigate to the URL as follows: `<portal_path>/_services/about`
+3.	Select **Rebuild search index**.
+
+> [IMPORTANT]
+> Full index rebuild is a very expensive operation and should not be done during peak hours of usage, as this can bring your portal down.
+
+## Remove an entity from global search
+
+At times, there are requirements to completely remove certain entities from portal global search to ensure that your customers get the right results quickly. 
+In the below example, we will remove the Case entity from portal global search.
+
+### Step 1: Block case entity from getting indexed
+
+To block the Case entity from getting indexed, you must rename the view of the Case entity which defines the record set to be indexed by portal (defined by the Search/IndexQueryName site setting). By default, the name of that view is Portal Search.
+
+1.	Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+
+2.	Go to **Settings** > **Customization** > **Customize the System**.
+
+    ![Customize the system](media/customize-system.png "Customize the system")
+
+3.	In the customization dialog, go to **Components** > **Entities** > **Case** in the left navigation pane. 
+
+4.	Expand the **Case** entity and select **Views**.
+
+5.	Select the **Portal Search** view from the list and open it in view editor.
+
+    ![Case view](media/case-view.png "Case view")
+
+6.	In the view editor, select **View Properties**.
+
+    ![View editor](media/view-editor.png "View editor")
+
+7.	Rename the view as per the requirement. Ensure that the new name doesn't have the “Portal Search” term in it.
+
+    ![View properties](media/view-properties.png "View properties")
+
+8.	Save the changes and close the view editor.
+
+9.	Select **Publish All Customizations**.
+
+10.	Rebuild full index as described in the [Rebuild full search index](#rebuild-full-search-index) section.
+
+> [!NOTE]
+> In this example, we are making changes in unmanaged layer by directly editing the view, you can also do this via a managed solution.
+
+### Step 2: Remove case entity from the UI
+
+After performing actions as described in Step 1, the Case entity would be stopped from getting indexed. To remove the case entity from UI surface areas, you must modify the site setting associated with portal global search. Following site setting must be modified:
+
+search/filters: This will remove case entity from filters on the Search page as well as the search box in header of the site. By default, the value is: `Content:adx_webpage,adx_webfile;Blogs:adx_blog,adx_blogpost;Forums:adx_communityforum,adx_communityforumthread,adx_communityforumpost;Ideas:adx_ideaforum,adx_idea;Help Desk:incident;Knowledge:knowledgearticle`
+
+You must delete `Help Desk:incident;` from the value of this site setting so that the Incident entity is removed from filters which comes next to search box in the UI.
+
+The modified value will be:
+
+`Content:adx_webpage,adx_webfile;Blogs:adx_blog,adx_blogpost;Forums:adx_communityforum,adx_communityforumthread,adx_communityforumpost;Ideas:adx_ideaforum,adx_idea;Knowledge:knowledgearticle`
+
+Once this site setting is changed, the Case entity will be removed from filters on the search page as well as in header.
+
+![Search on page](media/search-on-page.png "Search on page")
+
+![Search in header](media/search-in-header.png "Search in header")
