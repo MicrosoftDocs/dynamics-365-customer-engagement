@@ -1,7 +1,7 @@
 ---
 title: "Configure Relevance Search for the organization for Dynamics 365 Customer Engagement  | MicrosoftDocs"
 ms.custom: ""
-ms.date: 07/11/2018
+ms.date: 07/27/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -179,6 +179,8 @@ By default, some out-of-the-box system entities are included in Relevance Search
 |**UnderOrEqual**|  
 |**Above**|  
 |**AboveOrEqual**|  
+|**NotNull** |
+|**Null** |
 
 <a name="BKMK_SetPropertiy"></a>   
 ## Set managed property for Relevance Search  
