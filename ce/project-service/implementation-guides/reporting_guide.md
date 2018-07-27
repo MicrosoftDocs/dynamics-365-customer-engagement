@@ -19,5 +19,5 @@ audience: Admin
 
 The ability to report on operations is key to being able to determine the health of the organization and take corrective action. Project Service uses Dynamics 365 reporting methods and technologies for all its reporting. This English-language guide describes the data model and entities used by Project Service reporting, and also the reporting options used by Dynamics 365. 
 
-[Download the reporting guide for PSA, version 3.x](https://go.microsoft.com/fwlink/?linkid=2007324)  
+[Download the reporting guide for PSA version 3.x](https://go.microsoft.com/fwlink/?linkid=2007324)  
   
