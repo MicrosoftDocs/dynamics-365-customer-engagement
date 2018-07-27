@@ -502,5 +502,7 @@
 - name: Release notes of Unified Service Desk
   href: release-notes.md
   items:
+  - name: Release notes of Unified Service Desk 4.0
+    href: release-notes-unified-service-desk-40.md    
   - name: Release notes of Unified Service Desk 3.3
     href: release-notes-unified-service-desk-33.md
