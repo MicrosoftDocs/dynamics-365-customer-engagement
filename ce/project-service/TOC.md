@@ -1,5 +1,5 @@
 # [Overview](overview.md)
-# [New & upcoming features](new-upcoming.md)
+# [New and upcoming features](new-upcoming.md)
 # Plan your implementation (app version 3.x)
 ## [Project planning and tracking guide](implementation-guides/project-planning-tracking.md)
 ## [Basic quoting, pricing, and billing guide](implementation-guides/begin-quoting-pricing-billing.md)
