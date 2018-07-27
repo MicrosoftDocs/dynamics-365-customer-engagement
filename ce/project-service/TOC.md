@@ -56,7 +56,7 @@
 ### [View and send invoices](view-send-invoices.md)
 ### [View dashboards and reports](view-dashboards-reports.md)
 ### [Use the add-in to plan work in Microsoft Project](add-plan-work-microsoft-project.md)
-## [Account Manager guide](account-manager-guide.md)
+## [Account manager guide](account-manager-guide.md)
 ### [Create a customer account](create-customer-account.md)
 ### [Create a project opportunity](create-project-opportunity.md)
 ### [Create a project quote](create-project-quote.md)
