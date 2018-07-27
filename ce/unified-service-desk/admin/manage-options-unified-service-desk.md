@@ -21,12 +21,10 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-tags: - "MigrationHO
 ---
 
 # Options for Unified Service Desk
 The **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] (**Settings** > **Unified Service Desk** > **Options**) lets you manage global name/value pairs that are used by the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] components.  
-
 
 
 ## Manage a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] option  
