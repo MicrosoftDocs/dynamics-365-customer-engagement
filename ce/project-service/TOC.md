@@ -5,6 +5,7 @@
 ## [Basic quoting, pricing, and billing guide](implementation-guides/begin_quoting_pricing_billing.md)
 ## [Advanced quoting, pricing, and billing guide](implementation-guides/adv_quoting_pricing_billing.md)
 ## [Project planning and tracking guide](implementation-guides/project_planning_tracking.md)
+## [Reporting guide](implementation-guides/reporting_guide.md) 
 # Guidance for earlier versions (app version 2.x and 1.x)
 ## [Administrator guide](admin-guide.md)
 ### [Install and customize](install-customize.md)
