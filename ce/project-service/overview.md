@@ -23,7 +23,7 @@ manager: shellyha
 
 <a name="BKMK_PSAAdmin"></a>    
 
-The Project Service app provides tools and capabilities that help project-based organizations manage services from sales through invoicing, enabling you to:
+The Project Service application provides capabilities and tools to help project-based organizations manage and deliver services from sales through invoicing. The app enables you to:
 
 - Plan projects, and create estimates and work schedules
 - Estimate and track project cost and revenue 
@@ -32,9 +32,10 @@ The Project Service app provides tools and capabilities that help project-based 
 - Manage quoting, pricing, and billing for projects
 - Assign and manage resources
 - Use reports and interactive dashboards to monitor key performance indicators for successful projects
-- and more
+  ...and more
 
-In addition, individual consultants track their project time and expenses either on a computer or on mobile, to help you maintain cost control for your project-based work.  
+In addition, to help you maintain cost control for your project-based work, individual consultants 
+easily enter and track their project time and expenses either on mobile or using a web browser.   
 
 ## Available anywhere, on any device
 
@@ -59,6 +60,7 @@ There are two flavors of [!INCLUDE[pn_dyn_365_project_service_auto](../includes/
 ## White papers  
  [White papers](../project-service/white-papers.md)
  
+ ## Watch a quick overview video
  <a name="heroArea"></a> [![ProjectService&#95;IntroVideo](../project-service/media/project-service-intro-video.png "ProjectService_IntroVideo")](http://go.microsoft.com/fwlink/p/?LinkId=799457)  
 
 
