@@ -30,19 +30,23 @@ The Project Service application helps project-based organizations manage and del
 - Manage quoting, pricing, and billing for projects
 - Assign and manage resources
 - Use reports and interactive dashboards to monitor key performance indicators for successful projects
-  ...and more
+- ...and more
 
 In addition, to help you maintain cost control for your project-based work, individual consultants 
-easily enter and track their project time and expenses either on mobile or using a web browser.   
+easily enter and track project time and expenses either on mobile or using a web browser.   
 
-## Get help for app version 3.x
-<a name="BKMK_PSAAdmin"></a>    
+## Get help with app version 3.x
+Looking for resources to help you plan your implementation? Check out these downloadable guides.
 
-There are two flavors of [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)]: 
+ [Project planning and tracking guide](../project-service/implementation-guides/project-planning-tracking.md)  
 
-- If you're using a desktop, you'll use the Project Service Automation app.
+ [Basic quoting, princing, and billing guide](../project-service/implementation-guides/begin-quoting-pricing-billing.md)  
 
-- If you’re in the field using a smartphone or tablet, you’ll use the Project Resource Hub app which is a subset of the Project Service Automation app. The Project Resource Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. [!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [User Guide (Project Resource Hub)](project-resource-hub-users-guide.md).
+ [Advanced quoting, princing, and billing guide](../project-service/implementation-guides/adv-quoting-pricing-billing.md)  
+
+ [Resource management guide](../project-service/implementation-guides/resource-management-guide.md) 
+ 
+ [Reporting guide](../project-service/implementation-guides/reporting-management-guide.md)
 
 ## Guidance for earlier versions (app version 2.x or 1.x)  
  [Administrator guide](../project-service/admin-guide.md)  
