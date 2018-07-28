@@ -16,25 +16,29 @@ caps.latest.revision: 36
 ms.author: krbjoran
 manager: shellyha
 ---
-# Overview of Project Service Automation
+# What is Dynamics 365 for Project Service?
 
+[!INCLUDE[cc-applies-to-psa-app-3x](../includes/cc-applies-to-psa-app-3x.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+<a name="BKMK_PSAAdmin"></a>    
+
+The Project Service app provides tools and capabilities that help project-based organizations manage services from sales through invoicing, enabling you to:
+
+- Plan projects, and create estimates and work schedules
+- Estimate and track project cost and revenue 
+- Forecast resource requirements for projects in the pipeline
+- Track project progress and cost consumption
+- Manage quoting, pricing, and billing for projects
+- Assign and manage resources
+- Use reports and interactive dashboards to monitor key performance indicators for successful projects
+
+In addition, individual consultants track their project time and expenses either on a computer or on mobile, to help you maintain cost control for your project-based work.  
 
 <a name="heroArea"></a> [![ProjectService&#95;IntroVideo](../project-service/media/project-service-intro-video.png "ProjectService_IntroVideo")](http://go.microsoft.com/fwlink/p/?LinkId=799457)  
 
-<a name="BKMK_PSAAdmin"></a>    
-## Overview  
- [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)] capabilities in [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.md)] provides an end-to-end solution that helps sales and delivery teams engage customers and deliver billable projects on time and within budget. [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] automation helps you:  
-
--   Estimate, quote, and contract work  
-
--   Plan and assign resources  
-
--   Enable team collaboration  
-
--   Capture time, expense, and progress data for real-time insights and accurate invoicing  
-
-Included in this app are the following features:
+## 
+Feature summary
 
 |                                       |                                                                                                                                                                                                                                                                                                                                                          |
 |---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -52,11 +56,6 @@ There are two flavors of [!INCLUDE[pn_dyn_365_project_service_auto](../includes/
 
 - If you’re in the field using a smartphone or tablet, you’ll use the Project Resource Hub app which is a subset of the Project Service Automation app. The Project Resource Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. [!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [User Guide (Project Resource Hub)](project-resource-hub-users-guide.md).
 
-## Get started  
- [Find your way around Dynamics 365 Customer Engagement](../basics/navigation-customer-engagement-enterprise.md)  
-
-## What's new  
- [What's new in Dynamics 365 for Field Service and Project Service Automation](../field-service/whats-new-field-service-project-service.md)  
 
 ## User's guides  
  [Administrator Guide](../project-service/admin-guide.md)  
