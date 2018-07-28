@@ -55,8 +55,7 @@ There are two flavors of [!INCLUDE[pn_dyn_365_project_service_auto](../includes/
 
  [Time, expense, and collaboration](../project-service/time-expense-collaboration-guide.md)  
 
-## White papers for earlier versions (app version 2.x or 1.x) 
- [White papers](../project-service/white-papers.md)
+ [White papers (app version 2.x or 1.x)](../project-service/white-papers.md)
  
  ## Watch a 2-minute overview video
  <a name="heroArea"></a> [![ProjectService&#95;IntroVideo](../project-service/media/project-service-intro-video.png "ProjectService_IntroVideo")](http://go.microsoft.com/fwlink/p/?LinkId=799457)  
