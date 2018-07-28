@@ -21,9 +21,7 @@ manager: shellyha
 [!INCLUDE[cc-applies-to-psa-app-3x](../includes/cc-applies-to-psa-app-3x.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<a name="BKMK_PSAAdmin"></a>    
-
-The Project Service application provides capabilities and tools to help project-based organizations manage and deliver services from sales through invoicing. The app enables you to:
+The Project Service application helps project-based organizations manage and deliver services from sales through invoicing. The app enables you to:
 
 - Plan projects, and create estimates and work schedules
 - Estimate and track project cost and revenue 
@@ -37,7 +35,8 @@ The Project Service application provides capabilities and tools to help project-
 In addition, to help you maintain cost control for your project-based work, individual consultants 
 easily enter and track their project time and expenses either on mobile or using a web browser.   
 
-## Available anywhere, on any device
+## Get help for app version 3.x
+<a name="BKMK_PSAAdmin"></a>    
 
 There are two flavors of [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)]: 
 
@@ -45,22 +44,21 @@ There are two flavors of [!INCLUDE[pn_dyn_365_project_service_auto](../includes/
 
 - If you’re in the field using a smartphone or tablet, you’ll use the Project Resource Hub app which is a subset of the Project Service Automation app. The Project Resource Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. [!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [User Guide (Project Resource Hub)](project-resource-hub-users-guide.md).
 
+## Guidance for earlier versions (app version 2.x or 1.x)  
+ [Administrator guide](../project-service/admin-guide.md)  
 
-## User's guides  
- [Administrator Guide](../project-service/admin-guide.md)  
+ [Resource manager guide](../project-service/resource-manager-guide.md)  
 
- [Account Manager Guide](../project-service/account-manager-guide.md)  
+ [Project manager guide](../project-service/project-manager-guide.md)  
 
- [Project Manager Guide](../project-service/project-manager-guide.md)  
+ [Account manager guide](../project-service/account-manager-guide.md)  
 
- [Resource Manager Guide](../project-service/resource-manager-guide.md)  
+ [Time, expense, and collaboration](../project-service/time-expense-collaboration-guide.md)  
 
- [Time, Expense, and Collaboration Guide](../project-service/time-expense-collaboration-guide.md)  
-
-## White papers  
+## White papers for earlier versions (app version 2.x or 1.x) 
  [White papers](../project-service/white-papers.md)
  
- ## Watch a quick overview video
+ ## Watch a 2-minute overview video
  <a name="heroArea"></a> [![ProjectService&#95;IntroVideo](../project-service/media/project-service-intro-video.png "ProjectService_IntroVideo")](http://go.microsoft.com/fwlink/p/?LinkId=799457)  
 
 
