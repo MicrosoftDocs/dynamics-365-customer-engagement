@@ -32,21 +32,9 @@ The Project Service app provides tools and capabilities that help project-based 
 - Manage quoting, pricing, and billing for projects
 - Assign and manage resources
 - Use reports and interactive dashboards to monitor key performance indicators for successful projects
+- and more
 
 In addition, individual consultants track their project time and expenses either on a computer or on mobile, to help you maintain cost control for your project-based work.  
-
-<a name="heroArea"></a> [![ProjectService&#95;IntroVideo](../project-service/media/project-service-intro-video.png "ProjectService_IntroVideo")](http://go.microsoft.com/fwlink/p/?LinkId=799457)  
-
-## 
-Feature summary
-
-|                                       |                                                                                                                                                                                                                                                                                                                                                          |
-|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|      **Project-based contracts**      |                                                  Project-based contracts relate quotes and orders to project plans, financial estimates, labor pricing, and billing arrangements, like time and materials or fixed price. The contract highlights key metrics, including profitability and feasibility.                                                  |
-|         **Project planning**          |                                                                 Visual project planning and estimation includes predecessors, automatic task scheduling, and views of sales and cost information for time and expenses. You can use the resulting plan in quotes and project contracts.                                                                  |
-|        **Resource management**        |                                       Resource information includes the skills and proficiencies of your workforce. You can view and filter resources based on skills and availability, so you can assign the right people to the right projects. You can also track resource utilization and forecasting metrics.                                       |
-| **Time, expenses, and collaboration** | Team members can use the web or mobile apps to record time and expenses for multiple projects. Managers can easily approve new entries while understanding the financial implications of the newly-approved items. All team members can collaborate with an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] workspace created for their project. |
-|          **Project billing**          |                                                 Project invoices reflect the terms of the contract and the approved work and expenses. The financial impact of project work, including costs, unbilled revenue, and invoices, are recorded for use in analytics and integration into financial systems.                                                  |
 
 ## Available anywhere, on any device
 
@@ -70,3 +58,7 @@ There are two flavors of [!INCLUDE[pn_dyn_365_project_service_auto](../includes/
 
 ## White papers  
  [White papers](../project-service/white-papers.md)
+ 
+ <a name="heroArea"></a> [![ProjectService&#95;IntroVideo](../project-service/media/project-service-intro-video.png "ProjectService_IntroVideo")](http://go.microsoft.com/fwlink/p/?LinkId=799457)  
+
+
