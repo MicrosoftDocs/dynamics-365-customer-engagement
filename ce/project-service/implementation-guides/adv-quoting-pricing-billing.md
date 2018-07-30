@@ -1,7 +1,7 @@
 ---
 
 title: Advanced Quoting, Pricing, and Billing
-description: An English-language guide to advanced quoting, billing, and pricing in Project Service Automation
+description: An English-language guide to advanced quoting, billing, and pricing in Project Service Automation for Dynamics 365
 author: krbjoran
 manager: ShellyHaverkamp
 ms.date: 7/30/2018
