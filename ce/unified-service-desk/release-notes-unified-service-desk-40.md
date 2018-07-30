@@ -73,11 +73,11 @@ Go to **Settings** > **Administration** > **System Settings** and set the **Enab
 
 Now, login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and open any Unified Interface page. For example, open a case. After completing your work on the case, if you select **Save & Close** on the Unified Interface page (form), the form saves and closes.
 
-![Select Save & Close on Unified Interface forms](media/usd-crm-save&close.png "Select Save & Close on Unified Interface forms")
+![Select Save & Close on Unified Interface forms](media/usd-crm-saveclose.png "Select Save & Close on Unified Interface forms")
 
 However, the tab does not close, and the Unified Interface page (form) navigates to **Dashboard** page.
 
-![Unified Interface page navigates to Dashboard page](media/usd-crm-page-navigates-dasboard.png "Unified Interface page navigates to Dashboard page")
+![Unified Interface page navigates to Dashboard page](media/usd-crm-page-navigates-dashboard.png "Unified Interface page navigates to Dashboard page")
 
 #### Workaround
 
@@ -87,7 +87,7 @@ To close the tab, you need to select **User Can Close** in the hosted control so
 
 Now, login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and open the case. Now, select **Save & Close** on the Unified Interface page (form), the form saves and closes. The page navigates to the **Dashboard** page. To close the tab, you can select the **X** button.
 
-![Select close button to close the tab](media/usd-crm-close-button-save&close.png "Select close button to close the tab")
+![Select close button to close the tab](media/usd-crm-close-button-saveclose.png "Select close button to close the tab")
 
 ## Limitations
 
