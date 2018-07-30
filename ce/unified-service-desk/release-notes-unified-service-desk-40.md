@@ -93,3 +93,5 @@ Now, login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-
 
 This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
+> [!Note]
+> There are no limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
