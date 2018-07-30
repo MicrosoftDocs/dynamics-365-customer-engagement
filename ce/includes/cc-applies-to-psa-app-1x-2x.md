@@ -1,1 +1,1 @@
-Applies to app version 1.x and 2.x
+Applies to app versions 2.x and 1.x
