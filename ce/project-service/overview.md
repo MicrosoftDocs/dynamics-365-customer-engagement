@@ -20,7 +20,7 @@ manager: shellyha
 
 [!INCLUDE[cc-applies-to-psa-apps-all](../includes/cc-applies-to-psa-apps-all.md)]
 
-The Project Service application helps project-based organizations manage and deliver services from sales through invoicing. The app enables you to:
+The Project Service application helps project-based organizations track, manage, and deliver services from sales through invoicing. The app enables you to:
 
 - Plan projects, and create estimates and work schedules
 - Estimate and track project cost and revenue 
@@ -35,7 +35,7 @@ In addition, to help you maintain cost control for your project-based work, indi
 easily enter and track project time and expenses either on mobile or using a web browser.   
 
 ## Get help with app version 3.x
-Looking for resources to help you plan your implementation? Check out these downloadable guides.
+Looking for resources to help plan your implementation? Check out these downloadable guides.
 
  [Project planning and tracking guide](../project-service/implementation-guides/project-planning-tracking.md)  
 
