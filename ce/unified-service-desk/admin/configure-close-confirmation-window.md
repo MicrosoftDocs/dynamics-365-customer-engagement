@@ -1,5 +1,5 @@
 ---
-title: "Performance enhancement for CRM entity page loads | MicrosoftDocs"
+title: "Configure close confirmation window to prevent accidental closure of Unified Service Desk | MicrosoftDocs"
 description: "Learn to configure the close confirmation window to prevent the accidental closure of Unified Service Desk."
 keywords: ""
 ms.date: 08/03/2018
@@ -27,18 +27,18 @@ ms.tgt_pltfrm:
 
 ## Accidental closure of Unified Service Desk
 
-At contact centers, one of the key measures is the Customer Satisfaction (CSAT) where the agents are thriving to increase the CSAT score by solving the customer problems. When you (agent) are working on an important case or attending a customer call using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], it may happen that you accidentally closed [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. Perhaps, you may lose all the unsaved work, or the customer call is terminated due to the closure of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. The sudden closure of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] impacts your productivity and leads to low CSAT score. Prevention of the accidental closure of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is key for your business and customers. Hence close confirmation window feature is introduced.
+A key measure at contact centers is customer satisfaction (CSAT). Here, agents strive to increase their CSAT scores by solving customer problems. If you are an agent working on an important case or attending to a customer call and you accidentally close [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], you could lose your unsaved work as well as the customer call. The sudden closure of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can impact your productivity and also lead to a low CSAT score. Preventing accidental closures of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is key for your business and customers. That's why we introduced the close confirmation window feature. 
 
-## How to avoid the accidental closure of Unified Service Desk
+## How to prevent accidental closure of Unified Service Desk
 
-To avoid the accidental closure of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], the close confirmation window feature is introduced, which shows an **Confirm** window with a message.  
+To avoid the accidental closure of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], the close confirmation window displays a message asking you to confirm the closure before continuing.  
   
   ![Close confirmation window in Unified Service Desk](../../unified-service-desk/media/usd-close-confirm-window.PNG "Close confirmation window in Unified Service Desk")
 
 > [!NOTE]
 > By default, the close confirmation window is enabled. To disable the close confirmation window, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrator must configure the **HideConfirmationDialog** option on the **Options** page and set it to **true**.
 
-## Enable/Disable Close Confirmation window
+## Enable/disable close confirmation window
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
 
@@ -52,7 +52,7 @@ To avoid the accidental closure of [!INCLUDE[pn_unified_service_desk](../../incl
 
 6. Type **HideConfirmationDialog** for the **Name** field.
 
-7. Sepcify the value in the **Value** field. Specify **false** to enable and **true** to disable.
+7. Specify the value in the **Value** field. Specify **false** to enable and **true** to disable.
 
 8. Click **Save**.
 
@@ -63,9 +63,9 @@ To avoid the accidental closure of [!INCLUDE[pn_unified_service_desk](../../incl
 1. Start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client by double-clicking the application shortcut on your desktop. More information: [Sign in to Unified Service Desk](../admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#sign-in-to-unified-service-desk)
 
 2. Select the **X** button to close [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
-</br>The confirmation window appears with a message.
+</br>The close confirmation window appears, asking you to confirm the closure.
 
-3. Choose **Yes** to close [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] or choose **No** to stay, save the changes, and continue working.
+3. Choose **Yes** to close [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] or **No** to stay, save the changes, and continue working.
 
 ![Close Confirmation widow](../../unified-service-desk/media/usd-test-close-window.PNG "Close Confirmation widow")
 
