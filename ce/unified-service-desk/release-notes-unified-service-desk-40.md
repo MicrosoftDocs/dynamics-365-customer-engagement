@@ -24,7 +24,7 @@ manager: Shujoshi
 
 This section describes the known issues and limitations in [!INCLUDE[pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)]
 
-## Known issues in Unified Service Desk
+## Known issues
 
 This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
@@ -36,7 +36,7 @@ In the **Unified Interface Settings** record, select **Air** theme instead **Uni
 
 Now, if you login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], the **About Tool Bar** and **Main** toolbar chooses to show **Unified Blue** theme colors instead **Air** theme.
 
-![The main and about toolbar is not picking Air theme colors instead show Unified Interface theme colors](media/about-toolbar-main-toolbar-known-issue.png "The main and about toolbar is not picking Air theme colors instead show Unified Interface theme colors")
+![The main and about toolbar shows Unified Interface theme colors instead Air theme colors](media/about-toolbar-main-toolbar-known-issue.png "The main and about toolbar shows Unified Interface theme colors instead Air theme colors")
 
 #### Workaround
 
@@ -63,11 +63,33 @@ Repeat the steps 5-8 for the **Main** toolbar.
 
 Login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] and toolbar chooses **Air** theme colors.
 
-## Limitations in Unified Service Desk
+![The main and about toolbar shows Air theme colors](media/about-toolbar-main-toolbar-known-issue-fixed-toolbar.png "The main and about toolbar shows Air theme colors")
+
+Unified Interface form does not close the tab and navigates to Dashboard
+
+Go to **Settings** > **Administration** > **System Settings** and set the **Enable auto save on all forms** to **No** in Dynamics 365 Unified Interface. 
+
+![Disable autosave in Unified Interface forms](media/crm-unified-interface-disable-autosave.png "Disable autosave in Unified Interface forms")
+
+Now, login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and open any Unified Interface page. For example, open a case. After completing your work on the case, if you select **Save & Close** on the Unified Interface page (form), the form saves and closes.
+
+![Select Save & Close on Unified Interface forms](media/usd-crm-save&close.png "Select Save & Close on Unified Interface forms")
+
+However, the tab does not close, and the Unified Interface page (form) navigates to **Dashboard** page.
+
+![Unified Interface page navigates to Dashboard page](media/usd-crm-page-navigates-dasboard.png "Unified Interface page navigates to Dashboard page")
+
+#### Workaround
+
+To close the tab, you need to select **User Can Close** in the hosted control so that you see **X** button the tab in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. 
+
+![Set user can close option in the hosted control](media/usd-crm-usercanclose-option.png "Set user can close option in the hosted control")
+
+Now, login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and open the case. Now, select **Save & Close** on the Unified Interface page (form), the form saves and closes. The page navigates to the **Dashboard** page. To close the tab, you can select the **X** button.
+
+![Select close button to close the tab](media/usd-crm-close-button-save&close.png "Select close button to close the tab")
+
+## Limitations
 
 This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
-
-
-
-## See also
 
