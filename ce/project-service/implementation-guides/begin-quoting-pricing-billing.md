@@ -19,5 +19,5 @@ audience: Admin
 
 This English-language document explains the basic quoting, pricing and billing capabilities of Dynamics 365 for Project Service (version 3.x). The guide covers features that most small or large organizations use.
  
-[!div class="nextstepaction"]
+> [!div class="nextstepaction"]
 > [Download PDF of the Basic guide to quoting, pricing, and billing](https://go.microsoft.com/fwlink/?linkid=2006770)
