@@ -70,7 +70,7 @@ topic-status: Drafting
 
 <h2>Privacy and compliance</h2>
 <li><a href="gdpr.md" data-raw-source="[Data protection and GDPR](gdpr.md)">Data protection and GDPR</a></li>
-<li><a href="double-opt-in.md" data-raw-source="[Set up double opt-in](double-opt-in.md)">Set up double opt-in for new subscriptions and consent changes</a></li>
+<!-- <li><a href="double-opt-in.md" data-raw-source="[Set up double opt-in](double-opt-in.md)">Set up double opt-in for new subscriptions and consent changes</a></li> -->
 <li><a href="cookies.md" data-raw-source="[How Marketing uses cookies](cookies.md)">How Marketing uses cookies</a></li>
 
 </td><td>
