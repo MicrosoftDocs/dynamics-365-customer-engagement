@@ -21,5 +21,5 @@ The Project Service application helps service organizations identify opportuniti
 
 This English-language document explains how to use the Project Service app to estimate work, project costs, and forecast resource requirements:
 
-[!div class="nextstepaction"]
+> [!div class="nextstepaction"]
 > [Download PDF of the project planning and tracking guide](https://go.microsoft.com/fwlink/?linkid=2006685)
