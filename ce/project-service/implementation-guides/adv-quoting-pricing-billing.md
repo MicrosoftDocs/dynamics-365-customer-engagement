@@ -14,12 +14,6 @@ audience: Admin
 
 ---
 
-<style type="text/css">
- .nextstepaction a {
-    background-color: #000000 !important;
- }
-</style>
-
 # Advanced quoting, pricing, and billing guide
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
