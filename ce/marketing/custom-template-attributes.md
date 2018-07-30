@@ -236,7 +236,7 @@ Here is an example where you can see `xrm/designer/setting` meta tags that creat
 </body>
 ```
 
-So, in this example, the &lt;img&gt; tag would resolve to something like:
+So, in this example, the `<img>` tag would resolve to something like:
 
 ```xml
 <img src="picture.jpg" height="100px">
