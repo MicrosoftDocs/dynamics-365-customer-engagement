@@ -18,8 +18,7 @@ manager: shellyha
 ---
 # What is Dynamics 365 for Project Service?
 
-[!INCLUDE[cc-applies-to-psa-app-3x](../includes/cc-applies-to-psa-app-3x.md)]
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-apps-all](../includes/cc-applies-to-psa-apps-all.md)]
 
 The Project Service application helps project-based organizations manage and deliver services from sales through invoicing. The app enables you to:
 
