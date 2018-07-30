@@ -65,7 +65,7 @@ Login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.
 
 ![The main and about toolbar shows Air theme colors](media/about-toolbar-main-toolbar-known-issue-fixed-toolbar.png "The main and about toolbar shows Air theme colors")
 
-Unified Interface form does not close the tab and navigates to Dashboard
+### Unified Interface form does not close the tab and navigates to Dashboard
 
 Go to **Settings** > **Administration** > **System Settings** and set the **Enable auto save on all forms** to **No** in Dynamics 365 Unified Interface. 
 
