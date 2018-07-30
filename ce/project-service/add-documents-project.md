@@ -1,24 +1,19 @@
 ---
-title: "Add documents to a project (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom:
-  - dyn365-projectservice
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+
+title: Add documents to a project (Dynamics 365 for Project Service Automation) | MicrosoftDocs
+description: Steps to add a document to a project in PSA
 author: krbjoran
-ms.assetid: b084f201-64cb-4be0-8a11-160a8689e370
-caps.latest.revision: 12
+manager: ShellyHaverkamp
+ms.date: 7/30/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
+ms.technology: 
 ms.author: krbjoran
-manager: shellyha
+audience: Admin
+
 ---
+
 # Add documents to a project (Project Service Automation)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
