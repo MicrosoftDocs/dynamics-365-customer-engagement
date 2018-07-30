@@ -80,6 +80,10 @@ A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../incl
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Mange options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
 
+### Unified Blue theme for Unified Service Desk
+
+The Unified Blue theme is the predefined theme for Unified Service Desk when you are using an Unified Interface App.
+
 <a name="NewIn330"></a>
 ## What's new in [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)]
 
