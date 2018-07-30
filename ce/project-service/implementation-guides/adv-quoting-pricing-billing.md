@@ -14,9 +14,10 @@ audience: Admin
 
 ---
 
-<style>
+<style type="text/css">
  .nextstepaction a {
     background-color: #000000 !important;
+ }
 </style>
 
 # Advanced quoting, pricing, and billing guide
