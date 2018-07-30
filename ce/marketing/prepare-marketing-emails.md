@@ -137,19 +137,33 @@ The following **Advanced Header** settings are available:
 * **To**: This should almost always be set to **{{ contact.emailaddress1 }}**, which sends the message to each contact included in the customer journey that sends the email. You might change this to use a different email address field (such as emailaddress2), or enter a dynamic expression that chooses the best of several available email fields.
 * **Reply-to email**: This should usually be blank, which means that replies to the message will be sent to the address of the **From** contact (or the **Email from address**, if it's different). If you set a value here, replies to your message will be sent to this address rather than the displayed from address. You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
 
-## Create a transactional email message
+## Set the legal designation to identify each message as either commercial or transactional
 
-Most of the messages you send using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] will probably be marketing messages, but you can also use the solution to send transactional messages. Transactional messages must relate exclusively to a specific transaction between your organization and another individual or organization (such as a receipt, account statement, or consent request), and must not include advertisements or promotional messages. 
+Most of the messages you send using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] will probably be commercial messages, which are bulk messages sent to many recipients and once. However, you can also use the solution to send transactional messages. Transactional messages must relate exclusively to a specific transaction between your organization and another individual or organization (such as a receipt, account statement, or consent request), and must not include advertisements or promotional content.
 
-Transactional messages are typically regulated differently from marketing messages. They are considered personal communications, not promotional communications, and therefore have different content and consent-level requirements. In [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], the main practical different between transactional and commercial messages is that different validation rules apply. Specifically, commercial messages require a subscription-center link while transactional messages do not.
+Transactional messages are typically regulated differently from commercial messages. They are considered personal communications, not promotional communications, and therefore have different content and consent requirements. In [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], the main practical different between transactional and commercial messages is that different validation rules apply. Specifically, commercial messages require a subscription-center link while transactional messages do not. Also, [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] manages consent independently for each of these two types of messages.
 
 By default, all new messages that you create will be commercial messages. To change the legal designation of a message:
 
 1. Open the message.
 1. Go to the **Summary** tab.
-1. Set the **Legal Designation** to **Commercial** or **Transactional**, as required. 
+1. Set the **Legal Designation** to **Commercial** or **Transactional**, as required.
 
-Take care not to send transactional messages that include promotional content. It is your responsibility to be familiar with, and conform to, all relevant laws that apply in the countries/regions where you deliver commercial and transactional messages.
+Take care not include promotional content in messages that you have set as transactional. It is your responsibility to be familiar with, and conform to, all relevant laws that apply in the countries/regions where you deliver commercial and transactional messages.
+
+Each contact record has two settings that establish that contact's consent for receiving email messages from your organization. You can find these consent settings for any contact by opening the relevant contact record, going to the **Details** tab and looking in the **Contact preferences** section, which includes the following two settings:
+
+- **Email**: This setting is among the standard fields for the contact record, and is included with nearly all [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] customer engagement applications. Contacts where this is set to **Do not allow** have indicated that do not want to receive any type of email from your organization, so [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] will send neither commercial nor transactional messages to these contacts.
+- **Bulk email**: This setting is added to the contact record when you install [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. Contacts where this is set to **Do not allow** have indicated that do not want to receive commercial email from your organization, but they may still allow transactional messages. Each contact can enable or disable this option for themselves using any subscription center (all subscription centers provide a checkbox for controlling this).
+
+The following table shows the result of attempting to send a commercial or transactional email message to contacts with each combination of settings for these two options.
+
+| Email        | Bulk email   | Commercial email | Transaction email |
+|--------------|--------------|------------------|-------------------|
+| Allow        | Allow        | Sent             | Sent              |
+| Allow        | Do not allow | Not sent         | Sent              |
+| Do not allow | Allow        | Not sent         | Not sent          |
+| Do not allow | Do not allow | Not sent         | Not sent          |
 
 <a name="preview-message"></a>  
 
