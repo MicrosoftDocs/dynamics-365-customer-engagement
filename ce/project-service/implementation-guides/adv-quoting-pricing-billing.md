@@ -1,7 +1,7 @@
 ---
 
 title: Advanced Quoting, Pricing, and Billing
-description: An English-language guide to advanced quoting, billing, and pricing in Project Service Automation for Dynamics 365
+description: An English-language guide to advanced quoting, billing, and pricing in Project Service Automation
 author: krbjoran
 manager: ShellyHaverkamp
 ms.date: 7/30/2018
@@ -21,5 +21,5 @@ The Project Service application uses organizational units to help a company defi
 
 This English-language document explains advanced features in Dynamics 365 Project Service Automation (version 3.x) that help professional service organizations define their pricing, quoting, sales process, and billing: 
   
-> [!div class="nextstepaction"]
+> [!div class="nextstepaction" color:#000000;]
 > [Download PDF of the Advanced quoting, pricing, and billing guide](https://go.microsoft.com/fwlink/?linkid=2006684)
