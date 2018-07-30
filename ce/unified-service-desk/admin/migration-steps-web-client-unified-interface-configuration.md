@@ -1,8 +1,8 @@
 ---
-title: "Migration steps of Web Client configurations to Unified Interface App | MicrosoftDocs"
-description: ""
+title: "Migrate Unified Service Desk configurations from Web Client to Unified Interface App | MicrosoftDocs"
+description: "The three-step process for migrating Web Client configurations to Unified Interface"
 keywords: ""
-ms.date: 07/30/2018
+ms.date: 08/03/2018
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -22,31 +22,31 @@ manager: shujoshi
 
 # How to migrate Unified Service Desk configurations from Dynamics 365 Web Client to Unified Interface App
 
-The migration of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Web Client to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Unified Interface is a three step process.
+The migration of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Web Client to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Unified Interface is a three-step process.
 
 - **Step 1:** Fetch and migrate the configuration elements to a **USD_UI_Configurations** folder using the Web Client - Unified Interface Migration Assistant.
 
-- **Step 2:** Import the **USDWebResources** folder, which is in **USD_UI_Configurations** folder, using the **Solutions** option in the Dynamics 365.
+- **Step 2:** Import the **USDWebResources** folder, which is in the **USD_UI_Configurations** folder, using the **Solutions** option in the Dynamics 365.
 
 - **Step 3:** Import the **Data** zip folder from the **USD_UI_Configurations** folder to the Unified Interface App using the Configuration Migration Tool (DataMigrationUtility.exe).
 
-The diagram demonstrates the flow of the migration:
-
-![Migration Steps](../media/migration-steps-web-client-unified-interface-migration-assistant.PNG "Migration Steps")
+This diagram illustrates the flow of the migration:
+> [!div class="mx-imgBorder"]
+> ![Migration Steps](../media/migration-steps-web-client-unified-interface-migration-assistant.PNG "Migration Steps") 
 
 1. **Dynamics 365 Web Client** </br></br> The [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Web Client is the instance from where you want to migrate your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations.
 
-2. **Web Client - Unified Interface Migration Assistant** </br></br> The tool to fetch and migrate the Web Client configurations to **USD_UI_Configurations** folder, which contains **Data** and **WebResources** zip folder. If you have **RunXrmCommand** action in Web Client configurations, the migration assitant migrates the **RunXRMCommand** actions as web resource and you can find them in the **USDWebResources** folder under the **USD_UI_Configurations** folder.
+2. **Web Client - Unified Interface Migration Assistant** </br></br> The tool to fetch and migrate the Web Client configurations to **USD_UI_Configurations** folder, which contains the **Data** and **WebResources** zip folders. If you have **RunXrmCommand** actions in Web Client configurations, the migration assistant migrates the **RunXRMCommand** actions as a web resource and you can find them in the **USDWebResources** folder under the **USD_UI_Configurations** folder.
 
-3. **USD_UI_Configurations** </br></br> The configurations are migrated to the **USD_UI_Configurations** zip folder that contains **Data** and/or **WebResources** zip folder.
+3. **USD_UI_Configurations** </br></br> The configurations are migrated to the **USD_UI_Configurations** zip folder that contains the **Data** and/or **WebResources** zip folder.
 
-4. **Configuration Migration Tool** </br></br> The Configuration Migration tool enables you to import the **Data** zip folder and deploy on the target [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Unified Interface App.
+4. **Configuration Migration Tool** </br></br> The Configuration Migration Tool lets you to import the **Data** zip folder and deploy it to the target [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Unified Interface App.
 
 5. **Dynamics 365 Unified Interface App** The target [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance to which you want to deploy the configurations.
 
 ## Step 1: Use migration assistant to fetch and migrate the Web Client configurations
 
-1. Run the **UCMigrationTool.exe**.
+1. Run **UCMigrationTool.exe**.
 
 2. In the introduction screen, select **Continue**.
 
@@ -54,7 +54,7 @@ The diagram demonstrates the flow of the migration:
 ![Migration Assistant Login screen](../media/usd-migration-assistant-login.PNG "Migration Assistant Login Screen")
 
 4. In the **Export Configurations** screen, select **Export**.</br>
-**Data file location** is the location where the migration assistant stores **Data.zip** folder, which contains the configurations that you export from the Web Client.</br>
+**Data file location** is the location where the migration assistant stores the **Data.zip** folder, which contains the configurations that you export from the Web Client.</br>
 When the export is successfully completed, select **Next**.</br>
 ![Export configurations screen](../media/usd-migration-assistant-export-configurations.PNG "Export configurations screen")
 
@@ -62,7 +62,7 @@ When the export is successfully completed, select **Next**.</br>
 </br>The migration assistant displays only the hosted controls to select. If you select a hosted control, the migration assistant exports all the actions, action calls, events, and other elements associated with the particular hosted control.</br>
 ![Select configurations screen](../media/usd-migration-assistant-select-configurations.PNG "Select configurations screen")
 
-6. In the **Confirm Selection** screen, review the configurations you selected for migration, and select **Next**. If you want to change the selection, select **Previous** and repeat the step 5.
+6. In the **Confirm Selection** screen, review the configurations you selected for migration, and select **Next**. If you want to change the selection, select **Previous** and repeat step 5.
 
 7. In the **Migrate Configurations** screen, choose **Migrate**. After the migration is completed, select **Next**.</br>
 ![Migrate configurations screen](../media/usd-migration-assistant-migrate.PNG "Migrate configurations screen")
@@ -75,9 +75,9 @@ The migration assistant displays the **Download Completed**.</br>
 
 ## Step 2: Import the USDWebResources folder
 
-The **USDWebResources** folder contains the migrated **RunXrmCommand** actions that were present in Web Client. To deploy the **USDWebResources** on the target Unified Intrface App, import the web resources as a soultion in the Dynamics 365.
+The **USDWebResources** folder contains the migrated **RunXrmCommand** actions that were present in Web Client. To deploy the **USDWebResources** on the target Unified Intrface App, import the web resources as a solution in the Dynamics 365.
 
-To import the **USDWebResources** zip folder follow the steps:
+To import the **USDWebResources** zip folder, follow these steps:
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
 
@@ -104,7 +104,7 @@ For more information, see [Import, update, and export solutions](../../customize
 
 1. Go to the location where you downloaded the Configuration Migration Tool (DataMigrationUtility.exe).
 
-2. Open **ConfigurationMigation** and execute **DataMigrationUtility.exe**. 
+2. Open **ConfigurationMigration** and execute **DataMigrationUtility.exe**. 
 
 3. In the next screen, select **Import data**, and select **Continue**.</br>
 ![Configuration Migration Tool options screen](../media/usd-configuration-migration-tool-options.PNG "Configuration Migration Tool options data screen")
