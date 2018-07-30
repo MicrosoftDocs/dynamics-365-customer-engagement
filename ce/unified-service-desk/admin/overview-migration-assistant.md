@@ -24,24 +24,25 @@ manager: shujoshi
 
 ## Overview
   
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] supports Unified Interface apps, and you want to upgrade to the latest version of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to deliver intelligent and personalized experience to the rising expectations of your customers.
-If you are using [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Web Client with all the configurations needed for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to work, you may think on how to use all the configurations in the Unified Interface App. To tackle the issue of configuring in the Unified Interface App, we have introduced a tool, **[!INCLUDE[pn-web-client-unified-interface-configuration-migration-assistant](../../includes/pn-web-client-unified-interface-configuration-migration-assistant.md)]** for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] supports Unified Interface apps. This lets you to upgrade to the latest version of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to deliver intelligent and personalized experience to the rising expectations of your customers.
 
-The **[!INCLUDE[pn-web-client-unified-interface-configuration-migration-assistant](../../includes/pn-web-client-unified-interface-configuration-migration-assistant.md)]** for Unified Service Desk, a tool that helps you to seamlessly migrate your existing [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Web Client to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Unified Interface App.
+If you are using [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Web Client with all the configurations needed for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], you will want to know how to use all the configurations in the Unified Interface App. To tackle the issue of configuring in the Unified Interface App, we have introduced a tool, **[!INCLUDE[pn-web-client-unified-interface-configuration-migration-assistant](../../includes/pn-web-client-unified-interface-configuration-migration-assistant.md)]**, for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+
+**[!INCLUDE[pn-web-client-unified-interface-configuration-migration-assistant](../../includes/pn-web-client-unified-interface-configuration-migration-assistant.md)]** for Unified Service Desk, a tool that helps you to seamlessly migrate your existing [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Web Client to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Unified Interface App.
 
 ## How Web Client - Unified Interface Migration Assistant helps
 
-The migration assistant helps with the following:
+The migration assistant helps with the migration of:
 
-- Migration of **CRM Page** hosted controls to **Unified Interface Page** hosted controls.
-- Migration of **RunXRM** commands as web resources.
-- Migration of events and actions that are only supported in Web Client to the corresponding events and actions in Unified Interface App.
-- Migration of actions, action calls, events, and window navigation rules associated with the hosted control to Unified Interface App.
-- Migration of Dashboards and Search hosted controls.
-- Migration of **KM Control** to **Unified Interface KM Control**.
+- **CRM Page** hosted controls to **Unified Interface Page** hosted controls.
+- **RunXRM** commands as web resources.
+- Events and actions that are only supported in Web Client to the corresponding events and actions in Unified Interface App.
+- Actions, action calls, events, and window navigation rules associated with the hosted control to Unified Interface App.
+- Dashboards and Search hosted controls.
+- **KM Control** to **Unified Interface KM Control**.
 
 > [!div class="nextstepaction"]
-> [Download the Migration Assistant](download-migration-assistant.md)
+> [Download the migration assistant](download-migration-assistant.md)
 
 ## See also
 
