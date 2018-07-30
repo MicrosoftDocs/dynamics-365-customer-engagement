@@ -218,7 +218,7 @@ To move quickly between the main areas of the customer journey and lead-scoring 
 [Design your digital content](design-digital-content.md)  
 [Content blocks reference](content-blocks-reference.md)  
 [Prepare marketing email messages](prepare-marketing-emails.md)  
-[Work with email templates](email-templates.md)  
+[Work with email, page, and form templates](email-templates.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  

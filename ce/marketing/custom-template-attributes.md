@@ -29,12 +29,12 @@ The following table provides a quick reference to the custom attributes and meta
 
 | Custom attribute | Description |
 | --- | --- |
-| `<meta type="xrm/designer/setting" name="type" value="marketing-designer-content-editor-document">` | When this tag is present in the `<head>` of your document, the **Designer** tab will provide drag-and-drop features. If this tag is not present, the **Designer** tab provides the simplified, full-page editor. More information: Show the toolbox and enable drag-and-drop editing |
-| `<div data-container="true"> … </div>` | Marks the start and end of a container where users can drag and drop content blocks. More information Create a container where users can add content blocks |
-| `<div data-editorblocktype="[text|image|button|...]" > … </div>` | Marks the start and end of a content block. The value of the attribute identifies which type of block it is (text, image, button, etc.). More information: Identify content blocks |
-| `<meta type="xrm/designer/setting" name="<name>" value="<initial value>" datatype="[color|font|number|picture|text]" label="<label>">` | This tag defines a document-wide style setting that users can edit using the **Designer** > **Styles** tab.  More information: Add attributes to the Styles tab  |
-| `/* @<tag-name> */ … /* @<tag-name> */` | Use CSS comments like these to surround a CSS value to be controlled by a style setting, where &lt;_tag-name&gt;_ is the value of the _name_ attribute for the meta tag that established the setting. More information: Add CSS comments to implement style settings in the head |
-| `property-reference= "<attr>:@< tag-name >;<attr>:@< tag-name >; …"` | Place this attribute in any HTML tag to place an attribute with a value controlled by a style setting, where _&lt;attr&gt;_ is the name of the attribute to be created and &lt;_tag-name&gt;_ is the value of the _name_ attribute for the meta tag that established the setting. More information: Add property-reference attributes to implement style settings in the body |
+| `<meta type="xrm/designer/setting" name="type" value="marketing-designer-content-editor-document">` | When this tag is present in the `<head>` of your document, the **Designer** tab will provide drag-and-drop features. If this tag is not present, the **Designer** tab provides the simplified, full-page editor. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Show the toolbox and enable drag-and-drop editing](#show-the-toolbox-and-enable-drag-and-drop-editing)|
+| `<div data-container="true"> … </div>` | Marks the start and end of a container where users can drag and drop content blocks. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a container where users can add content blocks](#create-a-container-where-users-can-add-content-blocks) |
+| `<div data-editorblocktype="[text|image|button|...]" > … </div>` | Marks the start and end of a content block. The value of the attribute identifies which type of block it is (text, image, button, etc.). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Identify content blocks](#identify-content-blocks) |
+| `<meta type="xrm/designer/setting" name="<name>" value="<initial value>" datatype="[color|font|number|picture|text]" label="<label>">` | This tag defines a document-wide style setting that users can edit using the **Designer** > **Styles** tab.  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add settings to the Styles tab](#add-settings-to-the-styles-tab) |
+| `/* @<tag-name> */ … /* @<tag-name> */` | Use CSS comments like these to surround a CSS value to be controlled by a style setting, where &lt;_tag-name&gt;_ is the value of the _name_ attribute for the meta tag that established the setting. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add CSS comments to implement style settings in the head](#add-css-comments-to-implement-style-settings-in-the-head) |
+| `property-reference= "<attr>:@< tag-name >;<attr>:@< tag-name >; …"` | Place this attribute in any HTML tag to place an attribute with a value controlled by a style setting, where _&lt;attr&gt;_ is the name of the attribute to be created and &lt;_tag-name&gt;_ is the value of the `name` attribute for the meta tag that established the setting. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add property-reference attributes to implement style settings in the body](#add-property-reference-attributes-to-implement-style-settings-in-the-body) |
 
 The remaining sections of this topic provide more information about how to use each of the features summarized in the table.
 
@@ -85,6 +85,7 @@ Any text or HTML tags that are nested within a **data-container** div-tag pair, 
     <!-- DRAG HERE --> <p> LOCKED </p> <!-- DRAG HERE -->
 </div>
 ```
+
 > [!NOTE]
 > When the full-page editor is enabled, all drag-and-drop features are disabled, and you can edit all the content on the **Designer** tab, including content outside of `data-container` div tags (which have no effect in the full-page editor).
 
@@ -238,3 +239,9 @@ So, in this example, the &lt;img&gt; tag would resolve to something like:
 ```xml
 <img src="picture.jpg" height="100px">
 ```
+
+### See also
+
+[Work with email, page, and form templates](email-templates.md)  
+[Prepare marketing email messages](prepare-marketing-emails.md)  
+[Create and deploy marketing pages](create-deploy-marketing-pages.md)

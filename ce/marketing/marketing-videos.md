@@ -42,7 +42,7 @@ For an even more detailed video overview of the features and benefits [!INCLUDE[
 - [Design your digital content](design-digital-content.md)
 - [Keyboard shortcuts and accessibility features for content designers](design-digital-content.md)
 - [Prepare marketing email messages](prepare-marketing-emails.md)
-- [Work with email templates](email-templates.md)
+- [Work with email, page, and form templates](email-templates.md)
 - [Content blocks reference](content-blocks-reference.md)
 
 ## Use customer journeys to create automated campaigns
