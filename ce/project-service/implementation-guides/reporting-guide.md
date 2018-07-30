@@ -21,5 +21,5 @@ The Project Service application uses Dynamics 365 reporting methods and technolo
 
 This English-language guide describes the data model and entities used by Project Service reporting: 
 
-[!div class="nextstepaction"]
+> [!div class="nextstepaction"]
 > [Download PDF of the reporting guide](https://go.microsoft.com/fwlink/?linkid=2007324)
