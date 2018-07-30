@@ -63,7 +63,7 @@ In this exercise, you'll create a couple of fictional contacts with email addres
     > - **Query** presents the query as text, which is very compact and suitable for users who are used to working with database queries.
 
     > [!IMPORTANT]
-    > While you are designing your segment, you can select the **Get estimated segment size** link to get an *estimate* for the number of contacts that will be included in the segment. This is only an estimate, and can be significantly different from your actual segment size. You must go live with the segment to view its exact size and membership.
+    > While you are designing your segment, you can select the **Get estimated segment size** link to get an *estimate* for the number of contacts that will be included in the segment. This is only an estimate, and can be somewhat different from your actual segment size. You must go live with the segment to view its exact size and membership.
 
 9. Because you're creating a new segment, you should see a single row in the **Designer**, where the **Contact** entity should already be selected (in the leftmost drop-down list) and set to **All&ast;**. This means that your segment currently finds *all* the contacts in your database, which is probably too many. Let's instead create a segment that just finds contacts who live in specific cities. To do that:  
    1. Change the drop-down list currently set to **All&ast;** to **addres1\_city**. This changes the query from one that finds all contacts to one that looks for contacts from a specific city or cities. It also adds two more inputs, which you'll use to finish defining this clause.

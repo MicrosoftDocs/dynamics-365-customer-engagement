@@ -51,7 +51,7 @@ Segments can be dynamic, static, or compound.
 When you first create a new segment, it is in a _draft_ state, which means that it is unlocked, so you can work with its definition and other settings, but you won't be able to use it in customer journeys or compound segments. When you are ready to use your segment, you must open it and select **Go Live** from the command bar, which enables it and moves to the _live_ state.
 
 > [!IMPORTANT]
-> While you are designing your segment, you can select the **Get estimated segment size** link to get an *estimate* for the number of contacts that will be included in the segment. This is only an estimate, and can be significantly different from your actual segment size. You must go live with the segment to view its exact size and membership.
+> While you are designing your segment, you can select the **Get estimated segment size** link to get an *estimate* for the number of contacts that will be included in the segment. This is only an estimate, and can be somewhat different from your actual segment size. You must go live with the segment to view its exact size and membership.
 
 If you need to edit a segment after it has gone live, open it and then select **Stop** from the command bar to put it back into the draft state.
 
@@ -109,7 +109,7 @@ Each group in your segment results in a list of contacts, which are selected by 
 Because the path ends with contacts, the result is a list of contacts who live in California and work for insurance companies that are on the **subscribers** list. (Many segment groups that you create will probably query the **Contacts** entity only, but even groups such as these might employ complex logic that combines multiple AND and OR clauses.)
 
 > [!IMPORTANT]
-> While you are designing your segment, you can select the **Get estimated segment size** link to get an *estimate* for the number of contacts that will be included in the segment. This is only an estimate, and can be significantly different from your actual segment size. You must go live with the segment to view its exact size and membership.
+> While you are designing your segment, you can select the **Get estimated segment size** link to get an *estimate* for the number of contacts that will be included in the segment. This is only an estimate, and can be somewhat different from your actual segment size. You must go live with the segment to view its exact size and membership.
 
 When working in the **Designer** view, you can build this query by using the **+ And** buttons and various drop-down lists to produce the following:
 
