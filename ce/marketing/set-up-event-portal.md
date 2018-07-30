@@ -67,3 +67,4 @@ The portal features a banner image for each event, and also shows speaker photos
 
 [Engage customers online with portals](portals.md)
 [Set up an event](set-up-event.md)  
+[Go live with publishable entities and track their status](go-live.md) 

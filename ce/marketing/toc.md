@@ -105,6 +105,7 @@
 #### [Engage customers online with portals](portals.md)
 #### [Create and run online surveys](surveys.md)
 
+### [Go live with publishable entities and track their status](go-live.md)
 ### [Analyze results to gain insights](insights.md)
 
 ## [Developer Guide](developer/marketing-developer-guide.md)

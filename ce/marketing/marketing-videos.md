@@ -22,6 +22,8 @@ topic-status: Drafting
 
 # Watch these videos to learn more about [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
 If you are new to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], then these videos will help you gain a quick understanding of the system and how to work with some of its most-used features.
 
 ## Get a quick overview

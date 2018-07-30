@@ -221,4 +221,5 @@ Here's an example of how to define a segment that starts by finding a collection
 ### See also
 
 [Create a segment](create-segment.md)  
-[Set up subscription lists and subscription centers](set-up-subscription-center.md)
+[Set up subscription lists and subscription centers](set-up-subscription-center.md)  
+[Go live with publishable entities and track their status](go-live.md)

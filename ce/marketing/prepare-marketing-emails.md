@@ -254,4 +254,5 @@ To publish a message, open it and select **Go Live**. [!INCLUDE[pn-microsoftcrm]
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)
 [Content blocks reference](content-blocks-reference.md)  
 [Work with email, page, and form templates](email-templates.md)  
-[Upload and use images and files](upload-images-files.md)
+[Upload and use images and files](upload-images-files.md)  
+[Go live with publishable entities and track their status](go-live.md)
