@@ -1,6 +1,6 @@
 ---
 title: "Configure notifications in Unified Service Desk | MicrosoftDocs"
-description: "Learn about configuring notifications in unified Service Desk."
+description: "Learn about configuring notifications in Unified Service Desk."
 keywords: ""
 ms.date: 08/03/2018
 ms.service:
@@ -30,7 +30,7 @@ Configure notifications in [!INCLUDE[pn_unified_service_desk](../includes/pn-uni
   
  Notifications can be global or session-based. Global notifications are displayed outside of a session and will hide only if it times out or is explicitly closed by the user. Session-based notifications appear only within a session, and switching to another session will hide the notification. Switching back to the session with notification displays the notification again until it times out or is explicitly closed by the user.
 
-You can use use the Alt+1 keys (default) to set your focus on a notification. If there are multiple notifications displayed, you can press Alt+1 repeatedly to cycle through all the active notifications on your screen. To change the default keyboard shortcut keys for notifications, use the new **PopupNavigationShortcut** UII option to specify the shortcut keys of your choice. More information: [Manage Options for Unified Service Desk](admin/manage-options-unified-service-desk.md)  
+You can use the Alt+1 keys (default) to set your focus on a notification. If there are multiple notifications displayed, you can press Alt+1 repeatedly to cycle through all the active notifications on your screen. To change the default keyboard shortcut keys for notifications, use the new **PopupNavigationShortcut** UII option to specify the shortcut keys of your choice. More information: [Manage Options for Unified Service Desk](admin/manage-options-unified-service-desk.md)  
   
 <a name="Define"></a>   
 ## Define layout and behavior of notification using forms  
@@ -52,13 +52,13 @@ You can use use the Alt+1 keys (default) to set your focus on a notification. If
 >   
 >  `xmlns:CCA="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"`  
   
-- **UII action**: To execute an UII action from the form XAML, specify the following values for `Command` and `CommandParameter`.  
+- **UII action**: To execute a UII action from the form XAML, specify the following values for `Command` and `CommandParameter`.  
   
      `Command`  
      CCA:ActionCommands.DoActionCommand  
   
   **CommandParameter**  
-     The command parameter must contain the name of the hosted control on which the action is to be executed, the name of the UII action and the optional action data. All these values have to be specified in the following URL format: `http://uii/[HostedControlName]/[UIIActionName]?[ActionData]`.  
+     The command parameter must contain the name of the hosted control on which the action is to be executed, the name of the UII action, and the optional action data. All these values have to be specified in the following URL format: `http://uii/[HostedControlName]/[UIIActionName]?[ActionData]`.  
   
      Note that the different parts of the URL must be encoded if required as per standard guidelines. For example, the space character has to be encoded as “%20” or ‘+’.  
   
@@ -211,13 +211,13 @@ The added custom parameter can be used in the form XAML as replacement parameter
 
  ### Stack notifications
 
- You can also configure the stack notification by adding the **stack** parameter in the **Data** field of **Show** action. The parameter takes boolean value. Unified Service Desk shows the notifications in stack when the parameter is set to **true**. The default value is **false**. If you do not specify any value, the default value (false) is passed. For example, **stack = true**, shows the notifications in stack.
+ You can also configure the stack notification by adding the **stack** parameter in the **Data** field of **Show** action. The parameter takes a Boolean value. Unified Service Desk shows the notifications in stack when the parameter is set to **true**. The default value is **false**. If you do not specify any value, the default value (false) is passed. For example, **stack = true**, shows the notifications in stack.
 
  Also, you can define the height of the stack by defining the **stackHeight** parameter. The value range is 1 - 100. The default value is 50. If you do not specify any value, the default value (50) is passed. Also, if you specify 0 or specify more than 100, default value (50) is passed. For example, **stackHeight = 60**.
 
  For more information about the parameters, see  [Popup Notification (Hosted Control)](../unified-service-desk/popup-notification-hosted-control.md).
 
- The order of the notification in the stack is top to bottom, where the newest notification appears in the bottom. A maximum of 5 stack notification can be displayed at any give point.
+ The order of the notification in the stack is top to bottom, where the newest notification appears at the bottom. A maximum of five stack notification can be displayed at any given point.
 
  > [!Note]
  > When there are more than 5 notifications, the new notification overlays the recently shown notification.</br> For example, you see 5 notifications in stack. Now, 6th notification is incoming, then the 6th notification overlays the 5th notification. Similarly, when the 7th notification is incoming, it overlays the 6th notification.<br/>
@@ -231,7 +231,7 @@ The added custom parameter can be used in the form XAML as replacement parameter
   
 2. Create a `Popup Notification` control, and keep it global. For example, create a control with the following name: `MaxSessionNotificationControl`.
 
-    ![Hosted control for with USD Component type as Popup Notification](../unified-service-desk/media/usd-popupnotification-hosted-control.PNG "Hosted control for with USD Component type as Popup Notification")
+    ![Hosted control with USD Component type as Popup Notification](../unified-service-desk/media/usd-popupnotification-hosted-control.PNG "Hosted control with USD Component type as Popup Notification")
   
 3. Create an action call to display the notification.</br> For example, create an action call and specify the following: 
 
