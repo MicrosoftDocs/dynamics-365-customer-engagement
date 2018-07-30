@@ -1,21 +1,17 @@
 ---
-title: "Account Manager Guide (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
+
+title: Account Manager Guide (Dynamics 365 for Project Service Automation) | MicrosoftDocs
+description: An account manager's guide for PSA that walks through the sales and contracts process for project-based accounts
+author: krbjoran
+manager: ShellyHaverkamp
+ms.date: 7/30/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
 ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-ms.assetid: 5bdcde76-ca72-4a4b-8932-05f9708a1b7e
-caps.latest.revision: 14
-ms.author: "mkaur"
-manager: "brycho"
+ms.author: krbjoran
+audience: Admin
+
 ---
 # Account Manager Guide (Project Service Automation)
 
