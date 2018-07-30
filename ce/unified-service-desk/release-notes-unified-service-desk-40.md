@@ -42,7 +42,7 @@ Now, if you login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-s
 
 Remove the **Custom Styles** XAML from the **About Tool Bar** and **Main** toolbar so that toolbar picks the **Air** theme colors.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]
 
 2. Go to **Settings** > **My Apps** > **Unified Service Desk Administrator** app.<br>
 
