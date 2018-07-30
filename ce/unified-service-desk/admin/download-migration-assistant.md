@@ -20,11 +20,11 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# Download the Migration Assitant for migrating the Unified Service Desk configurations from Web Client to Unified Interface App
+# Download Migration Assistant to migrate Unified Service Desk configurations from Web Client to Unified Interface App
 
 ## Download Web Client - Unified Interface Migration Assistant
 
-The Web Client - Unified Interface Migration Assistant is an executable file, which you can download and save it in your machine. After downloading, you can run the executable file to start the migration process.
+The Web Client - Unified Interface Migration Assistant is an executable file that you can download and save on your machine. After downloading, you can run the executable file to start the migration process.
 
 Download the [Web Client – Unified Interface Migration Assistant](https://go.microsoft.com/fwlink/?linkid=2005839).
 
@@ -33,10 +33,10 @@ Download the [Web Client – Unified Interface Migration Assistant](https://go.m
 The migration of Unified Service Desk configurations from Dynamics 365 Web Client to Unified Interface App is a three step process:
 
 - Fetch and migrate the configuration elements to a **USD_UI_Configurations** folder using the Web Client - Unified Interface Migration Assistant.
-- Import the **USDWebResources** folder, which is in **USD_UI_Configurations** folder, using the **Solutions** option in the Dynamics 365.
+- Import the **USDWebResources** folder, which is in the **USD_UI_Configurations** folder, using the **Solutions** option in the Dynamics 365.
 - Import the **Data** zip folder from the **USD_UI_Configurations** folder to the Unified Interface App using the Configuration Migration Tool (DataMigrationUtility.exe).
 
-Hence, you must download the Configuration Migration Tool (DataMigrationUtility.exe), which is available as a [NuGet package](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf). 
+You must download the Configuration Migration Tool (DataMigrationUtility.exe), which is available as a [NuGet package](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf). 
 
 To download the tool, see [Download the tools from NuGet](../../developer/download-tools-nuget.md). Follow the steps on this page to extract the Configuration Migration Tool (DataMigrationUtility.exe).
 
