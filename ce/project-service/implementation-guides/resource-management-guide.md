@@ -21,5 +21,5 @@ The ability to find the right resources at the right time, book those resources 
 
 This English-language document explains the resource management capabilities of the Project Service app:
  
-[!div class="nextstepaction"]
+> [!div class="nextstepaction"]
 > [Download PDF of the resource management guide](https://go.microsoft.com/fwlink/?linkid=2006742)
