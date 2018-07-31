@@ -109,7 +109,7 @@ To close an opportunity, open the opportunity record, and on the command bar, se
 Here are some errors that you may see while you close an opportunity. 
 1.  [The opportunity cannot be closed](troubleshooting.md#CannotBeClosed)
 2.  [Access denied or Insufficient permissions](troubleshooting.md#AccessDeniedOpportunity)
-3.  [The opportunity has already been closed](troubleshooting.md@AlreadyClosed)
+3.  [The opportunity has already been closed](troubleshooting.md#AlreadyClosed)
 
 The following sections talk about each of these errors and how you can resolve them.
 
