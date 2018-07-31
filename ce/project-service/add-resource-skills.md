@@ -13,7 +13,7 @@ ms.author: krbjoran
 audience: Admin
 
 ---
-# Add resource skills (Project Service Automation)
+# Add resource skills (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
