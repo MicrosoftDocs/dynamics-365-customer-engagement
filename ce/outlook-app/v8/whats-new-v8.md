@@ -21,14 +21,14 @@ manager: "brycho"
 
 [!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
-### Jul 12 
+### July 12, 2018 
 1. Addressed bug fixes. 
 
-### Jun 14 
+### June 14, 2018 
 1. Fix for appointment attachments not synchronizing from Outlook to Dynamics 365. 
 2. Addressed other bug fixes.
 
-### May 20 
+### May 20, 2018 
 1. [Experience App for Outlook as a pinnable taskpane.](dynamics-365-app-outlook-user-s-guide-v8.md) 
 2. Address reliability fixes. 
 
