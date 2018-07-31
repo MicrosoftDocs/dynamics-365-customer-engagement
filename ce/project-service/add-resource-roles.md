@@ -1,7 +1,7 @@
 ---
 
-title: Add resource roles (Dynamics 365 for Project Service Automation) | MicrosoftDocs
-description: How to assign a role for Project Service resources
+title: Add resource roles (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to assign a role to Project Service resources
 author: krbjoran
 manager: ShellyHaverkamp
 ms.date: 7/31/2018
@@ -13,7 +13,7 @@ ms.author: krbjoran
 audience: Admin
 
 ---
-# Add resource roles (Project Service Automation)
+# Add resource roles (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
