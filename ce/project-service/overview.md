@@ -31,7 +31,7 @@ The Project Service app helps organizations efficiently track, manage, and deliv
 - Use reports and interactive dashboards to monitor key performance indicators for successful projects
 - ...and more
 
-In addition, to help you maintain cost control for your project-based work, individual consultants 
+In addition, to help you monitor and control costs for your project-based work, individual consultants 
 easily enter and track project time and expenses either on mobile or using a web browser.   
 
 ## Get help with app version 3.x
