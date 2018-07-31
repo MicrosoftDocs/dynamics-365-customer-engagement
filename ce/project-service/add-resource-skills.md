@@ -1,23 +1,17 @@
 ---
-title: "Add resource skills (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom:
-  - dyn365-projectservice
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+
+title: Add resource skills (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to associate skills with resources in Project Service
 author: krbjoran
-ms.assetid: 08750b96-0f6b-4e7e-a179-3b710c3922d7
-caps.latest.revision: 10
+manager: ShellyHaverkamp
+ms.date: 7/31/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
+ms.technology: 
 ms.author: krbjoran
-manager: shellyha
+audience: Admin
+
 ---
 # Add resource skills (Project Service Automation)
 
