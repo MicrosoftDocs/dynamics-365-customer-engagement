@@ -1,7 +1,7 @@
 ---
 
 title: Add resources (Dynamics 365 for Project Service) | MicrosoftDocs
-description: How to add, configure, and use the Microsoft Project add-in for Project Service
+description: How to add resources in Project Service
 author: krbjoran
 manager: ShellyHaverkamp
 ms.date: 7/31/2018
@@ -19,7 +19,7 @@ audience: Admin
 
 Add resources so you can book them for projects. Resources can include users, contacts, accounts, groups, or equipment—anything that you might want to include in your project scheduling and invoicing.  
   
- You can assign resources to organizational units if you need to have different costing and pricing for resources for different divisions in your company.  
+You can assign resources to organizational units if you need to have different costing and pricing for resources for different divisions in your company.  
   
 1.  Go to **Project Service > Resources.**  
   
