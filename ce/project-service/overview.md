@@ -39,9 +39,9 @@ Looking for resources to help plan your implementation? Check out these download
 
  [Project planning and tracking guide](../project-service/implementation-guides/project-planning-tracking.md)  
 
- [Basic quoting, princing, and billing guide](../project-service/implementation-guides/begin-quoting-pricing-billing.md)  
+ [Basic quoting, pricing, and billing guide](../project-service/implementation-guides/begin-quoting-pricing-billing.md)  
 
- [Advanced quoting, princing, and billing guide](../project-service/implementation-guides/adv-quoting-pricing-billing.md)  
+ [Advanced quoting, pricing, and billing guide](../project-service/implementation-guides/adv-quoting-pricing-billing.md)  
 
  [Resource management guide](../project-service/implementation-guides/resource-management-guide.md) 
  
