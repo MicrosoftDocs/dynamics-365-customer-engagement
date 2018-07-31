@@ -37,7 +37,7 @@ Refer the section below to know the types of search mechanisms available:
 
 ## Search for knowledge base
 
-You can search the knowledge base from the following search points in the app:
+You can search the knowledge base from the following areas in the app:
 
 - **Knowledge base search control** - In the app, select a case by navigating to **Service** > **Cases**. In the **Related** section (also known as Reference panel), select **Knowledge Base Search** and search for knowledge articles using keywords in the search box. 
   
@@ -62,9 +62,9 @@ You can search the knowledge base from the following search points in the app:
 > You can search the knowledge base using Portals also. See [Use faceted search to improve portal search](../portals/improve-portal-search-faceted-search.md) for more information.
 
 
-With each of the above search points, the search results might vary based on the underlying search mechanism used:
+With each of the above search areas, the search results might vary based on the underlying search mechanism used:
 
-|Version  | App |Search points| Search mechanism  |
+|Version  | App |Search areas| Search mechanism  |
 |---------|---------|---------|---------|
 | 8.2  |   Any app (based on any client)    |     - KB search control <br>  - Quick find in Grids   |   Full-Text search    |
 |   |     |      - Global search  |   Categorized search     |
