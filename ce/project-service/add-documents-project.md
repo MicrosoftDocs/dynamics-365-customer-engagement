@@ -1,7 +1,7 @@
 ---
 
-title: Add documents to a project (Dynamics 365 for Project Service Automation) | MicrosoftDocs
-description: Steps to add a document to a project in PSA
+title: Add documents to a project (Dynamics 365 for Project Service) | MicrosoftDocs
+description: Steps to add a document to a project in Project Service
 author: krbjoran
 manager: ShellyHaverkamp
 ms.date: 7/30/2018
@@ -14,7 +14,7 @@ audience: Admin
 
 ---
 
-# Add documents to a project (Project Service Automation)
+# Add documents to a project (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
