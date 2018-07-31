@@ -30,16 +30,16 @@ This topic contains information about changes in [!INCLUDE[pn_unified_service_de
 ## What's new in [!INCLUDE[pn-unified-service-desk-4-0](../../includes/pn-unified-service-desk-4-0.md)]
 
 ### Web Client - Unified Interface Migration Assistant
-The Web Client - Unified Interface Migration Assistant for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] helps you to migrate your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client to a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Unified Interface App.
+The Web Client - Unified Interface Migration Assistant for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] helps you migrate your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client to a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Unified Interface App.
 
-The migration assistant helps with the following:
+The migration assistant helps with the migration of:
 
-- Migration of **CRM Page** hosted controls to **Unified Interface Page** hosted controls.
-- Migration of **RunXRM** commands as web resources.
-- Migration of events and actions that are only supported in Web Client to the corresponding events and actions in Unified Interface App.
-- Migration of actions, action calls, events, and window navigation rules associated with the hosted control to Unified Interface App.
-- Migration of Dashboards and Search hosted controls.
-- Migration of **KM Control** to **Unified Interface KM Control**.
+- **CRM Page** hosted controls to **Unified Interface Page** hosted controls.
+- **RunXRM** commands as web resources.
+- Events and actions that are only supported in Web Client to the corresponding events and actions in Unified Interface App.
+- Actions, action calls, events, and window navigation rules associated with the hosted control to Unified Interface App.
+- Dashboards and Search hosted controls.
+- **KM Control** to **Unified Interface KM Control**.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Web Client - Unified Interface Migration Assistant](../admin/overview-migration-assistant.md)
 
@@ -53,19 +53,19 @@ Your service agents can use the **Unified Interface KM Control** hosted control 
 
 ### Preview Feature: Unified Service Desk Administrator App
 
-With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] 4.0, you can use [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator App built on the Unified Interface framework to administer and manage the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
+With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] 4.0, you can use the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator App built on the Unified Interface framework to administer and manage the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
 
-The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app is built on the Unified Interface framework, which has a new user experience - **Unified Interface** - which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
+The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app is built on the Unified Interface framework, which has a new user experience - **Unified Interface** - that uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
 
-The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app brings rich experience to administrate and manage your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
+The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app brings rich experience to administer and manage your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
 
-The Administrator app built based on the Unified Interface framework has the same configurational capabilities as the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrator in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client. 
+The Administrator app, built based on the Unified Interface framework has the same configurational capabilities as the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrator in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client. 
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Preview Feature: Unified Service Desk Administrator App](../admin/unified-service-desk-administrator-app.md)
 
 ### Preview Feature: Unified Interface Settings
 
-Unified Interface Settings is a new configuration element introduced under the **Advanced Settings** in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app. Unified Interface Settings enables you as an administrator to configure the default Unified Interface App for your agents and transform the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] login experience.
+Unified Interface Settings is a new configuration element introduced under the **Advanced Settings** in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app. Unified Interface Settings enables you as an administrator to configure the default Unified Interface App for your agents and transform the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in experience.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Preview Feature: Unified Interface Settings](../admin/unified-interface-settings.md)
 
@@ -76,13 +76,13 @@ While working on [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-se
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure close confirmation window for Unified Service Desk](../admin/configure-close-confirmation-window.md)
 
 ### Preview feature: Show feedback window to agents
-A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], which appears for the agent to provide feedback while closing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. Agents can provide feedback comments with the score and submit it to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. The comments are assessed and considered for improving the products and services.
+A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to help an agent to provide feedback while closing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. Agents can provide feedback comments with the score and submit it to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. The comments are assessed and considered for improving the products and services.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Mange options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
 
 ### Unified Blue theme for Unified Service Desk
 
-The Unified Blue theme is the predefined theme for Unified Service Desk when you are using an Unified Interface App.
+The Unified Blue theme is the predefined theme for Unified Service Desk when you are using a Unified Interface App.
 
 <a name="NewIn330"></a>
 ## What's new in [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)]
