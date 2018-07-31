@@ -121,4 +121,6 @@
 ## [Rate a webpage or blog article](rate-webpage-blog-post.md)
 ## [Enable header and footer output caching on a portal](enable-header-footer-output-caching.md)
 
+# [Dynamics 365 Portal FAQ](portal-faq.md)
+
 # [Legacy Adxstudio Portals v7 FAQ](legacy-portal-faq.md)
