@@ -103,7 +103,13 @@ Add users (agents) to a **Configuration** and add a record to the **Unified Inte
 
 ### Scenario 2: Users (agents) assigned to Configuration without a Unified Interface Settings record
 
-Add users (agents) to a **Configuration**, and the **Unified Interface Settings** field is empty in the **Configuration**. In this scenario, when the user (agent) added to the configuration signs in to Unified Service Desk, the **Configuration** picks the first record from the **Active Unified Interface Settings** list. As per the **Unified Interface Settings** record picked by **Configuration**, the system authenticates the user (agent) and displays the landing page of the Unified Interface App.
+Add users (agents) to a **Configuration**, and the **Unified Interface Settings** field is empty in the **Configuration**. In this scenario consider three cases:
+
+ - If there is a default **Configuration** with a **Unified Interface Settings** record assigned, then the system authenticates the user (agent) and displays the landing page of Unified Interface App.
+
+ - If there is a default **Configuration** with no **Unified Interface Settings** record, then during login, the system displays the application selection window for the user (agent) to select Unified Interface App.
+
+ - If there is no default **Configuration**, then during login, the system displays the application selection window for the user (agent) to select Unified Interface App.
 
 ### Scenario 3: Users (agents) assigned to Configuration, and Unified Interface Settings record is not created
 
