@@ -85,6 +85,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_currency"></a> msdyn_currency
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the currency that the organization uses to track its costs.|
@@ -101,6 +102,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_description"></a> msdyn_description
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Enter a description of the organizational unit.|
@@ -607,6 +609,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_organizationalunit_SyncErrors"></a> msdyn_organizationalunit_SyncErrors
 
 Same as syncerror entity [msdyn_organizationalunit_SyncErrors](syncerror.md#BKMK_msdyn_organizationalunit_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -621,6 +624,7 @@ Same as syncerror entity [msdyn_organizationalunit_SyncErrors](syncerror.md#BKMK
 ### <a name="BKMK_msdyn_organizationalunit_DuplicateMatchingRecord"></a> msdyn_organizationalunit_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_organizationalunit_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_organizationalunit_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -635,6 +639,7 @@ Same as duplicaterecord entity [msdyn_organizationalunit_DuplicateMatchingRecord
 ### <a name="BKMK_msdyn_organizationalunit_DuplicateBaseRecord"></a> msdyn_organizationalunit_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_organizationalunit_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_organizationalunit_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -649,6 +654,7 @@ Same as duplicaterecord entity [msdyn_organizationalunit_DuplicateBaseRecord](du
 ### <a name="BKMK_msdyn_organizationalunit_AsyncOperations"></a> msdyn_organizationalunit_AsyncOperations
 
 Same as asyncoperation entity [msdyn_organizationalunit_AsyncOperations](asyncoperation.md#BKMK_msdyn_organizationalunit_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -663,6 +669,7 @@ Same as asyncoperation entity [msdyn_organizationalunit_AsyncOperations](asyncop
 ### <a name="BKMK_msdyn_organizationalunit_MailboxTrackingFolders"></a> msdyn_organizationalunit_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_organizationalunit_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_organizationalunit_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -677,6 +684,7 @@ Same as mailboxtrackingfolder entity [msdyn_organizationalunit_MailboxTrackingFo
 ### <a name="BKMK_msdyn_organizationalunit_UserEntityInstanceDatas"></a> msdyn_organizationalunit_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_organizationalunit_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_organizationalunit_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -691,6 +699,7 @@ Same as userentityinstancedata entity [msdyn_organizationalunit_UserEntityInstan
 ### <a name="BKMK_msdyn_organizationalunit_ProcessSession"></a> msdyn_organizationalunit_ProcessSession
 
 Same as processsession entity [msdyn_organizationalunit_ProcessSession](processsession.md#BKMK_msdyn_organizationalunit_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -705,6 +714,7 @@ Same as processsession entity [msdyn_organizationalunit_ProcessSession](processs
 ### <a name="BKMK_msdyn_organizationalunit_BulkDeleteFailures"></a> msdyn_organizationalunit_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_organizationalunit_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_organizationalunit_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -719,6 +729,7 @@ Same as bulkdeletefailure entity [msdyn_organizationalunit_BulkDeleteFailures](b
 ### <a name="BKMK_msdyn_organizationalunit_PrincipalObjectAttributeAccesses"></a> msdyn_organizationalunit_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_organizationalunit_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_organizationalunit_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -733,6 +744,7 @@ Same as principalobjectattributeaccess entity [msdyn_organizationalunit_Principa
 ### <a name="BKMK_msdyn_organizationalunit_Annotations"></a> msdyn_organizationalunit_Annotations
 
 Same as annotation entity [msdyn_organizationalunit_Annotations](annotation.md#BKMK_msdyn_organizationalunit_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -747,6 +759,7 @@ Same as annotation entity [msdyn_organizationalunit_Annotations](annotation.md#B
 ### <a name="BKMK_msdyn_msdyn_organizationalunit_bookableresource_organizationalunit"></a> msdyn_msdyn_organizationalunit_bookableresource_organizationalunit
 
 Same as bookableresource entity [msdyn_msdyn_organizationalunit_bookableresource_organizationalunit](bookableresource.md#BKMK_msdyn_msdyn_organizationalunit_bookableresource_organizationalunit) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresource|
@@ -761,6 +774,7 @@ Same as bookableresource entity [msdyn_msdyn_organizationalunit_bookableresource
 ### <a name="BKMK_msdyn_organizationalunit_requirementorganizationunit_OrganizationalUnit"></a> msdyn_organizationalunit_requirementorganizationunit_OrganizationalUnit
 
 Same as msdyn_requirementorganizationunit entity [msdyn_organizationalunit_requirementorganizationunit_OrganizationalUnit](msdyn_requirementorganizationunit.md#BKMK_msdyn_organizationalunit_requirementorganizationunit_OrganizationalUnit) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_requirementorganizationunit|
@@ -775,6 +789,7 @@ Same as msdyn_requirementorganizationunit entity [msdyn_organizationalunit_requi
 ### <a name="BKMK_msdyn_msdyn_organizationalunit_msdyn_actual_ContractOrganizationalUnitId"></a> msdyn_msdyn_organizationalunit_msdyn_actual_ContractOrganizationalUnitId
 
 Same as msdyn_actual entity [msdyn_msdyn_organizationalunit_msdyn_actual_ContractOrganizationalUnitId](msdyn_actual.md#BKMK_msdyn_msdyn_organizationalunit_msdyn_actual_ContractOrganizationalUnitId) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_actual|
@@ -789,6 +804,7 @@ Same as msdyn_actual entity [msdyn_msdyn_organizationalunit_msdyn_actual_Contrac
 ### <a name="BKMK_msdyn_msdyn_organizationalunit_msdyn_invoicelinetransaction_ContractOrganizationalUnitId"></a> msdyn_msdyn_organizationalunit_msdyn_invoicelinetransaction_ContractOrganizationalUnitId
 
 Same as msdyn_invoicelinetransaction entity [msdyn_msdyn_organizationalunit_msdyn_invoicelinetransaction_ContractOrganizationalUnitId](msdyn_invoicelinetransaction.md#BKMK_msdyn_msdyn_organizationalunit_msdyn_invoicelinetransaction_ContractOrganizationalUnitId) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_invoicelinetransaction|
@@ -803,6 +819,7 @@ Same as msdyn_invoicelinetransaction entity [msdyn_msdyn_organizationalunit_msdy
 ### <a name="BKMK_msdyn_msdyn_organizationalunit_msdyn_journalline_ContractOrganizationalUnitId"></a> msdyn_msdyn_organizationalunit_msdyn_journalline_ContractOrganizationalUnitId
 
 Same as msdyn_journalline entity [msdyn_msdyn_organizationalunit_msdyn_journalline_ContractOrganizationalUnitId](msdyn_journalline.md#BKMK_msdyn_msdyn_organizationalunit_msdyn_journalline_ContractOrganizationalUnitId) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_journalline|
@@ -817,6 +834,7 @@ Same as msdyn_journalline entity [msdyn_msdyn_organizationalunit_msdyn_journalli
 ### <a name="BKMK_msdyn_organizationalunit_actual"></a> msdyn_organizationalunit_actual
 
 Same as msdyn_actual entity [msdyn_organizationalunit_actual](msdyn_actual.md#BKMK_msdyn_organizationalunit_actual) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_actual|
@@ -831,6 +849,7 @@ Same as msdyn_actual entity [msdyn_organizationalunit_actual](msdyn_actual.md#BK
 ### <a name="BKMK_msdyn_organizationalunit_estimateline"></a> msdyn_organizationalunit_estimateline
 
 Same as msdyn_estimateline entity [msdyn_organizationalunit_estimateline](msdyn_estimateline.md#BKMK_msdyn_organizationalunit_estimateline) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_estimateline|
@@ -845,6 +864,7 @@ Same as msdyn_estimateline entity [msdyn_organizationalunit_estimateline](msdyn_
 ### <a name="BKMK_msdyn_organizationalunit_expense"></a> msdyn_organizationalunit_expense
 
 Same as msdyn_expense entity [msdyn_organizationalunit_expense](msdyn_expense.md#BKMK_msdyn_organizationalunit_expense) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_expense|
@@ -859,6 +879,7 @@ Same as msdyn_expense entity [msdyn_organizationalunit_expense](msdyn_expense.md
 ### <a name="BKMK_msdyn_organizationalunit_invoicelinetransaction"></a> msdyn_organizationalunit_invoicelinetransaction
 
 Same as msdyn_invoicelinetransaction entity [msdyn_organizationalunit_invoicelinetransaction](msdyn_invoicelinetransaction.md#BKMK_msdyn_organizationalunit_invoicelinetransaction) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_invoicelinetransaction|
@@ -873,6 +894,7 @@ Same as msdyn_invoicelinetransaction entity [msdyn_organizationalunit_invoicelin
 ### <a name="BKMK_msdyn_organizationalunit_journalline"></a> msdyn_organizationalunit_journalline
 
 Same as msdyn_journalline entity [msdyn_organizationalunit_journalline](msdyn_journalline.md#BKMK_msdyn_organizationalunit_journalline) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_journalline|
@@ -887,6 +909,7 @@ Same as msdyn_journalline entity [msdyn_organizationalunit_journalline](msdyn_jo
 ### <a name="BKMK_msdyn_organizationalunit_opportunity"></a> msdyn_organizationalunit_opportunity
 
 Same as opportunity entity [msdyn_organizationalunit_opportunity](opportunity.md#BKMK_msdyn_organizationalunit_opportunity) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunity|
@@ -901,6 +924,7 @@ Same as opportunity entity [msdyn_organizationalunit_opportunity](opportunity.md
 ### <a name="BKMK_msdyn_organizationalunit_opportunitylinedetail"></a> msdyn_organizationalunit_opportunitylinedetail
 
 Same as msdyn_opportunitylinetransaction entity [msdyn_organizationalunit_opportunitylinedetail](msdyn_opportunitylinetransaction.md#BKMK_msdyn_organizationalunit_opportunitylinedetail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_opportunitylinetransaction|
@@ -915,6 +939,7 @@ Same as msdyn_opportunitylinetransaction entity [msdyn_organizationalunit_opport
 ### <a name="BKMK_msdyn_organizationalunit_orderlinetransaction"></a> msdyn_organizationalunit_orderlinetransaction
 
 Same as msdyn_orderlinetransaction entity [msdyn_organizationalunit_orderlinetransaction](msdyn_orderlinetransaction.md#BKMK_msdyn_organizationalunit_orderlinetransaction) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderlinetransaction|
@@ -929,6 +954,7 @@ Same as msdyn_orderlinetransaction entity [msdyn_organizationalunit_orderlinetra
 ### <a name="BKMK_msdyn_organizationalunit_project"></a> msdyn_organizationalunit_project
 
 Same as msdyn_project entity [msdyn_organizationalunit_project](msdyn_project.md#BKMK_msdyn_organizationalunit_project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_project|
@@ -943,6 +969,7 @@ Same as msdyn_project entity [msdyn_organizationalunit_project](msdyn_project.md
 ### <a name="BKMK_msdyn_organizationalunit_projecttask"></a> msdyn_organizationalunit_projecttask
 
 Same as msdyn_projecttask entity [msdyn_organizationalunit_projecttask](msdyn_projecttask.md#BKMK_msdyn_organizationalunit_projecttask) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projecttask|
@@ -957,6 +984,7 @@ Same as msdyn_projecttask entity [msdyn_organizationalunit_projecttask](msdyn_pr
 ### <a name="BKMK_msdyn_organizationalunit_quote"></a> msdyn_organizationalunit_quote
 
 Same as quote entity [msdyn_organizationalunit_quote](quote.md#BKMK_msdyn_organizationalunit_quote) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quote|
@@ -971,6 +999,7 @@ Same as quote entity [msdyn_organizationalunit_quote](quote.md#BKMK_msdyn_organi
 ### <a name="BKMK_msdyn_organizationalunit_quotelinetransaction"></a> msdyn_organizationalunit_quotelinetransaction
 
 Same as msdyn_quotelinetransaction entity [msdyn_organizationalunit_quotelinetransaction](msdyn_quotelinetransaction.md#BKMK_msdyn_organizationalunit_quotelinetransaction) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelinetransaction|
@@ -985,6 +1014,7 @@ Same as msdyn_quotelinetransaction entity [msdyn_organizationalunit_quotelinetra
 ### <a name="BKMK_msdyn_organizationalunit_salesorder"></a> msdyn_organizationalunit_salesorder
 
 Same as salesorder entity [msdyn_organizationalunit_salesorder](salesorder.md#BKMK_msdyn_organizationalunit_salesorder) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|salesorder|
@@ -999,6 +1029,7 @@ Same as salesorder entity [msdyn_organizationalunit_salesorder](salesorder.md#BK
 ### <a name="BKMK_msdyn_organizationalunit_timeentry"></a> msdyn_organizationalunit_timeentry
 
 Same as msdyn_timeentry entity [msdyn_organizationalunit_timeentry](msdyn_timeentry.md#BKMK_msdyn_organizationalunit_timeentry) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_timeentry|
@@ -1013,6 +1044,7 @@ Same as msdyn_timeentry entity [msdyn_organizationalunit_timeentry](msdyn_timeen
 ### <a name="BKMK_msdyn_projectparameter_defaultorganizationalunit"></a> msdyn_projectparameter_defaultorganizationalunit
 
 Same as msdyn_projectparameter entity [msdyn_projectparameter_defaultorganizationalunit](msdyn_projectparameter.md#BKMK_msdyn_projectparameter_defaultorganizationalunit) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projectparameter|
@@ -1027,6 +1059,7 @@ Same as msdyn_projectparameter entity [msdyn_projectparameter_defaultorganizatio
 ### <a name="BKMK_msdyn_resourcecategorypricelevel_organizationalunit"></a> msdyn_resourcecategorypricelevel_organizationalunit
 
 Same as msdyn_resourcecategorypricelevel entity [msdyn_resourcecategorypricelevel_organizationalunit](msdyn_resourcecategorypricelevel.md#BKMK_msdyn_resourcecategorypricelevel_organizationalunit) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourcecategorypricelevel|

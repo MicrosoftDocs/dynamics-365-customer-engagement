@@ -26,47 +26,47 @@ All reports that are created using the Report Wizard are Fetch-based reports. No
   
     #### Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)].  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)].  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_reports](../includes/proc-reports.md)]  
   
-3.  To add a new report, click **New**.  
+3. To add a new report, click **New**.  
   
-4.  In the **Report: New Report** dialog box, in the **Report Type** list, select **Report Wizard Report**, and then click **Report Wizard**.  
+4. In the **Report: New Report** dialog box, in the **Report Type** list, select **Report Wizard Report**, and then click **Report Wizard**.  
   
-     You can only use the Report Wizard to edit reports that were created with the wizard.  
+    You can only use the Report Wizard to edit reports that were created with the wizard.  
   
-5.  Select the starting point for your report.  
+5. Select the starting point for your report.  
   
-    1.  To create a new report, select **Start a new report**.  
+   1.  To create a new report, select **Start a new report**.  
   
-         \- OR -  
+        \- OR -  
   
-         To start from a copy or edit an existing report, click **Start from an existing report**, and check the **Overwrite existing report** check box.  
+        To start from a copy or edit an existing report, click **Start from an existing report**, and check the **Overwrite existing report** check box.  
   
-    2.  Click **Next**.  
+   2.  Click **Next**.  
   
-6.  Enter the name of the report, and specify which record types the report will use.  
+6. Enter the name of the report, and specify which record types the report will use.  
   
-     This step identifies where the data in the report comes from. You can include data from one or two record types, or data from related records.  
+    This step identifies where the data in the report comes from. You can include data from one or two record types, or data from related records.  
   
-    1.  Enter data in the fields:  
+   1.  Enter data in the fields:  
   
-        - **Report name**. This value will be displayed in the reports area.  
+       - **Report name**. This value will be displayed in the reports area.  
   
-        - **Primary record type**. Data from all fields in this record type and related record types will be available when you are defining criteria for which records to include.  
+       - **Primary record type**. Data from all fields in this record type and related record types will be available when you are defining criteria for which records to include.  
   
-        - **Related record type**. If you need to display data from a related record type, select an additional record type here.  
+       - **Related record type**. If you need to display data from a related record type, select an additional record type here.  
   
-        > [!CAUTION]
-        >  Avoid selecting data from a related record type that is not required, as it makes the report take longer to load.  
+       > [!CAUTION]
+       >  Avoid selecting data from a related record type that is not required, as it makes the report take longer to load.  
   
-    2.  Click **Next**.  
+   2.  Click **Next**.  
   
-7.  Define a filter to determine which records are included in your report.  
-## Organize and lay out your report data
+7. Define a filter to determine which records are included in your report.  
+   ## Organize and lay out your report data
   
 For detailed information on laying out your report, see [Organize and lay out your report data](../basics/organize-lay-out-your-report-data.md).  
   

@@ -36,16 +36,17 @@ Need Support? [Search the knowledge base or contact technical support](http://go
 
 The following table lists the walkthroughs that are available in this SDK documentation.
 
-|Category|Link|
-|--------------|----------|
-|Quick Start|[Run a Simple Program Using Dynamics 365 Web Services](simple-program-web-services.md)|
-|App Development|[Walkthrough: Register a Dynamics 365 app with Active Directory](walkthrough-register-app-active-directory.md)|
-|Plugins|[Walkthrough: Configure Assembly Security for an Offline Plug-in](walkthrough-configure-assembly-security-offline-plugin.md)|
-|Plugins|[Walkthrough: Register a Plug-in using the Plug-in Registration Tool](walkthrough-register-plugin-using-plugin-registration-tool.md)|
-|Plugins|[Walkthrough: Register an Azure-aware Plug-in using the Plug-in Registration Tool](walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md)|
-|[!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)]|[Walkthrough: Update a service endpoint from ACS to SAS authorization](walkthrough-update-service-endpoint-acs-sas-authorization.md)|
-|[!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)]|[Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365](walkthrough-configure-azure-sas-integration.md)|
-|Client API|[Walkthrough: Write your first client script](clientapi/walkthrough-write-your-first-client-script.md)|
+
+|                           Category                            |                                                                              Link                                                                               |
+|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                          Quick Start                          |                                     [Run a Simple Program Using Dynamics 365 Web Services](simple-program-web-services.md)                                      |
+|                        App Development                        |                         [Walkthrough: Register a Dynamics 365 app with Active Directory](walkthrough-register-app-active-directory.md)                          |
+|                            Plugins                            |                  [Walkthrough: Configure Assembly Security for an Offline Plug-in](walkthrough-configure-assembly-security-offline-plugin.md)                   |
+|                            Plugins                            |              [Walkthrough: Register a Plug-in using the Plug-in Registration Tool](walkthrough-register-plugin-using-plugin-registration-tool.md)               |
+|                            Plugins                            | [Walkthrough: Register an Azure-aware Plug-in using the Plug-in Registration Tool](walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md) |
+| [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] |              [Walkthrough: Update a service endpoint from ACS to SAS authorization](walkthrough-update-service-endpoint-acs-sas-authorization.md)               |
+| [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] |                [Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365](walkthrough-configure-azure-sas-integration.md)                 |
+|                          Client API                           |                             [Walkthrough: Write your first client script](clientapi/walkthrough-write-your-first-client-script.md)                              |
 
 <a name="bkmk_video"></a>
 

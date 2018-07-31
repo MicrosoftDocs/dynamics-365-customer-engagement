@@ -37,25 +37,25 @@ manager: "amyla"
   
  A quote can be associated with the following entities:  
   
--   One or more products and one price list  
+- One or more products and one price list  
   
--   One or more competitors  
+- One or more competitors  
   
--   An opportunity  
+- An opportunity  
   
--   A customer  
+- A customer  
   
--   One or more notes and attachments  
+- One or more notes and attachments  
   
--   One or more customer addresses  
+- One or more customer addresses  
   
- The `quote detail (quote product)` entity represents a line item in a quote. Each quote can have multiple quote detail (quote product) records.  
+  The `quote detail (quote product)` entity represents a line item in a quote. Each quote can have multiple quote detail (quote product) records.  
   
- The `quote close activity` entity represents an activity that is generated when a quote is closed.  
+  The `quote close activity` entity represents an activity that is generated when a quote is closed.  
   
- A sales order (order) is a quote that has been accepted. This entity is called an order in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+  A sales order (order) is a quote that has been accepted. This entity is called an order in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
- An invoice is an order that has been billed.  
+  An invoice is an order that has been billed.  
   
 ### See Also  
  [Quote Entity](entities/quote.md)   

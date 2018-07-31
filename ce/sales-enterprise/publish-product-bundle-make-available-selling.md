@@ -44,7 +44,7 @@ When you're ready to sell a product or bundle, publish it to make it available t
    This will change the product status to **Active** and make it available for selling.
 
 > [!TIP]
-
+> 
 > You can't publish multiple product records at the same time. To publish all child products and families of a parent family at once, open the family, and choose **Publish** > **Publish Hierarchy**. For product records that don't belong to a product family, publish them individually after creating or editing them to make them available to your sales agents.
 
 ## Publish a product or bundle (Sales app)
@@ -53,17 +53,17 @@ When you're ready to sell a product or bundle, publish it to make it available t
   
     #### Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
   
-3.  In the Product Catalog area, select **Families & Products**.  
+3. In the Product Catalog area, select **Families & Products**.  
   
-4.  Open the product, bundle, or family you want to publish, and on the command bar, select **Publish**.  
+4. Open the product, bundle, or family you want to publish, and on the command bar, select **Publish**.  
   
-     This will change the product status to **Active** and make it available for selling.  
+    This will change the product status to **Active** and make it available for selling.  
   
 > [!TIP]
 >  You can't publish multiple product records at the same time. To publish all child products and families of a parent family at once, open the family, and choose **Publish** > **Publish Hierarchy**. For product records that don't belong to a product family, publish them individually after creating or editing them to make them available to your sales agents.  

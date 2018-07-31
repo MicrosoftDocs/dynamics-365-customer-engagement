@@ -52,23 +52,23 @@ Below is an overview of the general process for creating and sending a marketing
 
 1. Go to **Marketing Execution** &gt; **Marketing emails** to open the marketing email list view.
 
-1. Select **New** to create a new message.
+2. Select **New** to create a new message.
 
-1. Choose a template, which establishes the basic format of your message.
+3. Choose a template, which establishes the basic format of your message.
 
-1. Design your message by using the drag-and-drop designer or HTML editor.
+4. Design your message by using the drag-and-drop designer or HTML editor.
 
-1. Add a compelling **Subject** for your message.
+5. Add a compelling **Subject** for your message.
 
-1. Preview your message by using the **Preview** tab and by sending test messages.
+6. Preview your message by using the **Preview** tab and by sending test messages.
 
-1. Save your work as often as you want. The message remains in draft status until you go live with it.
+7. Save your work as often as you want. The message remains in draft status until you go live with it.
 
-1. Run an error check on your message. This makes sure you've included all the required elements and haven't introduced any invalid code. If errors are found, you'll see error messages with advice about how to fix them. Fix the errors as suggested, and continue to recheck until the message passes the error check.
+8. Run an error check on your message. This makes sure you've included all the required elements and haven't introduced any invalid code. If errors are found, you'll see error messages with advice about how to fix them. Fix the errors as suggested, and continue to recheck until the message passes the error check.
 
-1. Select **Go Live**. A final error check is done automatically as part of this process, so you won't be able to go live with a message unless it passes the check.
+9. Select **Go Live**. A final error check is done automatically as part of this process, so you won't be able to go live with a message unless it passes the check.
 
-1. The message is now live and ready on your server, but it hasn't been addressed or sent yet; to do that, add it to a customer journey. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
+10. The message is now live and ready on your server, but it hasn't been addressed or sent yet; to do that, add it to a customer journey. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
 
 ## Establish your basic layout by choosing the right template
 

@@ -27,35 +27,35 @@ topic-status: Drafting
 
 The upgrade process involves three steps:
 
-1.  Purchasing a [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise subscription.
+1. Purchasing a [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise subscription.
 
-2.  Assigning [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise licenses to the users.
+2. Assigning [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise licenses to the users.
 
-3.  Installing the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise edition solution.
+3. Installing the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise edition solution.
 
 4. Deleting the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional solution. 
 
 ## Purchase Dynamics 365 for Sales Enterprise Edition subscription
 
-1.  Sign in to Office 365 at portal.office.com with the Dynamics 365 account that has admin permissions.
+1. Sign in to Office 365 at portal.office.com with the Dynamics 365 account that has admin permissions.
 
-2.  Select **Billing** > **Subscriptions**.
+2. Select **Billing** > **Subscriptions**.
 
-    ![Select Subscriptions](media/subscription-office-365-admin-center.png "Select Subscriptions")
+   ![Select Subscriptions](media/subscription-office-365-admin-center.png "Select Subscriptions")
 
-    You’ll see the active subscriptions. 
+   You’ll see the active subscriptions. 
 
-    ![Active subscriptions](media/active-subscriptions.png "Active subscriptions")
+   ![Active subscriptions](media/active-subscriptions.png "Active subscriptions")
 
-3.  Select **Add subscriptions**.
+3. Select **Add subscriptions**.
 
-    The **Purchase Services** page opens. You’ll see a tile for [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise Edition.
+   The **Purchase Services** page opens. You’ll see a tile for [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise Edition.
 
-    ![Dynamics 365 for Sales Enterprise Edition tile on Purchase Services page](media/purchase-services-page.png "Dynamics 365 for Sales Enterprise Edition tile on Purchase Services page")
+   ![Dynamics 365 for Sales Enterprise Edition tile on Purchase Services page](media/purchase-services-page.png "Dynamics 365 for Sales Enterprise Edition tile on Purchase Services page")
  
-4.	In the **[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise Edition** tile, move your mouse over the Ellipses icon and select **Buy Now**, and then follow the steps to purchase new licenses. 
+4. In the **[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise Edition** tile, move your mouse over the Ellipses icon and select **Buy Now**, and then follow the steps to purchase new licenses. 
 
-    ![Buy Dynamics 365 for Sales Enterprise Edition plan](media/buy-sales-enterprise.png "Buy Dynamics 365 for Sales Enterprise Edition plan")
+   ![Buy Dynamics 365 for Sales Enterprise Edition plan](media/buy-sales-enterprise.png "Buy Dynamics 365 for Sales Enterprise Edition plan")
 
 
 ## Assign licenses to your users
@@ -115,5 +115,5 @@ After you complete these steps, your organization will be effectively upgraded t
 
 
 > [!IMPORTANT]
-
+> 
 > As per contractual agreement, you can't mix and match Enterprise and Professional users on the same instance. If you plan to keep Professional licenses, make sure you abide by the contractual requirements. More information: [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544)

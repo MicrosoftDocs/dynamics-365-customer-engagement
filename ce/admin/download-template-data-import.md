@@ -26,19 +26,19 @@ Whether your data is stored in spreadsheets, databases, or other systems, you'll
   
     Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
-3.  Choose **Templates for Data Import**.  
+3. Choose **Templates for Data Import**.  
   
-4.  In the **Templates for Data Import** dialog box, choose the record type that you want to download the template for, and then select **Download**.  
+4. In the **Templates for Data Import** dialog box, choose the record type that you want to download the template for, and then select **Download**.  
   
-5.  In the file download box, click **Save** or **Save as** and navigate to a location for the file.  
+5. In the file download box, click **Save** or **Save as** and navigate to a location for the file.  
   
-6.  Choose **Close**.  
+6. Choose **Close**.  
   
 ### See also  
  [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)   

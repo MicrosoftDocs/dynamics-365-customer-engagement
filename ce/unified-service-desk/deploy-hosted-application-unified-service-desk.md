@@ -27,40 +27,40 @@ Once you have created a hosted application as described in [Create a HAT hosted 
 <a name="deploy"></a>   
 ## Deploy your hosted application to Unified Service Desk  
   
-1.  Right-click the application in **Solution Explorer** and select **Deploy**.  
+1. Right-click the application in **Solution Explorer** and select **Deploy**.  
   
- ![Use the shortcut menu to configure](../unified-service-desk/media/usd-create-hat-control-11.png "Use the shortcut menu to configure")  
+   ![Use the shortcut menu to configure](../unified-service-desk/media/usd-create-hat-control-11.png "Use the shortcut menu to configure")  
   
-2.  In the **Publish to Dynamics 365** dialog box, enter the Dynamics 365 server name and your credentials.  
+2. In the **Publish to Dynamics 365** dialog box, enter the Dynamics 365 server name and your credentials.  
   
- ![Publish to Dynamics 365 dialog box](../unified-service-desk/media/usd-deploy.png "Publish to Dynamics 365 dialog box")  
+   ![Publish to Dynamics 365 dialog box](../unified-service-desk/media/usd-deploy.png "Publish to Dynamics 365 dialog box")  
   
-3.  If there is more than one organization, check the **Display list of available organizations** check box and click **Login**.  
+3. If there is more than one organization, check the **Display list of available organizations** check box and click **Login**.  
   
-4.  Select your organization from the list of organizations displayed and click **OK**.  
+4. Select your organization from the list of organizations displayed and click **OK**.  
   
 <a name="verify"></a>   
 ## Verify that the application is successfully deployed  
   
-1.  Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
-2.  On the nav bar, choose **Microsoft Dynamics 365**, and then select **Settings**.  
+2. On the nav bar, choose **Microsoft Dynamics 365**, and then select **Settings**.  
   
-3.  Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
+3. Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
   
-4.  From the list of hosted controls, select the hosted application you just deployed. In this case, it’s [!INCLUDE[pn_bing](../includes/pn-bing.md)] Search.  
+4. From the list of hosted controls, select the hosted application you just deployed. In this case, it’s [!INCLUDE[pn_bing](../includes/pn-bing.md)] Search.  
   
- ![List of hosted controls showing Bing Search](../unified-service-desk/media/usd-hat-deploy-test.PNG "List of hosted controls showing Bing Search")  
+   ![List of hosted controls showing Bing Search](../unified-service-desk/media/usd-hat-deploy-test.PNG "List of hosted controls showing Bing Search")  
   
-5.  The configuration information for the hosted application is displayed.  
+5. The configuration information for the hosted application is displayed.  
   
- ![Hosted control information dialog box](../unified-service-desk/media/usd-deploy-test-hosted-control-info.PNG "Hosted control information dialog box")  
+   ![Hosted control information dialog box](../unified-service-desk/media/usd-deploy-test-hosted-control-info.PNG "Hosted control information dialog box")  
   
-6.  The bindings you created in [Use UII inspector to create bindings for the hosted application](../unified-service-desk/use-uii-inspector-create-bindings-hosted-application.md) are displayed in the Automation XML area.  
+6. The bindings you created in [Use UII inspector to create bindings for the hosted application](../unified-service-desk/use-uii-inspector-create-bindings-hosted-application.md) are displayed in the Automation XML area.  
   
- ![Automation bindings](../unified-service-desk/media/usd-automation-xml.PNG "Automation bindings")  
+   ![Automation bindings](../unified-service-desk/media/usd-automation-xml.PNG "Automation bindings")  
   
-7.  Copy the assembly that you generated in [Create a HAT hosted application project](../unified-service-desk/use-hat-software-factory-create-hosted-application.md#Create) from your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project output folder (\<ProjectFolder>\bin\debug) to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application directory. In this case, we will copy the Bing Search.dll file to the c:\Program Files\Microsoft Dynamics CRM USD\USD directory.  
+7. Copy the assembly that you generated in [Create a HAT hosted application project](../unified-service-desk/use-hat-software-factory-create-hosted-application.md#Create) from your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project output folder (\<ProjectFolder>\bin\debug) to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application directory. In this case, we will copy the Bing Search.dll file to the c:\Program Files\Microsoft Dynamics CRM USD\USD directory.  
   
 ### See also  
  [Create a HAT hosted application project](../unified-service-desk/use-hat-software-factory-create-hosted-application.md#Create)   

@@ -766,6 +766,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_profilerule_connections1"></a> profilerule_connections1
 
 Same as connection entity [profilerule_connections1](connection.md#BKMK_profilerule_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -780,6 +781,7 @@ Same as connection entity [profilerule_connections1](connection.md#BKMK_profiler
 ### <a name="BKMK_profilerule_connections2"></a> profilerule_connections2
 
 Same as connection entity [profilerule_connections2](connection.md#BKMK_profilerule_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -794,6 +796,7 @@ Same as connection entity [profilerule_connections2](connection.md#BKMK_profiler
 ### <a name="BKMK_profilerule_Annotations"></a> profilerule_Annotations
 
 Same as annotation entity [profilerule_Annotations](annotation.md#BKMK_profilerule_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -808,6 +811,7 @@ Same as annotation entity [profilerule_Annotations](annotation.md#BKMK_profileru
 ### <a name="BKMK_profilerule_AsyncOperations"></a> profilerule_AsyncOperations
 
 Same as asyncoperation entity [profilerule_AsyncOperations](asyncoperation.md#BKMK_profilerule_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -822,6 +826,7 @@ Same as asyncoperation entity [profilerule_AsyncOperations](asyncoperation.md#BK
 ### <a name="BKMK_profilerule_UserEntityInstanceDatas"></a> profilerule_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [profilerule_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_profilerule_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -836,6 +841,7 @@ Same as userentityinstancedata entity [profilerule_UserEntityInstanceDatas](user
 ### <a name="BKMK_profilerule_ProcessSession"></a> profilerule_ProcessSession
 
 Same as processsession entity [profilerule_ProcessSession](processsession.md#BKMK_profilerule_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -850,6 +856,7 @@ Same as processsession entity [profilerule_ProcessSession](processsession.md#BKM
 ### <a name="BKMK_profilerule_BulkDeleteFailures"></a> profilerule_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [profilerule_BulkDeleteFailures](bulkdeletefailure.md#BKMK_profilerule_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -864,6 +871,7 @@ Same as bulkdeletefailure entity [profilerule_BulkDeleteFailures](bulkdeletefail
 ### <a name="BKMK_ChannelAccessProfileRule_SyncErrors"></a> ChannelAccessProfileRule_SyncErrors
 
 Same as syncerror entity [ChannelAccessProfileRule_SyncErrors](syncerror.md#BKMK_ChannelAccessProfileRule_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -878,6 +886,7 @@ Same as syncerror entity [ChannelAccessProfileRule_SyncErrors](syncerror.md#BKMK
 ### <a name="BKMK_profilerule_entries"></a> profilerule_entries
 
 Same as channelaccessprofileruleitem entity [profilerule_entries](channelaccessprofileruleitem.md#BKMK_profilerule_entries) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|channelaccessprofileruleitem|

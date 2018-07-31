@@ -21,21 +21,21 @@ manager: "amyla"
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Operations to modify data are a core part of the Web API. In addition to a simple update and delete, you can perform operations on single attributes and compose *upsert* requests that will either update or insert an entity depending on whether it exists.  
-  
+
 > [!NOTE]
 >  The metadata that defines entities is updated in a different way. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create and update model entities using the Web API](create-update-entity-definitions-using-web-api.md)  
-  
+
 <a name="bkmk_update"></a>
 
 ## Basic update
 
  Update operations use the HTTP PATCH verb. Pass a JSON object containing the properties you want to update to the URI that represents the entity. A response with a status of 204 will be returned if the update is successful.  
-  
+
  This example updates an existing account record with the `accountid` value of 00000000-0000-0000-0000-000000000001.  
-  
+
 > [!IMPORTANT]
 >  When updating an entity, only include the properties you are changing in the request body. Simply updating the properties of an entity that you previously retrieved, and including that JSON in your request, will update each property even though the value is the same. This can cause system events that can trigger business logic that expects that the values have changed. This can cause properties to appear to have been updated in auditing data when in fact they haven’t actually changed.
-  
+
  **Request**
 
 ```http
@@ -43,7 +43,7 @@ PATCH [Organization URI]/api/data/v9.0/accounts(00000000-0000-0000-0000-00000000
 Content-Type: application/json  
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
-  
+
 {  
     "name": "Updated Sample Account ",  
     "creditonhold": true,  
@@ -53,31 +53,30 @@ OData-Version: 4.0
     "accountcategorycode": 2  
 }  
 ```  
-  
+
  **Response**
 
 ```http
 HTTP/1.1 204 No Content  
 OData-Version: 4.0  
-  
 ```  
-  
+
 > [!NOTE]
 >  See [Associate entities on update](associate-disassociate-entities-using-web-api.md#bkmk_Associateentitiesonupdate) for information about associating entities on update.  
-  
+
 <a name="bkmk_updateWithDataReturned"></a>
 
 ## Update with data returned
-  
+
 > [!NOTE]
 >  This capability was added with [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)].  
-  
+
  To retrieve data from an entity you are updating you can compose your PATCH request so that data from the created record will be returned with a status of 200 (OK).  To get his result, you must use the `return=representation` preference in the request headers.  
-  
+
  To control which properties are returned, append the `$select` query option to the URL to the entity set.  The `$expand` query option will be ignored if used.  
-  
+
  This example updates an account entity and returns the requested data in the response.  
-  
+
  **Request**
 
 ```http
@@ -87,18 +86,18 @@ OData-Version: 4.0
 Accept: application/json  
 Content-Type: application/json; charset=utf-8  
 Prefer: return=representation  
-  
+
 {"name":"Updated Sample Account"}  
 ```  
-  
+
  **Response** 
- 
+
 ```http
 HTTP/1.1 200 OK  
 Content-Type: application/json; odata.metadata=minimal  
 Preference-Applied: return=representation  
 OData-Version: 4.0  
-  
+
 {  
     "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#accounts/$entity",  
     "@odata.etag": "W/\"536537\"",  
@@ -112,17 +111,16 @@ OData-Version: 4.0
     "revenue": 5000000.0000,  
     "_transactioncurrencyid_value": "048dddaa-6f7f-e611-80d3-00155db5e0b6"  
 }  
-  
 ```  
-  
+
 <a name="bkmk_updateSingleProperty"></a> 
-  
+
 ## Update a single property value  
 
  When you want to update only a single property value use a PUT request with the property name appended to the Uri of the entity.  
-  
+
  The following example updates the name property of an existing account entity with the `accountid` value of 00000000-0000-0000-0000-000000000001.  
-  
+
  **Request**  
 
 ```http
@@ -130,26 +128,25 @@ PUT [Organization URI]/api/data/v9.0/accounts(00000000-0000-0000-0000-0000000000
 Content-Type: application/json  
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
-  
+
 {"value": "Updated Sample Account Name"}  
 ```  
-  
+
  **Response**
 
 ```http
 HTTP/1.1 204 No Content  
 OData-Version: 4.0  
-  
 ```  
-  
+
 <a name="bkmk_deleteSingleProperty"></a>
 
 ## Delete a single property value
 
  To delete the value of a single property use a DELETE request with the property name appended to the Uri of the entity.  
-  
+
  The following example deletes the value of the `description` property of an account entity with the `accountid` value of 00000000-0000-0000-0000-000000000001.  
-  
+
  **Request**
 
 ```http
@@ -158,32 +155,31 @@ Content-Type: application/json
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
 ```  
-  
+
  **Response**
 
 ```http
 HTTP/1.1 204 No Content  
 OData-Version: 4.0  
-  
 ```  
-  
+
 > [!NOTE]
 >  This can’t be used with a single-valued navigation property to disassociate two entities. For an alternative approach, see [Remove a reference to an entity](associate-disassociate-entities-using-web-api.md#bkmk_Removeareferencetoanentity).  
-  
+
 <a name="bkmk_upsert"></a>
 
 ## Upsert an entity
 
  An *upsert* operation is exactly like an update. It uses a `PATCH` request and uses a URI to reference a specific entity. The difference is that if the entity doesn’t exist it will be created. If it already exists, it will be updated. Normally when creating a new entity you will let the system assign a unique identifier. This is a best practice. But if you need to create a record with a specific `id` value, an `upsert` operation provides a way to do this. This can be valuable in situation where you are synchronizing data in different systems.  
-  
+
  Sometimes there are situations where you want to perform an `upsert`, but you want to prevent one of the potential default actions: either create or update.      You can accomplish this through the addition of `If-Match` or `If-None-Match` headers. For more information, see [Limit upsert operations](perform-conditional-operations-using-web-api.md#bkmk_limitUpsertOperations).  
-  
+
 <a name="bkmk_delete"></a>
-  
+
 ## Basic delete
 
  A delete operation is very straightforward. Use the DELETE verb with the URI of the entity you want to delete. This example message deletes an account entity with the primary key `accountid` value equal to 00000000-0000-0000-0000-000000000001.  
-  
+
  **Request**
 
 ```http
@@ -192,11 +188,11 @@ Content-Type: application/json
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
 ```  
-  
+
  **Response**
 
  If the entity exists, you’ll get a normal response with status 204 to indicate the delete was successful. If the entity isn’t found, you’ll get a response with status 404.  
-  
+
 ```http
 HTTP/1.1 204 No Content  
 OData-Version: 4.0  

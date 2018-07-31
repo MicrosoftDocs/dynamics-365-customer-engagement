@@ -16,11 +16,12 @@ manager: "amyla"
 
 Provides methods to interact with the business process flow control on a form.
 
-|Name|Description|
-|--|--|
-|[getDisplayState](formContext-ui-process/getDisplayState.md)|[!INCLUDE[formContext-ui-process/includes/getDisplayState-description.md](formContext-ui-process/includes/getDisplayState-description.md)]|
-|[getVisible](formContext-ui-process/getVisible.md)|[!INCLUDE[formContext-ui-process/includes/getVisible-description.md](formContext-ui-process/includes/getVisible-description.md)]|
-|[reflow](formContext-ui-process/reflow.md)|[!INCLUDE[formContext-ui-process/includes/reflow-description.md](formContext-ui-process/includes/reflow-description.md)]|
-|[setDisplayState](formContext-ui-process/setDisplayState.md)|[!INCLUDE[formContext-ui-process/includes/setDisplayState-description.md](formContext-ui-process/includes/setDisplayState-description.md)]|
-|[setVisible](formContext-ui-process/setVisible.md)|[!INCLUDE[formContext-ui-process/includes/setVisible-description.md](formContext-ui-process/includes/setVisible-description.md)]|
+
+|                             Name                             |                                                                Description                                                                 |
+|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| [getDisplayState](formContext-ui-process/getDisplayState.md) | [!INCLUDE[formContext-ui-process/includes/getDisplayState-description.md](formContext-ui-process/includes/getDisplayState-description.md)] |
+|      [getVisible](formContext-ui-process/getVisible.md)      |      [!INCLUDE[formContext-ui-process/includes/getVisible-description.md](formContext-ui-process/includes/getVisible-description.md)]      |
+|          [reflow](formContext-ui-process/reflow.md)          |          [!INCLUDE[formContext-ui-process/includes/reflow-description.md](formContext-ui-process/includes/reflow-description.md)]          |
+| [setDisplayState](formContext-ui-process/setDisplayState.md) | [!INCLUDE[formContext-ui-process/includes/setDisplayState-description.md](formContext-ui-process/includes/setDisplayState-description.md)] |
+|      [setVisible](formContext-ui-process/setVisible.md)      |      [!INCLUDE[formContext-ui-process/includes/setVisible-description.md](formContext-ui-process/includes/setVisible-description.md)]      |
 

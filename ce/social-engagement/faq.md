@@ -72,17 +72,17 @@ In addition to covering online news, the News coverage provided by [!INCLUDE[pn_
 
 Although you can create an unlimited number of search rules per search topic, there is a limit on the length and number of terms.  
   
--   Maximum length, in characters, of search topic names: 35.  
+- Maximum length, in characters, of search topic names: 35.  
   
--   Maximum length, in characters, per keyword, inclusion, and exclusion: 128.  
+- Maximum length, in characters, per keyword, inclusion, and exclusion: 128.  
   
--   Maximum number of keywords per rule: 15.  
+- Maximum number of keywords per rule: 15.  
   
--   Maximum number of inclusions per rule: 15.  
+- Maximum number of inclusions per rule: 15.  
   
--   Maximum number of exclusions per rule: 25.  
+- Maximum number of exclusions per rule: 25.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add rules to a search topic](add-rules-search-topic.md)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add rules to a search topic](add-rules-search-topic.md)  
   
 ## Does your sentiment analysis accurately read emoticons or emoji?  
 

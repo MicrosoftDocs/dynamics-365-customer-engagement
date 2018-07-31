@@ -73,7 +73,7 @@ The hierarchy security model is an extension to the existing [!INCLUDE[pn_micros
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
-2.  Choose **Hierarchy security** and select **Enable Hierarchy Modeling**.  
+2. Choose **Hierarchy security** and select **Enable Hierarchy Modeling**.  
   
 > [!IMPORTANT]
 >  To make any changes in **Hierarchy security**, you must have the **Change Hierarchy Security Settings** privilege.  
@@ -110,15 +110,15 @@ The hierarchy security model is an extension to the existing [!INCLUDE[pn_micros
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
-2.  Choose **Positions**.  
+2. Choose **Positions**.  
   
- For each position, provide the name of the position, the parent of the position, and the description. Add users to this position by using the lookup field called **Users in this position**. Below is the example of Position hierarchy with the active positions.  
+   For each position, provide the name of the position, the parent of the position, and the description. Add users to this position by using the lookup field called **Users in this position**. Below is the example of Position hierarchy with the active positions.  
   
- ![Active positions in Hierarchy Security in Dynamics 365](../admin/media/active-positions.png "Active positions in Hierarchy Security in Dynamics 365")  
+   ![Active positions in Hierarchy Security in Dynamics 365](../admin/media/active-positions.png "Active positions in Hierarchy Security in Dynamics 365")  
   
- The example of the enabled users with their corresponding positions is shown below:  
+   The example of the enabled users with their corresponding positions is shown below:  
   
- ![Enabled users with assigned positions in Dynamics 365](../admin/media/hierachy-security-enabled-users.png "Enabled users with assigned positions in Dynamics 365")  
+   ![Enabled users with assigned positions in Dynamics 365](../admin/media/hierachy-security-enabled-users.png "Enabled users with assigned positions in Dynamics 365")  
   
 <a name="BKMK_Performanceconsiderations"></a>   
 ## Performance considerations  

@@ -931,6 +931,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_sharepointdocumentlocation_parent_sharepointsite"></a> sharepointdocumentlocation_parent_sharepointsite
 
 Same as sharepointdocumentlocation entity [sharepointdocumentlocation_parent_sharepointsite](sharepointdocumentlocation.md#BKMK_sharepointdocumentlocation_parent_sharepointsite) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocumentlocation|
@@ -945,6 +946,7 @@ Same as sharepointdocumentlocation entity [sharepointdocumentlocation_parent_sha
 ### <a name="BKMK_userentityinstancedata_sharepointsite"></a> userentityinstancedata_sharepointsite
 
 Same as userentityinstancedata entity [userentityinstancedata_sharepointsite](userentityinstancedata.md#BKMK_userentityinstancedata_sharepointsite) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -959,6 +961,7 @@ Same as userentityinstancedata entity [userentityinstancedata_sharepointsite](us
 ### <a name="BKMK_sharepointsite_principalobjectattributeaccess"></a> sharepointsite_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [sharepointsite_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_sharepointsite_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -973,6 +976,7 @@ Same as principalobjectattributeaccess entity [sharepointsite_principalobjectatt
 ### <a name="BKMK_SharePointSite_SyncErrors"></a> SharePointSite_SyncErrors
 
 Same as syncerror entity [SharePointSite_SyncErrors](syncerror.md#BKMK_SharePointSite_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -987,6 +991,7 @@ Same as syncerror entity [SharePointSite_SyncErrors](syncerror.md#BKMK_SharePoin
 ### <a name="BKMK_sharepointsite_parentsite_sharepointsite"></a> sharepointsite_parentsite_sharepointsite
 
 Same as sharepointsite entity [sharepointsite_parentsite_sharepointsite](sharepointsite.md#BKMK_sharepointsite_parentsite_sharepointsite) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointsite|
@@ -1001,6 +1006,7 @@ Same as sharepointsite entity [sharepointsite_parentsite_sharepointsite](sharepo
 ### <a name="BKMK_SharePointSite_DuplicateBaseRecord"></a> SharePointSite_DuplicateBaseRecord
 
 Same as duplicaterecord entity [SharePointSite_DuplicateBaseRecord](duplicaterecord.md#BKMK_SharePointSite_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1015,6 +1021,7 @@ Same as duplicaterecord entity [SharePointSite_DuplicateBaseRecord](duplicaterec
 ### <a name="BKMK_SharePointSite_AsyncOperations"></a> SharePointSite_AsyncOperations
 
 Same as asyncoperation entity [SharePointSite_AsyncOperations](asyncoperation.md#BKMK_SharePointSite_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1029,6 +1036,7 @@ Same as asyncoperation entity [SharePointSite_AsyncOperations](asyncoperation.md
 ### <a name="BKMK_SharePointSite_DuplicateMatchingRecord"></a> SharePointSite_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [SharePointSite_DuplicateMatchingRecord](duplicaterecord.md#BKMK_SharePointSite_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1043,6 +1051,7 @@ Same as duplicaterecord entity [SharePointSite_DuplicateMatchingRecord](duplicat
 ### <a name="BKMK_SharePointSite_ProcessSessions"></a> SharePointSite_ProcessSessions
 
 Same as processsession entity [SharePointSite_ProcessSessions](processsession.md#BKMK_SharePointSite_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|

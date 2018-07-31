@@ -52,16 +52,17 @@ Use these steps to create a Postman environment that you can use to connect with
 1. Click on **Bulk edit** in the new environment dialog box.<br>
 ![Click on Bulk Edit to paste key-value pairs](../media/postman-bulkedit.png "Click on Bulk Edit to paste key-value pairs")<br>
 1. Add a name for the environment and copy the following key-value pairs into the editing space.
-```
-url:https://<add your environment name, like ‘myorg.crm’>.dynamics.com
-clientid:51f81489-12ee-4a9e-aaae-a2591f45987d
-version:9.0
-webapiurl:{{url}}/api/data/v{{version}}/
-callback:https://callbackurl
-authurl:https://login.microsoftonline.com/common/oauth2/authorize?resource={{url}}
-```
 
-![Create a new Postman environment to connect with Online instance](../media/postman-add-online-env.png "Create a new Postman environment to connect with Online instance")
+    ```
+    url:https://<add your environment name, like ‘myorg.crm’>.dynamics.com
+    clientid:51f81489-12ee-4a9e-aaae-a2591f45987d
+    version:9.0
+    webapiurl:{{url}}/api/data/v{{version}}/
+    callback:https://callbackurl
+    authurl:https://login.microsoftonline.com/common/oauth2/authorize?resource={{url}}
+    ```
+
+    ![Create a new Postman environment to connect with Online instance](../media/postman-add-online-env.png "Create a new Postman environment to connect with Online instance")
 
 1. Replace the instance URL placeholder value with the URL of your Dynamics 365 instance and click **Add** to save the environment.
 

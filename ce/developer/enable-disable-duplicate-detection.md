@@ -54,16 +54,16 @@ Before running duplicate detection, enable it for each of the following:
   
 ### Enable duplicate detection for specific operations  
   
--   Set the following attributes to `true`:  
+- Set the following attributes to `true`:  
   
-    -   `Organization.IsDuplicateDetectionEnabledForOnlineCreateUpdate`. Create and update records in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] by using the Web application or [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)]. This attribute enables or disables duplicate detection for records created or updated with the <xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> and <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> messages. However, it does not affect records created or updated with the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*> and <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*> methods.  
+  - `Organization.IsDuplicateDetectionEnabledForOnlineCreateUpdate`. Create and update records in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] by using the Web application or [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)]. This attribute enables or disables duplicate detection for records created or updated with the <xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> and <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> messages. However, it does not affect records created or updated with the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*> and <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*> methods.  
   
-    -   `Organization.IsDuplicateDetectionEnabledForOfflineSync`. Synchronize offline records when [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)] goes from offline to online.  
+  - `Organization.IsDuplicateDetectionEnabledForOfflineSync`. Synchronize offline records when [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)] goes from offline to online.  
   
-    -   `Organization.IsDuplicateDetectionEnabledForImport`. Import bulk data.  
+  - `Organization.IsDuplicateDetectionEnabledForImport`. Import bulk data.  
   
-    > [!NOTE]
-    >  You do not have to publish the duplicate detection rules to enable duplicate detection for these operations. However, you must publish the duplicate detection rules before you perform the operations.  
+  > [!NOTE]
+  >  You do not have to publish the duplicate detection rules to enable duplicate detection for these operations. However, you must publish the duplicate detection rules before you perform the operations.  
 
 <a name="bkmk_disable"></a>
 

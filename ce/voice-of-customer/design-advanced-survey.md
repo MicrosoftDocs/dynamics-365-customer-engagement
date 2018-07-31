@@ -30,38 +30,38 @@ For example, for the question **How likely is it that you would recommend us to 
 
 **Web client**
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-2.  Go to **Voice of the Customer** &gt; **Surveys**.
+2. Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey to which you want to add a response routing rule.
+3. Select the name of the survey to which you want to add a response routing rule.
 
-4.  Select the down arrow next to your survey name at the top of the screen, and then select **Response Routings**.
+4. Select the down arrow next to your survey name at the top of the screen, and then select **Response Routings**.
 
-    ![Survey response routing](media/response-routing.png "Survey response routing")  
+   ![Survey response routing](media/response-routing.png "Survey response routing")  
 
-5.  Select **Add New Response Routing**.
+5. Select **Add New Response Routing**.
 
-6.  Enter a name for the response routing rule in **Name**, and then select **Save** so you can continue editing your response routing.
+6. Enter a name for the response routing rule in **Name**, and then select **Save** so you can continue editing your response routing.
 
-7.  In the **Conditions** area, select the plus sign **(+)** to add a response condition.
+7. In the **Conditions** area, select the plus sign **(+)** to add a response condition.
 
-8.  In the **Question** field, browse to and select the question for which you want to create a rule. After you select a question, a few fields are enabled as defined by the selected question type.
+8. In the **Question** field, browse to and select the question for which you want to create a rule. After you select a question, a few fields are enabled as defined by the selected question type.
 
-9.  Select values for **Operator**, **Comparison Value**, and **Answer** fields.
+9. Select values for **Operator**, **Comparison Value**, and **Answer** fields.
 
-    > [!NOTE]
-    > The fields will differ based on the selected question type and operator.
+   > [!NOTE]
+   > The fields will differ based on the selected question type and operator.
 
-    ![Survey response routing condition](media/response-condition.png "Survey response routing condition")  
+   ![Survey response routing condition](media/response-condition.png "Survey response routing condition")  
 
-10.  Select **Save**.
+10. Select **Save**.
 
-11.  In the **Actions** area, select the plus sign **(+)** to add a response action.
+11. In the **Actions** area, select the plus sign **(+)** to add a response action.
 
-12.  In the **Name** field, select the search button, and then select **+ New**.
+12. In the **Name** field, select the search button, and then select **+ New**.
 
-13.  Enter a name for the action, and then select one of the following scopes:
+13. Enter a name for the action, and then select one of the following scopes:
 
     - **Client**: Choose this if the action occurs within the survey (for example, show or hide a question). In the **Client** area, select the survey and the action to take, and then select **Save**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Client-side routing](#client-side-routing)  
 
@@ -69,9 +69,9 @@ For example, for the question **How likely is it that you would recommend us to 
 
     ![Survey response routing action](media/response-action.png "Survey response routing action")  
 
-14.  In the **Actions** area, select the plus sign **(+)**, browse to and select the action you created.
+14. In the **Actions** area, select the plus sign **(+)**, browse to and select the action you created.
 
-15.  In the **Otherwise** area, create an action by following the steps you took to add a response action. This action is triggered when the above-mentioned response action does not meet the specified response condition.
+15. In the **Otherwise** area, create an action by following the steps you took to add a response action. This action is triggered when the above-mentioned response action does not meet the specified response condition.
 
     For example, you added an Net Promoter Score question to the survey and you want to collect feedback when the rating is less than 5.
 
@@ -91,18 +91,18 @@ For example, for the question **How likely is it that you would recommend us to 
 
 5. Select **Add New Response Routing**.
 
-6.	Under **General**, enter a name for the response routing rule, and then select **Save** so you can continue editing your response routing.
+6. Under **General**, enter a name for the response routing rule, and then select **Save** so you can continue editing your response routing.
 
-7.	Under **Conditions**, select **Add New Response Condition**.
+7. Under **Conditions**, select **Add New Response Condition**.
 
-8.	In the **Question** field, browse to and select the question for which you want to create a rule. After you select a question, a few fields are enabled as defined by the selected question type.
+8. In the **Question** field, browse to and select the question for which you want to create a rule. After you select a question, a few fields are enabled as defined by the selected question type.
 
-9.	Select values for **Operator**, **Comparison Value**, and **Answer** fields.
+9. Select values for **Operator**, **Comparison Value**, and **Answer** fields.
 
-    > [!NOTE]
-    > The fields will differ based on the selected question type and operator.
+   > [!NOTE]
+   > The fields will differ based on the selected question type and operator.
 
-    ![Survey response routing condition](media/response-condition-uci.png "Survey response routing condition") 
+   ![Survey response routing condition](media/response-condition-uci.png "Survey response routing condition") 
 
 10.	Select **Save**.
 
@@ -260,23 +260,23 @@ You can configure your survey to create a lead automatically from a survey respo
 
 **Web client**
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-2.  Go to **Voice of the Customer** &gt; **Surveys**.
+2. Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey for which you want to create a lead automatically for an anonymous respondent.
+3. Select the name of the survey for which you want to create a lead automatically for an anonymous respondent.
 
-4.  Under **Invitations and Actions**, select **Yes** for the **Create Lead For Anonymous Responses** field.
+4. Under **Invitations and Actions**, select **Yes** for the **Create Lead For Anonymous Responses** field.
 
-5.  Save the changes.
+5. Save the changes.
 
-6.  From the **Survey** box, select **Designer**.
+6. From the **Survey** box, select **Designer**.
 
-7.  Edit the questions you want to configure to create the lead by selecting a lead attribute from the **Response Mapping** list. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Store responses in a custom field by using response mapping](analyze-survey-data.md#store-responses-in-a-custom-field-by-using-response-mapping)  
+7. Edit the questions you want to configure to create the lead by selecting a lead attribute from the **Response Mapping** list. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Store responses in a custom field by using response mapping](analyze-survey-data.md#store-responses-in-a-custom-field-by-using-response-mapping)  
 
-    ![Response mapping to create lead](media/lead-response-mapping.png "Response mapping to create a lead")  
+   ![Response mapping to create lead](media/lead-response-mapping.png "Response mapping to create a lead")  
 
-8.  Save the changes.
+8. Save the changes.
 
 **Voice of the Customer app**
 
@@ -333,17 +333,17 @@ You can configure your survey to automatically send an email response to the cus
 
 **Web client**
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-2.  Go to **Voice of the Customer** &gt; **Surveys**.
+2. Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey for which you want to send an automatic response.
+3. Select the name of the survey for which you want to send an automatic response.
 
-4.  Under **Invitations and Actions**, select **Yes** for the **Automatically Send Email Response** field. The **Email** field is displayed.
+4. Under **Invitations and Actions**, select **Yes** for the **Automatically Send Email Response** field. The **Email** field is displayed.
 
-5.  From the **Email** list, select an email template.
+5. From the **Email** list, select an email template.
 
-6.  Select **Save** in the lower-right corner of the screen.
+6. Select **Save** in the lower-right corner of the screen.
 
 **Voice of the Customer app**
 
@@ -403,35 +403,35 @@ To configure scoring:
 
 **Voice of the Customer app**
 
-1.  [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
-2.  Go to **Voice of the Customer** > **Surveys**.
+2. Go to **Voice of the Customer** > **Surveys**.
 
-3.	Select the name of the survey you want to configure scoring. The survey page opens.
+3. Select the name of the survey you want to configure scoring. The survey page opens.
 
-4.	Under **Invitations and Actions**, select **Yes** for the **Calculate Score** field.
+4. Under **Invitations and Actions**, select **Yes** for the **Calculate Score** field.
 
-5.	Save the changes.
+5. Save the changes.
 
-6.	From the **Survey** box, select **Designer**.
+6. From the **Survey** box, select **Designer**.
 
 7. Select the question you want to configure for scoring.
 
 8. In the **Properties** pane, select one of the following options from the **Scoring** list:
-    - **None**: Do not score
-    - **Auto (0 -100)**: Minimum value is assigned 0 points, maximum 100 points.
-    - **Auto (100-0)**: Maximum value is assigned 100 points, minimum value 0 points.
-    - **User Specified**: The left most value is assigned the value of the **Minimum score value** field that you specify. The **Maximum score value** field is the right most value.
+   - **None**: Do not score
+   - **Auto (0 -100)**: Minimum value is assigned 0 points, maximum 100 points.
+   - **Auto (100-0)**: Maximum value is assigned 100 points, minimum value 0 points.
+   - **User Specified**: The left most value is assigned the value of the **Minimum score value** field that you specify. The **Maximum score value** field is the right most value.
     
-    > [!NOTE]
-    > By specifying 10 in the minimum value and 1 in the maximum value, the field scoring can be reversed.
+     > [!NOTE]
+     > By specifying 10 in the minimum value and 1 in the maximum value, the field scoring can be reversed.
     
-    - **NPS**: Net Promoter Score scoring type. Used specifically for Net Promoter Score.
+   - **NPS**: Net Promoter Score scoring type. Used specifically for Net Promoter Score.
 
-    > [!NOTE]
-    > The **Scoring** list is visible for single response questions and ratings.
+     > [!NOTE]
+     > The **Scoring** list is visible for single response questions and ratings.
 
-9.	Save the changes.
+9. Save the changes.
 
 ### See also
 [Plan a survey](plan-survey.md)   

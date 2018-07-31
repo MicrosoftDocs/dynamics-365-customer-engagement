@@ -1057,6 +1057,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_expense_SyncErrors"></a> msdyn_expense_SyncErrors
 
 Same as syncerror entity [msdyn_expense_SyncErrors](syncerror.md#BKMK_msdyn_expense_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1071,6 +1072,7 @@ Same as syncerror entity [msdyn_expense_SyncErrors](syncerror.md#BKMK_msdyn_expe
 ### <a name="BKMK_msdyn_expense_DuplicateMatchingRecord"></a> msdyn_expense_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_expense_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_expense_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1085,6 +1087,7 @@ Same as duplicaterecord entity [msdyn_expense_DuplicateMatchingRecord](duplicate
 ### <a name="BKMK_msdyn_expense_DuplicateBaseRecord"></a> msdyn_expense_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_expense_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_expense_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1099,6 +1102,7 @@ Same as duplicaterecord entity [msdyn_expense_DuplicateBaseRecord](duplicatereco
 ### <a name="BKMK_msdyn_expense_SharePointDocumentLocations"></a> msdyn_expense_SharePointDocumentLocations
 
 Same as sharepointdocumentlocation entity [msdyn_expense_SharePointDocumentLocations](sharepointdocumentlocation.md#BKMK_msdyn_expense_SharePointDocumentLocations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocumentlocation|
@@ -1113,6 +1117,7 @@ Same as sharepointdocumentlocation entity [msdyn_expense_SharePointDocumentLocat
 ### <a name="BKMK_msdyn_expense_SharePointDocuments"></a> msdyn_expense_SharePointDocuments
 
 Same as sharepointdocument entity [msdyn_expense_SharePointDocuments](sharepointdocument.md#BKMK_msdyn_expense_SharePointDocuments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocument|
@@ -1127,6 +1132,7 @@ Same as sharepointdocument entity [msdyn_expense_SharePointDocuments](sharepoint
 ### <a name="BKMK_msdyn_expense_AsyncOperations"></a> msdyn_expense_AsyncOperations
 
 Same as asyncoperation entity [msdyn_expense_AsyncOperations](asyncoperation.md#BKMK_msdyn_expense_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1141,6 +1147,7 @@ Same as asyncoperation entity [msdyn_expense_AsyncOperations](asyncoperation.md#
 ### <a name="BKMK_msdyn_expense_MailboxTrackingFolders"></a> msdyn_expense_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_expense_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_expense_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1155,6 +1162,7 @@ Same as mailboxtrackingfolder entity [msdyn_expense_MailboxTrackingFolders](mail
 ### <a name="BKMK_msdyn_expense_UserEntityInstanceDatas"></a> msdyn_expense_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_expense_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_expense_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1169,6 +1177,7 @@ Same as userentityinstancedata entity [msdyn_expense_UserEntityInstanceDatas](us
 ### <a name="BKMK_msdyn_expense_ProcessSession"></a> msdyn_expense_ProcessSession
 
 Same as processsession entity [msdyn_expense_ProcessSession](processsession.md#BKMK_msdyn_expense_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1183,6 +1192,7 @@ Same as processsession entity [msdyn_expense_ProcessSession](processsession.md#B
 ### <a name="BKMK_msdyn_expense_BulkDeleteFailures"></a> msdyn_expense_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_expense_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_expense_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1197,6 +1207,7 @@ Same as bulkdeletefailure entity [msdyn_expense_BulkDeleteFailures](bulkdeletefa
 ### <a name="BKMK_msdyn_expense_PrincipalObjectAttributeAccesses"></a> msdyn_expense_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_expense_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_expense_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1211,6 +1222,7 @@ Same as principalobjectattributeaccess entity [msdyn_expense_PrincipalObjectAttr
 ### <a name="BKMK_msdyn_expense_Annotations"></a> msdyn_expense_Annotations
 
 Same as annotation entity [msdyn_expense_Annotations](annotation.md#BKMK_msdyn_expense_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1225,6 +1237,7 @@ Same as annotation entity [msdyn_expense_Annotations](annotation.md#BKMK_msdyn_e
 ### <a name="BKMK_msdyn_msdyn_expense_msdyn_expensereceipt_ExpenseId"></a> msdyn_msdyn_expense_msdyn_expensereceipt_ExpenseId
 
 Same as msdyn_expensereceipt entity [msdyn_msdyn_expense_msdyn_expensereceipt_ExpenseId](msdyn_expensereceipt.md#BKMK_msdyn_msdyn_expense_msdyn_expensereceipt_ExpenseId) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_expensereceipt|
@@ -1239,6 +1252,7 @@ Same as msdyn_expensereceipt entity [msdyn_msdyn_expense_msdyn_expensereceipt_Ex
 ### <a name="BKMK_msdyn_msdyn_expense_msdyn_projectapproval_ExpenseEntry"></a> msdyn_msdyn_expense_msdyn_projectapproval_ExpenseEntry
 
 Same as msdyn_projectapproval entity [msdyn_msdyn_expense_msdyn_projectapproval_ExpenseEntry](msdyn_projectapproval.md#BKMK_msdyn_msdyn_expense_msdyn_projectapproval_ExpenseEntry) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projectapproval|

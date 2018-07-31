@@ -29,16 +29,16 @@ These guides apply to every instance of [!INCLUDE [pn-dyn-365](includes/pn-dyn-3
 <table>
 <tr>
 <td>
-<li>[Administrator Guide](admin/index.md)</li>
-<li>[Customization Guide ](customize/index.md)</li>
-<li>[Reporting and Analytics Guide](analytics/index.md)</li>
-<li>[Developer Guide ](developer/index.md)</li>
+<li><a href="admin/index.md" data-raw-source="[Administrator Guide](admin/index.md)">Administrator Guide</a></li>
+<li><a href="customize/index.md" data-raw-source="[Customization Guide ](customize/index.md)">Customization Guide </a></li>
+<li><a href="analytics/index.md" data-raw-source="[Reporting and Analytics Guide](analytics/index.md)">Reporting and Analytics Guide</a></li>
+<li><a href="developer/index.md" data-raw-source="[Developer Guide ](developer/index.md)">Developer Guide </a></li>
 </td>
 <td>
-<li>[Basics Guide ](basics/index.md)</li>
-<li>[App for Outlook](outlook-app/index.md)</li>
-<li>[Dynamics 365 for Outlook](outlook-addin/index.md)</li>
-<li>[Mobile app](mobile-app/index.md)</li>
+<li><a href="basics/index.md" data-raw-source="[Basics Guide ](basics/index.md)">Basics Guide </a></li>
+<li><a href="outlook-app/index.md" data-raw-source="[App for Outlook](outlook-app/index.md)">App for Outlook</a></li>
+<li><a href="outlook-addin/index.md" data-raw-source="[Dynamics 365 for Outlook](outlook-addin/index.md)">Dynamics 365 for Outlook</a></li>
+<li><a href="mobile-app/index.md" data-raw-source="[Mobile app](mobile-app/index.md)">Mobile app</a></li>
 </td>
 </tr>
 </table>
@@ -50,24 +50,24 @@ These guides provide in-depth information about specific apps, solutions and rel
 <table>
 <tr>
 <td>
-<li>[Sales](sales-enterprise/index.md)</li>
-<li>[Customer Service](customer-service/index.md)</li>
-<li>[Marketing](marketing/index.md)</li>
-<li>[Field Service](field-service/index.md)</li>
-<li>[Project Service Automation](project-service/index.md)</li>
+<li><a href="sales-enterprise/index.md" data-raw-source="[Sales](sales-enterprise/index.md)">Sales</a></li>
+<li><a href="customer-service/index.md" data-raw-source="[Customer Service](customer-service/index.md)">Customer Service</a></li>
+<li><a href="marketing/index.md" data-raw-source="[Marketing](marketing/index.md)">Marketing</a></li>
+<li><a href="field-service/index.md" data-raw-source="[Field Service](field-service/index.md)">Field Service</a></li>
+<li><a href="project-service/index.md" data-raw-source="[Project Service Automation](project-service/index.md)">Project Service Automation</a></li>
 </td>
 <td>
-<li>[Portals](portals/index.md)</li>
-<li>[Voice of the Customer](voice-of-customer/index.md)</li>
-<li>[LinkedIn Connector](linkedin/index.md)</li>
-<li>[Live Assist, powered by Café X](live-assist/index.md)</li>
-<li>[Versium Predict](versium-predict/index.md)</li>
+<li><a href="portals/index.md" data-raw-source="[Portals](portals/index.md)">Portals</a></li>
+<li><a href="voice-of-customer/index.md" data-raw-source="[Voice of the Customer](voice-of-customer/index.md)">Voice of the Customer</a></li>
+<li><a href="linkedin/index.md" data-raw-source="[LinkedIn Connector](linkedin/index.md)">LinkedIn Connector</a></li>
+<li><a href="live-assist/index.md" data-raw-source="[Live Assist, powered by Caf&#233; X](live-assist/index.md)">Live Assist, powered by Café X</a></li>
+<li><a href="versium-predict/index.md" data-raw-source="[Versium Predict](versium-predict/index.md)">Versium Predict</a></li>
 </td>
 <td>
-<li>[Insights, powered by InsideView](insights-insideview/index.md)</li>
-<li>[Social Engagement](social-engagement/index.md)</li>
-<li>[Gamification](gamification/index.md)</li>
-<li>[Unified Service Desk](unified-service-desk/index.md)</li>
+<li><a href="insights-insideview/index.md" data-raw-source="[Insights, powered by InsideView](insights-insideview/index.md)">Insights, powered by InsideView</a></li>
+<li><a href="social-engagement/index.md" data-raw-source="[Social Engagement](social-engagement/index.md)">Social Engagement</a></li>
+<li><a href="gamification/index.md" data-raw-source="[Gamification](gamification/index.md)">Gamification</a></li>
+<li><a href="unified-service-desk/index.md" data-raw-source="[Unified Service Desk](unified-service-desk/index.md)">Unified Service Desk</a></li>
 </td>
 </tr>
 </table>

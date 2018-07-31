@@ -110,45 +110,45 @@ You can assign the following privileges on a business process flow:
   
  When you include a workflow that you want to trigger on Stage Exit of a stage in your business process flow, and that stage is  the last stage in the flow, the designer gives the impression that the workflow will be triggered when that stage is completed. However, the workflow will not be triggered because a stage transition does not take place. You will not receive a warning or error preventing you from including the workflow on the stage. When a user interacts with the business process flow, finishing or abandoning the process does not result in a stage transition, and therefore the workflow is not triggered. Consider the following examples:  
   
--   You create a business process flow with two stages, S1 connects to  S2, with a workflow on stage S2 and set the trigger to **Stage Exit**.  
+- You create a business process flow with two stages, S1 connects to  S2, with a workflow on stage S2 and set the trigger to **Stage Exit**.  
   
--   You create a business process flow with three stages, S1 connect to S2, then S2 branches to S3. You include a workflow on S2 and set the trigger to **Stage Exit**.  
+- You create a business process flow with three stages, S1 connect to S2, then S2 branches to S3. You include a workflow on S2 and set the trigger to **Stage Exit**.  
   
- The workflow will not trigger in either case. To work around this issue, you can add a Global Workflow and add the workflow you want to trigger to it so that the workflow is triggered for the business process rather than a stage of the process. You can set the trigger for a Global workflow to Process Abandoned or Process Completed to cause the workflow to trigger when a user abandons or completes the business process.  
+  The workflow will not trigger in either case. To work around this issue, you can add a Global Workflow and add the workflow you want to trigger to it so that the workflow is triggered for the business process rather than a stage of the process. You can set the trigger for a Global workflow to Process Abandoned or Process Completed to cause the workflow to trigger when a user abandons or completes the business process.  
   
 <a name="BKMK_Entities"></a>   
 ### Entities that can use business process flows  
  Only entities that use the updated forms can use business process flows. This includes custom entities and the following system entities:  
   
--   Account  
--   Appointment  
--   Campaign  
--   Campaign Activity  
--   Campaign Response  
--   Competitor  
--   Contact  
--   Email  
--   Entitlement  
--   Fax  
--   Case  
--   Invoice  
--   Lead  
--   Letter  
--   Marketing List  
--   Opportunity  
--   Phone Call  
--   Product  
--   Price List Item  
--   Quote  
--   Recurring Appointment  
--   Sales Literature  
--   Social Activity  
--   Order  
--   User  
--   Task  
--   Team  
+- Account  
+- Appointment  
+- Campaign  
+- Campaign Activity  
+- Campaign Response  
+- Competitor  
+- Contact  
+- Email  
+- Entitlement  
+- Fax  
+- Case  
+- Invoice  
+- Lead  
+- Letter  
+- Marketing List  
+- Opportunity  
+- Phone Call  
+- Product  
+- Price List Item  
+- Quote  
+- Recurring Appointment  
+- Sales Literature  
+- Social Activity  
+- Order  
+- User  
+- Task  
+- Team  
   
- To enable a custom entity for business process flows, select the **Business process flows (fields will be created)** check box in the entity definition. Note that you can’t undo this action.  
+  To enable a custom entity for business process flows, select the **Business process flows (fields will be created)** check box in the entity definition. Note that you can’t undo this action.  
   
 > [!NOTE]
 >  If you navigate to the business process flow stage that contains the `Social Activity` entity and choose the **Next Stage** button, you’ll see the **Create** option. When you choose **Create**, the **Social Activity** form loads. However, because `Social Activity` isn’t valid for `Create` from the app user interface, you won’t be able to save the form and you’ll see the error message: “Unexpected error.”  

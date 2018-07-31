@@ -27,44 +27,44 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 ## Email messages  
   
--   Deleting a tracked email message in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] does not delete the email message from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+- Deleting a tracked email message in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] does not delete the email message from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
--   Deleting an email message in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] does not delete the tracked message from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
+- Deleting an email message in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] does not delete the tracked message from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
   
--   If you stop tracking an email message in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] asks whether you want to delete the email message in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+- If you stop tracking an email message in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] asks whether you want to delete the email message in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
 ## Appointments  
  Deleting a tracked appointment in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] deletes the appointment in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. Deleting a tracked appointment in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] deletes the appointment in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] if the following is true:  
   
--   The appointment is current.  
+- The appointment is current.  
   
--   You are the owner or organizer of the appointment record.  
+- You are the owner or organizer of the appointment record.  
   
- If you stop tracking an appointment, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] asks whether you want to delete the appointment from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. The appointment record is deleted in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] if the following is true:  
+  If you stop tracking an appointment, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] asks whether you want to delete the appointment from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. The appointment record is deleted in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] if the following is true:  
   
--   The appointment is current.  
+- The appointment is current.  
   
--   You are the owner of the appointment record.  
+- You are the owner of the appointment record.  
   
 ## Contacts  
   
--   Deleting a tracked contact in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] does not delete the contact record from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+- Deleting a tracked contact in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] does not delete the contact record from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
--   If you are not the owner of the contact record, deleting a contact from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] deletes the tracked contact from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
+- If you are not the owner of the contact record, deleting a contact from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] deletes the tracked contact from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
   
--   If you are the owner of the contact record, deleting a contact from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] does not delete the contact from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
+- If you are the owner of the contact record, deleting a contact from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] does not delete the contact from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
   
--   If you are the owner of the contact record, and you stop tracking the contact, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] asks whether you want to delete the contact record from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+- If you are the owner of the contact record, and you stop tracking the contact, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] asks whether you want to delete the contact record from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
--   If you are not the owner of the contact record and you stop tracking the contact, [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] deletes the contact record.  
+- If you are not the owner of the contact record and you stop tracking the contact, [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] deletes the contact record.  
   
 ## Tasks  
   
--   Deleting a tracked task in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] deletes the task activity record in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+- Deleting a tracked task in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] deletes the task activity record in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
--   Deleting the task activity record in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] deletes the task in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] if the task is current.  
+- Deleting the task activity record in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] deletes the task in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] if the task is current.  
   
--   If you stop tracking the task, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] asks whether you want to delete the task in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+- If you stop tracking the task, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] asks whether you want to delete the task in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
 ### See also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   

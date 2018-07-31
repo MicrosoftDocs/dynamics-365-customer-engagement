@@ -38,19 +38,19 @@ ms.author: "shujoshi"
 
     To get started with sales and marketing, see [Dynamics 365 for Sales - User Guide](../sales-enterprise/user-guide.md).|  
     
--   **Customer Service**.  Empowers customer service reps  to manage cases. It also allows service managers to manage important aspects of customer service, like, setting up levels and terms for the service the organization provides to their customers, or setting up rules for automatically converting conversations into cases. By default, only Customer Service App Access, System Administrator, and System Customizer roles have access to this app. The system administrator can assign access to other roles later.  
+- **Customer Service**.  Empowers customer service reps  to manage cases. It also allows service managers to manage important aspects of customer service, like, setting up levels and terms for the service the organization provides to their customers, or setting up rules for automatically converting conversations into cases. By default, only Customer Service App Access, System Administrator, and System Customizer roles have access to this app. The system administrator can assign access to other roles later.  
   
-     To get started with customer service, see [Dynamics 365 for Customer Service – User Guide](../customer-service/user-guide-customer-service.md).  
+   To get started with customer service, see [Dynamics 365 for Customer Service – User Guide](../customer-service/user-guide-customer-service.md).  
   
--   **Field Service**. Allows organizations to manage a field service workforce, and provides smart scheduling and resource management capabilities. It optimizes your service scheduling with efficient routing, resource skill matching, and reduced travel time. 
+- **Field Service**. Allows organizations to manage a field service workforce, and provides smart scheduling and resource management capabilities. It optimizes your service scheduling with efficient routing, resource skill matching, and reduced travel time. 
 
-    To get started with field service, see [Dynamics 365 for Field Service – User Guide](../field-service/user-guide.md). 
+  To get started with field service, see [Dynamics 365 for Field Service – User Guide](../field-service/user-guide.md). 
    
--   **Project Service Automation**. Helps project managers create project quotes and contracts. It also provides analytics to help project managers ensure projects are feasible and profitable.  
+- **Project Service Automation**. Helps project managers create project quotes and contracts. It also provides analytics to help project managers ensure projects are feasible and profitable.  
 
-     To get started with project service automation, see [Dynamics 365 for Project Service Automation – User Guide](../project-service/overview.md).
+   To get started with project service automation, see [Dynamics 365 for Project Service Automation – User Guide](../project-service/overview.md).
   
- - **Dynamics 365 – custom**. This app provides access to the full suite of capabilities, namely administration, settings and the legacy sales, service and marketing functionality. 
+  - **Dynamics 365 – custom**. This app provides access to the full suite of capabilities, namely administration, settings and the legacy sales, service and marketing functionality. 
   
 ## Availability of business apps  
  Business apps are available in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application and with the latest release are also available in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  

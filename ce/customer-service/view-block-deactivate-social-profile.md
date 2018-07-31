@@ -34,9 +34,9 @@ Track the high influencers and the customers for your business, and save them as
   
      The list of social profiles that are created in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] appears.  
   
-2.  Double-click any social profile to see the complete details.  
+2. Double-click any social profile to see the complete details.  
   
-     The social profile form shows the name, profile link of the contact, and the cases associated with this social profile. You can also view the influencer score if it is included as part of the social feed.  
+    The social profile form shows the name, profile link of the contact, and the cases associated with this social profile. You can also view the influencer score if it is included as part of the social feed.  
   
 ## Block a social profile  
  To make sure you receive only actionable social posts and avoid case creation for any unnecessary information, based on the social posts, you can block certain social profiles in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  

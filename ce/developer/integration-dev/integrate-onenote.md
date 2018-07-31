@@ -27,13 +27,13 @@ Set up [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] Integration in [!INC
   
  Developers can enable or detect [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] Integration for an entity in [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] using the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IsOneNoteIntegrationEnabled> attribute. [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] integration can only be enabled for an entity when both the following are true:  
   
--   Server-based SharePoint integration is enabled between your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_sharepoint_online](../../includes/pn-sharepoint-online.md)] instances. [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] Integration is supported only for [!INCLUDE[pn_sharepoint_online](../../includes/pn-sharepoint-online.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure server-based authentication with Dynamics CRM Online and SharePoint Online](https://technet.microsoft.com/library/dn894710.aspx)  
+- Server-based SharePoint integration is enabled between your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_sharepoint_online](../../includes/pn-sharepoint-online.md)] instances. [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] Integration is supported only for [!INCLUDE[pn_sharepoint_online](../../includes/pn-sharepoint-online.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure server-based authentication with Dynamics CRM Online and SharePoint Online](https://technet.microsoft.com/library/dn894710.aspx)  
   
--   Document management is enabled for the entity. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Enable Document Management for Entities](enable-document-management-entities.md)  
+- Document management is enabled for the entity. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Enable Document Management for Entities](enable-document-management-entities.md)  
   
- By default, OneNote integration is enabled for the following entities: `Account`, `Lead`, `Opportunity`, and `Product`.  
+  By default, OneNote integration is enabled for the following entities: `Account`, `Lead`, `Opportunity`, and `Product`.  
   
- You must also ensure that the activity feed wall is enabled for an entity to be able to see and use the [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] file for the entity record. For more information about configuring activity feeds wall, see [Configure Activity Feeds](../configure-activity-feeds.md).  
+  You must also ensure that the activity feed wall is enabled for an entity to be able to see and use the [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] file for the entity record. For more information about configuring activity feeds wall, see [Configure Activity Feeds](../configure-activity-feeds.md).  
   
   You can use the `SharePointDocumentLocation.LocationType` attribute to identify if the location for an entity record points to a SharePoint folder or to an [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] notebook. This attribute can have the following values:  
   

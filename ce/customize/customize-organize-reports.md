@@ -38,11 +38,11 @@ Analyze data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Cust
   
 The other reports can be:  
   
--   Links to webpages  
+- Links to webpages  
   
--   Static files  
+- Static files  
   
--   Dynamic [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] files that read data from the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] database  
+- Dynamic [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] files that read data from the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] database  
  
  
  For each report, you can edit the following properties:  
@@ -63,31 +63,31 @@ The other reports can be:
 ## Options for creating new reports  
  To create a new report, users with appropriate permissions can:  
   
--   Add a file or a link to a webpage as a report.  
+- Add a file or a link to a webpage as a report.  
   
--   Run the Report Wizard to create a new Reporting Services report. The Report Wizard can create table and chart reports, including drill-through reports and top N reports.  
+- Run the Report Wizard to create a new Reporting Services report. The Report Wizard can create table and chart reports, including drill-through reports and top N reports.  
   
--   Write a new Fetch-based Reporting Services report. To write custom fetch-based reports, you must install the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Report Authoring Extension. More information: [Create a new report using SQL Server Data Tools](../analytics/create-a-new-report-using-sql-server-data-tools.md)  
+- Write a new Fetch-based Reporting Services report. To write custom fetch-based reports, you must install the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Report Authoring Extension. More information: [Create a new report using SQL Server Data Tools](../analytics/create-a-new-report-using-sql-server-data-tools.md)  
   
 <a name="modifying"></a>   
 ## Options for modifying existing reports  
  For existing reports, users with appropriate permissions can:  
   
--   Organize reports into categories to control which views in the reports area display for each report.  
+- Organize reports into categories to control which views in the reports area display for each report.  
   
--   Determine where a report is visible in the user interface, and edit other report properties.  
+- Determine where a report is visible in the user interface, and edit other report properties.  
   
--   Edit a report created with the Report Wizard.  
+- Edit a report created with the Report Wizard.  
   
--   Edit a default report. For example, if you customize [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you might need to modify labels or add or remove fields in default reports. More information: [Report writing environment using SQL Server Data Tools](../analytics/report-writing-environment-using-sql-server-data-tools.md)  
+- Edit a default report. For example, if you customize [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you might need to modify labels or add or remove fields in default reports. More information: [Report writing environment using SQL Server Data Tools](../analytics/report-writing-environment-using-sql-server-data-tools.md)  
   
--   Edit the default filter for a default report, a report created with the Report Wizard, or other Reporting Services reports.  
+- Edit the default filter for a default report, a report created with the Report Wizard, or other Reporting Services reports.  
   
--   Create a one-time snapshot for a Reporting Services report or schedule a Reporting Services report to run at set intervals. Note that the Report Scheduling feature is currently only available with on-premises versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+- Create a one-time snapshot for a Reporting Services report or schedule a Reporting Services report to run at set intervals. Note that the Report Scheduling feature is currently only available with on-premises versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
--   Share a personal report with other users, or make it available to everyone in your organization.  
+- Share a personal report with other users, or make it available to everyone in your organization.  
   
--   Publish a report so that it is available for use with external applications, such as [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] or custom programs.  
+- Publish a report so that it is available for use with external applications, such as [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] or custom programs.  
   
 <a name="solutions"></a>   
 ## Reports in solutions  

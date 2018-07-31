@@ -35,10 +35,10 @@ Form Items are available through any of the following:
 
 After retrieving a form item using one of the above ways, use the following methods to work with the form item. 
 
-|Name|Decription|
-|--|--|
-|[getId](formcontext-ui-formselector/getId.md)|[!INCLUDE[formcontext-ui-formselector/includes/getId-description.md](formcontext-ui-formselector/includes/getId-description.md)]|
-|[getLabel](formcontext-ui-formselector/getLabel.md)|[!INCLUDE[formcontext-ui-formselector/includes/getLabel-description.md](formcontext-ui-formselector/includes/getLabel-description.md)]|
-|[navigate](formcontext-ui-formselector/navigate.md)|[!INCLUDE[formcontext-ui-formselector/includes/navigate-description.md](formcontext-ui-formselector/includes/navigate-description.md)]|
 
+|                        Name                         |                                                               Decription                                                               |
+|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+|    [getId](formcontext-ui-formselector/getId.md)    |    [!INCLUDE[formcontext-ui-formselector/includes/getId-description.md](formcontext-ui-formselector/includes/getId-description.md)]    |
+| [getLabel](formcontext-ui-formselector/getLabel.md) | [!INCLUDE[formcontext-ui-formselector/includes/getLabel-description.md](formcontext-ui-formselector/includes/getLabel-description.md)] |
+| [navigate](formcontext-ui-formselector/navigate.md) | [!INCLUDE[formcontext-ui-formselector/includes/navigate-description.md](formcontext-ui-formselector/includes/navigate-description.md)] |
 

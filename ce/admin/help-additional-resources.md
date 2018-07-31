@@ -21,17 +21,21 @@ manager: "brycho"
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 There are several resources available to you covering planning, operating, and using [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+
+> [!NOTE]
+> To contact technical support, see:
+> - [Enter a support request through the new support center](contact-technical-support.md#enter-a-support-request-through-the-new-support-center)
   
 <a name="help_for_admins"></a>  
  
-## Help for administrators  
+## Help for administrators
 
  The following are useful resources for administering [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]:    
   
 -   [Administer Dynamics 365 Customer Engagement](admin-guide.md)  
   
 -   [What's new in Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/whats-new/index)  
-  
+
 <a name="More_help"></a>   
 
 ## More self-service help resources  
@@ -68,3 +72,4 @@ There are several resources available to you covering planning, operating, and u
    
   
 ### See also  
+ [Contact Technical Support](contact-technical-support.md)

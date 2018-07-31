@@ -27,8 +27,8 @@ manager: "austinj"
 - The following script error will be displayed to users or included in your error logs: `Error: Blocked a frame with origin "https://<yourinstance>.dynamics.com" from accessing a cross-origin frame.`
 - Customizations might not behave correctly in the context of Dynamics 365 App for Outlook, Dynamics 365 for phones and tablets, or an external application that hosts Dynamics 365 within an iframe.
 
- > [!NOTE]
- > There might be some scenarios where error handling masks the error and continues script processing, causing unexpected behavior.
+  > [!NOTE]
+  > There might be some scenarios where error handling masks the error and continues script processing, causing unexpected behavior.
 
 <a name='guidance'></a>
 

@@ -235,7 +235,7 @@ likesHikingQuery.ColumnSet.AddColumns("fullname", "sample_outdooractivities");
 likesHikingQuery.Criteria.AddFilter(filter);
 
 EntityCollection hikers = _serviceProxy.RetrieveMultiple(likesHikingQuery);
-                        
+
 Console.WriteLine("\nContacts who like Hiking");
 Console.WriteLine("=========================");
 foreach (Contact contact in hikers.Entities)
@@ -269,7 +269,7 @@ string fetchXml = @"<fetch distinct='false' no-lock='false' mapping='logical'>
 FetchExpression doesNotLikeHiking = new FetchExpression(fetchXml);
 
 EntityCollection nonHikers = _serviceProxy.RetrieveMultiple(doesNotLikeHiking);
-                        
+
 Console.WriteLine("\nContacts who do not like Hiking");
 Console.WriteLine("===============================");
 foreach (Contact contact in nonHikers.Entities)
@@ -286,7 +286,6 @@ foreach (Contact contact in nonHikers.Entities)
     Barbara Weber Swimming; Fishing; Boating
     Georgette Sullivan Fishing; Hunting; Camping 
     */
-
 ```
 
 

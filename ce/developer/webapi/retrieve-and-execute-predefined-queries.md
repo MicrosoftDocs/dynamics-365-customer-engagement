@@ -29,10 +29,11 @@ manager: "amyla"
 
 [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] allows you to define, save, and execute two types of queries as listed here.
 
-|Query type|Description|
-|----------------|-----------------|
-|**Saved Query**|System-defined views for an entity. These views are stored in the <xref href="Microsoft.Dynamics.CRM.savedquery?text=savedquery EntityType" />. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Customize Entity Views](../customize-dev/customize-entity-views.md)|
-|**User Query**|Advanced Find searches saved by users for an entity. These views are stored in the <xref href="Microsoft.Dynamics.CRM.userquery?text=userquery EntityType" />. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [UserQuery (Saved View) Entity](../userquery-saved-view-entity.md)|
+
+|   Query type    |                                                                                                                                                 Description                                                                                                                                                  |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Saved Query** |       System-defined views for an entity. These views are stored in the <xref href="Microsoft.Dynamics.CRM.savedquery?text=savedquery EntityType" />. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Customize Entity Views](../customize-dev/customize-entity-views.md)        |
+| **User Query**  | Advanced Find searches saved by users for an entity. These views are stored in the <xref href="Microsoft.Dynamics.CRM.userquery?text=userquery EntityType" />. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [UserQuery (Saved View) Entity](../userquery-saved-view-entity.md) |
 
 Records for both of these types of entities contain the FetchXML definition for the data to return. You can query the respective entity type to retrieve the primary key value. With the primary key value, you can execute the query by passing the primary key value. For example, to execute the **Active Accounts** saved query, you must first get the primary key using a query like this.
 

@@ -236,11 +236,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 #### SelectedRelationShipsSchema Options
 
-|Value|Label|
-|-----|-----|
-
-
-
+| Value | Label |
+|-------|-------|
+|       |       |
 
 ### <a name="BKMK_StageId"></a> StageId
 

@@ -94,11 +94,11 @@ manager: "amyla"
 
  Content delivery network (CDN) [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries provide many advantages for public websites. Because these libraries are hosted on the Internet, you do not need to create web resources that contain the content of the libraries. For [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you should consider the following issues before you use a CDN [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library.  
   
--   Users of the [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)] client have the capability to work with no Internet connection while working offline. If you are depending on an Internet connection for your [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries, your code will fail.  
+- Users of the [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)] client have the capability to work with no Internet connection while working offline. If you are depending on an Internet connection for your [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries, your code will fail.  
   
--   Some organizations will restrict Internet access for employees. Unless they configure the network to allow access to the CDN library sites, your code may fail for those organizations.  
+- Some organizations will restrict Internet access for employees. Unless they configure the network to allow access to the CDN library sites, your code may fail for those organizations.  
   
- The alternative to using CDN libraries is to create a script ([!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)]) web resource with the contents of the library. Because web resources are organization-owned entities they will be synchronized when a [!INCLUDE[pn-oc-online-short](../includes/pn-oc-online-short.md)] with Offline Access user goes offline. Because these web resources now become part of the application they will not be blocked if an organization restricts access to the Internet.  
+  The alternative to using CDN libraries is to create a script ([!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)]) web resource with the contents of the library. Because web resources are organization-owned entities they will be synchronized when a [!INCLUDE[pn-oc-online-short](../includes/pn-oc-online-short.md)] with Offline Access user goes offline. Because these web resources now become part of the application they will not be blocked if an organization restricts access to the Internet.  
   
 <a name="bkmk_useFeatureDetection"></a>
 

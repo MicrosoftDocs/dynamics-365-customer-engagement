@@ -949,6 +949,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_MailMergeTemplate_SyncErrors"></a> MailMergeTemplate_SyncErrors
 
 Same as syncerror entity [MailMergeTemplate_SyncErrors](syncerror.md#BKMK_MailMergeTemplate_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -963,6 +964,7 @@ Same as syncerror entity [MailMergeTemplate_SyncErrors](syncerror.md#BKMK_MailMe
 ### <a name="BKMK_MailMergeTemplate_AsyncOperations"></a> MailMergeTemplate_AsyncOperations
 
 Same as asyncoperation entity [MailMergeTemplate_AsyncOperations](asyncoperation.md#BKMK_MailMergeTemplate_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -977,6 +979,7 @@ Same as asyncoperation entity [MailMergeTemplate_AsyncOperations](asyncoperation
 ### <a name="BKMK_userentityinstancedata_mailmergetemplate"></a> userentityinstancedata_mailmergetemplate
 
 Same as userentityinstancedata entity [userentityinstancedata_mailmergetemplate](userentityinstancedata.md#BKMK_userentityinstancedata_mailmergetemplate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -991,6 +994,7 @@ Same as userentityinstancedata entity [userentityinstancedata_mailmergetemplate]
 ### <a name="BKMK_mailmergetemplate_principalobjectattributeaccess"></a> mailmergetemplate_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [mailmergetemplate_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_mailmergetemplate_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1005,6 +1009,7 @@ Same as principalobjectattributeaccess entity [mailmergetemplate_principalobject
 ### <a name="BKMK_MailMergeTemplate_ProcessSessions"></a> MailMergeTemplate_ProcessSessions
 
 Same as processsession entity [MailMergeTemplate_ProcessSessions](processsession.md#BKMK_MailMergeTemplate_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|

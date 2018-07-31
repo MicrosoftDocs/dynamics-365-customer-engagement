@@ -24,19 +24,19 @@ Role-based security controls access to a specific entity type, record-based secu
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
-2.  Choose **Field Security Profiles**.  
+2. Choose **Field Security Profiles**.  
   
-3.  Choose the profile name that you want to add teams or users to.  
+3. Choose the profile name that you want to add teams or users to.  
   
-4.  Under Related, choose **Teams** or **Users**.  
+4. Under Related, choose **Teams** or **Users**.  
   
-5.  On the Actions toolbar, choose **Add**.  
+5. On the Actions toolbar, choose **Add**.  
   
-6.  Select a team or user from the list. You can search for a team or user first.  
+6. Select a team or user from the list. You can search for a team or user first.  
   
-7.  Choose **Add**.  
+7. Choose **Add**.  
   
-8.  Close the field security profile record.  
+8. Close the field security profile record.  
   
 ### See also  
  [Control data access](../admin/security-roles-privileges.md)   

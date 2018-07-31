@@ -1018,6 +1018,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_channelaccessprofile_DuplicateMatchingRecord"></a> channelaccessprofile_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [channelaccessprofile_DuplicateMatchingRecord](duplicaterecord.md#BKMK_channelaccessprofile_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1032,6 +1033,7 @@ Same as duplicaterecord entity [channelaccessprofile_DuplicateMatchingRecord](du
 ### <a name="BKMK_channelaccessprofile_DuplicateBaseRecord"></a> channelaccessprofile_DuplicateBaseRecord
 
 Same as duplicaterecord entity [channelaccessprofile_DuplicateBaseRecord](duplicaterecord.md#BKMK_channelaccessprofile_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1046,6 +1048,7 @@ Same as duplicaterecord entity [channelaccessprofile_DuplicateBaseRecord](duplic
 ### <a name="BKMK_channelaccessprofile_Annotations"></a> channelaccessprofile_Annotations
 
 Same as annotation entity [channelaccessprofile_Annotations](annotation.md#BKMK_channelaccessprofile_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1060,6 +1063,7 @@ Same as annotation entity [channelaccessprofile_Annotations](annotation.md#BKMK_
 ### <a name="BKMK_channelaccessprofile_AsyncOperations"></a> channelaccessprofile_AsyncOperations
 
 Same as asyncoperation entity [channelaccessprofile_AsyncOperations](asyncoperation.md#BKMK_channelaccessprofile_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1074,6 +1078,7 @@ Same as asyncoperation entity [channelaccessprofile_AsyncOperations](asyncoperat
 ### <a name="BKMK_channelaccessprofile_UserEntityInstanceDatas"></a> channelaccessprofile_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [channelaccessprofile_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_channelaccessprofile_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1088,6 +1093,7 @@ Same as userentityinstancedata entity [channelaccessprofile_UserEntityInstanceDa
 ### <a name="BKMK_channelaccessprofile_ProcessSession"></a> channelaccessprofile_ProcessSession
 
 Same as processsession entity [channelaccessprofile_ProcessSession](processsession.md#BKMK_channelaccessprofile_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1102,6 +1108,7 @@ Same as processsession entity [channelaccessprofile_ProcessSession](processsessi
 ### <a name="BKMK_channelaccessprofile_BulkDeleteFailures"></a> channelaccessprofile_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [channelaccessprofile_BulkDeleteFailures](bulkdeletefailure.md#BKMK_channelaccessprofile_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1116,6 +1123,7 @@ Same as bulkdeletefailure entity [channelaccessprofile_BulkDeleteFailures](bulkd
 ### <a name="BKMK_channelaccessprofile_PrincipalObjectAttributeAccess"></a> channelaccessprofile_PrincipalObjectAttributeAccess
 
 Same as principalobjectattributeaccess entity [channelaccessprofile_PrincipalObjectAttributeAccess](principalobjectattributeaccess.md#BKMK_channelaccessprofile_PrincipalObjectAttributeAccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1130,6 +1138,7 @@ Same as principalobjectattributeaccess entity [channelaccessprofile_PrincipalObj
 ### <a name="BKMK_profileruleitem_associated_channelaccessprofile"></a> profileruleitem_associated_channelaccessprofile
 
 Same as channelaccessprofileruleitem entity [profileruleitem_associated_channelaccessprofile](channelaccessprofileruleitem.md#BKMK_profileruleitem_associated_channelaccessprofile) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|channelaccessprofileruleitem|
@@ -1144,6 +1153,7 @@ Same as channelaccessprofileruleitem entity [profileruleitem_associated_channela
 ### <a name="BKMK_ChannelAccessProfile_SyncErrors"></a> ChannelAccessProfile_SyncErrors
 
 Same as syncerror entity [ChannelAccessProfile_SyncErrors](syncerror.md#BKMK_ChannelAccessProfile_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1158,6 +1168,7 @@ Same as syncerror entity [ChannelAccessProfile_SyncErrors](syncerror.md#BKMK_Cha
 ### <a name="BKMK_lk_externalpartyitem_channelaccessprofileid"></a> lk_externalpartyitem_channelaccessprofileid
 
 Same as externalpartyitem entity [lk_externalpartyitem_channelaccessprofileid](externalpartyitem.md#BKMK_lk_externalpartyitem_channelaccessprofileid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|externalpartyitem|

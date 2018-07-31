@@ -685,6 +685,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_journal_SyncErrors"></a> msdyn_journal_SyncErrors
 
 Same as syncerror entity [msdyn_journal_SyncErrors](syncerror.md#BKMK_msdyn_journal_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -699,6 +700,7 @@ Same as syncerror entity [msdyn_journal_SyncErrors](syncerror.md#BKMK_msdyn_jour
 ### <a name="BKMK_msdyn_journal_DuplicateMatchingRecord"></a> msdyn_journal_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_journal_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_journal_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -713,6 +715,7 @@ Same as duplicaterecord entity [msdyn_journal_DuplicateMatchingRecord](duplicate
 ### <a name="BKMK_msdyn_journal_DuplicateBaseRecord"></a> msdyn_journal_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_journal_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_journal_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -727,6 +730,7 @@ Same as duplicaterecord entity [msdyn_journal_DuplicateBaseRecord](duplicatereco
 ### <a name="BKMK_msdyn_journal_AsyncOperations"></a> msdyn_journal_AsyncOperations
 
 Same as asyncoperation entity [msdyn_journal_AsyncOperations](asyncoperation.md#BKMK_msdyn_journal_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -741,6 +745,7 @@ Same as asyncoperation entity [msdyn_journal_AsyncOperations](asyncoperation.md#
 ### <a name="BKMK_msdyn_journal_MailboxTrackingFolders"></a> msdyn_journal_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_journal_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_journal_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -755,6 +760,7 @@ Same as mailboxtrackingfolder entity [msdyn_journal_MailboxTrackingFolders](mail
 ### <a name="BKMK_msdyn_journal_UserEntityInstanceDatas"></a> msdyn_journal_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_journal_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_journal_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -769,6 +775,7 @@ Same as userentityinstancedata entity [msdyn_journal_UserEntityInstanceDatas](us
 ### <a name="BKMK_msdyn_journal_ProcessSession"></a> msdyn_journal_ProcessSession
 
 Same as processsession entity [msdyn_journal_ProcessSession](processsession.md#BKMK_msdyn_journal_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -783,6 +790,7 @@ Same as processsession entity [msdyn_journal_ProcessSession](processsession.md#B
 ### <a name="BKMK_msdyn_journal_BulkDeleteFailures"></a> msdyn_journal_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_journal_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_journal_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -797,6 +805,7 @@ Same as bulkdeletefailure entity [msdyn_journal_BulkDeleteFailures](bulkdeletefa
 ### <a name="BKMK_msdyn_journal_PrincipalObjectAttributeAccesses"></a> msdyn_journal_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_journal_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_journal_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -811,6 +820,7 @@ Same as principalobjectattributeaccess entity [msdyn_journal_PrincipalObjectAttr
 ### <a name="BKMK_msdyn_journal_Annotations"></a> msdyn_journal_Annotations
 
 Same as annotation entity [msdyn_journal_Annotations](annotation.md#BKMK_msdyn_journal_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -825,6 +835,7 @@ Same as annotation entity [msdyn_journal_Annotations](annotation.md#BKMK_msdyn_j
 ### <a name="BKMK_msdyn_msdyn_journal_msdyn_journalline_Journal"></a> msdyn_msdyn_journal_msdyn_journalline_Journal
 
 Same as msdyn_journalline entity [msdyn_msdyn_journal_msdyn_journalline_Journal](msdyn_journalline.md#BKMK_msdyn_msdyn_journal_msdyn_journalline_Journal) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_journalline|

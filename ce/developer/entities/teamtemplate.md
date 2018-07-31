@@ -370,6 +370,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_teamtemplate_Teams"></a> teamtemplate_Teams
 
 Same as team entity [teamtemplate_Teams](team.md#BKMK_teamtemplate_Teams) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|team|
@@ -384,6 +385,7 @@ Same as team entity [teamtemplate_Teams](team.md#BKMK_teamtemplate_Teams) Many-T
 ### <a name="BKMK_TeamTemplate_SyncErrors"></a> TeamTemplate_SyncErrors
 
 Same as syncerror entity [TeamTemplate_SyncErrors](syncerror.md#BKMK_TeamTemplate_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|

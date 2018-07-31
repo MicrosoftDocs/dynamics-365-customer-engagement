@@ -29,7 +29,7 @@ More information about creating or editing a lead: [Dynamics 365 Help & Training
 
 1. Information about the lead from [!include[LinkedIn](../includes/pn-linkedin.md)]
 2. Source from which the lead originated and the [!include[LinkedIn](../includes/pn-linkedin.md)] campaign related to this lead
-4. Forms submitted by this lead
+3. Forms submitted by this lead
 
 ## Review the aggregated lead performance
 

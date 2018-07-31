@@ -663,6 +663,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_contactpricelist_SyncErrors"></a> msdyn_contactpricelist_SyncErrors
 
 Same as syncerror entity [msdyn_contactpricelist_SyncErrors](syncerror.md#BKMK_msdyn_contactpricelist_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -677,6 +678,7 @@ Same as syncerror entity [msdyn_contactpricelist_SyncErrors](syncerror.md#BKMK_m
 ### <a name="BKMK_msdyn_contactpricelist_DuplicateMatchingRecord"></a> msdyn_contactpricelist_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_contactpricelist_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_contactpricelist_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -691,6 +693,7 @@ Same as duplicaterecord entity [msdyn_contactpricelist_DuplicateMatchingRecord](
 ### <a name="BKMK_msdyn_contactpricelist_DuplicateBaseRecord"></a> msdyn_contactpricelist_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_contactpricelist_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_contactpricelist_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -705,6 +708,7 @@ Same as duplicaterecord entity [msdyn_contactpricelist_DuplicateBaseRecord](dupl
 ### <a name="BKMK_msdyn_contactpricelist_AsyncOperations"></a> msdyn_contactpricelist_AsyncOperations
 
 Same as asyncoperation entity [msdyn_contactpricelist_AsyncOperations](asyncoperation.md#BKMK_msdyn_contactpricelist_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -719,6 +723,7 @@ Same as asyncoperation entity [msdyn_contactpricelist_AsyncOperations](asyncoper
 ### <a name="BKMK_msdyn_contactpricelist_MailboxTrackingFolders"></a> msdyn_contactpricelist_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_contactpricelist_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_contactpricelist_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -733,6 +738,7 @@ Same as mailboxtrackingfolder entity [msdyn_contactpricelist_MailboxTrackingFold
 ### <a name="BKMK_msdyn_contactpricelist_UserEntityInstanceDatas"></a> msdyn_contactpricelist_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_contactpricelist_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_contactpricelist_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -747,6 +753,7 @@ Same as userentityinstancedata entity [msdyn_contactpricelist_UserEntityInstance
 ### <a name="BKMK_msdyn_contactpricelist_ProcessSession"></a> msdyn_contactpricelist_ProcessSession
 
 Same as processsession entity [msdyn_contactpricelist_ProcessSession](processsession.md#BKMK_msdyn_contactpricelist_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -761,6 +768,7 @@ Same as processsession entity [msdyn_contactpricelist_ProcessSession](processses
 ### <a name="BKMK_msdyn_contactpricelist_BulkDeleteFailures"></a> msdyn_contactpricelist_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_contactpricelist_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_contactpricelist_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -775,6 +783,7 @@ Same as bulkdeletefailure entity [msdyn_contactpricelist_BulkDeleteFailures](bul
 ### <a name="BKMK_msdyn_contactpricelist_PrincipalObjectAttributeAccesses"></a> msdyn_contactpricelist_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_contactpricelist_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_contactpricelist_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -789,6 +798,7 @@ Same as principalobjectattributeaccess entity [msdyn_contactpricelist_PrincipalO
 ### <a name="BKMK_msdyn_contactpricelist_Annotations"></a> msdyn_contactpricelist_Annotations
 
 Same as annotation entity [msdyn_contactpricelist_Annotations](annotation.md#BKMK_msdyn_contactpricelist_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|

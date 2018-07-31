@@ -58,35 +58,35 @@ Reports that return large data sets can be difficult to use and can cause perfor
   
  If you are manually modifying a Fetch-based report definition without using the Report Wizard in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application or [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] to enable pre-filtering for primary and linked entities, make sure that you:  
   
-1.  Similarly, you can enable pre-filtering for the linked entity. You can also specify a different pre-filtering condition for the linked entity in the FetchXML query by specify a different and unique name for the parameter name in the `prefilterparametername` property.  
+1. Similarly, you can enable pre-filtering for the linked entity. You can also specify a different pre-filtering condition for the linked entity in the FetchXML query by specify a different and unique name for the parameter name in the `prefilterparametername` property.  
   
-     If you are manually modifying a Fetch-based report definition without using the Report Wizard in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application or [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] to enable pre-filtering for primary and linked entities, make sure that you:  
+    If you are manually modifying a Fetch-based report definition without using the Report Wizard in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application or [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] to enable pre-filtering for primary and linked entities, make sure that you:  
   
-    ```xml  
-    <fetch distinct="false" mapping="logical">  
-       <entity name="account" enableprefiltering="1" prefilterparametername="CRM_FilteredAccount">  
-    ```  
+   ```xml  
+   <fetch distinct="false" mapping="logical">  
+      <entity name="account" enableprefiltering="1" prefilterparametername="CRM_FilteredAccount">  
+   ```  
   
-2.  Create a corresponding query parameter with the same name as specified for the `prefilterparametername` property. Make sure that the parameter name starts with `CRM_` to specify it as a hidden parameter.  
+2. Create a corresponding query parameter with the same name as specified for the `prefilterparametername` property. Make sure that the parameter name starts with `CRM_` to specify it as a hidden parameter.  
   
-    ```xml  
-    <QueryParameters>  
-       <QueryParameter Name="CRM_FilteredAccount">  
-       <Value>=Parameters!CRM_FilteredAccount.Value</Value>  
-    </QueryParameter>  
-    ```  
+   ```xml  
+   <QueryParameters>  
+      <QueryParameter Name="CRM_FilteredAccount">  
+      <Value>=Parameters!CRM_FilteredAccount.Value</Value>  
+   </QueryParameter>  
+   ```  
   
-3.  Create a corresponding report parameter with the same name.  
+3. Create a corresponding report parameter with the same name.  
   
-    ```xml  
-    <ReportParameters>  
-        <ReportParameter Name="CRM_FilteredAccount">  
-          <DataType>String</DataType>  
-          <Prompt>CRM Filtered Account</Prompt>        
-        </ReportParameter>  
-      </ReportParameters>  
+   ```xml  
+   <ReportParameters>  
+       <ReportParameter Name="CRM_FilteredAccount">  
+         <DataType>String</DataType>  
+         <Prompt>CRM Filtered Account</Prompt>        
+       </ReportParameter>  
+     </ReportParameters>  
   
-    ```  
+   ```  
   
 <a name="PassingFilters"></a>   
 ## Passing filters in the filter summary  
@@ -94,12 +94,12 @@ Reports that return large data sets can be difficult to use and can cause perfor
   
  To add a filter summary to a report, follow these steps:  
   
-1.  Create a hidden string parameter called `CRM_FilterText`.  
+1. Create a hidden string parameter called `CRM_FilterText`.  
   
-2.  Add a text box report item to the report and set its `Value` property as follows:   
-    `=Parameters!CRM_FilterText.Value.`  
+2. Add a text box report item to the report and set its `Value` property as follows:   
+   `=Parameters!CRM_FilterText.Value.`  
   
- When the report is run, the value of the `CRM_FilterText` parameter will be set by the system to the text of the current filter.  
+   When the report is run, the value of the `CRM_FilterText` parameter will be set by the system to the text of the current filter.  
   
 <a name="DefaultFilters"></a>   
 ## Default filters  
