@@ -137,6 +137,8 @@ The following **Advanced Header** settings are available:
 * **To**: This should almost always be set to **{{ contact.emailaddress1 }}**, which sends the message to each contact included in the customer journey that sends the email. You might change this to use a different email address field (such as emailaddress2), or enter a dynamic expression that chooses the best of several available email fields.
 * **Reply-to email**: This should usually be blank, which means that replies to the message will be sent to the address of the **From** contact (or the **Email from address**, if it's different). If you set a value here, replies to your message will be sent to this address rather than the displayed from address. You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
 
+<a name="designation"></a>
+
 ## Set the legal designation to identify each message as either commercial or transactional
 
 Most of the messages you send using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] will probably be commercial messages, which are bulk messages sent to many recipients and once. However, you can also use the solution to send transactional messages. Transactional messages must relate exclusively to a specific transaction between your organization and another individual or organization (such as a receipt, account statement, or consent request), and must not include advertisements or promotional content.
