@@ -42,29 +42,29 @@ topic-status: Drafting
 </td><td>
 
 <h2>Work with data</h2>
-<li>[Manage sample data](additional-settings.md)</li>
-<li>[Import data and manage imports](business-management-settings.md#import)</li>
-<li>[Export data or templates](business-management-settings.md#export)</li>
-<li>[Manage duplicate detection](business-management-settings.md#duplicate-detection)</li>
-<li>[Manage Excel templates](manage-excel-templates.md)</li>
-<li>[Manage Word templates](manage-word-templates.md)</li>
+<li><a href="additional-settings.md" data-raw-source="[Manage sample data](additional-settings.md)">Manage sample data</a></li>
+<li><a href="business-management-settings.md#import" data-raw-source="[Import data and manage imports](business-management-settings.md#import)">Import data and manage imports</a></li>
+<li><a href="business-management-settings.md#export" data-raw-source="[Export data or templates](business-management-settings.md#export)">Export data or templates</a></li>
+<li><a href="business-management-settings.md#duplicate-detection" data-raw-source="[Manage duplicate detection](business-management-settings.md#duplicate-detection)">Manage duplicate detection</a></li>
+<li><a href="manage-excel-templates.md" data-raw-source="[Manage Excel templates](manage-excel-templates.md)">Manage Excel templates</a></li>
+<li><a href="manage-word-templates.md" data-raw-source="[Manage Word templates](manage-word-templates.md)">Manage Word templates</a></li>
 
 </td></tr>
 <tr><td>
 
 <h2>Work with users and teams</h2>
-<li>[Manage users](manage-users.md)</li>
-<li>[Manage teams](manage-teams.md)</li>
+<li><a href="manage-users.md" data-raw-source="[Manage users](manage-users.md)">Manage users</a></li>
+<li><a href="manage-teams.md" data-raw-source="[Manage teams](manage-teams.md)">Manage teams</a></li>
 
 </td><td>
 
 <h2>Configure Marketing features</h2>
-<li>[Configure landing pages](marketing-settings.md#config-mkt-pages)</li>
-<li>[Set default data sources for email previews](marketing-settings.md#default-marketing-settings)</li>
-<li>[Sync entities for customer insights](marketing-settings.md#dci-sync)</li>
-<li>[Event management settings](events-settings.md)</li>
-<li>[Manage LinkedIn Lead Gen](linkedin-configuration.md)</li>
-<li>[Manage quotas](quota-management.md)</li>
+<li><a href="marketing-settings.md#config-mkt-pages" data-raw-source="[Configure landing pages](marketing-settings.md#config-mkt-pages)">Configure landing pages</a></li>
+<li><a href="marketing-settings.md#default-marketing-settings" data-raw-source="[Set default data sources for email previews](marketing-settings.md#default-marketing-settings)">Set default data sources for email previews</a></li>
+<li><a href="marketing-settings.md#dci-sync" data-raw-source="[Sync entities for customer insights](marketing-settings.md#dci-sync)">Sync entities for customer insights</a></li>
+<li><a href="events-settings.md" data-raw-source="[Event management settings](events-settings.md)">Event management settings</a></li>
+<li><a href="linkedin-configuration.md" data-raw-source="[Manage LinkedIn Lead Gen](linkedin-configuration.md)">Manage LinkedIn Lead Gen</a></li>
+<li><a href="quota-management.md" data-raw-source="[Manage quotas](quota-management.md)">Manage quotas</a></li>
 
 </td></tr>
 

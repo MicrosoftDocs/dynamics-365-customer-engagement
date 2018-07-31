@@ -28,9 +28,10 @@ The environment created using the instructions in [Setup a Postman environment](
 
 > [!IMPORTANT]
 > Use the correct instructions to create your environment depending on your deployment type.
-> |Online|On-premises|
-> |--|--|
-> |[Connect with an Online environment](setup-postman-environment.md#bkmk_connectonline)|[Connect with an On-premise environment](setup-postman-environment.md#bkmk_connectonpremise)|
+>
+>    |Online|On-premises|
+>    |--|--|
+>    |[Connect with an Online environment](setup-postman-environment.md#bkmk_connectonline)|[Connect with an On-premise environment](setup-postman-environment.md#bkmk_connectonpremise)|
 
 
 Depending on the type of operation you want to perform, you will use different HTTP methods and values. The following sections demonstrate common operations.

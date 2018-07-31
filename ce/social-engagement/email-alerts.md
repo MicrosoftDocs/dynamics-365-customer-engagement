@@ -104,7 +104,7 @@ In an administrator role, you can look up email addresses and remove them from a
 
 3. Select **Remove recipient** to remove the email address from the matching alerts. If you remove the last recipient from an alert, the alert state is set to inactive and the owner of the alert receives an email notification.    
 Optionally, you can select **Export** to download a list of the alerts that contain this recipient.
- 
+
 
 ## Set a trend alert's sensitivity
 
@@ -114,13 +114,14 @@ Trend alert triggers are based on the number of posts and the average number of 
 
 When you work with a trend alert, you can select from five sensitivity settings:
 
-|Sensitivity|Condition to trigger a trend alert|
-|-----------------|----------------------------------------|
-|Very low|Post volume &gt; (**4** &times; the standard deviation) &plus; average number of posts.|
-|Low|Post volume &gt; (**2.5** &times; the standard deviation) &plus; average number of posts.|
-|Balanced|Post volume &gt; (**1.66** &times; the standard deviation) &plus; average number of posts.|
-|High|Post volume &gt; (**1.25** &times; the standard deviation) &plus; average number of posts.|
-|Very high|Post volume &gt; standard deviation &plus; average number of posts.|
+
+| Sensitivity |                             Condition to trigger a trend alert                             |
+|-------------|--------------------------------------------------------------------------------------------|
+|  Very low   |  Post volume &gt; (**4** &times; the standard deviation) &plus; average number of posts.   |
+|     Low     | Post volume &gt; (**2.5** &times; the standard deviation) &plus; average number of posts.  |
+|  Balanced   | Post volume &gt; (**1.66** &times; the standard deviation) &plus; average number of posts. |
+|    High     | Post volume &gt; (**1.25** &times; the standard deviation) &plus; average number of posts. |
+|  Very high  |            Post volume &gt; standard deviation &plus; average number of posts.             |
 
 ### See also
 

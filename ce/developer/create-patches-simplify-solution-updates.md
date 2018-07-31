@@ -29,31 +29,31 @@ If you add an entity to a solution and export the solution, the entity and all o
   
  Patches are stored in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] database as `Solution` entity records. A non-null `ParentSolutionId` attribute indicates that the solution is a patch. Patches can be created and managed through the Organization Service or Web APIs, which are useful for developing automation such as a product install script. However, the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application provides various web forms that enable you to interactively create and manage patches.  
   
--   Patches can only be created from a parent solution using <xref:Microsoft.Crm.Sdk.Messages.CloneAsPatchRequest> or <xref href="Microsoft.Dynamics.CRM.CloneAsPatch?text=CloneAsPatch Action" />.  
+- Patches can only be created from a parent solution using <xref:Microsoft.Crm.Sdk.Messages.CloneAsPatchRequest> or <xref href="Microsoft.Dynamics.CRM.CloneAsPatch?text=CloneAsPatch Action" />.  
   
--   The patch parent can’t be a patch.  
+- The patch parent can’t be a patch.  
   
--   Patches can only have one parent solution.  
+- Patches can only have one parent solution.  
   
--   A patch creates a dependency (at the solution level) on its parent solution.  
+- A patch creates a dependency (at the solution level) on its parent solution.  
   
--   You can only install a patch if the parent solution is present.  
+- You can only install a patch if the parent solution is present.  
   
--   You can’t install a patch unless the unique name and major/minor version number of the parent solution, as identified by `ParentSolutionId`, do not match those of the parent solution installed in the target organization.  
+- You can’t install a patch unless the unique name and major/minor version number of the parent solution, as identified by `ParentSolutionId`, do not match those of the parent solution installed in the target organization.  
   
--   A patch version must have the same major and minor number, but a higher build and release number, than the parent solution version number. The display name can be different.  
+- A patch version must have the same major and minor number, but a higher build and release number, than the parent solution version number. The display name can be different.  
   
--   If a solution has patches, subsequent patches must have a numerically higher version number than any existing patch for that solution.  
+- If a solution has patches, subsequent patches must have a numerically higher version number than any existing patch for that solution.  
   
--   Patches support the same operations as solutions, such as additive update, but not removal. You cannot remove components from a solution using a patch. To remove components from a solution perform an upgrade.  
+- Patches support the same operations as solutions, such as additive update, but not removal. You cannot remove components from a solution using a patch. To remove components from a solution perform an upgrade.  
   
--   Patches exported as managed must be imported on top of a managed parent solution. The rule is that patch protection (managed or unmanaged) must match its parent.  
+- Patches exported as managed must be imported on top of a managed parent solution. The rule is that patch protection (managed or unmanaged) must match its parent.  
   
--   Don’t use unmanaged patches for production purposes.  
+- Don’t use unmanaged patches for production purposes.  
   
--   Patches are only supported in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organizations of version 8.0 or later.  
+- Patches are only supported in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organizations of version 8.0 or later.  
   
- The SolutionPackager and PackageDeployer tools in this release support solution patches. Refer to the tool's online help for any command-line options that are related to patches.  
+  The SolutionPackager and PackageDeployer tools in this release support solution patches. Refer to the tool's online help for any command-line options that are related to patches.  
   
 ## Create a patch  
  Create a patch from an unmanaged solution in an organization by using the <xref:Microsoft.Crm.Sdk.Messages.CloneAsPatchRequest> message or the <xref href="Microsoft.Dynamics.CRM.CloneAsPatch?text=CloneAsPatch Action" />, or by using the web application. Once you create the patch, the original solution becomes locked and you can’t change or export it as long as there are dependent patches that exist in the organization that identify the solution as the parent solution. Patch versioning is similar to solution versioning and specified in the following format: *major.minor.build.release*. You can’t make changes to the existing major or minor solution versions when you create a patch.  

@@ -39,21 +39,21 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] 
   
  The following steps describe how to restrict access to a field:  
   
-1.  Enable field-level security for an attribute  
+1. Enable field-level security for an attribute  
   
-2.  Create a field-level security profile  
+2. Create a field-level security profile  
   
-3.  Associate users or teams with the profile  
+3. Associate users or teams with the profile  
   
-4.  Add specific field permissions, such as Create, Update or Read for a specific attribute to the profile  
+4. Add specific field permissions, such as Create, Update or Read for a specific attribute to the profile  
   
- The following diagram shows the interaction between role-based security, record-based security, and field-level security.  
+   The following diagram shows the interaction between role-based security, record-based security, and field-level security.  
   
- ![Role&#45;based compared to field&#45;level security](../media/crm-v5s-sm-fieldlevelsecurity.png "Role-based compared to field-level security")  
+   ![Role&#45;based compared to field&#45;level security](../media/crm-v5s-sm-fieldlevelsecurity.png "Role-based compared to field-level security")  
   
- Role-based security lets you see a specific entity type, record-based security lets you see individual records, and field-level security lets you see specific fields.  
+   Role-based security lets you see a specific entity type, record-based security lets you see individual records, and field-level security lets you see specific fields.  
   
- [Video: Field Level Security in Microsoft Dynamics CRM 2015](http://youtu.be/Czc9sKvWd9k)  
+   [Video: Field Level Security in Microsoft Dynamics CRM 2015](http://youtu.be/Czc9sKvWd9k)  
   
 ## Frequently asked questions  
   
@@ -75,19 +75,19 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] 
 ## Which attributes can be secured?  
  To see which attributes can be secured, you can query the entity metadata for the following properties:  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.CanBeSecuredForCreate>  
+- <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.CanBeSecuredForCreate>  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.CanBeSecuredForRead>  
+- <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.CanBeSecuredForRead>  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.CanBeSecuredForUpdate>  
+- <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.CanBeSecuredForUpdate>  
   
- There are thousands of attributes that can be secured, so there are two easier ways to look for this information. [!INCLUDE[metadata_browser](../../includes/metadata-browser.md)]  
+  There are thousands of attributes that can be secured, so there are two easier ways to look for this information. [!INCLUDE[metadata_browser](../../includes/metadata-browser.md)]  
   
- There are a few additional rules that apply to certain attribute data types:  
+  There are a few additional rules that apply to certain attribute data types:  
   
--   Boolean attributes can be secured for create and update operations but not for read.  
+- Boolean attributes can be secured for create and update operations but not for read.  
   
--   Option set attributes can be secured for create, update, and read when a default value is unspecified.  
+- Option set attributes can be secured for create, update, and read when a default value is unspecified.  
   
 <a name="BKMK_SecurityRoles"></a>   
 ## Which security roles allow you to see secured fields?  
@@ -125,7 +125,7 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] 
 ### When grouping on secured attributes  
  If the caller (or impersonated user) does not have access to the attribute used for grouping, the value is treated as **null** and the results are grouped together with all **null** values.  
   
- In the following example, the caller has access to some attributes. **Bold** indicates no access to attributes, also indicated with *. *Italics* indicate a record for which the caller does not have read access, also indicated with **.  
+ In the following example, the caller has access to some attributes. **Bold** indicates no access to attributes, also indicated with <em>. *Italics</em> indicate a record for which the caller does not have read access, also indicated with **.  
   
 |Name|Description|Number of orders|State|  
 |----------|-----------------|----------------------|-----------|  
@@ -148,7 +148,7 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] 
 ### When ordering on secured attributes  
  If the caller (or impersonated user) does not have access to secured fields that are included in an order by condition, the values will be treated as if they are **null**.  
   
- In the following example, the caller has access to attributes that are in plain text. **Bold** indicates no access to attributes, also indicated with an asterisk (*). *Italics* indicate a record for which the caller does not have read access, also indicated with **.  
+ In the following example, the caller has access to attributes that are in plain text. **Bold** indicates no access to attributes, also indicated with an asterisk (<em>). *Italics</em> indicate a record for which the caller does not have read access, also indicated with **.  
   
 |Name|Description|CanbeContacted|  
 |----------|-----------------|--------------------|  

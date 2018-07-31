@@ -1194,6 +1194,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_quotebookingservice_ActivityPointers"></a> msdyn_quotebookingservice_ActivityPointers
 
 Same as activitypointer entity [msdyn_quotebookingservice_ActivityPointers](activitypointer.md#BKMK_msdyn_quotebookingservice_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -1208,6 +1209,7 @@ Same as activitypointer entity [msdyn_quotebookingservice_ActivityPointers](acti
 ### <a name="BKMK_msdyn_quotebookingservice_msdyn_approvals"></a> msdyn_quotebookingservice_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_quotebookingservice_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_quotebookingservice_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -1222,6 +1224,7 @@ Same as msdyn_approval entity [msdyn_quotebookingservice_msdyn_approvals](msdyn_
 ### <a name="BKMK_msdyn_quotebookingservice_msdyn_bookingalerts"></a> msdyn_quotebookingservice_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_quotebookingservice_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_quotebookingservice_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -1236,6 +1239,7 @@ Same as msdyn_bookingalert entity [msdyn_quotebookingservice_msdyn_bookingalerts
 ### <a name="BKMK_msdyn_quotebookingservice_SyncErrors"></a> msdyn_quotebookingservice_SyncErrors
 
 Same as syncerror entity [msdyn_quotebookingservice_SyncErrors](syncerror.md#BKMK_msdyn_quotebookingservice_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1250,6 +1254,7 @@ Same as syncerror entity [msdyn_quotebookingservice_SyncErrors](syncerror.md#BKM
 ### <a name="BKMK_msdyn_quotebookingservice_DuplicateMatchingRecord"></a> msdyn_quotebookingservice_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_quotebookingservice_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_quotebookingservice_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1264,6 +1269,7 @@ Same as duplicaterecord entity [msdyn_quotebookingservice_DuplicateMatchingRecor
 ### <a name="BKMK_msdyn_quotebookingservice_DuplicateBaseRecord"></a> msdyn_quotebookingservice_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_quotebookingservice_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_quotebookingservice_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1278,6 +1284,7 @@ Same as duplicaterecord entity [msdyn_quotebookingservice_DuplicateBaseRecord](d
 ### <a name="BKMK_msdyn_quotebookingservice_AsyncOperations"></a> msdyn_quotebookingservice_AsyncOperations
 
 Same as asyncoperation entity [msdyn_quotebookingservice_AsyncOperations](asyncoperation.md#BKMK_msdyn_quotebookingservice_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1292,6 +1299,7 @@ Same as asyncoperation entity [msdyn_quotebookingservice_AsyncOperations](asynco
 ### <a name="BKMK_msdyn_quotebookingservice_MailboxTrackingFolders"></a> msdyn_quotebookingservice_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_quotebookingservice_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_quotebookingservice_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1306,6 +1314,7 @@ Same as mailboxtrackingfolder entity [msdyn_quotebookingservice_MailboxTrackingF
 ### <a name="BKMK_msdyn_quotebookingservice_UserEntityInstanceDatas"></a> msdyn_quotebookingservice_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_quotebookingservice_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_quotebookingservice_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1320,6 +1329,7 @@ Same as userentityinstancedata entity [msdyn_quotebookingservice_UserEntityInsta
 ### <a name="BKMK_msdyn_quotebookingservice_ProcessSession"></a> msdyn_quotebookingservice_ProcessSession
 
 Same as processsession entity [msdyn_quotebookingservice_ProcessSession](processsession.md#BKMK_msdyn_quotebookingservice_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1334,6 +1344,7 @@ Same as processsession entity [msdyn_quotebookingservice_ProcessSession](process
 ### <a name="BKMK_msdyn_quotebookingservice_BulkDeleteFailures"></a> msdyn_quotebookingservice_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_quotebookingservice_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_quotebookingservice_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1348,6 +1359,7 @@ Same as bulkdeletefailure entity [msdyn_quotebookingservice_BulkDeleteFailures](
 ### <a name="BKMK_msdyn_quotebookingservice_PrincipalObjectAttributeAccesses"></a> msdyn_quotebookingservice_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_quotebookingservice_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_quotebookingservice_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1362,6 +1374,7 @@ Same as principalobjectattributeaccess entity [msdyn_quotebookingservice_Princip
 ### <a name="BKMK_msdyn_quotebookingservice_Appointments"></a> msdyn_quotebookingservice_Appointments
 
 Same as appointment entity [msdyn_quotebookingservice_Appointments](appointment.md#BKMK_msdyn_quotebookingservice_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -1376,6 +1389,7 @@ Same as appointment entity [msdyn_quotebookingservice_Appointments](appointment.
 ### <a name="BKMK_msdyn_quotebookingservice_Emails"></a> msdyn_quotebookingservice_Emails
 
 Same as email entity [msdyn_quotebookingservice_Emails](email.md#BKMK_msdyn_quotebookingservice_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -1390,6 +1404,7 @@ Same as email entity [msdyn_quotebookingservice_Emails](email.md#BKMK_msdyn_quot
 ### <a name="BKMK_msdyn_quotebookingservice_Faxes"></a> msdyn_quotebookingservice_Faxes
 
 Same as fax entity [msdyn_quotebookingservice_Faxes](fax.md#BKMK_msdyn_quotebookingservice_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -1404,6 +1419,7 @@ Same as fax entity [msdyn_quotebookingservice_Faxes](fax.md#BKMK_msdyn_quotebook
 ### <a name="BKMK_msdyn_quotebookingservice_Letters"></a> msdyn_quotebookingservice_Letters
 
 Same as letter entity [msdyn_quotebookingservice_Letters](letter.md#BKMK_msdyn_quotebookingservice_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -1418,6 +1434,7 @@ Same as letter entity [msdyn_quotebookingservice_Letters](letter.md#BKMK_msdyn_q
 ### <a name="BKMK_msdyn_quotebookingservice_PhoneCalls"></a> msdyn_quotebookingservice_PhoneCalls
 
 Same as phonecall entity [msdyn_quotebookingservice_PhoneCalls](phonecall.md#BKMK_msdyn_quotebookingservice_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -1432,6 +1449,7 @@ Same as phonecall entity [msdyn_quotebookingservice_PhoneCalls](phonecall.md#BKM
 ### <a name="BKMK_msdyn_quotebookingservice_Tasks"></a> msdyn_quotebookingservice_Tasks
 
 Same as task entity [msdyn_quotebookingservice_Tasks](task.md#BKMK_msdyn_quotebookingservice_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -1446,6 +1464,7 @@ Same as task entity [msdyn_quotebookingservice_Tasks](task.md#BKMK_msdyn_quotebo
 ### <a name="BKMK_msdyn_quotebookingservice_RecurringAppointmentMasters"></a> msdyn_quotebookingservice_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_quotebookingservice_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_quotebookingservice_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -1460,6 +1479,7 @@ Same as recurringappointmentmaster entity [msdyn_quotebookingservice_RecurringAp
 ### <a name="BKMK_msdyn_quotebookingservice_SocialActivities"></a> msdyn_quotebookingservice_SocialActivities
 
 Same as socialactivity entity [msdyn_quotebookingservice_SocialActivities](socialactivity.md#BKMK_msdyn_quotebookingservice_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -1474,6 +1494,7 @@ Same as socialactivity entity [msdyn_quotebookingservice_SocialActivities](socia
 ### <a name="BKMK_msdyn_quotebookingservice_connections1"></a> msdyn_quotebookingservice_connections1
 
 Same as connection entity [msdyn_quotebookingservice_connections1](connection.md#BKMK_msdyn_quotebookingservice_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1488,6 +1509,7 @@ Same as connection entity [msdyn_quotebookingservice_connections1](connection.md
 ### <a name="BKMK_msdyn_quotebookingservice_connections2"></a> msdyn_quotebookingservice_connections2
 
 Same as connection entity [msdyn_quotebookingservice_connections2](connection.md#BKMK_msdyn_quotebookingservice_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1502,6 +1524,7 @@ Same as connection entity [msdyn_quotebookingservice_connections2](connection.md
 ### <a name="BKMK_msdyn_quotebookingservice_Annotations"></a> msdyn_quotebookingservice_Annotations
 
 Same as annotation entity [msdyn_quotebookingservice_Annotations](annotation.md#BKMK_msdyn_quotebookingservice_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1516,6 +1539,7 @@ Same as annotation entity [msdyn_quotebookingservice_Annotations](annotation.md#
 ### <a name="BKMK_msdyn_quotebookingservice_ServiceAppointments"></a> msdyn_quotebookingservice_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_quotebookingservice_ServiceAppointments](serviceappointment.md#BKMK_msdyn_quotebookingservice_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|

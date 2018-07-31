@@ -24,11 +24,11 @@ To add or remove domains, or to connect [!INCLUDE[pn_netbreeze_short](../include
 
 You can enter the following values in your list of allowed domains:  
   
--   Full domain names: This enables communication between the specified domain and your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution, for example, `app.contoso.com`  
+- Full domain names: This enables communication between the specified domain and your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution, for example, `app.contoso.com`  
   
--   Domain names with wildcards: This enables communication between all subdomains of the entered domain and your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution, for example, `*.contoso.com`  
+- Domain names with wildcards: This enables communication between all subdomains of the entered domain and your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution, for example, `*.contoso.com`  
   
--   Host names: This enables communication between a custom host name and your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution, for example, `http://hostname`  
+- Host names: This enables communication between a custom host name and your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution, for example, `http://hostname`  
 
 > [!IMPORTANT]
 > Make sure to remove trailing slashes from the domain name.
@@ -53,7 +53,7 @@ Copy the solution URL and paste it into the configuration page of the applicatio
   
 > [!NOTE]
 > Make sure to add the domain or host name of the application you plan to connect to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to your list of allowed domains.  
->   
+> 
 >  To make sure only the domains you own can make requests to your data, we recommend you add your organization’s domain to the list of allowed domains. When a specific domain is added to the list of allowed domains, *.dynamics.com is automatically removed from the allowed domains.  
   
 ### See Also

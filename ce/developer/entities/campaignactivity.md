@@ -1767,6 +1767,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_campaignactivity_activity_parties"></a> campaignactivity_activity_parties
 
 Same as activityparty entity [campaignactivity_activity_parties](activityparty.md#BKMK_campaignactivity_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1781,6 +1782,7 @@ Same as activityparty entity [campaignactivity_activity_parties](activityparty.m
 ### <a name="BKMK_CampaignActivity_ActivityPointers"></a> CampaignActivity_ActivityPointers
 
 Same as activitypointer entity [CampaignActivity_ActivityPointers](activitypointer.md#BKMK_CampaignActivity_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -1795,6 +1797,7 @@ Same as activitypointer entity [CampaignActivity_ActivityPointers](activitypoint
 ### <a name="BKMK_CampaignActivity_SyncErrors"></a> CampaignActivity_SyncErrors
 
 Same as syncerror entity [CampaignActivity_SyncErrors](syncerror.md#BKMK_CampaignActivity_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1809,6 +1812,7 @@ Same as syncerror entity [CampaignActivity_SyncErrors](syncerror.md#BKMK_Campaig
 ### <a name="BKMK_campaignactivity_activityparties"></a> campaignactivity_activityparties
 
 Same as activityparty entity [campaignactivity_activityparties](activityparty.md#BKMK_campaignactivity_activityparties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1823,6 +1827,7 @@ Same as activityparty entity [campaignactivity_activityparties](activityparty.md
 ### <a name="BKMK_CampaignActivity_AsyncOperations"></a> CampaignActivity_AsyncOperations
 
 Same as asyncoperation entity [CampaignActivity_AsyncOperations](asyncoperation.md#BKMK_CampaignActivity_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1837,6 +1842,7 @@ Same as asyncoperation entity [CampaignActivity_AsyncOperations](asyncoperation.
 ### <a name="BKMK_CampaignActivity_MailboxTrackingFolder"></a> CampaignActivity_MailboxTrackingFolder
 
 Same as mailboxtrackingfolder entity [CampaignActivity_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_CampaignActivity_MailboxTrackingFolder) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1851,6 +1857,7 @@ Same as mailboxtrackingfolder entity [CampaignActivity_MailboxTrackingFolder](ma
 ### <a name="BKMK_userentityinstancedata_campaignactivity"></a> userentityinstancedata_campaignactivity
 
 Same as userentityinstancedata entity [userentityinstancedata_campaignactivity](userentityinstancedata.md#BKMK_userentityinstancedata_campaignactivity) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1865,6 +1872,7 @@ Same as userentityinstancedata entity [userentityinstancedata_campaignactivity](
 ### <a name="BKMK_CampaignActivity_ProcessSessions"></a> CampaignActivity_ProcessSessions
 
 Same as processsession entity [CampaignActivity_ProcessSessions](processsession.md#BKMK_CampaignActivity_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1879,6 +1887,7 @@ Same as processsession entity [CampaignActivity_ProcessSessions](processsession.
 ### <a name="BKMK_CampaignActivity_BulkDeleteFailures"></a> CampaignActivity_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [CampaignActivity_BulkDeleteFailures](bulkdeletefailure.md#BKMK_CampaignActivity_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1893,6 +1902,7 @@ Same as bulkdeletefailure entity [CampaignActivity_BulkDeleteFailures](bulkdelet
 ### <a name="BKMK_campaignactivity_principalobjectattributeaccess"></a> campaignactivity_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [campaignactivity_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_campaignactivity_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1907,6 +1917,7 @@ Same as principalobjectattributeaccess entity [campaignactivity_principalobjecta
 ### <a name="BKMK_CampaignActivity_Appointments"></a> CampaignActivity_Appointments
 
 Same as appointment entity [CampaignActivity_Appointments](appointment.md#BKMK_CampaignActivity_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -1921,6 +1932,7 @@ Same as appointment entity [CampaignActivity_Appointments](appointment.md#BKMK_C
 ### <a name="BKMK_CampaignActivity_Emails"></a> CampaignActivity_Emails
 
 Same as email entity [CampaignActivity_Emails](email.md#BKMK_CampaignActivity_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -1935,6 +1947,7 @@ Same as email entity [CampaignActivity_Emails](email.md#BKMK_CampaignActivity_Em
 ### <a name="BKMK_CampaignActivity_Faxes"></a> CampaignActivity_Faxes
 
 Same as fax entity [CampaignActivity_Faxes](fax.md#BKMK_CampaignActivity_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -1949,6 +1962,7 @@ Same as fax entity [CampaignActivity_Faxes](fax.md#BKMK_CampaignActivity_Faxes) 
 ### <a name="BKMK_CampaignActivity_Letters"></a> CampaignActivity_Letters
 
 Same as letter entity [CampaignActivity_Letters](letter.md#BKMK_CampaignActivity_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -1963,6 +1977,7 @@ Same as letter entity [CampaignActivity_Letters](letter.md#BKMK_CampaignActivity
 ### <a name="BKMK_CampaignActivity_Phonecalls"></a> CampaignActivity_Phonecalls
 
 Same as phonecall entity [CampaignActivity_Phonecalls](phonecall.md#BKMK_CampaignActivity_Phonecalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -1977,6 +1992,7 @@ Same as phonecall entity [CampaignActivity_Phonecalls](phonecall.md#BKMK_Campaig
 ### <a name="BKMK_CampaignActivity_Tasks"></a> CampaignActivity_Tasks
 
 Same as task entity [CampaignActivity_Tasks](task.md#BKMK_CampaignActivity_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -1991,6 +2007,7 @@ Same as task entity [CampaignActivity_Tasks](task.md#BKMK_CampaignActivity_Tasks
 ### <a name="BKMK_CampaignActivity_RecurringAppointmentMasters"></a> CampaignActivity_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [CampaignActivity_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_CampaignActivity_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -2005,6 +2022,7 @@ Same as recurringappointmentmaster entity [CampaignActivity_RecurringAppointment
 ### <a name="BKMK_campaignactivity_SocialActivities"></a> campaignactivity_SocialActivities
 
 Same as socialactivity entity [campaignactivity_SocialActivities](socialactivity.md#BKMK_campaignactivity_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -2019,6 +2037,7 @@ Same as socialactivity entity [campaignactivity_SocialActivities](socialactivity
 ### <a name="BKMK_campaignactivity_connections1"></a> campaignactivity_connections1
 
 Same as connection entity [campaignactivity_connections1](connection.md#BKMK_campaignactivity_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -2033,6 +2052,7 @@ Same as connection entity [campaignactivity_connections1](connection.md#BKMK_cam
 ### <a name="BKMK_campaignactivity_connections2"></a> campaignactivity_connections2
 
 Same as connection entity [campaignactivity_connections2](connection.md#BKMK_campaignactivity_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -2047,6 +2067,7 @@ Same as connection entity [campaignactivity_connections2](connection.md#BKMK_cam
 ### <a name="BKMK_CampaignActivity_QueueItem"></a> CampaignActivity_QueueItem
 
 Same as queueitem entity [CampaignActivity_QueueItem](queueitem.md#BKMK_CampaignActivity_QueueItem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queueitem|
@@ -2061,6 +2082,7 @@ Same as queueitem entity [CampaignActivity_QueueItem](queueitem.md#BKMK_Campaign
 ### <a name="BKMK_CampaignActivity_Annotation"></a> CampaignActivity_Annotation
 
 Same as annotation entity [CampaignActivity_Annotation](annotation.md#BKMK_CampaignActivity_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -2075,6 +2097,7 @@ Same as annotation entity [CampaignActivity_Annotation](annotation.md#BKMK_Campa
 ### <a name="BKMK_campaignactivity_CampaignResponses"></a> campaignactivity_CampaignResponses
 
 Same as campaignresponse entity [campaignactivity_CampaignResponses](campaignresponse.md#BKMK_campaignactivity_CampaignResponses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -2089,6 +2112,7 @@ Same as campaignresponse entity [campaignactivity_CampaignResponses](campaignres
 ### <a name="BKMK_CampaignActivity_BulkOperations"></a> CampaignActivity_BulkOperations
 
 Same as bulkoperation entity [CampaignActivity_BulkOperations](bulkoperation.md#BKMK_CampaignActivity_BulkOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkoperation|
@@ -2103,6 +2127,7 @@ Same as bulkoperation entity [CampaignActivity_BulkOperations](bulkoperation.md#
 ### <a name="BKMK_campaignactivity_IncidentResolutions"></a> campaignactivity_IncidentResolutions
 
 Same as incidentresolution entity [campaignactivity_IncidentResolutions](incidentresolution.md#BKMK_campaignactivity_IncidentResolutions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incidentresolution|
@@ -2117,6 +2142,7 @@ Same as incidentresolution entity [campaignactivity_IncidentResolutions](inciden
 ### <a name="BKMK_campaignactivity_ServiceAppointments"></a> campaignactivity_ServiceAppointments
 
 Same as serviceappointment entity [campaignactivity_ServiceAppointments](serviceappointment.md#BKMK_campaignactivity_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -2131,6 +2157,7 @@ Same as serviceappointment entity [campaignactivity_ServiceAppointments](service
 ### <a name="BKMK_campaignactivity_OpportunityCloses"></a> campaignactivity_OpportunityCloses
 
 Same as opportunityclose entity [campaignactivity_OpportunityCloses](opportunityclose.md#BKMK_campaignactivity_OpportunityCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityclose|
@@ -2145,6 +2172,7 @@ Same as opportunityclose entity [campaignactivity_OpportunityCloses](opportunity
 ### <a name="BKMK_campaignactivity_OrderCloses"></a> campaignactivity_OrderCloses
 
 Same as orderclose entity [campaignactivity_OrderCloses](orderclose.md#BKMK_campaignactivity_OrderCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|orderclose|
@@ -2159,6 +2187,7 @@ Same as orderclose entity [campaignactivity_OrderCloses](orderclose.md#BKMK_camp
 ### <a name="BKMK_campaignactivity_QuoteCloses"></a> campaignactivity_QuoteCloses
 
 Same as quoteclose entity [campaignactivity_QuoteCloses](quoteclose.md#BKMK_campaignactivity_QuoteCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quoteclose|
@@ -2173,6 +2202,7 @@ Same as quoteclose entity [campaignactivity_QuoteCloses](quoteclose.md#BKMK_camp
 ### <a name="BKMK_campaignactivity_msdyn_bookingalerts"></a> campaignactivity_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [campaignactivity_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_campaignactivity_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -2187,6 +2217,7 @@ Same as msdyn_bookingalert entity [campaignactivity_msdyn_bookingalerts](msdyn_b
 ### <a name="BKMK_campaignactivity_msdyn_approvals"></a> campaignactivity_msdyn_approvals
 
 Same as msdyn_approval entity [campaignactivity_msdyn_approvals](msdyn_approval.md#BKMK_campaignactivity_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|

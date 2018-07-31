@@ -1,7 +1,7 @@
 ---
-title: "Preview feature: Dynamics 365 App for Outlook Overview (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Dynamics 365 App for Outlook Overview (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 11/19/2017
+ms.date: 04/06/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,14 +16,12 @@ author: "mduelae"
 ms.author: "mkaur"
 manager: "kvivek"
 ---
-# Overview of Dynamics 365 App for Outlook 
+# Overview of Dynamics 365 App for Outlook
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 > [!IMPORTANT]
 > The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] works with [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or later only. 
->
-
 
 To enable this feature, see [Enable](deploy-dynamics-365-app-for-outlook.md#enable).
 
@@ -54,19 +52,19 @@ The [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] version 
 ## What Dynamics 365 App for Outlook offers  
  With [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], you can:  
   
--   View information about [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] contacts and leads while you’re working in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]. You can view this info in the context of an email message, meeting, or appointment. For example, view phone numbers, company name, last and next activities, and recent records from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+- View information about [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] contacts and leads while you’re working in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]. You can view this info in the context of an email message, meeting, or appointment. For example, view phone numbers, company name, last and next activities, and recent records from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
--   Link email messages, meetings, and appointments to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record with a single click. For example, link an email message to a specific account, opportunity, or case. [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] also supports custom entities.  
+- Link email messages, meetings, and appointments to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record with a single click. For example, link an email message to a specific account, opportunity, or case. [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] also supports custom entities.  
   
--   Open [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records directly to find or enter more detailed information.  
+- Open [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records directly to find or enter more detailed information.  
   
--   Add a phone call, task, or appointment activity to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+- Add a phone call, task, or appointment activity to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
--   Create a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record for any entity (record type).  
+- Create a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record for any entity (record type).  
   
--   Add email templates, knowledge articles, and sales literature when you create an email message or set up a meeting.  
+- Add email templates, knowledge articles, and sales literature when you create an email message or set up a meeting.  
   
--   Track [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] contacts in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+- Track [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] contacts in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
 
 ### See also
 [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md)<br />

@@ -33,18 +33,18 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can search f
 
  Relevance Search brings the following enhancements and benefits:  
   
--   Improves performance with external indexing and [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Search technology.  
+- Improves performance with external indexing and [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Search technology.  
   
--   Finds matches to any word in the search term in any field in the entity. Matches can include inflectional words like **stream**, **streaming**, or **streamed**.  
+- Finds matches to any word in the search term in any field in the entity. Matches can include inflectional words like **stream**, **streaming**, or **streamed**.  
   
--   Returns results from all searchable entities in a single list sorted by relevance, based on factors like number of words matched or their proximity to each other in the text.  
+- Returns results from all searchable entities in a single list sorted by relevance, based on factors like number of words matched or their proximity to each other in the text.  
   
--   Highlights matches in the result list.  
+- Highlights matches in the result list.  
   
 > [!NOTE]
->  -   Relevance Search isn't available for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] organizations.  
->  -   Relevance Search is disabled by default. Your administrator needs to enable it for the organization. After Relevance Search is enabled, you might have to wait up to an hour or more, depending on the size of your organization, before you start seeing Relevance Search results in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application. Smaller changes in indexed data can take up to 15 minutes to show up in your system.  
->  -   Relevance search is text-based, and can search only on fields of type Single Line of Text, Multiple Lines of Text, Option Sets, or Lookups. It doesn't support searching in fields of Numeric or Date data type. 
+> - Relevance Search isn't available for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] organizations.  
+> - Relevance Search is disabled by default. Your administrator needs to enable it for the organization. After Relevance Search is enabled, you might have to wait up to an hour or more, depending on the size of your organization, before you start seeing Relevance Search results in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application. Smaller changes in indexed data can take up to 15 minutes to show up in your system.  
+> - Relevance search is text-based, and can search only on fields of type Single Line of Text, Multiple Lines of Text, Option Sets, or Lookups. It doesn't support searching in fields of Numeric or Date data type. 
   
  Although Relevance Search finds matches to any word in the search term in any field in an entity, in Quick Find&mdash;even with full-text search enabled&mdash;all words from the search term must be found in one field.  
   
@@ -66,16 +66,16 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can search f
   
  In [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], the following enhancements have been made to the Relevance Search experience:  
   
--   You'll find search results for text in a document that is stored in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], including text in notes, email attachments, or appointments. The following file formats are supported for search: PDF, Microsoft Office documents, HTML, XML, ZIP, EML, plain text, and JSON.  
+- You'll find search results for text in a document that is stored in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], including text in notes, email attachments, or appointments. The following file formats are supported for search: PDF, Microsoft Office documents, HTML, XML, ZIP, EML, plain text, and JSON.  
   
--   You can search for records that are shared with you and records that you own.  
+- You can search for records that are shared with you and records that you own.  
   
-    > [!NOTE]
-    >  Hierarchical security models aren't supported.  Even if you see a row in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] because you have access to it through hierarchical security, you won't see the result in Relevance Search.  
+  > [!NOTE]
+  >  Hierarchical security models aren't supported.  Even if you see a row in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] because you have access to it through hierarchical security, you won't see the result in Relevance Search.  
   
--   You can also search for option sets  and lookups. For example, let's say you want to find a retail store account that has **Pharmaceuticals** in the name. When you search for **Pharmaceutical Retail**, you'll find the result because there's a match to the Industry field, which is a searchable option set.  
+- You can also search for option sets  and lookups. For example, let's say you want to find a retail store account that has **Pharmaceuticals** in the name. When you search for **Pharmaceutical Retail**, you'll find the result because there's a match to the Industry field, which is a searchable option set.  
   
- Because your results might include a mix of entities, you can narrow your search results to a specific entity by selecting an entity in the **Filter with** drop-down list. When you filter on a specific record type, you can include activities and notes related to the selected record in your search results. To do that, select the **Search activities and notes for selected records** check box to the right of the **Filter with** drop-down list. The check box is selected after you select a record in the **Filter with** drop-down list; it is cleared if you didn't select an entity in the **Filter with** list. The activities and notes are returned as top-level results.  
+  Because your results might include a mix of entities, you can narrow your search results to a specific entity by selecting an entity in the **Filter with** drop-down list. When you filter on a specific record type, you can include activities and notes related to the selected record in your search results. To do that, select the **Search activities and notes for selected records** check box to the right of the **Filter with** drop-down list. The check box is selected after you select a record in the **Filter with** drop-down list; it is cleared if you didn't select an entity in the **Filter with** list. The activities and notes are returned as top-level results.  
   
 <a name="BKMK_FilterWithFacets"></a>   
 ## Filter records with facets  
@@ -125,30 +125,30 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can search f
   
 #### To configure facets for yourself  
   
-1.  Select the personal settings button in the upper-right corner of the page, and then select **Options**.  
+1. Select the personal settings button in the upper-right corner of the page, and then select **Options**.  
   
- ![Select default search experience](../basics/media/relevance-search-personal-settings.PNG "Select default search experience")  
+   ![Select default search experience](../basics/media/relevance-search-personal-settings.PNG "Select default search experience")  
   
-2.  On the **General** tab, in the **Select the default search experience** section, for the **Facets and Filters** field, select **Configure**.  
+2. On the **General** tab, in the **Select the default search experience** section, for the **Facets and Filters** field, select **Configure**.  
   
-3.  In the **Configure Facets and Filters** dialog box, specify the facets you'd like to see for an entity. Your system administrator or customizer can set a default experience for all entities, but you can set your own here.  
+3. In the **Configure Facets and Filters** dialog box, specify the facets you'd like to see for an entity. Your system administrator or customizer can set a default experience for all entities, but you can set your own here.  
   
-    -   In the **Select Entity** drop-down list, select an entity you want to configure facets for. This drop-down list contains only the entities that are enabled for Relevance Search.  
+   - In the **Select Entity** drop-down list, select an entity you want to configure facets for. This drop-down list contains only the entities that are enabled for Relevance Search.  
   
-    -   For the selected entity, select up to four facet fields. By default, the first four facetable fields in the **Quick Find** view for the selected entity are selected in the list. At any time, you can only have four fields selected as facets.  
+   - For the selected entity, select up to four facet fields. By default, the first four facetable fields in the **Quick Find** view for the selected entity are selected in the list. At any time, you can only have four fields selected as facets.  
   
      You can update multiple entities at one time. When you select **OK**, the changes for all entities that you've configured are saved. To revert to the default behavior for an entity that you previously configured, select **Default**.  
   
-    > [!NOTE]
-    >  -   If a system customizer deletes a field or makes it no longer searchable, and you've saved a facet for that field, it will no longer show up as a facet.  
-    > -   You'll only see the fields that exist in the default solution and that are configured as searchable by your system customizer.  
+   > [!NOTE]
+   > - If a system customizer deletes a field or makes it no longer searchable, and you've saved a facet for that field, it will no longer show up as a facet.  
+   >   -   You'll only see the fields that exist in the default solution and that are configured as searchable by your system customizer.  
   
 <a name="BKMK_CategorizedSearch"></a>   
 ## Switch to Categorized Search  
  Categorized Search returns results grouped by entity, such as accounts, contacts, or leads.  
   
 > 
- You can further narrow the search results by using the **Filter with** drop-down list to see the results for a specific entity. To switch from Relevance Search to Categorized Search, select **Relevance Search**, and then select **Categorized Search** from the drop-down list. To switch back to Relevance Search, select **Categorized Search**, and then select **Relevance Search**.  
+>  You can further narrow the search results by using the **Filter with** drop-down list to see the results for a specific entity. To switch from Relevance Search to Categorized Search, select **Relevance Search**, and then select **Categorized Search** from the drop-down list. To switch back to Relevance Search, select **Categorized Search**, and then select **Relevance Search**.  
   
  ![Categorized Search](../basics/media/relevance-search-categorized-search.png "Categorized Search")  
   
@@ -158,21 +158,21 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can search f
 ## Select a default search experience  
  You can choose a default search experience for your browser from the following choices:  
   
--   Relevance Search  
+- Relevance Search  
   
--   Categorized Search  
+- Categorized Search  
   
--   Use last search  
+- Use last search  
   
- The **Use last search** selection provides the last search experience you used in the current browser client. For example, if you used Relevance Search for your last search, the system will continue using this search until you manually switch to Categorized Search.  
+  The **Use last search** selection provides the last search experience you used in the current browser client. For example, if you used Relevance Search for your last search, the system will continue using this search until you manually switch to Categorized Search.  
   
 To select the default search experience, do the following:  
   
-1.  Select the personal settings button in the upper-right corner of the page, and then select **Options**.  
+1. Select the personal settings button in the upper-right corner of the page, and then select **Options**.  
   
- ![Select default search experience](../basics/media/relevance-search-personal-settings.PNG "Select the default search experience")  
+   ![Select default search experience](../basics/media/relevance-search-personal-settings.PNG "Select the default search experience")  
   
-2.  On the **General** tab, use the **Select the default search experience** drop-down list to choose **Relevance Search**, **Categorized Search**, or **Use last search**.  
+2. On the **General** tab, use the **Select the default search experience** drop-down list to choose **Relevance Search**, **Categorized Search**, or **Use last search**.  
   
 <a name="BKMK_PrivacyNotice"></a>   
 ## Privacy notice  

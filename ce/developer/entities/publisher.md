@@ -1294,6 +1294,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Publisher_PublisherAddress"></a> Publisher_PublisherAddress
 
 Same as publisheraddress entity [Publisher_PublisherAddress](publisheraddress.md#BKMK_Publisher_PublisherAddress) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|publisheraddress|
@@ -1308,6 +1309,7 @@ Same as publisheraddress entity [Publisher_PublisherAddress](publisheraddress.md
 ### <a name="BKMK_Publisher_DuplicateBaseRecord"></a> Publisher_DuplicateBaseRecord
 
 Same as duplicaterecord entity [Publisher_DuplicateBaseRecord](duplicaterecord.md#BKMK_Publisher_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1322,6 +1324,7 @@ Same as duplicaterecord entity [Publisher_DuplicateBaseRecord](duplicaterecord.m
 ### <a name="BKMK_Publisher_DuplicateMatchingRecord"></a> Publisher_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [Publisher_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Publisher_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1336,6 +1339,7 @@ Same as duplicaterecord entity [Publisher_DuplicateMatchingRecord](duplicatereco
 ### <a name="BKMK_publisher_solution"></a> publisher_solution
 
 Same as solution entity [publisher_solution](solution.md#BKMK_publisher_solution) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|solution|
@@ -1350,6 +1354,7 @@ Same as solution entity [publisher_solution](solution.md#BKMK_publisher_solution
 ### <a name="BKMK_Publisher_SyncErrors"></a> Publisher_SyncErrors
 
 Same as syncerror entity [Publisher_SyncErrors](syncerror.md#BKMK_Publisher_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1364,6 +1369,7 @@ Same as syncerror entity [Publisher_SyncErrors](syncerror.md#BKMK_Publisher_Sync
 ### <a name="BKMK_publisher_appmodule"></a> publisher_appmodule
 
 Same as appmodule entity [publisher_appmodule](appmodule.md#BKMK_publisher_appmodule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appmodule|
@@ -1378,6 +1384,7 @@ Same as appmodule entity [publisher_appmodule](appmodule.md#BKMK_publisher_appmo
 ### <a name="BKMK_userentityinstancedata_publisher"></a> userentityinstancedata_publisher
 
 Same as userentityinstancedata entity [userentityinstancedata_publisher](userentityinstancedata.md#BKMK_userentityinstancedata_publisher) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

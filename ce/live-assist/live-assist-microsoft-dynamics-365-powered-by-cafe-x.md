@@ -1,5 +1,7 @@
 ---
 title: "Live Assist for Dynamics 365 powered by Café X (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+ms.custom:
+  - dyn365-liveassist
 ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -20,13 +22,13 @@ ms.author: "shellyha"
   
  [!INCLUDE[live_assist_for_Dynamic_365_powered_by_cafe_x](../includes/pn-live-assist-for-dynamics-365-powered-by-cafex.md)] is a fully integrated omnichannel solution. With [!INCLUDE[live_assist_for_Dynamic_365_powered_by_cafe_x](../includes/pn-live-assist-for-dynamics-365-powered-by-cafex.md)], create more personalized, intelligent experiences within websites and apps using chat and co-browse. Features include:  
   
--   Agents interact with customers within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]: Full integration with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] customer engagement and [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)] means agents interact with their customers via chat without leaving the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] application.  
+- Agents interact with customers within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]: Full integration with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] customer engagement and [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)] means agents interact with their customers via chat without leaving the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] application.  
   
--   Live omnichannel: Customers connect with your agents across mobile and web.  
+- Live omnichannel: Customers connect with your agents across mobile and web.  
   
--   Proactive customer engagement with chat: Customer assistance via chat that provides contextual customer information to agents including past history, preferences, and purchases.  
+- Proactive customer engagement with chat: Customer assistance via chat that provides contextual customer information to agents including past history, preferences, and purchases.  
   
--   Faster problem solving with co-browse: View your customer’s app or browser with sensitive data hidden.  
+- Faster problem solving with co-browse: View your customer’s app or browser with sensitive data hidden.  
   
 > [!IMPORTANT]
 > -   This feature is currently available in North America (NAM), Canada (CAN), and Europe, Middle East, Africa (EMEA) regions.  

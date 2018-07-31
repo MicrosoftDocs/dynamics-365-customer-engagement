@@ -1,7 +1,8 @@
 ---
-title: "Change the color scheme or add a logo to match your organization’s brand (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 10/30/2017
+title: "Change the color scheme or add a logo  in PowerApps | MicrosoftDocs"
+description: "Learn how to change the color scheme or add a logo to match your organization’s brand" 
+s.custom: ""
+ms.date: 04/02/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,21 +11,22 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 21a166a0-d25e-4260-a1e4-2ddc528787c2
 caps.latest.revision: 17
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
 # Create a theme
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-You can create a custom look and feel (a theme), for your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application by making changes to the default colors and visual elements provided in the uncustomized [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system. For example, you can create your personal product branding by adding a company logo and providing entity-specific coloring. A theme is created by using the customization tools in the user interface, without requiring a developer to write code. You can create, change or delete themes that are used in your organization. The theme customization is supported in the Web forms in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. You can define multiple themes, but only one can be set and published as the default theme.  
+You can create a custom look and feel (a theme), for your app by making changes to the default colors and visual elements provided in the uncustomized system. For example, you can create your personal product branding by adding a company logo and providing entity-specific coloring. A theme is created by using the customization tools in the user interface, without requiring a developer to write code. You can create, change or delete themes that are used in your organization. The theme customization is supported in the Web forms in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. You can define multiple themes, but only one can be set and published as the default theme.  
   
 <a name="UseThemes"></a>   
 ## Use themes to enhance the user interface and create your product branding  
- Theming is used to enhance the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user interface, not drastically alter it. The theme colors are applied globally throughout the application. For example, you can enhance the following visual elements in the UI:  
+ Theming is used to enhance the app user interface, not drastically alter it. The theme colors are applied globally throughout the application. For example, you can enhance the following visual elements in the UI:  
   
 -   Change product logos and navigation colors to create product branding  
   
@@ -89,15 +91,15 @@ The following screenshot shows the default theme setup.
 ## Preview and publish a theme  
  To preview and publish a theme, do the following steps:  
   
--   Create a new theme from scratch or clone an existing one.  
+- Create a new theme from scratch or clone an existing one.  
   
--   Preview the new theme by choosing **Preview** on the command bar. To exit the Preview mode, choose **Exit Preview** on the command bar, next to the **Preview** button.  
+- Preview the new theme by choosing **Preview** on the command bar. To exit the Preview mode, choose **Exit Preview** on the command bar, next to the **Preview** button.  
   
--   Publish a theme. Choose **Publish Theme** on the command bar.  
+- Publish a theme. Choose **Publish Theme** on the command bar.  
   
- The following screenshot shows the buttons on the command bar for preview and publishing.  
+  The following screenshot shows the buttons on the command bar for preview and publishing.  
   
- ![Use preview buttons to enter&#47;exit the preview mode](../customize/media/themes-preview-buttons.PNG "Use preview buttons to enter/exit the preview mode")  
+  ![Use preview buttons to enter&#47;exit the preview mode](../customize/media/themes-preview-buttons.PNG "Use preview buttons to enter/exit the preview mode")  
   
 <a name="BestPracticies"></a>   
 ## Best practices  
@@ -106,9 +108,9 @@ The following screenshot shows the default theme setup.
 ### Theme contrast  
  We recommend the following approach to providing contrast colors:  
   
--   Carefully choose the contrasting colors. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] out-of-the-box default theme has the correct contrast ratios to ensure optimal usability. Use similar rations for your new themes.  
+- Carefully choose the contrasting colors. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] out-of-the-box default theme has the correct contrast ratios to ensure optimal usability. Use similar rations for your new themes.  
   
--   For high contrast mode, use the default color settings.  
+- For high contrast mode, use the default color settings.  
   
 ### Theme colors  
  We recommend that you don’t use a large number of different colors. Although you can set a different color for every entity, we recommend one of two patterns:  

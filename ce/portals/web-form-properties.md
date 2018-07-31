@@ -1,22 +1,19 @@
 ---
 title: "Configure web form properties for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to configure web form properties for a portal."
-keywords: ""
-ms.date: 06/29/2018
-ms.service:
-  - "dynamics-365-customerservice"
 ms.custom:
-  - "dyn365-portal"
+  - dyn365-portal
+ms.date: 06/29/2018
+ms.service: dynamics-365-customerservice
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: article
 ms.assetid: bb532e07-356f-4dc1-adcb-1de2efcc6149
+ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
 manager: sakudes
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 ---
-
 # Define web form properties for portals
 
 The Web form contains relationships to webpages and a start step to control the initialization of the form within the portal. The relationship to the webpage allows dynamic retrieval of the form definition for a given page node within the [website](#website-1).  
@@ -36,17 +33,18 @@ When creating or editing a webpage, a **Web Form** can be specified in the looku
 
 The following attributes and relationships determine the functionality of the Web form.
 
-| Name                                | Description                                                                                                                                                                                                                                                                                                                                                    |
-|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Name                                | A title of the form used for reference.                                                                                                                                                                                                                                                                                                                        |
-| Start Step                          | The first step of the form. A Web form will consist of one or more steps. For more information about these steps please refer to the section titled Web Form Step found below. The first step cannot be of type "Condition".                                                                                                                                                                                                                                                                                              |
-| Authentication Required             | If checked, when a user who is not signed in visits the page that contains the form, they will be redirected to the sign-in page. Upon successful sign-in, the user will be redirected back to the page that contains the form.                                                                                                                                          |
-| Start New Session On Load           | Selecting **Yes** indicates that if the user opens the form in a new browser or new tab, or closes the browser or page and returns, the form will start a completely new session and begin at the first step. Otherwise the session will be persisted and the user can close the browser or page and resume later exactly where they left off. Default: **No**. |
-| Multiple Records Per User Permitted | Selecting **Yes** indicates that a user is permitted to create more than one submission. This assists the form in determining what to do when a user revisits a form. Default: **Yes**.                                                                                                                                                                        |
-| Edit Expired State Code             | The target entity's state code integer value that, when combined with the status reason, indicates when an existing record can no longer be edited.                                                                                                                                                                                                              |
-| Edit Expired Status Reason          | The target entity's status code integer value that, when combined with the state code, indicates that when an existing record has these values the record is not to be edited anymore&mdash;for example, when a record is updated as complete.                                                                                                                    |
-| Edit Expired Message                | The message displayed when the existing record's state code and status reason match the values specified. For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, a field will be available to enter the message in the associated language. Default message; "You have already completed a submission. Thank you!"                     |
-||
+
+|                Name                 |                                                                                                                                                                                        Description                                                                                                                                                                                         |
+|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                Name                 |                                                                                                                                                                          A title of the form used for reference.                                                                                                                                                                           |
+|             Start Step              |                                                                                The first step of the form. A Web form will consist of one or more steps. For more information about these steps please refer to the section titled Web Form Step found below. The first step cannot be of type "Condition".                                                                                |
+|       Authentication Required       |                                                                              If checked, when a user who is not signed in visits the page that contains the form, they will be redirected to the sign-in page. Upon successful sign-in, the user will be redirected back to the page that contains the form.                                                                               |
+|      Start New Session On Load      |              Selecting **Yes** indicates that if the user opens the form in a new browser or new tab, or closes the browser or page and returns, the form will start a completely new session and begin at the first step. Otherwise the session will be persisted and the user can close the browser or page and resume later exactly where they left off. Default: **No**.               |
+| Multiple Records Per User Permitted |                                                                                                  Selecting **Yes** indicates that a user is permitted to create more than one submission. This assists the form in determining what to do when a user revisits a form. Default: **Yes**.                                                                                                   |
+|       Edit Expired State Code       |                                                                                                                    The target entity's state code integer value that, when combined with the status reason, indicates when an existing record can no longer be edited.                                                                                                                     |
+|     Edit Expired Status Reason      |                                                                       The target entity's status code integer value that, when combined with the state code, indicates that when an existing record has these values the record is not to be edited anymore&mdash;for example, when a record is updated as complete.                                                                       |
+|        Edit Expired Message         | The message displayed when the existing record's state code and status reason match the values specified. For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, a field will be available to enter the message in the associated language. Default message; "You have already completed a submission. Thank you!" |
+|                                     |                                                                                                                                                                                                                                                                                                                                                                                            |
 
 ## Progress indicator settings
 
@@ -78,11 +76,11 @@ Example of the various progress indicator types:
 
 ## “Save changes” warning 
 
-| Name                                  | Description                                                                                                                                                                                                                |
-|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Display Save Changes Warning On Close | Select to display a warning message if the user has made changes to field(s) and they try to reload the page, close the browser, select the browser's back button, or select the previous button in a multiple step form.    |
-| Save Changes Warning Message          | For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, a field will be available to enter the message in the associated language. If no message is specified, the browser's default will be used. |
-||
+|                 Name                  |                                                                                                                                Description                                                                                                                                |
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Display Save Changes Warning On Close |                         Select to display a warning message if the user has made changes to field(s) and they try to reload the page, close the browser, select the browser's back button, or select the previous button in a multiple step form.                         |
+|     Save Changes Warning Message      | For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, a field will be available to enter the message in the associated language. If no message is specified, the browser's default will be used. |
+|                                       |                                                                                                                                                                                                                                                                           |
 
 Example:
 

@@ -27,13 +27,13 @@ Web applications and web pages can contain frames. The frames can have associate
 ## Search path elements  
  The WebDDA defines three elements that can be used in the search path for a given control:  
   
--   [AttributeMatchPath](../unified-service-desk/attribute-match-path.md)  
+- [AttributeMatchPath](../unified-service-desk/attribute-match-path.md)  
   
--   [ElementMatchPath](../unified-service-desk/element-match-path.md)  
+- [ElementMatchPath](../unified-service-desk/element-match-path.md)  
   
--   [FindIEFrame](../unified-service-desk/find-ie-frame.md)  
+- [FindIEFrame](../unified-service-desk/find-ie-frame.md)  
   
- A control's search path can contain multiple elements. They will be executed in the order in that they are listed in the search path. For example, the following control description first looks for an [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] window described with the `<FindIEFrame/>` element, and then it uses the `<ElementMatchPath/>` element to identify the desired control within this [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] window.  
+  A control's search path can contain multiple elements. They will be executed in the order in that they are listed in the search path. For example, the following control description first looks for an [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] window described with the `<FindIEFrame/>` element, and then it uses the `<ElementMatchPath/>` element to identify the desired control within this [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] window.  
   
 ```xml  
 <HtmlElement name="Popup Text1" type="HtmlElement">  

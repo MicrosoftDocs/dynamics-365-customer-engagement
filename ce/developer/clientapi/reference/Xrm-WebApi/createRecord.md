@@ -32,7 +32,7 @@ manager: "amyla"
 <td>entityLogicalName</td>
 <td>String</td>
 <td>Yes</td>
-<td>Logical name of the entity you want to create. For example: "account".</td>
+<td>Logical name of the entity you want to create. For example: &quot;account&quot;.</td>
 </tr>
 <tr>
 <td>data</td>

@@ -41,27 +41,27 @@ You can describe the relationship between records through the roles that you ass
 ## Connection Role Categories  
  When you create connection roles, you can specify what category they belong to. For example, you can use the following categories:  
   
--   Business (supplier, buyer, competitor)  
+- Business (supplier, buyer, competitor)  
   
--   Family (father, sister, cousin)  
+- Family (father, sister, cousin)  
   
--   Social (tennis partner, club member, friend)  
+- Social (tennis partner, club member, friend)  
   
- The category list is customizable. You can add the categories that best fit your business model.  
+  The category list is customizable. You can add the categories that best fit your business model.  
   
 ## Create Connection Roles  
  To create a connection role you must specify the following information:  
   
--   Use the `ConnectionRole.Name` attribute to specify a role name.  
+- Use the `ConnectionRole.Name` attribute to specify a role name.  
   
--   Use the `ConnectionRole.Description` attribute to add a role description.  
+- Use the `ConnectionRole.Description` attribute to add a role description.  
   
--   Use the `ConnectionRole.Category` attribute to specify a role category. The possible values for this attribute are defined in the `connectionrole_category` global option set.  
+- Use the `ConnectionRole.Category` attribute to specify a role category. The possible values for this attribute are defined in the `connectionrole_category` global option set.  
   
--   When you create a connection role, you can specify an entity type that the role will be applied to, such as lead, account, or competitor. If you do not specify a particular entity type, then you can apply a connection role to all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] entities. To specify the entity type, use the `ConnectionRoleObjectTypeCode.AssociatedObjectTypeCode` attribute. To link the connection role to a particular entity type, use the `ConnectionRoleObjectTypeCode.ConnectionRoleId` attribute. A connection role record can be referenced by multiple connection role object type code records. If you remove all references to the connection role record, you can apply this connection role to all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] entities.  
+- When you create a connection role, you can specify an entity type that the role will be applied to, such as lead, account, or competitor. If you do not specify a particular entity type, then you can apply a connection role to all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] entities. To specify the entity type, use the `ConnectionRoleObjectTypeCode.AssociatedObjectTypeCode` attribute. To link the connection role to a particular entity type, use the `ConnectionRoleObjectTypeCode.ConnectionRoleId` attribute. A connection role record can be referenced by multiple connection role object type code records. If you remove all references to the connection role record, you can apply this connection role to all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] entities.  
   
-    > [!TIP]
-    >  To find the connection roles for an account entity, in the query, specify all roles that are linked to the account entity (Entity Type Code = 1) or to all entities (Entity Type Code = 0).  
+  > [!TIP]
+  >  To find the connection roles for an account entity, in the query, specify all roles that are linked to the account entity (Entity Type Code = 1) or to all entities (Entity Type Code = 0).  
   
 ## Associate and Disassociate Connection Roles  
  To associate the roles in the connection, use the <xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*> method. To disassociate the roles, use the <xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*> method. For more information about the `Associate` message and the `Disassociate` message, see [Introduction to Entities in Dynamics 365](introduction-entities.md).  

@@ -51,21 +51,21 @@ ms.author: "jdaly"
 ### You get [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] integration  
  [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] provides so many additional options to work with your application. With your application people will be able to:  
   
--   Integrate with [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] and [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] for email tracking, scheduling and task management.  
+- Integrate with [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] and [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] for email tracking, scheduling and task management.  
   
--   Initiate instant messaging and phone calls with [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)].  
+- Initiate instant messaging and phone calls with [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)].  
   
--   Use [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] to analyze data.  
+- Use [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] to analyze data.  
   
--   Edit data with [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)].  
+- Edit data with [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)].  
   
--   Take rich contextual notes with [!INCLUDE[pn_onenote](../includes/pn-onenote.md)].  
+- Take rich contextual notes with [!INCLUDE[pn_onenote](../includes/pn-onenote.md)].  
   
--   Create personalized documents as a team with automatic document generation and real-time co-authoring.  
+- Create personalized documents as a team with automatic document generation and real-time co-authoring.  
   
--   Manage contextual documents across [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], and [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)].  
+- Manage contextual documents across [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], and [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)].  
   
--   Get relevant content with [!INCLUDE[pn_office_delve](../includes/pn-office-delve.md)] based on what they're working on and who they're working with.  
+- Get relevant content with [!INCLUDE[pn_office_delve](../includes/pn-office-delve.md)] based on what they're working on and who they're working with.  
   
 ### You get cross-platform mobile applications  
  The [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] mobile apps download metadata about your data model, security configuration, business processes and rules, transforming the out-of-the-box experience into a customized mobile app for your application.  
@@ -84,72 +84,72 @@ ms.author: "jdaly"
  [Building xRM Solutions I: Introduction](https://youtu.be/GI54dCi2sIg)  
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] capabilities can be leveraged to build line of business applications, managing any relationship and interaction versus customer relationships and interactions.  In this video, we’ll walk through  the                           capabilities within [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] application platform, including:  
   
--   Rapid application development  
+- Rapid application development  
   
--   Business process management  
+- Business process management  
   
--   Business intelligence  
+- Business intelligence  
   
--   User experience  
+- User experience  
   
- [Building xRM Solutions II: Configuration](https://youtu.be/MC2NaanB5Mk)  
- In this video, the terms configuration and customization are used interchangeably                          and refer to an iterative process of defining the data model, security model, navigation, forms and views, business process flows, business rules, business process automation, and solution packaging.  
+  [Building xRM Solutions II: Configuration](https://youtu.be/MC2NaanB5Mk)  
+  In this video, the terms configuration and customization are used interchangeably                          and refer to an iterative process of defining the data model, security model, navigation, forms and views, business process flows, business rules, business process automation, and solution packaging.  
   
- [Building xRM Solutions III: Code](https://youtu.be/c-TrDYQ6VQY)  
- In this video, we’ll cover four main concepts to consider when extending [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to build a                          xRM solution:  
+  [Building xRM Solutions III: Code](https://youtu.be/c-TrDYQ6VQY)  
+  In this video, we’ll cover four main concepts to consider when extending [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to build a                          xRM solution:  
   
--   Client extensions  
+- Client extensions  
   
--   Server extensions  
+- Server extensions  
   
--   Integration  
+- Integration  
   
--   Custom user experiences  
+- Custom user experiences  
   
 ## Related documentation  
  User interface ready for international use  
  -   [Create solutions that support multiple languages](create-solutions-support-multiple-languages.md)  
   
--   [Export Customized Entity and Field Text for Translation](../customize/export-customized-entity-field-text-translation.md)  
+- [Export Customized Entity and Field Text for Translation](../customize/export-customized-entity-field-text-translation.md)  
   
- Extensible security model  
- -   [Security concepts for Dynamics 365](../admin/security-concepts.md)  
+  Extensible security model  
+  -   [Security concepts for Dynamics 365](../admin/security-concepts.md)  
   
--   [The security model of Dynamics 365](security-dev/security-model.md)  
+- [The security model of Dynamics 365](security-dev/security-model.md)  
   
- Extensible data model  
- -   [Model your business data in Dynamics 365](model-business-data.md)  
+  Extensible data model  
+  -   [Model your business data in Dynamics 365](model-business-data.md)  
   
--   [The metadata and data models in Dynamics 365](metadata-data-models.md)  
+- [The metadata and data models in Dynamics 365](metadata-data-models.md)  
   
- Extensible business logic  
- -   [Guide staff through common tasks with processes](../customize/guide-staff-through-common-tasks-processes.md)   
--   [Write workflows to automate business processes](automate-business-processes-customer-engagement.md)  
+  Extensible business logic  
+  -   [Guide staff through common tasks with processes](../customize/guide-staff-through-common-tasks-processes.md)   
+- [Write workflows to automate business processes](automate-business-processes-customer-engagement.md)  
   
--   [Write plug-ins to extend business processes](write-plugin-extend-business-processes.md)  
+- [Write plug-ins to extend business processes](write-plugin-extend-business-processes.md)  
   
- [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] integration  
+  [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] integration  
   
--   [Extend Dynamics 365 Customer Engagement](../admin/extend.md)  
+- [Extend Dynamics 365 Customer Engagement](../admin/extend.md)  
   
--   [Integrate Dynamics 365 with SharePoint](integration-dev/integrate-sharepoint.md)  
+- [Integrate Dynamics 365 with SharePoint](integration-dev/integrate-sharepoint.md)  
   
--   [Integrate Dynamics 365 with OneNote](integration-dev/integrate-onenote.md)  
+- [Integrate Dynamics 365 with OneNote](integration-dev/integrate-onenote.md)  
   
- Cross-platform mobile applications  
- [User Guide (Dynamics 365 for phones and tablets)](../mobile-app/dynamics-365-phones-tablets-users-guide.md)
+  Cross-platform mobile applications  
+  [User Guide (Dynamics 365 for phones and tablets)](../mobile-app/dynamics-365-phones-tablets-users-guide.md)
   
- Business intelligence  
- [Use Power BI with Dynamics 365](../admin/use-power-bi.md)  
+  Business intelligence  
+  [Use Power BI with Dynamics 365](../admin/use-power-bi.md)  
   
- Extensible platform  
- -   [Extend Dynamics 365 on the server](extend-dynamics-365-server.md)  
+  Extensible platform  
+  -   [Extend Dynamics 365 on the server](extend-dynamics-365-server.md)  
   
--   [Extend Dynamics 365 on the client](extend-client.md)  
+- [Extend Dynamics 365 on the client](extend-client.md)  
   
--   [Customize Dynamics 365 applications](customize-dev/customize-applications.md)  
+- [Customize Dynamics 365 applications](customize-dev/customize-applications.md)  
   
--   [Package and distribute extensions using solutions](package-distribute-extensions-use-solutions.md)  
+- [Package and distribute extensions using solutions](package-distribute-extensions-use-solutions.md)  
   
 ### See also  
  [Supported extensions for Dynamics 365](supported-extensions.md)   

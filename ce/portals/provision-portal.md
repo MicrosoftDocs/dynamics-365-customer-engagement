@@ -1,23 +1,20 @@
 ---
 title: "Provision a portal for Dynamics 365 | MicrosoftDocs"
 description: "Instructions to provision a portal."
-keywords: ""
-ms.date: 07/04/2018
-ms.service:
-  - "dynamics-365-customerservice"
 ms.custom:
-  - "dyn365-portal"
-  - "dyn365-deflc"
+  - dyn365-portal
+  - dyn365-deflc
+ms.date: 07/04/2018
+ms.service: dynamics-365-customerservice
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: article
 ms.assetid: 1249d87f-6e5e-4ff0-96a9-82978fcbc87c
+ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
 manager: sakudes
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 ---
-
 # Provision a portal
 Portals are websites that you can customize to provide a more personalized experience to your customers, partners, or internal employees. Portals integrate with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to show data from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] on the portal. By using portals, you can create a variety of experiences where portal users can perform several tasks. For example:
 
@@ -48,8 +45,8 @@ To complete provisioning a portal, after you have purchased a new portal license
 
 7.  Choose the default language for your portal from the **Select Portal Language** drop-down list. The available languages will depend on the languages that are installed in your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance. 
 
-    >[!NOTE]
-    > Sample data is only provided in one language, so choosing a default language will also decide how the sample data is translated. Arabic and Hebrew are not supported and will not appear in the list.
+   >[!NOTE]
+   > Sample data is only provided in one language, so choosing a default language will also decide how the sample data is translated. Arabic and Hebrew are not supported and will not appear in the list.
 
 8. In the **Select Portal Administrator** drop-down list, select the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] user who will configure, customize, and maintain the portal. All [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users who have the System Administrator role in the organization will appear as options. 
 
@@ -62,12 +59,12 @@ To complete provisioning a portal, after you have purchased a new portal license
         -   Partner Project Service (Optional, requires solutions installed)
         -   Partner Field Service (Optional, requires solutions installed)
         -   Community Portal
-    
+
     -   Customer
         -   Customer Self Service Portal
         -   Custom Portal
         -   Community Portal
-    
+
     -   Employee
         -   Employee Self Service Portal
 
@@ -126,11 +123,11 @@ If "*Name*-Configuring" changes to "*Name*-Provisioning Failed," you need to res
 2. Select the blue pencil button labeled **Manage**.
 3. Choose one of the following options:
 
-    -   **Restart Provisioning**: Restarts the installation process with the configuration that was previously defined.
+   - **Restart Provisioning**: Restarts the installation process with the configuration that was previously defined.
 
-    -   **Change Values and Restart Provisioning**: Lets you change some of the values before restarting the provisioning process.
+   - **Change Values and Restart Provisioning**: Lets you change some of the values before restarting the provisioning process.
 
-    ![Provisioning error](media/error-provisioning.png "Provisioning error")  
+     ![Provisioning error](media/error-provisioning.png "Provisioning error")  
 
 If the package installation has failed, the portal administrator page will open without any issues, but navigating to the actual portal URL will show a message "Getting set up." To confirm this:
 

@@ -22,13 +22,13 @@ manager: "amyla"
 
 You can enable tracing to record data related to process milestones across all components of XRM tooling, such as operation calls, warnings, exceptions, and other significant events. This information can be used for troubleshooting operational and performance issues in your Windows client applications. Tracing in XRM tooling is built on top of [System.Tracing](https://msdn.microsoft.com/library/vstudio/system.diagnostics\(v=vs.100\).aspx). To enable tracing for an assembly or component, for example Microsoft.Xrm.Tooling.Connector, you must define the following three things for each component in your code or in the application configuration file (*\<AppName>*.exe.config):  
   
--   A trace source  
+- A trace source  
   
--   A trace listener  
+- A trace listener  
   
--   A trace level other than **Off**. These are the other values that you can specify: **Error**, **Warning**, **Info**, and **Verbose**.  
+- A trace level other than **Off**. These are the other values that you can specify: **Error**, **Warning**, **Info**, and **Verbose**.  
   
- Here is the configuration for enabling tracing for a component in XRM tooling. For example, the following configuration only enables tracing for the Microsoft.Xrm.Tooling.CrmConnectControl component:  
+  Here is the configuration for enabling tracing for a component in XRM tooling. For example, the following configuration only enables tracing for the Microsoft.Xrm.Tooling.CrmConnectControl component:  
   
 ```xml  
 </configuration>  

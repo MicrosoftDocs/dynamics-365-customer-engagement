@@ -52,19 +52,19 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
 <a name="EnableCaching"></a>   
 ## Enable client caching  
   
-1.  Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
   
-3.  Click **Options**.  
+3. Click **Options**.  
   
-4.  Click **New** on the command bar to create a new option.  
+4. Click **New** on the command bar to create a new option.  
   
-5.  For the new option, type **ClientCacheVersionNumber** in the **Name** box, and an alphanumeric number in the **Value** box. The alphanumeric value is used as the cache key for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
+5. For the new option, type **ClientCacheVersionNumber** in the **Name** box, and an alphanumeric number in the **Value** box. The alphanumeric value is used as the cache key for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
   
-6.  Click **Save**.  
+6. Click **Save**.  
   
- When the option is present and populated, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] will activate the client caching.  
+   When the option is present and populated, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] will activate the client caching.  
   
 <a name="CachingStoreLocation"></a>   
 ## Client caching store location  
@@ -82,25 +82,25 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
 ## Disable client caching for a specific user  
  At times it may be necessary to exclude some users from client caching such as limited testing of new configurations in production, production, or troubleshooting where a cache problem is suspected, or the need to do rapid updates to a configuration where you want to revert your changes back to the currently cached objects.  
   
-1.  Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
   
-3.  Click **User Settings**.  
+3. Click **User Settings**.  
   
-4.  Click **New** on the command bar to create a new setting.  
+4. Click **New** on the command bar to create a new setting.  
   
-5.  On the **New User Setting** page:  
+5. On the **New User Setting** page:  
   
-    1.  In the **User** field, type or select the name of the user for which you want to disable client caching.  
+   1.  In the **User** field, type or select the name of the user for which you want to disable client caching.  
   
-    2.  In the **Name** field, type **DisableCaching**. Leave the **Value** field empty.  
+   2.  In the **Name** field, type **DisableCaching**. Leave the **Value** field empty.  
   
- ![Disable client caching for a user](../../unified-service-desk/media/usd-disable-client-caching-user.PNG "Disable client caching for a user")  
+   ![Disable client caching for a user](../../unified-service-desk/media/usd-disable-client-caching-user.PNG "Disable client caching for a user")  
   
-6.  Click **Save**.  
+6. Click **Save**.  
   
- When the user next signs in using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, client caching isn’t used. However, it doesn’t delete or refresh the client cache store for the user. When the **DisableCaching** key is removed for the user, the user will return to using the previously stored client cache store.  
+   When the user next signs in using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, client caching isn’t used. However, it doesn’t delete or refresh the client cache store for the user. When the **DisableCaching** key is removed for the user, the user will return to using the previously stored client cache store.  
   
 <a name="ForceCacheReset"></a>   
 ## Force a cache reset for a specific user  
@@ -109,72 +109,72 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
 <a name="UsingCRMServer"></a>   
 ### Using the Dynamics 365 Server  
   
-1.  Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
   
-3.  Click **User Settings**.  
+3. Click **User Settings**.  
   
-4.  Click **New** on the command bar to create a new setting.  
+4. Click **New** on the command bar to create a new setting.  
   
-5.  On the **New User Setting** page:  
+5. On the **New User Setting** page:  
   
-    1.  In the **User** field, type or select the name of the user that you want to disable client caching for.  
+   1.  In the **User** field, type or select the name of the user that you want to disable client caching for.  
   
-    2.  In the **Name** field, type **ResetDesktopCache**. Leave the **Value** field empty.  
+   2.  In the **Name** field, type **ResetDesktopCache**. Leave the **Value** field empty.  
   
-6.  Click **Save**.  
+6. Click **Save**.  
   
- The ResetDesktopCache setting causes the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application to delete its local cache store and rebuild it from the server.  
+   The ResetDesktopCache setting causes the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application to delete its local cache store and rebuild it from the server.  
   
- To complete the cache reset process, two restarts of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client are required.  
+   To complete the cache reset process, two restarts of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client are required.  
   
-1.  After the first [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application restart, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client loads data from the existing cache. Afterwards, the existing cache is deleted and the ResetDesktopCache setting is disabled.  
+7. After the first [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application restart, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client loads data from the existing cache. Afterwards, the existing cache is deleted and the ResetDesktopCache setting is disabled.  
   
-2.  After the second [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application restart, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client loads the configuration directly from the server and re-creates the cache.  Notice that the time it takes for the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client to load during this time can increase significantly.  
+8. After the second [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application restart, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client loads the configuration directly from the server and re-creates the cache.  Notice that the time it takes for the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client to load during this time can increase significantly.  
   
 ### Using the Unified Service Desk client  
  You can invoke a reset from the client application using a hidden UII action called **ResetLocalCache** on the **Global Manager** hosted control type. You’ll need to create the UII action on the Global Manager hosted control type before you can use it.  
   
-1.  Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
   
-3.  Click **Hosted Controls**.  
+3. Click **Hosted Controls**.  
   
-4.  Locate the **Dynamics 365 Global Manager** hosted control, and click its name in the **Name** column to open it for editing.  
+4. Locate the **Dynamics 365 Global Manager** hosted control, and click its name in the **Name** column to open it for editing.  
   
-    > [!NOTE]
-    > **Dynamics 365 Global Manager** is the name of the hosted control in the sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] applications. If you have named your Global Manager hosted control something else, select it instead. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Global Manager (Hosted Control)](../../unified-service-desk/global-manager-hosted-control.md)  
+   > [!NOTE]
+   > **Dynamics 365 Global Manager** is the name of the hosted control in the sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] applications. If you have named your Global Manager hosted control something else, select it instead. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Global Manager (Hosted Control)](../../unified-service-desk/global-manager-hosted-control.md)  
   
-5.  On the nav bar, click the down arrow next to the **Dynamics 365 Global Manager** hosted control, and then select **UII Actions**.  
+5. On the nav bar, click the down arrow next to the **Dynamics 365 Global Manager** hosted control, and then select **UII Actions**.  
   
- ![Navigation to UII Actions for hosted control](../../unified-service-desk/media/usd-hosted-contro-uii-action.png "Navigation to UII Actions for hosted control")  
+   ![Navigation to UII Actions for hosted control](../../unified-service-desk/media/usd-hosted-contro-uii-action.png "Navigation to UII Actions for hosted control")  
   
-6.  On the next page, click **Add New UII Action**.  
+6. On the next page, click **Add New UII Action**.  
   
-7.  On the **New UII Action** page, type **ResetLocalCache** in the **Name** field, and then click **Save**. Close the UII Action and the hosted control.  
+7. On the **New UII Action** page, type **ResetLocalCache** in the **Name** field, and then click **Save**. Close the UII Action and the hosted control.  
   
-     Next, we will add an action call to call the UII action that we just created.  
+    Next, we will add an action call to call the UII action that we just created.  
   
-8.  On the nav bar, click **Settings** > **Unified Service Desk** > **Action Calls**.  
+8. On the nav bar, click **Settings** > **Unified Service Desk** > **Action Calls**.  
   
 9. On the action calls page, Click **New**.  
   
 10. On the **New Action Call** page:  
   
-    1.  In the **Name** field, type **ResetClientCache**.  
+    1. In the **Name** field, type **ResetClientCache**.  
   
-    2.  In the **Hosted Control** field, specify the **Dynamics 365 Global Manager**.  
+    2. In the **Hosted Control** field, specify the **Dynamics 365 Global Manager**.  
   
-        > [!NOTE]
-        > **Dynamics 365 Global Manager** is the name of the hosted control in the sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] applications. If you have named your Global Manager hosted control something else, select it instead. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Global Manager (Hosted Control)](../../unified-service-desk/global-manager-hosted-control.md)  
+       > [!NOTE]
+       > **Dynamics 365 Global Manager** is the name of the hosted control in the sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] applications. If you have named your Global Manager hosted control something else, select it instead. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Global Manager (Hosted Control)](../../unified-service-desk/global-manager-hosted-control.md)  
   
-    3.  In the **Action** field, specify **ResetLocalCache**.  
+    3. In the **Action** field, specify **ResetLocalCache**.  
   
 11. Click **Save** and then close the action call.  
   
- After you have set up the UII action and the action call, you can add a toolbar button, event, or code to directly invoke the action call from the client application. This creates a **RestDesktopCache** setting in the **User Settings** area, which triggers the reset behavior as described earlier in [Using the Dynamics 365 Server](../../unified-service-desk/admin/configure-client-caching-unified-service-desk.md#UsingCRMServer).  
+    After you have set up the UII action and the action call, you can add a toolbar button, event, or code to directly invoke the action call from the client application. This creates a **RestDesktopCache** setting in the **User Settings** area, which triggers the reset behavior as described earlier in [Using the Dynamics 365 Server](../../unified-service-desk/admin/configure-client-caching-unified-service-desk.md#UsingCRMServer).  
   
 ## See also  
  [Sample Unified Service Desk applications](../../unified-service-desk/admin/sample-unified-service-desk-applications.md)   

@@ -31,21 +31,21 @@ You can create a theme for your survey to match your company's style. Themes def
 
 **Web client**
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-2.  Go to **Voice of the Customer** &gt; **Themes**.
+2. Go to **Voice of the Customer** &gt; **Themes**.
 
-3.  To create a new theme, select **New**.
+3. To create a new theme, select **New**.
 
-4.  To edit an existing theme, select the theme name.
+4. To edit an existing theme, select the theme name.
 
-5.  Enter the name of the theme.
+5. Enter the name of the theme.
 
-6.  Adjust the color of the elements on a survey page by specifying hue, saturation, and lightness.
+6. Adjust the color of the elements on a survey page by specifying hue, saturation, and lightness.
 
-    ![Select element color in a theme](media/element-color-theme.png "Select element color in a theme")  
+   ![Select element color in a theme](media/element-color-theme.png "Select element color in a theme")  
 
-7.  Select **Save**.
+7. Select **Save**.
 
 **Voice of the Customer app**
 
@@ -81,23 +81,23 @@ You can upload images to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016
 
 **Web client**
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-2.  Go to **Voice of the Customer** &gt; **Images**.
+2. Go to **Voice of the Customer** &gt; **Images**.
 
-3.  Select **New**.
+3. Select **New**.
 
-4.  Under **General**, enter values in the **Name**, **Image Title**, and **Alternative Text** fields.
+4. Under **General**, enter values in the **Name**, **Image Title**, and **Alternative Text** fields.
 
-5.  Select **Save** to save the record so you can upload an image and add other information.
+5. Select **Save** to save the record so you can upload an image and add other information.
 
-6.  Under **Custom Icon**, in the **Upload your image to remote server** field, select **Choose File**, and then select the image you want to upload.
+6. Under **Custom Icon**, in the **Upload your image to remote server** field, select **Choose File**, and then select the image you want to upload.
 
-7.  Select **Submit**.
+7. Select **Submit**.
 
-8.  From the **Image Format** field, select the format of the image you uploaded to preview it. You can select from .gif, .jpg, and .png.
+8. From the **Image Format** field, select the format of the image you uploaded to preview it. You can select from .gif, .jpg, and .png.
 
-9.  Select **Save** in the lower-right corner of the screen.
+9. Select **Save** in the lower-right corner of the screen.
 
 **Voice of the Customer app**
 
@@ -121,23 +121,23 @@ You can upload images to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016
 
 After creating a theme for your survey and uploading the images to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], you can start creating your Voice of the Customer survey.
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
-2.  Go to **Voice of the Customer** &gt; **Surveys**.
+2. Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  To create a new survey, select **New**.
+3. To create a new survey, select **New**.
 
-4.  To edit an existing survey, select the name of the survey.
+4. To edit an existing survey, select the name of the survey.
 
-5.  Under **Summary**, enter the required information and then select **Save** to create the survey record so you can continue working on your survey.
+5. Under **Summary**, enter the required information and then select **Save** to create the survey record so you can continue working on your survey.
 
-6.  Under **Survey Runtime**, specify the theme and logo image you want to use. Also, set the values for header and footer text, navigation, and other options.
+6. Under **Survey Runtime**, specify the theme and logo image you want to use. Also, set the values for header and footer text, navigation, and other options.
 
-7.  Under **Invitations and Actions**, specify values for invitations, responses, and unsubscribe options.
+7. Under **Invitations and Actions**, specify values for invitations, responses, and unsubscribe options.
 
-8.  Edit the items under **Advanced** and **Feedback** as necessary.  
+8. Edit the items under **Advanced** and **Feedback** as necessary.  
 
-9.  Select **Save**.
+9. Select **Save**.
 
 > [!NOTE]
 > In Voice of the Customer app, it is recommended that you review the changes in survey designer after making any logo or theme changes, as the survey designer provides WYSIWYG experience.
@@ -158,22 +158,22 @@ You can add more pages as required by your survey.
 
 **Web client**
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-2.  Go to **Voice of the Customer** &gt; **Surveys**.
+2. Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey that you want to add a page to or edit.
+3. Select the name of the survey that you want to add a page to or edit.
 
-4.  From the **Survey** box, select **Designer**.
+4. From the **Survey** box, select **Designer**.
 
-    ![Select survey designer](media/survey-designer.png "Select survey designer")
+   ![Select survey designer](media/survey-designer.png "Select survey designer")
 
-5.  To add a new page, select **Add** at the lower-left side of the survey designer.
+5. To add a new page, select **Add** at the lower-left side of the survey designer.
 
-6.  To edit a page, select the page on the left side of the survey designer, point to the page name, and select one of the editing buttons that appear to the right of the page name.
+6. To edit a page, select the page on the left side of the survey designer, point to the page name, and select one of the editing buttons that appear to the right of the page name.
 
-    > [!NOTE]
-    > To edit an item on a page, point to the item and select one of the editing commands that appear to the right of the item. If you need help, point to an editing command to read its tooltip.
+   > [!NOTE]
+   > To edit an item on a page, point to the item and select one of the editing commands that appear to the right of the item. If you need help, point to an editing command to read its tooltip.
 
 **Voice of the Customer app**
 
@@ -197,27 +197,27 @@ You can add more pages as required by your survey.
 
 **Web client**
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-2.  Go to **Voice of the Customer** &gt; **Surveys**.
+2. Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey that you want to add questions to.
+3. Select the name of the survey that you want to add questions to.
 
-4.  From the **Survey** box, select **Designer**.
+4. From the **Survey** box, select **Designer**.
 
-    ![Select survey designer](media/survey-designer.png "Select survey designer")  
+   ![Select survey designer](media/survey-designer.png "Select survey designer")  
 
-5.  Select the page that you want to add a question to.
+5. Select the page that you want to add a question to.
 
-6.  To add a question, drag the type of question you want from the **Survey parts** pane to the location you want on the survey page. If you need help, point to a survey part to read the tooltip. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Decide the best question type](plan-survey.md#decide-the-question-type)  
+6. To add a question, drag the type of question you want from the **Survey parts** pane to the location you want on the survey page. If you need help, point to a survey part to read the tooltip. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Decide the best question type](plan-survey.md#decide-the-question-type)  
 
-7.  To edit a question, point to the question, and then select **Edit**.
+7. To edit a question, point to the question, and then select **Edit**.
 
-8.  To add a new page or edit an existing page, see [Add or edit a page](#add-or-edit-a-survey-page).  
+8. To add a new page or edit an existing page, see [Add or edit a page](#add-or-edit-a-survey-page).  
 
-    > [!NOTE]
-    > - Drag-and-drop editing only works with a mouse or other pointing device. It's not supported through devices with touch screens, like tablets.
-    > - Do not copy and paste the question text from the question editor. You must copy and paste from [!INCLUDE[pn-notepad](../includes/pn-notepad.md)], and then format it by using the question editor.
+   > [!NOTE]
+   > - Drag-and-drop editing only works with a mouse or other pointing device. It's not supported through devices with touch screens, like tablets.
+   > - Do not copy and paste the question text from the question editor. You must copy and paste from [!INCLUDE[pn-notepad](../includes/pn-notepad.md)], and then format it by using the question editor.
 
 9. To personalize your survey with fields like the customer's name or service case number, use piped data. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Personalize a survey](#personalize-a-survey)  
 
@@ -227,26 +227,26 @@ You can add more pages as required by your survey.
 
 **Voice of the Customer app**
 
-1.	[Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
-2.	Go to **Voice of the Customer** > **Surveys**.
+2. Go to **Voice of the Customer** > **Surveys**.
 
-3.	Select the name of the survey for which you want to add or edit a page.
+3. Select the name of the survey for which you want to add or edit a page.
 
-4.	From the **Survey** box, select **Designer**.
+4. From the **Survey** box, select **Designer**.
 
-    ![Select survey designer](media/survey-designer-select.png "Select survey designer")
+   ![Select survey designer](media/survey-designer-select.png "Select survey designer")
 
-5.	Select the page on which you want to add a question.
+5. Select the page on which you want to add a question.
 
-6.	To add a question, drag the type of question you want from the **Questions** pane to the location you want on the survey page. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Decide the best question type](plan-survey.md#decide-the-question-type)  
+6. To add a question, drag the type of question you want from the **Questions** pane to the location you want on the survey page. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Decide the best question type](plan-survey.md#decide-the-question-type)  
 
-7.	To edit a question, click the question, and modify the properties in the **Properties** pane.
+7. To edit a question, click the question, and modify the properties in the **Properties** pane.
 
-8.	To add a new page or edit an existing page, see [Add or edit a page](#add-or-edit-a-survey-page).
+8. To add a new page or edit an existing page, see [Add or edit a page](#add-or-edit-a-survey-page).
 
-    > [!NOTE]
-    > Do not copy and paste the question text from the question editor. You must copy and paste from [!INCLUDE[pn-notepad](../includes/pn-notepad.md)], and then format it by using the question editor.
+   > [!NOTE]
+   > Do not copy and paste the question text from the question editor. You must copy and paste from [!INCLUDE[pn-notepad](../includes/pn-notepad.md)], and then format it by using the question editor.
 
 9. To personalize your survey with fields like the customer's name or service case number, use piped data. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Personalize a survey](#personalize-a-survey)  
 
@@ -258,25 +258,25 @@ You can add more pages as required by your survey.
 
 You can import a section (along with its questions) from another survey into your survey. In this way, you can reuse existing questions without having to re-create them. You can drag the section to a new position on the page.
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-2.  Go to **Voice of the Customer** &gt; **Surveys**.
+2. Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey that you want to import a section into.
+3. Select the name of the survey that you want to import a section into.
 
-4.  From the **Survey** box, select **Designer**.
+4. From the **Survey** box, select **Designer**.
 
-5.  Edit the page that you want to import the section into.
+5. Edit the page that you want to import the section into.
 
-6.  In the **Section To Copy And Import** field, browse to the section to be imported.
+6. In the **Section To Copy And Import** field, browse to the section to be imported.
 
-7.  From the **Automatically Link Questions** list, choose whether to link the questions.
+7. From the **Automatically Link Questions** list, choose whether to link the questions.
 
-    ![Select a section to import in a survey](media/import-section.png "Select a section to import in a survey")  
+   ![Select a section to import in a survey](media/import-section.png "Select a section to import in a survey")  
 
-8.  Select **Save** in the lower-right corner of the screen. The section is imported, and **- Imported** is appended to the section name.
+8. Select **Save** in the lower-right corner of the screen. The section is imported, and **- Imported** is appended to the section name.
 
-    ![Imported section in a survey](media/imported-section.png "Imported section in a survey")
+   ![Imported section in a survey](media/imported-section.png "Imported section in a survey")
 
 
 ### Share questions between surveys by using linked questions
@@ -289,21 +289,21 @@ To create a linked question:
 
 1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-2.  Go to **Voice of the Customer** &gt; **Surveys**.
+2. Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey that you want to create a linked question in.
+3. Select the name of the survey that you want to create a linked question in.
 
-4.  From the **Survey** box, select **Designer**.
+4. From the **Survey** box, select **Designer**.
 
-5.  Edit the question you want to link.
+5. Edit the question you want to link.
 
-6.  From the **Create Linked Question** list, select **Link**.
+6. From the **Create Linked Question** list, select **Link**.
 
-7.  From the **Linked Question** field, browse to and select the question to be linked.
+7. From the **Linked Question** field, browse to and select the question to be linked.
 
-    ![Create linked question](media/link-ques.png "Create a linked question")  
+   ![Create linked question](media/link-ques.png "Create a linked question")  
 
-8.  Select **Save** in the lower-right corner of the screen.
+8. Select **Save** in the lower-right corner of the screen.
 
 **Voice of the Customer app**
 
@@ -350,31 +350,31 @@ You can add the following data as placeholders:
 
 **Web client**
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-2.  Go to **Voice of the Customer** &gt; **Surveys**.
+2. Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey that you want to add piped data to.
+3. Select the name of the survey that you want to add piped data to.
 
-4.  From the **Survey** box, select **Designer**.
+4. From the **Survey** box, select **Designer**.
 
-5.  Select **Edit** on the question or element that you want to add piped data to.
+5. Select **Edit** on the question or element that you want to add piped data to.
 
-6.  Place the cursor at the location where you want to add the piped data field.
+6. Place the cursor at the location where you want to add the piped data field.
 
-7.  From the **(Pipe)** list, select the field you want to add. For example, if you want to display the customer's name, select **Customer**. The **\_CUSTOMER\_PIPED\_DATA\_** field is inserted at the cursor location.
+7. From the **(Pipe)** list, select the field you want to add. For example, if you want to display the customer's name, select **Customer**. The **\_CUSTOMER\_PIPED\_DATA\_** field is inserted at the cursor location.
 
-    ![Insert piped data in a survey](media/pipe-data.png "Insert piped data in a survey")  
+   ![Insert piped data in a survey](media/pipe-data.png "Insert piped data in a survey")  
 
-    For example, the line:
+   For example, the line:
 
-    Thank you, \_CUSTOMER\_PIPED\_DATA\_! Your feedback will help us improve the service we deliver to you.
+   Thank you, \_CUSTOMER\_PIPED\_DATA\_! Your feedback will help us improve the service we deliver to you.
 
-    will look like this when a customer named Marie takes your survey:
+   will look like this when a customer named Marie takes your survey:
 
-    *Thank you, Marie! Your feedback will help us improve the service we deliver to you.*
+   *Thank you, Marie! Your feedback will help us improve the service we deliver to you.*
 
-8.  Select **Save** in the lower-right corner of the screen.
+8. Select **Save** in the lower-right corner of the screen.
 
 **Voice of the Customer app**
 
@@ -444,13 +444,13 @@ Cloning a survey means creating an exact duplicate survey where only the name is
 > [!NOTE]
 > To clone a survey, it must be in Published status. You cannot clone a survey that is in Draft status.
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
-2.  Go to **Voice of the Customer** &gt; **Surveys**.
+2. Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey you want to clone.
+3. Select the name of the survey you want to clone.
 
-4.  Select **Clone** on the toolbar.
+4. Select **Clone** on the toolbar.
 
 ### Import a survey
 
@@ -458,25 +458,25 @@ You can create a survey in one environment, test it, and then move it to the pro
 
 **Web client**
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-2.  Go to **Voice of the Customer** &gt; **Surveys**.
+2. Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey you want to move to another environment.
+3. Select the name of the survey you want to move to another environment.
 
-4.  Select the survey XML file under the **Notes** section and save it to the location you want.
+4. Select the survey XML file under the **Notes** section and save it to the location you want.
 
-    ![Download XML file of a survey](media/import-survey.png "Download the XML file of a survey")  
+   ![Download XML file of a survey](media/import-survey.png "Download the XML file of a survey")  
 
-5.  Sign in to the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] environment to which you want to move the survey.
+5. Sign in to the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] environment to which you want to move the survey.
 
-6.  Go to **Settings** &gt; **Voice of the Customer Imports**.
+6. Go to **Settings** &gt; **Voice of the Customer Imports**.
 
-7.  Select **New**.
+7. Select **New**.
 
-8.  Enter information in the **General** area. If you need help, point to any field to read the tooltip.
+8. Enter information in the **General** area. If you need help, point to any field to read the tooltip.
 
-9.  To overwrite the existing survey, select **Yes** from the **Overwrite Survey** field. If you select **No**, a copy of the survey is created.
+9. To overwrite the existing survey, select **Yes** from the **Overwrite Survey** field. If you select **No**, a copy of the survey is created.
 
 10. In the **Survey Xml To Import** field, paste the survey XML.
 
@@ -512,58 +512,58 @@ You can create a survey in one environment, test it, and then move it to the pro
 
 After creating a survey, you can translate it into other languages as required by your respondents.
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
-2.  Go to **Voice of the Customer** &gt; **Surveys**.
+2. Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey you want to translate.
+3. Select the name of the survey you want to translate.
 
-4.  Select the Translations.xml file in the **Notes** section, and then save it to the location you want.
+4. Select the Translations.xml file in the **Notes** section, and then save it to the location you want.
 
-    **Web client**
+   **Web client**
 
-    ![Translation file of a survey](media/translate-survey.png "Translation file of a survey")
+   ![Translation file of a survey](media/translate-survey.png "Translation file of a survey")
 
-    **Voice of the Customer app**
+   **Voice of the Customer app**
 
-    ![Translation file of a survey](media/translate-survey-uci.png "Translation file of a survey")
+   ![Translation file of a survey](media/translate-survey-uci.png "Translation file of a survey")
 
-    > [!NOTE]
-    > If the Translations.xml file is not available, select **Export translations** on the toolbar at the top of the screen to generate the file.
+   > [!NOTE]
+   > If the Translations.xml file is not available, select **Export translations** on the toolbar at the top of the screen to generate the file.
 
-5.  Open the file in [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)], and then go to the **Translations** tab.
+5. Open the file in [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)], and then go to the **Translations** tab.
 
-6.  Add a column to the right of the base language (for example, **en** for English), and specify the locale for the language in the column heading (for example, **es** for Spanish). You can also specify a locale in the heading (for example, **en-uk** for English in the United Kingdom). Add columns for each language or locale you need.
+6. Add a column to the right of the base language (for example, **en** for English), and specify the locale for the language in the column heading (for example, **es** for Spanish). You can also specify a locale in the heading (for example, **en-uk** for English in the United Kingdom). Add columns for each language or locale you need.
 
-    > [!NOTE]
-    > - You must only use the language codes supported by [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] for the system-provided strings to be translated into, otherwise they will be displayed in the base language.
-    > - You must be sure to mention specific locales where multiple dialects are supported.
+   > [!NOTE]
+   > - You must only use the language codes supported by [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] for the system-provided strings to be translated into, otherwise they will be displayed in the base language.
+   > - You must be sure to mention specific locales where multiple dialects are supported.
 
-7.  Add translations to each language or locale column. You can retrieve translations from [[!INCLUDE[pn-bing](../includes/pn-bing.md)] translations](https://www.bing.com/translator/). If your text strings have HTML in them, you'll need to encode them. For example, you need to encode:  
+7. Add translations to each language or locale column. You can retrieve translations from [[!INCLUDE[pn-bing](../includes/pn-bing.md)] translations](https://www.bing.com/translator/). If your text strings have HTML in them, you'll need to encode them. For example, you need to encode:  
 
-    &lt;b&gt;Hello!&lt;/b&gt;
+   &lt;b&gt;Hello!&lt;/b&gt;
 
-    as:
+   as:
 
-    &lt;b&gt;Hello!&lt;/b&gt;
+   &lt;b&gt;Hello!&lt;/b&gt;
 
-    You can use any HTML encoder.
+   You can use any HTML encoder.
 
-8.  After completing your translations, save the file, go back to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], and then delete the Translations.xml file by selecting the delete icon next to the file.
+8. After completing your translations, save the file, go back to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], and then delete the Translations.xml file by selecting the delete icon next to the file.
 
-    > [!NOTE]
-    > -   In web client, point to the file name, and then select **Delete**.
-    > -   In Voice of the Customer app, select **Delete**.
-    > -   If you accidentally delete the Translations.xml file, select **Export translations** on the survey page to generate the file.
-    > -   For every language added in the Translations.xml file, remember to provide a translation for each string in that language while editing it in [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)].
+   > [!NOTE]
+   > - In web client, point to the file name, and then select **Delete**.
+   > - In Voice of the Customer app, select **Delete**.
+   > - If you accidentally delete the Translations.xml file, select **Export translations** on the survey page to generate the file.
+   > - For every language added in the Translations.xml file, remember to provide a translation for each string in that language while editing it in [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)].
 
-9.  Select **Attach**, browse to your new Translations.xml file, and then select **Done**.
+9. Select **Attach**, browse to your new Translations.xml file, and then select **Done**.
 
 > [!NOTE]
-> -   A survey can be translated into multiple languages if the translations file consists of the translations with the correct country codes in each column.
-> -   If you add or change a question after adding your edited translations file, you need to add the translation for that question. To get an updated version of the translation file, select **Export translations** on the survey page and repeat the steps to add your new translations.
-> -   We recommend that you preview the survey with the latest translation file to detect any translation errors.
-> -   [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] automatically detects the language at runtime based on the respondent's browser preferences. If no translation exists for that language, the survey will use the base language strings instead. Users can change the language of the survey by selecting the language they want from the drop-down list.
+> - A survey can be translated into multiple languages if the translations file consists of the translations with the correct country codes in each column.
+> - If you add or change a question after adding your edited translations file, you need to add the translation for that question. To get an updated version of the translation file, select **Export translations** on the survey page and repeat the steps to add your new translations.
+> - We recommend that you preview the survey with the latest translation file to detect any translation errors.
+> - [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] automatically detects the language at runtime based on the respondent's browser preferences. If no translation exists for that language, the survey will use the base language strings instead. Users can change the language of the survey by selecting the language they want from the drop-down list.
 > - When you preview or publish a survey, the translation file is validated for missing string translations and incorrect HTML format. The appropriate error message is displayed with a link to download the log file to view details.
 
 ## Close or stop a survey

@@ -661,6 +661,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_SyncErrors"></a> msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_SyncErrors
 
 Same as syncerror entity [msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_SyncErrors](syncerror.md#BKMK_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -675,6 +676,7 @@ Same as syncerror entity [msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_SyncErrors]
 ### <a name="BKMK_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_AsyncOperations"></a> msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_AsyncOperations
 
 Same as asyncoperation entity [msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_AsyncOperations](asyncoperation.md#BKMK_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -689,6 +691,7 @@ Same as asyncoperation entity [msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_AsyncO
 ### <a name="BKMK_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_WorkflowLogs"></a> msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_WorkflowLogs
 
 Same as workflowlog entity [msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_WorkflowLogs](workflowlog.md#BKMK_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_WorkflowLogs) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|workflowlog|
@@ -703,6 +706,7 @@ Same as workflowlog entity [msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_WorkflowL
 ### <a name="BKMK_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_MailboxTrackingFolders"></a> msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -717,6 +721,7 @@ Same as mailboxtrackingfolder entity [msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d
 ### <a name="BKMK_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_UserEntityInstanceDatas"></a> msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -731,6 +736,7 @@ Same as userentityinstancedata entity [msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470
 ### <a name="BKMK_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_ProcessSession"></a> msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_ProcessSession
 
 Same as processsession entity [msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_ProcessSession](processsession.md#BKMK_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -745,6 +751,7 @@ Same as processsession entity [msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_Proces
 ### <a name="BKMK_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_BulkDeleteFailures"></a> msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -759,6 +766,7 @@ Same as bulkdeletefailure entity [msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_Bul
 ### <a name="BKMK_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_PrincipalObjectAttributeAccesses"></a> msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

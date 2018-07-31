@@ -35,8 +35,8 @@ Interact asynchronously with HTTP and HTTPS resources whenever possible. Users s
 
 The following options are available in modern browsers for interacting with services asynchronously.
 
-   > [!NOTE]
-    > Adding asynchronous interactions requires a different style of design than synchronous interactions. Multiple script paths can be in process simultaneously, which means you must give more thought to ensure that the page flow and integrity are correct at all times. For example, you'll often need to put measures in place to ensure that controls aren't enabled until all dependent service calls have returned. Taking a few additional steps can help ensure a more enjoyable user experience.
+> [!NOTE]
+> Adding asynchronous interactions requires a different style of design than synchronous interactions. Multiple script paths can be in process simultaneously, which means you must give more thought to ensure that the page flow and integrity are correct at all times. For example, you'll often need to put measures in place to ensure that controls aren't enabled until all dependent service calls have returned. Taking a few additional steps can help ensure a more enjoyable user experience.
 
 - [`XMLHttpRequest`](https://developer.mozilla.org/docs/Web/API/XMLHttpRequest) with the async parameter omitted or set to true
 
@@ -53,13 +53,13 @@ The following options are available in modern browsers for interacting with serv
 
 - [Fetch](https://developer.mozilla.org/docs/Web/API/Fetch_API) API usage
 
- > [!IMPORTANT]
- > Before proceeding with this option, ensure that support is available for the browsers that are being used to interact with your customizations. Review the [Fetch](https://developer.mozilla.org/docs/Web/API/Fetch_API) documentation's **Browser compatibility** section.
+  > [!IMPORTANT]
+  > Before proceeding with this option, ensure that support is available for the browsers that are being used to interact with your customizations. Review the [Fetch](https://developer.mozilla.org/docs/Web/API/Fetch_API) documentation's **Browser compatibility** section.
 
 - [`jQuery`](https://www.jquery.com).[`ajax`](http://api.jquery.com/jquery.ajax/) function with the `async` parameter being left alone or set to true
 
- > [!IMPORTANT]
- > Usage of jQuery isn't the preferred approach because it adds a dependency to an external library and isn't recommended in interacting with the product. Refer to [Use of jQuery](../../developer/use-javascript.md#use-of-jquery) for more information.
+  > [!IMPORTANT]
+  > Usage of jQuery isn't the preferred approach because it adds a dependency to an external library and isn't recommended in interacting with the product. Refer to [Use of jQuery](../../developer/use-javascript.md#use-of-jquery) for more information.
 
   ```javascript
   // jQuery example that is missing the async parameter, which is the third parameter. It defaults to true, which is the value you want.

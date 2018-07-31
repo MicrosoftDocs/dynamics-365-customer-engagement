@@ -40,11 +40,11 @@ manager: "kvivek"
 #### Resize columns  
  You can resize columns in a grid in the [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] app, and the app will remember your settings the next time you view that grid.  
   
-1.  On the command bar, tap **Resize Columns**.  
+1. On the command bar, tap **Resize Columns**.  
   
-2.  Drag the column handles that appear above the grid to the width you want.  
+2. Drag the column handles that appear above the grid to the width you want.  
   
- ![Column resizing handles](../../../media/v6-mobile-column-resizing.png "Column resizing handles")  
+   ![Column resizing handles](../../../media/v6-mobile-column-resizing.png "Column resizing handles")  
   
 #### Sort items  
  You can also sort items in a grid in the Dynamics 365 for tablets app:  

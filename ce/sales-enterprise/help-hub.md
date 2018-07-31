@@ -26,13 +26,13 @@ topic-status: Drafting
 
 <h2>Get started</h2>
 
-<li>[Dynamics 365 for Sales Overview](overview.md)</li>
-<li>[Learn the basics](user-guide-learn-basics.md)</li>
-<li>[Use Sales Hub on Dynamics 365 for phones and tablets](use-sales-hub-on-dynamics-365-mobile.md)</li>
+<li><a href="overview.md" data-raw-source="[Dynamics 365 for Sales Overview](overview.md)">Dynamics 365 for Sales Overview</a></li>
+<li><a href="user-guide-learn-basics.md" data-raw-source="[Learn the basics](user-guide-learn-basics.md)">Learn the basics</a></li>
+<li><a href="use-sales-hub-on-dynamics-365-mobile.md" data-raw-source="[Use Sales Hub on Dynamics 365 for phones and tablets](use-sales-hub-on-dynamics-365-mobile.md)">Use Sales Hub on Dynamics 365 for phones and tablets</a></li>
 
-<li>[Embedded intelligence Overview](../sales-enterprise/embedded-intelligence.md)</li>
+<li><a href="../sales-enterprise/embedded-intelligence.md" data-raw-source="[Embedded intelligence Overview](../sales-enterprise/embedded-intelligence.md)">Embedded intelligence Overview</a></li>
 
-<li>[Sales insights add-on overview](../sales-enterprise/sales-insights-addon.md)</li>
+<li><a href="../sales-enterprise/sales-insights-addon.md" data-raw-source="[Sales insights add-on overview](../sales-enterprise/sales-insights-addon.md)">Sales insights add-on overview</a></li>
 
 </td><td>
 
@@ -48,13 +48,13 @@ topic-status: Drafting
 
 <tr><td>
 <h2>Increase sales</h2>
-<li>[Nurture sales from lead to cash](nurture-sales-from-lead-order-sales.md)</li>
-<li>[Create or edit a lead](create-edit-lead-sales.md)</li>
-<li>[Convert a lead to an opportunity](qualify-lead-convert-opportunity-sales.md)</li>
-<li>[Create or edit an opportunity](create-edit-opportunity-sales.md)</li>
-<li>[Create or edit a quote](create-edit-quote-sales.md)</li>
-<li>[Create or edit an order ](create-edit-order-sales.md)</li>
-<li>[Create or edit an invoice](create-edit-invoice-sales.md)</li>
+<li><a href="nurture-sales-from-lead-order-sales.md" data-raw-source="[Nurture sales from lead to cash](nurture-sales-from-lead-order-sales.md)">Nurture sales from lead to cash</a></li>
+<li><a href="create-edit-lead-sales.md" data-raw-source="[Create or edit a lead](create-edit-lead-sales.md)">Create or edit a lead</a></li>
+<li><a href="qualify-lead-convert-opportunity-sales.md" data-raw-source="[Convert a lead to an opportunity](qualify-lead-convert-opportunity-sales.md)">Convert a lead to an opportunity</a></li>
+<li><a href="create-edit-opportunity-sales.md" data-raw-source="[Create or edit an opportunity](create-edit-opportunity-sales.md)">Create or edit an opportunity</a></li>
+<li><a href="create-edit-quote-sales.md" data-raw-source="[Create or edit a quote](create-edit-quote-sales.md)">Create or edit a quote</a></li>
+<li><a href="create-edit-order-sales.md" data-raw-source="[Create or edit an order ](create-edit-order-sales.md)">Create or edit an order </a></li>
+<li><a href="create-edit-invoice-sales.md" data-raw-source="[Create or edit an invoice](create-edit-invoice-sales.md)">Create or edit an invoice</a></li>
 
 
 </td><td>
@@ -81,12 +81,12 @@ topic-status: Drafting
 <td>
 <h2>GDPR</h2>
 
-<li>[Dynamics 365 for Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)</li>
+<li><a href="../sales-enterprise/dynamics-365-sales-gdpr.md" data-raw-source="[Dynamics 365 for Sales &amp; GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)">Dynamics 365 for Sales &amp; GDPR</a></li>
 
-<li>[GDPR for Sales insights add-on](../sales-enterprise/embedded-intelligence-gdpr.md)</li>
-<li>[Opt out of relationship analytics (GDPR)](../sales-enterprise/optout-relationship-analytics-gdpr.md)</li>
-<li>[View and export KPI data (GDPR)](../sales-enterprise/view-export-KPI-data-gdpr.md)</li>
-<li>[Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](../sales-enterprise/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)</li>
+<li><a href="../sales-enterprise/embedded-intelligence-gdpr.md" data-raw-source="[GDPR for Sales insights add-on](../sales-enterprise/embedded-intelligence-gdpr.md)">GDPR for Sales insights add-on</a></li>
+<li><a href="../sales-enterprise/optout-relationship-analytics-gdpr.md" data-raw-source="[Opt out of relationship analytics (GDPR)](../sales-enterprise/optout-relationship-analytics-gdpr.md)">Opt out of relationship analytics (GDPR)</a></li>
+<li><a href="../sales-enterprise/view-export-KPI-data-gdpr.md" data-raw-source="[View and export KPI data (GDPR)](../sales-enterprise/view-export-KPI-data-gdpr.md)">View and export KPI data (GDPR)</a></li>
+<li><a href="../sales-enterprise/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md" data-raw-source="[Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](../sales-enterprise/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)">Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action</a></li>
 </td></tr>
 
 <tr><td>

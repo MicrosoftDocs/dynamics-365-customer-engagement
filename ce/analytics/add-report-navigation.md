@@ -30,39 +30,39 @@ Report navigation enables a dynamic and interactive reporting experience. By usi
 ## Dynamic drill through to Dynamics 365  
  You can drill through a report to navigate to a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web form. A drill-through report is implemented in the following steps:  
   
-1.  An image or value item (such as a text box) is added to a report. The `Value` property of this item contains code that builds a URL by using the base address of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] plus parameters that refer to a specific record.  
+1. An image or value item (such as a text box) is added to a report. The `Value` property of this item contains code that builds a URL by using the base address of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] plus parameters that refer to a specific record.  
   
-2.  When the user selects the report item, a new browser window is opened by using the constructed URL passed as the target web address.  
+2. When the user selects the report item, a new browser window is opened by using the constructed URL passed as the target web address.  
   
 3. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] loads the information for the specified entity into a web form that is displayed in the browser window.  
   
 ### To set up a drill-through report in Dynamics 365  
   
-1.  Create a hidden parameter of type string in the report that has the name CRM_URL. For more information about adding parameters, see [Use Parameters in Reports](../analytics/use-parameters-in-reports.md). When the report is run, this parameter is automatically set to the web address of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+1. Create a hidden parameter of type string in the report that has the name CRM_URL. For more information about adding parameters, see [Use Parameters in Reports](../analytics/use-parameters-in-reports.md). When the report is run, this parameter is automatically set to the web address of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
-2.  Add a report item, such as a **Textbox**.  
+2. Add a report item, such as a **Textbox**.  
   
-3.  Right-click the drill-through report item and select **Properties** from the shortcut menu.  
+3. Right-click the drill-through report item and select **Properties** from the shortcut menu.  
   
-4.  Click **Advanced**.  
+4. Click **Advanced**.  
   
-5.  In the **Navigation** tab, click **Jump to URL** and enter an expression in the following format:  
+5. In the **Navigation** tab, click **Jump to URL** and enter an expression in the following format:  
   
-    ```sql  
-    = Parameters!CRM_URL.Value & "?ID={"& GUID &"}&LogicalName=entity logical name"  
-    ```  
+   ```sql  
+   = Parameters!CRM_URL.Value & "?ID={"& GUID &"}&LogicalName=entity logical name"  
+   ```  
   
-     The entity GUID and entity logical name have to be added to the URL to be able to drill through. For example:  
+    The entity GUID and entity logical name have to be added to the URL to be able to drill through. For example:  
   
-    ```sql  
-    = Parameters!CRM_URL.Value & "?ID={"&Fields!Opportunityid.Value.ToString()&"}&LogicalName=opportunity"  
-    ```  
+   ```sql  
+   = Parameters!CRM_URL.Value & "?ID={"&Fields!Opportunityid.Value.ToString()&"}&LogicalName=opportunity"  
+   ```  
   
-6.  Click **OK**.  
+6. Click **OK**.  
   
- In this example code, the value of a dataset field that contains the GUID of an `Opportunity` object is converted to a string and used as an ID parameter in the URL. A parameter that contains the LogicalName value for an opportunity entity is also appended.  
+   In this example code, the value of a dataset field that contains the GUID of an `Opportunity` object is converted to a string and used as an ID parameter in the URL. A parameter that contains the LogicalName value for an opportunity entity is also appended.  
   
- The GUID of a record can be obtained from the appropriate filtered view, for example, `FilteredOpportunity`.  
+   The GUID of a record can be obtained from the appropriate filtered view, for example, `FilteredOpportunity`.  
   
 ### See also  
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   

@@ -28,23 +28,23 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], [!INCLUDE[pn_Sha
   
     Check your security role  
   
-    - [!INCLUDE[proc_check_your_security_role](../includes/proc-check-your-security-role.md)]  
+   - [!INCLUDE[proc_check_your_security_role](../includes/proc-check-your-security-role.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2.  Find and fix the URLs. To do this, follow these steps.  
+2. Find and fix the URLs. To do this, follow these steps.  
   
-    1. [!INCLUDE[proc_settings_doc_mgmt](../includes/proc-settings-doc-mgmt.md)]  
+   1. [!INCLUDE[proc_settings_doc_mgmt](../includes/proc-settings-doc-mgmt.md)]  
   
-    2.  Click **[!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] Sites**.  
+   2. Click **[!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] Sites**.  
   
-    3.  Select the site URLs that you want to validate, and then click or tap **Validate**.  
+   3. Select the site URLs that you want to validate, and then click or tap **Validate**.  
   
 3. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] validates all the selected site URLs and their immediate subordinate site and document library URLs. It then displays the results in **Validating Sites**.  
   
-4.  To fix a URL, open the site record, and enter the correct URL. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit site records](edit-existing-sharepoint-site-records.md).  
+4. To fix a URL, open the site record, and enter the correct URL. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit site records](edit-existing-sharepoint-site-records.md).  
   
-5.  Click **Save & Close**.  
+5. Click **Save & Close**.  
   
 ### See also  
  [Create or edit site records](edit-existing-sharepoint-site-records.md)   

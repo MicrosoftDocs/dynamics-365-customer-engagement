@@ -1,5 +1,5 @@
 ---
-title: "Accessibility in Unified Service Desk for Dynamics 365 | MicrosoftDocs"
+title: "Accessibility in Unified Service Desk for Microsoft Dynamics 365 | MicrosoftDocs"
 description: "Learn about accessiblity features such as keyboard access and screen reader support."
 ms.custom:
   - dyn365-a11y

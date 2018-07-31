@@ -670,6 +670,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_projecttransactioncategory_SyncErrors"></a> msdyn_projecttransactioncategory_SyncErrors
 
 Same as syncerror entity [msdyn_projecttransactioncategory_SyncErrors](syncerror.md#BKMK_msdyn_projecttransactioncategory_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -684,6 +685,7 @@ Same as syncerror entity [msdyn_projecttransactioncategory_SyncErrors](syncerror
 ### <a name="BKMK_msdyn_projecttransactioncategory_DuplicateMatchingRecord"></a> msdyn_projecttransactioncategory_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_projecttransactioncategory_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_projecttransactioncategory_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -698,6 +700,7 @@ Same as duplicaterecord entity [msdyn_projecttransactioncategory_DuplicateMatchi
 ### <a name="BKMK_msdyn_projecttransactioncategory_DuplicateBaseRecord"></a> msdyn_projecttransactioncategory_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_projecttransactioncategory_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_projecttransactioncategory_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -712,6 +715,7 @@ Same as duplicaterecord entity [msdyn_projecttransactioncategory_DuplicateBaseRe
 ### <a name="BKMK_msdyn_projecttransactioncategory_AsyncOperations"></a> msdyn_projecttransactioncategory_AsyncOperations
 
 Same as asyncoperation entity [msdyn_projecttransactioncategory_AsyncOperations](asyncoperation.md#BKMK_msdyn_projecttransactioncategory_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -726,6 +730,7 @@ Same as asyncoperation entity [msdyn_projecttransactioncategory_AsyncOperations]
 ### <a name="BKMK_msdyn_projecttransactioncategory_MailboxTrackingFolders"></a> msdyn_projecttransactioncategory_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_projecttransactioncategory_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_projecttransactioncategory_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -740,6 +745,7 @@ Same as mailboxtrackingfolder entity [msdyn_projecttransactioncategory_MailboxTr
 ### <a name="BKMK_msdyn_projecttransactioncategory_UserEntityInstanceDatas"></a> msdyn_projecttransactioncategory_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_projecttransactioncategory_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_projecttransactioncategory_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -754,6 +760,7 @@ Same as userentityinstancedata entity [msdyn_projecttransactioncategory_UserEnti
 ### <a name="BKMK_msdyn_projecttransactioncategory_ProcessSession"></a> msdyn_projecttransactioncategory_ProcessSession
 
 Same as processsession entity [msdyn_projecttransactioncategory_ProcessSession](processsession.md#BKMK_msdyn_projecttransactioncategory_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -768,6 +775,7 @@ Same as processsession entity [msdyn_projecttransactioncategory_ProcessSession](
 ### <a name="BKMK_msdyn_projecttransactioncategory_BulkDeleteFailures"></a> msdyn_projecttransactioncategory_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_projecttransactioncategory_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_projecttransactioncategory_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -782,6 +790,7 @@ Same as bulkdeletefailure entity [msdyn_projecttransactioncategory_BulkDeleteFai
 ### <a name="BKMK_msdyn_projecttransactioncategory_PrincipalObjectAttributeAccesses"></a> msdyn_projecttransactioncategory_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_projecttransactioncategory_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_projecttransactioncategory_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -796,6 +805,7 @@ Same as principalobjectattributeaccess entity [msdyn_projecttransactioncategory_
 ### <a name="BKMK_msdyn_projecttransactioncategory_Annotations"></a> msdyn_projecttransactioncategory_Annotations
 
 Same as annotation entity [msdyn_projecttransactioncategory_Annotations](annotation.md#BKMK_msdyn_projecttransactioncategory_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|

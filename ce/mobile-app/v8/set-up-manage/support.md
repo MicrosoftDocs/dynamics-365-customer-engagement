@@ -76,9 +76,9 @@ Dynamics CRM for phones express is deprecated and will not connect to releases *
 ### Apple iPad  
 You can run the [!INCLUDE[pn_crm_for_ipad_shortest](../../../includes/pn-crm-for-ipad-shortest.md)] app on devices that meet the following requirements:    
   
--   Device: [!INCLUDE[tn_ipad](../../../includes/tn-ipad.md)] third generation or later  
+- Device: [!INCLUDE[tn_ipad](../../../includes/tn-ipad.md)] third generation or later  
   
--   Screen: 9-inch (diagonal) or larger  
+- Screen: 9-inch (diagonal) or larger  
  
 [Download Microsoft Dynamics 365 for iPad from the Apple Store](http://go.microsoft.com/fwlink/p/?LinkId=313327)
 

@@ -250,18 +250,18 @@ The following are some examples of logs created with Activity Logging.
 
 ### Example 1 – Logs generated when user reads an Account record 
 
-|**Schema Name**  |**Value**  |
-|---------|---------|
-|ID     |50e01c88-2e43-4005-8be8-9ceb172e2e90          |
-|UserKey     |10033XXXA49AXXXX          |
-|ClientIP     |131.107.XXX.XX          |
-|Operation     |Retrieve          |
-|Date     |3/2/2018 11:25:56 PM          |
-|EntityId     |0a0d8709-711e-e811-a952-000d3a732d76          |
-|EntityName     |Account          |
-|Query     |N/A         |
-|QueryResults     |N/A         |
-|ItemURL     |https://orgname.onmicrosoft.com/main.aspx?etn=account&pagetype=entityrecord&id=0a0d8709-711e-e811-a952-000d3a732d76           |
+| **Schema Name** |                                                      **Value**                                                      |
+|-----------------|---------------------------------------------------------------------------------------------------------------------|
+|       ID        |                                        50e01c88-2e43-4005-8be8-9ceb172e2e90                                         |
+|     UserKey     |                                                  10033XXXA49AXXXX                                                   |
+|    ClientIP     |                                                   131.107.XXX.XX                                                    |
+|    Operation    |                                                      Retrieve                                                       |
+|      Date       |                                                3/2/2018 11:25:56 PM                                                 |
+|    EntityId     |                                        0a0d8709-711e-e811-a952-000d3a732d76                                         |
+|   EntityName    |                                                       Account                                                       |
+|      Query      |                                                         N/A                                                         |
+|  QueryResults   |                                                         N/A                                                         |
+|     ItemURL     | https://orgname.onmicrosoft.com/main.aspx?etn=account&pagetype=entityrecord&id=0a0d8709-711e-e811-a952-000d3a732d76 |
 
 ### Example 2 – Logs generated when user sees Account records in a Grid (Export to Microsoft Excel logs are like this) 
 

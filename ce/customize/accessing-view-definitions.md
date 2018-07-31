@@ -34,19 +34,19 @@ manager: "kvivek"
   
 - **System Views**: Opens the same window as **Customize Entity**, except with **Views** selected.  
   
- Alternatively, you can navigate to the view definitions in the default solution by using the following steps:  
+  Alternatively, you can navigate to the view definitions in the default solution by using the following steps:  
   
 ## Open a view  
   
-1.  Open solution explorer.  
+1. Open solution explorer.  
   
-2.  Under **Components**, expand **Entities**, and then expand the entity you want.  
+2. Under **Components**, expand **Entities**, and then expand the entity you want.  
   
-3.  Click **Views**.  
+3. Click **Views**.  
   
-4.  Double-click the view you want to open.  
+4. Double-click the view you want to open.  
   
- This list of views has four filters you can use to find the views you want more easily:  
+   This list of views has four filters you can use to find the views you want more easily:  
   
 - **All Active Views**  
   
@@ -56,7 +56,7 @@ manager: "kvivek"
   
 - **Active System-Defined Views**  
   
- If the entity that the view is associated with is part of an unmanaged solution, you can still create or edit views for that entity in the default solution. System views are associated with an entity and are not available as separate solution components. Unlike fields, views do not use a customization prefix in a unique name that should be consistent in a solution, so you do not need to create views in the context of a solution. 
+  If the entity that the view is associated with is part of an unmanaged solution, you can still create or edit views for that entity in the default solution. System views are associated with an entity and are not available as separate solution components. Unlike fields, views do not use a customization prefix in a unique name that should be consistent in a solution, so you do not need to create views in the context of a solution. 
  
 ### See also
 [Create or edit views](create-edit-views.md)

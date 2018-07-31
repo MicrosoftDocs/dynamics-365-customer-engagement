@@ -96,7 +96,7 @@ On the left navigation pane of the **Entity: Ticket** page, select **Fields**. A
 
 > [!IMPORTANT]
 > External names are case sensitive. Refer to your web service metadata to make sure you use the correct name.
-
+> 
 > A Nullable value of false indicates that the attribute is required. Notice that primary key fields are always system required.
 
 Open the **new_ticketid** field, and change the following attribute with the value indicated here:

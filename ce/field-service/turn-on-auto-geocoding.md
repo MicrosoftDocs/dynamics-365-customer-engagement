@@ -48,24 +48,24 @@ With Dynamics 365 for [!INCLUDE[pn_field_service](../includes/pn-field-service.m
 <a name="BKMK_GeocodeWorkOrderAddress"></a>   
 ## Geocode the address on a work order  
   
-1.  Open a work order.  
+1. Open a work order.  
   
-2.  Ensure the work order has an accurate address.  
+2. Ensure the work order has an accurate address.  
   
-3.  On the top command bar, click **Geo Code**.  
+3. On the top command bar, click **Geo Code**.  
   
-4.  On the map dialog box, make sure you have the correct address, and then click **Change**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a work order](../field-service/create-work-order.md)  
+4. On the map dialog box, make sure you have the correct address, and then click **Change**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a work order](../field-service/create-work-order.md)  
   
 <a name="BKMK_GeocodeAcctAddress"></a>   
 ## Geocode the address on an account record  
   
-1.  Open an account record  
+1. Open an account record  
   
-2.  Ensure the account has an accurate address.  
+2. Ensure the account has an accurate address.  
   
-3.  To geocode the account address, on the top command bar, click the **More Commands** button, and then select **Geo Code**.  
+3. To geocode the account address, on the top command bar, click the **More Commands** button, and then select **Geo Code**.  
   
-4.  On the map dialog box, make sure you have the correct address, and then click **Change**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with accounts and contacts](../basics/accounts-contacts.md)  
+4. On the map dialog box, make sure you have the correct address, and then click **Change**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with accounts and contacts](../basics/accounts-contacts.md)  
   
 ### See also   
  [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   

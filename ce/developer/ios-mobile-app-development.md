@@ -33,13 +33,13 @@ Microsoft Dynamics 365 Mobile SDK library for iOS app development
 <!--[Dynamics 365 Mobile SDK library for iOS application development](https://github.com/DynamicsCRM/crm-mobilesdk-library-for-ios)
 -->
 <!--[iOS Activity Tracker for Dynamics 365](sample-ios-activity-tracker-web-api)
---><!--
+-->&lt;!--
 Track the interactions with your recent contacts and learn how to use the libraries of the iOS Mobile SDK
 -->
 
 <!--
 [Early-bound code generation tool](https://github.com/DynamicsCRM/crm-mobilesdk-tool-svcutil)
---><!--
+-->&lt;!--
 A tool to generate early-bound entity types, for mobile development, from the metadata of a Dynamics 365 organization.
 -->
 

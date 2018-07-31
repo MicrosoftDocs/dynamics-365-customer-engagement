@@ -27,7 +27,7 @@ Duplicate plug-in step registration will cause the plug-in to fire multiple time
 - Degraded user performance experience when registered as a synchronous execution mode. Experiences include:
     - Unresponsive client pages
     - Slow client interactions
-    - The browser "hanging" in an unresponsive state
+    - The browser stops responding
 
 <a name='guidance'></a>
 

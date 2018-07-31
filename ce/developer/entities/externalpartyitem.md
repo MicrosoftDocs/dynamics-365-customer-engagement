@@ -726,6 +726,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_externalpartyitem_ProcessSession"></a> externalpartyitem_ProcessSession
 
 Same as processsession entity [externalpartyitem_ProcessSession](processsession.md#BKMK_externalpartyitem_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -740,6 +741,7 @@ Same as processsession entity [externalpartyitem_ProcessSession](processsession.
 ### <a name="BKMK_externalpartyitem_BulkDeleteFailures"></a> externalpartyitem_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [externalpartyitem_BulkDeleteFailures](bulkdeletefailure.md#BKMK_externalpartyitem_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -754,6 +756,7 @@ Same as bulkdeletefailure entity [externalpartyitem_BulkDeleteFailures](bulkdele
 ### <a name="BKMK_ExternalPartyItem_SyncErrors"></a> ExternalPartyItem_SyncErrors
 
 Same as syncerror entity [ExternalPartyItem_SyncErrors](syncerror.md#BKMK_ExternalPartyItem_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -768,6 +771,7 @@ Same as syncerror entity [ExternalPartyItem_SyncErrors](syncerror.md#BKMK_Extern
 ### <a name="BKMK_externalpartyitem_AsyncOperations"></a> externalpartyitem_AsyncOperations
 
 Same as asyncoperation entity [externalpartyitem_AsyncOperations](asyncoperation.md#BKMK_externalpartyitem_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|

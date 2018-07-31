@@ -27,11 +27,11 @@ manager: sakudes
   
  With the Unified Service Desk Base sample application package, the following components are installed:  
   
--   User Interface Integration Solution  
+- User Interface Integration Solution  
   
--   Unified Service Desk Solution  
+- Unified Service Desk Solution  
   
--   Data required for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and customizations  
+- Data required for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and customizations  
   
 > [!IMPORTANT]
 >  The sample applications are not supported for production use.  
@@ -55,7 +55,7 @@ manager: sakudes
   
 8. **Notes**: This is the area to take notes in regarding the case.  
   
- ![Unified Service Desk Base package components](../../unified-service-desk/media/unifiedservicedeskbasepackage.png "Unified Service Desk Base package components")  
+   ![Unified Service Desk Base package components](../../unified-service-desk/media/unifiedservicedeskbasepackage.png "Unified Service Desk Base package components")  
   
 ## View active cases  
  From the toolbar, click **My Work** to see all of your active cases, and then select a case to work on. When you open a case, a new session opens.  

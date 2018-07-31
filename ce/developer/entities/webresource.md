@@ -679,6 +679,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_webresource_savedqueryvisualizations"></a> webresource_savedqueryvisualizations
 
 Same as savedqueryvisualization entity [webresource_savedqueryvisualizations](savedqueryvisualization.md#BKMK_webresource_savedqueryvisualizations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|savedqueryvisualization|
@@ -693,6 +694,7 @@ Same as savedqueryvisualization entity [webresource_savedqueryvisualizations](sa
 ### <a name="BKMK_userentityinstancedata_webresource"></a> userentityinstancedata_webresource
 
 Same as userentityinstancedata entity [userentityinstancedata_webresource](userentityinstancedata.md#BKMK_userentityinstancedata_webresource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -707,6 +709,7 @@ Same as userentityinstancedata entity [userentityinstancedata_webresource](usere
 ### <a name="BKMK_solution_configuration_webresource"></a> solution_configuration_webresource
 
 Same as solution entity [solution_configuration_webresource](solution.md#BKMK_solution_configuration_webresource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|solution|
@@ -721,6 +724,7 @@ Same as solution entity [solution_configuration_webresource](solution.md#BKMK_so
 ### <a name="BKMK_webresource_userqueryvisualizations"></a> webresource_userqueryvisualizations
 
 Same as userqueryvisualization entity [webresource_userqueryvisualizations](userqueryvisualization.md#BKMK_webresource_userqueryvisualizations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userqueryvisualization|
@@ -735,6 +739,7 @@ Same as userqueryvisualization entity [webresource_userqueryvisualizations](user
 ### <a name="BKMK_lk_theme_logoid"></a> lk_theme_logoid
 
 Same as theme entity [lk_theme_logoid](theme.md#BKMK_lk_theme_logoid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|theme|

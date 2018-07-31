@@ -1472,6 +1472,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_socialactivity_principalobjectattributeaccess"></a> socialactivity_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [socialactivity_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_socialactivity_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1486,6 +1487,7 @@ Same as principalobjectattributeaccess entity [socialactivity_principalobjectatt
 ### <a name="BKMK_socialactivity_activity_parties"></a> socialactivity_activity_parties
 
 Same as activityparty entity [socialactivity_activity_parties](activityparty.md#BKMK_socialactivity_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1500,6 +1502,7 @@ Same as activityparty entity [socialactivity_activity_parties](activityparty.md#
 ### <a name="BKMK_SocialActivity_BulkDeleteFailures"></a> SocialActivity_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [SocialActivity_BulkDeleteFailures](bulkdeletefailure.md#BKMK_SocialActivity_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1514,6 +1517,7 @@ Same as bulkdeletefailure entity [SocialActivity_BulkDeleteFailures](bulkdeletef
 ### <a name="BKMK_SocialActivity_QueueItem"></a> SocialActivity_QueueItem
 
 Same as queueitem entity [SocialActivity_QueueItem](queueitem.md#BKMK_SocialActivity_QueueItem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queueitem|
@@ -1528,6 +1532,7 @@ Same as queueitem entity [SocialActivity_QueueItem](queueitem.md#BKMK_SocialActi
 ### <a name="BKMK_SocialActivity_SyncErrors"></a> SocialActivity_SyncErrors
 
 Same as syncerror entity [SocialActivity_SyncErrors](syncerror.md#BKMK_SocialActivity_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1542,6 +1547,7 @@ Same as syncerror entity [SocialActivity_SyncErrors](syncerror.md#BKMK_SocialAct
 ### <a name="BKMK_slakpiinstance_socialactivity"></a> slakpiinstance_socialactivity
 
 Same as slakpiinstance entity [slakpiinstance_socialactivity](slakpiinstance.md#BKMK_slakpiinstance_socialactivity) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|slakpiinstance|
@@ -1556,6 +1562,7 @@ Same as slakpiinstance entity [slakpiinstance_socialactivity](slakpiinstance.md#
 ### <a name="BKMK_SocialActivity_DuplicateBaseRecord"></a> SocialActivity_DuplicateBaseRecord
 
 Same as duplicaterecord entity [SocialActivity_DuplicateBaseRecord](duplicaterecord.md#BKMK_SocialActivity_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1570,6 +1577,7 @@ Same as duplicaterecord entity [SocialActivity_DuplicateBaseRecord](duplicaterec
 ### <a name="BKMK_SocialActivity_AsyncOperations"></a> SocialActivity_AsyncOperations
 
 Same as asyncoperation entity [SocialActivity_AsyncOperations](asyncoperation.md#BKMK_SocialActivity_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1584,6 +1592,7 @@ Same as asyncoperation entity [SocialActivity_AsyncOperations](asyncoperation.md
 ### <a name="BKMK_SocialActivity_ProcessSessions"></a> SocialActivity_ProcessSessions
 
 Same as processsession entity [SocialActivity_ProcessSessions](processsession.md#BKMK_SocialActivity_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1598,6 +1607,7 @@ Same as processsession entity [SocialActivity_ProcessSessions](processsession.md
 ### <a name="BKMK_SocialActivity_DuplicateMatchingRecord"></a> SocialActivity_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [SocialActivity_DuplicateMatchingRecord](duplicaterecord.md#BKMK_SocialActivity_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1612,6 +1622,7 @@ Same as duplicaterecord entity [SocialActivity_DuplicateMatchingRecord](duplicat
 ### <a name="BKMK_userentityinstancedata_socialactivity"></a> userentityinstancedata_socialactivity
 
 Same as userentityinstancedata entity [userentityinstancedata_socialactivity](userentityinstancedata.md#BKMK_userentityinstancedata_socialactivity) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1626,6 +1637,7 @@ Same as userentityinstancedata entity [userentityinstancedata_socialactivity](us
 ### <a name="BKMK_socialactivity_connections1"></a> socialactivity_connections1
 
 Same as connection entity [socialactivity_connections1](connection.md#BKMK_socialactivity_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1640,6 +1652,7 @@ Same as connection entity [socialactivity_connections1](connection.md#BKMK_socia
 ### <a name="BKMK_SocialActivity_Annotation"></a> SocialActivity_Annotation
 
 Same as annotation entity [SocialActivity_Annotation](annotation.md#BKMK_SocialActivity_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1654,6 +1667,7 @@ Same as annotation entity [SocialActivity_Annotation](annotation.md#BKMK_SocialA
 ### <a name="BKMK_socialactivity_connections2"></a> socialactivity_connections2
 
 Same as connection entity [socialactivity_connections2](connection.md#BKMK_socialactivity_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|

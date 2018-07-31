@@ -761,6 +761,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_projecttaskstatususer_SyncErrors"></a> msdyn_projecttaskstatususer_SyncErrors
 
 Same as syncerror entity [msdyn_projecttaskstatususer_SyncErrors](syncerror.md#BKMK_msdyn_projecttaskstatususer_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -775,6 +776,7 @@ Same as syncerror entity [msdyn_projecttaskstatususer_SyncErrors](syncerror.md#B
 ### <a name="BKMK_msdyn_projecttaskstatususer_DuplicateMatchingRecord"></a> msdyn_projecttaskstatususer_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_projecttaskstatususer_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_projecttaskstatususer_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -789,6 +791,7 @@ Same as duplicaterecord entity [msdyn_projecttaskstatususer_DuplicateMatchingRec
 ### <a name="BKMK_msdyn_projecttaskstatususer_DuplicateBaseRecord"></a> msdyn_projecttaskstatususer_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_projecttaskstatususer_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_projecttaskstatususer_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -803,6 +806,7 @@ Same as duplicaterecord entity [msdyn_projecttaskstatususer_DuplicateBaseRecord]
 ### <a name="BKMK_msdyn_projecttaskstatususer_AsyncOperations"></a> msdyn_projecttaskstatususer_AsyncOperations
 
 Same as asyncoperation entity [msdyn_projecttaskstatususer_AsyncOperations](asyncoperation.md#BKMK_msdyn_projecttaskstatususer_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -817,6 +821,7 @@ Same as asyncoperation entity [msdyn_projecttaskstatususer_AsyncOperations](asyn
 ### <a name="BKMK_msdyn_projecttaskstatususer_MailboxTrackingFolders"></a> msdyn_projecttaskstatususer_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_projecttaskstatususer_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_projecttaskstatususer_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -831,6 +836,7 @@ Same as mailboxtrackingfolder entity [msdyn_projecttaskstatususer_MailboxTrackin
 ### <a name="BKMK_msdyn_projecttaskstatususer_UserEntityInstanceDatas"></a> msdyn_projecttaskstatususer_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_projecttaskstatususer_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_projecttaskstatususer_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -845,6 +851,7 @@ Same as userentityinstancedata entity [msdyn_projecttaskstatususer_UserEntityIns
 ### <a name="BKMK_msdyn_projecttaskstatususer_ProcessSession"></a> msdyn_projecttaskstatususer_ProcessSession
 
 Same as processsession entity [msdyn_projecttaskstatususer_ProcessSession](processsession.md#BKMK_msdyn_projecttaskstatususer_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -859,6 +866,7 @@ Same as processsession entity [msdyn_projecttaskstatususer_ProcessSession](proce
 ### <a name="BKMK_msdyn_projecttaskstatususer_BulkDeleteFailures"></a> msdyn_projecttaskstatususer_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_projecttaskstatususer_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_projecttaskstatususer_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -873,6 +881,7 @@ Same as bulkdeletefailure entity [msdyn_projecttaskstatususer_BulkDeleteFailures
 ### <a name="BKMK_msdyn_projecttaskstatususer_PrincipalObjectAttributeAccesses"></a> msdyn_projecttaskstatususer_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_projecttaskstatususer_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_projecttaskstatususer_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -887,6 +896,7 @@ Same as principalobjectattributeaccess entity [msdyn_projecttaskstatususer_Princ
 ### <a name="BKMK_msdyn_projecttaskstatususer_Annotations"></a> msdyn_projecttaskstatususer_Annotations
 
 Same as annotation entity [msdyn_projecttaskstatususer_Annotations](annotation.md#BKMK_msdyn_projecttaskstatususer_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|

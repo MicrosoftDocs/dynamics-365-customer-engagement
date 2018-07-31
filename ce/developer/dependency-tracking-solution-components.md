@@ -47,32 +47,32 @@ Solutions are made of solution components. You’ll use the **Solutions** area i
   
  As a result of dependency tracking the following behaviors are enforced:  
   
--   Deletion of a component is prevented if another component in the system depends on it.  
+- Deletion of a component is prevented if another component in the system depends on it.  
   
--   Export of a solution warns the user if there are any missing components that could cause failure when importing that solution in another system.  
+- Export of a solution warns the user if there are any missing components that could cause failure when importing that solution in another system.  
   
-     Warnings during export can be ignored if the solution developer intends that the solution is only to be installed in an organization where dependent components are expected to exist. For example, when you create a solution that is designed to be installed over a pre-installed ”base” solution.  
+   Warnings during export can be ignored if the solution developer intends that the solution is only to be installed in an organization where dependent components are expected to exist. For example, when you create a solution that is designed to be installed over a pre-installed ”base” solution.  
   
--   Import of a solution fails if all required components aren’t included in the solution and also don’t exist in the target system.  
+- Import of a solution fails if all required components aren’t included in the solution and also don’t exist in the target system.  
   
-    -   Additionally, when you import a managed solution all required components must match the package type of the solution. A component in a managed solution can only depend on another managed component.  
+  -   Additionally, when you import a managed solution all required components must match the package type of the solution. A component in a managed solution can only depend on another managed component.  
   
- There are three types of solution component dependencies:  
+  There are three types of solution component dependencies:  
   
- **Solution Internal**  
- Internal dependencies are managed by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. They exist when a particular solution component can’t exist without another solution component.  
+  **Solution Internal**  
+  Internal dependencies are managed by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. They exist when a particular solution component can’t exist without another solution component.  
   
- **Published**  
- Published dependencies are created when two solution components are related to each other and then published. To remove this type of dependency, the association must be removed and the entities published again.  
+  **Published**  
+  Published dependencies are created when two solution components are related to each other and then published. To remove this type of dependency, the association must be removed and the entities published again.  
   
- **Unpublished**  
- Unpublished dependencies apply to the unpublished version of a publishable solution component that is being updated. After the solution component is published, it becomes a published dependency.  
+  **Unpublished**  
+  Unpublished dependencies apply to the unpublished version of a publishable solution component that is being updated. After the solution component is published, it becomes a published dependency.  
   
- Solution internal dependencies are dependencies where actions with a solution component require an action for another solution component. For example, if you delete an entity, you should expect that all the entity attributes will be deleted with it. Any entity relationships with other entities will also be deleted.  
+  Solution internal dependencies are dependencies where actions with a solution component require an action for another solution component. For example, if you delete an entity, you should expect that all the entity attributes will be deleted with it. Any entity relationships with other entities will also be deleted.  
   
- However, an internal dependency may lead to a published dependency and still require manual intervention. For example, if you include a lookup field on an entity form and then delete the primary entity in the relationship, you can’t complete that deletion until you remove the lookup field from the related entity form and then publish the form.  
+  However, an internal dependency may lead to a published dependency and still require manual intervention. For example, if you include a lookup field on an entity form and then delete the primary entity in the relationship, you can’t complete that deletion until you remove the lookup field from the related entity form and then publish the form.  
   
- When you perform actions programmatically with solutions, you can use messages related to the `Dependency` entity. See [Dependency Entity](entities/dependency.md) for messages you can use to identify dependencies that may exist before you delete a component or uninstall a solution.  
+  When you perform actions programmatically with solutions, you can use messages related to the `Dependency` entity. See [Dependency Entity](entities/dependency.md) for messages you can use to identify dependencies that may exist before you delete a component or uninstall a solution.  
   
 <a name="BKMK_CheckForSolutionComponentDependencies"></a>   
 ## Check for solution component dependencies  

@@ -38,9 +38,9 @@ View personal appointments, project-work bookings, and field service work order 
 ## Set-up  
  Before you can see and manage your bookings on your [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar, you need to set a few things up.  
   
--   You will need to have [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] Global Administrator or [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator credentials.  
+- You will need to have [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] Global Administrator or [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator credentials.  
   
--   You [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Admin will need to configure the email server profile and each user will need to configure their mailbox. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up email processing through server-side synchronization](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)  
+- You [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Admin will need to configure the email server profile and each user will need to configure their mailbox. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up email processing through server-side synchronization](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)  
   
 ## Turn on synchronization for your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization (admin task)  
   
@@ -65,17 +65,17 @@ View personal appointments, project-work bookings, and field service work order 
 ## Import your personal appointments (user task)  
  You can import your personal appointments from your calendar to Project Service Automation time entry view.  
   
-1.  Open [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar and click **Import Data**.  
+1. Open [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar and click **Import Data**.  
   
-2.  On the Filters screen, select **Appointments from Exchange** and then click **Apply**.  
+2. On the Filters screen, select **Appointments from Exchange** and then click **Apply**.  
   
-3.  The system will pull appointments into time entry view as suggested entries from the current week. To add entries for another week, click **Previous** or **Next**.  
+3. The system will pull appointments into time entry view as suggested entries from the current week. To add entries for another week, click **Previous** or **Next**.  
   
-4.  Select the appointment that you want to add to Project Service Automation time entry view.  
+4. Select the appointment that you want to add to Project Service Automation time entry view.  
   
-5.  On the **Time Entry** popup box, select the appropriate options to convert the appointment to a Project Service Automation time entry view.  
+5. On the **Time Entry** popup box, select the appropriate options to convert the appointment to a Project Service Automation time entry view.  
   
-6.  Click **Save**.  
+6. Click **Save**.  
   
 ### See Also  
  [Time, Expense, and Collaboration Guide](../project-service/time-expense-collaboration-guide.md)

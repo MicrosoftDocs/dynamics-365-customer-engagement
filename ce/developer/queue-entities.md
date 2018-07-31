@@ -122,11 +122,11 @@ manager: "amyla"
   
  The privileges on a queue item are inherited from the privileges on a queue.  
   
--   If you have `prvReadQueue` privilege, you also have read privilege on a queue item entity.  
+- If you have `prvReadQueue` privilege, you also have read privilege on a queue item entity.  
   
--   If you have `prvAppendToQueue` privilege, you also have create, update, and delete privileges on a queue item entity.  
+- If you have `prvAppendToQueue` privilege, you also have create, update, and delete privileges on a queue item entity.  
   
- Often, you must limit access to the queue when permitting access to the queue items. As a queue owner with full access to the queue, you might want to share a queue with a team that will have only limited access to the queue. For example, if the support team is given read and append to privileges on a queue, team members cannot make any changes to the queue, such as changing queue name or queue owner. However, they can create, retrieve, update, and delete queue items.  
+  Often, you must limit access to the queue when permitting access to the queue items. As a queue owner with full access to the queue, you might want to share a queue with a team that will have only limited access to the queue. For example, if the support team is given read and append to privileges on a queue, team members cannot make any changes to the queue, such as changing queue name or queue owner. However, they can create, retrieve, update, and delete queue items.  
   
 <a name="BKMK_Actions"></a>   
 ## Actions on queues and queue items  
@@ -161,16 +161,16 @@ manager: "amyla"
 ### Actions on queue items  
  Perform the following actions on the queue items:  
   
--   Assign a queue item to a user using the <xref:Microsoft.Crm.Sdk.Messages.PickFromQueueRequest>.  
+- Assign a queue item to a user using the <xref:Microsoft.Crm.Sdk.Messages.PickFromQueueRequest>.  
   
--   Move a queue item from a source queue to a destination queue by using the <xref:Microsoft.Crm.Sdk.Messages.AddToQueueRequest> message. A queue item can be moved from one queue to another until it is deactivated by using the <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest> message.  
+- Move a queue item from a source queue to a destination queue by using the <xref:Microsoft.Crm.Sdk.Messages.AddToQueueRequest> message. A queue item can be moved from one queue to another until it is deactivated by using the <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest> message.  
   
-    > [!NOTE]
-    >  A queue item is automatically deactivated if the state of the record in the queue item changed from Active to Inactive. This applies to queue-enabled entities that have Active and Inactive states. To determine if an entity is queue-enabled and if an entity record can be in an Active or Inactive state, see entity metadata information. [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
+  > [!NOTE]
+  >  A queue item is automatically deactivated if the state of the record in the queue item changed from Active to Inactive. This applies to queue-enabled entities that have Active and Inactive states. To determine if an entity is queue-enabled and if an entity record can be in an Active or Inactive state, see entity metadata information. [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
   
--   Release a queue item back to the queue using the <xref:Microsoft.Crm.Sdk.Messages.ReleaseToQueueRequest>.  
+- Release a queue item back to the queue using the <xref:Microsoft.Crm.Sdk.Messages.ReleaseToQueueRequest>.  
   
--   Delete a queue item from a queue by using the <xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> message. When you delete a queue item, a referenced entity record is not deleted. However, when you delete an entity record, all queue items that reference this entity record are deleted.  
+- Delete a queue item from a queue by using the <xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> message. When you delete a queue item, a referenced entity record is not deleted. However, when you delete an entity record, all queue items that reference this entity record are deleted.  
   
 ### See also  
  [Configure EMail for Incoming Messages](configure-email-incoming-messages.md)   

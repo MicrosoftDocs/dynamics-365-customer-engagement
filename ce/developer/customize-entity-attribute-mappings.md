@@ -38,21 +38,21 @@ manager: "amyla"
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 You can map attributes between entities that have an entity relationship. This lets you set default values for a record that is created in the context of another record. Use the customization tools in the application to map attributes. See [Create and edit entity relationships : Mapping Entity Fields](../customize/map-entity-fields.md#BKMK_mappingEntityFields).
-  
+
 <!-- See [Entity and attribute mappings](../customize/default-entity-attribute-mappings.md) for a table that shows the default system entity and field mappings. --> 
-  
+
 <a name="bkmk_BehaviorintheApplication"></a>
 
 ## Behavior in the application
 
  Mapping in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement streamlines data entry when you create new records that are associated with another record. When an entity has an entity relationship with another entity, you can create new related entity records by using the **Create Related** tab in the ribbon. When you create a new record in this manner, mapped data from the primary entity record is copied to the form for the new related entity record. By mapping entity attributes, you control what data is copied by adding new mappings in the relationship between the two entities. If you create a record in any way other than from the associated view of the primary entity, data is not mapped.  
-  
+
  For example, you might want to set up a mapping between the address fields in accounts and the address fields in contacts. With this mapping, when a user adds a contact associated with a specific account, the address fields for the contact are populated automatically.  
-  
+
  You can map one attribute to multiple target attributes. For example, you can map address information in an account to both the billing and shipping addresses in an order.  
-  
+
  Mapping is applied before a new, related record is created. Users can make changes before saving the record. Later changes to the data in the primary record are not applied to the related record.  
-  
+
 <a name="bkmk_UsingEntityandAttributeMappingData"></a>
 
 ## Using entity and attribute mapping data
@@ -74,7 +74,7 @@ For more information see [Create a new entity from another entity](webapi/create
  <xref:Microsoft.Crm.Sdk.Messages.InitializeFromRequest> message to define a new record that contains the values specified in the mapping. You can then use the 
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>.
  <xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*> method to save the record. In in this manner, any mappings that you define are applied.  
-  
+
  Valid entity maps are created when an entity relationship is created. Use the `entity_map_attribute_maps` entity relationship to retrieve the attribute maps for the pair of entities specified by the entity map.  
  You can create or update attribute map records. The following requirements must be met for attribute maps:  
 - The <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata> type must match.
@@ -116,7 +116,6 @@ For more information see [Create a new entity from another entity](webapi/create
       </link-entity>
    </entity>
  </fetch>
-
 ```
 
 ### See also
