@@ -29,3 +29,23 @@ However, you can change the audience and type of a portal after it is provisione
 
 You can change the base URL of a portal after it is provisioned by following the steps mentioned in the [Change the base URL of a portal](change-base-url.md) article.
 
+## How to redirect a user to a default page after signing-in?
+
+You can configure a portal to redirect a user to a default page after signing-in. To achieve this functionality, you must include a JavaScript code in the Home web template.
+
+For example, if you want to redirect all users to be redirected to the Forums page on signing-in, you must include a JavaScript code in the Home web template as follows:
+
+```
+{% if user %}
+// if any user logs in
+<script>
+alert('user.role found');
+window.location.href='./forums/'
+</script>
+{% else %}
+//Home web page code, if you don't want to display the page when the user is being redirected
+{% endif %}
+//Home web page code, if you want to display the page when the user is being redirected
+```
+
+More information on working with Liquid templates, see [Work with Liquid templates](custom-templates-dynamic-content.md).
