@@ -1,5 +1,5 @@
 ---
-title: Knowledge base search mechanisms and methods in Dynamics 365| MicrosoftDocs
+title: Knowledge base search mechanisms in Dynamics 365| MicrosoftDocs
 description: Know how the Knowledge base search mechanisms and methods works in Microsoft Dynamics 365
 keywords: Search the knowledge base; Dynamics 365; Full-text search; Relevance search; Categorized search; Customer Service Hub; Knowledge Article; Knowledge Management; Knowledge Base; Knowledge base search mechanisms and methods
 author: anjgupta
@@ -9,7 +9,7 @@ applies_to:
   - "Dynamics 365 Version 8.2"
 ms.author: anjgup
 manager: shellyha
-ms.date: 06/01/2018
+ms.date: 08/03/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 16e57ec7-e14e-4ffa-9ca7-54a4fa63b4a9
@@ -27,7 +27,7 @@ Utilize this topic to understand how various search mechanisms work in a knowlde
 
 Refer the section below to know the types of search mechanisms available:
 
-## Search mechanisms 
+## Understand search mechanisms 
 
 - **Full-Text search**: Lets you run full-text queries against character-based data in SQL Server tables. Read more: 
 [Full-Text Search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search). 
@@ -35,9 +35,9 @@ Refer the section below to know the types of search mechanisms available:
 - **Relevance search**:  Lets you search across multiple entities in a single list, sorted by relevance. It uses a dedicated search service external to Dynamics 365 (powered by Azure) to boost Dynamics 365 search performance. Read more: [Relevance Search](../basics/relevance-search-results.md).
 <br> <br> See [Configure Relevance Search](../admin/configure-relevance-search-organization.md) to know how to configure Relevance search to improve search results and performance.
 
-## Search end-points
+## Search for knowledge base
 
-You can search the knowledge base from the following search end-points in the app:
+You can search the knowledge base from the following search points in the app:
 
 - **Knowledge base search control** - In the app, select a case by navigating to **Service** > **Cases**. In the **Related** section (also known as Reference panel), select **Knowledge Base Search** and search for knowledge articles using keywords in the search box. 
   
@@ -62,9 +62,9 @@ You can search the knowledge base from the following search end-points in the ap
 > You can search the knowledge base using Portals also. See [Use faceted search to improve portal search](../portals/improve-portal-search-faceted-search.md) for more information.
 
 
-With each of the above search end-points, the search results might vary based on the underlying search mechanism used:
+With each of the above search points, the search results might vary based on the underlying search mechanism used:
 
-|Version  | App |Search end-points| Search mechanism  |
+|Version  | App |Search points| Search mechanism  |
 |---------|---------|---------|---------|
 | 8.2  |   Any app (based on any client)    |     - KB search control <br>  - Quick find in Grids   |   Full-Text search    |
 |   |     |      - Global search  |   Categorized search     |
