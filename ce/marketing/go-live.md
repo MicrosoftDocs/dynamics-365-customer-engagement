@@ -1,6 +1,6 @@
 ---
 title: "Publish records with go live and track their status (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Find out which types of records must be publish (go live) before you can use them, how to track their go-live status, and how to stop or edit records that are already live in Dynamics 365 for Marketing"
+description: "Find out which types of records must be published (go live) before you can use them, how to track their go-live status, and how to stop or edit records that are already live in Dynamics 365 for Marketing"
 keywords: "publish;live;status;status reason;go live"
 ms.date: 08/01/2018
 ms.service:
@@ -25,7 +25,7 @@ topic-status: Drafting
 
 Many of the entities that you work with in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] require you to _go live_ before you can use them in your live marketing initiatives. The go-live process takes a record you are working with on your application server (such as an email message or customer journey), checks it for errors, prepares it for use, and moves the result to one of the external services used by [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] to process data-intensive features like bulk email sending, collecting and analyzing results, or populating dynamic segments. The go-live process is sometimes also referred to as _publishing_.
 
-Once a record is live, the version you have on your application server (the version you can open and edit in the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] UI), is just a local representation of a live process running on an external service. Some types of entities require the live process to be stopped before you can edit it, while others let you push updates from the app without stopping the live process. I some cases, you won't be able to make certain types of changes (or even any changes at all) once you have gone live with a given record.
+Once a record is live, the version you have on your application server (the version you can open and edit in the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] UI), is just a local representation of a live process running on an external service. Some types of entities require the live process to be stopped before you can edit them, while others let you push updates from the app without stopping the live process. In some cases, you won't be able to make certain types of changes (or even any changes at all) once you have gone live with a given record.
 
 The following table lists all entities that have a go-live function and which services they are published to.
 
@@ -41,11 +41,11 @@ The following table lists all entities that have a go-live function and which se
 
 ## Monitor go-live status with status and status reason
 
-Nearly all entities in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] have both **Status** and **Status reason** fields. The **Status** is always either _active_ or _inactive_, which indicates whether the record is in use and can affect where it is visible and selectable in the UI. The **Status reason** gives more information about the **Status** , and often functions as a sub-status (which it usually does for publishable entities in [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]).
+Nearly all entities in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] have both **Status** and **Status reason** fields. The **Status** is always either _active_ or _inactive_, which indicates whether the record is in use and can affect where it is visible and selectable in the UI. The **Status reason** gives more information about the **Status**, and often functions as a sub-status (which it usually does for publishable entities in [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]).
 
 For most types of entities, you can manually assign the active/inactive **Status** for each record using buttons on the command bar. You might use this, for example, to mark a contact as inactive, which hides that contact from most views but keeps it in your database for future or historical reference. For publishable entities in [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], the system usually manages the **Status reason** value (which is therefore read-only) to give you more information about the publish status. For some publishable entities in [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], the **Status** field is also managed by the system and therefore may not be editable directly either. See the remaining sections of this topic for details.
 
-All entities provide a view selector for list views, where you can choose a saved query such as "Active journeys", "All live journeys", "Inactive journeys", etc. In most cases, you can find inactive records by going to the "Inactive …" view, where you can usually reactivate a record if needed.
+All entities provide a view selector for list views, where you can choose a saved query such as "Active journeys", "All live journeys", "Inactive journeys", and so on. In most cases, you can find inactive records by going to the "Inactive …" view, where you can usually reactivate a record if needed.
 
 ![Use the system-view selector to see inactive records](media/golive-see-inactive-records.png "Use the system-view selector to see inactive records")
 
@@ -56,13 +56,13 @@ For customer journeys, both the **Status** and a **Status reason** are managed b
 | Status | Status&nbsp;reason | Description |
 | --- | --- | --- |
 | Active | Draft | The journey has never been live and can be edited and saved locally without restrictions.<br><br>To publish a draft journey, open it and then choose **Go Live** on the command bar. |
-| Active | Live | The journey is currently live. If the current date is between the journey start and end dates, then it is processing contacts. The journey will automatically go to the stopped state when its end-date passes.<br><br>To stop a live journey, open it and then choose **Stop** on the command bar.<br><br>To edit a live journey without stopping it, open it and then choose **Edit** on the command bar. |
-| Active | Stopped | The journey was once live, and may have already processed some contacts, but is now stopped, so it won't process any more contacts or take any other actions. It may have stopped because the end-date passed, or because you stopped in manually.<br><br>Thirty days after the end date, the journey will automatically change from _active/stopped_ to _inactive/expired_. Once a journey has expired, you can no longer edit or restart it, but until then you could extend the end date and restart it if needed.<br><br>While stopped, you can edit and save the journey without going live. Select **Go live** to start running the journey again. |
+| Active | Live | The journey is currently live. If the current date is between the journey start and end dates, then it is processing contacts. The journey will automatically go to the stopped state when its end date passes.<br><br>To stop a live journey, open it and then choose **Stop** on the command bar.<br><br>To edit a live journey without stopping it, open it and then choose **Edit** on the command bar. |
+| Active | Stopped | The journey was once live, and may have already processed some contacts, but is now stopped, so it won't process any more contacts or take any other actions. It may have stopped because the end date passed, or because you stopped it manually.<br><br>Thirty days after the end date, the journey will automatically change from _active/stopped_ to _inactive/expired_. Once a journey has expired, you can no longer edit or restart it, but until then you could extend the end date and restart it if needed.<br><br>While stopped, you can edit and save the journey without going live. Select **Go live** to start running the journey again. |
 | Active | Live, editable | The journey is currently live, but you have chosen to edit it locally. The live journey will continue to process contacts and take other actions while you work with the local version.<br><br>Make the required changes and then choose **Save** to update the live journey automatically (after an error check) and return to the active/live state. |
 | Active | Error | An error occurred while the journey was going live. This is usually a temporary issue, so you should wait a short time, then try again to go live again. |
 | Active | Going live | The journey is currently in the process of going live. |
 | Active | Stopping | The journey has been live but is currently in the process of stopping due to a stop request. |
-| Inactive | Expired | The journey end-date passed at least 30 days ago, and the journey can't be restarted. |
+| Inactive | Expired | The journey end date passed at least 30 days ago, and the journey can't be restarted. |
 
 ## Marketing email go-live operations and status
 
@@ -96,7 +96,7 @@ The **Status reason** indicates the segment's current go-live state and is read-
 | Status | Status&nbsp;reason | Description |
 | --- | --- | --- |
 | Active | Draft | The segment is new and has never been published. You can edit all settings.<br><br>To publish a draft segment, open it and then choose **Go Live** on the command bar. |
-| Active | Live | The segment is currently live and continuously updating its contacts list. It might be in use for targeting a customer journey.<br><br>The segment can't be edited locally while in this state, but you can stop it at any time by choosing **Stop** on the command bar, then edit and go-live again if needed. |
+| Active | Live | The segment is currently live and continuously updating its contacts list. It might be in use for targeting a customer journey.<br><br>The segment can't be edited locally while in this state, but you can stop it at any time by choosing **Stop** on the command bar, then edit and go live again if needed. |
 | Active | Stopped | The segment was once live but is now stopped and can be edited if needed.<br><br>While stopped, you can edit and save the segment without going live. Select **Go live** to republish it. |
 | Inactive | (none) | Segments should never have an inactive status. |
 
@@ -107,10 +107,10 @@ You can manually set the **Status** of a marketing page to _active_ or _inactive
 | Status | Status&nbsp;reason | Description |
 | --- | --- | --- |
 | Active | Draft | The page has never been live and can be edited and saved locally without restrictions.<br><br>To publish a draft page, open it and then choose **Go Live** on the command bar. |
-| Active | Live | The page is currently live and available publicly on the Internet.<br><br>To stop a live page, open it and then choose **Stop** on the command bar.<br><br>To edit a live page without stopping it, open it and then choose **Edit** on the command bar. |
-| Active | Stopped | The page was once live, and may have already been used, but is now stopped and unavailable publicly on the Internet.<br><br>While stopped, you can edit and save the page without going live. Select **Go live** to publish the page again. |
+| Active | Live | The page is currently live and available publicly on the internet.<br><br>To stop a live page, open it and then choose **Stop** on the command bar.<br><br>To edit a live page without stopping it, open it and then choose **Edit** on the command bar. |
+| Active | Stopped | The page was once live, and may have already been used, but is now stopped and unavailable publicly on the internet.<br><br>While stopped, you can edit and save the page without going live. Select **Go live** to publish the page again. |
 | Active | Live, editable | The page is currently live, and can still be used, but you have chosen to edit it locally at the same time.<br><br>Make the required changes and then choose **Save** to update the live page automatically (after an error check) and return to the active/live state. |
-| Active | Error | An error occurred while the page was going live. This is usually a temporary issue, so you should wait a short time, then try again to go live again. |
+| Active | Error | An error occurred while the page was going live. This is usually a temporary issue, so you should wait a short time, then try to go live again. |
 | Active | Going live | The page is currently in the process of going live. |
 | Active | Stopping | The page has been live but is currently in the process of stopping due to a stop request. |
 | Inactive | Expired | A user has manually deactivated the page using the **Deactivate** button on the command bar.<br><br>If the page is live, then you must stop it (by choosing **Stop** on the command bar) before you can deactivate it. |
@@ -127,9 +127,11 @@ The **Status reason** field for marketing forms doesn't track the publish state;
 
 ## Event go-live operations and status
 
-The event go-live functionality works a bit different from the other entities described in this topic. When you publish an event, [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] generates an event portal for that event rather than going live with the event record itself. The generated portal displays many types of information that are defined on, and linked to, the event record. The event and all its settings remain editable even after you publish the portal, and any changes you make to a published event will immediately be reflected on the portal too.
+The event go-live functionality works a bit differently from the other entities described in this topic. When you publish an event, [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] generates an event portal for that event rather than going live with the event record itself. The generated portal displays many types of information that are defined on, and linked to, the event record. The event and all its settings remain editable even after you publish the portal, and any changes you make to a published event will immediately be reflected on the portal too.
 
 The events entity has a **Status** field, which works the same way as it does for most entities, but it doesn't use the **Status reason** field to monitor publish status. Instead, the events entity has a **Publish status** field, which is fully editable all the time you work with an event. This value is shown as a drop-down list in the upper-right corner when you are editing an event record.
+
+<!--Is the name (Lamar Ferrari) in this image from a fictitious names list?-->
 
 ![The Publish Status menu for events](media/golive-publish-event.png "The Publish Status menu for events")
 
