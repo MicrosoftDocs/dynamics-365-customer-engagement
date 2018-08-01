@@ -20,6 +20,8 @@ ms.reviewer: renwe
 topic-status: Drafting
 ---
 
+<!--Remember to update publication date-->
+
 # Event management settings
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -87,15 +89,15 @@ To set your event-administration options:
 1. Go to **Settings** > **Advanced settings** > **Event management** > **Event administration**. Here you'll see a list of existing event-administration records (if any), and tools for adding new ones. Note the following:
     - You can only have one active event-administration record at a time.
     - If no event-administration records are shown, then select **New** on the command bar to create one.
-    - If an event-administration record already exist, then select it to open it.
+    - If an event-administration record already exists, then select it to open it.
     - To delete an existing event-administration record, select it and choose **Delete** on the command bar.
-    - If you'd like to temporarily disable an existing event-administration record, possibly so you can create a new one to use in the meantime, then select the existing record and choose **Deactivate** from on the command bar. To view, edit, and/or reactivate a deactivated record, switch to the **Inactive event administration** view using system view menu (above the list).
+    - If you'd like to temporarily disable an existing event-administration record, possibly so you can create a new one to use in the meantime, then select the existing record and choose **Deactivate** from the command bar. To view, edit, and/or reactivate a deactivated record, switch to the **Inactive event administration** view using system view menu (above the list).
 1. Make the following settings:
     - **Name**: Enter a name for the current event-administration record.
     - **Send mail to purchaser**: Set to **Yes** if you'd like the system to send an automatic email to the purchaser each time she or he registers an attendee for an event.
-    - **Email template for purchaser**: Choose the (hard coded) email template to send to the purchaser when **Send mail to purchaser** is enabled.
+    - **Email template for purchaser**: Choose the (hard-coded) email template to send to the purchaser when **Send mail to purchaser** is enabled.
     - **Send mail to event attendee**: Set to **Yes** if you'd like the system to send an automatic email to each new contact that is registered for an event. This includes both self-registering contacts (if allowed) and contacts registered by another purchaser.
-    - **Event template for event attendee**: Choose the (hard coded) email template to send to each registrant when **Send mail to event attendee** is enabled.
+    - **Event template for event attendee**: Choose the (hard-coded) email template to send to each registrant when **Send mail to event attendee** is enabled.
     - **Portal payment gateway**: Choose the default portal gateway to assign to new events. This payment gateway must already be available as a page on your portal. You can change this default for each individual event as needed.
     > [!NOTE]
     > The email templates that you can choose with these settings are hard coded, so you can't customize or translate their content. If you require custom messaging, then set up a [customer journey](customer-journeys-create-automated-campaigns.md) with event, trigger, and email tiles.
