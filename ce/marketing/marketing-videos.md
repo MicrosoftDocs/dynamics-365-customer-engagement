@@ -20,6 +20,8 @@ ms.reviewer: renwe
 topic-status: Drafting
 ---
 
+<!--Be sure to update the publication date-->
+
 # Watch these videos to learn more about [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -32,13 +34,15 @@ If you are new to [!INCLUDE[pn-marketing-business-app-module-name](../includes/p
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Overview (Marketing)](overview.md)
 
-For an even more detailed video overview of the features and benefits [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], including extended feature demos, see [Dynamics 365 for Marketing | Business Applications Spring 2018 Release](https://www.youtube.com/watch?v=LWQ4C0kAPo4)  (36:51).
+For an even more detailed video overview of the features and benefits of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], including extended feature demos, see [Dynamics 365 for Marketing | Business Applications Spring 2018 Release](https://www.youtube.com/watch?v=LWQ4C0kAPo4)  (36:51).
 
 ## Design marketing emails
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/17c3476e-9383-413b-98ec-0b1ac6659824" frameborder="0" allowfullscreen=""></iframe></div>
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)]
+
+<!--The second and third entries go to the same URL. Is that correct?-->
 
 - Tutorial: [Create a marketing email and go live](create-marketing-email.md)
 - [Design your digital content](design-digital-content.md)
