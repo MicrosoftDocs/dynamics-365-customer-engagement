@@ -19,6 +19,9 @@ ms.reviewer: renwe
 topic-status: Drafting
 ---
 
+<!--Be sure to update publication date-->
+
+
 # Set up an event
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -29,7 +32,7 @@ To get started planning an event with [!INCLUDE[pn-marketing-business-app-module
 
 The first thing you'll do when setting up your event in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] is to set up an event record. Everything that you do related to a given event will either be stored directly in the event record itself, or stored in other records that are linked to that event.
 
-Though the solution offers many different views into other record types, you'll probably do most of your work directly in the relevant event record because you'll be able to view and create most types of related recordS from here, and everything that you do will automatically be related to that event.
+Though the solution offers many different views into other record types, you'll probably do most of your work directly in the relevant event record because you'll be able to view and create most types of related records from here, and everything that you do will automatically be related to that event.
 
 You can see a list of all your event records by going to **Events** &gt; **Event** &gt; **Events**, and from here you use the standard list-view controls to search, sort, and filter the list to find and open an existing event, or to create a new event record.
 
@@ -39,7 +42,7 @@ If you often run similar events, then you can save time by setting up one or mor
 
 As with many other forms in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], the event form provides a summary of its most important settings at the top, where you'll also find the business workflow timeline, which helps organize your work at each stage of the event-management process. A standard business workflow for events is provided out of the box, but you can customize it to match the process in place at your organization.
 
-The first time you create a new event, you must specify values for each of the required fields (marked with a red asterisk), and we recommend that you fill out the business-critical fields too (marked with a blue plus sign). All required and business-critical fields are available at the top of the page in the business workflow, where you can fill them out quickly and easily. All settings that you enter in the business workflow will also be visible among the other event details further down the page. You'll still be able to see and edit these settings even after you move forward to the next stage in the workflow.
+The first time you create a new event, you must specify values for each of the required fields (marked with a red asterisk), and we recommend that you fill out the business-critical fields, too (marked with a blue plus sign). All required and business-critical fields are available at the top of the page in the business workflow, where you can fill them out quickly and easily. All settings that you enter in the business workflow will also be visible among the other event details farther down the page. You'll still be able to see and edit these settings even after you move forward to the next stage in the workflow.
 
 After you enter values for all the required fields, you can save the record. You'll probably return to the event record many times over several days while you plan your event. Use the workflow as a to-do list and to track your progress during each stage.
 
@@ -166,7 +169,7 @@ When setting up a pass, pay attention to the **Passes Allocated** field, where y
 
 A venue is any physical location where you hold an event or session. It might be a single building with just one room, or one of several rooms in a building. For each venue, you can register many types of important details, including name, location, facilities, capacity, layout, events that will or have occurred there, and more. After you've set up a venue, you can assign events and sessions to it as needed.
 
-Use the various types of venue entities in the **Events** &gt; **Venue Management** area to construct a hierarchical model of your event location. Later, you'll be able to assign events and sessions to each venue space from your model. You only need to include as much detail as you need, so a simple building with just one room doesn't need to have any rooms defined for it, and a simple room with just one layout doesn't need to have any layouts defined for it. But you can't set up a room without building or a layout without a room.
+Use the various types of venue entities in the **Events** &gt; **Venue Management** area to construct a hierarchical model of your event location. Later, you'll be able to assign events and sessions to each venue space from your model. You only need to include as much detail as you need, so a simple building with just one room doesn't need to have any rooms defined for it, and a simple room with just one layout doesn't need to have any layouts defined for it. But you can't set up a room without a building or a layout without a room.
 
 Use the following entities to model your venues:
 
