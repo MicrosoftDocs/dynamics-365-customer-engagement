@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot SLA timer issue in Customer Service Hub app | Microsoft Docs
 description: Know how to fix the issue where SLA Timer does not stop, when state is changed from OnHold to InProgress on a Holiday
-keywords: Customer Service Hub; SLA Timer; SLA state
+keywords: Customer Service Hub; SLA Timer; SLA state; SLA wait time; SLA failure time
 author: anjgupta
 applies_to: Dynamics 365 (online) 
 ms.author: anjgup
@@ -21,13 +21,11 @@ Once triggered, the SLA timer continues to run even when its state is changed fr
 
 When a holiday is configured, the status of the case is updated to *OnHold* to pause the case SLA. However, the pause functionality associated with the *OnHold* status doesn't function correctly. Therefore, the timer continues to run even on a holiday when it should be paused.
 
-Due to this, it includes the holiday hours, non-business hours, and paused time (only business hours) while projecting the SLA warning or failure time. 
+Due to this, it includes the holiday hours, non-business hours, and pause time (only business hours) while projecting the SLA warning or failure time. 
 
 ## Resolution
 
-This is an intended functionality. Business hours are clearly defined while scheduling working days and holidays and the SLA warning or failure time are calculated on the basis of that. 
 
-See the following scenarios to understand when and how the SLA wait and failure time are considered:
 
 - Create a case during non-working hours. Pause and resume a case before business hours start. Hold time between *Pause* and *Resume* will not be considered.
 - Create a case during non-working hours. Pause and resume a case during business working hours. Hold time will be considered and *Wait* and *Failure* time will be extended based on hold time.

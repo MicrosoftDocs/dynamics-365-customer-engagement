@@ -52,3 +52,7 @@
 ### [Set the custom icon in views for Case Origin field](set-custom-icon-custom-case-origin.md)
 ### [Define status reason transitions for case management](../customize/define-status-reason-transitions.md)
 
+## Troubleshoot
+### [SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md)
+
+### [Unable to delete an attribute based on SLA ID imported from entity](troubleshoot-delete-attribute.md)
