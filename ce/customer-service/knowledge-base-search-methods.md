@@ -16,7 +16,7 @@ ms.assetid: 16e57ec7-e14e-4ffa-9ca7-54a4fa63b4a9
 ms.custom: dyn365-customerservice
 ---
 
-# Understand the knowledge base search mechanisms
+# Understand knowledge base search mechanisms
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
