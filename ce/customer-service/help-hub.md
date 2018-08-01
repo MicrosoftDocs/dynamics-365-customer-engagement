@@ -82,7 +82,7 @@ ms.custom: dyn365-customerservice
    <ul>
   <li><a href="troubleshoot-sla-timer-issue.md" data-raw-source="[SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md)">SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday</a>
 </li>
-   <li><a href="troubleshoot-delete-attribute.md" data-raw-source="[Unable to delete an attribute based on SLA ID imported from entity](troubleshoot-delete-attribute.md)">Unable to delete an attribute based on SLA ID imported from entity</a></li>
+   <li><a href="troubleshoot-delete-sla.md" data-raw-source="[Unable to delete an attribute based on SLA ID imported from entity](troubleshoot-delete-sla.md)">Unable to delete an attribute based on SLA ID imported from entity</a></li>
   </ul><br/>  </td>
 <td>&#160;</td>
 </table>
