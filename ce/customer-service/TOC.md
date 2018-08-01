@@ -41,7 +41,7 @@
 ### [Email templates](../admin/create-templates-email.md)
 ### [Article templates](../admin/create-templates-articles.md)
 
-## Customization
+## Customize
 ### [Create and design forms for Customer Service Hub](create-design-forms-customer-service-hub.md)
 ### [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
 ### [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
