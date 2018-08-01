@@ -21,19 +21,19 @@ manager: "kvivek"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-## Jul 21 
-1. Filter entities and views that appear in Dynamics 365 App for Outlook. 
+## July 21, 2018
+1. [Filter entities and views that appear in Dynamics 365 App for Outlook.](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/outlook-app/deploy-dynamics-365-app-for-outlook#filter-entities-and-views-that-appear-in-dynamics-365-app-for-outlook) 
 2. Fixed issues with App for Outlook not loading in Internet Explorer with Exchange on premise. 
 3. Untrack confirmation dialog will now be displayed when tracking an appointment in Outlook desktop in read mode. 
 4. App for Outlook will honor business rules (like required fields on a contact) when contacts are tracked. 
 5. Performance improvements to App for Outlook. 
 6. Addressed other bug fixes. 
 
-## Jun 22 
+## June 22, 2018 
 1. Support for tracking email, appointments, and tasks based on Outlook category. 
 2. Addressed other bug fixes.  
 
-## May 20 
+## May 20, 2018
 1. [Support for custom security roles to have access to Dynamics 365 App for Outlook.](deploy-dynamics-365-app-for-outlook.md) 
 2. Rich text appointment editor in Unified Interface and web client. 
 3. Addressed other bug fixes. 
