@@ -33,7 +33,7 @@ The following table provides a quick reference to the custom attributes and meta
 | --- | --- |
 | `<meta type="xrm/designer/setting" name="type" value="marketing-designer-content-editor-document">` | When this tag is present in the `<head>` of your document, the **Designer** tab will provide drag-and-drop features. If this tag is not present, the **Designer** tab provides the simplified, full-page editor. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Show the toolbox and enable drag-and-drop editing](#show-the-toolbox-and-enable-drag-and-drop-editing)|
 | `<div data-container="true"> … </div>` | Marks the start and end of a container where users can drag and drop content blocks. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a container where users can add content blocks](#create-a-container-where-users-can-add-content-blocks) |
-| `<div data-editorblocktype="[text|image|button|...]" > … </div>` | Marks the start and end of a content block. The value of the attribute identifies which type of block it is (text, image, button, etc.). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Identify content blocks](#identify-content-blocks) |
+| `<div data-editorblocktype="[text|image|button|...]" > … </div>` | Marks the start and end of a content block. The value of the attribute identifies which type of block it is (text, image, button, and so on). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Identify content blocks](#identify-content-blocks) |
 | `<meta type="xrm/designer/setting" name="<name>" value="<initial value>" datatype="[color|font|number|picture|text]" label="<label>">` | This tag defines a document-wide style setting that users can edit using the **Designer** > **Styles** tab.  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add settings to the Styles tab](#add-settings-to-the-styles-tab) |
 | `/* @<tag-name> */ … /* @<tag-name> */` | Use CSS comments like these to surround a CSS value to be controlled by a style setting, where &lt;_tag-name&gt;_ is the value of the _name_ attribute for the meta tag that established the setting. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add CSS comments to implement style settings in the head](#add-css-comments-to-implement-style-settings-in-the-head) |
 | `property-reference= "<attr>:@< tag-name >;<attr>:@< tag-name >; …"` | Place this attribute in any HTML tag to place an attribute with a value controlled by a style setting, where _&lt;attr&gt;_ is the name of the attribute to be created and &lt;_tag-name&gt;_ is the value of the `name` attribute for the meta tag that established the setting. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add property-reference attributes to implement style settings in the body](#add-property-reference-attributes-to-implement-style-settings-in-the-body) |
@@ -44,7 +44,7 @@ The remaining sections of this topic provide more information about how to use e
 
 ## Show the toolbox and enable drag-and-drop editing
 
-You can paste HTML developed in any third-party tool directly into the **HTML** tab of the designer to start building a design very quickly. However, when you do this, the **Designer** tab will display as a single rich-text editor that provides a text-formatting toolbar, and shows all images, links, and styles included in your HTML, but doesn't otherwise provide the **Toolbox** , **Properties** , or **Styles** tabs, or any drag-and-drop functionality (this simplified **Designer** view is sometimes called the _full-page editor_.) However, you can enable drag-and-drop functionality for any pasted-in design by adding the following meta tag to the `<head>` section of your document:
+You can paste HTML developed in any third-party tool directly into the **HTML** tab of the designer to start building a design very quickly. However, when you do this, the **Designer** tab will display as a single rich-text editor that provides a text-formatting toolbar, and shows all images, links, and styles included in your HTML, but doesn't otherwise provide the **Toolbox**, **Properties**, or **Styles** tabs, or any drag-and-drop functionality (this simplified **Designer** view is sometimes called the _full-page editor_). However, you can enable drag-and-drop functionality for any pasted-in design by adding the following meta tag to the `<head>` section of your document:
 
 ```xml
 <meta type="xrm/designer/setting" name="type" value="marketing-designer-content-editor-document">
@@ -55,7 +55,7 @@ The following image shows the same design in full-page-edit mode (left) and drag
 ![Full-page editor vs. drag-and-drop editor](media/designer-full-page-editor.png "Full-page editor vs. drag-and-drop editor")
 
 > [!NOTE]
-> When using the full-page editor, you can still select, edit and style text using the text-formatting toolbar (shown), and can also double-click on images, links, and other elements to set their properties using  a pop-up dialog. The toolbar also include the assist-edit button for adding dynamic content, such as field values drawn from each recipient's contact record.
+> When using the full-page editor, you can still select, edit, and style text using the text-formatting toolbar (shown), and can also double-click on images, links, and other elements to set their properties using  a pop-up dialog. The toolbar also includes the assist-edit button for adding dynamic content, such as field values drawn from each recipient's contact record.
 
 <a name="containers"></a>
 
@@ -127,6 +127,8 @@ The following table lists the available values for the `data-editorblocktype` at
 | Rest-button block | Form content | ResetButtonBlock |
 | Captcha block | Form content | CaptchaBlock |
 
+<!--In line 127, is "rest" correct or should it be "reset"?-->
+
 For more information about each of these content blocks, see [Content blocks reference](content-blocks-reference.md).
 
 > [!IMPORTANT]
@@ -136,7 +138,7 @@ For more information about each of these content blocks, see [Content blocks ref
 
 ## Add settings to the Styles tab
 
-One handy feature of the out-of-box templates is that they provide global style settings on the **Styles** tab, which let users quickly adjust the font family, color palette, and other global settings enabled for the template. Each template includes only those styles settings that make sense for that specific design, and you can likewise design templates that provide just the right style settings for you and your users.
+One handy feature of the out-of-box templates is that they provide global style settings on the **Styles** tab, which let users quickly adjust the font family, color palette, and other global settings enabled for the template. Each template includes only those style settings that make sense for that specific design, and you can likewise design templates that provide just the right style settings for you and your users.
 
 ![The Designer > Styles tab](media/designer-style-tab.png "The Designer > Styles tab")
 
@@ -220,8 +222,8 @@ property-reference= "<attr>:@< tag-name >;<attr>:@< tag-name >; …"
 
 Where:
 
-- _&lt;attr&gt;_ is the name of the attribute to be created
-- _&lt;tag-name&gt;_ is the value of the `name` attribute for the meta tag that established the setting
+- _&lt;attr&gt;_ is the name of the attribute to be created.
+- _&lt;tag-name&gt;_ is the value of the `name` attribute for the meta tag that established the setting.
 - Multiple attributes, if needed, must be separated with a semicolon within a single property-reference attribute.
 
 Here is an example where you can see `xrm/designer/setting` meta tags that create two settings for controlling a hero image (banner) in the document, with controls called "Hero image" and "Hero image height" on the **Styles** tab. The `property-reference` property is then used in an `<img>` tag to implement those settings.
