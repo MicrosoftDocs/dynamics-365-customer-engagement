@@ -25,7 +25,9 @@ Due to this, it includes the holiday hours, non-business hours, and pause time (
 
 ## Resolution
 
+This is an intended functionality. Business hours are defined while scheduling working days and holidays and the SLA warning or failure time is calculated on the basis of those hours.
 
+See the following scenarios to understand how the SLA *Wait* and *Failure* time is calculated:
 
 - Create a case during non-working hours. Pause and resume a case before business hours start. Hold time between *Pause* and *Resume* will not be considered.
 - Create a case during non-working hours. Pause and resume a case during business working hours. Hold time will be considered and *Wait* and *Failure* time will be extended based on hold time.
