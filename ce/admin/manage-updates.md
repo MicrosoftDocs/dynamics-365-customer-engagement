@@ -40,7 +40,7 @@ You have options for when you update your Dynamics 365 Online organization to [!
 
 <a name="BKMK_UpdateDynamics365"></a> 
 
-## Continous updates for Dynamics 365 (online) 
+## Continuous updates for Dynamics 365 (online) 
 
 We are transforming how we do service updates for Dynamics 365 (online). We will deliver two major releases per year - April and October - offering new capabilities and functionality. These updates will be backward compatible, so your apps and customizations will continue to work post update. New features with major, disruptive changes to the user experience are off by default. This means administrators will be able to first test then enable these features for their organization.   
 
