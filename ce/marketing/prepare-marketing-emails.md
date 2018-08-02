@@ -27,6 +27,9 @@ topic-status: Drafting
 
 The process for creating marketing emails in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] begins with understanding what makes them such a powerful tool for your marketing campaigns. After you create a good design aimed at a specific segment of your audience, you preview it and check for errors before going live. You can fine-tune the reach and effectiveness of your message through advanced operations like merging database values, adding dynamic content, and introduce programming logic.
 
+> [!IMPORTANT]
+> Email messages have a maximum size limit of 125 KB, which includes both plain-text and HTML content, but doesn't include images.
+
 ## How marketing email works in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
 
 Marketing email in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] works quite differently from the person-to-person messaging that you already use. Here are a few of the most important differences:
@@ -78,7 +81,7 @@ When you create a new message from a template, the template content is copied in
 
 You can also create your own custom templates, which can help both you and others in your organization to create new messages more quickly in the future. Design your templates so that they reflect your organization's graphical identity and fit closely with the types of campaigns you run most regularly. You can save any existing message as a template, or work directly in the templates area to design new templates based on existing ones. When setting up a template, you can add various types of metadata (such as purpose, style, market type, and optimized for) which make each template easier to identify and easier to find by using filters.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Work with email templates](email-templates.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Work with email, page, and form templates](email-templates.md)
 
 ## Design your content
 
@@ -137,19 +140,35 @@ The following **Advanced Header** settings are available:
 * **To**: This should almost always be set to **{{ contact.emailaddress1 }}**, which sends the message to each contact included in the customer journey that sends the email. You might change this to use a different email address field (such as emailaddress2), or enter a dynamic expression that chooses the best of several available email fields.
 * **Reply-to email**: This should usually be blank, which means that replies to the message will be sent to the address of the **From** contact (or the **Email from address**, if it's different). If you set a value here, replies to your message will be sent to this address rather than the displayed from address. You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
 
-## Create a transactional email message
+<a name="designation"></a>
 
-Most of the messages you send using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] will probably be marketing messages, but you can also use the solution to send transactional messages. Transactional messages must relate exclusively to a specific transaction between your organization and another individual or organization (such as a receipt, account statement, or consent request), and must not include advertisements or promotional messages. 
+## Set the legal designation to identify each message as either commercial or transactional
 
-Transactional messages are typically regulated differently from marketing messages. They are considered personal communications, not promotional communications, and therefore have different content and consent-level requirements. In [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], the main practical different between transactional and commercial messages is that different validation rules apply. Specifically, commercial messages require a subscription-center link while transactional messages do not.
+Most of the messages you send using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] will probably be commercial messages, which are bulk messages sent to many recipients and once. However, you can also use the solution to send transactional messages. Transactional messages must relate exclusively to a specific transaction between your organization and another individual or organization (such as a receipt, account statement, or consent request), and must not include advertisements or promotional content.
+
+Transactional messages are typically regulated differently from commercial messages. They are considered personal communications, not promotional communications, and therefore have different content and consent requirements. In [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], the main practical different between transactional and commercial messages is that different validation rules apply. Specifically, commercial messages require a subscription-center link while transactional messages do not. Also, [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] manages consent independently for each of these two types of messages.
 
 By default, all new messages that you create will be commercial messages. To change the legal designation of a message:
 
 1. Open the message.
 1. Go to the **Summary** tab.
-1. Set the **Legal Designation** to **Commercial** or **Transactional**, as required. 
+1. Set the **Legal Designation** to **Commercial** or **Transactional**, as required.
 
-Take care not to send transactional messages that include promotional content. It is your responsibility to be familiar with, and conform to, all relevant laws that apply in the countries/regions where you deliver commercial and transactional messages.
+Take care not include promotional content in messages that you have set as transactional. It is your responsibility to be familiar with, and conform to, all relevant laws that apply in the countries/regions where you deliver commercial and transactional messages.
+
+Each contact record has two settings that establish that contact's consent for receiving email messages from your organization. You can find these consent settings for any contact by opening the relevant contact record, going to the **Details** tab and looking in the **Contact preferences** section, which includes the following two settings:
+
+- **Email**: This setting is among the standard fields for the contact record, and is included with nearly all [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] customer engagement applications. Contacts where this is set to **Do not allow** have indicated that do not want to receive any type of email from your organization, so [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] will send neither commercial nor transactional messages to these contacts.
+- **Bulk email**: This setting is added to the contact record when you install [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. Contacts where this is set to **Do not allow** have indicated that do not want to receive commercial email from your organization, but they may still allow transactional messages. Each contact can enable or disable this option for themselves using any subscription center (all subscription centers provide a checkbox for controlling this).
+
+The following table shows the result of attempting to send a commercial or transactional email message to contacts with each combination of settings for these two options.
+
+| Email        | Bulk email   | Commercial email | Transaction email |
+|--------------|--------------|------------------|-------------------|
+| Allow        | Allow        | Sent             | Sent              |
+| Allow        | Do not allow | Not sent         | Sent              |
+| Do not allow | Allow        | Not sent         | Not sent          |
+| Do not allow | Do not allow | Not sent         | Not sent          |
 
 <a name="preview-message"></a>  
 
@@ -159,7 +178,16 @@ Your marketing email messages will probably be seen by many potential customers,
 
 ### Send a test message
 
-Select **Test Send** to send your current design to any recipient or group of recipients. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] then asks you to specify test recipients by entering one or more email addresses or by choosing a marketing list. If you choose a list, be careful not to send the test to a large audience you didn't intend to send the message to.
+Select **Test Send** to send your current design to one or more email addresses. This command initiates an [error check](#error-check); provided your message passes the error check, a flyout panel opens asking you to specify the following:
+
+- **Email address**: Enter one or more target email addresses (comma-separated). You'll typically just use your own email address here.
+- **Test contact**: Select a contact record to supply values for dynamic content (such as a first name in the salutation). For a live message, these values come from the contact record for each individual recipient.
+- **Test content settings**: Select a content-settings record to supply values for dynamic content (such as subscription-center URL or the sender postal address). For a live message, the content-settings record is specified by the customer journey that sends the message.
+
+Select the **Save** button the bottom of the flyout panel to send the message to your specified email address(s).
+
+> [!NOTE]
+> You can test-send both draft and live email messages, so you don't have to go live to do a test send.
 
 ### Preview your message in the designer
 
@@ -194,9 +222,11 @@ The **Inbox Preview** tab displays a grid of icons, each labeled with the name o
 > [!NOTE]
 > Litmus must be enabled for your site before you can use it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Default marketing settings](marketing-settings.md#marketing-configuration)
 
+<a name="error-check"></a>
+
 ## Required elements: How to pass the error check
 
-Before you can send your message, it must pass an error check. You can run an error check at any time by selecting **Check for Errors** in the designer. An error check is also run automatically each time you select **Go Live**.
+Before you can go-live with or test-send your message, it must pass an error check. You can run an error check at any time by selecting **Check for Errors** in the designer. An error check is also run automatically each time you select **Go Live** or **Test Send**.
 
 All messages must include the following:
 
@@ -219,7 +249,7 @@ While you prepare a message, it stays in a draft state, which means that it's in
 
 To publish a message, open it and select **Go Live**. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] will run a final validation check, as described in the previous section, and&mdash;if it passes&mdash;publish the message. If errors are returned, read the error messages, address the issues, and try again until the message is successfully published.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md) and [Go live with publishable entities and track their status](go-live.md)
 
 ### See also
 
@@ -228,5 +258,6 @@ To publish a message, open it and select **Go Live**. [!INCLUDE[pn-microsoftcrm]
 [Design your digital content](design-digital-content.md)  
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)
 [Content blocks reference](content-blocks-reference.md)  
-[Work with email templates](email-templates.md)  
-[Upload and use images and files](upload-images-files.md)
+[Work with email, page, and form templates](email-templates.md)  
+[Upload and use images and files](upload-images-files.md)  
+[Go live with publishable entities and track their status](go-live.md)
