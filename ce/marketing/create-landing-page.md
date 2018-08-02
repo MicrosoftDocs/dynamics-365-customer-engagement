@@ -109,7 +109,7 @@ To create a landing page and go live:
 ### See also
 
 [Design your digital content](design-digital-content.md)  
-[Keyboard shortcuts and accessibility features for content designers](design-digital-content.md)  
+[Keyboard shortcuts and accessibility features for content designers](designer-shortcuts.md)  
 [Content blocks reference](content-blocks-reference.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [How Dynamics 365 for Marketing uses cookies](cookies.md)
