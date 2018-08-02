@@ -8,7 +8,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
   - "Dynamics 365 Version 8.2"
 ms.author: anjgup
-manager: shellyha
+manager: shujoshi
 ms.date: 08/03/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
