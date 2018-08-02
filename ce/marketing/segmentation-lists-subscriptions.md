@@ -98,6 +98,9 @@ Because your database probably includes a large number of contacts, the **Defini
 
 To create a dynamic segment, set its **Segment type** to **Dynamic** on the **General** tab. Then use the **Definition** tab to build your dynamic segment by combing _groups_ of _logical expressions_, each of which results in a set of contacts. Each group establishes a _path_ through one or more entities that must end at the **Contact** entity (the order matters).
 
+> [!IMPORTANT]
+> Your dynamic-segment queries can reference fields of all data types _other than multiple option set_. The **Designer** and **Explorer** may sometimes show data fields of this type, but your segment won't work if you include them in your queries so avoid selecting these fields.
+
 ### Define a segment group
 
 Each group in your segment results in a list of contacts, which are selected by the logic defined in that group. For example, you might build a path as follows:
