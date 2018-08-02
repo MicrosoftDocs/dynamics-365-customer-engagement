@@ -31,16 +31,16 @@ You can change the base URL of a portal after it is provisioned by following the
 
 ## How to redirect a user to a default page after signing-in?
 
-You can configure a portal to redirect a user to a default page after signing-in. To achieve this functionality, you must include a JavaScript code in the Home web template.
+You can configure a portal to redirect a user to a default page after signing in. To achieve this functionality, you can include a JavaScript code in the Home web template.
 
-For example, if you want to redirect all users to be redirected to the Forums page on signing-in, you must include a JavaScript code in the Home web template as follows:
+For example, if you want to redirect all users to the Forums page after signing in, you can include a JavaScript code in the Home web template as follows:
 
-```
+```xml
 {% if user %}
-// if any user logs in
+//if any user logs in
 <script>
-alert('user.role found');
-window.location.href='./forums/'
+  alert('user.role found');
+  window.location.href='./forums/'
 </script>
 {% else %}
 //Home web page code, if you don't want to display the page when the user is being redirected
