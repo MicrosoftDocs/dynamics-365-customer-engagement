@@ -3,7 +3,7 @@ title: "Run games in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to set up games in a few steps and how to keep them running smoothly."
 keywords: "game, gamification KPI, game setup"
 ms.date: 10/27/2017
-ms.service: gamification
+ms.service: dynamics-365-sales
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-gamification
 ---
 
 # Set up and run games in Gamification
@@ -39,19 +41,19 @@ By setting up a game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamific
 2. Provide a **Name** for the game.
 
 3. Select the **Game Model**.  
-[!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Concepts to learn before you get started using Gamification](get-started.md)  
+   [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Concepts to learn before you get started using Gamification](get-started.md)  
    More information about setting up a Stream TV: [Manage Stream TV games in Gamification](configure-view-tvs.md)
 
 4. Select the **Sport Theme** you want to use for the game.
 
 5. To specify how often players can change their teams, set the **Draft Frequency**. Ideally, you'll set a weekly draft frequency to provide players the flexibility to replace members of their teams if they're removed from the game or they take some time off.
 
-6.  Set the **Start Date** and **End Date** for the game. Games run on a weekly schedule, from Monday to Sunday. Set your start and end dates accordingly to avoid game periods of less than a week.
+6. Set the **Start Date** and **End Date** for the game. Games run on a weekly schedule, from Monday to Sunday. Set your start and end dates accordingly to avoid game periods of less than a week.
 
-    > [!TIP]
-    > For an engaging experience for players, we recommend you set the game duration between two and six months. Shorter games make it harder for people to become immersed in the game, while longer games have proven to be harder to keep track of.
+   > [!TIP]
+   > For an engaging experience for players, we recommend you set the game duration between two and six months. Shorter games make it harder for people to become immersed in the game, while longer games have proven to be harder to keep track of.
 
-7.  In the game setup header, click **1** to proceed to the next step.
+7. In the game setup header, click **1** to proceed to the next step.
 
 ### KPI types and user roles
 
@@ -80,13 +82,13 @@ By setting up a game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamific
 
    To set a weekly target that the player can achieve, create a hit or miss KPI, and then change the word **every** to **at** in step 2 of the game setup process.
 
-6.  Optionally, set the **Floor** and **Cap** values for the KPI.
+6. Optionally, set the **Floor** and **Cap** values for the KPI.
 
-7.  Repeat the steps above for all KPIs you have planned for the game.
+7. Repeat the steps above for all KPIs you have planned for the game.
 
-8.  Optionally, you can use Excel point scoring for certain KPIs. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Update game scores by using Excel point scoring capabilities in Gamification](update-scores-using-excel-point-scoring.md)
+8. Optionally, you can use Excel point scoring for certain KPIs. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Update game scores by using Excel point scoring capabilities in Gamification](update-scores-using-excel-point-scoring.md)
 
-9.  In the game setup header, click **2** to proceed to the next step.
+9. In the game setup header, click **2** to proceed to the next step.
 
 > [!IMPORTANT]
 > When you remove a KPI from an active game, a user with the **Game manager** security role in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] needs to click **Refresh Data** in **Dynamics 365 (online)** > **Gamification** > **Gamification Settings** to update the data shown in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)].
@@ -132,7 +134,7 @@ After you activate the game, and before the game start date, you can change KPIs
 
 > [!IMPORTANT]
 > When you edit an active game and remove a KPI or change the active players, a user who has the **Game manager** security role in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] needs to click **Refresh Data** to update the data shown in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)].
-
+> 
 > [!TIP]
 > - Consider setting up a TV for your office to show the leaderboard and announcements on the smack talk board. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Manage Stream TV games in Gamification](configure-view-tvs.md)
 > - Send weekly email blasts to all participants to share who's leading the pack in the current game and motivate them to deliver their best results. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Schedule weekly or one-time emails](schedule-weekly-one-time-emails.md)
@@ -143,9 +145,9 @@ After you activate the game, and before the game start date, you can change KPIs
 
 ### Manually complete a game
 
-1.  In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Games**.
+1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Games**.
 
-2.  In the **Active Games** list, click **End Game** for the game you want to complete.
+2. In the **Active Games** list, click **End Game** for the game you want to complete.
 
 ### See also
 

@@ -43,22 +43,22 @@ You use field security entities to apply field-level security, which restricts f
 ## Set up and use field security  
  To use field security you must do the following:  
   
-1.  Create a field security profile record  
+1. Create a field security profile record  
   
-2.  Add users or teams to the profile  
+2. Add users or teams to the profile  
   
-3.  Find an attribute that can be secured at the field level  
+3. Find an attribute that can be secured at the field level  
   
-4.  Secure the attribute, either when you create the attribute or by updating the attribute metadata  
+4. Secure the attribute, either when you create the attribute or by updating the attribute metadata  
   
-5.  Publish the attribute customizations  
+5. Publish the attribute customizations  
   
-6.  Create a field permission record that defines what access (create, update, read) the profile will have for the custom attribute  
+6. Create a field permission record that defines what access (create, update, read) the profile will have for the custom attribute  
   
- For sample code about how to perform these steps, see [Sample: Enable Field Security For An Entity](sample-enable-field-security-entity.md).  
+   For sample code about how to perform these steps, see [Sample: Enable Field Security For An Entity](sample-enable-field-security-entity.md).  
   
- Use the following field permission attributes to set whether the specified field security profile can create, read, or update an attribute. 
- You can set or compare the value for these attributes by using the `field_security_permission_type` global option set:  
+   Use the following field permission attributes to set whether the specified field security profile can create, read, or update an attribute. 
+   You can set or compare the value for these attributes by using the `field_security_permission_type` global option set:  
   
 -   `FieldPermission`.`CanCreate`  
   
@@ -73,19 +73,19 @@ You use field security entities to apply field-level security, which restricts f
 ## Which attributes can be secured?  
  To see which attributes can be secured, you can query the entity metadata for the following properties:  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.CanBeSecuredForCreate>  
+- <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.CanBeSecuredForCreate>  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.CanBeSecuredForRead>  
+- <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.CanBeSecuredForRead>  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.CanBeSecuredForUpdate>  
+- <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.CanBeSecuredForUpdate>  
   
- There are a few additional rules that apply to certain attribute data types:  
+  There are a few additional rules that apply to certain attribute data types:  
   
--   Boolean attributes can be secured for create and update operations but not for read.  
+- Boolean attributes can be secured for create and update operations but not for read.  
   
--   Option set attributes can be secured for create, update, and read when a default value is unspecified.  
+- Option set attributes can be secured for create, update, and read when a default value is unspecified.  
   
- There are thousands of attributes that can be secured, so there are two easier ways to look for this information. [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
+  There are thousands of attributes that can be secured, so there are two easier ways to look for this information. [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
   
 <a name="bkmk_sharing"></a>   
 ## Share secured fields  

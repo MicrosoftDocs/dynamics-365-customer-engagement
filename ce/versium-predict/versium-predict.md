@@ -1,20 +1,21 @@
 ---
 title: "Versium Predict (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-versium
 ms.date: 09/30/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-sales
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "mduelae"
+author: saurabh-kudesia
 ms.assetid: 02a2310b-efb1-4418-8af6-28dc8c243f6c
 caps.latest.revision: 17
-ms.author: "mkaur"
-manager: "brycho"
+ms.author: sakudes
+manager: sakudes
 ---
 # Versium Predict
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -33,7 +34,7 @@ manager: "brycho"
   
 - **Enhance your lead data:** Enhance your marketing lists with additional information from  Versium Predict Data Warehouse, such as email addresses, phone numbers, financial information, social network information, and demographic data.  
   
- Predict Versium is a preferred provider solution that your administrator can add from the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] admin center. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install or remove a preferred solution](../admin/install-remove-preferred-solution.md).  
+  Predict Versium is a preferred provider solution that your administrator can add from the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] admin center. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install or remove a preferred solution](../admin/install-remove-preferred-solution.md).  
   
 ## Get started  
  [Versium Predict home page](http://versium.com/predict-by-versium/)  

@@ -2057,6 +2057,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_goal_parent_goal"></a> goal_parent_goal
 
 Same as goal entity [goal_parent_goal](goal.md#BKMK_goal_parent_goal) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|goal|
@@ -2071,6 +2072,7 @@ Same as goal entity [goal_parent_goal](goal.md#BKMK_goal_parent_goal) Many-To-On
 ### <a name="BKMK_Goal_DuplicateBaseRecord"></a> Goal_DuplicateBaseRecord
 
 Same as duplicaterecord entity [Goal_DuplicateBaseRecord](duplicaterecord.md#BKMK_Goal_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -2085,6 +2087,7 @@ Same as duplicaterecord entity [Goal_DuplicateBaseRecord](duplicaterecord.md#BKM
 ### <a name="BKMK_Goal_RollupError_Goal"></a> Goal_RollupError_Goal
 
 Same as goal entity [Goal_RollupError_Goal](goal.md#BKMK_Goal_RollupError_Goal) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|goal|
@@ -2099,6 +2102,7 @@ Same as goal entity [Goal_RollupError_Goal](goal.md#BKMK_Goal_RollupError_Goal) 
 ### <a name="BKMK_Goal_SyncErrors"></a> Goal_SyncErrors
 
 Same as syncerror entity [Goal_SyncErrors](syncerror.md#BKMK_Goal_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -2113,6 +2117,7 @@ Same as syncerror entity [Goal_SyncErrors](syncerror.md#BKMK_Goal_SyncErrors) Ma
 ### <a name="BKMK_Goal_Annotation"></a> Goal_Annotation
 
 Same as annotation entity [Goal_Annotation](annotation.md#BKMK_Goal_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -2127,6 +2132,7 @@ Same as annotation entity [Goal_Annotation](annotation.md#BKMK_Goal_Annotation) 
 ### <a name="BKMK_Goal_AsyncOperations"></a> Goal_AsyncOperations
 
 Same as asyncoperation entity [Goal_AsyncOperations](asyncoperation.md#BKMK_Goal_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -2141,6 +2147,7 @@ Same as asyncoperation entity [Goal_AsyncOperations](asyncoperation.md#BKMK_Goal
 ### <a name="BKMK_Goal_ProcessSessions"></a> Goal_ProcessSessions
 
 Same as processsession entity [Goal_ProcessSessions](processsession.md#BKMK_Goal_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -2155,6 +2162,7 @@ Same as processsession entity [Goal_ProcessSessions](processsession.md#BKMK_Goal
 ### <a name="BKMK_userentityinstancedata_goal"></a> userentityinstancedata_goal
 
 Same as userentityinstancedata entity [userentityinstancedata_goal](userentityinstancedata.md#BKMK_userentityinstancedata_goal) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -2169,6 +2177,7 @@ Same as userentityinstancedata entity [userentityinstancedata_goal](userentityin
 ### <a name="BKMK_goal_connections1"></a> goal_connections1
 
 Same as connection entity [goal_connections1](connection.md#BKMK_goal_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -2183,6 +2192,7 @@ Same as connection entity [goal_connections1](connection.md#BKMK_goal_connection
 ### <a name="BKMK_goal_connections2"></a> goal_connections2
 
 Same as connection entity [goal_connections2](connection.md#BKMK_goal_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -2197,6 +2207,7 @@ Same as connection entity [goal_connections2](connection.md#BKMK_goal_connection
 ### <a name="BKMK_Goal_DuplicateMatchingRecord"></a> Goal_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [Goal_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Goal_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -2211,6 +2222,7 @@ Same as duplicaterecord entity [Goal_DuplicateMatchingRecord](duplicaterecord.md
 ### <a name="BKMK_goal_principalobjectattributeaccess"></a> goal_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [goal_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_goal_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

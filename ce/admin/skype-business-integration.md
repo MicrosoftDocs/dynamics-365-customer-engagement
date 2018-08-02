@@ -37,27 +37,27 @@ If your organization uses [!INCLUDE[pn_skype_for_business](../includes/pn-skype-
   
 - [!INCLUDE[pn_MS_Lync_Server_2010](../includes/pn-ms-lync-server-2010.md)]  
   
- **Client requirements and [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] configuration**  
+  **Client requirements and [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] configuration**  
   
--   To use click-to-call, [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)] must be selected as the telephony provider in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. You can set this on the General tab at Settings > Administration > System Settings.  
+- To use click-to-call, [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)] must be selected as the telephony provider in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. You can set this on the General tab at Settings > Administration > System Settings.  
   
--   By default, [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)] presence is enabled in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. System administrators can enable or disable presence in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. To do this, click **Settings** > **Administration** > **System Settings** and on the **General** tab, **Set the IM presence option** to **Yes** or **No**.  
+- By default, [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)] presence is enabled in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. System administrators can enable or disable presence in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. To do this, click **Settings** > **Administration** > **System Settings** and on the **General** tab, **Set the IM presence option** to **Yes** or **No**.  
   
--   Each user must have the [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)] client installed and running on their PC.  
+- Each user must have the [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)] client installed and running on their PC.  
   
--   For [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)] presence, [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] users must have `https://*.dynamics.com` added to their web browsers trusted sites list in Internet options in [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)].  
+- For [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)] presence, [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] users must have `https://*.dynamics.com` added to their web browsers trusted sites list in Internet options in [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)].  
   
 ### Supported devices and web browsers when you use Skype for Business with Microsoft Dynamics 365  
   
-|Mobile app or web browser|Skype for Business click-to-call|Skype for Business presence|  
-|-------------------------------|----------------------------------------|---------------------------------|  
-|[!INCLUDE[pn_crm_for_ipad](../includes/pn-crm-for-ipad.md)]|Yes|No|  
-|[!INCLUDE[pn_moca_CRM_Android](../includes/pn-moca-crm-android.md)]|Yes|No|  
-|[!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)]-based tablets|Yes|No|  
-|[!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)]|Yes|Yes|  
-|[!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)]|Yes|No|  
-|[!INCLUDE[tn_Mozilla_Firefox](../includes/tn-mozilla-firefox.md)]|Yes|No|  
-|[!INCLUDE[tn_Apple_Safari](../includes/tn-apple-safari.md)]|Yes|No|  
+|                             Mobile app or web browser                             | Skype for Business click-to-call | Skype for Business presence |
+|-----------------------------------------------------------------------------------|----------------------------------|-----------------------------|
+|            [!INCLUDE[pn_crm_for_ipad](../includes/pn-crm-for-ipad.md)]            |               Yes                |             No              |
+|        [!INCLUDE[pn_moca_CRM_Android](../includes/pn-moca-crm-android.md)]        |               Yes                |             No              |
+| [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)]-based tablets |               Yes                |             No              |
+|       [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)]       |               Yes                |             Yes             |
+|           [!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)]           |               Yes                |             No              |
+|         [!INCLUDE[tn_Mozilla_Firefox](../includes/tn-mozilla-firefox.md)]         |               Yes                |             No              |
+|            [!INCLUDE[tn_Apple_Safari](../includes/tn-apple-safari.md)]            |               Yes                |             No              |
   
 <a name="BKMK_UseSkype"></a>   
 
@@ -66,21 +66,21 @@ If your organization uses [!INCLUDE[pn_skype_for_business](../includes/pn-skype-
   
 **Client requirements and [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] configuration**  
   
--   Each user must have the [!INCLUDE[pn_skype_for_windows](../includes/pn-skype-for-windows.md)] desktop client or the [!INCLUDE[pn_skype_for_windows_8](../includes/pn-skype-for-windows-8.md)] app installed and running on their PC or [!INCLUDE[pn_windows8](../includes/pn-windows8.md)] device.  
+- Each user must have the [!INCLUDE[pn_skype_for_windows](../includes/pn-skype-for-windows.md)] desktop client or the [!INCLUDE[pn_skype_for_windows_8](../includes/pn-skype-for-windows-8.md)] app installed and running on their PC or [!INCLUDE[pn_windows8](../includes/pn-windows8.md)] device.  
   
 - **Skype** must be selected as the telephony provider in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. You can set this on the **General** tab at **Settings** > **Administration** > **System Settings**.  
   
 ### Supported devices and web browsers when you use Skype with Dynamics 365  
   
-|Mobile app or web browser|Skype click-to-call|  
-|-------------------------------|---------------------------|  
-|[!INCLUDE[pn_crm_for_ipad](../includes/pn-crm-for-ipad.md)]|Yes|  
-|[!INCLUDE[pn_moca_CRM_Android](../includes/pn-moca-crm-android.md)] on [!INCLUDE[tn_android](../includes/tn-android.md)] tablets|Yes|  
-|[!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)]-based tablets|Yes|  
-|[!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)]|Yes|  
-|[!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)]|Yes*|  
-|[!INCLUDE[tn_Mozilla_Firefox](../includes/tn-mozilla-firefox.md)]|Yes**|  
-|[!INCLUDE[tn_Apple_Safari](../includes/tn-apple-safari.md)]|Yes|  
+|                                                    Mobile app or web browser                                                     | Skype click-to-call |
+|----------------------------------------------------------------------------------------------------------------------------------|---------------------|
+|                                   [!INCLUDE[pn_crm_for_ipad](../includes/pn-crm-for-ipad.md)]                                    |         Yes         |
+| [!INCLUDE[pn_moca_CRM_Android](../includes/pn-moca-crm-android.md)] on [!INCLUDE[tn_android](../includes/tn-android.md)] tablets |         Yes         |
+|                        [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)]-based tablets                         |         Yes         |
+|                              [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)]                               |         Yes         |
+|                                  [!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)]                                   |        Yes\*        |
+|                                [!INCLUDE[tn_Mozilla_Firefox](../includes/tn-mozilla-firefox.md)]                                 |       Yes\*\*       |
+|                                   [!INCLUDE[tn_Apple_Safari](../includes/tn-apple-safari.md)]                                    |         Yes         |
   
  \* The [Skype Click-to-call plugin](http://www.skype.com/go/clicktocall) must be installed on the [!INCLUDE[tn_chrome](../includes/tn-chrome.md)] browser and enabled. More information: [How do I enable Skype Click to Call in Chrome?](https://support.skype.com/en/faq/FA12243/how-do-i-enable-skype-click-to-call-in-chrome)  
   

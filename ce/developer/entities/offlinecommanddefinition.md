@@ -461,6 +461,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_OfflineCommandDefinition_SyncErrors"></a> OfflineCommandDefinition_SyncErrors
 
 Same as syncerror entity [OfflineCommandDefinition_SyncErrors](syncerror.md#BKMK_OfflineCommandDefinition_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|

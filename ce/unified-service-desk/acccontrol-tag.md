@@ -1,10 +1,11 @@
 ---
 title: "AccControl Tag | MicrosoftDocs"
 description: "Learn about the AccControl tag that uses the IAccessible interface from Microsoft Active Accessibility (MSAA)."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,18 +17,18 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: e4d9d212-1709-4983-8d57-9359cda932fd
 caps.latest.revision: 8
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # AccControl Tag
 The `AccControl` tag uses the [IAccessible](https://msdn.microsoft.com/library/accessibility.iaccessible\(v=vs.110\).aspx) interface from Microsoft Active Accessibility (MSAA). The AccControl tag has:  
   
--   `Name` property to define the user-accessible (friendly) name for a control.  
+- `Name` property to define the user-accessible (friendly) name for a control.  
   
--   `Path` tag to define a search path for the control in the application's `IAccessibility` tree. The `<Path>` tag contains the following: [FindWindow Tag](../unified-service-desk/find-window-tag.md) and [Next Tag](../unified-service-desk/next-tag-windda.md).  
+- `Path` tag to define a search path for the control in the application's `IAccessibility` tree. The `<Path>` tag contains the following: [FindWindow Tag](../unified-service-desk/find-window-tag.md) and [Next Tag](../unified-service-desk/next-tag-windda.md).  
   
- The following XML example shows a control definition using the `AccControl` tag.  
+  The following XML example shows a control definition using the `AccControl` tag.  
   
 ```xml  
 <AccControl name="Control Name">  
@@ -43,20 +44,20 @@ The `AccControl` tag uses the [IAccessible](https://msdn.microsoft.com/library/a
   
 > [!NOTE]
 >  Some elements in the `Path` tag have a `<match>` attribute that you can use to add a counter to the search description. Both the following examples return the same search result, but the first example implements the `<match>` tag:  
->   
->  - **Example 1**  
->   
->     ```  
->     <Caption match="2">Test Application</Caption>  
->     ```  
-> -   Example 2:  
->   
+> 
+> - **Example 1**  
+> 
+>    ```  
+>    <Caption match="2">Test Application</Caption>  
+>    ```  
+>   - Example 2:  
+> 
 >     ```  
 >     <Caption>Test Application</Caption>  
 >     <Caption>Test Application</Caption>  
 >     ```  
->   
->  If `<match>` isn’t specified, the default value is 0.  
+> 
+>   If `<match>` isn’t specified, the default value is 0.  
   
  The [String)](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase.getcontrolvalue\(system.string,system.string\)) method on an `AccControl` tag is always mapped to the `get_accValue` method on the subject `IAccessible` node, unless the node contains `role="radio button"` or `role="check box"`. In these cases, the [String)](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase.getcontrolvalue\(system.string,system.string\)) method returns `True` or `False`, depending on whether the state of the node is selected.  
   

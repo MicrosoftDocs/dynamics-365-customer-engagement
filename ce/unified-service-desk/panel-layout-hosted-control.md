@@ -1,10 +1,11 @@
 ---
 title: "Panel Layout (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about using the Panel Layout hosted control to define the arrangement of panels in Unified Service Desk. Panels hold various hosted controls, and a panel layout defines the arrangement of various hosted controls on the main screen of the Unified Service Desk client application."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +17,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: bbc0cc8e-b45c-4ad6-a7e8-616dc1a00f53
 caps.latest.revision: 7
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Panel Layout (Hosted Control)
 Use **Panel Layout** hosted control to define the arrangement of panels in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. Panels hold various hosted controls, and a panel layout defines the arrangement of various hosted controls on the main screen of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] comes with several predefined panel types to support various layout options such as tabbed layout, deck, and stacked layout. For more information, see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md).  
@@ -40,21 +41,21 @@ Use **Panel Layout** hosted control to define the arrangement of panels in [!INC
   
  In the **New Hosted Control** screen:  
   
--   From the **USD Component Type** drop-down list, select **Panel Layout**.  
+- From the **USD Component Type** drop-down list, select **Panel Layout**.  
   
--   From the **PanelType** drop-down list, select a panel layout type to create. You can select one from the following: **Standard Main Panel**, **Ribbon Main Panel**, **Vertical Split**, **Horizontal Split**, **XAML**, and **User Defined**. The XAML and User Defined panel layouts are the custom panels that you define. For detailed information about each of the panel layouts, see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md). The fields in this page change based on the selected panel type.  
+- From the **PanelType** drop-down list, select a panel layout type to create. You can select one from the following: **Standard Main Panel**, **Ribbon Main Panel**, **Vertical Split**, **Horizontal Split**, **XAML**, and **User Defined**. The XAML and User Defined panel layouts are the custom panels that you define. For detailed information about each of the panel layouts, see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md). The fields in this page change based on the selected panel type.  
   
--   Select **Yes** or **No** from the **Application is Dynamic** list to determine if the hosted control is dynamic or not. A dynamic hosted control can be global or non-global. Global dynamic hosted controls are loaded at the first request and hidden thereafter, and they can be requested at any time, such as during a global session, normal session, or workflow. Non-global dynamic hosted controls can only be loaded after a session has started, and each session uses a different instance of the application. If a dynamic hosted control is part of a workflow, and has not started when the workflow starts then the workflow will start the hosted control and close it when the workflow is complete.  
+- Select **Yes** or **No** from the **Application is Dynamic** list to determine if the hosted control is dynamic or not. A dynamic hosted control can be global or non-global. Global dynamic hosted controls are loaded at the first request and hidden thereafter, and they can be requested at any time, such as during a global session, normal session, or workflow. Non-global dynamic hosted controls can only be loaded after a session has started, and each session uses a different instance of the application. If a dynamic hosted control is part of a workflow, and has not started when the workflow starts then the workflow will start the hosted control and close it when the workflow is complete.  
   
 - **User Can Close** check box becomes available if you selected **Yes** in the **Application is Dynamic** list. Select it to specify that the hosted control can be closed by the user.  
   
--   If you selected **Vertical Split**, **Horizontal Split**, **XAML**, or **User Defined** in the **PanelType** list, the **Application is Global** check box becomes available. Select it to set the hosted control as global. Global hosted controls can be displayed outside of a customer session. Controls like the agents’ dashboard, wall or search are common uses for global hosted controls. Global hosted controls do not have session-specific state so when you change sessions, these same global hosted controls remain. If the check box is not selected, the hosted control becomes session based. Session-based controls exist in the context of the customer session. If the user changes to another session, all the session pages from the previous session are hidden.  
+- If you selected **Vertical Split**, **Horizontal Split**, **XAML**, or **User Defined** in the **PanelType** list, the **Application is Global** check box becomes available. Select it to set the hosted control as global. Global hosted controls can be displayed outside of a customer session. Controls like the agents’ dashboard, wall or search are common uses for global hosted controls. Global hosted controls do not have session-specific state so when you change sessions, these same global hosted controls remain. If the check box is not selected, the hosted control becomes session based. Session-based controls exist in the context of the customer session. If the user changes to another session, all the session pages from the previous session are hidden.  
   
--   If you selected **Vertical Split**, **Horizontal Split**, **XAML**, or **User Defined** in the **PanelType** list, the **Display Group** field becomes available. Specify a panel where this hosted control will be displayed. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md).  
+- If you selected **Vertical Split**, **Horizontal Split**, **XAML**, or **User Defined** in the **PanelType** list, the **Display Group** field becomes available. Specify a panel where this hosted control will be displayed. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md).  
   
--   If you selected **XAML** in the **PanelType** list, a **XAML** field becomes available where you specify the XAML definition for your panel type.  
+- If you selected **XAML** in the **PanelType** list, a **XAML** field becomes available where you specify the XAML definition for your panel type.  
   
--   If you selected **User Defined** in the **PanelType** list, the **Assembly URI** and **Assembly Type** fields become available. In the **Assembly URI** field, type the name of your assembly. In the **Assembly Type** field, specify the following value: *\<AssemblyName>.\<ClassName>*. For detailed information about how to create a user defined panel layout see, [Create custom panel layout in Unified Service Desk](../unified-service-desk/create-custom-panel-layout.md).  
+- If you selected **User Defined** in the **PanelType** list, the **Assembly URI** and **Assembly Type** fields become available. In the **Assembly URI** field, type the name of your assembly. In the **Assembly Type** field, specify the following value: *\<AssemblyName>.\<ClassName>*. For detailed information about how to create a user defined panel layout see, [Create custom panel layout in Unified Service Desk](../unified-service-desk/create-custom-panel-layout.md).  
   
 <a name="actions"></a>   
 ## Predefined UII actions  

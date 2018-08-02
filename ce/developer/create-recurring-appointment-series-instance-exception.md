@@ -41,16 +41,16 @@ When you create a recurring appointment master (series), [!INCLUDE[pn_microsoftc
   
  When you create a recurring appointment series, the following things occur:  
   
-1.  A `RecurringAppointmentMaster` record (recurring appointment series) is created that contains the basic and recurrence information about the recurring appointment series. Each record can be uniquely identified using the `RecurringAppointmentMaster.ActivityId` property. Further, this recurring appointment series is also created and stored as an activity (`ActivityPointer`) record. The activity record can be uniquely identified using the `ActivityPointer.ActivityId` property.  
+1. A `RecurringAppointmentMaster` record (recurring appointment series) is created that contains the basic and recurrence information about the recurring appointment series. Each record can be uniquely identified using the `RecurringAppointmentMaster.ActivityId` property. Further, this recurring appointment series is also created and stored as an activity (`ActivityPointer`) record. The activity record can be uniquely identified using the `ActivityPointer.ActivityId` property.  
   
-2.  Individual recurring appointment instances are created based on the recurrence information and stored as `Appointment` records. These appointment objects are associated with the parent recurring appointment series using the `Appointment.SeriesId` property and have the same value as the parent recurring appointment series ID (`ActivityPointer.SeriesId`).  
+2. Individual recurring appointment instances are created based on the recurrence information and stored as `Appointment` records. These appointment objects are associated with the parent recurring appointment series using the `Appointment.SeriesId` property and have the same value as the parent recurring appointment series ID (`ActivityPointer.SeriesId`).  
   
-     The value of the `Appointment.InstanceTypeCode` property is set to **Recurring Instance** (picklist value 2) for these appointment objects.  
+    The value of the `Appointment.InstanceTypeCode` property is set to **Recurring Instance** (picklist value 2) for these appointment objects.  
   
-    > [!NOTE]
-    >  Recurring appointment instances are created based on the expansion model and the parameters that define it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Recurring Appointment Partial Expansion Model](recurring-appointment-partial-expansion-model.md).  
+   > [!NOTE]
+   >  Recurring appointment instances are created based on the expansion model and the parameters that define it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Recurring Appointment Partial Expansion Model](recurring-appointment-partial-expansion-model.md).  
   
- For sample code that demonstrates how to create a recurring appointment series, see [Sample: Create a Recurring Appointment](sample-create-retrieve-update-delete-recurring-appointment.md).  
+   For sample code that demonstrates how to create a recurring appointment series, see [Sample: Create a Recurring Appointment](sample-create-retrieve-update-delete-recurring-appointment.md).  
   
 <a name="bkmk_createinstance"></a>   
 ## Create a recurring appointment instance  

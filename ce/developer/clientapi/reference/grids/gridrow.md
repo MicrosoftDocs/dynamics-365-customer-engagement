@@ -29,9 +29,9 @@ var gridRow = myRows.get(arg);
 
 ## Methods
 
-|Name|Description|Available for|
-|--|--|--|
-|[getData](gridrow/getData.md)|[!INCLUDE[gridrow/includes/getData-description.md](gridrow/includes/getData-description.md)]|Read-only and editable grids|
+|             Name              |                                         Description                                          |        Available for         |
+|-------------------------------|----------------------------------------------------------------------------------------------|------------------------------|
+| [getData](gridrow/getData.md) | [!INCLUDE[gridrow/includes/getData-description.md](gridrow/includes/getData-description.md)] | Read-only and editable grids |
 
 ### Related topics
 

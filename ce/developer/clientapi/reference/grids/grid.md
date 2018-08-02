@@ -19,11 +19,11 @@ Grid is returned by the **gridContext**.[getGrid](gridcontrol/getGrid.md) method
 
 ## Methods
 
-|Name|Description|Available for|
-|--|--|--|
-|[getRows](grid/getRows.md)|[!INCLUDE[grid/includes/getRows-description.md](grid/includes/getRows-description.md)]|Read-only and editable grids|
-|[getSelectedRows](grid/getSelectedRows.md)|[!INCLUDE[grid/includes/getSelectedRows-description.md](grid/includes/getSelectedRows-description.md)]|Read-only and editable grids|
-|[getTotalRecordCount](grid/getTotalRecordCount.md)|[!INCLUDE[grid/includes/getTotalRecordCount-description.md](grid/includes/getTotalRecordCount-description.md)]|Read-only and editable grids|
+|                        Name                        |                                                  Description                                                   |        Available for         |
+|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------|------------------------------|
+|             [getRows](grid/getRows.md)             |             [!INCLUDE[grid/includes/getRows-description.md](grid/includes/getRows-description.md)]             | Read-only and editable grids |
+|     [getSelectedRows](grid/getSelectedRows.md)     |     [!INCLUDE[grid/includes/getSelectedRows-description.md](grid/includes/getSelectedRows-description.md)]     | Read-only and editable grids |
+| [getTotalRecordCount](grid/getTotalRecordCount.md) | [!INCLUDE[grid/includes/getTotalRecordCount-description.md](grid/includes/getTotalRecordCount-description.md)] | Read-only and editable grids |
 
 ### Related topics
 

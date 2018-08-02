@@ -747,6 +747,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_socialprofile_cases"></a> socialprofile_cases
 
 Same as incident entity [socialprofile_cases](incident.md#BKMK_socialprofile_cases) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incident|
@@ -761,6 +762,7 @@ Same as incident entity [socialprofile_cases](incident.md#BKMK_socialprofile_cas
 ### <a name="BKMK_SocialProfile_ProcessSessions"></a> SocialProfile_ProcessSessions
 
 Same as processsession entity [SocialProfile_ProcessSessions](processsession.md#BKMK_SocialProfile_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -775,6 +777,7 @@ Same as processsession entity [SocialProfile_ProcessSessions](processsession.md#
 ### <a name="BKMK_SocialProfile_DuplicateBaseRecord"></a> SocialProfile_DuplicateBaseRecord
 
 Same as duplicaterecord entity [SocialProfile_DuplicateBaseRecord](duplicaterecord.md#BKMK_SocialProfile_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -789,6 +792,7 @@ Same as duplicaterecord entity [SocialProfile_DuplicateBaseRecord](duplicatereco
 ### <a name="BKMK_SocialProfile_DuplicateMatchingRecord"></a> SocialProfile_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [SocialProfile_DuplicateMatchingRecord](duplicaterecord.md#BKMK_SocialProfile_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -803,6 +807,7 @@ Same as duplicaterecord entity [SocialProfile_DuplicateMatchingRecord](duplicate
 ### <a name="BKMK_Socialprofile_SocialActivities"></a> Socialprofile_SocialActivities
 
 Same as socialactivity entity [Socialprofile_SocialActivities](socialactivity.md#BKMK_Socialprofile_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -817,6 +822,7 @@ Same as socialactivity entity [Socialprofile_SocialActivities](socialactivity.md
 ### <a name="BKMK_socialprofile_principalobjectattributeaccess"></a> socialprofile_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [socialprofile_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_socialprofile_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -831,6 +837,7 @@ Same as principalobjectattributeaccess entity [socialprofile_principalobjectattr
 ### <a name="BKMK_SocialProfile_SyncErrors"></a> SocialProfile_SyncErrors
 
 Same as syncerror entity [SocialProfile_SyncErrors](syncerror.md#BKMK_SocialProfile_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -845,6 +852,7 @@ Same as syncerror entity [SocialProfile_SyncErrors](syncerror.md#BKMK_SocialProf
 ### <a name="BKMK_socialprofile_connections2"></a> socialprofile_connections2
 
 Same as connection entity [socialprofile_connections2](connection.md#BKMK_socialprofile_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -859,6 +867,7 @@ Same as connection entity [socialprofile_connections2](connection.md#BKMK_social
 ### <a name="BKMK_SocialProfile_AsyncOperations"></a> SocialProfile_AsyncOperations
 
 Same as asyncoperation entity [SocialProfile_AsyncOperations](asyncoperation.md#BKMK_SocialProfile_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -873,6 +882,7 @@ Same as asyncoperation entity [SocialProfile_AsyncOperations](asyncoperation.md#
 ### <a name="BKMK_socialprofile_connections1"></a> socialprofile_connections1
 
 Same as connection entity [socialprofile_connections1](connection.md#BKMK_socialprofile_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|

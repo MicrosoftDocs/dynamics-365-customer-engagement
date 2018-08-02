@@ -8,16 +8,16 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
-author: "jimholtz"
+  - Dynamics 365 (online)
+  - Dynamics 365 (on-premises)
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
+author: "mduelae"
 ms.assetid: 95355f53-72b3-4ca7-8d10-ed5d19c5ef18
 caps.latest.revision: 27
 ms.author: "mkaur"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Use Cortana voice commands in Dynamics 365 for phones
 

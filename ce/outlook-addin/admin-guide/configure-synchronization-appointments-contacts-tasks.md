@@ -8,12 +8,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 (online)
 ms.assetid: 7b6ace06-0cc2-4a04-a2bd-5d229acb6a00
 caps.latest.revision: 21
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "mduelae"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Configure synchronization for appointments, contacts, and tasks
 By default, some synchronization between [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and Outlook for Dynamics 365 is disabled so organizations can control what gets synced according to their business requirements. Dynamics 365 admins can enable synchronization using **Settings** > **Administration** > **System Settings** > **Synchronization**.  
@@ -32,13 +32,13 @@ By default, some synchronization between [!INCLUDE[pn_microsoftcrm](../../includ
   
  Users can attach documents, pictures, recordings, etc. to the appointments they create in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] web application or [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. By default, appointment attachment synchronization is disabled. To enable:  
   
-1.  [!INCLUDE[proc_settings_administration](../../includes/proc-settings-administration.md)]  
+1. [!INCLUDE[proc_settings_administration](../../includes/proc-settings-administration.md)]  
   
-2.  Choose **System Settings**, then choose **Synchronization**.  
+2. Choose **System Settings**, then choose **Synchronization**.  
   
-3.  Choose **Synchronize appointment attachments with Outlook or Exchange**  
+3. Choose **Synchronize appointment attachments with Outlook or Exchange**  
   
- **Considerations**  
+   **Considerations**  
   
 -   When you disable attachment synchronization, the attachments will not appear in appointments in Dynamics 365 but will remain in Dynamics 365 for Outlook appointments.  
   
@@ -65,7 +65,7 @@ By default, some synchronization between [!INCLUDE[pn_microsoftcrm](../../includ
   
 > [!WARNING]
 >  Enabling this option can cause data loss if you have existing data. This is due to the remapping of the attributes for existing tracked contacts. We recommend you test this option prior to deployment to understand how the re-mapping affects your environment and your data. In most cases, you should have the full data in one side (normally in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]) and have them sync to the other side (normally [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]).  
->   
+> 
 >  [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Which fields can be synchronized between Dynamics 365 and Outlook?](which-fields-synchronized.md)
   
 ## Enable synchronization for tasks that are assigned in Outlook  
@@ -75,13 +75,13 @@ By default, some synchronization between [!INCLUDE[pn_microsoftcrm](../../includ
   
  By default, task synchronization is disabled. User created tasks in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] are not synchronized with the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] web application. To enable:  
   
-1.  [!INCLUDE[proc_settings_administration](../../includes/proc-settings-administration.md)]  
+1. [!INCLUDE[proc_settings_administration](../../includes/proc-settings-administration.md)]  
   
-2.  Choose **System Settings**, then choose **Synchronization**.  
+2. Choose **System Settings**, then choose **Synchronization**.  
   
-3.  Choose **Synchronize tasks that are assigned in Outlook**  
+3. Choose **Synchronize tasks that are assigned in Outlook**  
   
- **Considerations**  
+   **Considerations**  
   
 -   Recurring task synchronization is not supported. When users synchronize recurring tasks, the tasks do not synch.  
   

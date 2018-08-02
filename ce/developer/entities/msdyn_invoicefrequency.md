@@ -572,6 +572,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_invoicefrequency_SyncErrors"></a> msdyn_invoicefrequency_SyncErrors
 
 Same as syncerror entity [msdyn_invoicefrequency_SyncErrors](syncerror.md#BKMK_msdyn_invoicefrequency_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -586,6 +587,7 @@ Same as syncerror entity [msdyn_invoicefrequency_SyncErrors](syncerror.md#BKMK_m
 ### <a name="BKMK_msdyn_invoicefrequency_DuplicateMatchingRecord"></a> msdyn_invoicefrequency_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_invoicefrequency_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_invoicefrequency_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -600,6 +602,7 @@ Same as duplicaterecord entity [msdyn_invoicefrequency_DuplicateMatchingRecord](
 ### <a name="BKMK_msdyn_invoicefrequency_DuplicateBaseRecord"></a> msdyn_invoicefrequency_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_invoicefrequency_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_invoicefrequency_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -614,6 +617,7 @@ Same as duplicaterecord entity [msdyn_invoicefrequency_DuplicateBaseRecord](dupl
 ### <a name="BKMK_msdyn_invoicefrequency_AsyncOperations"></a> msdyn_invoicefrequency_AsyncOperations
 
 Same as asyncoperation entity [msdyn_invoicefrequency_AsyncOperations](asyncoperation.md#BKMK_msdyn_invoicefrequency_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -628,6 +632,7 @@ Same as asyncoperation entity [msdyn_invoicefrequency_AsyncOperations](asyncoper
 ### <a name="BKMK_msdyn_invoicefrequency_MailboxTrackingFolders"></a> msdyn_invoicefrequency_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_invoicefrequency_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_invoicefrequency_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -642,6 +647,7 @@ Same as mailboxtrackingfolder entity [msdyn_invoicefrequency_MailboxTrackingFold
 ### <a name="BKMK_msdyn_invoicefrequency_UserEntityInstanceDatas"></a> msdyn_invoicefrequency_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_invoicefrequency_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_invoicefrequency_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -656,6 +662,7 @@ Same as userentityinstancedata entity [msdyn_invoicefrequency_UserEntityInstance
 ### <a name="BKMK_msdyn_invoicefrequency_ProcessSession"></a> msdyn_invoicefrequency_ProcessSession
 
 Same as processsession entity [msdyn_invoicefrequency_ProcessSession](processsession.md#BKMK_msdyn_invoicefrequency_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -670,6 +677,7 @@ Same as processsession entity [msdyn_invoicefrequency_ProcessSession](processses
 ### <a name="BKMK_msdyn_invoicefrequency_BulkDeleteFailures"></a> msdyn_invoicefrequency_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_invoicefrequency_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_invoicefrequency_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -684,6 +692,7 @@ Same as bulkdeletefailure entity [msdyn_invoicefrequency_BulkDeleteFailures](bul
 ### <a name="BKMK_msdyn_invoicefrequency_PrincipalObjectAttributeAccesses"></a> msdyn_invoicefrequency_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_invoicefrequency_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_invoicefrequency_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -698,6 +707,7 @@ Same as principalobjectattributeaccess entity [msdyn_invoicefrequency_PrincipalO
 ### <a name="BKMK_msdyn_msdyn_invoicefrequency_msdyn_invoicefrequencydetail_invoicefrequency"></a> msdyn_msdyn_invoicefrequency_msdyn_invoicefrequencydetail_invoicefrequency
 
 Same as msdyn_invoicefrequencydetail entity [msdyn_msdyn_invoicefrequency_msdyn_invoicefrequencydetail_invoicefrequency](msdyn_invoicefrequencydetail.md#BKMK_msdyn_msdyn_invoicefrequency_msdyn_invoicefrequencydetail_invoicefrequency) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_invoicefrequencydetail|
@@ -712,6 +722,7 @@ Same as msdyn_invoicefrequencydetail entity [msdyn_msdyn_invoicefrequency_msdyn_
 ### <a name="BKMK_msdyn_msdyn_invoicefrequency_msdyn_projectparameter_invoicefrequency"></a> msdyn_msdyn_invoicefrequency_msdyn_projectparameter_invoicefrequency
 
 Same as msdyn_projectparameter entity [msdyn_msdyn_invoicefrequency_msdyn_projectparameter_invoicefrequency](msdyn_projectparameter.md#BKMK_msdyn_msdyn_invoicefrequency_msdyn_projectparameter_invoicefrequency) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projectparameter|
@@ -726,6 +737,7 @@ Same as msdyn_projectparameter entity [msdyn_msdyn_invoicefrequency_msdyn_projec
 ### <a name="BKMK_msdyn_msdyn_invoicefrequency_quotedetail_invoicefrequency"></a> msdyn_msdyn_invoicefrequency_quotedetail_invoicefrequency
 
 Same as quotedetail entity [msdyn_msdyn_invoicefrequency_quotedetail_invoicefrequency](quotedetail.md#BKMK_msdyn_msdyn_invoicefrequency_quotedetail_invoicefrequency) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quotedetail|
@@ -740,6 +752,7 @@ Same as quotedetail entity [msdyn_msdyn_invoicefrequency_quotedetail_invoicefreq
 ### <a name="BKMK_msdyn_msdyn_invoicefrequency_salesorderdetail_invoicefrequency"></a> msdyn_msdyn_invoicefrequency_salesorderdetail_invoicefrequency
 
 Same as salesorderdetail entity [msdyn_msdyn_invoicefrequency_salesorderdetail_invoicefrequency](salesorderdetail.md#BKMK_msdyn_msdyn_invoicefrequency_salesorderdetail_invoicefrequency) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|salesorderdetail|

@@ -20,39 +20,40 @@ ms.author: "jdaly"
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 This sample demonstrates how to perform basic CRUD (Create, Retrieve, Update, and Delete) and association and dissociation operations on Dynamics 365 entity instances, using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API.  
-  
+
 > [!NOTE]
 >  This sample implements the Dynamics 365 operations and console output detailed in [Web API Basic Operations Sample](web-api-basic-operations-sample.md) and uses the common C# constructs described in [Web API Samples (C#)](web-api-samples-csharp.md).  
-  
+
 <a name="bkmk_prerequisites"></a>   
 ## Prerequisites  
  Prerequisites for all Dynamics 365 Web API C# samples are detailed in the [Prerequisites](web-api-samples-csharp.md#bkmk_prerequisites) section of the parent topic [Web API Samples (C#)](web-api-samples-csharp.md).  
-  
+
 <a name="bkmk_runSample"></a>   
 ## Run this sample  
  First go to [Microsoft CRM Web API Basic Operations Sample (C#)](http://go.microsoft.com/fwlink/p/?LinkId=824042), download the sample archive file, Microsoft CRM Web API Basic Operations Sample (CS).zip, and extract its contents into a local folder. This folder should contain the following files:  
-  
-|File|Purpose/Description|  
-|----------|--------------------------|  
-|Program.cs|Contains the primary source code for this sample.|  
-|App.config|The application configuration file, which contains placeholder Dynamics 365 server connection information.|  
-|Authentication.cs<br />Configuration.cs<br />Exceptions.cs|Located in the folder **Web API Helper Code**, these files comprise the supplemental library detailed in [Use the Dynamics 365 Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md).|  
-|BasicOperations.sln <br />BasicOperations.csproj <br />Packages.config <br />AssemblyInfo.cs|The standard [!INCLUDE[pn_microsoft_visual_studio_2015](../../includes/pn-microsoft-visual-studio-2015.md)] solution, project, NuGet package configuration, and assembly information files for this sample.|  
-  
+
+
+|                                             File                                             |                                                                                                    Purpose/Description                                                                                                    |
+|----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                          Program.cs                                          |                                                                                     Contains the primary source code for this sample.                                                                                     |
+|                                          App.config                                          |                                                        The application configuration file, which contains placeholder Dynamics 365 server connection information.                                                         |
+|                  Authentication.cs<br />Configuration.cs<br />Exceptions.cs                  | Located in the folder **Web API Helper Code**, these files comprise the supplemental library detailed in [Use the Dynamics 365 Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md). |
+| BasicOperations.sln <br />BasicOperations.csproj <br />Packages.config <br />AssemblyInfo.cs |        The standard [!INCLUDE[pn_microsoft_visual_studio_2015](../../includes/pn-microsoft-visual-studio-2015.md)] solution, project, NuGet package configuration, and assembly information files for this sample.        |
+
  Next, use the following procedure to run this sample.  
-  
-1.  Locate and double-click on the solution file, BasicOperations.sln, to load the solution into [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)]. Build the **BasicOperations** solution.  This should automatically download and install all the required NuGet packages that are either missing or need to be updated.  
-  
-2.  Edit the application configuration file, App.config, to specify connection information for your Dynamics 365 server.  For more information, see [Helper code: Configuration classes](web-api-helper-code-configuration-classes.md).  
-  
-3.  Run the **BasicOperations** project from within [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].  All sample solutions are configured to run in debug mode by default.  
-  
+
+1. Locate and double-click on the solution file, BasicOperations.sln, to load the solution into [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)]. Build the **BasicOperations** solution.  This should automatically download and install all the required NuGet packages that are either missing or need to be updated.  
+
+2. Edit the application configuration file, App.config, to specify connection information for your Dynamics 365 server.  For more information, see [Helper code: Configuration classes](web-api-helper-code-configuration-classes.md).  
+
+3. Run the **BasicOperations** project from within [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].  All sample solutions are configured to run in debug mode by default.  
+
 <a name="bkmk_codeListing"></a>   
 ## Code listing  
  The most current source for this file  is found in sample download package.  
-  
+
  `Program.cs`  
-  
+
 ```csharp  
 using Microsoft.Crm.Sdk.Samples.HelperCode;  
 using Newtonsoft.Json;  
@@ -65,7 +66,7 @@ using System.Net.Http.Headers;
 using System.Threading.Tasks;  
 using System.Linq;  
 using System.Net;  
-  
+
 namespace Microsoft.Crm.Sdk.Samples  
 {  
  /// <summary>  
@@ -90,13 +91,13 @@ namespace Microsoft.Crm.Sdk.Samples
   {  
    return string.Format("v{0}/", webAPIVersion.ToString(2));  
   }  
-  
+
   public async Task getWebAPIVersion()  
   {  
-  
+
    HttpRequestMessage RetrieveVersionRequest =  
      new HttpRequestMessage(HttpMethod.Get, getVersionedWebAPIPath() + "RetrieveVersion");  
-  
+
    HttpResponseMessage RetrieveVersionResponse =  
        await httpClient.SendAsync(RetrieveVersionRequest);  
    if (RetrieveVersionResponse.StatusCode == HttpStatusCode.OK)  //200  
@@ -112,12 +113,12 @@ namespace Microsoft.Crm.Sdk.Samples
         RetrieveVersionResponse.ReasonPhrase);  
     throw new CrmHttpResponseException(RetrieveVersionResponse.Content);  
    }  
-  
+
   }  
-  
+
   //Centralized collection of entity URIs used to manage lifetimes.  
   List<string> entityUris = new List<string>();  
-  
+
   //A set of variables to hold the state of and URIs for primary entity instances.  
   private JObject contact1 = new JObject(), contact2 = new JObject(),  
       retrievedContact1, retrievedContact2;  
@@ -125,7 +126,7 @@ namespace Microsoft.Crm.Sdk.Samples
   private JObject account1 = new JObject(), account2 = new JObject(),  
       retrievedAccount1, retrievedAccount2;  
   private string account1Uri, account2Uri;  
-  
+
   /// <summary>    
   /// Demonstrates basic create, update, and retrieval operations for entity instances and   
   ///  single properties.    
@@ -139,7 +140,7 @@ namespace Microsoft.Crm.Sdk.Samples
                          //Local representation of CRM Contact instance  
    contact1.Add("firstname", "Peter");  
    contact1.Add("lastname", "Cambel");  
-  
+
    HttpRequestMessage createRequest1 =  
        new HttpRequestMessage(HttpMethod.Post, getVersionedWebAPIPath() + "contacts");  
    createRequest1.Content = new StringContent(contact1.ToString(),  
@@ -161,13 +162,13 @@ namespace Microsoft.Crm.Sdk.Samples
         createResponse1.ReasonPhrase);  
     throw new CrmHttpResponseException(createResponse1.Content);  
    }  
-  
+
    //Add additional property values to the existing contact.  As a general   
    // rule, only transmit a minimum working set of properties.  
    JObject contact1Add = new JObject();  
    contact1Add.Add("annualincome", 80000);  
    contact1Add.Add("jobtitle", "Junior Developer");  
-  
+
    HttpRequestMessage updateRequest1 = new HttpRequestMessage(  
        new HttpMethod("PATCH"), contact1Uri);  
    updateRequest1.Content = new StringContent(contact1Add.ToString(),  
@@ -186,7 +187,7 @@ namespace Microsoft.Crm.Sdk.Samples
         updateResponse1.ReasonPhrase);  
     throw new CrmHttpResponseException(updateResponse1.Content);  
    }  
-  
+
    //Retrieve the contact with its explicitly initialized properties.  
    //fullname is a read-only calculated value.  
    queryOptions = "?$select=fullname,annualincome,jobtitle,description";  
@@ -210,7 +211,7 @@ namespace Microsoft.Crm.Sdk.Samples
         retrieveResponse1.ReasonPhrase);  
     throw new CrmHttpResponseException(retrieveResponse1.Content);  
    }  
-  
+
    //Modify specific properties and then update entity instance.  
    JObject contact1Update = new JObject();  
    contact1Update.Add("jobtitle", "Senior Developer");  
@@ -235,7 +236,7 @@ namespace Microsoft.Crm.Sdk.Samples
         updateResponse2.ReasonPhrase);  
     throw new CrmHttpResponseException(updateResponse2.Content);  
    }  
-  
+
    // Change just one property   
    string phone1 = "555-0105";  
    // Create unique identifier by appending property name   
@@ -243,7 +244,7 @@ namespace Microsoft.Crm.Sdk.Samples
            string.Format("{0}/{1}", contact1Uri, "telephone1");  
    JObject phoneValue = new JObject();  
    phoneValue.Add("value", phone1);   //Updates must use keyword "value".   
-  
+
    HttpRequestMessage updateRequest3 =  
        new HttpRequestMessage(HttpMethod.Put, contactPhoneUri);  
    updateRequest3.Content = new StringContent(phoneValue.ToString(),  
@@ -261,7 +262,7 @@ namespace Microsoft.Crm.Sdk.Samples
         updateResponse3.ReasonPhrase);  
     throw new CrmHttpResponseException(updateResponse3.Content);  
    }  
-  
+
    //Now retrieve just the single property.  
    JObject retrievedProperty1;  
    HttpResponseMessage retrieveResponse2 =  
@@ -279,11 +280,11 @@ namespace Microsoft.Crm.Sdk.Samples
         retrieveResponse2.ReasonPhrase);  
     throw new CrmHttpResponseException(retrieveResponse2.Content);  
    }  
-  
+
    //The following capabilities require version 8.2 or higher  
    if (webAPIVersion >= Version.Parse("8.2"))  
    {  
-  
+
     //Alternately, starting with December 2016 update (v8.2), a contact instance can be   
     //created and its properties returned in one operation by using a   
     //'Prefer: return=representation' header. Note that a 201 (Created) success status   
@@ -295,14 +296,14 @@ namespace Microsoft.Crm.Sdk.Samples
     contactAlt.Add("jobtitle", "Junior Developer");  
     contactAlt.Add("annualincome", 80000);  
     contactAlt.Add("telephone1", "555-0110");  
-  
+
     queryOptions = "?$select=fullname,annualincome,jobtitle,contactid";  
     HttpRequestMessage createRequestAlt =  
         new HttpRequestMessage(HttpMethod.Post, getVersionedWebAPIPath() + "contacts" + queryOptions);  
     createRequestAlt.Content = new StringContent(contactAlt.ToString(),  
         Encoding.UTF8, "application/json");  
     createRequestAlt.Headers.Add("Prefer", "return=representation");  
-  
+
     HttpResponseMessage createResponseAlt = await httpClient.SendAsync(createRequestAlt);  
     if (createResponseAlt.StatusCode == HttpStatusCode.Created)  //201  
     {  
@@ -326,24 +327,24 @@ namespace Microsoft.Crm.Sdk.Samples
          createResponseAlt.ReasonPhrase);  
      throw new CrmHttpResponseException(createResponseAlt.Content);  
     }  
-  
+
     //Similarly, the December 2016 update (v8.2) also enables returning selected properties     
     //after an update operation (PATCH), with the 'Prefer: return=representation' header.  
     //Here a success is indicated by 200 (OK) instead of 204 (No content).  
-  
+
     //Since we're reusing a local JObject, reinitialize it to remove extraneous properties.  
     contactAlt.RemoveAll();  
     contactAlt["annualincome"] = 95000;  
     contactAlt["jobtitle"] = "Senior Developer";  
     contactAlt["description"] = "MS Azure and Dynamics 365 Specialist";  
-  
+
     queryOptions = "?$select=fullname,annualincome,jobtitle";  
     HttpRequestMessage updateRequestAlt = new HttpRequestMessage(  
         new HttpMethod("PATCH"), contactAltUri + queryOptions);  
     updateRequestAlt.Content = new StringContent(contactAlt.ToString(),  
         Encoding.UTF8, "application/json");  
     updateRequestAlt.Headers.Add("Prefer", "return=representation");  
-  
+
     HttpResponseMessage updateResponseAlt = await httpClient.SendAsync(updateRequestAlt);  
     if (updateResponseAlt.StatusCode == HttpStatusCode.OK) //200  
     {  
@@ -376,7 +377,7 @@ namespace Microsoft.Crm.Sdk.Samples
    account1.Add("name", "Contoso Ltd");  
    account1.Add("telephone1", "555-5555");  
    account1.Add("primarycontactid@odata.bind", contact1Uri);  
-  
+
    HttpRequestMessage createRequest2 =  
        new HttpRequestMessage(HttpMethod.Post, getVersionedWebAPIPath() + "accounts");  
    createRequest2.Content = new StringContent(account1.ToString(),  
@@ -396,7 +397,7 @@ namespace Microsoft.Crm.Sdk.Samples
         createResponse2.ReasonPhrase);  
     throw new CrmHttpResponseException(createResponse2.Content);  
    }  
-  
+
    //Retrieve account name and primary contact info  
    queryOptions =  
      "?$select=name,&$expand=primarycontactid($select=fullname,jobtitle,annualincome)";  
@@ -422,7 +423,7 @@ namespace Microsoft.Crm.Sdk.Samples
     throw new CrmHttpResponseException(retrieveResponse3.Content);  
    }  
   }  
-  
+
   /// <summary>    
   /// Demonstrates creation of entity instance and related entities in a single operation.    
   /// </summary>  
@@ -436,7 +437,7 @@ namespace Microsoft.Crm.Sdk.Samples
                          //    Accounts   
                          //       |---[Primary] Contact (N-to-1)  
                          //              |---Tasks (1-to-N)  
-  
+
    //Build the Account object inside-out, starting with most nested type(s)  
    JArray tasks = new JArray();  
    JObject task1 = new JObject();  
@@ -454,18 +455,18 @@ namespace Microsoft.Crm.Sdk.Samples
    task3.Add("description", "Train team on making our new blended coffee");  
    task3.Add("scheduledstart", DateTimeOffset.Parse("6/1/2016"));  
    tasks.Add(task3);  
-  
+
    contact2.Add("firstname", "Susie");  
    contact2.Add("lastname", "Curtis");  
    contact2.Add("jobtitle", "Coffee Master");  
    contact2.Add("annualincome", 48000);  
    //Add related tasks using corresponding navigation property  
    contact2.Add("Contact_Tasks", tasks);  
-  
+
    account2.Add("name", "Fourth Coffee");  
    //Add related contacts using corresponding navigation property  
    account2.Add("primarycontactid", contact2);  
-  
+
    HttpRequestMessage createRequest3 =  
        new HttpRequestMessage(HttpMethod.Post, getVersionedWebAPIPath() + "accounts");  
    createRequest3.Content = new StringContent(account2.ToString(),  
@@ -486,7 +487,7 @@ namespace Microsoft.Crm.Sdk.Samples
         createResponse3.ReasonPhrase);  
     throw new CrmHttpResponseException(createResponse3.Content);  
    }  
-  
+
    //Retrieve account, primary contact info, and assigned tasks for contact.  
    //CRM only supports querying-by-expansion one level deep, so first query   
    // account-primary contact.  
@@ -546,7 +547,7 @@ namespace Microsoft.Crm.Sdk.Samples
     throw new CrmHttpResponseException(retrieveResponse5.Content);  
    }  
   }  
-  
+
   /// <summary>    
   /// Demonstrates associating and disassociating of existing entity instances.   
   /// </summary>  
@@ -600,7 +601,7 @@ namespace Microsoft.Crm.Sdk.Samples
         " for reason: {0}.", retrieveResponse6.ReasonPhrase);  
     throw new CrmHttpResponseException(retrieveResponse6.Content);  
    }  
-  
+
    //Dissociate the contact from the account.  For a collection-valued   
    // navigation property, must append URI of referenced entity.  
    string dis1Uri = navUri1 + "?$id=" + contact1Uri;  
@@ -608,7 +609,7 @@ namespace Microsoft.Crm.Sdk.Samples
    // relationship, using the single-valued navigation ref, located in   
    // the contact 'Peter Cambel'.  This dissociation URI has a simpler form:  
    // [Org URI]/api/data/v9.0/contacts([contactid#])/parentcustomerid_account/$ref   
-  
+
    HttpResponseMessage disassocResponse1 =  
        await httpClient.DeleteAsync(dis1Uri);  
    if (disassocResponse1.StatusCode == HttpStatusCode.NoContent)  
@@ -622,7 +623,7 @@ namespace Microsoft.Crm.Sdk.Samples
         disassocResponse1.ReasonPhrase);  
     throw new CrmHttpResponseException(disassocResponse1.Content);  
    }  
-  
+
    //Associate an opportunity to a competitor, an N-to-N relationship.   
    //First, create the required entity instances.  
    string comp1Uri, oppor1Uri;  
@@ -633,7 +634,7 @@ namespace Microsoft.Crm.Sdk.Samples
    JObject oppor1 = new JObject();  
    oppor1["name"] = "River rafting adventure";  
    oppor1["description"] = "Sales team on a river-rafting offsite and team building";  
-  
+
    HttpRequestMessage createRequest4 =  
        new HttpRequestMessage(HttpMethod.Post, getVersionedWebAPIPath() + "competitors");  
    createRequest4.Content = new StringContent(comp1.ToString(),  
@@ -653,7 +654,7 @@ namespace Microsoft.Crm.Sdk.Samples
         createResponse4.ReasonPhrase);  
     throw new CrmHttpResponseException(createResponse4.Content);  
    }  
-  
+
    HttpRequestMessage createRequest5 =  
        new HttpRequestMessage(HttpMethod.Post, getVersionedWebAPIPath() + "opportunities");  
    createRequest5.Content = new StringContent(oppor1.ToString(),  
@@ -673,7 +674,7 @@ namespace Microsoft.Crm.Sdk.Samples
         createResponse5.ReasonPhrase);  
     throw new CrmHttpResponseException(createResponse5.Content);  
    }  
-  
+
    //Associate opportunity to competitor via opportunitycompetitors_association.  
    // navigation property.  
    JObject rel2 = new JObject();  
@@ -698,7 +699,7 @@ namespace Microsoft.Crm.Sdk.Samples
         "entities for reason: {0}.", assocResponse2.ReasonPhrase);  
     throw new CrmHttpResponseException(assocResponse2.Content);  
    }  
-  
+
    //Retrieve all opportunities for competitor 'Adventure Works'.  
    JObject retrievedOpporList1;  
    //Select only 'name' to limit returned competitor properties.   
@@ -726,7 +727,7 @@ namespace Microsoft.Crm.Sdk.Samples
         retrieveResponse7.ReasonPhrase);  
     throw new CrmHttpResponseException(retrieveResponse7.Content);  
    }  
-  
+
    //Dissociate opportunity from competitor.    
    string dis2Uri = navUri2 + "?$id=" + comp1Uri;  
    HttpResponseMessage disassocResponse2 =  
@@ -744,7 +745,7 @@ namespace Microsoft.Crm.Sdk.Samples
     throw new CrmHttpResponseException(disassocResponse1.Content);  
    }  
   }  
-  
+
   /// <summary>   
   ///Provides the high-level logical flow of the program, as well as a section   
   /// containing cleanup code.  
@@ -772,7 +773,7 @@ namespace Microsoft.Crm.Sdk.Samples
     answer = answer.Trim();  
     if (!(answer.StartsWith("y") || answer.StartsWith("Y") || answer == String.Empty))  
     { entityUris.Clear(); }  
-  
+
     HttpResponseMessage deleteResponse1;  
     int successCnt = 0, notFoundCnt = 0, failCnt = 0;  
     HttpContent lastBadResponseContent = null;  
@@ -808,7 +809,7 @@ namespace Microsoft.Crm.Sdk.Samples
     #endregion Section 5: Delete sample entities  
    }  
   }  
-  
+
   static public void Main(string[] args)  
   {  
    BasicOperations app = new BasicOperations();  
@@ -827,7 +828,7 @@ namespace Microsoft.Crm.Sdk.Samples
     Console.ReadLine();  
    }  
   }  
-  
+
   /// <summary>  
   /// Obtains the connection information from the application's configuration file, then   
   /// uses this info to connect to the specified CRM service.  
@@ -856,7 +857,7 @@ namespace Microsoft.Crm.Sdk.Samples
    httpClient.DefaultRequestHeaders.Accept.Add(  
        new MediaTypeWithQualityHeaderValue("application/json"));  
   }  
-  
+
   /// <summary> Helper method to display caught exceptions </summary>  
   private static void DisplayException(Exception ex)  
   {  
@@ -870,9 +871,9 @@ namespace Microsoft.Crm.Sdk.Samples
   }  
  }  
 }  
-  
+
 ```  
-  
+
 ### See also  
  [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Create an entity using the Web API](create-entity-web-api.md)   

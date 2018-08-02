@@ -710,6 +710,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_timegroupdetail_ActivityPointers"></a> msdyn_timegroupdetail_ActivityPointers
 
 Same as activitypointer entity [msdyn_timegroupdetail_ActivityPointers](activitypointer.md#BKMK_msdyn_timegroupdetail_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -724,6 +725,7 @@ Same as activitypointer entity [msdyn_timegroupdetail_ActivityPointers](activity
 ### <a name="BKMK_msdyn_timegroupdetail_msdyn_bookingalerts"></a> msdyn_timegroupdetail_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_timegroupdetail_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_timegroupdetail_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -738,6 +740,7 @@ Same as msdyn_bookingalert entity [msdyn_timegroupdetail_msdyn_bookingalerts](ms
 ### <a name="BKMK_msdyn_timegroupdetail_SyncErrors"></a> msdyn_timegroupdetail_SyncErrors
 
 Same as syncerror entity [msdyn_timegroupdetail_SyncErrors](syncerror.md#BKMK_msdyn_timegroupdetail_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -752,6 +755,7 @@ Same as syncerror entity [msdyn_timegroupdetail_SyncErrors](syncerror.md#BKMK_ms
 ### <a name="BKMK_msdyn_timegroupdetail_DuplicateMatchingRecord"></a> msdyn_timegroupdetail_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_timegroupdetail_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_timegroupdetail_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -766,6 +770,7 @@ Same as duplicaterecord entity [msdyn_timegroupdetail_DuplicateMatchingRecord](d
 ### <a name="BKMK_msdyn_timegroupdetail_DuplicateBaseRecord"></a> msdyn_timegroupdetail_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_timegroupdetail_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_timegroupdetail_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -780,6 +785,7 @@ Same as duplicaterecord entity [msdyn_timegroupdetail_DuplicateBaseRecord](dupli
 ### <a name="BKMK_msdyn_timegroupdetail_SharePointDocumentLocations"></a> msdyn_timegroupdetail_SharePointDocumentLocations
 
 Same as sharepointdocumentlocation entity [msdyn_timegroupdetail_SharePointDocumentLocations](sharepointdocumentlocation.md#BKMK_msdyn_timegroupdetail_SharePointDocumentLocations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocumentlocation|
@@ -794,6 +800,7 @@ Same as sharepointdocumentlocation entity [msdyn_timegroupdetail_SharePointDocum
 ### <a name="BKMK_msdyn_timegroupdetail_SharePointDocuments"></a> msdyn_timegroupdetail_SharePointDocuments
 
 Same as sharepointdocument entity [msdyn_timegroupdetail_SharePointDocuments](sharepointdocument.md#BKMK_msdyn_timegroupdetail_SharePointDocuments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocument|
@@ -808,6 +815,7 @@ Same as sharepointdocument entity [msdyn_timegroupdetail_SharePointDocuments](sh
 ### <a name="BKMK_msdyn_timegroupdetail_AsyncOperations"></a> msdyn_timegroupdetail_AsyncOperations
 
 Same as asyncoperation entity [msdyn_timegroupdetail_AsyncOperations](asyncoperation.md#BKMK_msdyn_timegroupdetail_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -822,6 +830,7 @@ Same as asyncoperation entity [msdyn_timegroupdetail_AsyncOperations](asyncopera
 ### <a name="BKMK_msdyn_timegroupdetail_MailboxTrackingFolders"></a> msdyn_timegroupdetail_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_timegroupdetail_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_timegroupdetail_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -836,6 +845,7 @@ Same as mailboxtrackingfolder entity [msdyn_timegroupdetail_MailboxTrackingFolde
 ### <a name="BKMK_msdyn_timegroupdetail_UserEntityInstanceDatas"></a> msdyn_timegroupdetail_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_timegroupdetail_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_timegroupdetail_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -850,6 +860,7 @@ Same as userentityinstancedata entity [msdyn_timegroupdetail_UserEntityInstanceD
 ### <a name="BKMK_msdyn_timegroupdetail_ProcessSession"></a> msdyn_timegroupdetail_ProcessSession
 
 Same as processsession entity [msdyn_timegroupdetail_ProcessSession](processsession.md#BKMK_msdyn_timegroupdetail_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -864,6 +875,7 @@ Same as processsession entity [msdyn_timegroupdetail_ProcessSession](processsess
 ### <a name="BKMK_msdyn_timegroupdetail_BulkDeleteFailures"></a> msdyn_timegroupdetail_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_timegroupdetail_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_timegroupdetail_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -878,6 +890,7 @@ Same as bulkdeletefailure entity [msdyn_timegroupdetail_BulkDeleteFailures](bulk
 ### <a name="BKMK_msdyn_timegroupdetail_PrincipalObjectAttributeAccesses"></a> msdyn_timegroupdetail_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_timegroupdetail_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_timegroupdetail_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -892,6 +905,7 @@ Same as principalobjectattributeaccess entity [msdyn_timegroupdetail_PrincipalOb
 ### <a name="BKMK_msdyn_timegroupdetail_Appointments"></a> msdyn_timegroupdetail_Appointments
 
 Same as appointment entity [msdyn_timegroupdetail_Appointments](appointment.md#BKMK_msdyn_timegroupdetail_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -906,6 +920,7 @@ Same as appointment entity [msdyn_timegroupdetail_Appointments](appointment.md#B
 ### <a name="BKMK_msdyn_timegroupdetail_Emails"></a> msdyn_timegroupdetail_Emails
 
 Same as email entity [msdyn_timegroupdetail_Emails](email.md#BKMK_msdyn_timegroupdetail_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -920,6 +935,7 @@ Same as email entity [msdyn_timegroupdetail_Emails](email.md#BKMK_msdyn_timegrou
 ### <a name="BKMK_msdyn_timegroupdetail_Faxes"></a> msdyn_timegroupdetail_Faxes
 
 Same as fax entity [msdyn_timegroupdetail_Faxes](fax.md#BKMK_msdyn_timegroupdetail_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -934,6 +950,7 @@ Same as fax entity [msdyn_timegroupdetail_Faxes](fax.md#BKMK_msdyn_timegroupdeta
 ### <a name="BKMK_msdyn_timegroupdetail_Letters"></a> msdyn_timegroupdetail_Letters
 
 Same as letter entity [msdyn_timegroupdetail_Letters](letter.md#BKMK_msdyn_timegroupdetail_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -948,6 +965,7 @@ Same as letter entity [msdyn_timegroupdetail_Letters](letter.md#BKMK_msdyn_timeg
 ### <a name="BKMK_msdyn_timegroupdetail_PhoneCalls"></a> msdyn_timegroupdetail_PhoneCalls
 
 Same as phonecall entity [msdyn_timegroupdetail_PhoneCalls](phonecall.md#BKMK_msdyn_timegroupdetail_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -962,6 +980,7 @@ Same as phonecall entity [msdyn_timegroupdetail_PhoneCalls](phonecall.md#BKMK_ms
 ### <a name="BKMK_msdyn_timegroupdetail_Tasks"></a> msdyn_timegroupdetail_Tasks
 
 Same as task entity [msdyn_timegroupdetail_Tasks](task.md#BKMK_msdyn_timegroupdetail_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -976,6 +995,7 @@ Same as task entity [msdyn_timegroupdetail_Tasks](task.md#BKMK_msdyn_timegroupde
 ### <a name="BKMK_msdyn_timegroupdetail_RecurringAppointmentMasters"></a> msdyn_timegroupdetail_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_timegroupdetail_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_timegroupdetail_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -990,6 +1010,7 @@ Same as recurringappointmentmaster entity [msdyn_timegroupdetail_RecurringAppoin
 ### <a name="BKMK_msdyn_timegroupdetail_SocialActivities"></a> msdyn_timegroupdetail_SocialActivities
 
 Same as socialactivity entity [msdyn_timegroupdetail_SocialActivities](socialactivity.md#BKMK_msdyn_timegroupdetail_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -1004,6 +1025,7 @@ Same as socialactivity entity [msdyn_timegroupdetail_SocialActivities](socialact
 ### <a name="BKMK_msdyn_timegroupdetail_connections1"></a> msdyn_timegroupdetail_connections1
 
 Same as connection entity [msdyn_timegroupdetail_connections1](connection.md#BKMK_msdyn_timegroupdetail_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1018,6 +1040,7 @@ Same as connection entity [msdyn_timegroupdetail_connections1](connection.md#BKM
 ### <a name="BKMK_msdyn_timegroupdetail_connections2"></a> msdyn_timegroupdetail_connections2
 
 Same as connection entity [msdyn_timegroupdetail_connections2](connection.md#BKMK_msdyn_timegroupdetail_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1032,6 +1055,7 @@ Same as connection entity [msdyn_timegroupdetail_connections2](connection.md#BKM
 ### <a name="BKMK_msdyn_timegroupdetail_QueueItems"></a> msdyn_timegroupdetail_QueueItems
 
 Same as queueitem entity [msdyn_timegroupdetail_QueueItems](queueitem.md#BKMK_msdyn_timegroupdetail_QueueItems) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queueitem|
@@ -1046,6 +1070,7 @@ Same as queueitem entity [msdyn_timegroupdetail_QueueItems](queueitem.md#BKMK_ms
 ### <a name="BKMK_msdyn_timegroupdetail_Annotations"></a> msdyn_timegroupdetail_Annotations
 
 Same as annotation entity [msdyn_timegroupdetail_Annotations](annotation.md#BKMK_msdyn_timegroupdetail_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1060,6 +1085,7 @@ Same as annotation entity [msdyn_timegroupdetail_Annotations](annotation.md#BKMK
 ### <a name="BKMK_msdyn_timegroupdetail_ServiceAppointments"></a> msdyn_timegroupdetail_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_timegroupdetail_ServiceAppointments](serviceappointment.md#BKMK_msdyn_timegroupdetail_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -1074,6 +1100,7 @@ Same as serviceappointment entity [msdyn_timegroupdetail_ServiceAppointments](se
 ### <a name="BKMK_msdyn_msdyn_timegroupdetail_bookableresourcebooking_TimeGroupDetailSelected"></a> msdyn_msdyn_timegroupdetail_bookableresourcebooking_TimeGroupDetailSelected
 
 Same as bookableresourcebooking entity [msdyn_msdyn_timegroupdetail_bookableresourcebooking_TimeGroupDetailSelected](bookableresourcebooking.md#BKMK_msdyn_msdyn_timegroupdetail_bookableresourcebooking_TimeGroupDetailSelected) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcebooking|
@@ -1088,6 +1115,7 @@ Same as bookableresourcebooking entity [msdyn_msdyn_timegroupdetail_bookablereso
 ### <a name="BKMK_msdyn_timegroupdetail_msdyn_approvals"></a> msdyn_timegroupdetail_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_timegroupdetail_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_timegroupdetail_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -1102,6 +1130,7 @@ Same as msdyn_approval entity [msdyn_timegroupdetail_msdyn_approvals](msdyn_appr
 ### <a name="BKMK_msdyn_msdyn_timegroupdetail_msdyn_workorder_TimeGroupDetailSelected"></a> msdyn_msdyn_timegroupdetail_msdyn_workorder_TimeGroupDetailSelected
 
 Same as msdyn_workorder entity [msdyn_msdyn_timegroupdetail_msdyn_workorder_TimeGroupDetailSelected](msdyn_workorder.md#BKMK_msdyn_msdyn_timegroupdetail_msdyn_workorder_TimeGroupDetailSelected) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorder|

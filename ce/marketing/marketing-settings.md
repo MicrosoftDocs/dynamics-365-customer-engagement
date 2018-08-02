@@ -1,9 +1,13 @@
 ---
 title: "Configure core marketing functionality in Dynamics 365 for Marketing | Microsoft Docs"
-description: "Use the marketing settings to configure landing pages, email marketing, and Customer Insights in Dynamics 365 for Marketing"
-keywords: "administration; landing page; Customer Insights"
+description: "Use the marketing settings to configure landing pages, email marketing, and customer-insights sync in Dynamics 365 for Marketing"
+keywords: "administration; landing page; customer-insights sync"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-admin"
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -20,7 +24,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-The **Marketing settings** section contains pages that let you configure the core marketing functionality for landing pages, email marketing, and [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)].
+The **Marketing settings** section contains pages that let you configure the core marketing functionality for landing pages, email marketing, and customer-insights services.
 
 To find these settings, open **Settings** > **Advanced settings** and choose one of the pages under the **Marketing settings** heading in the left column. You can also access these same settings by finding the **Marketing settings** section in the right column and choosing the icons there.
 
@@ -69,7 +73,7 @@ Matching strategies define how page submissions are matched to existing contacts
 
 For example, a simple contact-matching strategy might be based on email address alone. When a submission is received, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] will check whether any existing contact has the submitted email address. If a match is found, the submission is used to update that contact; if no match is found, a new contact is created with the received values.
 
-To view or set a matching strategy, open your marketing page configuration, and then select **Default contact matching strategy** or **Default lead matching strategy**. For more information about how to create and edit matching strategies, see [Matching strategy](#matching-strategy).
+To view or set a matching strategy, open your marketing page configuration, and then select **Default contact matching strategy** or **Default lead matching strategy**. For more information about how to create and edit matching strategies, see [Set matching strategies](#matching-strategy).
 
 ### Set portal defaults
 
@@ -81,18 +85,38 @@ Settings on the **Portal defaults** tab control how your marketing pages are hos
 
 <a name="dci-sync"></a>
 
-## Choose entities to sync with Customer Insights
+## Choose entities to sync with the customer-insights services
 
-[!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] is an [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]-based service that provides analytical tools for working with customer records. It helps you to better understand your customers and helps you set up subscription lists and target segments for use in email-marketing campaigns.
+The customer-insights services are external services that provide analytical tools for working with customer records. They help you to better understand your customers and help you set up subscription lists and target segments for use in email-marketing campaigns. The customer-insights services also make dynamic field values available for use in marketing email messages as they are processed and sent by the marketing services.
 
-The analytical and data-crunching capabilities of [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] are very powerful, but also resource-intensive, so the solution maximizes performance by synchronizing the relevant customer and account data between [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)].
-
-Use the **Settings** > **Advanced settings** > **Marketing settings** > **[!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] Sync** page to choose which database entities from [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to replicate to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]. For optimal performance and functionality, choose only the entities you need—no more and no less.
+The analytical and data-crunching capabilities of the customer-insights services are very powerful, but also resource-intensive, so the solution maximizes performance by synchronizing the relevant customer and account data between [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and these external services. For optimal performance and functionality, choose only the entities you need—no more and no less.
 
 > [!IMPORTANT]
-> Once you add a new entity to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)], it will continue to sync and  consume storage space there and can't be removed. You should only add those entities you are sure you will need.
+> The sync settings are permanent, so once you begin syncing an entity you won't be able to remove it again later. Syncing occurs often, and each entity that you sync requires storage space and processing time, so you should only sync those entities you are sure you will need.
 
-Select the check box for each entity you want to sync. If you can't see the entity you want, try using the search field to find it.
+The most-used entities (including contacts, accounts, and events) are synced by default, but you can sync any set of entities that you want, including custom entities. The following features require all the relevant data to be present in the customer-insights services:
+
+- **Segmentation**: All entities that you need to query in your segmentation criteria must be present.
+- **Dynamic email content**: All entities with field values that you want to show as dynamic data in an email message must be present.
+- **Lead scoring**: All entities with field values that you want to use in you scoring models must be present.
+
+To sync a new entity with the customer-insights services:
+
+1. Go to **Settings** > **Advanced settings** > **Marketing settings** > **Customer insights sync**.
+
+1. Find and select the check box for each entity you want to sync.
+
+1. Select **Publish changes** and then confirm your setting when prompted.
+
+1. Wait for up to a minute, until you see an announcement near the top of the page that "your changes have been accepted...". If you don't see the announcement, select **Publish changes** again and then wait again; repeat until you see the message.  
+    ![The changes-accepted message](media/admin-sync-accepted.png "The changes-accepted message")
+
+1. Depending on how much data needs to be synced (and other factors), you may need to wait for several minutes (or _up to six hours_) before your data is available for use in your segments, messages, and scoring models. Here are some ways you'll be able to tell that a new entity is synced and ready for use (you only need to check one of these):
+
+    - The check box for the relevant entity on the **Customer insights sync** page is shown as checked and grayed out when you first enter the page. The check box is gray to indicate that you can't disable the sync once it has started. You must reload the page manually to see this change.
+    - The relevant entity is shown in the [assist-edit menu](dynamic-email-content.md#assist-edit) for marketing email messages.
+    - The relevant entity is shown in the **Profiles** list in the [segment designer](segmentation-lists-subscriptions.md). (Note that you must either create a new query group or remove all clauses from the existing query group to see the **Profiles** drop-down list here&mdash;otherwise the contact entity is already selected by default.)
+    - The relevant entity is shown in the **Entity** list when you are editing a condition for a [lead scoring rule](score-manage-leads.md).
 
 <a name="matching-strategy"></a>
 
@@ -115,7 +139,7 @@ The input field under the **Target** setting specifies which contact or lead fie
 
 ## Default marketing settings
 
-Use the **Settings** > **Advanced Settings** > **Marketing settings** > **Default marketing settings** page to establish collections of settings that establish various defaults used throughout the app. You can store as many settings sets as you want, but only the one marked as **Default** is active. 
+Use the **Settings** > **Advanced Settings** > **Marketing settings** > **Default marketing settings** page to set up collections of settings that establish various defaults used throughout the app. You can store as many settings sets as you want, but only the one marked as **Default** is active.
 
 Choose an existing configuration to edit or delete it or choose **+ New** from the command bar to create a new one.
 
@@ -131,11 +155,11 @@ Make the following settings here:
 
 Use the **Marketing email** tab to set defaults that apply to your marketing email messages. You will always be able to override these defaults for individual messages, but it will be more convenient for users if you set the defaults to their most-used values. You can also enable or disable Litmus integration here for all users. The following settings are available:
 
-- **Default content settings**. Choose a default content-settings record to provide dynamic values for the preview feature of the marketing email designer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use content settings to set up repositories of standard and required values for email messages](#use-content-settings-to-set-up-repositories-of-standard-and-required-values-for-email-messages)
+- **Default content settings**. Choose a default content-settings record to provide dynamic values for the preview feature of the marketing email designer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#content-settings)
 - **Default contact**. Choose a default contact record to provide dynamic values for the preview feature of the marketing email designer.
 - **Enable Litmus integration**: Set this to **Yes** to enable the  [inbox preview feature](prepare-marketing-emails.md#inbox-preview), which provides pixel-perfect renderings of how your email messages will look on specific client and platform combinations. The feature is provided by a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] partner called Litmus Software, Inc. ([litmus.com](https://litmus.com/)), and is optional. 
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Check your work with previews and test sends](#check-your-work-with-previews-and-test-sends)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Check your work with previews and test sends](prepare-marketing-emails.md#preview-message)
 
 ### The Customer journey tab
 

@@ -148,7 +148,7 @@ namespace Microsoft.Crm.Sdk.Samples
             int i = 0;
             DuplicateRule retrievedRule = 
                 (DuplicateRule)_service.Retrieve(DuplicateRule.EntityLogicalName, _ruleId, new ColumnSet(new String[] { "statuscode" }));
-            while (retrievedRule.StatusCode.Value == 1 &amp;&amp; i < 20)
+            while (retrievedRule.StatusCode.Value == 1 && i < 20)
             {
                 i++;
                 System.Threading.Thread.Sleep(1000);

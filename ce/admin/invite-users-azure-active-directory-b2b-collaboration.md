@@ -25,9 +25,9 @@ You can invite other users to access your [!INCLUDE[pn_dyn_365_online](../includ
 <a name="BKMK_Requirements"></a>   
 ## Requirements  
   
--   To send  business-to-business (B2B) user invitations, you  must have an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] Global admin role.  
+- To send  business-to-business (B2B) user invitations, you  must have an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] Global admin role.  
   
--   To bulk- invite users, get the latest [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)][!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] which can be downloaded from the [PowerShell module's release page](https://www.powershellgallery.com/packages/AzureADPreview/2.0.0.98).  
+- To bulk- invite users, get the latest [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)][!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] which can be downloaded from the [PowerShell module's release page](https://www.powershellgallery.com/packages/AzureADPreview/2.0.0.98).  
   
 <a name="BKMK_Incompatibilities"></a>   
 ## Incompatibilities  
@@ -41,11 +41,11 @@ You can invite other users to access your [!INCLUDE[pn_dyn_365_online](../includ
   
      Invited users will not be able to use their own tenant email addresses when performing email related transactions in the host [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance. Server-side synchronization of invited users’ incoming and outgoing emails are not supported as there can be complications, especially for invited users who are already syncing their emails in their own [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] tenant.  
   
-3.  Invited users cannot perform email activity using their own email address. [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] only synchronizes incoming and outgoing emails from [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] that is hosted in the same [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant.  
+3. Invited users cannot perform email activity using their own email address. [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] only synchronizes incoming and outgoing emails from [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] that is hosted in the same [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant.  
   
 4. [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)]  
   
- [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] connects a group to [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)]. Data (including new conversations and documents) are stored in the [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] and/or [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] system. Since invited users belong to a different [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant, the invited users do not have permission to create [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] in the invited-to [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant. However, they can participate in the [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] conversations as a guest in their [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] Inbox, but not within [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)].  
+   [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] connects a group to [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)]. Data (including new conversations and documents) are stored in the [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] and/or [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] system. Since invited users belong to a different [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant, the invited users do not have permission to create [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] in the invited-to [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant. However, they can participate in the [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] conversations as a guest in their [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] Inbox, but not within [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)].  
   
 <a name="BKMK_InviteUser"></a>   
 
@@ -54,27 +54,27 @@ You can invite other users to access your [!INCLUDE[pn_dyn_365_online](../includ
   
  Admins can use one of the following methods to invite B2B users to their [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance:  
   
-1.  Invite users to your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance that has a security group.  
+1. Invite users to your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance that has a security group.  
   
-    -   See [Admins adding guest users to a group](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-admin-add-users).  
+   - See [Admins adding guest users to a group](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-admin-add-users).  
   
-    -   See [Control user access to instances: security groups and licenses](add-instance-subscription.md#control-user-access-to-instances-security-groups-and-licenses) on how to use security groups for your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instances.  
+   - See [Control user access to instances: security groups and licenses](add-instance-subscription.md#control-user-access-to-instances-security-groups-and-licenses) on how to use security groups for your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instances.  
   
-2.  Invite users to your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance that does not have a security group.  
+2. Invite users to your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance that does not have a security group.  
   
-    -   See [Admins adding guest users to the directory](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-admin-add-users).  
+   -   See [Admins adding guest users to the directory](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-admin-add-users).  
   
-3.  Bulk-invite guest users using a .csv file.  
+3. Bulk-invite guest users using a .csv file.  
   
-    -   See [PowerShell example](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-code-samples).  
+   -   See [PowerShell example](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-code-samples).  
   
- Your invited user will receive an email invitation to get started with B2B user collaboration.  
+   Your invited user will receive an email invitation to get started with B2B user collaboration.  
   
- ![Email invitation sent to new user](../admin/media/email-invitation-sent-new-user.png "Email invitation sent to new user")  
+   ![Email invitation sent to new user](../admin/media/email-invitation-sent-new-user.png "Email invitation sent to new user")  
   
- When your user accepts the invitation by clicking on the **Get Started** link on the invitation email, they will be prompted to accept the invitation.  
+   When your user accepts the invitation by clicking on the **Get Started** link on the invitation email, they will be prompted to accept the invitation.  
   
- ![Accept the invitation to Dynamics 365](../admin/media/accept-invitation-dynamics-365.png "Accept the invitation to Dynamics 365")  
+   ![Accept the invitation to Dynamics 365](../admin/media/accept-invitation-dynamics-365.png "Accept the invitation to Dynamics 365")  
   
 > [!NOTE]
 >  Until you add a license to the user account, the user will not have access to [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)]. Follow the steps below to add a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] license through the [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] portal.  
@@ -83,39 +83,39 @@ You can invite other users to access your [!INCLUDE[pn_dyn_365_online](../includ
 ## Update user’s name and usage location  
  To assign a [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] license, the invited user’s **Usage location** must be specified. Admins can update the invited user’s profile on the [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] portal.  
   
-1.  Go  to **Azure Active Directory** > **Users and groups** > **All users**. If you don't see the newly created user, refresh the page.  
+1. Go  to **Azure Active Directory** > **Users and groups** > **All users**. If you don't see the newly created user, refresh the page.  
   
-2.  Click on the invited user, and then click **Profile**.  
+2. Click on the invited user, and then click **Profile**.  
   
- ![User Profile button in Azure Active Directory](../admin/media/user-profile-button-azure-active-directory.png "User Profile button in Azure Active Directory")  
+   ![User Profile button in Azure Active Directory](../admin/media/user-profile-button-azure-active-directory.png "User Profile button in Azure Active Directory")  
   
-3.  Update **First name**, **Last name**, and **Usage location**.  
+3. Update **First name**, **Last name**, and **Usage location**.  
   
- ![Update Azure Active Directory user profile](../admin/media/update-azure-active-directory-user-profile.png "Update Azure Active Directory user profile")  
+   ![Update Azure Active Directory user profile](../admin/media/update-azure-active-directory-user-profile.png "Update Azure Active Directory user profile")  
   
-4.  Click **Save**, and then close the Profile blade.  
+4. Click **Save**, and then close the Profile blade.  
   
 <a name="BKMK_AssignLicense"></a>   
 ## Assign invited users a Dynamics 365 license and security role  
  Assign your invited users a [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] license and security role so the user can use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
-1.  Go  to **Azure Active Directory** > **Users and groups** > **All users**. If you don't see the newly created user, refresh the page.  
+1. Go  to **Azure Active Directory** > **Users and groups** > **All users**. If you don't see the newly created user, refresh the page.  
   
-2.  Click on the invited user, and then click **Licenses**.  
+2. Click on the invited user, and then click **Licenses**.  
   
- ![Assign a license with the Azure portal](../admin/media/assign-license-azure-portal.png "Assign a license with the Azure portal")  
+   ![Assign a license with the Azure portal](../admin/media/assign-license-azure-portal.png "Assign a license with the Azure portal")  
   
-3.  Click ![New or Add button](../admin/media/plus-2.png "New or Add button")**Assign**.  
+3. Click ![New or Add button](../admin/media/plus-2.png "New or Add button")**Assign**.  
   
-4.  Click **Configure required settings**.  
+4. Click **Configure required settings**.  
   
-5.  Select the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] product to license.  
+5. Select the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] product to license.  
   
- ![Click Assign to see the list of licenses](../admin/media/click-assign-list-licenses.png "Click Assign to see the list of licenses")  
+   ![Click Assign to see the list of licenses](../admin/media/click-assign-list-licenses.png "Click Assign to see the list of licenses")  
   
-6.  Click **Select**, and then click **Assign**.  
+6. Click **Select**, and then click **Assign**.  
   
- Next, assign the invited users with appropriate security roles for the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance so they can access it. See [Create users and assign Dynamics 365 (online) security roles](../admin/create-users-assign-online-security-roles.md).  
+   Next, assign the invited users with appropriate security roles for the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance so they can access it. See [Create users and assign Dynamics 365 (online) security roles](../admin/create-users-assign-online-security-roles.md).  
   
 <a name="BKMK_UpdateEmail"></a>   
 ## Update invited user’s email address in the invited-to Dynamics 365 instance  

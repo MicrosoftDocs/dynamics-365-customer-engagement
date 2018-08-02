@@ -288,6 +288,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_campaignitem_AsyncOperations"></a> campaignitem_AsyncOperations
 
 Same as asyncoperation entity [campaignitem_AsyncOperations](asyncoperation.md#BKMK_campaignitem_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -302,6 +303,7 @@ Same as asyncoperation entity [campaignitem_AsyncOperations](asyncoperation.md#B
 ### <a name="BKMK_campaignitem_MailboxTrackingFolders"></a> campaignitem_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [campaignitem_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_campaignitem_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -316,6 +318,7 @@ Same as mailboxtrackingfolder entity [campaignitem_MailboxTrackingFolders](mailb
 ### <a name="BKMK_campaignitem_UserEntityInstanceDatas"></a> campaignitem_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [campaignitem_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_campaignitem_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -330,6 +333,7 @@ Same as userentityinstancedata entity [campaignitem_UserEntityInstanceDatas](use
 ### <a name="BKMK_campaignitem_BulkDeleteFailures"></a> campaignitem_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [campaignitem_BulkDeleteFailures](bulkdeletefailure.md#BKMK_campaignitem_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -344,6 +348,7 @@ Same as bulkdeletefailure entity [campaignitem_BulkDeleteFailures](bulkdeletefai
 ### <a name="BKMK_campaignitem_PrincipalObjectAttributeAccesses"></a> campaignitem_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [campaignitem_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_campaignitem_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -358,6 +363,7 @@ Same as principalobjectattributeaccess entity [campaignitem_PrincipalObjectAttri
 ### <a name="BKMK_userentityinstancedata_campaignitem"></a> userentityinstancedata_campaignitem
 
 Same as userentityinstancedata entity [userentityinstancedata_campaignitem](userentityinstancedata.md#BKMK_userentityinstancedata_campaignitem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

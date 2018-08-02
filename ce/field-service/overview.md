@@ -1,9 +1,10 @@
 ---
 title: "Field Service Overview (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "field-service"
@@ -12,11 +13,11 @@ ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "mduelae"
+author: krbjoran
 ms.assetid: f0191f23-5c01-4d9d-8b4c-907ff490acd2
 caps.latest.revision: 15
-ms.author: "mkaur"
-manager: "amyla"
+ms.author: krbjoran
+manager: shellyha
 ---
 
 # Overview of Field Service
@@ -80,7 +81,7 @@ There are two flavors of [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-
 
 - If you’re a field tech using a smartphone or tablet, you’ll use the Field Resource Hub app which is a subset of the Field Service app. The Field Resource Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. [!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [User Guide (Field Resource Hub)](../field-service/field-resource-hub-users-guide.md).
 
-> [!NOTE] 
+> [!NOTE]
 > If you're looking for the full-featured Field Service mobile app, it’s a different mobile app called Field Service Mobile. [!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [Field Service Mobile App User Guide](../field-service/field-service-mobile-app-user-guide.md).
   
 ### See also  

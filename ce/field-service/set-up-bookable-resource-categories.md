@@ -1,9 +1,10 @@
 ---
 title: "Set up bookable resource categories (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "field-service"
@@ -12,11 +13,11 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "mduelae"
+author: krbjoran
 ms.assetid: 4dd88e0c-ee95-463a-9d0d-5a1a4f056e4e
 caps.latest.revision: 13
-ms.author: "mkaur"
-manager: "amyla"
+ms.author: krbjoran
+manager: shellyha
 ---
 # Set up bookable resource categories (Field Service)
 

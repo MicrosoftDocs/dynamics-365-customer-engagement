@@ -32,8 +32,7 @@ var gridRowData = myRow.getData();
 
 ## Methods
 
-|Name|Description|Available for|
-|--|--|--|
-|[getEntity](gridrowdata/getEntity.md)|[!INCLUDE[gridrowdata/includes/getEntity-description.md](gridrowdata/includes/getEntity-description.md)]|Read-only and editable grids|
-
+|                 Name                  |                                               Description                                                |        Available for         |
+|---------------------------------------|----------------------------------------------------------------------------------------------------------|------------------------------|
+| [getEntity](gridrowdata/getEntity.md) | [!INCLUDE[gridrowdata/includes/getEntity-description.md](gridrowdata/includes/getEntity-description.md)] | Read-only and editable grids |
 

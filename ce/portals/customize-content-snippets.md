@@ -3,8 +3,9 @@ title: "Customize content by using content snippets on a portal in Dynamics 365 
 description: "Learn how to customize content by using content snippets."
 keywords: ""
 ms.date: 01/26/2018
-ms.service: crm-online
-ms.custom: 
+ms.service: dynamics-365-customerservice
+ms.custom:
+  - dyn365-portal
 ms.topic: article
 ms.assetid: 64f9ec14-c22a-4337-af29-fc8b512cea63
 author: sbmjais
@@ -17,7 +18,8 @@ topic-status: Drafting
 ---
 
 # Customize content by using content snippets
-Content snippets are small chunks of editable content that can be placed by a developer on a page template, allowing for customizable content to populate any portion of a page's layout easily. Snippet controls, which are responsible for rendering the content of snippets on the web-facing portal, are placed on .aspx pages by developers.
+
+Content snippets are small chunks of editable content that can be placed by a developer on a page template, allowing for customizable content to populate any portion of a page's layout easily. Snippet controls, which are responsible for rendering the content of snippets on the web-facing portal, are placed on a page template by developers.
 
 ## Edit snippets
 

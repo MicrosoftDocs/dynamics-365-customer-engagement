@@ -3,7 +3,10 @@ title: "Navigate and use common features (Dynamics 365 for Marketing) | Microsof
 description: "How do get around and work with common user interface elements in Dynamics 365 for Marketing"
 keywords: "navigation; list view; form view; grids; workflow; business process"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -53,7 +56,7 @@ The apps you see listed in your app-selector menu will depend on which apps you 
 
 - **Marketing**: Go here to access all core marketing features, including the **Marketing**, **Portals**, **Events**, **Settings**, and **Training** work areas.
 - **Surveys**: Go here to set up surveys that you can use together with your marketing emails, customer journeys, and events. Surveys are provided by [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)], which is also available for use with other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] products. To maintain wide compatibility, it uses a slightly different user interface than the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, which is why it is broken out into its own app here. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create and run online surveys](surveys.md)
-- **[!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)]**: This app combines features from many of the various [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] apps you have licensed into a single navigation structure (but most [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] end-user features _aren’t_ included here). It uses an interface similar to the Surveys app. Administrators, and especially customizers, may prefer to work here rather than in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] because more settings are available, and the user interface is the one described in the customizer and portals documentation. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Engage with customers online with portals](portals.md), [Customize Dynamics 365 for Marketing](customize.md), and [Administrator Guide for Dynamics 365 Customer Engagement](../admin/admin-guide.md)
+- **[!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)]**: This app combines features from many of the various [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] apps you have licensed into a single navigation structure (but most [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] end-user features *aren’t* included here). It uses an interface similar to the Surveys app. Administrators, and especially customizers, may prefer to work here rather than in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] because more settings are available, and the user interface is the one described in the customizer and portals documentation. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Engage with customers online with portals](portals.md), [Customize Dynamics 365 for Marketing](customize.md), and [Administrator Guide for Dynamics 365 Customer Engagement](../admin/admin-guide.md)
 
 All of the apps listed in the app-selector menu operate on the same database as one another, so settings made in the one app (including for customization, user administration, events, LinkedIn Lead Gen, [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)], and more) will affect all the other apps.
 
@@ -79,7 +82,7 @@ From here, you can do the following:
 
 - **Sort the list**: Select a column heading to sort the list by values in that column. Select the heading again to sort in the opposite direction.
 - **Search the list**: Enter text in the search field above the list to show only those records that contain your text.
-- **Filter the list**: Select a letter at the bottom of the list to show only records with names that start with that letter.
+- **Filter the list**: Select one of the letters at the bottom of the list to show only records that start with that letter (in the field by which the list is currently being sorted).
 - **Choose a system view**: A system view is predefined to show commonly used list views such as active contacts, tasks assigned to you, closed leads, and so on. The current system view&mdash;My Active Contacts, in the preceding image&mdash;is shown as a heading above the list. To change the system view, select the down arrow next to this heading and choose the view you want. To set a view as the default, select the pushpin icon next to the view.
 - **Go to a page in the list**: If the list contains more records than can be shown on one page, use the paging controls at the bottom of the list to move forward and backward through the pages.
 - **Create records**: Select **New** to create a new, blank record.

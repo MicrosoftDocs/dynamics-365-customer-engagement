@@ -30,11 +30,11 @@ Visualizations let you see your business data graphically. A visualization is at
 ## Visualization ownership  
  In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)], there are two types of visualization ownership: organization-owned and user-owned.  
   
--   An organization-owned visualization is owned by an organization, and cannot be assigned or shared. The `SavedQueryVisualization` entity represents the organization-owned visualization. These visualizations are solution-aware entities in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. Whenever you update a saved query visualization, you must publish the changes for the updates to be available across the organization by using the <xref:Microsoft.Crm.Sdk.Messages.PublishAllXmlRequest> message. This entity is referred to as a *System Chart* in the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] web application.  
+- An organization-owned visualization is owned by an organization, and cannot be assigned or shared. The `SavedQueryVisualization` entity represents the organization-owned visualization. These visualizations are solution-aware entities in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. Whenever you update a saved query visualization, you must publish the changes for the updates to be available across the organization by using the <xref:Microsoft.Crm.Sdk.Messages.PublishAllXmlRequest> message. This entity is referred to as a *System Chart* in the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] web application.  
   
--   A user-owned visualization is owned by an individual user, and can be assigned and shared with other users and teams. The `UserQueryVisualization` entity represents the user-owned visualization. This entity is referred to as a *User Chart* in the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] web application, and is displayed under **My Charts** in the chart drop-down list.  
+- A user-owned visualization is owned by an individual user, and can be assigned and shared with other users and teams. The `UserQueryVisualization` entity represents the user-owned visualization. This entity is referred to as a *User Chart* in the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] web application, and is displayed under **My Charts** in the chart drop-down list.  
   
- A user query visualization is not associated with a user query (view), despite the entity name. The view aspect of this entity is used only for setting the filter criteria.  
+  A user query visualization is not associated with a user query (view), despite the entity name. The view aspect of this entity is used only for setting the filter criteria.  
   
 <a name="Charts"></a>   
 ## Chart visualizations  

@@ -496,6 +496,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_plugintypestatistic"></a> userentityinstancedata_plugintypestatistic
 
 Same as userentityinstancedata entity [userentityinstancedata_plugintypestatistic](userentityinstancedata.md#BKMK_userentityinstancedata_plugintypestatistic) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

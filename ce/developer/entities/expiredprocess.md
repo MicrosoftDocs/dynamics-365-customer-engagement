@@ -669,6 +669,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_lk_expiredprocess_workflowlogs"></a> lk_expiredprocess_workflowlogs
 
 Same as workflowlog entity [lk_expiredprocess_workflowlogs](workflowlog.md#BKMK_lk_expiredprocess_workflowlogs) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|workflowlog|
@@ -683,6 +684,7 @@ Same as workflowlog entity [lk_expiredprocess_workflowlogs](workflowlog.md#BKMK_
 ### <a name="BKMK_ExpiredProcess_SyncErrors"></a> ExpiredProcess_SyncErrors
 
 Same as syncerror entity [ExpiredProcess_SyncErrors](syncerror.md#BKMK_ExpiredProcess_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -697,6 +699,7 @@ Same as syncerror entity [ExpiredProcess_SyncErrors](syncerror.md#BKMK_ExpiredPr
 ### <a name="BKMK_ExpiredProcess_ProcessSessions"></a> ExpiredProcess_ProcessSessions
 
 Same as processsession entity [ExpiredProcess_ProcessSessions](processsession.md#BKMK_ExpiredProcess_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|

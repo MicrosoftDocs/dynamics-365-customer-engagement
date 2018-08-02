@@ -1,9 +1,10 @@
 ---
 title: "Control webpage access for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create web page access control rules for a portal."
-ms.custom: ""
+ms.custom:
+  - dyn365-portal
 ms.date: 09/28/2017
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
@@ -16,14 +17,15 @@ manager: sakudes
 # Control webpage access for portals
 Web page access control rules are rules that you create for your site to control both the publishing actions that a web role can perform across the pages of your website and to control which pages are visible by which web roles. The webpage access entity has the following attributes:
 
-| Name        | Description                                                                                                                                                                                                                                                |
-|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Name        | A descriptive name for the rule.                                                                                                                                                                                                                           |
-| Website     | The website that this rule applies to; must match the website of the page to which this rule is applied. Filters Web Page.                                                                                                                                 |
-| Web Page    | The webpage that this rule applies to. The rule will affect not only the page but all child pages of the page, therefore making this attribute select the branch of the website to which the rule will apply. If a rule is applied to the home page, it will apply to the entire portal. |  |
-| Right       | [Grant change](#grant-change) or [Restrict read](#restrict-read) below.|  
-|Scope| <ul><li>**All content**: All descendant content is included in security validation.</li><li>**Exclude direct child web files**: All child web files directly related to this webpage are excluded from security validation. This does not exclude child's descendants.</li></ul>By default, All content is selected.|
-| Description | (Optional) A description of the rule.|
+
+|    Name     |                                                                                                                                                                  Description                                                                                                                                                                   |
+|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|    Name     |                                                                                                                                                        A descriptive name for the rule.                                                                                                                                                        |
+|   Website   |                                                                                                           The website that this rule applies to; must match the website of the page to which this rule is applied. Filters Web Page.                                                                                                           |
+|  Web Page   |                            The webpage that this rule applies to. The rule will affect not only the page but all child pages of the page, therefore making this attribute select the branch of the website to which the rule will apply. If a rule is applied to the home page, it will apply to the entire portal.                            |
+|    Right    |                                                                                                                                    [Grant change](#grant-change) or [Restrict read](#restrict-read) below.                                                                                                                                     |
+|    Scope    | <ul><li><strong>All content</strong>: All descendant content is included in security validation.</li><li><strong>Exclude direct child web files</strong>: All child web files directly related to this webpage are excluded from security validation. This does not exclude child's descendants.</li></ul>By default, All content is selected. |
+| Description |                                                                                                                                                     (Optional) A description of the rule.                                                                                                                                                      |
 
 After creating a new access control rule, associate it with a page. This will cause it to affect both the page you assign the rule to and all child pages&mdash;in other words, the entire "branch" of the website.
 
@@ -43,7 +45,7 @@ The Restrict Read rule is used to limit viewing of a page (and its child pages) 
 You would then set the right to restrict read and the page to the page at the top of the branch which is to be read only by employees. You would then associate this rule with the employee web role and then assign users to this role.
 
 > [!Note]
-> If you apply the **Restrict Read** right to the root 'home' page of a website and select **Exclude direct child web files** as the **Scope**, the home page's direct child web files will be accessible to all users.
+> If you apply the **Restrict Read** right to the root 'home' page of a website and select **Exclude direct child web files** as the **Scope**, the home page's direct child web files will be accessible to all users.
 
 ### See also
 

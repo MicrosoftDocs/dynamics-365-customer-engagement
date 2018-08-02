@@ -1,6 +1,7 @@
 ---
 title: "Copy an instance of Dynamics 365 (online) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
+  - dyn365-deflc
 ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -24,9 +25,9 @@ You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../includes/
   
 > [!TIP]
 > ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video on copying an instance to a Sandbox instance: [Microsoft Dynamics CRM 2013 Spring '14 Online New Features -Copy](http://youtu.be/y6duFi8nZaE).  
->   
+> 
 >  This video also applies to [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)] and [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)].  
-  
+> 
 > [!NOTE]
 >  To copy instances larger than 100 GB, please contact [technical support](contact-technical-support.md).  
   
@@ -100,23 +101,23 @@ After modifying and enabling some of the plug-ins, the developer Sandbox instanc
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
   
-    > [!NOTE]
-    >  Global administrators can copy all available instances. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System administrators can copy instances for which they have the System administrator role.  
+   > [!NOTE]
+   >  Global administrators can copy all available instances. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System administrators can copy instances for which they have the System administrator role.  
   
 2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]  
   
-3.  Choose the **Instances** tab.  
+3. Choose the **Instances** tab.  
   
-4.  Select an instance, and then click **Copy**.  
+4. Select an instance, and then click **Copy**.  
   
-5.  On the **copy instance** page, select a target instance, a copy type, adjust the instance settings as needed, and then click **Copy**.  
+5. On the **copy instance** page, select a target instance, a copy type, adjust the instance settings as needed, and then click **Copy**.  
   
-     A target instance can be a Sandbox or Preview instance; not a Production instance.  
+    A target instance can be a Sandbox or Preview instance; not a Production instance.  
   
-    > [!WARNING]
-    >  The target instance will be deleted and replaced with a copy of the data and customizations from the source instance. You won’t be able to recover any deleted data.  
+   > [!WARNING]
+   >  The target instance will be deleted and replaced with a copy of the data and customizations from the source instance. You won’t be able to recover any deleted data.  
   
-6.  Click **yes** in the confirmation dialog box.  
+6. Click **yes** in the confirmation dialog box.  
   
 Once the copy process is complete, the target instance is placed in [Administration mode](../admin/manage-sandbox-instances.md#BKMK_AdminMode) and background operations are disabled. The next section describes recommended Administrator actions for the newly created copy (target) instance.  
   
@@ -125,21 +126,21 @@ Once the copy process is complete, the target instance is placed in [Administrat
 ## Next steps after copying an instance  
  To ensure the newly created copy (target) instance does not impact your production instance, once the copy operation is complete, two things happen:  
   
-1.  The newly created copy instance is placed in administration mode. Only those with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or System Customizer security roles can sign in and manage the copy instance. Regular [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] users cannot sign in and use the copy instance.  
+1. The newly created copy instance is placed in administration mode. Only those with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or System Customizer security roles can sign in and manage the copy instance. Regular [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] users cannot sign in and use the copy instance.  
   
-2.  Background operations are disabled in the copy instance. Disabled operations include workflows and synchronization with [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)].  
+2. Background operations are disabled in the copy instance. Disabled operations include workflows and synchronization with [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)].  
   
 **Review components**  
   
  You should review the status of application components in the copy instance with external connections such as [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], email, plug-ins, custom workflow activities, etc. Review these and consider what action to take:  
   
-1.  Disable the component.  
+1. Disable the component.  
   
-2.  Redirect the component to another service instance such as one running [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] or [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
+2. Redirect the component to another service instance such as one running [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] or [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
   
-3.  Do nothing – leave the component as is in the copy instance. For example, you might decide to allow Yammer posting to both the copy and production instances.  
+3. Do nothing – leave the component as is in the copy instance. For example, you might decide to allow Yammer posting to both the copy and production instances.  
   
- Here are some possible application components in the copy instance that could have external connections and therefore could impact services with the same connections in your production instance.  
+   Here are some possible application components in the copy instance that could have external connections and therefore could impact services with the same connections in your production instance.  
   
 - **Email**. A mailbox cannot be synced with two different instances. For a full copy instance, the user mailboxes in the copy instance must be disabled so the mailboxes do not attempt to send or receive email, or track appointments, contacts, or tasks. Set synchronization for the following to None.  
   
@@ -149,7 +150,7 @@ Once the copy process is complete, the target instance is placed in [Administrat
   
     -   Appointments, Contacts, Tasks  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set the delivery method for incoming and outgoing email](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set the delivery method for incoming and outgoing email](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)  
   
 - **SharePoint**. Deactivate or redirect [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] to a sandbox [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] environment to prevent impacting documents in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] managed by [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], go to **Settings** > **Documentation Management** > **SharePoint Sites**. Select your site, and then click **Deactivate**.  
   

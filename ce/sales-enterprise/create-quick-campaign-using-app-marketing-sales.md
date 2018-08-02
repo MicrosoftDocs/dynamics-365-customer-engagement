@@ -1,9 +1,10 @@
 ---
 title: "Create a quick campaign using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-sales
 ms.date: 08/31/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-sales
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -12,9 +13,9 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: ff906069-cba8-45cd-93e8-2b517c1d89d2
 caps.latest.revision: 43
-author: "shubhadaj"
-ms.author: "shujoshi"
-manager: "sakudes"
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ---
 # Create a quick campaign using in-app marketing (Sales)
 
@@ -28,22 +29,22 @@ Send an e-mail blast to customers who fit a specific demographic, a mail campaig
   
 1. [!INCLUDE[proc_marketing_marketing_lists](../includes/proc-marketing-marketing-lists.md)]  
   
-2.  Open a record, and then in the **Quick Campaigns** area, click the **Add** button ![Add button](../sales-enterprise/media/add-button.PNG "Add button").  
+2. Open a record, and then in the **Quick Campaigns** area, click the **Add** button ![Add button](../sales-enterprise/media/add-button.PNG "Add button").  
   
-3.  In the Quick Campaign Wizard, read the instructions on the Welcome page, and click **Next**.  
+3. In the Quick Campaign Wizard, read the instructions on the Welcome page, and click **Next**.  
   
-4.  Specify a name for the quick campaign.  
+4. Specify a name for the quick campaign.  
   
-5.  Select the type of activity you want to create.  
+5. Select the type of activity you want to create.  
   
-     You can also select who you want [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] to assign the activity to and whether [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] should perform the activity automatically for appropriate activities, such as sending email messages. For example, if you are creating a phone call activity for all the sales representatives, you can select the phone call activity, and then select **The owners of the records that are included in the quick campaign**. Each sales representative can then see the activity and take action on it. However, if you are creating a large number of email activities that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] will perform automatically, you can assign the email activity to yourself instead of the record owners.  
+    You can also select who you want [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] to assign the activity to and whether [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] should perform the activity automatically for appropriate activities, such as sending email messages. For example, if you are creating a phone call activity for all the sales representatives, you can select the phone call activity, and then select **The owners of the records that are included in the quick campaign**. Each sales representative can then see the activity and take action on it. However, if you are creating a large number of email activities that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] will perform automatically, you can assign the email activity to yourself instead of the record owners.  
   
-6.  Add or change information in the text boxes in the activity form, and click **Next**.  
+6. Add or change information in the text boxes in the activity form, and click **Next**.  
   
-7.  Click **Create**.  
+7. Click **Create**.  
   
-    > [!NOTE]
-    >  You can't add records to a quick campaign after you create it.  
+   > [!NOTE]
+   >  You can't add records to a quick campaign after you create it.  
  
   
 ### See also  

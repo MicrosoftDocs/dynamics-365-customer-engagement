@@ -574,6 +574,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_StatusCode"></a> StatusCode
 
 **Added by**: Activities Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the phone call's status.|
@@ -1278,6 +1279,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_phonecall_campaignresponse"></a> phonecall_campaignresponse
 
 Same as campaignresponse entity [phonecall_campaignresponse](campaignresponse.md#BKMK_phonecall_campaignresponse) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -1292,6 +1294,7 @@ Same as campaignresponse entity [phonecall_campaignresponse](campaignresponse.md
 ### <a name="BKMK_phonecall_PostFollows"></a> phonecall_PostFollows
 
 Same as postfollow entity [phonecall_PostFollows](postfollow.md#BKMK_phonecall_PostFollows) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|postfollow|
@@ -1306,6 +1309,7 @@ Same as postfollow entity [phonecall_PostFollows](postfollow.md#BKMK_phonecall_P
 ### <a name="BKMK_PhoneCall_AsyncOperations"></a> PhoneCall_AsyncOperations
 
 Same as asyncoperation entity [PhoneCall_AsyncOperations](asyncoperation.md#BKMK_PhoneCall_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1320,6 +1324,7 @@ Same as asyncoperation entity [PhoneCall_AsyncOperations](asyncoperation.md#BKMK
 ### <a name="BKMK_phonecall_connections2"></a> phonecall_connections2
 
 Same as connection entity [phonecall_connections2](connection.md#BKMK_phonecall_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1334,6 +1339,7 @@ Same as connection entity [phonecall_connections2](connection.md#BKMK_phonecall_
 ### <a name="BKMK_PhoneCall_SyncErrors"></a> PhoneCall_SyncErrors
 
 Same as syncerror entity [PhoneCall_SyncErrors](syncerror.md#BKMK_PhoneCall_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1348,6 +1354,7 @@ Same as syncerror entity [PhoneCall_SyncErrors](syncerror.md#BKMK_PhoneCall_Sync
 ### <a name="BKMK_PhoneCall_ProcessSessions"></a> PhoneCall_ProcessSessions
 
 Same as processsession entity [PhoneCall_ProcessSessions](processsession.md#BKMK_PhoneCall_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1362,6 +1369,7 @@ Same as processsession entity [PhoneCall_ProcessSessions](processsession.md#BKMK
 ### <a name="BKMK_PhoneCall_DuplicateMatchingRecord"></a> PhoneCall_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [PhoneCall_DuplicateMatchingRecord](duplicaterecord.md#BKMK_PhoneCall_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1376,6 +1384,7 @@ Same as duplicaterecord entity [PhoneCall_DuplicateMatchingRecord](duplicatereco
 ### <a name="BKMK_slakpiinstance_phonecall"></a> slakpiinstance_phonecall
 
 Same as slakpiinstance entity [slakpiinstance_phonecall](slakpiinstance.md#BKMK_slakpiinstance_phonecall) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|slakpiinstance|
@@ -1390,6 +1399,7 @@ Same as slakpiinstance entity [slakpiinstance_phonecall](slakpiinstance.md#BKMK_
 ### <a name="BKMK_PhoneCall_DuplicateBaseRecord"></a> PhoneCall_DuplicateBaseRecord
 
 Same as duplicaterecord entity [PhoneCall_DuplicateBaseRecord](duplicaterecord.md#BKMK_PhoneCall_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1404,6 +1414,7 @@ Same as duplicaterecord entity [PhoneCall_DuplicateBaseRecord](duplicaterecord.m
 ### <a name="BKMK_PhoneCall_Annotation"></a> PhoneCall_Annotation
 
 Same as annotation entity [PhoneCall_Annotation](annotation.md#BKMK_PhoneCall_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1418,6 +1429,7 @@ Same as annotation entity [PhoneCall_Annotation](annotation.md#BKMK_PhoneCall_An
 ### <a name="BKMK_phonecall_actioncard"></a> phonecall_actioncard
 
 Same as actioncard entity [phonecall_actioncard](actioncard.md#BKMK_phonecall_actioncard) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|actioncard|
@@ -1432,6 +1444,7 @@ Same as actioncard entity [phonecall_actioncard](actioncard.md#BKMK_phonecall_ac
 ### <a name="BKMK_phonecall_connections1"></a> phonecall_connections1
 
 Same as connection entity [phonecall_connections1](connection.md#BKMK_phonecall_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1446,6 +1459,7 @@ Same as connection entity [phonecall_connections1](connection.md#BKMK_phonecall_
 ### <a name="BKMK_PhoneCall_BulkDeleteFailures"></a> PhoneCall_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [PhoneCall_BulkDeleteFailures](bulkdeletefailure.md#BKMK_PhoneCall_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1460,6 +1474,7 @@ Same as bulkdeletefailure entity [PhoneCall_BulkDeleteFailures](bulkdeletefailur
 ### <a name="BKMK_phonecall_activity_parties"></a> phonecall_activity_parties
 
 Same as activityparty entity [phonecall_activity_parties](activityparty.md#BKMK_phonecall_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1474,6 +1489,7 @@ Same as activityparty entity [phonecall_activity_parties](activityparty.md#BKMK_
 ### <a name="BKMK_PhoneCall_QueueItem"></a> PhoneCall_QueueItem
 
 Same as queueitem entity [PhoneCall_QueueItem](queueitem.md#BKMK_PhoneCall_QueueItem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queueitem|
@@ -1488,6 +1504,7 @@ Same as queueitem entity [PhoneCall_QueueItem](queueitem.md#BKMK_PhoneCall_Queue
 ### <a name="BKMK_phonecall_principalobjectattributeaccess"></a> phonecall_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [phonecall_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_phonecall_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1502,6 +1519,7 @@ Same as principalobjectattributeaccess entity [phonecall_principalobjectattribut
 ### <a name="BKMK_userentityinstancedata_phonecall"></a> userentityinstancedata_phonecall
 
 Same as userentityinstancedata entity [userentityinstancedata_phonecall](userentityinstancedata.md#BKMK_userentityinstancedata_phonecall) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

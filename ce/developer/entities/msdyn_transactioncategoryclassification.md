@@ -560,6 +560,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_transactioncategoryclassification_SyncErrors"></a> msdyn_transactioncategoryclassification_SyncErrors
 
 Same as syncerror entity [msdyn_transactioncategoryclassification_SyncErrors](syncerror.md#BKMK_msdyn_transactioncategoryclassification_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -574,6 +575,7 @@ Same as syncerror entity [msdyn_transactioncategoryclassification_SyncErrors](sy
 ### <a name="BKMK_msdyn_transactioncategoryclassification_DuplicateMatchingRecord"></a> msdyn_transactioncategoryclassification_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_transactioncategoryclassification_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_transactioncategoryclassification_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -588,6 +590,7 @@ Same as duplicaterecord entity [msdyn_transactioncategoryclassification_Duplicat
 ### <a name="BKMK_msdyn_transactioncategoryclassification_DuplicateBaseRecord"></a> msdyn_transactioncategoryclassification_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_transactioncategoryclassification_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_transactioncategoryclassification_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -602,6 +605,7 @@ Same as duplicaterecord entity [msdyn_transactioncategoryclassification_Duplicat
 ### <a name="BKMK_msdyn_transactioncategoryclassification_AsyncOperations"></a> msdyn_transactioncategoryclassification_AsyncOperations
 
 Same as asyncoperation entity [msdyn_transactioncategoryclassification_AsyncOperations](asyncoperation.md#BKMK_msdyn_transactioncategoryclassification_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -616,6 +620,7 @@ Same as asyncoperation entity [msdyn_transactioncategoryclassification_AsyncOper
 ### <a name="BKMK_msdyn_transactioncategoryclassification_MailboxTrackingFolders"></a> msdyn_transactioncategoryclassification_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_transactioncategoryclassification_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_transactioncategoryclassification_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -630,6 +635,7 @@ Same as mailboxtrackingfolder entity [msdyn_transactioncategoryclassification_Ma
 ### <a name="BKMK_msdyn_transactioncategoryclassification_UserEntityInstanceDatas"></a> msdyn_transactioncategoryclassification_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_transactioncategoryclassification_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_transactioncategoryclassification_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -644,6 +650,7 @@ Same as userentityinstancedata entity [msdyn_transactioncategoryclassification_U
 ### <a name="BKMK_msdyn_transactioncategoryclassification_ProcessSession"></a> msdyn_transactioncategoryclassification_ProcessSession
 
 Same as processsession entity [msdyn_transactioncategoryclassification_ProcessSession](processsession.md#BKMK_msdyn_transactioncategoryclassification_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -658,6 +665,7 @@ Same as processsession entity [msdyn_transactioncategoryclassification_ProcessSe
 ### <a name="BKMK_msdyn_transactioncategoryclassification_BulkDeleteFailures"></a> msdyn_transactioncategoryclassification_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_transactioncategoryclassification_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_transactioncategoryclassification_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -672,6 +680,7 @@ Same as bulkdeletefailure entity [msdyn_transactioncategoryclassification_BulkDe
 ### <a name="BKMK_msdyn_transactioncategoryclassification_PrincipalObjectAttributeAccesses"></a> msdyn_transactioncategoryclassification_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_transactioncategoryclassification_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_transactioncategoryclassification_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -686,6 +695,7 @@ Same as principalobjectattributeaccess entity [msdyn_transactioncategoryclassifi
 ### <a name="BKMK_msdyn_transactioncategoryclassification_Annotations"></a> msdyn_transactioncategoryclassification_Annotations
 
 Same as annotation entity [msdyn_transactioncategoryclassification_Annotations](annotation.md#BKMK_msdyn_transactioncategoryclassification_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|

@@ -3,8 +3,9 @@ title: "Create a product family (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Make it easier for sales agents to find products and services in a product catalog by creating a product family and classifying similar products in it in Dynamics 365 for Sales."
 keywords: "Product family"
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.custom: Make it easier for sales agents to find products and services in a product catalog by creating a product family and classifying similar products in it in Dynamics 365 for Sales.
+ms.service: dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -28,13 +29,13 @@ Make it easier for sales agents to find products and services in a product catal
   
  With product families, you can:  
   
--   Categorize your products in whichever way is most meaningful for your organization.  
+- Categorize your products in whichever way is most meaningful for your organization.  
   
--   Create child products and product bundles within a product family. Product bundles allow you to sell multiple items together.  
+- Create child products and product bundles within a product family. Product bundles allow you to sell multiple items together.  
   
--   Create as many levels of product families as you want by creating a family within a family.  
+- Create as many levels of product families as you want by creating a family within a family.  
   
- ![Hierarchy of families and products in Dynamics 365](../sales-enterprise/media/v7-product-hierarchy.png "Hierarchy of families and products in Dynamics 365")  
+  ![Hierarchy of families and products in Dynamics 365](../sales-enterprise/media/v7-product-hierarchy.png "Hierarchy of families and products in Dynamics 365")  
   
 > [!NOTE]
 >  The product family that you use for creating a product, bundle, or another product family becomes the parent family. You can't change the parent family for the child products, bundles, or families. In the preceding example, "Televisions" is the parent family for "LED TVs" and "Plasma TVs," and you can't change these to have a different parent family.  
@@ -45,24 +46,24 @@ Make it easier for sales agents to find products and services in a product catal
   
 2. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Products**.  
   
-3.  To create a family, on the command bar, select **Add Family**.  
+3. To create a family, on the command bar, select **Add Family**.  
   
-     -OR-  
+    -OR-  
   
-     To create a child product family under an existing family, select the family, and select **Add Family**. The selected family becomes the parent family of the new family you're creating.  
+    To create a child product family under an existing family, select the family, and select **Add Family**. The selected family becomes the parent family of the new family you're creating.  
   
-     ![List of products with Add Family button](media/add-family.png "List of products with Add Family button")  
+    ![List of products with Add Family button](media/add-family.png "List of products with Add Family button")  
   
 4. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
-    > [!NOTE]
-    >  The **Valid From** and **Valid To** fields define the duration that a product is valid for. There's no business logic associated with these fields except that the **Valid To** date must be later than the **Valid From** date. If required, you can implement your own business logic in these fields with a workflow, plug-in, or by using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. For example, you could run a scheduled job to automatically retire last season's products using the date selected in the **Valid To** field.  
+   > [!NOTE]
+   >  The **Valid From** and **Valid To** fields define the duration that a product is valid for. There's no business logic associated with these fields except that the **Valid To** date must be later than the **Valid From** date. If required, you can implement your own business logic in these fields with a workflow, plug-in, or by using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. For example, you could run a scheduled job to automatically retire last season's products using the date selected in the **Valid To** field.  
   
-5.  Select **Save**.  
+5. Select **Save**.  
   
-6.  In the list of products, families, and bundles, open the family that you just created.  
+6. In the list of products, families, and bundles, open the family that you just created.  
   
-7.  On the **Product Properties** tab, select the **Add New Property** button, and add the required properties. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
+7. On the **Product Properties** tab, select the **Add New Property** button, and add the required properties. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
 
 ## Create a product family (Sales app)
   
@@ -70,32 +71,32 @@ Make it easier for sales agents to find products and services in a product catal
   
     #### Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
   
-3.  In the **Product Catalog** area, select **Families & Products**.  
+3. In the **Product Catalog** area, select **Families & Products**.  
   
-4.  To create a family, select **Add Family**.  
+4. To create a family, select **Add Family**.  
   
-     -OR-  
+    -OR-  
   
-     To create a child product family under an existing family, select the family, and select **Add Family**. The selected family becomes the parent family of the new family you're creating.  
+    To create a child product family under an existing family, select the family, and select **Add Family**. The selected family becomes the parent family of the new family you're creating.  
   
-     If you want to see your current product family levels, see [View product hierarchy](../sales-enterprise/view-product-hierarchy.md).  
+    If you want to see your current product family levels, see [View product hierarchy](../sales-enterprise/view-product-hierarchy.md).  
   
 5. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
-    > [!NOTE]
-    >  The **Valid From** and **Valid To** fields define the duration that a product is valid for. There's no business logic associated with these fields except that the **Valid To** date must be later than the **Valid From** date. If required, you can implement your own business logic in these fields with a workflow, plug-in, or by using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. For example, you could run a scheduled job to automatically retire last season's products using the date selected in the **Valid To** field.  
+   > [!NOTE]
+   >  The **Valid From** and **Valid To** fields define the duration that a product is valid for. There's no business logic associated with these fields except that the **Valid To** date must be later than the **Valid From** date. If required, you can implement your own business logic in these fields with a workflow, plug-in, or by using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. For example, you could run a scheduled job to automatically retire last season's products using the date selected in the **Valid To** field.  
   
-6.  Select **Save**.  
+6. Select **Save**.  
   
-7.  In the list of products, families, and bundles, open the family that you just created.  
+7. In the list of products, families, and bundles, open the family that you just created.  
   
-8.  In the **Product Properties** section, select the **Add Properties** button ![Add properties button](../sales-enterprise/media/add-properties-button.png "Add properties button"), and add the required properties. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
+8. In the **Product Properties** section, select the **Add Properties** button ![Add properties button](../sales-enterprise/media/add-properties-button.png "Add properties button"), and add the required properties. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
   
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  

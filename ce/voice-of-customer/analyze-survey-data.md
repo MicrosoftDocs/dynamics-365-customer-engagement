@@ -2,8 +2,8 @@
 title: "Analyze survey data by using Voice of the Customer | MicrosoftDocs"
 description: "After receiving survey responses, learn how to analyze them and prepare reports."
 keywords: "analyze survey responses; survey dashboard"
-ms.date: 11/13/2017
-ms.service: crm-online
+ms.date: 05/22/2018
+ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,21 +14,23 @@ ms.author: shjais
 manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
+ms.custom:
+  - dyn365-VoC
 ---
 
 # Analyze survey data
 
 Voice of the Customer stores all survey responses in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], and you can analyze them by using features such as:
 
--   Survey response entity
+- Survey response entity
 
--   Advance find queries
+- Advance find queries
 
--   [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] reports
+- [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] reports
 
--   Feedback entity
+- Feedback entity
 
--   Survey dashboard
+- Survey dashboard
 
 You can also generate custom reports based on the responses to meet your requirements. More information about creating reports: [Create or edit a report using the Report Wizard](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/create-edit-copy-report-wizard)  
 
@@ -38,21 +40,35 @@ A survey response record is created after a respondent submits a survey. Based o
 
 To view all survey responses:
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
-2.  Go to **Voice of the Customer** &gt; **Survey Responses**.
+2. Go to **Voice of the Customer** &gt; **Survey Responses**.
 
-3.  Select the survey response you want to view.
+3. Select the survey response you want to view.
 
 To view survey response for a survey:
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+**Web client**
+
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+
+2. Go to **Voice of the Customer** &gt; **Surveys**.
+
+3. Select the name of the survey for which you want to view survey responses.
+
+4. Select the down arrow next to your survey name at the top of the screen, and then select **Survey Responses**.
+
+5. Select the survey response you want to view.
+
+**Voice of the Customer app**
+
+1.  [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
 2.  Go to **Voice of the Customer** &gt; **Surveys**.
 
 3.  Select the name of the survey for which you want to view survey responses.
 
-4.  Select the down arrow next to your survey name at the top of the screen, and then select **Survey** **Responses**.
+4.  Under **Related**, select **Survey Responses**.
 
 5.  Select the survey response you want to view.
 
@@ -64,9 +80,15 @@ You can also use Advanced Find to create customized queries. For example, you ca
 
 ## Store responses in a custom field by using response mapping
 
-Voice of the Customer provides some additional fields in the Survey Response entity on the **Measures** tab in the Survey Response form. You can map and store the response to a question in these fields. To map the response to a question to a field, you must select the field from the **Response Mapping** list in the question form when you create the question.
+Voice of the Customer provides some additional fields in the Survey Response entity on the **Measures** tab in the Survey Response form. You can map and store the response to a question in these fields. To map the response to a question to a field, you must select the field from the **Response Mapping** list in the question form (in web client) or **Map response to** list in the **Properties** pane (in Voice of the Customer app) when you create the question.
+
+**Web client**
 
 ![Response mapping to a custom field](media/custom-field-response-mapping.png "Response mapping to a custom field")  
+
+**Voice of the Customer app**
+
+![Response mapping to a custom field](media/custom-field-response-mapping-uci.png "Response mapping to a custom field")
 
 Response mapping makes the question responses directly available as part of the Survey Response entity and, therefore, readily available to reports and workflows. The mapping fields available on the survey response are listed in the following table.
 
@@ -101,29 +123,29 @@ You can run the following reports for a survey:
 
 To run and export a report:
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-2.  Go to **Voice of the Customer** &gt; **Surveys**.
+2. Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey for which you want to run a report.
+3. Select the name of the survey for which you want to run a report.
 
-4.  Select **More Commands** on the toolbar, select **Run Report**, and then select the report you want to run.
+4. Select **More Commands** on the toolbar, select **Run Report**, and then select the report you want to run.
 
-5.  To export the report, select **Export**, and then select the format you want:
+5. To export the report, select **Export**, and then select the format you want:
 
-    -   XML file with report data
+   - XML file with report data
 
-    -   CSV (comma-delimited)
+   - CSV (comma-delimited)
 
-    -   Acrobat (PDF) file
+   - Acrobat (PDF) file
 
-    -   MHTML (web archive)
+   - MHTML (web archive)
 
-    -   [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]
+   - [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]
 
-    -   TIFF file
+   - TIFF file
 
-    -   [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)]
+   - [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)]
 
 The report is exported in the selected format.
 
@@ -133,17 +155,17 @@ The survey dashboard allows you to view the summary of survey invitations and re
 
 ![Survey dashboard with invites and responses charts](media/survey-dashboard-invites.png "Survey dashboard with invitations and responses charts")  
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-2.  Go to **Voice of the Customer** &gt; **Surveys**.
+2. Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey for which you want to view the dashboard.
+3. Select the name of the survey for which you want to view the dashboard.
 
-4.  From the **Survey** box, select **Dashboard**.
+4. From the **Survey** box, select **Dashboard**.
 
-    ![Select survey dashboard](media/survey-dashboard.png "Select survey dashboard")  
+   ![Select survey dashboard](media/survey-dashboard.png "Select survey dashboard")  
 
-5.  Select a view and chart from the view list and chart list, respectively. The corresponding chart is displayed.
+5. Select a view and chart from the view list and chart list, respectively. The corresponding chart is displayed.
 
 Additionally, you can create your own customized dashboard. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create or edit dashboards](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-edit-dashboards)  
 
@@ -151,4 +173,4 @@ Additionally, you can create your own customized dashboard. [!INCLUDE[proc-more-
 [Plan a survey](plan-survey.md)   
 [Design a basic survey](design-basic-survey.md)   
 [Design an advanced survey](design-advanced-survey.md)   
-[Distribute a survey](distribute-survey.md)
+[Distribute a survey](distribute-survey.md) 

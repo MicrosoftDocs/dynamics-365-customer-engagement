@@ -323,9 +323,15 @@
 #### [getBarcodeValue](reference/xrm-device/getBarcodeValue.md)
 #### [getCurrentPosition](reference/xrm-device/getCurrentPosition.md)
 #### [pickFile](reference/xrm-device/pickFile.md)
+
 ### [Xrm.Encoding](reference/xrm-encoding.md)
+#### [htmlAttributeEncode](reference/xrm-encoding/htmlAttributeEncode.md)
+#### [htmlDecode](reference/xrm-encoding/htmlDecode.md)
+#### [htmlEncode](reference/xrm-encoding/htmlEncode.md)
 #### [xmlAttributeEncode](reference/xrm-encoding/xmlAttributeEncode.md)
 #### [xmlEncode](reference/xrm-encoding/xmlEncode.md)
+
+
 ### [Xrm.Navigation](reference/xrm-navigation.md)
 #### [openAlertDialog](reference/xrm-navigation/openAlertDialog.md)
 #### [openConfirmDialog](reference/xrm-navigation/openConfirmDialog.md)

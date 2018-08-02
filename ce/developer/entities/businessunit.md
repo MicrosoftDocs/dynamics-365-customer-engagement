@@ -1003,6 +1003,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Warehouse"></a> msdyn_Warehouse
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for Warehouse associated with Business Unit.|
@@ -1832,6 +1833,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_business_unit_leads"></a> business_unit_leads
 
 Same as lead entity [business_unit_leads](lead.md#BKMK_business_unit_leads) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|lead|
@@ -1846,6 +1848,7 @@ Same as lead entity [business_unit_leads](lead.md#BKMK_business_unit_leads) Many
 ### <a name="BKMK_business_unit_dynamicproperyinstance"></a> business_unit_dynamicproperyinstance
 
 Same as dynamicpropertyinstance entity [business_unit_dynamicproperyinstance](dynamicpropertyinstance.md#BKMK_business_unit_dynamicproperyinstance) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|dynamicpropertyinstance|
@@ -1860,6 +1863,7 @@ Same as dynamicpropertyinstance entity [business_unit_dynamicproperyinstance](dy
 ### <a name="BKMK_business_unit_bookableresource"></a> business_unit_bookableresource
 
 Same as bookableresource entity [business_unit_bookableresource](bookableresource.md#BKMK_business_unit_bookableresource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresource|
@@ -1874,6 +1878,7 @@ Same as bookableresource entity [business_unit_bookableresource](bookableresourc
 ### <a name="BKMK_business_unit_bookableresourcebooking"></a> business_unit_bookableresourcebooking
 
 Same as bookableresourcebooking entity [business_unit_bookableresourcebooking](bookableresourcebooking.md#BKMK_business_unit_bookableresourcebooking) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcebooking|
@@ -1888,6 +1893,7 @@ Same as bookableresourcebooking entity [business_unit_bookableresourcebooking](b
 ### <a name="BKMK_business_unit_bookableresourcebookingexchangesyncidmapping"></a> business_unit_bookableresourcebookingexchangesyncidmapping
 
 Same as bookableresourcebookingexchangesyncidmapping entity [business_unit_bookableresourcebookingexchangesyncidmapping](bookableresourcebookingexchangesyncidmapping.md#BKMK_business_unit_bookableresourcebookingexchangesyncidmapping) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcebookingexchangesyncidmapping|
@@ -1902,6 +1908,7 @@ Same as bookableresourcebookingexchangesyncidmapping entity [business_unit_booka
 ### <a name="BKMK_business_unit_bookableresourcebookingheader"></a> business_unit_bookableresourcebookingheader
 
 Same as bookableresourcebookingheader entity [business_unit_bookableresourcebookingheader](bookableresourcebookingheader.md#BKMK_business_unit_bookableresourcebookingheader) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcebookingheader|
@@ -1916,6 +1923,7 @@ Same as bookableresourcebookingheader entity [business_unit_bookableresourcebook
 ### <a name="BKMK_business_unit_bookableresourcecategory"></a> business_unit_bookableresourcecategory
 
 Same as bookableresourcecategory entity [business_unit_bookableresourcecategory](bookableresourcecategory.md#BKMK_business_unit_bookableresourcecategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcecategory|
@@ -1930,6 +1938,7 @@ Same as bookableresourcecategory entity [business_unit_bookableresourcecategory]
 ### <a name="BKMK_business_unit_bookableresourcecategoryassn"></a> business_unit_bookableresourcecategoryassn
 
 Same as bookableresourcecategoryassn entity [business_unit_bookableresourcecategoryassn](bookableresourcecategoryassn.md#BKMK_business_unit_bookableresourcecategoryassn) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcecategoryassn|
@@ -1944,6 +1953,7 @@ Same as bookableresourcecategoryassn entity [business_unit_bookableresourcecateg
 ### <a name="BKMK_business_unit_bookableresourcecharacteristic"></a> business_unit_bookableresourcecharacteristic
 
 Same as bookableresourcecharacteristic entity [business_unit_bookableresourcecharacteristic](bookableresourcecharacteristic.md#BKMK_business_unit_bookableresourcecharacteristic) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcecharacteristic|
@@ -1958,6 +1968,7 @@ Same as bookableresourcecharacteristic entity [business_unit_bookableresourcecha
 ### <a name="BKMK_business_unit_bookableresourcegroup"></a> business_unit_bookableresourcegroup
 
 Same as bookableresourcegroup entity [business_unit_bookableresourcegroup](bookableresourcegroup.md#BKMK_business_unit_bookableresourcegroup) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookableresourcegroup|
@@ -1972,6 +1983,7 @@ Same as bookableresourcegroup entity [business_unit_bookableresourcegroup](booka
 ### <a name="BKMK_business_unit_bookingstatus"></a> business_unit_bookingstatus
 
 Same as bookingstatus entity [business_unit_bookingstatus](bookingstatus.md#BKMK_business_unit_bookingstatus) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bookingstatus|
@@ -1986,6 +1998,7 @@ Same as bookingstatus entity [business_unit_bookingstatus](bookingstatus.md#BKMK
 ### <a name="BKMK_business_unit_characteristic"></a> business_unit_characteristic
 
 Same as characteristic entity [business_unit_characteristic](characteristic.md#BKMK_business_unit_characteristic) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|characteristic|
@@ -2000,6 +2013,7 @@ Same as characteristic entity [business_unit_characteristic](characteristic.md#B
 ### <a name="BKMK_business_unit_ratingmodel"></a> business_unit_ratingmodel
 
 Same as ratingmodel entity [business_unit_ratingmodel](ratingmodel.md#BKMK_business_unit_ratingmodel) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|ratingmodel|
@@ -2014,6 +2028,7 @@ Same as ratingmodel entity [business_unit_ratingmodel](ratingmodel.md#BKMK_busin
 ### <a name="BKMK_business_unit_ratingvalue"></a> business_unit_ratingvalue
 
 Same as ratingvalue entity [business_unit_ratingvalue](ratingvalue.md#BKMK_business_unit_ratingvalue) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|ratingvalue|
@@ -2028,6 +2043,7 @@ Same as ratingvalue entity [business_unit_ratingvalue](ratingvalue.md#BKMK_busin
 ### <a name="BKMK_business_unit_BulkOperation_activities"></a> business_unit_BulkOperation_activities
 
 Same as bulkoperation entity [business_unit_BulkOperation_activities](bulkoperation.md#BKMK_business_unit_BulkOperation_activities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkoperation|
@@ -2042,6 +2058,7 @@ Same as bulkoperation entity [business_unit_BulkOperation_activities](bulkoperat
 ### <a name="BKMK_BusinessUnit_Campaigns"></a> BusinessUnit_Campaigns
 
 Same as campaign entity [BusinessUnit_Campaigns](campaign.md#BKMK_BusinessUnit_Campaigns) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaign|
@@ -2056,6 +2073,7 @@ Same as campaign entity [BusinessUnit_Campaigns](campaign.md#BKMK_BusinessUnit_C
 ### <a name="BKMK_business_unit_campaignactivity_activities"></a> business_unit_campaignactivity_activities
 
 Same as campaignactivity entity [business_unit_campaignactivity_activities](campaignactivity.md#BKMK_business_unit_campaignactivity_activities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignactivity|
@@ -2070,6 +2088,7 @@ Same as campaignactivity entity [business_unit_campaignactivity_activities](camp
 ### <a name="BKMK_business_unit_campaignresponse_activities"></a> business_unit_campaignresponse_activities
 
 Same as campaignresponse entity [business_unit_campaignresponse_activities](campaignresponse.md#BKMK_business_unit_campaignresponse_activities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -2084,6 +2103,7 @@ Same as campaignresponse entity [business_unit_campaignresponse_activities](camp
 ### <a name="BKMK_business_unit_list"></a> business_unit_list
 
 Same as list entity [business_unit_list](list.md#BKMK_business_unit_list) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|list|
@@ -2098,6 +2118,7 @@ Same as list entity [business_unit_list](list.md#BKMK_business_unit_list) Many-T
 ### <a name="BKMK_business_unit_constraint_based_groups"></a> business_unit_constraint_based_groups
 
 Same as constraintbasedgroup entity [business_unit_constraint_based_groups](constraintbasedgroup.md#BKMK_business_unit_constraint_based_groups) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|constraintbasedgroup|
@@ -2112,6 +2133,7 @@ Same as constraintbasedgroup entity [business_unit_constraint_based_groups](cons
 ### <a name="BKMK_business_unit_service_contracts"></a> business_unit_service_contracts
 
 Same as contract entity [business_unit_service_contracts](contract.md#BKMK_business_unit_service_contracts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contract|
@@ -2126,6 +2148,7 @@ Same as contract entity [business_unit_service_contracts](contract.md#BKMK_busin
 ### <a name="BKMK_business_unit_entitlement"></a> business_unit_entitlement
 
 Same as entitlement entity [business_unit_entitlement](entitlement.md#BKMK_business_unit_entitlement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|entitlement|
@@ -2140,6 +2163,7 @@ Same as entitlement entity [business_unit_entitlement](entitlement.md#BKMK_busin
 ### <a name="BKMK_business_unit_equipment"></a> business_unit_equipment
 
 Same as equipment entity [business_unit_equipment](equipment.md#BKMK_business_unit_equipment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|equipment|
@@ -2154,6 +2178,7 @@ Same as equipment entity [business_unit_equipment](equipment.md#BKMK_business_un
 ### <a name="BKMK_business_unit_incidents"></a> business_unit_incidents
 
 Same as incident entity [business_unit_incidents](incident.md#BKMK_business_unit_incidents) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incident|
@@ -2168,6 +2193,7 @@ Same as incident entity [business_unit_incidents](incident.md#BKMK_business_unit
 ### <a name="BKMK_business_unit_incident_resolution_activities"></a> business_unit_incident_resolution_activities
 
 Same as incidentresolution entity [business_unit_incident_resolution_activities](incidentresolution.md#BKMK_business_unit_incident_resolution_activities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incidentresolution|
@@ -2182,6 +2208,7 @@ Same as incidentresolution entity [business_unit_incident_resolution_activities]
 ### <a name="BKMK_business_unit_resources"></a> business_unit_resources
 
 Same as resource entity [business_unit_resources](resource.md#BKMK_business_unit_resources) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|resource|
@@ -2196,6 +2223,7 @@ Same as resource entity [business_unit_resources](resource.md#BKMK_business_unit
 ### <a name="BKMK_business_unit_resource_groups"></a> business_unit_resource_groups
 
 Same as resourcegroup entity [business_unit_resource_groups](resourcegroup.md#BKMK_business_unit_resource_groups) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|resourcegroup|
@@ -2210,6 +2238,7 @@ Same as resourcegroup entity [business_unit_resource_groups](resourcegroup.md#BK
 ### <a name="BKMK_business_unit_resource_specs"></a> business_unit_resource_specs
 
 Same as resourcespec entity [business_unit_resource_specs](resourcespec.md#BKMK_business_unit_resource_specs) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|resourcespec|
@@ -2224,6 +2253,7 @@ Same as resourcespec entity [business_unit_resource_specs](resourcespec.md#BKMK_
 ### <a name="BKMK_business_unit_service_appointments"></a> business_unit_service_appointments
 
 Same as serviceappointment entity [business_unit_service_appointments](serviceappointment.md#BKMK_business_unit_service_appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -2238,6 +2268,7 @@ Same as serviceappointment entity [business_unit_service_appointments](serviceap
 ### <a name="BKMK_business_customer_opportunity_roles"></a> business_customer_opportunity_roles
 
 Same as customeropportunityrole entity [business_customer_opportunity_roles](customeropportunityrole.md#BKMK_business_customer_opportunity_roles) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|customeropportunityrole|
@@ -2252,6 +2283,7 @@ Same as customeropportunityrole entity [business_customer_opportunity_roles](cus
 ### <a name="BKMK_business_unit_invoices"></a> business_unit_invoices
 
 Same as invoice entity [business_unit_invoices](invoice.md#BKMK_business_unit_invoices) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|invoice|
@@ -2266,6 +2298,7 @@ Same as invoice entity [business_unit_invoices](invoice.md#BKMK_business_unit_in
 ### <a name="BKMK_business_unit_opportunities"></a> business_unit_opportunities
 
 Same as opportunity entity [business_unit_opportunities](opportunity.md#BKMK_business_unit_opportunities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunity|
@@ -2280,6 +2313,7 @@ Same as opportunity entity [business_unit_opportunities](opportunity.md#BKMK_bus
 ### <a name="BKMK_business_unit_opportunity_close_activities"></a> business_unit_opportunity_close_activities
 
 Same as opportunityclose entity [business_unit_opportunity_close_activities](opportunityclose.md#BKMK_business_unit_opportunity_close_activities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityclose|
@@ -2294,6 +2328,7 @@ Same as opportunityclose entity [business_unit_opportunity_close_activities](opp
 ### <a name="BKMK_business_unit_order_close_activities"></a> business_unit_order_close_activities
 
 Same as orderclose entity [business_unit_order_close_activities](orderclose.md#BKMK_business_unit_order_close_activities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|orderclose|
@@ -2308,6 +2343,7 @@ Same as orderclose entity [business_unit_order_close_activities](orderclose.md#B
 ### <a name="BKMK_business_unit_quotes"></a> business_unit_quotes
 
 Same as quote entity [business_unit_quotes](quote.md#BKMK_business_unit_quotes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quote|
@@ -2322,6 +2358,7 @@ Same as quote entity [business_unit_quotes](quote.md#BKMK_business_unit_quotes) 
 ### <a name="BKMK_business_unit_quote_close_activities"></a> business_unit_quote_close_activities
 
 Same as quoteclose entity [business_unit_quote_close_activities](quoteclose.md#BKMK_business_unit_quote_close_activities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quoteclose|
@@ -2336,6 +2373,7 @@ Same as quoteclose entity [business_unit_quote_close_activities](quoteclose.md#B
 ### <a name="BKMK_business_unit_orders"></a> business_unit_orders
 
 Same as salesorder entity [business_unit_orders](salesorder.md#BKMK_business_unit_orders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|salesorder|
@@ -2350,6 +2388,7 @@ Same as salesorder entity [business_unit_orders](salesorder.md#BKMK_business_uni
 ### <a name="BKMK_business_unit_msdyn_postalbum"></a> business_unit_msdyn_postalbum
 
 Same as msdyn_postalbum entity [business_unit_msdyn_postalbum](msdyn_postalbum.md#BKMK_business_unit_msdyn_postalbum) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_postalbum|
@@ -2364,6 +2403,7 @@ Same as msdyn_postalbum entity [business_unit_msdyn_postalbum](msdyn_postalbum.m
 ### <a name="BKMK_business_unit_msdyn_wallsavedqueryusersettings"></a> business_unit_msdyn_wallsavedqueryusersettings
 
 Same as msdyn_wallsavedqueryusersettings entity [business_unit_msdyn_wallsavedqueryusersettings](msdyn_wallsavedqueryusersettings.md#BKMK_business_unit_msdyn_wallsavedqueryusersettings) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_wallsavedqueryusersettings|
@@ -2378,6 +2418,7 @@ Same as msdyn_wallsavedqueryusersettings entity [business_unit_msdyn_wallsavedqu
 ### <a name="BKMK_business_unit_msdyn_actual"></a> business_unit_msdyn_actual
 
 Same as msdyn_actual entity [business_unit_msdyn_actual](msdyn_actual.md#BKMK_business_unit_msdyn_actual) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_actual|
@@ -2392,6 +2433,7 @@ Same as msdyn_actual entity [business_unit_msdyn_actual](msdyn_actual.md#BKMK_bu
 ### <a name="BKMK_msdyn_bookingalert_businessunit_owningbusinessunit"></a> msdyn_bookingalert_businessunit_owningbusinessunit
 
 Same as msdyn_bookingalert entity [msdyn_bookingalert_businessunit_owningbusinessunit](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_businessunit_owningbusinessunit) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -2406,6 +2448,7 @@ Same as msdyn_bookingalert entity [msdyn_bookingalert_businessunit_owningbusines
 ### <a name="BKMK_business_unit_msdyn_bookingalertstatus"></a> business_unit_msdyn_bookingalertstatus
 
 Same as msdyn_bookingalertstatus entity [business_unit_msdyn_bookingalertstatus](msdyn_bookingalertstatus.md#BKMK_business_unit_msdyn_bookingalertstatus) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalertstatus|
@@ -2420,6 +2463,7 @@ Same as msdyn_bookingalertstatus entity [business_unit_msdyn_bookingalertstatus]
 ### <a name="BKMK_business_unit_msdyn_bookingchange"></a> business_unit_msdyn_bookingchange
 
 Same as msdyn_bookingchange entity [business_unit_msdyn_bookingchange](msdyn_bookingchange.md#BKMK_business_unit_msdyn_bookingchange) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingchange|
@@ -2434,6 +2478,7 @@ Same as msdyn_bookingchange entity [business_unit_msdyn_bookingchange](msdyn_boo
 ### <a name="BKMK_business_unit_msdyn_bookingrule"></a> business_unit_msdyn_bookingrule
 
 Same as msdyn_bookingrule entity [business_unit_msdyn_bookingrule](msdyn_bookingrule.md#BKMK_business_unit_msdyn_bookingrule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingrule|
@@ -2448,6 +2493,7 @@ Same as msdyn_bookingrule entity [business_unit_msdyn_bookingrule](msdyn_booking
 ### <a name="BKMK_business_unit_msdyn_bookingsetupmetadata"></a> business_unit_msdyn_bookingsetupmetadata
 
 Same as msdyn_bookingsetupmetadata entity [business_unit_msdyn_bookingsetupmetadata](msdyn_bookingsetupmetadata.md#BKMK_business_unit_msdyn_bookingsetupmetadata) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingsetupmetadata|
@@ -2462,6 +2508,7 @@ Same as msdyn_bookingsetupmetadata entity [business_unit_msdyn_bookingsetupmetad
 ### <a name="BKMK_business_unit_msdyn_clientextension"></a> business_unit_msdyn_clientextension
 
 Same as msdyn_clientextension entity [business_unit_msdyn_clientextension](msdyn_clientextension.md#BKMK_business_unit_msdyn_clientextension) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_clientextension|
@@ -2476,6 +2523,7 @@ Same as msdyn_clientextension entity [business_unit_msdyn_clientextension](msdyn
 ### <a name="BKMK_business_unit_msdyn_configuration"></a> business_unit_msdyn_configuration
 
 Same as msdyn_configuration entity [business_unit_msdyn_configuration](msdyn_configuration.md#BKMK_business_unit_msdyn_configuration) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_configuration|
@@ -2490,6 +2538,7 @@ Same as msdyn_configuration entity [business_unit_msdyn_configuration](msdyn_con
 ### <a name="BKMK_business_unit_msdyn_priority"></a> business_unit_msdyn_priority
 
 Same as msdyn_priority entity [business_unit_msdyn_priority](msdyn_priority.md#BKMK_business_unit_msdyn_priority) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_priority|
@@ -2504,6 +2553,7 @@ Same as msdyn_priority entity [business_unit_msdyn_priority](msdyn_priority.md#B
 ### <a name="BKMK_business_unit_msdyn_requirementcharacteristic"></a> business_unit_msdyn_requirementcharacteristic
 
 Same as msdyn_requirementcharacteristic entity [business_unit_msdyn_requirementcharacteristic](msdyn_requirementcharacteristic.md#BKMK_business_unit_msdyn_requirementcharacteristic) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_requirementcharacteristic|
@@ -2518,6 +2568,7 @@ Same as msdyn_requirementcharacteristic entity [business_unit_msdyn_requirementc
 ### <a name="BKMK_business_unit_msdyn_requirementorganizationunit"></a> business_unit_msdyn_requirementorganizationunit
 
 Same as msdyn_requirementorganizationunit entity [business_unit_msdyn_requirementorganizationunit](msdyn_requirementorganizationunit.md#BKMK_business_unit_msdyn_requirementorganizationunit) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_requirementorganizationunit|
@@ -2532,6 +2583,7 @@ Same as msdyn_requirementorganizationunit entity [business_unit_msdyn_requiremen
 ### <a name="BKMK_business_unit_msdyn_requirementresourcecategory"></a> business_unit_msdyn_requirementresourcecategory
 
 Same as msdyn_requirementresourcecategory entity [business_unit_msdyn_requirementresourcecategory](msdyn_requirementresourcecategory.md#BKMK_business_unit_msdyn_requirementresourcecategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_requirementresourcecategory|
@@ -2546,6 +2598,7 @@ Same as msdyn_requirementresourcecategory entity [business_unit_msdyn_requiremen
 ### <a name="BKMK_business_unit_msdyn_requirementresourcepreference"></a> business_unit_msdyn_requirementresourcepreference
 
 Same as msdyn_requirementresourcepreference entity [business_unit_msdyn_requirementresourcepreference](msdyn_requirementresourcepreference.md#BKMK_business_unit_msdyn_requirementresourcepreference) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_requirementresourcepreference|
@@ -2560,6 +2613,7 @@ Same as msdyn_requirementresourcepreference entity [business_unit_msdyn_requirem
 ### <a name="BKMK_business_unit_msdyn_requirementstatus"></a> business_unit_msdyn_requirementstatus
 
 Same as msdyn_requirementstatus entity [business_unit_msdyn_requirementstatus](msdyn_requirementstatus.md#BKMK_business_unit_msdyn_requirementstatus) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_requirementstatus|
@@ -2574,6 +2628,7 @@ Same as msdyn_requirementstatus entity [business_unit_msdyn_requirementstatus](m
 ### <a name="BKMK_business_unit_msdyn_resourcerequirement"></a> business_unit_msdyn_resourcerequirement
 
 Same as msdyn_resourcerequirement entity [business_unit_msdyn_resourcerequirement](msdyn_resourcerequirement.md#BKMK_business_unit_msdyn_resourcerequirement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourcerequirement|
@@ -2588,6 +2643,7 @@ Same as msdyn_resourcerequirement entity [business_unit_msdyn_resourcerequiremen
 ### <a name="BKMK_business_unit_msdyn_resourcerequirementdetail"></a> business_unit_msdyn_resourcerequirementdetail
 
 Same as msdyn_resourcerequirementdetail entity [business_unit_msdyn_resourcerequirementdetail](msdyn_resourcerequirementdetail.md#BKMK_business_unit_msdyn_resourcerequirementdetail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourcerequirementdetail|
@@ -2602,6 +2658,7 @@ Same as msdyn_resourcerequirementdetail entity [business_unit_msdyn_resourcerequ
 ### <a name="BKMK_business_unit_msdyn_resourceterritory"></a> business_unit_msdyn_resourceterritory
 
 Same as msdyn_resourceterritory entity [business_unit_msdyn_resourceterritory](msdyn_resourceterritory.md#BKMK_business_unit_msdyn_resourceterritory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourceterritory|
@@ -2616,6 +2673,7 @@ Same as msdyn_resourceterritory entity [business_unit_msdyn_resourceterritory](m
 ### <a name="BKMK_business_unit_msdyn_scheduleboardsetting"></a> business_unit_msdyn_scheduleboardsetting
 
 Same as msdyn_scheduleboardsetting entity [business_unit_msdyn_scheduleboardsetting](msdyn_scheduleboardsetting.md#BKMK_business_unit_msdyn_scheduleboardsetting) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_scheduleboardsetting|
@@ -2630,6 +2688,7 @@ Same as msdyn_scheduleboardsetting entity [business_unit_msdyn_scheduleboardsett
 ### <a name="BKMK_business_unit_msdyn_systemuserschedulersetting"></a> business_unit_msdyn_systemuserschedulersetting
 
 Same as msdyn_systemuserschedulersetting entity [business_unit_msdyn_systemuserschedulersetting](msdyn_systemuserschedulersetting.md#BKMK_business_unit_msdyn_systemuserschedulersetting) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_systemuserschedulersetting|
@@ -2644,6 +2703,7 @@ Same as msdyn_systemuserschedulersetting entity [business_unit_msdyn_systemusers
 ### <a name="BKMK_business_unit_msdyn_timegroup"></a> business_unit_msdyn_timegroup
 
 Same as msdyn_timegroup entity [business_unit_msdyn_timegroup](msdyn_timegroup.md#BKMK_business_unit_msdyn_timegroup) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_timegroup|
@@ -2658,6 +2718,7 @@ Same as msdyn_timegroup entity [business_unit_msdyn_timegroup](msdyn_timegroup.m
 ### <a name="BKMK_business_unit_msdyn_timegroupdetail"></a> business_unit_msdyn_timegroupdetail
 
 Same as msdyn_timegroupdetail entity [business_unit_msdyn_timegroupdetail](msdyn_timegroupdetail.md#BKMK_business_unit_msdyn_timegroupdetail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_timegroupdetail|
@@ -2672,6 +2733,7 @@ Same as msdyn_timegroupdetail entity [business_unit_msdyn_timegroupdetail](msdyn
 ### <a name="BKMK_business_unit_msdyn_transactionorigin"></a> business_unit_msdyn_transactionorigin
 
 Same as msdyn_transactionorigin entity [business_unit_msdyn_transactionorigin](msdyn_transactionorigin.md#BKMK_business_unit_msdyn_transactionorigin) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_transactionorigin|
@@ -2686,6 +2748,7 @@ Same as msdyn_transactionorigin entity [business_unit_msdyn_transactionorigin](m
 ### <a name="BKMK_business_unit_msdyn_workhourtemplate"></a> business_unit_msdyn_workhourtemplate
 
 Same as msdyn_workhourtemplate entity [business_unit_msdyn_workhourtemplate](msdyn_workhourtemplate.md#BKMK_business_unit_msdyn_workhourtemplate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workhourtemplate|
@@ -2700,6 +2763,7 @@ Same as msdyn_workhourtemplate entity [business_unit_msdyn_workhourtemplate](msd
 ### <a name="BKMK_business_unit_msdyn_accountpricelist"></a> business_unit_msdyn_accountpricelist
 
 Same as msdyn_accountpricelist entity [business_unit_msdyn_accountpricelist](msdyn_accountpricelist.md#BKMK_business_unit_msdyn_accountpricelist) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_accountpricelist|
@@ -2714,6 +2778,7 @@ Same as msdyn_accountpricelist entity [business_unit_msdyn_accountpricelist](msd
 ### <a name="BKMK_msdyn_approval_businessunit_owningbusinessunit"></a> msdyn_approval_businessunit_owningbusinessunit
 
 Same as msdyn_approval entity [msdyn_approval_businessunit_owningbusinessunit](msdyn_approval.md#BKMK_msdyn_approval_businessunit_owningbusinessunit) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -2728,6 +2793,7 @@ Same as msdyn_approval entity [msdyn_approval_businessunit_owningbusinessunit](m
 ### <a name="BKMK_business_unit_msdyn_characteristicreqforteammember"></a> business_unit_msdyn_characteristicreqforteammember
 
 Same as msdyn_characteristicreqforteammember entity [business_unit_msdyn_characteristicreqforteammember](msdyn_characteristicreqforteammember.md#BKMK_business_unit_msdyn_characteristicreqforteammember) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_characteristicreqforteammember|
@@ -2742,6 +2808,7 @@ Same as msdyn_characteristicreqforteammember entity [business_unit_msdyn_charact
 ### <a name="BKMK_business_unit_msdyn_contactpricelist"></a> business_unit_msdyn_contactpricelist
 
 Same as msdyn_contactpricelist entity [business_unit_msdyn_contactpricelist](msdyn_contactpricelist.md#BKMK_business_unit_msdyn_contactpricelist) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_contactpricelist|
@@ -2756,6 +2823,7 @@ Same as msdyn_contactpricelist entity [business_unit_msdyn_contactpricelist](msd
 ### <a name="BKMK_business_unit_msdyn_contractlinescheduleofvalue"></a> business_unit_msdyn_contractlinescheduleofvalue
 
 Same as msdyn_contractlinescheduleofvalue entity [business_unit_msdyn_contractlinescheduleofvalue](msdyn_contractlinescheduleofvalue.md#BKMK_business_unit_msdyn_contractlinescheduleofvalue) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_contractlinescheduleofvalue|
@@ -2770,6 +2838,7 @@ Same as msdyn_contractlinescheduleofvalue entity [business_unit_msdyn_contractli
 ### <a name="BKMK_business_unit_msdyn_dataexport"></a> business_unit_msdyn_dataexport
 
 Same as msdyn_dataexport entity [business_unit_msdyn_dataexport](msdyn_dataexport.md#BKMK_business_unit_msdyn_dataexport) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_dataexport|
@@ -2784,6 +2853,7 @@ Same as msdyn_dataexport entity [business_unit_msdyn_dataexport](msdyn_dataexpor
 ### <a name="BKMK_business_unit_msdyn_delegation"></a> business_unit_msdyn_delegation
 
 Same as msdyn_delegation entity [business_unit_msdyn_delegation](msdyn_delegation.md#BKMK_business_unit_msdyn_delegation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_delegation|
@@ -2798,6 +2868,7 @@ Same as msdyn_delegation entity [business_unit_msdyn_delegation](msdyn_delegatio
 ### <a name="BKMK_business_unit_msdyn_estimate"></a> business_unit_msdyn_estimate
 
 Same as msdyn_estimate entity [business_unit_msdyn_estimate](msdyn_estimate.md#BKMK_business_unit_msdyn_estimate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_estimate|
@@ -2812,6 +2883,7 @@ Same as msdyn_estimate entity [business_unit_msdyn_estimate](msdyn_estimate.md#B
 ### <a name="BKMK_business_unit_msdyn_estimateline"></a> business_unit_msdyn_estimateline
 
 Same as msdyn_estimateline entity [business_unit_msdyn_estimateline](msdyn_estimateline.md#BKMK_business_unit_msdyn_estimateline) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_estimateline|
@@ -2826,6 +2898,7 @@ Same as msdyn_estimateline entity [business_unit_msdyn_estimateline](msdyn_estim
 ### <a name="BKMK_business_unit_msdyn_expense"></a> business_unit_msdyn_expense
 
 Same as msdyn_expense entity [business_unit_msdyn_expense](msdyn_expense.md#BKMK_business_unit_msdyn_expense) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_expense|
@@ -2840,6 +2913,7 @@ Same as msdyn_expense entity [business_unit_msdyn_expense](msdyn_expense.md#BKMK
 ### <a name="BKMK_business_unit_msdyn_expensereceipt"></a> business_unit_msdyn_expensereceipt
 
 Same as msdyn_expensereceipt entity [business_unit_msdyn_expensereceipt](msdyn_expensereceipt.md#BKMK_business_unit_msdyn_expensereceipt) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_expensereceipt|
@@ -2854,6 +2928,7 @@ Same as msdyn_expensereceipt entity [business_unit_msdyn_expensereceipt](msdyn_e
 ### <a name="BKMK_business_unit_msdyn_fact"></a> business_unit_msdyn_fact
 
 Same as msdyn_fact entity [business_unit_msdyn_fact](msdyn_fact.md#BKMK_business_unit_msdyn_fact) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_fact|
@@ -2868,6 +2943,7 @@ Same as msdyn_fact entity [business_unit_msdyn_fact](msdyn_fact.md#BKMK_business
 ### <a name="BKMK_business_unit_msdyn_fieldcomputation"></a> business_unit_msdyn_fieldcomputation
 
 Same as msdyn_fieldcomputation entity [business_unit_msdyn_fieldcomputation](msdyn_fieldcomputation.md#BKMK_business_unit_msdyn_fieldcomputation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_fieldcomputation|
@@ -2882,6 +2958,7 @@ Same as msdyn_fieldcomputation entity [business_unit_msdyn_fieldcomputation](msd
 ### <a name="BKMK_business_unit_msdyn_findworkevent"></a> business_unit_msdyn_findworkevent
 
 Same as msdyn_findworkevent entity [business_unit_msdyn_findworkevent](msdyn_findworkevent.md#BKMK_business_unit_msdyn_findworkevent) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_findworkevent|
@@ -2896,6 +2973,7 @@ Same as msdyn_findworkevent entity [business_unit_msdyn_findworkevent](msdyn_fin
 ### <a name="BKMK_business_unit_msdyn_integrationjob"></a> business_unit_msdyn_integrationjob
 
 Same as msdyn_integrationjob entity [business_unit_msdyn_integrationjob](msdyn_integrationjob.md#BKMK_business_unit_msdyn_integrationjob) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_integrationjob|
@@ -2910,6 +2988,7 @@ Same as msdyn_integrationjob entity [business_unit_msdyn_integrationjob](msdyn_i
 ### <a name="BKMK_business_unit_msdyn_integrationjobdetail"></a> business_unit_msdyn_integrationjobdetail
 
 Same as msdyn_integrationjobdetail entity [business_unit_msdyn_integrationjobdetail](msdyn_integrationjobdetail.md#BKMK_business_unit_msdyn_integrationjobdetail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_integrationjobdetail|
@@ -2924,6 +3003,7 @@ Same as msdyn_integrationjobdetail entity [business_unit_msdyn_integrationjobdet
 ### <a name="BKMK_business_unit_msdyn_invoicelinetransaction"></a> business_unit_msdyn_invoicelinetransaction
 
 Same as msdyn_invoicelinetransaction entity [business_unit_msdyn_invoicelinetransaction](msdyn_invoicelinetransaction.md#BKMK_business_unit_msdyn_invoicelinetransaction) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_invoicelinetransaction|
@@ -2938,6 +3018,7 @@ Same as msdyn_invoicelinetransaction entity [business_unit_msdyn_invoicelinetran
 ### <a name="BKMK_business_unit_msdyn_journal"></a> business_unit_msdyn_journal
 
 Same as msdyn_journal entity [business_unit_msdyn_journal](msdyn_journal.md#BKMK_business_unit_msdyn_journal) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_journal|
@@ -2952,6 +3033,7 @@ Same as msdyn_journal entity [business_unit_msdyn_journal](msdyn_journal.md#BKMK
 ### <a name="BKMK_business_unit_msdyn_journalline"></a> business_unit_msdyn_journalline
 
 Same as msdyn_journalline entity [business_unit_msdyn_journalline](msdyn_journalline.md#BKMK_business_unit_msdyn_journalline) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_journalline|
@@ -2966,6 +3048,7 @@ Same as msdyn_journalline entity [business_unit_msdyn_journalline](msdyn_journal
 ### <a name="BKMK_business_unit_msdyn_opportunitylineresourcecategory"></a> business_unit_msdyn_opportunitylineresourcecategory
 
 Same as msdyn_opportunitylineresourcecategory entity [business_unit_msdyn_opportunitylineresourcecategory](msdyn_opportunitylineresourcecategory.md#BKMK_business_unit_msdyn_opportunitylineresourcecategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_opportunitylineresourcecategory|
@@ -2980,6 +3063,7 @@ Same as msdyn_opportunitylineresourcecategory entity [business_unit_msdyn_opport
 ### <a name="BKMK_business_unit_msdyn_opportunitylinetransaction"></a> business_unit_msdyn_opportunitylinetransaction
 
 Same as msdyn_opportunitylinetransaction entity [business_unit_msdyn_opportunitylinetransaction](msdyn_opportunitylinetransaction.md#BKMK_business_unit_msdyn_opportunitylinetransaction) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_opportunitylinetransaction|
@@ -2994,6 +3078,7 @@ Same as msdyn_opportunitylinetransaction entity [business_unit_msdyn_opportunity
 ### <a name="BKMK_business_unit_msdyn_opportunitylinetransactioncategory"></a> business_unit_msdyn_opportunitylinetransactioncategory
 
 Same as msdyn_opportunitylinetransactioncategory entity [business_unit_msdyn_opportunitylinetransactioncategory](msdyn_opportunitylinetransactioncategory.md#BKMK_business_unit_msdyn_opportunitylinetransactioncategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_opportunitylinetransactioncategory|
@@ -3008,6 +3093,7 @@ Same as msdyn_opportunitylinetransactioncategory entity [business_unit_msdyn_opp
 ### <a name="BKMK_business_unit_msdyn_opportunitylinetransactionclassificatio"></a> business_unit_msdyn_opportunitylinetransactionclassificatio
 
 Same as msdyn_opportunitylinetransactionclassificatio entity [business_unit_msdyn_opportunitylinetransactionclassificatio](msdyn_opportunitylinetransactionclassificatio.md#BKMK_business_unit_msdyn_opportunitylinetransactionclassificatio) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_opportunitylinetransactionclassificatio|
@@ -3022,6 +3108,7 @@ Same as msdyn_opportunitylinetransactionclassificatio entity [business_unit_msdy
 ### <a name="BKMK_business_unit_msdyn_opportunitypricelist"></a> business_unit_msdyn_opportunitypricelist
 
 Same as msdyn_opportunitypricelist entity [business_unit_msdyn_opportunitypricelist](msdyn_opportunitypricelist.md#BKMK_business_unit_msdyn_opportunitypricelist) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_opportunitypricelist|
@@ -3036,6 +3123,7 @@ Same as msdyn_opportunitypricelist entity [business_unit_msdyn_opportunitypricel
 ### <a name="BKMK_business_unit_msdyn_orderlineresourcecategory"></a> business_unit_msdyn_orderlineresourcecategory
 
 Same as msdyn_orderlineresourcecategory entity [business_unit_msdyn_orderlineresourcecategory](msdyn_orderlineresourcecategory.md#BKMK_business_unit_msdyn_orderlineresourcecategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderlineresourcecategory|
@@ -3050,6 +3138,7 @@ Same as msdyn_orderlineresourcecategory entity [business_unit_msdyn_orderlineres
 ### <a name="BKMK_business_unit_msdyn_orderlinetransaction"></a> business_unit_msdyn_orderlinetransaction
 
 Same as msdyn_orderlinetransaction entity [business_unit_msdyn_orderlinetransaction](msdyn_orderlinetransaction.md#BKMK_business_unit_msdyn_orderlinetransaction) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderlinetransaction|
@@ -3064,6 +3153,7 @@ Same as msdyn_orderlinetransaction entity [business_unit_msdyn_orderlinetransact
 ### <a name="BKMK_business_unit_msdyn_orderlinetransactioncategory"></a> business_unit_msdyn_orderlinetransactioncategory
 
 Same as msdyn_orderlinetransactioncategory entity [business_unit_msdyn_orderlinetransactioncategory](msdyn_orderlinetransactioncategory.md#BKMK_business_unit_msdyn_orderlinetransactioncategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderlinetransactioncategory|
@@ -3078,6 +3168,7 @@ Same as msdyn_orderlinetransactioncategory entity [business_unit_msdyn_orderline
 ### <a name="BKMK_business_unit_msdyn_orderlinetransactionclassification"></a> business_unit_msdyn_orderlinetransactionclassification
 
 Same as msdyn_orderlinetransactionclassification entity [business_unit_msdyn_orderlinetransactionclassification](msdyn_orderlinetransactionclassification.md#BKMK_business_unit_msdyn_orderlinetransactionclassification) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderlinetransactionclassification|
@@ -3092,6 +3183,7 @@ Same as msdyn_orderlinetransactionclassification entity [business_unit_msdyn_ord
 ### <a name="BKMK_business_unit_msdyn_orderpricelist"></a> business_unit_msdyn_orderpricelist
 
 Same as msdyn_orderpricelist entity [business_unit_msdyn_orderpricelist](msdyn_orderpricelist.md#BKMK_business_unit_msdyn_orderpricelist) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderpricelist|
@@ -3106,6 +3198,7 @@ Same as msdyn_orderpricelist entity [business_unit_msdyn_orderpricelist](msdyn_o
 ### <a name="BKMK_business_unit_msdyn_project"></a> business_unit_msdyn_project
 
 Same as msdyn_project entity [business_unit_msdyn_project](msdyn_project.md#BKMK_business_unit_msdyn_project) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_project|
@@ -3120,6 +3213,7 @@ Same as msdyn_project entity [business_unit_msdyn_project](msdyn_project.md#BKMK
 ### <a name="BKMK_business_unit_msdyn_projectapproval"></a> business_unit_msdyn_projectapproval
 
 Same as msdyn_projectapproval entity [business_unit_msdyn_projectapproval](msdyn_projectapproval.md#BKMK_business_unit_msdyn_projectapproval) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projectapproval|
@@ -3134,6 +3228,7 @@ Same as msdyn_projectapproval entity [business_unit_msdyn_projectapproval](msdyn
 ### <a name="BKMK_business_unit_msdyn_projectpricelist"></a> business_unit_msdyn_projectpricelist
 
 Same as msdyn_projectpricelist entity [business_unit_msdyn_projectpricelist](msdyn_projectpricelist.md#BKMK_business_unit_msdyn_projectpricelist) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projectpricelist|
@@ -3148,6 +3243,7 @@ Same as msdyn_projectpricelist entity [business_unit_msdyn_projectpricelist](msd
 ### <a name="BKMK_business_unit_msdyn_projecttask"></a> business_unit_msdyn_projecttask
 
 Same as msdyn_projecttask entity [business_unit_msdyn_projecttask](msdyn_projecttask.md#BKMK_business_unit_msdyn_projecttask) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projecttask|
@@ -3162,6 +3258,7 @@ Same as msdyn_projecttask entity [business_unit_msdyn_projecttask](msdyn_project
 ### <a name="BKMK_business_unit_msdyn_projecttaskdependency"></a> business_unit_msdyn_projecttaskdependency
 
 Same as msdyn_projecttaskdependency entity [business_unit_msdyn_projecttaskdependency](msdyn_projecttaskdependency.md#BKMK_business_unit_msdyn_projecttaskdependency) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projecttaskdependency|
@@ -3176,6 +3273,7 @@ Same as msdyn_projecttaskdependency entity [business_unit_msdyn_projecttaskdepen
 ### <a name="BKMK_business_unit_msdyn_projecttaskstatususer"></a> business_unit_msdyn_projecttaskstatususer
 
 Same as msdyn_projecttaskstatususer entity [business_unit_msdyn_projecttaskstatususer](msdyn_projecttaskstatususer.md#BKMK_business_unit_msdyn_projecttaskstatususer) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projecttaskstatususer|
@@ -3190,6 +3288,7 @@ Same as msdyn_projecttaskstatususer entity [business_unit_msdyn_projecttaskstatu
 ### <a name="BKMK_business_unit_msdyn_projectteam"></a> business_unit_msdyn_projectteam
 
 Same as msdyn_projectteam entity [business_unit_msdyn_projectteam](msdyn_projectteam.md#BKMK_business_unit_msdyn_projectteam) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projectteam|
@@ -3204,6 +3303,7 @@ Same as msdyn_projectteam entity [business_unit_msdyn_projectteam](msdyn_project
 ### <a name="BKMK_business_unit_msdyn_projecttransactioncategory"></a> business_unit_msdyn_projecttransactioncategory
 
 Same as msdyn_projecttransactioncategory entity [business_unit_msdyn_projecttransactioncategory](msdyn_projecttransactioncategory.md#BKMK_business_unit_msdyn_projecttransactioncategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_projecttransactioncategory|
@@ -3218,6 +3318,7 @@ Same as msdyn_projecttransactioncategory entity [business_unit_msdyn_projecttran
 ### <a name="BKMK_business_unit_msdyn_quotelineanalyticsbreakdown"></a> business_unit_msdyn_quotelineanalyticsbreakdown
 
 Same as msdyn_quotelineanalyticsbreakdown entity [business_unit_msdyn_quotelineanalyticsbreakdown](msdyn_quotelineanalyticsbreakdown.md#BKMK_business_unit_msdyn_quotelineanalyticsbreakdown) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelineanalyticsbreakdown|
@@ -3232,6 +3333,7 @@ Same as msdyn_quotelineanalyticsbreakdown entity [business_unit_msdyn_quotelinea
 ### <a name="BKMK_business_unit_msdyn_quotelineresourcecategory"></a> business_unit_msdyn_quotelineresourcecategory
 
 Same as msdyn_quotelineresourcecategory entity [business_unit_msdyn_quotelineresourcecategory](msdyn_quotelineresourcecategory.md#BKMK_business_unit_msdyn_quotelineresourcecategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelineresourcecategory|
@@ -3246,6 +3348,7 @@ Same as msdyn_quotelineresourcecategory entity [business_unit_msdyn_quotelineres
 ### <a name="BKMK_business_unit_msdyn_quotelinescheduleofvalue"></a> business_unit_msdyn_quotelinescheduleofvalue
 
 Same as msdyn_quotelinescheduleofvalue entity [business_unit_msdyn_quotelinescheduleofvalue](msdyn_quotelinescheduleofvalue.md#BKMK_business_unit_msdyn_quotelinescheduleofvalue) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelinescheduleofvalue|
@@ -3260,6 +3363,7 @@ Same as msdyn_quotelinescheduleofvalue entity [business_unit_msdyn_quotelinesche
 ### <a name="BKMK_business_unit_msdyn_quotelinetransaction"></a> business_unit_msdyn_quotelinetransaction
 
 Same as msdyn_quotelinetransaction entity [business_unit_msdyn_quotelinetransaction](msdyn_quotelinetransaction.md#BKMK_business_unit_msdyn_quotelinetransaction) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelinetransaction|
@@ -3274,6 +3378,7 @@ Same as msdyn_quotelinetransaction entity [business_unit_msdyn_quotelinetransact
 ### <a name="BKMK_business_unit_msdyn_quotelinetransactioncategory"></a> business_unit_msdyn_quotelinetransactioncategory
 
 Same as msdyn_quotelinetransactioncategory entity [business_unit_msdyn_quotelinetransactioncategory](msdyn_quotelinetransactioncategory.md#BKMK_business_unit_msdyn_quotelinetransactioncategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelinetransactioncategory|
@@ -3288,6 +3393,7 @@ Same as msdyn_quotelinetransactioncategory entity [business_unit_msdyn_quoteline
 ### <a name="BKMK_business_unit_msdyn_quotelinetransactionclassification"></a> business_unit_msdyn_quotelinetransactionclassification
 
 Same as msdyn_quotelinetransactionclassification entity [business_unit_msdyn_quotelinetransactionclassification](msdyn_quotelinetransactionclassification.md#BKMK_business_unit_msdyn_quotelinetransactionclassification) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelinetransactionclassification|
@@ -3302,6 +3408,7 @@ Same as msdyn_quotelinetransactionclassification entity [business_unit_msdyn_quo
 ### <a name="BKMK_business_unit_msdyn_quotepricelist"></a> business_unit_msdyn_quotepricelist
 
 Same as msdyn_quotepricelist entity [business_unit_msdyn_quotepricelist](msdyn_quotepricelist.md#BKMK_business_unit_msdyn_quotepricelist) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotepricelist|
@@ -3316,6 +3423,7 @@ Same as msdyn_quotepricelist entity [business_unit_msdyn_quotepricelist](msdyn_q
 ### <a name="BKMK_business_unit_msdyn_resourceassignment"></a> business_unit_msdyn_resourceassignment
 
 Same as msdyn_resourceassignment entity [business_unit_msdyn_resourceassignment](msdyn_resourceassignment.md#BKMK_business_unit_msdyn_resourceassignment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourceassignment|
@@ -3330,6 +3438,7 @@ Same as msdyn_resourceassignment entity [business_unit_msdyn_resourceassignment]
 ### <a name="BKMK_business_unit_msdyn_resourceassignmentdetail"></a> business_unit_msdyn_resourceassignmentdetail
 
 Same as msdyn_resourceassignmentdetail entity [business_unit_msdyn_resourceassignmentdetail](msdyn_resourceassignmentdetail.md#BKMK_business_unit_msdyn_resourceassignmentdetail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourceassignmentdetail|
@@ -3344,6 +3453,7 @@ Same as msdyn_resourceassignmentdetail entity [business_unit_msdyn_resourceassig
 ### <a name="BKMK_business_unit_msdyn_resourcerequest"></a> business_unit_msdyn_resourcerequest
 
 Same as msdyn_resourcerequest entity [business_unit_msdyn_resourcerequest](msdyn_resourcerequest.md#BKMK_business_unit_msdyn_resourcerequest) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourcerequest|
@@ -3358,6 +3468,7 @@ Same as msdyn_resourcerequest entity [business_unit_msdyn_resourcerequest](msdyn
 ### <a name="BKMK_business_unit_msdyn_rolecompetencyrequirement"></a> business_unit_msdyn_rolecompetencyrequirement
 
 Same as msdyn_rolecompetencyrequirement entity [business_unit_msdyn_rolecompetencyrequirement](msdyn_rolecompetencyrequirement.md#BKMK_business_unit_msdyn_rolecompetencyrequirement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rolecompetencyrequirement|
@@ -3372,6 +3483,7 @@ Same as msdyn_rolecompetencyrequirement entity [business_unit_msdyn_rolecompeten
 ### <a name="BKMK_business_unit_msdyn_roleutilization"></a> business_unit_msdyn_roleutilization
 
 Same as msdyn_roleutilization entity [business_unit_msdyn_roleutilization](msdyn_roleutilization.md#BKMK_business_unit_msdyn_roleutilization) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_roleutilization|
@@ -3386,6 +3498,7 @@ Same as msdyn_roleutilization entity [business_unit_msdyn_roleutilization](msdyn
 ### <a name="BKMK_business_unit_msdyn_timeentry"></a> business_unit_msdyn_timeentry
 
 Same as msdyn_timeentry entity [business_unit_msdyn_timeentry](msdyn_timeentry.md#BKMK_business_unit_msdyn_timeentry) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_timeentry|
@@ -3400,6 +3513,7 @@ Same as msdyn_timeentry entity [business_unit_msdyn_timeentry](msdyn_timeentry.m
 ### <a name="BKMK_business_unit_msdyn_timeoffcalendar"></a> business_unit_msdyn_timeoffcalendar
 
 Same as msdyn_timeoffcalendar entity [business_unit_msdyn_timeoffcalendar](msdyn_timeoffcalendar.md#BKMK_business_unit_msdyn_timeoffcalendar) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_timeoffcalendar|
@@ -3414,6 +3528,7 @@ Same as msdyn_timeoffcalendar entity [business_unit_msdyn_timeoffcalendar](msdyn
 ### <a name="BKMK_business_unit_msdyn_transactionconnection"></a> business_unit_msdyn_transactionconnection
 
 Same as msdyn_transactionconnection entity [business_unit_msdyn_transactionconnection](msdyn_transactionconnection.md#BKMK_business_unit_msdyn_transactionconnection) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_transactionconnection|
@@ -3428,6 +3543,7 @@ Same as msdyn_transactionconnection entity [business_unit_msdyn_transactionconne
 ### <a name="BKMK_business_unit_msdyn_userworkhistory"></a> business_unit_msdyn_userworkhistory
 
 Same as msdyn_userworkhistory entity [business_unit_msdyn_userworkhistory](msdyn_userworkhistory.md#BKMK_business_unit_msdyn_userworkhistory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_userworkhistory|
@@ -3442,6 +3558,7 @@ Same as msdyn_userworkhistory entity [business_unit_msdyn_userworkhistory](msdyn
 ### <a name="BKMK_business_unit_msdyn_agreement"></a> business_unit_msdyn_agreement
 
 Same as msdyn_agreement entity [business_unit_msdyn_agreement](msdyn_agreement.md#BKMK_business_unit_msdyn_agreement) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreement|
@@ -3456,6 +3573,7 @@ Same as msdyn_agreement entity [business_unit_msdyn_agreement](msdyn_agreement.m
 ### <a name="BKMK_business_unit_msdyn_agreementbookingdate"></a> business_unit_msdyn_agreementbookingdate
 
 Same as msdyn_agreementbookingdate entity [business_unit_msdyn_agreementbookingdate](msdyn_agreementbookingdate.md#BKMK_business_unit_msdyn_agreementbookingdate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementbookingdate|
@@ -3470,6 +3588,7 @@ Same as msdyn_agreementbookingdate entity [business_unit_msdyn_agreementbookingd
 ### <a name="BKMK_business_unit_msdyn_agreementbookingincident"></a> business_unit_msdyn_agreementbookingincident
 
 Same as msdyn_agreementbookingincident entity [business_unit_msdyn_agreementbookingincident](msdyn_agreementbookingincident.md#BKMK_business_unit_msdyn_agreementbookingincident) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementbookingincident|
@@ -3484,6 +3603,7 @@ Same as msdyn_agreementbookingincident entity [business_unit_msdyn_agreementbook
 ### <a name="BKMK_business_unit_msdyn_agreementbookingproduct"></a> business_unit_msdyn_agreementbookingproduct
 
 Same as msdyn_agreementbookingproduct entity [business_unit_msdyn_agreementbookingproduct](msdyn_agreementbookingproduct.md#BKMK_business_unit_msdyn_agreementbookingproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementbookingproduct|
@@ -3498,6 +3618,7 @@ Same as msdyn_agreementbookingproduct entity [business_unit_msdyn_agreementbooki
 ### <a name="BKMK_business_unit_msdyn_agreementbookingservice"></a> business_unit_msdyn_agreementbookingservice
 
 Same as msdyn_agreementbookingservice entity [business_unit_msdyn_agreementbookingservice](msdyn_agreementbookingservice.md#BKMK_business_unit_msdyn_agreementbookingservice) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementbookingservice|
@@ -3512,6 +3633,7 @@ Same as msdyn_agreementbookingservice entity [business_unit_msdyn_agreementbooki
 ### <a name="BKMK_business_unit_msdyn_agreementbookingservicetask"></a> business_unit_msdyn_agreementbookingservicetask
 
 Same as msdyn_agreementbookingservicetask entity [business_unit_msdyn_agreementbookingservicetask](msdyn_agreementbookingservicetask.md#BKMK_business_unit_msdyn_agreementbookingservicetask) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementbookingservicetask|
@@ -3526,6 +3648,7 @@ Same as msdyn_agreementbookingservicetask entity [business_unit_msdyn_agreementb
 ### <a name="BKMK_business_unit_msdyn_agreementbookingsetup"></a> business_unit_msdyn_agreementbookingsetup
 
 Same as msdyn_agreementbookingsetup entity [business_unit_msdyn_agreementbookingsetup](msdyn_agreementbookingsetup.md#BKMK_business_unit_msdyn_agreementbookingsetup) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementbookingsetup|
@@ -3540,6 +3663,7 @@ Same as msdyn_agreementbookingsetup entity [business_unit_msdyn_agreementbooking
 ### <a name="BKMK_business_unit_msdyn_agreementinvoicedate"></a> business_unit_msdyn_agreementinvoicedate
 
 Same as msdyn_agreementinvoicedate entity [business_unit_msdyn_agreementinvoicedate](msdyn_agreementinvoicedate.md#BKMK_business_unit_msdyn_agreementinvoicedate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementinvoicedate|
@@ -3554,6 +3678,7 @@ Same as msdyn_agreementinvoicedate entity [business_unit_msdyn_agreementinvoiced
 ### <a name="BKMK_business_unit_msdyn_agreementinvoiceproduct"></a> business_unit_msdyn_agreementinvoiceproduct
 
 Same as msdyn_agreementinvoiceproduct entity [business_unit_msdyn_agreementinvoiceproduct](msdyn_agreementinvoiceproduct.md#BKMK_business_unit_msdyn_agreementinvoiceproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementinvoiceproduct|
@@ -3568,6 +3693,7 @@ Same as msdyn_agreementinvoiceproduct entity [business_unit_msdyn_agreementinvoi
 ### <a name="BKMK_business_unit_msdyn_agreementinvoicesetup"></a> business_unit_msdyn_agreementinvoicesetup
 
 Same as msdyn_agreementinvoicesetup entity [business_unit_msdyn_agreementinvoicesetup](msdyn_agreementinvoicesetup.md#BKMK_business_unit_msdyn_agreementinvoicesetup) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementinvoicesetup|
@@ -3582,6 +3708,7 @@ Same as msdyn_agreementinvoicesetup entity [business_unit_msdyn_agreementinvoice
 ### <a name="BKMK_business_unit_msdyn_agreementsubstatus"></a> business_unit_msdyn_agreementsubstatus
 
 Same as msdyn_agreementsubstatus entity [business_unit_msdyn_agreementsubstatus](msdyn_agreementsubstatus.md#BKMK_business_unit_msdyn_agreementsubstatus) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_agreementsubstatus|
@@ -3596,6 +3723,7 @@ Same as msdyn_agreementsubstatus entity [business_unit_msdyn_agreementsubstatus]
 ### <a name="BKMK_business_unit_msdyn_bookingjournal"></a> business_unit_msdyn_bookingjournal
 
 Same as msdyn_bookingjournal entity [business_unit_msdyn_bookingjournal](msdyn_bookingjournal.md#BKMK_business_unit_msdyn_bookingjournal) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingjournal|
@@ -3610,6 +3738,7 @@ Same as msdyn_bookingjournal entity [business_unit_msdyn_bookingjournal](msdyn_b
 ### <a name="BKMK_business_unit_msdyn_bookingtimestamp"></a> business_unit_msdyn_bookingtimestamp
 
 Same as msdyn_bookingtimestamp entity [business_unit_msdyn_bookingtimestamp](msdyn_bookingtimestamp.md#BKMK_business_unit_msdyn_bookingtimestamp) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingtimestamp|
@@ -3624,6 +3753,7 @@ Same as msdyn_bookingtimestamp entity [business_unit_msdyn_bookingtimestamp](msd
 ### <a name="BKMK_business_unit_msdyn_customerasset"></a> business_unit_msdyn_customerasset
 
 Same as msdyn_customerasset entity [business_unit_msdyn_customerasset](msdyn_customerasset.md#BKMK_business_unit_msdyn_customerasset) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_customerasset|
@@ -3638,6 +3768,7 @@ Same as msdyn_customerasset entity [business_unit_msdyn_customerasset](msdyn_cus
 ### <a name="BKMK_business_unit_msdyn_fieldservicesetting"></a> business_unit_msdyn_fieldservicesetting
 
 Same as msdyn_fieldservicesetting entity [business_unit_msdyn_fieldservicesetting](msdyn_fieldservicesetting.md#BKMK_business_unit_msdyn_fieldservicesetting) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_fieldservicesetting|
@@ -3652,6 +3783,7 @@ Same as msdyn_fieldservicesetting entity [business_unit_msdyn_fieldservicesettin
 ### <a name="BKMK_business_unit_msdyn_incidenttype"></a> business_unit_msdyn_incidenttype
 
 Same as msdyn_incidenttype entity [business_unit_msdyn_incidenttype](msdyn_incidenttype.md#BKMK_business_unit_msdyn_incidenttype) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_incidenttype|
@@ -3666,6 +3798,7 @@ Same as msdyn_incidenttype entity [business_unit_msdyn_incidenttype](msdyn_incid
 ### <a name="BKMK_business_unit_msdyn_incidenttypecharacteristic"></a> business_unit_msdyn_incidenttypecharacteristic
 
 Same as msdyn_incidenttypecharacteristic entity [business_unit_msdyn_incidenttypecharacteristic](msdyn_incidenttypecharacteristic.md#BKMK_business_unit_msdyn_incidenttypecharacteristic) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_incidenttypecharacteristic|
@@ -3680,6 +3813,7 @@ Same as msdyn_incidenttypecharacteristic entity [business_unit_msdyn_incidenttyp
 ### <a name="BKMK_business_unit_msdyn_incidenttypeproduct"></a> business_unit_msdyn_incidenttypeproduct
 
 Same as msdyn_incidenttypeproduct entity [business_unit_msdyn_incidenttypeproduct](msdyn_incidenttypeproduct.md#BKMK_business_unit_msdyn_incidenttypeproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_incidenttypeproduct|
@@ -3694,6 +3828,7 @@ Same as msdyn_incidenttypeproduct entity [business_unit_msdyn_incidenttypeproduc
 ### <a name="BKMK_business_unit_msdyn_incidenttypeservice"></a> business_unit_msdyn_incidenttypeservice
 
 Same as msdyn_incidenttypeservice entity [business_unit_msdyn_incidenttypeservice](msdyn_incidenttypeservice.md#BKMK_business_unit_msdyn_incidenttypeservice) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_incidenttypeservice|
@@ -3708,6 +3843,7 @@ Same as msdyn_incidenttypeservice entity [business_unit_msdyn_incidenttypeservic
 ### <a name="BKMK_business_unit_msdyn_incidenttypeservicetask"></a> business_unit_msdyn_incidenttypeservicetask
 
 Same as msdyn_incidenttypeservicetask entity [business_unit_msdyn_incidenttypeservicetask](msdyn_incidenttypeservicetask.md#BKMK_business_unit_msdyn_incidenttypeservicetask) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_incidenttypeservicetask|
@@ -3722,6 +3858,7 @@ Same as msdyn_incidenttypeservicetask entity [business_unit_msdyn_incidenttypese
 ### <a name="BKMK_business_unit_msdyn_inventoryadjustment"></a> business_unit_msdyn_inventoryadjustment
 
 Same as msdyn_inventoryadjustment entity [business_unit_msdyn_inventoryadjustment](msdyn_inventoryadjustment.md#BKMK_business_unit_msdyn_inventoryadjustment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_inventoryadjustment|
@@ -3736,6 +3873,7 @@ Same as msdyn_inventoryadjustment entity [business_unit_msdyn_inventoryadjustmen
 ### <a name="BKMK_business_unit_msdyn_inventoryadjustmentproduct"></a> business_unit_msdyn_inventoryadjustmentproduct
 
 Same as msdyn_inventoryadjustmentproduct entity [business_unit_msdyn_inventoryadjustmentproduct](msdyn_inventoryadjustmentproduct.md#BKMK_business_unit_msdyn_inventoryadjustmentproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_inventoryadjustmentproduct|
@@ -3750,6 +3888,7 @@ Same as msdyn_inventoryadjustmentproduct entity [business_unit_msdyn_inventoryad
 ### <a name="BKMK_business_unit_msdyn_inventoryjournal"></a> business_unit_msdyn_inventoryjournal
 
 Same as msdyn_inventoryjournal entity [business_unit_msdyn_inventoryjournal](msdyn_inventoryjournal.md#BKMK_business_unit_msdyn_inventoryjournal) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_inventoryjournal|
@@ -3764,6 +3903,7 @@ Same as msdyn_inventoryjournal entity [business_unit_msdyn_inventoryjournal](msd
 ### <a name="BKMK_business_unit_msdyn_inventorytransfer"></a> business_unit_msdyn_inventorytransfer
 
 Same as msdyn_inventorytransfer entity [business_unit_msdyn_inventorytransfer](msdyn_inventorytransfer.md#BKMK_business_unit_msdyn_inventorytransfer) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_inventorytransfer|
@@ -3778,6 +3918,7 @@ Same as msdyn_inventorytransfer entity [business_unit_msdyn_inventorytransfer](m
 ### <a name="BKMK_business_unit_msdyn_orderinvoicingdate"></a> business_unit_msdyn_orderinvoicingdate
 
 Same as msdyn_orderinvoicingdate entity [business_unit_msdyn_orderinvoicingdate](msdyn_orderinvoicingdate.md#BKMK_business_unit_msdyn_orderinvoicingdate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderinvoicingdate|
@@ -3792,6 +3933,7 @@ Same as msdyn_orderinvoicingdate entity [business_unit_msdyn_orderinvoicingdate]
 ### <a name="BKMK_business_unit_msdyn_orderinvoicingproduct"></a> business_unit_msdyn_orderinvoicingproduct
 
 Same as msdyn_orderinvoicingproduct entity [business_unit_msdyn_orderinvoicingproduct](msdyn_orderinvoicingproduct.md#BKMK_business_unit_msdyn_orderinvoicingproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderinvoicingproduct|
@@ -3806,6 +3948,7 @@ Same as msdyn_orderinvoicingproduct entity [business_unit_msdyn_orderinvoicingpr
 ### <a name="BKMK_business_unit_msdyn_orderinvoicingsetup"></a> business_unit_msdyn_orderinvoicingsetup
 
 Same as msdyn_orderinvoicingsetup entity [business_unit_msdyn_orderinvoicingsetup](msdyn_orderinvoicingsetup.md#BKMK_business_unit_msdyn_orderinvoicingsetup) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderinvoicingsetup|
@@ -3820,6 +3963,7 @@ Same as msdyn_orderinvoicingsetup entity [business_unit_msdyn_orderinvoicingsetu
 ### <a name="BKMK_business_unit_msdyn_orderinvoicingsetupdate"></a> business_unit_msdyn_orderinvoicingsetupdate
 
 Same as msdyn_orderinvoicingsetupdate entity [business_unit_msdyn_orderinvoicingsetupdate](msdyn_orderinvoicingsetupdate.md#BKMK_business_unit_msdyn_orderinvoicingsetupdate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_orderinvoicingsetupdate|
@@ -3834,6 +3978,7 @@ Same as msdyn_orderinvoicingsetupdate entity [business_unit_msdyn_orderinvoicing
 ### <a name="BKMK_business_unit_msdyn_payment"></a> business_unit_msdyn_payment
 
 Same as msdyn_payment entity [business_unit_msdyn_payment](msdyn_payment.md#BKMK_business_unit_msdyn_payment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_payment|
@@ -3848,6 +3993,7 @@ Same as msdyn_payment entity [business_unit_msdyn_payment](msdyn_payment.md#BKMK
 ### <a name="BKMK_business_unit_msdyn_paymentdetail"></a> business_unit_msdyn_paymentdetail
 
 Same as msdyn_paymentdetail entity [business_unit_msdyn_paymentdetail](msdyn_paymentdetail.md#BKMK_business_unit_msdyn_paymentdetail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_paymentdetail|
@@ -3862,6 +4008,7 @@ Same as msdyn_paymentdetail entity [business_unit_msdyn_paymentdetail](msdyn_pay
 ### <a name="BKMK_business_unit_msdyn_paymentmethod"></a> business_unit_msdyn_paymentmethod
 
 Same as msdyn_paymentmethod entity [business_unit_msdyn_paymentmethod](msdyn_paymentmethod.md#BKMK_business_unit_msdyn_paymentmethod) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_paymentmethod|
@@ -3876,6 +4023,7 @@ Same as msdyn_paymentmethod entity [business_unit_msdyn_paymentmethod](msdyn_pay
 ### <a name="BKMK_business_unit_msdyn_paymentterm"></a> business_unit_msdyn_paymentterm
 
 Same as msdyn_paymentterm entity [business_unit_msdyn_paymentterm](msdyn_paymentterm.md#BKMK_business_unit_msdyn_paymentterm) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_paymentterm|
@@ -3890,6 +4038,7 @@ Same as msdyn_paymentterm entity [business_unit_msdyn_paymentterm](msdyn_payment
 ### <a name="BKMK_business_unit_msdyn_postalcode"></a> business_unit_msdyn_postalcode
 
 Same as msdyn_postalcode entity [business_unit_msdyn_postalcode](msdyn_postalcode.md#BKMK_business_unit_msdyn_postalcode) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_postalcode|
@@ -3904,6 +4053,7 @@ Same as msdyn_postalcode entity [business_unit_msdyn_postalcode](msdyn_postalcod
 ### <a name="BKMK_business_unit_msdyn_purchaseorder"></a> business_unit_msdyn_purchaseorder
 
 Same as msdyn_purchaseorder entity [business_unit_msdyn_purchaseorder](msdyn_purchaseorder.md#BKMK_business_unit_msdyn_purchaseorder) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_purchaseorder|
@@ -3918,6 +4068,7 @@ Same as msdyn_purchaseorder entity [business_unit_msdyn_purchaseorder](msdyn_pur
 ### <a name="BKMK_business_unit_msdyn_purchaseorderbill"></a> business_unit_msdyn_purchaseorderbill
 
 Same as msdyn_purchaseorderbill entity [business_unit_msdyn_purchaseorderbill](msdyn_purchaseorderbill.md#BKMK_business_unit_msdyn_purchaseorderbill) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_purchaseorderbill|
@@ -3932,6 +4083,7 @@ Same as msdyn_purchaseorderbill entity [business_unit_msdyn_purchaseorderbill](m
 ### <a name="BKMK_business_unit_msdyn_purchaseorderproduct"></a> business_unit_msdyn_purchaseorderproduct
 
 Same as msdyn_purchaseorderproduct entity [business_unit_msdyn_purchaseorderproduct](msdyn_purchaseorderproduct.md#BKMK_business_unit_msdyn_purchaseorderproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_purchaseorderproduct|
@@ -3946,6 +4098,7 @@ Same as msdyn_purchaseorderproduct entity [business_unit_msdyn_purchaseorderprod
 ### <a name="BKMK_business_unit_msdyn_purchaseorderreceipt"></a> business_unit_msdyn_purchaseorderreceipt
 
 Same as msdyn_purchaseorderreceipt entity [business_unit_msdyn_purchaseorderreceipt](msdyn_purchaseorderreceipt.md#BKMK_business_unit_msdyn_purchaseorderreceipt) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_purchaseorderreceipt|
@@ -3960,6 +4113,7 @@ Same as msdyn_purchaseorderreceipt entity [business_unit_msdyn_purchaseorderrece
 ### <a name="BKMK_business_unit_msdyn_purchaseorderreceiptproduct"></a> business_unit_msdyn_purchaseorderreceiptproduct
 
 Same as msdyn_purchaseorderreceiptproduct entity [business_unit_msdyn_purchaseorderreceiptproduct](msdyn_purchaseorderreceiptproduct.md#BKMK_business_unit_msdyn_purchaseorderreceiptproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_purchaseorderreceiptproduct|
@@ -3974,6 +4128,7 @@ Same as msdyn_purchaseorderreceiptproduct entity [business_unit_msdyn_purchaseor
 ### <a name="BKMK_business_unit_msdyn_purchaseordersubstatus"></a> business_unit_msdyn_purchaseordersubstatus
 
 Same as msdyn_purchaseordersubstatus entity [business_unit_msdyn_purchaseordersubstatus](msdyn_purchaseordersubstatus.md#BKMK_business_unit_msdyn_purchaseordersubstatus) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_purchaseordersubstatus|
@@ -3988,6 +4143,7 @@ Same as msdyn_purchaseordersubstatus entity [business_unit_msdyn_purchaseordersu
 ### <a name="BKMK_business_unit_msdyn_quotebookingincident"></a> business_unit_msdyn_quotebookingincident
 
 Same as msdyn_quotebookingincident entity [business_unit_msdyn_quotebookingincident](msdyn_quotebookingincident.md#BKMK_business_unit_msdyn_quotebookingincident) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotebookingincident|
@@ -4002,6 +4158,7 @@ Same as msdyn_quotebookingincident entity [business_unit_msdyn_quotebookingincid
 ### <a name="BKMK_business_unit_msdyn_quotebookingproduct"></a> business_unit_msdyn_quotebookingproduct
 
 Same as msdyn_quotebookingproduct entity [business_unit_msdyn_quotebookingproduct](msdyn_quotebookingproduct.md#BKMK_business_unit_msdyn_quotebookingproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotebookingproduct|
@@ -4016,6 +4173,7 @@ Same as msdyn_quotebookingproduct entity [business_unit_msdyn_quotebookingproduc
 ### <a name="BKMK_business_unit_msdyn_quotebookingservice"></a> business_unit_msdyn_quotebookingservice
 
 Same as msdyn_quotebookingservice entity [business_unit_msdyn_quotebookingservice](msdyn_quotebookingservice.md#BKMK_business_unit_msdyn_quotebookingservice) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotebookingservice|
@@ -4030,6 +4188,7 @@ Same as msdyn_quotebookingservice entity [business_unit_msdyn_quotebookingservic
 ### <a name="BKMK_business_unit_msdyn_quotebookingservicetask"></a> business_unit_msdyn_quotebookingservicetask
 
 Same as msdyn_quotebookingservicetask entity [business_unit_msdyn_quotebookingservicetask](msdyn_quotebookingservicetask.md#BKMK_business_unit_msdyn_quotebookingservicetask) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotebookingservicetask|
@@ -4044,6 +4203,7 @@ Same as msdyn_quotebookingservicetask entity [business_unit_msdyn_quotebookingse
 ### <a name="BKMK_business_unit_msdyn_quotebookingsetup"></a> business_unit_msdyn_quotebookingsetup
 
 Same as msdyn_quotebookingsetup entity [business_unit_msdyn_quotebookingsetup](msdyn_quotebookingsetup.md#BKMK_business_unit_msdyn_quotebookingsetup) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotebookingsetup|
@@ -4058,6 +4218,7 @@ Same as msdyn_quotebookingsetup entity [business_unit_msdyn_quotebookingsetup](m
 ### <a name="BKMK_business_unit_msdyn_quoteinvoicingproduct"></a> business_unit_msdyn_quoteinvoicingproduct
 
 Same as msdyn_quoteinvoicingproduct entity [business_unit_msdyn_quoteinvoicingproduct](msdyn_quoteinvoicingproduct.md#BKMK_business_unit_msdyn_quoteinvoicingproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quoteinvoicingproduct|
@@ -4072,6 +4233,7 @@ Same as msdyn_quoteinvoicingproduct entity [business_unit_msdyn_quoteinvoicingpr
 ### <a name="BKMK_business_unit_msdyn_quoteinvoicingsetup"></a> business_unit_msdyn_quoteinvoicingsetup
 
 Same as msdyn_quoteinvoicingsetup entity [business_unit_msdyn_quoteinvoicingsetup](msdyn_quoteinvoicingsetup.md#BKMK_business_unit_msdyn_quoteinvoicingsetup) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quoteinvoicingsetup|
@@ -4086,6 +4248,7 @@ Same as msdyn_quoteinvoicingsetup entity [business_unit_msdyn_quoteinvoicingsetu
 ### <a name="BKMK_business_unit_msdyn_resourcepaytype"></a> business_unit_msdyn_resourcepaytype
 
 Same as msdyn_resourcepaytype entity [business_unit_msdyn_resourcepaytype](msdyn_resourcepaytype.md#BKMK_business_unit_msdyn_resourcepaytype) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_resourcepaytype|
@@ -4100,6 +4263,7 @@ Same as msdyn_resourcepaytype entity [business_unit_msdyn_resourcepaytype](msdyn
 ### <a name="BKMK_business_unit_msdyn_rma"></a> business_unit_msdyn_rma
 
 Same as msdyn_rma entity [business_unit_msdyn_rma](msdyn_rma.md#BKMK_business_unit_msdyn_rma) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rma|
@@ -4114,6 +4278,7 @@ Same as msdyn_rma entity [business_unit_msdyn_rma](msdyn_rma.md#BKMK_business_un
 ### <a name="BKMK_business_unit_msdyn_rmaproduct"></a> business_unit_msdyn_rmaproduct
 
 Same as msdyn_rmaproduct entity [business_unit_msdyn_rmaproduct](msdyn_rmaproduct.md#BKMK_business_unit_msdyn_rmaproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rmaproduct|
@@ -4128,6 +4293,7 @@ Same as msdyn_rmaproduct entity [business_unit_msdyn_rmaproduct](msdyn_rmaproduc
 ### <a name="BKMK_business_unit_msdyn_rmareceipt"></a> business_unit_msdyn_rmareceipt
 
 Same as msdyn_rmareceipt entity [business_unit_msdyn_rmareceipt](msdyn_rmareceipt.md#BKMK_business_unit_msdyn_rmareceipt) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rmareceipt|
@@ -4142,6 +4308,7 @@ Same as msdyn_rmareceipt entity [business_unit_msdyn_rmareceipt](msdyn_rmareceip
 ### <a name="BKMK_business_unit_msdyn_rmareceiptproduct"></a> business_unit_msdyn_rmareceiptproduct
 
 Same as msdyn_rmareceiptproduct entity [business_unit_msdyn_rmareceiptproduct](msdyn_rmareceiptproduct.md#BKMK_business_unit_msdyn_rmareceiptproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rmareceiptproduct|
@@ -4156,6 +4323,7 @@ Same as msdyn_rmareceiptproduct entity [business_unit_msdyn_rmareceiptproduct](m
 ### <a name="BKMK_business_unit_msdyn_rmasubstatus"></a> business_unit_msdyn_rmasubstatus
 
 Same as msdyn_rmasubstatus entity [business_unit_msdyn_rmasubstatus](msdyn_rmasubstatus.md#BKMK_business_unit_msdyn_rmasubstatus) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rmasubstatus|
@@ -4170,6 +4338,7 @@ Same as msdyn_rmasubstatus entity [business_unit_msdyn_rmasubstatus](msdyn_rmasu
 ### <a name="BKMK_business_unit_msdyn_rtv"></a> business_unit_msdyn_rtv
 
 Same as msdyn_rtv entity [business_unit_msdyn_rtv](msdyn_rtv.md#BKMK_business_unit_msdyn_rtv) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rtv|
@@ -4184,6 +4353,7 @@ Same as msdyn_rtv entity [business_unit_msdyn_rtv](msdyn_rtv.md#BKMK_business_un
 ### <a name="BKMK_business_unit_msdyn_rtvproduct"></a> business_unit_msdyn_rtvproduct
 
 Same as msdyn_rtvproduct entity [business_unit_msdyn_rtvproduct](msdyn_rtvproduct.md#BKMK_business_unit_msdyn_rtvproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rtvproduct|
@@ -4198,6 +4368,7 @@ Same as msdyn_rtvproduct entity [business_unit_msdyn_rtvproduct](msdyn_rtvproduc
 ### <a name="BKMK_business_unit_msdyn_rtvsubstatus"></a> business_unit_msdyn_rtvsubstatus
 
 Same as msdyn_rtvsubstatus entity [business_unit_msdyn_rtvsubstatus](msdyn_rtvsubstatus.md#BKMK_business_unit_msdyn_rtvsubstatus) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rtvsubstatus|
@@ -4212,6 +4383,7 @@ Same as msdyn_rtvsubstatus entity [business_unit_msdyn_rtvsubstatus](msdyn_rtvsu
 ### <a name="BKMK_business_unit_msdyn_servicetasktype"></a> business_unit_msdyn_servicetasktype
 
 Same as msdyn_servicetasktype entity [business_unit_msdyn_servicetasktype](msdyn_servicetasktype.md#BKMK_business_unit_msdyn_servicetasktype) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_servicetasktype|
@@ -4226,6 +4398,7 @@ Same as msdyn_servicetasktype entity [business_unit_msdyn_servicetasktype](msdyn
 ### <a name="BKMK_business_unit_msdyn_shipvia"></a> business_unit_msdyn_shipvia
 
 Same as msdyn_shipvia entity [business_unit_msdyn_shipvia](msdyn_shipvia.md#BKMK_business_unit_msdyn_shipvia) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_shipvia|
@@ -4240,6 +4413,7 @@ Same as msdyn_shipvia entity [business_unit_msdyn_shipvia](msdyn_shipvia.md#BKMK
 ### <a name="BKMK_business_unit_msdyn_taxcode"></a> business_unit_msdyn_taxcode
 
 Same as msdyn_taxcode entity [business_unit_msdyn_taxcode](msdyn_taxcode.md#BKMK_business_unit_msdyn_taxcode) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_taxcode|
@@ -4254,6 +4428,7 @@ Same as msdyn_taxcode entity [business_unit_msdyn_taxcode](msdyn_taxcode.md#BKMK
 ### <a name="BKMK_business_unit_msdyn_taxcodedetail"></a> business_unit_msdyn_taxcodedetail
 
 Same as msdyn_taxcodedetail entity [business_unit_msdyn_taxcodedetail](msdyn_taxcodedetail.md#BKMK_business_unit_msdyn_taxcodedetail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_taxcodedetail|
@@ -4268,6 +4443,7 @@ Same as msdyn_taxcodedetail entity [business_unit_msdyn_taxcodedetail](msdyn_tax
 ### <a name="BKMK_business_unit_msdyn_timeoffrequest"></a> business_unit_msdyn_timeoffrequest
 
 Same as msdyn_timeoffrequest entity [business_unit_msdyn_timeoffrequest](msdyn_timeoffrequest.md#BKMK_business_unit_msdyn_timeoffrequest) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_timeoffrequest|
@@ -4282,6 +4458,7 @@ Same as msdyn_timeoffrequest entity [business_unit_msdyn_timeoffrequest](msdyn_t
 ### <a name="BKMK_business_unit_msdyn_warehouse"></a> business_unit_msdyn_warehouse
 
 Same as msdyn_warehouse entity [business_unit_msdyn_warehouse](msdyn_warehouse.md#BKMK_business_unit_msdyn_warehouse) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_warehouse|
@@ -4296,6 +4473,7 @@ Same as msdyn_warehouse entity [business_unit_msdyn_warehouse](msdyn_warehouse.m
 ### <a name="BKMK_business_unit_msdyn_workorder"></a> business_unit_msdyn_workorder
 
 Same as msdyn_workorder entity [business_unit_msdyn_workorder](msdyn_workorder.md#BKMK_business_unit_msdyn_workorder) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorder|
@@ -4310,6 +4488,7 @@ Same as msdyn_workorder entity [business_unit_msdyn_workorder](msdyn_workorder.m
 ### <a name="BKMK_business_unit_msdyn_workordercharacteristic"></a> business_unit_msdyn_workordercharacteristic
 
 Same as msdyn_workordercharacteristic entity [business_unit_msdyn_workordercharacteristic](msdyn_workordercharacteristic.md#BKMK_business_unit_msdyn_workordercharacteristic) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workordercharacteristic|
@@ -4324,6 +4503,7 @@ Same as msdyn_workordercharacteristic entity [business_unit_msdyn_workorderchara
 ### <a name="BKMK_business_unit_msdyn_workorderincident"></a> business_unit_msdyn_workorderincident
 
 Same as msdyn_workorderincident entity [business_unit_msdyn_workorderincident](msdyn_workorderincident.md#BKMK_business_unit_msdyn_workorderincident) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorderincident|
@@ -4338,6 +4518,7 @@ Same as msdyn_workorderincident entity [business_unit_msdyn_workorderincident](m
 ### <a name="BKMK_business_unit_msdyn_workorderproduct"></a> business_unit_msdyn_workorderproduct
 
 Same as msdyn_workorderproduct entity [business_unit_msdyn_workorderproduct](msdyn_workorderproduct.md#BKMK_business_unit_msdyn_workorderproduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorderproduct|
@@ -4352,6 +4533,7 @@ Same as msdyn_workorderproduct entity [business_unit_msdyn_workorderproduct](msd
 ### <a name="BKMK_business_unit_msdyn_workorderresourcerestriction"></a> business_unit_msdyn_workorderresourcerestriction
 
 Same as msdyn_workorderresourcerestriction entity [business_unit_msdyn_workorderresourcerestriction](msdyn_workorderresourcerestriction.md#BKMK_business_unit_msdyn_workorderresourcerestriction) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorderresourcerestriction|
@@ -4366,6 +4548,7 @@ Same as msdyn_workorderresourcerestriction entity [business_unit_msdyn_workorder
 ### <a name="BKMK_business_unit_msdyn_workorderservice"></a> business_unit_msdyn_workorderservice
 
 Same as msdyn_workorderservice entity [business_unit_msdyn_workorderservice](msdyn_workorderservice.md#BKMK_business_unit_msdyn_workorderservice) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorderservice|
@@ -4380,6 +4563,7 @@ Same as msdyn_workorderservice entity [business_unit_msdyn_workorderservice](msd
 ### <a name="BKMK_business_unit_msdyn_workorderservicetask"></a> business_unit_msdyn_workorderservicetask
 
 Same as msdyn_workorderservicetask entity [business_unit_msdyn_workorderservicetask](msdyn_workorderservicetask.md#BKMK_business_unit_msdyn_workorderservicetask) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workorderservicetask|
@@ -4394,6 +4578,7 @@ Same as msdyn_workorderservicetask entity [business_unit_msdyn_workorderservicet
 ### <a name="BKMK_business_unit_msdyn_workordersubstatus"></a> business_unit_msdyn_workordersubstatus
 
 Same as msdyn_workordersubstatus entity [business_unit_msdyn_workordersubstatus](msdyn_workordersubstatus.md#BKMK_business_unit_msdyn_workordersubstatus) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workordersubstatus|
@@ -4408,6 +4593,7 @@ Same as msdyn_workordersubstatus entity [business_unit_msdyn_workordersubstatus]
 ### <a name="BKMK_business_unit_msdyn_workordertype"></a> business_unit_msdyn_workordertype
 
 Same as msdyn_workordertype entity [business_unit_msdyn_workordertype](msdyn_workordertype.md#BKMK_business_unit_msdyn_workordertype) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_workordertype|
@@ -4422,6 +4608,7 @@ Same as msdyn_workordertype entity [business_unit_msdyn_workordertype](msdyn_wor
 ### <a name="BKMK_business_unit_msdyn_iotalert"></a> business_unit_msdyn_iotalert
 
 Same as msdyn_iotalert entity [business_unit_msdyn_iotalert](msdyn_iotalert.md#BKMK_business_unit_msdyn_iotalert) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_iotalert|
@@ -4436,6 +4623,7 @@ Same as msdyn_iotalert entity [business_unit_msdyn_iotalert](msdyn_iotalert.md#B
 ### <a name="BKMK_business_unit_msdyn_iotdevice"></a> business_unit_msdyn_iotdevice
 
 Same as msdyn_iotdevice entity [business_unit_msdyn_iotdevice](msdyn_iotdevice.md#BKMK_business_unit_msdyn_iotdevice) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_iotdevice|
@@ -4450,6 +4638,7 @@ Same as msdyn_iotdevice entity [business_unit_msdyn_iotdevice](msdyn_iotdevice.m
 ### <a name="BKMK_business_unit_msdyn_iotdevicecategory"></a> business_unit_msdyn_iotdevicecategory
 
 Same as msdyn_iotdevicecategory entity [business_unit_msdyn_iotdevicecategory](msdyn_iotdevicecategory.md#BKMK_business_unit_msdyn_iotdevicecategory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_iotdevicecategory|
@@ -4464,6 +4653,7 @@ Same as msdyn_iotdevicecategory entity [business_unit_msdyn_iotdevicecategory](m
 ### <a name="BKMK_business_unit_msdyn_iotdevicecommand"></a> business_unit_msdyn_iotdevicecommand
 
 Same as msdyn_iotdevicecommand entity [business_unit_msdyn_iotdevicecommand](msdyn_iotdevicecommand.md#BKMK_business_unit_msdyn_iotdevicecommand) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_iotdevicecommand|
@@ -4478,6 +4668,7 @@ Same as msdyn_iotdevicecommand entity [business_unit_msdyn_iotdevicecommand](msd
 ### <a name="BKMK_business_unit_msdyn_iotdeviceregistrationhistory"></a> business_unit_msdyn_iotdeviceregistrationhistory
 
 Same as msdyn_iotdeviceregistrationhistory entity [business_unit_msdyn_iotdeviceregistrationhistory](msdyn_iotdeviceregistrationhistory.md#BKMK_business_unit_msdyn_iotdeviceregistrationhistory) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_iotdeviceregistrationhistory|
@@ -4492,6 +4683,7 @@ Same as msdyn_iotdeviceregistrationhistory entity [business_unit_msdyn_iotdevice
 ### <a name="BKMK_business_unit_exchangesyncidmapping"></a> business_unit_exchangesyncidmapping
 
 Same as exchangesyncidmapping entity [business_unit_exchangesyncidmapping](exchangesyncidmapping.md#BKMK_business_unit_exchangesyncidmapping) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|exchangesyncidmapping|
@@ -4506,6 +4698,7 @@ Same as exchangesyncidmapping entity [business_unit_exchangesyncidmapping](excha
 ### <a name="BKMK_business_unit_interactionforemail"></a> business_unit_interactionforemail
 
 Same as interactionforemail entity [business_unit_interactionforemail](interactionforemail.md#BKMK_business_unit_interactionforemail) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|interactionforemail|
@@ -4520,6 +4713,7 @@ Same as interactionforemail entity [business_unit_interactionforemail](interacti
 ### <a name="BKMK_business_unit_knowledgearticle"></a> business_unit_knowledgearticle
 
 Same as knowledgearticle entity [business_unit_knowledgearticle](knowledgearticle.md#BKMK_business_unit_knowledgearticle) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|knowledgearticle|
@@ -4534,6 +4728,7 @@ Same as knowledgearticle entity [business_unit_knowledgearticle](knowledgearticl
 ### <a name="BKMK_business_unit_sharepointdocumentlocation"></a> business_unit_sharepointdocumentlocation
 
 Same as sharepointdocumentlocation entity [business_unit_sharepointdocumentlocation](sharepointdocumentlocation.md#BKMK_business_unit_sharepointdocumentlocation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocumentlocation|
@@ -4548,6 +4743,7 @@ Same as sharepointdocumentlocation entity [business_unit_sharepointdocumentlocat
 ### <a name="BKMK_business_unit_goal"></a> business_unit_goal
 
 Same as goal entity [business_unit_goal](goal.md#BKMK_business_unit_goal) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|goal|
@@ -4562,6 +4758,7 @@ Same as goal entity [business_unit_goal](goal.md#BKMK_business_unit_goal) Many-T
 ### <a name="BKMK_business_unit_mailbox"></a> business_unit_mailbox
 
 Same as mailbox entity [business_unit_mailbox](mailbox.md#BKMK_business_unit_mailbox) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailbox|
@@ -4576,6 +4773,7 @@ Same as mailbox entity [business_unit_mailbox](mailbox.md#BKMK_business_unit_mai
 ### <a name="BKMK_business_unit_channelaccessprofile"></a> business_unit_channelaccessprofile
 
 Same as channelaccessprofile entity [business_unit_channelaccessprofile](channelaccessprofile.md#BKMK_business_unit_channelaccessprofile) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|channelaccessprofile|
@@ -4590,6 +4788,7 @@ Same as channelaccessprofile entity [business_unit_channelaccessprofile](channel
 ### <a name="BKMK_business_unit_externalparty"></a> business_unit_externalparty
 
 Same as externalparty entity [business_unit_externalparty](externalparty.md#BKMK_business_unit_externalparty) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|externalparty|
@@ -4604,6 +4803,7 @@ Same as externalparty entity [business_unit_externalparty](externalparty.md#BKMK
 ### <a name="BKMK_business_unit_recurrencerule"></a> business_unit_recurrencerule
 
 Same as recurrencerule entity [business_unit_recurrencerule](recurrencerule.md#BKMK_business_unit_recurrencerule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurrencerule|
@@ -4618,6 +4818,7 @@ Same as recurrencerule entity [business_unit_recurrencerule](recurrencerule.md#B
 ### <a name="BKMK_business_unit_profilerule"></a> business_unit_profilerule
 
 Same as channelaccessprofilerule entity [business_unit_profilerule](channelaccessprofilerule.md#BKMK_business_unit_profilerule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|channelaccessprofilerule|
@@ -4632,6 +4833,7 @@ Same as channelaccessprofilerule entity [business_unit_profilerule](channelacces
 ### <a name="BKMK_BusinessUnit_AsyncOperations"></a> BusinessUnit_AsyncOperations
 
 Same as asyncoperation entity [BusinessUnit_AsyncOperations](asyncoperation.md#BKMK_BusinessUnit_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -4646,6 +4848,7 @@ Same as asyncoperation entity [BusinessUnit_AsyncOperations](asyncoperation.md#B
 ### <a name="BKMK_BusinessUnit_ImportLogs"></a> BusinessUnit_ImportLogs
 
 Same as importlog entity [BusinessUnit_ImportLogs](importlog.md#BKMK_BusinessUnit_ImportLogs) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|importlog|
@@ -4660,6 +4863,7 @@ Same as importlog entity [BusinessUnit_ImportLogs](importlog.md#BKMK_BusinessUni
 ### <a name="BKMK_business_unit_user_settings"></a> business_unit_user_settings
 
 Same as usersettings entity [business_unit_user_settings](usersettings.md#BKMK_business_unit_user_settings) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|usersettings|
@@ -4674,6 +4878,7 @@ Same as usersettings entity [business_unit_user_settings](usersettings.md#BKMK_b
 ### <a name="BKMK_userentityuisettings_businessunit"></a> userentityuisettings_businessunit
 
 Same as userentityuisettings entity [userentityuisettings_businessunit](userentityuisettings.md#BKMK_userentityuisettings_businessunit) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityuisettings|
@@ -4688,6 +4893,7 @@ Same as userentityuisettings entity [userentityuisettings_businessunit](userenti
 ### <a name="BKMK_BusinessUnit_SyncError"></a> BusinessUnit_SyncError
 
 Same as syncerror entity [BusinessUnit_SyncError](syncerror.md#BKMK_BusinessUnit_SyncError) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -4702,6 +4908,7 @@ Same as syncerror entity [BusinessUnit_SyncError](syncerror.md#BKMK_BusinessUnit
 ### <a name="BKMK_business_unit_sharepointsites"></a> business_unit_sharepointsites
 
 Same as sharepointsite entity [business_unit_sharepointsites](sharepointsite.md#BKMK_business_unit_sharepointsites) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointsite|
@@ -4716,6 +4923,7 @@ Same as sharepointsite entity [business_unit_sharepointsites](sharepointsite.md#
 ### <a name="BKMK_business_unit_feedback"></a> business_unit_feedback
 
 Same as feedback entity [business_unit_feedback](feedback.md#BKMK_business_unit_feedback) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|feedback|
@@ -4730,6 +4938,7 @@ Same as feedback entity [business_unit_feedback](feedback.md#BKMK_business_unit_
 ### <a name="BKMK_business_unit_roles"></a> business_unit_roles
 
 Same as role entity [business_unit_roles](role.md#BKMK_business_unit_roles) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|role|
@@ -4744,6 +4953,7 @@ Same as role entity [business_unit_roles](role.md#BKMK_business_unit_roles) Many
 ### <a name="BKMK_business_unit_postfollows"></a> business_unit_postfollows
 
 Same as postfollow entity [business_unit_postfollows](postfollow.md#BKMK_business_unit_postfollows) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|postfollow|
@@ -4758,6 +4968,7 @@ Same as postfollow entity [business_unit_postfollows](postfollow.md#BKMK_busines
 ### <a name="BKMK_business_unit_teams"></a> business_unit_teams
 
 Same as team entity [business_unit_teams](team.md#BKMK_business_unit_teams) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|team|
@@ -4772,6 +4983,7 @@ Same as team entity [business_unit_teams](team.md#BKMK_business_unit_teams) Many
 ### <a name="BKMK_business_unit_queues2"></a> business_unit_queues2
 
 Same as queue entity [business_unit_queues2](queue.md#BKMK_business_unit_queues2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queue|
@@ -4786,6 +4998,7 @@ Same as queue entity [business_unit_queues2](queue.md#BKMK_business_unit_queues2
 ### <a name="BKMK_business_unit_goalrollupquery"></a> business_unit_goalrollupquery
 
 Same as goalrollupquery entity [business_unit_goalrollupquery](goalrollupquery.md#BKMK_business_unit_goalrollupquery) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|goalrollupquery|
@@ -4800,6 +5013,7 @@ Same as goalrollupquery entity [business_unit_goalrollupquery](goalrollupquery.m
 ### <a name="BKMK_business_unit_userquery"></a> business_unit_userquery
 
 Same as userquery entity [business_unit_userquery](userquery.md#BKMK_business_unit_userquery) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userquery|
@@ -4814,6 +5028,7 @@ Same as userquery entity [business_unit_userquery](userquery.md#BKMK_business_un
 ### <a name="BKMK_BusinessUnit_Imports"></a> BusinessUnit_Imports
 
 Same as import entity [BusinessUnit_Imports](import.md#BKMK_BusinessUnit_Imports) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|import|
@@ -4828,6 +5043,7 @@ Same as import entity [BusinessUnit_Imports](import.md#BKMK_BusinessUnit_Imports
 ### <a name="BKMK_BusinessUnit_ImportFiles"></a> BusinessUnit_ImportFiles
 
 Same as importfile entity [BusinessUnit_ImportFiles](importfile.md#BKMK_BusinessUnit_ImportFiles) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|importfile|
@@ -4842,6 +5058,7 @@ Same as importfile entity [BusinessUnit_ImportFiles](importfile.md#BKMK_Business
 ### <a name="BKMK_business_unit_letter_activities"></a> business_unit_letter_activities
 
 Same as letter entity [business_unit_letter_activities](letter.md#BKMK_business_unit_letter_activities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -4856,6 +5073,7 @@ Same as letter entity [business_unit_letter_activities](letter.md#BKMK_business_
 ### <a name="BKMK_businessunit_mailboxtrackingfolder"></a> businessunit_mailboxtrackingfolder
 
 Same as mailboxtrackingfolder entity [businessunit_mailboxtrackingfolder](mailboxtrackingfolder.md#BKMK_businessunit_mailboxtrackingfolder) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -4870,6 +5088,7 @@ Same as mailboxtrackingfolder entity [businessunit_mailboxtrackingfolder](mailbo
 ### <a name="BKMK_business_unit_queues"></a> business_unit_queues
 
 Same as queue entity [business_unit_queues](queue.md#BKMK_business_unit_queues) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queue|
@@ -4884,6 +5103,7 @@ Same as queue entity [business_unit_queues](queue.md#BKMK_business_unit_queues) 
 ### <a name="BKMK_business_unit_annotations"></a> business_unit_annotations
 
 Same as annotation entity [business_unit_annotations](annotation.md#BKMK_business_unit_annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -4898,6 +5118,7 @@ Same as annotation entity [business_unit_annotations](annotation.md#BKMK_busines
 ### <a name="BKMK_business_unit_workflow"></a> business_unit_workflow
 
 Same as workflow entity [business_unit_workflow](workflow.md#BKMK_business_unit_workflow) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|workflow|
@@ -4912,6 +5133,7 @@ Same as workflow entity [business_unit_workflow](workflow.md#BKMK_business_unit_
 ### <a name="BKMK_business_unit_personaldocumenttemplates"></a> business_unit_personaldocumenttemplates
 
 Same as personaldocumenttemplate entity [business_unit_personaldocumenttemplates](personaldocumenttemplate.md#BKMK_business_unit_personaldocumenttemplates) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|personaldocumenttemplate|
@@ -4926,6 +5148,7 @@ Same as personaldocumenttemplate entity [business_unit_personaldocumenttemplates
 ### <a name="BKMK_businessunit_principalobjectattributeaccess"></a> businessunit_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [businessunit_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_businessunit_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -4940,6 +5163,7 @@ Same as principalobjectattributeaccess entity [businessunit_principalobjectattri
 ### <a name="BKMK_business_unit_emailserverprofile"></a> business_unit_emailserverprofile
 
 Same as emailserverprofile entity [business_unit_emailserverprofile](emailserverprofile.md#BKMK_business_unit_emailserverprofile) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|emailserverprofile|
@@ -4954,6 +5178,7 @@ Same as emailserverprofile entity [business_unit_emailserverprofile](emailserver
 ### <a name="BKMK_business_unit_templates"></a> business_unit_templates
 
 Same as template entity [business_unit_templates](template.md#BKMK_business_unit_templates) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|template|
@@ -4968,6 +5193,7 @@ Same as template entity [business_unit_templates](template.md#BKMK_business_unit
 ### <a name="BKMK_business_unit_contacts"></a> business_unit_contacts
 
 Same as contact entity [business_unit_contacts](contact.md#BKMK_business_unit_contacts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contact|
@@ -4982,6 +5208,7 @@ Same as contact entity [business_unit_contacts](contact.md#BKMK_business_unit_co
 ### <a name="BKMK_BulkDeleteOperation_BusinessUnit"></a> BulkDeleteOperation_BusinessUnit
 
 Same as bulkdeleteoperation entity [BulkDeleteOperation_BusinessUnit](bulkdeleteoperation.md#BKMK_BulkDeleteOperation_BusinessUnit) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeleteoperation|
@@ -4996,6 +5223,7 @@ Same as bulkdeleteoperation entity [BulkDeleteOperation_BusinessUnit](bulkdelete
 ### <a name="BKMK_business_unit_task_activities"></a> business_unit_task_activities
 
 Same as task entity [business_unit_task_activities](task.md#BKMK_business_unit_task_activities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -5010,6 +5238,7 @@ Same as task entity [business_unit_task_activities](task.md#BKMK_business_unit_t
 ### <a name="BKMK_business_unit_actioncards"></a> business_unit_actioncards
 
 Same as actioncard entity [business_unit_actioncards](actioncard.md#BKMK_business_unit_actioncards) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|actioncard|
@@ -5024,6 +5253,7 @@ Same as actioncard entity [business_unit_actioncards](actioncard.md#BKMK_busines
 ### <a name="BKMK_business_unit_asyncoperation"></a> business_unit_asyncoperation
 
 Same as asyncoperation entity [business_unit_asyncoperation](asyncoperation.md#BKMK_business_unit_asyncoperation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -5038,6 +5268,7 @@ Same as asyncoperation entity [business_unit_asyncoperation](asyncoperation.md#B
 ### <a name="BKMK_business_unit_mailmergetemplates"></a> business_unit_mailmergetemplates
 
 Same as mailmergetemplate entity [business_unit_mailmergetemplates](mailmergetemplate.md#BKMK_business_unit_mailmergetemplates) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailmergetemplate|
@@ -5052,6 +5283,7 @@ Same as mailmergetemplate entity [business_unit_mailmergetemplates](mailmergetem
 ### <a name="BKMK_business_unit_userform"></a> business_unit_userform
 
 Same as userform entity [business_unit_userform](userform.md#BKMK_business_unit_userform) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userform|
@@ -5066,6 +5298,7 @@ Same as userform entity [business_unit_userform](userform.md#BKMK_business_unit_
 ### <a name="BKMK_business_unit_category"></a> business_unit_category
 
 Same as category entity [business_unit_category](category.md#BKMK_business_unit_category) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|category|
@@ -5080,6 +5313,7 @@ Same as category entity [business_unit_category](category.md#BKMK_business_unit_
 ### <a name="BKMK_business_unit_connections"></a> business_unit_connections
 
 Same as connection entity [business_unit_connections](connection.md#BKMK_business_unit_connections) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -5094,6 +5328,7 @@ Same as connection entity [business_unit_connections](connection.md#BKMK_busines
 ### <a name="BKMK_BusinessUnit_SyncErrors"></a> BusinessUnit_SyncErrors
 
 Same as syncerror entity [BusinessUnit_SyncErrors](syncerror.md#BKMK_BusinessUnit_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -5108,6 +5343,7 @@ Same as syncerror entity [BusinessUnit_SyncErrors](syncerror.md#BKMK_BusinessUni
 ### <a name="BKMK_business_unit_workflowlogs"></a> business_unit_workflowlogs
 
 Same as workflowlog entity [business_unit_workflowlogs](workflowlog.md#BKMK_business_unit_workflowlogs) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|workflowlog|
@@ -5122,6 +5358,7 @@ Same as workflowlog entity [business_unit_workflowlogs](workflowlog.md#BKMK_busi
 ### <a name="BKMK_business_unit_phone_call_activities"></a> business_unit_phone_call_activities
 
 Same as phonecall entity [business_unit_phone_call_activities](phonecall.md#BKMK_business_unit_phone_call_activities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -5136,6 +5373,7 @@ Same as phonecall entity [business_unit_phone_call_activities](phonecall.md#BKMK
 ### <a name="BKMK_business_unit_fax_activities"></a> business_unit_fax_activities
 
 Same as fax entity [business_unit_fax_activities](fax.md#BKMK_business_unit_fax_activities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -5150,6 +5388,7 @@ Same as fax entity [business_unit_fax_activities](fax.md#BKMK_business_unit_fax_
 ### <a name="BKMK_business_unit_appointment_activities"></a> business_unit_appointment_activities
 
 Same as appointment entity [business_unit_appointment_activities](appointment.md#BKMK_business_unit_appointment_activities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -5164,6 +5403,7 @@ Same as appointment entity [business_unit_appointment_activities](appointment.md
 ### <a name="BKMK_business_unit_routingrule"></a> business_unit_routingrule
 
 Same as routingrule entity [business_unit_routingrule](routingrule.md#BKMK_business_unit_routingrule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|routingrule|
@@ -5178,6 +5418,7 @@ Same as routingrule entity [business_unit_routingrule](routingrule.md#BKMK_busin
 ### <a name="BKMK_BusinessUnit_DuplicateRules"></a> BusinessUnit_DuplicateRules
 
 Same as duplicaterule entity [BusinessUnit_DuplicateRules](duplicaterule.md#BKMK_BusinessUnit_DuplicateRules) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterule|
@@ -5192,6 +5433,7 @@ Same as duplicaterule entity [BusinessUnit_DuplicateRules](duplicaterule.md#BKMK
 ### <a name="BKMK_business_unit_sharepointdocument"></a> business_unit_sharepointdocument
 
 Same as sharepointdocument entity [business_unit_sharepointdocument](sharepointdocument.md#BKMK_business_unit_sharepointdocument) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocument|
@@ -5206,6 +5448,7 @@ Same as sharepointdocument entity [business_unit_sharepointdocument](sharepointd
 ### <a name="BKMK_business_unit_email_activities"></a> business_unit_email_activities
 
 Same as email entity [business_unit_email_activities](email.md#BKMK_business_unit_email_activities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -5220,6 +5463,7 @@ Same as email entity [business_unit_email_activities](email.md#BKMK_business_uni
 ### <a name="BKMK_business_unit_sharepointdocument2"></a> business_unit_sharepointdocument2
 
 Same as sharepointdocument entity [business_unit_sharepointdocument2](sharepointdocument.md#BKMK_business_unit_sharepointdocument2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocument|
@@ -5234,6 +5478,7 @@ Same as sharepointdocument entity [business_unit_sharepointdocument2](sharepoint
 ### <a name="BKMK_business_unit_socialactivity"></a> business_unit_socialactivity
 
 Same as socialactivity entity [business_unit_socialactivity](socialactivity.md#BKMK_business_unit_socialactivity) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -5248,6 +5493,7 @@ Same as socialactivity entity [business_unit_socialactivity](socialactivity.md#B
 ### <a name="BKMK_business_unit_reports"></a> business_unit_reports
 
 Same as report entity [business_unit_reports](report.md#BKMK_business_unit_reports) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|report|
@@ -5262,6 +5508,7 @@ Same as report entity [business_unit_reports](report.md#BKMK_business_unit_repor
 ### <a name="BKMK_business_unit_calendars"></a> business_unit_calendars
 
 Same as calendar entity [business_unit_calendars](calendar.md#BKMK_business_unit_calendars) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|calendar|
@@ -5276,6 +5523,7 @@ Same as calendar entity [business_unit_calendars](calendar.md#BKMK_business_unit
 ### <a name="BKMK_BusinessUnit_ImportMaps"></a> BusinessUnit_ImportMaps
 
 Same as importmap entity [BusinessUnit_ImportMaps](importmap.md#BKMK_BusinessUnit_ImportMaps) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|importmap|
@@ -5290,6 +5538,7 @@ Same as importmap entity [BusinessUnit_ImportMaps](importmap.md#BKMK_BusinessUni
 ### <a name="BKMK_business_unit_convertrule"></a> business_unit_convertrule
 
 Same as convertrule entity [business_unit_convertrule](convertrule.md#BKMK_business_unit_convertrule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|convertrule|
@@ -5304,6 +5553,7 @@ Same as convertrule entity [business_unit_convertrule](convertrule.md#BKMK_busin
 ### <a name="BKMK_userentityinstancedata_businessunit"></a> userentityinstancedata_businessunit
 
 Same as userentityinstancedata entity [userentityinstancedata_businessunit](userentityinstancedata.md#BKMK_userentityinstancedata_businessunit) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -5318,6 +5568,7 @@ Same as userentityinstancedata entity [userentityinstancedata_businessunit](user
 ### <a name="BKMK_business_unit_customer_relationship"></a> business_unit_customer_relationship
 
 Same as customerrelationship entity [business_unit_customer_relationship](customerrelationship.md#BKMK_business_unit_customer_relationship) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|customerrelationship|
@@ -5332,6 +5583,7 @@ Same as customerrelationship entity [business_unit_customer_relationship](custom
 ### <a name="BKMK_business_unit_slakpiinstance"></a> business_unit_slakpiinstance
 
 Same as slakpiinstance entity [business_unit_slakpiinstance](slakpiinstance.md#BKMK_business_unit_slakpiinstance) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|slakpiinstance|
@@ -5346,6 +5598,7 @@ Same as slakpiinstance entity [business_unit_slakpiinstance](slakpiinstance.md#B
 ### <a name="BKMK_business_unit_emailsignatures"></a> business_unit_emailsignatures
 
 Same as emailsignature entity [business_unit_emailsignatures](emailsignature.md#BKMK_business_unit_emailsignatures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|emailsignature|
@@ -5360,6 +5613,7 @@ Same as emailsignature entity [business_unit_emailsignatures](emailsignature.md#
 ### <a name="BKMK_business_unit_recurringappointmentmaster_activities"></a> business_unit_recurringappointmentmaster_activities
 
 Same as recurringappointmentmaster entity [business_unit_recurringappointmentmaster_activities](recurringappointmentmaster.md#BKMK_business_unit_recurringappointmentmaster_activities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -5374,6 +5628,7 @@ Same as recurringappointmentmaster entity [business_unit_recurringappointmentmas
 ### <a name="BKMK_business_unit_slabase"></a> business_unit_slabase
 
 Same as sla entity [business_unit_slabase](sla.md#BKMK_business_unit_slabase) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sla|
@@ -5388,6 +5643,7 @@ Same as sla entity [business_unit_slabase](sla.md#BKMK_business_unit_slabase) Ma
 ### <a name="BKMK_business_unit_userqueryvisualizations"></a> business_unit_userqueryvisualizations
 
 Same as userqueryvisualization entity [business_unit_userqueryvisualizations](userqueryvisualization.md#BKMK_business_unit_userqueryvisualizations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userqueryvisualization|
@@ -5402,6 +5658,7 @@ Same as userqueryvisualization entity [business_unit_userqueryvisualizations](us
 ### <a name="BKMK_actioncardusersettings_businessunit"></a> actioncardusersettings_businessunit
 
 Same as actioncardusersettings entity [actioncardusersettings_businessunit](actioncardusersettings.md#BKMK_actioncardusersettings_businessunit) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|actioncardusersettings|
@@ -5416,6 +5673,7 @@ Same as actioncardusersettings entity [actioncardusersettings_businessunit](acti
 ### <a name="BKMK_business_unit_system_users"></a> business_unit_system_users
 
 Same as systemuser entity [business_unit_system_users](systemuser.md#BKMK_business_unit_system_users) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|systemuser|
@@ -5430,6 +5688,7 @@ Same as systemuser entity [business_unit_system_users](systemuser.md#BKMK_busine
 ### <a name="BKMK_business_unit_socialprofiles"></a> business_unit_socialprofiles
 
 Same as socialprofile entity [business_unit_socialprofiles](socialprofile.md#BKMK_business_unit_socialprofiles) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialprofile|
@@ -5444,6 +5703,7 @@ Same as socialprofile entity [business_unit_socialprofiles](socialprofile.md#BKM
 ### <a name="BKMK_BusinessUnit_BulkDeleteFailures"></a> BusinessUnit_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [BusinessUnit_BulkDeleteFailures](bulkdeletefailure.md#BKMK_BusinessUnit_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -5458,6 +5718,7 @@ Same as bulkdeletefailure entity [BusinessUnit_BulkDeleteFailures](bulkdeletefai
 ### <a name="BKMK_BusinessUnit_ProcessSessions"></a> BusinessUnit_ProcessSessions
 
 Same as processsession entity [BusinessUnit_ProcessSessions](processsession.md#BKMK_BusinessUnit_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -5472,6 +5733,7 @@ Same as processsession entity [BusinessUnit_ProcessSessions](processsession.md#B
 ### <a name="BKMK_business_unit_accounts"></a> business_unit_accounts
 
 Same as account entity [business_unit_accounts](account.md#BKMK_business_unit_accounts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|account|
@@ -5486,6 +5748,7 @@ Same as account entity [business_unit_accounts](account.md#BKMK_business_unit_ac
 ### <a name="BKMK_business_unit_parent_business_unit"></a> business_unit_parent_business_unit
 
 Same as businessunit entity [business_unit_parent_business_unit](businessunit.md#BKMK_business_unit_parent_business_unit) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|businessunit|
@@ -5500,6 +5763,7 @@ Same as businessunit entity [business_unit_parent_business_unit](businessunit.md
 ### <a name="BKMK_Owning_businessunit_processsessions"></a> Owning_businessunit_processsessions
 
 Same as processsession entity [Owning_businessunit_processsessions](processsession.md#BKMK_Owning_businessunit_processsessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -5514,6 +5778,7 @@ Same as processsession entity [Owning_businessunit_processsessions](processsessi
 ### <a name="BKMK_business_unit_activitypointer"></a> business_unit_activitypointer
 
 Same as activitypointer entity [business_unit_activitypointer](activitypointer.md#BKMK_business_unit_activitypointer) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|

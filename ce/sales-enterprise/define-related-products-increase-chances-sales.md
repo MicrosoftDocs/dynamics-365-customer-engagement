@@ -3,8 +3,9 @@ title: "Define related products to increase sales (Dynamics 365 for Sales) | Mic
 description: "Improve your opportunities to increase sales by adding related products as suggestions for up-sell, cross-sell, accessories, or substitutes in Dynamics 365 for Sales."
 keywords: "Related product"
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.custom: 
+ms.service: dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -13,7 +14,7 @@ author: "shubhadaj"
 ms.assetid: feff6902-ef54-47ff-a13f-e5edc213adb0
 author: shubhadaj
 ms.author: shujoshi
-manager: brycho
+manager: sakudes
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -47,19 +48,19 @@ Improve your opportunities to increase sales by adding related products as sugge
  
     ![Add New Product Relationship button on the Relationships tab](media/relationships-tab.png "Add New Product Relationship button on the Relationships tab")
 
-6.	In the **New Product Relationship** form, enter the following details: 
+6. In the **New Product Relationship** form, enter the following details: 
 
-    - **Related Product**. Select a product that you want to add as a related product to the existing product record you're working on. 
+   - **Related Product**. Select a product that you want to add as a related product to the existing product record you're working on. 
     
-    - **Sales Relation Type**. Select whether you want to add the product as an up-sell, cross-sell, accessory, or substitute product. 
+   - **Sales Relation Type**. Select whether you want to add the product as an up-sell, cross-sell, accessory, or substitute product. 
     
-    - **Direction**. Select whether the relationship between the products will be uni-directional or bi-directional. When you select Uni-Directional, the product that you select in Related Product will be shown as a recommendation for the existing product but not vice-versa. 
+   - **Direction**. Select whether the relationship between the products will be uni-directional or bi-directional. When you select Uni-Directional, the product that you select in Related Product will be shown as a recommendation for the existing product but not vice-versa. 
 
-7.	Select **Save** or **Save & Close**. 
+7. Select **Save** or **Save & Close**. 
 
 
 > [!NOTE]
-
+> 
 > Currently, product suggestions are not supported in the Sales Hub app. 
 
 
@@ -67,25 +68,25 @@ Improve your opportunities to increase sales by adding related products as sugge
 
 1. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
   
-2.  Select **Families & Product**.  
+2. Select **Families & Product**.  
   
-3.  Open a product you want to define related products for. The product must be in the **Draft**, **Active** or **Under Revision** state.  
+3. Open a product you want to define related products for. The product must be in the **Draft**, **Active** or **Under Revision** state.  
   
-4.  In the **Product Relationships** section, select the **Add Product Relationship** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button").  
+4. In the **Product Relationships** section, select the **Add Product Relationship** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button").  
   
-5.  In the quick form, enter the following details:  
+5. In the quick form, enter the following details:  
   
-    - **Related Product**. Select a product that you want to add as a related product to the existing product record you're working on.  
+   - **Related Product**. Select a product that you want to add as a related product to the existing product record you're working on.  
   
-    - **Sales Relation Type**. Select whether you want to add the product as an up-sell, cross-sell, accessory, or substitute product.  
+   - **Sales Relation Type**. Select whether you want to add the product as an up-sell, cross-sell, accessory, or substitute product.  
   
-    - **Direction**. Select whether the relationship between the products will be uni-directional or bi-directional. When you select **Uni-Directional**, the product that you select in **Related Product** will be shown as a recommendation for the existing product but not vice-versa.  
+   - **Direction**. Select whether the relationship between the products will be uni-directional or bi-directional. When you select **Uni-Directional**, the product that you select in **Related Product** will be shown as a recommendation for the existing product but not vice-versa.  
   
-6.  Select **Save**.  
+6. Select **Save**.  
   
- When you add a product to an opportunity, the sales agents can see the related product as suggestions for an opportunity. The **Suggestions** dialog box on the opportunity record suggests only those products that are related to the main product and have the same price list as the one associated with the opportunity.  
+   When you add a product to an opportunity, the sales agents can see the related product as suggestions for an opportunity. The **Suggestions** dialog box on the opportunity record suggests only those products that are related to the main product and have the same price list as the one associated with the opportunity.  
   
- ![Product suggestions an opportunity in Dynamics 365](../sales-enterprise/media/v7-product-suggestions.png "Product suggestions an opportunity in Dynamics 365 for Sales")  
+   ![Product suggestions an opportunity in Dynamics 365](../sales-enterprise/media/v7-product-suggestions.png "Product suggestions an opportunity in Dynamics 365 for Sales")  
   
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Publish a product or bundle to make it available for selling](../sales-enterprise/publish-product-bundle-make-available-selling.md)  

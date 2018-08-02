@@ -1,21 +1,25 @@
 ---
 title: "Preview feature: Let Cortana help you track your Dynamics 365 deals and activities (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 9c21a26c-e500-4667-aa50-676a59b63d9e
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 8
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+topic-status: Drafting
 ---
+
 # Preview feature: Let Cortana help you track your Dynamics 365 deals and activities 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]

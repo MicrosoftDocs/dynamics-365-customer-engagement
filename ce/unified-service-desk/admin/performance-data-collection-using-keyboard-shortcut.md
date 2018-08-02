@@ -1,10 +1,12 @@
 ---
 title: "Performance data collection using keyboard shortcuts | MicrosoftDocs"
 description: "Learn about Unified Service Desk performance data collection to collect data about the operational events, errors, and performance in a client application and to create log files using keyboard shortcuts"
-ms.custom: ""
+ms.custom:
+  - dyn365-a11y
+  - dyn365-USD, dyn365-admin
 ms.date: 02/06/2018
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -15,9 +17,9 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: E838A9E7-4ED6-44DF-B2E9-0A3E3A82EA4B
-author: "kabala123"
-ms.author: "kabala"
-manager: "sakudes"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Performance data collection
 Starting with [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)] performance data collection enables you to collect data about operational events in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application to log files, which is used to identify and troubleshoot performance issues.
@@ -72,8 +74,8 @@ To configure a new performance data collection keyboard shortcut:
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
  
 3. Open the Audit & Diagnostics Setting record in the **Audit & Diagnostics Settings** section.
-    > [!Note]
-    > If there is no existing record, create a new Audit & Diagnostics Setting record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create an Audit & Diagnostics record to use for diagnostics](../admin/configure-auditing-diagnostics-unified-service-desk.md).
+   > [!Note]
+   > If there is no existing record, create a new Audit & Diagnostics Setting record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create an Audit & Diagnostics record to use for diagnostics](../admin/configure-auditing-diagnostics-unified-service-desk.md).
 
 4. Expand the **Diagnostics Settings** area to see **Performance Data Collection**.
 
@@ -90,12 +92,12 @@ To configure a new performance data collection keyboard shortcut:
 ### Start performance data collection using a keyboard shortcut
 
 1. Press **Ctrl+Alt+Q** or the configured keyboard shortcut to start collecting performance data. 
-Unified Service Desk displays a window asking - **Do you want to start collecting performance data?**.
+   Unified Service Desk displays a window asking - **Do you want to start collecting performance data?**.
 
    ![Do you want to start collecting performance data](../../unified-service-desk/media/usd-keyboard-shortcut-start-collecting-perf-data.PNG "Do you want to start collecting performance data")
 
-    > [!Note]
-    > When you press the keyboard shortcut and if [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] does not display the performance data collection starting window, then ensure the keyboard focus is not on the Internet Explorer Webpage. Press **Alt+0** to bring the keyboard focus outside the Internet Explorer webpage, and then press the keyboard shortcut to start the performance data collection. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)
+   > [!Note]
+   > When you press the keyboard shortcut and if [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] does not display the performance data collection starting window, then ensure the keyboard focus is not on the Internet Explorer Webpage. Press **Alt+0** to bring the keyboard focus outside the Internet Explorer webpage, and then press the keyboard shortcut to start the performance data collection. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)
 
 2. Click **Yes** to start collecting the performance data.
 
@@ -106,12 +108,12 @@ Unified Service Desk displays a window asking - **Do you want to start collectin
 
 ### Stop performance data collection using keyboard shortcut
 
-1.	Press **Ctrl+Alt+P** or the configured keyboard shortcut to stop the collection of performance data.</br>
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays a window with a message - **Do you want to stop collecting performance data? PerfSessionId - XXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX**.
+1. Press **Ctrl+Alt+P** or the configured keyboard shortcut to stop the collection of performance data.</br>
+   [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays a window with a message - **Do you want to stop collecting performance data? PerfSessionId - XXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX**.
 
-    ![Do you want to stop collecting performance data](../../unified-service-desk/media/usd-keyboard-shortcut-stop-collecting-perf-data.PNG "Do you want to stop collecting performance data")
+   ![Do you want to stop collecting performance data](../../unified-service-desk/media/usd-keyboard-shortcut-stop-collecting-perf-data.PNG "Do you want to stop collecting performance data")
 
-2.	Click **Yes** to stop collecting the performance data.
+2. Click **Yes** to stop collecting the performance data.
 
 > [!Note]
 > If you press **Ctrl+Alt+P** after you stop collecting performance data for a session, Unified Service Desk displays a window **Performance data collection has already stopped**.

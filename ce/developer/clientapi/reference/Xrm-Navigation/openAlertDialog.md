@@ -41,7 +41,7 @@ Xrm.Navigation.openAlertDialog(alertStrings, alertOptions).then(
         console.log("Alert dialog closed");
     },
     function (error) {
-        concole.log(error.message);
+        console.log(error.message);
     }
 );
 ```

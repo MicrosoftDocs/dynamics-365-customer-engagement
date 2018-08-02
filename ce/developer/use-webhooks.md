@@ -157,11 +157,15 @@ You can query the steps registered for a specific webhook when you know the serv
 
 You can use this Web API Query where *&lt;id&gt;* is the [ServiceEndpointId](entities/serviceendpoint.md#BKMK_ServiceEndpointId) of the webhook:
 
-`GET [organization URI]/api/data/v9.0/serviceendpoints(@id)/serviceendpoint_sdkmessageprocessingstep?$select=sdkmessageprocessingstepid,name,description,asyncautodelete,filteringattributes,mode,stage?@id=<id>`
+```
+GET [organization URI]/api/data/v9.0/serviceendpoints(@id)/serviceendpoint_sdkmessageprocessingstep?$select=sdkmessageprocessingstepid,name,description,asyncautodelete,filteringattributes,mode,stage?@id=<id>
+```
 
 For more information about the registered step, you can use this Web API query where *&lt;stepid&gt;* is the [SdkMessageProcessingStepId](entities/sdkmessageprocessingstep.md#BKMK_SdkMessageProcessingStepId) for the step:
 
-`GET [organization URI]/api/data/v9.0/sdkmessageprocessingsteps(@id)?$select=name,description,filteringattributes,asyncautodelete,mode,stage&$expand=plugintypeid($select=friendlyname),eventhandler_serviceendpoint($select=name),sdkmessagefilterid($select=primaryobjecttypecode),sdkmessageid($select=name)?@id=<stepid>`
+```
+GET [organization URI]/api/data/v9.0/sdkmessageprocessingsteps(@id)?$select=name,description,filteringattributes,asyncautodelete,mode,stage&$expand=plugintypeid($select=friendlyname),eventhandler_serviceendpoint($select=name),sdkmessagefilterid($select=primaryobjecttypecode),sdkmessageid($select=name)?@id=<stepid>
+```
 
 **FetchXML:**
 
@@ -190,7 +194,6 @@ You can use this FetchXML to get the same information in one query where *&lt;se
     </link-entity>
   </entity>
 </fetch>
-
 ```
 
 <a name="query-failed-asynchronous-jobs-for-a-given-step"></a>
@@ -208,7 +211,7 @@ When you know the **sdkmessageprocessingstepid** of a given step, you can query 
 <fetch>
   <entity name="asyncoperation" >
     <attribute name="name" />
-    	<attribute name="friendlymessage" />
+        <attribute name="friendlymessage" />
     <attribute name="errorcode" />
     <attribute name="message" />
     <attribute name="completedon" />     
@@ -225,12 +228,12 @@ When you know the **sdkmessageprocessingstepid** of a given step, you can query 
 Before you move on to create or configure a service to consume web hooks, you should test what kind of data the service will receive so that you can know what kind of data you will need to process. For this purpose, you can use one of several request logging sites. For the purpose of this example, we will use [RequestBin](https://requestb.in/) to configure a target for the webhook requests. Use the following steps:
 
 1. Go to [https://requestb.in/](https://requestb.in/) and click **Create a RequestBin**.
-1. The next page will provide a Bin URL like : `https://requestb.in/<random string>`. Copy this URL.
-1. Refresh the page and the page URL will change to `https://requestb.in/<random string>?inspect` and will show that no requests have been made to the URL.
-1. Use the plugin registration tool to register a new webhook as described under [Register a webhook](#register-a-webhook). Use the URL you copied in step 2 as the **Endpoint URL**. Set a name and any authentication properties you want. Request Bin will not evaluate these values in the way that an actual site that will process the data should, but you can see how they will be passed through.
-1. Use the plugin registration tool to register a step using the webhook you created in step 4 as described in [Register a step for a webhook](#register-a-step-for-a-webhook). Make sure to use an event that you can easily perform by editing data in the [!INCLUDE [Dynamics 365](../includes/pn-dyn-365.md)] application, such as updating a contact entity.
-1. Use the [!INCLUDE [Dynamics 365](../includes/pn-dyn-365.md)] app to perform the operation to trigger the event.
-1. After you trigger the event, return to the `https://requestb.in/<random string>?inspect` page from step 3 and refresh the page. You should discover a page similar to the following:
+2. The next page will provide a Bin URL like : `https://requestb.in/<random string>`. Copy this URL.
+3. Refresh the page and the page URL will change to `https://requestb.in/<random string>?inspect` and will show that no requests have been made to the URL.
+4. Use the plugin registration tool to register a new webhook as described under [Register a webhook](#register-a-webhook). Use the URL you copied in step 2 as the **Endpoint URL**. Set a name and any authentication properties you want. Request Bin will not evaluate these values in the way that an actual site that will process the data should, but you can see how they will be passed through.
+5. Use the plugin registration tool to register a step using the webhook you created in step 4 as described in [Register a step for a webhook](#register-a-step-for-a-webhook). Make sure to use an event that you can easily perform by editing data in the [!INCLUDE [Dynamics 365](../includes/pn-dyn-365.md)] application, such as updating a contact entity.
+6. Use the [!INCLUDE [Dynamics 365](../includes/pn-dyn-365.md)] app to perform the operation to trigger the event.
+7. After you trigger the event, return to the `https://requestb.in/<random string>?inspect` page from step 3 and refresh the page. You should discover a page similar to the following:
 
     ![An example of the request logged on the request bin web site](media/request-bin-example.png)
 
@@ -513,7 +516,6 @@ In this example, the contact's first name was changed from 'Jim' to 'James'.
     "Stage": 40,
     "UserId": "75c2dd85-e89e-e711-8122-000d3aa2331c"
 }
-
 ```
 > [!IMPORTANT]
 > When the size of the entire HTTP payload exceeds 256KB, the `x-ms-dynamics-msg-size-exceeded` header will be included and the following <xref:Microsoft.Xrm.Sdk.RemoteExecutionContext> properties will be removed:

@@ -8,17 +8,17 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
+  - Dynamics 365 (online)
+  - Dynamics 365 (on-premises)
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
 ms.assetid: f622fe69-14b3-44e0-a4eb-093959910c70
 caps.latest.revision: 35
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "mduelae"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Example of going offline with Dynamics 365 for Outlook
 Salespeople can make critical customer information available and up-to-date on business trips with filters. By specifying only the data you need to synchronize with your laptop, you can avoid wasting valuable laptop memory, stay current with the head office, and keep information on your laptop fresh. Meanwhile, managers and co-workers are up-to-date.  
@@ -50,18 +50,18 @@ Salespeople can make critical customer information available and up-to-date on b
   
 ## Take your data offline and synchronize your data  
   
--   In [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], on the **Dynamics 365** menu, click or tap **Go Offline**.  
+- In [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], on the **Dynamics 365** menu, click or tap **Go Offline**.  
   
- While you are offline, you can add new contacts and accounts or update the accounts and contacts on your laptop. When connecting to your company's network again, you can synchronize your data.  
+  While you are offline, you can add new contacts and accounts or update the accounts and contacts on your laptop. When connecting to your company's network again, you can synchronize your data.  
   
 > [!IMPORTANT]
 >  [!INCLUDE[cc_Outlook_Offline_LocalAccess](../../includes/cc-outlook-offline-localaccess.md)]  
   
 ## Go back online and synchronize your data  
   
--   In [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], on the **Dynamics 365** menu, click or tap **Go Online**.  
+- In [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], on the **Dynamics 365** menu, click or tap **Go Online**.  
   
- Any updated data from your laptop will be synchronized with your company's [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] database. You can now deactivate and activate a new set of filters for your next visits, using the procedures explained earlier in this article.  
+  Any updated data from your laptop will be synchronized with your company's [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] database. You can now deactivate and activate a new set of filters for your next visits, using the procedures explained earlier in this article.  
   
 ## Combine data filters to take more information with you  
  Because filters are additive, you can have more than one active filter. For example, if you are going to the Northwest United States, you can activate the Washington and Oregon data filters you created and take both sets of data with you.  

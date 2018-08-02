@@ -1,10 +1,11 @@
 ---
 title: "Unified Service Desk for Dynamics 365 Customer Engagement Base package | MicrosoftDocs"
 description: "Overview of the base sample application." 
-ms.custom: ""
+ms.custom:
+  - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -17,20 +18,20 @@ applies_to:
   - "Dynamics CRM Online"
 ms.assetid: 5ee40b52-6c52-48ec-b3f1-7c2a839e7285
 caps.latest.revision: 19
-author: "Mattp123"
-ms.author: "matp"
-manager: "brycho"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Base sample application package
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework.  
   
  With the Unified Service Desk Base sample application package, the following components are installed:  
   
--   User Interface Integration Solution  
+- User Interface Integration Solution  
   
--   Unified Service Desk Solution  
+- Unified Service Desk Solution  
   
--   Data required for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and customizations  
+- Data required for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and customizations  
   
 > [!IMPORTANT]
 >  The sample applications are not supported for production use.  
@@ -54,7 +55,7 @@ manager: "brycho"
   
 8. **Notes**: This is the area to take notes in regarding the case.  
   
- ![Unified Service Desk Base package components](../../unified-service-desk/media/unifiedservicedeskbasepackage.png "Unified Service Desk Base package components")  
+   ![Unified Service Desk Base package components](../../unified-service-desk/media/unifiedservicedeskbasepackage.png "Unified Service Desk Base package components")  
   
 ## View active cases  
  From the toolbar, click **My Work** to see all of your active cases, and then select a case to work on. When you open a case, a new session opens.  

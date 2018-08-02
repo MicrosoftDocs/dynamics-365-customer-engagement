@@ -1,7 +1,7 @@
 ---
 title: "Avoid usage of batch request types in plug-ins and workflow activities | MicrosoftDocs"
 description: "You shouldn't use ExecuteMultipleRequest or ExecuteTransactionRequest message request classes within the context of a Dynamics 365 Customer Engagement plug-in or workflow activity."
-ms.date: 1/26/2018
+ms.date: 06/28/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
@@ -12,15 +12,6 @@ ms.author: "michu"
 manager: "austinj"
 ---
 # Avoid usage of batch request types in plug-ins and workflow activities
-
-**Applies to**:
-
-- [!include[](../../includes/pn-crm-9-0-0-online.md)]
-- [!include[](../../includes/pn-crm-2016.md)]
-- [!include[](../../includes/pn-crm-8-1-0-both.md)]
-- [!include[](../../includes/pn-crm-2015.md)]
-- [!include[](../../includes/pn-crmv6.md)]
-- [!include[](../../includes/pn-crm-2011.md)]
 
 **Category**: Usage, Reliability, Performance
 
@@ -49,7 +40,7 @@ More specifically, use them in the following scenarios:
 
 - Use <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> to bulk load data or external processes that are intentional about executing long-running operations (greater than two minutes).
 
-- Use <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> to minimize the round trips between custom client and [!INCLUDE [pn-dynamics-365](../../includes/pn-dynamics-365.md)] servers, thereby reducing the cumulative latency incurred.
+- Use <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> to minimize the round trips between custom client and Dynamics 365 servers, thereby reducing the cumulative latency incurred.
 
 - Use <xref:Microsoft.Xrm.Sdk.Messages.ExecuteTransactionRequest> for external clients that require the batch of operations to be committed as a single, atomic database transaction or rollback if any exception is encountered. Be aware of the potential for database blocking for the duration of the long-running transaction.
 

@@ -2,8 +2,8 @@
 title: "Archive - Social Engagement 2017 Update x.x | Microsoft Docs"
 description: "Archive of What's New updates for Social Engagement releases in 2017."
 keywords: "release notes, 2017, what's new"
-ms.date: 01/30/2018
-ms.service: mse
+ms.date: 06/13/2018
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Microsoft Social Engagement 2017 Updates
@@ -71,7 +73,7 @@ Explore the social engagement circle and social strategy, and look at brand repu
 
 ### New social post packs for Microsoft Social Engagement
 
-In addition to the 10,000 monthly post package for Microsoft Social Engagement, new packages with 100,000 and 1,000,000 monthly posts are now available as part of the [Microsoft Products and Services Agreement (MPSA)](https://www.microsoft.com/Licensing/worldwide.aspx). The MPSA is a transactional licensing agreement for commercial, government, and academic organizations that have 250 or more users or devices.
+In addition to the 10,000 monthly post package for Microsoft Social Engagement, new packages with 100,000 and 1,000,000 monthly posts are now available as part of the Microsoft Products and Services Agreement (MPSA). The MPSA is a transactional licensing agreement for commercial, government, and academic organizations that have 250 or more users or devices.
 
 ### Service and product improvements
 
@@ -120,7 +122,7 @@ For a detailed list of improvements and bug fixes for the latest release, see ou
 
 Get in touch with your audience on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Users with at least a Responder interaction role can now rate and reply to videos and comments on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)]. You'll need to add a social profile for [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] under **Settings** > **Social Profiles**, or get a [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] profile shared with you before you can interact in this source.
 
-Additionally, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] extended the listening capabilities and is now capable of acquiring video posts and comments on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels. Any user with permission to create search rules can create [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] rules under any search topic and add [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels to gather posts and comments. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a YouTube rule](add-rules-search-topic.md#add-a-includetnyoutubeincludestn-youtubemd-rule)
+Additionally, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] extended the listening capabilities and is now capable of acquiring video posts and comments on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels. Any user with permission to create search rules can create [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] rules under any search topic and add [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels to gather posts and comments. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a YouTube rule](add-rules-search-topic.md)
 
 Keyword-based searches on the video source continue to reside under the [keywords rule](add-rules-search-topic.md#add-a-keywords-rule) and now also contain comments for actively discussed video posts. 
 

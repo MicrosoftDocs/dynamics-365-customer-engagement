@@ -10,11 +10,11 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+author: "Mattp123"
 ms.assetid: 8478a07a-c697-4784-874b-36958eb4f95d
 caps.latest.revision: 63
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
 # Open the form editor
 
@@ -36,21 +36,21 @@ manager: "brycho"
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-2.  Click **Customize the System** to open the default solution.  
+2. Click **Customize the System** to open the default solution.  
   
-3.  Under **Components**, expand **Entities**, and then the entity you want, and click **Forms**.  
+3. Under **Components**, expand **Entities**, and then the entity you want, and click **Forms**.  
   
-4.  In the list of forms, click the form you want to edit.  
+4. In the list of forms, click the form you want to edit.  
   
 ## Access the form editor for an unmanaged solution  
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-2.  Click **Solutions**.  
+2. Click **Solutions**.  
   
-3.  Double-click the unmanaged solution you want to work with.  
+3. Double-click the unmanaged solution you want to work with.  
   
-4.  Locate the entity with the form you want to edit. If the entity isn’t there, you’ll need to add it.  
+4. Locate the entity with the form you want to edit. If the entity isn’t there, you’ll need to add it.  
   
 ### Add an entity to an unmanaged solution  
   

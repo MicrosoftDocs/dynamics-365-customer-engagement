@@ -47,34 +47,34 @@ Organization-owned dashboards can be created by using the [!INCLUDE[cc-dyn365-ce
   
 #### Create a dashboard by customizing an entity form  
   
-1.  Log on to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)].  
+1. Log on to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)].  
   
-2.  Export a solution. For information about doing so, see [Exporting, Preparing to Edit, and Importing the Ribbon](export-prepare-edit-import-ribbon.md).  
+2. Export a solution. For information about doing so, see [Exporting, Preparing to Edit, and Importing the Ribbon](export-prepare-edit-import-ribbon.md).  
   
-3.  Browse to the customizations.xml file in the exported solution folder, and open it for editing.  
+3. Browse to the customizations.xml file in the exported solution folder, and open it for editing.  
   
-4.  Browse to the end of the dashboards area in the customizations.xml file by searching for the following tag: `</Dashboards>`  
+4. Browse to the end of the dashboards area in the customizations.xml file by searching for the following tag: `</Dashboards>`  
   
-5.  Before the `</Dashboards>` tag, add the following to define a new dashboard:  
+5. Before the `</Dashboards>` tag, add the following to define a new dashboard:  
   
-    ```xml  
-    <Dashboard>  
-       <LocalizedNames>  
-          <LocalizedName description="Dashboard_Name" languagecode="1033" />  
-       </LocalizedNames>     
-       <IsCustomizable>1</IsCustomizable>  
-       <IsDefault>0</IsDefault>  
-       <FormXml>  
-          <forms type="dashboard">  
- *** Dashboard definition goes here. *** // See “Sample Dashboards” topic for the FormXML content to be used here.  
-          </forms>  
-       </FormXml>  
-    </Dashboard>  
-    ```  
+   ```xml  
+   <Dashboard>  
+      <LocalizedNames>  
+         <LocalizedName description="Dashboard_Name" languagecode="1033" />  
+      </LocalizedNames>     
+      <IsCustomizable>1</IsCustomizable>  
+      <IsDefault>0</IsDefault>  
+      <FormXml>  
+         <forms type="dashboard">  
+   *** Dashboard definition goes here. *** // See “Sample Dashboards” topic for the FormXML content to be used here.  
+         </forms>  
+      </FormXml>  
+   </Dashboard>  
+   ```  
   
-6.  Save the customizations.xml file.  
+6. Save the customizations.xml file.  
   
-7.  Import the .zip file as a solution in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Exporting, Preparing to Edit, and Importing the Ribbon](export-prepare-edit-import-ribbon.md).  
+7. Import the .zip file as a solution in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Exporting, Preparing to Edit, and Importing the Ribbon](export-prepare-edit-import-ribbon.md).  
   
 <a name="Limitations"></a>   
 
@@ -86,11 +86,11 @@ Organization-owned dashboards can be created by using the [!INCLUDE[cc-dyn365-ce
   
 - **Problem**: You can create a dashboard that contains a tab without any section defined in the FormXML.  
   
- **Resolution**: Make sure that you create a dashboard with at least one section defined for each tab in the FormXML.  
+  **Resolution**: Make sure that you create a dashboard with at least one section defined for each tab in the FormXML.  
   
 - **Problem**: You can create a dashboard that does not have the same number of `<row>` elements for a section as specified in the `rowspan` property of a `<cell>` element of the section in the FormXML. Ideally, the `rowspan` property value of a `<cell>` element and the number of `<row>` elements in a section must be same.  
   
- **Resolution**: Make sure that you create a dashboard that has the same number of `<row>` elements for a section as specified in the `rowspan` property of a `<cell>` element in the section.  
+  **Resolution**: Make sure that you create a dashboard that has the same number of `<row>` elements for a section as specified in the `rowspan` property of a `<cell>` element in the section.  
   
 ### Grids  
  **Problem**: You can create a dashboard that contains grids with the `<AutoExpand>` parameter value set to `Auto` for the grid.  

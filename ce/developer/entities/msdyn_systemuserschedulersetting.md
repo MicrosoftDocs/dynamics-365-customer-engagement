@@ -662,6 +662,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_systemuserschedulersetting_ActivityPointers"></a> msdyn_systemuserschedulersetting_ActivityPointers
 
 Same as activitypointer entity [msdyn_systemuserschedulersetting_ActivityPointers](activitypointer.md#BKMK_msdyn_systemuserschedulersetting_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -676,6 +677,7 @@ Same as activitypointer entity [msdyn_systemuserschedulersetting_ActivityPointer
 ### <a name="BKMK_msdyn_systemuserschedulersetting_msdyn_bookingalerts"></a> msdyn_systemuserschedulersetting_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_systemuserschedulersetting_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_systemuserschedulersetting_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -690,6 +692,7 @@ Same as msdyn_bookingalert entity [msdyn_systemuserschedulersetting_msdyn_bookin
 ### <a name="BKMK_msdyn_systemuserschedulersetting_SyncErrors"></a> msdyn_systemuserschedulersetting_SyncErrors
 
 Same as syncerror entity [msdyn_systemuserschedulersetting_SyncErrors](syncerror.md#BKMK_msdyn_systemuserschedulersetting_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -704,6 +707,7 @@ Same as syncerror entity [msdyn_systemuserschedulersetting_SyncErrors](syncerror
 ### <a name="BKMK_msdyn_systemuserschedulersetting_DuplicateMatchingRecord"></a> msdyn_systemuserschedulersetting_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_systemuserschedulersetting_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_systemuserschedulersetting_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -718,6 +722,7 @@ Same as duplicaterecord entity [msdyn_systemuserschedulersetting_DuplicateMatchi
 ### <a name="BKMK_msdyn_systemuserschedulersetting_DuplicateBaseRecord"></a> msdyn_systemuserschedulersetting_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_systemuserschedulersetting_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_systemuserschedulersetting_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -732,6 +737,7 @@ Same as duplicaterecord entity [msdyn_systemuserschedulersetting_DuplicateBaseRe
 ### <a name="BKMK_msdyn_systemuserschedulersetting_AsyncOperations"></a> msdyn_systemuserschedulersetting_AsyncOperations
 
 Same as asyncoperation entity [msdyn_systemuserschedulersetting_AsyncOperations](asyncoperation.md#BKMK_msdyn_systemuserschedulersetting_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -746,6 +752,7 @@ Same as asyncoperation entity [msdyn_systemuserschedulersetting_AsyncOperations]
 ### <a name="BKMK_msdyn_systemuserschedulersetting_MailboxTrackingFolders"></a> msdyn_systemuserschedulersetting_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_systemuserschedulersetting_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_systemuserschedulersetting_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -760,6 +767,7 @@ Same as mailboxtrackingfolder entity [msdyn_systemuserschedulersetting_MailboxTr
 ### <a name="BKMK_msdyn_systemuserschedulersetting_UserEntityInstanceDatas"></a> msdyn_systemuserschedulersetting_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_systemuserschedulersetting_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_systemuserschedulersetting_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -774,6 +782,7 @@ Same as userentityinstancedata entity [msdyn_systemuserschedulersetting_UserEnti
 ### <a name="BKMK_msdyn_systemuserschedulersetting_ProcessSession"></a> msdyn_systemuserschedulersetting_ProcessSession
 
 Same as processsession entity [msdyn_systemuserschedulersetting_ProcessSession](processsession.md#BKMK_msdyn_systemuserschedulersetting_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -788,6 +797,7 @@ Same as processsession entity [msdyn_systemuserschedulersetting_ProcessSession](
 ### <a name="BKMK_msdyn_systemuserschedulersetting_BulkDeleteFailures"></a> msdyn_systemuserschedulersetting_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_systemuserschedulersetting_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_systemuserschedulersetting_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -802,6 +812,7 @@ Same as bulkdeletefailure entity [msdyn_systemuserschedulersetting_BulkDeleteFai
 ### <a name="BKMK_msdyn_systemuserschedulersetting_PrincipalObjectAttributeAccesses"></a> msdyn_systemuserschedulersetting_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_systemuserschedulersetting_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_systemuserschedulersetting_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -816,6 +827,7 @@ Same as principalobjectattributeaccess entity [msdyn_systemuserschedulersetting_
 ### <a name="BKMK_msdyn_systemuserschedulersetting_Appointments"></a> msdyn_systemuserschedulersetting_Appointments
 
 Same as appointment entity [msdyn_systemuserschedulersetting_Appointments](appointment.md#BKMK_msdyn_systemuserschedulersetting_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -830,6 +842,7 @@ Same as appointment entity [msdyn_systemuserschedulersetting_Appointments](appoi
 ### <a name="BKMK_msdyn_systemuserschedulersetting_Emails"></a> msdyn_systemuserschedulersetting_Emails
 
 Same as email entity [msdyn_systemuserschedulersetting_Emails](email.md#BKMK_msdyn_systemuserschedulersetting_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -844,6 +857,7 @@ Same as email entity [msdyn_systemuserschedulersetting_Emails](email.md#BKMK_msd
 ### <a name="BKMK_msdyn_systemuserschedulersetting_Faxes"></a> msdyn_systemuserschedulersetting_Faxes
 
 Same as fax entity [msdyn_systemuserschedulersetting_Faxes](fax.md#BKMK_msdyn_systemuserschedulersetting_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -858,6 +872,7 @@ Same as fax entity [msdyn_systemuserschedulersetting_Faxes](fax.md#BKMK_msdyn_sy
 ### <a name="BKMK_msdyn_systemuserschedulersetting_Letters"></a> msdyn_systemuserschedulersetting_Letters
 
 Same as letter entity [msdyn_systemuserschedulersetting_Letters](letter.md#BKMK_msdyn_systemuserschedulersetting_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -872,6 +887,7 @@ Same as letter entity [msdyn_systemuserschedulersetting_Letters](letter.md#BKMK_
 ### <a name="BKMK_msdyn_systemuserschedulersetting_PhoneCalls"></a> msdyn_systemuserschedulersetting_PhoneCalls
 
 Same as phonecall entity [msdyn_systemuserschedulersetting_PhoneCalls](phonecall.md#BKMK_msdyn_systemuserschedulersetting_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -886,6 +902,7 @@ Same as phonecall entity [msdyn_systemuserschedulersetting_PhoneCalls](phonecall
 ### <a name="BKMK_msdyn_systemuserschedulersetting_Tasks"></a> msdyn_systemuserschedulersetting_Tasks
 
 Same as task entity [msdyn_systemuserschedulersetting_Tasks](task.md#BKMK_msdyn_systemuserschedulersetting_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -900,6 +917,7 @@ Same as task entity [msdyn_systemuserschedulersetting_Tasks](task.md#BKMK_msdyn_
 ### <a name="BKMK_msdyn_systemuserschedulersetting_RecurringAppointmentMasters"></a> msdyn_systemuserschedulersetting_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_systemuserschedulersetting_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_systemuserschedulersetting_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -914,6 +932,7 @@ Same as recurringappointmentmaster entity [msdyn_systemuserschedulersetting_Recu
 ### <a name="BKMK_msdyn_systemuserschedulersetting_SocialActivities"></a> msdyn_systemuserschedulersetting_SocialActivities
 
 Same as socialactivity entity [msdyn_systemuserschedulersetting_SocialActivities](socialactivity.md#BKMK_msdyn_systemuserschedulersetting_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -928,6 +947,7 @@ Same as socialactivity entity [msdyn_systemuserschedulersetting_SocialActivities
 ### <a name="BKMK_msdyn_systemuserschedulersetting_connections1"></a> msdyn_systemuserschedulersetting_connections1
 
 Same as connection entity [msdyn_systemuserschedulersetting_connections1](connection.md#BKMK_msdyn_systemuserschedulersetting_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -942,6 +962,7 @@ Same as connection entity [msdyn_systemuserschedulersetting_connections1](connec
 ### <a name="BKMK_msdyn_systemuserschedulersetting_connections2"></a> msdyn_systemuserschedulersetting_connections2
 
 Same as connection entity [msdyn_systemuserschedulersetting_connections2](connection.md#BKMK_msdyn_systemuserschedulersetting_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -956,6 +977,7 @@ Same as connection entity [msdyn_systemuserschedulersetting_connections2](connec
 ### <a name="BKMK_msdyn_systemuserschedulersetting_Annotations"></a> msdyn_systemuserschedulersetting_Annotations
 
 Same as annotation entity [msdyn_systemuserschedulersetting_Annotations](annotation.md#BKMK_msdyn_systemuserschedulersetting_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -970,6 +992,7 @@ Same as annotation entity [msdyn_systemuserschedulersetting_Annotations](annotat
 ### <a name="BKMK_msdyn_systemuserschedulersetting_ServiceAppointments"></a> msdyn_systemuserschedulersetting_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_systemuserschedulersetting_ServiceAppointments](serviceappointment.md#BKMK_msdyn_systemuserschedulersetting_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -984,6 +1007,7 @@ Same as serviceappointment entity [msdyn_systemuserschedulersetting_ServiceAppoi
 ### <a name="BKMK_msdyn_systemuserschedulersetting_msdyn_approvals"></a> msdyn_systemuserschedulersetting_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_systemuserschedulersetting_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_systemuserschedulersetting_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|

@@ -227,7 +227,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 |Property|Value|
 |--------|-----|
-|Description|Shows who created the record on behalfÂ of another user.|
+|Description|Shows who created the record on behalfÂ of another user.|
 |DisplayName|Created By (Delegate)|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -504,6 +504,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_sitemap"></a> userentityinstancedata_sitemap
 
 Same as userentityinstancedata entity [userentityinstancedata_sitemap](userentityinstancedata.md#BKMK_userentityinstancedata_sitemap) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

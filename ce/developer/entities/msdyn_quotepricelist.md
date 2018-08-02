@@ -646,6 +646,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_quotepricelist_SyncErrors"></a> msdyn_quotepricelist_SyncErrors
 
 Same as syncerror entity [msdyn_quotepricelist_SyncErrors](syncerror.md#BKMK_msdyn_quotepricelist_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -660,6 +661,7 @@ Same as syncerror entity [msdyn_quotepricelist_SyncErrors](syncerror.md#BKMK_msd
 ### <a name="BKMK_msdyn_quotepricelist_DuplicateMatchingRecord"></a> msdyn_quotepricelist_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_quotepricelist_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_quotepricelist_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -674,6 +676,7 @@ Same as duplicaterecord entity [msdyn_quotepricelist_DuplicateMatchingRecord](du
 ### <a name="BKMK_msdyn_quotepricelist_DuplicateBaseRecord"></a> msdyn_quotepricelist_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_quotepricelist_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_quotepricelist_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -688,6 +691,7 @@ Same as duplicaterecord entity [msdyn_quotepricelist_DuplicateBaseRecord](duplic
 ### <a name="BKMK_msdyn_quotepricelist_AsyncOperations"></a> msdyn_quotepricelist_AsyncOperations
 
 Same as asyncoperation entity [msdyn_quotepricelist_AsyncOperations](asyncoperation.md#BKMK_msdyn_quotepricelist_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -702,6 +706,7 @@ Same as asyncoperation entity [msdyn_quotepricelist_AsyncOperations](asyncoperat
 ### <a name="BKMK_msdyn_quotepricelist_MailboxTrackingFolders"></a> msdyn_quotepricelist_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_quotepricelist_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_quotepricelist_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -716,6 +721,7 @@ Same as mailboxtrackingfolder entity [msdyn_quotepricelist_MailboxTrackingFolder
 ### <a name="BKMK_msdyn_quotepricelist_UserEntityInstanceDatas"></a> msdyn_quotepricelist_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_quotepricelist_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_quotepricelist_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -730,6 +736,7 @@ Same as userentityinstancedata entity [msdyn_quotepricelist_UserEntityInstanceDa
 ### <a name="BKMK_msdyn_quotepricelist_ProcessSession"></a> msdyn_quotepricelist_ProcessSession
 
 Same as processsession entity [msdyn_quotepricelist_ProcessSession](processsession.md#BKMK_msdyn_quotepricelist_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -744,6 +751,7 @@ Same as processsession entity [msdyn_quotepricelist_ProcessSession](processsessi
 ### <a name="BKMK_msdyn_quotepricelist_BulkDeleteFailures"></a> msdyn_quotepricelist_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_quotepricelist_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_quotepricelist_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -758,6 +766,7 @@ Same as bulkdeletefailure entity [msdyn_quotepricelist_BulkDeleteFailures](bulkd
 ### <a name="BKMK_msdyn_quotepricelist_PrincipalObjectAttributeAccesses"></a> msdyn_quotepricelist_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_quotepricelist_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_quotepricelist_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -772,6 +781,7 @@ Same as principalobjectattributeaccess entity [msdyn_quotepricelist_PrincipalObj
 ### <a name="BKMK_msdyn_quotepricelist_Annotations"></a> msdyn_quotepricelist_Annotations
 
 Same as annotation entity [msdyn_quotepricelist_Annotations](annotation.md#BKMK_msdyn_quotepricelist_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|

@@ -35,7 +35,7 @@ You can review the complete sample code used in the walkthrough later in this to
 Let's look at the code in detail:
  
 ### Detailed code explanation
-- **Define namespace**: The code starts by defining a namespace for your custom script. As a best practice, you should always create namespaced JavaScript libraries to avoid having your functiions overriden by functions in another library.
+- **Define namespace**: The code starts by defining a namespace for your custom script. As a best practice, you should always create namespaced JavaScript libraries to avoid having your functions overriden by functions in another library.
 
     ```JavaScript
     var Sdk = window.Sdk || {};

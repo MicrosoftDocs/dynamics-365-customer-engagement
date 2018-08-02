@@ -119,7 +119,7 @@ namespace Microsoft.Crm.Sdk.Samples.HelperCode
                     var authority = DiscoverAuthority(_serviceUrl.ToString());
                     _authority = authority.Result.ToString();
                 }
-                    
+
 
                 return _authority;
             }
@@ -204,7 +204,6 @@ namespace Microsoft.Crm.Sdk.Samples.HelperCode
         }
     }
 }
-
 ```
 
 ### Related Topics  

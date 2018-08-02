@@ -782,6 +782,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_serviceendpoint"></a> userentityinstancedata_serviceendpoint
 
 Same as userentityinstancedata entity [userentityinstancedata_serviceendpoint](userentityinstancedata.md#BKMK_userentityinstancedata_serviceendpoint) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -796,6 +797,7 @@ Same as userentityinstancedata entity [userentityinstancedata_serviceendpoint](u
 ### <a name="BKMK_serviceendpoint_sdkmessageprocessingstep"></a> serviceendpoint_sdkmessageprocessingstep
 
 Same as sdkmessageprocessingstep entity [serviceendpoint_sdkmessageprocessingstep](sdkmessageprocessingstep.md#BKMK_serviceendpoint_sdkmessageprocessingstep) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sdkmessageprocessingstep|

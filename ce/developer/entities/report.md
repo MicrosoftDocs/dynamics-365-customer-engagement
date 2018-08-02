@@ -1110,6 +1110,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Report_ProcessSessions"></a> Report_ProcessSessions
 
 Same as processsession entity [Report_ProcessSessions](processsession.md#BKMK_Report_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1124,6 +1125,7 @@ Same as processsession entity [Report_ProcessSessions](processsession.md#BKMK_Re
 ### <a name="BKMK_report_reportvisibility"></a> report_reportvisibility
 
 Same as reportvisibility entity [report_reportvisibility](reportvisibility.md#BKMK_report_reportvisibility) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|reportvisibility|
@@ -1138,6 +1140,7 @@ Same as reportvisibility entity [report_reportvisibility](reportvisibility.md#BK
 ### <a name="BKMK_report_reportentities"></a> report_reportentities
 
 Same as reportentity entity [report_reportentities](reportentity.md#BKMK_report_reportentities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|reportentity|
@@ -1152,6 +1155,7 @@ Same as reportentity entity [report_reportentities](reportentity.md#BKMK_report_
 ### <a name="BKMK_report_reportlink"></a> report_reportlink
 
 Same as reportlink entity [report_reportlink](reportlink.md#BKMK_report_reportlink) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|reportlink|
@@ -1166,6 +1170,7 @@ Same as reportlink entity [report_reportlink](reportlink.md#BKMK_report_reportli
 ### <a name="BKMK_report_reportlink_sub"></a> report_reportlink_sub
 
 Same as reportlink entity [report_reportlink_sub](reportlink.md#BKMK_report_reportlink_sub) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|reportlink|
@@ -1180,6 +1185,7 @@ Same as reportlink entity [report_reportlink_sub](reportlink.md#BKMK_report_repo
 ### <a name="BKMK_Report_SyncErrors"></a> Report_SyncErrors
 
 Same as syncerror entity [Report_SyncErrors](syncerror.md#BKMK_Report_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1194,6 +1200,7 @@ Same as syncerror entity [Report_SyncErrors](syncerror.md#BKMK_Report_SyncErrors
 ### <a name="BKMK_userentityinstancedata_report"></a> userentityinstancedata_report
 
 Same as userentityinstancedata entity [userentityinstancedata_report](userentityinstancedata.md#BKMK_userentityinstancedata_report) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1208,6 +1215,7 @@ Same as userentityinstancedata entity [userentityinstancedata_report](userentity
 ### <a name="BKMK_Report_AsyncOperations"></a> Report_AsyncOperations
 
 Same as asyncoperation entity [Report_AsyncOperations](asyncoperation.md#BKMK_Report_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1222,6 +1230,7 @@ Same as asyncoperation entity [Report_AsyncOperations](asyncoperation.md#BKMK_Re
 ### <a name="BKMK_report_reportcategories"></a> report_reportcategories
 
 Same as reportcategory entity [report_reportcategories](reportcategory.md#BKMK_report_reportcategories) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|reportcategory|
@@ -1236,6 +1245,7 @@ Same as reportcategory entity [report_reportcategories](reportcategory.md#BKMK_r
 ### <a name="BKMK_report_parent_report"></a> report_parent_report
 
 Same as report entity [report_parent_report](report.md#BKMK_report_parent_report) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|report|

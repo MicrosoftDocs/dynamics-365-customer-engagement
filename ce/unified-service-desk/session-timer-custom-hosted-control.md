@@ -1,10 +1,11 @@
 ---
 title: "Session Timer (Custom Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about Session Timer type of hosted control in Unified Service Desk."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +17,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: 044cd615-691e-454d-9877-31095940b226
 caps.latest.revision: 10
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Session Timer (Custom Hosted Control)
 In [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], the session timer (`Timer`) hosted control displays the elapsed time in seconds since a session was started, and uses different colors to specify the threshold time limits.  
@@ -29,25 +30,25 @@ In [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], 
 ## Actions for the Timer hosted control  
  The following actions are supported by the `Timer` control:  
   
--   `GetSessionSeconds`: Returns the total time, in seconds, that the session lasted.  
+- `GetSessionSeconds`: Returns the total time, in seconds, that the session lasted.  
   
--   `GetSessionUsageInSeconds`: Returns the total time, in seconds, when the customer service rep was active in the current session.  
+- `GetSessionUsageInSeconds`: Returns the total time, in seconds, when the customer service rep was active in the current session.  
   
- You can use these two actions in your action calls to return session timer values. However, before you can use these actions in your action calls, you’ll have to manually add these UII actions to the `Timer` hosted control instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a UII action to a hosted control](../unified-service-desk/add-uii-action-hosted-control.md)  
+  You can use these two actions in your action calls to return session timer values. However, before you can use these actions in your action calls, you’ll have to manually add these UII actions to the `Timer` hosted control instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a UII action to a hosted control](../unified-service-desk/add-uii-action-hosted-control.md)  
   
- The values are returned and displayed under the `$Return` replacement parameter. To test the values returned by these two actions:  
+  The values are returned and displayed under the `$Return` replacement parameter. To test the values returned by these two actions:  
   
-1.  Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client and connect to your Dynamics 365 instance.  
+1. Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client and connect to your Dynamics 365 instance.  
   
-2.  Click the **My Work** menu, and then click a case record to open a session.  
+2. Click the **My Work** menu, and then click a case record to open a session.  
   
-3.  Click **Settings** (![User settings button](../unified-service-desk/media/mp-ua-r17-usersettingsicon.png "User settings button")) at the top-right corner to display the `Debugger` control.  
+3. Click **Settings** (![User settings button](../unified-service-desk/media/mp-ua-r17-usersettingsicon.png "User settings button")) at the top-right corner to display the `Debugger` control.  
   
-4.  On the **Direct Action** tab, select `Timer` from the **Hosted Control** list, the action name from the **Action** list, and click **Run Direct Action** (![USD debugger Run Action Call button](../unified-service-desk/media/usd-run-action-call-icon.png "USD debugger Run Action Call button")). Repeat this step for the other action.  
+4. On the **Direct Action** tab, select `Timer` from the **Hosted Control** list, the action name from the **Action** list, and click **Run Direct Action** (![USD debugger Run Action Call button](../unified-service-desk/media/usd-run-action-call-icon.png "USD debugger Run Action Call button")). Repeat this step for the other action.  
   
-5.  Click **Refresh** (![refresh&#95;grid](../unified-service-desk/media/crm-ua-refresh-grid.gif "refresh_grid")) to refresh the replacement parameter grid. Expand the `$Return` parameter to view the value (time in seconds) returned by the `GetSessionUsageInSeconds` and `GetSessionSeconds` actions.  
+5. Click **Refresh** (![refresh&#95;grid](../unified-service-desk/media/crm-ua-refresh-grid.gif "refresh_grid")) to refresh the replacement parameter grid. Expand the `$Return` parameter to view the value (time in seconds) returned by the `GetSessionUsageInSeconds` and `GetSessionSeconds` actions.  
   
- ![Unified Service Desk session timer values](../unified-service-desk/media/usd-sessionvalueparameters.png "Unified Service Desk session timer values")  
+   ![Unified Service Desk session timer values](../unified-service-desk/media/usd-sessionvalueparameters.png "Unified Service Desk session timer values")  
   
 <a name="ConfigureThreshold"></a>   
 ## Configure threshold limits and colors for the Timer hosted control  
@@ -67,13 +68,13 @@ In [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], 
   
 1. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
-2.  Click **Hosted Controls**.  
+2. Click **Hosted Controls**.  
   
-3.  Search for the `Timer` hosted control, and click the hosted control name to open its definition.  
+3. Search for the `Timer` hosted control, and click the hosted control name to open its definition.  
   
-4.  In the `Timer` hosted control definition form, update the XML in the **Extensions XML** field to specify the threshold limit and corresponding colors.  
+4. In the `Timer` hosted control definition form, update the XML in the **Extensions XML** field to specify the threshold limit and corresponding colors.  
   
-5.  Save the hosted control definition.  
+5. Save the hosted control definition.  
   
 ### See also  
  [USD Hosted Control (Hosted Control)](../unified-service-desk/usd-hosted-control-hosted-control.md)   

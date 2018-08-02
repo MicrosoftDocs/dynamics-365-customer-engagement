@@ -8,17 +8,17 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
-author: "jimholtz"
+  - Dynamics 365 (online)
+  - Dynamics 365 (on-premises)
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
+author: "mduelae"
 ms.assetid: 233a2887-dbe0-4da6-be84-eafc2b988f59
 caps.latest.revision: 48
 ms.author: "mkaur"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Basic navigation in Dynamics 365 for phones and tablets
 

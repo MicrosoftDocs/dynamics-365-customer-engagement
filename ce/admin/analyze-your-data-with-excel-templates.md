@@ -25,19 +25,19 @@ manager: "brycho"
   
  Use [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] templates for:  
   
--   Sales Forecasting  
+- Sales Forecasting  
   
--   Pipeline Management  
+- Pipeline Management  
   
--   Leads Scoring  
+- Leads Scoring  
   
--   Territory Planning  
+- Territory Planning  
   
--   And much more…  
+- And much more…  
   
- You can try out the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] templates included with [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] to get a quick view of what kind of analysis is possible.  
+  You can try out the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] templates included with [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] to get a quick view of what kind of analysis is possible.  
   
- ![Example of a pipeline analysis Excel template](../admin/media/excel-template-example-pipeline-analysis.png "Example of a pipeline analysis Excel template")  
+  ![Example of a pipeline analysis Excel template](../admin/media/excel-template-example-pipeline-analysis.png "Example of a pipeline analysis Excel template")  
   
 > [!TIP]
 > [![Video symbol](../admin/media/video-thumbnail-4-crm.png "Video symbol")](http://go.microsoft.com/fwlink/p/?LinkId=404225) Check out the following video: [Create documents directly from Dynamics CRM by using Word and Excel templates (2:38)](http://go.microsoft.com/fwlink/p/?LinkID=723604)  
@@ -56,23 +56,23 @@ manager: "brycho"
   
 - **From a list of records**. For example, go to **Sales** > **Opportunities** > **My Open Opportunities**. On the menu bar, click **Excel Templates** > **Create Excel Template**.  
   
- ![Create Excel Template menu option](../admin/media/excel-template-create-menu.png "Create Excel Template menu option")  
+  ![Create Excel Template menu option](../admin/media/excel-template-create-menu.png "Create Excel Template menu option")  
   
- The **Create template from Dynamics 365 data** page appears.  
+  The **Create template from Dynamics 365 data** page appears.  
   
- ![Create Excel Template from Dynamics 365 Data page](../admin/media/excel-template-create-from-data-page.png "Create Excel Template from Dynamics 365 Data page")  
+  ![Create Excel Template from Dynamics 365 Data page](../admin/media/excel-template-create-from-data-page.png "Create Excel Template from Dynamics 365 Data page")  
   
 #### Select the data to include in the template  
   
-1.  Click **Excel Template**.  
+1. Click **Excel Template**.  
   
-2.  Select an entity (record type) to include that entity’s [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data. The views you can select in the next field depend on the entity you select.  
+2. Select an entity (record type) to include that entity’s [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data. The views you can select in the next field depend on the entity you select.  
   
-3.  Select a view.  
+3. Select a view.  
   
-4.  Click **Edit Columns** to add, remove, and adjust properties for the columns to include in the template.  
+4. Click **Edit Columns** to add, remove, and adjust properties for the columns to include in the template.  
   
-5.  Click **Download File** to create the template file.  
+5. Click **Download File** to create the template file.  
   
 > [!WARNING]
 >  You can also download a template containing no data except for the columns associated with the record type (entity) using **Settings** > **Data Management** > **Templates for Data Import**. For more information, see: [Download a template for data import](../admin/download-template-data-import.md).  
@@ -87,25 +87,25 @@ manager: "brycho"
   
 #### Example customization of Opportunities data  
   
-1.  Click **Enable Editing** to allow customization of the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] spreadsheet.  
+1. Click **Enable Editing** to allow customization of the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] spreadsheet.  
   
-2.  Add a new column and name it “Expected Revenue”.  
+2. Add a new column and name it “Expected Revenue”.  
   
- ![Customize the Excel template](../admin/media/excel-template-customize.png "Customize the Excel template")  
+   ![Customize the Excel template](../admin/media/excel-template-customize.png "Customize the Excel template")  
   
-3.  Create a formula for expected revenue. Don’t refer to cells using their addresses; define and use names instead.  
+3. Create a formula for expected revenue. Don’t refer to cells using their addresses; define and use names instead.  
   
- ![Create a formula in the Excel template](../admin/media/excel-template-create-formula.png "Create a formula in the Excel template")  
+   ![Create a formula in the Excel template](../admin/media/excel-template-create-formula.png "Create a formula in the Excel template")  
   
-4.  Create a pivot table and chart. These and other demo steps will be explained in a future update to this topic.  
+4. Create a pivot table and chart. These and other demo steps will be explained in a future update to this topic.  
   
-     Place user-added content above or to the right of the existing data table. This prevents the content from being overwritten if you add new data in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] later and you create a new [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template. For more information, see: [Best practices and considerations for using Excel templates](../admin/analyze-your-data-with-excel-templates.md#BKMK_BestPractices).  
+    Place user-added content above or to the right of the existing data table. This prevents the content from being overwritten if you add new data in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] later and you create a new [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template. For more information, see: [Best practices and considerations for using Excel templates](../admin/analyze-your-data-with-excel-templates.md#BKMK_BestPractices).  
   
- ![Excel template with Pivot Chart](../admin/media/excel-template-pivot-chart.png "Excel template with Pivot Chart")  
+   ![Excel template with Pivot Chart](../admin/media/excel-template-pivot-chart.png "Excel template with Pivot Chart")  
   
-5.  Save the spreadsheet.  
+5. Save the spreadsheet.  
   
- You’re now ready to upload the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+   You’re now ready to upload the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
 <a name="BKMK_CreateUpload"></a>   
 ### Step 3: Upload the template and share with others  
@@ -115,31 +115,31 @@ manager: "brycho"
   
 #### For admins: Upload the Excel template into Dynamics 365  
   
-1.  In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Templates** > **Document Templates**.  
+1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Templates** > **Document Templates**.  
   
-2.  Click **Upload Template**.  
+2. Click **Upload Template**.  
   
-3.  Drag the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file into the dialog box or browse to find and upload the file.  
+3. Drag the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file into the dialog box or browse to find and upload the file.  
   
- ![Upload Template dialog box](../admin/media/word-template-upload-dialog-box.png "Upload Template dialog box")  
+   ![Upload Template dialog box](../admin/media/word-template-upload-dialog-box.png "Upload Template dialog box")  
   
-4.  Click **Upload**.  
+4. Click **Upload**.  
   
- Non-admin users can upload a template for their own use from a list of records.  
+   Non-admin users can upload a template for their own use from a list of records.  
   
 #### For non-admins or admins wanting to create a personal template: Upload the Excel template into Dynamics 365  
   
-1.  In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], open a page with a list of records, for example, the list of Sales Opportunities. Go to **Sales** > **Opportunities** > **My Open Opportunities**.  
+1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], open a page with a list of records, for example, the list of Sales Opportunities. Go to **Sales** > **Opportunities** > **My Open Opportunities**.  
   
-2.  On the menu bar, click **Excel Templates** > **Create Excel Template**.  
+2. On the menu bar, click **Excel Templates** > **Create Excel Template**.  
   
-3.  Click **Excel Template** > **Upload**.  
+3. Click **Excel Template** > **Upload**.  
   
- ![Click Upload to add the Excel template to Dynamics 365](../admin/media/excel-template-upload.png "Click Upload to add the Excel template to Dynamics 365")  
+   ![Click Upload to add the Excel template to Dynamics 365](../admin/media/excel-template-upload.png "Click Upload to add the Excel template to Dynamics 365")  
   
-4.  Drag the file into the dialog box or browse to find and upload the file.  
+4. Drag the file into the dialog box or browse to find and upload the file.  
   
-5.  Click **Upload**.  
+5. Click **Upload**.  
   
 <a name="BKMK_CreateChoose"></a>   
 ### Step 4: Choose who can use the new template  
@@ -161,11 +161,11 @@ manager: "brycho"
   
  Templates uploaded from a list of records are available to the user who uploaded the template. To share the template with others, following these steps:  
   
-1.  From the template Information page, click **Share**.  
+1. From the template Information page, click **Share**.  
   
-2.  Use the **Share personal document template** page to share the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template with others and to set permissions.  
+2. Use the **Share personal document template** page to share the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template with others and to set permissions.  
   
- ![Share the Excel template with other users](../admin/media/excel-template-share.png "Share the Excel template with other users")  
+   ![Share the Excel template with other users](../admin/media/excel-template-share.png "Share the Excel template with other users")  
   
 <a name="BKMK_UseTemplate"></a>   
 ## Export and analyze data using the new template  
@@ -218,11 +218,11 @@ manager: "brycho"
   
 ### To apply a sample Excel template  
   
-1.  Open a list of records with information with the entity type that matches the sample template. For example, open a list of sales opportunities to apply the Pipeline Management template.  
+1. Open a list of records with information with the entity type that matches the sample template. For example, open a list of sales opportunities to apply the Pipeline Management template.  
   
-2.  Click **> Excel Templates**, and then under **Excel Templates**, select the sample template.  
+2. Click **> Excel Templates**, and then under **Excel Templates**, select the sample template.  
   
-3.  Download the template or open it in place in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)].  
+3. Download the template or open it in place in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)].  
   
 > [!TIP]
 >  You can export the templates that are included in [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)], modify them, and then reimport them as new templates. This can give you a running start on creating your own custom [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] templates.  
@@ -239,15 +239,15 @@ manager: "brycho"
   
  **Consider the following scenario:**  
   
--   A [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator creates a template with sensitive data in pivot charts and uploads the template into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+- A [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator creates a template with sensitive data in pivot charts and uploads the template into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
--   A salesperson who should not have access to the sensitive data in the pivot charts uses the template to create an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file to do some data analysis.  
+- A salesperson who should not have access to the sensitive data in the pivot charts uses the template to create an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file to do some data analysis.  
   
- **The outcome.** The salesperson might be able to see the pivot chart data as uploaded by the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator including access to views the salesperson does not have permissions for.  
+  **The outcome.** The salesperson might be able to see the pivot chart data as uploaded by the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator including access to views the salesperson does not have permissions for.  
   
- **In addition.** iOS does not support updating pivot data and pivot charts when using the [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)] app on iOS devices.  
+  **In addition.** iOS does not support updating pivot data and pivot charts when using the [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)] app on iOS devices.  
   
- **Recommendation.** Sensitive data should not be included in pivot tables and pivot charts.  
+  **Recommendation.** Sensitive data should not be included in pivot tables and pivot charts.  
   
 ### Set pivot chart data to automatically refresh  
  Be default, pivot chart data does not automatically refresh when you open the spreadsheet. Regular charts automatically update.  
@@ -274,15 +274,15 @@ manager: "brycho"
 ## Use security roles to control access to templates  
  [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrators can control access to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] templates with some granularity. For example, you can give salespeople Read but not Write access to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template.  
   
-1.  In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], click **Settings** > **Security** > **Security Roles**.  
+1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], click **Settings** > **Security** > **Security Roles**.  
   
-2.  Select a role, and then click the Business Management tab.  
+2. Select a role, and then click the Business Management tab.  
   
-3.  Select **Document Template** to set access for templates available to the entire organization. Select **Personal Document Template** for templates shared to individual users.  
+3. Select **Document Template** to set access for templates available to the entire organization. Select **Personal Document Template** for templates shared to individual users.  
   
-4.  Click the circles to adjust the level of access.  
+4. Click the circles to adjust the level of access.  
   
- ![Adjust access using the security role](../admin/media/excel-template-restrict-access-using-security-role.png "Adjust access using the security role")  
+   ![Adjust access using the security role](../admin/media/excel-template-restrict-access-using-security-role.png "Adjust access using the security role")  
   
 ### To view and delete personal document templates  
  Follow these steps to delete personal document templates:  

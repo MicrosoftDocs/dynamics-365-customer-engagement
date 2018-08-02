@@ -650,6 +650,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_transactionorigin_SyncErrors"></a> msdyn_transactionorigin_SyncErrors
 
 Same as syncerror entity [msdyn_transactionorigin_SyncErrors](syncerror.md#BKMK_msdyn_transactionorigin_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -664,6 +665,7 @@ Same as syncerror entity [msdyn_transactionorigin_SyncErrors](syncerror.md#BKMK_
 ### <a name="BKMK_msdyn_transactionorigin_DuplicateMatchingRecord"></a> msdyn_transactionorigin_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_transactionorigin_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_transactionorigin_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -678,6 +680,7 @@ Same as duplicaterecord entity [msdyn_transactionorigin_DuplicateMatchingRecord]
 ### <a name="BKMK_msdyn_transactionorigin_DuplicateBaseRecord"></a> msdyn_transactionorigin_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_transactionorigin_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_transactionorigin_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -692,6 +695,7 @@ Same as duplicaterecord entity [msdyn_transactionorigin_DuplicateBaseRecord](dup
 ### <a name="BKMK_msdyn_transactionorigin_AsyncOperations"></a> msdyn_transactionorigin_AsyncOperations
 
 Same as asyncoperation entity [msdyn_transactionorigin_AsyncOperations](asyncoperation.md#BKMK_msdyn_transactionorigin_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -706,6 +710,7 @@ Same as asyncoperation entity [msdyn_transactionorigin_AsyncOperations](asyncope
 ### <a name="BKMK_msdyn_transactionorigin_MailboxTrackingFolders"></a> msdyn_transactionorigin_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_transactionorigin_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_transactionorigin_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -720,6 +725,7 @@ Same as mailboxtrackingfolder entity [msdyn_transactionorigin_MailboxTrackingFol
 ### <a name="BKMK_msdyn_transactionorigin_UserEntityInstanceDatas"></a> msdyn_transactionorigin_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_transactionorigin_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_transactionorigin_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -734,6 +740,7 @@ Same as userentityinstancedata entity [msdyn_transactionorigin_UserEntityInstanc
 ### <a name="BKMK_msdyn_transactionorigin_ProcessSession"></a> msdyn_transactionorigin_ProcessSession
 
 Same as processsession entity [msdyn_transactionorigin_ProcessSession](processsession.md#BKMK_msdyn_transactionorigin_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -748,6 +755,7 @@ Same as processsession entity [msdyn_transactionorigin_ProcessSession](processse
 ### <a name="BKMK_msdyn_transactionorigin_BulkDeleteFailures"></a> msdyn_transactionorigin_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_transactionorigin_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_transactionorigin_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -762,6 +770,7 @@ Same as bulkdeletefailure entity [msdyn_transactionorigin_BulkDeleteFailures](bu
 ### <a name="BKMK_msdyn_transactionorigin_PrincipalObjectAttributeAccesses"></a> msdyn_transactionorigin_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_transactionorigin_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_transactionorigin_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -776,6 +785,7 @@ Same as principalobjectattributeaccess entity [msdyn_transactionorigin_Principal
 ### <a name="BKMK_msdyn_transactionorigin_Annotations"></a> msdyn_transactionorigin_Annotations
 
 Same as annotation entity [msdyn_transactionorigin_Annotations](annotation.md#BKMK_msdyn_transactionorigin_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|

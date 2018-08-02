@@ -18,11 +18,12 @@ but without the ability to modify the data in the array. More information: [Coll
 
 These methods are available to all the collections in the **formContext** object model.
 
-|Method  |Description  |
-|------|------|
-|[forEach](collections/forEach.md)|[!INCLUDE[collections/includes/forEach-description.md](collections/includes/forEach-description.md)]|
-|[get](collections/get.md)|[!INCLUDE[collections/includes/get-description.md](collections/includes/get-description.md)]|
-|[getLength](collections/getLength.md)|[!INCLUDE[collections/includes/getLength-description.md](collections/includes/getLength-description.md)]|
+
+|                Method                 |                                               Description                                                |
+|---------------------------------------|----------------------------------------------------------------------------------------------------------|
+|   [forEach](collections/forEach.md)   |   [!INCLUDE[collections/includes/forEach-description.md](collections/includes/forEach-description.md)]   |
+|       [get](collections/get.md)       |       [!INCLUDE[collections/includes/get-description.md](collections/includes/get-description.md)]       |
+| [getLength](collections/getLength.md) | [!INCLUDE[collections/includes/getLength-description.md](collections/includes/getLength-description.md)] |
 
 ### Related topics
 

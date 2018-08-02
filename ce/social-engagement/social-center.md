@@ -2,8 +2,8 @@
 title: "Streams in Social Center of Microsoft Social Engagement | Microsoft Docs"
 description: "Get started to work efficiently in Social Center."
 keywords: "social center, streams, post list, social engagement, engagement"
-ms.date: 12/08/2017
-ms.service: mse
+ms.date: 06/13/2018
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Keep track of live data streams with Social Center
@@ -35,29 +37,29 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 ### Configure a stream  
   
-1.  Go to **Social Center**.  
+1. Go to **Social Center**.  
   
-2.  Scroll to the stream on the far right side, and then click the **Add Stream** button ![Add button](media/add-icon.png "Add button").  
+2. Scroll to the stream on the far right side, and then click the **Add Stream** button ![Add button](media/add-icon.png "Add button").  
   
-3.  Provide a name for your stream.  
+3. Provide a name for your stream.  
   
-4.  You can also choose how you want the stream to handle posts that no longer match the defined data set:  
+4. You can also choose how you want the stream to handle posts that no longer match the defined data set:  
   
-    -   Click **Automatically hide posts** if you want to work with an up-to-date stream. When a post is updated so it doesn't match the stream’s data set anymore, it will disappear without any notification.  
+   -   Click **Automatically hide posts** if you want to work with an up-to-date stream. When a post is updated so it doesn't match the stream’s data set anymore, it will disappear without any notification.  
   
-    -   Click **Notify me when hiding posts** if you want to get a heads up if a post no longer matches your data set and is about to be hidden from the stream.  
+   -   Click **Notify me when hiding posts** if you want to get a heads up if a post no longer matches your data set and is about to be hidden from the stream.  
   
-5.  Choose a color and adjust your sorting options. (Optional)  
+5. Choose a color and adjust your sorting options. (Optional)  
   
-6.  Select users from your organization you want to share this stream with under **Sharing**. (Optional)  
+6. Select users from your organization you want to share this stream with under **Sharing**. (Optional)  
   
-7.  In the **Filters** section, define the data set to show in this stream. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use filters to see relevant data](use-filters.md)  
+7. In the **Filters** section, define the data set to show in this stream. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use filters to see relevant data](use-filters.md)  
   
-8.  Click the **Save** button ![Save button](media/save-icon.png "Save button").  
+8. Click the **Save** button ![Save button](media/save-icon.png "Save button").  
   
 <a name="ShareStream"></a>   
 ## Share a stream  
- Share streams you own to enable seamless collaboration within your organization’s teams.  
+ Share streams you own to enable seamless collaboration within your organization’s teams. You need to have a Manager [interaction role](user-roles.md) to manage the sharing of streams.  
   
  Users or groups you share the stream with will always see the data the way you have configured it. If you change the data set for a shared stream, the displayed data will also change for the users the stream is shared with.  
   
@@ -120,9 +122,9 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
 <a name="NextSteps"></a>   
 ## Next Steps  
   
--   Assign posts to others, add labels, tag them, or edit sentiment values. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with posts](work-with-posts.md)  
+- Assign posts to others, add labels, tag them, or edit sentiment values. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with posts](work-with-posts.md)  
   
--   Publish new posts or reply to posts directly from within the application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Drive business objectives using posts](publish-react-posts.md)  
+- Publish new posts or reply to posts directly from within the application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Drive business objectives using posts](publish-react-posts.md)  
   
 ### See also  
 

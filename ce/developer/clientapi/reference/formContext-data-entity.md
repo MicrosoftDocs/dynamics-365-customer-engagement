@@ -23,18 +23,18 @@ Provides properties and methods to retrieve information specific to the record d
 
 ## Methods
 
-|Name|Description|
-|--|--|
-|[addOnSave](formContext-data-entity/addOnSave.md)|[!INCLUDE[formContext-data-entity/includes/addOnSave-description.md](formContext-data-entity/includes/addOnSave-description.md)]| 
-|[getDataXml](formContext-data-entity/getDataXml.md)|[!INCLUDE[formContext-data-entity/includes/getDataXml-description.md](formContext-data-entity/includes/getDataXml-description.md)]|
-|[getEntityName](formContext-data-entity/getEntityName.md)|[!INCLUDE[formContext-data-entity/includes/getEntityName-description.md](formContext-data-entity/includes/getEntityName-description.md)]|
-|[getEntityReference](formContext-data-entity/getEntityReference.md)|[!INCLUDE[formContext-data-entity/includes/getEntityReference-description.md](formContext-data-entity/includes/getEntityReference-description.md)]|
-|[getId](formContext-data-entity/getId.md)|[!INCLUDE[formContext-data-entity/includes/getId-description.md](formContext-data-entity/includes/getId-description.md)]|
-|[getIsDirty](formContext-data-entity/getIsDirty.md)|[!INCLUDE[formContext-data-entity/includes/getIsDirty-description.md](formContext-data-entity/includes/getIsDirty-description.md)]|
-|[getPrimaryAttributeValue](formContext-data-entity/getPrimaryAttributeValue.md)|[!INCLUDE[formContext-data-entity/includes/getPrimaryAttributeValue-description.md](formContext-data-entity/includes/getPrimaryAttributeValue-description.md)]|
-|[isValid](formContext-data-entity/isValid.md)|[!INCLUDE[formContext-data-entity/includes/isValid-description.md](formContext-data-entity/includes/isValid-description.md)]|
-|[removeOnSave](formContext-data-entity/removeOnSave.md)|[!INCLUDE[formContext-data-entity/includes/removeOnSave-description.md](formContext-data-entity/includes/removeOnSave-description.md)]|
-|[save](formContext-data-entity/save.md)|[!INCLUDE[formContext-data-entity/includes/save-description.md](formContext-data-entity/includes/save-description.md)]|
+|                                      Name                                       |                                                                          Description                                                                           |
+|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                [addOnSave](formContext-data-entity/addOnSave.md)                |                [!INCLUDE[formContext-data-entity/includes/addOnSave-description.md](formContext-data-entity/includes/addOnSave-description.md)]                |
+|               [getDataXml](formContext-data-entity/getDataXml.md)               |               [!INCLUDE[formContext-data-entity/includes/getDataXml-description.md](formContext-data-entity/includes/getDataXml-description.md)]               |
+|            [getEntityName](formContext-data-entity/getEntityName.md)            |            [!INCLUDE[formContext-data-entity/includes/getEntityName-description.md](formContext-data-entity/includes/getEntityName-description.md)]            |
+|       [getEntityReference](formContext-data-entity/getEntityReference.md)       |       [!INCLUDE[formContext-data-entity/includes/getEntityReference-description.md](formContext-data-entity/includes/getEntityReference-description.md)]       |
+|                    [getId](formContext-data-entity/getId.md)                    |                    [!INCLUDE[formContext-data-entity/includes/getId-description.md](formContext-data-entity/includes/getId-description.md)]                    |
+|               [getIsDirty](formContext-data-entity/getIsDirty.md)               |               [!INCLUDE[formContext-data-entity/includes/getIsDirty-description.md](formContext-data-entity/includes/getIsDirty-description.md)]               |
+| [getPrimaryAttributeValue](formContext-data-entity/getPrimaryAttributeValue.md) | [!INCLUDE[formContext-data-entity/includes/getPrimaryAttributeValue-description.md](formContext-data-entity/includes/getPrimaryAttributeValue-description.md)] |
+|                  [isValid](formContext-data-entity/isValid.md)                  |                  [!INCLUDE[formContext-data-entity/includes/isValid-description.md](formContext-data-entity/includes/isValid-description.md)]                  |
+|             [removeOnSave](formContext-data-entity/removeOnSave.md)             |             [!INCLUDE[formContext-data-entity/includes/removeOnSave-description.md](formContext-data-entity/includes/removeOnSave-description.md)]             |
+|                     [save](formContext-data-entity/save.md)                     |                     [!INCLUDE[formContext-data-entity/includes/save-description.md](formContext-data-entity/includes/save-description.md)]                     |
 
 ### Related topics
 

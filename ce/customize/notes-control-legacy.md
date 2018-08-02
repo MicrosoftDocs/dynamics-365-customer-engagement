@@ -10,11 +10,11 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+author: "Mattp123"
 ms.assetid: f10cdf1c-3540-439c-a171-27a10e72da45
 caps.latest.revision: 63
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
 # Set up the Notes control to access information about posts
 
@@ -26,17 +26,17 @@ manager: "brycho"
   
 1. [!INCLUDE[proc_settings_postconfig](../includes/proc-settings-postconfig.md)]  
   
-2.  Locate the record for your custom entity.  
+2. Locate the record for your custom entity.  
   
-3.  Make sure that **Enable walls for this type of record form** is selected and save the record.  
+3. Make sure that **Enable walls for this type of record form** is selected and save the record.  
   
-4.  In the command bar, select **Activate**.  
+4. In the command bar, select **Activate**.  
   
-5.  If you needed to enable walls, you need to publish the entity.  
+5. If you needed to enable walls, you need to publish the entity.  
   
- By default, for system entities the notes control is positioned in a social pane section in the center of a three column tab at the top of the form. It can appear in a form just one time. You can move or remove the notes control. To add it back, use the **Notes** button in the **Control** group of the **Insert** tab.  
+   By default, for system entities the notes control is positioned in a social pane section in the center of a three column tab at the top of the form. It can appear in a form just one time. You can move or remove the notes control. To add it back, use the **Notes** button in the **Control** group of the **Insert** tab.  
   
- The following table describes the properties for the Notes control.  
+   The following table describes the properties for the Notes control.  
   
 |Tab|Property|Description|  
 |---------|--------------|-----------------|  

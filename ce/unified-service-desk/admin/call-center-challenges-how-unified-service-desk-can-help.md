@@ -1,10 +1,11 @@
 ---
 title: "Call center challenges and how Unified Service Desk for Dynamics 365 Customer Engagement can help | MicrosoftDocs"
 description: "Understand how Unified Service Desk can help your service agents." 
-ms.custom: ""
+ms.custom:
+  - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +17,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: d05a55c8-f73a-4f91-8c33-f5fdbc69b01d
 caps.latest.revision: 4
-author: "Mattp123"
-ms.author: "matp"
-manager: "amyla"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 tags: 
  - "MigrationHO"
 ---
@@ -58,8 +59,8 @@ Before you start with [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/
   
 - **Configuration-based framework for quickly building agent applications**: Quickly configure a highly customized agent application per your organization requirements without using code. This significantly reduces the time and cost to build and customize agent applications.  
   
-    > [!NOTE]
-    >  Using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to configure agent applications is a bit of an art. It provides a highly configurable interface through the use of replacement parameters and window navigation rules that can be used to dynamically display controls and information based on the context of active operation, much of which requires no code (with the possible exception of [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)]). To properly configure a solution often requires that the administrator have experience working with different configurations and analyzing the results.  
+  > [!NOTE]
+  >  Using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to configure agent applications is a bit of an art. It provides a highly configurable interface through the use of replacement parameters and window navigation rules that can be used to dynamically display controls and information based on the context of active operation, much of which requires no code (with the possible exception of [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)]). To properly configure a solution often requires that the administrator have experience working with different configurations and analyzing the results.  
   
 - **Centrally configure and manage from within [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]**: You can centrally configure and manage your agent applications by using the familiar interface of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
@@ -71,8 +72,8 @@ Before you start with [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/
   
 - **Support for computer telephony integration (CTI)**: [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a framework for the CTI adapters that can be used within the agent applications to handle screen popping, call routing, softphone control, and other CTI functionalities – provided you follow certain rules while developing these CTI adapters.  
   
-    > [!NOTE]
-    > [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] doesn’t ship with any out-of-box CTI adapters.  
+  > [!NOTE]
+  > [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] doesn’t ship with any out-of-box CTI adapters.  
   
 ### See also  
  [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)   

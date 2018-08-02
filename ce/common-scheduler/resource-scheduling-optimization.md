@@ -1,13 +1,15 @@
 ---
 title: "Use Resource Scheduling Optimization to schedule multiple bookings on a recurring basis (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-projectservice
+  - dyn365-fieldservice
 ms.date: 09/30/2017
 searchScope:
   - Customer Service
   - Field Service
   - Project Service
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "field-service"
@@ -16,11 +18,11 @@ ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "mduelae"
+author: krbjoran
 ms.assetid: 5423740c-79b3-4c6d-9b7c-6fdcec791425
 caps.latest.revision: 22
-ms.author: "mkaur"
-manager: "brycho"
+ms.author: krbjoran
+manager: shellyha
 ---
 # Use Resource Scheduling Optimization to schedule multiple bookings on a recurring basis (Field Service)
 
@@ -42,26 +44,26 @@ Use [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-reso
 ## Deploy (admin task)  
  To use this feature, first you need to install [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-resource-scheduling-optimization-msdyn365.md)].  
   
-1.  Sign in to [https://portal.office.com](https://portal.office.com) with your global administrator or [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] system administrator credentials.  
+1. Sign in to [https://portal.office.com](https://portal.office.com) with your global administrator or [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] system administrator credentials.  
   
-2.  Select **Admin centers** > **Dynamics 365**.  
+2. Select **Admin centers** > **Dynamics 365**.  
   
-3.  Select the **Instances** tab, and then the instance to add the solution to.  
+3. Select the **Instances** tab, and then the instance to add the solution to.  
   
-4.  Select **Applications**.  
+4. Select **Applications**.  
   
-5.  Under **Manage Applications**, select the **Resource Scheduling Optimization** solution and then **Manage**.  
+5. Under **Manage Applications**, select the **Resource Scheduling Optimization** solution and then **Manage**.  
   
-6.  On the sign-in screen, use your global administrator or Dynamics 365 system administrator credentials. This is same info you used in Step 1.  
+6. On the sign-in screen, use your global administrator or Dynamics 365 system administrator credentials. This is same info you used in Step 1.  
   
-7.  Select the organization from the drop-down menu. Verify the credentials and select **Deploy**.  
+7. Select the organization from the drop-down menu. Verify the credentials and select **Deploy**.  
   
- ![Deploy Resource Scheduling Optimization instance](media/common-scheduler-deploy-resource-scheduling-instance.png "Deploy Resource Scheduling Optimization instance")  
+   ![Deploy Resource Scheduling Optimization instance](media/common-scheduler-deploy-resource-scheduling-instance.png "Deploy Resource Scheduling Optimization instance")  
   
-    > [!NOTE]
-    > [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-resource-scheduling-optimization-msdyn365.md)] can only be deployed to one organization at a time in your tenant. If you get an error on this screen it is typically from the user name or password being entered incorrectly.  
+   > [!NOTE]
+   > [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-resource-scheduling-optimization-msdyn365.md)] can only be deployed to one organization at a time in your tenant. If you get an error on this screen it is typically from the user name or password being entered incorrectly.  
   
-8.  On the **Confirmation** window, select **Yes**.  
+8. On the **Confirmation** window, select **Yes**.  
   
 9. On the **Deploy Resource Scheduling Optimization Instance** screen, verify your credentials and then select **Deploy**.  
   
@@ -75,7 +77,7 @@ Use [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-reso
   
 12. When the deployment is complete, select **Finish**.  
   
- You will then be taken to the **Manage Resource Scheduling Optimization Instance** screen, where you can do the following:  
+    You will then be taken to the **Manage Resource Scheduling Optimization Instance** screen, where you can do the following:  
   
 - **Check for Updates**: Check for updates to your Resource Scheduling Optimization  instances.  
   
@@ -88,19 +90,19 @@ Use [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-reso
 ## Enable Resource Scheduling Optimization  
  To use Resource Scheduling Optimization, your user profile needs to have a security role. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Assign security roles](#BKMK_AssignRoles)  
   
-1.  From the main menu, select **Resource Scheduling** > **Administration**.  
+1. From the main menu, select **Resource Scheduling** > **Administration**.  
   
-2.  Select **Scheduling Parameters**.  
+2. Select **Scheduling Parameters**.  
   
-3.  Open a record and scroll down to the **Resource Scheduling Optimization** section.  
+3. Open a record and scroll down to the **Resource Scheduling Optimization** section.  
   
-4.  To use the schedule board booking functionality, geocoding, and location services, you need to turn on Maps. On the **Connect to Maps** field, choose **Yes** and accept the terms.  
+4. To use the schedule board booking functionality, geocoding, and location services, you need to turn on Maps. On the **Connect to Maps** field, choose **Yes** and accept the terms.  
   
-5.  On the **Enable Resource Scheduling Optimization** field, choose **Yes**.  
+5. On the **Enable Resource Scheduling Optimization** field, choose **Yes**.  
   
- ![Enable Resource Scheduling](../common-scheduler/media/common-scheduler-enable-resource-scheduling.png "Enable Resource Scheduling")  
+   ![Enable Resource Scheduling](../common-scheduler/media/common-scheduler-enable-resource-scheduling.png "Enable Resource Scheduling")  
   
-6.  Accept the terms and save the record.  
+6. Accept the terms and save the record.  
   
 ## Set latitude and longitude values  
  Next you'll  need to set the latitude and longitude for the resource's organizational unit. These values are used by   Resource Scheduling Optimization if the start and end location on the resource record are set to the  company address.  
@@ -247,7 +249,7 @@ Use [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-reso
   
         5.  Select **Save & Close**.  
   
- Once you have defined a scope and goal, select **Save** to save the schedule. Then **Publish** to publish it.  
+   Once you have defined a scope and goal, select **Save** to save the schedule. Then **Publish** to publish it.  
   
 > [!NOTE]
 >  To manually run  scheduling optimization, on the command bar, select **RUN NOW**.  
@@ -275,29 +277,29 @@ Use [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-reso
   
 ## Enable schedule optimization for an existing work order  
   
-1.  Open an existing work order.  
+1. Open an existing work order.  
   
-2.  At the top, select the menu next to the work order number and then **Requirements**.  
+2. At the top, select the menu next to the work order number and then **Requirements**.  
   
- ![Work Order sub-menu](media/common-scheduler-work-order-submenu.png "Work Order sub-menu")  
+   ![Work Order sub-menu](media/common-scheduler-work-order-submenu.png "Work Order sub-menu")  
   
-3.  Under the **Resource Requirement Associated** view, select the work order number.  
+3. Under the **Resource Requirement Associated** view, select the work order number.  
   
-4.  For schedule optimizing to work, make sure these fields are set:  
+4. For schedule optimizing to work, make sure these fields are set:  
   
-    - **Duration**: This is how much time is expected to complete the work.  
+   - **Duration**: This is how much time is expected to complete the work.  
   
-    - **Scheduling Method**: This must be set to **Optimize**.  
+   - **Scheduling Method**: This must be set to **Optimize**.  
   
-    - **Priority**: Enter the priority of the work order.  
+   - **Priority**: Enter the priority of the work order.  
   
-    - **Work Location**: Select either **On Site** or **Location Agnostic**. If this is set to **Location Agnostic** then latitude and longitude are not required.  
+   - **Work Location**: Select either **On Site** or **Location Agnostic**. If this is set to **Location Agnostic** then latitude and longitude are not required.  
   
-    - **Latitude** and **Longitude**: These must have a value if **Work Location** field is set to **On Site**.  
+   - **Latitude** and **Longitude**: These must have a value if **Work Location** field is set to **On Site**.  
   
-    - **Territory**: This must have a value that is in the scope of Resource Scheduling Optimization.  
+   - **Territory**: This must have a value that is in the scope of Resource Scheduling Optimization.  
   
-5.  Save your changes and close the form.  
+5. Save your changes and close the form.  
   
 <a name="bkmk_step3 "></a>   
 ## Privacy notice  

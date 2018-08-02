@@ -1,6 +1,7 @@
 ---
 title: "Troubleshoot Dynamics 365 Customer Engagement sign-in problems | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
+  - dyn365-deflc
 ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -63,7 +64,7 @@ Having trouble signing in to [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.
   
 <a name="BKMK_DirectHomePage"></a>   
 ### For admins and end users: Sign in to the Dynamics 365 home page  
- We have a new [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] home page for you to use  to manage and open [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] apps. You can sign in to this page directly using your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] (or Active Directory) credentials with this URL: https://home.dynamics.com  
+ We have a new [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] home page for you to use  to manage and open [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] apps. You can sign in to this page directly using your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] (or Active Directory) credentials with this URL: <https://home.dynamics.com>  
   
  For information on the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] home page, see: [For admins and end users: Introducing the Dynamics 365 home page](quickly-navigate-office-365-app-launcher.md#BKMK_IntroD365HomePage).  
   
@@ -87,9 +88,9 @@ Having trouble signing in to [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.
   
  After entering your URL, you’ll be prompted for your user name. Your user name will be in one of the following formats:  
   
--   username@contoso.onmicrosoft.com (standard [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] domain)  
+- username@contoso.onmicrosoft.com (standard [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] domain)  
   
--   username@contoso.com (custom domain)  
+- username@contoso.com (custom domain)  
   
 **What if I’m still using a [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] to sign in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]?**  
   
@@ -100,9 +101,9 @@ Use the email address provided by your [!INCLUDE[pn_crm_shortest](../includes/pn
   
  After entering your URL, you’ll be prompted for your user name. Your user name will be in one of the following formats:  
   
--   username@contoso.onmicrosoft.com (standard [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] domain)  
+- username@contoso.onmicrosoft.com (standard [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] domain)  
   
--   username@contoso.com (custom domain)  
+- username@contoso.com (custom domain)  
   
 ## Common error messages  
   
@@ -112,23 +113,23 @@ Use the email address provided by your [!INCLUDE[pn_crm_shortest](../includes/pn
 ### When I try to sign in, [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] continues to redirect to another web page and gets into a loop until I choose the [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] window.  
  To avoid this error, add the URLs used for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to trusted sites in [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)]:  
   
-1.  In [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], on the **Tools** menu, select **Internet Options**.  
+1. In [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], on the **Tools** menu, select **Internet Options**.  
   
-2.  On the **Security** tab, in the **Select a zone to view or change security settings** section, click or tap **Trusted sites**.  
+2. On the **Security** tab, in the **Select a zone to view or change security settings** section, click or tap **Trusted sites**.  
   
-3.  Click or tap **Sites**.  
+3. Click or tap **Sites**.  
   
-4.  In the **Trusted sites** dialog box, type the following URLs in the **Add this website to the zone** text box:  
+4. In the **Trusted sites** dialog box, type the following URLs in the **Add this website to the zone** text box:  
   
-    -   http://*.dynamics.com  
+   - http://*.dynamics.com  
   
-    -   http://*.live.com  
+   - http://*.live.com  
   
-    After you add each URL, click or tap the **Add** button.  
+   After you add each URL, click or tap the **Add** button.  
   
-5.  If you receive a dialog box that states **Sites added to this zone must use the https:// prefix**, clear the **Require server verification (https:) for all sites in this zone** check box.  
+5. If you receive a dialog box that states **Sites added to this zone must use the https:// prefix**, clear the **Require server verification (https:) for all sites in this zone** check box.  
   
-6.  Click or tap **Close**, and then click or tap **OK**.  
+6. Click or tap **Close**, and then click or tap **OK**.  
   
 ### Why do I have to sign in again? Can I change the amount of time I'm signed in?  
  [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] keeps you signed in for 8 hours. When you've been signed in for 7 hours and 40 minutes, a message will appear warning that your session is about to expire, and you then have 20 minutes to respond. Click or tap **OK**, sign in again, and then click the back button on your browser to return to the area of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in which you were working. You can’t change the amount of time you’re signed in.  

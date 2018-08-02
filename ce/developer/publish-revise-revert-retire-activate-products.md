@@ -28,7 +28,7 @@ By default, a product record is in the **Draft** state when you create it, and i
   
  ![Product lifecycle and state transitions](media/crm-sdk-product-life-cycle.png "Product lifecycle and state transitions")  
   
- ***Activate\**** : The activate operation is applicable for certain type of product records only. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Activate a product or kit record](publish-revise-revert-retire-activate-products.md#Activate)  
+ ***Activate\\**** : The activate operation is applicable for certain type of product records only. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Activate a product or kit record](publish-revise-revert-retire-activate-products.md#Activate)  
   
 <a name="Publish"></a>   
 ## Publish a product family, product, or bundle  
@@ -63,20 +63,20 @@ _serviceProxy.Execute(publishRequest);
   
 > [!IMPORTANT]
 >  For the product or bundle records that aren’t associated with a product family, you must publish them individually after creating or editing them to make them available to your sales agents. For product or bundle records associated with a product family, use the <xref:Microsoft.Crm.Sdk.Messages.PublishProductHierarchyRequest> message on the parent product family record to publish multiple child product or bundle records, along with the parent product family record, at once.  
->   
+> 
 >  Also, for products that aren’t associated with a product family, you can create them directly in an **Active** state by setting the **Organization.CreateProductsWithoutParentInActiveState** attribute to `1` (true). Alternately, use the **Sales** tab in the system settings area in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to specify whether products not associated with product families are created in an active state. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure product catalog information](http://go.microsoft.com/fwlink/p/?LinkId=512492)  
   
 <a name="Revise"></a>   
 ## Revise a product family, product, or bundle  
  Use the <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest> message to revise a product family, product, or bundle record.  
   
--   When invoked for a product family record, it revises the product family and its child records.  
+- When invoked for a product family record, it revises the product family and its child records.  
   
--   When invoked for a product or a bundle record, it revises the individual record only.  
+- When invoked for a product or a bundle record, it revises the individual record only.  
   
- The state of the target record changes from **Active** to **Under Revision**.  
+  The state of the target record changes from **Active** to **Under Revision**.  
   
- After the product properties (attributes) are updated, the target record must to be published for the changes to reflect. On publishing, the state of the target record changes from **Under Revision** to **Active**.  
+  After the product properties (attributes) are updated, the target record must to be published for the changes to reflect. On publishing, the state of the target record changes from **Under Revision** to **Active**.  
   
 > [!NOTE]
 >  When you revise a product and change the properties, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] internally creates a new version of the product and copies the product details from the existing product to the newer version. The new product version has all the details including price lists, product relationships, and properties. The opportunities created with the older version of the product can continue to refer to the older version of the product. The opportunities that are created after the product is revised or retired will refer to the current (newer) product version.  
@@ -85,13 +85,13 @@ _serviceProxy.Execute(publishRequest);
 ## Revert a product family, product, or bundle  
  Use the <xref:Microsoft.Crm.Sdk.Messages.RevertProductRequest> message to revert a product family, product, or bundle record to its last **Active** state. All the product property (attribute) changes done to the record since it was last published (**Active** state) will be lost.  
   
--   When invoked for a product family record, it reverts the product family and its child records to their last **Active** state, and all the changes done to the product properties of the records since they were last published will be lost.  
+- When invoked for a product family record, it reverts the product family and its child records to their last **Active** state, and all the changes done to the product properties of the records since they were last published will be lost.  
   
--   When invoked for a product or a bundle record, it reverts the individual product or bundle record to its last **Active** state, and all the changes done to the product properties of the record since it was last published will be lost.  
+- When invoked for a product or a bundle record, it reverts the individual product or bundle record to its last **Active** state, and all the changes done to the product properties of the record since it was last published will be lost.  
   
- The state of the target record changes from **Under Revision** to **Active**.  
+  The state of the target record changes from **Under Revision** to **Active**.  
   
- The following code sample demonstrates how to revert a product record.  
+  The following code sample demonstrates how to revert a product record.  
   
 ```csharp  
 RevertProductRequest revertReq = new RevertProductRequest  
@@ -105,11 +105,11 @@ RevertProductResponse reverted = (RevertProductResponse)_serviceProxy.Execute(re
 ## Retire a product family, product, or bundle  
  Use the <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest> message to retire a product family, product, or bundle record.  
   
--   When invoked for a product family record, it retires the entire product family hierarchy.  
+- When invoked for a product family record, it retires the entire product family hierarchy.  
   
--   When invoked for a product or a bundle record, it retires the individual record only.  
+- When invoked for a product or a bundle record, it retires the individual record only.  
   
- The state of the target record changes to **Retired**.  
+  The state of the target record changes to **Retired**.  
   
 > [!NOTE]
 >  You can’t retire a product that is part of a published (**Active**) bundle. Also, you can’t add a retired product to a bundle or can’t add a product to a retired bundle.  
@@ -118,11 +118,11 @@ RevertProductResponse reverted = (RevertProductResponse)_serviceProxy.Execute(re
 ## Activate a product or kit record  
  Use the <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest> message to activate only the following types of record:  
   
--   A retired product record that does not have a parent record.  
+- A retired product record that does not have a parent record.  
   
--   A retired kit record.  
+- A retired kit record.  
   
- The state of the target record changes from **Retired** to **Active**.  
+  The state of the target record changes from **Retired** to **Active**.  
   
 > [!NOTE]
 >  You can’t activate a retired product family or a retired bundle record.  

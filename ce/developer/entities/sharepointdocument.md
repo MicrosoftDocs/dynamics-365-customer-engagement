@@ -1166,6 +1166,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_SharePointDocument_Annotation"></a> SharePointDocument_Annotation
 
 Same as annotation entity [SharePointDocument_Annotation](annotation.md#BKMK_SharePointDocument_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|

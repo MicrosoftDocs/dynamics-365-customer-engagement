@@ -1735,6 +1735,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_quoteclose_activity_parties"></a> quoteclose_activity_parties
 
 Same as activityparty entity [quoteclose_activity_parties](activityparty.md#BKMK_quoteclose_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1749,6 +1750,7 @@ Same as activityparty entity [quoteclose_activity_parties](activityparty.md#BKMK
 ### <a name="BKMK_CampaignResponse_QuoteCloses"></a> CampaignResponse_QuoteCloses
 
 Same as campaignresponse entity [CampaignResponse_QuoteCloses](campaignresponse.md#BKMK_CampaignResponse_QuoteCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -1763,6 +1765,7 @@ Same as campaignresponse entity [CampaignResponse_QuoteCloses](campaignresponse.
 ### <a name="BKMK_QuoteClose_SyncErrors"></a> QuoteClose_SyncErrors
 
 Same as syncerror entity [QuoteClose_SyncErrors](syncerror.md#BKMK_QuoteClose_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1777,6 +1780,7 @@ Same as syncerror entity [QuoteClose_SyncErrors](syncerror.md#BKMK_QuoteClose_Sy
 ### <a name="BKMK_QuoteClose_AsyncOperations"></a> QuoteClose_AsyncOperations
 
 Same as asyncoperation entity [QuoteClose_AsyncOperations](asyncoperation.md#BKMK_QuoteClose_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1791,6 +1795,7 @@ Same as asyncoperation entity [QuoteClose_AsyncOperations](asyncoperation.md#BKM
 ### <a name="BKMK_quoteclose_MailboxTrackingFolders"></a> quoteclose_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [quoteclose_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_quoteclose_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1805,6 +1810,7 @@ Same as mailboxtrackingfolder entity [quoteclose_MailboxTrackingFolders](mailbox
 ### <a name="BKMK_userentityinstancedata_quoteclose"></a> userentityinstancedata_quoteclose
 
 Same as userentityinstancedata entity [userentityinstancedata_quoteclose](userentityinstancedata.md#BKMK_userentityinstancedata_quoteclose) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1819,6 +1825,7 @@ Same as userentityinstancedata entity [userentityinstancedata_quoteclose](useren
 ### <a name="BKMK_QuoteClose_BulkDeleteFailures"></a> QuoteClose_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [QuoteClose_BulkDeleteFailures](bulkdeletefailure.md#BKMK_QuoteClose_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1833,6 +1840,7 @@ Same as bulkdeletefailure entity [QuoteClose_BulkDeleteFailures](bulkdeletefailu
 ### <a name="BKMK_quoteclose_PrincipalObjectAttributeAccesses"></a> quoteclose_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [quoteclose_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_quoteclose_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1847,6 +1855,7 @@ Same as principalobjectattributeaccess entity [quoteclose_PrincipalObjectAttribu
 ### <a name="BKMK_QuoteClose_Annotation"></a> QuoteClose_Annotation
 
 Same as annotation entity [QuoteClose_Annotation](annotation.md#BKMK_QuoteClose_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|

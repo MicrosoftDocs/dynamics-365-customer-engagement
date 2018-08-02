@@ -3,8 +3,9 @@ title: "Sales Overview (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Get an overview of the sales offerings from Dynamics 365."
 keywords: "Sales Hub, Sales, overview, lead, opportunity, mobile, mobile-optimized, desktop, deal, device, Dynamics 365, sales person, sales manager"
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.custom: 
+ms.service: dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -43,7 +44,7 @@ Here are the flavors [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md
   The Unified Interface framework uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. With [!INCLUDE[pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)], the Sales Hub app is optimized to work on mobile devices as well as desktops.
 
   > [!NOTE]
-  
+  > 
   > For mobile devices, you'll also need to [install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
 
 If you're using a desktop browser, you'll see the Sales app in the app switcher as shown in the following image.

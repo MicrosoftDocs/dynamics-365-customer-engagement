@@ -33,22 +33,22 @@ A team template can be used for the entities that are enabled for automatically 
   
 2. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-3.  In the **Customization** window, choose **Customize the System**.  
+3. In the **Customization** window, choose **Customize the System**.  
   
-4.  In the navigation pane, expand **Entities**, and then choose the entity you want to use in the team template.  
+4. In the navigation pane, expand **Entities**, and then choose the entity you want to use in the team template.  
   
-5.  On the **Entity Definition** form, in the **Communication & Collaboration** section, select the **Access Teams** checkbox.  
+5. On the **Entity Definition** form, in the **Communication & Collaboration** section, select the **Access Teams** checkbox.  
   
-6.  On the **Actions** toolbar, choose **Save**.  
+6. On the **Actions** toolbar, choose **Save**.  
   
 <a name="bkmk_2"></a>   
 ## Create a team template  
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
-2.  Choose **Access Team Templates**.  
+2. Choose **Access Team Templates**.  
   
-3.  On the **Actions** toolbar, choose **New**, complete the required fields, and then choose **Save**.  
+3. On the **Actions** toolbar, choose **New**, complete the required fields, and then choose **Save**.  
   
 <a name="bkmk_3"></a>   
 ## Add a team template to the entity form  
@@ -57,19 +57,19 @@ A team template can be used for the entities that are enabled for automatically 
   
 2. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-3.  In the **Customization** window, choose **Customize the System**.  
+3. In the **Customization** window, choose **Customize the System**.  
   
-4.  In the navigation pane, expand **Entities**, expand the entity you want to use in the team template, and then choose **Forms**.  
+4. In the navigation pane, expand **Entities**, expand the entity you want to use in the team template, and then choose **Forms**.  
   
-5.  In **System Forms**, select **Active Forms** > **Main** form.  
+5. In **System Forms**, select **Active Forms** > **Main** form.  
   
-6.  On the **Main** form, open the **Insert** tab.  
+6. On the **Main** form, open the **Insert** tab.  
   
-7.  On the ribbon, choose **Sub-Grid**.  
+7. On the ribbon, choose **Sub-Grid**.  
   
-     The **Set Properties** dialog box appears.  
+    The **Set Properties** dialog box appears.  
   
-8.  In **Set Properties**, complete the required fields, and then select the **Display label on the Form** check box.  
+8. In **Set Properties**, complete the required fields, and then select the **Display label on the Form** check box.  
   
 9. In the **Records** drop-down list, select **All Record Types**.  
   

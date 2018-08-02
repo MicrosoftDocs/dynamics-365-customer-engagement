@@ -3,8 +3,9 @@ title: "Publish a product or bundle to make it available for selling (Dynamics 3
 description: "Publish a product or bundle in Dynamics 365 for Sales to make it available to the sales agents so they can build orders or create opportunities for customers."
 keywords: "Publish, product, make available"
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.custom: 
+ms.service: dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -43,7 +44,7 @@ When you're ready to sell a product or bundle, publish it to make it available t
    This will change the product status to **Active** and make it available for selling.
 
 > [!TIP]
-
+> 
 > You can't publish multiple product records at the same time. To publish all child products and families of a parent family at once, open the family, and choose **Publish** > **Publish Hierarchy**. For product records that don't belong to a product family, publish them individually after creating or editing them to make them available to your sales agents.
 
 ## Publish a product or bundle (Sales app)
@@ -52,17 +53,17 @@ When you're ready to sell a product or bundle, publish it to make it available t
   
     #### Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
   
-3.  In the Product Catalog area, select **Families & Products**.  
+3. In the Product Catalog area, select **Families & Products**.  
   
-4.  Open the product, bundle, or family you want to publish, and on the command bar, select **Publish**.  
+4. Open the product, bundle, or family you want to publish, and on the command bar, select **Publish**.  
   
-     This will change the product status to **Active** and make it available for selling.  
+    This will change the product status to **Active** and make it available for selling.  
   
 > [!TIP]
 >  You can't publish multiple product records at the same time. To publish all child products and families of a parent family at once, open the family, and choose **Publish** > **Publish Hierarchy**. For product records that don't belong to a product family, publish them individually after creating or editing them to make them available to your sales agents.  

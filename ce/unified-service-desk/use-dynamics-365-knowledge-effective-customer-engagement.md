@@ -1,10 +1,11 @@
 ---
 title: "Use Dynamics 365 knowledge for effective customer engagement in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn how to use Dynamics 365 knowledge for effective customer engagement in Unified Service Desk."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +17,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: 68ef2469-7976-4121-b107-2b88c15ade3c
 caps.latest.revision: 12
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Use Dynamics 365 knowledge for effective customer engagement in Unified Service Desk
 Knowledge management plays an important part in the customer service process, and access to accurate and up-to-date information can help your customer service agents reduce the average handle time to provide quick and accurate answers to your customers. The new knowledge management solution in [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] guides you through the process of creating and publishing rich knowledge articles with multimedia data like pictures and videos. It also provides translation and versioning capabilities to support the knowledge lifecycle. If you’re using [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you can set up knowledge management to use [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up knowledge management in Dynamics 365](http://go.microsoft.com/fwlink/p/?LinkId=691083)  
@@ -41,21 +42,21 @@ Knowledge management plays an important part in the customer service process, an
   
 - **Configure contextual actions for the search results**: You can configure the following actions in the search control when a knowledge base article is selected in the search results:  
   
-    -   Copy the link or URL of the article. You can paste the article URL in the chat session with customers or in an email. You can only copy URLs for articles that aren’t in the draft or expired state.  
+  - Copy the link or URL of the article. You can paste the article URL in the chat session with customers or in an email. You can only copy URLs for articles that aren’t in the draft or expired state.  
   
-    -   Send the knowledge base article link in an email.  
+  - Send the knowledge base article link in an email.  
   
-    -   Associate a knowledge base article with an incident (case) in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Associating articles to cases helps to determine which articles were effective in resolving cases. You can also configure to dissociate a knowledge base article from a case if the article isn’t helpful or is out-of-date.  
+  - Associate a knowledge base article with an incident (case) in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Associating articles to cases helps to determine which articles were effective in resolving cases. You can also configure to dissociate a knowledge base article from a case if the article isn’t helpful or is out-of-date.  
   
-    -   Click a knowledge base article in the search panel to open it in a tab in the main panel with all the contextual actions available. Links in a knowledge base article can be accessed to navigate to the linked topic from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
+  - Click a knowledge base article in the search panel to open it in a tab in the main panel with all the contextual actions available. Links in a knowledge base article can be accessed to navigate to the linked topic from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
- ![Knowledge base article displayed in a tab](../unified-service-desk/media/usd-kb-main-panel.png "Knowledge base article displayed in a tab")  
+  ![Knowledge base article displayed in a tab](../unified-service-desk/media/usd-kb-main-panel.png "Knowledge base article displayed in a tab")  
   
-    -   Pop out and pop in a knowledge base article on the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] main panel. This feature is useful if you’re working on multiple monitors, and want to pop a knowledge base article out from the client and display it on another monitor while you continue to work with the customer on the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client on the current monitor. After finishing your work, you can pop the article back in on the main panel.  
+  - Pop out and pop in a knowledge base article on the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] main panel. This feature is useful if you’re working on multiple monitors, and want to pop a knowledge base article out from the client and display it on another monitor while you continue to work with the customer on the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client on the current monitor. After finishing your work, you can pop the article back in on the main panel.  
   
- ![Knowledge base article can be popped out or in](../unified-service-desk/media/usd-kb-article-popped-out.png "Knowledge base article can be popped out or in")  
+  ![Knowledge base article can be popped out or in](../unified-service-desk/media/usd-kb-article-popped-out.png "Knowledge base article can be popped out or in")  
   
- For information about how you can configure knowledge management integration in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Configure knowledge management in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md) and [Walkthrough 8: Use Parature knowledge within your agent application](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md).  
+  For information about how you can configure knowledge management integration in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Configure knowledge management in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md) and [Walkthrough 8: Use Parature knowledge within your agent application](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md).  
   
 ### See also  
  [Configure knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   

@@ -29,26 +29,26 @@ To maintain the integrity of system data, you should check for duplicates regula
   
 1. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
-2.  Click **Duplicate Detection Jobs**.  
+2. Click **Duplicate Detection Jobs**.  
   
-3.  Click **New**, or select the name of the duplicate detection job you want to run.  
+3. Click **New**, or select the name of the duplicate detection job you want to run.  
   
-     You’ll see the Duplicate Detection wizard, which helps you create a job to check for duplicates.  
+    You’ll see the Duplicate Detection wizard, which helps you create a job to check for duplicates.  
   
-4.  Click **Next**.  
+4. Click **Next**.  
   
-5.  In the **Look for** drop-down list, select the record type that you want to check for duplicates.  
+5. In the **Look for** drop-down list, select the record type that you want to check for duplicates.  
   
-    > [!NOTE]
-    >  What you see in this list depends on which duplicate detection rules are published. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up duplicate detection rules to keep your data clean](../admin/set-up-duplicate-detection-rules-keep-data-clean.md)  
+   > [!NOTE]
+   >  What you see in this list depends on which duplicate detection rules are published. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up duplicate detection rules to keep your data clean](../admin/set-up-duplicate-detection-rules-keep-data-clean.md)  
   
-6.  In the **Use Saved View** drop-down list, select a view if you want to limit the records searched to records in that view. For example, select Active Accounts. When you select a view, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] adds the criteria to search on.  
+6. In the **Use Saved View** drop-down list, select a view if you want to limit the records searched to records in that view. For example, select Active Accounts. When you select a view, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] adds the criteria to search on.  
   
-7.  To further limit the records searched, click **Select** and then enter the criteria you want.  
+7. To further limit the records searched, click **Select** and then enter the criteria you want.  
   
- ![Screenshot of duplicate detection wizard, page 1](../admin/media/duplicate-detection-wizard.png "Screenshot of duplicate detection wizard, page 1")  
+   ![Screenshot of duplicate detection wizard, page 1](../admin/media/duplicate-detection-wizard.png "Screenshot of duplicate detection wizard, page 1")  
   
-8.  Click **Next**.  
+8. Click **Next**.  
   
 9. Accept the default name for the job, or type a different name.  
   

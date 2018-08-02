@@ -583,6 +583,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_TransformationParameterMapping_TransformationMapping"></a> TransformationParameterMapping_TransformationMapping
 
 Same as transformationparametermapping entity [TransformationParameterMapping_TransformationMapping](transformationparametermapping.md#BKMK_TransformationParameterMapping_TransformationMapping) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|transformationparametermapping|
@@ -597,6 +598,7 @@ Same as transformationparametermapping entity [TransformationParameterMapping_Tr
 ### <a name="BKMK_userentityinstancedata_transformationmapping"></a> userentityinstancedata_transformationmapping
 
 Same as userentityinstancedata entity [userentityinstancedata_transformationmapping](userentityinstancedata.md#BKMK_userentityinstancedata_transformationmapping) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

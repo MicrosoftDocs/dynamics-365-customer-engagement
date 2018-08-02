@@ -32,13 +32,13 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
 
  Metadata lets you create applications that adapt as the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement data model changes. Metadata is important for the following types of application:  
   
--   UI for client applications  
+- UI for client applications  
   
--   Integration tools that have to map Dynamics 365 data to external systems  
+- Integration tools that have to map Dynamics 365 data to external systems  
   
--   Development tools  
+- Development tools  
   
- Using the classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace you can implement designs that will exist somewhere between a lightweight query and a persistent metadata cache.  
+  Using the classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace you can implement designs that will exist somewhere between a lightweight query and a persistent metadata cache.  
   
 ### Lightweight query
   
@@ -68,23 +68,23 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
 
  The <xref:Microsoft.Xrm.Sdk.Metadata.Query.EntityQueryExpression>.<xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataQueryExpression.Criteria> property accepts a <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataFilterExpression> that contains a collection of <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionExpression> objects that allow for defining conditions for filtering entity properties based on their value. These conditions use a <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator> that allows for the following operators:  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.Equals  
+- <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.Equals  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.NotEquals  
+- <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.NotEquals  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.In  
+- <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.In  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.NotIn  
+- <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.NotIn  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.GreaterThan  
+- <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.GreaterThan  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.LessThan  
+- <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataConditionOperator>.LessThan  
   
- The <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataFilterExpression> also includes a <xref:Microsoft.Xrm.Sdk.Query.LogicalOperator> to represent whether to apply `And` or `Or` logic when you evaluate the conditions.  
+  The <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataFilterExpression> also includes a <xref:Microsoft.Xrm.Sdk.Query.LogicalOperator> to represent whether to apply `And` or `Or` logic when you evaluate the conditions.  
   
- Not all properties can be used as filter criteria. Only properties that represent simple data types, enumerations, <xref:Microsoft.Xrm.Sdk.BooleanManagedProperty> or <xref:Microsoft.Xrm.Sdk.Metadata.AttributeRequiredLevelManagedProperty> types can be used in a <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataFilterExpression>. When a <xref:Microsoft.Xrm.Sdk.BooleanManagedProperty> or <xref:Microsoft.Xrm.Sdk.Metadata.AttributeRequiredLevelManagedProperty> is specified, only the `Value` property is evaluated.  
+  Not all properties can be used as filter criteria. Only properties that represent simple data types, enumerations, <xref:Microsoft.Xrm.Sdk.BooleanManagedProperty> or <xref:Microsoft.Xrm.Sdk.Metadata.AttributeRequiredLevelManagedProperty> types can be used in a <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataFilterExpression>. When a <xref:Microsoft.Xrm.Sdk.BooleanManagedProperty> or <xref:Microsoft.Xrm.Sdk.Metadata.AttributeRequiredLevelManagedProperty> is specified, only the `Value` property is evaluated.  
   
- The following table lists <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata> properties that cannot be used in a <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataFilterExpression>:  
+  The following table lists <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata> properties that cannot be used in a <xref:Microsoft.Xrm.Sdk.Metadata.Query.MetadataFilterExpression>:  
   
 |||||  
 |-|-|-|-|  
@@ -249,19 +249,19 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
   
  Use the <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters> enumeration with the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesRequest>.<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesRequest.DeletedMetadataFilters> to limit the information to only those types of metadata you are interested in. The <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters> enumeration provides the following options:  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters>.Entity (Default)  
+- <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters>.Entity (Default)  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters>.Attribute  
+- <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters>.Attribute  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters>.Relationship  
+- <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters>.Relationship  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters>.Label  
+- <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters>.Label  
   
--   <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters>.OptionSet  
+- <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters>.OptionSet  
   
- You will also use <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters> enumeration as a key to the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesResponse>.<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesResponse.DeletedMetadata> to filter the `GUID` values found in the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesResponse>.<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesResponse.DeletedMetadata> property.  
+  You will also use <xref:Microsoft.Xrm.Sdk.Metadata.Query.DeletedMetadataFilters> enumeration as a key to the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesResponse>.<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesResponse.DeletedMetadata> to filter the `GUID` values found in the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesResponse>.<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesResponse.DeletedMetadata> property.  
   
- When you design a metadata cache you will want to use the <xref:Microsoft.Xrm.Sdk.Metadata.MetadataBase.MetadataId> for each item so that you can identify deleted metadata items and remove them.  
+  When you design a metadata cache you will want to use the <xref:Microsoft.Xrm.Sdk.Metadata.MetadataBase.MetadataId> for each item so that you can identify deleted metadata items and remove them.  
   
 <a name="BKMK_DeletedMetadataExpiration"></a>
    
