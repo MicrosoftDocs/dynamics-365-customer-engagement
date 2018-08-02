@@ -1,10 +1,11 @@
 ---
 title: "Overview of Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Get started with Unified Service Desk for Dynamics 365 Customer Engagement" 
-ms.custom: ""
+ms.custom:
+  - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "hero-article"
@@ -16,9 +17,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: bccc29e3-23a7-4d5a-b53f-432510e63c99
 caps.latest.revision: 7
-author: "Mattp123"
-ms.author: "matp"
-manager: "amyla"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 tags: 
  - "MigrationHO"
 ---
@@ -45,9 +46,9 @@ tags:
   
 - **[!INCLUDE[pn_user_interface_integration](../../includes/pn-user-interface-integration.md)] for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]**: This solution contains the underlying entities required by the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration entities.  
   
- [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] comes with four sample applications. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Sample Unified Service Desk applications](../../unified-service-desk/admin/sample-unified-service-desk-applications.md)  
+  [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] comes with four sample applications. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Sample Unified Service Desk applications](../../unified-service-desk/admin/sample-unified-service-desk-applications.md)  
   
- For information about the core [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] concepts, see [Core concepts for configuring Unified Service Desk](../../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md).  
+  For information about the core [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] concepts, see [Core concepts for configuring Unified Service Desk](../../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md).  
   
 
 ## See also  

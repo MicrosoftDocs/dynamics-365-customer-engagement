@@ -1,10 +1,11 @@
 ---
 title: "Session management in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about session context and session management in Unified Service Desk."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +17,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: 9430fbca-3c70-4a62-a259-2c9c00871057
 caps.latest.revision: 7
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Session management in Unified Service Desk
 Whenever you search for customer information in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], the system fetches the information from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], and stores it in a session. The information about the session and the fetched customer record is stored in the session context. You can view information about the session and the session context in the **$Session** and **$Context** parameters in the **Debugger** hosted control.  
@@ -29,19 +30,19 @@ Whenever you search for customer information in [!INCLUDE[pn_unified_service_des
 ## Session and context information  
  Let us see how the session and context data is stored in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] when you search for customer information.  
   
-1.  Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
-2.  Click **Search** in the toolbar, and then click an account name to search for it.  
+2. Click **Search** in the toolbar, and then click an account name to search for it.  
   
-3.  The customer information is displayed in a session tab. Open the **Debugger** hosted control by clicking the down arrow next to the settings option in the top-right corner, and selecting **Debug**.  
+3. The customer information is displayed in a session tab. Open the **Debugger** hosted control by clicking the down arrow next to the settings option in the top-right corner, and selecting **Debug**.  
   
-4.  Click the **Data Parameters** tab, and expand **$Session** to see the current session information.  
+4. Click the **Data Parameters** tab, and expand **$Session** to see the current session information.  
   
- ![Current session information](../unified-service-desk/media/usd-session-info.png "Current session information")  
+   ![Current session information](../unified-service-desk/media/usd-session-info.png "Current session information")  
   
-5.  Now, expand the **$Context** parameter to view information about the customer record such as the customer ID, address, and so on. You will also find information about the session.  
+5. Now, expand the **$Context** parameter to view information about the customer record such as the customer ID, address, and so on. You will also find information about the session.  
   
- ![Current session context information](../unified-service-desk/media/usd-session-context.png "Current session context information")  
+   ![Current session context information](../unified-service-desk/media/usd-session-context.png "Current session context information")  
   
 <a name="SessionName"></a>   
 ## Session name  

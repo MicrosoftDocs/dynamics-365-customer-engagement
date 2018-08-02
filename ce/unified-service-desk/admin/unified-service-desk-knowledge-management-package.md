@@ -1,10 +1,11 @@
 ---
 title: "Unified Service Desk for Dynamics 365 Customer Engagement – Knowledge Management package | MicrosoftDocs"
 description: "Overview of the Knowledge Management sample application."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -17,9 +18,9 @@ applies_to:
   - "Dynamics CRM Online"
 ms.assetid: 5937df93-dcbc-4024-a46c-6afbe61f4359
 caps.latest.revision: 19
-author: "Mattp123"
-ms.author: "matp"
-manager: "brycho"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Knowledge Management sample application package 
 [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] provides a configurable framework for quickly building applications for call centers so the customer service reps get a unified view of the customer data stored in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] or any other application.  
@@ -30,18 +31,18 @@ manager: "brycho"
   
 > [!IMPORTANT]
 >  The sample applications are not supported for production use.  
->   
+> 
 >  This sample application is useful only if you have set up knowledge management for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set up knowledge management with a knowledge base](https://technet.microsoft.com/library/dn946909.aspx)  
   
  With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Knowledge Management package, the following components are installed:  
   
--   User Interface Integration Solution  
+- User Interface Integration Solution  
   
 - [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Solution  
   
--   Data required for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and customizations  
+- Data required for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and customizations  
   
--   Configurations for integrating [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with knowledge management  
+- Configurations for integrating [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with knowledge management  
    
   
  Here’s what you’ll see when you install [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:  
@@ -64,7 +65,7 @@ manager: "brycho"
   
 9. **Session timer**: Shows how long a service rep has been on the session.  
   
- ![Account session in Unified Service Desk](../../unified-service-desk/media/account-session-unified-service-desk.png "Account session in Unified Service Desk")  
+   ![Account session in Unified Service Desk](../../unified-service-desk/media/account-session-unified-service-desk.png "Account session in Unified Service Desk")  
   
 ## View your cases  
   
@@ -126,9 +127,9 @@ manager: "brycho"
   
 ## Update the notes  
   
--   Enter your case notes in the **Notes** area.  
+- Enter your case notes in the **Notes** area.  
   
--   From the list of call scripts, select the **Update the notes** call script. This will attach the notes you’ve taken during your conversation with the customer to the **Notes** tab of the case record in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+- From the list of call scripts, select the **Update the notes** call script. This will attach the notes you’ve taken during your conversation with the customer to the **Notes** tab of the case record in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
 ## Close the session  
  From the list of call scripts, select the **Close the session** call script. This will close the open session and collapse the left panel that shows the call script and right panel that lets you search KB articles.  

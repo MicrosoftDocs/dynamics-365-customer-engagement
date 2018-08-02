@@ -1,14 +1,16 @@
 ---
 title: "Use tags for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn about various liquid tags available in portal."
-ms.custom: ""
+ms.custom:
+  - dyn365-portal
 ms.date: 09/28/2017
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
 ms.assetid: 18dc6cfa-101c-4104-86b9-59a130fdcbfd
 ms.reviewer: ""
+redirect_url: /dynamics365/customer-engagement/portals/liquid-tags
 author: sbmjais
 ms.author: shjais
 manager: sakudes
@@ -1159,7 +1161,7 @@ Having multiple search providers is an advanced configuration that will not appl
 Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-configured [*Define entity forms and custom logic within the Dynamics 365 portal*](entity-forms-custom-logic.md), by name or ID.  
 
 > [!Note]
-> The entityform tag is only available for use in content rendered inside a *[web template](store-content-web-templates.md)–*based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything.                                                                                                                                                                             You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.       
+> The entityform tag is only available for use in content rendered inside a <em>[web template](store-content-web-templates.md)–</em>based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything.                                                                                                                                                                             You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.       
 
 `{% entityform name: 'My Entity Form' %}`
 
@@ -1183,7 +1185,7 @@ The name of the Web Form you wish to load.
 
 ### **webform**
 
-Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-configured web form, by name or ID. The webform tag is only available for use in content rendered inside a *[web template](store-content-web-templates.md)–*based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything. You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.                
+Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-configured web form, by name or ID. The webform tag is only available for use in content rendered inside a <em>[web template](store-content-web-templates.md)–</em>based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything. You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.                
 `{% webform name: 'My Web Form' %}`
 
 ### See also

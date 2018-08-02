@@ -3,7 +3,11 @@ title: "Accessibility features and keyboard shortcuts (Dynamics 365 for Marketin
 description: "Provides an overview of accessibility features and keyboard shortcuts in Dynamics 365 for Marketing"
 keywords: "accessibility; keyboard shortcuts"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-a11y"
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -214,7 +218,7 @@ To move quickly between the main areas of the customer journey and lead-scoring 
 [Design your digital content](design-digital-content.md)  
 [Content blocks reference](content-blocks-reference.md)  
 [Prepare marketing email messages](prepare-marketing-emails.md)  
-[Work with email templates](email-templates.md)  
+[Work with email, page, and form templates](email-templates.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  

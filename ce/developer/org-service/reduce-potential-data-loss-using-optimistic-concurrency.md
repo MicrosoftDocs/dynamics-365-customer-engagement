@@ -56,7 +56,7 @@ On a multi-threaded and multi-user system like [!INCLUDE[pn_dynamics_crm](../../
   
      When the **IfVersionMatches** behavior is indicated on an update to an entity, and where optimistic concurrency isn’t enabled, a fault is returned.  
   
- You can check the [Code](https://msdn.microsoft.com/library/system.servicemodel.faultexception.code\(v=vs.110\).aspx) property of the returned fault to determine if the fault is related to optimistic concurrency. The codes for the error conditions that were shown previously were obtained from the ErrorCodes.cs helper code.  
+  You can check the [Code](https://msdn.microsoft.com/library/system.servicemodel.faultexception.code\(v=vs.110\).aspx) property of the returned fault to determine if the fault is related to optimistic concurrency. The codes for the error conditions that were shown previously were obtained from the ErrorCodes.cs helper code.  
   
 ### See also  
  [Extend Dynamics 365 Customer Engagement on the server](../extend-dynamics-365-server.md)   

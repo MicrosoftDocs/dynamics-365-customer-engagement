@@ -1,9 +1,10 @@
 ---
 title: "Configure the schedule board (Dynamics 365 for Field Service and Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "field-service"
@@ -12,11 +13,11 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "mduelae"
+author: krbjoran
 ms.assetid: a9a65fd8-1d2f-475e-83d2-2c052b9f2573
 caps.latest.revision: 32
-ms.author: "mkaur"
-manager: "amyla"
+ms.author: krbjoran
+manager: shellyha
 ---
 # Configure the schedule board for resource availability (Field Service)
 
@@ -54,23 +55,23 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
 ### Set filters  
   
-1.  From the main menu, click **Resource Scheduling**  > **Schedule Board**.  
+1. From the main menu, click **Resource Scheduling**  > **Schedule Board**.  
   
 2. **Filter & Map View**: Click the **Filter** tab to filter information by **Characteristics - Rating** **Roles**, **Territories**, **Organizational Units**, **Resource Types**, **Teams**, and **Business Units** to narrow or expand the schedule board view.  
   
-    - **Characteristics – Rating**, filters by skills that resources possess, with a rating of familiar, good, or proficient. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up characteristics](../field-service/set-up-characteristics.md)  
+   - **Characteristics – Rating**, filters by skills that resources possess, with a rating of familiar, good, or proficient. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up characteristics](../field-service/set-up-characteristics.md)  
   
-    - **Roles**, filters by resource role and associates skills and proficiencies to that role. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure resource roles (Project Service Automation)](../project-service/configure-resource-roles.md)  
+   - **Roles**, filters by resource role and associates skills and proficiencies to that role. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure resource roles (Project Service Automation)](../project-service/configure-resource-roles.md)  
   
-    - **Service Territory** filters will narrow down the schedule board to only those resources who belong to that territory.  
+   - **Service Territory** filters will narrow down the schedule board to only those resources who belong to that territory.  
   
-    - **Organizational units** filters groups or divisions in a professional services company that employs billable resources with cost rates that are distinct from other such groups or divisions in the company. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create organizational units (Project Service Automation)](../project-service/create-organizational-units.md)  
+   - **Organizational units** filters groups or divisions in a professional services company that employs billable resources with cost rates that are distinct from other such groups or divisions in the company. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create organizational units (Project Service Automation)](../project-service/create-organizational-units.md)  
   
-    - **Resource Types**, when selected, will show up in the Schedule Board pane by associated category. Categories are defined by the user, but could include things like crew, technician, or plumber.  
+   - **Resource Types**, when selected, will show up in the Schedule Board pane by associated category. Categories are defined by the user, but could include things like crew, technician, or plumber.  
   
-    - **Teams** filters by teams that have been set up.  
+   - **Teams** filters by teams that have been set up.  
   
-    - **Business Units** filters by groups that have specific access to information to do their job. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a business unit to control access to records](../admin/create-edit-business-unit-control-access-records.md)  
+   - **Business Units** filters by groups that have specific access to information to do their job. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a business unit to control access to records](../admin/create-edit-business-unit-control-access-records.md)  
   
 ### Set default filters  
  ![Schedule Board Default Filters](../field-service/media/field-service-schedule-board-default-filters.png "Schedule Board Default Filters")  
@@ -153,29 +154,29 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 <a name="BKMK_CreateAdditionalTabs"></a>   
 ## Create additional tabs  
   
--   To add a new schedule board tab, click **+Add Tab** at the top.  
+- To add a new schedule board tab, click **+Add Tab** at the top.  
   
-    > [!NOTE]
-    >  To edit an existing schedule board view, double-click the view name.  
+  > [!NOTE]
+  >  To edit an existing schedule board view, double-click the view name.  
   
- ![Schedule board view name](../field-service/media/field-service-schedule-board-view-name.png "Schedule board view name")  
+  ![Schedule board view name](../field-service/media/field-service-schedule-board-view-name.png "Schedule board view name")  
   
--   A window opens showing all the configuration options.  
+- A window opens showing all the configuration options.  
   
-    -   Give the tab a name by filling in the **Name** field.  
+  -   Give the tab a name by filling in the **Name** field.  
   
-    -   You can configure a tab in a several ways by choosing parameters in each of the configuration options shown in the pop-up window.  
+  -   You can configure a tab in a several ways by choosing parameters in each of the configuration options shown in the pop-up window.  
   
-    -   Click the **General Settings**, and then choose settings for the map as well as other settings.  
+  -   Click the **General Settings**, and then choose settings for the map as well as other settings.  
   
-    -   Click the **Schedule Types** option, and then choose booking tooltips, template views, and default availability view for each entity type that has scheduling turned on.  
+  -   Click the **Schedule Types** option, and then choose booking tooltips, template views, and default availability view for each entity type that has scheduling turned on.  
   
-    -   Click **Add** at the bottom of the pop-up window to create the new tab.  
+  -   Click **Add** at the bottom of the pop-up window to create the new tab.  
   
-    > [!NOTE]
-    >  Your admin can also add custom views to the list. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a public view for an entity](../customize/create-edit-views.md)  
+  > [!NOTE]
+  >  Your admin can also add custom views to the list. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a public view for an entity](../customize/create-edit-views.md)  
   
--   Click the **Unscheduled Panels** view, and then choose a view from the drop-down list. Choose a view for the unscheduled bookings at the bottom of the schedule board.  
+- Click the **Unscheduled Panels** view, and then choose a view from the drop-down list. Choose a view for the unscheduled bookings at the bottom of the schedule board.  
   
 ### Add booking requirements tabs  
  You can create booking requirement tabs for different types of bookings. For example, you can create separate tabs for work orders, cases, and opportunities.  

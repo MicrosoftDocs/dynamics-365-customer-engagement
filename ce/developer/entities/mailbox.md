@@ -2060,6 +2060,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_bulkoperation_mailbox_sendermailboxid"></a> bulkoperation_mailbox_sendermailboxid
 
 Same as bulkoperation entity [bulkoperation_mailbox_sendermailboxid](bulkoperation.md#BKMK_bulkoperation_mailbox_sendermailboxid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkoperation|
@@ -2074,6 +2075,7 @@ Same as bulkoperation entity [bulkoperation_mailbox_sendermailboxid](bulkoperati
 ### <a name="BKMK_campaignactivity_mailbox_sendermailboxid"></a> campaignactivity_mailbox_sendermailboxid
 
 Same as campaignactivity entity [campaignactivity_mailbox_sendermailboxid](campaignactivity.md#BKMK_campaignactivity_mailbox_sendermailboxid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignactivity|
@@ -2088,6 +2090,7 @@ Same as campaignactivity entity [campaignactivity_mailbox_sendermailboxid](campa
 ### <a name="BKMK_campaignresponse_mailbox_sendermailboxid"></a> campaignresponse_mailbox_sendermailboxid
 
 Same as campaignresponse entity [campaignresponse_mailbox_sendermailboxid](campaignresponse.md#BKMK_campaignresponse_mailbox_sendermailboxid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -2102,6 +2105,7 @@ Same as campaignresponse entity [campaignresponse_mailbox_sendermailboxid](campa
 ### <a name="BKMK_incidentresolution_mailbox_sendermailboxid"></a> incidentresolution_mailbox_sendermailboxid
 
 Same as incidentresolution entity [incidentresolution_mailbox_sendermailboxid](incidentresolution.md#BKMK_incidentresolution_mailbox_sendermailboxid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incidentresolution|
@@ -2116,6 +2120,7 @@ Same as incidentresolution entity [incidentresolution_mailbox_sendermailboxid](i
 ### <a name="BKMK_serviceappointment_mailbox_sendermailboxid"></a> serviceappointment_mailbox_sendermailboxid
 
 Same as serviceappointment entity [serviceappointment_mailbox_sendermailboxid](serviceappointment.md#BKMK_serviceappointment_mailbox_sendermailboxid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -2130,6 +2135,7 @@ Same as serviceappointment entity [serviceappointment_mailbox_sendermailboxid](s
 ### <a name="BKMK_opportunityclose_mailbox_sendermailboxid"></a> opportunityclose_mailbox_sendermailboxid
 
 Same as opportunityclose entity [opportunityclose_mailbox_sendermailboxid](opportunityclose.md#BKMK_opportunityclose_mailbox_sendermailboxid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunityclose|
@@ -2144,6 +2150,7 @@ Same as opportunityclose entity [opportunityclose_mailbox_sendermailboxid](oppor
 ### <a name="BKMK_orderclose_mailbox_sendermailboxid"></a> orderclose_mailbox_sendermailboxid
 
 Same as orderclose entity [orderclose_mailbox_sendermailboxid](orderclose.md#BKMK_orderclose_mailbox_sendermailboxid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|orderclose|
@@ -2158,6 +2165,7 @@ Same as orderclose entity [orderclose_mailbox_sendermailboxid](orderclose.md#BKM
 ### <a name="BKMK_quoteclose_mailbox_sendermailboxid"></a> quoteclose_mailbox_sendermailboxid
 
 Same as quoteclose entity [quoteclose_mailbox_sendermailboxid](quoteclose.md#BKMK_quoteclose_mailbox_sendermailboxid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quoteclose|
@@ -2172,6 +2180,7 @@ Same as quoteclose entity [quoteclose_mailbox_sendermailboxid](quoteclose.md#BKM
 ### <a name="BKMK_msdyn_bookingalert_mailbox_sendermailboxid"></a> msdyn_bookingalert_mailbox_sendermailboxid
 
 Same as msdyn_bookingalert entity [msdyn_bookingalert_mailbox_sendermailboxid](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_mailbox_sendermailboxid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -2186,6 +2195,7 @@ Same as msdyn_bookingalert entity [msdyn_bookingalert_mailbox_sendermailboxid](m
 ### <a name="BKMK_msdyn_approval_mailbox_sendermailboxid"></a> msdyn_approval_mailbox_sendermailboxid
 
 Same as msdyn_approval entity [msdyn_approval_mailbox_sendermailboxid](msdyn_approval.md#BKMK_msdyn_approval_mailbox_sendermailboxid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -2200,6 +2210,7 @@ Same as msdyn_approval entity [msdyn_approval_mailbox_sendermailboxid](msdyn_app
 ### <a name="BKMK_mailbox_userentityinstancedatas"></a> mailbox_userentityinstancedatas
 
 Same as userentityinstancedata entity [mailbox_userentityinstancedatas](userentityinstancedata.md#BKMK_mailbox_userentityinstancedatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -2214,6 +2225,7 @@ Same as userentityinstancedata entity [mailbox_userentityinstancedatas](userenti
 ### <a name="BKMK_systemuser_defaultmailbox_mailbox"></a> systemuser_defaultmailbox_mailbox
 
 Same as systemuser entity [systemuser_defaultmailbox_mailbox](systemuser.md#BKMK_systemuser_defaultmailbox_mailbox) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|systemuser|
@@ -2228,6 +2240,7 @@ Same as systemuser entity [systemuser_defaultmailbox_mailbox](systemuser.md#BKMK
 ### <a name="BKMK_queue_defaultmailbox_mailbox"></a> queue_defaultmailbox_mailbox
 
 Same as queue entity [queue_defaultmailbox_mailbox](queue.md#BKMK_queue_defaultmailbox_mailbox) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queue|
@@ -2242,6 +2255,7 @@ Same as queue entity [queue_defaultmailbox_mailbox](queue.md#BKMK_queue_defaultm
 ### <a name="BKMK_activitypointer_sendermailboxid_mailbox"></a> activitypointer_sendermailboxid_mailbox
 
 Same as activitypointer entity [activitypointer_sendermailboxid_mailbox](activitypointer.md#BKMK_activitypointer_sendermailboxid_mailbox) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -2256,6 +2270,7 @@ Same as activitypointer entity [activitypointer_sendermailboxid_mailbox](activit
 ### <a name="BKMK_Mailbox_MailboxTrackingFolder"></a> Mailbox_MailboxTrackingFolder
 
 Same as mailboxtrackingfolder entity [Mailbox_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_Mailbox_MailboxTrackingFolder) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -2270,6 +2285,7 @@ Same as mailboxtrackingfolder entity [Mailbox_MailboxTrackingFolder](mailboxtrac
 ### <a name="BKMK_Mailbox_Annotation"></a> Mailbox_Annotation
 
 Same as annotation entity [Mailbox_Annotation](annotation.md#BKMK_Mailbox_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -2284,6 +2300,7 @@ Same as annotation entity [Mailbox_Annotation](annotation.md#BKMK_Mailbox_Annota
 ### <a name="BKMK_Mailbox_SyncErrors"></a> Mailbox_SyncErrors
 
 Same as syncerror entity [Mailbox_SyncErrors](syncerror.md#BKMK_Mailbox_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -2298,6 +2315,7 @@ Same as syncerror entity [Mailbox_SyncErrors](syncerror.md#BKMK_Mailbox_SyncErro
 ### <a name="BKMK_mailbox_processsessions"></a> mailbox_processsessions
 
 Same as processsession entity [mailbox_processsessions](processsession.md#BKMK_mailbox_processsessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -2312,6 +2330,7 @@ Same as processsession entity [mailbox_processsessions](processsession.md#BKMK_m
 ### <a name="BKMK_mailbox_asyncoperations"></a> mailbox_asyncoperations
 
 Same as asyncoperation entity [mailbox_asyncoperations](asyncoperation.md#BKMK_mailbox_asyncoperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -2326,6 +2345,7 @@ Same as asyncoperation entity [mailbox_asyncoperations](asyncoperation.md#BKMK_m
 ### <a name="BKMK_tracelog_Mailbox"></a> tracelog_Mailbox
 
 Same as tracelog entity [tracelog_Mailbox](tracelog.md#BKMK_tracelog_Mailbox) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|tracelog|
@@ -2340,6 +2360,7 @@ Same as tracelog entity [tracelog_Mailbox](tracelog.md#BKMK_tracelog_Mailbox) Ma
 ### <a name="BKMK_email_sendermailboxid_mailbox"></a> email_sendermailboxid_mailbox
 
 Same as email entity [email_sendermailboxid_mailbox](email.md#BKMK_email_sendermailboxid_mailbox) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -2354,6 +2375,7 @@ Same as email entity [email_sendermailboxid_mailbox](email.md#BKMK_email_senderm
 ### <a name="BKMK_mailbox_mailboxstatistics"></a> mailbox_mailboxstatistics
 
 Same as mailboxstatistics entity [mailbox_mailboxstatistics](mailboxstatistics.md#BKMK_mailbox_mailboxstatistics) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxstatistics|

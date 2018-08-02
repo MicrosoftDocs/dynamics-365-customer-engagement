@@ -1,9 +1,10 @@
 ---
 title: "Install and customize Dynamics 365 for Project Service Automation | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-projectservice
 ms.date: 09/15/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "project-service-automation"
@@ -12,11 +13,11 @@ ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "mduelae"
+author: krbjoran
 ms.assetid: 9600094f-b9dc-4879-9112-0144e85f9b04
 caps.latest.revision: 26
-ms.author: "mkaur"
-manager: "brycho"
+ms.author: krbjoran
+manager: shellyha
 ---
 # Install and customize (Project Service Automation)
 
@@ -31,15 +32,15 @@ manager: "brycho"
 ## Customize [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] forms and reports  
  If you want to customize any of the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] forms, dashboards, or reports, you can find more information about customizing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] in the following links:  
   
--   [Customize your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement system](../customize/getting-started-customization.md)  
+- [Customize your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement system](../customize/getting-started-customization.md)  
   
--   [Create and design forms](../customize/create-design-forms.md)  
+- [Create and design forms](../customize/create-design-forms.md)  
   
--   [Create and edit dashboards](../customize/create-edit-dashboards.md)  
+- [Create and edit dashboards](../customize/create-edit-dashboards.md)  
   
--   [Create and edit processes](../customize/guide-staff-through-common-tasks-processes.md)  
+- [Create and edit processes](../customize/guide-staff-through-common-tasks-processes.md)  
   
--   [Introduction to reporting & analytics](../analytics/reporting-analytics-with-dynamics-365.md)  
+- [Introduction to reporting & analytics](../analytics/reporting-analytics-with-dynamics-365.md)  
   
 ### See Also  
  [Administrator Guide](../project-service/admin-guide.md)   

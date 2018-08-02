@@ -1,9 +1,12 @@
 ---
-title: "Work with email templates (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "Describes how to work with email templates and gives details about client support and known issues related to email designs in Dynamics 365 for Marketing"
-keywords: "designer; email; preview; template; Litmus"
+title: "Work with email, page, and form templates (Dynamics 365 for Marketing) | Microsoft Docs "
+description: "Describes how to work with email, page, and form templates and gives details about client support and known issues related to email designs in Dynamics 365 for Marketing"
+keywords: "designer; email; preview; template; Litmus; marketing page; marketing form"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -16,35 +19,33 @@ ms.reviewer: renwe
 topic-status: Drafting
 ---
 
-# Work with email templates
+# Work with email, page, and form templates
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] comes with a wide variety of professionally designed email templates. Most templates include a column layout, color scheme, sample content, and sample images, whereas others provide just a basic column layout without sample content. There is also a blank template, which provides no sample content or structure.
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] comes with a wide variety of professionally designed templates. Most templates include a column layout, color scheme, sample content, and sample images, whereas others provide just a basic column layout without sample content. There is also a blank template, which provides no sample content or structure.
 
 The templates included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provide:
 
 - A starting point to help you work more quickly
-- Advanced layouts based on responsive design techniques that help make messages look good at any screen size
+- Advanced layouts based on responsive design techniques that help make content look good at any screen size
 - A harmonious color palette with a manageable number of colors that you can easily adapt to your own organization's identity
-- Tried-and-true designs that have been tested against a wide range of email clients to help ensure they will look great everywhere
+- Tried-and-true designs that have been tested against a wide range of web and email clients to help ensure they will look great everywhere
 
-The first thing you do each time you create a new message is choose a template.  You can easily work with the supplied content and styles using the designer, but the column layout is semi-permanently established by the template you choose (you can only change it using the HTML code editor).
+The first thing you do each time you create a new message, page, or form is to choose a template.  You can easily work with the supplied content and styles using the designer, but the column layout is semi-permanently established by the template you choose (you can only change it using the HTML code editor).
 
 ![Dialog for choosing an email template](media/email-template-dialog.png "Dialog box for choosing an email template")
 
-When you create a new message, the selected template's content is copied into it. The message and template aren't linked, so when you edit the message, the template won't change; likewise, any future changes that you make to a template won't affect any existing messages that were created using it.
+When you create a new design, the selected template's content is copied into it. The design and template aren't linked, so when you edit the design, the template won't change; likewise, any future changes that you make to a template won't affect any existing designs that were created using it.
 
-You can easily create custom templates to match your organization's communication needs and visual identity. You can save any existing message as a template, or work directly in the templates area to create them. You'd typically start with a message based on an existing template, customize the message as needed, and then save the result as a new template. When setting up a template, you can add various types of metadata (such as purpose, style, market type, and optimized for) which make each template easier to identify and easier to find by using filters in the **Select an email template** dialog box shown to users each time they create a new email message.
+You can easily create custom templates to match your organization's communication needs and visual identity. You can save any existing message, page, or form as a template, or work directly in the relevant templates area to create them. You'd typically start with a design based on an existing template, customize the design as needed, and then save the result as a new template. When setting up a template, you can add various types of metadata (such as purpose, style, market type, and optimized for) which make each template easier to identify and easier to find by using filters in the **Select a template** dialog box shown to users each time they create a new email, page, or form design.
 
 > [!IMPORTANT]
 > The default templates are maintained as part of the solution and might be overwritten when [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is updated. Therefore, if you want to customize a default template then you should always save the result using a new name rather than saving it under its default name&nbsp;otherwise your customizations could be overwritten during the next update.
 
-For more information about creating and editing marketing email messages, see [Prepare marketing email messages](prepare-marketing-emails.md). For more information about how to work with the designer tool, see [Design your digital content](design-digital-content.md).
-
 ## Style a template
 
-All templates included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provide style controls to help you quickly adapt them to the colors used by your organization or campaign. The style settings vary according to which template you choose. Messages based on the blank template don't provide styling controls unless you (or your system customizer) have programmed them to do so by using the right HTML markup.
+All email and page templates included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provide style controls to help you quickly adapt them to the colors used by your organization or campaign. The style settings vary according to which template you choose. Designs based on a blank template don't provide styling controls unless you (or your system customizer) have programmed them to do so by using the right HTML markup.
 
 ![Style settings for email templates](media/email-template-styles.png "Style settings for email templates")
 
@@ -60,10 +61,11 @@ Here are some common style settings provided by the out-of-the-box templates:
   - **Color 3**: Footer
 - **Direction**: Depending on which language you're using, you'll choose either LTR (left-to-right) or RTL (right-to-left).
 
+The settings provided for each template are set up using custom attributes in the template's HTML. You can edit and create these as needed when customizing or creating your own templates. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use custom attributes to enable designer features in emails, pages, and forms](custom-template-attributes.md).
 
 ## Tested email clients
 
-All templates included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] have been tested against a wide range of available email clients, as listed in the following tables. The templates should work flawlessly on most modern clients, but some design elements might degrade on older, less-used clients.
+All email templates included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] have been tested against a wide range of available email clients, as listed in the following tables. The templates should work flawlessly on most modern clients, but some design elements might degrade on older, less-used clients.
 
 <table>
   <tr>
@@ -80,9 +82,9 @@ All templates included with [!INCLUDE[pn-marketing-business-app-module-name](../
   </tr>
 </table>
 
-## Known issues with specific clients
+## Known issues with specific email clients
 
-The following known issues apply to the out-of-the-box templates and custom messages when shown on specific clients:
+The following known issues apply to the out-of-the-box email templates and custom messages when shown on specific email clients:
 
 - **Gmail** has a size limit of 104 KB, so markup that exceeds this limit will be cut off. All out-of-the-box templates are smaller than this, so they shouldn't be affected unless they've been heavily customized.
 - **Outlook 2007 and newer for Windows** have the following limitations, though these features are not currently supported by the email designer nor used in the out-of-the-box templates:
@@ -94,9 +96,9 @@ The following known issues apply to the out-of-the-box templates and custom mess
 - **SFR.fr email clients** display a background color for some links.
 - **Lotus Notes email clients** have general rendering issues with the templates.
 
-## Litmus issues
+## Litmus issues for email-design previews
 
-[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides both a simulated preview and an inbox preview. Inbox previews are more accurate because they're rendered for specific email clients. Inbox previews are provided by a Microsoft partner called Litmus Software, Inc. Litmus previews are created by rending your message on actual email clients and then returning a screenshot of the result to you. The following known issues can occur with inbox previews.
+[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides both a simulated preview and an inbox preview for email messages. Inbox previews are more accurate because they're rendered for specific email clients. Inbox previews are provided by a Microsoft partner called Litmus Software, Inc. Litmus previews are created by rending your message on actual email clients and then returning a screenshot of the result to you. The following known issues can occur with inbox previews.
 
 - **Missing footer** : Litmus screenshots sometimes fail to capture the entire message height.
 - **Unable to scroll** : The returned preview is a static screenshot, which might include scrollbars for messages that are higher than the screen. You can't actually scroll the image using these.
@@ -106,6 +108,7 @@ The following known issues apply to the out-of-the-box templates and custom mess
 ### See also
 
 [Prepare marketing email messages](prepare-marketing-emails.md)  
+[Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Design your digital content](design-digital-content.md)  
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  
-[Content blocks reference](content-blocks-reference.md)  
+[Content blocks reference](content-blocks-reference.md)

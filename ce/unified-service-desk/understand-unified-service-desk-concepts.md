@@ -1,10 +1,11 @@
 ---
 title: "Understand Unified Service Desk for Dynamics 365 Customer Engagement concepts | MicrosoftDocs"
 description: "Learn about basic concepts related to configuring and extending Unified Service Desk."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 01/25/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
@@ -15,9 +16,9 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 2866c682-9f3f-422f-b2e0-adc61244727a
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Understand Unified Service Desk concepts
 
@@ -31,14 +32,14 @@ Use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] or [!INCLUDE[pro
 
 > [!Note]
 > If you are on [!INCLUDE[pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)] or lower versions, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application loads a maximum of 5000 records for any [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities that you have configured and deployed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.<br><br>
-Example: You have configured 5105 answer records in **Agent Scripts** entity type. When you want to view these answer records, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application loads a maximum of 5000 record answers. The client application does not load the remaining 105 answer records even though you have configured answer records. 
+> Example: You have configured 5105 answer records in **Agent Scripts** entity type. When you want to view these answer records, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application loads a maximum of 5000 record answers. The client application does not load the remaining 105 answer records even though you have configured answer records. 
 
 `TotalRecordCountLimit` is a UII option introduced in [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)]. This value is for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to determine the batch size while fetching entity records from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. The default value of the `TotalRecordCountLimit` in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] and in MSCRM\_CONFIG database is 5000. The `TotalRecordCountLimit` value must be always same as the value in MSCRM\_CONFIG database. You can change the default value in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] only when CRM server administrator modifies the value in MSCRM\_CONFIG database.
 
 > [!Note]
 > - It is highly recommended that you do not change the default `TotalRecordCountLimit` value in UII option of Unified Service Desk unless there is a change of value in MSCRM_CONFIG database.
 > - `TotalRecordCountLimit` value must be equal to the value in MSCRM\_CONFIG database.
-
+> 
 > [!Warning]
 > If you change the default UII option value to any value other than MSCRM\_CONFIG database value, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application may not fetch the actual entity records.
 

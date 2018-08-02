@@ -1,9 +1,10 @@
 ---
 title: "Help improve Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Learn how you can make our app better by sending system and application information to Microsoft."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD, dyn365-admin
 ms.date: 04/24/2018
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
@@ -12,9 +13,9 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 4ca41e5e-d266-4060-8f26-dac57ca2bb29
-author: "kabala123"
-ms.author: "kabala"
-manager: "sakudes"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 tags: 
  - "MigrationHO"
 ---
@@ -90,7 +91,7 @@ Configuring and setting the value of the Global Option: `HelpImproveUSD` to `FAL
 > 1. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**.
 > 2. Select **HelpImproveUSD** checkbox.
 > 3. Click **Deactivate** in the toolbar.
-
+> 
 > [!Note]
 > If you delete the **HelpImproveUSD** global option from the UII options page, the data collection is enabled and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sends information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]
   

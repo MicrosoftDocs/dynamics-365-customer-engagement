@@ -3,7 +3,7 @@ title: "View posts and conversations in Social Engagement | Microsoft Docs"
 description: "Understand how you can work with posts after acquiring them through Social Engagement."
 keywords: "post list, post details, stream, post actions, reply, mention, share"
 ms.date: 12/08/2017
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # View posts and conversations in Social Engagement
@@ -35,16 +37,16 @@ The details of a post are displayed depending on the interactions from within [!
   
 The posts in a post list that open a conversation view include:  
   
--   Any private message.  
+- Any private message.  
   
--   A [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] reply, if that reply involves one of the social profiles in your tenant.  
+- A [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] reply, if that reply involves one of the social profiles in your tenant.  
   
-    > [!NOTE]
-    >  This can include all social profiles, not just the ones shared to the current user.  
+  > [!NOTE]
+  >  This can include all social profiles, not just the ones shared to the current user.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the conversations with an author](#conversationView)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the conversations with an author](#conversationView)  
   
- Any other post in the post list will open the single post pane with post details. For example, if a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] reply involves authors who aren't social profiles in your tenant, they appear in the single post pane. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the publish history of a post in Social Engagement](#publishHistory)  
+  Any other post in the post list will open the single post pane with post details. For example, if a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] reply involves authors who aren't social profiles in your tenant, they appear in the single post pane. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the publish history of a post in Social Engagement](#publishHistory)  
   
 <a name="Threads"></a>   
 ## See threads of replies and retweets on Twitter  
@@ -53,9 +55,9 @@ When you view the details of a post, all [!INCLUDE[tn_twitter](../includes/tn-tw
   
 [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] supports two types of threads for a tweet: replies and retweets.  
   
--   For [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] replies, you see the thread of all replies acquired in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] that reply to the parent post. Replies to replies or entire conversations aren't covered in the threads.  
+- For [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] replies, you see the thread of all replies acquired in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] that reply to the parent post. Replies to replies or entire conversations aren't covered in the threads.  
   
--   For retweets, you see the thread of all retweets of a parent tweet.  
+- For retweets, you see the thread of all retweets of a parent tweet.  
   
 <a name="publishHistory"></a>   
 ## See the engagement action history of a post in Social Engagement  
@@ -68,9 +70,9 @@ This helps avoid unwanted duplications. For example, if somebody on your team ha
   
 To see the publish history on a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], two prerequisites apply:  
   
--   The post you plan to interact with has been acquired by one of the search topics.  
+- The post you plan to interact with has been acquired by one of the search topics.  
   
--   Earlier interactions on this post were performed in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
+- Earlier interactions on this post were performed in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
 To see posts that have engagement action history, look for posts that have a number appended to the action button.  
   

@@ -168,7 +168,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 |Property|Value|
 |--------|-----|
-|Description|Shows who created the record on behalfÂ of another user.|
+|Description|Shows who created the record on behalfÂ of another user.|
 |DisplayName|Created By (Delegate)|
 |IsValidForForm|False|
 |IsValidForRead|True|
@@ -450,6 +450,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_appconfigmaster_appconfiginstance"></a> appconfigmaster_appconfiginstance
 
 Same as appconfiginstance entity [appconfigmaster_appconfiginstance](appconfiginstance.md#BKMK_appconfigmaster_appconfiginstance) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appconfiginstance|

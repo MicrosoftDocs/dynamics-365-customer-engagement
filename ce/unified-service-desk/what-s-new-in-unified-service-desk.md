@@ -1,10 +1,11 @@
 ---
 title: "What's new in Unified Service Desk for developers and customizers | MicrosoftDocs"
 description: "Learn about the new features for developers and customizers in Unified Service Desk."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 04/24/2018
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -15,9 +16,9 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 1c6da924-cfef-4cbf-a6d5-63af8f1a640d
-author: "kabala123"
-ms.author: "kabala"
-manager: "sakudes"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # What's new in Unified Service Desk for developers and customizers
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for developers and system customizers.
@@ -92,26 +93,26 @@ More information: [CreateEntity](global-manager-hosted-control.md#createentity) 
 
 ### Keyboard shortcuts for toolbar buttons, notifications, and panel navigation
 
--   Toolbar buttons now support keyboard shortcuts, which can be defined while
-    creating a toolbar button. This lets agents execute actions configured
-    against the toolbar button from anywhere in the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] client
-    without having to click it. Shortcut keys for a toolbar button work only if
-    the visible and enable conditions for the button, ancestor buttons (if any),
-    and the toolbar itself evaluate to true. More information: [Toolbars in Unified Service Desk](toolbars-unified-service-desk.md)
+- Toolbar buttons now support keyboard shortcuts, which can be defined while
+  creating a toolbar button. This lets agents execute actions configured
+  against the toolbar button from anywhere in the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] client
+  without having to click it. Shortcut keys for a toolbar button work only if
+  the visible and enable conditions for the button, ancestor buttons (if any),
+  and the toolbar itself evaluate to true. More information: [Toolbars in Unified Service Desk](toolbars-unified-service-desk.md)
 
--   [Notifications](configure-notifications-unified-service-desk.md) in
-    [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] now support keyboard shortcuts. Use the default
-    keyboard shortcut Alt+1 to set your focus on a notification. If there are
-    multiple notifications displayed, you can press Alt+1 repeatedly to cycle
-    through all the active notifications on your screen. To change the keyboard
-    shortcut keys for notifications, use the new **PopupNavigationShortcut** UII
-    option to specify the shortcut keys of your choice.
+- [Notifications](configure-notifications-unified-service-desk.md) in
+  [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] now support keyboard shortcuts. Use the default
+  keyboard shortcut Alt+1 to set your focus on a notification. If there are
+  multiple notifications displayed, you can press Alt+1 repeatedly to cycle
+  through all the active notifications on your screen. To change the keyboard
+  shortcut keys for notifications, use the new **PopupNavigationShortcut** UII
+  option to specify the shortcut keys of your choice.
 
--   Earlier, the keyboard shortcut used to cyclically traverse through all the
-    active panels, Ctrl+0, couldn’t be changed to use any other key combination.
-    Now, you can specify shortcut keys of your choice to cyclically traverse
-    through all the active panels using the new UII option called
-    **PanelNavigationShortcut**. More information: [Keyboard shortcuts for panels](keyboard-shortcuts-panels.md)
+- Earlier, the keyboard shortcut used to cyclically traverse through all the
+  active panels, Ctrl+0, couldn’t be changed to use any other key combination.
+  Now, you can specify shortcut keys of your choice to cyclically traverse
+  through all the active panels using the new UII option called
+  **PanelNavigationShortcut**. More information: [Keyboard shortcuts for panels](keyboard-shortcuts-panels.md)
 
 ### Debugger control enhancements
 

@@ -3,7 +3,7 @@ title: "Set up Microsoft Social Engagement | Microsoft Docs"
 description: "Learn how you can set up Social Engagement in a few steps."
 keywords: ""
 ms.date: 03/27/2018
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Set up Microsoft Social Engagement

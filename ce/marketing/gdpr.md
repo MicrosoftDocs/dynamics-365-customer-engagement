@@ -3,7 +3,10 @@ title: "Work with data protection and GDPR (Dynamics 365 for Marketing) | Micros
 description: "Protect customer privacy and remain compliant with GDPR regulations with Dynamics 365 for Marketing"
 keywords: "GDPR; data protection; privacy"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -53,7 +56,7 @@ To help you with consent management and other GDPR related workloads, [!INCLUDE[
 - A default collection of hierarchical consent levels is provided out of the box, where higher levels of consent include lower levels.
 - Contact records include a field that stores the level of consent each contact has granted your organization.
 - You can configure each customer journey to only process contacts that have given a minimum-required level of consent.
--  You can configure each lead-scoring model to only compute scores for leads associated with contacts that have given a minimum-required level of consent.
+- You can configure each lead-scoring model to only compute scores for leads associated with contacts that have given a minimum-required level of consent.
 - You can create marketing pages with marketing forms that encourage contacts to grant a level of consent while being unambiguously informed. The consent is stored in each contact's record.
 - You’ll be able to use various mechanics in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to extract all information related to a specific contact and share relevant information with that contact when requested.
 - You'll be able to use mechanics to have [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] "forget" (delete) all information about a specific contact when requested.
@@ -76,21 +79,46 @@ In addition, special privacy protection is required for minors (children), requi
 
 ## Enable GDPR features in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
-By default, GDPR features such as consent management are disabled on new [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installations. To enable or disable the features, go to **Settings** > **Advanced settings** > **Marketing settings** > **Data protection tools**.
+By default, GDPR features such as consent management are disabled on new [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installations. To enable or disable the features:
+
+1. Go to **Settings** > **Advanced settings** > **Marketing settings** > **Data protection tools**.
+
+1. A list of **Active GDPR configurations** opens. If a configuration already exists, then select that one to open it; if no configuration yet exists, then select **+ New** on the command bar. You can have _at most_ one GDPR configuration.
+
+1. The **GDPR Configuration** form opens.  
+    ![The GDPR Configuration form](media/gdpr-config.png "The GDPR Configuration form")
+
+    Make the following settings:
+    - **Name**: Enter any name that you like.
+    - **Respect consent**: Set to **Yes** to enable GDPR features throughout your app. Set to **No** to disable them.
+
+1. Select **Save** at the bottom-right corner of the window.
 
 ## View and set the consent level for each contact
 
-All contact records include a **Data protection** section with a drop-down list labelled **Consent given**. You can read or set the consent level here. This setting only takes effect when you have enabled the GDPR features.
- 
+When GDPR is enabled, you can view and set data-protection options for each contact. To work with them, open a contact record, go to its **Details** tab, and then scroll down to find the **Data protection** section.
+
+![Data protection settings for contacts](media/gdpr-contact.png "Data protection settings for contacts")
+
+The following settings and information are available here:
+
+- **Consent given**: Read or set the maximum consent level granted by this contact. This contact will only be able participate in marketing initiatives permitted for this consent level or lower. You should only change this setting after receiving explicit consent from this contact. Usually, you should allow contacts to change this themselves using a subscription center.
+- **Is a child**: Mark this box to indicate that this contact is a minor (usually, under 18 years old), and therefore requires extra protection.
+- **Parent or custodian**: If the contact is a child, then select their legal parent or custodian (guardian) in this lookup field. The parent or custodian must also be saved as a contact in your database.
+
 ## Filter segments by consent
 
-You can filter segments by consent level just like you can when filtering by other contact values.
+You can filter segments by consent level just like you can when filtering by other contact values. Use the **Consent Given** field of the **Contact** entity to filter by consent level.
+
+![Filter a segment by consent level](media/gdpr-segment.png "Filter a segment by consent level")
 
 <a name="journey-consent-level"></a> 
 
 ## Set the minimum required consent level for a customer journey
 
 You can set the minimum consent level for any customer journey. When set, the journey will process only contacts of that level or higher. To do this, open the journey, go to its **General** tab, and set the **Minimum consent** field to the appropriate level.
+
+![Set the minimum required consent level for a customer journey](media/gdpr-journey.png "Set the minimum required consent level for a customer journey")
 
 If you change the consent level of a running customer journey, the journey stops processing any contacts that don't meet that level of consent, including contacts that are already partly through the journey.
 
@@ -100,7 +128,10 @@ You can set the minimum consent level for any lead-scoring model. When set, the 
 
 To do this, open the lead scoring model, go to the **Summary** tab, and set the **Minimum consent** field to the appropriate level.
 
+![Set the minimum required consent level for lead scoring models](media/gdpr-scoring.png "Set the minimum required consent level for lead scoring models")
+
 ## Include a consent selector in a subscription center
+
 A subscription center is probably the best place to enable contacts to confirm and modify their consent level. To set this up:
 
 - Set up a marketing form field that maps to the GDPR consent field of the contact entity.
@@ -108,6 +139,14 @@ A subscription center is probably the best place to enable contacts to confirm a
 - Create a marketing page of type subscription-center that includes that form.
 
 You can now create a marketing email message that includes a link to your subscription-center page. Make sure your page explains why granting consent is important and how it offers value to the individual.
+
+<!--
+## Set up double opt-in to confirm changes in consent level and subscriptions
+
+To fully comply with the GDPR (and other common regulations), you must set up the double opt-in system. Double opt-in uses email messaging to ensure that all requests to change a contact's consent level or add a subscription were made on purpose by a person who can read that contact's email.
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up double opt-in for new subscriptions and consent changes](double-opt-in.md) 
+-->
 
 ## An example of how to support data requests from your marketing audience
 
@@ -144,9 +183,8 @@ The following list provides a few ideas for how your organization could set up a
 
 Ideally, you should prepare your system to make it easy for your privacy officer to completely delete a contact and all their related data on request. 
 
-- For a non-customized system, your privacy officer can just use the standard search function to find the contact and then hard-delete the contact. The system will automatically unlink and remove all related interaction data stored in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] back-end systems (such as [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)]).
+- For a non-customized system, your privacy officer can just use the standard search function to find the contact and then hard-delete the contact. The system will automatically unlink and remove all related interaction data stored in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] back-end systems (including from all [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] and customer-insights services).
 - If you have custom fields or entities, then you must further customize your system to make sure it deletes all related personal data from related records and/or unlinks them from the contact record so that all personal information is removed. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Developer Guide (Marketing)](developer/marketing-developer-guide.md)
-
 
 > [!NOTE]
 > All data entered into a forward-to-a-friend form is automatically deleted after 30 days, so no new contact or lead records are created unless a recipient of the forward chooses to register with your organization using a landing page.
@@ -205,4 +243,4 @@ This feature is part of the standard functionality of [!INCLUDE[pn-dynamics-365]
 [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)  
 [Manage customer information](manage-customer-information.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
-[Set up a subscription center](set-up-subscription-center.md)
+[Set up a subscription center](set-up-subscription-center.md)  

@@ -1,9 +1,10 @@
 ---
 title: "Create a marketing list using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-sales
 ms.date: 08/31/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-sales
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
@@ -12,9 +13,9 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 509b776a-6932-4c87-881a-353782c95beb
 caps.latest.revision: 48
-author: "shubhadaj"
-ms.author: "shujoshi"
-manager: "sakudes"
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ---
 # Create a marketing list using in-app marketing (Sales)
 
@@ -32,20 +33,20 @@ Your marketing list is the core of running a successful marketing campaign. It c
   
 1. [!INCLUDE[proc_marketing_marketing_lists](../includes/proc-marketing-marketing-lists.md)]  
   
-2.  Click **New**.  
+2. Click **New**.  
   
-3.  Add or change the information in the **Summary** area. This screenshot provides an example.  
+3. Add or change the information in the **Summary** area. This screenshot provides an example.  
   
- ![Example of marketing list summary area](../sales-enterprise/media/marketing-list-summary-example.png "Example of marketing list summary area")  
+   ![Example of marketing list summary area](../sales-enterprise/media/marketing-list-summary-example.png "Example of marketing list summary area")  
   
-    > [!NOTE]
-    >  To look up records in the **Owner** field, first click **Save**, or you'll lose your changes.  
+   > [!NOTE]
+   >  To look up records in the **Owner** field, first click **Save**, or you'll lose your changes.  
   
-4.  Click **Save** so you can enter information in other areas of the form.  
+4. Click **Save** so you can enter information in other areas of the form.  
   
-5.  Add any other information that applies to your marketing list in the **Notes** area.  
+5. Add any other information that applies to your marketing list in the **Notes** area.  
   
-6.  Click **Save**.  
+6. Click **Save**.  
   
 ## Add members to a static marketing list  
   

@@ -3,7 +3,7 @@ title: "Player stats in Dynamics 365 - Gamification | Microsoft Docs"
 description: "Learn about the stats of players and teams in Gamification."
 keywords: "player stats, team stats, statistics"
 ms.date: 01/11/2018
-ms.service: gamification
+ms.service: dynamics-365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-gamification
 ---
 
 # Get insights into stats from other players and teams
@@ -37,7 +39,7 @@ Review the actual numbers of other players. Select the game and game period to d
 
 ## Points section
 
-Review the total points of the players across all active KPIs as configured in the game setup. For example, if _Calls made_ is a KPI and the game is configured to award 2 points per call, a player with 5 calls will show 10 points.    
+Review the total points of the players across all active KPIs as configured in the game setup. For example, if *Calls made* is a KPI and the game is configured to award 2 points per call, a player with 5 calls will show 10 points.    
 Select the game and game period to define the data set. To get an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] file with the current stats of all players in a game, select **Download stats**.
 
 ## Team Points section

@@ -1,17 +1,19 @@
 ---
 title: "Configure enhanced diagnostic logging for custom hosted controls | MicrosoftDocs"
 description: "Learn about configuring diagnostic logging to record operational events and errors in the client application to a log file, which can be later used to identify and troubleshoot performance issues or errors."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: db1034db-8354-40c8-a8a8-44289d93edf3
 caps.latest.revision: 10
-author: "KumarVivek"
-ms.author: "kvivek"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Configure enhanced diagnostic logging for custom hosted controls
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] enables you to configure diagnostic logging to record operational events and errors in the client application to a log file, which can be later used to identify and troubleshoot performance issues or errors. For more information about diagnostic logging, see [Configure client diagnostic logging in Unified Service Desk](admin/configure-client-diagnostic-logging-unified-service-desk.md).  
@@ -22,19 +24,19 @@ You can leverage the same enhanced diagnostic logging capabilities available in 
   
 [LogException](https://docs.microsoft.com/dotnet/api/Microsoft.Crm.UnifiedServiceDesk.Dynamics.DynamicsBaseHostedControl.LogException) method is overloaded, and internally uses [DynamicsLogger](https://docs.microsoft.com/dotnet/api/Microsoft.Crm.UnifiedServiceDesk.Dynamics.DynamicsLogger) to provide rich diagnostic information for exceptions in your custom control. Use one of the following two signatures to use this method:  
   
--   Pass in the exception object and the event type that caused the trace (optional). If you do not specify the event type, by default `Error` trace event type is passed:  
+- Pass in the exception object and the event type that caused the trace (optional). If you do not specify the event type, by default `Error` trace event type is passed:  
   
-    ```csharp  
-    LogException(Exception ex, TraceEventType eventType = TraceEventType.Error);  
-    ```  
+  ```csharp  
+  LogException(Exception ex, TraceEventType eventType = TraceEventType.Error);  
+  ```  
   
--   Pass in the string value for custom error message, event type that caused the trace, and the exception object:  
+- Pass in the string value for custom error message, event type that caused the trace, and the exception object:  
   
-    ```csharp  
-    LogException(string errorMessage, TraceEventType eventType, Exception ex);  
-    ```  
+  ```csharp  
+  LogException(string errorMessage, TraceEventType eventType, Exception ex);  
+  ```  
   
- Here is an example of the diagnostic information as a result of using [LogException](https://docs.microsoft.com/dotnet/api/Microsoft.Crm.UnifiedServiceDesk.Dynamics.DynamicsBaseHostedControl.LogException) method where detailed information about the source (session ID, hosted control name and type) and the exception detail is logged:  
+  Here is an example of the diagnostic information as a result of using [LogException](https://docs.microsoft.com/dotnet/api/Microsoft.Crm.UnifiedServiceDesk.Dynamics.DynamicsBaseHostedControl.LogException) method where detailed information about the source (session ID, hosted control name and type) and the exception detail is logged:  
   
 ```  
 Exception raised in :  Session ID : d14893b0-6859-4827-9ddc-949d3fd36854 - Application : DemoControl - USD Component Type : USDHostedControl - Hosting Type : USD Hosted Control - Display Group : MainPanel -   

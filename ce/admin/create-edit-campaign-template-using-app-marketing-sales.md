@@ -1,25 +1,21 @@
 ---
 title: "Create or edit a campaign template using in-app marketing (Sales) for Dynamics 365 Customer Engagement | MicrosoftDocs"
-description: ""
-keywords: ""
-ms.date: 05/01/2018
-ms.service: crm-online
-ms.custom: 
-ms.topic: article
-applies_to:
+ms.custom: ""
+ms.date: 09/30/2017
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 07423d4c-8546-48e6-878a-6d54ecc0901f
-author: jimholtz
-ms.author: jimholtz
-manager: sakudes
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 42
-topic-status: Drafting
+author: "jimholtz"
+ms.author: "jimholtz"
+manager: "sakudes"
 ---
-
 # Create or edit a campaign template using in-app marketing (Sales)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
@@ -30,21 +26,21 @@ Save time when creating multiple campaigns by creating a campaign template. Camp
   
 1. [!INCLUDE[proc_marketing_campaigns](../includes/proc-marketing-campaigns.md)]  
   
-2.  Click **New Template**.  
+2. Click **New Template**.  
   
-     \- OR -  
+    \- OR -  
   
-     Open the campaign you want to edit.  
+    Open the campaign you want to edit.  
   
-3.  Add information in the template form just as you do when creating a campaign. In the template form, enter the information you want to appear in campaigns based on this template, and add items such as planning tasks, campaign activities, and marketing lists.  
+3. Add information in the template form just as you do when creating a campaign. In the template form, enter the information you want to appear in campaigns based on this template, and add items such as planning tasks, campaign activities, and marketing lists.  
   
-4.  Click **Save** or **Save and Close**.  
+4. Click **Save** or **Save and Close**.  
   
 ## Copy an existing campaign as a template  
   
--   Open the campaign that you want to copy. Click **Copy as Template**, type a name for the template, and click **Save**.  
+- Open the campaign that you want to copy. Click **Copy as Template**, type a name for the template, and click **Save**.  
   
- If you need to back up your templates, or use them in a different implementation of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can export them as part of exporting customizations. More information: [Export your customizations as a solution](../customize/use-solutions-for-your-customizations.md)  
+  If you need to back up your templates, or use them in a different implementation of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can export them as part of exporting customizations. More information: [Export your customizations as a solution](../customize/use-solutions-for-your-customizations.md)  
   
 > [!NOTE]
 > [!INCLUDE[cc_CRM_Marketing_and_MDM](../includes/cc-crm-marketing-and-mdm.md)] 

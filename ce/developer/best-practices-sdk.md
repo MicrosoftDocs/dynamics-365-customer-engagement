@@ -21,26 +21,26 @@ manager: "amyla"
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 This topic describes best practices for customizing [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement.  
-  
+
 > [!IMPORTANT]
 >  Review [Supported extensions for Dynamics 365](supported-extensions.md) to learn about supported and unsupported techniques for customization.  
-  
+
 <a name="Performance"></a>   
 
 ## Performance best practices  
 
  The following best practices can help you write code that performs better.  
-  
+
 ### Use multiple threads  
 
  Add threading support to your application to break up the work across multiple CPUs. This suggestion assumes that you are running your code on a multiprocessor system. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [NET Framework Advanced Development Guide article on Managed Threading](https://msdn.microsoft.com/library/3e8s7xdd.aspx).  
-  
+
 ### Allow the system to create GUIDs 
 
  Allow the system to automatically assign the **GUID** (Id) for you instead of manually creating it yourself. This suggestion allows 
 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to take advantage of sequential GUIDs, which provide better SQL performance. 
 The following sample code shows how to call the <xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*> method to obtain a system-assigned `GUID`.  
-  
+
 ```csharp
 // Instantiate an account object.
 Account account = new Account { Name = "Fourth Coffee" };  
@@ -55,7 +55,7 @@ performance than the early-bound entity types. However, this flexibility has a d
 defined at code time and slight performance degradation is acceptable, you should use the early-bound types that you can generate by using the 
 [!INCLUDE[sdk_CodeGenUtility](../includes/sdk-codegenutility.md)] tool. 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Early Bound Entity Classes in Code](org-service/use-early-bound-entity-classes-code.md)  
-  
+
 ### Disable plug-ins
 
  If possible, disable registered plug-ins before you run your application.
@@ -66,7 +66,7 @@ Always write a plug-in that takes the least time to perform its intended task. F
 <xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method is frequently processed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. 
 If you register a plug-in on that message, your plug-in can have a significant performance impact on the system because it executes every time that the `Execute` method is processed, which frequently occurs.  
 
-If you intend to register your plug-ins for synchronous execution, we recommend that you design them to complete their operation in less than 10 seconds. 
+If you intend to register your plug-ins for synchronous execution, we recommend that you design them to complete their operation in less than 2 seconds. 
 It’s best to minimize processing time in plug-ins to maintain interactivity of the client applications that are connected to the same organization service that executes the plug-in.  
 
 <a name="limitdata"></a>
@@ -203,7 +203,7 @@ Customize a system entity, such as the opportunity entity, instead of replacing 
 As a developer who is interested in extending or customizing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can choose from several methods to perform your tasks. 
 In addition to adding client-side JavaScript code to a form or adding custom ASP.NET pages, you can write a plug-in or create a custom workflow by using the web interface that calls a 
 custom workflow activity. How do you decide when to use a plug-in and when to use a workflow? The technology that you use depends on the task that you have to perform and who will author the customization.  
-  
+
 For example, you must use a synchronous plug-in real-time workflow if you want to execute custom code immediately before or after the core platform operation executes and before the result of the
  operation is returned from the platform. You cannot use an asynchronous workflow or asynchronous plug-in in this situation because they are queued to execute after the core operation finishes 
 executing. Therefore, you cannot predict when they will run. If you want to add custom functionality to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], workflows and plug-ins are supported, 
@@ -213,17 +213,18 @@ Evaluate these technologies and select the one that best suits your business obj
 
 The following table summarizes the characteristics of plug-ins and workflows.  
 
-|Criteria|Plug-in|Workflow|  
-|--------------|--------------|--------------|  
-|Execution before or after the core platform operation (Create, Update, Delete, and so on)|Executes immediately before or after the core operation (synchronous).<br /><br /> Can also be queued to execute after the core operation (asynchronous).|Asynchronous workflows are queued to execute after the core operation.<br /><br /> Real-time workflows have similar characteristics to plug-ins.|  
-|Performance impact on the server|Synchronous plug-ins can increase the platform response time because they are part of the main platform processing.<br /><br /> Asynchronous plug-ins have less impact on server response time because the code is run in a different process.|Asynchronous workflows have less impact on server response time because the code is run in a different process.<br /><br /> Real-time workflows have similar performance characteristics to sandboxed plug-ins.|  
-|Security restrictions|To register a plug-in with the platform requires a System Administrator or System Customizer security role and membership in the Deployment Administrator group.|Users can interactively create workflows in the web application.<br /><br /> However, to register a custom workflow activity, the deploying user must have the same security roles as those required for registering plug-ins.|  
-|[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] version (SKU) support|Supported in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] when registered in the sandbox. May be supported in partner-hosted installations at the discretion of the partner.|Workflows are supported by all [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] deployments. Custom workflow activities are  supported in the sandbox of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], and in or outside the sandbox for on-premises/IFD deployments.|  
-|Length of processing time|A plug-in registered for synchronous or asynchronous execution is restricted to complete its execution in a two-minute time limit.|Works well for either short or long processes. However, each activity in a workflow cannot take longer than two minutes to complete.|  
-|Works when the [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] client is offline|Both online and offline are supported.|Workflows do not execute when offline.|  
-|Process and data persistence|Plug-ins execute until they are completed. Plug-ins must be written to be stateless where no in-memory data is persisted.|Asynchronous workflows can be paused, postponed, canceled, and resumed through SDK calls or by the user through the web application. The state of the workflow is automatically saved before it is paused or postponed.<br /><br /> Real-time workflows cannot have any wait states. They must execute to completion just like plug-ins.|  
-|Impersonation|Plug-ins can perform data operations on behalf of another system user.|Asynchronous workflows cannot use impersonation, while real-time workflows can. Real-time workflows can execute either as the owner of the workflow or as the calling user.|  
-|Authoring|Software engineers or programmers can author plug-ins.|Anyone, including an end user, business analyst, or administrator can author workflows if they have the proper permissions.|  
+
+|                                                    Criteria                                                    |                                                                                                                    Plug-in                                                                                                                     |                                                                                                                                                                 Workflow                                                                                                                                                                 |
+|----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|           Execution before or after the core platform operation (Create, Update, Delete, and so on)            |                                           Executes immediately before or after the core operation (synchronous).<br /><br /> Can also be queued to execute after the core operation (asynchronous).                                            |                                                                                             Asynchronous workflows are queued to execute after the core operation.<br /><br /> Real-time workflows have similar characteristics to plug-ins.                                                                                             |
+|                                        Performance impact on the server                                        | Synchronous plug-ins can increase the platform response time because they are part of the main platform processing.<br /><br /> Asynchronous plug-ins have less impact on server response time because the code is run in a different process. |                                                             Asynchronous workflows have less impact on server response time because the code is run in a different process.<br /><br /> Real-time workflows have similar performance characteristics to sandboxed plug-ins.                                                              |
+|                                             Security restrictions                                              |                                        To register a plug-in with the platform requires a System Administrator or System Customizer security role and membership in the Deployment Administrator group.                                        |                                                      Users can interactively create workflows in the web application.<br /><br /> However, to register a custom workflow activity, the deploying user must have the same security roles as those required for registering plug-ins.                                                      |
+|               [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] version (SKU) support                |                            Supported in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] when registered in the sandbox. May be supported in partner-hosted installations at the discretion of the partner.                             |                       Workflows are supported by all [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] deployments. Custom workflow activities are  supported in the sandbox of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], and in or outside the sandbox for on-premises/IFD deployments.                        |
+|                                           Length of processing time                                            |                                                       A plug-in registered for synchronous or asynchronous execution is restricted to complete its execution in a two-minute time limit.                                                       |                                                                                                   Works well for either short or long processes. However, each activity in a workflow cannot take longer than two minutes to complete.                                                                                                   |
+| Works when the [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] client is offline |                                                                                                     Both online and offline are supported.                                                                                                     |                                                                                                                                                  Workflows do not execute when offline.                                                                                                                                                  |
+|                                          Process and data persistence                                          |                                                           Plug-ins execute until they are completed. Plug-ins must be written to be stateless where no in-memory data is persisted.                                                            | Asynchronous workflows can be paused, postponed, canceled, and resumed through SDK calls or by the user through the web application. The state of the workflow is automatically saved before it is paused or postponed.<br /><br /> Real-time workflows cannot have any wait states. They must execute to completion just like plug-ins. |
+|                                                 Impersonation                                                  |                                                                                     Plug-ins can perform data operations on behalf of another system user.                                                                                     |                                                                               Asynchronous workflows cannot use impersonation, while real-time workflows can. Real-time workflows can execute either as the owner of the workflow or as the calling user.                                                                                |
+|                                                   Authoring                                                    |                                                                                             Software engineers or programmers can author plug-ins.                                                                                             |                                                                                                       Anyone, including an end user, business analyst, or administrator can author workflows if they have the proper permissions.                                                                                                        |
 
 There is no significant performance impact on the server between an asynchronous plug-in and a workflow.
 
@@ -290,7 +291,7 @@ signing or impersonation only for the duration of the task.
 ### Server-side development
 
 Best practices for developing server-side code for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] include the following:
-  
+
 - Do not modify the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] database by any means other than using the SDK because this bypasses the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] security model.
 - Plug-ins are running in an administrator's context – you should know that this code may access information that the logged-on user does not have access to.
 - For workflow assemblies, and plug-ins, avoid writing code that takes a long time to execute. It is important that plug-in code that is registered to execute synchronously returns as quickly as possible.
@@ -315,15 +316,15 @@ Best practices for developing customizations for the [!INCLUDE[pn_crm_shortest](
 - Avoid use of [!INCLUDE[pn_ms_ActiveX_short](../includes/pn-ms-activex-short.md)] controls because they have known security problems.
 - Be aware of the limitations of client scripting. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Best practices: Client scripting in Customer Engagement](clientapi/client-scripting-best-practices.md)
 - Use plug-ins to apply business logic regardless of how the data changes are made.
-- Always use a confirmation dialog box when you delete records or apply sensitive changes, such as adding a new user to a security role. You can use  [openConfirmDialog](clientapi\reference\Xrm-Navigation\openConfirmDialog.md) to display a dialog. This helps prevent techniques such as click-jacking or UI redressing where a malicious developer may embed your page in a seemingly innocuous page to trick a user into performing actions that may compromise security or perform unwanted actions on data.  
+- Always use a confirmation dialog box when you delete records or apply sensitive changes, such as adding a new user to a security role. You can use  [openConfirmDialog](clientapi/reference/Xrm-Navigation/openConfirmDialog.md) to display a dialog. This helps prevent techniques such as click-jacking or UI redressing where a malicious developer may embed your page in a seemingly innocuous page to trick a user into performing actions that may compromise security or perform unwanted actions on data.  
 
 ### Security best practices for your website include the following:
 
 - Don’t use anonymous access.  
 - Use integrated Windows authentication, NTLM, or Basic authentication over Transport Layer Security (TLS) or Secure Sockets Layer (SSL).  
 - Use [!INCLUDE[pn_ssl_short](../includes/pn-ssl-short.md)] to avoid sending unencrypted data over the network if your website is on a different computer than [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
-  
- For more information, see the following:  
+
+  For more information, see the following:  
 
 - [Overview of Web Application Security Threats](https://msdn.microsoft.com/library/f13d73y6.aspx)  
 - [Download: Microsoft Anti-Cross Site Scripting Library V4.2](http://www.microsoft.com/download/details.aspx?id=28589)  

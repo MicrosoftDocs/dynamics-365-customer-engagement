@@ -2,56 +2,46 @@
 title: "Analytics for locations in Social Engagement | Microsoft Docs"
 description: "Learn how to focus your analysis on location data in Social Engagement."
 keywords: "analytics, locations, maps, location analysis"
-ms.date: 03/19/2018
-ms.service: mse
+ms.date: 07/11/2018
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
 ms.assetid: 8aec5246-e411-4fb9-9790-2bcd94438038
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: annbe
 topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Focus your analysis on location data
 
 Get insights from geographical location information contained in posts or in authors’ profiles. Using the **Location** page, you can analyze your data set with a strong focus on where posts are coming from.  
-  
+
 In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], go to **Analytics** > **Conversations** to access the conversations page.  
 
 ![Screenshot of the location page in the Analytics area of Social Engagement](media/analytics-location.png "Screenshot of the location page in the Analytics area of Social Engagement")
-  
+
 ## Types of location data  
 
 In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], two types of location data are available:  
-  
+
 - **Author location:** Location data that is shared by a user through a profile, for example, on a user’s [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile page. It is an approximate value, because the system calculates geographical coordinates. If no post location is provided by the user, the author location is considered, where available.  
-  
+
 - **Post location:** Location data that shows where (latitude/longitude) a post was published. The location can differ greatly between posts from the same author, depending on the settings that are applied when publishing the post. It is an exact value because geographical coordinates are provided with the post.  
-  
+
 Both types of location data are available under the [**Location Type** filter](understand-filters.md#location-type) when defining a data set. 
-  
+
 For the United States, you can choose between two ways of grouping visualized data. To see how many posts with location data are available in each subregion, apply a filter for post location and select **Subregions**. To see posts with precise geographical information (post location data) on the map, select **Posts**.
 
 > [!NOTE]
 >  Some posts may have both post and author location. In these cases, the post location information is considered&mdash;not the author location.  
-  
+
 ## Sources that provide location data  
 
 A subset of available sources provides location data. Authors need to share their location information, so it can be processed by [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)].  
-
-  
-||Author location|Post location|  
-|-|---------------------|-------------------|  
-|[!INCLUDE[tn_twitter](../includes/tn-twitter.md)]|Yes|Yes|  
-|News|Yes|No|  
-|[!INCLUDE[tn_facebook](../includes/tn-facebook.md)]|No|No|  
-|Blogs|No|No|  
-|Videos|No|No|  
-|Forums|Yes|No|  
-|[!INCLUDE[tn_instagram](../includes/tn-instagram.md)]|No|Yes|  
-  
 ## Authors
 
 The normal view of this widget shows the top five authors and sources, based on the volume of posts and trend indicator. Select the **Full view** button ![Full view button](media/open-full-view-icon.png "Full view button") to expand the widget and find more details such as reach, source, and location for the 100 most-active authors and their posts.    
@@ -94,7 +84,6 @@ Visualizes the posts with location information on a map to find out where the po
 ## Phrases by country/region
 
 Lists the most-mentioned phrases coming from the five countries/regions with the most posts in the current data set.
-  
 
 ## Sentiment
 
@@ -102,7 +91,7 @@ Visualizes the sentiment index across all posts with a sentiment value in the se
 You can [manually change the sentiment values](analytics-sentiment.md) if a post's sentiment is analyzed incorrectly. 
 
 Dynamic widget. Shows only if the data set contains posts with sentiment value.
-  
+
 ### See Also
 
 [Analyze social data using widgets](analyze-social-data-using-widgets.md)   

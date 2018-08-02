@@ -1,9 +1,10 @@
 ---
 title: "Schedule a project with a work breakdown structure (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-projectservice
 ms.date: 09/15/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "project-service-automation"
@@ -12,11 +13,11 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "mduelae"
+author: krbjoran
 ms.assetid: fd065c58-fee1-4810-898c-145c6e487087
 caps.latest.revision: 12
-ms.author: "mkaur"
-manager: "brycho"
+ms.author: krbjoran
+manager: shellyha
 ---
 # Schedule a project with a work breakdown structure (Project Service Automation)
 
@@ -26,15 +27,15 @@ A project schedule communicates what work needs to be performed, which resources
   
  Create a project structure with a work breakdown structure, which helps you:  
   
--   Break down work into manageable tasks  
+- Break down work into manageable tasks  
   
--   Estimate the time required to complete a task  
+- Estimate the time required to complete a task  
   
--   Set task dependencies and task duration  
+- Set task dependencies and task duration  
   
--   Determine the roles required to complete each task  
+- Determine the roles required to complete each task  
   
- The project schedule in the work breakdown structure has a familiar look and feel, complete with an interactive Gantt chart.  
+  The project schedule in the work breakdown structure has a familiar look and feel, complete with an interactive Gantt chart.  
   
 ## Create a work breakdown structure for a project  
  Create a work breakdown structure to represent the sequence of tasks in a project. The work breakdown structure includes tasks, requirements for each task, and revenue and cost information. In your work breakdown structure, you can add:  

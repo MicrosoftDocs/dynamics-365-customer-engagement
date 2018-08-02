@@ -1,9 +1,10 @@
 ---
 title: "Configure OAuth2 provider settings for a portal in Dynamics 365  | MicrosoftDocs"
 description: "Instructions to add and configure OAuth2 provider settings for a portal."
-ms.custom: ""
+ms.custom:
+  - dyn365-portal
 ms.date: 09/28/2017
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
@@ -29,7 +30,7 @@ The supported providers are:
 
 ## Create OAuth applications
 
-In general, if an OAuth provider uses app settings that require a redirect URI value, specify http://portal.contoso.com/or http://portal.contoso.com/signin-\[provider\] depending on how the provider performs redirect URI validation (some providers require the full URL path to be specified along with the domain name). Substitute the name of the provider in place of \[provider\] in the redirect URI.
+In general, if an OAuth provider uses app settings that require a redirect URI value, specify <http://portal.contoso.com/or> http://portal.contoso.com/signin-\[provider\] depending on how the provider performs redirect URI validation (some providers require the full URL path to be specified along with the domain name). Substitute the name of the provider in place of \[provider\] in the redirect URI.
 
 ### Google
 
@@ -38,15 +39,15 @@ In general, if an OAuth provider uses app settings that require a redirect URI v
 1. Open [Google Developers Console](https://console.developers.google.com/)  
 2. Create an API project or open an existing project
 3. Go to**APIs & auth** &gt;**APIs**, and under **Social APIs**, select**Google+ API**, and then select**Enable API**
-5. Go to**APIs & auth** &gt;**Consent screen**.
+4. Go to**APIs & auth** &gt;**Consent screen**.
     - Specify an**Email address**.
     - Specify a custom**Product name**.
     - Select**Save**.
-9. Go to**APIs & auth** &gt;**Credentials** and create a new client ID.
-    - Application Type:**Web application**
-    - Authorized [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] Origins: http://portal.contoso.com
-    - Authorized Redirect URIs: http://portal.contoso.com/signin-google 
-    - Select **Create Client ID**.
+5. Go to**APIs & auth** &gt;**Credentials** and create a new client ID.
+   - Application Type:**Web application**
+   - Authorized [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] Origins: http://portal.contoso.com
+   - Authorized Redirect URIs: http://portal.contoso.com/signin-google 
+   - Select **Create Client ID**.
 
 ### Facebook app settings
 

@@ -1,10 +1,11 @@
 ---
 title: "Sample Unified Service Desk for Dynamics 365 Customer Engagement applications | MicrosoftDocs"
 description: "Discover the sample application available with Unified Service Desk for Dynamics 365 Customer Engagement that you can use to quickly get you started."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +17,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: 9fc78178-9ce0-486a-ade7-274e359f5482
 caps.latest.revision: 7
-author: "Mattp123"
-ms.author: "matp"
-manager: "amyla"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 tags: 
  - "MigrationHO"
 ---

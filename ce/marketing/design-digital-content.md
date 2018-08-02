@@ -3,7 +3,10 @@ title: "Use the designer tool (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Basics of how to use the designer tool to create emails, landing pages, and forms in Dynamics 365 for Marketing"
 keywords: "designer; content block; block; template"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -110,6 +113,7 @@ Use the buttons in the left column of the **Preview** tab to see how your design
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  
 [Content blocks reference](content-blocks-reference.md)  
 [Prepare marketing email messages](prepare-marketing-emails.md)  
-[Work with email templates](email-templates.md)  
+[Work with email, page, and form templates](email-templates.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
-[Accessibility and keyboard shortcuts](designer-shortcuts.md)
+[Accessibility and keyboard shortcuts](designer-shortcuts.md)  
+[Go live with publishable entities and track their status](go-live.md)

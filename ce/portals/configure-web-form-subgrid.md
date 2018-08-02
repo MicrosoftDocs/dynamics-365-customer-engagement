@@ -1,9 +1,10 @@
 ---
 title: "Web Form subgrid configuration for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to add and configure web form subgrids for a portal."
-ms.custom: ""
+ms.custom:
+  - dyn365-portal
 ms.date: 09/28/2017
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
@@ -27,10 +28,11 @@ To add a new record, select **Add New Entity Form Metadata**.
 
 To edit an existing record, select the record in the grid. Selecting **Subgrid** as the **Type** value displays another attribute, **Subgrid Name**.
 
-| Name         | Description                                                               |
-|--------------|---------------------------------------------------------------------------|
+
+|     Name     |                                                       Description                                                        |
+|--------------|--------------------------------------------------------------------------------------------------------------------------|
 | Subgrid Name | The unique name of the subgrid on the entity's related [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form. |
-||
+|              |                                                                                                                          |
 
 Selecting the subgrid in the form editor will display a properties window. This contains a **Name** field that should be used to assign to the **Subgrid Name** field on the Entity Form Metadata record.
 
@@ -156,15 +158,16 @@ Enabling a **Details action** allows a user to view a read-only [entity form](en
 
 ### Details Action settings
 
-| Name                                  | Description                                                                                                                                                                                                                                                                                                  |
-|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Basic Settings**                    |                                                                                                                                                                                                                                                                                                              |
-| Entity Form                           | Specifies the [entity form](entity-forms-custom-logic.md) that will be used to view the details of the selected record. The drop-down list will include all entity forms that are configured for the subgrid's entity type. <br>**Note**: If the subgrid's entity type has no entity forms, the drop-down will appear empty. If no entity form is supplied for the Details action, it will be ignored and the button will not be rendered in the subgrid.                                                                                              |
-| **Advanced Settings**                 |                                                                                                                                                                                                                                                                                                              |
-| Record ID Query String Parameter Name | Specifies the name of the query string parameter that will be used to select the entity to view in the selected entity form. This should match the value in that entity form's Record ID Query String Parameter Name. The default value for this field, both here and in Entity Form configuration, is **id**. |
-| Button Label                          | Overrides the HTML label for this action displayed in the subgrid row.                                                                                                                                                                                                                                       |
-| Button Tooltip                        | Overrides the tooltip text that appears when the user points to the button for this action displayed in the subgrid row.                                                                                                                                                                              |
-||
+|                 Name                  |                                                                                                                                                                                                                        Description                                                                                                                                                                                                                        |
+|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|          **Basic Settings**           |                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|              Entity Form              | Specifies the [entity form](entity-forms-custom-logic.md) that will be used to view the details of the selected record. The drop-down list will include all entity forms that are configured for the subgrid's entity type. <br>**Note**: If the subgrid's entity type has no entity forms, the drop-down will appear empty. If no entity form is supplied for the Details action, it will be ignored and the button will not be rendered in the subgrid. |
+|         **Advanced Settings**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Record ID Query String Parameter Name |                                                                      Specifies the name of the query string parameter that will be used to select the entity to view in the selected entity form. This should match the value in that entity form's Record ID Query String Parameter Name. The default value for this field, both here and in Entity Form configuration, is **id**.                                                                       |
+|             Button Label              |                                                                                                                                                                                          Overrides the HTML label for this action displayed in the subgrid row.                                                                                                                                                                                           |
+|            Button Tooltip             |                                                                                                                                                                 Overrides the tooltip text that appears when the user points to the button for this action displayed in the subgrid row.                                                                                                                                                                  |
+|                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+
 ### Details form dialog box advanced settings
 
 | Name                   | Description                                                                                                                             |

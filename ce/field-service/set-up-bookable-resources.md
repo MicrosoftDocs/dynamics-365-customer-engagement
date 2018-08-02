@@ -1,9 +1,10 @@
 ---
 title: "Set up bookable resources (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "field-service"
@@ -12,11 +13,11 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "mduelae"
+author: krbjoran
 ms.assetid: 7ed1712e-acd6-433b-bb78-22f8d58c5c61
 caps.latest.revision: 14
-ms.author: "mkaur"
-manager: "amyla"
+ms.author: krbjoran
+manager: shellyha
 ---
 # Set up bookable resources (Field Service)
 
@@ -75,20 +76,20 @@ A resource in Dynamics 365 for Field Service is anything that needs to be schedu
 <a name="BKMK_AddCharacteristics"></a>   
 ## Add characteristics  
   
-1.  From the resource name submenu,  click **Bookable Resource Characteristics**.  
+1. From the resource name submenu,  click **Bookable Resource Characteristics**.  
   
-2.  Click **Add New Bookable Resource Characteristics**.  
+2. Click **Add New Bookable Resource Characteristics**.  
   
-3.  Use the tooltips to help fill in information, and then click **Save**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up characteristics](../field-service/set-up-characteristics.md)  
+3. Use the tooltips to help fill in information, and then click **Save**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up characteristics](../field-service/set-up-characteristics.md)  
   
 <a name="BKMK_AddResourceTerritories"></a>   
 ## Add resource territories  
   
-1.  From the resource name submenu, click **Resource Territories**.  
+1. From the resource name submenu, click **Resource Territories**.  
   
-2.  Click **Add New Resource Territory**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up territories](../field-service/set-up-territories.md)  
+2. Click **Add New Resource Territory**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up territories](../field-service/set-up-territories.md)  
   
-3.  Use the tooltips to help fill in your information, and then click **Save & Close**.  
+3. Use the tooltips to help fill in your information, and then click **Save & Close**.  
   
 ### See also   
  [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   

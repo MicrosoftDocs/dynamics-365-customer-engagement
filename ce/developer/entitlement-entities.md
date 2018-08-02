@@ -36,11 +36,11 @@ Entitlements specify the support term based on number of hours or number of case
   
      If you accidentally prevented the entitlement terms to be decremented for a case, you can revert it as follows:  
   
-    -   If the associated entitlement is configured to have its remaining term decremented on case creation, setting the `Incident.DecrementEntitlementTerm` attribute back to 1 (true) won’t decrement the entitlement term automatically. You have to explicitly decrement from the remaining terms of the associated entitlement using workflow or programmatically.  
+  - If the associated entitlement is configured to have its remaining term decremented on case creation, setting the `Incident.DecrementEntitlementTerm` attribute back to 1 (true) won’t decrement the entitlement term automatically. You have to explicitly decrement from the remaining terms of the associated entitlement using workflow or programmatically.  
   
-    -   If the associated entitlement is configured to have its remaining term decremented on case resolution, set the `Incident.DecrementEntitlementTerm` back to 1 (true). This ensures that the entitlement terms get decremented when the case is resolved.  
+  - If the associated entitlement is configured to have its remaining term decremented on case resolution, set the `Incident.DecrementEntitlementTerm` back to 1 (true). This ensures that the entitlement terms get decremented when the case is resolved.  
   
-     To set the `Incident.DecrementEntitlementTerm` attribute for an incident record, you must have the privileges on the incident record, and have the new `prvControlDecrementTerm` privilege. By default, the `prvControlDecrementTerm` privilege is available to only System Administrator and CSR Manager roles.  
+    To set the `Incident.DecrementEntitlementTerm` attribute for an incident record, you must have the privileges on the incident record, and have the new `prvControlDecrementTerm` privilege. By default, the `prvControlDecrementTerm` privilege is available to only System Administrator and CSR Manager roles.  
   
 ## In This Section  
  [Entitlement Entity](entities/entitlement.md)  

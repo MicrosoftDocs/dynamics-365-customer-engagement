@@ -3,7 +3,7 @@ title: "Author tags in Social Engagement | Microsoft Docs"
 description: "Add, change, and remove author tags from authors in Social Engagement"
 keywords: "author tags, tags"
 ms.date: 04/11/2018
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Manage author tags
@@ -41,9 +43,9 @@ Tag authors for quicker filtering options and to classify groups of authors.
 
 If a tag is no longer accurate, you can remove it from the author.
 
-1.	In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], open the **[Author Details](author-details.md)** for the author you want to remove tags from. 
-2.	Next to the tag you want to remove, select ![Remove this tag symbol](media/delete-icon.png "Remove this tag symbol") **Remove this tag**.
-3.	Select **Confirm** to remove the tag.
+1. In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], open the **[Author Details](author-details.md)** for the author you want to remove tags from. 
+2. Next to the tag you want to remove, select ![Remove this tag symbol](media/delete-icon.png "Remove this tag symbol") **Remove this tag**.
+3. Select **Confirm** to remove the tag.
 
 ## Change author tags
 

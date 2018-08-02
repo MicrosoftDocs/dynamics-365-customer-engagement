@@ -8,12 +8,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 (online)
 ms.assetid: 3dbb25e8-befe-4466-9614-5d0b84e83ea7
 caps.latest.revision: 31
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "mduelae"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Microsoft Dynamics 365 for Outlook hardware requirements
 The following table lists the minimum recommended hardware requirements when you run [!INCLUDE [pn-microsoft-dynamics-crm-for-outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] in either online only or go offline enabled modes.  
@@ -27,18 +27,18 @@ The following table lists the minimum recommended hardware requirements when you
   
 > [!NOTE]
 >  [!INCLUDE [cc-actual-requirements-and-product-functionality-may-vary](../../includes/cc-actual-requirements-and-product-functionality-may-vary.md)]
->   
+> 
 >  Running [!INCLUDE[pn-microsoftcrm](../../includes/pn-microsoftcrm.md)] on a computer that has less than the minimum recommended requirements may result in inadequate performance. For the best performance, we recommend running 64-bit versions of [!INCLUDE[pn-ms-Windows-long](../../includes/pn-ms-windows-long.md)], [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)], and [!INCLUDE[pn-crm-for-outlook-short](../../includes/pn-crm-for-outlook-short.md)].  
 
  **Network requirements**  
   
  [!INCLUDE[pn-microsoftcrm](../../includes/pn-microsoftcrm.md)] is designed to work best over networks that have the following elements:  
   
--   Bandwidth greater than 50 KBps (400 kbps)  
+- Bandwidth greater than 50 KBps (400 kbps)  
   
--   Latency under 150 ms  
+- Latency under 150 ms  
   
- These values are recommendations and don’t guarantee satisfactory performance. The recommended values are based on systems using out-of-the box forms that aren’t customized. If you significantly customize the out-of-box forms, we recommend that you test the form response to understand bandwidth needs. [!INCLUDE[proc-more-information](../../includes/proc-more-information.md)] [Verify network capacity and throughput for Dynamics 365 clients](https://technet.microsoft.com/library/mt269872.aspx)  
+  These values are recommendations and don’t guarantee satisfactory performance. The recommended values are based on systems using out-of-the box forms that aren’t customized. If you significantly customize the out-of-box forms, we recommend that you test the form response to understand bandwidth needs. [!INCLUDE[proc-more-information](../../includes/proc-more-information.md)] [Verify network capacity and throughput for Dynamics 365 clients](https://technet.microsoft.com/library/mt269872.aspx)  
   
 > [!NOTE]
 >  Successful network installation of [!INCLUDE[pn-crm-for-outlook-short](../../includes/pn-crm-for-outlook-short.md)] requires a reliable and high-throughput network. Otherwise, installation might fail. The recommended minimum available bandwidth of the network connection is 300 Kbps.  

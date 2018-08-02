@@ -3,7 +3,7 @@ title: "Connect a portal to a Dynamics 365 online organization | MicrosoftDocs"
 description: "Learn how to connect a portal to a Dynamics 365 online organization and how to renew the authentication key."
 keywords: "portal authentication key, connect with Dynamics 365"
 ms.date: 02/22/2018
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,6 +14,8 @@ ms.author: shjais
 manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
+ms.custom:
+  - dyn365-portal
 ---
 
 # Connect to a Dynamics 365 online organization using a portal
@@ -41,14 +43,14 @@ The details of an authentication key is displayed on Portal Admin Center and por
 2. Select the name of the portal key you want to see, and then select **Manage**.
 3. Select **Manage portal authentication key**. The authentication key is displayed along with its expiration date and thumbprint.
 
-  ![Authentication key details in Portal Admin Center](media/manage-auth-key.png "Authentication key details in Portal Admin Center")
+   ![Authentication key details in Portal Admin Center](media/manage-auth-key.png "Authentication key details in Portal Admin Center")
 
 **Portal**
 
-1.	Sign in to the portal as administrator.
-2.	Navigate to the URL <portal_path>/_services/about. The authentication key expiration date is displayed. 
+1. Sign in to the portal as administrator.
+2. Navigate to the URL <portal_path>/_services/about. The authentication key expiration date is displayed. 
 
-  ![Portal service page](media/portal-services-page.png "Portal service page")
+   ![Portal service page](media/portal-services-page.png "Portal service page")
 
 > [!NOTE]
 > To view authentication key information, you must sign in to the portal in the same browser session and you must have all website access permission.
@@ -103,14 +105,14 @@ You must renew the key every two years to ensure that your portal can connect to
 > [!NOTE]
 > To renew the key, you must have permissions to [Manage your Portal](manage-portal.md).
 
-1.	Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center page and select the **Applications** tab.
-2.	Select the name of the portal you want to update the key, and then select **Manage**.
-3.	Select **Manage portal authentication key**. The authentication key is displayed along with its expiration date and thumbprint.
+1. Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center page and select the **Applications** tab.
+2. Select the name of the portal you want to update the key, and then select **Manage**.
+3. Select **Manage portal authentication key**. The authentication key is displayed along with its expiration date and thumbprint.
 
-  ![Manage portal authentication key](media/manage-portal-auth-key.png "Manage portal authentication key")
+   ![Manage portal authentication key](media/manage-portal-auth-key.png "Manage portal authentication key")
 
-4.	Select **Update key**.
-5.	Select **Update** in the message. The update process starts, and a message is displayed.
+4. Select **Update key**.
+5. Select **Update** in the message. The update process starts, and a message is displayed.
 
 > [!NOTE]
 > - While this process runs in the background, the portal will restart once.

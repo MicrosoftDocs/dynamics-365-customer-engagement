@@ -3,7 +3,10 @@ title: "Create segments and lists to establish target markets (Dynamics 365 for 
 description: "How to create segments and lists that you can use to target customer journeys and manage subscriptions in Dynamics 365 for Marketing"
 keywords: "segment; marketing list; subscription; Customer Insights"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -36,15 +39,23 @@ Segments can be dynamic, static, or compound.
 - *Static segments* establish a static list of contacts who are selected on a per-contact basis rather than created logically based on field values. Marketers and salespeople might create and populate a static list based on private knowledge or offline interactions.
 - *Compound segments* combine existing (live) segments using logical operators.
 
-### Segments are synced with Customer Insights
+### Segments are synced with the customer-insights services
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] works together with another product called *[!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)]* to provide advanced segment definitions and customer analytics. The integration is seamless and results in powerful combined functionality when the two systems work together. Your contact records and marketing lists are continuously synchronized between the two systems, which lets [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] apply its powerful data processing and analytical tools to your contacts, and combine these with information from other types of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] records and information from other systems. You can also access [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] directly to make use of its additional analytical tools and other features. [!include[](../includes/proc-more-information.md)] [Customer Insights online help](https://go.microsoft.com/fwlink/p/?linkid=863946)
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] works together with a set of external customer-insights services that operate using their own, external, customer-interaction database to provide advanced segment definitions and customer analytics. The integration is seamless and results in powerful combined functionality when the two systems work together. Your contact records and marketing lists are continuously synchronized between the two systems, which lets the customer-insights services apply their powerful data processing and analytical tools to your contacts, and combine these with information from other types of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] records and information from other systems.
+
+> [!IMPORTANT]
+> The customer-insights services process changes to segment membership asynchronously, which means you can't predict the order in which changes are processed. In some cases, such as when processing very large databases, it can take up to six hours for a given segment to get updated. You therefore can't rely on any one segment being processed before or after a specific other segment, so be careful when orchestrating related campaigns and/or using  [suppression segments](customer-journeys-create-automated-campaigns.md#suppression-segment).
 
 ### Segments must be live before you can use them
 
 When you first create a new segment, it is in a _draft_ state, which means that it is unlocked, so you can work with its definition and other settings, but you won't be able to use it in customer journeys or compound segments. When you are ready to use your segment, you must open it and select **Go Live** from the command bar, which enables it and moves to the _live_ state.
 
+> [!IMPORTANT]
+> While you are designing your segment, you can select the **Get estimated segment size** link to get an *estimate* for the number of contacts that will be included in the segment. This is only an estimate, and can be somewhat different from your actual segment size. You must go live with the segment to view its exact size and membership.
+
 If you need to edit a segment after it has gone live, open it and then select **Stop** from the command bar to put it back into the draft state.
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Go live with publishable entities and track their status](go-live.md)
 
 ## View, create, and manage your segments
 
@@ -59,12 +70,12 @@ Segment records provide several tabs for describing, defining, and reviewing the
 The **General** tab provides general information about the segment, including:
 
 - **Name**: Enter a name that will make the segment easy for you and others to identify while working in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
-- **Segment Type**: Set the segment to dynamic, static, or compound. This setting controls which types of settings you'll see for pupulating the list on the **Definition** tab.
+- **Segment Type**: Set the segment to dynamic, static, or compound. This setting controls which types of settings you'll see for populating the list on the **Definition** tab.
 - **Status reason**: Shows whether the segment is draft or live. Only live segments are available for use in customer journeys and compound segments.
 
 ### The Definition tab
 
-Use the **Definition** tab to establish membership of the segment. For dynamic segments, you'll get a query builder here. For marketing lists, you'll be able to choose from lists created in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] and synchronized to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)].
+Use the **Definition** tab to establish membership of the segment. For dynamic segments, you'll get a query builder here. For static segments, you'll select specific contacts one at a time.
 
 The settings on this tab are described in more detail later in this topic.
 
@@ -81,11 +92,14 @@ When you are working with a static segment, the **Definition** tab lists all of 
 Because your database probably includes a large number of contacts, the **Definition** tab can't show all of them at once. It provides paging controls at the bottom and a search filter at the top. Select the filter button at the top of the list to open a form where you can build a query that can help you find the contacts you want to add.
 
 > [!TIP]
-> Each time you adjust the filter settings, you must select the **Apply** button to update the list. 
+> Each time you adjust the filter settings, you must select the **Apply** button to update the list.
 
 ## Define a dynamic a segment
 
 To create a dynamic segment, set its **Segment type** to **Dynamic** on the **General** tab. Then use the **Definition** tab to build your dynamic segment by combing _groups_ of _logical expressions_, each of which results in a set of contacts. Each group establishes a _path_ through one or more entities that must end at the **Contact** entity (the order matters).
+
+> [!IMPORTANT]
+> Your dynamic-segment queries can reference fields of all data types _other than multiple option set_. The **Designer** and **Explorer** may sometimes show data fields of this type, but your segment won't work if you include them in your queries so avoid selecting these fields.
 
 ### Define a segment group
 
@@ -96,6 +110,9 @@ Each group in your segment results in a list of contacts, which are selected by 
 1. End at the **Contacts** entity to find the contacts from those accounts, and find only contacts living in California.
 
 Because the path ends with contacts, the result is a list of contacts who live in California and work for insurance companies that are on the **subscribers** list. (Many segment groups that you create will probably query the **Contacts** entity only, but even groups such as these might employ complex logic that combines multiple AND and OR clauses.)
+
+> [!IMPORTANT]
+> While you are designing your segment, you can select the **Get estimated segment size** link to get an *estimate* for the number of contacts that will be included in the segment. This is only an estimate, and can be somewhat different from your actual segment size. You must go live with the segment to view its exact size and membership.
 
 When working in the **Designer** view, you can build this query by using the **+ And** buttons and various drop-down lists to produce the following:
 
@@ -117,9 +134,6 @@ The map at the top of the explorer shows the entities that are available for use
 
 Close the **Explore** view by selecting **OK**. Your resulting query is then shown in the **Designer**, just as though you had created it there (as shown previously).
 
-> [!NOTE]
-> In the language of [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)], _entities_ are often referred to as _profiles_.
-
 The following image shows the previous query midway through construction, where we're adding the account criterion. Note how the map colors indicate where you are, where you've been, and what you can (and can't) do next.
 
 ![The segment explorer map, showing progress](media/segment-explorer-example2.png "The segment explorer map, showing progress")
@@ -133,7 +147,7 @@ The following image shows the previous query midway through construction, where 
 
 ### Combine segment groups
 
-A simple segment might have just one group, but you can create and combine as many groups a need. As a result, you can create highly sophisticated queries in your [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] database.
+A simple segment might have just one group, but you can create and combine as many groups as needed. As a result, you can create highly sophisticated queries.
 
 You combine groups, working first group to last, by using the following operators:
 
@@ -186,48 +200,31 @@ For details about how to create marketing lists and use them in subscription cen
 
 ## Create segments based on opportunities
 
-The default [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup does not sync opportunities with [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)], which means that opportunities are not initially included in the segment builder, but you can add them.
-
-
-> [!IMPORTANT]
-> After you add a new entity to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)], it will continue to sync and consume storage space there and can't be removed again. You should only add those entities you're sure you'll need.
-
-After opportunities are added, you'll be able to create segments that query the opportunities entity and find contacts associated with those opportunities.
-
-> [!NOTE]
-> After syncing opportunities with [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)], you'll also be able to use them in your lead-scoring rules by using the techniques described in [Create advanced lead scoring conditions with traversals](score-manage-leads.md#traversals)
-
-### Sync opportunities with Customer Insights
-If your Marketing instance isn't already set up to sync opportunities with Customer Insights, talk to your admin about setting this up as follows:
-
-1.	Go to **Settings** > **Marketing** > **Customer Insight Sync**. (Admin privileges required.)
-
-1. The **Customer Insight Sync** page shows a list of check boxes, with one for each entity that you can sync with [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]. Find **Opportunity (opportunity)** in the list, and select its check box (if it isn't already selected).
-
-1.	Select **Publish Changes** to apply your setting.
-
-Allow some time for the new setting to be propagated and the sync to be completed.
-After the settings have been propagated, you'll be able to see the opportunity entity in your segment designer, and can use it to define segments by applying techniques similar to those described earlier in this topic. An example is given in the following section.
-
-### An example of a segment that includes opportunities
-
 Here's an example of how to define a segment that starts by finding a collection of opportunities and, as usual, ends by finding the contacts that belong to that segment. In this example, we'll find contacts associated with opportunities valued over $10,000.
 
-1.	Create a new segment (or edit an existing one) as described earlier in this topic, and then go to the **Designer** tab.
+1. If your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance isn't already set up to sync opportunities with the customer-insights services, talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync) for instructions.
 
-1.	Start with an empty group. If you're creating a new segment with just one group, remove the default group by choosing its close box; otherwise, select **Add Group** to create your new group.
+1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar.
 
-1.	Your group should now start with a drop-down list set to **Select a profile or relationship**. Select **Opportunity** here, and then complete the row to create  
-**Opportunity | Total Amount | Greater than or Equal To | 10000**.  
+1. Fill out the **General** tab with a name and description for your new segment.
+
+1. Open the **Definition** tab, where you'll find the segment **Designer**. A default contact group is provided, but you don't want a contact group, so select the close button to remove this default group.  
+    ![Close the default group](media/segment-opportunity-close-group.png "Close the default group")
+
+1. The default group closes, leaving behind a **Select a profile or relationship** drop-down list. Select **Opportunity** from here. (If you don't see the **Opportunity** entity listed here, then you probably need to set up syncing for this entity as described in the fist step of this procedure; note that it can take up to six hours for a new entity to appear in this list after the first sync.)  
+    ![Select the waitlist-item entity](media/segment-opportunity-choose-entity.png "Select the waitlist-item entity")
+
+1. Complete the row to create the logical expression:  
+    **Opportunity | Total Amount | &ge; | 10000**.  
     ![Start with the opportunity entity](media/segment-example-opportunity1.png "Start with the opportunity entity")
 
-1.	Select **+And** to add a new clause to the group. Now you must choose the relation between the opportunity entity and the contact entity, which is where we need to end up. Choose **opportunity&#95;contact&#95;customerid&#95;_&lt;suffix&gt;_** and set it to **All&#42;**.  
+1. Select **+And** to add a new clause to the group. Now you must choose the relation between the opportunity entity and the contact entity, which is where we need to end up. Choose **opportunity&#95;contact&#95;customerid&#95;_&lt;suffix&gt;_** and set it to match **All&#42;**.  
     ![Set the relation from opportunity to contact](media/segment-example-opportunity2.png "Set the relation from opportunity to contact")
 
-1.	Select **+And** to add a final clause to the group, which must end with the contact entity. Set the new clause to use the **contact&#95;_&lt;suffix&gt;_** entity and set it to **All&#42;** to find all contacts associated with the selected opportunities.  
+1. Select **+And** to add a final clause to the group, which must end with the contact entity. Set the new clause to use the **contact&#95;_&lt;suffix&gt;_** entity and set it to **All&#42;** to find all contacts associated with the selected opportunities.  
     ![Finish the path to the contact entity](media/segment-example-opportunity3.png "Finish the path to the contact entity")
 
-1.	Your group will now find contacts associated with opportunities valued over $10,000.
+1. Your group will now find contacts associated with opportunities valued over $10,000.
 
 > [!NOTE]
 > If you leave the **Designer** tab and then come back, you'll notice that the middle (relation) clause has disappeared. Don't worry, it's still there in the background (and you can still see it on the **Query** tab), but the interface hides it to make the group easier to read.
@@ -235,4 +232,5 @@ Here's an example of how to define a segment that starts by finding a collection
 ### See also
 
 [Create a segment](create-segment.md)  
-[Set up subscription lists and subscription centers](set-up-subscription-center.md)
+[Set up subscription lists and subscription centers](set-up-subscription-center.md)  
+[Go live with publishable entities and track their status](go-live.md)

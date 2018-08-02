@@ -8,15 +8,15 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
-author: "jimholtz"
+  - Dynamics 365 (online)
+  - Dynamics 365 (on-premises)
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
+author: "mduelae"
 ms.assetid: 15bd88e8-dd0d-4f4c-8402-c33fc5b20a16
 caps.latest.revision: 41
 ms.author: "mkaur"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Reconfigure Dynamics 365 for phones and tablets
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
@@ -28,11 +28,11 @@ manager: "brycho"
   
  Here's how to do it:  
   
-1.  Tap ![Dynamics 365 ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 ellipsis").  
+1. Tap ![Dynamics 365 ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 ellipsis").  
   
-2.  Tap **Settings**.  
+2. Tap **Settings**.  
   
-3.  Tap **Reconfigure**.  
+3. Tap **Reconfigure**.  
   
- You can now sign in to a different server or organization.  
+   You can now sign in to a different server or organization.  
   

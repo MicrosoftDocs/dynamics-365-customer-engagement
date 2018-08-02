@@ -26,11 +26,11 @@ Learn how you can manage [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)] f
   
 1. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
   
-2.  Choose **System Settings**.  
+2. Choose **System Settings**.  
   
-3.  On the **General** tab, scroll down to **Enable Bing Maps** > **Show Bing Maps on forms**, and then select **Yes** or **No**.  
+3. On the **General** tab, scroll down to **Enable Bing Maps** > **Show Bing Maps on forms**, and then select **Yes** or **No**.  
   
-4.  Choose **OK**.  
+4. Choose **OK**.  
   
 ## Languages supported in Dynamics 365 for viewing Bing Maps  
  The following table contains a list of all languages supported in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for viewing [!INCLUDE[pn_bing](../includes/pn-bing.md)] maps. If the language is listed, the [!INCLUDE[pn_bing](../includes/pn-bing.md)] map is shown on the form, such as account, contact or lead, in your language. If the language is not listed, the map is not shown on the form. Instead, the link **Click here to view the map** is provided on the form. When you choose this link, you are taken directly to [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)]. [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)] are not available in all countries, regions, or languages. You may not be able to see the map in your language, if it is not supported by [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)]. For a list of supported languages, countries and regions, see [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)] documentation.  

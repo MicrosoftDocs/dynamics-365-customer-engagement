@@ -1,10 +1,12 @@
 ---
 title: "Extend Connected Field Service solutions (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Connected Field Service supports the customization of each standard component or service and the easy addition of custom Azure-based components and services."
-ms.custom: ""
+ms.custom:
+  - dyn365-developer
+  - dyn365-fieldservice
 ms.date: 10/31/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "field-service"
@@ -14,9 +16,9 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: d29a9353-73cf-4b49-b74f-d9050dc96bd7
 caps.latest.revision: 7
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: jdaly
 ---
 
 # Extend Connected Field Service solutions
@@ -66,8 +68,8 @@ manager: "amyla"
 
  [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] entities can be associated to IoT entities listed above so that within [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] they can participate in IoT-related business processes and analyses. There are two methods of “IoT enabling” a [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] entity; you can:  
   
--   Programmatically form an association through the standard Dynamics 365 [Connection entities](../../developer/connection-entities.md) capability. You can alternatively accomplish this same association through the administration UI; for more information, see [Create connections to view relationships between records](https://www.microsoft.com/dynamics/crm-customer-center/create-connections-to-view-relationships-between-records.aspx).  
+- Programmatically form an association through the standard Dynamics 365 [Connection entities](../../developer/connection-entities.md) capability. You can alternatively accomplish this same association through the administration UI; for more information, see [Create connections to view relationships between records](https://www.microsoft.com/dynamics/crm-customer-center/create-connections-to-view-relationships-between-records.aspx).  
   
--   Call the `IoT – Register Custom Entity` action to associate an entity with an existing or new `IoT Device`.  
+- Call the `IoT – Register Custom Entity` action to associate an entity with an existing or new `IoT Device`.  
   
- A common example of this capability is to associate a [Customer Asset](https://www.microsoft.com/dynamics/crm-customer-center/configure-and-set-up-customer-assets-field-service.aspx) to an `IoT Device`.
+  A common example of this capability is to associate a [Customer Asset](https://www.microsoft.com/dynamics/crm-customer-center/configure-and-set-up-customer-assets-field-service.aspx) to an `IoT Device`.

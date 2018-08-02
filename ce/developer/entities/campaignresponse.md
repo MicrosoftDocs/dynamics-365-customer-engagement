@@ -1876,6 +1876,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_campaignresponse_activity_parties"></a> campaignresponse_activity_parties
 
 Same as activityparty entity [campaignresponse_activity_parties](activityparty.md#BKMK_campaignresponse_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1890,6 +1891,7 @@ Same as activityparty entity [campaignresponse_activity_parties](activityparty.m
 ### <a name="BKMK_CampaignResponse_SyncErrors"></a> CampaignResponse_SyncErrors
 
 Same as syncerror entity [CampaignResponse_SyncErrors](syncerror.md#BKMK_CampaignResponse_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1904,6 +1906,7 @@ Same as syncerror entity [CampaignResponse_SyncErrors](syncerror.md#BKMK_Campaig
 ### <a name="BKMK_CampaignResponse_DuplicateMatchingRecord"></a> CampaignResponse_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [CampaignResponse_DuplicateMatchingRecord](duplicaterecord.md#BKMK_CampaignResponse_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1918,6 +1921,7 @@ Same as duplicaterecord entity [CampaignResponse_DuplicateMatchingRecord](duplic
 ### <a name="BKMK_CampaignResponse_DuplicateBaseRecord"></a> CampaignResponse_DuplicateBaseRecord
 
 Same as duplicaterecord entity [CampaignResponse_DuplicateBaseRecord](duplicaterecord.md#BKMK_CampaignResponse_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -1932,6 +1936,7 @@ Same as duplicaterecord entity [CampaignResponse_DuplicateBaseRecord](duplicater
 ### <a name="BKMK_CampaignResponse_AsyncOperations"></a> CampaignResponse_AsyncOperations
 
 Same as asyncoperation entity [CampaignResponse_AsyncOperations](asyncoperation.md#BKMK_CampaignResponse_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1946,6 +1951,7 @@ Same as asyncoperation entity [CampaignResponse_AsyncOperations](asyncoperation.
 ### <a name="BKMK_campaignresponse_MailboxTrackingFolders"></a> campaignresponse_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [campaignresponse_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_campaignresponse_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1960,6 +1966,7 @@ Same as mailboxtrackingfolder entity [campaignresponse_MailboxTrackingFolders](m
 ### <a name="BKMK_userentityinstancedata_campaignresponse"></a> userentityinstancedata_campaignresponse
 
 Same as userentityinstancedata entity [userentityinstancedata_campaignresponse](userentityinstancedata.md#BKMK_userentityinstancedata_campaignresponse) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1974,6 +1981,7 @@ Same as userentityinstancedata entity [userentityinstancedata_campaignresponse](
 ### <a name="BKMK_CampaignResponse_ProcessSessions"></a> CampaignResponse_ProcessSessions
 
 Same as processsession entity [CampaignResponse_ProcessSessions](processsession.md#BKMK_CampaignResponse_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1988,6 +1996,7 @@ Same as processsession entity [CampaignResponse_ProcessSessions](processsession.
 ### <a name="BKMK_CampaignResponse_BulkDeleteFailures"></a> CampaignResponse_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [CampaignResponse_BulkDeleteFailures](bulkdeletefailure.md#BKMK_CampaignResponse_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -2002,6 +2011,7 @@ Same as bulkdeletefailure entity [CampaignResponse_BulkDeleteFailures](bulkdelet
 ### <a name="BKMK_campaignresponse_principalobjectattributeaccess"></a> campaignresponse_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [campaignresponse_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_campaignresponse_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -2016,6 +2026,7 @@ Same as principalobjectattributeaccess entity [campaignresponse_principalobjecta
 ### <a name="BKMK_CampaignResponse_QueueItem"></a> CampaignResponse_QueueItem
 
 Same as queueitem entity [CampaignResponse_QueueItem](queueitem.md#BKMK_CampaignResponse_QueueItem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queueitem|
@@ -2030,6 +2041,7 @@ Same as queueitem entity [CampaignResponse_QueueItem](queueitem.md#BKMK_Campaign
 ### <a name="BKMK_CampaignResponse_Annotation"></a> CampaignResponse_Annotation
 
 Same as annotation entity [CampaignResponse_Annotation](annotation.md#BKMK_CampaignResponse_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -2044,6 +2056,7 @@ Same as annotation entity [CampaignResponse_Annotation](annotation.md#BKMK_Campa
 ### <a name="BKMK_CampaignResponse_Lead"></a> CampaignResponse_Lead
 
 Same as lead entity [CampaignResponse_Lead](lead.md#BKMK_CampaignResponse_Lead) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|lead|

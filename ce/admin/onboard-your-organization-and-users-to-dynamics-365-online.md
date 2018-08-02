@@ -1,20 +1,24 @@
 ---
 title: "Onboard your organization and users to Dynamics 365 (online) | MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 10/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 41b89fd8-bfaf-40bb-8428-2013b5271230
+author: jimholtz
+ms.author: jimholtz
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 30
-author: "jimholtz"
-ms.author: "jimholtz"
+topic-status: Drafting
 ---
+
 # Onboard your organization and users
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
@@ -196,13 +200,13 @@ For more advanced scenarios, consider the following development tools: [Solution
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
--   [Video: Overview of the mobile app](https://www.youtube.com/embed/KApKrlvMncQ)  
+- [Video: Overview of the mobile app](https://www.youtube.com/embed/KApKrlvMncQ)  
   
--   [Dynamics 365 for phones and tablets User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
+- [Dynamics 365 for phones and tablets User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
   
--   [Customize Dynamics 365 for phones and tablets to work for your business](../customize/customize-phones-tablets.md)
-<!--  
--   [Configure mobile offline synchronization for Dynamics 365 for phones and tablets](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  -->
+- [Customize Dynamics 365 for phones and tablets to work for your business](../customize/customize-phones-tablets.md)
+  <!--  
+- [Configure mobile offline synchronization for Dynamics 365 for phones and tablets](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  -->
   
 <a name="Outlook"></a>   
 ### Set up Dynamics 365 App for Outlook  
@@ -309,7 +313,7 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
   
 <a name="Preview"></a>   
 ### Preview features in Dynamics 365 (online)  
- Preview features are features that aren’t complete, but are made available on a “preview” basis so customers can get early access and provide feedback. Find out what preview features are currently being offered: [What are Preview features and how do I enable them?](what-are-preview-features-how-do-i-enable-them.md)  
+ Preview features are features that aren’t complete, but are made available on a “preview” basis so customers can get early access and provide feedback. Find out what preview features are currently being offered: [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)  
   
 <a name="Maintenance"></a>   
 ### On-going monitoring, maintenance, and administration  

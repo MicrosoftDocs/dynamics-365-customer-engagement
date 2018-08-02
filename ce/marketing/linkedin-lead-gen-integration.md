@@ -3,7 +3,10 @@ title: "Capture leads generated on LinkedIn (Dynamics 365 for Marketing) | Micro
 description: "How to use the connector to LinkedIn Lead Gen Forms, which imports leads from LinkedIn to Dynamics 365 for Marketing"
 keywords: "LinkedIn; Lead Gen Forms; lead; connector"
 ms.date: 03/27/2018
-ms.service: crm-online
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -37,15 +40,15 @@ For more information about assigning security roles to users, see [TechNet: Crea
 
 1. Go to **Marketing** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **User Profiles**.
 
-1. To add a new [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user profile record, select **New**, enter a **Name**, and then select **Save**.
+2. To add a new [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user profile record, select **New**, enter a **Name**, and then select **Save**.
 
-1. To add [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] accounts to this user profile, select **Authorize** on the command bar.
+3. To add [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] accounts to this user profile, select **Authorize** on the command bar.
 
-1. Enter the credentials for your [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] profile, and then select **Sign In**.
+4. Enter the credentials for your [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] profile, and then select **Sign In**.
 
-1. In the permissions dialog box, select **Allow**.
+5. In the permissions dialog box, select **Allow**.
 
-1. Check and confirm the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organization to which you want to sync your [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data.
+6. Check and confirm the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organization to which you want to sync your [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data.
 
 After successful authorization, the associated [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] accounts are listed in the **Associated [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Accounts** section. You can review the details of the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] accounts in the form. It might take a few seconds to get the accounts; if you don't see them, refresh the view.
 

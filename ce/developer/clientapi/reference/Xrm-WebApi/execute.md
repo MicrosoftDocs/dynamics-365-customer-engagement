@@ -37,8 +37,8 @@ manager: "amyla"
 <td>Yes</td>
 <td><p>Object that will be passed to the Web API endpoint to execute an action, function, or CRUD request. The object exposes a <b>getMetadata</b> method that lets you define the metadata for the action, function or CRUD request you want to execute. The <b>getMetadata</b> method has the following parameters:</p>
 <ul>
-<li><b>boundParameter</b>: (Optional) String. The name of the bound parameter for the action or function to execute. <br/>Specify **undefined** if you are executing a CRUD request.<br/>Specify **null** if the action or function to execute is not bound to any entity. <br/>Specify entity logical name or entity set name in case the action or function to execute is bound to one. </li>
-<li><b>operationName</b>: (Optional). String. Name of the action, function, or one of the following values if you are executing a CRUD request: "Create", "Retrieve", "RetrieveMultiple", "Update", or "Delete".</li>
+<li><b>boundParameter</b>: (Optional) String. The name of the bound parameter for the action or function to execute. <br/>Specify <strong>undefined</strong> if you are executing a CRUD request.<br/>Specify <strong>null</strong> if the action or function to execute is not bound to any entity. <br/>Specify entity logical name or entity set name in case the action or function to execute is bound to one. </li>
+<li><b>operationName</b>: (Optional). String. Name of the action, function, or one of the following values if you are executing a CRUD request: &quot;Create&quot;, &quot;Retrieve&quot;, &quot;RetrieveMultiple&quot;, &quot;Update&quot;, or &quot;Delete&quot;.</li>
 <li><b>operationType</b>: (Optional). Number. Indicates the type of operation you are executing; specify one of the following values:
 <br/><code>0: Action</code>
 <br/><code>1: Function</code>
@@ -70,7 +70,7 @@ manager: "amyla"
 <li><b>ok</b>: Boolean. Indicates whether the request was successful.</li>
 <li><b>status</b>: Number. Numeric value in the response status code. For example: <b>200</b></li>
 <li><b>statusText</b>: String. Description of the response status code. For example: <b>OK</b></li>
-<li><b>type</b>: String. Response type. Values are: the empty string (default), "arraybuffer", "blob", "document", "json", and "text".</b></li>
+<li><b>type</b>: String. Response type. Values are: the empty string (default), &quot;arraybuffer&quot;, &quot;blob&quot;, &quot;document&quot;, &quot;json&quot;, and &quot;text&quot;.</b></li>
 <li><b>url</b>: String. Request URL of the action, function, or CRUD request that was sent to the Web API endpoint.</b></li>
 </ul>
 </td>

@@ -30,14 +30,14 @@ For application ribbons and updated entity form ribbons there is no scaling. Sca
  Each `<Group>` element in the ribbon is associated with a `<GroupTemplate>`. 
  The `GroupTemplate` specifies one or more ways the controls in the group can be presented using `<Layout>` elements. Each `Layout` may contain one of two types of definition for how the controls in the group are displayed.  
   
--   An `<OverflowSection>` allows for controls to change relative position depending on the available space.  
+- An `<OverflowSection>` allows for controls to change relative position depending on the available space.  
   
--   A `<Section>` controls the number of rows to display and where each control is displayed.  
+- A `<Section>` controls the number of rows to display and where each control is displayed.  
   
- Almost all the `Layout` elements used in ribbons use `OverflowSection` elements.  
+  Almost all the `Layout` elements used in ribbons use `OverflowSection` elements.  
   
- Each `<Tab>` element must contain one `<MaxSize>` in the `<Scaling>`. The `MaxSize` element is required because it establishes the default presentation of each `Group` in a `Tab` without any scaling applied. Scaling occurs when a `Tab` 
- is associated with one or more `<Scale>`. Each `MaxSize` and `Scale` element is associated via the `Size` attribute with one of the `Layout` elements in the `GroupTemplate` used by each `Group` within a `Tab`.  
+  Each `<Tab>` element must contain one `<MaxSize>` in the `<Scaling>`. The `MaxSize` element is required because it establishes the default presentation of each `Group` in a `Tab` without any scaling applied. Scaling occurs when a `Tab` 
+  is associated with one or more `<Scale>`. Each `MaxSize` and `Scale` element is associated via the `Size` attribute with one of the `Layout` elements in the `GroupTemplate` used by each `Group` within a `Tab`.  
   
 > [!NOTE]
 >  The value of the `Size` attribute of any `MaxSize` or `Scale` element must match the `Title` of the available `Layout` elements specified in the `GroupTemplate`. 

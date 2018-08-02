@@ -1,9 +1,10 @@
 ---
 title: "Schedule a work order (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "field-service"
@@ -12,11 +13,11 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "mduelae"
+author: krbjoran
 ms.assetid: 2d02cea2-8cd3-4324-9c38-a6c1ec45aed1
 caps.latest.revision: 26
-ms.author: "mkaur"
-manager: "amyla"
+ms.author: krbjoran
+manager: shellyha
 ---
 # Schedule a work order (Field Service)
 
@@ -77,19 +78,19 @@ Once a work order has been created in [!INCLUDE[pn_dyn_365_field_service](../inc
 <a name="BKMK_SchedulingAssistant"></a>   
 ## Schedule a work order using the scheduling assistant  
   
-1.  From the main menu, click **Field Service** > **Work Orders**.  
+1. From the main menu, click **Field Service** > **Work Orders**.  
   
-2.  Select a work order from the list, or click the work order number.  
+2. Select a work order from the list, or click the work order number.  
   
-3.  On the command bar, click **Schedule Assistant**.  
+3. On the command bar, click **Schedule Assistant**.  
   
-4.  When the schedule assistant opens, choose the constraints that you will use to query the system to find available resources and time slot options.  
+4. When the schedule assistant opens, choose the constraints that you will use to query the system to find available resources and time slot options.  
   
-    - **Duration**: Pulled from the estimated duration on the work order, which is driven by the incidents.  
+   - **Duration**: Pulled from the estimated duration on the work order, which is driven by the incidents.  
   
-    - **Radius Constraint**: Select the radius for the available resources. This defaults from a [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] setting.  
+   - **Radius Constraint**: Select the radius for the available resources. This defaults from a [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] setting.  
   
-    - **Start and End Days**: Choose the date ranges. This is driven from the date window fields on the work order.  
+   - **Start and End Days**: Choose the date ranges. This is driven from the date window fields on the work order.  
   
 <a name="BKMK_ReassignReschedule"></a>   
 ## Reassign and reschedule a work order  

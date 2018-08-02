@@ -2,7 +2,7 @@
 title: "Implement General Data Protection Regulations in Voice of the Customer for Dynamics 365 | MicrosoftDocs"
 description: "Learn how to implement General Data Protection Regulations in Voice of the Customer for Dynamics 365."
 keywords: "implement GDPR in Voice of the Customer,Voice of the Customer GDPR "
-ms.date: 03/31/2018
+ms.date: 05/22/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -21,8 +21,11 @@ topic-status: Drafting
 The General Data Protection Regulation (GDPR) is a legal act of the European Union (EU), which protects data for all individuals within the EU. With GDPR, customers can control the use of their personal data in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
 > [!NOTE]
-> - The Voice of the Customer solution will be GDPR compliant if you have installed version 9.0.1113.10 and higher.
-> - Installing Voice of Customer version 9.0.1113.10 and higher does not guarantee GDPR compliance. Dynamics 365 should also be GDPR compliant.
+> - The Voice of the Customer solution will be GDPR compliant if:
+  >   - Your organization's Dynamics 365 version is 8.2.x or higher and you have installed Voice of the Customer version 9.0.1113.10 and higher.
+  >   - Your organization's Dynamics 365 version is 8.1.x and you have installed Voice of the Customer version 8.3.1140.2 and higher.
+> - Installing GDPR compliant Voice of Customer solution does not guarantee GDPR compliance. Dynamics 365 should also be GDPR compliant.
+> - Customers can enable auditing on Voice of the Customer entities to allow administrators to periodically review audit logs for Voice of the Customer records. For information on enabling auditing on entities, see [here](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/configure-entities-attributes-auditing).
 
 As an administrator, your customers can contact you with the following requests regarding their data stored in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]:
 

@@ -1,26 +1,17 @@
 ---
 title: "Set KeepAlive to false when interacting with external hosts in a plug-in | MicrosoftDocs"
 description: "KeepAlive property set to true in the HTTP request header or not explicitly defined as false can cause increased execution times of plug-ins."
-ms.date: 12/20/2017
+ms.date: 06/28/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
-    - "Dynamics 365 (online)"
+  - "Dynamics 365 (online)"
 ms.assetid: fe370b70-10f3-492a-9895-360f979b44a0
 author: "jowells1"
 ms.author: "jowells"
 manager: "michu"
 ---
 # Set KeepAlive to false when interacting with external hosts in a plug-in
-
-**Applies to**:
-
-- [!include[](../../includes/pn-crm-9-0-0-online.md)]
-- [!include[](../../includes/pn-crm-2016.md)]
-- [!include[](../../includes/pn-crm-8-1-0-both.md)]
-- [!include[](../../includes/pn-crm-2015.md)]
-- [!include[](../../includes/pn-crmv6.md)]
-- [!include[](../../includes/pn-crm-2011.md)]
 
 **Category**: Performance
 
@@ -36,7 +27,7 @@ If a plug-in makes external web requests and is trying to use `KeepAlive` on a c
 
     - Unresponsive client pages
     - Slow client interactions
-    - The browser "hanging" in an unresponsive state
+    - The browser stops responding
 
 - Asynchronously, plug-in executions may take an extended period of time before failing. 
 
@@ -44,7 +35,7 @@ If a plug-in makes external web requests and is trying to use `KeepAlive` on a c
 
 ## Guidance
 
-In HTTP 1.1, all connections are considered persistent (`KeepAlive` is true) unless declared otherwise. Due to the fact that [!INCLUDE [pn-dynamics-365](../../includes/pn-dynamics-365.md)] plug-ins run in isolation, the Sandbox service translates into them being short-lived executions that generally would not benefit from `KeepAlive`. To avoid problems with connecting to external services we recommend disabling `KeepAlive` within [!INCLUDE [pn-dynamics-365](../../includes/pn-dynamics-365.md)] plug-ins. If your specific external service would benefit from using persistent sessions for performance reasons, actively send a `KeepAlive` at an interval of half the idle timeout (30 seconds) to keep the connection from closing.
+In HTTP 1.1, all connections are considered persistent (`KeepAlive` is true) unless declared otherwise. Due to the fact that Dynamics 365 plug-ins run in isolation, the Sandbox service translates into them being short-lived executions that generally would not benefit from `KeepAlive`. To avoid problems with connecting to external services we recommend disabling `KeepAlive` within Dynamics 365 plug-ins. If your specific external service would benefit from using persistent sessions for performance reasons, actively send a `KeepAlive` at an interval of half the idle timeout (30 seconds) to keep the connection from closing.
 
 The following examples show how to explicitly define `KeepAlive` to false based on the method you use to establish a connection to an external service:
 
@@ -277,7 +268,7 @@ The following examples show the problematic pattern based on the method you use 
 
 ## Additional information
 
-Plug-ins hosted in [!INCLUDE [pn-dynamics-365](../../includes/pn-dynamics-365.md)] interacting with external services may experience abnormally increased execution times. The problem is due to the ([KeepAlive property](https://msdn.microsoft.com/library/system.net.httpwebrequest.keepalive.aspx)) of HTTP requests issued to external web servers. If the `KeepAlive` property is set to true or not defined at all (default behavior is true) the Sandbox client on the [!INCLUDE [pn-dynamics-365](../../includes/pn-dynamics-365.md)] server could continue to try and use a persistent session even though the session has become expired due to network device configuration. The cause of the extended execution time is due to the network retrying the request until the connection is, ultimately, reset.
+Plug-ins hosted in Dynamics 365 interacting with external services may experience abnormally increased execution times. The problem is due to the ([KeepAlive property](https://msdn.microsoft.com/library/system.net.httpwebrequest.keepalive.aspx)) of HTTP requests issued to external web servers. If the `KeepAlive` property is set to true or not defined at all (default behavior is true) the Sandbox client on the Dynamics 365 server could continue to try and use a persistent session even though the session has become expired due to network device configuration. The cause of the extended execution time is due to the network retrying the request until the connection is, ultimately, reset.
 
 > [!IMPORTANT]
 > This affects all code that initiates HTTP Requests to a web server using [System.Net.WebClient](https://msdn.microsoft.com/library/system.net.webclient.aspx), [System.Net.WebRequest](https://msdn.microsoft.com/library/system.net.webrequest.aspx) or [System.Net.HttpWebRequest](https://msdn.microsoft.com/library/system.net.httpwebrequest.aspx) as well as Windows Communications Foundation (WCF) client communications using an HTTP transport binding directly or indirectly via [ChannelFactory<TChannel>](https://docs.microsoft.com/dotnet/api/system.servicemodel.channelfactory-1) or [ClientBase<T>](https://docs.microsoft.com/dotnet/api/system.servicemodel.clientbase-1).

@@ -1,17 +1,18 @@
 ---
 title: "Smack Talk in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Brag about your wins and rank on the leaderboard by posting on the smack talk board."
-ms.custom: ""
+ms.custom:
+  - dyn365-gamification
 ms.date: 05/31/2017
 ms.reviewer: ""
-ms.service: gamification
+ms.service: dynamics-365-sales
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: Dynamics 365 (online)
 ms.assetid: 958c8d0d-d57e-492b-bb83-1594c4d1a984
 caps.latest.revision: 13
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
 ---
@@ -24,15 +25,15 @@ A [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] competition includ
   
 ## Post on the smack talk board in Gamification  
   
-1.  In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **My Games** > **Smack Talk**.  
+1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **My Games** > **Smack Talk**.  
   
-2.  Enter your message in the input box.  
+2. Enter your message in the input box.  
   
-3.  Optionally, add a photo to your post or turn your post into a *BAM post*—a special type of post that runs a short animation to celebrate an achievement.  
+3. Optionally, add a photo to your post or turn your post into a *BAM post*—a special type of post that runs a short animation to celebrate an achievement.  
   
-4.  To publish your update, click **Submit Post**.  
+4. To publish your update, click **Submit Post**.  
   
- All players in the selected game will see your post in their **Smack Talk** feed.  
+   All players in the selected game will see your post in their **Smack Talk** feed.  
   
 ### See also
 

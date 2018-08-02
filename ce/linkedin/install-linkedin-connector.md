@@ -3,7 +3,7 @@ title: "Install Dynamics 365 Connector for LinkedIn Lead Gen Forms | Microsoft D
 description: "Learn about the prerequisites and how you can install the LinkedIn Connector for your Dynamics 365 (online) organization."
 keywords: "AppSource, LinkedIn Lead Gen Connector, Installation, Setup"
 ms.date: 04/02/2018
-ms.service: crm-online
+ms.service: dynamics-365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-LinkedIn
 ---
 
 # Install [!include[Dynamics 365 Connector for LinkedIn Lead Gen Forms](../includes/cc-linkedin-solution.md)] from AppSource
@@ -28,7 +30,7 @@ To enable the synchronization of lead data from [!include[LinkedIn](../includes/
 * The capabilities in this solution require at least the [!include[December update for Microsoft Dynamics 365 (online)](../includes/pn-crm-8-2-0-online.md)].
 
 * To sync leads from [!include[LinkedIn](../includes/pn-linkedin.md)] and run campaigns on [!include[LinkedIn](../includes/pn-linkedin.md)], you need access to a [!include[LinkedIn](../includes/pn-linkedin.md)] Advertising Account that can manage ads by using [!include[LinkedIn](../includes/pn-linkedin.md)] Campaign Manager.    
-More information: [LinkedIn: Campaign Manager Overview](https://www.linkedin.com/help/lms/answer/56969), [LinkedIn: Creating an Account for Campaigns](https://www.linkedin.com/help/lms/topics/8121/8122/5749), [LinkedIn: Adding, Editing, and Removing User Permissions on Advertising Accounts](https://www.linkedin.com/help/lms/answer/5753)
+  More information: [LinkedIn: Campaign Manager Overview](https://www.linkedin.com/help/lms/answer/56969), [LinkedIn: Creating an Account for Campaigns](https://www.linkedin.com/help/lms/topics/8121/8122/5749), [LinkedIn: Adding, Editing, and Removing User Permissions on Advertising Accounts](https://www.linkedin.com/help/lms/answer/5753)
 
 * We recommend using the latest version of [!include[Edge](../includes/pn-microsoft-edge.md)], [!include[Chrome](../includes/tn-google-chrome.md)], [!include[Firefox](../includes/tn-mozilla-firefox.md)], or [!include[Safari](../includes/tn-apple-safari.md)].
 
@@ -43,11 +45,11 @@ First, an administrator needs to install the solution.
 3. Select **Get** to start installing the solution.
 
 4. Review and accept the disclaimer, required permissions, and service terms to install [!include[Dynamics 365 Connector for LinkedIn Lead Gen Forms](../includes/cc-linkedin-solution.md)] to [!include[Dynamics 365 (online)](../includes/pn-crm-online-shortest.md)]. You need to be a global admin in this Office 365 tenant to authorize S2S inbound. More information about S2S: [MSDN: Build web applications using Server-to-Server (S2S) authentication](https://msdn.microsoft.com/library/mt790168.aspx)  
-It takes a few minutes to install the solution. To monitor the status of the installation, or update or remove a managed solution, go to the [Office 365 admin center](https://portal.office.com/).
-More information: [TechNet: Use the Office 365 admin center to manage your Dynamics 365 (online) subscription in Dynamics 365](https://technet.microsoft.com/library/dn973004.aspx).
+   It takes a few minutes to install the solution. To monitor the status of the installation, or update or remove a managed solution, go to the [Office 365 admin center](https://portal.office.com/).
+   More information: [TechNet: Use the Office 365 admin center to manage your Dynamics 365 (online) subscription in Dynamics 365](https://technet.microsoft.com/library/dn973004.aspx).
 
 5. In [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)], go to **Settings** > **Customization** > **Solutions** and select **LinkedIn Lead Gen Forms Connector** to see the solution details.  
-![LinkedIn Lead Gen Forms Connector solution detail](media/Solution-details.png "LinkedIn Lead Gen Forms Connector solution details")
+   ![LinkedIn Lead Gen Forms Connector solution detail](media/Solution-details.png "LinkedIn Lead Gen Forms Connector solution details")
 
 6. The solution creates two new security roles, which you assign to users so they can work with [!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen Forms in [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)]. A third role, **LinkedIn Lead Gen S2S Inbound**, is an internal security role used by the solution to sync data.
 

@@ -3,7 +3,7 @@ title: "Get to know your Social Engagement filters | Microsoft Docs"
 description: "See the list of filters and what they do."
 keywords: "filter, filtering, Social Engagement"
 ms.date: 03/07/2018
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Get to know your filters

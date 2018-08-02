@@ -375,6 +375,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_IsvConfig_AsyncOperations"></a> IsvConfig_AsyncOperations
 
 Same as asyncoperation entity [IsvConfig_AsyncOperations](asyncoperation.md#BKMK_IsvConfig_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -389,6 +390,7 @@ Same as asyncoperation entity [IsvConfig_AsyncOperations](asyncoperation.md#BKMK
 ### <a name="BKMK_userentityinstancedata_isvconfig"></a> userentityinstancedata_isvconfig
 
 Same as userentityinstancedata entity [userentityinstancedata_isvconfig](userentityinstancedata.md#BKMK_userentityinstancedata_isvconfig) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -403,6 +405,7 @@ Same as userentityinstancedata entity [userentityinstancedata_isvconfig](userent
 ### <a name="BKMK_IsvConfig_BulkDeleteFailures"></a> IsvConfig_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [IsvConfig_BulkDeleteFailures](bulkdeletefailure.md#BKMK_IsvConfig_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|

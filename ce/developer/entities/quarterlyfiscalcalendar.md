@@ -654,6 +654,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_QuarterlyFiscalCalendar_AsyncOperations"></a> QuarterlyFiscalCalendar_AsyncOperations
 
 Same as asyncoperation entity [QuarterlyFiscalCalendar_AsyncOperations](asyncoperation.md#BKMK_QuarterlyFiscalCalendar_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -668,6 +669,7 @@ Same as asyncoperation entity [QuarterlyFiscalCalendar_AsyncOperations](asyncope
 ### <a name="BKMK_QuarterlyFiscalCalendar_BulkDeleteFailures"></a> QuarterlyFiscalCalendar_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [QuarterlyFiscalCalendar_BulkDeleteFailures](bulkdeletefailure.md#BKMK_QuarterlyFiscalCalendar_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|

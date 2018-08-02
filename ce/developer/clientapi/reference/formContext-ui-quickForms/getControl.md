@@ -38,10 +38,10 @@ After you have retrieved a constituent control in a quick view control, you can 
 
 For more information about methods supported for a control, see [Controls](../controls.md).
 
->[!IMPORTANT]
->The [getAttribute](../controls/getAttribute.md) or any data related methods on a constituent control might not work on the main form [OnLoad](../events/form-onload.md) event because the quick view form that its bound to might not have loaded completely when the main form has loaded. You must use the [isLoaded](isLoaded.md) method for the quick view control instance to help you determine if the bounded quick view form has loaded completely. 
-
->Also, the way you retrieve constituent controls in a quick view control on forms using the new form rendering engine is different from the legacy forms. So, if you are using legacy forms and have code targeting constituent controls in a quick view control, you must update your code when you decide to use the new form rendering engine.
+> [!IMPORTANT]
+> The [getAttribute](../controls/getAttribute.md) or any data related methods on a constituent control might not work on the main form [OnLoad](../events/form-onload.md) event because the quick view form that its bound to might not have loaded completely when the main form has loaded. You must use the [isLoaded](isLoaded.md) method for the quick view control instance to help you determine if the bounded quick view form has loaded completely. 
+> 
+> Also, the way you retrieve constituent controls in a quick view control on forms using the new form rendering engine is different from the legacy forms. So, if you are using legacy forms and have code targeting constituent controls in a quick view control, you must update your code when you decide to use the new form rendering engine.
 
 ### Related topics
 

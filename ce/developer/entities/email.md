@@ -1034,6 +1034,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_StatusCode"></a> StatusCode
 
 **Added by**: Activities Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Select the email's status.|
@@ -2207,6 +2208,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_email_campaignresponse"></a> email_campaignresponse
 
 Same as campaignresponse entity [email_campaignresponse](campaignresponse.md#BKMK_email_campaignresponse) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -2221,6 +2223,7 @@ Same as campaignresponse entity [email_campaignresponse](campaignresponse.md#BKM
 ### <a name="BKMK_email_actioncard"></a> email_actioncard
 
 Same as actioncard entity [email_actioncard](actioncard.md#BKMK_email_actioncard) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|actioncard|
@@ -2235,6 +2238,7 @@ Same as actioncard entity [email_actioncard](actioncard.md#BKMK_email_actioncard
 ### <a name="BKMK_email_activity_parties"></a> email_activity_parties
 
 Same as activityparty entity [email_activity_parties](activityparty.md#BKMK_email_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -2249,6 +2253,7 @@ Same as activityparty entity [email_activity_parties](activityparty.md#BKMK_emai
 ### <a name="BKMK_Email_DuplicateMatchingRecord"></a> Email_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [Email_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Email_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -2263,6 +2268,7 @@ Same as duplicaterecord entity [Email_DuplicateMatchingRecord](duplicaterecord.m
 ### <a name="BKMK_Email_SyncErrors"></a> Email_SyncErrors
 
 Same as syncerror entity [Email_SyncErrors](syncerror.md#BKMK_Email_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -2277,6 +2283,7 @@ Same as syncerror entity [Email_SyncErrors](syncerror.md#BKMK_Email_SyncErrors) 
 ### <a name="BKMK_Email_DuplicateBaseRecord"></a> Email_DuplicateBaseRecord
 
 Same as duplicaterecord entity [Email_DuplicateBaseRecord](duplicaterecord.md#BKMK_Email_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -2291,6 +2298,7 @@ Same as duplicaterecord entity [Email_DuplicateBaseRecord](duplicaterecord.md#BK
 ### <a name="BKMK_Email_AsyncOperations"></a> Email_AsyncOperations
 
 Same as asyncoperation entity [Email_AsyncOperations](asyncoperation.md#BKMK_Email_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -2305,6 +2313,7 @@ Same as asyncoperation entity [Email_AsyncOperations](asyncoperation.md#BKMK_Ema
 ### <a name="BKMK_Email_ProcessSessions"></a> Email_ProcessSessions
 
 Same as processsession entity [Email_ProcessSessions](processsession.md#BKMK_Email_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -2319,6 +2328,7 @@ Same as processsession entity [Email_ProcessSessions](processsession.md#BKMK_Ema
 ### <a name="BKMK_slakpiinstance_email"></a> slakpiinstance_email
 
 Same as slakpiinstance entity [slakpiinstance_email](slakpiinstance.md#BKMK_slakpiinstance_email) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|slakpiinstance|
@@ -2333,6 +2343,7 @@ Same as slakpiinstance entity [slakpiinstance_email](slakpiinstance.md#BKMK_slak
 ### <a name="BKMK_Email_Annotation"></a> Email_Annotation
 
 Same as annotation entity [Email_Annotation](annotation.md#BKMK_Email_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -2347,6 +2358,7 @@ Same as annotation entity [Email_Annotation](annotation.md#BKMK_Email_Annotation
 ### <a name="BKMK_email_activity_mime_attachment"></a> email_activity_mime_attachment
 
 Same as activitymimeattachment entity [email_activity_mime_attachment](activitymimeattachment.md#BKMK_email_activity_mime_attachment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitymimeattachment|
@@ -2361,6 +2373,7 @@ Same as activitymimeattachment entity [email_activity_mime_attachment](activitym
 ### <a name="BKMK_email_email_parentactivityid"></a> email_email_parentactivityid
 
 Same as email entity [email_email_parentactivityid](email.md#BKMK_email_email_parentactivityid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -2375,6 +2388,7 @@ Same as email entity [email_email_parentactivityid](email.md#BKMK_email_email_pa
 ### <a name="BKMK_email_principalobjectattributeaccess"></a> email_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [email_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_email_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -2389,6 +2403,7 @@ Same as principalobjectattributeaccess entity [email_principalobjectattributeacc
 ### <a name="BKMK_userentityinstancedata_email"></a> userentityinstancedata_email
 
 Same as userentityinstancedata entity [userentityinstancedata_email](userentityinstancedata.md#BKMK_userentityinstancedata_email) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -2403,6 +2418,7 @@ Same as userentityinstancedata entity [userentityinstancedata_email](userentityi
 ### <a name="BKMK_Email_BulkDeleteFailures"></a> Email_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Email_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Email_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -2417,6 +2433,7 @@ Same as bulkdeletefailure entity [Email_BulkDeleteFailures](bulkdeletefailure.md
 ### <a name="BKMK_email_connections1"></a> email_connections1
 
 Same as connection entity [email_connections1](connection.md#BKMK_email_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -2431,6 +2448,7 @@ Same as connection entity [email_connections1](connection.md#BKMK_email_connecti
 ### <a name="BKMK_email_connections2"></a> email_connections2
 
 Same as connection entity [email_connections2](connection.md#BKMK_email_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -2445,6 +2463,7 @@ Same as connection entity [email_connections2](connection.md#BKMK_email_connecti
 ### <a name="BKMK_Email_QueueItem"></a> Email_QueueItem
 
 Same as queueitem entity [Email_QueueItem](queueitem.md#BKMK_Email_QueueItem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|queueitem|

@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 01/22/2018
+ms.date: 05/24/2018
 ms.reviewer: "kvivek"
 ms.service: "crm-online"
 ms.suite: ""
@@ -12,8 +12,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"  
 ms.assetid: 6828238b-1645-4710-a192-0014acb03196
 caps.latest.revision: 97
-ms.author: "jimholtz"
-manager: "brycho"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 
 # User Guide (Dynamics 365 for phones and tablets)
@@ -25,7 +25,7 @@ Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!IN
 > [!NOTE]
 > - On February 21, 2018, we announced the deprecation of the Windows Phone app for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. On May 22, 2018, the Windows Phone app will no longer be supported for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. Support for the  app on Windows tablets and PCs remains unchanged. The Windows Phone app will continue to be available in the store and will be supported for Dynamics 365, (version 8.2) and earlier supported versions. If you wish to continue to use the Windows Phone app, you should not update to Dynamics 365, version 9.0 as the Windows Phone app will not be supported with version 9.x. 
 > - [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has separate mobile apps for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] and Operations. Learn about [Dynamics 365 for Field Service (Resco) mobile app](https://go.microsoft.com/fwlink/?linkid=846157) and [Dynamics 365  for Operations mobile app](https://ax.help.dynamics.com/en/wiki/mobile-development-handbook/).  
-> - We are not onboarding additional customers to mobile offline until further notice. We are currently improving this feature to make it more broadly available. We do not currently have a date for when onboarding will resume, but we will update our documentation when we have additional information. This does not affect existing customers who already use mobile offline.
+> - We’re working to improve mobile offline capabilities in Dynamics 365 for phones and tablets for release in the second quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline capabilities in Dynamics 365 for phones and tablets, we’ll let customers know. Existing customers who are already using mobile offline capabilities are not affected.
     
 ## Install the app from your device’s app store  
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phone and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)    
@@ -229,11 +229,11 @@ When Relevance Search is enabled for your organization, it becomes the default s
 
 **Use Relevance Search**
 
-1.  On the nav bar tap Search button.
+1. On the nav bar tap Search button.
 
-  ![Dynamics 365 for phones and tablets search on nav bar](media/SearchOnNavBar_6.png "Dynamics 365 for phones and tablets search on nav bar")
+   ![Dynamics 365 for phones and tablets search on nav bar](media/SearchOnNavBar_6.png "Dynamics 365 for phones and tablets search on nav bar")
 
-2.  Type in the search box, and then tap Search.
+2. Type in the search box, and then tap Search.
 
    ![Dynamics 365 for phones and tablets Relevance Search](media/RelevanceSearch.png "Dynamics 365 for phones and tablets Relevance Search")
 
@@ -241,11 +241,11 @@ Use syntax in your search term to get the results you want. For example, type �
 
 **Use Categorized Search**
 
-1.  On the nav bar tap Search button.
+1. On the nav bar tap Search button.
 
-  ![Dynamics 365 for phones and tablets search on nav bar](media/SearchOnNavBar_6.png "Dynamics 365 for phones and tablets search on nav bar")
+   ![Dynamics 365 for phones and tablets search on nav bar](media/SearchOnNavBar_6.png "Dynamics 365 for phones and tablets search on nav bar")
 
-2.  Type in the search box, and then tap Search.
+2. Type in the search box, and then tap Search.
 
 ![Dynamics 365 for phones and tablets search box](media/SeachBox_7.png "Dynamics 365 for phones and tablets search box")
 
@@ -264,15 +264,15 @@ with:** drop-down box.
 
 To help you find a record quickly, you can sort items in a grid view. For example, when you’re looking at a list of your active accounts, tap the arrow to sort the records in ascending or descending order.
 
--   To sort in ascending order by a column, tap that column’s heading.
+- To sort in ascending order by a column, tap that column’s heading.
 
--   To sort in descending order, tap the column’s heading again.
+- To sort in descending order, tap the column’s heading again.
 
   ![Dynamics 365 for phones and tablets sort items in grid view](media/Sort_Items_In_Grid_10.png "Dynamics 365 for phones and tablets sort items in grid view")
   
 You can do the same from a list view in [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)]. 
 
- -   Tap ![Dynamics 365 ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 ellipsis"), tap **Sort** and then choose how you want to sort the data.
+- Tap ![Dynamics 365 ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 ellipsis"), tap **Sort** and then choose how you want to sort the data.
   
   ![Sort on phones](media/sortonphones.png "Sort on phones")
 
@@ -341,7 +341,7 @@ When you're admin has enabled mobile offline, the next time that you access the 
 
 1. When you see the **Offline Updates Available** dialog box, choose **Update**. 
 
-  ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")
+   ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")
   
 2. You'll see a progress indicator while the updates are being downloaded. When the download load is complete, it's a good idea to verify offline mode is available.
 
@@ -358,14 +358,14 @@ When the updates have download, you can check to see if mobile offline is availa
 
 2. **Offline Status**, tracks offline status of the whole app, and also the status of each entity individually. When the status shows as  **Available**, it indicates offline is available and data has synced successfully.
 
- > [!NOTE] 
- > The status here can be **Not Available** due to an error or if you missed downlading offline updates. If the status is **Not Available** due to missing the latest offline updates, then try downloading the updates again.
+   > [!NOTE] 
+   > The status here can be **Not Available** due to an error or if you missed downlading offline updates. If the status is **Not Available** due to missing the latest offline updates, then try downloading the updates again.
  
- - **Entity Status**, provides the offline status of each entity individually. For the available entities you can also track the last time the entity synced.
+   - **Entity Status**, provides the offline status of each entity individually. For the available entities you can also track the last time the entity synced.
  
-    ![Mobile offline status](media/OfflineStatus.png "Mobile offline status")
+     ![Mobile offline status](media/OfflineStatus.png "Mobile offline status")
  
- You can also track offline status of entities from the **Menu** ![Menu button](media/MenuButton.png "Menu button") button.
+   You can also track offline status of entities from the **Menu** ![Menu button](media/MenuButton.png "Menu button") button.
 
 -  Green Wi-Fi icon next to the entity name indicates that it is available in offline mode.
 -  Red Wi-Fi icon indicates that this entity is enabled for offline but is not available to work in offline mode due to an error or missing updates.
@@ -379,29 +379,29 @@ Background sync is enabled even when the app is minimized so long as a network c
 
 Other things to keep in mind about background sync: 
   
--   Sync will run until you  sign in to the mobile app.    
+- Sync will run until you  sign in to the mobile app.    
   
--   While the app is running in the background, sync is automatically disabled when a network is disabled.  
+- While the app is running in the background, sync is automatically disabled when a network is disabled.  
   
--   When you bring the app to the  foreground, regular sync is detected and enabled.  
+- When you bring the app to the  foreground, regular sync is detected and enabled.  
   
--   Background sync is disabled when the device is locked and enabled when the device is unlocked.  
+- Background sync is disabled when the device is locked and enabled when the device is unlocked.  
   
--   While the app is running in the background,  metadata changes will not be accepted automatically. The mobile app will stop the background sync.  
+- While the app is running in the background,  metadata changes will not be accepted automatically. The mobile app will stop the background sync.  
   
--   When you bring the app to the  foreground, you are prompted to accept the metadata changes.  
+- When you bring the app to the  foreground, you are prompted to accept the metadata changes.  
   
--   While the app is running in the foreground, after metadata is updated, the app will switch to regular sync.  
+- While the app is running in the foreground, after metadata is updated, the app will switch to regular sync.  
   
- Background sync will be disabled if:  
+  Background sync will be disabled if:  
   
--   Your user token expires in the background.  
+- Your user token expires in the background.  
   
--   The application closes for some reason.  
+- The application closes for some reason.  
   
--   Your device locks.  
+- Your device locks.  
   
- Background sync is available on all supported devices. See [support for Dynamics 365 for phones and Dynamics 365 for tablets](../mobile-app/support-phones-tablets.md).  
+  Background sync is available on all supported devices. See [support for Dynamics 365 for phones and Dynamics 365 for tablets](../mobile-app/support-phones-tablets.md).  
  
 **Sync conflict resolution** 
 

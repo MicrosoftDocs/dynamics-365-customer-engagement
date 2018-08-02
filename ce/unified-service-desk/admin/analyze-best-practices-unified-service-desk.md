@@ -28,19 +28,21 @@ Although deviating from best practices may not necessarily lead to a breakdown, 
 
 The following table lists the categories against which [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes the compliance of best practice rules.
 
-| Category name | Description |
-|--------------------------|-------------------------------|
-|[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Configurations | [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Configurations are the configurations (hosted controls, actions, events, and so on) that you configure for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] in Dynamics 365.|
-|System configurations | System configurations are the information about local computer hardware (RAM, operating system, and so on), and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] version.|
-|Internet Explorer settings|Internet Explorer settings are the settings (General, Security, Advanced, and so on) that you configure for Internet Explorer.|
+
+|                                         Category name                                         |                                                                                                                                        Description                                                                                                                                        |
+|-----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Configurations | [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Configurations are the configurations (hosted controls, actions, events, and so on) that you configure for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] in Dynamics 365. |
+|                                     System configurations                                     |                                          System configurations are the information about local computer hardware (RAM, operating system, and so on), and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] version.                                          |
+|                                  Internet Explorer settings                                   |                                                                              Internet Explorer settings are the settings (General, Security, Advanced, and so on) that you configure for Internet Explorer.                                                                               |
 
 The following table lists the results of Severity level analysis.
 
-| Severity category | Description |
-|-------------------|-----------------|
-| Pass | The report displays a pass result when a parameter satisfies the recommended criteria.|
-| Warning| The report displays a warning result when a parameter doesn't satisfy the recommended criteria and due to which [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can encounter potential issues. Using recommended value settings for parameters helps [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to perform better.|
-| Error| The report displays an error result when a parameter doesn't satisfy the recommended criteria.|
+
+| Severity category |                                                                                                                                                                                      Description                                                                                                                                                                                       |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|       Pass        |                                                                                                                                                 The report displays a pass result when a parameter satisfies the recommended criteria.                                                                                                                                                 |
+|      Warning      | The report displays a warning result when a parameter doesn't satisfy the recommended criteria and due to which [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can encounter potential issues. Using recommended value settings for parameters helps [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to perform better. |
+|       Error       |                                                                                                                                             The report displays an error result when a parameter doesn't satisfy the recommended criteria.                                                                                                                                             |
 
 ## See also
 

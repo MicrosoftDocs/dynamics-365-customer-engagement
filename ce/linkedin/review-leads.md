@@ -3,7 +3,7 @@ title: "Review leads updated by Dynamics 365 Connector for LinkedIn Lead Gen For
 description: "Learn how to see the details of the updated leads and review the aggregated lead performance by using Dynamics 365 Connector for LinkedIn Lead Gen Forms."
 keywords: "lead, lead gen form, sponsored content, linkedin, dashboard"
 ms.date: 04/02/2018
-ms.service: crm-online
+ms.service: dynamics-365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-LinkedIn
 ---
 
 # Analyze leads and lead performance
@@ -27,7 +29,7 @@ More information about creating or editing a lead: [Dynamics 365 Help & Training
 
 1. Information about the lead from [!include[LinkedIn](../includes/pn-linkedin.md)]
 2. Source from which the lead originated and the [!include[LinkedIn](../includes/pn-linkedin.md)] campaign related to this lead
-4. Forms submitted by this lead
+3. Forms submitted by this lead
 
 ## Review the aggregated lead performance
 

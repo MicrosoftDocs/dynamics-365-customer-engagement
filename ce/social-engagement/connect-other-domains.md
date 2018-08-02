@@ -1,17 +1,18 @@
 ---
 title: "Allow requests from other domains with Social Engagement | Microsoft Docs"
 description: "Learn how to add URLs to the list of allowed domains so they can request data from Social Engagement."
-ms.custom: ""
+ms.custom:
+  - dyn365-socialengagement
 ms.date: 09/12/2017
 ms.reviewer: ""
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: dbde8454-c0e6-4914-9818-6eee4c6aeb0f
 caps.latest.revision: 27
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
 ---
@@ -23,11 +24,11 @@ To add or remove domains, or to connect [!INCLUDE[pn_netbreeze_short](../include
 
 You can enter the following values in your list of allowed domains:  
   
--   Full domain names: This enables communication between the specified domain and your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution, for example, `app.contoso.com`  
+- Full domain names: This enables communication between the specified domain and your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution, for example, `app.contoso.com`  
   
--   Domain names with wildcards: This enables communication between all subdomains of the entered domain and your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution, for example, `*.contoso.com`  
+- Domain names with wildcards: This enables communication between all subdomains of the entered domain and your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution, for example, `*.contoso.com`  
   
--   Host names: This enables communication between a custom host name and your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution, for example, `http://hostname`  
+- Host names: This enables communication between a custom host name and your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution, for example, `http://hostname`  
 
 > [!IMPORTANT]
 > Make sure to remove trailing slashes from the domain name.
@@ -52,7 +53,7 @@ Copy the solution URL and paste it into the configuration page of the applicatio
   
 > [!NOTE]
 > Make sure to add the domain or host name of the application you plan to connect to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to your list of allowed domains.  
->   
+> 
 >  To make sure only the domains you own can make requests to your data, we recommend you add your organization’s domain to the list of allowed domains. When a specific domain is added to the list of allowed domains, *.dynamics.com is automatically removed from the allowed domains.  
   
 ### See Also

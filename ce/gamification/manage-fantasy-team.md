@@ -2,13 +2,15 @@
 title: "Manage a fantasy team in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to draft and manage your fantasy team when participating in team games."
 ms.date: 08/03/2017
-ms.service: gamification
+ms.service: dynamics-365-sales
 ms.topic: article
 applies_to: Dynamics 365 (online)
 ms.assetid: ce3d8906-0c19-4aac-aba6-e9385a21f18d
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+ms.custom:
+  - dyn365-gamification
 ---
 # Draft and manage your fantasy teams in Gamification
 
@@ -22,18 +24,18 @@ After the commissioner activates the game, you'll receive an email with instruct
   
 ### Draft your team
   
-1.  Follow the instructions in the initial email you received to [sign in](https://go.microsoft.com/fwlink/p/?linkid=830344) and create your profile in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)].  
+1. Follow the instructions in the initial email you received to [sign in](https://go.microsoft.com/fwlink/p/?linkid=830344) and create your profile in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)].  
   
-     Contact the commissioner if you didn't get the email. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Ask game-specific questions or report issues to the commissioner](contact-commissioner.md)  
+    Contact the commissioner if you didn't get the email. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Ask game-specific questions or report issues to the commissioner](contact-commissioner.md)  
   
-2.  Click **Begin Draft** to start drafting your team.  
+2. Click **Begin Draft** to start drafting your team.  
   
-3.  Select a player for each position.  
+3. Select a player for each position.  
   
-4.  Click **Submit** to save the changes to your team roster.  
+4. Click **Submit** to save the changes to your team roster.  
   
-    > [!IMPORTANT]
-    >  Team rosters are effective for the next game period. You can change your team roster as often as you like before the next game period starts.  
+   > [!IMPORTANT]
+   >  Team rosters are effective for the next game period. You can change your team roster as often as you like before the next game period starts.  
   
 ## Edit a fantasy team
 
@@ -41,19 +43,19 @@ After the commissioner activates the game, you'll receive an email with instruct
   
 ### Edit your team roster
   
-1.  In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Teams** > **Team Rosters**.  
+1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Teams** > **Team Rosters**.  
   
-2.  Click ![Edit the team roster in Gamification](media/edit-team-roster-gamification.png "Edit the team roster in Gamification") in the **My Team** column to edit your team roster.  
+2. Click ![Edit the team roster in Gamification](media/edit-team-roster-gamification.png "Edit the team roster in Gamification") in the **My Team** column to edit your team roster.  
   
-    > [!NOTE]
-    >  You can only change a team roster after the first game period has ended.  
+   > [!NOTE]
+   >  You can only change a team roster after the first game period has ended.  
   
-3.  Select a player for each position.  
+3. Select a player for each position.  
   
-4.  Click **Submit** to save the changes to your team roster.  
+4. Click **Submit** to save the changes to your team roster.  
   
-    > [!IMPORTANT]
-    >  Changes to team rosters are effective for the next game period.  
+   > [!IMPORTANT]
+   >  Changes to team rosters are effective for the next game period.  
   
 ## Compete with others
 

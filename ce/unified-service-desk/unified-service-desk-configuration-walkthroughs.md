@@ -1,10 +1,11 @@
 ---
 title: "Unified Service Desk for Dynamics 365 Customer Engagement configuration walkthroughs | MicrosoftDocs"
 description: "Unified Service Desk walkthroughs provide you a step-by-step tutorial on configuring an agent application from scratch and progressively add features."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +17,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: 8bf9991c-4809-489f-b478-0d86666c2299
 caps.latest.revision: 7
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Unified Service Desk configuration walkthroughs
 Each walkthrough in this section covers an area or a combination of areas in [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)]. These walkthroughs are arranged in increasing order of complexity so it may benefit you to do them in sequence. Also, you must complete [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md) first because it sets up the base application that the other walkthroughs, except walkthrough 8, are built on. Walkthrough 8 is a standalone walkthrough, and does not require any other walkthroughs to be completed before using it.  

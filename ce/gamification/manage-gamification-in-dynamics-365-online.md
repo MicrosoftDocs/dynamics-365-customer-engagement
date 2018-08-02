@@ -3,7 +3,7 @@ title: "Install and configure Dynamics 365 – Gamification in Dynamics 365 (onl
 description: "Learn how to install the Gamification solution in Dynamics 365 (online) and  its associated web portal and security roles."
 keywords: "install, solution, manage, uninstall"
 ms.date: 04/18/2018
-ms.service: gamification
+ms.service: dynamics-365-sales
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-gamification
 ---
 
 # Install and configure the Gamification solution in Dynamics 365 (online)
@@ -20,11 +22,11 @@ The [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] capabilities are
   
 ## Prerequisites  
   
--   [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] requires at least [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)].  
+- [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] requires at least [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)].  
   
--   Users must have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] license assigned to access the [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] service.  
+- Users must have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] license assigned to access the [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] service.  
   
--   Users must have an up-to-date browser. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Browser requirements to enable a seamless experience in Gamification](browser-system-requirements.md)  
+- Users must have an up-to-date browser. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Browser requirements to enable a seamless experience in Gamification](browser-system-requirements.md)  
 
 ## Install Dynamics 365 - Gamification  
 
@@ -44,16 +46,16 @@ We recommend to adhere to the following limits when working with [!INCLUDE[pn_ga
 
 ### Install the solution from AppSource  
   
-1.  In [AppSource](https://go.microsoft.com/fwlink/p/?linkid=830919), select **[!INCLUDE[pn_gamification](../includes/pn-gamification.md)]**.  
+1. In [AppSource](https://go.microsoft.com/fwlink/p/?linkid=830919), select **[!INCLUDE[pn_gamification](../includes/pn-gamification.md)]**.  
   
-2.  Sign in to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] system admin account, if you aren't already signed in.  
+2. Sign in to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] system admin account, if you aren't already signed in.  
   
-3.  Click **Get** to start installing the solution.  
-If you have more than one [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] organization, select the organization you want to install this solution to.
+3. Click **Get** to start installing the solution.  
+   If you have more than one [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] organization, select the organization you want to install this solution to.
   
-4.  Review and accept the disclaimer and the terms to add [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+4. Review and accept the disclaimer and the terms to add [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
- It might take a few minutes for the solution to be installed in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+   It might take a few minutes for the solution to be installed in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
 ## Game Manager security role in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] 
 
@@ -73,23 +75,23 @@ Before you can sync [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] 
   
 ### Activate the Gamification portal for your organization  
   
-1.  In [!INCLUDE[pn_microsoftcrm](../includes/pn-crm-2016.md)], go to **Settings** > **Solutions**, and then double-click the **Gamification** solution.  
+1. In [!INCLUDE[pn_microsoftcrm](../includes/pn-crm-2016.md)], go to **Settings** > **Solutions**, and then double-click the **Gamification** solution.  
   
-2.  Click **Start Activation**, and then sign in with your admin credentials.  
+2. Click **Start Activation**, and then sign in with your admin credentials.  
   
-3.  Accept the disclaimer, and then provide a **Name** and a **Location** for your instance of the Gamification portal.  
+3. Accept the disclaimer, and then provide a **Name** and a **Location** for your instance of the Gamification portal.  
   
-4.  Click **Register** to start the activation and obtain the security key.  
+4. Click **Register** to start the activation and obtain the security key.  
   
-5.  Copy the **Security Key**, and then paste it in the input box.  
+5. Copy the **Security Key**, and then paste it in the input box.  
   
-6.  Click **Authorize** to complete the connection between [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_gamification](../includes/pn-gamification.md)].  
+6. Click **Authorize** to complete the connection between [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_gamification](../includes/pn-gamification.md)].  
   
- You'll receive an email with additional details, and then you can access your organization's [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] instance.  
+   You'll receive an email with additional details, and then you can access your organization's [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] instance.  
   
- Additionally, the system creates a set of default KPIs in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] so you can quickly get started with the first game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Configure KPIs for Gamification in Dynamics 365 (online)](configure-kpis.md)  
+   Additionally, the system creates a set of default KPIs in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] so you can quickly get started with the first game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Configure KPIs for Gamification in Dynamics 365 (online)](configure-kpis.md)  
   
- To sign in as the first Commissioner, go to [Gamification sign-in](https://go.microsoft.com/fwlink/p/?linkid=830344).  
+   To sign in as the first Commissioner, go to [Gamification sign-in](https://go.microsoft.com/fwlink/p/?linkid=830344).  
   
 ## Update the Gamification solution
 
@@ -97,22 +99,22 @@ Before you can sync [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] 
   
  If an update is available, a notification is displayed on the **Gamification Settings** page.   
   
-1.  Sign in to [https://portal.office.com](https://portal.office.com) with your global administrator or [!INCLUDE[pn_microsoftcrm](../includes/pn-crm-2016.md)] system administrator credentials.  
+1. Sign in to [https://portal.office.com](https://portal.office.com) with your global administrator or [!INCLUDE[pn_microsoftcrm](../includes/pn-crm-2016.md)] system administrator credentials.  
   
-2.  Click **Admin centers** > **Dynamics 365**.  
+2. Click **Admin centers** > **Dynamics 365**.  
   
-3.  Click the **Instances** tab, and then select the instance the solution is connected to.  
+3. Click the **Instances** tab, and then select the instance the solution is connected to.  
   
-4.  Click **Solutions**.  
+4. Click **Solutions**.  
   
-5.  Select the solution you want to update, and then click **Upgrade**.  
+5. Select the solution you want to update, and then click **Upgrade**.  
   
-6.  In [!INCLUDE[pn_microsoftcrm](../includes/pn-crm-2016.md)], go to **Gamification** > **Gamification Settings**, and then click **Configure App** to update all dependencies to the latest version.  
+6. In [!INCLUDE[pn_microsoftcrm](../includes/pn-crm-2016.md)], go to **Gamification** > **Gamification Settings**, and then click **Configure App** to update all dependencies to the latest version.  
   
-    > [!IMPORTANT]
-    >  This step is required to keep all synchronization processes running.  
+   > [!IMPORTANT]
+   >  This step is required to keep all synchronization processes running.  
   
- The system will apply all necessary changes and validate the update to ensure that data keeps flowing smoothly.  
+   The system will apply all necessary changes and validate the update to ensure that data keeps flowing smoothly.  
   
 > [!NOTE]
 >  You need to repeat the preceding steps whenever you update the solution.  
@@ -123,17 +125,17 @@ Before you can sync [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] 
   
 ### View active games  
   
-1.  In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], go to **Gamification** > **Games**.  
+1. In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], go to **Gamification** > **Games**.  
   
-2.  In the list of games, click the name of the game you want to see details about.  
+2. In the list of games, click the name of the game you want to see details about.  
   
-3.  In the **Game Details** section, you'll find basic information about the game, like the name and the start and end date.  
+3. In the **Game Details** section, you'll find basic information about the game, like the name and the start and end date.  
   
-     In the **Setup KPIs** section, you can see the KPIs and their setup status in the selected game. More information about KPIs in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]: [Configure KPIs for Gamification in Dynamics 365 (online)](configure-kpis.md)  
+    In the **Setup KPIs** section, you can see the KPIs and their setup status in the selected game. More information about KPIs in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]: [Configure KPIs for Gamification in Dynamics 365 (online)](configure-kpis.md)  
 
 ## Uninstall the Gamification solution
 
-You need to remove **GamificationUpdate** _before_ you remove **Gamification**. More information about removing a preferred solution: [Delete a preferred solution](https://technet.microsoft.com/library/dn878909.aspx#Delete a preferred solution)
+You need to remove **GamificationUpdate** *before* you remove **Gamification**. More information about removing a preferred solution: [Delete a preferred solution](https://technet.microsoft.com/library/dn878909.aspx#Delete%20a%20preferred%20solution)
 
 ## Privacy notice  
 

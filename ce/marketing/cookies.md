@@ -3,7 +3,10 @@ title: "Cookies set and read (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Describes how cookies are set and used in Dynamics 365 for Marketing"
 keywords: "cookies; privacy"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: reference
 applies_to:
   - "Dynamics 365 (online)"
@@ -20,7 +23,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] identifies website visitors by using a technology called _cookies_. A cookie is a small file that's sent by a server and saved by your browser. Each time you visit a server for which a cookie is set, your browser submits that cookie value back to the server. In this way the cookie can provide a unique visitor ID, which enables the server to return information that is unique to you. This is the technology that originally made the online shopping cart possible.
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] identifies website visitors by using a technology called *cookies*. A cookie is a small file that's sent by a server and saved by your browser. Each time you visit a server for which a cookie is set, your browser submits that cookie value back to the server. In this way the cookie can provide a unique visitor ID, which enables the server to return information that is unique to you. This is the technology that originally made the online shopping cart possible.
 
 > [!IMPORTANT]
 > Many countries/regions (including the European Union) require that you obtain consent before setting a cookie on a resident's machine. It is your organization's responsibility to be aware of, and conform to, all relevant laws and regulations in the markets where you operate, including when it comes to obtaining consent to set cookies. For example, you can read more about the EU regulations at [ec.europa.eu/ipg/basics/legal/cookies/](http://ec.europa.eu/ipg/basics/legal/cookies/).

@@ -588,6 +588,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_reportentity"></a> userentityinstancedata_reportentity
 
 Same as userentityinstancedata entity [userentityinstancedata_reportentity](userentityinstancedata.md#BKMK_userentityinstancedata_reportentity) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

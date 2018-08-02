@@ -3,8 +3,9 @@ title: "Create or edit a competitor record (Dynamics 365 for Sales) | MicrosoftD
 description: "Track your competitors and their strengths to win sales against them."
 keywords: "competitor, sales, opportunity"
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.custom: 
+ms.service: dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -45,13 +46,13 @@ Tracking your competitors and their strengths and weaknesses can help you win sa
 
 1. [!INCLUDE[proc_sales_competitors](../includes/proc-sales-competitors.md)]  
   
-2.  Select **New**.  
+2. Select **New**.  
   
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
-4.  Select **Save**.  
+4. Select **Save**.  
   
-5.  To associate a competitor with an opportunity, in the **Opportunity** area, choose ![Add button](../sales-enterprise/media/add-button.PNG "Add button"). In the **Search** box, choose the Lookup icon, and then select an opportunity from the results.  
+5. To associate a competitor with an opportunity, in the **Opportunity** area, choose ![Add button](../sales-enterprise/media/add-button.PNG "Add button"). In the **Search** box, choose the Lookup icon, and then select an opportunity from the results.  
 
 
 ### See also  

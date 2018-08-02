@@ -27,7 +27,7 @@ Server-side synchronization is a method in [!INCLUDE[pn_microsoftcrm](../include
   
 > [!NOTE]
 >  An organization can only use either the Email Router or server-side synchronization to process email. You can define what to use in the **Email** tab of System Settings in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. If you select server-side synchronization, the Email Router stops functioning for the organization.  
->   
+> 
 >  To switch from [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] synchronization to server-side synchronization, simply change the synchronization method in mailbox records to server-side synchronization. That’s all you have to do to make the change from [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] synchronization to server-side synchronization.  
 
   
@@ -35,24 +35,24 @@ Server-side synchronization is a method in [!INCLUDE[pn_microsoftcrm](../include
   
 1. [!INCLUDE[proc_settings_email_config](../includes/proc-settings-email-config.md)]  
   
-2.  Choose **Migrate Email Router Data**.  
+2. Choose **Migrate Email Router Data**.  
   
-3.  In the Email Router Data Migration wizard, in the three text boxes, choose **Browse**, and select the three files specified at the top of the page in the same order. If you must migrate data from multiple email routers, choose **More Email Routers** and again select the three files. You can migrate data from up to four email routers at once.  
+3. In the Email Router Data Migration wizard, in the three text boxes, choose **Browse**, and select the three files specified at the top of the page in the same order. If you must migrate data from multiple email routers, choose **More Email Routers** and again select the three files. You can migrate data from up to four email routers at once.  
   
-    > [!NOTE]
-    >  The maximum combined size of all the files from all the email routers that you can upload at a time is 32 MB.  
+   > [!NOTE]
+   >  The maximum combined size of all the files from all the email routers that you can upload at a time is 32 MB.  
   
-4.  Choose **Next**.  
+4. Choose **Next**.  
   
-5.  On the **Select Email Server Profiles to Migrate** page, the incoming and outgoing email server profiles of the Email Router are listed and the details about the new email server profile for server-side synchronization is also listed. If you want to migrate the profile, in **Migrate Server Profile**, choose **Yes**.  
+5. On the **Select Email Server Profiles to Migrate** page, the incoming and outgoing email server profiles of the Email Router are listed and the details about the new email server profile for server-side synchronization is also listed. If you want to migrate the profile, in **Migrate Server Profile**, choose **Yes**.  
   
-     In the Email Router, incoming and outgoing email server profiles are different and each user or queue is associated with both incoming and outgoing profiles. However, with server-side synchronization, the incoming and outgoing settings are defined in a single profile and a user or queue is associated with this profile. Thus, when you migrate the data, the data from two server profiles is combined into one. The **Select Email Server Profiles to Migrate** page shows details about the new email server profile that will be created.  
+    In the Email Router, incoming and outgoing email server profiles are different and each user or queue is associated with both incoming and outgoing profiles. However, with server-side synchronization, the incoming and outgoing settings are defined in a single profile and a user or queue is associated with this profile. Thus, when you migrate the data, the data from two server profiles is combined into one. The **Select Email Server Profiles to Migrate** page shows details about the new email server profile that will be created.  
   
-6.  Choose **Next**.  
+6. Choose **Next**.  
   
-7.  The **Migration Review Summary** page shows what data will be migrated. Choose **Start**.  
+7. The **Migration Review Summary** page shows what data will be migrated. Choose **Start**.  
   
- After the migration is complete, you’ll see the summary of the migrated data. You must test the email configuration for the mailboxes after the migration is complete. To be able to start email processing through server-side synchronization, in the **Process Email From** field in the **System Settings** dialog box, select **Server-Side Synchronization**.  
+   After the migration is complete, you’ll see the summary of the migrated data. You must test the email configuration for the mailboxes after the migration is complete. To be able to start email processing through server-side synchronization, in the **Process Email From** field in the **System Settings** dialog box, select **Server-Side Synchronization**.  
   
 ## Best practices  
  Here are some recommendations for migrating from Email Router to server-side synchronization.  

@@ -8,12 +8,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 (online)
 ms.assetid: b61a8103-1686-47ef-ab28-1a547d61f8f8
 caps.latest.revision: 80
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "mduelae"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook
 This section describes how to troubleshoot [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] installation and upgrade issues.  
@@ -28,23 +28,23 @@ This section describes how to troubleshoot [!INCLUDE[pn_crm_for_outlook_short](.
 ### Assigned tasks not updated in Outlook after updated in Dynamics 365  
  Consider the following scenario:  
   
--   In [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], User 1 assigns [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] task to User 2.  
+- In [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], User 1 assigns [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] task to User 2.  
   
--   In [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], User 2 accepts and tracks the task.  
+- In [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], User 2 accepts and tracks the task.  
   
--   In [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], User 2 opens the task and makes a change such as changing the subject or marking the task complete.  
+- In [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], User 2 opens the task and makes a change such as changing the subject or marking the task complete.  
   
- Result: for User 1, in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], the task status remains unchanged.  
+  Result: for User 1, in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], the task status remains unchanged.  
   
- To force a status change: User 2, in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], can open the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] task and click **Send Status Report** to update User 1’s [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] with the latest information.  
+  To force a status change: User 2, in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], can open the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] task and click **Send Status Report** to update User 1’s [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] with the latest information.  
   
- Enabling the following settings in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] Task options (**Home tab** > **New Items** > **Task** > **Assign Task**) do not impact this issue:  
+  Enabling the following settings in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] Task options (**Home tab** > **New Items** > **Task** > **Assign Task**) do not impact this issue:  
   
--   Keep an updated copy of this task on my task list.  
+- Keep an updated copy of this task on my task list.  
   
--   Send me a status report when this task is complete.  
+- Send me a status report when this task is complete.  
   
- This is a known issue and is not supported.  
+  This is a known issue and is not supported.  
   
 ### Simultaneous use of [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] and [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)]  
  Tracking activities is not supported when [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] and [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)] are used together by the same user.  
@@ -93,7 +93,7 @@ This section describes how to troubleshoot [!INCLUDE[pn_crm_for_outlook_short](.
 ## Microsoft Dynamics 365 (online) with Office 365  
  When you try to connect to an organization that is part of your [!INCLUDE[pn_MS_Office_365](../../includes/pn-ms-office-365.md)] subscription by using the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] or [!INCLUDE[pn_oc_online_short](../../includes/pn-oc-online-short.md)], you cannot connect. To resolve this issue, verify, and if necessary, correct the following:  
   
--   Make sure that you can connect to the organization by using [!INCLUDE[pn_Internet_Explorer](../../includes/pn-internet-explorer.md)]. There may be incomplete information with your [!INCLUDE[pn_MS_Online_Services](../../includes/pn-ms-online-services.md)] account that is preventing you from authenticating with the service. The URL for the organization is provided in the invitation email message you should have received from [!INCLUDE[pn_MS_Online_Services](../../includes/pn-ms-online-services.md)], and is typically in the form of https://*OrganizationName*.onmicrosoft.com or https://*OrganizationName*.crm.dynamics.com. If you are not certain of the URL, contact your system administrator  
+- Make sure that you can connect to the organization by using [!INCLUDE[pn_Internet_Explorer](../../includes/pn-internet-explorer.md)]. There may be incomplete information with your [!INCLUDE[pn_MS_Online_Services](../../includes/pn-ms-online-services.md)] account that is preventing you from authenticating with the service. The URL for the organization is provided in the invitation email message you should have received from [!INCLUDE[pn_MS_Online_Services](../../includes/pn-ms-online-services.md)], and is typically in the form of https://<em>OrganizationName</em>.onmicrosoft.com or https://<em>OrganizationName</em>.crm.dynamics.com. If you are not certain of the URL, contact your system administrator  
   
 <a name="BKMK_OCLogfiles"></a>   
 ## Log files  
@@ -101,15 +101,15 @@ This section describes how to troubleshoot [!INCLUDE[pn_crm_for_outlook_short](.
   
  By default, the location of the Setup log files (including crmsetup.log and crm60clientmsi.log files), where User is the account of the user who ran Setup, is as follows:  
   
--   [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)], [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)], and [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)]: `SystemDrive`:\Users\\<User\>\AppData\Local\Microsoft\MSCRM\Logs  
+- [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)], [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)], and [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)]: `SystemDrive`:\Users\\<User\>\AppData\Local\Microsoft\MSCRM\Logs  
   
- By default, the location of the configuration log files (including crm50clientconfig.log), where User is the account of the user who ran Configuration Wizard, is as follows:  
+  By default, the location of the configuration log files (including crm50clientconfig.log), where User is the account of the user who ran Configuration Wizard, is as follows:  
   
--   [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)], [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)], and [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)]: `SystemDrive`:\Users\\<User\>\AppData\Local\Microsoft\MSCRM\Logs  
+- [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)], [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)], and [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)]: `SystemDrive`:\Users\\<User\>\AppData\Local\Microsoft\MSCRM\Logs  
   
 > [!IMPORTANT]
 >  By default, the AppData folder is hidden. To view the AppData folder, use **Folder Options** in **[!INCLUDE[pn_Control_Panel](../../includes/pn-control-panel.md)]** to enable viewing for hidden files and folders.  
-  
+> 
 > [!TIP]
 >  You can use the shortcut path to access the AppData folder, %LocalAppData%\Microsoft\MSCRM\Logs.  
   
@@ -119,15 +119,15 @@ This section describes how to troubleshoot [!INCLUDE[pn_crm_for_outlook_short](.
   
  To view the Application log in [!INCLUDE[pn_Event_Viewer](../../includes/pn-event-viewer.md)]:  
   
-1.  On the computer where [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is installed, start [!INCLUDE[pn_Event_Viewer](../../includes/pn-event-viewer.md)].  
+1. On the computer where [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is installed, start [!INCLUDE[pn_Event_Viewer](../../includes/pn-event-viewer.md)].  
   
-2.  In the navigation pane, expand **Windows Logs** and then click **Application**.  
+2. In the navigation pane, expand **Windows Logs** and then click **Application**.  
   
-3.  To make it easier to locate events that apply to [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], use **Create Custom View** or **Filter Current Log** and then select the following **Event sources**:  
+3. To make it easier to locate events that apply to [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], use **Create Custom View** or **Filter Current Log** and then select the following **Event sources**:  
   
-    -   Event sources that begin with MSCRM (such as MSCRMAddin and MSCRMAddressBook)  
+   -   Event sources that begin with MSCRM (such as MSCRMAddin and MSCRMAddressBook)  
   
-    -   MSSQL$Dynamics 365  
+   -   MSSQL$Dynamics 365  
   
 <a name="BKMK_OC_disableButton"></a>   
 ## Disable the Dynamics 365 for Outlook notification bar on the Web application  
@@ -135,17 +135,17 @@ This section describes how to troubleshoot [!INCLUDE[pn_crm_for_outlook_short](.
   
 ### Remove the Get Dynamics 365 for Outlook button from the Microsoft Dynamics 365 web application  
   
-1.  With a security role that has read and write permissions (for example, the System Administrator role), start the Microsoft Dynamics 365 web application.  
+1. With a security role that has read and write permissions (for example, the System Administrator role), start the Microsoft Dynamics 365 web application.  
   
-2.  [!INCLUDE[proc_settings_administration](../../includes/proc-settings-administration.md)]  
+2. [!INCLUDE[proc_settings_administration](../../includes/proc-settings-administration.md)]  
   
-3.  Click **System Settings**.  
+3. Click **System Settings**.  
   
-4.  Click the **Outlook** tab.  
+4. Click the **Outlook** tab.  
   
-5.  Set the value for **Users see “Get Dynamics 365 for Outlook” option displayed in the message bar** to **No**.  
+5. Set the value for **Users see “Get Dynamics 365 for Outlook” option displayed in the message bar** to **No**.  
   
-6.  Click **OK** to close System Settings.  
+6. Click **OK** to close System Settings.  
   
 ### See Also  
  [Blog: Microsoft Dynamics CRM for Outlook Configuration Diagnostic](http://go.microsoft.com/fwlink/p/?LinkID=717230)   

@@ -1,9 +1,10 @@
 ---
 title: "Configure SAML 2.0 provider settings for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to add and configure SAML 2.0 provider settings for a portal."
-ms.custom: ""
+ms.custom:
+  - dyn365-portal
 ms.date: 12/05/2017
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
@@ -15,7 +16,7 @@ manager: sakudes
 ---
 # Configure SAML 2.0 provider settings for portals
 
-> [!Note] 
+> [!Note]
 > This documentation applies to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals and later versions.
 
 To provide external authentication, you can add one or more [SAML 2.0](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html)–compliant identity providers (IdP). This document describes how to set up various identity providers to integrate with a portal that acts as a service provider.  
@@ -26,7 +27,7 @@ Settings for an identity provider such as [!include[](../includes/pn-active-dir-
 
 ### Create an AD FS relying party trust
 
-> [!Note] 
+> [!Note]
 > See [Configure AD FS by using [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]](#configure-ad-fs-by-using-powershell), below, for information about how to perform these steps in a [!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)] script.
 
 Using the [!include[](../includes/pn-adfs-short.md)] Management tool, go to **Service** > **Claim Descriptions**.
@@ -46,41 +47,41 @@ Using the [!include[](../includes/pn-adfs-short.md)] Management tool, go to **Se
 
 Using the [!include[](../includes/pn-adfs-short.md)] Management tool, select **Trust Relationships** >**Relying Party Trusts**.
 
-1.  Select **Add Relying Party Trust**.
-2.  Welcome: Select **Start**.
-3.  Select Data Source: Select **Enter data about the relying party manually**, and then select **Next**.
-4.  Specify Display Name: Enter a name, and then select **Next**.
-    Example: https://portal.contoso.com/
-5.  Choose Profile: Select **AD FS 2.0 profile**, and then select **Next**.
-6.  Configure Certificate: Select **Next**.
-7.  Configure URL: Select the **Enable support for the SAML 2.0 WebSSO protocol** check box.
-    Relying party SAML 2.0 SSO service URL: Enter https://portal.contoso.com/signin-saml2
-    - Note: [!include[](../includes/pn-adfs-short.md)] requires that the portal run on HTTPS.
+1. Select **Add Relying Party Trust**.
+2. Welcome: Select **Start**.
+3. Select Data Source: Select **Enter data about the relying party manually**, and then select **Next**.
+4. Specify Display Name: Enter a name, and then select **Next**.
+   Example: https://portal.contoso.com/
+5. Choose Profile: Select **AD FS 2.0 profile**, and then select **Next**.
+6. Configure Certificate: Select **Next**.
+7. Configure URL: Select the **Enable support for the SAML 2.0 WebSSO protocol** check box.
+   Relying party SAML 2.0 SSO service URL: Enter https://portal.contoso.com/signin-saml2
+   - Note: [!include[](../includes/pn-adfs-short.md)] requires that the portal run on HTTPS.
 
-    > [!Note] 
-    > The resulting endpoint has the following settings: 
-    > - Endpoint type: **SAML Assertion Consume Endpoints**             
-    > - Binding: **POST**                                            
-    > - Index: n/a (0)                                              
-    > - URL: **https://portal.contoso.com/signin-saml2**
+   > [!Note] 
+   > The resulting endpoint has the following settings: 
+   > - Endpoint type: **SAML Assertion Consume Endpoints**             
+   > - Binding: **POST**                                            
+   > - Index: n/a (0)                                              
+   > - URL: **https://portal.contoso.com/signin-saml2**
 
-8.  Configure Identities: Specify https://portal.contoso.com/, select **Add**, and then select **Next**.
-    If applicable, you can add more identities for each additional relying party portal. Users will be able to authenticate across any or all of the available identities.
-9.  Choose Issuance Authorization Rules: Select **Permit all users to access this relying party**, and then select **Next**.
-10.  Ready to Add Trust: Select **Next**.
-11.  Select **Close**.
+8. Configure Identities: Specify https://portal.contoso.com/, select **Add**, and then select **Next**.
+   If applicable, you can add more identities for each additional relying party portal. Users will be able to authenticate across any or all of the available identities.
+9. Choose Issuance Authorization Rules: Select **Permit all users to access this relying party**, and then select **Next**.
+10. Ready to Add Trust: Select **Next**.
+11. Select **Close**.
 
 Add the **Name ID** claim to the relying party trust:
 
 **Transform[!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] account name** to **Name ID** claim (Transform an Incoming Claim):
 
--   Incoming claim type: **[!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] account name**
+- Incoming claim type: **[!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] account name**
 
--   Outgoing claim type: **Name ID**
+- Outgoing claim type: **Name ID**
 
--   Outgoing name ID format: **Persistent Identifier**
+- Outgoing name ID format: **Persistent Identifier**
 
--   Pass through all claim values
+- Pass through all claim values
 
 ### Create site settings
 
@@ -88,16 +89,17 @@ Apply portal site settings referencing the above [!include[](../includes/pn-adfs
 
 > [!Note]
 > A standard [!include[](../includes/pn-adfs-short.md)] (IdP) configuration only uses the following settings (with example values):
-> Authentication/SAML2/ADFS/MetadataAddress - https://adfs.contoso.com/FederationMetadata/2007-06/FederationMetadata.xml  
-> -   Authentication/SAML2/ADFS/AuthenticationType - http://adfs.contoso.com/adfs/services/trust    
+> Authentication/SAML2/ADFS/MetadataAddress - <https://adfs.contoso.com/FederationMetadata/2007-06/FederationMetadata.xml>  
+> - Authentication/SAML2/ADFS/AuthenticationType - http://adfs.contoso.com/adfs/services/trust    
 >   -   Use the value of the **entityID** attribute in the root element of the federation metadata (open the **MetadataAddress URL** in a browser that is the value of the above site setting) 
-> -   Authentication/SAML2/ADFS/ServiceProviderRealm - https://portal.contoso.com/  
-> -   Authentication/SAML2/ADFS/AssertionConsumerServiceUrl - https://portal.contoso.com/signin-saml2  
-> The **federation metadata** can be retrieved in **[!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]** by running the following script on the [!include[](../includes/pn-adfs-short.md)] server:
-> `Import-Module adfs`
-> `Get-ADFSEndpoint -AddressPath /FederationMetadata/2007-06/FederationMetadata.xml`
+> - Authentication/SAML2/ADFS/ServiceProviderRealm - https://portal.contoso.com/  
+> - Authentication/SAML2/ADFS/AssertionConsumerServiceUrl - https://portal.contoso.com/signin-saml2  
+>   The **federation metadata** can be retrieved in **[!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]** by running the following script on the [!include[](../includes/pn-adfs-short.md)] server:
+>   `Import-Module adfs`
+>   `Get-ADFSEndpoint -AddressPath /FederationMetadata/2007-06/FederationMetadata.xml`
 
 Multiple IdP services can be configured by substituting a label for the [provider] tag. Each unique label forms a group of settings related to an IdP. Examples: ADFS, [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD, MyIdP
+
 
 | Site Setting Name                                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -119,9 +121,9 @@ Multiple IdP services can be configured by substituting a label for the [provide
 
 ### IdP-initiated sign-in
 
-[!include[](../includes/pn-adfs-short.md)] supports the [IdP-initiated single sign-on (SSO)](https://technet.microsoft.com/library/jj127245.aspx) profile of the SAML 2.0 [specification](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html#5.1.4.IdP-Initiated SSO: POST Binding|outline). In order for the portal (service provider) to respond properly to the SAML request initiated by the IdP, the [RelayState](http://blogs.technet.com/b/askds/archive/2012/09/27/ad-fs-2-0-relaystate.aspx) parameter must be encoded properly.  
+[!include[](../includes/pn-adfs-short.md)] supports the [IdP-initiated single sign-on (SSO)](https://technet.microsoft.com/library/jj127245.aspx) profile of the SAML 2.0 [specification](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html#5.1.4.IdP-Initiated%20SSO:%20POST%20Binding|outline). In order for the portal (service provider) to respond properly to the SAML request initiated by the IdP, the [RelayState](http://blogs.technet.com/b/askds/archive/2012/09/27/ad-fs-2-0-relaystate.aspx) parameter must be encoded properly.  
 
-The basic string value to be encoded into the SAML RelayState parameter must be in the format **ReturnUrl=/content/sub-content/**, where **/content/sub-content/** is the path to the webpage you want to go to on the portal (service provider). The path can be replaced by any valid webpage on the portal. The string value is encoded and placed into a container string of the format **RPID=&lt;URL encoded RPID&gt;&RelayState=&lt;URL encoded RelayState&gt;**. This entire string is once again encoded and added to another container of the format **https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx?RelayState=&lt;URL encoded RPID/RelayState&gt;**.
+The basic string value to be encoded into the SAML RelayState parameter must be in the format **ReturnUrl=/content/sub-content/**, where **/content/sub-content/** is the path to the webpage you want to go to on the portal (service provider). The path can be replaced by any valid webpage on the portal. The string value is encoded and placed into a container string of the format **RPID=&lt;URL encoded RPID&gt;&RelayState=&lt;URL encoded RelayState&gt;**. This entire string is once again encoded and added to another container of the format **<https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx?RelayState=&lt;URL> encoded RPID/RelayState&gt;**.
 
 For example, given the service provider path **/content/sub-content/** and the relying party ID **https://portal.contoso.com/**, construct the URL with the steps:
 
@@ -233,13 +235,13 @@ This corresponds to the **MetadataAddress** site setting value.
 -   Paste this URL in a browser window to view the federation metadata XML, and note the **entityID** attribute of the root element.
 -   This corresponds to the**AuthenticationType** site setting value.
 
-> [!Note] 
+> [!Note]
 > A standard [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD configuration only uses the following settings (with example values):
-> Authentication/SAML2/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/MetadataAddress - https://login.microsoftonline.com/01234567-89ab-cdef-0123-456789abcdef/federationmetadata/2007-06/federationmetadata.xml 
-> -   Authentication/SAML2/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/AuthenticationType - https://sts.windows.net/01234567-89ab-cdef-0123-456789abcdef/  
-> -   Use the value of the**entityID** attribute in the root element of the federation metadata (open the**MetadataAddress URL** in a browser that is the value of the above site setting) 
-> -   Authentication/SAML2/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/ServiceProviderRealm - https://portal.contoso.com/  
-> -   Authentication/SAML2/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/AssertionConsumerServiceUrl - https://portal.contoso.com/signin-azure-ad                                                                                   |
+> Authentication/SAML2/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/MetadataAddress - <https://login.microsoftonline.com/01234567-89ab-cdef-0123-456789abcdef/federationmetadata/2007-06/federationmetadata.xml> 
+> - Authentication/SAML2/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/AuthenticationType - <https://sts.windows.net/01234567-89ab-cdef-0123-456789abcdef/>  
+> - Use the value of the**entityID** attribute in the root element of the federation metadata (open the**MetadataAddress URL** in a browser that is the value of the above site setting) 
+> - Authentication/SAML2/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/ServiceProviderRealm - <https://portal.contoso.com/>  
+> - Authentication/SAML2/[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]AD/AssertionConsumerServiceUrl - <https://portal.contoso.com/signin-azure-ad>                                                                                   |
 
 ## Shibboleth Identity Provider 3
 
@@ -273,7 +275,7 @@ The Location attribute corresponds to the**AssertionConsumerServiceUrl** (Wreply
 
 -   The service provider federation metadata should specify an **entityID** attribute for the EntityDescriptor that corresponds to the **AuthenticationType** setting.
 
-**&lt;EntityDescriptor entityID="https://portal.local.contoso.com/"&gt;...**
+**&lt;EntityDescriptor entityID="<https://portal.local.contoso.com/"&gt>;...**
 
 > [!Note] 
 > A standard Shibboleth configuration only uses the following settings (with example values):   
@@ -285,9 +287,9 @@ The Location attribute corresponds to the**AssertionConsumerServiceUrl** (Wreply
 
 ### IdP-initiated sign-in
 
-Shibboleth supports the [IdP initiated SSO](https://wiki.shibboleth.net/confluence/display/SHIB2/IdPUnsolicitedSSO) profile of the SAML 2.0 [specification](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html#5.1.4.IdP-Initiated SSO: POST Binding|outline). For the portal (service provider) to respond properly to the SAML request initiated by the IdP, the RelayState parameter must be encoded properly.  
+Shibboleth supports the [IdP initiated SSO](https://wiki.shibboleth.net/confluence/display/SHIB2/IdPUnsolicitedSSO) profile of the SAML 2.0 [specification](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html#5.1.4.IdP-Initiated%20SSO:%20POST%20Binding|outline). For the portal (service provider) to respond properly to the SAML request initiated by the IdP, the RelayState parameter must be encoded properly.  
 
-The basic string value to be encoded into the SAML RelayState parameter must be in the format **ReturnUrl=/content/sub-content/**, where **/content/sub-content/** is the path to the webpage you want to go to on the portal (service provider). The path can be replaced by any valid webpage on the portal. The full IdP-initiated SSO URL should be in the format https://idp.contoso.com/idp/profile/SAML2/Unsolicited/SSO?providerId=&lt;URL encoded provider ID&gt;&target=&lt;URL encoded return path&gt;.
+The basic string value to be encoded into the SAML RelayState parameter must be in the format **ReturnUrl=/content/sub-content/**, where **/content/sub-content/** is the path to the webpage you want to go to on the portal (service provider). The path can be replaced by any valid webpage on the portal. The full IdP-initiated SSO URL should be in the format <https://idp.contoso.com/idp/profile/SAML2/Unsolicited/SSO?providerId=&lt;URL> encoded provider ID&gt;&target=&lt;URL encoded return path&gt;.
 
 For example, given the service provider path **/content/sub-content/** and the relying party ID **https://portal.contoso.com/**, the final URL is https://idp.contoso.com/idp/profile/SAML2/Unsolicited/SSO?providerId=https%3A%2F%2Fportal.contoso.com%2F&target=ReturnUrl%3D%2Fcontent%2Fsub-content%2F
 

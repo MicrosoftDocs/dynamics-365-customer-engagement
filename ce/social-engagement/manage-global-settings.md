@@ -3,7 +3,7 @@ title: "Manage global settings for Social Engagement | Microsoft Docs"
 description: "Learn about how to configure global settings that apply to all users of Social Engagement."
 keywords: "administrator, settings, configuration"
 ms.date: 10/17/2017
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Manage global settings
@@ -208,7 +210,7 @@ Define system settings that apply to the entire organization, like solution name
   
 > [!NOTE]
 > [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-social-listening-admin-power-analyst.md)]  
->   
+> 
 >  Administrators can edit all custom location groups. Power Analysts can only edit custom location groups they own.  
   
 1.  Go to **Settings** > **Global Settings**.  

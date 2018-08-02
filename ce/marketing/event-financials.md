@@ -3,7 +3,10 @@ title: "View and record financial information for events in Dynamics 365 for Mar
 description: "Learn how to record values for event budgets, expenses, and revenue in Dynamics 365 for Marketing"
 keywords: "events;financials;budget;costs;revenue"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -19,6 +22,7 @@ topic-status: Drafting
 # Record and view financial information for events
 
 You can record financial information for your events with Dynamics 365 for Marketing. For example, you can:
+
 - Record speaker costs (standard cost or for an engagement).
 - Record venue costs (standard cost or for an event).
 - Record sponsorship income for event sponsorship.
@@ -46,8 +50,9 @@ To record a speaker's fee for an engagement:
 
 To record a venue's standard cost:
 
-1. For a venue or sub-venue, go to **Events** > **Venue management** > **Venues**. For a building, go to **Events** > **Venue management** > **Buildings**. 
-**Note:** You can't specify prices for individual rooms.
+1. For a venue or sub-venue, go to **Events** > **Venue management** > **Venues**. For a building, go to **Events** > **Venue management** > **Buildings**.
+    > [!NOTE]
+    > You can't specify prices for individual rooms.
 1. Open or create a venue or building record.
 1. On the **General** tab of the venue or building record, set the **Cost** to the standard price normally charged for that venue or building.
 
@@ -57,7 +62,8 @@ To record a venue's cost for an event:
 1. Open or create an event record.
 1. Go to the **Financials** tab of the event record.
 1. The **Event venue cost** field shows the cost of the main venue selected for the event. If your price is different for this event, then edit this value as needed. After you edit the value, it no longer automatically tracks the cost of the event venue. Delete the value to reset.
-**Note:** The value doesn't roll up the individual costs of sub-venues, if available—it only shows the cost of the main venue. 
+    > [!NOTE]
+    > This value doesn't roll up the individual costs of sub-venues, if available&mdash;it only shows the cost of the main venue.
 
 ## Record sponsorship revenue
 
@@ -118,5 +124,3 @@ Each event record provides a **Financials** tab where you can view and record fi
 - **Total cost of external members**. Records the total cost of external members. This field is not calculated, so you can enter any value you want.
 - **Total cost of event activities**. Records the total cost of event activities. This field is not calculated, so you can enter any value you want.
 - **Revenue from sponsorship**. Initially tracks and adds together the revenue specified for each sponsorship associated with this event. You can edit this value if needed, but once edited it will stop automatically tracking revenues from associated sponsorship records. Delete the value to reset.
-
-

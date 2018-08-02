@@ -7,11 +7,12 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamiccs 365 Version 9.x"
 ms.author: anjgup
-manager: sakudes
+manager: shellyha
 ms.date: 09/15/2017
 ms.topic: article
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.assetid: 93c16131-07ba-413b-a2e2-0f51ca1dfe07
+ms.custom: dyn365-customerservice
 ---
 
 # Create or change a service (Customer Service)
@@ -35,41 +36,41 @@ A service requires at least one selection rule and one or more resources, resour
    
 2. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)]  
   
-3.  Click **Services**.  
+3. Click **Services**.  
   
-4.  To create a new service, click **New**.  
+4. To create a new service, click **New**.  
   
-     -OR-  
+    -OR-  
   
-     To edit a service, open a service from the list.  
+    To edit a service, open a service from the list.  
   
-5.  Type or modify information in the text boxes.  
+5. Type or modify information in the text boxes.  
   
-    1.  Under **General**, enter a name and description to reflect the specifics of the service and describe what the service is. Also, specify the initial status of the service activity when it is created. If your organization prefers to approve all service activities before committing them to the schedule, you can select **Requested** or **Tentative**.  
+   1.  Under **General**, enter a name and description to reflect the specifics of the service and describe what the service is. Also, specify the initial status of the service activity when it is created. If your organization prefers to approve all service activities before committing them to the schedule, you can select **Requested** or **Tentative**.  
   
-    2.  Under **Scheduling**, in **Default Duration**, select how long the service lasts. This can be changed when the service activity is created. The maximum duration of an appointment or service activity is 10 days.  
+   2.  Under **Scheduling**, in **Default Duration**, select how long the service lasts. This can be changed when the service activity is created. The maximum duration of an appointment or service activity is 10 days.  
   
-    3.  In **Start Activities Every**, select how often service activities can start. This allows the start times of service activities to be staggered.  
+   3.  In **Start Activities Every**, select how often service activities can start. This allows the start times of service activities to be staggered.  
   
-    4.  In **Beginning At**, select the time when the service activities must begin.  
+   4.  In **Beginning At**, select the time when the service activities must begin.  
   
-6.  In the **Required Resources** area, define a selection rule:  
+6. In the **Required Resources** area, define a selection rule:  
   
-    1.  Choose a selection rule in the right-hand pane.  
+   1.  Choose a selection rule in the right-hand pane.  
   
-         Selection rules appear in the tree beside the **Selection Rule** button ![Gear button](../customer-service/media/crm-ua-selection-rule-gear.gif "Gear button").  
+        Selection rules appear in the tree beside the **Selection Rule** button ![Gear button](../customer-service/media/crm-ua-selection-rule-gear.gif "Gear button").  
   
-    2.  Choose one of the items under **Common Tasks** to define the selection rule by indicating how many resources are required and in what combination.  
+   2.  Choose one of the items under **Common Tasks** to define the selection rule by indicating how many resources are required and in what combination.  
   
- **Add a Selection Rule**  
+   **Add a Selection Rule**  
   
    You can add complexity to a rule by adding a subrule to it.  
   
- **Add Resources**  
+   **Add Resources**  
   
    Add users, facilities, equipment, or teams as resources to a selection rule.  
   
- **Add Resource Groups**  
+   **Add Resource Groups**  
   
    Resource groups are users, facilities, or equipment that can be scheduled interchangeably.  
   
@@ -77,7 +78,7 @@ A service requires at least one selection rule and one or more resources, resour
    >  You can save a service without defining a selection rule, but you won’t be able to schedule that service.   
    >  More information: [Create or edit a selection rule](create-simple-selection-rule.md)  
   
-7.  When you’re ready to save your data, click **Save**.  
+7. When you’re ready to save your data, click **Save**.  
   
 ## Activate or deactivate a service  
  You can make a service available on unavailable for scheduling by activating or deactivating it. To do this, in the list of service records, select a service, then click **More Actions** > **Activate** or **More actions** > **Deactivate**.  

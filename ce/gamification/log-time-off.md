@@ -1,17 +1,18 @@
 ---
 title: "Let others know about your time off in Dynamics 365 - Gamification | Microsoft Docs"
 description: "Learn how to let other players know that you are out of the office."
-ms.custom: ""
+ms.custom:
+  - dyn365-gamification
 ms.date: 05/31/2017
 ms.reviewer: ""
-ms.service: gamification
+ms.service: dynamics-365-sales
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: Dynamics 365 (online)
 ms.assetid: 6f66f024-5c8a-49fa-845e-43f66af19799
 caps.latest.revision: 11
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
 ---
@@ -25,21 +26,21 @@ Select each game period where you believe that your absence will impact your per
 
 ### Take time off for a game period
   
-1.  In [!INCLUDE[pn_gamification](../includes/pn-gamification.md)], go to **My Games** > **Player Profile**.  
+1. In [!INCLUDE[pn_gamification](../includes/pn-gamification.md)], go to **My Games** > **Player Profile**.  
   
-2.  Click **Add Time Off**.  
+2. Click **Add Time Off**.  
   
-3.  In the header, select the game and the game period that you want to log time off for from the list.  
+3. In the header, select the game and the game period that you want to log time off for from the list.  
   
-4.  To save your changes, click **Submit**.  
+4. To save your changes, click **Submit**.  
   
 ### Remove time off from your schedule
   
-1.  In [!INCLUDE[pn_gamification](../includes/pn-gamification.md)], go to **My Games** > **Player Profile** > **Add Time Off**.  
+1. In [!INCLUDE[pn_gamification](../includes/pn-gamification.md)], go to **My Games** > **Player Profile** > **Add Time Off**.  
   
-2.  In the list, select the game period to remove your time off from.  
+2. In the list, select the game period to remove your time off from.  
   
-3.  To indicate you are available again in that game period, click **Remove** ![Remove button in Gamification](media/remove-symbol-gamification.png "Remove button in Gamification").  
+3. To indicate you are available again in that game period, click **Remove** ![Remove button in Gamification](media/remove-symbol-gamification.png "Remove button in Gamification").  
   
 ### See also
 

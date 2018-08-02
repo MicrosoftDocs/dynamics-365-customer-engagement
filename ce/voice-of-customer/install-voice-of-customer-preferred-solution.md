@@ -2,9 +2,10 @@
 title: "Install the Voice of the Customer for Microsoft Dynamics 365 preferred solution | MicrosoftDocs"
 description: ""
 ms.assetid: 6ede301c-1061-4f13-887f-89dbde408c01
-ms.custom: ""
+ms.custom:
+  - dyn365-VoC
 ms.date: 07/26/2017
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.topic: "article"
 applies_to: "Dynamics 365 (online)"
 redirect_url: /dynamics365/customer-engagement/voice-of-customer/install-solution
@@ -22,13 +23,13 @@ This section provides you the steps to install the [!INCLUDE[pn-voice-of-the-cus
 After you've installed the [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] preferred solution, you need to accept the terms and conditions to configure it in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. 
  
  
-1.  Go to **Settings > Customizations**.  
+1. Go to **Settings > Customizations**.  
   
-2.  Click **Solutions**.  
+2. Click **Solutions**.  
   
-3.  In the list of available solutions, select **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)]**.  
+3. In the list of available solutions, select **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)]**.  
   
-4.  In the **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] Configuration** screen, select **I agree to the terms  and conditions** and click **Enable [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)]**.  
+4. In the **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] Configuration** screen, select **I agree to the terms  and conditions** and click **Enable [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)]**.  
   
 When  the configuration completes, you can start using [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] solution.  
   
@@ -43,8 +44,8 @@ The new version of the [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-v
 2. Select the application row titled **Voice Of The Customer** and click **Manage**. The Install page is displayed.
 3. From the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Instance** drop-down list, select an instance where you want to install the solution.
   
-  > [!Note]
-  > The **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Instance** drop-down list will display only the organizations with version 8.2 and above.
+   > [!Note]
+   > The **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Instance** drop-down list will display only the organizations with version 8.2 and above.
 
 4. Accept the license terms.
 5. Click **Install**.

@@ -45,9 +45,9 @@ Main forms are the primary user interface where people view and interact with th
   
 - [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] doesn’t support image, HTML, or [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resources to be added to forms.  
   
--   The layout of [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] forms is auto-generated based on the main form. There is no special form editor for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] forms. You need to verify that the form presentation works well for both clients.  
+- The layout of [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] forms is auto-generated based on the main form. There is no special form editor for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] forms. You need to verify that the form presentation works well for both clients.  
   
--   If you have unsupported scripts that interact with DOM elements found in the web application, those scripts won’t work in the [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] forms because the same DOM elements aren’t available.  
+- If you have unsupported scripts that interact with DOM elements found in the web application, those scripts won’t work in the [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] forms because the same DOM elements aren’t available.  
   
 - [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] Reading Pane forms don’t allow for scripting. The visibility of form elements depend on the default settings and can’t be changed at runtime using scripts.  
   

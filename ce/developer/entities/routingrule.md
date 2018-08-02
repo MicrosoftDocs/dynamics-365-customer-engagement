@@ -777,6 +777,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_routingrule_AsyncOperations"></a> routingrule_AsyncOperations
 
 Same as asyncoperation entity [routingrule_AsyncOperations](asyncoperation.md#BKMK_routingrule_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -791,6 +792,7 @@ Same as asyncoperation entity [routingrule_AsyncOperations](asyncoperation.md#BK
 ### <a name="BKMK_routingrule_Annotation"></a> routingrule_Annotation
 
 Same as annotation entity [routingrule_Annotation](annotation.md#BKMK_routingrule_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -805,6 +807,7 @@ Same as annotation entity [routingrule_Annotation](annotation.md#BKMK_routingrul
 ### <a name="BKMK_routingrule_userentityinstancedatas"></a> routingrule_userentityinstancedatas
 
 Same as userentityinstancedata entity [routingrule_userentityinstancedatas](userentityinstancedata.md#BKMK_routingrule_userentityinstancedatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -819,6 +822,7 @@ Same as userentityinstancedata entity [routingrule_userentityinstancedatas](user
 ### <a name="BKMK_routingrule_entries"></a> routingrule_entries
 
 Same as routingruleitem entity [routingrule_entries](routingruleitem.md#BKMK_routingrule_entries) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|routingruleitem|
@@ -833,6 +837,7 @@ Same as routingruleitem entity [routingrule_entries](routingruleitem.md#BKMK_rou
 ### <a name="BKMK_routingrule_ProcessSessions"></a> routingrule_ProcessSessions
 
 Same as processsession entity [routingrule_ProcessSessions](processsession.md#BKMK_routingrule_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -847,6 +852,7 @@ Same as processsession entity [routingrule_ProcessSessions](processsession.md#BK
 ### <a name="BKMK_routingrule_BulkDeleteFailures"></a> routingrule_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [routingrule_BulkDeleteFailures](bulkdeletefailure.md#BKMK_routingrule_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|

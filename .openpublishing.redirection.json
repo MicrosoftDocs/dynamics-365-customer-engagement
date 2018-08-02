@@ -1,0 +1,1194 @@
+{
+  "redirections": [
+    {
+      "source_path": "ce/admin/embedded-intelligence.md",
+      "redirect_url": "../sales-enterprise/embedded-intelligence",
+      "redirect_document_id": "true"
+    },
+    {
+      "source_path": "ce/customer-insights/getstart.md",
+      "redirect_url": "preview-retire",
+      "redirect_document_id": "true"
+    },
+    {
+      "source_path": "ce/customer-insights/index.md",
+      "redirect_url": "preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/deploy/aboutpreview.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/deploy/adddatasource.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/deploy/buildmlmodel.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/deploy/createasegment.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/deploy/createconflationpolicy.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/deploy/createdcihub.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/deploy/datamodeling.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/deploy/datasource365online.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/deploy/datasourceazurestorage.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/deploy/datasourcemse.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/deploy/datasourceoffice365.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/deploy/embedaciview.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/deploy/embedaciviewincrmwebresource.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/deploy/inthisrelease.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/deploy/newfeatures.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/deploy/powerbi.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/deploy/prerequisites.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/deploy/stepbystepconfiguration.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/deploy/stepbystepcustomer360.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/deploy/stepbystepembeddingaciwidgets.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/deploy/stepbysteprolebasedsecurity.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/dev/aboutwebsvcs.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/dev/architecture.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/dev/devguide.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/dev/workingwithdata.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/apiquickref.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/armapiref.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hubapiref.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hubdataapiref.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/metadatadefs.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/progref.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/requestreponse.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/segquerylang.md",
+      "redirect_url": "../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/apppackagingmngnt.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/apppackviewcreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/apppackviewdelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/apppackviewget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/apppackviewlist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/apppackwidgetget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/apppackwidgetlist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/authzmngnt.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/authzpolicycreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/authzpolicyget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/authzpolicylist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/authzpolicyregenprimkey.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/authzpolicyregenseckey.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/dataconcreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/datacondelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/dataconget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/dataconlist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/dataconmapcreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/dataconmapdelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/dataconmapget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/dataconmaplist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/dataconmngnt.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/hubcreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/hubcrud.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/hubdelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/hubget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/hublist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/hubmngnt.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/hubupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/imagegetuploadurlinstance.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/imagegetuploadurlmetadata.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/imagemngnt.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/interactioncreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/interactionget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/interactionlist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/interactionsugrellinks.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/kpicreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/kpidelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/kpiget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/kpilist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/kpimngnt.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/kpireprocess.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/linkcreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/linkdelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/linkget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/linklist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/linkmngnt.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/predscoringcreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/predscoringcreateupdatemodelstatus.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/predscoringdelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/predscoringget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/predscoringgetmodelstatus.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/predscoringgettrainingresults.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/predscoringlist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/predscoringmngnt.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/profilecreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/profiledelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/profileget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/profilegetenrichingkpis.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/profilelist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/rbacmngnt.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/rbacroleasgncreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/rbacroleasgndelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/rbacroleasgnget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/rbacroleasgnlist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/rbacrolelist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/relationshipcreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/relationshipdelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/relationshipget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/relationshiplinkcreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/relationshiplinkdelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/relationshiplinkget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/relationshiplinklist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/relationshiplist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/segdelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/segdyncreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/segget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/seglist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/segmngnt.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/segstatcreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/arm/typemodeling.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/apppackagingmngnt.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/apppackviewcreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/apppackviewdelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/apppackviewget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/apppackviewlist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/apppackwidgetget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/apppackwidgetlist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/authzmngnt.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/authzpolicycreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/authzpolicyget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/authzpolicylist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/authzpolicyregenprimkey.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/authzpolicyregenseckey.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/dataconcreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/datacondelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/datacondiscoversalesforce.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/dataconget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/dataconlist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/dataconmapcreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/dataconmapdelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/dataconmapget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/dataconmaplist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/dataconmngnt.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/hubmngnt.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/imagegetuploadurlinstance.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/imagegetuploadurlmetadata.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/imagemngnt.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/interactioncreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/interactionget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/interactionlist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/interactionsugrellinks.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/kpicreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/kpidelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/kpiget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/kpilist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/kpimngnt.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/kpireprocess.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/linkcreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/linkdelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/linkget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/linklist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/linkmngnt.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/predmatchpolcreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/predmatchpoldelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/predmatchpolget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/predmatchpollist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/predmatchpolmngnt.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/predscoringcreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/predscoringcreateupdatemodelstatus.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/predscoringdelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/predscoringget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/predscoringgetmodelstatus.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/predscoringgettrainingresults.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/predscoringlist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/predscoringmngnt.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/profilecreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/profiledelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/profileget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/profilegetenrichingkpis.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/profilelist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/rbacmngnt.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/rbacroleasgncreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/rbacroleasgndelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/rbacroleasgnget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/rbacroleasgnlist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/rbacrolelist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/relationshipcreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/relationshipdelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/relationshipget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/relationshiplinkcreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/relationshiplinkdelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/relationshiplinkget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/relationshiplinklist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/relationshiplist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/segdelete.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/segdyncreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/segget.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/seglist.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/segmngnt.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/segstatcreateupdate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hub/typemodeling.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hubdata/bulkingestcreate.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hubdata/bulkingestquery.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hubdata/interactioncreateinstance.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hubdata/interactionlistviaprofile.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hubdata/kpigetviaprofileid.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hubdata/kpiquerydata.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hubdata/profilecreateinstance.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hubdata/profilegetinstanceid.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hubdata/profilelistinstances.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hubdata/relationshipcreateinstance.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hubdata/relationshipdeleteinstance.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hubdata/relationshiplistinstance.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hubdata/segestimation.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hubdata/seggetinstance.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hubdata/seglistaddedmembers.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hubdata/seglistmembers.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/hubdata/segqueryeval.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/authzpolicy.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/connector.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/connectormapping.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/dataformat.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/datasource.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/field.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/hub.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/images.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/interaction.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/kpi.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/link.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/prediction.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/predictionmodelstatus.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/predictiontrainingresults.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/predictivematchpolicy.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/profile.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/relationship.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/relationshiplink.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/role.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/roleassignment.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/segment.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/view.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/ref/types/widgettype.md",
+      "redirect_url": "../../preview-retire",
+      "redirect_document_id": "false"
+    }
+  ]
+}

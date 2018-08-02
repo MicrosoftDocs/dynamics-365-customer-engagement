@@ -12,16 +12,19 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: f8966997-6047-4ff7-b3ae-47cbceea96a2
 caps.latest.revision: 17
-author: "Mattp123"
-ms.author: "matp"
+author: "jimholtz"
+ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Audit data and user activity for security and compliance 
+# Audit data and user activity for security and compliance
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] auditing feature logs changes that are made to customer records and user access so you can review the activity later. The auditing feature is designed to meet the auditing, compliance, security, and governance policies of many regulated enterprises.  
-  
+<!-- 
+> [!NOTE]
+> This topic describes the process for enabling and viewing activities for a specific set of entities and attributes. For a auditing at a broader entity level with multiple records, consider using Activity Logging. See [Enable and use Activity Logging](enable-use-comprehensive-auditing.md).
+-->
  The audit logs help the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Administrator answer questions such as:  
   
 -   Which user was accessing the system and when?  
@@ -63,23 +66,23 @@ System administrators and customizers can start or stop auditing for an organiza
   
 1. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
   
-2.  Choose **System Settings**.  
+2. Choose **System Settings**.  
   
-3.  On the **Auditing** tab, select the **Start Auditing** check box to start auditing. Clear the **Start Auditing** check box to stop all auditing.  
+3. On the **Auditing** tab, select the **Start Auditing** check box to start auditing. Clear the **Start Auditing** check box to stop all auditing.  
   
-4.  Select the entities you want to track. To start or stop auditing on specific entities, select or clear the following check boxes:  
+4. Select the entities you want to track. To start or stop auditing on specific entities, select or clear the following check boxes:  
   
-    - **Audit user access**. Tracks when a user accesses [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] including the user name and time.  
+   - **Audit user access**. Tracks when a user accesses [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] including the user name and time.  
   
-    - **Common Entities**. Tracks common entities like Account, Contact, Goal, Product, and User.  
+   - **Common Entities**. Tracks common entities like Account, Contact, Goal, Product, and User.  
   
-    - **Sales Entities**. Tracks sales-related entities lilke Competitor, Opportunity, Invoice, Order, and Quote.  
+   - **Sales Entities**. Tracks sales-related entities lilke Competitor, Opportunity, Invoice, Order, and Quote.  
   
-    - **Marketing Entities**. Tracks Campaign entity activity.  
+   - **Marketing Entities**. Tracks Campaign entity activity.  
   
-    - **Customer Service Entities**. Tracks Case, Contract, Queue, and Service entity activity.  
+   - **Customer Service Entities**. Tracks Case, Contract, Queue, and Service entity activity.  
   
-5.  Click **OK**.  
+5. Click **OK**.  
   
 <a name="BKMK_viewAuditlogs"></a>   
 ## View audit logging details  
@@ -87,15 +90,15 @@ System administrators and customizers can start or stop auditing for an organiza
   
 1. [!INCLUDE[proc_settings_auditing](../includes/proc-settings-auditing.md)]  
   
-2.  Choose **Audit Summary View**.  
+2. Choose **Audit Summary View**.  
   
-3.  In the **Audit Summary View**, you can do the following:  
+3. In the **Audit Summary View**, you can do the following:  
   
-    -   Click **Enable/Disable Filters** to turn on filtering. Then, you can filter on a specific event, such as **Delete** actions.  
+   -   Click **Enable/Disable Filters** to turn on filtering. Then, you can filter on a specific event, such as **Delete** actions.  
   
-    -   Choose an **Event** to view specific details about the activity, such as field changes that were made during an update to a record and who performed the update.  
+   -   Choose an **Event** to view specific details about the activity, such as field changes that were made during an update to a record and who performed the update.  
   
-    -   Click the **Refresh** button  ![Refresh button](media/html-viewer-grid-refresh.gif "Refresh button") to view the most recent activity.  
+   -   Click the **Refresh** button  ![Refresh button](media/html-viewer-grid-refresh.gif "Refresh button") to view the most recent activity.  
 
 <a name="BKMK_enable_ent_aud"></a>   
 ## Enable or disable entities and fields for auditing  
@@ -105,33 +108,33 @@ System administrators and customizers can start or stop auditing for an organiza
   
 1. [!INCLUDE[proc_settings_system](../includes/proc-settings-system.md)]  
   
-2.  Click **Auditing**.  
+2. Click **Auditing**.  
   
-3.  In the **Audit** area, choose **Entity and Field Audit Settings**.  
+3. In the **Audit** area, choose **Entity and Field Audit Settings**.  
   
-4.  Under **Components**, expand **Entities**.  
+4. Under **Components**, expand **Entities**.  
   
-5.  Open the entity for which you want to enable or disable auditing.  
+5. Open the entity for which you want to enable or disable auditing.  
   
-6.  To start auditing, on the **General** tab, in the **Data Services** section, select the **Auditing** check box to enable auditing, or clear the **Auditing** check box to disable it.  
+6. To start auditing, on the **General** tab, in the **Data Services** section, select the **Auditing** check box to enable auditing, or clear the **Auditing** check box to disable it.  
   
-     By default, when you start or stop auditing for an entity, you also start or stop auditing for all the fields of this entity.  
+    By default, when you start or stop auditing for an entity, you also start or stop auditing for all the fields of this entity.  
   
-7.  Click **Save**.  
+7. Click **Save**.  
   
-8.  Publish the customization. To publish for a single entity, choose the entity, such as Account, and then click **Publish** on the toolbar.  
+8. Publish the customization. To publish for a single entity, choose the entity, such as Account, and then click **Publish** on the toolbar.  
   
- **To enable or disable auditing for specific fields on an entity**  
+   **To enable or disable auditing for specific fields on an entity**  
   
-1.  Under the entity for which you want to enable or disable auditing with specific fields, click **Fields**.  
+9. Under the entity for which you want to enable or disable auditing with specific fields, click **Fields**.  
   
-2.  To enable or disable a single field, open the field and in the Auditing section, select **Enable** or **Disable**.  
+10. To enable or disable a single field, open the field and in the Auditing section, select **Enable** or **Disable**.  
   
      To enable or disable more than one field, select the fields you want, and then on the toolbar click **Edit**. In the **Edit Multiple Fields** dialog box, in the Auditing area, click **Enabled** or **Disabled**.  
   
-3.  Click **Save**.  
+11. Click **Save**.  
   
-4.  Publish the customization. To publish for a single entity, choose the entity, such as Account, and then click **Publish** on the Actions toolbar.  
+12. Publish the customization. To publish for a single entity, choose the entity, such as Account, and then click **Publish** on the Actions toolbar.  
  
 ### See also  
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)   

@@ -499,6 +499,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_usermapping_AsyncOperations"></a> usermapping_AsyncOperations
 
 Same as asyncoperation entity [usermapping_AsyncOperations](asyncoperation.md#BKMK_usermapping_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -513,6 +514,7 @@ Same as asyncoperation entity [usermapping_AsyncOperations](asyncoperation.md#BK
 ### <a name="BKMK_usermapping_UserEntityInstanceDatas"></a> usermapping_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [usermapping_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_usermapping_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -527,6 +529,7 @@ Same as userentityinstancedata entity [usermapping_UserEntityInstanceDatas](user
 ### <a name="BKMK_usermapping_ProcessSession"></a> usermapping_ProcessSession
 
 Same as processsession entity [usermapping_ProcessSession](processsession.md#BKMK_usermapping_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -541,6 +544,7 @@ Same as processsession entity [usermapping_ProcessSession](processsession.md#BKM
 ### <a name="BKMK_usermapping_BulkDeleteFailures"></a> usermapping_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [usermapping_BulkDeleteFailures](bulkdeletefailure.md#BKMK_usermapping_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|

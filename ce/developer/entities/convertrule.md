@@ -1006,6 +1006,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_ConvertRule_ProcessSessions"></a> ConvertRule_ProcessSessions
 
 Same as processsession entity [ConvertRule_ProcessSessions](processsession.md#BKMK_ConvertRule_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1020,6 +1021,7 @@ Same as processsession entity [ConvertRule_ProcessSessions](processsession.md#BK
 ### <a name="BKMK_ConvertRule_userentityinstancedatas"></a> ConvertRule_userentityinstancedatas
 
 Same as userentityinstancedata entity [ConvertRule_userentityinstancedatas](userentityinstancedata.md#BKMK_ConvertRule_userentityinstancedatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1034,6 +1036,7 @@ Same as userentityinstancedata entity [ConvertRule_userentityinstancedatas](user
 ### <a name="BKMK_convertrule_convertruleitem"></a> convertrule_convertruleitem
 
 Same as convertruleitem entity [convertrule_convertruleitem](convertruleitem.md#BKMK_convertrule_convertruleitem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|convertruleitem|
@@ -1048,6 +1051,7 @@ Same as convertruleitem entity [convertrule_convertruleitem](convertruleitem.md#
 ### <a name="BKMK_ConvertRule_Annotation"></a> ConvertRule_Annotation
 
 Same as annotation entity [ConvertRule_Annotation](annotation.md#BKMK_ConvertRule_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1062,6 +1066,7 @@ Same as annotation entity [ConvertRule_Annotation](annotation.md#BKMK_ConvertRul
 ### <a name="BKMK_Convertrule_AsyncOperations"></a> Convertrule_AsyncOperations
 
 Same as asyncoperation entity [Convertrule_AsyncOperations](asyncoperation.md#BKMK_Convertrule_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|

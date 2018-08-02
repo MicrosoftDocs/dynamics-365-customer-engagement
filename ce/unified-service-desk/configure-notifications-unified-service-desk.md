@@ -1,10 +1,11 @@
 ---
 title: "Configure notifications in Unified Service Desk | MicrosoftDocs"
 description: "Learn about configuring notifications in unified Service Desk."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,8 +17,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: ca7905ed-47a0-47c9-bbfe-5cb1738b0125
 caps.latest.revision: 20
-author: "KumarVivek"
-ms.author: "kvivek"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Configure notifications in Unified Service Desk
 Configure notifications in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to display popup notification messages to your customer service agents that contains general information or some customer or process-related information that the agent can act on. The layout and behavior of the notification message is defined in XAML format by using forms in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and displayed as a floating popup message using the new hosted control type, `Popup Notification`. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Popup Notification (Hosted Control)](../unified-service-desk/popup-notification-hosted-control.md)  
@@ -53,12 +55,12 @@ You can use use the Alt+1 keys (default) to set your focus on a notification. If
      `Command`  
      CCA:ActionCommands.DoActionCommand  
   
- **CommandParameter**  
+  **CommandParameter**  
      The command parameter must contain the name of the hosted control on which the action is to be executed, the name of the UII action and the optional action data. All these values have to be specified in the following URL format: `http://uii/[HostedControlName]/[UIIActionName]?[ActionData]`.  
   
      Note that the different parts of the URL must be encoded if required as per standard guidelines. For example, the space character has to be encoded as “%20” or ‘+’.  
   
- **Example**  
+  **Example**  
      Suppose there is a hosted control named `Contact` of type **CRM Page**, and you want to execute the `Open_CRM_Page` action on this control with the following action data:  
   
     ```  
@@ -84,12 +86,12 @@ You can use use the Alt+1 keys (default) to set your focus on a notification. If
      `Command`  
      CCA:ActionCommands.DoActionCommand  
   
- **CommandParameter**  
+  **CommandParameter**  
      The command parameter must contain the name of the action call to be executed, and must be specified in the following URL format: `http://actioncall/[ActionCallName]`.  
   
      Note that the action call name must be URL encoded if it contains spaces or special characters. For example, the space character has to be encoded as “%20” or ‘+’.  
   
- **Example**  
+  **Example**  
      Suppose you want to execute an action call named `Open Contact Page`.  
   
      Then, you need to pass the following URL as the `CommandParameter` value in your form XAML:  
@@ -103,12 +105,12 @@ You can use use the Alt+1 keys (default) to set your focus on a notification. If
      `Command`  
      CCA:ActionCommands.UIIEvent  
   
- **CommandParameter**  
+  **CommandParameter**  
      The command parameter must contain the event name optionally followed by a question mark (?) and event parameters in the form of a query string. Each parameter is specified as a “name = value” pair where both name and value need to be URL encoded if required. Further, parameters must be separated using "&amp;".  
   
      Specify the command parameter in the following format: `[EventName]?[Name]=[Value]&amp;[Name]=[Value]`  
   
- **Example**  
+  **Example**  
      Suppose you want to fire an event named `OK` with following parameters.  
   
     ```  
@@ -208,15 +210,15 @@ The added custom parameter can be used in the form XAML as replacement parameter
 ## How to configure a notification?  
  These are the broad steps for displaying a notification:  
   
-1.  Create a **Form** record with your notification definition (XAML). For example, create a form with the example XAML illustrated earlier and with the following name: `MaxSessionNotificationForm`.  
+1. Create a **Form** record with your notification definition (XAML). For example, create a form with the example XAML illustrated earlier and with the following name: `MaxSessionNotificationForm`.  
   
-2.  Create a `Popup Notification` control, and keep it global. For example, create a control with the following name: `MaxSessionNotificationControl`.  
+2. Create a `Popup Notification` control, and keep it global. For example, create a control with the following name: `MaxSessionNotificationControl`.  
   
-3.  Create an action call to display the notification by specifying the form name to display along with other parameters in the **Data** field of the `Show` action. For example,  create an action call with the following name: `Action Call for Max Sessions Notification`:  
+3. Create an action call to display the notification by specifying the form name to display along with other parameters in the **Data** field of the `Show` action. For example,  create an action call with the following name: `Action Call for Max Sessions Notification`:  
   
- ![Action Call for displaying notification](../unified-service-desk/media/usd-action-call-notification.png "Action Call for displaying notification")  
+   ![Action Call for displaying notification](../unified-service-desk/media/usd-action-call-notification.png "Action Call for displaying notification")  
   
-4.  Finally, add the action call to an event to execute the action. As we are checking for maximum number of sessions on the creation of a new session to show the notification, add the action call to the `SessionNew` event of the [Global Manager (Hosted Control)](../unified-service-desk/global-manager-hosted-control.md).  
+4. Finally, add the action call to an event to execute the action. As we are checking for maximum number of sessions on the creation of a new session to show the notification, add the action call to the `SessionNew` event of the [Global Manager (Hosted Control)](../unified-service-desk/global-manager-hosted-control.md).  
   
 ### See also  
  [Popup Notification (Hosted Control)](../unified-service-desk/popup-notification-hosted-control.md)   

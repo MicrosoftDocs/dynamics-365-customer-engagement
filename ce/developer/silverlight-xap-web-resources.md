@@ -30,8 +30,8 @@ manager: "amyla"
  [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] support adding [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] 4.0 web resources to entity forms. You can display [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] 5.0 web resources within an HTML web resource using a hosting `<object>` element that is configured for that version.  
   
 > [!NOTE]
->  - [!INCLUDE [pn-ms-silverlight-full](../includes/pn-ms-silverlight-full.md)] web resources cannot be viewed in the 64-bit version of [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)].  
-> - [!INCLUDE[sdk_silverlightwebresourcedirective](../includes/sdk-silverlightwebresourcedirective.md)]  
+> - [!INCLUDE [pn-ms-silverlight-full](../includes/pn-ms-silverlight-full.md)] web resources cannot be viewed in the 64-bit version of [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)].  
+>   - [!INCLUDE[sdk_silverlightwebresourcedirective](../includes/sdk-silverlightwebresourcedirective.md)]  
   
 <a name="BKMK_CreatingSilverlightWebResource"></a>   
 ## Creating Silverlight web resources  
@@ -43,13 +43,13 @@ manager: "amyla"
   
  If you do require contextual information, you must either:  
   
-1.  Add your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource to an entity form.  
+1. Add your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource to an entity form.  
   
-2.  View your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource using an HTML web resource configured to provide context information.  
+2. View your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource using an HTML web resource configured to provide context information.  
   
- If your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource is designed to be viewed in an entity form, the form has an `Xrm.Page.context` object you can use to access contextual information. For more information, see [Client-side context (client-side reference)](https://msdn.microsoft.com/library/gg334511.aspx)  
+   If your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource is designed to be viewed in an entity form, the form has an `Xrm.Page.context` object you can use to access contextual information. For more information, see [Client-side context (client-side reference)](https://msdn.microsoft.com/library/gg334511.aspx)  
   
- If you need your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application to appear outside the context of the form you must configure an HTML web resource to provide this context information by adding a reference to the [ClientGlobalContext.js.aspx](https://msdn.microsoft.com/en-us/library/gg328541.aspx#BKMK_ClientGlobalContext_js_aspx).md#BKMK_ClientGlobalContext_js_aspx) page. After this reference is added, your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application can access contextual information in the same way it can in an entity form. The following sample shows how to call the [getClientUrl](https://msdn.microsoft.com/en-us/library/gg334511.aspx#BKMK_getclienturl) function.
+   If you need your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application to appear outside the context of the form you must configure an HTML web resource to provide this context information by adding a reference to the [ClientGlobalContext.js.aspx](https://msdn.microsoft.com/en-us/library/gg328541.aspx#BKMK_ClientGlobalContext_js_aspx).md#BKMK_ClientGlobalContext_js_aspx) page. After this reference is added, your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application can access contextual information in the same way it can in an entity form. The following sample shows how to call the [getClientUrl](https://msdn.microsoft.com/en-us/library/gg334511.aspx#BKMK_getclienturl) function.
   
 ```csharp  
 private string clientUrl = "";  
@@ -91,57 +91,57 @@ string entityTypeName = App.Current.Host.InitParams["typename"];
   
  The process of creating a [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource that includes form or context dependencies is as follows:  
   
-1.  Create your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application project.  
+1. Create your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application project.  
   
-     You should select to create a web application with your project.  
+    You should select to create a web application with your project.  
   
-2.  Write and test as much of the application as you can without requiring contextual data from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+2. Write and test as much of the application as you can without requiring contextual data from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
-3.  Create web resources by uploading the .xap and .htm files as [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] and HTML web resources.  
+3. Create web resources by uploading the .xap and .htm files as [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] and HTML web resources.  
   
-4.  Write code in your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application project.  
+4. Write code in your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application project.  
   
-5.  Build your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application project.  
+5. Build your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application project.  
   
-6.  Upload the built version of the .xap file from the web application project ClientBin folder to update the [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource you created in step 3.  
+6. Upload the built version of the .xap file from the web application project ClientBin folder to update the [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource you created in step 3.  
   
-7.  Test your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource by either:  
+7. Test your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource by either:  
   
-    -   Viewing it using the **Preview** button of the host HTML web resource you created.  
+   - Viewing it using the **Preview** button of the host HTML web resource you created.  
   
-    -   Viewing it in the context of an entity form that you have added it to.  
+   - Viewing it in the context of an entity form that you have added it to.  
   
-         Use this option is your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application has dependencies on Form elements or context information.  
+      Use this option is your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application has dependencies on Form elements or context information.  
   
-8.  Repeat steps 4 through 7 until you are finished.  
+8. Repeat steps 4 through 7 until you are finished.  
   
 > [!NOTE]
 >  When you want to show a [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource outside of an entity form, for example in the application main frame by editing the Site Map, you must provide a webpage (HTML) web resource to act as the host for the [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource.  
-  
+> 
 > [!IMPORTANT]
 >  Never edit the HTML source code for a page hosting a [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource using the text editor provided in the application. The text editor changes the HTML and breaks `<object>` element definition necessary to host the [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)]XAP web resource. For more information, see [Using the Text Editor for HTML Web Resources](webpage-html-web-resources.md#BKMK_UsingTextEditor).  
->   
+> 
 >  If you must use the text editor, omit the `data="data:application/x-silverlight-2,"` parameter in the `<object>` element. Although this should prevent breaking the [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource, the text editor may still introduce other undesirable changes.  
   
 <a name="BKMK_DebuggingSilverlightWebResources"></a>   
 ## Debugging Silverlight web resources  
  [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resources that do not rely on contextual data from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] can be debugged in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. However, if the [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource requires contextual data to perform the functions, you will have to use a different procedure.  
   
-1.  Build your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application.  
+1. Build your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application.  
   
-2.  Upload the built version of the .xap file from the web application project ClientBin folder.  
+2. Upload the built version of the .xap file from the web application project ClientBin folder.  
   
-3.  View your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application in the context it is designed to be used in.  
+3. View your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application in the context it is designed to be used in.  
   
-4.  In your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application project, from the [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] menu, select **Debug** and then **Attach To Process**.  
+4. In your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application project, from the [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] menu, select **Debug** and then **Attach To Process**.  
   
-5.  In the **Attach to Process** dialog box, find an **iexplore.exe** process where the **Type** column value is **Silverlight, x86**.  
+5. In the **Attach to Process** dialog box, find an **iexplore.exe** process where the **Type** column value is **Silverlight, x86**.  
   
-6.  Select that process and press **Attach** to close the dialog box and start debugging.  
+6. Select that process and press **Attach** to close the dialog box and start debugging.  
   
-7.  In your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application project, set a breakpoint.  
+7. In your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application project, set a breakpoint.  
   
-8.  Refresh the browser window or, in the [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application, perform the action that you need to test your code.  
+8. Refresh the browser window or, in the [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application, perform the action that you need to test your code.  
   
 ### See also  
  [Create Accessible Web Resources](create-accessible-web-resources.md)   

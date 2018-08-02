@@ -3,7 +3,7 @@ title: "Connect LinkedIn to Dynamics 365 Connector for LinkedIn Lead Gen Forms |
 description: " Learn how to connect Dynamics 365 Connector for LinkedIn Lead Gen Forms with the LinkedIn service to sync lead gen data to Dynamics 365 (online)."
 keywords: "LinkedIn Lead Gen Connector, connection, Dynamics 365, Customer Engagement"
 ms.date: 04/02/2018
-ms.service: crm-online
+ms.service: dynamics-365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-LinkedIn
 ---
 
 # Establish a connection between [!include[Dynamics 365 Connector for LinkedIn Lead Gen Forms](../includes/cc-linkedin-solution.md)] and LinkedIn
@@ -28,13 +30,13 @@ More information about assigning security roles to users: [TechNet: Create users
 3. To add [!include[LinkedIn](../includes/pn-linkedin.md)] accounts to this user profile, select **Authorize**.
 
 4. Enter the credentials for your [!include[LinkedIn](../includes/pn-linkedin.md)] profile, and then select **Sign In**.  
-![Sign In](media/Add-credentials-to-linked-profile.png "Enter credentials for your LinkedIn profile")  
+   ![Sign In](media/Add-credentials-to-linked-profile.png "Enter credentials for your LinkedIn profile")  
 
 5. In the permissions dialog box, select **Allow**.  
-![Allow permissions](media/LinkedIn-permission-popup-dialog.png "LinkedIn permissions dialog box")  
+   ![Allow permissions](media/LinkedIn-permission-popup-dialog.png "LinkedIn permissions dialog box")  
 
 6. Check and confirm the [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)] organization you want to sync your LinkedIn data to.  
-![LinkedIn permission popup dialogs](media/Confirm-dynamics-365-organization-to-sync-linkedin-data.png "Confirm the name of your Dynamics 365 organization")
+   ![LinkedIn permission popup dialogs](media/Confirm-dynamics-365-organization-to-sync-linkedin-data.png "Confirm the name of your Dynamics 365 organization")
 
 After successful authorization, the [!include[LinkedIn](../includes/pn-linkedin.md)] accounts appear on the **[!include[LinkedIn](../includes/pn-linkedin.md)] User Profile** record. You can review the details of the [!include[LinkedIn](../includes/pn-linkedin.md)] accounts in the form. It might take a few seconds to get the accounts; try refreshing the view if you don’t see them.
 

@@ -3,7 +3,10 @@ title: "Manage Marketing instances (Dynamics 365 for Marketing) | Microsoft Docs
 description: "How to install, manage, and uninstall Dynamics 365 for Marketing instances"
 keywords: "instances;setup;install;administration"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service:
+  - "crm-online"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"

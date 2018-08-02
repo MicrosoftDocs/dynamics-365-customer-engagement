@@ -1,14 +1,16 @@
 ---
 title: "Configure Facebook App (Page Tab) authentication for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to authenticate the Facebook app to sign in to a portal."
-ms.custom: ""
+ms.custom:
+  - dyn365-portal
 ms.date: 09/28/2017
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
 ms.assetid: f487a03a-7a22-4030-9dfb-bdbdfae202c0
 ms.reviewer: ""
+redirect_url: /dynamics365/customer-engagement/portals/administer-manage-portal-dynamics-365
 author: sbmjais
 ms.author: shjais
 manager: sakudes
@@ -47,27 +49,27 @@ View the portal through each of the site bindings in a web browser to ensure tha
 
 ## Set up the Facebook app
 
-1.  Go to the [Facebook Developers](https://developers.facebook.com/) site and sign in by using a Facebook account. Under the**My Apps** drop-down menu, select **Add a New App**, and then select **Skip and Create App ID**.
+1. Go to the [Facebook Developers](https://developers.facebook.com/) site and sign in by using a Facebook account. Under the**My Apps** drop-down menu, select **Add a New App**, and then select **Skip and Create App ID**.
 2. In the resulting **Create a New App ID** dialog box, specify a valid **Display Name**,**Namespace**, and **Choose a Category** (such as Apps for Pages) because this will eventually be required to publish an app to the public. The **Namespace** can be left blank. Select **Create App**. Submit the **Security Check** (captcha) as well.
 3. After landing on the Dashboard, go to the **Settings** area in the left column navigation.
 4. Complete the **Basic** form by entering the fields shown in the following example:
-    - **Display Name**: Contact Email
+   - **Display Name**: Contact Email
 
-      **Contoso Portal**: administrator@contoso.com
-    - **Display Name**: App Domains
+     **Contoso Portal**: administrator@contoso.com
+   - **Display Name**: App Domains
 
-      **Contoso Portal**: portal.contoso.comfacebook-portal.contoso.com
+     **Contoso Portal**: portal.contoso.comfacebook-portal.contoso.com
 
-  > [!Note] 
-  > If the domain values cannot be successfully set, leave this field blank for now, complete the next step to specify a **Site URL**, and then return to this field.
+   > [!Note] 
+   > If the domain values cannot be successfully set, leave this field blank for now, complete the next step to specify a **Site URL**, and then return to this field.
 
 5. Select **+ Add Platform**, and then select **Website** from the Select Platform dialog box. Enter a **Site URL** (for example:  http://contoso.com) 
 6. Again, select **+ Add Platform**, and this time select **Page Tab**. Complete this new section based on the following fields:
     * Secure Page Tab URL: https://facebook-contoso.com/app/facebook
     * Page Tab Name:Contoso Portal                 
 
-  > [!Note]
-  > The Page Tab URL should have the /app/facebook path appended to the App domain URL. The portal uses this endpoint to launch the App portal.
+   > [!Note]
+   > The Page Tab URL should have the /app/facebook path appended to the App domain URL. The portal uses this endpoint to launch the App portal.
 
 7. Select **Save Changes**.
 

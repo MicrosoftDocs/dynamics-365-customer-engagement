@@ -1,6 +1,7 @@
 ---
 title: "Backup and restore instances of Dynamics 365 (online) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
+  - dyn365-deflc
 ms.date: 02/26/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -29,33 +30,33 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
  About [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] **system backups**:  
   
--   All your instances are backed up.  
+- All your instances are backed up.  
   
--   System backups occur daily.  
+- System backups occur daily.  
   
--   System backups are retained up to three days. Check your expiration date.  
+- System backups are retained up to three days. Check your expiration date.  
 
   ![Expires On column that shows the expiration dates for backups](media/Expires66.png "Expires On column that shows the expiration dates for backups")
 
--   System backups do not count against your storage limits.  
+- System backups do not count against your storage limits.  
   
--   System backups are identified as created by **System** on the **Manage backups** page.  
+- System backups are identified as created by **System** on the **Manage backups** page.  
   
- ![Backup & Restore tab in the Dynamics 365 Administration Center](../admin/media/backup-and-restore-tab.png "Backup & Restore tab in the Dynamics 365 Administration Center")  
+  ![Backup & Restore tab in the Dynamics 365 Administration Center](../admin/media/backup-and-restore-tab.png "Backup & Restore tab in the Dynamics 365 Administration Center")  
   
 ### See your system backups  
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or Delegated Admin security roles.  
   
-2.  Click **Admin centers** > **Dynamics 365**.  
+2. Click **Admin centers** > **Dynamics 365**.  
   
-3.  Click the **Backup & Restore** tab.  
+3. Click the **Backup & Restore** tab.  
   
-4.  Choose an instance from the **Backups for** drop-down list.  
+4. Choose an instance from the **Backups for** drop-down list.  
   
- System-created backups appear under **Created By** as **System**.  
+   System-created backups appear under **Created By** as **System**.  
   
- ![System-created backups appear under Created By as System.](../admin/media/backup-system-restore-point.png "System-created backups appear under Created By as System.")  
+   ![System-created backups appear under Created By as System.](../admin/media/backup-system-restore-point.png "System-created backups appear under Created By as System.")  
   
 <a name="BKMK_ODBCRMManaged"></a>   
 
@@ -67,23 +68,23 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
  About [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] managed **on-demand backups**:  
   
--   You can back up Production and Sandbox instances.  
+- You can back up Production and Sandbox instances.  
   
 - **You can only restore to a Sandbox instance**. To restore to a Production instance, first switch it to a Sandbox instance. See [Switch an instance](../admin/switch-instance.md).  
   
--   Only [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] or later versions are supported for backup.  
+- Only [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] or later versions are supported for backup.  
   
--   On-demand backups are retained for up to three days. Check your expiration date.  
+- On-demand backups are retained for up to three days. Check your expiration date.  
   
- ![On-demand backup expiration date](../admin/media/on-demand-backup-expiration-date.png "On-demand backup expiration date")  
+  ![On-demand backup expiration date](../admin/media/on-demand-backup-expiration-date.png "On-demand backup expiration date")  
   
--   You are not limited in the number of on-demand backups you can make.
+- You are not limited in the number of on-demand backups you can make.
 
--   On-demand backups do not count against your storage limits.  
+- On-demand backups do not count against your storage limits.  
 
--   On-demand backups are identified by having a label you created and by the presence of **Edit** | **Delete** | **Restore** in the details section. System backups have only **Restore**.  
+- On-demand backups are identified by having a label you created and by the presence of **Edit** | **Delete** | **Restore** in the details section. System backups have only **Restore**.  
   
- ![Edit, Delete, and Restore buttons for Dynamics 365 on-demand backups.](../admin/media/managed-backup.png "Edit, Delete, and Restore buttons for Dynamics 365 on-demand backups.")  
+  ![Edit, Delete, and Restore buttons for Dynamics 365 on-demand backups.](../admin/media/managed-backup.png "Edit, Delete, and Restore buttons for Dynamics 365 on-demand backups.")  
   
 <a name="BKMK_CreateCRMBackup"></a>   
 
@@ -91,23 +92,23 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or Delegated Admin security roles.  
   
-2.  Click **Admin centers** > **Dynamics 365**.  
+2. Click **Admin centers** > **Dynamics 365**.  
   
-3.  Click the **Backup & Restore** tab.  
+3. Click the **Backup & Restore** tab.  
   
-4.  Choose an instance from the **Backups for** drop-down list.  
+4. Choose an instance from the **Backups for** drop-down list.  
   
-5.  Click **New backup**.  
+5. Click **New backup**.  
   
- ![New backup button](../admin/media/new-backup-button.png "New backup button")  
+   ![New backup button](../admin/media/new-backup-button.png "New backup button")  
   
-6.  Type a label and any notes to help identify this backup for future restoration.  
+6. Type a label and any notes to help identify this backup for future restoration.  
   
-7.  Click **Create**.  
+7. Click **Create**.  
   
- ![Form for creating a new Dynamics 365 (online) backup.](../admin/media/online-backup.png "Form for creating a new Dynamics 365 (online) backup.")  
+   ![Form for creating a new Dynamics 365 (online) backup.](../admin/media/online-backup.png "Form for creating a new Dynamics 365 (online) backup.")  
   
- A notification will be displayed to confirm the backup is being created.  The status column in the list provides the status of the backup.  
+   A notification will be displayed to confirm the backup is being created.  The status column in the list provides the status of the backup.  
   
 > [!NOTE]
 >  The instance remains available while being backed up.  
@@ -119,19 +120,19 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or Delegated Admin security roles.  
   
-2.  Click **Admin centers** > **Dynamics 365**.  
+2. Click **Admin centers** > **Dynamics 365**.  
   
-3.  Click the **Backup and Restore** tab.  
+3. Click the **Backup and Restore** tab.  
   
-4.  Choose an instance from the **Backups for** drop-down list.  
+4. Choose an instance from the **Backups for** drop-down list.  
   
-5.  Choose an on-demand backup from the list of backups.  
+5. Choose an on-demand backup from the list of backups.  
   
-6.  Click **Edit**.  
+6. Click **Edit**.  
   
- ![Edit backup button](../admin/media/edit-backup-button.png "Edit backup button")  
+   ![Edit backup button](../admin/media/edit-backup-button.png "Edit backup button")  
   
-7.  Change the information as needed, and then click **Save**.  
+7. Change the information as needed, and then click **Save**.  
   
 <a name="BKMK_RestoreBackups"></a>   
 
@@ -140,25 +141,25 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or Delegated Admin security roles.  
   
-2.  Click **Admin centers** > **Dynamics 365**.  
+2. Click **Admin centers** > **Dynamics 365**.  
   
-3.  Click the **Backup and Restore** tab.  
+3. Click the **Backup and Restore** tab.  
   
-4.  Choose an instance from the **Backups for** drop-down list.  
+4. Choose an instance from the **Backups for** drop-down list.  
   
-5.  Choose an on demand backup from the list of backups.  
+5. Choose an on demand backup from the list of backups.  
   
-6.  Click **Restore**.  
+6. Click **Restore**.  
   
- ![Restore button](../admin/media/restore-button.png "Restore button")  
+   ![Restore button](../admin/media/restore-button.png "Restore button")  
   
-7.  Click **Select target**  to pick a target instance.  
+7. Click **Select target**  to pick a target instance.  
   
-8.  Click **Next**. Verify the details, and then click **Restore**.  
+8. Click **Next**. Verify the details, and then click **Restore**.  
   
- ![Restore an on-demand backup page](../admin/media/restore-backup-page.png "Restore an on-demand backup page")  
+   ![Restore an on-demand backup page](../admin/media/restore-backup-page.png "Restore an on-demand backup page")  
   
- A notification will be displayed confirming that the backup is being restored.  It can take some time for the restoration to complete.  
+   A notification will be displayed confirming that the backup is being restored.  It can take some time for the restoration to complete.  
   
 > [!NOTE]
 >  The instance remains unavailable while being restored.  
@@ -170,19 +171,19 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or Delegated Admin security roles.  
   
-2.  Click **Admin centers** > **Dynamics 365**.  
+2. Click **Admin centers** > **Dynamics 365**.  
   
-3.  Click the **Backup & Restore** tab.  
+3. Click the **Backup & Restore** tab.  
   
-4.  Choose an instance from the **Backups for** drop-down list.  
+4. Choose an instance from the **Backups for** drop-down list.  
   
-5.  Choose an on-demand backup from the list of backups.  
+5. Choose an on-demand backup from the list of backups.  
   
-6.  Click **Delete**.  
+6. Click **Delete**.  
   
- ![Delete backup button](../admin/media/delete-backup-button.png "Delete backup button")  
+   ![Delete backup button](../admin/media/delete-backup-button.png "Delete backup button")  
   
-7.  Click **Confirm**.  
+7. Click **Confirm**.  
  
 ### See also  
  [Switch an instance](../admin/switch-instance.md)   

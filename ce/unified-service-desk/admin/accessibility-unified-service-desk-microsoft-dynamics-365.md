@@ -1,20 +1,23 @@
 ---
-title: "Accessibility in Unified Service Desk for Dynamics 365 | MicrosoftDocs"
+title: "Accessibility in Unified Service Desk for Microsoft Dynamics 365 | MicrosoftDocs"
 description: "Learn about accessiblity features such as keyboard access and screen reader support."
-ms.custom: ""
+ms.custom:
+  - dyn365-a11y
+  - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Unified Service Desk 3.x"
 ms.assetid: f43d9d0d-50fa-4ffa-908a-e592b40371b4
-author: "Mattp123"
-ms.author: "matp"
+author: kabala123
+ms.author: kabala
 tags: 
  - "MigrationHO"
+manager: sakudes
 ---
 # Accessibility features in Unified Service Desk
 Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Microsoft accessibility](http://www.microsoft.com/enable/default.aspx)  

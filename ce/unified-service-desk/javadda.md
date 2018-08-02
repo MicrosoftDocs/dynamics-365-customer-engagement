@@ -1,10 +1,11 @@
 ---
 title: "JavaDDA in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "The Java data-driven adapter (JavaDDA) uses the Java Access Bridge to automate Java applications. User Interface Integration (UII) supports Java Access Bridge 2.0.2."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +17,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: 1992cc1f-c212-486b-a457-aaf7bcf58b52
 caps.latest.revision: 5
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # JavaDDA in Unified Service Desk
 The [!INCLUDE[pn_Java](../includes/pn-java.md)] data-driven adapter (JavaDDA) uses the [Java Access Bridge](http://www.oracle.com/technetwork/java/javase/tech/index-jsp-136191.html) to automate [!INCLUDE[pn_Java](../includes/pn-java.md)] applications. [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] supports Java Access Bridge 2.0.2. You can use tools such as [Java Monkey](https://docs.oracle.com/javase/accessbridge/2.0.2/javamonkey.htm) and [Java Ferret](https://docs.oracle.com/javase/accessbridge/2.0.2/javaferret.htm) to understand the accessibility structure of the application. To use the DDA, you need to inspect the application using either of these tools, and build the bindings manually and feed them to the DDA using initstring.  

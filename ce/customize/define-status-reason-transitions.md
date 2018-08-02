@@ -53,18 +53,18 @@ You can specify status reason transitions for the Incident (**Case**) entity or 
   
  The screenshot below provides an example that meets the following requirements:  
   
--   A case can be merged at any time. You will not be able to merge cases if a status reason transition does not allow for it.  
+- A case can be merged at any time. You will not be able to merge cases if a status reason transition does not allow for it.  
   
--   An active case can be canceled at any time.  
+- An active case can be canceled at any time.  
   
--   A resolved or canceled case cannot be reactivated.  
+- A resolved or canceled case cannot be reactivated.  
   
--   All cases must pass through the following stages: **In Progress** > **On Hold** > **Waiting for Details** > **Researching** before they can be resolved. With this configuration, a case could not be set to an earlier status.  
+- All cases must pass through the following stages: **In Progress** > **On Hold** > **Waiting for Details** > **Researching** before they can be resolved. With this configuration, a case could not be set to an earlier status.  
   
-    > [!NOTE]
-    >  This is not a good example for real work, but it demonstrates how stages of status can be enforced through status reason transitions.  
+  > [!NOTE]
+  >  This is not a good example for real work, but it demonstrates how stages of status can be enforced through status reason transitions.  
   
- ![Example of status reason transitions for case](../customize/media/status-reason-transitions-example.PNG "Example of status reason transitions for case")  
+  ![Example of status reason transitions for case](../customize/media/status-reason-transitions-example.PNG "Example of status reason transitions for case")  
   
 ### See Also  
  [Create and edit fields](../customize/create-edit-fields.md)   

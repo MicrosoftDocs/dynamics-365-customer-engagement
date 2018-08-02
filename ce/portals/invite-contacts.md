@@ -1,9 +1,10 @@
 ---
 title: "Invite contacts to your portal in Dynamics 365  | MicrosoftDocs"
 description: "Instructions to create and configure invitations in a portal."
-ms.custom: ""
-ms.date: 12/05/2017
-ms.service: crm-online
+ms.custom:
+  - dyn365-portal
+ms.date: 06/08/2018
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
@@ -32,6 +33,7 @@ To edit the **Send Invitation** workflow email template, locate it and deactivat
 
 > [!NOTE]
 > The invitation is sent only to the primary email (emailaddress1) of the contact. The invitation will not be sent to the secondary email (emailaddress2) or alternate email (emailaddress3) of the contact record.
+> The **Send Invitation** workflow is supported only in web client.
 
 ## Create and configure invitations
 
@@ -43,21 +45,22 @@ The invitation will not be sent to the Contact(s) until the **Send Invitation** 
 
 The Invitation Form has the following fields:
 
-| Name                                  | Description                                                                                                                                                                                                         |
-|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Name                                  | A descriptive name for helping recognize the invitation.                                                                                                                                                            |
-| Type                                  | **Single** or **Group**. Single will allow only one contact to be invited and only one redemption. Group allows multiple contacts to be invited and multiple redemptions.                                           |
-| Owner/Sender                          | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] user that will be the sender of the email when the invitation is sent. This can be overridden in the **Send Invitation** workflow if the created email already contains someone in the from field. |
-| Invitation Code                       | A unique code for the invitation that only the invitee will know. This is automatically generated when creating a new invitation.                                                                                   |
-| Expiry Date                           | The date that represents when the invitation will become invalid for redemption. Optional.                                                                                                                          |
-| Inviter                               | Can be used when a contact is the sender of the invitation. Optional.                                                                                                                                               |
-| Invited Contact(s)                    | The contact(s) to be invited to a portal.                                                                                                                                                                           |
-| Assign to Account                     | An account record to be associated as the redeeming contact's parent customer when the invite is redeemed. Optional.                                                                                                |
-| Execute Workflow on Redeeming Contact | A workflow process to be executed when the invite is redeemed. The workflow will be passed the redeeming contact as the primary entity. Optional.                                                                   |
-| Assign to Web Roles                   | A set of web roles to be associated with the redeeming contact when the invite is redeemed. Optional.                                                                                                               |
-| Redeemed Contact(s)                   | The contact(s) that have successfully redeemed the invitation.                                                                                                                                                      |
-| Maximum Redemptions Allowed           | The number of times the invitation can be redeemed. Available for Group type invitations only.                                                                                                                      |
-||
+
+|                 Name                  |                                                                                                                            Description                                                                                                                             |
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                 Name                  |                                                                                                      A descriptive name for helping recognize the invitation.                                                                                                      |
+|                 Type                  |                                             **Single** or **Group**. Single will allow only one contact to be invited and only one redemption. Group allows multiple contacts to be invited and multiple redemptions.                                              |
+|             Owner/Sender              | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] user that will be the sender of the email when the invitation is sent. This can be overridden in the **Send Invitation** workflow if the created email already contains someone in the from field. |
+|            Invitation Code            |                                                                 A unique code for the invitation that only the invitee will know. This is automatically generated when creating a new invitation.                                                                  |
+|              Expiry Date              |                                                                                     The date that represents when the invitation will become invalid for redemption. Optional.                                                                                     |
+|                Inviter                |                                                                                               Can be used when a contact is the sender of the invitation. Optional.                                                                                                |
+|          Invited Contact(s)           |                                                                                                             The contact(s) to be invited to a portal.                                                                                                              |
+|           Assign to Account           |                                                                        An account record to be associated as the redeeming contact's parent customer when the invite is redeemed. Optional.                                                                        |
+| Execute Workflow on Redeeming Contact |                                                         A workflow process to be executed when the invite is redeemed. The workflow will be passed the redeeming contact as the primary entity. Optional.                                                          |
+|          Assign to Web Roles          |                                                                               A set of web roles to be associated with the redeeming contact when the invite is redeemed. Optional.                                                                                |
+|          Redeemed Contact(s)          |                                                                                                   The contact(s) that have successfully redeemed the invitation.                                                                                                   |
+|      Maximum Redemptions Allowed      |                                                                                   The number of times the invitation can be redeemed. Available for Group type invitations only.                                                                                   |
+|                                       |                                                                                                                                                                                                                                                                    |
 
 ### See also
 

@@ -2,13 +2,16 @@
 title: "Social Engagement scenarios for salespeople | Microsoft Docs"
 description: "Review sales scenarios to get inspiration for how to efficiently leverage Social Engagement in your organization."
 ms.date: 09/12/2017
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 2ad0f5dc-24c6-4cad-a8e2-f88361765607
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 ms.manager: sakudes
+ms.custom:
+  - dyn365-socialengagement
+manager: sakudes
 ---
 # Social selling - grow your network and boost sales
 
@@ -42,13 +45,13 @@ Learn how to install, configure, and personalize the Social Selling Assistant to
 
 Save time and minimize repetitive activities. Create new records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. For example, you can create a lead and assign it to the right salesperson in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] so they can follow up with potential customers efficiently.
 
-1.  Get an [overview](link-posts-to-dynamics-365.md) of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] integration.
+1. Get an [overview](link-posts-to-dynamics-365.md) of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] integration.
 
-2.  [Set up the connection](connect-dynamics-365-social-engagement.md) to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
+2. [Set up the connection](connect-dynamics-365-social-engagement.md) to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
 
-3.  [Set up record details](create-dynamics-365-record-from-social-post.md) for leads.
+3. [Set up record details](create-dynamics-365-record-from-social-post.md) for leads.
 
-4.  [Create a lead from a post](create-dynamics-365-record-from-social-post.md#convert-a-social-engagement-post-to-a-social-activity) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
+4. [Create a lead from a post](create-dynamics-365-record-from-social-post.md#convert-a-social-engagement-post-to-a-social-activity) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 ## Sales automation: leverage intelligence to automatically find leads
 

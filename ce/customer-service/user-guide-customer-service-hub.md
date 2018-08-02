@@ -5,11 +5,12 @@ keywords: Customer Service Hub; Customer Service;  Microsoft Dynamics 365
 author: anjgupta
 applies_to: Dynamics 365 (online) 
 ms.author: anjgup
-manager: sakudes
+manager: shellyha
 ms.date: 02/20/2018
 ms.topic: get-started-article
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.assetid: b7c2eb02-765a-4b9f-b8cd-d9f0285ea10b
+ms.custom: dyn365-customerservice
 ---
 
 # User Guide (Customer Service Hub)
@@ -69,4 +70,4 @@ Refer below to know how the Customer Service Hub app complies to accessibility a
   
 [Overview of Customer Service and Customer Service Hub ](overview.md)
 
-[Upgrade to the Customer Service Hub in Microsoft Dynamics 365](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)
+[Upgrade to the Customer Service Hub in Microsoft Dynamics 365](upgrade-ish-csh.md)

@@ -599,6 +599,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_columnmapping"></a> userentityinstancedata_columnmapping
 
 Same as userentityinstancedata entity [userentityinstancedata_columnmapping](userentityinstancedata.md#BKMK_userentityinstancedata_columnmapping) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -613,6 +614,7 @@ Same as userentityinstancedata entity [userentityinstancedata_columnmapping](use
 ### <a name="BKMK_PickListMapping_ColumnMapping"></a> PickListMapping_ColumnMapping
 
 Same as picklistmapping entity [PickListMapping_ColumnMapping](picklistmapping.md#BKMK_PickListMapping_ColumnMapping) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|picklistmapping|
@@ -627,6 +629,7 @@ Same as picklistmapping entity [PickListMapping_ColumnMapping](picklistmapping.m
 ### <a name="BKMK_LookUpMapping_ColumnMapping"></a> LookUpMapping_ColumnMapping
 
 Same as lookupmapping entity [LookUpMapping_ColumnMapping](lookupmapping.md#BKMK_LookUpMapping_ColumnMapping) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|lookupmapping|

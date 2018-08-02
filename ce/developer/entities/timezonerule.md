@@ -604,6 +604,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_timezonerule"></a> userentityinstancedata_timezonerule
 
 Same as userentityinstancedata entity [userentityinstancedata_timezonerule](userentityinstancedata.md#BKMK_userentityinstancedata_timezonerule) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
