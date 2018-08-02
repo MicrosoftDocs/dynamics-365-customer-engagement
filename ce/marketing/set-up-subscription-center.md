@@ -205,19 +205,15 @@ To set up a segment tile to target a subscription list:
 1. Set the **Segment source** to **Subscription Marketing List**, which activates the **Marketing List** field. Then set the **Marking List** to the name of the subscription list you want to use for this journey.  
     ![Set a segment tile to load a subscription list](media/cj-target-subscription-list.png "Set a segment tile to load a subscription list")
 
-
 > [!IMPORTANT]
 > When a customer journey targets a subscription list, then any contact that unsubscribes from that list using a subscription center will automatically be removed from that journey within about 24 hours, even if they are already partway through it. However, if a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] users removes a contact from the list manually using the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] interface, that contact will continue to be processed by any journeys they already are on, and may continue to receive messages until all active journeys are complete. For this reason, it is usually best to request all contacts to manage their own subscriptions using the subscription center.
 
-
-
 ### See also
 
-[Create and deploy marketing pages](create-deploy-marketing-pages.md)
+[Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Create a simple customer journey](create-simple-customer-journey.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
-[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
+[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)  
 [Find your way around](navigation.md)  
 [How Dynamics 365 for Marketing uses cookies](cookies.md)
-
