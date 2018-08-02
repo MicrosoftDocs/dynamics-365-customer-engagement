@@ -1,26 +1,28 @@
 ---
 title: "Hosted control types, action, and event reference in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "The section provides information about the various types of hosted controls in Unified Service Desk, and the predefined User Interface Integration (UII) actions and events available for each hosted control type."
+keywords: ""
+ms.date: 08/03/2018
+ms.service:
+  - "dynamics-365-customerservice"
 ms.custom:
-  - dyn365-USD
-ms.date: 08/23/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+  - "dyn365-USD"
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 4b891311-28d7-4776-8414-c6d83bfe43bf
-caps.latest.revision: 12
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 ---
+
 # Hosted control types, action, and event reference in Unified Service Desk
 This section provides information about the various types of hosted controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and the predefined [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] actions and events available for each hosted control type. You can also view information about the predefined [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions and events for hosted controls in the embedded help in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View embedded help for actions and events](../unified-service-desk/view-embedded-help-for-actions-and-events.md)  
   
@@ -46,6 +48,8 @@ This section provides information about the various types of hosted controls in 
   
  [Interactive Service Hub Page (Hosted Control)](../unified-service-desk/interactive-service-hub-page-hosted-control.md)  
   
+ [Unified Interface KM Control (Hosted Control)](../unified-service-desk/unified-interface-km-control-hosted-control.md)  
+
  [KM Control (Hosted Control)](../unified-service-desk/km-control-hosted-control.md)  
   
  [Listener Hosted Control (Hosted Control)](../unified-service-desk/listener-hosted-control-hosted-control.md)  

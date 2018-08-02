@@ -27,5 +27,6 @@ This section describes the known issues and limitations in [!INCLUDE[pn_unified_
 
 ## In this section
 
-[Release notes of Unified Service Desk 4.0](release-notes-unified-service-desk-40.md)
-[Release notes of Unified Service Desk 3.3](release-notes-unified-service-desk-33.md)
+- [Release notes of Unified Service Desk 4.0](release-notes-unified-service-desk-40.md)
+
+- [Release notes of Unified Service Desk 3.3](release-notes-unified-service-desk-33.md)
