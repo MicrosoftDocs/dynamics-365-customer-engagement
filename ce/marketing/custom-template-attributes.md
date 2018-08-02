@@ -124,10 +124,8 @@ The following table lists the available values for the `data-editorblocktype` at
 | Forward-to-a-friend block | From content | ForwardToFriendBlock |
 | Do-not- email block and Remember-me block | Form content | Field-checkbox (these blocks each create check boxes and are otherwise differentiated by their internal settings) |
 | Submit-button block | Form content | SubmitButtonBlock |
-| Rest-button block | Form content | ResetButtonBlock |
+| Reset-button block | Form content | ResetButtonBlock |
 | Captcha block | Form content | CaptchaBlock |
-
-<!--In line 127, is "rest" correct or should it be "reset"?-->
 
 For more information about each of these content blocks, see [Content blocks reference](content-blocks-reference.md).
 

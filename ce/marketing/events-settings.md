@@ -2,7 +2,7 @@
 title: "Set up event administration options and webinar provider accounts (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Set options for event administration and configure connections to your webinar provider accounts in Dynamics 365 for Marketing"
 keywords: "administration; webinar; webinar provider"
-ms.date: 07/17/2018
+ms.date: 08/02/2018
 ms.service:
   - "dynamics-365-marketing"
 ms.custom:
@@ -19,8 +19,6 @@ manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
 ---
-
-<!--Remember to update publication date-->
 
 # Event management settings
 

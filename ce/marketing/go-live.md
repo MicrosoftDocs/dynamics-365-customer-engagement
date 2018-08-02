@@ -131,8 +131,6 @@ The event go-live functionality works a bit differently from the other entities 
 
 The events entity has a **Status** field, which works the same way as it does for most entities, but it doesn't use the **Status reason** field to monitor publish status. Instead, the events entity has a **Publish status** field, which is fully editable all the time you work with an event. This value is shown as a drop-down list in the upper-right corner when you are editing an event record.
 
-<!--Is the name (Lamar Ferrari) in this image from a fictitious names list?-->
-
 ![The Publish Status menu for events](media/golive-publish-event.png "The Publish Status menu for events")
 
 The default values for **Publish status** are _Draft_, _Ready to publish_, _In progress_, and _Published_. Other than _Published_, all these values are for information only, so you can use them to track your work progress and coordinate with coworkers as needed. However, when you set this to _Published_, then the event details will become available publicly on your portals server. Set the **Publish status** to any value other than _Published_ to hide the event on your portal.

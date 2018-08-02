@@ -2,7 +2,7 @@
 title: "Video overviews and instructions for Marketing | Microsoft Docs"
 description: "Find video-based information about Dynamics 365 for Marketing"
 keywords: "videos;how-to;overview"
-ms.date: 07/17/2018
+ms.date: 08/02/2018
 ms.service:
   - "dynamics-365-marketing"
 ms.custom:
@@ -19,8 +19,6 @@ manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
 ---
-
-<!--Be sure to update the publication date-->
 
 # Watch these videos to learn more about [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
@@ -42,11 +40,9 @@ For an even more detailed video overview of the features and benefits of [!INCLU
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)]
 
-<!--The second and third entries go to the same URL. Is that correct?-->
-
 - Tutorial: [Create a marketing email and go live](create-marketing-email.md)
 - [Design your digital content](design-digital-content.md)
-- [Keyboard shortcuts and accessibility features for content designers](design-digital-content.md)
+- [Keyboard shortcuts and accessibility features for content designers](designer-shortcuts.md)
 - [Prepare marketing email messages](prepare-marketing-emails.md)
 - [Work with email, page, and form templates](email-templates.md)
 - [Content blocks reference](content-blocks-reference.md)
