@@ -109,11 +109,7 @@
     ]
   },
   "need_generate_pdf_url_template": true,
-  "targets": {
-    "Pdf": {	
-      "template_folder": "_themes.pdf"	
-    }	
-  },
+  "targets": {},
   "dependent_packages": [
     {
       "id": "Microsoft.OpenPublishing.CommonPlugins",
