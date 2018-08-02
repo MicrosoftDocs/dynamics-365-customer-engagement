@@ -21,7 +21,7 @@ manager: shellyha
 ---
 # Create a project opportunity (Project Service Automation)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Opportunities are warm leads from customers who are interested in contracting your services. [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] guide you through the steps for opening an opportunity for one of your accounts, preparing a project quote, and working out a project contract with your customer. Start by adding an opportunity. You can add estimates for services and products to the opportunity, as well. When you add an opportunity, you’re in the **Qualify** phase of your project.  
   

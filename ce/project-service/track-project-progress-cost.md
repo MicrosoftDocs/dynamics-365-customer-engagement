@@ -21,7 +21,7 @@ manager: shellyha
 ---
 # Track project progress and cost (Project Service Automation)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 The need for tracking progress against a work breakdown structure varies across industry verticals. Some industries do it more diligently at a very granular level of the work breakdown structure, while others might track at a higher level of the work breakdown structure.  
   
