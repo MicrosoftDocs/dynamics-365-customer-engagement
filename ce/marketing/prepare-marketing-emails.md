@@ -27,6 +27,9 @@ topic-status: Drafting
 
 The process for creating marketing emails in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] begins with understanding what makes them such a powerful tool for your marketing campaigns. After you create a good design aimed at a specific segment of your audience, you preview it and check for errors before going live. You can fine-tune the reach and effectiveness of your message through advanced operations like merging database values, adding dynamic content, and introduce programming logic.
 
+> [!IMPORTANT]
+> Email messages have a maximum size limit of 125 KB, which includes both plain-text and HTML content, but doesn't include images.
+
 ## How marketing email works in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
 
 Marketing email in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] works quite differently from the person-to-person messaging that you already use. Here are a few of the most important differences:
@@ -246,7 +249,7 @@ While you prepare a message, it stays in a draft state, which means that it's in
 
 To publish a message, open it and select **Go Live**. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] will run a final validation check, as described in the previous section, and&mdash;if it passes&mdash;publish the message. If errors are returned, read the error messages, address the issues, and try again until the message is successfully published.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md) and [Go live with publishable entities and track their status](go-live.md)
 
 ### See also
 
