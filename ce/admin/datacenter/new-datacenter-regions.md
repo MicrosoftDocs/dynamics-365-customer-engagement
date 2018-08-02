@@ -1,7 +1,7 @@
 ---
 title: "Datacenter regions for Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 07/16/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -25,7 +25,7 @@ ms.author: "jimholtz"
   
 - For existing [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organizations, [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] will soon accommodate migrations to datacenters in the new region when requested by the customer as long as the [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization meets certain business requirements.  
   
-The following table lists the newest datacenter regions. The [datacenter maps](http://go.microsoft.com/fwlink/p/?LinkId=522460) show all the regions. Or use the interactive data map: [Where is my data?](http://go.microsoft.com/fwlink/p/?LinkID=401277)  
+The following table lists the newest datacenter regions. Checkout the interactive data map: [Where is my data?](http://go.microsoft.com/fwlink/p/?LinkID=401277)  
   
 |Datacenter regions|Service area|Information|  
 |------------------------|------------------|-----------------|  

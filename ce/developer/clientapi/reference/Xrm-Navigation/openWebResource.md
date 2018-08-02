@@ -1,6 +1,6 @@
 ---
 title: "openWebResource (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -24,7 +24,7 @@ manager: "amyla"
 |Name |Type |Required |Description |
 |---|---|---|---|
 |webResourceName|String|Yes|Name of the HTML web resource to open.|
-|windowOptions|Object|No|Window options for opening the web resource. The object contains the following attributes:<br/>- **height**: (Optional) Number. Height of the window to open in pixels.<br/>- **openInNewWindow**: Boolean. Indicates whether to open the web resource in a new window.<br/>- **width**: (Optional) Number. Width of the window to open in pixels.|
+|windowOptions|Object|No|Window options for opening the web resource. The object contains the following attributes:<br/>- **height**: (Optional) Number. Height of the window to open in pixels.<br/>- **width**: (Optional) Number. Width of the window to open in pixels.|
 |data|String|No|Data to be passed into the data parameter.|
 
 ## Remarks
@@ -47,7 +47,7 @@ An HTML web resource can accept the parameter values described in [Pass paramete
 - Open an HTML web resource, setting the windowOptions:
 
   ```
-  var windowOptions = { openInNewWindow: true, height: 400, width: 400 }
+  var windowOptions = { height: 400, width: 400 }
   Xrm.Navigation.openWebResource("new_webResource.htm",windowOptions);
   ```
 

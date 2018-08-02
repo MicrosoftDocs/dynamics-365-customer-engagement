@@ -10,8 +10,7 @@ ms.date: 02/20/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
 ---
 
 # Track your cases efficiently and act on them quickly in the Customer Service Hub
@@ -129,6 +128,9 @@ Similarly, the status of the SLA KPI instance is updated when the first response
 - Has succeeded
 
   ![sla-succeeded](media/sla-succeeded.png "timer control succeeded")
+
+> [!NOTE]
+> The SLA timer continues to run once it is triggered or un-paused. It includes the holiday hours, non-business hours, and pause time (only business hours) while projecting the SLA warning or failure time. 
 
 You can now also apply SLAs on demand. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Apply SLA on demand](define-service-level-agreements.md#apply-sla-on-demand)
 
@@ -341,10 +343,13 @@ You can set a parent child relationship between cases where you can set one case
 5.  In the **Billable Time** list, enter the amount of time spent on the case to be billed to the customer.  
 
      If this case is linked to an entitlement, the billable time will be subtracted from the allotted minutes for that entitlement.  
+  
+6.  Select **Resolve**.
 
-6.  Select **Resolve**.  
-
-
+> [!NOTE]
+> You cannot edit or update any attribute of the case once it is resolved.
+  
+ 
 ## Cancel a case  
  All case activities must be closed before you can cancel a case.  
 
