@@ -1,10 +1,11 @@
 ---
 title: "Create and manage UII hosted applications | MicrosoftDocs"
 description: "Learn about using the User Interface Integration (UII) hosted application to host your external application or a web application in Unified Service Desk. To host an external or web application in Unified Service Desk, you configure a hosted control of type CCA Hosted Application, and then select Web Hosted Application or External Hosted Application from the Hosted Application list."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +17,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: ba20bfa3-6a1d-4e87-9faa-40317c839be4
 caps.latest.revision: 9
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Create and manage UII hosted applications in Unified Service Desk
 A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] hosted application enables you to create and host a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] hosted control, Windows Forms or [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)] application, web application, or a remote (Citrix) application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  

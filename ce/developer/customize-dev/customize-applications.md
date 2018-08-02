@@ -1,7 +1,8 @@
 ---
 title: "Customize Dynamics 365 Customer Engagement applications (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Dynamics 365 Customer Engagement client applications include the web application, Dynamics 365 for phones, and Dynamics 365 for tablets. Each of these clients reference a common set of data that controls visual elements of the clients. This application metadata is usually edited using customization tools in the application or third-party tools. Other clients can also reference this application metadata if they want to leverage configuration options defined for specific organizations."
-ms.custom: ""
+ms.custom: 
+  - dyn365-deflc
 ms.date: 10/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"

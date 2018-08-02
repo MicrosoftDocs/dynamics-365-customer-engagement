@@ -2,8 +2,8 @@
 title: "Sources coverage in Social Engagement | Microsoft Docs"
 description: "Learn what's included in the sources available in Social Engagement."
 keywords: "sources, blogs, custom sources, Disqus, Facebook, Twitter, LinkedIn, Reddit, YouTube, forums, Instagram, news"
-ms.date: 04/12/2018
-ms.service: mse
+ms.date: 05/08/2018
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -11,7 +11,8 @@ ms.assetid: 050283f4-bc5b-42e1-9885-ebdcfd786521
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Find out what&#39;s covered by sources
@@ -20,7 +21,7 @@ topic-status: Drafting
 
 ## Blogs
 
-Create [keyword rules](add-rules-search-topic.md#addKeywordsRule) for full coverage for blog posts from Tumblr, broad coverage of blog posts from WordPress, and for blog posts from a third aggregated blog source, including a variety of blogs that range from blog aggregators like Blogger.com to small single-site blogs. If you want to update existing search topics to include the extended coverage of the blogs source, you can edit your existing keyword search rules.
+Create [keyword rules](add-rules-search-topic.md#addKeywordsRule) for full coverage for blog posts from Tumblr, broad coverage of blog posts from WordPress, and for blog posts from a third aggregated blog source, including a variety of blogs that range from blog aggregators like Blogger.com to small single-site blogs. If you want to update existing search topics to include the extended coverage of the blog's source, you can edit your existing keyword search rules.
 
 ## Custom sources
 
@@ -32,10 +33,10 @@ Posts and comments published on Disqus are available for [keyword searches](add-
 
 ## Facebook
 
-Monitor posts and comments on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages without age restriction or geographical restriction that are added to your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page rules. You can also gather private messages for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages if you add a social profile and explicitly allow the acquisition of private messages.
+Monitor posts and comments on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages without age restriction or geographical restriction that are added to your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page rules. You can also gather private messages, including attachments, for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages if you add a social profile and explicitly allow the acquisition of private messages.
 
 > [!NOTE]
-> [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] groups, [unpublished page posts](https://www.facebook.com/business/help/835452799843730) (formerly known as dark posts), ads, and status updates are not available for monitoring or engagement at this time. Starting February 6th 2018, author information for Facebook posts is only available if you add a Facebook page profile for every page you own and keep their interaction tokens valid. 
+> [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] groups, [unpublished page posts](https://www.facebook.com/business/help/835452799843730) (formerly known as dark posts), ads, and status updates are not available for monitoring or engagement at this time. As of February 6, 2018, author information for Facebook posts is only available if you add a Facebook page profile for every page you own and keep their interaction tokens valid. 
 
 To add a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page rule, see [Add a Facebook pages rule](add-rules-search-topic.md#addFacebookRule).
 
@@ -46,10 +47,10 @@ To add a private messages rule for [!INCLUDE[tn_facebook](../includes/tn-faceboo
 
 ## Instagram
 
-After you add an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account to a social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you need to allow the data acquisition for that profile. After you allow the data acquisition, you can configure search topics that contain [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] as a source. You can create a keyword search rule for #hashtags to receive posts from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)]. <!--, and you can set up [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account rules to gather all posts and comments on a specific [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account. -->
+After you add an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account to a social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you need to allow the data acquisition for that profile. After you allow the data acquisition, you can configure search topics that contain [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] as a source. You can create a keyword search rule for #hashtags to receive posts from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)]. 
 
 > [!NOTE]
-> [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] is a listening source only. You will not be able to  engage on [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. #Hashtags are mandatory to search [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts by using keyword rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md)
+> [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] is a listening source only. You will not be able to engage on [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. #Hashtags are mandatory to search [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts by using keyword rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md)
 
 ## [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]
 
@@ -65,7 +66,7 @@ Posts and comments published on Reddit are available for [keyword searches](add-
 
 ## Twitter
 
-Gain full coverage of public tweets on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] by creating a search topic with a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile rule or a keyword rule. You can also gather direct messages if you add a social profile and explicitly allow the acquisition of private messages.
+Gain full coverage of public tweets on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] by creating a search topic with a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile rule or a keyword rule. You can also gather direct messages, including attachments, if you add a social profile and explicitly allow the acquisition of private messages.
 
 To add a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] rule, see [Add a Twitter rule](add-rules-search-topic.md#addTwitterRule).
 

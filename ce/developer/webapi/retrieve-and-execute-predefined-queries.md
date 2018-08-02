@@ -2,7 +2,7 @@
 title: "Retrieve and execute predefined queries (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Dynamics 365 Customer Engagement provides a way for administrators to create system views that are available to all users. Read how you can compose a predefined query and use FetchXML to create a query string to retrieve data"
 ms.custom: ""
-ms.date: 12/30/2017
+ms.date: 06/14/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -40,13 +40,13 @@ Records for both of these types of entities contain the FetchXML definition for 
 GET [Organization URI]/api/data/v9.0/savedqueries?$select=name,savedqueryid&$filter=name eq 'Active Accounts'
 ```
 
-You can then use the savedqueryid value and pass it as the value to the savedQuery parameter to the accounts entity set.
+You can then use the `savedqueryid` value and pass it as the value to the savedQuery parameter to the accounts entity set.
 
 ```http
 GET [Organization URI]/api/data/v9.0/accounts?savedQuery=00000000-0000-0000-00aa-000010001002
 ```
 
-Use the same approach to get the userqueryid and pass it as the value to the userQuery parameter to the entity set that matches the corresponding                  returnedtypecode of the saved query.
+Use the same approach to get the userqueryid and pass it as the value to the `userQuery` parameter to the entity set that matches the corresponding `returnedtypecode` of the saved query.
 
 ```http
 GET [Organization URI]/api/data/v9.0/accounts?userQuery=121c6fd8-1975-e511-80d4-00155d2a68d1
@@ -134,7 +134,7 @@ OData-Version: 4.0
 
 ### Paging with FetchXML
 
-With fetchXML you can apply paging by setting the `page` and `count` attributes of the `fetch` element. For example, to set a query for accounts and limit the number of entities to 2 and to return just the first page, the following fetchXML:
+With FetchXML you can apply paging by setting the `page` and `count` attributes of the `fetch` element. For example, to set a query for accounts and limit the number of entities to 2 and to return just the first page, the following fetchXML:
 
 ```xml
 <fetch mapping="logical" page="1" count="2">  
@@ -147,11 +147,76 @@ With fetchXML you can apply paging by setting the `page` and `count` attributes 
 </fetch>
 ```
 
-With a request using fetchXML you can also request a paging cookie and include it with your query. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Page large result sets with FetchXML](../org-service/page-large-result-sets-with-fetchxml.md)  
+With a request using FetchXML you can also request a paging cookie and include it with your query. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Page large result sets with FetchXML](../org-service/page-large-result-sets-with-fetchxml.md)  
 
 A paging cookie must be requested as an annotation. Set the `odata.include-annotations` preference to use (or include) `Microsoft.Dynamics.CRM.fetchxmlpagingcookie` and a `@Microsoft.Dynamics.CRM.fetchxmlpagingcookie` property will be returned with the result.
 
-### See also
+<a name="bkmk_FetchXMLwithinBatch"></a>
+
+### Use FetchXML within a Batch request
+
+The length of a URL in a `GET` request is limited. Including FetchXML as a parameter in the URL can reach this limit.  You can execute a `$batch` operation using a `POST` request as a way to move the FetchXML out of the URL and into the body of the request where this limit will not apply. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Execute batch operations using the Web API](execute-batch-operations-using-web-api.md).
+
+#### Example
+
+**Request**
+
+```http
+POST [Organization URI]/api/data/v9.0/$batch HTTP/1.1
+
+Content-Type:multipart/mixed;boundary=batch_AAA123
+Accept:application/json
+OData-MaxVersion:4.0
+OData-Version:4.0
+
+--batch_AAA123
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+GET [Organization URI]/api/data/v9.0/accounts?fetchXml=%3Cfetch%20mapping='logical'%3E%3Centity%20name='account'%3E%3Cattribute%20name='accountid'/%3E%3Cattribute%20name='name'/%3E%3Cattribute%20name='telephone1'/%3E%3Cattribute%20name='accountid'/%3E%3Cattribute%20name='creditonhold'/%3E%3C/entity%3E%3C/fetch%3E HTTP/1.1
+Content-Type: application/json
+OData-Version: 4.0
+OData-MaxVersion: 4.0
+
+--batch_AAA123--
+```
+
+**Response**
+
+```json
+--batchresponse_cbfd44cd-a322-484e-913b-49e18af44e34
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+HTTP/1.1 200 OK
+Content-Type: application/json; odata.metadata=minimal
+OData-Version: 4.0
+
+{  
+   "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#accounts(accountid,name,telephone1,creditonhold)",
+   "value":[  
+      {  
+         "@odata.etag":"W/\"563737\"",
+         "accountid":"1f55c679-485e-e811-8151-000d3aa3c22a",
+         "name":"Fourth Coffee (sample)",
+         "telephone1":"+1-425-555-0121",
+         "creditonhold":false
+      },
+      {  
+         "@odata.etag":"W/\"563739\"",
+         "accountid":"2555c679-485e-e811-8151-000d3aa3c22a",
+         "name":"Litware, Inc. (sample)",
+         "telephone1":"+1-425-555-0120",
+         "creditonhold":false
+      }
+   ]
+}
+--batchresponse_cbfd44cd-a322-484e-913b-49e18af44e34--
+```
+
+
+
+## See also
 
  [Web API Query Data Sample (C#)](web-api-query-data-sample-csharp.md)<br />
  [Web API Query Data Sample (Client-side JavaScript)](web-api-query-data-sample-client-side-javascript.md)<br />

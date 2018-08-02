@@ -20,7 +20,7 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-If you have users and offices around the world, it is important to properly represent date and time values in multiple time zones. The `DateTimeAttributeMetadata` message (<xref href="Microsoft.Dynamics.CRM.DateTimeAttributeMetadata?text=DateTimeAttributeMetadata EntityType" /> or <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata> class) is used to define and manage attributes of type `DateTime` in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. Use the `DateTimeBehavior` property (For Organization Service see, <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata.DateTimeBehavior>) to define whether to store date and time values with or without time zone information, and use the `DateTimeAttributeMetadata.Format` property to specify the display format of these attributes.  
+If you have users and offices around the world, it is important to properly represent date and time values in multiple time zones. The `DateTimeAttributeMetadata` (<xref href="Microsoft.Dynamics.CRM.DateTimeAttributeMetadata?text=DateTimeAttributeMetadata EntityType" /> or <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata> class) is used to define and manage attributes of type `DateTime` in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. Use the `DateTimeBehavior` property (For Organization Service see, <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata.DateTimeBehavior>) to define whether to store date and time values with or without time zone information, and use the `DateTimeAttributeMetadata.Format` property to specify the display format of these attributes.  
 
   
  You can also use the customization area in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to define the behavior and format of the date and time attributes. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Behavior and format of the Date and Time field](../customize/behavior-format-date-time-field.md).  
@@ -35,7 +35,7 @@ If you have users and offices around the world, it is important to properly repr
 <a name="SpecifyBehavior"></a>   
 ## Specify the behavior of a date and time attribute
 
- You can use the `DateTimeBehavior` message (<xref href="Microsoft.Dynamics.CRM.DateTimeBehavior?text=DateTimeBehavior ComplexType" /> or <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeBehavior> class) to specify a value for the <xref href="Microsoft.Dynamics.CRM.DateTimeAttributeMetadata?text=DateTimeAttributeMetadata EntityType" />.DateTimeBehavior property. The `DateTimeBehavior` message contains the following members; each member returns a string with the same value as the member name:  
+ You can use the `DateTimeBehavior` (<xref href="Microsoft.Dynamics.CRM.DateTimeBehavior?text=DateTimeBehavior ComplexType" /> or <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeBehavior> class) to specify a value for the <xref href="Microsoft.Dynamics.CRM.DateTimeAttributeMetadata?text=DateTimeAttributeMetadata EntityType" />.DateTimeBehavior property. The `DateTimeBehavior` contains the following members; each member returns a string with the same value as the member name:  
   
 |Member name and value|Description|  
 |---------------------------|-----------------|  

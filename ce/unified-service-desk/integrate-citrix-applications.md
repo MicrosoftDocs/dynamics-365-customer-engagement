@@ -1,10 +1,11 @@
 ---
 title: "Integrate with Citrix applications in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "The topic explains the integration with Citrix application in Unified service Desk."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +17,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: 174894bd-eb2e-4b67-95bd-74e6b3540f47
 caps.latest.revision: 18
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Integrate with Citrix applications in Unified Service Desk
 Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by hosting them in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. This enables customer service agents to interact with the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications from within the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client while working on the customer data in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. You can configure a Windows application as a virtual application on Citrix XenApp 7.6 that runs as a hosted application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. More information: [Software requirements for Citrix XenApp application virtualization](admin/unified-service-desk-system-requirements.md#software-requirements-for-citrix-xenapp-application-virtualization)  

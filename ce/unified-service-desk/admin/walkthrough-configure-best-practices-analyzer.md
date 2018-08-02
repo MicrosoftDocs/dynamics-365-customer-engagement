@@ -2,7 +2,7 @@
 title: "Walkthrough: Configure Best Practices Analyzer in Unified Service Desk (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: Learn about downloading and installing the Best Practices Analyzer.
 ms.custom: ""
-ms.date: 04/24/2018
+ms.date: 05/15/2018
 ms.service: usd
 ms.topic: article
 applies_to: 
@@ -19,6 +19,8 @@ manager: sakudes
 # Walkthrough: Configure [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 
 This walkthrough demonstrates how to configure and setup [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] in your agent application.
+
+![Generate Best Practices Analyzer report](../media/bpa-report-generation-new.gif "Generate Best Practices Analyzer report")
 
 <a name="Step1"></a>   
 ## Step 1: Create a [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] and toolbar container hosted control

@@ -1,10 +1,11 @@
 ---
 title: "UI Automation Inspector in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about UII Inspector to support the generation of bindings for the UIADDA."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +17,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: 8c3e2962-56df-427c-98bf-7fc4fb395749
 caps.latest.revision: 7
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # UI Automation Inspector in Unified Service Desk
 The [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] Inspector is extended to support the generation of bindings for the UIADDA. This topic describes the logic used to build the binding.  

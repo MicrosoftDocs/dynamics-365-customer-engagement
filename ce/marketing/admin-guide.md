@@ -3,8 +3,10 @@ title: "Administrator Guide (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Index page showing administration, system, user and app configuration for Dynamics 365 for Marketing."
 keywords: "administration; admin; user administration; system configuration"
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.custom: marketing
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -25,22 +27,25 @@ topic-status: Drafting
 
 <h2>Set up and get started</h2>
 <li>[Readme](https://go.microsoft.com/fwlink/p/?linkid=864736)</li>
-<li>[First time setup](purchase-setup.md)</li>
-<li>[First time setup FAQ and troubleshooting](setup-troubleshooting.md)</li>
-<li>[Keep Marketing up to date](apply-updates.md)</li>
+<li>[Sign up for a free trial](trial-signup.md)</li>
+<li>[Purchase a production version of Marketing](purchase-marketing.md)</li>
+<li>[Run the setup wizard](purchase-setup.md)</li>
 <li>[Manage Marketing instances](manage-marketing-instances.md)</li>
+<li>[Keep Marketing up to date](apply-updates.md)</li>
 <li>[Open the administration settings](open-advanced-settings.md)</li>
 <li>[Find your way around](navigation.md)</li>
 <li>[Best practices for email marketing](get-ready-email-marketing.md)</li>
+<li>[Data protection and GDPR](gdpr.md)</li>
 <li>[How Marketing uses cookies](cookies.md)</li>
+<li>[Administration FAQ](setup-troubleshooting.md)</li>
 
 </td><td>
 
 <h2>Work with data</h2>
 <li>[Manage sample data](additional-settings.md)</li>
-<li>[Import data](business-management-settings.md#import-data)</li>
-<li>[Export data or templates](business-management-settings.md#export-data-or-templates)</li>
-<li>[Manage duplicate detection](business-management-settings.md#keep-your-data-clean-by-using-duplicate-detection)</li>
+<li>[Import data and manage imports](business-management-settings.md#import)</li>
+<li>[Export data or templates](business-management-settings.md#export)</li>
+<li>[Manage duplicate detection](business-management-settings.md#duplicate-detection)</li>
 <li>[Manage Excel templates](manage-excel-templates.md)</li>
 <li>[Manage Word templates](manage-word-templates.md)</li>
 
@@ -56,7 +61,7 @@ topic-status: Drafting
 <h2>Configure Marketing features</h2>
 <li>[Configure landing pages](marketing-settings.md#config-mkt-pages)</li>
 <li>[Set default data sources for email previews](marketing-settings.md#default-marketing-settings)</li>
-<li>[Choose entities for Customer Insights sync](marketing-settings.md#dci-sync)</li>
+<li>[Sync entities for customer insights](marketing-settings.md#dci-sync)</li>
 <li>[Event management settings](events-settings.md)</li>
 <li>[Manage LinkedIn Lead Gen](linkedin-configuration.md)</li>
 <li>[Manage quotas](quota-management.md)</li>

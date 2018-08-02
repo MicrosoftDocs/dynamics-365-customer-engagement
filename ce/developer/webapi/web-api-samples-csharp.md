@@ -2,7 +2,7 @@
 title: "Web API Samples (C#) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This topic provides a description of various Web API samples that are implemented using C#"
 ms.custom: ""
-ms.date: 12/15/2017
+ms.date: 06/12/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -129,7 +129,7 @@ JObject contact2 = JsonConvert.DeserializeObject<JObject>(await response.Content
   
 if (response.StatusCode == HttpStatusCode.NoContent)  //204  
 {  
-Console.WriteLine("POST succeeded, entity created!”);  
+Console.WriteLine("POST succeeded, entity created!");  
 //optionally process response message headers or body here, for example:  
 entityUri = response.Headers.GetValues("OData-EntityId").FirstOrDefault();  
 entityUris.Add(entityUri);  

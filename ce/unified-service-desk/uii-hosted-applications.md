@@ -1,10 +1,11 @@
 ---
 title: "UII hosted applications in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about using the UII hosted applications in Unified Service Desk."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +17,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: 9c44385e-884a-46e4-a537-b3317cf63725
 caps.latest.revision: 9
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # UII hosted applications in Unified Service Desk
 A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] hosted application is a line-of-business application or component whose user interface is hosted in the shell application. A hosted application can either be an existing application developed with no awareness of [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] or an application or component (hosted control) developed specifically for UII. The [!INCLUDE[pn_application_integration_framework_aif](../includes/pn-application-integration-framework-aif.md)] exposes classes and interfaces that enable you to develop hosted applications that support different scenarios.  

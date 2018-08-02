@@ -8,17 +8,17 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
+  - Dynamics 365 (online)
+  - Dynamics 365 (on-premises)
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
 ms.assetid: 110d4104-3f01-40ca-8247-ec7f42287560
 caps.latest.revision: 36
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "sakudes"
+author: "mduelae"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook
 If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Short](../../includes/pn-ms-outlook-short.md)] as your communications, scheduling, and contact management hub for business. You can continue to use the familiar [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] interface and integrate [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] at the same time by using [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)], an [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] client provided by [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  

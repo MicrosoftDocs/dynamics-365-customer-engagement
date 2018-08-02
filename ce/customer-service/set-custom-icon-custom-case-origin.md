@@ -7,11 +7,13 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: sakudes
+manager: shellyha
 ms.date: 09/30/2017
 ms.topic: article
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.assetid: 273e5ff6-7cf4-4b4b-852a-8219ae98da17
+ms.custom:
+  - dyn365-customerservice
 ---
 
 # Set the custom icon in views for Case Origin field

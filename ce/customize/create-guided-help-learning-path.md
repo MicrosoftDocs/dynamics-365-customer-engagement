@@ -8,7 +8,7 @@ ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: 8ee3c432-5f76-4086-b9cc-6cd467ae056b
-author: udag
+author: udaykirang
 ms.author: udag
 manager: sakudes
 topic-status: Drafting

@@ -1,17 +1,18 @@
 ---
 title: "Sign in to Social Engagement | Microsoft Docs"
 description: "Learn how to sign in to Social Engagement."
-ms.custom: ""
+ms.custom:
+  - dyn365-socialengagement
 ms.date: 09/12/2017
 ms.reviewer: ""
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: cf28bc71-9085-4e3f-a00c-a6e4d92179c8
 caps.latest.revision: 7
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
 ---

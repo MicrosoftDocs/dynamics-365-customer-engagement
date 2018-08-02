@@ -3,7 +3,10 @@ title: "Work with templates (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "A tutorial for how to work with templates for creating common and standardized content in Dynamics 365 for Marketing"
 keywords: "tutorial; templates; email; customer journey; marketing page; page"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"

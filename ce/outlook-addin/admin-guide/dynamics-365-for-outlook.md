@@ -8,12 +8,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 (online)
 ms.assetid: ae7a0418-73fc-476f-8fa5-dc6505273ea1
 caps.latest.revision: 18
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "mduelae"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Dynamics 365 for Outlook Administrator Guide
 

@@ -3,8 +3,10 @@ title: "Create or edit an invoice (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "An invoice is an order that has been billed to the customer."
 keywords: "Invoice, bill, sale"
 ms.date: 09/22/2017
-ms.service: crm-online
-ms.custom: 
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,7 +14,7 @@ applies_to:
 ms.assetid: b58780fa-4e39-4925-99ad-e2e1bbfb5fa4
 author: shubhadaj
 ms.author: shujoshi
-manager: amyla
+manager: sakudes
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -42,6 +44,11 @@ Typically, you convert an order into an invoice. However, you can also create an
 3.  Select **Create Invoice** at the top of the screen.  
   
 4.  Review the contents of the invoice and make any additions or corrections before sending to your customer.  
+
+> [!NOTE]
+
+> Your base record and all its line items must use the same currency. For example, if your invoice has the currency set to U.S Dollars, you must use the same currency for the price list items that you add to the invoice. You can’t change the currency of the base record (in this case, an invoice), unless you remove all the line items associated with the record.
+> Similarly, if the invoice is created from an order that's created from a quote created from an opportunity , it must use the same currency as the opportunity.
   
 <a name="bkmk2"></a>   
 ## Create an invoice  

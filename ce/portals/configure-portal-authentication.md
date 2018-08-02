@@ -1,9 +1,10 @@
 ---
 title: "Configure portal authentication in Dynamics 365  | MicrosoftDocs"
 description: "Learn about how to configure authentication for a portal."
-ms.custom: ""
+ms.custom:
+  - dyn365-portal
 ms.date: 09/28/2017
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
@@ -13,7 +14,7 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Configure [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal authentication
+# Configure Dynamics 365 portal authentication
 
 In a portal application, an authenticated portal user is associated with either a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] contact or system user. The default portals configuration is contact-based. To log in, a contact must have the appropriate web authentication information configured. Portal users must be assigned to a web roles to gain permissions beyond unauthenticated users. To configure permissions for a web role, configure its webpage access and website access control rules.
 
@@ -36,8 +37,7 @@ With open registration enabled, users are not required to provide an invitation 
 
 ### See also
 
-[Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
-[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)
+[Define entity forms and custom logic within the Dynamics 365 portal](entity-forms-custom-logic.md)<br>
 [Configure a contact for use on a portal](configure-contacts.md)  
 [Invite contacts to your portals](invite-contacts.md)  

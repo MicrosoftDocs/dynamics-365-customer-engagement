@@ -1,10 +1,11 @@
 ---
 title: "Connect to a Dynamics 365 instance using the Unified Service Desk for Dynamics 365 Customer Engagement client | MicrosoftDocs"
 description: "Learn how to connect to the Unified Service Desk solution using the Unified Service Desk client."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +17,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: cc1e6d1d-0ea6-46f7-ae4b-131b7bda2cf7
 caps.latest.revision: 10
-author: "Mattp123"
-ms.author: "matp"
-manager: "amyla"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 tags: 
  - "MigrationHO"
 ---

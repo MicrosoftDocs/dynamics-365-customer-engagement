@@ -1,17 +1,18 @@
 ---
 title: "Perform visual filtering on widgets | Microsoft Docs"
 description: "Learn how you can drill down into your data and apply filters on-the-fly."
-ms.custom: ""
+ms.custom:
+  - dyn365-socialengagement
 ms.date: 09/12/2017
 ms.reviewer: ""
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: c1b8d8e5-dc14-494a-8a55-2fe4491922c3
 caps.latest.revision: 15
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
 redirect_url: https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/use-filters

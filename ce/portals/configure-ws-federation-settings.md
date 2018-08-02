@@ -1,9 +1,10 @@
 ---
 title: "Configure WS-Federation provider settings for a portal in Dynamics 365  | MicrosoftDocs"
 description: "Instructions to add and configure WS-Federation provider settings for a portal."
-ms.custom: ""
+ms.custom:
+  - dyn365-portal
 ms.date: 09/28/2017
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
@@ -124,10 +125,6 @@ This corresponds to the **MetadataAddress** site setting value.
 > - Authentication/WsFederation/ADFS/Wtrealm - https://portal.contoso.com/
 > - Authentication/WsFederation/ADFS/Wreply - https://portal.contoso.com/signin-azure-ad
 
-### Configure Facebook app authentication
-
-Apply the configuration described in the topic [Facebook App (Page Tab) authentication for portals](authenticate-facebook-app.md).  
-
 ### See also
 
 [Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
@@ -135,5 +132,3 @@ Apply the configuration described in the topic [Facebook App (Page Tab) authenti
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  
 [SAML 2.0 provider settings for portals](configure-saml2-settings.md)  
-[Facebook App (Page Tab) authentication for portals](authenticate-facebook-app.md)  
-

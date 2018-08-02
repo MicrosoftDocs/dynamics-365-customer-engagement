@@ -1,6 +1,7 @@
 ---
 title: "Manage Dynamics 365 (online) updates | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
+  - dyn365-deflc
 ms.date: 04/16/2018
 ms.reviewer: ""
 ms.service: "crm-online"

@@ -1,10 +1,11 @@
 ---
 title: "Search Path Elements in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about Search Path Elements in Unified Service Desk."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +17,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: 6b9e70b9-20a1-430c-9cf0-bb8ca7b2480d
 caps.latest.revision: 7
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Search Path Elements in Unified Service Desk
 Web applications and web pages can contain frames. The frames can have associated controls. You can also configure data-driven adapter (DDA) controls for frame-based controls. For example, you might need to access the `HTML` form controls inside a frame. To do this, you would search a specific frame within a window for specific data. You can include that search in the WebDDA itself.  

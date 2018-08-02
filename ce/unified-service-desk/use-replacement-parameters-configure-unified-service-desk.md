@@ -1,10 +1,11 @@
 ---
 title: "Use replacement parameters to configure Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn how to use replacement parameters in Unified Service Desk to customize amd personalize interactions through actions and window navigation rules."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +17,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: 8d435068-1fd3-4886-b574-f1001dc21bc8
 caps.latest.revision: 7
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Use replacement parameters to configure Unified Service Desk
 Replacement parameters can be used for customizing interactions during a specific business process through actions and window navigation rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Replacement parameters](../unified-service-desk/replacement-parameters.md)  

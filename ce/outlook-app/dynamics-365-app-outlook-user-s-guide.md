@@ -8,13 +8,13 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"  
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 0dfd6100-b4ed-4959-9acb-cc0a1dbbb6d6
 caps.latest.revision: 99
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "mduelae"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Dynamics 365 App for Outlook User Guide  
 
@@ -519,6 +519,16 @@ To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlo
 
    ![Enable custom field](media/add-custom-field.png)
 5. Choose **Save** > **Publish** on the **Home** tab.
+
+## Synchronization and tracking 
+
+The Dynamics 365 App for Outlook tracks and synchronizes your mail and calendar data between Outlook (Exchange) and Dynamics 365. Server Side Synchronization is an asynchronous service that runs in the background approximately every 15 minutes to synchronize items between Exchange and Dynamics 365. In most scenarios, the Outlook item is immediately created in Dynamics 365. However, in some cases, Server Side Synchronization service is used to promote the item to Dynamics 365 and keep it synchronized, which may take up to 15 minutes. The below table provides a brief explainer of the behavior.
+
+![Outlook app sync](media/sync_table.png "Outlook app sync")
+
+If the Dynamics 365 App for Outlook uses Server Side Synchronization to track an item to Dynamics 365, the track status of the item will be “Pending”.
+
+![Outlook app server side sync](media/Outlook_app_server_side_sync.png "Outlook app server side sync")
  
 ### See also  
  [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md)   

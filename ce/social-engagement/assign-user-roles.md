@@ -1,17 +1,14 @@
 ---
 title: "Permissions and user roles in Social Engagement | Microsoft Docs"
 description: "Learn how to work with user roles and their permissions."
-ms.custom: ""
-ms.date: 09/12/2017
-ms.reviewer: ""
-ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.custom:
+  - dyn365-socialengagement
+ms.date: 06/13/2018
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 05b070fd-7b33-440d-bf6d-e527639ede8c
-caps.latest.revision: 39
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
 ---
@@ -26,7 +23,7 @@ Manage user permissions by assigning user roles for newly licensed users and edi
   
 1.  Navigate to **Settings** > **User Management**.  
   
-2.  In the **Users** pane, select **Newly invited (Analyst/Responder)** from the **Configuration role** drop-down menu.  
+2.  In the **Users** pane, select **Newly invited** from the **Configuration role** drop-down menu.  
   
 3.  Select the check boxes for the users you want to assign a role to and click the **Edit** ![Edit button](media/edit-icon.png "Edit button") button.  
   

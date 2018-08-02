@@ -7,11 +7,13 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: sakudes
+manager: shellyha
 ms.date: 09/15/2017
 ms.topic: article
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.assetid: 62e46aaf-aa48-4074-a771-bcb345734d4d
+ms.custom:
+  - dyn365-customerservice
 ---
 
 # View, block, or deactivate a social profile in social care sample application (Customer Service)

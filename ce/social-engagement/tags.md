@@ -3,7 +3,7 @@ title: "Work with tags in Social Engagement | Microsoft Docs"
 description: "Learn how to work with tags on post and the auto-tagging capabilities in Social Engagement."
 keywords: "tags, tagging, auto tags, custom tags, Social Engagement"
 ms.date: 03/27/2018
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Work with tags

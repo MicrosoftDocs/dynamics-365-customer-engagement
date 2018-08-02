@@ -1,8 +1,12 @@
 ---
 title: "Analyze marketing results and gain insights (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 for Marketing"
+keywords: "insights;results;KPIs;analytics"
 ms.date: 04/25/2018
-ms.service: crm-online
+ms.service:
+  - "crm-online"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,6 +18,7 @@ manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
 ---
+
 # Analyze results to gain insights from your marketing activities
 
 [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] keeps track of the way your contacts react to your various marketing initiatives and provides detailed analytical views to help you understand your impact and learn what works best. For example, each of the following entities provides statistics, analytics, and key performance indicators (KPIs) based on your marketing results:
@@ -40,6 +45,8 @@ For nearly all entity types, you can view related results and analytics by openi
 Once you have an **Insights** form view open, you can navigate between the available categories of analytics using the tabs below the record name.
 
 ![Insights tabs](media/insights-tabs.png "Insights tabs")
+
+<a name="filter"></a>
 
 ### Filter insights by date range and usage
 
@@ -105,7 +112,9 @@ In addition to the **Volume** section, some tiles also show additional sections 
 
 - **KPIs**: For tile types that collect key performance indicators (KPIs), such as email tiles, you can read detailed results here. For a complete list of KPIs available for email messages, see [Email insights](#email-insights) (the **Data** panel shows many, but not all, of these).
 - **Paths**: Trigger and splitter tiles include this section, which tells you how many contacts went down each available path.
-- **View Details**: This link is provided at the bottom of the **Details** panel for tile types that have even more information available. Select this link to open the associated record, where you can explore its full insights panels. For example, email and event tiles provide this link, which opens the insights panels for the specific message or event associated with the tile.
+- **View details**: This link is provided at the bottom of the **Details** panel for tile types that have even more information available. Select this link to open the associated record, where you can explore its full insights panels. For example, email and event tiles provide this link, which opens the insights panels for the specific message or event associated with the tile.  
+    > [!NOTE]
+    > On selecting **View details**, the details you see may include results from several different customer jouneys&mdash;for example, if you open an email message that has been reused. To view detailed results for just one journey, use the [filter settings](#filter) to choose a journey name after the related record opens.
 
 <a name="email-insights"></a>  
 
@@ -115,7 +124,7 @@ To view email insights, go to **Marketing** > **Marketing execution** > **Market
 
 Here you can find a complete history of how various contacts have reacted to the selected message, which links they selected, and where they were when interacting with the message. You can also see delivery details.
 
-Because you can reuse an email message in several different journeys, the filter controls for email insights include a field for specifying which journey you would like to analyze. If you don't select a journey, then the information you see applies to all journeys where the message was used. As with most other entities, you can also filter email insights by date range.
+Because you can reuse an email message in several different journeys, the [filter settings](#filter) for email insights include a field for specifying which journey you would like to analyze. If you don't select a journey, then the information you see applies to all journeys where the message was used. As with most other entities, you can also filter email insights by date range.
 
 Marketing email messages provide the following insights tabs:
 
@@ -128,7 +137,7 @@ Many different lists, statistics, and KPIs are provided to help you evaluate and
 
 <dl>
 <dt>Blocked</dt><dd>Messages that were blocked (not sent) due to a contact's preferences or a problem with their email address. This can happen if the segment included contacts marked as <b>Do not bulk email</b>, or because the contact's email address was missing, invalid, or blacklisted. Examples of blacklisted address include known anonymous email servers and generic addresses such as do-not-repy@constoso.com or office@contoso.com.</dd>
-<dt>Bounced (hard)</dt><dd>Messages that resulted in a hard bounce, which indicates that the address is invalid. A hard bounce might occur because the domain name doesn't exist or because the recipient is unknown. Multiple hard bounces can lower your server's send reputation, which will reduce your delivery rate, so you should remove hard-bouncing addresses from your contact records. When an address returns a hard bounce, Dynamics 365 will automatically stop sending new messages to that address for six months, but your email results will still show each attempt as a hard bounce.</dd>  
+<dt>Bounced (hard)</dt><dd>Messages that resulted in a hard bounce, which indicates that the address is invalid. A hard bounce might occur because the domain name doesn't exist or because the recipient is unknown. Multiple hard bounces can lower your server's send reputation, which will reduce your delivery rate, so you should remove hard-bouncing addresses from your contact records. When an address returns a hard bounce, Dynamics 365 will automatically stop sending new messages to that address for six months, but your email results will still show each attempt as a hard bounce.</dd>
 <dt>Bounced (other)</dt><dd>Messages that bounced for some reason other than a hard or soft bounce. This result is rare, and might indicated a <em>remote bounce</em>, which occurs when a server initially accepting a message, but then returns a bounce message sometime later. These are otherwise treated as soft bounces.</dd>
 <dt>Bounced (soft)</dt><dd>Messages that resulted in a soft bounce. A soft bounce occurs when an email is sent to a valid server, which recognizes the user, but still rejects the message for some reason, such as because the recipient's mailbox is full, the mail server is temporarily unavailable, or the recipient no longer has an email account at that address. If five messages in a row sent to a given address result in a soft bounce, then that address is treated as a hard-bounce address.</dd>
 <dt>Clicked (total)</dt><dd>The total count of all the links clicked in all sent messages. Multiple clicks of the same link in a single message are counted multiple times, so the proportion of total clicks per total sent can sometimes be more than 100%.</dd>

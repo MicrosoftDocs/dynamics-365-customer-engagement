@@ -7,11 +7,13 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: sakudes
+manager: shellyha
 ms.date: 09/15/2017
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 6a67450b-dccc-471c-9e09-13a169f497cf
+ms.custom:
+  - dyn365-customerservice
 ---
 
 # Set the capacity (number of activities in stipulated time) for a service or resource (Customer Service)

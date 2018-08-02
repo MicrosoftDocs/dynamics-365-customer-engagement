@@ -1,7 +1,8 @@
 ---
 title: "Work with solutions in PowerApps | MicrosoftDocs"
 description: "Learn how solutions are distributed"
-ms.custom: ""
+ms.custom: 
+  - dyn365-deflc
 ms.date: 04/24/2018
 ms.reviewer: ""
 ms.service: "crm-online"

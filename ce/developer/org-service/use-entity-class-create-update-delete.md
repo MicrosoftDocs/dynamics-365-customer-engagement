@@ -2,7 +2,7 @@
 title: "Use the Entity class for create, update and delete (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Read how you can use the Entity class to create, update, and delete entities and entity attributes"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 05/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,12 +10,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-helpviewer_keywords: 
-  - "creating; updating; and deleting, by using the Create; Update; and Delete methods with the Entity class and late binding"
-  - "using the Entity class for creating; updating; and deleting"
-  - "late binding"
-  - "Entity class with late binding, for creating; updating; and deleting"
-  - "late-bound Entity class in code, with the Create; Update; and Delete methods"
 ms.assetid: d0eb57ae-7f45-4bde-964e-da2c6bd1f405
 caps.latest.revision: 22
 author: "JimDaly"
@@ -48,21 +42,39 @@ _accountId = _orgService.Create(account);
   
  In the example, a new entity object is created of type “account,” attributes are set, and then the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*> method is called to create the new record.  
   
- To update an entity, you set a value for the attribute to be updated, and then call the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*> method. The following code example shows how to update an attribute in an account.  
+ To update an entity, you set a value for the attribute to be updated, and then call the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*> method. 
+
+> [!IMPORTANT]
+>  When updating an entity, only include the attributes you are changing. Simply updating the attributes of an entity that you previously retrieved will update each attribute even though the value is unchanged. This can cause system events that can trigger business logic that expects that the values have actually changed. This can also cause attributes to appear to have been updated in auditing data when in fact they haven’t actually changed.
+>
+> You should create a new entity instance, set the id attribute and any attribute values you are changing, and use that entity instance to update the record.
+
+
+The following code example shows how to update an attribute in an account.  
   
 ```csharp  
+string newPostalCode = "98052";
 Entity account = new Entity("account");  
 // Create a column set to define which attributes should be retrieved.  
-ColumnSet attributes = new ColumnSet(new string[] { "name", "ownerid" });   
-  
-// Retrieve the account and its name and ownerid attributes.  
+ColumnSet attributes = new ColumnSet(new string[] { "name", "ownerid", "address1_postalcode" });   
+
+// Retrieve the account and its name, ownerid, and address1_postalcode attributes.  
 account = _orgService.Retrieve(account.LogicalName, _accountId, attributes);  
-  
+
+// Test to make sure that the existing value isn’t the same as the current value  
+if(account["address1_postalcode"] != newPostalCode)
+{
+// Create a new entity instance for update
+Entity accountToUpdate = new Entity("account");  
+
+// Set the unique identifier for the account to update.
+accountToUpdate["accountid"] = account["accountid"];
 // Update the postal code attribute.  
-account["address1_postalcode"] = "98052";  
-  
+accountToUpdate["address1_postalcode"] = newPostalCode;  
+
 // Update the account.  
-_orgService.Update(account);  
+_orgService.Update(accountToUpdate); 
+}
 ```  
   
  To delete an entity, you can pass the key attribute information to the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*> method. The following code example shows how to use the `Delete` method.  

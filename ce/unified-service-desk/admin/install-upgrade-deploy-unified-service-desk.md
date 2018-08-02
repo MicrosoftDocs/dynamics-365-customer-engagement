@@ -1,10 +1,11 @@
 ---
 title: "Install, deploy, and upgrade Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Learn how to install or upgrade Unified Service Desk for Dynamics 365 Customer Engagement."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
@@ -16,9 +17,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: e0fd70b6-73a4-4426-92d7-bb300457597e
 caps.latest.revision: 8
-author: "Mattp123"
-ms.author: "matp"
-manager: "amyla"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 tags: 
  - "MigrationHO"
 

@@ -44,8 +44,6 @@
 - name: "Services"
   expanded: true
   items:    
-  - name: Customer Insights
-    href: customer-insights/index.md
   - name: Gamification
     href: gamification/index.md
   - name: Unified Service Desk

@@ -1,9 +1,10 @@
 ---
 title: "White papers - Dynamics 365 for Project Service Automation | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-projectservice
 ms.date: 09/15/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "project-service-automation"
@@ -12,11 +13,11 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "mduelae"
+author: krbjoran
 ms.assetid: 2cd17b73-9ebb-4df7-9854-86e42087b518
 caps.latest.revision: 9
-ms.author: "mkaur"
-manager: "brycho"
+ms.author: krbjoran
+manager: shellyha
 ---
 # White papers for Project Service Automation
 

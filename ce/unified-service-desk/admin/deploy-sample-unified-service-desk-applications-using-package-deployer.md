@@ -1,10 +1,11 @@
 ---
 title: "Deploy sample Unified Service Desk for Dynamics 365 Customer Engagement applications using Package Deployer | MicrosoftDocs"
 description: "Learn how to use Package Deployer to import a Unified Service desk sample application."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD, dyn365-admin
 ms.date: 04/24/2018
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -15,9 +16,9 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: fe906d8e-a06b-46e6-84c9-0c0710157b33
-author: "kabala123"
-ms.author: "kabala"
-manager: "sakudes"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Overview of Package Deployer and the sample applications
 [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] comes with  sample applications that you can use as the base for starting with your configuration of your agent application.  
@@ -47,7 +48,7 @@ manager: "sakudes"
 <a name="Deploy"></a>   
 ## Deploy a sample Unified Service Desk package using Package Deployer  
   
-1.  [Download](http://go.microsoft.com/fwlink/p/?LinkID=854761) the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package file from the [!INCLUDE[pn_Microsoft_Download_Center](../../includes/pn-microsoft-download-center.md)], and save it on your computer.  
+1.  [Download](http://go.microsoft.com/fwlink/p/?LinkID=872261) the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package file from the [!INCLUDE[pn_Microsoft_Download_Center](../../includes/pn-microsoft-download-center.md)], and save it on your computer.  
   
 2.  Run the downloaded file to extract the contents into a folder.  
   

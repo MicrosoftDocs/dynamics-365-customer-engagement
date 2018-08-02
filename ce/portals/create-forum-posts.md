@@ -1,9 +1,10 @@
 ---
 title: "Create forum posts on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create forum posts on a portal."
-ms.custom: ""
+ms.custom:
+  - dyn365-portal
 ms.date: 09/28/2017
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
@@ -14,6 +15,7 @@ ms.author: shjais
 manager: sakudes
 ---
 # Create forum posts on the portal
+
 A forum post is a user-submitted message enclosed into a block containing the user's details and the date and time it was submitted. Members are usually allowed to edit or delete their own posts. Posts are contained in [forum threads](manage-forum-threads.md), where they appear as boxes one after another. The first post starts the thread; this may be called the OP (original post). Posts that follow in the thread are meant to continue discussion about that post, or respond to other replies; it is not uncommon for discussions to be derailed.  
 
 ## Create forum posts
@@ -21,9 +23,14 @@ A forum post is a user-submitted message enclosed into a block containing the us
 The forum post editor will appear automatically when a user has successfully signed in to the portal and navigated to a forum thread page, provided the developer has implemented the functionality in the forum thread's page template.
 
 1. Sign in to the portal.
+
 2. Navigate to a [forum thread](manage-forum-threads.md).  
+
 3. Compose your reply in the rich text editor.
-4. Select **Submit**.
+
+4. Select **Post this reply**.
+
+    ![Create a forum post](media/create-forum-post.png "Create a forum post") 
 
 ### Attribute relationships
 
@@ -40,7 +47,7 @@ The table below explains many of the Forum Post attributes used by portals. It i
 
 ### See also
 
-[Setup and moderate forums](setup-moderate-forums.md)  
+[Setup and manage forums](setup-manage-forums.md)  
 [Manage forum threads](manage-forum-threads.md)  
 [Moderate forums](moderate-forums.md)  
 [Subscribe to alerts](subscribe-alerts.md)  

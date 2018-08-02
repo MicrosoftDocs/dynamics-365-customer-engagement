@@ -1,17 +1,18 @@
 ---
 title: "Drive customer engagement using Social Engagement | Microsoft Docs"
 description: "Get an overview on how Social Engagement can help your organization to become more effective on social media."
-ms.custom: ""
+ms.custom:
+  - dyn365-socialengagement
 ms.date: 09/12/2017
 ms.reviewer: ""
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 3097ddac-ea16-4448-8ac8-b97d85224ecc
 caps.latest.revision: 45
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
 redirect_url: /dynamics365/customer-engagement/social-engagement/overview

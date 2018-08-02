@@ -38,11 +38,17 @@ After you install Voice of the Customer Analytics for [!INCLUDE[pn-crm-2016-shor
 To install as an app:
 
 1. Sign in to [Power BI](https://powerbi.microsoft.com/).
+
 2. In the left navigation pane, select **Apps**.
+
 3. Select **Get apps**. 
+
 4. In AppSource, select the **Apps** tab.
+
 5. Search for the Voice of the Customer Analytics for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] app, and then select **Get it now**. A wizard opens to connect to the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] instance.
+
 6. Enter the URL associated to your [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] account and select **Next**.
+
 7. If prompted, select oAuth2 as the authentication method, select **Sign in**, and then enter the credentials.
 
 After installation, the app is available under the **Apps** tab.
@@ -50,15 +56,21 @@ After installation, the app is available under the **Apps** tab.
 To install as a service content pack:
 
 1. Sign in to [Power BI](https://powerbi.microsoft.com/).
+
 2. Select or create the workspace in which you want to install the service content pack.
+
 3. In the left navigation pane, select **Get Data**.
+
 4. Select **Service Content Packs**.
 
   ![Get a service content pack in Power BI](media/voc-analytics-service-content-pack.png "Get a service content pack in Power BI")
 
 5. In AppSource, select the **Apps** tab.
+
 6. Search for the Voice of the Customer Analytics for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] app, and then select **Get it now**. A wizard opens to connect to the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] instance.
+
 7. Enter the URL associated to your [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] account and select **Next**.
+
 8. If prompted, select oAuth2 as the authentication method, select **Sign in**, and then enter the credentials.
 
 After installation, the service content pack is available under the selected workspace.
@@ -68,7 +80,9 @@ After installation, the service content pack is available under the selected wor
 Delete an app:
 
 1. Sign in to [Power BI](https://powerbi.microsoft.com/).
+
 2. In the left navigation pane, select **Apps**.
+
 3. Point to the app, and then select **Delete**.
 
   ![Delete an app in Power BI](media/voc-analytics-app-delete.png "Delete an app in Power BI")
@@ -78,7 +92,9 @@ Delete an app:
 Delete a service content pack:
 
 1. Sign in to [Power BI](https://powerbi.microsoft.com/).
+
 2. Select the workspace in which you have installed the service content pack.
+
 3. Delete the dashboard, report, and dataset associated with the service content pack.
 
 ## Dashboard
@@ -90,7 +106,9 @@ More information: [Dashboards in Power BI service](https://docs.microsoft.com/en
 To open the dashboard:
 
 1. Sign in to [Power BI](https://powerbi.microsoft.com/).
+
 2. If you have installed an app, select **Apps** in the left navigation pane, and then select the app.
+
 3. If you have installed a service content pack, select the dashboard under the workspace.
 
 The dashboard contains the following tiles:

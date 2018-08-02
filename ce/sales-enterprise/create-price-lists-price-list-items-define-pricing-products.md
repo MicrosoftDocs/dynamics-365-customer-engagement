@@ -3,8 +3,9 @@ title: "Create price lists and price list items to define pricing of products (D
 description: "Define what to charge for your products or services in Dynamics 365 for Sales."
 keywords: "Price list, price list items"
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.custom: 
+ms.service: dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -13,7 +14,7 @@ author: "shubhadaj"
 ms.assetid: dd53d178-2cd2-4aeb-beb5-be538585d297
 author: shubhadaj
 ms.author: shujoshi
-manager: brycho
+manager: sakudes
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

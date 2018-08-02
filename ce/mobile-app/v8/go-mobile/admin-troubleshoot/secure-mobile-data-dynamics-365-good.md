@@ -8,16 +8,16 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
-author: "jimholtz"
+  - Dynamics 365 (online)
+  - Dynamics 365 (on-premises)
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
+author: "mduelae"
 ms.assetid: f5c366db-30d2-44c6-89f4-89a566dae188
 caps.latest.revision: 28
 ms.author: "mkaur"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Secure your mobile data with Microsoft Dynamics 365 for Good
 

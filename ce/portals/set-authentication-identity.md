@@ -1,10 +1,11 @@
 ---
 title: "Set authentication identity for a portal in Dynamics 365  | MicrosoftDocs"
 description: "Instructions to set authentication identity for a portal."
-keywords: "portal aunthentication"
+keywords: "portal authentication"
 ms.date: 04/12/2018
-ms.service: crm-online
-ms.custom: 
+ms.service: dynamics-365-customerservice
+ms.custom:
+  - dyn365-portal
 ms.topic: article
 ms.assetid: 8e985c89-1589-4e65-8b74-28b96217601e
 author: sbmjais
@@ -270,4 +271,3 @@ Settings for modifying the default authentication cookie behavior. Defined by th
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  
 [WS-Federation provider settings for portals](configure-ws-federation-settings.md)  
 [SAML 2.0 provider settings for portals](configure-saml2-settings.md)  
-[Facebook App (Page Tab) authentication for portals](authenticate-facebook-app.md)

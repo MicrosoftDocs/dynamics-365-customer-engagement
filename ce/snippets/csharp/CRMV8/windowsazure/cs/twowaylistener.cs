@@ -41,6 +41,8 @@ namespace Microsoft.Crm.Sdk.Samples
             public string Execute(RemoteExecutionContext context)
             {
                 Utility.Print(context);
+
+                // This is the return value that can be used within Dynamics
                 return "Success";
             }
 
@@ -55,18 +57,17 @@ namespace Microsoft.Crm.Sdk.Samples
         {
             ServiceBusEnvironment.SystemConnectivity.Mode = ConnectivityMode.Http;
 
+            // The one specified when creating the azure bus
             Console.Write("Enter your Azure service namespace: ");
             string serviceNamespace = Console.ReadLine();
 
-            // The service namespace issuer name to use.  If one hasn't been setup
-            // explicitly it will be the default issuer name listed on the service
-            // namespace.
-            Console.Write("Enter your service namespace issuer name: ");
-            string issuerName = Console.ReadLine();
+            // The shared access key policy name
+            Console.Write("Enter your shared access policy name: ");
+            string sharedAccesKeyName = Console.ReadLine();
 
-            // Issuer secret is the Windows Azure Service Bus namespace current management key.
-            Console.Write("Enter your service namespace issuer key: ");
-            string issuerKey = Console.ReadLine();
+            // The primary of they access key policy specificied above
+            Console.Write("Enter your shared access policy key: ");
+            string sharedAccessKey = Console.ReadLine();
 
             // Input the same path that was specified in the Service Bus Configuration dialog
             // when registering the Azure-aware plug-in with the Plug-in Registration tool.
@@ -85,7 +86,7 @@ namespace Microsoft.Crm.Sdk.Samples
             // Azure access control services issuer 
             var sharedSecretServiceBusCredential = new TransportClientEndpointBehavior()
             {
-                TokenProvider = TokenProvider.CreateSharedSecretTokenProvider(issuerName, issuerKey)
+                TokenProvider = TokenProvider.CreateSharedAccessSignatureTokenProvider(sharedAccesKeyName, sharedAccessKey)
             };
 
             // Using an HTTP binding instead of a SOAP binding for this endpoint.

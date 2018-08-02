@@ -3,8 +3,10 @@ title: "Create or edit an opportunity (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy."
 keywords: "opportunity, deal, develop, propose, nurture sales"
 ms.date: 05/01/2018
-ms.service: crm-online
-ms.custom: 
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -47,7 +49,14 @@ If you're following the sales process from start to finish, you *qualify* a lead
    - **Contact**: The contact associated with this opportunity.
  
    - **Account**: The account associated with this opportunity.
- 
+
+   - **Currency**: Choose the currency for the opportunity. This is the currency the opportunity amount is calculated in.
+
+     > [!NOTE]
+
+     > Your base record and all its line items must use the same currency. For example, if your opportunity has the currency set to U.S Dollars, you must use the same currency for the price list items that you add to the opportunity. You can’t change the currency of the base record (in this case, an opportunity), unless you remove all the list items associated with the record.
+     > Similarly, all the records created from an opportunity, such as a quote, order or invoice must use the same currency as the opportunity.
+
    - **Purchase Timeframe**: The timeframe by when the account or contact is likely to make the purchase.
  
    - **Budget Amount**: Enter a value to indicate the lead's potential available budget. 
@@ -125,21 +134,6 @@ You can add a product or product bundle to an opportunity. The product can be an
     5.  **Tax**. If required, enter the appropriate tax amount.  
    
 7. Select **Save**.
-
-The **Product Line Items** grid shows all the products that are associated with the opportunity. If you added an existing product from the product catalog, you can change the quantity and discount of the product inline in the **Product Line Items** grid. If you added a write-in product, you can also change the price of the product in addition to the quantity and discount.
-
-The icon for each product line item shows whether it is a product, product bundle, or a product family. 
-
-Here are the actions you can take on the products added to the **Product Line Items** grid:
-
-|To                                    |Do This                                                           |
-|--------------------------------------|------------------------------------------------------------------|
-|Edit properties of a product  |Select a product, and on the command bar, select **Edit Properties**.|
-|Delete a product associated with the opportunity |Select the product, and on the command bar, select **Delete Opportunity Product**. |
-|View products within a bundle | Select the **Chevron** icon ![Chevron icon](media/chevron-icon.png "Chevron icon") for the product bundle. You’ll see all the products that are included in the bundle. |
-|See and add related products for cross-selling or upselling, or to select an accessory or substitute product | Select a product, and on the command bar, select **Suggestions**. The Suggestions pane shows all the products that are defined as related products for the current product. Select the related products that you want to add, and then select **OK**. |
-|See specific records together by moving a record up or down in the grid | Select a record, and on the command bar, use the **Up** or **Down** button. |
-
 
 ## Recalculate an opportunity (Sales Hub app)
 

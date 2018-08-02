@@ -3,7 +3,10 @@ title: "Cookies set and read (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Describes how cookies are set and used in Dynamics 365 for Marketing"
 keywords: "cookies; privacy"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: reference
 applies_to:
   - "Dynamics 365 (online)"

@@ -3,7 +3,10 @@ title: "Design, preview, check, and send marketing emails (Dynamics 365 for Mark
 description: "How to design and deliver marketing email messages in Dynamics 365 for Marketing"
 keywords: "email; marketing email; dynamic content; go live; validation; preview; Litmus"
 ms.date: 04/25/2018
-ms.service: crm-online
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -215,6 +218,7 @@ By default, all new messages that you create will be commercial messages. To cha
 
 Take care not to send transactional messages that include promotional content. It is your responsibility to be familiar with, and conform to, all relevant laws that apply in the countries/regions where you deliver commercial and transactional messages.
 
+<a name="preview-message"></a>  
 
 ## Check your work by using previews and test sends
 

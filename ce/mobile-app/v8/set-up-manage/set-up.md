@@ -8,12 +8,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
-author: "jimholtz"
+  - Dynamics 365 (online)
+author: "mduelae"
 ms.assetid: 5ae07980-3406-4d72-80e5-0f6e1e455881
 caps.latest.revision: 141
-ms.author: "jimholtz"
-manager: "brycho"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Set up Dynamics 365 for phones and Dynamics 365 for tablets
 

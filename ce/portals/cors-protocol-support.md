@@ -1,14 +1,16 @@
 ---
 title: "CORS protocol support for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn about CORS protocol support for a portal."
-ms.custom: ""
+ms.custom:
+  - dyn365-portal
 ms.date: 09/28/2017
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
 ms.assetid: D2ADCFCE-F7FC-4297-868F-E02DAFDFD50E
 ms.reviewer: ""
+redirect_url: /dynamics365/customer-engagement/portals/administer-manage-portal-dynamics-365
 author: sbmjais
 ms.author: shjais
 manager: sakudes

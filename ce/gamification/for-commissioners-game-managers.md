@@ -3,7 +3,7 @@ title: "Overview for commissioners and game managers in Dynamics 365 - Gamificat
 description: "Find a collection of pointers to the most relevant help articles when administering games and players in Dynamics 365 – Gamification."
 keywords: "commissioner, game manager, overview"
 ms.date: 10/18/2017
-ms.service: gamification
+ms.service: dynamics-365-sales
 ms.topic: index-page
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-gamification
 ---
 
 # Overview for commissioners and game managers in Gamification

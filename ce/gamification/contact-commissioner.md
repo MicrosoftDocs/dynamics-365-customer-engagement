@@ -1,17 +1,18 @@
 ---
 title: "Contact a Commissioner in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to get in touch with the Commissioner of a Dynamics 365 – Gamification game directly from within the app."
-ms.custom: ""
+ms.custom:
+  - dyn365-gamification
 ms.date: 05/31/2017
 ms.reviewer: ""
-ms.service: gamification
+ms.service: dynamics-365-sales
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: Dynamics 365 (online)
 ms.assetid: 7aa9e7cc-779e-4813-ad81-e1db9ad47871
 caps.latest.revision: 8
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
 ---

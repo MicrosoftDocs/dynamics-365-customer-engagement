@@ -3,7 +3,10 @@ title: "User Guide (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Contains topics that describe how to do common marketing tasks in Dynamics 365 for Marketing"
 keywords: "user guide"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -26,12 +29,12 @@ topic-status: Drafting
 <li>[Dynamics 365 for Marketing overview](overview.md)</li>
 <li>[Browser and system requirements](browser-requirements.md)</li>
 <li>[Find your way around](navigation.md)</li>
+<li>[Accessibility and keyboard shortcuts](designer-shortcuts.md)</li>
 <li>[Organize your work](organize-daily-work.md)</li>
 <li>[Manage customer information](manage-customer-information.md)</li>
-<li>[Market to leads](market-to-leads.md)</li>
-<li>[Analyze results to gain insights](insights.md)</li>
+<li>[Import data](import-data.md)</li>
+<li>[Export data](export-data-Word-Excel.md)</li>
 <li>[Best practices for email marketing](get-ready-email-marketing.md)</li>
-<li>[Accessibility and keyboard shortcuts](designer-shortcuts.md)</li>
 
 </td><td>
 
@@ -75,6 +78,7 @@ topic-status: Drafting
 </td><td>
 
 <h2>Manage, score, and qualify leads</h2>
+<li>[Market to leads](market-to-leads.md)</li>
 <li>[Score and manage leads](score-manage-leads.md)</li>
 <li>[Register contacts' engagement](register-engagement.md)</li>
 <li>[Integrate with LinkedIn Lead Gen](LinkedIn-Lead-Gen-integration.md)</li>
@@ -99,5 +103,13 @@ topic-status: Drafting
 <li>[Create and deploy marketing pages](create-deploy-marketing-pages.md)</li>
 <li>[Integrate with LinkedIn Lead Gen](LinkedIn-Lead-Gen-integration.md)</li>
 
+</td></tr>
+<tr><td>
+
+<h2>Gain insights</h2>
+<li>[Analyze results to gain insights](insights.md)</li>
+
+
+</td><td>
 </td></tr>
 </table>

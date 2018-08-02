@@ -2,8 +2,8 @@
 title: "Design an advanced survey by using Voice of the Customer | MicrosoftDocs"
 description: "Learn how to add advanced functionalities to the survey."
 keywords: "advanced survey design; interactive survey; response routing"
-ms.date: 04/23/2018
-ms.service: crm-online
+ms.date: 05/22/2018
+ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,17 +14,21 @@ ms.author: shjais
 manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
+ms.custom:
+  - dyn365-VoC
 ---
 
 # Design an advanced survey
 
-This section provides information about advanced features for designing surveys, for example, response routing, scoring, piping, and so on.
+This section provides information about advanced features for designing surveys—for example, response routing, scoring, piping, and so on.
 
 ## Design interactive surveys by using response routing
 
 When you want to ask additional questions based on responses in a survey, create one or more response routing rules for the response you want more information about.
 
 For example, for the question **How likely is it that you would recommend us to a friend?**, you can create a response routing rule to ask the reason if someone responds **Not likely**.
+
+**Web client**
 
 1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
@@ -71,7 +75,63 @@ For example, for the question **How likely is it that you would recommend us to 
 
     For example, you added an Net Promoter Score question to the survey and you want to collect feedback when the rating is less than 5.
 
-    ![Survey response routing otherwise action](media/response-otherwise-action.png "Survey response routing Otherwise action")  
+    ![Survey response routing otherwise action](media/response-otherwise-action.png "Survey response routing Otherwise action")
+
+**Voice of the Customer app**
+
+1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
+2. Go to **Voice of the Customer** > **Surveys**.
+
+3. Select the name of the survey to which you want to add a response routing rule.
+
+4. Under **Related**, select **Response Routings**.
+
+   ![Survey response routing](media/response-routings-select.png "Survey response routing")
+
+5. Select **Add New Response Routing**.
+
+6.	Under **General**, enter a name for the response routing rule, and then select **Save** so you can continue editing your response routing.
+
+7.	Under **Conditions**, select **Add New Response Condition**.
+
+8.	In the **Question** field, browse to and select the question for which you want to create a rule. After you select a question, a few fields are enabled as defined by the selected question type.
+
+9.	Select values for **Operator**, **Comparison Value**, and **Answer** fields.
+
+    > [!NOTE]
+    > The fields will differ based on the selected question type and operator.
+
+    ![Survey response routing condition](media/response-condition-uci.png "Survey response routing condition") 
+
+10.	Select **Save**.
+
+11.	Navigate to the response routing rule you created.
+
+12.	Under **Actions**, select **Add Existing Response Action**. A pane on the right side of the screen appears.
+
+13.	Select **New**.
+
+14.	Enter a name for the action, and then select one of the following scopes:
+    - **Client**: Choose this if the action occurs within the survey (for example, show or hide a question). Under **Client**, select the survey and the action to take, and then select **Save**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Client-side routing](#client-side-routing)
+
+    - **Server**: Choose this if the action occurs outside of the survey (for example, request contact or unsubscribe). Under **Server**, select the action type, and then select the users or queues to notify, if applicable. Select **Save**.
+
+    ![Survey response routing action](media/response-action-uci.png "Survey response routing action")
+
+15.	Navigate to the response routing rule you created.
+
+16.	Under **Actions**, select **Add Existing Response Action**. A pane on the right side of the screen appears.
+
+17.	Browse to and select the action you created.
+
+18.	Select **Add**.
+
+19.	In the **Otherwise** section, create an action by following the steps you took to add a response action. This action is triggered when the previously mentioned response action does not meet the specified response condition.
+
+    For example, you added a Net Promoter Score question to the survey and you want to collect feedback when the rating is less than 5.
+
+    ![Survey response routing otherwise action](media/response-action-otherwise-uci.png "Survey response routing Otherwise action")
 
 ### Client-side routing
 
@@ -140,15 +200,39 @@ When you view the survey at run time, the \_beverage\_ in the subsequent questio
 ![Answer tag replaced at survey run time](media/survey-runtime-2.png "Answer tag replaced at survey run time")
 
 To add an answer tag:
+
+**Web client**
+
 1.	Sign in to Dynamics 365.
+
 2.	Go to **Voice of the Customer** > **Surveys**.
+
 3.	Select the name of the survey to which you want to add an answer tag.
+
 4.	Add the questions to the survey, if required. If the questions are already added, go to the question editor.
+
 5.	Under **Advanced**, enter a value in the **Answer Tag** field.
     
     ![Answer tag](media/answer-tag.png "Answer tag")
 
 6.	Save the question and publish the survey.
+
+**Voice of the Customer app**
+
+1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
+2. Go to **Voice of the Customer** > **Surveys**.
+
+3. Select the name of the survey to which you want to add an answer tag.
+
+4. Add the questions to the survey, if required. If the questions are already added, select the question to which you want to add an answer tag.
+
+5. In the **Properties** pane, enter a value in the **Answer tag** field.
+
+   ![Answer tag](media/answer-tag-uci.png "Answer tag")
+
+6. Save the question and publish the survey.
+
 
 ## Add the unsubscribe option to a survey
 
@@ -174,6 +258,8 @@ You can configure your survey to include a link that allows a respondent to unsu
 
 You can configure your survey to create a lead automatically from a survey response that is given by an anonymous respondent.
 
+**Web client**
+
 1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
 2.  Go to **Voice of the Customer** &gt; **Surveys**.
@@ -186,11 +272,31 @@ You can configure your survey to create a lead automatically from a survey respo
 
 6.  From the **Survey** box, select **Designer**.
 
-7.  Edit the questions you want to configure to create the lead by selecting a lead attribute from the **Response Mapping** list. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Store responses in a custom field by using response mapping](#store-responses-in-a-custom-field-by-using-response-mapping)  
+7.  Edit the questions you want to configure to create the lead by selecting a lead attribute from the **Response Mapping** list. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Store responses in a custom field by using response mapping](analyze-survey-data.md#store-responses-in-a-custom-field-by-using-response-mapping)  
 
     ![Response mapping to create lead](media/lead-response-mapping.png "Response mapping to create a lead")  
 
 8.  Save the changes.
+
+**Voice of the Customer app**
+
+1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
+2. Go to **Voice of the Customer** > **Surveys**.
+
+3. Select the name of the survey for which you want to create a lead automatically for an anonymous respondent. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Store responses in a custom field by using response mapping](analyze-survey-data.md#store-responses-in-a-custom-field-by-using-response-mapping)
+
+4. Under **Invitations and Actions**, select **Yes** for the **Create Lead For Anonymous Responses** field.
+
+5. Save the changes.
+
+6. From the **Survey** box, select **Designer**.
+
+7. Select the question you want to configure to create the lead by selecting a lead attribute from the **Map response to** list.
+
+    ![Response mapping to create a lead](media/lead-response-mapping-uci.png "Response mapping to create a lead")
+
+8. Save the changes.
 
 When a survey generates an anonymous response, and is configured to create a lead, the **Create Lead** workflow is invoked in the background for creating the lead. The lead entities are mapped to the survey response fields as described in the following table.
 
@@ -220,13 +326,18 @@ After a lead is created, the **Respondent** field in the survey response is upda
 
 ## Automatically send an email response
 
-You can configure your survey to automatically send an email response to the customer (account, contact, or lead) after the survey is completed. The email is sent by using a Global email template type.
+You can configure your survey to automatically send an email response to the customer (account, contact, or lead) after the survey is completed. The email is sent by using a Global email template type. More information about how to create a new email template of type Global: [Create templates for email ](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-templates-email)
+
+> [!NOTE]
+> The email is sent only for a non-anonymous response.
+
+**Web client**
 
 1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
 2.  Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey for which you want to send automatic response.
+3.  Select the name of the survey for which you want to send an automatic response.
 
 4.  Under **Invitations and Actions**, select **Yes** for the **Automatically Send Email Response** field. The **Email** field is displayed.
 
@@ -234,10 +345,93 @@ You can configure your survey to automatically send an email response to the cus
 
 6.  Select **Save** in the lower-right corner of the screen.
 
-    > [!NOTE]
-    > The email is sent only for a non-anonymous response.
+**Voice of the Customer app**
 
-    More information about how to create a new email template of type Global: [Create templates for email ](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-templates-email)  
+1.  [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
+2.  Go to **Voice of the Customer** &gt; **Surveys**.
+
+3.  Select the name of the survey for which you want to send an automatic response.
+
+4.  Under **Invitations and Actions**, select **Yes** for the **Automatically Send Email Response** field. The **Email Template** field is displayed.
+
+5.  From the **Email Template** list, select an email template.
+
+6.  Select **Save** in the lower-right corner of the screen.
+
+## Survey scoring
+
+A great feature of Voice of the Customer surveys is the ability to score individual questions or a group of questions in a survey.  This can be used in the following applications:
+- Create a custom ‘index’ to measure loyalty, satisfaction, pain, happiness, or any aspect based on more than one question, or more than one methodology. For example, you may choose to use Net Promoter Score as one measure and compare its effectiveness against a combination of Customer Effort Score and a service rating.
+- Take actions based on the total score of the survey. Rather than taking actions based on individual questions, it is possible to act based on a total score. For example, a customer may answer that they are satisfied to one question, but not satisfied to many others. In this case, it is possible to schedule a follow up appointment if the satisfaction index is less than 50% irrespective of the response to a single satisfaction question.
+
+The score is calculated as two percentages on the survey response:
+- Score as a percentage – this is the score of the questions answered (note that logic on the client side may mean not all questions are presented to the respondent).
+- Score as a percentage all routes – this is score of the questions answered divided by all the total possible score (irrespective if they were presented to the respondent).
+
+To configure scoring:
+
+**Web client**
+
+1.	Sign-in to Dynamics 365.
+
+2.	Go to **Voice of the Customer** > **Surveys**.
+
+3.	Select the name of the survey you want to configure scoring. The survey page opens.
+
+4.	Under **Invitations and Actions**, select **Yes** for the **Calculate Score** field.
+
+5.	Save the changes.
+
+6.	From the **Survey** box, select **Designer**.
+
+7.	Edit the questions you want to configure for scoring by selecting one of the following options from the **Score Definition** field:
+    - **Ignore**: Do not score
+    - **Auto (0 -100)**: Minimum value is assigned 0 points, maximum 100 points.
+    - **Auto (100-0)**: Maximum value is assigned 100 points, minimum value 0 points.
+    - **User Specified Range/Weight**: The left most value is assigned the value of the **Score Min Value** field that you specify. The **Score Max Value** field is the right most value.
+    
+    > [!NOTE]
+    > By specifying 10 in the minimum value and 1 in the maximum value, the field scoring can be reversed.
+    
+    - **NPS**: Net Promoter Score scoring type. Used specifically for Net Promoter Score.
+
+    > [!NOTE]
+    > The **Score Definition** field is visible for single response questions and ratings.
+
+8.	Save the changes.
+
+**Voice of the Customer app**
+
+1.  [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
+2.  Go to **Voice of the Customer** > **Surveys**.
+
+3.	Select the name of the survey you want to configure scoring. The survey page opens.
+
+4.	Under **Invitations and Actions**, select **Yes** for the **Calculate Score** field.
+
+5.	Save the changes.
+
+6.	From the **Survey** box, select **Designer**.
+
+7. Select the question you want to configure for scoring.
+
+8. In the **Properties** pane, select one of the following options from the **Scoring** list:
+    - **None**: Do not score
+    - **Auto (0 -100)**: Minimum value is assigned 0 points, maximum 100 points.
+    - **Auto (100-0)**: Maximum value is assigned 100 points, minimum value 0 points.
+    - **User Specified**: The left most value is assigned the value of the **Minimum score value** field that you specify. The **Maximum score value** field is the right most value.
+    
+    > [!NOTE]
+    > By specifying 10 in the minimum value and 1 in the maximum value, the field scoring can be reversed.
+    
+    - **NPS**: Net Promoter Score scoring type. Used specifically for Net Promoter Score.
+
+    > [!NOTE]
+    > The **Scoring** list is visible for single response questions and ratings.
+
+9.	Save the changes.
 
 ### See also
 [Plan a survey](plan-survey.md)   

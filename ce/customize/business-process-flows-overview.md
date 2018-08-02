@@ -1,7 +1,7 @@
 ---
 title: "Business process flows overview | MicrosoftDocs"
 ms.custom: ""
-ms.date: 03/21/2018
+ms.date: 06/04/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -31,7 +31,10 @@ Business process flows provide a guide for people to get work done. They provide
  Use business process flows to define a set of steps for people to follow to take them to a desired outcome. These steps provide a visual indicator that tells people where they are in the business process. Business process flows reduce the need for training because new users don’t have to focus on which entity they should be using. They can let the process guide them. You can configure business process flows to support common sales methodologies that can help your sales groups achieve better results. For service groups, business process flows can help new staff get up-to-speed more quickly and avoid mistakes that could result in unsatisfied customers.  
   
 <a name="BKMK_What"></a>   
-## What can business process flows do?  
+## What can business process flows do?
+
+A business process flow definition is represented as a custom entity and an instance of a process is stored as a record within that entity. Each record is associated with a data record (such as an Account, Contact, Lead, or Opportunity) and in case of cross-entity processes, with a data record for each participating entity.
+  
  With business process flows, you define a set of *stages* and *steps* that are then displayed in a control at the top of the form.  
   
  ![Business process with stages](../customize/media/business-process-stages.png "Business process with stages")  
@@ -44,7 +47,7 @@ Business process flows provide a guide for people to get work done. They provide
   
 <a name="BKMK_BPFwithOtherCustomizations"></a>   
 ### Business process flows integrated with other customizations  
- When you or your user enters data using business process flows, the data changes are also applied to form fields so that any automation provided by business rules or form scripts can be applied immediately. Steps can be added that set values for fields that are not present in the form and these fields will be added to the `Xrm.Page` object model used for form scripts. Any workflows that are initiated by changes to fields included in a business process flow will be applied when the data in the form is saved. If the automation is applied by a real-time workflow, the changes will be immediately visible to the user when the data in the form is refreshed after the record is saved.  
+ When you or your user enters data using business process flows, the data changes are also applied to form fields so that any automation provided by business rules or form scripts can be applied immediately. Steps can be added that set values for fields that are not present in the form and these fields will be added to the [Client API object model](../developer/clientapi/understand-clientapi-object-model.md) used for form scripts. Any workflows that are initiated by changes to fields included in a business process flow will be applied when the data in the form is saved. If the automation is applied by a real-time workflow, the changes will be immediately visible to the user when the data in the form is refreshed after the record is saved.  
   
  Although the business process flow control in the form does not provide any direct client-side programmability, changes applied by business rules or form scripts are automatically applied to business process flow controls. If you hide a field in a form, that field will also be hidden in the business process flow control. If you set a value by using business rules or form scripts, that value will be set within the business process flow.  
   
@@ -77,7 +80,25 @@ Business process flows provide a guide for people to get work done. They provide
   
  When someone creates a new entity record, the list of available active business process definition is filtered by the user’s security role. The first activated business process definition available for the user’s security role according to the process order list is the one applied by default. If more than one active business process definitions is available, users can load another from the Switch Process dialog. Whenever processes are switched, the one currently rendered goes to the background and is replaced by the selected one, but it maintains its state and can be switched back. Each record can have multiple process instances associated (each for a different business process flow definition, up to a total of 10). On form load, only one business process flow is rendered. When any user applies a different process, that process may only load by default for that particular user.  
   
- To make sure a business process is loaded by default for all user (behavior equivalent to “pinning” the process), a custom Client API script (web resource) can be added on form load that specifically loads an existing business process instance based on the business process definition ID. 
+ To make sure a business process is loaded by default for all user (behavior equivalent to “pinning” the process), a custom Client API script (web resource) can be added on form load that specifically loads an existing business process instance based on the business process definition ID.
+
+<a name="BKMK_BPFPrivileges"></a>   
+## Business process flow privileges
+
+Each business process flow definition that is represented as a custom entity comes with its own set of privileges that can be edited within a security role just like any other system or custom entity. You can specify the privileges in the **Business Process Flows** tab for a security role.
+
+![Set privileges for business process flow](media/bpf-privileges-customizer.png) 
+
+You can assign the following privileges on a business process flow:
+- **Create**: Allows creating an instance of the business process flow, which is done at the same time as creating a new record. 
+- **Read**: Allows viewing the business process flow on a created record. 
+- **Write**: Allows updating the business process flow. For example, changing state and navigation. 
+- **Delete**: Allows deleting an instance such as when a record is deleted. 
+- **Append**: Allows cross-entity navigation from an entity. For example, the Lead entity in the **Lead to Opportunity Sales Process** business process flow. 
+- **Append To**: Allows cross-entity navigation to an entity. For example, the Opportunity entity in the **Lead to Opportunity Sales Process** business process flow.
+
+> [!NOTE]
+> The **System Administrator** and **System Customizer** security roles have access to all business process flows by default. 
  
   
 <a name="BKMK_Considerations"></a>   
@@ -142,23 +163,9 @@ Business process flows provide a guide for people to get work done. They provide
   
 -   Multi-entity processes can contain no more than five entities.
   
-## Preview feature: Business process flow entity customization support 
+## Business process flow entity customization support 
 
 Introduced in the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update, business process flow entities can appear in the system so that entity record data can be made available in grids, views, charts, and dashboards. 
-
-> [!IMPORTANT]
-> [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
-> [!INCLUDE [cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
-
-### Enable customization support for business process flow entities
-1.	Go to **Settings** > **Administration** > **System Settings**.
-2.	Select the **Preview** tab.
-3.	Review, and if you agree, accept the license terms.
-4.	Select **Enable BPF Entity Customization Support**, and then select **OK**.
-
-![Enable business process flow entity customization support](media/enable-bpf-custom.png)
 
 ### Use business process flow entity records with grids, views, charts, and dashboards
 
@@ -169,8 +176,6 @@ Business process flows, such as **Lead To Opportunity Sales Process**, appear as
 ![Solution Explorer with lead-to-opportunity process entity](media/bpf-lead-solution-explorer.png)
 
 To access a default business process flow view, open solution explorer, expand **Entities** > expand the process that you want, such as **Lead To Opportunity Sales Process**, select **Views**, and then select the view that you want.
-
-![Access a business process flow entity view](media/bpf-entity-views.png)
 
 Several default views are available that you can view as a chart, such as the **Active Opportunity Sales Process** view. 
 

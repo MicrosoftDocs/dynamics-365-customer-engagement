@@ -40,7 +40,7 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
   
  [Step 2: Add a toolbar and attach it to the toolbar container](#Step2)
 
- [Step 3: Step 3: Add toolbar button and action call to display the feedback window](#Step3)
+ [Step 3: Add toolbar button and action call to display the feedback window](#Step3)
 
  [Step 4: Add the controls to the configuration ](#Step4)
 

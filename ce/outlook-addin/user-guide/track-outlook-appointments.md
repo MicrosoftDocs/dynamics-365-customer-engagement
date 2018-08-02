@@ -8,17 +8,17 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
+  - Dynamics 365 (online)
+  - Dynamics 365 (on-premises)
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
 ms.assetid: 430d8700-ae27-49b7-a4c1-0e0fcc49fa50
 caps.latest.revision: 18
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "mduelae"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Track Outlook appointments in Dynamics 365 for Outlook
 You can track an appointment in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to save a copy of that appointment record as an activity in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] synchronizes the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record with the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] record so you can view or edit the appointment in either tool. If you sync [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] on your mobile device, you can also access your appointment records on that device.  

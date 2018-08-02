@@ -1,9 +1,10 @@
 ---
 title: "View resource availability (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-projectservice
 ms.date: 09/15/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "project-service-automation"
@@ -12,11 +13,11 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics CRM Online"
-author: "mduelae"
+author: krbjoran
 ms.assetid: 1e2c7e79-0b04-4966-8829-02c16d62e45d
 caps.latest.revision: 13
-ms.author: "mkaur"
-manager: "brycho"
+ms.author: krbjoran
+manager: shellyha
 ---
 # View resource availability (Project Service Automation)
 

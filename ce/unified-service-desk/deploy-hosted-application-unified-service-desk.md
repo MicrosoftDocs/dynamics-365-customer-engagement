@@ -1,10 +1,11 @@
 ---
 title: "Deploy the hosted application to Unified Service Desk | MicrosoftDocs"
 description: "Learn about deploying the hosted application in Unified Service Desk."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +17,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: bd6242eb-5b59-4ceb-bc09-0f7b1e892cdc
 caps.latest.revision: 7
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Deploy the hosted application to Unified Service Desk
 Once you have created a hosted application as described in [Create a HAT hosted application project](../unified-service-desk/use-hat-software-factory-create-hosted-application.md#Create), you can deploy it to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is configured on the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server. You must ensure that all workflow-dependent applications that contain a default workflow include the workflow assembly (.dll file). If the assembly file isn’t found or is deleted, the `Type` field in the Action XML is set to `NULL`.  

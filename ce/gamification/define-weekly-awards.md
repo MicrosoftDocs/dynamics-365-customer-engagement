@@ -3,7 +3,7 @@ title: "Create weekly awards in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to keep players and fans engaged in a game by defining weekly awards in Dynamics 365 – Gamification."
 keywords: ""
 ms.date: 10/18/2017
-ms.service: gamification
+ms.service: dynamics-365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-gamification
 ---
 
 # Create weekly awards to keep players and fans engaged

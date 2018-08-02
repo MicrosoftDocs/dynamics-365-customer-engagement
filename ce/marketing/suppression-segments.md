@@ -3,7 +3,10 @@ title: "Use suppression segments to implement unsubscribe requests in running jo
 description: "How to set and assign a suppression segment to ensure customer journeys in Dynamics 365 for Marketing implement unsubscribe requests"
 keywords: "customer journey; suppression segment; segment; subscriptions; unsubscribe"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"

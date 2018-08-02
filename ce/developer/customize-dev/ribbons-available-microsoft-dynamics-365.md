@@ -104,7 +104,10 @@ This topic describes where ribbons are defined and modified in [!INCLUDE[pn_dyna
   
      If the records are not related to the current record, the default behavior is to add a new record. If the entity has a Quick Create form this will be displayed, otherwise a new full form will be shown.  
   
-     Activities are the exception to this pattern. The add command will always prompt for the type of activity first.  
+     Activities are the exception to this pattern. The add command will always prompt for the type of activity first.
+     
+     > [!NOTE]
+     >  Offline mode in Dynamics 365 does not support many-to-many relationship on custom entities. Due to this, the **Add New** button on a sub grid in Dynamics 365 offline mode will not be displayed.
   
 - **Show List** The command with the ![Open view button](../media/customization-open-view.PNG "Open view button") icon will open the full list where all available commands can be used.  
   

@@ -3,7 +3,11 @@ title: "Customize Dynamics 365 for Marketing | Microsoft Docs "
 description: "How to customize lists, forms, workflows, business processes, validations, and more in Dynamics 365 for Marketing"
 keywords: "customize;workflow;business process;validation"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-cust"
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"

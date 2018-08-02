@@ -1,6 +1,7 @@
 ---
 title: "Backup and restore instances of Dynamics 365 (online) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
+  - dyn365-deflc
 ms.date: 02/26/2018
 ms.reviewer: ""
 ms.service: "crm-online"

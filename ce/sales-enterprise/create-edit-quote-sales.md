@@ -3,8 +3,10 @@ title: "Create or edit a quote (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Quotes include the pricing details of the products your potential customer is interested in."
 keywords: "Quote, proposal, create quote, products, price"
 ms.date: 09/22/2017
-ms.service: crm-online
-ms.custom: 
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,7 +14,7 @@ applies_to:
 ms.assetid: 9881bdf5-8922-4cb6-b2df-544286e56400
 author: shubhadaj
 ms.author: shujoshi
-manager: amyla
+manager: sakudes
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -52,6 +54,11 @@ One way that can help you increase your sales is to add all products that your c
 7.	Select **Save** in the lower-right corner of the screen.
 
 8.	When your quote is ready to send to your customer, on the command bar, select **Activate Quote**.
+
+> [!NOTE]
+
+> Your base record and all its line items must use the same currency. For example, if your quote has the currency set to U.S Dollars, you must use the same currency for the price list items that you add to the quote. You can’t change the currency of the base record (in this case, an quote), unless you remove all the line items associated with the record.
+> Similarly, if the quote is created from an opportunity, it must use the same currency as the opportunity.
 
 <a name="bkmk2"></a>  
 ## Create a quote (Sales Hub app)

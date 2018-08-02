@@ -3,8 +3,9 @@ title: "Set up product bundles to sell multiple items together (Dynamics 365 for
 description: "Combine products in a bundle in Dynamics 365 for Sales to sell multiple items together."
 keywords: "Bundle, Product Bundle"
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.custom: 
+ms.service: dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"

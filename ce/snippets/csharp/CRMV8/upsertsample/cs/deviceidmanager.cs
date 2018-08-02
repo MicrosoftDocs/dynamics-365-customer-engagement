@@ -163,7 +163,7 @@ namespace Microsoft.Crm.Services.Utility
 		/// </remarks>
 		public static ClientCredentials RegisterDevice(Guid applicationId, Uri issuerUri, string deviceName, string devicePassword)
 		{
-			if (string.IsNullOrEmpty(deviceName) &amp;&amp; !PersistToFile)
+			if (string.IsNullOrEmpty(deviceName) && !PersistToFile)
 			{
 				throw new ArgumentNullException("deviceName", "If PersistToFile is false, then deviceName must be specified.");
 			}
@@ -235,7 +235,7 @@ namespace Microsoft.Crm.Services.Utility
 
 			foreach (KeyValuePair<EnvironmentType, string> searchPair in searchList)
 			{
-				if (issuerUri.Host.Length > searchPair.Value.Length &amp;&amp;
+				if (issuerUri.Host.Length > searchPair.Value.Length &&
 					issuerUri.Host.StartsWith(searchPair.Value, StringComparison.OrdinalIgnoreCase))
 				{
 					string environment = issuerUri.Host.Substring(searchPair.Value.Length);
@@ -771,7 +771,7 @@ namespace Microsoft.Crm.Services.Utility
 					{
 						int code;
 						if (int.TryParse(value.Substring(2), NumberStyles.Integer,
-							CultureInfo.InvariantCulture, out code) &amp;&amp;
+							CultureInfo.InvariantCulture, out code) &&
 							Enum.IsDefined(typeof(DeviceRegistrationErrorCode), code))
 						{
 							this.RegistrationErrorCode = (DeviceRegistrationErrorCode)Enum.ToObject(
@@ -916,7 +916,7 @@ namespace Microsoft.Crm.Services.Utility
 		private void UpdateCredentials(string encryptedValue, string decryptedValue)
 		{
 			bool isValueUpdated = false;
-			if (string.IsNullOrEmpty(encryptedValue) &amp;&amp; string.IsNullOrEmpty(decryptedValue))
+			if (string.IsNullOrEmpty(encryptedValue) && string.IsNullOrEmpty(decryptedValue))
 			{
 				isValueUpdated = true;
 			}

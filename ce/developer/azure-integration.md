@@ -53,10 +53,8 @@ You can connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-on
  [!INCLUDE[sdk_for_more_info_about](../includes/sdk-for-more-info-about.md)] the asynchronous service see [Asynchronous service in Dynamics 365](asynchronous-service.md).  
   
  **Microsoft Azure Service Bus**  
- The service bus relays the request messagedata context between[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] solution listener applications. The service bus also provides data security so that only authorized applications can access the posted Dynamics 365 data.  Authorization of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to post the data context to the service bus and for listener applications to read it is managed by either [!INCLUDE[pn_windows_azure_acs](../includes/pn-windows-azure-acs.md)] or [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] Shared Access Signatures (SAS).  
+ The service bus relays the request messagedata context between[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] solution listener applications. The service bus also provides data security so that only authorized applications can access the posted Dynamics 365 data.  Authorization of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to post the data context to the service bus and for listener applications to read it is managed by  [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] Shared Access Signatures (SAS).  
   
-> [!NOTE]
->  About SAS authorization: [!INCLUDE[cc_feature_included_with_update_8_1_0_admins](../includes/cc-feature-included-with-update-8-1-0-admins.md)] SAS is a more modern form of authorization and exhibits better performance when compared to ACS.  
   
  [!INCLUDE[sdk_for_more_info_about](../includes/sdk-for-more-info-about.md)] the service bus see [Service Bus](https://azure.microsoft.com/en-us/services/service-bus/). [!INCLUDE[sdk_for_more_info_about](../includes/sdk-for-more-info-about.md)] service bus authorization see [Service Bus authentication and authorization](https://azure.microsoft.com/en-us/documentation/articles/service-bus-authentication-and-authorization/).  
   
@@ -65,9 +63,11 @@ You can connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-on
   
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] supports sending event data to an [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] solution. [!INCLUDE[cc_feature_included_with_update_8_1_0_admins](../includes/cc-feature-included-with-update-8-1-0-admins.md)]. [!INCLUDE[sdk_for_more_info_about](../includes/sdk-for-more-info-about.md)] event hubs see [Work with Dynamics 365 event data in your Azure Event Hub solution](work-event-data-azure-event-hub-solution.md).  
   
-<a name="bkmk_describing"></a>   
+<a name="bkmk_describing"></a>  
+ 
 ## A [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]-to-service bus scenario  
- Let us now identify a scenario that implements the previously mentioned connection components. As a prerequisite, ACS has been configured to recognize [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] as the supported issuer and the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] solution configured with rules to allow [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to post to the endpoint where the listener is.  
+
+ Let us now identify a scenario that implements the previously mentioned connection components. As a prerequisite, SAS has been configured to recognize [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] as the supported issuer and the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] solution configured with rules to allow [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to post to the endpoint where the listener is.  
   
  The following diagram shows the physical elements that make up the scenario.  
   
@@ -81,7 +81,8 @@ You can connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-on
   
 3.  The claims posted by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] are authenticated. The service bus then relays the remote execution context to the listener. The listener processes the context information and performs some business-related task with that information. The service bus notifies the asynchronous service of a successful post and sets the related system job to a completed status.  
   
-<a name="bkmk_establising"></a>   
+<a name="bkmk_establising"></a>  
+ 
 ## Establish a contract between [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and an Azure solution  
  For each solution endpoint, you configure a contract that defines the handling of these remote execution context “messages” on the service bus and the security that should be used on that endpoint. Service bus messages are received at an endpoint using one of the supported contracts listed here.  
   

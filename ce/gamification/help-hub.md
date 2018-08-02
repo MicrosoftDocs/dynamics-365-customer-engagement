@@ -3,7 +3,7 @@ title: "Help and training for Gamification | Microsoft Docs"
 description: "Find your starting point for help content."
 keywords: ""
 ms.date: 11/10/2017
-ms.service: gamification
+ms.service: dynamics-365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-gamification
 ---
 
 # Gamification help and training

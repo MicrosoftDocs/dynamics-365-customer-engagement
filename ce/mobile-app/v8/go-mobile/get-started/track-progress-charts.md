@@ -8,17 +8,17 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
-author: "jimholtz"
+  - Dynamics 365 (online)
+  - Dynamics 365 (on-premises)
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
+author: "mduelae"
 ms.assetid: a35894cf-7d9c-402c-8cdb-7e0edecf4491
 caps.latest.revision: 29
 ms.author: "mkaur"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Track your progress with charts in Dynamics 365 for phones and tablets
 

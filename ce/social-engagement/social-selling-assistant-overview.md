@@ -1,9 +1,9 @@
 ---
 title: "Empower your salespeople with the Social Selling Assistant | Microsoft Docs"
 description: "Get an overview on the Social Selling Assistant."
-keywords: ""
-ms.date: 03/28/2018
-ms.service: mse
+keywords: "SSA, social selling assistant, salesforce empowerment"
+ms.date: 06/13/2018
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Empower your salespeople with the Social Selling Assistant
@@ -44,7 +46,7 @@ topic-status: Drafting
   
 5. **Personalize** the Social Selling Assistant by choosing the search topics that are relevant for you and by adding social profiles. Optionally, share your owned profiles to enable other users in your organization to post on your behalf.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Personalize the Social Selling Assitant for indiviual users](personalize-social-selling-assistant.md)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Personalize the Social Selling Assistant for individual users](personalize-social-selling-assistant.md)  
   
 6. **Share** exciting content and use your personal Social Selling Assistant to grow your social media presence.  
   

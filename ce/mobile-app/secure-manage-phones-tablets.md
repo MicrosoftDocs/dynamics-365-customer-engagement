@@ -8,12 +8,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 (online)
 author: "mduelae"
 ms.assetid: 59af6fe5-f6e0-43d0-addc-044009bc0a23
 caps.latest.revision: 24
 ms.author: "mkaur"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Overview of securing and managing Dynamics 365 for phones and tablets
 

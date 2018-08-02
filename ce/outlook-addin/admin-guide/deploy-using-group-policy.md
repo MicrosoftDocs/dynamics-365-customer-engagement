@@ -8,12 +8,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 (online)
 ms.assetid: 9e0b3f19-c041-4cab-a620-339f0d1d8674
 caps.latest.revision: 35
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "mduelae"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Deploy Microsoft Dynamics 365 for Outlook by using Group Policy
 Group Policy provides an infrastructure for centralized configuration management of the operating system and applications, such as [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-full.md)], that run on the operating system. The Group Policy settings you create are contained in a Group Policy Object (GPO). To create and edit a GPO, use the Group Policy Management Console (GPMC). By using the GPMC to link a GPO to selected [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] sites, domains, and organizational units (OUs), you apply the policy settings in the GPO to the users and computers in those [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] objects. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Group Policy Overview](https://technet.microsoft.com/library/hh831791.aspx)  

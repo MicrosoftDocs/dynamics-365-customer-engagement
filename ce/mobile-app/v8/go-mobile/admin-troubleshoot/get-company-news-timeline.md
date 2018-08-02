@@ -8,13 +8,13 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics CRM Online"
-author: "jimholtz"
+  - Dynamics 365 (online)
+  - Dynamics CRM Online
+author: "mduelae"
 ms.assetid: 8acc32c3-9948-403d-9fe0-df7589a32149
 caps.latest.revision: 10
 ms.author: "mkaur"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Get the Company News Timeline for Dynamics 365 for phones and tablets
 

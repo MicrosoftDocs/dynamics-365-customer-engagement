@@ -1,13 +1,15 @@
 ---
 title: "Schedule anything with Universal Resource Scheduling (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-projectservice
+  - dyn365-fieldservice
 ms.date: 09/30/2017
 searchScope:
   - Customer Service
   - Field Service
   - Project Service
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "common-scheduler"
@@ -16,11 +18,11 @@ ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "mduelae"
+author: krbjoran
 ms.assetid: c92c0cba-cc1d-41ef-983f-869a7a8c1988
 caps.latest.revision: 14
-ms.author: "mkaur"
-manager: "brycho"
+ms.author: krbjoran
+manager: shellyha
 ---
 # Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)
 
@@ -35,9 +37,6 @@ Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can e
 - [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)], you’ll see a new integrated scheduling experience. More information: [Dynamics 365 for Field Service Help](../field-service/overview.md) 
   
 - [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)], you’ll have a new improved scheduling experience. More information: [Dynamics 365 for Project Service Automation Help](../project-service/overview.md) 
-  
-> [!NOTE]
-> [!INCLUDE[cc_feature_included_with_2016_update_d365_online](../includes/cc-feature-included-with-update-2016.md)]  <!-- This may be the incorrect token. It was added to fix a build issue. -->  
   
 ## Prerequisites  
  Before you can start using  Universal Resource Scheduling, make sure you have the following:  

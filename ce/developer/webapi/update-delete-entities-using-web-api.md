@@ -2,7 +2,7 @@
 title: "Update and delete entities using the Web API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Read how to perform update and delete operations on entities using the Web API"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 05/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -34,7 +34,7 @@ Operations to modify data are a core part of the Web API. In addition to a simpl
  This example updates an existing account record with the `accountid` value of 00000000-0000-0000-0000-000000000001.  
   
 > [!IMPORTANT]
->  When updating an entity, only include the properties you are changing in the request body. Simply updating the properties of an entity that you previously retrieved, and including that JSON in your request, will update each property even though the value is the same. This can cause properties to appear to have been updated in auditing data when in fact they haven’t actually changed.  
+>  When updating an entity, only include the properties you are changing in the request body. Simply updating the properties of an entity that you previously retrieved, and including that JSON in your request, will update each property even though the value is the same. This can cause system events that can trigger business logic that expects that the values have changed. This can cause properties to appear to have been updated in auditing data when in fact they haven’t actually changed.
   
  **Request**
 

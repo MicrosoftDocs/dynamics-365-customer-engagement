@@ -2,7 +2,7 @@
 title: "Read Best Practices Analyzer Report (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about how to read Best Practices Analyzer report."
 ms.custom: ""
-ms.date: 04/24/2018
+ms.date: 05/15/2018
 ms.service: "usd"
 ms.topic: "article"
 applies_to: 
@@ -20,6 +20,8 @@ manager: "sakudes"
 # Read Best Practices Analyzer report
 
 This section describes the layout of the [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] report and provides information to help you understand the results of the analysis.
+
+![Read Best Practices Analyzer report](../media/bpa-read-report.gif "Read Best Practices Analyzer report")
 
 ![Best Practices Analyzer report](../media/bpa-report.PNG "Best Practices Analyzer report")
 

@@ -1,6 +1,7 @@
 ---
 title: "Troubleshooting and monitoring server-side synchronization for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
+  - dyn365-deflc
 ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"

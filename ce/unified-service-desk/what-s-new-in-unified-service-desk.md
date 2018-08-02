@@ -1,10 +1,11 @@
 ---
 title: "What's new in Unified Service Desk for developers and customizers | MicrosoftDocs"
 description: "Learn about the new features for developers and customizers in Unified Service Desk."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 04/24/2018
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -15,9 +16,9 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 1c6da924-cfef-4cbf-a6d5-63af8f1a640d
-author: "kabala123"
-ms.author: "kabala"
-manager: "sakudes"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # What's new in Unified Service Desk for developers and customizers
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for developers and system customizers.

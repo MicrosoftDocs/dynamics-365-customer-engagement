@@ -3,7 +3,10 @@ title: "Assign security roles, set up LinkedIn field mappings and matching strat
 description: "Map lead fields and match leads between LinkedIn to Dynamics 365 for Marketing"
 keywords: "LinkedIn; Lead Gen Forms; lead; connector"
 ms.date: 03/27/2018
-ms.service: crm-online
+ms.service:
+  - "crm-online"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"

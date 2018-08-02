@@ -76,7 +76,9 @@ A *business process flow* lets you create more efficient and streamlined sales, 
 
 The custom entity that is automatically created on activating a business process flow to store business process flow instances adheres to the standard security model as for any other custom entity in Customer Engagement. This implies that privileges granted on these entities define the runtime permissions for users for business process flows.
 
-The custom business process flow entity has organization scope. The regular create, retrieve, update and delete privileges on this entity define the permission the user would have based on his/her assigned roles. By default, when the business process flow custom entity is created, only system administrator and system customizer security roles are granted access to it, and you must explicitly grant permissions to this custom entity for other security roles as required.
+The custom business process flow entity has organization scope. The regular create, retrieve, update and delete privileges on this entity define the permission the user would have based on his/her assigned roles. By default, when the business process flow custom entity is created, only **System Administrator** and **System Customizer** security roles are granted access to it, and you must explicitly grant permissions to the new business process flow entity (for example, **My Custom BPF**) for other security roles as required.
+
+![](media/bpf-privileges.png)
 
 <a name="ManageBPF"></a>   
 ### Manage business process flow instances  
@@ -91,48 +93,7 @@ GET [Organization URI]/api/data/v9.0/new_myuniquebpf1s
 > [!IMPORTANT]
 > - This section provides information about programmatically managing various business process flow scenarios such as retrieving process instances for an entity record, retrieving active path and active stage for a process instance, and moving to next or previous stage. You must use the messages and appropriate business process flow entity/entities as described in this section to programmatically manage and automate your business process flows.
 > - Manipulating process related attributes (such as **ProcessId**, **StageId**, and **TraversedPath**) on entities enabled for business process flows does not guarantee consistency of the business process flow state, and is not a supported scenario. The only exception to this is programmatically modifying the **ProcessId** attribute while creating an entity record to override the default application of the business process flow to the new record. More information: [Apply business process flow while creating an entity record](#ApplyBPF).
-> - Switching to another process instance for an entity record is only supported through UI (client). Hence, you can no longer use the `SetProcess`  message (<xref href="Microsoft.Dynamics.CRM.SetProcess?text=SetProcess Action" /> or <xref:Microsoft.Crm.Sdk.Messages.SetProcessRequest>) to programmatically switch processes (set another business process flow as the active process instance) for the target entity record.  
-  
- <!--Use the `SetProcess`  message (<xref href="Microsoft.Dynamics.CRM.SetProcess?text=SetProcess Action" /> or <xref:Microsoft.Crm.Sdk.Messages.SetProcessRequest>) to set another business process flow as the active process instance for the target entity record. An active process instance is the one that is visible on the UI for the entity record. If there isn't any process instance of the specified business process flow definition,  a new business process flow instance  will be created, and set as active for the entity record. If there is already a process instance of the business process flow definition, the process instance will be set as the active process instance for the entity record. If you want to set a particular process instance as the active process instance for an entity record, you can use the <xref:Microsoft.Crm.Sdk.Messages.SetProcessRequest.NewProcessInstance> property to specify the instance.  
-  
- Setting an active process programmatically is the same as switching to another process instance for the entity record in UI. Since each business process flow instance maintains its own stage and step progress information, switching to another business process instance does not cause you to lose the progress information, and you resume from the same point where you were last time.  
-  
- The following sample code demonstrates how you can switch to another business process flow for an entity record:  
-  
-```csharp  
-SetProcessRequest setProcReq = new SetProcessRequest  
-{  
-	Target = new EntityReference(Opportunity.EntityLogicalName, _opportunityId),  
-	NewProcess = new EntityReference(Workflow.EntityLogicalName, _bpfId)  
-};  
-SetProcessResponse setProcResp = (SetProcessResponse)_serviceProxy.Execute(setProcReq);  
-```  
-  
- In the above code sample, the `_bpfId` variable represents the ID of the business process flow definition that you want to switch to; you can retrieve the ID of the required business process flow definition by querying the `Workflow` entity. The following sample code demonstrates how you can retrieve the ID of the sample "Opportunity Sales Process" business process flow definition by querying the `Workflow` entity:  
-  
-```csharp  
-QueryExpression opportunityBpfQuery = new QueryExpression  
-{  
-    EntityName = "workflow",  
-    ColumnSet =  new ColumnSet("name"),  
-    Criteria = new FilterExpression  
-    {  
-        Conditions =  
-        {  
-            new ConditionExpression  
-            {  
-                AttributeName = "uniquename",  
-                Operator = ConditionOperator.Equal,  
-                Values = { "opportunitysalesprocess" }  
-            }  
-        }  
-    }  
-};  
-Workflow retrievedBPF = (Workflow)_serviceProxy.RetrieveMultiple(opportunityBpfQuery).Entities[0];  
-_bpfId = retrievedBPF.Id;  
-```  
-  
- For the complete sample, see [Sample: Work with business process flows](sample-work-business-process-flows.md) --> 
+> - Switching to another process instance for an entity record is only supported through UI (client). Hence, you can no longer use the `SetProcess`  message (<xref href="Microsoft.Dynamics.CRM.SetProcess?text=SetProcess Action" /> or <xref:Microsoft.Crm.Sdk.Messages.SetProcessRequest>) to programmatically switch processes (set another business process flow as the active process instance) for the target entity record. 
   
  Use the `RetrieveProcessInstances` message (<xref href="Microsoft.Dynamics.CRM.RetrieveProcessInstances?text=RetrieveActivePath Function" /> or <xref:Microsoft.Crm.Sdk.Messages.RetrieveProcessInstancesRequest>) to retrieve all the business process flow instances for an entity record across all business process definitions. The business process flow instances returned for an entity are ordered based on the `modifiedon` attribute for the instance. For example, the most recently modified business process flow instance will be the *first*  record in the returned collection. The most recently modified business process flow instance is the one that is active on the UI  for an entity record.  
   
@@ -241,7 +202,7 @@ If you do not set a value for the **ProcessId** attribute while creating a new e
 
 <a name="BKMK_clientSideScript"></a>   
 ## Client-side programmability support for business process flows  
- With [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] there is a client-side object you can use to interact with business process flows in your form scripts. Business process flows trigger client-side events every time a process is either applied to a record, the stage is changed, or its status is changed to `Active`, `Finished`, or `Aborted`. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Write scripts for business process flows](clientapi/write-scripts-business-process-flows.md)  
+ With [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] there is a client-side object you can use to interact with business process flows in your form scripts. Business process flows trigger client-side events every time a process is either applied to a record, the stage is changed, or its status is changed to `Active`, `Finished`, or `Aborted`. More information: [formContext.data.process (Client API reference)](clientapi/reference/formcontext-data-process.md)  
   
 <a name="BKMK_MaxSettings"></a>   
 ## Maximum number of processes, stages, and steps  
@@ -265,5 +226,4 @@ If you do not set a value for the **ProcessId** attribute while creating a new e
  [Assign a security role to a business process](http://go.microsoft.com/fwlink/p/?LinkId=512993)   
  [Guide staff through common tasks with processes](http://go.microsoft.com/fwlink/p/?LinkId=512994)   
  [Add ready-to-use business processes](http://go.microsoft.com/fwlink/p/?LinkID=323564)   
- [Business process flows](../customize/business-process-flows-overview.md)   
- [Write scripts for business process flows](clientapi/write-scripts-business-process-flows.md)
+ [Business process flows](../customize/business-process-flows-overview.md)

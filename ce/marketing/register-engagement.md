@@ -3,7 +3,10 @@ title: "Register link clicks and website visits (Dynamics 365 for Marketing) | M
 description: "Set up your website to record visits from known and unknown contacts, and create redirect links that register clicks from anywhere in Dynamics 365 for Marketing"
 keywords: "website;redirect URL;behavioral analysis;behavior;tracking"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service:
+  - "crm-online"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -89,7 +92,7 @@ To find or create a redirect URL.
 
 The same redirect-URL record where you can find the redirecting URL also shows the data collected by using that URL. To see these results, go to **Marketing** &gt; **Internet Marketing** &gt; **Redirect URLs** and open the redirect-URL record you want to examine. Browse the following two tabs to see information gathered by the URL:
 
-- **General Info**: This is where you find the basic metadata and the redirecting URL itself. After your redirecting URL has started to collect data, you'll find the results here, including a map with geodata and other information from [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)].
+- **General Info**: This is where you find the basic metadata and the redirecting URL itself. After your redirecting URL has started to collect data, you'll find the results here, including a map with geodata and other information.
 - **Timeline**: Shows a detailed timeline of each click recorded over time.
 
 ### See also

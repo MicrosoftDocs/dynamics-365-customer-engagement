@@ -1,7 +1,8 @@
 ---
 title: "How Unified Service Desk for Dynamics 365 Customer Engagement handles application and system errors | MicrosoftDocs"
 description: "Understand how application and system faults are managed in Unifed Service Desk."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
 ms.prod: "usd2.0"
 ms.reviewer: ""
@@ -12,8 +13,10 @@ applies_to:
   - "Unified Service Desk 2.0"
 ms.assetid: 01878a81-2b67-44ab-a11d-b19adc407177
 caps.latest.revision: 5
-author: "Mattp123"
-ms.author: "matp"
+author: kabala123
+ms.author: kabala
+ms.service: dynamics-365-customerservice
+manager: sakudes
 ---
 # Application and system faults
 Having detailed and comprehensive logging and reporting that occurs during a  component, application, or system fault can help identify when and how the fault occurred. The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client can record diagnostics logs, system and application state details, and application memory dumps in the event of an exception in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.  
