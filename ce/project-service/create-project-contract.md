@@ -21,7 +21,7 @@ manager: shellyha
 ---
 # Create a project contract (Project Service Automation)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Now that you’ve won the quote for your project, it’s time to create a contract with your customer and make it official. You can create one or more contracts for each quote. When you’re creating a contract, you’re in the **Contract** phase of your project.  
   

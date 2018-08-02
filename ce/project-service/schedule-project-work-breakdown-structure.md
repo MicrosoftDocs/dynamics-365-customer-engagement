@@ -21,7 +21,7 @@ manager: shellyha
 ---
 # Schedule a project with a work breakdown structure (Project Service Automation)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 A project schedule communicates what work needs to be performed, which resources will perform the work, and the timeframe in which that work needs to be completed. The project schedule reflects all the work associated with delivering the project on time. One of the first steps in the initiation phase of the project is to come up with a project schedule. To establish a project schedule, you need to create a work breakdown structure.  
   

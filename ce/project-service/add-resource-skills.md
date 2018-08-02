@@ -21,7 +21,7 @@ manager: shellyha
 ---
 # Add resource skills (Project Service Automation)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Your clients’ projects no doubt require a variety of different skills to complete the job, such as SQL programming or agile methodologies. Enter each skill so you can associate it with resource roles and resources later on.  
   

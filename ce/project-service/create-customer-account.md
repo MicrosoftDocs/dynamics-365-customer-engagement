@@ -21,7 +21,7 @@ manager: shellyha
 ---
 # Create a customer account (Project Service Automation)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Create an account for each client you’re working with, whether you’re quoting a project or actively working on an existing project for them.  
   

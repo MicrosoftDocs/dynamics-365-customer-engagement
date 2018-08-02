@@ -21,7 +21,7 @@ manager: shellyha
 ---
 # Enter time (Project Service Automation)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Enter your hours at least weekly—or at the frequency requested by your managers—to ensure your clients are invoiced and you’re credited correctly.  
   
