@@ -79,7 +79,7 @@ With each of the above search areas, the search results might vary based on the 
 
 [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
 
-
+[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 
 
 

@@ -84,6 +84,17 @@ ms.custom: dyn365-customerservice
 </li>
    <li><a href="troubleshoot-delete-sla.md" data-raw-source="[Cannot disable an SLA enabled on an entity in a managed solution](troubleshoot-delete-sla.md)">Cannot disable an SLA enabled on an entity in a managed solution</a></li>
   </ul><br/>  </td>
+
+<td><h2>Customize</h2>
+   <ul>
+  <li><a href="create-design-forms-customer-service-hub.md" data-raw-source="[Create and design forms for Customer Service Hub](create-design-forms-customer-service-hub.md)">Create and design forms for Customer Service Hub</a>
+</li>
+   <li><a href="add-knowledge-base-search-control-forms.md" data-raw-source="[Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)">Add the Knowledge Base Search control to forms</a></li>
+
+<li><a href="configure-interactive-dashboards-customer-service-hub.md" data-raw-source="[Configure interactive dashboards in the Customer Service Hub](configure-interactive-dashboards-customer-service-hub.md)">Configure interactive dashboards in the Customer Service Hub</a></li>
+
+  </ul><br/>  </td>
+
 <td>&#160;</td>
 </table>
 
