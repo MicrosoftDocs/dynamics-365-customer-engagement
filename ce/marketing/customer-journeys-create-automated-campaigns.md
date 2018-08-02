@@ -210,4 +210,5 @@ When you've finished designing your customer journey, do the following to verify
 [Create an inbound customer journey](create-inbound-customer-journey.md)  
 [Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
 [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)  
-[Accessibility and keyboard shortcuts](designer-shortcuts.md)
+[Accessibility and keyboard shortcuts](designer-shortcuts.md)  
+[Go live with publishable entities and track their status](go-live.md)

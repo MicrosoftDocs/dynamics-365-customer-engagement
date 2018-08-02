@@ -239,11 +239,18 @@ The following table describes all configuration settings that are available for 
 
 ## Deploy your marketing pages
 
-While you are building a marketing page it remains in draft status, and is therefore editable in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] but is unavailable to customers on the internet. When your page is ready for use, you must publish it by selecting **Go Live**.
+While you are building a marketing page it remains in draft status, and is therefore editable in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] but is unavailable to customers on the internet. When your page is ready for use, you must publish it by selecting **Go Live**. Your design will be checked for errors and then, provided it passes, be published to your portal. If a problem is found, read the error message, address the issue, and try again.
 
-While the page is live, you can't edit it in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], but you can stop (unpublish) a live page at any time by opening its record and selecting **Stop** in the command bar. Then you can edit it and republish as needed.
+You can edit a live page by selecting **Edit** in the command bar. While you are editing it, it remains available on the internet. After editing, select **Save** to go live with your changes. Your design will be checked for errors and then, provided it passes, your updates will be published.
 
-When you publish a marketing page, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] hosts it by using its portals* feature at a public URL that you can share with prospects. When you first create the page, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] automatically creates a new website record for it, where you can go to analyze its traffic and performance. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Register contacts' engagement with your Internet marketing initiatives](register-engagement.md)
+> [!NOTE]
+> Most marketing pages include an embedded form, which you must design and publish separately from the page. The imported form is validated together with the page when you publish it, so if an embedded form has been removed or changed so it is no longer valid, then you'll see a validation error when publishing or saving an edited page.
+
+You can remove a live page from the internet by selecting **Stop** in the command bar.
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Go live with publishable entities and track their status](go-live.md)
+
+When you publish a marketing page, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] hosts it by using its portals feature at a public URL that you can share with prospects. When you first create the page, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] automatically creates a new website record for it, where you can go to analyze its traffic and performance. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Register contacts' engagement with your Internet marketing initiatives](register-engagement.md)
 
 ## Embed a marketing form on your own website
 
@@ -296,4 +303,5 @@ Administrators can choose settings that control several aspects of the way all m
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  
 [Content blocks reference](content-blocks-reference.md)  
 [Upload and use images and files](upload-images-files.md)  
-[How Dynamics 365 for Marketing uses cookies](cookies.md)
+[How Dynamics 365 for Marketing uses cookies](cookies.md)  
+[Go live with publishable entities and track their status](go-live.md)
