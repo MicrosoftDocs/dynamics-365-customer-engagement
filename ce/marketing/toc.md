@@ -1,6 +1,7 @@
 # [Dynamics 365 for Marketing](help-hub.md)
 
 ## [Overview](overview.md)
+## [Marketing videos](marketing-videos.md)
  
 ## [Administrator Guide](admin-guide.md)
 
@@ -69,8 +70,9 @@
 #### [Upload and use images and files](upload-images-files.md)
 #### [Prepare marketing email messages](prepare-marketing-emails.md)
 #### [Add dynamic content to email messages](dynamic-email-content.md)
-#### [Work with email templates](email-templates.md)
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
+#### [Work with email, page, and form templates](email-templates.md)
+#### [Use custom attributes to enable designer features](custom-template-attributes.md)
 
 ### Segmentation and customer journeys
 #### [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
@@ -102,6 +104,7 @@
 #### [Engage customers online with portals](portals.md)
 #### [Create and run online surveys](surveys.md)
 
+### [Go live with publishable entities and track their status](go-live.md)
 ### [Analyze results to gain insights](insights.md)
 
 ## [Developer Guide](developer/marketing-developer-guide.md)

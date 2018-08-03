@@ -1,7 +1,7 @@
 ---
 
 title: Reporting guide
-description: An English-language guide to reporting in Project Service Automation
+description: An English-language guide to reporting in Project Service Automation for Dynamics 365
 author: krbjoran
 manager: ShellyHa
 ms.service: dynamics-365-customerservice
@@ -20,7 +20,9 @@ audience: Admin
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-The ability to report on operations is key to being able to determine the health of the organization and take corrective action. Project Service uses Dynamics 365 reporting methods and technologies for all its reporting. This English-language guide describes the data model and entities used by Project Service reporting, and also the reporting options used by Dynamics 365. 
+The Project Service application uses Dynamics 365 reporting methods and technologies to help you determine the health of your projects and identify when you need to take corrective action. 
 
-[Download the reporting guide for PSA version 3.x](https://go.microsoft.com/fwlink/?linkid=2007324)  
-  
+This English-language guide describes the data model and entities used by Project Service reporting: 
+
+> [!div class="nextstepaction"]
+> [Download PDF of the reporting guide](https://go.microsoft.com/fwlink/?linkid=2007324)

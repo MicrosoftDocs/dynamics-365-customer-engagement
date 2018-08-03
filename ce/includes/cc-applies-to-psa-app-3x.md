@@ -1,1 +1,1 @@
-Applies to app version 3.x
+Applies to Project Service app version 3.x

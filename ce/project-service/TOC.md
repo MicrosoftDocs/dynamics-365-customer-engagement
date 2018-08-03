@@ -37,7 +37,7 @@
 ### [Schedule resources for a project](schedule-resources-project.md)
 ### [View resource availability](view-resource-availability.md)
 ### [View resource utilization](view-resource-utilization.md)
-### [Universal Resource Scheduling (URS)](.../common-scheduler/schedule-anything-with-universal-resource-scheduling)
+### [Universal Resource Scheduling (URS)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
 ## [Project manager guide](project-manager-guide.md)
 ### [Provide work estimates](provide-estimates-project-during-sales-process.md)
 ### [Create a project](create-project.md)

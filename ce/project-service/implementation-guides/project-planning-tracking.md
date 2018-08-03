@@ -1,7 +1,7 @@
 ---
 
 title: Project Planning and Tracking
-description: An English-language guide to project planning and tracking in Project Service Automation
+description: An English-language guide to project planning and tracking in Project Service Automation for Dynamics 365
 author: krbjoran
 manager: ShellyHa
 ms.service: dynamics-365-customerservice
@@ -20,8 +20,9 @@ audience: Admin
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Dynamics 365 for Project Service Automation provides end-to-end support for service organizations by providing tools for managing the sales and delivery process. This helps you identify opportunities, submit bids, reach contractual agreements, manage resources, deliver projects on time and within budget, record time and expenses, and invoice the customer. This English-language document explains how project managers can use Project Service Automation to estimate work, project costs, and forecast resource requirements.
+The Project Service application helps service organizations identify opportunities, submit bids, reach contractual agreements, manage resources, track time and expenses, invoice customers, and deliver projects on time and within budget. 
 
+This English-language document explains how to use the Project Service app to estimate work, project costs, and forecast resource requirements:
 
-[Download project planning and tracking guide for PSA version 3.x](https://go.microsoft.com/fwlink/?linkid=2006685)  
-  
+> [!div class="nextstepaction"]
+> [Download PDF of the project planning and tracking guide](https://go.microsoft.com/fwlink/?linkid=2006685)
