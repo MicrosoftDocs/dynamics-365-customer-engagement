@@ -32,7 +32,7 @@ audience: Admin
   
   
 ### See Also  
- [Overview of Project Service Automation](../project-service/overview.md)   
+ [Overview of Project Service](../project-service/overview.md)   
  [Administrator Guide](../project-service/admin-guide.md)   
  [Project Manager Guide](../project-service/project-manager-guide.md)   
  [Resource Manager Guide](../project-service/resource-manager-guide.md)   
