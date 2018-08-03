@@ -21,7 +21,7 @@ manager: shellyha
 ---
 # View your schedule (Project Service Automation)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 When you want to see what you’re working on for the week, take a look at your schedule.  
   

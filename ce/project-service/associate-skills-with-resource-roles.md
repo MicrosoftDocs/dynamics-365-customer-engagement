@@ -21,7 +21,7 @@ manager: shellyha
 ---
 # Associate skills with resource roles (Project Service Automation)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 While you were adding resource roles, you probably already associated some skills to them. From time to time, you might need to add additional skills to a resource role.  
   
