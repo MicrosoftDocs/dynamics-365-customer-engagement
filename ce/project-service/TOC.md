@@ -1,5 +1,11 @@
 # [Overview](overview.md)
 # [New and upcoming features](new-upcoming.md)
+# Help for new features releasing in the Spring 2018 Wave (app version 3.x)
+## [Setup of custom pricing dimensions]
+## [Time and Expense in Unified Interface ]
+## [Project Management in Unified Interface]
+## [Resource management]
+## [Reconciliation View]
 # Plan your implementation (app version 3.x)
 ## [Project planning and tracking guide](implementation-guides/project-planning-tracking.md)
 ## [Basic quoting, pricing, and billing guide](implementation-guides/begin-quoting-pricing-billing.md)
