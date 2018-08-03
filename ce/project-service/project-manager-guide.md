@@ -13,7 +13,7 @@ ms.author: krbjoran
 audience: Admin
 
 ---
-# Project Manager Guide (Project Service)
+# Project manager guide (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
