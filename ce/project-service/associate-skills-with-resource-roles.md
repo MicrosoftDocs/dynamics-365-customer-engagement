@@ -1,7 +1,7 @@
 ---
 
 title: Associate skills with resource roles (Dynamics 365 for Project Service) | MicrosoftDocs
-description: How to approve time and expenses in Project Service
+description: How to associate skills with resource roles in Project Service
 author: krbjoran
 manager: ShellyHaverkamp
 ms.date: 8/03/2018
