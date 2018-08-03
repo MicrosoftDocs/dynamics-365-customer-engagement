@@ -3,7 +3,10 @@
 title: Submit resource requests (Dynamics 365 for Project Service) | MicrosoftDocs
 description: How to submit resource requests in Project Service
 author: krbjoran
-manager: ShellyHaverkamp
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
+ms.custom:
+  - dyn365-projectservice
 ms.date: 8/03/2018
 ms.topic: article
 ms.prod: 
