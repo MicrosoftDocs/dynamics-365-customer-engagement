@@ -1,20 +1,17 @@
 ---
-title: "Project Service Overview (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom:
-  - dyn365-projectservice
-ms.date: 11/13/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+
+title: What is Dynamics 365 for Project Service? (Dynamics 365 for Project Service) | MicrosoftDocs
+description: Introduction and overview of Project Service
 author: krbjoran
-ms.assetid: 36c9c3e5-5358-4aef-8d88-5953974b70df
-caps.latest.revision: 36
+manager: ShellyHaverkamp
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
+ms.technology: 
 ms.author: krbjoran
-manager: shellyha
+audience: Admin
+
 ---
 # What is Dynamics 365 for Project Service?
 
