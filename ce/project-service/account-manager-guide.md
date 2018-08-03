@@ -3,7 +3,7 @@
 title: Account Manager Guide (Dynamics 365 for Project Service) | MicrosoftDocs
 description: An account manager's guide for Project Service that walks through the sales and contracts process for project-based accounts
 author: krbjoran
-manager: ShellyHaverkamp
+manager: ShellyHa
 ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
