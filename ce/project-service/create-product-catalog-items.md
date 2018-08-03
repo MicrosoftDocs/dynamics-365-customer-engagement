@@ -1,25 +1,19 @@
 ---
-title: "Create product catalog items (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom:
-  - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+
+title: Create product catalog items (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to create product catalog items in Project Service
 author: krbjoran
-ms.assetid: 850c5cf5-61b0-4fcb-a73b-90646a0a6945
-caps.latest.revision: 12
+manager: ShellyHaverkamp
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
+ms.technology: 
 ms.author: krbjoran
-manager: shellyha
+audience: Admin
+
 ---
-# Create product catalog items (Project Service Automation)
+# Create product catalog items (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
