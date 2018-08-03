@@ -16,7 +16,7 @@ ms.custom: dyn365-customerservice
 
 ## Issue
 
-Unable to delete a managed solution which consists an entity with SLA enabled on it.
+Unable to delete a managed solution which consists an entity with SLA enabled on it. This entity has been created as part of solution imported previously.
 
 ## Summary
 
@@ -40,13 +40,13 @@ Now, if you try to delete *Delta Field solution* from *Org2*, you will not be ab
 
 To be able to delete *Delta Field solution* in *Org2*, delete *Field solution* first. 
 
-*Field solution* can be deleted as the entity associated with it i.e. *Field work* does not have SLA enabled.
+*Field solution* can be deleted as the entity associated with it i.e. *Field work* does not have SLA enabled. Deleting *Field solution* ensures that not just the SLA configuration, but the entity is also deleted.
 
 ## Conclusion
 
-You cannot delete a managed solution which consists an entity that has SLA enabled on it. Also, SLA once enabled on an entity cannot be disabled.
+You cannot delete a managed solution which consists an entity that has SLA enabled on it, created as a part of previously imported solution. SLA once enabled on an entity cannot be disabled.
 
-To delete a managed solution with an SLA enabled entity, you need to first delete the managed solution which contains the entity with SLA disabled on it. You can now create a fresh solution and associate an entity with SLA disabled on it.
+To delete a managed solution with an SLA enabled entity, you need to first delete the previously imported managed solution which created the entity entry. This ensures that the entity entry is deleted. Now, you can create the entity again or re-import the managed solution. 
 
 > [!NOTE]
 > This workaround will not work for out-of-the-box (OOB) entities as you cannot delete OOB entities or managed solutions which have OOB entities associated with them.
