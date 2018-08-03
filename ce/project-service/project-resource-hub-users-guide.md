@@ -1,7 +1,7 @@
 ---
 
-title: User guide (Dynamics 365 for Project Service) | MicrosoftDocs
-description: An end-user's guide for Project Service
+title: User guide for the Project Resource Hub (Dynamics 365 for Project Service) | MicrosoftDocs
+description: An end-user's guide for the Project Resource Hub for Project Service
 author: krbjoran
 manager: ShellyHaverkamp
 ms.date: 8/03/2018
@@ -13,7 +13,7 @@ ms.author: krbjoran
 audience: Admin
 
 ---
-# User guide (Project Resource Hub)
+# User guide for Project Resource Hub
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
