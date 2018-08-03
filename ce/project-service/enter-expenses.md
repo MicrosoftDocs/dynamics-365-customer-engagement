@@ -1,25 +1,19 @@
 ---
-title: "Enter expenses (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom:
-  - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+
+title: Enter expenses (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to enter expenses in Project Service
 author: krbjoran
-ms.assetid: fec9c3ea-0e77-47aa-83cb-5c6501c8ad49
-caps.latest.revision: 13
+manager: ShellyHaverkamp
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
+ms.technology: 
 ms.author: krbjoran
-manager: shellyha
+audience: Admin
+
 ---
-# Enter expenses (Project Service Automation)
+# Enter expenses (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
