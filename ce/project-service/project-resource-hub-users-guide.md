@@ -1,20 +1,17 @@
 ---
-title: "Project Resource Hub User’s Guide| MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
+
+title: User guide (Dynamics 365 for Project Service) | MicrosoftDocs
+description: An end-user's guide for Project Service
+author: krbjoran
+manager: ShellyHaverkamp
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-ms.assetid: edg20853-9c67-464e-an89-e80250a27815
-caps.latest.revision: 1
-ms.author: "mkaur"
-manager: "amyla"
+ms.author: krbjoran
+audience: Admin
+
 ---
 # User Guide (Project Resource Hub)
 
