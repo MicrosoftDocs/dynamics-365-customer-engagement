@@ -1,32 +1,26 @@
 ---
-title: "Install and customize Dynamics 365 for Project Service Automation | MicrosoftDocs"
-ms.custom:
-  - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+
+title: Install and customize (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to install and customize Project Service
 author: krbjoran
-ms.assetid: 9600094f-b9dc-4879-9112-0144e85f9b04
-caps.latest.revision: 26
+manager: ShellyHaverkamp
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
+ms.technology: 
 ms.author: krbjoran
-manager: shellyha
+audience: Admin
+
 ---
-# Install and customize (Project Service Automation)
+# Install and customize (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] is an end-to-end solution that you need to install before users can start using the capabilities to manage and deliver project-based sales. While it's an end-to-end solution, you can still make customizations as needed to suit your organization.  
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
-## Install Project Service Automation  
+## Install Project Service  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] is a preferred solution. There are several ways to purchase the solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Onboard your organization and users](../admin/onboard-your-organization-and-users-to-dynamics-365-online.md).  
   
 ## Customize [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] forms and reports  
