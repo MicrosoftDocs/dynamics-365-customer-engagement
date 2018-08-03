@@ -19,11 +19,27 @@ caps.latest.revision: 11
 ms.author: krbjoran
 manager: shellyha
 ---
-# Configure resource roles (Project Service Automation)
+
+---
+
+title: Configure resource roles (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to configure resource roles in Project Service
+author: krbjoran
+manager: ShellyHaverkamp
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
+ms.technology: 
+ms.author: krbjoran
+audience: Admin
+
+---
+# Configure resource roles (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Roles play an important part in project planning, when determining resource requirements or costs of a project. For each role your projects require, you need to create a resource role and associate skills and proficiencies to that role. For example, you might want to create roles for Developer, Project Manager, or Game Tester. You’ll also set the skills and proficiency levels required for the role.  
+Roles play an important part in project planning, when determining resource requirements or costs of a project. For each role your projects require, you need to create a resource role and associate skills and proficiencies to that role. For example, you might want to create roles for developer, project manager, or game tester. You’ll also set the skills and proficiency levels required for the role.  
   
  Configure resource roles to ensure effective project estimation for your organization.  Also make sure you accurately set the billing type. An item set with a non-chargeable billing type doesn’t show up on contract or quote lines.  
   
