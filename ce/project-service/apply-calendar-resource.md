@@ -3,7 +3,7 @@
 title: Apply a calendar to a resource (Dynamics 365 for Project Service) | MicrosoftDocs
 description: How to apply a calendar to a resource in Project Service
 author: krbjoran
-manager: ShellyHaverkamp
+manager: ShellyHa
 ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
