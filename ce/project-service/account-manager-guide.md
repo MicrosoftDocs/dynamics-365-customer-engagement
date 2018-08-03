@@ -19,7 +19,7 @@ manager: "brycho"
 ---
 # Account Manager Guide (Project Service Automation)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] automation capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] guide you through the sales and contracts process for project-based accounts. In addition to creating accounts, this guide takes you through the sales process, including:  
   
