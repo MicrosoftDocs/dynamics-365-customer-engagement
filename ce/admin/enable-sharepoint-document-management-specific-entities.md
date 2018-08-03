@@ -54,7 +54,7 @@ Store the documents related to [!INCLUDE[pn_microsoftcrm](../includes/pn-microso
      > 
      >  The **Folders will be automatically created on the SharePoint site** option was first introduced in [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)] and [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)].  
      >
-     > A hierarchical folder structure will not be automatically created in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] for entities that have more than one many-to-one (N:1) relationship with the parent entity. 
+     > With the exception of the opportunity and contract entities, a hierarchical folder structure will not be automatically created in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] for entities that have more than one many-to-one (N:1) relationship with the parent entity. 
 
   
    - Click **Finish**.  
