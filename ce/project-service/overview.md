@@ -45,7 +45,7 @@ Looking for resources to help plan your implementation? Check out these download
 
  [Resource management guide](../project-service/implementation-guides/resource-management-guide.md) 
  
- [Reporting guide](../project-service/implementation-guides/reporting-management-guide.md)
+ [Reporting guide](../project-service/implementation-guides/reporting-guide.md)
 
 ## Guidance for earlier versions (app version 2.x or 1.x)  
  [Administrator guide](../project-service/admin-guide.md)  
