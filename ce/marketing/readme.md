@@ -39,8 +39,8 @@ and workarounds for Dynamics 365 for Marketing.
         to two hours. During this process, retries might happen automatically,
         causing success (failure) notification by email.
 
-    -   First-run experience success and failure emails sometimes aren't
-        delivered. View the first-run experience link to show the actual status.
+    -   <del>First-run experience success and failure emails sometimes aren't
+        delivered. </del> You would get an email summarizing the outcome once the setup is comppleted
 
 -   Customer journeys
 
@@ -72,11 +72,9 @@ and workarounds for Dynamics 365 for Marketing.
         of the segment. Use the Save button in the lower-right corner of the
         page instead.
 
-    -   Dynamic segments based on subscription marketing lists don't remove
+    -   <del>Dynamic segments based on subscription marketing lists don't remove
         unsubscribed contacts from running journeys. The unsubscribe request
-        will be honored in future journeys. [Learn how to use suppression
-        segments to ensure running journeys will implement unsubscribe
-        requests.](https://go.microsoft.com/fwlink/p/?linkid=867008)
+        will be honored in future journeys </del>. Journeys can use subscription lists that removes unsubscribed contacts from running journeys
 
 -   Email marketing
 
