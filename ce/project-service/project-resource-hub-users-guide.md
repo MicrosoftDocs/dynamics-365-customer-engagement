@@ -13,7 +13,7 @@ ms.author: krbjoran
 audience: Admin
 
 ---
-# User Guide (Project Resource Hub)
+# User guide (Project Resource Hub)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
