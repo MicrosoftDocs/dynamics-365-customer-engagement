@@ -21,7 +21,7 @@ manager: shellyha
 ---
 # Set up invoice frequencies (Project Service Automation)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] invoice frequencies determine how often you bill your clients, and on which day of the time period you specify. Set up an invoice frequency for each time period you plan to use for billing your clients, such as monthly, biweekly, or weekly.  
   
