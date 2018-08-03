@@ -31,4 +31,4 @@ Set up transaction categories to define a superset of expense categories.
 4.  Click **Save** at the bottom right corner of the screen.  
   
 ### See Also  
- [Configure Project Service Automation](../project-service/configure.md)
+ [Configure Project Service](../project-service/configure.md)
