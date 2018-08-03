@@ -16,7 +16,7 @@ ms.author: krbjoran
 audience: Admin
 
 ---
-# Administrator Guide (Project Service)
+# Administrator guide (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
