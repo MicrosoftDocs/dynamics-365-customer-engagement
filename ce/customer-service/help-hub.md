@@ -82,7 +82,7 @@ ms.custom: dyn365-customerservice
    <ul>
   <li><a href="troubleshoot-sla-timer-issue.md" data-raw-source="[SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md)">SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday</a>
 </li>
-   <li><a href="troubleshoot-delete-sla.md" data-raw-source="[Cannot disable an SLA enabled on an entity in a managed solution](troubleshoot-delete-sla.md)">Cannot disable an SLA enabled on an entity in a managed solution</a></li>
+   <li><a href="troubleshoot-delete-managed-solution.md" data-raw-source="[Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)">Unable to delete a managed solution consisting an SLA enabled entity</a></li>
   </ul><br/>  </td>
 
 <td><h2>Customize</h2>

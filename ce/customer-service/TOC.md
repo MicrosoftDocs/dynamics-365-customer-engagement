@@ -54,4 +54,4 @@
 
 ## Troubleshoot
 ### [SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md)
-### [Cannot disable an SLA enabled on an entity in a managed solution](troubleshoot-delete-sla.md)
+### [Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)
