@@ -1,23 +1,17 @@
 ---
-title: "Configure transaction categories (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom:
-  - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+
+title: Configure transaction categories (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to set up transaction categories in Project Service
 author: krbjoran
-ms.assetid: 9073943e-7ada-4b56-afeb-0c50981e8b0b
-caps.latest.revision: 12
+manager: ShellyHaverkamp
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
+ms.technology: 
 ms.author: krbjoran
-manager: shellyha
+audience: Admin
+
 ---
 # Configure transaction categories (Project Service Automation)
 
