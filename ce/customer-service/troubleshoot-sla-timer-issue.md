@@ -25,7 +25,7 @@ Due to this, it includes the holiday hours, non-business hours, and pause time (
 
 ## Resolution
 
-This is an intended functionality. Business hours are defined by your organization while scheduling working days and holidays. SLA warning and failure time adheres to those settings and is calculated on the basis of those defined hours.
+This is an intended functionality. Business hours are defined by your organization while scheduling working days and holidays. SLA warning and failure time adhere to those settings and is calculated on the basis of the defined hours.
 
 See the following scenarios to understand how the SLA *Wait* and *Failure* time is calculated:
 
