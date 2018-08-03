@@ -21,7 +21,7 @@ manager: shellyha
 ---
 # Manage projects and bookings in your [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar (Project Service Automation)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 View personal appointments, project-work bookings, and field service work order assignments using the [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar.  
   

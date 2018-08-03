@@ -21,7 +21,7 @@ manager: shellyha
 ---
 # View project team members and manage bookings (Project Service Automation)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 You can view a list of your project’s team members, and from there you can maintain bookings and submit resource requests.  
   
