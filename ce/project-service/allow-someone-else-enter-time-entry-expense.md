@@ -3,7 +3,7 @@
 title: Allow someone else to enter your time entry or expense (Dynamics 365 for Project Service) | MicrosoftDocs
 description: How to allow others to enter your time entry or expense in Project Service
 author: krbjoran
-manager: ShellyHaverkamp
+manager: ShellyHa
 ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
