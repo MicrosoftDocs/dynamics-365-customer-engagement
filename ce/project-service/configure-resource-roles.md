@@ -1,26 +1,4 @@
 ---
-title: "Configure resource roles (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom:
-  - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.assetid: 3d796775-715b-4bec-bc60-8e4bc36ae6c4
-caps.latest.revision: 11
-ms.author: krbjoran
-manager: shellyha
----
-
----
 
 title: Configure resource roles (Dynamics 365 for Project Service) | MicrosoftDocs
 description: How to configure resource roles in Project Service
