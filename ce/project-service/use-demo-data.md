@@ -1,7 +1,7 @@
 ---
 
 title: Experiment with demo data (Dynamics 365 for Project Service) | MicrosoftDocs
-description: How to approve time and expenses in Project Service
+description: How to download and experiment with demo data for Project Service
 author: krbjoran
 manager: ShellyHaverkamp
 ms.date: 8/03/2018
