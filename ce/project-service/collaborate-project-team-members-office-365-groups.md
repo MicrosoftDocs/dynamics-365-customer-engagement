@@ -1,25 +1,22 @@
 ---
-title: "Collaborate with your project team members with Office 365 Groups (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
+
+title: Collaborate with your project team members with Office 365 Groups (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to collaborate with your Project Service team members through Office 365 Groups
+author: krbjoran
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
 ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.assetid: 4FA6BC06-5C18-4470-8085-B50A1E718BB8
-caps.latest.revision: 12
 ms.author: krbjoran
-manager: shellyha
+audience: Admin
+
 ---
-# Collaborate with your project team members with Office 365 Groups (Project Service Automation)
+# Collaborate with your project team members with Office 365 Groups (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

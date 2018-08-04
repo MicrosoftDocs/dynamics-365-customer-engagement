@@ -1,23 +1,22 @@
 ---
-title: "Time, Expense, and Collaboration Guide (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
+
+title: Time, expense, and collaboration guide (Dynamics 365 for Project Service) | MicrosoftDocs
+description: A guide to time, expense, and collaboration for Project Service
+author: krbjoran
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
+ms.custom:
+  - dyn365-projectservice
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
 ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-ms.assetid: time-expense-collaboration-guide
-caps.latest.revision: 17
-ms.author: "mkaur"
-manager: "brycho"
+ms.author: krbjoran
+audience: Admin
+
 ---
-# Time, Expense, and Collaboration Guide (Project Service Automation)
+# Time, expense, and collaboration guide (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -58,8 +57,8 @@ Click on a link below to learn more about what you can do with [!INCLUDE[pn_proj
 -   [Find your next project with the Project Finder Mobile app](../project-service/find-next-project-finder-mobile-app.md)  
   
 ### See Also  
- [Overview of Project Service Automation](../project-service/overview.md)   
+ [Overview of Project Service](../project-service/overview.md)   
  [Administrator Guide](../project-service/admin-guide.md)   
- [Account Manager Guiden](../project-service/account-manager-guide.md)   
+ [Account Manager Guide](../project-service/account-manager-guide.md)   
  [Project Manager Guide](../project-service/project-manager-guide.md)   
  [Resource Manager Guide](../project-service/resource-manager-guide.md)   
