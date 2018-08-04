@@ -2,7 +2,7 @@
 title: "Release history (Unified Service Desk for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "The topic provide release history information for the Unified Service Desk Guide."
 keywords: ""
-ms.date: 05/01/2018
+ms.date: 08/03/2018
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -55,6 +55,8 @@ The list provides an overview of documentation updates made in [!INCLUDE [pn-uni
 | [Migration steps](admin/migration-steps-web-client-unified-interface-configuration.md) |The migration of the Unified Service Desk configurations from Dynamics 365 Web Client to Dynamics 365 Unified Interface is a three-step process. <br><br>New topic under [Overview of Web Client - Unified Interface Migration Assistant ](admin/overview-migration-assistant.md).|
 | [Configure close confirmation window](admin/close-confirmation-window.md) |To avoid the accidental closure of Unified Service Desk, the close confirmation window is introduced.<br><br>New topic under [Administer and manage Unified Service Desk](admin/administer-manage-unified-service-desk.md).|
 | [Customize themes in Unified Service Desk](customize-themes-in-unified-service-desk.md) | Updated information about the new Unified Blue theme for Unified Interface App in Unified Service Desk. |
+| [Use Dynamics 365 knowledge for effective customer engagement](use-dynamics-365-knowledge-effective-customer-engagement.md) | Updated information about the [Unified Interface KM Control (Hosted Control)](unified-interface-km-control-hosted-control.md). |
+| [Configure Unified Service Desk to use Dynamics 365 knowledge](configure-unified-service-desk-use-dynamics-365-knowledge.md) | Updated information about the [Unified Interface KM Control (Hosted Control)](unified-interface-km-control-hosted-control.md). |
 | [Configure notifications in Unified Service Desk](configure-notifications-unified-service-desk.md) | Updated information about configuring stack notification in Unified Service Desk. <br><br> **Note:** This is a preview feature. |
 | [Unified Service Desk and Unified Interface configuration walkthroughs](unified-service-desk-unified-interface-configuration-walkthroughs.md) | General Availability of the Unified Interface Support in Unified Service Desk. |
 | [Unified Interface KM Control (Hosted Control)](unified-interface-km-control-hosted-control.md) |Use the Unified Interface KM Control type of hosted control to display knowledge base articles in Dynamics 365 in your agent application.<br><br>New topic under [Hosted control types and action/event reference](hosted-control-types-action-event-reference.md). |
