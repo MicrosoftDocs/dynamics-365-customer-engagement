@@ -1,25 +1,22 @@
 ---
-title: "View and send invoices (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
+
+title: View and send invoices (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to view and send invoices in Project Service
+author: krbjoran
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
 ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.assetid: 0e863d97-e081-49cc-8793-16eb55513dff
-caps.latest.revision: 11
 ms.author: krbjoran
-manager: shellyha
+audience: Admin
+
 ---
-# View and send invoices (Project Service Automation)
+# View and send invoices (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

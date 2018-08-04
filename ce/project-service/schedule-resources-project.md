@@ -1,25 +1,22 @@
 ---
-title: "Schedule resources for a project (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
+
+title: Schedule resources for a project (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to schedule resources for a project in Project Service
+author: krbjoran
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 07/19/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
 ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.assetid: 224c13f6-04f4-4f16-83b2-80212c8c4795
-caps.latest.revision: 12
 ms.author: krbjoran
-manager: shellyha
+audience: Admin
+
 ---
-# Schedule resources for a project (Project Service Automation)
+# Schedule resources for a project (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

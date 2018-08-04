@@ -1,27 +1,26 @@
 ---
-title: "Account Manager Guide (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
+
+title: Account Manager Guide (Dynamics 365 for Project Service) | MicrosoftDocs
+description: An account manager's guide for Project Service that walks through the sales and contracts process for project-based accounts
+author: krbjoran
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
+ms.custom:
+  - dyn365-projectservice
+ms.date: 7/30/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
 ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-ms.assetid: 5bdcde76-ca72-4a4b-8932-05f9708a1b7e
-caps.latest.revision: 14
-ms.author: "mkaur"
-manager: "brycho"
+ms.author: krbjoran
+audience: Admin
+
 ---
-# Account Manager Guide (Project Service Automation)
+# Account Manager Guide (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] automation capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] guide you through the sales and contracts process for project-based accounts. In addition to creating accounts, this guide takes you through the sales process, including:  
+[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] guide you through the sales and contracts process for project-based accounts. In addition to creating accounts, this guide takes you through the sales process, including:  
   
 -   [Create a customer account](../project-service/create-customer-account.md)  
   
@@ -33,7 +32,7 @@ manager: "brycho"
   
   
 ### See Also  
- [Overview of Project Service Automation](../project-service/overview.md)   
+ [Overview of Project Service](../project-service/overview.md)   
  [Administrator Guide](../project-service/admin-guide.md)   
  [Project Manager Guide](../project-service/project-manager-guide.md)   
  [Resource Manager Guide](../project-service/resource-manager-guide.md)   
