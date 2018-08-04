@@ -27,9 +27,9 @@ ms.tgt_pltfrm:
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for developers and system customizers.
 
 <a name="NewIn40"></a>
-## What's new in [!INCLUDE[pn-unified-service-desk-4-0](../../includes/pn-unified-service-desk-4-0.md)]
+## What's new in [!INCLUDE[pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)]
 
-Developers and customizers will be able to use the following new features in the [!INCLUDE[pn-unified-service-desk-4-0](../../includes/pn-unified-service-desk-4-0.md)] release.
+Developers and customizers will be able to use the following new features in the [!INCLUDE[pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)] release. 
 
 ### General Availability: Support for Unified Interface apps in Unified Service Desk 
 With this release, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can load a URL or page from Dynamics 365, which is built based on the Unified Interface framework.
