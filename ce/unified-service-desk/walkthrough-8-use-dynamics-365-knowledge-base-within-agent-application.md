@@ -21,7 +21,6 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 10
 ---
 
 # Walkthrough 8: Use Customer Engagement knowledge base within your agent application
