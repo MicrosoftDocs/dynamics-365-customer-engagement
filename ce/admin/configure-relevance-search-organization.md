@@ -135,7 +135,12 @@ By default, some out-of-the-box system entities are included in Relevance Search
  The fields you add in the Quick Find view become part of the external search index. There is no limit on how many searchable fields you can add for each entity. However, there is a limit on the total number of indexed fields, as was explained in the previous section. **Find Columns** on a **Quick Find View** define the searchable fields in the external search index. Text fields such as Single Line of Text and Multiple Lines of Text, Lookups, and Option Sets are searchable. **Find Columns** with other data types are ignored. The **View Columns** on a **Quick Find View** define the fields that are displayed in the user interface by default, when the matched results are returned. The fields that are highlighted replace the fields that don’t have the highlighting. The first four matched fields are displayed in the results. The **filter** on a Quick Find view is also applied to the Relevance Search results.  See the table below for the list of filter clauses not supported by Relevance Search. 
 
 > [!NOTE]
-> There are some fields common to every CRM entity that are defined on the index by default. Some examples include ownerId, statecode, statuscode, PrimaryName, createon, and modifiedon. These are called common fields.
+> There are some fields, called common fields, common to every CRM entity that are defined on the index by default. They are:
+> 1. ownerid (Name of lookup)
+> 2. owningbusinessunit (Name of lookup)
+> 3. statecode (Label of optionset)
+> 4. statuscode (Label of optionset)
+> 5. name (Primary name field of any entity. This may or may not be the same as the logical name (fullname, subject etc.) of the entity)
 > If a common field is added to any entity for Relevance Search, search will be performed for that common field across all entities. However, once you choose a specific entity through the Record Type facet, Relevance Search will follow the settings you have defined for that specific entity through Quick Find View.
 
 
