@@ -1,27 +1,25 @@
 ---
-title: "Configure additional parameter settings (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
+
+title: Configure additional parameter settings (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to configure additional parameter settings in Project Service
+author: krbjoran
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
 ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.assetid: a073c3df-cb5f-4e23-bdee-7be749010aa9
-caps.latest.revision: 13
 ms.author: krbjoran
-manager: shellyha
----
-# Configure additional parameter settings (Project Service Automation)
+audience: Admin
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+---
+
+# Configure additional parameter settings (Project Service)
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Once you’ve configured the items in previous topics, you need to set additional project parameters to use for your projects. When you first installed [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], you created a parameters setting to first create all the records required for [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to work. Now it’s time to go back and configure additional fields for these settings.  
   
