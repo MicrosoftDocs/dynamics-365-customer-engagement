@@ -93,5 +93,16 @@ Now, login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-
 
 This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
-> [!Note]
-> There are no limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
+### Support for search technique (Relevance Search) in Unified Interface KM Control
+
+The Unified Interface KM Control supports all searche techniques available in Dynamics 365 except the **Relevance Search**. More informaiton: [Relevance search for knowledge management](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management)
+
+### Quick create in Unified Service Administrator app
+
+Selecting the **New** button (quick create)  in the **Navigation** toolbar of the Unified Service Desk Administraor app does not display any option to create.
+
+![Quick create option in the Navigation toolbar](media/usd-crm-quick-create-button.PNG "Quick create option in the Navigation toolbar")
+
+## See Also
+
+[Unified Interface KM Control (hosted control)](unified-interface-km-control-hosted-control.md)
