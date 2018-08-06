@@ -1,6 +1,6 @@
 ---
 title: "Design, check, and publish marketing pages (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to design and deploy landing, forwarding, and subscription pages in Dynamics 365 for Marketing"
+description: "How to design and deploy landing, forwarding, and subscription pages in Dynamics 365 for Marketing, and how to embed a marketing form on your own website"
 keywords: "landing page; subscription center; forward to a friend; form; field; matching"
 ms.date: 06/01/2018
 ms.service:

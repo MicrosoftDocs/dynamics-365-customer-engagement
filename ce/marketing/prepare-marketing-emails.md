@@ -28,7 +28,14 @@ topic-status: Drafting
 The process for creating marketing emails in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] begins with understanding what makes them such a powerful tool for your marketing campaigns. After you create a good design aimed at a specific segment of your audience, you preview it and check for errors before going live. You can fine-tune the reach and effectiveness of your message through advanced operations like merging database values, adding dynamic content, and introduce programming logic.
 
 > [!IMPORTANT]
-> Email messages have a maximum size limit of 125 KB, which includes both plain-text and HTML content, but doesn't include images.
+> The HTML content of Email messages has a maximum size limit of 128 KB, which includes all HTML text, styles, comments, and embedded graphics (but not anchored external graphics). If the HTML content exceeds this limit, then you'll still be able to go live with the email, but you won't be able to go live with any customer journey that includes that email; instead, the journey will always return a validation error on the relevant email tile saying: “Internal error: the email is still syncing. Please try again later.”
+> 
+> When you go live with a message, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] processes the HTML content to create inline styles, compress spaces, and more, so it can be hard to know the exact final size of the message. If you have a messages that you suspects violates the HTML size limit, then do the following:
+> 
+> 1. Open a web browser and enter a URL of the form:   `https://<Dynamics_365_root_url>/api/data/v9.0/msdyncrm_marketingemails(<marketing_email_id>)`
+> 1. Search for the value of the field "msdyncrm_emailbody" in the returned JSON.
+> 1. Copy the value of that field into a text program that can tell you the exact size of the HTML content.
+
 
 ## How marketing email works in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
 
