@@ -21,14 +21,14 @@ ms.author: "kvivek"
 
 This walkthrough describes how to register an application with [!INCLUDE[pn_microsoft_azure_active_directory](../includes/pn-microsoft-azure-active-directory.md)], which enables a user with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] user account to connect to their [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Online Customer Engagement instance from external client applications using OAuth authentication.
 
-[!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
+> [!IMPORTANT]
+> Dynamics 365 also provides you with Server-to-Server (S2S) authentication option to connect to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Online Customer Engagement instance from external applications and services using the special *application user* account. S2S authentication is the common way that apps registered on Microsoft AppSource use to access the Dynamics 365 data of their subscribers. More information: [Build web applications using Server-to-Server (S2S) authentication](build-web-applications-server-server-s2s-authentication.md).
 
 App registration in Azure Active Directory is typically done by ISVs who want to develop external client applications to read and write data in Customer Engagement. Registering an app in Azure Active Directory provides you with **Application ID** and **Redirect URI** values that ISVs can use in their client application's authentication code. When end users use the ISV's application for the *first time* to connect to their Customer Engagement instance by providing their Customer Engagement credentials, a consent form is presented to the end user. After consenting to use their Customer Engagement account with the ISV's application, end users can connect to Customer Engagement instance from external application. The consent form is not displayed again to other users after the first user who has already consented to use the ISV's app. Apps registered in Azure Active Directory are multi-tenant, which implies that other Customer Engagement users from other tenant can connect to their instance using the ISV's app. 
 
 App registration can also be done by an application developer or individual user who is building a client application to connect to and read/write data in Customer Engagement. Use the **Application ID** and **Redirect URI** values from your registered app in your client application's authentication code to be able to connect to Customer Engagement instance from your client application, and perform the required operations. Note that if the app is registered in the same tenant as your Customer Engagement instance, you won't be presented with a consent form when connecting from your client application to your Customer Engagement instance.
 
-> [!IMPORTANT]
-> You can also use Server-to-Server (S2S) authentication to connect to Dynamics 365 Customer Engagement instance using an application user. More information: [Build web applications using Server-to-Server (S2S) authentication](build-web-applications-server-server-s2s-authentication.md).
+
 
 ## Prerequisites  
 <!--- **For an on-premises or Internet-facing deployment (IFD)**:  
