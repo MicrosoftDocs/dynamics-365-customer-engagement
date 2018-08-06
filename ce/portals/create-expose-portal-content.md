@@ -12,7 +12,7 @@ ms.assetid: 2B7078F0-661D-440F-903C-147EE8DD667F
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 
 # Create and expose portal content easily

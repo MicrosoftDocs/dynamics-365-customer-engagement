@@ -12,7 +12,7 @@ ms.assetid: e37279ea-6e6d-4c48-9350-082cae96a0c0
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Integrate Project Service Automation
 

@@ -12,7 +12,7 @@ ms.assetid: d8612e02-5610-443c-ad8d-3c49b251543b
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Create advanced templates for portals
 Learn how to create advanced templates using these examples:

@@ -12,7 +12,7 @@ ms.assetid: 71a5b45a-9793-48ae-ace5-2e99a5c44365
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Configure SAML 2.0 provider settings for portals
 

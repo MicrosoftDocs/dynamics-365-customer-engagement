@@ -12,7 +12,7 @@ ms.assetid: 59342ba3-6848-44bf-ab29-a35687039f02
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Create a custom page template by using Liquid and a Web Template page template
 

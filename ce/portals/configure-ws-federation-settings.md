@@ -12,7 +12,7 @@ ms.assetid: 59a081d8-cc73-454f-9b1d-58c760cbfd96
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Configure WS-Federation provider settings for portals
 

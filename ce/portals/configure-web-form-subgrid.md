@@ -12,7 +12,7 @@ ms.assetid: ed387520-6b40-4bed-9fa5-386ba831e4ed
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Configure Web form subgrids for portals
 
