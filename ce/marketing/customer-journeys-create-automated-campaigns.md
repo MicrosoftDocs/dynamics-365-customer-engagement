@@ -202,7 +202,7 @@ When you've finished designing your customer journey, do the following to verify
 
 3. Now you're ready to publish: select **Go Live** in the command bar. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] runs the error check one last time. If your journey passes, it is published to the active area of your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] server, which also hosts your published marketing email messages and marketing pages.
 
-[!INCLUDE [cc-marketing-email-szie](../includes/cc-marketing-email-szie.md)]
+[!INCLUDE [cc-marketing-email-size](../includes/cc-marketing-email-size.md)]
 
 ### See also
 

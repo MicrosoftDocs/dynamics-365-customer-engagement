@@ -246,7 +246,7 @@ While you prepare a message, it stays in a draft state, which means that it's in
 
 To publish a message, open it and select **Go Live**. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] will run a final validation check, as described in the previous section, and&mdash;if it passes&mdash;publish the message. If errors are returned, read the error messages, address the issues, and try again until the message is successfully published.
 
-[!INCLUDE [cc-marketing-email-szie](../includes/cc-marketing-email-szie.md)]
+[!INCLUDE [cc-marketing-email-size](../includes/cc-marketing-email-size.md)]
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md) and [Go live with publishable entities and track their status](go-live.md)
 
