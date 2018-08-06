@@ -12,7 +12,7 @@ ms.assetid: 98e8b895-12ab-42c7-89de-9a33c70d56e8
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Manage blogs
 

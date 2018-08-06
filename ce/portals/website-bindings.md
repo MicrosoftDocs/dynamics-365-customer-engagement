@@ -12,7 +12,7 @@ ms.assetid: 77C8B23E-372B-490A-8AD4-F65585F7B80E
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 
 # Create and manage website bindings

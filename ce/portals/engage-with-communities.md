@@ -12,7 +12,7 @@ ms.assetid: ead42567-ea5b-472a-87cd-f80d37f3d630
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Engage with communities by using the community portal
 

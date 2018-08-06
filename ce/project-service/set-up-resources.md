@@ -1,25 +1,22 @@
 ---
-title: "Set up resources (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
+
+title: Set up resources (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to set up resources in Project Service
+author: krbjoran
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
 ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.assetid: 7bd5b27a-330e-4168-946e-3bf832a06a79
-caps.latest.revision: 13
 ms.author: krbjoran
-manager: shellyha
+audience: Admin
+
 ---
-# Set up resources (Project Service Automation)
+# Set up resources (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -46,4 +43,4 @@ Before requesting or assigning resources in [!INCLUDE[pn_project_service_auto](.
 -   [Configure additional parameters settings](../project-service/configure-additional-parameters-settings.md)  
   
 ### See Also  
- [Configure Project Service Automation](../project-service/configure.md)
+ [Configure Project Service](../project-service/configure.md)

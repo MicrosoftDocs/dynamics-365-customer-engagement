@@ -12,7 +12,7 @@ ms.assetid: e0edf082-34bd-46aa-a8fc-e4c45a055657
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Add custom [!INCLUDE[pn-javascript](../includes/pn-javascript.md)]
 

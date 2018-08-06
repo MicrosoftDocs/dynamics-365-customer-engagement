@@ -12,7 +12,7 @@ ms.assetid: 24413b7a-1fcc-4146-a8c9-899ef9cdcceb
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Create a custom page template to render an RSS feed
 In this example, we'll create a custom page template to render an [RSS feed](http://en.wikipedia.org/wiki/RSS) of news articles, using Liquid and a Web Template Page Template. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Store source content by using web templates](store-content-web-templates.md)  

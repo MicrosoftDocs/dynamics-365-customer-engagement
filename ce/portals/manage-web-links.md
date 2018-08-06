@@ -12,7 +12,7 @@ ms.assetid: 70c3e73d-c426-4bdd-b5cd-5fa2f410fd9b
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Manage web links in Dynamics 365 or on portals
 

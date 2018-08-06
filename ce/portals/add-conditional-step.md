@@ -12,7 +12,7 @@ ms.assetid: 3ae12878-2e9b-49fd-93a8-2465e6ade17d
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Add a conditional step type
 
