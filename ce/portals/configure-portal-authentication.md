@@ -12,7 +12,7 @@ ms.assetid: 1e771204-164a-4fbc-b0a1-89f7a59924c3
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Configure Dynamics 365 portal authentication
 

@@ -1,25 +1,22 @@
 ---
-title: "Administrator Guide (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
+
+title: Administrator guide (Dynamics 365 for Project Service) | MicrosoftDocs
+description: Step-by-step instructions for Project Service administration
+author: krbjoran
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: "" 
+ms.date: 7/31/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
 ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.assetid: 5bdcde76-ca72-4a4b-8932-05f9708a1b7e
-caps.latest.revision: 14
 ms.author: krbjoran
-manager: shellyha
+audience: Admin
+
 ---
-# Administrator Guide (Project Service Automation)
+# Administrator guide (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

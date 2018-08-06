@@ -12,7 +12,7 @@ ms.assetid: 31696E80-D993-4939-9EBB-2ACEF9EE9632
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 
 # Azure AD B2C provider settings for portals

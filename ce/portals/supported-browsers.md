@@ -12,7 +12,7 @@ ms.assetid: 135A60AC-99D9-47DC-9238-E18616FC6E5B
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 
 # Supported web browsers

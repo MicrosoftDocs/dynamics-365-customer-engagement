@@ -12,7 +12,7 @@ ms.assetid: 57e5709e-bc62-46be-a848-770a4383d454
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Get started with the portal content editor
 

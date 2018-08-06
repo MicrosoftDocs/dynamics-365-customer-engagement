@@ -12,7 +12,7 @@ ms.assetid: 28AD6523-EED8-4C02-89D5-A9703883966B
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 
 # View the primary domain name in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]

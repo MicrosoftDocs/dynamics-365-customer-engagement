@@ -1,25 +1,22 @@
 ---
-title: "Create a project quote (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
+
+title: Create a project quote (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to create a project quote in Project Service
+author: krbjoran
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
 ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.assetid: 38361a18-b034-45ad-9494-15bf81feffaf
-caps.latest.revision: 13
 ms.author: krbjoran
-manager: shellyha
+audience: Admin
+
 ---
-# Create a project quote (Project Service Automation)
+# Create a project quote (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

@@ -12,7 +12,7 @@ ms.assetid: 137c3717-b69d-453f-a467-727a27333294
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Manage portal content
 Create, edit, and curate your portal content to provide information and illustrate the products and services that you offer. By managing portal content, you can create a helpful environment to foster discussion, solve issues, and learn.
