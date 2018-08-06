@@ -11,7 +11,7 @@ applies_to:
 ms.assetid: 78AED6A8-53CD-48C3-AE4B-0896E070406A
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ms.reviewer: 
 topic-status: Drafting
 ---

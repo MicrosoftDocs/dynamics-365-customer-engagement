@@ -12,7 +12,7 @@ ms.assetid: be8f4571-2f44-404a-b4db-b7086b79597b
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Use the front-side editing engine to publish content
 

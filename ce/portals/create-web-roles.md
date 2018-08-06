@@ -12,7 +12,7 @@ ms.assetid: b7c5de43-6df7-46ef-9991-5df090b6c965
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Create web roles for portals
 

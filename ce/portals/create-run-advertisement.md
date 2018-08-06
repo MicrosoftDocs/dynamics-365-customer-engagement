@@ -12,7 +12,7 @@ ms.assetid: c297e1d7-14c4-4545-8c3c-f2de3db8fa38
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Create and run advertisements on a portal
 [comment]: <> (Add cross-ref to ad entity attribute table)

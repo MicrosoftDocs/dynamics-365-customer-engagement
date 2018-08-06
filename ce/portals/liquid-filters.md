@@ -12,7 +12,7 @@ ms.assetid: 1915b631-a46a-455b-8343-a34a5d273436
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Available Liquid filters
 

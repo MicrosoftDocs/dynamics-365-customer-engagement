@@ -12,7 +12,7 @@ ms.assetid: 236ecaee-7bc3-4492-96f4-f2f1126eddd1
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Store source content by using web templates
 

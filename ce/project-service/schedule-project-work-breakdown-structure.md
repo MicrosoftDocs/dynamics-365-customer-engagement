@@ -1,25 +1,22 @@
 ---
-title: "Schedule a project with a work breakdown structure (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
+
+title: Schedule a project with a work breakdown structure (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to schedule a project with a work breakdown structure in Project Service
+author: krbjoran
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
 ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.assetid: fd065c58-fee1-4810-898c-145c6e487087
-caps.latest.revision: 12
 ms.author: krbjoran
-manager: shellyha
+audience: Admin
+
 ---
-# Schedule a project with a work breakdown structure (Project Service Automation)
+# Schedule a project with a work breakdown structure (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -143,4 +140,4 @@ You’ll use the following types of tasks when creating your work breakdown stru
 7.  Click **Save** at the bottom right corner of the screen when you’re done making changes.  
   
 ### See Also  
- [Project Manager Guide](../project-service/project-manager-guide.md)
+ [Project manager guide](../project-service/project-manager-guide.md)
