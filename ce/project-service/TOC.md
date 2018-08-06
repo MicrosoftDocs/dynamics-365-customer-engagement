@@ -6,6 +6,10 @@
 ## [Advanced quoting, pricing, and billing guide](implementation-guides/adv-quoting-pricing-billing.md)
 ## [Resource management guide](implementation-guides/resource-management-guide.md)
 ## [Reporting guide](implementation-guides/reporting-guide.md) 
+# How-to guides (app version 3.x)
+
+
+
 # Guidance for earlier versions (app version 2.x and 1.x)
 ## [White papers](white-papers.md)
 ## [Administrator guide](admin-guide.md)
