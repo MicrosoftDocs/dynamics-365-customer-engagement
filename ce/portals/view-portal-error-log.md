@@ -11,7 +11,7 @@ applies_to:
 ms.assetid: 9CE45197-4457-44D2-A7C3-B756BB3E6129
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ms.reviewer: 
 topic-status: Drafting
 ms.custom:

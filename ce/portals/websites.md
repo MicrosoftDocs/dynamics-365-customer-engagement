@@ -12,7 +12,7 @@ ms.assetid: 0CF45CAC-4643-46AA-93C0-2D5C97497AEE
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 
 # Create and manage websites

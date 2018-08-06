@@ -12,7 +12,7 @@ ms.assetid: 75e11848-53a6-43ae-bdef-4eca0318f238
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Define web form steps for portals
 

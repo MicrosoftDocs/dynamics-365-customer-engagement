@@ -12,7 +12,7 @@ ms.assetid: 0a4b33a2-5f33-411e-a1de-33eb3f4cac84
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Available Liquid tags
 

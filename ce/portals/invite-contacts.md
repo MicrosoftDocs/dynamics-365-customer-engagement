@@ -12,7 +12,7 @@ ms.assetid: c3c4825a-1968-4d2b-81f0-21eaa070a2ed
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Invite contacts to your portals
 
