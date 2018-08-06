@@ -39,7 +39,6 @@ For example, if you want to redirect all users to the Forums page after signing 
 {% if user %}
 //if any user logs in
 <script>
-  alert('user.role found');
   window.location.href='./forums/'
 </script>
 {% else %}
