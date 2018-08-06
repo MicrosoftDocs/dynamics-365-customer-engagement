@@ -12,7 +12,7 @@ ms.assetid: 12d451bf-cdcc-4d7c-b617-4c5a0d624d00
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Add a redirect step type
 

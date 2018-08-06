@@ -10,7 +10,7 @@ ms.topic: article
 ms.assetid: 8e985c89-1589-4e65-8b74-28b96217601e
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

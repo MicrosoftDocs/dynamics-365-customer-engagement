@@ -12,7 +12,7 @@ ms.assetid: 44478E82-D6F2-40DA-9BA9-4C95E89A81AE
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 
 # Create and manage page templates

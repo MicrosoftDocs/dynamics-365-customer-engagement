@@ -12,7 +12,7 @@ ms.assetid: 237054b6-4106-4d00-8016-e3921a4fcf46
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Crowdsource ideas
 Learn how to manage Forum Ideas, Idea Comments, and Idea Votes.

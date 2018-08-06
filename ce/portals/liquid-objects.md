@@ -12,7 +12,7 @@ ms.assetid: e550b7a3-6d32-491a-a036-ce24b36f4037
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Available Liquid objects
 

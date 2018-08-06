@@ -12,7 +12,7 @@ ms.assetid: 450D4748-1ED4-48F6-ACEC-349B577E78EE
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 
 # Enable [!include[Azure](../includes/pn-azure-shortest.md)] Storage

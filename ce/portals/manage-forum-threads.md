@@ -12,7 +12,7 @@ ms.assetid: 5fd4a71f-ea08-45c7-83b2-63caede5f18c
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Manage forum threads
 

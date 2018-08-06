@@ -12,7 +12,7 @@ ms.assetid: e5c56872-ca6e-4672-9065-d718c669f129
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Configure notes for entity forms and web forms on portals
 

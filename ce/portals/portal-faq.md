@@ -12,7 +12,7 @@ ms.assetid: E68386D7-2015-4F23-A1D4-A69517B37E0D
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 
 # Dynamics 365 Portal FAQ
@@ -48,4 +48,4 @@ For example, if you want to redirect all users to the Forums page after signing 
 //Home web page code, if you want to display the page when the user is being redirected
 ```
 
-More information on working with Liquid templates, see [Work with Liquid templates](custom-templates-dynamic-content.md).
+For more information on working with Liquid templates, see [Work with Liquid templates](custom-templates-dynamic-content.md).

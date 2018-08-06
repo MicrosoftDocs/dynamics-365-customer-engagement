@@ -12,7 +12,7 @@ ms.assetid: 8232de7b-c0a9-4bc0-ac6d-a3375ef6ed88
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Work with Liquid templates
 Liquid is an open-source template language integrated into portals. It can be used to add dynamic content to pages, and to create a wide variety of custom templates. Using Liquid, you can:
