@@ -40,11 +40,12 @@
 ### [Entitlement templates](set-up-entitlements-templates.md)
 ### [Email templates](../admin/create-templates-email.md)
 ### [Article templates](../admin/create-templates-articles.md)
+### [Service scheduling (deprecated)](basics-service-service-scheduling.md)
 
 ## Customize
 ### [Create and design forms for Customer Service Hub](create-design-forms-customer-service-hub.md)
-### [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
-### [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
+### [Add the Knowledge base search control to forms](add-knowledge-base-search-control-forms.md)
+### [Understand Knowledge base search mechanisms](knowledge-base-search-methods.md)
 ### [Find knowledge articles from within a record](find-knowledge-articles-within-record-dynamics-365.md)
 ### [Add timer control to forms](add-timer-control-case-form-track-time-against-sla.md)
 ### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
