@@ -3,7 +3,7 @@ title: "Dynamics 365 Portal FAQ | MicrosoftDocs"
 description: "Frequently asked questions in Dynamics 365 Portal."
 ms.custom:
   - dyn365-portal
-ms.date: 07/31/2018
+ms.date: 08/06/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
