@@ -40,7 +40,7 @@ filter=3
   
 ```  
   
- For information about the `Search` action and its parameters, see [Search](../unified-service-desk/km-control-hosted-control.md#Search). For information on how to define an action call for searching the knowledge base, see [Step 4: Configure an action call to automatically search knowledge base using the incident (case) title](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md#Step4) in the walkthrough.  
+ For information about the `Search` action and its parameters, see [Search](../unified-service-desk/km-control-hosted-control.md#Search). For information on how to define an action call for searching the knowledge base, see [Step 4: Configure an action call to automatically search knowledge base using the incident (case) title](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md#Step4) in the walkthrough.  
   
 <a name="SetContext"></a>   
 ## Set the knowledge base article context  
