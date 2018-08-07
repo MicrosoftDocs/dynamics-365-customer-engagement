@@ -2,7 +2,7 @@
 title: "Retrieve interactions for a contact using code (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
 description: "Know how to programmatically retrieve interactions for a contact using an action; GDPR compliance."
 ms.custom: ""
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.service: "crm-online"
 ms.technology: 
   - "marketing"
