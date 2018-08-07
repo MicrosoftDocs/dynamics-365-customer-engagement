@@ -57,7 +57,6 @@ The **msdyncrm_LoadInteractionsPublic** action expects the following input param
 <li>ActivityContactBlocked</li>
 <li>ActivityContactDispatched</li>
 <li>ActivityContactProcessingFailed</li>
-<li>ContactUpserted</li>
 <li>CreateCrmActivityContactProcessed</li>
 <li>CreateCustomChannelActivityContactProcessed</li>
 <li>CustomChannelResponse</li>
@@ -82,7 +81,6 @@ The **msdyncrm_LoadInteractionsPublic** action expects the following input param
 <li>InvalidRecipientAddress</li>
 <li>InvalidSenderAddress</li>
 <li>LeadScoreBoost</li>
-<li>LeadUpserted</li>
 <li>OutOfEmailCredits</li>
 <li>PassThroughActivityContactProcessed</li>
 <li>RedirectLinkClicked</li>
