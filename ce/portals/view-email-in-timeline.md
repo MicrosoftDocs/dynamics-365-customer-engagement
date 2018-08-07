@@ -12,7 +12,7 @@ ms.assetid: BDC98E22-7462-49CA-8E97-6B0ABBBC6F7E
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 
 # View email records in a portal timeline

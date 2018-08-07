@@ -1,22 +1,22 @@
 ---
-title: "Project Resource Hub User’s Guide| MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
+
+title: User guide for the Project Resource Hub (Dynamics 365 for Project Service) | MicrosoftDocs
+description: An end-user's guide for the Project Resource Hub for Project Service
+author: krbjoran
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
+ms.custom:
+  - dyn365-projectservice
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
 ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-ms.assetid: edg20853-9c67-464e-an89-e80250a27815
-caps.latest.revision: 1
-ms.author: "mkaur"
-manager: "amyla"
+ms.author: krbjoran
+audience: Admin
+
 ---
-# User Guide (Project Resource Hub)
+# User guide for Project Resource Hub
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -29,9 +29,9 @@ With the Project Resource Hub app, you can enter time and expenses for the proje
 
 There are two flavors of [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)]: 
 
-- If you're using a desktop, you'll use the Project Service Automation app. 
+- If you're using a desktop, you'll use the Project Service app. 
 
-- If you’re in the field using a smartphone or tablet, you’ll use the Project Resource Hub app which is a subset of the Project Service Automation app. The Project Resource Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. 
+- If you’re in the field using a smartphone or tablet, you’ll use the Project Resource Hub app which is a subset of the Project Service  app. The Project Resource Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. 
 
 
 ## Install the mobile app
@@ -91,6 +91,6 @@ Enter your expenses at least weekly—or at the frequency requested by your mana
 [!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [Mobile Basics Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md).
 
 ### See Also  
- [Overview of Project Service Automation](../project-service/overview.md)   
+ [Overview of Project Service](../project-service/overview.md)   
  [Time, Expense, and Collaboration Guide](../project-service/time-expense-collaboration-guide.md)   
  

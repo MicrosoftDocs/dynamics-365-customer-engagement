@@ -12,7 +12,7 @@ ms.assetid: 59c7a298-2f82-4de1-96bd-9e5bfd9e7544
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Gather feedback by using polls on a portal
 Polls give your web audiences a quick and easy way to voice their opinion on specific topics, and then immediately and automatically see feedback from their vote.

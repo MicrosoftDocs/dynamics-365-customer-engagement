@@ -12,7 +12,7 @@ ms.assetid: 39bad7b1-c4a0-458f-9a48-7d721d9a7cf1
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Render up to three levels of page hierarchy by using hybrid navigation
 [comment]: <> (Need to regroup with other similar topics. This topic can be the landing topic.)

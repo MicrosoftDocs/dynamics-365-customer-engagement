@@ -12,7 +12,7 @@ ms.assetid: 53642ce6-f6eb-4cc1-8f80-2df8aad2fa39
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Configure site settings for portals
 
