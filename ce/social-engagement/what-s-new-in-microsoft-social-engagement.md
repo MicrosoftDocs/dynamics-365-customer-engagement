@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 07/11/2018
+ms.date: 08/07/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -32,6 +32,9 @@ For important, late-breaking information and a list of known issues, see the [So
 A new sign-in page is available to sign in directly to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] without memorizing the solution URL or going through the Office 365 portal. Go to [http://social.dynamics.com/login](http://social.dynamics.com/login) to sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 ### Removal of interaction functionality for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] user profiles
+
+> [!NOTE]
+> This change doesn't affect the way you work with [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. 
 
 With the release of [!INCLUDE [tn-facebook](../includes/tn-facebook.md)]'s Graph API v3.0 on August 1, 2018, [social profiles for Facebook](manage-social-profiles.md) users in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] can't interact with posts anymore. With this release, we're removing the option to create new [interaction tokens for Facebook user](manage-access-tokens.md) profiles. The logic for data acquisition doesn't change. You still need to create a **[!INCLUDE [tn-facebook](../includes/tn-facebook.md)] Acquisition** profile to allow data acquisition from [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages you administer. 
 
