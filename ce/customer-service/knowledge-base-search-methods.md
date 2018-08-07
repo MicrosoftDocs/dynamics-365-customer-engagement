@@ -66,12 +66,12 @@ With each of the previous search areas, the search results might vary based on t
 
 |Version  | App |Search areas| Search mechanism  |
 |---------|---------|---------|---------|
-| 8.2  |   Any app (based on any client)    |     - KB search control <br>  - Quick find in Grids   |   Full-Text Search    |
+| December 2016 Update for Dynamics 365 (online) </br> & </br> December 2016 Service Pack for Dynamics 365 (on-premises)  |   Any app (based on any client)    |     - KB search control <br>  - Quick find in Grids   |   Full-Text Search    |
 |   |     |      - Global search  |   Categorized Search     |
-|9.0   |  Customer Service app (or any web app)     |  - KB search control      |   Relevance Search/ Full-Text Search (based on what you configure)     |
+|Dynamics 365 (online), version 9.0   |  Customer Service app (or any web app)     |  - KB search control      |   Relevance Search/ Full-Text Search (based on what you configure)     |
 |  |      |   - Quick find in Grids     |   Full-Text Search |
 |  |      |   - Global search     |   Relevance Search or Categorized Search     |
-| 9.0   |       Customer Service Hub (based on Unified Interface)  |   - KB search control <br> - Quick find on Grids |   Full-Text Search  |
+| Dynamics 365 (online), version 9.0   |       Customer Service Hub (based on Unified Interface)  |   - KB search control <br> - Quick find on Grids |   Full-Text Search  |
 |  |       |      - Global search  |   Relevance Search or Categorized Search  |
 
 

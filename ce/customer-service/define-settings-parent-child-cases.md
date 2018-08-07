@@ -29,8 +29,10 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)],  you can track m
   
 2. [!INCLUDE[proc_logo_settings](../includes/proc-logo-settings.md)]  
   
-    - You can view **Available** and **Selected** attributes in the form of two lists. Using the arrows **>**, **<**, **>>**, and **<<**, you can move the attributes from one list to another. 
+   <!-- - You can view **Available** and **Selected** attributes in the form of two lists. Using the arrows **>**, **<**, **>>**, and **<<**, you can move the attributes from one list to another. -->
     
+3. Choose **Settings** > **Service Management**.
+
 4. Click **Parent and Child case settings**.  
   
 5. In the **Case Settings** dialog box, select the attributes that the child case will be inherit from the parent case.  

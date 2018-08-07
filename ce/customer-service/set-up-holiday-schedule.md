@@ -44,16 +44,13 @@ Follow the procedure given below to create a new holiday schedule:
   
    The holiday is created and associated with your customer service calendar. After the customer service schedule is associated to an SLA,  then your SLA during business hours is not affected. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define service level agreements](../customer-service/define-service-level-agreements.md)  
   
-## Additional actions
+<!-- ## Additional actions
 
 - To edit an existing holiday schedule, go to **Service Management** > **Holiday Schedule**. The **All Holiday Schedules** view is displayed. Select the holiday schedule you want to edit from the list of holiday schedules and select **Edit** in the command bar.
     - You can edit the **Name** or **Description**, or add new holidays for the holiday schedule. 
     - By default, all the holidays of the current year are displayed. To switch to a different year, click and type the year as shown below:
     
-- To print a holiday schedule, select **Print Preview** in the **Holidays** section of the particular holiday schedule. You can also export or import a holiday schedule in Excel format.
-
-
-
+- To print a holiday schedule, select **Print Preview** in the **Holidays** section of the particular holiday schedule. You can also export or import a holiday schedule in Excel format. -->
 
 ### See also  
  [Create a customer service schedule and define the work hours](../customer-service/create-customer-service-schedule-define-work-hours.md)   

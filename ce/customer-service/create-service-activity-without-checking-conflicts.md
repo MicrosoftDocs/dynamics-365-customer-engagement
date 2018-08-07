@@ -44,4 +44,4 @@ You can create a service activity by finding the next available times of resourc
   
 ### See also  
 
-[Overview of service and service scheduling](../field-service/basics-service-service-scheduling.md)   
+[Overview of service and service scheduling](basics-service-service-scheduling.md)   
