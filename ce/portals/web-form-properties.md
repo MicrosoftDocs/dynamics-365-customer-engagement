@@ -12,7 +12,7 @@ ms.assetid: bb532e07-356f-4dc1-adcb-1de2efcc6149
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Define web form properties for portals
 

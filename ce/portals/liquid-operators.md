@@ -12,7 +12,7 @@ ms.assetid: ce9b5b7d-2756-4a8e-8fab-f64ec9c1e11a
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Understand Liquid operators
 

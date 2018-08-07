@@ -12,7 +12,7 @@ ms.assetid: 5ef08d6b-37c8-41ea-815b-e4a633786f7d
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Integrate Field Service
 

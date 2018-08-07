@@ -13,7 +13,7 @@ ms.reviewer: ""
 redirect_url: /dynamics365/customer-engagement/portals/administer-manage-portal-dynamics-365
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Authenticate the Facebook App
 

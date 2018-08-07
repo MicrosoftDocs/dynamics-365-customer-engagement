@@ -1,27 +1,25 @@
 ---
-title: "Associate skills with resource roles (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
+
+title: Associate skills with resource roles (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to associate skills with resource roles in Project Service
+author: krbjoran
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
 ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.assetid: 97c52aff-d25f-42fe-a360-4f2a896d82c8
-caps.latest.revision: 10
 ms.author: krbjoran
-manager: shellyha
----
-# Associate skills with resource roles (Project Service Automation)
+audience: Admin
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+---
+
+# Associate skills with resource roles (Project Service)
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 While you were adding resource roles, you probably already associated some skills to them. From time to time, you might need to add additional skills to a resource role.  
   

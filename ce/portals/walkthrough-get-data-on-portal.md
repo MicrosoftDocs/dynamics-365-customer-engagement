@@ -12,7 +12,7 @@ ms.assetid: ECACFE60-7057-4A56-B7E3-6251596BE883
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Get [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] data on the portal
 

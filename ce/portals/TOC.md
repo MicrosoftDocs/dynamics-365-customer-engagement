@@ -23,7 +23,7 @@
 ### [Configure WS-Federation provider settings](configure-ws-federation-settings.md)
 ### [Configure SAML 2.0 provider settings](configure-saml2-settings.md)
 ### [Migrate identity providers to Azure AD B2C](migrate-identity-providers.md)
-## Search
+## [Search](search.md)
 ### [Improve search by using faceted search](improve-portal-search-faceted-search.md)
 ### [Search within file attachments](search-file-attachment.md)
 ## Knowledge article
@@ -120,5 +120,7 @@
 ## [View email records in portal timeline](view-email-in-timeline.md)
 ## [Rate a webpage or blog article](rate-webpage-blog-post.md)
 ## [Enable header and footer output caching on a portal](enable-header-footer-output-caching.md)
+
+# [Dynamics 365 Portal FAQ](portal-faq.md)
 
 # [Legacy Adxstudio Portals v7 FAQ](legacy-portal-faq.md)

@@ -12,7 +12,7 @@ ms.assetid: 49278e54-57cf-453f-b16a-b2aaee7798a9
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Manage knowledge articles by using content access levels
 

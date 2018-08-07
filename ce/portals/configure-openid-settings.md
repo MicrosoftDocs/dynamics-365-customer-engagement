@@ -12,7 +12,7 @@ ms.assetid: 74e1ece0-17e8-49d0-9d0d-b2fde197aba1
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Configure Open ID Connect provider settings for portals
 
