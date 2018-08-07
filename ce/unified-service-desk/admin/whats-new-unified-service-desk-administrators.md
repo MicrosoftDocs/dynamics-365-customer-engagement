@@ -1,15 +1,14 @@
 ---
 title: "What's new in Unified Service Desk for Dynamics 365 Customer Engagement for administrators | MicrosoftDocs"
-description: "Learn about new Unified Service Desk features for Dynamics 365 Customer Engagement" 
+description: "Learn about new Unified Service Desk features for Dynamics 365 Customer Engagement"
+keywords: ""
+ms.date: 08/06/2018
+ms.service:
+  - "dynamics-365-customerservice"
 ms.custom:
-  - dyn365-USD, dyn365-admin
-ms.date: 04/24/2018
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+  - "dyn365-USD, dyn365-admin"
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2013"
@@ -19,12 +18,20 @@ ms.assetid: 57f18bf9-1e28-481b-9d78-f2adaf281e16
 author: kabala123
 ms.author: kabala
 manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 ---
+
 # New feature information for administrators
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.  
 
 <a name="NewIn330"></a>
 ## What's new in [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)]
+
+### Videos
+
+See the video to know [What's New in Unified Service Desk 3.3](https://go.microsoft.com/fwlink/?linkid=2008774).
 
 ### Analyze best practices in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 
