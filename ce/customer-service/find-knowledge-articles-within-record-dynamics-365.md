@@ -99,4 +99,4 @@ For any customer service team, it’s important to give customers the right info
   
 ### See also  
 
-[Search the Knowledge base in Dynamics 365](knowledge-base-search.md)
+[Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
