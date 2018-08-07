@@ -74,6 +74,7 @@ When you are provisioning a new Dynamics 365 org, depending on whether you are p
 |Customer service     |Customer Service Hub         |
 |Field service     |Field Resource Hub         |
 |Project service automation     |Project Resource Hub          |
+|Marketing | Dynamics 365 for Marketing |
 |None     |Dynamics 365 Hub         |
 |All      |All the above except Dynamics 365 Hub         |
 
