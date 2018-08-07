@@ -27,6 +27,9 @@ ms.tgt_pltfrm:
 
 Use the **Unified Interface KM Control** type of hosted control to display knowledge base articles in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in your agent application. Using the new hosted control, your service agents can search for articles, associate or disassociate an article with a case, copy a link to an article, and send it through email or in chat without having to switch applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Dynamics 365 knowledge base for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) and [Configure Unified Service Desk to use Dynamics 365 knowledge](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)
 
+> [!NOTE]
+> The Unified Interface KM Control supports all searche techniques available in Dynamics 365 except the **Relevance Search**. More informaiton: [Relevance search for knowledge management](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management)
+
 <a name="Create"></a>   
 ## Create a KM Control hosted control  
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Unified Interface KM Control** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
