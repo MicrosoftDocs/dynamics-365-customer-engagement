@@ -12,7 +12,7 @@ ms.assetid: 6598B118-E243-40AD-AE8C-342F8604754F
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 
 # Add the Azure Storage web resource to a form

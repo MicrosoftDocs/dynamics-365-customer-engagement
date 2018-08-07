@@ -12,7 +12,7 @@ ms.assetid: 9B1BA475-0061-455C-925F-039372CCE431
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Add geolocation
 

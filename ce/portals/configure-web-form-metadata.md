@@ -12,7 +12,7 @@ ms.assetid: 684f573b-6faf-4059-8519-6764ccb13ea9
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Configure web form metadata for portals
 

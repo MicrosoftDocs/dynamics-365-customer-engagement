@@ -12,7 +12,7 @@ ms.assetid: 4D1B4F5A-43C8-4229-9984-A5065462DED4
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 
 # Display file attachments with knowledge articles

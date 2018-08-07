@@ -1,31 +1,28 @@
 ---
-title: "Configure expense categories (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
+
+title: Configure expense categories (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to configure expense categories in Project Service
+author: krbjoran
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
 ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.assetid: 3475eb49-1bef-4a99-99e9-a01772d35c23
-caps.latest.revision: 12
 ms.author: krbjoran
-manager: shellyha
----
-# Configure expense categories (Project Service Automation)
+audience: Admin
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+---
+# Configure expense categories (Project Service)
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Your consultants incur expenses when they work for your clients, including airfare, meals, mileage, and other expenses. Set up expense categories your consultants can use to enter their expenses, so you can invoice your client for those expenses.  
   
- Each expense category can have its own unit group and unit. You can define pricing for each expense category for each unit in the unit group assigned to the expense category.  
+Each expense category can have its own unit group and unit. You can define pricing for each expense category for each unit in the unit group assigned to the expense category.  
   
 1.  Go to **Project Service > Expense Categories**.  
   

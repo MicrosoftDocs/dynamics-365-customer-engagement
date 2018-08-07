@@ -10,7 +10,7 @@ applies_to:
 ms.assetid: F285A65E-EA26-45EF-8E6D-8A8F278D34D4
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ms.reviewer: 
 topic-status: Drafting
 ---

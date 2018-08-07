@@ -12,7 +12,7 @@ ms.assetid: 9ec5f5ff-99ee-42a8-88f6-5b74636676f1
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Configure a Dynamics 365 portal
 

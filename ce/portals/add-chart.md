@@ -12,7 +12,7 @@ ms.assetid: 3631007F-1C4E-4F82-9881-22F0606FDA36
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 
 # Add a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a webpage in portal

@@ -12,7 +12,7 @@ ms.assetid: 2501A9EF-07D6-474F-A2FE-F532EF274EEA
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 
 # Enable header and footer output caching on a portal

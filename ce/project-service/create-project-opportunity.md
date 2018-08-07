@@ -1,27 +1,24 @@
 ---
-title: "Create a project opportunity (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
+
+title: Create a project opportunity (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to create a project opportunity in Project Service
+author: krbjoran
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
 ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.assetid: 6e2a4c90-556e-4950-9413-69ec401d386f
-caps.latest.revision: 14
 ms.author: krbjoran
-manager: shellyha
----
-# Create a project opportunity (Project Service Automation)
+audience: Admin
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+---
+# Create a project opportunity (Project Service)
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Opportunities are warm leads from customers who are interested in contracting your services. [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] guide you through the steps for opening an opportunity for one of your accounts, preparing a project quote, and working out a project contract with your customer. Start by adding an opportunity. You can add estimates for services and products to the opportunity, as well. When you add an opportunity, you’re in the **Qualify** phase of your project.  
   
