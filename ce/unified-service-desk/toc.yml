@@ -238,7 +238,7 @@
     - name: 'Walkthrough 7: Configure agent scripting in your agent application'
       href: walkthrough-configure-agent-scripting-agent-application.md
     - name: 'Walkthrough 8: Use Dynamics 365 knowledge base within your agent application'
-      href: walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md
+      href: walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md
   - name: Unified Service Desk and Unified Interface configuration walkthroughs
     href: unified-service-desk-unified-interface-configuration-walkthroughs.md
     items:
