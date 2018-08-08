@@ -161,4 +161,3 @@ For more information about how to contact [!INCLUDE[pn-microsoft-support](../inc
 
 - [Contact technical support](../admin/contact-technical-support.md)
 - [Help and additional resources](../admin/help-additional-resources.md)
-- [Support for Microsoft Dynamics 365](https://go.microsoft.com/fwlink/p/?linkid=875262)
