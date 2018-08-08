@@ -95,13 +95,21 @@ This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../
 
 ### Support for Relevance Search (search technique) in Unified Interface KM Control
 
-The Unified Interface KM Control supports [Full-Text search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search?view=sql-server-2017) technique in Dynamics 365 and does not support the **Relevance Search**. More information: [Relevance search for knowledge management](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management)
+The Unified Interface KM Control supports [Full-Text search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search?view=sql-server-2017) technique in Dynamics 365 and does not support the **Relevance Search**. For more information about the availability of the Relevance Search, see [Relevance search for knowledge management](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management)
 
 ### Quick create in Unified Service Administrator app
 
 Selecting the **New** button (quick create)  in the **Navigation** toolbar of the Unified Service Desk Administraor app does not display any option to create.
 
 ![Quick create option in the Navigation toolbar](media/usd-crm-quick-create-button.PNG "Quick create option in the Navigation toolbar")
+
+### Navigation and command bar configuration does not execute when Internet Explorer pooling is enabled
+
+By default, when you a open Dynamics 365 page in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, the navigation bar is hidden and command bar is displayed. 
+
+However, when you enable Internet Explorer pooling and change the configurations in Dynamics 365 to hide the command bar and display the navigation bar, the Dynamics 365 page in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application does hide the command bar and display the navigation bar.
+
+To execute the configuration, disable the Internet Explorer pooling.
 
 ## See Also
 
