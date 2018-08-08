@@ -26,7 +26,7 @@ This section describes the known issues and limitations in [!INCLUDE[pn-unified-
 
 ## Known issues
 
-This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
+This section describes the known issues in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
 ### Select articles from the Unified Interface KB Control in the Unified Service Desk displays error
 
