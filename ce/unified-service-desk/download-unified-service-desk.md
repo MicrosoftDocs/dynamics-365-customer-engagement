@@ -23,7 +23,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ---
 
-# Download Unified Service Desk and other tools
+# Download Unified Service Desk and administration tools
 This topic provides information about the location from where you can download Unified Service Desk solutions and the client application, and other tools that help you administer and manage your Unified Service Desk efficiently.
 
 ## Download Unified Service Desk
@@ -52,7 +52,6 @@ The tools are as follows:
 
 ### See also  
 
-[!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)](https://go.microsoft.com/fwlink/p/?linkid=872261)
+[Unified Service Desk 3.3](https://go.microsoft.com/fwlink/p/?linkid=872261)
 
  <!--[Download Unified Service Desk 2.2.2](http://go.microsoft.com/fwlink/p/?LinkId=623561), [!INCLUDE[pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)](http://go.microsoft.com/fwlink/p/?LinkId=854761), [!INCLUDE[pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)](https://go.microsoft.com/fwlink/p/?linkid=862012), [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)](https://go.microsoft.com/fwlink/p/?linkid=867343)-->
- 
