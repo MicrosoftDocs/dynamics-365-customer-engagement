@@ -23,7 +23,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-The following design elements are available for use with the designer&mdash;some are available for all designers and some are specific to email, marketing pages, or forms.
+Read this topic to learn how to use each of the design elements that are available for use with the various content designers. Some elements are available for all designers and some are specific to email, marketing pages, or forms.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
 
@@ -72,7 +72,7 @@ Use the **Properties** tab to establish the appearance of your new or selected b
 
 When you select a button element, you can use an inline toolbar to style the button text and to delete, clone, or move the element.
 
-## Email-only elements
+## Email-only design elements
 
 This section describes design elements that are only available when you are designing a marketing email message.
 
@@ -103,7 +103,7 @@ To configure a form element, select it in your layout, open the **Properties** t
 
 <a name="form-content-elements"></a>
 
-## Form design elements
+## Design elements for forms
 
 The designer provides many elements that are unique to marketing forms. They are all related to positioning and configuring various types of input fields and form controls.
 
