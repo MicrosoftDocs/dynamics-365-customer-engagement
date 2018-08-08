@@ -28,7 +28,7 @@ This section describes the known issues and limitations in [!INCLUDE[pn-unified-
 
 This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
-### Manually remove data parameters in Unified Interface KM Control action call when using Web client - Unified Interface Migration Assistant
+### Select articles from the Unified Interface KB Control in the Unified Service Desk displays error
 
 If you are using **Web client - Unified Interface Migration Assistant** to migrate your Unified Service Desk Configurations from Dynamics 365 Web Client to Dynamics 365 Unified Interface App, the KM Control is changed to Unified Interface KM Control.
 
