@@ -79,6 +79,9 @@ All these features are fully integrated and work together to create a comprehens
 
 Many [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] applications support both the new Unified Interface and the older web-client interface, but nearly all are moving to the Unified Interface. Some administration and customization features, and some integrated user features, may require you to switch to a web-client app from time to time, but soon all features are expected to be available on the Unified Interface.
 
+> [!NOTE]
+> [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] typically shares its database with other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] applications running on the same instance, and shows many of the same entities, including contacts, leads, accounts, and more. Many [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]-specific features, such as displays of analytics and insights from marketing initiatives, require the Unified Interface and therefore won't show any data when you view those entities in web-client apps.
+
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [About Unified Interface](../admin/about-unified-interface.md) and [Find your way around Marketing](navigation.md)
 
 ## Design attractive and effective messages for email marketing campaigns
