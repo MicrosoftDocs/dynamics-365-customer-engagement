@@ -30,7 +30,9 @@ This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../
 
 ### Manually remove data parameters in Unified Interface KM Control action call when using Web client - Unified Interface Migration Assistant
 
-If you are using **Web client - Unified Interface Migration Assistant** to migrate your Unified Service Desk Configurations from Dynamics 365 Web Client to Dynamics 365 Unified Interface App, you must manually update a data parameter for the Unified Interface KM Control action call.
+If you are using **Web client - Unified Interface Migration Assistant** to migrate your Unified Service Desk Configurations from Dynamics 365 Web Client to Dynamics 365 Unified Interface App, after you login to Unified Service Desk, when you open any KB article, the page is blank.
+
+To fix the issue, you must manually update the data parameter for the Unified Interface KM Control action call.
 
 In the Dynamics 365 Web Client configurations, if you have configured an action call for opening the KM, the **Data** field may have certain data parameters like **url**, **postdata**, and **header**.
 
