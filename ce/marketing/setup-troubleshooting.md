@@ -139,6 +139,32 @@ The [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] 
 
 4. You'll be asked to confirm the action. Choose **Update URL** to continue and then allow a few minutes for the process to complete.
 
+<a name="fix-voc"></a>
+
+## My surveys aren't working; how can I fix my [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] installation?
+
+If you don't see the **Survey** tile in the **Toolbox** of your [customer journey designer](customer-journeys-create-automated-campaigns.md), or if it isn't working properly, then the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] setup wizard might have failed to set up the [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] app correctly. If this was the only error that occurred during installation, then you might not have received any messages about it. To fix this, do the following:
+
+1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md).
+
+1. Go to the **Applications** tab, select any **Voice of the Customer** application in the applications list, and then select the **Manage** button in the side panel.
+
+    ![Manage your Voice of the Customer installation](media/admin-voc-manage.png "Manage your Voice of the Customer installation")
+
+1. The **Set up Voice of the Customer** page opens.
+
+    ![Set up your Voice of the Customer installation](media/admin-voc-setup.png "Set up your Voice of the Customer installation")
+
+    Do the following:
+    - Choose the instance you are having trouble with from the **Dynamics 365 Instance** drop-down list. 
+    - Read the license terms and the privacy policy carefully. If you agree with their terms, select the **Accept the Dynamics 365 software license terms and privacy statement** check box.
+
+1. Select **Install**. Installation should only take about a minute. When it's done you should see a success message at the bottom of the page.
+
+1. Confirm that the **Survey** tile is now visible in the customer journey toolbox and that your surveys are working correctly.
+
+If your surveys still aren't working after completing these steps, then please [contact Microsoft Support](#contact-support) for assistance.
+
 <a name="uci-only-data"></a>
 
 ## Why can't I see my [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] results in other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] apps?
