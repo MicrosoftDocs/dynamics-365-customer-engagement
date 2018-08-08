@@ -74,11 +74,13 @@ When you are provisioning a new Dynamics 365 org, depending on whether you are p
 |Customer service     |Customer Service Hub         |
 |Field service     |Field Resource Hub         |
 |Project service automation     |Project Resource Hub          |
-|Marketing | Dynamics 365 for Marketing |
 |None     |Dynamics 365 Hub         |
 |All      |All the above except Dynamics 365 Hub         |
 
 ![Unified Interface apps](media/uci-apps.png "Unified Interface apps")
+
+> [!NOTE]
+> [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] always uses the Unified Interface and is  [provisioned separately](../marketing/trial-signup.md).
 
 ### Accessing Unified Interface apps on browsers
 Once provisioned, you can access the installed Unified Interface and web apps from multiple interfaces. On browsers you can see all the apps both Unified Interface and web: 
