@@ -30,17 +30,32 @@ This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../
 
 ### Manually remove data parameters in Unified Interface KM Control action call when using Web client - Unified Interface Migration Assistant
 
-If you are using **Web client - Unified Interface Migration Assistant** to migrate your Unified Service Desk Configurations from Dynamics 365 Web Client to Dynamics 365 Unified Interface App, after you login to Unified Service Desk, when you open any KB article, the page is blank.
+If you are using **Web client - Unified Interface Migration Assistant** to migrate your Unified Service Desk Configurations from Dynamics 365 Web Client to Dynamics 365 Unified Interface App, the KM Control is changed to Unified Interface KM Control.
+
+With the Unified Interface KM Control hosted control, if you login to Unified Service Desk and open any KB article, you can server error.
+
+![Opening article displays server error](media/kb-search-server-error.PNG "Opening article displays server error")
+
+#### Workaround
 
 To fix the issue, you must manually update the data parameter for the Unified Interface KM Control action call.
 
-In the Dynamics 365 Web Client configurations, if you have configured an action call for opening the KM, the **Data** field may have certain data parameters like **url**, **postdata**, and **header**.
+In the Dynamics 365 Web Client configurations, got to the action call for opening the KM, and in the **Data** field you can see the parameters like **url**, **postdata**, and **header**.
 
 ![Action call with the postdata and header parameter](media/manual-update-unified-interface-km-control-action-call-data.PNG "Action call with the postdata and header parameter")
 
-After migrating the configurations from Dynamics 365 Web Client to Dynamics 365 Unified Interface App using the migration assistant, go to the corresponding action call and remove the **postdata** and **header** from the **Data** field. 
+Remove the following values from the data field:
+
+`postdata=[[postdata]]`
+
+`header=[[header]+]` 
 
 To open an KB article, only the article url is sufficient. For example: `url=[[KB Search.articleurl]g]`
+
+Now, save the configuration. Login to Unified Service Desk and open any article to see the article contents.
+
+![Remove the header and postdata parameter to see the article contents](media/kb-search-fix.PNG "Remove the header and postdata parameter to see the article contents")
+
 
 ### Toolbar shows Unified Blue theme instead Air theme
 
