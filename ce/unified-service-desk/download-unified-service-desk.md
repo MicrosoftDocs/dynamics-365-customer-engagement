@@ -35,12 +35,8 @@ This topic provides information about the location from where you can download v
 |  Version  |  Download Location |
 |------------------|---------------|
 | [!INCLUDE[pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)] |  [Download](https://go.microsoft.com/fwlink/p/?linkid=2007340) |
-| [!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)] |  [Download](https://go.microsoft.com/fwlink/p/?linkid=872261)  |
-| [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)] | [Download](https://go.microsoft.com/fwlink/p/?linkid=867343) |
-| [!INCLUDE[pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)] | [Download](https://go.microsoft.com/fwlink/p/?linkid=862012) |
-| [!INCLUDE[pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)] | [Download](http://go.microsoft.com/fwlink/p/?LinkId=854761)  |
 
-## Download other tools
+## Download administration tools
 
 This section provides information about the location from where you can download tools that help to efficiently administer your Unified Service Desk.
 
@@ -55,4 +51,8 @@ The tools are as follows:
 
 
 ### See also  
- [Download Unified Service Desk 2.2.2](http://go.microsoft.com/fwlink/p/?LinkId=623561)
+
+[!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)](https://go.microsoft.com/fwlink/p/?linkid=872261)
+
+ <!--[Download Unified Service Desk 2.2.2](http://go.microsoft.com/fwlink/p/?LinkId=623561), [!INCLUDE[pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)](http://go.microsoft.com/fwlink/p/?LinkId=854761), [!INCLUDE[pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)](https://go.microsoft.com/fwlink/p/?linkid=862012), [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)](https://go.microsoft.com/fwlink/p/?linkid=867343)-->
+ 
