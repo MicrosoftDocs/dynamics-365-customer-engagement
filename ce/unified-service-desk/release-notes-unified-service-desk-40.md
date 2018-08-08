@@ -28,6 +28,18 @@ This section describes the known issues and limitations in [!INCLUDE[pn-unified-
 
 This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
+### Manually remove data parameters in Unified Interface KM Control action call when using Web client - Unified Interface Migration Assistant
+
+If you are using **Web client - Unified Interface Migration Assistant** to migrate your Unified Service Desk Configurations from Dynamics 365 Web Client to Dynamics 365 Unified Interface App, you must manually update a data parameter for the Unified Interface KM Control action call.
+
+In the Dynamics 365 Web Client configurations, if you have configured an action call for opening the KM, the **Data** field may have certain data parameters like **url**, **postdata**, and **header**.
+
+![Action call with the postdata and header parameter](media/manual-update-unified-interface-km-control-action-call-data.PNG "Action call with the postdata and header parameter")
+
+After migrating the configurations from Dynamics 365 Web Client to Dynamics 365 Unified Interface App using the migration assistant, go to the corresponding action call and remove the **postdata** and **header** from the **Data** field. 
+
+To open an KB article, only the article url is sufficient. For example: `url=[[KB Search.articleurl]g]`
+
 ### Toolbar shows Unified Blue theme instead Air theme
 
 In the **Unified Interface Settings** record, select **Air** theme instead **Unified Blue** theme, and select an Unified Interface App. 
@@ -95,7 +107,7 @@ This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../
 
 ### Support for Relevance Search (search technique) in Unified Interface KM Control
 
-The Unified Interface KM Control supports [Full-Text search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search?view=sql-server-2017) technique in Dynamics 365 and does not support the **Relevance Search**. For more information about the availability of the Relevance Search, see [Relevance search for knowledge management](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management)
+The Unified Interface KM Control supports [Full-Text search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search?view=sql-server-2017) technique in Dynamics 365 and does not support the **Relevance Search**. For more information about the availability of the Relevance Search, see [Relevance search for knowledge management](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management).
 
 ### Quick create in Unified Service Administrator app
 
