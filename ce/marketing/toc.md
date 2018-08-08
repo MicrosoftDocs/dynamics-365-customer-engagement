@@ -66,7 +66,7 @@
 
 ### Create marketing emails and pages
 #### [Design your digital content](design-digital-content.md)
-#### [Content blocks reference](content-blocks-reference.md)
+#### [Design elements reference](content-blocks-reference.md)
 #### [Upload and use images and files](upload-images-files.md)
 #### [Prepare marketing email messages](prepare-marketing-emails.md)
 #### [Add dynamic content to email messages](dynamic-email-content.md)

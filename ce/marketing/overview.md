@@ -100,7 +100,7 @@ Key marketing email design features include:
 - Detailed open, click, and forward results for each message
 - Heatmap, location maps, and other advanced visualizations of email results
 
-When you create a new message, you'll start by choosing a template that establishes a column layout and, optionally, a complete initial graphic design. The content designer provides a canvas with an editable preview and a tabbed toolbox for adding new content blocks (like images, buttons, or text boxes), configuring selected blocks, and applying styles. When working with text blocks, you'll get an inline toolbar for applying local text styling and adding dynamic content, like mail-merge fields.
+When you create a new message, you'll start by choosing a template that establishes a column layout and, optionally, a complete initial graphic design. The content designer provides a canvas with an editable preview and a tabbed toolbox for adding new design elements (like images, buttons, or text boxes), configuring selected design elements, and applying styles. When working with text elements, you'll get an inline toolbar for applying local text styling and adding dynamic content, like mail-merge fields.
 
 After you're done with the message design, click **Check for Errors** to check the message for errors and required content. After the message is validated, you publish the message to activate it on your server so that it can be sent from a customer journey, as described in the next section.
 
@@ -127,7 +127,7 @@ Key marketing-page features include:
 - In-browser preview showing how your page will look on various screen sizes and orientations
 - HTML code editor for advanced customization with no restrictions (optional)
 
-When you create a new page, you'll start by choosing a template that establishes a column layout, page type, and (optionally) a complete initial graphic design with sample images, fonts, and colors. Then you'll be in the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] content designer, which provides a canvas with an editable preview and a tabbed toolbox for adding new content blocks (like images, buttons, forms, or text boxes), configuring selected blocks, and applying styles. When working with text blocks, use the inline toolbar to apply local text styling. Usually you'll add a form block to create a form on the page.
+When you create a new page, you'll start by choosing a template that establishes a column layout, page type, and (optionally) a complete initial graphic design with sample images, fonts, and colors. Then you'll be in the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] content designer, which provides a canvas with an editable preview and a tabbed toolbox for adding new design elements (like images, buttons, forms, or text boxes), configuring selected design elements, and applying styles. When working with text elements, use the inline toolbar to apply local text styling. Usually you'll add a form element to create a form on the page.
 
 After you're done with the page design, click **Check for Errors** to check the page for errors and required content. After the page is validated, publish the page to activate it on your server so that it can be accessed by internet users who know the URL or have selected a link. Then publicize your page by using marketing emails, customer journeys, social-media posts, links from your official website, QR codes, and other appropriate channels.
 
@@ -150,7 +150,7 @@ Key campaign-automation features include:
 - During and after execution, in-place insights provided by the designer so you can see where contacts went and what they did there
 - The ability to create custom channels in customer journeys to extend the marketing capabilities
 
-When creating or editing a journey, you'll assemble a pipeline by dragging various types of journey tiles from the column on the right side of the canvas area. You configure each block in the pipeline by selecting it, and then opening the **Properties** tab.
+When creating or editing a journey, you'll assemble a pipeline by dragging various types of journey tiles from the column on the right side of the canvas area. You configure each tile in the pipeline by selecting it, and then opening the **Properties** tab.
 
 Each journey starts with a segment or landing-page tile, which establishes which contacts will be engaged in the journey. Then, you'll typically add an email tile, which sends a marketing email message to everyone in the segment. The message might include links to an event portal or marketing page. Later in the pipeline, you can add a trigger, which branches the path and waits for each contact to open a message, select a link, or submit a related marketing page. Depending on what each contact does with the message, the trigger will send them down a different path, where you can add appropriate follow-up actions. Triggers can react to a wide variety of contact interactions, including email opens, email clicks, event registrations, survey responses, and more.
 

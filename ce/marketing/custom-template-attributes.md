@@ -23,7 +23,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-The content designers provide both a graphical editor and an HTML code editor. The HTML that they generate is compatible with any HTML renderer, but they also support a few custom attributes that support the drag-and-drop content blocks and general style settings provided by the graphical editor. The default message templates and page templates provided with Dynamics 365 for Marketing make use of these custom attributes to make it easier for you to customize them in specific ways. You can also make use of these custom attributes when designing your own templates.
+The content designers provide both a graphical editor and an HTML code editor. The HTML that they generate is compatible with any HTML renderer, but they also support a few custom attributes that support the drag-and-drop design elements and general style settings provided by the graphical editor. The default message templates and page templates provided with Dynamics 365 for Marketing make use of these custom attributes to make it easier for you to customize them in specific ways. You can also make use of these custom attributes when designing your own templates.
 
 ## Tag and attribute summary
 
@@ -32,8 +32,8 @@ The following table provides a quick reference to the custom attributes and meta
 | Custom attribute | Description |
 | --- | --- |
 | `<meta type="xrm/designer/setting" name="type" value="marketing-designer-content-editor-document">` | When this tag is present in the `<head>` of your document, the **Designer** tab will provide drag-and-drop features. If this tag is not present, the **Designer** tab provides the simplified, full-page editor. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Show the toolbox and enable drag-and-drop editing](#show-the-toolbox-and-enable-drag-and-drop-editing)|
-| `<div data-container="true"> … </div>` | Marks the start and end of a container where users can drag and drop content blocks. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a container where users can add content blocks](#create-a-container-where-users-can-add-content-blocks) |
-| `<div data-editorblocktype="[text|image|button|...]" > … </div>` | Marks the start and end of a content block. The value of the attribute identifies which type of block it is (text, image, button, and so on). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Identify content blocks](#identify-content-blocks) |
+| `<div data-container="true"> … </div>` | Marks the start and end of a container where users can drag and drop design elements. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a container where users can add design elements](#create-a-container-where-users-can-add-content-elements) |
+| `<div data-editorblocktype="[text|image|button|...]" > … </div>` | Marks the start and end of a design element. The value of the attribute identifies which type of element it is (text, image, button, and so on). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Identify design elements](#identify-content-elements) |
 | `<meta type="xrm/designer/setting" name="<name>" value="<initial value>" datatype="[color|font|number|picture|text]" label="<label>">` | This tag defines a document-wide style setting that users can edit using the **Designer** > **Styles** tab.  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add settings to the Styles tab](#add-settings-to-the-styles-tab) |
 | `/* @<tag-name> */ … /* @<tag-name> */` | Use CSS comments like these to surround a CSS value to be controlled by a style setting, where &lt;_tag-name&gt;_ is the value of the _name_ attribute for the meta tag that established the setting. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add CSS comments to implement style settings in the head](#add-css-comments-to-implement-style-settings-in-the-head) |
 | `property-reference= "<attr>:@< tag-name >;<attr>:@< tag-name >; …"` | Place this attribute in any HTML tag to place an attribute with a value controlled by a style setting, where _&lt;attr&gt;_ is the name of the attribute to be created and &lt;_tag-name&gt;_ is the value of the `name` attribute for the meta tag that established the setting. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add property-reference attributes to implement style settings in the body](#add-property-reference-attributes-to-implement-style-settings-in-the-body) |
@@ -59,9 +59,9 @@ The following image shows the same design in full-page-edit mode (left) and drag
 
 <a name="containers"></a>
 
-## Create a container where users can add content blocks
+## Create a container where users can add design elements
 
-On the **Designer** tab, users can only edit content contained within a content block, and can only drag new content blocks into those parts of the document that are set up as _data containers_. Therefore, you can create templates where some elements are locked to editing on the **Design** tab, while others will accept edits and dragged content.
+On the **Designer** tab, users can only edit content contained within a design element, and can only drag new design elements into those parts of the document that are set up as _data containers_. Therefore, you can create templates where some elements are locked to editing on the **Design** tab, while others will accept edits and dragged content.
 
 Use `<div>` tags that include the attribute `data-container="true"` to create data containers, such as:
 
@@ -80,7 +80,7 @@ Use `<div>` tags that include the attribute `data-container="true"` to create da
 </tbody></table>
 ```
 
-Any text or HTML tags that are nested within a **data-container** div-tag pair, and aren't part of a content block, will create a non-draggable, non-editable, area between two draggable areas. For example:
+Any text or HTML tags that are nested within a **data-container** div-tag pair, and aren't part of a design element, will create a non-draggable, non-editable, area between two draggable areas. For example:
 
 ```xml
 <div data-container="true">
@@ -91,46 +91,46 @@ Any text or HTML tags that are nested within a **data-container** div-tag pair, 
 > [!NOTE]
 > When the full-page editor is enabled, all drag-and-drop features are disabled, and you can edit all the content on the **Designer** tab, including content outside of `data-container` div tags (which have no effect in the full-page editor).
 
-<a name="blocks"></a>
+<a name="elements"></a>
 
-## Identify content blocks
+## Identify design elements
 
-Each time you add a content block using the **Designer** tab, the editor inserts a pair of `<div>` tags to mark the start and end of the block, and creates whatever HTML is required to display the block as specified in its settings on the **Properties** tab.
+Each time you add a design element using the **Designer** tab, the editor inserts a pair of `<div>` tags to mark the start and end of the element, and creates whatever HTML is required to display the element as specified in its settings on the **Properties** tab.
 
-Content blocks are marked with `<div>` tags that include an attribute of the form `data-editorblocktype="[Text|Image|Button|Divider|…]`, where the value of this attribute identifies the type of block that it is. For example, the following `<div>` tag creates a text block:
+Design elements are marked with `<div>` tags that include an attribute of the form `data-editorblocktype="[Text|Image|Button|Divider|…]`, where the value of this attribute identifies the type of element that it is. For example, the following `<div>` tag creates a text element:
 
 ```xml
 <div data-editorblocktype="Text">
     ...
-    <!-- Don't edit block content here -->
+    <!-- Don't edit the element content here -->
     ...
 </div>
 ```
 
 The following table lists the available values for the `data-editorblocktype` attribute.
 
-| Content block name | Block type | `data-editorblocktype` attribute value |
+| Design element name | Element type | `data-editorblocktype` attribute value |
 | --- | --- | --- |
-| Text block | Common&nbsp;design&nbsp;block | Text |
-| Image block | Common design block | Image |
-| Divider block | Common design block | Divider |
-| Button block | Common design block | Button |
-| Marketing-page block | Email | Marketing Page |
-| Event block | Email | Event |
-| Survey block | Email | Survey |
-| Form block | Form | FormBlock |
-| Field block | Form content | Field-_&lt;field-name&gt;_, for example: Field-email |
-| Subscription-list block | Form content | SubscriptionListBlock |
-| Forward-to-a-friend block | From content | ForwardToFriendBlock |
-| Do-not- email block and Remember-me block | Form content | Field-checkbox (these blocks each create check boxes and are otherwise differentiated by their internal settings) |
-| Submit-button block | Form content | SubmitButtonBlock |
-| Reset-button block | Form content | ResetButtonBlock |
-| Captcha block | Form content | CaptchaBlock |
+| Text element | Common&nbsp;design&nbsp;element | Text |
+| Image element | Common design element | Image |
+| Divider element | Common design element | Divider |
+| Button element | Common design element | Button |
+| Marketing-page element | Email | Marketing Page |
+| Event element | Email | Event |
+| Survey element | Email | Survey |
+| Form element | Form | FormBlock |
+| Field element | Form content | Field-_&lt;field-name&gt;_, for example: Field-email |
+| Subscription-list element | Form content | SubscriptionListBlock |
+| Forward-to-a-friend element | From content | ForwardToFriendBlock |
+| Do-not- email element and Remember-me element | Form content | Field-checkbox (these elements each create check boxes and are otherwise differentiated by their internal settings) |
+| Submit-button element | Form content | SubmitButtonBlock |
+| Reset-button element | Form content | ResetButtonBlock |
+| Captcha element | Form content | CaptchaBlock |
 
-For more information about each of these content blocks, see [Content blocks reference](content-blocks-reference.md).
+For more information about each of these design elements, see [Design elements reference](content-blocks-reference.md).
 
 > [!IMPORTANT]
-> When you are working on the **HTML** tab, you should avoid editing any of the content between the `<div>` tags of your content blocks because the results of doing so can be unpredictable, and your edits are likely to be overwritten by the designer anyway. Instead, use the **Designer** tab to manage your content-block content and properties.
+> When you are working on the **HTML** tab, you should avoid editing any of the content between the `<div>` tags of your design elements because the results of doing so can be unpredictable, and your edits are likely to be overwritten by the designer anyway. Instead, use the **Designer** tab to manage your design-element content and properties.
 
 <a name="styles"></a>
 

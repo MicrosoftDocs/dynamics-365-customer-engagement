@@ -113,7 +113,7 @@ Go to **Marketing** &gt; **Internet Marketing** &gt; **Marketing Pages** and cre
 
 1. Make sure the page **Type** is **Subscription Center**, or choose a marketing page template where **Type** is **Subscription Center**.
 
-1. Include a **Form** block that references the subscription form you just made.
+1. Include a **Form** element that references the subscription form you just made.
 
 1. Enter values for all other required fields (**Name** and **Partial URL**).
 
@@ -179,7 +179,7 @@ As mentioned, content settings are defined on the customer journey level, and ap
 
 To add a subscription center link to a marketing email:
 
-1. While working in a text block, add some link text (such as **manage subscriptions**) at an appropriate place.
+1. While working in a text element, add some link text (such as **manage subscriptions**) at an appropriate place.
 
 1. Select the anchor text, and then select the **Link** button ![The link button](media/email-link-button.png "The Link button") from the floating toolbar, which opens the **Link** dialog box.
 

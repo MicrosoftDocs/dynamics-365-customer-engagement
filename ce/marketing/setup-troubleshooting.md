@@ -159,9 +159,15 @@ If you don't see the **Survey** tile in the **Toolbox** of your [customer journe
     - Choose the instance you are having trouble with from the **Dynamics 365 Instance** drop-down list. 
     - Read the license terms and the privacy policy carefully. If you agree with their terms, select the **Accept the Dynamics 365 software license terms and privacy statement** check box.
 
-1. Select **Install**. Installation should only take about a minute. When it's done you should see a success message at the bottom of the page.
+1. Select **Install**. A message at the bottom of the page announces that the installation has successfully started.
 
-1. Confirm that the **Survey** tile is now visible in the customer journey toolbox and that your surveys are working correctly.
+1. To track the installation progress, go back to your Dynamics 365 admin center and open the **Instances** tab. Select your instance in the list and then select the **Solutions** button in the side panel.
+
+    ![Manage the solutions installed on your instances](media/admin-voc-instances.png "Manage the solutions installed on your instances")
+
+1. The **Manage your solution page** opens, showing a list of solutions installed on your selected instance, and the status of each of them. Refresh the page periodically until you can see that the **Voice of the Customer for Microsoft Dynamics 365** solution is shown as installed.
+
+1. Go to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and confirm that the **Survey** tile is now visible in the customer journey toolbox, and that your surveys are working correctly.
 
 If your surveys still aren't working after completing these steps, then please [contact Microsoft Support](#contact-support) for assistance.
 
