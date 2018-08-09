@@ -31,7 +31,7 @@ The event portal is built by using the standard portals capabilities for [!INCLU
 
 [!INCLUDE[cc-marketing-cookies](../includes/cc-marketing-cookies.md)]
 
-## Publish an events, sessions, tracks, and related records to the portal
+## Publish events, sessions, tracks, and related records to the portal
 
 Most of the information shown on the portal comes directly from your event model and its various related records, so all you need to do get the portal online is make sure that all the information is available in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] and that the event itself, plus its relevant sessions and tracks, are set to be published on the portal. 
 
