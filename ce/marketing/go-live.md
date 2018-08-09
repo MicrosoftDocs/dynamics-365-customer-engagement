@@ -37,7 +37,7 @@ The following table lists all entities that have a go-live function and which se
 | Segments | Customer-insights services |
 | Marketing pages | Marketing services, shared with portals |
 | Marketing forms | Portals |
-| Events | Portals |
+| Events, sessions, and tracks | Portals |
 
 ## Monitor go-live status with status and status reason
 
@@ -125,15 +125,19 @@ You can deactivate (or reactivate) a marketing form record using buttons on the 
 
 The **Status reason** field for marketing forms doesn't track the publish state; it just mirrors the **Status** itself.
 
-## Event go-live operations and status
+## Events, session, and tracks go-live operations and status
 
-The event go-live functionality works a bit differently from the other entities described in this topic. When you publish an event, [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] generates an event portal for that event rather than going live with the event record itself. The generated portal displays many types of information that are defined on, and linked to, the event record. The event and all its settings remain editable even after you publish the portal, and any changes you make to a published event will immediately be reflected on the portal too.
+The event go-live functionality works a bit differently from the other entities described in this topic. When you publish an event, [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] generates an event portal for that event rather than going live with the event record itself. The generated portal displays many types of information that are defined on, and linked to, the event record. The event and all its settings remain editable even after you publish the portal, and any changes you make to a published event, and its related published records, will immediately be reflected on the portal too.
 
-The events entity has a **Status** field, which works the same way as it does for most entities, but it doesn't use the **Status reason** field to monitor publish status. Instead, the events entity has a **Publish status** field, which is fully editable all the time you work with an event. This value is shown as a drop-down list in the upper-right corner when you are editing an event record.
+Event sessions work similarly to the event itself, and essentially function as sub-events that, taken together, create the overall event schedule. The event portal shows a schedule of sessions that belong to each event. An event can include both published and unpublished sessions, but only published sessions belonging to published events are shown on the portal.
+
+Event tracks are collections of sessions, usually related by theme or audience. Tracks provide a convenient way for attendees to register for several related sessions at once. Like event sessions, you must publish each track to make it appear on the portal for its related event. An event can include both published and unpublished tracks, but only the published tracks belonging to published events are shown on the portal.
+
+Event, session, and track entities all have a **Status** field, which works the same way as it does for most entities, but they don't use the **Status reason** field to monitor publish status. Instead, these entities have a **Publish status** field, which is fully editable all the time you work with them. This value is shown as a drop-down list in the upper-right corner when you are editing an event or session record, but is part of the main form for session tracks.
 
 ![The Publish Status menu for events](media/golive-publish-event.png "The Publish Status menu for events")
 
-The default values for **Publish status** are _Draft_, _Ready to publish_, _In progress_, and _Published_. Other than _Published_, all these values are for information only, so you can use them to track your work progress and coordinate with coworkers as needed. However, when you set this to _Published_, then the event details will become available publicly on your portals server. Set the **Publish status** to any value other than _Published_ to hide the event on your portal.
+The default values for **Publish status** are _Draft_, _Ready to publish_, _In progress_, and _Published_. Other than _Published_, all these values are for information only, so you can use them to track your work progress and coordinate with coworkers as needed. However, when you set this to _Published_, then the event, session, or track details will become available publicly on your portals server. Set the **Publish status** to any value other than _Published_ to hide the event, session, or track on your portal.
 
 ### See also
 
