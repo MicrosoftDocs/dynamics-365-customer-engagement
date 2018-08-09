@@ -79,6 +79,18 @@ Use the following links to learn about Service Management tasks:
 
 [Article Templates](../admin/create-templates-articles.md)
 
+## Service Scheduling
+
+[Business Closure](set-when-business-closed.md)
+
+[Services](create-edit-service.md)
+
+[Facilities/Equipment](add-facilities-equipment-service-scheduling.md)
+
+[Resource Groups](create-edit-resource-group.md)
+
+[Sites](use-sites-manage-service-locations.md)
+
 <br>
 
 > [!NOTE]

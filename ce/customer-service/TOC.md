@@ -41,6 +41,11 @@
 ### [Email templates](../admin/create-templates-email.md)
 ### [Article templates](../admin/create-templates-articles.md)
 ### [Service scheduling (deprecated)](basics-service-service-scheduling.md)
+#### [Business Closure](set-when-business-closed.md)
+#### [Services](create-edit-service.md)
+#### [Facilities/Equipment](add-facilities-equipment-service-scheduling.md)
+#### [Resource Groups](create-edit-resource-group.md)
+#### [Sites](use-sites-manage-service-locations.md)
 
 ## Customize
 ### [Create and design forms](create-design-forms-customer-service-hub.md)
