@@ -30,7 +30,7 @@ Consider a complex project with multiple overlapping tasks where multiple resour
 In the example below, the total effort required by the same resource from a set of four tasks is 62 hours over a two-week period and there is a specific contour. If the resource Bob is booked for 62 hours during the same two weeks but with a different contour, the requirement and bookings are in alignment.
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot of bookings and assignments table](media/BookingAndAssignmentsFAQimage.png)
+> ![Screenshot of bookings and assignments table](media/BookingsAndAssignmentsFAQimage.PNG)
 
 However, there is no systematic way to assign the booked hours contour to tasks on a per-day basis. If the project manager is willing to change the project schedule to meet the availability of the resource, then they’ll have to remove the assignment and revise all the tasks to match the booking contours.
 
