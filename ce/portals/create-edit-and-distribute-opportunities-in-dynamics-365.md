@@ -12,7 +12,7 @@ ms.assetid: f06f0710-e03f-4b40-bbd3-d3e765e6d0a9
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Create, edit, and distribute opportunities in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
 [comment]: <> (need more step wise 'how-to' information)

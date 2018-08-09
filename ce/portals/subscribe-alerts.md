@@ -12,7 +12,7 @@ ms.assetid: 1d0b49f7-46ce-4598-bb0f-aa7f8218a92c
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Subscribe to alerts
 

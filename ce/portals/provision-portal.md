@@ -13,7 +13,7 @@ ms.assetid: 1249d87f-6e5e-4ff0-96a9-82978fcbc87c
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Provision a portal
 Portals are websites that you can customize to provide a more personalized experience to your customers, partners, or internal employees. Portals integrate with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to show data from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] on the portal. By using portals, you can create a variety of experiences where portal users can perform several tasks. For example:

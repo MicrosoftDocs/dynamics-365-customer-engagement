@@ -12,7 +12,7 @@ ms.assetid: f7941412-68ea-4de5-bc35-97aed1c8639f
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Use faceted search to improve portal search
 

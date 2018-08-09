@@ -43,17 +43,16 @@ To enable or disable the waitlist for any event:
 
 1. Go to the events list (**Events** > **Event** > **Events**), and then open or create an event.
 
-1. Open the **General** tab and find the **Venue constraints** area.  
-
-    ![Enable the waitlist for an event](media/event-waitlist-enable.png "Enable the waitlist for an event")
+1. Open the **General** tab and find the **Venue constraints** area. <!--    ![Enable the waitlist for an event](media/event-waitlist-enable.png "Enable the waitlist for an event") -->
 
 1. Make the following settings:
 
     - **Maximum event capacity**: Enter the maximum number of people who can attend your event. The waitlist will only take effect after this number of contacts have registered.
-    - **Waitlist this event**: Set to **Yes** to enable the waitlist feature and reveal the **Waitlist** section, which contains the other settings described here.
-    - **Number of invitations per slot**: When an extra space becomes available, the system will invite this many contacts from the waitlist, in the same order they joined. Often you will set this to one, but if you are using manual waitlist registration, then you might choose a higher number to increase the chance that at least one contact will follow through with the registration. When a slot opens, the system changes this many waitlist records' **Invited** field from **No** to **Yes**.
+    - **Waitlist this event**: Set to **Yes** to enable the waitlist feature<!-- and reveal the **Waitlist** section, which contains the other settings described here -->.
+
+<!--     - **Number of invitations per slot**: When an extra space becomes available, the system will invite this many contacts from the waitlist, in the same order they joined. Often you will set this to one, but if you are using manual waitlist registration, then you might choose a higher number to increase the chance that at least one contact will follow through with the registration. When a slot opens, the system changes this many waitlist records' **Invited** field from **No** to **Yes**.
     - **Automatically register waitlisted contacts**: Set to **Yes** to automatically register the next contact in line when space becomes available. When this is set to **Yes**, all waitlist records for this event will therefore have their **Automatically register** fields set to **Yes**. When this is set to **No**, then you can choose whether or not to allow contacts to choose this option for themselves while joining the waitlist.
-    - **Contact can choose to be registered automatically**: This option is only shown when  you aren't using automatic registration. Choose **Yes** to provide a check box on the registration form where contacts can choose  to be registered automatically. Choose **No** to use manual registration for all contacts. The **Automatically register** field for each waitlist record will be assigned to match either this option or the choice made by contacts when they join the waitlist.
+    - **Contact can choose to be registered automatically**: This option is only shown when  you aren't using automatic registration. Choose **Yes** to provide a check box on the registration form where contacts can choose  to be registered automatically. Choose **No** to use manual registration for all contacts. The **Automatically register** field for each waitlist record will be assigned to match either this option or the choice made by contacts when they join the waitlist. -->
 
 ## View the waitlist
 

@@ -12,7 +12,7 @@ ms.assetid: 4da44fa7-ace1-4c7c-a989-867d7b91cff0
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Define entity forms and custom logic within the Dynamics 365 portal
 
