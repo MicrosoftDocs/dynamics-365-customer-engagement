@@ -12,7 +12,7 @@ ms.assetid: A625CF6A-0E04-496D-9EF7-C06383860C65
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 
 # Clear the server-side cache for a portal

@@ -1,27 +1,24 @@
 ---
-title: "Submit resource requests (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
+
+title: Submit resource requests (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to submit resource requests in Project Service
+author: krbjoran
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
 ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.assetid: f3a9e011-dd1b-49f7-bcfe-a45143bd51da
-caps.latest.revision: 12
 ms.author: krbjoran
-manager: shellyha
----
-# Submit resource requests (Project Service Automation)
+audience: Admin
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+---
+# Submit resource requests (Project Service)
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Once you’ve won a project contract, you’ll need to staff your project. Your work breakdown structure already established the resource roles you need to complete the project, so now it’s time to request the resources that match the requirements.  
   

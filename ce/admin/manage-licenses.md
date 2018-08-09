@@ -1,7 +1,7 @@
 ---
 title: "Manage Dynamics 365 (online) licenses | MicrosoftDocs"
 ms.custom: ""
-ms.date: 07/12/2018
+ms.date: 08/07/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -29,7 +29,6 @@ When you purchase a subscription to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-
 >   
 > -   [Important information for CRM Online customers](../admin/important-information-customers.md)  
 > -   Download: [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544)  
-> -   Download: [The Dynamics CRM Online pricing and licensing guide](http://aka.ms/gtn5wt)  
   
 ## Running out of Dynamics 365 (online) licenses?  
  If you are running out of licenses, you have several options:  
