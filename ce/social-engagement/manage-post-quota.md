@@ -104,7 +104,7 @@ For more information, see [Pricing and licensing for Dynamics 365](http://go.mic
 
 ![Image of the clickpath to find add-on subscriptions.](media/purchase-additional-quota.png "Find add-on subscriptions")
 
-1. Go to https://portal.office.com and sign in as a global administrator or billing administrator.
+1. Go to [https://portal.office.com](https://portal.office.com) and sign in as a global administrator or billing administrator.
 
 2. Select **Admin** to open the Office 365 admin center.
 
