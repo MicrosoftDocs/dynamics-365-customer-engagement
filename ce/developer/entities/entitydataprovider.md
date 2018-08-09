@@ -352,6 +352,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_entitydataprovider_datasource"></a> entitydataprovider_datasource
 
 Same as entitydatasource entity [entitydataprovider_datasource](entitydatasource.md#BKMK_entitydataprovider_datasource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|entitydatasource|

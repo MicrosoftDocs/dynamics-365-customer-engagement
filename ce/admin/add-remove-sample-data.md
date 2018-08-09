@@ -31,21 +31,21 @@ Sample data gives you something to experiment with as you learn [!INCLUDE[pn_mic
   
     Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
-3.  Click **Sample Data**. You’ll see a message that tells you whether the sample data is currently installed.  
+3. Click **Sample Data**. You’ll see a message that tells you whether the sample data is currently installed.  
   
-4.  Do one of the following:  
+4. Do one of the following:  
   
-     Click **Remove Sample Data**, and then click **Close**.  
+    Click **Remove Sample Data**, and then click **Close**.  
   
-     -OR-  
+    -OR-  
   
-     Click **Install Sample Data**, and then click **Close**.  
+    Click **Install Sample Data**, and then click **Close**.  
   
 ### See also  
  [Work with accounts and contacts](../basics/accounts-contacts.md)

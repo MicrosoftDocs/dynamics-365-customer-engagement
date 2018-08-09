@@ -34,20 +34,20 @@ To give these administrators access to additional areas, such as the Sales, Mark
   
 ## Create a Dynamics 365 administrator account  
   
-1.  Sign in to the [Office 365 admin center](https://portal.office.com), and then choose **Users** > **Active Users**.  
+1. Sign in to the [Office 365 admin center](https://portal.office.com), and then choose **Users** > **Active Users**.  
   
-2.  Select an existing user in the list. If you want to create a new administrative user, see [Create or edit users](https://support.office.com/article/Create-or-edit-users-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc) and [Assigning admin roles](https://support.office.com/article/Assign-admin-roles-in-Office-365-eac4d046-1afd-4f1a-85fc-8219c79e1504).  
+2. Select an existing user in the list. If you want to create a new administrative user, see [Create or edit users](https://support.office.com/article/Create-or-edit-users-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc) and [Assigning admin roles](https://support.office.com/article/Assign-admin-roles-in-Office-365-eac4d046-1afd-4f1a-85fc-8219c79e1504).  
   
-3.  Next to **Product licenses**, click **Edit**.  
+3. Next to **Product licenses**, click **Edit**.  
   
-4.  Make sure a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] license is **not** assigned to this user, and then click **Save**.  
+4. Make sure a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] license is **not** assigned to this user, and then click **Save**.  
   
-    > [!IMPORTANT]
-    > Unlicensed [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global and Service administrators have access to the *administrative* areas of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. However, if the administrator also needs access to additional areas of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] you must select a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license for the user.  
+   > [!IMPORTANT]
+   > Unlicensed [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global and Service administrators have access to the *administrative* areas of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. However, if the administrator also needs access to additional areas of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] you must select a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license for the user.  
   
-5.  Next to **Roles**, click **Edit** and then click either **Global administrator** or **Customized administrator** > **Service administrator**. For more information about these roles, see [Assigning admin roles](https://support.office.com/article/Assign-admin-roles-in-Office-365-eac4d046-1afd-4f1a-85fc-8219c79e1504).  
+5. Next to **Roles**, click **Edit** and then click either **Global administrator** or **Customized administrator** > **Service administrator**. For more information about these roles, see [Assigning admin roles](https://support.office.com/article/Assign-admin-roles-in-Office-365-eac4d046-1afd-4f1a-85fc-8219c79e1504).  
   
-6.  Enter an alternate email address, and then click **Save**.  
+6. Enter an alternate email address, and then click **Save**.  
   
 ### See also  
  [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)

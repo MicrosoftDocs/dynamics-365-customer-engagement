@@ -50,15 +50,15 @@ The following shows a sample app.config file. To use this, remove the comment ch
     <!-- Online using Office 365 -->  
     <!-- <add name="Server=CRM Online, organization=contoso, user=someone"  
          connectionString="Url=https://contoso.crm.dynamics.com; Username=someone@contoso.onmicrosoft.com; Password=password; authtype=Office365"/> -->  
-  
+
     <!-- On-premises with provided user credentials -->  
     <!-- <add name="Server=myserver, organization=AdventureWorksCycle, user=administrator"  
          connectionString="Url=http://myserver/AdventureWorksCycle; Domain=mydomain; Username=administrator; Password=password; authtype=AD"/> -->  
-  
+
     <!-- On-premises using Windows integrated security -->  
     <!-- <add name="Server=myserver, organization=AdventureWorksCycle"  
          connectionString="Url=http://myserver/AdventureWorksCycle; authtype=AD"/> -->  
-  
+
     <!-- On-Premises (IFD) with claims -->  
     <!--<add name="Server=litware.com, organization=contoso, user=someone@litware.com"  
          connectionString="Url=https://contoso.litware.com/contoso; Username=someone@litware.com; Password=password; authtype=IFD"/>-->  
@@ -89,22 +89,22 @@ The following shows a sample app.config file. To use this, remove the comment ch
       </source>  
     </sources>  
     <switches>  
-  
+
       <!--Possible values for switches: Off, Error, Warning, Information, Verbose  
-						Verbose:      includes Error, Warning, Info, Trace levels  
-						Information:  includes Error, Warning, Info levels  
-						Warning:      includes Error, Warning levels  
-						Error:        includes Error level-->  
-  
+                        Verbose:      includes Error, Warning, Info, Trace levels  
+                        Information:  includes Error, Warning, Info levels  
+                        Warning:      includes Error, Warning levels  
+                        Error:        includes Error level-->  
+
       <add name="Microsoft.Xrm.Tooling.CrmConnectControl" value="Off"/>  
       <add name="Microsoft.Xrm.Tooling.Connector.CrmServiceClient" value="Error"/>  
       <add name="CrmSvcUtil" value="Off"/>  
     </switches>  
-  
+
     <sharedListeners>  
       <add name="fileListener" type="System.Diagnostics.TextWriterTraceListener" initializeData="CrmSvcUtil.log"/>  
     </sharedListeners>  
-  
+
   </system.diagnostics>  
   <runtime>  
     <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">  
@@ -123,7 +123,6 @@ The following shows a sample app.config file. To use this, remove the comment ch
     </assemblyBinding>  
   </runtime>  
 </configuration>  
-  
 ```
 
 ## Example

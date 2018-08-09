@@ -3,7 +3,7 @@ title: "Manage web links in Dynamics 365 or on portals in Dynamics 365 | Microso
 description: "Instructions to manage web links in Dynamics 365 or on portals."
 ms.custom:
   - dyn365-portal
-ms.date: 09/28/2017
+ms.date: 06/29/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,19 +12,70 @@ ms.assetid: 70c3e73d-c426-4bdd-b5cd-5fa2f410fd9b
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
-# Manage web links in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] or on portals
+# Manage web links in Dynamics 365 or on portals
 
 A web link can link to any URL or it can link to another webpage within the same website. When a web link is to a webpage, the security and publishing state of the webpage will apply to the web link as well. Web links are always part of a web link set. A web link set is a group of links such as a primary navigation or a group of footer links. Web link sets allow internal, regardless of placement in the site map, and external links to be grouped together and ordered.
 
-## Manage web links in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
+## Manage web links in Dynamics 365
 
-For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, once the portal customizations have been imported into the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, Web links can be managed in the Portals section.
+For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, once the portal customizations have been imported into the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, web links can be managed from a web link set.
+
+1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+
+2. Go to **Portals** > **Web Link Sets**.
+
+3. To create a new web link set, select **New**.
+
+4. To edit an existing web link set, select the web link set name.
+
+5. Enter appropriate values in the fields.
+
+6. If you create a new web link set, select **Save** to save the record so you can add web links.
+
+7. Select the down arrow next to your web link set name at the top of the screen, and then select **Web Links**.
+
+    ![Select web link](media/web-link.png "Select web link")
+
+8. To create a new web link, select **Add New Web Link**.
+
+    ![Add web link](media/add-web-link.png "add web link")
+
+9. To edit an existing web link, select the web link name.
+
+9. Enter appropriate values in the fields.
+
+6. Save the changes.
 
 ## Manage web links in a portal
 
-To modify a web link set, you need appropriate permissions and the web link set you want to modify must be part of the page template. To edit a web link set, point to the web link set and select the blue edit button that appears. Drag and drop the move icon to reorder the web links. Select the paper & pencil icon to edit a web link. Select the red minus icon to delete a web link from the set. Select the green plus icon to add a new web link to the set.
+To modify a web link set, you need appropriate permissions and the web link set you want to modify must be part of the page template. 
+
+1.  Point to the web link set and select the **Edit** button that appears. 
+
+    ![Edit primary navigation](media/edit-primary-nav.png "Edit primary navigation")
+
+    A dialog box appears with a list of web links that can be reordered or removed, and an option to add new links.
+
+    ![Edit primary navigation dialog box](media/edit-primary-nav-dialog.png "Edit primary navigation dialog box")
+
+2. To reorder the web links, use the move icon to drag and drop the web links.
+
+3. To edit a web link, select the paper & pencil icon.
+
+4. To delete a web link, select the red minus icon.
+
+5.  To add a new web link, select the row with the green plus icon.
+
+    ![Add new link to primary navigation](media/add-new-link.png "Add new link to primary navigation")
+
+6.  Enter a name for the web link.
+
+7.  From the **Page** list, choose the page you want to link.
+
+8.  Select **Save**.
+
 
 ## Multilevel web link sets
 
@@ -48,30 +99,31 @@ The table below explains many of the standard Web Link Set properties used by po
 
 The table below explains many of the standard Web Link properties used by [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals. It is important to note that the way in which many of the content/display-oriented properties are rendered is controlled by the page template used.
 
-| Name                     | Description                                                                                                                                                                                                                             |
+
+|           Name           |                                                                                                               Description                                                                                                               |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Name                     | The title for the web link. This value will be used as the web link title in most templates. This field is required.                                                                                                                    |
-| Web Link Set             | The web link set to which the entity belongs. This field is required.                                                                                                                                                                   |
-| Parent Web Link          | The parent web link of the entity, in a multilevel web link set. If no parent web link is specified, the entity is at the top/root level of the web link set.                                                                           |
-| Page                     | An optional webpage from the same website to link to.
-  External URL             | An optional URL to link to. This value can be any properly formatted URL.                                                                                                                                                               |
-| Description              | An optional summary for the web link. This value can be used on the portal if it's part of the page template.                                                                                                                           |
-| Publishing State         | The current publishing workflow state of the web link, which may dictate whether the web link is visible on the site. The most common use of this feature is to provide "published/draft" control over content. This field is required.  |                                                                       |
-| Robots Follow Link       | Indicates whether or not search indexers should follow and index the contents of the link. This field is required.                                                                                                                      |
-| Display Order            | An integer value indicating the order in which the web link will be placed, relative to other web links within the same web link set.                                                                                                   |
-| Display Page Child Links | In a template that supports multilevel web link sets, generate child links for this entity using the portal site map provider. Note that this option is only valid for web links that refer to internal pages, and not external URLs.   |
-| Open in New Window       | Indicates whether selecting the link will load the link in a new browser window.                                                                                                                                                        |
-| Disable Page Validation  | Indicates whether the security of a linked webpage will be applied to the web link as well.                                                                                                                                             |
-| Image URL                | An optional URL to an image. The linked image can be used on the portal if it's part of the page template; for example, as an icon.                                                                                                     |
-| Image Height             | An optional height for the image from the Image URL property.                                                                                                                                                                           |
-| Image Width              | An optional width for the image from the Image URL property.                                                                                                                                                                            |
-| Image Alt Text           | An optional description for the image from the Image URL property.                                                                                                                                                                      |
-| Display Image Only       | Indicates that the template should render only an image link for this web link, rather than both the image and link name together.                                                                                                      |
-||
+|           Name           |                                                          The title for the web link. This value will be used as the web link title in most templates. This field is required.                                                           |
+|       Web Link Set       |                                                                                  The web link set to which the entity belongs. This field is required.                                                                                  |
+|     Parent Web Link      |                                      The parent web link of the entity, in a multilevel web link set. If no parent web link is specified, the entity is at the top/root level of the web link set.                                      |
+|           Page           |                                                                                          An optional webpage from the same website to link to.                                                                                          |
+|        External URL      |                                                                                An optional URL to link to. This value can be any properly formatted URL.                                                                                |
+|       Description        |                                                              An optional summary for the web link. This value can be used on the portal if it's part of the page template.                                                              |
+|     Publishing State     | The current publishing workflow state of the web link, which may dictate whether the web link is visible on the site. The most common use of this feature is to provide "published/draft" control over content. This field is required. |
+|    Robots Follow Link    |                                                           Indicates whether or not search indexers should follow and index the contents of the link. This field is required.                                                            |
+|      Display Order       |                                                  An integer value indicating the order in which the web link will be placed, relative to other web links within the same web link set.                                                  |
+| Display Page Child Links |  In a template that supports multilevel web link sets, generate child links for this entity using the portal site map provider. Note that this option is only valid for web links that refer to internal pages, and not external URLs.  |
+|    Open in New Window    |                                                                            Indicates whether selecting the link will load the link in a new browser window.                                                                             |
+| Disable Page Validation  |                                                                       Indicates whether the security of a linked webpage will be applied to the web link as well.                                                                       |
+|        Image URL         |                                                   An optional URL to an image. The linked image can be used on the portal if it's part of the page template; for example, as an icon.                                                   |
+|       Image Height       |                                                                                      An optional height for the image from the Image URL property.                                                                                      |
+|       Image Width        |                                                                                      An optional width for the image from the Image URL property.                                                                                       |
+|      Image Alt Text      |                                                                                   An optional description for the image from the Image URL property.                                                                                    |
+|    Display Image Only    |                                                   Indicates that the template should render only an image link for this web link, rather than both the image and link name together.                                                    |
+|                          |                                                                                                                                                                                                                                         |
 
 > [!Note]
 > - When a web link is to a webpage, the security and publishing state of the webpage will apply to the web link as well. This validation can be disabled with the "Disable Page Validation" option. 
- - Users with content management permissions may be granted the ability to use "Preview Mode", which allows these users to see ("preview") unpublished content.
+>   - Users with content management permissions may be granted the ability to use "Preview Mode", which allows these users to see ("preview") unpublished content.
 
 ### See also
 

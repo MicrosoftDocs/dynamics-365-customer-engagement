@@ -27,26 +27,27 @@ With [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)], forms provide the u
 In the default solution or an unmanaged solution, you can create new forms or edit existing forms for all entities that allow form customization. 
 In an unmanaged solution, you can edit the managed properties for an unmanaged custom entity that was created for the solution.
 If you’re viewing a managed solution, you can’t create new forms or edit existing forms for entities. However, if the managed properties for an entity in the managed solution are set to allow customization, you can add or edit forms to that entity. 
-  
+
 
 <a name="BKMK_TypesOfForms"></a> 
 ## Type of forms
 There are several types of forms:  
-|Form type|Description|More information|  
-|---------------|-----------------|-----------------|  
-|**Main**|Used in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] apps, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].<br /><br /> These forms provide the main user interface for interacting with entity data.|[Design considerations for main forms](../customize/design-considerations-main-forms.md)|  
-|**Mobile**|Used for the [!INCLUDE[pn-dyn-365-phones](../includes/pn-dyn-365-phones.md)] pages. This simplified form is designed to be used for mobile devices.|[Customize the mobile app](../customize/customize-phones-tablets.md)  |  
-|**Quick Create**|Used in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] apps, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].<br /><br /> For updated entities, these forms provide a basic form optimized for creating new records.|[Create and edit quick create forms](../customize/create-edit-quick-view-forms.md) |  
-|**Quick View**|Used in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] apps, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].<br /><br /> For updated entities, these forms appear within the main form to display additional data for a record that is referenced by a lookup field in the form.|[Create and edit quick view forms](../customize/create-edit-quick-view-forms.md)|  
+
+|    Form type     |                                                                                                                                                                                                                              Description                                                                                                                                                                                                                              |                                     More information                                     |
+|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+|     **Main**     |                                      Used in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] apps, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].<br /><br /> These forms provide the main user interface for interacting with entity data.                                      | [Design considerations for main forms](../customize/design-considerations-main-forms.md) |
+|    **Mobile**    |                                                                                                                                                          Used for the [!INCLUDE[pn-dyn-365-phones](../includes/pn-dyn-365-phones.md)] pages. This simplified form is designed to be used for mobile devices.                                                                                                                                                          |           [Customize the mobile app](../customize/customize-phones-tablets.md)           |
+| **Quick Create** |                               Used in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] apps, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].<br /><br /> For updated entities, these forms provide a basic form optimized for creating new records.                                |    [Create and edit quick create forms](../customize/create-edit-quick-view-forms.md)    |
+|  **Quick View**  | Used in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] apps, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].<br /><br /> For updated entities, these forms appear within the main form to display additional data for a record that is referenced by a lookup field in the form. |     [Create and edit quick view forms](../customize/create-edit-quick-view-forms.md)     |
 
 While each form type has specific needs, when working with forms you use the Form Editor. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with the form editor](work-with-form-editor.md)
-  
+
 <a name="BKMK_FormDifferencesByEntity"></a>   
 ## Updated versus classic entities  
 [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] provides many options for designing forms. With Unified Interface, most entities were updated to better suit the responsive interface. Updated entities as well as your own custom entities include support for the [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] client, business process flows, and business rules. When you use these entities, you can design once and deploy to all clients.  
-  
+
 There are still a number of entities, referred to here as classic entities, that retain the appearance and capabilities from earlier versions. These entities are used less often. They are listed here:  
-  
+
 ||||||  
 |-|-|-|-|-|  
 |Address|Article|Article Comment|Bulk Delete Operation|Connection|  
@@ -55,9 +56,9 @@ There are still a number of entities, referred to here as classic entities, that
 |Price List|Queue Item|Quote Product|Rollup Field|Rollup Query|  
 |Saved View|Service|Service Activity|SharePoint Site|Site|  
 |Territory|Unit|Unit Group|||  
-  
+
 ### See also  
-    
+
 [Entities and metadata overview](../customize/create-edit-metadata.md) <br />  
 [Create and edit views](../customize/create-edit-views.md) <br />
 [Assign form order](assign-form-order.md) <br />

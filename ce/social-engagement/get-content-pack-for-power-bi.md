@@ -2,7 +2,7 @@
 title: "Get the Social Engagement content pack | Microsoft Docs"
 description: "Download the use the Social Engagement content pack for Power BI."
 keywords: "Power BI, content pack, engagement details"
-ms.date: 01/30/2018
+ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 ms.assetid: c82b4063-c86c-4922-99dd-1f5ddd18cb00
@@ -29,46 +29,46 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
   
 ### How to connect  
   
-1.  Go to [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] and select **Get Data** at the bottom of the left navigation pane.  
+1. Go to [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] and select **Get Data** at the bottom of the left navigation pane.  
   
- ![Get Data button in Power BI](media/content-pack-get-data.png "Get Data button in Power BI")  
+   ![Get Data button in Power BI](media/content-pack-get-data.png "Get Data button in Power BI")  
   
-2.  In the **Services** box, select **Get**.  
+2. In the **Services** box, select **Get**.  
   
- ![Get data from services to show in Power BI](media/content-pack-get-services.png "Get data from services to show in Power BI")  
+   ![Get data from services to show in Power BI](media/content-pack-get-services.png "Get data from services to show in Power BI")  
   
-3.  Search for **[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]**, select the content pack from the results, and then click **Get it now**.  
+3. Search for **[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]**, select the content pack from the results, and then click **Get it now**.  
   
- ![Select Social Engagement from the list of content packs](media/content-pack-select-social-engagement.png "Select Social Engagement from the list of content packs")  
+   ![Select Social Engagement from the list of content packs](media/content-pack-select-social-engagement.png "Select Social Engagement from the list of content packs")  
   
-4.  Provide the **Solution ID** (not the full URL) of the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] instance you want to connect to, choose the time frame you want to import and click **Next**.  For more information how to find the **Solution ID**, see [Troubleshooting](#troubleshooting).  
+4. Provide the **Solution ID** (not the full URL) of the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] instance you want to connect to, choose the time frame you want to import and click **Next**.  For more information how to find the **Solution ID**, see [Troubleshooting](#troubleshooting).  
   
- ![Set the solution id and the time frame of the data](media/content-pack-solutionid.png "Set the solution id and the time frame of the data")  
+   ![Set the solution id and the time frame of the data](media/content-pack-solutionid.png "Set the solution id and the time frame of the data")  
   
-    > [!IMPORTANT]
-    >  Choose an appropriate time frame based on the interaction data volume in your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution to avoid potentially long loading times. We recommend keeping the total number of posts with actions imported into [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] under 100,000.  
+   > [!IMPORTANT]
+   >  Choose an appropriate time frame based on the interaction data volume in your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution to avoid potentially long loading times. We recommend keeping the total number of posts with actions imported into [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] under 100,000.  
   
-5.  For **Authentication method**, select **oAuth2** and then click **Sign in**.  
+5. For **Authentication method**, select **oAuth2** and then click **Sign in**.  
   
- ![Select the oAuth2 authentication method](media/content-pack-select-oauth2.png "Select the oAuth2 authentication method")  
+   ![Select the oAuth2 authentication method](media/content-pack-select-oauth2.png "Select the oAuth2 authentication method")  
   
-     The first time you connect, [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] may prompt you to allow read-only access to your account.  
+    The first time you connect, [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] may prompt you to allow read-only access to your account.  
   
-     Select **Grant** to begin the import process. The import process can take a few minutes depending on the volume of data in your solution and will gather data for social posts that users of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] interacted with.  
+    Select **Grant** to begin the import process. The import process can take a few minutes depending on the volume of data in your solution and will gather data for social posts that users of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] interacted with.  
   
- ![Sign in to your Office 365 account](media/content-pack-office365-sign-in.png "Sign in to your Office 365 account")  
+   ![Sign in to your Office 365 account](media/content-pack-office365-sign-in.png "Sign in to your Office 365 account")  
   
-6.  After [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] imports the data you will see a new dashboard, report, and dataset in the left navigation pane. New items are marked with a yellow asterisk *:  
+6. After [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] imports the data you will see a new dashboard, report, and dataset in the left navigation pane. New items are marked with a yellow asterisk *:  
   
- ![Sidebar in Power BI with highlighted controls](media/content-pack-sidebar-powerbi.png "Sidebar in Power BI with highlighted controls")  
+   ![Sidebar in Power BI with highlighted controls](media/content-pack-sidebar-powerbi.png "Sidebar in Power BI with highlighted controls")  
   
-7.  Select the **Social Engagement Performance** dashboard. It may take a while initially to show the data.  
+7. Select the **Social Engagement Performance** dashboard. It may take a while initially to show the data.  
   
- ![Processing the data import in Power BI](media/content-pack-importing-data.png "Processing the data import in Power BI")  
+   ![Processing the data import in Power BI](media/content-pack-importing-data.png "Processing the data import in Power BI")  
   
-     Once your data is imported you can see the default dashboard that [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] creates to display your data. You can modify this dashboard to display your data in any way you want.  
+    Once your data is imported you can see the default dashboard that [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] creates to display your data. You can modify this dashboard to display your data in any way you want.  
   
- ![Dashboard with Social Engagmeent data in Power BI](media/content-pack-social-engagement-dashboard.jpg "Dashboard with Social Engagement data in Power BI")  
+   ![Dashboard with Social Engagmeent data in Power BI](media/content-pack-social-engagement-dashboard.jpg "Dashboard with Social Engagement data in Power BI")  
   
 ### What's next?  
   
@@ -104,11 +104,11 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
   
 - **Internal**: Actions that are directed at an internal audience.  
   
-    -   Assign  
+  - Assign  
   
-    -   Link to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]  
+  - Link to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]  
   
-    -   Label  
+  - Label  
   
 - **External**: Actions that are directed at an external (public) audience.  
   
@@ -147,17 +147,17 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
   
 - **Auto**: Actions that were taken by the system for example by processing automation rules, or by un-assigning posts when a user is deleted in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
- The table below maps out the possible combination of values for Action Type Group, Action Type, Action Value and Action Value Group fields:  
+  The table below maps out the possible combination of values for Action Type Group, Action Type, Action Value and Action Value Group fields:  
   
-|Action Type Group|Action Type|Action Value|Action Value Group|  
-|-----------------------|-----------------|------------------|------------------------|  
-|Internal|Assign|User name or User Group name|User or User Group|  
-|Internal|Label|Label name|Label|  
-|Internal|Link to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]|Instance name|Instance type (Online or On-premises)|  
-|External|Reply|Social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] that was used.|Source ([!INCLUDE[tn_twitter](../includes/tn-twitter.md)], [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)])|  
-|External|Like|Social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] that was used.|Source ([!INCLUDE[tn_twitter](../includes/tn-twitter.md)], [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] )|  
-|External|Share|Social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] that was used in:<br /><br /> -   Retweet on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)]<br />-   Share As on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)]<br />-   Post Link for [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[pn_LinkedIn](../includes/pn-linkedin.md)]|Source ([!INCLUDE[tn_twitter](../includes/tn-twitter.md)], [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], and [!INCLUDE[pn_LinkedIn](../includes/pn-linkedin.md)])|  
-|External|Private messages|Social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] that was used.|Source ([!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)])|  
+| Action Type Group |                             Action Type                             |                                                                                                                                                                                                                       Action Value                                                                                                                                                                                                                        |                                                                            Action Value Group                                                                            |
+|-------------------|---------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     Internal      |                               Assign                                |                                                                                                                                                                                                               User name or User Group name                                                                                                                                                                                                                |                                                                            User or User Group                                                                            |
+|     Internal      |                                Label                                |                                                                                                                                                                                                                        Label name                                                                                                                                                                                                                         |                                                                                  Label                                                                                   |
+|     Internal      | Link to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] |                                                                                                                                                                                                                       Instance name                                                                                                                                                                                                                       |                                                                  Instance type (Online or On-premises)                                                                   |
+|     External      |                                Reply                                |                                                                                                                                                                        Social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] that was used.                                                                                                                                                                         |   Source ([!INCLUDE[tn_twitter](../includes/tn-twitter.md)], [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)])   |
+|     External      |                                Like                                 |                                                                                                                                                                        Social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] that was used.                                                                                                                                                                         |  Source ([!INCLUDE[tn_twitter](../includes/tn-twitter.md)], [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] )   |
+|     External      |                                Share                                | Social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] that was used in:<br /><br /> -   Retweet on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)]<br />-   Share As on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)]<br />-   Post Link for [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[pn_LinkedIn](../includes/pn-linkedin.md)] | Source ([!INCLUDE[tn_twitter](../includes/tn-twitter.md)], [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], and [!INCLUDE[pn_LinkedIn](../includes/pn-linkedin.md)]) |
+|     External      |                          Private messages                           |                                                                                                                                                                        Social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] that was used.                                                                                                                                                                         |                            Source ([!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)])                             |
   
 ### Authors  
  Contains the authors of all posts in the data set. If available, it also contains the author location. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the locations for the posts](analytics-location.md)  
@@ -204,7 +204,7 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
   
  If you are not already an admin in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], please contact your administrator to make sure you have rights to view the collected data.  
   
- The **Solution ID** of your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution can be found in the Solution URL. The Solution URL can be found in the browser’s address bar after signing in to [https://portal.office.com](https://portal.office.com) and opening [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] from the app switcher.  
+ The **Solution ID** of your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution can be found in the URL. The URL can be found in the browser’s address bar after [signing in to Social Engagement](https://social.dynamics.com/login).  
   
  The Solution URL is also shown on alerts or other email notifications you receive from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. For example: 1 is the Solution ID in the Solution URL [https://listening-prod.dynamics.com/app/1/](https://www.microsoft.com). 
   

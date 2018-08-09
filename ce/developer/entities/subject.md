@@ -583,6 +583,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_subject_products"></a> subject_products
 
 Same as product entity [subject_products](product.md#BKMK_subject_products) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|product|
@@ -597,6 +598,7 @@ Same as product entity [subject_products](product.md#BKMK_subject_products) Many
 ### <a name="BKMK_subject_incidents"></a> subject_incidents
 
 Same as incident entity [subject_incidents](incident.md#BKMK_subject_incidents) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|incident|
@@ -611,6 +613,7 @@ Same as incident entity [subject_incidents](incident.md#BKMK_subject_incidents) 
 ### <a name="BKMK_subject_sales_literature"></a> subject_sales_literature
 
 Same as salesliterature entity [subject_sales_literature](salesliterature.md#BKMK_subject_sales_literature) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|salesliterature|
@@ -625,6 +628,7 @@ Same as salesliterature entity [subject_sales_literature](salesliterature.md#BKM
 ### <a name="BKMK_userentityinstancedata_subject"></a> userentityinstancedata_subject
 
 Same as userentityinstancedata entity [userentityinstancedata_subject](userentityinstancedata.md#BKMK_userentityinstancedata_subject) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -639,6 +643,7 @@ Same as userentityinstancedata entity [userentityinstancedata_subject](userentit
 ### <a name="BKMK_Subject_AsyncOperations"></a> Subject_AsyncOperations
 
 Same as asyncoperation entity [Subject_AsyncOperations](asyncoperation.md#BKMK_Subject_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -653,6 +658,7 @@ Same as asyncoperation entity [Subject_AsyncOperations](asyncoperation.md#BKMK_S
 ### <a name="BKMK_subject_knowledgearticles"></a> subject_knowledgearticles
 
 Same as knowledgearticle entity [subject_knowledgearticles](knowledgearticle.md#BKMK_subject_knowledgearticles) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|knowledgearticle|
@@ -667,6 +673,7 @@ Same as knowledgearticle entity [subject_knowledgearticles](knowledgearticle.md#
 ### <a name="BKMK_Subject_BulkDeleteFailures"></a> Subject_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Subject_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Subject_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -681,6 +688,7 @@ Same as bulkdeletefailure entity [Subject_BulkDeleteFailures](bulkdeletefailure.
 ### <a name="BKMK_Subject_ProcessSessions"></a> Subject_ProcessSessions
 
 Same as processsession entity [Subject_ProcessSessions](processsession.md#BKMK_Subject_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -695,6 +703,7 @@ Same as processsession entity [Subject_ProcessSessions](processsession.md#BKMK_S
 ### <a name="BKMK_Subject_SyncErrors"></a> Subject_SyncErrors
 
 Same as syncerror entity [Subject_SyncErrors](syncerror.md#BKMK_Subject_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -709,6 +718,7 @@ Same as syncerror entity [Subject_SyncErrors](syncerror.md#BKMK_Subject_SyncErro
 ### <a name="BKMK_subject_parent_subject"></a> subject_parent_subject
 
 Same as subject entity [subject_parent_subject](subject.md#BKMK_subject_parent_subject) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|subject|
@@ -723,6 +733,7 @@ Same as subject entity [subject_parent_subject](subject.md#BKMK_subject_parent_s
 ### <a name="BKMK_subject_kb_articles"></a> subject_kb_articles
 
 Same as kbarticle entity [subject_kb_articles](kbarticle.md#BKMK_subject_kb_articles) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|kbarticle|

@@ -24,19 +24,19 @@ Create rich, interactive reports and real-time visualizations in [!INCLUDE[pn_dy
   
 > [!NOTE]
 > To add [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] visualizations to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] personal dashboards, you must:  
->   
+> 
 > - Enable [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] visualizations for your organization in **Settings** > **Administration** > **System Settings** > **Reporting** tab > **Allow Power BI visualization embedding**.  
-> -   Have a [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] account and have access to at least one [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboard. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [ntroduction to reporting &amp; analytics with Dynamics 365](../analytics/reporting-analytics-with-dynamics-365.md)  
+> - Have a [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] account and have access to at least one [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboard. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [ntroduction to reporting &amp; analytics with Dynamics 365](../analytics/reporting-analytics-with-dynamics-365.md)  
 > - Avoid adding [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] visualizations to system dashboards. Its not supported. T
   
 <a name="embedPBDashboard"></a>
 ## Create a personal Power BI dashboard
   Follow these steps to add a [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboard to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. If you are connecting to the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] service, you need an account and to have selected your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance as a data source. For more information about registering and connecting data sources, see [Microsoft Power BI](https://powerbi.microsoft.com/).  
 
-1.  Go to **Dashboards** in **Sales**, **Service**, or **Marketing**.  
+1. Go to **Dashboards** in **Sales**, **Service**, or **Marketing**.  
   
-2.  Select **New** and then select **Power BI Dashboard**.  
-    You may be prompted to sign in to Power BI.
+2. Select **New** and then select **Power BI Dashboard**.  
+   You may be prompted to sign in to Power BI.
 
 3. In the Add Power BI Dashboard dialog select the workspace and then select the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboard that you want to embed in your dashboard in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Select **Enable for mobile** if you want to make the dashboard available for [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] and [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../includes/pn-dyn-365-phones.md)].
 
@@ -48,17 +48,17 @@ Create rich, interactive reports and real-time visualizations in [!INCLUDE[pn_dy
 ## Embed  Power BI tiles on your personal dashboard  
  Follow these steps to add one or more [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] tiles to your personal dashboard. If you are connecting to the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] service, you need an account and to have selected your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance as a data source. For more information about registering and connecting data sources, see [Microsoft Power BI](https://powerbi.microsoft.com/).  
   
-1.  Go to **Dashboards** in **Sales**, **Service**, or **Marketing**.  
+1. Go to **Dashboards** in **Sales**, **Service**, or **Marketing**.  
   
-2.  Select an existing personal dashboard or select **New** to create one.  
+2. Select an existing personal dashboard or select **New** to create one.  
   
-3.  On the dashboard, select an area  where you want the tile to appear, and then select **Power BI Tile** on the toolbar.  
+3. On the dashboard, select an area  where you want the tile to appear, and then select **Power BI Tile** on the toolbar.  
   
-4.  In the Add Power BI Dashboard dialog, select the workspace and then select the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] tile that you want to display on your dashboard. Select **Enable for mobile** if you want to make the tile available for [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] and [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../includes/pn-dyn-365-phones.md)].  
+4. In the Add Power BI Dashboard dialog, select the workspace and then select the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] tile that you want to display on your dashboard. Select **Enable for mobile** if you want to make the tile available for [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] and [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../includes/pn-dyn-365-phones.md)].  
   
-      Select another area of the dashboard and repeat this step to add another [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] tile, or other component, such as a chart or list, to your dashboard.  
+     Select another area of the dashboard and repeat this step to add another [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] tile, or other component, such as a chart or list, to your dashboard.  
   
-5.  Select **Save** to save your dashboard.  
+5. Select **Save** to save your dashboard.  
   
 <a name="PBIthings"></a>   
 ### Things you can do with Power BI embedded tiles on Dynamics 365 personal dashboards  
@@ -66,13 +66,13 @@ Create rich, interactive reports and real-time visualizations in [!INCLUDE[pn_dy
   
  ![Embed Power BI tile features](../basics/media/embed-powerbi-tile-features.PNG "Embed Power BI tile features")  
   
-1.  Click the **Refresh** button ![Refresh button](../basics/media/embed-pbi-tile-refresh-button.PNG "Refresh button") to refresh the tile’s underlying report data.  
+1. Click the **Refresh** button ![Refresh button](../basics/media/embed-pbi-tile-refresh-button.PNG "Refresh button") to refresh the tile’s underlying report data.  
   
-2.  Click the **Open in Power BI** button ![Open in Power BI button](../basics/media/open-in-power-bi.PNG "Open in Power BI button") to open the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboard that contains the visualization  in a new browser tab.  
+2. Click the **Open in Power BI** button ![Open in Power BI button](../basics/media/open-in-power-bi.PNG "Open in Power BI button") to open the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboard that contains the visualization  in a new browser tab.  
   
-3.  Click the **Enlarge** button ![Enlarge tile](../basics/media/embed-pbi-tile-enlarge-button.PNG "Enlarge tile") to expand the visualization and increase the viewing area for the visualization, like the Sales Pipeline tile displayed here.  
+3. Click the **Enlarge** button ![Enlarge tile](../basics/media/embed-pbi-tile-enlarge-button.PNG "Enlarge tile") to expand the visualization and increase the viewing area for the visualization, like the Sales Pipeline tile displayed here.  
   
- ![Enlarged embedded Power BI tile](../basics/media/embed-power-bi-tile-features.png "Enlarged embedded Power BI tile")  
+   ![Enlarged embedded Power BI tile](../basics/media/embed-power-bi-tile-features.png "Enlarged embedded Power BI tile")  
   
 <a name="sharePBIdashboard"></a>   
 ## Share a personal dashboard that contains Power BI visualizations  

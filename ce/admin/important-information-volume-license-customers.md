@@ -37,17 +37,17 @@ Your Dynamics CRM Online plan is being retired. When it's time to renew, you wil
 > [!TIP]
 >  If you have a lot of users, you can optionally use Remote PowerShell to assign user licenses. To learn how, see [Use Office 365 PowerShell to assign licenses to user accounts](https://technet.microsoft.com/library/dn771770.aspx).  
   
-1.  In the admin center, choose **Users** > **Active users**.  
+1. In the admin center, choose **Users** > **Active users**.  
   
-2.  Select the boxes next to the names of the users that you want to move to the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] subscriptions.  
+2. Select the boxes next to the names of the users that you want to move to the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] subscriptions.  
   
-3.  In the **Bulk actions**-pane, choose **Edit product licenses**.  
+3. In the **Bulk actions**-pane, choose **Edit product licenses**.  
   
-4.  Select **Replace existing product license assignments** > **Next**.  
+4. Select **Replace existing product license assignments** > **Next**.  
   
-5.  Toggle the switches to **Off** to remove a license and **On** to add a license to users.  
+5. Toggle the switches to **Off** to remove a license and **On** to add a license to users.  
   
-6.  When you’re done, choose **Replace** > **Close**.  
+6. When you’re done, choose **Replace** > **Close**.  
 
 ## What happens to my data when I switch to a Dynamics 365 subscription?
 Your data, user records, customization, etc., are stored in your tenant and are not tied directly to a specific CRM Online subscription. When you switch to a Dynamics 365 subscription, the new licenses provide access to your existing CRM organization and will not lead to any loss of data.

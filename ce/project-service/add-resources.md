@@ -1,31 +1,28 @@
 ---
-title: "Add resources (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
+
+title: Add resources (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to add resources in Project Service
+author: krbjoran
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.date: 7/31/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
 ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.assetid: 20eda29f-6ebb-4bab-b347-e487e5196bb0
-caps.latest.revision: 10
 ms.author: krbjoran
-manager: shellyha
----
-# Add resources (Project Service Automation)
+audience: Admin
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+---
+# Add resources (Project Service)
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Add resources so you can book them for projects. Resources can include users, contacts, accounts, groups, or equipment—anything that you might want to include in your project scheduling and invoicing.  
   
- You can assign resources to organizational units if you need to have different costing and pricing for resources for different divisions in your company.  
+You can assign resources to organizational units if you need to have different costing and pricing for resources for different divisions in your company.  
   
 1.  Go to **Project Service > Resources.**  
   

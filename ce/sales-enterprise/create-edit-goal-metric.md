@@ -29,7 +29,7 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
 ## Create a goal metric (Sales Hub app)
 
 > [!IMPORTANT]
-
+> 
 > Currently, you can't create a goal metric in the Sales Hub app. To create a goal metric, use the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] - custom app.
 
 ## Create a goal metric (Sales app)
@@ -38,13 +38,13 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
   
 1. [!INCLUDE[proc_permissions_mgr_vp_sys_admin_sys_cust](../includes/proc-permissions-mgr-vp-sys-admin-sys-cust.md)]  
   
-2.  Go to **Sales** > **Goal Metrics**.   
+2. Go to **Sales** > **Goal Metrics**.   
   
-3.  To create a new goal metric, on the command bar, select **New**.  
+3. To create a new goal metric, on the command bar, select **New**.  
   
-     -OR-  
+    -OR-  
   
-     To edit a goal metric, select **Edit**.  
+    To edit a goal metric, select **Edit**.  
   
 4. Under **Information**, select **General**.
 
@@ -54,22 +54,22 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
 
    - **Metric Type**. Required. To track a monetary amount, select **Amount**. To track another type of amount, such as how many new contacts are added, select **Count**.
 
-    > [!NOTE]
-
-    > After you save the goal metric, you will no longer be able to edit this field.
+     > [!NOTE]
+     > 
+     > After you save the goal metric, you will no longer be able to edit this field.
 
    - **Amount Data Type**. Required. This option is not available if the **Metric Type** you chose is **Count** because [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] automatically sets the data type to integer.
 
-    > [!NOTE]
-
-    > After you save the goal metric, you will no longer be able to edit this field.
+     > [!NOTE]
+     > 
+     > After you save the goal metric, you will no longer be able to edit this field.
 
    - **Track Stretch Target**. Select this check box if you want this metric to track an additional target beyond the primary goal.
 
 6. Under **Information**, select **Rollup Fields** to create or edit rollup fields as desired. 
 
    > [!NOTE]
-
+   > 
    > You must first save the goal metric before you can create new rollup fields.
 
 7. Select **Save**.
@@ -89,7 +89,7 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
       - **Source Record Type**. Required. Select the record type to use as the source of the rollup data for the metric.
       
         > [!NOTE]
-        
+        > 
         > A custom record type (entity) that is organization-owned isn't available in the **Source Record Type** drop-down list for     selection. For more information about entity ownership, see [Types of entities](../customize/types-of-entities.md).
 
       - **Source Record Type State**. Required. Select the record state you want to use as the source of the rollup data for the metric.

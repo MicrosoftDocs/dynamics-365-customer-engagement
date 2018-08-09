@@ -1,15 +1,14 @@
 ---
 title: "What's new in Unified Service Desk for Dynamics 365 Customer Engagement for administrators | MicrosoftDocs"
-description: "Learn about new Unified Service Desk features for Dynamics 365 Customer Engagement" 
+description: "Learn about new Unified Service Desk features for Dynamics 365 Customer Engagement"
+keywords: ""
+ms.date: 08/06/2018
+ms.service:
+  - "dynamics-365-customerservice"
 ms.custom:
-  - dyn365-USD, dyn365-admin
-ms.date: 04/24/2018
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+  - "dyn365-USD, dyn365-admin"
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2013"
@@ -19,12 +18,20 @@ ms.assetid: 57f18bf9-1e28-481b-9d78-f2adaf281e16
 author: kabala123
 ms.author: kabala
 manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 ---
+
 # New feature information for administrators
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.  
 
 <a name="NewIn330"></a>
 ## What's new in [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)]
+
+### Videos
+
+See the video to know [What's New in Unified Service Desk 3.3](https://go.microsoft.com/fwlink/?linkid=2008774).
 
 ### Analyze best practices in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 
@@ -40,10 +47,11 @@ The categories against which [!INCLUDE[pn-best-practices-analyzer](../../include
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is available for the following [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] versions.
 
-|[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] version|Availability|
-|------------|-----------|
-|[!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)]|Available in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web client demo package. |
-|[!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)]<br>[!INCLUDE[pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)]<br>[!INCLUDE[pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)]<br>[!INCLUDE[pn-unified-service-desk-2-2](../../includes/pn-unified-service-desk-2-2.md)]<br>|Available as a separate zip file for download, which you must copy and paste in your **PkgConfigs** folder and extract the package. Then execute the **Package Deployer** and configure the [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] hosted control and necessary actions.|
+
+|                                                                                                                                          [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] version                                                                                                                                          |                                                                                                                                                      Availability                                                                                                                                                      |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                                                                                                          [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)]                                                                                                                                          |                                                                                                  Available in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web client demo package.                                                                                                  |
+| [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)]<br>[!INCLUDE[pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)]<br>[!INCLUDE[pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)]<br>[!INCLUDE[pn-unified-service-desk-2-2](../../includes/pn-unified-service-desk-2-2.md)]<br> | Available as a separate zip file for download, which you must copy and paste in your **PkgConfigs** folder and extract the package. Then execute the **Package Deployer** and configure the [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] hosted control and necessary actions. |
 
 After the analysis, [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] displays a report that recommends mitigation steps in case of a warning or an error and help you determine your next steps. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when you handle the warning and error as recommended—this helps you to serve your customers without interruption.
 
@@ -173,19 +181,19 @@ These are the limitations:
 - **Embedded intelligence**: Although you can view information from the relationship assistant in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, you cannot interact with the information in the client. More information: [Embedded intelligence](../../sales-enterprise/embedded-intelligence.md)
 - **LinkedIn Sales Navigator for Microsoft Dynamics 365 for Sales**:  This is not supported.
 - **Multi-select option sets**: Although multi-select option sets display fine when hosted in Unified Service Desk (using [CRM Page](../crm-page-hosted-control.md) type of hosted control), you cannot change selections in multi-select option sets using the Unified Service Desk APIs.
--  **URL addressability in business apps**:  Business apps (app modules) use the appid value in the URLs to refer to resources displayed in an app. For example: “https://<OrgName>.crm.dynamics.com/main.aspx?appid=b0f40cd2-22a6-e711-a94e-000d3a1a7a9b&pagetype=entitylist&etn=bookableresourcebooking.” Unified Service Desk does not support the usage of appid values in URLs to refer to a resource. More information: [Design custom business apps by using the app designer](../../customize/design-custom-business-apps-using-app-designer.md)
+- **URL addressability in business apps**:  Business apps (app modules) use the appid value in the URLs to refer to resources displayed in an app. For example: “https://<OrgName>.crm.dynamics.com/main.aspx?appid=b0f40cd2-22a6-e711-a94e-000d3a1a7a9b&pagetype=entitylist&etn=bookableresourcebooking.” Unified Service Desk does not support the usage of appid values in URLs to refer to a resource. More information: [Design custom business apps by using the app designer](../../customize/design-custom-business-apps-using-app-designer.md)
 
-  
+
 <a name="NewIn222"></a>   
 ## What's new in [!INCLUDE [pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)]  
  Administrators will be able  to leverage the following enhancements and new capabilities in this release.  
-  
+
 ### Error  diagnostics reporting settings moved to Audit & Diagnostics Settings area  
  Previous versions maintained the error diagnostics reporting settings in the Options area of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution. With this release, to simplify configuration the error diagnostics reporting settings have been moved to the Audit & Diagnostics Settings area. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Diagnostics](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md#BKMK_Diagnostics)  
-  
+
 ### Support for JAWS screen reader  
  You can now use the JAWS (Job Access With Speech) version 18 for Windows screen reader application for speech output with the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Accessibility in Unified Service Desk](https://go.microsoft.com/fwlink/?linkid=826563)  
-  
+
 ## See also  
  [What’s New in Unified Service Desk for developers](../../unified-service-desk/what-s-new-in-unified-service-desk.md)
  [Overview of Unified Service Desk](../../unified-service-desk/admin/overview-unified-service-desk.md)   

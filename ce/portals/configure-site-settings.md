@@ -12,7 +12,7 @@ ms.assetid: 53642ce6-f6eb-4cc1-8f80-2df8aad2fa39
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Configure site settings for portals
 
@@ -26,10 +26,10 @@ You can manage the following types of site settings:
 
 ## Manage portal site settings
 
-1.  Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
-2.  Go to **Portals** &gt; **Site Settings**.
-3.  To create a new setting, select **New**.
-4.  To edit an existing setting, select the **Site Setting** listed in the grid.
+1. Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
+2. Go to **Portals** &gt; **Site Settings**.
+3. To create a new setting, select **New**.
+4. To edit an existing setting, select the **Site Setting** listed in the grid.
 5. Specify values for the fields provided: 
     - **Name**:  A label referenced by website code to retrieve the appropriate setting. The name should be unique for the associated website, because the code retrieving the setting will take the first record found with the matching name.
     - **Website**:  The associated website. 
@@ -42,10 +42,10 @@ You can manage the following types of site settings:
 
 ## Manage global portal settings
 
-1.  Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
-2.  Go to **Settings** &gt; **Settings**.
-3.  To create a new setting, select **New**.
-4.  To edit an existing setting, select the **Site Setting** listed in the grid.
+1. Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
+2. Go to **Settings** &gt; **Settings**.
+3. To create a new setting, select **New**.
+4. To edit an existing setting, select the **Site Setting** listed in the grid.
 5. Specify values for the fields provided: 
     - **Name**:  A unique name referenced by code to retrieve the appropriate setting.
     - **Value**: The setting

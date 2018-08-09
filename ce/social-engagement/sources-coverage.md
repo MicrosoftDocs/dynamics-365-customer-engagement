@@ -76,7 +76,7 @@ To add a private messages rule, see [Add a private messages rule](add-rules-sear
 
 Video posts and comments published on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] that mention a configured search term and match the configured search languages are available for [keyword searches](add-rules-search-topic.md#addKeywordsRule).
 
-Video posts and comments on specific [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels are available in [YouTube rules](add-rules-search-topic.md#add-a-includetnyoutubeincludestn-youtubemd-rule). Please keep in mind that videos often get a lot of comments, which can cause you to exceed your monthly post quota.
+Video posts and comments on specific [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels are available in [YouTube rules](add-rules-search-topic.md). Please keep in mind that videos often get a lot of comments, which can cause you to exceed your monthly post quota.
 
 ## Privacy notice
 

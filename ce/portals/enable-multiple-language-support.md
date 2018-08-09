@@ -12,7 +12,7 @@ ms.assetid: e3a00fbf-d78f-4cf1-9451-251dc37569ab
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Enable multiple-language portal support
 Business is not confined to a single region or a language. A single portal can display content in multiple languages to reach customers around the world. The content of your portal can be translated into multiple languages while maintaining a single content hierarchy.
@@ -21,15 +21,15 @@ Business is not confined to a single region or a language. A single portal can d
 
 To enable multiple languages for a portal, follow these steps after signing in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]:
 
-1.  [Enable languages in a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.](https://technet.microsoft.com/library/dn832148.aspx)  
-2.  Go to **Portals** > **Website** > **Websites**.
-3.  Select the website to add language support to.
-4.  Find the **Supported Languages** section under the **General** tab, and then select the **+** button.
-5.  Fill in the form, including **Portal Language** (a lookup of languages that are activated in the organization and are supported by portals) and **Publishing State**.
+1. [Enable languages in a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.](https://technet.microsoft.com/library/dn832148.aspx)  
+2. Go to **Portals** > **Website** > **Websites**.
+3. Select the website to add language support to.
+4. Find the **Supported Languages** section under the **General** tab, and then select the **+** button.
+5. Fill in the form, including **Portal Language** (a lookup of languages that are activated in the organization and are supported by portals) and **Publishing State**.
 
-    ![Add a new portal language](media/add-new-portal-language.png "Add a new portal language")
+   ![Add a new portal language](media/add-new-portal-language.png "Add a new portal language")
 
-    ![Set default language for your portal](media/set-default-language-portal.png "Set default language for your portal")
+   ![Set default language for your portal](media/set-default-language-portal.png "Set default language for your portal")
 
 > [!Note]
 > If you activate new languages after the portal has been provisioned, you can [import the metadata translations](manage-portal.md#import-metadata-translation) to get the metadata translated for the newly activated languages.

@@ -646,6 +646,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_resourceassignmentdetail_SyncErrors"></a> msdyn_resourceassignmentdetail_SyncErrors
 
 Same as syncerror entity [msdyn_resourceassignmentdetail_SyncErrors](syncerror.md#BKMK_msdyn_resourceassignmentdetail_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -660,6 +661,7 @@ Same as syncerror entity [msdyn_resourceassignmentdetail_SyncErrors](syncerror.m
 ### <a name="BKMK_msdyn_resourceassignmentdetail_DuplicateMatchingRecord"></a> msdyn_resourceassignmentdetail_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_resourceassignmentdetail_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_resourceassignmentdetail_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -674,6 +676,7 @@ Same as duplicaterecord entity [msdyn_resourceassignmentdetail_DuplicateMatching
 ### <a name="BKMK_msdyn_resourceassignmentdetail_DuplicateBaseRecord"></a> msdyn_resourceassignmentdetail_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_resourceassignmentdetail_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_resourceassignmentdetail_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -688,6 +691,7 @@ Same as duplicaterecord entity [msdyn_resourceassignmentdetail_DuplicateBaseReco
 ### <a name="BKMK_msdyn_resourceassignmentdetail_AsyncOperations"></a> msdyn_resourceassignmentdetail_AsyncOperations
 
 Same as asyncoperation entity [msdyn_resourceassignmentdetail_AsyncOperations](asyncoperation.md#BKMK_msdyn_resourceassignmentdetail_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -702,6 +706,7 @@ Same as asyncoperation entity [msdyn_resourceassignmentdetail_AsyncOperations](a
 ### <a name="BKMK_msdyn_resourceassignmentdetail_MailboxTrackingFolders"></a> msdyn_resourceassignmentdetail_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_resourceassignmentdetail_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_resourceassignmentdetail_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -716,6 +721,7 @@ Same as mailboxtrackingfolder entity [msdyn_resourceassignmentdetail_MailboxTrac
 ### <a name="BKMK_msdyn_resourceassignmentdetail_UserEntityInstanceDatas"></a> msdyn_resourceassignmentdetail_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_resourceassignmentdetail_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_resourceassignmentdetail_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -730,6 +736,7 @@ Same as userentityinstancedata entity [msdyn_resourceassignmentdetail_UserEntity
 ### <a name="BKMK_msdyn_resourceassignmentdetail_ProcessSession"></a> msdyn_resourceassignmentdetail_ProcessSession
 
 Same as processsession entity [msdyn_resourceassignmentdetail_ProcessSession](processsession.md#BKMK_msdyn_resourceassignmentdetail_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -744,6 +751,7 @@ Same as processsession entity [msdyn_resourceassignmentdetail_ProcessSession](pr
 ### <a name="BKMK_msdyn_resourceassignmentdetail_BulkDeleteFailures"></a> msdyn_resourceassignmentdetail_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_resourceassignmentdetail_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_resourceassignmentdetail_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -758,6 +766,7 @@ Same as bulkdeletefailure entity [msdyn_resourceassignmentdetail_BulkDeleteFailu
 ### <a name="BKMK_msdyn_resourceassignmentdetail_PrincipalObjectAttributeAccesses"></a> msdyn_resourceassignmentdetail_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_resourceassignmentdetail_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_resourceassignmentdetail_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

@@ -41,7 +41,7 @@ You can edit the text of any new or existing text block by working directly in t
 
 Select a text block and use the settings provided on the **Properties** tabs to stylize the block itself by using colors, fonts, margins, borders, and backgrounds. Many of the settings on the **Style** tab (which apply to the overall page, form, or message design) also affect the styling of text-block content unless overruled locally.
 
-For email messages, the text toolbar includes an assist-edit button, which is marked with **</>**. Use this to place dynamic text, including field values such as the recipient's name. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add dynamic content](prepare-marketing-emails.md#dynamic-content)
+For email messages, the text toolbar includes an assist-edit button, which is marked with **</>**. Use this to place dynamic text, including field values such as the recipient's name. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add dynamic content to email messages](dynamic-email-content.md)
 
 ### Image blocks
 
@@ -194,5 +194,5 @@ Captcha blocks are only available when you are working with a landing-page form.
 [Design your digital content](design-digital-content.md)  
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  
 [Prepare marketing email messages](prepare-marketing-emails.md)  
-[Work with email templates](email-templates.md)  
+[Work with email, page, and form templates](email-templates.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)

@@ -628,6 +628,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_configuration_SyncErrors"></a> msdyn_configuration_SyncErrors
 
 Same as syncerror entity [msdyn_configuration_SyncErrors](syncerror.md#BKMK_msdyn_configuration_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -642,6 +643,7 @@ Same as syncerror entity [msdyn_configuration_SyncErrors](syncerror.md#BKMK_msdy
 ### <a name="BKMK_msdyn_configuration_AsyncOperations"></a> msdyn_configuration_AsyncOperations
 
 Same as asyncoperation entity [msdyn_configuration_AsyncOperations](asyncoperation.md#BKMK_msdyn_configuration_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -656,6 +658,7 @@ Same as asyncoperation entity [msdyn_configuration_AsyncOperations](asyncoperati
 ### <a name="BKMK_msdyn_configuration_MailboxTrackingFolders"></a> msdyn_configuration_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_configuration_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_configuration_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -670,6 +673,7 @@ Same as mailboxtrackingfolder entity [msdyn_configuration_MailboxTrackingFolders
 ### <a name="BKMK_msdyn_configuration_UserEntityInstanceDatas"></a> msdyn_configuration_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_configuration_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_configuration_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -684,6 +688,7 @@ Same as userentityinstancedata entity [msdyn_configuration_UserEntityInstanceDat
 ### <a name="BKMK_msdyn_configuration_ProcessSession"></a> msdyn_configuration_ProcessSession
 
 Same as processsession entity [msdyn_configuration_ProcessSession](processsession.md#BKMK_msdyn_configuration_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -698,6 +703,7 @@ Same as processsession entity [msdyn_configuration_ProcessSession](processsessio
 ### <a name="BKMK_msdyn_configuration_BulkDeleteFailures"></a> msdyn_configuration_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_configuration_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_configuration_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -712,6 +718,7 @@ Same as bulkdeletefailure entity [msdyn_configuration_BulkDeleteFailures](bulkde
 ### <a name="BKMK_msdyn_configuration_PrincipalObjectAttributeAccesses"></a> msdyn_configuration_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_configuration_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_configuration_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -726,6 +733,7 @@ Same as principalobjectattributeaccess entity [msdyn_configuration_PrincipalObje
 ### <a name="BKMK_msdyn_msdyn_configuration_msdyn_bookingsetupmetadata_CloneEntityQuery"></a> msdyn_msdyn_configuration_msdyn_bookingsetupmetadata_CloneEntityQuery
 
 Same as msdyn_bookingsetupmetadata entity [msdyn_msdyn_configuration_msdyn_bookingsetupmetadata_CloneEntityQuery](msdyn_bookingsetupmetadata.md#BKMK_msdyn_msdyn_configuration_msdyn_bookingsetupmetadata_CloneEntityQuery) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingsetupmetadata|
@@ -740,6 +748,7 @@ Same as msdyn_bookingsetupmetadata entity [msdyn_msdyn_configuration_msdyn_booki
 ### <a name="BKMK_msdyn_msdyn_configuration_msdyn_bookingsetupmetadata_RetrieveConstraintsQuery"></a> msdyn_msdyn_configuration_msdyn_bookingsetupmetadata_RetrieveConstraintsQuery
 
 Same as msdyn_bookingsetupmetadata entity [msdyn_msdyn_configuration_msdyn_bookingsetupmetadata_RetrieveConstraintsQuery](msdyn_bookingsetupmetadata.md#BKMK_msdyn_msdyn_configuration_msdyn_bookingsetupmetadata_RetrieveConstraintsQuery) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingsetupmetadata|
@@ -754,6 +763,7 @@ Same as msdyn_bookingsetupmetadata entity [msdyn_msdyn_configuration_msdyn_booki
 ### <a name="BKMK_msdyn_msdyn_configuration_msdyn_bookingsetupmetadata_RetrieveResourcesQuery"></a> msdyn_msdyn_configuration_msdyn_bookingsetupmetadata_RetrieveResourcesQuery
 
 Same as msdyn_bookingsetupmetadata entity [msdyn_msdyn_configuration_msdyn_bookingsetupmetadata_RetrieveResourcesQuery](msdyn_bookingsetupmetadata.md#BKMK_msdyn_msdyn_configuration_msdyn_bookingsetupmetadata_RetrieveResourcesQuery) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingsetupmetadata|
@@ -768,6 +778,7 @@ Same as msdyn_bookingsetupmetadata entity [msdyn_msdyn_configuration_msdyn_booki
 ### <a name="BKMK_msdyn_msdyn_configuration_msdyn_scheduleboardsetting_FilterLayout"></a> msdyn_msdyn_configuration_msdyn_scheduleboardsetting_FilterLayout
 
 Same as msdyn_scheduleboardsetting entity [msdyn_msdyn_configuration_msdyn_scheduleboardsetting_FilterLayout](msdyn_scheduleboardsetting.md#BKMK_msdyn_msdyn_configuration_msdyn_scheduleboardsetting_FilterLayout) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_scheduleboardsetting|
@@ -782,6 +793,7 @@ Same as msdyn_scheduleboardsetting entity [msdyn_msdyn_configuration_msdyn_sched
 ### <a name="BKMK_msdyn_msdyn_configuration_msdyn_scheduleboardsetting_ResourceCellTemplate"></a> msdyn_msdyn_configuration_msdyn_scheduleboardsetting_ResourceCellTemplate
 
 Same as msdyn_scheduleboardsetting entity [msdyn_msdyn_configuration_msdyn_scheduleboardsetting_ResourceCellTemplate](msdyn_scheduleboardsetting.md#BKMK_msdyn_msdyn_configuration_msdyn_scheduleboardsetting_ResourceCellTemplate) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_scheduleboardsetting|
@@ -796,6 +808,7 @@ Same as msdyn_scheduleboardsetting entity [msdyn_msdyn_configuration_msdyn_sched
 ### <a name="BKMK_msdyn_msdyn_configuration_msdyn_scheduleboardsetting_RetrieveResourcesQuery"></a> msdyn_msdyn_configuration_msdyn_scheduleboardsetting_RetrieveResourcesQuery
 
 Same as msdyn_scheduleboardsetting entity [msdyn_msdyn_configuration_msdyn_scheduleboardsetting_RetrieveResourcesQuery](msdyn_scheduleboardsetting.md#BKMK_msdyn_msdyn_configuration_msdyn_scheduleboardsetting_RetrieveResourcesQuery) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_scheduleboardsetting|

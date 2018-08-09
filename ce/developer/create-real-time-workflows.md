@@ -24,21 +24,21 @@ Similar to asynchronous workflows, real-time workflows can be used to model and 
   
  Some key points about a real-time workflow include the following items:  
   
--   Defined by using a `Workflow` entity record, similar to an asynchronous workflow.  
+- Defined by using a `Workflow` entity record, similar to an asynchronous workflow.  
   
--   Executes in a stage of the event execution pipeline, similar to synchronous plug-ins. The real-time workflow can execute before (pre-operation), after (post-operation), or during the core operation. A real-time workflow that is executed during the core operation is the implementation of a custom action. Real-time workflows can be ranked within a stage just like you can do with plug-ins. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Pipeline Stages](event-execution-pipeline.md#bkmk_PipelineStages)  
+- Executes in a stage of the event execution pipeline, similar to synchronous plug-ins. The real-time workflow can execute before (pre-operation), after (post-operation), or during the core operation. A real-time workflow that is executed during the core operation is the implementation of a custom action. Real-time workflows can be ranked within a stage just like you can do with plug-ins. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Pipeline Stages](event-execution-pipeline.md#bkmk_PipelineStages)  
   
--   Whether configured to run on-demand or in response to an event, a real-time workflow runs immediately rather than being queued to run at a later time.  
+- Whether configured to run on-demand or in response to an event, a real-time workflow runs immediately rather than being queued to run at a later time.  
   
--   Can run in the security context of the logged on user or owner of the workflow. However, workflows set to run on-demand always run under the security context of the logged on user.  
+- Can run in the security context of the logged on user or owner of the workflow. However, workflows set to run on-demand always run under the security context of the logged on user.  
   
--   Can’t contain any delay or wait activities.  
+- Can’t contain any delay or wait activities.  
   
--   Only logs errors, and only when logging is enabled.  
+- Only logs errors, and only when logging is enabled.  
   
--   Executes in the current transaction. All activities in the workflow and any child workflows, except asynchronous workflows, are part of a single transaction. Asynchronous child workflows are queued and execute in a separate transaction.  
+- Executes in the current transaction. All activities in the workflow and any child workflows, except asynchronous workflows, are part of a single transaction. Asynchronous child workflows are queued and execute in a separate transaction.  
   
--   Can be converted to asynchronous workflow and back to real-time.  
+- Can be converted to asynchronous workflow and back to real-time.  
   
 <a name="bkmk_security"></a>   
 ## Required security privileges  

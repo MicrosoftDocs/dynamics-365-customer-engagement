@@ -116,6 +116,11 @@ Activity tiles provide the following settings in the **Properties** pane while s
 
 Use a workflow tile to invoke a custom workflow at any point in the customer journey. You can use them to advance a process stage, create alerts, and more. Workflows are highly customizable, and many organizations work with internal or external consultants to optimize them for their own unique, internal business requirements.
 
+> [!IMPORTANT]
+> Workflows invoked by this tile must meet the following requirements:
+> - **On demand**: Customer journeys must be able to invoke the workflow on demand each time a contact flows through the tile.
+> - **Based on contact records**: The only input provided to the workflow is a reference to the contact record that has entered the tile. Your workflow must be prepared to perform its functionality on that contact or on a record that is related to that contact.
+
 Workflow tiles are stand-alone, so they never have any parent or child tiles.
 
 Workflow tiles provide the following settings in the **Properties** pane while selected:
@@ -136,7 +141,7 @@ A segment is a collection of contacts grouped according to some common attribute
 
 Usually, each of your customer journeys starts with a segment tile, which establishes the collection of contacts who you'll be working with for that journey. When your customer journey starts running, it immediately processes all the contacts found in its target segments at that time. As time goes on, any new contacts that join the target segments will also start their journey here for as long as the customer journey is active.
 
-Each segment tile is always either the parent or child of another segment tile, so at minimum you'll have a parent segment with a single child segment. The parent tile identifies it self as a _segment group_; it displays a name for the group and shows information about the total number of contacts it includes, and it establishes the logic for combining its various child tiles (intersection or union). Each child tile identifies an actual segment configured in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
+Each segment tile is always either the parent or child of another segment tile, so at minimum you'll have a parent segment with a single child segment. The parent tile identifies it self as a *segment group*; it displays a name for the group and shows information about the total number of contacts it includes, and it establishes the logic for combining its various child tiles (intersection or union). Each child tile identifies an actual segment configured in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 
 ![A segment tile with two child segments](media/cj-segment-stack.png "A segment tile with two child segments")
 

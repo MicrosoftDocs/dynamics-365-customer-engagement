@@ -12,7 +12,7 @@ ms.assetid: 57e5709e-bc62-46be-a848-770a4383d454
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Get started with the portal content editor
 
@@ -21,7 +21,7 @@ manager: sakudes
 This document assumes that you have permission to perform these tasks. If you do not, ask your portal administrator to arrange this for you. The permissions can be assigned to individual pages, so be sure to specify which pages you will need to edit.
 
 > [!Note]
-> If you are using the sample organization, sign in with **administrator** as the username and **pass@word1** as the password.
+> If you are using the sample organization, sign in with **administrator** as the username and <strong>pass@word1</strong> as the password.
 
 ## Use the content editor toolbar
 

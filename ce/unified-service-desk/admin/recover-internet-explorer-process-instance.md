@@ -77,17 +77,18 @@ Select **Stop** if you want to terminate and do not want to recover the webpage 
 If you want to wait for the Internet Explorer webpage to respond, select **Continue**, and wait for the Internet Explorer webpage to respond. If the webpage does not respond, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays the window again after the timeout period.
 
 The following list shows the options and descriptions to select when you see the message window. 
-|Option|Description| 
-|:------|:------| 
-|Reload|Recovers the Internet Explorer webpage.| 
-|Stop|Terminates and does not to recover the Internet Explorer webpage.| 
-|Continue|Waits until the Internet Explorer webpage to respond. If the webpage does not respond, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays the window again after the timeout period.| 
+
+| Option   | Description                                                                                                                                                                                                               |
+|:---------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Reload   | Recovers the Internet Explorer webpage.                                                                                                                                                                                   |
+| Stop     | Terminates and does not to recover the Internet Explorer webpage.                                                                                                                                                         |
+| Continue | Waits until the Internet Explorer webpage to respond. If the webpage does not respond, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays the window again after the timeout period. |
 
 ![Script causing Internet Explorer webpage to run slowly](../../unified-service-desk/media/usd-ie-runscript.PNG "Script causing Internet Explorer webpage to run slowly")
 
 > [!Note]
 > If there are other webpages that are unresponsive, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays the message - **Internet Explorer closed abruptly.** <br><br>
-Select **Reload** to recover the webpage to the last known URL. Or, select **Cancel** to not to recover the webpage.</br>
+> Select **Reload** to recover the webpage to the last known URL. Or, select **Cancel** to not to recover the webpage.</br>
 > ![Internet Explorer closed abruptly](../../unified-service-desk/media/usd-ie-closed-abruptly-33update.PNG "Internet Explorer closed abruptly")
 
 ### Change IEWebPageInactivityTimeOut option
@@ -115,7 +116,7 @@ To change the **IEWebPageInactivityTimeOut** timeout value:
 7. Type the value in milliseconds for the **Value** field.
 
 8. Click **Save**.
- 
+
 <a name="Terminate_recover_unresponsive_Internet_Explorer_process_instance using_keyboard_shortcut"></a>
 ## Terminate and recover unresponsive Internet Explorer process instances using a keyboard shortcut
 
@@ -159,18 +160,18 @@ To change the keyboard shortcut:
 ![Change On-DemandIETerminationShortcut](../../unified-service-desk/media/crm-usd-options-on-demand-ie-termination-shortcut.PNG "Change On-DemandIETerminationShortcut")
 
 <a name="BKMK_Limitations"></a>
-## Limitations 
+## Limitations 
 
 - When you recover an Internet Explorer webpage, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] triggers again all the events that associate with the webpage. </br>
-For example: </br> **TaskUpdated** is a event configured for the **Agent Scripting** hosted control (webpage) and has **Action Call for Reminder** and **Action Call for Resolve Case** as Action Calls. 
-If you recover **Agent Scripting** webpage, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] triggers again the **TaskUpdated** event and the **Action Calls**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Events](../events.md)
+  For example: </br> **TaskUpdated** is a event configured for the **Agent Scripting** hosted control (webpage) and has **Action Call for Reminder** and **Action Call for Resolve Case** as Action Calls. 
+  If you recover **Agent Scripting** webpage, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] triggers again the **TaskUpdated** event and the **Action Calls**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Events](../events.md)
 
 - [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] does not recover inline navigation of an Internet Explorer webpage.</br>
-For example: </br>
+  For example: </br>
   You open an **Account** Internet Explorer webpage and navigate inline to a **Case** Internet Explorer webpage. If the **Case** webpage becomes unresponsive, the recovery feature reloads only the **Account** webpage and not the **Case** webpage.
 
 - [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] does not recover unsaved work. </br>
-For example: </br>
+  For example: </br>
   You open an **Account** Internet Explorer webpage and navigate inline to a **Case** Internet Explorer webpage, and enter details on the **case** webpage. If the **Case** webpage becomes unresponsive, the recovery feature reloads only the **Account** webpage and not the **Case** webpage. You may lose any unsaved data that you had entered in the **Case** webpage.
 
 - If the web browser runs slowly while executing a script, and you choose **Stop** to terminate and not to recover the Internet Explorer webpage, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] may terminate other Internet Explorer webpages.

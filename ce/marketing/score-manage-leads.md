@@ -154,7 +154,7 @@ When you are setting up a condition tile for lead scoring, you can set up the **
 
 Here are a few more examples of how to use hops to create useful conditions:
 
-* **Lead.lead&#95;contact&#95;parentcontactid**: Lets you score leads associated with contacts who have particular properties (such as contacts who have a Microsoft email address&#8212;where _Email | contains | @microsoft.com_).
+* **Lead.lead&#95;contact&#95;parentcontactid**: Lets you score leads associated with contacts who have particular properties (such as contacts who have a Microsoft email address&#8212;where <em>Email | contains | @microsoft.com</em>).
 * **Lead.lead&#95;contact&#95;parentcontactid.contact&#95;account&#95;parentcustomerid**: Lets you score leads associated with contacts who belong to accounts with particular properties (such as accounts where _Number of employees | > | 500_).
 
 ### See also
@@ -162,4 +162,5 @@ Here are a few more examples of how to use hops to create useful conditions:
 [Set up lead scoring](set-up-lead-scoring.md)  
 [Register contacts' engagement](register-engagement.md)  
 [Manage customer information](manage-customer-information.md)  
-[Accessibility and keyboard shortcuts](designer-shortcuts.md)
+[Accessibility and keyboard shortcuts](designer-shortcuts.md)  
+[Go live with publishable entities and track their status](go-live.md)

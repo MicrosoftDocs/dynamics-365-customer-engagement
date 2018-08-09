@@ -53,32 +53,32 @@ Organizations often need to be in compliance with various regulations to ensure 
 ## Key concepts  
  The following bullets identify some key auditing concepts:  
   
--   You can enable or disable auditing at the organization, entity, and attribute levels. If auditing is not enabled at the organization level, auditing of entities and attributes, even if it is enabled, does not occur. By default, auditing is enabled on all auditable entity attributes, but is disabled at the entity and organization level.  
+- You can enable or disable auditing at the organization, entity, and attribute levels. If auditing is not enabled at the organization level, auditing of entities and attributes, even if it is enabled, does not occur. By default, auditing is enabled on all auditable entity attributes, but is disabled at the entity and organization level.  
   
--   For [!INCLUDE[pn-crmop-edition](../includes/pn-crm-onprem.md)] servers that use [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] Enterprise editions, auditing data is recorded over time (quarterly) in *partitions*. A partition is called an *audit log* in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application. Partitions are not supported, and therefore, not used, on a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] server that is running [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)], Standard edition.  
+- For [!INCLUDE[pn-crmop-edition](../includes/pn-crm-onprem.md)] servers that use [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] Enterprise editions, auditing data is recorded over time (quarterly) in *partitions*. A partition is called an *audit log* in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application. Partitions are not supported, and therefore, not used, on a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] server that is running [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)], Standard edition.  
   
--   The ability to retrieve and display the audit history is restricted to users who have certain security privileges: View Audit History, and View Audit Summary. There are also privileges specific to partitions: View Audit Partitions, and Delete Audit Partitions. See the specific message request documentation for information about the required privileges for each message.  
+- The ability to retrieve and display the audit history is restricted to users who have certain security privileges: View Audit History, and View Audit Summary. There are also privileges specific to partitions: View Audit Partitions, and Delete Audit Partitions. See the specific message request documentation for information about the required privileges for each message.  
   
--   Audited data changes are stored in records of the **audit** entity.  
+- Audited data changes are stored in records of the **audit** entity.  
   
 ## Data that can be audited  
  The following list identifies the data and operations that can be audited:  
   
--   Create, update, and delete operations on records.  
+- Create, update, and delete operations on records.  
   
--   Changes to the shared privileges of a record.  
+- Changes to the shared privileges of a record.  
   
--   N:N association or disassociation of records.  
+- N:N association or disassociation of records.  
   
--   Changes to security roles.  
+- Changes to security roles.  
   
--   Audit changes at the entity, attribute, and organization level. For example, enabling audit on an entity.  
+- Audit changes at the entity, attribute, and organization level. For example, enabling audit on an entity.  
   
--   Deletion of audit logs.  
+- Deletion of audit logs.  
   
--   When (date/time) a user accesses [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data, for how long, and from what client.  
+- When (date/time) a user accesses [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data, for how long, and from what client.  
   
- Enabling or disabling of field level security by setting the <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.IsSecured> attribute cannot be audited.  
+  Enabling or disabling of field level security by setting the <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.IsSecured> attribute cannot be audited.  
   
 ### See also
  [Data Management in Dynamics 365](manage-data.md)   

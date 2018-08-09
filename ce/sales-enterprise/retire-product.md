@@ -49,15 +49,15 @@ If your organization doesn't sell a product anymore, retire it so that the produ
   
     #### Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
   
-3.  Select **Families & Products**.  
+3. Select **Families & Products**.  
   
-4.  Open an active product, bundle, or family that you want to retire, and on the command bar, select **Retire**.  
+4. Open an active product, bundle, or family that you want to retire, and on the command bar, select **Retire**.  
   
 ## Typical next steps  
  ![Home button](../sales-enterprise/media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)  

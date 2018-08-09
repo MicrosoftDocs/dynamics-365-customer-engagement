@@ -83,17 +83,17 @@ http://CRMServer_Name/Org_Name/cs/dialog/rundialog.aspx?DialogId=DialogID&Entity
 
  Where,  
 
--   _CRMServer_Name_ is the name of your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server.  
+- *CRMServer_Name* is the name of your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server.  
 
--   _Org_Name_ is the organization name.  
+- _Org_Name_ is the organization name.  
 
--   _DialogID_ is GUID of the dialog that you want to run.  
+- _DialogID_ is GUID of the dialog that you want to run.  
 
--   _EntityLogicalName_ is the entity logical name of the primary entity of the dialog that you want to run.  
+- _EntityLogicalName_ is the entity logical name of the primary entity of the dialog that you want to run.  
 
--   _EntityObjectId_ is the GUID of the primary entity record.  
-    A sample URL to start a dialog:  
-    `http://crmserver/AdventureWorksCycle/cs/dialog/rundialog.aspx?DialogId=9F53D2D8-AC54-46A6-A190-F23DE6677C65&EntityName=contact&ObjectId=41D1884E-B4B6-DF11-BF5E-00155DB05986`  
+- _EntityObjectId_ is the GUID of the primary entity record.  
+  A sample URL to start a dialog:  
+  `http://crmserver/AdventureWorksCycle/cs/dialog/rundialog.aspx?DialogId=9F53D2D8-AC54-46A6-A190-F23DE6677C65&EntityName=contact&ObjectId=41D1884E-B4B6-DF11-BF5E-00155DB05986`  
      
 
 ### See also

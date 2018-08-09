@@ -323,10 +323,9 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 #### StateCode Options
 
-|Value|Label|DefaultStatus|InvariantName|
-|-----|-----|-------------|-------------|
-
-
+| Value | Label | DefaultStatus | InvariantName |
+|-------|-------|---------------|---------------|
+|       |       |               |               |
 
 ### <a name="BKMK_StatusCode"></a> StatusCode
 
@@ -342,10 +341,9 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 #### StatusCode Options
 
-|Value|Label|State|
-|-----|-----|-----|
-
-
+| Value | Label | State |
+|-------|-------|-------|
+|       |       |       |
 
 ### <a name="BKMK_Subject"></a> Subject
 
@@ -395,6 +393,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_commitment_SyncErrors"></a> commitment_SyncErrors
 
 Same as syncerror entity [commitment_SyncErrors](syncerror.md#BKMK_commitment_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -409,6 +408,7 @@ Same as syncerror entity [commitment_SyncErrors](syncerror.md#BKMK_commitment_Sy
 ### <a name="BKMK_commitment_AsyncOperations"></a> commitment_AsyncOperations
 
 Same as asyncoperation entity [commitment_AsyncOperations](asyncoperation.md#BKMK_commitment_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -423,6 +423,7 @@ Same as asyncoperation entity [commitment_AsyncOperations](asyncoperation.md#BKM
 ### <a name="BKMK_commitment_MailboxTrackingFolders"></a> commitment_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [commitment_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_commitment_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -437,6 +438,7 @@ Same as mailboxtrackingfolder entity [commitment_MailboxTrackingFolders](mailbox
 ### <a name="BKMK_userentityinstancedata_commitment"></a> userentityinstancedata_commitment
 
 Same as userentityinstancedata entity [userentityinstancedata_commitment](userentityinstancedata.md#BKMK_userentityinstancedata_commitment) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -451,6 +453,7 @@ Same as userentityinstancedata entity [userentityinstancedata_commitment](useren
 ### <a name="BKMK_commitment_BulkDeleteFailures"></a> commitment_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [commitment_BulkDeleteFailures](bulkdeletefailure.md#BKMK_commitment_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -465,6 +468,7 @@ Same as bulkdeletefailure entity [commitment_BulkDeleteFailures](bulkdeletefailu
 ### <a name="BKMK_commitment_PrincipalObjectAttributeAccesses"></a> commitment_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [commitment_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_commitment_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -479,6 +483,7 @@ Same as principalobjectattributeaccess entity [commitment_PrincipalObjectAttribu
 ### <a name="BKMK_Commitment_Annotation"></a> Commitment_Annotation
 
 Same as annotation entity [Commitment_Annotation](annotation.md#BKMK_Commitment_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|

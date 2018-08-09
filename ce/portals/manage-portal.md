@@ -10,7 +10,7 @@ ms.topic: article
 ms.assetid: 265AE063-1D9C-40DD-AAAF-69EAB848F22F
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -58,16 +58,16 @@ A custom domain can help your customers find your support resources more easily 
 3. Go to **Portal Actions** > **Add a Custom Domain Name**. A wizard opens to choose the SSL certificate.
 
 4. On the **Choose a SSL certificate** page, select one of the following options:
-    - **Upload a new certificate**: Select this option to upload the .pfx file if you have not yet uploaded it to the organization. Select the upload button underneath **File** to select the .pfx file. After selecting the file, enter the password for your SSL certificate in the **Password** field.
-    - **Use an existing certificate**: Select this option to choose the correct certificate from the drop-down list.
+   - **Upload a new certificate**: Select this option to upload the .pfx file if you have not yet uploaded it to the organization. Select the upload button underneath **File** to select the .pfx file. After selecting the file, enter the password for your SSL certificate in the **Password** field.
+   - **Use an existing certificate**: Select this option to choose the correct certificate from the drop-down list.
 
-    > [!Note]
-    > The SSL certificate must meet all the following requirements:
-    > - Signed by a trusted certificate authority
-    > - Exported as a password-protected PFX file
-    > - Contains private key at least 2048 bits long
-    > - Contains all intermediate certificates in the certificate chain
-    > - Must be SHA2 enabled; SHA1 support is being removed from popular browsers
+     > [!Note]
+     > The SSL certificate must meet all the following requirements:
+     > - Signed by a trusted certificate authority
+     > - Exported as a password-protected PFX file
+     > - Contains private key at least 2048 bits long
+     > - Contains all intermediate certificates in the certificate chain
+     > - Must be SHA2 enabled; SHA1 support is being removed from popular browsers
 
 5. Select **Next**.
 
@@ -75,7 +75,7 @@ A custom domain can help your customers find your support resources more easily 
     - **Add a new host name**: Select this option to create a new custom domain. Enter the domain name you want in the **Domain Name** field.
     - **Use an existing host name**: Select this option to choose a host name from the drop-down list. 
    
-   > [!Note] 
+   > [!Note]
    > - You can only have one custom domain name for a portal. 
    > - To create a custom host name, you will need to create a CNAME with your domain provider that points your domain to the URL of your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal. If you have just added a CNAME with your domain provider, it will take some time to propagate to all DNS servers. If the name is not propagated and you add it here, the following error message will appear: "Please add a CNAME record to this domain name." Retry after some time passes.
 

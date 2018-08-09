@@ -28,15 +28,15 @@ Analyze your results and optimize your search queries regularly to make sure you
 > [!NOTE]
 > [!INCLUDE[proc_permissions_social_listening_admin_power_analyst](../includes/proc-permissions-social-listening-admin-power-analyst.md)]  
   
-1.  Go to **Search Setup**.  
+1. Go to **Search Setup**.  
   
-2.  In the list of search topics, find the topic you want to refine and select the list entry.  
+2. In the list of search topics, find the topic you want to refine and select the list entry.  
   
-3.  Review your keywords, inclusions, and exclusions. Add synonyms, alternative spellings, typos, abbreviations, and the singular or plural forms of your terms.  
+3. Review your keywords, inclusions, and exclusions. Add synonyms, alternative spellings, typos, abbreviations, and the singular or plural forms of your terms.  
   
-4.  Click **Save** ![Save button](media/save-icon.png "Save button") to apply your edits and the updated search topic.  
+4. Click **Save** ![Save button](media/save-icon.png "Save button") to apply your edits and the updated search topic.  
   
- Using the updated rules, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] starts searching for posts immediately after you save the changed search topic. You’ll see the first results from the updated rules after a few minutes, when you set the analysis time frame to **Today** in Analytics. To see the newly-acquired posts, open the **Posts** view.  
+   Using the updated rules, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] starts searching for posts immediately after you save the changed search topic. You’ll see the first results from the updated rules after a few minutes, when you set the analysis time frame to **Today** in Analytics. To see the newly-acquired posts, open the **Posts** view.  
   
 > [!NOTE]
 >  When you have updated a search topic, existing posts that matched the former configuration will remain in the database, but your analytics will adapt to the updated configuration. It may take a few hours to reflect the changes in the existing data.  

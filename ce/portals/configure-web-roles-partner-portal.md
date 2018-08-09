@@ -12,7 +12,7 @@ ms.assetid: d16d462a-2a7c-475f-a091-c88789abd75c
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Configure web roles for a partner relationship management (PRM) portal
 
@@ -25,7 +25,7 @@ Web roles for the Partner Relationship Management (PRM) portal grant specific ac
   - Manage partner contact roles Create and edit customer accounts
   - Create and edit customer contacts
   - Create and edit new opportunities
- 
+
 - **Partner manager**: Partner managers are contacts who manage opportunities distributed by the parent company. They are responsible for accepting or rejecting distributed opportunities and sharing accepted opportunities with team members. Partner managers can:
   - View, accept, and reject all distributed opportunities
   - View, manage, and perform actions on all managed opportunities
@@ -55,13 +55,14 @@ You can use partner accounts to keep track of your various partners. We recommen
 ## Assign a permission set to a web role for portals
 Website Access Permissions is a permission set, associated with a web role, that permits front-side editing of the various content managed elements within the portal other than just webpages. The permission settings determine which components can be managed in the portal. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create web roles for portals](create-web-roles.md)  
 
-| Name                         | Description                                                                                                                                                                                                           |
-|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Manage Content Snippets      | Allows the editing of Snippet controls. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customize content by using content snippets](customize-content-snippets.md)                                                                 |  
-| Manage Site Markers          | Allows the editing of hyperlinks that use [sitemarkers](#sitemarkers)                                                                                                                                                 |  
-| Manage Web Link Sets         | Allows the editing of web link sets, including adding and removing web links from a web link set. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage web links in Dynamics 365 or on portals](manage-web-links.md) |  
-| Preview Unpublished Entities | Allows the viewing of portal-exposed entities that have a publishing state of **Draft**.                                                                                                                              |
-||
+
+|             Name             |                                                                                                                   Description                                                                                                                   |
+|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   Manage Content Snippets    |                          Allows the editing of Snippet controls. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customize content by using content snippets](customize-content-snippets.md)                           |
+|     Manage Site Markers      |                                                                                      Allows the editing of hyperlinks that use [sitemarkers](#sitemarkers)                                                                                      |
+|     Manage Web Link Sets     | Allows the editing of web link sets, including adding and removing web links from a web link set. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage web links in Dynamics 365 or on portals](manage-web-links.md) |
+| Preview Unpublished Entities |                                                                            Allows the viewing of portal-exposed entities that have a publishing state of **Draft**.                                                                             |
+|                              |                                                                                                                                                                                                                                                 |
 
 To add website access permission to a web role, just create a new Website Access entity, give it the permission set you want, name it, associate with the website in question, save, and then associate it with the web role(s) you desire.
 

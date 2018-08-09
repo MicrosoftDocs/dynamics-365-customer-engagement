@@ -34,25 +34,25 @@ The *activity feeds* help promote internal collaboration through quick and short
   
  With activity feeds you can easily accomplish important tasks, such as:  
   
--   Share information about users, accounts, leads, and other entity records.  
+- Share information about users, accounts, leads, and other entity records.  
   
--   Receive important updates regarding opportunities, users, or other records.  
+- Receive important updates regarding opportunities, users, or other records.  
   
--   Follow users, accounts, and other records.  
+- Follow users, accounts, and other records.  
   
--   Learn, in a timely manner, about updates regarding users, accounts, or opportunities and items that are related to them.  
+- Learn, in a timely manner, about updates regarding users, accounts, or opportunities and items that are related to them.  
   
--   Take quick actions on specific updates to move your work towards successful completion.  
+- Take quick actions on specific updates to move your work towards successful completion.  
   
- As a developer you can consume and create activity feeds data programmatically. You can integrate activity feeds with other applications, and extend activity feeds to meet the needs of the organization. The following are examples of custom applications that you can build around activity feeds:  
+  As a developer you can consume and create activity feeds data programmatically. You can integrate activity feeds with other applications, and extend activity feeds to meet the needs of the organization. The following are examples of custom applications that you can build around activity feeds:  
   
--   Build full-featured activity feeds clients to complement [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] out-of-the-box client experiences that include Web, Outlook, and Mobile clients. For example, you can develop a desktop client.  
+- Build full-featured activity feeds clients to complement [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] out-of-the-box client experiences that include Web, Outlook, and Mobile clients. For example, you can develop a desktop client.  
   
--   Build surfaces to expose activity feeds data inside other applications, such as [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] or enterprise resource planning (ERP).  
+- Build surfaces to expose activity feeds data inside other applications, such as [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] or enterprise resource planning (ERP).  
   
--   Build custom business logic to create activity feed posts when internal [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] or external events occur. An example of an external event is an invoice creation in an external ERP system.  
+- Build custom business logic to create activity feed posts when internal [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] or external events occur. An example of an external event is an invoice creation in an external ERP system.  
   
--   Perform specific actions when posts are created or deleted. For example, use a workflow to send an email when a post is created.  
+- Perform specific actions when posts are created or deleted. For example, use a workflow to send an email when a post is created.  
   
 > [!NOTE]
 >  In addition to activity feeds, from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] you can directly connect to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], a powerful tool for collaborating in your organization. For more information, see [Connect to Yammer](connect-yammer.md).  

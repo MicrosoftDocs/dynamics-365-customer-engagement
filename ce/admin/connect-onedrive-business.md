@@ -28,20 +28,20 @@ Users can create and manage private documents with [!INCLUDE[pn_onedrive_for_bus
 > [!NOTE]
 >  This topic applies to organizations deploying on-premises versions of [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] and [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] or an online/on-premises mix of these products. For information on integrating [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] online with Dynamics 365 (online), see: [Enable OneDrive for Business](../admin/enable-onedrive-for-business.md).  
   
--   [Set up SharePoint integration with Microsoft Dynamics 365](../admin/set-up-sharepoint-integration.md) and have at least one team site.  
+- [Set up SharePoint integration with Microsoft Dynamics 365](../admin/set-up-sharepoint-integration.md) and have at least one team site.  
   
--   Set up permission on the root [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] team site for all users who will use [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Plan sites and manage users](https://support.office.com/article/Plan-sites-and-manage-users-95F9EB7A-4AC8-4DD5-A883-17686CBF8FFF)  
+- Set up permission on the root [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] team site for all users who will use [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Plan sites and manage users](https://support.office.com/article/Plan-sites-and-manage-users-95F9EB7A-4AC8-4DD5-A883-17686CBF8FFF)  
   
--   For SharePoint on-premises, enable the Search service to access shared documents from other users. It is enabled by default on [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] but not on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and configure a Search service application in SharePoint Server 2013](https://technet.microsoft.com/library/gg502597.aspx)  
+- For SharePoint on-premises, enable the Search service to access shared documents from other users. It is enabled by default on [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] but not on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and configure a Search service application in SharePoint Server 2013](https://technet.microsoft.com/library/gg502597.aspx)  
   
 ## Enable OneDrive for Business  
  You enable [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] as follows:  
   
-1.  Click **Settings** > **Document Management** > **Enable OneDrive for Business**  
+1. Click **Settings** > **Document Management** > **Enable OneDrive for Business**  
   
-2.  Click **Enable OneDrive for Business** to enable it, and then click **OK**.  
+2. Click **Enable OneDrive for Business** to enable it, and then click **OK**.  
   
- **If you’re running [!INCLUDE[pn_SharePoint_Server_short](../includes/pn-sharepoint-server-short.md)] on-premises**, on the Windows Server where [!INCLUDE[pn_SharePoint_Server_short](../includes/pn-sharepoint-server-short.md)] is running, open the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] Management Shell and run the following commands to set up permissions between [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] and [!INCLUDE[pn_microsoft_dynamics_crm_2016_server](../includes/pn-microsoft-dynamics-crm-2016-server.md)].  
+   **If you’re running [!INCLUDE[pn_SharePoint_Server_short](../includes/pn-sharepoint-server-short.md)] on-premises**, on the Windows Server where [!INCLUDE[pn_SharePoint_Server_short](../includes/pn-sharepoint-server-short.md)] is running, open the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] Management Shell and run the following commands to set up permissions between [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] and [!INCLUDE[pn_microsoft_dynamics_crm_2016_server](../includes/pn-microsoft-dynamics-crm-2016-server.md)].  
   
 > [!NOTE]
 >  You might have already set up permissions and can skip the following if you completed the steps in [Configure server-based authentication with Dynamics 365 Online and SharePoint on-premises](../admin/configure-server-based-authentication-sharepoint-on-premises.md).  
@@ -64,16 +64,16 @@ $wellKnownApp.Update()
 ## Controlling access to OneDrive for Business in Dynamics 365 
  You can toggle availability of [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for end users through the **OneDrive for Business** privilege.  
   
-1.  Click **Settings** > **Security** > **Security Roles**  
+1. Click **Settings** > **Security** > **Security Roles**  
   
-2.  Choose a security role, and then click the **Core Records** tab.  
+2. Choose a security role, and then click the **Core Records** tab.  
   
-3.  Under **Miscellaneous Privileges**, toggle the **OneDrive for Business** privilege to the desired availability.  
+3. Under **Miscellaneous Privileges**, toggle the **OneDrive for Business** privilege to the desired availability.  
   
-    > [!NOTE]
-    >  This privilege is visible in the Security Roles dialog only after [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] is enabled.  
+   > [!NOTE]
+   >  This privilege is visible in the Security Roles dialog only after [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] is enabled.  
   
- ![Toggle availability of OneDrive for Business](../admin/media/onedrive-business-privileges.png "Toggle availability of OneDrive for Business")  
+   ![Toggle availability of OneDrive for Business](../admin/media/onedrive-business-privileges.png "Toggle availability of OneDrive for Business")  
   
 ### See also  
  [Set up SharePoint integration with Microsoft Dynamics 365](../admin/set-up-sharepoint-integration.md)   

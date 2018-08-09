@@ -43,7 +43,7 @@ manager: "amyla"
 <tr>
 <td>ActivityTypeMask</td>
 <td>Number</td>
-<td>Whether a custom activity should appear in the activity menus in the Web application. 0 indicates that the custom activity doesn't appear; 1 indicates that it does appear.</td>
+<td>Whether a custom activity should appear in the activity menus in the Web application. 0 indicates that the custom activity doesn&#39;t appear; 1 indicates that it does appear.</td>
 </tr>
 <tr>
 <td>AutoRouteToOwnerQueue</td>
@@ -234,7 +234,7 @@ manager: "amyla"
 <tr>
 <td>OwnershipType</td>
 <td>String</td>
-<td>The ownership type for the entity: "UserOwned" or "OrganizationOwned".</td>
+<td>The ownership type for the entity: &quot;UserOwned&quot; or &quot;OrganizationOwned&quot;.</td>
 </tr>
 <tr>
 <td>PrimaryIdAttribute</td>
@@ -254,7 +254,7 @@ manager: "amyla"
 <tr>
 <td>Privileges</td>
 <td>Array of objects</td>
-<td>The privilege metadata for the entity where *each* object contains the following attributes to define the security privilege for access to an entity:
+<td>The privilege metadata for the entity where <em>each</em> object contains the following attributes to define the security privilege for access to an entity:
 <ul>
 <li><b>CanBeBasic</b>: Boolean. Whether the privilege can be basic access level.</li>
 <li><b>CanBeDeep</b>: Boolean. Whether the privilege can be deep access level.</li>

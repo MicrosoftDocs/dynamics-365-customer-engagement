@@ -2,7 +2,7 @@
 title: "About Unified Interface Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Introducing the new Unified Interface."
 ms.custom: ""
-ms.date: 04/11/2018
+ms.date: 07/04/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,7 +15,7 @@ ms.assetid: 64987a8b-21e4-4c2a-9366-39dabef90bb1
 caps.latest.revision: 21
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
 ---
 # About Unified Interface
 
@@ -79,6 +79,9 @@ When you are provisioning a new Dynamics 365 org, depending on whether you are p
 
 ![Unified Interface apps](media/uci-apps.png "Unified Interface apps")
 
+> [!NOTE]
+> [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] always uses the Unified Interface and is  [provisioned separately](../marketing/trial-signup.md).
+
 ### Accessing Unified Interface apps on browsers
 Once provisioned, you can access the installed Unified Interface and web apps from multiple interfaces. On browsers you can see all the apps both Unified Interface and web: 
 
@@ -110,7 +113,7 @@ In case you have requirements to create your own experience on Unified Interface
 
 ## Capabilities not yet on Unified Interface
 
-There are certain experiences that are currently not available on Unified Interface. We are working to provide these in future releases. We've added an option to switch to classic mode (select ![Settings gear](../basics/media/settings-gear-icon.png "Settings gear")), which enables easy access to missing experiences in the browser.
+There are certain experiences that are currently not available on Unified Interface. We are working to provide these in future releases. We've added an option to switch to classic mode (select ![Settings gear](media/settings-gear-icon.png "Settings gear")), which enables easy access to missing experiences in the browser.
 
 The following are not currently available with Unified Interface:
 
@@ -118,7 +121,7 @@ The following are not currently available with Unified Interface:
 - Bulk edit 
 - Merge records
 - Record sharing
-- All options under **Set Personal Options** (![Settings gear](../basics/media/settings-gear-icon.png "Settings gear"))
+- All options under **Set Personal Options** (![Settings gear](media/settings-gear-icon.png "Settings gear"))
 - Chart drill down 
 - Learning Path
 - Creating personal dashboards and charts
@@ -138,6 +141,29 @@ The following are not currently available with Unified Interface:
 - Position entity 
 - Global notifications
 - Admin experiences 
+- Editable grids on phones 
+
+## Read-only entities on Unified Interface
+
+There are certain entities that are currently read-only on Unified Interface. Users will not be able to make changes to these entity records within an Unified Interface app. We are working to make them editable in future releases.
+
+> [!NOTE]
+> Some entities are being deprecated. Check out [Important changes (deprecations) coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#contracts-contract-line-items-and-contract-templates-entities-are-deprecated).
+
+The following are entities that are currently read-only in Unified Interface:
+
+- EmailSignature
+- Entitlement
+- KnowledgeArticleViews
+- KnowledgeBaseRecord
+- Queue
+- SharePointDocument
+- SharePointSite
+- SLA
+- SLAKPIInstance
+- SystemUser
+- Team
+- Template
 
 ### See also
 [Overview of building model-driven apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)

@@ -1,33 +1,30 @@
 ---
-title: "View resource availability (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
+
+title: View resource availability (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to view resource availability in Project Service
+author: krbjoran
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
 ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics CRM Online"
-author: krbjoran
-ms.assetid: 1e2c7e79-0b04-4966-8829-02c16d62e45d
-caps.latest.revision: 13
 ms.author: krbjoran
-manager: shellyha
----
-# View resource availability (Project Service Automation)
+audience: Admin
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+---
+# View resource availability (Project Service)
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 You can check resource availability to get an overall view of how booked your resources are, or you can filter the view by skills, team, location, and other options.  
   
 > [!NOTE]
 > [!INCLUDE[cc_feature_included_with_2016_update_1](../includes/cc-feature-included-with-2016-update-1.md)]  
->   
+> 
 >  If you are using an newer version, for resource availability see, [Schedule resources for a project (Project Service Automation)](../project-service/schedule-resources-project.md).  
 
 1. Go to **Project Service > Resource Availability**.  

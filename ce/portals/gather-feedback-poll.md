@@ -12,7 +12,7 @@ ms.assetid: 59c7a298-2f82-4de1-96bd-9e5bfd9e7544
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Gather feedback by using polls on a portal
 Polls give your web audiences a quick and easy way to voice their opinion on specific topics, and then immediately and automatically see feedback from their vote.
@@ -21,7 +21,7 @@ Use the polls capability of [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-c
 
 Polls can be placed on the portal by using the PollPlacement control. This control works similarly to the AdPlacement control. If there are any polls associated with the Poll Placement entity that is being rendered by the PollPlacement control, those polls will be rendered. If there is more than one poll for a given placement, the placement will randomly present one of the specified polls.
 
->[!Note]
+> [!Note]
 > Users can vote anonymously. Duplicate votes are not permitted. Basic information about submissions is tracked in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], and users who sign in to the website will have their submissions linked to the Contact entity that tracks that user in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
 ## Add a poll to the page

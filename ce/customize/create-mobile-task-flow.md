@@ -30,36 +30,36 @@ Design a flow in [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express
   
     #### Check your security role  
   
-    1. [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   1. [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-    2. [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+   2. [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_processes](../includes/proc-settings-processes.md)]  
   
-3.  On the **Actions** toolbar, click **New**.  
+3. On the **Actions** toolbar, click **New**.  
   
-4.  In the **Create Process** dialog box, complete the required fields:  
+4. In the **Create Process** dialog box, complete the required fields:  
   
-    -   Enter a process name.  
+   -   Enter a process name.  
   
-    -   In the **Category** list, select **Business Process Flow**.  
+   -   In the **Category** list, select **Business Process Flow**.  
   
-    -   In the **Entity** list, select the entity you want.  
+   -   In the **Entity** list, select the entity you want.  
   
-5.  Click the **Run process as a task flow (Mobile online)** option.  
+5. Click the **Run process as a task flow (Mobile online)** option.  
   
 6. [!INCLUDE[proc_click_or_tap_ok](../includes/proc-click-or-tap-ok.md)]  
   
      The task flow designer opens in a new window.  
   
- ![Task flow designer window](../customize/media/task-flow-designer-window.png "Task flow designer window")  
+   ![Task flow designer window](../customize/media/task-flow-designer-window.png "Task flow designer window")  
   
-7.  If your users will progress from one page to another in order, drag the **Page** component from the **Components** tab on the right side of the screen and drop it on the + sign in the appropriate spot. To add a name for a page, click the page, click the **Properties** tab, type a new name, and then click **Apply**.  
+7. If your users will progress from one page to another in order, drag the **Page** component from the **Components** tab on the right side of the screen and drop it on the + sign in the appropriate spot. To add a name for a page, click the page, click the **Properties** tab, type a new name, and then click **Apply**.  
   
-8.  To add a branch to the task flow, drag the **Condition** component from the **Components** tab and drop it on the + sign in the appropriate spot. To set properties for the condition, click the condition, set the properties in the **Properties** tab, and then click **Apply**.  
+8. To add a branch to the task flow, drag the **Condition** component from the **Components** tab and drop it on the + sign in the appropriate spot. To set properties for the condition, click the condition, set the properties in the **Properties** tab, and then click **Apply**.  
   
-    > [!NOTE]
-    >  As you add pages and conditions to the task flow, you'll see a minimap in the lower-left corner of the window that shows all the pages and conditions in the task flow.  
+   > [!NOTE]
+   >  As you add pages and conditions to the task flow, you'll see a minimap in the lower-left corner of the window that shows all the pages and conditions in the task flow.  
   
 9. To add a field, label,  or section label  to a page, drag **Field**, **Label**, or **Section Label** from the **Components** tab to the appropriate page. To change the properties for one of these items, click the item, set the properties in the **Properties** tab, and then click **Apply**.  
   

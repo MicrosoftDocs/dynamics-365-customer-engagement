@@ -669,6 +669,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_NewProcess_ProcessSessions"></a> NewProcess_ProcessSessions
 
 Same as processsession entity [NewProcess_ProcessSessions](processsession.md#BKMK_NewProcess_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -683,6 +684,7 @@ Same as processsession entity [NewProcess_ProcessSessions](processsession.md#BKM
 ### <a name="BKMK_lk_newprocess_workflowlogs"></a> lk_newprocess_workflowlogs
 
 Same as workflowlog entity [lk_newprocess_workflowlogs](workflowlog.md#BKMK_lk_newprocess_workflowlogs) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|workflowlog|
@@ -697,6 +699,7 @@ Same as workflowlog entity [lk_newprocess_workflowlogs](workflowlog.md#BKMK_lk_n
 ### <a name="BKMK_NewProcess_SyncErrors"></a> NewProcess_SyncErrors
 
 Same as syncerror entity [NewProcess_SyncErrors](syncerror.md#BKMK_NewProcess_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|

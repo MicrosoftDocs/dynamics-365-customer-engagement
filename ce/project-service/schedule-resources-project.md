@@ -1,27 +1,24 @@
 ---
-title: "Schedule resources for a project (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
+
+title: Schedule resources for a project (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to schedule resources for a project in Project Service
+author: krbjoran
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 07/19/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
 ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.assetid: 224c13f6-04f4-4f16-83b2-80212c8c4795
-caps.latest.revision: 12
 ms.author: krbjoran
-manager: shellyha
----
-# Schedule resources for a project (Project Service Automation)
+audience: Admin
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+---
+# Schedule resources for a project (Project Service)
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 You can check resource availability to get an overall view of how booked your resources are, or you can filter the view by skills, team, location, and other options.  
   
@@ -30,15 +27,15 @@ You can check resource availability to get an overall view of how booked your re
  Before you use the schedule board, it’s important to set it up. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure the schedule board (Field Service or Project Service Automation)](../field-service/configure-schedule-board.md)  
   
 >  If you are using an older version, for resource availability see, [View resource availability](../project-service/view-resource-availability.md).  
-  
+> 
 > [!IMPORTANT]
 >  To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps.  
->   
->  1.  From the main menu, click **Resource Scheduling** > **Administration**.  
-> 2.  Click **Scheduling parameters**.  
-> 3.  Open record and scroll down to the **Resource Scheduling Optimization** section.  
-> 4.  On the **Connect to Maps** field, choose **Yes**.  
-> 5.  Accept terms and save the record.  
+> 
+> 1. From the main menu, click **Resource Scheduling** > **Administration**.  
+>    2.  Click **Scheduling parameters**.  
+>    3.  Open record and scroll down to the **Resource Scheduling Optimization** section.  
+>    4.  On the **Connect to Maps** field, choose **Yes**.  
+>    5.  Accept terms and save the record.  
   
 <a name="BKMK_ScheduleWOManually"></a>   
 1.  From the Main menu, click **Project Service** > **Schedule board**. From here, there are several ways to manually schedule a booking requirement. Choose the method that works for you.

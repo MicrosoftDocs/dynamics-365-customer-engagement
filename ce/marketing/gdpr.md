@@ -56,7 +56,7 @@ To help you with consent management and other GDPR related workloads, [!INCLUDE[
 - A default collection of hierarchical consent levels is provided out of the box, where higher levels of consent include lower levels.
 - Contact records include a field that stores the level of consent each contact has granted your organization.
 - You can configure each customer journey to only process contacts that have given a minimum-required level of consent.
--  You can configure each lead-scoring model to only compute scores for leads associated with contacts that have given a minimum-required level of consent.
+- You can configure each lead-scoring model to only compute scores for leads associated with contacts that have given a minimum-required level of consent.
 - You can create marketing pages with marketing forms that encourage contacts to grant a level of consent while being unambiguously informed. The consent is stored in each contact's record.
 - You’ll be able to use various mechanics in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to extract all information related to a specific contact and share relevant information with that contact when requested.
 - You'll be able to use mechanics to have [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] "forget" (delete) all information about a specific contact when requested.
@@ -139,6 +139,14 @@ A subscription center is probably the best place to enable contacts to confirm a
 - Create a marketing page of type subscription-center that includes that form.
 
 You can now create a marketing email message that includes a link to your subscription-center page. Make sure your page explains why granting consent is important and how it offers value to the individual.
+
+<!--
+## Set up double opt-in to confirm changes in consent level and subscriptions
+
+To fully comply with the GDPR (and other common regulations), you must set up the double opt-in system. Double opt-in uses email messaging to ensure that all requests to change a contact's consent level or add a subscription were made on purpose by a person who can read that contact's email.
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up double opt-in for new subscriptions and consent changes](double-opt-in.md) 
+-->
 
 ## An example of how to support data requests from your marketing audience
 
@@ -235,4 +243,4 @@ This feature is part of the standard functionality of [!INCLUDE[pn-dynamics-365]
 [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)  
 [Manage customer information](manage-customer-information.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
-[Set up a subscription center](set-up-subscription-center.md)
+[Set up a subscription center](set-up-subscription-center.md)  

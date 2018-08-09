@@ -1,6 +1,7 @@
 # [Dynamics 365 for Marketing](help-hub.md)
 
 ## [Overview](overview.md)
+## [Marketing videos](marketing-videos.md)
  
 ## [Administrator Guide](admin-guide.md)
 
@@ -28,10 +29,12 @@
 #### [Manage sample data](additional-settings.md)
 #### [Quota management](quota-management.md)
 
+### Privacy and compliance
+#### [Data protection and GDPR](gdpr.md)
+#### [How the app uses cookies](cookies.md)
+
 ### [Customize Marketing](customize.md)
-### [Data protection and GDPR](gdpr.md)
-### [How the app uses cookies](cookies.md)
-### [Administration FAQ](setup-troubleshooting.md)
+### [Administration and setup FAQ](setup-troubleshooting.md)
 
 ## [User Guide](user-guide.md)
 
@@ -63,11 +66,13 @@
 
 ### Create marketing emails and pages
 #### [Design your digital content](design-digital-content.md)
-#### [Prepare marketing email messages](prepare-marketing-emails.md)
-#### [Work with email templates](email-templates.md)
-#### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
-#### [Upload and use images and files](upload-images-files.md)
 #### [Content blocks reference](content-blocks-reference.md)
+#### [Upload and use images and files](upload-images-files.md)
+#### [Prepare marketing email messages](prepare-marketing-emails.md)
+#### [Add dynamic content to email messages](dynamic-email-content.md)
+#### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
+#### [Work with email, page, and form templates](email-templates.md)
+#### [Use custom attributes to enable designer features](custom-template-attributes.md)
 
 ### Segmentation and customer journeys
 #### [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
@@ -82,6 +87,9 @@
 
 ### [Event planning and management](event-management.md)
 #### [Set up an event](set-up-event.md)
+#### [Set up and manage an event waitlist](event-waitlist.md)
+#### [Create and manage recurring events](event-recurring.md)
+#### [Create and use event templates](event-templates.md)
 #### [Event management dashboard](event-management-dashboard.md)
 #### [Set up a webinar](set-up-webinar.md)
 #### [Manage event sponsorships](manage-event-sponsorships.md)
@@ -96,6 +104,7 @@
 #### [Engage customers online with portals](portals.md)
 #### [Create and run online surveys](surveys.md)
 
+### [Go live with publishable entities and track their status](go-live.md)
 ### [Analyze results to gain insights](insights.md)
 
 ## [Developer Guide](developer/marketing-developer-guide.md)

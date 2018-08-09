@@ -26,9 +26,9 @@ One of the main reasons people use [!INCLUDE[pn_microsoftcrm](../includes/pn-mic
    
   
 > [!IMPORTANT]
-> -   In previous versions of Dynamics CRM, you could also use the Email Router to synchronize records. The Email Router has been deprecated as of the [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)].  We strongly recommend that you migrate all email routing functionality to use  server-side synchronization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Migrate settings from the Email Router to server-side synchronization](../admin/migrate-settings-email-router-server-side-synchronization.md)  
-> -   Internet Message Access Protocol (IMAP) email servers are not currently supported by server-side synchronization or the Email Router.  
-> -   As of 1/29/2018, based on overwhelming customer feedback and our desire to continue supporting our customers, we have **decided not to deprecate [!INCLUDE[pn-crm-2016-outlook-shortest](../includes/pn-crm-2016-outlook-shortest.md)]** ([!INCLUDE[pn-outlook](../includes/pn-outlook.md)] add-in). Please read [this blog post](https://blogs.msdn.microsoft.com/crm/2018/01/29/continued-support-for-outlook-add-in-dynamics-365-for-outlook/) for more details.
+> - In previous versions of Dynamics CRM, you could also use the Email Router to synchronize records. The Email Router has been deprecated as of the [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)].  We strongly recommend that you migrate all email routing functionality to use  server-side synchronization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Migrate settings from the Email Router to server-side synchronization](../admin/migrate-settings-email-router-server-side-synchronization.md)  
+> - Internet Message Access Protocol (IMAP) email servers are not currently supported by server-side synchronization or the Email Router.  
+> - As of 1/29/2018, based on overwhelming customer feedback and our desire to continue supporting our customers, we have **decided not to deprecate [!INCLUDE[pn-crm-2016-outlook-shortest](../includes/pn-crm-2016-outlook-shortest.md)]** ([!INCLUDE[pn-outlook](../includes/pn-outlook.md)] add-in). Please read [this blog post](https://blogs.msdn.microsoft.com/crm/2018/01/29/continued-support-for-outlook-add-in-dynamics-365-for-outlook/) for more details.
   
 <a name="ServerSideSync"></a>  
  
@@ -44,13 +44,13 @@ One of the main reasons people use [!INCLUDE[pn_microsoftcrm](../includes/pn-mic
   
 - **Enables multiple scenarios, including hybrid scenarios**. You can use server-side synchronization to connect:  
   
-    - [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] to [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]  
+  - [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] to [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]  
   
-    - [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] to [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises)  
+  - [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] to [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises)  
   
-    - [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Server (on-premises) to [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises)  
+  - [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Server (on-premises) to [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises)  
   
-    - [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Server (on-premises) to [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]  
+  - [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Server (on-premises) to [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]  
   
 - **Synchronize appointments, contacts, and tasks**. In addition to email, you can synchronize [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] appointments, contacts, and tasks.  
   

@@ -32,7 +32,7 @@ manager: "amyla"
 <td>entityLogicalName</td>
 <td>String</td>
 <td>Yes</td>
-<td>Logical name of the entity. For example: "account".</td>
+<td>Logical name of the entity. For example: &quot;account&quot;.</td>
 </tr>
 
 </table>

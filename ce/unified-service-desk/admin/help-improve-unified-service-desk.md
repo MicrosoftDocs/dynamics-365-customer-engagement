@@ -91,7 +91,7 @@ Configuring and setting the value of the Global Option: `HelpImproveUSD` to `FAL
 > 1. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**.
 > 2. Select **HelpImproveUSD** checkbox.
 > 3. Click **Deactivate** in the toolbar.
-
+> 
 > [!Note]
 > If you delete the **HelpImproveUSD** global option from the UII options page, the data collection is enabled and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sends information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]
   

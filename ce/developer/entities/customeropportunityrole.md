@@ -707,6 +707,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_CustomerOpportunityRole_SyncErrors"></a> CustomerOpportunityRole_SyncErrors
 
 Same as syncerror entity [CustomerOpportunityRole_SyncErrors](syncerror.md#BKMK_CustomerOpportunityRole_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -721,6 +722,7 @@ Same as syncerror entity [CustomerOpportunityRole_SyncErrors](syncerror.md#BKMK_
 ### <a name="BKMK_CustomerOpportunityRole_AsyncOperations"></a> CustomerOpportunityRole_AsyncOperations
 
 Same as asyncoperation entity [CustomerOpportunityRole_AsyncOperations](asyncoperation.md#BKMK_CustomerOpportunityRole_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -735,6 +737,7 @@ Same as asyncoperation entity [CustomerOpportunityRole_AsyncOperations](asyncope
 ### <a name="BKMK_customeropportunityrole_MailboxTrackingFolders"></a> customeropportunityrole_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [customeropportunityrole_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_customeropportunityrole_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -749,6 +752,7 @@ Same as mailboxtrackingfolder entity [customeropportunityrole_MailboxTrackingFol
 ### <a name="BKMK_userentityinstancedata_customeropportunityrole"></a> userentityinstancedata_customeropportunityrole
 
 Same as userentityinstancedata entity [userentityinstancedata_customeropportunityrole](userentityinstancedata.md#BKMK_userentityinstancedata_customeropportunityrole) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -763,6 +767,7 @@ Same as userentityinstancedata entity [userentityinstancedata_customeropportunit
 ### <a name="BKMK_CustomerOpportunityRole_ProcessSessions"></a> CustomerOpportunityRole_ProcessSessions
 
 Same as processsession entity [CustomerOpportunityRole_ProcessSessions](processsession.md#BKMK_CustomerOpportunityRole_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -777,6 +782,7 @@ Same as processsession entity [CustomerOpportunityRole_ProcessSessions](processs
 ### <a name="BKMK_CustomerOpportunityRole_BulkDeleteFailures"></a> CustomerOpportunityRole_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [CustomerOpportunityRole_BulkDeleteFailures](bulkdeletefailure.md#BKMK_CustomerOpportunityRole_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -791,6 +797,7 @@ Same as bulkdeletefailure entity [CustomerOpportunityRole_BulkDeleteFailures](bu
 ### <a name="BKMK_customeropportunityrole_PrincipalObjectAttributeAccesses"></a> customeropportunityrole_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [customeropportunityrole_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_customeropportunityrole_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

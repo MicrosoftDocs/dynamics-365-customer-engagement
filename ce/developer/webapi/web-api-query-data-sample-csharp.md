@@ -20,41 +20,42 @@ ms.author: "jdaly"
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 This sample demonstrates how to perform basic query requests using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API with C#.  
-  
+
 > [!NOTE]
 >  This sample implements the Dynamics 365 operations and console output detailed in [Web API Query Data Sample](web-api-query-data-sample.md) and uses the common C# constructs described in [Web API Samples (C#)](web-api-samples-csharp.md).  
-  
+
 <a name="bkmk_prerequisites"></a>   
 ## Prerequisites  
  Prerequisites for all Dynamics 365 Web API C# samples are detailed in the [Prerequisites](web-api-samples-csharp.md#bkmk_prerequisites) section of the parent topic [Web API Samples (C#)](web-api-samples-csharp.md).  
-  
+
 <a name="bkmk_runSample"></a>   
 ## Run this sample  
  First go to [Microsoft CRM Web API Query Data Sample (C#)](http://go.microsoft.com/fwlink/p/?LinkId=824049), download the sample archive file, Microsoft CRM Web API Query Data Sample (CS).zip, and extract its contents into a local folder. This folder should contain the following files:  
-  
-|File|Purpose/Description|  
-|----------|--------------------------|  
-|Program.cs|Contains the primary source code for this sample.|  
-|App.config|The application configuration file, which contains placeholder Dynamics 365 server connection information.|  
-|Authentication.cs<br />Configuration.cs<br />Exceptions.cs|Located in the folder **Web API Helper Code**, these files comprise the supplemental library detailed in [Use the Dynamics 365 Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md).|  
-|QueryData.sln <br />QueryData.csproj <br />Packages.config <br />AssemblyInfo.cs|The standard [!INCLUDE[pn_microsoft_visual_studio_2015](../../includes/pn-microsoft-visual-studio-2015.md)] solution, project, NuGet package configuration, and assembly information files for this sample.|  
-  
+
+
+|                                       File                                       |                                                                                                    Purpose/Description                                                                                                    |
+|----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                    Program.cs                                    |                                                                                     Contains the primary source code for this sample.                                                                                     |
+|                                    App.config                                    |                                                        The application configuration file, which contains placeholder Dynamics 365 server connection information.                                                         |
+|            Authentication.cs<br />Configuration.cs<br />Exceptions.cs            | Located in the folder **Web API Helper Code**, these files comprise the supplemental library detailed in [Use the Dynamics 365 Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md). |
+| QueryData.sln <br />QueryData.csproj <br />Packages.config <br />AssemblyInfo.cs |        The standard [!INCLUDE[pn_microsoft_visual_studio_2015](../../includes/pn-microsoft-visual-studio-2015.md)] solution, project, NuGet package configuration, and assembly information files for this sample.        |
+
  Next, use the following procedure to run this sample.  
-  
-1.  Locate and double-click on the solution file, QueryData.sln, to load the solution into [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)]. Build the **QueryData** solution.  This should automatically download and install all the required NuGet packages that are either missing or need to be updated.  
-  
-2.  Edit the application configuration file, App.config, to specify connection information for your Dynamics 365 server.  For more information, see [Helper code: Configuration classes](web-api-helper-code-configuration-classes.md).  
-  
-3.  Run the **QueryData** project from within [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].  All sample solutions are configured to run in debug mode by default.  
-  
+
+1. Locate and double-click on the solution file, QueryData.sln, to load the solution into [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)]. Build the **QueryData** solution.  This should automatically download and install all the required NuGet packages that are either missing or need to be updated.  
+
+2. Edit the application configuration file, App.config, to specify connection information for your Dynamics 365 server.  For more information, see [Helper code: Configuration classes](web-api-helper-code-configuration-classes.md).  
+
+3. Run the **QueryData** project from within [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].  All sample solutions are configured to run in debug mode by default.  
+
 <a name="bkmk_codeListing"></a>   
 ## Code listing  
  The most current source for this file  is found in sample download package.  
-  
+
  `Program.cs`  
-  
+
 ```csharp  
-  
+
 using Microsoft.Crm.Sdk.Samples.HelperCode;  
 using Newtonsoft.Json;  
 using Newtonsoft.Json.Linq;  
@@ -66,7 +67,7 @@ using System.Collections.Generic;
 using System.Net.Http;  
 using System.Net.Http.Headers;  
 using System.Threading.Tasks;  
-  
+
 namespace Microsoft.Crm.Sdk.Samples  
 {  
     /// <summary>  
@@ -99,7 +100,7 @@ namespace Microsoft.Crm.Sdk.Samples
         // contact1 represents 'Yvonne McKey (sample)'.  
         JObject account1, contact1;  
         string account1Uri, contact1Uri;  
-  
+
         /// <summary> Contains primary Web API code for the sample. </summary>  
         public async Task RunAsync()  
         {  
@@ -110,7 +111,7 @@ namespace Microsoft.Crm.Sdk.Samples
             string[] taskProperties = { "subject", "description" };  
             HttpRequestMessage request;  
             HttpResponseMessage response;  
-  
+
             #region Selecting specific properties  
             // Basic query: Query using $select against a contact entity to get the properties you want.  
             // For performance best practice, always use $select, otherwise all properties are returned.  
@@ -131,7 +132,7 @@ namespace Microsoft.Crm.Sdk.Samples
             else  
             { throw new CrmHttpResponseException(response.Content); }  
             #endregion Selecting specific properties  
-  
+
             #region Using query functions  
             // Filter criteria:  
             // Applying filters to get targeted data.  
@@ -142,7 +143,7 @@ namespace Microsoft.Crm.Sdk.Samples
             // For more info, see: https://msdn.microsoft.com/en-us/library/gg334767.aspx#bkmk_filter  
             Console.WriteLine("-- Filter Criteria --");  
             JObject collection;  
-  
+
             //Filter 1: Using standard query functions to filter results.  In this operation, we   
             //will query for all contacts with fullname containing the string "(sample)".  
             string filter = @"&$filter=contains(fullname,'(sample)')";  
@@ -156,7 +157,7 @@ namespace Microsoft.Crm.Sdk.Samples
             }  
             else  
             { throw new CrmHttpResponseException(response.Content); }  
-  
+
             //Filter 2: Using CRM query functions to filter results. In this operation, we will query  
             //for all contacts that were created in the last hour. For complete list of CRM query    
             //functions, see: https://msdn.microsoft.com/en-us/library/mt607843.aspx  
@@ -171,7 +172,7 @@ namespace Microsoft.Crm.Sdk.Samples
             }  
             else  
             { throw new CrmHttpResponseException(response.Content); }  
-  
+
             //Filter 3: Using operators. Building on the previous operation, we further limit  
             //the results by the contact's income. For more info on standard filter operators,   
             //https://msdn.microsoft.com/en-us/library/gg334767.aspx#bkmk_filter  
@@ -186,7 +187,7 @@ namespace Microsoft.Crm.Sdk.Samples
             }  
             else  
             { throw new CrmHttpResponseException(response.Content); }  
-  
+
             //Filter 4: Set precedence using parenthesis. Continue building on the previous   
             //operation, we further limit results by job title. Parenthesis and the order of   
             //filter statements can impact results returned.  
@@ -203,7 +204,7 @@ namespace Microsoft.Crm.Sdk.Samples
             else  
             { throw new CrmHttpResponseException(response.Content); }  
             #endregion Using query functions  
-  
+
             #region Ordering and aliases  
             //Results can be ordered in descending or ascending order.  
             Console.WriteLine("\n-- Order Results --");  
@@ -218,7 +219,7 @@ namespace Microsoft.Crm.Sdk.Samples
             }  
             else  
             { throw new CrmHttpResponseException(response.Content); }  
-  
+
             //Parameterized aliases can be used as parameters in a query. These parameters can be used   
             //in $filter and $orderby options. Using the previous operation as basis, parameterizing the   
             //query will give us the same results. For more info, see:   
@@ -237,7 +238,7 @@ namespace Microsoft.Crm.Sdk.Samples
             else  
             { throw new CrmHttpResponseException(response.Content); }  
             #endregion Ordering and aliases  
-  
+
             #region Limit results  
             //To limit records returned, use the $top query option.  Specifying a limit number for $top   
             //returns at most that number of results per request. Extra results are ignored.  
@@ -253,7 +254,7 @@ namespace Microsoft.Crm.Sdk.Samples
             }  
             else  
             { throw new CrmHttpResponseException(response.Content); }  
-  
+
             //Result count - count the number of results matching the filter criteria.  
             //Tip: Use count together with the "odata.maxpagesize" to calculate the number of pages in  
             //the query.  Note: CRM has a max record limit of 5000 records per response.  
@@ -269,7 +270,7 @@ namespace Microsoft.Crm.Sdk.Samples
             }  
             else  
             { throw new CrmHttpResponseException(response.Content); }  
-  
+
             //  2) Get a count along with the data.  
             filter = "&$filter=contains(jobtitle,'senior') or contains(jobtitle, 'manager')&$count=true";  
             queryOptions = "?$select=" + String.Join(",", contactProperties) + filter;  
@@ -284,7 +285,7 @@ namespace Microsoft.Crm.Sdk.Samples
             }  
             else  
             { throw new CrmHttpResponseException(response.Content); }  
-  
+
             //Pagination: for large data sets, you can limit the number of records returned per page, then  
             //offer a "next page" and "previous page" links for users to browse through all the data.  
             //Note: Typically you do no use $top with maxpagesize because it prevents you from accessing    
@@ -322,7 +323,7 @@ namespace Microsoft.Crm.Sdk.Samples
             else  
             { throw new CrmHttpResponseException(response.Content); }  
             #endregion Limit results  
-  
+
             #region Expanding results  
             //The expand option retrieves related information.    
             //To retrieve information on associated entities in the same request, use the $expand   
@@ -335,7 +336,7 @@ namespace Microsoft.Crm.Sdk.Samples
             // Tip: For performance best practice, always use $select statement in an expand option.  
             Console.WriteLine("\n-- Expanding Results --");  
             string expand;  //expansion portion of query  
-  
+
             //1) Expand using the 'primarycontactid' single-valued navigation property of account1.  
             expand = "&$expand=primarycontactid($select=" + String.Join(",", contactProperties) + ")";  
             queryOptions = "?$select=" + String.Join(",", accountProperties) + expand;  
@@ -353,7 +354,7 @@ namespace Microsoft.Crm.Sdk.Samples
             }  
             else  
             { throw new CrmHttpResponseException(response.Content); }  
-  
+
             //2) Expand using the 'account_primary_contact' partner property.  
             expand = "&$expand=account_primary_contact($select=" + String.Join(",", accountProperties) + ")";  
             queryOptions = "?$select=" + String.Join(",", contactProperties) + expand;  
@@ -368,7 +369,7 @@ namespace Microsoft.Crm.Sdk.Samples
             }  
             else  
             { throw new CrmHttpResponseException(response.Content); }  
-  
+
             //3) Expand using the collection-valued 'contact_customer_accounts' navigation property.   
             expand = "&$expand=contact_customer_accounts($select=" + String.Join(",", contactProperties) + ")";  
             queryOptions = "?$select=" + String.Join(",", accountProperties) + expand;  
@@ -382,7 +383,7 @@ namespace Microsoft.Crm.Sdk.Samples
             }  
             else  
             { throw new CrmHttpResponseException(response.Content); }  
-  
+
             //4) Expand using multiple navigation property types in a single request, specifically:  
             //   primiarycontactid, contact_customer_accounts, and Account_Tasks.  
             Console.WriteLine("\n-- Expanding multiple property types in one request -- ");  
@@ -401,7 +402,7 @@ namespace Microsoft.Crm.Sdk.Samples
                     account["primarycontactid"]["fullname"],  
                     account["primarycontactid"]["jobtitle"],  
                     account["primarycontactid"]["annualincome"]);  
-  
+
                 //Output each collection separately.  
                 label = "Account '" + account["name"] + "' has the following related contacts:";  
                 DisplayFormattedEntities(label, (JArray)account["contact_customer_accounts"], contactProperties);  
@@ -411,7 +412,7 @@ namespace Microsoft.Crm.Sdk.Samples
             else  
             { throw new CrmHttpResponseException(response.Content); }  
             #endregion Expanding results  
-  
+
             #region FetchXML queries  
             //Use FetchXML to query for all contacts whose fullname contains '(sample)'.  
             //Note: XML string must be URI encoded. For more information, see:   
@@ -441,13 +442,13 @@ namespace Microsoft.Crm.Sdk.Samples
             else  
             { throw new CrmHttpResponseException(response.Content); }  
             #endregion FetchXML queries  
-  
+
             #region Using predefined queries  
             //Use predefined queries of the following two types:  
             //  1) Saved query (system view)  
             //  2) User query (saved view)  
             //For more info, see: https://msdn.microsoft.com/en-us/library/mt607533.aspx  
-  
+
             //1) Saved Query - retrieve "Active Accounts", run it, then display the results.  
             Console.WriteLine("\n-- Saved Query -- ");  
             filter = "&$filter=name eq 'Active Accounts'";  
@@ -473,11 +474,11 @@ namespace Microsoft.Crm.Sdk.Samples
             }  
             else  
             { throw new CrmHttpResponseException(response.Content); }  
-  
+
             //2) Create a user query, then retrieve and execute it to display its results.  
             //For more info, see: https://msdn.microsoft.com/en-us/library/gg509053.aspx  
             Console.WriteLine("\n-- User Query -- ");  
-  
+
             string userQueryRep = "{ " +  
               "\"name\": \"My User Query\", " +  
               "\"description\": \"User query to display contact info.\", " +  
@@ -499,14 +500,14 @@ namespace Microsoft.Crm.Sdk.Samples
                 "</entity>" +  
               "</fetch>\"" +  
               "}";  
-  
+
             //Create the user query on server.  
             request = new HttpRequestMessage(HttpMethod.Post, "userqueries");  
             request.Content = new StringContent(userQueryRep, Encoding.UTF8, "application/json");  
             response = await httpClient.SendAsync(request);  
             if (response.StatusCode != HttpStatusCode.NoContent) //200  
             { throw new CrmHttpResponseException(response.Content); }  
-  
+
             //Retrieve this new user query.  
             string userQueryId;  
             filter = "&$filter=name eq 'My User Query'";  
@@ -522,7 +523,7 @@ namespace Microsoft.Crm.Sdk.Samples
             }  
             else  
             { throw new CrmHttpResponseException(response.Content); }  
-  
+
             //Finally, execute retrieved query and display results.  
             response = await SendCrmRequestAsync(HttpMethod.Get, "contacts?userQuery=" + userQueryId, true);  
             if (response.StatusCode == HttpStatusCode.OK) //200  
@@ -534,7 +535,7 @@ namespace Microsoft.Crm.Sdk.Samples
             { throw new CrmHttpResponseException(response.Content); }  
             #endregion Using predefined queries  
         }  
-  
+
         /// <summary> Creates the CRM entity instances used by this sample. </summary>  
         /// <remarks> Using deep insert, this method creates the following set of related  
         ///  records in one request.  
@@ -658,7 +659,7 @@ namespace Microsoft.Crm.Sdk.Samples
             }  
             else  
             { throw new CrmHttpResponseException(response.Content); }  
-  
+
             //Retrieve primary contact record and uri.  Most of the subsequent queries are   
             //performed using this contact.  
             string uri = account1Uri + "/primarycontactid/$ref";  //Retrieve the account URI only.  
@@ -674,7 +675,7 @@ namespace Microsoft.Crm.Sdk.Samples
             else  
             { throw new CrmHttpResponseException(response.Content); }  
         }  
-  
+
         static void Main(string[] args)  
         {  
             QueryData app = new QueryData();  
@@ -699,7 +700,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 Console.ReadLine();  
             }  
         }  
-  
+
         /// <summary>  
         /// Obtains the connection information from the application's configuration file,  
         /// then uses this info to connect to the specified CRM service.  
@@ -727,7 +728,7 @@ namespace Microsoft.Crm.Sdk.Samples
             httpClient.DefaultRequestHeaders.Accept.Add(  
                 new MediaTypeWithQualityHeaderValue("application/json"));  
         }  
-  
+
         /// <summary> Deletes the CRM entity instance sample data created by this sample. </summary>  
         /// <param name="prompt">True to prompt the user for confirmation and display results;   
         ///   otherwise False to execute silently.</param>  
@@ -770,7 +771,7 @@ namespace Microsoft.Crm.Sdk.Samples
             { Console.WriteLine("Deleted {0} records!", successCnt); }  
             return successCnt;  
         }  
-  
+
         ///<summary> Sends an HTTP request to the current CRM service. </summary>  
         ///<param name="method">The HTTP method to invoke</param>  
         ///<param name="query">The HTTP query to execute (base URL is provided by client)</param>  
@@ -787,7 +788,7 @@ namespace Microsoft.Crm.Sdk.Samples
                     "odata.include-annotations=OData.Community.Display.V1.FormattedValue");  
             return await httpClient.SendAsync(request);  
         }  
-  
+
         ///<summary> Sends an HTTP message containing a JSON payload to the target URL. </summary>  
         ///<typeparam name="T">Type of the data to send in the message content (payload)</typeparam>  
         ///<param name="client">A preconfigured HTTP client</param>  
@@ -812,7 +813,7 @@ namespace Microsoft.Crm.Sdk.Samples
             request.Content.Headers.ContentType = MediaTypeHeaderValue.Parse("application/json");  
             return await client.SendAsync(request);  
         }  
-  
+
         /// <summary> Displays formatted entity collections to the console. </summary>  
         /// <param name="label">Descriptive text output before collection contents </param>  
         /// <param name="collection"> JObject containing array of entities to output by property </param>  
@@ -857,7 +858,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 DisplayFormattedEntities(label, singleton, properties);  
             }  
         }  
-  
+
         /// <summary> Displays exception information to the console. </summary>  
         /// <param name="ex">The exception to output</param>  
         private static void DisplayException(Exception ex)  
@@ -872,9 +873,9 @@ namespace Microsoft.Crm.Sdk.Samples
         }  
     }  
 }  
-  
+
 ```  
-  
+
 ### See also  
  [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Query Data using the Web API](query-data-web-api.md)   

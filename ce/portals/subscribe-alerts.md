@@ -12,7 +12,7 @@ ms.assetid: 1d0b49f7-46ce-4598-bb0f-aa7f8218a92c
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Subscribe to alerts
 
@@ -64,12 +64,13 @@ Although the portal is the primary source for creating or removing alerts. Forum
 
 The table below explains many of the Forum Alert attributes used by portals.
 
-| Name            | Description                                                                                                                           |
-|-----------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Subscriber      | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Contact record of the portal user that is to receive a notification when posts are created in the associated thread. |
-| Thread          | The forum thread that is being subscribed to notification of newly created posts.                                                     |
-| Expiration Date | The date and time when notifications should stop.                                                                                     |
-||
+
+|      Name       |                                                                                     Description                                                                                      |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   Subscriber    | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Contact record of the portal user that is to receive a notification when posts are created in the associated thread. |
+|     Thread      |                                                  The forum thread that is being subscribed to notification of newly created posts.                                                   |
+| Expiration Date |                                                                  The date and time when notifications should stop.                                                                   |
+|                 |                                                                                                                                                                                      |
 
 ### See also
 

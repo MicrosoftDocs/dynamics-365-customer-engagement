@@ -28,13 +28,13 @@ Follow these steps to deploy the solution and enable users to use the accessible
 
 **Install the app**
 
-1.  [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator or delegated admin security roles.  
+1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator or delegated admin security roles.  
   
-2.  Select **Admin centers** > **Dynamics 365**.  
+2. Select **Admin centers** > **Dynamics 365**.  
 
-3.  Select the **Instances** tab, select the instance to add the app to, and then select **Manage your solutions** ![Manage your solutions](media/manage-solution.png "Manage your solutions").
+3. Select the **Instances** tab, select the instance to add the app to, and then select **Manage your solutions** ![Manage your solutions](media/manage-solution.png "Manage your solutions").
 
-4.  Select the **Email in Unified Interface** app, and then select **Install**.  
+4. Select the **Email in Unified Interface** app, and then select **Install**.  
 
 You can now see the app in the list of published apps. Go to **Settings** > **My Apps** to see it.
 

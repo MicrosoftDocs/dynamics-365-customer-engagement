@@ -12,7 +12,7 @@ ms.assetid: f5d8f8bf-4911-4311-b3a0-a5c0171e5810
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 
 # Configure OAuth2 provider settings for portals
@@ -30,7 +30,7 @@ The supported providers are:
 
 ## Create OAuth applications
 
-In general, if an OAuth provider uses app settings that require a redirect URI value, specify http://portal.contoso.com/or http://portal.contoso.com/signin-\[provider\] depending on how the provider performs redirect URI validation (some providers require the full URL path to be specified along with the domain name). Substitute the name of the provider in place of \[provider\] in the redirect URI.
+In general, if an OAuth provider uses app settings that require a redirect URI value, specify <http://portal.contoso.com/or> http://portal.contoso.com/signin-\[provider\] depending on how the provider performs redirect URI validation (some providers require the full URL path to be specified along with the domain name). Substitute the name of the provider in place of \[provider\] in the redirect URI.
 
 ### Google
 
@@ -39,15 +39,15 @@ In general, if an OAuth provider uses app settings that require a redirect URI v
 1. Open [Google Developers Console](https://console.developers.google.com/)  
 2. Create an API project or open an existing project
 3. Go to**APIs & auth** &gt;**APIs**, and under **Social APIs**, select**Google+ API**, and then select**Enable API**
-5. Go to**APIs & auth** &gt;**Consent screen**.
+4. Go to**APIs & auth** &gt;**Consent screen**.
     - Specify an**Email address**.
     - Specify a custom**Product name**.
     - Select**Save**.
-9. Go to**APIs & auth** &gt;**Credentials** and create a new client ID.
-    - Application Type:**Web application**
-    - Authorized [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] Origins: http://portal.contoso.com
-    - Authorized Redirect URIs: http://portal.contoso.com/signin-google 
-    - Select **Create Client ID**.
+5. Go to**APIs & auth** &gt;**Credentials** and create a new client ID.
+   - Application Type:**Web application**
+   - Authorized [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] Origins: http://portal.contoso.com
+   - Authorized Redirect URIs: http://portal.contoso.com/signin-google 
+   - Select **Create Client ID**.
 
 ### Facebook app settings
 

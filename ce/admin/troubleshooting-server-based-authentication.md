@@ -57,9 +57,9 @@ manager: "brycho"
   
  This issue can occur when the claims-based authentication mapping that is used provides a situation where the claims type values don’t match between [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. For example, this issue can occur when the following items are true:  
   
--   You use the default claims-based authentication mapping type, which for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] to [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] server-based authentication uses the [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] unique identifier.  
+- You use the default claims-based authentication mapping type, which for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] to [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] server-based authentication uses the [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] unique identifier.  
   
--   The identities used for [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)], [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] administrator, or [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] administrator don’t use the same [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)], therefore the [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] unique identifiers don’t match.  
+- The identities used for [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)], [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] administrator, or [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] administrator don’t use the same [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)], therefore the [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] unique identifiers don’t match.  
   
 ### “Private key not found” error message returned when you run the CertificateReconfiguration.ps1 Windows PowerShell script  
  Applies to: [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] with [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] on-premises  
@@ -77,32 +77,32 @@ manager: "brycho"
   
 #### Replace a certificate that has the same subject name  
   
-1.  Use an existing or create a new and self-signed certificate. The subject name must be unique to any certificate subject names that are registered in the local certificate store.  
+1. Use an existing or create a new and self-signed certificate. The subject name must be unique to any certificate subject names that are registered in the local certificate store.  
   
-2.  Run the following [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] script against the existing certificate, or the certificate that you created in the previous step. This script will add a new certificate in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], which will then be replaced in a later step. <!-- For more information about the CertificateReconfiguration.ps1[!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] script see, [Prepare Microsoft Dynamics 365 Server for server-based authentication](Configure%20server-based%20authentication%20with%20Microsoft%20Dynamics%20365%20\(on-premises\)%20and%20SharePoint%20on-premises.md#BKMK_prepare_CRM).  -->
+2. Run the following [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] script against the existing certificate, or the certificate that you created in the previous step. This script will add a new certificate in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], which will then be replaced in a later step. <!-- For more information about the CertificateReconfiguration.ps1[!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] script see, [Prepare Microsoft Dynamics 365 Server for server-based authentication](Configure%20server-based%20authentication%20with%20Microsoft%20Dynamics%20365%20\(on-premises\)%20and%20SharePoint%20on-premises.md#BKMK_prepare_CRM).  -->
   
-    ```  
-    CertificateReconfiguration.ps1 -certificateFile <Private certificate file (.pfx)> -password <private-certificate-password> -updateCrm -certificateType AlternativeS2STokenIssuer -serviceAccount <serviceAccount> -storeFindType FindBySubjectDistinguishedName  
-    ```  
+   ```  
+   CertificateReconfiguration.ps1 -certificateFile <Private certificate file (.pfx)> -password <private-certificate-password> -updateCrm -certificateType AlternativeS2STokenIssuer -serviceAccount <serviceAccount> -storeFindType FindBySubjectDistinguishedName  
+   ```  
   
-3.  Remove the AlternativeS2STokenIssuer type certificate from the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] configuration database. To do this, run these [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] commands.  
+3. Remove the AlternativeS2STokenIssuer type certificate from the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] configuration database. To do this, run these [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] commands.  
   
-    ```  
-    Add-PSSnapin Microsoft.Crm.PowerShell   
-    $Certificates = Get-CrmCertificate;   
-    $alternativecertificate = "";   
-    foreach($cert in $Certificates)   
-    {    if($cert.CertificateType -eq "AlternativeS2STokenIssuer") { $alternativecertificate = $cert;}      
+   ```  
+   Add-PSSnapin Microsoft.Crm.PowerShell   
+   $Certificates = Get-CrmCertificate;   
+   $alternativecertificate = "";   
+   foreach($cert in $Certificates)   
+   {    if($cert.CertificateType -eq "AlternativeS2STokenIssuer") { $alternativecertificate = $cert;}      
   
-    Remove-CrmCertificate -Certificate $alternativecertificate  
-    ```  
+   Remove-CrmCertificate -Certificate $alternativecertificate  
+   ```  
   
-### You receive “The remote server returned an error: (400) Bad Request” and “Register-SPAppPrincipal: The requested service, 'http://wgwitsp:32843/46fbdd1305a643379b47d761334f6134/AppMng.svc' could not be activated” error messages  
+### You receive “The remote server returned an error: (400) Bad Request” and “Register-SPAppPrincipal: The requested service, '<http://wgwitsp:32843/46fbdd1305a643379b47d761334f6134/AppMng.svc>' could not be activated” error messages  
  Applies to: [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises versions used with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
  The remote server returned an error: (400) Bad Request error message can occur after the certificate installation, such as when you run the CertificateReconfiguration.Ps1 script.  
   
- The Register-SPAppPrincipal: The requested service, 'http://wgwitsp:32843/46fbdd1305a643379b47d761334f6134/AppMng.svc' could not be activated error message can occur when you grant [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] permission to access [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] by running the Register-SPAppPrincipal command.  
+ The Register-SPAppPrincipal: The requested service, '<http://wgwitsp:32843/46fbdd1305a643379b47d761334f6134/AppMng.svc>' could not be activated error message can occur when you grant [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] permission to access [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] by running the Register-SPAppPrincipal command.  
   
  To resolve both of these errors after they occur, restart the web server where the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application is installed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Start or Stop the Web Server (IIS 8)](https://technet.microsoft.com/library/jj635851.aspx)  
   

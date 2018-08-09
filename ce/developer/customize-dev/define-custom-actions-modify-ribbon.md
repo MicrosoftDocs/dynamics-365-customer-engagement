@@ -29,9 +29,9 @@ The default, an application command bar or ribbon is defined by [!INCLUDE[pn_dyn
 ## Types of custom actions  
  There are two types of custom actions for ribbons:  
   
--   `<CustomAction>`: [!INCLUDE[ribbon_element_CustomAction](../../includes/ribbon-element-customaction.md)]  
+- `<CustomAction>`: [!INCLUDE[ribbon_element_CustomAction](../../includes/ribbon-element-customaction.md)]  
   
--   `<HideCustomAction>` : [!INCLUDE[ribbon_element_HideCustomAction](../../includes/ribbon-element-hidecustomaction.md)]  
+- `<HideCustomAction>` : [!INCLUDE[ribbon_element_HideCustomAction](../../includes/ribbon-element-hidecustomaction.md)]  
   
 ### Custom actions  
  A custom action is a statement of how you want to change the default ribbon definition. It is evaluated and applied to the ribbon at runtime. To set the context for a custom action, you must include information about the location of the items that you want to change. Use the `Location` attribute to specify where your change applies.  
@@ -52,9 +52,9 @@ The default, an application command bar or ribbon is defined by [!INCLUDE[pn_dyn
   
 > [!NOTE]
 >  Because the `HideCustomAction` element removes a specified node from the ribbon, removing ribbon elements in this manner may not be the best option for every situation.  
->   
->  -   If you want to remove a button that is associated with a specific privilege, you should adjust the privileges for the entity in the security roles in your implementation. This will allow the default ribbon display and enables rules to hide or disable ribbon elements from users who do not have the necessary privileges to perform those actions.  
-> -   If you want to replace an existing ribbon element with a custom ribbon element, you can overwrite that element by specifying a `CustomAction.Location` value identical to the existing element.  
+> 
+> - If you want to remove a button that is associated with a specific privilege, you should adjust the privileges for the entity in the security roles in your implementation. This will allow the default ribbon display and enables rules to hide or disable ribbon elements from users who do not have the necessary privileges to perform those actions.  
+>   -   If you want to replace an existing ribbon element with a custom ribbon element, you can overwrite that element by specifying a `CustomAction.Location` value identical to the existing element.  
   
  The **HideActionId** element provides a unique ID for the action. For consistency and readability, you should follow the same naming convention described for `<CustomAction>` elements. The **Location** attribute must match the Id of the ribbon element you want to remove.  
   

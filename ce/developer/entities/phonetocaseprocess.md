@@ -709,6 +709,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_PhoneToCaseProcess_SyncErrors"></a> PhoneToCaseProcess_SyncErrors
 
 Same as syncerror entity [PhoneToCaseProcess_SyncErrors](syncerror.md#BKMK_PhoneToCaseProcess_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -723,6 +724,7 @@ Same as syncerror entity [PhoneToCaseProcess_SyncErrors](syncerror.md#BKMK_Phone
 ### <a name="BKMK_phonetocaseprocess_AsyncOperations"></a> phonetocaseprocess_AsyncOperations
 
 Same as asyncoperation entity [phonetocaseprocess_AsyncOperations](asyncoperation.md#BKMK_phonetocaseprocess_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -737,6 +739,7 @@ Same as asyncoperation entity [phonetocaseprocess_AsyncOperations](asyncoperatio
 ### <a name="BKMK_lk_phonetocaseprocess_workflowlogs"></a> lk_phonetocaseprocess_workflowlogs
 
 Same as workflowlog entity [lk_phonetocaseprocess_workflowlogs](workflowlog.md#BKMK_lk_phonetocaseprocess_workflowlogs) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|workflowlog|
@@ -751,6 +754,7 @@ Same as workflowlog entity [lk_phonetocaseprocess_workflowlogs](workflowlog.md#B
 ### <a name="BKMK_phonetocaseprocess_MailboxTrackingFolders"></a> phonetocaseprocess_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [phonetocaseprocess_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_phonetocaseprocess_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -765,6 +769,7 @@ Same as mailboxtrackingfolder entity [phonetocaseprocess_MailboxTrackingFolders]
 ### <a name="BKMK_phonetocaseprocess_UserEntityInstanceDatas"></a> phonetocaseprocess_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [phonetocaseprocess_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_phonetocaseprocess_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -779,6 +784,7 @@ Same as userentityinstancedata entity [phonetocaseprocess_UserEntityInstanceData
 ### <a name="BKMK_phonetocaseprocess_ProcessSession"></a> phonetocaseprocess_ProcessSession
 
 Same as processsession entity [phonetocaseprocess_ProcessSession](processsession.md#BKMK_phonetocaseprocess_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -793,6 +799,7 @@ Same as processsession entity [phonetocaseprocess_ProcessSession](processsession
 ### <a name="BKMK_phonetocaseprocess_BulkDeleteFailures"></a> phonetocaseprocess_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [phonetocaseprocess_BulkDeleteFailures](bulkdeletefailure.md#BKMK_phonetocaseprocess_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -807,6 +814,7 @@ Same as bulkdeletefailure entity [phonetocaseprocess_BulkDeleteFailures](bulkdel
 ### <a name="BKMK_phonetocaseprocess_PrincipalObjectAttributeAccesses"></a> phonetocaseprocess_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [phonetocaseprocess_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_phonetocaseprocess_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

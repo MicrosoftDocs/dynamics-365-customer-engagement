@@ -606,6 +606,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_category_parent_category"></a> category_parent_category
 
 Same as category entity [category_parent_category](category.md#BKMK_category_parent_category) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|category|
@@ -620,6 +621,7 @@ Same as category entity [category_parent_category](category.md#BKMK_category_par
 ### <a name="BKMK_Category_SyncErrors"></a> Category_SyncErrors
 
 Same as syncerror entity [Category_SyncErrors](syncerror.md#BKMK_Category_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|

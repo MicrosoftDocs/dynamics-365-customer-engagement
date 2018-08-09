@@ -12,7 +12,7 @@ ms.assetid: ECACFE60-7057-4A56-B7E3-6251596BE883
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Get [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] data on the portal
 
@@ -36,23 +36,23 @@ For this demonstration, let’s consider a scenario in which Contoso, Inc. would
 2. In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], create two custom fields underneath the Suggestion entity that pertain to the information that should be captured on the form.  In this example, we’ll create **SuggestionOrigin** (Option Set) and **SuggestionSummary** (Multiple Lines of Text) fields.  Both fields will be set to **Business Required**.
 
 3. In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], create a new main form underneath the Suggestion entity:
-    1. Insert a one-column tab, and change its section’s properties to two columns.  
+   1. Insert a one-column tab, and change its section’s properties to two columns.  
 
-    2. Add the custom fields in addition to the existing **Name** field.
+   2. Add the custom fields in addition to the existing **Name** field.
 
-    3. Name the tab **Suggestion**.
+   3. Name the tab **Suggestion**.
 
-    4. In **Form Properties**, name the form **Suggestion Form**.
+   4. In **Form Properties**, name the form **Suggestion Form**.
 
-    5. Save it and publish.
+   5. Save it and publish.
 
-    ![Creating a custom form in Dynamics 365 to be rendered on a portal.](media/create-custom-suggestion-form.png "Creating a custom form in Dynamics 365 to be rendered on a portal.")
+      ![Creating a custom form in Dynamics 365 to be rendered on a portal.](media/create-custom-suggestion-form.png "Creating a custom form in Dynamics 365 to be rendered on a portal.")
 
 4. In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Portals** > **Entity Forms** and create a new entity form record. Name it **Suggestion**, set its **Entity Name** field to **Suggestion (new_suggestion)**, set its **Form Name** to **Suggestion Form**, set its **Tab Name** to **Suggestion**, set its **Form Type** as **Insert**, and modify any of the other options as needed.
 
 5. In the portal, create a new child page named **Suggestions**. Set its **Page Template** value to **Web Form**, set its **Entity Form** value to **Suggestion**, and add an introduction to the form. 
-    >[!Note]
-    >The child page can also be created via [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], depending on the user’s preference.
+   > [!Note]
+   > The child page can also be created via [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], depending on the user’s preference.
 
 6. To allow users to easily navigate to the form: In the portal, edit the Primary Navigation and then select the **+** icon to add a new web link to the form. Name the web link **Suggestions** and assign it to the **Suggestions** page.
 
@@ -84,13 +84,13 @@ Building on the previous example of the administrator of Contoso, Inc. creating 
 1. In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Settings** > **Customizations** > **Customize the System** > **Entities** > **Suggestions** > **Views** and edit the **Active Suggestions** view.  Add the columns that should be exposed on the portal to this view.
 
 2. Go to **Portals** > **Entity Lists** and create a new Entity List record.  
-    1. Enter a name of **Suggestions List**, set its **Entity Name** to **Suggestion (new_suggestion)**. 
+   1. Enter a name of **Suggestions List**, set its **Entity Name** to **Suggestion (new_suggestion)**. 
 
-    2. Add the default **Active Suggestions** view or the custom-created view to the **Views** list. 
+   2. Add the default **Active Suggestions** view or the custom-created view to the **Views** list. 
 
-    3. Set **Web Page for Create** to **Suggestions**, and add a create button or empty list text as needed.
+   3. Set **Web Page for Create** to **Suggestions**, and add a create button or empty list text as needed.
 
-    ![Create an entity list](media/create-entity-list.png "Create an entity list")
+      ![Create an entity list](media/create-entity-list.png "Create an entity list")
 
 3. In the portal, create a new child page named **Suggestions List**. Set **Page Template** to **Full Page**, set **Entity List** to **Suggestions List**, and add an introduction to the exposed view.
 
@@ -205,12 +205,13 @@ Each completed survey that is submitted will become a record within the **Portal
 
 Although most [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] forms can be successfully rendered in a portal, note that some features aren't supported by the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] EntityFormView control that handles the actual rendering of the entity form.
 
-|Supported form elements|Supported, but with caveats form elements|Unsupported form elements|
-|---|---|---|
-|All [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] field validation rules   |All [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] field types, except Party List fields   |Form headers and footers won't be displayed in the portal   |
-|Both single and multi-column layouts   |Only “Webpage (HTML)” and image-related Web Resource types are supported   |iFrames   |
-|[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] label language translations   |Record filtering in a lookup field is supported, but only for N:1 relationships   |[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form scripting   |
-|Notes (inserted on the form)   |Lookup fields are supported, but creating a new record through a lookup view on the form isn't supported   |   |
-|Sub-Grids (inserted on the form)   |   |   |
+
+|                                 Supported form elements                                 |                                Supported, but with caveats form elements                                 |                         Unsupported form elements                          |
+|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| All [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] field validation rules  |  All [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] field types, except Party List fields   |         Form headers and footers won't be displayed in the portal          |
+|                          Both single and multi-column layouts                           |                 Only “Webpage (HTML)” and image-related Web Resource types are supported                 |                                  iFrames                                   |
+| [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] label language translations |             Record filtering in a lookup field is supported, but only for N:1 relationships              | [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form scripting |
+|                              Notes (inserted on the form)                               | Lookup fields are supported, but creating a new record through a lookup view on the form isn't supported |                                                                            |
+|                            Sub-Grids (inserted on the form)                             |                                                                                                          |                                                                            |
 
 Finally, it’s worth mentioning that the Entity Form record in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] has an assortment of options that allow for it to be fine-tuned as needed, including a section for **Attach File** options.  If a form requires the attachment of files, select the **Attach File** check box and configure the **Attach File Storage Location** option for either **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Note Attachment** or **[!include[Azure](../includes/pn-azure-shortest.md)] Blob Storage**.

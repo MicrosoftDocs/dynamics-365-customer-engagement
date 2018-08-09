@@ -22,21 +22,21 @@ manager: "amyla"
 
 Document management can be enabled for those entities in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement that can be customized. By default, document management is enabled only for the following entities in a new installation of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]:  
   
--   `Account`  
+- `Account`  
   
--   `KbArticle`  
+- `KbArticle`  
   
--   `Lead`  
+- `Lead`  
   
--   `Opportunity`  
+- `Opportunity`  
   
--   `Product`  
+- `Product`  
   
--   `Quote`  
+- `Quote`  
   
--   `SalesLiterature`  
+- `SalesLiterature`  
   
- To enable document management for an entity, set the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IsDocumentManagementEnabled> attribute value to **true**. To disable document management for an entity, set the value to **false**.  
+  To enable document management for an entity, set the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IsDocumentManagementEnabled> attribute value to **true**. To disable document management for an entity, set the value to **false**.  
   
 > [!NOTE]
 >  You must have the System Administrator or System Customizer role to enable or disable document management for an entity.  

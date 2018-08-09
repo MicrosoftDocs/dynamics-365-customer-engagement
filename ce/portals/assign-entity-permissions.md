@@ -12,7 +12,7 @@ ms.assetid: e91a09c5-9e43-44e6-8bbf-83d792a7c055
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Add record-based security by using entity permissions for portals
 To apply record-based security in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals to individual records, use entity permissions. You add entity permissions to web roles so you can define roles in your organization that correspond logically to the privileges and concepts of record ownership and access that are introduced by using entity permissions. Remember that a given contact can belong to any number of roles, and a given role can contain any number of entity permissions. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create web roles for portals](create-web-roles.md) 

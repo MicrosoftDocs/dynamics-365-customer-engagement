@@ -22,9 +22,9 @@ Provide an enhanced offline experience for mobile users using Dynamics 365. Once
   
  This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize entities with the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for phones and tablets apps so synchronized records are available when users’ mobile devices are disconnected. To enable mobile offline synchronization, follow the steps below.
  
- > [!IMPORTANT] 
-> -   Mobile offline synchronization isn’t available for Trial, Preview  or sandbox [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organizations. 
-> -   We’re working to improve mobile offline capabilities in Dynamics 365 for phones and tablets for release in the second quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline capabilities in Dynamics 365 for phones and tablets, we’ll let customers know. Existing customers who are already using mobile offline capabilities are not affected.
+> [!IMPORTANT]
+> - Mobile offline synchronization isn’t available for Trial, Preview  or sandbox [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organizations. 
+> - We’re working to improve mobile offline capabilities in Dynamics 365 for phones and tablets for release in the second quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline capabilities in Dynamics 365 for phones and tablets, we’ll let customers know. Existing customers who are already using mobile offline capabilities are not affected.
  
 ## Step 1: Enable entities for mobile offline synchronization 
  
@@ -32,48 +32,48 @@ One of the first things that you need to do is enable entities that will be avai
   
 The following entities are enabled for mobile offline by default:  
   
--   Account  
+- Account  
   
--   Appointment  
+- Appointment  
   
--   Attachment  
+- Attachment  
   
--   Competitor  
+- Competitor  
   
--   Competitor Address  
+- Competitor Address  
   
--   Contact  
+- Contact  
   
--   Email  
+- Email  
   
--   Lead  
+- Lead  
   
--   Note  
+- Note  
   
--   Opportunity  
+- Opportunity  
   
--   Opportunity Product  
+- Opportunity Product  
   
--   Product  
+- Product  
   
--   Task  
+- Task  
   
--   Case  
+- Case  
   
--   Queue  
+- Queue  
   
--   Queue Item  
+- Queue Item  
   
--   SLA KPI Instance  
+- SLA KPI Instance  
   
--   Entitlement  
+- Entitlement  
   
--   Team  
+- Team  
   
--   User  
+- User  
 
- > [!NOTE] 
-> -   You can disable any of these above entities for offline or enable any entity from supported list for offline. Follow the steps below to enable or disable an entity. 
+  > [!NOTE] 
+  > -   You can disable any of these above entities for offline or enable any entity from supported list for offline. Follow the steps below to enable or disable an entity. 
 
 To enable more entities for offline, follow the steps below.
   
@@ -115,21 +115,21 @@ In this step, you need to turn on mobile offline synchronization. The data for t
 
 To enable offline synchronization, follow the steps below.
  
-1.  In the **Dynamics 365 - custom** app, go to **Settings** > **Mobile Offline**. If you don’t see this option, please contact tech support.  
+1. In the **Dynamics 365 - custom** app, go to **Settings** > **Mobile Offline**. If you don’t see this option, please contact tech support.  
   
-2.  Click **Mobile Offline Configuration**.  
+2. Click **Mobile Offline Configuration**.  
   
-3.  Click **Continue** to accept the terms of the disclaimer and allow data to be shared with an external system on [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] services.  
+3. Click **Continue** to accept the terms of the disclaimer and allow data to be shared with an external system on [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] services.  
   
-4.  Select **Start Provisioning**. This starts the provisioning process for mobile offline. When it completes, your mobile users will  experience the new mobile offline capabilities. 
+4. Select **Start Provisioning**. This starts the provisioning process for mobile offline. When it completes, your mobile users will  experience the new mobile offline capabilities. 
 
-    Users can continue working in offline mode while the application is syncing your data. To view the download status of all entities enabled for offline, see **Entity Data Download Status**.
+   Users can continue working in offline mode while the application is syncing your data. To view the download status of all entities enabled for offline, see **Entity Data Download Status**.
 
-    4.1	**Track Offline Status**: Users can track the status of offline provisioning from stage 1 to 7.  In the 5th stage, you can also track the data download status in terms of percentage complete and time remaining to complete data download
+   4.1 **Track Offline Status**: Users can track the status of offline provisioning from stage 1 to 7.  In the 5th stage, you can also track the data download status in terms of percentage complete and time remaining to complete data download
 
-    4.2 **Start Working Offline Right Away**: Once mobile offline synchronization is turned on, users can start using it without having to wait for all the entity data to download. Once mandatory entity data is complete, you can start using mobile app in offline mode while the system continue to download other entity data that you have selected. You will also be notified how long the download will take along with detailed status for each entity.
+   4.2 **Start Working Offline Right Away**: Once mobile offline synchronization is turned on, users can start using it without having to wait for all the entity data to download. Once mandatory entity data is complete, you can start using mobile app in offline mode while the system continue to download other entity data that you have selected. You will also be notified how long the download will take along with detailed status for each entity.
 
-    ![Dynamics 365 for phones and tablets mobile offline sync status](media/MobileOfflineSyncStatus.png "Dynamics 365 for phones and tablets mobile offline sync status")
+   ![Dynamics 365 for phones and tablets mobile offline sync status](media/MobileOfflineSyncStatus.png "Dynamics 365 for phones and tablets mobile offline sync status")
  
   
 > [!IMPORTANT]
@@ -143,23 +143,23 @@ To enable offline synchronization, follow the steps below.
 
 **Things to know when you start mobile offline provisioning** 
   
--   Admins can see the status of provisioning and de-provisioning.  
+- Admins can see the status of provisioning and de-provisioning.  
   
--   The mobile offline configuration page is auto-refreshed at regular intervals to show updated status messages during provisioning and de-provisioning.  
+- The mobile offline configuration page is auto-refreshed at regular intervals to show updated status messages during provisioning and de-provisioning.  
   
--   You can stop provisioning at any stage during provisioning.  
+- You can stop provisioning at any stage during provisioning.  
   
--   You can de-provision your organization when the provisioning is complete.  
+- You can de-provision your organization when the provisioning is complete.  
   
--   De-provisioning of an organization can't be stopped once initiated.  
+- De-provisioning of an organization can't be stopped once initiated.  
   
--   You can initiate provisioning again only when de-provisioning is complete.  
+- You can initiate provisioning again only when de-provisioning is complete.  
   
--   In  case of a provisioning or de-provisioning failure, consider retrying your provisioning before contacting support.  
+- In  case of a provisioning or de-provisioning failure, consider retrying your provisioning before contacting support.  
   
--   All the provisioning and de-provisioning messages will be shown on the **Mobile Offline Configuration** screen along with the date and timestamp of when the status was last checked.  
+- All the provisioning and de-provisioning messages will be shown on the **Mobile Offline Configuration** screen along with the date and timestamp of when the status was last checked.  
  
- ## Step 3: Create a mobile offline profile to determine what data will be available while offline
+  ## Step 3: Create a mobile offline profile to determine what data will be available while offline
  
 You need to create mobile offline profiles for users to configure filters that determine how much of an entity's data (and related entities' data) will be available to the user while offline.  
 
@@ -311,8 +311,8 @@ Enable mobile offline for a specific app from MyApps page.
    ![Open App Designer](media/OpenAppDesigner.png "Open App Designer")
 
 5. On the **Properties** tab, scroll down and select **Enable Mobile Offline** and then choose a profile.
- > [!NOTE] 
- > -   You can add more than one profile for an app module.
+   > [!NOTE] 
+   > -   You can add more than one profile for an app module.
 
    ![Enable mobile offline for the App](media/EnableMobileOffline.png "Enable mobile offline for the App")
 
@@ -322,11 +322,11 @@ Enable mobile offline for a specific app from MyApps page.
 
 Here are a few things to keep in mind about mobile offline synchronization:  
   
--   Mobile offline synchronization with mobile devices occurs periodically. A synchronization cycle could last for several minutes, depending on [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] network latency, the volume of data that’s set for synchronization, and mobile network speed. Users can still use the mobile apps during synchronization.  
+- Mobile offline synchronization with mobile devices occurs periodically. A synchronization cycle could last for several minutes, depending on [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] network latency, the volume of data that’s set for synchronization, and mobile network speed. Users can still use the mobile apps during synchronization.  
   
--   Changes to a user’s security privileges are updated during the next synchronization cycle. Until that time, users can still continue accessing data according to their previous security privileges, but any changes they make will be validated during the synchronization to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server. If they no longer have privileges to make changes for a record, they will receive an error and the record won’t be created, updated, or deleted.  
+- Changes to a user’s security privileges are updated during the next synchronization cycle. Until that time, users can still continue accessing data according to their previous security privileges, but any changes they make will be validated during the synchronization to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server. If they no longer have privileges to make changes for a record, they will receive an error and the record won’t be created, updated, or deleted.  
   
--   Any changes to a user’s privilege to view a record won’t take effect on the mobile device until the next synchronization cycle.  
+- Any changes to a user’s privilege to view a record won’t take effect on the mobile device until the next synchronization cycle.  
   
 > [!NOTE]
 >  Once you’ve enabled mobile offline synchronization, metadata changes are pushed to the mobile apps when the changes are published, not just on app start-up. To keep mobile offline synchronization up-to-date, users should always accept the prompt to download metadata changes.  

@@ -32,11 +32,11 @@ Use **Session Lines** type of hosted control to configure session overview infor
   
  In the New Hosted Control screen:  
   
--   Under **[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]** area, select **Session Lines** from the **USD Component Type** drop-down list.  
+- Under **[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]** area, select **Session Lines** from the **USD Component Type** drop-down list.  
   
--   The **Display Group** field displays the panel where this hosted control will be displayed. **SessionExplorerPanel** is the most common panel for this hosted control type. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md#Panels)  
+- The **Display Group** field displays the panel where this hosted control will be displayed. **SessionExplorerPanel** is the most common panel for this hosted control type. For information about various panels available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Panels in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md#Panels)  
   
- For information about **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
+  For information about **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
 <a name="Actions"></a>   
 ## Predefined UII actions  

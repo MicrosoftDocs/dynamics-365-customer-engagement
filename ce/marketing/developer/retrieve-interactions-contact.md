@@ -2,7 +2,7 @@
 title: "Retrieve interactions for a contact using code (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
 description: "Know how to programmatically retrieve interactions for a contact using an action; GDPR compliance."
 ms.custom: ""
-ms.date: 04/01/2018
+ms.date: 08/07/2018
 ms.service: "crm-online"
 ms.technology: 
   - "marketing"
@@ -12,7 +12,7 @@ applies_to:
 ms.assetid: f0a910ca-fd62-4190-b75f-d61d2db76ca2
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "amyla"
+manager: "annbe"
 ---
 # Retrieve interactions for a contact using code
 
@@ -42,12 +42,12 @@ The **msdyncrm_LoadInteractionsPublic** action expects the following input param
 <tr>
 <td><code>DateFrom</code></td>
 <td>Edm.String</td>
-<td>Start date and time from which you want to retrieve the interactions. Optional.</td>
+<td>Start date in the MM-DD-YYYY format from which you want to retrieve interactions. Optional.</td>
 </tr>
 <tr>
 <td><code>DateTo</code></td>
 <td>Edm.String</td>
-<td>End date and time until which you want to retrieve the interactions. Optional.</td>
+<td>End date in the MM-DD-YYYY format until which you want to retrieve interactions. Optional.</td>
 </tr>
 <tr>
 <td valign="top"><code>InteractionType</code></td>
@@ -57,7 +57,6 @@ The **msdyncrm_LoadInteractionsPublic** action expects the following input param
 <li>ActivityContactBlocked</li>
 <li>ActivityContactDispatched</li>
 <li>ActivityContactProcessingFailed</li>
-<li>ContactUpserted</li>
 <li>CreateCrmActivityContactProcessed</li>
 <li>CreateCustomChannelActivityContactProcessed</li>
 <li>CustomChannelResponse</li>
@@ -82,7 +81,6 @@ The **msdyncrm_LoadInteractionsPublic** action expects the following input param
 <li>InvalidRecipientAddress</li>
 <li>InvalidSenderAddress</li>
 <li>LeadScoreBoost</li>
-<li>LeadUpserted</li>
 <li>OutOfEmailCredits</li>
 <li>PassThroughActivityContactProcessed</li>
 <li>RedirectLinkClicked</li>
@@ -158,7 +156,7 @@ OData-Version: 4.0
   
 {
     "InteractionType": "WebsiteClicked",
-    "ContactId" : "0dbe0fa3-8e18-e811-a951-000d3a37caec"
+    "ContactId": "0dbe0fa3-8e18-e811-a951-000d3a37caec",
 }
 ```
 

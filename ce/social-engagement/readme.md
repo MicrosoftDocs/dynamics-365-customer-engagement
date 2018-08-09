@@ -2,7 +2,7 @@
 title: "Social Engagement 2018 Update 1.6 Readme"
 description: "Important and late-breaking information about Microsoft Social Engagement"
 keywords: "readme, known issues, information"
-ms.date: 06/13/2018
+ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -15,10 +15,10 @@ ms.custom:
   - dyn365-socialengagement
 ---
 
-# Social Engagement 2018 Update 1.6 Readme
+# Social Engagement Readme
 
 This document provides important, late-breaking information about Microsoft
-Social Engagement 2018 Update 1.6. 
+Social Engagement.
 
 ## Resources
 
@@ -28,7 +28,7 @@ Do you have an idea how to further improve the service or app? Go to the [Ideas 
 
 ## Integration scenarios - known issues
 
-### Can’t open links when you use the Social Selling Assistant from the Dynamics 365 for Tablets app
+### Can’t open links when you use the Social Selling Assistant from the Dynamics 365 for tablets app
 
 You can access the Social Selling Assistant app from both the Dynamics 365 web
 client and the Dynamics 365 for tablets app. However, for Dynamics 365 for
@@ -56,7 +56,8 @@ If you are a Social Engagement administrator, you can do this by going to
 **Settings** \> **Allowed Domains**. Add only your owned Dynamics 365 domains as
 allowed domains to enable communication with Social Engagement.
 
-**Note**: Prior to the Microsoft Social Engagement 2016 Update 1.12, we allowed
+> [!NOTE]
+> Prior to the Microsoft Social Engagement 2016 Update 1.12, we allowed
 all \*.dynamics.com domains to communicate with Social Engagement by default.
 This is no longer supported.
 
@@ -68,7 +69,7 @@ authenticate to your Microsoft Dynamics 365 instance.
 
 When Social Engagement tries to open a pop-up window, in most cases it will be
 suppressed by your browser’s pop-up blocker. Please look for any notifications
-about blocked pop-ups.
+about blocked pop-up windows.
 
 If you’re using Internet Explorer, check the options that are set on **Tabbed
 Browsing Settings** (**Tools** \> **Internet options** \> **General** \>
@@ -124,13 +125,13 @@ Location data is supported on all **News** posts, and partially on **Twitter**
 and **Forums**. The **Location** page displays only posts that contain location
 information, which might cover a subset of your data.
 
-### No author details for authors of Twitter Retweets and Facebook Shares
+### No author details for authors of Twitter retweets and Facebook shares
 
 Even though there is an author detail icon next to the name of an author whose
 post has been retweeted or shared, there is no author detail available for such
 an author. The UI will show the message: “No author details are available”.
 
-### Unknown Facebook Authors
+### Unknown Facebook authors
 
 Due to a change in the Facebook API, author information is no longer shared from
 pages you don't own. You can still get author information for posts on Facebook
@@ -143,6 +144,10 @@ authors.](https://docs.microsoft.com/dynamics365/customer-engagement/social-enga
 Instagram authors are currently listed as "Unknown Author" in Social Engagement. This is a temporary issue and will be fixed with one of the upcoming releases. 
 
 ## Search setup - known issues
+
+### Changing search topic category not reflected in the UI   
+
+When the category on an existing search topic is changed, the search topic still shows the previously selected category. Although the changes are saved, you need to refresh the browser to see the change reflected correctly. 
 
 ### Retweets not acquired if keyword is after the 140th character
 
@@ -198,7 +203,7 @@ labels for Greek.
 
 ### Error messages for private messages aren't translated
 
-On private message attachments, the error messages for an attachment that couldn't be retrieved or if it was deleted, are not translated. These translations will be available with the next release. 
+On private message attachments, the error messages for an attachment that couldn't be retrieved or was deleted are not translated. These translations will be available with the next release. 
 
 ## General known issues
 
@@ -261,8 +266,8 @@ The workaround is to refresh your browser, select fewer authors, and select
 
 ### Facebook pages can’t be authenticated in Social Engagement
 
-Authenticating and re-authenticating Facebook pages as social profiles in Social Engagement might fail in some cases due to a Facebook authentication issue. Currently there is no workaround available for this issue. 
+Authenticating and reauthenticating Facebook pages as social profiles in Social Engagement might fail in some cases due to a Facebook authentication issue. Currently there is no workaround available for this issue. 
 
 ### Facebook page access tokens expire daily
 
-Currently the Facebook page access tokens are expiring daily and you need to re-authenticate them. Due to issues with re-authentication of Facebook pages, in some cases a re-authentication will not be possible. 
+Currently the Facebook page access tokens are expiring daily and you need to reauthenticate them. Due to issues with reauthentication of Facebook pages, in some cases a reauthentication will not be possible. 

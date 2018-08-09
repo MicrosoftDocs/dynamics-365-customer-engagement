@@ -62,13 +62,13 @@ A package lets you bundle and deploy multiple files related to your app at once.
     ```
 
 3. Compress (zip) the following files into a file called *package.zip*:
-    - package folder (PkgFolder)
-    - package dll (SamplePackage.dll)
-    - [Content_Types].xml
+   - package folder (PkgFolder)
+   - package dll (SamplePackage.dll)
+   - [Content_Types].xml
 
-    To compress these files, browse to the folder where these files are present, select them all, right-click and select **Send to** > **Compressed (zipped) folder**.
+     To compress these files, browse to the folder where these files are present, select them all, right-click and select **Send to** > **Compressed (zipped) folder**.
 
-    ![Zip the files for a package](media/appsource-zip-package.png) 
+     ![Zip the files for a package](media/appsource-zip-package.png) 
 
 4. Rename the .zip file to **package.zip**.
 

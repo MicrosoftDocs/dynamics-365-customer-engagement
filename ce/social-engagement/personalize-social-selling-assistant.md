@@ -33,21 +33,21 @@ When using the Social Selling Assistant for the first time, users will get recom
   
 ### Configure your personal experience  
   
-1.  Open the Social Selling Assistant.  
+1. Open the Social Selling Assistant.  
   
-2.  In the personalization wizard, click **Personalize**.  
+2. In the personalization wizard, click **Personalize**.  
   
-3.  Click **Share Content**, select the search topics that are relevant for you, and click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
+3. Click **Share Content**, select the search topics that are relevant for you, and click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
   
- ![Screenshot of five selected search topics for the Social Selling Assistant personalization settings](media/select-search-topics-social-selling-assistant.png "Screenshot of five selected search topics for the Social Selling Assistant personalization settings")  
+   ![Screenshot of five selected search topics for the Social Selling Assistant personalization settings](media/select-search-topics-social-selling-assistant.png "Screenshot of five selected search topics for the Social Selling Assistant personalization settings")  
   
-4.  Click **Get Insights** and manage the topics you want insights for. For example, you might create a new insight group for your business partners and add search topics relating to your partners to get insights so you can stay on top of what your partners are saying on social media. Click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
+4. Click **Get Insights** and manage the topics you want insights for. For example, you might create a new insight group for your business partners and add search topics relating to your partners to get insights so you can stay on top of what your partners are saying on social media. Click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
   
- ![Overview of the "Get Insights" configuration, showing the default insight groups along with controls to add, edit, or delete them](media/insight-groups-social-selling-assistant.png "Overview of the "Get Insights" configuration, showing the default insight groups along with controls to add, edit, or delete them")  
+   ![Overview of the "Get Insights" configuration, showing the default insight groups along with controls to add, edit, or delete them](media/insight-groups-social-selling-assistant.png "Overview of the "Get Insights" configuration, showing the default insight groups along with controls to add, edit, or delete them")  
   
-     By default, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] creates Insight Groups for **Customers**, **Competitors**, and **My brands**. You can edit (![Edit button](media/edit-icon.png "Edit button")), or remove (![Delete button](media/trashbin-icon.png "Delete button")) them, and create (![Add button](media/add-icon.png "Add button")) additional insight groups.  
+    By default, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] creates Insight Groups for **Customers**, **Competitors**, and **My brands**. You can edit (![Edit button](media/edit-icon.png "Edit button")), or remove (![Delete button](media/trashbin-icon.png "Delete button")) them, and create (![Add button](media/add-icon.png "Add button")) additional insight groups.  
   
-5.  If you have a responder or manager interaction role, click **Social Profiles** to add profiles you own. You can add profiles from LinkedIn [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] or [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] to share content directly from the Social Selling Assistant. If your administrator shared a social profile with you, you can select it from the list. To add a social profile or to share a social profile you own with other users, see [Manage social profiles](manage-social-profiles.md).  
+5. If you have a responder or manager interaction role, click **Social Profiles** to add profiles you own. You can add profiles from LinkedIn [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] or [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] to share content directly from the Social Selling Assistant. If your administrator shared a social profile with you, you can select it from the list. To add a social profile or to share a social profile you own with other users, see [Manage social profiles](manage-social-profiles.md).  
   
 > [!NOTE]
 >  If you’ve set the dark theme in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], the Social Selling Assistant will inherit this setting.  

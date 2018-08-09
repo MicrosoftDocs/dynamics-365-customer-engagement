@@ -478,6 +478,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_PostFollow_AsyncOperations"></a> PostFollow_AsyncOperations
 
 Same as asyncoperation entity [PostFollow_AsyncOperations](asyncoperation.md#BKMK_PostFollow_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -492,6 +493,7 @@ Same as asyncoperation entity [PostFollow_AsyncOperations](asyncoperation.md#BKM
 ### <a name="BKMK_PostFollow_SyncErrors"></a> PostFollow_SyncErrors
 
 Same as syncerror entity [PostFollow_SyncErrors](syncerror.md#BKMK_PostFollow_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|

@@ -700,6 +700,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_delegation_SyncErrors"></a> msdyn_delegation_SyncErrors
 
 Same as syncerror entity [msdyn_delegation_SyncErrors](syncerror.md#BKMK_msdyn_delegation_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -714,6 +715,7 @@ Same as syncerror entity [msdyn_delegation_SyncErrors](syncerror.md#BKMK_msdyn_d
 ### <a name="BKMK_msdyn_delegation_DuplicateMatchingRecord"></a> msdyn_delegation_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_delegation_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_delegation_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -728,6 +730,7 @@ Same as duplicaterecord entity [msdyn_delegation_DuplicateMatchingRecord](duplic
 ### <a name="BKMK_msdyn_delegation_DuplicateBaseRecord"></a> msdyn_delegation_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_delegation_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_delegation_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -742,6 +745,7 @@ Same as duplicaterecord entity [msdyn_delegation_DuplicateBaseRecord](duplicater
 ### <a name="BKMK_msdyn_delegation_AsyncOperations"></a> msdyn_delegation_AsyncOperations
 
 Same as asyncoperation entity [msdyn_delegation_AsyncOperations](asyncoperation.md#BKMK_msdyn_delegation_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -756,6 +760,7 @@ Same as asyncoperation entity [msdyn_delegation_AsyncOperations](asyncoperation.
 ### <a name="BKMK_msdyn_delegation_MailboxTrackingFolders"></a> msdyn_delegation_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_delegation_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_delegation_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -770,6 +775,7 @@ Same as mailboxtrackingfolder entity [msdyn_delegation_MailboxTrackingFolders](m
 ### <a name="BKMK_msdyn_delegation_UserEntityInstanceDatas"></a> msdyn_delegation_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_delegation_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_delegation_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -784,6 +790,7 @@ Same as userentityinstancedata entity [msdyn_delegation_UserEntityInstanceDatas]
 ### <a name="BKMK_msdyn_delegation_ProcessSession"></a> msdyn_delegation_ProcessSession
 
 Same as processsession entity [msdyn_delegation_ProcessSession](processsession.md#BKMK_msdyn_delegation_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -798,6 +805,7 @@ Same as processsession entity [msdyn_delegation_ProcessSession](processsession.m
 ### <a name="BKMK_msdyn_delegation_BulkDeleteFailures"></a> msdyn_delegation_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_delegation_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_delegation_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -812,6 +820,7 @@ Same as bulkdeletefailure entity [msdyn_delegation_BulkDeleteFailures](bulkdelet
 ### <a name="BKMK_msdyn_delegation_PrincipalObjectAttributeAccesses"></a> msdyn_delegation_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_delegation_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_delegation_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -826,6 +835,7 @@ Same as principalobjectattributeaccess entity [msdyn_delegation_PrincipalObjectA
 ### <a name="BKMK_msdyn_delegation_Annotations"></a> msdyn_delegation_Annotations
 
 Same as annotation entity [msdyn_delegation_Annotations](annotation.md#BKMK_msdyn_delegation_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|

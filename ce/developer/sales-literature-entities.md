@@ -47,37 +47,37 @@ A *sales literature* item is the basic unit of the marketing encyclopedia in [!I
   
  The basic operations supported in the marketing encyclopedia include the following:  
   
--   Create a sales literature item  
+- Create a sales literature item  
   
--   View a sales literature item  
+- View a sales literature item  
   
--   Edit a sales literature item  
+- Edit a sales literature item  
   
--   Delete a sales literature item  
+- Delete a sales literature item  
   
--   Search for a sales literature item  
+- Search for a sales literature item  
   
--   Upload an attachment and attach it to a sales literature item  
+- Upload an attachment and attach it to a sales literature item  
   
- You can create a searchable marketing encyclopedia for storing various sales and marketing literature. As an example, a sales literature library might include the following:  
+  You can create a searchable marketing encyclopedia for storing various sales and marketing literature. As an example, a sales literature library might include the following:  
   
--   Product information  
+- Product information  
   
--   Presentations and brochures  
+- Presentations and brochures  
   
--   Policies and procedures  
+- Policies and procedures  
   
--   Sales literature  
+- Sales literature  
   
--   White papers  
+- White papers  
   
--   Competitive information  
+- Competitive information  
   
--   Price lists  
+- Price lists  
   
--   Annual reports  
+- Annual reports  
   
--   Manuals  
+- Manuals  
   
 ## In This Section  
  [SalesLiterature Entity](entities/salesliterature.md)  

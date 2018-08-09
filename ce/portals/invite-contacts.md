@@ -12,7 +12,7 @@ ms.assetid: c3c4825a-1968-4d2b-81f0-21eaa070a2ed
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Invite contacts to your portals
 
@@ -45,21 +45,22 @@ The invitation will not be sent to the Contact(s) until the **Send Invitation** 
 
 The Invitation Form has the following fields:
 
-| Name                                  | Description                                                                                                                                                                                                         |
-|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Name                                  | A descriptive name for helping recognize the invitation.                                                                                                                                                            |
-| Type                                  | **Single** or **Group**. Single will allow only one contact to be invited and only one redemption. Group allows multiple contacts to be invited and multiple redemptions.                                           |
-| Owner/Sender                          | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] user that will be the sender of the email when the invitation is sent. This can be overridden in the **Send Invitation** workflow if the created email already contains someone in the from field. |
-| Invitation Code                       | A unique code for the invitation that only the invitee will know. This is automatically generated when creating a new invitation.                                                                                   |
-| Expiry Date                           | The date that represents when the invitation will become invalid for redemption. Optional.                                                                                                                          |
-| Inviter                               | Can be used when a contact is the sender of the invitation. Optional.                                                                                                                                               |
-| Invited Contact(s)                    | The contact(s) to be invited to a portal.                                                                                                                                                                           |
-| Assign to Account                     | An account record to be associated as the redeeming contact's parent customer when the invite is redeemed. Optional.                                                                                                |
-| Execute Workflow on Redeeming Contact | A workflow process to be executed when the invite is redeemed. The workflow will be passed the redeeming contact as the primary entity. Optional.                                                                   |
-| Assign to Web Roles                   | A set of web roles to be associated with the redeeming contact when the invite is redeemed. Optional.                                                                                                               |
-| Redeemed Contact(s)                   | The contact(s) that have successfully redeemed the invitation.                                                                                                                                                      |
-| Maximum Redemptions Allowed           | The number of times the invitation can be redeemed. Available for Group type invitations only.                                                                                                                      |
-||
+
+|                 Name                  |                                                                                                                            Description                                                                                                                             |
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                 Name                  |                                                                                                      A descriptive name for helping recognize the invitation.                                                                                                      |
+|                 Type                  |                                             **Single** or **Group**. Single will allow only one contact to be invited and only one redemption. Group allows multiple contacts to be invited and multiple redemptions.                                              |
+|             Owner/Sender              | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] user that will be the sender of the email when the invitation is sent. This can be overridden in the **Send Invitation** workflow if the created email already contains someone in the from field. |
+|            Invitation Code            |                                                                 A unique code for the invitation that only the invitee will know. This is automatically generated when creating a new invitation.                                                                  |
+|              Expiry Date              |                                                                                     The date that represents when the invitation will become invalid for redemption. Optional.                                                                                     |
+|                Inviter                |                                                                                               Can be used when a contact is the sender of the invitation. Optional.                                                                                                |
+|          Invited Contact(s)           |                                                                                                             The contact(s) to be invited to a portal.                                                                                                              |
+|           Assign to Account           |                                                                        An account record to be associated as the redeeming contact's parent customer when the invite is redeemed. Optional.                                                                        |
+| Execute Workflow on Redeeming Contact |                                                         A workflow process to be executed when the invite is redeemed. The workflow will be passed the redeeming contact as the primary entity. Optional.                                                          |
+|          Assign to Web Roles          |                                                                               A set of web roles to be associated with the redeeming contact when the invite is redeemed. Optional.                                                                                |
+|          Redeemed Contact(s)          |                                                                                                   The contact(s) that have successfully redeemed the invitation.                                                                                                   |
+|      Maximum Redemptions Allowed      |                                                                                   The number of times the invitation can be redeemed. Available for Group type invitations only.                                                                                   |
+|                                       |                                                                                                                                                                                                                                                                    |
 
 ### See also
 

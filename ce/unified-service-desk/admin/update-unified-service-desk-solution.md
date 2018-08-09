@@ -42,27 +42,27 @@ Read this topic only if you have an existing installation of [!INCLUDE[pn_unifie
 ## Update Unified Service Desk solutions  
  Before you update your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solutions, ensure that the version of your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] on-premises organization is [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)], [!INCLUDE[pn_crm_2015_shortest](../../includes/pn-crm-2015-shortest.md)], or [!INCLUDE[pn_crm_2013_sp_shortest](../../includes/pn-crm-2013-sp-shortest.md)].  
   
-1.  [Download the Unified Service Desk package file](http://go.microsoft.com/fwlink/p/?LinkID=854761) (CRM2016-8.x.x-USD-PackageDeployer.exe), and save it on your computer.  
+1. [Download the Unified Service Desk package file](http://go.microsoft.com/fwlink/p/?LinkID=854761) (CRM2016-8.x.x-USD-PackageDeployer.exe), and save it on your computer.  
   
-2.  Run the downloaded file to extract the contents into a folder.  
+2. Run the downloaded file to extract the contents into a folder.  
   
-3.  After the files are extracted, if the [!INCLUDE[pn_package_deployer_tool](../../includes/pn-package-deployer-tool.md)] starts automatically, close it.  
+3. After the files are extracted, if the [!INCLUDE[pn_package_deployer_tool](../../includes/pn-package-deployer-tool.md)] starts automatically, close it.  
   
-4.  In the extracted folder, locate the following two solution files in the USDPackageDeployer\\*\<PackageName>* folder, where *\<PackageName>* is the name of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package you currently have installed in your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance:  
+4. In the extracted folder, locate the following two solution files in the USDPackageDeployer\\*\<PackageName>* folder, where *\<PackageName>* is the name of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package you currently have installed in your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance:  
   
-    -   UiiForMicrosoftDynamicsCRM_3_0_managed.zip  
+   - UiiForMicrosoftDynamicsCRM_3_0_managed.zip  
   
-    -   DynamicsUnifiedServiceDesk_1_0_managed.zip  
+   - DynamicsUnifiedServiceDesk_1_0_managed.zip  
   
      For example, if you currently have Base package installed, you must navigate to the USDPackageDeployer\BasePackage folder to find the solution files for updating. Similarly, navigate to the USDPackageDeployer\CRM2013SP1Package folder if you have the [!INCLUDE[pn_crm_2013_sp_shortest](../../includes/pn-crm-2013-sp-shortest.md)] package, to the USDPackageDeployer\CRM2013SP1withProductUpdatesPackage folder if you have the [!INCLUDE[pn_crm_2013_sp_shortest](../../includes/pn-crm-2013-sp-shortest.md)] with Product Updates package, and USDPackageDeployer\ParatureKnowledgeManagementPackage folder if you have the Knowledge Management package.  
   
-5.  Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+5. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
-6.  Go to **Settings** > **Solutions**.   
+6. Go to **Settings** > **Solutions**.   
   
-7.  On the **Actions** toolbar, click **Import**.  
+7. On the **Actions** toolbar, click **Import**.  
   
-8.  Browse to the UiiForMicrosoftDynamicsCRM_3_0_managed.zip file in the appropriate folder as explained in step 4, and select to import it to update the existing solution in your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  
+8. Browse to the UiiForMicrosoftDynamicsCRM_3_0_managed.zip file in the appropriate folder as explained in step 4, and select to import it to update the existing solution in your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  
   
 9. The next page will display a yellow bar saying **This solution package contains an update for a solution that is already installed**. Review the information about the solution, and click **Next**.  
   

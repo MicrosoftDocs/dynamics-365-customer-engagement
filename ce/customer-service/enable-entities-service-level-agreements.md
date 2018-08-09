@@ -12,8 +12,7 @@ ms.date: 09/15/2017
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 8e93491c-4321-4816-ad4c-4e095015b10e
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
 ---
 
 # Enable entities for service level agreements (Customer Service)
@@ -24,23 +23,23 @@ Service level agreements are not just important in the customer service space, b
   
 Previously, you could only create SLAs for case records. With Dynamics CRM Onlin 2016 Update 1, you can now enable any of these entities for SLA:  
   
--   Account  
+- Account  
   
--   Contact  
+- Contact  
   
--   Order  
+- Order  
   
--   Invoice  
+- Invoice  
   
--   Quote  
+- Quote  
   
--   Opportunity  
+- Opportunity  
   
--   Lead  
+- Lead  
   
--   All activity entities like email, phone, and appointment, except recurring appointment and its instances.  
+- All activity entities like email, phone, and appointment, except recurring appointment and its instances.  
   
- SLAs can also be enabled for custom entities and custom activities.  
+  SLAs can also be enabled for custom entities and custom activities.  
   
 > [!IMPORTANT]
 >  Only enhanced SLAs can be created for other entities. A standard SLA can be created only for the Case entity.  
@@ -51,19 +50,19 @@ Previously, you could only create SLAs for case records. With Dynamics CRM Onlin
   
     #### Check your security role  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
 2. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-3.  Click **Customize the System**.  
+3. Click **Customize the System**.  
   
-4.  In the solution explorer, in the left nav pane, click the entity that you want to enable for SLA.  
+4. In the solution explorer, in the left nav pane, click the entity that you want to enable for SLA.  
   
-5.  Under **Communication & Collaboration**, select the **Enable for SLA** check box.  
+5. Under **Communication & Collaboration**, select the **Enable for SLA** check box.  
   
-6.  Click **Save**.  
+6. Click **Save**.  
   
-7.  Click **Publish**.  
+7. Click **Publish**.  
   
 > [!NOTE]
 > - The maximum number of entities that can have active SLAs for your organization is 7.  

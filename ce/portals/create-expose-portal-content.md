@@ -3,7 +3,7 @@ title: "Create and expose portal content easily in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create and expose portal content by using the administrative wizard in Dynamics 365."
 ms.custom:
   - dyn365-portal
-ms.date: 06/08/2018
+ms.date: 07/04/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,7 +12,7 @@ ms.assetid: 2B7078F0-661D-440F-903C-147EE8DD667F
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 
 # Create and expose portal content easily
@@ -21,28 +21,28 @@ The true potential of a portal connected with [!INCLUDE[pn-dynamics-crm](../incl
 
 **Web client**
 
-1.	Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
-2.	Go to **Portals** > **Administration** > **Portal Management**. The Portal Management page is displayed.
+2. Go to **Portals** > **Administration** > **Portal Management**. The Portal Management page is displayed.
 
-3.	Select **Create Portal Content**. The Create Portal Content window appears.
+3. Select **Create Portal Content**. The Create Portal Content window appears.
 
-4.	Specify the required details. If you need extra help, point to any field to read the tooltips.
+4. Specify the required details. If you need extra help, point to any field to read the tooltips.
 
-    > [!Note]
-    > - The **Select your website** field is prepopulated if only one website is available. The list is sorted alphabetically by the website name.
-    > - The **Parent page in the content hierarchy** field is prepopulated with the Home page.
-    > - The **Partial URL** field is populated based on the page name entered. If required, you can change the value.
-    > - The **Layout** field is prepopulated with the layout that is marked as default.
-    > - If you choose to expose the entity by selecting **Expose organization entities in the portal**, a few additional fields are displayed to gather information required to expose an entity by using entity forms and entity lists. If you need extra help, hover over any field to read the tooltips. You can also select multiple views.
+   > [!Note]
+   > - The **Select your website** field is prepopulated if only one website is available. The list is sorted alphabetically by the website name.
+   > - The **Parent page in the content hierarchy** field is prepopulated with the Home page.
+   > - The **Partial URL** field is populated based on the page name entered. If required, you can change the value.
+   > - The **Layout** field is prepopulated with the layout that is marked as default.
+   > - If you choose to expose the entity by selecting **Expose organization entities in the portal**, a few additional fields are displayed to gather information required to expose an entity by using entity forms and entity lists. If you need extra help, hover over any field to read the tooltips. You can also select multiple views.
 
-5.	Select **Create**.
+5. Select **Create**.
 
-    ![Create portal content using administrative wizard](media/create-portal-content.png "Create portal content by using the administrative wizard")  
+   ![Create portal content using administrative wizard](media/create-portal-content.png "Create portal content by using the administrative wizard")  
 
-**Dynamics 365 Portals app**
+**Dynamics 365 Portal app**
 
-1.	[Open the Dynamics 365 Portals app](provision-portal.md#open-dynamics-365-portals-app).
+1.	[Open the Dynamics 365 Portal app](provision-portal.md#open-dynamics-365-portal-app).
 
 2.	Go to **Portals** > **Create Portal Content**. The Create Portal Content window appears.
 

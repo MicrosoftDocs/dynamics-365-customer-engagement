@@ -47,23 +47,23 @@ Subscription lists are based on the standard (static) marketing lists feature of
 1. In [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], open the app selector, and then select the **Surveys** app module. (Marketing lists aren't included in the current version of the Marketing work area, so one place you can find them is in the Surveys app, which is included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. You could also use the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app.)  
     ![How to open the surveys app](media/app-selector-surveys.png "How to open the surveys app")
 
-1. The navigator for the Surveys app is a bit different from the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app: it's horizontal and displayed at the top of the screen. Use it to navigate to **Marketing** &gt; **Customers** &gt; **Marketing Lists**.  
+2. The navigator for the Surveys app is a bit different from the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app: it's horizontal and displayed at the top of the screen. Use it to navigate to **Marketing** &gt; **Customers** &gt; **Marketing Lists**.  
     ![How to open marketing lists in the surveys app](media/surveys-app-lists.png "How to open marketing lists in the surveys app")
 
-1. You now see a list of existing marketing lists, if any. On the toolbar, select **New** to create a new list.
+3. You now see a list of existing marketing lists, if any. On the toolbar, select **New** to create a new list.
 
-1. The **New Marketing List** page opens.  
+4. The **New Marketing List** page opens.  
     ![How to configure a list as a subscription list](media/subscription-list-example.png "How to configure a list as a subscription list")
 
     Make the following settings (at minimum):
-    - **Name**: Enter a descriptive name
-    - **Subscription**: Set to **True**.
-    - **Locked**: Set to **No**.
+   - **Name**: Enter a descriptive name
+   - **Subscription**: Set to **True**.
+   - **Locked**: Set to **No**.
 
-    > [!TIP]
-    > When you set **Subscription** to **True**, the **List Type** is automatically set to **Static** and **Targeted At** is automatically set to **Contact**. Both of these settings are consistent with the requirements of a subscription list, and they remain locked unless you change the **Subscription** setting.
+     > [!TIP]
+     > When you set **Subscription** to **True**, the **List Type** is automatically set to **Static** and **Targeted At** is automatically set to **Contact**. Both of these settings are consistent with the requirements of a subscription list, and they remain locked unless you change the **Subscription** setting.
 
-1. On the command bar, select **Save** to save your new subscription list.
+5. On the command bar, select **Save** to save your new subscription list.
 
 ## Add a subscription list to a subscription form
 
@@ -71,41 +71,41 @@ Now that you have a subscription list available, you can add it to a subscriptio
 
 1. If you are still in the **Surveys** app, use the app selector to go back to the **Marketing** app.
 
-1. In the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, go to **Marketing** &gt; **Internet Marketing** &gt; **Marketing Forms**.
+2. In the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, go to **Marketing** &gt; **Internet Marketing** &gt; **Marketing Forms**.
 
-1. You now see a list of forms. On the command bar, select **New** to create a new one.
+3. You now see a list of forms. On the command bar, select **New** to create a new one.
 
     > [!TIP]
     > You could instead edit an existing form by choosing it from the list, but for this exercise we'll describe how to create a new one. Note that if you edit an existing form, your edits will affect all marketing pages that use that form because forms are imported by reference, not copied to the page like template content.
 
-1. The **Select a Form Template** dialog box opens.  
+4. The **Select a Form Template** dialog box opens.  
     ![How to find a subscription center template](media/form-template-subcenter.png "How to find a subscription center template")
 
     Do the following:
     - It's important to select a template of the correct type (subscription center), so start by filtering the template list by choosing the **Type** tab, and then choose **Subscription center** from the drop-down list here.
     - Choose a template (we'll show the **1-Column Subscription Center** for this exercise), and then choose **Select**.
 
-1. Your selected template is now copied to your new form design.  
+5. Your selected template is now copied to your new form design.  
     ![Edit the heading inserted by the form template](media/form-headings-from-template.png "Edit the heading inserted by the form template")
 
     As you can see, the template has already provided the following:
-    - A basic contact-information form that includes several typical fields
-    - A **Do not email** check box (which is required for all subscription forms)
-    - A **Submit** button (which is required for all forms)
-    - Two headings with placeholder text surrounded with square brackets.
+   - A basic contact-information form that includes several typical fields
+   - A **Do not email** check box (which is required for all subscription forms)
+   - A **Submit** button (which is required for all forms)
+   - Two headings with placeholder text surrounded with square brackets.
 
-    Work directly on the canvas to select each of the placeholder headings (including the brackets) and replace them with actual headings (for example, **Update your contact information** and **Newsletter subscriptions**).
+     Work directly on the canvas to select each of the placeholder headings (including the brackets) and replace them with actual headings (for example, **Update your contact information** and **Newsletter subscriptions**).
 
-    > [!TIP]
-    > Many of the supplied templates for emails, pages, and forms employ this convention of using square brackets to mark instructional placeholder text. They also typically use pseudo-Latin ("lorem ipsum") text as a placeholder for body text, and sometimes example text for headlines, but these don't use square brackets because the text isn't instructional.
+     > [!TIP]
+     > Many of the supplied templates for emails, pages, and forms employ this convention of using square brackets to mark instructional placeholder text. They also typically use pseudo-Latin ("lorem ipsum") text as a placeholder for body text, and sometimes example text for headlines, but these don't use square brackets because the text isn't instructional.
 
-1. On the **Toolbox** tab, scroll down until you find the **Subscription Lists** heading. You should see the subscription list that you just made listed here, plus any others that were already in your system. Drag it from the **Toolbox** to the space under the **Newsletter subscriptions** heading.  
+6. On the **Toolbox** tab, scroll down until you find the **Subscription Lists** heading. You should see the subscription list that you just made listed here, plus any others that were already in your system. Drag it from the **Toolbox** to the space under the **Newsletter subscriptions** heading.  
     ![Add a subscription list to the form](media/from-add-subscription-list.png "Add a subscription list to the form")
 
     > [!TIP]
     > Only forms of type Subscription Center show subscription lists in the **Toolbox**.
 
-1. On the command bar, select **Save** to save your new form.
+7. On the command bar, select **Save** to save your new form.
 
 ## Create a subscription center marketing page
 
@@ -205,19 +205,15 @@ To set up a segment tile to target a subscription list:
 1. Set the **Segment source** to **Subscription Marketing List**, which activates the **Marketing List** field. Then set the **Marking List** to the name of the subscription list you want to use for this journey.  
     ![Set a segment tile to load a subscription list](media/cj-target-subscription-list.png "Set a segment tile to load a subscription list")
 
-
 > [!IMPORTANT]
 > When a customer journey targets a subscription list, then any contact that unsubscribes from that list using a subscription center will automatically be removed from that journey within about 24 hours, even if they are already partway through it. However, if a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] users removes a contact from the list manually using the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] interface, that contact will continue to be processed by any journeys they already are on, and may continue to receive messages until all active journeys are complete. For this reason, it is usually best to request all contacts to manage their own subscriptions using the subscription center.
 
-
-
 ### See also
 
-[Create and deploy marketing pages](create-deploy-marketing-pages.md)
+[Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Create a simple customer journey](create-simple-customer-journey.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
-[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
+[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)  
 [Find your way around](navigation.md)  
 [How Dynamics 365 for Marketing uses cookies](cookies.md)
-

@@ -10,8 +10,7 @@ ms.date: 02/20/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: f7241c02-a8ea-4b67-9d7b-428f91071090
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
 ---
 
 # Learn the basics of the Customer Service Hub
@@ -45,14 +44,14 @@ The Customer Service Hub app is available to use on a desktop browser and on a m
 
 **Desktop browser**
   
--   In the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application, go to **Settings** > **Application** > **My Apps** >  **Customer Service Hub**.   
+- In the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application, go to **Settings** > **Application** > **My Apps** >  **Customer Service Hub**.   
 
-     ![open-csh](media/open-csh.png "Open the Customer Service Hub")
+   ![open-csh](media/open-csh.png "Open the Customer Service Hub")
  
   
--    In the Dynamics 365 sitemap, navigate to the app switcher and then select **Customer Service Hub**.
+- In the Dynamics 365 sitemap, navigate to the app switcher and then select **Customer Service Hub**.
 
-     ![open-csh-sitemap](media/open-csh-sitemap.png "Customer Service Hub sitemap")
+  ![open-csh-sitemap](media/open-csh-sitemap.png "Customer Service Hub sitemap")
   
 **Mobile device**
 
