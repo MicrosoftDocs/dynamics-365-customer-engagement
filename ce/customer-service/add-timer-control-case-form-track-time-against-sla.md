@@ -4,7 +4,7 @@ description: Know how to add timer control in the case form to track time agains
 keywords: Timer control; Customer Service Hub; Microsoft Dynamics 365; Customer Service; Add a timer control to case form
 author: anjgupta
 ms.author: anjgup
-manager: shellyha
+manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice

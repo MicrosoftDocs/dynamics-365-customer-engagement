@@ -7,7 +7,7 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: shellyha
+manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: get-started-article
 ms.service: dynamics-365-customerservice
@@ -23,21 +23,6 @@ Easily set up and manage your customer service tasks from one place by using Ser
   
 > [!NOTE]
 > If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../customize/edit-entities.md#enable-or-disable-entity-options).
-
-<!--  
-
-## Access Service Management
-
-Use the Service manager to set up various service management tasks for customer service. You can access service management using either of the following ways:
-
-- In the Customer Service Hub sitemap, select **...** to go to Service Management. To know more about the Customer Service Hub sitemap, see [Understand the sitemap navigation](customer-service-hub-user-guide-basics.md#understand-the-sitemap-navigation).
-
-  ![Access service management](media/access-service-management-sitemap.png)
-
-- You can also select **...** from the service sitemap to access Service Management.  
-
-  ![Open service management](media/access-service-management.png)
---> 
 
 Use the following links to learn about Service Management tasks:  
   

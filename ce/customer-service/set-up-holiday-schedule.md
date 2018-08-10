@@ -7,7 +7,7 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: shellyha
+manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
@@ -43,14 +43,7 @@ Follow the procedure given below to create a new holiday schedule:
 7. In the **Add a Holiday** dialog box, specify the name and select the time of the holiday, and then click **OK**.  
   
    The holiday is created and associated with your customer service calendar. After the customer service schedule is associated to an SLA,  then your SLA during business hours is not affected. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define service level agreements](../customer-service/define-service-level-agreements.md)  
-  
-<!-- ## Additional actions
-
-- To edit an existing holiday schedule, go to **Service Management** > **Holiday Schedule**. The **All Holiday Schedules** view is displayed. Select the holiday schedule you want to edit from the list of holiday schedules and select **Edit** in the command bar.
-    - You can edit the **Name** or **Description**, or add new holidays for the holiday schedule. 
-    - By default, all the holidays of the current year are displayed. To switch to a different year, click and type the year as shown below:
-    
-- To print a holiday schedule, select **Print Preview** in the **Holidays** section of the particular holiday schedule. You can also export or import a holiday schedule in Excel format. -->
+ 
 
 ### See also  
  [Create a customer service schedule and define the work hours](../customer-service/create-customer-service-schedule-define-work-hours.md)   

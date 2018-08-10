@@ -7,7 +7,7 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: shellyha
+manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
@@ -29,8 +29,6 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)],  you can track m
   
 2. [!INCLUDE[proc_logo_settings](../includes/proc-logo-settings.md)]  
   
-   <!-- - You can view **Available** and **Selected** attributes in the form of two lists. Using the arrows **>**, **<**, **>>**, and **<<**, you can move the attributes from one list to another. -->
-    
 3. Choose **Settings** > **Service Management**.
 
 4. Click **Parent and Child case settings**.  

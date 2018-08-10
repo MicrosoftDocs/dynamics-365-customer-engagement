@@ -5,7 +5,7 @@ keywords: Customer Service Hub; Interactive Service hub; Keyboard shortcuts; Key
 author: anjgupta
 applies_to: Dynamics 365 (online); Dynamics 365 Version 8.x
 ms.author: anjgup
-manager: shellyha
+manager: shujoshi
 ms.date: 04/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice

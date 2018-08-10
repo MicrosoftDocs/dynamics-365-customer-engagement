@@ -5,7 +5,7 @@ keywords: Customer Service;  Microsoft Dynamics 365; Create and manage a case in
 author: anjgupta
 applies_to: Dynamics 365 (online) 
 ms.author: anjgup
-manager: shellyha
+manager: shujoshi
 ms.date: 09/30/2017
 ms.topic: get-started-article
 ms.service: dynamics-365-customerservice
@@ -275,11 +275,6 @@ The activity and notes area helps you keep track of all the interactions with yo
 ## Find what's assigned to you in a queue
 Quickly see the items assigned to you or that are available to work on by using queues in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Think of them as to-do lists that help you organize your work.  
   
-<!--
-> [!IMPORTANT]
->  For on-premises Dynamics 365 organizations, these features are available if you've installed [!INCLUDE[pn_crm_2013_service_pack_1_op_short](../includes/pn-crm-2013-service-pack-1-op-short.md)] or later, or if you’ve updated to [!INCLUDE[pn_crm_2015_shortest](../includes/pn-crm-2015-shortest.md)] or later.
->   
->  Interested in getting this feature?  [Find your Dynamics 365 administrator or support person](http://go.microsoft.com/fwlink/p/?LinkID=513070)-->  
   
 ### Find the queue items  
  Use the View list and Queue list to filter and find items in queues.  
@@ -401,10 +396,7 @@ Quickly see the items assigned to you or that are available to work on by using 
     -OR- 
 
     To assign the activity or case to another user or team to work on, select **User/Team**, and select the user or team. When you assign the activity or case to someone else to work on, the **Worked By** field is set to that user or team. You also have the option to remove the item from the queue.
-<!--  
-    > [!IMPORTANT]
-    >  If you’re using [!INCLUDE[pn_crm_2013_sp_shortest](../includes/pn-crm-2013-sp-shortest.md)] and you select **Look Up More Records**, you’ll only see business queues, which is the default view. Business queues only include user-created queues and leave out all user and team queues. You can’t set a different view as the default view. To choose a different queue, in the **Look Up Records** dialog box, in the **Look in** list, select the **All Queues** view. 
---> 
+
      
 ### Remove an activity or case from a queue  
   
@@ -448,10 +440,7 @@ When a case is merged, the state of the case is changed to canceled, and the sta
   
 - You can only merge a child case into another child case if both of the child cases have the same parent case.  
 
-<!--
-> [!IMPORTANT]
-> This feature was added in CRM 2016 (on-premises)
--->  
+
 
 To merge similar cases:
 
@@ -474,10 +463,7 @@ You can manage multiple cases more efficiently if you use parent and child cases
   
  Note, a child case can’t have a child case.  
 
-<!--
-> [!IMPORTANT]
-> This feature was added in CRM 2016 (on-premises).
--->  
+
   
  ![How to associate a child case in Dynamics 365](../customer-service/media/gs-create-child-case.png "How to associate a child case in Dynamics 365")  
   

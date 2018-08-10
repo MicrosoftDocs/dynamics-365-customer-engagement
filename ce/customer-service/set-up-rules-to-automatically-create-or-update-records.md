@@ -7,7 +7,7 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: shellyha
+manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
@@ -99,10 +99,6 @@ If your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance mee
   
 3. Select **Automatic Record Creation and Update Rules**.
 
-<!--   
-2.  In the Customer Service Hub sitemap, go to **Service Management** and select **Automatic Record Creation and Update Rules**.
-
- -->
   
 4.  To create a record creation and update rule, click **New**.  
   
@@ -231,7 +227,6 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 > [!TIP]
 >  Developers can also apply rules retroactively to the incoming [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records that might have been skipped while a rule was edited. 
 
-<!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [ApplyRecordCreationAndUpdateRuleRequest Class](../developer/webapireference/actions/applyrecordcreationandupdaterule.md)  -->
 
 ## Set up channel properties  
  Every default or custom activity has an **Additional Parameters** attribute. This attribute stores the JSON payload received from an external application.  

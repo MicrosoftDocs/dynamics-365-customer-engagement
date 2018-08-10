@@ -5,7 +5,7 @@ keywords: Customer Service Hub; Interactive service hub; Upgrade from Interactiv
 author: anjgupta
 applies_to: Dynamics 365 (online) 
 ms.author: anjgup
-manager: shellyha
+manager: shujoshi
 ms.date: 07/12/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice

@@ -7,7 +7,7 @@ ms.date: 09/15/2017
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.author: anjgup
-manager: shellyha
+manager: shujoshi
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"

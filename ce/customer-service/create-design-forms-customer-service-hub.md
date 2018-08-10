@@ -4,7 +4,7 @@ description: Know how to create and design main forms for Customer Service Hub
 keywords: Create and design forms; Main forms; Customer service; Customer Service Hub; Dynamics 365; Main form supported entities; Types of forms; Assign form order  
 author: anjgupta
 ms.author: anjgup
-manager: shellyha
+manager: shujoshi
 ms.date: 06/01/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article

@@ -4,7 +4,7 @@ description: Know how to add the Knowledge Base Search control to Dynamics 365 C
 keywords: Knowledge base search control; Customer service; Customer Service Hub; Dynamics 365; Add the Knowledge Base Search control to Main forms; 
 author: anjgupta
 ms.author: anjgup
-manager: shellyha
+manager: shujoshi
 ms.date: 06/01/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article

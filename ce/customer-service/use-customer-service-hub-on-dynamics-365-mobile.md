@@ -5,7 +5,7 @@ keywords: Customer Service Hub on mobile; Customer Service;  Microsoft Dynamics 
 author: anjgupta
 applies_to: Dynamics 365 (online) 
 ms.author: anjgup
-manager: shellyha
+manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice

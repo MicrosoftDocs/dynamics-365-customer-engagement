@@ -7,7 +7,7 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: shellyha
+manager: shujoshi
 ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
@@ -136,7 +136,7 @@ Define what kind of support your customers are eligible for by creating entitlem
    When an entitlement is active, you can’t edit it. To deactivate an entitlement so you can edit it, on the command bar, click **Deactivate**.  
   
 ## Set as default entitlement  
- <!--If you’re on [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] or later, y-->You can activate the entitlement and then set it as the default entitlement for a customer. The entitlement terms from the associated entitlement are automatically decremented. However, if you don’t want the entitlement terms to be decremented for a case, click <strong>Do not decrement entitlement terms</strong> on the command bar.  
+ You can activate the entitlement and then set it as the default entitlement for a customer. The entitlement terms from the associated entitlement are automatically decremented. However, if you don’t want the entitlement terms to be decremented for a case, click <strong>Do not decrement entitlement terms</strong> on the command bar.  
   
 1. On the command bar, click **Set As Default**.  
   

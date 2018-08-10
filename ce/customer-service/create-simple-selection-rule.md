@@ -7,10 +7,11 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: sakudes
+manager: shujoshi
 ms.date: 09/15/2017
 ms.topic: article
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
+ms.custom: dyn365-customerservice
 ms.assetid: 53a455a1-a107-4a70-9971-c6a5d59fda7a
 ---
 
