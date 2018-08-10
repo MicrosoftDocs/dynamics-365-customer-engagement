@@ -33,11 +33,6 @@ After signing in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engageme
 
 ![Provide feedback in Social Engagement](media/feedback-prompt.png)
 
-### Introducing 5 new search languages and localization of the user interface
-
-Bosnian, Croatian, Serbian, Slovenian, and Thai are now available as search languages in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Additionally, we're introducing the translations for those languages across the user interface.   
-For more information about the available languages, see the [Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086). 
-
 ### Compliance stream for WordPress comments and Disqus
 
 When a comment on WordPress is removed by the author, it's also removed from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] databases. 
