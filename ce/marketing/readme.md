@@ -8,8 +8,8 @@ applies_to:
 - "Dynamics 365 Version 9.x"
 ms.assetid: 78dc5157-cf1d-4e32-ace7-9e71763e7510
 author: ReneeW-CPub
-ms.author: renwe
-manager: annbe
+ms.author: shsuri
+manager: mauromar
 ---
 
 # Dynamics 365 for Marketing Readme (Known Issues)
@@ -25,23 +25,33 @@ This document provides important, late-breaking information about known issues a
 ## Configuration, installation, and first-run experience
 
 - The first-run experience to fully deploy the Marketing app might take up to two hours. During this process, retries might happen automatically, causing success (failure) notification by email.
+
+### Fixed
 - <del>First-run experience success and failure emails sometimes aren't delivered. </del> You would get an email summarizing the outcome once the setup is completed.
 
 ## Customer journeys
 
-- Setting triggers on specific "link clicked" after the email tile shows multiple options for the same link. Triggers might not work correctly because clicks are not always attributed to the correct link.
-- Deactivated contacts won't get any further emails from journeys they were participating in, but they might continue to be included in other actions, such as tasks and workflows.
+- Setting triggers on specific "link clicked" after the email tile shows multiple options for the same link. Triggers might not work correctly because clicks are not always attributed to the correct link. <!--- 759533 - Marketing Backlog -->
+- Deactivated contacts won't get any further emails from journeys they were participating in, but they might continue to be included in other actions, such as tasks and workflows. <!--- 759533 - Marketing Backlog -->  
 - Insights (across journeys, emails and marketing pages) may take up to six hours to display.
-- The Snapshot view generated for journeys might be missing some tiles.
-- The “checking for errors” operation triggered in the customer journey’s General tab results in a time-out. Users can continue   to “check for errors” from the Designer tab.
+
+- If a live customer journey is stopped, and contacts are added to the base segment, and then the journey is restarted, these added contacts might get the emails sent via this journey more than once. <!---1196442 - October Release-->
+
+### Fixed
+- <del>The “checking for errors” operation triggered in the customer journey’s General tab results in a time-out. Users can continue   to “check for errors” from the Designer tab.</del> Users can check for errors from both General and Designer tab on the customer journey. <!---1208237 dependency - pushed to production on 10th Aug 2018-->
+- <del>The Snapshot view generated for journeys might be missing some tiles.</del> The Snapshot view generated for a customer journey displays all tiles. <!--- 690797 -->
 
 ## Segmentation
 
-- Segment names can't have spaces&mdash;use underscores instead.
-- Segmentation doesn't work on lookup fields.
-- Metadata used for building conditions and drop-downs shown on the designer is not localized for non-English organizations.
-- The **Save** button is not visible on the command bar after the initial save of the segment. Use the **Save** button in the lower-right corner of the page instead.
+- Segment names can't have spaces&mdash;use underscores instead.<!---695837 - Marketing Backlog-->
+- Segmentation doesn't work on lookup fields.<!---852372 - Marketing Backlog-->  
+- Metadata used for building conditions and drop-downs shown on the designer is not localized for non-English organizations. <!--- 992449 - Marketing Backlog -->
+- The **Save** button is not visible on the command bar after the initial save of the segment. Use the **Save** button in the lower-right corner of the page instead. <!--- 862491 - Marketing Backlog -->
+- When trying to estimate the size of a segment where the query doesn't end in a contact, the system display a server communication error. To correct this error, refer to the product documentation on creating segments here. <!--- 1226384 Backlog-->
+
+### Fixed
 - <del>Dynamic segments based on subscription marketing lists don't remove unsubscribed contacts from running journeys. The unsubscribe request will be honored in future journeys </del>. Journeys can use subscription lists that remove unsubscribed contacts from running journeys.
+
 
 
 ## Email marketing
@@ -50,13 +60,13 @@ This document provides important, late-breaking information about known issues a
 - Selecting **Stop** on a live email will prevent its use on future journeys, but its use on live journeys continues unaffected, and emails are delivered.
 - Reusing the same email multiple times (within the same journey or in different journeys) produces incorrect performance results, as shown on the **Insights** pages.
 - Many email templates have placeholder images. You should replace these placeholder images with actual images so that marketing emails look professional.
-- The keyword grid is not displayed when you save a newly created keyword but the record is created successfully.
+- The keyword grid is not displayed when you save a newly created keyword but the record is created successfully. <!--- 1033440 - October Release -->
 
 ## Marketing pages and forms
 
 - When configuring a form on a page, we recommend that you enter a confirmation message or a redirect URL, so users can see that they successfully submitted the form.
 - It can take up to a minute after a marketing page goes live before its public link (full page URL) is ready. Visitors might see an error message on the page prior to this.
-- Marketing pages from the sample data do not go live in certain organizations (Italian, Japanese). A new marketing page can still be created and pushed live.
+- Marketing pages from the sample data do not go live in certain organizations (Italian, Japanese). A new marketing page can still be created and pushed live. <!--- 1156824 - October Release -->
 
 ## Lead scoring and management
 
@@ -65,7 +75,7 @@ This document provides important, late-breaking information about known issues a
 
 ## Event management
 
-- When an existing Dynamics 365 contact tries to register for an event, they can’t register directly from the portal using the email ID in their Dynamics 365 contact record. The workaround is to create a portal invitation, add contacts to this invitation, and then send the invitation code to the contact in the email.
+- When an existing Dynamics 365 contact tries to register for an event (where anonymous registrations are turned off), they can’t register directly from the portal using the email ID in their Dynamics 365 contact record. The workaround is to create a portal invitation, add contacts to this invitation, and then send the invitation code to the contact in the email.
 - Even though surveys show up in the app (such as for emails, journeys, and events), this feature currently has limited functionality. Anonymous surveys can be added to emails but cannot serve as triggers on customer journeys. Contact the Support team for more information.
 
 ## General
