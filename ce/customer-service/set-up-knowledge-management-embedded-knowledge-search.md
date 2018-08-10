@@ -1,21 +1,21 @@
 ---
-title: Set up knowledge management (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: See how to set up knowledge management in Dynamics 365 for Customer Service
-keywords: Set up knowledge management; Dynamics 365; Customer Service
+title: Set up knowledge management using embedded knowledge search (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: See how to set up knowledge management using embedded knowledge search in Dynamics 365 for Customer Service
+keywords: Set up knowledge management; Dynamics 365; Customer Service; using Embedded knowledge search; service manager
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: shellyha
-ms.date: 09/15/2017
+manager: shujoshi
+ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 68356343-fdd5-4c0e-9c09-dbebf718c764
 ms.custom: dyn365-customerservice
 ---
 
-# Set up knowledge management (Customer Service)
+# Set up knowledge management using embedded knowledge search
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -38,7 +38,6 @@ After knowledge management is set up, users will be able to:
   
 - Give timely and consistent information to customers when working on their cases by using actions like opening the article and sharing the information or emailing the article link to customers.   
   
-<a name="BKMK_Setup"></a>   
 ## Set up knowledge management  
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] You must also be the tenant administrator of [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].  

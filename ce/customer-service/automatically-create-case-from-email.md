@@ -1,21 +1,21 @@
 ---
 title: Automatically create a case from an email (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to create a case from an email in Dynamics 365 for Customer Service
-keywords: Case; Email;  Dynamics 365; Customer Service
+description: Know how to automatically create a case from an email in Dynamics 365 for Customer Service
+keywords: Automatically create a case from an email; Dynamics 365; Customer Service; Create cases automatically using rules; Activate or deactivate a case creation rule
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: shellyha
-ms.date: 09/30/2017
+manager: shujoshi
+ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 6331648f-e0f5-4e67-9a18-08fdb22ba879
 ms.custom: dyn365-customerservice
 ---
 
-# Automatically create a case from an email (Customer Service)
+# Automatically create a case from an email
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -38,7 +38,7 @@ Reduce the need for manually creating cases from incoming emails and increase th
 
 2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
 
-3. Click **Automatic Case Creation Rules**.  
+3. Select **Automatic Case Creation Rules**.  
 
 4. To create a new case creation rule, click **New**.  
 
@@ -129,6 +129,6 @@ Reduce the need for manually creating cases from incoming emails and increase th
  You can create or manage an automatic case creation rule from a queue form, too. To do this, open the queue record, and on the command bar, click **Email to Case Settings**.  
 
 ### See also  
- [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   
+ [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)    </br>
  [Create or change a queue](../customer-service/create-edit-queue.md)   
 
