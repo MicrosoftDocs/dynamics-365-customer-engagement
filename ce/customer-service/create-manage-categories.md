@@ -1,5 +1,5 @@
 ---
-title: Create and manager categories (Dynamics 365 for Customer Service) | MicrosoftDocs
+title: Create and manage categories (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Know how to create and manage categories for Customer Service for Dynamics 365
 keywords: Create and manage categories; Dynamics 365; Customer Service Hub; Service manager
 author: anjgupta
