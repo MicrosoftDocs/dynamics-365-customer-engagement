@@ -157,7 +157,7 @@ All customer journeys are active for a limited time. During this time, the journ
 
 ### Set up a recurring journey
 
-Usually, the journey takes each contact through its pipeline exactly once. Even if you use several segments, and a given contact appears in more than one of them, each contact is processed at most once. However, you can also set up a recurring journey in which all contacts are reprocessed at a regular interval during the active period. All segment membership criteria are re-evaluated at the start of each iteration, so contacts can be added or removed between cycles.
+Usually, a journey takes each contact through its pipeline exactly once. Even if you use several segments, and a given contact appears in more than one of them, each contact is processed at most once. However, you can also set up a recurring journey in which all contacts are reprocessed at regular intervals during the active period. All segment membership criteria are re-evaluated at the start of each iteration, so contacts can be added or removed between cycles.
 
 To set up a recurring journey:
 
