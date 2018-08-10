@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 Customer Engagement Readme (Known Issues) | MicrosoftDocs"
-ms.date: 07/27/2018
+ms.date: 08/08/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
@@ -20,38 +20,6 @@ This document provides important information about this product version:
 -   Dynamics 365 (online), Enterprise edition, version 9.0
 
 You'll also find information about known issues and possible workarounds.
-
-Services and apps availability
--------------------------------
-
-| Services and Apps                                    | GA | Public Preview | Private Preview |
-|------------------------------------------------------|----|----------------|-----------------|
-| Dynamics 365 for Sales                               | X  |                |                 |
-| Dynamics 365 for Customer Service                    | X  |                |                 |
-| Dynamics 365 for Field Service                       | X  |                |                 |
-| Dynamics 365 for Project Service                     | X  |                |                 |
-| Portal capabilities for Dynamics 365                 | X  |                |                 |
-| Relevance Search Enhancements                        | X  |                |                 |
-| Learning Path                                        | X  |                |                 |
-| Resource Scheduling Optimization                     | X  |                |                 |
-| Glympse                                              | X  |                |                 |
-| Connected Field Service (Internet of Things)         | X  |                |                 |
-| Machine Learning                                     | X  |                |                 |
-| Office 365 Group                                     | X  |                |                 |
-| Gamification                                         | X  |                |                 |
-| Organizational Insights                              | X  |                |                 |
-| CaféX Live Assist                                    | X  |                |                 |
-| Document recommendations                             | X  |                |                 |
-| Company News                                         | X  |                |                 |
-| Unified Service Desk                                 | X  |                |                 |
-| Voice of the Customer                                | X  |                |                 |
-| Dynamics 365 App for Outlook                         | X  |                |                 |
-| Embedded intelligence – Auto capture                 | X  |                |                 |
-| Embedded intelligence – Relationship assistant       | X  |                |                 |
-| Embedded intelligence – Email engagement             | X  |                |                 |
-| LinkedIn (Lead Gen Forms only)                       |    | X              |                 |
-| Mobile offline (Dynamics 365 for phones and tablets) | X  |                |                 |
-| Sales insights add-on – Relationship analytics       |    | X              |                 |
 
 Transport Layer Security (TLS) Requirements
 -------------------------------------------

@@ -16,6 +16,7 @@ caps.latest.revision: 17
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
+robots: noindex,nofollow
 ---
 # Preview feature: Integrate Dynamics 365 Customer Engagement with Microsoft Teams 
 
