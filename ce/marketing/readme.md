@@ -20,7 +20,7 @@ This document provides important, late-breaking information about known issues a
 
 - Trials are subject to the [Dynamics 365 for Marketing trial limits and restrictions](https://go.microsoft.com/fwlink/p/?linkid=864735).
 - You can't use the sign-up process to add more users to a Marketing trial that is running on a trial tenant without a mailbox set up for the organization admin. Instead, each new user must be added in a specific way. For more information, see [Sign up for a free trial of Dynamics 365 for Marketing](trial-signup.md)
-- You can't sign up using an \@microsoft.com email address.
+- You can't sign up using an \@microsoft.com email address. <i> what do they do then? contact someone etc. also it really only for msft.com, or generic issue </i>
 
 ## Configuration, installation, and first-run experience
 
@@ -39,7 +39,7 @@ This document provides important, late-breaking information about known issues a
 
 ### Fixed
 - <del>The “checking for errors” operation triggered in the customer journey’s General tab results in a time-out. Users can continue   to “check for errors” from the Designer tab.</del> Users can check for errors from both General and Designer tab on the customer journey. <!---1208237 dependency - pushed to production on 10th Aug 2018-->
-- <del>The Snapshot view generated for journeys might be missing some tiles.</del> The Snapshot view generated for a customer journey displays all tiles. <!--- 690797 -->
+- <del>The Snapshot view generated for journeys might be missing some tiles.</del> The Snapshot view generated for a customer journey displays all tiles. <!--- 690797 --> <i> nothng has really been fixed on screenshot AFAIK complex journeys, zoom in/out, using fullscreen designer breaks <i>
 
 ## Segmentation
 
@@ -59,8 +59,8 @@ This document provides important, late-breaking information about known issues a
 - The default content settings records must be live before you can send any marketing emails or generate heatmaps on the **Insights** pages. The content settings records should automatically go live when your setup is complete. However, this might not always be the case. More information: [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#content-settings)
 - Selecting **Stop** on a live email will prevent its use on future journeys, but its use on live journeys continues unaffected, and emails are delivered.
 - Reusing the same email multiple times (within the same journey or in different journeys) produces incorrect performance results, as shown on the **Insights** pages.
-- Many email templates have placeholder images. You should replace these placeholder images with actual images so that marketing emails look professional.
-- The keyword grid is not displayed when you save a newly created keyword but the record is created successfully. <!--- 1033440 - October Release -->
+- Many email templates have placeholder images. You should replace these placeholder images with actual images so that marketing emails look professional. <i>do we really know this is still the case? do we have a list of broken images</i>
+- The keyword grid is not displayed when you save a newly created keyword but the record is created successfully. <!--- 1033440 - October Release --> **not clear where are these keywordsa are, on templates**
 
 ## Marketing pages and forms
 
@@ -70,12 +70,12 @@ This document provides important, late-breaking information about known issues a
 
 ## Lead scoring and management
 
-- Lead scoring results might take up to one hour to be calculated.
-- While creating lead scoring rules, drop-downs might not be localized for non-English languages.
+- Lead scoring results might take up to one hour to be calculated. **this is very generic, ssame is true for segment etc**
+- While creating lead scoring rules, drop-downs might not be localized for non-English languages.**is this language specific, or field specific **
 
 ## Event management
 
-- When an existing Dynamics 365 contact tries to register for an event (where anonymous registrations are turned off), they can’t register directly from the portal using the email ID in their Dynamics 365 contact record. The workaround is to create a portal invitation, add contacts to this invitation, and then send the invitation code to the contact in the email.
+- When an existing Dynamics 365 contact tries to register for an event (where anonymous registrations are turned off), they can’t register directly from the portal using the email ID in their Dynamics 365 contact record. The workaround is to create a portal invitation, add contacts to this invitation, and then send the invitation code to the contact in the email.**this needs rewording, sounds that event registration wont work for known contacts in my CRMDB**
 - Even though surveys show up in the app (such as for emails, journeys, and events), this feature currently has limited functionality. Anonymous surveys can be added to emails but cannot serve as triggers on customer journeys. Contact the Support team for more information.
 
 ## General
