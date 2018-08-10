@@ -39,7 +39,7 @@ This document provides important, late-breaking information about known issues a
 
 ### Fixed
 - <del>The “checking for errors” operation triggered in the customer journey’s General tab results in a time-out. Users can continue   to “check for errors” from the Designer tab.</del> Users can check for errors from both General and Designer tab on the customer journey. <!---1208237 dependency - pushed to production on 10th Aug 2018-->
-- <del>The Snapshot view generated for journeys might be missing some tiles.</del> The Snapshot view generated for a customer journey displays all tiles. <!--- 690797 --> <i> nothng has really been fixed on screenshot AFAIK complex journeys, zoom in/out, using fullscreen designer breaks <i>
+- <del>The Snapshot view generated for journeys might be missing some tiles.</del> The Snapshot view generated for a customer journey displays all tiles. <!--- 690797 --> **nothng has really been fixed on screenshot AFAIK complex journeys, zoom in/out, using fullscreen designer breaks**
 
 ## Segmentation
 
