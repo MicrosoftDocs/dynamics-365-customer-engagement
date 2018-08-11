@@ -36,13 +36,16 @@ The following table lists the new methods you should use instead of the deprecat
 
 |Deprecated Method | New method to be used | 
 | ------------- |-------------|
-|[alertDialog](https://msdn.microsoft.com/library/jj602956.aspx#BKMK_alertDialog)|Xrm.Navigation.[openAlertDialog](Xrm-Navigation/openAlertDialog.md)|
-|[confirmDialog](https://msdn.microsoft.com/library/jj602956.aspx#BKMK_confirmDialog)|Xrm.Navigation.[openConfirmDialog](Xrm-Navigation/openConfirmDialog.md)|
-|[getBarcodeValue](https://msdn.microsoft.com/library/jj602956.aspx#BKMK_getBarcodeValue)|Xrm.Device.[getBarcodeValue](Xrm-Device/getBarcodeValue.md)|
-|[getCurrentPosition](https://msdn.microsoft.com/library/jj602956.aspx#BKMK_getCurrentPosition)|Xrm.Device.[getCurrentPosition](Xrm-Device/getCurrentPosition.md)|
-|[openEntityForm](https://msdn.microsoft.com/library/jj602956.aspx#BKMK_OpenEntityForm)|Xrm.Navigation.[openForm](Xrm-Navigation/openForm.md)|
-|[openQuickCreate](https://msdn.microsoft.com/library/jj602956.aspx#BKMK_openQuickCreate)|Xrm.Navigation.[openForm](Xrm-Navigation/openForm.md)|
-|[openWebResource](https://msdn.microsoft.com/library/jj602956.aspx#BKMK_OpenWebResource)|Xrm.Navigation.[openWebResource](Xrm-Navigation/openWebResource.md)|
+|Xrm.Utility.[alertDialog](https://docs.microsoft.com/previous-versions/dynamicscrm-2015/developers-guide/jj602956(v%3dcrm.7)#alertdialog)|Xrm.Navigation.[openAlertDialog](Xrm-Navigation/openAlertDialog.md)|
+|Xrm.Utility.[confirmDialog](https://docs.microsoft.com/previous-versions/dynamicscrm-2015/developers-guide/jj602956(v=crm.7)#confirmdialog)|Xrm.Navigation.[openConfirmDialog](Xrm-Navigation/openConfirmDialog.md)|
+|`Xrm.Utility.getBarcodeValue`|Xrm.Device.[getBarcodeValue](Xrm-Device/getBarcodeValue.md)|
+|`Xrm.Utility.getCurrentPosition`|Xrm.Device.[getCurrentPosition](Xrm-Device/getCurrentPosition.md)|
+|Xrm.Utility.[openEntityForm](https://docs.microsoft.com/previous-versions/dynamicscrm-2015/developers-guide/jj602956(v%3dcrm.7)#openentityform
+)|Xrm.Navigation.[openForm](Xrm-Navigation/openForm.md)|
+|Xrm.Utility.[openQuickCreate](https://docs.microsoft.com/previous-versions/dynamicscrm-2015/developers-guide/jj602956(v=crm.7)#openquickcreate
+)|Xrm.Navigation.[openForm](Xrm-Navigation/openForm.md)|
+|Xrm.Utility.[openWebResource](https://docs.microsoft.com/previous-versions/dynamicscrm-2015/developers-guide/jj602956(v=crm.7)#openwebresource
+)|Xrm.Navigation.[openWebResource](Xrm-Navigation/openWebResource.md)|
 
 
 ### Related topics
