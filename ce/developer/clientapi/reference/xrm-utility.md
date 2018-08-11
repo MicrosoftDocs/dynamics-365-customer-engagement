@@ -35,7 +35,7 @@ Provides a container for useful methods.
 The following table lists the new methods you should use instead of the deprecated methods in the **Xrm.Utility** namespace. These methods were deprecated in [!INCLUDE[pn_crm_9_0_0_online](../../../includes/pn-crm-9-0-0-online.md)].
 
 |Deprecated Method | New method to be used | 
-| ------------- |-------------|
+|------------- |-------------|
 |Xrm.Utility.[alertDialog](https://docs.microsoft.com/previous-versions/dynamicscrm-2015/developers-guide/jj602956(v%3dcrm.7)#alertdialog)|Xrm.Navigation.[openAlertDialog](Xrm-Navigation/openAlertDialog.md)|
 |Xrm.Utility.[confirmDialog](https://docs.microsoft.com/previous-versions/dynamicscrm-2015/developers-guide/jj602956(v=crm.7)#confirmdialog)|Xrm.Navigation.[openConfirmDialog](Xrm-Navigation/openConfirmDialog.md)|
 |Xrm.Utility.getBarcodeValue|Xrm.Device.[getBarcodeValue](Xrm-Device/getBarcodeValue.md)|
