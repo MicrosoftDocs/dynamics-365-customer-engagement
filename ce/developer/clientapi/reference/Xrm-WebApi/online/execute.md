@@ -91,7 +91,7 @@ On success, returns a promise object with the attributes specified earlier in th
 
 ### Execute an action
 
-The following example demonstrates how to execute the <xref:Microsoft.Dynamics.CRM.WinOpportunity> action. The request object is created based on the action definition here: [Unbound actions](../../../webapi/use-web-api-actions.md#bkmk_unboundActions)
+The following example demonstrates how to execute the <xref:Microsoft.Dynamics.CRM.WinOpportunity> action. The request object is created based on the action definition here: [Unbound actions](../../../../webapi/use-web-api-actions.md#bkmk_unboundActions)
 
 ```JavaScript
 var Sdk = window.Sdk || {};
@@ -192,8 +192,7 @@ Xrm.WebApi.online.execute(whoAmIRequest).then(
  
 ### Related topics
 
-
-[Xrm.WebApi](../xrm-webapi.md)
+[Xrm.WebApi.online](../online.md)
 
 
 
