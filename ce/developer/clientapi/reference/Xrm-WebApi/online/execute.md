@@ -15,8 +15,10 @@ manager: "amyla"
 
 [!INCLUDE[./includes/execute-description.md](../includes/execute-description.md)]
 
+This method is supported only for the online mode, which implies that you must use the [Xrm.WebApi.online](../online.md) object to execute the method. Otherwise, it will fail.
+
 > [!NOTE]
-> This method isn't supported for [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9#unified-interface-framework-for-new-apps). Also, this method is supported only for the online mode, which implies that you must use the [Xrm.WebApi.online](../online.md) object to execute the method. Otherwise, it will fail.
+> This method isn't supported for [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9#unified-interface-framework-for-new-apps).
 
 ## Syntax
 
