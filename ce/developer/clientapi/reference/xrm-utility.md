@@ -36,14 +36,15 @@ The following table lists the new methods you should use instead of the deprecat
 
 |Deprecated Method |New method to be used | 
 |-------------|-------------|
-|Xrm.Utility.[alertDialog](https://docs.microsoft.com/previous-versions/dynamicscrm-2015/developers-guide/jj602956(v%3dcrm.7)#alertdialog)|Xrm.Navigation.[openAlertDialog](Xrm-Navigation/openAlertDialog.md)|
-|Xrm.Utility.[confirmDialog](https://docs.microsoft.com/previous-versions/dynamicscrm-2015/developers-guide/jj602956(v=crm.7)#confirmdialog)|Xrm.Navigation.[openConfirmDialog](Xrm-Navigation/openConfirmDialog.md)|
+|Xrm.Utility.alertDialog|Xrm.Navigation.[openAlertDialog](Xrm-Navigation/openAlertDialog.md)|
+|Xrm.Utility.confirmDialog|Xrm.Navigation.[openConfirmDialog](Xrm-Navigation/openConfirmDialog.md)|
 |Xrm.Utility.getBarcodeValue|Xrm.Device.[getBarcodeValue](Xrm-Device/getBarcodeValue.md)|
 |Xrm.Utility.getCurrentPosition|Xrm.Device.[getCurrentPosition](Xrm-Device/getCurrentPosition.md)|
-|Xrm.Utility.[openEntityForm](https://docs.microsoft.com/previous-versions/dynamicscrm-2015/developers-guide/jj602956(v%3dcrm.7)#openentityform)|Xrm.Navigation.[openForm](Xrm-Navigation/openForm.md)|
-|Xrm.Utility.[openQuickCreate](https://docs.microsoft.com/previous-versions/dynamicscrm-2015/developers-guide/jj602956(v=crm.7)#openquickcreate)|Xrm.Navigation.[openForm](Xrm-Navigation/openForm.md)|
-|Xrm.Utility.[openWebResource](https://docs.microsoft.com/previous-versions/dynamicscrm-2015/developers-guide/jj602956(v=crm.7)#openwebresource)|Xrm.Navigation.[openWebResource](Xrm-Navigation/openWebResource.md)|
+|Xrm.Utility.openEntityForm|Xrm.Navigation.[openForm](Xrm-Navigation/openForm.md)|
+|Xrm.Utility.openQuickCreate|Xrm.Navigation.[openForm](Xrm-Navigation/openForm.md)|
+|Xrm.Utility.openWebResource|Xrm.Navigation.[openWebResource](Xrm-Navigation/openWebResource.md)|
 
+More information: [Deprecated client APIs](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#some-client-apis-are-deprecated)
 
 ### Related topics
 
@@ -52,6 +53,4 @@ The following table lists the new methods you should use instead of the deprecat
 [Client API Xrm object](../clientapi-xrm.md)
 
 [Client API reference](../reference.md)
-
-[Deprecated client APIs](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#some-client-apis-are-deprecated)
 
