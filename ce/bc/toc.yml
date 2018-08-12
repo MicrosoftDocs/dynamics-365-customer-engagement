@@ -91,7 +91,7 @@
                 topicHref: /dynamics365/customer-engagement/developer/clientapi/reference/xrm-webapi/execute
               - name: executeMultiple
                 tocHref: /dynamics365/customer-engagement/developer/clientapi/reference/xrm-webapi/executeMultiple
-                topicHref: /dynamics365/customer-engagement/developer/clientapi/reference/xrm-webapi/execute/Multiple
+                topicHref: /dynamics365/customer-engagement/developer/clientapi/reference/xrm-webapi/executeMultiple
 
       - name: Online Management API
         tocHref: /dynamics365/customer-engagement/developer/online-management-api/
