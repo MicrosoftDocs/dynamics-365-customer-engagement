@@ -1,1 +1,0 @@
-Get the ID of this entity.

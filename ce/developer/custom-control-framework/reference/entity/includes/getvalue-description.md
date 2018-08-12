@@ -1,1 +1,0 @@
-Get the current value of this entity attribute.
