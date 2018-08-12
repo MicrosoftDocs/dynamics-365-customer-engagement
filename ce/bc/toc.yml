@@ -71,12 +71,12 @@
       topicHref: /dynamics365/customer-engagement/developer/index
       items:
       - name: Client Scripting
-        tocHref: /dynamics365/customer-engagement/developer/clientapi/client-scripting/
-        topicHref: /dynamics365/customer-engagement/developer/clientapi/client-scripting/
+        tocHref: /dynamics365/customer-engagement/developer/clientapi/
+        topicHref: /dynamics365/customer-engagement/developer/clientapi/client-scripting
         items:
         - name: Client API reference
           tocHref: /dynamics365/customer-engagement/developer/clientapi/reference/
-          topicHref: /dynamics365/customer-engagement/developer/clientapi/reference/
+          topicHref: /dynamics365/customer-engagement/developer/clientapi/reference
       - name: Online Management API
         tocHref: /dynamics365/customer-engagement/developer/online-management-api/
         topicHref: /dynamics365/customer-engagement/developer/online-management-api
