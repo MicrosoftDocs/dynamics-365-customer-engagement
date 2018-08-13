@@ -9,15 +9,14 @@ author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
 ---
-# execute (Client API reference)
+# Xrm.WebApi.online.execute (Client API reference)
 
 [!INCLUDE[](../../../../../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[./includes/execute-description.md](../includes/execute-description.md)]
 
 > [!NOTE]
-> - This method is supported only for the online mode, which implies that you must use the [Xrm.WebApi.online](../online.md) object to execute the method. Otherwise, it will fail.
-> - This method isn't supported for [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9#unified-interface-framework-for-new-apps).
+> This method is supported only for the online mode ([Xrm.WebApi.online](../online.md)).
 
 ## Syntax
 
