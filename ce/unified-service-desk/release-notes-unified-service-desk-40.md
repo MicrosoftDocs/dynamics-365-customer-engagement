@@ -2,7 +2,7 @@
 title: "Release notes of Unified Service Desk 4.0 (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about the known issues in Unified Service Desk."
 keywords: ""
-ms.date: 08/03/2018
+ms.date: 08/15/2018
 ms.service:
   - "usd"
 ms.custom:

@@ -2,7 +2,7 @@
 title: "Deploy sample Unified Service Desk for Dynamics 365 Customer Engagement applications using Package Deployer | MicrosoftDocs"
 description: "Learn how to use Package Deployer to import a Unified Service desk sample application."
 keywords: ""
-ms.date: 14/08/2018
+ms.date: 08/15/2018
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:

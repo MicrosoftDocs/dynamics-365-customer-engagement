@@ -2,7 +2,7 @@
 title: "Use Unified Service Desk Administrator app to administer and manage Unified Service Desk client | MicrosoftDocs"
 description: "Learn how to use the Unified Service Desk Administrator app to administer Unified Service Desk client."
 keywords: ""
-ms.date: 08/03/2018
+ms.date: 08/15/2018
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:

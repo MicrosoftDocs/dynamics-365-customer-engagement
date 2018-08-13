@@ -2,7 +2,7 @@
 title: "What's new in Unified Service Desk for developers and customizers | MicrosoftDocs"
 description: "Learn about the new features for developers and customizers in Unified Service Desk."
 keywords: ""
-ms.date: 08/03/2018
+ms.date: 08/15/2018
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:

@@ -2,7 +2,7 @@
 title: "Migrate Unified Service Desk configurations from Web Client to Unified Interface App | MicrosoftDocs"
 description: "The three-step process for migrating Web Client configurations to Unified Interface"
 keywords: ""
-ms.date: 08/03/2018
+ms.date: 08/15/2018
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:

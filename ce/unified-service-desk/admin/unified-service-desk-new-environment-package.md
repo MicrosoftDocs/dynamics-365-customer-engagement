@@ -2,7 +2,7 @@
 title: "Unified Service Desk for Dynamics 365 Customer Engagement - New Environment package | MicrosoftDocs"
 description: "Overview of the New Environment sample application."
 keywords: ""
-ms.date: 08/03/2018
+ms.date: 08/15/2018
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:

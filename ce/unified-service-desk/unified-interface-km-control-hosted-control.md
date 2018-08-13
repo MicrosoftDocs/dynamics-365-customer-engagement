@@ -2,7 +2,7 @@
 title: "Unified Interface KM Control (Hosted Control) in Unified Service Desk for Dynamics 365 Unified Interface App| MicrosoftDocs"
 description: "Learn using the KM Control type of hosted control to display knowledge base articles in Dynamics 365 or Parature in your agent application."
 keywords: ""
-ms.date: 08/03/2018
+ms.date: 08/15/2018
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:

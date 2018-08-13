@@ -2,7 +2,7 @@
 title: "Unified Interface Settings (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about the Unified Interface Settings page in the Unified Service Desk Administrator app."
 keywords: ""
-ms.date: 08/03/2018
+ms.date: 08/15/2018
 ms.service:
   - "usd"
 ms.custom:
