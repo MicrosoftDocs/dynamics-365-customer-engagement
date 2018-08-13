@@ -1,14 +1,13 @@
 ---
-title: Pointers for Customer Service Hub for Dynamics 365 | MicrosoftDocs
+title: Quick help for Customer Service Hub for Dynamics 365 | MicrosoftDocs
 description: Your starting point for help of Customer Service Hub for Dynamics 365
-keywords: Quick help for Customer Service Hub; Customer Service Hub help
 author: anjgupta
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: shellyha
-ms.date: 02/20/2018
+manager: shujoshi
+ms.date: 06/01/2018
 ms.topic: get-started-article
 ms.service: dynamics-365-customerservice
 ms.assetid: 67fbf2dd-28c6-415e-aa45-8247f97b3b19
@@ -78,6 +77,25 @@ ms.custom: dyn365-customerservice
 </td>
 <td>&#160;</td>
 </tr>
+
+<td><h2>Troubleshoot</h2>
+   <ul>
+  <li><a href="troubleshoot-sla-timer-issue.md" data-raw-source="[SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md)">SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday</a>
+</li>
+   <li><a href="troubleshoot-delete-managed-solution.md" data-raw-source="[Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)">Unable to delete a managed solution consisting an SLA enabled entity</a></li>
+  </ul><br/>  </td>
+
+<td><h2>Customize</h2>
+   <ul>
+  <li><a href="create-design-forms-customer-service-hub.md" data-raw-source="[Create and design forms for Customer Service Hub](create-design-forms-customer-service-hub.md)">Create and design forms for Customer Service Hub</a>
+</li>
+   <li><a href="add-knowledge-base-search-control-forms.md" data-raw-source="[Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)">Add the Knowledge Base Search control to forms</a></li>
+
+<li><a href="configure-interactive-dashboards-customer-service-hub.md" data-raw-source="[Configure interactive dashboards in the Customer Service Hub](configure-interactive-dashboards-customer-service-hub.md)">Configure interactive dashboards in the Customer Service Hub</a></li>
+
+  </ul><br/>  </td>
+
+<td>&#160;</td>
 </table>
 
 

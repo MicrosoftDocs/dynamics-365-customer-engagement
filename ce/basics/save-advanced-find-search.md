@@ -1,7 +1,7 @@
 ---
 title: "Create, edit, or save an Advanced Find search (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/15/2017
+ms.date: 07/27/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,10 +11,10 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 45e83f30-ab4c-4ef5-86c4-a0a8f2a21561
-caps.latest.revision: 31
+caps.latest.revision: 32
 author: "Mattp123"
-ms.author: "matp"
-manager: "brycho"
+ms.author: "t-mijosh"
+manager: "ryjones"
 ---
 # Create, edit, or save an Advanced Find search
 
@@ -61,4 +61,6 @@ With the [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], yo
 5. Click **Results**.  
   
 ### See also  
+ [Search and Find in Dynamics 365](../basics/search-and-find-header.md)
  [Search for records](../basics/search-records.md)
+ [Use Relevance Search for faster, comprehensive search results](../basics/relevance-search-results.md)
