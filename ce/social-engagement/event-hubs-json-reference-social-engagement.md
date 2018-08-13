@@ -744,7 +744,6 @@ In the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 ```json  
 "profile": {  
   "name": "Display Name @externalHandle",  
-  "id": "mse-tw://#12345678",  
   "uri": "mse-tw://#12345678",
   "profileIcon": "https://path/to/the/profileIcon.png" ,  
   "profileLocation": {  
