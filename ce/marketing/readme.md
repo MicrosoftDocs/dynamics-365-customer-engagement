@@ -47,7 +47,7 @@ This document provides important, late-breaking information about known issues a
 - Users can now check for errors on both the **General** and **Designer** tabs of a customer journey.  
   <del>*The “checking for errors” operation triggered in the customer journey’s **General** tab results in a time-out. Users can continue   to “check for errors” from the **Designer** tab.*</del> <!---1208237 dependency - pushed to production on 10th Aug 2018-->
 - The snapshot view generated for a customer journey now displays all tiles.  
-  <del>*The snapshot view generated for journeys might be missing some tiles.*</del>  <!--- 690797 --> <!-- Nothing has really been fixed on screenshot AFAIK complex journeys, zoom in/out, using full screen designer breaks -->
+  <del>*The snapshot view generated for journeys might be missing some tiles.*</del>  <!--- 690797 -->
 
 ## Segmentation
 
@@ -69,8 +69,8 @@ This document provides important, late-breaking information about known issues a
 - The default content-settings record must be live before you can send any marketing emails or view heatmaps on **Insights** pages. Usually, the default content-settings record goes live automatically when your setup is complete, but sometimes this isn't the case. To solve this, set up and publish your default content-settings record manually as described in [Use content settings to set up repositories of standard and required values](dynamic-email-content.md#content-settings).
 - Selecting **Stop** on a live email will prevent it from being used in future journeys, but it will continue to function in existing live journeys, which will continue to delver it.
 - If you reuse the same email multiple times (within the same journey or in different journeys) you will see incorrect performance results on its **Insights** pages.
-- Many email templates have placeholder images. You should replace these placeholder images with actual images so that marketing emails look professional. <!-- do we really know this is still the case? do we have a list of broken images -->
-- When you save a new keyword, the keyword grid isn't displayed, but the record is created successfully. <!--- 1033440 - October Release --> <!-- not clear where are these keywords are, on templates (kamaybac: I suppose this is about the keywords available for file uploads, right? Should I add a link here?) --> <!---Shsuri - These are keywords created using quick create, for items like templates and files-->
+- Many email templates have placeholder images. You should replace these placeholder images with actual images so that marketing emails look professional.
+- When you save a new keyword for templates or files from a quick-create form, the keyword grid isn't displayed, but the record is created successfully. <!--- 1033440 - October Release -->
 
 ## Marketing pages and forms
 
@@ -80,12 +80,12 @@ This document provides important, late-breaking information about known issues a
 
 ## Lead scoring and management
 
-- Lead scoring results might take up to one hour to be calculated. <!-- this is very generic, same is true for segment etc --> <!-- Yeah, but you actually have a visual feedback for your segment being calculated. This is to mitiagte the lack of such a visual feedback on lead scoring --> 
-- While creating lead scoring rules, drop-down lists might not be localized for non-English languages. <!-- is this language specific, or field specific? --> <!--- ShSuri I think this is field specific -->
+- Lead scoring results might take up to one hour to be calculated.
+- While creating lead scoring rules, drop-down lists might not be localized for non-English languages.
 
 ## Event management
 
-- If you disable anonymous registration for the event portal, then customer organizations must create a registerer account using the portal, after which the registerer can register as many attendees from their organization as needed. However, the registerer can't use the portal to create an account using an email address that belongs to a contact already in Dynamics 365. To set up an existing contact as a registerer, create a [portal invitation](../portals/invite-contacts.md) and then send the invitation code to the contact by email. <!-- this needs rewording, sounds that event registration wont work for known contacts in my CRMDB. (kamaybac: I rephrased this best I could. Please confirm) --> <!-- Shsuri- This looks good -->
+- If you disable anonymous registration for the event portal, then customer organizations must create a registerer account using the portal, after which the registerer can register as many attendees from their organization as needed. However, the registerer can't use the portal to create an account using an email address that belongs to a contact already in Dynamics 365. To set up an existing contact as a registerer, create a [portal invitation](../portals/invite-contacts.md) and then send the invitation code to the contact by email.
 - Even though surveys are available in the app (such as for emails, journeys, and events), this feature currently has limited functionality. Anonymous surveys can be added to emails but can't serve as triggers in customer journeys. Please contact Microsoft Support for more information.
 
 ## General
