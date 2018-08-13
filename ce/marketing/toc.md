@@ -34,6 +34,7 @@
 #### [How the app uses cookies](cookies.md)
 
 ### [Customize Marketing](customize.md)
+### [Best practices for email marketing](get-ready-email-marketing.md)
 ### [Administration and setup FAQ](setup-troubleshooting.md)
 
 ## [User Guide](user-guide.md)
@@ -46,7 +47,6 @@
 #### [Manage customer information](manage-customer-information.md)
 #### [Import data](import-data.md)
 #### [Export data](export-data-word-excel.md)
-#### [Best practices for email marketing](get-ready-email-marketing.md)
 
 ### [Basic tutorials](basic-tutorials.md)
 #### [Create a segment](create-segment.md)
