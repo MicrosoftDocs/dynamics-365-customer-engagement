@@ -20,7 +20,7 @@ audience: Admin
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-This English-language document explains how to set up pricing dimensions in Dynamics 365 for Project Service (version 3.x). The guide covers features that most small or large organizations use.
+This English-language document explains how to set up pricing dimensions in Dynamics 365 for Project Service (version 3.x). 
  
 > [!div class="nextstepaction"]
 > [Download PDF of the pricing dimensions setup guide](https://go.microsoft.com/fwlink/?linkid=2008805)
