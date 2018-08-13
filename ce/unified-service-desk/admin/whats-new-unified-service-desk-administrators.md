@@ -32,16 +32,13 @@ This topic contains information about changes in [!INCLUDE[pn_unified_service_de
 ### Web Client - Unified Interface Migration Assistant
 The Web Client - Unified Interface Migration Assistant for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] helps you migrate your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client to a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Unified Interface App.
 
-The migration assistant helps with the migration of:
-
-- **CRM Page** hosted controls to **Unified Interface Page** hosted controls.
-- **RunXRM** commands as web resources.
-- Events and actions that are only supported in Web Client to the corresponding events and actions in Unified Interface App.
-- Actions, action calls, events, and window navigation rules associated with the hosted control to Unified Interface App.
-- Dashboards and Search hosted controls.
-- **KM Control** to **Unified Interface KM Control**.
-
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Web Client - Unified Interface Migration Assistant](../admin/overview-migration-assistant.md)
+
+### Prevent Accidental Closure of Unified Service Desk Unified Service Desk
+
+While working on [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], accidentally if you select the **x** Close button, you may lose all the unsaved work. The Close Confirmation Window is introduced to prevent the accidental closure of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
+
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure close confirmation window for Unified Service Desk](../admin/configure-close-confirmation-window.md)
 
 ### Unified Interface KM Control
 
@@ -51,7 +48,13 @@ Your service agents can use the **Unified Interface KM Control** hosted control 
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Interface KM Control (hosted control)](../unified-interface-km-control-hosted-control.md)
 
-### Preview Feature: Unified Service Desk Administrator App
+### Unified Blue theme for Unified Service Desk
+
+The Unified Blue theme is the predefined theme for Unified Service Desk when you are using a Unified Interface App.
+
+## Preview Features
+
+### Unified Service Desk Administrator App
 
 With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] 4.0, you can use the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator App built on the Unified Interface framework to administer and manage the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
 
@@ -63,26 +66,16 @@ The Administrator app, built based on the Unified Interface framework has the sa
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Preview Feature: Unified Service Desk Administrator App](../admin/unified-service-desk-administrator-app.md)
 
-### Preview Feature: Unified Interface Settings
+### Unified Interface Settings
 
 Unified Interface Settings is a new configuration element introduced under the **Advanced Settings** in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app. Unified Interface Settings enables you as an administrator to configure the default Unified Interface App for your agents and transform the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in experience.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Preview Feature: Unified Interface Settings](../admin/unified-interface-settings.md)
 
-### Close confirmation window for Unified Service Desk
-
-While working on [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], accidentally if you select the X Close button, you may lose all the unsaved work. The Close Confirmation Window is introduced to prevent the accidental closure of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
-
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure close confirmation window for Unified Service Desk](../admin/configure-close-confirmation-window.md)
-
-### Preview feature: Show feedback window to agents
+### Show feedback window to agents
 A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to help an agent to provide feedback while closing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. Agents can provide feedback comments with the score and submit it to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. The comments are assessed and considered for improving the products and services.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Mange options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
-
-### Unified Blue theme for Unified Service Desk
-
-The Unified Blue theme is the predefined theme for Unified Service Desk when you are using a Unified Interface App.
 
 <a name="NewIn330"></a>
 ## What's new in [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)]

@@ -44,8 +44,6 @@ The matrix explains the support of the [!INCLUDE[pn_unified_service_desk](../../
 | Dynamics 365 Version | Unified Service Desk Version | Unified Service Desk Administrator App  |
 |:--------------------:|:----------------------------:|:---------------------------------------:|
 | V 9.x                | 4.0                          | Yes                                     |
-| V 8.x                | 4.0                          | No                                      |
-| V 7.x                | 4.0                          | No                                      |
 
 ### Upgrade installation of Dynamics 365 and Unified Service Desk
 
@@ -94,7 +92,6 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 >   - Only one [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package can be deployed in a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance to avoid any loss or overlap of functionality. If you want to install another [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package, remove the existing one, and then install the other package. For information about removing an existing [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package, see [Remove a sample Unified Service Desk package](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md#Remove).  
 >   - Before deploying a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package on a production instance, ensure that you test the package on a pre-production instance, preferably a mirror image of the production instance. Also, be sure to back up the production instance before deploying the package.  
 >   - You can also use [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] cmdlets for [!INCLUDE[pn_package_deployer_short](../../includes/pn-package-deployer-short.md)] to deploy packages. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy packages using CRM Package Deployer and Windows PowerShell](../../admin/deploy-packages-using-package-deployer-windows-powershell.md)
-  
 
 ## How to find the Unified Service Desk Administrator app
 
@@ -102,17 +99,19 @@ If you deploy the sample package or import the solution, in either way you can f
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd-admin-app.md)] </br>
-![Navigate to Unified Service Desk Admin app via settings, My Apps](../media/usd-crm-admin-app-navigate.PNG "Navigate to Unified Service Desk Admin app via settings, My Apps")
-</br></br>
-![Unified Service Desk Administrator app](../media/usd-crm-admin-app.PNG "Unified Service Desk Administrator app")
+2. Select the drop-down arrow next the **Dynamics 365** and select **Unified Service Desk Administrator** app.
+
+> [!NOTE]
+> Alternatively, there are two other ways to go to the app. 
+> - Use the `https://<orgURL>.dynamics.com/apps` to navigate to the **Unified Service Desk Administrator** app.
+> - Go to Settings > **My Apps** > **Unified Service Desk Administrator**.<br><br>
+> If you use any of the above mentioned steps, you can select the app. <br>![Unified Service Desk Administrator app](../media/usd-crm-admin-app.PNG "Unified Service Desk Administrator app")
 
 ## Unified Service Desk Administrator app Layout
 
 When you navigate to the Unified Service Desk Administrator app, layout by default opens the configuration element - **Hosted Controls**. 
 
 ![Unified Service Desk Administrator app Layout](../media/usd-crm-unified-interface-admin-app-layout.PNG "Unified Service Desk Administrator app Layout")
-
 
 ### 1. Quick-access Configuration Toolbar
 

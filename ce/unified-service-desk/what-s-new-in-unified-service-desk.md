@@ -31,22 +31,30 @@ This topic contains information about changes in [!INCLUDE[pn_unified_service_de
 
 Developers and customizers will be able to use the following new features in the [!INCLUDE[pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)] release. 
 
-### General Availability: Support for Unified Interface apps in Unified Service Desk 
-With this release, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can load a URL or page from Dynamics 365, which is built based on the Unified Interface framework.
+### General Availability: Support for Unified Interface apps in Unified Service Desk
+
+With the release of [!include[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] (online), version 9.0, we've introduced a new user experience -[Unified Interface](../admin/about-unified-interface.md), which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can load a URL or page from Dynamics 365, which is built based on the Unified Interface framework.
 
 A new hosted control type called **Unified Interface Page** is introduced, which you need to set as **USD Component Type** while creating a hosted control to use a URL or page from [!include[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
-The experience of the supportability is that the Unified Interface Page hosted control type exposes number of predefined UII actions and events that are unique to handling of Dynamics 365 windows built using Unified Interface framework including list manipulation actions, and a find action for displaying a quick search or advanced search page. 
+The experience of the supportability is that the Unified Interface Page hosted control type exposes number of predefined UII actions and events that are unique to handling of Dynamics 365 windows built using Unified Interface framework including list manipulation actions, and a find action for displaying a quick search or advanced search page.
 
-### Preview feature: Stack notification in Unified Service Desk
+## Preview features
 
-You can configure stack notification for the notifications to be invoked as a stack. Two new parameters are introduced: **stack** and **stackHeight**, for which you can set the values to show the notifications in a stack with a certain height.
+### Stack notification in Unified Service Desk
+
+You can configure stack notifications in Unified Service Desk to display popup notification messages to your customer service agents that contains general information or some customer or process-related information that the agent can act on.
+This facilitates simultaneous toast notifications in a multi-session environment. 
+
+Two new parameters are introduced: **stack** and **stackHeight**, for which you can set the values to show the notifications in a stack with a certain height.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stack Notifications](configure-notifications-unified-service-desk.md#stack-notifications) and [Popup Notification Hosted Control](popup-notification-hosted-control.md)
 
-### Preview feature: Switch between local sessions, and between local and global sessions
+### Switch between local sessions, and between local and global sessions
 
-You can now switch between local sessions using the **SwitchSession** action. Also, you can switch sessions between local and global by passing the global session ID retrieved from the context using the replacement parameter.
+When you are working on a case (local session) and want to review your Dashboard (global session) or another case (local session), you can easily switch from the case to Dashboard or another case, without affecting your session timer. That is, when you switch from local session, your session timer will not be counted until you switch back to the session. This helps in efficiently measure the agents' productivity.
+
+Using **SwitchSession** action, you can now switch between local sessions. Also, you can switch sessions between local and global by passing the global session ID retrieved from the context using the replacement parameter.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [SwitchSession Action](session-tabs-hosted-control.md#switchsession)
 
