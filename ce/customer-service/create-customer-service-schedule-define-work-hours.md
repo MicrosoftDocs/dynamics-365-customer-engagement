@@ -1,31 +1,27 @@
 ---
 title: Create a customer service schedule and define the work hours (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: See how to create a customer service schedule and define the work hours for Dynamics 365 for Customer Service
-keywords: Service schedule; Dynamics 365; Customer Service
+keywords: Create customer service schedule; Dynamics 365; Customer Service Hub; Define the work hours for the schedule
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: shellyha
-ms.date: 09/15/2017
+manager: shujoshi
+ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: ee605a89-4bd5-4b93-8d45-2ec9ca0a9b8a
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
 ---
 
-# Create a customer service schedule and define the work hours (Customer Service)
+# Create customer service schedule and define the work hours
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 To define when your service or support team is available for providing support to customers, create a customer service schedule in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. A customer service schedule determines the business hours for each day in a week and also the weekly off. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] uses these details for time tracking of service level agreements (SLAs).  
   
  For SLA time tracking, make sure you add a holiday schedule to the customer service schedule, and associate this customer service schedule to the SLA record.  
-  
-> [!IMPORTANT]
-> This feature was introduced in [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)].  
   
 ## Create a customer service schedule  
   
@@ -39,7 +35,7 @@ To define when your service or support team is available for providing support t
   
 2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
   
-3. Click **Customer Service Schedule**.  
+3. Select **Customer Service Schedule**.  
   
 4. To create a new customer service schedule, click **+ New**.  
   
@@ -71,7 +67,7 @@ To define when your service or support team is available for providing support t
   
 7. Under **Select the time zone**, in the **Time Zone** drop-down box, select the time zone in which your customer support resources will work.  
   
-8. [!INCLUDE[proc_click_or_tap_save_and_close](../includes/proc-click-or-tap-save-and-close.md)]  
+6. [!INCLUDE[proc_click_or_tap_save_and_close](../includes/proc-click-or-tap-save-and-close.md)]  
   
 ## Define the work hours for the schedule  
  In the **Set Work Hours** dialog box, complete the following fields, and then click **OK**:  
@@ -87,6 +83,4 @@ To define when your service or support team is available for providing support t
   To add a break in the work hours, like a lunch break, click **Add Break**, and then select the start and end time of the break.  
   
 ### See also  
- [Set up a holiday schedule](../customer-service/set-up-holiday-schedule.md)   
- [Define service level agreements](../customer-service/define-service-level-agreements.md)   
- [Create an entitlement to define the support terms for a customer](../customer-service/create-entitlement-define-support-terms-customer.md)
+ [Set up a holiday schedule](../customer-service/set-up-holiday-schedule.md)  

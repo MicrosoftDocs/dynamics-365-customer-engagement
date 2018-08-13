@@ -7,13 +7,12 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: shellyha
+manager: shujoshi
 ms.date: 09/15/2017
 ms.topic: article
 ms.service: dynamics-365-customerservice
+ms.custom: dyn365-customerservice
 ms.assetid: 53a455a1-a107-4a70-9971-c6a5d59fda7a
-ms.custom:
-  - dyn365-customerservice
 ---
 
 # Create a selection rule to determine how resources are selected for service activities (Customer Service)
@@ -36,48 +35,48 @@ You can also add resources to existing selection rules.
   
     #### Check your security role  
   
-   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)]  
   
-3. Click **Services**.  
+3.  Click **Services**.  
   
-4. In the list of services, open the service to which you want to add a selection rule.  
+4.  In the list of services, open the service to which you want to add a selection rule.  
   
-5. On the **Service** form, click **Required Resources**, and then double-click or double-tap the first selection rule in the right pane.  
+5.  On the **Service** form, click **Required Resources**, and then double-click or double-tap the first selection rule in the right pane.  
   
-    Selection rules appear in the tree beside the **Selection Rule** button ![Selection rule button](../customer-service/media/crm-ua-selection-rule-folder.gif "Selection rule button").  
+     Selection rules appear in the tree beside the **Selection Rule** button ![Selection rule button](../customer-service/media/crm-ua-selection-rule-folder.gif "Selection rule button").  
   
-6. In the **Edit a Selection Rule** dialog box, enter the following information:  
+6.  In the **Edit a Selection Rule** dialog box, enter the following information:  
   
-   - **Quantity**  
+    - **Quantity**  
   
-        Select the number of resources required for the service. If you select **All**, all the selected resources are included in the service activity.  
+         Select the number of resources required for the service. If you select **All**, all the selected resources are included in the service activity.  
   
-   - **Description**  
+    - **Description**  
   
-        Enter any additional information about the scheduling rule you want to include.  
+         Enter any additional information about the scheduling rule you want to include.  
   
-   - **Selection Site**  
+    - **Selection Site**  
   
-        This option defines whether the resources must all be from the same site or if they can be from any site in the business unit. This option is available only in the top-level selection rule.  
+         This option defines whether the resources must all be from the same site or if they can be from any site in the business unit. This option is available only in the top-level selection rule.  
   
-7. Click **OK**.  
+7.  Click **OK**.  
   
-8. Under **Common Tasks**, you can add resources:  
+8.  Under **Common Tasks**, you can add resources:  
   
-   -   To add individual users, facilities, equipment or teams to the selection rule, click **Add Resources**.  
+    -   To add individual users, facilities, equipment or teams to the selection rule, click **Add Resources**.  
   
-        In the **Look Up Records** dialog box, select the records you want to add. You can add as many records as you want, and they can be a mix of individual users, facilities, equipment, and teams.  
+         In the **Look Up Records** dialog box, select the records you want to add. You can add as many records as you want, and they can be a mix of individual users, facilities, equipment, and teams.  
   
-   -   To add resource groups to the selection rule, click **Add Resource Groups**.  
+    -   To add resource groups to the selection rule, click **Add Resource Groups**.  
   
-        In the **Look Up Records** dialog box, select the records you want to add. You can add as many records as you want.  
+         In the **Look Up Records** dialog box, select the records you want to add. You can add as many records as you want.  
   
-   > [!TIP]
-   >  If you select multiple users in the **Look Up Records** dialog box and click **OK**, the **Save the selection as a Resource Group** dialog box opens. If you want to create a resource group from the selected resources, click **Yes, save the selection as a resource group with the name**, enter a name in the box, and then click **OK**. The new resource group appears in the selection tree.  
+    > [!TIP]
+    >  If you select multiple users in the **Look Up Records** dialog box and click **OK**, the **Save the selection as a Resource Group** dialog box opens. If you want to create a resource group from the selected resources, click **Yes, save the selection as a resource group with the name**, enter a name in the box, and then click **OK**. The new resource group appears in the selection tree.  
   
 9. Click **OK**.  
   

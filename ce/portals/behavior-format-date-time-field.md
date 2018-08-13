@@ -12,7 +12,7 @@ ms.assetid: CF6AA85B-9191-4249-A2DD-2FB5A8B0C410
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 
 # Behavior and format of the date and time field

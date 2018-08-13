@@ -1,7 +1,7 @@
 ---
 title: "Deploy Dynamics 365 App for Outlook | MicrosoftDocs"
 ms.custom: ""
-ms.date: 04/20/2017
+ms.date: 07/25/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -19,7 +19,7 @@ manager: "kvivek"
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
-People can use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] while using  [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] on the desktop, web, or tablet. For example, view information about email or appointment recipients, or link an [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] email or appointment  to a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] record such as an opportunity, account, or case. To learn more about what [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-for-outlook.md)] offers, see the [Dynamics 365 App for Outlook User's Guide](http://go.microsoft.com/fwlink/p/?LinkID=613099).  
+People can use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] while using  [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] on the desktop or web. For example, view information about email or appointment recipients, or link an [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] email or appointment  to a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] record such as an opportunity, account, or case. To learn more about what [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-for-outlook.md)] offers, see the [Dynamics 365 App for Outlook User's Guide](http://go.microsoft.com/fwlink/p/?LinkID=613099).  
 
 > [!IMPORTANT]
 >  [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] isn’t the same thing as [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. As of the [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)], [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-for-outlook.md)] paired with [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)] is the preferred way to integrate [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] with   [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. **Note that tracking activities is not supported when  [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] and [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] are used together by the same user.** For information on the  [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] add-in, see the [Dynamics 365 for Outlook User’s Guide](http://go.microsoft.com/fwlink/p/?LinkID=524751).  
@@ -128,21 +128,23 @@ Customization tab:
 ### Supported browsers for Outlook on the web  
  You can use [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] with [!INCLUDE[pn_outlook_web_app](../../includes/pn-outlook-web-app.md)] on the following browsers:  
 
-- [!INCLUDE[pn_IE_10](../../includes/pn-ie-10.md)], [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)], or [!INCLUDE[pn_microsoft_edge](../../includes/pn-microsoft-edge.md)]  
-
-   The following configuration is supported:  
-
-  - Protected Mode is enabled for **Internet** security zone. To enable Protected Mode: in IE 10 or 11, go to **Tools** > **Internet options** > **Security tab** > **Internet**.  
-
-  - Protected Mode is enabled for **Local intranet**  security zone. To enable Protected Mode: in IE 10 or 11, go to **Tools** > **Internet options** > **Security tab** > **Local Internet**.  
-
-  - Your [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] URL is in the **Local intranet** security zone list of trusted websites. In IE 10 or 11, go to **Tools** > **Internet options** > **Security tab** > **Local intranet** > **Sites** > **Advanced**.  
-
-- [!INCLUDE[tn_Google_Chrome](../../includes/tn-google-chrome.md)] (latest version) on [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)]  
-
-- [!INCLUDE[tn_Firefox](../../includes/tn-firefox.md)] (latest version) on [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)]  
-
-- [!INCLUDE[tn_apple](../../includes/tn-apple.md)] [!INCLUDE[tn_Safari](../../includes/tn-safari.md)] (version 9 or version 10) on Mac or on OSX  
+  
+-   [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)], or [!INCLUDE[pn_microsoft_edge](../../includes/pn-microsoft-edge.md)]  
+  
+     The following configuration is supported:  
+  
+    -   Protected Mode is enabled for **Internet** security zone. To enable Protected Mode: in IE 11, go to **Tools** > **Internet options** > **Security tab** > **Internet**.  
+  
+    -   Protected Mode is enabled for **Local intranet**  security zone. To enable Protected Mode: in IE 11, go to **Tools** > **Internet options** > **Security tab** > **Local Internet**.  
+  
+    -   Your [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] URL is in the **Local intranet** security zone list of trusted websites. In IE 11, go to **Tools** > **Internet options** > **Security tab** > **Local intranet** > **Sites** > **Advanced**.  
+  
+-   [!INCLUDE[tn_Google_Chrome](../../includes/tn-google-chrome.md)] (latest version) on [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)]  
+  
+-   [!INCLUDE[tn_Firefox](../../includes/tn-firefox.md)] (latest version) on [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)]  
+  
+-   [!INCLUDE[tn_apple](../../includes/tn-apple.md)] [!INCLUDE[tn_Safari](../../includes/tn-safari.md)] (version 9 or version 10) on Mac or on OSX  
+  
 
 ### Supported operating systems for Outlook on the desktop  
  You can use [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] on these versions of [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] for the desktop:  
@@ -259,8 +261,9 @@ Exchange Server version 15.0.1236.3.32 (Cumulative Update 14 for Exchange Server
 
 -   Configure your Dynamics 365 server for Internet-facing deployment. See [Configure IFD for Microsoft Dynamics 365](https://technet.microsoft.com/library/dn609803.aspx).  
 
--   If you're connecting to Exchange on-premises, configure the OAuth provider and register client apps. See [Configure Windows Server 2012 R2 for Dynamics 365 applications that use OAuth](https://technet.microsoft.com/library/hh699726.aspx).  
-
+  
+-   If you are using Dynamics 365 on-premises, you need to enable OAuth on the Dynamics server, and register the Dynamics 365 App for Outlook with ADFS. You also need to make sure that OAuth us enabled for Exchange. See [Configure Windows Server 2012 R2 for Dynamics 365 applications that use OAuth](https://technet.microsoft.com/library/hh699726.aspx).  
+  
 <a name="BKMK_Troubleshoot"></a>   
 
 ## Troubleshooting installation problems  

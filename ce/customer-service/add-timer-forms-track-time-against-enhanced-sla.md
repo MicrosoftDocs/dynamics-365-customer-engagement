@@ -1,22 +1,21 @@
 ---
 title: Add a timer in forms to track time against enhanced SLAs (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Understand the procedure to add a timer in forms to track time against enhanced SLAs in Dynamics 365 for Customer Service
-keywords: Timer; Forms; Dynamics 365; Customer Service
+keywords: Timer; Forms; Dynamics 365; Customer Service; Enable an entity for SLA; Create an SLA; Add a timer in forms to track time against enhanced SLAs
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: shellyha
-ms.date: 09/15/2017
+manager: shujoshi
+ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: a120e3f0-ee22-4d16-8029-0362447bbbd9
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
 ---
 
-# Add a timer in forms to track time against enhanced SLAs (Customer Service)
+# Add a timer in forms to track time against enhanced SLAs
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -168,5 +167,6 @@ There are a few steps to follow to add a timer to track time against enhanced SL
   
 ### See also  
  [Add a timer control to the Case form to track time against an SLA](../customer-service/add-timer-control-case-form-track-time-against-sla.md)   
- [Define service level agreements](../customer-service/define-service-level-agreements.md)   
+
+
  

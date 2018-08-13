@@ -55,8 +55,8 @@ As new capabilities are introduced they may conflict with earlier versions. This
 
 ## HTTP methods
 
- HTTP requests can apply a variety of different methods. When using the web API you will only use the methods listed in the following table.  
-
+HTTP requests can apply a variety of different methods. When using the Web API you will only use the methods listed in the following table.  
+  
 |Method|Usage|  
 |------------|-----------|  
 |GET|Use when retrieving data, including calling functions. The expected Status Code for a successful retrieve is 200 OK.|  

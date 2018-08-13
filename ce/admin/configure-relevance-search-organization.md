@@ -1,7 +1,7 @@
 ---
 title: "Configure Relevance Search for the organization for Dynamics 365 Customer Engagement  | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 07/27/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,10 +11,10 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 5ec1a73d-06cb-4d40-adab-8bb293bcedbb
-caps.latest.revision: 62
+caps.latest.revision: 65
 author: "udag"
-ms.author: "udag"
-manager: "sakudes"
+ms.author: "t-mijosh"
+manager: "ryjones"
 ---
 # Configure Relevance Search to improve search results and performance 
 
@@ -54,7 +54,7 @@ The following table provides a brief comparison of the three available searches.
 |        Availability        | Available for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organizations that have installed [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)]. Not available for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] organizations. | Available for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] organizations, starting with [!INCLUDE[pn_crm_2015](../includes/pn-crm-2015.md)] Update Rollup 1. |                Available for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organizations and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] organizations.                 |
 |    Enabled by default?     |                                                                                                               No. An administrator must manually enable it.                                                                                                               |                                                                No. An administrator must manually enable it.                                                                |                                                                                                Yes                                                                                                |
 | Single-entity search scope |                                                                                   Not available in an entity grid. You can filter the search results by an entity on the results page.                                                                                    |                                                                        Available in an entity grid.                                                                         |                                                                                   Available in an entity grid.                                                                                    |
-| Multi-entity search scope  |                               There is no maximum limit on the number of entities you can search. **Note:**  While there is no maximum limit on the number of entities you can search, the Record Type filter shows data only 10 entities.                                |                                                              Searches up to 10 entities, grouped by an entity.                                                              |                                                                         Searches up to 10 entities, grouped by an entity.                                                                         |
+| Multi-entity search scope  |                               There is no maximum limit on the number of entities you can search. **Note:**  While there is no maximum limit on the number of entities you can search, the Record Type filter shows data for only 10 entities.                                |                                                              Searches up to 10 entities, grouped by an entity.                                                              |                                                                         Searches up to 10 entities, grouped by an entity.                                                                         |
 |      Search behavior       |                                                                                                 Finds matches to any word in the search term in any field in the entity.                                                                                                  |                    Finds matches to all words in the search term in one field in an entity; however, the words can be matched in any order in the field.                    | Finds matches as in a SQL query with “Like” clauses. You have to use the wildcard characters in the search term to search within a string. All matches must be an exact match to the search term. |
 |       Search results       |                                                                                                 Returns the search results in order of their relevance, in a single list.                                                                                                 | For single-entity, returns the search results in an entity grid. For multi-entity, returns the search results grouped by categories, such as accounts, contacts, or leads.  |            For single-entity, returns the search results in an entity grid. For multi-entity, returns the search results grouped by categories, such as accounts, contacts, or leads.             |
 
@@ -63,6 +63,9 @@ The following table provides a brief comparison of the three available searches.
  Relevance Search uses the same default scoring concepts as [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Search. Scoring refers to the computation of a search score for every item returned in search results. The score is an indicator of an item's relevance in the context of the current search operation. The higher the score, the more relevant the item. In search results, items are ranked in order from high to low, based on the search scores calculated for each item. By default, a search score is computed based on statistical properties of the data and the query. Relevance Search finds documents that include the search terms in the query string, favoring the documents that contain many instances of the words in the search term and their close proximity to each other in the document. The search score goes up even higher if the term is rare across the index, but common within the document.  The results are then ranked by search score before they’re returned. Search score values can be repeated throughout a result set. For example, you might have 10 items with a score of 1.2, 20 items with a score of 1.0, and 20 items with a score of 0.5. When multiple hits have the same search score, the ordering of same-score items isn’t defined, and isn’t stable. Run the query again and you might see items shift position. Given two items with an identical score, there is no guarantee which one appears first. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add scoring profiles to a search index (Azure Search Service REST API)](https://msdn.microsoft.com/library/azure/dn798928.aspx)  
 
  Searchable fields are analyzed in the [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Search index to provide a more natural, end-user friendly search experience by breaking words into their root forms, text normalization, and filtering out noise words. All searchable fields in Relevance Search are analyzed with the [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] Natural language analyzer, which uses Lemmetization to break words down into their root linguistic forms. For example, “ran” will match to “run” and “running” since “run” is considered the base form of the word. Word stemmers, such as SQL full-text indexes, don’t have any linguistic context and only consider matches where the root is the same as the inflectional form. With stemming, “run” would match to “running” and “runner”, but not “ran” since it doesn’t consider “ran” to be a word linguistically related to “run”. All searchable fields in Relevance Search use an analyzer that most closely matches the organization’s base language. For Kazakh, which is the only language supported by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] but not by [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Search, all fields are analyzed using the default analyzer. For more information about language analysis and a list of the supported languages, see:          [Language support (Azure Search Service REST API)](https://msdn.microsoft.com/library/azure/dn879793.aspx).  
+
+### Search results
+You'll see hit highlights when your search term matches a term in your application. These appear as bolded and italicized text in the search results. Notice these search terms are often returned as only a portion of the full value in a field since only the matched terms are highlighted. For example, using the search term *L. Wendell* returns the record for the contact with first name *L. Wendell* and last name *Overby*, as **Wendell Overby** in the search results.
 
 <a name="BKMK_Architecture"></a>   
 ## Relevance Search architecture  
@@ -78,8 +81,8 @@ The following table provides a brief comparison of the three available searches.
 > [!IMPORTANT]
 >  Data in your application  begins syncing to the external search index immediately after you enable Relevance Search.  We strongly recommend that you configure the entities and entity fields participating in Relevance Search before you enable the search, to prevent sensitive data from being indexed in a service external to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  For more information about configuring Relevance Search, see            [Select entities for Relevance Search](../admin/configure-relevance-search-organization.md#BKMK_SelectEntities),            [Configure searchable fields for Relevance Search](../admin/configure-relevance-search-organization.md#BKMK_ConfigureFields), and            [Set managed property for Relevance Search](../admin/configure-relevance-search-organization.md#BKMK_SetPropertiy).  
 
- Because you’ll be sharing your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data with the external system, Relevance Search is disabled by default. To enable it, you must accept the consent terms. Depending on the size of your organization, it may take up to an hour or more for the data to become available in the external search index after you enable the search.  
-
+ Because you’ll be sharing your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data with the external system, Relevance Search is disabled by default. To enable it, you must accept the consent terms. Depending on the size of your organization, it may take up to an hour or more for the data to become available in the external search index after you enable the search. Enabling Relevance Search makes this search option available to all members of your organization.
+  
  By default, Relevance Search is disabled. To enable Relevance Search, do the following:  
 
 1. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
@@ -132,7 +135,17 @@ By default, some out-of-the-box system entities are included in Relevance Search
 
 <a name="BKMK_ConfigureFields"></a>   
 ## Configure searchable fields for Relevance Search  
- The fields you add in the Quick Find view become part of the external search index. There is no limit on how many searchable fields you can add for each entity. However, there is a limit on the total number of indexed fields, as was explained in the previous section. **Find Columns** on a **Quick Find View** define the searchable fields in the external search index. Only text fields will be searchable, specifically, Single Line of Text and Multiple Lines of Text data types. **Find Columns** with other data types are ignored. The **View Columns** on a **Quick Find View** define the fields that are displayed in the user interface by default, when the matched results are returned. The fields that are highlighted replace the fields that don’t have the highlighting. The first four matched fields are displayed in the results. The **filter** on a Quick Find view is also applied to the Relevance Search results.  See the table below for the list of filter clauses not supported by Relevance Search. 
+ The fields you add in the Quick Find view become part of the external search index. There is no limit on how many searchable fields you can add for each entity. However, there is a limit on the total number of indexed fields, as was explained in the previous section. **Find Columns** on a **Quick Find View** define the searchable fields in the external search index. Text fields such as Single Line of Text and Multiple Lines of Text, Lookups, and Option Sets are searchable. **Find Columns** with other data types are ignored. The **View Columns** on a **Quick Find View** define the fields that are displayed in the user interface by default, when the matched results are returned. The fields that are highlighted replace the fields that don’t have the highlighting. The first four matched fields are displayed in the results. The **filter** on a Quick Find view is also applied to the Relevance Search results.  See the table below for the list of filter clauses not supported by Relevance Search. 
+
+> [!NOTE]
+> There are some fields, called common fields, common to every CRM entity that are defined on the index by default. They are:
+> 1. ownerid (Name of lookup)
+> 2. owningbusinessunit (Name of lookup)
+> 3. statecode (Label of optionset)
+> 4. statuscode (Label of optionset)
+> 5. name (Primary name field of any entity. This may or may not be the same as the logical name (fullname, subject etc.) of the entity)
+> If a common field is added to any entity for Relevance Search, search will be performed for that common field across all entities. However, once you choose a specific entity through the Record Type facet, Relevance Search will follow the settings you have defined for that specific entity through Quick Find View.
+
 
  You can use the **Quick Find** view to define which fields appear as facets when users search by using Relevance Search.  All **View Columns** with data types other than Single Line of Text and Multiple Lines of Text are marked as facetable and filterable in the index. By default, the first four facetable fields in the **Quick Find** view for the selected entity are displayed as facets when users search by using Relevance Search. At any time, you can only have four fields selected as facets.  
 
@@ -179,6 +192,8 @@ By default, some out-of-the-box system entities are included in Relevance Search
 |**UnderOrEqual**|  
 |**Above**|  
 |**AboveOrEqual**|  
+|**NotNull** |
+|**Null** |
 
 <a name="BKMK_SetPropertiy"></a>   
 ## Set managed property for Relevance Search  

@@ -92,7 +92,7 @@ Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can e
   
 1. From the main menu, click **Sales**, **Service**, or **Marketing**.  
   
-2. Choose and entity that has scheduling turned on. For example, let’s say it’s turned on for the **Leads** entity. In this case, from the main menu you would choose **Marketing** > **Leads**.  
+2. Choose an entity that has scheduling turned on. For example, let’s say it’s turned on for the **Leads** entity. In this case, from the main menu you would choose **Marketing** > **Leads**.  
   
 3. From the list of leads choose an existing lead.  
   

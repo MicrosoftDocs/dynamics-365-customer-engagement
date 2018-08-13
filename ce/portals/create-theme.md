@@ -12,7 +12,7 @@ ms.assetid: 96ac6fd3-827f-44e8-8261-570973bc3c4d
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Create a theme for your portal
 When you build portals by using portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], you'll be using the [[!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] front-end framework](http://getbootstrap.com/). By taking advantage of the [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] ecosystem, you can quickly and easily brand these portals for your organization.  

@@ -12,7 +12,7 @@ ms.assetid: c031b08e-58c8-4bea-8a18-1151fe5d8bc6
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Control webpage access for portals
 Web page access control rules are rules that you create for your site to control both the publishing actions that a web role can perform across the pages of your website and to control which pages are visible by which web roles. The webpage access entity has the following attributes:

@@ -12,7 +12,7 @@ ms.assetid: d16d462a-2a7c-475f-a091-c88789abd75c
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Configure web roles for a partner relationship management (PRM) portal
 

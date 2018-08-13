@@ -1,17 +1,16 @@
 ---
 title: Learn the basics of the Customer Service Hub in Dynamics 365 | Microsoft Docs
 description: Learn the basics of the Customer Service Hub for Customer Service in Microsoft Dynamics 365
-keywords: Basics of the Customer Service Hub; Customer Service; Microsoft Dynamics 365
+keywords: Basics of the Customer Service Hub; Customer Service; Microsoft Dynamics 365; Customer Service Hub Application requirements; Understand the sitemap navigation; Quickly create new records; Business processes; Related section; Queues
 author: anjgupta
 applies_to: Dynamics 365 (online) 
 ms.author: anjgup
-manager: shellyha
-ms.date: 02/20/2018
+manager: shujoshi
+ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: f7241c02-a8ea-4b67-9d7b-428f91071090
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
 ---
 
 # Learn the basics of the Customer Service Hub
@@ -88,7 +87,7 @@ Any record types that are enabled for mobile are also available for use in the C
 
 ## Understand the sitemap navigation
   
-1.  On the sitemap, select **Service**, and then select an entity record type.  
+1.  On the sitemap icon ![Sitemap](media/sitemap-icon.png) , select **Service**, and then select an entity record type.  
   
     ![navigate recods](media/v9-navigate-records.png "Navigate records")
   
@@ -107,7 +106,7 @@ Any record types that are enabled for mobile are also available for use in the C
     - **Queues** keep a track of cases waiting for you to work on.
     - **Knowledge Articles** capture your customer’s questions, issues, feedback, and resolutions, so that other service reps can benefit from them.
 
-2. Select **Training** to go to the documentation site, known as **Help Center**. 
+2. Select **...** to go to **Training** and access the documentation site to view the **Help Center**. 
 3. Select **Favorites and Recent** button ![recent-button](media/fav-and-recent.png)  to see recently viewed records, or to see views that have been pinned as favorites.
 
 For a mobile device, the sitemap is displayed as illustrated in the following image:
@@ -252,9 +251,9 @@ The third tab in the Related section of a case record displays **Similar Cases**
 
 Similarly,
 
-- For **Accounts** records, you can view Contacts, Recent Opportunities, Recent Cases, and Entitlements in the Related section.
-- For **Contacts** records, the Related section displays Recent Opportunities, Recent Cases, and Entitlements. 
-- For **Knowledge articles** records, select an article and go to the **Summary** tab to view the **Related Information** panel. Here you can view Related versions, Related translations, Related categories, Related articles, and Related products for an article.
+- For **Accounts** records, you can view **Contacts**, **Recent Opportunities**, **Recent Cases**, and **Entitlements** in the Related section.
+- For **Contacts** records, the Related section displays **Recent Opportunities**, **Recent Cases**, and **Entitlements**. 
+- For **Knowledge articles** records, select an article and go to the **Summary** tab to view the **Related Information** panel. Here you can view **Related versions**, **Related translations**, **Related categories**, **Related articles**, and **Related products** for an article.
 
 > [!NOTE]
 > Your system administrator or customizer can choose if Related section should be included in a form. They can also decide on what related data should be displayed in the section for each form.
@@ -305,9 +304,9 @@ In the Customer Service Hub sitemap, select **Service** > **Activities**. The **
 
 - To view the status of an activity, click the activity record and see bottom-left in the activity form. 
 
-## Manage Queues
+## Work with Queues
 
-Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 for Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case.
+Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 for Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and edit queues](create-edit-queue.md).
 
 **Open Queues view**
 

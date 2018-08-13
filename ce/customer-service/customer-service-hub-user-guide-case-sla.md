@@ -1,24 +1,25 @@
 ---
 title: Understanding Cases and SLA in Customer Service Hub in Dynamics 365 | Microsoft Docs
 description: Understand Cases and SLA in Customer Service Hub for Customer Service in Microsoft Dynamics 365
-keywords: Cases; SLA; Customer Service Hub; Customer Service;  Microsoft Dynamics 365
+keywords: Cases; SLA; Customer Service Hub; Customer Service;  Microsoft Dynamics 365; Create a case; Manage a case;  Merge cases; Resolve a case; Track SLA details with Timer Control; Manage activities from the Timeline; Convert a case to a Knowledge article; Create and manage parent and child cases
 author: anjgupta
 applies_to: Dynamics 365 (online) 
 ms.author: anjgup
-manager: shellyha
-ms.date: 02/20/2018
+manager: shujoshi
+ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
 ---
 
-# Track your cases efficiently and act on them quickly in the Customer Service Hub
+# Work with Cases and manage SLAs
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Creating and managing a case can’t be any simpler. With the intuitive case form in the Customer Service Hub, you can do all your important tasks and actions without navigating to different parts of the application.  
+Track your cases efficiently and act on them quickly in the Customer Service Hub application.
+
+Creating and managing a case can’t be any simpler. With the intuitive case form in the Customer Service Hub,you can do all your important tasks and actions without navigating to different parts of the application.  
 
 You can capture important information about customers, interactions you’ve had with them, and all related records of the current case in once single place.  
 
@@ -26,7 +27,7 @@ Watch this video to learn more about case management in the Customer Service Hub
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/cde80c83-f592-4b15-b1a1-4fae13be93f9" frameborder="0" allowfullscreen=""></iframe></div>
 
-## Create a case<br/>
+## Create a case
 1. Make sure that you have the Customer Service Manager or Customer Service Representative role, or equivalent permissions.<br/>
 2. In the Customer Service Hub sitemap, go to <strong>Service</strong> &gt; <strong>Cases</strong>.
 
@@ -130,6 +131,9 @@ Similarly, the status of the SLA KPI instance is updated when the first response
 
   ![sla-succeeded](media/sla-succeeded.png "timer control succeeded")
 
+> [!NOTE]
+> The SLA timer continues to run once it is triggered or un-paused. It includes the holiday hours, non-business hours, and pause time (only business hours) while projecting the SLA warning or failure time. 
+
 You can now also apply SLAs on demand. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Apply SLA on demand](define-service-level-agreements.md#apply-sla-on-demand)
 
 To know more about adding a timer control to a case form, see [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md). 
@@ -198,7 +202,7 @@ To know more about adding a timer control to a case form, see [Add a timer contr
   >  This option is available only if your organization is using an external portal to publish the knowledge articles and your administrator has selected the **Use an external portal** check box in the **Embedded Knowledge search** setup. If you use a browser other than [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], this option isn’t available.  
 
 
-## Convert a case to a Knowledge Article  
+## Convert a case to a Knowledge article  
  There are times when existing knowledge articles do not contain relevant information for resolving a case. You, as a CSR, can now contribute to the knowledge base by turning all information that has been researched for a case into a knowledge article. You can convert one case into multiple knowledge articles.  
 
 
@@ -341,10 +345,13 @@ You can set a parent child relationship between cases where you can set one case
 5.  In the **Billable Time** list, enter the amount of time spent on the case to be billed to the customer.  
 
      If this case is linked to an entitlement, the billable time will be subtracted from the allotted minutes for that entitlement.  
+  
+6.  Select **Resolve**.
 
-6.  Select **Resolve**.  
-
-
+> [!NOTE]
+> You cannot edit or update any attribute of the case once it is resolved.
+  
+ 
 ## Cancel a case  
  All case activities must be closed before you can cancel a case.  
 
@@ -380,7 +387,7 @@ You can set a parent child relationship between cases where you can set one case
 
 4. In the **Queue** field, select the queue that you want to add the case to, and then select **Add**.  
 
-To know more about Queues, see [Manage Queues](customer-service-hub-user-guide-basics.md#manage-queues).
+To know more about Queues, see [Work with Queues](customer-service-hub-user-guide-basics.md#work-with-queues).
 
 
 ## Save and route a case  
@@ -418,6 +425,5 @@ Your system administrator can enable entities other than case for SLA. For the C
 ### See also
 
 [Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)
-
 
 [Use the Main form and its components](../customize/use-main-form-and-components.md)

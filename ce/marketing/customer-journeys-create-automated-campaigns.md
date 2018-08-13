@@ -175,15 +175,20 @@ Content settings are sets of standard and required values that are available for
 
 To choose the content settings used by a journey, go to its **General** tab and make a selection for the **Content settings** field.
 
-For more information about how to create and configure content-settings records, see [Use content settings to set up repositories of standard and required values for email messages](prepare-marketing-emails.md#content-settings)
+For more information about how to create and configure content-settings records, see [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#content-settings)
 
 If you have more than one set of content settings, exactly one of them will be the default and will be applied automatically to each new customer journey that you create. For more information about how to establish the default content-settings record for new journeys, see [Default marketing settings](marketing-settings.md#default-marketing-settings).
+
+<a name="suppression-segment"></a>
 
 ### Add a suppression segment
 
 A journey's suppression segment contains a list of contacts that the journey won't send any messages to, even if those contacts are also included among the segments explicitly targeted by the journey, and even if those contacts are already partly through the journey. 
 
 You can use any existing segment as a suppression segment. To choose a suppression segment for your journey, open its **General** tab and then choose a segment in the **Suppression segment** lookup field.
+
+> [!IMPORTANT]
+> The customer-insights services process changes to segment membership asynchronously, which means you can't predict the order in which changes are processed. In some cases, such as when processing very large databases, it can take up to six hours for a given segment to get updated. You therefore can't rely on any one segment being processed before or after a specific other segment, so be careful when orchestrating related campaigns and/or using  suppression segments.
 
 ## Go live to start running the journey and processing contacts
 
@@ -205,4 +210,5 @@ When you've finished designing your customer journey, do the following to verify
 [Create an inbound customer journey](create-inbound-customer-journey.md)  
 [Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
 [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)  
-[Accessibility and keyboard shortcuts](designer-shortcuts.md)
+[Accessibility and keyboard shortcuts](designer-shortcuts.md)  
+[Go live with publishable entities and track their status](go-live.md)

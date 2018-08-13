@@ -1,7 +1,7 @@
 ---
 title: "Supported email service configurations for server-side synchronization for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 07/06/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,7 +14,7 @@ ms.assetid: 034c2ad9-9a34-4d47-8d9e-f0399d9cec96
 caps.latest.revision: 51
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Supported email service configurations for server-side synchronization
 
@@ -71,6 +71,8 @@ Depending on your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in
 - [!INCLUDE[pn_ms_Exchange_Server_2003_short](../includes/pn-ms-exchange-server-2003-short.md)] and [!INCLUDE[pn_ms_Exchange_Server_2007_short](../includes/pn-ms-exchange-server-2007-short.md)]  
   
 - Server-side synchronization in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], or in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] (on premises) deployment that is configured for FIPS 140-2 compliancy, requires a [!INCLUDE[pn_POP3_short](../includes/pn-pop3-short.md)]/SMTP email server that is also FIPS 140-2 compliant. Some email servers are not FIPS 140-2 compliant, such as MSN, Outlook.com, or Windows Live Mail.  
+
+- Multi-factor authentication isn’t supported for Dynamics 365 (online) to Exchange Server (on-premises), and Dynamics 365 (on-premises) to Exchange Online.
   
 For most situations not supported by server-side synchronization, you can use the [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate your email system with Dynamics 365](../admin/integrate-synchronize-your-email-system.md)  
   

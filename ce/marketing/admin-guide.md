@@ -35,9 +35,7 @@ topic-status: Drafting
 <li><a href="open-advanced-settings.md" data-raw-source="[Open the administration settings](open-advanced-settings.md)">Open the administration settings</a></li>
 <li><a href="navigation.md" data-raw-source="[Find your way around](navigation.md)">Find your way around</a></li>
 <li><a href="get-ready-email-marketing.md" data-raw-source="[Best practices for email marketing](get-ready-email-marketing.md)">Best practices for email marketing</a></li>
-<li><a href="gdpr.md" data-raw-source="[Data protection and GDPR](gdpr.md)">Data protection and GDPR</a></li>
-<li><a href="cookies.md" data-raw-source="[How Marketing uses cookies](cookies.md)">How Marketing uses cookies</a></li>
-<li><a href="setup-troubleshooting.md" data-raw-source="[Administration FAQ](setup-troubleshooting.md)">Administration FAQ</a></li>
+<li><a href="setup-troubleshooting.md" data-raw-source="[Administration and setup FAQ](setup-troubleshooting.md)">Administration and setup FAQ</a></li>
 
 </td><td>
 
@@ -65,6 +63,17 @@ topic-status: Drafting
 <li><a href="events-settings.md" data-raw-source="[Event management settings](events-settings.md)">Event management settings</a></li>
 <li><a href="linkedin-configuration.md" data-raw-source="[Manage LinkedIn Lead Gen](linkedin-configuration.md)">Manage LinkedIn Lead Gen</a></li>
 <li><a href="quota-management.md" data-raw-source="[Manage quotas](quota-management.md)">Manage quotas</a></li>
+
+</td></tr>
+
+<tr><td>
+
+<h2>Privacy and compliance</h2>
+<li><a href="gdpr.md" data-raw-source="[Data protection and GDPR](gdpr.md)">Data protection and GDPR</a></li>
+<!-- <li><a href="double-opt-in.md" data-raw-source="[Set up double opt-in](double-opt-in.md)">Set up double opt-in for new subscriptions and consent changes</a></li> -->
+<li><a href="cookies.md" data-raw-source="[How Marketing uses cookies](cookies.md)">How Marketing uses cookies</a></li>
+
+</td><td>
 
 </td></tr>
 

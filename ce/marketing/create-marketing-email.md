@@ -135,7 +135,7 @@ To create a marketing email and go live:
 
 [Best practices for email marketing](get-ready-email-marketing.md)  
 [Design your digital content](design-digital-content.md)  
-[Keyboard shortcuts and accessibility features for content designers](design-digital-content.md)  
+[Keyboard shortcuts and accessibility features for content designers](designer-shortcuts.md)  
 [Prepare marketing email messages](prepare-marketing-emails.md)  
-[Work with email templates](email-templates.md)  
+[Work with email, page, and form templates](email-templates.md)  
 [Content blocks reference](content-blocks-reference.md)

@@ -1,8 +1,8 @@
 ---
 title: "Get started with Social Engagement | Microsoft Docs"
 description: "Learn how to ramp up quickly on Social Engagement."
-keywords: ""
-ms.date: 03/27/2018
+keywords: "get started, onboarding, key features"
+ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: get-started-article
 applies_to:
@@ -19,7 +19,6 @@ ms.custom:
 # Get started with Social Engagement
 This topic introduces common user-interface elements and useful tips to work efficiently with [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. You'll get a basic understanding of the application’s logic and conceptual approaches to help you start to work with the various features and areas.  
   
-<a name="Prereq"></a>   
 ## Prerequisites  
  To provide you the best experience with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], it's a good idea to keep your browser updated to the latest version.  
   
@@ -41,19 +40,13 @@ This topic introduces common user-interface elements and useful tips to work eff
   
   - Tablets and phones running at least [!INCLUDE[tn_android](../includes/tn-android.md)] 4.2 with [!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)] Mobile browser  
   
-<a name="signIn"></a>   
 ## Sign in to Social Engagement  
   
 > [!NOTE]
 >  To use [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you must have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription and be set up as a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user by your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Administrator. This means that your organization also needs to have a license for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
-- Sign in to your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] portal, and then click [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] in your list of services.  
+[Sign in to Social Engagement](https://social.dynamics.com/login) directly or review additional options to [access Social Engagement](sign-in.md)  
   
-- Enter (or bookmark) the URL for your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution in your browser. If you aren't already signed in to [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], you'll be asked to enter your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user name and password. If your credentials are accepted, you'll be forwarded to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
-  
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sign in to Social Engagement](sign-in.md)  
-  
-<a name="navigateMain"></a>   
 ## Navigate the application’s main areas  
  Use the bar at the top of the page to move between all of the different areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Pages that you see depend on the permissions that your system administrator assigned to you.  
 
@@ -112,7 +105,6 @@ This topic introduces common user-interface elements and useful tips to work eff
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get help with Social Engagement](get-help.md)  
   
-<a name="navigateAnalytics"></a>   
 ## Get around in the Analytics area  
  In most cases, the first thing you’ll see when you sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is the Analytics area. By default, you’re looking at a data set that contains all posts that all search topics gathered in the specified time frame.  
   
@@ -150,7 +142,6 @@ This topic introduces common user-interface elements and useful tips to work eff
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View posts and conversations in Social Engagement](posts-conversations.md)  
   
-<a name="navigateSettings"></a>   
 ## Get around in the Settings area  
  Administer your [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] solution, and set the options for your solution and its users. To set up your solution and get your users started quickly, see [Set up Microsoft Social Engagement](set-up-microsoft-social-engagement.md).  
   

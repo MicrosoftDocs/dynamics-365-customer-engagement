@@ -25,7 +25,7 @@ topic-status: Drafting
 <tr><td>
 
 <h2>Administer the system</h2>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=864736" data-raw-source="[Readme](https://go.microsoft.com/fwlink/p/?linkid=864736)">Readme</a></li>
+<li><a href="readme.md" data-raw-source="[Readme)](readme.md)">Readme</a></li>
 <li><a href="trial-signup.md" data-raw-source="[Sign up for a free trial](trial-signup.md)">Sign up for a free trial</a></li>
 <li><a href="purchase-marketing.md" data-raw-source="[Purchase a production version of Marketing](purchase-marketing.md)">Purchase a production version of Marketing</a></li>
 <li><a href="purchase-setup.md" data-raw-source="[Run the setup wizard](purchase-setup.md)">Run the setup wizard</a></li>
@@ -40,7 +40,7 @@ topic-status: Drafting
 <li><a href="quota-management.md" data-raw-source="[Manage your quotas](quota-management.md)">Manage your quotas</a></li>
 <li><a href="customize.md" data-raw-source="[Customize Dynamics 365 for Marketing](customize.md)">Customize Dynamics 365 for Marketing</a></li>
 <li><a href="gdpr.md" data-raw-source="[Data protection and GDPR](gdpr.md)">Data protection and GDPR</a></li>
-<li><a href="setup-troubleshooting.md" data-raw-source="[Administration FAQ](setup-troubleshooting.md)">Administration FAQ</a></li>
+<li><a href="setup-troubleshooting.md" data-raw-source="[Administration and setup FAQ](setup-troubleshooting.md)">Administration and setup FAQ</a></li>
 
 </td><td>
 
