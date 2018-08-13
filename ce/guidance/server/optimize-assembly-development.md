@@ -48,9 +48,9 @@ Plug-ins and custom workflow activities developed for a Dynamics 365 solution sh
 > [!IMPORTANT]
 > Dynamics 365 (on-premises) deployments can identify the assembly size constraint by executing the following SQL query
 ```sql
-    USE MSCRM_CONFIG
-    SELECT ColumnName, IntColumn FROM DeploymentProperties
-    WHERE ColumnName = 'SandboxClientMaxAssemblySizeInKByte'
+USE MSCRM_CONFIG
+SELECT ColumnName, IntColumn FROM DeploymentProperties
+WHERE ColumnName = 'SandboxClientMaxAssemblySizeInKByte'
 ```
 
 ### Move Plug-ins/Custom Workflow Activities into Multiple Assemblies
