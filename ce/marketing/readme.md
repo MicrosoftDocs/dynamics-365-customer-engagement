@@ -58,7 +58,7 @@ This document provides important, late-breaking information about known issues a
 - Metadata used for building conditions and drop-downs shown on the designer isn't localized for non-English organizations. <!--- 992449 - Marketing Backlog -->
 - The **Save** button isn't visible on the command bar after the initial save of the segment. Use the **Save** button in the lower-right corner of the page instead. <!--- 862491 - Marketing Backlog -->
 - When trying to estimate the size of a segment where the query doesn't end in a contact, the system displays a server communication error. To correct this error, make sure your segment definition ends with a clause that links to the contact entity as described in [Define a dynamic a segment](segmentation-lists-subscriptions.md#define-dynamic). <!--- 1226384 Backlog-->
-- On creating a new segment, the "members" tab shows the message "Segment does not exist" on being clicked by the user for the first time. Reloading the segment page or clicking into another tab and back displays the correct "Segment being provisioned" message. <!---  1251946 Sept 1 release-->
+- If you go live with a new segment and then open the **Members** tab right away, you'll see a message telling you that the segment doesn't exist (even though it does). Reload the page, or open another tab and come back, to view the correct message (that the segment is being provisioned). Later, once the segment is finished provisioning, you'll see the list of contacts it contains here. <!---  1251946 Sept 1 release-->
 
 ### Fixed issues
 
