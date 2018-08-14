@@ -25,6 +25,27 @@ For a detailed list of improvements and bug fixes for the latest release, see ou
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
 
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.8
+
+### Provide your feedback about [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+
+After signing in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can select the smiley symbol and provide your feedback about the app and the service. We're looking forward to hearing your thoughts and continue to refine the product based on your feedback.
+
+![Provide feedback in Social Engagement](media/feedback-prompt.png)
+
+### Compliance stream for WordPress comments and Disqus
+
+When a comment on WordPress is removed by the author, it's also removed from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] databases. 
+If a user decides to delete their Disqus profile, all related comments and threads are deleted in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] too. 
+
+### Removal of interaction controls for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] user profiles
+
+With Update 1.7 we removed the option to create new interaction tokens for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] users due to changes on [!INCLUDE [tn-facebook](../includes/tn-facebook.md)]'s Graph API. 
+
+This release removes the interaction controls for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] user profiles from the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user interface.
+
+Please keep in mind this change doesn't affect the way you work with [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. 
+
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.7
 
 ### New sign-in URL for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
