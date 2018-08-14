@@ -12,7 +12,7 @@ ms.topic: article
 ms.prod: 
 ms.service: business-applications
 ms.technology: 
-ms.author: john.burrows
+ms.author: rumant
 audience: Admin
 
 ---
