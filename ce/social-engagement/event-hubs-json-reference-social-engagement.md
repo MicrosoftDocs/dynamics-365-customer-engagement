@@ -729,7 +729,6 @@ In the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
 |                           JSON element                            |                                                          Description                                                          |
 |-------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-|              [post.profile.id](#document.profile.id)              | Unique URI of the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database. |
 |             [post.profile.uri](#document.profile.uri)             | Unique URI of the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database. |
 |     [post.profile.profileIcon](#document.profile.profileIcon)     |                                                URI to public profile picture.                                                 |
 | [post.profile.profileLocation](#document.profile.profileLocation) |                     JSON object describing the author's location information as specified by the author.                      |
@@ -745,7 +744,6 @@ In the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 ```json  
 "profile": {  
   "name": "Display Name @externalHandle",  
-  "id": "mse-tw://#12345678",  
   "uri": "mse-tw://#12345678",
   "profileIcon": "https://path/to/the/profileIcon.png" ,  
   "profileLocation": {  
@@ -766,22 +764,12 @@ In the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
 Back to [top](#overview)  
 
-<a name="document.profile.id"></a>   
-#### post.profile.id  
-Unique URI of the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database.  
-
- Property Value Type: string  
-
- Parent: *post.profile*  
-
- Sample: [post.profile](#document.profile)  
-
-> [!NOTE]
-> **post.profile.uri** will replace **post.profile.id** in June 2018. You can find more details in [this blog post](https://blogs.msdn.microsoft.com/crm/2017/11/27/deprecation-of-post-profile-id-object-in-social-engagement-json-payload/). Please update your apps using this field.
-
 <a name="document.profile.uri"></a>   
 #### post.profile.uri  
 Unique URI of the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database.
+
+> [!NOTE]
+> **post.profile.uri** replaced **post.profile.id** in June 2018. You can find more details in [this blog post](https://blogs.msdn.microsoft.com/crm/2017/11/27/deprecation-of-post-profile-id-object-in-social-engagement-json-payload/). 
 
  Property Value Type: string  
 
