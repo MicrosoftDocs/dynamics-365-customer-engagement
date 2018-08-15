@@ -55,7 +55,7 @@ To view, edit, or create a content-settings set:
     - **LinkedIn URL**,  **Twitter URL**,  **Facebook URL**, and  **YouTube URL**: For each of these social-media services, enter the URL for the landing page for your organization.  
     - **Subscription center**: Specify an existing marketing page that is set up as a subscription center. Select the  **&lt;/&gt;**  button to choose from a list of available pages. All marketing email messages must include a valid subscription-center link taken from a content-settings set.
     - **Forward to a friend**: Specify an existing marketing page that is set up as a forward-to-a-friend page. Select the  **&lt;/&gt;**  button to choose from a list of available pages.
-    
+
 1. Select **Save** in the bottom-right corner of the window to save your settings.
 
 1. If you are editing a content-settings record that was already live, then the record is republished automatically when you save it. If you are creating a new record, then select **Go live** on the command bar to publish it to the marketing services so you can start using it.
@@ -64,7 +64,7 @@ To view, edit, or create a content-settings set:
 
 ## Use assist-edit to place dynamic field values
 
-The **Assist Edit**  button  **&lt;/&gt;**  helps you construct valid dynamic expressions to position field values from recipient contact records, the message content settings, and other database values. This button is provided on the text formatting toolbar whenever you select a text block in the graphical designer. The button is also provided for some settings fields, such as the subject, from-address, and from-name fields.
+The **Assist Edit**  button  **&lt;/&gt;**  helps you construct valid dynamic expressions to position field values from recipient contact records, the message content settings, and other database values. This button is provided on the text formatting toolbar whenever you select a text element in the graphical designer. The button is also provided for some settings fields, such as the subject, from-address, and from-name fields.
 
 Start by positioning your cursor in the field where you want to insert the dynamic text, and then select the  **Assist Edit**  button  **&lt;/&gt;**  to open a drop-down list showing a selection of data sources appropriate for your current context, which can include some or all of the following:
 
