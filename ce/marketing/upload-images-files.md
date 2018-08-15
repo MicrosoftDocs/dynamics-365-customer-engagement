@@ -37,7 +37,7 @@ Images are an important part of most marketing-page and marketing-email designs.
 
 ## Upload files to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
 
-Whenever you add an image block to a marketing page or email, you can choose to add an image that already exists in your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] database or upload a new one. After you've uploaded a file in this way, the file will also be available for use in other designs.
+Whenever you add an image element to a marketing page or email, you can choose to add an image that already exists in your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] database or upload a new one. After you've uploaded a file in this way, the file will also be available for use in other designs.
 
 ![Upload a picture dialog](media/upload-picture.png "Upload a picture by dragging it to the upload dialog box")
 
@@ -57,7 +57,7 @@ Be careful when editing or deleting keywords. If you edit an existing keyword, a
 
 ## Use images in your content
 
-To add an image to a marketing page or email, start by dragging an image block onto your design, which positions a placeholder. Then select the block with the placeholder image and open the **Properties** tab, where you can define the source, alt text, and link for the image. Select the browse button ![Browse for picture button](media/browse-button.png "Browse for picture button") for **Source** to open an image browser where you can find any image already uploaded to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
+To add an image to a marketing page or email, start by dragging an image element onto your design, which positions a placeholder. Then select the element with the placeholder image and open the **Properties** tab, where you can define the source, alt text, and link for the image. Select the browse button ![Browse for picture button](media/browse-button.png "Browse for picture button") for **Source** to open an image browser where you can find any image already uploaded to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 
 ![The picture library](media/select-picture.png "Select a picture from the library")
 
