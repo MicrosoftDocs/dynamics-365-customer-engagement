@@ -111,4 +111,4 @@ The following known issues apply to the out-of-the-box email templates and custo
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Design your digital content](design-digital-content.md)  
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  
-[Content blocks reference](content-blocks-reference.md)
+[Design elements reference](content-blocks-reference.md)
