@@ -61,6 +61,7 @@ and workarounds for Dynamics 365 for Marketing.
 
 -   Segmentation
 
+
     -   Segment names can't have blanks—use underscores instead.
 
     -   Segmentation doesn't work on lookup fields.
