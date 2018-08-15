@@ -44,9 +44,7 @@ To get a quick overview of the post quota for all your search topics, for single
 |      Quota exceeded      |                                              If your solution acquired more posts than your post quota allows.                                              | Take immediate action by adding post quota. Your solution will continue to acquire posts until you either surpass the granted grace period or you reach the additionally granted post quota. |
 |   Acquisition stopped    | When Administrators were informed and the solution exceeded your post quota without any action taken. The solution's acquisition was stopped automatically. |                          Increase the post quota to restart your acquisition immediately, or wait until the first day of the next month to restart the acquisition.                          |
   
- Your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin can upgrade your subscription and purchase additional post quotas for your solution at any time in the [Office 365 admin center](https://portal.office.com/).  
-  
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics 365 pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462)  
+ Your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin can upgrade your subscription and purchase additional post quotas for your solution at any time in the [Office 365 admin center](https://portal.office.com/). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics 365 pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462)  
   
 ## Keep the post quota healthy  
  Keeping the post quota healthy is crucial to make sure data acquisition isn't interrupted and you don't miss any relevant information.  
