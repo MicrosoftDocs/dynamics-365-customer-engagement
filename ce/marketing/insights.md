@@ -54,7 +54,7 @@ At the top of most insights tabs, you'll find settings that let you filter the i
 
 ![Filter insights by date range and usage](media/insights-filters.png "Filter insights by date range and usage")
 
-<a name="contact-insights"></a>   
+<a name="contact-insights"></a>
 
 ## Contact insights
 
@@ -66,7 +66,13 @@ Contacts provide the following insights tabs.
 
 - **Insights**: View a timeline of all interactions the contact has made and a chart of interactions broken down by type.
 - **Email interactions**: View complete details of email results for the selected contact, including a list of all messages sent to them, plus counts of all sends, opens, clicks, bounces, and more.
-- **Web interactions**: See which pages and links from your websites the contact has opened. Only pages that include a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] tracking script are counted here (see also [Register contacts' engagement](register-engagement.md)).
+- **Web interactions**: See which pages and links from your websites and marketing pages the contact has opened, and which links they selected.
+    > [!NOTE]
+    >- Only pages that include a [Dynamics 365 tracking script](register-engagement.md#monitor-visitors) are counted here.
+    > - The **Websites visited** list shows all tracked pages that were visited by this known contact.
+    > - The **Websites clicked** list shows all of the links this user clicked on when viewing a tracked page. Each visited link is show as a full URL, and repeat visits are listed just once, with a counter.
+    > - If you [embed a marketing form](create-deploy-marketing-pages.md#embed-form) into an external webpage, then a tracking tag is included and visits to that page are therefore shown here.
+    > - Results from anonymous visits that occurred prior to becoming a known contact are not shown here.
 - **Event interactions**: See event registration and check-in records for the current contact.
 - **Survey interactions**: See how the contact responded to your surveys.
 - **Marketing form interactions**: See which marketing forms the contact has submitted and the content of each submission.

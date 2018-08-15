@@ -120,6 +120,8 @@ Use a workflow tile to invoke a custom workflow at any point in the customer jou
 > Workflows invoked by this tile must meet the following requirements:
 > - **On demand**: Customer journeys must be able to invoke the workflow on demand each time a contact flows through the tile.
 > - **Based on contact records**: The only input provided to the workflow is a reference to the contact record that has entered the tile. Your workflow must be prepared to perform its functionality on that contact or on a record that is related to that contact.
+> - **Activated as a process**: Only activated workflows can be used, and each workflow must be activated as a process (not as a process template).
+> - **"Scope" and "Start when" fields are ignored**: These settings, if made for the workflow, are ignored when launched by a customer journey.
 
 Workflow tiles are stand-alone, so they never have any parent or child tiles.
 
