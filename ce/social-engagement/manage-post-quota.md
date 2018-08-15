@@ -56,7 +56,9 @@ To get a quick overview of the post quota for all your search topics, for single
  All [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] administrators receive email notifications about the monthly post quota. To reduce the number of posts found by your solution, you can narrow your search topics by removing rules that you don’t need any more. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](search-results-quality.md)  
   
  If no action is taken, exceeding the post quota will get your solution blocked from data acquisition until the end of the month. No more posts are acquired, even if they match your search topics. You can [purchase additional post quota](https://portal.office.com/) at any time to unblock your solution immediately.  
-  
+
+<!--Note to author: Is "retroactively" the word you want instead of "retrospectively" in the following paragraph?-->
+
 > [!IMPORTANT]
 >  Note that [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] doesn't gather posts retrospectively. Any post that you missed won't appear in your solution if you update your post quota after the acquisition has stopped.  
   
@@ -69,8 +71,10 @@ To get a quick overview of the post quota for all your search topics, for single
   
 - **Expected number of posts:** The calculated number of posts that [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is expecting until the end of the calendar month, based on the number of current posts.  
   
-When you set up a search topic, you can validate the rules to estimate how their volume affects your post quota. The rule validation provides the number of posts that would match your query within a month, based on the post volume of the past month.   
-We'll warn you before saving a search topic if we expect more posts than your monthly post quota. You can't save a search topic if it the estimations exceed five times the monthly post quota.   
+When you set up a search topic, you can validate the rules to estimate how their volume affects your post quota. The rule validation provides the number of posts that would match your query within a month, based on the post volume of the past month.  
+
+We'll warn you before saving a search topic if we expect more posts than your monthly post quota. You can't save a search topic if the estimations exceed five times the monthly post quota.
+
 Additionally, if you have [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] selected as a source, you'll find a preview of the most recent tweets matching your keywords rule.  
   
 > [!CAUTION]
@@ -78,15 +82,18 @@ Additionally, if you have [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] sele
 
 ## Buy additional quota
 When you run out of post quota and data acquisition has stopped, your organization's admin can buy add-on subscriptions for additional post quota. 
+
 Three types of quota add-on subscriptions are available. They are billed on a monthly basis. The price per post drops with the size of the add-on subscription. 
 - [!include[](../includes/pn-social-engagement-long.md)] Additional 10,000 posts (no minimum): 10,000 posts per month.
 - [!include[](../includes/pn-social-engagement-long.md)] Additional 10,000 posts (10-unit minimum): 100,000 posts per month.
 - [!include[](../includes/pn-social-engagement-long.md)] Additional 10,000 posts (100-unit minimum): 1,000,000 posts per month.
-  [Learn more about pricing and licensing for Dynamics 365.](http://go.microsoft.com/fwlink/p/?LinkID=401462)
+
+[Learn more about pricing and licensing for Dynamics 365.](http://go.microsoft.com/fwlink/p/?LinkID=401462)
 
 ### To buy add-on subscriptions for Social Engagement
 
 An Office 365 admin can buy additional post quota from the Office 365 admin center. You will only see the [!include[](../includes/pn-social-engagement-short.md)] add-on subscriptions if your Dynamics 365 plan includes [!include[](../includes/pn-social-engagement-short.md)]. Trials aren't eligible for [!include[](../includes/pn-social-engagement-short.md)]. 
+
 For more information, see [Pricing and licensing for Dynamics 365](http://go.microsoft.com/fwlink/p/?LinkID=401462).
 
 ![Image of the clickpath to find add-on subscriptions.](media/purchase-additional-quota.png "Find add-on subscriptions")
@@ -108,7 +115,7 @@ For more information, see [Pricing and licensing for Dynamics 365](http://go.mic
 ### Privacy notice  
  [!INCLUDE[cc_privacy_mse_bing_social_check](../includes/cc-privacy-mse-bing-social-check.md)]  
   
-### See Also  
+### See also  
  [Set up searches to listen to social media conversations](set-up-searches.md)   
  [Manage the quality of your search results](search-results-quality.md)   
  [Refine your search rules](refine-search-rules.md)
