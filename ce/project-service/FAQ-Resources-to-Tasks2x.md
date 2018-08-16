@@ -1,7 +1,7 @@
 ---
 
 title: How do I assign a bookable resources to a task? (Dynamics 365 for Project Service) | MicrosoftDocs
-description: An overview of the different ways you can book allocations in Dynamics 365 Project Service.
+description: An overview of the ways you can assign bookable resources in Dynamics 365 Project Service.
 author: neil.orint 
 manager: ShellyHa
 ms.service: dynamics-365-customerservice
