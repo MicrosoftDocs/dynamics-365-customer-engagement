@@ -7,7 +7,7 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 78dc5157-cf1d-4e32-ace7-9e71763e7510
-author: ShSuri-PM
+author: kamaybac
 ms.author: renwe
 manager: annbe
 ---
