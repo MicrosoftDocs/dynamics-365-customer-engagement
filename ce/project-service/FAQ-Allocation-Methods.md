@@ -63,5 +63,6 @@ To summarize, the following allocation methods lead to overbooking if the resour
 - Full capacity
 - Percentage capacity
 - Evenly Distribute Hours
+
 When using one of these methods, you won’t be notified that the resource is overbooked. To fix overbooked resources, you’ll need to use the Schedule Board.
 
