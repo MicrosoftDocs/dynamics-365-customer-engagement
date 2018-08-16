@@ -24,12 +24,12 @@ When you add a team member directly to a project on the Team tab or book a resou
 > [!div class="mx-imgBorder"] 
 > ![Screenshot of booking allocation](media/FAQ-Allocation-Methods-1.png)
 
-Adding a team member directly to a project
+*Adding a team member directly to a project*
 
 > [!div class="mx-imgBorder"] 
 > ![Screenshot of booking allocation](media/FAQ-Allocation-Methods-2.png)
  
-Booking a requirement with Schedule Board
+*Booking a requirement with Schedule Board*
 
 Here’s a description of the booking allocation methods:
 ### Full Capacity 
