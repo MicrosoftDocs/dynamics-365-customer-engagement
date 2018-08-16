@@ -23,7 +23,7 @@ The Customer Service Hub app works the same whether you’re using it on your mo
 
 Before you can start using the app, you need to insteall the Dynamics 365 mobile app on your device device.. 
 
-[!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
 
 ## Basic Navigation
 

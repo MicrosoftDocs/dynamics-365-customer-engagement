@@ -35,7 +35,7 @@ Use [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)] to:
 
  
 ##   Available anywhere, on any device
-There are two flavors of [!include[](.../includes/pn-ms-dyn-365-for-customer-service.md)]:
+There are two flavors of [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)]:
 
 - The Customer Service app is available on a desktop browser for case management, but not for managing knowledge articles. [!include[](../includes/proc-more-information.md)] [User guide for Customer Service](user-guide-customer-service.md)
 

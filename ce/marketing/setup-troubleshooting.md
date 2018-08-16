@@ -165,7 +165,24 @@ If you don't see the **Survey** tile in the **Toolbox** of your [customer journe
 
     ![Manage the solutions installed on your instances](media/admin-voc-instances.png "Manage the solutions installed on your instances")
 
-1. The **Manage your solution page** opens, showing a list of solutions installed on your selected instance, and the status of each of them. Refresh the page periodically until you can see that the **Voice of the Customer for Microsoft Dynamics 365** solution is shown as installed.
+1. The **Manage your solutions** page opens, showing a list of solutions installed on your selected instance and the status of each of them. Find the **Voice of the Customer for Microsoft Dynamics 365** solution and then refresh the page periodically until you can see that the solution is shown as **Installed**.
+
+    ![The Manage your solutions page](media/admin-voc-solutions1.png "The Manage your solutions page")
+
+
+1. Still on the **Manage your solutions** page, find and select the solution called **Dynamics 365 for Marketing**. (If your list includes more than one **Dynamics 365 for Marketing** solution, then select the one that shows a **Status** of either **Installed** or **Upgrade available**.) Then select the **(more)** link in the side panel to see all available information for this solution.
+
+    ![View details about your Marketing solution](media/admin-voc-solutions2.png "View details about your Marketing solution")
+
+1. At the end of the solution description, you should now see a tag in square brackets.
+
+    ![Find this tag at the end of the expanded description](media/admin-voc-solutions3.png "Find this tag at the end of the expanded description")
+
+    Do one of the following, depending on which of the following tags you see for your selected solution:
+    - **[MktVoc]** or **[MktVocEmail]**: Do nothing and continue to the next step.
+    - **[Mkt]**: Find and select another **Dynamics 365 for Marketing** solution that has the same version, but is tagged with **[MktVoc]**, and then install it.
+    - **[MktEmail]**: Find and select another **Dynamics 365 for Marketing** solution that has the same version, but is tagged with **[MktVocEmail]**, and then install it.
+    - If no tag is shown, continue to the next step.
 
 1. Go to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and confirm that the **Survey** tile is now visible in the customer journey toolbox, and that your surveys are working correctly.
 
