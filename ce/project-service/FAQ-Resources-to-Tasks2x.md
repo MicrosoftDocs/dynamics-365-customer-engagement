@@ -61,14 +61,19 @@ If a resource is assigned to their booked hours (their booked hours equals their
 * Unable to assign resource to task - Following resource(s) do not have sufficient hours booked against project.*
 
 Additionally, the default project manager team member that is added to the team when you create the project is added without any bookings and can’t be assigned to any task. They won’t show up in the resource dropdown for tasks.
+
 If you want to assign them, you need to remove them from the team and then re-add them with an allocation method something other than None. The reason they’re added to the team when the project is created is so that there is at least one project approver on a project by default.
 
 ## Create a generic team member through role assignment on tasks
 
 This method assures that resources have enough bookings for tasks. First, you create a placeholder or generic resource that describe the characteristics of the named resource you ultimately want to work on the tasks by generating a team after assigning roles to tasks. Here’s how you do this:
+
 1 On the work breakdown structure (WBS) select a task.
+
 2 Click the Assigned Role dropdown icon in the resource cell.
-3 Click the Role dropdown and select the role for the generic resource.
+
+3 Click the Role dropdown and select the role for the generic resource
+
 4 Click OK.
 
 > [!div class="mx-imgBorder"] > ![Screenshot of bookings and assignments table](media/FAQ-Resources-to-Tasks2-4.png)
