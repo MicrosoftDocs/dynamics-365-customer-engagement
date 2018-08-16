@@ -25,7 +25,7 @@ topic-status: Drafting
 <tr><td>
 
 <h2>Administer the system</h2>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=864736" data-raw-source="[Readme](https://go.microsoft.com/fwlink/p/?linkid=864736)">Readme</a></li>
+<li><a href="readme.md" data-raw-source="[Readme)](readme.md)">Readme</a></li>
 <li><a href="trial-signup.md" data-raw-source="[Sign up for a free trial](trial-signup.md)">Sign up for a free trial</a></li>
 <li><a href="purchase-marketing.md" data-raw-source="[Purchase a production version of Marketing](purchase-marketing.md)">Purchase a production version of Marketing</a></li>
 <li><a href="purchase-setup.md" data-raw-source="[Run the setup wizard](purchase-setup.md)">Run the setup wizard</a></li>
@@ -83,6 +83,7 @@ topic-status: Drafting
 <li><a href="design-digital-content.md" data-raw-source="[Design digital content](design-digital-content.md)">Design digital content</a></li>
 <li><a href="prepare-marketing-emails.md" data-raw-source="[Prepare marketing email messages](prepare-marketing-emails.md)">Prepare marketing email messages</a></li>
 <li><a href="create-deploy-marketing-pages.md" data-raw-source="[Create and deploy marketing pages](create-deploy-marketing-pages.md)">Create and deploy marketing pages</a></li>
+<li><a href="create-deploy-marketing-pages.md#embed-form" data-raw-source="[Embed a marketing form on your own website](create-deploy-marketing-pages.md#embed-form)">Embed a marketing form on your own website</a></li>
 <li><a href="customer-journeys-create-automated-campaigns.md" data-raw-source="[Create automated campaigns](customer-journeys-create-automated-campaigns.md)">Create automated campaigns</a></li>
 <li><a href="segmentation-lists-subscriptions.md" data-raw-source="[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)">Segmentation, lists, and subscriptions</a></li>
 <li><a href="market-to-leads.md" data-raw-source="[Market to leads](market-to-leads.md)">Market to leads</a></li>

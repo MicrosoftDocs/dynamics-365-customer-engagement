@@ -12,7 +12,7 @@ ms.assetid: 15dd8131-f40d-4d8c-8394-f9102dd34691
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Available Liquid types
 

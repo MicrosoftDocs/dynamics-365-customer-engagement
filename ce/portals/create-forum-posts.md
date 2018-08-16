@@ -12,7 +12,7 @@ ms.assetid: 9d1408d5-3f73-4aaa-bd54-3404d38acc9d
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Create forum posts on the portal
 

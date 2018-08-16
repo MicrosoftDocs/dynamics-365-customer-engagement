@@ -1,27 +1,24 @@
 ---
-title: "Schedule time off (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
+
+title: Schedule time off (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to schedule time off in Project Service
+author: krbjoran
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
 ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.assetid: 31b2a228-8fb0-4c0b-a8bd-db3c4e9dd842
-caps.latest.revision: 12
 ms.author: krbjoran
-manager: shellyha
----
-# Schedule time off (Project Service Automation)
+audience: Admin
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+---
+# Schedule time off (Project Service)
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Schedule your vacation time or leave of absence in much the same way as you enter time for a project.  
   

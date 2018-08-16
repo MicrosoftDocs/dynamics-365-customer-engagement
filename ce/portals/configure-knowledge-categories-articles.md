@@ -12,7 +12,7 @@ ms.assetid: 29c93300-516a-4d61-a3a1-363f7d2c1466
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Configure and manage category for knowledge articles
 

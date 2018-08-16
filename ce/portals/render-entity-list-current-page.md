@@ -12,7 +12,7 @@ ms.assetid: 51dd7c60-5c69-4dd5-9de5-6c4ee30b6526
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Render the entity list associated with the current page
 

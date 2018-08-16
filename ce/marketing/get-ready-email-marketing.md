@@ -41,8 +41,10 @@ So what can you do to maximize your deliverability and remain within the law, an
 
 - **Create clean, collaborative, and responsible content**  
     Both spam filters and sender-reputation systems analyze the content of the messages you are trying to send. They look for signs that you are working together with your recipients and are identifying yourself honestly. Common requirements here are the presence of unsubscribe links and your organization's physical street address in the message body. Messages in HTML format should also include a plain-text version that has the same information. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides features to make it easy to include these essential items in your messages, and helps prevent you from leaving them out by mistake.
-- **Authenticate your messages and sending IP**  
-    Several standards are in place to help ensure that sending IP addresses really do represent the organizations they claim to, and that messages coming from those IPs are authentic and untampered with. These include _Sender Policy Framework_ (SPF), _DomainKeys Identified Mail_ (DKIM), and _Domain-based Message Authentication, Reporting and Conformance_ (DMARC). In a standard setup, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] implements all of these technologies for you, and does what it can to maintain a good sender reputation for all [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] sender IPs.
+- **Authenticate your messages, sending IP, and domain**  
+    Several standards are in place to help ensure that sending IP addresses really do represent the organizations they claim to, and that messages coming from those IPs are authentic and untampered with. These include _Sender Policy Framework_ ([SPF](http://www.openspf.org/FAQ)) and _DomainKeys Identified Mail_ ([DKIM](http://dkim.org/info/dkim-faq.html)). In a standard setup, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] implements both of these technologies for you, and does what it can to maintain a good sender reputation for all [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] sender IPs.  
+    > [!IMPORTANT]
+    > If you are already using DMARC to authenticate messages sent from your domains, or if you would like to start using it (recommended), then contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] to get help setting it up to authenticate messages sent on your behalf by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. This is very important because if you don't integrate [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] into your DMARC configuration, your marketing emails are very likely to be labelled as junk and removed from inboxes by many private domains and most large email providers including Gmail and Outlook.com. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Work with Microsoft Support if you use, or want to use, DMARC](#dmarc)
 - **Avoid sending to invalid and inactive email addresses**  
     If you send a message to an invalid, inactive, or canceled email address, the message is typically returned as what is called a "hard bounce." Hard bounces happen, but the reputation watchdogs, public providers, and private hosts  will notice, and the more hard bounces you have associated with your sending IP, the lower your reputation score will be. Addresses associated with a hard bounce will probably never come back online, so you don't want them in your database; [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] will automatically stop sending to hard-bouncing addresses for six months before trying them again. [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] needs to defend the reputation of our sending IPs, so organizations that consistently generate a large number of hard bounces might be placed into a higher-risk sending pool or might even eventually have their accounts closed.
 - **Send consistent volumes**  
@@ -52,12 +54,34 @@ So what can you do to maximize your deliverability and remain within the law, an
 
 For more information about deliverability and sender reputation, search with [!INCLUDE[pn-bing](../includes/pn-bing.md)] for many more good articles about this topic.
 
+<a name="dmarc"></a>
+
+## Work with Microsoft Support if you use, or want to use, DMARC
+
+_Domain-based Message Authentication, Reporting and Conformance_ ([DMARC](https://dmarc.org/wiki/FAQ)) is a standard that helps email recipients confirm that messages claiming to come from one of your email domains actually came from your organization. This standard helps ensure the authenticity of both your organization's day-to-day email messages and messages sent on your behalf by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. As a result, your messages are much more likely to get through, rather than get flagged as junk. We therefore recommend that all organizations set up DMARC for their domains, including the sending domains used by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+
+DMARC builds on the SPF and DKIM standards that [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] normally sets up for you on your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] sending domains. However, if you would also like to use DMARC (or if you are already using it on your other sending domains), then you must [contact Microsoft Support](../admin/contact-technical-support.md) for assistance with setting it up for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
+
+DMARC requires you to have either your own envelope domain or your own DKIM signing domain. It's best to have both to minimize false positives during a DMARC check by the receiving party. [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] will work with you to create the required DNS txt record, which you must then register with the global DNS system.
+
+> [!IMPORTANT]
+> If are using DMARC but fail to integrate [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] into your DMARC configuration, your marketing emails are very likely to be labelled as junk and removed from inboxes by many private domains and most large email providers including Gmail and Outlook.com.
+
+## Test your deliverability
+
+Once you have all of the relevant email-authentication systems in place, we highly recommend that you test your deliverability to all of the major email hosts (such as Gmail, Outlook.com, Yahoo mail, and more), and to as many private domains as your can (including your own). To do this:
+
+1. Set up an email account that you can read on as many services and domains as you can.
+1. Set up a contact record for each of these addresses in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
+1. Run a [simple email campaign](create-simple-customer-journey.md) that targets all of your test contacts.
+1. Inspect the inbox for each account to confirm your messages arrive in the inbox and don't get labelled as junk.
+
 ## Using a custom, dedicated sender IP
 
 In a standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] setup, all sender IPs are managed by [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] and shared among customers that have similar reputation scores. This lets us manage reputation, balance the send load, and warm up new IPs as needed. However, some organizations prefer to use their own, dedicated sender IP, especially if they will be sending very high volumes.
 
 > [!NOTE]
-> Dedicated sender IPs are not part of the standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] subscription agreement, and [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] does not generally recommend them because they introduce extra complexity and expense—and can result reduced deliverability compared to our standard sender IP pools. [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] considers applications for dedicated sender IPs on a case-by-case basis. If you think your organization could benefit from a dedicated sender IP, please contact your [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] representative to find out if you qualify.
+> Dedicated sender IPs are not part of the standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] subscription agreement, and [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] does not generally recommend them because they introduce extra complexity and expense—and can result reduced deliverability compared to our standard sender IP pools. [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] considers applications for dedicated sender IPs on a case-by-case basis. If you think your organization could benefit from a dedicated sender IP, please [contact Microsoft Support](../admin/contact-technical-support.md) to find out if you qualify.
 
 Though there can be a few advantages to arranging for a dedicated sender IP, there are also disadvantages, and it is not for everyone. Consider the following:
 
@@ -66,7 +90,8 @@ Though there can be a few advantages to arranging for a dedicated sender IP, the
 - **Maintain a regular and consistent send volume**  
     You must spread out your email sends to ensure that you send roughly the same volume every week or so. Don't try to send all your messages at once at the start of each month, for example.
 - **You should set up sender authentication for your domain**  
-    As mentioned previously, Microsoft sets up authentication for all of the sender IPs that we use in a standard solution, but when you use your own sender IP, you must do this yourself by setting up _Sender Policy Framework_ (SPF), _DomainKeys Identified Mail_ (DKIM), and _Domain-based Message Authentication, Reporting and Conformance_ (DMARC) for your domain. These technologies help ensure that spam filters and reputation watchdogs will be able to see that the IP address sending your messages is a legitimate sender and that it matches the envelope sender domain. Doing this is likely to greatly improve your message deliverability.
+    As mentioned previously, Microsoft sets up the [SPF](http://www.openspf.org/FAQ) and [DKIM](http://dkim.org/info/dkim-faq.html) sender-authentication standards for all of the sender IPs that we use in a standard solution, but when you use your own sender IP, you must do this yourself&mdash;and we recommend that you also set up [DMARC](https://dmarc.org/wiki/FAQ), which builds on these two standards. These technologies help ensure that spam filters and reputation watchdogs will be able to see that each IP address sending your messages is a legitimate sender and that it matches your envelope sender domain. Doing this is likely to greatly improve your message deliverability. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Work with Microsoft Support if you use, or want to use, DMARC](#dmarc)
+
 - **You concentrate risk on yourself and can pay a high price for any mistakes**  
     When you are the only one using your sending IP, any mistakes you make will affect your sender reputation directly, without being diluted by the large volume of compliant messages being sent by a large pool of other users.
 

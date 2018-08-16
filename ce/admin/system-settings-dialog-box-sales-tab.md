@@ -1,21 +1,26 @@
 ---
 title: "System Settings dialog box - Sales tab for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+description: ""
+keywords: ""
+ms.date: 07/18/2018
+ms.service:
+  - "crm-online"
+ms.custom:
+  - ""
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 08b3057d-03ad-41d0-a6b3-4770add682b2
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 14
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
 ---
+
 # System Settings dialog box - Sales tab
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
@@ -65,4 +70,5 @@ Use the settings on this page to configure system-level settings for the sales a
  [Create price lists and price list items to define pricing of products](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)   
  [Set up a discount list](../sales-enterprise/set-up-discount-list.md)   
  [Create product bundles to sell multiple items together](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)   
- [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)
+ [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
+ [Administrator and Sales Manager Guide](../sales-enterprise/admin-guide.md)  

@@ -59,15 +59,15 @@ To create a marketing email and go live:
    - **Subject**: This is the subject that email recipients will see when they receive the message.
    - **From**: Select here to choose the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] user who email recipients will see as the sender of the message.
 
-4. In the main part of the page, you now see the design canvas (on the left side), where you can drag, arrange, and enter content. A **Toolbox** on the right side of the page provides content blocks that you'll use to construct your message.  
-    ![Add a text block to a new email](media/email-add-text-block.png "Add a text block to a new email")
+4. In the main part of the page, you now see the design canvas (on the left side), where you can drag, arrange, and enter content. A **Toolbox** on the right side of the page provides design elements that you'll use to construct your message.  
+    ![Add a text element to a new email](media/email-add-text-block.png "Add a text element to a new email")
 
-    Drag a **Text** block from the **Toolbox** tab over to the top of the canvas. When you have dragged the block to a suitable location, a blue shaded region appears. Release the mouse button to drop the block at that location.
+    Drag a **Text** element from the **Toolbox** tab over to the top of the canvas. When you have dragged the element to a suitable location, a blue shaded region appears. Release the mouse button to drop the element at that location.
 
-5. When you drop the text block, you'll see some placeholder text within the block and a floating toolbar just below or above it.  
+5. When you drop the text element, you'll see some placeholder text within the element and a floating toolbar just below or above it.  
    ![The floating text toolbar](media/email-floating-text-toolbar.png "The floating text toolbar")
 
-   Select and remove the placeholder text, and then add your own. Use the toolbar buttons to style your text as you would in a text editor like [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] (point to any toolbar button to see what it does). Most of the buttons are for styling text and paragraphs, but there are also buttons for creating links; entering dynamic text (more on this later); and moving, copying, or deleting the entire text block.
+   Select and remove the placeholder text, and then add your own. Use the toolbar buttons to style your text as you would in a text editor like [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] (point to any toolbar button to see what it does). Most of the buttons are for styling text and paragraphs, but there are also buttons for creating links; entering dynamic text (more on this later); and moving, copying, or deleting the entire text element.
 
    > [!TIP]
    > The very first text that you enter on the page is especially important because most email clients show this as preview text for the messages in their inbox list. Here is how it looks in [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-ms-outlook-short](../includes/pn-ms-outlook-short.md)]:
@@ -78,8 +78,8 @@ To create a marketing email and go live:
 
 6. An easy way to personalize the message is to include the name of the recipient in the greeting. Add the recipient's name as dynamic text by using the assist-edit feature as follows:
 
-    1. Working in the text block you just added, enter a suitable opening such as **Dear**.
-    1. On the pop-up toolbar, select the assist-edit button **&lt;/&gt;**. This opens a drop-down list at your insertion point in the text block.
+    1. Working in the text element you just added, enter a suitable opening such as **Dear**.
+    1. On the pop-up toolbar, select the assist-edit button **&lt;/&gt;**. This opens a drop-down list at your insertion point in the text element.
     ![Choose an entity using assist edit](media/email-assist-edit-entity.png "Select an entity by using assist edit")  
     1. In the assist-edit drop-down list, select **Contact**. The assist-edit tool enters code that references the contact entity, advances the insertion point to the next position in the code, and opens a new drop-down list that shows each field from the contact entity.
     ![Choose a field using assist-edit](media/email-assist-edit-field.png "Select a field by using assist-edit")
@@ -98,7 +98,7 @@ To create a marketing email and go live:
       > 
       > You can have as many Content Settings records as you like, but many organizations use just one. When you set up a customer journey, you'll also pick the Content Settings record used by all messages sent by that journey. This means that you can reuse the same marketing email in different customer journeys, but dynamic values taken from the Content Settings record can vary based on which customer journey sends the message.  
 
-8. You should usually include at least one visible image in your design because this will invite recipients to load images, which is required for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] to log the message-open event. Drag an **Image** block from the **Toolbox** onto the canvas. This time, when you drop the block, you'll see an image placeholder and the **Properties** tab, which shows configuration settings for the selected block.  
+8. You should usually include at least one visible image in your design because this will invite recipients to load images, which is required for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] to log the message-open event. Drag an **Image** element from the **Toolbox** onto the canvas. This time, when you drop the element, you'll see an image placeholder and the **Properties** tab, which shows configuration settings for the selected element.  
     ![Where to set the Source for an image](media/email-image-source.png "Where to set the source for an image")
 
 9. On the **Properties** tab, select the **Image Gallery** button ![The browse button](media/email-browse-button.png "The browse button") at the right side of the **Source** field . The **Select an Image** dialog box opens.  
@@ -135,7 +135,7 @@ To create a marketing email and go live:
 
 [Best practices for email marketing](get-ready-email-marketing.md)  
 [Design your digital content](design-digital-content.md)  
-[Keyboard shortcuts and accessibility features for content designers](design-digital-content.md)  
+[Keyboard shortcuts and accessibility features for content designers](designer-shortcuts.md)  
 [Prepare marketing email messages](prepare-marketing-emails.md)  
-[Work with email templates](email-templates.md)  
-[Content blocks reference](content-blocks-reference.md)
+[Work with email, page, and form templates](email-templates.md)  
+[Design elements reference](content-blocks-reference.md)

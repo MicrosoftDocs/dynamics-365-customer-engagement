@@ -71,29 +71,29 @@ topic-status: Drafting
 - **Alt+3**: Open the preview tab.
 - **Alt+11**: Toggle the full screen view of the design editor.
 
-### Manipulate design blocks
+### Manipulate design elements
 
-- **Alt+M**: Move the selected block.
-- **Alt+Shift+C**: Clone the selected block.
-- **Alt+Shift+D**: Delete the selected block.
-- **Alt+X**: Go back to the active block (for example, from the **Properties** panel).
+- **Alt+M**: Move the selected element.
+- **Alt+Shift+C**: Clone the selected element.
+- **Alt+Shift+D**: Delete the selected element.
+- **Alt+X**: Go back to the active element (for example, from the **Properties** panel).
 
-### Working with text block content
+### Working with text element content
 
-When a text block is selected, you are able to enter and style text within that block. The keyboard shortcuts listed in the following subsections are active while you are working with a text block.
+When a text element is selected, you are able to enter and style text within that element. The keyboard shortcuts listed in the following subsections are active while you are working with a text element.
 
-![The text-block toolbar](media/text-block-toolbar.png "The text-block toolbar")
+![The text-element toolbar](media/text-block-toolbar.png "The text-element toolbar")
 
-#### Navigating within a text block
+#### Navigating within a text element
 
 - **Home**: Goes to the beginning of the line.
-- **Ctrl+Home**: Goes to the beginning of the text block.
+- **Ctrl+Home**: Goes to the beginning of the text element.
 - **End**: Goes to the end of the line.
-- **Ctrl+End**: Goes to the end of the text block.
-- **Page down**: Scrolls down the text block, by approximately the length of the editing area.
-- **Page up**: Scrolls up the text block, by approximately the length of the editing area.
+- **Ctrl+End**: Goes to the end of the text element.
+- **Page down**: Scrolls down the text element, by approximately the length of the editing area.
+- **Page up**: Scrolls up the text element, by approximately the length of the editing area.
 
-#### Writing in a text block
+#### Writing in a text element
 
 - **Enter (Return)**: Ends a paragraph and starts a new one.
 - **Shift+Enter**: Adds a line break.
@@ -116,13 +116,13 @@ When a text block is selected, you are able to enter and style text within that 
 
 #### Selecting text
 
-- **Ctrl+A**: Selects all the contents of the current text block.
+- **Ctrl+A**: Selects all the contents of the current text element.
 - **Shift+Arrow**: Selects a text fragment by letters.
 - **Ctrl+Shift+Arrow**: Selects a text fragment by words.
 - **Shift+Home**: Selects a text fragment from the cursor to the beginning of the line.
 - **Shift+End**: Selects a text fragment from the cursor to the end of the line.
-- **Ctrl+Shift+Home**: Selects a text fragment from the cursor to the beginning of the text block.
-- **Ctrl+Shift+End**: Selects a text fragment from the cursor to the end of the text block.
+- **Ctrl+Shift+Home**: Selects a text fragment from the cursor to the beginning of the text element.
+- **Ctrl+Shift+End**: Selects a text fragment from the cursor to the end of the text element.
 - **Shift+Page down**: Selects a text fragment of approximately the length of the editing area starting from the cursor and going down.
 - **Shift+Page up**: Selects a text fragment of approximately the length of the editing area starting from the cursor and going up.
 
@@ -143,7 +143,7 @@ When a text block is selected, you are able to enter and style text within that 
 #### Links and assist edit
 
 - **Ctrl+L**: Opens the **Link** dialog box.
-- **Alt+Down-Arrow**: Open assist edit inside a text block.
+- **Alt+Down-Arrow**: Open assist edit inside a text element.
 - **Alt+Down-Arrow** or **Down-Arrow**: Open assist edit inside the link field (or any field that supports assist edit).
 
 ## Keyboard commands for customer journeys and lead scoring models
@@ -216,9 +216,9 @@ To move quickly between the main areas of the customer journey and lead-scoring 
 ### See also
 
 [Design your digital content](design-digital-content.md)  
-[Content blocks reference](content-blocks-reference.md)  
+[Design elements reference](content-blocks-reference.md)  
 [Prepare marketing email messages](prepare-marketing-emails.md)  
-[Work with email templates](email-templates.md)  
+[Work with email, page, and form templates](email-templates.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  

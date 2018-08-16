@@ -12,7 +12,7 @@ ms.assetid: a5eddd85-8078-4f9c-b843-987a87841e84
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Add a redirect URL to a new URL on a portal
 

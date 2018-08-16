@@ -1,13 +1,13 @@
 ---
 title: "Dynamics 365 for Marketing Readme (Known Issues) | MicrosoftDocs"
-ms.date: 05/10/2018
+ms.date: 07/18/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 78dc5157-cf1d-4e32-ace7-9e71763e7510
-author: ReneeW-CPub
+author: ShSuri-PM
 ms.author: renwe
 manager: annbe
 ---
@@ -26,12 +26,10 @@ and workarounds for Dynamics 365 for Marketing.
 -   You cannot use the Join sign-up process to add more users to a Marketing
     trial that is running on a trial tenant without a mailbox set up for the
     organization admin. Instead, each new user must be added in a specific way.
-    Refer to the [First time setup
-    FAQ](https://go.microsoft.com/fwlink/?linkid=866753).
+    Refer to the [Administration and setup FAQ](https://go.microsoft.com/fwlink/?linkid=866753).
 
 -   You cannot sign up using an \@microsoft.com email address. Please set up a
-    trial instance first as described in the [First time setup
-    FAQ](https://go.microsoft.com/fwlink/p/?linkid=866753).
+    trial instance first as described in the [Administration and setup FAQ](https://go.microsoft.com/fwlink/p/?linkid=866753).
 
 ### Dynamics 365 for Marketing - known issues
 
@@ -54,12 +52,15 @@ and workarounds for Dynamics 365 for Marketing.
         were participating in, but they might continue to be included in other
         actions, such as tasks and workflows.
 
-    -   Insights (across journeys, emails and marketing pages) may take up to
+    -   Insights (across journeys, emails, and marketing pages) may take up to
         six hours to display.
 
     -   The Snapshot view generated for journeys might be missing some tiles.
+    
+    -   The “checking for errors” operation triggered in the customer journey’s General tab results in a time-out. Users can continue   to “check for errors” from the Designer tab.
 
 -   Segmentation
+
 
     -   Segment names can't have blanks—use underscores instead.
 
@@ -77,9 +78,6 @@ and workarounds for Dynamics 365 for Marketing.
         will be honored in future journeys. [Learn how to use suppression
         segments to ensure running journeys will implement unsubscribe
         requests.](https://go.microsoft.com/fwlink/p/?linkid=867008)
-
-    -   When creating a compound segment, users might have to wait for a few
-        minutes for the segment selector data to load.
 
 -   Email marketing
 
@@ -106,8 +104,6 @@ and workarounds for Dynamics 365 for Marketing.
     -   The keyword grid is not displayed when you save a newly created keyword
         but the record is created successfully.
 
-    -   Outgoing email test sends might not work at times in some organizations.
-        Contact the Support team for mitigation options.
 
 -   Marketing pages and forms
 
@@ -115,13 +111,9 @@ and workarounds for Dynamics 365 for Marketing.
         confirmation message or a redirect URL, so users can see that they
         successfully submitted the form.
 
-    -   It might take up to 15 minutes after a marketing page goes live before
+    -   It might take up to one minute after a marketing page goes live before
         its public link (full page URL) is ready. Visitors might see an error
         message on the page prior to this.
-
-    -   When adding text in the confirmation box while setting up a form in a
-        Marketing page, the text is not accepted the first time, and the user
-        needs to click the text box once more to enter the text.
 
     -   Marketing pages from the sample data do not go live in certain
         organizations (Italian, Japanese). A new marketing page can still be

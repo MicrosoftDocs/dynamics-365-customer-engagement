@@ -7,8 +7,8 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: shellyha
-ms.date: 09/15/2017
+manager: shujoshi
+ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 8dc8e53f-984d-4c5c-98aa-4396786a16e3
@@ -25,7 +25,7 @@ For any customer service team, it’s important to give customers the right info
   
 - Native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management: This option is available for both [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] on-premises users. For [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organizations, the native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge solution is only available if you've installed the [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)]. For on-premises [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organizations, this feature is only available if you've updated to CRM 2016.  
   
-- [!INCLUDE[pn_parature](../includes/pn-parature.md)] knowledge base: This option is available only for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] users. <!--This feature was introduced in [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)].-->  
+- [!INCLUDE[pn_parature](../includes/pn-parature.md)] knowledge base: This option is available only for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] users. 
   
 > [!IMPORTANT]
 > [!INCLUDE[pn_parature](../includes/pn-parature.md)] knowledge base as a knowledge management solution has been deprecated for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. For more information, see [Important changes coming](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
@@ -98,5 +98,5 @@ For any customer service team, it’s important to give customers the right info
    5. To open the article in a new window, click the **Pop Out** button ![Pop out knowledge article in a new window button in Dynamics 365](../customer-service/media/pop-out-article.png "Pop out knowledge article in a new window button in Dynamics 365").  
   
 ### See also  
- [Create and manage a case (Customer Service Hub)](user-guide-customer-service-hub.md) <br>
- [Create and manage a case (Customer Service)](user-guide-customer-service.md)
+
+[Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
