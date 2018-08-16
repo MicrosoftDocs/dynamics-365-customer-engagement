@@ -182,7 +182,7 @@ If you don't see the **Survey** tile in the **Toolbox** of your [customer journe
     - **[MktVoc]** or **[MktVocEmail]**: Do nothing and continue to the next step.
     - **[Mkt]**: Find and select another **Dynamics 365 for Marketing** solution that has the same version, but is tagged with **[MktVoc]**, and then install it.
     - **[MktEmail]**: Find and select another **Dynamics 365 for Marketing** solution that has the same version, but is tagged with **[MktVocEmail]**, and then install it.
-    - If no tag is shown, then please [contact Microsoft Support](#contact-support) for assistance.
+    - If no tag is shown, continue to the next step.
 
 1. Go to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and confirm that the **Survey** tile is now visible in the customer journey toolbox, and that your surveys are working correctly.
 
