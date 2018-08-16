@@ -27,6 +27,7 @@ In the Team Member tab, you can add a new team member by clicking New. That open
 - **By Hours Front Load** books the resource for a specified number of hours, front-loading the per-day hours over the specified from and to dates.
 - **None** adds the resource to the team but doesn’t create any bookings that absorb their capacity.
 On the Schedule grid for a task, click the Resource icon in the resource cell, and then select the team member you just added. They appear under Team Members.
+
 Note that both on the Team Member tab and the Reconciliation tab, the resource shows booked hours and assigned hours. They should be the same, but don’t have to be as bookings and assignments are not tightly-coupled. The Reconciliation tab gives you details when they are different, such as when you assign a resource more hours than you have booked. You can then take corrective action with this information, either extending the resources bookings or changing the assignment.
 ## Creating a generic team member through task assignment
 With this method you create a placeholder or generic resource that describes the characteristics of the named resource you ultimately want to work on the tasks. You then generate a requirement (or submit a request using the requirement) that is used to search and book the named resource.
