@@ -33,33 +33,33 @@ Note that both on the Team Member tab and the Reconciliation tab, the resource s
 With this method you create a placeholder or generic resource that describes the characteristics of the named resource you ultimately want to work on the tasks. You then generate a requirement (or submit a request using the requirement) that is used to search and book the named resource.
 1.	On the Schedule grid for a task, click the resource icon in the resource cell.
 
- > [!div class="mx-imgBorder"] > ![Screenshot of bookings and assignments table](media/BookingsAndAssignmentsFAQimage.PNG)
+ > [!div class="mx-imgBorder"] > ![Screenshot of assigning resources to a task](media/FAQ-Resources-to-Tasks-1.png)
 
 2.	Type a name to serve as the placeholder resource’s name, for example “Program Manager.”
 
-> [!div class="mx-imgBorder"] > ![Screenshot of bookings and assignments table](media/BookingsAndAssignmentsFAQimage.PNG)
+> [!div class="mx-imgBorder"] > ![Screenshot of assigning resources to a task](media/FAQ-Resources-to-Tasks-2.png)
  
 3.	Click Create.
 
 4.	On the Quick Create Project Team Member field to the right of the screen, set the role for the generic resource.
 
-> [!div class="mx-imgBorder"] > ![Screenshot of bookings and assignments table](media/BookingsAndAssignmentsFAQimage.PNG)
+> [!div class="mx-imgBorder"] > ![Screenshot of assigning resources to a task](media/FAQ-Resources-to-Tasks-3.png)
  
 5.	You can continue to assign this placeholder resource tasks by selecting them on the resource selector for the task. They’re listed under Team Members.
 
-> [!div class="mx-imgBorder"] > ![Screenshot of bookings and assignments table](media/BookingsAndAssignmentsFAQimage.PNG)
+> [!div class="mx-imgBorder"] > ![Screenshot of assigning resources to a task](media/FAQ-Resources-to-Tasks-4.png)
  
 6.	When you’re done assigning the generic resource select the generic resource on the Team tab and click Generate Requirement to create a resource requirement for the generic resource.
 
-> [!div class="mx-imgBorder"] > ![Screenshot of bookings and assignments table](media/BookingsAndAssignmentsFAQimage.PNG)
+> [!div class="mx-imgBorder"] > ![Screenshot of assigning resources to a task](media/AQ-Resources-to-Tasks-5.png)
  
 7.	Click Book for the generic resource. You can then use the Schedule Board to find and book a real resource. You can also submit the requirement for fulfillment by a resource manager.
 
-> [!div class="mx-imgBorder"] > ![Screenshot of bookings and assignments table](media/BookingsAndAssignmentsFAQimage.PNG)
+> [!div class="mx-imgBorder"] > ![Screenshot of assigning resources to a task](media/AQ-Resources-to-Tasks-6.png)
  
 8.	When the generic resource is fulfilled with a named resource, the generic resource is removed from the team and the task assignments for the generic resource are assigned to the named resource that fulfilled the generic resource’s resource requirement.
 
-> [!div class="mx-imgBorder"] > ![Screenshot of bookings and assignments table](media/BookingsAndAssignmentsFAQimage.PNG)
+> [!div class="mx-imgBorder"] > ![Screenshot of assigning resources to a task](media/AQ-Resources-to-Tasks-7.png)
 
 ## Assigning a named resource from the list of all bookable resources
 You can use the search box in the resource selector to search all the bookable resources in Project Service and assign them to a task.
@@ -68,7 +68,7 @@ You can use the search box in the resource selector to search all the bookable r
 3.	Search results for the name are displayed in the resource selector under Other Resources.
 4.	Select the resource and they will be assigned to the task.
 
-> [!div class="mx-imgBorder"] > ![Screenshot of bookings and assignments table](media/BookingsAndAssignmentsFAQimage.PNG)
+> [!div class="mx-imgBorder"] > ![Screenshot of assigning resources to a task](media/FAQ-Resources-to-Tasks-8.png)
  
 Resources assigned this way are added to the team without any bookings (like adding a team member and selecting none as the allocation method). They’re displayed in the Team tab and Reconciliation tab as resources with only assignments and a booking deficit. Book them if you want their availability consumed.
 
