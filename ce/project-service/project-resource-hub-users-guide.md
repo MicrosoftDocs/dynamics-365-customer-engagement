@@ -37,7 +37,7 @@ There are two flavors of [!INCLUDE[pn_dyn_365_project_service_auto](../includes/
 ## Install the mobile app
 Before you can start using the Project Resource Hub app, you need to install the Dynamics 365 mobile app on your device. 
 
-[!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
 
 ## Basic Navigation
 1.	When you sign in on the Dynamics 365 mobile app, you’ll see the MyApps page with a list of the apps that you access to. 
@@ -88,7 +88,7 @@ Enter your expenses at least weekly—or at the frequency requested by your mana
 5. Continue entering expenses for the week. When you’re done and everything looks correct, tap **Submit**. A manager will review and approve your expenses.
 
 ## General information on how to use the mobile app 
-[!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [Mobile Basics Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobile Basics Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md).
 
 ### See Also  
  [Overview of Project Service](../project-service/overview.md)   
