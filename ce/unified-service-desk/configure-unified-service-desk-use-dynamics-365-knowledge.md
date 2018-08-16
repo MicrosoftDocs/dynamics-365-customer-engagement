@@ -48,7 +48,7 @@ filter=3
   
  Additionally, you must include the `SetArticleContext` action in the `ResultOpen` event of the hosted control if you’re displaying a knowledge base article in another hosted control to be able to use the context information in the target hosted control. You must include the action in the `SelectionChange` event if you’ll be configuring contextual actions for a selected knowledge base article in the KM Control itself. Include it in both the events if you’ll be configuring both the functionalities in your agent application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Predefined events](../unified-service-desk/km-control-hosted-control.md#events)  
   
- For information on how to define an action call for setting the article context and include it in an event, see [Step 5: Configure hosted controls and action calls to display an article in a tab](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md#Step5) in the walkthrough.  
+ For information on how to define an action call for setting the article context and include it in an event, see [Step 5: Configure hosted controls and action calls to display an article in a tab](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md#Step5) in the walkthrough.  
   
 <a name="AssociateDisassociate"></a>   
 ## Associate and disassociate a knowledge base article with a case (incident)  
@@ -77,7 +77,7 @@ articletitle=[[KB Search.question]]
 entitytypename=incident  
 ```  
   
- For information on how to use the `Associate` action to associate an article with an incident record, see [Step 6: Configure contextual actions for the knowledge base article in the tab](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md#Step6) in the walkthrough.  
+ For information on how to use the `Associate` action to associate an article with an incident record, see [Step 6: Configure contextual actions for the knowledge base article in the tab](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md#Step6) in the walkthrough.  
   
 <a name="PopInOut"></a>   
 ## Configure the pop-in and pop-out feature for knowledge base articles  
@@ -121,4 +121,4 @@ entitytypename=incident
 
  [Unified Interface KM Control (Hosted Control)](../unified-service-desk/unified-interface-km-control-hosted-control.md) 
 
- [Walkthrough 8: Use Dynamics 365 knowledge within your agent application](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md)
+ [Walkthrough 8: Use Dynamics 365 knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)
