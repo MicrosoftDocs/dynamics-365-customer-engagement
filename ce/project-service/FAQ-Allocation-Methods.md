@@ -22,14 +22,15 @@ audience: Admin
 When you add a team member directly to a project on the Team tab or book a resource to a project or requirement by using the Schedule Board, you’ll see several booking allocation methods you can use. 
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot of booking allocation](media/FAQ-Allocation-Methods-1.PNG)
+> ![Screenshot of booking allocation](media/FAQ-Allocation-Methods-1.png)
 
 Adding a team member directly to a project
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot of booking allocation](media/FAQ-Allocation-Methods-2.PNG)
+> ![Screenshot of booking allocation](media/FAQ-Allocation-Methods-2.png)
  
 Booking a requirement with Schedule Board
+
 Here’s a description of the booking allocation methods:
 ### Full Capacity 
 This method books the resource’s full capacity for the specified from and to dates. For example, if a resource has a calendar that’s set to work 8 hours per day, 5 days a week, setting a start and end date that covers 5 working days books them for 40 hours. The booking is done without regard to the resources remaining capacity. If they are already booked during that period on other projects, the 40 hours is booked as additional hours, potentially leading to overbookings.
