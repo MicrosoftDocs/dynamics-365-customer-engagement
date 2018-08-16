@@ -18,11 +18,11 @@ audience: Admin
 
 # How do I assign a bookable resource to a task?
 
-If you’d like to assign a bookable resource to a task, the bookable resource team member must have enough bookings to be able to assign them. The status of the booking needs to be Commit Type Hard Book and Status Committed. If there aren’t enough bookings for the resource, Project Service removes the assignment and displays the following error message:
+There are two ways to assign a resource to a task in Project Service. You can book a resource as a team member then assign them to a task. Or, you can create a generic team member through role assignment on tasks, generate a team and then fulfill the backing requirements with a named resource.
+
+Note that if you’d like to assign a bookable resource to a task, the bookable resource team member must have enough available bookings. The status of the booking must be Commit Type Hard Book and Status Committed. If there aren’t enough bookings for the resource, Project Service removes the assignment and displays the following error message:
 
 *Unable to assign resource to task - Following resource(s) do not have sufficient hours booked against project*
-
-There are two ways to assign a resource to a task in Project Service. You can book a resource as a team member then assign them to a task. Or, you can create a generic team member through role assignment on tasks, generate a team and then fulfill the backing requirements with a named resource.
 
 ## Book a resource as a team member and then assign them to a task
 With this method you add a resource to the project team and then assign them to tasks in the project schedule.  Here’s how you do this:
