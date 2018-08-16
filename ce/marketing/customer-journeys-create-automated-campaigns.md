@@ -157,7 +157,11 @@ All customer journeys are active for a limited time. During this time, the journ
 
 ### Set up a recurring journey
 
-Usually, the journey takes each contact through its pipeline exactly once. Even if you use several segments, and a given contact appears in more than one of them, each contact is processed at most once. However, you can also set up a recurring journey in which all contacts are reprocessed at a regular interval during the active period. To set up a recurring journey:
+Usually, a journey takes each contact through its pipeline exactly once. Even if you use several segments, and a given contact appears in more than one of them, each contact is processed at most once. However, you can also set up a recurring journey in which all contacts are reprocessed at regular intervals during the active period. 
+
+All segment membership criteria are re-evaluated at the start of each iteration, so contacts can be added or removed between cycles.
+
+To set up a recurring journey:
 
 1. Open your journey and go to the **General** tab.
 1. Set **Is recurring** to **Yes**. This opens two additional settings here.
@@ -202,6 +206,8 @@ When you've finished designing your customer journey, do the following to verify
 
 3. Now you're ready to publish: select **Go Live** in the command bar. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] runs the error check one last time. If your journey passes, it is published to the active area of your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] server, which also hosts your published marketing email messages and marketing pages.
 
+[!INCLUDE [cc-marketing-email-size](../includes/cc-marketing-email-size.md)]
+
 ### See also
 
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
@@ -210,4 +216,5 @@ When you've finished designing your customer journey, do the following to verify
 [Create an inbound customer journey](create-inbound-customer-journey.md)  
 [Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
 [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)  
-[Accessibility and keyboard shortcuts](designer-shortcuts.md)
+[Accessibility and keyboard shortcuts](designer-shortcuts.md)  
+[Go live with publishable entities and track their status](go-live.md)

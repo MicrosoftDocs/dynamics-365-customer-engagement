@@ -2,7 +2,11 @@
 title: "What's new in Unified Service Desk for Dynamics 365 Customer Engagement for administrators | MicrosoftDocs"
 description: "Learn about new Unified Service Desk features for Dynamics 365 Customer Engagement"
 keywords: ""
+<<<<<<< HEAD
 ms.date: 08/15/2018
+=======
+ms.date: 08/06/2018
+>>>>>>> 513548a3520ab269444e3e45c9e4001ce35adcc5
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -17,7 +21,11 @@ applies_to:
 ms.assetid: 57f18bf9-1e28-481b-9d78-f2adaf281e16
 author: kabala123
 ms.author: kabala
+<<<<<<< HEAD
 manager: shujoshi
+=======
+manager: sakudes
+>>>>>>> 513548a3520ab269444e3e45c9e4001ce35adcc5
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -79,6 +87,10 @@ A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../incl
 
 <a name="NewIn330"></a>
 ## What's new in [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)]
+
+### Videos
+
+See the video to know [What's New in Unified Service Desk 3.3](https://go.microsoft.com/fwlink/?linkid=2008774).
 
 ### Analyze best practices in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 

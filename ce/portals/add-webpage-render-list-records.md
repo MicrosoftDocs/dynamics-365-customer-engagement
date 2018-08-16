@@ -12,7 +12,7 @@ ms.assetid: e22f0452-a2e8-4b47-b826-28de37608426
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Add a webpage to render a list of records
 

@@ -2,7 +2,11 @@
 title: "What's new in Unified Service Desk for developers and customizers | MicrosoftDocs"
 description: "Learn about the new features for developers and customizers in Unified Service Desk."
 keywords: ""
+<<<<<<< HEAD
 ms.date: 08/15/2018
+=======
+ms.date: 08/06/2018
+>>>>>>> 513548a3520ab269444e3e45c9e4001ce35adcc5
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -17,7 +21,11 @@ applies_to:
 ms.assetid: 1c6da924-cfef-4cbf-a6d5-63af8f1a640d
 author: kabala123
 ms.author: kabala
+<<<<<<< HEAD
 manager: shujoshi
+=======
+manager: sakudes
+>>>>>>> 513548a3520ab269444e3e45c9e4001ce35adcc5
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -62,6 +70,10 @@ Using **SwitchSession** action, you can now switch between local sessions. Also,
 ## What's new in [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)]  
  
 Developers and customizers will be able to use the following new features in the [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)] release.
+
+### Videos
+
+See the video to know [What's New in Unified Service Desk 3.3](https://go.microsoft.com/fwlink/?linkid=2008774).
 
 ### Public Preview Feature: Support for Unified Interface Apps in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 

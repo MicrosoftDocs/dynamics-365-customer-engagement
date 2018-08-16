@@ -12,7 +12,7 @@ ms.assetid: 30c60ab3-85cb-470a-8b92-dd8a2c986caf
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Available Liquid conditional operators
 

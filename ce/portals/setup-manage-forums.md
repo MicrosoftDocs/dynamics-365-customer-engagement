@@ -12,7 +12,7 @@ ms.assetid: e509515d-f43f-4eee-870e-06a9ef095d82
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ---
 # Set up and manage forums
 

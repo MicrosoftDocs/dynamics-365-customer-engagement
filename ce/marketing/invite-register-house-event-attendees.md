@@ -33,7 +33,7 @@ Each registration results in an event-registration record, which pulls together 
 
 After an attendee is registered for an event, they can then sign up for individual sessions at that event, provided they have the right pass. Each pass allows the purchaser to register for any or all sessions in the track associated with that pass, but it doesn't register the purchaser for any of those sessions. Passes with no track assigned allow access to all sessions. Each session page in the event portal provides a registration button to eligible users (it shows "not available" to others.) As with events, each session registration results in a session-registration record, which links an attendee's contact record and event registration to a session. As with event registration, each session registration also has a unique ID for which [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] automatically generates a QR code.
 
-You can register attendees manually, by creating or importing new event registrations, session registrations, and pass assignments directly in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], or attendees can register themselves by using your event portal. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Import data](import-data.md)
+You can register attendees manually, by creating or importing new event registrations, session registrations, and pass assignments directly in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], or attendees can register themselves by using your [event portal](set-up-event-portal.md).
 
 To view all current registrations and pass assignments, and to create them manually in the system, work in either of the following areas:
 
@@ -46,7 +46,7 @@ Each event registration record connects a contact to an event and shows related 
 
 After your event is planned and set up, it's time to start promoting it! [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides several tools to help you do this:
 
-- Create a marketing email message that includes an event block in its design. The event block creates a call-to-action button in your message that takes message recipients directly to your event portal. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Prepare marketing email messages](prepare-marketing-emails.md) and [Event blocks](content-blocks-reference.md#event-blocks).
+- Create a marketing email message that includes an event element in its design. The event element creates a call-to-action button in your message that takes message recipients directly to your event portal. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Prepare marketing email messages](prepare-marketing-emails.md) and [Event elements](content-blocks-reference.md#event-elements).
 - Set up a customer journey that sends your marketing email message to all the relevant contacts, registers message interactions, and reacts to event registrations. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md).
 - Create banners and social media posts to promote your event. Include a link to your event portal in each post, and use the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] redirect-URL feature to create short URLs that register clicks with [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] and instantly forward contacts to your event portal. You could create a different redirect URL for each social-media site, banner, or message, which would enable you to collect separate click results for each URL, so you can evaluate the success of each channel or initiative. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up redirect URLs](register-engagement.md#set-up-redirect-urls)
 
@@ -59,7 +59,7 @@ If your organization has set up hotels and room allocations for your event in [!
 ### See also
 
 [Prepare marketing email messages](prepare-marketing-emails.md)  
-[Event blocks](content-blocks-reference.md#event-blocks)  
+[Event elements](content-blocks-reference.md#event-elements)  
 [Create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
 [Set up the event portal](set-up-event-portal.md)  

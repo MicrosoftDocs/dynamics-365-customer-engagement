@@ -1,31 +1,28 @@
 ---
-title: "Create a project template (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
+
+title: Create a project template (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to create a project template in Project Service
+author: krbjoran
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.service: business-applications
 ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.assetid: db931515-4039-421c-8f74-53a353c3efb7
-caps.latest.revision: 12
 ms.author: krbjoran
-manager: shellyha
----
-# Create a project template (Project Service Automation)
+audience: Admin
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+---
+# Create a project template (Project Service)
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Project templates save you time if your company regularly bids on similar types of projects. They provide a standard set of roles and estimated hours for a type of project. Account managers and project managers can create projects based on a project template, or they can copy the template and make one of their own.  
   
-## Components of project template  
+## Components of project template
  A project template consists of three components:  
   
 - **Work breakdown structure**: A work breakdown structure in a project template has the same set of elements as in the project. You can create a task hierarchy, associate roles to task, define schedule attributes, set dependencies and view all the data in the Gantt. The work breakdown structure in project templates also support task modes for each task. There is no difference between a project template and a project when creating work schedule.  
