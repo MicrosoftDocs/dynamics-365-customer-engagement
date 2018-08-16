@@ -28,7 +28,7 @@ This section describes the known issues and limitations in [!INCLUDE[pn-unified-
 
 This section describes the known issues in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
-### Select articles from the Unified Interface KB Control in the Unified Service Desk displays error
+## Select articles from the Unified Interface KB Control in the Unified Service Desk displays error
 
 If you are using **Web client - Unified Interface Migration Assistant** to migrate your Unified Service Desk Configurations from Dynamics 365 Web Client to Dynamics 365 Unified Interface App, the KM Control is changed to Unified Interface KM Control.
 
@@ -36,7 +36,7 @@ With the Unified Interface KM Control hosted control, if you login to Unified Se
 
 ![Opening article displays server error](media/kb-search-server-error.PNG "Opening article displays server error")
 
-#### Workaround
+### Workaround
 
 To fix the issue, you must manually update the data parameter for the Unified Interface KM Control action call.
 
@@ -57,7 +57,7 @@ Now, save the configuration. Login to Unified Service Desk and open any article 
 ![Remove the header and postdata parameter to see the article contents](media/kb-search-fix.PNG "Remove the header and postdata parameter to see the article contents")
 
 
-### Toolbar shows Unified Blue theme instead Air theme
+## Toolbar shows Unified Blue theme instead Air theme
 
 In the **Unified Interface Settings** record, select **Air** theme instead **Unified Blue** theme, and select an Unified Interface App. 
 
@@ -67,7 +67,7 @@ Now, if you login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-s
 
 ![The main and about toolbar shows Unified Interface theme colors instead Air theme colors](media/about-toolbar-main-toolbar-known-issue.png "The main and about toolbar shows Unified Interface theme colors instead Air theme colors")
 
-#### Workaround
+### Workaround
 
 Remove the **Custom Styles** XAML from the **About Tool Bar** and **Main** toolbar so that toolbar picks the **Air** theme colors.
 
@@ -94,7 +94,7 @@ Login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.
 
 ![The main and about toolbar shows Air theme colors](media/about-toolbar-main-toolbar-known-issue-fixed-toolbar.png "The main and about toolbar shows Air theme colors")
 
-### Unified Interface form does not close the tab and navigates to Dashboard
+## Unified Interface form does not close the tab and navigates to Dashboard
 
 Go to **Settings** > **Administration** > **System Settings** and set the **Enable auto save on all forms** to **No** in Dynamics 365 Unified Interface. 
 
@@ -108,7 +108,7 @@ However, the tab does not close, and the Unified Interface page (form) navigates
 
 ![Unified Interface page navigates to Dashboard page](media/usd-crm-page-navigates-dashboard.png "Unified Interface page navigates to Dashboard page")
 
-#### Workaround
+### Workaround
 
 To close the tab, you need to select **User Can Close** in the hosted control so that you see **X** button the tab in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. 
 
@@ -118,21 +118,29 @@ Now, login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-
 
 ![Select close button to close the tab](media/usd-crm-close-button-saveclose.png "Select close button to close the tab")
 
+## Sub Actions Calls is not available in Unified Service Desk Administrator app
+
+**Action Calls** in Unified Service Desk Administrator app does not display the **Sub Action Calls** option in the related tab. You cannot view and attach the **Sub Action Calls** to the **Action Calls**.
+
+### Workaround
+
+Go to Dynamics 365 Web Client configurations
+
 ## Limitations
 
 This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
-### Support for Relevance Search (search technique) in Unified Interface KM Control
+## Support for Relevance Search (search technique) in Unified Interface KM Control
 
 The Unified Interface KM Control supports [Full-Text search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search?view=sql-server-2017) technique in Dynamics 365 and does not support the **Relevance Search**. For more information about the availability of the Relevance Search, see [Relevance search for knowledge management](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management).
 
-### Quick create in Unified Service Administrator app
+## Quick create in Unified Service Administrator app
 
 Selecting the **New** button (quick create)  in the **Navigation** toolbar of the Unified Service Desk Administraor app does not display any option to create.
 
 ![Quick create option in the Navigation toolbar](media/usd-crm-quick-create-button.PNG "Quick create option in the Navigation toolbar")
 
-### Navigation and command bar configuration does not execute when Internet Explorer pooling is enabled
+## Navigation and command bar configuration does not execute when Internet Explorer pooling is enabled
 
 By default, when you a open Dynamics 365 page in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, the navigation bar is hidden and command bar is displayed. 
 
