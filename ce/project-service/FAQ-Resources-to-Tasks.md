@@ -51,15 +51,15 @@ With this method you create a placeholder or generic resource that describes the
  
 6.	When you’re done assigning the generic resource select the generic resource on the Team tab and click Generate Requirement to create a resource requirement for the generic resource.
 
-> [!div class="mx-imgBorder"] > ![Screenshot of assigning resources to a task](media/AQ-Resources-to-Tasks-5.png)
+> [!div class="mx-imgBorder"] > ![Screenshot of assigning resources to a task](media/FAQ-Resources-to-Tasks-5.png)
  
 7.	Click Book for the generic resource. You can then use the Schedule Board to find and book a real resource. You can also submit the requirement for fulfillment by a resource manager.
 
-> [!div class="mx-imgBorder"] > ![Screenshot of assigning resources to a task](media/AQ-Resources-to-Tasks-6.png)
+> [!div class="mx-imgBorder"] > ![Screenshot of assigning resources to a task](media/FAQ-Resources-to-Tasks-6.png)
  
 8.	When the generic resource is fulfilled with a named resource, the generic resource is removed from the team and the task assignments for the generic resource are assigned to the named resource that fulfilled the generic resource’s resource requirement.
 
-> [!div class="mx-imgBorder"] > ![Screenshot of assigning resources to a task](media/AQ-Resources-to-Tasks-7.png)
+> [!div class="mx-imgBorder"] > ![Screenshot of assigning resources to a task](media/FAQ-Resources-to-Tasks-7.png)
 
 ## Assigning a named resource from the list of all bookable resources
 You can use the search box in the resource selector to search all the bookable resources in Project Service and assign them to a task.
