@@ -72,7 +72,7 @@ This method assures that resources have enough bookings for tasks. First, you cr
 
 2 Click the Assigned Role dropdown icon in the resource cell.
 
-3 Click the Role dropdown and select the role for the generic resource
+3 Click the Role dropdown and select the role for the generic resource.
 
 4 Click OK.
 
