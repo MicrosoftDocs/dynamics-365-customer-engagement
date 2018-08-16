@@ -44,7 +44,7 @@ With Update 1.7 we removed the option to create new interaction tokens for [!INC
 
 This release removes the interaction controls for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] user profiles from the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user interface.
 
-Please keep in mind this change doesn't affect the way you work with [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. 
+This change doesn't affect the way you work with [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. 
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.7
 
