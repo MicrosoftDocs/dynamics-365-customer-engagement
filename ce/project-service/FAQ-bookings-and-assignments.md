@@ -29,6 +29,19 @@ Consider a complex project with multiple overlapping tasks where multiple resour
 
 In the example below, the total effort required by the same resource from a set of four tasks is 62 hours over a two-week period and there is a specific contour. If the resource Bob is booked for 62 hours during the same two weeks but with a different contour, the requirement and bookings are in alignment.
 
+| **Task contours**    | **Total hours** | Mo 6/4 | Tu 6/5 | We 6/6 | Th 6/7 | Fr 6/8 | Sa 6/9 | Su 6/10 | Mo 6/11 | Tu 6/12 | We 6/13 | Th 6/14 | Fr 6/15 |
+|----------------------|-----------------|--------|--------|--------|--------|--------|--------|---------|---------|---------|---------|---------|---------|
+| Task 1               | 24              | 8      | 8      | 4      |        |        |        |         |         |         | 4       |         |         |
+| Task 2               | 16              |        |        | 4      | 4      |        |        |         | 8       |         |         |         |         |
+| Task 3               | 10              |        |        |        |        | 4      |        |         |         | 4       |         | 2       |         |
+| Task 4               | 12              |        |        |        |        |        |        |         |         |         | 4       |         | 8       |
+|                      |                 |        |        |        |        |        |        |         |         |         |         |         |         |
+| **Totals**           | 62              | 8      | 8      | 8      | 4      | 4      |        |         | 8       | 4       | 8       | 2       | 8       |
+|                      |                 |        |        |        |        |        |        |         |         |         |         |         |         |
+|                      |                 |        |        |        |        |        |        |         |         |         |         |         |         |
+| **Resource booking** | **Total hours** |        |        |        |        |        |        |         |         |         |         |         |         |
+| Bob                  | 62              | 4      | 4      | 8      | 8      | 8      |        |         | 4       | 4       | 8       | 8       | 6       |
+
 > [!div class="mx-imgBorder"] 
 > ![Screenshot of bookings and assignments table](media/BookingsAndAssignmentsFAQimage.PNG)
 
