@@ -21,11 +21,7 @@ applies_to:
 ms.assetid: 1c6da924-cfef-4cbf-a6d5-63af8f1a640d
 author: kabala123
 ms.author: kabala
-<<<<<<< HEAD
 manager: shujoshi
-=======
-manager: sakudes
->>>>>>> 513548a3520ab269444e3e45c9e4001ce35adcc5
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

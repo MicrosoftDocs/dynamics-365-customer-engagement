@@ -17,14 +17,7 @@ applies_to:
 ms.assetid: 5a29a96e-4271-4e25-a42f-e36d7d707882
 author: kabala123
 ms.author: kabala
-<<<<<<< HEAD
 manager: shujoshi
-=======
-manager: sakudes
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
->>>>>>> 513548a3520ab269444e3e45c9e4001ce35adcc5
 ---
 
 # Unified Service Desk Guide
