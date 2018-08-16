@@ -120,11 +120,11 @@ Now, login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-
 
 ## Sub Actions Calls is not available in Unified Service Desk Administrator app
 
-**Action Calls** in Unified Service Desk Administrator app does not display the **Sub Action Calls** option in the related tab. You cannot view and attach the **Sub Action Calls** to the **Action Calls**.
+You cannot view and attach an action call to another call (sub-action call) in Unified Service Desk Administrator app as the **Action Calls** in Unified Service Desk Administrator app does not display the **Sub Action Calls** option in the related tab. .
 
 ### Workaround
 
-Go to Dynamics 365 Web Client configurations
+You can add an action call to another call using the Unified Service Desk configurations in Dynamics 365 Web Client. 
 
 ## Limitations
 
