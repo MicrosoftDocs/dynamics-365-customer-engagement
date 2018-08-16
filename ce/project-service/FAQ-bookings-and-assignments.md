@@ -37,10 +37,12 @@ In the example below, the total effort required by the same resource from a set 
 | Task 4               | 12              |        |        |        |        |        |        |         |         |         | 4       |         | 8       |
 |                      |                 |        |        |        |        |        |        |         |         |         |         |         |         |
 | **Totals**           | 62              | 8      | 8      | 8      | 4      | 4      |        |         | 8       | 4       | 8       | 2       | 8       |
-|                      |                 |        |        |        |        |        |        |         |         |         |         |         |         |
-|                      |                 |        |        |        |        |        |        |         |         |         |         |         |         |
-| **Resource booking** | **Total hours** |        |        |        |        |        |        |         |         |         |         |         |         |
-| Bob                  | 62              | 4      | 4      | 8      | 8      | 8      |        |         | 4       | 4       | 8       | 8       | 6       |
+|                      |                 |        |        |        |        |        |        |         |         |         |         |
+
+### Bob's availability
+| **Resource   booking** | **Total hours** | Mo 6/4 | Tu 6/5 | We 6/6 | Th 6/7 | Fr 6/8 | Sa 6/9 | Su 6/10 | Mo 6/11 | Tu 6/12 | We 6/13 | Th 6/14 | Fr 6/15 |
+|------------------------|-----------------|--------|--------|--------|--------|--------|--------|---------|---------|---------|---------|---------|---------|
+| Bob                    | 62              | 4      | 4      | 8      | 8      | 8      |        |         | 4       | 4       | 8       | 8       | 6       |
 
 > [!div class="mx-imgBorder"] 
 > ![Screenshot of bookings and assignments table](media/BookingsAndAssignmentsFAQimage.PNG)
