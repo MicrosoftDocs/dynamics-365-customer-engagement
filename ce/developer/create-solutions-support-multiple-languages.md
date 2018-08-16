@@ -35,7 +35,7 @@ manager: "amyla"
 
  <a name="BKMK_Localizable_Web_Resources"></a>
  ## String (RESX) web resources
- With string (RESX) web resources added with [!INCLUDE[pn-crm-9-0-0-online](.../includes/pn-crm-9-0-0-online.md)] developers have a more robust option to create web resources that support multiple languages. More information [String (RESX) web resources](resx-web-resources.md).
+ With string (RESX) web resources added with [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] developers have a more robust option to create web resources that support multiple languages. More information [String (RESX) web resources](resx-web-resources.md).
 
  For earlier versions, see [Developer option](https://msdn.microsoft.com/library/hh670609(v=crm.8).aspx#BKMK_DeveloperOption)
   
