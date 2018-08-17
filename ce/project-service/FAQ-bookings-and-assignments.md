@@ -44,9 +44,6 @@ In the example below, the total effort required by the same resource from a set 
 |------------------------|-----------------|--------|--------|--------|--------|--------|--------|---------|---------|---------|---------|---------|---------|
 | Bob                    | 62              | 4      | 4      | 8      | 8      | 8      |        |         | 4       | 4       | 8       | 8       | 6       |
 
-> [!div class="mx-imgBorder"] 
-> ![Screenshot of bookings and assignments table](media/BookingsAndAssignmentsFAQimage.PNG)
-
 However, there is no systematic way to assign the booked hours contour to tasks on a per-day basis. If the project manager is willing to change the project schedule to meet the availability of the resource, then they’ll have to remove the assignment and revise all the tasks to match the booking contours.
 
 In the case where an organization has given the task of project planning to both a project manager and a resource manager, the project manager sets the schedule, and that includes contouring of the work required. The resource manager shouldn’t be able to affect the schedule without the project manager’s knowledge by changing effort contours while booking real resources. If the resource manager is fulfilling something different from what the project manager requested, they need to come to agreement about what changes are needed in the project schedule.
