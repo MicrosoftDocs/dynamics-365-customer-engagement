@@ -2,7 +2,7 @@
 title: "Create a business process flow in PowerApps | MicrosoftDocs"
 description: "Learn how to create a business process flow"
 ms.custom: ""
-ms.date: 06/04/2018
+ms.date: 08/17/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
