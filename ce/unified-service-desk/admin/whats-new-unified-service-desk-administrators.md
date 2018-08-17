@@ -2,7 +2,7 @@
 title: "What's new in Unified Service Desk for Dynamics 365 Customer Engagement for administrators | MicrosoftDocs"
 description: "Learn about new Unified Service Desk features for Dynamics 365 Customer Engagement"
 keywords: "<<<<<<< HEAD"
-ms.date: 08/15/2018=======
+ms.date: 08/17/2018=======
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:

@@ -2,7 +2,7 @@
 title: "Configure notifications in Unified Service Desk | MicrosoftDocs"
 description: "Learn about configuring notifications in Unified Service Desk."
 keywords: ""
-ms.date: 08/15/2018
+ms.date: 08/17/2018
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:

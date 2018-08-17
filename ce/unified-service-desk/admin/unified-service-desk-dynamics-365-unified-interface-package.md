@@ -2,7 +2,7 @@
 title: "Unified Service Desk for Dynamics 365 Unified Interface package | MicrosoftDocs"
 description: "Overview of the Unified Interface sample application."
 keywords: ""
-ms.date: 08/15/2018
+ms.date: 08/17/2018
 ms.service:
   - "crm-online"
 ms.custom:

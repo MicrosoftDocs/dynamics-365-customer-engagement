@@ -2,7 +2,7 @@
 title: "Unified Service Desk for Dynamics 365 Customer Engagement Upgrade package | MicrosoftDocs"
 description: "Overview of the Upgrade sample application."
 keywords: ""
-ms.date: 08/15/2018
+ms.date: 08/17/2018
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:

@@ -2,7 +2,7 @@
 title: "Manage Options for Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Learn how to change the global settings in Unified Service Desk for Dynamics 365 Customer Engagement."
 keywords: ""
-ms.date: 08/15/2018
+ms.date: 08/17/2018
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
