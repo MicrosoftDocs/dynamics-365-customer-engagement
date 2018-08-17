@@ -1,7 +1,7 @@
 ---
 title: "Deploy Dynamics 365 App for Outlook (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 07/25/2018
+ms.date: 08/17/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -276,8 +276,9 @@ With the PowerApps App Designer, you can control the specific entities that appe
 
 5.  Save your changes and publish the customization.
 
-Note, you can also remove entities from Dynamics 365 App for Outlook
-
+> [!NOTE]
+> - You can also remove entities from Dynamics 365 App for Outlook.
+> - An entity must be Activities enabled for it to appear in the Regarding lookup. See [Enable a custom entity to appear in the Regarding lookup](dynamics-365-app-outlook-user-s-guide.md#enable-a-custom-entity-to-appear-in-the-regarding-lookup).
 
 <a name="BKMK_Troubleshoot"></a> 
 ## Troubleshooting installation problems  
