@@ -30,7 +30,7 @@ With this method you add a resource to the project team and then assign them to 
 2.	On the Team Member Quick Create screen, select the bookable resource name and set a role.
 3.	Select the From and To dates.
 
-> [!div class="mx-imgBorder"] > ![Screenshot of bookings and assignments table](media/FAQ-Resources-to-Tasks2-1.png)
+> [!div class="mx-imgBorder"] > ![Screenshot of adding team member](media/FAQ-Resources-to-Tasks2-1.png)
  
 4.	Select one of the following allocation methods for booking the resource:
 - **Full Capacity** books the resource’s full capacity for the specified from and to dates.
@@ -46,11 +46,11 @@ Note that the hours of the booking must be enough to cover the effort hours and 
 2 Click the dropdown under Resources and select the team member you added above.
 3 Click OK. The team member is now assigned to the task.
 
-> [!div class="mx-imgBorder"] > ![Screenshot of bookings and assignments table](media/FAQ-Resources-to-Tasks2-2.png)
+> [!div class="mx-imgBorder"] > ![Screenshot of adding resources with WBS](media/FAQ-Resources-to-Tasks2-2.png)
  
 On the team member grid, you’ll see the aggregate of the resource’s assigned hours under Assigned Hours. It will be less than or equal to the Booked Hours for the resource. 
 
-> [!div class="mx-imgBorder"] > ![Screenshot of bookings and assignments table](media/FAQ-Resources-to-Tasks2-3.png)
+> [!div class="mx-imgBorder"] > ![Screenshot of assigned hours for a resource](media/FAQ-Resources-to-Tasks2-3.png)
  
 If the task you’re attempting to assign to the resource starts after the end date of the resources bookings, the resource won’t appear in the dropdown.
 
@@ -76,19 +76,19 @@ This method assures that resources have enough bookings for tasks. First, you cr
 
 4 Click OK.
 
-> [!div class="mx-imgBorder"] > ![Screenshot of bookings and assignments table](media/FAQ-Resources-to-Tasks2-4.png)
+> [!div class="mx-imgBorder"] > ![Screenshot of using WBS to add resource](media/FAQ-Resources-to-Tasks2-4.png)
  
 Once you’ve completed assigning roles to the tasks in the work breakdown structure (WBS), click Generate Project Team. Project Service creates the minimum number of generic team members based on the roles, resourcing organization units and project calendar by aggregating the task assignments.
 
-> [!div class="mx-imgBorder"] > ![Screenshot of bookings and assignments table](media/FAQ-Resources-to-Tasks2-5.png)
+> [!div class="mx-imgBorder"] > ![Screenshot of generating project team](media/FAQ-Resources-to-Tasks2-5.png)
  
 On the Team Member grid, you’ll see resources of the Generic Resource type with the role and position name. If two resources are needed for a role to complete the work, the Generate Team feature creates two team members and use position name to set them apart.
 
-> [!div class="mx-imgBorder"] > ![Screenshot of bookings and assignments table](media/FAQ-Resources-to-Tasks2-6.png)
+> [!div class="mx-imgBorder"] > ![Screenshot of adding two generic resources](media/FAQ-Resources-to-Tasks2-6.png)
  
 You can open the backing resource requirement for the generic team member by clicking the link under Resource Requirement.
 
-> [!div class="mx-imgBorder"] > ![Screenshot of bookings and assignments table](media/FAQ-Resources-to-Tasks2-7.png)
+> [!div class="mx-imgBorder"] > ![Screenshot of opening backing resource requirement](media/FAQ-Resources-to-Tasks2-7.png)
 
 Click Book for the generic resource, and then you can use the schedule board to find and book a real resource. You can also submit the requirement for fulfillment by a resource manager by clicking Submit Request.
 
