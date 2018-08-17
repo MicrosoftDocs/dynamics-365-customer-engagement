@@ -38,7 +38,7 @@ After signing in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engageme
 When a comment on WordPress is removed by the author, it's also removed from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] databases. 
 If a user decides to delete their Disqus profile, all related comments and threads are deleted in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] too. 
 
-### Removal of interaction controls for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] user profiles
+### Removal of interaction token for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] user profiles
 
 With this release, we're following [!INCLUDE [tn-facebook](../includes/tn-facebook.md)]'s Graph API v3.0 changes from August 1, 2018: [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] stops supporting engagement actions for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] user profiles. Interaction tokens for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] users were removed from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and you won’t be able to add them anymore.
 
