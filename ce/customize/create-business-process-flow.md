@@ -196,22 +196,8 @@ This topic shows how to create a business process flow with [!INCLUDE [pn-powera
   
 To specify privileges on a business process flow, open the business process flow definition for editing, and then select **Edit Security Roles** in the command bar of the business process flow designer. See Step 14 earlier in the topic for more details.  
 
-## Preview feature: Add an on-demand action to a business process flow
-The [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update introduces a new business process flow feature: business process flow automation with Action Steps. You can add a button to a business process flow that will trigger an action or workflow.
-
-> [!IMPORTANT]
-> [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> 
-> [!INCLUDE [cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
-### Enable Action Step support for business process flows 
-
-1.	Go to **Settings** > **Administration** > **System Settings**.
-2.	Select the **Preview** tab.
-3.	Review, and if you agree, accept the license terms.
-4.	Select **Enable Action Step Support for Business Process Flows Preview**, and then select **OK**.
-
-    ![Enable business process flow preview feature](media/enable-bpf-actionstep.png)
+## Add an on-demand action to a business process flow
+The [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update introduces a business process flow feature: business process flow automation with Action Steps. You can add a button to a business process flow that will trigger an action or workflow.
 
 ### Add on-demand workflows or actions using an Action Step
 Suppose that, as part of the opportunity qualification process, the Contoso organization requires all opportunities to be reviewed by a designated reviewer. Subsequently, the Contoso organization created an action that: 
@@ -234,9 +220,8 @@ Now, members of Contoso’s salesforce can kick-off the action from the **Opport
 > - To be able to execute an action or workflow on demand, the business process flow must include an Action Step. If the Action Step runs a workflow, the workflow must be configured to run on demand.
 > - The entity associated with the action or workflow must be the same as the entity associated with the business process flow.
 
-### Limitations of using Action Steps in a business process flow
+### Limitation of using Action Steps in a business process flow
 
-- Any user customization that uses Action Steps is not supported when importing or exporting solutions.
 - Actions are not available as Action Steps if the input or output parameters are Entity, EntityCollection, or OptionSet (Picklist) types. Actions with more than one EntityReference output parameter or any number of EntityReference input parameters are not available as Action Steps. Actions not associated with a primary entity (global action) are not available as Action Steps.
 
   
