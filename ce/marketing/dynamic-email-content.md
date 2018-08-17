@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: 5134e656-31ae-4984-8045-fcd76b98719a
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
 ---
@@ -70,7 +70,7 @@ Start by positioning your cursor in the field where you want to insert the dynam
 
 - **Contact[context]**: Places a field value, such as a first name, from each recipient's contact record.
 - **Content settings[context]**: Places a field value from the content settings—a subscription center URL, forwarding URL, and the sender postal address are included here.
-- **Message[context]**: Places values that relate to the message itself; currently, this includes the open-as-webpage URL<!-- and the various dynamic values used in [double opt-in emails](double-opt-in.md)-->.
+- **Message[context]**: Places values that relate to the message itself; currently, this includes the open-as-webpage URL and the various dynamic values used in [double opt-in emails](double-opt-in.md).
 - **Account**: Places a value from a specific account record.
 - **Contact**: Places a value from a specific contact record (not the recipient's record).
 - **Event**: Places a link to a specific event sign-up page, or a field value from the page.
