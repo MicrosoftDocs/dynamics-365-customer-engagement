@@ -9,7 +9,7 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 8/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: Applies to Dynamics 365 Project Service versions 2.x and 3.x 
 ms.service: business-applications
 ms.technology: 
 ms.author: john.burrows
@@ -18,8 +18,6 @@ audience: Admin
 ---
 
 # How can I create a project booking from the Schedule Board?
-
-Applies to Dynamics 365 Project Service versions 2.x and 3.x 
 
 You can book a resource onto a project either directly on the project team tab of the project or by generating a resource requirement from generic team member assignment and then fulfilling the generated requirement with a project team member.
 
