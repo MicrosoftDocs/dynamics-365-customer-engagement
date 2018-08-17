@@ -100,7 +100,7 @@ Surveys are provided by the [Voice of the Customer](../voice-of-customer/help-hu
 Your event team includes coworkers and external contacts who are helping you organize the event. Each event record lists each team member's name and role, plus links for more information, so you can easily see who to call and find their contact info when needed.
 
 - You can view and edit the list of all team members who worked, are working, or will work on all your events by going to **Events** &gt; **Event** &gt; **Event Team Members**. Use this area to set up a database of people who are available to help with your various events.
-- You can view and edit the list of team members associated with a specific event by going to **Events** &gt; **Event** &gt; **Events**, opening the appropriate event, and looking at the **Event Team Members** section of the **General** tab. The list on the **Events** page works the same as the list on the **Event Team Members** page, except that it only shows and adds team members who are assigned to the current event.
+- You can view and edit the list of team members associated with a specific event by going to **Events** &gt; **Event** &gt; **Events**, opening the appropriate event, and looking at the **Event Team Members** section of the **Additional information** tab. The list on the **Events** page works the same as the list on the **Event Team Members** page, except that it only shows and adds team members who are assigned to the current event.
 
 Each team member record can be associated with a contact or user record.
 
