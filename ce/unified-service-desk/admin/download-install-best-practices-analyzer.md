@@ -2,7 +2,7 @@
 title: "Download and Install Best Practices Analyzer | MicrosoftDocs"
 description: "Learn about downloading and installing the Best Practices Analyzer."
 keywords: ""
-ms.date: 04/24/2018
+ms.date: 08/17/2018
 ms.service:
   - "usd"
 ms.custom:
@@ -29,7 +29,7 @@ The table provides where you can download [!INCLUDE[pn-best-practices-analyzer](
 
 |Scenario | Description |[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]| Download Location|
 |---------|-------------|------------------------------------------------------------------------------|------------------|
-|Available through sample application package | [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is part of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] – Microsoft Dynamics 365 Web client sample application | [!INCLUDE[pn-unified-service-desk-4-0](../../includes/pn-unified-service-desk-4-0.md)] | [Download](https://go.microsoft.com/fwlink/?linkid=872261) |
+|Available through sample application package | [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is part of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] – Microsoft Dynamics 365 Web client sample application | [!INCLUDE[pn-unified-service-desk-4-0](../../includes/pn-unified-service-desk-4-0.md)] | [Download](https://go.microsoft.com/fwlink/?linkid=2007340) |
 | Available through [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] package |                          [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is available as a download package |[!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)]  <br>  [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)] <br> [!INCLUDE[pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)] <br> [!INCLUDE[pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)] <br> [!INCLUDE[pn-unified-service-desk-2-2](../../includes/pn-unified-service-desk-2-2.md)] | [Download](https://go.microsoft.com/fwlink/p/?linkid=872089) |
 
 ## Install [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]
