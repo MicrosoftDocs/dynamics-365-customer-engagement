@@ -26,7 +26,7 @@ The Sales Hub app works the same whether you're using it on your mobile device o
 
 Before you can start using the app, you need to insteall the Dynamics 365 mobile app on your device device.. 
 
-[!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
 
 ## Basic Navigation
 
@@ -53,7 +53,7 @@ The Favorites and Recently Used sections provide quick access to your records, v
   
 ## General information on how to use the mobile app 
 
-[!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [Mobile Basics Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobile Basics Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md).
 
 ### See Also  
  [User Guide (Sales and Sales Hub)](../sales-enterprise/user-guide.md)
