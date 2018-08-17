@@ -22,12 +22,12 @@ audience: Admin
 When you add a team member directly to a project on the Team tab or book a resource to a project or requirement by using the Schedule Board, you’ll see several booking allocation methods you can use. 
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot of booking allocation](media/FAQ-Allocation-Methods-1.png)
+> ![Adding a team member directly to a project](media/FAQ-Allocation-Methods-1.png)
 
 *Adding a team member directly to a project*
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot of booking allocation](media/FAQ-Allocation-Methods-2.png)
+> ![Booking a requiurement with Schedule Board](media/FAQ-Allocation-Methods-2.png)
  
 *Booking a requirement with Schedule Board*
 
