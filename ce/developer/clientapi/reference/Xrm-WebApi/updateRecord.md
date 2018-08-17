@@ -1,14 +1,19 @@
 ---
 title: "updateRecord (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: ""
+keywords: ""
 ms.date: 12/18/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service:
+  - "crm-online"
+ms.topic: reference
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: f5d4c8a9-4188-472a-83bf-b986dd135754
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 ---
+
 # updateRecord (Client API reference)
 
 [!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
@@ -132,7 +137,7 @@ Xrm.WebApi.updateRecord("account", "5531d753-95af-e711-a94e-000d3a11e605", data)
 );
 ```
 
-**For mobile offine scenario**
+**For mobile offline scenario**
 
 Here is the updated sample code to update an account record to associate another contact record as the primary contact for the account from mobile clients when working in the offline mode:
 

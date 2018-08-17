@@ -1,8 +1,8 @@
 ---
 title: "What's new in Unified Service Desk for Dynamics 365 Customer Engagement for administrators | MicrosoftDocs"
 description: "Learn about new Unified Service Desk features for Dynamics 365 Customer Engagement"
-keywords: ""
-ms.date: 08/06/2018
+keywords: "<<<<<<< HEAD"
+ms.date: 08/15/2018=======
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -17,14 +17,65 @@ applies_to:
 ms.assetid: 57f18bf9-1e28-481b-9d78-f2adaf281e16
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ---
 
 # New feature information for administrators
-This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.  
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
+
+<a name="NewIn40"></a>
+## What's new in [!INCLUDE[pn-unified-service-desk-4-0](../../includes/pn-unified-service-desk-4-0.md)]
+
+### Web Client - Unified Interface Migration Assistant
+The Web Client - Unified Interface Migration Assistant for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] helps you migrate your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client to a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Unified Interface App.
+
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Web Client - Unified Interface Migration Assistant](../admin/overview-migration-assistant.md)
+
+### Prevent Accidental Closure of Unified Service Desk Unified Service Desk
+
+While working on [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], accidentally if you select the **x** Close button, you may lose all the unsaved work. The Close Confirmation Window is introduced to prevent the accidental closure of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
+
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure close confirmation window for Unified Service Desk](../admin/configure-close-confirmation-window.md)
+
+### Unified Interface KM Control
+
+The **Unified Interface KM Control** hosted control is introduced for your knowledge base search experience with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. You must configure the Unified Interface KM Control when you are using a Unified Interface App in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. 
+
+Your service agents can use the **Unified Interface KM Control** hosted control to search and view knowledge base in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Unified Interface from within the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. Also, you can position your search control in the main panel, left panel, or right panel of the Unified Interface Desk application. Also, you can configure the contextual actions for the search results.
+
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Interface KM Control (hosted control)](../unified-interface-km-control-hosted-control.md)
+
+### Unified Blue theme for Unified Service Desk
+
+The Unified Blue theme is the predefined theme for Unified Service Desk when you are using a Unified Interface App.
+
+## Preview Features
+
+### Unified Service Desk Administrator App
+
+With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] 4.0, you can use the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator App built on the Unified Interface framework to administer and manage the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
+
+The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app is built on the Unified Interface framework, which has a new user experience - **Unified Interface** - that uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
+
+The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app brings rich experience to administer and manage your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
+
+The Administrator app, built based on the Unified Interface framework has the same configurational capabilities as the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrator in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client. 
+
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Preview Feature: Unified Service Desk Administrator App](../admin/unified-service-desk-administrator-app.md)
+
+### Unified Interface Settings
+
+Unified Interface Settings is a new configuration element introduced under the **Advanced Settings** in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app. Unified Interface Settings enables you as an administrator to configure the default Unified Interface App for your agents and transform the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in experience.
+
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Preview Feature: Unified Interface Settings](../admin/unified-interface-settings.md)
+
+### Show feedback window to agents
+A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to help an agent to provide feedback while closing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. Agents can provide feedback comments with the score and submit it to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. The comments are assessed and considered for improving the products and services.
+
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Mange options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
 
 <a name="NewIn330"></a>
 ## What's new in [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)]
@@ -35,7 +86,7 @@ See the video to know [What's New in Unified Service Desk 3.3](https://go.micros
 
 ### Analyze best practices in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 
-Best practices are the guidelines about System Configurations, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], Internet Explorer settings, and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations in Dynamics 365 Customer Engagement. Consider these guidelines as our recommended way to use [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and serve your customers.
+Best practices are the guidelines about System Configurations, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], Internet Explorer settings, and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Customer Engagement. Consider these guidelines as our recommended way to use [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and serve your customers.
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes the compliance of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with best practice rules in certain categories. The [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] displays the results of analysis in the form of a report with severity levels, description of the parameter, and mitigation for the non-compliant / problematic areas.
 

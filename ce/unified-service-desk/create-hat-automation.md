@@ -19,7 +19,7 @@ ms.assetid: 44dac081-8a98-41c9-822c-07d9727ada32
 caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Create HAT automation in Unified Service Desk
 You can use the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)] automation activities to create automations for your hosted application project. You can use [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] inspector to make the controls of an application available for use in automation. Although an automation is started by an action defined on an application, it can access defined controls in all applications that run in the session. Automations can also interact with non-automation enabled applications through activities such as `DoAction` or `Apppplication Integration Framework (AIF)` context activities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Types of HAT automation activities](../unified-service-desk/types-of-hat-automation-activities.md)  

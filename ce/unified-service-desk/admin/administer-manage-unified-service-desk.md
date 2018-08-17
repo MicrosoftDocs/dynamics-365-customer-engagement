@@ -18,7 +18,7 @@ applies_to:
 ms.assetid: c9f6c25c-4e52-4958-a166-9c0943767768
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 tags: 
  - "NoHandoff"
  - "LinksOnlyTopic"

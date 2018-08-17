@@ -19,7 +19,7 @@ ms.assetid: 91772c31-da1f-453b-9934-0179bc50c398
 caps.latest.revision: 10
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 tags: 
  - "MigrationHO"
 ---

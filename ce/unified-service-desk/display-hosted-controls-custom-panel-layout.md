@@ -19,7 +19,7 @@ ms.assetid: f70fff3f-4007-4b74-8ea5-81e9cb7934cb
 caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Display hosted controls in the custom panel layout
 After you have created and loaded a custom panel layout in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], you will need to specify the custom panel layout as the display group for your hosted controls. This is done using a special syntax:  

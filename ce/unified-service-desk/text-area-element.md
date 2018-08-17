@@ -19,7 +19,7 @@ ms.assetid: eccf015f-836a-4f4d-8fe7-01ff2405d6c5
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # TextAreaElement in Unified Service Desk
 `<TextAreaElement>` element associates a named control with a text area element on the `HTML` page. This topic describes the elements of `<TextAreaElement>`.  

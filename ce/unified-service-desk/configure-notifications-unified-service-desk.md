@@ -1,34 +1,36 @@
 ---
 title: "Configure notifications in Unified Service Desk | MicrosoftDocs"
-description: "Learn about configuring notifications in unified Service Desk."
+description: "Learn about configuring notifications in Unified Service Desk."
+keywords: ""
+ms.date: 08/15/2018
+ms.service:
+  - "dynamics-365-customerservice"
 ms.custom:
-  - dyn365-USD
-ms.date: 08/23/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+  - "dyn365-USD"
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: ca7905ed-47a0-47c9-bbfe-5cb1738b0125
-caps.latest.revision: 20
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 ---
-# Configure notifications in Unified Service Desk
+
+# How to configure notifications in Unified Service Desk
 Configure notifications in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to display popup notification messages to your customer service agents that contains general information or some customer or process-related information that the agent can act on. The layout and behavior of the notification message is defined in XAML format by using forms in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and displayed as a floating popup message using the new hosted control type, `Popup Notification`. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Popup Notification (Hosted Control)](../unified-service-desk/popup-notification-hosted-control.md)  
   
  Notifications support [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] actions, events, and replacement parameters for you to define popup messages that appear when particular events occur, interact with other hosted controls, and display contextual information from a session. You can define multiple notifications to appear at the same time. You can define the position where the notification can be displayed in the agent application, and the timeout information after which the notification automatically disappears.  
   
  Notifications can be global or session-based. Global notifications are displayed outside of a session and will hide only if it times out or is explicitly closed by the user. Session-based notifications appear only within a session, and switching to another session will hide the notification. Switching back to the session with notification displays the notification again until it times out or is explicitly closed by the user.
 
-You can use use the Alt+1 keys (default) to set your focus on a notification. If there are multiple notifications displayed, you can press Alt+1 repeatedly to cycle through all the active notifications on your screen. To change the default keyboard shortcut keys for notifications, use the new **PopupNavigationShortcut** UII option to specify the shortcut keys of your choice. More information: [Manage Options for Unified Service Desk](admin/manage-options-unified-service-desk.md)  
+You can use the Alt+1 keys (default) to set your focus on a notification. If there are multiple notifications displayed, you can press Alt+1 repeatedly to cycle through all the active notifications on your screen. To change the default keyboard shortcut keys for notifications, use the new **PopupNavigationShortcut** UII option to specify the shortcut keys of your choice. More information: [Manage Options for Unified Service Desk](admin/manage-options-unified-service-desk.md)  
   
 <a name="Define"></a>   
 ## Define layout and behavior of notification using forms  
@@ -50,13 +52,13 @@ You can use use the Alt+1 keys (default) to set your focus on a notification. If
 >   
 >  `xmlns:CCA="clr-namespace:Microsoft.Crm.UnifiedServiceDesk.Dynamics;assembly=Microsoft.Crm.UnifiedServiceDesk.Dynamics"`  
   
-- **UII action**: To execute an UII action from the form XAML, specify the following values for `Command` and `CommandParameter`.  
+- **UII action**: To execute a UII action from the form XAML, specify the following values for `Command` and `CommandParameter`.  
   
      `Command`  
      CCA:ActionCommands.DoActionCommand  
   
   **CommandParameter**  
-     The command parameter must contain the name of the hosted control on which the action is to be executed, the name of the UII action and the optional action data. All these values have to be specified in the following URL format: `http://uii/[HostedControlName]/[UIIActionName]?[ActionData]`.  
+     The command parameter must contain the name of the hosted control on which the action is to be executed, the name of the UII action, and the optional action data. All these values have to be specified in the following URL format: `http://uii/[HostedControlName]/[UIIActionName]?[ActionData]`.  
   
      Note that the different parts of the URL must be encoded if required as per standard guidelines. For example, the space character has to be encoded as “%20” or ‘+’.  
   
@@ -203,22 +205,55 @@ Action calls in Unified Service Desk can use event parameters as replacement par
 The added custom parameter can be used in the form XAML as replacement parameter like any other replacement parameter. In the above example, `[[Param1]]` can be used in the form XAML to show some data. 
   
 <a name="Multiple"></a>   
-## Multiple notification controls  
- You can  configure multiple notification controls and invoke actions independently of each other. When multiple notifications are shown at the same time, all the notifications are visible in the order in which they were invoked. If two global notifications are configured to be displayed at the same  position, the latest one will overlay on top of the earlier notification. Similarly, if a global and session-based notifications or multiple session-based notifications are  configured to be displayed at the same  position in a session, the latest one will overlay on top of the earlier notification in the session.  
+## Multiple notification controls
+ 
+ You can  configure multiple notification controls and invoke actions independently of each other. <!--When multiple notifications are shown at the same time, all the notifications are visible in the order in which they were invoked.--> If two global notifications are configured to be displayed at the same  position, the latest one will overlay on top of the earlier notification. Similarly, if a global and session-based notifications or multiple session-based notifications are  configured to be displayed at the same  position in a session, the latest one will overlay on top of the earlier notification in the session.
+
+ ### Stack notifications
+
+ You can also configure the stack notification by adding the **stack** parameter in the **Data** field of **Show** action. The parameter takes a Boolean value. Unified Service Desk shows the notifications in stack when the parameter is set to **true**. The default value is **false**. If you do not specify any value, the default value (false) is passed. For example, **stack = true**, shows the notifications in stack.
+
+ Also, you can define the height of the stack by defining the **stackHeight** parameter. The value range is 1 - 100. The default value is 50. If you do not specify any value, the default value (50) is passed. Also, if you specify 0 or specify more than 100, default value (50) is passed. For example, **stackHeight = 60**.
+
+ For more information about the parameters, see  [Popup Notification (Hosted Control)](../unified-service-desk/popup-notification-hosted-control.md).
+
+ The order of the notification in the stack is top to bottom, where the newest notification appears at the bottom. A maximum of five stack notification can be displayed at any given point.
+
+ > [!Note]
+ > When there are more than 5 notifications, the new notification overlays the recently shown notification.</br> For example, you see 5 notifications in stack. Now, 6th notification is incoming, then the 6th notification overlays the 5th notification. Similarly, when the 7th notification is incoming, it overlays the 6th notification.<br/>
+ ![New notification replacing the recent notification in the stack](../unified-service-desk/media/stack-notification.PNG "New notification replacing the recent notification in the stack")
   
 <a name="HowTo"></a>   
 ## How to configure a notification?  
  These are the broad steps for displaying a notification:  
   
-1. Create a **Form** record with your notification definition (XAML). For example, create a form with the example XAML illustrated earlier and with the following name: `MaxSessionNotificationForm`.  
+1. Create a **Form** record with your notification definition (XAML). For example, create a form with the example XAML illustrated earlier and with the following name: `Sample Notification Form`.  
   
-2. Create a `Popup Notification` control, and keep it global. For example, create a control with the following name: `MaxSessionNotificationControl`.  
+2. Create a `Popup Notification` control, and keep it global. For example, create a control with the following name: `MaxSessionNotificationControl`.
+
+    ![Hosted control with USD Component type as Popup Notification](../unified-service-desk/media/usd-popupnotification-hosted-control.PNG "Hosted control with USD Component type as Popup Notification")
   
-3. Create an action call to display the notification by specifying the form name to display along with other parameters in the **Data** field of the `Show` action. For example,  create an action call with the following name: `Action Call for Max Sessions Notification`:  
+3. Create an action call to display the notification.</br> For example, create an action call and specify the following: 
+
+    |Field|Value|
+    |--------|--------|
+    |Name|Action Call for Max Sessions Notifications|
+    |Hosted Control|MaxSessionNotificationControl|
+    |Action|Show|
+    |Data|formName = Sample Notification Form</br>top = 10</br>left = 80</br>timeout = 20</br>stack = true</br>stackHeight = 60
   
    ![Action Call for displaying notification](../unified-service-desk/media/usd-action-call-notification.png "Action Call for displaying notification")  
   
-4. Finally, add the action call to an event to execute the action. As we are checking for maximum number of sessions on the creation of a new session to show the notification, add the action call to the `SessionNew` event of the [Global Manager (Hosted Control)](../unified-service-desk/global-manager-hosted-control.md).  
+4. Finally, add the action call to an event to execute the action. </br>
+As we are checking for maximum number of sessions on the creation of a new session to show the notification, add the action call to the `SessionNew` event of the [Global Manager (Hosted Control)](../unified-service-desk/global-manager-hosted-control.md). </br>
+
+    a. Go to **Unified Service Desk** > **Events**.</br>
+    b. Select **SessionNew** from the list.</br>
+    c. On the **SessionNew** event page, under the **Active Actions** area, click **+** to add action calls.</br>
+    d. In the search box, type **Action Call for Max Sessions Notifications** and select search icon. The result appears.
+    e. Select the **Action Call for Max Sessions Notifications**, and select **Save**.</br>
+    ![Add the action Call to the SessionNew event for displaying notification](../unified-service-desk/media/usd-add-action-call-sessionnew-event.PNG "Add the action Call to the SessionNew event for displaying notification")
+
   
 ### See also  
  [Popup Notification (Hosted Control)](../unified-service-desk/popup-notification-hosted-control.md)   

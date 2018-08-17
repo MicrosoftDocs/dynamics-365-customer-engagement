@@ -19,7 +19,7 @@ ms.assetid: d003e22b-75a7-4491-9660-14529fa581bd
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Search data using entity searches in Unified Service Desk
 Entity searches are FetchXML definitions that query the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web services to return data. You can also use replacement parameters within the FetchXML queries in an entity search. Entity searches can be used in window navigation rules both as a source to access data which is not displayed on the form, and as a destination to look up the data using a web service call to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], and then populate the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context data so that it can be used in replacement parameters. You can also use entity searches in the [DoSearch](../unified-service-desk/global-manager-hosted-control.md#DoSearch) action for the Global Manager hosted control to search for your data.  

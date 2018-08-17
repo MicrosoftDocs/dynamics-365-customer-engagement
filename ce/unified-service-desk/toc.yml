@@ -78,6 +78,12 @@
 - name: Administer and manage Unified Service Desk
   href: admin/administer-manage-unified-service-desk.md
   items:
+  - name: Support for Unified Interface Apps
+    href: admin/Support-unified-interfaces-apps-usd.md
+  - name: Preview feature - Unified Service Desk Administrator app
+    href: admin/unified-service-desk-administrator-app.md
+  - name: Preview feature - Unified Interface Settings
+    href: admin/unified-interface-settings.md
   - name: Manage Options for Unified Service Desk
     href: admin/manage-options-unified-service-desk.md
     items:
@@ -106,10 +112,14 @@
       href: admin/manage-access-using-unified-service-desk-security-roles.md
     - name: Manage access using Unified Service Desk configuration
       href: admin/manage-access-using-unified-service-desk-configuration.md
-  - name: Web Client - Unified Interface Migration Assitant 
+  - name: Web Client - Unified Interface Migration Assistant 
     items:
-    - name: Overview  
-      href: admin/overview-migration-assistant.md   
+    - name: Overview
+      href: admin/overview-migration-assistant.md
+    - name: Download the migration assistant
+      href: admin/download-migration-assistant.md      
+    - name: Migration steps
+      href: admin/migration-steps-web-client-unified-interface-configuration.md
   - name: Migrate your Unified Service Desk configuration to another Customer Engagement instance
     href: admin/migrate-unified-service-desk-configuration-dynamics-365-server.md
     items:
@@ -121,6 +131,8 @@
     href: admin/performance-enhancement-CRM-entity-page-loads.md
   - name: Recover Internet Explorer process instance
     href: admin/recover-internet-explorer-process-instance.md
+  - name: Configure close confirmation window
+    href: admin/configure-close-confirmation-window.md    
 - name: Analyze best practices in Unified Service Desk
   href: admin/analyze-best-practices-unified-service-desk.md
   items:
@@ -226,26 +238,23 @@
     - name: 'Walkthrough 7: Configure agent scripting in your agent application'
       href: walkthrough-configure-agent-scripting-agent-application.md
     - name: 'Walkthrough 8: Use Dynamics 365 knowledge base within your agent application'
-      href: walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md
-  - name: "Preview feature: Support for Unified Interface Apps"
-    href: Support-unified-interfaces-apps-usd.md
+      href: walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md
+  - name: Unified Service Desk and Unified Interface configuration walkthroughs
+    href: unified-service-desk-unified-interface-configuration-walkthroughs.md
     items:
-    - name: "Preview feature: Unified Service Desk and Unified Interface configuration walkthroughs"
-      href: unified-service-desk-unified-interface-configuration-walkthroughs.md
-      items:
-      - name: "Preview feature: Walkthrough 1: Build a simple agent application for Unified Interface Apps"
+      - name: 'Walkthrough 1: Build a simple agent application for Unified Interface Apps'
         href: walkthrough1-unified-interface-build-a-simple-agent-application.md
-      - name: "Preview feature: Walkthrough 2: Display an external webpage in your agent application"
+      - name: 'Walkthrough 2: Display an external webpage in your agent application'
         href: walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md
-      - name: "Preview feature: Walkthrough 3: Display Microsoft Dynamics 365 Unified Interface app records in your agent application"
+      - name: 'Walkthrough 3: Display Microsoft Dynamics 365 Unified Interface app records in your agent application'
         href: walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md
-      - name: "Preview feature: Walkthrough 4: Display a Microsoft Dynamics 365 Unified Interface app record in a session in your agent application"
+      - name: 'Walkthrough 4: Display a Microsoft Dynamics 365 Unified Interface app record in a session in your agent application'
         href: walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md
-      - name: "Preview feature: Walkthrough 5: Display enhanced session information by displaying session name and overview data"
+      - name: 'Walkthrough 5: Display enhanced session information by displaying session name and overview data'
         href: walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md
-      - name: "Preview feature: Walkthrough 6: Configure the Debugger hosted control in your agent application"
+      - name: 'Walkthrough 6: Configure the Debugger hosted control in your agent application'
         href: walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md
-      - name: "Preview feature: Walkthrough 7: Configure agent scripting in your agent application"
+      - name: 'Walkthrough 7: Configure agent scripting in your agent application'
         href: walkthrough7-unified-interface-configure-agent-scripting-agent-application.md
 - name: Extend Unified Service Desk
   href: extend-unified-service-desk.md
@@ -460,6 +469,8 @@
     href: debugger-hosted-control.md
   - name: Interactive Service Hub Page (Hosted Control)
     href: interactive-service-hub-page-hosted-control.md
+  - name: Unified Interface KM Control (Hosted Control)
+    href: unified-interface-km-control-hosted-control.md
   - name: KM Control (Hosted Control)
     href: km-control-hosted-control.md
   - name: Listener Hosted Control (Hosted Control)
@@ -476,7 +487,7 @@
     href: standard-web-application-hosted-control.md
   - name: Toolbar Container (Hosted Control)
     href: toolbar-container-hosted-control.md
-  - name: 'Preview feature: Unified Interface Page (Hosted Control)'
+  - name: Unified Interface Page (Hosted Control)
     href: unified-interface-page-hosted-control.md
   - name: User Notes (Hosted Control)
     href: user-notes-hosted-control.md
@@ -491,5 +502,7 @@
 - name: Release notes of Unified Service Desk
   href: release-notes.md
   items:
+  - name: Release notes of Unified Service Desk 4.0
+    href: release-notes-unified-service-desk-40.md    
   - name: Release notes of Unified Service Desk 3.3
     href: release-notes-unified-service-desk-33.md

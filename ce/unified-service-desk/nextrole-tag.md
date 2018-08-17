@@ -19,7 +19,7 @@ ms.assetid: a76c84f2-fee6-4fd8-bbd2-0720b50b46ad
 caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # NextRole Tag Unified Service Desk
 The `<NextRole>` tag functions like the `<Next>` tag, but it applies to the accessibility role of the control. The attributes of the tag are same as the `<Next>` tag. The following sample finds a control one position after the second control with a push button role.  

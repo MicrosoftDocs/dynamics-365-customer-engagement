@@ -19,7 +19,7 @@ ms.assetid: 0fa8c515-9ed0-48a0-bda0-e3ead9743b95
 caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # View predefined actions and events for a hosted control in Unified Service Desk
 Each predefined hosted control type in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports a set of UII actions and events. To view the predefined UII actions and events for a hosted control:  

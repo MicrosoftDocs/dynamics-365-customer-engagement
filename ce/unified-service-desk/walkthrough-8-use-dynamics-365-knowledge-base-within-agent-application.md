@@ -1,38 +1,40 @@
 ---
 title: "Walkthrough 8: Use Customer Engagement knowledge base within your agent application | MicrosoftDocs"
 description: "Demonstrates how to configure a panel in Unified Service Desk to to display knowledge base records."
+keywords: ""
+ms.date: 08/15/2018
+ms.service:
+  - "dynamics-365-customerservice"
 ms.custom:
-  - dyn365-USD
-ms.date: 08/23/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+  - "dyn365-USD"
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: accd2d7a-9210-403a-abab-52c1cef11757
-caps.latest.revision: 10
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 ---
+
 # Walkthrough 8: Use Customer Engagement knowledge base within your agent application
-This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the **KM Control** hosted control that displays knowledge base records from your [!INCLUDE[pn_parature](../includes/pn-parature.md)] instance that is integrated with your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance.  
+This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the **KM Control** hosted control that displays knowledge base records from your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance.  
 
  In this walkthrough, you’ll:  
 
-- Display knowledge base articles from [!INCLUDE[pn_parature](../includes/pn-parature.md)] to appear in a search panel in context with your currently open case record in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. Users can filter and sort the results based on various criteria. Moreover, the search panel automatically appears when you open a case session, and automatically hides when you close the session.  
+- Display knowledge base articles from Dynamics 365 to appear in a search panel in context with your currently open case record in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. Users can filter and sort the results based on various criteria. Moreover, the search panel automatically appears when you open a case session, and automatically hides when you close the session.  
 
 - Display the article in a tab when you choose the article title in the search panel.  
 
 - Configure contextual actions for the article in the tab where it is displayed, such as copy an article link or associate an article with the current case.  
 
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Parature knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Dynamics 365 knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)  
 
 > [!IMPORTANT]
 >  This walkthrough doesn’t require you to complete other walkthroughs before you can use this one.  
@@ -45,7 +47,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
   - The `KM Control` and `Panel Layout` types of hosted controls:. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
 
-  - Concepts about using the `KM Control` type of hosted control to configure knowledge management. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Parature knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)  
+  - Concepts about using the `KM Control` type of hosted control to configure knowledge management. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Dynamics 365 knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)  
 
   - How to configure action calls. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action calls](../unified-service-desk/action-calls.md)  
 
@@ -53,21 +55,21 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 <a name="Top"></a>   
 ## In This Walkthrough  
- [Step 1: Create a hosted control of type KM Control](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md#Step1)  
+ [Step 1: Create a hosted control of type KM Control](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md#Step1)  
 
- [Step 2: Configure an action call to display the knowledge base search](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md#Step2)  
+ [Step 2: Configure an action call to display the knowledge base search](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md#Step2)  
 
- [Step 3: Configure action calls to automatically display and hide the knowledge base search panel](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md#Step3)  
+ [Step 3: Configure action calls to automatically display and hide the knowledge base search panel](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md#Step3)  
 
- [Step 4: Configure an action call to automatically search knowledge base using the incident (case) title](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md#Step4)  
+ [Step 4: Configure an action call to automatically search knowledge base using the incident (case) title](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md#Step4)  
 
- [Step 5: Configure hosted controls and action calls to display an article in a tab](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md#Step5)  
+ [Step 5: Configure hosted controls and action calls to display an article in a tab](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md#Step5)  
 
- [Step 6: Configure contextual actions for the knowledge base article in the tab](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md#Step6)  
+ [Step 6: Configure contextual actions for the knowledge base article in the tab](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md#Step6)  
 
- [Step 7: Test the application](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md#Step7)  
+ [Step 7: Test the application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md#Step7)  
 
- [Conclusion](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md#Conclusion)  
+ [Conclusion](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md#Conclusion)  
 
 <a name="Step1"></a>   
 ## Step 1: Create a hosted control of type KM Control  
@@ -261,7 +263,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 11. Type `Sample: Search KB with Incident (Case) Title Action` in the search box, and press ENTER or click the search button to add the action to the event. Click the **Save**![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
 
 > [!NOTE]
->  At this point, the knowledge base search control is configured to display knowledge bases from [!INCLUDE[pn_parature](../includes/pn-parature.md)] in context with the currently opened case record. Also, the knowledge base search panel is configured to automatically display when a session is created, and automatically hide when you close the session. You can test this by running the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application and connecting to the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] instance where you performed steps 1 through 4 of this walkthrough. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  
+>  At this point, the knowledge base search control is configured to display knowledge bases from \Dynamics 365 in context with the currently opened case record. Also, the knowledge base search panel is configured to automatically display when a session is created, and automatically hide when you close the session. You can test this by running the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application and connecting to the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] instance where you performed steps 1 through 4 of this walkthrough. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  
 > 
 >  Perform the rest of the steps to display a knowledge base article from the search results in a tab, and configure contextual actions for a selected knowledge base article in the search panel such as copying an article link and associating the article to the current case.  
 
@@ -493,10 +495,15 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 <a name="Conclusion"></a>   
 ## Conclusion  
- In this walkthrough, you learned how to use the KM Control hosted control to use [!INCLUDE[pn_parature](../includes/pn-parature.md)] knowledge from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
+ In this walkthrough, you learned how to use the KM Control hosted control to use Dynamics 365 knowledge from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
 
 ### See also  
- [Use Parature knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)   
- [Configure Parature knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
+ [Use Dynamics 365 knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)   
+
+ [Configure Dynamics 365 knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
+
  [KM Control (Hosted Control)](../unified-service-desk/km-control-hosted-control.md)   
+
+ [Unified Interface KM Control (Hosted Control)](../unified-service-desk/unified-interface-km-control-hosted-control.md)
+
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
