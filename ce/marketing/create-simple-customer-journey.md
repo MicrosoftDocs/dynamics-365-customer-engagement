@@ -59,12 +59,12 @@ To create a customer journey that executes a one-time email blast:
     The **Properties** tab provides settings that apply to the selected tile. Set the **Segment** to the name of the segment that you want to target with your campaign.
 
     > [!TIP]
-    > When your customer journey is running, all contacts start at the **Segment Group** block, and then step one block forward and do whatever it says there, and so on down the pipeline—like in a simple board game. Some blocks hold on to contacts for awhile, while others do something immediately and then send the contact on to the next block in the pipeline. Other blocks can split the path based on contact information or interactions. At runtime, you'll be able to see how many contacts are waiting at each block, along with a few key results associated with the block. In this simple example, you're going to add just one more block—an **Email** block—which sends an email message to each contact who enters the block.
+    > When your customer journey is running, all contacts start at the **Segment Group** tile, and then step one tile forward and do whatever it says there, and so on down the pipeline—like in a simple board game. Some tiles hold on to contacts for awhile, while others do something immediately and then send the contact on to the next tile in the pipeline. Other tiles can split the path based on contact information or interactions. At runtime, you'll be able to see how many contacts are waiting at each tile, along with a few key results associated with the tile. In this simple example, you're going to add just one more tile—an **Email** tile—which sends an email message to each contact who enters the tile.
 
-6. Go back to the **Toolbox** tab and drag an **Email** block to the space immediately to the right of the **Segment Group** block.
+6. Go back to the **Toolbox** tab and drag an **Email** tile to the space immediately to the right of the **Segment Group** tile.
     ![Add an email tile to the customer journey](media/journey-add-email.png "Add an email tile to the customer journey")
 
-7. With the new **Email** block still selected, open the **Properties** tab again.
+7. With the new **Email** tile still selected, open the **Properties** tab again.
     ![Assign an email message to the email tile](media/journey-email-properties.png "Assign an email message to the email tile")  
 
     Set the **Marketing Email Message** to the name of the message that you want to send, such as the sample email message you created earlier in [Create a marketing email and go live](create-marketing-email.md).

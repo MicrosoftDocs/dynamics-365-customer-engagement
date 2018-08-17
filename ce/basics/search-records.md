@@ -1,7 +1,7 @@
 ---
 title: "Search for records (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/15/2017
+ms.date: 07/27/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,9 +11,9 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 899ec72f-f5f3-4b87-be2d-fe53f05737dc
-caps.latest.revision: 20
-ms.author: "innaa"
-manager: "brycho"
+caps.latest.revision: 21
+ms.author: "t-mijosh"
+manager: "ryjones"
 ---
 # Search for records
 
@@ -51,7 +51,6 @@ To find your records quickly in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynami
 -   To search against all record types, choose **None** in the **Filter with:** drop-down box  
   
 ### See also  
- <!-- apparently the following is on-prem only>    
- [Edit the quick find view](Edit%20the%20quick%20find%20view.md)   -->
-[Create, edit, or save an Advanced Find search](../basics/save-advanced-find-search.md)   
- [Use Relevance Search for faster comprehensive search results](../basics/relevance-search-results.md)
+ [Search and Find in Dynamics 365](../basics/search-and-find-header.md)
+ [Use Relevance Search for faster, comprehensive search results](../basics/relevance-search-results.md)
+ [Create, edit, or save an Advanced Find search](../basics/save-advanced-find-search.md)   

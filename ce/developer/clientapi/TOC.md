@@ -373,6 +373,6 @@
 #### [retrieveMultipleRecords](reference/xrm-webapi/retrieveMultipleRecords.md)
 #### [updateRecord](reference/xrm-webapi/updateRecord.md)
 #### [isAvailableOffline](reference/xrm-webapi/isAvailableOffline.md)
-#### [execute](reference/xrm-webapi/execute.md)
-#### [executeMultiple](reference/xrm-webapi/executeMultiple.md)
+#### [execute](reference/xrm-webapi/online/execute.md)
+#### [executeMultiple](reference/xrm-webapi/online/executeMultiple.md)
 

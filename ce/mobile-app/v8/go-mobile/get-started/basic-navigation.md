@@ -1,7 +1,7 @@
 ---
 title: "Basic navigation in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-11-01"
+ms.date: "08/15/2018"
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -43,6 +43,7 @@ manager: "kvivek"
  The command bar is context-sensitive, and the available commands change depending on where you are in the app. When you display the command bar for a specific item (when you press and hold the item), the commands that appear are relevant to that item.  
   
 <a name="bkmk2"></a>   
+
 ## The Home page: your dashboards  
  If you want to use a different dashboard, it’s easy to switch back and forth.  
   
@@ -54,3 +55,6 @@ manager: "kvivek"
   
  To create new dashboards in [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] and enable them for use in [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] for phones and tablets, see [Create or customize dashboards](../../../../customize/create-edit-dashboards.md).  
   
+## Screen orientation
+
+For phones, portrait mode is set as the default screen orientation. For tablets, landscape mode is set as the default. Screen orientation for Dynamics 365 for phones and Dynamics 365 for tablets apps cannot be changed. 

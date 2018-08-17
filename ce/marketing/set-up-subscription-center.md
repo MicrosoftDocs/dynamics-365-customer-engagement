@@ -113,7 +113,7 @@ Go to **Marketing** &gt; **Internet Marketing** &gt; **Marketing Pages** and cre
 
 1. Make sure the page **Type** is **Subscription Center**, or choose a marketing page template where **Type** is **Subscription Center**.
 
-1. Include a **Form** block that references the subscription form you just made.
+1. Include a **Form** element that references the subscription form you just made.
 
 1. Enter values for all other required fields (**Name** and **Partial URL**).
 
@@ -179,7 +179,7 @@ As mentioned, content settings are defined on the customer journey level, and ap
 
 To add a subscription center link to a marketing email:
 
-1. While working in a text block, add some link text (such as **manage subscriptions**) at an appropriate place.
+1. While working in a text element, add some link text (such as **manage subscriptions**) at an appropriate place.
 
 1. Select the anchor text, and then select the **Link** button ![The link button](media/email-link-button.png "The Link button") from the floating toolbar, which opens the **Link** dialog box.
 
@@ -207,6 +207,12 @@ To set up a segment tile to target a subscription list:
 
 > [!IMPORTANT]
 > When a customer journey targets a subscription list, then any contact that unsubscribes from that list using a subscription center will automatically be removed from that journey within about 24 hours, even if they are already partway through it. However, if a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] users removes a contact from the list manually using the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] interface, that contact will continue to be processed by any journeys they already are on, and may continue to receive messages until all active journeys are complete. For this reason, it is usually best to request all contacts to manage their own subscriptions using the subscription center.
+
+## Test your subscription center
+
+Subscription centers only work when they "know" who they are talking to. This enables the subscription center to display existing contact information in editable fields (like name and email), and also to indicate which of the available subscription lists the viewer already belongs to. The only way most people will be able to open the subscription center is by selecting a link sent to them in a marketing email from a customer journey, and links such as these include an ID that lets the subscription center know which contact has requested the page. (In fact, all links in marketing emails include an ID that's linked to both the contact and the message, which enables the system to report which link each contact has selected in each message.)
+
+If you open a subscription center by opening its URL directly, the page will load, but the form will be empty, all subscription lists will be cleared, and you won't be able to submit it. To fully test your subscription center, set up a simple customer journey that targets a single contact record with your email address and sends out a simple marketing email that links to your subscription center (similar to the journey presented in the previous section, but be sure to use a very limited segment). When you receive the message, select the subscription center link and test its features.
 
 ### See also
 

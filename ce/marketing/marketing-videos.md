@@ -45,7 +45,7 @@ For an even more detailed video overview of the features and benefits of [!INCLU
 - [Keyboard shortcuts and accessibility features for content designers](designer-shortcuts.md)
 - [Prepare marketing email messages](prepare-marketing-emails.md)
 - [Work with email, page, and form templates](email-templates.md)
-- [Content blocks reference](content-blocks-reference.md)
+- [Design elements reference](content-blocks-reference.md)
 
 ## Use customer journeys to create automated campaigns
 

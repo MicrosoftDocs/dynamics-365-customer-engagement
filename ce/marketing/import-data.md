@@ -32,7 +32,7 @@ You can import data from the following file types:
 
 - Comma-separated value (.csv) file
 - [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates provided by [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]  
-  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Export data or template](#export-data-or-templates)
+  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Export Dynamics 365 data to Word or Excel docs](export-data-word-excel.md)
 
 ## Prepare your file for import
 

@@ -1,6 +1,6 @@
 ---
 title: "Design, check, and publish marketing pages (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to design and deploy landing, forwarding, and subscription pages in Dynamics 365 for Marketing"
+description: "How to design and deploy landing, forwarding, and subscription pages in Dynamics 365 for Marketing, and how to embed a marketing form on your own website"
 keywords: "landing page; subscription center; forward to a friend; form; field; matching"
 ms.date: 06/01/2018
 ms.service:
@@ -66,15 +66,15 @@ To create a new marketing page, do one of the following:
 
 - Go to **Marketing** &gt; **Lead Management** &gt; **Marketing Pages** to go to the full list of all pages currently available on your site, and then select **+New** in the command bar. You'll first be asked to choose a template, which establishes the page type and column layout and might also provide sample content. Then you'll be in the content designer, where you can start designing your page.
 
-- While working in a marketing email message or customer journey, add a page block to your message or journey, and then select **+New** on the **Properties** tab instead of choosing an existing page. A quick-create flyout slides in from the side of the screen, where you must enter values for all required fields and then select **OK**. A new marketing page is created with your selected settings and is applied to your new customer-journey tile. However, you'll still need to finish the page later by choosing a template and customizing it as needed. You can do that now by selecting **Edit** on the **Properties** tab while the page is selected, or you can do it later either from here, or from the full list at **Marketing** &gt; **Lead Management** &gt; **Marketing Pages**.
+- While working in a marketing email message or customer journey, add a marketing page tile or design element to your journey or message, and then select **+New** on the **Properties** tab instead of choosing an existing page. A quick-create flyout slides in from the side of the screen, where you must enter values for all required fields and then select **OK**. A new marketing page is created with your selected settings and is applied to your new customer-journey tile. However, you'll still need to finish the page later by choosing a template and customizing it as needed. You can do that now by selecting **Edit** on the **Properties** tab while the page is selected, or you can do it later either from here, or from the full list at **Marketing** &gt; **Lead Management** &gt; **Marketing Pages**.
 
 ### Design your content
 
 After choosing a template, you'll be in the page content designer, which resembles the other digital content designers provided in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. Work with it as follows:
 
-- The **Content** &gt; **Designer** tab provides a graphical tool that you use to design your content by using drag-and-drop, point-and-click operations. Add new elements to your design by dragging blocks from the **Content** &gt; **Designer** &gt; **Toolbox** tab to the content canvas. Choose a block that already exists in your design, and then use the **Content** &gt; **Designer** &gt; **Properties** tab to configure and style it.
+- The **Content** &gt; **Designer** tab provides a graphical tool that you use to design your content by using drag-and-drop, point-and-click operations. Add new elements to your design by dragging elements from the **Content** &gt; **Designer** &gt; **Toolbox** tab to the content canvas. Choose a design element that already exists in your design, and then use the **Content** &gt; **Designer** &gt; **Properties** tab to configure and style it.
 
-- When you select a content block on the canvas, you'll usually see a pop-up toolbar just above the block. The tools it offers vary depending on which type of block you've selected. The toolbar typically provides commands to move, copy, or delete the selected block. For text blocks, the toolbar offers commands for applying basic text formatting as you would in [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)].
+- When you select a design element on the canvas, you'll usually see a pop-up toolbar just above the element. The tools it offers vary depending on which type of design element you've selected. The toolbar typically provides commands to move, copy, or delete the selected element. For text elements, the toolbar offers commands for applying basic text formatting as you would in [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)].
 
 - To style the overall page with basic fonts, colors, and background, open the **Content** &gt; **Designer** &gt; **Styles** tab.
 
@@ -90,7 +90,7 @@ You can view, edit, and create all marketing page templates by going to **Market
 
 ## Integrate landing pages with other marketing initiatives
 
-To include a link to a landing page in a marketing email, you can either create a dynamic text link (in a text block) that references the page by using the assist-edit feature, or add a dedicated marketing-page block, which creates a colorful call-to-action button that links to the page. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add dynamic content to email messages](dynamic-email-content.md) and [The form block for marketing pages](content-blocks-reference.md#the-form-block-for-marketing-pages)
+To include a link to a landing page in a marketing email, you can either create a dynamic text link (in a text element) that references the page by using the assist-edit feature, or add a dedicated marketing-page element, which creates a colorful call-to-action button that links to the page. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add dynamic content to email messages](dynamic-email-content.md) and [The form element for marketing pages](content-blocks-reference.md#the-form-element-for-marketing-pages)
 
 You can create customer journeys that include triggers that react to marketing page submissions, so that contacts who submit the page are treated differently from those who don't. To do this, include a marketing page tile in your journey design and then place a trigger that references that tile and specifies logic for how to react to it. To trigger on a marketing page linked to in a marketing-email message, add an email tile for the message and then add a marketing page tile as a child tile of that message. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
 
@@ -108,7 +108,7 @@ To view form submissions and analytics about page usage and performance:
 
 ## Create, view, and manage marketing forms
 
-A marketing form defines a set of input fields arranged into a form layout. You'll probably build a small library of reusable forms that you can place on all your various marketing pages as needed. To add a marketing form to a specific marketing page, use a form block to position the form and choose local settings for it, which apply to that page only.
+A marketing form defines a set of input fields arranged into a form layout. You'll probably build a small library of reusable forms that you can place on all your various marketing pages as needed. To add a marketing form to a specific marketing page, use a form element to position the form and choose local settings for it, which apply to that page only.
 
 Each marketing form is made from a collection of marketing form fields, plus form buttons, graphical elements, and a few configuration settings. Each field included in your form must be set up in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] as a marketing form field, which establishes options for how that field is presented in forms where it appears, and which lead or contact fields it maps to. Some features of a marketing form depend on which type of form it is—for example, a subscription center form can include subscription lists.
 
@@ -128,33 +128,33 @@ To create a new marketing form, do one of the following:
 
 - Go to **Lead Management** &gt; **Marketing Forms** to go to the list of all forms currently available on your site, and then select **+New** in the command bar. You'll first be asked to choose a template, which establishes the form type, column layout, and sample content. Then you'll be in the form designer.
 
-- While working on an existing marketing page design, add a form block to your design, and then select **+New** on the **Properties** tab instead of choosing an existing form. A quick-create flyout slides in from the side of the page, where you must enter values for all required fields, and then select **OK**. A new form is created with your selected settings, and applied to your new form block. However, you'll still need to finish the form later by adding content to it as needed. You can do that now by opening it from the **Properties** tab of the page designer while the form block is selected, or you can do it later either from here or from the forms list at **Lead Management** &gt; **Marketing Forms**.
+- While working on an existing marketing page design, add a form element to your design, and then select **+New** on the **Properties** tab instead of choosing an existing form. A quick-create flyout slides in from the side of the page, where you must enter values for all required fields, and then select **OK**. A new form is created with your selected settings, and applied to your new form element. However, you'll still need to finish the form later by adding content to it as needed. You can do that now by opening it from the **Properties** tab of the page designer while the form element is selected, or you can do it later either from here or from the forms list at **Lead Management** &gt; **Marketing Forms**.
 
-Either way, after you've selected a template, you'll go to the form designer, which is similar to other types of digital content designers in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], but only provides blocks and settings that are appropriate for marketing forms.
+Either way, after you've selected a template, you'll go to the form designer, which is similar to other types of digital content designers in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], but only provides design elements and settings that are appropriate for marketing forms.
 
 To edit an existing form, do one of the following:
 
 - Go to **Lead Management** &gt; **Marketing Forms** to go to the form list page. Use the search, sort, and filter controls to find the form you want to edit, and then select its name in the list to go to the form designer.
 
-- Open a marketing page where you use the form, select the form block in the canvas, and then go to the **Properties** tab of the page designer and open it from there.
+- Open a marketing page where you use the form, select the form element in the canvas, and then go to the **Properties** tab of the page designer and open it from there.
 
 ### Design and validate your form content
 
-When creating or editing a form, you'll be in the form designer, which is an example of the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] digital-content designer that offers content blocks for working with forms.
+When creating or editing a form, you'll be in the form designer, which is an example of the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] digital-content designer that offers design elements for working with forms.
 
 ![The form designer](media/designer-forms.png "The form designer")
 
 Use the designer to add, configure, and arrange the various fields, buttons, and graphical elements that your form requires by working as follows:
 
-- Assemble your form by dragging fields and content blocks from the **Toolbox** tab to the canvas.
+- Assemble your form by dragging fields and design elements from the **Toolbox** tab to the canvas.
 
-- Configure each block by selecting it and going to the **Properties** tab. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Content blocks reference](content-blocks-reference.md)
+- Configure each element by selecting it and going to the **Properties** tab. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design elements reference](content-blocks-reference.md)
 
 The designer also provides the usual tools for editing the HTML code and viewing previews in various screen sizes and orientations. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
 
-Content block availability and requirements vary by form type, as outlined in the following table. Be sure to include all the blocks that are required for the type of form you are designing.
+Design element availability and requirements vary by form type, as outlined in the following table. Be sure to include all the elements that are required for the type of form you are designing.
 
-| **Block type** |**Landing page** | **Subscription center** |**Forward to a friend** |
+| **Design element type** |**Landing page** | **Subscription center** |**Forward to a friend** |
 |----------|----------|----------|--------------------------|
 | **Text**, **Image**, **Divider**, and **Button** | Yes               | Yes                     | Yes                      |
 | **Field**                           | Yes               | Yes                     | No                       |
@@ -180,15 +180,15 @@ You can view, edit, and create form templates by going to **Templates** &gt; **M
 
 ### Add a form to a marketing page
 
-Use a form block to add a form to a landing page. After adding the block, you'll choose (or create) the actual form that the block will show and can also choose other configuration settings that affect how it will work on that page.
+Use a form element to add a form to a landing page. After adding the element, you'll choose (or create) the actual form that the element will show and can also choose other configuration settings that affect how it will work on that page.
 
-When you're choosing which form the block will show, you can only choose forms whose type matches the type of marketing page you are working on (landing page, subscription center, or forward to a friend).
+When you're choosing which form the element will show, you can only choose forms whose type matches the type of marketing page you are working on (landing page, subscription center, or forward to a friend).
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [The form block for marketing pages](content-blocks-reference.md#the-form-block-for-marketing-pages)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [The form element for marketing pages](content-blocks-reference.md#the-form-element-for-marketing-pages)
 
 ## Create and manage input fields for use in forms
 
-Each field that appears in a marketing form must map unambiguously to a contact or lead field in your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] database, where values submitted for that field will be stored. When you're designing a form, you'll see a block for each field that is already set up, so all you need to do to add that field is drag the matching field block to your form. The most commonly used fields (such as name, address, and email) are set up by default; if you want to use additional fields, you must set them up first.
+Each field that appears in a marketing form must map unambiguously to a contact or lead field in your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] database, where values submitted for that field will be stored. When you're designing a form, you'll see a design element for each field that is already set up, so all you need to do to add that field is drag the matching field element to your form. The most commonly used fields (such as name, address, and email) are set up by default; if you want to use additional fields, you must set them up first.
 
 ### Create or edit a marketing-form field
 
@@ -196,7 +196,7 @@ To create a new marketing-form field, do one of the following:
 
 - Go to **Templates** &gt; **Marketing Form Fields** to see the full list of all fields currently available to your organization, and then select **+New** in the command bar. This creates a new, blank field mapping and opens it for editing.
 
-- While working on an existing marketing form, look at the **Toolbox** tab to the right side of the canvas. Under the **Fields** heading here, you'll see a block for each field that is already set up on your site. If you don't see the one you want, select **+New** next to the **Fields** heading. A quick-create flyout slides in from the side of the screen, where you can make all the most important settings, and then select **Save**. The new **Field** block is then added to the **Toolbox** tab.
+- While working on an existing marketing form, look at the **Toolbox** tab to the right side of the canvas. Under the **Fields** heading here, you'll see a design element for each field that is already set up on your site. If you don't see the one you want, select **+New** next to the **Fields** heading. A quick-create flyout slides in from the side of the screen, where you can make all the most important settings, and then select **Save**. The new **Field** element is then added to the **Toolbox** tab.
 
 To edit an existing field, go to **Templates** &gt; **Marketing Form Fields** to see the full list of all fields currently available on your site. Browse, search, sort, and filter the list to find the field you want to edit, and then select it to open it.
 
@@ -207,11 +207,11 @@ The following table describes all configuration settings that are available for 
 
 |        **Setting**        |                                                                                                                                                                                                                                      **Description**                                                                                                                                                                                                                                      |
 |---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|         **Name**          |                                                                                                                                                              Name of the form field record. This becomes the name of the block provided in the designer for placing the field. It should almost always match the field name.                                                                                                                                                              |
+|         **Name**          |                                                                                                                                                              Name of the form field record. This becomes the name of the element provided in the designer for placing the field. It should almost always match the field name.                                                                                                                                                              |
 |         **Type**          |                                                                                                                                 The type of data&mdash;such as text, number, or date&mdash;accepted by the field. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Field type and format options](#field-type-and-format-options)                                                                                                                                 |
 |        **Format**         | The format of data accepted by the field. This establishes the validation criteria applied for the field. For example, if you set the format to email, the form will make sure that text entered in that field looks like an email address (includes an at sign (@), and so on). The options available here depend on which **Type** is selected. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Field type and format options](#field-type-and-format-options) |
 |   **Rendering control**   |                                                                                                                                              The rendering control presented by the field, such as text box, text area, radio buttons, check box, date picker, and more. The options available here depend on which **Format** is selected.                                                                                                                                               |
-|     **Default label**     |                       The default label shown for the field when you add it to a form. You can override this default for any specific form by configuring the field block that creates the input field for that form; you might do this to translate the form to a different language. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [The form block for marketing pages](content-blocks-reference.md#the-form-block-for-marketing-pages)                       |
+|     **Default label**     |                       The default label shown for the field when you add it to a form. You can override this default for any specific form by configuring the field element that creates the input field for that form; you might do this to translate the form to a different language. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [The form element for marketing pages](content-blocks-reference.md#the-form-element-for-marketing-pages)                       |
 |  **Default placeholder**  |                                                                                                          Defines the "ghost text" shown in the field until a value is entered, typically displayed in a gray color. Use this to indicate what kind of value should be entered. If the user doesn't replace the ghost text by entering a value, the field is submitted as blank.                                                                                                           |
 | **Contact field mapping** |                                                                                                                                                                                 Choose the contact field to map to this marketing-form field. Leave this blank to disable contact mapping for this field.                                                                                                                                                                                 |
 |  **Lead field mapping**   |                                                                                                                                                                                    Choose the lead field to map to this marketing-form field. Leave this blank to disable lead mapping for this field.                                                                                                                                                                                    |
@@ -252,6 +252,8 @@ You can remove a live page from the internet by selecting **Stop** in the comman
 
 When you publish a marketing page, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] hosts it by using its portals feature at a public URL that you can share with prospects. When you first create the page, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] automatically creates a new website record for it, where you can go to analyze its traffic and performance. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Register contacts' engagement with your Internet marketing initiatives](register-engagement.md)
 
+<a name="embed-form"></a>
+
 ## Embed a marketing form on your own website
 
 [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] provides a complete solution for designing, publishing, and hosting your landing pages, but you can also embed [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] landing-page forms on your own website using your usual web-publishing tools. Marketing forms that you publish in this way function just as they would when embedded on the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] landing page, so they will generate contacts and/or leads in your database when submitted.
@@ -268,7 +270,7 @@ To set up a form for use on an external website:
 
 2. Create the form and add the required fields to it as usual.
 
-   - Configure all [field blocks](content-blocks-reference.md#form-content-blocks) just as you would with standard marketing forms.
+   - Configure all [field elements](content-blocks-reference.md#form-content-elements) just as you would with standard marketing forms.
    - Make [layout and style settings](design-digital-content.md#work-with-the-designer) just as you would with standard marketing forms.
    - You can use CSS on your external page to further style the imported marketing form. When you're done designing your form in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)], open its **Designer** > **HTML** tab to see the CSS classes assigned to each element.
 
@@ -278,7 +280,7 @@ To set up a form for use on an external website:
 
 5. In the column on the left, select **Add new form page**. A quick-create flyout slides in. (A _form page_ is a virtual page where you can make a few extra configuration settings for forms that will be embedded externally.)
 
-6. Use the quick-create form to set up your form options. The settings here are the same as those for a [form block](content-blocks-reference.md#the-form-block-for-marketing-pages) placed on a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] marketing page.
+6. Use the quick-create form to set up your form options. The settings here are the same as those for a [form element](content-blocks-reference.md#the-form-element-for-marketing-pages) placed on a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] marketing page.
 
 7. Select **Save** to create the new form page and go back to the **Form hosting** tab for your form.
 
@@ -301,7 +303,7 @@ Administrators can choose settings that control several aspects of the way all m
 [Create a landing page](create-landing-page.md)  
 [Design your digital content](design-digital-content.md)  
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  
-[Content blocks reference](content-blocks-reference.md)  
+[Design elements reference](content-blocks-reference.md)  
 [Upload and use images and files](upload-images-files.md)  
 [How Dynamics 365 for Marketing uses cookies](cookies.md)  
 [Go live with publishable entities and track their status](go-live.md)

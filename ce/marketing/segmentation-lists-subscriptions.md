@@ -94,6 +94,8 @@ Because your database probably includes a large number of contacts, the **Defini
 > [!TIP]
 > Each time you adjust the filter settings, you must select the **Apply** button to update the list.
 
+<a name="define-dynamic"></a>
+
 ## Define a dynamic a segment
 
 To create a dynamic segment, set its **Segment type** to **Dynamic** on the **General** tab. Then use the **Definition** tab to build your dynamic segment by combing _groups_ of _logical expressions_, each of which results in a set of contacts. Each group establishes a _path_ through one or more entities that must end at the **Contact** entity (the order matters).

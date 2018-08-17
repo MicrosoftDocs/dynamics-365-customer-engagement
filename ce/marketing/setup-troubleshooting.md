@@ -139,6 +139,67 @@ The [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] 
 
 4. You'll be asked to confirm the action. Choose **Update URL** to continue and then allow a few minutes for the process to complete.
 
+<a name="fix-voc"></a>
+
+## My surveys aren't working; how can I fix my [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] installation?
+
+If you don't see the **Survey** tile in the **Toolbox** of your [customer journey designer](customer-journeys-create-automated-campaigns.md), or if it isn't working properly, then the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] setup wizard might have failed to set up the [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] app correctly. If this was the only error that occurred during installation, then you might not have received any messages about it. To fix this, do the following:
+
+1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md).
+
+1. Go to the **Applications** tab, select any **Voice of the Customer** application in the applications list, and then select the **Manage** button in the side panel.
+
+    ![Manage your Voice of the Customer installation](media/admin-voc-manage.png "Manage your Voice of the Customer installation")
+
+1. The **Set up Voice of the Customer** page opens.
+
+    ![Set up your Voice of the Customer installation](media/admin-voc-setup.png "Set up your Voice of the Customer installation")
+
+    Do the following:
+    - Choose the instance you are having trouble with from the **Dynamics 365 Instance** drop-down list. 
+    - Read the license terms and the privacy policy carefully. If you agree with their terms, select the **Accept the Dynamics 365 software license terms and privacy statement** check box.
+
+1. Select **Install**. A message at the bottom of the page announces that the installation has successfully started.
+
+1. To track the installation progress, go back to your Dynamics 365 admin center and open the **Instances** tab. Select your instance in the list and then select the **Solutions** button in the side panel.
+
+    ![Manage the solutions installed on your instances](media/admin-voc-instances.png "Manage the solutions installed on your instances")
+
+1. The **Manage your solutions** page opens, showing a list of solutions installed on your selected instance and the status of each of them. Find the **Voice of the Customer for Microsoft Dynamics 365** solution and then refresh the page periodically until you can see that the solution is shown as **Installed**.
+
+    ![The Manage your solutions page](media/admin-voc-solutions1.png "The Manage your solutions page")
+
+
+1. Still on the **Manage your solutions** page, find and select the solution called **Dynamics 365 for Marketing**. (If your list includes more than one **Dynamics 365 for Marketing** solution, then select the one that shows a **Status** of either **Installed** or **Upgrade available**.) Then select the **(more)** link in the side panel to see all available information for this solution.
+
+    ![View details about your Marketing solution](media/admin-voc-solutions2.png "View details about your Marketing solution")
+
+1. At the end of the solution description, you should now see a tag in square brackets.
+
+    ![Find this tag at the end of the expanded description](media/admin-voc-solutions3.png "Find this tag at the end of the expanded description")
+
+    Do one of the following, depending on which of the following tags you see for your selected solution:
+    - **[MktVoc]** or **[MktVocEmail]**: Do nothing and continue to the next step.
+    - **[Mkt]**: Find and select another **Dynamics 365 for Marketing** solution that has the same version, but is tagged with **[MktVoc]**, and then install it.
+    - **[MktEmail]**: Find and select another **Dynamics 365 for Marketing** solution that has the same version, but is tagged with **[MktVocEmail]**, and then install it.
+    - If no tag is shown, continue to the next step.
+
+1. Go to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and confirm that the **Survey** tile is now visible in the customer journey toolbox, and that your surveys are working correctly.
+
+If your surveys still aren't working after completing these steps, then please [contact Microsoft Support](#contact-support) for assistance.
+
+<a name="uci-only-data"></a>
+
+## Why can't I see my [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] results in other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] apps?
+
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is built to run exclusively on the new Unified Interface for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] applications. Many [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] applications support both the new Unified Interface and the older web-client interface, but nearly all are moving to the Unified Interface.
+
+[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] typically shares data with other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] applications running on the same instance, and operates on many of the same database entities, including contacts, leads, accounts, and more. Some [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]-specific features, such as displays of analytics and insights from marketing initiatives, require the Unified Interface and therefore won't show any data when you view those entities in web-client apps.
+
+Also, some administration and customization features, and some integrated user features, may require you to switch to a web-client app from time to time, but soon all features are expected to be available on the Unified Interface.
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [About Unified Interface](../admin/about-unified-interface.md) and [Find your way around Marketing](navigation.md)
+
 <a name="contact-support"></a>
 
 ## How can I contact support if I still need help?
@@ -149,4 +210,3 @@ For more information about how to contact [!INCLUDE[pn-microsoft-support](../inc
 
 - [Contact technical support](../admin/contact-technical-support.md)
 - [Help and additional resources](../admin/help-additional-resources.md)
-- [Support for Microsoft Dynamics 365](https://go.microsoft.com/fwlink/p/?linkid=875262)

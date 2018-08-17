@@ -96,6 +96,8 @@ If you don't already have a [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office
 
 8. Install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on your new trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant as described in [Install the trial on an existing, managed Office 365 tenant](#install-on-existing-tenant).
 
+<a name="add-users"></a>
+
 ## Add more users to a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial running on a trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant
 
 If you followed the instructions provided in the previous section, then you should now have a [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial set up with:
