@@ -102,8 +102,8 @@ Record-based security in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyn
 |To **Create** a record and be the record owner|CREATE<br /><br /> READ|  
 |To **Share** a record|SHARE. This right is required by the person doing the share operation.<br /><br /> READ. This right is required by the person doing the share operation and also by the person with whom the record is being shared.|  
 |To **Assign** a record|ASSIGN<br /><br /> WRITE<br /><br /> READ|  
-|To **Append To** a record|READ<br /><br /> APPENDTO|  
-|To **Append** a record|READ<br /><br /> APPEND|  
+|To **Append To** a record|WRITE<br /><br />READ<br /><br /> APPENDTO|  
+|To **Append** a record|WRITE<br /><br />READ<br /><br /> APPEND|  
   
  Another type of dependency exists when objects are subordinate to another object. For example, the opportunity object cannot exist on its own. Each opportunity is always attached to an account or contact. To create an opportunity, you must have the access right **appendto** on accounts and the access right **append** on opportunities.  
   
