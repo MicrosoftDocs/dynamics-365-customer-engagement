@@ -6,11 +6,13 @@
 ## [Advanced quoting, pricing, and billing guide](implementation-guides/adv-quoting-pricing-billing.md)
 ## [Resource management guide](implementation-guides/resource-management-guide.md)
 ## [Reporting guide](implementation-guides/reporting-guide.md) 
+
 # How-to guides (app version 3.x)
 ## [Pricing dimensions setup guide](how-to-guides/pricing-dimensions-setup.md)
 ## [Project management how-to guide](how-to-guides/project-management-how-to.md)
 ## [Resource management how-to guide](how-to-guides/resource-management-how-to.md)
 ## [Reconciling assignments and bookings how-to guide](how-to-guides/reconciling-assignments-bookings-how-to.md)
+ 
 # Guidance for earlier versions (app version 2.x and 1.x)
 ## [White papers](white-papers.md)
 ## [Administrator guide](admin-guide.md)
