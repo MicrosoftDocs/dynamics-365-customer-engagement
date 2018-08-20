@@ -124,7 +124,8 @@ The following list of cards are available under Email cards from Exchange:
 </table>
 
 <br> 
-  
+
+
 |asd|dff|
 |-|-|
 |<a name="IssueDetected"></a>**Issue detected**<br /> ![Action card for case detected](media/ActionCard_CaseDetection.png "Action card for case detected")|- **Description**<br />An email from a known contact in your inbox appears to include a support request.<br />- **Features**<br />Shows the name of the contact.<br />Tells you that an email that appears to include a support request has arrived.<br />Displays the sentence from the email that appears to be asking for help.<br />-**Actions**<br />Create a new case.<br />Open the email.|
