@@ -108,7 +108,8 @@ What opportunities should have priority? When was the customer last contacted? W
 -->
  
 <a name="BKMK_Privacy"></a>   
-## Privacy notices  
+## Privacy notices 
+ 
 [!INCLUDE[cc_privacy_relationship_insights_relationship_assistant](../includes/cc-privacy-relationship-insights-relationship-assistant.md)]
   
 [!INCLUDE[cc_privacy_relationship_insights_email_engagement](../includes/cc-privacy-relationship-insights-email-engagement.md)]
