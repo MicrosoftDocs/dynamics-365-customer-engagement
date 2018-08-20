@@ -18,7 +18,7 @@ ms.assetid: 305f27d0-a53c-49be-a6d9-7ddf7ebbf2a3
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Configure your agent application using Unified Service Desk
 This section provides information about how you can use [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to quickly configure a highly customized agent application for your organization without using code.  

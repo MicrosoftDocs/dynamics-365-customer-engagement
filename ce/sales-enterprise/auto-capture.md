@@ -106,4 +106,4 @@ The following describes the support for viewing, opening, and tracking untracked
   
 ### See also
 
-[Configure and enable embedded intelligence](../sales-enterprise/action-cards-reference.md)
+[Configure and enable embedded intelligence](../sales-enterprise/configure-enable-embedded-intelligence.md)

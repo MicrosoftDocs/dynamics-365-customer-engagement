@@ -1,26 +1,29 @@
 ---
 title: "Update Unified Service Desk for Dynamics 365 Customer Engagement solution | MicrosoftDocs"
-description: "Learn how to update Unified Service Desk for Dynamics 365 Customer Engagement." 
-ms.custom:
-  - dyn365-USD, dyn365-admin
+description: "Learn how to update Unified Service Desk for Dynamics 365 Customer Engagement."
+keywords: ""
 ms.date: 08/23/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service:
+  - "dynamics-365-customerservice"
+ms.custom:
+  - "dyn365-USD, dyn365-admin"
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: d3773029-8b2f-4aa3-9317-abc309b01960
-caps.latest.revision: 12
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+caps.latest.revision: 12
 ---
+
 # Updating the solution
 Read this topic only if you have an existing installation of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] from the previous release of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)], and want to update to the [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)] release.  
   
@@ -35,14 +38,14 @@ Read this topic only if you have an existing installation of [!INCLUDE[pn_unifie
   
 |Solution name|Version|  
 |-------------------|-------------|  
-|UiiForMicrosoftDynamicsCRM2011|3.3.0.xxx|  
-|DynamicsUnifiedServiceDesk|2.0.0.xxx|  
+|UiiForMicrosoftDynamicsCRM2011|4.0.0.xxx|  
+|DynamicsUnifiedServiceDesk|4.0.0.xxx|
   
 <a name="UpdateSolutions"></a>   
 ## Update Unified Service Desk solutions  
  Before you update your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solutions, ensure that the version of your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] on-premises organization is [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)], [!INCLUDE[pn_crm_2015_shortest](../../includes/pn-crm-2015-shortest.md)], or [!INCLUDE[pn_crm_2013_sp_shortest](../../includes/pn-crm-2013-sp-shortest.md)].  
   
-1. [Download the Unified Service Desk package file](http://go.microsoft.com/fwlink/p/?LinkID=854761) (CRM2016-8.x.x-USD-PackageDeployer.exe), and save it on your computer.  
+1. [Download the Unified Service Desk package file](http://go.microsoft.com/fwlink/p/?LinkID=2007340) (CRM2016-8.x.x-USD-PackageDeployer.exe), and save it on your computer.  
   
 2. Run the downloaded file to extract the contents into a folder.  
   
@@ -52,7 +55,9 @@ Read this topic only if you have an existing installation of [!INCLUDE[pn_unifie
   
    - UiiForMicrosoftDynamicsCRM_3_0_managed.zip  
   
-   - DynamicsUnifiedServiceDesk_1_0_managed.zip  
+   - DynamicsUnifiedServiceDesk_1_0_managed.zip 
+
+   - UnifiedInterfaceDemoCustomization_1_0_managed.zip 
   
      For example, if you currently have Base package installed, you must navigate to the USDPackageDeployer\BasePackage folder to find the solution files for updating. Similarly, navigate to the USDPackageDeployer\CRM2013SP1Package folder if you have the [!INCLUDE[pn_crm_2013_sp_shortest](../../includes/pn-crm-2013-sp-shortest.md)] package, to the USDPackageDeployer\CRM2013SP1withProductUpdatesPackage folder if you have the [!INCLUDE[pn_crm_2013_sp_shortest](../../includes/pn-crm-2013-sp-shortest.md)] with Product Updates package, and USDPackageDeployer\ParatureKnowledgeManagementPackage folder if you have the Knowledge Management package.  
   
@@ -70,7 +75,8 @@ Read this topic only if you have an existing installation of [!INCLUDE[pn_unifie
   
      After the solution import completes successfully, the **UiiForMicrosoftDynamicsCRM** solution is updated.  
   
-11. Repeat steps 7-10 for the DynamicsUnifiedServiceDesk_1_0_managed.zip file to update the **DynamicsUnifiedServiceDesk** solution in your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  
+11. Repeat steps 7-10 for the DynamicsUnifiedServiceDesk_1_0_managed.zip and UnifiedInterfaceDemoCustomization_1_0_managed.zip file to update the **DynamicsUnifiedServiceDesk** and 
+  solution in your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  
   
      For detailed information about updating solutions in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], see [Import, update, and export solutions](../../customize/import-update-export-solutions.md).  
   

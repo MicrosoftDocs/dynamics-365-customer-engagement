@@ -19,7 +19,7 @@ ms.assetid: 2db66e85-cba1-4a37-bfbf-2190966295af
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # ElementMatchPath in Unified Service Desk
 `<ElementMatchPath>` tag uses a sequence of `HTML` tags delimited by forward slashes. This topic describes how `<ElementMatchPath>` works.  
