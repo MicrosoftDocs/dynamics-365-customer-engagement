@@ -21,7 +21,7 @@ manager: "kvivek"
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
-This document describes the steps needed to migrate from an instance of [!INCLUDE[pn_crm_online](../includes/pn_crm_online.md)] to a [!INCLUDE[pn-crm-2016](../includes/pn-crm-2016.md)] on-premises deployment. To complete the migration, follow the steps provided here in the order presented..  
+This document describes the steps needed to migrate from an instance of [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] to a [!INCLUDE[pn-crm-2016](../includes/pn-crm-2016.md)] on-premises deployment. To complete the migration, follow the steps provided here in the order presented..  
   
 > [!IMPORTANT]
 >  This document assumes that you already have a deployment of [!INCLUDE[pn-crm-2016](../includes/pn-crm-2016.md)] on-premises. For information about how to deploy [!INCLUDE[pn-crm-2016](../includes/pn-crm-2016.md)], see [Microsoft Dynamics CRM Server installation](https://technet.microsoft.com/library/hh699742.aspx).  
@@ -58,9 +58,9 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
 <a name="BKMK_copykey"></a>   
 
 ## Copy your Dynamics 365 (online) organization encryption key  
- During the import of the [!INCLUDE[pn_crm_online](../includes/pn_crm_online.md)] database into your [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] deployment, you must provide the organization database encryption key used for your instance of [!INCLUDE[pn_crm_online](../includes/pn_crm_online.md)].  
+ During the import of the [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database into your [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] deployment, you must provide the organization database encryption key used for your instance of [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)].  
   
-1.  Sign in to the instance of [!INCLUDE[pn_crm_online](../includes/pn_crm_online.md)] that you want to migrate as a user with the system administrator security role.  
+1.  Sign in to the instance of [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] that you want to migrate as a user with the system administrator security role.  
   
 2.  Go to Settings > Data Management.  
   
@@ -78,17 +78,17 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
 <a name="BKMK_requestBU"></a>   
 
 ## Request a backup of your organization database  
- To request a backup of your [!INCLUDE[pn_crm_online](../includes/pn_crm_online.md)] database contact [!INCLUDE[pn-ms-customer-support-services](../includes/pn-ms-customer-support-services.md)] for [!INCLUDE[pn_crm_online](../includes/pn_crm_online.md)]. For contact information, see [Contact Technical Support](http://go.microsoft.com/fwlink/p/?LinkID=526506).  
+ To request a backup of your [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database contact [!INCLUDE[pn-ms-customer-support-services](../includes/pn-ms-customer-support-services.md)] for [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. For contact information, see [Contact Technical Support](http://go.microsoft.com/fwlink/p/?LinkID=526506).  
   
 <a name="BKMK_restoreBU"></a>   
 
 ## Restore the Microsoft Dynamics 365 (online) database  
- The backup of your [!INCLUDE[pn_crm_online](../includes/pn_crm_online.md)] database must be restored by using a server running the same or a later version of [!INCLUDE[pn-ms-sql-server](../includes/pn-ms-sql-server.md)] as the database you receive.  You will be able to request the version you need before you receive the database.  
+ The backup of your [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database must be restored by using a server running the same or a later version of [!INCLUDE[pn-ms-sql-server](../includes/pn-ms-sql-server.md)] as the database you receive.  You will be able to request the version you need before you receive the database.  
   
- Restore the copy of the [!INCLUDE[pn_crm_online](../includes/pn_crm_online.md)] database to a computer running [!INCLUDE[pn-sql-server-short](../includes/pn-sql-server-short.md)] in the target [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] deployment. To do this, follow the steps here.  
+ Restore the copy of the [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database to a computer running [!INCLUDE[pn-sql-server-short](../includes/pn-sql-server-short.md)] in the target [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] deployment. To do this, follow the steps here.  
   
 > [!IMPORTANT]
->  Your [!INCLUDE[pn_crm_online](../includes/pn_crm_online.md)] database may be encrypted with a certificate. For more information, see  [“Cannot find server certificate with thumbprint” error message when you try to restore a Dynamics 365 organization database](#BKMK_cert) later in this topic.  
+>  Your [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database may be encrypted with a certificate. For more information, see  [“Cannot find server certificate with thumbprint” error message when you try to restore a Dynamics 365 organization database](#BKMK_cert) later in this topic.  
   
 #### Restore a Microsoft Dynamics 365 (online) organization database to SQL Server  
   
@@ -125,28 +125,28 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
 > [!NOTE]
 >  The procedure described here uses [!INCLUDE[pn-deployment-manager-long](../includes/pn-deployment-manager-long.md)]. [!INCLUDE[pn-deploymentmanager](../includes/pn-deploymentmanager.md)] is an MMC snap-in that is included with [!INCLUDE[pn-microsoftcrm_server](../includes/pn-microsoftcrm_server.md)]. Alternatively, your can run [!INCLUDE[pn-powershell](../includes/pn-powershell.md)] commands to complete the import. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)][Import-CrmOrganization](https://technet.microsoft.com/library/dn833059.aspx)  
 >   
->  To import an organization, you must have the [!INCLUDE[pn-deployment-administrator](../includes/pn-deployment-administrator.md)][!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] role.  
+>  To import an organization, you must have the Deployment Administrator Microsoft Dynamics 365 role.  
   
 #### Import an organization database using Deployment Manager  
   
-1.  On the [!INCLUDE[pn-ms-windows-server-long](../includes/pn-ms-windows-server-long.md)] running the [!INCLUDE[pn-microsoftcrm_server](../includes/pn-microsoftcrm_server.md)][!INCLUDE[pn-deployment-tools](../includes/pn-deployment-tools.md)] server role, start **Deployment Manager** (DMSnapin.msc).  
+1.  On the [!INCLUDE[pn-ms-windows-server-long](../includes/pn-ms-windows-server-long.md)] running the Microsoft Dynamics 365 Server Deployment Tools server role, start **Deployment Manager** (DMSnapin.msc).  
   
-2.  Start the [!INCLUDE[pn-import-organization-wizard](../includes/pn-import-organization-wizard.md)]. Right-click **Organizations**, and then click **Import Organization**.  
+2.  Start the Import Organization Wizard. Right-click **Organizations**, and then click **Import Organization**.  
   
     > [!NOTE]
     >  You will receive a message if you attempt to import into a [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] version that allows only one organization per deployment. The message notifies you that proceeding will deactivate, but not delete, the existing organization.  
   
 3.  Select the [!INCLUDE[pn-sql-server-short](../includes/pn-sql-server-short.md)] and database. In the **Select SQL Server** window, select the [!INCLUDE[pn-ms-sql-server](../includes/pn-ms-sql-server.md)] where the organization database is restored in the **SQL Server** list, and then select the organization database in the **Organization database** list. Click **Next**.  
   
-4.  Specify the organization name. Enter the display name and name for the organization in the **Specify the Organization Settings** window. The **Display name** will appear in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] applications. The **Unique Database name** will be used as the database name in [!INCLUDE[pn-sql-server-short](../includes/pn-sql-server-short.md)] and will also be used to construct the URL for client applications.  Notice that the values you enter don’t need to match the names that you used with [!INCLUDE[pn_crm_online](../includes/pn_crm_online.md)]. Click **Next**.  
+4.  Specify the organization name. Enter the display name and name for the organization in the **Specify the Organization Settings** window. The **Display name** will appear in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] applications. The **Unique Database name** will be used as the database name in [!INCLUDE[pn-sql-server-short](../includes/pn-sql-server-short.md)] and will also be used to construct the URL for client applications.  Notice that the values you enter don’t need to match the names that you used with [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. Click **Next**.  
   
-5.  Specify the [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn_SQL_Server_Reporting.md)] server. In the **Specify Reporting Services Server** window, type the [!INCLUDE[pn_reporting_services_short](../includes/pn_reporting_services_short.md)] server URL for the organization in the **Report Server URL** field. Click **Next**.  
+5.  Specify the [!INCLUDE[pn-sql-server-reporting](../includes/pn-sql-server-reporting.md)] server. In the **Specify Reporting Services Server** window, type the [!INCLUDE[pn-reportings-services-short](../includes/pn-reportings-services-short.md)] server URL for the organization in the **Report Server URL** field. Click **Next**.  
   
-6.  Select the method for mapping users. Map users from the [!INCLUDE[pn_crm_online](../includes/pn_crm_online.md)] deployment to the [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] deployment. Users must already exist in Active Directory for the [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] deployment. The [!INCLUDE[pn-import-organization-wizard](../includes/pn-import-organization-wizard.md)] does not create the users automatically. To complete the mappings, the user running the import operation must be mapped to a user in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. For more information about how to map users, see [Import an organization](https://technet.microsoft.com/library/dn905200.aspx).  
+6.  Select the method for mapping users. Map users from the [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] deployment to the [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] deployment. Users must already exist in Active Directory for the [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] deployment. The Import Organization Wizard does not create the users automatically. To complete the mappings, the user running the import operation must be mapped to a user in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. For more information about how to map users, see [Import an organization](https://technet.microsoft.com/library/dn905200.aspx).  
   
 7.  In the System Checks window you receive the results of several environment diagnostic checks. If you receive a red alert, the issue must be resolved prior to completing the wizard. If you receive a yellow warning, you may proceed with the import. Click **Next**.  
   
-     Due to versioning differences between [!INCLUDE[pn_crm_online](../includes/pn_crm_online.md)] and [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)], you may receive a warning. This warning is expected and in most cases shouldn’t prevent the import from completing.  After you successfully complete the steps in this document, the versioning will be correct.  
+     Due to versioning differences between [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] and [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)], you may receive a warning. This warning is expected and in most cases shouldn’t prevent the import from completing.  After you successfully complete the steps in this document, the versioning will be correct.  
   
 8.  Begin the import. In the Ready to Import window, verify that the information is correct, and then click **Import**.  
   
@@ -179,13 +179,13 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
   
  To resolve this issue, follow these steps.  
   
-1.  Obtain the certificate. [!INCLUDE[pn_crm_online](../includes/pn_crm_online.md)] customers receive the certificate as part of the power of choice backup of your database. Additional instructions may also be included.  
+1.  Obtain the certificate. [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] customers receive the certificate as part of the power of choice backup of your database. Additional instructions may also be included.  
   
 2.  Execute the following SQL statements in the order specified to import the certificate where:  
   
     -   CustomerGeneratedStrongPassword is the password you want to use to create the master key.  
   
-    -   DomainName, GUID, .cer, .pvk, and Certificate secured password provided are values that are included in the information sent to you from [!INCLUDE[cc_Microsoft](../includes/cc_Microsoft.md)] for importing the TDE certificate.  
+    -   DomainName, GUID, .cer, .pvk, and Certificate secured password provided are values that are included in the information sent to you from [!INCLUDE[cc_microsoft](../includes/cc_microsoft.md)] for importing the TDE certificate.  
   
     ```  
     use master  
