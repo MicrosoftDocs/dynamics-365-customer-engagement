@@ -1,14 +1,14 @@
 ---
 title: "Unified Service Desk for Dynamics 365 Unified Interface package | MicrosoftDocs"
-description: "Overview of the Unified Interface sample application." 
-ms.custom: ""
-ms.date: 04/24/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+description: "Overview of the Unified Interface sample application."
+keywords: ""
+ms.date: 08/17/2018
+ms.service:
+  - "crm-online"
+ms.custom:
+  - ""
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2013"
@@ -16,10 +16,14 @@ applies_to:
   - "Dynamics CRM 2016"
   - "Dynamics CRM Online"
 ms.assetid: FA01CA74-AD17-44A1-8AAD-C296B549F8A2
-author: "kabala123"
-ms.author: "kabala"
-manager: "sakudes"
+author: kabala123
+ms.author: kabala
+manager: shujoshi
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 ---
+
 # Unified Interface sample application package
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework. 
  This package is best used in the following situations:  
@@ -28,7 +32,9 @@ manager: "sakudes"
   
   With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Dynamics 365 Web Client sample application package, the following components are installed:  
   
-- User Interface Integration Solution  
+- Unified Service Desk Administrator App (Public preview feature)
+
+- User Interface Integration Solution 
   
 - Unified Service Desk Solution
 

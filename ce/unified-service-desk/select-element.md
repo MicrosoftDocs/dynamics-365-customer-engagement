@@ -19,7 +19,7 @@ ms.assetid: 6a5148e9-871e-41d1-8f70-b11175b1c42c
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # SelectElement in Unified Service Desk
 `<SelectElement>` element searches for a named control on an `HTML` page, and returns or reverses its value. This topic describes the elements of `<SelectElement>`  

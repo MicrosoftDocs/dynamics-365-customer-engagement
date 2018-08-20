@@ -1,21 +1,25 @@
 ---
 title: "Change application navigation using the SiteMap (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The site map enables you to control the application navigation (menus) and other options in Dynamics 365 Customer Engagement such as editing labels, adding or changing icons, and adding or changing elements."
-ms.custom: ""
+keywords: ""
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-applies_to: 
-    - "Dynamics 365 (online)"
+ms.service:
+  - "crm-online"
+ms.custom:
+  - ""
+ms.topic: get-started-article
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: 6edb9094-bde0-4e5d-bb57-957676c86bec
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 57
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
 ---
+
 # Change application navigation using the SiteMap
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
@@ -90,7 +94,7 @@ The      site map enables you to control the application navigation (menus) and 
   
  If none of the subarea elements in a `<Group>` or `<Area>` can be viewed by a user because of their security privileges, that element will not be displayed.  
   
- If you use the `<SubArea>` `AvailableOffine` attribute to prevent a subarea from being displayed while the 
+ If you use the `<SubArea>` `AvailableOffline` attribute to prevent a subarea from being displayed while the 
  [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] user is working offline, users can still navigate 
  to the subarea but they’ll see a message indicating that the page to display isn’t available offline.  
   

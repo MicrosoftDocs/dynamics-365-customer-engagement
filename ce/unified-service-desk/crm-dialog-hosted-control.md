@@ -19,7 +19,7 @@ ms.assetid: b500941a-1b20-4c0e-b51e-511aeb07e52d
 caps.latest.revision: 8
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # CRM Dialog (Hosted Control)
 Use the **CRM Dialog** hosted control type to work with Dynamics 365 dialogs. You can call the **StartDialog** action on your CRM Dialog hosted control to start a Dynamics 365 dialog within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  

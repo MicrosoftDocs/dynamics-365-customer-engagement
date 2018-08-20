@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: 23F085E7-C2E2-44C0-80C1-9E65CCA209E9
 author: "kabala123"
 ms.author: "kabala"
-manager: "sakudes"
+manager: "shujoshi"
 ---
 # Provide feedback about [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 

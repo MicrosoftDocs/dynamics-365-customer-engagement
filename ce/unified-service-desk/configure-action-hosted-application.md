@@ -19,7 +19,7 @@ ms.assetid: e8a01fe6-df83-40e4-9b1e-faa4a3f46da5
 caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Configure an action for the hosted application
 After you have configured your application using the Hosted Application Toolkit (HAT), you must configure actions for the application. The application along with the actions is deployed using the HAT Software Factory.  
