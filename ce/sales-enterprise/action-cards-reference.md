@@ -268,7 +268,7 @@ The following list of cards are available under "Today" Cards:
   
 |||
 |-|-|
-|<a name="RecentMeeting"></a>**Recent meeting**<br/>![Action card for recent meeting](media/ActionCard_RecentMeeting.png "Action card for recent meeting")|- **Description**<br/>Tells you that a meeting that you organized (where you are the record owner) has recently ended, giving you an easy opportunity to document the meeting in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. The card is displayed for 30 minutes after the scheduled end of the meeting, and then removed.<br />- **Features**<br />Identifies the meeting.<br /> Provides text explaining why the card was generated.<br />- **Actions**<br /> Add notes to the meeting record.<br /> Open the meeting record.|
+|<a name="TodaysTopPeople"></a>**Today's Top People** <br />![Action card for top people today](media/ActionCard_TopPeople.png "Action card for top people today")|- **Description**<br /> This card is only displayed on mobile devices.<br /> The system analyzes your appointments, tasks, and other work for the day and generates this card to show the contacts you're most likely to interact with today.<br />- **Features**<br />Shows each contact's name and portrait.<br />Shows each contact's title and any business they have with you today (such as a meeting, task, or phone call).<br />Click to view full contact details.|
 
 
 <a name="Insufficientpermissions"></a> 
