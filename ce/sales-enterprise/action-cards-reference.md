@@ -274,6 +274,7 @@ The following list of cards are available under "Today" Cards:
 <br>
  
 ## Insufficient permissions
+
 If you see an alert about having insufficient permissions to use an action card, take these steps:
 
 1. Go to **Settings** > **Security** > **Security Roles**.
