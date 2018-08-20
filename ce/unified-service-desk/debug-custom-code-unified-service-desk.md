@@ -19,7 +19,7 @@ ms.assetid: eabf5f09-b999-466b-8231-0d395f13c595
 caps.latest.revision: 8
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Debug your custom code for Unified Service Desk
 Using custom code for extending [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] involves compiling your custom code into an assembly (DLL file), and then distributing the assembly to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client installation directory on each client computer.  

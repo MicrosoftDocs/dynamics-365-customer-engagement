@@ -19,7 +19,7 @@ ms.assetid: dee27756-e74c-465f-a6b0-383b581e693e
 caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Composite DDA
 The composite data-driven adapter is an extension of the DDA architecture introduced with [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)]. It was built to address the issue where you can assign only one DDA type to an application. In some cases, an application might need different technologies provided by different DDAs to access the required functionality. An example for this could be a Java applet in a web application. You can use the composite DDA in these scenarios.  

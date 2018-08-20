@@ -19,7 +19,7 @@ ms.assetid: ba20bfa3-6a1d-4e87-9faa-40317c839be4
 caps.latest.revision: 9
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Create and manage UII hosted applications in Unified Service Desk
 A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] hosted application enables you to create and host a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] hosted control, Windows Forms or [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)] application, web application, or a remote (Citrix) application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  

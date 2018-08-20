@@ -19,7 +19,7 @@ ms.assetid: 80a0bb8c-e9c1-45d4-9600-fc929654f681
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # InputElement in Unified Service Desk
 `<InputElement>` element associates a named control with an `<input/> HTML` element if the element has one of the following `type=attribute` values: `check box`, `radio`, `text`, `password`, `submit`, `reset`, `hidden`, `image`, or `file`. This topic describes the elements of `<IntputElement>`.  

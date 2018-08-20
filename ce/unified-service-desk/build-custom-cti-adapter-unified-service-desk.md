@@ -19,7 +19,7 @@ ms.assetid: 19cd4af7-2465-4c61-ba7e-56b89720c69a
 caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Build a custom CTI adapter for Unified Service Desk
 You can build a custom [!INCLUDE[pn_computer_telephony_integration_cti](../includes/pn-computer-telephony-integration-cti.md)] adapter to connect to a [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] system that provides access to events and [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] actions via web services or APIs.  

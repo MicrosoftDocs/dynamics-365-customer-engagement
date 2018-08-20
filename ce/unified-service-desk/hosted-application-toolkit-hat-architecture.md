@@ -19,7 +19,7 @@ ms.assetid: c5774245-31dd-47d0-9737-c5a00954479b
 caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Hosted Application Toolkit (HAT) architecture
 This topic illustrates the components of [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)] and the application startup process.  

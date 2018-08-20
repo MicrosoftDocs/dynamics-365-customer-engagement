@@ -19,7 +19,7 @@ ms.assetid: 0e082c56-76b8-405e-98ae-1d33802a19d0
 caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Add a UII action to a hosted control
 As new versions of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] are developed, new [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] actions might get added to a hosted control type to provide new functionality. However, the new [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions for a hosted control type will only be available out-of-box for the new instances of the hosted control type. If you have existing instances of a hosted control type in your configuration, the new [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions won’t become available by default. You will have to manually add the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] action to the hosted control record (instance) to be able to use the action in your action calls.  

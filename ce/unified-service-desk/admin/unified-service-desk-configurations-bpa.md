@@ -15,7 +15,7 @@ applies_to:
 ms.assetid: "D390F342-BDD0-4921-959D-66D2CF822A59"
 author: "kabala123"
 ms.author: "kabala"
-manager: "sakudes"
+manager: "shujoshi"
 ---
 # [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Configurations
 

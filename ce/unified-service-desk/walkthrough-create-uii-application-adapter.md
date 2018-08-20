@@ -19,7 +19,7 @@ ms.assetid: f280285b-2284-40a8-a01d-ea24a65926c9
 caps.latest.revision: 9
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Walkthrough: Create a UII Application Adapter
 You can create an application adapter if you want to integrate an external application with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] provides a [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] template for creating an application adapter. The template provides basic code as comments to help you get started with creating the application adapter.  

@@ -18,7 +18,7 @@ ms.assetid: ca6478de-7ba1-4089-a137-65e772d2b67e
 caps.latest.revision: 19
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 tags: 
  - "MigrationHO"
  - "LinksOnlyTopic"
