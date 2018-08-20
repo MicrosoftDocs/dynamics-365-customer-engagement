@@ -123,7 +123,7 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
  How long it takes to complete the import of the organization database depends on several factors. These factors include the size of the database you are importing, the number of users, and the hardware you use to complete the import.  
   
 > [!NOTE]
->  The procedure described here uses [!INCLUDE[pn-deployment-manager-long](../includes/pn-deployment-manager-long.md)]. [!INCLUDE[pn-deploymentmanager](../includes/pn-deploymentmanager.md)] is an MMC snap-in that is included with [!INCLUDE[pn-microsoftcrm_server](../includes/pn-microsoftcrm_server.md)]. Alternatively, your can run [!INCLUDE[pn-powershell](../includes/pn-powershell.md)] commands to complete the import. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)][Import-CrmOrganization](https://technet.microsoft.com/library/dn833059.aspx)  
+>  The procedure described here uses [!INCLUDE[pn-deployment-manager-long](../includes/pn-deployment-manager-long.md)]. [!INCLUDE[pn-deploymentmanager](../includes/pn-deploymentmanager.md)] is an MMC snap-in that is included with [!INCLUDE[pn-microsoftcrm-server](../includes/pn-microsoftcrm-server.md)]. Alternatively, your can run [!INCLUDE[pn-powershell](../includes/pn-powershell.md)] commands to complete the import. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)][Import-CrmOrganization](https://technet.microsoft.com/library/dn833059.aspx)  
 >   
 >  To import an organization, you must have the Deployment Administrator Microsoft Dynamics 365 role.  
   
@@ -140,7 +140,7 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
   
 4.  Specify the organization name. Enter the display name and name for the organization in the **Specify the Organization Settings** window. The **Display name** will appear in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] applications. The **Unique Database name** will be used as the database name in [!INCLUDE[pn-sql-server-short](../includes/pn-sql-server-short.md)] and will also be used to construct the URL for client applications.  Notice that the values you enter don’t need to match the names that you used with [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. Click **Next**.  
   
-5.  Specify the [!INCLUDE[pn-sql-server-reporting](../includes/pn-sql-server-reporting.md)] server. In the **Specify Reporting Services Server** window, type the [!INCLUDE[pn-reportings-services-short](../includes/pn-reportings-services-short.md)] server URL for the organization in the **Report Server URL** field. Click **Next**.  
+5.  Specify the [!INCLUDE[pn-sql-server-reporting](../includes/pn-sql-server-reporting.md)] server. In the **Specify Reporting Services Server** window, type the Reporting Services server URL for the organization in the **Report Server URL** field. Click **Next**.  
   
 6.  Select the method for mapping users. Map users from the [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] deployment to the [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] deployment. Users must already exist in Active Directory for the [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] deployment. The Import Organization Wizard does not create the users automatically. To complete the mappings, the user running the import operation must be mapped to a user in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. For more information about how to map users, see [Import an organization](https://technet.microsoft.com/library/dn905200.aspx).  
   
@@ -185,7 +185,7 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
   
     -   CustomerGeneratedStrongPassword is the password you want to use to create the master key.  
   
-    -   DomainName, GUID, .cer, .pvk, and Certificate secured password provided are values that are included in the information sent to you from [!INCLUDE[cc_microsoft](../includes/cc_microsoft.md)] for importing the TDE certificate.  
+    -   DomainName, GUID, .cer, .pvk, and Certificate secured password provided are values that are included in the information sent to you from [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] for importing the TDE certificate.  
   
     ```  
     use master  
