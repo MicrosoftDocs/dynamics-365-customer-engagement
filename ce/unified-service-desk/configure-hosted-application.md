@@ -19,7 +19,7 @@ ms.assetid: f944f2db-3db7-47b4-8d99-3bad01397c17
 caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Configure the hosted application
 After you create the hosted application (see [Create a HAT hosted application project](../unified-service-desk/use-hat-software-factory-create-hosted-application.md#Create)) you’ll want to configure it.  

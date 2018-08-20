@@ -19,7 +19,7 @@ ms.assetid: 26d5f5a6-2c9d-421c-bf44-1a87afdb5c33
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Register and unregister action for event in Unified Service Desk
 This topic describes the events that can be registered/unregistered for an action.  

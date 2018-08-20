@@ -19,7 +19,7 @@ ms.assetid: c4290a42-e760-4eba-a11d-de605e239c2d
 caps.latest.revision: 14
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Create custom listeners for auditing, diagnostics and traces
 A listener lets you target the log output to files, the event log, or other sources. Until the previous version of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], you could only use the standard listeners to write auditing, diagnostics, and trace logs in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  

@@ -18,7 +18,7 @@ applies_to:
 ms.assetid: D552D7B4-61F0-43D3-AB7E-E2E2D0E8321F
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Known issues of performance enhancement for CRM entity page loads
 

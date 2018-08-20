@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: 104DE14D-F43E-4414-AC83-5C1157E79831
 author: "kabala123"
 ms.author: "kabala"
-manager: "sakudes"
+manager: "shujoshi"
 ---
 # [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] settings
 

@@ -1,14 +1,19 @@
 ---
 title: "createRecord (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
+description: ""
+keywords: ""
 ms.date: 12/18/2017
-ms.service: "crm-online"
-ms.topic: "reference"
-applies_to: "Dynamics 365 (online)"
+ms.service:
+  - "crm-online"
+ms.topic: reference
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: 848c277b-bd44-4388-852a-0f59a3a15538
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: amyla
 ---
+
 # createRecord (Client API reference)
 
 [!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
@@ -168,7 +173,7 @@ Xrm.WebApi.createRecord("account", data).then(
 );
 ```
 
-**For mobile offine scenario**
+**For mobile offline scenario**
 
 Here is the updated sample code to create an account record, and associate it to an existing contact record to set the latter as the primary contact for the new account record from mobile clients when working in the offline mode:
 

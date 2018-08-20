@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: 2ED0C60D-0C69-45C7-828A-8BB7D05A9180
 author: "kabala123"
 ms.author: "kabala"
-manager: "sakudes"
+manager: "shujoshi"
 ---
 # System configurations
 

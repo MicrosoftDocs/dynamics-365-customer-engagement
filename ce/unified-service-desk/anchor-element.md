@@ -19,7 +19,7 @@ ms.assetid: 2332b53a-92e6-419f-aace-af6dfda0dcb7
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # AnchorElement
 `<AnchorElement>` element is one of the binding elements of the WebDDA.  

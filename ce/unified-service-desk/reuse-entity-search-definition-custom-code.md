@@ -19,7 +19,7 @@ ms.assetid: 082c58d0-3719-4150-935a-fe85ff6c1c9f
 caps.latest.revision: 10
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Reuse Entity Search definition in your custom code
 Entity search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is exposed as a service for developers so that they can programmatically use an existing entity search definition in their custom code to search [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data. Entity searches in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] use FetchXML to query the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web services to return data. For information about defining entity searches, see [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md).  
