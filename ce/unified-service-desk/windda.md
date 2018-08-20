@@ -19,7 +19,7 @@ ms.assetid: 2fe35fec-6805-4a3c-aeea-7c2192847a3a
 caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # WinDDA
 [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] data-driven adapter (WinDDA) is used to interact with Windows-based applications. The key technology used in the DDA is Microsoft Active Accessibility (MSAA), with some functionality covered through Win32 function calls. The MSAA API allows you to automate the user interface. An application can use this API to make its interface more accessible to users with accessibility issues. Although modifying a user interface (UI) to make it more accessible to users is the primary intent of the API, it can also be used for [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] integration. Windows generates accessibility proxy objects for Windows controls that don’t explicitly provide their own MSAA support. The use of proxy objects provides an alternative to the more common approach of controlling an application through Windows API calls. It also allows you to control any application type (beyond Win32) that exposes its user interface through MSAA.  

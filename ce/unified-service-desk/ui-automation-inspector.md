@@ -19,7 +19,7 @@ ms.assetid: 8c3e2962-56df-427c-98bf-7fc4fb395749
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # UI Automation Inspector in Unified Service Desk
 The [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] Inspector is extended to support the generation of bindings for the UIADDA. This topic describes the logic used to build the binding.  

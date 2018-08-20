@@ -19,7 +19,7 @@ ms.assetid: 855ec0d6-33a4-450f-a77a-b580b2b24946
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Condition Algorithm
 A control needs to be uniquely identified by specifying some property condition to distinguish it from other controls. This topic describes the groupings that help specify the condition.  
