@@ -126,9 +126,10 @@ The following list of cards are available under Email cards from Exchange:
 <br> 
 
 
-|d|d|
+|||
 |-|-|
-|<a name="IssueDetected"></a>**Issue detected**<br /> ![Action card for case detected](media/ActionCard_CaseDetection.png "Action card for case detected")|- **Description**<br />An email from a known contact in your inbox appears to include a support request.<br />- **Features**<br />Shows the name of the contact.<br />Tells you that an email that appears to include a support request has arrived.<br />Displays the sentence from the email that appears to be asking for help.<br />-**Actions**<br />Create a new case.<br />Open the email.|
+|<a name="CompetitorMentioned"></a>**Competitor mentioned** <br />![Action card for competitor mentioned]media/ActionCard_CompetitorMentioned.png "Action card for competitor mentioned")|-**Description**<br />A tracked email that is set as regarding a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] opportunity appears to refer to a company that is listed as a competitor in your system.<br />- **Configuration options**<br />Set this feature to add the competitor automatically rather than showing the card.<br />- **Features**<br />Shows the name of the competitor<br />Tells you that a competitor was mentioned in an email.<br />Click the card to open the opportunity that the email is set to be regarding.<br />-**Actions**<br />Choose **Add as Competitor** to add the competitor to the regarding opportunity.<br />Choose **Always Do This** to add competitors automatically instead of showing more cards like this. This is the same as the configuration setting available for this card type, and you can reset it by going to your **Relationship Assistant** settings ([!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship assistant](../sales-enterprise/relationship-assistant.md)).|
+|<a name="IssueDetected"></a>**Issue detected** <br />![Action card for case detected](media/ActionCard_CaseDetection.png "Action card for case detected")|- **Description**<br />An email from a known contact in your inbox appears to include a support request.<br />- **Features**<br />Shows the name of the contact.<br />Tells you that an email that appears to include a support request has arrived.<br />Displays the sentence from the email that appears to be asking for help.<br />- **Actions**<br />Create a new case.<br />Open the email.|
 
 
   
