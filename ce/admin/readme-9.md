@@ -579,42 +579,21 @@ Unified Service Desk
     about Unified Service Desk and TLS 1.2 mandate to update these registry
     entries.
 
--   **Support for Unified Interface apps in Unified Service Desk**: You can integrate apps built using Unified Interface in the          Unified Service Desk using the preview capabilities in [version 4.0](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/what-s-new-in-unified-service-desk#general-availability-support-for-unified-interface-apps-in-unified-service-desk). This support is not available in earlier versions. 
+-   **Support for Unified Interface apps in Unified Service Desk**: You can integrate apps built using Unified Interface in the          Unified Service Desk using the preview capabilities in [version 4.0](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/what-s-new-in-unified-service-desk#general-availability-support-for-unified-interface-apps-in-unified-service-desk). This support is not available in earlier versions. <br>More information: [Support for Unified Interface Apps in Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/support-unified-interfaces-apps-usd)
 
-  More information: [Support for Unified Interface Apps in Unified Service
-    Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/support-unified-interfaces-apps-usd)
+-   **Web Client - Unified Interface Migration Assistant**:  The Web Client - Unified Interface Migration Assistant for Unified Service Desk helps you migrate your Unified Service Desk configurations from Unified Service Desk Web Client to a Unified Service Desk Unified Interface app. <br>More information: [Web Client - Unified Interface Migration Assistant](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/overview-migration-assistant)
 
--   **Web Client - Unified Interface Migration Assistant**:  The Web Client - Unified Interface Migration Assistant for Unified Service Desk helps you migrate your Unified Service Desk configurations from Unified Service Desk Web Client to a Unified Service Desk Unified Interface app. 
-  
-  More information: [Web Client - Unified Interface Migration Assistant](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/overview-migration-assistant)
+-   **Prevent accidental closure of Unified Service Desk**: While working on Unified Service Desk, you could lose your unsaved work if you accidentally select the **x** Close button. The Close Confirmation Window is introduced to prevent an accidental closure of the Unified Service Desk client application. <br>More information: [Configure close confirmation window for Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/configure-close-confirmation-window)
 
--   **Prevent accidental closure of Unified Service Desk**: While working on Unified Service Desk, you could lose your unsaved work if you accidentally select the **x** Close button. The Close Confirmation Window is introduced to prevent an accidental closure of the Unified Service Desk client application.
-    
-  More information: [Configure close confirmation window for Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/configure-close-confirmation-window)
+-   **Unified Interface KM Control**: The Unified Interface KM Control hosted control is introduced for your knowledge base search experience with Unified Service Desk. You must configure the Unified Interface KM Control when you are using a Unified Interface app in Unified Service Desk. <br>Your service agents can use the **Unified Interface KM Control** hosted control to search and view a knowledge base in Unified Interface from within the Unified Service Desk. You can position your search control in the main panel, left panel, or right panel of the Unified Interface desk application. Also, you can configure the contextual actions for the search results. <br>More information: [Unified Interface KM Control (hosted control)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/unified-interface-km-control-hosted-control)
 
--   **Unified Interface KM Control**: The Unified Interface KM Control hosted control is introduced for your knowledge base search experience with Unified Service Desk. You must configure the Unified Interface KM Control when you are using a Unified Interface app in Unified Service Desk.
-  
-  Your service agents can use the **Unified Interface KM Control** hosted control to search and view a knowledge base in Unified Interface from within the Unified Service Desk. You can position your search control in the main panel, left panel, or right panel of the Unified Interface desk application. Also, you can configure the contextual actions for the search results.  
-  
-  More information: [Unified Interface KM Control (hosted control)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/unified-interface-km-control-hosted-control)
+-   **Preview feature - Unified Service Desk Administrator app**: The Unified Service Desk Administrator app is built on the Unified Interface framework, which has a new user experience—Unified Interface—that uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. The Unified Service Desk Administrator app brings rich experience to administer and manage your Unified Service Desk client application. <br>More information: [Preview Feature: Unified Service Desk Administrator app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/unified-service-desk-administrator-app)
 
--   **Preview feature - Unified Service Desk Administrator app**: The Unified Service Desk Administrator app is built on the Unified Interface framework, which has a new user experience—Unified Interface—that uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
-  
-  The Unified Service Desk Administrator app brings rich experience to administer and manage your Unified Service Desk client application. 
-  
-  More information: [Preview Feature: Unified Service Desk Administrator app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/unified-service-desk-administrator-app)
+-   **Preview feature - Unified Interface Settings**: Unified Interface Settings is a new configuration element introduced in the Unified Service Desk Administrator app. This configuration element lets you configure a default Unified Interface for your agents so that when they sign in to Unified Service Desk, they go directly to the Unified Interface app. This configuration saves time and enhances the agents' sign-in experience to Unified Service Desk. <br>More information: [Preview feature - Set default Unified Interface App using Unified Interface Settings](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/unified-interface-settings)
 
--   **Preview feature - Unified Interface Settings**: Unified Interface Settings is a new configuration element introduced in the Unified Service Desk Administrator app. This configuration element lets you configure a default Unified Interface for your agents so that when they sign in to Unified Service Desk, they go directly to the Unified Interface app. This configuration saves time and enhances the agents' sign-in experience to Unified Service Desk. 
+-   **Preview feature - Stack notification in Unified Service Desk**: You can configure stack notifications in Unified Service Desk to display pop-up notification messages to your customer service agents that contain general information or customer- or process-related information that the agents can act on. This facilitates simultaneous toast notifications in a multi-session environment. <br>More information: [Stack notifications](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/configure-notifications-unified-service-desk#stack-notifications) and [Popup Notification (Hosted Control)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/popup-notification-hosted-control)
 
-  More information: [Preview feature - Set default Unified Interface App using Unified Interface Settings](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/unified-interface-settings)
-
--   **Preview feature - Stack notification in Unified Service Desk**: You can configure stack notifications in Unified Service Desk to display pop-up notification messages to your customer service agents that contain general information or customer- or process-related information that the agents can act on. This facilitates simultaneous toast notifications in a multi-session environment. 
-  
-  More information: [Stack notifications](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/configure-notifications-unified-service-desk#stack-notifications) and [Popup Notification (Hosted Control)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/popup-notification-hosted-control)
-
--   **Preview feature - Effective session switch management**: When you are working on a case (local session) and want to review your Dashboard (global session) or another case (local session), you can easily switch from the case to Dashboard or another case, without affecting your session timer. That is, when you switch from local session, your session timer will not be counted until you switch back to the session. This helps to efficiently measure the agents' productivity. 
-  
-  More information: [SwitchSession](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/session-tabs-hosted-control#switchsession)
+-   **Preview feature - Effective session switch management**: When you are working on a case (local session) and want to review your Dashboard (global session) or another case (local session), you can easily switch from the case to Dashboard or another case, without affecting your session timer. That is, when you switch from local session, your session timer will not be counted until you switch back to the session. This helps to efficiently measure the agents' productivity. <br>More information: [SwitchSession](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/session-tabs-hosted-control#switchsession)
 
 -   **Interactive Service Hub**: With the Dynamics 365 (online), version 9.0
     release, Interactive Service Hub has been rebuilt as a Unified Interface app
@@ -623,16 +602,12 @@ Unified Service Desk
     the Interactive Service Hub in Unified Service Desk is available only if you
     are running Dynamics 365, version 8.2 or an earlier supported version of
     Microsoft Dynamics CRM. You can integrate with Customer Service Hub in
-    Unified Service Desk in the same way as any other Unified Interface app.
-    
-  More information: [Support for Unified Interface Apps in Unified Service
+    Unified Service Desk in the same way as any other Unified Interface app. <br>More information: [Support for Unified Interface Apps in Unified Service
     Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/support-unified-interfaces-apps-usd)
 
 -   **Relationship Insights**: Although you can view information from the
     relationship assistant in the Unified Service Desk client, you cannot
-    interact with the information in the client. 
-    
-  More information: [Embedded
+    interact with the information in the client. <br>More information: [Embedded
     intelligence](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/embedded-intelligence)
 
 -   **LinkedIn Sales Navigator for Microsoft Dynamics 365 for Sales**: This is
@@ -647,9 +622,7 @@ Unified Service Desk
 -   **URL addressability in business apps**: Business apps (app modules) use the
     appid value in the URLs to refer to resources displayed in an app. For example:
     `https://.crm.dynamics.com/main.aspx?appid=b0f40cd2-22a6-e711-a94e-000d3a1a7a9b&pagetype=entitylist&etn=bookableresourcebooking`
-    Unified Service Desk has added support for the usage of appid values in URLs to refer to a resource from version 4.0. 
-      
-  More information: [Design custom business apps by using the app designer](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
+    Unified Service Desk has added support for the usage of appid values in URLs to refer to a resource from version 4.0. <br>More information: [Design custom business apps by using the app designer](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
 
 Third-party notice 
 -------------------
