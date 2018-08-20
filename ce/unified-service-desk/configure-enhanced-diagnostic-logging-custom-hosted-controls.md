@@ -13,7 +13,7 @@ ms.assetid: db1034db-8354-40c8-a8a8-44289d93edf3
 caps.latest.revision: 10
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Configure enhanced diagnostic logging for custom hosted controls
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] enables you to configure diagnostic logging to record operational events and errors in the client application to a log file, which can be later used to identify and troubleshoot performance issues or errors. For more information about diagnostic logging, see [Configure client diagnostic logging in Unified Service Desk](admin/configure-client-diagnostic-logging-unified-service-desk.md).  

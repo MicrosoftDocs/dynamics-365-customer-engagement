@@ -19,7 +19,7 @@ ms.assetid: 145b3e99-2423-441e-88ac-ec99b1364ed6
 caps.latest.revision: 6
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # UII actions in Unified Service Desk
 UII action is a concept inherited from [!INCLUDE[pn_user_interface_integration](../includes/pn-user-interface-integration.md)] (UII). UII actions are the core of a hosted control, and define a specific operation that can be performed when called. UII action can be thought of as the public methods that can be called from external components, and are the subject of action calls in [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)]. A hosted control cannot interact with the rest of the application if no UII action is defined or available for the hosted control.  

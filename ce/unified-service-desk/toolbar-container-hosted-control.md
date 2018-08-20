@@ -19,7 +19,7 @@ ms.assetid: d79dc1f2-cb40-4f8a-bb7c-5e6699a5ad0d
 caps.latest.revision: 6
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Toolbar Container (Hosted Control)
 Use **Toolbar Container** type of hosted control to create a toolbar in your application, which can display a list of buttons with images and text that can execute actions. You can create multiple Toolbar Container type of hosted controls, and place them on any panel in the application. For more information about working with toolbars, see [Configure toolbars in your application](../unified-service-desk/configure-toolbars-application.md).  

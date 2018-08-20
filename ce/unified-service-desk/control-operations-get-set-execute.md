@@ -19,7 +19,7 @@ ms.assetid: f158113b-b492-44e2-8fec-65a10c5d0118
 caps.latest.revision: 6
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Control Operations (Get, Set, Execute)
 The operations on a control are executed based on the patterns the automation element exhibits. This topic describes the operations that can be performed on the controls and the default behavior of these operations for the various controls.  

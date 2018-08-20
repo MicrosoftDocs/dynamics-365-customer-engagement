@@ -19,7 +19,7 @@ ms.assetid: 78a6d0fc-f4cd-4052-b2da-e73c2c897d08
 caps.latest.revision: 6
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Import hosted application from Unified Service Desk
 A hosted application can be imported from [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project.  

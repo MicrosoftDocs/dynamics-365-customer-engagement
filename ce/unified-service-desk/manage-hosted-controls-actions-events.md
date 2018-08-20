@@ -19,7 +19,7 @@ ms.assetid: d1f8d187-8d9d-4ea5-aae2-d2bd16b38331
 caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Manage hosted controls, actions, and events in Unified Service Desk
 This section provides information on how you can work with the hosted controls, [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] actions, action calls, and events in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  

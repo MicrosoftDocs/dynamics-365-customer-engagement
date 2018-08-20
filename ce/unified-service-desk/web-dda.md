@@ -19,7 +19,7 @@ ms.assetid: 230e530d-921a-4d26-aa92-7947bfbbd83f
 caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # WebDDA
 The Web data-driven adapter (WebDDA) provides access to HTML-based applications. The key technology used in this DDA is the Document Object Model (DOM) of the browser. The bindings are created in a way similar to those for the WinDDA, by defining a key element and the path-through, in this case the DOM, to the element.  

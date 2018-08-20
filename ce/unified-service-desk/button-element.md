@@ -19,7 +19,7 @@ ms.assetid: a67be8bc-6d28-4c99-a62a-397169a92eec
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # ButtonElement
 `<ButtonElement>` is one of the binding elements of WebDDA. This topic describes the syntax and the elements of `<ButtonElement>`  
