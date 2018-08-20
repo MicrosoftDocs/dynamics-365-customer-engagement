@@ -40,7 +40,7 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
   
 -   A calculated field that computes the difference between two dates by using DIFFINDAYS, DIFFINHOURS, DIFFINMINUTES, DIFFINMONTHS, DIFFINWEEKS, or DIFFINYEARS.  
   
- Additionally, you can’t export record creation or update rules from [!INCLUDE[pn-crm-online-2016-update](../includes/pn-crm-online-2016-update.md)] to [!INCLUDE[pn-crm-2016](../includes/pn-crm-2016.md)] on-premises. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)][Help & Training: Set up rules to automatically create or update records in Dynamics 365](http://go.microsoft.com/fwlink/p/?LinkID=533523)  
+ Additionally, you can’t export record creation or update rules from [!INCLUDE[pn-crm-online-2016-update](../includes/pn-crm-online-2016-update.md)] to [!INCLUDE[pn-crm-2016](../includes/pn-crm-2016.md)] on-premises. More information: [Set up rules to automatically create or update records in Dynamics 365 (Customer Service)](../customer-service/set-up-rules-to-automatically-create-or-update-records.md)   
   
 ### Unmanaged solutions  
  Any field in an unmanaged solution that includes a feature introduced in [!INCLUDE[pn-crm-online-2016-update](../includes/pn-crm-online-2016-update.md)] will be removed from the organization. For example, this applies if the field includes one of the following features:  
@@ -51,7 +51,7 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
   
  Additionally, these behaviors appear:  
   
--   You can’t export record creation or update rules from [!INCLUDE[pn-crm-online-2016-update](../includes/pn-crm-online-2016-update.md)] to [!INCLUDE[pn-crm-2016](../includes/pn-crm-2016.md)] on-premises. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)][Help & Training: Set up rules to automatically create or update records in Dynamics 365](http://go.microsoft.com/fwlink/p/?LinkID=533523)  
+-   You can’t export record creation or update rules from [!INCLUDE[pn-crm-online-2016-update](../includes/pn-crm-online-2016-update.md)] to [!INCLUDE[pn-crm-2016](../includes/pn-crm-2016.md)] on-premises. More information: [Set up rules to automatically create or update records in Dynamics 365 (Customer Service)](../customer-service/set-up-rules-to-automatically-create-or-update-records.md)  
   
 -   Records with date and time fields having values earlier than January 1, 1900 are considered invalid and will return an error message, such as “Invalid Date/Time The date/time format is not valid, or the value is outside the supported range.” When this issue occurs you can’t open forms, view lists, or process workflows from an entity record that has a date and time value that’s before January 1, 1900.  
   
@@ -62,7 +62,7 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
   
 1.  Sign in to the instance of [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] that you want to migrate as a user with the system administrator security role.  
   
-2.  Go to Settings > Data Management.  
+2.  Go to **Settings** > **Data Management**.  
   
 3.  Choose **Data Encryption**.  
   
@@ -78,7 +78,7 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
 <a name="BKMK_requestBU"></a>   
 
 ## Request a backup of your organization database  
- To request a backup of your [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database contact [!INCLUDE[pn-ms-customer-support-services](../includes/pn-ms-customer-support-services.md)] for [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. For contact information, see [Contact Technical Support](http://go.microsoft.com/fwlink/p/?LinkID=526506).  
+ To request a backup of your [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database contact [!INCLUDE[pn-ms-customer-support-services](../includes/pn-ms-customer-support-services.md)] for [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. For contact information, see [Contact Technical Support](contact-technical-support.md).  
   
 <a name="BKMK_restoreBU"></a>   
 
@@ -115,7 +115,7 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
 <a name="BKMK_applyUpdates"></a>   
 
 ## Apply the latest updates to the Dynamics 365 on-premises deployment  
- You must apply the latest [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] updates before you import the Dynamics 365 (online) database. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)][Microsoft Dynamics CRM 2016 Updates and Hotfixes](https://support.microsoft.com/kb/3142345)  
+ You must apply the latest [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] updates before you import the Dynamics 365 (online) database. More information: [Microsoft Dynamics CRM 2016 Updates and Hotfixes](https://support.microsoft.com/kb/3142345)  
   
 <a name="BKMK_importDB"></a>   
 
@@ -123,7 +123,7 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
  How long it takes to complete the import of the organization database depends on several factors. These factors include the size of the database you are importing, the number of users, and the hardware you use to complete the import.  
   
 > [!NOTE]
->  The procedure described here uses [!INCLUDE[pn-deployment-manager-long](../includes/pn-deployment-manager-long.md)]. [!INCLUDE[pn-deploymentmanager](../includes/pn-deploymentmanager.md)] is an MMC snap-in that is included with [!INCLUDE[pn-microsoftcrm-server](../includes/pn-microsoftcrm-server.md)]. Alternatively, your can run [!INCLUDE[pn-powershell](../includes/pn-powershell.md)] commands to complete the import. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)][Import-CrmOrganization](https://technet.microsoft.com/library/dn833059.aspx)  
+>  The procedure described here uses [!INCLUDE[pn-deployment-manager-long](../includes/pn-deployment-manager-long.md)]. [!INCLUDE[pn-deploymentmanager](../includes/pn-deploymentmanager.md)] is an MMC snap-in that is included with [!INCLUDE[pn-microsoftcrm-server](../includes/pn-microsoftcrm-server.md)]. Alternatively, your can run [!INCLUDE[pn-powershell](../includes/pn-powershell.md)] commands to complete the import. More information: [Import-CrmOrganization](https://technet.microsoft.com/library/dn833059.aspx)  
 >   
 >  To import an organization, you must have the Deployment Administrator Microsoft Dynamics 365 role.  
   
@@ -211,6 +211,6 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
 3.  Restore the organization database. To do this, see [Restore the Microsoft Dynamics 365 (online) database](#BKMK_restoreBU).  
   
 > [!IMPORTANT]
->  We strongly recommend that you store your TDE certificate in a secure location.  If the certificate is lost and the database is encrypted, you will lose your data. For more information about TDE encryption, see [TechNet: Move a TDE Protected Database to Another SQL Server](https://technet.microsoft.com/library/ff773063.aspx).  
+>  We strongly recommend that you store your TDE certificate in a secure location.  If the certificate is lost and the database is encrypted, you will lose your data. For more information about TDE encryption, see [Move a TDE Protected Database to Another SQL Server](https://technet.microsoft.com/library/ff773063.aspx).  
   
 
