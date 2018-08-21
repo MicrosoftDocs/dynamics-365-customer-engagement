@@ -19,7 +19,7 @@ ms.assetid: 4369bd08-3009-47cd-be60-20bed9df50fc
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Next Tag (WinDDA) in Unified Service Desk
 `<Next/>` tag can include an optional `match` attribute and an optional `offset` attribute. The `match` attribute has a default value of `"1"`, and the offset attribute has a default value of `"0"`. Each `<Next/>` element retrieves the next level of the [IAccessible](https://msdn.microsoft.com/library/accessibility.iaccessible\(v=vs.110\).aspx) hierarchy and scans it for a match between the inner text and the `Name` of each `IAccessible` node. This topic describes the attributes of the `Next` tag.  

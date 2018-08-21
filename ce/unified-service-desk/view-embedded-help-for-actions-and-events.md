@@ -19,7 +19,7 @@ ms.assetid: d43751e3-5e52-4233-a70d-a483538912d7
 caps.latest.revision: 6
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # View embedded help for actions and events in Unified Service Desk
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides an embedded help on actions and events within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  

@@ -19,7 +19,7 @@ ms.assetid: fbef0bd3-e118-4a5b-8568-897538972066
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Replacement parameters in Unified Service Desk
 

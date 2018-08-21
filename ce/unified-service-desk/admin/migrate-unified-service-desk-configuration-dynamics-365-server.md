@@ -19,7 +19,7 @@ ms.assetid: 49ebffe9-a55c-466a-a5ea-779510db2c4f
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Migration of a Unified Service Desk configuration 
 After you have completed the development or configuration of your agent application, you might want to migrate your latest [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data from your development or testing environment to your production environment. Migrating your data involves exporting your existing configuration data from the source [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance, and then importing it into the target [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  

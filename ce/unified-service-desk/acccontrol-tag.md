@@ -19,7 +19,7 @@ ms.assetid: e4d9d212-1709-4983-8d57-9359cda932fd
 caps.latest.revision: 8
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # AccControl Tag
 The `AccControl` tag uses the [IAccessible](https://msdn.microsoft.com/library/accessibility.iaccessible\(v=vs.110\).aspx) interface from Microsoft Active Accessibility (MSAA). The AccControl tag has:  

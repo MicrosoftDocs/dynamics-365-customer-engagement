@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: C1F329C3-2E00-40A5-8BA3-1B6BC16444EA
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Walkthrough: Configure [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 

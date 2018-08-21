@@ -19,7 +19,7 @@ ms.assetid: a07d78ff-f017-4538-bede-fe722975f434
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # UIA Pattern List in Unified Service Desk
 This topic lists the UIA patterns.  

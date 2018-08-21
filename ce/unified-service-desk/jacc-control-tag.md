@@ -19,7 +19,7 @@ ms.assetid: e6b76e86-3b62-4e34-9d3e-03abf30bad4f
 caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # JAccControl Tag in Unified Service Desk
 `<JAccControl>` associates a named control to the Java accessibility element that is specified in the search path. This topic describes the elements of `<AccControl>` tag.  
