@@ -14,7 +14,7 @@
 ## [Reconciling assignments and bookings how-to guide](how-to-guides/reconciling-assignments-bookings-how-to.md)
 
 # Troubleshooting and FAQs (app version 3.x)
-## [How to soft-book resources in Project Service 3.x](FAQ-soft-book-3x.md)
+## [How to soft-book resources in Project Service 2.x](FAQ-soft-book-3x.md)
 ## [How to use the Utilization View](FAQ-utilization-view.md)
 ## [Project Service allocation methods](FAQ-Allocation-Methods.md)
 ## [Book projects with the Schedule Board](FAQ-Project-Booking-Schedule-Board.md)
