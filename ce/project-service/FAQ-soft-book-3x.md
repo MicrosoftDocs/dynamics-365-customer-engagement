@@ -25,7 +25,7 @@ Soft-booked project team members show up in the team tab with their soft booked 
 
 There are two ways to soft-book a team member onto a project. You can soft-book directly with the Schedule Board, or add team members on the Team tab. 
 
-## Soft-booking with the Schedule Board
+## Soft-book with the Schedule Board
 
 To use this method, take the following steps:
 1. Open the Schedule Board.
@@ -38,7 +38,7 @@ To use this method, take the following steps:
 
 Note that you can now assign the soft booked to tasks on the Schedule tab. On the Reconciliation tab, the resource shows a booking deficit relative to their task assignment as the Reconciliation tab only considers hard bookings. You can use the Extend Bookings feature to hard-book the resource to eliminate the deficit of hard bookings against the resources assignments. You’ll have to manually cancel the soft booking for the resource by using Maintain Bookings.
 
-## Soft-book by adding team members on the Team tab
+## Soft-book on the Team tab
 
 Add team members directly as a team member on the Team tab, and then change their booking status from Hard to Soft with Maintain Bookings. When you add a team member in this manner, it will always result in a hard booking unless you select the allocation method as None.
 To use this method, take the following steps:
