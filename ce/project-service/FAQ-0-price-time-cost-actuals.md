@@ -49,7 +49,7 @@ If you have successfully completed Check 1 and Check 2, you should now have only
 
 If there is no row in the role price grid for the pricing dimensions on the time cost actual, then you have isolated the problem. Create a row in the Role prices grid for the pricing dimensions on your time cost actual. Once this is done, recreate time entry, approve it, and verify that the time cost actual shows a valid price.
  
-If you are still not able to see a valid price on your time cost actual after you’ve done the three checks above, please log a support ticket.
+If you still don't see a valid price on your time cost actual after you’ve done the three checks above, please log a support ticket.
 
 
 
