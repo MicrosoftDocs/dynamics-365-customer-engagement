@@ -56,6 +56,6 @@ To understand what a valid price is, use these methods:
 
 If the price setup for the expense category isn't valid, then you have isolated the problem. The solution is to edit the category price line with a valid price for the expense category in accordance with the rules above. Once you’ve done that, recreate an expense entry, approve it, and then check that the unbilled sales actual gets a valid price.
 
-If you are still not able to see a valid price on your expense sales actual after doing the three checks above, please log a support ticket.
+If you still don't see a valid price on your expense sales actual after doing the three checks above, please log a support ticket.
 
 
