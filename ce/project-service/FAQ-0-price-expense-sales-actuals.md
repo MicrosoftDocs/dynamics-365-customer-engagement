@@ -19,7 +19,7 @@ audience: Admin
 
 # Why is price defaulting to 0 on expense sales actuals?
 
-This FAQ applies to expense actuals where the transaction class is set to Expense and transaction type is Unbilled Sales. There are three checks you make while troubleshooting this problem, as described below.
+This FAQ applies to expense actuals where the transaction class is set to Expense and transaction type is Unbilled Sales. The following three checks will help you troubleshoot why price (bill rate) is defaulting to 0 on expense sales actuals.
 
 ## Check 1: Identify the sales price list for project
 
