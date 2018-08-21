@@ -7,7 +7,7 @@ manager: ShellyHa
 ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 8/20/2018
+ms.date: 8/21/2018
 ms.topic: article
 ms.prod: Project Service
 ms.service: business-applications
@@ -42,5 +42,5 @@ If you have successfully completed Check 1 and Check 2, you should now have only
 
 If there is no row in the role price grid for the pricing dimensions on the time sales actual, then you have isolated the problem. Create a row in the Role prices grid for the pricing dimensions on your time sales actual. Once this is done, recreate time entry, approve it, and verify that the time sales actual shows a valid price.
 
-If you are still not able to see a valid price on your time sales actual after all the 3 checks above, please log a support ticket. 
+If you still don't see a valid price on your time sales actual after following the three checks above, please log a support ticket. 
 
