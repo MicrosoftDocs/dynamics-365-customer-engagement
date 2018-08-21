@@ -19,7 +19,7 @@ ms.assetid: 58f889c3-86d3-4f0d-b39b-9955200b582a
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # FindControl Operation in Unified Service Desk
 This topic describes the two approaches that can be used to identify a user interface (UI) control.  

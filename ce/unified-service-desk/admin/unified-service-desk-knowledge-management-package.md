@@ -20,7 +20,7 @@ ms.assetid: 5937df93-dcbc-4024-a46c-6afbe61f4359
 caps.latest.revision: 19
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Knowledge Management sample application package 
 [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] provides a configurable framework for quickly building applications for call centers so the customer service reps get a unified view of the customer data stored in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] or any other application.  

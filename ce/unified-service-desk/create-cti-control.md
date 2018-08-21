@@ -19,7 +19,7 @@ ms.assetid: c9e49c30-dc33-454e-b067-c90ecca6d659
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Create a CTI Control
 To manage agent states and call states, [!INCLUDE[pn_computer_telephony_integration_cti](../includes/pn-computer-telephony-integration-cti.md)] scenarios require the following user interface (UI) controls:  

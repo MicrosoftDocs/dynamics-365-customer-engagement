@@ -20,7 +20,7 @@ applies_to:
 ms.assetid: D9FE67A6-2E02-48DF-B9C2-4250433D72BE
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Configure JAWS Screen Reader for Unified Service Desk
 

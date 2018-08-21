@@ -19,7 +19,7 @@ ms.assetid: 3a4fa988-8eaf-4039-9296-905436f6a706
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Types of HAT automation activities in Unified Service Desk
 There are various types of [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)] automation activities that you can use to automate your hosted applications. To view and use the [!INCLUDE[pn_hat](../includes/pn-hat.md)] automation activities, see [Use HAT automation activities](../unified-service-desk/use-hat-automation-activities.md).  

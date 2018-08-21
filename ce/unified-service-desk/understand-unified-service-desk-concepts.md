@@ -18,7 +18,7 @@ applies_to:
 ms.assetid: 2866c682-9f3f-422f-b2e0-adc61244727a
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Understand Unified Service Desk concepts
 

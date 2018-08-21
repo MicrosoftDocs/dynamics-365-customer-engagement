@@ -19,7 +19,7 @@ ms.assetid: 78b6080d-dfe4-43ee-a3b0-0653ce58bacd
 caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Add action calls to an event
 You can add multiple action calls to an event, and the action calls will be executed in the order that is defined in the **Order** field of the event definition. To do so:  

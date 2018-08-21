@@ -19,7 +19,7 @@ ms.assetid: fc973cc7-d4af-4bdb-813a-4204ac46f939
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # FindIEFrame in Unified Service Desk
 `<FindIEFrame>` tag searches for an application by its caption and selects a `DOM` of the window or a specific frame within a window. An example is a pop-up window. This tag can explore the pop-up window regardless of how it stands in relation to the hosted web application. This topic describes the attributes of `<FindIEFrame>`  

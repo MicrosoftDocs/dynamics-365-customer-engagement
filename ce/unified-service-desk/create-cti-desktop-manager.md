@@ -19,7 +19,7 @@ ms.assetid: eda74fb2-c74a-413d-b1b8-921328dd365e
 caps.latest.revision: 8
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Create a CTI Desktop Manager in Unified Service Desk
 The CTI Desktop Manager component is the interface between the computer telephony integration (CTI) system and [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] or [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)]. The CTI Desktop Manager component creates the following two objects that collectively manage the state and data in a call:  

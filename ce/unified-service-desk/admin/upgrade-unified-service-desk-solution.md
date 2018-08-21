@@ -18,7 +18,7 @@ applies_to:
 ms.assetid: 46250912-52bc-45dc-914b-a77b32fc27c4
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Upgrading the solution
 You can upgrade a Unified Service Desk 1.x or [!INCLUDE[pn_unified_service_desk_20](../../includes/pn-unified-service-desk-20.md)] sample application package to [!INCLUDE[pn_unified_service_desk_3_2](../../includes/pn-unified-service-desk-3-2.md)] by importing the Upgrade sample application package. The upgrade will not affect the configuration data associated with the existing solution.  

@@ -45,7 +45,7 @@ Administrators can edit properties of a [!INCLUDE[pn_CRM_Online](../includes/pn-
      > - For users of [!INCLUDE[pn_crm_outlook_online](../includes/pn-crm-outlook-online.md)], the following two tasks must be completed in the order specified here:  
      > 
      >   1. **Synchronize offline data**. [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] users connected to this instance who work offline must synchronize by using the previous URL. If you run the Configuration Wizard and change the URL before completing this step, offline data may be lost.  
-     >      2. **Run the Configuration Wizard**. After a URL name change is saved and any offline data is synchronized, users of [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] must run the Configuration Wizard to update the URL.  
+     >   2. **Run the Configuration Wizard**. After a URL name change is saved and any offline data is synchronized, users of [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] must run the Configuration Wizard to update the URL.  
   
         After a URL name change is saved, all users who access that instance must be notified of the change. Users will be able to access the instance for up to 24 hours by using the previous URL. After the 24-hour period has passed, the previous URL will not work.  
   
