@@ -27,6 +27,7 @@
 ## [Troubleshooting expense sales actuals](FAQ-0-price-time-sales-actuals.md)
 
 # Guidance for earlier versions (app version 2.x and 1.x)
+## [How to soft-book resources in Project Service 3.x](FAQ-soft-book-2x.md)
 ## [White papers](white-papers.md)
 ## [Administrator guide](admin-guide.md)
 ### [Install and customize](install-customize.md)
