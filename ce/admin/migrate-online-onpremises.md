@@ -2,7 +2,7 @@
 title: "Migrate Microsoft Dynamics 365 (online) to Microsoft Dynamics 365 (on-premises) | MicrosoftDocs"
 description: "Follow theses steps to migrate from Microsoft Dynamics 365 (online) to Microsoft Dynamics 365 (on-premises)."
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 08/21/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -79,6 +79,10 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
 
 ## Request a backup of your organization database  
  To request a backup of your [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database contact [!INCLUDE[pn-ms-customer-support-services](../includes/pn-ms-customer-support-services.md)] for [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. For contact information, see [Contact Technical Support](contact-technical-support.md).  
+
+
+> [!IMPORTANT]
+> Obtaining a backup of your [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database isn’t available with Dynamics 365 (online), version 9.x.
   
 <a name="BKMK_restoreBU"></a>   
 
