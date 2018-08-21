@@ -12,7 +12,20 @@
 ## [Project management how-to guide](how-to-guides/project-management-how-to.md)
 ## [Resource management how-to guide](how-to-guides/resource-management-how-to.md)
 ## [Reconciling assignments and bookings how-to guide](how-to-guides/reconciling-assignments-bookings-how-to.md)
- 
+
+# Troubleshooting and FAQs (app version 3.x)
+## [How to soft-book resources in Project Service 3.x](FAQ-soft-book-3x.md)
+## [How to use the Utilization View](FAQ-utilization-view.md)
+## [Project Service allocation methods](FAQ-Allocation-Methods.md)
+## [Book projects with the Schedule Board](FAQ-Project-Booking-Schedule-Board.md)
+## [Assign resources to tasks](FAQ-Resources-to-Tasks.md)
+## [Assign bookable resources to tasks](FAQ-Resources-to-Tasks2x.md)
+## [Book resources and assign tasks](FAQ-bookings-and-assignments.md)
+## [Troubleshooting expense cost actuals](FAQ-0-price-expense-cost-actuals.md)
+## [Troubleshooting expense sales actuals](FAQ-0-price-expense-sales-actuals.md)
+## [Troubleshooting time cost actuals](FAQ-0-price-time-cost-actuals.md)
+## [Troubleshooting expense sales actuals](FAQ-0-price-time-sales-actuals.md)
+
 # Guidance for earlier versions (app version 2.x and 1.x)
 ## [White papers](white-papers.md)
 ## [Administrator guide](admin-guide.md)
