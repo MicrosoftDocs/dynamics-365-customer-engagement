@@ -1,7 +1,7 @@
 ---
 title: "Deploy Dynamics 365 App for Outlook (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/17/2018
+ms.date: 08/21/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -197,24 +197,6 @@ Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs ins
 > [!NOTE]
 >  If you're on [!INCLUDE[pn_dyn_365_op](../includes/pn-dyn-365-op.md)], see the section below:  [To deploy to Dynamics 365 on-premises users](#BKMK_DeployOnprem)  
 --> 
-
-### Enable
-
-1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
-
-    Check your security role  
-
-   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
-
-   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-
-2. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
-
-3. Choose **System Settings** > **Previews** tab.  
-
-4. For **I have read and agree to the license terms**, select **Yes**.
-
-5. For **Enable Dynamics 365 App for Outlook**, select **Yes**.
 
 #### To push the app to users  
 
