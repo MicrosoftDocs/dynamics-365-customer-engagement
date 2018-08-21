@@ -1,7 +1,7 @@
 ---
 title: "Enable the hybrid experience | MicrosoftDocs"
 ms.custom: ""
-ms.date: 07/20/2018
+ms.date: 08/22/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -20,7 +20,7 @@ manager: "kvivek"
 
 Most of the core functionalities of sales and customer service have moved to the [Unified Interface](about-unified-interface.md) experience. Some of the features that are not yet on Unified Interface can now be accessed in the Unified Interface client. 
 
-The following features are not yet present in the Unified Interface but can be enabled in the Unified Interface through the hybrid experience.
+The following features are not yet present in the Unified Interface but can be enabled for display as legacy dialogs in the Unified Interface through the hybrid experience.
 
 - [Advanced Find](../basics/save-advanced-find-search.md) 
 - [Bulk edit](manage-your-data.md)
