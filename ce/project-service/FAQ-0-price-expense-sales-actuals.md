@@ -7,7 +7,7 @@ manager: ShellyHa
 ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 8/20/2018
+ms.date: 8/21/2018
 ms.topic: article
 ms.prod: Applies to all versions of Project Service
 ms.service: business-applications
