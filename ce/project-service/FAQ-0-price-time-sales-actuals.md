@@ -19,7 +19,7 @@ audience: Admin
 # Why is price defaulting to 0 on time sales actuals?
 This FAQ applies to actuals where the transaction class is set to Time and transaction type is Unbilled Sales. The following three checks will help you troubleshoot why price (bill rate) is defaulting to 0 on time sales actuals.
 
-## Check 1: Identify the sales price list for project
+## Check 1: Identify the sales price list for the project
 
 Find the project from the project field of the actual and go to the project page. Then go to the Sales tab and on Project Contract lines grid, click on the link in the Project Contract field. The project Contract page will open. On the Project Contract page, go to the Project Price Lists tab. Check if there is at least one price list attached here. 
 If there is no price list attached in the Project Price Lists grid of the Project Contract you have isolated the problem. Attach a price list to the Project Price lists grid. The price lists allowed to be attached here should have the context field set to Sales and the currency field on the price list should match the currency field on the Project Contract. Once you’ve done made the required fixes, recreate a time entry, approve it, and verify that the unbilled sales actual shows a valid price. 
