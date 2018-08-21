@@ -2,7 +2,7 @@
 title: "Helper code: Enumerations for option sets (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "The SDK download package includes an extension to the CrmSvcUtil code generation tool that you can use to generate enumerations for all option set values including global option sets, picklist, state, and status values."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 08/21/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -20,7 +20,7 @@ manager: "amyla"
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-The [Sample: Extension to Generate Enumerations for Option Sets](extend-code-generation-tool.md#Generate_Enums) includes an extension to the CrmSvcUtil code generation tool that you can use to generate enumerations for all option set values including global option sets, picklist, state, and status values. In addition, it includes a helper code file that contains the enumerations generated for all out-of-the-box values. These enumerations can be used in your code by adding the file `SampleCode\CS\HelperCode\OptionSets.cs` or `SampleCode\VB\HelperCode\OptionSets.vb` to your project.  
+The [Sample: Extension to Generate Enumerations for Option Sets](extend-code-generation-tool.md#Generate_Enums) includes an extension to the CrmSvcUtil code generation tool that you can use to generate enumerations for all option set values including global option sets, picklist, state, and status values. In addition, it includes a helper code file that contains the enumerations generated for all out-of-the-box values. These enumerations can be used in your code by adding the file `OptionSets.cs` or `OptionSets.vb` file to your project.  
   
  Each enumeration can be used to test or set the value for a property. Typically this property is an entity attribute but there are a few that are used for other properties.  
   
