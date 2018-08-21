@@ -95,6 +95,7 @@
 ## [Migrate Microsoft Dynamics 365 (online) to Microsoft Dynamics 365 (on-premises)](migrate-online-onpremises.md)
 ## [Encryption keys for instance](manage-encryption-keys-instance.md)
 ## [Troubleshooting: Unblock required URLs](troubleshooting-unblock-urls-required.md)
+## [Migrate Dynamics 365 (online) to Dynamics 365 (on-premises)](migrate-online-onpremises.md)
 
 # [Datacenter regions](../admin/datacenter/new-datacenter-regions.md)
 ## [Australia](../admin/datacenter/about-microsoft-cloud-australia.md) 
