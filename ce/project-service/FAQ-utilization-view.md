@@ -17,11 +17,12 @@ audience: Admin
 
 ---
 
-## What is the Utilization View and how do I get it to work?
+# What is the Utilization View and how do I get it to work?
  
 You’ll find the Utilization View on the Project Service Resource Utilization screen. The grid shows chargeable utilization for each bookable resource.
 
-> [!div class="mx-imgBorder"] > ![Screenshot of Utilization View](media/FAQ-utilization-1.png)
+> [!div class="mx-imgBorder"] 
+> ![Screenshot of Utilization View](media/FAQ-utilization-1.png)
  
 The view is based on the Schedule Board, so you’ll find many of the same functions you’ll find there.
 The chargeable utilization calculation works as follows:
@@ -38,11 +39,13 @@ The colors in each cell show the chargeable utilization for a resource as compar
 The target utilization can be set on either the resource’s default role or on the individual resource itself. The calculation looks at the individual for the target first, then to the resource’s default role.
 You can set the target on a resource in Project Service by clicking Resources and then Resources. Click a resource to open the record and then click on the Project Service tab to set the resource’s target utilization.
 
-> [!div class="mx-imgBorder"] > ![Screenshot of using the Project Service tab to set target utilization (media/FAQ-utilization-2.png)
+> [!div class="mx-imgBorder"] 
+> ![Screenshot of using the Project Service tab to set target utilization](media/FAQ-utilization-2.png)
  
 To set target utilization on a role go to Resources and then Resource Roles. Click on a role to open a record. Set the target utilization for the role.
 
-> [!div class="mx-imgBorder"] > ![Screenshot of using Resource Roles to set the target utilization(media/FAQ-utilization-3.png)
+> [!div class="mx-imgBorder"] 
+> ![Screenshot of using Resource Roles to set the target utilization](media/FAQ-utilization-3.png)
  
 To calculate chargeable utilization for a resource, you need to make some settings. First, target utilization must be set on either the individual resource or on resource roles. 
 If you are using resource roles for targets, each individual resource must have a default role. To set this, go to Resources and then Resources. Click a resource to open the record and then click on the Project Service tab. In the Resource Role grid, make sure there’s one role for the resource and Is Default is set to Yes.
