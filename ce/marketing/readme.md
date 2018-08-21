@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 for Marketing Readme (Known Issues) | MicrosoftDocs"
-ms.date: 08/23/2018
+ms.date: 05/10/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
@@ -8,8 +8,8 @@ applies_to:
 - "Dynamics 365 Version 9.x"
 ms.assetid: 78dc5157-cf1d-4e32-ace7-9e71763e7510
 author: kamaybac
-ms.author: kamaybac
-manager: shellyha
+ms.author: shsuri
+manager: mauromar
 ---
 
 # Dynamics 365 for Marketing readme
@@ -88,6 +88,7 @@ This document provides important, late-breaking information about known issues a
 
 - If you disable anonymous registration for the event portal, then customer organizations must create a registerer account using the portal, after which the registerer can register as many attendees from their organization as needed. However, the registerer can't use the portal to create an account using an email address that belongs to a contact already in Dynamics 365. To set up an existing contact as a registerer, create a [portal invitation](../portals/invite-contacts.md) and then send the invitation code to the contact by email.
 - Even though surveys are available in the app (such as for emails, journeys, and events), this feature currently has limited functionality. Anonymous surveys can be added to emails but can't serve as triggers in customer journeys. Please contact Microsoft Support for more information.
+- Sample data is no longer available for events. We expect to provide it again in a future update.
 
 ## General
 
