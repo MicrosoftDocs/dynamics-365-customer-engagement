@@ -22,6 +22,7 @@ audience: Admin
 You can soft-book resources onto a project team as a way of showing you intend for them to work on a project. Soft bookings don’t consume a resource’s available capacity. Soft-booked team members can’t be assigned to project tasks. Only resources with the Status Hard Booked and Commit Type Committed can be assigned to tasks (if they have enough hard booking hours to cover the assignment effort).
 
 Soft-booked project team members show up in the Team Member grid with their soft-booked hours shown in the Soft Book column. They also show up on the Schedule Board. Again, they don’t indicate any consumption of capacity as soft-booking doesn’t consume capacity of a resource.
+
 There are three ways to soft-book a team member onto a project with Project Service version 2.x. You can soft-book with the Schedule Board, use the Maintain Bookings feature, or by creating a generic resource. These methods are described below.
 
 ## Soft-book with the Schedule Board
