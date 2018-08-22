@@ -2,7 +2,7 @@
 title: "Add dynamic content to marketing emails (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 for Marketing"
 keywords: "email; marketing email; dynamic content; content settings"
-ms.date: 07/06/2018
+ms.date: 08/23/2018
 ms.service:
   - "dynamics-365-marketing"
 ms.custom:
@@ -124,7 +124,7 @@ Though these settings provide assist-edit buttons, you must only place static va
 ## Advanced dynamic content
 
 > [!NOTE]
-> The advanced dynamic-content features described in this section are scheduled to be rolled out to customer organizations gradually between July and September 2018. To see if they are available to your organization, create a message and paste in the following conditional example:
+> The advanced dynamic-content features described in this section are scheduled to be rolled out to customer organizations gradually in mid-to-late 2018. To see if they are available to your organization, create a message and paste in the following conditional example:
 > 
 > `{{#if (eq contact.contact_account_parentcustomerid.name 'abc')}} Hello. {{else if (eq '123' '123')}} Advanced dynamic content is enabled. {{/if}}`
 > 
