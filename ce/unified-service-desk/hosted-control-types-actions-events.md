@@ -17,7 +17,7 @@ applies_to:
 ms.assetid: 17eec4a8-03a4-467b-af3e-de99fcab4e22
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Hosted control types, actions, and events in Unified Service Desk
 There are various types of predefined hosted controls available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to let you build different controls and user experiences in your agent application. For example, to manage all the connections from your agent application to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you create a hosted control of the **Connection Manager** type. To display data from a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] page, you create a hosted control of the **CRM Page** type.  

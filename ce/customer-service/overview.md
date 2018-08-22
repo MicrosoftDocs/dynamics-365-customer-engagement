@@ -1,19 +1,22 @@
 ---
-title: Customer Service Overview (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Overview of Customer Service in Microsoft Dynamics 365
-keywords: Customer Service;  Microsoft Dynamics 365
+title: "Customer Service Overview (Dynamics 365 for Customer Service) | MicrosoftDocs"
+description: "Overview of Customer Service in Microsoft Dynamics 365"
+keywords: "Customer Service;  Microsoft Dynamics 365"
+ms.date: 06/01/2018
+ms.service:
+  - "dynamics-365-customerservice"
+ms.custom:
+  - "dyn365-customerservice"
+ms.topic: get-started-article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 00f8a65f-f736-4e3d-9aea-e50de8b015b4
 author: anjgupta
-applies_to: 
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
 ms.author: anjgup
 manager: shujoshi
-ms.date: 06/01/2018
-ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
-ms.assetid: 00f8a65f-f736-4e3d-9aea-e50de8b015b4
-ms.custom: dyn365-customerservice
 ---
+
 # Overview of Customer Service and the Customer Service Hub
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]

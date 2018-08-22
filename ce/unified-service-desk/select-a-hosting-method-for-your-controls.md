@@ -19,7 +19,7 @@ ms.assetid: 90ee21c6-d686-4845-9567-800c25008bfc
 caps.latest.revision: 17
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Select a hosting method for your controls in Unified Service Desk
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] offers you three browser controls for hosting your webpages:  `IE Process`, `Internal WPF`, and `Web Hosted Application`. Select a browser control to host your webpage in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] from the **Hosting Type** list when you define a hosted control instance.  

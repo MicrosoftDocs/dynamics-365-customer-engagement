@@ -19,7 +19,7 @@ ms.assetid: 01e6b62c-2add-46ca-9d90-0c45c60f83f9
 caps.latest.revision: 6
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Walkthrough 5: Display enhanced session information by displaying session name and overview data
 In the previous walkthrough, [Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md), you learned how to display your customer record stored in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in a session in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. However, the experience would be better if you can identify each session with a unique name along with some key overview information about the record in a session.  

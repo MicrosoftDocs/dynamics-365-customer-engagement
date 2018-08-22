@@ -19,7 +19,7 @@ ms.assetid: 92e212f6-02cd-4a6a-96fa-af2ae1a02e9d
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Get started with configuring your agent application
 This section provides information on how to perform various tasks in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to configure your agent application.  

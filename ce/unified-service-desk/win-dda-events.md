@@ -19,7 +19,7 @@ ms.assetid: 188f3d5a-4460-47c1-bdcc-f4a431173a1b
 caps.latest.revision: 9
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # WinDDA events
 The [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] data-driven adapter (DDA) distinguishes between two types of events, application events and control events. This topic describes these two events.  

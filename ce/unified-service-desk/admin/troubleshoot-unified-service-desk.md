@@ -19,7 +19,7 @@ ms.assetid: 856cde8b-e0a3-432e-bae0-0a77c53c5408
 caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Debug and troubleshoot
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides robust debugging support by way of a debugger hosted control that provides real time trace information of the underlying executions and lots of libraries with support for diagnostic logging that can be enabled as required. The debugging support is an important feature that will help you effectively troubleshoot and resolve any issues during the configuration, and afterwards during day-to-day operations.  

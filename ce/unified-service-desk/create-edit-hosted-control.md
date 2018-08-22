@@ -19,7 +19,7 @@ ms.assetid: 738ededa-c01e-42a5-b5ee-56885c764a59
 caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 ---
 # Create or edit a hosted control
 You create or edit an existing hosted control using [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. The controls in the new hosted control page differ based on the type of hosted control you create.  
