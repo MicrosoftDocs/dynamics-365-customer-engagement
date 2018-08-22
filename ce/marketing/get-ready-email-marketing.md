@@ -62,9 +62,9 @@ _Domain-based Message Authentication, Reporting and Conformance_ ([DMARC](https:
 
 DMARC builds on the SPF and DKIM standards that [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] normally sets up for you on your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] sending domains. However, if you would also like to use DMARC (or if you are already using it on your other sending domains), then you must [contact Microsoft Support](../admin/contact-technical-support.md) for assistance with setting it up for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] will assist you by doing the following:
 
-- Generate a DKIM key pair.
+- Generate a DKIM key pair for you.
 - Provide you with a value that you must add as a TXT record on your domain.
-- Enable custom domain DKIM signing.
+- Enable custom domain DKIM signing for you.
 
 DMARC requires you to have either your own envelope domain or your own DKIM signing domain. It's best to have both to minimize false positives during a DMARC check by the receiving party. [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] will work with you to create the required DNS txt record, which you must then register with the global DNS system.
 
@@ -85,7 +85,7 @@ Once you have all of the relevant email-authentication systems in place, we high
 In a standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] setup, all sender IPs are managed by [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] and shared among customers that have similar reputation scores. This lets us manage reputation, balance the send load, and warm up new IPs as needed. However, some organizations prefer to use their own, dedicated sender IP, especially if they will be sending very high volumes.
 
 > [!NOTE]
-> Dedicated sender IPs are not part of the standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] subscription agreement, and [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] does not generally recommend them because they introduce extra complexity and expense—and can result reduced deliverability compared to our standard sender IP pools. [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] considers applications for dedicated sender IPs on a case-by-case basis. If you think your organization could benefit from a dedicated sender IP, please [contact Microsoft Support](../admin/contact-technical-support.md) to find out if you qualify. The main goal of this process is to help you achieve as high a delivery rate as possible. Some of the most important factors to considers when making this decision include:
+> Dedicated sender IPs are not part of the standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] subscription agreement, and [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] does not generally recommend them because they introduce extra complexity and expense—and can result reduced deliverability compared to our standard sender IP pools. [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] considers applications for dedicated sender IPs on a case-by-case basis. If you think your organization could benefit from a dedicated sender IP, please [contact Microsoft Support](../admin/contact-technical-support.md) to find out if you qualify. The main goal of this process is to help you achieve as high a delivery rate as possible. Some of the most important factors to consider when making this decision include:
 > 
 > - How many messages does your organization send each month?
 > - Is your content of high quality and in compliance with all relevant regulations?
