@@ -66,7 +66,7 @@ DMARC builds on the SPF and DKIM standards that [!INCLUDE[cc-microsoft](../inclu
 - Provide you with a value that you must add as a TXT record on your domain.
 - Enable custom domain DKIM signing for you.
 
-DMARC requires you to have either your own envelope domain or your own DKIM signing domain. It's best to have both to minimize false positives during a DMARC check by the receiving party. [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] will work with you to create the required DNS txt record, which you must then register with the global DNS system.
+DMARC requires you to have either your own envelope domain or your own DKIM signing domain. It's best to have both to minimize false positives during a DMARC check by the receiving party.
 
 > [!IMPORTANT]
 > If are using DMARC but fail to integrate [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] into your DMARC configuration, your marketing emails are very likely to be labelled as junk and removed from inboxes by many private domains and most large email providers including Gmail and Outlook.com.
