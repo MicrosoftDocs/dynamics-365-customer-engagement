@@ -16,7 +16,7 @@
 # FAQ and troubleshooting
 ## [How do I "soft book" resources?](FAQ-soft-book.md)
 ## [How do I see chargeable utilization for resources?](FAQ-utilization-view.md)
-## [Which booking allocation method should I use?](FAQ-allocation-methods.md)
+## [Which booking allocation method should I use to avoid overbooking?](FAQ-allocation-methods.md)
 ## [Can I book a resource to project from the schedule board?](FAQ-project-booking-schedule-board.md)
 ## [How do I assign a resource to a task?](FAQ-assign-resources-to-tasks.md)
 ## [How are resource bookings and task assignments related?](FAQ-bookings-and-assignments.md)
