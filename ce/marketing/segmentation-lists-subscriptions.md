@@ -100,8 +100,8 @@ Because your database probably includes a large number of contacts, the **Defini
 
 To create a dynamic segment, set its **Segment type** to **Dynamic** on the **General** tab. Then use the **Definition** tab to build your dynamic segment by combing _groups_ of _logical expressions_, each of which results in a set of contacts. Each group establishes a _path_ through one or more entities that must end at the **Contact** entity (the order matters).
 
-> [!IMPORTANT]
-> Your dynamic-segment queries can reference fields of all data types _other than multiple option set_. The **Designer** and **Explorer** may sometimes show data fields of this type, but your segment won't work if you include them in your queries so avoid selecting these fields.
+> [!NOTE]
+> Your dynamic-segment queries can reference fields of all data types _other than multiple option set_. The **Designer** and **Explorer** won't show data fields of this type.
 
 ### Define a segment group
 
@@ -227,9 +227,6 @@ Here's an example of how to define a segment that starts by finding a collection
     ![Finish the path to the contact entity](media/segment-example-opportunity3.png "Finish the path to the contact entity")
 
 1. Your group will now find contacts associated with opportunities valued over $10,000.
-
-> [!NOTE]
-> If you leave the **Designer** tab and then come back, you'll notice that the middle (relation) clause has disappeared. Don't worry, it's still there in the background (and you can still see it on the **Query** tab), but the interface hides it to make the group easier to read.
 
 ### See also
 
