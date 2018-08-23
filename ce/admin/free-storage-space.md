@@ -1,7 +1,7 @@
 ---
 title: "Free storage space in Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 08/23/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,7 +14,7 @@ ms.assetid: 46c0d35c-5edd-4087-980d-035ec76ab211
 caps.latest.revision: 32
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Free storage space
 
@@ -27,6 +27,8 @@ These are ways to reduce the amount of storage space used by removing or deletin
 > 
 > [!NOTE]
 >  Except for methods 3 and 5, all these methods require that you have an administrator [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security role, such as System Administrator. This gives you permission to delete records in bulk and to delete system jobs.  
+>
+>  After performing actions to free up storage, the system can take up to 24 hours to update storage information. We recommend waiting up to 24 hours and monitoring your storage.  
   
 <a name="BKMK_Method1"></a>   
 ## Method 1: Delete bulk email and workflow instances using a bulk deletion job  
