@@ -27,7 +27,7 @@
 
 ## FAQ for earlier versions (app version 2.x)
 ### [How do I assign a resource to a task (app version 2.x)?](FAQ-assign-resources-to-tasks-in-web-app.md)
-### [How do I "soft book" resources? (app version 2.x)](FAQ-soft-book-in-web-app.md)
+### [How do I "soft book" resources (app version 2.x)?](FAQ-soft-book-in-web-app.md)
 
 # Guidance for earlier versions (app version 2.x and 1.x)
 ## [How to soft-book resources in Project Service 2.x](FAQ-soft-book-2x.md)
