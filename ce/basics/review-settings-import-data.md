@@ -14,6 +14,10 @@ ms.assetid: 69ee9e50-13cc-428a-9b7c-e0f1c9dae159
 caps.latest.revision: 25
 ms.author: "rdubois"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Review settings and import data
 

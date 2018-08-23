@@ -14,6 +14,10 @@ ms.assetid: d1980bd7-ea0d-4a66-84c4-de602bdd867d
 caps.latest.revision: 12
 author: "KumarVivek"
 ms.author: "kvivek"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Create and manage custom business apps in Customer Engagement using code
 

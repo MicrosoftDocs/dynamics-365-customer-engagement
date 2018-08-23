@@ -18,9 +18,17 @@ ms.technology:
   - "field-service"
   - "project-service"
 ms.assetid: d9c56128-497d-4789-9631-4cb34f04638e
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
   - dyn365-fieldservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - D365FS
 ---
 
 ## Universal FetchXML

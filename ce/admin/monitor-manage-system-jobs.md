@@ -15,6 +15,11 @@ caps.latest.revision: 24
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Monitor and manage system jobs
 

@@ -1,7 +1,7 @@
 ---
 title: "Manage content for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn how to manage portal content in Dynamics 365."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 06/08/2018
 ms.service: dynamics-365-customerservice
@@ -13,6 +13,13 @@ ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
 manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Manage portal content
 Create, edit, and curate your portal content to provide information and illustrate the products and services that you offer. By managing portal content, you can create a helpful environment to foster discussion, solve issues, and learn.

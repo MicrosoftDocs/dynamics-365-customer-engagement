@@ -15,6 +15,11 @@ caps.latest.revision: 9
 author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Switching from the list component or changing the deployment
 

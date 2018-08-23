@@ -1,7 +1,7 @@
 ---
 title: Add the Knowledge Base Search control to Dynamics 365 Customer Engagement forms | Microsoft Docs
 description: Know how to add the Knowledge Base Search control to Dynamics 365 Customer Engagement forms in Microsoft Dynamics 365
-keywords: Knowledge base search control; Customer service; Customer Service Hub; Dynamics 365; Add the Knowledge Base Search control to Main forms; 
+keywords: Knowledge base search control; Customer service; Customer Service Hub; Dynamics 365; Add the Knowledge Base Search control to Main forms;
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
@@ -13,6 +13,13 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 2f43c2cb-684a-4388-a22b-6d891e4b8a19
 ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # Add the Knowledge Base Search control to forms

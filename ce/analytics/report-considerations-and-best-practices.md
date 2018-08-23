@@ -15,7 +15,11 @@ caps.latest.revision: 6
 author: "Mattp123"
 ms.author: "matp"
 tags: 
- - "MigrationHO"
+  - "MigrationHO"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Report considerations and best practices
 

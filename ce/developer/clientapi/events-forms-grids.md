@@ -8,6 +8,10 @@ ms.assetid: 9fb38429-55ef-45ce-a3a3-e649e1be89d0
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Events in forms and grids in Customer Engagement
 

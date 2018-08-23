@@ -1,7 +1,7 @@
 ---
 title: "Configure a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn about how you can configure your portal in different ways."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 06/08/2018
 ms.service: dynamics-365-customerservice
@@ -13,6 +13,13 @@ ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
 manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Configure a Dynamics 365 portal
 

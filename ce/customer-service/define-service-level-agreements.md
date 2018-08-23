@@ -1,7 +1,7 @@
 ---
 title: Define service level agreements (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Know how to define service level agreements in Dynamics 365 for Customer Service
-keywords: Service leve agreements; Dynamics 365; Customer Service; Create a standard SLA ; Create an enhanced SLA ; How is the SLA applied  ; Apply SLA on demand  
+keywords: Service leve agreements; Dynamics 365; Customer Service; Create a standard SLA ; Create an enhanced SLA ; How is the SLA applied  ; Apply SLA on demand
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
@@ -13,6 +13,13 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 75c6bab8-54d8-4410-b210-003953aa4b53
 ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # Define Service Level Agreements (SLAs)

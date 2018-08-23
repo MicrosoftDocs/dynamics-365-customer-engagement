@@ -18,6 +18,13 @@ ms.assetid: 95355f53-72b3-4ca7-8d10-ed5d19c5ef18
 caps.latest.revision: 27
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Use Cortana voice commands in Dynamics 365 for phones
 

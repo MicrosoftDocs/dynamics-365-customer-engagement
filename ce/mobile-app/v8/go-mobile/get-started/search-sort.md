@@ -19,6 +19,13 @@ ms.assetid: ee969f36-5efc-4a54-8bba-a92a822a8d1c
 caps.latest.revision: 24
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Search and sort in Dynamics 365 for phones and tablets
 

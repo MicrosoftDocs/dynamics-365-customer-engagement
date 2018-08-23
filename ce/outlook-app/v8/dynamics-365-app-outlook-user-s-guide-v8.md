@@ -17,6 +17,13 @@ ms.author: "mkaur"
 manager: "kvivek"
 tags: 
   - MigrationHO
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # Dynamics 365 App for Outlook User's Guide, version 8.2 
 

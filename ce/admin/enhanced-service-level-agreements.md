@@ -15,6 +15,11 @@ ms.assetid: 67599faa-8b55-420a-b0eb-9161b35a67ff
 caps.latest.revision: 11
 ms.author: "anjgup"
 manager: "sakudes"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Enhanced service level agreements
 

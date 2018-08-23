@@ -21,6 +21,10 @@ caps.latest.revision: 17
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Page large result sets with FetchXML
 

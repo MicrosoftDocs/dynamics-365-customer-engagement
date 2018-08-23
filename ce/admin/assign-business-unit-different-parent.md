@@ -15,6 +15,11 @@ ms.assetid: edfab119-5a81-4dfe-ba53-78c834c67650
 caps.latest.revision: 13
 ms.author: "rdubois"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Assign a business unit a different parent business
 

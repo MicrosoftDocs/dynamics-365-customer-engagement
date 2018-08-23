@@ -14,6 +14,13 @@ caps.latest.revision: 9
 author: "mduelae"
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # Permissions required for Dynamics 365 for Outlook tasks
 The following table shows the default security roles required to perform [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] tasks, and whether the task can be performed while using [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] offline.  

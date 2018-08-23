@@ -1,11 +1,10 @@
 ---
-
 title: How to use new resource management features for Dynamics 365 for Project Service (version 3.x)
 description: An English-language guide to new resource management capabilities in Project Service Automation for Dynamics 365
 author: krbjoran
 manager: ShellyHa
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 8/13/2018
 ms.topic: article
@@ -13,7 +12,13 @@ ms.prod:
 ms.technology: 
 ms.author: rumant
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
 ---
 # Resource management how-to guide  
 

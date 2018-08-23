@@ -15,6 +15,11 @@ caps.latest.revision: 16
 author: "m-hartmann"
 ms.author: "mhart"
 manager: "sakudes"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Install the Social Selling Assistant
 

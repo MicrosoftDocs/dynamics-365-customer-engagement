@@ -6,7 +6,7 @@ ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: db508858-7386-44f3-9f91-29493e6fe2c4
 author: JimDaly
@@ -20,6 +20,10 @@ helpviewer_keywords:
   - "sample for auditing user access"
   - "auditing user access sample"
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Audit user access

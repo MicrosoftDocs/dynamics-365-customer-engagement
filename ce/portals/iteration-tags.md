@@ -5,7 +5,7 @@ keywords: "iteration tags; liquid tags"
 ms.date: 05/04/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: BFACD45E-F943-4CED-8A67-11C2C8F6374B
@@ -14,6 +14,13 @@ ms.author: shjais
 manager: shubhadaj
 ms.reviewer: 
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Iteration tags

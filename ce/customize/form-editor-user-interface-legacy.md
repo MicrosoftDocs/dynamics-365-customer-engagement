@@ -10,6 +10,10 @@ applies_to:
 ms.author: "matp"
 manager: "kvivek"
 ms.assetid: 146f8035-4fcd-4572-8e71-4270cd150495
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Overview of the form editor user interface
 

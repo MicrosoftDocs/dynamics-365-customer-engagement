@@ -3,7 +3,7 @@ title: Knowledge base search mechanisms in Dynamics 365| MicrosoftDocs
 description: Know how the Knowledge base search mechanisms and methods works in Microsoft Dynamics 365
 keywords: Search the knowledge base; Dynamics 365; Full-text search; Relevance search; Categorized search; Customer Service Hub; Knowledge Article; Knowledge Management; Knowledge Base; Knowledge base search mechanisms and methods
 author: anjgupta
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
   - "Dynamics 365 Version 8.2"
@@ -14,6 +14,13 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 16e57ec7-e14e-4ffa-9ca7-54a4fa63b4a9
 ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # Understand knowledge base search mechanisms

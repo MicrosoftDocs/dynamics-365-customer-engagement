@@ -18,6 +18,10 @@ caps.latest.revision: 18
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Specify a queue item to work on (early bound)
 

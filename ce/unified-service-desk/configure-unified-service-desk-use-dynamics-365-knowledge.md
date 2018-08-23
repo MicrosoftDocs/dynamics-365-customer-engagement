@@ -3,12 +3,12 @@ title: "Configure Unified Service Desk to use Dynamics 365 | MicrosoftDocs"
 description: "Learn about the knowledge management solution in Microsoft Dynamics 365 that guides you through the process of creating and publishing rich knowledge articles with multimedia data like pictures and videos."
 keywords: ""
 ms.date: 08/17/2018
-ms.service:
+ms.service: 
   - "dynamics-365-customerservice"
-ms.custom:
+ms.custom: 
   - "dyn365-USD"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2013"
@@ -22,6 +22,12 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 9
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 
 # Configure Unified Service Desk to use Dynamics 365

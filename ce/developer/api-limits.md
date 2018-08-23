@@ -12,6 +12,10 @@ ms.assetid: 6cba6191-4e10-4b21-823a-b0cf71ef21d5
 author: "MicroSri"
 ms.author: "jdaly"
 manager: "faisalmo"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # API Limits
 

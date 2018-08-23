@@ -15,6 +15,11 @@ caps.latest.revision: 5
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Enable OneDrive for Business (online)
 

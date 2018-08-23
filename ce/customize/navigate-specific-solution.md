@@ -17,6 +17,10 @@ ms.assetid: 990b3189-f3d7-4bee-a404-ca690bbfacff
 caps.latest.revision: 12
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 # Navigate to a specific solution

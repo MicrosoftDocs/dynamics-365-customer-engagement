@@ -9,8 +9,15 @@ ms.assetid: 6603e30d-19bc-4bcf-a48a-c8fb9cb84a54
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-ms.custom:
+ms.custom: 
   - dyn365-gamification
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 
 # Manage settings to personalize the game experience in Gamification

@@ -8,6 +8,10 @@ ms.assetid: 83347491-68d2-4844-bda4-0cd0abde2edf
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getOptions (Client API reference)
 

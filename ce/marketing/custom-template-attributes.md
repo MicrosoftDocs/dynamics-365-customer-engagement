@@ -3,12 +3,12 @@ title: "Use custom attributes to enable designer features in templates (Dynamics
 description: "How to mark up the HTML in your email and page templates to enable drag-and-drop features and style controls for the Design view in Dynamics 365 for Marketing"
 keywords: "custom attributes;templates;email;marketing pages;HTML"
 ms.date: 08/01/2018
-ms.service:
+ms.service: 
   - "crm-online"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 346a437c-f9c7-47ea-94c6-c9deeadfa116
@@ -17,6 +17,13 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Use custom attributes to enable designer features in emails, pages, and forms

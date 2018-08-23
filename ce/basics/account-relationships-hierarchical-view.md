@@ -15,6 +15,10 @@ ms.assetid: 9f4622c8-b9e4-4b35-a5d0-f945c8f369a0
 caps.latest.revision: 9
 ms.author: "brycho"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # See account relationships in a hierarchical view
 

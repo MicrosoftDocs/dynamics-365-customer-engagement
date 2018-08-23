@@ -15,6 +15,10 @@ caps.latest.revision: 39
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Use record-based security to control access to records

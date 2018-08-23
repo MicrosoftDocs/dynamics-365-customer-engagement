@@ -18,6 +18,13 @@ ms.assetid: f5c366db-30d2-44c6-89f4-89a566dae188
 caps.latest.revision: 28
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Secure your mobile data with Microsoft Dynamics 365 for Good
 

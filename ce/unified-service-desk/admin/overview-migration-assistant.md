@@ -3,12 +3,12 @@ title: "Migrate Dynamics 365 Web Client configurations to Dynamics 365 Unified I
 description: "Learn how to migrate your Unified Service Desk configurations from Dynamics 365 Web Client to Unified Interface App"
 keywords: ""
 ms.date: 07/30/2018
-ms.service:
+ms.service: 
   - "dynamics-365-customerservice"
-ms.custom:
+ms.custom: 
   - "dyn365-USD, dyn365-admin"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2013"
@@ -18,6 +18,11 @@ ms.assetid: 785880FF-00C7-489F-BC2D-2C45ECBFF3C9
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 
 # Migration of Unified Service Desk configurations from Dynamics 365 Web Client to Dynamics 365 Unified Interface App

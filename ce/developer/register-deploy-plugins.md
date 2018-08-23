@@ -18,6 +18,10 @@ caps.latest.revision: 64
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Register and Deploy Plug-Ins

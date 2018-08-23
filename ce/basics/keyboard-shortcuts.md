@@ -12,8 +12,12 @@ ms.date: 05/30/2018
 ms.topic: article
 ms.service: dynamics-365-cross-app
 ms.assetid: 4424660b-743b-434f-9993-fb64ae4e776a
-ms.custom:
+ms.custom: 
   - dyn365-a11y
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Use keyboard shortcuts in Dynamics 365 Customer Engagement applications
 

@@ -13,6 +13,11 @@ applies_to:
 ms.assetid: 88985efc-af84-4e3a-980f-1bf7464c05e6
 caps.latest.revision: 29
 ms.author: "dastoe"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Onboarding cheat sheet for admins
 

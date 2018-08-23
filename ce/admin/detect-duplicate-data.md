@@ -15,6 +15,11 @@ ms.assetid: 4bfccb7c-c29d-4a33-900e-3b3665fa4cf4
 caps.latest.revision: 34
 ms.author: "rdubois"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Detect duplicate data so you can fix or remove it
 

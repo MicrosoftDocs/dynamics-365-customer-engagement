@@ -15,6 +15,10 @@ ms.assetid: 50af7faf-8578-4244-9710-f05544b97f38
 caps.latest.revision: 41
 ms.author: "shujoshi"
 manager: "sakudes"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Create or edit an appointment
 

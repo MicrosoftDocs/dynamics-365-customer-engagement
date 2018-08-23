@@ -15,6 +15,10 @@ caps.latest.revision: 27
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365
 

@@ -1,11 +1,10 @@
 ---
-
 title: View and send invoices (Dynamics 365 for Project Service) | MicrosoftDocs
 description: How to view and send invoices in Project Service
 author: krbjoran
 manager: ShellyHa
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018
 ms.topic: article
@@ -13,7 +12,13 @@ ms.prod:
 ms.technology: 
 ms.author: krbjoran
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
 ---
 # View and send invoices (Project Service)
 

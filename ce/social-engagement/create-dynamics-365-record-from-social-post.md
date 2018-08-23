@@ -5,15 +5,22 @@ keywords: "Link to Dynamics 365, Link to CRM, link post, record details, social 
 ms.date: 02/20/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: fb55dd2f-e81e-4163-9cfd-7e812ebcbe25
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Create a Dynamics 365 record from a social post
