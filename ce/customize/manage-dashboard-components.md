@@ -15,6 +15,10 @@ ms.assetid: 5b367ed0-0f52-42f9-95b9-164b2be6ca3c
 caps.latest.revision: 25
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Manage dashboard components
 

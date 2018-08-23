@@ -1,7 +1,7 @@
 ---
 title: "Create a theme for your portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create a theme for your portal quickly and easily brand these portals for your organization."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 12/05/2017
 ms.service: dynamics-365-customerservice
@@ -13,6 +13,13 @@ ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
 manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Create a theme for your portal
 When you build portals by using portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], you'll be using the [[!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] front-end framework](http://getbootstrap.com/). By taking advantage of the [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] ecosystem, you can quickly and easily brand these portals for your organization.  

@@ -14,6 +14,11 @@ caps.latest.revision: 4
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Move an instance to a different tenant
 

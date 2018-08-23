@@ -15,6 +15,11 @@ caps.latest.revision: 59
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Security enhancements: User session and access management 
 

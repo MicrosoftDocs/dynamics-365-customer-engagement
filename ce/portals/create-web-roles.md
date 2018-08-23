@@ -1,7 +1,7 @@
 ---
 title: "Create web roles for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create web roles for a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 07/04/2018
 ms.service: dynamics-365-customerservice
@@ -13,6 +13,13 @@ ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
 manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Create web roles for portals
 

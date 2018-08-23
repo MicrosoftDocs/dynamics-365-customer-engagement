@@ -20,6 +20,10 @@ caps.latest.revision: 43
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Organization entity attributes
 

@@ -3,12 +3,12 @@ title: "Walkthrough 2: Display an external webpage in your agent application | M
 description: "Demonstrates how to display an external web page in Unified Service Desk."
 keywords: ""
 ms.date: 05/07/2018
-ms.service:
+ms.service: 
   - "usd"
-ms.custom:
+ms.custom: 
   - ""
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2013"
@@ -21,6 +21,12 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 
 # Walkthrough 2: Display an external webpage in your agent application

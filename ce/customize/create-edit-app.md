@@ -6,7 +6,7 @@ ms.date: 04/04/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
   - "powerapps"
@@ -19,6 +19,10 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 19
 topic-status: Drafting
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 # Create or edit a model-driven app by using the app designer

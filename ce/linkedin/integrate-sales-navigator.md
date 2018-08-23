@@ -5,13 +5,20 @@ keywords: "integration, sales navigator, linkedin, versions"
 ms.date: 07/12/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 Version 9.x"
   - "Dynamics 365 (online)"
 ms.assetid: e9258994-b84a-cefb-4d97-762f4bc3ca5a
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365LinkedIn
 ---
 
 # Integrate LinkedIn Sales Navigator solutions for Dynamics 365

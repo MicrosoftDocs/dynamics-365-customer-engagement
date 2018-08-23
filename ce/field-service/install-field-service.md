@@ -1,6 +1,6 @@
 ---
 title: "Install and setup Dynamics 365 for Field Service | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Install and setup [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]
 

@@ -9,6 +9,10 @@ ms.assetid: 16271bd8-cfa8-4a7f-802a-60fbff7c3722
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Best practices: Client scripting in Customer Engagement
 

@@ -15,6 +15,11 @@ caps.latest.revision: 43
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Install, update, or remove a preferred solution
 

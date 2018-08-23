@@ -1,6 +1,5 @@
 ---
-title: "Unified Service Desk configurations (Dynamics 365 Customer Engagement)
- | MicrosoftDocs"
+title: "Unified Service Desk configurations (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about the Unified Service Desk configurations that you make in Dynamics 365 on which the Best practices Analyer performs analysis and displays a report."
 ms.custom: ""
 ms.date: 04/24/2018
@@ -16,6 +15,11 @@ ms.assetid: "D390F342-BDD0-4921-959D-66D2CF822A59"
 author: "kabala123"
 ms.author: "kabala"
 manager: "shujoshi"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Configurations
 

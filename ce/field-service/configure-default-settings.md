@@ -1,6 +1,6 @@
 ---
 title: "Configure default settings (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: 58255fc0-9e0f-4467-9719-175024e9a424
 caps.latest.revision: 19
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Configure default settings for work orders, bookings, schedule board, and agreements (Field Service)
 

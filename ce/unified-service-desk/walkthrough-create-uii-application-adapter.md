@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Create a UII Application Adapter in Unified Service Desk fopr Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Demonstrates how to host and interact with an external application in Unified Service Desk."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -20,6 +20,12 @@ caps.latest.revision: 9
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Walkthrough: Create a UII Application Adapter
 You can create an application adapter if you want to integrate an external application with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] provides a [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] template for creating an application adapter. The template provides basic code as comments to help you get started with creating the application adapter.  

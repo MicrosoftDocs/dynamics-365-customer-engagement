@@ -15,6 +15,11 @@ ms.assetid: 8ED5D0F6-4A3E-49FA-A399-0AEDFF2236AA
 author: "kabala123"
 ms.author: "kabala"
 manager: "shujoshi"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Analyze best practices in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 

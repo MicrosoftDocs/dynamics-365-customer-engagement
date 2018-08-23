@@ -19,6 +19,13 @@ ms.assetid: a35894cf-7d9c-402c-8cdb-7e0edecf4491
 caps.latest.revision: 29
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Track your progress with charts in Dynamics 365 for phones and tablets
 

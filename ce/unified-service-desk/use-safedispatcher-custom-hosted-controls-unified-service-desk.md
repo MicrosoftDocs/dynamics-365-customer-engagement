@@ -1,7 +1,7 @@
 ---
 title: "Use SafeDispatcher for custom hosted controls in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn how to use SafeDispatcher to provide out-of-box logging for unhandled exceptions with detailed information about the source and cause of the exception in Unified Service Desk."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -20,6 +20,12 @@ caps.latest.revision: 26
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Use SafeDispatcher for custom hosted controls in Unified Service Desk
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is a [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)]-based application where all the operations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] are executed on the main *WPF Dispatcher* thread. The [WPF Dispatcher](https://msdn.microsoft.com/library/system.windows.threading.dispatcher\(v=vs.110\).aspx) class provides services for managing the queue of work items for a thread.  

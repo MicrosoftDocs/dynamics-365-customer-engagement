@@ -16,6 +16,11 @@ caps.latest.revision: 21
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # About Unified Interface
 

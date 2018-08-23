@@ -19,6 +19,13 @@ caps.latest.revision: 13
 author: "mduelae"
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # Which fields can be synchronized between Dynamics 365 and Outlook?
 [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] administrators can control field synchronization between [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. For example, admins can control the synchronization direction between pairs of fields. For information about which fields can be synchronized between  [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see [Which fields can be synchronized between Dynamics 365 and Outlook?](../admin-guide/which-fields-synchronized.md)

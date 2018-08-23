@@ -15,6 +15,11 @@ caps.latest.revision: 53
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Choose the records to synchronize between Dynamics 365 and Exchange 
 

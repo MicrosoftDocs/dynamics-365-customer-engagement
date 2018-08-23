@@ -3,12 +3,12 @@ title: "Set up a recurring event (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Describes how recurring events work in Dynamics 365 for Marketing"
 keywords: "events; waitlist"
 ms.date: 07/06/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 5ac46cc6-beef-45b3-941e-38c66519d144
@@ -16,6 +16,13 @@ author: kamaybac
 ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Create and manage recurring events

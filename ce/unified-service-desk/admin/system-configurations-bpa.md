@@ -15,6 +15,11 @@ ms.assetid: 2ED0C60D-0C69-45C7-828A-8BB7D05A9180
 author: "kabala123"
 ms.author: "kabala"
 manager: "shujoshi"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # System configurations
 

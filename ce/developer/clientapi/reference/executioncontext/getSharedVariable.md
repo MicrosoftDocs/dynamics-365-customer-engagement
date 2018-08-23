@@ -1,5 +1,5 @@
 ---
-title: "getSharedVariable (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs" 
+title: "getSharedVariable (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -8,6 +8,10 @@ ms.assetid: 702a13c1-f4ae-4de2-9e8b-95360ad9240c
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getSharedVariable (Client API reference)
 

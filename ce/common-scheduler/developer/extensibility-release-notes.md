@@ -18,9 +18,17 @@ ms.technology:
   - "field-service"
   - "project-service"
 ms.assetid: a5df453e-9246-47f8-b979-a73371be838e
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
   - dyn365-fieldservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - D365FS
 ---
 
 # URS extensibility release notes

@@ -4,15 +4,14 @@ description: "Quickly create a copy of an existing product in Dynamics 365 for S
 keywords: "Clone, copy"
 ms.date: 04/01/2018
 ms.service: dynamics-365-sales
-ms.custom:
+ms.custom: 
   - dyn365-sales
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: "shubhadaj"
 ms.assetid: 0abe6dc4-c8bc-4d09-aa4f-e41218e08927
-author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
 ms.reviewer: 
@@ -20,6 +19,13 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 9
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # Clone a product (Sales and Sales Hub)

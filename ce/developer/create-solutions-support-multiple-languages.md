@@ -3,12 +3,12 @@ title: "Create solutions that support multiple languages (Developer Guide for Dy
 description: ""
 keywords: ""
 ms.date: 10/31/2017
-ms.service:
+ms.service: 
   - "crm-online"
-ms.custom:
+ms.custom: 
   - ""
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 2f601c9e-b1d1-47be-a8ea-afca16780751
 author: JimDaly
@@ -17,6 +17,10 @@ manager: amyla
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Create solutions that support multiple languages

@@ -1,6 +1,6 @@
 ---
 title: "View user accounts and security roles (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: 01731aaf-7115-4e6c-a4eb-201ce2c33860
 caps.latest.revision: 16
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # View user accounts and security roles (Field Service)
 

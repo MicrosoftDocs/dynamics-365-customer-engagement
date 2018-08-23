@@ -9,8 +9,15 @@ ms.assetid: caf4691a-20d4-4abf-a471-29d13553c439
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 # Work with Office 365 Groups in Social Engagement
 

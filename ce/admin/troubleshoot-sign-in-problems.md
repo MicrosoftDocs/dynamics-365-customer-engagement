@@ -16,6 +16,11 @@ caps.latest.revision: 60
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Troubleshoot sign-in problems
 

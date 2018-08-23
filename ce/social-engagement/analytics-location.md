@@ -5,15 +5,22 @@ keywords: "analytics, locations, maps, location analysis"
 ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 8aec5246-e411-4fb9-9790-2bcd94438038
 author: m-hartmann
 ms.author: mhart
 manager: annbe
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Focus your analysis on location data

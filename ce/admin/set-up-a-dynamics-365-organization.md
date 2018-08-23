@@ -15,6 +15,11 @@ ms.assetid: b2925270-924f-406e-85ce-4bb7866b7f66
 caps.latest.revision: 17
 ms.author: "rdubois"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Set up an organization
 

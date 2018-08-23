@@ -5,7 +5,7 @@ keywords: "search within attachment,search in file attachment"
 ms.date: 04/14/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: BD65E6A7-5A2E-49DE-A00D-EB5F13F22FCC
@@ -14,6 +14,13 @@ ms.author: shjais
 manager: shubhadaj
 ms.reviewer: 
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Search within file attachment content

@@ -1,7 +1,7 @@
 ---
 title: "JAccSelector Tag in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "The topic describes the elements of <JAccSelector>."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -20,6 +20,12 @@ caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # JAccSelector Tag in Unified Service Desk
 `<JAccSelector>` associates a named control to the [!INCLUDE[pn_Java](../includes/pn-java.md)] accessibility element that is specified in the search path. You can use this control type for all selection elements such as lists boxes or lists in combo boxes. This topic describes the elements of `<JAccSelector>`  

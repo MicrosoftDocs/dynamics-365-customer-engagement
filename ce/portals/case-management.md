@@ -4,7 +4,7 @@ description: "Learn how to manage cases in a portal."
 ms.date: 05/29/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 546B2F5F-3DEA-466D-99B8-4D504D38E487
@@ -13,6 +13,13 @@ ms.author: shjais
 manager: shubhadaj
 ms.reviewer: 
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Manage cases in portals

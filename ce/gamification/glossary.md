@@ -5,15 +5,22 @@ keywords: "glossary, terms, terminology"
 ms.date: 01/11/2018
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 10c6a538-985a-4ea2-b8d9-4efc67f7363f
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-gamification
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 
 # Gamification terminology

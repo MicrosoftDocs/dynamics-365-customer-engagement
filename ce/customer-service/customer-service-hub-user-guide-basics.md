@@ -3,7 +3,7 @@ title: Learn the basics of the Customer Service Hub in Dynamics 365 | Microsoft 
 description: Learn the basics of the Customer Service Hub for Customer Service in Microsoft Dynamics 365
 keywords: Basics of the Customer Service Hub; Customer Service; Microsoft Dynamics 365; Customer Service Hub Application requirements; Understand the sitemap navigation; Quickly create new records; Business processes; Related section; Queues
 author: anjgupta
-applies_to: Dynamics 365 (online) 
+applies_to: Dynamics 365 (online)
 ms.author: anjgup
 manager: shujoshi
 ms.date: 06/01/2018
@@ -11,6 +11,13 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: f7241c02-a8ea-4b67-9d7b-428f91071090
 ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # Learn the basics of the Customer Service Hub

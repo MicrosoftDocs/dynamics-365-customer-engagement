@@ -5,13 +5,20 @@ keywords: "custom control, sales navigator, linkedin, integration, customization
 ms.date: 07/12/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 Version 9.x"
   - "Dynamics 365 (online)"
 ms.assetid: 41253990-3a7d-0829-8509-91273db68b82
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365LinkedIn
 ---
 
 # Add LinkedIn Sales Navigator controls to forms

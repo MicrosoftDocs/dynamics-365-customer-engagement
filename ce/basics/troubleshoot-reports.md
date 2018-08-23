@@ -15,6 +15,10 @@ caps.latest.revision: 27
 author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Troubleshoot problems with data not displaying in a report
 

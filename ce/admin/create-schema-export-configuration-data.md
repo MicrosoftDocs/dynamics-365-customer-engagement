@@ -15,6 +15,11 @@ ms.assetid: 61660b0d-4628-436d-804c-d2538be2813e
 caps.latest.revision: 15
 ms.author: "rdubois"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Create a schema to export configuration data
 

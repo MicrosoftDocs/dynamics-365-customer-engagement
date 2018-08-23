@@ -17,6 +17,10 @@ applies_to:
   - "Dynamics 365 Version 9.x"
   - "powerapps"
 ms.assetid: d1446a95-14bf-4b15-a905-72fce07f4c76
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 # Configure interactive experience dashboards

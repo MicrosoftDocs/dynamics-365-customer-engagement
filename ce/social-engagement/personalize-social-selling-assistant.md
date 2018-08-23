@@ -5,15 +5,22 @@ keywords: "social selling, social selling assistant, social engagement, personal
 ms.date: 09/19/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 534adc26-856a-403d-ac6b-3a3c3518470f
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Personalize the Social Selling Assistant

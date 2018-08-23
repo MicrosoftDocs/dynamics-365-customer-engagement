@@ -21,6 +21,10 @@ caps.latest.revision: 24
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Order results using entity attributes with LINQ
 
