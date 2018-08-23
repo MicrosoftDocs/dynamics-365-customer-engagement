@@ -25,6 +25,7 @@ Note that if you’d like to assign a bookable resource to a task, the bookable 
 *Unable to assign resource to task - Following resource(s) do not have sufficient hours booked against project*
 
 ## Book a resource as a team member and then assign the resource to a task
+
 With this method you add a resource to the project team and then assign tasks to the resource in the project schedule. Here’s how you do this:
 1.	On the team member grid, add a new team member by selecting **New**.
 2.	On the Team Member Quick Create screen, select the bookable resource name and set a role.
@@ -34,10 +35,10 @@ With this method you add a resource to the project team and then assign tasks to
     > ![Screenshot of adding team member](media/FAQ-Resources-to-Tasks2-1.png "Screenshot of adding team member")
  
 4.	Select one of the following allocation methods for booking the resource:
-  - **Full Capacity** books the resource’s full capacity for the specified from and to dates.
-  - **Percentage Capacity** books the resource for a percentage of the resource's capacity for the specified from and to dates.
-  - **By Hours Distribute Evenly** books the resource for a specified number of hours, distributing it evenly per day over the specified from and to dates.
-  - **By Hours Front Load** books the resource for a specified number of hours, front-loading the per-day hours over the specified from and to dates.
+    - **Full Capacity** books the resource’s full capacity for the specified from and to dates.
+    - **Percentage Capacity** books the resource for a percentage of the resource's capacity for the specified from and to dates.
+    - **By Hours Distribute Evenly** books the resource for a specified number of hours, distributing it evenly per day over the specified from and to dates.
+    - **By Hours Front Load** books the resource for a specified number of hours, front-loading the per-day hours over the specified from and to dates.
 
     Don’t select **None** because it adds the resource to the team but doesn’t create any bookings that absorb the resource's capacity.
 5.	Select **Save**.
@@ -46,12 +47,12 @@ With this method you add a resource to the project team and then assign tasks to
 
 6.	On the work breakdown structure (WBS) for the task, click the resource cell dropdown. Then: 
 
-  1. Select **Add**.
-  2. Select the dropdown under **Resources** and select the team member you added above.
-  3. Select **OK**. The team member is now assigned to the task.
+    1. Select **Add**.
+    2. Select the dropdown under **Resources** and select the team member you added above.
+    3. Select **OK**. The team member is now assigned to the task.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Screenshot of adding resources with WBS](media/FAQ-Resources-to-Tasks2-2.png "Screenshot of adding resources with WBS")
+    > [!div class="mx-imgBorder"] 
+    > ![Screenshot of adding resources with WBS](media/FAQ-Resources-to-Tasks2-2.png "Screenshot of adding resources with WBS")
  
 On the team member grid, you’ll see the aggregate of the resource’s assigned hours under Assigned Hours. It will be less than or equal to the booked hours for the resource. 
 
@@ -79,8 +80,8 @@ This method assures that resources have enough bookings for tasks. First, you cr
 3. Select the **Role** dropdown and select the role for the generic resource.
 4. Select **OK**.
 
-  > [!div class="mx-imgBorder"] 
-  > ![Screenshot of using WBS to add resource](media/FAQ-Resources-to-Tasks2-4.png "Screenshot of using WBS to add resource")
+    > [!div class="mx-imgBorder"] 
+    > ![Screenshot of using WBS to add resource](media/FAQ-Resources-to-Tasks2-4.png "Screenshot of using WBS to add resource")
  
 Once you’ve completed assigning roles to the tasks in the WBS, select **Generate Project Team**. Project Service creates the minimum number of generic team members based on the roles, resourcing organization units, and project calendar by aggregating the task assignments.
 
