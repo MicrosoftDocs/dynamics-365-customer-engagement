@@ -2,7 +2,7 @@
 title: "Manage storage for Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 06/21/2018
+ms.date: 08/23/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,7 +15,7 @@ ms.assetid: cf4bf53e-4458-4fec-a837-aaa0e946d1ed
 caps.latest.revision: 4
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Manage storage 
 
@@ -41,7 +41,11 @@ You can manage your organization’s data storage capacity in connection with yo
    ![View storage consumed by each instance](../admin/media/instance-storage.png "View storage consumed by each instance")  
   
 ## Add storage to Dynamics 365 (online)  
-  
+ 
+As a global or billing administrator, you can purchase additional storage for your company on Office 365 Admin Center by following the steps below. [Learn how to find your global or billing administrator](../basics/find-administrator-support.md). 
+
+If you purchase through volume licensing or a cloud solutions provider, please contact your partner directly.  
+ 
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
   
 2. Click **Billing** > **Purchase Services**.  
