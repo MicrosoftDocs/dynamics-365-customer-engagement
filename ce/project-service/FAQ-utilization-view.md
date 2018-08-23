@@ -1,7 +1,7 @@
 ---
 
-title: What is the Utilization View and how do I get it to work? (Dynamics 365 for Project Service) | MicrosoftDocs
-description: This article describes how to soft-book project team members with Project Service.
+title: What is the utilization view and how can I use it? (Dynamics 365 for Project Service) | MicrosoftDocs
+description: This article describes the resource utilization view in Project Service.
 author: NeilWOrint 
 manager: ShellyHa
 ms.service: dynamics-365-customerservice
@@ -17,7 +17,7 @@ audience: Admin
 
 ---
 
-# What is the Utilization View and how do I get it to work?
+# What is the utilization view and how can I use it?
  
 You’ll find the Utilization View on the Project Service Resource Utilization screen. The grid shows chargeable utilization for each bookable resource.
 
