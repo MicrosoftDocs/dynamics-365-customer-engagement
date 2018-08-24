@@ -39,7 +39,7 @@ The following sections detail how global search works in [!INCLUDE[pn-dynamics-c
 
 ### Entities searchable in portal global search
 
-The following entities can be searched within a portal website provided the appropriate solution packages have been installed and search has been added to a portal. The columns that are indexed will consist of the columns found in the Portals Search view, which can be customized.  Each entity in the list has its default set of attributes indexed as listed below:
+The following entities can be searched within a portal website provided the appropriate solution packages have been installed and search has been added to a portal. The columns that are indexed will consist of the columns found in the Portals Search view, which can be customized.  Each entity in the list has its default set of attributes indexed as listed here:
 - Knowledge Article
     - Notes and attachment of a knowledge article are searchable as well. More information: [Search within file attachment content](search-file-attachment.md)
     - Only those articles are searchable which are published, and the Internal Only field is set to false.
