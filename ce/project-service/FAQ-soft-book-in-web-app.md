@@ -25,7 +25,7 @@ search.app:
 
 # How do I "soft book" resources in the web app (Project Service app v2.x)?
 
-[!INCLUDEcc-applies-to-psa-app-3.x]
+[!INCLUDE[cc-applies-to-psa-app-1.x-2.x](../../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 You can tentatively schedule or "soft book" a resource onto a project team to show you plan to assign the resource to a project. Soft bookings don’t consume a resource’s available capacity. Soft-booked team members can’t be assigned to project tasks. Only resources with the Status Hard Booked and Commit Type Committed can be assigned to tasks (assuming they have enough hard booking hours to cover the assignment effort).
 

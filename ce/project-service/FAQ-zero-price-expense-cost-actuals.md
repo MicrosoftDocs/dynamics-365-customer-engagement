@@ -25,7 +25,7 @@ search.app:
 
 # Why is the price defaulting to zero on expense cost actuals?
 
-[!INCLUDEcc-applies-to-psa-app-3.x]
+[!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
 This FAQ applies to expense actuals where the transaction class is set to Expense and transaction type is Cost.
 

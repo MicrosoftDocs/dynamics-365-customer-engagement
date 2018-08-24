@@ -25,7 +25,7 @@ search.app:
 
 # How do I see chargeable utilization for resources?
 
-[!INCLUDEcc-applies-to-psa-app-3.x]
+[!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
  
 You’ll find the Utilization View on the Project Service Resource Utilization screen. The grid shows chargeable utilization for each bookable resource.
 

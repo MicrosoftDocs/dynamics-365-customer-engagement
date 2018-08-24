@@ -25,7 +25,7 @@ search.app:
 
 # How do I assign a bookable resource to a task in the web app (Project Service app v2.x)?
 
-[!INCLUDEcc-applies-to-psa-app-2.x-1.x]
+[!INCLUDE[cc-applies-to-psa-app-1.x-2.x](../../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 There are two ways to assign a resource to a task in Project Service. You can book a resource as a team member and then assign it to a task. Or, you can create a generic team member through role assignment on tasks, generate a team, and then fulfill the backing requirements with a named resource.
 
