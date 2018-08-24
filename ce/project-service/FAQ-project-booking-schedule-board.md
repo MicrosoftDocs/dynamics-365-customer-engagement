@@ -28,7 +28,7 @@ search.app:
 
 # Can I create a project booking from the schedule board?
 
-[!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
+[!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 You can book a resource onto a project either directly on the project team tab of the project or by generating a resource requirement from a generic team member assignment and then fulfilling the generated requirement with a project team member.
 

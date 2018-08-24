@@ -24,7 +24,7 @@ search.app:
 
 # How do I assign a resource to a task?
 
-[!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
+[!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 In this FAQ, we’ll describe the three ways you can assign a resource to a task in Project Service.
 

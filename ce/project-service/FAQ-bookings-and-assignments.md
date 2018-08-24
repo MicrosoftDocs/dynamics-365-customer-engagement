@@ -24,7 +24,7 @@ search.app:
 ---
 # How are resource bookings and task assignments related?
 
-[!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
+[!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 In Project Service, named resources can be booked to a project team and assigned project tasks in two ways: 
 - The resource can be directly booked onto a project and then subsequently assigned to project tasks.

@@ -24,7 +24,7 @@ search.app:
 ---
 # Why is price defaulting to 0 on time sales actuals?
 
-[!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
+[!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 This FAQ applies to actuals where the transaction class is set to Time and transaction type is Unbilled Sales. The following three checks will help you troubleshoot why price (bill rate) is defaulting to 0 on time sales actuals.
 

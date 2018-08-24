@@ -24,7 +24,7 @@ search.app:
 ---
 # Which booking allocation method should I use to avoid overbooking?
 
-[!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
+[!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Whether you add a team member directly to a project on the Team tab, or book a resource to a project or requirement from the schedule board, there are a few different booking allocation methods you can use. This article explains how each method works, and which methods could lead to overbooking resources.
 
