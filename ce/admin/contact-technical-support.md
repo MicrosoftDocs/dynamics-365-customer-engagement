@@ -1,7 +1,7 @@
 ---
 title: "Contact Dynamics 365 Customer Engagement Technical Support | MicrosoftDocs"
 ms.custom: ""
-ms.date: 02/27/2018
+ms.date: 08/24/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,13 +16,22 @@ caps.latest.revision: 63
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Contact Technical Support 
+# Contact Technical Support
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 ## New Dynamics 365 support center 
 
 On February 14, 2018, we introduced a new Help + support experience for admins to contact a Microsoft support representative for Dynamics 365 (online). The new process will help us improve your overall support experience and drive faster issue resolution. 
+
+> [!TIP]
+> Check out these self-service help resources:
+> - View the [Office 365 Service Health Dashboard](https://portal.office.com/ServiceStatus/ServiceStatus.aspx)  
+> - Search the [Support Blog](https://community.dynamics.com/crm/b/dynamicscrmsupportblog/default.aspx) and [Community Forum](https://community.dynamics.com/product/crm/f/117.aspx)  
+> - Search the [Microsoft Knowledge Base](http://go.microsoft.com/fwlink/p/?LinkId=203050)  
+
+## More self-service help resources  
+  
 
 ### Prerequisites
 
