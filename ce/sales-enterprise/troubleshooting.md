@@ -3,12 +3,12 @@ title: "Dynamics 365 for Sales troubleshooting guide for sales people | Microsof
 description: "Follow the instructions in this topic to troubleshoot the issues you may face while working on Dynamics 365 for Sales."
 keywords: "Dynamics 365 for Sales, troubleshoot, FAQ, issue, resolution"
 ms.date: 07/20/2018
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 6a381b64-497c-476a-8d4c-98bf5da742b5
@@ -19,6 +19,13 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # Dynamics 365 for Sales troubleshooting guide for sales people

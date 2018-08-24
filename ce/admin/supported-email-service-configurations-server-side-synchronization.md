@@ -15,6 +15,11 @@ caps.latest.revision: 51
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Supported email service configurations for server-side synchronization
 

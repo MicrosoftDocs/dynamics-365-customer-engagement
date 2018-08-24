@@ -15,6 +15,10 @@ caps.latest.revision: 9
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Add products to a bundle
 

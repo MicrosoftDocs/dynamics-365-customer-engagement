@@ -5,15 +5,22 @@ keywords: "service scenario, overview, customer service, social customer service
 ms.date: 03/27/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 0c5c29b5-c4f8-43e2-b20e-65408303e53a
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Address customer service scenarios on social media with Social Engagement

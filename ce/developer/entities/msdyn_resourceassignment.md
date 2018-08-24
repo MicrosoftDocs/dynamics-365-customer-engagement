@@ -10,6 +10,10 @@ ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "jdaly"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # msdyn_resourceassignment Entity Reference
 

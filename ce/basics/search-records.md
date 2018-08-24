@@ -14,6 +14,10 @@ ms.assetid: 899ec72f-f5f3-4b87-be2d-fe53f05737dc
 caps.latest.revision: 21
 ms.author: "t-mijosh"
 manager: "ryjones"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Search for records
 

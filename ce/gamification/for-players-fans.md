@@ -1,7 +1,7 @@
 ---
 title: "Overview for players and fans in Dynamics 365 - Gamification | Microsoft Docs"
 description: "Find a collection of pointers to the most relevant help articles when participating in games and managing fantasy teams in Dynamics 365 – Gamification."
-ms.custom:
+ms.custom: 
   - dyn365-gamification
 ms.date: 05/31/2017
 ms.reviewer: ""
@@ -15,6 +15,13 @@ caps.latest.revision: 8
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 # Overview for players and fans in Gamification
 

@@ -11,6 +11,13 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: df25e314-069c-4361-abbc-e7d0dde2a596
 ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # Manage service cases using interactive dashboards

@@ -4,15 +4,14 @@ description: "Keep the product inventory updated by quickly revising the product
 keywords: "Revise"
 ms.date: 04/01/2018
 ms.service: dynamics-365-sales
-ms.custom:
+ms.custom: 
   - dyn365-sales
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: "shubhadaj"
 ms.assetid: d823053e-2f30-461f-8f2e-bc3646d0491c
-author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
 ms.reviewer: 
@@ -20,6 +19,13 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 21
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # Make revisions to a product (Sales and Sales Hub)

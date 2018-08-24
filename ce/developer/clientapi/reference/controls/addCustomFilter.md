@@ -8,6 +8,10 @@ ms.assetid: e359b-c4d9-48ac-a57b-367c2e6168c5
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # addCustomFilter (Client API reference)
 

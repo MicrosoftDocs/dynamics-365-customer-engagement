@@ -19,6 +19,13 @@ caps.latest.revision: 52
 author: "mduelae"
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook
 ## What's the best way to use Outlook and Microsoft Dynamics 365 together?  

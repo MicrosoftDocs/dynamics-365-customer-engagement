@@ -15,6 +15,11 @@ ms.assetid: f756b11d-65fc-47ac-8bea-1ba3def724f0
 caps.latest.revision: 29
 ms.author: "rdubois"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Manage Bing Maps for your organization
 

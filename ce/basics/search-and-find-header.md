@@ -14,6 +14,10 @@ ms.assetid: d0634607-b17f-4f33-aa15-e26ebed441f7
 caps.latest.revision: 2
 ms.author: "t-mijosh"
 manager: "ryjones"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Search and Find in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
 

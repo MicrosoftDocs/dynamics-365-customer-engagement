@@ -1,7 +1,7 @@
 ---
 title: "Set up and use Unified Service Desk for Dynamics 365 Customer Engagement for customer service | MicrosoftDocs"
 description: "Learn about using Unified Service Desk-related entities to configure an agent application."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -22,7 +22,13 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 tags: 
- - "MigrationHO"
+  - "MigrationHO"
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Set up and use Unified Service Desk for customer service
 Give your customer service reps immediate access to business critical information so they can quickly engage with customers and address questions and issues using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] gives you a configurable framework to quickly build applications for call centers so agents get a unified view of the customer data stored in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement. You can aggregate customer information from different areas in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement into one integrated desktop that provides a 360° view of customer interactions. For more information, see [Overview of Unified Service Desk](../unified-service-desk/admin/overview-unified-service-desk.md).  

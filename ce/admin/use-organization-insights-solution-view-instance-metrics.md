@@ -15,6 +15,11 @@ caps.latest.revision: 5
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Use the Organization Insights solution to view metrics about your instance 
 

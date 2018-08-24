@@ -1,7 +1,7 @@
 ---
 title: "NextRole Tag Unified Service Desk for Dynamics 365 Customer Enagagement| MicrosoftDocs"
 description: " The following sample finds a control one position after the second control with a push button role. "
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -20,6 +20,12 @@ caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # NextRole Tag Unified Service Desk
 The `<NextRole>` tag functions like the `<Next>` tag, but it applies to the accessibility role of the control. The attributes of the tag are same as the `<Next>` tag. The following sample finds a control one position after the second control with a push button role.  

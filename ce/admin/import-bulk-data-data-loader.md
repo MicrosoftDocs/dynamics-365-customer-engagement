@@ -15,6 +15,11 @@ caps.latest.revision: 6
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Preview feature: Import bulk data with the Data Loader 
 

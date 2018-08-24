@@ -8,6 +8,10 @@ ms.assetid: 6c57db71-a76d-404c-852e-9c36a1c549ee
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getFormType (Client API reference)
 

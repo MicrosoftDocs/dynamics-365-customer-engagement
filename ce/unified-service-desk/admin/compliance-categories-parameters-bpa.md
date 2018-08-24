@@ -15,6 +15,11 @@ ms.assetid: 846EC46E-EC26-4048-9E32-2F5D39D9A95E
 author: "kabala123"
 ms.author: "kabala"
 manager: "shujoshi"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Best practice rule categories and parameters
 

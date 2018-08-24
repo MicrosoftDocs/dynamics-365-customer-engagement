@@ -17,6 +17,10 @@ caps.latest.revision: 73
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Azure integration with Customer Engagement
 

@@ -4,7 +4,7 @@ description: "Learn how to change the base URL of a portal."
 ms.date: 06/08/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 389E8DA3-201A-4585-92A0-61258F7EC735
@@ -13,6 +13,13 @@ ms.author: shjais
 manager: shubhadaj
 ms.reviewer: 
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Change the base URL of a portal

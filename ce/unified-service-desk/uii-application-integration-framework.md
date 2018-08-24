@@ -1,7 +1,7 @@
 ---
 title: "UII Application Integration Framework | MicrosoftDocs"
 description: "Learn information about UII Application Integration Framework that enables the integration and automation of applications."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 11/29/2016
 ms.reviewer: ""
@@ -20,6 +20,12 @@ caps.latest.revision: 6
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # UII Application Integration Framework
 The [!INCLUDE[pn_application_integration_framework_aif](../includes/pn-application-integration-framework-aif-md.md)] in [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-inteface-integration-uii-md.md)] enables the integration and automation of applications. Through [!INCLUDE[pn_aif_acronym](../includes/pn-aif-acronym-md.md)], applications can be launched and automated for a variety of purposes, for example, to reduce copy and paste. It also provides session management capabilities, which allows applications to be isolated from each other based on a session key. This separation helps to enforce data security and easier application management for the user.  

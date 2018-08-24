@@ -13,6 +13,13 @@ applies_to:
   - Dynamics 365 Version 9.x
 ms.assetid: d1446a95-14bf-4b15-a905-72fce07f4c76
 ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # Configure interactive dashboards in the Customer Service Hub

@@ -14,6 +14,10 @@ ms.assetid: a3e6a322-18f7-48bd-aaea-bff7675d1378
 caps.latest.revision: 35
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Customize Dynamics 365 for phones and tablets to work for your business
 

@@ -15,6 +15,10 @@ caps.latest.revision: 60
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Write a listener application for a Azure solution
 

@@ -1,7 +1,7 @@
 ---
 title: "View the leaderboard in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how you can find out about your ranking in the games you participate."
-ms.custom:
+ms.custom: 
   - dyn365-gamification
 ms.date: 05/31/2017
 ms.reviewer: ""
@@ -15,6 +15,13 @@ caps.latest.revision: 9
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 # See how you rank against other players on a Gamification leaderboard
 

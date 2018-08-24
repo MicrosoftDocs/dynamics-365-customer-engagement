@@ -6,7 +6,7 @@ ms.date: 09/30/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 424d7f29-de44-4ce0-94f1-be8777ad6485
@@ -19,6 +19,10 @@ ms.tgt_pltfrm:
 caps.latest.revision: 16
 topic-status: Drafting
 tags: 
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 # Customize Dynamics 365 Power BI content packs

@@ -5,15 +5,22 @@ keywords: "security roles, game manager, commissioner, permissions"
 ms.date: 03/19/2018
 ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 997fe3ba-01d7-f0fb-6111-5340f6ff7bab
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-gamification
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 
 # Understand security roles used in Gamification

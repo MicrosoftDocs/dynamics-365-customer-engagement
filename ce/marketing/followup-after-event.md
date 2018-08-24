@@ -3,12 +3,12 @@ title: "Evaluate your event and follow up with attendees (Dynamics 365 for Marke
 description: "Learn what you can do to optimize the benefits gained from your event by collecting feedback, analyzing attendance data, and handing leads off to sales from Dynamics 365 for Marketing"
 keywords: "events; event management; survey; attendance"
 ms.date: 04/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: ebd5f931-44f3-409b-836a-1c00dd17883a
@@ -16,6 +16,13 @@ author: kamaybac
 ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Follow up after the event

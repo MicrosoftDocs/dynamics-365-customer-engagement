@@ -1,7 +1,7 @@
 ---
 title: "Get help with Social Engagement | Microsoft Docs"
 description: "Learn where you can find helpful resources to get you started or troubleshoot an issue."
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
 ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
@@ -11,6 +11,13 @@ ms.assetid: f191bbcd-1f93-42dc-8d6d-6aa8dae8c8f7
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 # Get help with Social Engagement
 We maintain [online help](index.md) and a first-use experience to get started with [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]:  

@@ -1,7 +1,6 @@
 ---
 title: "What&#39;s new for developers (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Information about the new features and capabilities for Dynamics 365 Customer Engagement is available at our new content site on docs.microsoft.com: What's new for developers in Dynamics 365 Customer Engagement.
-More information about developer content availability across MSDN and docs.ms.com in the current release: Dynamics 365 Customer Engagement SDK Release history."
+description: "Information about the new features and capabilities for Dynamics 365 Customer Engagement is available at our new content site on docs.microsoft.com: What's new for developers in Dynamics 365 Customer Engagement. More information about developer content availability across MSDN and docs.ms.com in the current release: Dynamics 365 Customer Engagement SDK Release history."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -17,8 +16,12 @@ author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
 tags: 
- - "aug2017" 
- - "MigrationHO"
+  - "aug2017"
+  - "MigrationHO"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # What&#39;s new for developers
 

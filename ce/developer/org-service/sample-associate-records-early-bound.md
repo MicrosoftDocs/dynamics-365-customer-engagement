@@ -6,7 +6,7 @@ ms.date: 12/15/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 6e711355-6041-4db9-9932-375a8e8705df
 author: JimDaly
@@ -15,12 +15,16 @@ manager: jdaly
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-helpviewer_keywords:
+helpviewer_keywords: 
   - "sample for associating records (early bound)"
   - "associating records (early bound) sample, early-bound class samples"
   - "early-bound class samples, associating records (early bound) sample"
   - "samples for early-bound classes, associating records (early bound) sample"
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Associate records (early bound)

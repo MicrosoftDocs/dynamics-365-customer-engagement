@@ -15,6 +15,11 @@ caps.latest.revision: 24
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # View and take action on bulk deletion jobs
 

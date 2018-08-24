@@ -14,6 +14,13 @@ ms.assetid: 613288f5-1c9a-420e-ba06-8d1b1f6675b0
 caps.latest.revision: 141
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Troubleshooting and things to know 
 

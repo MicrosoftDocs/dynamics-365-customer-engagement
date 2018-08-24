@@ -14,6 +14,10 @@ ms.assetid: oauth-cross-origin-resource-sharing-connect-single-page-application
 caps.latest.revision: 11
 author: "JimDaly"
 ms.author: "jdaly"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365
 

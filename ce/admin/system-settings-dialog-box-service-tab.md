@@ -15,6 +15,11 @@ ms.assetid: 926c05fe-4499-4f5b-ab0c-39d29589f094
 caps.latest.revision: 29
 ms.author: "shujoshi"
 manager: "sakudes"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # System Settings dialog box - Service tab
 

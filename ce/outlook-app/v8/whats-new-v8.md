@@ -9,13 +9,20 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"  
+  - "Dynamics 365 (online)"
   - "Dynamics 365 Version 8.x"
 ms.assetid: db584cf3-6662-46507a8e5-8b30a668e9aa
 caps.latest.revision: 99
 author: "mkaur"
 ms.author: "mkaur"
 manager: "brycho"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # What's new with Dynamics 365 App for Outlook version 8.2
 

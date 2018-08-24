@@ -15,6 +15,11 @@ caps.latest.revision: 51
 author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Enable SharePoint document management for specific entities
 

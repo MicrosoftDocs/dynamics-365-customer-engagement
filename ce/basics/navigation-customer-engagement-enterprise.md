@@ -15,6 +15,10 @@ caps.latest.revision: 58
 author: "brycho"
 ms.author: "brycho"
 manager: "amyla"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Find your way around [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement apps
 

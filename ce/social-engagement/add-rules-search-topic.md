@@ -5,15 +5,22 @@ keywords: "search topic, search rule, Social Engagement"
 ms.date: 08/22/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 9d65050a-4d34-4d87-8361-1954114da289
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Add rules to a search topic

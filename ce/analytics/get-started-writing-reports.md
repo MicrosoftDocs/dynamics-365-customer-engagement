@@ -16,7 +16,11 @@ author: "Mattp123"
 ms.author: "matp"
 manager: "kvivek"
 tags: 
- - "MigrationHO"
+  - "MigrationHO"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Overview of reports
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]

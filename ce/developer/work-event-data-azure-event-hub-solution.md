@@ -9,11 +9,15 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-    - "Dynamics 365 (online)"
+  - "Dynamics 365 (online)"
 ms.assetid: 53e5add8-25e0-458f-b82f-aac60c43fcab
 caps.latest.revision: 12
 author: "JimDaly"
 ms.author: "jdaly"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Work with Customer Engagement event data in your Azure Event Hub solution
 

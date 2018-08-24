@@ -15,6 +15,11 @@ caps.latest.revision: 15
 author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Analyze and improve data query performance
 
