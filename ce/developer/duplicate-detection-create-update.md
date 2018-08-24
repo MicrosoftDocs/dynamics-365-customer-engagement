@@ -17,6 +17,10 @@ caps.latest.revision: 25
 author: "SushantSikka"
 ms.author: "susikka"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Manage duplicate detection for create and update operations

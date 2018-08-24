@@ -15,6 +15,11 @@ caps.latest.revision: 16
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Dynamics 365 (online) Government - Feature availability
 

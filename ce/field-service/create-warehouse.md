@@ -1,6 +1,6 @@
 ---
 title: "Create a warehouse (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: 14811327-a740-4d02-815f-fc908421fbc2
 caps.latest.revision: 12
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Create a warehouse to track inventory (Field Service)
 

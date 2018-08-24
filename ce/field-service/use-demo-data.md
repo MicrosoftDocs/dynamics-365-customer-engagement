@@ -15,6 +15,13 @@ ms.assetid: c7dc07tc-4978-41a9-8542-4f0b0a52a990
 caps.latest.revision: 1
 ms.author: "mkaur"
 manager: "brycho"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Experiment with demo data (Field Service)
 

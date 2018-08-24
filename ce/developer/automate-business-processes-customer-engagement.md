@@ -18,6 +18,10 @@ caps.latest.revision: 51
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Automate your business processes in Customer Engagement
 

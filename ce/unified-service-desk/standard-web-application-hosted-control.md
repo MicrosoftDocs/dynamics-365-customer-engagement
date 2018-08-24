@@ -1,7 +1,7 @@
 ---
 title: "Standard Web Application (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about Standard Web Application type of hosted control in Unified Service Desk."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -20,6 +20,12 @@ caps.latest.revision: 12
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Standard Web Application (Hosted Control)
 The **Standard Web Application** hosted control type is similar to the **CRM Page** type except that it is intended to host non-[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] pages, such as external web pages, and provides script injection for relevant features of external web pages. Like the **CRM Page** hosted control, these pages can be automated. The preferred method of automating is through [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] injection including calling [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions that are already defined in the page or manipulate the DOM. The `RunScript` action can also be used to obtain values from the page.  

@@ -15,6 +15,10 @@ caps.latest.revision: 28
 author: "shubhadaj"
 ms.author: "shujoshi"
 manager: "sakudes"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Use the workplace calendar
 

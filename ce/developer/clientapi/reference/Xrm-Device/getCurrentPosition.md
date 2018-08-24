@@ -8,6 +8,10 @@ ms.assetid: 062a52d8-170c-4e98-b48a-ac99ec759f83
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getCurrentPosition (Client API reference)
 

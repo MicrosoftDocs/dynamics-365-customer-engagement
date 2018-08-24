@@ -3,7 +3,7 @@ title: Upgrade from Interactive Service Hub to the Customer Service Hub app | Mi
 description: Understand the upgrade path from Interactive Service Hub to the Customer Service Hub application
 keywords: Customer Service Hub; Interactive service hub; Upgrade from Interactive Service hub to the Customer Service Hub in Microsoft Dynamics 365 (online) version 9.0
 author: anjgupta
-applies_to: Dynamics 365 (online) 
+applies_to: Dynamics 365 (online)
 ms.author: anjgup
 manager: shujoshi
 ms.date: 07/12/2018
@@ -11,6 +11,13 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: b57d46aa-006b-4805-8afa-595fce9c2457
 ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # Upgrade from Interactive Service hub to the Customer Service Hub in Microsoft Dynamics 365 (online), version 9.0

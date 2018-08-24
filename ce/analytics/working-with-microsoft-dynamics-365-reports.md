@@ -15,7 +15,11 @@ caps.latest.revision: 7
 author: "Mattp123"
 ms.author: "matp"
 tags: 
- - "MigrationHO"
+  - "MigrationHO"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Work with Dynamics 365 reports
 

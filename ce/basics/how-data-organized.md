@@ -14,6 +14,10 @@ ms.assetid: 70c55a33-dd08-44bc-bb9c-0f3732aa30a9
 caps.latest.revision: 5
 author: "brycho"
 ms.author: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Understanding how data is organized
 

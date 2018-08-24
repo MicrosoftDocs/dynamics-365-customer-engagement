@@ -18,7 +18,11 @@ caps.latest.revision: 19
 ms.author: "matp"
 manager: "kvivek"
 tags: 
- - "Links to topic not migrated"
+  - "Links to topic not migrated"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Change icons for custom entities
 

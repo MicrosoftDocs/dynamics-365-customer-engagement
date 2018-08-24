@@ -19,6 +19,10 @@ caps.latest.revision: 21
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Set negative prices in opportunities, quotes, and sales orders
 

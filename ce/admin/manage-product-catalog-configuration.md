@@ -15,6 +15,11 @@ ms.assetid: 9e85b68f-4c35-4e41-aebc-75da775a5db4
 caps.latest.revision: 30
 ms.author: "rdubois"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Manage product catalog configuration
 

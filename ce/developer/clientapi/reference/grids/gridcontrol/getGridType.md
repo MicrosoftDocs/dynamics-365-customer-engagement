@@ -8,6 +8,10 @@ ms.assetid: a441c08c-df32-433e-b666-4253f2cf878c
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getGridType (Client API reference)
 

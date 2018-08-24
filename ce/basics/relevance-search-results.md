@@ -6,7 +6,7 @@ ms.date: 07/27/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 1de4065e-f361-4d11-a8bb-bb7c0d0c686b
 author: shubhadaj
@@ -17,6 +17,10 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 68
 topic-status: Drafting
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 
 # Use Relevance Search for faster, comprehensive search results

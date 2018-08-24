@@ -15,6 +15,11 @@ ms.assetid: acaff4e5-1b68-4630-8d72-22e6f3c66e89
 caps.latest.revision: 13
 ms.author: "shujoshi"
 manager: "sakudes"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Create templates for articles
 

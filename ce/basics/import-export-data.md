@@ -11,6 +11,10 @@ ms.assetid: fe4feb5a-abd2-47d6-a210-0d31791c1e98
 caps.latest.revision: 4
 author: "jimholtz"
 ms.author: "jimholtz"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Import and export data
 

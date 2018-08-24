@@ -13,6 +13,10 @@ ms.date: 04/24/2018
 ms.service: crm-online
 ms.topic: article
 ms.assetid: 82892cd3-3436-4677-b96b-f2ccd0a4f078
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Sub-Grid properties overview
 

@@ -14,6 +14,10 @@ ms.assetid: feb3e634-7c60-46fd-8b92-3f5682b1570b
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Download tools from NuGet 
 

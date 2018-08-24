@@ -9,6 +9,10 @@ ms.assetid: a96fff7c-814e-4fa1-98b6-7a2875ee0234
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Authentication helper for the Online Management API 
 

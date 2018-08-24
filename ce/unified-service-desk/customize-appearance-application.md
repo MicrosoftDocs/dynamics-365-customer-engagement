@@ -1,7 +1,7 @@
 ---
 title: "Customize the appearance of your application | MicrosoftDocs"
 description: "Learn about customizing the appearance of Unified Service Desk login screen, splash screen, and the client application to change the branding and look and feel to align with your organization branding."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -20,6 +20,12 @@ caps.latest.revision: 9
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Customize the appearance of your application
 You can customize the appearance of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] login screen, splash screen, and the client application to change the branding and look and feel to align with your organization branding.  

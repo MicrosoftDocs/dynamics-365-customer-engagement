@@ -5,15 +5,22 @@ keywords: "connect, connections, integration, dynamics 365"
 ms.date: 11/16/2017
 ms.service: dynamics-365-marketing
 ms.topic: get-started-article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 7b9ac951-beb1-46e7-a585-edadd941a3df
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Manage connections in Social Engagement

@@ -15,6 +15,10 @@ caps.latest.revision: 19
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use XRM tooling with classes generated using the code-generation tool
 

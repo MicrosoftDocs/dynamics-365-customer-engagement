@@ -15,6 +15,11 @@ ms.assetid: 1f07c7ea-9d85-49e6-a41d-7d49841340dd
 caps.latest.revision: 27
 ms.author: "shujoshi"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Define subjects to categorize cases, products, and articles
 

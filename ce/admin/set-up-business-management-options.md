@@ -15,6 +15,11 @@ caps.latest.revision: 23
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Set up Business Management options
 <!-- This is a topic linked from Help and is not in the TOC. -->

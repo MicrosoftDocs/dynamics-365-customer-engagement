@@ -15,6 +15,11 @@ caps.latest.revision: 24
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Connect Dynamics 365 (online) to Exchange Server (on-premises)
 

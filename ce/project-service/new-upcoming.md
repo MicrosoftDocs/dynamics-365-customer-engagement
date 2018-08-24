@@ -1,20 +1,24 @@
 ---
-
 title: New and upcoming features in Project Service | Dynamics 365
 description: New and planned features for Project Service Automation
 author: krbjoran
 manager: ShellyHa
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
 ms.date: 7/30/2018
 ms.topic: article
 ms.prod: 
-ms.service: business-applications
 ms.technology: 
 ms.author: krbjoran
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
 ---
 # What's new in Project Service
 

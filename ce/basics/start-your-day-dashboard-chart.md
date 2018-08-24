@@ -14,6 +14,10 @@ ms.assetid: 959a2825-6da6-4e64-9c5b-7fda8c0869a8
 caps.latest.revision: 5
 author: "brycho"
 ms.author: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Start your day with a dashboard
 

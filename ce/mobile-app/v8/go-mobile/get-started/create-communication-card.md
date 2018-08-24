@@ -14,6 +14,13 @@ author: "jimholtz"
 ms.assetid: 632e9436-a0ed-4986-b30a-9f67b7e7072d
 caps.latest.revision: 6
 ms.author: "mkaur"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Create a communication card in Dynamics 365 for phones and tablets
 

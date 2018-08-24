@@ -1,7 +1,7 @@
 ---
 title: "Keyboard shortcuts for panels in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about the keyboard shortcuts for panels in Unified Service Desk"
-ms.custom:
+ms.custom: 
   - dyn365-a11y
   - dyn365-USD
 ms.date: 08/23/2017
@@ -15,6 +15,12 @@ caps.latest.revision: 15
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Keyboard shortcuts for panels in Unified Service Desk
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] now lets you cycle through all the active panels using a predefined keyboard shortcut and also define keyboard shortcuts to directly access individual panels in the panel layout.  

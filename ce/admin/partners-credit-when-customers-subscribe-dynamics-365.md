@@ -15,6 +15,11 @@ caps.latest.revision: 40
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "jackiesm"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # For partners -- Get the credit when your customers subscribe
 

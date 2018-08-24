@@ -16,6 +16,10 @@ caps.latest.revision: 22
 author: "matp"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Properties dialog box
 

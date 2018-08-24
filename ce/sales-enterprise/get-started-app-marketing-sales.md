@@ -15,6 +15,13 @@ caps.latest.revision: 46
 author: "shubhadaj"
 ms.author: "shujoshi"
 manager: "sakudes"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Get started with in-app marketing (Sales)
 

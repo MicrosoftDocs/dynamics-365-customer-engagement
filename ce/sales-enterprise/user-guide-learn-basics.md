@@ -5,7 +5,7 @@ keywords: "Get started; understand data; quick create; Sales"
 ms.date: 04/01/2018
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 928b39d6-4b1a-4b7b-b056-f4b7868c3a57
 author: shubhadaj
@@ -13,8 +13,15 @@ ms.author: shujoshi
 manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-sales
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]

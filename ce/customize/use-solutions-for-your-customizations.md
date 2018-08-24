@@ -17,7 +17,11 @@ ms.assetid: f993c4ed-1fc3-4e47-bef1-d38695ddb11a
 caps.latest.revision: 57
 ms.author: "matp"
 manager: "kvivek"
---- 
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
+---
 <a name="BKMK_UsingDefaultSolution"></a>   
 
 # Use the default solution to customize  

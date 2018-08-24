@@ -14,6 +14,10 @@ ms.assetid: ee0b24ea-c0f5-4f6a-bd66-53b7617f62cc
 caps.latest.revision: 9
 author: "KumarVivek"
 ms.author: "kvivek"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use the Category entity to categorize Dynamics 365 records
 

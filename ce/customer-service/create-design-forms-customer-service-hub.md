@@ -1,7 +1,7 @@
 ---
 title: Create and design forms for Customer Service Hub | Microsoft Docs
 description: Know how to create and design main forms for Customer Service Hub
-keywords: Create and design forms; Main forms; Customer service; Customer Service Hub; Dynamics 365; Main form supported entities; Types of forms; Assign form order  
+keywords: Create and design forms; Main forms; Customer service; Customer Service Hub; Dynamics 365; Main form supported entities; Types of forms; Assign form order
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
@@ -13,6 +13,13 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: d1efcf5e-988b-4e0c-bf11-2dcde1ea739f
 ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # Create and design forms for Customer Service Hub

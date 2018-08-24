@@ -4,7 +4,7 @@ description: "Learn how to customize content by using content snippets."
 keywords: ""
 ms.date: 01/26/2018
 ms.service: dynamics-365-customerservice
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.topic: article
 ms.assetid: 64f9ec14-c22a-4337-af29-fc8b512cea63
@@ -15,6 +15,13 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Customize content by using content snippets

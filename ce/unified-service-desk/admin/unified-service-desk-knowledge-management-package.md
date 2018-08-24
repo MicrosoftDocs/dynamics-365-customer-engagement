@@ -1,7 +1,7 @@
 ---
 title: "Unified Service Desk for Dynamics 365 Customer Engagement – Knowledge Management package | MicrosoftDocs"
 description: "Overview of the Knowledge Management sample application."
-ms.custom:
+ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -21,6 +21,11 @@ caps.latest.revision: 19
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Knowledge Management sample application package 
 [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] provides a configurable framework for quickly building applications for call centers so the customer service reps get a unified view of the customer data stored in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] or any other application.  

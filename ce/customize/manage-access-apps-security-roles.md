@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
   - dyn365-deflc
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
   - "powerapps"
@@ -20,6 +20,10 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 11
 topic-status: Drafting
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 # Manage access to apps by using security roles

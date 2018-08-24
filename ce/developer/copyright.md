@@ -15,6 +15,10 @@ author: "ReneeW-CPub"
 ms.author: "renwe"
 manager: "amyla"
 robots: noindex,nofollow
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Copyright
 
