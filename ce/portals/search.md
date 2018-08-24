@@ -17,27 +17,27 @@ topic-status: Drafting
 
 # Search
 
-In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal, you can search for records across multiple entities by using portal’s global search functionality. You can also search within records of entity list using entity list search functionality. 
+In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal, you can search for records across multiple entities by using portal’s global search functionality. You can also search within records of entity lists using entity list search functionality. 
 
-Entity list search functionality in portal uses FetchXML in the backend to search the columns defined in entity list and then display results. 
+Entity list search functionality in the portal uses FetchXML in the back end to search the columns defined in the entity list and then display the results. 
 
-Global search uses an external search index which is based on Lucene.Net and is used to search within multiple entities and fields at once.
+Global search uses an external search index that is based on Lucene.Net and is used to search within multiple entities and fields at once.
 
-# Global search
+## Global search
 
 Global search of [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal allows you to search for records across multiple entities. It also allows you to search across multiple columns and configure what columns of an entity would be searchable.
 
-A few benefits of global search are:
-- Finds matches to any word in the search term in any field in the entity. Matches can include inflectional words like stream, streaming, or streamed.
-- Returns results from all searchable entities in a single list sorted by relevance, based on factors like number of words matched, or their proximity to each other in the text.
-- Highlights matches in the search results.
-- Provides facet options which can be used to filter down search results further.
+Among the benefits of global search are its ability to:
+- Find matches to any word in the search term in any field in the entity. Matches can include inflectional words like stream, streaming, or streamed.
+- Return results from all searchable entities in a single list sorted by relevance, based on factors like number of words matched, or their proximity to each other in the text.
+- Highlight matches in the search results.
+- Provide facet options that can be used to further filter search results.
 
-In global search, the better the match, the higher it appears in the results. A match has a higher relevancy if more words from the search term are found in close proximity to each other. The smaller the amount of text where the search words are found, the higher the relevancy. For example, if you find the search words in a company name and address, it might be a better match than the same words found in a large article, far apart from each other. Because the results are returned in a single list, you can see a mix of records displayed one after another and matched works are highlighted. 
+In global search, the better the match, the higher it appears in the results. A match has a higher relevancy if more words from the search term are found in close proximity to each other. The smaller the amount of text where the search words are found, the higher the relevancy. For example, if you find the search words in a company name and address, it might be a better match than the same words found in a large article, far apart from each other. Because the results are returned in a single list, you can see a mix of records displayed one after another, with matched works highlighted. 
 
-Below are the details of how global search works in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal and various configuration options available.
+The following sections detail how global search works in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal and describe the various configuration options available.
 
-## Entities searchable in portal global search
+### Entities searchable in portal global search
 
 The following entities can be searched within a portal website provided the appropriate solution packages have been installed and search has been added to a portal. The columns that are indexed will consist of the columns found in the Portals Search view, which can be customized.  Each entity in the list has its default set of attributes indexed as listed below:
 - Knowledge Article
@@ -60,7 +60,7 @@ The following entities can be searched within a portal website provided the appr
 > [!NOTE]
 > Apart from the entities listed above, no other entity can be enabled for global search in a portal.
 
-## Fields searchable in global search
+### Fields searchable in global search
 
 All the fields available in the view defined by the Search/IndexQueryName site setting for any entity are indexed in global search and are searchable. 
 Default value for Search/IndexQueryName is “Portal Search”.
@@ -70,7 +70,7 @@ If the view is not available for any entity, it is not indexed, and the results 
 > [!NOTE]
 > If you change the value of Search/IndexQueryName site setting, you need to trigger a manual re-index of the build using steps defined in the [Rebuild full search index](#rebuild-full-search-index) section.
 
-## Related site settings
+### Related site settings
 
 Following site settings are related to global search:
 
@@ -87,7 +87,7 @@ Following site settings are related to global search:
 | KnowledgeManagement/DisplayNotes | True   | Indicates whether to index attachments of knowledge base articles. By default, it is set to False. |
 |||
 
-## Related content snippets
+### Related content snippets
 
 Following content snippets are related to global search:
 
