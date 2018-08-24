@@ -73,6 +73,8 @@ If the view is not available for any entity, it is not indexed and the results a
 
 ## Related site settings
 
+<!--Note from editor: The Search/Query row shows a strikethrough line through part of it in preview. I'm not sure why or if that's a problem.-->
+
 The following site settings are related to global search:
 
 | Name    | Default value     | Description       |
@@ -92,7 +94,7 @@ The following site settings are related to global search:
 
 The following content snippets are related to global search:
 
-| Name   | Default Value  | Description   |
+| Name   | Default value  | Description   |
 |------------------|-----------------|--------------------|
 | Header/Search/FilterLabel| Search Filter| |
 | Header/Search/Label| Search| This content snippet determines the watermark text shown in the search box in portal header.<br>![Search label](media/search-label.png "Search label")    |
