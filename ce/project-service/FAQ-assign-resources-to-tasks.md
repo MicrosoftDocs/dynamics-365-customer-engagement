@@ -13,9 +13,18 @@ ms.service: business-applications
 ms.technology: Dynamics 365 for Project Service 3.x
 ms.author: john.burrows
 audience: Admin
----
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  ---
 
 # How do I assign a resource to a task?
+
+[!INCLUDEcc-applies-to-psa-app-3.x]
 
 In this FAQ, we’ll describe the three ways you can assign a resource to a task in Project Service.
 
@@ -65,7 +74,7 @@ With this method you create a placeholder or generic resource that describes the
     > [!div class="mx-imgBorder"] 
     > ![Screenshot of generating resource requirement](media/FAQ-Resources-to-Tasks-5.png "Screenshot of generating resource requirement")
  
-7.	Select **Book** for the generic resource. You can then use the Schedule Board to find and book a real resource. You can also submit the requirement for fulfillment by a resource manager.
+7.	Select **Book** for the generic resource. You can then use the schedule board to find and book a real resource. You can also submit the requirement for fulfillment by a resource manager.
 
     > [!div class="mx-imgBorder"] 
     > ![Screenshot of booking generic resource](media/FAQ-Resources-to-Tasks-6.png "Screenshot of booking generic resource")

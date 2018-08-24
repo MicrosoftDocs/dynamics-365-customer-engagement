@@ -1,6 +1,6 @@
 ---
 
-title: How do I assign a bookable resource to a task (applies to app v2.x)? (Dynamics 365 for Project Service) | MicrosoftDocs
+title: How do I assign a bookable resource to a task in the web app (Project Service app v2.x)? (Dynamics 365 for Project Service) | MicrosoftDocs
 description: An overview of the ways you can assign bookable resources in Dynamics 365 Project Service.
 author: NeilWOrint 
 manager: ShellyHa
@@ -14,9 +14,18 @@ ms.service: business-applications
 ms.technology: Dynamics 365 Project Service 2.x on platform version 9.x
 ms.author: john.burrows
 audience: Admin
----
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  ---
 
-# How do I assign a bookable resource to a task (applies to app v2.x)?
+# How do I assign a bookable resource to a task in the web app (Project Service app v2.x)?
+
+[!INCLUDEcc-applies-to-psa-app-2.x-1.x]
 
 There are two ways to assign a resource to a task in Project Service. You can book a resource as a team member and then assign it to a task. Or, you can create a generic team member through role assignment on tasks, generate a team, and then fulfill the backing requirements with a named resource.
 
@@ -98,7 +107,7 @@ You can open the backing resource requirement for the generic team member by sel
 > [!div class="mx-imgBorder"] 
 > ![Screenshot of opening backing resource requirement](media/FAQ-Resources-to-Tasks2-7.png "Screenshot of opening backing resource requirement")
 
-Select **Book** for the generic resource, and then you can use the Schedule Board to find and book a real resource. You can also submit the requirement for fulfillment by a resource manager by selecting **Submit Request**.
+Select **Book** for the generic resource, and then you can use the schedule board to find and book a real resource. You can also submit the requirement for fulfillment by a resource manager by selecting **Submit Request**.
 
 When the generic resource is fulfilled with a named resource, the generic resource is removed from the team and the task assignments for the generic resource are assigned to the named resource that fulfilled the generic resource’s resource requirement.
  

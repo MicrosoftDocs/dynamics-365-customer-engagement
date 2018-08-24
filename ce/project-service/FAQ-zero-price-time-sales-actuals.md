@@ -14,9 +14,18 @@ ms.service: business-applications
 ms.technology: 
 ms.author: rumant
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
 ---
 # Why is price defaulting to 0 on time sales actuals?
+
+[!INCLUDEcc-applies-to-psa-app-3.x]
+
 This FAQ applies to actuals where the transaction class is set to Time and transaction type is Unbilled Sales. The following three checks will help you troubleshoot why price (bill rate) is defaulting to 0 on time sales actuals.
 
 ## Check 1: Identify the sales price list for the project

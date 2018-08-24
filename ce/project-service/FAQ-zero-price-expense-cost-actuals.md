@@ -14,10 +14,19 @@ ms.service: business-applications
 ms.technology: 
 ms.author: rumant
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
 ---
 
 # Why is the price defaulting to zero on expense cost actuals?
+
+[!INCLUDEcc-applies-to-psa-app-3.x]
+
 This FAQ applies to expense actuals where the transaction class is set to Expense and transaction type is Cost.
 
 ## Troubleshooting cost rates on expense cost actuals

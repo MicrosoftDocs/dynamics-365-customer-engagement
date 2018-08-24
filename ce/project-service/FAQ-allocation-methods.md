@@ -14,9 +14,17 @@ ms.service: business-applications
 ms.technology: Microsoft Dynamics 365 for Project Service 2.x and Microsoft Dynamics 365 for Project Service 3.x
 ms.author: john.burrows
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
 ---
 # Which booking allocation method should I use to avoid overbooking?
+
+[!INCLUDEcc-applies-to-psa-app-3.x]
 
 Whether you add a team member directly to a project on the Team tab, or book a resource to a project or requirement from the schedule board, there are a few different booking allocation methods you can use. This article explains how each method works, and which methods could lead to overbooking resources.
 

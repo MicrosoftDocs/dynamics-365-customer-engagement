@@ -14,10 +14,18 @@ ms.service: business-applications
 ms.technology: Applies to all versions of Project Service
 ms.author: rumant
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
 ---
 
 # Why is the price defaulting to zero on expense sales actuals?
+
+[!INCLUDEcc-applies-to-psa-app-3.x]
 
 This FAQ applies to expense actuals where the transaction class is set to Expense and transaction type is Unbilled Sales. The following three checks will help you troubleshoot why price (bill rate) is defaulting to 0 on expense sales actuals.
 

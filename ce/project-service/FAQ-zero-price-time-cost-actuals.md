@@ -14,10 +14,19 @@ ms.service: business-applications
 ms.technology: 
 ms.author: rumant
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
 ---
 
 # Why is the price defaulting to zero on time cost actuals?
+
+[!INCLUDEcc-applies-to-psa-app-3.x]
+
 This FAQ applies to actuals where the transaction class is set to Time and transaction type is Cost. The following three checks will help you troubleshoot why the price is defaulting to 0 on time cost actuals.
  
 ## Check 1: Identify the cost price list for the project

@@ -14,9 +14,17 @@ ms.service: business-applications
 ms.technology: 
 ms.author: john.burrows
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
 ---
 # How are resource bookings and task assignments related?
+
+[!INCLUDEcc-applies-to-psa-app-3.x]
 
 In Project Service, named resources can be booked to a project team and assigned project tasks in two ways: 
 - The resource can be directly booked onto a project and then subsequently assigned to project tasks.

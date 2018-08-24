@@ -1,6 +1,6 @@
 ---
 
-title: What is the utilization view and how can I use it? (Dynamics 365 for Project Service) | MicrosoftDocs
+title: How do I see chargeable utilization for resources? (Dynamics 365 for Project Service) | MicrosoftDocs
 description: This article describes the resource utilization view in Project Service.
 author: NeilWOrint 
 manager: ShellyHa
@@ -14,17 +14,25 @@ ms.service: business-applications
 ms.technology: Applies to all versions of Project Service
 ms.author: john.burrows
 audience: Admin
-
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
 ---
 
-# What is the utilization view and how can I use it?
+# How do I see chargeable utilization for resources?
+
+[!INCLUDEcc-applies-to-psa-app-3.x]
  
 You’ll find the Utilization View on the Project Service Resource Utilization screen. The grid shows chargeable utilization for each bookable resource.
 
 > [!div class="mx-imgBorder"] 
 > ![Screenshot of Utilization View](media/FAQ-utilization-1.png)
  
-The view is based on the Schedule Board, so you’ll find many of the same functions you’ll find there.
+The view is based on the schedule board, so you’ll find many of the same functions you’ll find there.
 The chargeable utilization calculation works as follows:
 
 - Chargeable utilization = Chargeable actual hours/resource capacity.
