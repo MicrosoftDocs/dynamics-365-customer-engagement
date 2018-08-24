@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365PS
 ---
-# Why is price defaulting to 0 on time sales actuals?
+# Why is price defaulting to zero on time sales actuals?
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
