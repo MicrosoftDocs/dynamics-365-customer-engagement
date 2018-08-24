@@ -12,7 +12,7 @@ applies_to:
   - "Dynamics 365 (online)"
 helpviewer_keywords: 
   - "lists (marketing lists), managing"
-  - "marketing lists, see 'list (marketing list) entity'"
+  - marketing lists, see 'list (marketing list) entity'
   - "adding members to lists"
   - "list (marketing list) entity, managing lists"
   - "list (marketing list) entity, adding members to lists"
@@ -23,6 +23,10 @@ caps.latest.revision: 23
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # List (marketing list) entity
 

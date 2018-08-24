@@ -6,7 +6,7 @@ ms.date: 04/02/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
   - "powerapps"
@@ -19,6 +19,10 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 25
 topic-status: Drafting
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 # Choose and configure columns in views

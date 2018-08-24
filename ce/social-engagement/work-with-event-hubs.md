@@ -5,15 +5,22 @@ keywords: "event hubs, stream analytics, authomation rule"
 ms.date: 02/20/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 80d207d4-f2df-4a04-8e39-5d09d3f44005
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Work with events from Social Engagement in Azure Event Hubs

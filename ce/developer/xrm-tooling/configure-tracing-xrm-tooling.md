@@ -15,6 +15,10 @@ caps.latest.revision: 8
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Configure tracing for XRM tooling
 

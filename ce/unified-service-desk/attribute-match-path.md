@@ -1,7 +1,7 @@
 ---
 title: "AttributeMatchPath in Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "The topic explains about the <AttributeMatchPath> element that can be utilized by a web control configuration to find the desired control on the currently loaded HTML document using the controls attributes."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -20,6 +20,12 @@ caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # AttributeMatchPath
 The `<AttributeMatchPath>` element can be utilized by a web control configuration to find the desired control on the currently loaded `HTML` document using the controls attributes. The "match path" is an ordered list of key/value pairs that is applied by iterating through every element in the `HTML``Document Object Model (DOM)`, matching attributes along the nodes of the match path. Each key represents the name of the attribute to match, and the value is matched with the assigned attribute value in the `HTML` document. After a key/value is matched, the next key/value pair in the sequence is used to compare to each element in the `DOM`. Note that when **keyn+1 = keyn**, matching with the new key/value pair begins with the next element node in the `DOM`, not with the current node.  

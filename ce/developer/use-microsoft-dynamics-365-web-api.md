@@ -15,6 +15,10 @@ caps.latest.revision: 15
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use the Dynamics 365 Customer Engagement Web API
 

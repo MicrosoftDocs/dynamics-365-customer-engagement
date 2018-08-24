@@ -3,16 +3,21 @@ title: "Dynamics 365 Customer Engagement Readme (Known Issues) | MicrosoftDocs"
 description: ""
 keywords: ""
 ms.date: 08/08/2018
-ms.service:
+ms.service: 
   - "crm-online"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 99ea6ece-c35a-4f0e-85a4-26622cd87031
 author: ReneeW-CPub
 ms.author: renwe
 manager: annbe
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 
 Dynamics 365 Customer Engagement<br>Readme / Known Issues

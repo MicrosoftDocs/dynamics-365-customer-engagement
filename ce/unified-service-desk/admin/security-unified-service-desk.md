@@ -1,7 +1,7 @@
 ---
 title: "Manage access in Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
-description: "Learn how to control user access to Unified Service Desk for Dynamics 365 Customer Engagement by using configuration and security roles." 
-ms.custom:
+description: "Learn how to control user access to Unified Service Desk for Dynamics 365 Customer Engagement by using configuration and security roles."
+ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -21,7 +21,12 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 tags: 
- - "MigrationHO"
+  - "MigrationHO"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # About access control
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration entities and the underlying [!INCLUDE[pn_user_inteface_integration_uii](../../includes/pn-user-interface-integration-uii.md)] entities are stored in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)], and you can use the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] security model to govern access to both of these entities. [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] has a robust security model that combines role-based, record-level, and field-level security to define the overall security rights that users have. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Security concepts for Microsoft Dynamics CRM](../../admin/security-concepts.md)  

@@ -5,15 +5,22 @@ keywords: "JSON, payload, metadata, event hubs, reference"
 ms.date: 08/22/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 29a876d1-1915-3517-7ff0-cc357a156dec
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # JSON reference for events from Social Engagement

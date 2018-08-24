@@ -19,6 +19,10 @@ caps.latest.revision: 17
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Release a queue item to the queue (early bound)
 

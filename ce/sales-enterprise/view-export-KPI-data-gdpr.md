@@ -5,7 +5,7 @@ keywords: "GDPR; data protection; privacy; embedded intelligence"
 ms.date: 04/18/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: ada3bf5d-f083-4e2b-947e-b402e4068392
@@ -13,6 +13,13 @@ author: KumarVivek
 ms.author: kvivek
 manager: kvivek
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # View and export KPI data (GDPR)

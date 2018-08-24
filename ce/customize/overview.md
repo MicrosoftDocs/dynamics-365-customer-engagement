@@ -17,6 +17,10 @@ caps.latest.revision: 21
 author: "Mattp123"
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 # App making and customization overview

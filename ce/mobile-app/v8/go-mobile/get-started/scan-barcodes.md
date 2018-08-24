@@ -15,6 +15,13 @@ ms.assetid: e925eea4-9958-45ba-94c2-d892a77e3f24
 caps.latest.revision: 8
 ms.author: "mkaur"
 robots: noindex
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Scan barcodes  in Dynamics 365 for phones and tablets
 

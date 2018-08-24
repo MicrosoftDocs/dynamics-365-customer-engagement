@@ -15,6 +15,11 @@ caps.latest.revision: 9
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Fixing Add License Wizard and Add Storage Wizard errors
 

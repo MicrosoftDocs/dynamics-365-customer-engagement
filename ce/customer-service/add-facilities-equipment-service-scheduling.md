@@ -13,6 +13,13 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
 ms.assetid: f50d894b-1d7f-4305-9924-5957e78eed6c
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # Add facilities and equipment for service scheduling (Customer Service)

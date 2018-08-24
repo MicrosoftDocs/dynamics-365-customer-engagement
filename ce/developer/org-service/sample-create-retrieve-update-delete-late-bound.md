@@ -20,6 +20,10 @@ caps.latest.revision: 27
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Create, retrieve, update, and delete (late bound)
 

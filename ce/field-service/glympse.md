@@ -1,6 +1,6 @@
 ---
 title: "Use the Glmpse solution to track the location of a technician (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/09/2017
 ms.service: dynamics-365-customerservice
@@ -17,6 +17,13 @@ ms.assetid: deb42702-a12a-491c-8087-e7e4bdb14b19
 caps.latest.revision: 16
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Create a purchase order (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: d0dd3b42-498f-492d-89c7-f5c3d2e11a2d
 caps.latest.revision: 20
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Create a purchase order (Field Service)
 

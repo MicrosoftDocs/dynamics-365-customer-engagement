@@ -14,6 +14,13 @@ author: "jimholtz"
 ms.assetid: d665c784-9bf1-4ca0-a30d-94d0c154506f
 caps.latest.revision: 11
 ms.author: "mkaur"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Notes in Dynamics 365 for phones and tablets
 

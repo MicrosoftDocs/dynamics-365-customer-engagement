@@ -2,7 +2,7 @@
 title: Quick help for Customer Service Hub for Dynamics 365 | MicrosoftDocs
 description: Your starting point for help of Customer Service Hub for Dynamics 365
 author: anjgupta
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
@@ -12,6 +12,13 @@ ms.topic: get-started-article
 ms.service: dynamics-365-customerservice
 ms.assetid: 67fbf2dd-28c6-415e-aa45-8247f97b3b19
 ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # Customer Service Hub Help & Training

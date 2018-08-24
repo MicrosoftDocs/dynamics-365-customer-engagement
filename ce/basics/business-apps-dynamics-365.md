@@ -14,6 +14,10 @@ author: "shubhadaj"
 ms.assetid: 15c8b19a-5e1b-4f7c-8d00-0711be8691cf
 caps.latest.revision: 22
 ms.author: "shujoshi"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Business apps in Dynamics 365 Customer Engagement
 

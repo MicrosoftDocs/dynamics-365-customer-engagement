@@ -15,6 +15,10 @@ caps.latest.revision: 7
 author: "SushantSikka"
 ms.author: "susikka"
 manager: "sakudes"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Use Postman with Web API

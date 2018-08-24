@@ -9,6 +9,10 @@ ms.assetid: 63600a55-a1f0-491f-83f6-b3252566d27e
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Quick Start Sample: Retrieve Customer Engagement instances using Online Management API 
 

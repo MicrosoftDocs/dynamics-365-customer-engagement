@@ -20,6 +20,10 @@ caps.latest.revision: 14
 author: "SushantSikka"
 ms.author: "susikka"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Enable and Disable duplicate detection

@@ -8,6 +8,10 @@ ms.assetid: 52f79803-2ce0-4ca7-8200-aec544545d62
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getEnabledProcesses (Client API reference)
 

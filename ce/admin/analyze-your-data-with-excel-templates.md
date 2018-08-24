@@ -15,6 +15,11 @@ caps.latest.revision: 20
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Analyze and share your data with Excel templates 
 

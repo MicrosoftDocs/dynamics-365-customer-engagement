@@ -8,13 +8,17 @@ ms.service: "crm-online"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to:
-    - "Dynamics 365 (online)"
+applies_to: 
+  - "Dynamics 365 (online)"
 ms.assetid: 0bf2b9d8-b3b9-4f13-afa9-3d4d43ca4391
 caps.latest.revision: 18
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Dashboard entities
 

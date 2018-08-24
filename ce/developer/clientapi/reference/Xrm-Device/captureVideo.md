@@ -8,6 +8,10 @@ ms.assetid: 9580d05a-a91f-4126-b94b-4d1068da35fa
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # captureVideo (Client API reference)
 

@@ -17,6 +17,10 @@ ms.assetid: d10c5399-7e79-413c-9b8c-9e4f402fc167
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Create and retrieve entity relationships
 

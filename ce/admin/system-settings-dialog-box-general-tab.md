@@ -15,6 +15,11 @@ caps.latest.revision: 74
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # System Settings dialog box - General tab 
 

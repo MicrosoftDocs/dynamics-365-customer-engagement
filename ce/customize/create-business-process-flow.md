@@ -17,6 +17,10 @@ caps.latest.revision: 39
 author: "Mattp123"
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Create a business process flow to standardize processes
 

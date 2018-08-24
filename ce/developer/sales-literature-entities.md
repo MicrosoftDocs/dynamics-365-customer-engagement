@@ -12,19 +12,19 @@ applies_to:
   - "Dynamics 365 (online)"
 helpviewer_keywords: 
   - "sales literature entities, sales literature items and attachments"
-  - "file attachments, see 'sales literature entities'"
-  - "CAD files, see 'sales literature entities'"
+  - file attachments, see 'sales literature entities'
+  - CAD files, see 'sales literature entities'
   - "organizing sales literature into categories and types, sales literature entities"
-  - "brochures, see 'sales literature entities'"
+  - brochures, see 'sales literature entities'
   - "literature library"
   - "sales literature items, defined and explained"
   - "marketing encyclopedia"
   - "sales literature items"
   - "sales literature entities, central repository for sales literature"
-  - "subject manager, see 'sales literature entities'"
+  - subject manager, see 'sales literature entities'
   - "sales literature entities, brochures, CAD files, and other attachments to sales literature"
   - "sales literature entities, introduction"
-  - "knowledge base, see 'sales literature entities'"
+  - knowledge base, see 'sales literature entities'
   - "sales literature entities, organizing sales literature into categories and types"
   - "sales literature entities, sales literature records"
 ms.assetid: ef65e4bf-d29c-48f6-9325-eccf8e6bba8f
@@ -32,6 +32,10 @@ caps.latest.revision: 20
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sales literature entities
 

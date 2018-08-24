@@ -17,7 +17,11 @@ author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
 tags: 
- - "PowerApps maker portal impact"
+  - "PowerApps maker portal impact"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Create business rules and recommendations to apply logic in a form
 

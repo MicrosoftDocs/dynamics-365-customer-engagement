@@ -5,15 +5,22 @@ keywords: "connections, social engagement, dynamics 365, edit, delete"
 ms.date: 01/30/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 329b1b1d-3b8c-4d97-a67d-eeb176d835bc
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Manage the connection between Dynamics 365 and Social Engagement

@@ -15,6 +15,10 @@ caps.latest.revision: 14
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Create patches to simplify solution updates
 

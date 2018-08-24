@@ -6,7 +6,7 @@ ms.date: 09/30/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: ee417009-afaf-4a63-9d8b-ef756a37decf
@@ -18,6 +18,11 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 10
 topic-status: Drafting
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 
 # Preview feature: Automatically suggest knowledge articles

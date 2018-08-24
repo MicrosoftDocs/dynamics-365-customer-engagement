@@ -1,7 +1,7 @@
 ---
 title: "CRM Page (Hosted Control) | MicrosoftDocs"
 description: "Learn about the the CRM Page hosted control type to load a URL or page from Dynamics 365. When a Dynamics 365 page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -20,6 +20,12 @@ caps.latest.revision: 13
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # CRM Page (Hosted Control)
 Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. When a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters.  

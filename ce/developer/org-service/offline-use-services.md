@@ -14,6 +14,10 @@ ms.assetid: 7bd0c158-6def-410f-987e-7a376f7a7fae
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Offline use of the Dynamics 365 services
 

@@ -13,6 +13,10 @@ ms.assetid: a3e6a322-6hf7-3hc9-aaea-bff7675d1378
 caps.latest.revision: 35
 ms.author: "rdubois"
 manager: "brycho"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 # Customize entities, relationships, and fields

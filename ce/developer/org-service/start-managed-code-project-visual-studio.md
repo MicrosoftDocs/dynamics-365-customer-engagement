@@ -14,6 +14,10 @@ ms.assetid: 7fefaeb8-5d8a-4b88-9032-a31e78970175
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Start a managed code project in Visual Studio
 

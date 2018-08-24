@@ -15,6 +15,11 @@ ms.assetid: 292d8a45-c318-408a-a545-14589d5210d2
 caps.latest.revision: 20
 ms.author: "rdubois"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Create or edit a site to specify location
 

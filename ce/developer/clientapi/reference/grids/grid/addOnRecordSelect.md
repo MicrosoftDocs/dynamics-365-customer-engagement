@@ -8,6 +8,10 @@ ms.assetid: 4bfd7f48-5db8-45ea-816f-9d590fbdf60d
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # addOnRecordSelect (Client API reference)
 

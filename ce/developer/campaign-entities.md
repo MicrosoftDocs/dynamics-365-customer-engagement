@@ -24,6 +24,10 @@ caps.latest.revision: 28
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Campaign entities
 

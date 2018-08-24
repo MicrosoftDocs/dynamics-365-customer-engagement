@@ -13,6 +13,13 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
 ms.assetid: 53a455a1-a107-4a70-9971-c6a5d59fda7a
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # Create a selection rule to determine how resources are selected for service activities (Customer Service)

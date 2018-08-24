@@ -3,12 +3,12 @@ title: "System Settings dialog box - Sales tab for Dynamics 365 Customer Engagem
 description: ""
 keywords: ""
 ms.date: 07/18/2018
-ms.service:
+ms.service: 
   - "crm-online"
-ms.custom:
+ms.custom: 
   - ""
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 08b3057d-03ad-41d0-a6b3-4770add682b2
@@ -19,6 +19,11 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 14
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 
 # System Settings dialog box - Sales tab

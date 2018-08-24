@@ -16,6 +16,11 @@ caps.latest.revision: 42
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Troubleshooting and monitoring server-side synchronization 
 

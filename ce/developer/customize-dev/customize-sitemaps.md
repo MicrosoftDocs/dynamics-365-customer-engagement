@@ -9,11 +9,15 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-    - "Dynamics 365 (online)"
+  - "Dynamics 365 (online)"
 ms.assetid: 54f00cc7-0653-423d-abe0-5344ad3711c3
 caps.latest.revision: 14
 author: "KumarVivek"
 ms.author: "kvivek"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Customize SiteMaps
 

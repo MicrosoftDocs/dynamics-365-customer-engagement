@@ -8,6 +8,10 @@ ms.assetid: d18136d2-a3cf-4440-8e6b-1703594acd79
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # addOnStageChange (Client API reference)
 

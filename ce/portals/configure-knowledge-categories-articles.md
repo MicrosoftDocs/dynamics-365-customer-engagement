@@ -1,7 +1,7 @@
 ---
 title: "Configure and manage category for knowledge articles for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create and manage a category for knowledge article."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 06/18/2018
 ms.service: dynamics-365-customerservice
@@ -13,6 +13,13 @@ ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
 manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Configure and manage category for knowledge articles
 
