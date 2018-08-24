@@ -37,12 +37,12 @@ In global search, the better the match, the higher it appears in the results. A 
 
 The following sections detail how global search works in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal and describe the various configuration options available.
 
-### Entities searchable in portal global search
+## Entities searchable in portal global search
 
 The following entities can be searched within a portal website provided the appropriate solution packages have been installed and search has been added to a portal. The columns that are indexed will consist of the columns found in the Portals Search view, which can be customized.  Each entity in the list has its default set of attributes indexed as listed here:
 - Knowledge Article
     - Notes and attachment of a knowledge article are searchable as well. More information: [Search within file attachment content](search-file-attachment.md)
-    - Only those articles are searchable which are published, and the Internal Only field is set to false.
+    - Articles are searchable only if they are published and their Internal Only field is set to false.
 - Blog 
 - Blog Post 
 - Blog Post Comment 
@@ -53,43 +53,44 @@ The following entities can be searched within a portal website provided the appr
 - Idea Comment 
 - Idea Forum 
 - Web File 
-    - Attachment content of web files are searchable as well. More information: [Search within file attachment content](search-file-attachment.md)
+    - Attachment content of web files is searchable as well. More information: [Search within file attachment content](search-file-attachment.md)
 - Web Page 
 - Incident 
 
 > [!NOTE]
-> Apart from the entities listed above, no other entity can be enabled for global search in a portal.
+> Apart from the entities listed here, no other entity can be enabled for global search in a portal.
 
-### Fields searchable in global search
+## Fields searchable in global search
 
 All the fields available in the view defined by the Search/IndexQueryName site setting for any entity are indexed in global search and are searchable. 
+
 Default value for Search/IndexQueryName is “Portal Search”.
 
-If the view is not available for any entity, it is not indexed, and the results are not displayed in global search.
+If the view is not available for any entity, it is not indexed and the results are not displayed in global search.
 
 > [!NOTE]
-> If you change the value of Search/IndexQueryName site setting, you need to trigger a manual re-index of the build using steps defined in the [Rebuild full search index](#rebuild-full-search-index) section.
+> If you change the value of the Search/IndexQueryName site setting, you need to trigger a manual re-index of the build using steps defined in the [Rebuild full search index](#rebuild-full-search-index) section.
 
-### Related site settings
+## Related site settings
 
-Following site settings are related to global search:
+The following site settings are related to global search:
 
-| Name    | Default Value     | Description       |
+| Name    | Default value     | Description       |
 |-----------------------|--------------------|-------------|
-| Search/Enabled | true  | A Boolean value that indicates whether search is enabled or not. If you set its value to false, global search in portal is turned off.<br>If you are using out-of-the-box web templates and you turn this setting off, the search box will not be displayed in header as well as on the search page. Also, no results are returned even if direct URL for search page is hit.  |
-| search/filters  | Content:adx_webpage;Events:adx_event,adx_eventschedule;Blogs:adx_blog,adx_blogpost,adx_blogpostcomment;Forums:adx_communityforum,adx_communityforumthread,adx_communityforumpost;Ideas:adx_ideaforum,adx_idea,adx_ideacomment;Issues:adx_issueforum,adx_issue,adx_issuecomment;Help Desk:incident | A collection of search logical name filter options. Defining a value here will add drop-down filter options to global search. This value should be in the form of name/value pairs, with name and value separated by a colon, and pairs separated by a semicolon. For example: "Forums:adx_communityforum,adx_communityforumthread,adx_communityforumpost;Blogs:adx_blog,adx_blogpost,adx_blogpostcomment".  |
-| Search/IndexQueryName   | Portal Search  | The name of the system view used by the portal search query to define the fields of an entity enabled which are indexed and searched.   |
-| search/query  | +(@Query) _title:(@Query) _logicalname:adx_webpage~0.9^0.2 -_logicalname:adx_webfile~0.9 adx_partialurl:(@Query) _logicalname:adx_blogpost~0.9^0.1 -_logicalname:adx_communityforumthread~0.9   | This setting adds additional weights and filters to the query which a user enters in the default search box which is displayed on portal. In the default value, @Query is the query text entered by a user.<br>For information on how to modify this value, follow [Lucene query syntax](http://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html).<br>**Note**: It is important to note that this weighting and filtering only applies to the search box which comes in default search page of the portal. If you are using liquid search tag to create your own search page, then this setting doesn’t apply. |
+| Search/Enabled | True  | A Boolean value that indicates whether search is enabled. If you set its value to false, global search in the portal is turned off.<br>If you are using out-of-the-box web templates and you turn this setting off, the search box will not be displayed in the header as well as on the search page. Also, no results are returned even if the direct URL for the search page is hit.  |
+| Search/Filters  | Content:adx_webpage;Events:adx_event,adx_eventschedule;Blogs:adx_blog,adx_blogpost,adx_blogpostcomment;Forums:adx_communityforum,adx_communityforumthread,adx_communityforumpost;Ideas:adx_ideaforum,adx_idea,adx_ideacomment;Issues:adx_issueforum,adx_issue,adx_issuecomment;Help Desk:incident | A collection of search logical name filter options. Defining a value here will add drop-down filter options to global search. This value should be in the form of name/value pairs, with name and value separated by a colon, and pairs separated by a semicolon. For example: "Forums:adx_communityforum,adx_communityforumthread,adx_communityforumpost;Blogs:adx_blog,adx_blogpost,adx_blogpostcomment".  |
+| Search/IndexQueryName   | Portal search  | The name of the system view used by the portal search query to define the fields of an entity enabled that are indexed and searched.   |
+| Search/Query  | +(@Query) \_title:(@Query) \_logicalname:adx_webpage~0.9^0.2 -\_logicalname:adx_webfile~0.9 adx_partialurl:(@Query) \_logicalname:adx_blogpost~0.9^0.1 -\_logicalname:adx_communityforumthread~0.9   | This setting adds additional weights and filters to the query that a user enters in the default search box that is displayed on the portal. In the default value, @Query is the query text entered by a user.<br>For information on how to modify this value, follow [Lucene query syntax](http://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html).<br>**Important**: This weighting and filtering only applies to the search box that comes in the default search page of the portal. If you are using a liquid search tag to create your own search page, then this setting doesn’t apply. |
 | Search/Stemmer  | English    | The language used by the portal search's stemming algorithm.   |
 | Search/FacetedView  | True   | This enables facets in the search results. When set to True, facets will be shown along with results on the search page.  |
 | Search/IndexNotesAttachments   | True    | Indicates whether the content of notes attachments in knowledge base articles and web files should be indexed. By default, it is set to False. More information: [Search within file attachment content](search-file-attachment.md)    |
-| Search/RecordTypeFacetsEntities  | Blogs:adx_blog,adx_blogpost;Forums:adx_communityforum,adx_communityforumthread,adx_communityforumpost;Ideas:adx_ideaforum,adx_idea;Downloads:annotation,adx_webfile    | This determines how the entities are grouped in Record Type facet on Search page. This setting is in the format <br>“DisplayNameinRecordTypeFacet1:logicalnameofentity1,logicalnameofentity2; DisplayNameinRecordTypeFacet2:logicalnameofentity3,logicalnameofentity4” <br>Display Name in Record Type facet will appear on the UI. This facet group will combine the result of the entities defined in the configuration.   |
+| Search/RecordTypeFacetsEntities  | Blogs:adx_blog,adx_blogpost;Forums:adx_communityforum,adx_communityforumthread,adx_communityforumpost;Ideas:adx_ideaforum,adx_idea;Downloads:annotation,adx_webfile    | This determines how the entities are grouped in Record Type facet on the Search page. This setting is in the format <br>“DisplayNameinRecordTypeFacet1:logicalnameofentity1,logicalnameofentity2; DisplayNameinRecordTypeFacet2:logicalnameofentity3,logicalnameofentity4” <br>Display Name in Record Type facet will appear on the UI. This facet group will combine the result of the entities defined in the configuration.   |
 | KnowledgeManagement/DisplayNotes | True   | Indicates whether to index attachments of knowledge base articles. By default, it is set to False. |
 |||
 
-### Related content snippets
+## Related content snippets
 
-Following content snippets are related to global search:
+The following content snippets are related to global search:
 
 | Name   | Default Value  | Description   |
 |------------------|-----------------|--------------------|
