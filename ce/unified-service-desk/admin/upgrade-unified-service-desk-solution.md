@@ -1,7 +1,7 @@
 ---
 title: "Upgrade a Unified Service Desk for Dynamics 365 Customer Engagement solution | MicrosoftDocs"
-description: "Learn how to upgrade Unified Service Desk for Dynamics 365 Customer Engagement." 
-ms.custom:
+description: "Learn how to upgrade Unified Service Desk for Dynamics 365 Customer Engagement."
+ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 02/06/2018
 ms.reviewer: ""
@@ -19,6 +19,11 @@ ms.assetid: 46250912-52bc-45dc-914b-a77b32fc27c4
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Upgrading the solution
 You can upgrade a Unified Service Desk 1.x or [!INCLUDE[pn_unified_service_desk_20](../../includes/pn-unified-service-desk-20.md)] sample application package to [!INCLUDE[pn_unified_service_desk_3_2](../../includes/pn-unified-service-desk-3-2.md)] by importing the Upgrade sample application package. The upgrade will not affect the configuration data associated with the existing solution.  

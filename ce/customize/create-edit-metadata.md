@@ -1,6 +1,6 @@
 ---
 title: "Entities and metadata overview in PowerApps | MicrosoftDocs"
-description: "Learn about entities and metadata" 
+description: "Learn about entities and metadata"
 ms.custom: ""
 ms.date: 04/04/2018
 ms.reviewer: ""
@@ -17,6 +17,10 @@ ms.assetid: 88b18946-474c-4c94-8e4c-27532f930757
 caps.latest.revision: 28
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 # Entities, metadata, and the metadata browser

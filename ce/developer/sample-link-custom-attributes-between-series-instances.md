@@ -19,6 +19,10 @@ caps.latest.revision: 25
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Link custom attributes between series and instances
 

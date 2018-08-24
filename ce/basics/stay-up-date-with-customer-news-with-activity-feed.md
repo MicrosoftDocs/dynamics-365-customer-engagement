@@ -14,6 +14,10 @@ ms.assetid: 2396d3f3-ca6b-4a44-99dd-bdbaf9b22a58
 caps.latest.revision: 29
 ms.author: "anbichse"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Stay up-to-date with customer news with the activity feed
 

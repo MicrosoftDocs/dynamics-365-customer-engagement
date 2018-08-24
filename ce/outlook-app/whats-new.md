@@ -16,6 +16,13 @@ caps.latest.revision: 99
 author: "mduelae"
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # What's new with Dynamics 365 App for Outlook
 

@@ -14,6 +14,11 @@ caps.latest.revision: 4
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Tenant to tenant migration
 
@@ -21,6 +26,8 @@ manager: "kvivek"
 
 ## Move an instance to a different tenant
 
+> [!NOTE]
+> This is available for Dynamics 365 version 8.x only and not version 9.x.
 You can use the Tenant to Tenant Migration feature for Dynamics 365 (online) to request to have an instance in one tenant moved to another tenant. To do so, [contact technical support](contact-technical-support.md) and submit a support request.
 
 There are no user-interface changes or version changes as part of this move. You can move one or multiple Dynamics 365 (online) instances. Once complete, your Dynamics 365 (online) instance(s) will appear in your new tenant.

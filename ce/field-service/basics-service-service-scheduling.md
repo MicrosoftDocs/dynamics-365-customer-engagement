@@ -13,6 +13,13 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 7904d0f0-6295-4fec-a843-f1ee5267536b
 ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 
 # Overview of service and service scheduling (Customer Service)

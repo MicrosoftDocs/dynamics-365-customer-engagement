@@ -15,6 +15,10 @@ caps.latest.revision: 89
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Best practices for developing with Dynamics 365 Customer Engagement
 

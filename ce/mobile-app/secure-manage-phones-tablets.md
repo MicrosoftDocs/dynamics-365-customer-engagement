@@ -14,6 +14,13 @@ ms.assetid: 59af6fe5-f6e0-43d0-addc-044009bc0a23
 caps.latest.revision: 24
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Overview of securing and managing Dynamics 365 for phones and tablets
 

@@ -1,7 +1,7 @@
 ---
 title: "Import Unified Service Desk for Dynamics 365 Customer Engagement configuration data | MicrosoftDocs"
 description: "Learn how configuration data can be imported in to a target Dynamics 365 Customer Engagement instance."
-ms.custom:
+ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -21,7 +21,12 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 tags: 
- - "MigrationHO"
+  - "MigrationHO"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # About configuration data
 You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data to the target [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)] by using either of the following ways:  

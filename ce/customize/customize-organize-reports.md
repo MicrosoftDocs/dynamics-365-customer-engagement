@@ -15,6 +15,10 @@ caps.latest.revision: 47
 author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Customize and organize reports
 

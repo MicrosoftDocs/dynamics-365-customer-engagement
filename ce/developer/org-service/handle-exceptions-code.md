@@ -14,6 +14,10 @@ ms.assetid: 02d0ad6c-eb76-4ea9-972f-c7647eef6c09
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Handle exceptions in your code
 

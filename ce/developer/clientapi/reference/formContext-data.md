@@ -9,6 +9,10 @@ ms.assetid: 32e8d1d0-4093-4588-a517-2930eec34dce
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "annbe"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # formContext.data (Client API reference)
 

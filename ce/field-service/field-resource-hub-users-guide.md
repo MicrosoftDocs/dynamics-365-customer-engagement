@@ -15,6 +15,13 @@ ms.assetid: ebg20953-9c77-464e-an89-e80150a21818
 caps.latest.revision: 1
 ms.author: "mkaur"
 manager: "amyla"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # User Guide (Field Resource Hub)
 

@@ -14,6 +14,10 @@ ms.assetid: 64ca3ef3-0bfe-4c92-8f28-fb8b61ecb6c0
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Step 4: Create an AppSource package for your app
 

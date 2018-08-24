@@ -15,6 +15,11 @@ caps.latest.revision: 36
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Use Outlook category to track appointments and emails
 

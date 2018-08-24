@@ -3,12 +3,12 @@ title: "Create or edit a quote (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Quotes include the pricing details of the products your potential customer is interested in."
 keywords: "Quote, proposal, create quote, products, price"
 ms.date: 09/22/2017
-ms.service:
+ms.service: 
   - "dynamics-365-sales"
-ms.custom:
+ms.custom: 
   - "dyn365-sales"
 ms.topic: get-started-article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 9881bdf5-8922-4cb6-b2df-544286e56400
@@ -20,6 +20,13 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 37
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # Create or edit a quote (Sales and Sales Hub)

@@ -9,12 +9,16 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-- "Dynamics 365 (online)"
+  - "Dynamics 365 (online)"
 ms.assetid: 35d8e05c-245a-4eff-bc5f-3a4ee8ffcb46
 caps.latest.revision: 30
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Write a custom Azure-aware plug-in
 

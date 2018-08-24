@@ -22,6 +22,10 @@ caps.latest.revision: 20
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Retrieve records from an intersect table
 

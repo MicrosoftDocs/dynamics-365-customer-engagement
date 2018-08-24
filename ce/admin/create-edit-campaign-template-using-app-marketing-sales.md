@@ -15,6 +15,11 @@ caps.latest.revision: 42
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "sakudes"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Create or edit a campaign template using in-app marketing (Sales)
 

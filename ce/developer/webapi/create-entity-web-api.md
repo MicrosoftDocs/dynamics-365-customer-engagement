@@ -15,6 +15,10 @@ caps.latest.revision: 51
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Create an entity using the Web API

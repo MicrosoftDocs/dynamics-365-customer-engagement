@@ -18,6 +18,10 @@ caps.latest.revision: 12
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Work with activity party records
 

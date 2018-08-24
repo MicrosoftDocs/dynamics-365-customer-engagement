@@ -15,6 +15,10 @@ ms.assetid: c4d027ca-ba55-4e61-8167-165181dae634
 caps.latest.revision: 31
 ms.author: "mkaur"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Create or edit a chart
 

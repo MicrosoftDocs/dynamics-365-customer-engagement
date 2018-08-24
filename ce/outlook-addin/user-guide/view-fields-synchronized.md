@@ -19,6 +19,13 @@ caps.latest.revision: 20
 author: "mduelae"
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # View the fields that are synchronized between Dynamics 365 and Dynamics 365 for Outlook
 In [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)] or later, you can view the appointments, contacts, and tasks fields that are synchronized between [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] so you can see where the data is coming from. You can also determine whether the fields:  

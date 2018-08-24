@@ -6,7 +6,7 @@ ms.date: 09/30/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics CRM Online"
 ms.assetid: b31d2c05-5785-4827-bd3e-e65ad95040d0
@@ -18,6 +18,11 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 11
 topic-status: Drafting
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 
 # Preview feature: Set up Cortana integration

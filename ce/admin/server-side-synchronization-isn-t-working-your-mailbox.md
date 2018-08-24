@@ -15,6 +15,11 @@ caps.latest.revision: 7
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Server-side synchronization isn't working for your mailbox
 

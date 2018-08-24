@@ -13,6 +13,13 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 93c16131-07ba-413b-a2e2-0f51ca1dfe07
 ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 
 # Create or change a service (Customer Service)

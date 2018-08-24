@@ -15,6 +15,11 @@ caps.latest.revision: 28
 author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Enhance security by encrypting your data
 

@@ -1,6 +1,6 @@
 ---
 title: "Set up tax codes (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: 90d7fdc1-afa0-4ab4-a7c4-87c038709184
 caps.latest.revision: 16
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Set up tax codes (Field Service)
 

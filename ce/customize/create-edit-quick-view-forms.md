@@ -17,6 +17,10 @@ ms.assetid: 9b101734-cc11-4d05-bd45-eb611eae9931
 caps.latest.revision: 14
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 # Create or edit a quick view form to view information about a related entity

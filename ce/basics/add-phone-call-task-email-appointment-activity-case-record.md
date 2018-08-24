@@ -15,6 +15,10 @@ caps.latest.revision: 39
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Add a phone call, task, email, or appointment activity to a case or record 
 

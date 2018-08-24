@@ -15,6 +15,10 @@ caps.latest.revision: 12
 author: "rdubois"
 ms.author: "rdubois"
 manager: "brycho"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Create a mobile task flow
 

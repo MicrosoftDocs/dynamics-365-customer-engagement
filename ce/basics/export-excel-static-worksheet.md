@@ -15,6 +15,10 @@ caps.latest.revision: 43
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Export to an Excel static worksheet
 

@@ -15,6 +15,11 @@ caps.latest.revision: 65
 author: "udag"
 ms.author: "t-mijosh"
 manager: "ryjones"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Configure Relevance Search to improve search results and performance 
 

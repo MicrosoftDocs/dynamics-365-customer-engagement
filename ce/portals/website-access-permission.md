@@ -4,7 +4,7 @@ description: "Learn how to create and associate website access permissions to el
 ms.date: 05/14/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: D335B1E1-B5E4-4E01-9A6A-0DA781D19973
@@ -13,6 +13,13 @@ ms.author: shjais
 manager: shubhadaj
 ms.reviewer: 
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Create website access permissions

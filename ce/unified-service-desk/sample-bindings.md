@@ -1,7 +1,7 @@
 ---
 title: "Sample bindings in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "The sample explains sample bindings in Unified Service Desk."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -20,6 +20,12 @@ caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Sample bindings in Unified Service Desk
 A data-driven adapter uses data, named the bindings, to define the way that it identifies a UI component of a hosted application. The following are some sample bindings:  

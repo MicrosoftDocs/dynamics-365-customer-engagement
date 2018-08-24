@@ -8,6 +8,10 @@ ms.assetid: d4e92999-3b79-4783-8cac-f656fc5f7fda
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Xrm.WebApi.online.executeMultiple (Client API reference)
 

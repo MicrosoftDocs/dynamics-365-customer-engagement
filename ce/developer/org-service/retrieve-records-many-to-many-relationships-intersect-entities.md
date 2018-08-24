@@ -15,6 +15,10 @@ caps.latest.revision: 37
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Retrieve records for many-to-many relationships using intersect entities

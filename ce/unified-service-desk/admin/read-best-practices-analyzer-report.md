@@ -15,6 +15,11 @@ ms.assetid: 4BACD2D6-A17D-468D-A2CB-F4BEEF06AE5E
 author: "kabala123"
 ms.author: "kabala"
 manager: "shujoshi"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 
 # Read Best Practices Analyzer report

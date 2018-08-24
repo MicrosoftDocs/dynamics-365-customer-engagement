@@ -14,6 +14,13 @@ author: "jimholtz"
 ms.assetid: c2ee648b-0338-439a-abec-c30bb264258a
 caps.latest.revision: 14
 ms.author: "mkaur"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # The workspace, your personalized action hub in Dynamics 365 for phones and tablets
 

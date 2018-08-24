@@ -1,6 +1,6 @@
 ---
 title: "Field Service Overview (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: f0191f23-5c01-4d9d-8b4c-907ff490acd2
 caps.latest.revision: 15
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 
 # Overview of Field Service

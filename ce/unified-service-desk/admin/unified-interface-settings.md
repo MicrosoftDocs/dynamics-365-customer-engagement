@@ -3,12 +3,12 @@ title: "Unified Interface Settings (Dynamics 365 Customer Engagement) | Microsof
 description: "Learn about the Unified Interface Settings page in the Unified Service Desk Administrator app."
 keywords: ""
 ms.date: 08/17/2018
-ms.service:
+ms.service: 
   - "usd"
-ms.custom:
+ms.custom: 
   - ""
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2013"
@@ -18,6 +18,11 @@ ms.assetid: 88B92EC9-81ED-4EB0-8269-2DC0624B6DBA
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 
 # Preview feature - Set default Unified Interface App using Unified Interface Settings

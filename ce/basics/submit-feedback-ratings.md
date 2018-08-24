@@ -15,6 +15,10 @@ ms.assetid: b5eb89bc-e828-4b0a-bf80-87f399e4695a
 caps.latest.revision: 9
 ms.author: "shujoshi"
 manager: "sakudes"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Submit feedback or ratings for information stored in your system
 

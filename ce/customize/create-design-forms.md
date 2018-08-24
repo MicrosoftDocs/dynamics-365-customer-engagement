@@ -16,7 +16,11 @@ caps.latest.revision: 33
 ms.author: "rdubois"
 manager: "brycho"
 tags: 
- - "Links to topic not migrated"
+  - "Links to topic not migrated"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Create and design forms 
 

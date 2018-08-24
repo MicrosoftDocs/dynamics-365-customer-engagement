@@ -5,14 +5,21 @@ keywords: "publish, post, like, favorite, share, private message, Social Engagem
 ms.date: 05/08/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 232849dd-218d-4cf0-8561-03c865120657
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Publish and react to posts

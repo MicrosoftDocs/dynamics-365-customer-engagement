@@ -4,10 +4,10 @@ description: "Collect data about a given goal, including all its related goals, 
 keywords: "goal, rollup query"
 ms.date: 04/01/2018
 ms.service: dynamics-365-sales
-ms.custom:
+ms.custom: 
   - dyn365-sales
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 2c15d62a-5cfa-4229-afe2-8927d45edadc
@@ -18,6 +18,13 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # Define a goal rollup query (Sales & Sales Hub)

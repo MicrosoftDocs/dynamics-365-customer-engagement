@@ -14,6 +14,10 @@ ms.assetid: 237c75a2-cae5-467b-b894-ab0f7572e7f9
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Create and update entity metadata
 

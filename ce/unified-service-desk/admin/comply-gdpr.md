@@ -18,6 +18,11 @@ ms.assetid: FA8D5702-C698-42B0-89BF-CD444BF3FB73
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Comply with the General Data Protection Regulation (GDPR)
 

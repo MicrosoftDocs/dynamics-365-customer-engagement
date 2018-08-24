@@ -16,6 +16,11 @@ caps.latest.revision: 63
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Billing FAQs for Dynamics 365 (online) Customer Engagement
 

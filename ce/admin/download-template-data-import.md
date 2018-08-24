@@ -15,6 +15,11 @@ caps.latest.revision: 30
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Download a template for data import
 
