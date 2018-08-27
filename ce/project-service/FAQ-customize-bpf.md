@@ -1,4 +1,5 @@
 ---
+
 title: How do I customize the business process flow? (Dynamics 365 for Project Service) | MicrosoftDocs
 description: An overview of how to customize the business process flow (BPF) in Dynamics 365 Project Service.
 author: NeilWOrint 
@@ -20,12 +21,15 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
+  
   ---
 
 
 # How do I customize the business process flow?
 
-In 1.X Project Service (on platform 8.2) and version 2.4.4.30 or earlier of Project Service (on platform 9.0), the Project Stages Business Process Flow (BPF) project entity includes business logic that drives the following product behaviors:
+
+
+In Project Service version 1.x on the 8.2 platform and version 2.4.4.30 or earlier on the 9.0 platform, the Project Stages Business Process Flow (BPF) project entity includes business logic that drives the following product behaviors:
 - When the project is associated with a quote, the code sets the Project Stages BPF to the Quote stage.
 - When the project is associated with a contract, the code sets the Project Stages BPF to the Plan stage.
 - When the Project Stages BPF is advanced to the Close stage, the project record is deactivated. When the project is deactivated, the project form and work breakdown structure (WBS) are made read-only, the named resource bookings are released, and any associated price lists are deactivated.
@@ -34,11 +38,11 @@ The business logic built into the project entity BPF relies on the English stage
 
 This dependency on the English stage names is the main reason why we’ve discouraged the customization of the Project Stages BPF as well as why you don’t see the common BPF process actions like switch or edit on the project entity.
 
-In Project Service version 1.X on the 8.2 platform, when the stage names within the BPF don’t match the English stage names exactly, the BPF-driven business logic that sets the right stage for quotes or contracts or close the project is skipped and no error messages are displayed. This behavior explains why it appears that you can customize the BPF in this version. However, you won’t see any of the automatic processes working for quotes, contracts, and project close.
+In Project Service version 1.x on the 8.2 platform, when the stage names within the BPF don’t match the English stage names exactly, the BPF-driven business logic that sets the right stage for quotes or contracts or close the project is skipped and no error messages are displayed. This behavior explains why it appears that you can customize the BPF in this version. However, you won’t see any of the automatic processes working for quotes, contracts, and project close.
 
 In the 9.0 platform, there was a significant architectural change to BPFs at the platform level, which required a re-write of the BPF logic. The impact to Project Service version 2.4.4.30 or earlier is that if the process stage names in the Project Stages BPF don’t match the expected English names, an error is displayed. As a result, if you want to customize the shipped BPF for the Project entity, you can only add new stages to the default BPF for the project entity, keeping the Quote, Plan, and Close stages. This restriction ensures that you don’t get errors from the business logic that expects the English stage names to be in the BPF.
 
-In version 2.5.x.x or later, the business logic described above has been removed from the default BPF for the project entity. Upgrading to that version or later will allow you to customize or replace the shipped BPF with one of your own. If upgrading is not an option in the short term, you can customize the Project entity BPF by either:
+In version 2.5.x.x or later, the business logic described above has been removed from the default BPF for the project entity. Upgrading to that version or later lets you customize or replace the default BPF with one of your own. If upgrading is not an option, you can customize the Project entity BPF by either:
 
 1. Adding additional stages to the default configuration, retaining the English stage names for Quote, Plan, and Close.
 
