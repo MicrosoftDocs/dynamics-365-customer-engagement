@@ -1,4 +1,5 @@
 ---
+
 title: How do I assign a resource to a task? (Dynamics 365 for Project Service) | MicrosoftDocs
 description: An overview of how you can assign resources to tasks in Dynamics 365 Project Service.
 author: NeilWOrint 
