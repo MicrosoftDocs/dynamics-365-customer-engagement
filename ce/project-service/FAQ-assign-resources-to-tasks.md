@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
-  ---
+---
 
 # How do I assign a resource to a task?
 
