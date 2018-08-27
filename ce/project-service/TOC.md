@@ -30,7 +30,7 @@
 ## FAQ and troubleshooting
 ### [How do I assign a resource to a task (app version 2.x)?](FAQ-assign-resources-to-tasks-in-web-app.md)
 ### [How do I "soft book" resources (app version 2.x)?](FAQ-soft-book-in-web-app.md)
-### [How do I customize my business process flow)?](FAQ-customize-bpf.md)
+### [How do I customize my business process flow?](FAQ-customize-bpf.md)
 ## [Administrator guide](admin-guide.md)
 ### [Install and customize](install-customize.md)
 ### [Use demo data](use-demo-data.md)
