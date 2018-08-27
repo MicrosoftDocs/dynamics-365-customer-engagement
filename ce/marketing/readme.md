@@ -78,6 +78,7 @@ This document provides important, late-breaking information about known issues a
 - When configuring a form on a page, we recommend that you enter a confirmation message or a redirect URL, so users can see that they successfully submitted the form.
 - It can take up to a minute after a marketing page goes live before its public link (full page URL) is ready. Visitors might see an error message on the page prior to this.
 - Marketing pages from the sample data might not go live for some organizations (especially on Italian or Japanese localizations). But can still create new pages and go live with them. <!--- 1156824 - October Release -->
+- Forms submitted over HTTP (not HTTPS) generate interaction records that don't include the contact ID, which means these interactions can't be used in interaction-based segments. If you are hosting a form on an external page (not hosted on a Dynamics 365 marketing page), then make sure your page uses HTTPS.
 
 ## Lead scoring and management
 

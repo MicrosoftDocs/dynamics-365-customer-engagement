@@ -2,7 +2,7 @@
 title: "Event invitations, registrations, and hotel bookings (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "After your event is set up, learn how to invite attendees, register attendees, and enter hotel bookings in Dynamics 365 for Marketing"
 keywords: "events; event management"
-ms.date: 04/01/2018
+ms.date: 08/28/2018
 ms.service:
   - "dynamics-365-marketing"
 ms.custom:
@@ -25,6 +25,14 @@ topic-status: Drafting
 
 After your event is fully modelled in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], you're ready to start promoting it. The system provides many tools to help you do this.
 
+## Invite contacts to your events
+
+After your event is planned and set up, it's time to start promoting it! [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides several tools to help you do this:
+
+- Create a marketing email message that includes an event element in its design. The event element creates a call-to-action button in your message that takes message recipients directly to your event portal. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Prepare marketing email messages](prepare-marketing-emails.md) and [Event elements](content-blocks-reference.md#event-elements).
+- Set up a customer journey that sends your marketing email message to all the relevant contacts, registers message interactions, and reacts to event registrations. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md).
+- Create banners and social media posts to promote your event. Include a link to your event portal in each post, and use the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] redirect-URL feature to create short URLs that register clicks with [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] and instantly forward contacts to your event portal. You could create a different redirect URL for each social-media site, banner, or message, which would enable you to collect separate click results for each URL, so you can evaluate the success of each channel or initiative. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up redirect URLs](register-engagement.md#set-up-redirect-urls)
+
 ## Register attendees for events, sessions, and passes
 
 Event registration enables attendees to sign up for your event and reserve their seats for specific sessions or tracks. It also helps you gauge interest in the event, and to signal demand to event planners for purposes such as capacity planning. Event managers can use registration records to evaluate in advance how many resources they'll need to have available, which sessions require larger rooms, or even whether a session should be canceled. Advance registration also enables attendees to be confident that their place is reserved for all the sessions they want to attend.
@@ -42,13 +50,11 @@ To view all current registrations and pass assignments, and to create them manua
 
 Each event registration record connects a contact to an event and shows related information including contact details, passes assigned, sessions registered for, session check-ins, and more. Each record has a unique event-registration ID, which is also provided as a QR code.
 
-## Invite contacts to your events
+## Set up segments for communicating with event attendees
 
-After your event is planned and set up, it's time to start promoting it! [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides several tools to help you do this:
+As you prepare for (or follow up after) an event, you'll probably want to communicate with people who signed up for it from time to time. One good way to do this is to [set up a segment](segmentation-lists-subscriptions.md) to find the right attendees and then [create a customer journey](customer-journeys-create-automated-campaigns.md) that sends [email messages](prepare-marketing-emails.md) to them, sets up follow-up activities, and more.
 
-- Create a marketing email message that includes an event element in its design. The event element creates a call-to-action button in your message that takes message recipients directly to your event portal. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Prepare marketing email messages](prepare-marketing-emails.md) and [Event elements](content-blocks-reference.md#event-elements).
-- Set up a customer journey that sends your marketing email message to all the relevant contacts, registers message interactions, and reacts to event registrations. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md).
-- Create banners and social media posts to promote your event. Include a link to your event portal in each post, and use the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] redirect-URL feature to create short URLs that register clicks with [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] and instantly forward contacts to your event portal. You could create a different redirect URL for each social-media site, banner, or message, which would enable you to collect separate click results for each URL, so you can evaluate the success of each channel or initiative. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up redirect URLs](register-engagement.md#set-up-redirect-urls)
+To create segments that find contacts associated with event entities, your system must synchronize event-related entities with the customer-insights services. If your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance isn't already set up to sync the required event entities, then please talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync) for instructions. The primary event entity (Event) is normally set to sync by default, but the event registration entity (Event Registration), which can be useful for communicating with registered contacts, is not.
 
 ## Book hotel rooms for staff, speakers, and guests
 
