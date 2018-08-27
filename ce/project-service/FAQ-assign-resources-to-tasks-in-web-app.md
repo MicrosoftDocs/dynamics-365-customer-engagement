@@ -21,7 +21,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365PS
-  ---
+---
 
 # How do I assign a bookable resource to a task in the web app (Project Service app v2.x)?
 
