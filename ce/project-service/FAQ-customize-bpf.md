@@ -1,6 +1,6 @@
 ---
 
-title: How do I customize the business process flow? (Dynamics 365 for Project Service) | MicrosoftDocs
+title: How do I customize my business process flow? (Dynamics 365 for Project Service) | MicrosoftDocs
 description: An overview of how to customize the business process flow (BPF) in Dynamics 365 Project Service.
 author: NeilWOrint 
 manager: ShellyHa
@@ -24,7 +24,9 @@ search.app:
   
 ---
 
-# How do I customize the business process flow?
+# How do I customize my business process flow?
+
+In this document we'll describe the ways you can customize your business process flow (BPF) depending on what version of Project Service you're using. 
 
 In Project Service version 1.x on the 8.2 platform and version 2.4.4.30 or earlier on the 9.0 platform, the Project Stages Business Process Flow (BPF) project entity includes business logic that drives the following product behaviors:
 - When the project is associated with a quote, the code sets the Project Stages BPF to the Quote stage.
