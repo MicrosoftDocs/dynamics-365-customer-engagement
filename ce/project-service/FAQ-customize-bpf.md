@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365PS
   
-  ---
+---
 
 
 # How do I customize the business process flow?
