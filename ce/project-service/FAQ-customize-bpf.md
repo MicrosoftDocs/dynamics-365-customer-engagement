@@ -24,10 +24,7 @@ search.app:
   
 ---
 
-
 # How do I customize the business process flow?
-
-
 
 In Project Service version 1.x on the 8.2 platform and version 2.4.4.30 or earlier on the 9.0 platform, the Project Stages Business Process Flow (BPF) project entity includes business logic that drives the following product behaviors:
 - When the project is associated with a quote, the code sets the Project Stages BPF to the Quote stage.
@@ -42,7 +39,7 @@ In Project Service version 1.x on the 8.2 platform, when the stage names within 
 
 In the 9.0 platform, there was a significant architectural change to BPFs at the platform level, which required a re-write of the BPF logic. The impact to Project Service version 2.4.4.30 or earlier is that if the process stage names in the Project Stages BPF don’t match the expected English names, an error is displayed. As a result, if you want to customize the shipped BPF for the Project entity, you can only add new stages to the default BPF for the project entity, keeping the Quote, Plan, and Close stages. This restriction ensures that you don’t get errors from the business logic that expects the English stage names to be in the BPF.
 
-In version 2.5.x.x or later, the business logic described above has been removed from the default BPF for the project entity. Upgrading to that version or later lets you customize or replace the default BPF with one of your own. If upgrading is not an option, you can customize the Project entity BPF by either:
+In version 2.5.x.x or later, the business logic described above has been removed from the default BPF for the project entity. Upgrading to that version or later lets you customize or replace the default BPF with one of your own. If upgrading is not an option, you can customize the project entity BPF by either:
 
 1. Adding additional stages to the default configuration, retaining the English stage names for Quote, Plan, and Close.
 
@@ -63,7 +60,7 @@ To create your own BPF for the project entity do the following:
 
 > [!div class="mx-imgBorder"] > ![Screenshot of Process Center](media/FAQ-Customize-BPF-3.png)
 
-2. Use Process Designer to create the stage names you want. If you want to have the same functionality as the default stages for Quote, Plan, and Close, you’ll have to develop that yourself based on your custom BPF’s stage names.
+2. Use Process Designer to create the stage names you want. If you want to have the same functionality as the default stages for Quote, Plan, and Close, you’ll have to create that based on your custom BPF’s stage names.
 
 > [!div class="mx-imgBorder"] > ![Screenshot of Process Designer used to customize BPF](media/FAQ-Customize-BPF-4.png) 
 
@@ -71,7 +68,7 @@ To create your own BPF for the project entity do the following:
 
 > [!div class="mx-imgBorder"] > ![Screenshot of using Order Process Flow](media/FAQ-Customize-BPF-5.png)
 
-4. *Applies to Project Service 2.4.4.30 or earlier (9.0) only.* Add a new custom field to the Project entity to capture the custom stages in your custom BPF. You’ll need to add business logic (plugin/workflow) to update this field when the stage on the custom BPF is updated.
+4. *Applies to Project Service 2.4.4.30 or earlier (9.0) only.* Add a new custom field to the project entity to capture the custom stages in your custom BPF. You’ll need to add business logic (plugin/workflow) to update this field when the stage on the custom BPF is updated.
 
 > [!div class="mx-imgBorder"] > ![Screenshot of customizing Project entity](media/FAQ-Customize-BPF-6.png)
 
