@@ -153,7 +153,7 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
 
  If your update is completed within the defined maintenance window, you won’t receive any notification when the update is completed. However, the History page in LCS will be updated to show that the update has been completed.
 
- You can verify that the update was completed successfully on the History page in LCS. There, you will see an entry for Microsoft planned maintenance window – Completion.
+ You can verify that the update was completed successfully by checking the version number on the About page. 
 
  We are planning to add the ability to notify customers when the downtime window is completed.
 
@@ -163,7 +163,7 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
 
 - Check the Service health.
 
-- Ask to be added to the LCS project as a relevant stakeholder (project owner, environment admin, or additional stakeholder).
+- Ask to be added to the project as a relevant stakeholder (project owner, environment admin, or additional stakeholder).
 
 <a name="bkmk_UnplannedMaintenance"></a>  
 
