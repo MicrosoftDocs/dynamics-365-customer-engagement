@@ -1,7 +1,7 @@
 ---
 title: "Global search in Dynamics 365 portal | MicrosoftDocs"
 description: "Learn how global search works in a portal."
-ms.date: 07/27/2018
+ms.date: 08/28/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -73,8 +73,6 @@ If the view is not available for any entity, it is not indexed and the results a
 
 ## Related site settings
 
-<!--Note from editor: On the review site, some of the text in the Search/Query row is smaller than the rest. I'm not sure why or if that's how it's intended to be.-->
-
 The following site settings are related to global search:
 
 | Name    | Default value     | Description       |
@@ -82,7 +80,7 @@ The following site settings are related to global search:
 | Search/Enabled | True  | A Boolean value that indicates whether search is enabled. If you set its value to false, global search in the portal is turned off.<br>If you are using out-of-the-box web templates and you turn this setting off, the search box will not be displayed in the header as well as on the search page. Also, no results are returned even if the direct URL for the search page is hit.  |
 | Search/Filters  | Content:adx_webpage;Events:adx_event,adx_eventschedule;Blogs:adx_blog,adx_blogpost,adx_blogpostcomment;Forums:adx_communityforum,adx_communityforumthread,adx_communityforumpost;Ideas:adx_ideaforum,adx_idea,adx_ideacomment;Issues:adx_issueforum,adx_issue,adx_issuecomment;Help Desk:incident | A collection of search logical name filter options. Defining a value here will add drop-down filter options to global search. This value should be in the form of name/value pairs, with name and value separated by a colon, and pairs separated by a semicolon. For example: "Forums:adx_communityforum,adx_communityforumthread,adx_communityforumpost;Blogs:adx_blog,adx_blogpost,adx_blogpostcomment".  |
 | Search/IndexQueryName   | Portal search  | The name of the system view used by the portal search query to define the fields of an entity enabled that are indexed and searched.   |
-| Search/Query  | +(@Query) _title:(@Query) _logicalname:adx_webpage~0.9^0.2 -_logicalname:adx_webfile~0.9 adx_partialurl:(@Query) _logicalname:adx_blogpost~0.9^0.1 -_logicalname:adx_communityforumthread~0.9   | This setting adds additional weights and filters to the query that a user enters in the default search box that is displayed on the portal. In the default value, @Query is the query text entered by a user.<br>For information on how to modify this value, follow [Lucene query syntax](http://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html).<br>**Important**: This weighting and filtering only applies to the search box that comes in the default search page of the portal. If you are using a liquid search tag to create your own search page, then this setting doesn’t apply. |
+| Search/Query  | +(@Query) _title:(@Query) _logicalname:adx_webpage\~0.9^0.2 -_logicalname:adx_webfile\~0.9 adx_partialurl:(@Query) _logicalname:adx_blogpost\~0.9^0.1 -_logicalname:adx_communityforumthread\~0.9   | This setting adds additional weights and filters to the query that a user enters in the default search box that is displayed on the portal. In the default value, @Query is the query text entered by a user.<br>For information on how to modify this value, follow [Lucene query syntax](http://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html).<br>**Important**: This weighting and filtering only applies to the search box that comes in the default search page of the portal. If you are using a liquid search tag to create your own search page, then this setting doesn’t apply. |
 | Search/Stemmer  | English    | The language used by the portal search's stemming algorithm.   |
 | Search/FacetedView  | True   | This enables facets in the search results. When set to True, facets will be shown along with results on the search page.  |
 | Search/IndexNotesAttachments   | True    | Indicates whether the content of notes attachments in knowledge base articles and web files should be indexed. By default, it is set to False. More information: [Search within file attachment content](search-file-attachment.md)    |
@@ -92,13 +90,10 @@ The following site settings are related to global search:
 
 ## Related content snippets
 
-<!--Note from editor: Why no description for the first line, Header/Search/FilterLabel?-->
-
 The following content snippets are related to global search:
 
 | Name   | Default value  | Description   |
 |------------------|-----------------|--------------------|
-| Header/Search/FilterLabel| Search Filter| |
 | Header/Search/Label| Search| This content snippet determines the watermark text shown in the search box in the portal header.<br>![Search label](media/search-label.png "Search label")    |
 | Header/Search/ToolTip| Search  | This content snippet determines the tooltip text shown when you hover over the search icon in the portal header.<br>![Search tooltip](media/search-tooltip.png "Search tooltip")  |
 | Search/Default/FilterText| All   | This content snippet determines the default text shown in the filter drop-down list next to the search box.<br>![Search filter text](media/search-filter-text.png "Search filter text")  |
@@ -193,8 +188,6 @@ You can invoke portal global search from liquid templates by using the searchind
 ## Update search index
 
 Search index updates in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal happen automatically like the cache invalidation. Keep these important things in mind, though:
-
-<!--Note from editor: Please review rewording in the following sentence for accuracy.-->
 
 - All search-enabled entities must have the Change Notification metadata flag enabled, otherwise the portal will not be notified of the changes and the search index will not be updated.
 

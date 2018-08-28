@@ -3,7 +3,7 @@ title: "Migrate Dynamics 365 Portal configuration | MicrosoftDocs"
 description: "Learn how to migrate Dynamics 365 Portal configuration."
 ms.custom:
   - dyn365-portal
-ms.date: 08/21/2018
+ms.date: 08/28/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

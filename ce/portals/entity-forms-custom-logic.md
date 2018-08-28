@@ -33,6 +33,7 @@ When creating a new entity form, the first step is to decide the **Entity** and 
 > - The Connection entity subgrids are not supported in entity forms. If you add a Connection entity subgrid to the form using Form designer, error messages are displayed when you render the form on the portal and use the Connection entity.
 > - Duplicate fields and multi-select option set are not supported in entity forms.
 > - If you create an entity form in the Insert mode, you can't change a button's alignment or place an action button above the entity form.
+> - If you render a lookup control as a dropdown list on the form, the related records filter does not work.
 
 The webpages associated with the entity form can be viewed by selecting the **Web Pages** link listed in the **Related** navigation links in the leftmost menu.
 
