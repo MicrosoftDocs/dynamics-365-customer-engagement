@@ -14,7 +14,7 @@ ms.assetid: c0f1a55e-9262-404c-bfb0-78b250e577aa
 caps.latest.revision: 357
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "amyla"
+manager: "ryjones"
 tags: 
   - "aug2017"
   - "MigrationHO"
