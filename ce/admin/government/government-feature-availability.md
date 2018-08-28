@@ -23,6 +23,7 @@ search.app:
 ---
 # Dynamics 365 (online) Government - Feature availability
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>
 [!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 Microsoft strives to maintain functional parity between our commercially available service and that which is servicing the Dynamics 365 Customer Engagement for U.S. Government - referred to as Dynamics 365 GCC. However, there are notable exceptions to this affected by dependent service or partner-solution availability, market priorities, or compliance regulations.
@@ -31,7 +32,8 @@ At this time, preview features in the commercial offering are not available to D
 
 Dynamics 365 GCC currently supports the following versions:
 
-- Dynamics 365, version 8.2
+- Dynamics 365, version 9.0.x
+- Dynamics 365, version 8.2.x
 - Microsoft Dynamics CRM Online 2016, Update 1
 
 There are certain experiences that are currently not available with Dynamics 365 GCC.  We continue to evaluate these for incorporation into future releases. The following generally available features are not currently available:
@@ -57,7 +59,8 @@ There are a number of other business application apps and services that are not 
 - [Microsoft Flow](https://docs.microsoft.com/flow/) – Please note that it is technically possible to connect to Dynamics 365 GCC from Flow.
 - [Microsoft Dynamics 365 for Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/overview)
 - [Microsoft Dynamics 365 for Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/)
-- [Microsoft Dynamics Social Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/get-started) – Please note that while this is not available in GCC, it is available to purchase and associate to a customer’s tenant running GCC services; all integration points will work as they do in our non-GCC environments.  
+- [Microsoft Dynamics Social Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/get-started) – Please note that while this is not available in GCC, it is available to purchase and associate to a customer’s tenant running GCC services; all integration points will work as they do in our non-GCC environments.
+- [Microsoft Dynamics Voice of the Customer](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/voice-of-customer/get-feedback-surveys) – Please note that while this is not available in GCC, it is available to install into a customer’s Instance(s) running GCC services; all integration points will work as they do in our non-GCC environments. 
 - [Microsoft Dynamics 365 for Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/) - Please note that while this is not available in GCC, it is available to purchase and associate to a customer’s tenant running GCC services.  
 - [Microsoft Dynamics 365 for Retail](https://docs.microsoft.com/dynamics365/unified-operations/retail/) - Please note that while this is not available in GCC, it is available to purchase and associate to a customer’s tenant running GCC services.
 
