@@ -26,7 +26,7 @@
 #### [Automatically create case from email](automatically-create-case-from-email.md)
 #### [Automatically create and update records](set-up-rules-to-automatically-create-or-update-records.md)
 ### [Subjects](../admin/define-subjects-categorize-cases-products-articles.md) 
-### [Service level agreements](define-service-level-agreements.md)
+### [Service Level Agreements](define-service-level-agreements.md)
 #### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
 ### [Entitlements](create-entitlement-define-support-terms-customer.md)
 ### [Holiday schedule](set-up-holiday-schedule.md)
@@ -41,7 +41,7 @@
 ### [Email templates](../admin/create-templates-email.md)
 ### [Article templates](../admin/create-templates-articles.md)
 ### [Service scheduling (deprecated)](basics-service-service-scheduling.md)
-#### [Business Closure](set-when-business-closed.md)
+#### [Business closure](set-when-business-closed.md)
 #### [Services](create-edit-service.md)
 #### [Facilities/Equipment](add-facilities-equipment-service-scheduling.md)
 #### [Resource Groups](create-edit-resource-group.md)
@@ -49,8 +49,8 @@
 
 ## Customize
 ### [Create and design forms](create-design-forms-customer-service-hub.md)
-### [Add the Knowledge base search control to forms](add-knowledge-base-search-control-forms.md)
-### [Understand Knowledge base search mechanisms](knowledge-base-search-methods.md)
+### [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
+### [Understand Knowledge Base search mechanisms](knowledge-base-search-methods.md)
 ### [Find knowledge articles from within a record](find-knowledge-articles-within-record-dynamics-365.md)
 ### [Add timer control to forms](add-timer-control-case-form-track-time-against-sla.md)
 ### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
