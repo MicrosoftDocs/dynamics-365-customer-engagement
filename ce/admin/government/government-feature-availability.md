@@ -21,9 +21,9 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Dynamics 365 (online) Government - Feature availability
+# Dynamics 365 (online) Government - Feature availability 
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 Microsoft strives to maintain functional parity between our commercially available service and that which is servicing the Dynamics 365 Customer Engagement for U.S. Government - referred to as Dynamics 365 GCC. However, there are notable exceptions to this affected by dependent service or partner-solution availability, market priorities, or compliance regulations.
 
@@ -80,6 +80,7 @@ Customizations or email configurations in Dynamics 365 GCC can only use these po
 ### See also  
  [Microsoft Dynamics 365 (online) Government](microsoft-dynamics-365-government.md)<br/>
  [Important changes coming in Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming)<br/>
- [Dynamics 365 IP Address Ranges](https://support.microsoft.com/help/2728473/microsoft-dynamics-crm-online-ip-address-ranges)<br/>
+ [Dynamics 365 IP Address Ranges (prior to v9.x)](https://support.microsoft.com/help/2728473/microsoft-dynamics-crm-online-ip-address-ranges)<br/>
+ [Dynamics 365 IP Address Ranges (v9.x)](https://www.microsoft.com/download/confirmation.aspx?id=57063) Focus only on AzureCloud.usgovtexas and AzureCloud.usgovvirginia <br/>
  [PowerBI for US Government Customers](https://docs.microsoft.com/power-bi/service-govus-overview)<br/>
  [Compliance Offerings for Dynamics 365](https://www.microsoft.com/trustcenter/compliance/complianceofferings?product=Dynamics365)
