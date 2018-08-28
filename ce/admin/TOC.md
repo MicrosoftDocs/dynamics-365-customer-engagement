@@ -121,6 +121,7 @@
 ## [Enhanced service level agreements](enhanced-service-level-agreements.md)
 ## [Configure Relevance Search](configure-relevance-search-organization.md)
 ## [Manage product catalog configuration](manage-product-catalog-configuration.md)
+## [Enable rich text for appointment activities](enable-rich-text-experience.md)
 
 # [Performance tuning and optimization](performance-tuning-and-optimization.md)
 ## [Verify network capacity and throughput for clients](verify-network-capacity-throughput-clients.md)
