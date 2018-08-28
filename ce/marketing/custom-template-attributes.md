@@ -31,12 +31,13 @@ The following table provides a quick reference to the custom attributes and meta
 
 | Custom attribute | Description |
 | --- | --- |
-| `<meta type="xrm/designer/setting" name="type" value="marketing-designer-content-editor-document">` | When this tag is present in the `<head>` of your document, the **Designer** tab will provide drag-and-drop features. If this tag is not present, the **Designer** tab provides the simplified, full-page editor. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Show the toolbox and enable drag-and-drop editing](#show-the-toolbox-and-enable-drag-and-drop-editing)|
+| `<meta type="xrm/designer/setting" name="type" value="marketing-designer-content-editor-document">` | When this tag is present in the `<head>` of your document, the **Designer** tab will provide drag-and-drop features. If this tag is not present, the **Designer** tab provides the simplified, full-page editor. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Show the toolbox and enable drag-and-drop editing](#show-toolbox)|
+| `<meta type="xrm/designer/setting" name="additional-fonts" datatype="font" value="<font-list>">` | When this tag is present in the `<head>` of your document, the fonts listed in the _&lt;font-list&gt;_ (semicolon-separated) will be added to the font menu in the formatting toolbar for text elements. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add new fonts to the text-element toolbar](#fonts)|
 | `<div data-container="true"> … </div>` | Marks the start and end of a container where users can drag and drop design elements. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a container where users can add design elements](#containers) |
 | `<div data-editorblocktype="<element-type>" > … </div>` | Marks the start and end of a design element. The value of the attribute identifies which type of element it is (text, image, button, and so on). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Identify design elements](#elements) |
-| `<meta type="xrm/designer/setting" name="<name>" value="<initial-value>" datatype="<data-type>" label="<label>">` | This tag defines a document-wide style setting that users can edit using the **Designer** > **Styles** tab.  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add settings to the Styles tab](#add-settings-to-the-styles-tab) |
-| `/* @<tag-name> */ … /* @<tag-name> */` | Use CSS comments like these to surround a CSS value to be controlled by a style setting, where &lt;_tag-name&gt;_ is the value of the _name_ attribute for the meta tag that established the setting. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add CSS comments to implement style settings in the head](#add-css-comments-to-implement-style-settings-in-the-head) |
-| `property-reference= "<attr>:@< tag-name >;<attr>:@< tag-name >; …"` | Place this attribute in any HTML tag to place an attribute with a value controlled by a style setting, where _&lt;attr&gt;_ is the name of the attribute to be created and &lt;_tag-name&gt;_ is the value of the `name` attribute for the meta tag that established the setting. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add property-reference attributes to implement style settings in the body](#add-property-reference-attributes-to-implement-style-settings-in-the-body) |
+| `<meta type="xrm/designer/setting" name="<name>" value="<initial-value>" datatype="<data-type>" label="<label>">` | This tag defines a document-wide style setting that users can edit using the **Designer** > **Styles** tab.  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add settings to the Styles tab](#styles) |
+| `/* @<tag-name> */ … /* @<tag-name> */` | Use CSS comments like these to surround a CSS value to be controlled by a style setting, where &lt;_tag-name&gt;_ is the value of the _name_ attribute for the meta tag that established the setting. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add CSS comments to implement style settings in the head](#styles-css) |
+| `property-reference= "<attr>:@< tag-name >;<attr>:@< tag-name >; …"` | Place this attribute in any HTML tag to place an attribute with a value controlled by a style setting, where _&lt;attr&gt;_ is the name of the attribute to be created and &lt;_tag-name&gt;_ is the value of the `name` attribute for the meta tag that established the setting. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add property-reference attributes to implement style settings in the body](#styles-attribute) |
 
 The remaining sections of this topic provide more information about how to use each of the features summarized in the table.
 
@@ -132,6 +133,21 @@ For more information about each of these design elements, see [Design elements r
 > [!IMPORTANT]
 > When you are working on the **HTML** tab, you should avoid editing any of the content between the `<div>` tags of your design elements because the results of doing so can be unpredictable, and your edits are likely to be overwritten by the designer anyway. Instead, use the **Designer** tab to manage your design-element content and properties.
 
+<a name="fonts"></a>
+
+## Add new fonts to the text-element toolbar
+
+Text-elements provide a pop-up formatting toolbar in the designer, which includes a menu for applying a font to selected text.
+
+![The font selector for text elements](media/designer-font-menu.png "The font selector for text elements")
+
+To add new fonts to this font selector, add a `<meta>` tag that uses the following form to the `<head>` of the document:
+
+```xml
+<meta type="xrm/designer/setting" name="additional-fonts" datatype="font" value="<font-list>">
+```
+Where _&lt;font-list&gt;_ is a semicolon-separated list of font names.
+
 <a name="styles"></a>
 
 ## Add settings to the Styles tab
@@ -152,7 +168,6 @@ The following subsections explain how to do each of these things.
 ### Add a meta tag to create the setting
 
 The required `<meta>` tag takes the following form:
-
 
 ```xml
 <meta type="xrm/designer/setting" name="<name>" value="<initial-value>" datatype="<data-type>" label="<label>">
