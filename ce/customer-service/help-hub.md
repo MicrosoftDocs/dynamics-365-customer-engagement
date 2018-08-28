@@ -21,7 +21,7 @@ search.app:
   - D365CS
 ---
 
-# Customer Service Hub Help & Training
+# Customer Service Help & Training
 
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/6e415bd9-49b7-4416-b744-70278d9fa077" frameborder="0" allowfullscreen=""></iframe></div>
