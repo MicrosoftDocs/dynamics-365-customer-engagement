@@ -23,8 +23,7 @@ search.app:
 ---
 # Dynamics 365 (online) Government - Feature availability 
 
-Applies to Dynamics 365 (online), version 9.x
-Applies to Dynamics 365 (online), version 8.x
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Microsoft strives to maintain functional parity between our commercially available service and that which is servicing the Dynamics 365 Customer Engagement for U.S. Government - referred to as Dynamics 365 GCC. However, there are notable exceptions to this affected by dependent service or partner-solution availability, market priorities, or compliance regulations.
 
