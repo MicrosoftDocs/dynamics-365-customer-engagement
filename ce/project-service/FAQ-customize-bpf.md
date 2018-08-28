@@ -26,9 +26,11 @@ search.app:
 
 # How do I customize my business process flow?
 
-In this document we'll describe the ways you can customize your business process flow (BPF) depending on what version of Project Service you're using. 
+In this topic we'll describe the ways you can customize your business process flow (BPF) depending on what version of Project Service you're using. 
 
-In Project Service version 1.x on the 8.2 platform and version 2.4.4.30 or earlier on the 9.0 platform, the Project Stages Business Process Flow (BPF) project entity includes business logic that drives the following product behaviors:
+## Version 1.x on the 8.2 platform and version 2.4.4.30 or earlier on the 9.0 platform
+
+The Project Stages Business Process Flow (BPF) project entity for these versions includes business logic that drives the following product behaviors:
 - When the project is associated with a quote, the code sets the Project Stages BPF to the Quote stage.
 - When the project is associated with a contract, the code sets the Project Stages BPF to the Plan stage.
 - When the Project Stages BPF is advanced to the Close stage, the project record is deactivated. When the project is deactivated, the project form and work breakdown structure (WBS) are made read-only, the named resource bookings are released, and any associated price lists are deactivated.
@@ -37,9 +39,15 @@ The business logic built into the project entity BPF relies on the English stage
 
 This dependency on the English stage names is the main reason why we’ve discouraged the customization of the Project Stages BPF as well as why you don’t see the common BPF process actions like switch or edit on the project entity.
 
-In Project Service version 1.x on the 8.2 platform, when the stage names within the BPF don’t match the English stage names exactly, the BPF-driven business logic that sets the right stage for quotes or contracts or close the project is skipped and no error messages are displayed. This behavior explains why it appears that you can customize the BPF in this version. However, you won’t see any of the automatic processes working for quotes, contracts, and project close.
+## Version 1.x on the 8.2 platform
 
-In the 9.0 platform, there was a significant architectural change to BPFs at the platform level, which required a re-write of the BPF logic. The impact to Project Service version 2.4.4.30 or earlier is that if the process stage names in the Project Stages BPF don’t match the expected English names, an error is displayed. As a result, if you want to customize the shipped BPF for the Project entity, you can only add new stages to the default BPF for the project entity, keeping the Quote, Plan, and Close stages. This restriction ensures that you don’t get errors from the business logic that expects the English stage names to be in the BPF.
+When the stage names within the BPF don’t match the English stage names exactly, the BPF-driven business logic that sets the right stage for quotes or contracts or close the project is skipped and no error messages are displayed. This behavior explains why it appears that you can customize the BPF in this version. However, you won’t see any of the automatic processes working for quotes, contracts, and project close.
+
+## Version 2.4.4.30 or earlier on the 9.0 platform
+
+There was a significant architectural change to BPFs at the platform level, which required a re-write of the BPF logic. The impact to Project Service version 2.4.4.30 or earlier is that if the process stage names in the Project Stages BPF don’t match the expected English names, an error is displayed. As a result, if you want to customize the shipped BPF for the Project entity, you can only add new stages to the default BPF for the project entity, keeping the Quote, Plan, and Close stages. This restriction ensures that you don’t get errors from the business logic that expects the English stage names to be in the BPF.
+
+## Version 2.5.x.x or later
 
 In version 2.5.x.x or later, the business logic described above has been removed from the default BPF for the project entity. Upgrading to that version or later lets you customize or replace the default BPF with one of your own. If upgrading is not an option, you can customize the project entity BPF by either:
 
@@ -53,7 +61,9 @@ In version 2.5.x.x or later, the business logic described above has been removed
 > [!div class="mx-imgBorder"] 
 > ![Screenshot of BPF customization](media/FAQ-Customize-BPF-2.png)
 
-In Project Service 2.4.4.30 or earlier (9.0), with a custom BPF, the Stage Name field on the project entity that is used in the Project By Stage chart and project list views won’t update since it’s coupled to the default Project Stages BPF. You can address this issue with the following steps:
+## Version 2.4.4.30 or earlier on platform 9.0
+
+In Project Service 2.4.4.30 or earlier on platform 9.0 with a custom BPF, the Stage Name field on the project entity that is used in the Project By Stage chart and project list views won’t update since it’s coupled to the default Project Stages BPF. You can address this issue with the following steps:
 
 - Adding a custom field to capture the current BPF stage that is updated as the user advances through the custom BPF.
 - Modifying the project By stage to work with your custom field instead of the default configuration.
@@ -75,17 +85,23 @@ To create your own BPF for the project entity do the following:
 > [!div class="mx-imgBorder"] 
 > ![Screenshot of using Order Process Flow](media/FAQ-Customize-BPF-5.png)
 
-4. *Applies to Project Service 2.4.4.30 or earlier (9.0) only.* Add a new custom field to the project entity to capture the custom stages in your custom BPF. You’ll need to add business logic (plugin/workflow) to update this field when the stage on the custom BPF is updated.
+## Version 2.4.4.30 or earlier on platform 9.0
+
+Add a new custom field to the project entity to capture the custom stages in your custom BPF. You’ll need to add business logic (plugin/workflow) to update this field when the stage on the custom BPF is updated.
 
 > [!div class="mx-imgBorder"] 
 > ![Screenshot of customizing Project entity](media/FAQ-Customize-BPF-6.png)
 
-5. *Applies to Project Service 2.4.4.30 or earlier (9.0) only.* Modify the Project By Stage chart to use your new custom field for stages.
+## Version 2.4.4.30 or earlier on the 9.0 platform
+
+Modify the Project By Stage chart to use your new custom field for stages.
 
 > [!div class="mx-imgBorder"] 
 > ![Screenshot of using the Project By Stage chart](media/FAQ-Customize-BPF-7.png)
 
-6. *Applies to Project Service 2.4.4.30 or earlier (9.0) only.* Modify views on the Project entity to include your new custom field for stages.
+## Version 2.4.4.30 or earlier on the 9.0 platform
+
+Modify views on the Project entity to include your new custom field for stages.
 
 > [!div class="mx-imgBorder"] 
 > ![Screenshot of modifying views on the Project entity](media/FAQ-Customize-BPF-8.png)
