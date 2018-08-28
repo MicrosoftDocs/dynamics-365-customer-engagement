@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 (online) Government - Feature availability | MicrosoftDocs"
 ms.custom: ""
-ms.date: 07/18/2018
+ms.date: 08/28/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
