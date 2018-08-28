@@ -1,7 +1,7 @@
 ---
 title: "Permissions required for Dynamics 365 for Outlook tasks | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/27/2018
+ms.date: 08/28/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -28,8 +28,8 @@ The following table shows the default security roles required to perform [!INCLU
 
 |[!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] Tasks|Default Security Roles and Required Privileges| Can Task Be Done Offline? |
 |--|--|--|
-|Go Offline|Security roles:   Any<br /><br /> Privileges: Go Offline  |Yes|
-|Set synchronization options [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]|Security roles:  Any<br /><br /> Privileges:  Sync to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]|Yes|
+|Go Offline|Security roles:   Any<br /><br /> Privileges: <br /> Go Offline <br /> Read Saved View  |Yes|
+|Set synchronization options [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]|Security roles:  Any<br /><br /> Privileges:<br />  Sync to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]<br /> Read Saved View |Yes|
 |Set local data synchronization options|Security roles:  Any<br /><br /> Privileges:  Go Offline  |Yes|
 |Synchronize [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]|Security roles:  Any<br /><br /> Privileges:  Sync to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]|Yes|
 | Save and link [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] tasks and appointments in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] |Security roles:  Any<br /><br /> Privileges:  For the record type: Write, Append To|Yes|
