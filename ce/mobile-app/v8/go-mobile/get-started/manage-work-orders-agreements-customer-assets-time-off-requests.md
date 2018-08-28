@@ -15,6 +15,13 @@ ms.assetid: faa87829-895e-4799-a587-c52551a78415
 caps.latest.revision: 12
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Manage work orders, agreements, customer assets, and time off requests in Dynamics 365 for phones and tablets
 

@@ -17,6 +17,10 @@ caps.latest.revision: 41
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Understand charts: Underlying data and chart representation
 

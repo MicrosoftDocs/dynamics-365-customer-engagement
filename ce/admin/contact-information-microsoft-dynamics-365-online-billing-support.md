@@ -15,6 +15,11 @@ ms.assetid: 73759d4a-596d-469a-8da3-8ab4f02cd048
 caps.latest.revision: 14
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Contact information for billing support
 

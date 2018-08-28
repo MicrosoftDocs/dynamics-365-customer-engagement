@@ -19,6 +19,11 @@ caps.latest.revision: 19
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Create or modify synchronization filters or view synchronizing fields
 

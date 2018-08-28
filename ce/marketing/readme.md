@@ -10,6 +10,13 @@ ms.assetid: 78dc5157-cf1d-4e32-ace7-9e71763e7510
 author: kamaybac
 ms.author: renwe
 manager: annbe
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 Dynamics 365 for Marketing<br>Readme (Known Issues)

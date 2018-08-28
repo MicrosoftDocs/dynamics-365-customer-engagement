@@ -8,6 +8,10 @@ ms.assetid: 1f9169ce-cba3-4bb6-af20-f86140139cfe
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # openSearchResult (Client API reference)
 

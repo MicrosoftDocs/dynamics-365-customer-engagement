@@ -1,7 +1,7 @@
 ---
 title: "Administer and manage Unified Service Desk for Dynamics 365 Customer Enagagement | MicrosoftDocs"
 description: "Unified Service Desk administrators can start here to learn how to manage the application."
-ms.custom:
+ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 01/25/2017
 ms.reviewer: ""
@@ -20,8 +20,13 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 tags: 
- - "NoHandoff"
- - "LinksOnlyTopic"
+  - "NoHandoff"
+  - "LinksOnlyTopic"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Administer and manage overview
 This section provides information about [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] that helps you effectively administer and manage your implementation.  

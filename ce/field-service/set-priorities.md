@@ -1,6 +1,6 @@
 ---
 title: "Set priorities (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: 3655ec2b-d23e-4d56-a4e4-81f83f0c6c89
 caps.latest.revision: 12
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Prioritize your work orders (Field Service)
 

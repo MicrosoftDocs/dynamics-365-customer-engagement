@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application | MicrosoftDocs"
 description: "Demonstrates how to display Customer Engagement records in Unified Service Desk."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -20,6 +20,12 @@ caps.latest.revision: 8
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application
 This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] records in your agent application. In this walkthrough, you’ll display all the account and contact records in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. You’ll also create a search button with drop-down menu items for displaying accounts and contacts in the agent application.  

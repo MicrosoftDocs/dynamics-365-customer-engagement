@@ -17,6 +17,10 @@ caps.latest.revision: 8
 author: "Mattp123"
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Make grids (lists) editable using the Editable Grid custom control
 

@@ -14,6 +14,11 @@ ms.assetid: a90de9f5-15ed-4e72-ba2e-9c981ebf3199
 caps.latest.revision: 20
 author: "jimholtz"
 ms.author: "jimholtz"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # About the Microsoft Cloud India datacenter
 

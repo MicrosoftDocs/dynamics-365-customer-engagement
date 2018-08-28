@@ -15,6 +15,10 @@ caps.latest.revision: 33
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use the SolutionPackager tool to compress and extract a solution file
 

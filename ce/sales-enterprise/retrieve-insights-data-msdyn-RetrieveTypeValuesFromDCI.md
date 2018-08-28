@@ -5,7 +5,7 @@ keywords: "GDPR; data protection; privacy; embedded intelligence"
 ms.date: 04/18/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: d0d20528-0a72-4dd2-8c91-6367a9d4279d
@@ -13,6 +13,13 @@ author: KumarVivek
 ms.author: kvivek
 manager: kvivek
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action

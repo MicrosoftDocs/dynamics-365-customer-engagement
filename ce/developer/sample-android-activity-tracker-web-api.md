@@ -14,6 +14,10 @@ ms.assetid: 3dc792cf-a9c4-45ea-9efe-895f15ade167
 caps.latest.revision: 9
 author: "JimDaly"
 ms.author: "jdaly"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Android Activity Tracker for Dynamics 365 and Web API
 

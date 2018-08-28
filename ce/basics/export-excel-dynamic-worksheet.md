@@ -15,6 +15,10 @@ caps.latest.revision: 53
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Export to an Excel dynamic worksheet
 

@@ -5,15 +5,22 @@ keywords: "azure event hubs, event hub, stream data, connection string "
 ms.date: 06/13/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 56373722-6a46-4989-9d95-d2f572ba4936
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Stream data from Social Engagement to Microsoft Azure Event Hubs

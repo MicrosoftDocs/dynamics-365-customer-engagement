@@ -15,6 +15,11 @@ caps.latest.revision: 5
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Use the Office 365 admin center to manage your subscription 
 

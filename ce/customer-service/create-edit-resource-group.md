@@ -13,6 +13,13 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
 ms.assetid: 5e461837-29ca-4d76-9231-cbf7423c5c7d
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # Create or change a resource group (Customer Service)

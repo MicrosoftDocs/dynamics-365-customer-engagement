@@ -13,6 +13,13 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: e23ae2ff-620a-4498-97dc-6d3a93813166
 ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # Find the next available time before creating a service activity

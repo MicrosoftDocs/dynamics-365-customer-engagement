@@ -1,7 +1,7 @@
 ---
 title: "WebDDA Events in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about using Web data-driven adapter (WebDDA) events that can be used in automations in Unified Service Desk."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -20,6 +20,12 @@ caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # WebDDA Events
 The Web data-driven adapter (WebDDA) provides a set of events that can be used in automations. The events can be divided in page events and control events. They map to the same event names used in the DOM. For more information about the events see [Events](https://msdn.microsoft.com/library/aa768400.aspx)  

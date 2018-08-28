@@ -6,7 +6,7 @@ ms.date: 01/09/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 6404db68-f66b-4128-ac2f-84258503bc82
@@ -18,6 +18,11 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 123
 topic-status: Drafting
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 
 # Web application requirements

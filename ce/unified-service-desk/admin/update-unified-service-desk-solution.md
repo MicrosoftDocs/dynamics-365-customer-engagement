@@ -3,12 +3,12 @@ title: "Update Unified Service Desk for Dynamics 365 Customer Engagement solutio
 description: "Learn how to update Unified Service Desk for Dynamics 365 Customer Engagement."
 keywords: ""
 ms.date: 08/23/2017
-ms.service:
+ms.service: 
   - "dynamics-365-customerservice"
-ms.custom:
+ms.custom: 
   - "dyn365-USD, dyn365-admin"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2013"
@@ -22,6 +22,11 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 12
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 
 # Updating the solution

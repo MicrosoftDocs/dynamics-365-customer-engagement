@@ -4,10 +4,10 @@ description: "Expand your reach to new customers and improve sales by using camp
 keywords: "Campaign, marketing information, campaign activity, marketing, planning task"
 ms.date: 04/01/2018
 ms.service: dynamics-365-sales
-ms.custom:
+ms.custom: 
   - dyn365-sales
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 84763cb4-b0c9-4659-86ce-7d980a57faea
@@ -19,6 +19,13 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 50
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # Create or edit a campaign using in-app marketing (Sales)

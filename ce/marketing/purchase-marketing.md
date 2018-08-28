@@ -3,13 +3,13 @@ title: "License a Marketing app and add it to your tenant (Dynamics 365 for Mark
 description: "How to get started with Dynamics 365 for Marketing by purchasing a license and adding the app to your tenant"
 keywords: "purchase;setup"
 ms.date: 06/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-admin"
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: cb596c13-98fd-4717-adcf-c432609788a1
@@ -18,6 +18,13 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Purchase a production version of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]

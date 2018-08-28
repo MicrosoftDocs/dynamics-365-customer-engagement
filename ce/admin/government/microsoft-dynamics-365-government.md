@@ -14,6 +14,11 @@ ms.assetid: e4876ab0-4cc9-44fe-b3ed-ddfe04a990e2
 caps.latest.revision: 35
 author: "jimholtz"
 ms.author: "jimholtz"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Dynamics 365 Government
 

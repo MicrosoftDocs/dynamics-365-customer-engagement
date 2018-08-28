@@ -3,7 +3,7 @@ title: User Guide (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Understand Customer Service app in Microsoft Dynamics 365
 keywords: Customer Service;  Microsoft Dynamics 365; Create and manage a case in Customer Service; Add an activity to a case in Customer Service; Find what's assigned to you in a queue ; Merge similar cases; Create and manage parent and child cases
 author: anjgupta
-applies_to: Dynamics 365 (online) 
+applies_to: Dynamics 365 (online)
 ms.author: anjgup
 manager: shujoshi
 ms.date: 09/30/2017
@@ -11,6 +11,13 @@ ms.topic: get-started-article
 ms.service: dynamics-365-customerservice
 ms.assetid: 9036f912-b991-48ff-a701-8157e43400b6
 ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # User Guide (Customer Service)

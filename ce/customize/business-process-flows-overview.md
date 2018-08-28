@@ -15,6 +15,10 @@ ms.assetid: 4469877e-bb95-481a-bc52-c9746f937ce5
 caps.latest.revision: 16
 ms.author: "matp"
 manager: brycho
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Business process flows overview
 

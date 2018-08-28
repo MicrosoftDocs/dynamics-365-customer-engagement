@@ -5,15 +5,22 @@ keywords: "sources, analytics, twitter, reddit, facebook, news, blogs, youtube, 
 ms.date: 03/09/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 3db3ba46-b1a9-41a3-9012-c8e84bb8c5af
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Analyze sources of posts in your data set

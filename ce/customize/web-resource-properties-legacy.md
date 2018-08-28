@@ -12,11 +12,11 @@ manager: kvivek
 ms.date: 04/26/2018
 ms.service: crm-online
 ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
 ms.assetid: 82cd41ea-95b0-4606-9e7d-43eb5ce9ecd6
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Web resource properties
 

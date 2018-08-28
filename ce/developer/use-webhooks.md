@@ -14,6 +14,10 @@ ms.assetid: 8994bbac-951f-478a-972c-debe1afedaf9
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use webhooks to create external handlers for server events
 

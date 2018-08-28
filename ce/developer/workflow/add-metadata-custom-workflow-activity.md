@@ -9,12 +9,16 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-      - "Dynamics 365 (online)"
+  - "Dynamics 365 (online)"
 ms.assetid: 06607e30-352c-4f27-a82e-adad48ca0f34
 caps.latest.revision: 35
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Add metadata to a custom workflow activity
 

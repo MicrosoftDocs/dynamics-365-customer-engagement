@@ -5,15 +5,22 @@ keywords: "game, gamification KPI, game setup"
 ms.date: 10/27/2017
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: ec71f8e3-5cc9-4941-8067-5bf8e1081da9
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-gamification
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 
 # Set up and run games in Gamification

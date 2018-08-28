@@ -1,7 +1,7 @@
 ---
 title: "Place child nodes by using shortcuts for a portal in Dynamics 365  | MicrosoftDocs"
 description: "Instructions to place child nodes by using shortcuts for portals."
-ms.custom:
+ms.custom: 
   - dyn365-a11y
   - dyn365-portal
 ms.date: 09/28/2017
@@ -14,6 +14,13 @@ ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
 manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Place child nodes by using shortcuts for portals
 Use shortcuts to place child nodes throughout your portal's sitemap that simply point to other nodes that exist in your sitemap, or to URLs external to your portal. In other words, webpages, web files, events, and forums can all be considered "solid" nodes of your portal's sitemap: they are added to your sitemap and when you navigate to them, you see the actual content of those nodes directly. Shortcuts, on the other hand, can be considered “intangible” nodes: they are also added to the sitemap (unlike web links, which are not), but when you navigate to them, you see the content for the target "solid" node that the shortcut points to, and that content is rendered by the page template for that node.

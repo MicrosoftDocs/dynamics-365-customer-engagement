@@ -8,6 +8,10 @@ ms.assetid: 798dc921-1e80-42bc-b8ca-2056728bcba4
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # openWebResource (Client API reference)
 

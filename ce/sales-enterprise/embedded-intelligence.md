@@ -6,7 +6,7 @@ ms.date: 09/30/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: e5374d5a-bf3e-4cd2-a062-ecd607a9771e
@@ -18,6 +18,13 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 9
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # Analyze customer-interaction data with Embedded intelligence 

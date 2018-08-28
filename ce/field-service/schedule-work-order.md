@@ -1,6 +1,6 @@
 ---
 title: "Schedule a work order (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: 2d02cea2-8cd3-4324-9c38-a6c1ec45aed1
 caps.latest.revision: 26
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Schedule a work order (Field Service)
 

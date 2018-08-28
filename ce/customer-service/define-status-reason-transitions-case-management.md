@@ -13,6 +13,13 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: bdaec3df-f08e-4d2a-b2bc-f9706a853c69
 ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # Define status reason transitions for case management

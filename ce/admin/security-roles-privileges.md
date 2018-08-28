@@ -16,6 +16,11 @@ caps.latest.revision: 21
 author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Security roles and privileges
 

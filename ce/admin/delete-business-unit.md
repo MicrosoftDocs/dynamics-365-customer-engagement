@@ -15,6 +15,11 @@ ms.assetid: d36a3897-24c4-434e-b255-4e1a1233ba41
 caps.latest.revision: 15
 ms.author: "rdubois"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Delete a business unit
 

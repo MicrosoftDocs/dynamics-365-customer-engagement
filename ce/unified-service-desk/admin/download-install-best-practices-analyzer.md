@@ -3,12 +3,12 @@ title: "Download and Install Best Practices Analyzer | MicrosoftDocs"
 description: "Learn about downloading and installing the Best Practices Analyzer."
 keywords: ""
 ms.date: 08/17/2018
-ms.service:
+ms.service: 
   - "usd"
-ms.custom:
+ms.custom: 
   - ""
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2013"
@@ -18,6 +18,11 @@ ms.assetid: B96D2870-9475-475B-B37B-221C3EC55D45
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 
 # Download and Install Best Practices Analyzer

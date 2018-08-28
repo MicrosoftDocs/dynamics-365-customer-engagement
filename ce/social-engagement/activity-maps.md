@@ -5,15 +5,22 @@ keywords: "activiy map, localtion analysis, live map"
 ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 33326ad3-89ea-4a12-803e-b6c98cf1757f
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Define activity maps to view real-time data

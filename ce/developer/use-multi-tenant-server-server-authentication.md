@@ -14,6 +14,10 @@ ms.assetid: a77637f4-420a-4686-9084-d0288d9154af
 caps.latest.revision: 12
 author: "JimDaly"
 ms.author: "jdaly"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use Multi-Tenant Server-to-server authentication
 

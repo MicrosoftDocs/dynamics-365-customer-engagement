@@ -18,9 +18,17 @@ ms.technology:
   - "field-service"
   - "project-service"
 ms.assetid: b79f00b5-e90e-41d2-b761-92e255ef2da0
-ms.custom:
+ms.custom: 
   - dyn365-projectservice
   - dyn365-fieldservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - D365FS
 ---
 
 # Extending URS: Find resources by language - a step by step guide

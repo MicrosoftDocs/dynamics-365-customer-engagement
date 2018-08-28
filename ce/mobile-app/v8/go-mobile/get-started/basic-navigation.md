@@ -19,6 +19,13 @@ ms.assetid: 233a2887-dbe0-4da6-be84-eafc2b988f59
 caps.latest.revision: 48
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Basic navigation in Dynamics 365 for phones and tablets
 

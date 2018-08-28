@@ -14,6 +14,10 @@ ms.assetid: 4c379202-9f0e-4003-a49c-efff53e7f79f
 caps.latest.revision: 63
 ms.author: "rdubois"
 manager: "brycho"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 > [!NOTE]

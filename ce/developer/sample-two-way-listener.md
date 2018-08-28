@@ -17,6 +17,10 @@ caps.latest.revision: 26
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Two-way listener
 

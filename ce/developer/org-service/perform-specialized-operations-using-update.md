@@ -14,6 +14,10 @@ ms.assetid: 03511f6c-62f5-4976-b91f-996354b1d135
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Perform specialized operations using Update
 

@@ -3,12 +3,12 @@ title: "Release notes of Unified Service Desk 4.0 (Dynamics 365 Customer Engagem
 description: "Learn about the known issues in Unified Service Desk."
 keywords: ""
 ms.date: 08/17/2018
-ms.service:
+ms.service: 
   - "usd"
-ms.custom:
+ms.custom: 
   - ""
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2013"
@@ -18,6 +18,12 @@ ms.assetid: 8DD75956-F421-445D-ACC2-7687696BEF5F
 author: kabala123
 ms.author: kabala
 manager: Shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 
 # Release notes of Unified Service Desk 4.0

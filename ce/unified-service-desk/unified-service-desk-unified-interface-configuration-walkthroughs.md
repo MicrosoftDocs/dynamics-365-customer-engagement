@@ -3,12 +3,12 @@ title: "Unified Service Desk and Unified Interface configuration walkthroughs | 
 description: "Unified Service Desk and Unified Interface walkthroughs provide you a step-by-step tutorial on configuring an agent application from scratch and progressively add features."
 keywords: ""
 ms.date: 05/07/2018
-ms.service:
+ms.service: 
   - "usd"
-ms.custom:
+ms.custom: 
   - ""
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2013"
@@ -21,6 +21,12 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 
 # Unified Service Desk and Unified Interface App configuration walkthroughs

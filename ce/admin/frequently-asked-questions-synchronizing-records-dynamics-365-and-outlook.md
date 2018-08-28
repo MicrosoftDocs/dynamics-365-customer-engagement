@@ -15,6 +15,11 @@ caps.latest.revision: 50
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook
 

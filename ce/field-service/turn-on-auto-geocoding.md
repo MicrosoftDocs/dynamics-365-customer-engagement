@@ -1,6 +1,6 @@
 ---
 title: "Turn on auto geocoding (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: 74e7dc26-094a-45fe-8da8-eae407978bfa
 caps.latest.revision: 18
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Turn on auto geocoding to calculate estimated travel time (Field Service)
 

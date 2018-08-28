@@ -15,6 +15,11 @@ caps.latest.revision: 17
 author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Configure SharePoint integration using the list component
 

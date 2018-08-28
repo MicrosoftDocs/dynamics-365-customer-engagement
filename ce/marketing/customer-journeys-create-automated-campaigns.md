@@ -3,12 +3,12 @@ title: "Guide your prospects through an interactive customer journey (Dynamics 3
 description: "How to create a customer journey by assembling a pipeline of automated communications, activities, and conditional pathways in Dynamics 365 for Marketing"
 keywords: "customer journey; campaign; email; segment; go live; pipeline"
 ms.date: 04/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: dd5579ea-7fea-41fa-81ab-a83d67943c7e
@@ -17,6 +17,13 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Use customer journeys to create automated campaigns

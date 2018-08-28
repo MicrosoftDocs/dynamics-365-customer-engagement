@@ -15,6 +15,11 @@ caps.latest.revision: 26
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Enable or disable security for a field to control access
 

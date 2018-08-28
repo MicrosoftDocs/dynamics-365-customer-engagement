@@ -4,7 +4,7 @@ description: "Learn how to change the Dynamics 365 instance, audience, or type o
 ms.date: 05/25/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 27483798-3D7E-40AD-9D39-185A14D6A52C
@@ -13,6 +13,13 @@ ms.author: shjais
 manager: shubhadaj
 ms.reviewer: 
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 ## Change the Dynamics 365 instance, audience, or type of portal

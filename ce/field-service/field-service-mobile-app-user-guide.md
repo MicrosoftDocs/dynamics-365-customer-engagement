@@ -1,6 +1,6 @@
 ---
 title: "Field Service Mobile App User’s Guide (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: 49207db9-d1f0-46e0-ae2c-f4acf4593da9
 caps.latest.revision: 24
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Field Service Mobile App User’s Guide
 

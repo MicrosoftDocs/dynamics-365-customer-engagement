@@ -20,6 +20,10 @@ caps.latest.revision: 18
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Delete or end a recurring appointment series or instance
 
