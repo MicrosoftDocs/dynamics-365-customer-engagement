@@ -29,17 +29,18 @@ With rich text enabled you get the following benefits:
 
 - Create and synchronize appointments with rich text content in the description for an improved experience in both web and the Unified Interface. 
 - Include content from an HTML web page right into the description field or create your own custom markup using the appointment editor. Appointments tracked from Outlook will also render rich text content in Dynamics 365 (online) for Customer Engagement. 
-- Server-side synchronization synchronizes the rich-text/HMTL content of appointment descriptions into Dynamics 365 (online) for Customer Engagement.
+- Server-side synchronization synchronizes the rich-text HMTL content of appointment descriptions into Dynamics 365 (online) for Customer Engagement.
 
-Once enabled, Server-Side Synchronization synchronizes the rich-text HTML content of appointment descriptions into Dynamics 365. If you disable the setting later, the appointment description field will reset to the plain-text field, but previously synchronized appointments’ description will contain rich-text HTML markup.
-
-Although the rich text editor can be used with appointment activities, it can’t be used with recurring appointments. When an appointment that contains rich text is converted to a recurring appointment, the description field for the activity is converted to a plain-text field containing rich text content.
 
 > [!IMPORTANT]
 > To enable rich text, your Dynamics 365 for Customer Engagement version must be Dynamics 365 (online), version 9.0, or a later version.
+> 
+> After enabling, if you choose to disable the setting, the appointment editor  description field will reset to the plain-text field. Previously synchronized  appointments’ description will still contain rich-text HTML markup.
+>
+> Although the rich text editor can be used with appointment activities, it can’t be used with recurring appointments. When an appointment that contains rich text is converted to a recurring appointment, the description field for the activity is converted to a plain-text field containing rich text content.
 
 ## Enable the rich text editor for appointments
-To enable the rich text editor on appointments, you need to configure the AppointmentRichEditorExperience organization setting for your Dynamics 365 (online) for Customer Engagement instance by running the PowerShell sample. 
+To enable the rich text editor on appointments, you need to configure the AppointmentRichEditorExperience organization setting for your Dynamics 365 (online) for Customer Engagement instance by running the PowerShell sample below. 
 
 The PowerShell cmdlets require the Dynamics 365 for Customer Engagement Microsoft.Xrm.Data.PowerShell module. The sample below includes the cmdlet to install the module. 
 
