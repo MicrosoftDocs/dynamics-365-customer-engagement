@@ -517,7 +517,7 @@ EXEC SP_EXECUTESQL @sql;
 ## How to delete Data Export Profile tables and stored procedures for a specific entity
 
 > [!IMPORTANT]
->  Before you run this SQL statement make sure that you have correctly defined the @prefix, @schema, and @entityName values in the statement. In this example, the leads entity table, types, and stored procedures are dropped. 
+>  Before you run this SQL statement make sure that you have correctly defined the @prefix, @schema, and @entityName values in the statement. In this example, the leads entity table, types, and stored procedures are dropped. Beware of the size limit for the entity name as bigger entity names will get truncated.
 
 ```
 -----------------------------------------------------------------
