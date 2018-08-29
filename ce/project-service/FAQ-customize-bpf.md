@@ -29,26 +29,26 @@ search.app:
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-The way you customize the Project Stages business process flow depends on the version of the Project Service app and the version of Dynamics 365 (online). In addition, there is a known limitation that the names of the stages must exactly match the expected English names (Quote, Plan, Deliver, Complete).
+The way you customize the Project Stages business process flow depends on the version of the Project Service app and the version of Dynamics 365 (online). In addition, there is a known limitation that the names of the stages must exactly match the expected English names (New, Quote, Plan, Deliver, Complete, Close).
 
 This article explains the reasons for this limitation and provides suggested workarounds.
 
-## Understanding the business logic built into the project entity
+## Business logic built into the project entity requires an exact match with English stage names
 
 The Project Stages business process flow includes business logic that drives the following behaviors in the app:
-- When the project is associated with a quote, the code sets the business process flow to the Quote stage.
-- When the project is associated with a contract, the code sets the business process flow to the Plan stage.
-- When the business process flow is advanced to the Close stage, the project record is deactivated. When the project is deactivated, the project form and work breakdown structure (WBS) are set to read-only, the named resource bookings are released, and any associated price lists are deactivated.
+- When the project is associated with a quote, the code sets the business process flow to the **Quote** stage.
+- When the project is associated with a contract, the code sets the business process flow to the **Plan** stage.
+- When the business process flow is advanced to the **Close** stage, the project record is deactivated. When the project is deactivated, the project form and work breakdown structure (WBS) are set to read-only, the named resource bookings are released, and any associated price lists are deactivated.
 
 This business logic relies on the English names for the project stages. This dependency on the English stage names is the main reason why customization of the Project Stages business process flow isn't encouraged, as well as why you don’t see the common business process flow actions like **Switch Process** or **Edit Process** on the project entity.
 
-## Version 1.x on the 8.2 platform
+## What happens if the stage names don't match the English names?
 
-When the stage names within the BPF don’t match the English stage names exactly, the BPF-driven business logic that sets the right stage for quotes or contracts or close the project is skipped and no error messages are displayed. This behavior explains why it appears that you can customize the BPF in this version. However, you won’t see any of the automatic processes working for quotes, contracts, and project close.
+In Project Service app version 1.x on the 8.2 platform, when the stage names within the BPF don’t match the English stage names exactly, the business logic that sets the right stage for quotes or contracts or closes the project is skipped. No error messages are displayed. This behavior explains why it appears that you can customize the Project Stages business process flow. However, you won’t see any of the automatic processes working for quotes, contracts, and project close.
 
-## Version 2.4.4.30 or earlier on the 9.0 platform
+In Project Service app version 2.4.4.30 or earlier on the 9.0 platform, there was a significant architectural change to business process flows, which required a re-write of the business process flow business logic. As a result, if the process stage names don’t match the expected English names, you will see an error displayed. 
 
-There was a significant architectural change to BPFs at the platform level, which required a re-write of the BPF logic. The impact to Project Service version 2.4.4.30 or earlier is that if the process stage names in the Project Stages BPF don’t match the expected English names, an error is displayed. As a result, if you want to customize the shipped BPF for the Project entity, you can only add new stages to the default BPF for the project entity, keeping the Quote, Plan, and Close stages. This restriction ensures that you don’t get errors from the business logic that expects the English stage names to be in the BPF.
+Therefore, if you want to customize the Project Stages business process flow for the Project entity, you can only add new stages to the default BPF for the project entity, keeping the Quote, Plan, and Close stages. This restriction ensures that you don’t get errors from the business logic that expects the English stage names to be in the BPF.
 
 ## Version 2.5.x.x or later
 
