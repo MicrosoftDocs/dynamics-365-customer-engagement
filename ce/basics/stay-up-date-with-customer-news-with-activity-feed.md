@@ -80,7 +80,10 @@ Monitor real-time updates in the activity feed to stay current with fast-moving 
     - **Auto posts** to see only automatic posts  
   
     - **User posts** to see only the things you’ve chosen to follow  
-  
+
+> [!NOTE]
+>  The activity feed in classic mode has a flyout to create new custom activity records under the ellipsis. This flyout can only contain upto TEN custom activities.
+
 ## Change the order that record types are listed in your activity feed  
  You can change the order that record types display in your activity feed so that the ones you care most about are listed at the top.  
   
