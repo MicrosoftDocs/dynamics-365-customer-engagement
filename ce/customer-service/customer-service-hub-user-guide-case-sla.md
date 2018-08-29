@@ -429,6 +429,8 @@ Your system administrator can enable entities other than case for SLA. For the C
 > [!NOTE]
 >  SLAs can only be created in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application. However, you can ask your system administrator or customizer to add a timer to your interactive experience forms to track the SLA KPI details in the Customer Service Hub.  
 
+To know more about how to create SLAs, see [Define Service Level Agreements (SLAs)](define-service-level-agreements.md).
+
 ### See also
 
 [Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)

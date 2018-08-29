@@ -32,6 +32,8 @@ Use queues to organize, prioritize, and monitor the progress of your work. In [!
  By default, a queue is created for each user and team in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both. How you set up queues depends on how your business works. For example, you could create separate queues for First Tier and Second Tier product support teams that reflect their differing levels of expertise, or Gold and Silver queues to reflect differing priorities based on service contracts that customers have with your organization.  
   
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] lets you create two types of queues: private or public. Create private queues with limited sets of members to let only those members view the items in the queue.  Create public queues to let everyone in the organization view the items in a queue.  
+
+To know more about how to create a queue, see [Create or edit a queue](create-edit-queue.md)
   
 ## Route items to queues  
  For all cases that are automatically created from incoming email and social posts, create routing rules to route the cases to queues. Then assign the items in the queue to appropriate CSRs or users. Alternatively, you can manually add cases and activities to queues.  

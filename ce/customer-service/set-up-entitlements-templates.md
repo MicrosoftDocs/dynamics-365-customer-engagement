@@ -22,7 +22,7 @@ search.app:
   - D365CS
 ---
 
-# Set up entitlements quickly with templates
+# Use entitlement templates to quickly set up entitlements
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

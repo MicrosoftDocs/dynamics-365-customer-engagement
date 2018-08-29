@@ -28,8 +28,6 @@ search.app:
 
 Reduce the need for manually creating cases from incoming emails and increase the efficiency of customer service agents by creating automatic case creation rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. The conditions in these rules automatically convert emails to support cases.  
 
-> [!NOTE]
-> This feature was introduced in [!INCLUDE[pn_crm_8_1_0_online.md](../includes/pn-crm-8-1-0-online.md)].
 
 ## Create cases automatically using rules  
 

@@ -22,7 +22,7 @@ search.app:
   - D365CS
 ---
 
-# Set up knowledge management using embedded knowledge search
+# Use embedded knowledge search to set up knowledge management
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
