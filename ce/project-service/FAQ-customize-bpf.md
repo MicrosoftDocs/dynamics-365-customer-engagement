@@ -1,7 +1,7 @@
 ---
 
-title: How do I customize my business process flow? (Dynamics 365 for Project Service) | MicrosoftDocs
-description: An overview of how to customize the business process flow (BPF) in Dynamics 365 Project Service.
+title: How do I customize the Project Stages business process flow? (Dynamics 365 for Project Service) | MicrosoftDocs
+description: An overview of how to customize the Project Stages business process flow (BPF) in Dynamics 365 for Project Service.
 author: NeilWOrint 
 manager: ShellyHa
 ms.service: dynamics-365-customerservice
@@ -24,20 +24,23 @@ search.app:
   
 ---
 
-# How do I customize my business process flow?
+# How do I customize the Project Stages business process flow?
+[!INCLUDE[cc-applies-to-psa-app-2-5x-9-0-platform](../includes/cc-applies-to-psa-app-2-5x-9-0-platform.md)]
+[!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-In this topic we'll describe the ways you can customize your business process flow (BPF) depending on what version of Project Service you're using. 
+The way you customize the Project Stages business process flow depends on the version of the Project Service app and the version of Dynamics 365 (online). In addition, there is a known limitation that the names of the stages must exactly match the expected English names (Quote, Plan, Deliver, Complete).
 
-## Version 1.x on the 8.2 platform and version 2.4.4.30 or earlier on the 9.0 platform
+This article explains the reasons for this limitation and provides suggested workarounds.
 
-The Project Stages Business Process Flow (BPF) project entity for these versions includes business logic that drives the following product behaviors:
-- When the project is associated with a quote, the code sets the Project Stages BPF to the Quote stage.
-- When the project is associated with a contract, the code sets the Project Stages BPF to the Plan stage.
-- When the Project Stages BPF is advanced to the Close stage, the project record is deactivated. When the project is deactivated, the project form and work breakdown structure (WBS) are made read-only, the named resource bookings are released, and any associated price lists are deactivated.
+## Understanding the business logic built into the project entity
 
-The business logic built into the project entity BPF relies on the English stage names to drive these behaviors.
+The Project Stages business process flow includes business logic that drives the following behaviors in the app:
+- When the project is associated with a quote, the code sets the business process flow to the Quote stage.
+- When the project is associated with a contract, the code sets the business process flow to the Plan stage.
+- When the business process flow is advanced to the Close stage, the project record is deactivated. When the project is deactivated, the project form and work breakdown structure (WBS) are set to read-only, the named resource bookings are released, and any associated price lists are deactivated.
 
-This dependency on the English stage names is the main reason why we’ve discouraged the customization of the Project Stages BPF as well as why you don’t see the common BPF process actions like switch or edit on the project entity.
+This business logic relies on the English names for the project stages. This dependency on the English stage names is the main reason why customization of the Project Stages business process flow isn't encouraged, as well as why you don’t see the common business process flow actions like **Switch Process** or **Edit Process** on the project entity.
 
 ## Version 1.x on the 8.2 platform
 
