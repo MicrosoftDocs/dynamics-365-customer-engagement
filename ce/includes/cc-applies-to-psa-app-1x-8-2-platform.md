@@ -1,3 +1,3 @@
-Applies to Project Service app version 1.x on platform 8.2
+Applies to Project Service app version 1.x on platform version 8.2
 
 
