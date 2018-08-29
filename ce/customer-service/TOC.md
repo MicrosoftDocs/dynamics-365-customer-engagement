@@ -47,7 +47,7 @@
 #### [Facilities/Equipment](add-facilities-equipment-service-scheduling.md)
 #### [Resource Groups](create-edit-resource-group.md)
 #### [Sites](use-sites-manage-service-locations.md)
-### [Migrate to the new service scheduling based on Universal Resource Scheduling (URS)](migrate-urs-service-scheduling.md)
+### [Migrate to URS based service scheduling](migrate-urs-service-scheduling.md)
 
 ## Customize
 ### [Create and design forms](create-design-forms-customer-service-hub.md)
