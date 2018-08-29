@@ -30,6 +30,8 @@ The calendar displays canceled and completed appointments and service activities
 
 > [!NOTE]
 >  You can’t insert attachments in a recurring appointment.  
+> 
+> With the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] release, appointment descriptions can contain rich text. Administrators can enable rich text for appointments by following the steps in this topic: [Rich text experience for appointment activities](../admin/enable-rich-text-experience.md).
 
 
 To remove an appointment or service activity from the calendar, delete the record.  
