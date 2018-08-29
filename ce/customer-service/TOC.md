@@ -41,12 +41,13 @@
 ### [Entitlement templates](set-up-entitlements-templates.md)
 ### [Email templates](../admin/create-templates-email.md)
 ### [Article templates](../admin/create-templates-articles.md)
-### [Service scheduling (deprecated)](basics-service-service-scheduling.md)
+### [Service scheduling overview](basics-service-service-scheduling.md)
 #### [Business closure](set-when-business-closed.md)
 #### [Services](create-edit-service.md)
 #### [Facilities/Equipment](add-facilities-equipment-service-scheduling.md)
 #### [Resource Groups](create-edit-resource-group.md)
 #### [Sites](use-sites-manage-service-locations.md)
+### [Migrate to the new service scheduling based on Universal Resource Scheduling (URS)](migrate-urs-service-scheduling.md)
 
 ## Customize
 ### [Create and design forms](create-design-forms-customer-service-hub.md)
