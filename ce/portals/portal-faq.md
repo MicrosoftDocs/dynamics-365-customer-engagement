@@ -81,4 +81,4 @@ Any Portal release is done in two phases: early upgrade and GA. During the early
 
 ## How to use a custom domain name for my portal?
 
-You can enable your portal to use a vanity domain name in place of standard `microsoftcrmportals.com` domain name by following the steps mentioned in the [Link your Dynamics 365 portal to a custom domain](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/manage-portal#link-your-dynamics-365-portal-to-a-custom-domain) article.
+You can enable your portal to use a custom domain name in place of standard `microsoftcrmportals.com` domain name. More information: [Link your Dynamics 365 portal to a custom domain](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/manage-portal#link-your-dynamics-365-portal-to-a-custom-domain).
