@@ -3,7 +3,7 @@ title: "Migrate Dynamics 365 Portal configuration | MicrosoftDocs"
 description: "Learn how to migrate Dynamics 365 Portal configuration."
 ms.custom:
   - dyn365-portal
-ms.date: 08/28/2018
+ms.date: 08/30/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -23,15 +23,16 @@ After you have completed development or configuration of your Dynamics 365 Porta
 
 To export configuration data, you would need to use the Configuration Migration tool and a portal-specific configuration schema file. For more information about this tool, see [Manage configuration data](https://technet.microsoft.com/en-us/library/dn647421.aspx).
 
+> [!NOTE]
+> - We recommend you to use the latest version of the Configuration Migration tool. The Configuration Migration tool can be downloaded from NuGet. More information for downloading the tool: [Download tools from NuGet](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/download-tools-nuget).
+> - The minimum solution version of Dynamics 365 Portal supported by schema files for configuration migration is 8.4.0.275. However, we recommend that you use the latest solution version.
+
 Schema files are available for the following portal types:
 - Community portal
 - Customer Self-Service portal
 - Partner portal
 - Employee Self-Service portal
 - Custom portal
-
-> [!NOTE]
-> The minimum solution version of Dynamics 365 Portal supported by schema files for configuration migration is 8.4.0.275. However, we recommend that you use the latest solution version.
 
 The default schema files contain information about portal entities, relationships, and uniqueness definitions for each entity. More information: [Export portal configuration data](#export-portal-configuration-data)
 
@@ -44,7 +45,7 @@ After exporting the configuration data, you must import it into the target envir
 
 You can export portal configuration data from a source system by using portal-specific configuration schema files.
 
-1.	Download the Configuration Migration tool and extract to the desired folder. The Configuration Migration tool can be downloaded from NuGet. More information for downloading the tool: [Download tools from NuGet](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/download-tools-nuget)
+1.	Download the Configuration Migration tool and extract to the desired folder.
 
 2.	Download a portal configuration schema file using links provided above for your portal type.
 
@@ -76,6 +77,9 @@ You can export portal configuration data from a source system by using portal-sp
     > [!div class="mx-imgBorder"]
     ![Progress of configuration data export](media/export-config-status.png "Progress of configuration data export")
 
+    > [!IMPORTANT]
+    > The Configuration Migration tool does not support filtering of records in an entity. By default, all the records in the selected entity will be exported. Therefore, if you have created more than one website record, all website records will be exported.
+
 9.	Select **Exit** to close the tool.
 
 ## Import portal configuration data
@@ -91,6 +95,7 @@ You can export portal configuration data from a source system by using portal-sp
 
     > [!NOTE]
     > If you do not have multiple organizations, this screen is not displayed.
+    > Ensure that the portal solution is already installed for the organization where you plan to import the configurations.
 
 4.	The next screen prompts you to provide the data file (.zip) to be imported. Browse to the data file, select it, and then select **Import Data**. 
 
