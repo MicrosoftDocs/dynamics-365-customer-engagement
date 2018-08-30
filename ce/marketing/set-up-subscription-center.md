@@ -3,12 +3,12 @@ title: "Set up a subscription center (Dynamics 365 for Marketing) | Microsoft Do
 description: "How to create subscription lists and add them to a subscription center in Dynamics 365 for Marketing"
 keywords: "tutorial; subscription center; static list; subscription list; marketing page; page"
 ms.date: 04/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: get-started-article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 21159fd7-50cc-4879-884c-888bc0d6b457
@@ -17,6 +17,13 @@ ms.author: kamaybac
 manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Set up subscription lists and subscription centers

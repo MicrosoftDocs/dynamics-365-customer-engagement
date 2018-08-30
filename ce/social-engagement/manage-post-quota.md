@@ -5,15 +5,22 @@ keywords: "quota, post quota, contingent"
 ms.date: 08/22/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 9d9e5115-52c7-4f21-a90b-3bde6804d2fe
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Manage your post quota

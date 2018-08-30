@@ -1,7 +1,7 @@
 ---
 title: "Help improve Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Learn how you can make our app better by sending system and application information to Microsoft."
-ms.custom:
+ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 04/24/2018
 ms.service: dynamics-365-customerservice
@@ -17,7 +17,12 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 tags: 
- - "MigrationHO"
+  - "MigrationHO"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Improve Unified Service Desk
 Improvement program data lets [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] send  application-specific information like product usage, health, and performance data to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. We use the information that we collect from the program to analyze and improve the service and product experience for our customers.

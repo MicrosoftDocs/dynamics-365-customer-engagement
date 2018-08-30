@@ -15,6 +15,10 @@ caps.latest.revision: 59
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Detect duplicate data for developers
 

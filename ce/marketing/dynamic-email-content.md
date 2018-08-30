@@ -5,10 +5,10 @@ keywords: "email; marketing email; dynamic content; content settings"
 ms.date: 08/23/2018
 ms.service:
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 5134e656-31ae-4984-8045-fcd76b98719a
@@ -17,6 +17,13 @@ ms.author: kamaybac
 manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Add dynamic content to email messages

@@ -8,6 +8,10 @@ ms.assetid: ebd1526e-d014-41a3-973d-75742b9cfbd3
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getUtcValue (Client API reference)
 

@@ -3,13 +3,13 @@ title: "Administration and setup frequently asked questions (Dynamics 365 for Ma
 description: "Solutions to common questions and issues that can occur during the initial setup and ongoing administration of Dynamics 365 for Marketing"
 keywords: "troubleshooting;setup"
 ms.date: 07/06/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-admin"
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 4c2bc52f-595c-4728-9ef5-5e3281ca0cc0
@@ -18,6 +18,13 @@ ms.author: kamaybac
 manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Administration and setup FAQ

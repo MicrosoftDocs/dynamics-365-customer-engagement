@@ -8,8 +8,15 @@ applies_to:
 - "Dynamics 365 Version 9.x"
 ms.assetid: 78dc5157-cf1d-4e32-ace7-9e71763e7510
 author: kamaybac
-ms.author: shsuri
-manager: mauromar
+ms.author: renwe
+manager: annbe
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Dynamics 365 for Marketing readme

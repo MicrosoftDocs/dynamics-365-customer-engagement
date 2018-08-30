@@ -3,12 +3,12 @@ title: "Hosted control types, action, and event reference in Unified Service Des
 description: "The section provides information about the various types of hosted controls in Unified Service Desk, and the predefined User Interface Integration (UII) actions and events available for each hosted control type."
 keywords: ""
 ms.date: 08/17/2018
-ms.service:
+ms.service: 
   - "dynamics-365-customerservice"
-ms.custom:
+ms.custom: 
   - "dyn365-USD"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2013"
@@ -21,6 +21,12 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 
 # Hosted control types, action, and event reference in Unified Service Desk

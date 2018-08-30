@@ -14,6 +14,10 @@ caps.latest.revision: 40
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Maintain managed solutions
 

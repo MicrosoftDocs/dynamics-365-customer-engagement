@@ -15,6 +15,11 @@ ms.assetid: 2746eafb-b5a1-4e20-96cc-9e17c7f49f77
 caps.latest.revision: 38
 ms.author: "rdubois"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Control receiving social data
 

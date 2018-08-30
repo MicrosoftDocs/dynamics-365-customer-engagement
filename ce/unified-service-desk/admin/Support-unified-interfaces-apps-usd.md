@@ -3,12 +3,12 @@ title: "Support for Unified Interface apps in Unified Service Desk (Dynamics 365
 description: "Learn about the Unified Interface apps supportability in Unified Service Desk."
 keywords: ""
 ms.date: 05/07/2018
-ms.service:
+ms.service: 
   - "usd"
-ms.custom:
+ms.custom: 
   - ""
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2013"
@@ -18,6 +18,11 @@ ms.assetid: 7ECEC924-5089-4D9C-88B3-50D1BD7B03A9
 author: kabala123
 ms.author: kabala
 manager: shujoshi
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 
 # Support for Unified Interface Apps in Unified Service Desk

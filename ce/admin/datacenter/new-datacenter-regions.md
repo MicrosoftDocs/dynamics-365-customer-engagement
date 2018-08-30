@@ -14,6 +14,11 @@ ms.assetid: 6968d4e5-9482-40f3-ab14-6e4bc0dcc787
 caps.latest.revision: 45
 author: "jimholtz"
 ms.author: "jimholtz"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Datacenter regions
 

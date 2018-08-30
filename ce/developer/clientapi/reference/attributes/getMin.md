@@ -8,6 +8,10 @@ ms.assetid: 9a04b52a-2bc7-4572-bd3e-8b9622602092
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "annbe"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getMin (Client API reference)
 

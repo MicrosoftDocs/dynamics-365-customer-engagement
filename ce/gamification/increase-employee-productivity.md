@@ -4,10 +4,10 @@ description: "Learn how to drive results and keep your employees engaged while h
 keywords: ""
 ms.date: 03/27/2018
 ms.service: dynamics-365-sales
-ms.custom:
+ms.custom: 
   - dyn365-gamification
 ms.topic: home-page
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 6a70c280-4e08-4382-bb53-af82d0bfa9fb
 author: m-hartmann
@@ -18,6 +18,13 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 26
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 
 # Keep your employees engaged and productive by using Gamification

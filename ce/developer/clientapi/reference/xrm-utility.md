@@ -8,6 +8,10 @@ ms.assetid: c044f7b8-7803-45fb-b99c-df01800c3b2a
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Xrm.Utility (Client API reference)
 

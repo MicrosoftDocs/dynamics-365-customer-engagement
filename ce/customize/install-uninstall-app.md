@@ -17,6 +17,10 @@ ms.assetid: e82e7f64-37ad-41e5-acd7-16309881c6a2
 caps.latest.revision: 9
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Install or uninstall an app
 

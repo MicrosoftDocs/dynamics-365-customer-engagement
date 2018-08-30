@@ -6,7 +6,7 @@ ms.date: 10/30/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: f8f35728-62c8-4461-a7b8-2945360c1b3a
@@ -18,6 +18,11 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 4
 topic-status: Drafting
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 
 # Preview feature: Use the Organization Insights dashboard to view metrics about your instance

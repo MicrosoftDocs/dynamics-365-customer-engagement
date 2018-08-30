@@ -9,6 +9,10 @@ ms.assetid: d329dade-16c5-46e9-8dec-4b8efb996d01
 author: "jimdaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Create a virtual entity data provider

@@ -3,12 +3,12 @@ title: "Uninstall Dynamics 365 for Marketing (Dynamics 365 for Marketing) | Micr
 description: "How to remove Dynamics 365 for Marketing from a Dynamics 365 instance"
 keywords: "uninstall;solutions;administration;instances"
 ms.date: 04/01/2018
-ms.service:
+ms.service: 
   - "crm-online"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 76871891-d62c-4496-81f6-60b31bf5e3e6
@@ -17,6 +17,13 @@ ms.author: kamaybac
 manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Uninstall [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] from a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instance

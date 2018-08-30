@@ -19,6 +19,10 @@ caps.latest.revision: 71
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Open forms, views, dialogs, and reports with a URL
 

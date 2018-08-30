@@ -3,7 +3,7 @@ title: Understanding Cases and SLA in Customer Service Hub in Dynamics 365 | Mic
 description: Understand Cases and SLA in Customer Service Hub for Customer Service in Microsoft Dynamics 365
 keywords: Cases; SLA; Customer Service Hub; Customer Service;  Microsoft Dynamics 365; Create a case; Manage a case;  Merge cases; Resolve a case; Track SLA details with Timer Control; Manage activities from the Timeline; Convert a case to a Knowledge article; Create and manage parent and child cases
 author: anjgupta
-applies_to: Dynamics 365 (online) 
+applies_to: Dynamics 365 (online)
 ms.author: anjgup
 manager: shujoshi
 ms.date: 06/01/2018
@@ -11,6 +11,13 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
 ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # Work with Cases and manage SLAs

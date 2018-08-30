@@ -3,13 +3,13 @@ title: "Open administration settings (Dynamics 365 for Marketing) | Microsoft Do
 description: "Explains how to access admin settings in Dynamics 365 for Marketing"
 keywords: "administration"
 ms.date: 04/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-admin"
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: c49c627d-2094-4495-b39d-a4dc9f3f5702
@@ -18,6 +18,13 @@ ms.author: kamaybac
 manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Open the advanced settings

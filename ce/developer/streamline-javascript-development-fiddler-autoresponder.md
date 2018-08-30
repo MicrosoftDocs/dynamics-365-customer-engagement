@@ -14,6 +14,10 @@ ms.assetid: E197DEB3-7461-48D4-80D4-C0BFC8AC80A1
 author: "SushantSikka"
 ms.author: "susikka"
 manager: "sakudes"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Streamline JavaScript web resource development using Fiddler AutoResponder
 

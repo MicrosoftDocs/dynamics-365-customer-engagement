@@ -5,10 +5,10 @@ keywords: "events; event management"
 ms.date: 08/28/2018
 ms.service:
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 4844cf8c-bad1-4483-ba9b-e6e83874fd2b
@@ -17,6 +17,13 @@ ms.author: kamaybac
 manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Invite, register, and house event attendees

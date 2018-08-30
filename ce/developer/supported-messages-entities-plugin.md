@@ -15,6 +15,10 @@ caps.latest.revision: 47
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Supported messages and entities for plug-ins
 

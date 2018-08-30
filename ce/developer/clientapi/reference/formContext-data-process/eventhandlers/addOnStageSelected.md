@@ -8,6 +8,10 @@ ms.assetid: 5982770c-d5a4-415a-a32d-3734b6210bb9
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # addOnStageSelected (Client API reference)
 

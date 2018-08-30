@@ -15,6 +15,11 @@ caps.latest.revision: 11
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Set up Dynamics 365 (online) to use SharePoint Online
 

@@ -3,12 +3,12 @@ title: "Set up an event portal (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Set up a Dynamics 365 for Marketing event portal, where people can read about your event and its speakers, create an account, register for the event, purchase passes, view their session schedule, and more."
 keywords: "event;portals;event portal"
 ms.date: 04/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: b83e8cb2-38a4-462f-87bc-0fc52357f01e
@@ -17,6 +17,13 @@ ms.author: kamaybac
 manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Set up the event portal

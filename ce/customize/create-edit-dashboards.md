@@ -15,6 +15,10 @@ ms.assetid: 641885d2-4a08-41b8-b914-d9a244e4d5b1
 caps.latest.revision: 10
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Create or edit dashboards
 

@@ -14,6 +14,10 @@ ms.assetid: f53639b1-7d62-4470-8ca6-c9a6500c9230
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Create a custom entity
 

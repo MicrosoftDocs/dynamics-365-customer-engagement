@@ -15,6 +15,11 @@ ms.assetid: 71cdcd4d-09f8-48e0-b15a-e860dd325169
 caps.latest.revision: 14
 ms.author: "rdubois"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Add resources to a site
 

@@ -23,6 +23,10 @@ caps.latest.revision: 32
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use late-bound entity class with a LINQ query
 

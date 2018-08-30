@@ -3,12 +3,12 @@ title: "Manage your everyday activates (Dynamics 365 for Marketing) | Microsoft 
 description: "Stay on top of your daily workload with dashboards, activities, and teams in Dynamics 365 for Marketing"
 keywords: "activity; dashboard; task; phone call; appointment"
 ms.date: 04/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: b9d69822-83df-4120-91bc-0afa83c84f4f
@@ -17,6 +17,13 @@ ms.author: kamaybac
 manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Organize your daily work

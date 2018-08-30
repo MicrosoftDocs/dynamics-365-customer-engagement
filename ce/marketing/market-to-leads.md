@@ -3,12 +3,12 @@ title: "Market to leads (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to integrate sales-driven and marketing-driven lead processes in Dynamics 365 for Marketing"
 keywords: "leads;contacts;marketing;sales"
 ms.date: 04/25/2018
-ms.service:
+ms.service: 
   - "crm-online"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: bce3292e-81d3-495b-bc88-9bec29c07177
@@ -17,6 +17,13 @@ ms.author: kamaybac
 manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Market to leads with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]

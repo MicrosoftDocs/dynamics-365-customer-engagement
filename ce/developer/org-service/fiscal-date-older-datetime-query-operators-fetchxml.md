@@ -15,6 +15,10 @@ caps.latest.revision: 33
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Fiscal date and older than datetime query operators in FetchXML
 

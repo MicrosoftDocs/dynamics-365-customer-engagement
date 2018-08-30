@@ -15,6 +15,11 @@ caps.latest.revision: 40
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Turn duplicate detection rules on or off for the whole organization
 

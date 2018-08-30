@@ -8,6 +8,10 @@ ms.assetid: 199d1344-351a-44ee-8c43-f6b00b85a793
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getState (Client API reference)
 

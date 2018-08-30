@@ -15,6 +15,11 @@ ms.assetid: 90712d5b-6035-4ef0-9805-04bca45e17e0
 caps.latest.revision: 1
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Install mobile and Outlook apps
 

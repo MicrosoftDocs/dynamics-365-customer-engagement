@@ -15,6 +15,10 @@ caps.latest.revision: 78
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Query Data using the Web API
 

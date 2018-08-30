@@ -15,6 +15,10 @@ caps.latest.revision: 38
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use the early bound entity classes in code
 

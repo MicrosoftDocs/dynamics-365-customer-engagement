@@ -3,12 +3,12 @@ title: "Create a simple customer journey (Dynamics 365 for Marketing) | Microsof
 description: "A tutorial for how to set up a customer journey that implements a simple email blast in Dynamics 365 for Marketing"
 keywords: "tutorial; customer journey; send email; email blast"
 ms.date: 04/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: get-started-article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 45c4c442-2662-41a0-83c9-8e3149ed71ec
@@ -17,6 +17,13 @@ ms.author: kamaybac
 manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Create a simple customer journey with email messaging

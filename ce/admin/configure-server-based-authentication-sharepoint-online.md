@@ -15,6 +15,11 @@ caps.latest.revision: 18
 author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Configure server-based authentication with Dynamics 365 (online) and SharePoint Online
 

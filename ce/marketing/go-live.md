@@ -3,12 +3,12 @@ title: "Publish records with go live and track their status (Dynamics 365 for Ma
 description: "Find out which types of records must be published (go live) before you can use them, how to track their go-live status, and how to stop or edit records that are already live in Dynamics 365 for Marketing"
 keywords: "publish;live;status;status reason;go live"
 ms.date: 08/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: c618e1c0-53a3-4e8a-950b-ae8bcbf28e5f
@@ -17,6 +17,13 @@ ms.author: kamaybac
 manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Go live with publishable entities and track their status

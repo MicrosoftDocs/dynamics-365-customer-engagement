@@ -14,6 +14,10 @@ ms.assetid: 1977e223-2d7b-4019-a584-e81d1b832785
 caps.latest.revision: 8
 author: "JimDaly"
 ms.author: "jdaly"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Walkthrough: Configure Azure (SAS) for integration with Customer Engagement
 
