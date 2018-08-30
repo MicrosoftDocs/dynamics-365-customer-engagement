@@ -27,14 +27,14 @@ The Client API grid context object provides reference to a subgrid on a form aga
 
 Use the [formContext](clientapi-form-context.md) object to get an instance of the form where the code is executed, and then retrieve the subgrid control on the form. For example, when you know the name of a subgrid control (say **Contacts** subgrid in the default account form), you can access it using the following code:
 
-    ```JavaScript
-    function doSomething(executionContext) {
-       var formContext = executionContext.getFormContext(); // get the form Context
-       var gridContext = formContext.getControl("Contacts"); // get the grid context
+```JavaScript
+function doSomething(executionContext) {
+   var formContext = executionContext.getFormContext(); // get the form Context
+   var gridContext = formContext.getControl("Contacts"); // get the grid context
 
-       // Perform operations on the subgrid
-    }
-    ```
+   // Perform operations on the subgrid
+}
+```
 
 ## Related topics
 
