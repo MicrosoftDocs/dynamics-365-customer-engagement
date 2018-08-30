@@ -177,6 +177,9 @@ To enable the option using Internet options:
 4. Select the **Enable Protected Mode** check box for the all the zones.
 5. Select **Apply**, and then select **OK**.
 
+> [!TIP]
+> An alternative mitigation is retaining the default settings in the **Security** zones, and adding the Dynamics 365 instance and authentication URLs to the **Trusted sites**. For more information, see the [blog](https://blogs.msdn.microsoft.com/usd/2016/01/26/ie-process-mode-gives-httpevent-popup/).
+
 ## Cleanup HTCs
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for the **Cleanup HTCs** registry key and displays an error message when the key is disabled (value set to **No**).
