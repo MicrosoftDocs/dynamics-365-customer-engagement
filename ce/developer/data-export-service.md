@@ -109,21 +109,73 @@ GRANT ALTER, REFERENCES, INSERT, DELETE, UPDATE, SELECT, EXECUTE ON SCHEMA::dbo 
   
 ### Gain Access  
  Because only [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] System Administrators are authorized to perform data export operations, these APIs enforce caller authorization through the use of Azure Active Directory ([AAD](https://azure.microsoft.com/en-us/services/active-directory/)) [security tokens](https://azure.microsoft.com/en-us/documentation/articles/active-directory-token-and-claims/). The following code snippet demonstrates generating such a token for a web application by using the administrator's name and password.   You must replace the `AppId`, `crmAdminUser` and `crmAdminPassword` with values appropriate to your service. This approach can be used for development and testing, but more secure means should be used for production, such as the use of Azure Key Vault.  
-  
+
+### Azure Prerequisites 
+1.	Go to the App registrations tab in Azure AD and add a new application registration.
+2.	Give it a name and set the Application type to Native. The redirect URI doesn't typically matter as long as it's valid. 
+3.	Click the Manifest button to edit the manifest, change the property oauth2AllowImplicitFlow to true and save the changes. 
+
+Now set the required Permissions: 
+
+1. Windows Azure Active Directory -- Delegated permissions {Sign in and read user profile} 
+2. Data Export Service for Microsoft Dynamics 365 (CRM Exporter) -- Delegated permissions {Have access to Data Export Service for Microsoft Dynamics 365 API} 
+3. You will then need to click Grant Permission
+
 ```csharp  
   
 //Reference Azure AD authentication Library (ADAL)    
-using Microsoft.IdentityModel.Clients.ActiveDirectory;  
-   . . .  
-    string yourAppClientID = "[app-associated-GUID]";   //Your AAD-registered AppId   
-    string crmAdminUser = "admin1@contoso.com";  //Your CRM administrator user name  
-    string crmAdminPassword = "Admin1Password";  //Your CRM administrator password;   
-    //For interactive applications, there are overloads of AcquireTokenAsync() which prompt for password.   
-    var authParam = AuthenticationParameters.CreateFromResourceUrlAsync(new   
-        Uri("https://discovery.crmreplication.azure.net/crm/exporter/aad/challenge")).Result;  
-    AuthenticationContext authContext = new AuthenticationContext(authParam.Authority, false);  
-    string token = authContext.AcquireTokenAsync(authParam.Resource, yourAppClientID,   
-        new UserCredential(crmAdminUser, crmAdminPassword)).Result.AccessToken;  
+using Microsoft.IdentityModel.Clients.ActiveDirectory; 
+using System.Net.Http.Headers;
+   . . . 
+        //Connect to Data Export API and Retrieve Connector URL
+        public async Task ConnectToAPI()
+        {
+            var challengeUrl = "https://discovery.crmreplication.azure.net/crm/exporter/aad/challenge";
+            var desRequestUrl = "https://discovery.crmreplication.azure.net/crm/exporter/metadata/connector?organizationUrl=<CRM_ORG_URL>&organizationId=<CRM_ORG_ID>";
+            string clientId = "<APP ID>";   //Your AAD-registered AppId 
+            string crmAdminUser = "<USER ID>";  //Your CRM administrator user name
+            string crmAdminPassword = "<PASSWORD>";
+            var passCredentials = new UserPasswordCredential(crmAdminUser, crmAdminPassword);
+            var authParam = AuthenticationParameters.CreateFromResourceUrlAsync(new Uri(challengeUrl)).Result;
+            AuthenticationContext authContext = new AuthenticationContext(authParam.Authority, false);
+            var token = await authContext.AcquireTokenAsync(authParam.Resource, clientId, passCredentials);
+            using (var client = GetClient(token.AccessToken))
+            {
+                var connectorResponse = await SendAsync(client, string.Empty, HttpMethod.Get, desRequestUrl);
+                var connectorUrlContent = await connectorResponse.Content.ReadAsStringAsync();
+                Console.WriteLine($"Response {connectorResponse.StatusCode} Message {connectorUrlContent}");
+                //Retrieve connector URL
+                var connectorUrl = JsonConvert.DeserializeObject<JObject>(connectorUrlContent)["ConnectorUrl"];
+                if (connectorResponse.IsSuccessStatusCode)
+                {
+                    //Use the connector URL
+                    var profilesUrl = $"{connectorUrl}/crm/exporter/profiles?status=true&organizationUrl=<CRM_ORG_URL>&organizationId=<CRM_ORG_ID>";
+                    var profilesResponse = await SendAsync(client, string.Empty, HttpMethod.Get, profilesUrl);
+                    var profilesContent = await profilesResponse.Content.ReadAsStringAsync();
+                    Console.WriteLine($"Response {profilesResponse.StatusCode} Message {profilesContent}");
+                }
+            }
+        }
+        
+        //Prepare HttpClient
+        public HttpClient GetClient(string accessToken)
+        {
+            var client = new HttpClient();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+            return client;
+        }
+        //Send Requests
+        public async Task<HttpResponseMessage> SendAsync(HttpClient client, string content, HttpMethod Method, string requestUrl)
+        {
+            var request = new HttpRequestMessage(Method, requestUrl);
+            if (request.Method == HttpMethod.Post)
+            {
+                request.Content = new StringContent(content);
+            }
+            return await client.SendAsync(request);
+        }
+    }
+
   
 ```  
   
