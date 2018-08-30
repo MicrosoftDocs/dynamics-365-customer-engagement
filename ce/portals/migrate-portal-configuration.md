@@ -94,8 +94,8 @@ You can export portal configuration data from a source system by using portal-sp
 3.	If you have multiple organizations, and you had selected the **Display list of available organizations** check box in the previous step, the next screen allows you to choose the organization that you want to connect to. Select a Dynamics 365 organization to connect to. 
 
     > [!NOTE]
-    > If you do not have multiple organizations, this screen is not displayed.
-    > Ensure that the portal solution is already installed for the organization where you plan to import the configurations.
+    > - If you do not have multiple organizations, this screen is not displayed.
+    > - Ensure that the portal solution is already installed for the organization where you plan to import the configurations.
 
 4.	The next screen prompts you to provide the data file (.zip) to be imported. Browse to the data file, select it, and then select **Import Data**. 
 
