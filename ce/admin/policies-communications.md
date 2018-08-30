@@ -151,7 +151,7 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
 
 ### Post-update notification
 
- If your update is completed within the defined maintenance window, you won’t receive any notification when the update is completed. However, the History page in LCS will be updated to show that the update has been completed.
+ If your update is completed within the defined maintenance window, you won’t receive any notification when the update is completed. 
 
  You can verify that the update was completed successfully by checking the version number on the About page. 
 
