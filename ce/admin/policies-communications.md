@@ -105,7 +105,7 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
   
 - [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service changes and software updates  
   
-- Minor service updates to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] that occur about 10 times per year. See [Service updates](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases).  
+- Minor service updates to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] that occur several times per year. See [Service updates](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases).  
  
  ### Maintenance timeline
  
