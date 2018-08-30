@@ -213,7 +213,7 @@ Here's an example of how to define a segment that starts by finding a collection
 1. Open the **Definition** tab, where you'll find the segment **Designer**. A default contact group is provided, but you don't want a contact group, so select the close button to remove this default group.  
     ![Close the default group](media/segment-opportunity-close-group.png "Close the default group")
 
-1. The default group closes, leaving behind a **Select a profile or relationship** drop-down list. Select **Opportunity** from here. (If you don't see the **Opportunity** entity listed here, then you probably need to set up syncing for this entity as described in the fist step of this procedure; note that it can take up to six hours for a new entity to appear in this list after the first sync.)  
+1. The default group closes, leaving behind a **Select a profile or relationship** drop-down list. Select **Opportunity** from here. (If you don't see the **Opportunity** entity listed here, then you probably need to set up syncing for this entity as described in the first step of this procedure; note that it can take up to six hours for a new entity to appear in this list after the first sync.)  
     ![Select the waitlist-item entity](media/segment-opportunity-choose-entity.png "Select the waitlist-item entity")
 
 1. Complete the row to create the logical expression:  
