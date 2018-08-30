@@ -105,7 +105,7 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
   
 - [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service changes and software updates  
   
-- Minor service updates to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] that occur about 10 times per year. See [Service updates](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases).  
+- Minor service updates to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] that occur several times per year. See [Service updates](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases).  
  
  ### Maintenance timeline
  
@@ -135,7 +135,7 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
 
 - Project owners
 
-- Organziation admins
+- Organization admins
 
 - Environment admins
 
@@ -151,7 +151,7 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
 
 ### Post-update notification
 
- If your update is completed within the defined maintenance window, you won’t receive any notification when the update is completed. However, the History page in LCS will be updated to show that the update has been completed.
+ If your update is completed within the defined maintenance window, you won’t receive any notification when the update is completed. 
 
  You can verify that the update was completed successfully by checking the version number on the About page. 
 
