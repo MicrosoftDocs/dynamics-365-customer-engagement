@@ -1,6 +1,5 @@
 # [Dynamics 365 for Customer Service](help-hub.md)
 ## [Overview](overview.md)
-## [What's new](whats-new-customer-service.md)
 ## User Guide
 ### [Customer Service Hub](user-guide-customer-service-hub.md)
 #### [Learn the basics](customer-service-hub-user-guide-basics.md)
@@ -47,7 +46,7 @@
 #### [Facilities/Equipment](add-facilities-equipment-service-scheduling.md)
 #### [Resource Groups](create-edit-resource-group.md)
 #### [Sites](use-sites-manage-service-locations.md)
-### [Migrate to URS based service scheduling](migrate-urs-service-scheduling.md)
+
 
 ## Customize
 ### [Create and design forms](create-design-forms-customer-service-hub.md)
