@@ -1,6 +1,6 @@
 ---
 
-title: Is there a way to customize the Project Stages business process flow? (Dynamics 365 for Project Service) | MicrosoftDocs
+title: How do I customize the Project Stages business process flow? (Dynamics 365 for Project Service) | MicrosoftDocs
 description: An overview of how to customize the Project Stages business process flow (BPF) in Dynamics 365 for Project Service.
 author: NeilWOrint 
 manager: ShellyHa
@@ -24,16 +24,16 @@ search.app:
   
 ---
 
-# Is there a way to customize the Project Stages business process flow?
+# How do I customize the Project Stages business process flow?
 [!INCLUDE[cc-applies-to-psa-app-2-5x-9-0-platform](../includes/cc-applies-to-psa-app-2-5x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
 Currently, there's a known limitation that the names of the stages in the Project Stages business process flow must exactly match the expected English names (New, Quote, Plan, Deliver, Complete, Close). Otherwise, the business logic, which relies on the English stage names, doesn't work as expected. That's why you don't see familiar actions such as **Switch Process** or **Edit Process** available on the project form, and customizing the business process flow isn't encouraged. 
 
-This article explains the reasons for this limitation and provides suggested workarounds, which depend on the Project Servie app version and the version of Dynamics 365 (online).
+This article explains the reasons for this limitation and provides suggested workarounds if you do need to customize the business process flow. The workarounds to use depends on the Project Service app version and the version of Dynamics 365 (online).
 
-[sce]
+[screenshot]
 
 ## Business logic built into the project entity requires an exact match with English stage names
 
