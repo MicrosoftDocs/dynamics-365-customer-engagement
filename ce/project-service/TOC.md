@@ -26,11 +26,11 @@
 ## [Why is the price defaulting to zero on time sales actuals?](FAQ-zero-price-time-sales-actuals.md)
 
 # Guidance for earlier versions (app version 2.x and 1.x)
-## [White papers](white-papers.md)
 ## FAQ and troubleshooting
 ### [How do I assign a resource to a task (app version 2.x)?](FAQ-assign-resources-to-tasks-in-web-app.md)
 ### [How do I "soft book" resources (app version 2.x)?](FAQ-soft-book-in-web-app.md)
 ### [How do I customize the Project Stages business process flow?](FAQ-customize-bpf.md)
+## [White papers](white-papers.md)
 ## [Administrator guide](admin-guide.md)
 ### [Install and customize](install-customize.md)
 ### [Use demo data](use-demo-data.md)
