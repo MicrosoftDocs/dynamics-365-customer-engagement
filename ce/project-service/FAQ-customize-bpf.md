@@ -34,7 +34,7 @@ This limitation has been corrected in Project Service app version 2.5.x.x or lat
 
 [screenshot]
 
-## Business logic built into the project entity requires an exact match with English stage names
+## Business logic built requires an exact match with English stage names
 
 The Project Stages business process flow includes business logic that drives the following behaviors in the app:
 - When the project is associated with a quote, the code sets the business process flow to the **Quote** stage.
@@ -77,7 +77,7 @@ In Project Service 2.4.4.30 or earlier on platform 9.0, with a custom business p
 
 - Modifying the **Project By Stage** chart to work with your custom field instead of the default configuration.
 
-## Steps to create your own business process flow for the project entity
+### Steps to create your own business process flow for the project entity
 
 To create your own business process flow for the project entity do the following:
 
