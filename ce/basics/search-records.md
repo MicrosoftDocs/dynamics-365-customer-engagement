@@ -1,7 +1,7 @@
 ---
 title: "Search for records (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 07/27/2018
+ms.date: 08/29/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -33,7 +33,9 @@ To find your records quickly in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynami
   
 - **Wildcard** - for example: *ski or *ski\*  
   
-### Full text quick find
+### Full text quick find (on-premises only)
+
+- For Dynamics 365 (online), use Relevance Search.
   
 - **Search within** - results include records that contain a field with all of the words in the search term.  The individual words can appear anywhere in the string and in any order.  For example, if you search for “Alpine Ski House”, you could find results for “I left the house today to go skiing in the Alpine Meadows.” since all of the search words appear somewhere in the string.  
   
@@ -55,6 +57,6 @@ To find your records quickly in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynami
 -   To search against all record types, choose **None** in the **Filter with:** drop-down box  
   
 ### See also  
- [Search and Find in Dynamics 365](../basics/search-and-find-header.md)
- [Use Relevance Search for faster, comprehensive search results](../basics/relevance-search-results.md)
+ [Search and Find in Dynamics 365](../basics/search-and-find-header.md)<br />
+ [Use Relevance Search for faster, comprehensive search results](../basics/relevance-search-results.md)<br />
  [Create, edit, or save an Advanced Find search](../basics/save-advanced-find-search.md)   

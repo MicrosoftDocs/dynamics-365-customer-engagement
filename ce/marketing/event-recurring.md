@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: 5ac46cc6-beef-45b3-941e-38c66519d144
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 search.audienceType: 
   - admin

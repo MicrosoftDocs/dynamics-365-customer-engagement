@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: b83e8cb2-38a4-462f-87bc-0fc52357f01e
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
 search.audienceType: 
@@ -62,9 +62,6 @@ The following table summarizes how to publish each publishable entity to the por
 
 The portal features a banner image for each event, and also shows speaker photos and sponsor logos.
 
-<!--
-- You can customize the banner image shown for any event by [editing the event record](set-up-event.md), going to the **General** tab and using the **Portal banner image** setting. -->
-
 - You can customize the banner image shown for any event by editing the event record, going to the **General** tab and changing the **Portal banner image** setting. (A default banner image is shown for all events that don't have their own custom banner.) For details about how to customize the banner, see this blog post: [How to Change Portal Banner Images in the Dynamics 365 for Marketing Event Portal](https://blogs.technet.microsoft.com/lystavlen/2018/02/26/how-to-change-portal-banner-images-in-the-dynamics-365-for-marketing-event-portal/).
 
 - Speaker images come from each speaker record (not from the associated contact record). To upload a speaker image, go to **Events** > **Participants** > **Speakers** and open the relevant speaker record. Then select the existing photo (or generic placeholder) in the heading area of the page to open a dialog where you can upload an image. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up an event](set-up-event.md)  
@@ -78,7 +75,7 @@ To find the URL for your event portal and open it:
 
 1. Open the relevant event record.
 1. Make sure the **Publish status** is set to **Published**.
-1. Open the **General** tab and scroll down to the **Additional Information** section. <!-- check whether this has moved -->
+1. Open the **General** tab and find the **Key information** section.
 1. The **Event URL** field here shows the address of the portal for this event. Select the globe button at the edge of this field to open the URL.
 
 ### See also

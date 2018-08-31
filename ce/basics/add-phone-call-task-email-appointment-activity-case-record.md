@@ -1,7 +1,7 @@
 ---
 title: "Add a phone call, task, email, or appointment activity to a case or record (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/15/2017
+ms.date: 08/29/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -61,7 +61,9 @@ The activity and notes area helps you keep track of all the interactions with yo
 6.  Click **OK** to save the activity.  
   
 > [!NOTE]
->  By default, every phone call activity that you add in context of a record is marked Completed when the record is saved at least once. However, if you add a phone call activity to an unsaved record, or if you create a new activity and then set the **Regarding** field of the activity to another entity record, the activity is set to an Open state. You can click the **Complete** link to close the activity as **Completed**. The **Complete** link is available only after you save the case record at least once.  
+>  By default, every phone call activity that you add in context of a record is marked Completed when the record is saved at least once. If you do not want every phone call activity to be marked Completed by default, you can use the OrgDBOrgSetting MakeSocialPanePhoneCallCompleted and set it to **false**.  [Learn more about OrgDBOrgSettings](https://support.microsoft.com/en-us/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm). 
+> 
+>  However, if you add a phone call activity to an unsaved record, or if you create a new activity and then set the **Regarding** field of the activity to another entity record, the activity is set to an Open state. You can click the **Complete** link to close the activity as **Completed**. The **Complete** link is available only after you save the case record at least once. 
   
 ## Add a task  
   
