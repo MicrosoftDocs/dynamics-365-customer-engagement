@@ -14,8 +14,7 @@ author: sbmjais
 ms.author: shjais
 manager: shubhadaj
 ---
-# Create, edit, and distribute opportunities in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
-[comment]: <> (need more step wise 'how-to' information)
+# Create, edit, and distribute opportunities in Dynamics 365
 
 In your partner portal, you can use opportunities to notify your partners of sales prospects that they can follow up on. You may have opportunities for existing customers or from new customers, and by distributing them to your partners, you can create new revenue sources or strengthen relationships with current customers.
 
