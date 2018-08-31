@@ -3,5 +3,5 @@
   items:
   - name: What is Channel Integaration Framework?
     href: overview-channel-integration-framework.md
-  - name: How Channel Integration Framework helps?
-    href: how-channel-integration-framework-help.md  
+  - name: Architecture overview of Channel Integration Framework (CIF)
+    href: architecture-overview-channel-integration-framework.md  
