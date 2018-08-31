@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: 2ff81085-af7a-455b-857a-0aa0ade61416
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
 search.audienceType: 
@@ -107,8 +107,8 @@ Because your database probably includes a large number of contacts, the **Defini
 
 To create a dynamic segment, set its **Segment type** to **Dynamic** on the **General** tab. Then use the **Definition** tab to build your dynamic segment by combing _groups_ of _logical expressions_, each of which results in a set of contacts. Each group establishes a _path_ through one or more entities that must end at the **Contact** entity (the order matters).
 
-> [!IMPORTANT]
-> Your dynamic-segment queries can reference fields of all data types _other than multiple option set_. The **Designer** and **Explorer** may sometimes show data fields of this type, but your segment won't work if you include them in your queries so avoid selecting these fields.
+> [!NOTE]
+> Your dynamic-segment queries can reference fields of all data types _other than multiple option set_. The **Designer** and **Explorer** won't show data fields of this type.
 
 ### Define a segment group
 
@@ -220,7 +220,7 @@ Here's an example of how to define a segment that starts by finding a collection
 1. Open the **Definition** tab, where you'll find the segment **Designer**. A default contact group is provided, but you don't want a contact group, so select the close button to remove this default group.  
     ![Close the default group](media/segment-opportunity-close-group.png "Close the default group")
 
-1. The default group closes, leaving behind a **Select a profile or relationship** drop-down list. Select **Opportunity** from here. (If you don't see the **Opportunity** entity listed here, then you probably need to set up syncing for this entity as described in the fist step of this procedure; note that it can take up to six hours for a new entity to appear in this list after the first sync.)  
+1. The default group closes, leaving behind a **Select a profile or relationship** drop-down list. Select **Opportunity** from here. (If you don't see the **Opportunity** entity listed here, then you probably need to set up syncing for this entity as described in the first step of this procedure; note that it can take up to six hours for a new entity to appear in this list after the first sync.)  
     ![Select the waitlist-item entity](media/segment-opportunity-choose-entity.png "Select the waitlist-item entity")
 
 1. Complete the row to create the logical expression:  
@@ -234,9 +234,6 @@ Here's an example of how to define a segment that starts by finding a collection
     ![Finish the path to the contact entity](media/segment-example-opportunity3.png "Finish the path to the contact entity")
 
 1. Your group will now find contacts associated with opportunities valued over $10,000.
-
-> [!NOTE]
-> If you leave the **Designer** tab and then come back, you'll notice that the middle (relation) clause has disappeared. Don't worry, it's still there in the background (and you can still see it on the **Query** tab), but the interface hides it to make the group easier to read.
 
 ### See also
 
