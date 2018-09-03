@@ -42,6 +42,8 @@ See the following section to learn the types of search mechanisms available:
 - **Relevance Search**:  Lets you search across multiple pre-defined entities and returns result sorted by relevance.  Read more: [Relevance Search](../basics/relevance-search-results.md).
 <br> <br> See [Configure Relevance Search](../admin/configure-relevance-search-organization.md) to know how to configure relevance search to improve search results and performance.
 
+To understand more about the various searches used in Dynamics and how they can be compared, see [Compare Dynamics 365 searches](../admin/configure-relevance-search-organization.md#compare-dynamics-365-searches).
+
 ## Search the knowledge base
 
 You can search the knowledge base from the following areas in the Customer Service Hub app:

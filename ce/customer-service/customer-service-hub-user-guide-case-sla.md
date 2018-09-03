@@ -175,7 +175,20 @@ To know more about adding a timer control to a case form, see [Add a timer contr
 ### Search for knowledge articles  
  The Knowledge Base Search lets you search for relevant knowledge articles to resolve a case. Select the **Knowledge Base Search** search box to see search results automatically populated based on a field your administrator configured in the **Knowledge Base search** control properties. For a case, this is the title of the case record.  
 
-**Knowledge Base Search** in the Customer Service Hub comes with an improved search functionality. Knowledge Base is enabled for relevance search in the Global search UI. Relevance search functionality utilizes Azure search service to index and search records.  Relevance search provides improved search functionality like better relevance, highlighted search keyword text, and search within attachments and notes.
+#### Use Relevance search to search for knowledge articles
+**Knowledge Base** search in the Customer Service Hub comes with an improved search functionality. Knowledge Base is enabled for relevance search in global search and knowledge base search control. 
+
+Relevance search functionality utilizes Azure search service to index and search records.  Relevance search provides improved search functionality like better relevance, highlighted search keyword text, and search within attachments and notes.
+
+> [!NOTE]
+> Enable relevance search for knowledge base entity to use it to search knowlege articles. If relevance search is not enabled for the entity, standard full-text search is used. 
+
+To enable relevance search, see [Enable Relevance Search](../admin/configure-relevance-search-organization.md#enable-relevance-search).
+
+You can also select entities for relevance search. See [Select entities for Relevance Search](../admin/configure-relevance-search-organization.md#select-entities-for-relevance-search) for more information.
+
+Know how you can configure searchable fields for relevance search. See the topic [Configure searchable fields for Relevance Search](../admin/configure-relevance-search-organization.md#configure-searchable-fields-for-relevance-search) for more information.
+
 
 > [!IMPORTANT]
 >  The knowledge base search in the Customer Service Hub shows relevant knowledge articles only when your organization is set up to use the native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management capability. For more information, talk to your administrator.  

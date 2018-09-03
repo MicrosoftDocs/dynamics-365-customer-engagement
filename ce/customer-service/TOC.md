@@ -1,5 +1,6 @@
 # [Dynamics 365 for Customer Service](help-hub.md)
 ## [Overview](overview.md)
+## [What's new](whats-new-customer-service.md)
 ## User Guide
 ### [Customer Service Hub](user-guide-customer-service-hub.md)
 #### [Learn the basics](customer-service-hub-user-guide-basics.md)

@@ -30,6 +30,7 @@ search.app:
 <tr>
 <td><h2>Get started</h2>
   <ul>
+<li><a href="whats-new-customer-service.md" data-raw-source="[What's new in Dynamics 365 for Customer Service](whats-new-customer-service.md)">What's new in Dynamics 365 for Customer Service</a></li>
   <li><a href="overview.md" data-raw-source="[Explore Customer Service Hub and Customer Service](overview.md)">Explore Customer Service Hub and Customer Service</a></li>
   <li><a href="customer-service-hub-user-guide-basics.md" data-raw-source="[Learn the basics](customer-service-hub-user-guide-basics.md)">Learn the basics</a></li>
   <li><a href="use-customer-service-hub-on-dynamics-365-mobile.md" data-raw-source="[Navigate app on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)">Navigate app on mobile devices</a></li>
