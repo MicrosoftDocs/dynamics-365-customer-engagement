@@ -176,12 +176,13 @@ To know more about adding a timer control to a case form, see [Add a timer contr
  The Knowledge Base Search lets you search for relevant knowledge articles to resolve a case. Select the **Knowledge Base Search** search box to see search results automatically populated based on a field your administrator configured in the **Knowledge Base search** control properties. For a case, this is the title of the case record.  
 
 #### Use Relevance search to search for knowledge articles
+
 **Knowledge Base** search in the Customer Service Hub comes with an improved search functionality. Knowledge Base is enabled for relevance search in global search and knowledge base search control. 
 
 Relevance search functionality utilizes Azure search service to index and search records.  Relevance search provides improved search functionality like better relevance, highlighted search keyword text, and search within attachments and notes.
 
 > [!NOTE]
-> Enable relevance search for knowledge base entity to use it to search knowlege articles. If relevance search is not enabled for the entity, standard full-text search is used. 
+> Enable relevance search for knowledge base entity to use it to search knowledge articles. If relevance search is not enabled for the entity, standard full-text search is used. 
 
 To enable relevance search, see [Enable Relevance Search](../admin/configure-relevance-search-organization.md#enable-relevance-search).
 
