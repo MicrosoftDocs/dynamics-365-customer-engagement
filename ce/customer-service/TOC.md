@@ -40,7 +40,20 @@
 ### [Entitlement templates](set-up-entitlements-templates.md)
 ### [Email templates](../admin/create-templates-email.md)
 ### [Article templates](../admin/create-templates-articles.md)
-### [Service scheduling overview](basics-service-service-scheduling.md)
+## Service scheduling based on URS
+### Service scheduling overview
+### Schedule entities
+#### Resources  
+#### Resources Categories 
+#### Facility/Equipment  
+#### Services 
+#### Service Activity 
+### Configure using tools
+#### Schedule Board
+### Work with settings
+#### Organizational Units
+#### Business Closure
+### Service scheduling for web app
 #### [Business closure](set-when-business-closed.md)
 #### [Services](create-edit-service.md)
 #### [Facilities/Equipment](add-facilities-equipment-service-scheduling.md)
