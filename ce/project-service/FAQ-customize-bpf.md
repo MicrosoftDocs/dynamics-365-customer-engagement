@@ -7,7 +7,7 @@ manager: ShellyHa
 ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 8/27/2018
+ms.date: 9/4/2018
 ms.topic: article
 ms.prod: 
 ms.service: business-applications
@@ -92,22 +92,22 @@ To create your own business process flow for the project entity do the following
 3. In the Process Designer, click **Order Process Flow** to make the custom business process flow the primary business process flow for the project entity by moving it above the Project Stages business process flow to the top of the list.
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot of using Order Process Flow](media/FAQ-Customize-BPF-5.png)
+> ![Screenshot of using Order Process Flow](media/FAQ-Customize-BPF-5-720.png)
 
 ### The following steps apply to Project Service app 2.4.4.30 or earlier on the 9.0 platform
 
 4. Add a new custom field to the project entity to capture the custom stages in your custom business process flow. You’ll need to add business logic (plugin/workflow) to update this field when the stage on the custom business process flow is updated.
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot of customizing Project entity](media/FAQ-Customize-BPF-6.png)
+> ![Screenshot of customizing Project entity](media/FAQ-Customize-BPF-6-720.png)
 
 5. Modify the **Project By Stage** chart to use your new custom field for stages.
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot of using the Project By Stage chart](media/FAQ-Customize-BPF-7.png)
+> ![Screenshot of using the Project By Stage chart](media/FAQ-Customize-BPF-7-720.png)
 
 6. Modify any views for the project entity to include your new custom field for stages.
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot of modifying views on the Project entity](media/FAQ-Customize-BPF-8.png)
+> ![Screenshot of modifying views on the Project entity](media/FAQ-Customize-BPF-8-720.png)
 
