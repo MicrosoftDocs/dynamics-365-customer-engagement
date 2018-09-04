@@ -32,27 +32,27 @@
 ### [Holiday schedule](set-up-holiday-schedule.md)
 ### [Service configuration settings](../admin/system-settings-dialog-box-service-tab.md)
 ### [Customer service schedule](create-customer-service-schedule-define-work-hours.md)
-#### [Create service activity in a time slot](create-service-activity-without-checking-conflicts.md)
-#### [Find the next available time before creating a service activity](find-next-available-time-before-create-service-activity.md)
-#### [Navigate service calendar](navigate-service-calendar.md)
 ### [Embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
 ### [Categories](create-manage-categories.md)
 ### [Entitlement templates](set-up-entitlements-templates.md)
 ### [Email templates](../admin/create-templates-email.md)
 ### [Article templates](../admin/create-templates-articles.md)
+
+
+
 ## Service Scheduling
 ### [Overview ](basics-service-service-scheduling.md)
 ### Schedule entities
-#### Resources  
-#### Resources Categories 
-#### Facility/Equipment  
-#### Services 
-#### Service Activity 
+#### [Resources](resources-service-scheduling.md)  
+#### [Create and manage resource categories](resource-categories-service-scheduling.md)
+#### [Add facilities and equipment for service scheduling](add-facilities-equipment-service-scheduling.md)
+#### [Create or change a service](create-edit-service.md)
+#### [Schedule a service activity](schedule-service-activity.md)
 ### Configure using tools
-#### Schedule Board
+#### [Configure the schedule board for resource availability](../field-service/configure-schedule-board.md)
 ### Work with settings
-#### Organizational Units
-#### Business Closure
+#### [Create organizational units](../project-service/create-organizational-units.md)
+#### [Set when your business is closed](set-when-business-closed.md)
 ### [Migrate to URS based service scheduling](migrate-urs-service-scheduling.md) 
 
 <!-- ### Service scheduling for web app

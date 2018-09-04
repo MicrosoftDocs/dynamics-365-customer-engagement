@@ -28,3 +28,21 @@ search.app:
 
 A resource in service scheduling is anything that needs to be scheduled. This can be users, crews, service centers, company assets (equipment), accounts, or contacts.
 
+## Set up bookable resources
+
+[Set up bookable resources (Field Service)](../field-service/set-up-bookable-resources.md)
+
+## Select resources for service  
+ When you add a resource to a service, create a selection rule to determine how resources will be selected for service activities.  
+  
+ You can create a simple rule that selects resources from a list, or a compound rule that selects a combination of resources, or a complex tree of selection rules that selects from groups of equivalent resources.  
+  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a simple selection rule](../customer-service/create-simple-selection-rule.md) 
+
+
+## Add resources to existing services  
+ You can add as many resources as you want, and they can be a mix of individual users, facilities, equipment, and teams. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up or change a service](../customer-service/create-edit-service.md)  
+
+## Restrict a resource from performing a service
+
+[Restrict a resource from performing a service](restrict-resource-from-performing-service.md)

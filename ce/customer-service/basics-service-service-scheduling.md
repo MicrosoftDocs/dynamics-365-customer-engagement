@@ -105,57 +105,30 @@ Service scheduling entities are grouped under the following logical groups:
    Anything that needs to be scheduled can be termed as **Resources**. This can be users, crews, service centers, company assets (equipment), accounts, or contacts. **See more**: [Create and set up resources](resources-service-scheduling.md).
 
 - **Resources Categories** </br>
-   With Resource categories,  you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment. **See more**: 
+   With Resource categories,  you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment. **See more**: [Create and manage resource categories](resource-categories-service-scheduling.md)
 
 - **Facility/Equipment**  </br>
-   Facilities and equipment are resources you’d use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. **See more**: 
+   Facilities and equipment are resources you’d use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. **See more**: [Add facilities and equipment for service scheduling](add-facilities-equipment-service-scheduling.md)
 
 - **Services**  </br>
-   To make scheduling services quick and easy, it’s helpful to predefine the specifics of the services you’d provide to customers. **See more**:
+   To make scheduling services quick and easy, it’s helpful to predefine the specifics of the services you’d provide to customers. **See more**: [Create or change a service](create-edit-service.md)
 
 - **Service Activities** </br>
-   Create a service activity by finding the next available times of resources for a service or simply without checking for conflicts. **See more**:
+   Create a service activity by finding the next available times of resources for a service or simply without checking for conflicts. **See more**: [Schedule a service activity](schedule-service-activity.md)
 
 **Tools**
 
 - **Schedule Board** </br>
-   The Dynamics 365 schedule board provides an overview of resource availability and bookings you can make. **See more**:
+   The Dynamics 365 schedule board provides an overview of resource availability and bookings you can make. **See more**: [Configure the schedule board for resource availability](../field-service/configure-schedule-board.md)
 
 **Settings**
 
 - **Organizational Units** </br>
-   Your company probably organizes its consulting business by geography, function, or other areas. You can create organizational units that reflect your consulting business. **See more**:
+   Your company probably organizes its consulting business by geography, function, or other areas. You can create organizational units that reflect your consulting business. **See more**: [Create organizational units](../project-service/create-organizational-units.md)
 
 - **Business Closure** </br>
-   Prevent scheduling resources on holidays and other nonworking days by defining business closures in Dynamics 365. **See more**:
+   Prevent scheduling resources on holidays and other nonworking days by defining business closures in Dynamics 365. **See more**: [Set when your business is closed](set-when-business-closed.md)
 
-<!--
-
-## Select resources for service  
- When you add a resource to a service, create a selection rule to determine how resources will be selected for service activities.  
-  
- You can create a simple rule that selects resources from a list, or a compound rule that selects a combination of resources, or a complex tree of selection rules that selects from groups of equivalent resources.  
-  
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a simple selection rule](../customer-service/create-simple-selection-rule.md)  
-  
-## Add resources to existing services  
- You can add as many resources as you want, and they can be a mix of individual users, facilities, equipment, and teams. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up or change a service](../customer-service/create-edit-service.md)  
-  
-## Use resource groups  
- Use resource groups to group users, facilities, and equipment as part of the selection rules for a service. You can add resources to a resource group from the service record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a resource group](../customer-service/create-edit-resource-group.md)  
-  
-## Test your service  
- Before you start using a service, test it. Create a service activity with no criteria other than the service. You can use the results to confirm that the service is selecting correctly. The message bar will also display any problems with the search.  
-  
-1.  Click **[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]** > **Service** > **Service Calendar**.  
-  
-2.  Click **Service Activity**. This bypasses the scheduling form.  
-  
-3.  Select the service to test.  
-  
-4.  Click **Find Available Times**.  
-  
--->
 
 ### See also    
 
