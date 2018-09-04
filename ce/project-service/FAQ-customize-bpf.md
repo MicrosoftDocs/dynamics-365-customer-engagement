@@ -82,7 +82,7 @@ To create your own business process flow for the project entity do the following
 1. Go to **Settings** > **Process Center**. Don’t copy the Project Stages business process flow because that also copies the Project Service business logic.
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot of Process Center](media/FAQ-Customize-BPF-3.png)
+> ![Screenshot of Process Center](media/FAQ-Customize-BPF-3.PNG)
 
 2. Use the Process Designer to create the stage names you want. If you want the same functionality as the default stages for **Quote**, **Plan**, and **Close**, you’ll have to create that based on your custom business process flow’s stage names.
 
