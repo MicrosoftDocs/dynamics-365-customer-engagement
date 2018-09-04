@@ -1,7 +1,7 @@
 ---
 title: Overview of service and service scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Know the basics of service and service scheduling in Dynamics 365 for Customer Service
-keywords: Service scheduling; Dynamics 365; Customer Service
+keywords: Service scheduling; Dynamics 365; Customer Service; Universal Resource Scheduling (URS)
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
@@ -22,22 +22,62 @@ search.app:
   - D365CS
 ---
 
-# Service scheduling overview
+# Service Scheduling overview
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Avoid disruptions in service by making sure that your resources are scheduled optimally and efficiently. Learn the basics of getting started with managing services and service scheduling in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
 
-> [!IMPORTANT]
-> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#service-scheduling-in--is-deprecated).
+Service scheduling, now built atop **Universal Resource Scheduling (URS)**, provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling. This is done with the help of predictable workloads for employees, and reliable time estimates for customers and clients.
 
-## Understand the service terminology  
+## Understand Universal Resource Scheduling (URS)
+
+Universal Resource Scheduling (also referred as URS) in Dynamics 365 is used to enable scheduling for any entity including custom entities. 
+
+To know more about how various entities like Sales, Customer Service, Field Service, and Project Service Automation use URS to schedule activities, see [Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
+
+See this blog to know the new features introduced in the latest release of Universal Resource Scheduling: [What’s new in Universal Resource Scheduling for Dynamics 365 June 2018 Update](https://blogs.msdn.microsoft.com/crm/2018/06/27/whats-new-in-universal-resource-scheduling-for-dynamics-365-june-2018-update/)
+
+## Get Service Scheduling built on Universal Resource Scheduling
+
+With the October'18 release, Service scheduling built on Universal Resource Scheduling (URS) will now be available in the Customer Service Hub. Upgrade and install to the latest update to avail the new service scheduling features.
+
+It's easy to avail and access all the latest upgrades and features. Refer [Onboard your organization and users](../admin/onboard-your-organization-and-users-to-dynamics-365-online.md) to know how you can upgrade and install the latest releases.
+
+## Access Service Scheduling in the Customer Service Hub
+
+You can access the new service scheduling from the Customer Service Hub sitemap:
+
+- On the sitemap icon ![Sitemap](media/sitemap-icon.png) , select **Scheduling**, and then select an scheduling entity record types. </br>
+
+  OR
+
+- Select **...** to go to **Service Scheduling** and access  the scheduling entity record types.
+
+See [Work with Service Scheduling entities](#work-with-service-scheduling-entities) to know more about the entities in service scheduling.
+
+### Enable Service Scheduling in the Customer Service Hub sitemap
+
+To enable service Scheduling in the Customer Service Hub sitemap, select **Migrate/Enable Service Scheduling** in the Customer Service Hub sitemap.
+
+> [!NOTE]
+> Service Scheduling has now moved from web application to Customer Service Hub based on Unified Interface. If you have been using the legacy service scheduling, you can migrate your data to the new service scheduling, now base on Universal Resource Scheduling. 
+</br> You cannout use web application based scheduling and URS based scheduling simultaneously.
+
+To know more about migrating your legacy data, see [Migrate to the new service scheduling based on Universal Resource Scheduling (URS)](migrate-urs-service-scheduling.md).
+
+
+
+
+## Know the service terminology  
   
 - **Service:** A type of work, such as a maintenance activity, performed for a customer by one or more resources. Services are schedulable activities.  
   
 - **Resource:** Users, facilities or equipment, or teams that can be scheduled and have work schedules.  
   
 - **Resource groups:** Groups of resources that can be scheduled interchangeably.  
+
+- **Resource categories:** With Resource categories,  you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment.
   
 - **Work hours:** The hours that a resource is available for scheduling.  
   
@@ -47,15 +87,10 @@ Avoid disruptions in service by making sure that your resources are scheduled op
   
 - **Scheduling rule:** A set of criteria that specifies which personnel, equipment, facilities, or resource groups are required to perform a service, or how to select these resources, based on parameters like quantity and capacity.  
   
-## Select resources for service  
- When you add a resource to a service, create a selection rule to determine how resources will be selected for service activities.  
-  
- You can create a simple rule that selects resources from a list, or a compound rule that selects a combination of resources, or a complex tree of selection rules that selects from groups of equivalent resources.  
-  
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a simple selection rule](../customer-service/create-simple-selection-rule.md)  
-  
-## Capacity vs. effort—understand the difference  
- You can set up services and resources in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to take into account different-sized facilities or the experience levels of your users when a service is scheduled. This is known as capacity scheduling. Capacity is a relative unit that you define. For example, you could define capacity in a bicycle repair shop as the number of bikes the shop has room to accommodate at the same time. If a repair bay has room for four bike-repair stations, the repair bay can accept four bikes for repair or inspection at the same time.  
+### Capacity vs. effort—understand the difference  
+ You can set up services and resources in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to take into account different-sized facilities or the experience levels of your users when a service is scheduled. This is known as capacity scheduling. Capacity is a relative unit that you define. 
+
+**For example**, you could define capacity in a bicycle repair shop as the number of bikes the shop has room to accommodate at the same time. If a repair bay has room for four bike-repair stations, the repair bay can accept four bikes for repair or inspection at the same time.  
   
  Capacity can also measure skill level. For example, a junior bike technician has the ability to perform one bike inspection per hour, and a senior technician has the ability to perform four bike inspections per hour. If two bikes must be inspected in one hour, it takes either two junior technicians, or one senior technician who can perform the inspections in half the time.  
   
@@ -63,7 +98,42 @@ Avoid disruptions in service by making sure that your resources are scheduled op
   
  Capacity is defined in the resource’s working hours. Effort required is defined in the service. You can think of capacity as "how much money you have" and effort required as "how much something costs."  
   
- For example, the repair bay has a capacity of four. A bike repair requires an effort of one and a tandem bike repair requires an effort of two. The first time the repair bay is selected, its capacity is reduced to three for that time. The next service activity scheduled is for a tandem bike. This reduces the repair bay's capacity by two. The repair bay has the capacity of one left, which means it could accept another bike repair, but not a tandem bike repair.  
+ **For example**, the repair bay has a capacity of four. A bike repair requires an effort of one and a tandem bike repair requires an effort of two. The first time the repair bay is selected, its capacity is reduced to three for that time. The next service activity scheduled is for a tandem bike. This reduces the repair bay's capacity by two. The repair bay has the capacity of one left, which means it could accept another bike repair, but not a tandem bike repair.  
+
+## Work with Service Scheduling entities
+
+Service scheduling entities are grouped under the following logical groups:
+
+**Scheduling**
+
+- *Resources*
+
+- *Resources Categories* 
+
+- *Facility/Equipment*  
+
+- *Services*  
+
+- *Service Activities* 
+
+**Tools**
+
+- *Schedule Board* 
+
+**Settings**
+
+- *Organizational Units* 
+
+- *Business Closure* 
+
+<!--
+
+## Select resources for service  
+ When you add a resource to a service, create a selection rule to determine how resources will be selected for service activities.  
+  
+ You can create a simple rule that selects resources from a list, or a compound rule that selects a combination of resources, or a complex tree of selection rules that selects from groups of equivalent resources.  
+  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a simple selection rule](../customer-service/create-simple-selection-rule.md)  
   
 ## Add resources to existing services  
  You can add as many resources as you want, and they can be a mix of individual users, facilities, equipment, and teams. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up or change a service](../customer-service/create-edit-service.md)  
@@ -82,6 +152,8 @@ Avoid disruptions in service by making sure that your resources are scheduled op
   
 4.  Click **Find Available Times**.  
   
+-->
+
 ### See also    
  [Schedule a service activity](../customer-service/schedule-service-activity.md)<br>
  [Create a service activity without checking for conflicts](../customer-service/create-service-activity-without-checking-conflicts.md)   
