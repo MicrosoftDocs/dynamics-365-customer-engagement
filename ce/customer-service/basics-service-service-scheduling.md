@@ -8,7 +8,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
 manager: shujoshi
-ms.date: 09/15/2017
+ms.date: 10/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
@@ -66,9 +66,6 @@ To enable service Scheduling in the Customer Service Hub sitemap, select **Migra
 
 To know more about migrating your legacy data, see [Migrate to the new service scheduling based on Universal Resource Scheduling (URS)](migrate-urs-service-scheduling.md).
 
-
-
-
 ## Know the service terminology  
   
 - **Service:** A type of work, such as a maintenance activity, performed for a customer by one or more resources. Services are schedulable activities.  
@@ -76,9 +73,7 @@ To know more about migrating your legacy data, see [Migrate to the new service s
 - **Resource:** Users, facilities or equipment, or teams that can be scheduled and have work schedules.  
   
 - **Resource groups:** Groups of resources that can be scheduled interchangeably.  
-
-- **Resource categories:** With Resource categories,  you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment.
-  
+ 
 - **Work hours:** The hours that a resource is available for scheduling.  
   
 - **Site:** The location of a resource. Use sites to make sure that the customer and the resource are in the same location.  
@@ -106,25 +101,33 @@ Service scheduling entities are grouped under the following logical groups:
 
 **Scheduling**
 
-- *Resources*
+- **Resources** </br>
+   Anything that needs to be scheduled can be termed as **Resources**. This can be users, crews, service centers, company assets (equipment), accounts, or contacts. **See more**: [Create and set up resources](resources-service-scheduling.md).
 
-- *Resources Categories* 
+- **Resources Categories** </br>
+   With Resource categories,  you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment. **See more**: 
 
-- *Facility/Equipment*  
+- **Facility/Equipment**  </br>
+   Facilities and equipment are resources you’d use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. **See more**: 
 
-- *Services*  
+- **Services**  </br>
+   To make scheduling services quick and easy, it’s helpful to predefine the specifics of the services you’d provide to customers. **See more**:
 
-- *Service Activities* 
+- **Service Activities** </br>
+   Create a service activity by finding the next available times of resources for a service or simply without checking for conflicts. **See more**:
 
 **Tools**
 
-- *Schedule Board* 
+- **Schedule Board** </br>
+   The Dynamics 365 schedule board provides an overview of resource availability and bookings you can make. **See more**:
 
 **Settings**
 
-- *Organizational Units* 
+- **Organizational Units** </br>
+   Your company probably organizes its consulting business by geography, function, or other areas. You can create organizational units that reflect your consulting business. **See more**:
 
-- *Business Closure* 
+- **Business Closure** </br>
+   Prevent scheduling resources on holidays and other nonworking days by defining business closures in Dynamics 365. **See more**:
 
 <!--
 
@@ -155,7 +158,7 @@ Service scheduling entities are grouped under the following logical groups:
 -->
 
 ### See also    
- [Schedule a service activity](../customer-service/schedule-service-activity.md)<br>
- [Create a service activity without checking for conflicts](../customer-service/create-service-activity-without-checking-conflicts.md)   
+
+[Migrate to the new service scheduling based on Universal Resource Scheduling (URS)](migrate-urs-service-scheduling.md)
     
  

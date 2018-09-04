@@ -23,3 +23,12 @@ search.app:
 ---
 
 # Migrate to the new service scheduling based on Universal Resource Scheduling (URS)
+
+*content will come here**
+
+Code snippet container
+
+```csharp
+sample code
+sample code
+```
