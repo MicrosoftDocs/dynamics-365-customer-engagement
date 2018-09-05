@@ -40,7 +40,7 @@ The SiteMap provides the structure for navigation in [!INCLUDE[pn_dynamics_crm](
   You can use a site map editor or programmatically update site map. 
   
 ## In This Section  
- [Change application navigation using the SiteMap](change-application-navigation-using-sitemap.md)
+ [Change application navigation using the SiteMap](change-application-navigation-using-sitemap.md)  
   
  [Pass parameters to a URL using the SiteMap](pass-parameters-url-using-sitemap.md)   
   
