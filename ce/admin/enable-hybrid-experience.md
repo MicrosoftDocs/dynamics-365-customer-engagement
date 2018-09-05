@@ -1,7 +1,8 @@
 ---
 title: "Enable the hybrid experience | MicrosoftDocs"
+Description: Some features are not yet present in the Unified Interface but can be enabled for display as legacy dialogs in the Unified Interface through the hybrid experience.
 ms.custom: ""
-ms.date: 08/22/2018
+ms.date: 09/05/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
