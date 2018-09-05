@@ -32,7 +32,7 @@ There's a known limitation in earlier versions of the Project Service applicatio
 
 This limitation will be addressed in an upcoming release. This article provides suggested workarounds for earlier versions if you do need to customize the default business process flow. 
 
-## Business logic built requires an exact match with English stage names
+## Business logic built into the business process flow requires an exact match with English stage names
 
 The Project Stages business process flow includes business logic that drives the following behaviors in the app:
 - When the project is associated with a quote, the code sets the business process flow to the **Quote** stage.
