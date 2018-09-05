@@ -1,7 +1,13 @@
 - name: Channel Integration Framework for Dynamics 365
   href: ../channel-integration-framework.md
   items:
-  - name: What is Channel Integaration Framework?
-    href: overview-channel-integration-framework.md
-  - name: Architecture overview of Channel Integration Framework (CIF)
-    href: architecture-overview-channel-integration-framework.md  
+  - name: Overview
+    items:
+    - name: What is Channel Integaration Framework?
+      href: overview-channel-integration-framework.md
+    - name: Architecture overview of Channel Integration Framework (CIF)
+      href: architecture-overview-channel-integration-framework.md
+  - name: Overview
+    items:
+    - name: Download Channel Integration Framework (CIF)
+      href: download-channel-integration-framework.md
