@@ -103,7 +103,7 @@ search.app:
 <td>A function to execute when:
 <ul>
 <li>The record is saved in the quick create form.</li>
-<li>The record is saved in the quick create form for a new record created using **Save & New**. This only applies to <a href="/dynamics365/customer-engagement/admin/about-unified-interface" data-raw-source="[Unified Interface](/dynamics365/customer-engagement/admin/about-unified-interface)">Unified Interface</a>.</li>
+<li>The record is saved in the quick create form for a new record created using <b>Save & New</b>. This only applies to <a href="/dynamics365/customer-engagement/admin/about-unified-interface" data-raw-source="[Unified Interface](/dynamics365/customer-engagement/admin/about-unified-interface)">Unified Interface</a>.</li>
 </ul>
 
 This function is passed an object as a parameter. The object has a <b>savedEntityReference</b> array with the following properties to identify the record(s) displayed or created:
