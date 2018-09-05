@@ -25,7 +25,7 @@ search.app:
 
 # [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] 2015 Updates
 
-## [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] 2015 Update 1.2 
+## [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] 2015 Update 1.2 
  
 ### Create records in Dynamics 365 from a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 
  Admins can now connect one or more [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance with their organization’s [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution to create social activities and records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. With these new capabilities, increase the efficiency of your sales, marketing, and service teams, by creating rules for automatic conversions of social activity to any system or custom record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You'll be able to create or update one or more records from a single social activity, and provide additional information to define conditions in the conversion rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Link posts from Social Engagement to Dynamics 365](link-posts-to-dynamics-365.md), [Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkID=624394) 
@@ -42,7 +42,7 @@ search.app:
 ### Social profiles moved to personal settings area 
  You can now manage your social profiles by navigating to Settings > Personal Settings > Social Profiles. For more information on how to work with social profiles, see [Manage social profiles](manage-social-profiles.md) 
  
-## [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] 2015 Update 1.1 
+## [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] 2015 Update 1.1 
  
 ### Visualize posts in real-time with activity maps 
  Create and manage activity maps to see real-time visualizations of posts with location information. Show this on a large screen and let your audience know where your topics are being discussed in the world. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define activity maps to view real-time data](activity-maps.md) 
@@ -50,7 +50,7 @@ search.app:
 ### Analyze posts with unified sentiment 
  Sentiment values are no longer target specific, so you don’t need to select a search topic to see sentiment values for the posts anymore. The sentiment value of a post is now determined regardless of the keywords that you chose while setting up your search topics. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand the public perception using Sentiment Analysis](analytics-sentiment.md) 
  
-### Administer [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] with a redesigned Settings area 
+### Administer [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with a redesigned Settings area 
  All pages in the Settings area now adapt to the screen size of tablets. Additionally, Solution Defaults are now called Global Settings. 
  
 ### Download data to Excel 
@@ -62,7 +62,7 @@ search.app:
 ### Provide delegated administration privileges to Microsoft cloud service providers 
  Customers can now delegate the administration of their [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution to a cloud service provider, without adding the service provider as a licensed user. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable a partner as a delegated admin](delegated-admin.md) 
  
-## [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] 2015 Update 1 
+## [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] 2015 Update 1 
  
 ### Listen, analyze, and engage on social posts 
  With the redesigned user interface, which puts the information up front, it’s easier than ever to navigate and find the posts that matter to you, so you can analyze and take action on them. You can now find the posts that matter to you, analyze them, and take action on those posts in a single application. To reflect the addition of Social Center functionality, the product name has changed to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. 
@@ -85,5 +85,5 @@ search.app:
 ### Choose from two color themes 
  You can display the user interface for the Analytics areas, Social Center, and Search setup in either a light or a dark color theme. More information: [Set your preferences for the user interface](user-preferences.md). 
  
-### Explore [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] with more multimedia content 
+### Explore [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] with more multimedia content 
  There’s more multimedia content added regularly to help you understand different aspects of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. To find a list of available videos and eBooks, see [Videos & eBooks](http://go.microsoft.com/fwlink/p/?LinkId=400708). 
