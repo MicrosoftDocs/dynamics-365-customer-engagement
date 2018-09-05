@@ -19,7 +19,7 @@ After setting up Social Insights in Dynamics 365, you can integrate widgets pres
 
 ## Work with filters on widgets
 
-Social Insights supports a subset of filters provided by Social Engagement. You can apply and remove filters to further customize the data set shown in the widgets. Additionally, you can choose the timeframe for your dataset. You can apply the following filters on the widgets: 
+Social Insights supports a subset of filters provided by Social Engagement. You can apply and remove filters to further customize the data set shown in the widgets. Additionally, you can choose the time frame for your dataset. You can apply the following filters on the widgets: 
 -	Keywords
 -	Sources
 -	Languages
@@ -60,8 +60,6 @@ To switch the view in table mode, select the **Switch to chart view** symbol.
 ## Get information about the data presented in widgets
 
 The Social Insights widgets provide helpful tooltips to help you understand the data you're looking at. Simply hover over the information symbol in the widget header to see the tooltips.
-
-![Info symbol on widgets](media/info-symbol-social-insights.png "The information symbol")
 
 ## List of Social Insights widgets
 
