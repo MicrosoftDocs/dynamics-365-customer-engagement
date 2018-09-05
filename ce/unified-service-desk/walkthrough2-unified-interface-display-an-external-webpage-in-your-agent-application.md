@@ -1,13 +1,13 @@
 ---
 title: "Walkthrough 2: Display an external webpage in your agent application | MicrosoftDocs"
 description: "Demonstrates how to display an external web page in Unified Service Desk."
-ms.custom: ""
+keywords: ""
 ms.date: 05/07/2018
-ms.reviewer: ""
-ms.service: "usd"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.service: 
+  - "usd"
+ms.custom: 
+  - ""
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
@@ -15,10 +15,20 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: C616E47C-E7D4-4195-8F53-1139F7514BFA
-author: "kabala123"
-ms.author: "kabala"
-manager: "sakudes"
+author: kabala123
+ms.author: kabala
+manager: shujoshi
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
+
 # Walkthrough 2: Display an external webpage in your agent application
 This walkthrough demonstrates how to display a webpage or external URL in your agent application. In this walkthrough, you’ll learn how to display the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Guide, which is available online at http://go.microsoft.com/fwlink/?LinkID=856273, in the client application.
 
@@ -239,11 +249,11 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
  In this walkthrough, you learned how to display a webpage in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application. You also learned how to filter access to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] controls using configuration.  
 
 ### See also
- [Support for Unified Interface Apps in Unified Service Desk](../unified-service-desk/Support-unified-interfaces-apps-usd.md)
+ [Support for Unified Interface Apps in Unified Service Desk](../unified-service-desk/admin/Support-unified-interfaces-apps-usd.md)
 
- [Preview feature: Unified Interface Page (Hosted Control)](../unified-service-desk/unified-interface-page-hosted-control.md)
+ [Unified Interface Page (Hosted Control)](../unified-service-desk/unified-interface-page-hosted-control.md)
 
- [Preview feature: Unified Service Desk and Unified Interface Configuration Walkthroughs](../unified-service-desk/unified-service-desk-unified-interface-configuration-walkthroughs.md)
+ [Unified Service Desk and Unified Interface Configuration Walkthroughs](../unified-service-desk/unified-service-desk-unified-interface-configuration-walkthroughs.md)
 
  [Walkthrough 1: Build a simple agent application for Unified Interface Apps](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md)
 

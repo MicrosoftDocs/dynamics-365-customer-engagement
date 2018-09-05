@@ -5,14 +5,21 @@ keywords: "FAQ, questions, common issues, quota, search setup, search topics"
 ms.date: 05/09/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: ac2d84b4-f7c6-9694-cf10-539e529f2e25
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Microsoft Social Engagement FAQ

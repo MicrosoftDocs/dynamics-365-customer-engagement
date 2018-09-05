@@ -3,19 +3,26 @@ title: "Set and use waitlists for events (Dynamics 365 for Marketing) | Microsof
 description: "Describes how event waitlists work, how to set them up, and how to invite waiting people when capacity becomes available in  Dynamics 365 for Marketing"
 keywords: "events; waitlist"
 ms.date: 07/06/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 4aa6d5c3-1b29-46b1-bbf3-9bf260853b20
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Set up and manage an event waitlist
@@ -43,14 +50,15 @@ To enable or disable the waitlist for any event:
 
 1. Go to the events list (**Events** > **Event** > **Events**), and then open or create an event.
 
-1. Open the **General** tab and find the **Venue constraints** area. <!--    ![Enable the waitlist for an event](media/event-waitlist-enable.png "Enable the waitlist for an event") -->
+1. Open the **General** tab and find the **Venue constraints** area.
+
+    ![Enable the waitlist for an event](media/event-waitlist-enable.png "Enable the waitlist for an event")
 
 1. Make the following settings:
 
     - **Maximum event capacity**: Enter the maximum number of people who can attend your event. The waitlist will only take effect after this number of contacts have registered.
-    - **Waitlist this event**: Set to **Yes** to enable the waitlist feature<!-- and reveal the **Waitlist** section, which contains the other settings described here -->.
-
-<!--     - **Number of invitations per slot**: When an extra space becomes available, the system will invite this many contacts from the waitlist, in the same order they joined. Often you will set this to one, but if you are using manual waitlist registration, then you might choose a higher number to increase the chance that at least one contact will follow through with the registration. When a slot opens, the system changes this many waitlist records' **Invited** field from **No** to **Yes**.
+    - **Waitlist this event**: Set to **Yes** to enable the waitlist feature and reveal the **Waitlist** section, which contains the other settings described here.
+    - **Number of invitations per slot**: When an extra space becomes available, the system will invite this many contacts from the waitlist, in the same order they joined. Often you will set this to one, but if you are using manual waitlist registration, then you might choose a higher number to increase the chance that at least one contact will follow through with the registration. When a slot opens, the system changes this many waitlist records' **Invited** field from **No** to **Yes**.
     - **Automatically register waitlisted contacts**: Set to **Yes** to automatically register the next contact in line when space becomes available. When this is set to **Yes**, all waitlist records for this event will therefore have their **Automatically register** fields set to **Yes**. When this is set to **No**, then you can choose whether or not to allow contacts to choose this option for themselves while joining the waitlist.
     - **Contact can choose to be registered automatically**: This option is only shown when  you aren't using automatic registration. Choose **Yes** to provide a check box on the registration form where contacts can choose  to be registered automatically. Choose **No** to use manual registration for all contacts. The **Automatically register** field for each waitlist record will be assigned to match either this option or the choice made by contacts when they join the waitlist. -->
 
@@ -145,7 +153,7 @@ To create a segment that finds contacts who _have already_ been registered autom
 
 To deliver messages to your waitlist members, set up a customer journey that uses an appropriate segment (such as those described in the previous sections) followed by an email tile that sends a message that matches that segment. Set the journey to run for the entire registration period of your event. That way, each time a waitlist record gets moved to invited = true, the related contact will be added to the segment and will get processed by the journey.
 
-Each email message should inform the recipient about what has happened (auto registered, or invited to register), and include an event block to link to the relevant event portal. The event link is especially important for invites where auto-register is not enabled, but even auto-registered attendees may still need to purchase a ticket on the portal.
+Each email message should inform the recipient about what has happened (auto registered, or invited to register), and include an event element to link to the relevant event portal. The event link is especially important for invites where auto-register is not enabled, but even auto-registered attendees may still need to purchase a ticket on the portal.
 
 For a journey sending invites to waitlist contacts who aren't auto-registered, consider adding an event tile as a child of the email-message tile so you can add a trigger that reacts to registration and follows up as needed.
 

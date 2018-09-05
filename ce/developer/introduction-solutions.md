@@ -1,6 +1,6 @@
 ---
 title: "Introduction to solutions (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Developers and authors create, package and maintain units that extend Dynamics 365 (Online) Customer Engagement" 
+description: "Developers and authors create, package and maintain units that extend Dynamics 365 (Online) Customer Engagement"
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -15,6 +15,10 @@ caps.latest.revision: 59
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Introduction to solutions
 

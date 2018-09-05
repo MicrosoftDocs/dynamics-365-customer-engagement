@@ -3,20 +3,27 @@ title: "Inbound marketing with Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to set up a customer journey to implement inbound marketing that attracts new contacts to register with your organization in Dynamics 365 for Marketing"
 keywords: "tutorial; inbound marketing; landing page; page"
 ms.date: 04/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: get-started-article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 5b3164e5-3a2a-4254-9085-c3e512c14867
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Create an inbound customer journey
@@ -28,6 +35,8 @@ topic-status: Drafting
 Though messaging and promotion strategies are typically quite different for an inbound campaign compared to an outbound one, you design inbound customer journeys in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] by using the same basic tools as you would to create an outbound customer journey (as we've seen in several previous exercises). The most important difference is that you typically start an inbound customer journey with a landing page or event instead of a segment. In this configuration, all contacts (both new and existing) who submit the form from the landing page or register for the event immediately start down that journey.
 
 ![An example of a simple inbound journey](media/journey-inbound-example.png "An example of a simple inbound journey")
+
+Another way to create an inbound journey is to start with a segment that is based on form-submit interactions. If you are [embedding your marketing forms on your own website](create-deploy-marketing-pages.md#embed-form) rather than on a [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] marketing page, then this is the only way to find and target contacts who submitted the form; but you can also use this technique to find submissions from [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] marketing pages.
 
 ### See also
 

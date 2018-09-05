@@ -14,6 +14,13 @@ ms.assetid: 7f9d8425-f26c-43ac-bdc7-ff258977ff80
 caps.latest.revision: 135
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # What's supported
 
@@ -33,7 +40,7 @@ You can access [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data 
 | [Windows tablet](https://go.microsoft.com/fwlink/p/?linkid=862402) |      10       |     2 GB      |                   4 GB                    |
  
 > [!NOTE]
-> On February 21, 2018, we announced the deprecation of the Windows Phone app for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. On May 22, 2018, the Windows Phone app will no longer be supported for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. Support for the  app on Windows tablets and PCs remains unchanged. The Windows Phone app will continue to be available in the store and will be supported for Dynamics 365, (version 8.2) and earlier supported versions. If you wish to continue to use the Windows Phone app, you should not update to Dynamics 365, version 9.0 as the Windows Phone app will not be supported with version 9.x.
+> On February 21, 2018, we announced the deprecation of the Windows Phone app for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. On May 22, 2018, the Windows Phone app will no longer be supported for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. The app is only supported on Windows Phone 10. The app is not supported on Windows Phone 8.1. Support for the  app on Windows tablets and PCs remains unchanged. The Windows Phone app will continue to be available in the store and will be supported for Dynamics 365, (version 8.2) and earlier supported versions. If you wish to continue to use the Windows Phone app, you should not update to Dynamics 365, version 9.0 as the Windows Phone app will not be supported with version 9.x.
  
 <a name="BKMK_CRMforTablets"></a>   
 ## Support for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]  

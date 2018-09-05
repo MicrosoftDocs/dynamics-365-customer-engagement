@@ -12,12 +12,12 @@ applies_to:
   - "Dynamics 365 (online)"
 helpviewer_keywords: 
   - "schedule and appointment entities, scheduling engines"
-  - "optimizing scheduling, see 'schedule and appointment entities'"
+  - optimizing scheduling, see 'schedule and appointment entities'
   - "schedule and appointment entities, introduction"
-  - "appointment entities, see 'schedule and appointment entities'"
-  - "managing appointment-based services, see 'schedule and appointment entities'"
+  - appointment entities, see 'schedule and appointment entities'
+  - managing appointment-based services, see 'schedule and appointment entities'
   - "schedule and appointment entities, managing appointment-based services"
-  - "scheduling engines, see 'schedule and appointment entities'"
+  - scheduling engines, see 'schedule and appointment entities'
   - "schedule and appointment entities, message classes for appointments"
   - "schedule and appointment entities, optimizing scheduling"
 ms.assetid: 676e9f3f-e5a0-4251-aaea-27f396da8bf1
@@ -25,6 +25,10 @@ caps.latest.revision: 23
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Schedule and appointment entities
 

@@ -1,7 +1,7 @@
 ---
 title: "Execute scripts using scriptlets in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Scriptlets are snippets of JavaScript that are executed when using a special syntax for your replacement parameter."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -19,7 +19,13 @@ ms.assetid: 43bc1881-1db2-44ea-b52f-ed79717f5120
 caps.latest.revision: 6
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Execute scripts using scriptlets in Unified Service Desk
 Scriptlets are snippets of JavaScript that are executed when using a special syntax for your replacement parameter. Sometimes the system generated replacement parameters contain the proper data needed for these functions, but might not contain the data in the desired format. For example, in Computer Telephone Integration (CTI), phone numbers typically arrive from phone system as a string of digits such as “3035551212”, without any formatting. However, Microsoft Dynamics 365 stores phone numbers as a string that typically includes formatting characters such as dashes as in (303) 555-1212. If you were to search your Dynamics 365 entity using the data supplied directly by the phone system, changes are slim that a match would ever be found. You address this using scriptlets in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  

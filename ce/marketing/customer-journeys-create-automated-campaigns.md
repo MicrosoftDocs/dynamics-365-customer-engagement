@@ -3,20 +3,27 @@ title: "Guide your prospects through an interactive customer journey (Dynamics 3
 description: "How to create a customer journey by assembling a pipeline of automated communications, activities, and conditional pathways in Dynamics 365 for Marketing"
 keywords: "customer journey; campaign; email; segment; go live; pipeline"
 ms.date: 04/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: dd5579ea-7fea-41fa-81ab-a83d67943c7e
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Use customer journeys to create automated campaigns
@@ -157,7 +164,11 @@ All customer journeys are active for a limited time. During this time, the journ
 
 ### Set up a recurring journey
 
-Usually, the journey takes each contact through its pipeline exactly once. Even if you use several segments, and a given contact appears in more than one of them, each contact is processed at most once. However, you can also set up a recurring journey in which all contacts are reprocessed at a regular interval during the active period. To set up a recurring journey:
+Usually, a journey takes each contact through its pipeline exactly once. Even if you use several segments, and a given contact appears in more than one of them, each contact is processed at most once. However, you can also set up a recurring journey in which all contacts are reprocessed at regular intervals during the active period. 
+
+All segment membership criteria are re-evaluated at the start of each iteration, so contacts can be added or removed between cycles.
+
+To set up a recurring journey:
 
 1. Open your journey and go to the **General** tab.
 1. Set **Is recurring** to **Yes**. This opens two additional settings here.
@@ -201,6 +212,8 @@ When you've finished designing your customer journey, do the following to verify
 2. Select **Check for Errors** in the command bar to verify your campaign setup and check it for errors. This step makes sure that all required marketing emails and pages are assigned and published, and also checks for other prerequisites and common errors. If problems are found, you'll see an error message with advice for how to fix it. Continue to check, fix reported errors, and check again until your journey passes the test.
 
 3. Now you're ready to publish: select **Go Live** in the command bar. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] runs the error check one last time. If your journey passes, it is published to the active area of your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] server, which also hosts your published marketing email messages and marketing pages.
+
+[!INCLUDE [cc-marketing-email-size](../includes/cc-marketing-email-size.md)]
 
 ### See also
 

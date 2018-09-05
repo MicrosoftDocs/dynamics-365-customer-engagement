@@ -3,19 +3,26 @@ title: "Documentation resources for Dynamics 365 for Marketing | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 for Marketing."
 keywords: "marketing;help"
 ms.date: 04/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 0736ed6b-7931-1899-28a2-9f84a03fc568
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Marketing help and training
@@ -83,6 +90,7 @@ topic-status: Drafting
 <li><a href="design-digital-content.md" data-raw-source="[Design digital content](design-digital-content.md)">Design digital content</a></li>
 <li><a href="prepare-marketing-emails.md" data-raw-source="[Prepare marketing email messages](prepare-marketing-emails.md)">Prepare marketing email messages</a></li>
 <li><a href="create-deploy-marketing-pages.md" data-raw-source="[Create and deploy marketing pages](create-deploy-marketing-pages.md)">Create and deploy marketing pages</a></li>
+<li><a href="create-deploy-marketing-pages.md#embed-form" data-raw-source="[Embed a marketing form on your own website](create-deploy-marketing-pages.md#embed-form)">Embed a marketing form on your own website</a></li>
 <li><a href="customer-journeys-create-automated-campaigns.md" data-raw-source="[Create automated campaigns](customer-journeys-create-automated-campaigns.md)">Create automated campaigns</a></li>
 <li><a href="segmentation-lists-subscriptions.md" data-raw-source="[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)">Segmentation, lists, and subscriptions</a></li>
 <li><a href="market-to-leads.md" data-raw-source="[Market to leads](market-to-leads.md)">Market to leads</a></li>

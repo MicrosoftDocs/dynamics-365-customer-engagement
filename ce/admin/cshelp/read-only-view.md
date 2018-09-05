@@ -15,6 +15,11 @@ ms.assetid: 8eb1bf58-5ba7-4f2f-a03b-b1e5d5dbb2d6
 caps.latest.revision: 14
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Read-only view
 

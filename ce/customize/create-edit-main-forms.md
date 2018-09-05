@@ -17,6 +17,10 @@ ms.assetid: <needs new guid>
 caps.latest.revision: 18
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Create or edit a main form for an entity 
 

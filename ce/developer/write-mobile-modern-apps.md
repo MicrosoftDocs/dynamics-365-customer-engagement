@@ -17,6 +17,10 @@ caps.latest.revision: 24
 author: "SushantSikka"
 ms.author: "susikka"
 manager: "sakudes"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Write mobile and modern apps
 

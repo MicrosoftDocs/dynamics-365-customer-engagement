@@ -1,7 +1,7 @@
 ---
 title: "Provision a portal for Dynamics 365 | MicrosoftDocs"
 description: "Instructions to provision a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
   - dyn365-deflc
 ms.date: 07/04/2018
@@ -14,6 +14,13 @@ ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
 manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Provision a portal
 Portals are websites that you can customize to provide a more personalized experience to your customers, partners, or internal employees. Portals integrate with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to show data from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] on the portal. By using portals, you can create a variety of experiences where portal users can perform several tasks. For example:

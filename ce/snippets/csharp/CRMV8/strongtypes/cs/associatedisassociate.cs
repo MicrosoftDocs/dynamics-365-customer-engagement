@@ -49,7 +49,7 @@ namespace Microsoft.Crm.Sdk.Samples
         /// Assign the role to the team so that they can read the queue.
         /// Assign the queue to the team.
         /// Optionally delete any entity records that were created for this sample.
-        // </summary>
+        /// </summary>
         /// <param name="serverConfig">Contains server connection information.</param>
         /// <param name="promptForDelete">When True, the user will be prompted to delete all
         /// created entities.</param>

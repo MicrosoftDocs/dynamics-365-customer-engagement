@@ -1,7 +1,7 @@
 ---
 title: "Types of HAT automation activities in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about various automation activities that you can use to automate your hosted applications in Unified Service Desk."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -19,7 +19,13 @@ ms.assetid: 3a4fa988-8eaf-4039-9296-905436f6a706
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Types of HAT automation activities in Unified Service Desk
 There are various types of [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)] automation activities that you can use to automate your hosted applications. To view and use the [!INCLUDE[pn_hat](../includes/pn-hat.md)] automation activities, see [Use HAT automation activities](../unified-service-desk/use-hat-automation-activities.md).  

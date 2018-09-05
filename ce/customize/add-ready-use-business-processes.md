@@ -15,6 +15,10 @@ caps.latest.revision: 21
 author: "rdubois"
 ms.author: "rdubois"
 manager: "brycho"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Add ready-to-use business processes for common scenarios
 

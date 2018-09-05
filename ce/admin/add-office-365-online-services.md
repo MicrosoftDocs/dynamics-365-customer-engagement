@@ -15,6 +15,11 @@ caps.latest.revision: 8
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Add Office 365 Online services
 

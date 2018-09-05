@@ -1,18 +1,25 @@
 ---
-title: "Social Engagement 2018 Update 1.6 Readme"
+title: "Social Engagement 2018 Update 1.8 Readme"
 description: "Important and late-breaking information about Microsoft Social Engagement"
 keywords: "readme, known issues, information"
-ms.date: 07/11/2018
+ms.date: 08/22/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: e32849dd-2e8d-4cf0-8561-e3c865120d57
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Social Engagement Readme

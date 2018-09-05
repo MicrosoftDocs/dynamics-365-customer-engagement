@@ -15,6 +15,10 @@ caps.latest.revision: 14
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # OneNote in Dynamics 365 FAQs
 

@@ -14,6 +14,10 @@ ms.assetid: 8fb9f7e2-8002-427e-bc66-a7c0d6e32ac8
 caps.latest.revision: 10
 author: "KumarVivek    "
 ms.author: "kvivek"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Walkthrough: Register a Dynamics 365 app with Azure Active Directory
 

@@ -14,6 +14,10 @@ ms.assetid: 218d9d80-fb52-49a4-9208-b72675080451
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use messages (request and response classes) with the Execute method
 

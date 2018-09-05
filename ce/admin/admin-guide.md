@@ -15,6 +15,11 @@ caps.latest.revision: 31
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "amyla"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Administrator Guide for Dynamics 365 Customer Engagement
 

@@ -1,6 +1,6 @@
 ---
 title: "User Guide (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -15,6 +15,13 @@ ms.assetid: 8a311df9-3307-4524-85e5-76258d80ff86
 caps.latest.revision: 46
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # User Guide (Field Service)
 

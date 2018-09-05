@@ -1,7 +1,7 @@
 ---
 title: "Connection Manager (Hosted Control) | MicrosoftDocs"
 description: "The Connection Manager hosted control type manages connections to the Dynamics 365 server, and makes it available to the rest of the agent application."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -19,7 +19,13 @@ ms.assetid: c1a9b9ef-6243-4d1c-b0fe-726def04b417
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Connection Manager (Hosted Control)
 The **Connection Manager** hosted control type manages connections to the Dynamics 365 server, and makes it available to the rest of the agent application. An instance of this hosted control is required by [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and only a single instance of this hosted control type must exist in your agent application.  

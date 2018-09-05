@@ -6,7 +6,7 @@ ms.date: 04/01/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 9cf9f43a-2156-418c-be33-6f34027f3d79
@@ -18,6 +18,13 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 20
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # Preview feature: Use Relationship analytics to gather KPIs 

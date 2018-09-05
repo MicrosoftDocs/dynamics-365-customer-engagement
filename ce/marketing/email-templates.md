@@ -3,20 +3,27 @@ title: "Work with email, page, and form templates (Dynamics 365 for Marketing) |
 description: "Describes how to work with email, page, and form templates and gives details about client support and known issues related to email designs in Dynamics 365 for Marketing"
 keywords: "designer; email; preview; template; Litmus; marketing page; marketing form"
 ms.date: 04/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 0f661fed-315f-4932-9a06-a8de363ea42c
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Work with email, page, and form templates
@@ -111,4 +118,4 @@ The following known issues apply to the out-of-the-box email templates and custo
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Design your digital content](design-digital-content.md)  
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  
-[Content blocks reference](content-blocks-reference.md)
+[Design elements reference](content-blocks-reference.md)

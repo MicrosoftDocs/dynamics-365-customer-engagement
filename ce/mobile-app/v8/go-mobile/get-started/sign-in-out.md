@@ -19,6 +19,13 @@ ms.assetid: 662aaa8c-f56b-4f74-88ff-c21aba808315
 caps.latest.revision: 40
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Signing in and signing out on Dynamics 365 for phones and tablets
 

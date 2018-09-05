@@ -14,6 +14,13 @@ caps.latest.revision: 80
 author: "mduelae"
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook
 This section describes how to troubleshoot [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] installation and upgrade issues.  

@@ -21,6 +21,10 @@ caps.latest.revision: 53
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Implement single sign-on from an ASPX webpage or IFRAME
 

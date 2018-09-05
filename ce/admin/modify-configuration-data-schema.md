@@ -15,6 +15,11 @@ ms.assetid: 37544e30-1062-451c-8afb-565c782b7133
 caps.latest.revision: 12
 ms.author: "rdubois"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Modify a configuration data schema 
 

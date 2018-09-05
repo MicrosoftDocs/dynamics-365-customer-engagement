@@ -15,6 +15,10 @@ ms.assetid: 02ba7668-028c-4886-9f05-9116a605f3c8
 caps.latest.revision: 41
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Create or edit entities (record types) 
 

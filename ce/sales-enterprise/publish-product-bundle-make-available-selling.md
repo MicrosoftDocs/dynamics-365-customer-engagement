@@ -4,15 +4,14 @@ description: "Publish a product or bundle in Dynamics 365 for Sales to make it a
 keywords: "Publish, product, make available"
 ms.date: 04/01/2018
 ms.service: dynamics-365-sales
-ms.custom:
+ms.custom: 
   - dyn365-sales
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: "shubhadaj"
 ms.assetid: 9d60813a-0bc8-4dd2-be3f-084812c6ba5c
-author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
 ms.reviewer: 
@@ -20,6 +19,13 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 19
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # Publish a product, family, or bundle to make it available for selling (Sales)

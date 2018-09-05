@@ -15,6 +15,11 @@ caps.latest.revision: 46
 author: "Mattp123"
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Replicate data to Azure SQL Database
 

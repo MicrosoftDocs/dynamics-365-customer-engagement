@@ -1,6 +1,6 @@
 ---
 title: "Set up booking rules (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -18,6 +18,13 @@ ms.assetid: 87e2cafc-ead7-43b2-b62a-db3a2fc05380
 caps.latest.revision: 13
 ms.author: krbjoran
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # Set up booking rules (Field Service)
 

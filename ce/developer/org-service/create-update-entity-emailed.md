@@ -14,6 +14,10 @@ ms.assetid: bc1ae819-61c1-4a44-8f38-a6240975b111
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Create and update an entity to send email activities to records
 

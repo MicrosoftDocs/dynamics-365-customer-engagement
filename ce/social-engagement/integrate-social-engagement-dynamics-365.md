@@ -5,14 +5,21 @@ keywords: "social insights, dynamics 365, UCI, unified interface, integration, c
 ms.date: 06/30/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
-  - "Social Engagemen"
+applies_to: 
+  - "Social Engagement"
 ms.assetid: f780a931-3fcc-468a-9849-a22aab60984b
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 ms.custom:
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Integrate Microsoft Social Engagement with Dynamics 365

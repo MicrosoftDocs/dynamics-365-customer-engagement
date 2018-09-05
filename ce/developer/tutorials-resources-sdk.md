@@ -16,8 +16,12 @@ author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
 tags: 
- - "aug2017" 
- - "MigrationHO"
+  - "aug2017"
+  - "MigrationHO"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Tutorials and resources for learning about Customer Engagement development
 

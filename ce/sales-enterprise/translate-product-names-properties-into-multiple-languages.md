@@ -4,15 +4,14 @@ description: "Make all the relevant information like cross-sell or upsell sugges
 keywords: "Translate, langaguge"
 ms.date: 04/01/2018
 ms.service: dynamics-365-sales
-ms.custom:
+ms.custom: 
   - dyn365-sales
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: "shubhadaj"
 ms.assetid: 6eb8263b-b8a0-4d8b-8383-956d380a203d
-author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
 ms.reviewer: 
@@ -20,6 +19,13 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 21
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # Translate product names and properties into multiple languages (Sales)

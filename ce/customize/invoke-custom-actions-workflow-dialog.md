@@ -17,6 +17,10 @@ ms.assetid: 1fd5d39e-3dc8-4d1a-8b4b-ccaa303f4bbb
 caps.latest.revision: 12
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Invoke custom actions from a workflow
 

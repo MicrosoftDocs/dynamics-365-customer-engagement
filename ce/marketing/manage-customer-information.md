@@ -3,20 +3,27 @@ title: "Work with contact, account, and lead records (Dynamics 365 for Marketing
 description: "How to find, create and use contact, account, and lead records in Dynamics 365 for Marketing"
 keywords: "contact; account; lead"
 ms.date: 04/25/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 16024056-9750-4b6f-854a-da454e2c3a3f
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Manage information about your current and prospective customers
@@ -46,7 +53,7 @@ The contacts entity is common for and shared by most [!INCLUDE[pn-dynamics-365](
 - **Event information**: Each contact record provides the following information about events the contact has registered for or attended:
     - The contact **Details** tab includes a section called **Event information**, where you can see basic information that was collected from the contact when they registered for an event.
     - The contact **Events attended** tab provides complete details of all event registrations and check-ins associated with this contact.
-- **Marketing insights**: Detailed KPIs and analytics about how this contact has interacted with your various marketing initiatives are provided on the **Contact: Insights** form view for the contact entity (available from the drop-down list above the contact name in the page heading).
+- **Marketing insights**: Detailed KPIs and analytics about how this contact has interacted with your various marketing initiatives are provided on the **Contact: Insights** form view for the contact entity (available from the drop-down list above the contact name in the page heading). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Analyze results to gain insights from your marketing activities](insights.md)
 
 ## Use accounts to manage customer companies
 

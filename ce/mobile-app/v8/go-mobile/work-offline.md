@@ -14,6 +14,13 @@ ms.assetid: cabed885-f3ab-459c-b33f-da31d2f14194
 caps.latest.revision: 7
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Work offline with Dynamics 365 for phones and tablets
 

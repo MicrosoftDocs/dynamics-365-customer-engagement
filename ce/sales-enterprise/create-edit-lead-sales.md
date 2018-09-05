@@ -4,10 +4,10 @@ description: "Use leads to track business prospects that you haven't yet qualifi
 keywords: "lead, qualify, sales process, activities"
 ms.date: 04/01/2018
 ms.service: dynamics-365-sales
-ms.custom:
+ms.custom: 
   - dyn365-sales
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 8c65b7d5-b1bc-4dd7-bf10-c8bdc6334491
@@ -19,6 +19,13 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 69
 topic-status: Tech Reviewing
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # Create or edit a lead (Sales and Sales Hub)

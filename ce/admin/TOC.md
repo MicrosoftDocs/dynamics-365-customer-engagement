@@ -92,6 +92,7 @@
 ## [Edit properties of an instance](edit-properties-instance.md)
 ## [Multiple online instances or tenants](multiple-online-instances-tenants.md)
 ## [Add and edit multiregional instances](add-edit-multiregional-instances.md)
+## [Migrate Dynamics 365 (online) to Dynamics 365 (on-premises)](migrate-online-onpremises.md)
 ## [Encryption keys for instance](manage-encryption-keys-instance.md)
 ## [Troubleshooting: Unblock required URLs](troubleshooting-unblock-urls-required.md)
 
@@ -120,6 +121,7 @@
 ## [Enhanced service level agreements](enhanced-service-level-agreements.md)
 ## [Configure Relevance Search](configure-relevance-search-organization.md)
 ## [Manage product catalog configuration](manage-product-catalog-configuration.md)
+## [Enable rich text for appointment activities](enable-rich-text-experience.md)
 
 # [Performance tuning and optimization](performance-tuning-and-optimization.md)
 ## [Verify network capacity and throughput for clients](verify-network-capacity-throughput-clients.md)
@@ -159,7 +161,7 @@
 ## [Email](create-templates-email.md)
 ## [Work with mail merge templates](work-mail-merge-templates.md)
 ## [Campaign](create-edit-campaign-template-using-app-marketing-sales.md)
-## [Entitlements](../customer-service/set-up-entitlements-quickly-templates.md)
+## [Entitlements](../customer-service/set-up-entitlements-templates.md)
 ## [Excel](analyze-your-data-with-excel-templates.md)
 ## [Word](using-word-templates-dynamics-365.md)
 ## [Create signature for email or queue](../basics/create-signature-dynamics-365-email-queue.md)

@@ -14,6 +14,10 @@ ms.assetid: 7d378504-b4b2-4a09-838c-69ee094072ef
 caps.latest.revision: 15
 author: "KumarVivek"
 ms.author: "kvivek"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Work with business process flows
 

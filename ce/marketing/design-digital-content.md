@@ -1,22 +1,29 @@
 ---
 title: "Use the designer tool (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Basics of how to use the designer tool to create emails, landing pages, and forms in Dynamics 365 for Marketing"
-keywords: "designer; content block; block; template"
+keywords: "designer; design element; element; template"
 ms.date: 04/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 28762c17-02f7-4883-a9d8-e606858de7bd
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Design your digital content
@@ -56,7 +63,7 @@ After you've chosen a template, the designer shows your selected template conten
 
 ## Work with the designer
 
-Most of the time you spend creating a marketing email, page, or form, you'll be using the designer or the HTML editor to add content, configure content blocks, load images, apply styles, and more.
+Most of the time you spend creating a marketing email, page, or form, you'll be using the designer or the HTML editor to add content, configure design elements, load images, apply styles, and more.
 
 ![The designer toolbar and content area](media/designer-tools-ill.png "The designer toolbar and content area")
 
@@ -68,13 +75,13 @@ Choose **Designer** in the designer toolbar to open the graphical designer. It l
 
 ![The designer canvas and toolbox](media/designer-canvas-ill.png "The designer canvas and toolbox")
 
-The graphical designer provides an editable preview (canvas), where you can select, edit, or remove content; and a set of tabs for adding content blocks and working with the design:
+The graphical designer provides an editable preview (canvas), where you can select, edit, or remove content; and a set of tabs for adding design elements and working with the design:
 
-- **Toolbox**: To add a new element to your design, drag a block from here to an appropriate place in the canvas. Each block represents a specific type of content, such as a text block, image, or input form. The settings and features of each block vary by type.
-- **Properties**: Most blocks need to be configured to work. For example, an image needs to point to an image file, a form needs to point to a marketing-form record, and a button needs some text and a destination. When you add a new block, that block is automatically selected and its **Properties** tab opens so you can set it up. To configure (or reconfigure) any block already in your design, select it first, and then open the **Properties** tab.
+- **Toolbox**: To add a new design element to your design, drag an element from here to an appropriate place in the canvas. Each design element represents a specific type of content, such as a text element, image, or input form. The settings and features of each design element vary by type.
+- **Properties**: Most design elements need to be configured to work. For example, an image needs to point to an image file, a form needs to point to a marketing-form record, and a button needs some text and a destination. When you add a new design element, that element is automatically selected and its **Properties** tab opens so you can set it up. To configure (or reconfigure) any design element already in your design, select it first, and then open the **Properties** tab.
 - **Style**: Use these settings to apply color, spacing, and other graphical options for the overall design.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Content blocks reference](content-blocks-reference.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design elements reference](content-blocks-reference.md)
 
 ### Work directly in HTML
 
@@ -93,7 +100,7 @@ If you prefer to work directly with HTML code, open the designer's **HTML** tab.
     - Set field values based on values passed in the calling URL
     - Set field values based on values passed in the calling URL.
 
-Be careful when working here, though, because the graphical editor expects specific types of markup to implement its drag-and-drop components. Without this markup, you won't be able to edit your content blocks any more and might even break them.
+Be careful when working here, though, because the graphical editor expects specific types of markup to implement its drag-and-drop components. Without this markup, you won't be able to edit your design elements any more and might even break them.
 
 The HTML editor provides a few handy code-editing features such as syntax coloring and line numbers.
 
@@ -111,7 +118,7 @@ Use the buttons in the left column of the **Preview** tab to see how your design
 ### See also
 
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  
-[Content blocks reference](content-blocks-reference.md)  
+[Design elements reference](content-blocks-reference.md)  
 [Prepare marketing email messages](prepare-marketing-emails.md)  
 [Work with email, page, and form templates](email-templates.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  

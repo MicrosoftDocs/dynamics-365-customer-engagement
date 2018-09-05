@@ -17,6 +17,10 @@ caps.latest.revision: 11
 author: "Mattp123"
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 # Virtual entity walkthrough using the OData v4 Data Provider

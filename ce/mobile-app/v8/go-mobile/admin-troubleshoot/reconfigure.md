@@ -17,6 +17,13 @@ ms.assetid: 15bd88e8-dd0d-4f4c-8402-c33fc5b20a16
 caps.latest.revision: 41
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Reconfigure Dynamics 365 for phones and tablets
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]

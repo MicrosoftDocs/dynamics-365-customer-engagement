@@ -18,6 +18,13 @@ caps.latest.revision: 19
 author: "mduelae"
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # Control field synchronization between Dynamics 365 and Outlook or Exchange
 If you’re a system administrator, you can control synchronization of appointments, contacts, and tasks fields between [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] (using [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]) or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] (using [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)]). You can:  

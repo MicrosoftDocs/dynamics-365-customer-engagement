@@ -3,20 +3,27 @@ title: "Navigate and use common features (Dynamics 365 for Marketing) | Microsof
 description: "How do get around and work with common user interface elements in Dynamics 365 for Marketing"
 keywords: "navigation; list view; form view; grids; workflow; business process"
 ms.date: 04/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: get-started-article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: ca44ebc8-7f92-4ad8-b6f3-c7c1d73c7472
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Find your way around Marketing
@@ -25,14 +32,16 @@ topic-status: Drafting
 
 This introduction to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] explains how to find and open the app, and how to work with its common user interface elements including lists, forms, and business processes.
 
-## Open Dynamics 365 for Marketing
+## A fully responsive app built on the new Unified Interface
 
-To open the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, sign in to [!INCLUDE[pn-office-365](../includes/pn-office-365.md)], select the [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] app launcher, and then select the **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]** icon. On the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] home page, select the tile for **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]**.
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is built to run exclusively on the new Unified Interface for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] applications. The Unified Interface uses responsive web design principles to provide an optimal viewing and interaction experience on any device, regardless of screen size or orientation. There is no need to install a special client on each device, or to switch to a different site based on which device you are using.
 
-![The Office 365 app launcher](media/app-launcher.png "The Office 365 app launcher")
+Many [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] applications support both the new Unified Interface and the older web-client interface, but nearly all are moving to the Unified Interface. Some administration and customization features, and some integrated user features, may require you to switch to a web-client app from time to time, but soon all features are expected to be available on the Unified Interface.
 
 > [!NOTE]
-> The apps listed in your app launcher depend on your subscription.
+> [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] typically shares data with other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] applications running on the same instance, and operates on many of the same database entities, including contacts, leads, accounts, and more. Some [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]-specific features, such as displays of analytics and insights from marketing initiatives, require the Unified Interface and therefore won't show any data when you view those entities in web-client apps.
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [About Unified Interface](../admin/about-unified-interface.md)
 
 ## Navigating among apps, areas, and entities
 

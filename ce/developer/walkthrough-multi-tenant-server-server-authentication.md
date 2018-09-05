@@ -14,6 +14,10 @@ ms.assetid: 9d09f7e8-c1fc-45c8-9755-ac17785f0818
 caps.latest.revision: 8
 author: "JimDaly"
 ms.author: "jdaly"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Walkthrough: Multi-tenant server-to-server authentication
 

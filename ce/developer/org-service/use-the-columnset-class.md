@@ -22,6 +22,10 @@ caps.latest.revision: 21
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use the ColumnSet class
 

@@ -3,20 +3,27 @@ title: "Create an interactive customer journey (Dynamics 365 for Marketing) | Mi
 description: "A tutorial for how to create an interactive customer journey featuring signups and triggers in Dynamics 365 for Marketing"
 keywords: "tutorial; customer journey; trigger; landing page; signup; page"
 ms.date: 04/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: get-started-article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 4c42b94d-7bd1-41fa-80de-819f00bede33
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Create an interactive customer journey with triggers and signup
@@ -32,19 +39,19 @@ In [Create a simple customer journey with email messaging](create-simple-custome
     > [!TIP]
     > Consider choosing a non-blank email template this time. These templates not only have sample content, graphics, and column layouts, but also include all mandatory elements such as the subscription center link and physical address.
 
-2. This message will invite recipients to pick up a free download from your website. To get the free download, they'll need to visit the landing page, submit a form, and then wait for a follow-up email that contains the download link. (The message content would normally explain all of this, but for this exercise it's not necessary.) With your new email message still open, drag a **Marketing Page** block from the **Toolbox** onto the design canvas.  
-    ![Add a marketing-page block to a message](media/email-add-page-block.png "Add a Marketing Page block to a message")
+2. This message will invite recipients to pick up a free download from your website. To get the free download, they'll need to visit the landing page, submit a form, and then wait for a follow-up email that contains the download link. (The message content would normally explain all of this, but for this exercise it's not necessary.) With your new email message still open, drag a **Marketing Page** design element from the **Toolbox** onto the design canvas.  
+    ![Add a marketing-page element to a message](media/email-add-page-block.png "Add a Marketing Page element to a message")
 
-3. When you drop the **Marketing Page** block in place, it's automatically selected and the **Properties** tab opens to show its settings.  
-    ![Assign a page to the page block](media/email-page-block-properties.png "Assign a page to the page block")
+3. When you drop the **Marketing Page** element in place, it's automatically selected and the **Properties** tab opens to show its settings.  
+    ![Assign a page to the page element](media/email-page-block-properties.png "Assign a page to the page element")
 
     Set the **Marketing Page** field to the name of the landing page you made in [Create a landing page with a form](create-landing-page.md) (or any valid landing page).  
 
 4. Continue to style and format your button as follows:
-   - Edit and style the button text by working directly on the canvas and using the floating toolbar, just as you would with a **Text** block. You might enter text such as **Click here to register for your download**.
+   - Edit and style the button text by working directly on the canvas and using the floating toolbar, just as you would with a **Text** element. You might enter text such as **Click here to register for your download**.
    - Working on the **Properties** tab, choose a background color, text color, height, and width for the button.
 
-     ![A page block with styles applied](media/email-page-block-styled.png "A page block with styles applied")
+     ![A page element with styles applied](media/email-page-block-styled.png "A page element with styles applied")
 
 5. As before, **Save** your message, choose **Check for Errors**, fix any issues, and then **Go Live**.
 

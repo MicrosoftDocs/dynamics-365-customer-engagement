@@ -31,9 +31,11 @@
 
 ### Privacy and compliance
 #### [Data protection and GDPR](gdpr.md)
+#### [Set up double opt-in](double-opt-in.md)
 #### [How the app uses cookies](cookies.md)
 
 ### [Customize Marketing](customize.md)
+### [Best practices for email marketing](get-ready-email-marketing.md)
 ### [Administration and setup FAQ](setup-troubleshooting.md)
 
 ## [User Guide](user-guide.md)
@@ -46,7 +48,6 @@
 #### [Manage customer information](manage-customer-information.md)
 #### [Import data](import-data.md)
 #### [Export data](export-data-word-excel.md)
-#### [Best practices for email marketing](get-ready-email-marketing.md)
 
 ### [Basic tutorials](basic-tutorials.md)
 #### [Create a segment](create-segment.md)
@@ -66,7 +67,7 @@
 
 ### Create marketing emails and pages
 #### [Design your digital content](design-digital-content.md)
-#### [Content blocks reference](content-blocks-reference.md)
+#### [Design elements reference](content-blocks-reference.md)
 #### [Upload and use images and files](upload-images-files.md)
 #### [Prepare marketing email messages](prepare-marketing-emails.md)
 #### [Add dynamic content to email messages](dynamic-email-content.md)
