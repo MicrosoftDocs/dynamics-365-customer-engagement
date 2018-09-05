@@ -87,7 +87,7 @@ Save time and minimize repetitive activities. [!INCLUDE[pn_netbreeze_short](../i
 
 3. [Set up record details](create-dynamics-365-record-from-social-post.md) for cases.
 
-4. [Create a case from a post](create-dynamics-365-record-from-social-post.md#convert-a-social-engagement-post-to-a-social-activity) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
+4. [Create a case from a post](create-dynamics-365-record-from-social-post.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 ## Establish workflows and collaborate with other users
 
