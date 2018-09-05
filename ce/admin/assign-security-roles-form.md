@@ -15,6 +15,11 @@ caps.latest.revision: 22
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Assign security roles to a form to more finely control access
 

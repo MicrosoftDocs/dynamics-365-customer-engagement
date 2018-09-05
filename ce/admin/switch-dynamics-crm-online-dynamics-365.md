@@ -15,6 +15,11 @@ caps.latest.revision: 13
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Switch from Dynamics CRM Online to Dynamics 365 (online)
 

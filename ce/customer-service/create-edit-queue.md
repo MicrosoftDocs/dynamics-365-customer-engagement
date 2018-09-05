@@ -1,21 +1,28 @@
 ---
-title: Create or change a queue (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to create or change a queue for Dynamics 365 for Customer Service
-keywords: Create a queue; change a queue; Dynamics 365; Customer Service
+title: Create or edit a queue (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: Know how to create or edit a queue for Dynamics 365 for Customer Service
+keywords: Create a queue; edit a queue; Dynamics 365; Customer Service
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: shellyha
+manager: shujoshi
 ms.date: 09/15/2017
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: c81b3c1b-3b83-409e-b569-a4b4c0a3245e
 ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
-# Create or change a queue (Customer Service)
+# Create or edit a queue
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -42,7 +49,7 @@ Use queues to categorize and prioritize your activities and cases. You can categ
 > 
 >  See Blog: [CRM Queue with an Office 365 Shared Mailbox](http://joegilldotcom.blogspot.com/2015/01/crm-queue-with-office-365-shared-mailbox.html)  
   
-## Create or change a queue  
+Follow the steps given below to create or edit a queue: 
   
 1. Make sure that you have the Sales or Marketing Manager, Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.  
   
@@ -100,6 +107,6 @@ Use queues to categorize and prioritize your activities and cases. You can categ
   
 ### See also  
  [Queues overview](../customer-service/set-up-queues-manage-activities-cases.md)<br /> 
- [User Guide (Customer Service)](../customer-service/user-guide-customer-service.md)<br />   
+ 
  
    

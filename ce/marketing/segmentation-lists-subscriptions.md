@@ -3,20 +3,27 @@ title: "Create segments and lists to establish target markets (Dynamics 365 for 
 description: "How to create segments and lists that you can use to target customer journeys and manage subscriptions in Dynamics 365 for Marketing"
 keywords: "segment; marketing list; subscription; Customer Insights"
 ms.date: 04/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 2ff81085-af7a-455b-857a-0aa0ade61416
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Market segmentation, marketing lists, and subscription lists
@@ -50,7 +57,12 @@ Segments can be dynamic, static, or compound.
 
 When you first create a new segment, it is in a _draft_ state, which means that it is unlocked, so you can work with its definition and other settings, but you won't be able to use it in customer journeys or compound segments. When you are ready to use your segment, you must open it and select **Go Live** from the command bar, which enables it and moves to the _live_ state.
 
+> [!IMPORTANT]
+> While you are designing your segment, you can select the **Get estimated segment size** link to get an *estimate* for the number of contacts that will be included in the segment. This is only an estimate, and can be somewhat different from your actual segment size. You must go live with the segment to view its exact size and membership.
+
 If you need to edit a segment after it has gone live, open it and then select **Stop** from the command bar to put it back into the draft state.
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Go live with publishable entities and track their status](go-live.md)
 
 ## View, create, and manage your segments
 
@@ -89,9 +101,14 @@ Because your database probably includes a large number of contacts, the **Defini
 > [!TIP]
 > Each time you adjust the filter settings, you must select the **Apply** button to update the list.
 
+<a name="define-dynamic"></a>
+
 ## Define a dynamic a segment
 
 To create a dynamic segment, set its **Segment type** to **Dynamic** on the **General** tab. Then use the **Definition** tab to build your dynamic segment by combing _groups_ of _logical expressions_, each of which results in a set of contacts. Each group establishes a _path_ through one or more entities that must end at the **Contact** entity (the order matters).
+
+> [!NOTE]
+> Your dynamic-segment queries can reference fields of all data types _other than multiple option set_. The **Designer** and **Explorer** won't show data fields of this type.
 
 ### Define a segment group
 
@@ -102,6 +119,9 @@ Each group in your segment results in a list of contacts, which are selected by 
 1. End at the **Contacts** entity to find the contacts from those accounts, and find only contacts living in California.
 
 Because the path ends with contacts, the result is a list of contacts who live in California and work for insurance companies that are on the **subscribers** list. (Many segment groups that you create will probably query the **Contacts** entity only, but even groups such as these might employ complex logic that combines multiple AND and OR clauses.)
+
+> [!IMPORTANT]
+> While you are designing your segment, you can select the **Get estimated segment size** link to get an *estimate* for the number of contacts that will be included in the segment. This is only an estimate, and can be somewhat different from your actual segment size. You must go live with the segment to view its exact size and membership.
 
 When working in the **Designer** view, you can build this query by using the **+ And** buttons and various drop-down lists to produce the following:
 
@@ -200,7 +220,7 @@ Here's an example of how to define a segment that starts by finding a collection
 1. Open the **Definition** tab, where you'll find the segment **Designer**. A default contact group is provided, but you don't want a contact group, so select the close button to remove this default group.  
     ![Close the default group](media/segment-opportunity-close-group.png "Close the default group")
 
-1. The default group closes, leaving behind a **Select a profile or relationship** drop-down list. Select **Opportunity** from here. (If you don't see the **Opportunity** entity listed here, then you probably need to set up syncing for this entity as described in the fist step of this procedure; note that it can take up to six hours for a new entity to appear in this list after the first sync.)  
+1. The default group closes, leaving behind a **Select a profile or relationship** drop-down list. Select **Opportunity** from here. (If you don't see the **Opportunity** entity listed here, then you probably need to set up syncing for this entity as described in the first step of this procedure; note that it can take up to six hours for a new entity to appear in this list after the first sync.)  
     ![Select the waitlist-item entity](media/segment-opportunity-choose-entity.png "Select the waitlist-item entity")
 
 1. Complete the row to create the logical expression:  
@@ -215,10 +235,8 @@ Here's an example of how to define a segment that starts by finding a collection
 
 1. Your group will now find contacts associated with opportunities valued over $10,000.
 
-> [!NOTE]
-> If you leave the **Designer** tab and then come back, you'll notice that the middle (relation) clause has disappeared. Don't worry, it's still there in the background (and you can still see it on the **Query** tab), but the interface hides it to make the group easier to read.
-
 ### See also
 
 [Create a segment](create-segment.md)  
-[Set up subscription lists and subscription centers](set-up-subscription-center.md)
+[Set up subscription lists and subscription centers](set-up-subscription-center.md)  
+[Go live with publishable entities and track their status](go-live.md)

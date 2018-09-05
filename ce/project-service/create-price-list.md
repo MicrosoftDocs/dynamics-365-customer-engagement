@@ -1,33 +1,34 @@
 ---
-title: "Create a price list (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom:
-  - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+title: Create a price list (Dynamics 365 for Project Service) | MicrosoftDocs
+description: How to create a price list in Project Service
 author: krbjoran
-ms.assetid: 199642fd-f706-498f-b8ae-8823d79d6172
-caps.latest.revision: 12
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-projectservice
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.technology: 
 ms.author: krbjoran
-manager: shellyha
+audience: Admin
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
 ---
-# Create a price list (Project Service Automation)
+# Create a price list (Project Service)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Price lists provide a template your account managers can use for creating quotes and projects, and for establishing the costs of a project. They provide a line item list of roles and expenses, and the price you will charge for each. You can create multiple price lists so that you can maintain separate price structures for different regions you sell your products in or for different sales channels. It’s a good idea to create at least one price list for every currency you plan to bill your customers in.  
   
- To create financial estimates for the work to be delivered, make sure every project has a backing cost and sales price list. Set up a default cost and sales pricelist that applies to all projects created in your organization.  
+To create financial estimates for the work to be delivered, make sure every project has a backing cost and sales price list. Set up a default cost and sales pricelist that applies to all projects created in your organization.  
   
- Price lists rely on roles and expense categories, so before you create a price list, make sure you’ve already configured the roles and expense categories you want to use while creating the price list.  
+Price lists rely on roles and expense categories, so before you create a price list, make sure you’ve already configured the roles and expense categories you want to use while creating the price list.  
   
 1.  Go to **Project Service > Price Lists**.  
   

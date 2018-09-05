@@ -17,6 +17,13 @@ ms.assetid: cba0438d-9095-4dff-9398-7eb3eb1584fd
 caps.latest.revision: 28
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Track customer service cases in Dynamics 365 for phones and tablets
 

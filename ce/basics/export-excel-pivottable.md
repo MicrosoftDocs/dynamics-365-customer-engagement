@@ -15,6 +15,10 @@ caps.latest.revision: 46
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Export to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] PivotTable
 

@@ -15,6 +15,10 @@ ms.assetid: ece68f5f-ad40-4bfa-465a-3e5bafb854aa
 caps.latest.revision: 55
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 <a name="BKMK_Localization"></a>   

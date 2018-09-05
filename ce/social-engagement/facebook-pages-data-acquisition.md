@@ -5,15 +5,22 @@ keywords: "facebook pages, interaction token, data acquisition, unknown author"
 ms.date: 01/23/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 14343439-9125-4704-aa4f-136f59b8cbdc
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Acquire data from Facebook pages

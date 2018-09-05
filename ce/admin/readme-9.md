@@ -1,15 +1,23 @@
 ---
 title: "Dynamics 365 Customer Engagement Readme (Known Issues) | MicrosoftDocs"
-ms.date: 06/28/2018
-ms.service: "crm-online"
-ms.topic: "article"
+description: ""
+keywords: ""
+ms.date: 08/08/2018
+ms.service: 
+  - "crm-online"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 99ea6ece-c35a-4f0e-85a4-26622cd87031
-author: "ReneeW-CPub"
-ms.author: "renwe"
-manager: "annbe"
+author: ReneeW-CPub
+ms.author: renwe
+manager: annbe
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 
 Dynamics 365 Customer Engagement<br>Readme / Known Issues
@@ -20,38 +28,6 @@ This document provides important information about this product version:
 -   Dynamics 365 (online), Enterprise edition, version 9.0
 
 You'll also find information about known issues and possible workarounds.
-
-Services and apps availability
--------------------------------
-
-| Services and Apps                                    | GA | Public Preview | Private Preview |
-|------------------------------------------------------|----|----------------|-----------------|
-| Dynamics 365 for Sales                               | X  |                |                 |
-| Dynamics 365 for Customer Service                    | X  |                |                 |
-| Dynamics 365 for Field Service                       | X  |                |                 |
-| Dynamics 365 for Project Service                     | X  |                |                 |
-| Portal capabilities for Dynamics 365                 | X  |                |                 |
-| Relevance Search Enhancements                        | X  |                |                 |
-| Learning Path                                        | X  |                |                 |
-| Resource Scheduling Optimization                     | X  |                |                 |
-| Glympse                                              | X  |                |                 |
-| Connected Field Service (Internet of Things)         | X  |                |                 |
-| Machine Learning                                     | X  |                |                 |
-| Office 365 Group                                     | X  |                |                 |
-| Gamification                                         | X  |                |                 |
-| Organizational Insights                              | X  |                |                 |
-| CaféX Live Assist                                    | X  |                |                 |
-| Document recommendations                             | X  |                |                 |
-| Company News                                         | X  |                |                 |
-| Unified Service Desk                                 | X  |                |                 |
-| Voice of the Customer                                | X  |                |                 |
-| Dynamics 365 App for Outlook                         | X  |                |                 |
-| Embedded intelligence – Auto capture                 | X  |                |                 |
-| Embedded intelligence – Relationship assistant       | X  |                |                 |
-| Embedded intelligence – Email engagement             | X  |                |                 |
-| LinkedIn (Lead Gen Forms only)                       |    | X              |                 |
-| Mobile offline (Dynamics 365 for phones and tablets) | X  |                |                 |
-| Sales insights add-on – Relationship analytics       |    | X              |                 |
 
 Transport Layer Security (TLS) Requirements
 -------------------------------------------
@@ -428,6 +404,9 @@ Grids and lists in Unified Interface
 -   On tablets, resizing column width on grids can be harder because of the
     smaller dragging touch target. The workaround is to change the column width
     in the view definition if some columns need to be wider.
+    
+-   Grids in the mobile app don't retain the scroll position. If the user scrolls down the list, opens a record, and returns to the list, they will be at the beginning of the list rather than the position they were in when opening the record.
+    
 
 Multi-select option set in Unified Interface
 --------------------------------------------
@@ -454,25 +433,13 @@ Dynamics 365 App for Outlook
 
 -   Initial loading might take some time.
 
--   In Outlook 2013 and Outlook 2016, Outlook frequently displays "add-in
-    error."
-
 -   In Internet Explorer 11, Internet Explorer frequently displays a "long
     running script" error message.
-
--   In Outlook 2013 and Outlook 2016, when entering text in the **Look for
-    Records** field when you set regarding, some of the characters disappear. In
-    Chrome, Internet Explorer 11, and Microsoft Edge, the lookup sometimes stays
-    in the "Loading…" state.
 
 -   The ability to follow an email while composing isn't available.
 
 -   The app isn't supported while accessing it from Outlook Web Application from
     Safari or Firefox.
-
--   When tracking / set regarding for an email, if you select **View email in
-    Dynamics 365**, one of the sections in the email entity might display an
-    error "You are not a member of this organization."
 
 -   Opening and closing the app a few times repeatedly in Internet Explorer and
     Microsoft Edge in Outlook Web Access causes the browser to become
@@ -617,12 +584,21 @@ Unified Service Desk
     about Unified Service Desk and TLS 1.2 mandate to update these registry
     entries.
 
--   You can integrate apps built using Unified Interface in the Unified Service
-    Desk using the preview capabilities in [version
-    3.3](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/whats-new-unified-service-desk-administrators#whats-new-in-includepn-unified-service-desk-3-3includespn-unified-service-desk-3-3md).
-    This support is not available in earlier versions. More
-    information: [Support for Unified Interface Apps in Unified Service
-    Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/support-unified-interfaces-apps-usd)
+-   **Support for Unified Interface apps in Unified Service Desk**: You can integrate apps built using Unified Interface in the          Unified Service Desk using the preview capabilities in [version 4.0](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/what-s-new-in-unified-service-desk#general-availability-support-for-unified-interface-apps-in-unified-service-desk). This support is not available in earlier versions. <br>More information: [Support for Unified Interface Apps in Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/support-unified-interfaces-apps-usd)
+
+-   **Web Client - Unified Interface Migration Assistant**:  The Web Client - Unified Interface Migration Assistant for Unified Service Desk helps you migrate your Unified Service Desk configurations from Unified Service Desk Web Client to a Unified Service Desk Unified Interface app. <br>More information: [Web Client - Unified Interface Migration Assistant](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/overview-migration-assistant)
+
+-   **Prevent accidental closure of Unified Service Desk**: While working on Unified Service Desk, you could lose your unsaved work if you accidentally select the **x** Close button. The Close Confirmation Window is introduced to prevent an accidental closure of the Unified Service Desk client application. <br>More information: [Configure close confirmation window for Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/configure-close-confirmation-window)
+
+-   **Unified Interface KM Control**: The Unified Interface KM Control hosted control is introduced for your knowledge base search experience with Unified Service Desk. You must configure the Unified Interface KM Control when you are using a Unified Interface app in Unified Service Desk. <br>Your service agents can use the **Unified Interface KM Control** hosted control to search and view a knowledge base in Unified Interface from within the Unified Service Desk. You can position your search control in the main panel, left panel, or right panel of the Unified Interface desk application. Also, you can configure the contextual actions for the search results. <br>More information: [Unified Interface KM Control (hosted control)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/unified-interface-km-control-hosted-control)
+
+-   **Preview feature - Unified Service Desk Administrator app**: The Unified Service Desk Administrator app is built on the Unified Interface framework, which has a new user experience—Unified Interface—that uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. The Unified Service Desk Administrator app brings rich experience to administer and manage your Unified Service Desk client application. <br>More information: [Preview Feature: Unified Service Desk Administrator app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/unified-service-desk-administrator-app)
+
+-   **Preview feature - Unified Interface Settings**: Unified Interface Settings is a new configuration element introduced in the Unified Service Desk Administrator app. This configuration element lets you configure a default Unified Interface for your agents so that when they sign in to Unified Service Desk, they go directly to the Unified Interface app. This configuration saves time and enhances the agents' sign-in experience to Unified Service Desk. <br>More information: [Preview feature - Set default Unified Interface App using Unified Interface Settings](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/unified-interface-settings)
+
+-   **Preview feature - Stack notification in Unified Service Desk**: You can configure stack notifications in Unified Service Desk to display pop-up notification messages to your customer service agents that contain general information or customer- or process-related information that the agents can act on. This facilitates simultaneous toast notifications in a multi-session environment. <br>More information: [Stack notifications](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/configure-notifications-unified-service-desk#stack-notifications) and [Popup Notification (Hosted Control)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/popup-notification-hosted-control)
+
+-   **Preview feature - Effective session switch management**: When you are working on a case (local session) and want to review your Dashboard (global session) or another case (local session), you can easily switch from the case to Dashboard or another case, without affecting your session timer. That is, when you switch from local session, your session timer will not be counted until you switch back to the session. This helps to efficiently measure the agents' productivity. <br>More information: [SwitchSession](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/session-tabs-hosted-control#switchsession)
 
 -   **Interactive Service Hub**: With the Dynamics 365 (online), version 9.0
     release, Interactive Service Hub has been rebuilt as a Unified Interface app
@@ -631,13 +607,12 @@ Unified Service Desk
     the Interactive Service Hub in Unified Service Desk is available only if you
     are running Dynamics 365, version 8.2 or an earlier supported version of
     Microsoft Dynamics CRM. You can integrate with Customer Service Hub in
-    Unified Service Desk in the same way as any other Unified Interface app.
-    More information: [Support for Unified Interface Apps in Unified Service
-    Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/support-unified-interfaces-apps-usd)
+    Unified Service Desk in the same way as any other Unified Interface app. <br>More information: [Support for Unified Interface Apps in Unified Service
+    Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/support-unified-interfaces-apps-usd)
 
 -   **Relationship Insights**: Although you can view information from the
     relationship assistant in the Unified Service Desk client, you cannot
-    interact with the information in the client. More information: [Embedded
+    interact with the information in the client. <br>More information: [Embedded
     intelligence](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/embedded-intelligence)
 
 -   **LinkedIn Sales Navigator for Microsoft Dynamics 365 for Sales**: This is
@@ -650,13 +625,9 @@ Unified Service Desk
     using the Unified Service Desk APIs.
 
 -   **URL addressability in business apps**: Business apps (app modules) use the
-    appid value in the URLs to refer to resources displayed in an app. For
-    example:
-    “https://.crm.dynamics.com/main.aspx?appid=b0f40cd2-22a6-e711-a94e-000d3a1a7a9b&pagetype=entitylist&etn=bookableresourcebooking.”
-    Unified Service Desk has added support for the usage of appid values in URLs
-    to refer to a resource from version 3.3. More information: [Design custom
-    business apps by using the app
-    designer](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
+    appid value in the URLs to refer to resources displayed in an app. For example:
+    `https://.crm.dynamics.com/main.aspx?appid=b0f40cd2-22a6-e711-a94e-000d3a1a7a9b&pagetype=entitylist&etn=bookableresourcebooking`
+    Unified Service Desk has added support for the usage of appid values in URLs to refer to a resource from version 4.0. <br>More information: [Design custom business apps by using the app designer](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
 
 Third-party notice 
 -------------------

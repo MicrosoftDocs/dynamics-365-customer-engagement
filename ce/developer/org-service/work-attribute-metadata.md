@@ -14,6 +14,10 @@ ms.assetid: 5fc61379-4811-4b3c-9bac-2227ce5662e2
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Work with attribute metadata
 

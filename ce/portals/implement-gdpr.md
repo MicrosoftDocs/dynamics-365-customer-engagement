@@ -5,17 +5,24 @@ keywords: "portal GDPR, implement GDPR in portal"
 ms.date: 06/08/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 61DDD947-32BC-4DA3-BDC1-6D1417412A6B
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ms.reviewer: 
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-portal
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Implementing General Data Protection Regulations in your Dynamics 365 portals

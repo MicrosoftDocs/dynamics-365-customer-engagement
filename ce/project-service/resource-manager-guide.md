@@ -1,27 +1,28 @@
 ---
-title: "Resource Manager Guide (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom:
-  - dyn365-projectservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "project-service-automation"
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+title: Resource manager guide (Dynamics 365 for Project Service) | MicrosoftDocs
+description: A guide to resource management in Project Service
 author: krbjoran
-ms.assetid: 35884b09-25b0-47fa-ba8f-fa53662f5f6c
-caps.latest.revision: 16
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
+ms.custom: 
+  - dyn365-projectservice
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: 
+ms.technology: 
 ms.author: krbjoran
-manager: shellyha
+audience: Admin
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
 ---
-# Resource Manager Guide (Project Service Automation)
+# Resource manager guide (Project Service)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 The [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] help you find the right resources at the right time for the right project and make sure all resources are utilized efficiently.  
   
@@ -45,7 +46,7 @@ The [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 
   
 - Fulfill resource requests (book, propose, find substitute resources).  
   
-- Assign resources according to a central (resource manager assigns) or hybrid model (resource manager and other managers can assign). For more information about setting a central versus hybrid resource management model, see [Configure additional parameters settings (Project Service Automation)](../project-service/configure-additional-parameters-settings.md).  
+- Assign resources according to a central (resource manager assigns) or hybrid model (resource manager and other managers can assign). For more information about setting a central versus hybrid resource management model, see [Configure additional parameters settings (Project Service)](../project-service/configure-additional-parameters-settings.md).  
   
   You can manage resources efficiently across projects and ensure that projects are staffed appropriately. You’ll need to perform the following tasks:  
   
@@ -60,7 +61,7 @@ The [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 
   For more information about submitting resource requests for individual projects, see [Submit resource requests](../project-service/submit-resource-requests.md).  
   
 ### See Also  
- [Overview of Project Service Automation](../project-service/overview.md)   
+ [Overview of Project Service](../project-service/overview.md)   
  [Administrator Guide](../project-service/admin-guide.md)   
  [Account Manager Guiden](../project-service/account-manager-guide.md)   
  [Project Manager Guide](../project-service/project-manager-guide.md)   

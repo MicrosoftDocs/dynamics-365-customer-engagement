@@ -5,7 +5,7 @@ keywords: "GDPR; data protection; privacy; embedded intelligence"
 ms.date: 04/18/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: d12b1dbe-b02e-4f61-92b7-3cf06516fe6e
@@ -13,6 +13,13 @@ author: KumarVivek
 ms.author: kvivek
 manager: kvivek
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # Embedded Intelligence and GDPR

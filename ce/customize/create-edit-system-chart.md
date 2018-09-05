@@ -17,6 +17,10 @@ ms.assetid: e02d58f7-6b1c-4a51-b801-a4d9f24729c5
 caps.latest.revision: 29
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Create or edit a system chart
 

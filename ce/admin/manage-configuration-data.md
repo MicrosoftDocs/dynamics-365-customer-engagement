@@ -15,6 +15,11 @@ ms.assetid: eacae026-5406-4837-be76-1b243a4181b0
 caps.latest.revision: 29
 ms.author: "rdubois"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Move configuration data across instances and organizations with the Configuration Migration tool
 

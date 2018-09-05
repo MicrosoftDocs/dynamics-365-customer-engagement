@@ -15,6 +15,10 @@ caps.latest.revision: 29
 author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Add or edit Power BI visualizations on your dashboard
 

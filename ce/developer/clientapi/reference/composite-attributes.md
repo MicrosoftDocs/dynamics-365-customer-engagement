@@ -1,6 +1,6 @@
 ---
 title: "Composite attributes in Dynamics 365 Customer Engagement in Dynamics 365 Customer Engagement| MicrosoftDocs"
-description: "Learn about the attribute addOnchange method to set a function to be called when the attribute value is changed." 
+description: "Learn about the attribute addOnchange method to set a function to be called when the attribute value is changed."
 ms.date: 11/10/2017
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -9,6 +9,10 @@ ms.assetid: 9f3b2fed-fde5-46e4-8c59-43aa51aa82df
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Composite attributes 
 

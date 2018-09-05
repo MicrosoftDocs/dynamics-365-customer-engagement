@@ -1,7 +1,7 @@
 ---
 title: "Security enhancements: User session and access management with Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 11/27/2017
+ms.date: 08/08/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,6 +15,11 @@ caps.latest.revision: 59
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Security enhancements: User session and access management 
 
@@ -43,6 +48,13 @@ By default, [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] sets a user 
 You can change this behavior.
 
 - To enforce users to re-authenticate after a pre-determined period of time, admins can set a session timeout for their individual [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instances.  Users can only remain signed in the application for the duration of session.  The application signs out the user when the session expires.  Users need to sign-in with their credentials to return to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].
+
+> [!NOTE]
+> User session timeout is not enforced in the following:
+> 1. [!INCLUDE [pn-oc-online-short](../includes/pn-oc-online-short.md)]
+> 2. [!INCLUDE [pn-dyn-365-phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE [pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)]
+> 3. [!INCLUDE [pn-unified-service-desk](../includes/pn-unified-service-desk.md)] client using [WPF](https://docs.microsoft.com/dotnet/framework/wpf/) browser (Internet Explorer is supported)
+> 4. Live Assist (Chat)
 
 ## Configure session timeout
 

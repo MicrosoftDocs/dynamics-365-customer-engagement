@@ -5,15 +5,22 @@ keywords: "legacy Adxstudio Portals FAQ; legacy Adxstudio Portals frequently ask
 ms.date: 03/23/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: C466D212-8B3B-4041-ABEC-9F82AA476912
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ms.reviewer: 
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Legacy Adxstudio Portals v7 FAQ

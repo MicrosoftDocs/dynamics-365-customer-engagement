@@ -15,6 +15,10 @@ caps.latest.revision: 15
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Office 365 Groups in Dynamics 365 FAQs
 

@@ -2,7 +2,7 @@
 title: "Retrieve interactions for a contact using code (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
 description: "Know how to programmatically retrieve interactions for a contact using an action; GDPR compliance."
 ms.custom: ""
-ms.date: 07/18/2018
+ms.date: 08/07/2018
 ms.service: "crm-online"
 ms.technology: 
   - "marketing"
@@ -13,6 +13,11 @@ ms.assetid: f0a910ca-fd62-4190-b75f-d61d2db76ca2
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "annbe"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 # Retrieve interactions for a contact using code
 
@@ -57,7 +62,6 @@ The **msdyncrm_LoadInteractionsPublic** action expects the following input param
 <li>ActivityContactBlocked</li>
 <li>ActivityContactDispatched</li>
 <li>ActivityContactProcessingFailed</li>
-<li>ContactUpserted</li>
 <li>CreateCrmActivityContactProcessed</li>
 <li>CreateCustomChannelActivityContactProcessed</li>
 <li>CustomChannelResponse</li>
@@ -82,7 +86,6 @@ The **msdyncrm_LoadInteractionsPublic** action expects the following input param
 <li>InvalidRecipientAddress</li>
 <li>InvalidSenderAddress</li>
 <li>LeadScoreBoost</li>
-<li>LeadUpserted</li>
 <li>OutOfEmailCredits</li>
 <li>PassThroughActivityContactProcessed</li>
 <li>RedirectLinkClicked</li>

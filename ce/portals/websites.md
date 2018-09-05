@@ -1,7 +1,7 @@
 ---
 title: "Create and manage websites in Dynamics 365 Portal | MicrosoftDocs"
 description: "Learn how to create and manage websites in Dynamics 365 Portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 06/20/2018
 ms.service: dynamics-365-customerservice
@@ -12,7 +12,14 @@ ms.assetid: 0CF45CAC-4643-46AA-93C0-2D5C97497AEE
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Create and manage websites

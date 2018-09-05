@@ -8,6 +8,10 @@ ms.assetid: 43341b96-ca2c-4c7e-b6d5-fe7a5fd3c8b2
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getShowTime (Client API reference)
 

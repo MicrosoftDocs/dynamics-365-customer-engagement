@@ -8,6 +8,10 @@ ms.assetid: 4bd76f0c-5905-4bc2-a423-7d74a267a464
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getPrimaryAttributeValue (Client API reference)
 

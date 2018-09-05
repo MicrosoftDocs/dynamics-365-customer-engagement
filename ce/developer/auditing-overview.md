@@ -1,7 +1,6 @@
 ---
 title: "Auditing overview (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Overview of the audit capabilities, supported on all custom and most customizable entities and attributes, but not supported on metadata changes, 
-retrieve operations, export operations, or during authentication."
+description: "Overview of the audit capabilities, supported on all custom and most customizable entities and attributes, but not supported on metadata changes, retrieve operations, export operations, or during authentication."
 ms.custom: ""
 ms.date: 03/06/2018
 ms.reviewer: ""
@@ -16,6 +15,10 @@ caps.latest.revision: 36
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Auditing overview
 

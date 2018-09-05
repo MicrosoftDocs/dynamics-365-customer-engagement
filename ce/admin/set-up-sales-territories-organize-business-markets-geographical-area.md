@@ -15,6 +15,11 @@ caps.latest.revision: 36
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Set up sales territories to organize business markets by geographical area
 

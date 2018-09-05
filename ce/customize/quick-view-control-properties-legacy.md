@@ -2,18 +2,21 @@
 title: Quick view control properties for main forms in PowerApps | MicrosoftDocs
 description: Understand the quick view control properties for main forms
 Keywords: Quick view control properties; Dynamics 365; Main forms
-author: anjgupta
+author: Mattp123
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
   - "powerapps"
 ms.author: matp
 manager: kvivek
-author: Mattp123
 ms.date: 03/09/2018
 ms.service: crm-online
 ms.topic: article
 ms.assetid: 68f68d5b-6c71-4b95-bb46-d48c59d9008e
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Quick view control properties
 

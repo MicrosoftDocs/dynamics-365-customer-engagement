@@ -15,6 +15,11 @@ caps.latest.revision: 65
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # What are Preview features and how do I enable them? 
 

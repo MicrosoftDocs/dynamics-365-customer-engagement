@@ -1,7 +1,7 @@
 ---
 title: "Configure auditing and diagnostics in Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
-description: "Learn how to set auditing and diagnostics." 
-ms.custom:
+description: "Learn how to set auditing and diagnostics."
+ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 02/06/2018
 ms.reviewer: ""
@@ -18,9 +18,14 @@ applies_to:
 ms.assetid: 27b03f6a-2297-425e-be79-d4e6c960890b
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 tags: 
- - "MigrationHO"
+  - "MigrationHO"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Auditing and diagnostics overview
 The **Audit & Diagnostics Settings** area provides centralized management for agent auditing and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application diagnostic logging.  

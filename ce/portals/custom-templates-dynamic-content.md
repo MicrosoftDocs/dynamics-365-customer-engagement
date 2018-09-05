@@ -1,7 +1,7 @@
 ---
 title: "Add dynamic content and create custom templates for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn how to use Liquid, an open-source template language, into your portals."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 06/08/2018
 ms.service: dynamics-365-customerservice
@@ -12,7 +12,14 @@ ms.assetid: 8232de7b-c0a9-4bc0-ac6d-a3375ef6ed88
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Work with Liquid templates
 Liquid is an open-source template language integrated into portals. It can be used to add dynamic content to pages, and to create a wide variety of custom templates. Using Liquid, you can:

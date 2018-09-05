@@ -6,7 +6,7 @@ ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: d30356c5-da29-4466-8356-ec3d1acad578
 author: JimDaly
@@ -22,6 +22,10 @@ helpviewer_keywords:
   - "enabling and disabling auditing sample, on entities and their attributes"
   - "audit entity data changes sample"
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample: Audit entity data changes

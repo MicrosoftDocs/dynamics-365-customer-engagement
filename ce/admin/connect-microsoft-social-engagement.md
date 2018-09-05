@@ -15,6 +15,11 @@ caps.latest.revision: 76
 author: "m-hartmann"
 ms.author: "mhart"
 manager: "sakudes"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Connect to Social Engagement
 

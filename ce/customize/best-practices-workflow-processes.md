@@ -17,6 +17,10 @@ ms.assetid: 34e34c33-003a-494f-858c-3d34aacb308c
 caps.latest.revision: 10
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Best practices for workflow processes
 
@@ -43,7 +47,10 @@ This topic contains best practices for creating and managing workflow processes.
 <a name="BKMK_AutoDeleteCompletedWorkflowJobs"></a>   
 ## Keep fewer logs  
  To save disk space, clear the **Keep logs for workflow jobs that encounter errors** check box if you don’t need to keep this data.  
-  
+ 
+## Limit the number of workflows that update the same entity
+Running more than one workflow that updates the same entity can cause resource lock issues. Imagine several workflows running where every opportunity update triggers an update to the associated account. Multiple instances of these workflows running and attempting to update the same account record at the same time can result in resource locking issues. Workflow failures occur and an error message, such as **SQL Timeout: Cannot obtain lock on resource *resource name***, is recorded. 
+ 
 <a name="BKMK_DocumentChangesUsingNotes"></a>   
 ## Use Notes to keep track of changes  
  When you edit workflows you should use the Notes tab and type what you did and why you did it. This allows someone else to understand the changes you made.  

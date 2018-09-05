@@ -1,7 +1,7 @@
 ---
 title: "Manage forum threads in a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to manage forum threads in a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 06/08/2018
 ms.service: dynamics-365-customerservice
@@ -12,7 +12,14 @@ ms.assetid: 5fd4a71f-ea08-45c7-83b2-63caede5f18c
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Manage forum threads
 

@@ -14,6 +14,10 @@ ms.assetid: 11ce3adf-8a27-430e-a153-124522787ad9
 caps.latest.revision: 9
 author: "JimDaly"
 ms.author: "jdaly"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Build web applications using Server-to-Server (S2S) authentication
 

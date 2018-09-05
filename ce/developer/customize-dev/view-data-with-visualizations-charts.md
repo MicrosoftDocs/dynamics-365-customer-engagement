@@ -17,6 +17,10 @@ caps.latest.revision: 49
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # View data with visualizations (charts)
 

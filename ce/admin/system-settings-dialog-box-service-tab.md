@@ -15,6 +15,11 @@ ms.assetid: 926c05fe-4499-4f5b-ab0c-39d29589f094
 caps.latest.revision: 29
 ms.author: "shujoshi"
 manager: "sakudes"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # System Settings dialog box - Service tab
 
@@ -34,7 +39,9 @@ Use the Service tab in System Settings to set preferences for the customer servi
   
 3. Click the **System Settings** > **Service** tab.  
   
-
+<!-- 
+> [!NOTE]
+> In the Customer Service Hub app, go to **Service Management** > **Service Configuration Settings** in the sitemap to access the Service configuration settings. -->
   
 |                                                                                                                                                                                                                                                                                   Settings                                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -48,4 +55,7 @@ Use the Service tab in System Settings to set preferences for the customer servi
 |                                                                                                                                                                                                                                                                      **Automatically apply entitlement**                                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                        -   Select whether to automatically apply the default customer entitlement when a case is created.<br />-   Select whether to automatically apply the default customer entitlement when a case is updated and the customer, contact, or product field has changed.                                                                                                                                                                                                                                                                                                                                                                        |
   
 ### See also  
- [Define service level agreements (Customer Service)](../customer-service/define-service-level-agreements.md)
+
+[Service Manager guide (Customer Service Hub)](../customer-service/service-manager-guide.md) <br>
+
+[Define service level agreements](../customer-service/define-service-level-agreements.md)

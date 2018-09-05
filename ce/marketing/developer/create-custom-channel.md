@@ -13,6 +13,11 @@ ms.assetid: 30a97860-1369-400b-8931-5d070daea4f9
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 # Create a custom channel for customer journey
 

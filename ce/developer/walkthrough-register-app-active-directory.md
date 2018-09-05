@@ -19,6 +19,10 @@ caps.latest.revision: 57
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Walkthrough: Register a Dynamics 365 app with Active Directory
 

@@ -2,18 +2,25 @@
 title: "Pointers for Social Engagement | Microsoft Docs"
 description: "Find your starting point for help content."
 keywords: "help hub, help center, link list"
-ms.date: 07/11/2018
+ms.date: 08/07/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: caadfdba-1c29-4032-8fb5-34257913bc09
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Social Engagement Help & Training
@@ -64,11 +71,11 @@ ms.custom:
 
 <h2> Additional resources </h2>
 
-<li>[Video training course on MVA (English only)](https://go.microsoft.com/fwlink/p/?linkid=861639)</li>
-<li>[YouTube playlist](http://go.microsoft.com/fwlink/p/?LinkId=400720)</li>
-<li>[Community forum](http://go.microsoft.com/fwlink/p/?LinkId=400719)</li>
-<li>[Contact support](http://go.microsoft.com/fwlink/p/?LinkId=394391)</li>
-<li>[Request a trial](https://experience.dynamics.com/trials/)</li>
+<li><a href="https://go.microsoft.com/fwlink/p/?linkid=861639">Video training course on MVA (English only)</a></li>
+<li><a href="http://go.microsoft.com/fwlink/p/?LinkId=400720">YouTube playlist</a></li>
+<li><a href="http://go.microsoft.com/fwlink/p/?LinkId=400719">Community forum</a></li>
+<li><a href="http://go.microsoft.com/fwlink/p/?LinkId=394391">Contact support</a></li>
+<li><a href="https://experience.dynamics.com/trials/">Request a trial</a></li>
 
 </td>
 <td>

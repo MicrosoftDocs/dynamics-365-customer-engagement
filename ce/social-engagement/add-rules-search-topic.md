@@ -2,18 +2,25 @@
 title: "Add rules to a Social Engagement search topic | Microsoft Docs"
 description: "Learn how to add more rules to a search topic to gather additional data."
 keywords: "search topic, search rule, Social Engagement"
-ms.date: 05/08/2018
+ms.date: 08/22/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 9d65050a-4d34-4d87-8361-1954114da289
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Add rules to a search topic
@@ -142,7 +149,7 @@ For example, searching for the term **City Power & Light** will result in posts 
 -   City Power&Light (no white space before or after the special character)  
   
 #### Additional special characters  
-Authors on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] regularly use #hashtags and @mentions. [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] authors also will use $stocktweets. Use those special characters if you want to search explicitly for #hashtags, $stocktweets, or @mentions. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] interprets those terms as unique entities when they're added to a search rule.  
+Authors on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] regularly use #hashtags and \@mentions. [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] authors also will use $stocktweets. Use those special characters if you want to search explicitly for #hashtags, $stocktweets, or \@mentions. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] interprets those terms as unique entities when they're added to a search rule.  
   
 For example, searching for the term **#contoso** will only find results that contain the exact match of the hashtag.  
   
@@ -202,7 +209,7 @@ Follow conversations on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and ad
   
 4. Click **Twitter rule**.  
   
-5. In the search field, enter the [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] @username that you want to track.  
+5. In the search field, enter the [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] \@username that you want to track.  
   
    If you don't have a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile added to your social profiles, you need to sign in to [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] first to perform searches on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)].  
   

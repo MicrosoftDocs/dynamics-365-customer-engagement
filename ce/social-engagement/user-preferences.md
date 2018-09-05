@@ -5,15 +5,22 @@ keywords: "user preferences, social engagement, my preferences, individual setti
 ms.date: 12/06/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: dc6e2e29-bfbe-4a07-977f-a80d68a2e489
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Set your preferences for the user interface

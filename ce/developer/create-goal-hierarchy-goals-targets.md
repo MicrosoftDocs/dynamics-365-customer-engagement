@@ -33,6 +33,10 @@ caps.latest.revision: 81
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Create goal hierarchy, goals, and targets
 

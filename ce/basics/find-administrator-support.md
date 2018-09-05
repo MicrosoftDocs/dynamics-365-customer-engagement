@@ -15,6 +15,10 @@ caps.latest.revision: 12
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Find your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator or support person 
 

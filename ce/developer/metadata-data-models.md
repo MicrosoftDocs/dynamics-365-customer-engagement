@@ -14,6 +14,10 @@ ms.assetid: 89780be5-e5f7-4fa8-9565-3442eda5708d
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Metadata and data models
 

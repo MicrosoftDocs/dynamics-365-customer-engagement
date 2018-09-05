@@ -5,15 +5,22 @@ keywords: "ssa, social selling assistant, MSE, dynamics 365, configuration"
 ms.date: 12/12/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: bbed3178-9494-44bf-9d4e-1f78e84e729d
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Configure Social Engagement for the Social Selling Assistant

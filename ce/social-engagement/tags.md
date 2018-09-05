@@ -2,18 +2,25 @@
 title: "Work with tags in Social Engagement | Microsoft Docs"
 description: "Learn how to work with tags on post and the auto-tagging capabilities in Social Engagement."
 keywords: "tags, tagging, auto tags, custom tags, Social Engagement"
-ms.date: 03/27/2018
+ms.date: 08/22/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 1cf877c0-f5a0-43fc-9bf0-1c5ef12359e1
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Work with tags
@@ -73,7 +80,7 @@ To improve your workflows and increase efficiency, you can leverage auto tagged 
   
 2.  In the Global Settings pane, select **Auto Tags**.  
   
-3.  Under Auto Tags, select **Add tag** ![Add button](media/add-icon.png "Add button")  
+3.  Under Auto Tags, select **Add Auto Tag** ![Add button](media/add-icon.png "Add button")  
   
     > [!NOTE]
     >  You can maintain up to five auto tags simultaneously.  

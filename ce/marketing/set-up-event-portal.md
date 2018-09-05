@@ -1,22 +1,29 @@
 ---
-title: "Register link clicks and website visits (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Set up your website to record visits from known and unknown contacts, and create redirect links that register clicks from anywhere in Dynamics 365 for Marketing"
-keywords: "website;redirect URL;behavioral analysis;behavior;tracking"
+title: "Set up an event portal (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "Set up a Dynamics 365 for Marketing event portal, where people can read about your event and its speakers, create an account, register for the event, purchase passes, view their session schedule, and more."
+keywords: "event;portals;event portal"
 ms.date: 04/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: bde3efc9-6ef1-4705-a925-34670c823f40
+ms.assetid: b83e8cb2-38a4-462f-87bc-0fc52357f01e
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Set up the event portal
@@ -31,23 +38,25 @@ The event portal is built by using the standard portals capabilities for [!INCLU
 
 [!INCLUDE[cc-marketing-cookies](../includes/cc-marketing-cookies.md)]
 
-## Publish an event to the portal
+## Publish events, sessions, tracks, and related records to the portal
 
-Most of the information shown on the portal comes directly from your event model and its various related records, so all you need to do get the portal online is make sure that all the information is available in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] and that the event itself, plus its relevant sessions and tracks, are set to be published on the portal. To publish any of these items, open the relevant record and set its **Publish Status** in the drop-down list (usually shown in the upper-right corner of the form) to **Published**. Other relevant information related to the event, like speakers and sponsorships, will be published automatically so you don't need to publish them separately. Set the **Publish Status** to any other value to unpublish an event, session, or track if needed, thus removing it from your event portal.
+Most of the information shown on the portal comes directly from your event model and its various related records, so all you need to do get the portal online is make sure that all the information is available in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] and that the event itself, plus its relevant sessions and tracks, are set to be published on the portal. 
+
+To publish an event, session, or track, open the relevant record and set its **Publish Status** in the drop-down list (usually shown in the upper-right corner of the form) to **Published**. Set the **Publish Status** to any other value to unpublish an event, session, or track if needed, thus removing it from your event portal.
 
 ![The Publish Status menu](media/event-publish-ill.png "How to set the publish status of an event to the portal")
 
-The following table summarizes which types of information are publish to the portal. Be especially careful and thorough when entering values for these fields, because they are exposed to the public.
+The following table summarizes how to publish each publishable entity to the portal, and which types of information are publish for each of them. Be especially careful and thorough when entering values for published fields, because they are exposed to the public.
 
 
-|   **Entity**   |                                                                                                                    **Where it gets published**                                                                                                                    |                                                                                    **Which fields get published**                                                                                    |
-|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|     Events     |                                                                                             All published events are listed on the **All Events** page of the portal.                                                                                             |                                                      **Event Name**<p>**Start and end dates**</p><p>**Primary Venue**</p><p>**Description**</p>                                                      |
-|    Sessions    |                            Each published session is listed on the **Sessions** page for the event it belongs to, on the **Speaker** page for the speaker presenting it, and on the **Session Tracks** page for tracks it belongs to.                             |          **Session Title**<p>**Start Date & Time**</p><p>**End Date & Time**</p><p>**Session Summary**</p><p>**Session Detail Description**</p><p>**Session Tracks**</p><p>**Duration**</p>          |
-|    Speakers    | Published speakers are listed on the front for each event where they are speaking, on the **Speakers** page, and on session pages for each session they are running. A speaker profile page shows additional details and a schedule of sessions for that speaker. | **Name**<p>**Photo**</p><p>**Title**</p><p>**About**</p><p>**[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]**</p><p>**[!INCLUDE[tn-twitter](../includes/tn-twitter.md)]**</p><p>**Website**</p> |
-| Session Tracks |    Published external tracks are listed on the **Session Tracks** page for the event they belong to. Each session track shows its name and a list of sessions that belong to it (with links).<p>You can only publish external tracks (not internal ones).</p>     |                                                                                     **Name**<p>**Audience**</p>                                                                                      |
-|     Passes     |      All passes associated with a published session track are listed on the **Pass Information** page for the event the track belongs to. The system tracks the number of passes available and the number assigned, and indicates when passes are sold out.       |            **Name**<p>Track **Name** from the related track record</p><p>**Pass Price**</p><p>Sold out status, indicated when the **Passes Remaining** field for a pass reaches zero</p>             |
-|    Sponsors    |                                                                        Sponsors associated with published events are displayed at the bottom of most pages of the portal for those events.                                                                        |                          **Event Sponsor** (the **Account Name** of the related account record)</p><p>**Logo** (taken from the related account record for each sponsor)</p>                          |
+|   **Entity**   |  **How and where it gets published**   |  **Which fields get published** |
+|-------|----|-----------|
+|     Events     |  Publish each event manually by opening the event record and setting the **Publish status** to **Published**. Unpublished events won't be shown on the portal.<p>All published events are listed on the **All Events** page of the portal.</p> |  Event name, Start date & time, End date & time, Primary venue, Description|
+|    Sessions    | Publish each session manually by opening the session record and setting the **Publish status** to **Published**. Unpublished sessions won't be shown on the portal.<p>Each published session is listed on the **Sessions** page for the event it belongs to, on the **Speaker** page for the speaker presenting it, and on the **Session Tracks** page for tracks it belongs to. | Session title, Start date & time, End date & time, Session summary, Detailed description, Session tracks, Duration|
+|    Speakers    | Speakers are published automatically when you publish the session they are assigned to.<p>Published speakers are listed on the front for each event where they are speaking, on the **Speakers** page, and on session pages for each session they are running. A speaker profile page shows additional details and a schedule of sessions for that speaker.</p> | Name, Photo, Title, About, [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)], [!INCLUDE[tn-twitter](../includes/tn-twitter.md)], Website |
+| Session Tracks |    Publish each track manually by opening the track record and setting the **Publish status** to **Published**. Unpublished tracks won't be shown on the portal.<p>Published external tracks are listed on the **Session Tracks** page for the event they belong to. Each session track shows its name and a list of sessions that belong to it (with links).<p>You can only publish external tracks (not internal ones).</p>     |  Name, Audience |
+|     Passes     | Passes are published automatically when you publish the event they belong to.<p>All passes associated with a published session track are listed on the **Pass Information** page for the event the track belongs to. The system tracks the number of passes available and the number assigned, and indicates when passes are sold out.</p>| Name, Name of the related track record, Pass price, Sold out status</p>             |
+|    Sponsors    | Sponsors are published automatically when you publish the event they belong to.<p>Sponsors associated with published events are displayed at the bottom of most pages of the portal for those events.  |  Event sponsor (the  name of the related account record), Logo (taken from the related account record for each sponsor)</p>                          |
 
 ## Customize portal graphics
 
@@ -60,7 +69,17 @@ The portal features a banner image for each event, and also shows speaker photos
 
 - Sponsor images come from each sponsorship record, which you can edit by working in the event record where the sponsorship applies (found on the **Agenda** tab, which links to related sponsorship records), or by finding the appropriate sponsorship record under **Events** > **Sponsorship management** > **Sponsorships**. As with speaker images, you can edit the image by selecting the existing photo (or generic placeholder) in the heading area of the sponsorship record page.
 
+## Open the event portal
+
+To find the URL for your event portal and open it:
+
+1. Open the relevant event record.
+1. Make sure the **Publish status** is set to **Published**.
+1. Open the **General** tab and find the **Key information** section.
+1. The **Event URL** field here shows the address of the portal for this event. Select the globe button at the edge of this field to open the URL.
+
 ### See also
 
 [Engage customers online with portals](portals.md)
 [Set up an event](set-up-event.md)  
+[Go live with publishable entities and track their status](go-live.md) 
