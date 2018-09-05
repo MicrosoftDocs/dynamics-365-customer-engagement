@@ -137,8 +137,6 @@ To add Social Insights controls to an entity (record type) form, you have to [us
 
 Once Social Insights is added to an entity form in a web client app, you can configure it to meet your needs. 
 
-![Social Insights configuration dialog in web apps](media/social-insights-configuration-web-app.png "Social Insights configuration dialog in web apps")
-
 1. Select the **Change visual** symbol to edit the charts and graphs that show in the Social Insights component.
 
 2. Select the **Change or edit your search topic** symbol to configure the search topic (or category) for your insights. 
@@ -151,15 +149,11 @@ Once Social Insights is added to an entity form in a web client app, you can con
 
 When working with an app built for the [Unified Interface in Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/admin/about-unified-interface), you can change the way that Social Insights is shown to meet your needs. 
 
-![Highlighted settings icon in Unified Interface app](media/settings-social-insights-unified-interface.png "Highlighted settings icon in Unified Interface app")
-
 1. On the Social Insights control, select the **Edit** icon ![Edit icon for Social Insights](media/settings-icon.png).
 
 2. In the **Configure Social Insights** dialog, you can change the search topic or category to focus your analysis on.
 
 3. If you want to change the order of the widgets, select the arrow icons to reorder them. Additionally, you can add or remove widgets from the component. Keep in mind, you can always add a removed widget again. Unless you change the search configuration, you'll see the same data. 
-
-![Social Insights configuration dialog for Unified Interface apps](media/social-insights-UCI-configuration-dialog.png "Social Insights configuration dialog for Unified Interface apps")
 
 ## Set up search topics from within Dynamics 365  
 
