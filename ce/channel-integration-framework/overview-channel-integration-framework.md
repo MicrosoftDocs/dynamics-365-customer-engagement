@@ -28,12 +28,12 @@ With this framework you can integrate any third-party channel provider or channe
 
 Organizations expects their call centers to do more with fewer resources, and there is a constant drive to increase productivity in terms of call center agents handling more chats, phone calls, emails, and so on. Reducing the average time to handle customers can save companies millions of dollars. Computer Telephony Integration (CTI) systems in call centers are a one of key indicators for the success and customer satisfaction. On that context, some of the challenges that call center industry faces with the CTI systems are as follows:
 
-    - Integrating third-party CTI systems into the Customer Relationship Management (CRM) platforms.
-    - Accessing and performing operations on the CRM from the CTI systems.
-    - Developing and deploying CTI system needs writing adapters and complex custom codes for solution integration.
-    - Using APIs and out-of-box customization which are not supported for production environment.
-    - CTI systems dependency on the operating system and web browsers.
-    - Customizing the CTI systems based on the business and process workflows.
+  - Integrating third-party CTI systems into the Customer Relationship Management (CRM) platforms.
+  - Accessing and performing operations on the CRM from the CTI systems.
+  - Developing and deploying CTI system needs writing adapters and complex custom codes for solution integration.
+  - Using APIs and out-of-box customization which are not supported for production environment.
+  - CTI systems dependency on the operating system and web browsers.
+  - Customizing the CTI systems based on the business and process workflows.
 
 ## Advantages and value propositions of Channel Integration Framework
 
