@@ -52,4 +52,5 @@ search.app:
 4. Click **OK**.  
   
 ### See also 
- [Customer Service User Guide)](../customer-service/user-guide-customer-service.md)
+
+[Service Manager Guide (Customer Service Hub and Customer Service app)](../customer-service/service-manager-guide.md)
