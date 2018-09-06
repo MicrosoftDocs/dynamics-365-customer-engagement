@@ -26,7 +26,11 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues.  
+Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues. 
+
+> [!NOTE]
+> With the October'18 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these admin settings, use **Service Management** under **Settings** in the web application. </br>
+Routing Rule sets, Automatic Record Creation, and Service Level Agreements will be available in the Customer Service Hub sitemap in January 2019 release. 
 
 
 ## Create a routing rule set  
@@ -94,5 +98,5 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
 >  If you’re importing bulk records, and you don’t want the routing rules to apply to the cases that you’re importing, add a column **Route Case** to your spreadsheet, and add the value **No** for all the cases that you don’t want to route.  
   
 ### See also 
-[Create and edit queues](create-edit-queue.md)
+[Create and manage queues](set-up-queues-manage-activities-cases.md)
 

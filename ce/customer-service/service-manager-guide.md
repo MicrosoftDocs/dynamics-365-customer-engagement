@@ -31,11 +31,15 @@ Easily set up and manage your customer service tasks from one place by using Ser
 > [!NOTE]
 > If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../customize/edit-entities.md#enable-or-disable-entity-options).
 
-Use the following links to learn about Service Management tasks:  
+Use the following links to learn about service management tasks:  
+
+> [!NOTE]
+> With the October'18 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these admin settings, use **Service Management** under **Settings** in the web application. </br>
+Routing Rule sets, Automatic Record Creation, and Service Level Agreements will be available in the Customer Service Hub sitemap in January 2019 release.
   
 ## Case Settings with Record Creation and Update Rules
 
-[Queues](create-edit-queue.md)
+[Queues](set-up-queues-manage-activities-cases.md)
 
 [Parent and child case settings](define-settings-parent-child-cases.md)
 

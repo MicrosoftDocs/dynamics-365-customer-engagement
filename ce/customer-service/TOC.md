@@ -1,4 +1,5 @@
 # [Dynamics 365 for Customer Service](help-hub.md)
+## [What's new](whats-new-customer-service.md)
 ## [Overview](overview.md)
 ## User Guide
 ### [Customer Service Hub](user-guide-customer-service-hub.md)
@@ -32,9 +33,6 @@
 ### [Holiday schedule](set-up-holiday-schedule.md)
 ### [Service configuration settings](../admin/system-settings-dialog-box-service-tab.md)
 ### [Customer service schedule](create-customer-service-schedule-define-work-hours.md)
-#### [Create service activity in a time slot](create-service-activity-without-checking-conflicts.md)
-#### [Find the next available time before creating a service activity](find-next-available-time-before-create-service-activity.md)
-#### [Navigate service calendar](navigate-service-calendar.md)
 ### [Embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
 ### [Categories](create-manage-categories.md)
 ### [Entitlement templates](set-up-entitlements-templates.md)

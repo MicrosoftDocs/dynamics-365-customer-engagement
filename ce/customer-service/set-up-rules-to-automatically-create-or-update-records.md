@@ -35,6 +35,10 @@ By using record creation and update rules in [!INCLUDE[pn_dynamics_crm](../inclu
 
  To enable the rule to update records, you must add an **Update** step to the rule. Only the entity that you select in the **Update** step is updated based on the properties you set.   
 
+> [!NOTE]
+> With the October'18 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these admin settings, use **Service Management** under **Settings** in the web application. </br>
+Routing Rule sets, Automatic Record Creation, and Service Level Agreements will be available in the Customer Service Hub sitemap in January 2019 release.
+
 ## Activities and entities supported by record creation and update rules  
  By default, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] supports creating records from the following activities, also called source types in the context of record creation and update rules:  
 
@@ -341,4 +345,4 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 ### See also  
  [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   <br>
 
- [Create and edit queues](create-edit-queue.md)
+[Create and manage queues](set-up-queues-manage-activities-cases.md)
