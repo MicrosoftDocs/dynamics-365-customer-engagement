@@ -23,7 +23,7 @@ search.app:
   - D365SE
 ---
 
-# Stream data from Social Engagement to Microsoft Azure Event Hubs
+# Stream data from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to Microsoft Azure Event Hubs
 Start building out your custom metrics or analysis based on the posts found by [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. Using [Microsoft Azure Event Hubs](https://azure.microsoft.com/services/event-hubs/)—a highly scalable publish-subscribe event ingestor that can intake millions of events per second—you can transform and store social data for further processing. Specify an automation rule in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and stream all posts that match a data set as events to a connected event hub. Once you have the data ingested into the event hub, you can access the data from any application that you connected to your event hub.  
   
  In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], go to **Settings > Connections** to connect your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)].  
@@ -39,7 +39,7 @@ Start building out your custom metrics or analysis based on the posts found by [
 - You have an Administrator role in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
   
 <a name="set_up_connection"></a>   
-## Connect Social Engagement to Azure Event Hubs  
+## Connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to Azure Event Hubs  
  [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] allows you to connect to multiple event hubs. Before you can start to stream posts to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)], you need to enable the connection and acknowledge that you agree data can be sent to a third-party application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Privacy Notice](#privacy)  
   
 <a name="connect_procedure"></a>   
