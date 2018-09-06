@@ -98,6 +98,10 @@ This document provides important, late-breaking information about known issues a
 - Even though surveys are available in the app (such as for emails, journeys, and events), this feature currently has limited functionality. Anonymous surveys can be added to emails but can't serve as triggers in customer journeys. Please contact Microsoft Support for more information.
 - Sample data is no longer available for events. We expect to provide it again in a future update.
 
+## Social listening for campaigns
+
+- In the [October '18 Business Applications Release Notes](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/dynamics365-marketing/marketing/), Microsoft announced a new [social listening feature](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/dynamics365-marketing/marketing/social-listening-campaigns) for Marketing, which enables marketers to analyze how people on social media are reacting to their brands and campaigns. The feature is built on the Microsoft Social Engagement product. However, due to some platform dependencies related to integrating the two products, the feature will be slightly delayed until the new Customer Engagement platform update has finished rolling out. The rollout will be gradual and by region and is expected to be complete by the end of 2018. Keep an eye on the [Dynamics 365 Customer Engagement Team Blog]( https://blogs.msdn.microsoft.com/crm/) for updates.
+
 ## General
 
 - If you have different Dynamics 365 sessions open in other browser windows or tabs, and then open the Marketing app in the same browser, it will authenticate using the same user that you have open in the other sessions. We recommend that you restart the browser each time you need to sign in using a different Dynamics 365 user account.
