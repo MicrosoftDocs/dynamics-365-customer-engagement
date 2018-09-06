@@ -17,6 +17,10 @@ caps.latest.revision:
 author: "Mattp123"
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 
 # OData v4 Data Provider configuration, requirements, and best practices

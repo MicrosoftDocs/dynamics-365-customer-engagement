@@ -14,6 +14,10 @@ ms.assetid: 34249eb1-378e-4dd2-9c02-f14bcd470b64
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Access the Discovery service
 

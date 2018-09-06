@@ -15,6 +15,10 @@ caps.latest.revision: 27
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use CrmServiceClient constructors to connect to Dynamics 365
 

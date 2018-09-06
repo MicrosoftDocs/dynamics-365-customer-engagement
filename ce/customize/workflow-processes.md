@@ -15,6 +15,10 @@ ms.assetid: 1f3c9780-26ad-49ec-a3fb-fc226def19c5
 caps.latest.revision: 20
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Use Workflow processes to automate processes that don't require user interaction
 

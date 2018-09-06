@@ -6,7 +6,7 @@ ms.date: 03/08/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: e47db291-7f10-43c2-b29c-c348618e537b
@@ -18,6 +18,10 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 5
 topic-status: Editing
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 
 # Use OneNote in Dynamics 365 (online)

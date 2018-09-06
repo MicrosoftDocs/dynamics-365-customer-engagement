@@ -19,6 +19,13 @@ ms.assetid: 6e650ebd-c683-465f-a5c6-2d0fea971a87
 caps.latest.revision: 25
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Manage activities in Dynamics 365 for phones and tablets
 

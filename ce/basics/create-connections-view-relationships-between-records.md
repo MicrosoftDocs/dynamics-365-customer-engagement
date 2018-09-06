@@ -15,6 +15,10 @@ caps.latest.revision: 29
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Create connections to define and view relationships between records
 

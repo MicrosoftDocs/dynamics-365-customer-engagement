@@ -16,7 +16,11 @@ author: "Mattp123"
 ms.author: "matp"
 manager: "amyla"
 tags: 
- - "MigrationHO"
+  - "MigrationHO"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Dynamics 365 (online) reporting considerations
 

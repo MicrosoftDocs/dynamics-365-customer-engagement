@@ -17,6 +17,10 @@ caps.latest.revision: 24
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Pass parameters to a URL by using the ribbon
 

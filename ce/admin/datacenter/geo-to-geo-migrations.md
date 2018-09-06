@@ -1,7 +1,7 @@
 ---
 title: "Geo to geo migrations for Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 11/28/2017
+ms.date: 07/12/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,7 +14,12 @@ ms.assetid: c5b836a1-8f9d-42bd-8c11-cb81c68b97d3
 caps.latest.revision: 17
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Geo to geo migrations
 
@@ -52,8 +57,6 @@ We continue to open new datacenter regions for [!INCLUDE[pn_crm_online_shortest]
 
 -   United Kingdom (UK) = *.crm11.dynamics.com  
 
-For Germany (DEU), use the following: [https://\<organization>.crm.microsoftdynamics.de](https://<organization>.crm.microsoftdynamics.de).  
-
  [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Direct sign in to Dynamics 365 (online)](../../admin/sign-in-office-365-apps.md#BKMK_directsignin) and [Discover the URL for your organization using the Organization Service](../../developer/org-service/discover-url-organization-organization-service.md)
 
  For example, if your existing organization URL is https://myorg.crm<strong>5</strong>.dynamics.com and you request it to be moved to Australia, the new organization URL will be https://myorg.crm<strong>6</strong>.dynamics.com.  
@@ -85,7 +88,7 @@ For Germany (DEU), use the following: [https://\<organization>.crm.microsoftdyna
 
 |                         |                                                         Before the move                                                          |                                                                                                                                                                                                                                                  During the move                                                                                                                                                                                                                                                  |                                                                                                                                                   After the move                                                                                                                                                   |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **What Microsoft does** | **Notification**<br /><br /> Your support representative or Account Manager will work with you to request a move and scheduling. | **Cut-over**<br /><br /> Cut-over for each service lasts from an hour to 6 hours, depending on the number of users and the amount of data. The cut-over is done during the evening or over a weekend.<br /><br /> There is a step that will require your involvement, which is to re-enter the encryption key in [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]. This can happen at a time that suits you but the migration process will be on hold until you complete this action. | **Notification and support**<br /><br /> You will be alerted by email or telephone when your instance is migrated to the new datacenter.<br /><br /> After your geo has migrated you can perform the post requisite steps - primarily changing your new URLs with any associated Dynamics 365 plugins or services. |
+| **What Microsoft does** | **Notification**<br /><br /> Your support representative or Account Manager will work with you to request a move and scheduling. | **Cut-over**<br /><br /> Cut-over times for each service depend on the number of users and the amount of data. This step can take 1 to 6 hours for smaller organizations, but may take up to 48 hours for large organizations. The cut-over is done during the evening or over a weekend.<br /><br /> There is a step that will require your involvement, which is to re-enter the encryption key in [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]. This can happen at a time that suits you but the migration process will be on hold until you complete this action. | **Notification and support**<br /><br /> You will be alerted by email or telephone when your instance is migrated to the new datacenter.<br /><br /> After your geo has migrated you can perform the post requisite steps - primarily changing your new URLs with any associated Dynamics 365 plugins or services. |
 
  We will adhere to the terms of the [Microsoft Online Services Service Level Agreement](http://go.microsoft.com/fwlink/p/?LinkID=523897) for all moves.  
 

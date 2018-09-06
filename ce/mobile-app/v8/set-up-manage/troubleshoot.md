@@ -14,6 +14,13 @@ ms.assetid: 613288f5-1c9a-420e-ba06-8d1b1f6675b0
 caps.latest.revision: 141
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Troubleshooting and things to know 
 
@@ -268,7 +275,7 @@ If you receive this error:
 > [!NOTE]
 >  When the logon prompt appears, it is an [!INCLUDE[pn_Active_Directory](../../../includes/pn-active-directory.md)] logon prompt instead of the sign-in page of your Secure Token Service (STS) such as [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../../../includes/pn-active-dir-fed-svcs-ad-fs.md)]. The prompt looks like the one shown here.  
   
- ![Active Directory Sign in]../../../admin/media/mobile-app-adfs-login.png "Active Directory Sign in")  
+ ![Active Directory Sign in](../../../admin/media/mobile-app-adfs-login.png "Active Directory Sign in")  
   
  After you tap **Cancel** or enter credentials 3 times, you see the correct sign-in prompt.  
   

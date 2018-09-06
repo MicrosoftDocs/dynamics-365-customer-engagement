@@ -16,6 +16,10 @@ ms.assetid: b9437469-70b5-4a3c-ae49-115522fb5cee
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Dump global option set information to a file
 

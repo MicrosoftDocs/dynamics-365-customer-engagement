@@ -1,6 +1,5 @@
 ---
 title: "Discovery service messages (request and response classes) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "The IDiscoveryService provides a DiscoveryRequest method that takes message request class as a parameter and returns a message response class. DiscoveryRequest method performs supported operations"
 description: ""
 ms.custom: ""
 ms.date: 10/31/2017
@@ -21,6 +20,10 @@ caps.latest.revision: 8
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Discovery service messages (request and response classes)
 

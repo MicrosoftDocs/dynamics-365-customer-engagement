@@ -1,7 +1,7 @@
 ---
 title: "Define entity forms and custom logic within a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create entity forms in a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 07/05/2018
 ms.service: dynamics-365-customerservice
@@ -12,7 +12,14 @@ ms.assetid: 4da44fa7-ace1-4c7c-a989-867d7b91cff0
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Define entity forms and custom logic within the Dynamics 365 portal
 

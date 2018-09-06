@@ -9,6 +9,10 @@ ms.assetid: c292c148-01f0-41f6-a2fe-7ed05a01a733
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Authenticate to use the Online Management API
 

@@ -15,6 +15,10 @@ caps.latest.revision: 17
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Update and delete entities using the Web API
 

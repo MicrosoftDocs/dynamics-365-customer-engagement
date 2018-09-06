@@ -1,7 +1,7 @@
 ---
 title: "Important information for CRM Online customers | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 07/12/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,7 +14,12 @@ ms.assetid: 1ae7847e-5b11-4043-a052-2f6c6d1a047e
 caps.latest.revision: 5
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Important information for CRM Online customers
 
@@ -28,7 +33,7 @@ Microsoft is introducing [Dynamics 365](https://www.microsoft.com/dynamics365/ho
 
  **Additional resources**  
 
--   [Dynamics 365 Enterprise Edition Licensing Guide](http://download.microsoft.com/documents/en-us/dynamics/pricing/Dynamics_365_Enterprise_edition_Licensing_Guide.pdf)  
+-   [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544)  
 
 -   [Dynamics 365 pricing](https://go.microsoft.com/fwlink/p/?linkid=733924)  
 

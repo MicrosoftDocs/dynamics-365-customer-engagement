@@ -1,7 +1,7 @@
 ---
 title: "Enable SharePoint document management for specific entities for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 07/23/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,6 +15,11 @@ caps.latest.revision: 51
 author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Enable SharePoint document management for specific entities
 
@@ -53,6 +58,9 @@ Store the documents related to [!INCLUDE[pn_microsoftcrm](../includes/pn-microso
      >  If you have [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)], make sure the site is under the same [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant as your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instances.  
      > 
      >  The **Folders will be automatically created on the SharePoint site** option was first introduced in [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)] and [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)].  
+     >
+     > With the exception of the opportunity and contract entities, a hierarchical folder structure will not be automatically created in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] for entities that have more than one many-to-one (N:1) relationship with the parent entity. 
+
   
    - Click **Finish**.  
   

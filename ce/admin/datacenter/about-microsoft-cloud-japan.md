@@ -14,6 +14,11 @@ ms.assetid: 140fde74-6ccb-4553-8076-4a9bbaa40637
 caps.latest.revision: 26
 author: "jimholtz"
 ms.author: "jimholtz"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # About the Microsoft Cloud Japan datacenter
 

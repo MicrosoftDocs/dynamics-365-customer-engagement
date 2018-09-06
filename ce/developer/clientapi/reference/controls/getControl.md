@@ -8,6 +8,10 @@ ms.assetid: 34715e1f-35c0-4b7f-971e-e0a6518f0722
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getControl (Client API reference)
 

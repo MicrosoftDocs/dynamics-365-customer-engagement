@@ -15,6 +15,11 @@ caps.latest.revision: 6
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Sign in to Customer Engagement and Office 365 apps
 

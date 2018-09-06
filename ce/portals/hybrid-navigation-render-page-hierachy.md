@@ -1,7 +1,7 @@
 ---
 title: "Use hybrid navigation to render page hierarchy for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to use hybrid navigation to render page hierarchy for a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 12/05/2017
 ms.service: dynamics-365-customerservice
@@ -12,7 +12,14 @@ ms.assetid: 39bad7b1-c4a0-458f-9a48-7d721d9a7cf1
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Render up to three levels of page hierarchy by using hybrid navigation
 [comment]: <> (Need to regroup with other similar topics. This topic can be the landing topic.)

@@ -10,11 +10,18 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
-# Get the Microsoft Social Engagement content pack for Power BI
+# Get the [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] content pack for Power BI
 Engaging on social media by responding to posts is a core capability of [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. With this [!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-bi.md)] content pack, you can now get insights on how your organization, and your teams are engaging with KPIs such as volume of interactions and average response times.  
   
  This content pack is for organizations using [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and can only be accessed via [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)]. You can use this content pack with both [the free and the pro versions of Power BI](https://powerbi.microsoft.com/).  
@@ -62,7 +69,7 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
   
    ![Sidebar in Power BI with highlighted controls](media/content-pack-sidebar-powerbi.png "Sidebar in Power BI with highlighted controls")  
   
-7. Select the **Social Engagement Performance** dashboard. It may take a while initially to show the data.  
+7. Select the **[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Performance** dashboard. It may take a while initially to show the data.  
   
    ![Processing the data import in Power BI](media/content-pack-importing-data.png "Processing the data import in Power BI")  
   

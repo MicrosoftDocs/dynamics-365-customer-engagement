@@ -1,7 +1,7 @@
 ---
 title: "Create, edit, and distribute opportunities in Dynamics 365 | MicrosoftDocs"
 description: "Learn about how you can use opportunities to notify your partners of sales prospects that they can follow up on."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 12/05/2017
 ms.service: dynamics-365-customerservice
@@ -12,7 +12,14 @@ ms.assetid: f06f0710-e03f-4b40-bbd3-d3e765e6d0a9
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Create, edit, and distribute opportunities in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
 [comment]: <> (need more step wise 'how-to' information)

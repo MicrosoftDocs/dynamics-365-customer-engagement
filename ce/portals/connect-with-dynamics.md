@@ -5,17 +5,24 @@ keywords: "portal authentication key, connect with Dynamics 365"
 ms.date: 02/22/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 962C5655-3F9D-4D1D-8D13-DB9B1058CABF
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ms.reviewer: 
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-portal
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Connect to a Dynamics 365 online organization using a portal

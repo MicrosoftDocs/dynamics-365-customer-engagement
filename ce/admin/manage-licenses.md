@@ -1,7 +1,7 @@
 ---
 title: "Manage Dynamics 365 (online) licenses | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 08/07/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,7 +14,12 @@ ms.assetid: 2799e309-aca8-405c-ba1f-42a5ce79677f
 caps.latest.revision: 4
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Manage licenses
 
@@ -28,8 +33,7 @@ When you purchase a subscription to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-
 >  Get started with the following resources:  
 >   
 > -   [Important information for CRM Online customers](../admin/important-information-customers.md)  
-> -   Download: [Dynamics 365 Enterprise Edition Licensing Guide](http://download.microsoft.com/documents/en-us/dynamics/pricing/Dynamics_365_Enterprise_edition_Licensing_Guide.pdf)  
-> -   Download: [The Dynamics CRM Online pricing and licensing guide](http://aka.ms/gtn5wt)  
+> -   Download: [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544)  
   
 ## Running out of Dynamics 365 (online) licenses?  
  If you are running out of licenses, you have several options:  

@@ -4,10 +4,10 @@ description: "Qualify the lead after you've identified the timeframe, budget, an
 keywords: "lead, budget, purchase process, decision maker, opportunity"
 ms.date: 04/01/2018
 ms.service: dynamics-365-sales
-ms.custom:
+ms.custom: 
   - dyn365-sales
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 476a1284-61e5-4eb2-9bd4-b95d111cf82e
@@ -19,6 +19,13 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 29
 topic-status: Tech Reviewing
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # Qualify a lead and convert it to an opportunity (Sales and Sales Hub)

@@ -19,6 +19,13 @@ caps.latest.revision: 21
 author: "mduelae"
 ms.author: "mkaur"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 # Create or modify synchronization filters or view synchronizing fields
 Looking for help on the **Synchronization Settings for Outlook or Exchange**  dialog box or the **Go Offline Settings** dialog box?  

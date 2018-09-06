@@ -2,18 +2,25 @@
 title: "Use Dynamics 365 tags for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn about Dynamics 365 tags available in portal"
 keywords: "Dynamics 365 tags; liquid tags"
-ms.date: 05/04/2018
+ms.date: 07/27/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 2D37443F-6DF7-440C-8E7E-5197546B1C92
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
 ms.reviewer: 
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Dynamics 365 entity tags
@@ -576,20 +583,6 @@ The size of the result page to be returned. If not provided, a default size of 1
 
 ```
 {% searchindex query: request.params.query, page_size: 20 %}
-
-...
-
-{% endsearchindex %}
-```
-
-**provider**
-
-Specifies the name of the configured search provider to use. If not specified, the default search provider will be used.
-
-Having multiple search providers is an advanced configuration that will not apply to most environments. Generally, it will not be necessary to specify this parameter.
-
-```
-{% searchindex query: request.params.query, provider: 'AlternateIndex' %}
 
 ...
 

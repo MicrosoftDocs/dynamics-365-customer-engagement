@@ -2,10 +2,13 @@
 title: "Documentation resources for Dynamics 365 for Sales | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 for Sales."
 keywords: "sales;help"
-ms.date: 04/01/2018
-ms.service: dynamics-365-sales
+ms.date: 07/18/2018
+ms.service: 
+  - "dynamics-365-sales"
+ms.custom: 
+  - "dyn365-sales"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: cb9ac6db-6e97-4d65-9622-cf7061db988d
@@ -13,8 +16,13 @@ author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
 topic-status: Drafting
-ms.custom:
-  - dyn365-sales
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # Sales Help & Training
@@ -38,13 +46,10 @@ ms.custom:
 <h2>Administer the system</h2>
 
 <li><a href="set-up-product-catalog-walkthrough.md" data-raw-source="[Set up the product catalog](set-up-product-catalog-walkthrough.md)">Set up the product catalog</a></li>
-<li><a href="set-up-discount-list.md" data-raw-source="[Set up a discount list](set-up-discount-list.md)">Set up a discount list</a></li>
-<li><a href="create-unit-group-add-units-that-group.md" data-raw-source="[Create unit and unit groups](create-unit-group-add-units-that-group.md)">Create unit and unit groups</a></li>
-<li><a href="create-product-family.md" data-raw-source="[Create a product family](create-product-family.md)">Create a product family</a></li>
-<li><a href="create-price-lists-price-list-items-define-pricing-products.md" data-raw-source="[Create price list and price list items](create-price-lists-price-list-items-define-pricing-products.md)">Create price list and price list items</a></li>
-
+<li><a href="../admin/system-settings-dialog-box-sales-tab.md" data-raw-source="[Define Sales settings](../admin/system-settings-dialog-box-sales-tab.md)">Define Sales settings</a></li>
+<li><a href="../admin/system-settings-dialog-box-goals-tab.md" data-raw-source="[Define Goals settings](../admin/system-settings-dialog-box-goals-tab.md)">Define Goals settings</a></li>
+<li><a href="create-edit-goal-sales.md" data-raw-source="[Create goals to track progress](create-edit-goal-sales.md)">Create goals to track progress</a></li>
 <li><a href="../sales-enterprise/configure-enable-embedded-intelligence.md" data-raw-source="[Administer Embedded intelligence](../sales-enterprise/configure-enable-embedded-intelligence.md)">Administer Embedded intelligence</a></li>
-
 <li><a href="../sales-enterprise/configure-enable-sales-insights-addon.md" data-raw-source="[Administer Sales insights add-on](../sales-enterprise/configure-enable-sales-insights-addon.md)">Administer Sales insights add-on</a></li>
 </td></tr>
 
@@ -61,25 +66,23 @@ ms.custom:
 
 </td><td>
 
-<h2>In-app marketing</h2>
-<li><a href="create-marketing-list-using-app-marketing-sales.md" data-raw-source="[Create a marketing list](create-marketing-list-using-app-marketing-sales.md)">Create a marketing list</a></li>
-<li><a href="create-quick-campaign-using-app-marketing-sales.md" data-raw-source="[Create a quick campaign](create-quick-campaign-using-app-marketing-sales.md)">Create a quick campaign</a></li>
-<li><a href="add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md" data-raw-source="[Add assets to a campaign](add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)">Add assets to a campaign</a></li>
-<li><a href="create-edit-campaign-using-app-marketing-sales.md" data-raw-source="[Create or edit a campaign](create-edit-campaign-using-app-marketing-sales.md)">Create or edit a campaign</a></li>
-<li><a href="add-activity-campaign-using-app-marketing-sales.md" data-raw-source="[Add an activity to a campaign](add-activity-campaign-using-app-marketing-sales.md)">Add an activity to a campaign</a></li>
-<li><a href="track-marketing-campaign-response-using-app-marketing-sales.md" data-raw-source="[Track a marketing campaign response](track-marketing-campaign-response-using-app-marketing-sales.md)">Track a marketing campaign response</a></li>
+<h2>Analyze customer-interaction data</h2>
+
+<li><a href="../sales-enterprise/relationship-assistant.md" data-raw-source="[Use relationship assistant to guide customer communications](../sales-enterprise/relationship-assistant.md)">Use relationship assistant to guide customer communications</a></li>
+<li><a href="../sales-enterprise/email-engagement.md" data-raw-source="[View message interactions with email engagement](../sales-enterprise/email-engagement.md)">View message interactions with email engagement</a></li>
+<li><a href="../sales-enterprise/auto-capture.md" data-raw-source="[Display related emails with auto capture](../sales-enterprise/auto-capture.md)">Display related emails with auto capture</a></li>
+
+<li><a href="../sales-enterprise/relationship-analytics.md" data-raw-source="[View customer activity history with relationship analytics](../sales-enterprise/relationship-analytics.md)">View customer activity history</a></li>
+
 
 </td></tr>
 
 <tr><td>
+<h2>Troubleshooting</h2>
 
-<h2>Analyze customer-interaction data</h2>
+<li><a href="troubleshooting-admin.md"> Troubleshooting guide for administrators</a></li>
+<li><a href="troubleshooting.md"> Troubleshooting guide for sales people</a></li>
 
-<li><a href="../sales-enterprise/relationship-assistant.md" data-raw-source="[Guide customer communications](../sales-enterprise/relationship-assistant.md)">Guide customer communications</a></li>
-<li><a href="../sales-enterprise/email-engagement.md" data-raw-source="[View message interactions](../sales-enterprise/email-engagement.md)">View message interactions</a></li>
-<li><a href="../sales-enterprise/auto-capture.md" data-raw-source="[Display emails](../sales-enterprise/auto-capture.md)">Display emails</a></li>
-
-<li><a href="../sales-enterprise/relationship-analytics.md" data-raw-source="[View customer activity history](../sales-enterprise/relationship-analytics.md)">View customer activity history</a></li>
 </td>
 
 <td>
@@ -93,5 +96,19 @@ ms.custom:
 <li><a href="../sales-enterprise/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md" data-raw-source="[Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](../sales-enterprise/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)">Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action</a></li>
 </td></tr>
 
+<tr><td>
+<h2>In-app marketing</h2>
+<li><a href="create-marketing-list-using-app-marketing-sales.md" data-raw-source="[Create a marketing list](create-marketing-list-using-app-marketing-sales.md)">Create a marketing list</a></li>
+<li><a href="create-quick-campaign-using-app-marketing-sales.md" data-raw-source="[Create a quick campaign](create-quick-campaign-using-app-marketing-sales.md)">Create a quick campaign</a></li>
+<li><a href="add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md" data-raw-source="[Add assets to a campaign](add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)">Add assets to a campaign</a></li>
+<li><a href="create-edit-campaign-using-app-marketing-sales.md" data-raw-source="[Create or edit a campaign](create-edit-campaign-using-app-marketing-sales.md)">Create or edit a campaign</a></li>
+<li><a href="add-activity-campaign-using-app-marketing-sales.md" data-raw-source="[Add an activity to a campaign](add-activity-campaign-using-app-marketing-sales.md)">Add an activity to a campaign</a></li>
+<li><a href="track-marketing-campaign-response-using-app-marketing-sales.md" data-raw-source="[Track a marketing campaign response](track-marketing-campaign-response-using-app-marketing-sales.md)">Track a marketing campaign response</a></li>
+</td>
+<td>
+
+
+</td>
+</tr>
 
 </table>

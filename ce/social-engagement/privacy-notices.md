@@ -5,24 +5,31 @@ keywords: "privacy notice, privacy statement addition"
 ms.date: 01/30/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 1d821d1e-2c8c-4aa2-a93c-5c0b3572fde9
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
-# Microsoft Social Engagement Privacy Notices
+# [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] Privacy Notices
 
 Your privacy is important to us. For Microsoft Online Services, read the [Microsoft Online Services privacy Statement](http://go.microsoft.com/fwlink/p/?LinkID=389041).  
 
-For specific privacy information about Microsoft Social Engagement, refer to the paragraphs below.
+For specific privacy information about [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], refer to the paragraphs below.
 
-## Microsoft Social Engagement Privacy Notices
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Privacy Notices
 
 - [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  
 

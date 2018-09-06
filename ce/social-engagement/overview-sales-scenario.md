@@ -9,9 +9,16 @@ ms.assetid: 2ad0f5dc-24c6-4cad-a8e2-f88361765607
 author: m-hartmann
 ms.author: mhart
 ms.manager: sakudes
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
 manager: sakudes
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 # Social selling - grow your network and boost sales
 
@@ -51,7 +58,7 @@ Save time and minimize repetitive activities. Create new records in [!INCLUDE[pn
 
 3. [Set up record details](create-dynamics-365-record-from-social-post.md) for leads.
 
-4. [Create a lead from a post](create-dynamics-365-record-from-social-post.md#convert-a-social-engagement-post-to-a-social-activity) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
+4. [Create a lead from a post](create-dynamics-365-record-from-social-post.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 ## Sales automation: leverage intelligence to automatically find leads
 

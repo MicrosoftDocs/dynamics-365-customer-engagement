@@ -23,6 +23,10 @@ caps.latest.revision: 29
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Page large result sets with QueryExpression
 

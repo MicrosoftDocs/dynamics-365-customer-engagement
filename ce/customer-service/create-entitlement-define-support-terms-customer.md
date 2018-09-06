@@ -1,29 +1,32 @@
 ---
-title: Create an entitlement to define the support terms for a customer (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: See how to create an entitlement to define the support terms for a customer in Dynamics 365 for Customer Service
-keywords: Create an entitlement; Dynamics 365; Customer Service
+title: Create entitlements to define the support terms for a customer (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: See how to create entitlements to define the support terms for a customer in Dynamics 365 for Customer Service
+keywords: Create an entitlement; Dynamics 365; Customer Service Hub; Activate or deactivate an entitlement; Set as default entitlement; Associate entitlements to cases;  Cancel an entitlement; Renew an entitlement
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: shellyha
-ms.date: 09/15/2017
+manager: shujoshi
+ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 9384cb0a-64ec-424d-bf73-7010997c4d4e
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
-# Create an entitlement to define the support terms for a customer (Customer Service)
+# Create entitlements to define the support terms for a customer
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Define what kind of support your customers are eligible for by creating entitlements in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. With entitlements, you specify the support term based on number of hours or number of cases. The customer’s support level can vary based on the product or service that the customer has purchased. Customers who’ve purchased different products can be entitled to different support levels. This information helps the customer support agents verify what the customers are eligible for and create cases for them accordingly.  
-  
-> [!NOTE]
-> This feature was introduced in [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)]. 
   
 ## Create an entitlement  
   
@@ -61,7 +64,7 @@ Define what kind of support your customers are eligible for by creating entitlem
   
    - **SLA**. Choose a service level agreement (SLA) record to associate the service levels or key performance indicators for the support you’re providing with this entitlement.  
   
-     Under **Entitlement Terms**, specify the term details for the entitlement:  
+   Under **Entitlement Terms** section, specify the term details for the entitlement:  
   
    - **Allocation Type**. Choose whether the entitlement is for number of hours or number of cases.  
   
@@ -90,14 +93,14 @@ Define what kind of support your customers are eligible for by creating entitlem
 ### Add an entitlement channel term  
  The **Entitlement Channel** section specifies the support channel through which the customer can reach the organization and seek support.  
   
- Use this section to define the channels your customers are entitled to, and track the customer support term for each channel. For example, you can add phone and email as the channels through which you’ll offer support. If you want to restrict support through the phone channel to 80 hours and email to 20 hours, create individual entitlement channel records and add their total terms.  
+ Use this section to define the channels your customers are entitled to and track the customer support term for each channel. For example, you can add phone and email as the channels through which you’ll offer support. If you want to restrict support through the phone channel to 80 hours and email to 20 hours, create individual entitlement channel records and add their total terms.  
   
 > [!NOTE]
 >  You must save the entitlement record before you can add entitlement channels to an entitlement.  
   
 1.  In the **Entitlement Channel** section, click **+**.  
   
-2.  Specify the total terms that you want to allot to the particular channel.  
+2.  Specify the total terms that you want to allot to the channel.  
   
      The remaining term is auto-calculated and shows the total number of hours or cases remaining for the customer’s entitlement.  
   
@@ -140,7 +143,7 @@ Define what kind of support your customers are eligible for by creating entitlem
    When an entitlement is active, you can’t edit it. To deactivate an entitlement so you can edit it, on the command bar, click **Deactivate**.  
   
 ## Set as default entitlement  
- <!--If you’re on [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online-2015-update-1.md)] or later, y-->You can activate the entitlement and then set it as the default entitlement for a customer. The entitlement terms from the associated entitlement are automatically decremented. However, if you don’t want the entitlement terms to be decremented for a case, click <strong>Do not decrement entitlement terms</strong> on the command bar.  
+ You can activate the entitlement and then set it as the default entitlement for a customer. The entitlement terms from the associated entitlement are automatically decremented. However, if you don’t want the entitlement terms to be decremented for a case, click <strong>Do not decrement entitlement terms</strong> on the command bar.  
   
 1. On the command bar, click **Set As Default**.  
   
@@ -151,9 +154,8 @@ Define what kind of support your customers are eligible for by creating entitlem
 ## Associate entitlements to cases  
  In a case record, in the **Entitlement** field, click the **Lookup** button, and select an entitlement. The inline lookup shows only the active entitlement for the customer of the case.  
   
- The Entitlements section in the case record lists all the active entitlements for the customer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]:
-  - [Create and manage a case (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md)  
-  - [Create and manage a case (Customer Service)](../customer-service/user-guide-customer-service.md)  
+ The Entitlements section in the case record lists all the active entitlements for the customer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [Create a case (Customer Service Hub)](customer-service-hub-user-guide-case-sla.md)
+
   
 ## Cancel an entitlement  
  If the entitlement is no longer valid, you can cancel it. To cancel an active or waiting entitlement, open the entitlement, and on the command bar, click **Cancel**.  
@@ -166,7 +168,9 @@ Define what kind of support your customers are eligible for by creating entitlem
  The start date of this new entitlement is set to the current date and the end date is set to the current date plus the number of days between the end date and start date. The data in other fields is copied from the old entitlement.  
   
 ### See also  
+
+ [Set up entitlements quickly with templates](set-up-entitlements-templates.md) <br>
+
  [Define service level agreements](../customer-service/define-service-level-agreements.md)   <br>
- [Set up entitlements quickly with templates](set-up-entitlements-quickly-templates.md) <br>
- [Create and manage a case (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md) <br>
- [Create and manage a case (Customer Service)](../customer-service/user-guide-customer-service.md)
+
+

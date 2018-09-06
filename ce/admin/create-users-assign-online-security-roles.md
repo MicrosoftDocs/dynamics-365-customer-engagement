@@ -1,7 +1,7 @@
 ---
 title: "Create users in Dynamics 365 (online) and assign security roles | MicrosoftDocs"
 ms.custom: ""
-ms.date: 06/11/2018
+ms.date: 07/25/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,6 +15,11 @@ caps.latest.revision: 4
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Create users in Dynamics 365 (online) and assign security roles
 
@@ -52,7 +57,7 @@ The following table shows the fields that are managed in the **Users** section o
 |User Name     |Username         |
 |Full Name     |First name + Last name         |
 |Title     |Job title         |
-|Primary Email     |Email         |
+|Primary Email*     |Email         |
 |Main Phone     |Office phone         |
 |Mobile Phone     |Mobile phone         |
 |Fax     |Fax number         |
@@ -60,6 +65,8 @@ The following table shows the fields that are managed in the **Users** section o
 |Address     |City         |
 |Address     |State or province         |
 |Address     |Country or region         |
+
+*To prevent data loss, the Primary Email field does not automatically update and synchronize with Dynamics 365 (online).
 
 The following are Office 365 user contact fields.
 

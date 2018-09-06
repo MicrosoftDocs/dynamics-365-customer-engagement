@@ -5,21 +5,28 @@ keywords: ""
 ms.date: 12/08/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 2c056a5c-d890-4106-837a-d4b403e011a1
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Adaptive learning based on changes to organization’s sentiment values
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] now uses *adaptive learning* to gain information about your edits and confirmations on sentiment values. With adaptive learning, every edit on the sentiment value of posts contributes to the way that sentiments are determined for your organization.  
   
-To manage adaptive learning in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you need to be a Social Engagement Administrator. Every user role in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is able to edit the sentiment value of a post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
+To manage adaptive learning in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you need to be a [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] Administrator. Every user role in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is able to edit the sentiment value of a post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md)  
   
 > [!IMPORTANT]
 >  Edited and confirmed sentiment values only apply to your organization database. Edits and confirmations performed on other organizations’ databases have no impact on how the sentiment is determined for your organization.  

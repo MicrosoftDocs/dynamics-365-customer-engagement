@@ -2,28 +2,35 @@
 title: "Pointers for Social Engagement | Microsoft Docs"
 description: "Find your starting point for help content."
 keywords: "help hub, help center, link list"
-ms.date: 07/11/2018
+ms.date: 08/07/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: caadfdba-1c29-4032-8fb5-34257913bc09
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
-# Social Engagement Help & Training
+# [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Help & Training
 
 <table>
 <tr>
 <td>
 
 <h2> Get started </h2>
-<li><a href="overview.md" data-raw-source="[Social Engagement overview](overview.md)">Social Engagement overview</a></li>
+<li><a href="overview.md" data-raw-source="[Social Engagement overview](overview.md)">Microsoft Social Engagement overview</a></li>
 <li><a href="get-started.md" data-raw-source="[Get started](get-started.md)">Get started</a></li>
 <li><a href="social-selling-assistant-overview.md" data-raw-source="[Meet the Social Selling Assistant](social-selling-assistant-overview.md)">Meet the Social Selling Assistant</a></li>
 <li><a href="faq.md" data-raw-source="[Frequently asked questions](faq.md)">Frequently asked questions</a></li>
@@ -32,7 +39,7 @@ ms.custom:
 
 <h2> Administer </h2>
 
-<li><a href="administer-microsoft-social-engagement.md" data-raw-source="[Administer Social Engagement](administer-microsoft-social-engagement.md)">Administer Social Engagement</a></li>
+<li><a href="administer-microsoft-social-engagement.md" data-raw-source="[Administer Social Engagement](administer-microsoft-social-engagement.md)">Administer Microsoft Social Engagement</a></li>
 <li><a href="manage-global-settings.md" data-raw-source="[Configure settings](manage-global-settings.md)">Configure settings</a></li>
 <li><a href="set-up-searches.md" data-raw-source="[Set up searches](set-up-searches.md)">Set up searches</a></li>
 <li><a href="manage-connections.md" data-raw-source="[Manage connections](manage-connections.md)">Manage connections</a></li>
@@ -64,11 +71,11 @@ ms.custom:
 
 <h2> Additional resources </h2>
 
-<li>[Video training course on MVA (English only)](https://go.microsoft.com/fwlink/p/?linkid=861639)</li>
-<li>[YouTube playlist](http://go.microsoft.com/fwlink/p/?LinkId=400720)</li>
-<li>[Community forum](http://go.microsoft.com/fwlink/p/?LinkId=400719)</li>
-<li>[Contact support](http://go.microsoft.com/fwlink/p/?LinkId=394391)</li>
-<li>[Request a trial](https://experience.dynamics.com/trials/)</li>
+<li><a href="https://go.microsoft.com/fwlink/p/?linkid=861639">Video training course on MVA (English only)</a></li>
+<li><a href="http://go.microsoft.com/fwlink/p/?LinkId=400720">YouTube playlist</a></li>
+<li><a href="http://go.microsoft.com/fwlink/p/?LinkId=400719">Community forum</a></li>
+<li><a href="http://go.microsoft.com/fwlink/p/?LinkId=394391">Contact support</a></li>
+<li><a href="https://experience.dynamics.com/trials/">Request a trial</a></li>
 
 </td>
 <td>
@@ -77,7 +84,7 @@ ms.custom:
 
 <li><a href="what-s-new-in-microsoft-social-engagement.md" data-raw-source="[What&#39;s new in Microsoft Social Engagement](what-s-new-in-microsoft-social-engagement.md)">What&#39;s new in Microsoft Social Engagement</a></li>
 <li><a href="http://go.Microsoft.com/fwlink/p/?LinkId=393612" data-raw-source="[Microsoft Social Engagement Readme](http://go.Microsoft.com/fwlink/p/?LinkId=393612)">Microsoft Social Engagement Readme</a></li>
-<li><a href="http://go.Microsoft.com/fwlink/p/?LinkID=391086" data-raw-source="[Social Engagement Translation Guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086)">Social Engagement Translation Guide</a></li>
+<li><a href="http://go.Microsoft.com/fwlink/p/?LinkID=391086" data-raw-source="[Social Engagement Translation Guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086)">Microsoft Social Engagement Translation Guide</a></li>
 </td>
 </tr>
 </table>

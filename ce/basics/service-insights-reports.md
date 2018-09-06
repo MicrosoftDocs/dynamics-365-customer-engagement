@@ -15,6 +15,10 @@ caps.latest.revision: 16
 author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Reports for customer service insights
 

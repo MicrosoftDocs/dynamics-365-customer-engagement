@@ -1,7 +1,7 @@
 ---
 title: "Configure a load form and load tab step type for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to define a load form and load tab step type in a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 09/28/2017
 ms.service: dynamics-365-customerservice
@@ -12,7 +12,14 @@ ms.assetid: ab7a526c-0998-4d6d-bf8e-310ad246247d
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Define a load form and load tab step type
 This step type allows the web form step to act as an entity form within the overall web form process. It loads a form from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] with a similar set of options available as an Entity Form.

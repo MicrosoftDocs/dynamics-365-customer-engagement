@@ -1,7 +1,7 @@
 ---
 title: "Manage blogs on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to manage blogs on a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 06/08/2018
 ms.service: dynamics-365-customerservice
@@ -12,7 +12,14 @@ ms.assetid: 98e8b895-12ab-42c7-89de-9a33c70d56e8
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Manage blogs
 

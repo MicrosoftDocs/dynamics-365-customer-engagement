@@ -2,21 +2,25 @@
 title: "Use Relevance Search for faster comprehensive search results | MicrosoftDocs"
 description: "Search for records across entities by using Relevance Search."
 keywords: "Search, relevance, Azure, Indexing"
-ms.date: 09/15/2017
+ms.date: 07/27/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 1de4065e-f361-4d11-a8bb-bb7c0d0c686b
 author: shubhadaj
-ms.author: shujoshi
-manager: brycho
+ms.author: "t-mijosh"
+manager: "ryjones"
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 67
+caps.latest.revision: 68
 topic-status: Drafting
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 
 # Use Relevance Search for faster, comprehensive search results
@@ -43,7 +47,8 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can search f
   
 > [!NOTE]
 > - Relevance Search isn't available for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] organizations.  
-> - Relevance Search is disabled by default. Your administrator needs to enable it for the organization. After Relevance Search is enabled, you might have to wait up to an hour or more, depending on the size of your organization, before you start seeing Relevance Search results in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application. Smaller changes in indexed data can take up to 15 minutes to show up in your system.  
+> - Relevance Search is disabled by default. Your administrator needs to enable it for the organization. After Relevance Search is enabled, you might have to wait up to an hour or more, depending on the size of your organization, before you start seeing Relevance Search results in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application. Smaller changes in indexed data can take up to 15 minutes to show up in your system.
+> - Enabling Relevance Search allows all users in the organization to use it.  
 > - Relevance search is text-based, and can search only on fields of type Single Line of Text, Multiple Lines of Text, Option Sets, or Lookups. It doesn't support searching in fields of Numeric or Date data type. 
   
  Although Relevance Search finds matches to any word in the search term in any field in an entity, in Quick Find&mdash;even with full-text search enabled&mdash;all words from the search term must be found in one field.  
@@ -179,5 +184,7 @@ To select the default search experience, do the following:
 [!INCLUDE[cc_privacy_crm_relevance_search](../includes/cc-privacy-crm-relevance-search.md)]
   
 ### See also  
- [Configure Relevance Search for the organization](../admin/configure-relevance-search-organization.md)   
+ [Configure Relevance Search to improve search results and performance (Administrator Guide)](../admin/configure-relevance-search-organization.md)   
+ [Search and Find in Dynamics 365](../basics/search-and-find-header.md)
  [Search for records](../basics/search-records.md)
+ [Create, edit, or save an Advanced Find search](../basics/save-advanced-find-search.md)

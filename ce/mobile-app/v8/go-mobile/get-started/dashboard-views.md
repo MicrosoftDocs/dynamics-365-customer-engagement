@@ -14,6 +14,13 @@ author: "jimholtz"
 ms.assetid: 70afbe24-617d-428f-8067-da3a6f3fbd5c
 caps.latest.revision: 7
 ms.author: "mkaur"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 # Dashboard views in Dynamics 365 for phones and tablets
 

@@ -1,19 +1,25 @@
 ---
 title: Force an activity into a time slot (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: See how to force an activity into a time slot in Dynamics 365 for Customer Service
-keywords: Force an activity; Dynamics 365; Customer Service
+keywords: Force an activity; Dynamics 365; Customer Service; Service schedule
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: shellyha
-ms.date: 09/15/2017
+manager: shujoshi
+ms.date: 06/01/2018
 ms.topic: article
-ms.custom:
-  - dyn365-customerservice
 ms.service: dynamics-365-customerservice
 ms.assetid: e2050e36-3e95-49b1-9f2b-f0025eb7022c
+ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # Force an activity into a time slot in the service schedule
@@ -44,6 +50,5 @@ You can create a service activity by finding the next available times of resourc
 > - To check the schedule for conflicts, in **Service Calendar**, in the **Actions** group, click **Conflicts**.  
   
 ### See also  
- [Navigate the service calendar](../customer-service/navigate-service-calendar.md)   
- [Find the next available time before creating a service activity](../customer-service/find-next-available-time-before-create-service-activity.md)   
- [Overview of service and service scheduling](../customer-service/basics-service-service-scheduling.md)   
+
+[Overview of service and service scheduling](basics-service-service-scheduling.md)   

@@ -1,6 +1,6 @@
 ---
 title: "Change the color scheme or add a logo  in PowerApps | MicrosoftDocs"
-description: "Learn how to change the color scheme or add a logo to match your organization’s brand" 
+description: "Learn how to change the color scheme or add a logo to match your organization’s brand"
 s.custom: ""
 ms.date: 04/02/2018
 ms.reviewer: ""
@@ -17,6 +17,10 @@ ms.assetid: 21a166a0-d25e-4260-a1e4-2ddc528787c2
 caps.latest.revision: 17
 ms.author: "matp"
 manager: "kvivek"
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Create a theme
 

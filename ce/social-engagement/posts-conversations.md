@@ -5,18 +5,25 @@ keywords: "post list, post details, stream, post actions, reply, mention, share"
 ms.date: 12/08/2017
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 864f81b7-bf35-4302-8da5-585c71cba333
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
-# View posts and conversations in Social Engagement
+# View posts and conversations in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] provides two ways to access the list of posts that match a given data set. You can either work with the post list or with a stream, depending on your requirements and preferences.  
   
 <a name="access"></a>   
@@ -60,7 +67,7 @@ When you view the details of a post, all [!INCLUDE[tn_twitter](../includes/tn-tw
 - For retweets, you see the thread of all retweets of a parent tweet.  
   
 <a name="publishHistory"></a>   
-## See the engagement action history of a post in Social Engagement  
+## See the engagement action history of a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]  
 
 Communicate consistently and find out whether another user has already taken action on a post that you plan to interact with.  
   

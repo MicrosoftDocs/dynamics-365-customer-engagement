@@ -14,6 +14,10 @@ ms.assetid: 476018f9-e481-46ba-a9d1-c87cb4dd810a
 caps.latest.revision: 60
 ms.author: "anbichse"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Import contacts
 

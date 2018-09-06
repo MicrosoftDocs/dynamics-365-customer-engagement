@@ -1,9 +1,9 @@
 ---
 title: "Enable Azure storage for portals in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to enable Azure storage for portals to take advantage of the greater file storage capability of Azure."
-ms.custom:
+ms.custom: 
   - dyn365-portal
-ms.date: 02/21/2018
+ms.date: 07/26/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,7 +12,14 @@ ms.assetid: 450D4748-1ED4-48F6-ACEC-349B577E78EE
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Enable [!include[Azure](../includes/pn-azure-shortest.md)] Storage
@@ -22,6 +29,9 @@ manager: sakudes
 You must create a storage account with **Resource manager** as the deployment model. [!include[More information](../includes/proc-more-information.md)] [Create an Azure storage account](https://docs.microsoft.com/en-us/azure/storage/storage-create-storage-account#create-a-storage-account).
 
 After the storage account is running, portals require certain global settings that tell the application how to locate your storage account. From [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Settings** > **Settings**, and add a new setting named **FileStorage/CloudStorageAccount**.
+
+> [!NOTE]
+> The maximum file upload size is 125 MB.
 
 To locate the value for FileStorage/CloudStorageAccount, you must get a connection string from your [!include[Azure portal](../includes/pn-azure-portal.md)].
 

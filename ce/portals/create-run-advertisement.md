@@ -1,7 +1,7 @@
 ---
 title: "Create and run advertisements on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create text or image-based advertisements and have them run in multiple placements throughout your site."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 09/28/2017
 ms.service: dynamics-365-customerservice
@@ -12,7 +12,14 @@ ms.assetid: c297e1d7-14c4-4545-8c3c-f2de3db8fa38
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Create and run advertisements on a portal
 [comment]: <> (Add cross-ref to ad entity attribute table)

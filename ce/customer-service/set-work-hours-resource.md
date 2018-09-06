@@ -7,13 +7,19 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: shellyha
+manager: shujoshi
 ms.date: 09/15/2017
 ms.topic: article
 ms.service: dynamics-365-customerservice
+ms.custom: dyn365-customerservice
 ms.assetid: 97634d1f-1e31-4f0e-a7f0-82b4940aeee9
-ms.custom:
-  - dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # Set work hours for a resource (Customer Service)
@@ -34,55 +40,55 @@ You can set the hours a user works or set the operating hours for a facility or 
   
 2. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)]  
   
-3. Click **Facilities/Equipment**.  
+3.  Click **Facilities/Equipment**.  
   
-4. In the list, open the resource record you want modify.  
+4.  In the list, open the resource record you want modify.  
   
-5. Click **Work Hours**.  
+5.  Click **Work Hours**.  
   
-6. On the **Monthly View** tab, double-click a date on the calendar that is the first day you want the new schedule to start, or any date that will be affected by the new schedule.  
+6.  On the **Monthly View** tab, double-click a date on the calendar that is the first day you want the new schedule to start, or any date that will be affected by the new schedule.  
   
-7. In the **Edit Schedule** dialog box, select one of the following, and then click **OK**.  
+7.  In the **Edit Schedule** dialog box, select one of the following, and then click **OK**.  
   
-   - **This date only**  
+    - **This date only**  
   
-        This option changes only the date selected.  
+         This option changes only the date selected.  
   
-        Skip to step 10.  
+         Skip to step 10.  
   
-   - **From \<this date> onward**  
+    - **From \<this date> onward**  
   
-        This option changes only the schedule going forward.  
+         This option changes only the schedule going forward.  
   
-   - **Entire recurring weekly schedule from start to end**  
+    - **Entire recurring weekly schedule from start to end**  
   
-        This option changes this entire schedule from the start to end date.  
+         This option changes this entire schedule from the start to end date.  
   
-        Selecting this option might change past days, which may affect reports regarding hours worked in the past.  
+         Selecting this option might change past days, which may affect reports regarding hours worked in the past.  
   
-8. In the **Weekly Schedule** dialog box, in the **Set the recurring weekly schedule** section, select one of the following:  
+8.  In the **Weekly Schedule** dialog box, in the **Set the recurring weekly schedule** section, select one of the following:  
   
-   - **Are the same each day**  
+    - **Are the same each day**  
   
-        The new schedule is the same for every day of the week. After you select this option, select the days of the week that the resource is available.  
+         The new schedule is the same for every day of the week. After you select this option, select the days of the week that the resource is available.  
   
-   - **Vary by day**  
+    - **Vary by day**  
   
-        The new schedule is different for one or more days of the week. After you select this option, select the days of the week that the resource is available.  
+         The new schedule is different for one or more days of the week. After you select this option, select the days of the week that the resource is available.  
   
-   - **None. Resource is not working**  
+    - **None. Resource is not working**  
   
-        The new schedule includes time that the resource is not working.  
+         The new schedule includes time that the resource is not working.  
   
      In the **Weekly Schedule** dialog box, you can also do any of the following:  
   
-   - If the schedule is for more than one day, select the days of the week that this schedule is effective.  
+    -   If the schedule is for more than one day, select the days of the week that this schedule is effective.  
   
-   - If the resource does not work during business closures, select the **Observe** option.  
+    -   If the resource does not work during business closures, select the **Observe** option.  
   
-   - Under **Date Range**, in the **Starting on** box, you can change the date the schedule starts.  
+    -   Under **Date Range**, in the **Starting on** box, you can change the date the schedule starts.  
   
-      You cannot change the date the schedule ends. To end a schedule, you must define a new schedule on that date.  
+         You cannot change the date the schedule ends. To end a schedule, you must define a new schedule on that date.  
   
 9. Choose the work hours link for the schedule you want to modify.  
   
@@ -119,20 +125,20 @@ You can set the hours a user works or set the operating hours for a facility or 
   
 2. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
-3. Click **Users**.  
+3.  Click **Users**.  
   
-4. Open the user record you want to set work hours for.  
+4.  Open the user record you want to set work hours for.  
   
-5. On the top, select the arrow next to the name of the user.  
+5.  On the top, select the arrow next to the name of the user.  
   
-6. Click **Work Hours**.  
+6.  Click **Work Hours**.  
   
-7. From the **Set up** drop-down list, choose the schedule display as required..  
+7.  From the **Set up** drop-down list, choose the schedule display as required..  
   
-   > [!NOTE]
-   >  Monthly schedules are the default display; you can choose weekly and daily schedules.  
+    > [!NOTE]
+    >  Monthly schedules are the default display; you can choose weekly and daily schedules.  
   
-8. Double-click a date on the calendar that is the first day for which you want to set work hours.  
+8.  Double-click a date on the calendar that is the first day for which you want to set work hours.  
   
 9. In the **Edit Schedule** dialog box, select one of the following and then click **OK**.  
   
@@ -166,15 +172,15 @@ You can set the hours a user works or set the operating hours for a facility or 
   
          The new schedule includes time that the resource is not working.  
   
-      In the **Weekly Schedule** dialog box, you can also do any of the following:  
+     In the **Weekly Schedule** dialog box, you can also do any of the following:  
   
-    - If the schedule is for more than one day, select the days of the week this schedule is effective.  
+    -   If the schedule is for more than one day, select the days of the week this schedule is effective.  
   
-    - If the resource does not work during business closures, select the **Observe** option.  
+    -   If the resource does not work during business closures, select the **Observe** option.  
   
-    - Under **Date Range**, in the **Starting on** box, you can change the date the schedule starts.  
+    -   Under **Date Range**, in the **Starting on** box, you can change the date the schedule starts.  
   
-       You cannot change the date the schedule ends. To end a schedule, you must define a new schedule on that date.  
+         You cannot change the date the schedule ends. To end a schedule, you must define a new schedule on that date.  
   
 11. Choose the work hours link for the schedule you want to modify.  
   

@@ -1,7 +1,7 @@
 ---
 title: "Clear the server-side cache for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to force the portal to refresh its cache immediately."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 06/08/2018
 ms.service: dynamics-365-customerservice
@@ -12,7 +12,14 @@ ms.assetid: A625CF6A-0E04-496D-9EF7-C06383860C65
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Clear the server-side cache for a portal

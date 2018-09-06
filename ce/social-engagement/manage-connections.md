@@ -5,18 +5,25 @@ keywords: "connect, connections, integration, dynamics 365"
 ms.date: 11/16/2017
 ms.service: dynamics-365-marketing
 ms.topic: get-started-article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 7b9ac951-beb1-46e7-a585-edadd941a3df
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
-# Manage connections in Social Engagement
+# Manage connections in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] lets admins connect to and share social data with other applications. To work with social data in other applications, you can connect them on the **Connections** page in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Settings area. The type of connection you create depends on the application you want to connect to.  
   
  ![Connections page in the Microsoft Social Engagement Settings area](media/settings-on-connections-page.png "Connections page in the Microsoft Social Engagement Settings area")  

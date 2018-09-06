@@ -14,6 +14,10 @@ ms.assetid: 80bcdd8e-7c4f-4fd5-8708-00345f5d0408
 caps.latest.revision: 8
 author: "JimDaly"
 ms.author: "jdaly"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Retrieve metadata by name or MetadataId
 

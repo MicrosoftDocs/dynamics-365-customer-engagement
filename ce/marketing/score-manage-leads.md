@@ -3,20 +3,27 @@ title: "Generate, score, and qualify leads (Dynamics 365 for Marketing) | Micros
 description: "How to work with leads, set up automatic scoring rules, and identify sales-ready prospects in Dynamics 365 for Marketing"
 keywords: "lead; lead-scoring rule; grade; qualify; sales ready"
 ms.date: 04/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: d9a600e6-0c1c-48ac-b5dc-8b80c74e9755
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Score and manage leads
@@ -162,4 +169,5 @@ Here are a few more examples of how to use hops to create useful conditions:
 [Set up lead scoring](set-up-lead-scoring.md)  
 [Register contacts' engagement](register-engagement.md)  
 [Manage customer information](manage-customer-information.md)  
-[Accessibility and keyboard shortcuts](designer-shortcuts.md)
+[Accessibility and keyboard shortcuts](designer-shortcuts.md)  
+[Go live with publishable entities and track their status](go-live.md)

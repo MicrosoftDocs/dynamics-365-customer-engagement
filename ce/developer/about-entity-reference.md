@@ -14,6 +14,10 @@ ms.assetid: b07033ee-97eb-4475-9d83-307201a05f1a
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # About the Entity Reference
 

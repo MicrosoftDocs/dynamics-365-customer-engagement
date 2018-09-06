@@ -1,7 +1,7 @@
 ---
 title: "Configure portal authentication in Dynamics 365  | MicrosoftDocs"
 description: "Learn about how to configure authentication for a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 09/28/2017
 ms.service: dynamics-365-customerservice
@@ -12,7 +12,14 @@ ms.assetid: 1e771204-164a-4fbc-b0a1-89f7a59924c3
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Configure Dynamics 365 portal authentication
 

@@ -5,15 +5,22 @@ keywords: "lead, lead gen form, sponsored content, linkedin, dashboard"
 ms.date: 04/02/2018
 ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: c372e325-991c-4178-a507-f7f4dfcc0dd5
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-LinkedIn
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365LinkedIn
 ---
 
 # Analyze leads and lead performance

@@ -1,7 +1,7 @@
 ---
 title: "Configure SAML 2.0 provider settings for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to add and configure SAML 2.0 provider settings for a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 12/05/2017
 ms.service: dynamics-365-customerservice
@@ -12,7 +12,14 @@ ms.assetid: 71a5b45a-9793-48ae-ace5-2e99a5c44365
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Configure SAML 2.0 provider settings for portals
 

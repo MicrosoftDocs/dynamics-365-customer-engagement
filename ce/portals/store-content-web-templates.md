@@ -1,7 +1,7 @@
 ---
 title: "Store source content by using web templates on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to store content by using web templates on a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 09/28/2017
 ms.service: dynamics-365-customerservice
@@ -12,7 +12,14 @@ ms.assetid: 236ecaee-7bc3-4492-96f4-f2f1126eddd1
 ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
-manager: sakudes
+manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Store source content by using web templates
 

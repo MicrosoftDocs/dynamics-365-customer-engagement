@@ -15,6 +15,11 @@ ms.assetid: 137b4aa7-2c90-4584-a2bd-38c812788121
 caps.latest.revision: 23
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Synchronize user information with Active Directory
 

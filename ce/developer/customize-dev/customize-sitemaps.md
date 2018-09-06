@@ -9,11 +9,15 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-    - "Dynamics 365 (online)"
+  - "Dynamics 365 (online)"
 ms.assetid: 54f00cc7-0653-423d-abe0-5344ad3711c3
 caps.latest.revision: 14
 author: "KumarVivek"
 ms.author: "kvivek"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Customize SiteMaps
 
@@ -36,7 +40,7 @@ The SiteMap provides the structure for navigation in [!INCLUDE[pn_dynamics_crm](
   You can use a site map editor or programmatically update site map. 
   
 ## In This Section  
- [Change application navigation using the SiteMap](/developer/customize-dev/change-application-navigation-using-sitemap.md)  
+ [Change application navigation using the SiteMap](change-application-navigation-using-sitemap.md)  
   
  [Pass parameters to a URL using the SiteMap](pass-parameters-url-using-sitemap.md)   
   

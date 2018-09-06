@@ -2,17 +2,24 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 07/11/2018
+ms.date: 08/22/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: e8941c81-866f-4363-8ca1-fc035f9a3844
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # What&#39;s new in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
@@ -24,6 +31,25 @@ If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.8
+
+### Provide your feedback about [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+
+After signing in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can select the smiley symbol and provide your feedback about the app and the service. We're looking forward to hearing your thoughts and continue to refine the product based on your feedback.
+
+![Provide feedback in Social Engagement](media/feedback-prompt.png)
+
+### Compliance stream for WordPress comments and Disqus
+
+When a comment on WordPress is removed by the author, it's also removed from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] databases. 
+If a user decides to delete their Disqus profile, all related comments and threads are deleted in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] too. 
+
+### Removal of interaction token for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] user profiles
+
+With this release, we're following [!INCLUDE [tn-facebook](../includes/tn-facebook.md)]'s Graph API v3.0 changes from August 1, 2018: [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] stops supporting engagement actions for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] user profiles. Interaction tokens for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] users were removed from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and you won’t be able to add them anymore.
+
+Good to know: This change doesn't affect the way you [work with social profiles](manage-social-profiles.md) for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].You still need to create a **Facebook Acquisition** profile to allow data acquisition from [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] for [!INCLUDE [tn-facebook](../includes/tn-facebook.md)] pages you administer. 
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.7
 
@@ -82,7 +108,7 @@ All major releases of browsers (Microsoft Edge, Internet Explorer, Firefox, Chro
 
 ### Attachments in private messages now show in the post list
 
-Social Engagement now shows attached images and videos in private messages on Facebook and direct messages on Twitter directly in the post list. To see the attachments, open the post details of a direct message that contains attachments. 
+[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] now shows attached images and videos in private messages on Facebook and direct messages on Twitter directly in the post list. To see the attachments, open the post details of a direct message that contains attachments. 
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.4
 

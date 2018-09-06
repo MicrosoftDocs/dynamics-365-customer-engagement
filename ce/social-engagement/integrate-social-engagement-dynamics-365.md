@@ -5,18 +5,25 @@ keywords: ""
 ms.date: 04/12/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: f780a931-3fcc-468a-9849-a22aab60984b
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
-# Integrate Microsoft Social Engagement with Dynamics 365
+# Integrate [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with Dynamics 365
 
 In [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)], you can get powerful social insights by connecting [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] puts social media at the fingertips of your sales teams, customer service agents, and everyone across the organization. The easy-to-understand widgets provide insights and help you understand what your customers or prospects are saying about your products, brands, and services. Identify any issues or compliments that are mentioned about your products or services on social media. 
 
@@ -26,7 +33,7 @@ The [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] widgets in
 
 <a name="add-social-engagement-visuals-to-dynamics-365"></a>
 
-## Connect Dynamics 365 (online) to Microsoft Social Engagement for Social Insights
+## Connect Dynamics 365 (online) to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] for Social Insights
 
 To configure the connection, you need to have a subscription to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], be an authorized [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user, and have a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] instance provisioned for this [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] instance.
 
@@ -36,17 +43,17 @@ To configure the connection, you need to have a subscription to [!INCLUDE[pn_net
 
 - You must ensure that your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] domain is [added to the list of allowed domains](connect-other-domains.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. 
 
-### Connect Dynamics 365 (online) to Social Engagement
+### Connect Dynamics 365 (online) to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
-1. In Dynamics 365, select **Settings** > **Administration** > **Microsoft Social Engagement Configuration**.
+1. In Dynamics 365, select **Settings** > **Administration** > **[!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] Configuration**.
 
 2. Select **Continue** to accept the legal disclaimer.
 
-3. On the **Microsoft Social Engagement Configuration** page, in the **Select the Microsoft Social Engagement solution to connect to** drop-down box, choose the Microsoft Social Engagement instance to which you want to connect. Select the **Select** button next to the drop-down box. The **Select** button becomes dim to indicate that the selection is confirmed.
+3. On the **[!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] Configuration** page, in the **Select the [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] solution to connect to** drop-down box, choose the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] instance to which you want to connect. Select the **Select** button next to the drop-down box. The **Select** button becomes dim to indicate that the selection is confirmed.
 
    ![Microsoft Social Engagement Configuration view](media/social-insights-configuration-online.png "Microsoft Social Engagement Configuration view")  
 
-## Connect Dynamics 365 on-premises to Microsoft Social Engagement for Social Insights
+## Connect Dynamics 365 on-premises to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] for Social Insights
 
 ### Prerequisites
 
@@ -54,17 +61,17 @@ To configure the connection, you need to have a subscription to [!INCLUDE[pn_net
 
 - You must ensure that your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] domain is [added to the list of allowed domains](connect-other-domains.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
-### Connect Dynamics 365 on-premises to Social Engagement
+### Connect Dynamics 365 on-premises to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
-1. In Dynamics 365, select **Settings** > **Administration** > **Microsoft Social Engagement Configuration**.
+1. In Dynamics 365, select **Settings** > **Administration** > **[!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] Configuration**.
 
 2. Select **Continue** to accept the legal disclaimer.
 
-3. Follow the directions on the **Microsoft Social Engagement Configuration** page.
+3. Follow the directions on the **[!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] Configuration** page.
 
    ![Microsoft Social Engagement Configuration view](media/social-insights-configuration-on-premises.png "Microsoft Social Engagement Configuration view")
   
-## Add Social Engagement visuals to an entity form
+## Add [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] visuals to an entity form
 
 To add Social Insights controls to an entity (record type) form, you have to [use the form editor](https://technet.microsoft.com/library/dn531185.aspx) provided in the Dynamics 365 Customization area. You can position the Social Insights control anywhere on the form and resize it, just like you would do with the iFrame controls. You can make the control bigger by increasing the number of rows and spanning the control over several columns. This is important if you want to make a graph or a chart in the control appear larger and be more readable. More information: Use the form editor.
 
@@ -83,7 +90,7 @@ Choose to enable **Pass record object-type code and unique identifier as paramet
 
 7. Switch back to the **Home** tab. Select **Save** and then select **Publish** to publish the added customizations. The control called **Configure Social Insights** appears on all records based on this form. The search topics, search categories and visuals can be added to the control.  
 
-## Add Social Engagement visuals to dashboards
+## Add [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] visuals to dashboards
 
 You can add the Social Insights controls to the existing system dashboards or to a new dashboard. Let’s create a new dashboard and add the Social Insights control to it. We’ll use the Set Up Social Insights wizard to lead us through the setup. Shortly after the setup is finished and customizations are published, the charts and graphs with social data will appear on your dashboard.
 
@@ -132,9 +139,9 @@ To have the full set of options for creating a search topic available, it’s a 
 
 This action deletes all existing data in Dynamics 365 for the search topics, search topic categories and visuals for Social Insights.
 
-1. Select **Settings** > **Administration** > **Microsoft Social Engagement Configuration**.
+1. Select **Settings** > **Administration** > **[!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] Configuration**.
 
-2. On the **Microsoft Social Engagement Configuration** page, select **Reset Social Insights**. The **Reset Social Insights Confirmation** message box appears. Select **Confirm**, if you want to proceed, otherwise select **Cancel**.
+2. On the **[!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] Configuration** page, select **Reset Social Insights**. The **Reset Social Insights Confirmation** message box appears. Select **Confirm**, if you want to proceed, otherwise select **Cancel**.
 
    ![Confirm screen to reset Social Insights](media/social-insights-confirm-reset.jpg "Confirm screen to reset Social Insights")
 

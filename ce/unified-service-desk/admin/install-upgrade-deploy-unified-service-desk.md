@@ -1,7 +1,7 @@
 ---
 title: "Install, deploy, and upgrade Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Learn how to install or upgrade Unified Service Desk for Dynamics 365 Customer Engagement."
-ms.custom:
+ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -19,10 +19,14 @@ ms.assetid: e0fd70b6-73a4-4426-92d7-bb300457597e
 caps.latest.revision: 8
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 tags: 
- - "MigrationHO"
-
+  - "MigrationHO"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Install, deploy, and upgrade Unified Service Desk
 Before you can install and deploy [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)], you must identify the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] instance that you want to build and deploy the configuration on. While you can use a new [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] customization is mostly complete. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] controls the call center agent’s view of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] by manipulating windows, injecting [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)], and so on. If major changes occur to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] environment after [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is deployed, it might cause your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration to no longer work as required. While the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration often comes later in a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] implementation, having [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] in mind when designing your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] environment is beneficial.  

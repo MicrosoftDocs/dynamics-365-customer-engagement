@@ -15,6 +15,10 @@ caps.latest.revision: 31
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Behavior and format of the date and time attribute
 

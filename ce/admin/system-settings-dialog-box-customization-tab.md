@@ -15,6 +15,11 @@ ms.assetid: d1d78ba3-58a9-4608-acfc-eb1da235fe1b
 caps.latest.revision: 25
 ms.author: "rdubois"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # System Settings dialog box - Customization tab 
 

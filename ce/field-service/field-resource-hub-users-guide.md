@@ -15,6 +15,13 @@ ms.assetid: ebg20953-9c77-464e-an89-e80150a21818
 caps.latest.revision: 1
 ms.author: "mkaur"
 manager: "amyla"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
 ---
 # User Guide (Field Resource Hub)
 
@@ -26,12 +33,12 @@ With the Field Resource Hub app field techs can do basic tasks in the field like
 
 There are two flavors of [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]: 
 
-- If you’re using a desktop browser, you’ll use the Field Service app. [!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [User Guide (Field Service)](../field-service/user-guide.md).
+- If you’re using a desktop browser, you’ll use the Field Service app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [User Guide (Field Service)](../field-service/user-guide.md).
 
 - If you’re a field tech using a smartphone or tablet, you’ll use the Field Resource Hub app which is a subset of the Field Service app. The Field Resource Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
 
 > [!NOTE]
-> If you're looking for the full-featured Field Service mobile app, it’s a different mobile app called Field Service Mobile. [!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [Field Service Mobile App User Guide](../field-service/field-service-mobile-app-user-guide.md).
+> If you're looking for the full-featured Field Service mobile app, it’s a different mobile app called Field Service Mobile. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Field Service Mobile App User Guide](../field-service/field-service-mobile-app-user-guide.md).
 
 ## Basic Navigation
 
@@ -109,7 +116,7 @@ Resource bookings provides an overview of resource schedule and bookings for a d
 
 ## General information on how to use the mobile app 
 
-[!INCLUDE[proc_more_information](.../includes/proc-more-information.md)] [Mobile Basics Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobile Basics Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md).
 
 ### See Also  
  [Dynamics 365 for Field Servic user's guide](../field-service/user-guide.md)

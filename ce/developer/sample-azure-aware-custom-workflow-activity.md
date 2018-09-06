@@ -17,6 +17,10 @@ caps.latest.revision: 32
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Azure aware custom workflow activity
 

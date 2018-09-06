@@ -15,6 +15,10 @@ caps.latest.revision: 51
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Get started with the Dynamics 365 Customer Engagement Web API (client-side JavaScript)
 

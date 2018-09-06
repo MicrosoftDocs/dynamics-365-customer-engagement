@@ -1,21 +1,31 @@
 ---
 title: "System Settings dialog box - Goals tab for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+description: ""
+keywords: ""
+ms.date: 07/18/2018
+ms.service: 
+  - "crm-online"
+ms.custom: 
+  - ""
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 14c34660-19df-40cb-bf84-3878dcfa3787
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 12
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
+
 # System Settings dialog box - Goals tab
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
@@ -43,4 +53,5 @@ Set the duration and frequency of the automatic rollup of goals. These settings 
 |                  Roll-up recurrence frequency                  |                                                      Default: 24 hours. Set the number of hours between each goal rollup.                                                      |
   
 ### See also  
+ [Administrator and Sales Manager Guide](../sales-enterprise/admin-guide.md)  
  [Progress Against Goals report](../basics/sales-insights-reports.md#BKMK_ProgressGoals)

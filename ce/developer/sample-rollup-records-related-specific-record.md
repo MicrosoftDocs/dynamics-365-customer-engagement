@@ -18,6 +18,10 @@ caps.latest.revision: 16
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Sample: Rollup records related to a specific record
 
