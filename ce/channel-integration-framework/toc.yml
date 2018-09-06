@@ -11,3 +11,7 @@
     items:
     - name: Download Channel Integration Framework (CIF)
       href: download-channel-integration-framework.md
+  - name: How-to
+    items:
+    - name: Configure channel provider in Unified Interface app
+      href: configure-channel-provide-channel-integration-framework.md

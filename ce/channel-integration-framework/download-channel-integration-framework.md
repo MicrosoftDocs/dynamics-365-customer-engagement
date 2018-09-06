@@ -20,7 +20,7 @@ manager: shujoshi
 
 # How to download Channel Integration Framework (CIF)?
 
-Channel Integration Framework is a solution available as an application in Microsoft AppSource.
+Channel Integration Framework is a application (solution) available in Microsoft AppSource.
 You can download a solution from within the Dynamics 365 or directly from Microsoft AppSource.
 
 ## Prerequisites
@@ -29,7 +29,7 @@ You can download a solution from within the Dynamics 365 or directly from Micros
 
 - You need global administrator permissions in Office 365 to download and install the Channel Integration Framework application (solution).
 
-## Download Channel Integration Framework 
+## Download Channel Integration Framework from Microsoft AppSource
 
 To download Channel Integration Framework solution from within Dynamics 365:
 
@@ -46,6 +46,27 @@ To download Channel Integration Framework solution from within Dynamics 365:
     - Privacy Statement and Legal Terms for importing the solution into Dynamics 365.
 
 4. Select **Agree**. The Channel Integration Framework application (solution) importing happens in the background.
+    > [!NOTE]
+    > The system does not display any confirmation after the successful import of the application (solution).
+
+
+## Download Channel Integration Framework from Microsoft AppSource
+
+1. Sign in to Dynamics 365.
+
+2. Go to **Settings** > **Customization** > **Dynamics Marketplace**. <br> The Microsoft AppSource appears.
+
+3. In the search box, type **Channel Integration Framework**.<br>The Channel Integration Framework application (solution) appears.
+
+4. Select **GET IT NOW**.
+
+5. In the **One more thing..** window, select **Continue**.
+
+6. Read and select the checkbox to agree for the following:
+    - Microsoft's Legal Terms and Privacy Statement.
+    - Privacy Statement and Legal Terms for importing the solution into Dynamics 365.
+
+7. Select **Agree**. The Channel Integration Framework application (solution) importing happens in the background.
     > [!NOTE]
     > The system does not display any confirmation after the successful import of the application (solution).
 
