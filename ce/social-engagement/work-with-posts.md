@@ -97,7 +97,7 @@ Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engageme
   
 <a name="Add_a_custom_tag"></a>   
 ## Add or remove tags  
- Social engagement allows intention tags and custom tags to be added to posts. Intention tags are predefined tags that are automatically added once a post is acquired. Custom tags are different from intention tags because they are not predefined and need to be manually added. Custom tags can't be automatically added to posts unless they are promoted to auto tags. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tag posts with intention tags and custom tags](tags.md)  
+ [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] allows intention tags and custom tags to be added to posts. Intention tags are predefined tags that are automatically added once a post is acquired. Custom tags are different from intention tags because they are not predefined and need to be manually added. Custom tags can't be automatically added to posts unless they are promoted to auto tags. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tag posts with intention tags and custom tags](tags.md)  
   
 1.  Click **Posts** on the right side of any Analytics page to see the posts list.  
   
@@ -139,7 +139,7 @@ Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engageme
 4.  Click **Remove** and then confirm your selection.  
   
 <a name="link_post"></a>   
-## Link a post from Social Engagement to Dynamics 365  
+## Link a post from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to Dynamics 365  
  [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] allows users to create a link from a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to an entity in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] instance. When you link a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, it creates a social activity. Your administrator can define rules to process this social activity in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a new Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)  
   
 <a name="privacy"></a>   

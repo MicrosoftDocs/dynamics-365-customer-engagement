@@ -23,7 +23,7 @@ search.app:
   - D365SE
 ---
 
-# Microsoft Social Engagement 2017 Updates
+# [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] 2017 Updates
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2017 Update 1.11
 
@@ -50,7 +50,7 @@ In addition to that, the activity map has received a couple of visual updates, s
 
 ### New field in the JSON payload for Azure Event Hubs: post.profile.uri
 
-Social Engagement includes a feature that allows users to send posts to [Azure Event Hubs](https://azure.microsoft.com/services/event-hubs/) using Automation Rules. As part of evolving functionality, Social Engagement is updating the [JSON payload](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/event-hubs-json-reference-social-engagement) by replacing the post.profile.id field with a new post.profile.uri field. 
+[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] includes a feature that allows users to send posts to [Azure Event Hubs](https://azure.microsoft.com/services/event-hubs/) using Automation Rules. As part of evolving functionality, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is updating the [JSON payload](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/event-hubs-json-reference-social-engagement) by replacing the post.profile.id field with a new post.profile.uri field. 
 Moving forward, post.profile.uri will also include a source-based identifier as part of the field value (for example: mse-tw://#12345678).
 
 Please make sure you follow the timeline outlined [in this blog post](https://blogs.msdn.microsoft.com/crm/2017/11/27/deprecation-of-post-profile-id-object-in-social-engagement-json-payload/) to avoid breaking your apps and intermittent data loss. 
@@ -73,14 +73,14 @@ Alert emails now provide a link to the Analytics area in the [!INCLUDE[pn_netbre
 ### New video training on Microsoft Virtual Academy
 
 Learn how to build search topics and navigate [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to get the most out of it. Plus, examine different strategies for managing your social presence.
-Explore the social engagement circle and social strategy, and look at brand reputation and social business opportunities. Look at post consumption and analytics, configure automation options, and much more.
+Explore the social strategy, and look at brand reputation and social business opportunities. Look at post consumption and analytics, configure automation options, and much more.
 
 [Learn more in the Microsoft Social Engagement course on MVA.](https://go.microsoft.com/fwlink/p/?linkid=861639)
 
 
-### New social post packs for Microsoft Social Engagement
+### New social post packs for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
-In addition to the 10,000 monthly post package for Microsoft Social Engagement, new packages with 100,000 and 1,000,000 monthly posts are now available as part of the Microsoft Products and Services Agreement (MPSA). The MPSA is a transactional licensing agreement for commercial, government, and academic organizations that have 250 or more users or devices.
+In addition to the 10,000 monthly post package for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], new packages with 100,000 and 1,000,000 monthly posts are now available as part of the Microsoft Products and Services Agreement (MPSA). The MPSA is a transactional licensing agreement for commercial, government, and academic organizations that have 250 or more users or devices.
 
 ### Service and product improvements
 

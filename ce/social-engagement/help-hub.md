@@ -23,14 +23,14 @@ search.app:
   - D365SE
 ---
 
-# Social Engagement Help & Training
+# [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Help & Training
 
 <table>
 <tr>
 <td>
 
 <h2> Get started </h2>
-<li><a href="overview.md" data-raw-source="[Social Engagement overview](overview.md)">Social Engagement overview</a></li>
+<li><a href="overview.md" data-raw-source="[Social Engagement overview](overview.md)">Microsoft Social Engagement overview</a></li>
 <li><a href="get-started.md" data-raw-source="[Get started](get-started.md)">Get started</a></li>
 <li><a href="social-selling-assistant-overview.md" data-raw-source="[Meet the Social Selling Assistant](social-selling-assistant-overview.md)">Meet the Social Selling Assistant</a></li>
 <li><a href="faq.md" data-raw-source="[Frequently asked questions](faq.md)">Frequently asked questions</a></li>
@@ -39,7 +39,7 @@ search.app:
 
 <h2> Administer </h2>
 
-<li><a href="administer-microsoft-social-engagement.md" data-raw-source="[Administer Social Engagement](administer-microsoft-social-engagement.md)">Administer Social Engagement</a></li>
+<li><a href="administer-microsoft-social-engagement.md" data-raw-source="[Administer Social Engagement](administer-microsoft-social-engagement.md)">Administer Microsoft Social Engagement</a></li>
 <li><a href="manage-global-settings.md" data-raw-source="[Configure settings](manage-global-settings.md)">Configure settings</a></li>
 <li><a href="set-up-searches.md" data-raw-source="[Set up searches](set-up-searches.md)">Set up searches</a></li>
 <li><a href="manage-connections.md" data-raw-source="[Manage connections](manage-connections.md)">Manage connections</a></li>
@@ -84,7 +84,7 @@ search.app:
 
 <li><a href="what-s-new-in-microsoft-social-engagement.md" data-raw-source="[What&#39;s new in Microsoft Social Engagement](what-s-new-in-microsoft-social-engagement.md)">What&#39;s new in Microsoft Social Engagement</a></li>
 <li><a href="http://go.Microsoft.com/fwlink/p/?LinkId=393612" data-raw-source="[Microsoft Social Engagement Readme](http://go.Microsoft.com/fwlink/p/?LinkId=393612)">Microsoft Social Engagement Readme</a></li>
-<li><a href="http://go.Microsoft.com/fwlink/p/?LinkID=391086" data-raw-source="[Social Engagement Translation Guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086)">Social Engagement Translation Guide</a></li>
+<li><a href="http://go.Microsoft.com/fwlink/p/?LinkID=391086" data-raw-source="[Social Engagement Translation Guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086)">Microsoft Social Engagement Translation Guide</a></li>
 </td>
 </tr>
 </table>
