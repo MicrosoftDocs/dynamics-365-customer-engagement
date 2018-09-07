@@ -69,6 +69,7 @@
 #### [4 - next step]
 ## [CFS for IoT Hub](developer/connected-field-service-developer-guide.md)
 ### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
+### [Installation & Setup](installation-setup-iothub.md)
 ### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
