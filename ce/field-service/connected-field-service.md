@@ -30,12 +30,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Use [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)] to monitor connected devices and always know your customer’s equipment is functioning correctly. If equipment fails, you’ll be notified so that you can troubleshoot the problem remotely, or send a technician to fix it.  
-  
- [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)] helps service organizations move from a costly break-fix model to a more proactive service model by combining monitoring and predictive maintenance with Internet of Things (IoT).  
-  
- Key benefits of Connected Field Service:  
-  
+[!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)] helps service organizations move from a costly break-fix model to a more proactive service model by combining monitoring and predictive maintenance with Internet of Things (IoT). Key benefits of Connected Field Service:  
 -   Reduce downtime with proactive alerts from connected devices.  
 -   Address issues faster by remotely monitoring devices and keeping customers in the loop.   
 -   Reduce maintenance costs by dispatching a technician with the right expertise, availability, and location to the job.  
