@@ -61,19 +61,17 @@
 ## [Field Resource Hub](field-resource-hub-users-guide.md)
 
 # [Connected Field Service (IoT)](connected-field-service.md)
-## [Overview](connected-field-service.md)
-## [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
-## [Installing CFS](connected-field-service.md)
-## [Setting up IoT Central trial](connected-field-service.md)
-## [Adding & connecting devices](connected-field-service.md)
-## [Creating & using rules](connected-field-service.md)
-## [Rule templates](connected-field-service.md)
-## [Conditions & alerts](connected-field-service.md)
-## [Develop customized IoT solutions](developer/connected-field-service-developer-guide.md)
+## [CFS for IoT Central]
+### [Tutorial - Get started with a trial]
+#### [1 - Install and setup]
+#### [2 - next step]
+#### [3 - next step]
+#### [4 - next step]
+## [CFS for IoT Hub](developer/connected-field-service-developer-guide.md)
+### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
 ### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
-## [FAQs](connected-field-service.md)
 
 # [Resource Scheduling Optimization (RSO)](rso-overview.md)
 ## [Deployment](rso-deployment.md)
