@@ -63,7 +63,7 @@
 # [Connected Field Service (IoT)](connected-field-service.md)
 ## [CFS for IoT Central](cfs-iot-overview.md)
 ### [Tutorial - Get started with a trial](cfs-iot-tutorial-overview.md)
-#### [Before you start](cfs-iot-central-setup.md)
+#### [Prerequisites](cfs-iot-central-setup.md)
 #### [1: Create device alerts with Microsoft Flow](cfs-iot-central-alerts.md)
 #### [2. Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
 #### [3. Setup work order updates in IoT Central](cfs-iot-central-work-orders.md)
