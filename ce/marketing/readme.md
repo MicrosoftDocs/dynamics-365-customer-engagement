@@ -100,7 +100,7 @@ This document provides important, late-breaking information about known issues a
 
 ## Social listening for campaigns
 
-- In the [October '18 Business Applications Release Notes](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/dynamics365-marketing/marketing/), Microsoft announced the new [social listening feature](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/dynamics365-marketing/marketing/social-listening-campaigns) for Marketing, which enables marketers to analyze how people on social media are reacting to their brands and campaigns. The feature is built on the Microsoft Social Engagement product. However, due to some platform dependencies related to integrating the two products, the feature will be slightly delayed until the end of 2018. Keep an eye on the [Dynamics 365 Customer Engagement Team Blog]( https://blogs.msdn.microsoft.com/crm/) for updates.
+- The [social listening feature](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/dynamics365-marketing/marketing/social-listening-campaigns) for Marketing, which enables marketers to analyze how people on social media are reacting to their brands and campaigns, will be gradually enabled in all regions between October and December 2018 due to dependency on a platform update rollout. Keep an eye on the [Dynamics 365 Customer Engagement Team Blog]( https://blogs.msdn.microsoft.com/crm/) for updates.
 
 ## General
 
