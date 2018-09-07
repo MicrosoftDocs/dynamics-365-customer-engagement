@@ -42,7 +42,7 @@ Use [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-fiel
  
 We provide **two versions** for you to connect things (IoT) into the world of Field Service using Dynamics365 for Field Service solution: Connected Field Service for Azure IoT Central, and Connected Field Service for Azure IoT Hub. See below for the differences between the two solutions. 
 
-## Connected field Service for Azure IoT central 
+## Connected Field Service for Azure IoT central 
  
 Integrate Dynamics365 for Field Service with fully managed IoT SaaS offering “IoT Central”.  We are using the middle man Microsoft flow to wire up the end to end scenario from insight to action in mins. The anomaly signal is fired from IoT Central to Connected Field Service and then triggers a work order generation and scheduling of a right-skilled technician to fix to prevent an offline incident.   
  
@@ -51,7 +51,7 @@ With Azure IoT Central, you don’t need to have any cloud development experienc
 With Microsoft Flow, you can use predefined Flow templates to wire up your integration scenario in mins. Link to tutorials for details. 
  
   
-## Connected field Service for Azure IoT hub 
+## Connected Field Service for Azure IoT hub 
  
 An add-on solution that brings Azure IoT PaaS offering into Dynamics365 for Field Service. Run a deployment app to put all the Azure IoT services and Dynamics puzzles together.  
  
