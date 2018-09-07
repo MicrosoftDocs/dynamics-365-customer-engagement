@@ -1,7 +1,7 @@
- ---
+---
 title: "Set up Connected Field Service and IoT Central | MicrosoftDocs"
 ms.custom: "dyn365-fieldservice"
-ms.date: 03/27/2018
+ms.date: 09/24/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
