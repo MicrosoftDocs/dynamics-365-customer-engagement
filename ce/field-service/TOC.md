@@ -61,7 +61,7 @@
 ## [Field Resource Hub](field-resource-hub-users-guide.md)
 
 # [Connected Field Service (IoT)](connected-field-service.md)
-## CFS for IoT Central
+## [CFS for IoT Central](cfs-iot-overview.md)
 ### [Tutorial - Get started with a trial](cfs-iot-tutorial-overview.md)
 #### [1: Set up Connected Field Service and IoT Central trial](cfs-iot-central-setup.md)
 #### [2: Create device alerts with Microsoft Flow](cfs-iot-central-alerts.md)
