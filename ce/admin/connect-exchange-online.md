@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Connect Dynamics 365 (online) to Exchange Online 
+# Connect Dynamics 365 (online) to Exchange Online
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
