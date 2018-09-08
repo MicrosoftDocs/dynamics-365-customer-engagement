@@ -23,7 +23,7 @@ search.app:
   - D365SE
 ---
 
-# Configure Automatic Record Creation and Update Rules in Dynamics 365 to process Social Activity entities from Social Engagement
+# Configure Automatic Record Creation and Update Rules in [!include[](../includes/pn-dynamics-crm.md)] to process Social Activity entities from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
 To automatically create an entity record (such as a Case or a Lead) from a Social Activity record in [!include[](../includes/pn-dynamics-crm.md)], an administrator or customizer must configure Automatic Record Creation and Update Rules in [!include[](../includes/pn-dynamics-crm.md)].
 
@@ -81,7 +81,7 @@ In [!INCLUDE[MSE](../includes/pn-social-engagement-short.md)], when users [link 
     > [!NOTE]
     > The value for userPreferredEntity must exactly match the value in the JSON payload. This value is the [!include[](../includes/pn-dynamics-crm.md)] entity type name that can be different from the name in the [!include[](../includes/pn-dynamics-crm.md)] user interface. For example, the entity type name for Case is *incident*.
 
-    ![Highlighted condition for lead field in Social Engagement payload for userPrefrerredTargeEntity.](media/lead-creation-condition.png "Condition for a Lead field in the Social Engagement payload for userPrefrerredTargeEntity")
+    ![Highlighted condition for lead field in Social Engagement payload for userPrefrerredTargetEntity.](media/lead-creation-condition.png "Condition for a Lead field in the Social Engagement payload for userPrefrerredTargetEntity")
 
 16. Under **Action**, select **Add Step**, and then select **Create Record**. Set the value to **Lead**. 
 
