@@ -35,15 +35,25 @@ search.app:
 -   Address issues faster by remotely monitoring devices and keeping customers in the loop.   
 -   Reduce maintenance costs by dispatching a technician with the right expertise, availability, and location to the job.  
  
-We provide **two versions** for you to connect things (IoT) into the world of Field Service using Dynamics365 for Field Service solution: Connected Field Service for Azure IoT Central, and Connected Field Service for Azure IoT Hub. See below for the differences between the two solutions. 
+There are **two solutions** you can use to connect devices into the world of Field Service using Dynamics365 for Field Service solution: 
 
-## Connected Field Service for Azure IoT central 
- 
-Integrate Dynamics365 for Field Service with fully managed IoT SaaS offering “IoT Central”.  We are using the middle man Microsoft flow to wire up the end to end scenario from insight to action in mins. The anomaly signal is fired from IoT Central to Connected Field Service and then triggers a work order generation and scheduling of a right-skilled technician to fix to prevent an offline incident.   
- 
-With Azure IoT Central, you don’t need to have any cloud development experience to deal with the Azure resources as it is fully managed IoT SaaS offering. 
- 
-With Microsoft Flow, you can use predefined Flow templates to wire up your integration scenario in mins. Link to tutorials for details. 
+- Connected Field Service for **Azure IoT Central** 
+- Connected Field Service for **Azure IoT Hub** 
+
+See below for the differences between the two solutions. 
+
+## Connected Field Service for Azure IoT Central 
+
+Integrate Dynamics 365 for Field Service with Azure IoT Central, a fully managed software-as-a-service (SaaS) solution. Using Microsoft Flow's user-friendly interace, you'll be able to connect IoT Central and Connected Field Service in such a way that: 
+
+- IoT Central will send information about device anomalies to Connected Field Service, which will then create a work order and schedule a technician to fix or prevent 
+- Connected Field Service will create work orders based off of device anomalies 
+- Connected Field Service will then schedule the appropriate technician to address the work order
+- IoT Central will update with relevant work order information
+
+With Azure IoT Central, there's no need for extensive cloud development or coding skills to get up and running. The solution is a fully managed offering. 
+
+Check out our [overview on Connected Field Service for IoT Central](cfs-iot-central-overview.md) for more information.
  
   
 ## Connected Field Service for Azure IoT hub 
