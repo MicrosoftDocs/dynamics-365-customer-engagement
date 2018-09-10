@@ -1,3 +1,4 @@
+---
 title: "Event Management Web Application | MicrosoftDocs"
 description: "Provides information about how you can extend event management  web application functionality."
 ms.custom:
@@ -21,7 +22,7 @@ manager: kvivek
 The Dynamics 365 Event Management feature helps you to organize, manage and process events. when you install Event Management module you will get Event Portal which gives the users an web application where they can know more about the event details. More information: [Even Portal](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/set-up-event-portal).
 
 > [!NOTE]
->  You need to have Dynamics 365 for marketing installed first and Event Portal.
+>  You need to have Dynamics 365 for marketing installed.
 
 The Event Management web application consists of two parts:
 1. Angular frontend
