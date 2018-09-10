@@ -23,7 +23,7 @@ search.app:
   - D365SE
 ---
 
-# JSON reference for events from Social Engagement
+# JSON reference for events from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 This topic applies to version 2.1 of the JSON payload for social posts streamed to [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)] from [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
 
 Latest version of the payload: Version 2.1  
