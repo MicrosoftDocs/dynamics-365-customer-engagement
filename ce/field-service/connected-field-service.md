@@ -35,7 +35,7 @@ search.app:
 -   Address issues faster by remotely monitoring devices and keeping customers in the loop.   
 -   Reduce maintenance costs by dispatching a technician with the right expertise, availability, and location to the job.  
  
-There are **two solutions** you can use to connect devices into the world of Field Service using Dynamics365 for Field Service solution: 
+There are **two solutions** you can use to connect devices into the world of Field Service: 
 
 - Connected Field Service for **Azure IoT Central** 
 - Connected Field Service for **Azure IoT Hub** 
