@@ -8,7 +8,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
 manager: shujoshi
-ms.date: 06/01/2018
+ms.date: 10/01/2018
 ms.topic: get-started-article
 ms.service: dynamics-365-customerservice
 ms.assetid: fbf7f81b-5c92-40a5-8579-711027c4d8ad
@@ -34,8 +34,7 @@ Easily set up and manage your customer service tasks from one place by using Ser
 Use the following links to learn about service management tasks:  
 
 > [!NOTE]
-> With the October'18 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these admin settings, use **Service Management** under **Settings** in the web application. </br>
-Routing Rule sets, Automatic Record Creation, and Service Level Agreements will be available in the Customer Service Hub sitemap in January 2019 release.
+> With the October ’18 release, you can access and manage all admin settings from the Customer Service Hub sitemap except for **Routing Rule sets**, **Automatic Record Creation,** and **Service Level Agreements**. </br> To access and manage these three admin settings, go to **Settings** > **Service Management** in the web application. <br>These three admin settings (Routing Rule sets, Automatic Record Creation, and Service Level Agreements) will be available in the Customer Service Hub sitemap beginning with the January 2019 release.
   
 ## Case Settings with Record Creation and Update Rules
 

@@ -20,7 +20,6 @@
 
 ## [Service Manager Guide](service-manager-guide.md)
 ### [Queues](set-up-queues-manage-activities-cases.md)
-#### [Create or edit a queue ](create-edit-queue.md)
 ### [Parent and child case settings](define-settings-parent-child-cases.md)
 ### [Routing rule sets](create-rules-automatically-route-cases.md)
 ### Automatic record creation and update rules
