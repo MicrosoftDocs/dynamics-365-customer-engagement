@@ -7,7 +7,6 @@ ms.suite: ""
 ms.technology: 
   - "field-service"
 ms.tgt_pltfrm: ""
-ms.topic: "activate-fs-mobile-app-license"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -27,11 +26,11 @@ search.app:
 
 # Connected Field Service for IoT Central - Overview
 
-Integrate Dynamics 365 for Field Service with Azure IoT Central, a fully managed software-as-a-service (SaaS) solution. Using Microsoft Flow's user-friendly interace, you can connect IoT Central and Connected Field Service so that:
+Integrate Dynamics 365 for Field Service with Azure IoT Central, a fully managed software-as-a-service (SaaS) solution. Using Microsoft Flow's templates and user-friendly interace, you can connect IoT Central and Dynamics 365 or Field Service so that:
 
-- IoT Central can send information about device anomalies to Connected Field Service, which can then create a work order and schedule a technician to fix or prevent the issue
+- IoT Central can send information about device anomalies to Connected Field Service, 
+- Connected Field Service can then create a work order and schedule a technician to fix or prevent the issue
 - Connected Field Service can create work orders based off of device anomalies
-- Connected Field Service can then schedule the appropriate technician to address the work order
 - IoT Central can update device records with relevant work order information
 
 With Azure IoT Central, there's no need for extensive cloud development or coding skills to get up and running. The solution is a fully managed offering.
