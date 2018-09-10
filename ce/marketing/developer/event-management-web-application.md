@@ -21,8 +21,6 @@ manager: kvivek
 
 The Dynamics 365 Event Management feature helps you to organize, manage and process events. when you install Event Management module you will get Event Portal which gives the users an web application where they can know more about the event details. More information: [Even Portal](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/set-up-event-portal).
 
-> [!NOTE]
->  You need to have Dynamics 365 for marketing installed.
 
 The Event Management web application consists of two parts:
 1. Angular frontend
@@ -39,7 +37,9 @@ Event Management web application comes as a Dynamics 365 Portal hosted web when 
 
 Frontend part of the app is bundled into couple of resource files that are stored as a Dynamics 365 Portal web-files, and main single page app entry-point is stored as a Dynamics 365 Portal web template. More information [web-files](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/web-files) and [web templates](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/store-content-web-templates).
 
-Although frontend definition is hosted on Dynamics 365 Portal, you can still fully customize it. The backend part of the web application is not customizable since the REST API endpoints are hosted on Dynamics 365 Portal as a set of [web pages](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/web-page), but the code containing the business logic behind it resides in Event Management plugins.
+Although frontend definition is hosted on Dynamics 365 Portal, you can still fully customize it. The backend part of the web application is not customizable since the REST API endpoints are hosted on Dynamics 365 Portal as a set of [web pages](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/web-page), but the code containing the business logic behind it resides in Event Management plugins which is not customizable.
+
+![Portal Hosted](../media/portal-hosted.png "Portal Hosted")
 
 ## Self-hosted
 The advantage of self-hosted backend is that you have more freedom with customization, implement the backend with the technology of  your choice. 
@@ -50,7 +50,9 @@ For backend to communicate with your Dynamics 365 instance, you need to take car
 
 Dynamics 365 authentication and web application authentication are two different things. In the first case we are talking about Dynamics 365 user that backend needs to use to be able to utilize Dynamics 365 web API, and in second case we are talking about your `local` website users, that you don’t strictly have to have. 
 
-It is alwats a good practice to host both frontend and backend on the same domain to comply to same-origin policy. The communication between application parts and Dynamics 365 in this case looks like this.
+It is always a good practice to host both frontend and backend on the same domain to comply to same-origin policy. 
+
+![Self-hosted](../media/self-hosted.png "Self-hosted")
 
 ## Developing and Customizing web application on self-hosted 
 
@@ -99,11 +101,11 @@ let's make some simple changes on the website you have created.
 > [!NOTE]
 > For extensive customization of the frontend you need to be familiar with the [angular framework](https://angular.io/guide/quickstart).
 
-### Self-hosted website specifics
-There are couple of specific regarding self-hosted Event Management website in contrast to Dynamics 365 Portal hosted version. 
-If you are using our .NET Core based backend, you need to set up IIS to work with .NET Core following this instructions. 
-Portal hosted version uses Microsoft HIP Captcha, and the frontend uses the corresponding API call to get it. Self-hosted version doesn’t have captcha and it’s up to you to implement your own captcha if you want to. 
-Portal hosted version uses its own user authentication mechanism, and self-hosted version doesn’t have any user authentication mechanism. It is up to you to implement it if you wish to have authenticated users on your Event Management website version. Backend sample code that we provide has a stub that you can implement to return authenticated user, and frontend should then be able to re-use it out of the box. 
-Portal hosted version has the support for localization, and self-hosted version doesn’t. If you want to support the localization you can re-use the mechanism that portal hosted version has, you just have to implement the API endpoint to return the json containing labels. There is an Angular directive already in place that utilizes that endpoint to get the localized content and overwrite appropriate HTML elements with translated text.
-If you are hosting the Angular app and the backend under same website, and you should to comply to the same origin policy, be careful about backend to ignore the routes that Angular app uses internally. It can “hijack” the routes sometimes. It will work fine while you are clicking through the app, but if you hit refresh it might try to invoke the API endpoint for the route that actually belongs to the Angular app. Just redirect all of those routes to the Angular index file. 
+### Specifics for self-hosted website 
+There are some specifics that should be considered when you self-host your web application in contrast to Dynamics 365 Portal hosted.
+
+- If you prefer to implement backend using **.NET Core** technology, you need to set up **IIS** to work with **.NET Core**. More information: [Instructions](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-2.1&tabs=aspnetcore2x) 
+- Self-hosted type doesn’t have captcha and it’s up to you to implement your own captcha, where as Dynamics 365 Portal hosted type uses **Microsoft HIP** captcha  
+- Portal hosted version has the support for localization, and self-hosted version doesn’t. If you want to support the localization you can re-use the mechanism that portal hosted version has, you just have to implement the API endpoint to return the Json containing labels. There is an Angular directive already in place that utilizes that endpoint to get the localized content and overwrite appropriate HTML elements with translated text.
+
 
