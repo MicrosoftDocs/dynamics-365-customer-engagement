@@ -80,7 +80,7 @@ To develop and customize the frontend part of the web application:
 1. Go to the directory where you have downloaded the source code and run the command `npm install`to fetch all the necessary packages that are required to run the website.
 1. Create a new Chrome shortcut and add `--diable-web-security--user-data-dir="C:\chromeTest"` to bypass the same origin policy.
 1. Go to `\src\app\providers\url.providers.ts` in the source code to point the frontend to the correct API endpoint and change the return value if the `baseURL()` method to your API. You need to add a trailing slash aat the end of the url.
-1. Bypass anti-CSRF token for local development. To do that you need to go to **Portals > Web Templates** and open the **PortalAPI** template and flip the flag `bypassTokenVerification` to `true`. Restart the Dynamics 365 Portal website to see the changes.
+1. Bypass anti-CSRF token for local development. To do that, you need to go to **Portals > Web Templates** and open the **PortalAPI** web template and flip the flag `bypassTokenVerification` to `true`. Restart the Dynamics 365 Portal website to see the changes.
 
 > [!NOTE]
 > The **PortalAPI** web template is added by default when you install Event Management solution.
@@ -110,7 +110,7 @@ let's make some simple changes on the website you have created.
 ### Specifics for self-hosted website 
 There are some specifics that should be considered when you self-host your web application in contrast to Dynamics 365 Portal hosted.
 
-- If you prefer to implement backend using **.NET Core** technology, you need to set up **IIS** to work with **.NET Core**. More information: [Instructions](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-2.1&tabs=aspnetcore2x) 
+- If you prefer to implement backend using **.NET Core** technology, you need to set up **IIS** to work with **.NET Core**. More information: [Set up IIS](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-2.1&tabs=aspnetcore2x) 
 - Self-hosted type doesn’t have captcha and it’s up to you to implement your own captcha, where as Dynamics 365 Portal hosted type uses **Microsoft HIP** captcha  
 - Portal hosted version has the support for localization, and self-hosted version doesn’t. If you want to support the localization you can re-use the mechanism that portal hosted version has, you just have to implement the API endpoint to return the JSON containing labels. There is an Angular directive already in place that utilizes that endpoint to get the localized content and overwrite appropriate HTML elements with translated text.
 
