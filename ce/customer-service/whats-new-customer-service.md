@@ -34,6 +34,11 @@ The October'18 release of Dynamics 365 for Customer Service ensures holistic cus
 
 Following are the new features introduced in the release:
 
+- [Service scheduling powered by Universal Resource Scheduling](#service-scheduling-powered-by-universal-resource-scheduling)
+- [Relevance search enabled for knowledge management ](#relevance-search-enabled-for-knowledge-management)
+- [Enhanced customer service admin settings using Service Management](#enhanced-customer-service-admin-settings-using-service-management)
+
+
 ### Service scheduling powered by Universal Resource Scheduling  
 
 Service scheduling, now built atop Universal Resource Scheduling (URS), provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps in improved service quality by preventing over-scheduling.
