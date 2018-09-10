@@ -19,7 +19,7 @@ manager: kvivek
 
 # Build and host custom event portal
 
-The Dynamics 365 Event Management feature helps you to organize, manage and process events. when you install Event Management module you will get Event Portal which gives the users an web application where they can know more about the event details. More information: [Even Portal](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/set-up-event-portal).
+The Dynamics 365 Event Management feature helps you to organize, manage and process events. When you install Event Management solution you will get an **Event Portal** which gives the users an web application where they can know more about the event details. More information: [Even Portal](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/set-up-event-portal).
 
 
 The Event Management web application consists of two parts:
@@ -33,11 +33,11 @@ There are two ways Event Management web application can be hosted.
 2. Self-hosted
 
 ## Dynamics 365 Portal hosted
-Event Management web application comes as a Dynamics 365 Portal hosted web when you install Event Management module.
+Event Management web application comes as a Dynamics 365 Portal hosted web when you install Event Management solution.
 
-Frontend part of the app is bundled into couple of resource files that are stored as a Dynamics 365 Portal web-files, and main single page app entry-point is stored as a Dynamics 365 Portal web template. More information [web-files](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/web-files) and [web templates](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/store-content-web-templates).
+Frontend part of the application is bundled into two resource files that are stored as Dynamics 365 Portal web-files, and main single page app entry-point is stored as Dynamics 365 Portal web template. More information [web-files](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/web-files) and [web templates](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/store-content-web-templates).
 
-Although frontend definition is hosted on Dynamics 365 Portal, you can still fully customize it. The backend part of the web application is not customizable since the REST API endpoints are hosted on Dynamics 365 Portal as a set of [web pages](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/web-page), but the code containing the business logic behind it resides in Event Management plugins which is not customizable.
+Although frontend definition is hosted on Dynamics 365 Portal, you can still fully customize it. The backend part of the web application is not customizable since the **REST API** endpoints are hosted on Dynamics 365 Portal as a set of [web pages](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/web-page), but the code containing the business logic behind it resides in Event Management plugins which is not customizable.
 
 ![Portal Hosted](../media/portal-hosted.png "Portal Hosted")
 
@@ -54,7 +54,7 @@ It is always a good practice to host both frontend and backend on the same domai
 
 ![Self-hosted](../media/self-hosted.png "Self-hosted")
 
-## Developing and Customizing web application on self-hosted 
+### Developing and Customizing web application on self-hosted backend
 
 To develop and customize the frontend part of the web application:
 
@@ -62,23 +62,29 @@ To develop and customize the frontend part of the web application:
 1. Install [Node](https://nodejs.org/en/download).
 1. Open Node cmd (or reopen if you have it opened) and run `node-v` to check whether the installation is successful or not. More information: [Node.js](https://nodejs.org/en/about).
 1. Run the command `npm install -g @anuglar/cli` to install angular command line interface (cli). This is required to build and run the angular app. More information: [Angular](https://angular.io).
-1. Go to project directory where you have downloaded the source code and run the command `npm install`to fetch all the necessary packages that are required to run the website.
+1. Go to the directory where you have downloaded the source code and run the command `npm install`to fetch all the necessary packages that are required to run the website.
 1. Create a new Chrome shortcut and add `--disable-web-security--user-data-dir="C:\chromeTest"` to bypass the same origin policy.
 1. Go to `\src\app\providers\url.providers.ts` in the source code to point the frontend to the correct API endpoint and change the return value if the `baseURL()` method to your API. You need to add the trailing slash at the end of the url.
 1. Run the command `ng serve` from your working directory to build the website and open the website url in the chrome instance with the shortcut you created.
 
 After the website is build successfully, the output files will show up in `/dist/ClientApp`. You need to copy the files to the root directory of your web server, replacing the existing ones.
 
-## Developing customizing the webapplication on Dynamics 365 Portal hosted backend
+### Developing customizing the web application on Dynamics 365 Portal hosted backend
+
+To develop and customize the frontend part of the web application:
 
 1. Download the [TODO: source code].
 1. Install [Node](https://nodejs.org/en/download).
 1. Open Node cmd (or reopen if you have it opened) and run `node-v` to check whether the installation is successful or not. More information: [Node.js](https://nodejs.org/en/about).
 1. Run the command `npm install -g @anuglar/cli` to install angular command line interface (cli). This is required to build and run the angular app. More information: [Angular](https://angular.io).
-1. Go to project directory where you have downloaded the source code and run the command `npm install`to fetch all the necessary packages that are required to run the website.
+1. Go to the directory where you have downloaded the source code and run the command `npm install`to fetch all the necessary packages that are required to run the website.
 1. Create a new Chrome shortcut and add `--diable-web-security--user-data-dir="C:\chromeTest"` to bypass the same origin policy.
 1. Go to `\src\app\providers\url.providers.ts` in the source code to point the frontend to the correct API endpoint and change the return value if the `baseURL()` method to your API. You need to add a trailing slash aat the end of the url.
 1. Bypass anti-CSRF token for local development. To do that you need to go to **Portals > Web Templates** and open the **PortalAPI** template and flip the flag `bypassTokenVerification` to `true`. Restart the Dynamics 365 Portal website to see the changes.
+
+> [!NOTE]
+> The **PortalAPI** web template is added by default when you install Event Management solution.
+
 - Run the command `ng serve` from your working directory to build the website and open the website url in the chrome instance with the shortcut you created.
 
 After the website is successfully built, your output files will show up in `/dist/ClientApp` directory. You need to replace the files hosted under portals. You don’t need to change all the files, usually main.es and styles.css files are enough for most of the changes, but it is always advised to use some kind of source control tool to track the changes. 
@@ -92,7 +98,7 @@ To replace the files in Dynamics 365, follow the steps below:
 5.	Upload your file as attachment. 
 9.	Restart the portal website and reopen your browser.
 
-### Building and deploying website
+#### Building and deploying website
 let's make some simple changes on the website you have created. 
 - Go to `\src\app\components\home\home.component.html` to add extra paragraph or content that describes the event details or about the event.
 - You can change or add styling to the website by editing the `home.component.css` file in `\src\app\components\home\home.component.css`.
@@ -101,7 +107,7 @@ let's make some simple changes on the website you have created.
 > [!NOTE]
 > For extensive customization of the frontend you need to be familiar with the [angular framework](https://angular.io/guide/quickstart).
 
-### Specifics for self-hosted website 
+#### Specifics for self-hosted website 
 There are some specifics that should be considered when you self-host your web application in contrast to Dynamics 365 Portal hosted.
 
 - If you prefer to implement backend using **.NET Core** technology, you need to set up **IIS** to work with **.NET Core**. More information: [Instructions](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-2.1&tabs=aspnetcore2x) 
