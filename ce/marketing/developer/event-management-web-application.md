@@ -24,7 +24,7 @@ The Dynamics 365 Event Management feature helps you to organize, manage and proc
 
 The Event Management web application consists of two parts:
 1. Angular frontend
-2. Rest API backend
+2. REST API backend
 
 Frontend part is a single page application which is created using [Anuglar](https://angular.io) framework. The frontend part of the web application is fully customizable. Backend and customizability of the backend depends on hosting type.
 
