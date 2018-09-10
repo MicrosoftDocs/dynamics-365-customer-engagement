@@ -60,7 +60,7 @@ To develop and customize the frontend part of the web application:
 
 1. Download the [TODO: source code].
 1. Install [Node](https://nodejs.org/en/download).
-1. Open Node cmd (or reopen if you have it opened) and run `node-v` to check whether the installation is successful or not. More information: [Node.js](https://nodejs.org/en/about).
+1. Open Node cmd (or reopen if you have it opened) and run `node-v` to check whether the installation is successful or not. More information: [Node](https://nodejs.org/en/about).
 1. Run the command `npm install -g @anuglar/cli` to install angular command line interface (cli). This is required to build and run the angular app. More information: [Angular](https://angular.io).
 1. Go to the directory where you have downloaded the source code and run the command `npm install`to fetch all the necessary packages that are required to run the website.
 1. Create a new Chrome shortcut and add `--disable-web-security--user-data-dir="C:\chromeTest"` to bypass the same origin policy.
@@ -75,7 +75,7 @@ To develop and customize the frontend part of the web application:
 
 1. Download the [TODO: source code].
 1. Install [Node](https://nodejs.org/en/download).
-1. Open Node cmd (or reopen if you have it opened) and run `node-v` to check whether the installation is successful or not. More information: [Node.js](https://nodejs.org/en/about).
+1. Open Node cmd (or reopen if you have it opened) and run `node-v` to check whether the installation is successful or not. More information: [Node](https://nodejs.org/en/about).
 1. Run the command `npm install -g @anuglar/cli` to install angular command line interface (cli). This is required to build and run the angular app. More information: [Angular](https://angular.io).
 1. Go to the directory where you have downloaded the source code and run the command `npm install`to fetch all the necessary packages that are required to run the website.
 1. Create a new Chrome shortcut and add `--diable-web-security--user-data-dir="C:\chromeTest"` to bypass the same origin policy.
@@ -98,7 +98,7 @@ To replace the files in Dynamics 365, follow the steps below:
 5.	Upload your file as attachment. 
 9.	Restart the portal website and reopen your browser.
 
-#### Building and deploying website
+### Building and deploying website
 let's make some simple changes on the website you have created. 
 - Go to `\src\app\components\home\home.component.html` to add extra paragraph or content that describes the event details or about the event.
 - You can change or add styling to the website by editing the `home.component.css` file in `\src\app\components\home\home.component.css`.
@@ -107,11 +107,11 @@ let's make some simple changes on the website you have created.
 > [!NOTE]
 > For extensive customization of the frontend you need to be familiar with the [angular framework](https://angular.io/guide/quickstart).
 
-#### Specifics for self-hosted website 
+### Specifics for self-hosted website 
 There are some specifics that should be considered when you self-host your web application in contrast to Dynamics 365 Portal hosted.
 
 - If you prefer to implement backend using **.NET Core** technology, you need to set up **IIS** to work with **.NET Core**. More information: [Instructions](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-2.1&tabs=aspnetcore2x) 
 - Self-hosted type doesn’t have captcha and it’s up to you to implement your own captcha, where as Dynamics 365 Portal hosted type uses **Microsoft HIP** captcha  
-- Portal hosted version has the support for localization, and self-hosted version doesn’t. If you want to support the localization you can re-use the mechanism that portal hosted version has, you just have to implement the API endpoint to return the Json containing labels. There is an Angular directive already in place that utilizes that endpoint to get the localized content and overwrite appropriate HTML elements with translated text.
+- Portal hosted version has the support for localization, and self-hosted version doesn’t. If you want to support the localization you can re-use the mechanism that portal hosted version has, you just have to implement the API endpoint to return the JSON containing labels. There is an Angular directive already in place that utilizes that endpoint to get the localized content and overwrite appropriate HTML elements with translated text.
 
 
