@@ -20,12 +20,12 @@
 
 ## [Service Manager Guide](service-manager-guide.md)
 ### [Queues](set-up-queues-manage-activities-cases.md)
-### [Parent and Child case settings](define-settings-parent-child-cases.md)
+### [Parent Child case settings](define-settings-parent-child-cases.md)
 ### [Routing rule sets](create-rules-automatically-route-cases.md)
 ### Automatic record creation and update rules
 #### [Automatically create a case from an email](automatically-create-case-from-email.md)
 #### [Automatically create and update records](set-up-rules-to-automatically-create-or-update-records.md)
-### [Subjects](../admin/define-subjects-categorize-cases-products-articles.md) 
+### [Subjects](create-manage-subject-tree.md)
 ### [Service Level Agreements](define-service-level-agreements.md)
 #### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
 ### [Entitlements](create-entitlement-define-support-terms-customer.md)

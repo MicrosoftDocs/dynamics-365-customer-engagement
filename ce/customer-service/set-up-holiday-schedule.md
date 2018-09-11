@@ -30,24 +30,25 @@ Avoid having your service level agreements (SLAs) affected when your service org
   
 For example, if your service organization has an SLA to reply to email cases within two business days, you can create a holiday schedule and add it to your service calendar. Then, if a customer submits an email case on that holiday, your SLA is clear and is not affected by the holiday closure.  
 
-## Create Holiday schedule  
+> [!NOTE]
+> With the October'18 release, Holiday schedule in service management is available in the Customer Service Hub based on Unified Interface experience. You are recommended to create and manage queues using the new experience.
+
+## Create holiday schedule  
 Follow the procedure given below to create a new holiday schedule:
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
   
    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)] [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
+2. In the Customer Service Hub sitemap, go to **Service Management** and select **Service Terms** > **Holiday Schedule**.
   
-3. Click **Holiday Schedule**.  
+4. Select **New** and in the **Create Holiday Schedule** dialog box, enter a name and description for the holiday, and then select **Create**.  
   
-4. Click **+** **New** and in the **Create Holiday Schedule** dialog box, enter a name and description for the holiday, and then click **Create**.  
+5. In the list of holidays, select the holiday you created.  
   
-5. In the list of holidays, click the holiday you created.  
+6. When the holiday is open, select **New** to add the holiday to your customer service calendar.  
   
-6. When the holiday is open, click **New** to add the holiday to your customer service calendar.  
-  
-7. In the **Add a Holiday** dialog box, specify the name and select the time of the holiday, and then click **OK**.  
+7. In the **Add a Holiday** dialog box, specify the name and select the time of the holiday, and then select **OK**.  
   
    The holiday is created and associated with your customer service calendar. After the customer service schedule is associated to an SLA,  then your SLA during business hours is not affected. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define service level agreements](../customer-service/define-service-level-agreements.md)  
  

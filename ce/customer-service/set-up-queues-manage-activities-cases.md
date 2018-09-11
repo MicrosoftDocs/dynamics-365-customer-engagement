@@ -44,8 +44,6 @@ Use queues to categorize and prioritize your activities and cases. You can categ
   
 -   Different geography  
 
-## Queues overview
-
  By default, a queue is created for each user and team in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both. How you set up queues depends on how your business works. 
 
 For example, you could create separate queues for first tier and second tier product support teams that reflect their differing levels of expertise, or Gold and Silver queues to reflect differing priorities based on service contracts that customers have with your organization.  
@@ -54,6 +52,9 @@ For example, you could create separate queues for first tier and second tier pro
 
 - **Private queue:** Create private queues with limited sets of members to let only those members view the items in the queue
 - **Public queue:** Create public queues to let everyone in the organization view the items in a queue
+
+> [!NOTE]
+> With the October'18 release, Queues in service management is available in the Customer Service Hub, based on Unified Interface experience. You are recommended to create and manage queues using the new experience.
   
 ## Create queues  
   
@@ -67,15 +68,13 @@ Follow the steps given below to create or edit a queue:
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2. Go to **Settings** > **Service Management**.  
+2. In the Customer Service Hub sitemap, go to **Service Management** and select **Case Settings** > **Queues**.
   
-3. [!INCLUDE[proc_click_or_tap_queues](../includes/proc-click-or-tap-queues.md)]  
-  
-4. To create a new queue, click **New**.  
+3. To create a new queue, select **New**.  
   
     -OR-  
   
-    To edit a queue, in the list of queues, click the queue, and then on the command bar, click **Edit**.  
+    To edit a queue, select the queue in the list of queues, and then on the command bar, select **Edit**.  
   
 5. Type or change information in the text boxes.  
   
@@ -83,41 +82,45 @@ Follow the steps given below to create or edit a queue:
   
    - In the **Summary** section, complete the required fields.  
   
-   - In the **Name** field, type the name of the queue.  
+      - In the **Name** field, type the name of the queue.  
   
-   - In the **Type** field, choose if the queue is a private or public queue. You can use a private queue to allow only a specific set of people to work on activities in this queue.  
+      - In the **Type** field, choose if the queue is a private or public queue. You can use a private queue to allow only a specific set of people to work on activities in this queue.  
   
-      If you’re creating a private queue, you’ll need to add members to this queue manually. In the **Members** section, click the **Add** button **+** to add members to the queue. Only these members will be able to work on the items in this queue.  
+        If you’re creating a private queue, you’ll need to add members to this queue manually. In the **Members** section, select the **Add** button **+** to add members to the queue. Only these members will be able to work on the items in this queue.  
   
-     > [!NOTE]
-     >  The email address you enter in the **Incoming Email** field receives all messages sent to the queue.  
+        > [!NOTE]
+        >  The email address that you enter in the **Incoming Email** field receives all messages sent to the queue.  
+      - Write a description in the **Description** field.
   
    - In the **Email Settings** section, in the **Convert to email activities** drop-down list, choose which messages to track as activities.  
   
-   - In the **Mailbox** field, a mailbox record for the queue is automatically created and selected as soon as you save the queue record. To update the mailbox details, click the mailbox name. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](../admin/create-forward-mailboxes-edit-mailboxes.md)  
+      - In the **Mailbox** field, a mailbox record for the queue is automatically created and selected as soon as you save the queue record. To update the mailbox details, select the mailbox name. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](../admin/create-forward-mailboxes-edit-mailboxes.md)  
   
-   - In the **Record creation and update rules** section, add a **Record Creation and Update Rule** record. By using these rules, you can automatically create or update system or custom records from incoming [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] activities, such as emails, social activities, or custom activities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up rules to automatically create or update records](../customer-service/set-up-rules-to-automatically-create-or-update-records.md)  
+   - In the **Record Creation and Update Rules** section, add a **Record Creation and Update Rule** record. By using these rules, you can automatically create or update system or custom records from incoming [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] activities, such as emails, social activities, or custom activities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up rules to automatically create or update records](../customer-service/set-up-rules-to-automatically-create-or-update-records.md)  
   
    > [!IMPORTANT]
    >  This is a central place to manage rules across all supported activities including out-of-the-box and custom activities associated with the queue.  
    >  The **Record creation and update rules** section displays rules using the **Email Activity Conversation Setting**  or **Social Activity Conversation Setting** and that have the same queue ID as the queue.   
    >  Multiple rules with the same source type and same queue can exist. Therefore, when you click **Email Activity Conversion Settings** or **Social Activity Conversion Settings**, the rule with the latest **Last Modified On** date is applied.  
   
-6. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)] 
+6. Select **Save**.
 
-## View queue items  
- In the **Queue Items** section, all activities that are either routed to this queue automatically by the routing rules or the activities that are manually assigned to this queue will be listed here.  
+## View queue items for a queue 
+ In the **Queue Items** section, all activities that are either routed to this queue automatically by the routing rules or the activities that are manually assigned to this queue are listed.  
   
 ## Route items to queues  
- For all cases that are automatically created from incoming email and social posts, create routing rules to route the cases to queues. Then assign the items in the queue to appropriate CSRs or users. Alternatively, you can manually add cases and activities to queues.  
-  
-## Assign items in the queue to work  
- Queues share cases or activities as a group until these are taken out of the queue, or accepted, by a customer service representative (CSR) who assumes responsibility for handling them. CSRs can pick the items for themselves, or a customer service manager (CSM) can manually route these cases to the CSRs or to other queues, users, or teams.  
+ For all cases that are automatically created from incoming email and social posts, create routing rules to route the cases to queues. Then, assign the items in the queue to appropriate agents. 
 
-## Additional actions  
- To create records for this queue, on the command bar, click **Email Activity Conversation Settings** or **Social Activity Conversation Settings**.  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create rules to automatically route cases](create-rules-automatically-route-cases.md)
+
+Alternatively, you can manually add cases and activities to queues.  
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a case to a queue](customer-service-hub-user-guide-case-sla.md#add-a-case-to-a-queue)
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up rules to automatically create or update records](../customer-service/set-up-rules-to-automatically-create-or-update-records.md) or [Automatically create a case from an email](../customer-service/automatically-create-case-from-email.md)
+## Assign items to agents
+ Queues share cases or activities as a group until these are taken out of the queue, or accepted, by a customer service agent who assumes responsibility for handling them. Agents can pick the items for themselves, or a customer service manager (CSM) can manually route these cases to the CSRs or to other queues, users, or teams.  
+
+To assign items in the queue to agents, select **Assign** after selecting one or multiple items in the queues grid. In the **Assign Queue** box, you can choose to assign to other users or teams.
   
 ### See also  
 

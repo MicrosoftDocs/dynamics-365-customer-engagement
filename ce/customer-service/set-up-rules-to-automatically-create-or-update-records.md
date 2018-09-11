@@ -135,7 +135,7 @@ If your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance mee
   
         > [!NOTE]
         >  You can associate only one rule per source type to a specific queue. For example: If you’re creating a rule to convert an email to a case, make sure you specify an email address for this queue. Otherwise, automatic record creation for email won’t work. 
-        [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](../customer-service/create-edit-queue.md)  
+        [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](set-up-queues-manage-activities-cases.md#create-queues)
   
 6.  Click **Save**.  
 
@@ -325,7 +325,7 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 ## Manage automatic record creation and update from a queue form  
  You can create or manage an automatic record creation and update rule from a queue form, too. To do this, open the queue record, and on the command bar, click **Email Activity Conversion Settings** or **Social Activity Conversion Settings**.  
 
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](../customer-service/create-edit-queue.md)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue ](set-up-queues-manage-activities-cases.md#create-queues)
 
 
 ## Upgrade considerations  
