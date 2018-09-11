@@ -21,7 +21,7 @@ ms.tgt_pltfrm:
 
 Portal development involves several configurations and customizations to achieve a desired experience for portal end users.
 
-After you have completed development or configuration of your Dynamics 365 Portal organization, you might want to migrate your latest Dynamics 365 Portal configuration from development to testing or the production environments. Migration involves exporting the existing configuration from the source Dynamics 365 instance, and then importing it into the target Dynamics 365 instance.
+After you have completed development or configuration of your Dynamics 365 Portal instance, you might want to migrate your latest Dynamics 365 Portal configuration from development to testing or the production environments. Migration involves exporting the existing configuration from the source Dynamics 365 instance, and then importing it into the target Dynamics 365 instance.
 
 To export configuration data, you would need to use the Configuration Migration tool and a portal-specific configuration schema file. For more information about this tool, see [Manage configuration data](https://technet.microsoft.com/en-us/library/dn647421.aspx).
 
