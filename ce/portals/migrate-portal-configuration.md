@@ -1,18 +1,20 @@
 ---
 title: "Migrate Dynamics 365 Portal configuration | MicrosoftDocs"
 description: "Learn how to migrate Dynamics 365 Portal configuration."
+keywords: ""
+ms.date: 09/11/2018
+ms.service:
+  - "dynamics-365-customerservice"
 ms.custom:
-  - dyn365-portal
-ms.date: 08/30/2018
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
+  - "dyn365-portal"
 ms.topic: article
 ms.assetid: 79637CA7-386D-4BAF-91F4-13CF96E5434F
-ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
 manager: shubhadaj
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 ---
 
 # Migrate Dynamics 365 Portal configuration
@@ -28,11 +30,11 @@ To export configuration data, you would need to use the Configuration Migration 
 > - The minimum solution version of Dynamics 365 Portal supported by schema files for configuration migration is 8.4.0.275. However, we recommend that you use the latest solution version.
 
 Schema files are available for the following portal types:
-- Community portal
-- Customer Self-Service portal
-- Partner portal
-- Employee Self-Service portal
-- Custom portal
+- [Community portal](https://go.microsoft.com/fwlink/p/?linkid=2019704)
+- [Customer Self-Service portal](https://go.microsoft.com/fwlink/p/?linkid=2019705)
+- [Partner portal](https://go.microsoft.com/fwlink/p/?linkid=2019803)
+- [Employee Self-Service portal](https://go.microsoft.com/fwlink/p/?linkid=2019802)
+- [Custom portal](https://go.microsoft.com/fwlink/p/?linkid=2019804)
 
 The default schema files contain information about portal entities, relationships, and uniqueness definitions for each entity. More information: [Export portal configuration data](#export-portal-configuration-data)
 
