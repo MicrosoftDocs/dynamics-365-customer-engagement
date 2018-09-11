@@ -1,5 +1,5 @@
 ---
-title: "Event Management Web Application | MicrosoftDocs"
+title: "Build and host a custom event portal | MicrosoftDocs"
 description: "Provides information about how you can extend event management  web application functionality."
 ms.custom:
   - dyn365-developer
@@ -23,14 +23,14 @@ The Dynamics 365 Event Management feature helps you to organize, manage and proc
 
 
 The Event Management web application consists of two parts:
-1. Angular frontend
-2. REST API backend
+- Angular frontend
+- REST API backend
 
 The frontend part is a single page application which is created using [Angular](https://angular.io) framework. The frontend part of the web application is fully customizable. Backend and customizability of the backend depends on hosting type.
 
-There are two ways Event Management web application can be hosted.
-1. Dynamics 365 Portal hosted
-2. Self-hosted
+There are two ways in which the Event Management web application can be hosted.
+- [Dynamics 365 Portal hosted](#dynamics-365-portal-hosted)
+- [Self-hosted](#self-hosted)
 
 ## Dynamics 365 Portal hosted
 Event Management web application comes as a Dynamics 365 Portal hosted web when you install the Event Management solution.
@@ -41,7 +41,7 @@ Although, the frontend definition is hosted on Dynamics 365 Portal, you can stil
 
 ![Portal Hosted](../media/portal-hosted.png "Portal Hosted")
 
-### Developing customizing the web application on Dynamics 365 Portal hosted backend
+### Developing and customizing the web application on Dynamics 365 Portal hosted backend
 
 To develop and customize the frontend part of the web application:
 
@@ -109,7 +109,7 @@ let's make some simple changes on the website that you have created.
 > [!NOTE]
 > For extensive customization of the frontend you need to be familiar with the [angular framework](https://angular.io/guide/quickstart).
 
-## Specifics for self-hosted website 
+## Considerations for self-hosted website 
 There are some specifics that should be considered when you self-host your web application in contrast to Dynamics 365 Portal hosted.
 
 - If you prefer to implement backend using **.NET Core** technology, you need to set up **IIS** to work with **.NET Core**. More information: [Set up IIS](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-2.1&tabs=aspnetcore2x) 
