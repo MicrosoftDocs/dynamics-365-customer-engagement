@@ -17,7 +17,7 @@ ms.author: nabuthuk
 manager: kvivek
 ---
 
-# Build and host custom event portal
+# Build and host a custom event portal
 
 The Dynamics 365 Event Management feature helps you to organize, manage and process events. When you install Event Management solution you will get an **Event Portal** which gives the users an web application where they can know more about the event details. More information: [Even Portal](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/set-up-event-portal).
 
@@ -48,7 +48,7 @@ You can use the demo backend and data contract for communication between the fro
 
 For backend to communicate with your Dynamics 365 instance, you need to take care of Dynamics 365 authentication and use Dynamics 365 webservice. You need to implement authentication mechanism by yourself, depending on the technology you selected for the backend. If you want event registration to be linked to appropriate user who created it, make sure that you create Dynamics 365 contact for every new website user. 
 
-Dynamics 365 authentication and web application authentication are two different things. In the first case we are talking about Dynamics 365 user that backend needs to use to be able to utilize Dynamics 365 web API, and in second case we are talking about your `local` website users, that you don’t strictly have to have. 
+Dynamics 365 authentication and web application authentication are two different things. In the first case we are talking about Dynamics 365 user that backend needs to use to be able to utilize Dynamics 365 web API, and in second case we are talking about the  `local` website users, that you don’t strictly need to have. 
 
 It is always a good practice to host both frontend and backend on the same domain to comply to same-origin policy. 
 
@@ -78,7 +78,7 @@ To develop and customize the frontend part of the web application:
 1. Open Node cmd (or reopen if you have it opened) and run `node-v` to check whether the installation is successful or not. More information: [Node](https://nodejs.org/en/about).
 1. Run the command `npm install -g @anuglar/cli` to install angular command line interface (cli). This is required to build and run the angular app. More information: [Angular](https://angular.io).
 1. Go to the directory where you have downloaded the source code and run the command `npm install`to fetch all the necessary packages that are required to run the website.
-1. Create a new Chrome shortcut and add `--diable-web-security--user-data-dir="C:\chromeTest"` to bypass the same origin policy.
+1. Create a new Chrome shortcut and add `--disable-web-security--user-data-dir="C:\chromeTest"` to bypass the same origin policy.
 1. Go to `\src\app\providers\url.providers.ts` in the source code to point the frontend to the correct API endpoint and change the return value if the `baseURL()` method to your API. You need to add a trailing slash aat the end of the url.
 1. Bypass anti-CSRF token for local development. To do that, you need to go to **Portals > Web Templates** and open the **PortalAPI** web template and flip the flag `bypassTokenVerification` to `true`. Restart the Dynamics 365 Portal website to see the changes.
 
@@ -102,7 +102,8 @@ To replace the files in Dynamics 365, follow the steps below:
 let's make some simple changes on the website you have created. 
 - Go to `\src\app\components\home\home.component.html` to add extra paragraph or content that describes the event details or about the event.
 - You can change or add styling to the website by editing the `home.component.css` file in `\src\app\components\home\home.component.css`.
-- After you make necessary changes, run the command `ng build --prod --output-hashing none` to build and deploy the latest changes.
+- After you make necessary changes, run the command `ng build --prod --output-hashing none` to build and deploy the latest changes for self-hosted backend.
+- Run the command `BuildForPortalHosting.ps script`, if you are using Dynamics 365 Portal hosted backend.
 
 > [!NOTE]
 > For extensive customization of the frontend you need to be familiar with the [angular framework](https://angular.io/guide/quickstart).
