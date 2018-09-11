@@ -8,7 +8,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
 manager: shujoshi
-ms.date: 06/01/2018
+ms.date: 10/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: ee605a89-4bd5-4b93-8d45-2ec9ca0a9b8a
@@ -29,6 +29,9 @@ search.app:
 To define when your service or support team is available for providing support to customers, create a customer service schedule in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. A customer service schedule determines the business hours for each day in a week and also the weekly off. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] uses these details for time tracking of service level agreements (SLAs).  
   
  For SLA time tracking, make sure you add a holiday schedule to the customer service schedule, and associate this customer service schedule to the SLA record.  
+
+> [!NOTE]
+> With the October'18 release, Customer Service Schedule in service management is available in the Customer Service Hub based on Unified Interface experience. You are recommended to create and manage customer service schedules using the new experience.
   
 ## Create a customer service schedule  
   
@@ -40,17 +43,15 @@ To define when your service or support team is available for providing support t
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
+2.  In the Customer Service Hub sitemap, go to **Service Management** and select **Service Terms** > **Customer Service Schedule**.
   
-3. Select **Customer Service Schedule**.  
-  
-4. To create a new customer service schedule, click **+ New**.  
+4. To create a new customer service schedule, select **New**.  
   
     -OR-  
   
-    To edit a schedule that you already have, in the list of records, select the schedule, and on the command bar, click **Edit**.  
+    To edit a schedule that you already have, select the schedule in the list of records, and on the command bar, select **Edit**.  
   
-5. In the **Create Customer Service Schedule** dialog box, in the **Name** box, type a meaningful name for the schedule, like “APAC Customer Schedule”, and click **Create**.  
+5. In the **Create Customer Service Schedule** dialog box, in the **Name** box, type a meaningful name for the schedule, like “APAC Customer Schedule”, and select **Create**.  
   
 6. In the **Weekly Schedule** dialog box, under **Set the recurring weekly schedule** section, follow these steps:  
   
@@ -58,9 +59,9 @@ To define when your service or support team is available for providing support t
   
    1. For work hours, select one of these options:  
   
-      - **Are the same each day**. The schedule is the same for every day of the week. After you select this option, to select the days of the week that the customer support is available, click **Set Work Hours**.  
+      - **Are the same each day**. The schedule is the same for every day of the week. After you select this option, to select the days of the week that the customer support is available, select **Set Work Hours**.  
   
-           To set the work hours for the days, click **Set Work Hours**. For more information, see the **Define work hours for the customer service schedule section** in this topic.  
+           To set the work hours for the days, select **Set Work Hours**. For more information, see the **Define work hours for the customer service schedule section** in this topic.  
   
       - **Vary by day**. The new schedule is different for one or more days of the week. After you select this option, select the days of the week that the customer support is available, and also specify the work hours for each day.  
   
@@ -74,10 +75,10 @@ To define when your service or support team is available for providing support t
   
 7. Under **Select the time zone**, in the **Time Zone** drop-down box, select the time zone in which your customer support resources will work.  
   
-6. [!INCLUDE[proc_click_or_tap_save_and_close](../includes/proc-click-or-tap-save-and-close.md)]  
+6. [!INCLUDE[proc_select_or_tap_save_and_close](../includes/proc-select-or-tap-save-and-close.md)]  
   
 ## Define the work hours for the schedule  
- In the **Set Work Hours** dialog box, complete the following fields, and then click **OK**:  
+ In the **Set Work Hours** dialog box, complete the following fields, and then select **OK**:  
   
 - **Start**  
   
@@ -87,7 +88,7 @@ To define when your service or support team is available for providing support t
   
      Select the time the work day ends.  
   
-  To add a break in the work hours, like a lunch break, click **Add Break**, and then select the start and end time of the break.  
+  To add a break in the work hours, like a lunch break, select **Add Break**, and then select the start and end time of the break.  
   
 ### See also  
  [Set up a holiday schedule](../customer-service/set-up-holiday-schedule.md)  

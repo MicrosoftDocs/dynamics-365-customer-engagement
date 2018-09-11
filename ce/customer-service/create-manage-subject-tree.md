@@ -58,7 +58,7 @@ search.app:
   
     - **Description**: Type a descriptive statement about the subject.  
   
-4.  Click **Save**.  
+4.  Select **Save**.  
 
 > [!NOTE]
 > If you select a subject in the subject tree and select **Add Subject**, select the **Parent Subject** box to make it a parent subject. If you do not select the box, the new subject will be added as a child of that subject.

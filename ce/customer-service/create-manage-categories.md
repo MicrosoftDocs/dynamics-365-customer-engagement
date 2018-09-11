@@ -8,7 +8,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
 manager: shujoshi
-ms.date: 06/01/2018
+ms.date: 10/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 10494df7-b60f-4394-81de-1c602a5874cc
@@ -28,6 +28,9 @@ Using **Categories** entity, you can create hierarchical categorical data to hel
 
 Categories are useful for reporting, sorting, segmenting, and categorization of records. 
 
+> [!NOTE]
+> With the October'18 release, Categories in service management is available in the Customer Service Hub based on Unified Interface experience. You are recommended to create and manage categories using the new experience.
+
 ## Create categories
 
 Follow the procedure given below to create a category:
@@ -40,9 +43,7 @@ Follow the procedure given below to create a category:
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
-  
-3. Select **Categories**.
+2. In the Customer Service Hub sitemap, go to **Service Management** and select **Knowledge Base Management** > **Categories**.
 
 3. To create a new category, select **New**.  
   

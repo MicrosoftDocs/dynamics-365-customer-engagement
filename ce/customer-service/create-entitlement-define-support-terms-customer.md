@@ -43,9 +43,9 @@ Define what kind of support your customers are eligible for by creating entitlem
   
 2. In the Customer Service Hub sitemap, go to **Service Management** and select **Service Terms** > **Entitlements**.
   
-4. To create a new entitlement from a template, select **New** > **From Template**. In the **Select Template** dialog box, select the entitlement template, and click **Select**.  
+4. To create a new entitlement from a template, select **New** > **From Template**. In the **Select Template** dialog box, select the entitlement template, and select **Select**.  
   
-   To create a new entitlement from scratch, click **New** > **Blank Entitlement**. 
+   To create a new entitlement from scratch, select **New** > **Blank Entitlement**. 
   
 5. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
 
@@ -59,7 +59,7 @@ Define what kind of support your customers are eligible for by creating entitlem
   
      - **End Date**. Choose the date after which the customer will no longer be entitled for support.  
   
-     - **Restrict based on entitlement terms**. To make sure no cases are created when the entitlement term is over, click **Yes**. When you choose **Yes**, a customer service agent won’t be able to create a case when **Remaining Terms** is fewer than zero OR when the term remaining for a channel is less than zero.  
+     - **Restrict based on entitlement terms**. To make sure no cases are created when the entitlement term is over, select **Yes**. When you choose **Yes**, a customer service agent won’t be able to create a case when **Remaining Terms** is fewer than zero OR when the term remaining for a channel is less than zero.  
   
      - **SLA**. Choose a service level agreement (SLA) record to associate the service levels or key performance indicators for the support you’re providing with this entitlement.  
      - **Owner**. Specify the owner of the entitlement.
@@ -117,7 +117,7 @@ As you save the entitlement, additional sections are added for a new entitlement
   
 2.  In the **Search** box, type the first few letters of the name of the product that you want to associate with the entitlement.  
   
-     If a product isn’t available, click **New** to create a new one.  
+     If a product isn’t available, select **New** to create a new one.  
   
 ### Associate a customer contact with the entitlement  
  To let only certain contacts of a customer claim the entitlement for a specific product, associate the contacts with the entitlement.  
@@ -129,7 +129,7 @@ As you save the entitlement, additional sections are added for a new entitlement
   
 2. In the **Search** box, type the first few letters of the contact that you want to associate with the entitlement. This contact record must belong to the account or contact specified in the **Customer** field.  
   
-    If a contact isn’t available, click **New** to create a new contact record.  
+    If a contact isn’t available, select **New** to create a new contact record.  
   
    All active entitlements for a customer appear in the **Active Entitlements** section of the customer record.  
   
@@ -146,25 +146,25 @@ As you save the entitlement, additional sections are added for a new entitlement
    When an entitlement is active, you can’t edit it. To deactivate an entitlement so you can edit it, on the command bar, select **Deactivate**.  
   
 ## Set an entitlement as default entitlement  
- You can activate the entitlement and then set it as the default entitlement for a customer. The entitlement terms from the associated entitlement are automatically decremented. However, if you don’t want the entitlement terms to be decremented for a case, click <strong>Do not decrement entitlement terms</strong> on the command bar.  
+ You can activate the entitlement and then set it as the default entitlement for a customer. The entitlement terms from the associated entitlement are automatically decremented. However, if you don’t want the entitlement terms to be decremented for a case, select **Do not decrement entitlement terms** on the command bar.  
   
-1. On the command bar, click **Set As Default**.  
+1. On the command bar, select **Set As Default**.  
   
-2. In the **Confirm set default** dialog box, click **OK**.  
+2. In the **Confirm set default** dialog box, select **OK**.  
   
    Now the default entitlement will automatically be applied when a case is created or when a case is updated depending on what you selected for default entitlements in the system settings area. For more information, see the **Automatically apply entitlement** section in step 4 here, [System Settings dialog box - Service tab](../admin/system-settings-dialog-box-service-tab.md).  
   
 ## Associate entitlements to cases  
- In a case record, in the **Entitlement** field, click the **Lookup** button,and select an entitlement. The inline lookup shows only the active entitlement for the customer of the case.  
+ In a case record, in the **Entitlement** field, select the **Lookup** button,and select an entitlement. The inline lookup shows only the active entitlement for the customer of the case.  
   
  The Entitlements section in the case record lists all the active entitlements for the customer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [See recent cases and entitlements](customer-service-hub-user-guide-case-sla.md#see-recent-cases-and-entitlements)
 
   
 ## Cancel an entitlement  
- If the entitlement is no longer valid, you can cancel it. To cancel an active or waiting entitlement, open the entitlement, and on the command bar, click **Cancel**.  
+ If the entitlement is no longer valid, you can cancel it. To cancel an active or waiting entitlement, open the entitlement, and on the command bar, select **Cancel**.  
   
 ## Renew an entitlement  
- To renew a canceled or expired entitlement, open the entitlement, and then on the command bar, click **Renew**.  
+ To renew a canceled or expired entitlement, open the entitlement, and then on the command bar, select **Renew**.  
   
  The current entitlement will be set to **Closed** and a new entitlement will be created.  
   
