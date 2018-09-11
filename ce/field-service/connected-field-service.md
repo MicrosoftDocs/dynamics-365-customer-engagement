@@ -46,19 +46,19 @@ See below for the differences between the two solutions.
 
 Integrate Dynamics 365 for Field Service with Azure IoT Central, a fully managed software-as-a-service (SaaS) solution. Using Microsoft Flow's user-friendly interace, you'll be able to connect IoT Central and Connected Field Service in such a way that: 
 
-- IoT Central will send information about device anomalies to Connected Field Service, which will then create a work order and schedule a technician to fix or prevent 
-- Connected Field Service will create work orders based off of device anomalies 
-- Connected Field Service will then schedule the appropriate technician to address the work order
-- IoT Central will update with relevant work order information
+- IoT Central can send information about device anomalies to Connected Field Service, 
+- Connected Field Service can then create a work order and schedule a technician to fix or prevent the issue
+- Connected Field Service can create work orders based off of device anomalies
+- IoT Central can update device records with relevant work order information
 
 With Azure IoT Central, there's no need for extensive cloud development or coding skills to get up and running. The solution is a fully managed offering. 
 
 Check out our [overview on Connected Field Service for IoT Central](cfs-iot-central-overview.md) for more information.
  
   
-## Connected Field Service for Azure IoT hub 
+## Connected Field Service for Azure IoT Hub 
  
-An add-on solution that brings Azure IoT PaaS offering into Dynamics365 for Field Service. Run a deployment app to put all the Azure IoT services and Dynamics puzzles together.  
+Connected Field Service for Azure IoT Hub is an n add-on solution that brings Azure IoT platform-as-a-service (PaaS) offering into Dynamics365 for Field Service. With this offering, you can run a deployment app to put all the Azure IoT services and Dynamics puzzles together.  
  
 All Azure IoT services are running in your own Azure cloud subscription and we built an enterprise ready template and you have all the control to customize the open source template for each Azure IoT service.  
   
