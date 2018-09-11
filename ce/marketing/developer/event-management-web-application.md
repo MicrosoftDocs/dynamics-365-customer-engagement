@@ -45,7 +45,7 @@ Although, the frontend definition is hosted on Dynamics 365 Portal, you can stil
 
 To develop and customize the frontend part of the web application:
 
-1. Download the [Source code](https://go.microsoft.com/fwlink/linkid=202017).
+1. Download the [Source code](https://go.microsoft.com/fwlink/?linkid=202017).
 1. Install [Node](https://nodejs.org/en/download).
 1. Open Node cmd (or reopen if you have it opened) and run `node-v` to check whether the installation is successful or not. More information: [Node](https://nodejs.org/en/about).
 1. Run the command `npm install -g @angular/cli` to install Angular command line interface (cli). This is required to build and run the angular app. More information: [Angular](https://angular.io).
@@ -87,7 +87,7 @@ Dynamics 365 authentication and web application authentication are two different
 
 To develop and customize the frontend part of the web application:
 
-1. Download the [Source code](https://go.microsoft.com/fwlink/linkid=202017).
+1. Download the [Source code](https://go.microsoft.com/fwlink/?linkid=202017).
 1. Install [Node](https://nodejs.org/en/download).
 1. Open Node cmd (or reopen if you have it opened) and run `node-v` to check whether the installation is successful or not. More information: [Node](https://nodejs.org/en/about).
 1. Run the command `npm install -g @angular/cli` to install Angular command line interface (cli). This is required to build and run the angular application. More information: [Angular](https://angular.io).
