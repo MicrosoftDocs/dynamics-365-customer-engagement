@@ -1,7 +1,7 @@
 ---
 title: Service Manager Guide (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Service Manager Guide for Customer Service for Dynamics 365
-keywords: Service Manager Guide; Dynamics 365; Customer Service Hub; set up service management tasks; access service management
+keywords: Service Manager Guide; Dynamics 365; Customer Service Hub; set up customer service admin tasks; access service management
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
@@ -26,21 +26,32 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Easily set up and manage your customer service tasks from one place by using Service Management. Set up everything related to customer service, like defining parent-child case hierarchy, creating queues, routing rule sets, rules for automatic case creation, service level agreements (SLAs), entitlements, and customer service schedule. 
+Service Management module lets your customers quickly deploy their business processes. It helps customer service managers automate various customer service processes, improve agent turn-around time, and lead towards optimum customer satisfaction. 
+
+Service Management module empowers the admin to set up everything related to customer service, like defining parent-child case hierarchy, creating queues,routing rule sets, rules for automatic case creation, service level agreements (SLAs), entitlements, and customer service schedule. 
+
+Service Management now moves under the Customer Service Hub, enabling customer service managers to access the configurations from inside the application. Built on Unified Interface, the new Service Management helps to easily configure service tasks, enabling increased productivity.
   
-> [!NOTE]
-> If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../customize/edit-entities.md#enable-or-disable-entity-options).
-
-Use the following links to learn about service management tasks:  
-
 > [!NOTE]
 > With the October ’18 release, you can access and manage all admin settings from the Customer Service Hub sitemap except for **Routing Rule sets**, **Automatic Record Creation,** and **Service Level Agreements**. </br> To access and manage these three admin settings, go to **Settings** > **Service Management** in the web application. <br>These three admin settings (Routing Rule sets, Automatic Record Creation, and Service Level Agreements) will be available in the Customer Service Hub sitemap beginning with the January 2019 release.
-  
-## Case Settings with Record Creation and Update Rules
+
+## Access Service Management
+
+Use the Service Manager to set up various admin tasks for customer service. You can access service management from the Customer Service Hub sitemap.
+
+In the Customer Service Hub sitemap, select **...** to go to Service Management.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand the sitemap navigation](customer-service-hub-user-guide-basics.md#understand-the-sitemap-navigation)
+
+  ![Access service management](media/access-service-management.png)
+
+
+
+## Case Settings
 
 [Queues](set-up-queues-manage-activities-cases.md)
 
-[Parent and child case settings](define-settings-parent-child-cases.md)
+[Parent and Child case settings](define-settings-parent-child-cases.md)
 
 [Routing Rule Sets](create-rules-automatically-route-cases.md)
 
@@ -74,7 +85,7 @@ Use the following links to learn about service management tasks:
 
 [Article Templates](../admin/create-templates-articles.md)
 
-## Service Scheduling
+## Service Scheduling (deprecated)
 
 [Business Closure](set-when-business-closed.md)
 
@@ -86,7 +97,6 @@ Use the following links to learn about service management tasks:
 
 [Sites](use-sites-manage-service-locations.md)
 
-<br>
 
 > [!NOTE]
 > Service Scheduling settings on the **Service Management** and **Business Management** pages have been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
