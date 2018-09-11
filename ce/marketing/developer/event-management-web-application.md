@@ -32,15 +32,12 @@ There are two ways Event Management web application can be hosted.
 1. Dynamics 365 Portal hosted
 2. Self-hosted
 
-> [!NOTE]
-> You need to install Portals and Event Management solutions. 
-
 ## Dynamics 365 Portal hosted
 Event Management web application comes as a Dynamics 365 Portal hosted web when you install the Event Management solution.
 
 The frontend part of the application is bundled into two resource files that are stored as Dynamics 365 Portal web-files, and the main single page application entry-point is stored as Dynamics 365 Portal web template. More information [web-files](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/web-files) and [web templates](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/store-content-web-templates).
 
-Although, the frontend definition is hosted on Dynamics 365 Portal, you can still fully customize it. The backend part of the web application is not customizable since the **REST API** endpoints are hosted on Dynamics 365 Portal as a set of [web pages](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/web-page), but the code containing the business logic behind it resides in Event Management plugins which is not customizable.
+Although, the frontend definition is hosted on Dynamics 365 Portal, you can still fully customize it. The backend part of the web application is not customizable since the **REST API** endpoints are hosted on Dynamics 365 Portal as a set of [web pages](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/web-page), and the code containing the business logic behind it resides in Event Management plugins which is not customizable.
 
 ![Portal Hosted](../media/portal-hosted.png "Portal Hosted")
 
@@ -51,18 +48,18 @@ To develop and customize the frontend part of the web application:
 1. Download the [Source code](https://go.microsoft.com/fwlink/linkid=202017).
 1. Install [Node](https://nodejs.org/en/download).
 1. Open Node cmd (or reopen if you have it opened) and run `node-v` to check whether the installation is successful or not. More information: [Node](https://nodejs.org/en/about).
-1. Run the command `npm install -g @angular/cli` to install angular command line interface (cli). This is required to build and run the angular app. More information: [Angular](https://angular.io).
+1. Run the command `npm install -g @angular/cli` to install Angular command line interface (cli). This is required to build and run the angular app. More information: [Angular](https://angular.io).
 1. Go to the directory where you have downloaded the source code and run the command `npm install`to fetch all the necessary packages that are required to run the website.
 1. Create a new Chrome shortcut and add `--disable-web-security--user-data-dir="C:\chromeTest"` to bypass the same origin policy.
-1. Go to `\src\app\providers\url.providers.ts` in the source code to point the frontend to the correct API endpoint and change the return value if the `baseURL()` method to your API. You need to add a trailing slash aat the end of the url.
+1. Go to `\src\app\providers\url.providers.ts` in the source code to point the frontend to the correct API endpoint and change the return value in the `baseURL()` method to your API. You need to add a trailing slash aat the end of the url.
 1. Bypass anti-CSRF token for local development. To do that, you need to go to **Portals > Web Templates** and open the **PortalAPI** web template and flip the flag `bypassTokenVerification` to `true`. Restart the Dynamics 365 Portal website to see the changes.
 
 > [!NOTE]
 > The **PortalAPI** web template is added by default when you install the Event Management data.
 
-- Run the command `ng serve` from your working directory to build the website and open the website url in the chrome instance with the shortcut you created.
+- Run the command `ng serve` from your working directory to build the website and open the website url in the chrome instance with the shortcut you have created.
 
-After the website is successfully built, your output files will show up in `/dist/ClientApp` directory. You need to replace the files hosted under portals. You don’t need to change all the files, usually main.es and styles.css files are enough for most of the changes, but it is always advised to use some kind of source control tool to track the changes. 
+After the website is successfully built, your output files will show up in `/dist/ClientApp` directory. You need to replace the files hosted under portals. You don’t need to change all the files, usually main.js and styles.css files are enough, but it is always good to use some kind of source control tool to track the changes. 
 
 To replace the files in Dynamics 365, follow the steps below:
 
@@ -82,7 +79,7 @@ You can use the demo backend and data contract for communication between the fro
 
 For the backend to communicate with your Dynamics 365 instance, you need to take care of the Dynamics 365 authentication and use the Dynamics 365 webservices. You need to implement the authentication mechanism by yourself, depending on the technology you have selected for the backend. If you want event registration to be linked to the appropriate user who created it, make sure that you create the Dynamics 365 contact for every new website user. 
 
-Dynamics 365 authentication and web application authentication are two different things. In the first case we are talking about Dynamics 365 user that backend needs to use to be able to utilize Dynamics 365 web API, and in second case we are talking about the  `local` website users, that you don’t strictly need to have. It is always a good practice to host both frontend and backend on the same domain to comply to same-origin policy. 
+Dynamics 365 authentication and web application authentication are two different things. In the first case we are talking about Dynamics 365 user that backend needs to consume Dynamics 365 web API, and in second case we are talking about the  `local` website users, that you don’t strictly need to have. It is always a good practice to host both frontend and backend on the same domain to comply to same-origin policy. 
 
 ![Self-hosted](../media/self-hosted.png "Self-hosted")
 
@@ -93,13 +90,13 @@ To develop and customize the frontend part of the web application:
 1. Download the [Source code](https://go.microsoft.com/fwlink/linkid=202017).
 1. Install [Node](https://nodejs.org/en/download).
 1. Open Node cmd (or reopen if you have it opened) and run `node-v` to check whether the installation is successful or not. More information: [Node](https://nodejs.org/en/about).
-1. Run the command `npm install -g @angular/cli` to install angular command line interface (cli). This is required to build and run the angular application. More information: [Angular](https://angular.io).
+1. Run the command `npm install -g @angular/cli` to install Angular command line interface (cli). This is required to build and run the angular application. More information: [Angular](https://angular.io).
 1. Go to the directory where you have downloaded the source code and run the command `npm install`to fetch all the necessary packages that are required to run the website.
 1. Create a new Chrome shortcut and add `--disable-web-security--user-data-dir="C:\chromeTest"` to bypass the same origin policy.
 1. Go to `\src\app\providers\url.providers.ts` in the source code to point the frontend to the correct API endpoint and change the return value in the `baseURL()` method to your API. You need to add the trailing slash at the end of the url.
-1. Run the command `ng serve` from your working directory to build the website and open the website url in the chrome instance with the shortcut you created.
+1. Run the command `ng serve` from your working directory to build the website and open the website url in the chrome instance with the shortcut you have created.
 
-After the website is build successfully, the output files will show up in `/dist/ClientApp`. You need to copy the files to the root directory of your web server, replacing the existing ones.
+After the website is build successfully, the output files will show up in `/dist/ClientApp`. You need to copy those files to the root directory of your web server, replacing the existing ones.
 
 ## Building and deploying website
 
