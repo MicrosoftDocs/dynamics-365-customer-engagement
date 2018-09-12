@@ -38,8 +38,7 @@ See the following section to learn the types of search mechanisms available:
 
 - **Full-text search**: Lets you run full-text queries against character-based data in SQL Server tables. 
  
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
-[Full-text search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search)
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Full-text search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search)
 
 - **Relevance search**:  Lets you search across multiple pre-defined entities and returns result sorted by relevance.  
 
