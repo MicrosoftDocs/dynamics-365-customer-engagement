@@ -1,5 +1,5 @@
 ---
-title: "Associate devices with customer accounts (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Associate devices with customer accounts | MicrosoftDocs"
 ms.custom: "dyn365-fieldservice"
 ms.date: 09/24/2018
 ms.reviewer: ""
@@ -25,7 +25,7 @@ search.app:
   - D365FS
 --- 
 
-# 3. Associate devices with customer accounts 
+# 2 - Associate devices with customer accounts 
 
 [overview goes here]
 
@@ -34,4 +34,4 @@ search.app:
 Associate a device to a customer account.  IoT alerts automatically generate actions work order, case or command, etc.  Once case or work order are resolved, an alert will be closed. 
 If users want to update property of a device from CFS to IoT Central,enable Flow template “[Sample Contoso] - Create or update a device in IoT Central when a device is created or updated in CFS”. After update the device property in CFS, see the update of property in IoT Central. 
 
-Next step: [Setup work order updates in IoT Central](cfs-iot-central-work-orders.md)
+Next step: [Send work order updates to IoT Central](cfs-iot-central-work-orders.md)
