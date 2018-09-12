@@ -1,7 +1,7 @@
 ---
 title: "Define subjects to categorize cases, products, and articles for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/01/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -29,19 +29,23 @@ search.app:
   
 ## Create or edit a subject  
   
-1. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)] Click > **Subjects**. You can also get there by going to **Settings** > **Service Management** > **Subjects**.  
+1. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)] select > **Subjects**. You can also get there by going to **Settings** > **Service Management** > **Subjects**.  
+
+> [!NOTE]
+> With the October'18 release, subjects in service management is available in the Customer Service Hub based on Unified Interface experience. You are recommended to manage subjects using the new experience. </br> </br>
+> In the Customer Service Hub app, go to **Service Management** and select **Case Settings** > **Subjects** in the sitemap to access subjects. 
   
-2. To add a subject, under **Common Tasks**, click **Add a Subject**.  
+2. To add a subject, under **Common Tasks**, select **Add a Subject**.  
   
     -OR-  
   
-    To edit a subject, in the **Subject Tree**, select a subject, and then under **Common Tasks** click **Edit Selected Subject**.  
+    To edit a subject, in the **Subject Tree**, select a subject, and then under **Common Tasks** select **Edit Selected Subject**.  
   
 3. In the **Subject** dialog box, enter the required information:  
   
    - **Title**: Type a name for the subject. This is a required field.  
   
-   - **Parent Subject**: To search for and select a parent subject for the new subject, click the **Lookup** button.  
+   - **Parent Subject**: To search for and select a parent subject for the new subject, select the **Lookup** button.  
   
         -OR-  
   
@@ -49,7 +53,7 @@ search.app:
   
    - **Description**: Type a descriptive statement about the subject.  
   
-4. Click **OK**.  
+4. Select **OK**.  
   
 ### See also 
 

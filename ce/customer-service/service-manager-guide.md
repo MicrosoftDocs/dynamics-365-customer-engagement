@@ -55,7 +55,7 @@ In the Customer Service Hub sitemap, select **...** to go to Service Management.
 
 [Automatic Record Creation](set-up-rules-to-automatically-create-or-update-records.md)
 
-[Subjects](create-manage-subject-tree.md)
+[Subjects](../admin/define-subjects-categorize-cases-products-articles.md)
   
 ## Service Terms  
 
