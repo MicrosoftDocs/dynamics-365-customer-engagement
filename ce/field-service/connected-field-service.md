@@ -56,9 +56,9 @@ With Azure IoT Central, there's no need for extensive cloud development or codin
 Check out our overview on [Connected Field Service for IoT Central for more information](cfs-iot-central-overview.md).
 
 ## Connected Field Service for Azure IoT hub
-Connected Field Service for Azure IoT Hub is an n add-on solution that brings Azure IoT platform-as-a-service (PaaS) offering into Dynamics365 for Field Service. With this offering, you can run a deployment app to put all the Azure IoT services and Dynamics puzzles together.
+Connected Field Service for Azure IoT Hub is an add-on solution that brings the Azure IoT platform-as-a-service (PaaS) offering into Dynamics365 for Field Service. With this offering, you can run a deployment app to pull all the Azure IoT services and Dynamics puzzles together.
 
-All Azure IoT services are running in your own Azure cloud subscription and we built an enterprise ready template and you have all the control to customize the open source template for each Azure IoT service.
+All Azure IoT services are running in your own Azure cloud subscription; we built an enterprise-ready template so you'll have all the control to customize the open-source template for each Azure IoT service.
   
 ### See also  
  [Overview of Dynamics 365 for Field Service](../field-service/overview.md)    
