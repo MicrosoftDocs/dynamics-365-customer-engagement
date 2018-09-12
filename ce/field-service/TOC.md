@@ -1,11 +1,6 @@
 
 # [Overview](overview.md)
 # [New and upcoming features](FILENAME.md)
-# [Quickstarts](field-service-quickstart.md)
-## [See how the field service application works in just a few steps](field-service-business-user-quickstart.md)
-## [Especially for admins -- How to onboard a new technician](admin-quickstart-onboarding-new-employee.md)
-## [How technicians work in the field] 
-### [Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
 # Installation
 ## [Field service installation (online)](install-field-service.md)
@@ -16,9 +11,10 @@
 ## [User security roles and accounts](view-user-accounts-security-roles.md)
 ## [Org-wide default settings](configure-default-settings.md)
 
-# Mobility
-## [Mobile field service](field-service-mobile-app-user-guide.md)
-## [Field Resource Hub](field-resource-hub-users-guide.md)
+# [Quickstarts](field-service-quickstart.md)
+## [See how the field service application works in just a few steps](field-service-business-user-quickstart.md)
+## [Especially for admins -- How to onboard a new technician](admin-quickstart-onboarding-new-employee.md)
+## [How technicians work in the field] 
 
 # [Work orders](overview-of-work-orders.md)
 ## [Create a new work order](create-work-order.md)
@@ -38,6 +34,7 @@
 ## [Bookable resource categories](set-up-bookable-resource-categories.md)
 ## [Characteristics](set-up-characteristics.md)
 ## [Resource pay types](set-up-resource-pay-types.md)
+## [Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
 # Scheduling
 ## [Universal Resource Scheduling (URS)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
@@ -45,6 +42,10 @@
 ## [Booking statuses](set-up-booking-statuses.md)
 ## [Time groups](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
+
+# Mobility
+## [Mobile field service](field-service-mobile-app-user-guide.md)
+## [Field Resource Hub](field-resource-hub-users-guide.md)
 
 # Agreements and preventive maintenance
 ## [Customer agreements](set-up-customer-agreements.md)
