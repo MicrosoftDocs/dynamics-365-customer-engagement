@@ -2,9 +2,9 @@
 # [Overview](overview.md)
 ## [New and upcoming](FILENAME.md)
 # [Quickstarts](field-service-quickstart.md)
-## What is this thing?(field-service-business-user-quickstart.md)
-## So you manage the system day to day?(admin-quickstart-onboarding-new-employee.md)
-## How technicians work in the field 
+## [What is this thing?](field-service-business-user-quickstart.md)
+## [So you manage the system day to day?](admin-quickstart-onboarding-new-employee.md)
+## [How technicians work in the field] 
 ### [Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
 # Installation
@@ -15,13 +15,9 @@
 ## [User security roles and accounts](view-user-accounts-security-roles.md)
 ## [Org-wide default settings](configure-default-settings.md)
 
-
-
-## Mobility
+# Mobility
 ## [Mobile field service](field-service-mobile-app-user-guide.md)
 ## [Field Resource Hub](field-resource-hub-users-guide.md)
-
-
 
 # [Work orders](overview-of-work-orders.md)
 ## [Create a new work order](create-work-order.md)
@@ -53,7 +49,6 @@
 ## [Customer agreements](set-up-customer-agreements.md)
 ## [Agreement sub-statuses](set-up-agreement-sub-statuses.md)
 
-
 # Assets, Inventory & Purchasing
 ## Customer Assets
 ### [Set up customer assets](configure-set-up-customer-assets.md)
@@ -72,24 +67,21 @@
 ### [Purchase order sub-statuses](set-up-purchase-order-sub-statuses.md)
 ### [Payment terms](set-up-payment-terms.md)
 
-## [Resource Scheduling Optimization (RSO)](rso-overview.md)
-### [Deployment](rso-deployment.md)
-### [Configuration](rso-configuration.md)
-### [Schedule optimization](rso-schedule-optimization.md)
-### [FAQ and troubleshooting tips](rso-faq.md)
+# [Resource Scheduling Optimization (RSO)](rso-overview.md)
+## [Deployment](rso-deployment.md)
+## [Configuration](rso-configuration.md)
+## [Schedule optimization](rso-schedule-optimization.md)
+## [FAQ and troubleshooting tips](rso-faq.md)
 
-## [Connected Field Service (IoT)](connected-field-service.md)
-### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
-### [Develop customized IoT solutions](developer/connected-field-service-developer-guide.md)
-### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
-### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
-### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
+# [Connected Field Service (IoT)](connected-field-service.md)
+## [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
+## [Develop customized IoT solutions](developer/connected-field-service-developer-guide.md)
+## [Connected Field Service architecture](developer/connected-field-service-architecture.md)
+## [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
+## [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 
+# FAQs and RFP Answers
+## [FAQ Travel time estimates with geocoding ](turn-on-auto-geocoding.md)
+## [FAQ about mobile versions](mobile-versions-md)
+## [FAQ and troubleshooting tips for RSO](rso-faq.md)
 
-
-# Tutorials, FAQs & Implementation
-## FAQs and RFP Answers
-### [FAQ and troubleshooting tips](rso-faq.md)
-## Tutorials
-## [Travel time estimates with geocoding ](turn-on-auto-geocoding.md)
-## Implementation
