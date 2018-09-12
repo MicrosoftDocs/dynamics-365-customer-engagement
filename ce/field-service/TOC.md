@@ -1,5 +1,6 @@
 
 # [Overview](overview.md)
+## RFP Answers
 # [New and upcoming features](FILENAME.md)
 
 # Installation
@@ -42,10 +43,12 @@
 ## [Booking statuses](set-up-booking-statuses.md)
 ## [Time groups](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
+## [FAQ Travel time estimates with geocoding ](turn-on-auto-geocoding.md)
 
 # Mobility
 ## [Mobile field service](field-service-mobile-app-user-guide.md)
 ## [Field Resource Hub](field-resource-hub-users-guide.md)
+## [FAQ about mobile versions](mobile-versions-md)
 
 # Agreements and preventive maintenance
 ## [Customer agreements](set-up-customer-agreements.md)
@@ -83,8 +86,8 @@
 ## [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ## [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 
-# FAQs and RFP Answers
-## [FAQ Travel time estimates with geocoding ](turn-on-auto-geocoding.md)
-## [FAQ about mobile versions](mobile-versions-md)
-## [FAQ and troubleshooting tips for RSO](rso-faq.md)
+# Implementation
+
+
+
 
