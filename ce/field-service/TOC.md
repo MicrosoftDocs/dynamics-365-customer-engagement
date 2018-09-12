@@ -1,6 +1,6 @@
 
 # [Overview](overview.md)
-## [New and upcoming](FILENAME.md)
+# [New and upcoming features](FILENAME.md)
 # [Quickstarts](field-service-quickstart.md)
 ## [What is this thing?](field-service-business-user-quickstart.md)
 ## [So you manage the system day to day?](admin-quickstart-onboarding-new-employee.md)
@@ -45,12 +45,13 @@
 ## [Time groups](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
 
-# Agreements (Preventative Maintenance)
+# Agreements and preventive maintenance
 ## [Customer agreements](set-up-customer-agreements.md)
 ## [Agreement sub-statuses](set-up-agreement-sub-statuses.md)
 
-# Assets, Inventory & Purchasing
-## Customer Assets
+# Assets, inventory and purchasing
+
+## Customer assets
 ### [Set up customer assets](configure-set-up-customer-assets.md)
 ## Inventory
 ### [Warehouse](create-warehouse.md)
