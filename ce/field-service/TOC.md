@@ -14,25 +14,30 @@
 
 # Configuration and setup
 ## [Org-wide default settings](configure-default-settings.md)
-## [Set up bookable resources](set-up-bookable-resources.md)
-## [Set up work orders](create-work-order.md)
 
-## Work Orders
-### [Work order types](create-work-order-types.md)
+## [Work order setup](create-work-order.md)
 ### [Service task types](set-up-service-task-types.md)
-### [Create a product or service](create-product-or-service.md)
 ### [Incident types](configure-incident-types.md)
-### [Price list](create-price-list.md)
 ### [Work order sub-statuses](set-up-work-order-sub-statuses.md)
 ### [Priorities](set-priorities.md)
 ### [Territories](set-up-territories.md)
 ### [Postal codes](set-up-postal-codes.md)
 ### [Tax codes](set-up-tax-codes.md)
 
-## Bookable Resources
+## Bookable resource setup
+### [Set up bookable resources](set-up-bookable-resources.md)
 ### [Bookable resource categories](set-up-bookable-resource-categories.md)
 ### [Characteristics](set-up-characteristics.md)
 ### [Resource pay types](set-up-resource-pay-types.md)
+
+## End-to-end work orders -- how they work
+### [Work order types](create-work-order-types.md)
+### [Create a product or service](create-product-or-service.md)
+### [Price list](create-price-list.md)
+
+
+## How technicians submit time off requests
+
 ### [Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
 ## Scheduling
