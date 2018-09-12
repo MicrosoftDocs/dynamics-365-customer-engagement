@@ -30,7 +30,7 @@ Connected Field Service for IoT Central provides a direct way to integrate Dynam
 
 You can connect IoT Central and Connected Field Service in such a way that:
 
-- IoT Central can send information about device anomalies to Connected Field Service for diagnosis.
+- IoT Central can send information about device anomalies to Connected Field Service for diagnosis
 - Connected Field Service can create work orders triggered from device anomalies
 - Connected Field Service can then schedule a technician to fix or prevent the downtime incident
 - IoT Central dashboard can update device records with relevant service and scheduling information
