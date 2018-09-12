@@ -1,5 +1,5 @@
 ---
-title: "Setup work order updates in IoT Central (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Send work order updates to IoT Central | MicrosoftDocs"
 ms.custom: "dyn365-fieldservice"
 ms.date: 09/24/2018
 ms.reviewer: ""
@@ -25,7 +25,7 @@ search.app:
   - D365FS
 --- 
 
-# 4: Setup work order updates in IoT Central
+# 3 - Send work order updates to IoT Central
 
 [Overview goes here]
 
@@ -33,4 +33,4 @@ Enable Flow template "[Sample Contoso] - When a work order is created in CFS, up
 
 [instructions go here]
 
-Next step: [Setup booking updates in IoT Central](cfs-iot-central-bookings.md)
+Next step: [Send booking updates to IoT Central](cfs-iot-central-bookings.md)
