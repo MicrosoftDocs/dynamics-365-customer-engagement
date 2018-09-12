@@ -54,7 +54,7 @@ For example, you could create separate queues for first tier and second tier pro
 - **Public queue:** Create public queues to let everyone in the organization view the items in a queue
 
 > [!NOTE]
-> With the October'18 release, Queues in service management is available in the Customer Service Hub, based on Unified Interface experience. You are recommended to create and manage queues using the new experience.
+> With the October'18 release, queues in service management is available in the Customer Service Hub, based on Unified Interface experience. You are recommended to create and manage queues using the new experience.
   
 ## Create queues  
   
@@ -101,7 +101,7 @@ Follow the steps given below to create or edit a queue:
    > [!IMPORTANT]
    >  This is a central place to manage rules across all supported activities including out-of-the-box and custom activities associated with the queue.  
    >  The **Record creation and update rules** section displays rules using the **Email Activity Conversation Setting**  or **Social Activity Conversation Setting** and that have the same queue ID as the queue.   
-   >  Multiple rules with the same source type and same queue can exist. Therefore, when you click **Email Activity Conversion Settings** or **Social Activity Conversion Settings**, the rule with the latest **Last Modified On** date is applied.  
+   >  Multiple rules with the same source type and same queue can exist. Therefore, when you select **Email Activity Conversion Settings** or **Social Activity Conversion Settings**, the rule with the latest **Last Modified On** date is applied.  
   
 6. Select **Save**.
 

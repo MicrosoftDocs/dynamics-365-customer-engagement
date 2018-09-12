@@ -37,7 +37,7 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)],  you can track m
   
    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)] [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2. In the Customer Service Hub sitemap, go to **Service Management** and select **Case Settings** > **Parent Child case settings**.  
+2. In the Customer Service Hub sitemap, go to **Service Management** and select **Case Settings** > **Parent Child Case Settings**.  
   
 3. In the **Case Settings** dialog box, select the attributes that the child case will inherit from the parent case.  
 

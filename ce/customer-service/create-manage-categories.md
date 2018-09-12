@@ -29,7 +29,7 @@ Using **Categories** entity, you can create hierarchical categorical data to hel
 Categories are useful for reporting, sorting, segmenting, and categorization of records. 
 
 > [!NOTE]
-> With the October'18 release, Categories in service management is available in the Customer Service Hub based on Unified Interface experience. You are recommended to create and manage categories using the new experience.
+> With the October'18 release, categories in service management is available in the Customer Service Hub based on Unified Interface experience. You are recommended to create and manage categories using the new experience.
 
 ## Create categories
 

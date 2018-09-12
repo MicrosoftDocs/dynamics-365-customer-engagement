@@ -58,7 +58,7 @@ To resolve any issues with SLA during holidays, see [SLA timer does not pause wh
 
 - To edit an existing holiday schedule, go to **Service Management** > **Holiday Schedule**. The **All Holiday Schedules** view is displayed. Select the holiday schedule you want to edit from the list of holiday schedules and select **Edit** in the command bar.
     - You can edit the **Name** or **Description**, or add new holidays for the holiday schedule. 
-    - By default, all the holidays of the current year are displayed. To switch to a different year, click and type the year as shown below:
+    - By default, all the holidays of the current year are displayed. To switch to a different year, select and type the year as shown below:
     
 - To print a holiday schedule, select **Print Preview** in the **Holidays** section of the holiday schedule. You can also export or import a holiday schedule in excel format. 
 

@@ -1,7 +1,7 @@
 ---
 title: "Create templates for articles for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/01/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -36,14 +36,17 @@ Article templates help you create new articles for your organization's knowledge
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
+3. Select **Article Templates**. 
+
+> [!NOTE]
+> With the October'18 release, article templates in service management are available in the Customer Service Hub based on Unified Interface experience. You are recommended to create and manage article templates using the new experience. </br> </br>
+> In the Customer Service Hub app, go to **Service Management** and select **Templates** > **Article Templates** in the sitemap to access the article templates. 
   
-3. Click or tap **Article Templates**.  
+4. To create a new article template, select **New**.  
   
-4. To create a new article template, choose **New**.  
+5. In the **Article Template Properties** dialog box, type the new article title, select the language, and then select **OK**.  
   
-5. In the **Article Template Properties** dialog box, type the new article title, select the language, and then click **OK**.  
-  
-6. To add a section, in the **Common Tasks** area, choose **Add a Section**, and specify the following:  
+6. To add a section, in the **Common Tasks** area, select **Add a Section**, and specify the following:  
   
    1. In the **Title** box, type a title.  
   
@@ -51,17 +54,17 @@ Article templates help you create new articles for your organization's knowledge
   
       When a user creates a new article with this template, these instructions appear in the body text for this section, and disappear when the user starts typing.  
   
-7. To reposition a section from the template, select the section you want to reposition, and in the **Common Tasks** area, click the green arrows to move the section to the position you want.  
+7. To reposition a section from the template, select the section you want to reposition, and in the **Common Tasks** area, select the green arrows to move the section to the position you want.  
   
     When you select a section, its border turns green and the border lines become solid.  
   
-8. To remove the section, select the section you want to remove, and in the **Common Tasks** area, click **Remove a Section**.  
+8. To remove the section, select the section you want to remove, and in the **Common Tasks** area, select **Remove a Section**.  
   
-9. To edit a section, select the section you want to edit, and in the **Common Tasks** area, click **Section Properties**. Edit the title and description.  
+9. To edit a section, select the section you want to edit, and in the **Common Tasks** area, select **Section Properties**. Edit the title and description.  
   
 10. To format the text, font, and color of the article title, headings, and body text of each section, use the tools on the **Modify** toolbar.  
   
-11. When you’re done, choose **Save** or **Save and close**.  
+11. When you’re done, select **Save** or **Save and close**.  
   
      After you save the template, it is immediately available for use. If the template is not complete and you want to finish it later, you can save the template, deactivate it (make it ready-only), and then complete it later. When the template is complete, you can reactivate it.  
   
@@ -70,3 +73,5 @@ Article templates help you create new articles for your organization's knowledge
   
 ### See also  
  [eBook: Use KB articles to help your customers](http://go.microsoft.com/fwlink/p/?LinkId=394983)
+
+[Service Manager Guide (Customer Service Hub and Customer Service app)](../customer-service/service-manager-guide.md)
