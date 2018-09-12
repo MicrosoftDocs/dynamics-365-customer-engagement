@@ -1,14 +1,19 @@
 
 # [Overview](overview.md)
-## [What's new](whats-new-field-service-project-service.md)
+## [New and upcoming](FILENAME.md)
+## [Quickstarts](field-service-quickstart.md)
+### What is this thing?(field-service-business-user-quickstart.md)
+### So you manage the system day to day?(admin-quickstart-onboarding-new-employee.md)
 
-# Deploy and Get Started
+# Installation
 ## [Field service installation](install-field-service.md)
-## [User security roles and accounts](view-user-accounts-security-roles.md)
-## [Sample data installation](use-demo-data.md)
-## [Org-wide default settings](configure-default-settings.md)
 ## [Mobile solution installation](install-the-mobile-app.md)
+## [Sample data installation](use-demo-data.md)
 ## [Activate field service mobile licenses](activate-fs-mobile-app-license.md)
+## [User security roles and accounts](view-user-accounts-security-roles.md)
+
+## [Org-wide default settings](configure-default-settings.md)
+
 ## [Bookable resources](set-up-bookable-resources.md)
 ## [Create a work order](create-work-order.md)
 ## [Schedule a work order](schedule-work-order.md)
