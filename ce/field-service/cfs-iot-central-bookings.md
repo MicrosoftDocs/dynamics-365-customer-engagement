@@ -1,5 +1,5 @@
 ---
-title: "Setup booking updates in IoT Central (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Send booking updates to IoT Central | MicrosoftDocs"
 ms.custom: "dyn365-fieldservice"
 ms.date: 09/24/2018
 ms.reviewer: ""
@@ -25,7 +25,7 @@ search.app:
   - D365FS
 --- 
 
-# 5: Setup booking updates in IoT Central
+# 4 - Send booking updates to IoT Central
 
 [overview goes here]
 
