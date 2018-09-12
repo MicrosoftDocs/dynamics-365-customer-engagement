@@ -42,8 +42,10 @@ An email template is attached to an email activity after the activity is created
   
 3. Select **Email Templates**.  
 
->[!NOTE] With the October'18 release, email templates in service management are available in the Customer Service Hub based on Unified Interface experience. You are recommended to create and manage email templates using the new experience. </br></br>
+> [!NOTE]
+>  With the October'18 release, email templates in service management are available in the Customer Service Hub based on Unified Interface experience. You are recommended to create and manage email templates using the new experience. </br></br>
 In the Customer Service Hub app, go to **Service Management** and select **Templates** > **Email Templates** in the sitemap to access the email templates.
+
   
 4. On the Actions toolbar, select or tap **New**.  
   

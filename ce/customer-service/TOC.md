@@ -30,7 +30,7 @@
 #### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
 ### [Entitlements](create-entitlement-define-support-terms-customer.md)
 ### [Holiday Schedule](set-up-holiday-schedule.md)
-### [Service Configuration settings](../admin/system-settings-dialog-box-service-tab.md)
+### [Service Configuration Settings](../admin/system-settings-dialog-box-service-tab.md)
 ### [Customer Service Schedule](create-customer-service-schedule-define-work-hours.md)
 ### [Embedded Knowledge Search](set-up-knowledge-management-embedded-knowledge-search.md)
 ### [Categories](create-manage-categories.md)

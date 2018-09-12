@@ -49,7 +49,7 @@ In the Customer Service Hub sitemap, select **...** to go to Service Management.
 
 [Queues](set-up-queues-manage-activities-cases.md)
 
-[Parent and Child case settings](define-settings-parent-child-cases.md)
+[Parent Child Case Settings](define-settings-parent-child-cases.md)
 
 [Routing Rule Sets](create-rules-automatically-route-cases.md)
 
