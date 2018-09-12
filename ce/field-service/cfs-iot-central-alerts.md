@@ -25,7 +25,7 @@ search.app:
   - D365FS
 --- 
 
-# 2: Create device alerts with Microsoft Flow
+# 1 - Receive IoT alerts in Connected Field Service from IoT Central
 
 [Overview goes here!]
 
