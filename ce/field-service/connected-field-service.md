@@ -36,9 +36,9 @@ search.app:
 - Address issues faster by remotely monitoring devices and keeping customers in the loop.
 - Device telemetry and ongoing maintenance data help you make informed decisions around dispatching technicians with the right expertise, availability, and proximity to the job. 
 
-There are two solutions you can use to connect IoT-enabled devices into the world of Field Service:
-- Connected Field Service for Azure IoT Central
-- Connected Field Service for Azure IoT Hub
+There are **two solutions** you can use to connect IoT-enabled devices into the world of Field Service:
+- Connected Field Service for **Azure IoT Central**
+- Connected Field Service for **Azure IoT Hub**
 
 See below for the differences between the two solutions.
 
