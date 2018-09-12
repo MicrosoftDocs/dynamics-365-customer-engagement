@@ -1,9 +1,9 @@
 
 # [Overview](overview.md)
 ## [New and upcoming](FILENAME.md)
-## [Quickstarts](field-service-quickstart.md)
-### What is this thing?(field-service-business-user-quickstart.md)
-### So you manage the system day to day?(admin-quickstart-onboarding-new-employee.md)
+# [Quickstarts](field-service-quickstart.md)
+## What is this thing?(field-service-business-user-quickstart.md)
+## So you manage the system day to day?(admin-quickstart-onboarding-new-employee.md)
 
 # Installation
 ## [Field service installation](install-field-service.md)
@@ -12,13 +12,11 @@
 ## [Activate field service mobile licenses](activate-fs-mobile-app-license.md)
 ## [User security roles and accounts](view-user-accounts-security-roles.md)
 
+# Configuration and setup
 ## [Org-wide default settings](configure-default-settings.md)
+## [Set up bookable resources](set-up-bookable-resources.md)
+## [Set up work orders](create-work-order.md)
 
-## [Bookable resources](set-up-bookable-resources.md)
-## [Create a work order](create-work-order.md)
-## [Schedule a work order](schedule-work-order.md)
-
-# User Guide
 ## Work Orders
 ### [Work order types](create-work-order-types.md)
 ### [Service task types](set-up-service-task-types.md)
