@@ -1,5 +1,5 @@
 ---
-title: "Create device alerts with Microsoft Flow (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Receive IoT alerts in Connected Field Service from IoT Central | MicrosoftDocs"
 ms.custom: "dyn365-fieldservice"
 ms.date: 09/24/2018
 ms.reviewer: ""
