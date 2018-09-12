@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Use queues to organize, prioritize, and monitor the progress of your work. In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. 
+Queues help you to organize, prioritize, and monitor the progress of your work. In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. 
 
  Queues can be useful in:  
   
@@ -50,8 +50,8 @@ For example, you could create separate queues for first tier and second tier pro
   
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] lets you create two types of queues:
 
-- **Private queue:** Create private queues with limited sets of members to let only those members view the items in the queue
-- **Public queue:** Create public queues to let everyone in the organization view the items in a queue
+- **Private queues:** Create private queues with limited sets of members to let only those members view the items in the queue
+- **Public queues:** Create public queues to let everyone in the organization view the items in a queue
 
 > [!NOTE]
 > With the October'18 release, queues in service management is available in the Customer Service Hub, based on Unified Interface experience. You are recommended to create and manage queues using the new experience.

@@ -29,7 +29,7 @@ search.app:
   
 ## Create or edit a subject  
   
-1. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)] select > **Subjects**. You can also get there by going to **Settings** > **Service Management** > **Subjects**.  
+1. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)] select **Subjects**. You can also get there by going to **Settings** > **Service Management** > **Subjects**.  
 
 > [!NOTE]
 > With the October'18 release, subjects in service management is available in the Customer Service Hub based on Unified Interface experience. You are recommended to manage subjects using the new experience. </br> </br>

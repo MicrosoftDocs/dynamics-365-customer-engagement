@@ -30,7 +30,7 @@ Service Management module lets your customers quickly deploy their business proc
 
 Service Management module empowers the admin to set up everything related to customer service, like defining parent-child case hierarchy, creating queues,routing rule sets, rules for automatic case creation, service level agreements (SLAs), entitlements, and customer service schedule. 
 
-Service Management now moves under the Customer Service Hub, enabling customer service managers to access the configurations from inside the application. Built on Unified Interface, the new Service Management helps to easily configure service tasks, enabling increased productivity.
+Service Management now moves under the Customer Service Hub, enabling customer service managers to access the configurations from inside the application. Built on Unified Interface, the new service management helps to easily configure service tasks, enabling increased productivity.
   
 > [!NOTE]
 > With the October ’18 release, you can access and manage all admin settings from the Customer Service Hub sitemap except for **Routing Rule sets**, **Automatic Record Creation,** and **Service Level Agreements**. </br> To access and manage these three admin settings, go to **Settings** > **Service Management** in the web application. <br>These three admin settings (Routing Rule sets, Automatic Record Creation, and Service Level Agreements) will be available in the Customer Service Hub sitemap beginning with the January 2019 release.

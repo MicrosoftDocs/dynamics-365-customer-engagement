@@ -45,7 +45,7 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)],  you can track m
   
 4. You can also select a case closure setting that defines how parent and child cases are closed. Select one of the case closure preference for parent and child cases:  
   
-   - **Close all child cases when parent case is closed**: As soon as the parent case is closed, all the child case are also closed.
+   - **Close all child cases when parent case is closed**: As soon as the parent case is closed, all the child cases are also closed.
    - **Don't allow parent case closure until all child cases are closed**: The parent case can’t be closed until all the child cases are closed.
   
 5. When you’re done, select **OK**.  

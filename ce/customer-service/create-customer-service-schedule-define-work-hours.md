@@ -76,7 +76,7 @@ To define when your service or support team is available for providing support t
 7. Under **Select the time zone**, in the **Time Zone** drop-down box, select the time zone in which your customer support resources will work.  
   
 6. Select **Save**.  
-  
+ 
 ## Define the work hours for the schedule  
  In the **Set Work Hours** dialog box, complete the following fields, and then select **OK**:  
   

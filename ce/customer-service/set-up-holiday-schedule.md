@@ -31,7 +31,7 @@ Avoid having your service level agreements (SLAs) affected when your service org
 For example, if your service organization has an SLA to reply to email cases within two business days, you can create a holiday schedule and add it to your service calendar. Then, if a customer submits an email case on that holiday, your SLA is clear and is not affected by the holiday closure.  
 
 > [!NOTE]
-> With the October'18 release, Holiday schedule in service management is available in the Customer Service Hub based on Unified Interface experience. You are recommended to create and manage holiday schedules using the new experience.
+> With the October'18 release, holiday schedule in service management is available in the Customer Service Hub based on Unified Interface experience. You are recommended to create and manage holiday schedules using the new experience.
 
 ## Create holiday schedule  
 Follow the procedure given below to create a new holiday schedule:
