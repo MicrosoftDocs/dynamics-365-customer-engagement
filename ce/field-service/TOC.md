@@ -1,6 +1,6 @@
 
 # [Overview](overview.md)
-# [What's new](whats-new-field-service-project-service.md)
+## [What's new](whats-new-field-service-project-service.md)
 
 # Deploy and Get Started
 ## [Field service installation](install-field-service.md)
