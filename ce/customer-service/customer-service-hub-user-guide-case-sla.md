@@ -20,7 +20,7 @@ search.app:
   - D365CS
 ---
 
-# Work with Cases and manage SLAs
+# Work with cases and manage SLAs
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -162,10 +162,10 @@ To know more about adding a timer control to a case form, see [Add a timer contr
 
 
 ## See and manage related records in the Related section  
- The **Related** section (also known as Reference panel) in a case record provides you quick access to important information related to the selected case that would help you in solving the case. For more information, see [Related section](customer-service-hub-user-guide-basics.md#related-section).
+ The **Related** section (also known as Reference panel) in a case record provides you with quick access to important information related to the selected case that would help you resolve the case. For more information, see [Related section](customer-service-hub-user-guide-basics.md#related-section).
 
 ### See recent cases and entitlements  
- See **Recent Cases and Entitlement** to view:  
+ See **Recent Cases and Entitlements** to view:  
 
 -   A list of recent cases for the customer associated with the current case.  
 
@@ -173,38 +173,42 @@ To know more about adding a timer control to a case form, see [Add a timer contr
 
 
 ### Search for knowledge articles  
- The Knowledge Base Search lets you search for relevant knowledge articles to resolve a case. Select the **Knowledge Base Search** search box to see search results automatically populated based on a field your administrator configured in the **Knowledge Base search** control properties. For a case, this is the title of the case record.  
+ Knowledge base search lets you search for relevant knowledge articles to resolve a case. Select the **Knowledge Base Search** search box to see search results automatically populated based on a field your administrator configured in the **Knowledge Base Search** control properties. For a case, this is the title of the case record.  
 
 #### Use Relevance search to search for knowledge articles
 
-**Knowledge Base** search in the Customer Service Hub comes with an improved search functionality. Knowledge Base is enabled for relevance search in global search and knowledge base search control. 
+Knowledge base search in the Customer Service Hub comes with an improved search functionality. Knowledge base is now enabled for Relevance search in knowledge base search control, in addition to global search where it was enabled previously.
 
-Relevance search functionality utilizes Azure search service to index and search records.  Relevance search provides improved search functionality like better relevance, highlighted search keyword text, and search within attachments and notes.
+Relevance search functionality uses Azure search service to index and search records.  Relevance search provides improved search functionality like better relevance, highlighted search keyword text, and search within attachments and notes. 
+
+You can also configure searchable fields in the knowledge article entity. You can include a number of entities in the Relevance search results. However, there is a limit on the total number of fields in the external search index. Currently, the maximum is 1000 searchable fields for an organization. When you select an entity to include in the search results, a number in parentheses next to the entity name is displayed. The number indicates how many fields each entity uses in the external search index.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](../admin/configure-relevance-search-organization.md#configure-searchable-fields-for-relevance-search)
+
 
 > [!NOTE]
-> Enable relevance search for knowledge base entity to use it to search knowledge articles. If relevance search is not enabled for the entity, standard full-text search is used. 
+> Enable Relevance search for the knowledge base entity to use it to search knowledge articles. If Relevance search is not enabled for the entity, standard Full-text search is used. </br> </br>
+To enable Relevance search, see [Enable Relevance Search](../admin/configure-relevance-search-organization.md#enable-relevance-search). 
 
-To enable relevance search, see [Enable Relevance Search](../admin/configure-relevance-search-organization.md#enable-relevance-search).
-
-You can also select entities for relevance search. See [Select entities for Relevance Search](../admin/configure-relevance-search-organization.md#select-entities-for-relevance-search) for more information.
-
-Know how you can configure searchable fields for relevance search. See the topic [Configure searchable fields for Relevance Search](../admin/configure-relevance-search-organization.md#configure-searchable-fields-for-relevance-search) for more information.
+To configure Relevance search for knowldege article entity, see [Select entities for Relevance Search](../admin/configure-relevance-search-organization.md#select-entities-for-relevance-search) .
 
 
 > [!IMPORTANT]
->  The knowledge base search in the Customer Service Hub shows relevant knowledge articles only when your organization is set up to use the native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management capability. For more information, talk to your administrator.  
+>  Knowledge base search in the Customer Service Hub shows relevant knowledge articles only when your organization is set up to use the native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management capability. For more information, talk to your administrator.  
 
-  ![knowledge-article-search](media/case-form-search-rp.png "Knowledge article search") 
+  ![Knowledge-article-search](media/case-form-search-rp.png "Knowledge article search") 
 
-- Type a different keyword to search for other knowledge articles. The following fields of a knowledge article are searched for the keywords that you type: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.  
+In the **Knowledge Base Search** box:
+
+- Type a different keyword to search for other knowledge articles. The keywords that you enter will trigger a search in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.  
 
 - To see knowledge articles in specific states, use the filters. You can filter search results to see all draft, published, or approved articles.    
 
 - To choose how you want to sort your search results, select **Sort by**. You can sort the knowledge articles on relevance, number of views, newest first, or oldest first.  
 
-- Select the article title to see its full content. The article opens inline and you can scroll to read the complete article. Select the back arrow to come back to the list view. 
+- Select the article title to see its full content. The article opens inline and you can scroll to read the complete article. Select the back arrow to return to the list view. 
 
-- To associate the knowledge article to the current case, select the  **Link the KB Article** button ![Select link the knowledge article to the case](../customer-service/media/v8-link-kb-article.png "Select to link the knowledge article to the case").  
+- To associate the knowledge article with the current case, select the  **Link the KB Article** button ![Select link the knowledge article to the case](../customer-service/media/v8-link-kb-article.png "Select to link the knowledge article to the case").  
 
    You can also dissociate the article from the case by choosing the **Unlink the knowledge article from the current record** button ![Unlink knowledge article from current record button in Dynamics 365](../customer-service/media/unlink-article.png "Unlink knowledge article from current record button in Dynamics 365").  
 
@@ -215,7 +219,7 @@ Know how you can configure searchable fields for relevance search. See the topic
    If the article is published, an external link is copied to the email body.  
 
   > [!NOTE]
-  >  This action is available only for Published and Expired articles.  
+  >  This action is available only for published and expired articles.  
 
 - To copy the external URL of the article so you can share it with your customers over channels like chat or email, select the **Copy Link** button ![Copy knowledge article link button Dynamics 365](../customer-service/media/copy-link-button.png "Copy knowledge article link button Dynamics 365").  
 
