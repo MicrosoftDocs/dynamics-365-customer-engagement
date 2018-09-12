@@ -26,24 +26,25 @@ search.app:
 
 # Connected Field Service for IoT Central - Overview
 
-Integrate Dynamics 365 for Field Service with Azure IoT Central, a fully managed software-as-a-service (SaaS) solution. Using Microsoft Flow's templates and user-friendly interace, you can connect IoT Central and Dynamics 365 or Field Service so that:
+Connected Field Service for IoT Central provides a direct way to integrate Dynamics 365 for Field Service with Azure IoT Central, a fully managed IoT software-as-a-service (SaaS) solution. Build workflows between Connected Field Service with Microsoft Flow, a service that makes it easy to create workflows between your apps and services to synchronize files, get notifications, collect data, and more. 
 
-- IoT Central can send information about device anomalies to Connected Field Service, 
-- Connected Field Service can then create a work order and schedule a technician to fix or prevent the issue
-- Connected Field Service can create work orders based off of device anomalies
-- IoT Central can update device records with relevant work order information
+You can connect IoT Central and Connected Field Service in such a way that:
+
+- IoT Central can send information about device anomalies to Connected Field Service for diagnosis.
+- Connected Field Service can create work orders triggered from device anomalies
+- Connected Field Service can then schedule a technician to fix or prevent the downtime incident
+- IoT Central dashboard can update device records with relevant service and scheduling information
 
 With Azure IoT Central, there's no need for extensive cloud development or coding skills to get up and running. The solution is a fully managed offering.
 
-## Get started with a quick tutorial
-1. [Set up Connected Field Service and IoT Central trial](cfs-iot-central-setup.md)
-2. [Create device alerts with Microsoft Flow](cfs-iot-central-alerts.md)
-3. [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
-4. [Setup work order updates in IoT Central](cfs-iot-central-work-orders.md)
-5. [Setup booking updates in IoT Central](cfs-iot-central-bookings.md)
+## Tutorial - Get integration scenarios ready in minutes
+Connect IoT Central to Connected Field Service using Microsoft Flow in just a matter of minutes with these tutorials! Be sure to check out the prerequisites before getting started. 
+1. [Receive IoT alerts from IoT Central](cfs-iot-central-alerts.md)
+2. [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
+3. [Send work order updates to IoT Central](cfs-iot-central-work-orders.md)
+4. [Send booking updates to IoT Central](cfs-iot-central-bookings.md)
 
 ## Learn more about Azure IoT Central
-
 - [What is IoT Central?](https://docs.microsoft.com/en-us/azure/iot-central/overview-iot-central)
 - [Tour of Azure IoT Central user interface](https://docs.microsoft.com/en-us/azure/iot-central/overview-iot-central-tour)
 - [Create a new application in IoT Central - tutorial](https://docs.microsoft.com/en-us/azure/iot-central/quick-deploy-iot-central)
