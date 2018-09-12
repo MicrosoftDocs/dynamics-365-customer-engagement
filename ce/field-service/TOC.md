@@ -2,13 +2,14 @@
 # [Overview](overview.md)
 # [New and upcoming features](FILENAME.md)
 # [Quickstarts](field-service-quickstart.md)
-## [What is this thing?](field-service-business-user-quickstart.md)
-## [So you manage the system day to day?](admin-quickstart-onboarding-new-employee.md)
+## [See how the field service application works in just a few steps](field-service-business-user-quickstart.md)
+## [Especially for admins -- How to onboard a new technician](admin-quickstart-onboarding-new-employee.md)
 ## [How technicians work in the field] 
 ### [Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
 # Installation
-## [Field service installation](install-field-service.md)
+## [Field service installation (online)](install-field-service.md)
+## [Field service installation (on-premises)](install-field-service-on-premises)
 ## [Mobile solution installation](install-the-mobile-app.md)
 ## [Sample data installation](use-demo-data.md)
 ## [Activate field service mobile licenses](activate-fs-mobile-app-license.md)
