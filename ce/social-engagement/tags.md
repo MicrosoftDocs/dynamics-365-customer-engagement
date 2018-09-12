@@ -107,7 +107,7 @@ To improve your workflows and increase efficiency, you can leverage auto tagged 
 3.  In the Auto Tags panel, select **Remove**, and then select **Confirm**.  
     Removed tags will remain visible on previous posts, but auto scoring will stop for incoming posts. 
 
-## Improve accuracy of sytem-rated tags
+## Improve accuracy of system-rated tags
 
 To further improve the underlying machine learning model for auto tags and intention tags, you can confirm and remove system-rated. Removing a system-rated tag from a post lets the model know that it was added wrongly while confirming a tag indicates the model was adding it correctly. 
 
@@ -128,7 +128,7 @@ The system-rated tag gets removed from the post and the machine learning model w
   
 3.  Next to the tags symbol ![Tag symbol in Social Engagement](media/tag-symbol.png "Tag symbol in Social Engagement"), select **Confirm this auto tag** ![Confirm tag symbol in Social Engagement](media/check-icon.png "Confirm tag symbol in Social Engagement").   
 ![Intention tag and customer tag with confirm control highlighted](media/confirm-intention-view-custom-tag.png "Intention tag and customer tag with confirm control highlighted")    
-A stars symbol indicates that this system-rated tag was manually confirmed and the machine learning model will take this confirmation into account for future assignement of system-rated tags. 
+A stars symbol indicates that this system-rated tag was manually confirmed and the machine learning model will take this confirmation into account for future assignment of system-rated tags. 
 
 ## Review the quality of a tagging model
 

@@ -57,13 +57,13 @@ Define the fields of a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md
 
 6. To apply your changes, in the **Dynamics 365 Instance** pane, click **Save** ![Save button](media/save-icon.png "Save button").  
 
-## Convert a social engagement post to a social activity
+## Convert a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] post to a social activity
 
 1. In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], click **Posts** on any Analytics page to see the posts list.  
 
     --OR--  
 
-    Go to **Microsoft Social Engagement** > **Social Center** to see your streams.  
+    Go to **[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]** > **Social Center** to see your streams.  
 
 2. Go to the post you want to convert to a social activity record in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], and then click **Link to Dynamics 365** ![Link to Dynamics 365 button in Social Engagement](media/link-to-record-icon.png "Link to Dynamics 365 button in Social Engagement").  
 
@@ -156,20 +156,20 @@ A typical JSON payload sent to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-sho
 }  
 ```  
 
-## View record details for a linked post in Social Engagement
+## View record details for a linked post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
 If a post is linked to a social activity in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can open its associated record in **Dynamics 365 Record Details**.  
 
 > [!NOTE]
 > Only the custom entities in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] which are in relationship with the Social Activity entity are visible in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. For more information, see [TechNet: Create and edit entity relationships](https://technet.microsoft.com/library/dn531171.aspx).
 
-### Open a Dynamics 365 record from within Social Engagement
+### Open a Dynamics 365 record from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
 1. In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], click **Posts** on the right side of any Analytics page to see the posts list.  
 
     --OR--  
 
-    Go to **Microsoft Social Engagement** > **Social Center** to see your streams.  
+    Go to **[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]** > **Social Center** to see your streams.  
 
 2. Select the post, and then click **Link to Dynamics 365** ![Link to Dynamics 365 button in Social Engagement](media/link-to-record-icon.png "Link to Dynamics 365 button in Social Engagement"). The **Dynamics 365 Record Details** dialog box shows all details for the associated Dynamics 365 record.  
 
@@ -181,7 +181,7 @@ If a post is linked to a social activity in [!INCLUDE[pn_dynamics_crm](../includ
 
     --OR--  
 
-    Go to **Microsoft Social Engagement** > **Social Center** to see your streams.  
+    Go to **[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]** > **Social Center** to see your streams.  
 
 2. Select the post you want to open the associated record for, and then click **Link to Dynamics 365** ![Link to Dynamics 365 button in Social Engagement](media/link-to-record-icon.png "Link to Dynamics 365 button in Social Engagement").  
 
@@ -205,7 +205,7 @@ You can remove a linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.m
 
     --OR--  
 
-    Go to **Microsoft Social Engagement** > **Social Center** to see your streams.  
+    Go to **[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]** > **Social Center** to see your streams.  
 
 2. Select the post you want to open the associated record for, and then click **Link to Dynamics 365** ![Link to Dynamics 365 button in Social Engagement](media/link-to-record-icon.png "Link to Dynamics 365 button in Social Engagement").  
 
