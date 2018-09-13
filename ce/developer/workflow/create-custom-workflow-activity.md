@@ -2,7 +2,7 @@
 title: "Create a custom workflow activity (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "The topic describes how to create a custom workflow activity and register it for use in Dynamics 365 (online) Customer Engagement."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 09/12/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -13,8 +13,8 @@ applies_to:
 ms.assetid: ab72830b-e6a6-4f49-a6a8-1d69c4a1d308
 caps.latest.revision: 56
 author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+ms.author: "kvivek"
+manager: "kvivek"
 search.audienceType: 
   - developer
 search.app: 
@@ -36,7 +36,7 @@ This topic describes how to create a custom workflow activity and register it fo
 
 ## Use the CodeActivity workflow base class
 
- To create a custom workflow activity, create a class that inherits from the [CodeActivity](https://msdn.microsoft.com/library/system.activities.codeactivity.aspx) workflow base class. This class is available in the [System.Activities](https://msdn.microsoft.com/library/system.activities.aspx) namespace. Activities that inherit from the `CodeActivity` class can override the `Execute` method to produce custom functionality.  
+ To create a custom workflow activity, create a class that inherits from the <xref:System.Activities.CodeActivity> workflow base class. This class is available in the <xref:System.Activities> namespace. Activities that inherit from the `CodeActivity` class can override the `Execute` method to produce custom functionality.  
   
 1. Start [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)].  
   
