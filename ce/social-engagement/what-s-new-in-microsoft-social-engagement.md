@@ -32,6 +32,16 @@ For a detailed list of improvements and bug fixes for the latest release, see ou
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
 
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.9
+
+### Home - your new start page
+
+After signing in to [!INCLUDE [pn-social-engagement-short](../includes/pn-social-engagement-short.md)], the app presents a new start page called **Home**. It provides helpful resources and additional information in one spot. We'll be adding more features to the start page in future releases.
+
+### Quick setup and instant insights in fresh solutions
+
+[!INCLUDE [pn-social-engagement-short](../includes/pn-social-engagement-short.md)] will guide users of newly created solutions to success. It's easy to access and set up and lets you start with the first search topic about your brand within minutes. Users will get instant value with intelligent insights. 
+
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.8
 
 ### Provide your feedback about [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
