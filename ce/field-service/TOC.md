@@ -34,7 +34,7 @@
 ### [Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
 # Scheduling
-## [Universal Resource Scheduling (URS)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
+## [Universal Resource Scheduling (URS)](universal-resource-scheduling.md)
 ## [Configure the schedule board](configure-schedule-board.md)
 ## [Booking statuses](set-up-booking-statuses.md)
 ## [Time groups](set-up-time-groups.md)
