@@ -191,7 +191,9 @@ If you don't see the **Survey** tile in the **Toolbox** of your [customer journe
     - **[MktEmail]**: Find and select another **Dynamics 365 for Marketing** solution that has the same version, but is tagged with **[MktVocEmail]**, and then install it.
     - If no tag is shown, continue to the next step.
 
-1. Go to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and confirm that the **Survey** tile is now visible in the customer journey toolbox, and that your surveys are working correctly.
+1. Open [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], go to **Settings** > **Advanced settings** > **Marketing settings** > **Customer insights sync**, and enable syncing of the **Survey** entity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync)
+
+1. Confirm that the **Survey** tile is now visible in the customer journey toolbox, and that your surveys are working correctly.
 
 If your surveys still aren't working after completing these steps, then please [contact Microsoft Support](#contact-support) for assistance.
 
