@@ -1,6 +1,5 @@
 
 # [Overview](overview.md)
-## RFP Answers
 # [New and upcoming features](FILENAME.md)
 
 # Installation
