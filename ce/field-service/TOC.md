@@ -11,11 +11,6 @@
 ## [User security roles and accounts](view-user-accounts-security-roles.md)
 ## [Org-wide default settings](configure-default-settings.md)
 
-# [Quickstarts](field-service-quickstart.md)
-## [See how the field service application works in just a few steps](field-service-business-user-quickstart.md)
-## [Especially for admins -- How to onboard a new technician](admin-quickstart-onboarding-new-employee.md)
-## [How technicians work in the field] 
-
 # [Work orders](overview-of-work-orders.md)
 ## [Create a new work order](create-work-order.md)
 ## [Work order types](create-work-order-types.md)
