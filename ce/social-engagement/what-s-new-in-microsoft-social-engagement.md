@@ -38,9 +38,10 @@ For important, late-breaking information and a list of known issues, see the [So
 
 After signing in to [!INCLUDE [pn-social-engagement-short](../includes/pn-social-engagement-short.md)], the app presents a new start page called **Home**. It provides helpful resources and additional information in one spot. We'll be adding more features to the start page in future releases.
 
-### Quick setup and instant insights in fresh solutions
+### Quick setup and initial insights in fresh solutions
 
-[!INCLUDE [pn-social-engagement-short](../includes/pn-social-engagement-short.md)] will guide users of newly created solutions to success. It's easy to access and set up and lets you start with the first search topic about your brand within minutes. Users will get instant value with intelligent insights. 
+[!INCLUDE [pn-social-engagement-short](../includes/pn-social-engagement-short.md)] will guide users of newly created solutions to success. This quick setup is available to you on **Home** if your solution doesn't have any search topics set up yet. 
+You will create your first search topic and get initial insights within minutes.
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.8
 
