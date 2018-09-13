@@ -2,7 +2,7 @@
 title: "Get started with Social Engagement | Microsoft Docs"
 description: "Learn how to ramp up quickly on Social Engagement."
 keywords: "get started, onboarding, key features"
-ms.date: 07/11/2018
+ms.date: 09/26/2018
 ms.service: dynamics-365-marketing
 ms.topic: get-started-article
 applies_to: 
@@ -113,7 +113,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get help with Social Engagement](get-help.md)  
   
 ## Get around in the Analytics area  
- In most cases, the first thing you’ll see when you sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is the Analytics area. By default, you’re looking at a data set that contains all posts that all search topics gathered in the specified time frame.  
+ In most cases, the first thing you’ll see when you sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is the **Home** page. When you don't have any search topics set up yet, you'll be guided to create your first topic. If another user already created search topics, you can go to the **Analytics** area to get insights from a data set that contains all posts that all search topics gathered in the specified time frame.  
   
  ![Analytics area in Social Engagement](media/analytics-areas-explained.png "Analytics area in Social Engagement")  
   
