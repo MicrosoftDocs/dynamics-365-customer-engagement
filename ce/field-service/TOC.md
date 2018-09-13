@@ -40,7 +40,7 @@
 ## [Time groups](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
 ## FAQs
-### [FAQ Travel time estimates with geocoding ](turn-on-auto-geocoding.md)
+### [Travel time estimates with geocoding](turn-on-auto-geocoding.md)
 
 # Mobility
 ## [Mobile field service](field-service-mobile-app-user-guide.md)
