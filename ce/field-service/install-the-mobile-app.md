@@ -30,13 +30,13 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Solve customer issues quickly with [!INCLUDE[pn_fieldservice_mobile_app_long](../includes/pn-fieldservice-mobile-app-long.md)] (mobile). You can dispatch, route, and complete work orders, manage invoices, and more with the mobile app.  
+Solve customer issues quickly with [!INCLUDE[pn_fieldservice_mobile_app_long](../includes/pn-fieldservice-mobile-app-long.md)]. You can dispatch, route, and complete work orders, manage invoices, and more with the mobile app.  
   
- [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile) is a solution built on the Resco Mobile Dynamics 365 platform. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Frequently asked questions about the Resco app](http://www.resco.net/mobilecrm/support.aspx)  
+ [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] is a solution built on the Resco Mobile platform. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] 
   
- To customize [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile), you need to  install the Resco Mobile Dynamics 365 Woodford solution. This lets you configure mobile behavior around your business needs. If you don’t need to customize the app just yet, you can  use the default field service mobile configuration.  
+ To customize [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)], you need to  install the Resco Mobile Woodford solution. This lets you configure mobile behavior around your business needs. If you don’t need to customize the app just yet, you can  use the default field service mobile configuration.  
   
- Before you can start configuring [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile)  beyond what is shipped out of the box from the app store, your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin will need to install the Woodford mobile solution for your [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] account.  
+ Before you can start configuring [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] beyond what is shipped out of the box from the app store, your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin will need to install the Woodford mobile solution for your [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] account.  
   
 <a name="bkmk_step1 "></a>   
 ## Step 1: Download and install the Resco Mobile Dynamics 365 Woodford mobile solution  
