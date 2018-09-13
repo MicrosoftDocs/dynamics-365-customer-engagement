@@ -26,4 +26,4 @@ search.app:
 ---
 
 # Appsource for Field Service
-https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365-for-field-services
+[Appsource](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-for-field-services)
