@@ -10,6 +10,7 @@
 ## [Activate field service mobile licenses](activate-fs-mobile-app-license.md)
 ## [User security roles and accounts](view-user-accounts-security-roles.md)
 ## [Org-wide default settings](configure-default-settings.md)
+## [Appsource for Fieldservice] (apps-and-addins.md)
 
 # [Work orders](overview-of-work-orders.md)
 ## [Create a new work order](create-work-order.md)
@@ -82,9 +83,6 @@
 ## [Connected Field Service architecture](developer/connected-field-service-architecture.md)
 ## [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ## [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
-
-# Implementation
-## [Appsource for Fieldservice] (https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365-for-field-services)
 
 
 
