@@ -188,7 +188,7 @@ You can also configure searchable fields in the knowledge article entity. You ca
 
 > [!NOTE]
 > Enable Relevance search for the knowledge base entity to use it to search knowledge articles. If Relevance search is not enabled for the entity, standard Full-text search is used. </br> </br>
-To enable Relevance search, see [Enable Relevance Search](../admin/configure-relevance-search-organization.md#enable-relevance-search). To configure Relevance search for knowldege article entity, see [Select entities for Relevance Search](../admin/configure-relevance-search-organization.md#select-entities-for-relevance-search).
+To enable Relevance search, see [Enable Relevance Search](../admin/configure-relevance-search-organization.md#enable-relevance-search). To configure Relevance search for knowledge article entity, see [Select entities for Relevance Search](../admin/configure-relevance-search-organization.md#select-entities-for-relevance-search).
 
 ##### Before you begin using Relevance search
 
