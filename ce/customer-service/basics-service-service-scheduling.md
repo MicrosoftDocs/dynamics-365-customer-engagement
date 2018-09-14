@@ -28,7 +28,21 @@ search.app:
 
 Avoid disruptions in service by making sure that your resources are scheduled optimally and efficiently. Learn the basics of getting started with managing services and service scheduling in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
 
-Service scheduling, now built atop **Universal Resource Scheduling (URS)**, provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling. This is done with the help of predictable workloads for employees, and reliable time estimates for customers and clients.
+Service Scheduling, now built atop **Universal Resource Scheduling (URS)**, provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling. This is done with the help of predictable workloads for employees, and reliable time estimates for customers and clients.
+
+## What is Service Scheduling and how you can benefit from it
+
+Using Service Scheduling, you can plan and schedule service activities for your customers by bringing together all your resources. This can be explained with the help of following scenario: 
+
+Contoso bike repairs, a company that repairs bikes, schedules repair services for their customers. To facilitate this process, they need to bring together the following information:
+
+- The types of bike repair services they offer
+- Work hours during which they perform their services
+- The personnel and equipments they have, to perform those services 
+- Capacity and expert level for each personnel
+- Sites, or geographical locations where they offer their services
+
+In this case, Contoso bike repairs can benefit from the Service Scheduling feature of Dynamics 365 for Customer Service. They can quickly cater to their customers who are looking to avail their repair services. With the various service scheduling entities, they can plan service activities for their customers considering the availability of employees, facilities, and equipment.
 
 ## Understand Universal Resource Scheduling (URS)
 
@@ -38,17 +52,15 @@ To know more about how various entities like Sales, Customer Service, Field Serv
 
 See this blog to know the new features introduced in the latest release of Universal Resource Scheduling: [What’s new in Universal Resource Scheduling for Dynamics 365 June 2018 Update](https://blogs.msdn.microsoft.com/crm/2018/06/27/whats-new-in-universal-resource-scheduling-for-dynamics-365-june-2018-update/)
 
-## Get Service Scheduling built on Universal Resource Scheduling
+## Access Service Scheduling in the Customer Service Hub
 
-With the October'18 release, Service scheduling built on Universal Resource Scheduling (URS) will now be available in the Customer Service Hub. Upgrade and install to the latest update to avail the new service scheduling features.
+With the October'18 release, Service Scheduling built on Universal Resource Scheduling (URS) will be available in the Customer Service Hub. Upgrade and install to the latest update to avail the new service scheduling features.
 
 It's easy to avail and access all the latest upgrades and features. Refer [Onboard your organization and users](../admin/onboard-your-organization-and-users-to-dynamics-365-online.md) to know how you can upgrade and install the latest releases.
 
-## Access Service Scheduling in the Customer Service Hub
+You can access the new service scheduling from the Customer Service Hub sitemap in the following ways:
 
-You can access the new service scheduling from the Customer Service Hub sitemap:
-
-- On the sitemap icon ![Sitemap](media/sitemap-icon.png) , select **Scheduling**, and then select an scheduling entity record types. </br>
+- On the sitemap icon ![Sitemap](media/sitemap-icon.png) , select **Service Scheduling**, and then select a scheduling entity record type. </br>
 
   OR
 
@@ -58,13 +70,13 @@ See [Work with Service Scheduling entities](#work-with-service-scheduling-entiti
 
 ### Enable Service Scheduling in the Customer Service Hub sitemap
 
-To enable service Scheduling in the Customer Service Hub sitemap, select **Migrate/Enable Service Scheduling** in the Customer Service Hub sitemap.
+To enable service scheduling in the Customer Service Hub sitemap, select **Migrate Service Scheduling** in the Customer Service Hub sitemap.
 
 > [!NOTE]
-> Service Scheduling has now moved from web application to Customer Service Hub based on Unified Interface. If you have been using the legacy service scheduling, you can migrate your data to the new service scheduling, now base on Universal Resource Scheduling. 
-</br> You cannout use web application based scheduling and URS based scheduling simultaneously.
+> Service Scheduling has now moved from web application to Customer Service Hub. If you have been using the legacy service scheduling, you can migrate your data to the new service scheduling.
+</br> Once you migrate to the new service scheduling, you won't be able to use service scheduling in the web application.
 
-To know more about migrating your legacy data, see [Migrate to the new service scheduling based on Universal Resource Scheduling (URS)](migrate-urs-service-scheduling.md).
+To migrate your legacy data, see [Migrate to the new service scheduling based on Universal Resource Scheduling (URS)](migrate-urs-service-scheduling.md).
 
 ## Know the service terminology  
   
@@ -85,7 +97,7 @@ To know more about migrating your legacy data, see [Migrate to the new service s
 ### Capacity vs. effort—understand the difference  
  You can set up services and resources in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to take into account different-sized facilities or the experience levels of your users when a service is scheduled. This is known as capacity scheduling. Capacity is a relative unit that you define. 
 
-**For example**, you could define capacity in a bicycle repair shop as the number of bikes the shop has room to accommodate at the same time. If a repair bay has room for four bike-repair stations, the repair bay can accept four bikes for repair or inspection at the same time.  
+**For example**, you could define capacity in a bike repair shop as the number of bikes the shop has room to accommodate at the same time. If a repair bay has room for four bike-repair stations, the repair bay can accept four bikes for repair or inspection at the same time.  
   
  Capacity can also measure skill level. For example, a junior bike technician has the ability to perform one bike inspection per hour, and a senior technician has the ability to perform four bike inspections per hour. If two bikes must be inspected in one hour, it takes either two junior technicians, or one senior technician who can perform the inspections in half the time.  
   
@@ -95,39 +107,55 @@ To know more about migrating your legacy data, see [Migrate to the new service s
   
  **For example**, the repair bay has a capacity of four. A bike repair requires an effort of one and a tandem bike repair requires an effort of two. The first time the repair bay is selected, its capacity is reduced to three for that time. The next service activity scheduled is for a tandem bike. This reduces the repair bay's capacity by two. The repair bay has the capacity of one left, which means it could accept another bike repair, but not a tandem bike repair.  
 
-## Work with Service Scheduling entities
+## Understand with Service Scheduling entities
 
-Service scheduling entities are grouped under the following logical groups:
+Service Scheduling entities are grouped under the following logical groups:
 
 **Scheduling**
 
 - **Resources** </br>
-   Anything that needs to be scheduled can be termed as **Resources**. This can be users, crews, service centers, company assets (equipment), accounts, or contacts. **See more**: [Create and set up resources](resources-service-scheduling.md).
+   Anything that needs to be scheduled can be termed as **Resources**. This can be users, crews, service centers, company assets (equipment), accounts, or contacts. 
+
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Create and set up resources](resources-service-scheduling.md)
 
 - **Resources Categories** </br>
-   With Resource categories,  you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment. **See more**: [Create and manage resource categories](resource-categories-service-scheduling.md)
+   With Resource categories,  you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment. 
+ 
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Create and manage resource categories](resource-categories-service-scheduling.md)
 
 - **Facility/Equipment**  </br>
-   Facilities and equipment are resources you’d use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. **See more**: [Add facilities and equipment for service scheduling](add-facilities-equipment-service-scheduling.md)
+   Facilities and equipment are resources you’d use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. 
+
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add facilities and equipment for service scheduling](add-facilities-equipment-service-scheduling.md)
 
 - **Services**  </br>
-   To make scheduling services quick and easy, it’s helpful to predefine the specifics of the services you’d provide to customers. **See more**: [Create or change a service](create-edit-service.md)
+   To make scheduling services quick and easy, it’s helpful to predefine the specifics of the services you’d provide to customers. 
+
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a service](create-edit-service.md)
 
 - **Service Activities** </br>
-   Create a service activity by finding the next available times of resources for a service or simply without checking for conflicts. **See more**: [Schedule a service activity](schedule-service-activity.md)
+   Create a service activity by finding the next available times of resources for a service or simply without checking for conflicts. 
+
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity.md)
 
 **Tools**
 
 - **Schedule Board** </br>
-   The Dynamics 365 schedule board provides an overview of resource availability and bookings you can make. **See more**: [Configure the schedule board for resource availability](../field-service/configure-schedule-board.md)
+   The Dynamics 365 schedule board provides an overview of resource availability and bookings you can make. 
+
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure the schedule board for resource availability](../field-service/configure-schedule-board.md)
 
 **Settings**
 
 - **Organizational Units** </br>
-   Your company probably organizes its consulting business by geography, function, or other areas. You can create organizational units that reflect your consulting business. **See more**: [Create organizational units](../project-service/create-organizational-units.md)
+   Your company probably organizes its consulting business by geography, function, or other areas. You can create organizational units that reflect your consulting business. 
+
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create organizational units](../project-service/create-organizational-units.md)
 
 - **Business Closure** </br>
-   Prevent scheduling resources on holidays and other nonworking days by defining business closures in Dynamics 365. **See more**: [Set when your business is closed](set-when-business-closed.md)
+   Prevent scheduling resources on holidays and other nonworking days by defining business closures in Dynamics 365. 
+
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set when your business is closed](set-when-business-closed.md)
 
 
 ### See also    

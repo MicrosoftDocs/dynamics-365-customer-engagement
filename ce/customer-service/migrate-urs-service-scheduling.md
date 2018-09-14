@@ -22,9 +22,20 @@ search.app:
   - D365CS
 ---
 
-# Migrate to the new service scheduling based on Universal Resource Scheduling (URS)
+# Migrate to the new Service Scheduling based on Universal Resource Scheduling (URS)
 
-*content will come here**
+Service scheduling is now built atop Universal Resource Scheduling (URS) to provide an efficient way to schedule service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling. This is done with the help of predictable workloads for employees, and reliable time estimates for customers and clients.
+
+With the October'18 release, the new Service Scheduling will be available in the Customer Service Hub. You can access the new service scheduling from the Customer Service Hub sitemap.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Access Service Scheduling](basics-service-service-scheduling.md#access-service-scheduling-in-the-customer-service-hub)
+
+## Prepare to migrate
+
+
+
+
+## Begin the migration
 
 Code snippet container
 
@@ -32,3 +43,7 @@ Code snippet container
 sample code
 sample code
 ```
+
+## Uninstall Service Scheduling
+
+### See also
