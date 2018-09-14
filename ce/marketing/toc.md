@@ -65,18 +65,28 @@
 #### [Create an inbound customer journey](create-inbound-customer-journey.md)
 #### [Set up a subscription center](set-up-subscription-center.md)
 
-### Create marketing emails and pages
+### Work with content designers
 #### [Design your digital content](design-digital-content.md)
-#### [Design elements reference](content-blocks-reference.md)
 #### [Upload and use images and files](upload-images-files.md)
-#### [Prepare marketing email messages](prepare-marketing-emails.md)
-#### [Add dynamic content to email messages](dynamic-email-content.md)
-#### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
 #### [Work with email, page, and form templates](email-templates.md)
 #### [Use custom attributes to enable designer features](custom-template-attributes.md)
+#### [Design elements reference](content-blocks-reference.md)
 
-### Segmentation and customer journeys
+### Create marketing emails
+#### [Prepare marketing email messages](prepare-marketing-emails.md)
+#### [Add dynamic content to email messages](dynamic-email-content.md)
+
+### Create marketing pages and forms
+#### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
+#### [Create, view, and manage marketing forms](marketing-forms.md)
+#### [Enable prefilling for forms](form-prefill.md)
+#### [Embed a marketing form on your own website](embed-forms.md)
+#### [Create and manage input fields for use in forms](marketing-fields.md)
+
+### Create target segments
 #### [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
+
+### Work with customer journeys
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
 #### [Customer journey tiles reference](customer-journey-tiles-reference.md)
 
