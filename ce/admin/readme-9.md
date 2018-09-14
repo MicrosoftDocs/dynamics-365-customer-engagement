@@ -358,6 +358,8 @@ Timeline control
 
 -   In dashboards, if the Timeline control is too short, some filters won't be
     visible because the filter pane isn't scrollable.
+    
+-   In offline mode, Timeline control will not load any data. The user will see a message indicating that they are offline.
 
 Field controls and mobile application in Unified Interface
 ----------------------------------------------------------

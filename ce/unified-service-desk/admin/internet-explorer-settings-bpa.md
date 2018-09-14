@@ -1,26 +1,25 @@
 ---
 title: "Internet Explorer settings (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about the Internet Explorer settings that best practices outlines and against which Best Practices Analyzer performs analysis."
-ms.custom: ""
+keywords: ""
 ms.date: 05/07/2018
-ms.service: "usd"
-ms.topic: "article"
-applies_to: 
+ms.service:
+  - "usd"
+ms.custom:
+  - ""
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 104DE14D-F43E-4414-AC83-5C1157E79831
-author: "kabala123"
-ms.author: "kabala"
-manager: "shujoshi"
-search.audienceType: 
-  - admin
-search.app: 
-  - D365CE
-  - D365USD
+author: kabala123
+ms.author: kabala
+manager: shujoshi
 ---
+
 # [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] settings
 
 In the context of [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] and the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, certain parameters of [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] settings are important for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to work seamlessly.
@@ -163,7 +162,7 @@ To enable the option using the Registry Editor:
    >     1. Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can a see new file. <br>
    >     2. Type **2500** as the file name, and then select **Modify**.
 
-4. In the **Value data** field, type **0**..
+4. In the **Value data** field, type **0**.
 5. Select **OK**.
 
 To enable the option using Internet options:
@@ -177,6 +176,9 @@ To enable the option using Internet options:
     -   Restricted sites
 4. Select the **Enable Protected Mode** check box for the all the zones.
 5. Select **Apply**, and then select **OK**.
+
+> [!TIP]
+> An alternative mitigation is retaining the default settings in the **Security** zones, and adding the Dynamics 365 instance and authentication URLs to the **Trusted sites**. For more information, see the [blog](https://blogs.msdn.microsoft.com/usd/2016/01/26/ie-process-mode-gives-httpevent-popup/).
 
 ## Cleanup HTCs
 
