@@ -44,19 +44,13 @@ Contoso bike repairs, a company that repairs bikes, schedules repair services fo
 
 In this case, Contoso bike repairs can benefit from the Service Scheduling feature of Dynamics 365 for Customer Service. They can quickly cater to their customers who are looking to avail their repair services. With the various service scheduling entities, they can plan service activities for their customers considering the availability of employees, facilities, and equipment.
 
-## Understand Universal Resource Scheduling (URS)
 
-Universal Resource Scheduling (also referred as URS) in Dynamics 365 is used to enable scheduling for any entity including custom entities. 
-
-To know more about how various entities like Sales, Customer Service, Field Service, and Project Service Automation use URS to schedule activities, see [Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
-
-See this blog to know the new features introduced in the latest release of Universal Resource Scheduling: [What’s new in Universal Resource Scheduling for Dynamics 365 June 2018 Update](https://blogs.msdn.microsoft.com/crm/2018/06/27/whats-new-in-universal-resource-scheduling-for-dynamics-365-june-2018-update/)
 
 ## Access Service Scheduling in the Customer Service Hub
 
 With the October'18 release, Service Scheduling built on Universal Resource Scheduling (URS) will be available in the Customer Service Hub. Upgrade and install to the latest update to avail the new service scheduling features.
 
-It's easy to avail and access all the latest upgrades and features. Refer [Onboard your organization and users](../admin/onboard-your-organization-and-users-to-dynamics-365-online.md) to know how you can upgrade and install the latest releases.
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable the new URS based Service Scheduling](enable-urs-service-scheduling.md)
 
 You can access the new service scheduling from the Customer Service Hub sitemap in the following ways:
 
@@ -66,17 +60,7 @@ You can access the new service scheduling from the Customer Service Hub sitemap 
 
 - Select **...** to go to **Service Scheduling** and access  the scheduling entity record types.
 
-See [Work with Service Scheduling entities](#work-with-service-scheduling-entities) to know more about the entities in service scheduling.
-
-### Enable Service Scheduling in the Customer Service Hub sitemap
-
-To enable service scheduling in the Customer Service Hub sitemap, select **Migrate Service Scheduling** in the Customer Service Hub sitemap.
-
-> [!NOTE]
-> Service Scheduling has now moved from web application to Customer Service Hub. If you have been using the legacy service scheduling, you can migrate your data to the new service scheduling.
-</br> Once you migrate to the new service scheduling, you won't be able to use service scheduling in the web application.
-
-To migrate your legacy data, see [Migrate to the new service scheduling based on Universal Resource Scheduling (URS)](migrate-urs-service-scheduling.md).
+See [Understand Service Scheduling entities](#understand-service-scheduling-entities) to know more about the entities in service scheduling.
 
 ## Know the service terminology  
   
@@ -116,12 +100,12 @@ Service Scheduling entities are grouped under the following logical groups:
 - **Resources** </br>
    Anything that needs to be scheduled can be termed as **Resources**. This can be users, crews, service centers, company assets (equipment), accounts, or contacts. 
 
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Create and set up resources](resources-service-scheduling.md)
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and set up resources](resources-service-scheduling.md)
 
 - **Resources Categories** </br>
    With Resource categories,  you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment. 
  
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Create and manage resource categories](resource-categories-service-scheduling.md)
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md)
 
 - **Facility/Equipment**  </br>
    Facilities and equipment are resources you’d use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. 
@@ -160,6 +144,6 @@ Service Scheduling entities are grouped under the following logical groups:
 
 ### See also    
 
-[Migrate to the new service scheduling based on Universal Resource Scheduling (URS)](migrate-urs-service-scheduling.md)
+[Enable the new URS based Service Scheduling](enable-urs-service-scheduling.md)
     
  
