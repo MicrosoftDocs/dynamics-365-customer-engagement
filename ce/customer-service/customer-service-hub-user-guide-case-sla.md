@@ -177,21 +177,47 @@ To know more about adding a timer control to a case form, see [Add a timer contr
 
 #### Use Relevance search to search for knowledge articles
 
-Knowledge base search in the Customer Service Hub comes with an improved search functionality. Knowledge base is now enabled for Relevance search in knowledge base search control, in addition to global search where it was enabled previously.
+Knowledge base search in the Customer Service Hub now comes with an improved search functionality. The knowledge base search is now enabled to use Relevance search mechanism in the knowledge base search control area. Previously, Relevance search was enabled only for global search area in the Customer Service Hub app.
 
-Relevance search functionality uses Azure search service to index and search records.  Relevance search provides improved search functionality like better relevance, highlighted search keyword text, and search within attachments and notes. 
+Relevance search mechanism uses Azure search service to index and search records.  Relevance search provides improved search functionality like better relevance, highlighted search keyword text, and search within attachments and notes. 
 
-You can also configure searchable fields in the knowledge article entity. You can include a number of entities in the Relevance search results. However, there is a limit on the total number of fields in the external search index. Currently, the maximum is 1000 searchable fields for an organization. When you select an entity to include in the search results, a number in parentheses next to the entity name is displayed. The number indicates how many fields each entity uses in the external search index.
+You can also configure searchable fields in the knowledge article entity. You can include a number of entities in the Relevance search results. However, there is a limit on the total number of fields in the external search index. Currently, the maximum is 1000 searchable fields for an organization. When you select an entity to be included in the search results,a number in parentheses next to the entity name is displayed. The number indicates how many fields each entity uses in the external search index.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](../admin/configure-relevance-search-organization.md#configure-searchable-fields-for-relevance-search)
 
 
 > [!NOTE]
 > Enable Relevance search for the knowledge base entity to use it to search knowledge articles. If Relevance search is not enabled for the entity, standard Full-text search is used. </br> </br>
-To enable Relevance search, see [Enable Relevance Search](../admin/configure-relevance-search-organization.md#enable-relevance-search). 
+To enable Relevance search, see [Enable Relevance Search](../admin/configure-relevance-search-organization.md#enable-relevance-search). To configure Relevance search for knowldege article entity, see [Select entities for Relevance Search](../admin/configure-relevance-search-organization.md#select-entities-for-relevance-search).
 
-To configure Relevance search for knowldege article entity, see [Select entities for Relevance Search](../admin/configure-relevance-search-organization.md#select-entities-for-relevance-search).
+##### Before you begin using Relevance search
 
+Relevance search uses the scoring concepts as defined by Azure search. To know in detail how Relevance search works, see [How Relevance Search works](../admin/configure-relevance-search-organization.md#how-relevance-search-works).
+
+To be able to search the knowldege base in the app using Relevance search, certain view and find columns should be mandatorily configured in the Quick Find view columns and find columns list. If any of these columns are deleted or missing, the search query displays an error.
+
+> [!NOTE]
+> An admin can add back any of the deleted mandatory columns to Knowledge Article Quick Find View columns list by navigating to **Settings > Customizations > Entities > Knowledge Article > Views > Quick Find View > View Columns**.
+
+Here are the required view and find columns:
+
+**Required View Columns**
+
+- Article Public Number
+- Title 
+- Created On 
+- Keywords
+- Knowledge Article Views 
+- Language
+- Major Version Number 
+- Minor Version Number 
+- Rating
+- Status
+- Modified On
+
+**Required Find Column**
+
+- Keywords
 
 > [!IMPORTANT]
 >  Knowledge base search in the Customer Service Hub shows relevant knowledge articles only when your organization is set up to use the native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management capability. For more information, talk to your administrator.  
