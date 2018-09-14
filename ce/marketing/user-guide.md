@@ -61,7 +61,6 @@ search.app:
 <li><a href="manage-images.md" data-raw-source="[Manage images for landing pages and email messages](manage-images.md)">Manage images for landing pages and email messages</a></li>
 <li><a href="create-templates.md" data-raw-source="[Create templates for emails, pages, forms, and journeys](create-templates.md)">Create templates for emails, pages, forms, and journeys</a></li>
 <li><a href="track-online-behavior.md" data-raw-source="[Track website visits, social media clicks, and banner clicks](track-online-behavior.md)">Track website visits, social media clicks, and banner clicks</a></li>
-<li><a href="create-inbound-customer-journey.md" data-raw-source="[Create an inbound customer journey](create-inbound-customer-journey.md)">Create an inbound customer journey</a></li>
 <li><a href="set-up-subscription-center.md" data-raw-source="[Set up subscription lists and subscription centers](set-up-subscription-center.md)">Set up subscription lists and subscription centers</a></li>
 
 </td><td>
@@ -80,7 +79,7 @@ search.app:
 <tr><td>
 
 <h2>Create marketing segments and customer journeys</h2>
-<li><a href="segmentation-lists-subscriptions.md" data-raw-source="[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)">Segmentation, lists, and subscriptions</a></li>
+<li><a href="segmentation-lists-subscriptions.md" data-raw-source="[Working with segments](segmentation-lists-subscriptions.md)">Working with segments</a></li>
 <li><a href="customer-journeys-create-automated-campaigns.md" data-raw-source="[Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)">Use customer journeys to create automated campaigns</a></li>
 <li><a href="customer-journey-tiles-reference.md" data-raw-source="[Customer journey tiles reference](customer-journey-tiles-reference.md)">Customer journey tiles reference</a></li>
 

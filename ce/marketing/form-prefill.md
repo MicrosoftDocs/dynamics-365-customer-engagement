@@ -91,4 +91,4 @@ Prefilling is always enabled for all fields in a subscription center form. To cr
 1. Go to the **Designer** tab and add all the required fields, subscription lists, and other design elements.
 1. Save your form.
 
-More information: [Set up subscription lists and subscription centers](hset-up-subscription-center.md).
+More information: [Set up subscription lists and subscription centers](set-up-subscription-center.md).

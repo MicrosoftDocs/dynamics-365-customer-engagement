@@ -62,7 +62,6 @@
 #### [Manage images](manage-images.md)
 #### [Create templates](create-templates.md)
 #### [Track online behavior](track-online-behavior.md)
-#### [Create an inbound customer journey](create-inbound-customer-journey.md)
 #### [Set up a subscription center](set-up-subscription-center.md)
 
 ### Work with content designers
@@ -78,16 +77,22 @@
 
 ### Create marketing pages and forms
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
-#### [Create, view, and manage marketing forms](marketing-forms.md)
+#### [Create marketing forms](marketing-forms.md)
 #### [Enable prefilling for forms](form-prefill.md)
-#### [Embed a marketing form on your own website](embed-forms.md)
-#### [Create and manage input fields for use in forms](marketing-fields.md)
+#### [Embed a form on an external website](embed-forms.md)
+#### [Create input fields for forms](marketing-fields.md)
 
-### Create target segments
-#### [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
+### Create market segments
+#### [Working with segments](segmentation-lists-subscriptions.md)
+#### [Design profile-based dynamic segments](segments-profile.md)
+#### [Use the explore view](segments-explorer.md)
+#### [Design interaction-based dynamic segments](segments-interaction.md)
+#### [Define a static segment](segments-static.md)
+#### [Combine segments into a compound segment](segments-compound.md)
 
 ### Work with customer journeys
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
+#### [Create an inbound customer journey](create-inbound-customer-journey.md)
 #### [Customer journey tiles reference](customer-journey-tiles-reference.md)
 
 ### [Manage, score, and qualify leads](qualify-leads-section.md)
