@@ -40,7 +40,7 @@ See this blog to know the new features introduced in the latest release of Unive
 
 ### Install or upgrade Universal Resource Scheduling (URS)
 
-## Install Service Scheduling
+## Install the Service Scheduling package
 
 [Only an admin can do this]
 

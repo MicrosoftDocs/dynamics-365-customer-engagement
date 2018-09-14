@@ -55,7 +55,7 @@
 ### Work with settings
 #### [Organizational Units](../project-service/create-organizational-units.md)
 #### [Business Closure](set-when-business-closed.md)
-### [Migrate to URS based Service Scheduling](migrate-urs-service-scheduling.md) 
+### [Enable the new URS based Service Scheduling](enable-urs-service-scheduling.md)
 
 <!-- ### Service scheduling for web app
 #### [Business closure](set-when-business-closed.md)
