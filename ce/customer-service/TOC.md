@@ -46,15 +46,15 @@
 ### [Overview ](basics-service-service-scheduling.md)
 ### Schedule entities
 #### [Resources](resources-service-scheduling.md)  
-#### [Create and manage resource categories](resource-categories-service-scheduling.md)
-#### [Add facilities and equipment for service scheduling](add-facilities-equipment-service-scheduling.md)
-#### [Create or change a service](create-edit-service.md)
-#### [Schedule a service activity](schedule-service-activity.md)
+#### [Resource Categories](resource-categories-service-scheduling.md)
+#### [Facilities and Equipments](add-facilities-equipment-service-scheduling.md)
+#### [Services](create-edit-service.md)
+#### [Service Activities](schedule-service-activity.md)
 ### Configure using tools
-#### [Configure the schedule board for resource availability](../field-service/configure-schedule-board.md)
+#### [Schedule Board](../field-service/configure-schedule-board.md)
 ### Work with settings
-#### [Create organizational units](../project-service/create-organizational-units.md)
-#### [Set when your business is closed](set-when-business-closed.md)
+#### [Organizational Units](../project-service/create-organizational-units.md)
+#### [Business Closure](set-when-business-closed.md)
 ### [Migrate to URS based service scheduling](migrate-urs-service-scheduling.md) 
 
 <!-- ### Service scheduling for web app
