@@ -32,7 +32,7 @@ search.app:
 
 Solve customer issues quickly with [!INCLUDE[pn_fieldservice_mobile_app_long](../includes/pn-fieldservice-mobile-app-long.md)]. You can dispatch, route, and complete work orders, manage invoices, and more with the mobile app.  
   
- [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] is a solution built on the Resco Mobile platform. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] 
+ [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] is a solution built on the Resco Mobile platform. 
   
  To customize [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)], you need to  install the Resco Mobile Woodford solution. This lets you configure mobile behavior around your business needs. If you don’t need to customize the app just yet, you can  use the default field service mobile configuration.  
   
@@ -48,11 +48,11 @@ Solve customer issues quickly with [!INCLUDE[pn_fieldservice_mobile_app_long](..
   
 3. From the main menu, click **Settings** > **Solutions**.  
   
-   ![Solutions menu](../field-service/media/do-not-use4.PNG "Solutions menu")  
+   ![Solutions menu](../field-service/media/fsm-install-solutions-subarea.PNG "Solutions menu")  
   
 4. On the **All Solutions** page, click **Import**.  
   
-   ![Import solution menu](../field-service/media/field-service-import-solution-menu.PNG "Import solution menu")  
+   ![Import solution menu](../field-service/media/fsm-install-import-button.PNG "Import solution menu")  
   
 5. In the **Import Solution** dialog box, click **Browse**, and then choose the Woodford file you downloaded in Step 1.  
   
@@ -60,18 +60,18 @@ Solve customer issues quickly with [!INCLUDE[pn_fieldservice_mobile_app_long](..
   
 6. Click **Next** to start the import. When the import is complete, click **Close**. You should see **Woodford** listed on the **All Solutions** page.  
   
-   ![Resco Mobile Dynamics 365 solution](../field-service/media/do-not-use2.PNG "Resco Mobile Dynamics 365 solution")  
+   ![Resco Mobile Dynamics 365 solution](../field-service/media/fsm-install-woodford-solution.PNG "Resco Mobile Dynamics 365 solution")  
   
 7. To publish the Woodford solution, click **Publish All Customizations**, and then refresh the page.  
   
-   ![Publish customizations](../field-service/media/field-service-publish-customizations.PNG "Publish customizations")  
+   ![Publish customizations](../field-service/media/fsm-install-publish-customizations.PNG "Publish customizations")  
   
 8. You should now see the **Woodford** solution listed on the **Settings** menu. To verify this, go to **Settings**, and then click **Woodford**.  
   
    > [!IMPORTANT]
    >  If you don’t see **Woodford** under the **Settings** menu, refresh the page.  
   
-   ![Installed Woodford solution](../field-service/media/field-service-installed-woodford-solution.PNG "Installed Woodford solution")  
+   ![Installed Woodford solution](../field-service/media/fsm-install-wodford-subarea.PNG "Installed Woodford solution")  
   
 9. In the **Increase Quota** dialog box, set the quota to 100MB, and then click **OK**.  
   
