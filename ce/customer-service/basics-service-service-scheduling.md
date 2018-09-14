@@ -107,7 +107,7 @@ To migrate your legacy data, see [Migrate to the new service scheduling based on
   
  **For example**, the repair bay has a capacity of four. A bike repair requires an effort of one and a tandem bike repair requires an effort of two. The first time the repair bay is selected, its capacity is reduced to three for that time. The next service activity scheduled is for a tandem bike. This reduces the repair bay's capacity by two. The repair bay has the capacity of one left, which means it could accept another bike repair, but not a tandem bike repair.  
 
-## Understand with Service Scheduling entities
+## Understand Service Scheduling entities
 
 Service Scheduling entities are grouped under the following logical groups:
 
