@@ -2,7 +2,7 @@
 title: "Write a plug-in (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about plug-in design, writing a basic plug-in, writing a plug-in constructor, and web access for isolated plug-ins."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 09/13/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -25,6 +25,9 @@ search.app:
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 Plug-ins are custom classes that implement the <xref:Microsoft.Xrm.Sdk.IPlugin> interface. You can write a plug-in in any [!INCLUDE[pn_NET_Framework_452_short](../includes/pn-net-framework-452-short.md)] CLR-compliant language such as [!INCLUDE[pn_MS_Visual_C#](../includes/pn-ms-visual-csharp.md)] and [!INCLUDE[pn_Visual_Basic](../includes/pn-visual-basic.md)]. To be able to compile plug-in code, you must add Microsoft.Xrm.Sdk.dll and  Microsoft.Crm.Sdk.Proxy.dll assembly references to your project. Download these assemblies from [NuGet](https://www.nuget.org/profiles/crmsdk).
+
+> [!IMPORTANT]
+> Do not use .NET Framework versions greater than 4.5.2 when developing plug-ins.
   
 <a name="bkmk_design"></a>
 
