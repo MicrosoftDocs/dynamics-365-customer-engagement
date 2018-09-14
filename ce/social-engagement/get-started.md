@@ -100,7 +100,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Empower your salespeople with the Social Selling Assistant](social-selling-assistant-overview.md)  
   
-- **Message Center**: Create and manage alerts to get the most recent posts or significant changes delivered by email to the specified recipients.  
+- **Alerts**: Create and manage alerts to get the most recent posts or significant changes delivered by email to the specified recipients.  
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stay up to date with alerts](email-alerts.md)  
   

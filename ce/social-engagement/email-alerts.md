@@ -31,13 +31,13 @@ You can create email notifications to automatically send to a group of recipient
 
 - **Trend alert:** An email notification is delivered to all specified email addresses within a few hours if the volume of posts for any source exceeds the statistical expectation. A trend alert notifies you only if there are significant changes in post volumes that match the filters that you defined for an alert.
 
-Configure and manage your alerts in the **Message Center**. Your alerts configuration is visible only to you. Recipients of the alert won't be able to see or edit your alert configuration. However, an admin can remove email addresses from all alerts they are mapped to. 
+Configure and manage your alerts in the **Alerts** area. Your alerts configuration is visible only to you. Recipients of the alert won't be able to see or edit your alert configuration. However, an admin can remove email addresses from all alerts they are mapped to. 
 
 Alert emails contain a link to the data set that matches the posts that triggered the alert. Choose this link to open and review the content in [!include[](../includes/pn-social-engagement-short.md)].
 
 ## View your alerts list
 
-To review your alerts, go to **Message Center** > **Alert Configuration**.  The information that you'll see about each alert is explained in the following table.
+To review your alerts, go to **Alerts** > **Alert Configuration**.  The information that you'll see about each alert is explained in the following table.
 
 |List entry / symbol|What it means|
 |--------------------------|-------------------|
@@ -48,9 +48,9 @@ To review your alerts, go to **Message Center** > **Alert Configuration**.  The 
 
 ## Create an alert
 
-A simple way to create an alert is directly from your analysis. Filters and parameters that you defined for the current view will be filled in for you. You can create an alert from every section in Analytics. You can also go to the **Message Center** and create an alert. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](more-options-with-data-set.md)
+A simple way to create an alert is directly from your analysis. Filters and parameters that you defined for the current view will be filled in for you. You can create an alert from every section in Analytics. You can also go to the **Alerts** area to create an alert. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](more-options-with-data-set.md)
 
-1.  Go to **Message Center** > **Alert Configuration**.
+1.  Go to **Alerts** > **Alert Configuration**.
 
 2.  In the **Alerts** pane, click the **Add** button ![Add button](media/add-icon.png "Add button").
 
@@ -70,7 +70,7 @@ A simple way to create an alert is directly from your analysis. Filters and para
 
 ## Change or delete an alert
 
-You can [edit](#change-an-alert) or [delete](#delete-an-alert) any alerts that you created in the **Message Center**. Any changes in the alert configuration are applied immediately.
+You can [edit](#change-an-alert) or [delete](#delete-an-alert) any alerts that you created in the **Alerts** area. Any changes in the alert configuration are applied immediately.
 
 > [!TIP]
 > You can't change the alert type after you create a new alert. However, you can always edit and update the data set, recipients, and name for an existing alert.
@@ -81,7 +81,7 @@ You can [edit](#change-an-alert) or [delete](#delete-an-alert) any alerts that y
 
 ### Change an alert
 
-1.  Go to **Message Center** > **Alert Configuration**.
+1.  Go to **Alerts** > **Alert Configuration**.
 
 2.  Select the alert that you want to edit.
 
@@ -92,7 +92,7 @@ You can [edit](#change-an-alert) or [delete](#delete-an-alert) any alerts that y
 
 ### Delete an alert
 
-1.  Go to **Message Center** > **Alert Configuration**.
+1.  Go to **Alerts** > **Alert Configuration**.
 
 2.  In the **Alerts** pane, find the alert that you want to delete, and then click the **Delete** button ![Delete button](media/trashbin-icon.png "Delete button").
 
@@ -105,7 +105,7 @@ You can [edit](#change-an-alert) or [delete](#delete-an-alert) any alerts that y
 
 In an administrator role, you can look up email addresses and remove them from alerts that were configured by other users in your organization. You can also export the list of alerts that go to a specific email address. 
 
-1. Go to **Message Center** > **Manage Recipients**.
+1. Go to **Alerts** > **Manage Recipients**.
 
 2. Enter the email address you want to search for.
 
