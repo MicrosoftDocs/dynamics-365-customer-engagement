@@ -66,7 +66,7 @@ Admins for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.
   
 -   [Learn how to provide technical support as a delegated admin](https://msdn.microsoft.com/library/partnercenter/mt157012.aspx)  
   
--   [Leearn how to do common partner tasks](https://partnercenter.microsoft.com/partner/howto)  
+-   [Learn how to do common partner tasks](https://partnercenter.microsoft.com/partner/howto)  
   
 -   [Learn about the Microsoft Cloud Solution Provider (CSP) program](http://go.microsoft.com/fwlink/p/?LinkID=617116)  
   
