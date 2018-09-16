@@ -30,9 +30,9 @@ To configure channel providers:
 > [div class="mx-imgBorder"]
 > ![Dynamics 365 drop-down button to find Channel Integration Framework](media/cif-app-navigation.png "Dynamics 365 drop-down button to find Channel Integration Framework")
 
-4.	Select **+ New** to add a new provider.
+3.	Select **+ New** to add a new provider.
 
-5.	In the **New Channel** page, specify the following:
+4.	In the **New Channel** page, specify the following:
 
     | Field | Description |
     |-------|-------|
@@ -45,4 +45,4 @@ To configure channel providers:
     |Select the Unified Interface Apps for the Channel| The list of Unified Interface Apps where the channel is displayed for the agents. |
     |Select Roles for the Channel|The security roles that is present in Dynamics 365.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface App.|
 
-6. Launch the Unified Interface App to see the communication widget on the right-side.
+5. Launch the Unified Interface App to see the communication widget on the right-side.
