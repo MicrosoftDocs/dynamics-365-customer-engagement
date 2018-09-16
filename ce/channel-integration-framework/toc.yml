@@ -15,3 +15,5 @@
     items:
     - name: Configure channel provider in Unified Interface app
       href: configure-channel-provide-channel-integration-framework.md
+    - name: Authenticate channel users to the channel (widget)
+      href: authenticate-channel-users.md
