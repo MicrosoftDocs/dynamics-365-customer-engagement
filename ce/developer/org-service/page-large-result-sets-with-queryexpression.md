@@ -37,7 +37,8 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] 
   
 ## When not to use paging 
 
-Paging depend on the common case where each row returned represents a unique entity record. There are some queries you can construct that will provide rows that combine data from the primary entity with related entities. This will result in multiple primary entity rows that refer to the same primary key value. If you depend on paging in this situation you will get inconsistent results.
+
+Paging depends on the common case where each row returned represents a unique entity record. There are some queries you can construct that will provide rows that combine data from the primary entity with related entities. This will result in multiple primary entity rows that refer to the same primary key value. If you depend on paging in this situation you will get inconsistent results.
 
 In this case, here are several strategies you can apply.
 
