@@ -210,8 +210,7 @@ custom workflow activity. How do you decide when to use a plug-in and when to us
 
 For example, you must use a synchronous plug-in real-time workflow if you want to execute custom code immediately before or after the core platform operation executes and before the result of the
  operation is returned from the platform. You cannot use an asynchronous workflow or asynchronous plug-in in this situation because they are queued to execute after the core operation finishes 
-executing. Therefore, you cannot predict when they will run. If you want to add custom functionality to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], workflows and plug-ins are supported, 
-but custom workflow activities are not.
+executing. Therefore, you cannot predict when they will run. If you want to add custom functionality to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], workflows, custom workflow activities and plug-ins are supported.
 
 Evaluate these technologies and select the one that best suits your business objectives after you consider the deployment, performance, and maintenance concerns of your plug-in or workflow solution.  
 
