@@ -38,6 +38,8 @@ Unlike profile segments, interaction segments only allow for a single query grou
 
 This topic describes how to work with interaction segments. For more about profile segments, see [Profile-based dynamic segments](segments-profile.md).
 
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Working with segments](segmentation-lists-subscriptions.md)
+
 ## Create an interaction segment
 
 To create a segment based on interaction records:

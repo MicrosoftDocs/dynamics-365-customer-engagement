@@ -34,7 +34,9 @@ The segmentation tool always works in one of two modes, which enable it to creat
 
 - **Interaction segments** query the _interaction_ records stored in the customer-interaction database. Each of these records is generated automatically and related to a specific contact record. Interaction records are accessed to generate various insights displays in the Dynamics 365 UI, but they _aren't_ synced to the Dynamics 365 database. They are generated in response to contact interactions such as opening an email, clicking an email link, submitting a form, or registering for an event.
 
-This topic describes how to work with profile segments. For more about interaction segments, see [Design interaction-based dynamic segments](segments-interaction.md)
+This topic describes how to work with profile segments. For more about interaction segments, see [Design interaction-based dynamic segments](segments-interaction.md).
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Working with segments](segmentation-lists-subscriptions.md)
 
 ## Set up a new dynamic segment
 

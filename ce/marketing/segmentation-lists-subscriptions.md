@@ -87,9 +87,13 @@ The **General** tab provides general information about the segment, including:
 
 ### The Definition tab
 
-Use the **Definition** tab to establish membership of the segment. For dynamic segments, you'll get a query builder here. For static segments, you'll select specific contacts one at a time.
+Use the **Definition** tab to establish membership of the segment. For dynamic segments, you'll get a query builder here. For static segments, you'll select specific contacts one at a time. For compound segments, you'll create logic for combining existing segments here. For more information about how to build your segment definition using this tab, see the following topics:
 
-The settings on this tab are described in more detail in other topics in this section. <!-- add list of links -->
+- [Design profile-based dynamic segments](segments-profile.md)
+- [Use the explore view](segments-explorer.md)
+- [Design interaction-based dynamic segments](segments-interaction.md)
+- [Define a static segment](segments-static.md)
+- [Combine segments into a compound segment](segments-compound.md)
 
 ### The Related tab
 
