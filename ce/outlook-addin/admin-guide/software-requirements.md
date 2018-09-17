@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Dynamics 365 for Outlook software requirements | MicrosoftDocs"
 ms.custom: ""
-ms.date: 01/13/2017
+ms.date: 08/17/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
