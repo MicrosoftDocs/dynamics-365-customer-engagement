@@ -29,16 +29,14 @@
 ## [Bookable resource categories](set-up-bookable-resource-categories.md)
 ## [Characteristics](set-up-characteristics.md)
 ## [Resource pay types](set-up-resource-pay-types.md)
-## Tutorials
-### [Submit and approve time-off requests](submit-approve-time-off-requests.md)
+## [Tutorial: Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
 # [Universal Resource Scheduling (URS)](universal-resource-scheduling.md)
 ## [Configure the schedule board](configure-schedule-board.md)
 ## [Booking statuses](set-up-booking-statuses.md)
 ## [Time groups](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
-## FAQs
-### [Travel time estimates with geocoding](turn-on-auto-geocoding.md)
+## [FAQ: Travel time estimates with geocoding](turn-on-auto-geocoding.md)
 
 # Mobility
 ## [Mobile field service](field-service-mobile-app-user-guide.md)
@@ -53,8 +51,7 @@
 ## [Deployment](rso-deployment.md)
 ## [Configuration](rso-configuration.md)
 ## [Schedule optimization](rso-schedule-optimization.md)
-## FAQs
-### [FAQ and troubleshooting tips](rso-faq.md)
+## [FAQ and troubleshooting tips](rso-faq.md)
 
 # [Connected Field Service (IoT)](connected-field-service.md)
 ## [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
@@ -62,8 +59,8 @@
 ## [Connected Field Service architecture](developer/connected-field-service-architecture.md)
 ## [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ## [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
-# Assets, inventory and purchasing
 
+# Assets, inventory and purchasing
 ## Customer assets
 ### [Set up customer assets](configure-set-up-customer-assets.md)
 ## Inventory
