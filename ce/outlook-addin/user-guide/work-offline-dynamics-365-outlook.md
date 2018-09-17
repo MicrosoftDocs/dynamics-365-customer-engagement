@@ -1,7 +1,7 @@
 ---
 title: "Work offline with Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
-ms.date: 01/11/2016
+ms.date: 09/17/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
