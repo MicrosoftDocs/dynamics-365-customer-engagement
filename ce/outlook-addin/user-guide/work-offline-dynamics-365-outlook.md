@@ -1,7 +1,7 @@
 ---
 title: "Work offline with Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
-ms.date: 01/11/2016
+ms.date: 09/17/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -31,6 +31,12 @@ search.app:
 You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to access your [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] data when you’re on the go. For example, if you travel to a customer’s site, you can look up your Dynamics 365 contacts, review and add new notes, and more without connecting to the Internet.  
   
  When you go offline with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], the software copies a subset of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data to your computer’s hard drive. Changes you make while you’re offline are stored locally. When you connect to the server again, the changes are automatically synchronized with the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server.  
+ 
+ ### Offline Support
+
+The following operating systems are supported for offline mode.
+
+ ![Offline Support](../media/OfflineSupport.PNG "Offline Support") 
   
 <a name="BeforeYouGoOffline"></a>   
 ## Before you go offline  
