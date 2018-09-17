@@ -4,7 +4,6 @@
 
 # Installation
 ## [Field service installation (online)](install-field-service.md)
-## [Field service installation (on-premises)](install-field-service-on-premises)
 ## [Mobile solution installation](install-the-mobile-app.md)
 ## [Sample data installation](use-demo-data.md)
 ## [Activate field service mobile licenses](activate-fs-mobile-app-license.md)
@@ -51,6 +50,19 @@
 ## [Customer agreements](set-up-customer-agreements.md)
 ## [Agreement sub-statuses](set-up-agreement-sub-statuses.md)
 
+# [Resource Scheduling Optimization (RSO)](rso-overview.md)
+## [Deployment](rso-deployment.md)
+## [Configuration](rso-configuration.md)
+## [Schedule optimization](rso-schedule-optimization.md)
+## FAQs
+### [FAQ and troubleshooting tips](rso-faq.md)
+
+# [Connected Field Service (IoT)](connected-field-service.md)
+## [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
+## [Develop customized IoT solutions](developer/connected-field-service-developer-guide.md)
+## [Connected Field Service architecture](developer/connected-field-service-architecture.md)
+## [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
+## [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 # Assets, inventory and purchasing
 
 ## Customer assets
@@ -70,19 +82,8 @@
 ### [Purchase order sub-statuses](set-up-purchase-order-sub-statuses.md)
 ### [Payment terms](set-up-payment-terms.md)
 
-# [Resource Scheduling Optimization (RSO)](rso-overview.md)
-## [Deployment](rso-deployment.md)
-## [Configuration](rso-configuration.md)
-## [Schedule optimization](rso-schedule-optimization.md)
-## FAQs
-### [FAQ and troubleshooting tips](rso-faq.md)
 
-# [Connected Field Service (IoT)](connected-field-service.md)
-## [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
-## [Develop customized IoT solutions](developer/connected-field-service-developer-guide.md)
-## [Connected Field Service architecture](developer/connected-field-service-architecture.md)
-## [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
-## [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
+
 
 
 
