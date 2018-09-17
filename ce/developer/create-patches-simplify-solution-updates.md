@@ -2,7 +2,7 @@
 title: "Create patches to simplify solution updates (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Patches help you manage entities and all of its related assets when you add an entity to a solution and export that solution"
 ms.custom: ""
-ms.date: 02/20/2018
+ms.date: 09/17/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -12,7 +12,7 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: 12672159-03b1-4f18-8d8c-cf4aaf366deb
 caps.latest.revision: 14
-author: "JimDaly"
+author: "shmcarth"
 ms.author: "jdaly"
 manager: "amyla"
 search.audienceType: 
@@ -57,7 +57,7 @@ If you add an entity to a solution and export the solution, the entity and all o
   
 - Patches are only supported in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organizations of version 8.0 or later.  
 
-- When a patch is installed, it is installed just above the base solution it is patching and below any solutions on top. This means any solutions on top will trump the settings in the patch for the same component type.
+- When a patch is installed, it is installed just above the base solution it is patching and below any solutions on top. This means any solutions on top will override the settings in the patch for the same component type.
   
   The SolutionPackager and PackageDeployer tools in this release support solution patches. Refer to the tool's online help for any command-line options that are related to patches.  
   
