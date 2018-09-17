@@ -1,7 +1,7 @@
 ---
 title: "Deploy Dynamics 365 App for Outlook (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 07/25/2018
+ms.date: 09/17/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
