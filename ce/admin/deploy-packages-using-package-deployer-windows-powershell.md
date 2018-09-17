@@ -15,6 +15,11 @@ caps.latest.revision: 36
 author: "Mattp123"
 ms.author: "matp"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell
 

@@ -1,9 +1,9 @@
 ---
 title: "Crowdsource ideas on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn how to manage Forum Ideas, Idea Comments, and Idea Votes on a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
-ms.date: 06/08/2018
+ms.date: 08/30/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,6 +13,13 @@ ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
 manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Crowdsource ideas
 Learn how to manage Forum Ideas, Idea Comments, and Idea Votes.
@@ -43,16 +50,19 @@ Summary                | HTML content providing a description of the idea forum.
 | New Idea Policy        | An option that specifies how new idea records should be handled in the idea forum.                                                                                                                                                                                                            |
 | Comment Policy         | An option that specifies how comments on ideas should be handled in the idea forum.                                                                                                                                                                                                           |
 | Voting Policy          | An option that specifies how votes on ideas should be handled in the idea forum.                                                                                                                                                                                                              |
-| Voting Type            | The type of voting the idea forum will allow.                                                                                                                                                                                                                                                 |
+| Type of Voting         | The type of voting the idea forum will allow.                                                                                                                                                                                                                                                 |
 | Votes Per Idea         | The number of votes a user is allowed for a single idea belonging to an idea forum. When Voting Type is Up or Down this value is set to 1.                                                                                                                                                    |
 | Votes Per User         | The number of votes a user is allowed to use in an idea forum. If no value is set, users have unlimited votes within the idea forum.                                                                                                                                                          |
 | Roles with Read Access | Relationship specifying the web roles that have permission to see and participate in the idea forum. Any portal users associated with any of these roles will be granted access to the idea forum.                                                                                            |
 | Moderators             | Relationship specifying the web roles that have permission to moderate the idea forum. There is currently no front-side moderation functionality built into the idea portal application.|
 ||
 
-## Manage ideas in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
+## Manage ideas in Dynamics 365
 
 For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, provided the portal customizations have been imported into your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, Idea records can be managed under the Community tab.
+
+> [!NOTE]
+> If you create an idea, the idea will get one vote automatically on your behalf.
 
 ## Idea attributes and relationships
 
@@ -72,7 +82,7 @@ The table below explains the standard attributes and relationships of the Idea e
 | Author E-mail         | Text specifying the e-mail of the user that submitted the idea.                                                                                                                                                                                                                               |
 | Author                | Relationship specifying which portal user is associated with the idea.                                                                                                                                                                                                                        |
 | Submitted On          | The date and time that the idea was created.                                                                                                                                                                                                                                                  |
-| Status Reason         | An option that specifies the current status of the idea. <ul><li>**New**:The idea is active and can be voted on.</li><li>**Accepted**: The idea has been accepted and can no longer be voted on. Users that voted for the idea – if limited – have their votes returned to them.</li><li>**Completed**:The idea has been implemented successfully and can no longer be voted on. Users that voted for the idea – if limited – have their votes returned to them.</li><li>**Rejected**:The idea will not be pursued and can no longer be voted on. Users that voted for the idea – if limited – have their votes returned to them.</li></ul>                                                    |
+| Status Reason         | An option that specifies the current status of the idea. <ul><li>**New**:The idea is active and can be voted on.</li><li>**Accepted**: The idea has been accepted and can no longer be voted on. Users that voted for the idea – if limited – have their votes returned to them.</li><li>**Completed**:The idea has been implemented successfully and can no longer be voted on. Users that voted for the idea – if limited – have their votes returned to them.</li><li>**Rejected**:The idea will not be pursued and can no longer be voted on. Users that voted for the idea – if limited – have their votes returned to them.</li></ul>**Note**: You can enable voting for other status reasons also. More information: [Enable voting for status reasons.](#enable-voting-for-status-reasons)                                          |
 | Status Author         | Relationship specifying which portal user is associated with the idea's status and status comment.                                                                                                                                                                                            |
 | Status Comment        | An optional comment for the idea's status reason. In other words, when it's planned to be implemented, why it has been rejected, etc.                                                                                                                                                         |
 | Comment Policy        | An option that specifies how comments on the idea should be handled.<ul><li>**Inherit**: The comment policy of the parent idea forum will be used. This is the default setting.</li><li>**Open**: Submissions from all users, anonymous and authenticated, are allowed and displayed immediately.</li><li>**Open to Authenticated Users**: Only submissions from authenticated users are allowed and they are displayed immediately.</li><li>**Moderated**: Submissions from all users, anonymous or authenticated, are allowed. The submissions will not be displayed until a moderator approves them.</li><li>**Closed**: Existing submissions are displayed, but no new submissions are allowed.</li><li>**None**: User submissions are disabled. No submissions can be made or viewed.</li></ul>  |
@@ -84,10 +94,35 @@ The table below explains the standard attributes and relationships of the Idea e
 | Idea Votes            | Relationship specifying all votes associated with the idea. | 
 ||
 
-> [!Note]  
-> Partial URL values are used as URL path segments. As such, they should not contain illegal URL path characters, such as "?", "\#", "!", "%". Because portal URLs are generated by joining together Partial URL values with slashes ("/"), they should also not generally contain slashes.Recommended practice would be to restrict Partial URL values to letters, numbers, and hyphens or underscores. For example: "press-releases", "Users\_Guide", "product1".
+### Enable voting for status reasons
 
-## Manage idea comments in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
+By default, an idea is enabled for voting only when the Status Reason is set to New. If you want to enable the voting on an idea for different status reasons,  you must create the Ideas/EnableVotingForStatusReasons site setting and set its value to the required status reason values.
+
+For example, you want you to enable voting for New, Accepted, and Rejected status reasons. You must create the site setting and set its value as:
+
+- **Name**: Ideas/EnableVotingForStatusReasons
+
+- **Value**: 1;100000000;100000002
+
+> [!NOTE]
+> - If all the values in site setting is wrong, the voting will be disable regardless of the status reason.
+> - If this site setting does not exist, the idea will be enabled for voting only when the Status Reason is set to New.
+
+To get the status reason values:
+
+1.	Sign in to Dynamics 365.
+
+2.	Go to **Settings** > **Customization** > **Customize the System**.
+
+3.	In the customization dialog, go to **Components** > **Entities** > **Idea** in the left navigation pane. 
+
+4.	Expand the **Idea** entity and select **Fields**.
+
+5.	Select the **statuscode** field from the list and open it in field editor.
+
+6.	Under the **Type** section, open the statuses to see their respective values.
+
+## Manage idea comments in Dynamics 365
 
 For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, provided the portal customizations have been imported into your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, Idea Comment records can be managed under the Community tab.
 

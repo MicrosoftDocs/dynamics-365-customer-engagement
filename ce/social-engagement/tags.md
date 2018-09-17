@@ -2,18 +2,25 @@
 title: "Work with tags in Social Engagement | Microsoft Docs"
 description: "Learn how to work with tags on post and the auto-tagging capabilities in Social Engagement."
 keywords: "tags, tagging, auto tags, custom tags, Social Engagement"
-ms.date: 03/27/2018
+ms.date: 08/22/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 1cf877c0-f5a0-43fc-9bf0-1c5ef12359e1
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Work with tags
@@ -73,7 +80,7 @@ To improve your workflows and increase efficiency, you can leverage auto tagged 
   
 2.  In the Global Settings pane, select **Auto Tags**.  
   
-3.  Under Auto Tags, select **Add tag** ![Add button](media/add-icon.png "Add button")  
+3.  Under Auto Tags, select **Add Auto Tag** ![Add button](media/add-icon.png "Add button")  
   
     > [!NOTE]
     >  You can maintain up to five auto tags simultaneously.  
@@ -100,7 +107,7 @@ To improve your workflows and increase efficiency, you can leverage auto tagged 
 3.  In the Auto Tags panel, select **Remove**, and then select **Confirm**.  
     Removed tags will remain visible on previous posts, but auto scoring will stop for incoming posts. 
 
-## Improve accuracy of sytem-rated tags
+## Improve accuracy of system-rated tags
 
 To further improve the underlying machine learning model for auto tags and intention tags, you can confirm and remove system-rated. Removing a system-rated tag from a post lets the model know that it was added wrongly while confirming a tag indicates the model was adding it correctly. 
 
@@ -121,7 +128,7 @@ The system-rated tag gets removed from the post and the machine learning model w
   
 3.  Next to the tags symbol ![Tag symbol in Social Engagement](media/tag-symbol.png "Tag symbol in Social Engagement"), select **Confirm this auto tag** ![Confirm tag symbol in Social Engagement](media/check-icon.png "Confirm tag symbol in Social Engagement").   
 ![Intention tag and customer tag with confirm control highlighted](media/confirm-intention-view-custom-tag.png "Intention tag and customer tag with confirm control highlighted")    
-A stars symbol indicates that this system-rated tag was manually confirmed and the machine learning model will take this confirmation into account for future assignement of system-rated tags. 
+A stars symbol indicates that this system-rated tag was manually confirmed and the machine learning model will take this confirmation into account for future assignment of system-rated tags. 
 
 ## Review the quality of a tagging model
 

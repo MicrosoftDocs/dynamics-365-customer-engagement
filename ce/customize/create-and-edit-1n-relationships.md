@@ -18,6 +18,10 @@ caps.latest.revision: 33
 ms.author: "matp"
 manager: "kvivek"
 tags: 
+search.audienceType: 
+  - customizer
+search.app: 
+  - D365CE
 ---
 # Create 1:N (one-to-many) or N:1 (many-to-one) relationships
 

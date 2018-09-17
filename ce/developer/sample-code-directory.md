@@ -6,7 +6,7 @@ ms.date: 11/16/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: ce3c5bdf-0fe8-424b-96bc-ce3fe7adcd2e
 author: JimDaly
@@ -19,6 +19,10 @@ helpviewer_keywords:
   - "directory"
 caps.latest.revision: 61
 topic-status: Drafting
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 
 # Sample code directory for Dynamics 365 Customer Engagement

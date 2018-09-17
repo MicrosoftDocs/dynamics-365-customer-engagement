@@ -19,7 +19,13 @@ author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
 tags: 
- - "NoHandoff"
+  - "NoHandoff"
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Create agent application using Unified Service Desk
  You can use [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] in the following ways to create an agent application customized for your organization:  

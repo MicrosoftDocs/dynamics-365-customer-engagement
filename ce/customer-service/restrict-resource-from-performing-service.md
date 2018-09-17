@@ -13,6 +13,13 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
 ms.assetid: 069d1768-3521-4407-8b1f-582706ecfcf6
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # Restrict a resource from performing a service (Customer Service)

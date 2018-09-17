@@ -1,6 +1,6 @@
 ---
 title: "getEventArgs (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-description: "Learn about the getEventArgs method that returns an object with methods to manage the **Save** event." 
+description: "Learn about the getEventArgs method that returns an object with methods to manage the **Save** event."
 ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -9,6 +9,10 @@ ms.assetid: 9f3b2fed-fde5-46e4-8c59-43aa51aa82df
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getEventArgs (Client API reference)
 

@@ -1,7 +1,7 @@
 ---
 title: Set up entitlements quickly with templates (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: See how to set up entitlements quickly with templates in Dynamics 365 for Customer Service
-keywords: Set up entitlements with templates; Dynamics 365; Customer Service; Create an entitlement template; Add entitlement channels  ; Associate a product with the entitlement template 
+keywords: Set up entitlements with templates; Dynamics 365; Customer Service; Create an entitlement template; Add entitlement channels  ; Associate a product with the entitlement template
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
@@ -13,6 +13,13 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: dadea8f7-c931-4cdc-8815-32f8c0f89b51
 ms.custom: dyn365-customerservice
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
 ---
 
 # Set up entitlements quickly with templates

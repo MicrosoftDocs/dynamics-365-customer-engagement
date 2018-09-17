@@ -1,10 +1,13 @@
 ---
 title: "Unified Interface Page (Hosted Control) (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about the the Unified Interface Page hosted control type to load a URL or page from Dynamics 365. When a Dynamics 365 page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
-ms.custom: ""
+keywords: ""
 ms.date: 04/24/2018
-ms.service: "usd"
-ms.topic: "article"
+ms.service: 
+  - "usd"
+ms.custom: 
+  - ""
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
@@ -12,12 +15,18 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 3AEB8475-FCBE-4526-8000-CF06CED9586C
-author: "kabala123"
-ms.author: "kabala"
-manager: "sakudes"
+author: kabala123
+ms.author: kabala
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 
-# Preview feature: Unified Interface Page (Hosted Control)
+# Unified Interface Page (Hosted Control)
 Use the **Unified Interface Page** hosted control type to load a URL or page from Unified Interface Apps in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. When a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters.
   
  This hosted control type exposes a number of predefined UII actions and events that are unique to handling of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] including list manipulation actions, and a find action for displaying a quick search or advanced search page.
@@ -40,11 +49,11 @@ In the New Hosted Control screen:
 
 For information about other **General** fields, see Create or edit a hosted control.
 
-# Predefined UII actions
+## Predefined UII actions
 
 These are the predefined actions for this hosted control type.
 
-## AssociatedView
+### AssociatedView
 
 This action loads a specific associated view of Dynamics 365. These views are typically accessed by clicking down arrow next to an entity record name in the nav bar, and selecting the associated entities.
 
@@ -56,19 +65,19 @@ This action loads a specific associated view of Dynamics 365. These views are ty
 | hideCommandBar    | If this parameter is supplied and False, the page will be displayed along with the Dynamics 365 command bar. |
 | hideNavigationBar | If this parameter is supplied and False, the page will be displayed along with the Dynamics 365 navigation bar.     |
 
-## Close
+### Close
 
 This action is used to close the hosted control. Unlike the **CloseActive** action, if this tab (hosted control) is displaying more than one page, it will close all the pages displayed in the tab in your agent application.
 
-## CloseActive
+### CloseActive
 
 This action is used to close the active window within this hosted control. If the active window is the only window displayed in the hosted control, the hosted control itself will be closed. For **Unified Interface Page** type of hosted controls that do not allow multiple pages (**Allow Multiple Pages** = No), this action is equivalent to the **Close** action.
 
-## CloseAndPrompt
+### CloseAndPrompt
 
 This action closes the hosted control, but prompts the user to save or abandon the changes before closing.
 
-## Find
+### Find
 
 Navigate to the quick find list view of the specified entity.
 
@@ -89,7 +98,7 @@ Navigate to the quick find list view of the specified entity.
 </tbody>
 </table>
 
-## FireEvent
+### FireEvent
 
 Fires a user-defined event from this hosted control.
 
@@ -99,7 +108,7 @@ Fires a user-defined event from this hosted control.
 
 All subsequent name=value pairs become the parameters to the event. For more information about creating a user-defined event, see [Create a user-defined event](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/create-user-defined-event).  
 
-## GetSelectedIds
+### GetSelectedIds
 
 This action is used to retrieve the selected IDs from the lists.
 
@@ -109,7 +118,7 @@ This action is used to retrieve the selected IDs from the lists.
 
 The return value contains a semi-colon delimited list of IDs containing the selected items.
 
-## GetSelectedCount
+### GetSelectedCount
 
 This action retrieves the number of items that are selected. Use the **GetSelectedIds** action to get the actual list of IDs for the entity.
 
@@ -119,19 +128,19 @@ This action retrieves the number of items that are selected. Use the **GetSelect
 
 The return value contains a number represented the quantity of selected items.
 
-## GoHome
+### GoHome
 
 This action goes to the initial URL specified for this browser instance.
 
-## GoBack
+### GoBack
 
 This action is equivalent to clicking the back button on the browser instance.
 
-## GoForward
+### GoForward
 
 This action is equivalent to clicking the forward button on the browser instance.
 
-## MoveToPanel
+### MoveToPanel
 
 This action moves a Unified Interface Page hosted control to a different panel at runtime.
 
@@ -139,7 +148,7 @@ This action moves a Unified Interface Page hosted control to a different panel a
 |-----------|--------------------------------------------------------------------------------------------------------------------|
 |           | The data parameter should specify the target panel name to move the hosted control to. For example: FloatingPanel. |
 
-## Navigate
+### Navigate
 
 This action is used to navigate to a Dynamics 365 url. The App Id for the App that you select from **Select App Module** window is appended automatically.
 
@@ -182,7 +191,7 @@ If a <!-- BEGIN ERROR INCLUDE: Unable to resolve [!INCLUDE[pn_unified_service_de
 </tbody>
 </table>
 
-## New\_CRM\_Page
+### New\_CRM\_Page
 
 Creates a page for creating a new Dynamics 365 record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.
 
@@ -190,9 +199,8 @@ Creates a page for creating a new Dynamics 365 record of the entity specified, a
 |-------------|-------------------------------------------------------------|
 | LogicalName | The logical name of the entity for creating a new instance. |
 
-Note
-
-The rest of the parameters should consist of name=value pairs. These are the additional pre-populated values in the form for creating a new record for the specified entity. 
+> [!Note]
+> The rest of the parameters should consist of name=value pairs. These are the additional pre-populated values in the form for creating a new record for the specified entity. 
 
 ### Open\_CRM\_Page
 
@@ -309,11 +317,11 @@ Occurs when the active hosted control is closed using the [CloseActive](https://
 |-----------|----------------------------------------------------------------------|
 | url       | The URL that was displayed in the hosted control when it was closed. |
 
-## DataReady
+### DataReady
 
 Occurs as soon as the related information for an entity record is loaded in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context. This event occurs before the **PageReadyFor** event. If the **Pre-Fetch Data** option is selected for the control instance then this event occurs as soon as the entity data is fetched in a separate parallel call to the server and will not wait for the full page to finish loading. The entity data is pre-fetched and the **DataReady** event is fired for inline navigations as well.
 
-## RefreshRequested
+### RefreshRequested
 
 Occurs when refresh is requested on the current page. Refresh can be requested either by pressing the F5 key or calling the Refresh action by the application.
 
@@ -321,7 +329,7 @@ Occurs when refresh is requested on the current page. Refresh can be requested e
 |-----------|-----------------------------------------------|
 | url       | The URL displayed when refresh was requested. |
 
-## Saved
+### Saved
 
 Occurs after a record in the Dynamics 365 page is saved.
 
@@ -329,7 +337,7 @@ Occurs after a record in the Dynamics 365 page is saved.
 |-----------|----------------------------------------------|
 | newId     | The ID assigned to the newly created record. |
 
-## NavigationRequested
+### NavigationRequested
 
 Occurs when the navigation happens within Unified Interface apps
 
@@ -337,7 +345,7 @@ Occurs when the navigation happens within Unified Interface apps
 |-----------|-----------------------------------|
 | url       | The URL of the page navigated to. |
 
-## PageReady
+### PageReady
 
 Occurs when the page has finished loading. On a Unified Interface Page type of hosted control, this event occurs after the data has been saved to the replacement parameter list.
 
@@ -347,12 +355,12 @@ Occurs when the page has finished loading. On a Unified Interface Page type of h
 
 ## See also
 
-[Support for Unified Interface Apps in Unified Service Desk](../unified-service-desk/Support-unified-interfaces-apps-usd.md)
-[Preview feature: Unified Service Desk and Unified Interface Configuration Walkthroughs](../unified-service-desk/unified-service-desk-unified-interface-configuration-walkthroughs.md)
-[Preview feature: Walkthrough 1: Build a simple agent application for Unified Interface Apps](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md) 
-[Preview feature: Walkthrough 2: Display an external webpage in your agent application](../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md)   
-[Preview feature: Walkthrough 3: Display Microsoft Dynamics 365 Unified Interface app records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
-[Preview feature: Walkthrough 4: Display a Microsoft Dynamics 365 Unified Interface app record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)   
-[Preview feature: Preview feature: Preview feature: Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md)   
+[Support for Unified Interface Apps in Unified Service Desk](../unified-service-desk/admin/Support-unified-interfaces-apps-usd.md)
+[Unified Service Desk and Unified Interface Configuration Walkthroughs](../unified-service-desk/unified-service-desk-unified-interface-configuration-walkthroughs.md)
+[Walkthrough 1: Build a simple agent application for Unified Interface Apps](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md) 
+[Walkthrough 2: Display an external webpage in your agent application](../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md)   
+[Walkthrough 3: Display Microsoft Dynamics 365 Unified Interface app records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
+[Walkthrough 4: Display a Microsoft Dynamics 365 Unified Interface app record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)   
+[Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md)   
 [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md)
 [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md) 

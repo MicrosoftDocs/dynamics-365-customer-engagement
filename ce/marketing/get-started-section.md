@@ -3,20 +3,27 @@ title: "Get started with Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to get around in Dynamics 365 for Marketing; how to work with basic records such as contacts, accounts and leads; and strategies for email marketing"
 keywords: "get started; basics"
 ms.date: 04/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 9b4ecf81-3191-48b7-b5c6-e5638e999247
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Learn the basics of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]

@@ -14,6 +14,10 @@ ms.assetid: 3e3aba01-d5d0-469b-8b21-e857ad9e64dd
 caps.latest.revision: 50
 ms.author: "rdubois"
 manager: "brycho"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Merge duplicate records for accounts, contacts, or leads
 

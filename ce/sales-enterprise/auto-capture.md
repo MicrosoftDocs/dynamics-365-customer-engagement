@@ -6,7 +6,7 @@ ms.date: 09/30/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 1d005ded-099e-4d66-a435-f1024e1316b6
@@ -18,6 +18,13 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 13
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Sales
 ---
 
 # Auto capture of related emails
@@ -106,4 +113,4 @@ The following describes the support for viewing, opening, and tracking untracked
   
 ### See also
 
-[Configure and enable embedded intelligence](../sales-enterprise/action-cards-reference.md)
+[Configure and enable embedded intelligence](../sales-enterprise/configure-enable-embedded-intelligence.md)

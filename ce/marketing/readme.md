@@ -7,9 +7,16 @@ applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
 ms.assetid: 78dc5157-cf1d-4e32-ace7-9e71763e7510
-author: ReneeW-CPub
-ms.author: shsuri
-manager: mauromar
+author: kamaybac
+ms.author: renwe
+manager: annbe
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Dynamics 365 for Marketing readme
@@ -78,6 +85,7 @@ This document provides important, late-breaking information about known issues a
 - When configuring a form on a page, we recommend that you enter a confirmation message or a redirect URL, so users can see that they successfully submitted the form.
 - It can take up to a minute after a marketing page goes live before its public link (full page URL) is ready. Visitors might see an error message on the page prior to this.
 - Marketing pages from the sample data might not go live for some organizations (especially on Italian or Japanese localizations). But can still create new pages and go live with them. <!--- 1156824 - October Release -->
+- Forms submitted over HTTP (not HTTPS) generate interaction records that don't include the contact ID, which means these interactions can't be used in interaction-based segments. If you are hosting a form on an external page (not hosted on a Dynamics 365 marketing page), then make sure your page uses HTTPS.
 
 ## Lead scoring and management
 
@@ -88,6 +96,7 @@ This document provides important, late-breaking information about known issues a
 
 - If you disable anonymous registration for the event portal, then customer organizations must create a registerer account using the portal, after which the registerer can register as many attendees from their organization as needed. However, the registerer can't use the portal to create an account using an email address that belongs to a contact already in Dynamics 365. To set up an existing contact as a registerer, create a [portal invitation](../portals/invite-contacts.md) and then send the invitation code to the contact by email.
 - Even though surveys are available in the app (such as for emails, journeys, and events), this feature currently has limited functionality. Anonymous surveys can be added to emails but can't serve as triggers in customer journeys. Please contact Microsoft Support for more information.
+- Sample data is no longer available for events. We expect to provide it again in a future update.
 
 ## General
 

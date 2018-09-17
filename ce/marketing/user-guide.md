@@ -3,20 +3,27 @@ title: "User Guide (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Contains topics that describe how to do common marketing tasks in Dynamics 365 for Marketing"
 keywords: "user guide"
 ms.date: 04/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: get-started-article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 693371ae-c2a0-496c-900e-c1f96416298b
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # User Guide (Marketing)
@@ -61,11 +68,12 @@ topic-status: Drafting
 
 <h2>Design marketing emails and landing pages</h2>
 <li><a href="design-digital-content.md" data-raw-source="[Design your digital content](design-digital-content.md)">Design your digital content</a></li>
-<li><a href="content-blocks-reference.md" data-raw-source="[Content blocks reference](content-blocks-reference.md)">Content blocks reference</a></li>
+<li><a href="content-blocks-reference.md" data-raw-source="[Design elements reference](content-blocks-reference.md)">Design elements reference</a></li>
 <li><a href="upload-images-files.md" data-raw-source="[Upload and use images and files](upload-images-files.md)">Upload and use images and files</a></li>
 <li><a href="prepare-marketing-emails.md" data-raw-source="[Prepare marketing email messages](prepare-marketing-emails.md)">Prepare marketing email messages</a></li>
 <li><a href="dynamic-email-content.md" data-raw-source="[Add dynamic content to email messages](dynamic-email-content.md)">Add dynamic content to email messages</a></li>
 <li><a href="create-deploy-marketing-pages.md" data-raw-source="[Create and deploy marketing pages](create-deploy-marketing-pages.md)">Create and deploy marketing pages</a></li>
+<li><a href="create-deploy-marketing-pages.md#embed-form" data-raw-source="[Embed a marketing form on your own website](create-deploy-marketing-pages.md#embed-form)">Embed a marketing form on your own website</a></li>
 <li><a href="email-templates.md" data-raw-source="[Work with email, page, and form templates](email-templates.md)">Work with email, page, and form templates</a></li>
 <li><a href="custom-template-attributes.md" data-raw-source="[Use custom attributes to enable designer features](custom-template-attributes.md)">Use custom attributes to enable designer features</a></li>
 

@@ -5,24 +5,31 @@ keywords: "link to crm, link to customer engagement"
 ms.date: 03/16/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: e97a38d7-37c4-4dce-b02e-1076ad992cff
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
-# Link posts from Social Engagement to Dynamics 365
+# Link posts from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to Dynamics 365
 
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] provides a platform for capturing public posts from social media. You link posts in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance and turn them into new records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
 
 When you link a post from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance, a Social Activity record is created in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] can turn these social activities into other types of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records, for example into a lead, an opportunity, or a case.
   
-## Steps for linking posts from Social Engagement to Dynamics 365  
+## Steps for linking posts from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to Dynamics 365  
 
 1. First, [set up the feature to link social posts](connect-dynamics-365-social-engagement.md) to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance as social activities. As a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Administrator, you need to connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].   
   

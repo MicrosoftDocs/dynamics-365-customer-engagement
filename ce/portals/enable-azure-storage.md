@@ -1,7 +1,7 @@
 ---
 title: "Enable Azure storage for portals in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to enable Azure storage for portals to take advantage of the greater file storage capability of Azure."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 07/26/2018
 ms.service: dynamics-365-customerservice
@@ -13,6 +13,13 @@ ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
 manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Enable [!include[Azure](../includes/pn-azure-shortest.md)] Storage

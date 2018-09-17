@@ -14,6 +14,10 @@ ms.assetid: ffc75be6-cf2b-4707-9cdc-871e17544056
 caps.latest.revision: 16
 author: "KumarVivek"
 ms.author: "kvivek"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use editable grids in Customer Engagement
 

@@ -5,15 +5,22 @@ keywords: "what's new, release notes, fixed issues, dynamics 365 gamification"
 ms.date: 04/25/2018
 ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: d94c2bbe-b73d-4369-9100-e5d1a096409a
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-gamification
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Gamification
 ---
 
 # What's new in Dynamics 365 - Gamification

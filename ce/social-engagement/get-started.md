@@ -5,18 +5,25 @@ keywords: "get started, onboarding, key features"
 ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
 ms.topic: get-started-article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 76f856c7-99a1-4220-a5e6-f55938c8e781
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
-# Get started with Social Engagement
+# Get started with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 This topic introduces common user-interface elements and useful tips to work efficiently with [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. You'll get a basic understanding of the application’s logic and conceptual approaches to help you start to work with the various features and areas.  
   
 ## Prerequisites  
@@ -40,7 +47,7 @@ This topic introduces common user-interface elements and useful tips to work eff
   
   - Tablets and phones running at least [!INCLUDE[tn_android](../includes/tn-android.md)] 4.2 with [!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)] Mobile browser  
   
-## Sign in to Social Engagement  
+## Sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]  
   
 > [!NOTE]
 >  To use [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you must have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription and be set up as a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user by your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Administrator. This means that your organization also needs to have a license for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  

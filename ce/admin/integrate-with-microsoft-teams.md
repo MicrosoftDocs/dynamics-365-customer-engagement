@@ -1,7 +1,7 @@
 ---
-title: "Preview feature: Integrate Dynamics 365 Customer Engagement with Microsoft Teams| MicrosoftDocs"
+title: "Private Preview: Integrate Dynamics 365 Customer Engagement with Microsoft Teams| MicrosoftDocs"
 ms.custom: ""
-description: Integrate Dynamics 365 Customer Engagement with Microsoft Teams. 
+description: Integrate Dynamics 365 Customer Engagement with Microsoft Teams.
 ms.date: 07/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -17,8 +17,13 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
 robots: noindex,nofollow
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
-# Preview feature: Integrate Dynamics 365 Customer Engagement with Microsoft Teams 
+# Private Preview: Integrate Dynamics 365 Customer Engagement with Microsoft Teams 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

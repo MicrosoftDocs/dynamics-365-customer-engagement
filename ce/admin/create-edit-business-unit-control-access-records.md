@@ -15,6 +15,11 @@ caps.latest.revision: 38
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Create or edit a business unit to control access to records
 

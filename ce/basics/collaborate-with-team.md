@@ -14,6 +14,10 @@ ms.assetid: 820dc548-667d-4e12-82c2-0c76314144b3
 caps.latest.revision: 4
 author: "jimholtz"
 ms.author: "jimholtz"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Collaborate with your team
 

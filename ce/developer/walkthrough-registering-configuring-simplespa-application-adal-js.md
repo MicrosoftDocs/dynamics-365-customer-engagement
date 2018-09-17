@@ -14,6 +14,10 @@ ms.assetid: 0346a66d-147b-40e0-a1b6-0c30815043b4
 caps.latest.revision: 14
 author: "JimDaly"
 ms.author: "jdaly"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Walkthrough: Registering and configuring SimpleSPA application with adal.js
 

@@ -3,20 +3,27 @@ title: "Administrator Guide (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Index page showing administration, system, user and app configuration for Dynamics 365 for Marketing."
 keywords: "administration; admin; user administration; system configuration"
 ms.date: 04/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: get-started-article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 1f1a8244-2dc5-4de2-b7f8-719a46c82861
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Administrator Guide (Marketing)
@@ -70,7 +77,7 @@ topic-status: Drafting
 
 <h2>Privacy and compliance</h2>
 <li><a href="gdpr.md" data-raw-source="[Data protection and GDPR](gdpr.md)">Data protection and GDPR</a></li>
-<!-- <li><a href="double-opt-in.md" data-raw-source="[Set up double opt-in](double-opt-in.md)">Set up double opt-in for new subscriptions and consent changes</a></li> -->
+<li><a href="double-opt-in.md" data-raw-source="[Set up double opt-in](double-opt-in.md)">Set up double opt-in for new subscriptions and consent changes</a></li>
 <li><a href="cookies.md" data-raw-source="[How Marketing uses cookies](cookies.md)">How Marketing uses cookies</a></li>
 
 </td><td>

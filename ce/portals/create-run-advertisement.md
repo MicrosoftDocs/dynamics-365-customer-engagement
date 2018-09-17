@@ -1,7 +1,7 @@
 ---
 title: "Create and run advertisements on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create text or image-based advertisements and have them run in multiple placements throughout your site."
-ms.custom:
+ms.custom: 
   - dyn365-portal
 ms.date: 09/28/2017
 ms.service: dynamics-365-customerservice
@@ -13,9 +13,16 @@ ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
 manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Create and run advertisements on a portal
-[comment]: <> (Add cross-ref to ad entity attribute table)
+
 Create text or image-based ads and have them run in multiple placements throughout your site. Randomize ads or select specific ads for specific placements. You can choose release and expiration dates for time-sensitive, scheduled content. Ads can be hyperlinked to any destination and open in the current window or a new window. Advertisements are displayed in the portal via two [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entities: The Ad Placement entity and associated Ad entity. Ads can be surfaced in many ways: with pre-made Liquid Templates available within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals application via Liquid Templating/example Web Templates, or within the.aspx page via MVC actions.
 
 ## Create a new advertisement

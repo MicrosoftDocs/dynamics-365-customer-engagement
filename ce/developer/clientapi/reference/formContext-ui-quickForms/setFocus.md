@@ -8,6 +8,10 @@ ms.assetid: 109d45ac-151e-4213-8c18-37ded8df1a71
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # setFocus (Client API reference)
 

@@ -3,20 +3,27 @@ title: "Create portals and interactive webpages (Dynamics 365 for Marketing) | M
 description: "How the Dynamics 365 Portals solution is integrated with Dynamics 365 for Marketing"
 keywords: "portal; website; page; marketing page; event portal"
 ms.date: 04/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 465341c8-19fd-4da8-87aa-980c5ba10e26
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Engage with customers online with [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals

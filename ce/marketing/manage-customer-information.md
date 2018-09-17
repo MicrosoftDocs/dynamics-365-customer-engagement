@@ -3,20 +3,27 @@ title: "Work with contact, account, and lead records (Dynamics 365 for Marketing
 description: "How to find, create and use contact, account, and lead records in Dynamics 365 for Marketing"
 keywords: "contact; account; lead"
 ms.date: 04/25/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 16024056-9750-4b6f-854a-da454e2c3a3f
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Manage information about your current and prospective customers
@@ -40,13 +47,13 @@ The contacts entity is common for and shared by most [!INCLUDE[pn-dynamics-365](
   - **Follow email**: Controls whether [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is permitted to collect email interaction results (such as open, click and forward) for the current contact. When set to **Do not allow**, no email results will be stored for this contact.
   - **Bulk email**: Controls whether [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is permitted to send marketing email messages from customer journeys to this contact. When set to **Do not allow**, no marketing email messages will be sent to this contact. Contacts can adjust this setting themselves using a subscription center. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up subscription lists and subscription centers](set-up-subscription-center.md)
   - **Email**: This setting is part of the standard contact entity (it isn't added specifically for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]). It controls whether any [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] app (including [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]) can send any type of email to this contact, including both commercial and transactional messages. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set the legal designation to identify each message as either commercial or transactional](prepare-marketing-emails.md#designation)
-  - **Pre-fill marketing form**: Controls whether [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is permitted to prefill form information (like name and email) on marketing pages for this contact.  When set to **Do not allow**, all marketing pages (other than subscription centers) will present an empty form to this contact, even when the contact is recognized by the system. Contacts can set this option for themselves by setting a "remember me" check box on any marketing page that is set up to include the pre-fill feature.
+  - **Prefill marketing form**: Controls whether [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is permitted to prefill form information (like name and email) on marketing pages for this contact.  When set to **Do not allow**, all marketing pages (other than subscription centers) will present an empty form to this contact, even when the contact is recognized by the system. Contacts can set this option for themselves by setting a "remember me" check box on any marketing page that is set up to include the prefill feature.
 
 - **Data protection**: The contact **Details** tab includes a section called **Data protection**, where you can see and set the data-privacy consent level granted by this contact, and also see whether the contact is a child and, if so, who their parent or guardian is. For more information about these features, see [Data protection and the GDPR](gdpr.md).
 - **Event information**: Each contact record provides the following information about events the contact has registered for or attended:
     - The contact **Details** tab includes a section called **Event information**, where you can see basic information that was collected from the contact when they registered for an event.
     - The contact **Events attended** tab provides complete details of all event registrations and check-ins associated with this contact.
-- **Marketing insights**: Detailed KPIs and analytics about how this contact has interacted with your various marketing initiatives are provided on the **Contact: Insights** form view for the contact entity (available from the drop-down list above the contact name in the page heading).
+- **Marketing insights**: Detailed KPIs and analytics about how this contact has interacted with your various marketing initiatives are provided on the **Contact: Insights** form view for the contact entity (available from the drop-down list above the contact name in the page heading). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Analyze results to gain insights from your marketing activities](insights.md)
 
 ## Use accounts to manage customer companies
 

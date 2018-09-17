@@ -13,6 +13,11 @@ ms.assetid: f0a910ca-fd62-4190-b75f-d61d2db76ca2
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "annbe"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 # Retrieve interactions for a contact using code
 

@@ -5,14 +5,21 @@ keywords: "publish, post, like, favorite, share, private message, Social Engagem
 ms.date: 05/08/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 232849dd-218d-4cf0-8561-03c865120657
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
 # Publish and react to posts
@@ -32,7 +39,7 @@ Staying in touch with customers, prospects, and other stakeholders through socia
    >  If you don’t own any social profiles, [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] posts provide the option to use [Web Intents](https://dev.twitter.com/web/intents). You must sign in to [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] to post with your profile.  
 
 <a name="engageOverview"></a>   
-## Engage on a post in Social Engagement  
+## Engage on a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]  
 [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] lets you proactively engage on social media or react to social data that you gather. In no time, you can compose a post, answer questions, share information, or socialize with your audience on social networks.  
 
 The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] lets you do depending on where you want to interact.  
@@ -157,7 +164,7 @@ To learn more about how [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] guides
 ### Post a link to another post  
 Share a link to a public post along with your own comments as a new post directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
 
-#### Create a new post with a link to a post found in Social Engagement  
+#### Create a new post with a link to a post found in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]  
 
 1. Go to **Social Center**.  
 
@@ -214,7 +221,7 @@ Share a link to a public post along with your own comments as a new post directl
  If data acquisition for private conversation from a social profile is allowed, and a search topic contains a Private Messages rule for the same social profile, all direct messages, including attachments, are visible to other users of the same [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Data retention in Social Engagement](data-retention-social-engagement.md)  
 
 <a name="dmTwitter"></a>   
-#### Send a direct message on Twitter from Social Engagement  
+#### Send a direct message on Twitter from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]  
 
 1. Go to **Social Center**.  
 
@@ -234,7 +241,7 @@ Share a link to a public post along with your own comments as a new post directl
 5. To post on behalf of the selected social profile, select **Send Direct Message**.  
 
 <a name="dmFacebook"></a>   
-#### Send a direct message on Facebook from Social Engagement  
+#### Send a direct message on Facebook from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]  
 
 1. Go to **Social Center**.  
 

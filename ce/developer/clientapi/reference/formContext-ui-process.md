@@ -9,6 +9,10 @@ ms.assetid: 3dc82cb6-6fd7-41f9-ae01-2e9bfa47e76b
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # formContext.ui.process (Client API reference)
 

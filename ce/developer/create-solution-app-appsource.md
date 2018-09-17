@@ -14,6 +14,10 @@ ms.assetid: bbb1ecdb-4938-4ff6-a2d5-f100851fc287
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Step 3: Create a managed solution for your app
 

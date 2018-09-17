@@ -1,7 +1,7 @@
 ---
 title: "Integrate with external applications and web applications in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about integrating with external application and web application n Unified Service Desk."
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -19,7 +19,13 @@ ms.assetid: 3050ba0b-9269-4b6d-adc3-d312ba0ef038
 caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Integrate with external applications and web applications
 Use the [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] hosted application to host your external application or a web application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. To host an external or web application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], you configure a hosted control of type **CCA Hosted Application**, and then select **Web Hosted Application** or **External Hosted Application** from the **Hosted Application** list. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [UII Hosted Applications](../unified-service-desk/uii-hosted-applications.md)  

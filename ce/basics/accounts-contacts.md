@@ -13,6 +13,10 @@ applies_to:
 ms.assetid: 15c8b19a-5e1b-4f7c-8d00-0711be8691cf
 caps.latest.revision: 22
 ms.author: "shujoshi"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Work with accounts and contacts in Customer Engagement apps
 

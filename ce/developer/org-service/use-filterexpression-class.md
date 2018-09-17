@@ -23,6 +23,10 @@ caps.latest.revision: 35
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Use the FilterExpression class
 

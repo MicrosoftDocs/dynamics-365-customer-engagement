@@ -3,20 +3,27 @@ title: "Design, preview, check, and send marketing emails (Dynamics 365 for Mark
 description: "How to design and deliver marketing email messages in Dynamics 365 for Marketing"
 keywords: "email; marketing email; dynamic content; go live; validation; preview; Litmus"
 ms.date: 04/25/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 021f45f6-ed70-4979-a227-0631540b2516
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Prepare marketing email messages
@@ -26,9 +33,6 @@ topic-status: Drafting
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/17c3476e-9383-413b-98ec-0b1ac6659824" frameborder="0" allowfullscreen=""></iframe></div>
 
 The process for creating marketing emails in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] begins with understanding what makes them such a powerful tool for your marketing campaigns. After you create a good design aimed at a specific segment of your audience, you preview it and check for errors before going live. You can fine-tune the reach and effectiveness of your message through advanced operations like merging database values, adding dynamic content, and introduce programming logic.
-
-> [!IMPORTANT]
-> Email messages have a maximum size limit of 125 KB, which includes both plain-text and HTML content, but doesn't include images.
 
 ## How marketing email works in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
 
@@ -87,11 +91,11 @@ You can also create your own custom templates, which can help both you and other
 
 After choosing a template, you'll be in the email content designer, which resembles the other digital content designers provided in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. Work with it as follows:
 
-- Use the **Design** &gt; **Designer** tab graphical tool to design your content by using drag-and-drop, point-and-click operations. Add new elements to your design by dragging blocks from the **Design** &gt; **Designer** &gt; **Toolbox** tab to the canvas. Choose a block that already exists in your design, and then open the **Design** &gt; **Designer** &gt; **Properties** tab to configure it and style it. To style the overall message with basic fonts, colors, and background, open the **Style** tab.
+- Use the **Design** &gt; **Designer** tab graphical tool to design your content by using drag-and-drop, point-and-click operations. Add new elements to your design by dragging design elements from the **Design** &gt; **Designer** &gt; **Toolbox** tab to the canvas. Choose a design elements that already exists in your design, and then open the **Design** &gt; **Designer** &gt; **Properties** tab to configure it and style it. To style the overall message with basic fonts, colors, and background, open the **Style** tab.
 
-- When you select a content block on the canvas, you'll usually see a formatting toolbar just above the block. The controls offered by the toolbar vary depending on which type of block you've selected. Most toolbars provide buttons to move, copy, or delete the selected block, in addition to specialized buttons that vary by block type.
+- When you select a design element on the canvas, you'll usually see a formatting toolbar just above the element. The controls offered by the toolbar vary depending on which type of element you've selected. Most toolbars provide buttons to move, copy, or delete the selected element, in addition to specialized buttons that vary by element type.
 
-- When a text block is selected, you'll get a full formatting toolbar that you can use to apply basic text formatting like you would in [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)]. It also includes an **Assist Edit** button **&lt;/&gt;**, which you can use to add dynamic content such as a mail-merge field that displays the recipient's name. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use assist-edit to place dynamic field values](dynamic-email-content.md#assist-edit)
+- When a text element is selected, you'll get a full formatting toolbar that you can use to apply basic text formatting like you would in [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)]. It also includes an **Assist Edit** button **&lt;/&gt;**, which you can use to add dynamic content such as a mail-merge field that displays the recipient's name. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use assist-edit to place dynamic field values](dynamic-email-content.md#assist-edit)
 
 - Use the **Designer** &gt; **HTML** tab to edit the raw HTML directly. You might use this to paste in an existing HTML design, or to fine-tune the code in ways that aren't supported by the graphical editor (such as custom attributes or logic). The HTML editor has two subtabs: **HTML Source** (for editing the design, including logical expressions and dynamic content) and **HTML Output** (which resolves all dynamic content to provide static HTML that you can use in other applications).
 
@@ -99,10 +103,10 @@ After choosing a template, you'll be in the email content designer, which resemb
 
 ## Add standard and specialized links to your message
 
-Marketing messages are delivered as HTML and therefore support hyperlinks. Some types of links provide access to special features that are hosted by [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], whereas others can simply be standard links to content anywhere on the web. A subscription center link is required before any message can pass the error check and go live, but other links are optional, so you can use them only as needed. The following list describes the types of links that are available. You'll use the assist-edit feature to add most types of dynamic links as text in a text block, while other types of links are added by using a dedicated block type (such as an event block).
+Marketing messages are delivered as HTML and therefore support hyperlinks. Some types of links provide access to special features that are hosted by [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], whereas others can simply be standard links to content anywhere on the web. A subscription center link is required before any message can pass the error check and go live, but other links are optional, so you can use them only as needed. The following list describes the types of links that are available. You'll use the assist-edit feature to add most types of dynamic links as text in a text element, while other types of links are added by using a dedicated design-element type (such as an event element).
 
-- **Standard links**: You can add standard links to any text content by highlighting the link text and selecting **Link** on the text toolbar. You can also add link URLs to many other types of standard blocks, including images and buttons. When your message goes live, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] replaces each link with a unique redirect URL that targets your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] server and identifies the message recipient, message ID, and the destination you specified for the link. When a contact clicks a link, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] logs the click and then forwards the contact directly to the URL you specified.
-- **Event, survey, or landing page**: These links go to an event portal, survey, or landing page. You can add them as text links in a text block, or as colorful call-to-action buttons. To create a button, drag an event, survey, or landing-page block to your email design and then configure which item the block should link to. To create a text link, select some text in a text block and then use the assist-edit feature.
+- **Standard links**: You can add standard links to any text content by highlighting the link text and selecting **Link** on the text toolbar. You can also add link URLs to many other types of design elements, including images and buttons. When your message goes live, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] replaces each link with a unique redirect URL that targets your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] server and identifies the message recipient, message ID, and the destination you specified for the link. When a contact clicks a link, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] logs the click and then forwards the contact directly to the URL you specified.
+- **Event, survey, or landing page**: These links go to an event portal, survey, or landing page. You can add them as text links in a text element, or as colorful call-to-action buttons. To create a button, drag an event, survey, or landing-page element to your email design and then configure which item the element should link to. To create a text link, select some text in a text element and then use the assist-edit feature.
 - **Subscription center (required)**: All marketing email messages must include a link to a subscription center. A subscription center includes mailing lists available from your organization, including an option for contacts to opt out of all marketing emails. Contacts might also be able to update their contact details here. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] includes a standard subscription center, which you can edit to contain your subscription lists and to reflect your graphical identity (you can also create additional pages to support multiple subscription options, languages, or brands). You'll add a subscription center link to your page by highlighting the link text and selecting **Link** on the text toolbar, and then using the assist-edit feature to select the subscription center URL from the content settings.
 - **Forward to a friend**: This type of link opens a form that contacts can use to forward a marketing email to their own friends or colleagues by entering recipients' email addresses. It's a good idea to include this type of service for your contacts because messages forwarded by using the forward form are counted correctly in your email results and analytics (messages forwarded by using a contact's local email client forward feature won't be registered in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], and all message opens and clicks performed by the recipients who were forwarded the message will be credited to the original recipient). A forward-to-a-friend page ID can be included in each set of content settings, but none is provided out of the box, so you must create a forwarding page and add it to your content settings to use this feature. You add a forward-to-a-friend link to your page  by highlighting the link text and selecting **Link** on the text toolbar, and then using the assist-edit feature to select the subscription center URL from the content settings.
 - **View as a web page**: This link opens the marketing email message in a web browser. Some recipients will find this useful if their standard email client is having trouble rendering the message. You add this link to your page by highlighting the link text, selecting **Link** on the text toolbar, and then using the assist-edit feature to select the view-as-webpage URL from the message object.
@@ -249,6 +253,8 @@ While you prepare a message, it stays in a draft state, which means that it's in
 
 To publish a message, open it and select **Go Live**. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] will run a final validation check, as described in the previous section, and&mdash;if it passes&mdash;publish the message. If errors are returned, read the error messages, address the issues, and try again until the message is successfully published.
 
+[!INCLUDE [cc-marketing-email-size](../includes/cc-marketing-email-size.md)]
+
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md) and [Go live with publishable entities and track their status](go-live.md)
 
 ### See also
@@ -257,7 +263,7 @@ To publish a message, open it and select **Go Live**. [!INCLUDE[pn-microsoftcrm]
 [Create a simple customer journey](create-simple-customer-journey.md)  
 [Design your digital content](design-digital-content.md)  
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)
-[Content blocks reference](content-blocks-reference.md)  
+[Design elements reference](content-blocks-reference.md)  
 [Work with email, page, and form templates](email-templates.md)  
 [Upload and use images and files](upload-images-files.md)  
 [Go live with publishable entities and track their status](go-live.md)

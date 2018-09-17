@@ -8,6 +8,10 @@ ms.assetid: 0a3f0349-af9a-418a-b99d-5085999884eb
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # getUserPrivilege (Client API reference)
 

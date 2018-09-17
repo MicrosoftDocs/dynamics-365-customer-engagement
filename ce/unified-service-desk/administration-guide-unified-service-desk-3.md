@@ -1,6 +1,6 @@
 ---
 title: "Administration Guide for Unified Service Desk 3.0 for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom:
+ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
@@ -18,10 +18,16 @@ ms.assetid: ca6478de-7ba1-4089-a137-65e772d2b67e
 caps.latest.revision: 19
 author: kabala123
 ms.author: kabala
-manager: sakudes
+manager: shujoshi
 tags: 
- - "MigrationHO"
- - "LinksOnlyTopic"
+  - "MigrationHO"
+  - "LinksOnlyTopic"
+search.audienceType: 
+  - customizer
+  - developer
+search.app: 
+  - D365CE
+  - D365USD
 ---
 # Administration Guide for Unified Service Desk 3.0
 This guide provides information about how to install, administer, and manage [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)]. You can use [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to configure and manage call center agent applications that provide your customer service agents with immediate and unified access to business critical information about your customers that helps them effectively handle their customer interactions.  

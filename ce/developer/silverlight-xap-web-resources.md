@@ -1,27 +1,34 @@
 ---
 title: "Silverlight (XAP) web resources (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about creating and adding Silverlight 4.0 web resources to entity forms. You can display Silverlight 5.0 web resources within an HTML web resource using a hosting <object> element that is configured for that version."
-ms.custom: ""
+keywords: ""
 ms.date: 10/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.service: 
+  - "crm-online"
+ms.custom: 
+  - ""
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 982189a4-93a9-44ee-99e0-7b8d85318cf4
-caps.latest.revision: 34
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: JimDaly
+ms.author: jdaly
+manager: amyla
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
+
 # Silverlight (XAP) web resources
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 > [!IMPORTANT]
-> [!INCLUDE [pn-ms-silverlight-full](../includes/pn-ms-silverlight-full.md)] web resources are deprecated in [!INCLUDE[pn-crm-9-0-0-online](.../includes/pn-crm-9-0-0-online.md)].
+> [!INCLUDE [pn-ms-silverlight-full](../includes/pn-ms-silverlight-full.md)] web resources are deprecated in [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].
 >  HTML5 is the preferred client technology for the web, over web plug-ins like Silverlight and Flash. HTML5 can be consumed from any device (PC, tablet, smartphone, and more) and heavily uses JavaScript (and many powerful JavaScript libraries, such as jQuery) and CSS. 
 > 
 > [!INCLUDE [pn-ms-silverlight-full](../includes/pn-ms-silverlight-full.md)] web resources remain supported in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] for backwards compatibility in the web application only. [!INCLUDE[pn_MS_Silverlight_full](../includes/pn-ms-silverlight-full.md)] will not work for the Unified Interface.  For components that will be able to be presented on all clients, we recommend using HTML web resources with HTML5 instead of [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)].  

@@ -5,18 +5,25 @@ keywords: "connections, social engagement, dynamics 365, edit, delete"
 ms.date: 01/30/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 329b1b1d-3b8c-4d97-a67d-eeb176d835bc
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
-# Manage the connection between Dynamics 365 and Social Engagement
+# Manage the connection between Dynamics 365 and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
 Understand how to change the settings for your connections between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], and the consequences of doing so.    
 You must already have a working connection between [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] established and you need to be have an Administrator role in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to perform the following tasks.
@@ -55,7 +62,7 @@ Click the row associated with the connection to open the **Dynamics 365 Instance
 
 Make the necessary changes to the metadata and then click **Save** to apply the changes.  
 
-### Change the default Dynamics 365 instance to use in Social Engagement
+### Change the default Dynamics 365 instance to use in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
 If your organization maintains multiple [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instances, you can connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to more than one instance. In this case, you can set the instance as a default connection that will be used most often to create new records in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Users can choose a different instance when creating a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record.  
 

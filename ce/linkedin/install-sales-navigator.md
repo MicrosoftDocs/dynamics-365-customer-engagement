@@ -5,13 +5,20 @@ keywords: "installation, setup, sales navigator, appsource"
 ms.date: 07/12/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 Version 9.x"
   - "Dynamics 365 (online)"
 ms.assetid: 4b15aff2-3a7b-3488-260c-21611dee658a
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365LinkedIn
 ---
 
 # Install Sales Navigator Controls for Dynamics 365 Unified Interface

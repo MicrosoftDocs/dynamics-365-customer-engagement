@@ -1,7 +1,7 @@
 ---
 title: "Use the Organization Insights solution to view metrics about your Dynamics 365 (online) instance | MicrosoftDocs"
 ms.custom: ""
-ms.date: 5/30/2018
+ms.date: 09/11/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,13 +15,26 @@ caps.latest.revision: 5
 author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
+search.audienceType: 
+  - admin
+search.app: 
+  - D365CE
+  - Powerplatform
 ---
 # Use the Organization Insights solution to view metrics about your instance 
-
+<!-- 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] provides important adoption and use metrics for your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] organization, and tools to help you stay ahead of performance and support issues.  
+-->
 
+> [!IMPORTANT]
+> We've improved how you view metrics for your organization. You no longer need to install or update a solution. Instead, you can view Customer Data Service for Apps analytics right from the [Power platform Admin center](https://admin.powerplatform.microsoft.com) to quickly view adoption ad user metrics for your organization.
+>
+> For more information, see [Common Data Service for Apps analytics](https://docs.microsoft.com/en-us/power-platform/admin/analytics-common-data-service)
+
+![CDS for Apps analytics](media/organization-insights-home-section-cds.png "CDS for Apps analytics")
+<!--
 > [!IMPORTANT]
 >  To comply with the [General Data Protection Regulation](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx) (GDPR), we are changing the time the Organization Insights solution will retain data from 90 days to 30 days.
 > 
@@ -34,6 +47,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online
 >  To provide feedback for this feature, use the Feedback button. ![Organizations Insights Feedback button](../admin/media/organizations-insights-feedback-button.png "Organizations Insights Feedback button")  
 > 
 > [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
+
 
  **Key highlights**  
 
@@ -49,15 +63,19 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online
 
 - **OData support**: Expose Organization Insights entities through OData for extension by independent software vendors.  
 
-- **Original Organization Insights dashboard**: You can also view metrics using the Organization Insights dashboard released with [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)]. <!-- See [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](../admin/use-organization-insights-dashboard-view-instance-metrics.md).--> See [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](https://technet.microsoft.com/library/mt703628.aspx). This dashboard does not have all the metrics available with the solution version.  
+- **Original Organization Insights dashboard**: You can also view metrics using the Organization Insights dashboard released with [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)]. <!-- See [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](../admin/use-organization-insights-dashboard-view-instance-metrics.md). See [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](https://technet.microsoft.com/library/mt703628.aspx). This dashboard does not have all the metrics available with the solution version.  
 
 > [!TIP]
 > ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Monitor your Dynamics 365 (online) instance with Organization Insights](https://go.microsoft.com/fwlink/p/?linkid=835917).  
 
+
 <a name="BKMK_InstallSolution"></a>   
 
-## Install and view the Organization Insights solution  
- The new Organization Insights is a preferred solution that you can install from the Dynamics Marketplace.  
+## View metrics
+
+If you've already installed Organization Insights solution, here are the metrics available.
+
+The new Organization Insights is a preferred solution that you can install from the Dynamics Marketplace.  
 
 > [!NOTE]
 >  If you are using a trial version of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you can install the new Organization Insights from [AppSource](https://appsource.microsoft.com/marketplace?page=1&product=dynamics-crm).  
@@ -78,6 +96,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online
    >  While the solution is installing, the status of the solution changes to "Installation pending". When it's installed and ready to use, the status will change to "Installed".  
 
 7. To view the new Organization Insights dashboard, go to **Settings** > **Organization Insights**.  
+
 
 <a name="BKMK_Home"></a>   
 
@@ -443,3 +462,4 @@ The following is a sample result for the query:
 ### See also  
  [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](../admin/use-organization-insights-dashboard-view-instance-metrics.md)   
  [Developer Guide for Dynamics  365 Customer Engagement](../developer/developer-guide.md)
+-->

@@ -4,7 +4,7 @@ description: "Learn how to reset a portal."
 ms.date: 06/08/2018
 ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 02FA490A-92DB-461C-B1CA-7B93D037F5D6
@@ -13,6 +13,13 @@ ms.author: shjais
 manager: shubhadaj
 ms.reviewer: 
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 
 # Reset a portal

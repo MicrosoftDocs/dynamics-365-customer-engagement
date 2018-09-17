@@ -5,18 +5,25 @@ keywords: "licenses, Social Engagement, Office 365, user license, assign, remove
 ms.date: 02/01/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to:
+applies_to: 
   - "Social Engagement"
 ms.assetid: 893c7cd6-80fe-61d1-93b6-93ecf3993291
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom:
+ms.custom: 
   - dyn365-socialengagement
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365SE
 ---
 
-# Manage licenses for Social Engagement
+# Manage licenses for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
 Using the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] admin center, you can manage [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] user licenses and other services. This topic provides information about the steps to give users access to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
 You must be your organization's [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] administrator to perform the following tasks.

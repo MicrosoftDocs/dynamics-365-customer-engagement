@@ -3,20 +3,27 @@ title: "Publish records with go live and track their status (Dynamics 365 for Ma
 description: "Find out which types of records must be published (go live) before you can use them, how to track their go-live status, and how to stop or edit records that are already live in Dynamics 365 for Marketing"
 keywords: "publish;live;status;status reason;go live"
 ms.date: 08/01/2018
-ms.service:
+ms.service: 
   - "dynamics-365-marketing"
-ms.custom:
+ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
-applies_to:
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: c618e1c0-53a3-4e8a-950b-ae8bcbf28e5f
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Go live with publishable entities and track their status
@@ -33,11 +40,12 @@ The following table lists all entities that have a go-live function and which se
 | --- | --- |
 | Marketing email messages | Marketing services |
 | Customer journeys | Marketing services |
+| Content settings | Marketing services |
 | Lead-scoring models | Customer-insights services |
 | Segments | Customer-insights services |
 | Marketing pages | Marketing services, shared with portals |
 | Marketing forms | Portals |
-| Events | Portals |
+| Events, sessions, and tracks | Portals |
 
 ## Monitor go-live status with status and status reason
 
@@ -64,6 +72,23 @@ For customer journeys, both the **Status** and a **Status reason** are managed b
 | Active | Stopping | The journey has been live but is currently in the process of stopping due to a stop request. |
 | Inactive | Expired | The journey end date passed at least 30 days ago, and the journey can't be restarted. |
 
+Some customer journey settings become locked (read-only) based on the journey's status reason. Some settings become permanent after you've gone live once. The following table summarizes these effects.
+
+| Field | Draft | Live-editable and Stopped | Live and others |
+| --- | --- | --- | --- |
+| Name | Editable | Editable | Locked |
+| Start date and time | Editable | Locked | Locked |
+| End date and time | Editable | Editable | Locked |
+| Is recurring | Editable | Locked | Locked |
+| Recurrence count | Editable | Editable | Locked |
+| Recurrence count | Editable | Editable | Locked |
+| Content settings | Editable | Locked | Locked |
+| Suppression segment | Editable | Locked | Locked |
+| Time zone | Editable | Locked | Locked |
+| Template | Editable | Editable | Locked |
+| Pipeline (tile positions) | Editable | Locked | Locked |
+| Tile settings | Editable | Editable | Locked |
+
 ## Marketing email go-live operations and status
 
 You can manually set the **Status** of a message to _active_ or _inactive_ by using the buttons on the command bar (as with most entities). The **Status reason** indicates the message's go-live state and is read-only.
@@ -75,6 +100,38 @@ You can manually set the **Status** of a message to _active_ or _inactive_ by us
 | Active | Stopped | The message was once live, and may have already been delivered to some contacts, but is now stopped so no new copies are being sent. If the message is used in a customer journey, then the message won't be sent by the journey until you start it again (and contacts will wait at the related email tile).<br><br>While stopped, you can edit and save the content without going live. Select **Go live** to republish it. |
 | Active | Live, editable | The message is currently live (and that version could be sent by a customer journey at any time), but you have chosen to edit it locally at the same time.<br><br>Make the required changes and then choose **Save** to update the live message automatically (after an error check) and return it to the _active/live_ state. |
 | Inactive | Expired | A user has manually deactivated the message using the **Deactivate** button on the command bar. If the message was previously live, then this operation also stops it. |
+
+Some email settings become locked (read-only) based on the message's status reason. Some settings become permanent after you've gone live once. The following table summarizes these effects.
+
+| Field | Draft | Live-editable and Stopped | Live and expired |
+| --- | --- | --- | --- |
+| Legal designation | Editable | Locked | Locked |
+| Content type | Editable | Locked | Locked |
+| Name | Editable | Editable | Locked |
+| Subject | Editable | Editable | Locked |
+| Design | Editable | Editable | Locked |
+| From user | Editable | Editable | Locked |
+| From name | Editable | Editable | Locked |
+| From address | Editable | Editable | Locked |
+| To | Editable | Editable | Locked |
+| Reply to | Editable | Editable | Locked |
+| Template | Editable | Editable | Locked |
+| Generate plain text | Editable | Editable | Locked |
+| Plain text content | Editable | Editable | Locked |
+
+## Content settings go-live operations and status
+
+You can manually set the **Status** of a content-settings record to _active_ or _inactive_ by using the buttons on the command bar (as with most entities). The **Status reason** indicates the content-settings record's go-live state and is read-only.
+
+| Status | Status&nbsp;reason | Description |
+| --- | --- | --- |
+| Active | Draft | The record has never been live and can be edited and saved locally without restrictions.<br><br>To publish a draft content-settings record, open it and then choose **Go Live** on the command bar. |
+| Active | Live | The record is currently live and can't be edited locally. It is available for use at any time by a customer journey.<br><br>To stop a live content-settings record, open it and then choose **Stop** from the command bar.<br><br>To edit a live content-settings record without stopping it, open it and then choose **Edit** on the command bar. |
+| Active | Stopped | The record was once live, and may have been used, but is now stopped. If the record is used in a customer journey, then the journey won't send any messages until you start it again (and contacts will wait at the related email tile).<br><br>While stopped, you can edit and save the record without going live. Select **Go live** to republish it. |
+| Active | Live, editable | The record is currently live (and that version could be used by a customer journey at any time), but you have chosen to edit it locally at the same time.<br><br>Make the required changes and then choose **Save** to update the live record automatically (after an error check) and return it to the _active/live_ state. |
+| Inactive | Expired | A user has manually deactivated the record using the **Deactivate** button on the command bar. If the record was previously live, then this operation also stops it. |
+
+All settings for content-settings records are editable when the record has a status reason of Draft, Live-editable, or Stopped, but all are locked when the record is Live or Expired. No settings become permanent as a result of the record going live once.
 
 ## Lead-scoring model go-live operations and status
 
@@ -100,6 +157,19 @@ The **Status reason** indicates the segment's current go-live state and is read-
 | Active | Stopped | The segment was once live but is now stopped and can be edited if needed.<br><br>While stopped, you can edit and save the segment without going live. Select **Go live** to republish it. |
 | Inactive | (none) | Segments should never have an inactive status. |
 
+Some segment settings become locked (read-only) based on the segment's status reason. Some settings become permanent after you've gone live once. The following table summarizes these effects.
+
+| Field | Draft | Stopped | Live and others |
+| --- | --- | --- | --- |
+| Segment type | Editable | Locked | Locked |
+| Segment name | Editable | Locked | Locked |
+| Segment ID | Editable | Locked | Locked |
+| Dynamic query | Editable | Editable | Locked |
+| Filter (for finding static members) | Editable | Editable | Locked |
+| Static members | Editable | Editable | Locked |
+| Owner ID | Editable | Locked | Locked |
+| Description | Editable | Locked | Locked |
+
 ## Marketing page go-live operations and status
 
 You can manually set the **Status** of a marketing page to _active_ or _inactive_ by using the buttons on the command bar (as with most entities). The **Status reason** indicates the page's go-live state and is read-only.
@@ -115,6 +185,8 @@ You can manually set the **Status** of a marketing page to _active_ or _inactive
 | Active | Stopping | The page has been live but is currently in the process of stopping due to a stop request. |
 | Inactive | Expired | A user has manually deactivated the page using the **Deactivate** button on the command bar.<br><br>If the page is live, then you must stop it (by choosing **Stop** on the command bar) before you can deactivate it. |
 
+All marketing-page settings are editable when the page has a status reason of Draft, Live-editable, or Stopped, but all are locked when Live, Expired, or transitioning. No settings become permanent as a result of the record going live once.
+
 ## Marketing forms go-live operations and status
 
 Marketing forms are reusable form elements that you can embed in your marketing pages. They get published to the marketing services, where they are made available to marketing pages running on the portal. The forms can also be embedded onto any web page, such as on your own website, rather than on a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] marketing page.
@@ -123,22 +195,27 @@ The publish process for marketing forms is entirely automated, so you don't need
 
 You can deactivate (or reactivate) a marketing form record using buttons on the command line, as with most entities. But be careful—when you deactivate a form, any existing marketing pages that use it will stop working.
 
-The **Status reason** field for marketing forms doesn't track the publish state; it just mirrors the **Status** itself.
+The **Status reason** field for marketing forms doesn't track the publish state; it just mirrors the **Status** itself. All settings are editable at any time.
 
-## Event go-live operations and status
+## Events, session, and tracks go-live operations and status
 
-The event go-live functionality works a bit differently from the other entities described in this topic. When you publish an event, [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] generates an event portal for that event rather than going live with the event record itself. The generated portal displays many types of information that are defined on, and linked to, the event record. The event and all its settings remain editable even after you publish the portal, and any changes you make to a published event will immediately be reflected on the portal too.
+The event go-live functionality works a bit differently from the other entities described in this topic. When you publish an event, [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] generates an event portal for that event rather than going live with the event record itself. The generated portal displays many types of information that are defined on, and linked to, the event record. The event and all its settings remain editable even after you publish the portal, and any changes you make to a published event, and its related published records, will immediately be reflected on the portal too.
 
-The events entity has a **Status** field, which works the same way as it does for most entities, but it doesn't use the **Status reason** field to monitor publish status. Instead, the events entity has a **Publish status** field, which is fully editable all the time you work with an event. This value is shown as a drop-down list in the upper-right corner when you are editing an event record.
+Event sessions work similarly to the event itself, and essentially function as sub-events that, taken together, create the overall event schedule. The event portal shows a schedule of sessions that belong to each event. An event can include both published and unpublished sessions, but only published sessions belonging to published events are shown on the portal.
+
+Event tracks are collections of sessions, usually related by theme or audience. Tracks provide a convenient way for attendees to register for several related sessions at once. Like event sessions, you must publish each track to make it appear on the portal for its related event. An event can include both published and unpublished tracks, but only the published tracks belonging to published events are shown on the portal.
+
+Event, session, and track entities all have a **Status** field, which works the same way as it does for most entities, but they don't use the **Status reason** field to monitor publish status. Instead, these entities have a **Publish status** field, which is fully editable all the time you work with them. This value is shown as a drop-down list in the upper-right corner when you are editing an event or session record, but is part of the main form for session tracks.
 
 ![The Publish Status menu for events](media/golive-publish-event.png "The Publish Status menu for events")
 
-The default values for **Publish status** are _Draft_, _Ready to publish_, _In progress_, and _Published_. Other than _Published_, all these values are for information only, so you can use them to track your work progress and coordinate with coworkers as needed. However, when you set this to _Published_, then the event details will become available publicly on your portals server. Set the **Publish status** to any value other than _Published_ to hide the event on your portal.
+The default values for **Publish status** are _Draft_, _Ready to publish_, _In progress_, and _Published_. Other than _Published_, all these values are for information only, so you can use them to track your work progress and coordinate with coworkers as needed. However, when you set this to _Published_, then the event, session, or track details will become available publicly on your portals server. Set the **Publish status** to any value other than _Published_ to hide the event, session, or track on your portal.
 
 ### See also
 
 [Design your digital content](design-digital-content.md)  
 [Prepare marketing email messages](prepare-marketing-emails.md)  
+[Use content settings](dynamic-email-content.md#content-settings)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)  
 [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)  

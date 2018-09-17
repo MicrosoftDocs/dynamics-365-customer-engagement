@@ -1,9 +1,9 @@
 ---
 title: "Use hybrid navigation to render page hierarchy for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to use hybrid navigation to render page hierarchy for a portal."
-ms.custom:
+ms.custom: 
   - dyn365-portal
-ms.date: 12/05/2017
+ms.date: 08/31/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,16 +13,23 @@ ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
 manager: shubhadaj
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Portals
 ---
 # Render up to three levels of page hierarchy by using hybrid navigation
-[comment]: <> (Need to regroup with other similar topics. This topic can be the landing topic.)
+
 This example renders a type of hybrid navigation, based on the portal site map, that renders up to three levels of page hierarchy. The rules for this component are:
 
 * The ancestor pages of the current page are shown back to the Home page (or to the maximum depth specified by the optional depth\_offset parameter). 
 * If the current page has children, those child pages are shown.
 * If the current page has no children, the siblings of the current page are shown.
 
-```
+```xml
 {% assign depth_offset = depth_offset | default: 0 %}
 {% assign current_page = current_page | default: page %}
 {% assign current_depth = 0 %}

@@ -15,6 +15,10 @@ caps.latest.revision: 32
 author: "Mattp123"
 ms.author: "t-mijosh"
 manager: "ryjones"
+search.audienceType: 
+  - enduser
+search.app: 
+  - D365CE
 ---
 # Create, edit, or save an Advanced Find search
 

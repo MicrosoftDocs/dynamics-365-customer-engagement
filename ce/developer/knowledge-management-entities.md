@@ -1,6 +1,5 @@
 ---
 title: "Knowledge management entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Learn about knowledge management system that lets you create knowledge articles with embedding external multimedia contents, such as images and videos, as links."
 description: ""
 ms.custom: ""
 ms.date: 10/31/2017
@@ -24,6 +23,10 @@ caps.latest.revision: 41
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
 # Knowledge management entities
 
