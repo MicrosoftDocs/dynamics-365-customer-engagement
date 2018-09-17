@@ -52,6 +52,12 @@ To create a dynamic segment, set its **Segment type** to **Dynamic** on the **Ge
 
 Each group in your segment must result in a list of contacts, which are selected by the logic defined in that group. Each group must therefore establish a path through various entities, each linked through relations, and which ends with the contact entity. A simple query group might query the contact entity alone, but a more complex one could pass through several entities.
 
+### Example: Define a simple segment based on contacts
+
+A simple segment definition uses the contact entity only. When you create this type of segment definition, you don't need to set up any relations between entities, so all you need to do is set up a query that test various field values from your contact records and combines the various clauses using logical operators. For an example, see the tutorial [Create a dynamic segment](create-segment.md).
+
+### Example: Define a more complex segment based on opportunities
+
 Here's an example of how to define a segment that starts by finding a collection of opportunities and, as usual, ends by finding the contacts that belong to that segment. In this example, we'll find contacts associated with opportunities valued over $10,000.
 
 1. If your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance isn't already set up to sync opportunities with the customer-insights services, talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync) for instructions.
