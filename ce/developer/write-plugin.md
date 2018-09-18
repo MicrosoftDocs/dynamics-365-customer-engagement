@@ -176,7 +176,9 @@ context.InputParameters["Target"] = new Account() { Name = "MyAccount" }; // WRO
  There can be one or more plug-in types in an assembly. After the plug-in assembly is registered and deployed, plug-ins can perform their intended operation in response to a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] run-time event.  
   
 > [!IMPORTANT]
-> - Plug-in assemblies must be no larger that 16 MB.
+> - Plug-in assemblies must be built using .NET Framework version 4.5.2. Any assemblies built using higher versions cannot be imported as part of a solution.
+> - Plug-in assemblies should reference the minimum version of the `Microsoft.Xrm.Sdk.dll` assembly that corresponds to the Dynamics 365 Customer Engagement deployment version. If your solution targets version 8.2, you must not use the latest version of the assemblies, you need to use the v8.2 version of the assemblies. Older versions of the assemblies are available via NuGet at [Microsoft.CrmSdk.CoreAssemblies ](https://www.nuget.org/packages/Microsoft.CrmSdk.CoreAssemblies/)
+> - Plug-in assemblies must be no larger than 16 MB.
 > - In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], plug-in assemblies must be readable by everyone to work correctly. Therefore, it is a security best practice to develop plug-in code that does not contain any system logon information, confidential information, or company trade secrets.  
   
  Each plug-in assembly must be signed, either by using the **Signing** tab of the project's properties sheet in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] or the Strong Name tool, before being registered and deployed to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. For more information about the Strong Name tool, run the sn.exe program, without any arguments, from a [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] Command Prompt window.  
