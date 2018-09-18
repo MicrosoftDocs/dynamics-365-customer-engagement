@@ -11,7 +11,7 @@
 ## [Org-wide default settings](configure-default-settings.md)
 ## [Appsource for Fieldservice](apps-addins.md)
 
-# [Work orders](overview-of-work-orders.md)
+# Work Orders
 ## [Create a new work order](create-work-order.md)
 ## [Work order types](create-work-order-types.md)
 ## [Create a product or service](create-product-or-service.md)
