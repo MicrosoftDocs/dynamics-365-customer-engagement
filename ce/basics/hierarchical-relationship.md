@@ -73,4 +73,4 @@ You can take the following actions from the hierarchical view:
 
 ### See also  
  [Work with accounts and contacts](../basics/accounts-contacts.md)  
- [Set up products](create-product-sales.md)
+ [Set up products](../sales-enterprise/create-product-sales.md)
