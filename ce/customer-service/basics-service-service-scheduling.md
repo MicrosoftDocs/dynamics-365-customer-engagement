@@ -45,7 +45,6 @@ Contoso bike repairs, a company that repairs bikes, schedules repair services fo
 In this case, Contoso bike repairs can benefit from the Service Scheduling feature of Dynamics 365 for Customer Service. They can quickly cater to their customers who are looking to avail their repair services. With the various service scheduling entities, they can plan service activities for their customers considering the availability of employees, facilities, and equipment.
 
 
-
 ## Access Service Scheduling in the Customer Service Hub
 
 With the October'18 release, Service Scheduling built on Universal Resource Scheduling (URS) will be available in the Customer Service Hub. Upgrade and install to the latest update to avail the new service scheduling features.
@@ -54,11 +53,7 @@ With the October'18 release, Service Scheduling built on Universal Resource Sche
 
 You can access the new service scheduling from the Customer Service Hub sitemap in the following ways:
 
-- On the sitemap icon ![Sitemap](media/sitemap-icon.png) , select **Service Scheduling**, and then select a scheduling entity record type. </br>
-
-  OR
-
-- Select **...** to go to **Service Scheduling** and access  the scheduling entity record types.
+- On the sitemap icon ![Sitemap](media/sitemap-icon.png) , select **...** to go to **Service Scheduling** and access  the scheduling entity record types
 
 See [Understand Service Scheduling entities](#understand-service-scheduling-entities) to know more about the entities in service scheduling.
 
@@ -100,14 +95,14 @@ Service Scheduling entities are grouped under the following logical groups:
 - **Resources** </br>
    Anything that needs to be scheduled can be termed as **Resources**. This can be users, crews, service centers, company assets (equipment), accounts, or contacts. 
 
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and set up resources](resources-service-scheduling.md)
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and set up bookable resources](resources-service-scheduling.md)
 
 - **Resources Categories** </br>
    With Resource categories,  you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment. 
  
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md)
 
-- **Facility/Equipment**  </br>
+- **Facility/Equipments**  </br>
    Facilities and equipment are resources you’d use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. 
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add facilities and equipment for service scheduling](add-facilities-equipment-service-scheduling.md)
@@ -118,7 +113,7 @@ Service Scheduling entities are grouped under the following logical groups:
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a service](create-edit-service.md)
 
 - **Service Activities** </br>
-   Create a service activity by finding the next available times of resources for a service or simply without checking for conflicts. 
+   Create a service activity by finding the next available time of resources for a service or simply without checking for conflicts. 
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity.md)
 

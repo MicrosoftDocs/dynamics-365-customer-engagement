@@ -26,9 +26,26 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-## Set up resource categories 
+Using bookable resource categories you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment.
 
-[Set up bookable resource categories (Field Service)](../field-service/set-up-bookable-resource-categories.md)
+## Create a new bookable resource category
 
-## Use resource groups  
- Use resource groups to group users, facilities, and equipment as part of the selection rules for a service. You can add resources to a resource group from the service record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a resource group](../customer-service/create-edit-resource-group.md)  
+Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
+
+1. In the Customer Service Hub sitemap, go to **Service Scheduling**.
+2. From the list of entity records, select **Scheduling > Resource Category**.
+   - The **Active Resource Categories** view is displayed. You can switch between various system views using the drop-down.
+   - Select **Show Chart** in the command bar to see the chart view.
+   - Select any existing resource category to see additional options in the command bar
+3. On the command bar, select **New** to create a new bookable resource category. 
+4. In the **General** section:
+ 
+   - Enter a **Name** and a **Description** for the resource category
+
+5. Select **Save**. A new resource category is created and is activated by default. 
+
+6. In the **Related** section, you can view and manage various resource category associations.
+
+
+### See also 
+[Create or edit a resource group](../customer-service/create-edit-resource-group.md)  

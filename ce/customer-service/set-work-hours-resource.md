@@ -27,9 +27,6 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 You can set the hours a user works or set the operating hours for a facility or equipment. By default, users, facilities, and equipment are set up for a 7-days-a-week, 24-hour schedule. 
-
-> [!IMPORTANT]
-> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
  You can edit existing work hours by following steps 1 and 2 to go to the Users or Facilities/Equipment area. Then, open the resource you want to edit. Editing a schedule does not affect existing service activities created for the resource.  
   

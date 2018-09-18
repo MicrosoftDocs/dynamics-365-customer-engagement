@@ -27,9 +27,6 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Define a limit to the number of activities a resource can perform in a stipulated time by setting the capacity of the resource and services in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] for Customer Service. 
-
-> [!IMPORTANT]
-> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
 You must set both the capacity of the service and the resources required for the service.  
   
