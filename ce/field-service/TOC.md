@@ -32,11 +32,11 @@
 ## [Tutorial: Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
 # [Universal Resource Scheduling (URS)](universal-resource-scheduling.md)
+## [Geocoding](turn-on-auto-geocoding.md)
 ## [Configure the schedule board](configure-schedule-board.md)
 ## [Booking statuses](set-up-booking-statuses.md)
 ## [Time groups](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
-## [FAQ: Travel time estimates with geocoding](turn-on-auto-geocoding.md)
 
 # Mobility
 ## [Mobile field service](field-service-mobile-app-user-guide.md)
