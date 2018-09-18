@@ -41,7 +41,6 @@
 # Mobility
 ## [Mobile field service](field-service-mobile-app-user-guide.md)
 ## [Field Resource Hub](field-resource-hub-users-guide.md)
-## [FAQ about mobile versions](mobile-versions-md)
 
 # Agreements and preventive maintenance
 ## [Customer agreements](set-up-customer-agreements.md)
