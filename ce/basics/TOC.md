@@ -22,7 +22,7 @@
 ## [Print leads, quotes and more](../basics/print-leads-quotes-other-records.md)
 ## [Use Flow to automate processes](../basics/use-flow-automate-processes-across-services.md)
 # [Work with accounts and contacts](../basics/accounts-contacts.md)
-## [Account relationships](../basics/account-relationships-hierarchical-view.md)
+## [Account relationships](../basics/hierarchical-relationship.md)
 ## [Send bulk email](../basics/send-bulk-email-customers.md)
 ## [Deactivate accounts or contacts](../basics/deactivate-activate-account-contact.md)
 # [Dashboards and charts](../basics/start-your-day-dashboard-chart.md)
