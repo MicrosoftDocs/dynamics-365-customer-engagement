@@ -129,10 +129,10 @@ Service Scheduling entities are grouped under the following logical groups:
 - **Organizational Units** </br>
    Your company probably organizes its consulting business by geography, function, or other areas. You can create organizational units that reflect your consulting business. 
 
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create organizational units](../project-service/create-organizational-units.md)
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage organizational units](create-org-units-cs-scheduling.md)
 
 - **Business Closure** </br>
-   Prevent scheduling resources on holidays and other nonworking days by defining business closures in Dynamics 365. 
+   Prevent scheduling resources on holidays and other non-working days by defining business closures. 
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set when your business is closed](set-when-business-closed.md)
 

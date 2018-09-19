@@ -53,7 +53,7 @@
 ### Configure using tools
 #### [Schedule Board](../field-service/configure-schedule-board.md)
 ### Work with settings
-#### [Organizational Units](../project-service/create-organizational-units.md)
+#### [Organizational Units](create-org-units-cs-scheduling.md)
 #### [Business Closure](set-when-business-closed.md)
 ### [Enable the new URS based Service Scheduling](enable-urs-service-scheduling.md)
 
