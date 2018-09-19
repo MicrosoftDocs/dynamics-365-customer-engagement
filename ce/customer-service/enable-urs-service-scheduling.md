@@ -35,6 +35,8 @@ With the October'18 release, the new Service Scheduling will be available in the
 > If you are a new customer who is installaing the Service Scheduling feature for the first time, see <<here>> to know how you can install and enable Service Scheduling from inside your Customer Service Hub application. </br>
 If you have been using the legacy Service Scheduling feature from either Service Management or Business Management, see <<here>> to know how you can migrate to the new Service Scheduling experience, now available from inside the Customer Service Hub application
 
+## What to expect in the new Service Scheduling experience
+
 ## What is Universal Resource Scheduling (URS) ?
 
 Universal Resource Scheduling in Dynamics 365 is used to enable scheduling for any entity including custom entities. 
@@ -152,7 +154,5 @@ newBookableResourceBooking ["serviceappointment"] = appointmentID;
 
 Guid _newBookableResourceBookingID = _service.Create(newBookableResourceBooking);}}
 ```
-
-## What to expect in the new Service Scheduling experience
 
 ### See also

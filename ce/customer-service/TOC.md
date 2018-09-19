@@ -55,7 +55,7 @@
 ### Work with settings
 #### [Organizational Units](create-org-units-cs-scheduling.md)
 #### [Business Closure](set-when-business-closed.md)
-### [Enable the new URS based Service Scheduling](enable-urs-service-scheduling.md)
+### [Get the new Service Scheduling experience](enable-urs-service-scheduling.md)
 
 <!-- ### Service scheduling for web app
 #### [Business closure](set-when-business-closed.md)
