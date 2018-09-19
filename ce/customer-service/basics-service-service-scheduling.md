@@ -44,7 +44,6 @@ Contoso bike repairs, a company that repairs bikes, schedules repair services fo
 
 In this case, Contoso bike repairs can benefit from the Service Scheduling feature of Dynamics 365 for Customer Service. They can quickly cater to their customers who are looking to avail their repair services. With the various service scheduling entities, they can plan service activities for their customers considering the availability of employees, facilities, and equipment.
 
-
 ## Access Service Scheduling in the Customer Service Hub
 
 With the October'18 release, Service Scheduling built on Universal Resource Scheduling (URS) will be available in the Customer Service Hub. Upgrade and install to the latest update to avail the new service scheduling features.
