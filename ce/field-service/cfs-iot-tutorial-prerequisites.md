@@ -50,6 +50,6 @@ You need 5 things to connect IoT Central to Connected Field Service (CFS) using 
    
 - **IoT Central provisioned using the Sample Contoso template**
 
-[Go to Azure IoT Central](https://azure.microsoft.com/services/iot-central/). Click Get started. Click New Application. For the payment plan, select **Free** or **Paid**. For the application template, select **Sample Contoso**.
+[Go to Azure IoT Central](https://azure.microsoft.com/services/iot-central/). Click **Get started**. Click **New Application**. For the payment plan, select **Free** or **Paid**. For the application template, select **Sample Contoso**. Then, click **Create**.
 
 
