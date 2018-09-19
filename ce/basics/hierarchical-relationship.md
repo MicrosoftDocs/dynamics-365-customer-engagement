@@ -53,21 +53,21 @@ The hierarchy of the related records is shown in a Tree view and Tile view:
 
 You can take the following actions from the hierarchical view:
 
-- In the Tree view, select the **Open this record** icon to open a record.
+-  In the Tree view, select the **Open this record** icon to open a record.
 
-  Or
+   Or
 
-- In the Tile view, select the record name.
+-  In the Tile view, select the record name.
 
-- Expand or collapse the items in the Tree view.
+-  Expand or collapse the items in the Tree view.
 
--	In the Tile view, select the down arrow to see the record’s child records of the existing record.
+-	 In the Tile view, select the down arrow to see the record’s child records of the existing record.
 
-  ![See child records](../basics/media/see-child-records.png "See child records")
+   ![See child records](../basics/media/see-child-records.png "See child records")
 
-  The number before the arrow denotes the number of child records for that record.
+   The number before the arrow denotes the number of child records for that record.
 
--	Use command bar options to take action on selected records. You can select a record by selecting the check box in the top-right corner of a tile in the Tile view. 
+-	 Use command bar options to take action on selected records. You can select a record by selecting the check box in the top-right corner of a tile in the Tile view. 
 
 
 
