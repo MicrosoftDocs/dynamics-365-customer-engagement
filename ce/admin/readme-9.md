@@ -572,7 +572,7 @@ mobile offline capabilities for existing and new customers.
 
 Unified Service Desk
 --------------------
-- If you are using Dynamics 365 (on-premise), then Unified Service Desk 4.0 and higher version supports only Dynamics 365 (on-premise), version 9.0 and higher.
+- The next version of Dynamics 365 for Customer Engagement on-premise release will support Unified Service Desk 4.0 and higher versions.
 
 -   Download and update your Unified Service Desk to the [latest version](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/download-unified-service-desk).
 If you want to continue to use versions of Unified Service Desk older than 3.1, you will need to update the client desktop’s registry entries. Read the [blog](https://blogs.msdn.microsoft.com/usd/2017/10/20/unified-service-desk-and-tls-1-2-mandate-for-dynamics-365-online/) about Unified Service Desk and TLS 1.2 mandate to update these registry entries.
