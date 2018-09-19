@@ -1,5 +1,5 @@
 ---
-title: "Set up Connected Field Service and IoT Central | MicrosoftDocs"
+title: "Prerequisites for Connected Field Service for IoT Central | MicrosoftDocs"
 ms.custom: "dyn365-fieldservice"
 ms.date: 09/24/2018
 ms.reviewer: ""
@@ -24,7 +24,8 @@ search.app:
   - D365CE
   - D365FS
 --- 
-# 1: Set up Connected Field Service and IoT Central trial
+
+# 1: Prerequisites for Connected Field Service for IoT Central
 
 [instructions will go here!]
 
