@@ -22,7 +22,7 @@ search.app:
   - D365CS
 ---
 
-# Get the new Service Scheduling experience based on URS
+# Get the new Service Scheduling experience
 
 Service scheduling is now built atop **Universal Resource Scheduling (URS)** to provide an efficient way to schedule service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling. This is done with the help of predictable workloads for employees, and reliable time estimates for customers and clients.
 

@@ -139,6 +139,6 @@ Service Scheduling entities are grouped under the following logical groups:
 
 ### See also    
 
-[Enable the new URS based Service Scheduling](enable-urs-service-scheduling.md)
+[Get the new Service Scheduling experience](enable-urs-service-scheduling.md)
     
  
