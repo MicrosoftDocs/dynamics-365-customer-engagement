@@ -30,11 +30,11 @@ search.app:
 
 The segmentation tool always works in one of two modes, which enable it to create either of the following two types of segments:
 
-- **Profile segments** query the _profile_ records stored in the customer-interaction database. Profiles records are synced between your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database and the customer-interaction database and include the entities you normally work with in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](marketing-settings.md#matching-strategy).
+- **Profile segments** query the _profile_ records stored in the customer-interaction database. Profile records are synced between your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database and the customer-interaction database and include the entities you normally work with in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](marketing-settings.md#matching-strategy).
 
-- **Interaction segments** query the _interaction_ records stored in the customer-interaction database. Each of these records is generated automatically and related to a specific contact record. Interaction records are accessed to generate various insights displays in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] UI, but they _aren't_ synced to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database. They are generated in response to contact interactions such as opening an email, clicking an email link, submitting a form, or registering for an event.
+- **Interaction segments** query the _interaction_ records stored in the customer-interaction database. Each of these records is generated automatically and related to a specific contact record. Interaction records are accessed to generate various insight displays in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] UI, but they _aren't_ synced to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database. They are generated in response to contact interactions, such as opening an email, clicking an email link, submitting a form, or registering for an event.
 
-Unlike profile segments, interaction segments only allow for a single query group, which means that the **Flow** tab isn't available, and your entire query must contain just a single group. However, you can combine interaction segments with other interaction or profile segments by [creating a compound segment](segments-compound.md).
+Unlike profile segments, interaction segments allow for only a single query group, which means that the **Flow** tab isn't available, and your entire query must contain just a single group. However, you can combine interaction segments with other interaction or profile segments by [creating a compound segment](segments-compound.md).
 
 This topic describes how to work with interaction segments. For more about profile segments, see [Profile-based dynamic segments](segments-profile.md).
 
@@ -70,7 +70,8 @@ To create a segment based on interaction records:
     - WebsiteVisited
 1. When you select an interaction, the layout of the **Designer** forms changes to _interaction mode_, which provides the features called out in the illustration provided after this procedure. Use these features to design your query.
 
-1. When you're done designing your segment, **Save** your settings and **Go live**.
+1. When you're done designing your segment, select **Save** to save your settings and **Go live**.
+<!--note from editor: Please add what happens when they select Go live. Does it get published, added to a list of available segements, what? Or you could choose to change it to "...select Save and Go live." and leave it at that.-->
 
 ![Features for creating an interaction segment](media/segment-interaction-callouts.png "Features for creating an interaction segment")
 
@@ -78,12 +79,12 @@ Legend:
 
 1. **Interaction name** : This is the type of interaction the segment will look for. It's the interaction you chose during the previous step, but you can freely change it here.
 1. **Relation to contacts** : This is how your selected interaction relates to the contact entity. All segments must resolve to a collection of contact entities, and this value shows how the two entities are connected. For the most common interactions, there is only one choice here so you don't need to worry about it, but some types of interactions have multiple connections to the contact entity through different field values on either the interaction record or the contact record.
-1. **Having count** : Use these settings to limit results to include contacts that have some minimum or exact value of interactions, such as "at least 3 email opens" or "exactly 1 event registration". If you leave these blank, then you segment will find contacts with at least one of the selected interaction type.
-1. **Sliding window** : Use these settings to only consider interactions that occurred recently, such as in the last 2 weeks, last 3 months, or last year. The date is always calculated based on the current date, so if you apply a limit here, then some contacts may slip out of the segment with each passing day.
-1. **Additional restrictions** : These settings work just like they do for profile segments, but here they enable you to filter results based on values for the selected type of interaction records. For example, you might want to find clicks on a specific email message, or registrations for a specific event. You can add as many additional clauses as you want using the **And** and **Or** buttons provided here.
+1. **Having count** : Use these settings to limit results to include contacts that have some minimum or exact value of interactions, such as "at least 3 email opens" or "exactly 1 event registration". If you leave these blank, then your segment will find contacts with at least one of the selected interaction type.
+1. **Sliding window** : Use these settings to consider interactions that occurred only recently, such as in the last two weeks, last three months, or last year. The date is always calculated based on the current date, so if you apply a limit here, then some contacts may slip out of the segment with each passing day.
+1. **Additional restrictions** : These settings work just like they do for profile segments, but here they enable you to filter results based on values for the selected type of interaction records. For example, you might want to find clicks on a specific email message, or registrations for a specific event. You can add as many additional clauses as you want using the **And** and **Or** buttons.
 
 > [!NOTE]
-> Interaction segments can only include a single group, so don't use the **Add Group** button provided here (your settings in any additional groups will be ignored). However, you can combine interaction segments with other interaction or profile segments using logical operators by [creating a compound segment](segments-compound.md).
+> Interaction segments can include only a single group, so don't use the **Add Group** button (your settings in any additional groups will be ignored). However, you can combine interaction segments with other interaction or profile segments using logical operators by [creating a compound segment](segments-compound.md).
 
 ## Find record IDs
 
