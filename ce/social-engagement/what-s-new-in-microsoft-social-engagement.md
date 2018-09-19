@@ -11,7 +11,7 @@ applies_to:
 ms.assetid: e8941c81-866f-4363-8ca1-fc035f9a3844
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
