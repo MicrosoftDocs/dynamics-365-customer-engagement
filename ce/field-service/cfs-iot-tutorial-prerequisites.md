@@ -25,17 +25,15 @@ search.app:
 
 You need 5 things to connect IoT Central to Connected Field Service (CFS) using Microsoft Flow:
 
+- **IoT Central provisioned using the Sample Contoso template**
+
+[Go to Azure IoT Central](https://azure.microsoft.com/services/iot-central/). Click **Get started**. Click **New Application**. For the payment plan, select **Free** or **Paid**. For the application template, select **Sample Contoso**. Then, click **Create**.
+
 - **Dynamics 365 for Field Service with system administrator credentials** 
 
-     First, you'll need a Dynamics 365 for Field Service tenant. 
+     You'll need a Dynamics 365 for Field Service tenant. 
      
      New to Field Service and need a tenant? No worries. [Sign up for a free trial for development purposes.](https://appsource.microsoft.com/product/dynamics-365/mscrm.40fd37ef-dca4-4b0d-9f41-d16703b7d070)
-
-- **Azure subscription with admin credentials**     
-
-    The Azure IoT services you'll deploy need to be associated with an Azure subscription. 
-      
-    New to IoT and need an Azure subscription? We've got you covered. [Sign up for an Azure free trial.](https://azure.microsoft.com/free/)
 
 - **Dynamics 365 Connected Field Service add-on**  
 
@@ -46,10 +44,14 @@ You need 5 things to connect IoT Central to Connected Field Service (CFS) using 
 - **Connected Field Service sample data installed**    
     Download and install a Connected Field Service sample data package that enables you to see the capabilities IoT data brings to Field Service, including command modeling, customer asset to device mapping, IoT alert – to – workorder workflow, and more.  
     
-    Ready to download and install sample data? [Go to the Download center to get the package and installation instructions.](https://www.microsoft.com/en-US/download)
+    Ready to download and install Connected Field Service sample data? [Go to the Download center to get the package and installation instructions.](https://www.microsoft.com/en-US/download)
    
-- **IoT Central provisioned using the Sample Contoso template**
-
-[Go to Azure IoT Central](https://azure.microsoft.com/services/iot-central/). Click **Get started**. Click **New Application**. For the payment plan, select **Free** or **Paid**. For the application template, select **Sample Contoso**. Then, click **Create**.
 
 
+
+DO we need this?
+- **Azure subscription with admin credentials**     
+
+    The Azure IoT services you'll deploy need to be associated with an Azure subscription. 
+      
+    New to IoT and need an Azure subscription? We've got you covered. [Sign up for an Azure free trial.](https://azure.microsoft.com/free/)
