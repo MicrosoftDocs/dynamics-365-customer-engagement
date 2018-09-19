@@ -458,8 +458,8 @@ foreach ($orgId in $organizationIdList.Split(',')) {
 }
 
 # Add or update a secret to key vault.
-$secretVaule = ConvertTo-SecureString $connectionString -AsPlainText -Force
-$secret = Set-AzureKeyVaultSecret -VaultName $keyvaultName -Name $secretName -SecretValue $secretVaule -Tags $secretTags
+$secretValue = ConvertTo-SecureString $connectionString -AsPlainText -Force
+$secret = Set-AzureKeyVaultSecret -VaultName $keyvaultName -Name $secretName -SecretValue $secretValue -Tags $secretTags
 
 # Authorize application to access key vault.
 $servicePrincipal = 'b861dbcc-a7ef-4219-a005-0e4de4ea7dcf'
