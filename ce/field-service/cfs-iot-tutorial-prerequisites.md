@@ -46,7 +46,7 @@ You need 5 things to connect IoT Central to Connected Field Service (CFS) using 
 - **Connected Field Service sample data installed**    
     Download and install a Connected Field Service sample data package that enables you to see the capabilities IoT data brings to Field Service, including command modeling, customer asset to device mapping, IoT alert – to – workorder workflow, and more.  
     
-    Ready to download and install sample data? Go to the Download center to get the package and installation instructions.](https://www.microsoft.com/en-US/download)
+    Ready to download and install sample data? [Go to the Download center to get the package and installation instructions.](https://www.microsoft.com/en-US/download)
    
 - **IoT Central provisioned using the Sample Contoso template**
 
