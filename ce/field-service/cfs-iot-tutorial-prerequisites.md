@@ -29,6 +29,8 @@ You need 5 things to connect IoT Central to Connected Field Service (CFS) using 
 
 [Go to Azure IoT Central](https://azure.microsoft.com/services/iot-central/). Click **Get started**. Click **New Application**. For the payment plan, select **Free** or **Paid**. For the application template, select **Sample Contoso**. Then, click **Create**.
 
+![Azure IoT Central with payment plan and template selected](../media/office-365-app-launcher-with-dynamics-365-iconselected.png "Azure IoT Central with payment plan and template selected")  
+
 - **Dynamics 365 for Field Service with system administrator credentials** 
 
      You'll need a Dynamics 365 for Field Service tenant. 
