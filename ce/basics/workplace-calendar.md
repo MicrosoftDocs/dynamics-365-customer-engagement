@@ -52,5 +52,5 @@ Use the calendar to view appointments and service activities you need to partici
  You can create an appointment or service activity from a normal calendar as well as a service calendar. More information: [Create or edit an appointment](../basics/create-edit-appointment.md),  
   
 ### See also  
- [Create a service activity without checking for conflicts](../customer-service/create-service-activity-without-checking-conflicts.md)   
+ [Create a service activity without checking for conflicts](../customer-service/schedule-service-activity.md#force-an-activity-into-a-time-slot-in-the-service-schedule) </br>
  [Schedule a service activity](../customer-service/schedule-service-activity.md)

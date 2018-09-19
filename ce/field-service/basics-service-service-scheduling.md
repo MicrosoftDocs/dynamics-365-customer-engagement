@@ -84,6 +84,6 @@ Avoid disruptions in service by making sure that your resources are scheduled op
   
 ### See also    
  [Schedule a service activity](../customer-service/schedule-service-activity.md)<br>
- [Create a service activity without checking for conflicts](../customer-service/create-service-activity-without-checking-conflicts.md)   
+ [Force an activity into a time slot in the service schedule](../customer-service/schedule-service-activity.md#force-an-activity-into-a-time-slot-in-the-service-schedule)
     
  
