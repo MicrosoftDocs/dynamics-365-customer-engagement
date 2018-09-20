@@ -154,8 +154,8 @@ You use parameters in reports to control the data retrieved by prompting the use
 |  `CRM_NumberNegativePattern`   |                                 The format pattern for negative numeric values.                                 |
 |     `CRM_NumberGroupSizes`     |                The number of digits in each group to the left of the decimal in numeric values.                 |
 |   `CRM_NumberGroupSeperator`   |            The string that separates groups of digits to the left of the decimal in numeric values.             |
-|      `CRM_DateSeperator`       |                The string that separates the components of a date, such as year, month, and day.                |
-|      `CRM_TimeSeperator`       |              The string that separates the components of time, such as hour, minutes, and seconds.              |
+|      `CRM_DateSeparator`       |                The string that separates the components of a date, such as year, month, and day.                |
+|      `CRM_TimeSeparator`       |              The string that separates the components of time, such as hour, minutes, and seconds.              |
 |       `CRM_AMDesignator`       |              The string that separates the components of time, such as hour, minutes, and seconds               |
 |       `CRM_PMDesignator`       |                             The designator for hours that are "post meridiem" (PM).                             |
 |     `CRM_ShortDatePattern`     |            The format pattern for a short date value that is associated with the "d" format pattern.            |
