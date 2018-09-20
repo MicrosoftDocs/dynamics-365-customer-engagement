@@ -24,3 +24,14 @@ Provides properties and methods to use JavaScript API to manage the channel (wid
 
 ## Methods
 
+| Methods | Description |
+|---------|-------------|
+| setWidth | [!INCLUDE[setWidth](microsoft-ciframework/includes/setWidth-description.md)] |
+| getWidth | [!INCLUDE[setWidth](microsoft-ciframework/includes/getWidth-description.md)] |
+| setMode | [!INCLUDE[setWidth](microsoft-ciframework/includes/setMode-description.md)] |
+| getMode | [!INCLUDE[setWidth](microsoft-ciframework/includes/setMode-description.md)] |
+| setClickToAct | [!INCLUDE[setWidth](microsoft-ciframework/includes/setClickToAct-description.md)] |
+| getClickToAct | [!INCLUDE[setWidth](microsoft-ciframework/includes/getClickToAct-description.md)] |
+| searchAndOpenRecords | [!INCLUDE[setWidth](microsoft-ciframework/includes/searchAndOpenRecords-description.md)] |
+| getEnvironment | [!INCLUDE[setWidth](microsoft-ciframework/includes/getEnvironment-description.md)] |
+| openForm | [!INCLUDE[setWidth](microsoft-ciframework/includes/openForm-description.md)] |
