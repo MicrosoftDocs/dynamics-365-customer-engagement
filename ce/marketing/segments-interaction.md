@@ -70,15 +70,13 @@ To create a segment based on interaction records:
     - WebsiteVisited
 1. When you select an interaction, the layout of the **Designer** forms changes to _interaction mode_, which provides the features called out in the illustration provided after this procedure. Use these features to design your query.
 
-1. When you're done designing your segment, select **Save** to save your settings and **Go live**.
-<!--note from editor: Please add what happens when they select Go live. Does it get published, added to a list of available segements, what? Or you could choose to change it to "...select Save and Go live." and leave it at that.-->
+1. When you're done designing your segment, select **Save** and **[Go live](go-live.md)**.
 
 ![Features for creating an interaction segment](media/segment-interaction-callouts.png "Features for creating an interaction segment")
 
 Legend:
 
-1. **Interaction name** : This is the type of interaction the segment will look for. It's the interaction you chose during the previous step, but you can freely change it.
-<!--note from editor: What step are you referring to in this description? Since this is in the legend, that reference is unclear.-->
+1. **Interaction name** : This is the type of interaction the segment will look for.
 1. **Relation to contacts** : This is how your selected interaction relates to the contact entity. All segments must resolve to a collection of contact entities, and this value shows how the two entities are connected. For the most common interactions, there is only one choice here so you don't need to worry about it, but some types of interactions have multiple connections to the contact entity through different field values on either the interaction record or the contact record.
 1. **Having count** : Use these settings to limit results to include contacts that have some minimum or exact value of interactions, such as "at least 3 email opens" or "exactly 1 event registration". If you leave these blank, then your segment will find contacts with at least one of the selected interaction type.
 1. **Sliding window** : Use these settings to consider interactions that occurred only recently, such as in the last two weeks, last three months, or last year. The date is always calculated based on the current date, so if you apply a limit here, then some contacts may slip out of the segment with each passing day.

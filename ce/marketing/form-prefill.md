@@ -60,8 +60,7 @@ The following rules apply for prefilling subscription-center forms:
 
 ### Forward-to-a-friend forms
 
-Prefilling isn't supported for forward-to-a-friend forms.
-<!--note from editor: Can you add a little more to this explaining why it isn't supported? Like, and I'm assuming here: "...for forward-to-a-friend forms. This is because the friend's input will be different from the contact who forwarded it. Also, we don't want to accidentially share personal information from the contact who is referring their friend."-->
+Prefilling isn't supported for forward-to-a-friend forms because these forms don't display information from the database. The email addresses that contacts enter here aren't checked against addresses already in the database, and the values entered aren't connected to the submitting contact in any way. These addresses are only stored temporarily&mdash;they aren't used to create new contact records, nor are they visible to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] users.
 
 ## Create a landing-page form with prefill enabled
 
@@ -82,7 +81,6 @@ To create a form with prefilling enabled on one or more fields:
 ## Create a subscription-center form with prefill enabled
 
 Prefilling is always enabled for all fields in a subscription center form. To create a subscription-center form:
-<!--note from editor: Do you have this procedure in a topic about subscription center forms? It seems like you should be able to link to that rather than put it here, since this topic is about prefilling, not creating a subscription center form. -->
 
 1. Go to **Marketing** > **Internet marketing** > **Marketing forms**. Then either open an existing form to edit it or choose **New** on the command bar to create a new one.
 1. Set the **Form type** (near the top of the page) to **Subscription center**. This option does the following:
