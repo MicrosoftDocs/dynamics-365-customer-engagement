@@ -1,5 +1,5 @@
 - name: Channel Integration Framework for Dynamics 365
-  href: ./channel-integration-framework.md
+  href: ../channel-integration-framework.md
   items:
   - name: Overview
     items:
@@ -20,34 +20,34 @@
   - name: JavaScript API Referrence
     items:
     - name: Microsoft.CIFramework
-      href: microsoft-ciframework.md
-    - items:
-      - name: setWidth
-        href: reference/microsoft-ciframework/setWidth.md
-      - name: getWidth
-        href: reference/microsoft-ciframework/getWidth.md
-      - name: setMode
-        href: reference/microsoft-ciframework/setMode.md
-      - name: getMode
-        href: reference/microsoft-ciframework/getMode.md
-      - name: setClickToAct
-        href: reference/microsoft-ciframework/setClickToAct.md
-      - name: getClickToAct
-        href: reference/microsoft-ciframework/getClickToAct.md
-      - name: searchAndOpenRecords
-        href: reference/microsoft-ciframework/searchAndOpenRecords.md
-      - name: getEnvironment
-        href: reference/microsoft-ciframework/getEnvironment.md
-      - name: openForm
-        href: reference/microsoft-ciframework/openForm.md
+      href: reference/microsoft-ciframework.md
+     - items:
+        - name: setWidth
+          href: reference/microsoft-ciframework/setWidth.md
+        - name: getWidth
+          href: reference/microsoft-ciframework/getWidth.md
+        - name: setMode
+          href: reference/microsoft-ciframework/setMode.md
+        - name: getMode
+          href: reference/microsoft-ciframework/getMode.md
+        - name: setClickToAct
+          href: reference/microsoft-ciframework/setClickToAct.md
+        - name: getClickToAct
+          href: reference/microsoft-ciframework/getClickToAct.md
+        - name: searchAndOpenRecords
+          href: reference/microsoft-ciframework/searchAndOpenRecords.md
+        - name: getEnvironment
+          href: reference/microsoft-ciframework/getEnvironment.md
+        - name: openForm
+          href: reference/microsoft-ciframework/openForm.md
     - name: Xrm.WebApi
-      href: xrm-webapi.md
-    - items:
-      - name: createRecord
-        href: reference/Xrm-WebApi/createRecord.md
-      - name: retrieveRecord
-        href: reference/Xrm-WebApi/retrieveRecord.md
-      - name: updateRecord
-        href: reference/Xrm-WebApi/updateRecord.md
-      - name: deleteRecord
-        href: reference/Xrm-WebApi/deleteRecord.md
+      href: reference/xrm-webapi.md
+      - items:
+        - name: createRecord
+          href: reference/Xrm-WebApi/createRecord.md
+        - name: retrieveRecord
+          href: reference/Xrm-WebApi/retrieveRecord.md
+        - name: updateRecord
+          href: reference/Xrm-WebApi/updateRecord.md
+        - name: deleteRecord
+          href: reference/Xrm-WebApi/deleteRecord.md
