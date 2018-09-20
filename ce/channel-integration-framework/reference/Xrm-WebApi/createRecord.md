@@ -205,6 +205,6 @@ Xrm.WebApi.offline.createRecord("account", data).then(
  
 ### Related topics
 
-[Create an entity using the Web API](../../../webapi/create-entity-web-api.md)
+<!--[Create an entity using the Web API](../../../webapi/create-entity-web-api.md)
 
-[Xrm.WebApi](../xrm-webapi.md)
+[Xrm.WebApi](../xrm-webapi.md)-->

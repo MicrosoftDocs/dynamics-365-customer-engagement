@@ -33,6 +33,6 @@ Provides methods to use Web API to create and manage records and execute Web API
 
 ### Related topics
 
-[Use the Dynamics 365 Customer Engagement Web API](../../use-microsoft-dynamics-365-web-api.md)
+<!--[Use the Dynamics 365 Customer Engagement Web API](../../use-microsoft-dynamics-365-web-api.md)
 
-[Client API Xrm object](../clientapi-xrm.md)
+[Client API Xrm object](../clientapi-xrm.md)-->

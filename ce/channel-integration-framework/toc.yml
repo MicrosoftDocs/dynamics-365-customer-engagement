@@ -23,7 +23,7 @@
       href: reference/microsoft-ciframework.md
     - items:
       - name: setWidth
-        href: reference/microsoft.ciframework/setWidth.md
+        href: setWidth.md
       - name: getWidth
         href: reference/microsoft.ciframework/getWidth.md
       - name: setMode

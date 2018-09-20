@@ -125,9 +125,9 @@ The above example displays the following in your console; you might see other va
  
 ### Related topics
 
-[Xrm.WebApi.retrieveMultipleRecords](retrieveMultipleRecords.md)
+<!--[Xrm.WebApi.retrieveMultipleRecords](retrieveMultipleRecords.md)
 
-[Xrm.WebApi](../xrm-webapi.md)
+[Xrm.WebApi](../xrm-webapi.md)-->
 
 
 
