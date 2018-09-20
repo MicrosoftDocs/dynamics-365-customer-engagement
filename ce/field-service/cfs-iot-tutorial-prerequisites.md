@@ -61,7 +61,8 @@ Follow these steps to install the Connected Field Service sample data:
 2. In Windows File Manager, go to the folder where you downloaded the zip file. 
 3. Right-click the zip file, and then select **Properties**. 
 4. On the Properties dialog, select **Unblock**. Click **OK**.
-![PackageDeployer properties dialog with Unblock selected](media/cfs-iot-package-deployer.png "PackageDeployer properties dialog with Unblock selected")
+ > [!div class="mx-imgBorder"]
+ > ![PackageDeployer properties dialog with Unblock selected](media/cfs-iot-package-deployer.png "PackageDeployer properties dialog with Unblock selected")
 5. Right-click the zip file, select **Extract All**, and then select **Extract**.
 6. Double-click **packagedeployer.exe** to run it and install the sample data. 
 7. When prompted, enter your system administrator credentials to sign in to your Dynamics 365 tenant. When you see the Azure IoT Central and Connected Field Service sample data deployment page, follow the on-screen instructions to complete the installation.
