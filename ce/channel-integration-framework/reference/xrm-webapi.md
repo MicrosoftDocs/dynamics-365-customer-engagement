@@ -26,10 +26,10 @@ Provides methods to use Web API to create and manage records and execute Web API
 
 |                              Method                              |                                                            Description                                                             |
 |------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-|            [createRecord](xrm-webapi/createRecord.md)            |            [!INCLUDE[xrm-webapi/includes/createRecord-description.md](xrm-webapi/includes/createRecord-description.md)]            |
-|          [retrieveRecord](xrm-webapi/retrieveRecord.md)          |          [!INCLUDE[xrm-webapi/includes/retrieveRecord-description.md](xrm-webapi/includes/retrieveRecord-description.md)]          |
-|            [updateRecord](xrm-webapi/updateRecord.md)            |            [!INCLUDE[xrm-webapi/includes/updateRecord-description.md](xrm-webapi/includes/updateRecord-description.md)]            |
-|            [deleteRecord](xrm-webapi/deleteRecord.md)            |            [!INCLUDE[xrm-webapi/includes/deleteRecord-description.md](xrm-webapi/includes/deleteRecord-description.md)]            |
+|            [createRecord](xrm-webapi/createRecord.md)            | [!INCLUDE[createRecord-description](xrm-webapi/includes/createRecord-description.md)]            |
+|          [retrieveRecord](xrm-webapi/retrieveRecord.md)          |          [!INCLUDE[retrieveRecord-description](xrm-webapi/includes/retrieveRecord-description.md)]          |
+|            [updateRecord](xrm-webapi/updateRecord.md)            |            [!INCLUDE[updateRecord-description](xrm-webapi/includes/updateRecord-description.md)]            |
+|            [deleteRecord](xrm-webapi/deleteRecord.md)            |            [!INCLUDE[deleteRecord-description](xrm-webapi/includes/deleteRecord-description.md)]            |
 
 ### Related topics
 
