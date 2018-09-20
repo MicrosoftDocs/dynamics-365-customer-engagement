@@ -3,7 +3,6 @@ title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
 ms.date: 09/26/2018
-<!--note from editor: Is this date too far in the future? You had 09/17/2018 on the other topics, which I was changing to 9/19. -->
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
