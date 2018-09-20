@@ -1,7 +1,7 @@
 ---
 title: "Set up Dynamics 365 (online) to use SharePoint Online | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 09/20/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
