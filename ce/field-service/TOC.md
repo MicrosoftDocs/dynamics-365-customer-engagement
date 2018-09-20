@@ -32,8 +32,8 @@
 ## [Tutorial: Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
 # [Scheduling](universal-resource-scheduling.md)
-## [Geocoding for travel time](turn-on-auto-geocoding.md)
 ## [Configure the schedule board](configure-schedule-board.md)
+## [Geocoding for travel time](turn-on-auto-geocoding.md)
 ## [Booking statuses](set-up-booking-statuses.md)
 ## [Time groups](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
