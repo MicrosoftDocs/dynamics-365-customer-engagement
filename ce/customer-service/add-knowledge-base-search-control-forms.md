@@ -36,7 +36,7 @@ Add a **Knowledge Base Search** control to [!INCLUDE[pn_dynamics_crm](../include
   
 - Choose from a set of predefined contextual actions the users can take on an article  
   
-- Add the control on any section of any entity that is enabled for knowledge management, including the timeline, and also in custom entities. The control is added by default to the case form of type **Main**. The control can be added to other Main forms also.  
+- Add the control on any section of any entity that is enabled for knowledge management, including the timeline, and also in custom entities. The control is added by default to the case form of type **Main** in the Activity wall. For interactive form,  it is available in the Related section.
   
   > [!NOTE]
   >  The Knowledge Base Search control can be used on Microsoft Dynamics 365 for tablets and phones. However, some actions like Pop Out, Email Link, and Email Content aren't supported.  

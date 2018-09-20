@@ -1,5 +1,6 @@
 # [Dynamics 365 for Customer Service](help-hub.md)
 ## [Overview](overview.md)
+## [What's new](whats-new-customer-service.md)
 ## User Guide
 ### [Customer Service Hub](user-guide-customer-service-hub.md)
 #### [Learn the basics](customer-service-hub-user-guide-basics.md)
@@ -16,6 +17,7 @@
 #### [Assign an activity to a user or queue](user-guide-customer-service.md#assign-an-activity-to-a-user-or-queue)
 #### [Merge similar cases](user-guide-customer-service.md#merge-similar-cases)
 #### [Create and manage parent and child cases](user-guide-customer-service.md#create-and-manage-parent-and-child-cases)
+#### [Find knowledge articles from within a record](find-knowledge-articles-within-record-dynamics-365.md)
 
 ## [Service Manager Guide](service-manager-guide.md)
 ### [Queues](set-up-queues-manage-activities-cases.md)
@@ -52,7 +54,6 @@
 ### [Create and design forms](create-design-forms-customer-service-hub.md)
 ### [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
 ### [Understand Knowledge Base search mechanisms](knowledge-base-search-methods.md)
-### [Find knowledge articles from within a record](find-knowledge-articles-within-record-dynamics-365.md)
 ### [Add timer control to forms](add-timer-control-case-form-track-time-against-sla.md)
 ### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 ### [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
