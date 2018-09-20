@@ -44,10 +44,10 @@ Here are the 4 things you need to connect Azure IoT Central to Connected Field S
    
 - **Azure IoT Central solution provisioned using the Sample Contoso template**
 
- [Go to Azure IoT Central](https://azure.microsoft.com/services/iot-central/). Click **Get started**, and then click **New Application**. 
- 1. For the payment plan, select **Paid** (you don't need a credit card to get started). 
- 2. For the application template, select **Sample Contoso**. 
- 3. Click **Create**.
+   [Go to Azure IoT Central](https://azure.microsoft.com/services/iot-central/). Click **Get started**, and then click **New Application**. 
+  1. For the payment plan, select **Paid** (you don't need a credit card to get started). 
+   2. For the application template, select **Sample Contoso**. 
+   3. Click **Create**.
 
 ![Azure IoT Central with payment plan and template selected](media/Azure-IoT-Central-create-app-dialog.PNG "Azure IoT Central with payment plan and template selected")  
 
