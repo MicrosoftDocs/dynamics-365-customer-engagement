@@ -21,4 +21,33 @@
     items:
     - name: Microsoft.CIFramework
       href: microsoft-ciframework.md
-    
+    - items:
+      - name: setWidth
+        href: reference/setWidth.md
+      - name: getWidth
+        href: reference/getWidth.md
+      - name: setMode
+        href: reference/setMode.md
+      - name: getMode
+        href: reference/getMode.md
+      - name: setClickToAct
+        href: reference/setClickToAct.md
+      - name: getClickToAct
+        href: reference/getClickToAct.md
+      - name: searchAndOpenRecords
+        href: reference/searchAndOpenRecords.md
+      - name: getEnvironment
+        href: reference/getEnvironment.md
+      - name: openForm
+        href:  reference/openForm.md
+    - name: Microsoft.CIFramework
+      href: microsoft-ciframework.md
+    - items:
+      - name: createRecord
+        href: reference/createRecord.md
+      - name: retrieveRecord
+        href: reference/retrieveRecord.md
+      - name: updateRecord
+        href: reference/updateRecord.md
+      - name: deleteRecord
+        href: reference/deleteRecord.md     
