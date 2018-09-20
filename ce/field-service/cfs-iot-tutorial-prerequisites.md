@@ -23,7 +23,7 @@ search.app:
 
 ## What you need to get started
 
-Here are the 4 things you need to connect IoT Central to Connected Field Service (CFS) using Microsoft Flow:
+Here are the 4 things you need to connect Azure IoT Central to Connected Field Service (CFS) using Microsoft Flow:
 
 - **Dynamics 365 for Field Service tenant with system administrator credentials** 
 
@@ -42,12 +42,16 @@ Here are the 4 things you need to connect IoT Central to Connected Field Service
     
     Ready to download and install Connected Field Service sample data? [Go to the Download center to get the package and installation instructions](https://www.microsoft.com/en-US/download).
    
-
 - **Azure IoT Central solution provisioned using the Sample Contoso template**
 
-[Go to Azure IoT Central](https://azure.microsoft.com/services/iot-central/). Click **Get started**. Click **New Application**. For the payment plan, select **Paid** (you don't need a credit card to get started). For the application template, select **Sample Contoso**. Then, click **Create**.
+ [Go to Azure IoT Central](https://azure.microsoft.com/services/iot-central/). Click **Get started**, and then click **New Application**. 
+ 1. For the payment plan, select **Paid** (you don't need a credit card to get started). 
+ 2. For the application template, select **Sample Contoso**. 
+ 3. Click **Create**.
 
 ![Azure IoT Central with payment plan and template selected](media/Azure-IoT-Central-create-app-dialog.PNG "Azure IoT Central with payment plan and template selected")  
 
+After a few seconds, you'll see the Contoso home page. You're ready to start the tutorial!
 
+![Contoso home page for Azure IoT Central](media/Azure-IoT-Central-Contoso-home-dialog.PNG "Contoso home page for Azure IoT Central")
 
