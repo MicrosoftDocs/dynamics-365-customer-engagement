@@ -45,7 +45,6 @@ Service scheduling, now built atop Universal Resource Scheduling (URS), provides
 
 To learn more about the new service scheduling, see [Service scheduling overview](basics-service-service-scheduling.md).
 
-To understand how to migrate from the web client version of service scheduling, see [Migrate to the new service scheduling based on Universal Resource Scheduling (URS)](migrate-urs-service-scheduling.md).
 
 ### Relevance search enabled for knowledge management 
 
