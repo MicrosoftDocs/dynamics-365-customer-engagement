@@ -1,7 +1,7 @@
 ---
 title: New and upcoming features in Field Service | Dynamics 365
 description: New and planned features for Field Service
-author: krbjoran
+author: FieldServiceDave
 manager: ShellyHa
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -20,7 +20,7 @@ search.app:
   - D365CE
   - D365PS
 ---
-# What's new in Field Service
+# New and upcoming features in Field Service
 
 The team is excited to announce our newest updates! Ranging from the Unified Interface framework, data compliance, all the way to more powerful search queries for resource scheduling, and more. You asked, we listened.
 
