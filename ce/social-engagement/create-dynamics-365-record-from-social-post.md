@@ -2,7 +2,7 @@
 title: "Create a record from a post in Social Engagement | Microsoft Docs"
 description: "Learn how to send posts found in Social Engagement to Dynamics 365 to create new lead or case records."
 keywords: "Link to Dynamics 365, Link to CRM, link post, record details, social activity, entity, entities"
-ms.date: 02/20/2018
+ms.date: 09/19/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,7 +10,7 @@ applies_to:
 ms.assetid: fb55dd2f-e81e-4163-9cfd-7e812ebcbe25
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 topic-status: Drafting
 ms.custom: 
   - dyn365-socialengagement
@@ -68,7 +68,7 @@ Define the fields of a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md
 2. Go to the post you want to convert to a social activity record in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], and then click **Link to Dynamics 365** ![Link to Dynamics 365 button in Social Engagement](media/link-to-record-icon.png "Link to Dynamics 365 button in Social Engagement").  
 
 > [!NOTE]
-> The **Link to Dynamics 365** feature doesn't support [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] (on-premises) in combination with Internet Explorer or Edge browser.
+> The **Link to Dynamics 365** feature doesn't support [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] (on-premises) in combination with the [!include[](../includes/pn-internet-explorer.md)] or [!include[](../includes/pn-microsoft-edge.md)] browsers.
 
 
    ![Link to Dynamics 365 button in Social Engagement](media/link-post-to-dynamics-365.png "Link to Dynamics 365 button in Social Engagement")  

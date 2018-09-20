@@ -2,7 +2,7 @@
 title: "Connect Social Engagement to Dynamics 365 | Microsoft Docs"
 description: "Learn how to set up the connection between Social Engagement and Dynamics 365."
 keywords: "connect, connection, integration, dynamice 365"
-ms.date: 01/30/2018
+ms.date: 09/19/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,7 +10,7 @@ applies_to:
 ms.assetid: f8acc707-064a-47e3-9392-85396b9dda2c
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 topic-status: Drafting
 ms.custom: 
   - dyn365-socialengagement
@@ -60,8 +60,8 @@ The following prerequisites apply to both [!INCLUDE[pn_dynamics_crm_online](../i
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Walkthrough: Register a CRM app with Active Directory](http://go.microsoft.com/fwlink/p/?LinkId=723356)  
 
-> [!WARNING]
-> The **Link to Dynamics 365** feature doesn't support [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] (on-premises) in combination with Internet Explorer or Edge browser.
+> [!NOTE]
+> The **Link to Dynamics 365** feature doesn't support [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] (on-premises) in combination with the [!include[](../includes/pn-internet-explorer.md)] or [!include[](../includes/pn-microsoft-edge.md)] browsers.
   
 ## Establish a connection between [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and Dynamics 365
 
