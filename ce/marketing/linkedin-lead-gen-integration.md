@@ -84,8 +84,10 @@ To see all form submissions in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamic
 
 ## See the sync status for [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data 
 
-When you go to **Marketing** > **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** > **Sync Status**, you'll find an aggregated overview about the data that was pulled from all [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user profiles to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. At a glance, you can see when the most recent synchronization took place and find out how many leads were created or updated. 
+When you go to **Marketing** > **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** > **Sync Status**, you'll find an aggregated overview about the data that was pulled from all [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user profiles to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. At a glance, you can see when the most recent synchronization took place and find out how many leads were created or updated.
 
 ### See also
-[Configure LinkedIn Lead Gen](linkedin-configuration.md)    
-[Manage customer information](manage-customer-information.md)
+[Working with segments](segmentation-lists-subscriptions.md)  
+[Configure LinkedIn Lead Gen](linkedin-configuration.md)  
+[Manage customer information](manage-customer-information.md)  
+[Market to Dynamics 365 segments on LinkedIn ](linkedin-matched-audience.md)

@@ -89,6 +89,7 @@
 #### [Design interaction-based dynamic segments](segments-interaction.md)
 #### [Define a static segment](segments-static.md)
 #### [Combine segments into a compound segment](segments-compound.md)
+#### [Market to Dynamics 365 segments on LinkedIn ](linkedin-matched-audience.md)
 
 ### Work with customer journeys
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)

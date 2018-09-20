@@ -42,8 +42,6 @@ When you have completed the exercises here, you'll be able to:
 
 - Track website visits, social media clicks, and banner clicks so you can use them to score leads and evaluate the effectiveness of your website and other marketing channels.
 
-- Create an inbound customer journey, to attract previously unknown contacts and&mdash;perhaps&mdash;persuade them to register with your organization.
-
 - Set up a subscription center with custom subscription lists, and include it in your emails and customer journeys.
 
 The exercises in this chapter assume you are already familiar with the functionality described in the [Core scenarios](basic-tutorials.md) chapter, but they don't build on each other, so you can pick and choose the exercises that interest you most.
