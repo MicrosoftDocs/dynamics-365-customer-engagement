@@ -8,7 +8,7 @@ ms.service:
 ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"
-ms.topic: article
+ms.topic: reference
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
