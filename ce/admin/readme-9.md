@@ -583,7 +583,7 @@ If you want to continue to use versions of Unified Service Desk older than 3.1, 
     -  Stack notification in Unified Service Desk
     -  Effective session switch management
 
-To learn more about the features, see [Unified Service Desk Guide](../unified-service-desk/unified-service-desk.md)
+    To learn more about the features, see [Unified Service Desk Guide](../unified-service-desk/unified-service-desk.md)
 
 -   **Interactive Service Hub**: With the Dynamics 365 (online), version 9.0 release, Interactive Service Hub has been rebuilt as a Unified Interface app and is called Customer Service Hub. This implies that [support](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/interactive-service-hub-page-hosted-control) for the Interactive Service Hub in Unified Service Desk is available only if you are running Dynamics 365, version 8.2 or an earlier supported version of Microsoft Dynamics CRM. You can integrate with Customer Service Hub in Unified Service Desk in the same way as any other Unified Interface app. <br>More information: [Support for Unified Interface Apps in Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/support-unified-interfaces-apps-usd)
 
