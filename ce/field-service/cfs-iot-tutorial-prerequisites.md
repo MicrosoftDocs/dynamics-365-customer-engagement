@@ -31,7 +31,7 @@ Before you take the tutorial, you need to complete 4 tasks:
 - Install the Dynamics 365 Connected Field Service add-on
 - Install Connected Field Service sample data
 
-This topic shows provides you with links to everything you need, and walks you through the steps to complete the prerequisites.
+This topic provides you with links to everything you need, and walks you through the steps to complete the required tasks.
 
 ## Provision the Azure IoT Central solution using the Sample Contoso template
 
