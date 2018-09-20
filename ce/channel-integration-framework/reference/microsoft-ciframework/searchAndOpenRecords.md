@@ -17,3 +17,19 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 ---
+
+# searchAndOpenRecords (JavaScript API Reference)
+
+[!INCLUDE[searchAndOpenRecords](includes/searchAndOpenRecords-description.md)]
+
+## Syntax
+
+`Microsoft.CIFramework.searchAndOpenRecords(entityName, queryParameters, searchOnly).then(successCallback, errorCallback);`
+
+## Parameters
+
+| Name | Type | Required | Description |
+|------|------|----------|-------------|
+|  |  |  |  |
+
+## Return value

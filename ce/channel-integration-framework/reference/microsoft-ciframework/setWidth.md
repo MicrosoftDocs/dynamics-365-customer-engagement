@@ -17,3 +17,20 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 ---
+
+# setWidth (JavaScript API Reference)
+
+[!INCLUDE[setWidth](includes/setWidth-description.md)]
+
+## Syntax
+
+`Microsoft.CIFramework.setWidth(value).then(successCallback, errorCallback);`
+
+## Parameters
+
+| Name | Type | Required | Description |
+|------|------|----------|-------------|
+|  |  |  |  |
+
+## Return value
+

@@ -18,3 +18,19 @@ ms.author: kabala
 manager: shujoshi
 ---
 
+# getMode (JavaScript API Reference)
+
+[!INCLUDE[getMode](includes/getMode-description.md)]
+
+## Syntax
+
+`Microsoft.CIFramework.getMode(value).then(successCallback, errorCallback);`
+
+## Parameters
+
+| Name | Type | Required | Description |
+|------|------|----------|-------------|
+|  |  |  |  |
+
+## Return value
+

@@ -17,3 +17,19 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 ---
+
+# getEnvironment (JavaScript API Reference)
+
+[!INCLUDE[getEnvironment](includes/getEnvironment-description.md)]
+
+## Syntax
+
+`Microsoft.CIFramework.getEnvironment().then(successCallback, errorCallback);`
+
+## Parameters
+
+| Name | Type | Required | Description |
+|------|------|----------|-------------|
+|  |  |  |  |
+
+## Return value

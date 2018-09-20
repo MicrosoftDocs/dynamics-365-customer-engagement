@@ -17,3 +17,19 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 ---
+
+# openForm (JavaScript API Reference)
+
+[!INCLUDE[openForm](includes/openForm-description.md)]
+
+## Syntax
+
+`Microsoft.CIFramework.openForm(entityFormOptions,formParameters).then(successCallback,errorCallback);`
+
+## Parameters
+
+| Name | Type | Required | Description |
+|------|------|----------|-------------|
+|  |  |  |  |
+
+## Return value

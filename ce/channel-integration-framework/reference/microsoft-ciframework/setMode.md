@@ -18,3 +18,18 @@ ms.author: kabala
 manager: shujoshi
 ---
 
+# setMode (JavaScript API Reference)
+
+[!INCLUDE[setMode](includes/setMode-description.md)]
+
+## Syntax
+
+`Microsoft.CIFramework.setMode(value).then(successCallback, errorCallback);`
+
+## Parameters
+
+| Name | Type | Required | Description |
+|------|------|----------|-------------|
+|  |  |  |  |
+
+## Return value

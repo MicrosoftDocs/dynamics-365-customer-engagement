@@ -17,3 +17,19 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 ---
+
+# getWidth (JavaScript API Reference)
+
+[!INCLUDE[getWidth](includes/getWidth-description.md)]
+
+## Syntax
+
+`Microsoft.CIFramework.getWidth(value).then(successCallback, errorCallback);`
+
+## Parameters
+
+| Name | Type | Required | Description |
+|------|------|----------|-------------|
+|  |  |  |  |
+
+## Return value

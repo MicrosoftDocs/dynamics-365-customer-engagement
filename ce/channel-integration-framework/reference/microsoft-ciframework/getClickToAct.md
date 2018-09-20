@@ -17,3 +17,19 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 ---
+
+# getClickToAct (JavaScript API Reference)
+
+[!INCLUDE[getClickToAct](includes/getClickToAct-description.md)]
+
+## Syntax
+
+`Microsoft.CIFramework.getClickToAct(value).then(successCallback, errorCallback);`
+
+## Parameters
+
+| Name | Type | Required | Description |
+|------|------|----------|-------------|
+|  |  |  |  |
+
+## Return value
