@@ -28,10 +28,12 @@ manager: shujoshi
 
 ## Parameters
 
-| Name            | Type     | Required | Description                                                        |
-|-----------------|----------|----------|--------------------------------------------------------------------|
-| value           | Number   | Yes      | Width of the panel in pixel                                        |
-| successCallback | Function | No       | A function to call when the panel width is set successfully        |
+| Name   | Type   | Required | Description |
+|--------|--------|----------|-------------|
+| value           | Number   | Yes      | Width of the panel in pixel |
+| successCallback | Function | No       | A function to call when the panel width is set successfully |
 | errorCallback   | Function | No       | A function to call when the panel width is setting operation fails |
 
 ## Return value
+
+Returns a promise object with a value.
