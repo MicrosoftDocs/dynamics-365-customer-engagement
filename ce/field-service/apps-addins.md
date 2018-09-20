@@ -25,5 +25,5 @@ search.app:
   - D365FS
 ---
 
-# Appsource for Field Service
-To better accommodate industry requirements and augment core Field Service functions, many developers, consultants, and business analysts inside and outside of Microsoft have published Dynamics 365 apps specially designed for Field Service. From internet of things scenarios and serialized inventory, to intelligent service and enhanced maps, find dozens of add-ins on the [Field Service Appsource page.](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-for-field-services)
+# AppSource for Field Service
+To better accommodate industry requirements and augment core Field Service functions, many developers, consultants, and business analysts have published Dynamics 365 apps specially designed for Field Service. From Internet of Things (IoT) scenarios and serialized inventory, to intelligent service and enhanced maps, find dozens of add-ins on the [Field Service AppSource page](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-for-field-services).
