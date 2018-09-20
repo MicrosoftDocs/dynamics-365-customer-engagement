@@ -572,18 +572,18 @@ mobile offline capabilities for existing and new customers.
 
 Unified Service Desk
 --------------------
-- The next version of Dynamics 365 for Customer Engagement on-premise release will support Unified Service Desk 4.0 and higher versions.
+- The next version of Dynamics 365 for Customer Engagement on-premise release will support only Unified Service Desk 4.0 and higher versions. If you are using Unified Service Desk 3.3, then the next version of Dynamics 365 for Customer Engagement on-premise release will not be supported.
 
 -   Download and update your Unified Service Desk to the [latest version](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/download-unified-service-desk).
 If you want to continue to use versions of Unified Service Desk older than 3.1, you will need to update the client desktop’s registry entries. Read the [blog](https://blogs.msdn.microsoft.com/usd/2017/10/20/unified-service-desk-and-tls-1-2-mandate-for-dynamics-365-online/) about Unified Service Desk and TLS 1.2 mandate to update these registry entries.
 
--   **Preview feature - Unified Service Desk Administrator app**: The Unified Service Desk Administrator app is built on the Unified Interface framework, which has a new user experience—Unified Interface—that uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. The Unified Service Desk Administrator app brings rich experience to administer and manage your Unified Service Desk client application. <br>More information: [Preview Feature: Unified Service Desk Administrator app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/unified-service-desk-administrator-app)
+-   The following features are in preview:
+    -  Unified Service Desk Administrator app
+    -  Unified Interface Settings
+    -  Stack notification in Unified Service Desk
+    -  Effective session switch management
 
--   **Preview feature - Unified Interface Settings**: Unified Interface Settings is a new configuration element introduced in the Unified Service Desk Administrator app. This configuration element lets you configure a default Unified Interface for your agents so that when they sign in to Unified Service Desk, they go directly to the Unified Interface app. This configuration saves time and enhances the agents' sign-in experience to Unified Service Desk. <br>More information: [Preview feature - Set default Unified Interface App using Unified Interface Settings](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/unified-interface-settings)
-
--   **Preview feature - Stack notification in Unified Service Desk**: You can configure stack notifications in Unified Service Desk to display pop-up notification messages to your customer service agents that contain general information or customer- or process-related information that the agents can act on. This facilitates simultaneous toast notifications in a multi-session environment. <br>More information: [Stack notifications](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/configure-notifications-unified-service-desk#stack-notifications) and [Popup Notification (Hosted Control)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/popup-notification-hosted-control)
-
--   **Preview feature - Effective session switch management**: When you are working on a case (local session) and want to review your Dashboard (global session) or another case (local session), you can easily switch from the case to Dashboard or another case, without affecting your session timer. That is, when you switch from local session, your session timer will not be counted until you switch back to the session. This helps to efficiently measure the agents' productivity. <br>More information: [SwitchSession](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/session-tabs-hosted-control#switchsession)
+To learn more about the features, see [Unified Service Desk Guide](../unified-service-desk/unified-service-desk.md)
 
 -   **Interactive Service Hub**: With the Dynamics 365 (online), version 9.0 release, Interactive Service Hub has been rebuilt as a Unified Interface app and is called Customer Service Hub. This implies that [support](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/interactive-service-hub-page-hosted-control) for the Interactive Service Hub in Unified Service Desk is available only if you are running Dynamics 365, version 8.2 or an earlier supported version of Microsoft Dynamics CRM. You can integrate with Customer Service Hub in Unified Service Desk in the same way as any other Unified Interface app. <br>More information: [Support for Unified Interface Apps in Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/support-unified-interfaces-apps-usd)
 
