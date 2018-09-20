@@ -3,15 +3,15 @@
 # [New and upcoming features](new-upcoming.md)
 
 # Installation
-## [Field service installation (online)](install-field-service.md)
+## [Field Service installation (online)](install-field-service.md)
 ## [Mobile solution installation](install-the-mobile-app.md)
 ## [Sample data installation](use-demo-data.md)
-## [Activate field service mobile licenses](activate-fs-mobile-app-license.md)
+## [Activate Field Service mobile licenses](activate-fs-mobile-app-license.md)
 ## [User security roles and accounts](view-user-accounts-security-roles.md)
 ## [Org-wide default settings](configure-default-settings.md)
-## [Appsource for Fieldservice](apps-addins.md)
+## [Appsource for Field Service](apps-addins.md)
 
-# Work Orders
+# Work orders
 ## [Create a new work order](create-work-order.md)
 ## [Work order types](create-work-order-types.md)
 ## [Create a product or service](create-product-or-service.md)
@@ -38,7 +38,7 @@
 ## [Time groups](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
 
-# Mobility
+# Mobile app for field technicians
 ## [Mobile field service](field-service-mobile-app-user-guide.md)
 ## [Field Resource Hub](field-resource-hub-users-guide.md)
 
