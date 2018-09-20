@@ -27,13 +27,9 @@ Provides methods to use Web API to create and manage records and execute Web API
 |                              Method                              |                                                            Description                                                             |
 |------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 |            [createRecord](xrm-webapi/createRecord.md)            |            [!INCLUDE[xrm-webapi/includes/createRecord-description.md](xrm-webapi/includes/createRecord-description.md)]            |
-|            [deleteRecord](xrm-webapi/deleteRecord.md)            |            [!INCLUDE[xrm-webapi/includes/deleteRecord-description.md](xrm-webapi/includes/deleteRecord-description.md)]            |
 |          [retrieveRecord](xrm-webapi/retrieveRecord.md)          |          [!INCLUDE[xrm-webapi/includes/retrieveRecord-description.md](xrm-webapi/includes/retrieveRecord-description.md)]          |
-| [retrieveMultipleRecords](xrm-webapi/retrieveMultipleRecords.md) | [!INCLUDE[xrm-webapi/includes/retrieveMultipleRecords-description.md](xrm-webapi/includes/retrieveMultipleRecords-description.md)] |
 |            [updateRecord](xrm-webapi/updateRecord.md)            |            [!INCLUDE[xrm-webapi/includes/updateRecord-description.md](xrm-webapi/includes/updateRecord-description.md)]            |
-|      [isAvailableOffline](xrm-webapi/isAvailableOffline.md)      |      [!INCLUDE[xrm-webapi/includes/isAvailableOffline-description.md](xrm-webapi/includes/isAvailableOffline-description.md)]      |
-|                 [execute](xrm-webapi/online/execute.md)                 |                 [!INCLUDE[xrm-webapi/includes/execute-description.md](xrm-webapi/includes/execute-description.md)] Supported only for the online mode ([Xrm.WebApi.online](xrm-webapi/online.md)).                |
-|         [executeMultiple](xrm-webapi/online/executeMultiple.md)         |         [!INCLUDE[xrm-webapi/includes/executeMultiple-description.md](xrm-webapi/includes/executeMultiple-description.md)] Supported only for the online mode ([Xrm.WebApi.online](xrm-webapi/online.md)).        |
+|            [deleteRecord](xrm-webapi/deleteRecord.md)            |            [!INCLUDE[xrm-webapi/includes/deleteRecord-description.md](xrm-webapi/includes/deleteRecord-description.md)]            |
 
 ### Related topics
 
