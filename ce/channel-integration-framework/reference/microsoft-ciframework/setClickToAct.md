@@ -28,8 +28,14 @@ manager: shujoshi
 
 ## Parameters
 
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-|  |  |  |  |
+| Name            | Type     | Required | Description                                       |
+|-----------------|----------|----------|---------------------------------------------------|
+| Value           | Boolean  | Yes      | Sets the value to enable or disable ClickToAct.   |
+| successCallback | Function | No       | A function to call when the request is successful |
+| errorCallback   | Function | No       | A function to call when the request fails         |
 
 ## Return value
+
+**Type:** Boolean
+
+**Description:** Returns Promise object with the value. True to enable **ClickToAct** is enabled and false to disable.

@@ -30,6 +30,15 @@ manager: shujoshi
 
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
-|  |  |  |  |
+| entityName | String | Yes | Name of the entity to search and open. |
+| queryParmeters | String | Yes | OData system query options, **$select** and **$expand**, to retrieve your data.<br><br> - Use the **$select** system query option to limit the properties returned by including a comma-separated list of property names. This is an important performance best practice. If properties aren’t specified using **$select**, all properties will be returned.<br><br> -  	Use the **$expand** system query option to control what data from related entities is returned. If you just include the name of the navigation property, you’ll receive all the properties for related records. You can limit the properties returned for related records using the **$select** system query option in parentheses after the navigation property name. Use this for both single-valued and collection-valued navigation properties.<br><br> You specify the query options starting with `?`. You can also specify multiple query options by using `&` to separate the query options.<br> For example: `?$select=name&$expand=primarycontactid($select=contactid,fullname) `|
+| searchOnly | Boolean | Yes | Set false to open the record in the Unified Interface page if the search record is a single record. <br><br>Set true only to display the search and not open the record.|
+| successCallback	| Function	| No	| A function to call when the request is successful. |
+| errorCallback |	Function	| No	| A function to call when the request fails. |
+
 
 ## Return value
+
+**Type:** String
+
+**Description:** Returns Promise object with the value. On success, returns the search results as per the search query.

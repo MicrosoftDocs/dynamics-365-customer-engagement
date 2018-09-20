@@ -28,8 +28,12 @@ manager: shujoshi
 
 ## Parameters
 
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-|  |  |  |  |
+| Name            | Type     | Required | Description |
+|-----------------|----------|----------|-------------|
+| value           | Number   | Yes      | Value to set the mode of the panel. Provide 0 to minimize the panel. Provide 1 to dock the panel. |
+| successCallback | Function | No       | A function to call when the request for setting the panel state is successful                     |
+| errorCallback   | Function | No       | A function to call when the request for setting the panel state fails                             |
 
 ## Return value
+
+Returns a promise object with a value.
