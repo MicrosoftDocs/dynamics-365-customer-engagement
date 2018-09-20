@@ -31,9 +31,6 @@ You need 5 things to connect IoT Central to Connected Field Service (CFS) using 
 
 ![Azure IoT Central with payment plan and template selected](media/azure-iot-central-create-app-dialog.png "Azure IoT Central with payment plan and template selected")  
 
-![Unified Interface dashboard](media/uci-interactive-dashboard.png "Unified Interface dashboard")
-
-
 - **Dynamics 365 for Field Service with system administrator credentials** 
 
      You'll need a Dynamics 365 for Field Service tenant. 
