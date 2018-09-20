@@ -62,7 +62,6 @@ The following prerequisites apply to both [!INCLUDE[pn_dynamics_crm_online](../i
 
 > [!NOTE]
 > The **Link to Dynamics 365** feature doesn't support [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] (on-premises) in combination with the [!include[](../includes/pn-internet-explorer.md)] or [!include[](../includes/pn-microsoft-edge.md)] browsers.
-<!--note from editor: I think this should be a Note, not a Warning. I tried to find the MSWG topic about it, but it's gone now. So I will say at least it used to be that the MS guideline was that warnings were used for severe issues like data loss or bodily harm to the user. So, using that for a support restriction seems too harsh to me. I changed it to Note since this same alert uses Note in the other topic you are having me edit. -->
   
 ## Establish a connection between [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and Dynamics 365
 
