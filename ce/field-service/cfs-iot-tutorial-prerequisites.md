@@ -53,7 +53,7 @@ The free Connected Field Service add-on automatically provisions a number of Azu
 Wondering where to get the add-on? [Go to AppSource to install the Connected Field Service add-on](https://appsource.microsoft.com/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0?tab=Overview).
     
 ## Install Connected Field Service sample data    
- Download and install the Connected Field Service sample data package, which is designed for use with the Contoso template in Azure IoT Central. The sample data also includes an **IoT Sample - Process alert** workflow that showcases automated alert triaging.
+Next, you'll need to download and install the Connected Field Service sample data package, which is designed for use with the Contoso template in Azure IoT Central. The sample data also includes an **IoT Sample - Process alert** workflow that showcases automated alert triaging.
 
 Follow these steps to install the Connected Field Service sample data:
 
@@ -64,7 +64,7 @@ Follow these steps to install the Connected Field Service sample data:
 ![PackageDeployer properties dialog with Unblock selected](media/Azure-IoT-Central-create-app-dialog.PNG "PackageDeployer properties dialog with Unblock selected")
 5. Right-click the zip file, select **Extract All**, and then select **Extract**.
 6. Double-click **packagedeployer.exe** to run it and install the sample data. 
-7. When prompted, enter your system administrator credentials to sign in to Dynamics 365. Follow the on-screen instructions to complete the sample data installation.
+7. When prompted, enter your system administrator credentials to sign in to your Dynamics 365 tenant. When you see the Azure IoT Central and Connected Field Service sample data deployment page, follow the on-screen instructions to complete the installation.
 
 
    
