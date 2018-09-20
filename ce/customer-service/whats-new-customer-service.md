@@ -49,7 +49,7 @@ To understand how to migrate from the web client version of service scheduling, 
 
 ### Relevance search enabled for knowledge management 
 
-Knowledge base search control in Customer Service is now powered by relevance search to deliver results with improved performance and accuracy. With this feature, agents can search and choose the most relevant articles quickly with the help of highlighted search term matches in the results list. 
+Knowledge base search control in Customer Service is now powered by Relevance search to deliver results with improved performance and accuracy. With this feature, agents can search and choose the most relevant articles quickly with the help of highlighted search term matches in the results list. 
 
 To learn more about how knowledge base search control works with Relevance search, see [Search for knowledge articles](customer-service-hub-user-guide-case-sla.md#search-for-knowledge-articles).
 

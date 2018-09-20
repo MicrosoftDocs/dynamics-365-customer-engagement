@@ -78,11 +78,11 @@ You can search the knowledge base from the following areas in the Customer Servi
 
 With each of the previous search areas, the search results might vary based on the underlying search mechanism used:
 
-|Version  | App |Search areas| Search mechanism  |
+|Version  |  |Search areas| Search mechanism  |
 |---------|---------|---------|---------|
-| December 2016 Update for Dynamics 365 (online) </br> & </br> December 2016 Service Pack for Dynamics 365 (on-premises)  |   Any app (based on any client)    |     - KB search control <br>  - Quick find in Grids   |   Full-text search    |
+| December 2016 Update for Dynamics 365 (online) </br> & </br> December 2016 Service Pack for Dynamics 365 (on-premises)  |      |     - KB search control <br>  - Quick find in Grids   |   Full-text search    |
 |   |     |      - Global search  |   Categorized search     |
-|Dynamics 365 (online), version 9.0   |  Customer Service Hub (based on Unified Interface) and Customer Service app (or any web app)     |  - KB search control      |   Relevance search/ Full-text search (based on what you configure)     |
+|Dynamics 365 (online), version 9.0   |     |  - KB search control      |   Relevance search/ Full-text search (based on what you configure)     |
 |  |      |   - Quick find in Grids     |   Full-text search |
 |  |      |   - Global search     |   Relevance search or Categorized search     |
 
