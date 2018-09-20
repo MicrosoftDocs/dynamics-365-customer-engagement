@@ -33,12 +33,12 @@ On the **Create Application** dialog:
  1. For the payment plan, select **Paid** (you won't be asked for a credit card). 
  2. For the application template, select **Sample Contoso**. 
  3. Click **Create**.
-
-![Azure IoT Central with payment plan and template selected](media/Azure-IoT-Central-create-app-dialog.PNG "Azure IoT Central with payment plan and template selected")  
+>[!div class="mx-imgBorder"]
+>![Azure IoT Central with payment plan and template selected](media/Azure-IoT-Central-create-app-dialog.PNG "Azure IoT Central with payment plan and template selected")  
 
 After a few seconds, you'll see the Contoso home page. 
-
-![Contoso home page for Azure IoT Central](media/Azure-IoT-Central-Contoso-home-dialog.PNG "Contoso home page for Azure IoT Central")
+>[!div class="mx-imgBorder"]
+>![Contoso home page for Azure IoT Central](media/Azure-IoT-Central-Contoso-home-dialog.PNG "Contoso home page for Azure IoT Central")
 
 ## Get a Dynamics 365 for Field Service tenant and system administrator credentials 
 
@@ -61,8 +61,8 @@ Follow these steps to install the Connected Field Service sample data:
 2. In Windows File Manager, go to the folder where you downloaded the zip file. 
 3. Right-click the zip file, and then select **Properties**. 
 4. On the Properties dialog, select **Unblock**. Click **OK**.
- > [!div class="mx-imgBorder"]
- > ![PackageDeployer properties dialog with Unblock selected](media/cfs-iot-package-deployer.png "PackageDeployer properties dialog with Unblock selected")
+>[!div class="mx-imgBorder"]
+>![PackageDeployer properties dialog with Unblock selected](media/cfs-iot-package-deployer.png "PackageDeployer properties dialog with Unblock selected")
 5. Right-click the zip file, select **Extract All**, and then select **Extract**.
 6. Double-click **packagedeployer.exe** to run it and install the sample data. 
 7. When prompted, enter your system administrator credentials to sign in to your Dynamics 365 tenant. When you see the Azure IoT Central and Connected Field Service sample data deployment page, follow the on-screen instructions to complete the installation.
