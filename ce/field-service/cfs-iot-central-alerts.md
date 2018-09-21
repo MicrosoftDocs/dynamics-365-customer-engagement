@@ -71,6 +71,9 @@ Connect IoT Central to Connected Field Service by configuring the "Create CFS al
 
 7. You'll be prompted now to sign in to both IoT Central and Dynamics accounts. Select your accounts from each and then **Continue** to progress.
 
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-alerts-8.png)
+
 8. Now you'll see the actual Flow. Since this is a template, the only actions you must take are:
 
     a. Select your IoT Central application name
@@ -87,6 +90,12 @@ Connect IoT Central to Connected Field Service by configuring the "Create CFS al
 
     g. Save the Flow
 
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-alerts-9.png)
+
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-alerts-10.png)
+
 From here, the workflow will trigger based on the alert type. While you may have more options shown, the demo data package we recommend using for this tutorial includes the following workflows, based on alert types:
 
 - If alert type is set to PC CPU usage high or PC memory usage high, the workflow will send a restart command to the device
@@ -97,9 +106,14 @@ From here, the workflow will trigger based on the alert type. While you may have
 
 ### See the results
 
-Once you've saved your Flow, log in to Dynamics 365 for Field Service, and choose Connected Field Service.
+Once you've saved your Flow, log in to Dynamics 365 for Field Service, and choose Connected Field Service. You may see a window that offers a few links to learn more about Connected Field Service and Azure IoT offerings. You can choose to learn more, or just dismiss this window. 
 
-You should now see incoming alerts from IoT Central on the dashboard. You can select one of these alerts to see more details, including device information, threshold, and the violated rules. You can also select the IoT Central alert URL that will take you back to IoT Central.
+In Connected Field Service, you should now see incoming alerts from IoT Central on the dashboard. You can select one of these alerts to see more details, including device information, threshold, and the violated rules. You can also select the IoT Central alert URL that will take you back to IoT Central.
+
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-alerts-12.png)
+
+
 
 
 Next step: [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
