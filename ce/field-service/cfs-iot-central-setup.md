@@ -25,7 +25,7 @@ search.app:
   - D365FS
 --- 
 
-# 1: Prerequisites for Connected Field Service for IoT Central
+# Prerequisites for Connected Field Service for IoT Central
 
 [instructions will go here!]
 
