@@ -35,6 +35,6 @@ manager: shujoshi
 
 ## Return value
 
-**Type:** Map
+**Type:** JSON
 
-**Description:** Returns a Promise map with the available details of the current Unified Interface page. The details include: * 'appid', 'pagetype', 'record-id' (if available), 'clientUrl', 'appUrl' 'orgLcid', 'orgUniqueName', 'userId', 'userLcid', and 'username'.
+**Description:** Returns a JSON with the available details of the current Unified Interface page. The details include: * 'appid', 'pagetype', 'record-id' (if available), 'clientUrl', 'appUrl' 'orgLcid', 'orgUniqueName', 'userId', 'userLcid', and 'username'.
