@@ -69,22 +69,3 @@ manager: shujoshi
 ## Return Value
 
 On success, returns a promise object containing the attributes specified earlier in the description of the **successCallback** parameter.
-
-## Examples
-
-<!--These examples use some of the same request objects as demonstrated in [Update and delete entities using the Web API](../../../webapi/update-delete-entities-using-web-api.md) to define the data object for updating an entity record.-->
-
-Deletes an account with record ID = 5531d753-95af-e711-a94e-000d3a11e605.
-
-```JavaScript
-Xrm.WebApi.deleteRecord("account", "5531d753-95af-e711-a94e-000d3a11e605").then(
-    function success(result) {
-        console.log("Account deleted");
-        // perform operations on record deletion
-    },
-    function (error) {
-        console.log(error.message);
-        // handle error conditions
-    }
-);
-```
