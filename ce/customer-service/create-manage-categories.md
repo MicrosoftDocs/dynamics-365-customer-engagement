@@ -24,14 +24,14 @@ search.app:
 
 # Create and manage categories
 
-Using **Categories** entity, you can create hierarchical categorical data to help group records. Categorizing entity records in Dynamics 365 helps you tag the records so that you can easily search them. Use the entity to create and manage a logical structure of categories in Dynamics 365, and then associate entity records to one or more categories.
+Using the **Categories** entity, you can create hierarchical categorical data to help group records. Categorizing entity records in Dynamics 365 helps you tag the records so that you can easily search them. Use the entity to create and manage a logical structure of categories in Dynamics 365, and then associate entity records to one or more categories.
 
 Categories are useful for reporting, sorting, segmenting, and categorization of records. 
 
 > [!NOTE]
-> With the October'18 release, categories in service management is available in the Customer Service Hub based on Unified Interface experience. You are recommended to create and manage categories using the new experience.
+> With the October'18 release, categories in service management are available in the Customer Service Hub based on the Unified Interface experience. We recommend that you create and manage categories using the new experience.
 
-## Create categories
+## Create a category
 
 Follow the procedure given below to create a category:
 
@@ -45,6 +45,9 @@ Follow the procedure given below to create a category:
   
 2. In the Customer Service Hub sitemap, go to **Service Management** and select **Knowledge Base Management** > **Categories**.
 
+    > [!NOTE]
+    > In the Customer Service app, go to [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)] and select **Categories**.
+
 3. To create a new category, select **New**.  
   
     > [!NOTE]
@@ -57,9 +60,9 @@ Follow the procedure given below to create a category:
    In the **General** section, fill in the required details:
   
    - **Title**: Provide a title for the category
-   - **Description**: Give a detailed description for the category
+   - **Description**: Give a detailed description of the category
    - **Display Order**: Provide a position where the category can be displayed in the hierarchical order
-   - **Parent Category**: Select an existing category to become the parent category
+   - **Parent Category**: Select an existing category to become the parent category. You can create a new category by selecting **New**.
    - **Category Number**: The category number is displayed for category reference. To view this, first save the record by selecting **Save** on the command bar
 
    In the **Associated Categories** section:

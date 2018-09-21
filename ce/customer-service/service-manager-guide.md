@@ -74,9 +74,10 @@ In the Customer Service app, navigate to **Settings > Service Management**.
 
 [Holiday Schedule](set-up-holiday-schedule.md)
 
+[Customer Service Schedule](create-customer-service-schedule-define-work-hours.md)
+
 [Service Configuration Settings](../admin/system-settings-dialog-box-service-tab.md)
 
-[Customer Service Schedule](create-customer-service-schedule-define-work-hours.md)
 
 ## Knowledge base management 
 

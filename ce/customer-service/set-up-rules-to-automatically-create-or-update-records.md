@@ -135,7 +135,7 @@ If your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance mee
   
         > [!NOTE]
         >  You can associate only one rule per source type to a specific queue. For example: If you’re creating a rule to convert an email to a case, make sure you specify an email address for this queue. Otherwise, automatic record creation for email won’t work. 
-        [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](set-up-queues-manage-activities-cases.md#create-queues)
+        [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](set-up-queues-manage-activities-cases.md)
   
 6.  Click **Save**.  
 
@@ -345,4 +345,4 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 ### See also  
  [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   <br>
 
-[Create and manage queues](set-up-queues-manage-activities-cases.md)
+[Create or change a queue](set-up-queues-manage-activities-cases.md)
