@@ -30,14 +30,15 @@ Before you take this tutorial, you need to complete four tasks:
 
 This topic provides you with links to everything you need, and walks you through the steps to get started.
 
-## Provision the Azure IoT Central solution using the Sample Contoso template
+## Provision the Azure IoT Central solution using the sample Contoso template
+The sample Contoso template contains a **Refrigerated Vending Machine** device template, which you need to create your device type and generate a simulated device for testing purposes.
 
-First, [go to Azure IoT Central](https://azure.microsoft.com/services/iot-central/). Click **Get started**, and then click **New Application**. 
+First, [navigate to Azure IoT Central](https://azure.microsoft.com/services/iot-central/). Then choose **Get started**. To start creating your new Azure IoT Central application, choose **New Application**. 
  
 On the **Create Application** dialog: 
- 1. For the payment plan, select **Paid** (you won't be asked for a credit card). 
- 2. For the application template, select **Sample Contoso**. 
- 3. Click **Create**.
+ 1. Choose the **Paid** payment plan (you won't be asked for a credit card). 
+ 2. Choose the **Sample Contoso** template. 
+ 3. Then choose **Create**.
 > [!div class="mx-imgBorder"]
 > ![Azure IoT Central with payment plan and template selected](media/Azure-IoT-Central-create-app-dialog.PNG "Azure IoT Central with payment plan and template selected")  
 
