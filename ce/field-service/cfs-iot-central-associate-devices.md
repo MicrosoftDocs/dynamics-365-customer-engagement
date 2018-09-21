@@ -27,11 +27,35 @@ search.app:
 
 # 2 - Associate devices with customer accounts 
 
-[overview goes here]
+If an IoT device isn't associated with a customer account in Connected Field Service, the system will not be able to generate work orders or cases against incoming alerts. In this tutorial, you will learn how to associate a device with a customer account. While customer accounts are an optional association in IoT Central, they are required in Connected Field Service.
 
-[instructions go here]
+## Goals
 
-Associate a device to a customer account.  IoT alerts automatically generate actions work order, case or command, etc.  Once case or work order are resolved, an alert will be closed. 
-If users want to update property of a device from CFS to IoT Central,enable Flow template “[Sample Contoso] - Create or update a device in IoT Central when a device is created or updated in CFS”. After update the device property in CFS, see the update of property in IoT Central. 
+Associate a device in Connected Field Service with a customer account so that word orders or cases can be generated against incoming IoT alerts.
+
+## Steps
+
+1. In your Connected Field Service application, navigate to the device page you wish to associate with a customer account. You can find this under "Devices" in the left-side menu.
+
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-associate-devices-1.png)
+
+2. On the Active Device page, select the dropdown just to the right of "Active IoT Devices" and choose the view, "IoT devices without customer account." Select one of these devices.
+
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-associate-devices-2.png)
+
+3. On the device detail page, start typing the name of the customer account in the "Account" field.
+
+    a. For the purposes of this tutorial, you can choose "Active Transport Inc." 
+    
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-associate-devices-3.png)
+
+4. Save the changes you've made (the Save button is in the bottom corner of your window).
+
+## See the results
+
+This device will now be associated with a customer account, and can receive IoT alerts from IoT Central.
 
 Next step: [Send work order updates to IoT Central](cfs-iot-central-work-orders.md)
