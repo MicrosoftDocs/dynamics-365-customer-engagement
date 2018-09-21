@@ -48,3 +48,5 @@
         href: reference/microsoft-ciframework/updateRecord.md
       - name: "deleteRecord"
         href: reference/microsoft-ciframework/deleteRecord.md
+  - name: "FAQ"
+    href: faq-channel-integration-framework.md    
