@@ -20,7 +20,7 @@ manager: shujoshi
 
 # Microsoft.CIFramework methods
 
-Provides properties and methods to use JavaScript API to manage the channel (widget), records, and forms in the Dynamics 365.
+Provides methods to use JavaScript API to manage the channel (widget), records, and forms in the Dynamics 365.
 
 ## Methods
 

@@ -3,7 +3,7 @@
   items:
   - name: Overview
     items:
-    - name: "What is Channel Integaration Framework?"
+    - name: "What is Channel Integration Framework?"
       href: overview-channel-integration-framework.md
     - name: "Architecture overview of Channel Integration Framework (CIF)"
       href: architecture-overview-channel-integration-framework.md

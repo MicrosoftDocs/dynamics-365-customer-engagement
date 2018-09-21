@@ -19,3 +19,45 @@ manager: shujoshi
 ---
 
 # Channel Integration Framework Guide for Microsoft Dynamics 365
+
+<table>
+<tr>
+<td>
+
+<h2> Get started </h2>
+<li><a href="overview-channel-integration-framework.md" data-raw-source="[Channel Integration Framework overview](overview-channel-integration-framework.md)">Channel Integration Framework overview</a></li>
+<li><a href="architecture-overview-channel-integration-framework.md" data-raw-source="[Architecture overview of Channel Integration Framework (CIF)](architecture-overview-channel-integration-framework.md)">Architecture overview of Channel Integration Framework (CIF)</a></li>
+</td>
+<td>
+
+<h2> Download </h2>
+
+<li></li>
+</td>
+</tr>
+<tr>
+<td>
+
+<h2> How-to </h2>
+
+<li></li>
+<li></li>
+</td>
+<td>
+
+<h2> JavaScript reference </h2>
+
+<li></li>
+
+</td>
+</tr>
+<tr>
+<td>
+
+<h2> FAQ </h2>
+
+<li></li>
+
+</td>
+</tr>
+</table>
