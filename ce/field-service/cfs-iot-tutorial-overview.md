@@ -12,8 +12,6 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: "shellyhaverkamp"
-ms.assetid: 49207db9-d1f0-46e0-ae2c-f4acf4593da9
-caps.latest.revision: 24
 ms.author: "krbjoran"
 ms.manager: "shellyhaverkamp"
 search.audienceType: 
@@ -25,7 +23,12 @@ search.app:
   - D365FS
 --- 
 
-# Learn the basics of Connected Field Service for IoT Central in 5 steps
+# Learn the basics of Connected Field Service for Azure IoT Central in 4 steps
 
-[overview of what the tutorial aims to provide, and what users can expect]
+Connect Azure IoT Central to Connected Field Service using Microsoft Flow in just a matter of minutes with these tutorials. Be sure to check out [the prerequisites](cfs-iot-central-setup) before getting started. 
+
+1. [Receive IoT alerts from IoT Central](cfs-iot-central-alerts.md)
+2. [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
+3. [Send work order updates to IoT Central](cfs-iot-central-work-orders.md)
+4. [Send booking updates to IoT Central](cfs-iot-central-bookings.md)
 
