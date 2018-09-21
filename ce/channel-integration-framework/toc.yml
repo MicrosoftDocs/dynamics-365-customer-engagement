@@ -48,5 +48,9 @@
         href: reference/microsoft-ciframework/updateRecord.md
       - name: "deleteRecord"
         href: reference/microsoft-ciframework/deleteRecord.md
+      - name: "addHandler"
+        href: reference/microsoft-ciframework/addHandler.md
+      - name: "removeHandler"
+        href: reference/microsoft-ciframework/removeHandler.md
   - name: "FAQ"
     href: faq-channel-integration-framework.md    

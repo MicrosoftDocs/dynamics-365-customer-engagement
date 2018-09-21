@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# Microsoft.CIFramework properties and methods to use
+# Microsoft.CIFramework methods
 
 Provides properties and methods to use JavaScript API to manage the channel (widget), records, and forms in the Dynamics 365.
 
