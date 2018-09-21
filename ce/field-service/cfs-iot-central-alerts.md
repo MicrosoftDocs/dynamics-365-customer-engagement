@@ -60,8 +60,14 @@ Connect IoT Central to Connected Field Service by configuring the "Create CFS al
 5. Then, under **Actions,** choose **Microsoft Flow** from the Select Action options. This will take you to another working environment in the Microsoft Flow application. This is where you will set up your integrations.
 
     a. **Note for IoT Central trial users**: In order to use Microsoft Flow from IoT Central, you must be using the pay-as-you-go form of IoT Central. Trial users can work around this by heading directly to [Microsoft Flow](https://flow.microsoft.com/en-us/templates/) to configure steps 7 and 8.Then in IoT Central, the Flow will be all ready to go. 
+    
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-alerts-5.PNG)
 
-6. You'll see a list of templates for Connected Field Service -- choose the template "Create CFS alerts from IoT Central." (if you have trouble finding these templates, head to the [Microsoft  Flow Templates page](https://flow.microsoft.com/en-us/templates/) and search "CFS")
+6. You'll be taken to the Microsoft Flow template page for "Create CFS alerts from IoT Central." Select "Use this template." (if you have trouble finding these templates, head to the [Microsoft  Flow Templates page](https://flow.microsoft.com/en-us/templates/) and search "CFS")
+
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-alerts-6.PNG)
 
 7. You'll be prompted now to sign in to both IoT Central and Dynamics accounts. Select your accounts from each and then **Continue** to progress.
 
