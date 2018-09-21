@@ -63,6 +63,14 @@ When you first add an image element, an image placeholder appears at the locatio
 
 When you select an image element, you can use an inline toolbar to delete, clone, or move the element.
 
+### Video elements
+
+Video elements position videos from your video library in your design. Each video record in your library stores a name, video URL, embed code, and thumbnail URL. The library doesn't contain the videos themselves, just these references to them, so you must host your videos somewhere else, such as on one of the major video platforms like YouTube or Vimeo.
+
+When you first add a video element, an placeholder icon is shown at the location where you dropped it. To choose the video to show at that location, select the new video element, open the **Properties** panel, and use the **Source** lookup field to find and select the block that contains the content you want to include here. If you are creating an email, then the video element places a thumbnail image with a link to the video; if you are creating a marketing page, then it places an embed code instead.
+
+For more information about how to set up your video library and use videos in your content, see [Create a video library and add videos to your designs](video-content.md).
+
 ### Content-block elements
 
 Content blocks let you establish a block of common content that you can reuse in multiple emails, forms, and/or pages. Use them to establish common headers, footers and other blocks of content that you would like to standardize across your communications.
@@ -126,7 +134,7 @@ The designer provides many elements that are unique to marketing forms. They are
 
 ### Field elements
 
-Each field element creates a single form control (such as an input field, check box, or radio button set) that is mapped to the contact and/or lead entity in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. For each marketing-form field that you've set up, you'll find a unique component named after the field under the **Fields** heading of the designer's **Toolbox** tab. So, for example, if you've mapped the **First Name** field of the contact entity to a marketing-form field called "First Name", you'll also have field element called **First Name** under the **Fields** heading of the form designer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create, view, and manage marketing forms](marketing-forms.md)
+Each field element creates a single form control (such as an input field, check box, or radio button set) that is mapped to the contact and/or lead entity in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. For each marketing-form field that you've set up, you'll find a unique design element named after the field under the **Fields** heading of the designer's **Toolbox** tab. So, for example, if you've mapped the **First Name** field of the contact entity to a marketing-form field called "First Name", you'll also have field element called **First Name** under the **Fields** heading of the form designer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create, view, and manage marketing forms](marketing-forms.md)
 
 ![Field-element settings](media/field-block-details.png "Field-element settings")
 

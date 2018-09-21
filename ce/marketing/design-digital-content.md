@@ -100,7 +100,7 @@ If you prefer to work directly with HTML code, open the designer's **HTML** tab.
     - Set field values based on values passed in the calling URL
     - Set field values based on values passed in the calling URL.
 
-Be careful when working here, though, because the graphical editor expects specific types of markup to implement its drag-and-drop components. Without this markup, you won't be able to edit your design elements any more and might even break them.
+Be careful when working here, though, because the graphical editor expects specific types of markup to implement its drag-and-drop elements. Without this markup, you won't be able to edit your design elements any more and might even break them.
 
 The HTML editor provides a few handy code-editing features such as syntax coloring and line numbers.
 
