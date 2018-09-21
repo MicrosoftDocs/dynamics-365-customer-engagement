@@ -1,5 +1,4 @@
 # [Dynamics 365 for Customer Service](help-hub.md)
-## [What's new](whats-new-customer-service.md)
 ## [Overview](overview.md)
 ## User Guide
 ### [Customer Service Hub](user-guide-customer-service-hub.md)
@@ -18,7 +17,7 @@
 #### [Merge similar cases](user-guide-customer-service.md#merge-similar-cases)
 #### [Create and manage parent and child cases](user-guide-customer-service.md#create-and-manage-parent-and-child-cases)
 
-## [Service Manager Guide](service-manager-guide.md)
+## [Service Management Guide](service-manager-guide.md)
 ### [Queues](set-up-queues-manage-activities-cases.md)
 ### [Parent Child Case Settings](define-settings-parent-child-cases.md)
 ### [Routing Rule Sets](create-rules-automatically-route-cases.md)
@@ -35,14 +34,8 @@
 ### [Embedded Knowledge Search](set-up-knowledge-management-embedded-knowledge-search.md)
 ### [Categories](create-manage-categories.md)
 ### [Entitlement Templates](set-up-entitlements-templates.md)
-### [Email Templates](../admin/create-templates-email.md)
-### [Article Templates](../admin/create-templates-articles.md)
-### [Service scheduling overview](basics-service-service-scheduling.md)
-#### [Business closure](set-when-business-closed.md)
-#### [Services](create-edit-service.md)
-#### [Facilities/Equipment](add-facilities-equipment-service-scheduling.md)
-#### [Resource Groups](create-edit-resource-group.md)
-#### [Sites](use-sites-manage-service-locations.md)
+### [Email Templates (Customer Service app)](../admin/create-templates-email.md)
+### [Article Templates (Customer Service app)](../admin/create-templates-articles.md)
 
 
 ## Customize
