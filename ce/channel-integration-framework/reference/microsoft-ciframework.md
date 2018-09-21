@@ -26,12 +26,16 @@ Provides properties and methods to use JavaScript API to manage the channel (wid
 
 | Methods | Description |
 |---------|-------------|
-| [setWidth](microsoft-ciframework/setWidth.md) | [!INCLUDE[setWidth](microsoft-ciframework/includes/setWidth-description.md)] |
-| [getWidth](microsoft-ciframework/getWidth.md) | [!INCLUDE[setWidth](microsoft-ciframework/includes/getWidth-description.md)] |
-| [setMode](microsoft-ciframework/setMode.md) | [!INCLUDE[setWidth](microsoft-ciframework/includes/setMode-description.md)] |
-| [getMode](microsoft-ciframework/getMode.md) | [!INCLUDE[setWidth](microsoft-ciframework/includes/setMode-description.md)] |
-| [setClickToAct](microsoft-ciframework/setClickToAct.md) | [!INCLUDE[setWidth](microsoft-ciframework/includes/setClickToAct-description.md)] |
-| [getClickToAct](microsoft-ciframework/getClickToAct.md) | [!INCLUDE[setWidth](microsoft-ciframework/includes/getClickToAct-description.md)] |
-| [searchAndOpenRecords](microsoft-ciframework/searchAndOpenRecords.md) | [!INCLUDE[setWidth](microsoft-ciframework/includes/searchAndOpenRecords-description.md)] |
-| [getEnvironment](microsoft-ciframework/getEnvironment.md) | [!INCLUDE[setWidth](microsoft-ciframework/includes/getEnvironment-description.md)] |
-| [openForm](microsoft-ciframework/openForm.md) | [!INCLUDE[setWidth](microsoft-ciframework/includes/openForm-description.md)] |
+| [setWidth](microsoft-ciframework/setWidth.md) | [!INCLUDE[setWidth-description](microsoft-ciframework/includes/setWidth-description.md)] |
+| [getWidth](microsoft-ciframework/getWidth.md) | [!INCLUDE[getWidth-description](microsoft-ciframework/includes/getWidth-description.md)] |
+| [setMode](microsoft-ciframework/setMode.md) | [!INCLUDE[setMode-description](microsoft-ciframework/includes/setMode-description.md)] |
+| [getMode](microsoft-ciframework/getMode.md) | [!INCLUDE[getMode-description](microsoft-ciframework/includes/setMode-description.md)] |
+| [setClickToAct](microsoft-ciframework/setClickToAct.md) | [!INCLUDE[setClickToAct-description](microsoft-ciframework/includes/setClickToAct-description.md)] |
+| [getClickToAct](microsoft-ciframework/getClickToAct.md) | [!INCLUDE[getClickToAct-description](microsoft-ciframework/includes/getClickToAct-description.md)] |
+| [searchAndOpenRecords](microsoft-ciframework/searchAndOpenRecords.md) | [!INCLUDE[searchAndOpenRecords-description](microsoft-ciframework/includes/searchAndOpenRecords-description.md)] |
+| [getEnvironment](microsoft-ciframework/getEnvironment.md) | [!INCLUDE[getEnvironment-description](microsoft-ciframework/includes/getEnvironment-description.md)] |
+| [openForm](microsoft-ciframework/openForm.md) | [!INCLUDE[openForm-description](microsoft-ciframework/includes/openForm-description.md)] |
+| [createRecord](microsoft-ciframework/createRecord.md)| [!INCLUDE[createRecord-description](microsoft-ciframework/includes/createRecord-description.md)] |
+| [retrieveRecord](microsoft-ciframework/retrieveRecord.md) | [!INCLUDE[retrieveRecord-description](microsoft-ciframework/includes/retrieveRecord-description.md)] |
+| [updateRecord](microsoft-ciframework/updateRecord.md) | [!INCLUDE[updateRecord-description](microsoft-ciframework/includes/updateRecord-description.md)] |
+| [deleteRecord](microsoft-ciframework/deleteRecord.md) | [!INCLUDE[deleteRecord-description](microsoft-ciframework/includes/deleteRecord-description.md)] |
