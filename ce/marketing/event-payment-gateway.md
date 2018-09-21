@@ -18,7 +18,7 @@ manager: shellyha
 ms.reviewer: renwe
 ---
 
-# Set up a custom payment page for the event portal
+# Set up online payment for events
 
 If you have one or more events where contacts must purchase a pass, then your contacts will probably appreciate being able to pay for their passes online while they are registering for the event on your event portal.
 
