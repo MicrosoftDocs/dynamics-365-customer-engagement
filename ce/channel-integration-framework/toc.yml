@@ -3,51 +3,51 @@
   items:
   - name: Overview
     items:
-    - name: What is Channel Integaration Framework?
+    - name: "What is Channel Integaration Framework?"
       href: overview-channel-integration-framework.md
-    - name: Architecture overview of Channel Integration Framework (CIF)
+    - name: "Architecture overview of Channel Integration Framework (CIF)"
       href: architecture-overview-channel-integration-framework.md
   - name: Download
     items:
-    - name: Download Channel Integration Framework (CIF)
+    - name: "Download Channel Integration Framework (CIF)"
       href: download-channel-integration-framework.md
   - name: How-to
     items:
-    - name: Configure channel provider in Unified Interface app
+    - name: "Configure channel provider in Unified Interface app"
       href: configure-channel-provide-channel-integration-framework.md
-    - name: Authenticate channel users to the channel (widget)
+    - name: "Authenticate channel users to the channel (widget)"
       href: authenticate-channel-users.md
   - name: JavaScript API Referrence
     items:
-    - name: Microsoft.CIFramework
+    - name: "Microsoft.CIFramework"
       href: reference/microsoft-ciframework.md
     - items:
-      - name: setWidth
+      - name: "setWidth"
         href: reference/microsoft-ciframework/setWidth.md
-      - name: getWidth
+      - name: "getWidth"
         href: reference/microsoft-ciframework/getWidth.md
-      - name: setMode
+      - name: "setMode"
         href: reference/microsoft-ciframework/setMode.md
-      - name: getMode
+      - name: "getMode"
         href: reference/microsoft-ciframework/getMode.md
-      - name: setClickToAct
+      - name: "setClickToAct"
         href: reference/microsoft-ciframework/setClickToAct.md
-      - name: getClickToAct
+      - name: "getClickToAct"
         href: reference/microsoft-ciframework/getClickToAct.md
-      - name: searchAndOpenRecords
+      - name: "searchAndOpenRecords"
         href: reference/microsoft-ciframework/searchAndOpenRecords.md
-      - name: getEnvironment
+      - name: "getEnvironment"
         href: reference/microsoft-ciframework/getEnvironment.md
-      - name: openForm
+      - name: "openForm"
         href: reference/microsoft-ciframework/openForm.md
-    - name: Xrm.WebApi
+    - name: "Xrm.WebApi"
       href: reference/xrm-webapi.md
     - items:
-      - name: createRecord
+      - name: "createRecord"
         href: reference/Xrm-WebApi/createRecord.md
-      - name: retrieveRecord
+      - name: "retrieveRecord"
         href: reference/Xrm-WebApi/retrieveRecord.md
-      - name: updateRecord
+      - name: "updateRecord"
         href: reference/Xrm-WebApi/updateRecord.md
-      - name: deleteRecord
+      - name: "deleteRecord"
         href: reference/Xrm-WebApi/deleteRecord.md
