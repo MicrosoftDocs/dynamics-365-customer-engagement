@@ -74,12 +74,11 @@ To download Channel Integration Framework solution from within Dynamics 365:
 
 1. Sign-in to Dynamics 365.
 
-2. Select the drop-down button on the Dynamics 365 and select **Channel Integration Framework**.<br>
-    > [div class="mx-imgBorder"]
-    > ![Dynamics 365 drop-down button to find Channel Integration Framework](media/cif-app-navigation.png "Dynamics 365 drop-down button to find Channel Integration Framework")
+2. Select the drop-down button on the Dynamics 365 and select **Channel Integration Framework**.
+    
+    ![Dynamics 365 drop-down button to find Channel Integration Framework](media/cif-app-navigation.png "Dynamics 365 drop-down button to find Channel Integration Framework")
 
 > [!TIP] 
 > Alternatively, Alternatively, you can use the `https://<orgURL>.dynamics.com/apps` to navigate to the channel Integration Framework.<br>
-> [div class="mx-imgBorder"]
-> ![Dynamics 365 org URL and apps to go to Channel Integration Framework](media/cif-alternative-app-navigation.png "Dynamics 365 org URL and apps to go to Channel Integration Framework")
+ ![Dynamics 365 org URL and apps to go to Channel Integration Framework](media/cif-alternative-app-navigation.png "Dynamics 365 org URL and apps to go to Channel Integration Framework")
 
