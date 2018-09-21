@@ -2,7 +2,7 @@
 title: "Design elements reference (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Details for how to use each design element that is available for the design tool in Dynamics 365 for Marketing"
 keywords: "designer; design element; element; reference; email; form;  page"
-ms.date: 04/01/2018
+ms.date: 10/01/2018
 ms.service: 
   - "dynamics-365-marketing"
 ms.custom: 
@@ -62,6 +62,16 @@ When you first add an image element, an image placeholder appears at the locatio
 - **Alignment**: Choose how the image should be aligned relative to its column (left, right, or center).
 
 When you select an image element, you can use an inline toolbar to delete, clone, or move the element.
+
+### Content-block elements
+
+Content blocks let you establish a block of common content that you can reuse in multiple emails, forms, and/or pages. Use them to establish common headers, footers and other blocks of content that you would like to standardize across your communications.
+
+Content blocks work like templates. They include a fixed collection of content that you add all at once to a design. Once added, the content is copied into your design and doesn't maintain any connection to the original block content, which means that if you edit a content block itself, or its content in a particular design, other designs that already use that block won't be affected.
+
+Use the content-block element to add a content block to your design. When you first add the element, a placeholder icon appears at the location where you dropped the element. Select the new content-block element, open the **Properties** panel, and use the **Content block** lookup field to find and select the block that contains the content you want to include here.
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create content blocks that you can reuse in multiple designs](content-blocks.md)
 
 ### Divider elements
 

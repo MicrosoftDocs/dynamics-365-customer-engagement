@@ -28,6 +28,7 @@
 #### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
 #### [Manage sample data](additional-settings.md)
 #### [Quota management](quota-management.md)
+#### [Control access to designer features](designer-feature-protection.md)
 
 ### Privacy and compliance
 #### [Data protection and GDPR](gdpr.md)
@@ -66,7 +67,6 @@
 
 ### Work with content designers
 #### [Design your digital content](design-digital-content.md)
-#### [Upload and use images and files](upload-images-files.md)
 #### [Work with email, page, and form templates](email-templates.md)
 #### [Use custom attributes to enable designer features](custom-template-attributes.md)
 #### [Design elements reference](content-blocks-reference.md)
@@ -81,6 +81,10 @@
 #### [Enable prefilling for forms](form-prefill.md)
 #### [Embed a form on an external website](embed-forms.md)
 #### [Create input fields for forms](marketing-fields.md)
+
+### Build your library of marketing content
+#### [Upload and use images and files](upload-images-files.md)
+#### [Create reusable content blocks](content-blocks.md)
 
 ### Create market segments
 #### [Working with segments](segmentation-lists-subscriptions.md)
