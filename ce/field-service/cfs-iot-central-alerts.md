@@ -113,6 +113,9 @@ In Connected Field Service, you should now see incoming alerts from IoT Central 
 > [!div class="mx-imgBorder"]
 > ![alt text](media/iot-central-alerts-12.png)
 
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-alerts-13.png)
+
 
 
 
