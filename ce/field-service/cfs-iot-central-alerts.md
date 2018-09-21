@@ -29,11 +29,11 @@ search.app:
 
 At the end of this step in the tutorial, you will be able to receive and see alerts from Azure IoT Central in your instance of Connected Field Service. IoT alerts will display on your dashboard and relate to relevant work orders that have been created automatically.  
 
-### Goal
+## Goal
 
 Connect IoT Central to Connected Field Service by configuring the "Create CFS alerts from IoT Central" template in Microsoft Flow.
 
-### Steps
+## Steps
 
 1. Log into your Azure IoT Central application and navigate to **View all your Devices.**
 
@@ -104,7 +104,7 @@ From here, the workflow will trigger based on the alert type. While you may have
 
 - If alert type is Cash box almost full, the workflow will create a new work order in Field Service to issue IoT-predictive maintenance, as well as a new booking in the bookable resource bookings.
 
-### See the results
+## See the results
 
 Once you've saved your Flow, log in to Dynamics 365 for Field Service, and choose Connected Field Service. You may see a window that offers a few links to learn more about Connected Field Service and Azure IoT offerings. You can choose to learn more, or just dismiss this window. 
 
