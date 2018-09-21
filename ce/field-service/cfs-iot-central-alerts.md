@@ -38,36 +38,36 @@ Connect IoT Central to Connected Field Service by configuring the "Create CFS al
 1. Log into your Azure IoT Central application and navigate to **View all your Devices.**
 
 > [!div class="mx-imgBorder"]
-> ![alt text](media/iot-central-alerts-1.PNG)
+> ![alt text](media/iot-central-alerts-1.png)
 
 2. When you can see a list of devices, make sure you're on the Template tab "Refrigerated Vending Machines (1.0.0)." From this list of devices, select "Refrigerated Vending Machine."
 
 > [!div class="mx-imgBorder"]
-> ![alt text](media/iot-central-alerts-2.PNG)
+> ![alt text](media/iot-central-alerts-2.png)
 
 3. Once on the Refrigerated Vending Machine detail page, navigate to the **Dashboard** tab, seen below in the screenshot.
 
     a. You should see service and scheduling fields in the Contoso Template. Their values should be empty. If you can't see these fields, please refer to [this documentation](https://docs.microsoft.com/en-us/azure/iot-central/howto-manage-devices#change-a-property) to add the properties.
     
 > [!div class="mx-imgBorder"]
-> ![alt text](media/iot-central-alerts-3.PNG)
+> ![alt text](media/iot-central-alerts-3.png)
 
 4. Next, while still on this detail page, head over to the **Rules** tab, and create the rule "Cash drawer level is high." For more information on creating a rule, learn more in [this IoT Central tutorial](https://docs.microsoft.com/en-us/azure/iot-central/tutorial-configure-rules).
 
 > [!div class="mx-imgBorder"]
-> ![alt text](media/iot-central-alerts-4.PNG)
+> ![alt text](media/iot-central-alerts-4.png)
 
 5. Then, under **Actions,** choose **Microsoft Flow** from the Select Action options. This will take you to another working environment in the Microsoft Flow application. This is where you will set up your integrations.
 
     a. **Note for IoT Central trial users**: In order to use Microsoft Flow from IoT Central, you must be using the pay-as-you-go form of IoT Central. Trial users can work around this by heading directly to [Microsoft Flow](https://flow.microsoft.com/en-us/templates/) to configure steps 7 and 8.Then in IoT Central, the Flow will be all ready to go. 
     
 > [!div class="mx-imgBorder"]
-> ![alt text](media/iot-central-alerts-5.PNG)
+> ![alt text](media/iot-central-alerts-5.png)
 
 6. You'll be taken to the Microsoft Flow template page for "Create CFS alerts from IoT Central." Select "Use this template." (if you have trouble finding these templates, head to the [Microsoft  Flow Templates page](https://flow.microsoft.com/en-us/templates/) and search "CFS")
 
 > [!div class="mx-imgBorder"]
-> ![alt text](media/iot-central-alerts-6.PNG)
+> ![alt text](media/iot-central-alerts-6.png)
 
 7. You'll be prompted now to sign in to both IoT Central and Dynamics accounts. Select your accounts from each and then **Continue** to progress.
 
