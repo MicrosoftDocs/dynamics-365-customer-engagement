@@ -56,7 +56,7 @@ For example, you could create separate queues for first tier and second tier pro
 > [!NOTE]
 > With the October ’18 release, queues in service management are available in the Customer Service Hub, based on the Unified Interface experience. We recommend that you create and manage queues using the new experience.
   
-## Create queues  (Customer Service Hub) 
+## Create a queue (Customer Service Hub) 
   
 Follow the steps given below to create or edit a queue: 
   
@@ -100,7 +100,7 @@ Follow the steps given below to create or edit a queue:
 
    ![queues-csh](media/queues-csh.png)
 
-## Create queues  (Customer Service app) 
+## Create a queue (Customer Service app) 
 
 Follow the steps given below to create or edit a queue: 
   
