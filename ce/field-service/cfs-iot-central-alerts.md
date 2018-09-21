@@ -37,13 +37,25 @@ Connect IoT Central to Connected Field Service by configuring the "Create CFS al
 
 1. Log into your Azure IoT Central application and navigate to **View all your Devices.**
 
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-alerts-1.PNG)
+
 2. When you can see a list of devices, make sure you're on the Template tab "Refrigerated Vending Machines (1.0.0)." From this list of devices, select "Refrigerated Vending Machine."
+
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-alerts-2.PNG)
 
 3. Once on the Refrigerated Vending Machine detail page, navigate to the **Dashboard** tab, seen below in the screenshot.
 
     a. You should see service and scheduling fields in the Contoso Template. Their values should be empty. If you can't see these fields, please refer to [this documentation](https://docs.microsoft.com/en-us/azure/iot-central/howto-manage-devices#change-a-property) to add the properties.
+    
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-alerts-3.PNG)
 
 4. Next, while still on this detail page, head over to the **Rules** tab, and create the rule "Cash drawer level is high." For more information on creating a rule, learn more in [this IoT Central tutorial](https://docs.microsoft.com/en-us/azure/iot-central/tutorial-configure-rules).
+
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-alerts-4.PNG)
 
 5. Then, under **Actions,** choose **Microsoft Flow** from the Select Action options. This will take you to another working environment in the Microsoft Flow application. This is where you will set up your integrations.
 
