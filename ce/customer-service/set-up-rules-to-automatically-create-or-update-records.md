@@ -36,8 +36,8 @@ By using record creation and update rules in [!INCLUDE[pn_dynamics_crm](../inclu
  To enable the rule to update records, you must add an **Update** step to the rule. Only the entity that you select in the **Update** step is updated based on the properties you set.   
 
 > [!NOTE]
-> With the October'18 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. </br>
-Routing Rule sets, Automatic Record Creation, and Service Level Agreements will be available in the Customer Service Hub sitemap with the January 2019 release.
+> With the October'18 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. </br>
+Routing Rule Sets, Automatic Record Creation, and Service Level Agreements will be available in the Customer Service Hub sitemap with the January 2019 release.
 
 ## Activities and entities supported by record creation and update rules  
  By default, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] supports creating records from the following activities, also called source types in the context of record creation and update rules:  

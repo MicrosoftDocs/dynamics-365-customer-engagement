@@ -24,14 +24,14 @@ search.app:
 
 # Create entitlements to define the support terms for a customer
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Define what kind of support your customers are eligible for by creating entitlements in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. With entitlements, you specify the support term based on number of hours or number of cases. The customer’s support level can vary based on the product or service that the customer has purchased. Customers who’ve purchased different products can be entitled to different support levels. This information helps the customer support agents verify what the customers are eligible for and create cases for them accordingly.  
 
 > [!NOTE]
-> With the October'18 release, entitlements in service management are available in the Customer Service Hub based on Unified Interface experience. You are recommended to create and manage entitlements using the new experience.
+> With the October'18 release, entitlements in service management are available in the Customer Service Hub based on the Unified Interface experience. We recommend that you create and manage entitlements using the new experience.
   
-## Create an entitlement  
+## Create an entitlement
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
   
@@ -42,6 +42,9 @@ Define what kind of support your customers are eligible for by creating entitlem
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. In the Customer Service Hub sitemap, go to **Service Management** and select **Service Terms** > **Entitlements**.
+
+   > [!NOTE]
+   > In the Customer Service app, [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)] and [!INCLUDE[proc_click_or_tap_entitlements](../includes/proc-click-or-tap-entitlements.md)]
   
 4. To create a new entitlement from a template, select **New** > **From Template**. In the **Select Template** dialog box, select the entitlement template, and select **Select**.  
   
@@ -59,7 +62,7 @@ Define what kind of support your customers are eligible for by creating entitlem
   
      - **End Date**. Choose the date after which the customer will no longer be entitled for support.  
   
-     - **Restrict based on entitlement terms**. To make sure no cases are created when the entitlement term is over, select **Yes**. When you choose **Yes**, a customer service agent won’t be able to create a case when **Remaining Terms** is fewer than zero OR when the term remaining for a channel is less than zero.  
+     - **Restrict based on entitlement terms**. To make sure no cases are created when the entitlement term is over, select **Yes**. When you choose **Yes**, a customer service agent won’t be able to create a case when **Remaining Terms** is less than zero OR when the term remaining for a channel is less than zero.  
   
      - **SLA**. Choose a service level agreement (SLA) record to associate the service levels or key performance indicators for the support you’re providing with this entitlement.  
      - **Owner**. Specify the owner of the entitlement.
@@ -85,9 +88,9 @@ Define what kind of support your customers are eligible for by creating entitlem
   
        - Reactivating a resolved case with the associated entitlement increases the entitlement terms.  
   
-     - **Total Term**. Specify the total amount of support the customer is entitled for with respect to the allocation type. For example, if the allocation type is number of cases and you specify 100 in **Total Term**, the customer is entitled for support up to 100 cases.  
+     - **Total Term**. Specify the total amount of support the customer is entitled to with respect to the allocation type. For example, if the allocation type is number of cases and you specify 100 in **Total Term**, the customer is entitled to support up to 100 cases.  
   
-     - The **Remaining Term** shows the total number of hours or cases remaining for the customer’s entitlement. The value decrements every time a case is created or resolved (depending on what you select in **Decrease Remaining On**) against the entitlement.  
+     - The **Remaining Term** shows the total number of hours or cases remaining for the customer’s entitlement. The value decreases every time a case is created or resolved (depending on what you select in **Decrease Remaining On**) against the entitlement.  
   
 6. Select **Save**.  
 
@@ -101,7 +104,7 @@ As you save the entitlement, additional sections are added for a new entitlement
 > [!NOTE]
 >  You must save the entitlement record before you can add entitlement channels to an entitlement.  
   
-1.  In the **Entitlement Channel** section, select **...** to add a new entitlement channel.  
+1.  In the **Entitlement Channel** section, select **...**  and select **Add New Entitlement Channel** to add a new entitlement channel.  
   
 2.  Specify the **Name** of the channel and **Total Terms** that you want to allot to the channel.  
   
@@ -113,9 +116,9 @@ As you save the entitlement, additional sections are added for a new entitlement
 > [!NOTE]
 >  If you don't add a product, the customer will be entitled to support for all the products.  
   
-1.  While in the entitlement record, in the **Products** section, select **...** to add associate an existing product.  
+1.  While in the entitlement record, in the **Products** section, select **...** and select **Add New Product** to add associate an existing product.  
   
-2.  In the **Search** box, type the first few letters of the name of the product that you want to associate with the entitlement.  
+2.  In the **Search** box, enter the first few letters of the name of the product that you want to associate with the entitlement.  
   
      If a product isn’t available, select **New** to create a new one.  
   
@@ -125,9 +128,9 @@ As you save the entitlement, additional sections are added for a new entitlement
 > [!NOTE]
 >  If you don’t add a contact, all the contacts for the specified primary customer will be entitled to support.  
   
-1. While in the entitlement record, in the **Contacts** section, select **...** to add associate an existing contact.  
+1. While in the entitlement record, in the **Contacts** section, select **...** and select **Add Existing Contact** to add associate an existing contact.  
   
-2. In the **Search** box, type the first few letters of the contact that you want to associate with the entitlement. This contact record must belong to the account or contact specified in the **Customer** field.  
+2. In the **Search** box, enter the first few letters of the contact that you want to associate with the entitlement. This contact record must belong to the account or contact specified in the **Customer** field.  
   
     If a contact isn’t available, select **New** to create a new contact record.  
   
@@ -146,7 +149,7 @@ As you save the entitlement, additional sections are added for a new entitlement
    When an entitlement is active, you can’t edit it. To deactivate an entitlement so you can edit it, on the command bar, select **Deactivate**.  
   
 ## Set an entitlement as default entitlement  
- You can activate the entitlement and then set it as the default entitlement for a customer. The entitlement terms from the associated entitlement are automatically decremented. However, if you don’t want the entitlement terms to be decremented for a case, select **Do not decrement entitlement terms** on the command bar.  
+ You can activate the entitlement and then set it as the default entitlement for a customer. The entitlement terms from the associated entitlement are automatically reduced. However, if you don’t want the entitlement terms to be reduced for a case, select **Do not decrement entitlement terms** on the command bar.  
   
 1. On the command bar, select **Set As Default**.  
   

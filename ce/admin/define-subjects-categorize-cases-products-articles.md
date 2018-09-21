@@ -26,14 +26,28 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] includes a subject organizational structure that lets you mark and categorize service cases, knowledge base articles, products, and sales literature. By using the subject hierarchy, you can classify service cases to quickly provide service to your customer. You can also provide the appropriate sales literature. You’ll also be able to better understand gaps in your sales literature, evaluate service quality by subject area, and improve reporting on the performance of your products.  
+
+> [!NOTE]
+> With the October'18 release, subjects in service management are available in the Customer Service Hub based on the Unified Interface experience. We recommend that you manage subjects using the new experience.
   
-## Create or edit a subject  
+## Create or edit a subject  (Customer Service Hub) 
+
+1. In the Customer Service Hub app, go to **Service Management** and select **Case Settings** > **Subjects** in the sitemap to access subjects. 
+
+2. In the command bar:
+   - Select **Add subject** to add a subject. A quick create dialog box is displayed. Enter **Name** and **Description** for the subject.
+      - You can choose default subject as parent in the **Parent Subject** drop-down. If you don't choose a parent subject, then your subject begins from the same node as default subject.
+   - Select a subject from the tree and select **Edit subject** to edit a subject
+   - Select a subject from the tree and select **Remove subject** to delete a subject
+
+   ![subjects-csh](../customer-service/media/subjects-csh.png)
+
+
+## Create or edit a subject  (Customer Service app) 
   
 1. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)] select **Subjects**. You can also get there by going to **Settings** > **Service Management** > **Subjects**.  
 
-> [!NOTE]
-> With the October'18 release, subjects in service management is available in the Customer Service Hub based on Unified Interface experience. You are recommended to manage subjects using the new experience. </br> </br>
-> In the Customer Service Hub app, go to **Service Management** and select **Case Settings** > **Subjects** in the sitemap to access subjects. 
+
   
 2. To add a subject, under **Common Tasks**, select **Add a Subject**.  
   
