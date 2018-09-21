@@ -24,7 +24,7 @@ manager: shujoshi
 
 ## Syntax
 
-`Xrm.WebApi.retrieveRecord(entityLogicalName, id, options).then(successCallback, errorCallback);`
+`microsoft-ciframework.retrieveRecord(entityLogicalName, id, options).then(successCallback, errorCallback);`
 
 ## Parameters
 
@@ -121,14 +121,3 @@ Xrm.WebApi.retrieveRecord("account", "a8a19cdd-88df-e311-b8e5-6c3be5a8b200", "?$
 The above example displays the following in your console; you might see other values depending on your data:
 
 `Retrieved values: Name: Adventure Works, Primary Contact ID: 49a0e5b9-88df-e311-b8e5-6c3be5a8b200, Primary Contact Name: Adrian Dumitrascu`
-
- 
-### Related topics
-
-<!--[Xrm.WebApi.retrieveMultipleRecords](retrieveMultipleRecords.md)
-
-[Xrm.WebApi](../xrm-webapi.md)-->
-
-
-
-

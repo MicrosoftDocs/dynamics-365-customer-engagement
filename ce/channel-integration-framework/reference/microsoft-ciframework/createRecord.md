@@ -24,7 +24,7 @@ manager: shujoshi
 
 ## Syntax
 
-`Xrm.WebApi.createRecord(entityLogicalName, data).then(successCallback, errorCallback);`
+`microsoft-ciframework.createRecord(entityLogicalName, data).then(successCallback, errorCallback);`
 
 ## Parameters
 
@@ -201,10 +201,4 @@ Xrm.WebApi.offline.createRecord("account", data).then(
         // handle error conditions
     }
 );
-``` 
- 
-### Related topics
-
-<!--[Create an entity using the Web API](../../../webapi/create-entity-web-api.md)
-
-[Xrm.WebApi](../xrm-webapi.md)-->
+```

@@ -24,7 +24,7 @@ manager: shujoshi
 
 ## Syntax
 
-`Xrm.WebApi.updateRecord(entityLogicalName, id, data).then(successCallback, errorCallback);`
+`microsoft-ciframework.updateRecord(entityLogicalName, id, data).then(successCallback, errorCallback);`
 
 ## Parameters
 
@@ -165,7 +165,3 @@ Xrm.WebApi.offline.updateRecord("account", "5531d753-95af-e711-a94e-000d3a11e605
     }
 );
 ```
- 
-### Related topics
-
-<!--[Xrm.WebApi](../xrm-webapi.md)-->
