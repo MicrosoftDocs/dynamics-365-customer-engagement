@@ -54,7 +54,7 @@ Make Connected Field Service send service information to IoT Central when work o
 5. Sign into Flow with your Dynamics 365 organization, along with your associated IoT Central account.
 
 > [!div class="mx-imgBorder"]
-> ![alt text](media/iot-central-work-orders-3.png)
+> ![alt text](media/iot-central-work-orders-4.png)
 
 6. The template will be mostly ready to run; you only need to make the following changes (see the screenshots below for reference):
 
