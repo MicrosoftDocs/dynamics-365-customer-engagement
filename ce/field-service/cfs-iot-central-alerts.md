@@ -59,7 +59,7 @@ Connect IoT Central to Connected Field Service by configuring the "Create CFS al
 
 5. Then, under **Actions,** choose **Microsoft Flow** from the Select Action options. This will take you to another working environment in the Microsoft Flow application. This is where you will set up your integrations.
 
-    a. **Note for IoT Central trial users**: In order to use Microsoft Flow from IoT Central, you must be using the pay-as-you-go form of IoT Central. Trial users can work around this by heading directly to [Microsoft Flow](https://flow.microsoft.com/en-us/templates/) to configure steps 7 and 8.Then in IoT Central, the Flow will be all ready to go. 
+    a. **Note for IoT Central trial users**: In order to use Microsoft Flow from IoT Central, you must be using the pay-as-you-go form of IoT Central. Trial users can work around this by heading directly to [Microsoft Flow](https://flow.microsoft.com/en-us/templates/) to configure steps 7 and 8 in this tutorial. Then in IoT Central, the Flow will be all ready to go. 
     
 > [!div class="mx-imgBorder"]
 > ![alt text](media/iot-central-alerts-5.png)
