@@ -119,7 +119,11 @@ string fetch2 = @"
      </entity>   
    </fetch> ";   
   
-EntityCollection result = _serviceProxy.RetrieveMultiple(new FetchExpression(fetch2));foreach (var c in result.Entities)   {   System.Console.WriteLine(c.Attributes["name"]);   }  
+EntityCollection result = _serviceProxy.RetrieveMultiple(new FetchExpression(fetch2));
+foreach (var c in result.Entities)
+{
+   System.Console.WriteLine(c.Attributes["name"]);
+}  
 ```  
   
 ## Query Results  
