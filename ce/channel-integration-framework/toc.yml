@@ -40,14 +40,11 @@
         href: reference/microsoft-ciframework/getEnvironment.md
       - name: "openForm"
         href: reference/microsoft-ciframework/openForm.md
-    - name: "Xrm.WebApi"
-      href: reference/xrm-webapi.md
-      items:
       - name: "createRecord"
-        href: reference/Xrm-WebApi/createRecord.md
+        href: reference/microsoft-ciframework/createRecord.md
       - name: "retrieveRecord"
-        href: reference/Xrm-WebApi/retrieveRecord.md
+        href: reference/microsoft-ciframework/retrieveRecord.md
       - name: "updateRecord"
-        href: reference/Xrm-WebApi/updateRecord.md
+        href: reference/microsoft-ciframework/updateRecord.md
       - name: "deleteRecord"
-        href: reference/Xrm-WebApi/deleteRecord.md
+        href: reference/microsoft-ciframework/deleteRecord.md
