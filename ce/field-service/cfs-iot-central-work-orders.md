@@ -41,11 +41,22 @@ Make Connected Field Service send service information to IoT Central when work o
 
 3. Click on "Create a Flow" in the top menu bar.
 
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-work-orders-1.png)
+
 4. From the list of available templates, choose "**Sample Contoso- When a work order is created in CFS, update IoT Central"**
+
+  a. Note: Alternatively, you can navigate directly to [the Microsoft Flow templates page](https://preview.flow.microsoft.com/templates/) and search "CFS" to find this template, as seen below.
+  
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-work-orders-2.png)
 
 5. Sign into Flow with your Dynamics 365 organization, along with your associated IoT Central account.
 
-6. The template will be mostly ready to run; you only need to make the following changes (see the screenshot below for reference):
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-work-orders-3.png)
+
+6. The template will be mostly ready to run; you only need to make the following changes (see the screenshots below for reference):
 
     a. In the field for "When a work order is created or updated," choose your Dynamics 365 organization name
    
@@ -58,12 +69,22 @@ Make Connected Field Service send service information to IoT Central when work o
     e. Double-click to expand "Update the work order details for the device that raised the alert," and finally choose your IoT Central application name and also the device template, "Refrigerated Vending Machine (1.0.0)"
     
     f. **Note**: Running this Flow will not add work order information retroactively---only devices going forward will be updated on the device page in IoT Central
+    
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-work-orders-5.png)
+
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-work-orders-6.png)
 
 7. Save the Flow to make it run.
+
 
 ## See the results
 
 Once you've saved the Flow, head on back to your IoT Central environment. Choose the device that has triggered an alert and a work order in Connected Field Service. You should now see the work order information populated in the fields on the IoT Central device properties page.
+
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-work-orders-7.png)
 
 
 Next step: [Send booking updates to IoT Central](cfs-iot-central-bookings.md)
