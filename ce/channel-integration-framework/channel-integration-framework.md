@@ -32,7 +32,7 @@ manager: shujoshi
 
 <h2> Download </h2>
 
-<li></li>
+<li><a href="download-channel-integration-framework.md" data-raw-source="[Download Channel Integration Framework (CIF)](download-channel-integration-framework.md)">Download Channel Integration Framework (CIF)</a></li>
 </td>
 </tr>
 <tr>
@@ -40,14 +40,15 @@ manager: shujoshi
 
 <h2> How-to </h2>
 
-<li></li>
-<li></li>
+<li><a href="configure-channel-provide-channel-integration-framework.md" data-raw-source="[How to configure a channel provider in Unified Interface app](configure-channel-provide-channel-integration-framework.md)">How to configure a channel provider in Unified Interface app</a></li>
+<li><a href="authenticate-channel-users.md" data-raw-source="[Authenticate channel users to the channel (widget)](authenticate-channel-users.md)">Authenticate channel users to the channel (widget)</a></li>
 </td>
 <td>
 
 <h2> JavaScript reference </h2>
 
-<li></li>
+<li><a href="reference/microsoft-ciframework.md" data-raw-source="[Microsoft.CIFramework
+ methods](reference/microsoft-ciframework.md)">Microsoft.CIFramework</a></li>
 
 </td>
 </tr>
@@ -56,7 +57,7 @@ manager: shujoshi
 
 <h2> FAQ </h2>
 
-<li></li>
+<li><a href="faq-channel-integration-framework.md" data-raw-source="[Frequently Asked Questions](faq-channel-integration-framework.md)">Frequently Asked Questions</a></li>
 
 </td>
 </tr>
