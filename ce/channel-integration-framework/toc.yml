@@ -21,7 +21,7 @@
     items:
     - name: "Microsoft.CIFramework"
       href: reference/microsoft-ciframework.md
-    - items:
+      items:
       - name: "setWidth"
         href: reference/microsoft-ciframework/setWidth.md
       - name: "getWidth"
@@ -42,7 +42,7 @@
         href: reference/microsoft-ciframework/openForm.md
     - name: "Xrm.WebApi"
       href: reference/xrm-webapi.md
-    - items:
+      items:
       - name: "createRecord"
         href: reference/Xrm-WebApi/createRecord.md
       - name: "retrieveRecord"
