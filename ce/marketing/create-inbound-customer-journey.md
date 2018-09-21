@@ -2,7 +2,7 @@
 title: "Inbound marketing with Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to set up a customer journey to implement inbound marketing that attracts new contacts to register with your organization in Dynamics 365 for Marketing"
 keywords: "tutorial; inbound marketing; landing page; page"
-ms.date: 04/01/2018
+ms.date: 10/01/2018
 ms.service: 
   - "dynamics-365-marketing"
 ms.custom: 
@@ -36,7 +36,7 @@ Though messaging and promotion strategies are typically quite different for an i
 
 ![An example of a simple inbound journey](media/journey-inbound-example.png "An example of a simple inbound journey")
 
-Another way to create an inbound journey is to start with an [interaction segment](segments-interaction.md) that is based on form-submit interactions. If you are [embedding your marketing forms on your own website](embed-forms.md) rather than on a [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] marketing page, then this is the only way to find and target contacts who submitted the form; but you can also use this technique to find submissions from [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] marketing pages.
+Another way to create an inbound journey is to start with an [interaction segment](segments-interaction.md) that is based on form-submit interactions. If you are [embedding your marketing forms on your own website](embed-forms.md) rather than on a [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] marketing page, then this is the only way to find and target contacts who submitted the form; but you can also use this technique to find submissions from [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] marketing pages.
 
 ### See also
 
