@@ -12,6 +12,7 @@
 ## [Project management how-to guide](how-to-guides/project-management-how-to.md)
 ## [Resource management how-to guide](how-to-guides/resource-management-how-to.md)
 ## [Reconciling assignments and bookings how-to guide](how-to-guides/reconciling-assignments-bookings-how-to.md)
+## [Time, expense, and approvals guide](how-to-guides/time-expense-approval.md)
 
 # FAQ and troubleshooting (app version 3.x)
 ## [How do I "soft book" resources?](FAQ-soft-book.md)
