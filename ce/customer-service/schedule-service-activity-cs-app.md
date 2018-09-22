@@ -36,6 +36,6 @@ You can’t create a recurring service activity. Create individual service activ
 
 Use the following links to learn more about service scheduling using service activity:
  
-[Navigate the service calendar](navigate-service-calendar.md)<br>
-[Find the next available time before creating a service activity](../customer-service/find-next-available-time-before-create-service-activity.md)<br/>
-[Force an activity into a time slot](../customer-service/create-service-activity-without-checking-conflicts.md)
+[Navigate the service calendar](navigate-service-calendar-cs-app.md)<br>
+[Find the next available time before creating a service activity](../customer-service/find-next-available-time-before-create-service-activity-cs-app.md)<br/>
+[Force an activity into a time slot](../customer-service/create-service-activity-without-checking-conflicts-cs-app.md)
