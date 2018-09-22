@@ -67,26 +67,6 @@ Use the following links to learn about Service Management tasks:
 
 [Entitlement Templates](set-up-entitlements-templates.md)
 
-[Email Templates](../admin/create-templates-email.md)
-
-[Article Templates](../admin/create-templates-articles.md)
-
-## Service Scheduling
-
-[Business Closure](set-when-business-closed.md)
-
-[Services](create-edit-service.md)
-
-[Facilities/Equipment](add-facilities-equipment-service-scheduling.md)
-
-[Resource Groups](create-edit-resource-group.md)
-
-[Sites](use-sites-manage-service-locations.md)
-
-<br>
-
-> [!NOTE]
-> Service Scheduling settings on the **Service Management** and **Business Management** pages have been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
 
 ### See also
 

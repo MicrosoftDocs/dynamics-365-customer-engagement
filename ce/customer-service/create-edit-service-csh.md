@@ -1,5 +1,5 @@
 ---
-title: Create or change a service in service scheduling(Dynamics 365 for Customer Service) | MicrosoftDocs
+title: Create or change a service in service scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Know how to create or change a service in service scheduling in Dynamics 365 for Customer Service
 keywords: Service management; Dynamics 365; Customer Service; Service scheduling
 author: anjgupta
@@ -30,7 +30,7 @@ To make scheduling services quick and easy, it’s helpful to predefine the spec
   
 -   How long a service activity would last  
   
--   What resources are available for the service activity, like users, facilities, or equipment  
+-   What resources are available for the service activity, like resources, facilities, or equipment  
   
 > [!NOTE]
 > A service requires at least one selection rule and one or more resources, resource groups, or teams before the service can be scheduled with a service activity.
@@ -48,8 +48,12 @@ Make sure that you have the System Administrator or System Customizer security r
 3. On the command bar, select **New** to create a new service. To edit a service, open a service from the list.  
   
 4. In the **General** section, enter a **Name** and **Description** to reflect the specifics of the service and describe what the service is. </br> Also, specify the initial status of the service activity when it is created. If your organization prefers to approve all service activities before committing them to the schedule, you can select **Requested** or **Tentative**.
+5. Select **Save**. The service grid is displayed for the service.
 
-5. Under **Scheduling**, in **Default Duration**, select how long the service lasts. This can be changed when the service activity is created. 
+5. In the service grid:
+
+- Add a new **Subgroup** or **Requirement**
+1. Under **Scheduling**, in **Default Duration**, select how long the service lasts. This can be changed when the service activity is created. 
 
    > [!NOTE]
    > The maximum duration of an appointment or service activity is 10 days.

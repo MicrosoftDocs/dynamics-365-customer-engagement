@@ -22,14 +22,14 @@ search.app:
   - D365CS
 ---
 
-# Use sites to manage your service locations
+# Use sites to manage your service locations (Customer Service app)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Create sites to define the locations where you provide service to your customers. When you’re scheduling resources, you can define which resources will work on which site.
 
 > [!IMPORTANT]
-> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> With the October'18 release, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you create using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage organizational units](create-org-units-cs-scheduling.md)
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   

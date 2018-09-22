@@ -106,12 +106,12 @@ Service Scheduling entities are grouped under the following logical groups:
 - **Facilities/Equipments**  </br>
    Facilities and equipment are resources you’d use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. 
 
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add facilities and equipment for service scheduling](add-facilities-equipment-service-scheduling.md)
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add facilities and equipments to schedule service](add-facilities-equipment-ss-csh.md)
 
 - **Services**  </br>
    To make scheduling services quick and easy, it’s helpful to predefine the specifics of the services you’d provide to customers. 
 
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a service](create-edit-service.md)
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a service](create-edit-service-csh.md)
 
 - **Service Activities** </br>
    Create a service activity by finding the next available time of resources for a service or simply without checking for conflicts. 
@@ -135,7 +135,7 @@ Service Scheduling entities are grouped under the following logical groups:
 - **Business Closure** </br>
    Prevent scheduling resources on holidays and other non-working days by defining business closures. 
 
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set when your business is closed](set-when-business-closed.md)
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set when your business is closed](set-when-business-closed-csh.md)
 
 
 ### See also    

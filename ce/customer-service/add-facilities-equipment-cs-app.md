@@ -22,7 +22,7 @@ search.app:
   - D365CS
 ---
 
-# Add facilities and equipment for service scheduling
+# Add facilities and equipment for service scheduling (Customer Service app)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

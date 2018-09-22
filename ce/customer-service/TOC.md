@@ -49,7 +49,7 @@
 #### [Resource Categories](resource-categories-service-scheduling.md)
 #### [Facilities and Equipments](add-facilities-equipment-ss-csh.md)
 ##### [Set work hours for a facility or equipment](set-work-hours-resource.md#set-work-hours-for-a-facility-or-equipment)
-#### [Services](create-edit-service.md)
+#### [Services](create-edit-service-csh.md)
 #### [Service Activities](schedule-service-activity.md)
 ### Configure using tools
 #### [Schedule Board](../field-service/configure-schedule-board.md)
