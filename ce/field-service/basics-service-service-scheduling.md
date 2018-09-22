@@ -83,7 +83,7 @@ Avoid disruptions in service by making sure that your resources are scheduled op
 4. Click **Find Available Times**.  
   
 ### See also    
- [Schedule a service activity](../customer-service/schedule-service-activity.md)<br>
- [Force an activity into a time slot in the service schedule](../customer-service/schedule-service-activity.md#force-an-activity-into-a-time-slot-in-the-service-schedule)
+ [Schedule a service activity](../customer-service/schedule-service-activity-cs-app.md)<br>
+
     
  
