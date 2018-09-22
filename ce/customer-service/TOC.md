@@ -59,11 +59,10 @@
 ### [Get the new Service Scheduling experience](enable-urs-service-scheduling.md)
 
 
-
 ### Service scheduling (Customer Service app)
-#### [Business closure](set-when-business-closed.md)
+#### [Business closure](set-when-business-closed-cs-app.md)
 #### [Services](create-edit-service.md)
-#### [Facilities/Equipment](add-facilities-equipment-service-scheduling.md)
+#### [Facilities/Equipment](add-facilities-equipment-cs-app.md)
 #### [Resource Groups](create-edit-resource-group.md)
 #### [Sites](use-sites-manage-service-locations.md)
 
