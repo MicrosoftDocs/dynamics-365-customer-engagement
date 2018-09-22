@@ -47,7 +47,7 @@
 #### [Resources](resources-service-scheduling.md)  
 ##### [Set work hours for a resource](set-work-hours-resource.md#set-work-hours-for-a-resource)
 #### [Resource Categories](resource-categories-service-scheduling.md)
-#### [Facilities and Equipments](add-facilities-equipment-service-scheduling.md)
+#### [Facilities and Equipments](add-facilities-equipment-ss-csh.md)
 ##### [Set work hours for a facility or equipment](set-work-hours-resource.md#set-work-hours-for-a-facility-or-equipment)
 #### [Services](create-edit-service.md)
 #### [Service Activities](schedule-service-activity.md)
@@ -55,8 +55,10 @@
 #### [Schedule Board](../field-service/configure-schedule-board.md)
 ### Work with settings
 #### [Organizational Units](create-org-units-cs-scheduling.md)
-#### [Business Closure](set-when-business-closed.md)
+#### [Business Closure](set-when-business-closed-csh.md)
 ### [Get the new Service Scheduling experience](enable-urs-service-scheduling.md)
+
+
 
 ### Service scheduling (Customer Service app)
 #### [Business closure](set-when-business-closed.md)

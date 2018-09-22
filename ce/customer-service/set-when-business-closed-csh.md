@@ -28,10 +28,6 @@ search.app:
 
 Prevent scheduling resources on holidays and other nonworking days by defining business closures in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can set both the days and times that your organization will be closed. 
 
-> [!NOTE]
-> With the October'18 release, the new Service Scheduling is now available from the Customer Service Hub sitemap. We recommend that you set business closures using the new experience. </br> However, if you are using Customer Service web app, you can set business closure by navigating to **Settings > Service Management** or **Settings > Business Management**.
-
-
 ## Schedule a new business closure
 Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
 

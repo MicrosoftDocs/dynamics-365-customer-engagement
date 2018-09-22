@@ -28,8 +28,6 @@ search.app:
 
 Facilities and equipment are resources you’d use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. Add these resources to [!INCLUDE[pn_dynamics-crm](../includes/pn-dynamics-crm.md)] to ensure optimal services to your customers.  
 
-> [!NOTE]
-> With the October'18 release, the new Service Scheduling is now available from the Customer Service Hub sitemap. We recommend that you create facilities and equipments using the new experience. </br> However, if you are using Customer Service web app, you can create facilities and equipments by navigating to **Settings > Service Management** or **Settings > Business Management**.
   
 ## Create a new facility or equipment  
 
