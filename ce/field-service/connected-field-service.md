@@ -37,13 +37,16 @@ search.app:
 - Device telemetry and ongoing maintenance data help you make informed decisions around dispatching technicians with the right expertise, availability, and proximity to the job. 
 
 There are **two solutions** you can use to connect IoT-enabled devices into the world of Field Service:
-- Connected Field Service for **Azure IoT Central**
-- Connected Field Service for **Azure IoT Hub**
+- Connected Field Service for [**Azure IoT Central**](https://azure.microsoft.com/services/iot-central/)
+- Connected Field Service for [**Azure IoT Hub**](https://azure.microsoft.com/en-us/services/iot-hub/)
 
 See below for the differences between the two solutions.
 
 ## Connected Field Service for Azure IoT Central
-Connected Field Service for IoT Central provides a direct way to integrate Dynamics 365 for Field Service with Azure IoT Central, a fully managed IoT software-as-a-service (SaaS) solution. Build workflows between Connected Field Service with Microsoft Flow, a service that makes it easy to create workflows between your apps and services to synchronize files, get notifications, collect data, and more. 
+Connected Field Service for IoT Central provides a direct way to integrate Dynamics 365 for Field Service with Azure IoT Central, a fully managed IoT software-as-a-service (SaaS) solution. Build workflows between Connected Field Service with Microsoft Flow, a service that makes it easy to create workflows between your apps and services to synchronize files, get notifications, collect data, and more.
+
+> [!div class="mx-imgBorder"]
+> ![alt text](media/cfs-overview.png)
 
 You can connect IoT Central and Connected Field Service in such a way that:
 - IoT Central can send information about device anomalies to Connected Field Service
@@ -54,6 +57,8 @@ You can connect IoT Central and Connected Field Service in such a way that:
 With Azure IoT Central, there's no need for extensive cloud development or coding skills to get up and running. The solution is a fully managed offering.
 
 Check out our overview on [Connected Field Service for IoT Central for more information](cfs-iot-central-overview.md).
+
+
 
 ## Connected Field Service for Azure IoT hub
 Connected Field Service for Azure IoT Hub is an add-on solution that brings the Azure IoT platform-as-a-service (PaaS) offering into Dynamics365 for Field Service. With this offering, you can run a deployment app to pull all the Azure IoT services and Dynamics puzzles together.
