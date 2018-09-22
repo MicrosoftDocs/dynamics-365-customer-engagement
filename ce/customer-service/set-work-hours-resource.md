@@ -196,5 +196,6 @@ You can set the hours a resource works or set the operating hours for a facility
   
 ### See also  
  [Set the capacity required for a service or resource](../customer-service/set-capacity-required-service-resource.md)   
- [Set when your business is closed](../customer-service/set-when-business-closed.md)   
+ 
+[Set when your business is closed](set-when-business-closed-csh.md)
  

@@ -22,7 +22,7 @@ search.app:
   - D365CS
 ---
 
-# Create or change a service
+# Create or edit a service in Service Scheduling
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -35,7 +35,7 @@ To make scheduling services quick and easy, it’s helpful to predefine the spec
 > [!NOTE]
 > A service requires at least one selection rule and one or more resources, resource groups, or teams before the service can be scheduled with a service activity.
 
-## Create or change a service
+## Create a service
   
 Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
 

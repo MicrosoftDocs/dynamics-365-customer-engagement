@@ -50,7 +50,7 @@
 #### [Facilities and Equipments](add-facilities-equipment-ss-csh.md)
 ##### [Set work hours for a facility or equipment](set-work-hours-resource.md#set-work-hours-for-a-facility-or-equipment)
 #### [Services](create-edit-service-csh.md)
-#### [Service Activities](schedule-service-activity.md)
+#### [Service Activities](schedule-service-activity-csh.md)
 ### Configure using tools
 #### [Schedule Board](../field-service/configure-schedule-board.md)
 ### Work with settings
@@ -62,7 +62,7 @@
 ### Service scheduling (Customer Service app)
 #### [Business closure](set-when-business-closed-cs-app.md)
 #### [Create or change a service](create-edit-service-cs-app.md)
-#### Schedule a service activity
+#### [Schedule a service activity](schedule-service-activity-cs-app.md)
 #### [Facilities/Equipment](add-facilities-equipment-cs-app.md)
 #### [Resource Groups](create-edit-resource-group.md)
 #### [Sites](use-sites-manage-service-locations.md)
