@@ -1,64 +1,56 @@
 
 # [Overview](overview.md)
-# [What's new](whats-new-field-service-project-service.md)
+# [New and upcoming features](new-upcoming.md)
 
-# Admin guide
-## [Field service installation](install-field-service.md)
-## [Sample data installation](use-demo-data.md)
+# Installation
+## [Field Service installation (online)](install-field-service.md)
 ## [Mobile solution installation](install-the-mobile-app.md)
-## [Activate field service mobile licenses](activate-fs-mobile-app-license.md)
+## [Sample data installation](use-demo-data.md)
+## [Activate Field Service mobile licenses](activate-fs-mobile-app-license.md)
 ## [User security roles and accounts](view-user-accounts-security-roles.md)
 ## [Org-wide default settings](configure-default-settings.md)
-## [Travel time estimates with geocoding ](turn-on-auto-geocoding.md)
-## Resource setup
-### [Bookable resources](set-up-bookable-resources.md)
-### [Bookable resource categories](set-up-bookable-resource-categories.md)
-### [Resource pay types](set-up-resource-pay-types.md)
-### [Characteristics](set-up-characteristics.md)
-## Booking setup
-### [Booking statuses](set-up-booking-statuses.md)
-### [Booking rules](set-up-booking-rules.md)
-### [Territories](set-up-territories.md)
-### [Postal codes](set-up-postal-codes.md)
-## Work order setup
-### [Incident types](configure-incident-types.md)
-### [Priorities](set-priorities.md)
-### [Work order types](create-work-order-types.md)
-### [Work order sub-statuses](set-up-work-order-sub-statuses.md)
-### [Service task types](set-up-service-task-types.md)
-### [Time groups](set-up-time-groups.md)
-## Inventory set up
-### [Create a product or service](create-product-or-service.md)
-### [Price list](create-price-list.md)
-### [Purchase order sub-statuses](set-up-purchase-order-sub-statuses.md)
-### [Warehouse](create-warehouse.md)
-### [Ship via](create-ship-via.md)
-### [RMA sub-status](create-rma-sub-status.md)
-### [RTV sub-statuses](set-up-rtv-sub-statuses.md)
-## Agreements and billing setup
-### [Customer agreements](set-up-customer-agreements.md)
-### [Agreement sub-statuses](set-up-agreement-sub-statuses.md)
-### [Payment terms](set-up-payment-terms.md)
-### [Tax codes](set-up-tax-codes.md)
+## [Appsource for Field Service](appsource-addins.md)
 
-# [Scheduling and inventory management](user-guide.md)
-## Scheduling
-### [Configure the schedule board](configure-schedule-board.md)
-### [Create a work order](create-work-order.md)
-### [Schedule a work order](schedule-work-order.md)
-### [Submit and approve time-off requests](submit-approve-time-off-requests.md)
+# Work orders
+## [Create a new work order](create-work-order.md)
+## [Work order types](create-work-order-types.md)
+## [Create a product or service](create-product-or-service.md)
+## [Price list](create-price-list.md)
+## [Service task types](set-up-service-task-types.md)
+## [Incident types](configure-incident-types.md)
+## [Work order sub-statuses](set-up-work-order-sub-statuses.md)
+## [Priorities](set-priorities.md)
+## [Territories](set-up-territories.md)
+## [Postal codes](set-up-postal-codes.md)
+## [Tax codes](set-up-tax-codes.md)
 
-## Inventory management
-### [Set up customer assets](configure-set-up-customer-assets.md)
-### [Create a purchase order](create-purchase-order.md)
-### [Create an inventory transfer](create-inventory-transfer.md)
-### [Create an inventory adjustment](create-inventory-adjustment.md)
-### [Process a return](process-return.md)
-### [Return product to vendor](create-return-vendor.md)
-### [View product inventory](view-product-inventory.md)
+# Bookable resources
+## [Set up bookable resources](set-up-bookable-resources.md)
+## [Bookable resource categories](set-up-bookable-resource-categories.md)
+## [Characteristics](set-up-characteristics.md)
+## [Resource pay types](set-up-resource-pay-types.md)
+## [Tutorial: Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
-# [Mobile field service](field-service-mobile-app-user-guide.md)
+# [Scheduling](universal-resource-scheduling.md)
+## [Configure the schedule board](configure-schedule-board.md)
+## [Geocoding for travel time](turn-on-auto-geocoding.md)
+## [Booking statuses](set-up-booking-statuses.md)
+## [Time groups](set-up-time-groups.md)
+## [Booking rules](set-up-booking-rules.md)
+
+# Mobile app for field technicians
+## [Mobile field service](field-service-mobile-app-user-guide.md)
 ## [Field Resource Hub](field-resource-hub-users-guide.md)
+
+# Agreements and preventive maintenance
+## [Customer agreements](set-up-customer-agreements.md)
+## [Agreement sub-statuses](set-up-agreement-sub-statuses.md)
+
+# [Resource Scheduling Optimization (RSO)](rso-overview.md)
+## [Deployment](rso-deployment.md)
+## [Configuration](rso-configuration.md)
+## [Schedule optimization](rso-schedule-optimization.md)
+## [FAQ and troubleshooting tips](rso-faq.md)
 
 # [Connected Field Service (IoT)](connected-field-service.md)
 ## [CFS for IoT Central](cfs-iot-overview.md)
@@ -75,10 +67,20 @@
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 
-# [Resource Scheduling Optimization (RSO)](rso-overview.md)
-## [Deployment](rso-deployment.md)
-## [Configuration](rso-configuration.md)
-## [Schedule optimization](rso-schedule-optimization.md)
-## [FAQ and troubleshooting tips](rso-faq.md)
-
-# [Universal Resource Scheduling (URS)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
+# Assets, inventory and purchasing
+## Customer assets
+### [Set up customer assets](configure-set-up-customer-assets.md)
+## Inventory
+### [Warehouse](create-warehouse.md)
+###  [View product inventory](view-product-inventory.md)
+###  [Create an inventory transfer](create-inventory-transfer.md)
+###  [Create an inventory adjustment](create-inventory-adjustment.md)
+###  [Process a return](process-return.md)
+###  [Return product to vendor](create-return-vendor.md)
+### [RMA sub-status](create-rma-sub-status.md)
+### [RTV sub-statuses](set-up-rtv-sub-statuses.md)
+### [Ship via](create-ship-via.md)
+## Purchasing
+### [Create a purchase order](create-purchase-order.md)
+### [Purchase order sub-statuses](set-up-purchase-order-sub-statuses.md)
+### [Payment terms](set-up-payment-terms.md)
