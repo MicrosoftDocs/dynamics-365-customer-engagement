@@ -58,6 +58,10 @@ Relying party WS-Federation Passive protocol URL: Enter https://portal.contoso.c
 Add the **Name ID** claim to the relying party trust:
 
 **Transform[!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] account name** to **Name ID** claim (Transform an Incoming Claim):
+- Incoming claim type: Windows account name
+- Outgoing claim type: Name ID
+- Outgoing name ID format: Unspecified
+- Pass through all claim values
 
 ### Create AD FS site settings
 
@@ -69,9 +73,13 @@ Apply portal site settings referencing the above AD FS Relying Party Trust.
 > - Authentication/WsFederation/ADFS/AuthenticationType - http://adfs.contoso.com/adfs/services/trust
 >   - Use the value of the **entityID** attribute in the root element of the Federation Metadata (open the **MetadataAddress URL** in a browser that is the value of the above site setting)
 > - Authentication/WsFederation/ADFS/Wtrealm - https://portal.contoso.com/
-> - Authentication/WsFederation/ADFS/Wreply - https://portal.contoso.com/signin-federation   
-
-The **WS-Federation metadata** can be retrieved in **[!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]** by running the following script on the AD FS server: `Import-Module adfs Get-ADFSEndpoint -AddressPath /FederationMetadata/2007-06/FederationMetadata.xml`
+> - Authentication/WsFederation/ADFS/Wreply - https://portal.contoso.com/signin-federation
+>   
+> The **WS-Federation metadata** can be retrieved in **[!INCLUDE[pn-powershell-short](../includes/pn-powershell-short.md)]** by running the following script on the AD FS server:
+> ```
+> Import-Module adfs
+> Get-ADFSEndpoint -AddressPath /FederationMetadata/2007-06/FederationMetadata.xml
+> ```
 
 
 |                      Site Setting Name                      |                                                                                                                                                                                                                                                 Description                                                                                                                                                                                                                                                 |
@@ -112,18 +120,15 @@ The previous section describing AD FS can also be applied to [!INCLUDE[pn-azure-
 2.  Choose **Add an application my organization is developing**.
 3.  Specify a custom **name** for the application, and then choose the type **web application and/or web API**.
 4.  For the **Sign-On URL** and the **App ID URI**, specify the URL of the portal for both fields https://portal.contoso.com/.
-    This corresponds to the **Wtrealm** site setting value.
+    - This corresponds to the **Wtrealm** site setting value.
 5.  At this point, a new application is created. Go to the **Configure** section in the menu.
-    In the **single sign-on** section, update the first **Reply URL** entry to include a path in the URL http://portal.contoso.com/signin-azure-ad.
-    -   This corresponds to the **Wreply** site setting value.
+    - In the **single sign-on** section, update the first **Reply URL** entry to include a path in the URL http://portal.contoso.com/signin-azure-ad.
+    - This corresponds to the **Wreply** site setting value.
 6.  Select **Save** in the footer.
 7.  In the footer menu, select **View Endpoints** and note the **Federation Metadata Document** field.
-
-This corresponds to the **MetadataAddress** site setting value.
-
--   Paste this URL in a browser window to view the federation metadata XML, and note the **entityID** attribute of the root element.
-
--   This corresponds to the **AuthenticationType** site setting value.
+    - This corresponds to the **MetadataAddress** site setting value.
+    - Paste this URL in a browser window to view the federation metadata XML, and note the **entityID** attribute of the root element.
+    - This corresponds to the **AuthenticationType** site setting value.
 
 > [!Note]
 > A standard [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] AD configuration only uses the following settings (with example values):
