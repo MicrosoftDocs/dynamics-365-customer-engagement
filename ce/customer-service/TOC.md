@@ -61,7 +61,8 @@
 
 ### Service scheduling (Customer Service app)
 #### [Business closure](set-when-business-closed-cs-app.md)
-#### [Services](create-edit-service.md)
+#### [Create or change a service](create-edit-service-cs-app.md)
+#### Schedule a service activity
 #### [Facilities/Equipment](add-facilities-equipment-cs-app.md)
 #### [Resource Groups](create-edit-resource-group.md)
 #### [Sites](use-sites-manage-service-locations.md)

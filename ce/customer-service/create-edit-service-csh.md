@@ -50,43 +50,28 @@ Make sure that you have the System Administrator or System Customizer security r
 4. In the **General** section, enter a **Name** and **Description** to reflect the specifics of the service and describe what the service is. </br> Also, specify the initial status of the service activity when it is created. If your organization prefers to approve all service activities before committing them to the schedule, you can select **Requested** or **Tentative**.
 5. Select **Save**. The service grid is displayed for the service.
 
-5. In the service grid:
+5. In the service grid, define your selection rule:
 
-- Add a new **Subgroup** or **Requirement**
-1. Under **Scheduling**, in **Default Duration**, select how long the service lasts. This can be changed when the service activity is created. 
+   - Add a new requirement subgroup by selecting **Subgroup**. 
+   - Add a new resource requirement by selecting **Requirement**.
+   - In **Duration**, enter the duration to define how long the service lasts. This can be changed when the service activity is created. 
 
-   > [!NOTE]
-   > The maximum duration of an appointment or service activity is 10 days.
+     > [!NOTE]
+     > The maximum duration of an appointment or service activity is 10 days.
+   - Choose is the service is **Part of Same** organizational unit, resource tree or location.
+   - Lookup or quick create a **Fulfillment Preference**.
+   - Specify the **Organizational Unit**.
+   - Add **Resource Categories**  and define **Characteristics**.
+   - Add **Preferred Resource**. You can add as many resources as you want, and they can be a mix of individual users, facilities, equipment, and teams. 
+   - Define **Sort Option**.
+   - Provide **Effort Required**.
 
-6. In **Start Activities Every**, select how often service activities can start. This allows the start times of service activities to be staggered.
-  
-7. In **Beginning At**, select the time when the service activities must begin.
-  
-8.  In the **Required Resources** area, define a selection rule:  
-  
-    1.  Choose a selection rule in the right-hand pane.  
-  
-         Selection rules appear in the tree beside the **Selection Rule** button ![Gear button](../customer-service/media/crm-ua-selection-rule-gear.gif "Gear button").  
-  
-    2.  Choose one of the items under **Common Tasks** to define the selection rule by indicating how many resources are required and in what combination. 
-  
- **Add a Selection Rule**  
-  
    You can add complexity to a rule by adding a subrule to it.  
-  
- **Add Resources**  
-  
-   Add users, facilities, equipment, or teams as resources to a selection rule.  
-  
- **Add Resource Groups**  
-  
-   Resource groups are users, facilities, or equipment that can be scheduled interchangeably.  
-  
-   > [!NOTE]
-   >  You can save a service without defining a selection rule, but you won’t be able to schedule that service.   
-   >  More information: [Create or edit a selection rule](create-simple-selection-rule.md)  
-  
-7.  When you’re ready to save your data, click **Save**. A new resource category is created and is activated by default. 
+
+> [!NOTE]
+>  You can save a service without defining a selection rule, but you won’t be able to schedule that service.   
+
+7.  When you’re ready to save your data, select **Save**.  
   
 ## Activate or deactivate a service  
  You can make a service available on unavailable for scheduling by activating or deactivating it. To do this, in the list of service records, select a service, then select **Activate** or **Deactivate** in the command bar.  
@@ -101,6 +86,7 @@ Make sure that you have the System Administrator or System Customizer security r
 3.  Select **Find Available Times**. 
   
 ### See also  
- [Set the capacity required for a service or resource](set-capacity-required-service-resource.md)   
- [Create or change a resource group](create-edit-resource-group.md)   
- [Set work hours for a resource](set-work-hours-resource.md)
+
+[Create and manage resource categories](resource-categories-service-scheduling.md)
+ 
+[Set work hours to define availability](set-work-hours-resource.md)
