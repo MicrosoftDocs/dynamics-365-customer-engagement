@@ -95,6 +95,8 @@ Define what kind of support your customers are eligible for by creating entitlem
 6. Select **Save**.  
 
 As you save the entitlement, additional sections are added for a new entitlement like Entitlement channel, Products, and Contacts.
+
+![entitlements-csh](media/entitlement-csh.png)
   
 ### Add an entitlement channel  
  The **Entitlement Channel** section specifies the support channel through which the customer can reach the organization and seek support.  
