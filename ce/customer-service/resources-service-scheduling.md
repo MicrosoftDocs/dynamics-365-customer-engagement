@@ -74,7 +74,18 @@ Make sure that you have the System Administrator or System Customizer security r
     - Select if the resource should be displayed on the schedule board.
     - Select if you want to enable the resource for availability search.
 
-6. In the **Related** section, view and create all the common associations for the resource.
+6. In the **Related** section, view and create all the common associations for the resource. You can create the following:
+
+   - Bookable Resource Associations
+   - Resource Bookings
+   - Resource Booking Headers
+   - Resource Characteristics
+   - Resource Category Associations
+   - Resource Territories
+   - Actuals
+   - Work Templates
+   - Resource's Children
+   - Resource's Parents
 
 ## Set work hours for the resources
 

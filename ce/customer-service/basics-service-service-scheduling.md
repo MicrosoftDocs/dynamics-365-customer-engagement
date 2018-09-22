@@ -123,7 +123,7 @@ Service Scheduling entities are grouped under the following logical groups:
 - **Schedule Board** </br>
    The Dynamics 365 schedule board provides an overview of resource availability and bookings you can make. 
 
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure the schedule board for resource availability](../field-service/configure-schedule-board.md)
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the schedule board to configure service activity](use-schedule-board-configure-service-activity.md)
 
 **Settings**
 

@@ -39,23 +39,44 @@ Make sure that you have the System Administrator or System Customizer security r
 2. From the list of entity records, select **Scheduling > Service Activity**.
    - The **My Service Activities** view is displayed. You can switch between various system views using the drop-down.
    - Select **Show Chart** in the command bar to see the chart view.
-   - Select any existing service activity to see additional options in the command bar
+   - Select any existing service activity to see additional options in the command bar.
 3. On the command bar, select **Service Activity** to create a new service activity.  
 
 4. In the **Service Activity** section:
-    - Enter the **Subject** of the service activity
-    - Select the type of service from the **Service** drop-down
-    - Select **Customers** to specify the owner of the activity
-    - Specify **Location** of the activity
-    - Select **Show Time As** Requested or Tentative
-    - Provide the **Organizational Business Unit**
+    - Enter the **Subject** of the service activity.
+    - Select the type of service from the **Service** drop-down.
+    - Select **Customers** to specify the customer who requested the activity.
+    - Specify **Location** of the activity.
+    - Select **Show Time As** Requested or Tentative.
+    - Provide the **Organizational Business Unit**.
 
-5. In the **Details** section:
+5. Select **Save**.
 
-6. In the **Bookable Resource Bookings** section:
+6. In the **Details** section:
+
+   - Look for records in the **Regarding** box to align a record. For example, this service activity can be regarding a case, knowledge article or more.
+   - Provide **Category** and **Sub-category** for the activity.
+
+7. In the **Bookable Resource Bookings** section:
+
+   - Create a new bookable resource booking or add an exiting one.
+
+     [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and set up bookable resources](resources-service-scheduling.md)
+
+8. Select **Book** to schedule a service activity in the calendar.
+
+   The **Schedule Board** is displayed.
+
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the schedule board to configure service activity](use-schedule-board-configure-service-activity.md)
+
+9. Select **Book and Exit** on the Schedule Board to complete scheduling a service activity.   
 
 
 
+1. 
+2. 
+3. 
+4. 
 ## Navigate the service calendar
 
 In the Service calendar, you can do the following tasks and activities:  

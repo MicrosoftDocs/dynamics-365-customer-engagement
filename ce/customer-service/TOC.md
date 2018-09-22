@@ -52,7 +52,7 @@
 #### [Services](create-edit-service-csh.md)
 #### [Service Activities](schedule-service-activity-csh.md)
 ### Configure using tools
-#### [Schedule Board](../field-service/configure-schedule-board.md)
+#### [Schedule Board](use-schedule-board-configure-service-activity.md) 
 ### Work with settings
 #### [Organizational Units](create-org-units-cs-scheduling.md)
 #### [Business Closure](set-when-business-closed-csh.md)
