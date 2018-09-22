@@ -108,6 +108,9 @@ From here, the workflow will trigger based on the alert type. While you may have
 
 Once you've saved your Flow, log in to Dynamics 365 for Field Service, and choose Connected Field Service. You may see a window that offers a few links to learn more about Connected Field Service and Azure IoT offerings. You can choose to learn more, or just dismiss this window. 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the IoT alerts in Connected Field Service](media/iot-central-alerts-14.png)
+
 In Connected Field Service, you should now see incoming alerts from IoT Central on the dashboard. You can select one of these alerts to see more details, including device information, threshold, and the violated rules. You can also select the IoT Central alert URL that will take you back to IoT Central.
 
 > [!div class="mx-imgBorder"]
