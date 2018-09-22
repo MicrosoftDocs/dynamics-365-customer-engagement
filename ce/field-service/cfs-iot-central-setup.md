@@ -56,13 +56,15 @@ New to Field Service and need a tenant? No worries. [Sign up for a free trial fo
 
 The free Connected Field Service add-on automatically provisions a number of Azure IoT services seamlessly on top of Dynamics 365 for Field Service. 
  
-Navigate to the Dynamics 365 admin center. On the **Instances** tab, select the Dynamics 365 for Field Service tenant, and then edit **Solutions**. Select **Connected Field Service version 1.0.18260.2**, and then choose **Install**. Follow the on-screen instructions to complete the installation.
+To install Connected Field Service:
+1. Navigate to the Dynamics 365 admin center. 
+2. On the **Instances** page, select the Dynamics 365 for Field Service tenant, and then edit **Solutions**. 
+3. On the **Manage your solutions** page, select **Connected Field Service version 1.0.18260.2**, and then choose **Install**. Follow the on-screen instructions to complete the installation.
     
 ## Install Connected Field Service sample data    
 Next, you'll need to download and install the Connected Field Service sample data package, which is designed for use with the Contoso template in Azure IoT Central. The sample data also includes an **IoT Sample - Process alert** workflow that showcases automated alert triaging.
 
-Follow these steps to install the Connected Field Service sample data:
-
+To install the Connected Field Service sample data:
 1. [Download the PackageDeployer zip file](https://aka.ms/cfsdemodata).
 2. In Windows File Manager, go to the folder where you downloaded the zip file. 
 3. Right-click the zip file, and then select **Properties**. 
@@ -74,8 +76,6 @@ Follow these steps to install the Connected Field Service sample data:
 6. Double-click **packagedeployer.exe** to run it and install the sample data. 
 7. When prompted, enter your system administrator credentials to sign in to your Dynamics 365 tenant. When you see the Azure IoT Central and Connected Field Service sample data deployment page, follow the on-screen instructions to complete the installation.
 
-
+That's it! You're ready to take the tutorial.
    
-
-
 Next step: [Set up device alerts](cfs-iot-central-alerts.md) 
