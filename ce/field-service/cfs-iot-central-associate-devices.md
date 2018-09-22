@@ -58,4 +58,5 @@ Associate a device in Connected Field Service with a customer account so that wo
 
 This device will now be associated with a customer account, and can receive IoT alerts from IoT Central.
 
-Next step: [Send work order updates to IoT Central](cfs-iot-central-work-orders.md)
+> [!div class="nextstepaction"]
+> [Send work order updates to IoT Central](cfs-iot-central-work-orders.md)
