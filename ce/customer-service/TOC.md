@@ -1,5 +1,4 @@
 # [Dynamics 365 for Customer Service](help-hub.md)
-## [What's new](whats-new-customer-service.md)
 ## [Overview](overview.md)
 
 ## User Guide
@@ -46,8 +45,10 @@
 ### [Overview ](basics-service-service-scheduling.md)
 ### Schedule entities
 #### [Resources](resources-service-scheduling.md)  
+##### [Set work hours for a resource](set-work-hours-resource.md#set-work-hours-for-a-resource)
 #### [Resource Categories](resource-categories-service-scheduling.md)
 #### [Facilities and Equipments](add-facilities-equipment-service-scheduling.md)
+##### [Set work hours for a facility or equipment](set-work-hours-resource.md#set-work-hours-for-a-facility-or-equipment)
 #### [Services](create-edit-service.md)
 #### [Service Activities](schedule-service-activity.md)
 ### Configure using tools
@@ -57,12 +58,12 @@
 #### [Business Closure](set-when-business-closed.md)
 ### [Get the new Service Scheduling experience](enable-urs-service-scheduling.md)
 
-<!-- ### Service scheduling for web app
+### Service scheduling (Customer Service app)
 #### [Business closure](set-when-business-closed.md)
 #### [Services](create-edit-service.md)
 #### [Facilities/Equipment](add-facilities-equipment-service-scheduling.md)
 #### [Resource Groups](create-edit-resource-group.md)
-#### [Sites](use-sites-manage-service-locations.md) -->
+#### [Sites](use-sites-manage-service-locations.md)
 
 
 ## Customize
@@ -73,8 +74,7 @@
 ### [Add timer control to forms](add-timer-control-case-form-track-time-against-sla.md)
 ### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 ### [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
-### [Set the custom icon in views for Case Origin field](set-custom-icon-custom-case-origin.md)
-### [Define status reason transitions for case management](../customize/define-status-reason-transitions.md)
+
 
 ## Troubleshoot
 ### [SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md)

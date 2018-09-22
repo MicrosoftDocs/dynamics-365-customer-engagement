@@ -26,9 +26,9 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-A resource in service scheduling is anything that needs to be scheduled. You can set up Generic, Contact, User, Equipment, Account, Crew, Facility or Pool as bookable resource.
+A resource in service scheduling is anything that needs to be scheduled. You can set up Generic, Contact, User, Equipment, Account, Crew, Facility, or Pool as bookable resource.
 
-## Create a new bookable resource record
+## Create a new bookable resource
 
 Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
 
@@ -39,22 +39,22 @@ Make sure that you have the System Administrator or System Customizer security r
    - Select any existing bookable resource to see additional options in the command bar
 3. On the command bar, select **New** to create a new bookable resource. 
 4. In the **General** section:
-   - Select a **Resource Type**:
+   - Select a **Resource Type**. You can choose from the following options:
 
-      - Generic:
-      - Contact: Resources that aren't directly a part of your organization, but that you subcontract to
-      - User: The resource is a member of your organization
-      - Equipment: Company assest
-      - Account:
-      - Crew: Any collection of resources, for example, two or more workers, or a group
-      - Facility:
-      - Pool:
+      - Generic
+      - Contact
+      - User
+      - Equipment
+      - Account
+      - Crew
+      - Facility
+      - Pool
       
-   - Look up and fill the name and the resource type field. You can also create a quickly create a new record
+   - Look up for the resource type. You can also create a new record using the quick create dialog box. The **Name** of the resource type is automatically populated.
 
    - Select a **Time Zone**
 
-   - Select **Save**
+   - Select **Save**. A new resource is created and activated by default.
 
      **Resource Characteristics** and **Resource Categories**  sections are displayed.
     - In the **Resource Characteristics** section, select **...** and then select **Add New Bookable Resource Characteristics** to add characteristics.
@@ -62,7 +62,7 @@ Make sure that you have the System Administrator or System Customizer security r
       [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Specify skills for resources (Field Service)](../field-service/set-up-characteristics.md)
    
       - Use the tooltips to help fill in your information and then select **Save**
-      - Look up and assign **Rating Value**. You can also create a new rating value
+      - Look up and assign **Rating Value**. You can also create a new rating value.
       - Assign the characteristic to a **Resource**
 
     - In the **Resource Categories** section, select **...** and then select **Add New Bookable Resource Category** to add a category.
@@ -76,16 +76,12 @@ Make sure that you have the System Administrator or System Customizer security r
 
 6. In the **Related** section, view and create all the common associations for the resource.
 
+## Set work hours for the resources
 
-## Select resources for service  
- When you add a resource to a service, create a selection rule to determine how resources will be selected for service activities.  
-  
- You can create a simple rule that selects resources from a list, or a compound rule that selects a combination of resources, or a complex tree of selection rules that selects from groups of equivalent resources.  
-  
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a simple selection rule](../customer-service/create-simple-selection-rule.md)
+You can set work hours for the bookable resources where you can define when the resources will be available to be booked for services.
 
-## Add resources to existing services  
- You can add as many resources as you want, and they can be a mix of individual users, facilities, equipment, and teams. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up or change a service](../customer-service/create-edit-service.md)  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set work hours for a resource](set-work-hours-resource.md#set-work-hours-for-a-resource)
+
 
 ### See also
 

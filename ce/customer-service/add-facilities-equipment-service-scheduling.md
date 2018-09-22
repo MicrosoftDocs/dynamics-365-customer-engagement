@@ -27,6 +27,9 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Facilities and equipment are resources you’d use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. Add these resources to [!INCLUDE[pn_dynamics-crm](../includes/pn-dynamics-crm.md)] to ensure optimal services to your customers.  
+
+> [!NOTE]
+> With the October'18 release, the new Service Scheduling is now available from the Customer Service Hub sitemap. We recommend that you create facilities and equipments using the new experience. </br> However, if you are using Customer Service web app, you can create facilities and equipments by navigating to **Settings > Service Management** or **Settings > Business Management**.
   
 ## Create a new facility or equipment  
 
@@ -43,9 +46,12 @@ Make sure that you have the System Administrator or System Customizer security r
   
     - **Name**. Enter the name of the facility or equipment you want to add for service scheduling.  
   
-    - **Business Unit Id**. Add a business unit id. To choose a different business unit, select the **Lookup** button and then select from the list.  
+    - **Business Unit Id**. Dynamics 365 enters the business unit automatically. To choose a different business unit, select the **Lookup** button and then select from the list. You can also create a new business unit id.
   
-    - **Organizational Unit**. Look for an organizational unit or create a new one.
+    - **Organizational Unit**. Select the location where the facility or equipment is located.
+
+      > [!TIP]
+      > Make sure the organizational unit and the customer are in the same location. Resources for a given service activity should also be located at the same organizational unit.
   
     - **Primary Email**. Enter the email address of the site manager or equipment manager. If there are any updates or cancellations related to the schedule, facilities, or equipment, notifications are sent to this email address.  
   
@@ -55,4 +61,12 @@ Make sure that you have the System Administrator or System Customizer security r
   
 6.  When you’re done, select **Save** or **Save and Close**.  
   
+## Set work hours for a facility or equipment
 
+You can set work hours for a facility or equipment to define when it will be available to be booked.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set work hours for a facility or equipment](set-work-hours-resource.md#set-work-hours-for-a-facility-or-equipment)
+
+### See also
+
+[Service Scheduling overview](basics-service-service-scheduling.md)

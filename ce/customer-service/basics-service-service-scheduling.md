@@ -30,7 +30,7 @@ Avoid disruptions in service by making sure that your resources are scheduled op
 
 Service Scheduling, now built atop **Universal Resource Scheduling (URS)**, provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling. This is done with the help of predictable workloads for employees, and reliable time estimates for customers and clients.
 
-## What is Service Scheduling and how you can benefit from it
+## Understand the basics of scheduling services
 
 Using Service Scheduling, you can plan and schedule service activities for your customers by bringing together all your resources. This can be explained with the help of following scenario: 
 
@@ -50,9 +50,11 @@ With the October'18 release, Service Scheduling built on Universal Resource Sche
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable the new URS based Service Scheduling](enable-urs-service-scheduling.md)
 
-You can access the new service scheduling from the Customer Service Hub sitemap in the following ways:
+You can access the new service scheduling from the Customer Service Hub sitemap:
 
 - On the sitemap icon ![Sitemap](media/sitemap-icon.png) , select **...** to go to **Service Scheduling** and access  the scheduling entity record types
+
+  ![access-service-scheduling](media/access-service-scheduling-csh.png)
 
 See [Understand Service Scheduling entities](#understand-service-scheduling-entities) to know more about the entities in service scheduling.
 
@@ -101,7 +103,7 @@ Service Scheduling entities are grouped under the following logical groups:
  
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md)
 
-- **Facility/Equipments**  </br>
+- **Facilities/Equipments**  </br>
    Facilities and equipment are resources you’d use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. 
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add facilities and equipment for service scheduling](add-facilities-equipment-service-scheduling.md)

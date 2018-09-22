@@ -28,7 +28,7 @@ search.app:
 
 Using bookable resource categories you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment.
 
-## Create a new bookable resource category
+## Create a new resource category
 
 Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
 
@@ -46,6 +46,18 @@ Make sure that you have the System Administrator or System Customizer security r
 
 6. In the **Related** section, you can view and manage various resource category associations.
 
+Similarly, you can create a new requirement resource category for requirements. 
+
+## Add resources to a resource category
+
+To assign resources to resource category:
+
+1. In the **Related** section, go to **Resource Category Associations**.
+
+2. Select **Add New Bookable Resource Category Association**. A resource category is populated. 
+
+3. Add a resource to this resource category by selecting a resource in the **Resource** box. You can either lookup for an existing resource or create a new one.
+
 
 ### See also 
-[Create or edit a resource group](../customer-service/create-edit-resource-group.md)  
+[Service Scheduling overview](basics-service-service-scheduling.md)
