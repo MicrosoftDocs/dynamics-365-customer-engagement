@@ -123,10 +123,10 @@ The previous section describing AD FS can also be applied to [!INCLUDE[pn-azure-
 4.  For the **Sign-On URL** and the **App ID URI**, specify the URL of the portal for both fields https://portal.contoso.com/.
     - This corresponds to the **Wtrealm** site setting value.
 5.  At this point, a new application is created. Go to the **Configure** section in the menu.
-    - In the **single sign-on** section, update the first **Reply URL** entry to include a path in the URL http://portal.contoso.com/signin-azure-ad.
+6.  In the **single sign-on** section, update the first **Reply URL** entry to include a path in the URL http://portal.contoso.com/signin-azure-ad.
     - This corresponds to the **Wreply** site setting value.
-6.  Select **Save** in the footer.
-7.  In the footer menu, select **View Endpoints** and note the **Federation Metadata Document** field.
+7.  Select **Save** in the footer.
+8.  In the footer menu, select **View Endpoints** and note the **Federation Metadata Document** field.
 
     - This corresponds to the **MetadataAddress** site setting value.
     - Paste this URL in a browser window to view the federation metadata XML, and note the **entityID** attribute of the root element.
