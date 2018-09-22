@@ -86,5 +86,5 @@ Once you've saved the Flow, head on back to your IoT Central environment. Choose
 > [!div class="mx-imgBorder"]
 > ![alt text](media/iot-central-work-orders-7.png)
 
-
-Next step: [Send booking updates to IoT Central](cfs-iot-central-bookings.md)
+> [!div class="nextstepaction"]
+> [Send booking updates to IoT Central](cfs-iot-central-bookings.md)
