@@ -116,7 +116,5 @@ In Connected Field Service, you should now see incoming alerts from IoT Central 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an IoT alert detail, showing the URL back to IoT Central where the alert originated](media/iot-central-alerts-13.png)
 
-
-
-
-Next step: [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
+> [!div class="nextstepaction"]
+> [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
