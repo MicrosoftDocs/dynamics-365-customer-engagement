@@ -78,4 +78,5 @@ To install the Connected Field Service sample data:
 
 That's it! You're ready to take the tutorial.
    
-Next step: [Receive IoT alerts from IoT Central](cfs-iot-central-alerts.md) 
+> [!div class="nextstepaction"]
+> [Receive IoT alerts from IoT Central](cfs-iot-central-alerts.md) 
