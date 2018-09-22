@@ -27,8 +27,34 @@ search.app:
 
 # 4 - Send booking updates to IoT Central
 
-[overview goes here]
-
-[instructions go here]
-
 Enable Flow template "[Sample Contoso] When a technician is booked in CFS, update IoT Central with the details”. After schedule technician via Schedule board, see dispatch information in IoT Central. 
+
+## Goal
+Turn on flow  “[Sample Contoso] When a technician is booked in CFS, update IoT Central with the details”
+Steps:
+Search for   “[Sample Contoso] When a technician is booked in CFS, update IoT Central with the details”
+Sign in with Azure IoT Central and Dynamics account
+
+*[insert screen showing sign-in to Dynamics 365 and Azure IoT Central]*
+ 
+Fill up CRM organization name in the spots of “Get the work order”, “Get the alert”, “Get the resource details”.  Fill up Azure IoT Central application name in the spot of “Application”.
+
+ *[insert screen showing Flow drag-and-drop canvas. A single example screen is sufficient.]*
+
+
+
+Open schedule board and compare the total resource availability, location and skills to the demand from IoT alerts such as alert type and location.  Confirm a book. 
+
+*[screen TBD]*
+
+The booking information such as technician name, estimated arrival time, estimated service duration etc. will be sent out to IoT Central. 
+ 
+*[screenshot showing Refrigerator 3 dashboard]* 
+ 
+How does that flow work?
+If you click any run history, you can see the audit trial of data inputs and outputs.
+ 
+ 
+*[screenshot showing audit trail of inputs/outputs]* 
+
+
