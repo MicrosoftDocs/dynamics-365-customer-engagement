@@ -25,7 +25,7 @@ search.app:
 
 This topic provides a single location for you to download the developer tools, assemblies, and developer code samples that are shipped as part of the Software Development Kit (SDK) for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online) Customer Engagement version 9.x.
 
-## Developer Tools
+## Developer tools
 
 The following developer tools in the SDK are available as NuGet packages:
 - Code generation
@@ -47,9 +47,9 @@ The following SDK assemblies are available:
 |Microsoft.CrmSdk.CoreAssemblies|Microsoft.Xrm.Sdk.dll<br/>Microsoft.Crm.Sdk.Proxy.dll|<https://www.nuget.org/packages/Microsoft.CrmSdk.CoreAssemblies/>|
 |Microsoft.CrmSdk.Data|Microsoft.Xrm.Sdk.Data.dll|<https://www.nuget.org/packages/Microsoft.CrmSdk.Data/>|
 |Microsoft.CrmSdk.Deployment| Microsoft.Xrm.Sdk.Deployment.dll|<https://www.nuget.org/packages/Microsoft.CrmSdk.Deployment/>|
-|Microsoft.CrmSdk.Workflow|Microsoft.Xrm.Sdk.Workflow.dll|https://www.nuget.org/packages/Microsoft.CrmSdk.Workflow/|
+|Microsoft.CrmSdk.Workflow|Microsoft.Xrm.Sdk.Workflow.dll|<https://www.nuget.org/packages/Microsoft.CrmSdk.Workflow/>|
 |Microsoft.CrmSdk.XrmTooling.CoreAssembly|Microsoft.Xrm.Tooling.Connector.dll<br/>Microsoft.Rest.ClientRuntime.dll|<https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.CoreAssembly/>|
-|Microsoft.CrmSdk.Outlook|Microsoft.Crm.Outlook.dll|https://www.nuget.org/packages/Microsoft.CrmSdk.Outlook/|
+|Microsoft.CrmSdk.Outlook|Microsoft.Crm.Outlook.dll|<https://www.nuget.org/packages/Microsoft.CrmSdk.Outlook/>|
 
 ## Developer code samples
 
