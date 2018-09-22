@@ -116,7 +116,7 @@ Service Scheduling entities are grouped under the following logical groups:
 - **Service Activities** </br>
    Create a service activity by finding the next available time of resources for a service or simply without checking for conflicts. 
 
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity.md)
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md)
 
 **Tools**
 

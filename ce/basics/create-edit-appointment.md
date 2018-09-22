@@ -65,7 +65,7 @@ If you want to add an attachment, make sure you save the appointment first. Then
 -   Service calendar items aren’t added to your [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] calendar.  
 -->  
 ### See also  
- [Navigate the service calendar](../customer-service/schedule-service-activity.md#navigate-the-service-calendar) </br>
+ [Navigate the service calendar (Customer Service app)](../customer-service/navigate-service-calendar-cs-app.md) </br>
  [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)   
 <!-- 
 [Track Outlook appointments in Dynamics 365 for Outlook](../outlook-add-in/track-outlook-appointments-dynamics-365-outlook.md)
