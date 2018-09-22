@@ -46,7 +46,7 @@ Make Connected Field Service send service information to IoT Central when work o
 
 4. From the list of available templates, choose "**Sample Contoso- When a work order is created in CFS, update IoT Central"**
 
-  a. Note: Alternatively, you can navigate directly to [the Microsoft Flow templates page](https://preview.flow.microsoft.com/templates/) and search "CFS" to find this template, as seen below.
+Note: Alternatively, you can navigate directly to [the Microsoft Flow templates page](https://preview.flow.microsoft.com/templates/) and search "CFS" to find this template, as seen below.
   
 > [!div class="mx-imgBorder"]
 > ![alt text](media/iot-central-work-orders-2.png)
