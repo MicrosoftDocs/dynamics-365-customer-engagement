@@ -24,9 +24,9 @@ search.app:
 
 # Use the schedule board to configure service activity
 
-## Navigate the service calendar
+Schedule Board in Service Scheduling lets you view resource availability before you can book them for service activities. Set up views and filters as per your preference and book service activities for each of your resources.
 
-In the Service calendar, you can do the following tasks and activities:  
+In the schedule board, you can do the following tasks and activities:  
   
 - View your organization's daily, weekly, and monthly schedule of appointments and service activities.  
   
@@ -38,9 +38,15 @@ In the Service calendar, you can do the following tasks and activities:
   
 - Search for conflicts in the schedule.  
   
-  You can’t customize the Service calendar or change the default view with the application. However, you can ask your system administrator to change the colors of the time blocks.  
-  
-1. [!INCLUDE[proc_service_service_calendar](../includes/proc-service-service-calendar.md)]  
+> [!NOTE]
+> You can’t customize the schedule board or change the default view with the application. However, you can ask your system administrator to change the colors of the time blocks.  
+ 
+
+## Access Schedule Board
+
+In the Customer Service Hub sitemap, navigate to **Service Scheduling** > **Tools** and select **Schedule Board**.
+
+## Navigate the Schedule Board
   
 2. A list of resources is displayed on the left side of the calendar in alphabetical order. To view the resources, appointments, and service activities for anyone in your organization, in the **Type** list, select **Resource**, and then in the **View** list select the resource view.  
   
