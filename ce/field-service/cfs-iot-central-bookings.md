@@ -39,8 +39,6 @@ Make Connected Field Service send booking updates to IoT Central when a resource
 > [!div class="mx-imgBorder"]
 > ![alt text](media/iot-central-bookings-1.png)
 
-[insert screen showing sign-in to Dynamics 365 and Azure IoT Central]
-
 3. Like with work order updates in step 3 of this tutorial, this Flow template will be mostly ready-to-go. To get it working, you need to update the following (see screenshots below for reference):
 
     a. Add your D365 organization name in the corresponding fields in **Get the work order**, **Get the alert**, and **Get the resource details**.
