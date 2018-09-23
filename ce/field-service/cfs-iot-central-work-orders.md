@@ -66,7 +66,7 @@ Note: Alternatively, you can navigate directly to [the Microsoft Flow templates 
     
     e. Expand "Update the work order details for the device that raised the alert," and then select your IoT Central application name and also the device template, "Refrigerated Vending Machine (1.0.0)."
     
-    f. **Note**: Running this Flow will not add work order information retroactively---only devices going forward will be updated on the device page in Azure IoT Central
+    f. **Note**: Running this Flow will not add work order information retroactively---only devices going forward will be updated on the device page in Azure IoT Central.
     
 > [!div class="mx-imgBorder"]
 > ![alt text](media/iot-central-work-orders-5.png)
