@@ -43,7 +43,7 @@ Azure IoT Central requires no extensive cloud development or coding skills to ge
 With Microsoft Flow templates, users can connect their accounts, take advantage of our pre-built templates, and customize their own flows in an easy visual designer without the need for coding experience.
 
 ## Tutorial - Get integration scenarios ready in minutes
-Connect IoT Central to Connected Field Service using Microsoft Flow in just a matter of minutes with these tutorials. Be sure to check out [the prerequisites](cfs-iot-central-setup) before getting started. 
+Connect IoT Central to Connected Field Service using Microsoft Flow in just a matter of minutes with these tutorials. Be sure to check out [the prerequisites](cfs-iot-central-setup.md) before getting started. 
 1. [Receive IoT alerts from IoT Central](cfs-iot-central-alerts.md)
 2. [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
 3. [Send work order updates to IoT Central](cfs-iot-central-work-orders.md)
