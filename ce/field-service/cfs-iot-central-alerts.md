@@ -1,5 +1,5 @@
 ---
-title: "Receive IoT alerts in Connected Field Service from IoT Central | MicrosoftDocs"
+title: "Receive IoT alerts in Connected Field Service from Azure IoT Central | MicrosoftDocs"
 ms.custom: "dyn365-fieldservice"
 ms.date: 09/24/2018
 ms.reviewer: ""
@@ -25,13 +25,13 @@ search.app:
   - D365FS
 --- 
 
-# 1 - Receive IoT alerts in Connected Field Service from IoT Central
+# 1 - Receive IoT alerts in Connected Field Service from Azure IoT Central
 
-At the end of this step in the tutorial, you will be able to receive and see alerts from Azure IoT Central in your instance of Connected Field Service. IoT alerts will display on your dashboard and relate to relevant work orders that have been created automatically.  
+At the end of this step in the tutorial, you'll be able to receive and see alerts from Azure IoT Central in your instance of Connected Field Service. IoT alerts will display on your dashboard and relate to relevant work orders that have been created automatically.  
 
 ## Goal
 
-Connect IoT Central to Connected Field Service by configuring the "Create CFS alerts from IoT Central" template in Microsoft Flow.
+Connect Azure IoT Central to Connected Field Service by configuring the "Create CFS alerts from IoT Central" template in Microsoft Flow.
 
 ## Steps
 
@@ -59,7 +59,7 @@ Connect IoT Central to Connected Field Service by configuring the "Create CFS al
 
 5. Then, under **Actions,** choose **Microsoft Flow** from the Select Action options. This will take you to another working environment in the Microsoft Flow application. This is where you will set up your integrations.
 
-    a. **Note for IoT Central trial users**: In order to use Microsoft Flow from IoT Central, you must be using the pay-as-you-go form of IoT Central. Trial users can work around this by heading directly to [Microsoft Flow](https://flow.microsoft.com/en-us/templates/) to configure steps 7 and 8 in this tutorial. Then in IoT Central, the Flow will be all ready to go. 
+    a. **Note for Azure IoT Central trial users**: In order to use Microsoft Flow from Azure IoT Central, you must be using the pay-as-you-go form of IoT Central. Trial users can work around this by heading directly to [Microsoft Flow](https://flow.microsoft.com/en-us/templates/) to configure steps 7 and 8 in this tutorial. Then in Azure IoT Central, the Flow will be all ready to go. 
     
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Microsoft Flow as an Action option in IoT Central](media/iot-central-alerts-5.png)
@@ -74,21 +74,21 @@ Connect IoT Central to Connected Field Service by configuring the "Create CFS al
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Flow "Connect accounts" page](media/iot-central-alerts-8.png)
 
-8. Now you'll see the actual Flow. Since this is a template, the only actions you must take are:
+8. Now you'll see the actual Flow. Because this is a template, the only actions you must take are:
 
-    a. Select your IoT Central application name
+    a. Select your Azure IoT Central application name.
 
-    b. Set IoT rule as the one you created earlier. In our suggested example, it would be: "Cash drawer level is high"
+    b. Set IoT rule as the one you created earlier. In our suggested example, it would be: "Cash drawer level is high."
 
-    c. Select your Dynamics 365 Organization name
+    c. Select your Dynamics 365 Organization name.
 
-    d. Set Entity Name to "IoT Alerts"
+    d. Set Entity Name to "IoT Alerts."
 
-    e. Select "Show advanced options" to reveal several hidden fields
+    e. Select "Show advanced options" to reveal several hidden fields.
 
-    f. Set "Alert Type Label" to "Cash box almost full"
+    f. Set "Alert Type Label" to "Cash box almost full."
 
-    g. Save the Flow
+    g. Save the Flow.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Flow fields for IoT Central and Dynamics 365](media/iot-central-alerts-9.png)
@@ -111,7 +111,7 @@ Once you've saved your Flow, log in to Dynamics 365 for Field Service, and choos
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT alerts in Connected Field Service](media/iot-central-alerts-14.png)
 
-In Connected Field Service, you should now see incoming alerts from IoT Central on the dashboard. You can select one of these alerts to see more details, including device information, threshold, and the violated rules. You can also select the IoT Central alert URL that will take you back to IoT Central.
+In Connected Field Service, you should now see incoming alerts from Azure IoT Central on the dashboard. You can select one of these alerts to see more details, including device information, threshold, and the violated rules. You can also select the IoT Central alert URL that will take you back to IoT Central.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT alerts in Connected Field Service](media/iot-central-alerts-12.png)

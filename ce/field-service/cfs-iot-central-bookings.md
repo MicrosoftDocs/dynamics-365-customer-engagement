@@ -25,16 +25,16 @@ search.app:
   - D365FS
 --- 
 
-# 4 - Send booking updates to IoT Central
+# 4 - Send booking updates to Azure IoT Central
 Now that you've configured Connected Field Service to send service updates back to IoT Central, let's make it so booking details are sent back too.
 
 ## Goal
-Make Connected Field Service send booking updates to IoT Central when a resource is booked in Connected Field Service.
+Make Connected Field Service send booking updates to Azure IoT Central when a resource is booked in Connected Field Service.
 
 ## Steps
-1. Head over to the [Microsoft Flow templates page](https://preview.flow.microsoft.com/templates/) and search for the following template: "**[Sample Contoso] When a technician is booked in CFS, update IoT Central with the details.**"
+1. Head over to the [Microsoft Flow templates page](https://preview.flow.microsoft.com/templates/) and search for the following template: "**[Sample Contoso] When a technician is booked in Connected Field Service, update Azure IoT Central with the details.**"
 
-2. Once you've selected the template, you'll be asked to sign in with both your Dynamics account and IoT Central account.
+2. Once you've selected the template, you'll be asked to sign in with both your Dynamics 365 account and Azure IoT Central account.
 
 > [!div class="mx-imgBorder"]
 > ![alt text](media/iot-central-bookings-1.png)
@@ -60,7 +60,7 @@ Make Connected Field Service send booking updates to IoT Central when a resource
 
 ## See the results
 
-Back in IoT Central, you'll now see booking information associated with this device, such as technician name, estimated arrival time, and estimated service duration.
+Back in Azure IoT Central, you'll now see booking information associated with this device, such as technician name, estimated arrival time, and estimated service duration.
 
 > [!div class="mx-imgBorder"]
 > ![alt text](media/iot-central-bookings-5.png)

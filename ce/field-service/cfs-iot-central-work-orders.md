@@ -25,13 +25,13 @@ search.app:
   - D365FS
 --- 
 
-# 3 - Send work order updates to IoT Central
+# 3 - Send work order updates to Azure IoT Central
 
-When working with the demo data package, you'll see that work orders are automatically created in Connected Field Service when an IoT device triggers an alert in IoT Central. In Connected Field Service, you'll see that work order associated with the IoT alert. But how do you get this information back into IoT Central?
+When working with the sample data package, you'll see that work orders are automatically created in Connected Field Service when an IoT device triggers an alert in Azure IoT Central. In Connected Field Service, you'll see that work order associated with the IoT alert. But how do you get this information back into IoT Central?
 
 ## Goal
 
-Make Connected Field Service send service information to IoT Central when work orders are automatically generated.
+Make Connected Field Service send service information to Azure IoT Central when work orders are automatically generated.
 
 ## Steps
 
@@ -58,17 +58,17 @@ Note: Alternatively, you can navigate directly to [the Microsoft Flow templates 
 
 6. The template will be mostly ready to run; you only need to make the following changes (see the screenshots below for reference):
 
-    a. In the field for "When a work order is created or updated," choose your Dynamics 365 organization name
+    a. In the field for "When a work order is created or updated," choose your Dynamics 365 organization name.
    
-    b. In the field for "Get the alert," choose your Dynamics 365 organization name
+    b. In the field for "Get the alert," choose your Dynamics 365 organization name.
     
-    c. Double-click to expand "Clean up the work order fields in the device," and choose your IoT Central application name and also the device template, "Refrigerated Vending Machine (1.0.0)"
+    c. Double-click to expand "Clean up the work order fields in the device," and choose your IoT Central application name and also the device template, "Refrigerated Vending Machine (1.0.0)."
     
-    d. Double-click to expand "Get the incident type from work order," and choose your Dynamics 365 organization name
+    d. Double-click to expand "Get the incident type from work order," and choose your Dynamics 365 organization name.
     
-    e. Double-click to expand "Update the work order details for the device that raised the alert," and finally choose your IoT Central application name and also the device template, "Refrigerated Vending Machine (1.0.0)"
+    e. Double-click to expand "Update the work order details for the device that raised the alert," and finally choose your IoT Central application name and also the device template, "Refrigerated Vending Machine (1.0.0)."
     
-    f. **Note**: Running this Flow will not add work order information retroactively---only devices going forward will be updated on the device page in IoT Central
+    f. **Note**: Running this Flow will not add work order information retroactively---only devices going forward will be updated on the device page in Azure IoT Central
     
 > [!div class="mx-imgBorder"]
 > ![alt text](media/iot-central-work-orders-5.png)
@@ -81,10 +81,10 @@ Note: Alternatively, you can navigate directly to [the Microsoft Flow templates 
 
 ## See the results
 
-Once you've saved the Flow, head on back to your IoT Central environment. Choose the device that has triggered an alert and a work order in Connected Field Service. You should now see the work order information populated in the fields on the IoT Central device properties page.
+Once you've saved the Flow, head on back to your Azure IoT Central environment. Choose the device that has triggered an alert and a work order in Connected Field Service. You should now see the work order information populated in the fields on the IoT Central device properties page.
 
 > [!div class="mx-imgBorder"]
 > ![alt text](media/iot-central-work-orders-7.png)
 
 > [!div class="nextstepaction"]
-> [Send booking updates to IoT Central](cfs-iot-central-bookings.md)
+> [Send booking updates to Azure IoT Central](cfs-iot-central-bookings.md)
