@@ -12,8 +12,6 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: "shellyhaverkamp"
-ms.assetid: 49207db9-d1f0-46e0-ae2c-f4acf4593da9
-caps.latest.revision: 24
 ms.author: "krbjoran"
 ms.manager: "shellyhaverkamp"
 search.audienceType: 
@@ -26,6 +24,8 @@ search.app:
 --- 
 
 # 2 - Associate devices with customer accounts 
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 If an IoT device isn't associated with a customer account in Connected Field Service, the system will not be able to generate work orders or cases against incoming alerts. In this tutorial, you'll learn how to associate a device with a customer account. While customer accounts are an optional association in Azure IoT Central, they are required in Connected Field Service.
 
@@ -40,14 +40,14 @@ Associate a device in Connected Field Service with a customer account so that wo
 > [!div class="mx-imgBorder"]
 > ![alt text](media/iot-central-associate-devices-1.png)
 
-2. On the Active Device page, select the dropdown just to the right of "Active IoT Devices" and choose the view, "IoT devices without customer account." Select one of these devices.
+2. On the Active Device page, select the dropdown just to the right of "Active IoT Devices" and select the view, "IoT devices without customer account." Select one of these devices.
 
 > [!div class="mx-imgBorder"]
 > ![alt text](media/iot-central-associate-devices-2.png)
 
 3. On the device detail page, start typing the name of the customer account in the "Account" field.
 
-    a. For the purposes of this tutorial, you can choose "Active Transport Inc." 
+    a. For the purposes of this tutorial, you can select "Active Transport Inc." 
     
 > [!div class="mx-imgBorder"]
 > ![alt text](media/iot-central-associate-devices-3.png)
@@ -59,4 +59,4 @@ Associate a device in Connected Field Service with a customer account so that wo
 This device will now be associated with a customer account, and can receive IoT alerts from Azure IoT Central.
 
 > [!div class="nextstepaction"]
-> [Send work order updates to IoT Central](cfs-iot-central-work-orders.md)
+> [Step 3: Send work order updates to IoT Central](cfs-iot-central-work-orders.md)

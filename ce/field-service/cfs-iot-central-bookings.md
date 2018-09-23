@@ -12,8 +12,6 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: "krbjoran"
-ms.assetid: 49207db9-d1f0-46e0-ae2c-f4acf4593da9
-caps.latest.revision: 24
 ms.author: "krbjoran"
 ms.manager: "shellyhaverkamp"
 search.audienceType: 
@@ -26,6 +24,9 @@ search.app:
 --- 
 
 # 4 - Send booking updates to Azure IoT Central
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Now that you've configured Connected Field Service to send service updates back to IoT Central, let's make it so booking details are sent back too.
 
 ## Goal
@@ -65,4 +66,4 @@ Back in Azure IoT Central, you'll now see booking information associated with th
 > [!div class="mx-imgBorder"]
 > ![alt text](media/iot-central-bookings-5.png)
 
-
+You've now completed the tutorials. Nice work.

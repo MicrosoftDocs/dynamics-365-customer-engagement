@@ -20,6 +20,8 @@ search.app:
 
 # Prerequisites for setting up Connected Field Service for Azure IoT Central
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Ready to connect Azure IoT Central to Connected Field Service (CFS) using Microsoft Flow to see how you can harness the power of the Internet of Things (IoT) and improve customer service (without writing any code)?
 
 Before you take this tutorial, you need to complete four tasks:
@@ -33,12 +35,12 @@ This topic provides you with links to everything you need, and walks you through
 ## Provision the Azure IoT Central solution using the sample Contoso template
 The sample Contoso template contains a **Refrigerated Vending Machine** device template, which you need to create your device type and generate a simulated device for testing purposes.
 
-First, [navigate to Azure IoT Central](https://azure.microsoft.com/services/iot-central/). Then choose **Get started**. To start creating your new Azure IoT Central application, choose **New Application**. 
+First, [navigate to Azure IoT Central](https://azure.microsoft.com/services/iot-central/). Then select **Get started**. To start creating your new Azure IoT Central application, select **New Application**. 
  
 On the **Create Application** dialog: 
- 1. Choose the **Paid** payment plan (you won't be asked for a credit card). 
- 2. Choose the **Sample Contoso** template. 
- 3. Then choose **Create**.
+ 1. Select the **Paid** payment plan (you won't be asked for a credit card). 
+ 2. Select the **Sample Contoso** template. 
+ 3. Then select **Create**.
 > [!div class="mx-imgBorder"]
 > ![Azure IoT Central with payment plan and template selected](media/Azure-IoT-Central-create-app-dialog.PNG "Azure IoT Central with payment plan and template selected")  
 
@@ -59,7 +61,7 @@ The free Connected Field Service add-on automatically provisions a number of Azu
 To install Connected Field Service:
 1. Navigate to the Dynamics 365 admin center. 
 2. On the **Instances** page, select the Dynamics 365 for Field Service tenant, and then edit **Solutions**. 
-3. On the **Manage your solutions** page, select **Connected Field Service version 1.0.18260.2**, and then choose **Install**. Follow the on-screen instructions to complete the installation.
+3. On the **Manage your solutions** page, select **Connected Field Service version 1.0.18260.2**, and then select **Install**. Follow the on-screen instructions to complete the installation.
     
 ## Install Connected Field Service sample data    
 Next, you'll need to download and install the Connected Field Service sample data package, which is designed for use with the Contoso template in Azure IoT Central. The sample data also includes an **IoT Sample - Process alert** workflow that showcases automated alert triaging.
@@ -68,7 +70,7 @@ To install the Connected Field Service sample data:
 1. [Download the PackageDeployer zip file](https://aka.ms/cfsdemodata).
 2. In Windows File Manager, go to the folder where you downloaded the zip file. 
 3. Right-click the zip file, and then select **Properties**. 
-4. On the Properties dialog, select **Unblock**. Click **OK**.
+4. On the Properties dialog, select **Unblock**. Select **OK**.
 > [!div class="mx-imgBorder"]
 > ![PackageDeployer properties dialog with Unblock selected](media/cfs-iot-package-deployer.png "PackageDeployer properties dialog with Unblock selected")
 
@@ -79,4 +81,4 @@ To install the Connected Field Service sample data:
 That's it! You're ready to take the tutorial.
    
 > [!div class="nextstepaction"]
-> [Receive IoT alerts from IoT Central](cfs-iot-central-alerts.md) 
+> [Step 1: Receive IoT alerts from IoT Central](cfs-iot-central-alerts.md) 

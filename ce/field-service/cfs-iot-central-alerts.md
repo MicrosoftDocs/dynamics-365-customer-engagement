@@ -12,8 +12,6 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: "shellyhaverkamp"
-ms.assetid: 49207db9-d1f0-46e0-ae2c-f4acf4593da9
-caps.latest.revision: 24
 ms.author: "krbjoran"
 ms.manager: "shellyhaverkamp"
 search.audienceType: 
@@ -26,6 +24,8 @@ search.app:
 --- 
 
 # 1 - Receive IoT alerts in Connected Field Service from Azure IoT Central
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 At the end of this step in the tutorial, you'll be able to receive and see alerts from Azure IoT Central in your instance of Connected Field Service. IoT alerts will display on your dashboard and relate to relevant work orders that have been created automatically.  
 
@@ -57,7 +57,7 @@ Connect Azure IoT Central to Connected Field Service by configuring the "Create 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the rules tab in IoT Central](media/iot-central-alerts-4.png)
 
-5. Then, under **Actions,** choose **Microsoft Flow** from the Select Action options. This will take you to another working environment in the Microsoft Flow application. This is where you will set up your integrations.
+5. Then, under **Actions,** select **Microsoft Flow** from the Select Action options. This will take you to another working environment in the Microsoft Flow application. This is where you will set up your integrations.
 
     a. **Note for Azure IoT Central trial users**: In order to use Microsoft Flow from Azure IoT Central, you must be using the pay-as-you-go form of IoT Central. Trial users can work around this by heading directly to [Microsoft Flow](https://flow.microsoft.com/en-us/templates/) to configure steps 7 and 8 in this tutorial. Then in Azure IoT Central, the Flow will be all ready to go. 
     
@@ -106,7 +106,7 @@ From here, the workflow will trigger based on the alert type. While you may have
 
 ## See the results
 
-Once you've saved your Flow, log in to Dynamics 365 for Field Service, and choose Connected Field Service. You may see a window that offers a few links to learn more about Connected Field Service and Azure IoT offerings. You can choose to learn more, or just dismiss this window. 
+Once you've saved your Flow, log in to Dynamics 365 for Field Service, and select Connected Field Service. You may see a window that offers a few links to learn more about Connected Field Service and Azure IoT offerings. You can choose to learn more, or just dismiss this window. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT alerts in Connected Field Service](media/iot-central-alerts-14.png)
@@ -120,4 +120,4 @@ In Connected Field Service, you should now see incoming alerts from Azure IoT Ce
 > ![Screenshot of an IoT alert detail, showing the URL back to IoT Central where the alert originated](media/iot-central-alerts-13.png)
 
 > [!div class="nextstepaction"]
-> [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
+> [Step 2: Associate devices with customer accounts](cfs-iot-central-associate-devices.md)

@@ -24,6 +24,8 @@ search.app:
 
 # Connected Field Service for Azure IoT Central - Overview
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Connected Field Service for Azure IoT Central provides a direct integration of Dynamics 365 for Field Service with Azure IoT Central, a fully managed IoT software-as-a-service (SaaS) solution. 
 
 Azure IoT Central enables builders to configure rules and actions. Based on those actions, IoT alerts will be created in Connected Field Service. Also, based on service activities in Connected Field Service, information can be sent back to Azure IoT Central. This is accomplished by using Microsoft Flow, a SaaS offering for automating workflows across applications and services. 

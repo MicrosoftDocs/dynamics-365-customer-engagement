@@ -367,4 +367,4 @@ This guide provides all the steps required for getting up and running with Conne
  [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)   
  [Configure default settings](../field-service/configure-default-settings.md)   
  [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)<br>
- [Field Service Users Guide](../field-service/user-guide.md)
+ [Field Service User Guide](../field-service/user-guide.md)
