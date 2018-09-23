@@ -24,7 +24,7 @@ search.app:
 
 Ready to connect Azure IoT Central to Connected Field Service (CFS) using Microsoft Flow to see how you can harness the power of the Internet of Things (IoT) and improve customer service (without writing any code)?
 
-Before you take this tutorial, you need to complete four tasks:
+Before you take these tutorials, you need to complete four tasks:
 - Provision the Azure IoT Central solution using the sample Contoso template.
 - Get a Dynamics 365 for Field Service tenant with system administrator credentials. 
 - Install the Dynamics 365 Connected Field Service add-on from the Dynamics 365 admin center.
@@ -78,7 +78,7 @@ To install the Connected Field Service sample data:
 6. Double-click **packagedeployer.exe** to run it and install the sample data. 
 7. When prompted, enter your system administrator credentials to sign in to your Dynamics 365 tenant. When you see the Azure IoT Central and Connected Field Service sample data deployment page, follow the on-screen instructions to complete the installation.
 
-That's it! You're ready to take the tutorial.
+That's it! You're ready to take the tutorials.
    
 > [!div class="nextstepaction"]
 > [Step 1: Receive IoT alerts from IoT Central](cfs-iot-central-alerts.md) 
