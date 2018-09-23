@@ -87,7 +87,7 @@ Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can e
   
 1.  From the main menu, click **Resources Scheduling** > **Administration** > **Enable Schedulable for Entities**.  
   
-2.  From the list of **Enable Entities**, double select the entity that you want to edit.  
+2.  From the list of **Enable Entities**, double-click the entity that you want to edit.  
   
 3.  When the **BOOKING SETUP METADATA: INFORMATION** form opens, do one of the following:  
   
@@ -120,7 +120,7 @@ Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can e
   
    There a few different ways to schedule a booking requirement:  
   
-- **Option 1**: Right select an unscheduled booking and find available resources.  
+- **Option 1**: Right-click an unscheduled booking and find available resources.  
   
     1.  From the main menu, click **Resource Scheduling** > **Schedule Board**.  
   
