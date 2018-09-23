@@ -53,7 +53,7 @@
 
 # [Connected Field Service (IoT)](connected-field-service.md)
 ## [CFS for IoT Central](cfs-iot-overview.md)
-### [Tutorial - Integration scenarios](cfs-iot-tutorial-overview.md )
+### [Tutorial - Integration scenarios](cfs-iot-tutorial-overview.md)
 #### [Prerequisites](cfs-iot-central-setup.md)
 #### [1 - Receive IoT alerts from IoT Central](cfs-iot-central-alerts.md)
 #### [2 - Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
