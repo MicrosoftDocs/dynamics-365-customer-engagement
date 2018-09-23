@@ -1,4 +1,3 @@
-
 # [Overview](overview.md)
 # [New and upcoming features](new-upcoming.md)
 
@@ -53,11 +52,19 @@
 ## [FAQ and troubleshooting tips](rso-faq.md)
 
 # [Connected Field Service (IoT)](connected-field-service.md)
-## [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
-## [Develop customized IoT solutions](developer/connected-field-service-developer-guide.md)
-## [Connected Field Service architecture](developer/connected-field-service-architecture.md)
-## [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
-## [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
+## [Connected Field Service for Azure IoT Central](cfs-iot-overview.md)
+### [Tutorials - Integration scenarios](cfs-iot-tutorial-overview.md)
+#### [Prerequisites](cfs-iot-central-setup.md)
+#### [1 - Receive IoT alerts from Azure IoT Central](cfs-iot-central-alerts.md)
+#### [2 - Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
+#### [3 - Send work order updates to Azure IoT Central](cfs-iot-central-work-orders.md)
+#### [4 - Send booking updates to Azure IoT Central](cfs-iot-central-bookings.md)
+## [Connected Field Service for Azure IoT Hub](developer/connected-field-service-developer-guide.md)
+### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
+### [Installation and Setup](installation-setup-iothub.md)
+### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
+### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
+### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 
 # Assets, inventory and purchasing
 ## Customer assets
@@ -76,10 +83,3 @@
 ### [Create a purchase order](create-purchase-order.md)
 ### [Purchase order sub-statuses](set-up-purchase-order-sub-statuses.md)
 ### [Payment terms](set-up-payment-terms.md)
-
-
-
-
-
-
-
