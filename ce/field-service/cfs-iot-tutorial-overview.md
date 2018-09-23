@@ -27,7 +27,7 @@ search.app:
 
 Connect Azure IoT Central to Connected Field Service using Microsoft Flow in just a matter of minutes with these tutorials. Be sure to [check out the prerequisites](cfs-iot-central-setup.md) before getting started. 
 
-1. [Receive Azure IoT alerts from IoT Central](cfs-iot-central-alerts.md)
+1. [Receive Azure IoT alerts from Azure IoT Central](cfs-iot-central-alerts.md)
 2. [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
 3. [Send work order updates to Azure IoT Central](cfs-iot-central-work-orders.md)
 4. [Send booking updates to Azure IoT Central](cfs-iot-central-bookings.md)
