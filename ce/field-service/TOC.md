@@ -59,7 +59,7 @@
 #### [2 - Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
 #### [3 - Send work order updates to IoT Central](cfs-iot-central-work-orders.md)
 #### [4 - Send booking updates to IoT Central](cfs-iot-central-bookings.md)
-## [CConnected Field Service for IoT Hub](developer/connected-field-service-developer-guide.md)
+## [Connected Field Service for IoT Hub](developer/connected-field-service-developer-guide.md)
 ### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
 ### [Installation & Setup](installation-setup-iothub.md)
 ### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
