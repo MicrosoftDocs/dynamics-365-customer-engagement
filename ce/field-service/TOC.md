@@ -9,7 +9,7 @@
 ## [Activate Field Service mobile licenses](activate-fs-mobile-app-license.md)
 ## [User security roles and accounts](view-user-accounts-security-roles.md)
 ## [Org-wide default settings](configure-default-settings.md)
-## [Appsource for Field Service](apps-addins.md)
+## [Appsource for Field Service](appsource-addins.md)
 
 # Work orders
 ## [Create a new work order](create-work-order.md)
