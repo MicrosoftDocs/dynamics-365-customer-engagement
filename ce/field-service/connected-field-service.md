@@ -30,44 +30,51 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)] helps service organizations move from a costly break-fix model to a more proactive service model by transforming device health data and maintenance data into proactive actions via the Internet of Things (IoT). Key benefits of Connected Field Service:
+Connected Field Service enables organizations to transform the way they provide service from a costly break-fix model to a proactive and predictive service model through the combination of IoT diagnostics, scheduling, asset maintenance, and inventory on the same platform. 
 
-- Reduce downtime by identifying IoT alerts and fixing potential problems with customer assets before they happen.
-- Address issues faster by remotely monitoring devices and keeping customers in the loop.
-- Device telemetry and ongoing maintenance data help you make informed decisions around dispatching technicians with the right expertise, availability, and proximity to the job. 
+Key benefits of Connected Field Service:
 
-There are **two solutions** you can use to connect IoT-enabled devices into the world of Field Service:
+- Reduce downtime by connecting to IoT devices to diagnose problems before customers are aware of an issue
+- Address issues faster by remotely monitoring devices and keeping customers in the loop
+- Device telemetry and service maintenance data helps to make intelligent decisions around dispatching technicians with the right expertise, availability, and proximity to the job 
+
+There are two offerings you can use to connect IoT-enabled devices into the Field Service solution:
 - Connected Field Service for [**Azure IoT Central**](https://azure.microsoft.com/services/iot-central/)
 - Connected Field Service for [**Azure IoT Hub**](https://azure.microsoft.com/en-us/services/iot-hub/)
 
-See below for the differences between the two solutions.
+See below for the differences between the two offerings.
 
 ## Connected Field Service for Azure IoT Central
-Connected Field Service for IoT Central provides a direct way to integrate Dynamics 365 for Field Service with Azure IoT Central, a fully managed IoT software-as-a-service (SaaS) solution. Build workflows between Connected Field Service with Microsoft Flow, a service that makes it easy to create workflows between your apps and services to synchronize files, get notifications, collect data, and more.
+
+Connected Field Service for IoT Central provides a direct integration of Dynamics 365 for Field Service with Microsoft Azure IoT Central, a fully managed IoT software-as-a-service (SaaS) solution. 
+
+Microsoft Azure IoT Central enables builders to configure rules and actions. Based on those actions, IoT alerts will be created in Connected Field Service.  Also, based on service activities in Connected Field Service, information can be sent back to IoT Central. This is accomplished by using Microsoft Flow, a SaaS offering for automating workflows across applications and services. 
 
 > [!div class="mx-imgBorder"]
 > ![alt text](media/cfs-overview.png)
+ 
+The below end-to-end integration processes can be easily implemented based on a pure configuration experience:
 
-You can connect IoT Central and Connected Field Service in such a way that:
-- IoT Central can send information about device anomalies to Connected Field Service
-- Connected Field Service can create work orders triggered from device anomalies
-- Connected Field Service can then schedule a technician to fix or prevent the downtime incident
-- IoT Central dashboard can update device records with relevant service and scheduling information
+- IoT Central can send information about device anomalies to Connected Field Service (as an IoT Alert) for diagnosis
+- Connected Field Service can create cases or work orders triggered from device anomalies
+- Connected Field Service can schedule technicians for inspection to prevent the downtime incidents. 
+- IoT Central device dashboard can be updated with relevant service and scheduling information
 
-With Azure IoT Central, there's no need for extensive cloud development or coding skills to get up and running. The solution is a fully managed offering.
+With Azure IoT Central, there's no need for extensive cloud development or coding skills to get an IoT solution up and running.  
+With Microsoft Flow templates, users can connect their accounts, take advantage of our pre-built templates, and customize their own flows in an easy visual designer without the need for coding experience.
 
-Check out our overview on [Connected Field Service for IoT Central for more information](cfs-iot-central-overview.md).
+Check out our [Connected Field Service for IoT Central tutorial](cfs-iot-tutorial-overview.md) to get started.
 
+## Connected Field Service for Azure IoT Hub
+Connected Field Service for Azure IoT Hub is an add-on solution that brings Azure IoT platform-as-a-service (PaaS) offering into Dynamics365 for Field Service. With this offering, you can run a deployment app to put all the Azure IoT services and Dynamics puzzles together.
 
+All Azure IoT services run in your own Azure cloud subscription. Additionally, Microsoft built an enterprise-ready template that you can customize for each Azure IoT service.
 
-## Connected Field Service for Azure IoT hub
-Connected Field Service for Azure IoT Hub is an add-on solution that brings the Azure IoT platform-as-a-service (PaaS) offering into Dynamics365 for Field Service. With this offering, you can run a deployment app to pull all the Azure IoT services and Dynamics puzzles together.
-
-All Azure IoT services are running in your own Azure cloud subscription; we built an enterprise-ready template so you'll have all the control to customize the open-source template for each Azure IoT service.
-  
 ### See also  
  [Overview of Dynamics 365 for Field Service](../field-service/overview.md)    
  [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)   
  [Configure default settings](../field-service/configure-default-settings.md)   
  [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)<br>
  [Field Service Users Guide](../field-service/user-guide.md) 
+  
+
