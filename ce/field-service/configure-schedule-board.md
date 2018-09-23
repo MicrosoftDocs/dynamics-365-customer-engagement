@@ -146,7 +146,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 ## Configure Booking Requirements  
  The booking requirements area is shown at the bottom of the schedule board and lists all unscheduled bookings. You can easily drag and drop unscheduled bookings from the list onto the schedule board.  
   
- You can also right-click on an unscheduled booking and find available resources from those that are listed on the schedule board, or choose from all the resources in the system. When you do this the filters will show the options for the selected booking requirement. [Schedule a work order](../field-service/schedule-work-order.md)  
+ You can also select an unscheduled booking and find available resources from those that are listed on the schedule board, or choose from all the resources in the system. When you do this the filters will show the options for the selected booking requirement. [Schedule a work order](../field-service/schedule-work-order.md)  
   
 -   Go to the list of existing unscheduled booking requirements in the lower pane of the schedule board.  
   

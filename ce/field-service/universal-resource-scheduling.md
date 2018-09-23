@@ -87,7 +87,7 @@ Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can e
   
 1.  From the main menu, click **Resources Scheduling** > **Administration** > **Enable Schedulable for Entities**.  
   
-2.  From the list of **Enable Entities**, double click on the entity that you want to edit.  
+2.  From the list of **Enable Entities**, double select the entity that you want to edit.  
   
 3.  When the **BOOKING SETUP METADATA: INFORMATION** form opens, do one of the following:  
   
@@ -120,11 +120,11 @@ Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can e
   
    There a few different ways to schedule a booking requirement:  
   
-- **Option 1**: Right click on an unscheduled booking and find available resources.  
+- **Option 1**: Right select an unscheduled booking and find available resources.  
   
     1.  From the main menu, click **Resource Scheduling** > **Schedule Board**.  
   
-    2.  From the **Booking Requirement** list, right click on an unscheduled booking and choose one of the following:  
+    2.  From the **Booking Requirement** list, right select an unscheduled booking and choose one of the following:  
   
          Choose **Find availability - Current Resources** to find available resource from the list of resources on the schedule board.  
   
@@ -135,7 +135,7 @@ Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can e
         > [!NOTE]
         >  When you do this, the filters will show the options for the selected booking requirement. If you can't find a available resource for the book, try adjusting the filters.  
   
-    3.  When you see the available slot right click on the time slot on the schedule board and choose **Book Here**. Or, drag and drop the booking requirement to the available time slot.  
+    3.  When you see the available slot right-click the time slot on the schedule board and choose **Book Here**. Or, drag and drop the booking requirement to the available time slot.  
   
 - **Option 2**: Drag an unscheduled booking requirement from list view to the schedule board.  
   
