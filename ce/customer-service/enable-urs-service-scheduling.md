@@ -45,15 +45,14 @@ Contoso bike repairs, a company that repairs bikes, schedules repair services fo
   
   Contoso defines the **Resources** and groups them into **Resource Categories** (known as **Resource Groups** in legacy experience)
 
-
-  |Legacy Service Scheduling  |New Service Scheduling   |
-  |---------|---------|
-  | ![resource and resource group](media/r-rg.png)   |  ![new-service-scheduling](media/new-res-res-cat-ss.PNG)       |
-  |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a resource group (Customer Service app)](create-edit-resource-group.md)    |  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md) </br>  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and set up bookable resources](resources-service-scheduling.md)      |
+  ##### Legacy Service Scheduling
+  ![resource and resource group](media/r-rg.png)
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a resource group (Customer Service app)](create-edit-resource-group.md)
  
+  ##### New Service Scheduling
+  ![new-service-scheduling](media/new-res-res-cat-ss.PNG)
 
-
-
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md) </br>  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and set up bookable resources](resources-service-scheduling.md)
 
 
  
