@@ -124,7 +124,7 @@ Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can e
   
     1.  From the main menu, click **Resource Scheduling** > **Schedule Board**.  
   
-    2.  From the **Booking Requirement** list, right select an unscheduled booking and choose one of the following:  
+    2.  From the **Booking Requirement** list, right-click an unscheduled booking and choose one of the following:  
   
          Choose **Find availability - Current Resources** to find available resource from the list of resources on the schedule board.  
   
