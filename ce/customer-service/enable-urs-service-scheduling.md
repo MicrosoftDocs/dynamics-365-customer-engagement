@@ -26,24 +26,45 @@ search.app:
 
 Service scheduling is now built atop **Universal Resource Scheduling (URS)** to provide an efficient way to schedule service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling. This is done with the help of predictable workloads for employees, and reliable time estimates for customers and clients.
 
-With the October'18 release, the new Service Scheduling will be available in the Customer Service Hub. You can access the new service scheduling from the Customer Service Hub sitemap.
+With the October'18 release, the new Service Scheduling will be available in the Customer Service Hub sitemap.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Access Service Scheduling](basics-service-service-scheduling.md#access-service-scheduling-in-the-customer-service-hub)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Access Service Scheduling in the Customer Service Hub](basics-service-service-scheduling.md#access-service-scheduling-in-the-customer-service-hub)
 
 
 > [!IMPORTANT]
-> If you are a new customer who is installaing the Service Scheduling feature for the first time, see <<here>> to know how you can install and enable Service Scheduling from inside your Customer Service Hub application. </br>
-If you have been using the legacy Service Scheduling feature from either Service Management or Business Management, see <<here>> to know how you can migrate to the new Service Scheduling experience, now available from inside the Customer Service Hub application
+> If you are a new customer who is using the Service Scheduling feature for the first time, see [Install and enable the new Service Scheduling experience](#install-and-enable-the-new-service-scheduling-experience) to know how you can install and enable Service Scheduling from the sitemap of your Customer Service Hub application. </br> </br> 
+If you have been using the legacy Service Scheduling feature from either Service Management or Business Management, see [Migrate to the new Service Scheduling experience](#migrate-to-the-new-service-scheduling-experience) to know how you can migrate to the new Service Scheduling experience.
 
-## What to expect in the new Service Scheduling experience
+## About the new Service Scheduling experience
 
-## What is Universal Resource Scheduling (URS) ?
+Understand the difference between the legacy and the new Service Scheduling experience with the help of the following scenario:
 
-Universal Resource Scheduling in Dynamics 365 is used to enable scheduling for any entity including custom entities. 
+Contoso bike repairs, a company that repairs bikes, schedules repair services for their customers. To facilitate this process, they compile the following information:
 
-To know more about how various entities like Sales, Customer Service, Field Service, and Project Service Automation use URS to schedule activities, see [Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
+- Create resources and resource groups
+  
+  Contoso defines the **Resources** and groups them into **Resource Categories** (known as **Resource Groups** in legacy experience)
 
-See this blog to know the new features introduced in the latest release of Universal Resource Scheduling: [What’s new in Universal Resource Scheduling for Dynamics 365 June 2018 Update](https://blogs.msdn.microsoft.com/crm/2018/06/27/whats-new-in-universal-resource-scheduling-for-dynamics-365-june-2018-update/)
+
+  |Legacy Service Scheduling  |New Service Scheduling   |
+  |---------|---------|
+  | ![resource and resource group](media/r-rg.png)   |  ![new-service-scheduling](media/new-res-res-cat-ss.PNG)       |
+  |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a resource group (Customer Service app)](create-edit-resource-group.md)    |  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md) </br>  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and set up bookable resources](resources-service-scheduling.md)      |
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+## Install and enable the new Service Scheduling experience
+
+Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.
 
 ### Install or upgrade Universal Resource Scheduling (URS)
 
@@ -52,14 +73,12 @@ To enable or migrate to the new Service Scheduling experience, you should have t
 - Check the URS version. Go to Settings and select About to see the current version of URS on your machine
 - Upgrade to the latest version of URS from <<here>>. Consider <<these>> points before you upgrade to the latest version.
 
-## Install and enable the new Service Scheduling experience
-
-Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
 
 ### Install the Service Scheduling package
 
 
-### Enable Service Scheduling in the Customer Service Hub
+### Enable Service Scheduling in the Customer Service Hub sitemap
 
 ## Migrate to the new Service Scheduling experience
 
@@ -156,3 +175,5 @@ Guid _newBookableResourceBookingID = _service.Create(newBookableResourceBooking)
 ```
 
 ### See also
+
+[Service Scheduling overview](basics-service-service-scheduling.md)

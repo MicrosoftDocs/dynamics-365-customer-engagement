@@ -42,7 +42,7 @@ Contoso bike repairs, a company that repairs bikes, schedules repair services fo
 - Capacity and expert level for each personnel
 - Sites, or geographical locations where they offer their services
 
-In this case, Contoso bike repairs can benefit from the Service Scheduling feature of Dynamics 365 for Customer Service. They can quickly cater to their customers who are looking to avail their repair services. With the various service scheduling entities, they can plan service activities for their customers considering the availability of employees, facilities, and equipment.
+In this case, Contoso bike repairs can benefit from the Service Scheduling feature of Dynamics 365 for Customer Service. They can quickly cater to their customers who are looking to avail their repair services. With the various service scheduling entities, they can plan service activities for their customers considering the availability of resources, facilities, and equipment.
 
 ## Access Service Scheduling in the Customer Service Hub
 
@@ -111,7 +111,7 @@ Service Scheduling entities are grouped under the following logical groups:
 - **Services**  </br>
    To make scheduling services quick and easy, it’s helpful to predefine the specifics of the services you’d provide to customers. 
 
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a service](create-edit-service-csh.md)
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a service](create-edit-service-csh.md)
 
 - **Service Activities** </br>
    Create a service activity by finding the next available time of resources for a service or simply without checking for conflicts. 
