@@ -43,7 +43,7 @@ Once a work order has been created in [!INCLUDE[pn_dyn_365_field_service](../inc
   
     - **Right-click an unscheduled booking and find available resources**.  
   
-        1.  From the **Booking Requirement** list, right select an unscheduled booking and choose one of the following:  
+        1.  From the **Booking Requirement** list, right-click an unscheduled booking and choose one of the following:  
   
             1. **Choose Find availability -Current Resources** to find available resource from the list of resources on the schedule board.  
   
