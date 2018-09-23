@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: 021f45f6-ed70-4979-a227-0631540b2516
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
 search.audienceType: 
@@ -163,7 +163,7 @@ Take care not include promotional content in messages that you have set as trans
 Each contact record has two settings that establish that contact's consent for receiving email messages from your organization. You can find these consent settings for any contact by opening the relevant contact record, going to the **Details** tab and looking in the **Contact preferences** section, which includes the following two settings:
 
 - **Email**: This setting is among the standard fields for the contact record, and is included with nearly all [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] customer engagement applications. Contacts where this is set to **Do not allow** have indicated that do not want to receive any type of email from your organization, so [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] will send neither commercial nor transactional messages to these contacts.
-- **Bulk email**: This setting is added to the contact record when you install [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. Contacts where this is set to **Do not allow** have indicated that do not want to receive commercial email from your organization, but they may still allow transactional messages. Each contact can enable or disable this option for themselves using any subscription center (all subscription centers provide a checkbox for controlling this).
+- **Bulk email**: This setting is added to the contact record when you install [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. Contacts where this is set to **Do not allow** have indicated that do not want to receive commercial email from your organization, but they may still allow transactional messages. Each contact can enable or disable this option for themselves using any subscription center (all subscription centers provide a check box for controlling this).
 
 The following table shows the result of attempting to send a commercial or transactional email message to contacts with each combination of settings for these two options.
 

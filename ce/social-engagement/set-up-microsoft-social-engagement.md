@@ -23,7 +23,7 @@ search.app:
   - D365SE
 ---
 
-# Set up Microsoft Social Engagement
+# Set up [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]
 This topic explains what the Administrator for your organization does to set up [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
   
 <a name="set_sol_default"></a>   

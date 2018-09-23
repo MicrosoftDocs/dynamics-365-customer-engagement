@@ -23,7 +23,7 @@ search.app:
   - D365CE
   - D365SE
 ---
-# Connect Social Engagement to other domains
+# Connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to other domains
 
 Enable communication between [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] and other compatible applications (such as [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]) by adding domains that are allowed to make requests for your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] data to a list. You can remove domains from the list to disallow communications.
 

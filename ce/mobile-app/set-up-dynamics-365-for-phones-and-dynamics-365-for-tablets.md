@@ -1,7 +1,7 @@
 ---
 title: "Set up Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 ms.custom: ""
-ms.date: 01/22/2018
+ms.date: 08/29/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -364,13 +364,11 @@ else
   
  Relationships section within a form  
   
- Some more things to note:  
+> [!NOTE]
+> Activity Feeds and [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] are not supported in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].
   
-- Forms in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] are limited to 5 tabs (or 75 fields and 10 lists). This limit includes hidden fields.  
-  
-- Activity Feeds and [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] are not supported in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
-  
-<a name="BKMK_PhonesThingsToKnow"></a>   
+<a name="BKMK_PhonesThingsToKnow"></a>  
+ 
 ## Things to know about [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)]  
   
 ### Forms  

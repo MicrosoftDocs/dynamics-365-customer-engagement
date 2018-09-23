@@ -12,6 +12,7 @@
 ## [Project management how-to guide](how-to-guides/project-management-how-to.md)
 ## [Resource management how-to guide](how-to-guides/resource-management-how-to.md)
 ## [Reconciling assignments and bookings how-to guide](how-to-guides/reconciling-assignments-bookings-how-to.md)
+## [Time, expense, and approvals guide](how-to-guides/time-expense-approval.md)
 
 # FAQ and troubleshooting (app version 3.x)
 ## [How do I "soft book" resources?](FAQ-soft-book.md)
@@ -26,10 +27,11 @@
 ## [Why is the price defaulting to zero on time sales actuals?](FAQ-zero-price-time-sales-actuals.md)
 
 # Guidance for earlier versions (app version 2.x and 1.x)
-## [White papers](white-papers.md)
-## FAQ and troubleshooting
+## FAQ and troubleshooting 
 ### [How do I assign a resource to a task (app version 2.x)?](FAQ-assign-resources-to-tasks-in-web-app.md)
 ### [How do I "soft book" resources (app version 2.x)?](FAQ-soft-book-in-web-app.md)
+### [How do I customize the Project Stages business process flow?](FAQ-customize-bpf.md)
+## [White papers](white-papers.md)
 ## [Administrator guide](admin-guide.md)
 ### [Install and customize](install-customize.md)
 ### [Use demo data](use-demo-data.md)

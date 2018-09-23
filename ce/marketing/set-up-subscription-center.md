@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: 21159fd7-50cc-4879-884c-888bc0d6b457
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
 search.audienceType: 
@@ -227,6 +227,6 @@ If you open a subscription center by opening its URL directly, the page will loa
 [Create a simple customer journey](create-simple-customer-journey.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
-[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)  
+[Working with segments](segmentation-lists-subscriptions.md)  
 [Find your way around](navigation.md)  
 [How Dynamics 365 for Marketing uses cookies](cookies.md)
