@@ -11,7 +11,7 @@ ms.topic: "activate-fs-mobile-app-license"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "shellyhaverkamp"
+author: "krbjoran"
 ms.assetid: 49207db9-d1f0-46e0-ae2c-f4acf4593da9
 caps.latest.revision: 24
 ms.author: "krbjoran"
@@ -26,35 +26,45 @@ search.app:
 --- 
 
 # 4 - Send booking updates to IoT Central
-
-Enable Flow template "[Sample Contoso] When a technician is booked in CFS, update IoT Central with the details”. After schedule technician via Schedule board, see dispatch information in IoT Central. 
+Now that you've configured Connected Field Service to send service updates back to IoT Central, let's make it so booking details are sent back too.
 
 ## Goal
-Turn on flow  “[Sample Contoso] When a technician is booked in CFS, update IoT Central with the details”
-Steps:
-Search for   “[Sample Contoso] When a technician is booked in CFS, update IoT Central with the details”
-Sign in with Azure IoT Central and Dynamics account
+Make Connected Field Service send booking updates to IoT Central when a resource is booked in Connected Field Service.
 
-*[insert screen showing sign-in to Dynamics 365 and Azure IoT Central]*
- 
-Fill up CRM organization name in the spots of “Get the work order”, “Get the alert”, “Get the resource details”.  Fill up Azure IoT Central application name in the spot of “Application”.
+## Steps
+1. Head over to the [Microsoft Flow templates page](https://preview.flow.microsoft.com/templates/) and search for the following template: "**[Sample Contoso] When a technician is booked in CFS, update IoT Central with the details.**"
 
- *[insert screen showing Flow drag-and-drop canvas. A single example screen is sufficient.]*
+2. Once you've selected the template, you'll be asked to sign in with both your Dynamics account and IoT Central account.
 
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-bookings-1.png)
 
+[insert screen showing sign-in to Dynamics 365 and Azure IoT Central]
 
-Open schedule board and compare the total resource availability, location and skills to the demand from IoT alerts such as alert type and location.  Confirm a book. 
+3. Like with work order updates in step 3 of this tutorial, this Flow template will be mostly ready-to-go. To get it working, you need to update the following (see screenshots below for reference):
 
-*[screen TBD]*
+    a. Add your D365 organization name in the corresponding fields in **Get the work order**, **Get the alert**, and **Get the resource details**.
 
-The booking information such as technician name, estimated arrival time, estimated service duration etc. will be sent out to IoT Central. 
- 
-*[screenshot showing Refrigerator 3 dashboard]* 
- 
-How does that flow work?
-If you click any run history, you can see the audit trial of data inputs and outputs.
- 
- 
-*[screenshot showing audit trail of inputs/outputs]* 
+    b. Add your IoT Central application name in the field for **Application**.
+    
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-bookings-2.png)
+
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-bookings-3.png)
+
+4. Save the Flow.
+
+5. Head on back to your Field Service environment and open the schedule board. Find a resource that matches your IoT requirements, based on criteria such as location and alert type. Confirm the booking for the work order that was generated in response to the IoT alert.
+
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-bookings-4.png)
+
+## See the results
+
+Back in IoT Central, you'll now see booking information associated with this device, such as technician name, estimated arrival time, and estimated service duration.
+
+> [!div class="mx-imgBorder"]
+> ![alt text](media/iot-central-bookings-5.png)
 
 
