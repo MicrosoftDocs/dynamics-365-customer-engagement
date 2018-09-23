@@ -41,7 +41,7 @@ Once a work order has been created in [!INCLUDE[pn_dyn_365_field_service](../inc
   
 2.  There are several ways to manually schedule a work order:  
   
-    - **Right select an unscheduled booking and find available resources**.  
+    - **Right-click an unscheduled booking and find available resources**.  
   
         1.  From the **Booking Requirement** list, right select an unscheduled booking and choose one of the following:  
   
@@ -52,7 +52,7 @@ Once a work order has been created in [!INCLUDE[pn_dyn_365_field_service](../inc
                 > [!NOTE]
                 >  When you do this, the filters will show the options for the selected booking requirement.  
   
-            3.  When you see the available slot right select the time slot on the schedule board and choose **Book Here**. Or, drag and drop the booking requirement to the available time slot.  
+            3.  When you see the available slot right-click the time slot on the schedule board and choose **Book Here**. Or, drag and drop the booking requirement to the available time slot.  
   
     - **Drag unscheduled work orders from list view to the schedule board**.  
   
