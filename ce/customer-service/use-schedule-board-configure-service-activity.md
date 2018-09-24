@@ -41,33 +41,36 @@ In the schedule board, you can do the following tasks and activities:
 > [!NOTE]
 > You can’t customize the schedule board or change the default view with the application. However, you can ask your system administrator to change the colors of the time blocks.  
  
-
 ## Access Schedule Board
 
 In the Customer Service Hub sitemap, navigate to **Service Scheduling** > **Tools** and select **Schedule Board**.
 
 ## Navigate the Schedule Board
+
+In the **Schedule Board**:
+
+![schedule-board](media/schedule-board.png)
+
+   |Label |Description |
+   |---------|---------|
+   |1     |   A list of resources is displayed on the left side of the calendar in alphabetical order. To view the resources, appointments, and service activities for anyone in your organization, in the **Type** list, select **Resource**, and then in the **View** list select the resource view.  </br> </br>  To find a specific resource, in the **Search** box, enter the first few letters of a name.      |
+   |2    |    To view the details of any resource, appointment, or service activity, select the record in the list to the left of the calendar, and then at the bottom of the calendar, under the **Zoom** scale, select the **Expand** button to expand the preview pane. You can also double-click a record to open it.     | 
+   |3     |   The **Calendar** appears on the top. To change the date, select a date in the calendar. Use the arrows on either side of the month to change the month displayed.  |
+   |4     |  To sort the view on the basis of  **Hours**, **Days**, **Weeks**, and **Months**, choose an option here.   |
+   |5     |    To change how much of the calendar is available to view, use the **Zoom** scale. Select specific date ranges to view in the **From** and **To** lists.      |
+   |6     |     Appointments and service activities appear in the linear calendar as labeled color blocks. Move your mouse over these blocks to see the status of the appointment or service activity.   Bookings that are not linked to an entity don’t have a color associated with them.    |
+   | 7    |       |
+   | 8   |       |
   
-2. A list of resources is displayed on the left side of the calendar in alphabetical order. To view the resources, appointments, and service activities for anyone in your organization, in the **Type** list, select **Resource**, and then in the **View** list select the resource view.  
+
   
-3. To find a specific resource, in the **Search** box, enter the first few letters of a name.  
-  
-4. To view the details of any resource, appointment, or service activity, select the record in the list to the left of the calendar, and then at the bottom of the calendar, under the **Zoom** scale, click the **Expand** button ![arrow&#95;up&#95;blue](../customer-service/media/crm-ua-arrow-up-blue.gif "arrow_up_blue") to expand the preview pane. You can also double-click a record to open it.  
-  
-5. The Calendar pane appears on the right side of the calendar. It can be collapsed or expanded. To change the date, click a date in the calendar. Use the arrows on either side of the month to change the month displayed.  
-  
-6. To change the number of days that are displayed in the linear calendar, click any of the calendar options in the Calendar pane.  
-  
-7. To change how much of the calendar is available to view, use the **Zoom** scale. Select specific date ranges to view in the **From** and **To** lists.  
-  
-### Legend of colors and statuses  
- Appointments and service activities appear in the linear calendar as labeled color blocks. Move your mouse over these blocks to see the status of the appointment or service activity. 
+
  
 
 ## Find the next available time before creating a service activity
 
 
-3. Click **Schedule**.  
+3. Select **Schedule**.  
   
 4. On the **Schedule Service Activity** form, type or change information in the text boxes.  
   
@@ -85,9 +88,9 @@ In the Customer Service Hub sitemap, navigate to **Service Scheduling** > **Tool
   
        -   Do not clear the Use Default Duration check box and change the duration unless you want to schedule more time than the default duration of the service. The maximum duration of a service activity is 10 days.  
   
-5. Click **Find Available Times**. The next available times are shown.  
+5. Select **Find Available Times**. The next available times are shown.  
   
-6. Under **Available Times**, select the time for which you want to schedule the service activity, and then click **Schedule**.  
+6. Under **Available Times**, select the time for which you want to schedule the service activity, and then select **Schedule**.  
   
     The Schedule Service Activity form closes, and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] fills in the information from the selected time in the Service Activity form.  
   
@@ -95,12 +98,12 @@ In the Customer Service Hub sitemap, navigate to **Service Scheduling** > **Tool
   
     Hovertips provide hints about what to enter.  
   
-8. When you’re ready to save your data, click **Save**.  
+8. When you’re ready to save your data, select **Save**.  
   
     The service activity appears as a color block on the Service calendar.  
   
 > [!TIP]
->  If you want to find an available time without any time restriction, do not specify any criteria under **Requested Time**, and click **Find Available Times**.  
+>  If you want to find an available time without any time restriction, do not specify any criteria under **Requested Time**, and select **Find Available Times**.  
 
 
 ## Force an activity into a time slot in the service schedule
@@ -113,17 +116,17 @@ You can create a service activity by finding the next available times of resourc
   
 2. [!INCLUDE[proc_service_service_calendar](../includes/proc-service-service-calendar.md)]  
   
-3. On the command bar, click **Service Activity**.  
+3. On the command bar, select **Service Activity**.  
   
 4. On the Service Activity form, type or change information in the text boxes.  
   
     Hovertips provide hints on what to enter.  
   
-5. When you’re ready to save your data, click **Save**.  
+5. When you’re ready to save your data, select **Save**.  
   
 > [!TIP]
 >  You can record a customer's preferences for a specific time, day, service, facility, equipment, and customer service representative in the customer record on the **Administration** tab. As you are scheduling a service activity, the customer's preference is displayed in the **Form Assistant** pane.  
   
 > [!NOTE]
-> - If at any time before you save this service activity you want to search the schedule for an available time, you can click **Schedule** in the **Actions** group to open the **Schedule Service Activity** dialog box.  
-> - To check the schedule for conflicts, in **Service Calendar**, in the **Actions** group, click **Conflicts**.  
+> - If at any time before you save this service activity you want to search the schedule for an available time, you can select **Schedule** in the **Actions** group to open the **Schedule Service Activity** dialog box.  
+> - To check the schedule for conflicts, in **Service Calendar**, in the **Actions** group, select **Conflicts**.  
