@@ -9,12 +9,12 @@
       href: architecture-overview-channel-integration-framework.md
   - name: Download
     items:
-    - name: "Download Channel Integration Framework (CIF)"
-      href: download-channel-integration-framework.md
+    - name: "Get Channel Integration Framework (CIF)"
+      href: get-channel-integration-framework.md
   - name: How-to
     items:
-    - name: "Configure channel provider in Unified Interface app"
-      href: configure-channel-provide-channel-integration-framework.md
+    - name: "Configure channel provider for your Dynamics 365 organization"
+      href: configure-channel-provider-channel-integration-framework.md
     - name: "Authenticate channel users to the channel (widget)"
       href: authenticate-channel-users.md
   - name: JavaScript API Referrence

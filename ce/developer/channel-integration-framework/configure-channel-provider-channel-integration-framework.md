@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# How to configure a channel provider in Unified Interface app
+# How to configure a channel provider for your Dynamics 365 organization
 
 Using the Channel Integration Framework solution, you can configure channel providers.
 To configure channel providers:
