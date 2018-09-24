@@ -20,14 +20,17 @@ manager: shujoshi
 
 # Frequently asked questions (FAQs) for Channel Integration Framework (CIF)
 
+## Does Channel Integration Framework works with Unified Interface Apps?
+yes, Channel Integration Framework works only with Unified Interface Apps.
+
 ## Is Channel Integration Framework a softphone?
 No, Channel Integration Framework provides an extensible framework to integrate third-party channel providers (softphones, chat, and SMS) with Dynamics 365 Unified Interface Apps.
 
-## Does Channel Integration Framework a make calls or send messages?
+## Does Channel Integration Framework make calls or send messages?
 No, Channel Integration Framework provides an extensible framework to configure the channel provider to make inbound or/and outbound calls or messages.
 
 ## Is Channel Integration Framework a server-side API?
-No, Channel Integration Framework exposes JavaScript library which exposes APIs to consume and perform the certain operations like getting and setting Click-to-act functionality, dimensions and so on.
+No, Channel Integration Framework provides JavaScript library which exposes APIs to consume and perform the certain operations like getting and setting Click-to-act functionality, dimensions and so on.
 
 ## Does Channel Integration Framework manage call or chat sessions?
 No, Channel Integration Framework does not manage call or chat sessions.
