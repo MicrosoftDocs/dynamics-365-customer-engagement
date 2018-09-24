@@ -121,7 +121,7 @@ For example, to set privileges for the Mailbox entity:
 ### Provide security role access 
 If you have custom security roles defined in Dynamics 365, users who have that security role assigned may not be able to access Dynamics 365 App for Outlook. In addition to the custom security role containing required privileges for App for Outlook, the security role needs to be bound to the App for Outlook App. In order to achieve this, follow the steps below:
 
-1.  From the main menu navigate to **Settings** > **My Apps**.
+1.  From the main menu navigate to **Settings** > **My Apps**. (If you do not see **My Apps** section, you can navigate to My Apps page by going to **<your_organization_URL>/tools/AppModuleContainer/applandingtilepage.aspx**)
 ![Dynamics 365 My Apps page](media/MyAppPage.png "Dynamics 365 My Apps page") 
 
 2.  On the **Dynamics 365 App for Outlook** tile click the ellipsis and then click **Manage Roles**.
