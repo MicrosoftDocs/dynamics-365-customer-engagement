@@ -56,12 +56,10 @@ New to Field Service and need a tenant? No worries. [Sign up for a free trial fo
 
 ## Install the Dynamics 365 Connected Field Service add-on from the Dynamics 365 admin center  
 
-The free Connected Field Service add-on automatically provisions a number of Azure IoT services seamlessly on top of Dynamics 365 for Field Service. 
- 
 To install Connected Field Service:
 1. Navigate to the Dynamics 365 admin center. 
 2. On the **Instances** page, select the Dynamics 365 for Field Service tenant, and then edit **Solutions**. 
-3. On the **Manage your solutions** page, select **Connected Field Service version 1.0.18260.2**, and then select **Install**. Follow the on-screen instructions to complete the installation.
+3. On the **Manage your solutions** page, select **Connected Field Service version 1.0.18266.4**, and then select **Install**. Follow the on-screen instructions to complete the installation.
     
 ## Install Connected Field Service sample data    
 Next, you'll need to download and install the Connected Field Service sample data package, which is designed for use with the Contoso template in Azure IoT Central. The sample data also includes an **IoT Sample - Process alert** workflow that showcases automated alert triaging.
