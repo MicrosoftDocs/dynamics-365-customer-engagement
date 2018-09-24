@@ -1,3 +1,4 @@
+
 # [Overview](overview.md)
 # [New and upcoming features](new-upcoming.md)
 
@@ -8,7 +9,7 @@
 ## [Activate Field Service mobile licenses](activate-fs-mobile-app-license.md)
 ## [User security roles and accounts](view-user-accounts-security-roles.md)
 ## [Org-wide default settings](configure-default-settings.md)
-## [Appsource for Field Service](appsource-addins.md)
+## [AppSource add-ins for Field Service](appsource-addins.md)
 
 # Work orders
 ## [Create a new work order](create-work-order.md)
@@ -37,15 +38,33 @@
 ## [Time groups](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
 
-# Mobile app for field technicians
-## [Mobile field service](field-service-mobile-app-user-guide.md)
-## [Field Resource Hub](field-resource-hub-users-guide.md)
+# [Mobile apps for field technicians](field-service-mobile-app-user-guide.md)
+## [Field Resource Hub user guide](field-resource-hub-users-guide.md)
+## [Mixed reality integration with Remote Assist and HoloLens](remote-assist-hololens.md)
 
 # Agreements and preventive maintenance
 ## [Customer agreements](set-up-customer-agreements.md)
 ## [Agreement sub-statuses](set-up-agreement-sub-statuses.md)
 
-# [Resource Scheduling Optimization (RSO)](rso-overview.md)
+# Assets, inventory and purchasing
+## Customer assets
+### [Set up customer assets](configure-set-up-customer-assets.md)
+## Inventory
+### [Warehouse](create-warehouse.md)
+###  [View product inventory](view-product-inventory.md)
+###  [Create an inventory transfer](create-inventory-transfer.md)
+###  [Create an inventory adjustment](create-inventory-adjustment.md)
+###  [Process a return](process-return.md)
+###  [Return product to vendor](create-return-vendor.md)
+### [RMA sub-status](create-rma-sub-status.md)
+### [RTV sub-statuses](set-up-rtv-sub-statuses.md)
+### [Ship via](create-ship-via.md)
+## Purchasing
+### [Create a purchase order](create-purchase-order.md)
+### [Purchase order sub-statuses](set-up-purchase-order-sub-statuses.md)
+### [Payment terms](set-up-payment-terms.md)
+
+# [Resource Scheduling Optimization (RSO) add-in](rso-overview.md)
 ## [Deployment](rso-deployment.md)
 ## [Configuration](rso-configuration.md)
 ## [Schedule optimization](rso-schedule-optimization.md)
@@ -66,20 +85,9 @@
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 
-# Assets, inventory and purchasing
-## Customer assets
-### [Set up customer assets](configure-set-up-customer-assets.md)
-## Inventory
-### [Warehouse](create-warehouse.md)
-###  [View product inventory](view-product-inventory.md)
-###  [Create an inventory transfer](create-inventory-transfer.md)
-###  [Create an inventory adjustment](create-inventory-adjustment.md)
-###  [Process a return](process-return.md)
-###  [Return product to vendor](create-return-vendor.md)
-### [RMA sub-status](create-rma-sub-status.md)
-### [RTV sub-statuses](set-up-rtv-sub-statuses.md)
-### [Ship via](create-ship-via.md)
-## Purchasing
-### [Create a purchase order](create-purchase-order.md)
-### [Purchase order sub-statuses](set-up-purchase-order-sub-statuses.md)
-### [Payment terms](set-up-payment-terms.md)
+
+
+
+
+
+
