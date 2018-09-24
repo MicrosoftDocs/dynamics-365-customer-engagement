@@ -54,79 +54,53 @@ In the **Schedule Board**:
    |Label |Description |
    |---------|---------|
    |1     |   A list of resources is displayed on the left side of the calendar in alphabetical order. To view the resources, appointments, and service activities for anyone in your organization, in the **Type** list, select **Resource**, and then in the **View** list select the resource view.  </br> </br>  To find a specific resource, in the **Search** box, enter the first few letters of a name.      |
-   |2    |    To view the details of any resource, appointment, or service activity, select the record in the list to the left of the calendar, and then at the bottom of the calendar, under the **Zoom** scale, select the **Expand** button to expand the preview pane. You can also double-click a record to open it.     | 
-   |3     |   The **Calendar** appears on the top. To change the date, select a date in the calendar. Use the arrows on either side of the month to change the month displayed.  |
-   |4     |  To sort the view on the basis of  **Hours**, **Days**, **Weeks**, and **Months**, choose an option here.   |
-   |5     |    To change how much of the calendar is available to view, use the **Zoom** scale. Select specific date ranges to view in the **From** and **To** lists.      |
-   |6     |     Appointments and service activities appear in the linear calendar as labeled color blocks. Move your mouse over these blocks to see the status of the appointment or service activity.   Bookings that are not linked to an entity don’t have a color associated with them.    |
-   | 7    |       |
-   | 8   |       |
-  
-
-  
-
+   |2    |   The **Calendar** appears on the top, in the **Configuration** tab . To change the date, select a date in the calendar. Use the arrows on either side of the month to change the month displayed.  </br> </br> **Configuration** tabs let you choose the time unit to be displayed, the view orientation, the time offset, and other actions like getting driving directions, moving bookings to the next day, printing the schedule, or add a booking alert.    | 
+   |3     | To sort the view on the basis of  **Hours**, **Days**, **Weeks**, and **Months**, choose an option here.   |
+   |4     | Create additional schedule board tabs in the **Initial public view**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create additional tabs](#create-additional-tabs) </br></br> To edit an existing schedule board view, double-click the view name.     |
+   |5    |   **Scheduler settings** help you synchronize dates and content with a location. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Scheduler settings](#scheduler-settings) |
+   |6    |   View additional details of the booking in the **Details** tab.|
+   |7   |   Select requirements and create a resource booking in the **Create Resource Booking** tab. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create Resource Booking](#create-resource-booking) |
+   |8 | To change how much of the calendar is available to view, use the **Zoom** scale. Select specific date ranges to view in the **From** and **To** lists.  |
+   |9     |  Filter information by **Characteristics - Rating Roles**, **Territories**, **Organizational Units**, **Resource Types**, **Teams**, and **Business Units** to narrow or expand the schedule board view, suing the **Filter** tab. </br> </br> Map view shows the location of resources, organizational units, bookings, and requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure the filter and map view](#configure-the-filter-and-map-view)  |
+   | 10    |   To view the details of any resource, appointment, or service activity, select the record in the list to the left of the calendar, and then at the bottom of the calendar, under the **Zoom** scale, select the **Expand** button to expand the preview pane. You can also double-click a record to open it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  [Configure Booking Requirements](#configure-booking-requirements)    |
+   |  |     |
  
+### Create additional tabs  
 
-## Find the next available time before creating a service activity
+You can create and add additional tabs in the schedule board using the  **Initial public view**.
 
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create additional tabs](../field-service/configure-schedule-board.md#create-additional-tabs)
 
-3. Select **Schedule**.  
-  
-4. On the **Schedule Service Activity** form, type or change information in the text boxes.  
-  
-    Hovertips provide hints about what to enter.  
-  
-   -   Under **Requested Time**, select criteria for the times you want:  
-  
-       -   To search for a time on a specific date, in **Start Date**, select **Specific Date**, and then enter the date you want.  
-  
-       -   To search within a range of dates, select **Range of Dates**, and then enter the **On or After** and **On or Before** dates. You can also select specific days of the week.  
-  
-       -   You can also search for times based on dates relative to the current date, such as **Today**, **Tomorrow**, **This Week**, **Next Week**, or **Next Month**.  
-  
-       -   Similarly, to search within specific range of time, in **Start Time**, select **Specific Time**, **Range of Times**, or **Morning**, **Evening**, **Afternoon**.  
-  
-       -   Do not clear the Use Default Duration check box and change the duration unless you want to schedule more time than the default duration of the service. The maximum duration of a service activity is 10 days.  
-  
-5. Select **Find Available Times**. The next available times are shown.  
-  
-6. Under **Available Times**, select the time for which you want to schedule the service activity, and then select **Schedule**.  
-  
-    The Schedule Service Activity form closes, and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] fills in the information from the selected time in the Service Activity form.  
-  
-7. Type or modify information in other text boxes, as required.  
-  
-    Hovertips provide hints about what to enter.  
-  
-8. When you’re ready to save your data, select **Save**.  
-  
-    The service activity appears as a color block on the Service calendar.  
-  
-> [!TIP]
->  If you want to find an available time without any time restriction, do not specify any criteria under **Requested Time**, and select **Find Available Times**.  
+### Scheduler settings 
+
+**Scheduler settings** in the Configuration tab helps you configure your time offset so you can synchronize dates and content with a location.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Scheduler settings](../field-service/configure-schedule-board.md#scheduler-settings)  
+
+### Create resource booking
+
+You can select requirements and create a booking for the selected resource using the **Create Resource Booking** tab. 
+
+In the tab:
+
+- Select a resource in the **Resource** drop-down.
+- Select the start and end date using the calendars in **Start Date** and **End Date**.
+- Choose **Booking Status** and **Booking Method**.
+- Select **Book** to create a resource booking.
+
+### Configure the filter and map view
+
+You can set filters to see selected information in the **Filter and Map view**. Maps shows you the location of resources.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure the filter and map view](../field-service/configure-schedule-board.md#configure-the-filter-and-map-view)
+
+### Configure booking requirements
+
+See the details of all unscheduled bookings and create a schedule for them using the **Configure Booking Requirements** tab.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Booking Requirements](../field-service/configure-schedule-board.md#configure-booking-requirements)
 
 
-## Force an activity into a time slot in the service schedule
+### See also
 
-You can create a service activity by finding the next available times of resources for a service or simply without checking for conflicts. If needed, you can force a service activity into a time slot to squeeze another service activity into the leftover time from a previous service activity. If you save a service activity without finding available times in the schedule, then [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] displays the service activity in the schedule without checking for conflicts.  
-  
- One reason to force a service activity into a time slot is to squeeze another service activity into the leftover time from a previous service activity.  
-  
-1. Make sure you have the Scheduler security role or equivalent permissions in Microsoft Dynamics 365.  
-  
-2. [!INCLUDE[proc_service_service_calendar](../includes/proc-service-service-calendar.md)]  
-  
-3. On the command bar, select **Service Activity**.  
-  
-4. On the Service Activity form, type or change information in the text boxes.  
-  
-    Hovertips provide hints on what to enter.  
-  
-5. When you’re ready to save your data, select **Save**.  
-  
-> [!TIP]
->  You can record a customer's preferences for a specific time, day, service, facility, equipment, and customer service representative in the customer record on the **Administration** tab. As you are scheduling a service activity, the customer's preference is displayed in the **Form Assistant** pane.  
-  
-> [!NOTE]
-> - If at any time before you save this service activity you want to search the schedule for an available time, you can select **Schedule** in the **Actions** group to open the **Schedule Service Activity** dialog box.  
-> - To check the schedule for conflicts, in **Service Calendar**, in the **Actions** group, select **Conflicts**.  
+[Schedule a service activity](schedule-service-activity-csh.md)
