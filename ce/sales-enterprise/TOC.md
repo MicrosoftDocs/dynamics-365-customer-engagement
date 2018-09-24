@@ -19,6 +19,7 @@
 #### [Retire a product](../sales-enterprise/retire-product.md)
 #### [Delete family, product or bundle](../sales-enterprise/delete-family-product-bundle.md)
 #### [View product hierarchy](../sales-enterprise/view-product-hierarchy.md)
+### [Add editable products grid on forms](../sales-enterprise/editable-product-grid-forms.md) 
 ### [Goal settings](../admin/system-settings-dialog-box-goals-tab.md)
 ### [Set up goals](../sales-enterprise/create-edit-goal-sales.md)
 #### [Create a goal](../sales-enterprise/create-edit-goal-sales.md)
