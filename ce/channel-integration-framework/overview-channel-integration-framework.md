@@ -20,24 +20,24 @@ manager: shujoshi
 
 # What is Channel Integration Framework for Microsoft Dynamics 365
 
-Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party Computer Telephony Integration (CTI) systems with Dynamics 365 Unified Interface Apps using a browser-based JavaScript API library.
+Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party Computer Telephony Integration (CTI), messaging (SMS), and email systems with Dynamics 365 Unified Interface Apps using a browser-based JavaScript API library.
 
 With this framework you can integrate any third-party channel provider or channel aggregators into Unified Interface Apps, where the Channel Integration Framework acts as an interface between the providers or aggregators and Unified Interface Apps.
 
-Technically, Channel Integration Framework is a set of APIs (methods, events and protocols) that enable developers and partners to build immersive communication experiences such that third party communication widgets running on channel provider cloud can interact with Dynamics 365. 
+Technically, Channel Integration Framework is a set of APIs (methods, events and protocols) that enable developers and partners to build immersive communication experiences such that third party communication widgets running on channel provider cloud and interact with Dynamics 365. 
 
 With the Channel Integration Framework application (solution) allows you to configure the channel in the Unified Interface app such that your agents can access to serve your customers.
 
-## Challenges of Computer Telephony Integration (CTI) systems
+## Challenges of Computer Telephony Integration (CTI), messaging (SMS), and email integration systems
 
-Organizations expects their call centers to do more with fewer resources, and there is a constant drive to increase productivity in terms of call center agents handling more chats, phone calls, emails, and so on. Reducing the average time to handle customers can save companies millions of dollars. Computer Telephony Integration (CTI) systems in call centers are a one of key indicators for the success and customer satisfaction. On that context, some of the challenges that call center industry faces with the CTI systems are as follows:
+Organizations expects their call centers to do more with fewer resources, and there is a constant drive to increase productivity in terms of call center agents handling more chats, phone calls, emails, and so on. Reducing the average time to handle customers can save companies millions of dollars. Computer Telephony Integration (CTI), messaging, and email systems in call centers are a one of key indicators for the success and customer satisfaction. On that context, some of the challenges that call center industry faces with the CTI, messaging (SMS), and email systems are as follows:
 
-  - Integrating third-party CTI systems into the Customer Relationship Management (CRM) platforms.
-  - Accessing and performing operations on the CRM from the CTI systems.
-  - Developing and deploying CTI system needs writing adapters and complex custom codes for solution integration.
+  - Integrating third-party CTI, messaging (SMS), and email systems into the Customer Relationship Management (CRM) platforms.
+  - Accessing and performing operations on the CRM from the CTI, messaging (SMS), and email systems.
+  - Developing and deploying CTI, messaging (SMS), and email system needs writing adapters and complex custom codes for solution integration.
   - Using APIs and out-of-box customization which are not supported for production environment.
-  - CTI systems dependency on the operating system and web browsers.
-  - Customizing the CTI systems based on the business and process workflows.
+  - CTI, messaging (SMS), and email systems dependency on the operating system and web browsers.
+  - Customizing the CTI, messaging (SMS), and email systems based on the business and process workflows.
 
 ## Advantages and value propositions of Channel Integration Framework
 
