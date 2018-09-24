@@ -94,11 +94,7 @@
                 topicHref: /dynamics365/customer-engagement/developer/clientapi/reference/xrm-webapi/executeMultiple
       - name: Channel Integration Framework
         tocHref: /dynamics365/customer-engagement/developer/channel-integration-framework/
-        topicHref: /dynamics365/customer-engagement/developer/channel-integration-framework/channel-integration-framework  
-        items:
-        - name: JavaScript API reference
-          tocHref: /dynamics365/customer-engagement/developer/channel-integration-framework/reference/
-          topicHref: /dynamics365/customer-engagement/developer/channel-integration-framework/reference
+        topicHref: /dynamics365/customer-engagement/developer/channel-integration-framework/channel-integration-framework
       - name: Online Management API
         tocHref: /dynamics365/customer-engagement/developer/online-management-api/
         topicHref: /dynamics365/customer-engagement/developer/online-management-api
