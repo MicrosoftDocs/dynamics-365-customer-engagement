@@ -18,5 +18,22 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# onsendkbarticle
+# onsendkbarticle event
 
+The `onsendkbarticle` event is invoked when the user selects the **Send** button in the Knowledge Base control. The eventData are the URL and the title of KB article that you need to pass.
+
+## eventData
+
+The `eventData` event takes following eventData:
+
+| eventData | Example |
+|-----------|---------|
+| ```{“title”: <KB article title>, “link”: <url>} ``` | ```{“title”: “KB Article about Microsoft Developer Guide”, “link”: “https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/developer-guide”}``` |
+
+## Methods supported for this event
+
+There are two methods you can use to work with the `eventData` event:
+
+- [addHandler](../microsoft-ciframework/addHandler.md)
+
+- [removeHandler](../microsoft-ciframework/removeHandler.md)
