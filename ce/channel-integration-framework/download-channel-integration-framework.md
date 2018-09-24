@@ -35,9 +35,8 @@ To download Channel Integration Framework solution from within Dynamics 365:
 
 1. Go to [Microsoft AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.d365ciframework-preview?flightCodes=d365cifalohamora&tab=Overview). Dynamics 365 for Channel Integration Framework application page appears.
 
-2. Select **GET IT NOW**.
-    > [div class="mx-imgBorder"]
-    > ![Dynamics 365 for Channel Integration Framework in Microsoft AppSource](media/cif-app-source.png "Dynamics 365 for Channel Integration Framework in Microsoft AppSource")
+2. Select **GET IT NOW**.<br>
+    ![Dynamics 365 for Channel Integration Framework in Microsoft AppSource](media/cif-app-source.png "Dynamics 365 for Channel Integration Framework in Microsoft AppSource")
 
 3. In the **One more thing..** window, select **Continue**.
 
