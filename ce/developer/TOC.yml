@@ -1094,4 +1094,4 @@
 - name: Developer Guide for Connected Field Service
   href: ../field-service/developer/connected-field-service-developer-guide.md
 - name: Channel Integration Framework Guide for Dynamics 365
-  href: ../channel-integration-framework/channel-integration-framework.md
+  href: channel-integration-framework/channel-integration-framework.md
