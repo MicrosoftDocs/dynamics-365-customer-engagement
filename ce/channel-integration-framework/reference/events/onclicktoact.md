@@ -20,7 +20,7 @@ manager: shujoshi
 
 # onclicktoact event 
 
-The `onclicktoact` event occurs when user selects the outbound communication (ClickToAct) field in a form.
+The `onclicktoact` event invoked when user selects the outbound communication (ClickToAct) field in a form.
 
 You can also write custom controls to raise the Channel Integration ClickToAct window event and pass any eventData as the business requirement.
 
@@ -34,7 +34,7 @@ The `onclicktoact` event takes following eventData:
 
 ## Methods supported for this event
 
-There are two methods you can use to work with the onclicktoact event:
+There are two methods you can use to work with the `onclicktoact` event:
 
 - [addHandler](../microsoft-ciframework/addHandler.md)
 

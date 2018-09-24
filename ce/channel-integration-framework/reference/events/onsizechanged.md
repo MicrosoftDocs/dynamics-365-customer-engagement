@@ -12,7 +12,7 @@ ms.topic: reference
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: 
+ms.assetid: 9C102FD4-D2BB-4D85-989E-BF907B27DBCB
 author: kabala123
 ms.author: kabala
 manager: shujoshi
