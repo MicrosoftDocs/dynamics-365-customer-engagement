@@ -55,12 +55,6 @@ Contoso bike repairs, a company that repairs bikes, schedules repair services fo
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md) </br>  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and set up bookable resources](resources-service-scheduling.md)
 
 
- 
-
-
-
-
-
 ## Install and enable the new Service Scheduling experience
 
 Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.
