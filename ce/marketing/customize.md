@@ -92,11 +92,13 @@ Here's an example for how to add a custom validation step to a pipeline.
 ### Test the customized validation pipeline
 
 To test your validation pipeline, do the following:
-[/]: # (In step 1, "execute code such as" implies the user has several examples to choose from. If this sample code includes a placeholder that the user needs to replace with a specific value, you'll want to describe it that way. If the code will work as written, "execute the following code" is a better way to word it.)
 
-1. Open a [!include[](../includes/tn-google-chrome.md)] console, and then execute the following code:  
-   **$.ajax({type:&quot;POST&quot;, url:&quot;http://10.166.153.50/StarterPortal/api/data/v8.2/new\_ValidationPipeline&quot;, data: JSON.stringify({ValidationContext: &quot;val-ctx&quot;}), contentType:&quot;application/json&quot;, dataType:&quot;json&quot;})**  
+1. Open a [!include[](../includes/tn-google-chrome.md)] console, and then execute the following code (where *&lt;YourDomain&gt;* is the domain where your system is running):  
+
+    `$.ajax({type:"POST", url:"http://<YourDomain>/StarterPortal/api/data/v8.2/new_ValidationPipeline", data: JSON.stringify({ValidationContext: "val-ctx"}), contentType:"application/json", dataType:"json"})`
+
     ![Google Chrome console](media/custom-validation-test1.png "Google Chrome console")
 
-2. The results will be visible on the **Network** tab.  
+2. The results will be visible on the **Network** tab.
+
     ![Google Chrome Network tab](media/custom-validation-test2.png "Google Chrome Network tab")

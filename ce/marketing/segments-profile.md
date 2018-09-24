@@ -52,6 +52,9 @@ To create a dynamic segment, set its **Segment type** to **Dynamic** on the **Ge
 
 Each group in your segment must result in a list of contacts, which are selected by the logic defined in that group. Each group must therefore establish a path through various entities, each linked through relations, and which ends with the contact entity. A simple query group might query the contact entity alone, but a more complex one could pass through several entities.
 
+> [!NOTE]
+> While you are designing your segment, you can select the **Get estimated segment size** link to get an *estimate* for the number of contacts that will be included in the segment. This is only an estimate, and can be somewhat different from your actual segment size. You must go live with the segment to view its exact size and membership.
+
 ### Example: Define a simple segment based on contacts
 
 A simple segment group uses the contact entity only. When you create this type of segment definition, set up a query with clauses that test various field values from your contact records and combine the various clauses using the logical operators AND and OR. For an example, see the tutorial [Create a dynamic segment](create-segment.md).
@@ -83,9 +86,6 @@ Here's an example of how to define a segment that starts by finding a collection
     ![Finish the path to the contact entity](media/segment-example-opportunity3.png "Finish the path to the contact entity")
 
 1. Your group will now find contacts associated with opportunities valued over $10,000.
-
-> [!IMPORTANT]
-> While you are designing your segment, you can select the **Get estimated segment size** link to get an *estimate* for the number of contacts that will be included in the segment. This is only an estimate, and can be somewhat different from your actual segment size. You must go live with the segment to view its exact size and membership.
 
 ## Combine segment groups
 

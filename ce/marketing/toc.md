@@ -82,12 +82,12 @@
 #### [Embed a form on an external website](embed-forms.md)
 #### [Create input fields for forms](marketing-fields.md)
 
-### Build your library of marketing content
+### Build a library of marketing content
 #### [Upload and use images and files](upload-images-files.md)
 #### [Create reusable content blocks](content-blocks.md)
 #### [Create a video library and add videos to your designs](video-content.md)
 
-### Create market segments
+### Define market segments
 #### [Working with segments](segmentation-lists-subscriptions.md)
 #### [Design profile-based dynamic segments](segments-profile.md)
 #### [Use the explore view](segments-explorer.md)
