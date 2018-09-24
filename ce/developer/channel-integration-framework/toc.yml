@@ -55,15 +55,15 @@
     - name: "Client-side events"
       href: reference/client-side-events.md
       items:
-      - name: onclicktoact
+      - name: "onclicktoact"
         href: reference/events/onclicktoact.md
-      - name: onmodechanged
+      - name: "onmodechanged"
         href: reference/events/onmodechanged.md
-      - name: onpagenavigate
+      - name: "onpagenavigate"
         href: reference/events/onpagenavigate.md
-      - name: onsendkbarticle
+      - name: "onsendkbarticle"
         href: reference/events/onsendkbarticle.md
-      - name: onsizechanged
+      - name: "onsizechanged"
         href: reference/events/onsizechanged.md             
   - name: "FAQ"
     href: faq-channel-integration-framework.md    
