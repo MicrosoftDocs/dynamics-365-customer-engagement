@@ -70,7 +70,7 @@
 ## [Schedule optimization](rso-schedule-optimization.md)
 ## [FAQ and troubleshooting tips](rso-faq.md)
 
-# [Connected Field Service (IoT)](connected-field-service.md)
+# [Connected Field Service (IoT) add-in](connected-field-service.md)
 ## [Connected Field Service for Azure IoT Central](cfs-iot-overview.md)
 ### [Tutorials - Integration scenarios](cfs-iot-tutorial-overview.md)
 #### [Prerequisites](cfs-iot-central-setup.md)
