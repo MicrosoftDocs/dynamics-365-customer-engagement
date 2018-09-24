@@ -52,5 +52,18 @@
         href: reference/microsoft-ciframework/addHandler.md
       - name: "removeHandler"
         href: reference/microsoft-ciframework/removeHandler.md
+    - name: "Client-side events"
+      href: reference/client-side-events.md
+      items:
+      - name: onclicktoact
+        href: reference/events/onclicktoact.md
+      - name: onmodechanged
+        href: reference/events/onmodechanged.md
+      - name: onpagenavigate
+        href: reference/events/onpagenavigate.md
+      - name: onsendkbarticle
+        href: reference/events/onsendkbarticle.md
+      - name: onsizechanged
+        href: reference/events/onsizechanged.md             
   - name: "FAQ"
     href: faq-channel-integration-framework.md    
