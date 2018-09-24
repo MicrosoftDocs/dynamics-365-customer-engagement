@@ -18,5 +18,23 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# onsizechanged
+# onsizechanged event
+
+The `onsizechanged` event is invoked when the side panel width is changed.
+
+## eventData
+
+The `onsizechanged` event takes following eventData:
+
+| eventData | Example |
+|-----------|---------|
+| ```{“value”: <number>}``` | ```{“value”: 35”}``` |
+
+## Methods supported for this event
+
+There are two methods you can use to work with the `onsizechanged` event:
+
+- [addHandler](../microsoft-ciframework/addHandler.md)
+
+- [removeHandler](../microsoft-ciframework/removeHandler.md)
 
