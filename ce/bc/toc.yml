@@ -92,7 +92,13 @@
               - name: executeMultiple
                 tocHref: /dynamics365/customer-engagement/developer/clientapi/reference/xrm-webapi/executeMultiple
                 topicHref: /dynamics365/customer-engagement/developer/clientapi/reference/xrm-webapi/executeMultiple
-
+      - name: Channel Integration Framework
+         tocHref: /dynamics365/customer-engagement/developer/channel-integration-framework/
+         topicHref: /dynamics365/customer-engagement/developer/channel-integration-framework/channel-integration-framework  
+         items:
+         - name: JavaScript API reference
+           tocHref: /dynamics365/customer-engagement/developer/channel-integration-framework/reference/
+           topicHref: /dynamics365/customer-engagement/developer/channel-integration-framework/reference
       - name: Online Management API
         tocHref: /dynamics365/customer-engagement/developer/online-management-api/
         topicHref: /dynamics365/customer-engagement/developer/online-management-api
@@ -112,9 +118,3 @@
       - name: Server
         tocHref: /dynamics365/customer-engagement/guidance/server/
         topicHref: /dynamics365/customer-engagement/guidance/server/avoid-batch-requests-plugin
-      - name: Channel Integration Framework
-        tocHref: /dynamics365/customer-engagement/developer/channel-integration-framework/
-        topicHref: /dynamics365/customer-engagement/developer/channel-integration-framework/channel-integration-framework  
-        - name: JavaScript API reference
-          tocHref: /dynamics365/customer-engagement/developer/channel-integration-framework/reference/
-          topicHref: /dynamics365/customer-engagement/developer/channel-integration-framework/reference
