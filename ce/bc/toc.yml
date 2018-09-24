@@ -112,9 +112,9 @@
       - name: Server
         tocHref: /dynamics365/customer-engagement/guidance/server/
         topicHref: /dynamics365/customer-engagement/guidance/server/avoid-batch-requests-plugin
-    - name: Channel Integration Framework
-      tocHref: /dynamics365/customer-engagement/developer/channel-integration-framework/
-      topicHref: /dynamics365/customer-engagement/developer/channel-integration-framework/channel-integration-framework  
-      - name: JavaScript API reference
-        tocHref: /dynamics365/customer-engagement/developer/channel-integration-framework/reference/
-        topicHref: /dynamics365/customer-engagement/developer/channel-integration-framework/reference
+      - name: Channel Integration Framework
+        tocHref: /dynamics365/customer-engagement/developer/channel-integration-framework/
+        topicHref: /dynamics365/customer-engagement/developer/channel-integration-framework/channel-integration-framework  
+        - name: JavaScript API reference
+          tocHref: /dynamics365/customer-engagement/developer/channel-integration-framework/reference/
+          topicHref: /dynamics365/customer-engagement/developer/channel-integration-framework/reference
