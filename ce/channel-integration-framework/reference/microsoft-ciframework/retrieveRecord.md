@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# retrieveRecord (JavaScript API Reference)
+# retrieveRecord (CIF JavaScript API Reference)
 
 [!INCLUDE[retrieveRecord](includes/retrieveRecord-description.md)] 
 

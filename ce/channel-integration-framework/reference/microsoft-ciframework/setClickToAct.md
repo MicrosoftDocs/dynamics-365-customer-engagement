@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# setClickToAct (JavaScript API Reference)
+# setClickToAct (CIF JavaScript API Reference)
 
 [!INCLUDE[setClickToAct](includes/setClickToAct-description.md)]
 

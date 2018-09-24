@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# getMode (JavaScript API Reference)
+# getMode (CIF JavaScript API Reference)
 
 [!INCLUDE[getMode](includes/getMode-description.md)]
 

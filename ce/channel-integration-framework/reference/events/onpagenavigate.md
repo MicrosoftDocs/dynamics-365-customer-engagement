@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# onpagenavigate event
+# onpagenavigate event (CIF JavaScript API reference)
 
 The `onpagenavigate` event is invoked when the main Unified Interface page navigation occurs. The eventData URL is the navigated Unified Interface page URl.
 

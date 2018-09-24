@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# createRecord (JavaScript API Reference)
+# createRecord (CIF JavaScript API Reference)
 
 [!INCLUDE[createRecord](includes/createRecord-description.md)] 
 

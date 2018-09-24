@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# getEnvironment (JavaScript API Reference)
+# getEnvironment (CIF JavaScript API Reference)
 
 [!INCLUDE[getEnvironment](includes/getEnvironment-description.md)]
 

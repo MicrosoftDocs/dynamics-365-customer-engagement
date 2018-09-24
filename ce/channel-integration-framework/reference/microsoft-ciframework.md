@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# Microsoft.CIFramework methods
+# Microsoft.CIFramework methods (CIF JavaScript API reference)
 
 Provides methods to use JavaScript API to manage the channel (widget), records, and forms in the Dynamics 365.
 

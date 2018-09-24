@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# remove (JavaScript API Reference)
+# remove (CIF JavaScript API Reference)
 
 [!INCLUDE[removeHandler-description](includes/removeHandler-description.md)] 
 

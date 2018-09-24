@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# updateRecord (JavaScript API Reference)
+# updateRecord (CIF JavaScript API Reference)
 
 [!INCLUDE[updateRecord](includes/updateRecord-description.md)] 
 

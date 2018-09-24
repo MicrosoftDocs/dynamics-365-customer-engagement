@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# setWidth (JavaScript API Reference)
+# setWidth (CIF JavaScript API Reference)
 
 [!INCLUDE[setWidth](includes/setWidth-description.md)]
 

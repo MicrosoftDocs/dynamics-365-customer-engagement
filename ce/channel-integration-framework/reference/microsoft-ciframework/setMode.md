@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# setMode (JavaScript API Reference)
+# setMode (CIF JavaScript API Reference)
 
 [!INCLUDE[setMode](includes/setMode-description.md)]
 

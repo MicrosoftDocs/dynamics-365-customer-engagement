@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# onclicktoact event 
+# onclicktoact event (CIF JavaScript API reference)
 
 The `onclicktoact` event invoked when user selects the outbound communication (ClickToAct) field in a form.
 

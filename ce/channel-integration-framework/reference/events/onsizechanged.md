@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# onsizechanged event
+# onsizechanged event (CIF JavaScript API reference)
 
 The `onsizechanged` event is invoked when the side panel width is changed.
 

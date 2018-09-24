@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# addHandler (JavaScript API Reference)
+# addHandler (CIF JavaScript API Reference)
 
 [!INCLUDE[addHandler-description](includes/addHandler-description.md)] 
 

@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# onmodechanged event
+# onmodechanged event (CIF JavaScript API reference)
 
 The `onmodechanged` event is invoked when the panel mode is manually toggled between **Minimized (0)** and **Docked (1)**.
 

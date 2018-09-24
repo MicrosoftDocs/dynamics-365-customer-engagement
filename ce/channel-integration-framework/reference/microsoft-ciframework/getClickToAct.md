@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# getClickToAct (JavaScript API Reference)
+# getClickToAct (CIF JavaScript API Reference)
 
 [!INCLUDE[getClickToAct](includes/getClickToAct-description.md)]
 

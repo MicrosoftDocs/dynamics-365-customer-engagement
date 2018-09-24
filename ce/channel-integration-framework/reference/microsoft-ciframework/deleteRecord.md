@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# deleteRecord (JavaScript API Reference)
+# deleteRecord (CIF JavaScript API Reference)
 
 [!INCLUDE[deleteRecord](includes/deleteRecord-description.md)] 
 

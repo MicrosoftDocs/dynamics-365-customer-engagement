@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# openForm (JavaScript API Reference)
+# openForm (CIF JavaScript API Reference)
 
 [!INCLUDE[openForm](includes/openForm-description.md)]
 

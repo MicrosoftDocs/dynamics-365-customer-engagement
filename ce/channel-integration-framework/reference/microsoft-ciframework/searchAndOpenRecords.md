@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# searchAndOpenRecords (JavaScript API Reference)
+# searchAndOpenRecords (CIF JavaScript API Reference)
 
 [!INCLUDE[searchAndOpenRecords](includes/searchAndOpenRecords-description.md)]
 
