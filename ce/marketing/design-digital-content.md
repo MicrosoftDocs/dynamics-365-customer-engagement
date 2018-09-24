@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: 28762c17-02f7-4883-a9d8-e606858de7bd
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
 search.audienceType: 
@@ -37,7 +37,7 @@ search.app:
 - Marketing pages and templates  
     [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create and deploy marketing pages](create-deploy-marketing-pages.md)
 - Marketing forms and templates  
-    [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create, view and manage marketing forms](create-deploy-marketing-pages.md#create-view-and-manage-marketing-forms)
+    [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create, view, and manage marketing forms](marketing-forms.md)
 
 The designer features a drag-and-drop interface for building and working with the design, plus an optional HTML editor for working directly with code and a preview tool that can show how your design will look on various form factors and orientations.
 

@@ -58,7 +58,7 @@ Save time and minimize repetitive activities. Create new records in [!INCLUDE[pn
 
 3. [Set up record details](create-dynamics-365-record-from-social-post.md) for leads.
 
-4. [Create a lead from a post](create-dynamics-365-record-from-social-post.md#convert-a-social-engagement-post-to-a-social-activity) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
+4. [Create a lead from a post](create-dynamics-365-record-from-social-post.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 ## Sales automation: leverage intelligence to automatically find leads
 

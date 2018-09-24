@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: ebd5f931-44f3-409b-836a-1c00dd17883a
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 search.audienceType: 
   - admin

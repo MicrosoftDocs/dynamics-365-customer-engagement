@@ -108,7 +108,7 @@ All major releases of browsers (Microsoft Edge, Internet Explorer, Firefox, Chro
 
 ### Attachments in private messages now show in the post list
 
-Social Engagement now shows attached images and videos in private messages on Facebook and direct messages on Twitter directly in the post list. To see the attachments, open the post details of a direct message that contains attachments. 
+[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] now shows attached images and videos in private messages on Facebook and direct messages on Twitter directly in the post list. To see the attachments, open the post details of a direct message that contains attachments. 
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.4
 

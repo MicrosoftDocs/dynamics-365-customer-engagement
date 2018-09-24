@@ -23,13 +23,13 @@ search.app:
   - D365SE
 ---
 
-# Microsoft Social Engagement Privacy Notices
+# [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] Privacy Notices
 
 Your privacy is important to us. For Microsoft Online Services, read the [Microsoft Online Services privacy Statement](http://go.microsoft.com/fwlink/p/?LinkID=389041).  
 
-For specific privacy information about Microsoft Social Engagement, refer to the paragraphs below.
+For specific privacy information about [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], refer to the paragraphs below.
 
-## Microsoft Social Engagement Privacy Notices
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Privacy Notices
 
 - [!INCLUDE[cc_privacy_msl_social_services_content](../includes/cc-privacy-msl-social-services-content.md)]  
 

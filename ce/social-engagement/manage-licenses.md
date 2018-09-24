@@ -23,7 +23,7 @@ search.app:
   - D365SE
 ---
 
-# Manage licenses for Social Engagement
+# Manage licenses for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
 Using the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] admin center, you can manage [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] user licenses and other services. This topic provides information about the steps to give users access to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
 You must be your organization's [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] administrator to perform the following tasks.

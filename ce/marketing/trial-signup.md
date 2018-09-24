@@ -15,7 +15,7 @@ applies_to:
 ms.assetid: a52e468a-b81e-4598-aa3a-b0670c333e42
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
 search.audienceType: 
@@ -65,7 +65,7 @@ To sign up for a free trial of [!INCLUDE[pn-marketing-business-app-module-name](
 
 5. Once you are signed in, the tenant will begin setting up a new [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] trial instance with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial already installed. [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] is a complex app, so this may take some time to set up for your account.
 
-6. When your trial instance is ready you'll receive an email with a link to the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard (the link may also be provided in your browser if you kept the browser open while your tenant set up the instance). Click the link to launch the wizard and then follow the instructions in [Run the setup wizard](purchase-setup.md) as you work through it.
+6. When your trial instance is ready you'll receive an email with a link to the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard. Click the link to launch the wizard and then follow the instructions in [Run the setup wizard](purchase-setup.md) as you work through it.
 
 <a name="get-managed-tenant"></a>
 
@@ -101,7 +101,7 @@ If you don't already have a [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office
        1. Turn forwarding on and specify the target email address. Then select **Save**.
        1. Close the flyout panel.
 
-8. Install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on your new trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant as described in [Install the trial on an existing, managed Office 365 tenant](#install-on-existing-tenant).
+8. Install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on your new trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant as described in [Install the trial on an existing, managed Office 365 tenant](#install-on-existing-tenant). Be sure to sign up for the trial using the email address that was created for you when you set up this trial tenant.
 
 <a name="add-users"></a>
 
