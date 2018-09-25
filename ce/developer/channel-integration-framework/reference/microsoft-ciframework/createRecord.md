@@ -90,7 +90,7 @@ var data = {
     "description": "Default values for this record were set programmatically."
 }
 // create contact record
-Microsoft.CIFramework.createRecord(entityLogicalName,data).then(
+Microsoft.CIFramework.createRecord("contact",data).then(
     function success (result) {
           console.log("Contact created with ID: " + result.id);
           //perform operations on record creation

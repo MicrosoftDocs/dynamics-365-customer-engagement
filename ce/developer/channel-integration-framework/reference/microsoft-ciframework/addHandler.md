@@ -38,3 +38,125 @@ manager: shujoshi
 ## Return Value
 
 On success, returns a promise object containing the attributes specified earlier in the description of the **successCallback** parameter.
+
+
+## Examples
+
+### Example 1: addHandler method for the `onclicktoact` event
+
+The sample code shows addHandler method is set for the `onclicktoact` event.
+
+```JavaScript
+function handlerfunction(eventData) {
+var eventData = {
+  "value": "123456789", 
+  "name": "mobilephone",
+  "format": "phone",
+  "entityLogicalName": "contact"
+}
+
+Microsoft.CIFramework.addHandler("onclicktoact", handlerFunction).then (
+  function success (result){
+  console.log(success);
+          //the event is invoked
+        },
+        function (error) {
+          console.log(error);
+          //handle error conditions
+        }
+    );
+  }
+```
+
+### Example 2: addHandler method for the `onmodechanged` event
+
+The sample code demonstrates setting addHandler method for the `onclicktoact` event.
+
+```JavaScript
+function handlerfunction(eventData) {
+var eventData = {
+  {"value": "0"}, 
+}
+
+Microsoft.CIFramework.addHandler("onmodechanged", handlerFunction).then (
+  function success (result){
+  console.log(success);
+          //the event is invoked
+        },
+        function (error) {
+          console.log(error);
+          //handle error conditions
+        }
+    );
+  }
+```
+
+### Example 3: addHandler method for the `onsizechanged` event
+
+The sample code demonstrates setting addHandler method for the `onsizechanged` event.
+
+```JavaScript
+function handlerfunction(eventData) {
+var eventData = {
+  {"value": "30"}, 
+}
+
+Microsoft.CIFramework.addHandler("onsizechanged", handlerFunction).then (
+  function success (result){
+  console.log(success);
+          //the event is invoked
+        },
+        function (error) {
+          console.log(error);
+          //handle error conditions
+        }
+    );
+  }
+```
+
+### Example 4: addHandler method for the `onpagenavigate` event
+
+The sample code demonstrates setting addHandler method for the `onpagenavigate` event.
+
+```JavaScript
+function handlerfunction(eventData) {
+var eventData = {
+  {"value": "https://mycrmorg.dynamics.com/<Org>/main.aspx?appid=25ac68f2-9ab5-e811-8149-000d3a43f05f&pagetype=entitylist&etn=contact"}, 
+}
+
+Microsoft.CIFramework.addHandler("onpagenavigate", handlerFunction).then (
+  function success (result){
+  console.log(success);
+          //the event is invoked
+        },
+        function (error) {
+          console.log(error);
+          //handle error conditions
+        }
+    );
+  }
+```
+
+### Example 5: addHandler method for the `onsendkbarticle` event
+
+The sample code demonstrates setting addHandler method for the `onsendkbarticle` event.
+
+```JavaScript
+function handlerfunction(eventData) {
+var eventData = {
+  {"title": "KB Article about phones", 
+  "link": "https://how.phones.work.com", 
+}
+
+Microsoft.CIFramework.addHandler("onsendkbarticle", handlerFunction).then (
+  function success (result){
+  console.log(success);
+          //the event is invoked
+        },
+        function (error) {
+          console.log(error);
+          //handle error conditions
+        }
+    );
+  }
+```
