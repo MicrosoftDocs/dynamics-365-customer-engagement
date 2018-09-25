@@ -75,22 +75,25 @@ If you don't already have a [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office
 
 1. Open a web browser and go to [trials.dynamics.com](https://trials.dynamics.com/).
 
-2. Scroll down past the icons and then select the **Sign up here** link next to "Are you signing up on behalf of a customer or using this trial for development purposes?"  
+1. Select the **Dynamics 365 for Sales** tile.  
+    ![Select the Sales tile](media/trial-signup0.png "Select the Sales tile")
+
+1. The page automatically scrolls down to the bottom. *Don’t select the **Marketing** tile*&mdash;instead select the **Sign up here** link next to "Are you signing up on behalf of a customer or using this trial for development purposes?"  
     ![Location of the sign up here link](media/trial-signup1.png "Location of the sign up here link")
 
-3. A dialog box opens. Choose the **No, continue signing up** link.  
+1. A dialog box opens. Choose the **No, continue signing up** link.  
     ![Select continue signing up](media/trial-signup2.png "Select continue signing up")
 
-4. A form opens, requesting your contact details. Enter your information.
+1. A form opens, requesting your contact details. Enter your information.
    > [!IMPORTANT]
    > You must register in a country/region where the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial is available.
 
-5. Continue by following the instructions on your screen and providing the information requested. The last page of the setup asks you to choose a scenario. Be sure to select **All of these**, which makes sure your new [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] user account gets created with system admin privileges, and then select **Complete Setup**.  
+1. Continue by following the instructions on your screen and providing the information requested. The last page of the setup asks you to choose a scenario. Be sure to select **All of these**, which makes sure your new [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] user account gets created with system admin privileges, and then select **Complete Setup**.  
     ![Choose to enable all the apps](media/trial-signup3.png "Choose to enable all the apps")
 
-6. After a few minutes, your new [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organization will be ready and will open in your browser. Be sure to make a note of your org's URL and your other account details, such as the user name, password, and email address you chose while setting it up.
+1. After a few minutes, your new [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organization will be ready and will open in your browser. Be sure to make a note of your org's URL and your other account details, such as the user name, password, and email address you chose while setting it up.
 
-7. This step is optional, but it can be useful to set up an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] trial so you can set up email accounts to use with your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial. 
+1. This step is optional, but it can be useful to set up an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] trial so you can set up email accounts to use with your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial. 
    1. Open a new browser tab and go to [portal.office.com/adminportal/home?rc=1#/catalog](https://portal.office.com/adminportal/home?rc=1#/catalog). This is where you can add new apps to your new org.
    2. Scroll down to the **[!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] Enterprise E3** box. Hover your mouse over this box to open a flyout message and then select **Start free trial** on the message.
    3. Follow the instructions on your screen to add the trial to your account.
@@ -101,7 +104,7 @@ If you don't already have a [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office
        1. Turn forwarding on and specify the target email address. Then select **Save**.
        1. Close the flyout panel.
 
-8. Install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on your new trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant as described in [Install the trial on an existing, managed Office 365 tenant](#install-on-existing-tenant). Be sure to sign up for the trial using the email address that was created for you when you set up this trial tenant.
+1. Install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on your new trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant as described in [Install the trial on an existing, managed Office 365 tenant](#install-on-existing-tenant). Be sure to sign up for the trial using the email address that was created for you when you set up this trial tenant.
 
 <a name="add-users"></a>
 
