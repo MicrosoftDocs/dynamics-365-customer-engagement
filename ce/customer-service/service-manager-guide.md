@@ -89,10 +89,6 @@ In the Customer Service app, navigate to **Settings > Service Management**.
 
 [Entitlement Templates](set-up-entitlements-templates.md)
 
-[Email Templates (Customer Service app)](../admin/create-templates-email.md)
-
-[Article Templates (Customer Service app)](../admin/create-templates-articles.md)
-
 ### See also
 
 [User Guide (Customer Service Hub)](user-guide-customer-service-hub.md)

@@ -50,8 +50,6 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)],  you can track m
   
 5. When you’re done, select **OK**.  
 
-   ![parent-child-case-settings-csh](media/parent-child-case-settings.png)
-
 ## Set parent and child case attributes  (Customer Service app)
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
