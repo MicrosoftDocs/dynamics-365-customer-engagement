@@ -42,3 +42,50 @@ manager: shujoshi
 **Type:** String
 
 **Description:** Returns Promise object with the value. On success, returns the search results as per the search query.
+
+## Remarks
+
+When you set the query value as true, the contact is only searched but not opened. Set the query as true when the search displays a list of records based on the search context.
+
+When you set the query value as false, the conact is searched and opened. Set the query as false when the search displays a single record based on the search context.
+
+## Examples
+
+### Example 1: Search and open the contact record
+
+This sample code searches the name and phone number of a contact and opens the contact record.
+
+```JavaScript
+
+// retrieve contact record
+Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,phonenumber", "false" ).then(
+    function success(result) {
+        console.log(`Record values: Full Name: ${result.fullname}, Phone Number: ${result.phonenumber}`);
+        // perform operations on record retrieval and opening
+    },
+    function (error) {
+        console.log(error.message);
+        // handle error conditions
+    }
+);
+```
+
+### Example 2: Search and display on the list of contact records
+
+This sample code searches the name and phone number of a contact and opens the contact record.
+
+```JavaScript
+
+// retrieve contact record
+// query = true, searches but do not open the record
+Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,phonenumber", "true" ).then(
+    function success(result) {
+        console.log(`The caller name is: ${result.fullname}, Phone Number: ${result.phonenumber}`);
+        // perform operations on record retrieval and opening
+    },
+    function (error) {
+        console.log(error.message);
+        // handle error conditions
+    }
+);
+```
