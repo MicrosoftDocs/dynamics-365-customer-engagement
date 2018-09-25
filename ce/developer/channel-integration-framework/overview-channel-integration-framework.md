@@ -22,22 +22,22 @@ manager: shujoshi
 
 Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party channel providers with Dynamics 365 Unified Interface Apps using a browser-based JavaScript API library.
 
-With this framework you can integrate any third-party channel provider or channel aggregators into Unified Interface Apps, where the Channel Integration Framework acts as an interface between the providers or aggregators and Unified Interface Apps.
+With this framework, you can integrate any third-party channel provider or channel aggregators into Unified Interface Apps, where the Channel Integration Framework acts as an interface between the providers or aggregators and Unified Interface Apps.
 
-Technically, Channel Integration Framework is a set of APIs (methods, events and protocols) that enable developers and partners to build immersive communication experiences such that third party communication widgets running on channel provider cloud and interact with Dynamics 365. 
+Technically, Channel Integration Framework is a set of APIs (methods, events, and protocols) that enable developers and partners to build immersive communication experiences such that third party communication widgets running on channel provider cloud and interact with Dynamics 365. 
 
 With the Channel Integration Framework application (solution) allows you to configure the channel in the Unified Interface app such that your agents can access to serve your customers.
 
 ## Challenges of channel provider integration systems
 
-Organizations expects their call centers to do more with fewer resources, and there is a constant drive to increase productivity in terms of call center agents handling more chats, phone calls, emails, and so on. Reducing the average time to handle customers can save companies millions of dollars. Channel providers (Computer Telephony Integration (CTI), messaging, and email systems) in call centers are a one of key indicators for the success and customer satisfaction. On that context, some of the challenges that call center industry faces with the channel providers (CTI, messaging (SMS), and email systems) are as follows:
+Organizations expect their call centers to do more with fewer resources, and there is a constant drive to increase productivity in terms of call center agents handling more chats, phone calls, emails, and so on. Reducing the average time to handle customers can save companies millions of dollars. Channel providers (Computer Telephony Integration (CTI), messaging, and email systems) in call centers are one of the key indicators for the success and customer satisfaction. On that context, some of the challenges that call center industry faces with the channel providers (CTI, messaging (SMS), and the email systems) are as follows:
 
   - Integrating third-party channel providers into the Customer Relationship Management (CRM) platforms.
-  - Accessing and performing operations on the CRM from the CTI, messaging (SMS), and email systems.
-  - Developing and deploying CTI, messaging (SMS), and email system needs writing adapters and complex custom codes for solution integration.
-  - Using APIs and out-of-box customization which are not supported for production environment.
-  - Channel providers (CTI, messaging (SMS), and email systems) dependency on the operating system and web browsers.
-  - Customizing the channel provider (CTI, messaging (SMS), and email systems) based on the business and process workflows.
+  - Accessing and performing operations on the CRM from the CTI, messaging (SMS), and the email systems.
+  - Developing and deploying CTI, messaging (SMS), and the email system needs writing adapters and complex custom codes for solution integration.
+  - Using APIs and out-of-box customization which are not supported for the production environment.
+  - Channel providers (CTI, messaging (SMS), and the email systems) dependency on the operating system and web browsers.
+  - Customizing the channel provider (CTI, messaging (SMS), and the email systems) based on the business and process workflows.
 
 ## Advantages and value propositions of Channel Integration Framework
 
@@ -53,7 +53,7 @@ The framework is extensible for the configuration of communication between the c
 
 **Standard and supported APIs:**
 
-The Channel Integration Framework exposes a JavaScript APIs which are standard set of APIs that you can consume for the communication between the channels and Dynamics 365 Unified Interface Apps.
+The Channel Integration Framework exposes a JavaScript APIs which are the standard set of APIs that you can consume for the communication between the channels and Dynamics 365 Unified Interface Apps.
 
 **Plug and play configuration:**
 
@@ -65,7 +65,7 @@ Seamless development, implementation, and deployment experience of your channels
 
 **Independent of operating systems and web browsers:**
 
-The Channel Integration Framework is operating system and web browser agnostic and lets you integrate the cloud-based channels of your choice that is best for organization requirements.
+The Channel Integration Framework is an operating system and web browser agnostic and lets you integrate the cloud-based channels of your choice that is best for organization requirements.
 
 **Support for Screen pop:**
 
