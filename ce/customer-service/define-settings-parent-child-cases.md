@@ -60,7 +60,7 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)],  you can track m
   
 3. Choose **Settings** > **Service Management**.
 
-4. Click **Parent and Child case settings**.  
+4. Select **Parent and Child case settings**.  
   
 5. In the **Case Settings** dialog box, select the attributes that the child case will be inherit from the parent case.  
   
@@ -71,7 +71,7 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)],  you can track m
     > [!NOTE]
     >  If you choose **None**, parent and child cases are closed independently of each other. This is the default setting.  
   
-7. When you’re done, click **OK**.  
+7. When you’re done, select **OK**.  
 
   
 ### See also

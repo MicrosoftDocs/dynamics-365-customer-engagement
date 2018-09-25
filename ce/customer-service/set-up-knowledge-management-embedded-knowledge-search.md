@@ -73,7 +73,7 @@ After knowledge management is set up, users will be able to:
   
 2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
   
-3. Under **Knowledge Base Management**, click **Embedded Knowledge Search**.  
+3. Under **Knowledge Base Management**, select **Embedded Knowledge Search**.  
   
 4. In the **Knowledge Base Management Settings** wizard, in **Record Types**, select the record types you want to turn on knowledge management for. The list will include all entities that are available for an N:N relationship. Knowledge management is enabled for case entity by default.  
   
@@ -87,9 +87,9 @@ After knowledge management is set up, users will be able to:
   
         The placeholder "{kbnum}" is replaced by an actual knowledge article number.  
   
-7. Click **Next**.  
+7. Select **Next**.  
   
-8. If you’ve specified the details correctly, the page shows the connection details for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Click **Finish** to complete the setup.  
+8. If you’ve specified the details correctly, the page shows the connection details for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Select **Finish** to complete the setup.  
   
 ### See also  
  [Add the Knowledge Base Search control to a Dynamics 365 form](../customer-service/add-knowledge-base-search-control-forms.md)   

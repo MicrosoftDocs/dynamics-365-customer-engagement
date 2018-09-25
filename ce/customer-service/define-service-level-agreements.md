@@ -87,11 +87,11 @@ Routing Rule Sets, Automatic Record Creation, and Service Level Agreements will 
 
 3. Go to **Service Level Agreements**.  
 
-4. To create a new SLA, on the command bar, click the **New** button.  
+4. To create a new SLA, on the command bar, select the **New** button.  
 
     -OR-  
 
-    To edit an SLA, in the list of records, select the SLA, and then on the command bar, click **Edit**.  
+    To edit an SLA, in the list of records, select the SLA, and then on the command bar, select **Edit**.  
 
 5. If you're creating a new SLA, you'll see the **Create SLA** dialog box. Type a name for the SLA, and then in the **Entity** drop-down list, select **Case**.  
 
@@ -99,7 +99,7 @@ Routing Rule Sets, Automatic Record Creation, and Service Level Agreements will 
 
 6. Fill in your information:  
 
-   - **Applicable From**. Select the case field that specifies the date and time from which the SLA items will be calculated. For example, if you click the **Created On** field, the calculations for service level agreements will start from the time the case is created.  
+   - **Applicable From**. Select the case field that specifies the date and time from which the SLA items will be calculated. For example, if you select the **Created On** field, the calculations for service level agreements will start from the time the case is created.  
 
        > [!NOTE]
        >  You can have multiple SLA KPIs within one SLA. The start time for different SLA KPIs within an SLA is set at the SLA level and can't be different across SLA KPIs. The start time is determined by the Applicable From field value.  
@@ -114,7 +114,7 @@ Routing Rule Sets, Automatic Record Creation, and Service Level Agreements will 
 
 7. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
 
-8. To add SLA details, in the **SLA Details** section, click the **Add** button ![Add button](../customer-service/media/crm-itpro-cust-subgridadd.PNG "Add button").  
+8. To add SLA details, in the **SLA Details** section, select the **Add** button ![Add button](../customer-service/media/crm-itpro-cust-subgridadd.PNG "Add button").  
 
     You add SLA details to define the key performance indicators (KPIs) or metrics for the service level agreement. You can define any KPI your organization needs. For example, a KPI could be that all cases for standard customers must be resolved within five days of case creation.  
 
@@ -154,11 +154,11 @@ Routing Rule Sets, Automatic Record Creation, and Service Level Agreements will 
 
    - Under **SLA Item Failure**, in the **Failure After** drop-down list, select when the SLA items will be considered as failed. For example, if you select **1 hour**, the KPI will be considered as failed if the first response is not done within 1 hour of case creation. 1 hour is calculated based on the value in date/time field that you select in the **Applicable From** field of the SLA record.  
 
-   - In the **Failure Actions** section, click **Add Step**, and then specify the actions that will be taken when the success criteria isn’t met and the case has exceeded the specified failure time. For example, to mark the case for escalation when the KPI has failed, click **Add Step** > **Update Record**. Then select **Case** and click **Set Properties**. Now in the case record, change the value of the **Is Escalated** field, and then close the case form.  
+   - In the **Failure Actions** section, select **Add Step**, and then specify the actions that will be taken when the success criteria isn’t met and the case has exceeded the specified failure time. For example, to mark the case for escalation when the KPI has failed, select **Add Step** > **Update Record**. Then select **Case** and select **Set Properties**. Now in the case record, change the value of the **Is Escalated** field, and then close the case form.  
 
    - Under **SLA Item Warning**, in the **Warn After** drop-down list, select when a warning is to be raised for the KPI nearing violation.  
 
-   - In the **Warning Actions** section, click **Add Step**, and then specify the actions to be taken when the KPI reaches the warning time. For example, to warn the case owner about the KPI nearing violation, click **Add Step** > **Send Email**. Then select **Create New Message** and click **Set Properties**. Now in the email record, type the email details, and then close the email form.  
+   - In the **Warning Actions** section, select **Add Step**, and then specify the actions to be taken when the KPI reaches the warning time. For example, to warn the case owner about the KPI nearing violation, select **Add Step** > **Send Email**. Then select **Create New Message** and select **Set Properties**. Now in the email record, type the email details, and then close the email form.  
 
      > [!NOTE]
      >  The time for failure and warning is calculated after considering the business hours selected in the SLA record. If a business hours record (customer service schedule) isn’t selected, the work hours are considered to be 24 x 7.  
@@ -189,11 +189,11 @@ Routing Rule Sets, Automatic Record Creation, and Service Level Agreements will 
 
 3. Go to **Service Level Agreements**.  
 
-4. To create a new SLA, click the **New** button.  
+4. To create a new SLA, select the **New** button.  
 
     -OR-  
 
-    To edit an SLA, in the list of records, select the SLA, and then on the command bar, click **Edit**.  
+    To edit an SLA, in the list of records, select the SLA, and then on the command bar, select **Edit**.  
 
 5. If you're creating a new SLA, you'll see the **Create SLA** dialog box. Type a name for the SLA, and then select the entity for which you want to create the SLA.  
 
@@ -214,7 +214,7 @@ Routing Rule Sets, Automatic Record Creation, and Service Level Agreements will 
 
 7. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
 
-8. To add SLA details, in the **SLA Details** section, click the **Add** button ![Add button](../customer-service/media/crm-itpro-cust-subgridadd.PNG "Add button").  
+8. To add SLA details, in the **SLA Details** section, select the **Add** button ![Add button](../customer-service/media/crm-itpro-cust-subgridadd.PNG "Add button").  
 
 9. Fill in your information in the SLA Item form:  
 
@@ -240,15 +240,15 @@ Routing Rule Sets, Automatic Record Creation, and Service Level Agreements will 
      > [!NOTE]
      >  Before you specify the SLA failure and warning details, save the SLA item record.  
 
-   - In the **Success Action** section, click **Add Step**, and then specify the actions that you want [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to take when the success criteria is met before the violation time. For example, click **Add Step** > **Change Status**. Then, in the first drop-down list, select **Case**, and in the next drop-down list, select **Information Provided**. This option is available only if you’re creating enhanced SLAs.  
+   - In the **Success Action** section, select **Add Step**, and then specify the actions that you want [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to take when the success criteria is met before the violation time. For example, select **Add Step** > **Change Status**. Then, in the first drop-down list, select **Case**, and in the next drop-down list, select **Information Provided**. This option is available only if you’re creating enhanced SLAs.  
 
    - Under **SLA Item Failure**, in the **Failure After** drop-down list, select when the SLA items will be considered as failed. For example, if you select **1 hour**, the KPI will be considered as failed if the first response is not done within 1 hour of case creation. 1 hour is calculated based on the value in date/time field that you select in the **Applicable From** field of the SLA record.  
 
-   - In the **Failure Actions** section, click **Add Step**, and then specify the actions that will be taken when the success criteria are not met and the                      record                     has exceeded the specified failure time. For example, to mark                      a                     case for escalation when the KPI has failed, click **Add Step** > **Update Record**. Then select **Case** and click **Set Properties**. Now in the case record, change the value of the **Is Escalated** field, and then close the case form.  
+   - In the **Failure Actions** section, select **Add Step**, and then specify the actions that will be taken when the success criteria are not met and the                      record                     has exceeded the specified failure time. For example, to mark                      a                     case for escalation when the KPI has failed, select **Add Step** > **Update Record**. Then select **Case** and select **Set Properties**. Now in the case record, change the value of the **Is Escalated** field, and then close the case form.  
 
    - Under **SLA Item Warning**, in the **Warn After** drop-down list, select when a warning is to be raised for the KPI nearing violation.  
 
-   - In the **Warning Actions** section, click **Add Step**, and then specify the actions to be taken when the KPI reaches the warning time. For example, to warn the case owner about the KPI nearing violation, click **Add Step** > **Send Email**. Then select **Create New Message** and click **Set Properties**. In the email record, specify the email details, and then close the email form.  
+   - In the **Warning Actions** section, select **Add Step**, and then specify the actions to be taken when the KPI reaches the warning time. For example, to warn the case owner about the KPI nearing violation, select **Add Step** > **Send Email**. Then select **Create New Message** and select **Set Properties**. In the email record, specify the email details, and then close the email form.  
 
      > [!NOTE]
      >  The time for failure and warning is calculated after considering the business hours selected in the SLA record. If a business hours record (customer service schedule) isn’t selected, the work hours are considered to be 24 x 7.  
@@ -281,7 +281,7 @@ Routing Rule Sets, Automatic Record Creation, and Service Level Agreements will 
 
  For all other entities, select a default SLA. You can have one default SLA for each entity that is enabled for SLA.  
 
- To set an SLA as the default, select an active SLA from the list, and then click **Set as Default** on the command bar.  
+ To set an SLA as the default, select an active SLA from the list, and then select **Set as Default** on the command bar.  
 
 > [!NOTE]
 >  If you deactivate a default SLA, you must activate it again before resetting it as the default.  
