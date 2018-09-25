@@ -17,7 +17,7 @@
       href: configure-channel-provider-channel-integration-framework.md
     - name: "Authenticate channel users to the channel (widget)"
       href: authenticate-channel-users.md
-  - name: JavaScript API Referrence
+  - name: JavaScript API Reference
     items:
     - name: "Microsoft.CIFramework"
       href: reference/microsoft-ciframework.md
