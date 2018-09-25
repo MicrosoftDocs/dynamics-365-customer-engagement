@@ -73,6 +73,7 @@ Follow the procedure given below to create a category:
 
 ## Additional actions
 
+- Select a category from the list and select **View Hierarchy**. You can see the hierarchy of a particular record, and its parent and child category associations.
 - Select **Assign** on the command bar to assign the category to a particular owner.
 - To delete a category, select the category from the list and select **Delete** on the command bar.
 
