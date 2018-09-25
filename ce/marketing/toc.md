@@ -30,12 +30,17 @@
 #### [Quota management](quota-management.md)
 #### [Control access to designer features](designer-feature-protection.md)
 
+### Customize Marketing
+#### [Customizing Marketing](customize.md)
+#### [Create and customize marketing calendars](customize-marketing-calendars.md)
+#### [Add custom validation rules](custom-validation.md)
+
 ### Privacy and compliance
 #### [Data protection and GDPR](gdpr.md)
 #### [Set up double opt-in](double-opt-in.md)
 #### [How the app uses cookies](cookies.md)
 
-### [Customize Marketing](customize.md)
+
 ### [Best practices for email marketing](get-ready-email-marketing.md)
 ### [Administration and setup FAQ](setup-troubleshooting.md)
 
