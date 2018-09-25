@@ -1,7 +1,7 @@
 ---
-title: "Activate field service mobile licenses (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Activate or extend field service mobile licenses (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: "dyn365-fieldservice"
-ms.date: 03/27/2018
+ms.date: 09/25/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,7 +14,7 @@ applies_to:
 author: "shellyhaverkamp"
 ms.assetid: 49207db9-d1f0-46e0-ae2c-f4acf4593da9
 caps.latest.revision: 24
-ms.author: "krbjoran"
+ms.author: FieldServiceDave
 ms.manager: "shellyhaverkamp"
 search.audienceType: 
   - admin
@@ -39,9 +39,23 @@ Global admins preparing to use the [!include[Dynamics 365 for Field Service](../
 
 - A 30-day trial automatically starts when you install the Woodford solution in your Dynamics 365 instance. Activate the licenses before the trial period ends to maintain access to the field service mobile app. 
 
-## Activate field service mobile licenses via a support ticket
+# Extend field service mobile license trials 
 
-Follow these steps to submit a service request to activate your field service mobile licenses:
+The field service mobile app is based on the Resco Mobile CRM solution called Woodford. A 30-day trial automatically starts when you install the Woodford solution in your Dynamics 365 instance and can be extended via the request form below.
+
+
+## Request form to activate or extend field service mobile licenses
+
+Fill out the following form to activate mobile licenses or extend trials: [Request form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u)
+
+Please note you will need your Dynamics 365 Org ID to complete the request form.
+
+        > [!NOTE]
+        > Here's how to find your org ID:
+        >  - Open your Dynamics 365 instance.
+        >  - Navigate to **Settings \> Customizations \>Developer Resources**.
+        >  - In the Instance Reference Information section, locate the Org ID.
+
 
 1. [Download and complete this Excel spreadsheet](http://download.microsoft.com/download/D/7/3/D73699AE-EB42-49DF-8E71-F741D2FB5B95/Field%20service%20mobile%20app%20license%20allocation%20form.xlsx) in preparation for completing the service request. 
 
@@ -65,12 +79,7 @@ Follow these steps to submit a service request to activate your field service mo
         >  - Expand the **Billing** tab, and then select **Licenses**.
         >  - Take a screenshot showing the number of field service licenses in your tenant.
 
-    -   Enter the **unique org ID**. 
-        > [!NOTE]
-        > Here's how to find your org ID:
-        >  - Open your Dynamics 365 instance.
-        >  - Navigate to **Settings \> Customizations \>Developer Resources**.
-        >  - In the Instance Reference Information section, locate the Org ID.
+    
 
 6. Upload the Excel spreadsheet you completed.
 
