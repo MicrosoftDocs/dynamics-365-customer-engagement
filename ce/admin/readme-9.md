@@ -574,8 +574,9 @@ Unified Service Desk
 --------------------
 - The next version of Dynamics 365 for Customer Engagement on-premises release will support only Unified Service Desk 4.0 and later versions. If you are using Unified Service Desk 3.3, then the next version of Dynamics 365 for Customer Engagement on-premises release will not be supported.
 
--   Download and update your Unified Service Desk to the [latest version](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/download-unified-service-desk).
-If you want to continue to use versions of Unified Service Desk older than 3.1, you will need to update the client desktop’s registry entries. Read the [blog](https://blogs.msdn.microsoft.com/usd/2017/10/20/unified-service-desk-and-tls-1-2-mandate-for-dynamics-365-online/) about Unified Service Desk and TLS 1.2 mandate to update these registry entries.
+- Download and update your Unified Service Desk to the [latest version](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/download-unified-service-desk).
+
+  If you want to continue to use versions of Unified Service Desk earlier than 3.1, you will need to update the client desktop’s registry entries. Read the [Dynamics CRM Unified Service Desk blog](https://blogs.msdn.microsoft.com/usd/2017/10/20/unified-service-desk-and-tls-1-2-mandate-for-dynamics-365-online/) for information about the Unified Service Desk and TLS 1.2 mandate to update these registry entries.
 
 -   The following features are in preview:
     -  Unified Service Desk Administrator app
@@ -583,17 +584,20 @@ If you want to continue to use versions of Unified Service Desk older than 3.1, 
     -  Stack notification in Unified Service Desk
     -  Effective session switch management
 
-    To learn more about the features, see [Unified Service Desk Guide](../unified-service-desk/unified-service-desk.md)
+    To learn more about the features, see the [Unified Service Desk Guide](../unified-service-desk/unified-service-desk.md).
 
--   **Interactive Service Hub**: With the Dynamics 365 (online), version 9.0 release, Interactive Service Hub has been rebuilt as a Unified Interface app and is called Customer Service Hub. This implies that [support](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/interactive-service-hub-page-hosted-control) for the Interactive Service Hub in Unified Service Desk is available only if you are running Dynamics 365, version 8.2 or an earlier supported version of Microsoft Dynamics CRM. You can integrate with Customer Service Hub in Unified Service Desk in the same way as any other Unified Interface app. <br>More information: [Support for Unified Interface Apps in Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/support-unified-interfaces-apps-usd)
+-   **Interactive Service Hub**: With the Dynamics 365 (online) version 9.0 release, Interactive Service Hub has been rebuilt as a Unified Interface app and is called Customer Service Hub. This implies that [support](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/interactive-service-hub-page-hosted-control) for the Interactive Service Hub in Unified Service Desk is available only if you are running Dynamics 365, version 8.2 or an earlier supported version of Microsoft Dynamics CRM. You can integrate with Customer Service Hub in Unified Service Desk in the same way as any other Unified Interface app. <br><br>
+  More information: [Support for Unified Interface Apps in Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/support-unified-interfaces-apps-usd)
 
--   **Relationship Insights**: Although you can view information from the relationship assistant in the Unified Service Desk client, you cannot  interact with the information in the client. <br>More information: [Embedded intelligence](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/embedded-intelligence)
+-   **Relationship Insights**: Although you can view information from the relationship assistant in the Unified Service Desk client, you cannot  interact with the information in the client. <br><br>
+  More information: [Embedded intelligence](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/embedded-intelligence)
 
 -   **LinkedIn Sales Navigator for Microsoft Dynamics 365 for Sales**: This is not supported.
 
 -   **Multi-select option sets**: Although multi-select option sets display fine when hosted in Unified Service Desk (using [CRM Page](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/crm-page-hosted-control) type of hosted control), you cannot change selections in multi-select option sets using the Unified Service Desk APIs.
 
--   **URL addressability in business apps**: Business apps (app modules) use the appid value in the URLs to refer to resources displayed in an app. For example: `https://.crm.dynamics.com/main.aspx?appid=b0f40cd2-22a6-e711-a94e-000d3a1a7a9b&pagetype=entitylist&etn=bookableresourcebooking` Unified Service Desk has added support for the usage of appid values in URLs to refer to a resource from version 4.0. <br>More information: [Design custom business apps by using the app designer](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
+-   **URL addressability in business apps**: Business apps (app modules) use the appid value in the URLs to refer to resources displayed in an app. For example: `https://.crm.dynamics.com/main.aspx?appid=b0f40cd2-22a6-e711-a94e-000d3a1a7a9b&pagetype=entitylist&etn=bookableresourcebooking` Unified Service Desk has added support for the usage of appid values in URLs to refer to a resource from version 4.0. <br><br>
+  More information: [Design custom business apps by using the app designer](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
 
 Third-party notice 
 -------------------
