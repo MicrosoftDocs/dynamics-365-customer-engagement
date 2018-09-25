@@ -73,3 +73,31 @@ manager: shujoshi
 ## Return Value
 
 On success, returns a promise object containing the attributes specified earlier in the description of the **successCallback** parameter.
+
+## Examples
+
+The sample code demonstrates to create a sample contact record.
+
+```JavaScript
+var entityLogicalName = "contact";
+var data = {
+    "firstname": "Sample",
+    "lastname": "Contact",
+    "fullname": "Sample Contact",
+    "emailaddress1": "contact@contoso.com",
+    "jobtitle": "Sr. Marketing Manager",
+    "phonenumber": "555-0109",
+    "description": "Default values for this record were set programmatically."
+}
+
+Microsoft.CIFramework.createRecord(entityLogicalName,data).then(
+    function success (result) {
+          console.log("Contact created with ID: " + result.id);
+          //perform operations on record creation
+      },
+      function (error) {
+          console.log(error);
+          //handle error conditions
+      }
+  );
+```

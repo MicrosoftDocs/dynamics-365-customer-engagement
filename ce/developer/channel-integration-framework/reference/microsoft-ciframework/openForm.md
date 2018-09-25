@@ -96,7 +96,7 @@ manager: shujoshi
 <td>formParameters</td>
 <td>Object</td>
 <td>No</td>
-<td>A dictionary object that passes extra parameters to the form. Invalid parameters will cause an error.<br/><br/>For information about passing parameters to a form, see <a href="../../../developer/set-field-values-using-parameters-passed-form.md" data-raw-source="[Set field values using parameters passed to a form](../../../developer/set-field-values-using-parameters-passed-form.md)">Set field values using parameters passed to a form</a> and <a href="../../../developer/configure-form-accept-custom-querystring-parameters.md" data-raw-source="[Configure a form to accept custom querystring parameters](../../../developer/configure-form-accept-custom-querystring-parameters.md)">Configure a form to accept custom querystring parameters</a> </td>
+<td>A dictionary object that passes extra parameters to the form. Invalid parameters will cause an error.<br/><br/>For information about passing parameters to a form, see <a href="../../../set-field-values-using-parameters-passed-form.md" data-raw-source="[Set field values using parameters passed to a form](../../../set-field-values-using-parameters-passed-form.md)">Set field values using parameters passed to a form</a> and <a href="../../../developer/configure-form-accept-custom-querystring-parameters.md" data-raw-source="[Configure a form to accept custom querystring parameters](../../../developer/configure-form-accept-custom-querystring-parameters.md)">Configure a form to accept custom querystring parameters</a> </td>
 </tr>
 <tr>
 <td>successCallback</td>
@@ -128,6 +128,33 @@ This function is passed an object as a parameter. The object has a <b>savedEntit
 </tr>
 </table>
 
-## Return value
+## Remarks
 
 You must use this method to open entity or quick create forms instead of the deprecated [Xrm.Utility.openEntityForm](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/jj602956(v=crm.8)#openentityform) and [Xrm.Utility.openQuickCreate](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/jj602956(v=crm.8)#openquickcreate) methods.
+
+
+## Examples
+
+The following sample code opens a new case form with per-populated values for certain fields like contact Id and description.
+
+```JavaScript
+var entityFormOptions = {};
+    entityFormOptions["entityName"] = "case";
+    
+var fp = {};
+    //pre-populate some fields based on the context
+    formParameters["customerid"] = phone.contactId;
+    formParameters["customeridtype"] = "contact";
+    formParameters["caseorigincode"] = 1;
+    formParameters["description"] = $('#callNotesField').text();
+
+//Open the form
+Microsoft.CIFramework.openForm(JSON.stringify(entityFormOptions), JSON.stringify(formParameters)).then(
+      function (success) {
+        console.log(success);
+    },
+    function (error) {
+        console.log(error);
+    }
+  );
+```
