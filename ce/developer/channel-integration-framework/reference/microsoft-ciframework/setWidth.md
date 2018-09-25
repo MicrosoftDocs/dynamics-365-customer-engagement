@@ -30,9 +30,9 @@ manager: shujoshi
 
 | Name   | Type   | Required | Description |
 |--------|--------|----------|-------------|
-| value           | Number   | Yes      | Width of the panel in pixel |
-| successCallback | Function | No       | A function to call when the panel width is set successfully |
-| errorCallback   | Function | No       | A function to call when the panel width is setting operation fails |
+| value           | Number   | Yes      | The Width of the panel in pixels. |
+| successCallback | Function | No       | A function to call when the panel width is set successfully. |
+| errorCallback   | Function | No       | A function to call when the panel width is setting operation fails. |
 
 ## Return value
 

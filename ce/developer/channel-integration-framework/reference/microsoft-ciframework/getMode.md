@@ -30,8 +30,8 @@ manager: shujoshi
 
 | Name            | Type     | Required | Description |
 |-----------------|----------|----------|-------------|
-| successCallback | Function | No       | A function to call when the request for the current state of the panel is successful |
-| errorCallback   | Function | No       | A function to call when the request for the current state of the panel fails         |
+| successCallback | Function | No       | A function to call when the request for the current state of the panel is successful. |
+| errorCallback   | Function | No       | A function to call when the request for the current state of the panel fails.         |
 
 ## Return value
 

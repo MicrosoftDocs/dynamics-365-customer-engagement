@@ -1,1 +1,1 @@
-Gets the current state of panel.
+Gets the current state of the panel.

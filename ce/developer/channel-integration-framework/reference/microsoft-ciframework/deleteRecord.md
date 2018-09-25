@@ -24,7 +24,7 @@ manager: shujoshi
 
 ## Syntax
 
-`microsoft-ciframework.deleteRecord(entityLogicalName, id).then(successCallback, errorCallback);`
+`Microsoft.CIFramework.deleteRecord(entityLogicalName, id).then(successCallback, errorCallback);`
 
 ## Parameters
 

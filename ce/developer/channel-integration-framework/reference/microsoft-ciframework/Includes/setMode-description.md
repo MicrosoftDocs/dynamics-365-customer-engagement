@@ -1,1 +1,1 @@
-Sets the state of panel.
+Sets the state of the panel.

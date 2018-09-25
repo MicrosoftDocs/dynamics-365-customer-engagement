@@ -24,7 +24,7 @@ manager: shujoshi
 
 ## Syntax
 
-`microsoft-ciframework.createRecord(entityLogicalName, data).then(successCallback, errorCallback);`
+`Microsoft.CIFramework.createRecord(entityLogicalName, data).then(successCallback, errorCallback);`
 
 ## Parameters
 
@@ -46,7 +46,7 @@ manager: shujoshi
 <td>Object</td>
 <td>Yes</td>
 <td><p>A JSON object defining the attributes and values for the new entity record.</p>
-<p>See examples later in this topic to see how you can define the <code>data</code> object for various create scenarios.</td>
+</td>
 </tr>
 <tr>
 <td>successCallback</td>

@@ -96,7 +96,7 @@ manager: shujoshi
 <td>formParameters</td>
 <td>Object</td>
 <td>No</td>
-<td>A dictionary object that passes extra parameters to the form. Invalid parameters will cause an error.<br/><br/>For information about passing parameters to a form, see <a href="../../../set-field-values-using-parameters-passed-form.md" data-raw-source="[Set field values using parameters passed to a form](../../../developer/set-field-values-using-parameters-passed-form.md)" </a> and <a href="../../../configure-form-accept-custom-querystring-parameters.md" data-raw-source="[Configure a form to accept custom querystring parameters](../../../developer/configure-form-accept-custom-querystring-parameters.md)">Configure a form to accept custom querystring parameters</a> </td>
+<td>A dictionary object that passes extra parameters to the form. Invalid parameters will cause an error.<br/><br/>For information about passing parameters to a form, see <a href="../../../developer/set-field-values-using-parameters-passed-form.md" data-raw-source="[Set field values using parameters passed to a form](../../../developer/set-field-values-using-parameters-passed-form.md)">Set field values using parameters passed to a form</a> and <a href="../../../developer/configure-form-accept-custom-querystring-parameters.md" data-raw-source="[Configure a form to accept custom querystring parameters](../../../developer/configure-form-accept-custom-querystring-parameters.md)">Configure a form to accept custom querystring parameters</a> </td>
 </tr>
 <tr>
 <td>successCallback</td>
@@ -116,10 +116,7 @@ This function is passed an object as a parameter. The object has a <b>savedEntit
 <li><b>name</b>: The primary attribute value of the record displayed or created.</li></ul>
 
 <b>NOTE</b>:
-<ul>On <a href="/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps" data-raw-source="[Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps)">Unified Interface</a>:
-<ul>
-<li>The <b>successCallback</b> function is executed only when you save a record in a quick create form that was opened using the <strong>openForm</strong> method.</li>
-<li>When you open a quick create form, and create multiple records by clicking <b>Save & New</b>, the <b>savedEntityReference</b> array will contain multiple items, each item representing the record created using the quick create form.</li>
+<ul>On <a href="/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps" data-raw-source="[Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps)">Unified Interface</a>, when you open a quick create form, and create multiple records by clicking <b>Save & New</b>, the <b>savedEntityReference</b> array will contain multiple items, each item representing the record created using the quick create form.
 </td>
 </tr>
 <tr>
@@ -127,8 +124,7 @@ This function is passed an object as a parameter. The object has a <b>savedEntit
 <td>Function</td>
 <td>No</td>
 <td>A function to execute when the operation fails.<br>
-
-<b>NOTE</b>: On [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps), the <b>errorCallback</b> function will be executed only if you are opening a quick create form.</td>
+</td>
 </tr>
 </table>
 
