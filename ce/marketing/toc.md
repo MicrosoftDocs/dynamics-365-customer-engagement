@@ -135,6 +135,7 @@
 
 ### [Go live with publishable entities and track their status](go-live.md)
 ### [Analyze results to gain insights](insights.md)
+### [Set up social listening](social-listening.md)
 
 ## [Developer Guide](developer/marketing-developer-guide.md)
 ### [Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)
