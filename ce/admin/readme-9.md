@@ -589,11 +589,11 @@ Unified Service Desk
 
 -   **Interactive Service Hub**: With the Dynamics 365 (online) version 9.0 release, Interactive Service Hub has been rebuilt as a Unified Interface app and is called Customer Service Hub. This implies that [support](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/interactive-service-hub-page-hosted-control) for the Interactive Service Hub in Unified Service Desk is available only if you are running Dynamics 365, version 8.2 or an earlier supported version of Microsoft Dynamics CRM. You can integrate with Customer Service Hub in Unified Service Desk in the same way as any other Unified Interface app.
 
-  More information: [Support for Unified Interface Apps in Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/support-unified-interfaces-apps-usd)
+    More information: [Support for Unified Interface Apps in Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/support-unified-interfaces-apps-usd)
 
 -   **Relationship Insights**: Although you can view information from the relationship assistant in the Unified Service Desk client, you cannot  interact with the information in the client. 
 
-  More information: [Embedded intelligence](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/embedded-intelligence)
+    More information: [Embedded intelligence](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/embedded-intelligence)
 
 -   **LinkedIn Sales Navigator for Microsoft Dynamics 365 for Sales**: This is not supported.
 
@@ -601,7 +601,7 @@ Unified Service Desk
 
 -   **URL addressability in business apps**: Business apps (app modules) use the appid value in the URLs to refer to resources displayed in an app. For example: `https://.crm.dynamics.com/main.aspx?appid=b0f40cd2-22a6-e711-a94e-000d3a1a7a9b&pagetype=entitylist&etn=bookableresourcebooking` Unified Service Desk has added support for the usage of appid values in URLs to refer to a resource from version 4.0. 
 
-  More information: [Design custom business apps by using the app designer](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
+    More information: [Design custom business apps by using the app designer](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
 
 Third-party notice 
 -------------------
