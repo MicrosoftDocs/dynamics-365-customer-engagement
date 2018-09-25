@@ -1,7 +1,7 @@
 ---
 title: "Deploy Dynamics 365 App for Outlook (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/17/2018
+ms.date: 09/25/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -121,7 +121,8 @@ For example, to set privileges for the Mailbox entity:
 ### Provide security role access 
 If you have custom security roles defined in Dynamics 365, users who have that security role assigned may not be able to access Dynamics 365 App for Outlook. In addition to the custom security role containing required privileges for App for Outlook, the security role needs to be bound to the App for Outlook App. In order to achieve this, follow the steps below:
 
-1.  From the main menu navigate to **Settings** > **My Apps**.
+1.  From the main menu navigate to **Settings** > **My Apps**. (If you do not see **My Apps** section, you can navigate to **My Apps** page by going to **<your_organization_URL>/tools/AppModuleContainer/applandingtilepage.aspx**) 
+
 ![Dynamics 365 My Apps page](media/MyAppPage.png "Dynamics 365 My Apps page") 
 
 2.  On the **Dynamics 365 App for Outlook** tile click the ellipsis and then click **Manage Roles**.
@@ -252,7 +253,7 @@ If you are a system administrator or a customizer, you can choose to expose only
 
 With the PowerApps App Designer, you can control the specific entities that appear in Dynamics 365 App for Outlook’s **Quick Create** menu and the **Regarding** lookup. This helps you get to the record you are looking for faster and also modularize business logic by exposing only the relevant entities for your users in Dynamics 365 App for Outlook.
 
-1.  From the main menu navigate to **Settings** > **Customizations** > **Apps**.
+1.  From the main menu navigate to **Settings** > **Customizations** > **Customize the System** > **Apps**. 
 2.  Double-click **Dynamics 365 App for Outlook** to open the App Designer
 
    ![Dynamics 365 My Apps page](media/MyAppPage_1.png "Dynamics 365 My Apps page") 
