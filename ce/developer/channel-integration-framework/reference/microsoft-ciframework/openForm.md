@@ -135,7 +135,7 @@ You must use this method to open entity or quick create forms instead of the dep
 
 ## Examples
 
-The following sample code opens a new case form with per-populated values for certain fields like contact Id and description.
+The following sample code opens a new case form with pre-populated values for certain fields like contact Id and description.
 
 ```JavaScript
 var entityFormOptions = {};
