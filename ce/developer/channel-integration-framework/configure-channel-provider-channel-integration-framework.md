@@ -40,8 +40,8 @@ To configure channel providers:
     |Channel URL|The URL of the provider to host in the widget. See the JavaScript APIs on how to develop communication widget with Dynamics 365 Channel Integration Framework.|
     |Enable Outbound Communication|Clicking on a phone number in the Dynamics 365 Unified Interface page, the widget initiates the call or outbound communication.|
     |Channel Order|Priority number to display the channel for the agents and unified Interface Apps.|
-    |API Version|Version of the of Channel Integration Framework|
+    |API Version|The version of the of Channel Integration Framework|
     |Select the Unified Interface Apps for the Channel| The list of Unified Interface Apps where the channel is displayed for the agents. |
-    |Select Roles for the Channel|The security roles that is present in Dynamics 365.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface App.|
+    |Select Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface App.|
 
-5. Launch the Unified Interface App to see the communication widget on the right-side.
+5. Launch the Unified Interface App to see the communication widget on the right side.

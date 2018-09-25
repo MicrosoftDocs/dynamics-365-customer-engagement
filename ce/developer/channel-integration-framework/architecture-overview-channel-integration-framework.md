@@ -35,7 +35,7 @@ The Dynamics 365 (Online) Unified Interface app exposes the Channel integration 
 The Channel Integration Framework Adapter enables the communication between the Dynamics 365 and the capabilities of the channel provider.
 
 **4 - Web-based communication widget**<br>
-The web-based communication channel (third-party) is hosted in the widget that Channel Integration Framework provides. This is a multi-purpose communication widget where in you can host a softphone, chat, or email channels of your choice.
+The web-based communication channel (third-party) is hosted in the widget that Channel Integration Framework provides. This is a multi-purpose communication widget wherein you can host a CTI, chat, or email channels of your choice.
 
 **5 - Cloud Channel Provider**<br>
 The Cloud Channel Provider is the service that you want to integrate and interact with Dynamics 365 using the Channel Integration Framework. The capabilities of a channel are voice, SMS, chat, email and so on. These capabilities of a channel are specific to the channel provider and Channel Integration Framework is agnostic on the working of the channel.

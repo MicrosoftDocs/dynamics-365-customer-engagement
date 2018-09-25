@@ -32,7 +32,7 @@ To enable SSO for the channel (widget), perform the following:
     a. Enter basic SAML configuration.
     b. Review or customize the claims issued in the SAML token.
     c. Review certificate expiration data, status, and email notification.
-    d. Set up target application.
+    d. Set up the target application.
     e. Assign users and groups to your SAML application.
     f. Test the SAML application.
 
