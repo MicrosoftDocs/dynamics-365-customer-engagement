@@ -1,7 +1,7 @@
 ---
-title: Fix an issue converting an email into a case in the Customer Service Hub app | Microsoft Docs
-description: See how you can fix an issue converting an email into a case in the Customer Service Hub app
-keywords: Customer Service Hub; convert email to case; Customer Service Hub app; manage cases
+title: Fix an issue converting an email to a case | Microsoft Docs
+description: See how you can fix an issue converting an email to a case in Dynamics 365 for Customer Service
+keywords: Convert email to case; Customer Service; manage cases
 author: anjgupta
 applies_to: Dynamics 365 (online)
 ms.author: anjgup
@@ -20,14 +20,14 @@ search.app:
   - D365CS
 ---
 
-# Issue converting an email into a case in the Customer Service Hub
+# Issue converting an email to a case
 
 ## Issue
 
-- Incoming email is not being converted to a case in the Customer Service Hub app in Dynamics 365.
-- An email activity is created in CRM but a related Queueitem is not found.
+Incoming email is not being converted to a case.
 
-## Workaround
+
+## Troubleshoot
 
 If an incoming email is not being converted to a case even after configuring automatic record creation and update rules, validate the configurations and validation steps given in the following table:
 
@@ -44,13 +44,6 @@ If an incoming email is not being converted to a case even after configuring aut
 |   |    Yes      |   For an incoming email related to an active case         |   No case is created      |
 |  |         |         |         |
 
-
-## Troubleshooting steps
- 
-To resolve the issue: An email activity is created in CRM but a related Queueitem is not found
-
-
-- Check if the active automatic record creation and update rule exist for the specific queue. If it exists, Queueitem has been marked as inactive and hence it does not appear in the Queueitem View. It also implies that the email activity has already been created and processed.
  
 ## More help
 
