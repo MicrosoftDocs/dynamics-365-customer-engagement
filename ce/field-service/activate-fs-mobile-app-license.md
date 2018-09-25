@@ -40,7 +40,7 @@ Please note you will need your Dynamics 365 Org ID to complete the request form.
         
   > ![OrgID](media/admin-orgid.png)  
         
-# Activation notes
+# FAQs
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -52,9 +52,7 @@ Global admins preparing to use the [!include[Dynamics 365 for Field Service](../
 
     For example, if you purchase 100 field service licenses and you manage one production organization and one sandbox, you could assign mobile licenses to 50 users at both organizations for a maximum total of 100 mobile users (not 100 mobile users at *each* organization for a total of 200).
 
-- A 30-day trial automatically starts when you install the Woodford solution in your Dynamics 365 instance. Activate or extend the licenses before the trial period ends to maintain access to the field service mobile app. 
-
-View your trial end date by logging into Woodford
+- A 30-day trial automatically starts when you install the Woodford solution in your Dynamics 365 instance. Activate or extend the licenses before the trial period ends to maintain access to the field service mobile app. View your trial end date by logging into Woodford via Settings > Woodford
 
   > ![OrgID](media/woodford-expiration.png)  
 
