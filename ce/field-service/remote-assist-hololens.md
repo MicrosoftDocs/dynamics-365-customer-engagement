@@ -23,7 +23,7 @@ search.app:
 
 Empower field technicians to solve problems faster by pairing the Field Service business application with the Dynamics 365 Remote Assist mixed reality app. This allows field technicians to view their field service bookings from Remote Assist. 
 
-With heads-up, hands-free video calling on Microsoft HoloLens, technicians using Remote Assist are able to collaborate with remote experts on a computer or a mobile device to troubleshoot issues in context. In the photograph, Skype team collaboration is displayed in the technician’s field of view on the HoloLens as the technician performs work on a piece of equipment. Either party in the video call can take advantage of holographic annotations or file sharing.
+With heads-up, hands-free video calling on Microsoft HoloLens, technicians using Remote Assist are able to collaborate with remote experts on a computer or a mobile device to troubleshoot issues in context. In the photograph, collaboration using Teams is displayed in the technician’s field of view on the HoloLens as the technician performs work on a piece of equipment. Either party in the video call can take advantage of holographic annotations or file sharing.
 
 ![skype collaboration with hololens](media/remote-assist-skype-collaboration.png) 
 
