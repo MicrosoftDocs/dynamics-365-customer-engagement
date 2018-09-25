@@ -25,7 +25,7 @@ search.app:
   - D365FS
 ---
 
-# Request form to activate or extend field service mobile licenses
+# Activate or extend field service mobile licenses
 
 Fill out the following form to activate mobile licenses or extend Woodford trials: [Request form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u)
 
@@ -37,6 +37,8 @@ Please note you will need your Dynamics 365 Org ID to complete the request form.
         >  - Navigate to **Settings \> Customizations \>Developer Resources**.
         >  - In the Instance Reference Information section, locate the Org ID.
         
+        
+  > ![OrgID](media/admin-orgid.png)  
         
 # Activation notes
 
@@ -54,7 +56,7 @@ Global admins preparing to use the [!include[Dynamics 365 for Field Service](../
 
 View your trial end date by logging into Woodford
 
-
+  > ![OrgID](media/woodford-expiration.png)  
 
 
 
