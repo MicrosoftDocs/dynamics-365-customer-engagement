@@ -252,7 +252,7 @@ If you are a system administrator or a customizer, you can choose to expose only
 
 With the PowerApps App Designer, you can control the specific entities that appear in Dynamics 365 App for Outlook’s **Quick Create** menu and the **Regarding** lookup. This helps you get to the record you are looking for faster and also modularize business logic by exposing only the relevant entities for your users in Dynamics 365 App for Outlook.
 
-1.  From the main menu navigate to **Settings** > **Customizations** > **Apps**.
+1.  From the main menu navigate to **Settings** > **Customizations** > **Customize the System** > **Apps**.
 2.  Double-click **Dynamics 365 App for Outlook** to open the App Designer
 
    ![Dynamics 365 My Apps page](media/MyAppPage_1.png "Dynamics 365 My Apps page") 
