@@ -79,3 +79,32 @@ manager: shujoshi
 ## Return Value
 
 On success, returns a promise object containing the attributes specified earlier in the description of the **successCallback** parameter.
+
+## Examples
+
+This sample code updates an existing contact record with record ID = a8a19cdd-88df-e311-b8e5-6c3be5a8b200
+
+```JavaScript
+//// define the data to update a record
+var entityLogicalName = "contact";
+var data = {
+    "firstname": "Updated Sample",
+    "lastname": "Contact",
+    "fullname": "Updated Sample Contact",
+    "emailaddress1": "contact@contoso.com",
+    "jobtitle": "Sr. Marketing Manager",
+    "phonenumber": "555-0109",
+    "description": "Updated values for this record were set programmatically."
+}
+// update contact record
+Microsoft.CIFramework.updateRecord(entityLogicalName,id,data).then(
+    function success (result) {
+          console.log("Contact updated with ID: " + result.id);
+          //perform operations on record creation
+      },
+      function (error) {
+          console.log(error);
+          //handle error conditions
+      }
+  );
+```

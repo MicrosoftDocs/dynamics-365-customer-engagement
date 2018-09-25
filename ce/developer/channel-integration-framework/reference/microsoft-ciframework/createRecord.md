@@ -89,7 +89,7 @@ var data = {
     "phonenumber": "555-0109",
     "description": "Default values for this record were set programmatically."
 }
-
+// create contact record
 Microsoft.CIFramework.createRecord(entityLogicalName,data).then(
     function success (result) {
           console.log("Contact created with ID: " + result.id);

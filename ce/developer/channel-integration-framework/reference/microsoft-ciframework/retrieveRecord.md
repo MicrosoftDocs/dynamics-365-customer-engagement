@@ -77,3 +77,21 @@ manager: shujoshi
 ## Return Value
 
 On success, returns a promise containing a JSON object with the retrieved attributes and their values.
+
+## Examples
+
+This sample code retrieves the name and phone number of an contact record with ID = `a8a19cdd-88df-e311-b8e5-6c3be5a8b200`.
+
+```JavaScript
+// retrieve contact record
+Microsoft.CIFramework.retrieveRecord("account", "a8a19cdd-88df-e311-b8e5-6c3be5a8b200", "?$select=fullname,phonenumber").then(
+    function success(result) {
+        console.log(`Retrieved values: Full Name: ${result.fullname}, Phone Number: ${result.phonenumber}`);
+        // perform operations on record retrieval
+    },
+    function (error) {
+        console.log(error.message);
+        // handle error conditions
+    }
+);
+```

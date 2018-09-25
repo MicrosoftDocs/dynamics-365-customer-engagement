@@ -69,3 +69,21 @@ manager: shujoshi
 ## Return Value
 
 On success, returns a promise object containing the attributes specified earlier in the description of the **successCallback** parameter.
+
+## Examples
+
+This sample code deletes an existing contact record with record ID = a8a19cdd-88df-e311-b8e5-6c3be5a8b200
+
+```JavaScript
+// delete contact record
+Microsoft.CIFramework.retrieveRecord("contact", "a8a19cdd-88df-e311-b8e5-6c3be5a8b200").then(
+    function success(result) {
+        console.log("Contact deleted with ID: " + result.id);
+        // perform operations on record retrieval
+    },
+    function (error) {
+        console.log(error.message);
+        // handle error conditions
+    }
+);
+```
