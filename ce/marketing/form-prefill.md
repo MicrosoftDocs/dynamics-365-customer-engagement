@@ -30,7 +30,7 @@ search.app:
 
 The prefill feature for marketing-page forms provides returning contacts with a form that already shows their previously entered information, like their name and email address. Contacts will usually find prefilled forms to be more convenient, which is likely to improve the submission rate. Prefilled forms can also help lower data-entry errors, thereby improving the quality of your data. However, you must also consider your contacts' privacy, so you'll be able to control precisely which fields on which forms will allow prefilling, and each contact can choose for themselves whether or not to allow prefilled landing-page forms. Subscription center forms, however, always support prefilling due to the role they play in the system.
 
-For general information about how to create, design, and work with marketing pages, see [Create and deploy marketing pages](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/create-deploy-marketing-pages).
+For general information about how to create, design, and work with marketing pages, see [Create and deploy marketing pages](create-deploy-marketing-pages.md).
 
 ## How prefilling works for different types of forms
 

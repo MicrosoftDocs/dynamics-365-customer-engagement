@@ -48,7 +48,7 @@ To create a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Matched Audience
 
 To create a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Matched Audience from a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] segment:
 
-1. [Open your segment](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/segmentation-lists-subscriptions) in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
+1. [Open your segment](segmentation-lists-subscriptions.md) in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
 
 1. Open the **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Matched Audiences** tab.  
     ![The LinkedIn Matched Audiences tab in Dynamics 365](media/linkedin-segment.png "The LinkedIn Matched Audiences tab in Dynamics 365")

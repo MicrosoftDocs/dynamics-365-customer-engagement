@@ -40,7 +40,7 @@ Using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-
 
 ## Leads and the lead life cycle
 
-A *lead* is an expression of interest in a product or service made within s specific marketing context. The lead life cycle is the journey that a lead takes from creation, through nurturing, and on to opportunity and eventual sale.
+A *lead* is an expression of interest in a product or service made within a specific marketing context. The lead life cycle is the journey that a lead takes from creation, through nurturing, and on to opportunity and eventual sale.
 
 When you're doing marketing in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], you'll start with a set of contact records that provide names and contact information about people who you'll be targeting with your marketing initiatives. Some of these contacts might be new or completely unknown to you, whereas others are well-known customers who have a history of purchases and interactions with your organization.
 

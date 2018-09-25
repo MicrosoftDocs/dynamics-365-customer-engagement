@@ -35,7 +35,7 @@ search.app:
 The portals solution is highly flexible and customizable. You can create portals for a wide variety of purposes (such as self-service, registration, and data management) and audiences (including customers, partners, and employees).
 
 > [!NOTE]
-> The portals solution is included with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app and is available as an add-on for many other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] applications. For complete details about how to work with the portals solution, see [its online help](https://docs.microsoft.com/dynamics365/customer-engagement/portals/administer-manage-portal-dynamics-365).
+> The portals solution is included with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app and is available as an add-on for many other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] applications. For complete details about how to work with the portals solution, see [its online help](../portals/administer-manage-portal-dynamics-365.md).
 
 ## Work with the event portal
 
@@ -63,9 +63,9 @@ To customize the event portal, and to set up your own custom portals solutions, 
 
 The event portal is set up as a website named "Event Portal," and all the various other elements that it uses (templates, pages, files, and more) are shown as being part of that website.
 
-For complete details about how to work with the portals solution, see [its online help](https://docs.microsoft.com/dynamics365/customer-engagement/portals/administer-manage-portal-dynamics-365).
+For complete details about how to work with the portals solution, see [its online help](../portals/administer-manage-portal-dynamics-365.md).
 
 ### See also
 
-[Deliver web engagement experience with portal capabilities for Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/portals/administer-manage-portal-dynamics-365)  
+[Deliver web engagement experience with portal capabilities for Dynamics 365](../portals/administer-manage-portal-dynamics-365.md)  
 [Find your way around](navigation.md)
