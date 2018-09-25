@@ -25,7 +25,20 @@ search.app:
   - D365FS
 ---
 
-# Activate field service mobile licenses 
+# Request form to activate or extend field service mobile licenses
+
+Fill out the following form to activate mobile licenses or extend Woodford trials: [Request form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u)
+
+Please note you will need your Dynamics 365 Org ID to complete the request form.
+
+        > [!NOTE]
+        > Here's how to find your org ID:
+        >  - Open your Dynamics 365 instance.
+        >  - Navigate to **Settings \> Customizations \>Developer Resources**.
+        >  - In the Instance Reference Information section, locate the Org ID.
+        
+        
+# Activation notes
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -39,19 +52,9 @@ Global admins preparing to use the [!include[Dynamics 365 for Field Service](../
 
 - A 30-day trial automatically starts when you install the Woodford solution in your Dynamics 365 instance. Activate or extend the licenses before the trial period ends to maintain access to the field service mobile app. 
 
-# Extend field service mobile license trials 
-
-The field service mobile app is based on the Resco Mobile CRM solution called Woodford. A 30-day trial automatically starts when you install the Woodford solution in your Dynamics 365 instance and can be extended via the request form below.
+View your trial end date by logging into Woodford
 
 
-## Request form to activate or extend field service mobile licenses
 
-Fill out the following form to activate mobile licenses or extend trials: [Request form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u)
 
-Please note you will need your Dynamics 365 Org ID to complete the request form.
 
-        > [!NOTE]
-        > Here's how to find your org ID:
-        >  - Open your Dynamics 365 instance.
-        >  - Navigate to **Settings \> Customizations \>Developer Resources**.
-        >  - In the Instance Reference Information section, locate the Org ID.
