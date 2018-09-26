@@ -67,7 +67,7 @@ You can add the Channel Commnication Control based on your organization and busi
 
 ## Register the addHandler in JavaScript code using onclicktoact event
 
-During the initalization of the function register the handler for the `onlicktoact` event.
+During the initalization of the function, register the handler for the `onlicktoact` event.
 
 ```JavaScript
 function initCTI() {
