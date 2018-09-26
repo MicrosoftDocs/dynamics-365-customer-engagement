@@ -40,8 +40,6 @@ There are a few important details to know before you activate [!include[Dynamics
 
 - A 30-day trial automatically starts when you install the Woodford solution in your Dynamics 365 instance. You need to activate the licenses before the trial period ends. If you want to maintain access to the field service mobile app beyond the 30 trial, you need to extend the licenses. To find out your trial end date, go to **Settings** > **Woodford** > **MobileCRM Woodford**. You'll see the trial end date at the top of the screen.
 
-Additionally, if you need to restore the environment, or do any update that changes the organization ID, you'll need to renew the mobile licenses to restore user access to the Field Service mobile app.
-
   > ![OrgID](media/woodford-expiration.png)  
 
 # Request form
