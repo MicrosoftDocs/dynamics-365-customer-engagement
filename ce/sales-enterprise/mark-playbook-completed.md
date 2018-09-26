@@ -24,25 +24,24 @@ topic-status: Tech Reviewing
 
 # Mark a playbook as completed
 
-When you complete all the activities created for a playbook, you must mark the playbook as completed. This helps to know if the playbook was successful or not.
+When you complete all the activities created for a playbook, you must mark the playbook as completed. This helps you to know if the playbook was successful or not.
 
-1.  To mark a playbook as completed, go to record you launched the playbook from (calling record)
+1.  To mark a playbook as completed, go to the record you launched the playbook from (calling record).
 
 2.  In the playbook record, on the command bar, select **Complete as**, and then select one of the following results:
 
--   Successful
+    - Successful
 
--   Not successful
+    - Not successful
 
--   Partially successful
+    - Partially successful
 
--   Not required
+    - Not required
 
     > [!NOTE]
-
     > A system administrator or customizer can add custom values to this field.
 
-    ![complete as button on playbook record](media/complete-playbook-as.png "Complete as button on Playbook record")
+    ![complete as button on playbook record](media/complete-playbook-as.png "Complete as button on playbook record")
 
 ### See also
 [Launch a playbook](launch-playbook.md)  
