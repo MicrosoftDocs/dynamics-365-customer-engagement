@@ -65,7 +65,7 @@ You can add the Channel Commnication Control based on your organization and busi
 
 9. Select **Save**, and then select **Publish** to publish all customizations.
 
-## Register the addHandler in JavaScript code using onclicktoact event
+## Step 3: Register the addHandler in JavaScript code using onclicktoact event
 
 During the initalization of the function, register the handler for the `onlicktoact` event.
 
