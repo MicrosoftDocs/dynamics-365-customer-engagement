@@ -30,13 +30,13 @@ When you complete all the activities created for a playbook, you must mark the p
 
 2.  In the playbook record, on the command bar, select **Complete as**, and then select one of the following results:
 
-  - Successful
+    - Successful
 
-  - Not Successful
+    - Not Successful
 
-  - Partially Successful
+    - Partially Successful
 
-  - Not Required
+    - Not Required
 
     > [!NOTE]
     > A system administrator or customizer can add custom values to this field.
