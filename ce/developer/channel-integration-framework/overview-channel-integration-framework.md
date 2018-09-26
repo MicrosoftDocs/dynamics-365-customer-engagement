@@ -81,3 +81,13 @@ You can customize the channel programmatically or manually to provide enhanced a
 **Upgrade to new versions:**
 
 Seamless upgrade to new versions of third-party channel providers or channel aggregators as the Channel Integration Framework provides the infrastructure framework to integrate the channels but does not control the channel versions.
+
+> [!div class="nextstepaction"]
+> [Architecture overview of Channel Integration Framework](architecture-overview-channel-integration-framework.md)
+
+## See also
+
+
+[FAQs](faq-channel-integration-framework.md)
+
+[Get Channel Integration Framework (CIF)](get-channel-integration-framework.md)
