@@ -40,7 +40,7 @@ Make Connected Field Service send service information to Azure IoT Central when 
 3. Select "Create a Flow" in the top menu bar.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Create a Flow option](media/iot-central-work-orders-1.png)
+> ![Screenshot of the Create a Flow option in Connected Field Service](media/iot-central-work-orders-1.png)
 
 4. From the list of available templates, select "**Sample Contoso- When a work order is created in Connected Field Service, update IoT Central"**
 
