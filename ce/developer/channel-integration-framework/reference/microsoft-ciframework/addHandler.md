@@ -163,3 +163,15 @@ Microsoft.CIFramework.addHandler("onsendkbarticle", handlerFunction).then (
     );
   }
 ```
+
+## Related topics
+
+- [onclicktoact](../events/onclicktoact.md)
+
+- [onmodechanged](../events/onmodechanged.md)
+
+- [onpagenavigate](../events/onpagenavigate.md)
+
+- [onsendkbarticle](../events/onsendkbarticle.md)
+
+- [onsizechanged](../events/onsizechanged.md)

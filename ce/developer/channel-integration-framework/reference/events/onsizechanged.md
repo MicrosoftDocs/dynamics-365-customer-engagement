@@ -33,9 +33,7 @@ The `onsizechanged` event takes following eventData:
 |-----------|---------|
 | ```{“value”: <number>}``` | ```{“value”: 35”}``` |
 
-## Methods supported for this event
-
-There are two methods you can use to work with the `onsizechanged` event:
+## Related topics
 
 - [addHandler](../microsoft-ciframework/addHandler.md)
 

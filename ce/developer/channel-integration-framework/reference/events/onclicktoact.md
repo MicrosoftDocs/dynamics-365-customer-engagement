@@ -35,9 +35,7 @@ The `onclicktoact` event takes following eventData:
 |-----------|---------|
 | ```{“value”: <field_value>, “name”: <field_name>, “format”: <field_type>, “entityLogicalName”: <entity_logical_name>}``` | ```{“value”: “123456789”, “name”: “mobilephone”, “format”: “phone”, “entityLogicalName”: “contact”}``` |
 
-## Methods supported for this event
-
-There are two methods you can use to work with the `onclicktoact` event:
+## Related topics
 
 - [addHandler](../microsoft-ciframework/addHandler.md)
 

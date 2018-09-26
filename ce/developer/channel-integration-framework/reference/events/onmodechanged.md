@@ -33,9 +33,7 @@ The `onmodechanged` event takes following eventData:
 |-----------|---------|
 | ```{“value”: <number>}``` | ```{“value”: 0”}``` |
 
-## Methods supported for this event
-
-There are two methods you can use to work with the `onmodechanged` event:
+## Related topics
 
 - [addHandler](../microsoft-ciframework/addHandler.md)
 

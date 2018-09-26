@@ -33,9 +33,7 @@ The `onpagenavigate` event takes following eventData:
 |-----------|---------|
 | ```{"value": <url>}``` | ```{"value": "https://mycrmorg.dynamics.com/<Org>/main.aspx?appid=25ac68f2-9ab5-e811-8149-000d3a43f05f&pagetype=entitylist&etn=contact"}``` |
 
-## Methods supported for this event
-
-There are two methods you can use to work with the `onpagenavigate` event:
+## Related topics
 
 - [addHandler](../microsoft-ciframework/addHandler.md)
 
