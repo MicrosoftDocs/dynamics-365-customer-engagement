@@ -70,7 +70,7 @@ Microsoft.CIFramework.addHandler("onclicktoact", handlerFunction).then (
 
 ### Example 2: addHandler method for the `onmodechanged` event
 
-The sample code demonstrates setting addHandler method for the `onclicktoact` event.
+The sample code demonstrates setting addHandler method for the `onmodechanged` event.
 
 ```JavaScript
 function handlerfunction(eventData) {
