@@ -28,9 +28,9 @@ Playbooks in Dynamics 365 for Sales provides guidance to the team members on act
 
 To start with, anyone with a Playbook manager role or equivalent permissions creates playbook categories to classify the playbooks. Then, the playbook manager creates playbook templates that define a set of best practices based on the past experiences and their organization standards. Business users like a sales person or a service rep with the Playbook user role can then launch one of these playbook templates while they’re working on their records to ensure that best practices are applied consistently at every step.
 
-**Note:**
+> [!NOTE]
 
-The playbook capability is currently only available in the Sales Hub app in Dynamics 365 online.
+> The playbook capability is currently only available in the Sales Hub app in Dynamics 365 online.
 
 ### See also
 [Define playbook categories](define-playbook-categories.md)  

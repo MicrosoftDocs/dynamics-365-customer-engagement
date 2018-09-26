@@ -40,9 +40,9 @@ To ensure consistency in your business process or to know what steps to follow i
 
     You’ll see a notification “Playbook launched successfully.”
 
-    Note:
+    > [!NOTE]
 
-    You can only launch one playbook at a time.
+    > You can only launch one playbook at a time.
 
 ### See also
 [Track playbook activities](track-playbook-activities.md)  
