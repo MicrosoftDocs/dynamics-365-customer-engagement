@@ -65,7 +65,7 @@ Seamless development, implementation, and deployment experience of your channels
 
 **Independent of operating systems and web browsers:**
 
-The Channel Integration Framework is an operating system and web browser agnostic and lets you integrate the cloud-based channels of your choice that is best for organization requirements.
+The Channel Integration Framework is an operating system and web browser agnostic and lets you integrate the cloud-based channels of your choice that is best for your organization's requirement.
 
 **Support for Screen pop:**
 
