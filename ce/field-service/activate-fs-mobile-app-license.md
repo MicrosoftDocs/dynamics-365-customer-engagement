@@ -39,7 +39,9 @@ There are a few important details to know before you submit a request to activat
 
     For example, if you purchase 100 field service licenses and you manage one production organization and one sandbox, you could assign mobile licenses to 50 users at both organizations for a maximum total of 100 mobile users (not 100 mobile users at *each* organization for a total of 200).
 
-- A 30-day trial automatically starts when you install the Woodford solution in your Dynamics 365 instance. You need to submit the request to activate the licenses before the trial period ends. Additionally, if you want to maintain access to the field service mobile app beyond the 30 trial, you need to submit a request extend the licenses. To find out your trial end date, go to **Settings** > **Woodford** > **MobileCRM Woodford**. You'll see the trial end date at the top of the screen.
+- A 30-day trial automatically starts when you install the Woodford solution in your Dynamics 365 instance. You need to submit the request to activate the licenses before the trial period ends. Additionally, if you want to maintain access to the field service mobile app beyond the 30 trial, you need to submit a request extend the licenses. 
+
+  To find out your trial end date, go to **Settings** > **Woodford** > **MobileCRM Woodford**. You'll see the trial end date at the top of the screen.
 
   > ![OrgID](media/woodford-expiration.png)  
 
