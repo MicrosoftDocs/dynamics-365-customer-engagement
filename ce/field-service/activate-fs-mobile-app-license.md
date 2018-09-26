@@ -32,7 +32,7 @@ In addition, if you want to extend a trial period, or if you restore an environm
 
 To speed up the process, we've provided a quick form for you to fill out to request the activation.
 
-## What you need to know before you submit a request
+## What you need to know before you submit an activation request
 There are a few important details to know before you submit a request to activate [!include[Dynamics 365 for Field Service](../includes/pn-dyn-365-field-service.md)] mobile licenses:
 
 - You need Office 365 global admin privileges to manage licenses for a Dynamics 365 organization.
