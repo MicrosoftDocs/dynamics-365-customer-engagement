@@ -111,9 +111,9 @@ Open the playbook template and on the command bar, select **Publish**.
 
 If your organization no longer needs a playbook, you can delete it.
 
-**Important!**
+> [!IMPORTANT]!
 
-Before you delete a playbook template, make sure that it isn’t associated with another record. If the **Track progress** field of a playbook template is set to **Yes**, a playbook record is created and associated with the playbook template.
+> Before you delete a playbook template, make sure that it isn’t associated with another record. If the **Track progress** field of a playbook template is set to **Yes**, a playbook record is created and associated with the playbook template.
 
 To delete a playbook, in the list of playbook template records, select the playbook template, and on the command bar, select **Delete**.
 
