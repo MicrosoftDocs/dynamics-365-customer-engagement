@@ -42,29 +42,9 @@ Here is what's updated in the new Service Scheduling experience:
 
 |Legacy Service Scheduling  |New Service Scheduling  |
 |---------|---------|
-|Settings > Service Management     |         |
-|Row2     |         |
-|Row3     |         |
-|Row4     |         |
-|Row5     |         |
-|Row6     |         |
-|Row7     |         |
-|Row8     |         |
-|Row9     |         |
+|**Settings > Service Scheduling** </br> - Business Closure </br> - Services  </br> - Facilities/Equipment </br> - Resource Groups </br> - Sites  |   **Customer Service Hub sitemap >   Service Scheduling**  </br>  Scheduling </br> - Resources </br> - Facilities/Equipments </br> - Resource Categories   </br> - Service </br> - Service Activity </br> Tools </br> - Schedule Board </br> Settings </br> - Organizational Units </br> - Business Closures  |
+|     |         |
 
-
-
-
-
-
-
-
-
-
-
-
-
-<<
 Understand the difference between the legacy and the new Service Scheduling experience with the help of the following scenario:
 
 Contoso bike repairs, a company that repairs bikes, schedules repair services for their customers. To facilitate this process, they compile the following information:
@@ -81,7 +61,7 @@ Contoso bike repairs, a company that repairs bikes, schedules repair services fo
   ![new-service-scheduling](media/new-res-res-cat-ss.PNG)
 
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md) </br>  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and set up bookable resources](resources-service-scheduling.md)
->>
+
 
 ## Install and enable the new Service Scheduling experience
 
