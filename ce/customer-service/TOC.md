@@ -58,7 +58,7 @@
 ### [Get the new Service Scheduling experience](enable-urs-service-scheduling.md)
 
 
-### Service Scheduling (Customer Service app)
+### Legacy Service Scheduling (Customer Service app)
 #### [Business closure](set-when-business-closed-cs-app.md)
 #### [Create or change a service](create-edit-service-cs-app.md)
 #### [Schedule a service activity](schedule-service-activity-cs-app.md)

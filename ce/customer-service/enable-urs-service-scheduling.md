@@ -32,17 +32,27 @@ With the October'18 release, the new Service Scheduling will be available in the
 
 
 > [!IMPORTANT]
-> If you are a new customer who is using the Service Scheduling feature for the first time, see [Install and enable the new Service Scheduling experience](#install-and-enable-the-new-service-scheduling-experience) to know how you can install and enable Service Scheduling from the sitemap of your Customer Service Hub application. </br> </br> 
-If you have been using the legacy Service Scheduling feature from either Service Management or Business Management, see [Migrate to the new Service Scheduling experience](#migrate-to-the-new-service-scheduling-experience) to know how you can migrate to the new Service Scheduling experience.
+> If you are a new customer who is using the Service Scheduling feature for the first time, see [Install and enable the new Service Scheduling experience](#install-and-enable-the-new-service-scheduling-experience) to know how you can get the new experience </br> </br> 
+If you have been using the legacy Service Scheduling feature from Service Management, see [Configure the new Service Scheduling experience](#configure-the-new-service-scheduling-experience) to know how you can upgrade and configure the new experience.
 
 ## About the new Service Scheduling experience
 
 Here is what's updated in the new Service Scheduling experience:
 
-- It's built on Universal Resource Scheduling (URS), thereby increasing efficiency in the scheduling process.
-- All types of resources required to schedule a service are grouped under **Resources** entity group. So, you can create various types of resources records from the Resources entity itself.
-- **Resource groups** are now referred as **Resource Categories**. Similarly, **Sites** are now **Organizational Units**. 
- - It's now based on the Unified Interface framework. This helps in an intuitive user interface and UI reflow and adaptivity across devices and form factors.
+
+|Legacy Service Scheduling  |New Service Scheduling  |
+|---------|---------|
+|Settings > Service Management     |         |
+|Row2     |         |
+|Row3     |         |
+|Row4     |         |
+|Row5     |         |
+|Row6     |         |
+|Row7     |         |
+|Row8     |         |
+|Row9     |         |
+
+
 
 
 
@@ -98,7 +108,7 @@ To enable or migrate to the new Service Scheduling experience, you should have t
 
 ### Enable Service Scheduling in the Customer Service Hub sitemap
 
-## Migrate to the new Service Scheduling experience
+## Configure the new Service Scheduling experience
 
 You can migrate to the new experience either from the user interface or with the help of SDK.
 
