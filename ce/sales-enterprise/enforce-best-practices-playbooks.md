@@ -35,8 +35,8 @@ To start, anyone with a Playbook manager role or equivalent permissions creates 
 > The playbook capability is currently available only in the Sales Hub app in Dynamics 365 (online).
 
 ### See also
-[Define playbook categories](define-playbook-categories.md)  
-[Manage playbook templates](manage-playbook-templates.md) 
-[Launch a playbook to carry out activities consistently](launch-playbook.md)  
-[Mark playbook as completed](mark-playbook-completed.md)  
+[Define playbook categories](define-playbook-categories.md)  <br>
+[Manage playbook templates](manage-playbook-templates.md) <br>
+[Launch a playbook to carry out activities consistently](launch-playbook.md)  <br>
+[Mark playbook as completed](mark-playbook-completed.md)  <br>
 [Track playbook activities](track-playbook-activities.md) 
