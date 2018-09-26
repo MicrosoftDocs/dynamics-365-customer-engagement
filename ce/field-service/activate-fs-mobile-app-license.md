@@ -46,7 +46,7 @@ There are a few important details to know before you activate [!include[Dynamics
 
 # Submit a mobile license activation request form
 
-Fill out the form to **activate mobile licenses or extend licenses beyond the 30-day trial**: [request form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u)
+[Fill out the activation request form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u) to activate mobile licenses or extend licenses beyond the 30-day trial.
 
 **Please note** you will need your Dynamics 365 Org ID to complete the request form.
 
