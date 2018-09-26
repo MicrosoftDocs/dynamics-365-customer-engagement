@@ -31,7 +31,7 @@ The `eventData` event takes following eventData:
 
 | eventData | Example |
 |-----------|---------|
-| ```{'title": <KB article title>, “link": <url>} ``` | ```{“title": “KB Article about Microsoft Developer Guide", “link": “https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/developer-guide"}``` |
+| ```{'title": <KB article title>, "link": <url>} ``` | ```{"title": "KB Article about Microsoft Developer Guide", "link": "https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/developer-guide"}``` |
 
 ## Related topics
 

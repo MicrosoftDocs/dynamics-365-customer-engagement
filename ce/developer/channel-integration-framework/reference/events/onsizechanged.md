@@ -31,7 +31,7 @@ The `onsizechanged` event takes following eventData:
 
 | eventData | Example |
 |-----------|---------|
-| ```{“value”: <number>}``` | ```{“value”: 35”}``` |
+| ```{"value": <number>}``` | ```{"value": 35"}``` |
 
 ## Related topics
 

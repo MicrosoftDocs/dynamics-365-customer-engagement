@@ -31,7 +31,7 @@ The `onmodechanged` event takes following eventData:
 
 | eventData | Example |
 |-----------|---------|
-| ```{“value”: <number>}``` | ```{“value”: 0”}``` |
+| ```{"value": <number>}``` | ```{"value": 0"}``` |
 
 ## Related topics
 

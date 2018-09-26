@@ -33,7 +33,7 @@ The `onclicktoact` event takes following eventData:
 
 | eventData | Example |
 |-----------|---------|
-| ```{“value”: <field_value>, “name”: <field_name>, “format”: <field_type>, “entityLogicalName”: <entity_logical_name>}``` | ```{“value”: “123456789”, “name”: “mobilephone”, “format”: “phone”, “entityLogicalName”: “contact”}``` |
+| ```{"value": <field_value>, "name": <field_name>, "format": <field_type>, "entityLogicalName": <entity_logical_name>}``` | ```{"value": "123456789", "name": "mobilephone", "format": "phone", "entityLogicalName": "contact"}``` |
 
 ## Related topics
 

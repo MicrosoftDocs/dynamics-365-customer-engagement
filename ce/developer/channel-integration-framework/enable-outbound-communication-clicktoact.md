@@ -29,7 +29,7 @@ To enable outbound communication for your channel, you must perform the followin
 
 - **Step 2:** In the Unified Interface form, add the **Channel communication control** to the **Phone** field for which you want to enable outbound communication (ClickToAct), and publish the customizations.
 
-- **Step 3:** Register the addhandler in your JavaScript code using `Microsoft.CIFramework.addHandler(“onclicktoact”, <handlerFunction>)` 
+- **Step 3:** Register the addhandler in your JavaScript code using `Microsoft.CIFramework.addHandler("onclicktoact", <handlerFunction>)` 
 
 ## Step 1: Set the Enable Outbound Communication field value in the channel provider configuration
 
