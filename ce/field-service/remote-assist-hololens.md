@@ -1,7 +1,7 @@
 ---
 title: "Collaborate in mixed reality with Field Service, Remote Assist, and HoloLens | MicrosoftDocs"
 ms.custom: "dyn365-fieldservice"
-ms.date: 9/24/2018
+ms.date: 9/25/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
