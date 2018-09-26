@@ -35,6 +35,8 @@ The `onmodechanged` event takes following eventData:
 
 ## Related topics
 
+- [setMode](../microsoft-ciframework/setMode)
+
 - [addHandler](../microsoft-ciframework/addHandler.md)
 
 - [removeHandler](../microsoft-ciframework/removeHandler.md)

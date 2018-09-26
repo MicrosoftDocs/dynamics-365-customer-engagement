@@ -37,6 +37,8 @@ The `onclicktoact` event takes following eventData:
 
 ## Related topics
 
+- [setClickToAct](../microsoft-ciframework/setClickToAct.md)
+
 - [addHandler](../microsoft-ciframework/addHandler.md)
 
 - [removeHandler](../microsoft-ciframework/removeHandler.md)

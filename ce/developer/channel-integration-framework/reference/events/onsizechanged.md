@@ -35,6 +35,10 @@ The `onsizechanged` event takes following eventData:
 
 ## Related topics
 
+- [setWidth](../microsoft-ciframework/setWidth.md)
+
+- [getWidth](../microsoft-ciframework/getWidth.md)
+
 - [addHandler](../microsoft-ciframework/addHandler.md)
 
 - [removeHandler](../microsoft-ciframework/removeHandler.md)
