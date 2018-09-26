@@ -122,15 +122,15 @@ There are certain experiences that are currently not available on Unified Interf
 
 The following are not currently available with Unified Interface:
 
-- Advanced Find 
-- Bulk edit 
-- Merge records
-- Record sharing
-- All options under **Set Personal Options** (![Settings gear](media/settings-gear-icon.png "Settings gear"))
+- Advanced Find* 
+- Bulk edit* 
+- Merge records*
+- Record sharing*
+- All options under **Set Personal Options** (![Settings gear](media/settings-gear-icon.png "Settings gear"))*
 - Chart drill down 
 - Learning Path
 - Creating personal dashboards and charts
-- Creating personal views
+- Creating personal views (using Advanced Find)*
 - Charts as visualization for sub-grids on forms 
 - Activities roll-up view
 - Creating email template with slugs 
@@ -147,6 +147,8 @@ The following are not currently available with Unified Interface:
 - Global notifications
 - Admin experiences 
 - Editable grids on phones 
+
+*These are available through the [hybrid experience](enable-hybrid-experience.md).
 
 ## Read-only entities on Unified Interface
 
