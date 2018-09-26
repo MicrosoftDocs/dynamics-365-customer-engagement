@@ -51,7 +51,7 @@ Wondering what capabilities you can demo with the sample data? See [Fabrikam Rob
 
 If you have questions about installing these sample data packages, [send us an email at fpsdemodata@microsoft.com](mailto:fpsdemodata@microsoft.com).
 
-## Install the sample data
+## Requirements
 
 The installation protocol assumes the following about your target instance (org):
 
@@ -71,7 +71,7 @@ The installation protocol assumes the following about your target instance (org)
 
 **Note:** If you need to install the sample data on top of an existing Project Service and Field Service trial or demo environment that already has data (not recommended), you'll need to suspend the safety prechecks performed by the installer. For more information, see the [technical notes below](##technical-notes).
 
-### Prepare for installation
+## Prepare for installation
 
 You need to run the installer on a computer with a recent version of Windows (Windows 10 preferred).
 
@@ -82,7 +82,7 @@ The computer should have the screen saver function turned off. Otherwise, sessio
 > [!div class="mx-imgBorder"]
 > ![alt text](media/sample-data-1.png)
 
-### Download and unpack
+## Download and unpack
 
 The Project Service and Field Service sample data installer is distributed as a self-extracting executable. The filenames may vary depending on the sample data package, but otherwise the steps are the same no matter which package you install.
 
@@ -99,7 +99,7 @@ Depending on the operating system and security settings, you may need to perform
 4. Select **OK**.
 
 
-### Create or configure users
+## Create or configure users
 
 The **FPSMasterData** package is designed to install with one user named Spencer Low with the settings described here. To install the package correctly, you need to create (or temporarily rename) users in your Dynamics 365 to match the incoming sample data configuration.
 
@@ -115,7 +115,7 @@ To create or configure users, go to **Settings > Security > Users**, and do the 
 
 **Recommendation:** Consider creating a backup of your org now, in case you need to revert to your starting point if something goes wrong during the sample data installation. For more information, see this article: [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
-### Run the Package Deployer
+## Run the Package Deployer
 
 1. Find and run the **PackageDeployer.exe** in the **v902FPSMasterData** folder.
 
@@ -143,7 +143,7 @@ c. Make sure **Display list of available organizations** is selected.
 
 7. When you're ready, click **Next** to start the sample data installation process. After the sample data is loaded, click **Finish**.
 
-### Verify the sample data installation
+## Verify the sample data installation
 
 For a sanity check, verify that the number of records and types of entities listed in [Fabrikam Robotics fictitious scenario](###fabrikam-robotics-fictitious-scenario) appear as expected.
 
