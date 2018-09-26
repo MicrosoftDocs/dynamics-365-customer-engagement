@@ -20,3 +20,10 @@ manager: shujoshi
 
 # How to enable outbound communication (ClickTOAct) in Channel Integration Framework?
 
+To enable outbound communication for your channel, you must perform the following:
+
+- **Setp 1:** In the channel provier configurations, set the **Enable Outboud Communication** field to **Yes**.
+
+- **Step 2:** In the Unified Interface form, add the **Channel communication control** to the **Phone** field for which you want to enable outbound communication (ClickToAct), and publish the customizations.
+
+- **Step 3:** Register the handler in your JavaScript code using `Microsoft.CIFramework.addHandler(“onclicktoact”, <handlerFunction>)` 
