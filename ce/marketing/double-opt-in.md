@@ -175,10 +175,10 @@ To set up and enable the double opt-in system:
 1. Make the following settings:
 
     - **Enable double opt-in**: Set to **Yes** to enable double opt-in on your instance. Set to **No** to disable it.
-    - **New subscription**: Identify the marketing email message you created to send to contacts when they add themselves to a subscription list.
-    - **Increase consent**: Identify the marketing email message you created to send to contacts when they submit a request to increase their consent level.
+    - **Subscriptions**: Identify the marketing email message you created to send to contacts when they add themselves to a subscription list.
+    - **Consent**: Identify the marketing email message you created to send to contacts when they submit a request to increase their consent level.
+    - **Thank-you page for newsletters**: Select a marketing page to show to contacts after they confirm a new subscription.
+    - **Thank-you page**: Select a marketing page to show to contacts after they confirm an increase of their consent level.
     - **Content settings**: Identify the content-settings record you chose to use for all double opt-in messages.
-    - **Thank-you page for subscriptions**: Select a marketing page to show to contacts after they confirm a new subscription.
-    - **Thank-you page for consent**: Select a marketing page to show to contacts after they confirm an increase of their consent level.
 
 1. Select the **Save** button in the bottom-right corner to save your settings.

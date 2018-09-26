@@ -2,7 +2,7 @@
 title: "Customer-journey tiles (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Details for how to use each tile that is available for assembling a customer journey pipeline for Dynamics 365 for Marketing"
 keywords: "customer journey; tile; reference; pipeline"
-ms.date: 04/01/2018
+ms.date: 10/01/2018
 ms.service: 
   - "dynamics-365-marketing"
 ms.custom: 
@@ -40,7 +40,7 @@ Content-type tiles represent the various types of content that your customer jou
 
 The email tile sends a marketing email message to each contact that enters it. It has the following settings, which you can set by using the **Properties** pane while an email tile is selected:
 
-- **Name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
+- **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
 - **Email**: Identify the marketing email message that the tile will send. Before you can publish your customer journey, all the marketing emails it references must also be finalized and published.
 - **Description**: Add a description or other notes here (optional).
 
@@ -64,7 +64,7 @@ When you add a landing-page tile as a child of an email tile, you must take care
 
 Landing page tiles provide the following settings in the **Properties** pane while selected:
 
-- **Name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
+- **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
 - **Marketing Page**: Identify the marketing page represented by the tile. Start typing a page name to select an existing page, or click on **New** to create a new one from here.
 - **Description**: Add a description or other notes here (optional).
 
@@ -78,7 +78,7 @@ When you add an event tile as a child of an email tile, you must take care to en
 
 Event tiles provide the following settings in the **Properties** pane while selected:
 
-- **Name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
+- **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
 - **Event**: Identify the event record represented by the tile. Start typing an event name to select an existing event, or click on **New** to create a new one from here.
 - **Description**: Add a description or other notes here (optional).
 
@@ -92,7 +92,7 @@ When you add a survey tile as a child of an email tile, you must take care to en
 
 Survey tiles provide the following settings in the **Properties** pane while selected:
 
-- **Name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
+- **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
 - **Survey**: Identify the voice-of-the-customer record represented by the tile.
 - **Description**: Add a description or other notes here (optional).
 
@@ -112,14 +112,14 @@ When a contact enters an activity tile, the tile generates a new [!INCLUDE[pn-mi
 
 Activity tiles provide the following settings in the **Properties** pane while selected:
 
-- **Name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
+- **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
 - **Activity Type**: The type of activity (such as appointment, task, or phone call) the tile creates.
 - **Activity Template**: The template to use when creating the activity. The templates defines which type activity it is, who it should be assigned to, and other details. You can choose an existing template or create a new one from here, but you can only assign or create templates that have the same **Activity Type** as the tile. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create activity marketing templates for activity tiles](customer-journeys-create-automated-campaigns.md#create-activity-marketing-templates-for-activity-tiles)
 - **Properties**: After you've selected a template, a summary of its settings is shown here.
 - **Assigned To:** The tile assigns all of the activities it generates to the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] user identified here.
 - **Description**: Add a description or other notes here (optional).
 
-### Invoke workflow
+### Launch workflow
 
 Use a workflow tile to invoke a custom workflow at any point in the customer journey. You can use them to advance a process stage, create alerts, and more. Workflows are highly customizable, and many organizations work with internal or external consultants to optimize them for their own unique, internal business requirements.
 
@@ -134,9 +134,49 @@ Workflow tiles are stand-alone, so they never have any parent or child tiles.
 
 Workflow tiles provide the following settings in the **Properties** pane while selected:
 
-- **Name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
+- **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
 - **Invoke Workflow**: Choose an existing workflow to be invoked by the tile.
 - **Description**: Add a description or other notes here (optional).
+
+### Create lead
+
+The create-lead tile creates a new lead for each contact or account that enters the tile. It doesn't try to match any existing leads, so it always creates a new one. Each lead created will be linked either to the contact that entered the tile, or to the account that contact belongs to (the company they work for).
+
+Create-lead tiles provide the following settings in the **Properties** pane while selected:
+
+- **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
+- **Create for each**: Choose whether to create a new lead for each contact that enters the tile, or for the account each contact belongs to. The tile doesn't try to match any existing leads, so it always creates a new one, however, for account-based leads, the tile will create just one new lead for each account even if multiple contacts from that account pass through the tile while the journey is running. This setting is only provided when the journey is set to target accounts. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Account-based marketing](account-based-marketing.md)
+- **Last name placeholder**: All lead records require a value for their last-name field. When the tile creates a contact-based lead, it uses that contact's last name here. For accounts, no last name is available, so if you are creating account-based leads, enter a placeholder value to use as the last name for each lead the tile creates. This setting is only provided when the journey is set to target accounts. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Account-based marketing](account-based-marketing.md)
+- **Description**: Add a description or other notes here (optional).
+
+### LinkedIn campaign
+
+The LinkedIn-campaign tile links each contact who passes through it to a specific [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaign, thus making it possible for a subsequent trigger tile to react to submissions of any [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms that belong to that campaign on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)].
+
+To use this tile, you must first do the following:
+
+- Create an account on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] that is enabled for marketing.
+- Create a campaign on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] that includes a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Form.
+- Set up the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen feature in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] so you can link to your [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] account and sync your [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaigns back to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [LinkedIn Lead Gen integration](linkedin-lead-gen-integration.md)
+
+> [!IMPORTANT]
+> Additional [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] charges may apply each time you target an ad campaign or other sponsored content on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)], as established in the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] terms of use.
+
+LinkedIn-campaign tiles provide the following settings in the **Properties** pane while selected:
+
+- **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
+- **LinkedIn campaign**: Use this lookup field to select the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaign to monitor with this tile. You can choose from among all [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaigns that you've synced using the  [LinkedIn Lead Gen feature](linkedin-lead-gen-integration.md) in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Be sure to choose a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaign that includes a Lead Gen Form.
+- **Description**: Add a description or other notes here (optional).
+
+When you use this tile, you'll nearly always arrange it in a pipeline that starts with a segment followed by the LinkedIn-campaign tile and then a trigger tile, as shown in the following illustration. Then, you'll follow the trigger with follow-up activities as needed for each true/false path (such as by sending messages, triggering workflows and/or assigning tasks).
+
+![Typical LinkedIn-campaign tile arrangement](media/journey-LinkedIn-tile-use.png "Typical LinkedIn-campaign tile arrangement")
+
+You might configure these tiles as follows:
+
+- **Segment tile**: Choose a segment of contacts that you might expect to encounter on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]. You might typically choose a segment that you have also used to create a [ Matched Audience on LinkedIn](linkedin-matched-audience.md).
+- **LinkedIn-campaign tile**: Choose a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaign that includes a Lead Gen Form.
+- **Trigger tile**: Create a trigger rule with the **Source** set to the campaign you picked in the LinkedIn-campaign tile, and the **Condition** set to "Any LinkedIn campaign form submitted". Contacts will wait here until they submit a Lead Gen form that belongs to the specified LinkedIn campaign (which will send them down the upper, "true" path) or until the **Timeout** set for the tile expires (at which time remaining contacts will be sent down the bottom, "false" path).
 
 ## Target tiles
 
@@ -167,7 +207,7 @@ Record-update tiles are stand-alone, so they never have any parent or child tile
 
 Record-update tiles provide the following settings in the **Properties** pane while selected:
 
-- **Name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
+- **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
 - **Entity Logical Name**: Choose which entity to monitor for updates. Usually, you'll chose "Contact".
 - **Contact Field Name**: Choose a field from your selected entity to monitor for updates.
 - **Trigger Types**: Choose which type of field change to look for (create, delete, or update).
@@ -185,7 +225,7 @@ Scheduler tiles are stand-alone, so they never have any parent or child tiles.
 
 Scheduler tiles provide the following settings in the **Properties** pane while selected:
 
-- **Name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
+- **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
 - **Type**: Sets whether to use a relative or absolute schedule. Set this to **Duration** to set a relative time (such as wait 7 days) or to **Date & Time** to choose a specific date.
 - **Duration**: This setting is only shown when **Type** is set to **Duration**. Enter an integer in the field here to define the number of days to wait, starting from the day a contact first enters the tile. Use the links here to choose a **Simple** duration, which will wait the exact number of days you specify, or an **Advanced** duration, which enables you to define a restriction window (see below).
 - **Date & Time**: This setting is only shown when **Type** is set to **Date & Time**. Use the fields here to define the specific date, hour, and minute at which contacts waiting here will be released (regardless of when they arrived). Use the links here to choose a **Simple** schedule, which will use the exact date and time you specify, or an **Advanced** schedule, which enables you to define a restriction window (see below). Note the time zone information shown at the bottom of the **Properties** tab.
@@ -208,7 +248,7 @@ When you add a trigger to your pipeline, it immediately creates a fork, with the
 
 Trigger tiles provide the following settings in the **Properties** pane while selected:
 
-- **Name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
+- **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
 - **Timeout in**: Set the maximum amount of time that the trigger should hold a contact before sending it down the false path, provided the true condition isn't met during that time. Contacts are sent down the true path as soon as the condition is met. Use the field and drop-down list here to establish that amount of time to wait.
 - **Set Rules**: All triggers must have at least one rule, so new ones start with a rule. You can add more rules by clicking on the **+ New** button here. Rules are combined using an AND operator, which means that if you define more than one, then all of the rules must evaluate to true before a contact is sent down the true path.
 - **Rule &lt;n&gt;**: Each rule that you add creates a numbered **Rule** block. Each rule must have a **Source**, which identities the source of a value to test, and a **Condition**, which defines the condition that the found value must fulfil. The **Source** drop-down list shows all the sources that are currently available to the trigger tile; if you don't find a source you are looking for, then you might need to add a tile or child tile to make that source available.
@@ -238,13 +278,13 @@ On adding a splitter tile:
 
 Splitter tiles provide the following settings in the **Properties** pane while selected:
 
-- **Name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
+- **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
 - **Split By**: Choose how to define the portion of contacts sent down each branch. Choose **Percentage** to define each branch by a percentage of total contacts. Choose **Value** to define each branch using absolute values.
 - **Description**: Add a description or other notes here (optional).
 
 Splitter-branch tiles provide the following settings in the **Properties** pane while selected:
 
-- **Name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
+- **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
 - **Percentage** or **Value**: When the preceding splitter tile is set to split by percentage, set the percentage of contacts that should be sent down this branch. When the preceding splitter tile is set to split by value, enter the total number of contacts that should go down that branch.
 - **Description**: Add a description or other notes here (optional).
 
