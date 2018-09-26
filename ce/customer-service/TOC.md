@@ -40,7 +40,6 @@
 ### [Article templates](../admin/create-templates-articles.md)
 
 
-
 ## Service Scheduling
 ### [Overview ](basics-service-service-scheduling.md)
 ### Schedule entities

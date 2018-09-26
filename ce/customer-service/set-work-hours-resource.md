@@ -30,6 +30,9 @@ You can set the hours a resource works or set the operating hours for a facility
   
 > [!TIP]
 > You can edit existing work hours by following steps 1 and 2 to go to the Users or Facilities/Equipment area. Then, open the resource you want to edit. Editing a schedule does not affect existing service activities created for the resource.  
+
+> [!IMPORTANT]
+> With the October'18 release, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you create using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage organizational units](create-org-units-cs-scheduling.md)
   
 ## Set work hours for a resource  
   

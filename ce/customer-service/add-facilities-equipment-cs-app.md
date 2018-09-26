@@ -47,15 +47,15 @@ Facilities and equipment are resources you’d use to perform services for your 
   
    [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)]
   
-3.  Choose **Facilities/Equipment**.  
+3.  Select **Facilities/Equipment**.  
   
-4.  On the command bar, choose **New**.  
+4.  On the command bar, select **New**.  
   
 5.  Fill in the information as required:  
   
     - **Name**. Enter the name of the facility or equipment you want to add for service scheduling.  
   
-    - **Business Unit**. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] enters the business unit automatically. To choose a different business unit, choose the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button") and then select from the list.  
+    - **Business Unit**. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] enters the business unit automatically. To select a different business unit, select the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button") and then select from the list.  
   
     - **Site**. Select the location where the facility or equipment is located.  
   
@@ -68,7 +68,9 @@ Facilities and equipment are resources you’d use to perform services for your 
   
     - **Description**. Add details about the facility or equipment, such as the numbers, size, make, or model.  
   
-6.  When you’re done, choose **Save** or **Save and Close**.  
+6.  When you’re done, select **Save** or **Save and Close**.  
+
+    ![facility-cs-app](media/facility-equipment-cs-app.png)
   
 ### See also  
  [Basics of service and service scheduling](../customer-service/basics-service-service-scheduling.md)

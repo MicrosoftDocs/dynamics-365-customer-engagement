@@ -34,20 +34,20 @@ You can create a service activity by finding the next available times of resourc
   
 2. [!INCLUDE[proc_service_service_calendar](../includes/proc-service-service-calendar.md)]  
   
-3. On the command bar, click **Service Activity**.  
+3. On the command bar, select **Service Activity**.  
   
 4. On the Service Activity form, type or change information in the text boxes.  
   
     Hovertips provide hints on what to enter.  
   
-5. When you’re ready to save your data, click **Save**.  
+5. When you’re ready to save your data, select **Save**.  
   
 > [!TIP]
 >  You can record a customer's preferences for a specific time, day, service, facility, equipment, and customer service representative in the customer record on the **Administration** tab. As you are scheduling a service activity, the customer's preference is displayed in the **Form Assistant** pane.  
   
 > [!NOTE]
-> - If at any time before you save this service activity you want to search the schedule for an available time, you can click **Schedule** in the **Actions** group to open the **Schedule Service Activity** dialog box.  
-> - To check the schedule for conflicts, in **Service Calendar**, in the **Actions** group, click **Conflicts**.  
+> - If at any time before you save this service activity you want to search the schedule for an available time, you can select **Schedule** in the **Actions** group to open the **Schedule Service Activity** dialog box.  
+> - To check the schedule for conflicts, in **Service Calendar**, in the **Actions** group, select **Conflicts**.  
   
 ### See also  
 

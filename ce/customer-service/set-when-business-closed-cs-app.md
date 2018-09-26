@@ -41,9 +41,9 @@ Prevent scheduling resources on holidays and other nonworking days by defining b
   
 2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
   
-3.  Click **Business Closure**.  
+3.  Select **Business Closure**.  
   
-4.  To create a new business closure, on the command bar, click **New**.  
+4.  To create a new business closure, on the command bar, select **New**.  
   
      -OR-  
   
@@ -63,7 +63,10 @@ Prevent scheduling resources on holidays and other nonworking days by defining b
   
          If you want to enter a specific time period, clear the **All Day Event** check box. You can then specify the hours during which your organization will be closed.  
   
-6.  To save this business closure, click **OK**.  
+6.  To save this business closure, select **OK**.  
+
+
+    ![business-closure-cs](media/business-closure-cs-app.png)
   
 ### See also  
  [Set work hours for a resource](../customer-service/set-work-hours-resource.md)   

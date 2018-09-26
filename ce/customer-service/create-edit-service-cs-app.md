@@ -43,9 +43,9 @@ A service requires at least one selection rule and one or more resources, resour
    
 2. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)]  
   
-3.  Click **Services**.  
+3.  Select **Services**.  
   
-4.  To create a new service, click **New**.  
+4.  To create a new service, select **New**.  
   
      -OR-  
   
@@ -63,11 +63,11 @@ A service requires at least one selection rule and one or more resources, resour
   
 6.  In the **Required Resources** area, define a selection rule:  
   
-    1.  Choose a selection rule in the right-hand pane.  
+    1.  Select a selection rule in the right-hand pane.  
   
          Selection rules appear in the tree beside the **Selection Rule** button ![Gear button](../customer-service/media/crm-ua-selection-rule-gear.gif "Gear button").  
   
-    2.  Choose one of the items under **Common Tasks** to define the selection rule by indicating how many resources are required and in what combination.  
+    2.  Select one of the items under **Common Tasks** to define the selection rule by indicating how many resources are required and in what combination.  
   
  **Add a Selection Rule**  
   
@@ -85,10 +85,12 @@ A service requires at least one selection rule and one or more resources, resour
    >  You can save a service without defining a selection rule, but you won’t be able to schedule that service.   
    >  More information: [Create or edit a selection rule](create-simple-selection-rule.md)  
   
-7.  When you’re ready to save your data, click **Save**.  
+7.  When you’re ready to save your data, select **Save**.  
+
+    ![schedule-service-cs-app](media/services-cs-app.png)
   
 ## Activate or deactivate a service  
- You can make a service available on unavailable for scheduling by activating or deactivating it. To do this, in the list of service records, select a service, then click **More Actions** > **Activate** or **More actions** > **Deactivate**.  
+ You can make a service available on unavailable for scheduling by activating or deactivating it. To do this, in the list of service records, select a service, then select **More Actions** > **Activate** or **More actions** > **Deactivate**.  
   
 ### See also  
  [Set the capacity required for a service or resource](set-capacity-required-service-resource.md)   

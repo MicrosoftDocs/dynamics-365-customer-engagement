@@ -46,11 +46,11 @@ In the Service calendar, you can do the following tasks and activities:
   
 3. To find a specific resource, in the **Search** box, enter the first few letters of a name.  
   
-4. To view the details of any resource, appointment, or service activity, select the record in the list to the left of the calendar, and then at the bottom of the calendar, under the **Zoom** scale, click the **Expand** button ![arrow&#95;up&#95;blue](../customer-service/media/crm-ua-arrow-up-blue.gif "arrow_up_blue") to expand the preview pane. You can also double-click a record to open it.  
+4. To view the details of any resource, appointment, or service activity, select the record in the list to the left of the calendar, and then at the bottom of the calendar, under the **Zoom** scale, select the **Expand** button ![arrow&#95;up&#95;blue](../customer-service/media/crm-ua-arrow-up-blue.gif "arrow_up_blue") to expand the preview pane. You can also double-click a record to open it.  
   
-5. The Calendar pane appears on the right side of the calendar. It can be collapsed or expanded. To change the date, click a date in the calendar. Use the arrows on either side of the month to change the month displayed.  
+5. The Calendar pane appears on the right side of the calendar. It can be collapsed or expanded. To change the date, select a date in the calendar. Use the arrows on either side of the month to change the month displayed.  
   
-6. To change the number of days that are displayed in the linear calendar, click any of the calendar options in the Calendar pane.  
+6. To change the number of days that are displayed in the linear calendar, select any of the calendar options in the Calendar pane.  
   
 7. To change how much of the calendar is available to view, use the **Zoom** scale. Select specific date ranges to view in the **From** and **To** lists.  
   

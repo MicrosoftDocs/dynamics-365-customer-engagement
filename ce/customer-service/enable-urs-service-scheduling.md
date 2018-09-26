@@ -82,12 +82,16 @@ Make sure that you have the Customer Service Manager, System Administrator, or S
 To enable or migrate to the new Service Scheduling experience, you should have the latest version of URS installed on your system.
 
 - Check the URS version. Go to **Settings** and select **About** to see the current version of URS on your machine.
-- Upgrade to the latest version of URS from <<here>>. Consider <<these>> points before you upgrade to the latest version.
+- Upgrade to the latest version of URS from <<here>>. Consider the following point before you upgrade to the latest version.
+
+  -	Importing the Service scheduling package will upgrade URS to the latest version. If Field Service or Project Service is already installed on your org with an older URS version, then URS will be upgraded. 
+
+    > [!NOTE]
+    > The latest version of URS might not be compatible with the old versions of Field Service or Project Service.
+
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
 
-> [!NOTE]
-> 
 
 ### Install the Service Scheduling package
 

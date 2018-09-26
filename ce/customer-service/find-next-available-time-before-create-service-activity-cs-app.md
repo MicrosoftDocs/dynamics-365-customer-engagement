@@ -38,7 +38,7 @@ Avoid conflicts while scheduling services by finding the time the resources are 
   
 2. [!INCLUDE[proc_service_service_calendar](../includes/proc-service-service-calendar.md)]  
   
-3. Click **Schedule**.  
+3. Select **Schedule**.  
   
 4. On the **Schedule Service Activity** form, type or change information in the text boxes.  
   
@@ -56,9 +56,9 @@ Avoid conflicts while scheduling services by finding the time the resources are 
   
        -   Do not clear the Use Default Duration check box and change the duration unless you want to schedule more time than the default duration of the service. The maximum duration of a service activity is 10 days.  
   
-5. Click **Find Available Times**. The next available times are shown.  
+5. Select **Find Available Times**. The next available times are shown.  
   
-6. Under **Available Times**, select the time for which you want to schedule the service activity, and then click **Schedule**.  
+6. Under **Available Times**, select the time for which you want to schedule the service activity, and then select **Schedule**.  
   
     The Schedule Service Activity form closes, and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] fills in the information from the selected time in the Service Activity form.  
   
@@ -66,12 +66,12 @@ Avoid conflicts while scheduling services by finding the time the resources are 
   
     Hovertips provide hints about what to enter.  
   
-8. When you’re ready to save your data, click **Save**.  
+8. When you’re ready to save your data, select **Save**.  
   
     The service activity appears as a color block on the Service calendar.  
   
 > [!TIP]
->  If you want to find an available time without any time restriction, do not specify any criteria under **Requested Time**, and click **Find Available Times**.  
+>  If you want to find an available time without any time restriction, do not specify any criteria under **Requested Time**, and select **Find Available Times**.  
   
 ### See also  
  [Force an activity into a time slot](../customer-service/create-service-activity-without-checking-conflicts-cs-app.md)   

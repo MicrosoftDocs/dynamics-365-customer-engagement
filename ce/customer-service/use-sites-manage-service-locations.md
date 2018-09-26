@@ -35,21 +35,24 @@ Create sites to define the locations where you provide service to your customers
   
 2. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)]  
   
-3.  Click **Sites**.  
+3.  Select **Sites**.  
   
-4.  On the Actions toolbar, click **New**.  
+4.  On the Actions toolbar, select **New**.  
   
 5. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
-6.  Click **Save**.  
+6.  Select **Save**.  
   
-7.  To add resources, under Common, click **Resources**, and then click **Add Resources**.  
+7.  To add resources, under Common, select **Resources**, and then select **Add Resources**.  
   
 8.  In the **Look Up Records** dialog box, in the **Look For** drop-down list, you can add facilities/equipment or users as resources.  
   
-9. From the list of records, double-click a resource, and click **Add**.  
+9. From the list of records, double-click a resource, and select **Add**.  
   
-10. Click **Save and Close**.  
+10. Select **Save and Close**.  
+
+
+
   
 ### See also  
 [Create or edit a service (Customer Service app)](create-edit-service-cs-app.md)  </br>
