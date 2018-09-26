@@ -20,6 +20,9 @@ manager: shujoshi
 
 # Microsoft.CIFramework methods (CIF JavaScript API reference)
 
+> [!Important]
+> [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)] 
+
 Provides methods to use JavaScript API to manage the channel (widget), records, and forms in the Dynamics 365.
 
 ## Methods

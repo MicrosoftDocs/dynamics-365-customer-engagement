@@ -20,6 +20,9 @@ manager: shujoshi
 
 # How to configure a channel provider for your Dynamics 365 organization
 
+> [!Important]
+> [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)] 
+
 Using the Channel Integration Framework solution, you can configure channel providers.
 To configure channel providers:
 

@@ -20,6 +20,9 @@ manager: shujoshi
 
 # onmodechanged event (CIF JavaScript API reference)
 
+> [!Important]
+> [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)] 
+
 The `onmodechanged` event is invoked when the panel mode is manually toggled between **Minimized (0)** and **Docked (1)**.
 
 ## eventData

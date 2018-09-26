@@ -20,6 +20,9 @@ manager: shujoshi
 
 # How to get Channel Integration Framework (CIF)?
 
+> [!Important]
+> [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)] 
+
 Channel Integration Framework is an application (solution) available in Microsoft AppSource.
 You can get the solution from within the Dynamics 365 or directly from Microsoft AppSource.
 

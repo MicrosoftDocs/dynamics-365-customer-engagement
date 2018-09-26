@@ -18,7 +18,13 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# Channel Integration Framework Guide for Microsoft Dynamics 365
+# Preview: Channel Integration Framework Guide for Microsoft Dynamics 365
+
+> [!IMPORTANT]
+> - This feature currently has limited availability.
+> - [!INCLUDE[cc_preview_features_definition](../../includes/cc-preview-features-definition.md)]  
+> - [!INCLUDE[cc_preview_features_expect_changes](../../includes/cc-preview-features-expect-changes.md)]  
+> - [!INCLUDE[cc_preview_features_no_MS_support](../../includes/cc-preview-features-no-ms-support.md)]
 
 <table>
 <tr>

@@ -20,6 +20,9 @@ manager: shujoshi
 
 # Architecture overview of Channel Integration Framework
 
+> [!Important]
+> [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)] 
+
 Channel Integration Framework provides an extensible framework to integrate third-party Computer Telephony Integration (CTI) systems to serve your customers with more focus and agility.
 
 > [!div class="mx-imgBorder"]

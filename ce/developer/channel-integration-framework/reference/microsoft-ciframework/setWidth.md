@@ -20,6 +20,9 @@ manager: shujoshi
 
 # setWidth (CIF JavaScript API Reference)
 
+> [!Important]
+> [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)] 
+
 [!INCLUDE[setWidth](includes/setWidth-description.md)]
 
 ## Syntax
