@@ -39,6 +39,7 @@ manager: shujoshi
 <h2> Download </h2>
 
 <li><a href="get-channel-integration-framework.md" data-raw-source="[Download Channel Integration Framework (CIF)](download-channel-integration-framework.md)">Download Channel Integration Framework (CIF)</a></li>
+<li><a href="sample-softphone-integration.md" data-raw-source="[Download sample code for softphone integration](sample-softphone-integration.md)">Download sample code for softphone integration</a></li>
 </td>
 </tr>
 <tr>

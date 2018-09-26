@@ -11,6 +11,8 @@
     items:
     - name: "Get Channel Integration Framework (CIF)"
       href: get-channel-integration-framework.md
+    - name: "Sample code for softphone integration"
+      href: sample-softphone-integration.md
   - name: How-to
     items:
     - name: "Configure channel provider for your Dynamics 365 organization"
