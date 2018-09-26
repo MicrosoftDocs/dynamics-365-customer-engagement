@@ -22,6 +22,7 @@ search.app:
   - D365CE
   - D365FS
 ---
+
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 # Activate Field Service mobile licenses
