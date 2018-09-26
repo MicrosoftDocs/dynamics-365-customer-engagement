@@ -178,6 +178,6 @@ exports.handler = function(context, event, callback) {
 
 - [Configure the channel provider](configure-channel-provider-channel-integration-framework.md)
 
-- [Microsoft.CIFramework](reference/microsoft.ciframework.md)
+- [Microsoft.CIFramework](../reference/microsoft-ciframework.md)
 
 - [Client-side events](reference/client-side-events.md)
