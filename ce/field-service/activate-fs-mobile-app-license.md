@@ -31,7 +31,7 @@ When you set up an organization to use the [!include[Dynamics 365 for Field Serv
 
 In addition, if you want to extend a trial period, or if you restore an environment (or do any work that changes an organization ID), you need to submit a new activation request.
 
-To speed up the process, [we've provided a quick form for you to fill out to request the activation](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/activate-fs-mobile-app-license?branch=daveMobile#fill-out-an-activation-request-form).
+To speed up the process, [we've provided a quick form for you to fill out to request the activation](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u).
 
 ## What you need to know before you submit an activation request
 There are a few important details to know before you submit a request to activate [!include[Dynamics 365 for Field Service](../includes/pn-dyn-365-field-service.md)] mobile licenses:
