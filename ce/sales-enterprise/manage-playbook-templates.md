@@ -100,9 +100,7 @@ Open the playbook template and on the command bar, select **Publish**.
 > [!NOTE]
 
 > The playbook template you’re trying to publish must have the following:
-
 > -   At least one playbook activity added
-
 > -   At least one record type the playbook template applies to
 
 > [!IMPORTANT]
