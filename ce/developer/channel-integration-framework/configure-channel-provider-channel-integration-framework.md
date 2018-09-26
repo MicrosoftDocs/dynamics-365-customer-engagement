@@ -36,18 +36,19 @@ To configure channel providers:
 
 4.	In the **New Channel** page, specify the following:
 
-    | Field | Description |
-    |-------|-------|
-    |Name|Name of the channel provider.|
-    |Label|The label is displayed as the title on the widget.|
-    |Channel URL|The URL of the provider to host in the widget. See the JavaScript APIs on how to develop communication widget with Dynamics 365 Channel Integration Framework.|
-    |Enable Outbound Communication|Clicking on a phone number in the Dynamics 365 Unified Interface page, the widget initiates the call or outbound communication.|
-    |Channel Order|Priority number to display the channel for the agents and unified Interface Apps.|
-    |API Version|The version of the of Channel Integration Framework.|
-    |Trusted Domains|List of domains (URLs) that can access the Channel Integration Framework APIs.|
-    |Select the Unified Interface Apps for the Channel| The list of Unified Interface Apps where the channel is displayed for the agents. |
-    |Select Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface App.|<br>
-   ![Channel proivder configuration](media/channel-provider-configuration.PNG "Channel proivder configuration")
+  | Field | Description |
+  |-------|-------|
+  |Name|Name of the channel provider.|
+  |Label|The label is displayed as the title on the widget.|
+  |Channel URL|The URL of the provider to host in the widget. See the JavaScript APIs on how to develop communication widget with Dynamics 365 Channel Integration Framework.|
+  |Enable Outbound Communication|Clicking on a phone number in the Dynamics 365 Unified Interface page, the widget initiates the call or outbound communication.|
+  |Channel Order|Priority number to display the channel for the agents and unified Interface Apps.|
+  |API Version|The version of the of Channel Integration Framework.|
+  |Trusted Domains|List of domains (URLs) that can access the Channel Integration Framework APIs.|
+  |Select the Unified Interface Apps for the Channel| The list of Unified Interface Apps where the channel is displayed for the agents. |
+  |Select Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface App.|
+  <br>
+  ![Channel proivder configuration](media/channel-provider-configuration.PNG "Channel proivder configuration")
 
 5. Launch the Unified Interface App to see the communication widget on the right side.<br><br>
 **The communication widget in the minimized mode**<br><br>
