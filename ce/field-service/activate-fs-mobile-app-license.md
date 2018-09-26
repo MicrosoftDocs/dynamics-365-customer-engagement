@@ -26,11 +26,12 @@ search.app:
 
 # Activate Field Service mobile licenses
 
-When you set up an organization to use the [!include[Dynamics 365 for Field Service](../includes/pn-dyn-365-field-service.md)] application, you need to submit a request to activate mobile licenses before users can access the Field Service mobile app. We've provided a quick form for you to fill out to request the activation.
+When you set up an organization to use the [!include[Dynamics 365 for Field Service](../includes/pn-dyn-365-field-service.md)] application, you need to submit a request to activate mobile licenses before users can access the Field Service mobile app. To speed up the process, we've provided a quick form for you to fill out to request the activation.
 
+## Before you submit a request for activation
 There are a few important details to know before you activate [!include[Dynamics 365 for Field Service](../includes/pn-dyn-365-field-service.md)] mobile licenses:
 
-- You need Office 365 global admin privileges to manage licenses for an organization.
+- You need Office 365 global admin privileges to manage licenses for a Dynamics 365 organization.
 
 - Field service mobile licenses are allocated to one organization at a time, based on the organization ID.
 
@@ -42,9 +43,10 @@ There are a few important details to know before you activate [!include[Dynamics
 
   > ![OrgID](media/woodford-expiration.png)  
 
-# Request form
 
-Fill out the following form to **activate mobile licenses or extend Woodford trials**: [request form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u)
+# Submit a mobile license activation request form
+
+Fill out the form to **activate mobile licenses or extend licenses beyond the 30-day trial**: [request form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u)
 
 **Please note** you will need your Dynamics 365 Org ID to complete the request form.
 
