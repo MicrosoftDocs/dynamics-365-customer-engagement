@@ -1,20 +1,19 @@
 ---
-title: "Experiment with demo data (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 10/25/2017
+title: "Experiment with sample data (Dynamics 365 for Field Service) | MicrosoftDocs"
+ms.custom: "dyn365-fieldservice"
+ms.date: 09/28/2018
 ms.reviewer: ""
-ms.service: "crm-online"
 ms.suite: ""
 ms.technology: 
   - "field-service"
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: "activate-fs-mobile-app-license"
 applies_to: 
   - "Dynamics 365 (online)"
-ms.assetid: c7dc07tc-4978-41a9-8542-4f0b0a52a990
-caps.latest.revision: 1
-ms.author: "mkaur"
-manager: "brycho"
+  - "Dynamics 365 Version 9.x"
+author: "krbjoran"
+ms.author: "shellyha"
+ms.manager: "shellyha"
 search.audienceType: 
   - admin
   - customizer
@@ -22,7 +21,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365FS
----
+--- 
 # Experiment with sample data (Field Service)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
