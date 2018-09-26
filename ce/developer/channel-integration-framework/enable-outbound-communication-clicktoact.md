@@ -81,3 +81,15 @@ function initCTI() {
 ```
 > [!Note]
 > Channel Integration Framework invokes the onclicktoact event only if you programmatically set the `setClickToAct` API to `true` or by configuring the **Enable Outbound Communication** to **Yes** in the channel provider configurations.
+
+> [!div class="nextstepaction"]
+> [Authenticate channel users to the channel (widget)](authenticate-channel-users.md)
+
+## See also
+
+[setClickToAct](reference/microsoft-ciframework/setClickToAct.md)
+
+[getClickToAct](reference/microsoft-ciframework/getClickToAct.md)
+
+[onclicktoact](reference/events/onclicktoact.md)
+

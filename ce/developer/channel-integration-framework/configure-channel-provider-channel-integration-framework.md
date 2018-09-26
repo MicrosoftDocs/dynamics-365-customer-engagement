@@ -55,3 +55,6 @@ To configure channel providers:
 <br><br>
 **The communication widget in the expanded mode**<br><br>
 ![communication widget in the expanded mode](media/widget-expanded-mode.PNG "communication widget in the expanded mode")
+
+> [!div class ="nextstepaction"]
+> [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)
