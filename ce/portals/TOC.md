@@ -13,6 +13,7 @@
 ## [Change base URL of a portal](change-base-url.md)
 ## [Upgrade a portal](upgrade-portal.md)
 ## [Migrate Dynamics 365 Portal configuration](migrate-portal-configuration.md)
+## [Set up Power BI integration](set-up-power-bi-integration.md)
 
 # [Configure a portal](configure-portal.md)
 ## [Enable multiple-language support](enable-multiple-language-support.md)
