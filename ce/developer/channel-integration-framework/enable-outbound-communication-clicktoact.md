@@ -22,13 +22,13 @@ manager: shujoshi
 
 To enable outbound communication for your channel, you must perform the following:
 
-- **Step 1:** In the channel provier configurations, set the **Enable Outboud Communication** field to **Yes**.
+- **Step 1:** In the channel provider configurations, set the **Enable Outbound Communication** field to **Yes**.
 
 - **Step 2:** In the Unified Interface form, add the **Channel communication control** to the **Phone** field for which you want to enable outbound communication (ClickToAct), and publish the customizations.
 
 - **Step 3:** Register the addhandler in your JavaScript code using `Microsoft.CIFramework.addHandler(“onclicktoact”, <handlerFunction>)` 
 
-## Step 1: Set the Enable Outboud Communication field value in the channel provider configuration
+## Step 1: Set the Enable Outbound Communication field value in the channel provider configuration
 
 1. Sign-in to Dynamics 365.
 
@@ -36,11 +36,11 @@ To enable outbound communication for your channel, you must perform the followin
 
 3. Select a channel provider from the **Active Channel Providers** list.
 
-4. Set the **Enable Outboud Communication** field to **Yes**, and save the changes.
+4. Set the **Enable Outbound Communication** field to **Yes**, and save the changes.
 
 ## Step 2: Add the Channel Communication Control to the Unified Interface form
 
-You can add the Channel Commnication Control based on your organization and business requirements. The steps mentioned below illustrate adding the **Channel Communication Control** for the **Contact** form of **Main** type under the **Contact** entity.
+You can add the Channel Communication Control based on your organization and business requirements. The steps mentioned below illustrate adding the **Channel Communication Control** for the **Contact** form of **Main** type under the **Contact** entity.
 
 1. Sign-in to Dynamics 365.
 
@@ -65,9 +65,9 @@ You can add the Channel Commnication Control based on your organization and busi
 
 9. Select **Save**, and then select **Publish** to publish all customizations.
 
-## Step 3: Register the addHandler in JavaScript code using onclicktoact event
+## Step 3: Register the addHandler in JavaScript code using the onclicktoact event
 
-During the initalization of the function, register the handler for the `onlicktoact` event.
+During the initialization of the function, register the handler for the `onlicktoact` event.
 
 ```JavaScript
 function initCTI() {
