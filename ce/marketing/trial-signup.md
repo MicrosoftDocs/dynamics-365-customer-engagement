@@ -61,7 +61,7 @@ To sign up for a free trial of [!INCLUDE[pn-marketing-business-app-module-name](
 
 3. Enter your email address and phone number and choose **Get Started**.
 
-4. The website asks whether you want to use an existing [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant or to create a new one. Choose to use an existing tenant and then follow the instructions on your screen to sign in if needed. (If you want to set up a new tenant, then use the procedure in [Sign up for a Dynamics 365 trial with a managed Office 365 trial tenant](#get-managed-tenant) instead.)
+4. The website asks whether you want to use an existing [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant or to create a new one. Choose to use an existing tenant and then follow the instructions on your screen to sign in if needed. (If you want to set up a new tenant, then use the procedure in [Sign up for a managed Office 365 trial tenant and install the Marketing trial on it](#get-managed-tenant) instead.)
 
 5. Once you are signed in, the tenant will begin setting up a new [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] trial instance with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial already installed. [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] is a complex app, so this may take some time to set up for your account.
 
