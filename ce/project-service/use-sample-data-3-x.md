@@ -173,7 +173,10 @@ To do this, go to the **PkgFolder** folder to find and open the **DemoDataPreImp
 
 Find the following value, and then change the setting from true to false:
 
-**<TerminateOnPreCheckFailure>**true</TerminateOnPreCheckFailure>
+```alias
+<TerminateOnPreCheckFailure>true</TerminateOnPreCheckFailure>
+
+```
 
 This change causes the installer to bypass some important safety checks, including:
 
