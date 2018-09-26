@@ -47,7 +47,7 @@ When you install any of the sample data packages, the installation process perfo
 
 - Imports sample data for the applications, such as bookable resources, application-specific roles, sales and cost price lists, organizational units, sales process records, and other entities to demonstrate key capabilities.  
 
-Wondering what capabilities you can demo with the sample data? See [Fabrikam Robotics fictitious scenario](#Fabrikam-Robotics-fictitious-scenario).
+Wondering what capabilities you can demo with the sample data? See the Fabrikam Robotics fictitious scenario below, under Technical notes.
 
 If you have questions about installing these sample data packages, [send us an email at fpsdemodata@microsoft.com](mailto:fpsdemodata@microsoft.com).
 
@@ -69,7 +69,7 @@ The installation protocol assumes the following about your target instance (org)
 
     - **For v902FSMasterData:** The org has Field Service version 8.x installed.
 
-**Note:** If you need to install the sample data on top of an existing Project Service and Field Service trial or demo environment that already has data (not recommended), you'll need to suspend the safety prechecks performed by the installer. For more information, see the [technical notes below](##technical-notes).
+**Note:** If you need to install the sample data on top of an existing Project Service and Field Service trial or demo environment that already has data (not recommended), you'll need to suspend the safety prechecks performed by the installer. For more information, see the technical notes below.
 
 ## Prepare for installation
 
@@ -111,7 +111,7 @@ To create or configure users, go to **Settings > Security > Users**, and do the 
 
 3. From the downloaded package, you need to update a data mapping file with email addresses of the default user context. To do this, open **PkgFolder**, and then find and open the **ImportUserMapFile.xml** file in Notepad (or Visual Studio or another XML editor). Set the **DefaultUserToMapTo=** field to the email address of the Spencer Low user.
 
-4. If you aren't using Spencer Low with username **spencerl**, you need to update an additional file. Open the **DemoDataPreImportConfig.xml** file, and then find the **userstocreateandconfigure** tag. Update the **<login>** tag with the username of your Spencer Low user. For additional details, see [Technical notes](##technical-notes).
+4. If you aren't using Spencer Low with username **spencerl**, you need to update an additional file. Open the **DemoDataPreImportConfig.xml** file, and then find the **userstocreateandconfigure** tag. Update the **<login>** tag with the username of your Spencer Low user. For additional details, see the technical notes below.
 
 **Recommendation:** Consider creating a backup of your org now, in case you need to revert to your starting point if something goes wrong during the sample data installation. For more information, see this article: [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
@@ -125,7 +125,7 @@ To create or configure users, go to **Settings > Security > Users**, and do the 
 
 a. Select deployment type **Office 365**.
 
-b. Use the user and password of the system administrator user configured in [Create or configure users](###create-or-configure-users)("Spencer Low" with "spencerl" username).
+b. Use the user and password of the system administrator user configured in "Create or configure users" in this doc ("Spencer Low" with "spencerl" username).
 
 c. Make sure **Display list of available organizations** is selected.
 
@@ -145,7 +145,7 @@ c. Make sure **Display list of available organizations** is selected.
 
 ## Verify the sample data installation
 
-For a sanity check, verify that the number of records and types of entities listed in [Fabrikam Robotics fictitious scenario](###fabrikam-robotics-fictitious-scenario) appear as expected.
+For a sanity check, verify that the number of records and types of entities listed in Fabrikam Robotics fictitious scenario appear as expected.
 
 After the sample data completely loads, sign in as the Spencer Low user and confirm the following:
 
