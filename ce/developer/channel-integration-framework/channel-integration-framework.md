@@ -46,8 +46,9 @@ manager: shujoshi
 
 <h2> How-to </h2>
 
-<li><a href="configure-channel-provider-channel-integration-framework.md" data-raw-source="[How to configure a channel provider in Unified Interface app](configure-channel-provide-channel-integration-framework.md)">How to configure a channel provider in Unified Interface app</a></li>
+<li><a href="configure-channel-provider-channel-integration-framework.md" data-raw-source="[How to configure a channel provider ifor your organization](configure-channel-provide-channel-integration-framework.md)">How to configure a channel provider for your organization</a></li>
 <li><a href="authenticate-channel-users.md" data-raw-source="[Authenticate channel users to the channel (widget)](authenticate-channel-users.md)">Authenticate channel users to the channel (widget)</a></li>
+<li><a href="enable-outbound-communication-clicktoact.md" data-raw-source="[How to enable outbound communication (ClickTOAct)](enable-outbound-communication-clicktoact.md)">How to enable outbound communication (ClickTOAct)</a></li>
 </td>
 <td>
 
