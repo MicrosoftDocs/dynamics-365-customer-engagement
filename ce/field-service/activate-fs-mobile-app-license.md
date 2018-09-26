@@ -47,9 +47,9 @@ There are a few important details to know before you submit a request to activat
 
 - If you make any updates or do any work that changes the organization ID, you need to submit a new request to activate the mobile licenses for the organization.
 
-## Submit an activation request form
+## Fill out an activation request form
 
-[Fill out the Field Service mobile license activation request form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u) to activate licenses or extend licenses beyond a 30-day trial.
+[Fill out a Field Service mobile license activation request form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u) to activate licenses or extend licenses beyond a 30-day trial.
 
 Note that you need the Dynamics 365 organization ID to complete the request form.
 
