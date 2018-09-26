@@ -26,7 +26,11 @@ search.app:
 
 # Activate Field Service mobile licenses
 
-When you set up an organization to use the [!include[Dynamics 365 for Field Service](../includes/pn-dyn-365-field-service.md)] application, you need to submit a request to activate mobile licenses before users can access the Field Service mobile app. To speed up the process, we've provided a quick form for you to fill out to request the activation.
+When you set up an organization to use the [!include[Dynamics 365 for Field Service](../includes/pn-dyn-365-field-service.md)] application, you need to submit a request to activate mobile licenses before users can access the Field Service mobile app. 
+
+In addition, if you want to extend a trial period, or if you restore an environment (or do any work that changes an organization ID), you need to submit a new activation request.
+
+To speed up the process, we've provided a quick form for you to fill out to request the activation.
 
 ## What you need to know before you submit a request
 There are a few important details to know before you submit a request to activate [!include[Dynamics 365 for Field Service](../includes/pn-dyn-365-field-service.md)] mobile licenses:
