@@ -201,13 +201,15 @@ GET [Organization URI]/api/data/v9.0/accounts?$select=name,revenue
 <a name="bkmk_buildInQueryFunctions"></a>
 
 ### Standard query functions  
- The web API supports these standard OData string query functions.  
-  
+ 
+ OData string query functions:
+ 
 |Function|Example|  
 |--------------|-------------|  
 |`contains`|`$filter=contains(name,'(sample)')`|  
 |`endswith`|`$filter=endswith(name,'Inc.')`|  
-|`startswith`|`$filter=startswith(name,'a')`|  
+|`startswith`|`$filter=startswith(name,'a')`|
+
   
 > [!NOTE]
 >  This is a sub-set of the [11.2.5.1.2 Built-in Query Functions](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part1-protocol/odata-v4.0-errata02-os-part1-protocol-complete.html). `Date`, `Math`, `Type`, `Geo` and other string functions aren’t supported in the web API.  
@@ -233,6 +235,24 @@ GET [Organization URI]/api/data/v9.0/accounts?$select=name,revenue,&$orderby=rev
 ```  
   
 <a name="bkmk_useParameterAliases"></a>
+
+## Aggregate and Grouping results
+
+By using `$apply` you can aggregate and group your data dynamically.  Possible use cases with `$apply`:
+
+|Use Case|Example|
+|--------------|-------------| 
+|List of unique statuses in the query|`$apply=groupby((statuscode))`|
+|Aggregate sum of the estimated value|`$apply=aggregate(estimatedvalue with sum as total)`|
+|Average size of the deal based on estimated value and status|`$apply=groupby((statuscode),aggregate(estimatedvalue with average as averagevalue)`|
+|Sum of estimated value based on status|`$apply=groupby((statuscode),aggregate(estimatedvalue with sum as total))`|
+|Total opportunity revenue by Account name|`$apply=groupby((parentaccountid/name),aggregate(estimatedvalue with sum as total))`|
+|Last created record date and time|`$apply=aggregate(createdon with max as lastCreate)`|
+|First created record date and time|`$apply=aggregate(createdon with min as firstCreate)`|
+
+The aggregate functions are limited to a collection of 50,000 records.  Further information around using aggregate functionality with Dynamics 365 can be found here: [Use FetchXML to construct a query](../org-service/use-fetchxml-construct-query.md)
+
+Additional details on OData data aggregation can be found here: [http://docs.oasis-open.org/odata/odata-data-aggregation-ext/v4.0/cs01/odata-data-aggregation-ext-v4.0-cs01.html](http://docs.oasis-open.org/odata/odata-data-aggregation-ext/v4.0/cs01/odata-data-aggregation-ext-v4.0-cs01.html).  Note that Dynamics 365 only supports a sub-set of these aggregate methods.
 
 ## Use parameter aliases with system query options
 

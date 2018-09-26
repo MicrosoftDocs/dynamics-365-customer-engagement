@@ -10,9 +10,9 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: e47db291-7f10-43c2-b29c-c348618e537b
-author: brycho
-ms.author: brycho
-manager: amyla
+author: jimholtz
+ms.author: jimholtz
+manager: kvivek
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

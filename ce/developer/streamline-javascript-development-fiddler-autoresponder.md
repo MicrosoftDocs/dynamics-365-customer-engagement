@@ -2,7 +2,7 @@
 title: "Streamline JavaScript web resource development using Fiddler AutoResponder (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Learn about how to setup and use AutoResponder in Fiddler for local debugging of JavaScript web resources."
 ms.custom: ""
-ms.date: 03/02/2018
+ms.date: 09/18/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -58,17 +58,18 @@ While developing and debugging JavaScript web resources, you can use AutoRespond
    You can then edit the string to match to simplify it. With web resources, the URL will contain generated values in the URL or in a query string to make sure that the latest published version is included in the response. You will probably see the `EXACT` value will look something like this:<br />
     ```
     EXACT:https://<org URL>/%7B636556138760000160%7D/WebResources/new_testscript.js?    ver=-1229805553
-    ```<br />
+    ```
+  
     You can simplify this to remove the generated values and use this instead:<br />
+
     ```
     /WebResources/new_testscript.js
-    ```<br />
+    ```
+
    The bottom row is left blank. Type the path to your local file on your disk on this bottom row and <strong>Save</strong>.<br />
+
    ![Add path to your local file in Rule editor](media/fiddler-save-rule.png "Add path to your local file in Rule editor")<br />
 
- 
-
- 
 By following the above steps, Fiddler is configured to listen to the requests and responds with the local file instead of passing the request over the network.
 
 ## Update and test your code
