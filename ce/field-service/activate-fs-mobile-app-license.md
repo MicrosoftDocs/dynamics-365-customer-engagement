@@ -51,11 +51,13 @@ There are a few important details to know before you submit a request to activat
 
 **Note** that you need the Dynamics 365 organization ID to complete the request form.
 
-        > [!NOTE]
-        > Here's how to find your org ID:
-        >  - Open your Dynamics 365 instance.
-        >  - Navigate to **Settings \> Customizations \>Developer Resources**.
-        >  - In the Instance Reference Information section, locate the Org ID.
+## Determine the organization ID
+
+Here's where to find your organization ID:
+
+ 1. Sign into the Dynamics 365 instance.
+ 2. Go to **Settings** > **Customizations** > **Developer Resources**.
+ 3. In the **Instance Reference Information** section, locate the ID.
         
   > ![OrgID](media/admin-orgid.png)  
         
