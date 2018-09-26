@@ -30,11 +30,11 @@ To ensure consistency in your business process or to know what steps to follow i
 
 2.  On the command bar, select **Launch playbook**.
 
- ![launch playbook button on opportunity record](media/launch-playbook-button-opportunity.png "Launch playbook button on opportunity record")  
+     ![launch playbook button on opportunity record](media/launch-playbook-button-opportunity.png "Launch playbook button on opportunity record")  
 
- **Note:**
+    > [!NOTE]
 
-    The **Launch playbook** button appears on an entity form only when there’s at least one published playbook template for that entity. If you do not see this button, talk to your playbook manager.
+    > The **Launch playbook** button appears on an entity form only when there’s at least one published playbook template for that entity. If you do not see this button, talk to your playbook manager.
 
 3.  In the **Playbook templates** dialog box, select a playbook that you want to use, and then select **Launch**.
 

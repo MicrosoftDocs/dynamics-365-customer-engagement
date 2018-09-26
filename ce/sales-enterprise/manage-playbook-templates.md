@@ -47,17 +47,17 @@ Playbooks provide users guidance on recurring tasks in which consistent actions 
 
     4. **Estimated duration (days)**: Enter the estimated duration in days to indicate the time it may take to complete the playbook template once launched.
 
- ![information section on playbook template form](media/playbook-template-information-section.png "Information section on Playbook template form")  
+        ![information section on playbook template form](media/playbook-template-information-section.png "Information section on Playbook template form")  
 
 5.  In the **Select record types that this playbook applies to** section, the **Available for box** lists all the entities that are enabled for using playbooks. Select and move the record types to which the current playbook template applies to into the **Applies to** box.
 
     The playbook capability is currently only enabled on Lead, Quote, Opportunity, Order, and Invoice record types. As a playbook manager, when you create a playbook template, you can select which entity that playbook applies to.
 
- ![section to select record types the playbook applies to](media/playbook-applies-to.png "Section to select record types the playbook applies to")  
+    ![section to select record types the playbook applies to](media/playbook-applies-to.png "Section to select record types the playbook applies to")  
 
 6.  In the **Playbook activities** section, select the Add activity button, and then select the activity you want to create.
 
- ![add playbook activity](media/add-activity.png "Add playbook activity")  
+    ![add playbook activity](media/add-activity.png "Add playbook activity")  
 
     For example, if the playbook is defined for an event when a decision maker a sales person is working with leaves the organization, you may create a phone call record to make a call to the new decision maker, and fix an appointment.
 
@@ -83,7 +83,7 @@ Playbooks provide users guidance on recurring tasks in which consistent actions 
 
     10. Priority. Select the priority of the activity.
 
- ![quick create form for phone call activity](media/quick-create-phone-call-form.png "Quick create form for phone call activity")  
+        ![quick create form for phone call activity](media/quick-create-phone-call-form.png "Quick create form for phone call activity")  
 
 8.  In the lower-right corner, select **Save**.
 
@@ -97,17 +97,17 @@ Or
 
 Open the playbook template and on the command bar, select **Publish**.
 
-**Note**
+> [!NOTE]
 
-The playbook template you’re trying to publish must have the following:
+> The playbook template you’re trying to publish must have the following:
 
--   At least one playbook activity added
+> -   At least one playbook activity added
 
--   At least one record type the playbook template applies to
+> -   At least one record type the playbook template applies to
 
-**Important!**
+> [!Important]!
 
-After you publish a template, you can’t edit it. To make changes to a published playbook template, on the command bar, select **Revise**.
+> After you publish a template, you can’t edit it. To make changes to a published playbook template, on the command bar, select **Revise**.
 
 ## Delete a playbook template
 

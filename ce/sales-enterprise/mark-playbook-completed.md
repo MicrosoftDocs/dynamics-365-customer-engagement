@@ -38,8 +38,12 @@ When you complete all the activities created for a playbook, you must mark the p
 
 -   Not required
 
-**Note:**
+> [!Note]
 
-A system administrator or customizer can add custom values to this field.
+> A system administrator or customizer can add custom values to this field.
 
-![complete as button on playbook record](media/complete-playbook-as.png "Complete as button on Playbook record")
+  ![complete as button on playbook record](media/complete-playbook-as.png "Complete as button on Playbook record")
+
+### See also
+[Launch a playbook](launch-playbook.md)  
+[Track playbook activities](track-playbook-activities.md)

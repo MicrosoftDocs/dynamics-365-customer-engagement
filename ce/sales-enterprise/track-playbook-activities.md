@@ -33,17 +33,17 @@ To see the activities created by the playbook when Track progress field in the p
 
 2.  Select the **Related** tab, and then select **Playbooks**.
 
- ![playbooks option in related tab on opportunity record](media/playbooks-option-related-tab-opportunity-record.png "Playbooks option in Related tab on opportunity record")  
+     ![playbooks option in related tab on opportunity record](media/playbooks-option-related-tab-opportunity-record.png "Playbooks option in Related tab on opportunity record")  
 
 3.  In the **Playbook Associated View**, the playbook launched from the record is listed.
 
- ![playbooks tab on opportunity record](media/playbooks-tab-opportunity-record.png "Playbooks tab on opportunity record")  
+    ![playbooks tab on opportunity record](media/playbooks-tab-opportunity-record.png "Playbooks tab on opportunity record")  
 
 4.  Select the playbook.
 
     The playbook record shows all the details about the playbook and its associated activities.
 
- ![playbook record with associated playbook activities](media/playbook-record-with-associated-activities.png "Playbook record with associated playbook activities")  
+    ![playbook record with associated playbook activities](media/playbook-record-with-associated-activities.png "Playbook record with associated playbook activities")  
 
     For example, it shows when the playbook was launched, how many total activities it has, how many of the activities are completed, and what’s the estimated close date. It also shows all the related playbook activities in the **Playbook activities** section. Work on these activities, and when you are done, mark them as completed.
 
@@ -51,7 +51,7 @@ To see the activities created by the playbook when Track progress field in the p
 
     Alternately, in the calling record, select the **Related** tab, and then select **Activities**.
 
- ![activities tab on the opportunity record](media/activities-tab-opportunity-record.png "Activities tab on the Opportunity record")  
+    ![activities tab on the opportunity record](media/activities-tab-opportunity-record.png "Activities tab on the Opportunity record")  
 
     This view shows all the activities for the calling record along with the ones created when a playbook was launched. However, it doesn’t show how many are created in context of a playbook.
 
