@@ -70,12 +70,15 @@ One of the main reasons people use [!INCLUDE[pn_microsoftcrm](../includes/pn-mic
   
  
 ### See also  
- [Microsoft Dynamics CRM: How it works documentation ](https://www.microsoft.com/en-us/download/details.aspx?id=48718) 
+[Microsoft Dynamics CRM: How it works documentation ](https://www.microsoft.com/en-us/download/details.aspx?id=48718) 
  
- [Integrate your email system using server-side synchronization](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
- [Troubleshooting and monitoring server-side synchronization issues](../admin/troubleshooting-monitoring-server-side-synchronization.md)   
- [Deploy Dynamics 365 App for Outlook](../outlook-app/deploy-dynamics-365-app-for-outlook.md)   
- [Migrate settings from the Email Router to server-side synchronization](../admin/migrate-settings-email-router-server-side-synchronization.md)
+[Integrate your email system using server-side synchronization](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
+
+[Troubleshooting and monitoring server-side synchronization issues](../admin/troubleshooting-monitoring-server-side-synchronization.md)   
+
+[Deploy Dynamics 365 App for Outlook](../outlook-app/deploy-dynamics-365-app-for-outlook.md)   
+
+[Migrate settings from the Email Router to server-side synchronization](../admin/migrate-settings-email-router-server-side-synchronization.md)
  
  
  
