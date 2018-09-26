@@ -28,7 +28,7 @@ search.app:
 
 When you set up an organization to use the [!include[Dynamics 365 for Field Service](../includes/pn-dyn-365-field-service.md)] application, you need to submit a request to activate mobile licenses before users can access the Field Service mobile app. To speed up the process, we've provided a quick form for you to fill out to request the activation.
 
-## Before you submit a request for activation
+## What you need to know before you submit a request
 There are a few important details to know before you submit a request to activate [!include[Dynamics 365 for Field Service](../includes/pn-dyn-365-field-service.md)] mobile licenses:
 
 - You need Office 365 global admin privileges to manage licenses for a Dynamics 365 organization.
@@ -43,7 +43,7 @@ There are a few important details to know before you submit a request to activat
 
   > ![OrgID](media/woodford-expiration.png)  
 
-- If you make any updates or do any work that changes the organization ID, you'll need to submit a new request to activate the mobile licenses.
+- If you make any updates or do any work that changes the organization ID, you need to submit a new request to activate the mobile licenses for the organization.
 
 ## Submit a mobile license activation request form
 
