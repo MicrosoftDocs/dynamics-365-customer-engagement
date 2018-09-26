@@ -37,6 +37,24 @@ If you have been using the legacy Service Scheduling feature from either Service
 
 ## About the new Service Scheduling experience
 
+Here is what's updated in the new Service Scheduling experience:
+
+- It's built on Universal Resource Scheduling (URS), thereby increasing efficiency in the scheduling process.
+- All types of resources required to schedule a service are grouped under **Resources** entity group. So, you can create various types of resources records from the Resources entity itself.
+- **Resource groups** are now referred as **Resource Categories**. Similarly, **Sites** are now **Organizational Units**. 
+ - It's now based on the Unified Interface framework. This helps in an intuitive user interface and UI reflow and adaptivity across devices and form factors.
+
+
+
+
+
+
+
+
+
+
+
+<<
 Understand the difference between the legacy and the new Service Scheduling experience with the help of the following scenario:
 
 Contoso bike repairs, a company that repairs bikes, schedules repair services for their customers. To facilitate this process, they compile the following information:
@@ -53,7 +71,7 @@ Contoso bike repairs, a company that repairs bikes, schedules repair services fo
   ![new-service-scheduling](media/new-res-res-cat-ss.PNG)
 
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md) </br>  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and set up bookable resources](resources-service-scheduling.md)
-
+>>
 
 ## Install and enable the new Service Scheduling experience
 
@@ -63,10 +81,13 @@ Make sure that you have the Customer Service Manager, System Administrator, or S
 
 To enable or migrate to the new Service Scheduling experience, you should have the latest version of URS installed on your system.
 
-- Check the URS version. Go to Settings and select About to see the current version of URS on your machine
+- Check the URS version. Go to **Settings** and select **About** to see the current version of URS on your machine.
 - Upgrade to the latest version of URS from <<here>>. Consider <<these>> points before you upgrade to the latest version.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
+
+> [!NOTE]
+> 
 
 ### Install the Service Scheduling package
 
@@ -75,97 +96,16 @@ To enable or migrate to the new Service Scheduling experience, you should have t
 
 ## Migrate to the new Service Scheduling experience
 
+You can migrate to the new experience either from the user interface or with the help of SDK.
 
-### Migrate Service Activity 
-
-Service activity isn’t directly available in the new scheduling experience. Contact your administrator to migrate Service activity to the new scheduling experience.
-
-```csharp
-//Fetch all Service Activity records
-
- QueryExpression serviceActivityQuery = new QueryExpression("serviceappointment");
- serviceActivityQuery.ColumnSet = new ColumnSet(true);
- EntityCollection serviceActivityCol = _serviceProxy.RetrieveMultiple(serviceActivityQuery);
-
-//create related records for dependent entity for each ServiceActivity records
-foreach (Entity entity in serviceActivityCol.Entities)
-{
-
-Guid serviceID = entity.GetAttributeValue<EntityReference>("serviceid").Id;
-Guid appointmentID = entity.GetAttributeValue<Guid>("activityid");
- 
-//Fetch service and get the ‘msdyn_requirementgroupid’
-QueryExpression serviceQuery = new QueryExpression("service");
-serviceQuery.ColumnSet = new ColumnSet(true);
-serviceQuery.Criteria = new FilterExpression();
-serviceQuery.Criteria.AddCondition("serviceid", ConditionOperator.Equal, serviceID);
-
-Entity service = _serviceProxy.Retrieve("service", new Guid(serviceID.ToString()), new ColumnSet(true));
-
-//fetch the requirementGroupID for the service and clone the Requirement Group and resource requirement
-EntityReference existingRequirementGroupID = service.GetAttributeValue<EntityReference>("msdyn_requirementgroupid");
-Entity existingRequirementGroup = _serviceProxy.Retrieve("msdyn_requirementgroup", existingRequirementGroupID.Id, new ColumnSet(true));
-
-// create a new msdyn_requirementgroup record by cloning the above 
-Entity newRequirementGroup = new Entity("msdyn_resourcerequirement");
-EntityReference rgOwnerID = existingRequirementGroup.GetAttributeValue<EntityReference>("ownerid");
-newRequirementGroup["ownerid"] = rgOwnerID.Id;
-int rgOwnerIDType = existingRequirementGroup.GetAttributeValue<int>("owneridtype");
-newRequirementGroup["owneridtype"] = rgOwnerIDType;
-var rgStateCode = existingRequirementGroup.GetAttributeValue<OptionSetValue>("statecode");
-newRequirementGroup["statecode"] = rgStateCode;
-string rgNmae = existingRequirementGroup.GetAttributeValue<string>("msdyn_name");
-newRequirementGroup["msdyn_name"] = rgNmae;
-
-//newRequirementGroup["msdyn_requirementgrouptemplateid"] = existingRequirementGroupID.Id;
-newRequirementGroup["msdyn_istemplate"] = 0;
-Guid _newRequirementGroupID = _service.Create(newRequirementGroup);
+### Migrate from user interface
 
 
-//fetch resourcerequirement for requirementGroupID for the service
-QueryExpression existingResourceRequirementQuery = new QueryExpression("msdyn_resourcerequirement");
-existingResourceRequirementQuery.ColumnSet = new ColumnSet(true);
-existingResourceRequirementQuery.Criteria = new FilterExpression();
-existingResourceRequirementQuery.Criteria.AddCondition("msdyn_requirementgroupid", ConditionOperator.Equal, existingRequirementGroupID.Id);
-EntityCollection existingResourceRequirement = _serviceProxy.RetrieveMultiple(existingResourceRequirementQuery);
+### Migrate using SDK
 
-// create/clone records for each msdyn_resourcerequirement
- foreach (Entity entityRR in existingResourceRequirement.Entities)
-  {
- Entity newResourceRequirement = new Entity("msdyn_resourcerequirement");
- newResourceRequirement["msdyn_requirementgroupid"] = _newRequirementGroupID;
- newResourceRequirement["serviceappointment"] = appointmentID;
- EntityReference rrOwnerID = entityRR.GetAttributeValue<EntityReference>("ownerid");
- newResourceRequirement["ownerid"] = rrOwnerID.Id;
- int rrOwnerIDType = entityRR.GetAttributeValue<int>("owneridtype");
- newResourceRequirement["owneridtype"] = rrOwnerIDType;
- var rrStateCode = entityRR.GetAttributeValue<OptionSetValue>("statecode");
- newResourceRequirement["statecode"] = rrStateCode;
- Guid _newResourceRequirementID = _service.Create(newResourceRequirement);
-  }
+To install SDK and migrate, see <<>>. Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions before performing the steps.
 
-// create new bookable resource booking for each ActivityParty record
-QueryExpression activityPartyQuery = new QueryExpression("activityparty");
-activityPartyQuery.ColumnSet = new ColumnSet(true);
-activityPartyQuery.Criteria = new FilterExpression();
-activityPartyQuery.Criteria.AddCondition("activityid", ConditionOperator.Equal, appointmentID);
-EntityCollection activityPartyCol =  _serviceProxy.RetrieveMultiple(activityPartyQuery);
- foreach (Entity entityRR in activityPartyCol.Entities)
-  {
-  Entity newBookableResourceBooking = new Entity("bookableresourcebooking");
-//fill all reuired fields 
-//newBookableResourceBooking["resource"] = respective BookableResourceId from  'BookableResource'
-newBookableResourceBooking["starttime"] = entityRR.GetAttributeValue<DateTime>("scheduledstart");
-newBookableResourceBooking["endtime"] = entityRR.GetAttributeValue<DateTime>("scheduledend");
-newBookableResourceBooking["msdyn_bookingsetupmetadataidname"] = "serviceappointment";
-newBookableResourceBooking["msdyn_requirementgroupid"] = _newRequirementGroupID;
-//newBookableResourceBooking["msdyn_resourcerequirementID"] = new ID for respective newly created resource requirement
-// newBookableResourceBooking["bookingstatus"] =  appropriate BookingStatusBase.BookingStatusId for ActivityPointer statuscode
-newBookableResourceBooking ["serviceappointment"] = appointmentID;
-//newBookableResourceBooking ["statecode"] = from service activity
 
-Guid _newBookableResourceBookingID = _service.Create(newBookableResourceBooking);}}
-```
 
 ### See also
 
