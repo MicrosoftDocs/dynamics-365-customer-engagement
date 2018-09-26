@@ -105,7 +105,7 @@ Open the playbook template and on the command bar, select **Publish**.
 
 > -   At least one record type the playbook template applies to
 
-> [!Important]!
+> [!IMPORTANT]
 
 > After you publish a template, you can’t edit it. To make changes to a published playbook template, on the command bar, select **Revise**.
 
