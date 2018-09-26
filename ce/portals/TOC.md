@@ -122,6 +122,7 @@
 ## [View email records in portal timeline](view-email-in-timeline.md)
 ## [Rate a webpage or blog article](rate-webpage-blog-post.md)
 ## [Enable header and footer output caching on a portal](enable-header-footer-output-caching.md)
+## [Add a Power BI report or dashboard to a webpage in portal](add-powerbi-report.md)
 
 # [Dynamics 365 Portal FAQ](portal-faq.md)
 
