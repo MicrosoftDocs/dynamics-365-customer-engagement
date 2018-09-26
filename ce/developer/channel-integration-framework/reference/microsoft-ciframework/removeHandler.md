@@ -74,7 +74,7 @@ Microsoft.CIFramework.removeHandler("onclicktoact", handlerFunction).then (
 
 ### Example 2: removeHandler method for the `onmodechanged` event
 
-The sample code demonstrates setting removeHandler method for the `onclicktoact` event.
+The sample code demonstrates setting removeHandler method for the `onmodechanged` event.
 
 ```JavaScript
 function handlerfunction(eventData) {
