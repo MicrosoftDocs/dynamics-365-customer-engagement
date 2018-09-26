@@ -39,10 +39,6 @@ manager: shujoshi
 
 On success, returns a promise object containing the attributes specified earlier in the description of the **successCallback** parameter.
 
-## Return Value
-
-On success, returns a promise object containing the attributes specified earlier in the description of the **successCallback** parameter.
-
 
 ## Examples
 
