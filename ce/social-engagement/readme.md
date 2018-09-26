@@ -1,8 +1,8 @@
 ---
-title: "Social Engagement 2018 Update 1.8 Readme"
+title: "Social Engagement 2018 Update 1.9 Readme"
 description: "Important and late-breaking information about Microsoft Social Engagement"
 keywords: "readme, known issues, information"
-ms.date: 08/22/2018
+ms.date: 09/26/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 

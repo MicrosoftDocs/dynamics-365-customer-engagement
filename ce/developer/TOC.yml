@@ -8,6 +8,8 @@
 - name: Get started
   href: get-started-sdk.md
   items:
+  - name: 'Download SDK'
+    href: download-dynamics-365-sdk-v9.md
   - name: Programming models
     href: programming-models.md
   - name: Choose your development style
