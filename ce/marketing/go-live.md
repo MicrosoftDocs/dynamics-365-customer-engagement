@@ -219,5 +219,5 @@ The default values for **Publish status** are _Draft_, _Ready to publish_, _In p
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)  
 [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)  
-[Score and manage leads](score-manage-leads.md)  
+[Design lead-scoring models](score-manage-leads.md)  
 [Set up the event portal](set-up-event-portal.md)

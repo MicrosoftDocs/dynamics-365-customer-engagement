@@ -118,6 +118,6 @@ To create a lead scoring model:
 
 ### See also
 
-[Score and manage leads](score-manage-leads.md)  
+[Design lead-scoring models](score-manage-leads.md)  
 [Register contacts' engagement](register-engagement.md)  
 [Manage customer information](manage-customer-information.md)

@@ -75,7 +75,7 @@ For an even more detailed video overview of the features and benefits of [!INCLU
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)]
 
 - Tutorial: [Set up lead scoring](set-up-lead-scoring.md)
-- [Score and manage leads](score-manage-leads.md)  
+- [Design lead-scoring models](score-manage-leads.md)  
 - [Register contacts' engagement](register-engagement.md)  
 - [Manage customer information](manage-customer-information.md)
 

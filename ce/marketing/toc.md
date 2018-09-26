@@ -107,9 +107,10 @@
 #### [Customer journey tiles reference](customer-journey-tiles-reference.md)
 
 ### [Manage, score, and qualify leads](qualify-leads-section.md)
+#### [The lead lifecycle](lead-lifecycle.md)
 #### [Market to leads](market-to-leads.md)
 #### [Account-based marketing](account-based-marketing.md)
-#### [Score and manage leads](score-manage-leads.md)
+#### [Design lead-scoring models](score-manage-leads.md)
 #### [Register contacts' engagement](register-engagement.md)
 #### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
 

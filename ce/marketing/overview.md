@@ -238,7 +238,7 @@ To establish what happens when a condition is met, drag an **Action** tile from 
 
 Regardless of how many condition/action pairs your scoring rule has, you must also establish a single set of grades that apply for the entire rule. Each grade applies to a range of scores and has a name. Grades can't overlap. Though you can establish as many grades as you want, the most important distinction will be the sales-ready grade. When a lead achieves this grade, it is considered marketing-qualified and can be submitted to a salesperson for acceptance and further attention. Use the **Grades** tab to set up a grade schedule and sales-ready threshold for your rule.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Score and manage leads](score-manage-leads.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design lead-scoring models](score-manage-leads.md)
 
 ## Connect to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] to import promising new leads straight into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
 

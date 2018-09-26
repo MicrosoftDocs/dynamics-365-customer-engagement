@@ -229,4 +229,4 @@ To move quickly between the main areas of the customer journey and lead-scoring 
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
-[Score and manage leads](score-manage-leads.md)
+[Design lead-scoring models](score-manage-leads.md)

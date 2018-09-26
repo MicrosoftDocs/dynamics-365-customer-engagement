@@ -210,7 +210,7 @@ One way to score a lead based on the account associated with it is to set up a c
 
     ![A condition that scores leads by account name](media/abm-scoring-expression.png "A condition that scores leads by account name")
 
-For more information about lead scoring in Marketing, see [Score and manage leads](score-manage-leads.md).
+For more information about lead scoring in Marketing, see [Design lead-scoring models](score-manage-leads.md).
 
 To view and assign which contact and/or account is associated with each lead, open the lead and then select the **Inquiry** stage of the **Lead-to-opportunity marketing sales process** business process display. Then view or edit the **Existing contact?** and **Existing account?** fields shown here.
 
