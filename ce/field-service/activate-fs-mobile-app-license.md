@@ -26,7 +26,7 @@ search.app:
 
 # Activate Field Service mobile licenses
 
-When you set up an organization to use the [!include[Dynamics 365 for Field Service](../includes/pn-dyn-365-field-service.md)] application, you need to activate mobile licenses before users can access the Field Service mobile app. 
+When you set up an organization to use the [!include[Dynamics 365 for Field Service](../includes/pn-dyn-365-field-service.md)] application, you need to submit a request to activate mobile licenses before users can access the Field Service mobile app. We've provided a quick form for you to fill out to request the activation.
 
 There are a few important details to know before you activate [!include[Dynamics 365 for Field Service](../includes/pn-dyn-365-field-service.md)] mobile licenses:
 
@@ -38,7 +38,7 @@ There are a few important details to know before you activate [!include[Dynamics
 
     For example, if you purchase 100 field service licenses and you manage one production organization and one sandbox, you could assign mobile licenses to 50 users at both organizations for a maximum total of 100 mobile users (not 100 mobile users at *each* organization for a total of 200).
 
-- A 30-day trial automatically starts when you install the Woodford solution in your Dynamics 365 instance. You need to activate the licenses before the trial period ends. If you want to maintain access to the field service mobile app beyond the 30 trial, you need to extend the licenses. To find out your trial end date, go to **Settings** > **Woodford** > **MobileCRM Woodford**. You'll see the trial end date at the top of the screen.
+- A 30-day trial automatically starts when you install the Woodford solution in your Dynamics 365 instance. You need to submit the request to activate the licenses before the trial period ends. Additionally, if you want to maintain access to the field service mobile app beyond the 30 trial, you need to submit a request extend the licenses. To find out your trial end date, go to **Settings** > **Woodford** > **MobileCRM Woodford**. You'll see the trial end date at the top of the screen.
 
   > ![OrgID](media/woodford-expiration.png)  
 
