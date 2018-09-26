@@ -65,5 +65,16 @@ You can add the Channel Commnication Control based on your organization and busi
 
 9. Select **Save**, and then select **Publish** to publish all customizations.
 
-## Registed the addHandler in JavaScript code using onclicktoact event
+## Register the addHandler in JavaScript code using onclicktoact event
 
+During the initalization of the function register the handler for the `onlicktoact` event.
+
+```JavaScript
+function initCTI() {
+    Microsoft.CIFramework.setClickToAct(true);
+    Microsoft.CIFramework.addHandler("onclicktoact", clickToActHandler);
+    log("Added clickToActhandler to the panel");
+}
+```
+> [!Note]
+> Channel Integration Framework invokes the onclicktoact event only if you programmatically set the `setClickToAct` API to `true` or by configuring the **Enable Outbound Communication** to **Yes** in the channel provider configurations.
