@@ -62,7 +62,7 @@ Playbooks provide users with guidance on recurring tasks in which consistent act
     For example, if the playbook is defined for an event in which a decision maker leaves the organization while working with a sales person, you may create a phone call record to make a call to the new decision maker, and fix an appointment.
 
 
-<!--Note from editor: The screenshot shows this as "Quick edit". Is "Quick create" correct here?-->
+<!--Note from editor: The screenshot shows this as "Quick edit". Is "Quick create" correct here?-->    
 
 7.  In the **Quick create** form of the activity, enter the following information, and then select **Save**:
 
