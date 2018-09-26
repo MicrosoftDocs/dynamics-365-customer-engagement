@@ -33,7 +33,7 @@ You can create categories to classify playbooks. For example, categories could b
 
 4.  On the command bar, select **New**.
 
-5.  Enter the name and select **Save**.
+5.  Enter the name, and select **Save**.
 
 ### See also
 [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)  
