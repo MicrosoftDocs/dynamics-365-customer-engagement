@@ -1,6 +1,6 @@
 ---
 title: "Enforce best practices with playbooks (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Guide your team members with pre-defined activities to ensure they follow a consistent approach on recurrent events or scenarios."
+description: "Guide your team members with predefined activities to ensure they follow a consistent approach on recurrent events or scenarios."
 keywords: "playbook, consistent, best practice"
 ms.date: 10/01/2018
 ms.service:
@@ -24,13 +24,15 @@ topic-status: Tech Reviewing
 
 # Enforce best practices with playbooks
 
-Playbooks in Dynamics 365 for Sales provides guidance to the team members on actions to take on events such as a decision maker leaving the organization while they’re working with the decision maker on a deal. It also automates repetitive tasks and respond to external events. For example, playbook can automate the steps of renewing contracts or can define the tasks to do when a decision maker who a team member is working with on a deal leaves the organization.
+<!--note from editor: Unsure if the second sentence should be "... and responds to" or "...and responses to..."-->
 
-To start with, anyone with a Playbook manager role or equivalent permissions creates playbook categories to classify the playbooks. Then, the playbook manager creates playbook templates that define a set of best practices based on the past experiences and their organization standards. Business users like a sales person or a service rep with the Playbook user role can then launch one of these playbook templates while they’re working on their records to ensure that best practices are applied consistently at every step.
+
+Playbooks in Dynamics 365 for Sales provides guidance to team members on actions to take on events such as a decision maker leaving the organization while the team is working on a deal with the decision maker. It also automates repetitive tasks and respond to external events. For example, playbook can automate the steps for renewing contracts or it can define the tasks to do when a decision maker leaves the organization while working on a deal with a team member.
+
+To start, anyone with a Playbook manager role or equivalent permissions creates playbook categories to classify the playbooks. Then, the playbook manager creates playbook templates that define a set of best practices based on the past experiences and their organization standards. Business users such as a sales person or a service rep with the Playbook user role then can launch one of these playbook templates while they work on their records to ensure that best practices are applied consistently at every step.
 
 > [!NOTE]
-
-> The playbook capability is currently only available in the Sales Hub app in Dynamics 365 online.
+> The playbook capability is currently available only in the Sales Hub app in Dynamics 365 (online).
 
 ### See also
 [Define playbook categories](define-playbook-categories.md)  
