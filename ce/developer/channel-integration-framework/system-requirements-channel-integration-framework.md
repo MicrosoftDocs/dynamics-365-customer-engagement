@@ -32,5 +32,3 @@ This topic describes the system requirements of the Channel Integration Framewor
 
 - Google Chrome
 
-- Internet Explorer 11
-
