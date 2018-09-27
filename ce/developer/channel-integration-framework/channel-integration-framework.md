@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# Preview: Microsoft Dynamics 365 Channel Integration Framework Guide
+# Preview: Dynamics 365 Channel Integration Framework Guide
 
 > [!IMPORTANT]
 > - This feature currently has limited availability.
