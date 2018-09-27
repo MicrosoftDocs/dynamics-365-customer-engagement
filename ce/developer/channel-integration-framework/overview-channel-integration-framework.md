@@ -27,7 +27,7 @@ Channel Integration Framework is a cloud-to-cloud extensible framework to integr
 
 With this framework, you can integrate any third-party channel provider or channel aggregators into Unified Interface Apps, where the Channel Integration Framework acts as an interface between the providers or aggregators and Unified Interface Apps.
 
-Technically, Channel Integration Framework is a set of APIs (methods, events, and protocols) that enable developers and partners to build immersive communication experiences such that third party communication widgets running on channel provider cloud and interact with Dynamics 365. 
+Technically, Channel Integration Framework is a set of APIs (methods, events, and protocols) that enable developers and partners to build immersive communication experiences such that third party communication widgets running on channel provider cloud can interact with Dynamics 365. 
 
 With the Channel Integration Framework application (solution) allows you to configure the channel in the Unified Interface app such that your agents can access to serve your customers.
 
