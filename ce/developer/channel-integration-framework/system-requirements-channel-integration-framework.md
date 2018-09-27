@@ -32,3 +32,11 @@ This topic describes the system requirements of the Channel Integration Framewor
 
 - Google Chrome
 
+> [!div class="nextstepaction"]
+> [Get Channel Integration Framework (CIF)](get-channel-integration-framework.md)
+
+## See also
+
+[Overview of Channel Integration Framework](overview-channel-integration-framework.md)
+
+[FAQs](faq-channel-integration-framework.md)

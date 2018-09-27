@@ -44,7 +44,8 @@ The web-based communication channel (third-party) is hosted in the widget that C
 The Cloud Channel Provider is the service that you want to integrate and interact with Dynamics 365 using the Channel Integration Framework. The capabilities of a channel are voice, SMS, chat, email and so on. These capabilities of a channel are specific to the channel provider and Channel Integration Framework is agnostic on the working of the channel.
 
 > [!div class="nextstepaction"]
-> [Get Channel Integration Framework (CIF)](get-channel-integration-framework.md)
+> [System requirements of Channel Integration Framework](system-requirements-channel-integration-framework.md)
+
 
 ## See also
 
