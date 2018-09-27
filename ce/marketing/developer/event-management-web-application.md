@@ -76,7 +76,7 @@ To replace the files in Dynamics 365, follow the steps below:
 ## Self-hosted
 The advantage of self-hosted backend is that you have more freedom with the customization, implement the backend with the technology of  your choice. 
 
-You can use the demo backend and data contract for communication between the frontend and the backend as a starting point, but you can also define your own contract and modify the frontend accordingly. 
+You can use the demo frontend but you will need to implement and host the backend part, either using the existing data contract we have declared on the frontend, or define your own contract and modify the frontend accordingly.
 
 For the backend to communicate with your Dynamics 365 instance, you need to take care of the Dynamics 365 authentication and use the Dynamics 365 webservices. You need to implement the authentication mechanism by yourself, depending on the technology you have selected for the backend. If you want event registration to be linked to the appropriate user who created it, make sure that you create the Dynamics 365 contact for every new website user. 
 
