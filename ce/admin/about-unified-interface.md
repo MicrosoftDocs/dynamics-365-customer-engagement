@@ -140,8 +140,6 @@ The following are not currently available with Unified Interface:
 - Custom styling of advanced chart properties (excluding colors and basic formatting)
 - Reports entity (experiences to create and manage SSRS reports; excludes Run Report)
 
-*These are available through the [hybrid experience](enable-hybrid-experience.md).
-
 ## Read-only entities on Unified Interface
 
 There are certain entities that are currently read-only on Unified Interface. Users will not be able to make changes to these entity records within an Unified Interface app. We are working to make them editable in future releases.
