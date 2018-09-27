@@ -35,10 +35,8 @@ search.app:
 > [!IMPORTANT]
 > To create a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Matched Audience, you must obtain an account from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] and arrange with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] to enable marketing activities using that account. Additional [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] charges may apply if you decide to use a Matched Audience to target an ad campaign or other sponsored content on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)], as established in the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] terms of use. 
 
-<!--note from editor: The first sentence in the following paragraph has "Linked" just before the LinkedIn tag. Should it be deleted?-->
-
 > [!IMPORTANT]
-> [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] encrypts each email address using a one-way hash before sending it to Linked[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]. [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] will be able to match these addresses to existing [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] members but cannot decode the email addresses themselves. This important technique helps protect the privacy of your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] contacts.
+> [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] encrypts each email address using a one-way hash before sending it to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]. [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] will be able to match these addresses to existing [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] members but cannot decode the email addresses themselves. This important technique helps protect the privacy of your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] contacts.
 
 > [!IMPORTANT]
 > [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] members can use their [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] settings to opt-out of having their data shared with external apps. [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] members who have enabled this opt-out option won't be matched to incoming [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] audiences and therefore won't be included in your [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Matched Audiences even if they would otherwise match your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] segment.
@@ -54,9 +52,9 @@ To create a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Matched Audience
 
 1. [Open your segment](segmentation-lists-subscriptions.md) in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
 
-1. Open the **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Matched Audiences** tab.  
+1. Open the **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Matched Audience** tab.  
 
-    ![The LinkedIn Matched Audiences tab in Dynamics 365](media/linkedin-segment.png "The LinkedIn Matched Audiences tab in Dynamics 365")
+    ![The LinkedIn Matched Audience tab in Dynamics 365](media/linkedin-segment.png "The LinkedIn Matched Audience tab in Dynamics 365")
 
 1. Select **Next** to initiate the matched-audience wizard, which will walk you through all the steps needed to sign in to your [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] account and authorize the integration.
 
