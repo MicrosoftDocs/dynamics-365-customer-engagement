@@ -26,13 +26,15 @@ search.app:
   - D365Mktg
 ---
 
+<!--note from editor: remember to update the date in the metadata-->
+
 # Set up social listening and add it to any record
 
 Social listening in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] enables you to embed charts, information, and analytics from  [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] into any type of [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] record to see how people on social media are reacting to your campaigns, events, brands, and more.
 
 ![Social listening in Dynamics 365 for Marketing](media/social-listening-panel.png "Social listening in Dynamics 365 for Marketing")
 
-To use this feature, your organization must purchase the [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] product (also available separately) and integrate it with your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance. For a detailed introduction to [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-short.md)], see the [Welcome to Social Engagement](../social-engagement/overview.md).
+To use this feature, your organization must purchase the [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] product (also available separately) and integrate it with your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance. For a detailed introduction to [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-short.md)], see [Welcome to Social Engagement](../social-engagement/overview.md).
 
 ## Add social listening to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
@@ -64,8 +66,8 @@ To set up social listening for a record:
 
     Make the following settings:
 
-    - Under **Choose topic or category** , select an existing [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-short.md)] topic or category that you want to show. Choose the topic or category that best matches the record you are working with in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. If an appropriate topic or category isn't yet available, then select the **Create new …** link to go to [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-short.md)] and set up a new one (a [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-short.md)] user license is required). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/social-engagement/set-up-searches)
-    - Under **Visualization** , make a selection from the **Choose visual** drop-down list and then select **Add** to add that visual to the page. Your selected visual is added to the list at the bottom of the dialog.
+    - Under **Choose topic or category**, select an existing [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-short.md)] topic or category that you want to show. Choose the topic or category that best matches the record you are working with in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. If an appropriate topic or category isn't yet available, then select the **Create new …** link to go to [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-short.md)] and set up a new one (a [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-short.md)] user license is required). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/social-engagement/set-up-searches)
+    - Under **Visualization**, make a selection from the **Choose visual** drop-down list and then select **Add** to add that visual to the page. Your selected visual is added to the list at the bottom of the dialog.
     - Continue to add each visualization that you want to include. You can rearrange them by selecting an existing visualization in the list and then using the up, down, or delete buttons at the top of the list.
 
 1. Select **Apply**.
