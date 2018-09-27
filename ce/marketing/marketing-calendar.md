@@ -74,7 +74,7 @@ Legend:
 1. **Show as**: Select this button to open a drop-down list where you can switch between the calendar presentation or the standard list presentation. This option is only provided for entity-level calendars; for form-level calendars, the calendar is always shown.
 1. **Increment buttons**: Select the left or right buttons here to increment the displayed date range by one unit (day, week, or year, as selected in the view selector).
 1. **Displayed date range**: Names the current displayed date range. Select this value to open calendar controls that let you jump quickly to another date, week, or year.
-1. **Overrun display** (month view only): For days where there are more items scheduled than can be shown in the current view, this value indicates how many unseen items are scheduled (such as **+1** ). To view all items scheduled for days with an overrun display, either double-click on the white space between the date number and the _+n_ display, or use the arrow keys of your keyboard to select a day and then press **Enter**. Choose any item in the pop-up window to view details about it or edit it, or choose **New item** to add a new calendar item to this date.  
+1. **Overrun display** (month view only): For days where there are more items scheduled than can be shown in the current view, this value indicates how many unseen items are scheduled (such as **+1** ). To view all items scheduled for days with an overrun display, either double-click on the white space between the date number and the _+n_ display, or use the arrow keys of your keyboard to select a day and then press Enter. Choose any item in the pop-up window to view details about it or edit it, or choose **New item** to add a new calendar item to this date.  
 
     ![View additional items or create a new item](media/calendar-month-popup.png "View additional items or create a new item")
     
@@ -85,7 +85,7 @@ Legend:
 To create a new calendar item while working in month view:
 
 1. Select a day in the calendar using your mouse or cursor arrows.
-1. Either click again on the selected date or range or press **Enter** on your keyboard. A pop-up window shows you all items scheduled for the selected day (if any) and includes items hidden in the standard view due to space constraints.  
+1. Either click again on the selected date or range or press Enter on your keyboard. A pop-up window shows you all items scheduled for the selected day (if any) and includes items hidden in the standard view due to space constraints.  
 
     ![View additional items or create a new item](media/calendar-month-popup.png "View additional items or create a new item")
     
@@ -97,8 +97,8 @@ To create a new calendar item while working in month view:
 
 To create a new calendar item while working in day or week view:
 
-1. Select a day and time range. If you are using a mouse, click and drag to select the range. If you are using a keyboard, first select the start time and press **Enter**, then use the arrow keys and Shift+Enter to select the end time.
-1. Either click again on the selected date range or press **Enter** on your keyboard. A pop-up menu opens; use it to choose the type of item to create.  
+1. Select a day and time range. If you are using a mouse, click and drag to select the range. If you are using a keyboard, first select the start time and press Enter, then use the arrow keys and Shift+Enter to select the end time.
+1. Either click again on the selected date range or press Enter on your keyboard. A pop-up menu opens; use it to choose the type of item to create.  
 
     ![Create an item in week view](media/calendar-week-create.png "Create an item in week view")
     
