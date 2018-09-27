@@ -72,7 +72,7 @@ The Channel Integration Framework is web browser and operating system agnostic, 
 
 **Support for Screen pop:**
 
-You can configure screen pop pages to display the customer information that can aid the agents to start the conversation efficiently and effectively.
+You can configure screen pops to display the customer information that can aid the agents to start the conversation efficiently and effectively.
 
 **Customize agent experience:**
 
