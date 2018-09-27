@@ -1,6 +1,6 @@
 ---
 title: "Add and customize marketing calendars for any form or entity (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to add a marketing calender to an entity or form and then customize its features in Dynamics 365 for Marketing"
+description: "How to add a marketing calendar to an entity or form and then customize its features in Dynamics 365 for Marketing"
 keywords: "marketing execution;email;landing page;marketing page;customer journey"
 ms.date: 10/01/2018
 ms.service: 
@@ -27,13 +27,15 @@ search.app:
 
 # Create and customize marketing calendars
 
-The [marketing calendar](marketing-calendar.md) is supplied as a standard control that you can add to any entity or form. The following subsections explain how customize the settings of any calendar, and how to add a calendar display to an entity or form.
+The [marketing calendar](marketing-calendar.md) is supplied as a standard control that you can add to any entity or form. The following subsections explain how to customize the settings of any calendar, and how to add a calendar display to an entity or form.
 
 ## Types and locations of marketing calendars
 
 There are two basic types of marketing calendars:
 
-- **Entity-level calendars**: Entity level calendars appear when your first opens an entity from the main navigator, such as events, customer journeys, or the main marketing calendar. They appear where you'd normally see a list view, and when present, you can switch between the calendar view and list view. Here you'll see relevant records plotted on the calendar according to their scheduled dates, and you can open any listed record from here. This type of calendar can show several types of entities and provides a system view selector for filtering the records shown.
+<!--note from editor: In the following sentence, should it be "when you first open" or is a word missing after "your"?-->
+
+- **Entity-level calendars**: Entity-level calendars appear when your first opens an entity from the main navigator, such as events, customer journeys, or the main marketing calendar. They appear where you'd normally see a list view, and when present, you can switch between the calendar view and list view. Here you'll see relevant records plotted on the calendar according to their scheduled dates, and you can open any listed record from here. This type of calendar can show several types of entities and provides a system view selector for filtering the records shown.
 - **Form-level calendars**: Form-level calendars appear while you are viewing a specific record, such as a specific event. They are integrated into the form view. These might appear in their own tab on the form, or as a section on a tab with other sections of settings also available. This type of calendar can only show and create records of one type of entity and they don't provide a system-view selector. They are often configured to show information that is related to the specific record where they appear.
 
 Other than the differences noted here, both types of calendars look the same and work in similar ways.
@@ -173,7 +175,7 @@ After you have added a marketing calendar to an entity or form you must configur
 
 ## Configure the main marketing calendar
 
-The main marketing calender is available directly from the side navigator, where it is provided at **Marketing** > **My work** > **Marketing calendar**. This calender functions like an entity-level calendar, but there is no marketing calender entity. Instead, the calendar is created as a custom view for the customer journey entity.
+The main marketing calendar is available directly from the side navigator, where it is provided at **Marketing** > **My work** > **Marketing calendar**. This calendar functions like an entity-level calendar, but there is no marketing calendar entity. Instead, the calendar is created as a custom view for the customer journey entity.
 
 To configure the main marketing calendar:
 
