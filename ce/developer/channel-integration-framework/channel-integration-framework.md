@@ -33,6 +33,7 @@ manager: shujoshi
 <h2> Get started </h2>
 <li><a href="overview-channel-integration-framework.md" data-raw-source="[Channel Integration Framework overview](overview-channel-integration-framework.md)">Channel Integration Framework overview</a></li>
 <li><a href="architecture-overview-channel-integration-framework.md" data-raw-source="[Architecture overview of Channel Integration Framework (CIF)](architecture-overview-channel-integration-framework.md)">Architecture overview of Channel Integration Framework (CIF)</a></li>
+<li><a href="system-requirements-channel-integration-framework.md" data-raw-source="[System requirements of Channel Integration Framework](system-requirements-channel-integration-framework.md)">System requirements of Channel Integration Framework</a></li>
 </td>
 <td>
 

@@ -18,12 +18,15 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-## Sample code softphone integration using Channel Integration Framework
+## Sample softphone integration using Channel Integration Framework
 
 > [!Important]
 > [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-[Download](https://go.microsoft.com/fwlink/?linkid=2025867) the sample code integration a softphone with Dynamics 365 using Channel Integration Framework.
+[Download](https://go.microsoft.com/fwlink/?linkid=2025867) the sample integration of a softphone with Dynamics 365 using Channel Integration Framework.
+
+> [!NOTE]
+> The sample code does not support Internet Explorer and on browsers that do not have webRTC support. More information [WebRTC](https://webrtc.org/)
 
 > [!Important]
 > - This sample code currently has limited availability.
@@ -32,7 +35,7 @@ manager: shujoshi
 
 ## Pre-requisites
 
-- A valid Azure subscription is required to pubish the sample app to Azure.
+- A valid Azure subscription is required to publish the sample app to Azure.
 > [!Note]
 > If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/).
 
@@ -45,17 +48,14 @@ manager: shujoshi
 4. Select **Start** to launch the **Publish** wizard.
 5. Choose **App Service** as the publish target.
 6. Select **Create New** and select on **Publish**.
-7. Provide an appname.<br>
-    >[!NOTE]
-    >In the sample code, the appname is **TwilioSampleInteg**.
+7. Provide an app name.<br> For example, **TwilioSampleInteg**.
 8. Provide valid subscription, resource group, and hosting plan details.
-9. Select *Create* to create the azure app service, and save the app service URL for future use.<br>
-    >[!NOTE]
-    >In the sample code, the app service URL is `https://twiliosampleinteg.azurewebsites.net`.
+9. Select *Create* to create the azure app service, and save the app service URL for future use.<br>For example, `https://twiliosampleinteg.azurewebsites.net`.
 
 ## Create Twilio function to use with the app service
 
-Follow the Twilio documentation to create a sample quickstart application: "https://www.twilio.com/docs/voice/client/javascript/quickstart"
+> [!NOTE]
+> See [Twilio documentation](https://www.twilio.com/docs/voice/client/javascript/quickstart) to create a sample quickstart application.
 
 1. Create sample code for the **client-voice** Twilio function.<br>
 ```JavaScript
@@ -138,7 +138,7 @@ exports.handler = function(context, event, callback) {
 };
 ```
 > [!Note] 
-> Save the URL for the Twilio **capability-token** function you obtain from the above sample code. In this sample code, the URL is `https://twilio-sample.twil.io/capability-token`.
+> Save the URL for the Twilio **capability-token** function you obtain from the above sample code. For example, URL is `https://twilio-sample.twil.io/capability-token`.
 
 ## Configure sample app in Dynamics 365
 
@@ -156,7 +156,7 @@ exports.handler = function(context, event, callback) {
   |Enable Outbound Communication| Yes |
   |Channel Order| 0 |
   |API Version| 1.0 |
-  |Trusted Domains|List of domains (URLs) that can access the Channel Integration Framework APIs.|
+  |Trusted Domains|The domain (URL) that can access the Channel Integration Framework APIs.|
   |Select the Unified Interface Apps for the Channel| The list of Unified Interface Apps where the channel is displayed for the agents. |
   |Select Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface App.|
 
@@ -169,7 +169,7 @@ exports.handler = function(context, event, callback) {
 
 > [!Important]
 > - All URLs must be https.
-> - If you use a self-signed certificat for the Azure app or the Dynamics 365 org, certain browsers may reject the connection and fail to load the sample phone. As a workaround, open the Azure app in a separate tab and accept the certificate once.
+> - If you use a self-signed certificate for the Azure app or the Dynamics 365 org, certain browsers may reject the connection and fail to load the sample phone. As a workaround, open the Azure app in a separate tab and accept the certificate once.
 > - Ensure microphone and speaker access is not blocked by browser policy.
 
 ## Related topics

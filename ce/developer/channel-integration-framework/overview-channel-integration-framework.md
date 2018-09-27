@@ -87,6 +87,7 @@ Seamless upgrade to new versions of third-party channel providers or channel agg
 
 ## See also
 
+[System requirements of Channel Integration Framework](system-requirements-channel-integration-framework.md)
 
 [FAQs](faq-channel-integration-framework.md)
 
