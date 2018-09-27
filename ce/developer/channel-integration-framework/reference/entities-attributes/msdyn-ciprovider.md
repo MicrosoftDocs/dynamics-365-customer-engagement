@@ -38,7 +38,7 @@ Base entity for Channel Integration Framework.
 |OwnershipType|UserOwned|
 |PrimaryIdAttribute|msdyn_ciproviderid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_msdyn_ciprovider|
+|SchemaName|msdyn_ciprovider|
 
 ## Attributes
 
@@ -55,6 +55,8 @@ Base entity for Channel Integration Framework.
 | msdyn_RoleSelector | Select Roles for the Channel | The security roles that are present in Dynamics 365.|
 
 ## Related topics
+
+- [Configure the channel provider](../../configure-channel-provider-channel-integration-framework.md)
 
 - [Microsoft.CIFramework](../microsoft-ciframework.md)
 
