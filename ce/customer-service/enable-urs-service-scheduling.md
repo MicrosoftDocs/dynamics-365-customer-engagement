@@ -100,7 +100,7 @@ Contoso bike repairs, a company that repairs bikes, schedules repair services fo
 
    |Legacy Service Scheduling  |New Service Scheduling  |
    |---------|---------|
-   |![service-cs](media/service-cs.png)  |  ![service-csh](media/service-csh.png)   |
+   |![service-calendar](media/service-calendar-cs.png) | ![schedule-board](media/schedule-board-csh.png)  |
    |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Navigate the service calendar (Customer Service app)](navigate-service-calendar-cs-app.md)   |   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md) </br>    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the schedule board to configure service activity](use-schedule-board-configure-service-activity.md)  |
    |   |         | 
 
