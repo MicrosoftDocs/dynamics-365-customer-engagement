@@ -70,6 +70,8 @@
       - name: "onsendkbarticle"
         href: reference/events/onsendkbarticle.md
       - name: "onsizechanged"
-        href: reference/events/onsizechanged.md             
+        href: reference/events/onsizechanged.md
+    - name: "Entity reference"
+      href: reference/entity-reference/msdyn-ciprovider.md        
   - name: "FAQ"
     href: faq-channel-integration-framework.md    
