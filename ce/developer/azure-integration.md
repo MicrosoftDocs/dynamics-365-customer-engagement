@@ -2,7 +2,7 @@
 title: "Azure integration with Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Learn about connecting Dynamics 365 (online) Customer Engagement with the Azure platform by coupling the Dynamics 365 event execution pipeline to the Azure Service Bus."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 09/19/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -31,13 +31,28 @@ You can connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-on
  This connection between [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and the [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] platform provides a secure and reliable channel for communicating [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] run-time data to external cloud-based line-of-business (LOB) applications.  
   
 <a name="bkmk_identify"></a>   
+
 ## Key elements of the connection  
+
  The key elements that implement the connection between [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] are described below. A diagram in the next section shows these elements in operation.  
   
  **Data Context**  
  The *data context* contains the business data that is being processed as part of the current [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] operation. This processing was initiated when a request to perform a certain operation was made by a user, workflow, or application,  to the Dynamics 365 platform. The data context is passed to any plug-ins or custom workflow activities that are registered with the event pipeline to execute on the specific request and entity combination that is currently being processed. The data context is of type <xref:Microsoft.Xrm.Sdk.IPluginExecutionContext> when it is being passed along the event execution pipeline and <xref:Microsoft.Xrm.Sdk.RemoteExecutionContext> when it is posted to the service bus.  
   
- The data context contained within the message that is posted to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] can be formatted in XML or JSON in addition to the default .NET binary format. This allows for cross-platform interoperability where Azure hosted non-.NET clients can read [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data from the service bus. [!INCLUDE[cc_feature_included_with_update_8_1_0_admins](../includes/cc-feature-included-with-update-8-1-0-admins.md)].  
+ The data context contained within the message that is posted to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] can be formatted in XML or JSON in addition to the default .NET binary format. This allows for cross-platform interoperability where Azure hosted non-.NET clients can read [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data from the service bus. [!INCLUDE[cc_feature_included_with_update_8_1_0_admins](../includes/cc-feature-included-with-update-8-1-0-admins.md)]. 
+
+> [!IMPORTANT]
+> When the size of the entire HTTP payload exceeds 192Kb, the following properties will be removed:
+>
+> - <xref:Microsoft.Xrm.Sdk.RemoteExecutionContext.ParentContext>
+> - <xref:Microsoft.Xrm.Sdk.RemoteExecutionContext.InputParameters>
+> - <xref:Microsoft.Xrm.Sdk.RemoteExecutionContext.PreEntityImages>
+> - <xref:Microsoft.Xrm.Sdk.RemoteExecutionContext.PostEntityImages>
+>
+> Some operations do not include these properties. 
+>
+> - If the size of the payload is below 192Kb after the additional data is removed, an additional `MessageMaxSizeExceeded` property is added to the [BrokeredMessage](/dotnet/api/microsoft.servicebus.messaging.brokeredmessage) sent by the system. This indicates that some of the data has been truncated.
+> - If the size of the payload exceeds 192Kb after the  additional data is removed, an error occurs and the message is not sent.
   
  [!INCLUDE[sdk_for_more_info_about](../includes/sdk-for-more-info-about.md)] the technologies described above see: [Understand the data context passed to a plug-in](understand-data-context-passed-plugin.md), [Event execution pipeline.](event-execution-pipeline.md), and [Write a listener application for a Microsoft Azure solution](write-listener-application-azure-solution.md).  
   
@@ -118,7 +133,9 @@ You can connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-on
  Claims authentication is used for secure access to the service bus. The claim used to authenticate to the service bus is generated in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and signed by the AppFabricIssuer certificate specified in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] configuration database.  
   
 <a name="bkmk_management"></a>   
+
 ## Manage of run-time errors  
+
  If an error occurred after a post was attempted to the service bus, check the status of the related system job in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application for more information on the error. If the service bus is down or a listener/endpoint isn’t available, the current message being processed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] will not be posted to the bus. The asynchronous service will continue to try to post the message in an exponential pattern where it will try to post frequently at first and then at longer and longer intervals. For an internal [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] error, message posts are not attempted. For an external service bus or network error, the related system job will be in a “Wait” state.  
   
 ### See also  

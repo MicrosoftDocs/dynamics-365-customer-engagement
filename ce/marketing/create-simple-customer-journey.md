@@ -124,4 +124,4 @@ To create a customer journey that executes a one-time email blast:
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
-[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
+[Working with segments](segmentation-lists-subscriptions.md)

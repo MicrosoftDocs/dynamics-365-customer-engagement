@@ -2,7 +2,7 @@
 title: "Manage licenses for Social Engagement | Microsoft Docs"
 description: "Learn how to manage user licenses for users of Social Engagement."
 keywords: "licenses, Social Engagement, Office 365, user license, assign, remove"
-ms.date: 02/01/2018
+ms.date: 09/19/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,7 +10,7 @@ applies_to:
 ms.assetid: 893c7cd6-80fe-61d1-93b6-93ecf3993291
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 topic-status: Drafting
 ms.custom: 
   - dyn365-socialengagement
@@ -67,7 +67,7 @@ Enable users to work with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-en
 When you [create an Office 365 user account](http://go.microsoft.com/fwlink/p/?LinkId=526143), you normally [assign a license](http://go.microsoft.com/fwlink/p/?LinkId=390651) to users so that they can use certain features. 
 
 When you [remove the assigned license](http://go.microsoft.com/fwlink/p/?LinkId=526144) from a user in your subscription, the license assigned to that user automatically becomes available for assignment to a different user. If you want the user to still have access to other applications that you manage through [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], for example [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] or [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)], don't delete the user. Instead, remove the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] license you've assigned to the user.  
-Removing a user's license  from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] deletes all related custom settings, alerts, and any owned or shared streams. Deleted custom settings can't be restored. Search topics owned by a removed user will remain.
+Removing a user's license  from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] deletes all related custom settings, alerts, and any owned or shared streams. Deleted custom settings can't be restored. Search topics owned by a removed user will remain. It takes up to 30 days to reflect the removal of a license in the list of users in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 1. In the [Office 365 Admin center](https://portal.office.com/), select **Users** > **Active Users**, and then select the user.
 

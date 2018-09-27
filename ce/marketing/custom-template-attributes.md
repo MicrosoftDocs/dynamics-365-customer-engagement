@@ -105,7 +105,7 @@ Any text or HTML tags that are nested within a **data-container** div-tag pair, 
 
 Each time you add a design element using the **Designer** tab, the editor inserts a pair of `<div>` tags to mark the start and end of the element, and creates whatever HTML is required to display the element as specified in its settings on the **Properties** tab.
 
-Design elements are marked with `<div>` tags that include an attribute of the form `data-editorblocktype="<element-type>`, where the value of this attribute identifies the type of element that it is. For example, the following `<div>` tag creates a text element:
+Design elements are marked with `<div>` tags that include an attribute of the form `data-editorblocktype="<element-type>"`, where the value of this attribute identifies the type of element that it is. For example, the following `<div>` tag creates a text element:
 
 ```xml
 <div data-editorblocktype="Text">
