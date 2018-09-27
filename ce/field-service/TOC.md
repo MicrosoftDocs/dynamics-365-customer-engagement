@@ -41,6 +41,7 @@
 # [Mobile apps for field technicians](field-service-mobile-app-user-guide.md)
 ## [Field Resource Hub user guide](field-resource-hub-users-guide.md)
 ## [Mixed reality integration with Remote Assist and HoloLens](remote-assist-hololens.md)
+## [FAQ: Activate licenses and extend trials](activate-fs-mobile-app-license.md)
 
 # Agreements and preventive maintenance
 ## [Customer agreements](set-up-customer-agreements.md)
