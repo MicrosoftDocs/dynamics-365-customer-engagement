@@ -53,3 +53,10 @@ Base entity for Channel Integration Framework.
 | msdyn_trustedDomain  | Trusted Domains | An additional domain if the initial landing URL and the final domain from which the widget is hosted are different. The domain (URL) that can access the Channel Integration Framework APIs.|
 | msdyn_AppSelector | Select the Unified Interface Apps for the Channel | The list of Unified Interface Apps where the channel is displayed for the agents. |
 | msdyn_RoleSelector | Select Roles for the Channel | The security roles that are present in Dynamics 365.|
+
+## Related topics
+
+- [Microsoft.CIFramework](reference/microsoft-ciframework.md)
+
+- [Client-side events](reference/client-side-events.md)
+
