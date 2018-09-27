@@ -63,7 +63,7 @@ To set up social listening for a record:
 
     ![Location of the Configure Social Engagement button](media/social-listening-empty.png "Location of the Configure Social Engagement button")
 
-1. The **Configure Social Insights dialog** opens.
+1. The **Configure Social Insights** dialog box opens.
 
     ![Configure social insights](media/social-listening-configure.png "Configure social insights")
 
