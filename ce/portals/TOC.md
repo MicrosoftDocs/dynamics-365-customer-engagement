@@ -113,6 +113,7 @@
 ## [Configure notes](configure-notes.md)
 ## [Enable Azure storage](enable-azure-storage.md) 
 ### [Add the Azure Storage web resource to a form](add-web-resource.md)
+## [Manage SharePoint documents](manage-sharepoint-documents.md)
 
 # Additional resources
 ## [Walkthrough: Get data on the portal](walkthrough-get-data-on-portal.md)

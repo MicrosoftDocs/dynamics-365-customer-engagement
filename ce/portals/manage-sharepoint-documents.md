@@ -101,13 +101,21 @@ Apart from the standard configuration required for entity form or web form, you 
 Two entity permission records are required to establish the necessary access to view and upload documents.
 
 - Permissions on the entity of the Entity or Web Form: 
-    - Create an Entity Permission record specifying the Entity Name as the entity of the Entity Form or Web Form configured previously. 
-    - Select a Scope and scope relationship that is appropriate to the desired behavior of the form. 
-    - Enable Read and Append To privileges to allow read access to documents and optionally enable Write privilege to allow document uploads. Ignore the Child Entity Permissions section for now since it will be populated by the next step.
-- Permissions on the Document Location with Parent scope referring to the previous permission record: 
-    - Create an Entity Permission record specifying the Entity Name as Document Location entity with Scope set to Parent. 
+    - Create an **Entity Permission** record specifying the **Entity Name** as the entity of the Entity Form or Web Form configured previously. 
+    - Select a **Scope** and scope relationship that is appropriate to the desired behavior of the form. 
+    - Enable **Read** and **Append To** privileges to allow read access to documents and optionally enable **Write** privilege to allow document uploads. Ignore the **Child Entity Permissions** section for now since it will be populated by the next step.
+- Permissions on the **Document Location** with **Parent scope** referring to the previous permission record: 
+    - Create an **Entity Permission** record specifying the **Entity Name** as **Document Location** entity with **Scope** set to **Parent**. 
     - Select the Parent Entity Permission to the entity permission record created in previous step. 
     - Privileges 
-        - The minimum privileges to allow read access to documents are Read, Create, and Append. 
-        - Include Write privileges for document upload access. 
-        - Include Delete to allow deletion of a document.
+        - The minimum privileges to allow read access to documents are **Read**, **Create**, and **Append**. 
+        - Include **Write** privileges for document upload access. 
+        - Include **Delete** to allow deletion of a document.
+
+> [!NOTE]
+> A corresponding child entity permission on the **Document Location** entity needs to be created for each instance of the parent entity permission record that exists on the entity of the Entity or Web Form where documents need to be shown.
+
+## Configure file upload size
+
+By default, the file size is set to 10 MB. However, you can configure the file size to a maximum of 50MB by using the site setting `SharePoint/MaxUploadSize`.
+
