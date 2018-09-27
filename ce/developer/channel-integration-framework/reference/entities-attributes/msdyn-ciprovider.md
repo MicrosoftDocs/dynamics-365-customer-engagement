@@ -56,7 +56,7 @@ Base entity for Channel Integration Framework.
 
 ## Related topics
 
-- [Microsoft.CIFramework](reference/microsoft-ciframework.md)
+- [Microsoft.CIFramework](../microsoft-ciframework.md)
 
-- [Client-side events](reference/client-side-events.md)
+- [Client-side events](../client-side-events.md)
 
