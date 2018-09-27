@@ -36,6 +36,9 @@ Social listening in [!INCLUDE[pn-marketing-business-app-module-name](../includes
 
 To use this feature, your organization must purchase the [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] product (also available separately) and integrate it with your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance. For a detailed introduction to [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-short.md)], see [Welcome to Social Engagement](../social-engagement/overview.md).
 
+<!--note from editor: The link above doesn't go to a page titled Welcome to Social Engagement. Is this the page you want? The different title might confuse readers.-->
+
+
 ## Add social listening to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
 To add social listening to your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app, your system administrator or system customizer must do the following:
