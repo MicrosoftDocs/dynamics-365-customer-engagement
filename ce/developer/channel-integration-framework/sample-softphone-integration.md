@@ -42,28 +42,28 @@ Go to the [Dynamics 365 Insider Portal](https://go.microsoft.com/fwlink/p/?linki
 
 ## Publish sample app to Azure
 
-1. Open the solution **TwilioSampleInteg.sln** using Visual Studio 2017.
+1. Open the solution **SampleInteg.sln** using Visual Studio 2017.
 2. In **Solution Explorer**, right-click on the solution and build the complete solution.
-3. In **Solution Explorer**, right-click on the project **TwilioSampleInteg**  and select **Publish**
+3. In **Solution Explorer**, right-click on the project **SampleInteg**  and select **Publish**
 4. Select **Start** to launch the **Publish** wizard.
 5. Choose **App Service** as the publish target.
 6. Select **Create New** and select on **Publish**.
-7. Provide an app name.<br> For example, **TwilioSampleInteg**.
+7. Provide an app name.<br> For example, **SampleInteg**.
 8. Provide valid subscription, resource group, and hosting plan details.
-9. Select *Create* to create the azure app service, and save the app service URL for future use.<br>For example, `https://twiliosampleinteg.azurewebsites.net`.
+9. Select *Create* to create the azure app service, and save the app service URL for future use.<br>For example, `https://sampleinteg.azurewebsites.net`.
 
-## Create Twilio function to use with the app service
+## Create function to use with the app service
 
-1. Create sample code for the **client-voice** Twilio function.<br> Refer to function from the readme file packaged with the sample softphone integration in the [Dynamics 365 Insider Portal](https://go.microsoft.com/fwlink/p/?linkid=2025867).
+1. Create sample code for the **client-voice** function.<br> Refer to function from the readme file packaged with the sample softphone integration in the [Dynamics 365 Insider Portal](https://go.microsoft.com/fwlink/p/?linkid=2025867).
 
-2. Use the sample code for the **capability-token** Twilio function.<br> Refer to function from the readme file packaged with the sample softphone integration in the [Dynamics 365 Insider Portal](https://go.microsoft.com/fwlink/p/?linkid=2025867).
+2. Use the sample code for the **capability-token** function.<br> Refer to function from the readme file packaged with the sample softphone integration in the [Dynamics 365 Insider Portal](https://go.microsoft.com/fwlink/p/?linkid=2025867).
 
 > [!Note] 
-> Save the URL for the Twilio **capability-token** function you obtain from the above sample code. For example, URL is `https://twilio-sample.twilio/capability-token`.
+> Save the URL for the **capability-token** function you obtain from the above sample code. For example, URL is `https://sampleinteg.sample/capability-token`.
 
 ## Configure sample app in Dynamics 365
 
-1. Note the base URL of the CRM org from where all webresources are served. For an online org, this should be of the form "https://<orgname>.crmXX.dynamics.com". In this sample, we will use "https://twiliosampleorg.crm10.dynamics.com"
+1. Note the base URL of the CRM org from where all webresources are served. For an online org, this should be of the form `https://<orgname>.crmXX.dynamics.com`. For example, `https://sampleorg.crm10.dynamics.com`
 
 1. Get the **Dynamics 365 Channel Integration Framework** solution. For more information, see [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md).
 
@@ -73,7 +73,7 @@ Go to the [Dynamics 365 Insider Portal](https://go.microsoft.com/fwlink/p/?linki
   |-------|-------|
   |Name|Name of the channel provider.<br><br> Example: Contoso|
   |Label|The label is displayed as the title on the widget.<br><br> Example: Contoso|
-  |Channel URL| The channel URL is in the format: `<azure_app_service_url>?base=<crm_base_url>&twa=<twilio_capability_token_url>`<br><br>**Note:** In this sample, the URL is `https://twiliosampleinteg.azurewebsites.net?base=https://twiliosampleorg.crm10.dynamics.com&twa=https://twilio-sample.twil.io/capability-token`. |
+  |Channel URL| The channel URL is in the format: `<azure_app_service_url>?base=<crm_base_url>&twa=<capability_token_url>`<br><br>**Note:** In this sample, the URL is `https://sampleinteg.azurewebsites.net?base=https://sampleorg.crm10.dynamics.com&twa=https://sampleinteg.sample/capability-token`. |
   |Enable Outbound Communication| Yes |
   |Channel Order| 0 |
   |API Version| 1.0 |
