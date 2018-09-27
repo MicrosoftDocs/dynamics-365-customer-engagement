@@ -1,5 +1,5 @@
 ---
-title: "Experiment with sample data (Dynamics 365 for Project Service) | MicrosoftDocs"
+title: "Experiment with sample data (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: "dyn365-fieldservice"
 ms.date: 09/28/2018
 ms.reviewer: ""
