@@ -40,7 +40,6 @@
 #### [Set up double opt-in](double-opt-in.md)
 #### [How the app uses cookies](cookies.md)
 
-
 ### [Best practices for email marketing](get-ready-email-marketing.md)
 ### [Administration and setup FAQ](setup-troubleshooting.md)
 
@@ -134,9 +133,10 @@
 #### [Engage customers online with portals](portals.md)
 #### [Create and run online surveys](surveys.md)
 
+### [Work with marketing calendars](marketing-calendar.md)
 ### [Go live with publishable entities and track their status](go-live.md)
-### [Analyze results to gain insights](insights.md)
 ### [Set up social listening](social-listening.md)
+### [Analyze results to gain insights](insights.md)
 
 ## [Developer Guide](developer/marketing-developer-guide.md)
 ### [Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)
