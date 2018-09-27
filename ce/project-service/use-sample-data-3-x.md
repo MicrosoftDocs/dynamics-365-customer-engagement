@@ -123,11 +123,11 @@ To create or configure users, go to **Settings > Security > Users**, and do the 
 
 3. On the next window:
 
-a. Select deployment type **Office 365**.
+    a. Select deployment type **Office 365**.
 
-b. Use the user and password of the system administrator user configured in "Create or configure users" ("Spencer Low" with "spencerl" username).
+    b. Use the user and password of the system administrator user configured in "Create or configure users" ("Spencer Low" with "spencerl" username).
 
-c. Make sure **Display list of available organizations** is selected.
+    c. Make sure **Display list of available organizations** is selected.
 
 > [!div class="mx-imgBorder"]
 > ![alt text](media/sample-data-2.png)
