@@ -44,6 +44,9 @@ To add a video to your library in [!INCLUDE[pn-marketing-business-app-module-nam
 
 1. The **Video** form opens. Make the following settings:
 
+
+
+
     - **Name**: Assign a name to the video that will make it easy for you and other users to recognize.
     - **Owner**: This is the user who owns this video record, which can sometimes affect who can view and/or edit it. It defaults to the user who creates the record.
     - **Video URL**: Specify the URL that will open the video in a browser. This link will be used to link to the video from its thumbnail image when you use it in an email message.
