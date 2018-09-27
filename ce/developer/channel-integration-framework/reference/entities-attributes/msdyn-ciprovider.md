@@ -40,6 +40,8 @@ Base entity for Channel Integration Framework.
 |PrimaryNameAttribute|msdyn_name|
 |SchemaName|msdyn_msdyn_ciprovider|
 
+## Attributes
+
 | Attributes | Display Name | Description |
 |------------|----------------------|-------------|
 | msdyn_name | Name | Name of the channel provider |

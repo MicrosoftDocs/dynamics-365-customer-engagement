@@ -71,7 +71,9 @@
         href: reference/events/onsendkbarticle.md
       - name: "onsizechanged"
         href: reference/events/onsizechanged.md
-    - name: "Entity reference"
-      href: reference/entity-reference/msdyn-ciprovider.md        
+    - name: Entity reference
+      items:
+      - name: "msdyn_ciprovider"
+        href: reference/entities-attributes/msdyn-ciprovider.md        
   - name: "FAQ"
     href: faq-channel-integration-framework.md    
