@@ -38,16 +38,13 @@ search.app:
 - [Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities.md)
 - [Keyboard shortcuts in Dynamics 365 Customer Engagement applications](../basics/keyboard-shortcuts.md)
 
-
 ## Accessibility and keyboard shortcuts for content designers
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provides advanced digital-content designers for creating, styling, and previewing the various types of digital content that you can produce and manage with the system. This section lists keyboard shortcuts and accessibility features are available for working with the designers for marketing email messages, marketing pages, and marketing forms.
 
 ![The designer toolbar and content area](media/designer-tools-ill.png "The designer toolbar and content area")
 
-
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
-
 
 > [!IMPORTANT]
 > For keyboard shortcuts that include a number, you usually need to use the standard number keys, not the number pad.
@@ -73,9 +70,9 @@ search.app:
 - **Alt+Ctrl+3**: Open the tablet landscape preview.
 - **Alt+Ctrl+4**: Open the mobile portrait preview.
 - **Alt+Ctrl+5**: Open the mobile landscape preview.
-- **Alt+1**: Open the design editor.
-- **Alt+2**: Open the HTML editor.
-- **Alt+3**: Open the preview tab.
+- **Alt+1**: Open the **Designer** editor tab.
+- **Alt+2**: Open the **HTML** editor tab.
+- **Alt+3**: Open the **Preview** tab.
 - **Alt+11**: Toggle the full screen view of the design editor.
 
 ### Manipulate design elements
@@ -83,6 +80,8 @@ search.app:
 - **Alt+M**: Move the selected element.
 - **Alt+Shift+C**: Clone the selected element.
 - **Alt+Shift+D**: Delete the selected element.
+- **Alt+4**: Open the **Toolbox** panel.
+- **Alt+5**: Open the **Properties** panel.
 - **Alt+X**: Go back to the active element (for example, from the **Properties** panel).
 
 ### Working with text element content
