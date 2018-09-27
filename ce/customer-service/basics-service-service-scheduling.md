@@ -64,11 +64,11 @@ See [Understand Service Scheduling entities](#understand-service-scheduling-enti
   
 - **Resource:** Users, facilities or equipment, or teams that can be scheduled and have work schedules.  
   
-- **Resource groups:** Groups of resources that can be scheduled interchangeably.  
+- **Resource category:** Groups of resources that can be scheduled interchangeably.  
  
 - **Work hours:** The hours that a resource is available for scheduling.  
   
-- **Site:** The location of a resource. Use sites to make sure that the customer and the resource are in the same location.  
+- **Organizational unit:** The location of a resource. Use sites to make sure that the customer and the resource are in the same location.  
   
 - **Service activity:** A schedulable appointment to provide a service to a customer. A service activity uses one or more resources to perform a service at a specific time and place. An appointment is a schedulable activity that does not use services and does not require a resource with work hours.  
   

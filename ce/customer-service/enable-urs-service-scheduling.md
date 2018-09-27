@@ -1,6 +1,6 @@
 ---
-title: Enable the new service scheduling based on Universal Resource Scheduling | MicrosoftDocs
-description: Understand how to enable the new service scheduling based on Universal Resource Scheduling (URS) in Dynamics 365 for Customer Service
+title: Get the new service scheduling based on Universal Resource Scheduling | MicrosoftDocs
+description: Understand how to get the new service scheduling based on Universal Resource Scheduling (URS) in Dynamics 365 for Customer Service
 keywords: Service scheduling; Dynamics 365; Customer Service; Universal Resource Scheduling (URS)
 author: anjgupta
 applies_to: 
@@ -37,39 +37,80 @@ If you have been using the legacy Service Scheduling feature from Service Manage
 
 ## About the new Service Scheduling experience
 
-Here is what's updated in the new Service Scheduling experience:
-
+The new experience lists the scheduling entities in the following manner, as compared to the legacy experience:
 
 |Legacy Service Scheduling  |New Service Scheduling  |
 |---------|---------|
 |**Settings > Service Scheduling** </br> - Business Closure </br> - Services  </br> - Facilities/Equipment </br> - Resource Groups </br> - Sites  |   **Customer Service Hub sitemap >   Service Scheduling**  </br>  Scheduling </br> - Resources </br> - Facilities/Equipments </br> - Resource Categories   </br> - Service </br> - Service Activity </br> Tools </br> - Schedule Board </br> Settings </br> - Organizational Units </br> - Business Closures  |
 |     |         |
 
-Understand the difference between the legacy and the new Service Scheduling experience with the help of the following scenario:
+The difference between the legacy and the new experience can be explained with the help of the following scenario:
 
-Contoso bike repairs, a company that repairs bikes, schedules repair services for their customers. To facilitate this process, they compile the following information:
+Contoso bike repairs, a company that repairs bikes, schedules repair services for their customers. To facilitate this process, they compile the following inputs:
 
-- Create resources and resource groups
+- **Define resources**</br>
+  Contoso defines the resources in the system. For example, two resources (contacts) Bert Hair and Gilda Moss are created. Similarly, two more resources (facility/equipment) Bike repair workbench - 1 and Bike repair workbench - 2, which will be required to perform the service.
+
+  |Legacy Service Scheduling  |New Service Scheduling  |
+  |---------|---------|
+  |![resources-cs](media/resources-cs.png)   |   ![resouces-csh](media/resources-csh.png)      |
+  |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a resource group (Customer Service app)](create-edit-resource-group.md)     | [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and set up bookable resources](resources-service-scheduling.md)  </br> |
+  |   |         |
+
+
+ - **Define work hours for the resource, resource group or facility/equipment** </br>
+   The availability of the resources is defined in the work hours section. 
+
+   |Service Scheduling  |
+   |---------|---------|
+   |   ![set-work-hours](media/set-work-hours-csh.png)     |
+   | [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set work hours to define availability](set-work-hours-resource.md)|
+   |   |         |
   
-  Contoso defines the **Resources** and groups them into **Resource Categories** (known as **Resource Groups** in legacy experience)
+ - **Define resource groups** </br>
+   The resources are aligned to the resource groups. For example, Bert Hair and Gilda Moss are grouped as Technicians and Bike repair workbench - 1 and Bike repair workbench - 2 are grouped as Workbenches.
 
-  ##### Legacy Service Scheduling
-  ![resource and resource group](media/r-rg.png)
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a resource group (Customer Service app)](create-edit-resource-group.md)
- 
-  ##### New Service Scheduling
-  ![new-service-scheduling](media/new-res-res-cat-ss.PNG)
+   |Legacy Service Scheduling  |New Service Scheduling  |
+   |---------|---------|
+   |![resource-groups](media/res-group-cs.png)  |   ![resource group](media/res-groups-csh.png)     |
+   |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a resource group (Customer Service app)](create-edit-resource-group.md)     |  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md)|
+   |   |         |
 
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md) </br>  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and set up bookable resources](resources-service-scheduling.md)
+ - **Define sites or organizational units**  </br>
+   Sites are the locations where Contoso will provide service to their customers. In this example, Contoso bike repair is the site for service.
+
+   |Legacy Service Scheduling  |New Service Scheduling  |
+   |---------|---------|
+   |![sites](media/sites-cs.png)  |  ![organizational units](media/org-unit-csh.png)   |
+   |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use sites to manage your service locations (Customer Service app)](use-sites-manage-service-locations.md)     |  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage organizational units](create-org-units-cs-scheduling.md) |
+   |   |         |  
 
 
-## Install and enable the new Service Scheduling experience
+- **Create a service record**  </br>
+   Contoso now collates all the above inputs to create a bike repair service record for the customer. They also specify the resources/resource groups they will need for the service.
+
+   |Legacy Service Scheduling  |New Service Scheduling  |
+   |---------|---------|
+   |![service-cs](media/service-cs.png)  |  ![service-csh](media/service-csh.png)   |
+   |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a service (Customer Service app)](create-edit-service-cs-app.md)    |  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a service in Service Scheduling](create-edit-service-csh.md) |
+   |   |         | 
+
+- **Book the service in the service calendar or schedule board**  </br>
+  Contoso can now book the service for their customers in the service calendar or schedule board and mark it as either Open, Scheduled, or Completed as per its status.
+
+   |Legacy Service Scheduling  |New Service Scheduling  |
+   |---------|---------|
+   |![service-cs](media/service-cs.png)  |  ![service-csh](media/service-csh.png)   |
+   |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Navigate the service calendar (Customer Service app)](navigate-service-calendar-cs-app.md)   |   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md) </br>    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the schedule board to configure service activity](use-schedule-board-configure-service-activity.md)  |
+   |   |         | 
+
+## Get the new Service Scheduling experience
 
 Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.
 
 ### Install or upgrade Universal Resource Scheduling (URS)
 
-To enable or migrate to the new Service Scheduling experience, you should have the latest version of URS installed on your system.
+To enable or migrate to the new experience, you should have the latest version of URS installed on your system.
 
 - Check the URS version. Go to **Settings** and select **About** to see the current version of URS on your machine.
 - Upgrade to the latest version of URS from <<here>>. Consider the following point before you upgrade to the latest version.
@@ -79,12 +120,7 @@ To enable or migrate to the new Service Scheduling experience, you should have t
     > [!NOTE]
     > The latest version of URS might not be compatible with the old versions of Field Service or Project Service.
 
-
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
-
-
-### Install the Service Scheduling package
-
+### Get the Service Scheduling package
 
 ### Enable Service Scheduling in the Customer Service Hub sitemap
 
