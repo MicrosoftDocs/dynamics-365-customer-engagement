@@ -29,19 +29,19 @@ search.app:
 
 # Account-based marketing
 
-Account-based marketing is an approach where you organize your marketing initiatives around account records instead of, or in addition to, contacts. That means, for example, that your leads reference accounts, and are scored based on interactions made by any or all the contacts that belong to those accounts.
+Account-based marketing is an approach where you organize your marketing initiatives around account records instead of, or in addition to, contacts. That means, for example, that your leads reference accounts, and are scored based on interactions made by any or all of the contacts that belong to those accounts.
 
 Account-based marketing will make it easier for marketers who work in organizations that focus on business-to-business sales to support their salespeople's strategies and sales processes. Feature include:
 
-- **Account-based journeys** , which can generate account leads, trigger decisions at the account level, assign activities related to accounts, provide account-based insights, and more.
-- **Account-based personalization of email content** , which enables you to design content that displays information from, and reacts to, the account record associated with each recipient.
+- **Account-based journeys**, which can generate account leads, trigger decisions at the account level, assign activities related to accounts, provide account-based insights, and more.
+- **Account-based personalization of email content**, which enables you to design content that displays information from, and reacts to, the account record associated with each recipient.
 - **Account insights** for each account record to provide results and KPIs that reflect interactions made by all contacts that belong to that account.
-- **Account-based leads and lead scoring** , which enable you to generate leads related to accounts and score each of them to reflect activities of all the contacts that belong to an account.
+- **Account-based leads and lead scoring**, which enable you to generate leads related to accounts and score each of them to reflect activities of all the contacts that belong to an account.
 
 With account-based marketing, business-to-business (B2B) marketers can use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to target each business account as a single unit, so you can focus on those accounts that are most likely to generate the largest revenue and close more deals. Use account-based marketing to:
 
 - **Discover**: Identify key stakeholders and create segments of high-value accounts.
-- **Orchestrate**: Engage accounts through Account-Based customer journeys.
+- **Orchestrate**: Engage accounts through account-based customer journeys.
 - **Personalize**: Tailor email content for specific accounts.
 - **Nurture**: Generate and nurture account-based leads via account-based lead scoring models.
 - **Report**: Analyze account engagement and optimize your programs.
@@ -52,7 +52,7 @@ As with all types of segments, the segments that you create for use with account
 
 ### Create a dynamic segment starting with accounts
 
-When you're dynamic creating segments for account-based marketing, you'll probably often want to start by finding the relevant accounts and then find the attached contacts. Here's how to set up a segment like this:
+When you're creating dynamics segments for account-based marketing, you'll probably often want to start by finding the relevant accounts and then finding the attached contacts. Here's how to set up a segment like this:
 
 1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar.
 
@@ -64,7 +64,8 @@ When you're dynamic creating segments for account-based marketing, you'll probab
 
 1. The default group closes, leaving behind a **Select a profile or relationship** drop-down list. Select **Account** from here.
 
-1. Finish setting up the selection criteria to find the accounts you are looking for. For example, to find all accounts in Chicago with an annual revenue over $100,000 you would set up the following two clauses:
+1. Finish setting up the selection criteria to find the accounts you are looking for. For example, to find all accounts in Chicago with an annual revenue over $100,000, you would set up the following two clauses:
+
     **Account | Address 1: City | is | Chicago**  
     **And | Account | Annual Revenue | ≥ | 100000**
 
@@ -86,7 +87,7 @@ When you're dynamic creating segments for account-based marketing, you'll probab
 
 ### Create a static segment using an account filter
 
-When you set up a static segment, you'll mark a checkbox for each specific contact you want to include in the segment. The segment won't change after that unless you edit it manually. If your database includes many contacts, then you'll probably find it useful to use the filter control to find the contacts you are looking for.
+When you set up a static segment, you'll mark a check box for each specific contact you want to include in the segment. The segment won't change after that unless you edit it manually. If your database includes many contacts, then you'll probably find it useful to use the filter control to find the contacts you are looking for.
 
 1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar.
 
@@ -95,6 +96,8 @@ When you set up a static segment, you'll mark a checkbox for each specific conta
 1. Open the **Definition** tab, where you'll find a list of contacts and filter controls that can help you find the contacts you want to include. Select the filter button to expose the filter controls.
 
     ![A static segment with filter](media/abm-segment-static.png "A static segment with filter")
+
+<!--note from editor: In the following paragraph, is "Filter drop-down lists" correct as plural (lists)?-->
 
 1. Use the filter to find the contacts that you want to include in the segment. One query that might be useful when setting up segments for account-based marketing is one that filters the list by account ID. To do that, use the **Filter** drop-down lists to set up a query clause of the following form:
 
@@ -146,7 +149,7 @@ The following subsections summarize how various tiles behave for account-based j
 For account-based journeys, trigger tiles can work based on contacts or on accounts.
 
 - Account-based trigger tiles treat accounts as a single unit, so they will always send all contacts from the same account down the same path (true or false).
-- Contact-based trigger tiles process contacts one-at-a-time, so contacts from the same account are permitted to flow down different paths.
+- Contact-based trigger tiles process contacts one at a time, so contacts from the same account are permitted to flow down different paths.
 
 Use the **Based on** property to set this option for each tile. This option is not available to triggers in contact-based journeys.
 
@@ -175,14 +178,15 @@ Use the **Launch for each** setting to choose this option for each launch-workfl
 
 When you are creating an account-based journey, you can control how each create-lead tile should react to each contact that enters it:
 
-- **Create for each contact**: The tile generates a contact-based lead and associates with each contact.
+- **Create for each contact**: The tile generates a contact-based lead and associates it with each contact.
 - **Launch for each account**: The tile generates an account-based lead and associates it with the account associated with the contact that entered the tile. If additional contacts from a previously processed account flow through the tile, the tile will ignore them.
 
 Use the **Create for each** setting to choose this option for each create-lead tile. The account option is only available when you are working with an account-based journey.
 
 ![Create account-based leads](media/abm-journeys-leads.png "Create account-based leads")
 
-**Note**: The create-lead tile doesn't try to match any existing leads. It always creates new leads, regardless of whether you are creating account or contact leads.
+> ![NOTE]
+> The create-lead tile doesn't try to match any existing leads. It always creates new leads, regardless of whether you are creating account or contact leads.
 
 ### Account-based journey insights
 
@@ -195,12 +199,12 @@ When you are viewing insights on the Designer tab for an account-based journey, 
 Leads can be associated with accounts or contacts. If a lead is associated with both a contact and a lead, then that lead is treated as a contact lead when it comes to lead scoring (the account is ignored). Leads associated with neither a contact nor an account can't be scored by a lead-scoring model in Marketing. The following rules apply for lead-scoring models:
 
 - You can set each lead-scoring model to apply to either contact-based leads or to account-based leads.
-- Interactions made by all contacts related to an account contribute to the score of an account-based lead. So, for example, each contact from an account that opens an email message could increase score of the lead associated with that account.
+- Interactions made by all contacts related to an account contribute to the score of an account-based lead. So, for example, each contact from an account that opens an email message could increase the score of the lead associated with that account.
 - You can set demographic or firmographic scoring conditions that score on the lead record itself (by setting Entity = Lead), or on the related account (Entity = Lead.Parent account), or on the related contact (Entity = Lead.Parent contact).
 
 To set a scoring model to be lead-based or account-based, use the **Entity target** setting on the **Summary** tab for the model.
 
-![Set a scoring model to target accounts](media/abm-scoring-target.png "ASet a scoring model to target accounts")
+![Set a scoring model to target accounts](media/abm-scoring-target.png "Set a scoring model to target accounts")
 
 One way to score a lead based on the account associated with it is to set up a condition tile with the following properties:
 
