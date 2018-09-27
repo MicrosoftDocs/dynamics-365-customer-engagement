@@ -87,6 +87,8 @@ function initCTI() {
 
 ## See also
 
+[Entity reference](reference/entities-attributes/msdyn-ciprovider.md)
+
 [setClickToAct](reference/microsoft-ciframework/setClickToAct.md)
 
 [getClickToAct](reference/microsoft-ciframework/getClickToAct.md)

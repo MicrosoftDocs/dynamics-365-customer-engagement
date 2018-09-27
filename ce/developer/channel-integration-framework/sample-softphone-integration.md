@@ -23,7 +23,7 @@ manager: shujoshi
 > [!Important]
 > [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-[Download](https://go.microsoft.com/fwlink/?linkid=2025867) the sample integration of a softphone with Dynamics 365 using Channel Integration Framework.
+Go to the [Dynamics 365 Insider Portal](https://go.microsoft.com/fwlink/p/?linkid=2025867) to download the sample to integrate a softphone with Dynamics 365 using Channel Integration Framework.
 
 > [!NOTE]
 > The sample code does not support Internet Explorer and on browsers that do not have webRTC support. More information [WebRTC](https://webrtc.org/)
@@ -54,91 +54,12 @@ manager: shujoshi
 
 ## Create Twilio function to use with the app service
 
-> [!NOTE]
-> See [Twilio documentation](https://www.twilio.com/docs/voice/client/javascript/quickstart) to create a sample quickstart application.
+1. Create sample code for the **client-voice** Twilio function.<br> Refer to function from the readme file packaged with the sample softphone integration in the [Dynamics 365 Insider Portal](https://go.microsoft.com/fwlink/p/?linkid=2025867).
 
-1. Create sample code for the **client-voice** Twilio function.<br>
-```JavaScript
-exports.handler = function(context, event, callback) {
-    let twiml = new Twilio.twiml.VoiceResponse();
+2. Use the sample code for the **capability-token** Twilio function.<br> Refer to function from the readme file packaged with the sample softphone integration in the [Dynamics 365 Insider Portal](https://go.microsoft.com/fwlink/p/?linkid=2025867).
 
-    if(event.To) {
-      // Wrap the phone number or client name in the appropriate TwiML verb
-      // if is a valid phone number
-      const attr = isAValidPhoneNumber(event.To) ? 'number' : 'client';
-      if(event.To == '<TwilioPhoneNumber>')	//Put the Twilio phone number to be used for this sample here
-      {
-        const dial = twiml.dial({
-            callerId: event.From,
-        });
-        dial['client']({}, 'TwilioSampleIntegDemo');    //Choose a suitable client name here
-      }
-      else {
-        const dial = twiml.dial({
-            callerId: context.CALLER_ID,
-        });
-        dial[attr]({}, event.To);
-      }
-    } else {
-      twiml.say('No dialing To no. found!');
-    }
-
-     callback(null, twiml);
-};
-
-/**
-* Checks if the given value is valid as phone number
-* @param {Number|String} number
-* @return {Boolean}
-*/
-function isAValidPhoneNumber(number) {
-  return /^[\d\+\-\(\) ]+$/.test(number);
-}
-```
-
-2. Use the sample code  for the **capability-token** Twilio function.<br>
-```JavaScript
-exports.handler = function(context, event, callback) {
-  
-  let response = new Twilio.Response();
-
-  // Add CORS Headers
-  let headers = {
-    "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Methods": "GET",
-    "Content-Type": "application/json"
-  };
-    
-  // Set headers in response
-  response.setHeaders(headers);
-  
-  response.setStatusCode(200);
-  
-  let ClientCapability = require('twilio').jwt.ClientCapability;
-
-  const identity = 'TwilioSampleIntegDemo'
-  const capability = new ClientCapability({
-    accountSid: context.ACCOUNT_SID,
-    authToken: context.AUTH_TOKEN,
-  });
-
-  capability.addScope(new ClientCapability.IncomingClientScope(identity));
-  capability.addScope(new ClientCapability.OutgoingClientScope({
-    applicationSid: context.TWIML_APP_SID,
-    clientName: identity,
-  }));
-
-  // Include identity and token in a JSON response
-  response.setBody({
-    'identity': identity,
-    'token': capability.toJwt()
-  });
-  
-  callback(null, response);
-};
-```
 > [!Note] 
-> Save the URL for the Twilio **capability-token** function you obtain from the above sample code. For example, URL is `https://twilio-sample.twil.io/capability-token`.
+> Save the URL for the Twilio **capability-token** function you obtain from the above sample code. For example, URL is `https://twilio-sample.twilio/capability-token`.
 
 ## Configure sample app in Dynamics 365
 
@@ -181,3 +102,5 @@ exports.handler = function(context, event, callback) {
 - [Microsoft.CIFramework](reference/microsoft-ciframework.md)
 
 - [Client-side events](reference/client-side-events.md)
+
+- [Entity reference](reference/entities-attributes/msdyn-ciprovider.md)

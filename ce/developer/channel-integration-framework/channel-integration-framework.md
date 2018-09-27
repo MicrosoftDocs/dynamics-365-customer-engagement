@@ -60,7 +60,7 @@ manager: shujoshi
 <li><a href="reference/microsoft-ciframework.md" data-raw-source="[Microsoft.CIFramework
  methods](reference/microsoft-ciframework.md)">Microsoft.CIFramework</a></li>
 <li><a href="reference/client-side-events.md" data-raw-source="[Client-side events](reference/client-side-events.md)">Client-side events</a>
-<li><a href="reference/entities-attributes/msdyn-ciprovider.md" data-raw-source="[Client-side events](reference/entities-attributes/msdyn-ciprovider.md)">Client-side events</a>
+<li><a href="reference/entities-attributes/msdyn-ciprovider.md" data-raw-source="[Entity reference](reference/entities-attributes/msdyn-ciprovider.md)">Entity reference</a>
 
 </td>
 </tr>
