@@ -2,7 +2,7 @@
 title: "Set up event administration options and webinar provider accounts (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Set options for event administration and configure connections to your webinar provider accounts in Dynamics 365 for Marketing"
 keywords: "administration; webinar; webinar provider"
-ms.date: 08/02/2018
+ms.date: 10/01/2018
 ms.service: 
   - "dynamics-365-marketing"
 ms.custom: 
@@ -103,7 +103,6 @@ To set your event-administration options:
     - **Email template for purchaser**: Choose the (hard-coded) email template to send to the purchaser when **Send mail to purchaser** is enabled.
     - **Send mail to event attendee**: Set to **Yes** if you'd like the system to send an automatic email to each new contact that is registered for an event. This includes both self-registering contacts (if allowed) and contacts registered by another purchaser.
     - **Event template for event attendee**: Choose the (hard-coded) email template to send to each registrant when **Send mail to event attendee** is enabled.
-    - **Portal payment gateway**: Choose the default portal gateway to assign to new events. This payment gateway must already be available as a page on your portal. You can change this default for each individual event as needed.
     > [!NOTE]
     > The email templates that you can choose with these settings are hard coded, so you can't customize or translate their content. If you require custom messaging, then set up a [customer journey](customer-journeys-create-automated-campaigns.md) with event, trigger, and email tiles.
 
