@@ -44,7 +44,7 @@ To configure channel providers:
   |Enable Outbound Communication|Clicking on a phone number in the Dynamics 365 Unified Interface page, the widget initiates the call or outbound communication.|
   |Channel Order|The order precedence of the channel providers. That is, the priority to display the channel for the agents and unified Interface Apps.|
   |API Version|The version of the Channel Integration Framework APIs.|
-  |Trusted Domains| An additional domain if the initial landing URL and the final domain from which the widget is hosted are different. The domain (URL) that can access the Channel Integration Framework APIs. |
+  |Trusted Domains| An additional domain if the initial landing URL and the final domain from which the communication widget is hosted are different. Add the domain (URL) to access the Channel Integration Framework APIs. |
   |Select the Unified Interface Apps for the Channel| The list of Unified Interface Apps where the channel is displayed for the agents. |
   |Select Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface App.|
   
