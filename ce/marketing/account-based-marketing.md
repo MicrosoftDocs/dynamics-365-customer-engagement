@@ -185,7 +185,7 @@ Use the **Create for each** setting to choose this option for each create-lead t
 
 ![Create account-based leads](media/abm-journeys-leads.png "Create account-based leads")
 
-> ![NOTE]
+> [!NOTE]
 > The create-lead tile doesn't try to match any existing leads. It always creates new leads, regardless of whether you are creating account or contact leads.
 
 ### Account-based journey insights
