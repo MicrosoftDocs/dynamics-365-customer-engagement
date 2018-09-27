@@ -32,7 +32,7 @@ With the October'18 release, the new Service Scheduling will be available in the
 
 
 > [!IMPORTANT]
-> If you are a new customer who is using the Service Scheduling feature for the first time, see [Install and enable the new Service Scheduling experience](#install-and-enable-the-new-service-scheduling-experience) to know how you can get the new experience </br> </br> 
+> If you are a new customer who is using the Service Scheduling feature for the first time, see [Avail the new Service Scheduling experience](#avail-the-new-service-scheduling-experience) to know how you can get the new experience </br> </br> 
 If you have been using the legacy Service Scheduling feature from Service Management, see [Configure the new Service Scheduling experience](#configure-the-new-service-scheduling-experience) to know how you can upgrade and configure the new experience.
 
 ## About the new Service Scheduling experience
@@ -104,7 +104,7 @@ Contoso bike repairs, a company that repairs bikes, schedules repair services fo
    |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Navigate the service calendar (Customer Service app)](navigate-service-calendar-cs-app.md)   |   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md) </br>    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the schedule board to configure service activity](use-schedule-board-configure-service-activity.md)  |
    |   |         | 
 
-## Get the new Service Scheduling experience
+## Avail the new Service Scheduling experience
 
 Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.
 
