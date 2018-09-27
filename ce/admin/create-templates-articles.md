@@ -69,5 +69,3 @@ Article templates help you create new articles for your organization's knowledge
   
 ### See also  
  [eBook: Use KB articles to help your customers](http://go.microsoft.com/fwlink/p/?LinkId=394983)
-
-[Service Manager Guide (Customer Service Hub and Customer Service app)](../customer-service/service-manager-guide.md)

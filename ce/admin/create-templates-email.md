@@ -26,7 +26,7 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]</br>
 [!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
-Save time when creating multiple email messages by making email templates. Email templates contain prefilled data that you specify, so you don’t have to reenter the same information for each article.  
+Save time when creating multiple email messages by making email templates. Email templates contain prefilled data that you specify, so you don’t have to re-enter the same information for each article.  
   
 An email template is attached to an email activity after the activity is created. Typically, each type of email activity has its own email template type; for example, an email activity created from a case record would use a case email template. You can also create global templates that are available for any record type, or personal templates available only to you, or organizational templates available to anyone in your organization.  
   
@@ -39,17 +39,17 @@ An email template is attached to an email activity after the activity is created
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
 2. [!INCLUDE[proc_settings_templates](../includes/proc-settings-templates.md)]  
-  
+ 
 3. Select **Email Templates**.  
   
-4. On the Actions toolbar, select or select **New**.  
+4. On the Actions toolbar, select **New**.  
   
-5. In the **Email Template Type** dialog box, in the **Template Type** list, select the type, and then select or select **OK**.  
+5. In the **Email Template Type** dialog box, in the **Template Type** list, select the type, and then select **OK**.  
   
    > [!IMPORTANT]
    >  If you select a specific record type, such as lead or opportunity, the template is available only for that record type. This cannot be changed. To use the same content for another record type, create a new template.  
   
-6. On the **Email Templates** form, enter a **Title** and **Subject**.  
+6. On the **Email Templates** form, enter a **Title** and a **Subject**.  
   
 7. You can type a description of the template. This is not displayed to the recipient.  
   
@@ -71,25 +71,23 @@ An email template is attached to an email activity after the activity is created
    > - There is no spell check built into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. There might be third-party solutions available. For more information, visit [Microsoft Dynamics Solution Finder](https://www.microsoft.com/dynamics365/partners).  
    > - The Formatting toolbar has limited fonts and font sizes. However, you can copy and paste content from [!INCLUDE[pn_MS_Word_Full](../includes/pn-ms-word-full.md)]. This allows you to take advantage of features such as spell checking and some advanced text formatting. To single-space a line of text, at the end of the line press **Shift+Enter**.  
   
-9. To insert data fields to display information such as a customer's name or data from a quote, from a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] record, select or select **Insert/Update**, and then in the **Data Field Values** dialog box, select or select **Add**.  
+9. To insert data fields to display information such as a customer's name or data from a quote, from a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] record, select **Insert/Update**, and then in the **Data Field Values** dialog box, select **Add**.  
   
-10. In the **Add Data Value** dialog box, select the **Record type** and **Field**, and then select or select **OK**.  
+10. In the **Add Data Value** dialog box, select the **Record type** and **Field**, and then select **OK**.  
   
-11. Select or select **OK** again to insert the data.  
+11. Select **OK** again to insert the data.  
   
 12. To enter customers' first and last names, you'll need to repeat these three data-insertion steps; first and last names are separate data values.  
   
     > [!TIP]
     >  Use the **Default Text** box to define what text is displayed if the record does not have data for the field.  
   
-13. Select or select **Save** or **Save and Close**.  
+13. Select **Save** or **Save and Close**.  
   
 > [!NOTE]
-> - To change a shared template to a personal one or a personal template to a shared one, on the template form, on the **Actions**![action](../admin/media/action-button.gif "action") menu, select or select **Revert to Personal Template**, or select or select **Make Template Available to Organization**.  
+> - To change a shared template to a personal one or a personal template to a shared one, on the template form, on the **Actions**![action](../admin/media/action-button.gif "action") menu, select **Revert to Personal Template**, or select **Make Template Available to Organization**.  
 > - If you use an email template as a signature in another template, insert the signature template first. Otherwise, the Subject line will be overwritten.  
 > - If you need to back up your templates, or export them for use in a different implementation of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can export them as part of exporting customizations. More information: [Export your customizations as a solution](../customize/use-solutions-for-your-customizations.md).  
   
 ### See also  
 [Work with templates](work-with-templates.md)
-
-[Service Manager Guide (Customer Service Hub and Customer Service app)](../customer-service/service-manager-guide.md)
