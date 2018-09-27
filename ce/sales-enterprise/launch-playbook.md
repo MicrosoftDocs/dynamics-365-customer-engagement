@@ -1,6 +1,6 @@
 ---
 title: "Launch a playbook to carry out activities consistently (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Playbooks let you consistently perform recurrent business processes such as a sales process."
+description: "Playbooks lets you consistently perform recurrent business processes such as a sales process."
 keywords: "playbook, launch, run, report"
 ms.date: 10/01/2018
 ms.service:
@@ -24,7 +24,7 @@ topic-status: Tech Reviewing
 
 # Launch a playbook to carry out activities consistently
 
-To ensure consistency in your business process or to know what steps to follow in certain scenarios or events, rely on the playbooks prepared by your managers that guide you with the actions you can take. Playbooks can also contain best practices based on what practices have worked in similar situations before.
+To ensure consistency in your business process or to know what steps to follow in certain scenarios or events, rely on the playbooks prepared by your managers that guide you with the actions you can take. Playbooks can also contain best practices based on practices that have worked in similar situations before.
 
 1.  Go to the record you want to launch playbook from. For example, if you know your organization has playbooks created for opportunities, open an opportunity record.
 
@@ -33,7 +33,6 @@ To ensure consistency in your business process or to know what steps to follow i
      ![launch playbook button on opportunity record](media/launch-playbook-button-opportunity.png "Launch playbook button on opportunity record")  
 
     > [!NOTE]
-
     > The **Launch playbook** button appears on an entity form only when there’s at least one published playbook template for that entity. If you do not see this button, talk to your playbook manager.
 
 3.  In the **Playbook templates** dialog box, select a playbook that you want to use, and then select **Launch**.
@@ -41,10 +40,9 @@ To ensure consistency in your business process or to know what steps to follow i
     You’ll see a notification “Playbook launched successfully.”
 
     > [!NOTE]
-
-    > You can only launch one playbook at a time.
+    > You can launch only one playbook at a time.
 
 ### See also
 [Track playbook activities](track-playbook-activities.md)  
-[Define best practices with playbooks](enforce-best-practices-playbooks.md)  
+[Enforce best practices with playbooks](enforce-best-practices-playbooks.md)  
 [Mark playbook as completed](mark-playbook-completed.md)

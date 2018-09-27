@@ -23,19 +23,22 @@ topic-status: Tech Reviewing
 
 # Track playbook activities
 
-When a playbook is launched, its related activities are created and associated with the record the playbook is launched from (also called calling record). You must complete these activities to ensure every event is dealt with consistently.
+When a playbook is launched, its related activities are created and associated with the record the playbook is launched from (also called the calling record). You must complete these activities to ensure every event is dealt with consistently.
 
-If the playbook template used for the playbook has **Track status** field set to **Yes**, the activities are created under the playbook record under the calling record. If **Track status** field is set to **No**, the activities are created directly under the calling record.
+If the playbook template used for the playbook has its **Track status** field set to **Yes**, the activities are created under the playbook record under the calling record. If the **Track status** field is set to **No**, the activities are created directly under the calling record.
 
-To see the activities created by the playbook when Track progress field in the playbook template is set to **Yes**:
 
-1.  Go to the record you launched playbook from. For example, if you launched playbook from an opportunity record, go to the opportunity record.
+<!---note from editor: Should the following line say "Track status" instead of "Track progress"?-->
+
+To see the activities created by the playbook when the Track progress field in the playbook template is set to **Yes**:
+
+1.  Go to the record you launched the playbook from. For example, if you launched the playbook from an opportunity record, go to the opportunity record.
 
 2.  Select the **Related** tab, and then select **Playbooks**.
 
      ![playbooks option in related tab on opportunity record](media/playbooks-option-related-tab-opportunity-record.png "Playbooks option in Related tab on opportunity record")  
 
-3.  In the **Playbook Associated View**, the playbook launched from the record is listed.
+3.  In **Playbook Associated View**, the playbook launched from the record is listed.
 
     ![playbooks tab on opportunity record](media/playbooks-tab-opportunity-record.png "Playbooks tab on opportunity record")  
 
@@ -45,18 +48,18 @@ To see the activities created by the playbook when Track progress field in the p
 
     ![playbook record with associated playbook activities](media/playbook-record-with-associated-activities.png "Playbook record with associated playbook activities")  
 
-    For example, it shows when the playbook was launched, how many total activities it has, how many of the activities are completed, and what’s the estimated close date. It also shows all the related playbook activities in the **Playbook activities** section. Work on these activities, and when you are done, mark them as completed.
+    For example, it shows when the playbook was launched, how many total activities it has, how many of the activities are completed, and what’s the estimated close date. It also shows all the related playbook activities in the **Playbook activities** section. After you are done working on these activities, mark them as completed.
 
-    To see the activities if **Track status** field of the playbook template is set to **No**, in the calling record, see the Timeline section.
+    To see the activities if the **Track status** field of the playbook template is set to **No**, in the calling record, see the Timeline section.
 
     Alternately, in the calling record, select the **Related** tab, and then select **Activities**.
 
     ![activities tab on the opportunity record](media/activities-tab-opportunity-record.png "Activities tab on the Opportunity record")  
 
-    This view shows all the activities for the calling record along with the ones created when a playbook was launched. However, it doesn’t show how many are created in context of a playbook.
+    This view shows all the activities for the calling record along with the ones created when a playbook was launched. However, it doesn’t show how many are created in the context of a playbook.
 
 
 ### See also
 [Launch a playbook to carry out activities consistently](launch-playbook.md)  
-[Define best practices with playbooks](enforce-best-practices-playbooks.md)  
+[Enforce best practices with playbooks](enforce-best-practices-playbooks.md)  
 [Mark playbook as completed](mark-playbook-completed.md)

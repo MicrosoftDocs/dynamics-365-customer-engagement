@@ -23,11 +23,11 @@ topic-status: Tech Reviewing
 
 # Define playbook categories
 
-You can create categories to classify playbooks. For example, categories could be contract renewals or decision maker departure.
+You can create categories to classify playbooks. For example, categories could be contract renewals or decision maker departures.
 
 1.  Make sure you have a Playbook manager role or equivalent permissions.
 
-2.  Select the site map icon, then select the **More options** ![more options icon](media/more-options-icon.png "More Options icon") icon, and then select **App Settings**.  
+2.  Select the site map icon, select the **More options** ![more options icon](media/more-options-icon.png "More Options icon") icon, and then select **App Settings**.  
 
 3.  Select **Playbook categories**.
 
