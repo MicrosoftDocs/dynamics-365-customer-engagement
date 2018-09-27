@@ -13,7 +13,7 @@
     items:
     - name: "Get Channel Integration Framework (CIF)"
       href: get-channel-integration-framework.md
-    - name: "Sample code for softphone integration"
+    - name: "Sample softphone integration"
       href: sample-softphone-integration.md
   - name: How-to
     items:

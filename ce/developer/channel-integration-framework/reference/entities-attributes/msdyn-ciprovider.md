@@ -1,0 +1,53 @@
+---
+title: "msdyn_ciprovider Entity reference for Channel Integration Framework (CIF) in Dynamics 365 | Microsoft Docs"
+description: ""
+keywords: ""
+ms.date: 10/01/2018
+ms.service:
+  - "dynamics-365-cross-app"
+ms.custom:
+  - "dyn365-a11y"
+  - "dyn365-developer"
+ms.topic: reference
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 58C9B632-3168-4F53-AF6E-391060C3229D
+author: kabala123
+ms.author: kabala
+manager: shujoshi
+---
+
+# msdyn_ciprovider Entity Reference
+
+> [!Important]
+> [!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
+
+Base entity for Channel Integration Framework.
+
+## Entity properties
+
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|msdyn_ciprovider|
+|DisplayCollectionName|Channel Provider|
+|DisplayName|Channel Provider|
+|EntitySetName|msdyn_ciprovider|
+|LogicalCollectionName|msdyn_ciprovider|
+|LogicalName|msdyn_ciprovider|
+|OwnershipType|UserOwned|
+|PrimaryIdAttribute|msdyn_bookingalertstatusid|
+|PrimaryNameAttribute|msdyn_name|
+|SchemaName|msdyn_bookingalertstatus|
+
+| Attributes | Display Name | Description |
+|------------|----------------------|-------------|
+| msdyn_ClickToAct | Enable Outbound Communication | Raise `onclicktoact` event on the communication widget.|
+| msdyn_SortOrder| Channel Order | The order precedence of channel providers. |
+| msdyn_Label | Label | The label is displayed as the title on the widget |
+| msdyn_LandingUrl | Channel URL | The channel URL |
+| msdyn_name | Name | Name of the channel provider |
+| msdyn_AppSelector | Select the Unified Interface Apps for the Channel | The list of Unified Interface Apps where the channel is displayed for the agents. |
+| msdyn_RoleSelector | Select Roles for the Channel | The security roles that are present in Dynamics 365.|
+| msdyn_ciproviderapiversion | API Version  | Not currently used anywhere |
+| msdyn_trustedDomain  | Trusted Domains | A single additional domain can be set here if the initial landing URL and the final domain from which the widget is served are different |

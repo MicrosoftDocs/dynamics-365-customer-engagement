@@ -20,6 +20,9 @@ manager: shujoshi
 
 # System requirements of Channel Integration Framework
 
+> [!Important]
+> [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)] 
+
 This topic describes the system requirements of the Channel Integration Framework for Dynamics 365.
 
 ## Dynamics 365
