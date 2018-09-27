@@ -37,10 +37,6 @@ Article templates help you create new articles for your organization's knowledge
   
 2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
 3. Select **Article Templates**. 
-
-> [!NOTE]
-> With the October'18 release, article templates in service management are available in the Customer Service Hub based on Unified Interface experience. You are recommended to create and manage article templates using the new experience. </br> </br>
-> In the Customer Service Hub app, go to **Service Management** and select **Templates** > **Article Templates** in the sitemap to access the article templates. 
   
 4. To create a new article template, select **New**.  
   
