@@ -69,7 +69,7 @@ When you add the calendar control at the entity level, it becomes available on t
 
 To add an entity-level calendar to an entity:
 
-1. [Open a PowerApps customization window](#open-cust-window). In the left panel, expand **Components** > **Entities** to see a list of all entities. Then select the entity where you want to add the calendar.
+1. [Open a PowerApps customization window.](#open-cust-window) In the left panel, expand **Components** > **Entities** to see a list of all entities. Then select the entity where you want to add the calendar.
 
     ![Select an entity](media/calendar-add-to-entity-1.png "Select an entity")
 
@@ -163,7 +163,7 @@ After you have added a marketing calendar to an entity or form, you must configu
     - **Parent entity**: Select a parent entity (optional). In the future, this will be used to group child items under parent items when they are displayed in the calendar, but in the current version this setting has no effect. This will eventually be useful, for example, for sessions, which have events as a parent entity.
     - **Entity 1 quick view form ID**: When users select an item in the calendar, it displays a quick-view form with information about the selected record that includes a button for opening the full record for editing. You can choose any form for this purpose—you might create a custom one, but many people simply use the existing quick-create form. If you don't provide a value here, then users who select this type of calendar item will go straight to the edit form. To set this, choose the **Configure property** button for this setting, then choose the **Bind to a static value** radio button and paste the ID in the field provided here. For details about how to find the ID for a quick-view form, see [Find the form ID for a quick-view form](#find-form-id).
 
-    ![Configure property dialog](media/calendar-config-property-dialog.png "Configure property dialog")
+      ![Configure property dialog](media/calendar-config-property-dialog.png "Configure property dialog")
 
 1. If you are creating an entity-level calendar and want to add another entity to the current calendar, then choose an entity for **Entity 2** and repeat the previous step for that entity. You can add up to five entities to entity-level calendars.
 
@@ -181,7 +181,7 @@ The main marketing calendar is available directly from the side navigator, where
 
 To configure the main marketing calendar:
 
-1. [Open a PowerApps customization window](#open-cust-window). In the left panel, expand **Components** > **Entities** > **Customer journey** > **Views** to see a list of views for the customer journey entity. Then open the view named **Marketing Calendar**.
+1. [Open a PowerApps customization window.](#open-cust-window) In the left panel, expand **Components** > **Entities** > **Customer journey** > **Views** to see a list of views for the customer journey entity. Then open the view named **Marketing Calendar**.
 
     ![Views for the customer journey entity](media/calendar-main-views.png "Views for the customer journey entity")
 
@@ -219,7 +219,7 @@ When specifying the form, you must use the ID of the form you want to use. Here 
 
 Each item displayed on the calendar uses a color to indicate which type of item it is. By default, events are green, sessions are blue, and appointments are red. Entities with no color configured show as gray. To customize the color for any entity:
 
-1. [Open a PowerApps customization window](#open-cust-window). In the left panel, expand **Components** > **Entities** to see a list of all entities. Then select the entity you want to assign a color to.
+1. [Open a PowerApps customization window.](#open-cust-window) In the left panel, expand **Components** > **Entities** to see a list of all entities. Then select the entity you want to assign a color to.
 
     ![Set the color for an entity](media/calendar-set-color.png "Set the color for an entity")
 
