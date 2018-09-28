@@ -1,7 +1,9 @@
 ---
 title: "Sample data installation (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: "dyn365-fieldservice"
-ms.date: 09/28/2018
+ms.date: 09/28/2018[InternetShortcut]
+URL=https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/tree/Angad-SampleData-0924/ce/field-service
+
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
