@@ -2,7 +2,7 @@
 title: "Accessibility features and keyboard shortcuts (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Provides an overview of accessibility features and keyboard shortcuts in Dynamics 365 for Marketing"
 keywords: "accessibility; keyboard shortcuts"
-ms.date: 04/01/2018
+ms.date: 10/01/2018
 ms.service: 
   - "dynamics-365-marketing"
 ms.custom: 

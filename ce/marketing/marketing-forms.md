@@ -2,7 +2,7 @@
 title: "Set up and manage marketing forms for use in marketing pages (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Learn about various types of marketing forms and how to create them in Dynamics 365 for Marketing"
 keywords: "marketing form, fields"
-ms.date: 09/17/2018
+ms.date: 10/01/2018
 ms.service: 
   - "dynamics-365-marketing"
 ms.custom: 
