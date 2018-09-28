@@ -137,11 +137,11 @@ You can opt in for early access to newly developed features to evaluate them for
 
    - **Display Waiting Time (Seconds)**: Number of seconds before a smack talk post appears again in a Stream TV.  
 
-   - **Show BAM Posts**: Show all BAM posts on smack talk from a leaderboard shown in a Stream TV.  
+   - **Show BAM Posts**: Show all [BAM posts](glossary.md#bam-posts) on smack talk from a leaderboard shown in a Stream TV.  
 
-   - **BAM Display Count**: Define how many times a BAM post appears in a Stream TV.  
+   - **BAM Display Count**: Define how many times a [BAM post](glossary.md#bam-posts) appears in a Stream TV.  
 
-   - **BAM Display Time (Seconds)**: Number of seconds before a BAM post appears again in a Stream TV.  
+   - **BAM Display Time (Seconds)**: Number of seconds before a [BAM post](glossary.md#bam-posts) appears again in a Stream TV.  
 
    - **Enable Public Stream TV**: Allows game owners to create Stream TVs that people can view without signing in to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Manage Stream TV games in Gamification](configure-view-tvs.md)  
 
