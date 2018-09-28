@@ -1,13 +1,11 @@
 ---
-title: "Experiment with sample data (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Sample data installation (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: "dyn365-fieldservice"
 ms.date: 09/28/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "experiment-sample-data-3x"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
