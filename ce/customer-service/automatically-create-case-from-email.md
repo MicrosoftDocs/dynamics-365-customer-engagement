@@ -45,11 +45,11 @@ Reduce the need for manually creating cases from incoming emails and increase th
 
 3. Select **Automatic Case Creation Rules**.  
 
-4. To create a new case creation rule, click **New**.  
+4. To create a new case creation rule, select **New**.  
 
     -OR-  
 
-    To edit an existing rule, in the list of rules, select a rule, and then on the command bar, click **Edit**.  
+    To edit an existing rule, in the list of rules, select a rule, and then on the command bar, select **Edit**.  
 
 5. Type or modify information in the fields.  
 
@@ -62,7 +62,7 @@ Reduce the need for manually creating cases from incoming emails and increase th
    - **Queue**. Select the queue that the rule applies to. For example, if you want to convert email messages and then send them to the Support queue, select that queue here.  
 
      > [!NOTE]
-     >  You can associate only one rule per source type to a specific queue. If you’re creating a rule to convert an email to a case, make sure you specify an email address for this queue.  Otherwise, automatic case creation for email won’t work. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](../customer-service/create-edit-queue.md)  
+     >  You can associate only one rule per source type to a specific queue. If you’re creating a rule to convert an email to a case, make sure you specify an email address for this queue.  Otherwise, automatic case creation for email won’t work. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](set-up-queues-manage-activities-cases.md)
 
 6. In the **Specify Conditions for Case Creation** section, select the conditions for creating the case automatically. You can add multiple conditions here and arrange them in the desired order. The conditions are considered in the same order. Only one item that has conditions matching the incoming email is applied.  
 
@@ -108,7 +108,7 @@ Reduce the need for manually creating cases from incoming emails and increase th
 
    #### Specify case details  
 
-   1. In the **Specify Case Details** section, click **+**, and define the conditions for creating a case and specify the case properties.  
+   1. In the **Specify Case Details** section, select **+**, and define the conditions for creating a case and specify the case properties.  
 
    2. In the Conditions section, specify when the case should be created.  
 
@@ -126,14 +126,14 @@ Reduce the need for manually creating cases from incoming emails and increase th
 >  If there’s no routing rule to route the newly created case to another user or queue, the user who’s the owner of the case creation rule will be set as the owner of the case, too.  
 
 ## Activate or deactivate a case creation rule  
- Cases are created automatically only when the case creation rule is active. To activate a rule, open it, and on the command bar, click **Activate**.  
+ Cases are created automatically only when the case creation rule is active. To activate a rule, open it, and on the command bar, select **Activate**.  
 
- Once the rule is active, you can’t change it. To change a rule, first open the rule and on the command bar, and click **Deactivate**. You can then edit the rule.  
+ Once the rule is active, you can’t change it. To change a rule, first open the rule and on the command bar, and select **Deactivate**. You can then edit the rule.  
 
 ## Manage automatic case creation from a queue form  
- You can create or manage an automatic case creation rule from a queue form, too. To do this, open the queue record, and on the command bar, click **Email to Case Settings**.  
+ You can create or manage an automatic case creation rule from a queue form, too. To do this, open the queue record, and on the command bar, select **Email to Case Settings**.  
 
 ### See also  
  [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)    </br>
- [Create or change a queue](../customer-service/create-edit-queue.md)   
+[Create or change a queue](set-up-queues-manage-activities-cases.md)
 

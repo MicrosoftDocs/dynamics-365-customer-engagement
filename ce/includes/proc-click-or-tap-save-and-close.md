@@ -1,1 +1,1 @@
-Click **Save and Close**.
+Select **Save and Close**.

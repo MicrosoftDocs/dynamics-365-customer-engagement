@@ -26,7 +26,11 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues.  
+Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues. 
+
+> [!NOTE]
+> With the October'18 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. </br>
+Routing Rule sets, Automatic Record Creation, and Service Level Agreements will be available in the Customer Service Hub sitemap with the January 2019 release. 
 
 
 ## Create a routing rule set  
@@ -43,19 +47,19 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
 
 2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
 
-3. Click **Routing Rule Sets**.  
+3. Select **Routing Rule Sets**.  
 
-4. To create a new routing rule set, click **New**.  
+4. To create a new routing rule set, select **New**.  
 
     -OR-  
 
-    To edit a routing rule set that you already have, in the list of records, click the rule that’s in the Draft state, and then on the command bar, click **Edit**.  
+    To edit a routing rule set that you already have, in the list of records, select the rule that’s in the Draft state, and then on the command bar, select **Edit**.  
 
 5. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
 
-6. After you enter information in all the required fields, click **Save**.  
+6. After you enter information in all the required fields, select **Save**.  
 
-7. In the **Rule Items** section, click the **Add Rule Item** button **+** to specify conditions for routing cases to a queue.  
+7. In the **Rule Items** section, select the **Add Rule Item** button **+** to specify conditions for routing cases to a queue.  
 
     You can add multiple conditions here and arrange them in the desired order. The rule items are run in the same order. As soon as an applicable rule item (based on the If Conditions) is applied on the case, the other rule items are not run on the case.  
 
@@ -79,7 +83,7 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
 
 8. [!INCLUDE[proc_click_or_tap_save_and_close](../includes/proc-click-or-tap-save-and-close.md)]  
 
-9. In the Routing Rule Set record, click **Activate** so that the rule set is applied to the cases matching the conditions in the rule.  
+9. In the Routing Rule Set record, select **Activate** so that the rule set is applied to the cases matching the conditions in the rule.  
 
 > [!NOTE]
 > - Only one routing rule set can be active at any point of time. If you try to activate another rule when one rule is already active, it will deactivate the currently active rule. You can activate or deactivate only the rules that you own.  
@@ -88,11 +92,11 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
 ## Apply a routing rule set  
  An active routing rule set automatically applies to all automatically-created cases.  
 
- To manually apply the rule to existing or manually-created cases, in the list of cases, select the cases that you want to route using this rule, and on the command bar, click **Apply Routing Rule**.  
+ To manually apply the rule to existing or manually-created cases, in the list of cases, select the cases that you want to route using this rule, and on the command bar, select **Apply Routing Rule**.  
 
 > [!NOTE]
 >  If you’re importing bulk records, and you don’t want the routing rules to apply to the cases that you’re importing, add a column **Route Case** to your spreadsheet, and add the value **No** for all the cases that you don’t want to route.  
   
 ### See also 
-[Create and edit queues](create-edit-queue.md)
+[Create and manage queues](set-up-queues-manage-activities-cases.md)
 

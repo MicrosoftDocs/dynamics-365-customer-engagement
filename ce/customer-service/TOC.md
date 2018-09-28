@@ -4,7 +4,7 @@
 ## User Guide
 ### [Customer Service Hub](user-guide-customer-service-hub.md)
 #### [Learn the basics](customer-service-hub-user-guide-basics.md)
-#### [Work with Cases and manage SLAs](customer-service-hub-user-guide-case-sla.md)
+#### [Work with cases and manage SLAs](customer-service-hub-user-guide-case-sla.md)
 #### [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 #### [Work with interactive dashboards](customer-service-hub-user-guide-dashboard.md)
 #### [Use Customer Service Hub on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)
@@ -19,35 +19,25 @@
 #### [Create and manage parent and child cases](user-guide-customer-service.md#create-and-manage-parent-and-child-cases)
 #### [Find knowledge articles from within a record](find-knowledge-articles-within-record-dynamics-365.md)
 
-## [Service Manager Guide](service-manager-guide.md)
+## [Service Management Guide](service-manager-guide.md)
 ### [Queues](set-up-queues-manage-activities-cases.md)
-#### [Create or edit a queue ](create-edit-queue.md)
-### [Parent and child case settings](define-settings-parent-child-cases.md)
-### [Routing rule sets](create-rules-automatically-route-cases.md)
-### Automatic record creation and update rules
+### [Parent Child Case Settings](define-settings-parent-child-cases.md)
+### [Routing Rule Sets](create-rules-automatically-route-cases.md)
+### Automatic Record Creation and Update Rules
 #### [Automatically create a case from an email](automatically-create-case-from-email.md)
 #### [Automatically create and update records](set-up-rules-to-automatically-create-or-update-records.md)
-### [Subjects](../admin/define-subjects-categorize-cases-products-articles.md) 
+### [Subjects](../admin/define-subjects-categorize-cases-products-articles.md)
 ### [Service Level Agreements](define-service-level-agreements.md)
 #### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
 ### [Entitlements](create-entitlement-define-support-terms-customer.md)
-### [Holiday schedule](set-up-holiday-schedule.md)
-### [Service configuration settings](../admin/system-settings-dialog-box-service-tab.md)
-### [Customer service schedule](create-customer-service-schedule-define-work-hours.md)
-#### [Create service activity in a time slot](create-service-activity-without-checking-conflicts.md)
-#### [Find the next available time before creating a service activity](find-next-available-time-before-create-service-activity.md)
-#### [Navigate service calendar](navigate-service-calendar.md)
-### [Embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
+### [Holiday Schedule](set-up-holiday-schedule.md)
+### [Customer Service Schedule](create-customer-service-schedule-define-work-hours.md)
+### [Service Configuration Settings](../admin/system-settings-dialog-box-service-tab.md)
+### [Embedded Knowledge Search](set-up-knowledge-management-embedded-knowledge-search.md)
 ### [Categories](create-manage-categories.md)
-### [Entitlement templates](set-up-entitlements-templates.md)
-### [Email templates](../admin/create-templates-email.md)
-### [Article templates](../admin/create-templates-articles.md)
-### [Service scheduling overview](basics-service-service-scheduling.md)
-#### [Business closure](set-when-business-closed.md)
-#### [Services](create-edit-service.md)
-#### [Facilities/Equipment](add-facilities-equipment-service-scheduling.md)
-#### [Resource Groups](create-edit-resource-group.md)
-#### [Sites](use-sites-manage-service-locations.md)
+### [Entitlement Templates](set-up-entitlements-templates.md)
+### [Email Templates (Customer Service app)](../admin/create-templates-email.md)
+### [Article Templates (Customer Service app)](../admin/create-templates-articles.md)
 
 
 ## Customize
@@ -61,5 +51,6 @@
 ### [Define status reason transitions for case management](../customize/define-status-reason-transitions.md)
 
 ## Troubleshoot
+### [Issue converting an email to a case](troubleshoot-case-email-issue.md)
 ### [SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md)
 ### [Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)

@@ -8,7 +8,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
 manager: shujoshi
-ms.date: 06/01/2018
+ms.date: 10/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 10494df7-b60f-4394-81de-1c602a5874cc
@@ -24,11 +24,14 @@ search.app:
 
 # Create and manage categories
 
-Using **Categories** entity, you can create hierarchical categorical data to help group records. Categorizing entity records in Dynamics 365 helps you tag the records so that you can easily search them. Use the entity to create and manage a logical structure of categories in Dynamics 365, and then associate entity records to one or more categories.
+Using the **Categories** entity, you can create hierarchical categorical data to help group records. Categorizing entity records in Dynamics 365 helps you tag the records so that you can easily search them. Use the entity to create and manage a logical structure of categories in Dynamics 365, and then associate entity records to one or more categories.
 
 Categories are useful for reporting, sorting, segmenting, and categorization of records. 
 
-## Create categories
+> [!NOTE]
+> With the October'18 release, categories in service management are available in the Customer Service Hub based on the Unified Interface experience. We recommend that you create and manage categories using the new experience.
+
+## Create a category
 
 Follow the procedure given below to create a category:
 
@@ -40,9 +43,10 @@ Follow the procedure given below to create a category:
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
-  
-3. Select **Categories**.
+2. In the Customer Service Hub sitemap, go to **Service Management** and select **Knowledge Base Management** > **Categories**.
+
+    > [!NOTE]
+    > In the Customer Service app, go to [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)] and select **Categories**.
 
 3. To create a new category, select **New**.  
   
@@ -56,9 +60,9 @@ Follow the procedure given below to create a category:
    In the **General** section, fill in the required details:
   
    - **Title**: Provide a title for the category
-   - **Description**: Give a detailed description for the category
+   - **Description**: Give a detailed description of the category
    - **Display Order**: Provide a position where the category can be displayed in the hierarchical order
-   - **Parent Category**: Select an existing category to become the parent category
+   - **Parent Category**: Select an existing category to become the parent category. You can create a new category by selecting **New**.
    - **Category Number**: The category number is displayed for category reference. To view this, first save the record by selecting **Save** on the command bar
 
    In the **Associated Categories** section:
@@ -69,6 +73,7 @@ Follow the procedure given below to create a category:
 
 ## Additional actions
 
+- Select a category from the list and select **View Hierarchy**. You can see the hierarchy of a particular record, and its parent and child category associations.
 - Select **Assign** on the command bar to assign the category to a particular owner.
 - To delete a category, select the category from the list and select **Delete** on the command bar.
 
