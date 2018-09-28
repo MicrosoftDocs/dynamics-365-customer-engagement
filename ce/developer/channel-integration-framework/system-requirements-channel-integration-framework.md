@@ -35,8 +35,17 @@ This topic describes the system requirements of the Dynamics 365 Channel Integra
 
 - Google Chrome
 
+- FireFox - Mozilla
+
+> [!NOTE]
+> Ensure microphone and speaker access is not blocked by browser policy for voice and video channel.
+
 > [!div class="nextstepaction"]
 > [Get Channel Integration Framework (CIF)](get-channel-integration-framework.md)
+
+## Domains
+
+All the URLs must be secure (https).
 
 ## See also
 

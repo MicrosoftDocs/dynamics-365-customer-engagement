@@ -50,6 +50,9 @@ The value propositions of Channel Integration Framework are:
 
 The Channel Integration Framework provides an extensible framework to integrate third-party cloud-based channel providers or channel aggregators with Dynamics 365 Unified Interface Apps.
 
+**Channel agnostic:**
+The Channel Integration Framework is channel agnostic. That is, you can build channels like voice, video, chat, co-browse, social media, and any channels as long as they a JavaScript based widget.
+
 **Two-way communication:**
 
 The framework is extensible for the configuration of communication between the channel and Dynamics 365 Unified Interface Apps. The two-way communication enables to set the context of inbound and/or outbound according to your business and process workflows.
@@ -58,13 +61,17 @@ The framework is extensible for the configuration of communication between the c
 
 The Channel Integration Framework exposes a JavaScript APIs which are the standard set of APIs that you can consume for the communication between the channels and Dynamics 365 Unified Interface Apps.
 
+**Ease of development and deployment:**
+
+Seamless development, implementation, and deployment experience of your channels to suit your business context and process workflows.
+
 **Plug and play configuration:**
 
 You can seamlessly integrate several providers by using the Channel Integration Framework administration configuration App.
 
-**Ease of development and deployment:**
+**Unified Interface App agnostic:**
 
-Seamless development, implementation, and deployment experience of your channels to suit your business context and process workflows.
+The Channel Integration Framework is Dynamics 365 Unified Interface App agnostic. You can build the channel integration one-time and enable it on the Unified Interface Apps of your choice based on the business requirements.
 
 **Independent of operating systems and web browsers:**
 
