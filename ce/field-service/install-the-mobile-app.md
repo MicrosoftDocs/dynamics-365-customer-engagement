@@ -2,14 +2,12 @@
 title: "Install the Field Service mobile app (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
+ms.date: 9/28/2018
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -30,11 +28,11 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Solve customer issues quickly with [!INCLUDE[pn_fieldservice_mobile_app_long](../includes/pn-fieldservice-mobile-app-long.md)]. You can dispatch, route, and complete work orders, manage invoices, and more with the mobile app.  
+Solve customer issues quickly with [!INCLUDE[pn_fieldservice_mobile_app_long](../includes/pn-fieldservice-mobile-app-long.md)]. Field service technicians can dispatch, route, and complete work orders, manage invoices, and more with the mobile app.  
   
  [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] is a solution built on the Resco Mobile platform. 
   
- To customize [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)], you need to  install the Resco Mobile Woodford solution. This lets you configure mobile behavior around your business needs. If you don’t need to customize the app just yet, you can  use the default field service mobile configuration.  
+ To customize [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)], you need to install the Resco Mobile Woodford solution. This lets you configure mobile behavior around your business needs. If you don’t need to customize the app just yet, you can  use the default field service mobile configuration.  
   
  Before you can start configuring [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] beyond what is shipped out of the box from the app store, your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin will need to install the Woodford mobile solution for your [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] account.  
   
