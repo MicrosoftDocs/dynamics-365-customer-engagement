@@ -1,5 +1,5 @@
 ---
-title: "Install the Field Service mobile app (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Install the Field Service mobile app solution (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 9/28/2018
@@ -24,7 +24,7 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Install the Field Service mobile app
+# Install the Field Service mobile app solution
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
