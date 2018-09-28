@@ -71,7 +71,7 @@ Gamification as a concept applies gaming elements and principles to non-game con
 
 ## BAM posts
 
-BAM posts are post on the Smack Talk board that announce a special achievement, a new award, or a promotion. These posts usually draw more attention, so we suggest you use them when appropriate. You can choose one of the predefined animations to make the BAM post visually appealing. 
+BAM posts are a special type of posts on the Smack Talk board that announce a special achievement, a new award, or a promotion. These posts usually draw more attention, so we suggest you use them when appropriate. You can choose one of the predefined animations to make the BAM post visually appealing. 
 
 ## Stream TV
 
