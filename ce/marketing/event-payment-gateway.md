@@ -24,7 +24,7 @@ ms.reviewer: renwe
 
 If you have one or more events where contacts must purchase a pass, then your contacts will probably appreciate being able to pay for their passes online while they are registering for the event on your event portal.
 
-To enable online payment, you must make an agreement with a third-party payment provider who can authenticate and capture payment details. Your payment provider will supply you with details about how to implement their system, which you'll usually do by adding code supplied by your provider to a web page running on your event portal. You'll typically also need to tell tell your provider the URL to request from [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to [indicate a successful payment](#pay-confirm).
+To enable online payment, you must make an agreement with a third-party payment provider who can authenticate and capture payment details. Your payment provider will supply you with details about how to implement their system, which you'll usually do by adding code supplied by your provider to a web page running on your event portal. You'll typically also need to tell your provider the URL to request from [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to [indicate a successful payment](#pay-confirm).
 
 Once your new payment gateway is in place on your event portal, you can configure your various events to use it, or assign it as the default for all new events.
 
@@ -38,7 +38,7 @@ To add a new payment page to your event portal:
 
     ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
 
-1. In the custom app, use the horizontal navigator at the top of the page to open **Portals** > **Content** > **Web templates**.  
+1. In the custom app, use the horizontal navigator at the top of the page to open **Portals** > **Content** > **Web Templates**.  
 
     ![Go to your web templates](media/payment-template-nav.png "Go to your web templates")
 
@@ -71,7 +71,7 @@ To add a new payment page to your event portal:
 
     - **Name**: Enter a name for your web page.
     - **Website**: Select the **Event Portal**.
-    - **Parent page**: Select **Home**.
+    - **Parent Page**: Select **Home**.
     - **Partial URL**: Enter a folder name that you want to show in the URL path for this page. This text must form part of a valid URL, so use only letters, numbers, hyphens, and underscores (avoid spaces, special characters, invalid URL characters, and slashes). This value becomes part of the page URL using the following pattern: `https://<YourPortalDomain>/<PartialURL>/`.
     - **Page Template**: Select the page template that you created earlier in this procedure.
     - **Publishing State**: Set to **Published**.
@@ -91,7 +91,7 @@ When you sign up with a payment provider, they will ask you for the success URL,
 Where:
 
 - *&lt;portal-domain&gt;* is the domain of your portal. It usually has the form: `<YourOrganization>.microsoftcrmportals.com`. You can see it by opening your web portal.
-- *&lt;Readable_Event_ID&gt;* is a value that uniquely identifies the event. To find it, open the relevant event record, go to the **General** tab, scroll to the **Webiste** section and copy the value shown in the **Readable event ID** field.
+- *&lt;Readable_Event_ID&gt;* is a value that uniquely identifies the event. To find it, open the relevant event record, go to the **General** tab, scroll to the **Website** section, and copy the value shown in the **Readable event ID** field.
 
 However, if you hard code the event ID, as outlined in the previous example, then you'll need a different payment gateway for each event. We recommend that you instead set up a dynamic expression, which you can script as follows in your web template:
 
