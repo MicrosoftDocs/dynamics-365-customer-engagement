@@ -48,7 +48,7 @@ To add a video to your library in [!INCLUDE[pn-marketing-business-app-module-nam
     - **Owner**: This is the user who owns this video record, which can sometimes affect who can view and/or edit it. It defaults to the user who creates the record.
     - **Video URL**: Specify the URL that will open the video in a browser. This link will be used to link to the video from its thumbnail image when you use it in an email message.
     - **Video thumbnail URL**: Specify the URL of a still image that represents the video. This image will be embedded and linked to the video URL when you place the video in an email design. Most video hosting platforms make this URL available publicly&mdash;see the documentation for your video hosting service if you don't know how to find it. You could instead create your own thumbnails and host them in your [Dynamics 365 files library](upload-images-files.md) or elsewhere if you prefer.
-    - **Video embed URL**: Specify the code required to embed the image on a web page. This code will be used when you place the video on a marketing page so visitors can watch it right there without leaving the page. Most video hosting platforms will provide this code for you&mdash;see the documentation for your video hosting service if you don't know how to find it
+    - **Video embed URL**: Specify the code required to embed the image on a web page. This code will be used when you place the video on a marketing page so visitors can watch it right there without leaving the page. Most video hosting platforms will provide this code for you&mdash;see the documentation for your video hosting service if you don't know how to find it.
 
 1. Select **Save** in the toolbar to save your work.
 
@@ -58,7 +58,7 @@ To work with your existing videos, go to **Marketing** > **Marketing content** >
 
 ## Use a video in a design
 
-To add a video from your video library to a marketing-email or marketing-page design:
+To add a video from your video library to the design of a marketing email or marketing page:
 
 1. Open or create an [email message](prepare-marketing-emails.md) or [marketing page](create-deploy-marketing-pages.md).
 2. Drag a video element from the **Toolbox** panel to the appropriate location in your design.
