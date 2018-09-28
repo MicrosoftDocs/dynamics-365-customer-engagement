@@ -26,8 +26,6 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-
-
 ## What is the Field Service business application?
 
 Dynamics 365 for Field Service supports the methods of managing a mobile workforce and delivering products and services to your customers' locations.
@@ -50,6 +48,10 @@ According to [Gartner](https://www.gartner.com/doc/reprints?id=1-3KXDGG5&ct=1610
 Gartner also say that through 2020, 80% of organizations with more than 75 field technicians will miss more than 20% of the planned efficiency gains due to incomplete integration or deployment.
 
 The [Aberdeen Group](http://www.aberdeen.com/about) said: “65% of incoming service requests require a field visit or dispatch. Nearly 26% of these dispatches require secondary or additional follow-up visits, thereby making the effective management of field resources and the overall field service organization extremely vital in the pursuit of service excellence.”
+
+### Watch an overview video
+
+ <a name="heroArea"></a> [![Manage your mobile workforce Dynamics 365 for Field Service](../field-service/media/field-service-manage-mobile-workforce.png "Manage your mobile workforce Dynamics 365 for Field Service")](http://go.microsoft.com/fwlink/p/?LinkId=786689)
 
 ## Elements of Field Service
 
