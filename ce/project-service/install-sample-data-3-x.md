@@ -134,8 +134,8 @@ To create or configure users, go to **Settings > Security > Users**, and do the 
 
 5. Select **Next** until you see the **Demo Data Setup** dialog.
 
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of the demo data installer status window](media/sample-data-3.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the demo data installer status window](media/sample-data-3.png)
 
 6. Before proceeding, note that installing sample data could take up to one hour (normally ~10 minutes). You'll need to make sure the computer remains on and connected to a network throughout the installation process, and that your session remains active.   
 
