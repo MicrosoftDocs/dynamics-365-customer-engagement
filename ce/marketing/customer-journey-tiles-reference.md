@@ -180,6 +180,9 @@ You might configure these tiles as follows:
 - **LinkedIn-campaign tile**: Choose a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaign that includes a Lead Gen Form.
 - **Trigger tile**: Create a trigger rule with the **Source** set to the campaign you picked in the LinkedIn-campaign tile, and the **Condition** set to "Any LinkedIn campaign form submitted". Contacts will wait here until they submit a Lead Gen form that belongs to the specified LinkedIn campaign (which will send them down the upper, "true" path) or until the **Timeout** set for the tile expires (at which time remaining contacts will be sent down the bottom, "false" path).
 
+> [!NOTE]
+> The trigger will only react to LinkedIn form submissions that occur *while the journey is running*, not to form submissions that occurred earlier.
+
 ## Target tiles
 
 Target tiles establish the segment of contacts that will be targeted by your customer journey.
