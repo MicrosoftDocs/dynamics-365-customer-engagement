@@ -247,7 +247,7 @@ Major service incident emails can easily be identified by the orange banner.
 ### Communications and awareness  
  Communications emails are specific to managing the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Service, including changes with the service or feature offerings. They can be informational in nature, drive specific actions, or both. The target audience for these communications are [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrators or individuals designated to running the service. You can easily identify these by the light-blue banner.  
   
- ![General awareness email banner](../admin/media/general-awareness-banner.png "General awareness email banner")  
+ ![General awareness email banner](../admin/media/scheduling-banner.png "General awareness email banner") 
  
  <a name="BKMK_PostPurchase"></a>   
 
