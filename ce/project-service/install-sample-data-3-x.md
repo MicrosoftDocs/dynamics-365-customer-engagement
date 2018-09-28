@@ -127,15 +127,15 @@ To create or configure users, go to **Settings > Security > Users**, and do the 
 
     c. Make sure **Display list of available organizations** is selected.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of package deployer window with "Display list of available organizations" checked](media/sample-data-2.png)
+      > [!div class="mx-imgBorder"]
+      > ![Screenshot of package deployer window with "Display list of available organizations" checked](media/sample-data-2.png)
 
 4. Select the Dynamics 365 organization where you want to install the sample data.
 
 5. Select **Next** until you see the **Demo Data Setup** dialog.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the demo data installer status window](media/sample-data-3.png)
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of the demo data installer status window](media/sample-data-3.png)
 
 6. Before proceeding, note that installing sample data could take up to one hour (normally ~10 minutes). You'll need to make sure the computer remains on and connected to a network throughout the installation process, and that your session remains active.   
 
@@ -153,11 +153,11 @@ After the sample data completely loads, sign in as the Spencer Low user and conf
 
 - If the Field Service application is installed, go to **Project Service > Settings > Price Lists**. Confirm that bill rates and costs rates exist. Go to **Field Service > Settings > Price Lists** and check that bill rates and costs rates exist, with the appropriate currency, for each country/region in the data set.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of active price lists](media/sample-data-4.png)
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of active price lists](media/sample-data-4.png)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of active organizational units](media/sample-data-5.png)
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of active organizational units](media/sample-data-5.png)
 
 ## Technical notes
 
