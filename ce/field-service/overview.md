@@ -26,13 +26,13 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
- <a name="heroArea"></a> [![Manage your mobile workforce Dynamics 365 for Field Service](../field-service/media/field-service-manage-mobile-workforce.png "Manage your mobile workforce Dynamics 365 for Field Service")](http://go.microsoft.com/fwlink/p/?LinkId=786689)
 
-## What is Field Service?
 
-Field Service supports the methods of managing a mobile workforce and delivering products and services to the clients’ locations.
+## What is the Field Service business application?
 
-Field Service lets you send the right resources, with the right skillset, to the right customer location, at the right time, and provide them the right technology and knowledge to fulfill the job requirements.
+Dynamics 365 for Field Service supports the methods of managing a mobile workforce and delivering products and services to your customers' locations.
+
+Field Service enables you to send the right resources, with the right skill sets, to the right customer location, at the right time, and provide your resources with the right technology to fulfill the job requirements.
 
 ## Examples of Field Service implementations
 
