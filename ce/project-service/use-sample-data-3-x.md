@@ -37,7 +37,7 @@ The sample data packages are:
 
 These sample data packages are available in English only.
 
-**Important: There is no way to un-install the sample data**. You should only install these packages on demonstration, evaluation, training, or test systems. Also note that installing an individual package, and then installing the other individual package, is not supported. (In other words, you can't install **FSMasterData** followed by **PSMasterData,** or vice versa). If you see yourself needing sample data for both applications at any point in the future, you should install the **v902FPSMasterData** package.
+**Important: There is no way to uninstall the sample data.** You should only install these packages on demonstration, evaluation, training, or test systems. Also note that installing an individual package, and then installing the other individual package, is not supported. (In other words, you can't install **FSMasterData** followed by **PSMasterData,** or vice versa.) If you see yourself needing sample data for both applications at any point in the future, you should install the **v902FPSMasterData** package.
 
 When you install any of the sample data packages, the installation process performs the following actions:
 
@@ -53,9 +53,9 @@ If you have questions about installing these sample data packages, [send us an e
 
 The installation protocol assumes the following about your target instance (org):
 
-- Dynamics 365 9.0.x or higher
+- Dynamics 365 9.0.x or later
 
-- Base language is English and base currency is US Dollar (USD,$)
+- Base language is English and base currency is US dollar (USD,$)
 
 - The org has no Project Service or Field Service data already, or only has barebones default data that comes with any new org
 
@@ -82,9 +82,9 @@ The computer should have the screen saver function turned off. Otherwise, sessio
 
 ## Download and unpack
 
-The Project Service and Field Service sample data installer is distributed as a self-extracting executable. The filenames may vary depending on the sample data package, but otherwise the steps are the same no matter which package you install.
+The Project Service and Field Service sample data installer is distributed as a self-extracting executable. The file names may vary depending on the sample data package, but otherwise the steps are the same no matter which package you install.
 
-After downloading a package, run the .EXE file, and then accept terms and conditions to unpack the compressed zip file. You then need to extract contents of that file to a folder on the computer.
+After downloading a package, run the EXE file, and then accept terms and conditions to unpack the compressed zip file. You then need to extract contents of that file to a folder on the computer.
 
 Depending on the operating system and security settings, you may need to perform the following steps after unpacking the zip file:
 
@@ -137,7 +137,7 @@ To create or configure users, go to **Settings > Security > Users**, and do the 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the demo data installer status window](media/sample-data-3.png)
 
-6. Before proceeding, note that installing sample data could take up to one hour(normally ~10 minutes). You'll need to make sure the computer remains on and connected to a network throughout the installation process, and that your session remains active.   
+6. Before proceeding, note that installing sample data could take up to one hour (normally ~10 minutes). You'll need to make sure the computer remains on and connected to a network throughout the installation process, and that your session remains active.   
 
 7. When you're ready, click **Next** to start the sample data installation process. After the sample data is loaded, click **Finish**.
 
@@ -187,21 +187,21 @@ This change causes the installer to bypass some important safety checks, includi
 
 There are a number of other configuration components in this pre-import configuration file. For technical users, some of these include:
 
-- **<RequiredSolutions>** specifies prerequisite solution installations and their version numbers.
+- **\<RequiredSolutions\>** specifies prerequisite solution installations and their version numbers.
 
-- **<InstallSampleData>** controls whether out-of-the-box sample data for the Dynamics 365 for Sales and Service apps is installed.
+- **\<InstallSampleData\>** controls whether out-of-the-box sample data for the Dynamics 365 for Sales and Service apps is installed.
 
     - false - skips installation of this built-in data (which is removable)
 
     - true - installs the built-in data concurrent with installation of the FS and PSA sample data
 
-- **<PreImportDataCollection>** specifies flat-file Data Maps and associated Records to be imported ahead of the main sample data installation.
+- **\<PreImportDataCollection\>** specifies flat-file Data Maps and associated Records to be imported ahead of the main sample data installation.
 
-- **<EntitiesToEnableScheduling>** specifies which entities should be enabled for Booking in Microsoft Dynamics Scheduling (aka Universal Resource Scheduling).
+- **\<EntitiesToEnableScheduling\>** specifies which entities should be enabled for Booking in Microsoft Dynamics Scheduling (aka Universal Resource Scheduling).
 
-- **<UsersToCreateAndConfigure>** specifies Bookable Resources that will be created (if they don't exist already) before the sample data import executes. Please note that the source system sample data Bookable Resource match with the target system Bookable Resource records on the FullName and login of each resource. Therefore, it is NOT possible to change the names in this preconfiguration file unless you first import sample data into a target system using these names, then rename the Bookable Resources to you desired name set along with the Enabled User records, and then export the data again for import into your final destination system (updating the **ImportUserMapFile.xml** Old and New entries accordingly.
+- **\<UsersToCreateAndConfigure\>** specifies Bookable Resources that will be created (if they don't exist already) before the sample data import executes. Please note that the source system sample data Bookable Resource match with the target system Bookable Resource records on the FullName and login of each resource. Therefore, it is NOT possible to change the names in this preconfiguration file unless you first import sample data into a target system using these names, then rename the Bookable Resources to your desired name set along with the Enabled User records, and then export the data again for import into your final destination system (updating the **ImportUserMapFile.xml** Old and New entries accordingly).
 
-- **<PluginsToDisable>** which specifies very discrete line-item plug-ins that must be disabled during the sample data import and then reenabled afterwards.
+- **\<PluginsToDisable\>** specifies very discrete line-item plug-ins that must be disabled during the sample data import and then reenabled afterwards.
 
 ### Fabrikam Robotics fictitious scenario
 
@@ -251,9 +251,9 @@ A high-level overview of the sample data is as follows:
 
 By default, all bookable resources have a default 24 work hours calendar.
 
-If you need to change the work hours for sample bookable resources, go to **Universal Resource Scheduling** >**Scheduling** > **Resources**.
+If you need to change the work hours for sample bookable resources, go to **Universal Resource Scheduling** > **Scheduling** > **Resources**.
 
-Select a user (for example, Spencer Low) and change Spencer's work hours to the hours you want to apply to multiple users. Go to **Universal Resource Scheduling > Settings > Work Hour Templates** and edit the **Default Work Template** record. In the **Template Resource** field, select a user with work hours that you want to apply to other resources. Go to **Universal Resource Scheduling > Scheduling > Resources** **> Active Bookable Resources**. Select the resources you want to change, and then select **Set Calendar**. On the **Work Template** drop down list, select the **Default Work Hour** template or another template with the correct templating resource. When you go the schedule board, you should be able to see that the resources now have updated work hours.
+Select a user (for example, Spencer Low) and change Spencer's work hours to the hours you want to apply to multiple users. Go to **Universal Resource Scheduling** > **Settings** > **Work Hour Templates** and edit the **Default Work Template** record. In the **Template Resource** field, select a user with work hours that you want to apply to other resources. Go to **Universal Resource Scheduling** > **Scheduling** > **Resources** > **Active Bookable Resources**. Select the resources you want to change, and then select **Set Calendar**. On the **Work Template** drop-down list, select the **Default Work Hour** template or another template with the correct templating resource. When you go the schedule board, you should be able to see that the resources now have updated work hours.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of active bookable resources](media/sample-data-6.png)
