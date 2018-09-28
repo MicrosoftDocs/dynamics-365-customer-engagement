@@ -28,9 +28,9 @@ search.app:
 
 ## What is the Field Service business application?
 
-Dynamics 365 for Field Service supports the methods of managing a mobile workforce and delivering products and services to your customers' locations.
+Dynamics 365 for Field Service enables organizations to support a mobile workforce and deliver products and services to your customers' locations.
 
-Field Service enables you to send the right resources, with the right skill sets, to the right customer location, at the right time, and provide your resources with the right technology to fulfill the job requirements.
+The Field Service application enables you to send the right resources with the right skill sets to the right customer location at the right time, and provide your resources with the right technology to fulfill the job requirements.
 
 ## Examples of Field Service implementations
 
