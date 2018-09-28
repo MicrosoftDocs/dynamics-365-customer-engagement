@@ -5,7 +5,8 @@
 # Installation
 ## [Field Service installation (online)](install-field-service.md)
 ## [Mobile solution installation](install-the-mobile-app.md)
-## [Sample data installation](use-demo-data.md)
+## [Sample data installation (app version 8.x)](install-sample-data.md)
+## [Sample data installation (earlier app versions](use-demo-data.md)
 ## [Activate Field Service mobile licenses](activate-fs-mobile-app-license.md)
 ## [User security roles and accounts](view-user-accounts-security-roles.md)
 ## [Org-wide default settings](configure-default-settings.md)
