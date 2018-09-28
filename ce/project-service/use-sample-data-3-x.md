@@ -1,5 +1,5 @@
 ---
-title: "Experiment with sample data (Dynamics 365 for Project Service) | MicrosoftDocs"
+title: "Sample data installation (Dynamics 365 for Project Service) | MicrosoftDocs"
 ms.custom: "dyn365-projectservice"
 ms.date: 09/28/2018
 ms.reviewer: ""
