@@ -29,6 +29,8 @@ search.app:
 
 # Account-based marketing
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Account-based marketing is an approach where you organize your marketing initiatives around account records instead of, or in addition to, contacts. That means, for example, that your leads reference accounts, and are scored based on interactions made by any or all of the contacts that belong to those accounts.
 
 Account-based marketing will make it easier for marketers who work in organizations that focus on business-to-business sales to support their salespeople's strategies and sales processes. Feature include:

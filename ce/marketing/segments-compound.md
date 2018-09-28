@@ -28,6 +28,8 @@ search.app:
 
 # Combine segments into a compound segment
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
 A compound segment applies logical operators to combine one or more existing segments into a single new segment. To create a compound segment:
 
 1. Create or edit a segment and, on the **General** tab, set its **Segment type** to **Compound segment**.

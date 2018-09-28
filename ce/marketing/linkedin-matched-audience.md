@@ -28,6 +28,8 @@ search.app:
 
 # Market to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] segments on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Matched Audiences
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
 [LinkedIn Matched Audiences](https://www.linkedin.com/help/lms/answer/86492/linkedin-matched-audiences-overview?lang=en) is a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] feature that lets you match a collection of contacts stored on an external system, like [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], to an audience of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] members with matching email addresses. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] comes ready to take advantage of this capability, so you can leverage your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] static segments to create a matching audience of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] members. Then, when you run a campaign on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)], you can target the same segments that you set up in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and also turn any leads generated on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] leads through the [LinkedIn Lead Gen Forms integration](linkedin-lead-gen-integration.md) feature also offered by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
 > [!IMPORTANT]

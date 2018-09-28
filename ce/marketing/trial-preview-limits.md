@@ -28,6 +28,8 @@ search.app:
 
 # [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] limits for trials and previews
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Trials and previews of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] are subject to the following limits and restrictions:
 
 - A maximum of 10,000 contact records can be loaded and used in the system.

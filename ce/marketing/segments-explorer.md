@@ -28,6 +28,8 @@ search.app:
 
 # Use the explore view for designing dynamic profile segments
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
 The **Explore** view provides a graphical map of the path you're creating when you are adding a query clause for a dynamic profile segment. It isn't available when you are working with an interaction segment. The **Explore** view provides an alternative to the [standard method for adding query clauses](segments-profile.md) to a dynamic profile segment, but the results are the same as when using the standard method. The explorer can sometimes help you visualize the database structure as you work. You are free to choose the method you prefer.
 
 To use the explorer, select the **Explore** button when you want to add a clause to group on the **Definition** or **Flow** tab.

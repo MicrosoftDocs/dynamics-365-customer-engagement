@@ -28,6 +28,8 @@ search.app:
 
 # Control access to designer features
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Designer feature protection lets you control which users have access to which features of the content designers, including in the email, marketing page, form, and content-block designers. You can use these settings to block access by any user or group to one or both of the following designer features:
 
 - **The designer HTML tab**: Users with access to the **HTML** tab can work with all aspects of the HTML code that goes into your designs. By blocking access to this tab, you'll make sure that design elements that you mark as locked in the HTML code (and all content outside of design elements) won't be editable by certain (or most) users. Content-block elements provide an easy setting that enables you to lock or unlock them, but you can also lock any design element by adding the `data-protected="true"` HTML attribute to its opening `<div>` tag. More information: [Use custom attributes to enable designer features](custom-template-attributes.md)

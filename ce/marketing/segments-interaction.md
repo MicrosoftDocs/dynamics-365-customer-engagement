@@ -28,6 +28,8 @@ search.app:
 
 # Design interaction-based dynamic segments
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
 The segmentation tool always works in one of two modes, which enable it to create either of the following two types of segments:
 
 - **Profile segments** query the _profile_ records stored in the customer-interaction database. Profile records are synced between your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database and the customer-interaction database and include the entities you normally work with in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](marketing-settings.md#matching-strategy).

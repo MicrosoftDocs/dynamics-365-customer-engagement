@@ -29,6 +29,8 @@ search.app:
 
 # Add custom validation rules
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
 A standard feature of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
  is its ability to check published content for errors before going live. You've probably seen this feature at work when designing email messages, customer journeys, forms, lead-scoring models, and other features that use the content designer interface. The validation (**Check for Errors**) feature works by checking for missing content (such as a required setting or a subscription-center link in a marketing email) and errors (such as illogical settings, syntax errors, or messages that won't compile). After the error check, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] displays the results right on the page, including error messages that should help the user solve the issue.
 

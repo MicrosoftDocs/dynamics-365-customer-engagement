@@ -28,6 +28,8 @@ search.app:
 
 # Create content blocks that you can reuse in multiple designs
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Content blocks let you establish a block of common content that you can reuse in multiple emails, forms, and/or pages. Use them to establish common headers, footers and other blocks of content that you would like to standardize across your communications.
 
 Content blocks work like templates. They include a fixed collection of content that you add all at once to a design. Once added, the content is copied into your design and doesn't maintain any connection to the original block content, which means that if you edit a content block itself, or its content in a particular design, other designs that already use that block won't be affected.

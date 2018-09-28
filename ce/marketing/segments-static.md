@@ -28,6 +28,8 @@ search.app:
 
 # Define a static segment
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
 To create a static segment, set its **Segment type** to **Static** on the **General** tab. Then use the **Definition** tab to find and add contacts to it, one at a time.
 
 When you are working with a static segment, the **Definition** tab lists all of the contacts from your database, with a check box shown for each. Select the check box for each contact you want to include in the segment, and clear the check box for all other contacts.

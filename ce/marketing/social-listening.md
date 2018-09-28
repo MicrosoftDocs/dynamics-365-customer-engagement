@@ -28,6 +28,8 @@ search.app:
 
 # Set up social listening and add it to any record
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Social listening in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] enables you to embed charts, information, and analytics from  [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] into any type of [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] record to see how people on social media are reacting to your campaigns, events, brands, and more.
 
 ![Social listening in Dynamics 365 for Marketing](media/social-listening-panel.png "Social listening in Dynamics 365 for Marketing")

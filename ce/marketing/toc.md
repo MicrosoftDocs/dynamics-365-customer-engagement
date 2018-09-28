@@ -89,7 +89,7 @@
 ### Build a library of marketing content
 #### [Upload and use images and files](upload-images-files.md)
 #### [Create reusable content blocks](content-blocks.md)
-#### [Create a video library and add videos to your designs](video-content.md)
+#### [Preview: Create a video library and add videos to your designs](video-content.md)
 
 ### Define market segments
 #### [Working with segments](segmentation-lists-subscriptions.md)

@@ -28,6 +28,8 @@ search.app:
 
 # Create and manage input fields for use in forms
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Each field that appears in a marketing form must map unambiguously to a contact or lead field in your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] database, where values submitted for that field will be stored. When you're designing a form, you'll see a design element for each field that is already set up, so all you need to do to add that field is drag the matching field element to your form. The most commonly used fields (such as name, address, and email) are set up by default; if you want to use additional fields, you must set them up first.
 
 ## Create or edit a marketing-form field

@@ -28,6 +28,8 @@ search.app:
 
 # Embed a marketing form on your own website
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] provides a complete solution for designing, publishing, and hosting your landing pages, but you can also embed [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] landing-page forms on your own website using your usual web-publishing tools. Marketing forms that you publish in this way function just as they would when embedded on the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] landing page, so they will generate contacts and/or leads in your database when submitted.
 
 > [!NOTE]

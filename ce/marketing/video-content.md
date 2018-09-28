@@ -26,13 +26,20 @@ search.app:
   - D365Mktg
 ---
 
-# Create a video library and add videos to your designs
+# Preview: Create a video library and add videos to your designs
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to store information about each of the videos that you use in your marketing initiatives and then include those videos in your emails and pages by adding a video design element that references a video from your video library.
 
 For each video you add to your library, you'll specify a name, video URL, embed code, and thumbnail URL. The library won't contain the video itself, just these references to it, so you'll need to host your video somewhere else, such as on one of the major video platforms like YouTube or Vimeo.
 
 When you add a video to one of your designs, the designer will automatically use the settings it needs for the type of design you are creating. For pages, the designer will embed the video, so visitors can play it without leaving the page. Most email clients don't support embedded videos, so for emails the designer will embed the thumbnail image and link it to the video URL so contacts can select the thumbnail to open the video in a new browser tab.
+
+> [!IMPORTANT]
+> This is a preview feature, so it's hidden by default. To enable it on your instance, follow the instructions given in [What are preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md).  
+> [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
+> [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
 ## Add a video to your library
 

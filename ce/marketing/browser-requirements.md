@@ -28,6 +28,8 @@ search.app:
 
 # Browser and system requirements
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is a cloud-based service that does not require special software other than an up-to-date web browser. The system and browser requirements for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] are the same as those for [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] plans for business, education, and government, as listed in  [System requirements for Office](http://go.microsoft.com/fwlink/p/?LinkId=723597).
 
 ## General browser configuration

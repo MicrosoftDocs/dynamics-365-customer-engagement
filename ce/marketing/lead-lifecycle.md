@@ -28,6 +28,8 @@ search.app:
 
 # The lead lifecycle
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Read this topic to learn how [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] handles leads and uses them to support your marketing and sales processes.
 
 ## Establish your marketing contacts
