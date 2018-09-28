@@ -1,14 +1,14 @@
 ---
 title: "Personalize the game experience in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to manage the settings that apply to all users of Dynamics 365 – Gamification."
-ms.date: 08/18/2017
+ms.date: 09/28/2018
 ms.service: dynamics-365-sales
 ms.topic: article
 applies_to: Dynamics 365 (online)
 ms.assetid: 6603e30d-19bc-4bcf-a48a-c8fb9cb84a54
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 ms.custom: 
   - dyn365-gamification
 search.audienceType: 
@@ -137,11 +137,11 @@ You can opt in for early access to newly developed features to evaluate them for
 
    - **Display Waiting Time (Seconds)**: Number of seconds before a smack talk post appears again in a Stream TV.  
 
-   - **Show BAM Posts**: Show all BAM posts on smack talk from a leaderboard shown in a Stream TV.  
+   - **Show BAM Posts**: Show all [BAM posts](glossary.md#bam-posts) on smack talk from a leaderboard shown in a Stream TV.  
 
-   - **BAM Display Count**: Define how many times a BAM post appears in a Stream TV.  
+   - **BAM Display Count**: Define how many times a [BAM post](glossary.md#bam-posts) appears in a Stream TV.  
 
-   - **BAM Display Time (Seconds)**: Number of seconds before a BAM post appears again in a Stream TV.  
+   - **BAM Display Time (Seconds)**: Number of seconds before a [BAM post](glossary.md#bam-posts) appears again in a Stream TV.  
 
    - **Enable Public Stream TV**: Allows game owners to create Stream TVs that people can view without signing in to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Manage Stream TV games in Gamification](configure-view-tvs.md)  
 

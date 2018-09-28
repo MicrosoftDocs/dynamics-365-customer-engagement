@@ -1,7 +1,7 @@
 ---
 title: "Export to an Excel dynamic worksheet (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 03/02/2017
+ms.date: 09/27/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -27,7 +27,7 @@ search.app:
 Export data to a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] worksheet so users can have the latest [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] information any time they view the worksheet. Imagine the CEO of your company getting the critical information they need without having to navigate [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] but instead, merely opening the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] link on their desktop. You can export up to 100,000 records at a time.  
   
 ## Prerequisites  
- To view and refresh dynamic data, [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] must be installed on the same computer you're using to view the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] data.  
+ To view and refresh dynamic data, [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] must be installed on the same computer you're using to view the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] data. In addition, you must connect Microsoft Outlook to Dynamics 365. See: [Set up Dynamics 365 for Outlook](../outlook-addin/user-guide/set-up.md)
   
 > [!IMPORTANT]
 >  Your operating system region settings (in [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)], **Control Panel** > **Region**) and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization language and locale (**Settings** > **Administration** > **System Settings** > **Formats tab** > **Current Format**) should be the same. If not, refreshing dynamic data with **Refresh from CRM** might cause data changes.  
