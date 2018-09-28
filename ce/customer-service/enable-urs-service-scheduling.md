@@ -32,7 +32,7 @@ With the October'18 release, the new Service Scheduling will be available in the
 
 
 > [!IMPORTANT]
-> If you are a new customer who is using the Service Scheduling feature for the first time, see [Avail the new Service Scheduling experience](#avail-the-new-service-scheduling-experience) to know how you can get the new experience </br> </br> 
+> If you are a new customer who is using the Service Scheduling feature for the first time, see [Configure the new Service Scheduling experience](#configure-the-new-service-scheduling-experience) to know how you can get the new experience </br> </br> 
 If you have been using the legacy Service Scheduling feature from Service Management, see [Configure the new Service Scheduling experience](#configure-the-new-service-scheduling-experience) to know how you can upgrade and configure the new experience.
 
 ## About the new Service Scheduling experience
@@ -104,7 +104,7 @@ Contoso bike repairs, a company that repairs bikes, schedules repair services fo
    |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Navigate the service calendar (Customer Service app)](navigate-service-calendar-cs-app.md)   |   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md) </br>    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the schedule board to configure service activity](use-schedule-board-configure-service-activity.md)  |
    |   |         | 
 
-## Avail the new Service Scheduling experience
+## Configure the new Service Scheduling experience
 
 Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.
 
@@ -122,20 +122,17 @@ To enable or migrate to the new experience, you should have the latest version o
 
 ### Get the Service Scheduling package
 
+
 ### Enable Service Scheduling in the Customer Service Hub sitemap
 
 ## Configure the new Service Scheduling experience
 
-You can migrate to the new experience either from the user interface or with the help of SDK.
+You can migrate and configure all your entity records from legacy to new service scheduling experience from the user interface by creating the entity records manually. Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions before performing the steps.
 
-### Migrate from user interface
+> [!NOTE]
+> All the entity records can be migrated and configured using the user interface except Service Activity. 
 
-
-### Migrate using SDK
-
-To install SDK and migrate, see <<>>. Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions before performing the steps.
-
-
+To migrate and configure Service Activity, see here.
 
 ### See also
 

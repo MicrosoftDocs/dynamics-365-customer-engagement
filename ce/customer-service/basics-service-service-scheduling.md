@@ -40,7 +40,7 @@ Contoso bike repairs, a company that repairs bikes, schedules repair services fo
 - Work hours during which they perform their services
 - The personnel and equipments they have, to perform those services 
 - Capacity and expert level for each personnel
-- Sites, or geographical locations where they offer their services
+- Geographical locations where they offer their services
 
 In this case, Contoso bike repairs can benefit from the Service Scheduling feature of Dynamics 365 for Customer Service. They can quickly cater to their customers who are looking to avail their repair services. With the various service scheduling entities, they can plan service activities for their customers considering the availability of resources, facilities, and equipment.
 
@@ -68,11 +68,11 @@ See [Understand Service Scheduling entities](#understand-service-scheduling-enti
  
 - **Work hours:** The hours that a resource is available for scheduling.  
   
-- **Organizational unit:** The location of a resource. Use sites to make sure that the customer and the resource are in the same location.  
+- **Organizational unit:** The location of a resource. Use organizational units to make sure that the customer and the resource are in the same location.  
   
 - **Service activity:** A schedulable appointment to provide a service to a customer. A service activity uses one or more resources to perform a service at a specific time and place. An appointment is a schedulable activity that does not use services and does not require a resource with work hours.  
   
-- **Scheduling rule:** A set of criteria that specifies which personnel, equipment, facilities, or resource groups are required to perform a service, or how to select these resources, based on parameters like quantity and capacity.  
+- **Scheduling rule:** A set of criteria that specifies which personnel, equipment, facilities, or resource categories are required to perform a service, or how to select these resources, based on parameters like quantity and capacity.  
   
 ### Capacity vs. effort—understand the difference  
  You can set up services and resources in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to take into account different-sized facilities or the experience levels of your users when a service is scheduled. This is known as capacity scheduling. Capacity is a relative unit that you define. 
