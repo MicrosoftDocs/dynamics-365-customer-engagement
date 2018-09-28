@@ -2,7 +2,7 @@
 title: "Terminology glossary for Dynamics 365 – Gamification | Microsoft Docs"
 description: "Review specific terms used in Dynamics 365 – Gamification."
 keywords: "glossary, terms, terminology"
-ms.date: 01/11/2018
+ms.date: 09/28/2018
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
 applies_to: 
@@ -10,8 +10,7 @@ applies_to:
 ms.assetid: 10c6a538-985a-4ea2-b8d9-4efc67f7363f
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-gamification
 search.audienceType: 
