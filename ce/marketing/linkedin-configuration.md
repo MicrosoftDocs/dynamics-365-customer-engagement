@@ -32,6 +32,8 @@ search.app:
 
 Administrators can use the settings pages under the **Settings** > **Advanced settings** > **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** heading to configure the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] feature. A few [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] security roles are also provided to let administrators control access to these features.
 
+[!INCLUDE [cc-linkedin-disclaimer](../includes/cc-linkedin-disclaimer.md)]
+
 ## Enable users to work with the connector and assign security roles to users
 
 LinkedIn Lead Gen provides dedicated security roles, which you assign to users so they can work with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] ads that generate leads in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]:

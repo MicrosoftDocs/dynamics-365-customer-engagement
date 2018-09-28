@@ -34,7 +34,7 @@ search.app:
 
 To see the information collected by [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen, open a lead and go to its **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Info** tab.
 
-To sync leads from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] and run campaigns on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)], you need access to a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] account that can manage sponsored content by using [LinkedIn Campaign Manager](https://www.linkedin.com/help/lms/answer/56969).
+[!INCLUDE [cc-linkedin-disclaimer](../includes/cc-linkedin-disclaimer.md)]
 
 ## Enable lead sync from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 

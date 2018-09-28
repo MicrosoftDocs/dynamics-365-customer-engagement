@@ -161,8 +161,7 @@ To use this tile, you must first do the following:
 - Create a campaign on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] that includes a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Form.
 - Set up the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen feature in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] so you can link to your [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] account and sync your [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaigns back to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [LinkedIn Lead Gen integration](linkedin-lead-gen-integration.md)
 
-> [!IMPORTANT]
-> Additional [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] charges may apply each time you target an ad campaign or other sponsored content on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)], as established in the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] terms of use.
+[!INCLUDE [cc-linkedin-disclaimer](../includes/cc-linkedin-disclaimer.md)]
 
 LinkedIn-campaign tiles provide the following settings in the **Properties** pane while selected:
 
