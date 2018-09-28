@@ -41,7 +41,7 @@ To find this information, go to **Settings** >**Advanced Settings** > **Others**
 
 - **Email**: Shows the total number of email messages you can still send this month, and the total number you have sent.
 - **Litmus**: Shows the total number of Litmus email previews (inbox previews) to can still request this month, and the total number you have used. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use the advanced inbox preview feature](prepare-marketing-emails.md#inbox-preview)
-- **Contact**: Shows the total number of *marketable contacts* that you can have in your database according to your current [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] subscription, and how many you actually have. Marketable contacts are those that you engage with marketing activities, such as emails, landing pages, forms, LinkedIn integration, events, surveys and any custom channels.
+- **Contact**: Shows the total number of *marketable contacts* that you can have in your database according to your current [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] subscription, and how many you actually have. Marketable contacts are those that you engage with marketing activities, such as emails, landing pages, forms, LinkedIn integration, events, surveys and any custom channels. Contacts that you never engage in marketing activities aren't counted.
 
 > [!Note]
 > Quotas and other limits are different based on whether you are running a trial, preview, or subscribed version of the product. 

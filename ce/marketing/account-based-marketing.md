@@ -52,7 +52,7 @@ As with all types of segments, the segments that you create for use with account
 
 ### Create a dynamic segment starting with accounts
 
-When you're creating dynamics segments for account-based marketing, you'll probably often want to start by finding the relevant accounts and then finding the attached contacts. Here's how to set up a segment like this:
+When you're creating dynamic segments for account-based marketing, you'll probably often want to start by finding the relevant accounts and then finding the attached contacts. Here's how to set up a segment like this:
 
 1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar.
 
@@ -97,9 +97,7 @@ When you set up a static segment, you'll mark a check box for each specific cont
 
     ![A static segment with filter](media/abm-segment-static.png "A static segment with filter")
 
-<!--note from editor: In the following paragraph, is "Filter drop-down lists" correct as plural (lists)?-->
-
-1. Use the filter to find the contacts that you want to include in the segment. One query that might be useful when setting up segments for account-based marketing is one that filters the list by account ID. To do that, use the **Filter** drop-down lists to set up a query clause of the following form:
+1. Use the filter to find the contacts that you want to include in the segment. One query that might be useful when setting up segments for account-based marketing is one that filters the list by account ID. To do that, use the various drop-down lists in the **Filter** area to set up a query clause of the following form:
 
     **Contact | Company Name account | is | _&lt;account-ID&gt;_**
 

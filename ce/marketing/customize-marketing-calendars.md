@@ -33,9 +33,7 @@ The [marketing calendar](marketing-calendar.md) is supplied as a standard contro
 
 There are two basic types of marketing calendars:
 
-<!--note from editor: In the following sentence, should it be "when you first open" or is a word missing after "your"?-->
-
-- **Entity-level calendars**: Entity-level calendars appear when your first opens an entity from the main navigator, such as events, customer journeys, or the main marketing calendar. They appear where you'd normally see a list view, and when present, you can switch between the calendar view and list view. Here you'll see relevant records plotted on the calendar according to their scheduled dates, and you can open any listed record from here. This type of calendar can show several types of entities and provides a system view selector for filtering the records shown.
+- **Entity-level calendars**: Entity-level calendars appear when you first open an entity from the main navigator, such as events, customer journeys, or the main marketing calendar. They appear where you'd normally see a list view, and when present, you can switch between the calendar view and list view. Here you'll see relevant records plotted on the calendar according to their scheduled dates, and you can open any listed record from here. This type of calendar can show several types of entities and provides a system view selector for filtering the records shown.
 - **Form-level calendars**: Form-level calendars appear while you are viewing a specific record, such as a specific event. They are integrated into the form view. These might appear in their own tab on the form, or as a section on a tab with other sections of settings also available. This type of calendar can only show and create records of one type of entity and they don't provide a system-view selector. They are often configured to show information that is related to the specific record where they appear.
 
 Other than the differences noted here, both types of calendars look the same and work in similar ways.
@@ -109,10 +107,8 @@ You can add a marketing calendar to any form where you think it could be useful.
 
     ![Sub-grid properties](media/calendar-add-to-form-3.png "Sub-grid properties")
 
-<!--note from editor: In the step below, should "Only related records" be in bold?-->
-
 1. In the **Data Source** section, choose the type of entity that you want to show in your calendar. Make the following settings:
-    - **Records:** Choose **All record types** to show any type of record, or choose Only related records to show only records that have a relation to a currently shown record (such as rooms reserved for a displayed event, or engagements assigned to a displayed speaker).
+    - **Records:** Choose **All record types** to show any type of record, or choose **Only related records** to show only records that have a relation to a currently shown record (such as rooms reserved for a displayed event, or engagements assigned to a displayed speaker).
     - **Entity**: Chose the type of entity you want to show in the calendar. The entity you choose must include fields for a start date and end date, and must also have a quick-create form available.
     - **Default view**: Choose a system view defined for your selected entity. This setting will filter the collection of records shown on the calendar.
 
@@ -211,9 +207,9 @@ When specifying the form, you must use the ID of the form you want to use. Here 
 
 1. Copy the value shown between **formId%3d** and **%26** (&quot;5895E983-598B-4834-80F9-68A4E9F4F744&quot; in the previous example).
 
-<!--note from editor: Just checking, is the single "n" supposed to be in the following sentence?-->
 
-1. Paste this value into the **Entity n quick-view form ID** setting described in [Configure the entities available to a calendar](#config-calendar).
+
+1. Paste this value into the **Entity *&lt;n&gt;* quick-view form ID** setting described in [Configure the entities available to a calendar](#config-calendar).
 
 ## Set the color used for each type of entity shown in the calendar
 
