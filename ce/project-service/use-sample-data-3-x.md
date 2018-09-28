@@ -6,8 +6,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "experiment-sample-data-3x"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -31,11 +29,11 @@ The sample data is installable in three separate packages, so you can install da
 
 The sample data packages are:
 
-- [**V902PSMasterData** -- Project Service version 3.x only](https://go.microsoft.com/fwlink/?linkid=2026540&clcid=0x409)
+- [**V902PSMasterData** - Project Service version 3.x only](https://go.microsoft.com/fwlink/?linkid=2026540&clcid=0x409)
 
-- [**V902FSMasterData** -- Field Service version 8.x only](https://go.microsoft.com/fwlink/?linkid=2026536&clcid=0x409)
+- [**V902FSMasterData** - Field Service version 8.x only](https://go.microsoft.com/fwlink/?linkid=2026536&clcid=0x409)
 
-- [**V902FPSMasterData** -- Field Service 8.x and Project Service 3.x](https://go.microsoft.com/fwlink/?linkid=2026041&clcid=0x409)
+- [**V902FPSMasterData** - Field Service 8.x and Project Service 3.x](https://go.microsoft.com/fwlink/?linkid=2026041&clcid=0x409)
 
 These sample data packages are available in English only.
 
