@@ -201,8 +201,6 @@ Relevance search uses the scoring concepts as defined by Azure search. To be abl
 
 Here are the required view columns:
 
-**Required View Columns**
-
 - Article Public Number
 - Title 
 - Created On 
@@ -216,18 +214,18 @@ Here are the required view columns:
 - Modified On
 - Content
 
-> [!IMPORTANT]
->  Knowledge base search in the Customer Service Hub shows relevant knowledge articles only when your organization is set up to use the native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management capability. For more information, talk to your administrator.  
 
-In the **Knowledge Base Search** box:
+#### Knowledge Base Search control
 
   ![Knowledge-article-search](media/case-form-search-rp.png "Knowledge article search") 
 
+In the Knowledge Base Search box:
+
 - Type a keyword to search for knowledge articles:
-   - If Relevance search is not enabled, the keywords that you enter will trigger a search in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.  
+   - If Relevance search is not enabled, the keywords that you enter will trigger a search (using Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.  
    - If Relevance search is enabled, you can configure the fields that you want to be searched upon. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](../admin/configure-relevance-search-organization.md#configure-searchable-fields-for-relevance-search)
 
-- To see knowledge articles in specific states, use the filters. You can filter search results to see all draft, published, or approved articles.  You can also filter the articles based on language if the  **Users can change Language Filter** check box is selected in the knowledge base Search control main form.
+- To see knowledge articles in specific states, use the filters. You can filter search results to see all draft, published, or approved articles.  You can also filter the articles based on language.
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to Main forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-main-forms)
 
@@ -237,17 +235,20 @@ In the **Knowledge Base Search** box:
 
    - To associate the knowledge article with the current case, select the  **Link the KB Article** button ![Select link the knowledge article to the case](../customer-service/media/v8-link-kb-article.png "Select to link the knowledge article to the case").  You can also dissociate the article from the case by choosing the **Unlink the knowledge article from the current record** button ![Unlink knowledge article from current record button in Dynamics 365](../customer-service/media/unlink-article.png "Unlink knowledge article from current record button in Dynamics 365").  
 
-   - To email the article directly, select the **Email** button. To send an external link of the knowledge article in an email, select the **Quick Actions** button ![Send link to the knowledge article in email](../customer-service/media/v8-email-link.png "Send link to the knowledge article in email"), and then select **Email Link**. 
+   - To email the article directly, select the **Email** button. To send an external link of the knowledge article in an email, select **Email Link**. 
 
-      An email form opens with the link to the article populated in the email body. The fields are automatically populated based on the case and customer details. Add other information as needed, and then on the command bar, select **Send**.
+      An email form opens with the link to the article. The article content is populated in the email body. The fields are automatically populated based on the case and customer details. Add other information as needed, and then on the command bar, select **Send**.
 
    - To copy the external URL of the article so you can share it with your customers over channels like chat or email, select the **Copy Link** button ![Copy knowledge article link button Dynamics 365](../customer-service/media/copy-link-button.png "Copy knowledge article link button Dynamics 365").  If you use a browser other than [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], this option isn’t available. 
 
       > [!NOTE]
-      > Copy Link and Email Link options are available only if your organization is using an external portal to publish the knowledge articles and your administrator has selected the **Use an external portal** check box in the **Embedded Knowledge search** setup.  
+      > Copy Link and Email Link options are available only if your organization is using an external portal to publish the knowledge articles and your administrator has selected the **Use an external portal** check box in the **Embedded Knowledge search** setup.  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use embedded knowledge search to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md).
 
   > [!IMPORTANT]
   > Copy Link, Email Link, and Email options can be used only for published and expired articles. 
+
+> [!IMPORTANT]
+>  Knowledge base search in the Customer Service Hub shows relevant knowledge articles only when your organization is set up to use the native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management capability. For more information, talk to your administrator. 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
 

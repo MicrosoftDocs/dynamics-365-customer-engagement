@@ -84,7 +84,7 @@ With each of the previous search areas, the search results might vary based on t
 |   |     |      - Global search  |   Categorized search     |
 |Dynamics 365 (online), version 9.0   |     |  - KB search control      |   Relevance search/ Full-text search (based on what you configure)     |
 |  |      |   - Quick find in Grids     |   Full-text search |
-|  |      |   - Global search     |   Relevance search or Categorized search     |
+|  |      |   - Global search     |   Relevance search or Categorized search (based on what you configure)    |
 
 ### See also
 
