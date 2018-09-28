@@ -59,6 +59,8 @@ To learn how to install and use the Customer Service Hub app on a mobile device,
   
 [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
 
+[Service Management Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md)
+
 ## Accessibility and GDPR
 
 Microsoft is committed towards making technology accessible to all and ensuring that its products and services are designed for everyone. Go to the [Trust Center](https://www.microsoft.com/en-us/trustcenter/compliance/accessibility) to learn about our industry-leading accessibility standards.

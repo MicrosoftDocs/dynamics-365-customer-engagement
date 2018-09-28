@@ -36,8 +36,15 @@
 ### [Embedded Knowledge Search](set-up-knowledge-management-embedded-knowledge-search.md)
 ### [Categories](create-manage-categories.md)
 ### [Entitlement Templates](set-up-entitlements-templates.md)
-### [Email Templates (Customer Service app)](../admin/create-templates-email.md)
-### [Article Templates (Customer Service app)](../admin/create-templates-articles.md)
+
+
+## [Service Scheduling Guide](basics-service-service-scheduling.md)
+### [Business closure](set-when-business-closed.md)
+### [Create or change a service](create-edit-service.md)
+### [Schedule a service activity](schedule-service-activity.md)
+### [Facilities/Equipment](add-facilities-equipment-service-scheduling.md)
+### [Resource Groups](create-edit-resource-group.md)
+### [Sites](use-sites-manage-service-locations.md)
 
 
 ## Customize
@@ -47,8 +54,7 @@
 ### [Add timer control to forms](add-timer-control-case-form-track-time-against-sla.md)
 ### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 ### [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
-### [Set the custom icon in views for Case Origin field](set-custom-icon-custom-case-origin.md)
-### [Define status reason transitions for case management](../customize/define-status-reason-transitions.md)
+
 
 ## Troubleshoot
 ### [Issue converting an email to a case](troubleshoot-case-email-issue.md)

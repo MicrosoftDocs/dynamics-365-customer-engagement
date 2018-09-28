@@ -6,7 +6,7 @@ author: anjgupta
 applies_to: Dynamics 365 (online)
 ms.author: anjgup
 manager: shujoshi
-ms.date: 06/01/2018
+ms.date: 10/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360

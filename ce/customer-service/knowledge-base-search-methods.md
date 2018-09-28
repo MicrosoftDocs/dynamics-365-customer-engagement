@@ -9,7 +9,7 @@ applies_to:
   - "Dynamics 365 Version 8.2"
 ms.author: anjgup
 manager: shujoshi
-ms.date: 08/07/2018
+ms.date: 10/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 16e57ec7-e14e-4ffa-9ca7-54a4fa63b4a9
