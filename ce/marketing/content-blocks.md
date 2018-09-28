@@ -54,7 +54,7 @@ To create and publish a content block:
 
 1. Design your content by doing one of the following:
 
-    - If you are working in the graphical designer (the **Design** > **Designer** tab), then you can only include a single design element in your content block, and only text and image elements are supported. Drag either a text element or an image element from the **Toolbox** to the canvas and configure your element as usual. More information: [Design element reference](content-blocks-reference.md)
+    - If you are working in the graphical designer (the **Design** > **Designer** tab), then you can only include a single design element in your content block, and only text and image elements are supported. Drag either a text element or an image element from the **Toolbox** to the canvas and configure your element as usual. More information: [Design elements reference](content-blocks-reference.md)
     - If you are comfortable working with HTML code, and if a single design element won't meet your needs for the content block, then you can create much more complex content by working on the **Design** > **HTML** tab instead of the **Design** > **Designer** tab. However, you still can't add code to create more than one design element within the content block.
 
     > [!NOTE]
