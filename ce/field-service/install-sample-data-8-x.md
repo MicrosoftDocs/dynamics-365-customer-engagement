@@ -39,7 +39,7 @@ The sample data packages are:
 
 These sample data packages are available in English only.
 
-**Important: There is no way to un-install the sample data**. You should only install these packages on demonstration, evaluation, training, or test systems. Also note that installing an individual package, and then installing the other individual package, is not supported. (In other words, you can't install **FSMasterData** followed by **PSMasterData,** or vice versa). If you see yourself needing sample data for both applications at any point in the future, you should install the **v902FPSMasterData** package.
+**Important: There is no way to uninstall the sample data.** You should only install these packages on demonstration, evaluation, training, or test systems. Also note that installing an individual package, and then installing the other individual package, is not supported. (In other words, you can't install **FSMasterData** followed by **PSMasterData**, or vice versa). If you see yourself needing sample data for both applications at any point in the future, you should install the **v902FPSMasterData** package.
 
 When you install any of the sample data packages, the installation process performs the following actions:
 
@@ -55,9 +55,9 @@ If you have questions about installing these sample data packages, [send us an e
 
 The installation protocol assumes the following about your target instance (org):
 
-- Dynamics 365 9.0.x or higher
+- Dynamics 365 9.0.x or later
 
-- Base language is English and base currency is US Dollar (USD,$)
+- Base language is English and base currency is US dollar (USD,$)
 
 - The org has no Field Service or Project Service data already, or only has barebones default data that comes with any new org
 
@@ -84,9 +84,9 @@ The computer should have the screen saver function turned off. Otherwise, sessio
 
 ## Download and unpack
 
-The Field Service and Project Service sample data installer is distributed as a self-extracting executable. The filenames may vary depending on the sample data package, but otherwise the steps are the same no matter which package you install.
+The Field Service and Project Service sample data installer is distributed as a self-extracting executable. The file names may vary depending on the sample data package, but otherwise the steps are the same no matter which package you install.
 
-After downloading a package, run the .EXE file, and then accept terms and conditions to unpack the compressed zip file. You then need to extract contents of that file to a folder on the computer.
+After downloading a package, run the EXE file, and then accept terms and conditions to unpack the compressed zip file. You then need to extract contents of that file to a folder on the computer.
 
 Depending on the operating system and security settings, you may need to perform the following steps after unpacking the zip file:
 
@@ -98,22 +98,21 @@ Depending on the operating system and security settings, you may need to perform
 
 4. Select **OK**.
 
-
 ## Create or configure users
 
 The **FPSMasterData** package is designed to install with one user named Spencer Low with the settings described here. To install the package correctly, you need to create (or temporarily rename) users in your Dynamics 365 to match the incoming sample data configuration.
 
-To create or configure users, go to **Settings > Security > Users**, and do the following:
+To create or configure users, go to **Settings** > **Security** > **Users**, and do the following:
 
-1. Set UserFullname="Spencer Low" with username "spencerl" (**lowercase)** to the Project Manager and Practice Manager roles.
+1. Set UserFullname="Spencer Low" with username "spencerl" (**lowercase**) to the Project Manager and Practice Manager roles.
 
 2. Select the **Spencer Low** user, and then select **Manage Roles**. Find and select the **System Administrator** role, and then select **OK** to grant full admin rights to Spencer Low. This step is necessary to ensure that sample records are created with the correct user ownership and therefore populate views correctly.
 
 3. From the downloaded package, you need to update a data mapping file with email addresses of the default user context. To do this, open **PkgFolder**, and then find and open the **ImportUserMapFile.xml** file in Notepad (or Visual Studio or another XML editor). Set the **DefaultUserToMapTo=** field to the email address of the Spencer Low user.
 
-4. If you aren't using Spencer Low with username **spencerl**, you need to update an additional file. Open the **DemoDataPreImportConfig.xml** file, and then find the **userstocreateandconfigure** tag. Update the **<login>** tag with the username of your Spencer Low user. For additional details, see the technical notes below.
+4. If you aren't using Spencer Low with username **spencerl**, you need to update an additional file. Open the **DemoDataPreImportConfig.xml** file, and then find the **userstocreateandconfigure** tag. Update the **\<login\>** tag with the username of your Spencer Low user. For additional details, see the technical notes below.
 
-**Recommendation:** Consider creating a backup of your org now, in case you need to revert to your starting point if something goes wrong during the sample data installation. For more information, see this article: [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Recommendation:** Consider creating a backup of your org now, in case you need to revert to your starting point if something goes wrong during the sample data installation. For more information, see [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## Run the Package Deployer
 
@@ -129,17 +128,17 @@ To create or configure users, go to **Settings > Security > Users**, and do the 
 
     c. Make sure **Display list of available organizations** is selected.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of package deployer window with "Display list of available organizations" checked](media/sample-data-2.png)
+      > [!div class="mx-imgBorder"]
+      > ![Screenshot of package deployer window with "Display list of available organizations" checked](media/sample-data-2.png)
 
 4. Select the Dynamics 365 organization where you want to install the sample data.
 
 5. Select **Next** until you see the **Demo Data Setup** dialog.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the demo data installer status window](media/sample-data-3.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the demo data installer status window](media/sample-data-3.png)
 
-6. Before proceeding, note that installing sample data could take up to one hour(normally ~10 minutes). You'll need to make sure the computer remains on and connected to a network throughout the installation process, and that your session remains active.   
+6. Before proceeding, note that installing sample data could take up to one hour (normally ~10 minutes). You'll need to make sure the computer remains on and connected to a network throughout the installation process, and that your session remains active.   
 
 7. When you're ready, click **Next** to start the sample data installation process. After the sample data is loaded, click **Finish**.
 
@@ -149,21 +148,26 @@ For a sanity check, verify that the number of records and types of entities list
 
 After the sample data completely loads, sign in as the Spencer Low user and confirm the following:
 
-- If the Project Service application is installed, go to **Project Service > Settings > Price Lists**. Confirm that bill rates and costs rates exist with the appropriate currency for each country/region in the data set.
+- If the Project Service application is installed, go to **Project Service** > **Settings** > **Price Lists**. Confirm that bill rates and costs rates exist with the appropriate currency for each country/region in the data set.
 
-- If the Project Service application is installed, go to **Universal Resource Scheduling > Settings > Organizational Units**. Confirm that a cost price list with the appropriate currency has been associated with each org unit (excluding city entries). If any are missing, find and associate the correct cost price list.
+- If the Project Service application is installed, go to **Universal Resource Scheduling** > **Settings** > **Organizational Units**. Confirm that a cost price list with the appropriate currency has been associated with each org unit (excluding city entries). If any are missing, find and associate the correct cost price list.
 
-- If the Field Service application is installed, go to **Project Service > Settings > Price Lists**. Confirm that bill rates and costs rates exist. Go to **Field Service > Settings > Price Lists** and check that bill rates and costs rates exist, with the appropriate currency, for each country/region in the data set.
+- If the Field Service application is installed, go to **Project Service** > **Settings** > **Price Lists**. Confirm that bill rates and costs rates exist. Go to **Field Service** > **Settings** > **Price Lists** and check that bill rates and costs rates exist, with the appropriate currency, for each country/region in the data set.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of active price lists](media/sample-data-4.png)
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of active price lists](media/sample-data-4.png)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of active organizational units](media/sample-data-5.png)
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of active organizational units](media/sample-data-5.png)
 
 ## Technical notes
 
 See below for more technical details on the installation of this data.
+
+
+
+
+
 
 ### Installing sample data on top of existing data (not recommended)
 
