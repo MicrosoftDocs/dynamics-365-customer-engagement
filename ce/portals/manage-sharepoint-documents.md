@@ -31,11 +31,15 @@ Dynamics 365 supports integration with SharePoint Online that enables you to use
 > Document management is supported with server-based integration.
 
 To work with document management capabilities of SharePoint from within Dynamic 365, you must:
-1.	Set up SharePoint integration from Portal Admin Center
-2.	Enable document management functionality in Dynamics 365
-3.	Enable document management for entities
-4.	Edit the appropriate form in Dynamics 365 to display documents
-5.	Create appropriate entity permission and assign it to the appropriate web role
+1.	[Set up SharePoint integration from Portal Admin Center](#step-1-set-up-sharepoint-integration-from-portal-admin-center)
+
+2.	[Enable document management functionality in Dynamics 365](#step-2-enable-document-management-functionality-in-dynamics-365)
+
+3.	[Enable document management for entities](#step-3-enable-document-management-for-entities)
+
+4.	[Edit the appropriate form in Dynamics 365 to display documents](#step-4-configure-the-appropriate-form-to-display-documents)
+
+5.	[Create appropriate entity permission and assign it to the appropriate web role](#step-5-create-appropriate-entity-permission-and-assign-it-to-the-appropriate-web-role)
 
 ## Step 1: Set up SharePoint integration from Portal Admin Center
 
@@ -123,106 +127,102 @@ By default, the file size is set to 10 MB. However, you can configure the file s
 
 This sample provides exact steps and configuration values to enable document management on the Case entity in Community portal.
 
-1.	Follow instructions in [Step 1](#step-1-set-up-sharepoint-integration-from-portal-admin-center
-) to ensure that portal has permissions to integrate with SharePoint. 
+1.	Follow instructions in [Step 1](#step-1-set-up-sharepoint-integration-from-portal-admin-center) to ensure that portal has permissions to integrate with SharePoint. 
 
-2.	Follow instructions in [Step 2](#step-2-enable-document-management-functionality-in-dynamics-365
-) to ensure that server-based configuration is complete for Dynamics 365 and SharePoint integration. 
+2.	Follow instructions in [Step 2](#step-2-enable-document-management-functionality-in-dynamics-365) to ensure that server-based configuration is complete for Dynamics 365 and SharePoint integration. 
 
-3.	Follow instructions in [Step 3](#step-3-enable-document-management-for-entities
-) to ensure Document Management is enabled for the Case entity.
+3.	Follow instructions in [Step 3](#step-3-enable-document-management-for-entities) to ensure Document Management is enabled for the Case entity.
 
-4.	Follow instructions in [Step 4](#step-4-configure-the-appropriate-form-to-display-documents
-) with the following configurations:
+4.	Follow instructions in [Step 4](#step-4-configure-the-appropriate-form-to-display-documents) with the following configurations:
 
   - Dynamics 365 Customization
 
-    1. Go to **Settings** > **Customization** > **Customize the System**. 
+    a. Go to **Settings** > **Customization** > **Customize the System**. 
 
-    2. In the **Default Solution**, go to the **Case** entity > **Forms**. 
+    b. In the **Default Solution**, go to the **Case** entity > **Forms**. 
     
-    3. Open the **Web – Edit Case** in form editor.
+    c. Open the **Web – Edit Case** in form editor.
 
         > [!div class="mx-imgBorder"]
         > ![Web - Edit Case form](media/web-edit-case-form.png "Web - Edit Case form")
     
-    4. Select the **Created On** field on the form, and on the **Insert** tab, select **Sub-Grid**.
+    d. Select the **Created On** field on the form, and on the **Insert** tab, select **Sub-Grid**.
 
         > [!div class="mx-imgBorder"]
         > ![Add a sub grid to the Web - Edit Case form](media/add-sub-grid.png "Add a sub grid to the Web - Edit Case form")
     
-    5. In the **Set Properties** dialog box, set the following properties, and select **OK**:
+    e. In the **Set Properties** dialog box, set the following properties, and select **OK**:
 
-      - **Name** (This can be any name): CaseDocuments 
-    
-      - **Label** (This can be any label name): Case Documents 
+        - **Name** (This can be any name): CaseDocuments 
       
-      - **Entity**: Document Locations 
-    
-      - **Default View**: Active Document Locations
+        - **Label** (This can be any label name): Case Documents 
+        
+        - **Entity**: Document Locations 
+      
+        - **Default View**: Active Document Locations
 
-        > [!div class="mx-imgBorder"]
-        > ![Sub grid properties](media/sub-grid-properties.png "Sub grid properties")
+          > [!div class="mx-imgBorder"]
+          > ![Sub grid properties](media/sub-grid-properties.png "Sub grid properties")
 
-    6. In the form editor, select **Save**, and then select **Publish**.
+    f. In the form editor, select **Save**, and then select **Publish**.
 
   - Dynamics 365 Portal Configuration
 
-    1. In Dynamics 365, go to **Portals** > **Entity Forms**.
+    a. In Dynamics 365, go to **Portals** > **Entity Forms**.
     
-    2. Find and open **Customer Service - Edit Case** entity form.
+    b. Find and open **Customer Service - Edit Case** entity form.
     
-    3. Review and ensure the following properties are set:
+    c. Review and ensure the following properties are set:
     
-      - **Entity Name**: Case (incident)
+        - **Entity Name**: Case (incident)
+      
+        - **Form Name**: Web – Edit Case
+      
+        - **Mode**: Edit
+      
+        - **Entity Permission**: Enabled
+      
+          > [!div class="mx-imgBorder"]
+          > ![Customer Service - Edit Case form](media/customer-service-edit-case-form.png "Customer Service - Edit Case form")
     
-      - **Form Name**: Web – Edit Case
-    
-      - **Mode**: Edit
-    
-      - **Entity Permission**: Enabled
-    
-        > [!div class="mx-imgBorder"]
-        > ![Customer Service - Edit Case form](media/customer-service-edit-case-form.png "Customer Service - Edit Case form")
-    
-    4. If you’ve made any changes to the form, select **Save**.
+    d. If you’ve made any changes to the form, select **Save**.
 
 5. Follow [Step 5](#step-5-create-appropriate-entity-permission-and-assign-it-to-the-appropriate-web-role
 ) to make sure entity permissions are granted to the users.
 
-  1. Go to the **Web Role** record that is associated to the user. For this sample, we’ll assume that the user has Administrator web role.
+    1. Go to the **Web Role** record that is associated to the user. For this sample, we’ll assume that the user has Administrator web role.
 
-  2. Ensure that an Entity Permission record exists by the name **Customer Service - Cases where contact is customer**. 
+    2. Ensure that an Entity Permission record exists by the name **Customer Service - Cases where contact is customer**. 
 
-    > [!NOTE]
-    > Ensure that your web role has this entity permission added. If your user is already an Administrator, then the above entity permission need not be explicitly assigned.
+      > [!NOTE]
+      > Ensure that your web role has this entity permission added. If your user is already an Administrator, then the above entity permission need not be explicitly assigned.
 
-  3. Create a new entity permission, enter the following details, and select **Save**:
+    3. Create a new entity permission, enter the following details, and select **Save**:
 
-      - **Name** (This can be any name): Customer Service - Related Documents
+        - **Name** (This can be any name): Customer Service - Related Documents
 
-      - **Entity Name**: Document Location
-      
-      - **Scope**: Parent
-      
-      - **Parent Entity Permission**: Customer Service - Cases where contact is customer
-      
-      - **Parent Relationship**: incident_SharePointDocumentLocations
-      
-      - **Privileges**: Read, Create, Append, Write, Delete
+        - **Entity Name**: Document Location
+        
+        - **Scope**: Parent
+        
+        - **Parent Entity Permission**: Customer Service - Cases where contact is customer
+        
+        - **Parent Relationship**: incident_SharePointDocumentLocations
+        
+        - **Privileges**: Read, Create, Append, Write, Delete
+
+          > [!div class="mx-imgBorder"]
+          > ![Customer Service entity permission](media/customer-service-entity-permission.png "Customer Service entity permission")
+  
+    4. Sign in to Portal to ensure document management is enabled for the Case entity.
+
+        a. Go to the **Support** page.
 
         > [!div class="mx-imgBorder"]
-        > ![Customer Service entity permission](media/customer-service-entity-permission.png "Customer Service entity permission")
-  
-  4. Sign in to Portal to ensure document management is enabled for the Case entity.
+        > ![Portal support page](media/portal-support-page.png "Portal support page")
 
-      1. Go to the **Support** page.
+        b. Click on an existing Case record from the list. Go to the **Case Documents** section on the page and see the document list added.
 
-      > [!div class="mx-imgBorder"]
-      > ![Portal support page](media/portal-support-page.png "Portal support page")
-
-      2. Click on an existing Case record from the list. Go to the **Case Documents** section on the page and see the document list added.
-
-      > [!div class="mx-imgBorder"]
-      > ![Case document](media/case-document.png "Case document")
+        > [!div class="mx-imgBorder"]
+        > ![Case document](media/case-document.png "Case document")
 
