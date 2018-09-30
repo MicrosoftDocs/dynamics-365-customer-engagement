@@ -28,6 +28,20 @@ search.app:
 
 Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Here's a list of features we added recently. For more information about portal capability updates for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to date, see [portal capabilities for Microsoft Dynamics 365 Releases](https://support.microsoft.com/en-us/help/3181191).
 
+## Portal capabilities version <<VersionNumber>> for Dynamics 365
+
+Portal capabilities version <<VersionNumber>> for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] has brought the following latest updates and features:
+
+- **Migrate Dynamics 365 Portal configuration**: You can now migrate your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal configuration from development to testing or the production environments. Migration involves exporting the existing configuration from the source [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, and then importing it into the target [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance. To migrate configuration data, you would need to use the Configuration Migration tool and a portal-specific configuration schema file. More information: [Migrate portal configuration](migrate-portal-configuration.md)
+
+- **Add Power BI visualization**: As a portal customizer, you can now use the powerbi Liquid tag to embed Power BI dashboards and reports on web pages in a portal. More information: [Set up Power BI integration](set-up-power-bi-integration.md)
+
+- **Restrict portal access by IP address**: As a portal administrator, you can now define a list of IP addresses that are allowed to access your portal. When a request to the portal is generated from any user, their IP address is evaluated against the allow list. If the IP address is not in the list, the portal replies with an HTTP 403 status code. More information: [Restrict portal access by IP address](ip-address-restrict.md)
+
+- **Manage SharePoint documents**: [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal now supports uploading and displaying documents to and from SharePoint directly on an entity form or web form in a portal. This allows portal users to view, download, add, and delete documents from a portal. Portal users can also create folders to organize their documents. More information: [Manage SharePoint documents](manage-sharepoint-documents.md)
+
+- **Enable voting for status reasons**: By default, an idea is enabled for voting only when the Status Reason is set to New. You can now enable the voting on an idea for different status reasons. To enable voting for different status reasons, you must create the Ideas/EnableVotingForStatusReasons site setting and set its value to the required status reason values. More information: [Enable voting for status reasons](crowdsource-ideas.md#enable-voting-for-status-reasons)
+
 ## Portal capabilities version 9.0.6 for Dynamics 365
 
 Portal capabilities version 9.0.6 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] has brought the following latest updates and features:
@@ -37,21 +51,6 @@ Portal capabilities version 9.0.6 for [!INCLUDE[pn-dynamics-crm](../includes/pn-
 - **Reset a portal**: You can now reset a portal if you plan to move to another geolocation or to another tenant, and don't want to use the portal anymore. When you reset a portal, the hosted resources of the portal are deleted, and the portal URL will not be accessible. More information: [Reset a portal](reset-portal.md)
 
 - **Change the base URL of a portal**: You can now change the base URL of a portal after it is provisioned. For example, if you choose contosocommunity.microsoftcrmportals.com as the base URL while provision the portal, you can later change it to contosocommunityportal.microsoftcrmportals.com as per your requirement. More information: [Change base URL](change-base-url.md)
-
-## Portal capabilities version <<VersionNumber>> for Dynamics 365
-
-Portal capabilities version <<VersionNumber>> for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] has brought the following latest updates and features:
-
-- **Migrate Dynamics 365 Portal configuration**: You can now migrate your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal configuration from development to testing or the production environments. Migration involves exporting the existing configuration from the source [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, and then importing it into the target [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance. To migrate configuration data, you would need to use the Configuration Migration tool and a portal-specific configuration schema file. More information: Migrate portal configuration
-
-- **Add Power BI visualization**: As a portal customizer, you can now use the powerbi Liquid tag to embed Power BI dashboards and reports on web pages in a portal. More information: Set up Power BI integration
-
-- **Restrict portal access by IP address**: As a portal administrator, you can now define a list of IP addresses that are allowed to access your portal. When a request to the portal is generated from any user, their IP address is evaluated against the allow list. If the IP address is not in the list, the portal replies with an HTTP 403 status code. More information: Restrict portal access by IP address
-
-- **Manage SharePoint documents**: [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal now supports uploading and displaying documents to and from SharePoint directly on an entity form or web form in a portal. This allows portal users to view, download, add, and delete documents from a portal. Portal users can also create folders to organize their documents. More information: Manage SharePoint documents
-
-- **Enable voting for status reasons**: By default, an idea is enabled for voting only when the Status Reason is set to New. You can now enable the voting on an idea for different status reasons. To enable voting for different status reasons, you must create the Ideas/EnableVotingForStatusReasons site setting and set its value to the required status reason values. More information: Enable voting for status reasons
-
 
 
 ## Portal capabilities version 8.4.1 for Dynamics 365
