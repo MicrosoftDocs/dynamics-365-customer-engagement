@@ -143,26 +143,26 @@ This sample provides exact steps and configuration values to enable document man
     
     c. Open the **Web – Edit Case** in form editor.
 
-        > [!div class="mx-imgBorder"]
-        > ![Web - Edit Case form](media/web-edit-case-form.png "Web - Edit Case form")
+      > [!div class="mx-imgBorder"]
+      > ![Web - Edit Case form](media/web-edit-case-form.png "Web - Edit Case form")
     
     d. Select the **Created On** field on the form, and on the **Insert** tab, select **Sub-Grid**.
 
-        > [!div class="mx-imgBorder"]
-        > ![Add a sub grid to the Web - Edit Case form](media/add-sub-grid.png "Add a sub grid to the Web - Edit Case form")
+      > [!div class="mx-imgBorder"]
+      > ![Add a sub grid to the Web - Edit Case form](media/add-sub-grid.png "Add a sub grid to the Web - Edit Case form")
     
     e. In the **Set Properties** dialog box, set the following properties, and select **OK**:
 
-        - **Name** (This can be any name): CaseDocuments 
+      - **Name** (This can be any name): CaseDocuments 
+    
+      - **Label** (This can be any label name): Case Documents 
       
-        - **Label** (This can be any label name): Case Documents 
-        
-        - **Entity**: Document Locations 
-      
-        - **Default View**: Active Document Locations
+      - **Entity**: Document Locations 
+    
+      - **Default View**: Active Document Locations
 
-          > [!div class="mx-imgBorder"]
-          > ![Sub grid properties](media/sub-grid-properties.png "Sub grid properties")
+        > [!div class="mx-imgBorder"]
+        > ![Sub grid properties](media/sub-grid-properties.png "Sub grid properties")
 
     f. In the form editor, select **Save**, and then select **Publish**.
 
@@ -174,16 +174,16 @@ This sample provides exact steps and configuration values to enable document man
     
     c. Review and ensure the following properties are set:
     
-        - **Entity Name**: Case (incident)
-      
-        - **Form Name**: Web – Edit Case
-      
-        - **Mode**: Edit
-      
-        - **Entity Permission**: Enabled
-      
-          > [!div class="mx-imgBorder"]
-          > ![Customer Service - Edit Case form](media/customer-service-edit-case-form.png "Customer Service - Edit Case form")
+      - **Entity Name**: Case (incident)
+    
+      - **Form Name**: Web – Edit Case
+    
+      - **Mode**: Edit
+    
+      - **Entity Permission**: Enabled
+    
+        > [!div class="mx-imgBorder"]
+        > ![Customer Service - Edit Case form](media/customer-service-edit-case-form.png "Customer Service - Edit Case form")
     
     d. If you’ve made any changes to the form, select **Save**.
 
