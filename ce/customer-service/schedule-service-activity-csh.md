@@ -76,6 +76,8 @@ Additionally,
 - If the service activity has been completed by the resource, select **Mark Complete** from the command bar. 
 - Select **Close Service Activity** to close a service activity.
 
+  ![create service activity](media/create-service-activity.png)
+
 ### See also
 
 [Use the schedule board to configure service activity](use-schedule-board-configure-service-activity.md)

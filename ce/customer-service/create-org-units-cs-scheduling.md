@@ -55,6 +55,8 @@ Make sure that you have the System Administrator or System Customizer security r
 
    Active organizational units can be edited, assigned, shared, or viewed from the **Active Organizational Units** system view.
 
+   ![create organizational unit](media/create-org-unit.png)
+
 ### See also
 
 [Service Scheduling overview](basics-service-service-scheduling.md)
