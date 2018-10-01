@@ -2,7 +2,7 @@
 title: "About Unified Interface Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Introducing the new Unified Interface."
 ms.custom: ""
-ms.date: 07/04/2018
+ms.date: 10/01/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -118,35 +118,33 @@ In case you have requirements to create your own experience on Unified Interface
 
 ## Capabilities not yet on Unified Interface
 
-There are certain experiences that are currently not available on Unified Interface. We are working to provide these in future releases. We've added an option to switch to classic mode (select ![Settings gear](media/settings-gear-icon.png "Settings gear")), which enables easy access to missing experiences in the browser.
+Some capabilities of the previous web client are either unavailable in the Unified Interface, or are available in a hybrid experience. 
 
-The following are not currently available with Unified Interface:
+There are certain experiences that are currently not available on Unified Interface. We are working to provide these in future releases. In the meantime, you can [enable hybrid experience](enable-hybrid-experience.md) to enable easy access to some missing experiences in the browser.
 
-- Advanced Find 
-- Bulk edit 
+You can [enable the hybrid experience](enable-hybrid-experience.md) to get the following capabilities in the browser client:
+
+- Advanced Find
+- Bulk edit
 - Merge records
 - Record sharing
-- All options under **Set Personal Options** (![Settings gear](media/settings-gear-icon.png "Settings gear"))
-- Chart drill down 
-- Learning Path
-- Creating personal dashboards and charts
-- Creating personal views
-- Charts as visualization for sub-grids on forms 
-- Activities roll-up view
-- Creating email template with slugs 
-- Creating duplicate detection jobs
-- Composite address control 
-- Run workflow
-- Filtering on read-only grids 
-- Run report (SSRS)
-- Letter, Fax, Recurring Appointments 
-- Campaign management – campaigns, campaign activities and quick campaign
-- Goal management
-- Marketing list 
-- Position entity 
-- Global notifications
-- Admin experiences 
-- Editable grids on phones 
+- All options user Set Personal Options
+- Personal dashboards
+- SSRS report viewer (Run Reports)
+
+The following are currently unavailable in the Unified Interface and we are working to provide these in future releases:
+
+-	Creating personal charts
+-	Custom styling of advanced chart properties (excluding colors and basic formatting)
+-	Reports entity (experiences to create and manage SSRS reports; excludes Run Report)
+-	Third-party search provider (Coveo search)
+-	Composite address control
+-	Letter, Fax, Recurring Appointments
+-	Campaign management – campaigns, campaign activities, marketing list,and quick campaign
+-	Global notifications
+-	Admin experiences
+-	Editable grids on phones
+-	Learning Path
 
 ## Read-only entities on Unified Interface
 
@@ -157,6 +155,8 @@ There are certain entities that are currently read-only on Unified Interface. Us
 
 The following are entities that are currently read-only in Unified Interface:
 
+- Audit Trail
+- Connection Role
 - EmailSignature
 - Entitlement
 - KnowledgeArticleViews
