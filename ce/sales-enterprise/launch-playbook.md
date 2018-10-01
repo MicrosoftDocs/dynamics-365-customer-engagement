@@ -26,16 +26,18 @@ topic-status: Tech Reviewing
 
 To ensure consistency in your business process or to know what steps to follow in certain scenarios or events, rely on the playbooks prepared by your managers that guide you with the actions you can take. Playbooks can also contain best practices based on practices that have worked in similar situations before.
 
-1.  Go to the record you want to launch playbook from. For example, if you know your organization has playbooks created for opportunities, open an opportunity record.
+1. Make sure you have the **Playbook user** role or equivalent permissions.
 
-2.  On the command bar, select **Launch playbook**.
+2.  Go to the record you want to launch playbook from. For example, if you know your organization has playbooks created for opportunities, open an opportunity record.
+
+3.  On the command bar, select **Launch playbook**.
 
      ![launch playbook button on opportunity record](media/launch-playbook-button-opportunity.png "Launch playbook button on opportunity record")  
 
     > [!NOTE]
     > The **Launch playbook** button appears on an entity form only when there’s at least one published playbook template for that entity. If you do not see this button, talk to your playbook manager.
 
-3.  In the **Playbook templates** dialog box, select a playbook that you want to use, and then select **Launch**.
+4.  In the **Playbook templates** dialog box, select a playbook that you want to use, and then select **Launch**.
 
     You’ll see a notification “Playbook launched successfully.”
 
