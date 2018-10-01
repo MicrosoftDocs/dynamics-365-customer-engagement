@@ -72,17 +72,96 @@ Uses the  `<CrmClientTypeRule>` element to allow definition of rules depending o
 -   `CrmForOutlookOfflineAccess`  
 
 ### Custom Rule
- Uses the `<CustomRule>` element. Use this kind of rule to call a function in a JavaScript Library that returns a Boolean value.  
+ Uses the `<CustomRule>` element. Use this kind of rule to call a function in a JavaScript library that returns a Promise (Unified client) or boolean (Unified client and web client).
+
+```TypeScript
+function EnableRule(): boolean
+{
+    const value = Xrm.Page.getAttribute("field1").getValue();
+    return value === "Active";
+}
+```
 
 > [!NOTE]
->  Custom rules that do not return a value quickly can affect the performance of the ribbon. If you have to perform logic that might take some time to complete, use the following strategy to make your custom rule asynchronous:  
->   
-> 1.  Define a rule that checks for a custom object. You might check for an object such as `Window.ContosoCustomObject.RuleIsTrue` that you just attach to the Window.  
-> 2.  If that object exists, return it.  
-> 3.  If that object does not exist, define the object and set the value as false.  
-> 4.  Before you return a value, use [settimeout](https://msdn.microsoft.com/library/ms536753\(VS.85\).aspx) to execute an asynchronous callback function to re-set the object. Then return false.  
-> 5.  After the callback function has performed the operations that are required to determine the correct result, it sets the value of the object and uses the `refreshRibbon` method to refresh the ribbon.  
-> 6.  When the ribbon is refreshed, it detects the object together with the accurate value set and the rule is evaluated.  
+>  Custom rules that do not return a value quickly can affect the performance of the ribbon. If you have to perform logic that might take some time to complete, use the following strategy to make your custom rule asynchronous:
+
+#### Unified client
+ Unified client rules support returning a Promise rather than boolean for asynchronous rule evaluation
+ ```TypeScript
+function EnableRule(): Promise<boolean>
+{
+    const request = new XMLHttpRequest();
+    request.open('GET', '/bar/foo');
+
+    return new Promise<boolean>((resolve, reject) =>
+    {
+        request.onload = function (e)
+        {
+            if (request.readyState === 4)
+            {
+                if (request.status === 200)
+                {
+                    resolve(request.responseText === "true");
+                }
+                else
+                {
+                    reject(request.statusText);
+                }
+            }
+        };
+        request.onerror = function (e)
+        {
+            reject(request.statusText);
+        };
+
+        request.send(null);
+    });
+}
+```
+
+#### Web client
+```TypeScript
+let ruleEnabled: boolean;
+function EnableRule(): boolean
+{
+    if (ruleEnabled !== undefined)
+    {
+        return ruleEnabled;
+    }
+
+    const request = new XMLHttpRequest();
+    request.open('GET', '/bar/foo');
+
+    const promise = new Promise<boolean>((resolve, reject) =>
+    {
+        request.onload = function (e)
+        {
+            if (request.readyState === 4)
+            {
+                if (request.status === 200)
+                {
+                    ruleEnabled = request.responseText === "true";
+
+                    // Refresh ribbon to re-evaluate rule
+                    Xrm.Page.ui.refreshRibbon();
+                }
+                else
+                {
+                    ruleEnabled = false;
+                }
+            }
+        };
+        request.onerror = function (e)
+        {
+            ruleEnabled = false;
+        };
+    });
+
+    request.send(null);
+    return false;
+}
+```
+
 
 ### Entity Rule
  Uses the `<EntityRule>` element. Entity rules allow for evaluation of the current entity. This is useful when you define custom actions that apply to the Entity Template instead of for specific entities. For example, you may want to add a ribbon element to all entities except for several specific entities. It is easier to define the custom action for the Entity Template that applies to all entities and then use an Entity Rule to filter out those that should be excluded.  
