@@ -74,8 +74,8 @@ Uses the  `<CrmClientTypeRule>` element to allow definition of rules depending o
 ### Custom Rule
  Uses the `<CustomRule>` element. Use this kind of rule to call a function in a JavaScript library that returns a Promise (Unified client) or boolean (Unified client and web client).
 
-```TypeScript
-function EnableRule(): boolean
+```JavaScript
+function EnableRule()
 {
     const value = Xrm.Page.getAttribute("field1").getValue();
     return value === "Active";
@@ -87,13 +87,13 @@ function EnableRule(): boolean
 
 #### Unified client
  Unified client rules support returning a Promise rather than boolean for asynchronous rule evaluation
- ```TypeScript
-function EnableRule(): Promise<boolean>
+ ```JavaScript
+function EnableRule()
 {
     const request = new XMLHttpRequest();
     request.open('GET', '/bar/foo');
 
-    return new Promise<boolean>((resolve, reject) =>
+    return new Promise((resolve, reject) =>
     {
         request.onload = function (e)
         {
@@ -120,9 +120,9 @@ function EnableRule(): Promise<boolean>
 ```
 
 #### Web client
-```TypeScript
-let ruleEnabled: boolean;
-function EnableRule(): boolean
+```JavaScript
+let ruleEnabled;
+function EnableRule()
 {
     if (ruleEnabled !== undefined)
     {
@@ -132,7 +132,7 @@ function EnableRule(): boolean
     const request = new XMLHttpRequest();
     request.open('GET', '/bar/foo');
 
-    const promise = new Promise<boolean>((resolve, reject) =>
+    const promise = new Promise((resolve, reject) =>
     {
         request.onload = function (e)
         {
