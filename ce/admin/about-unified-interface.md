@@ -2,7 +2,7 @@
 title: "About Unified Interface Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Introducing the new Unified Interface."
 ms.custom: ""
-ms.date: 09/28/2018
+ms.date: 10/01/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -118,27 +118,28 @@ In case you have requirements to create your own experience on Unified Interface
 
 ## Capabilities not yet on Unified Interface
 
-There are certain experiences that are currently not available on Unified Interface. We are working to provide these in future releases. We've added two options to enable easy access to missing experiences in the browser:
-
-1. [Enable hybrid experience](enable-hybrid-experience.md)
-2. switch to classic mode (select ![Settings gear](media/settings-gear-icon.png "Settings gear"))
+There are certain experiences that are currently not available on Unified Interface. We are working to provide these in future releases. In the meantime, you can [enable hybrid experience](enable-hybrid-experience.md) to enable easy access to some missing experiences in the browser.
 
 The following are not currently available with Unified Interface:
 
 - Learning Path
 - Creating personal charts
-- Activities roll-up view
 - Composite address control 
 - Letter, Fax, Recurring Appointments 
-- Campaign management – campaigns, campaign activities and quick campaign
-- Goal management
-- Marketing list 
+- Campaign management – campaigns, campaign activities, marketing list,and quick campaign
 - Global notifications
 - Admin experiences 
 - Editable grids on phones 
 - Third-party search provider (Coveo search)
 - Custom styling of advanced chart properties (excluding colors and basic formatting)
 - Reports entity (experiences to create and manage SSRS reports; excludes Run Report)
+- Advanced Find*
+- Bulk edit*
+- Merge records*
+- Record sharing*
+- All options user Set Personal Options*
+
+*Enable hybrid experience to see these displayed as legacy dialogs.
 
 ## Read-only entities on Unified Interface
 
