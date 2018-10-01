@@ -46,7 +46,9 @@ Make sure that you have the System Administrator or System Customizer security r
 
 6. In the **Related** section, you can view and manage various resource category associations.
 
-Similarly, you can create a new requirement resource category for requirements. 
+   ![resource categories](media/resource-categories.png)
+
+Similarly, you can create a new requirement resource category for requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a Requirement Resource Category](#create-a-requirement-resource-category).
 
 ## Add resources to a resource category
 
@@ -57,6 +59,12 @@ To assign resources to resource category:
 2. Select **Add New Bookable Resource Category Association**. A resource category is populated. 
 
 3. Add a resource to this resource category by selecting a resource in the **Resource** box. You can either lookup for an existing resource or create a new one.
+
+## Create a Requirement Resource Category
+
+1. In the **Related** section, go to **Requirement Resource Category**.
+
+2. Select **Add New Requirement Resource Category** and fill the required fields. A requirement resource category is created.
 
 
 ### See also 

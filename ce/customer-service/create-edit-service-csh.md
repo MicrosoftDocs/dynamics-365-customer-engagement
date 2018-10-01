@@ -48,9 +48,11 @@ Make sure that you have the System Administrator or System Customizer security r
 3. On the command bar, select **New** to create a new service. To edit a service, open a service from the list.  
   
 4. In the **General** section, enter a **Name** and **Description** to reflect the specifics of the service and describe what the service is. </br> Also, specify the initial status of the service activity when it is created. If your organization prefers to approve all service activities before committing them to the schedule, you can select **Requested** or **Tentative**.
-5. Select **Save**. The service grid is displayed for the service.
+5. Select **Save** to save the service.
 
-5. In the service grid, define your selection rule:
+   ![Create a service](media/create-service-csh.png)
+
+5. In the **Resource Requirement** section, define your selection rule:
 
    - Add a new requirement subgroup by selecting **Subgroup**. 
    - Add a new resource requirement by selecting **Requirement**.
@@ -58,15 +60,17 @@ Make sure that you have the System Administrator or System Customizer security r
 
      > [!NOTE]
      > The maximum duration of an appointment or service activity is 10 days.
-   - Choose is the service is **Part of Same** organizational unit, resource tree or location.
+   - Choose if the service is **Part of Same** organizational unit, resource tree or location.
    - Lookup or quick create a **Fulfillment Preference**.
    - Specify the **Organizational Unit**.
    - Add **Resource Categories**  and define **Characteristics**.
    - Add **Preferred Resource**. You can add as many resources as you want, and they can be a mix of individual users, facilities, equipment, and teams. 
-   - Define **Sort Option**.
-   - Provide **Effort Required**.
+   - Define **Sort Option** to sort according to most and least business impact.
+   - Provide **Effort Required**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Capacity vs. effort—understand the difference](basics-service-service-scheduling.md#capacity-vs-effortunderstand-the-difference).
 
-   You can add complexity to a rule by adding a subrule to it.  
+   You can add complexity to a rule by adding a subrule to it.  ]
+
+   ![Resource requirement](media/resource-requirement-csh.png)
 
 > [!NOTE]
 >  You can save a service without defining a selection rule, but you won’t be able to schedule that service.   

@@ -44,7 +44,7 @@ Make sure that you have the System Administrator or System Customizer security r
   
     - **Name**. Enter the name of the facility or equipment you want to add for service scheduling.  
   
-    - **Business Unit Id**. Dynamics 365 enters the business unit automatically. To choose a different business unit, select the **Lookup** button and then select from the list. You can also create a new business unit id.
+    - **Business Unit Id**. Enter a business unit id. To choose an id, select the **Lookup** button and then select from the list. You can also create a new business unit id.
   
     - **Organizational Unit**. Select the location where the facility or equipment is located.
 
@@ -58,6 +58,8 @@ Make sure that you have the System Administrator or System Customizer security r
     - **Description**. Add details about the facility or equipment, such as the numbers, size, make, or model.  
   
 6.  When you’re done, select **Save** or **Save and Close**.  
+
+    ![facility and equipment](media/facility-equipment-csh-ss.png)
   
 ## Set work hours for a facility or equipment
 

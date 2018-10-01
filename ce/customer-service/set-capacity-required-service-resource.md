@@ -8,7 +8,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
 manager: shujoshi
-ms.date: 09/15/2017
+ms.date: 10/01/2018
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
 ms.topic: article

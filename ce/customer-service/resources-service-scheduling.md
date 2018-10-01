@@ -71,8 +71,8 @@ Make sure that you have the System Administrator or System Customizer security r
 
     - Select the **Start Location** and the **End Location** to specify which location the resource will be at, when starting and ending work.
     - Select an **Organizational Unit** for the resource.
-    - Select if the resource should be displayed on the schedule board.
-    - Select if you want to enable the resource for availability search.
+    - Select if the resource should be displayed on the schedule board in the **Display On Schedule Board** box.
+    - Select if you want to enable the resource for availability search in the **Enable for Availability Search** box.
 
 6. In the **Related** section, view and create all the common associations for the resource. You can create the following:
 
@@ -87,9 +87,13 @@ Make sure that you have the System Administrator or System Customizer security r
    - Resource's Children
    - Resource's Parents
 
+7. Once you are ready, select **Save**.
+
+   ![bookable resources](media/bookable-resource-csh.png)
+
 ## Set work hours for the resources
 
-You can set work hours for the bookable resources where you can define when the resources will be available to be booked for services.
+You can set work hours for the bookable resources where you can define when the resources will be available to be booked for services. Select **Show Work Hours** from the command bar to define work hours.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set work hours for a resource](set-work-hours-resource.md#set-work-hours-for-a-resource)
 

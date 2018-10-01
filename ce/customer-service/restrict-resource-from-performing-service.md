@@ -8,7 +8,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
 manager: shujoshi
-ms.date: 09/15/2017
+ms.date: 10/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
@@ -36,7 +36,7 @@ You can restrict a resource from performing a service and define the service cap
       
 5.  On the **Monthly View** tab, double-click a date on the calendar that is either the first day you want to restrict the resource from performing the service or a date in a recurring schedule.  
   
-6. In the **Edit Weekly Schedule** dialog box, select one of the following options, and then click **OK**.  
+6. In the **Edit Weekly Schedule** dialog box, select one of the following options, and then select **OK**.  
   
     - **This date only**  
   
@@ -54,19 +54,19 @@ You can restrict a resource from performing a service and define the service cap
   
          Selecting this option might change past days, which may affect reports regarding hours worked in the past.  
   
-7. In the **Weekly Schedule** dialog box, click the work hours link for the schedule you want to modify.  
+7. In the **Weekly Schedule** dialog box, select the work hours link for the schedule you want to modify.  
   
-8. In the **Work Day** dialog box, click the **Service Restrictions** tab.  
+8. In the **Work Day** dialog box, select the **Service Restrictions** tab.  
   
-9. On the Actions toolbar, click **New**.  
+9. On the Actions toolbar, select **New**.  
   
-10. In the **Service Restrictions** dialog box, find and select a **Service**. Click the **Lookup** button to search for a record.  
+10. In the **Service Restrictions** dialog box, find and select a **Service**. Select the **Lookup** button to search for a record.  
   
-11. In the **Start time** and **End time** lists, set the time when the facility or equipment is not available, and then click **OK**.  
+11. In the **Start time** and **End time** lists, set the time when the facility or equipment is not available, and then select **OK**.  
   
-12. Click **OK**, to close the **Work Day** dialog box.  
+12. Select **OK**, to close the **Work Day** dialog box.  
   
-13. Click **Save** or **Save and Close**.  
+13. Select **Save** or **Save and Close**.  
   
 > [!NOTE]
 > - You can set up service restrictions in your own work schedule.  
