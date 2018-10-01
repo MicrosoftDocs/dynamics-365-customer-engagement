@@ -25,12 +25,10 @@ topic-status: Tech Reviewing
 
 When a playbook is launched, its related activities are created and associated with the record the playbook is launched from (also called the calling record). You must complete these activities to ensure every event is dealt with consistently.
 
-If the playbook template used for the playbook has its **Track status** field set to **Yes**, the activities are created under the playbook record under the calling record. If the **Track status** field is set to **No**, the activities are created directly under the calling record.
+If the playbook template used for the playbook has its **Track progress** field set to **Yes**, the activities are created under the playbook record under the calling record. If the **Track progress** field is set to **No**, the activities are created directly under the calling record.
 
 
-<!---note from editor: Should the following line say "Track status" instead of "Track progress"?-->
-
-To see the activities created by the playbook when the Track progress field in the playbook template is set to **Yes**:
+To see the activities created by the playbook when the **Track progress** field in the playbook template is set to **Yes**:
 
 1.  Go to the record you launched the playbook from. For example, if you launched the playbook from an opportunity record, go to the opportunity record.
 
@@ -50,7 +48,7 @@ To see the activities created by the playbook when the Track progress field in t
 
     For example, it shows when the playbook was launched, how many total activities it has, how many of the activities are completed, and what’s the estimated close date. It also shows all the related playbook activities in the **Playbook activities** section. After you are done working on these activities, mark them as completed.
 
-    To see the activities if the **Track status** field of the playbook template is set to **No**, in the calling record, see the Timeline section.
+    To see the activities if the **Track progress** field of the playbook template is set to **No**, in the calling record, see the Timeline section.
 
     Alternately, in the calling record, select the **Related** tab, and then select **Activities**.
 
