@@ -30,7 +30,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-This article describes how to install the Dynamics 365 for Field Service solution for online instances of Dynamics 365. This includes the Field Service online solution for administrators and dispatchers, the mobile solution for mobile administrators, and the mobile application for field technicians.
+This article describes how to install the Dynamics 365 for Field Service solution for Dynamics 365 (online). The installation includes the Field Service online solution for administrators and dispatchers, the mobile solution for mobile administrators, and the mobile application for field technicians.
 
 Estimated time to complete this task is 20 minutes.
 
