@@ -2,7 +2,7 @@
 title: "Install the Dynamics 365 for Field Service (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
+ms.date: 10/02/2018
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
