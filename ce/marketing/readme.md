@@ -44,15 +44,15 @@ This document provides important, late-breaking information about known issues a
 
 ### Known issues
 
-- Triggers set to react to a specific "link clicked" after an email tile show multiple options for the same link. These triggers might not work correctly because clicks are not always attributed to the correct link. <!--- 759533 - Marketing Backlog -->
-- Deactivated contacts won't receive any emails from journeys they were participating in, but they might continue to be included in other actions, such as tasks and workflows. <!--- 759533 - Marketing Backlog -->  
+- Triggers set to react to a specific "link clicked" after an email tile show multiple options for the same link. These triggers might not work correctly because clicks are not always attributed to the correct link. <!--- 759533 -->
+- Deactivated contacts won't receive any emails from journeys they were participating in, but they might continue to be included in other actions, such as tasks and workflows. <!--- 759533 -->  
 - Insights for journeys, emails, and marketing pages may take up to six hours to display.
-- If you stop a live customer journey, and then add contacts to the target segment and restart the journey, these added contacts might receive emails sent by this journey more than once. <!---1196442 - October Release-->
+- If you stop a live customer journey, and then add contacts to the target segment and restart the journey, these added contacts might receive emails sent by this journey more than once. <!---1196442 -->
 
 ### Fixed issues
 
 - Users can now check for errors on both the **General** and **Designer** tabs of a customer journey.  
-  <del>*The “checking for errors” operation triggered in the customer journey’s **General** tab results in a time-out. Users can continue   to “check for errors” from the **Designer** tab.*</del> <!---1208237 dependency - pushed to production on 10th Aug 2018-->
+  <del>*The “checking for errors” operation triggered in the customer journey’s **General** tab results in a time-out. Users can continue   to “check for errors” from the **Designer** tab.*</del> <!---1208237-->
 - The snapshot view generated for a customer journey now displays all tiles.  
   <del>*The snapshot view generated for journeys might be missing some tiles.*</del>  <!--- 690797 -->
 
@@ -60,12 +60,12 @@ This document provides important, late-breaking information about known issues a
 
 ### Known issues
 
-- Segment names can't have spaces&mdash;use underscores instead.<!---695837 - Marketing Backlog-->
-- You can't include lookup fields among your segmentation criteria.<!---852372 - Marketing Backlog-->  
-- Metadata used for building conditions and drop-downs shown on the designer isn't localized for non-English organizations. <!--- 992449 - Marketing Backlog -->
-- The **Save** button isn't visible on the command bar after the initial save of the segment. Use the **Save** button in the lower-right corner of the page instead. <!--- 862491 - Marketing Backlog -->
-- When trying to estimate the size of a segment where the query doesn't end in a contact, the system displays a server communication error. To correct this error, make sure your segment definition ends with a clause that links to the contact entity as described in [Design profile-based dynamic segments](segments-profile.md). <!--- 1226384 Backlog-->
-- If you go live with a new segment and then open the **Members** tab right away, you'll see a message telling you that the segment doesn't exist (even though it does). Reload the page, or open another tab and come back, to view the correct message (that the segment is being provisioned). Later, once the segment is finished provisioning, you'll see the list of contacts it contains here. <!---  1251946 Sept 1 release-->
+- Segment names can't have spaces&mdash;use underscores instead.<!---695837 -->
+- You can't include lookup fields among your segmentation criteria.<!---852372 -->  
+- Metadata used for building conditions and drop-downs shown on the designer isn't localized for non-English organizations. <!--- 992449 -->
+- The **Save** button isn't visible on the command bar after the initial save of the segment. Use the **Save** button in the lower-right corner of the page instead. <!--- 862491 -->
+- When trying to estimate the size of a segment where the query doesn't end in a contact, the system displays a server communication error. To correct this error, make sure your segment definition ends with a clause that links to the contact entity as described in [Design profile-based dynamic segments](segments-profile.md). <!--- 1226384 -->
+- If you go live with a new segment and then open the **Members** tab right away, you'll see a message telling you that the segment doesn't exist (even though it does). Reload the page, or open another tab and come back, to view the correct message (that the segment is being provisioned). Later, once the segment is finished provisioning, you'll see the list of contacts it contains here. <!---  1251946-->
 
 ### Fixed issues
 
@@ -78,13 +78,14 @@ This document provides important, late-breaking information about known issues a
 - Selecting **Stop** on a live email will prevent it from being used in future journeys, but it will continue to function in existing live journeys, which will continue to delver it.
 - If you reuse the same email multiple times (within the same journey or in different journeys) you will see incorrect performance results on its **Insights** pages.
 - Many email templates have placeholder images. You should replace these placeholder images with actual images so that marketing emails look professional.
-- When you save a new keyword for templates or files from a quick-create form, the keyword grid isn't displayed, but the record is created successfully. <!--- 1033440 - October Release -->
+- When you save a new keyword for templates or files from a quick-create form, the keyword grid isn't displayed, but the record is created successfully. <!--- 1033440 -->
+- For certain orgs, test send would not work. <!--- 1267485 -->
 
 ## Marketing pages and forms
 
 - When configuring a form on a page, we recommend that you enter a confirmation message or a redirect URL, so users can see that they successfully submitted the form.
 - It can take up to a minute after a marketing page goes live before its public link (full page URL) is ready. Visitors might see an error message on the page prior to this.
-- Marketing pages from the sample data might not go live for some organizations (especially on Italian or Japanese localizations). But can still create new pages and go live with them. <!--- 1156824 - October Release -->
+- Marketing pages from the sample data might not go live for some organizations (especially on Italian or Japanese localizations). But can still create new pages and go live with them. <!--- 1156824 -->
 - Forms submitted over HTTP (not HTTPS) generate interaction records that don't include the contact ID, which means these interactions can't be used in interaction-based segments. If you are hosting a form on an external page (not hosted on a Dynamics 365 marketing page), then make sure your page uses HTTPS.
 
 ## Lead scoring and management
