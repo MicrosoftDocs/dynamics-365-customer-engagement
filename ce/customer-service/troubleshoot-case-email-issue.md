@@ -53,8 +53,7 @@ The following options should be enabled in an ideal email to case conversion sce
 
 - **Create contact for unknown sender** box should be checked.
 - Condition criteria should be set to **Any incoming email**.
-- Actions:
-	Create case - > Click on View properties and set the case fields as per business use case
+- In a case, select **View properties** and set the case fields as per business use case
 
 
 > [!NOTE]
@@ -65,19 +64,49 @@ The following options should be enabled in an ideal email to case conversion sce
 
 ## Issue scenarios and resolution
 
-Given below is a list of some common issue scenarios and their resolutions, where the configuration went wrong and the system failed to create a case.
+Given below is a list of some common issue scenarios and their resolutions when the Customer field is confiured in the Case Details section. 
+
+The scenarios show where the configuration went wrong and the system failed to create a case. They also suggest how you can correct the configurations.
 
 #### Scenario 1
 
+In the Customer field of the Case Details section, **Senders Account (Email)** is set as below value.
+
+![email-case-scenario](media/email-case-scenario.png)
+
+This results in the following error in system jobs:
+
+![error-email-case](media/error-email-case.png)
+
+To resolve this issue, keep the Customer field blank or set it to **{Sender(Email)}**. This allows the system to automatically create contact for the unknown sender and link it to the case.
+
 #### Scenario 2
+
+The Customer field is set as **{Senders Account(Email)}** and Contact field as **{Sender(Email)}**.
+
+![error-email-case-contact](media/error-email-case-contact.png)
+
+This results in the following error in system jobs:
+
+![case-email-error](media/case-email-error.png)
+
+To resolve this issue, keep the Customer field blank or set it to **{Sender(Email)}**. This allows the system to automatically create contact for the unknown sender and link it to the case.
 
 #### Scenario 3
 
+The Customer field and Contact field are set as **{Sender(Email)}**.
+
+![case-email-scenario](media/case-email-scenario.png)
+
+This results in the following error in system jobs:
+
+![error-system-jobs](media/error-system-jobs.png)
+
+To resolve this issue, leave contact field blank and set Customer field either to blank or to **{Sender(Email)}**.
 
 ## Validation steps
 
-You must validate the configuration and validation steps given in the following table to understand the main cause of the issue:
-
+You must validate the configuration and validation steps given in the following table to understand the main cause of the issue, and resolve it:
 
 |Option in Automatic Record Creation and Update Rule in Service Management  |If selected as  |Validation steps  |Outcome  |
 |---------|---------|---------|---------|
