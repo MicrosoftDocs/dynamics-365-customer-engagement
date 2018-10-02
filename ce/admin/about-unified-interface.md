@@ -118,21 +118,9 @@ In case you have requirements to create your own experience on Unified Interface
 
 ## Capabilities not yet on Unified Interface
 
-Some capabilities of the previous web client are either unavailable in the Unified Interface, or are available in a hybrid experience. 
+We released some capabilities of the legacy web client in the Unified Interface that are available in the hybrid experience. You can [enable the hybrid experience](enable-hybrid-experience.md) to get them in the browser client.
 
-There are certain experiences that are currently not available on Unified Interface. We are working to provide these in future releases. In the meantime, you can [enable hybrid experience](enable-hybrid-experience.md) to enable easy access to some missing experiences in the browser.
-
-You can [enable the hybrid experience](enable-hybrid-experience.md) to get the following capabilities in the browser client:
-
-- Advanced Find
-- Bulk edit
-- Merge records
-- Record sharing
-- All options user Set Personal Options
-- Personal dashboards
-- SSRS report viewer (Run Reports)
-
-The following are currently unavailable in the Unified Interface and we are working to provide these in future releases:
+There are certain capabilities that continue to be unavailable in the Unified Interface and we are working to provide these in future releases:
 
 -	Creating personal charts
 -	Custom styling of advanced chart properties (excluding colors and basic formatting)
@@ -140,7 +128,7 @@ The following are currently unavailable in the Unified Interface and we are work
 -	Third-party search provider (Coveo search)
 -	Composite address control
 -	Letter, Fax, Recurring Appointments
--	Campaign management – campaigns, campaign activities, marketing list,and quick campaign
+-	Campaign management – campaigns, campaign activities, marketing list, and quick campaign
 -	Global notifications
 -	Admin experiences
 -	Editable grids on phones
