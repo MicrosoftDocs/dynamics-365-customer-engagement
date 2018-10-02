@@ -38,7 +38,8 @@ Estimated time to complete the installation is 20 minutes.
 
 You need a Dynamics 365 organization. If you don't already have one set up, [sign up for a Field Service trial](https://trials.dynamics.com/). 
 
-![Field Service Installation  Online  image1](media/Field-Service-Installation-(Online)-image1.png)  
+> [!div class="mx-imgBorder"]
+> ![Field Service trial sign-up](media/field-service-trial.png)  
 
 If you would like to purchase Dynamics 365 through a trial, directly, through volume licensing, or through a cloud solution provider, please view more information at the following link: <https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online>
 
