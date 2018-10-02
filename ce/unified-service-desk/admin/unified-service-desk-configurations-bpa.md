@@ -188,7 +188,7 @@ Set the **InternetExplorerPooling** option to **true**:
 3. On the **Active UII Options** page, select **New**.
 4. In the **Global Option** field, select **Others**.
 5. In the **Name** field, enter **InternetExplorerPooling**.
-6. In the **Vaule** field, select **true**.
+6. In the **Value** field, select **true**.
 7. Select **Save**.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [**Enable Internet Explorer pooling**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/performance-enhancement-crm-entity-page-loads)
