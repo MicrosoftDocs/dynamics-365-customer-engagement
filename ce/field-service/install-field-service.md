@@ -36,22 +36,18 @@ Estimated time to complete the installation is 20 minutes.
 
 ## Prerequisites
 
-You need a Dynamics 365 organization. If you don't already have one set up, [sign up for a Field Service trial](https://trials.dynamics.com/). 
+You need a Dynamics 365 organization with system administrator access. If you don't already have one set up, [sign up for a Field Service trial](https://trials.dynamics.com/). 
 
 > [!div class="mx-imgBorder"]
 > ![Field Service trial sign-up](media/Field-Service-Installation-(Online)-image1.png)  
 
-If you would like to purchase Dynamics 365 through a trial, directly, through volume licensing, or through a cloud solution provider, please view more information at the following link: <https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online>
+## Add Field Service to a Dynamics 365 organization
 
-If you have a Dynamics 365 organization proceed to the next step.
+You can add the Field Service application to a Dynamics 365 organization either for a trial, or as a purchased subscription.
 
-## 2) Add Field Service to your existing D365 organization
+1. Using system administrator credentials, sign in to the Dynamics 365 organization.
 
-You can add Field Service to your D365 organization via a trial or via purchasing.
-
-Log into your Dynamics 365 organization **with a system administrator role**.
-
-To add a trial of Field Service, navigate to **Settings &gt; Microsoft AppSource**
+2. To add a Field Service trial of Field Service, navigate to **Settings &gt; Microsoft AppSource**
 
 ![Field Service Installation  Online  image2](media/Field-Service-Installation-(Online)-image2.png)  
 
