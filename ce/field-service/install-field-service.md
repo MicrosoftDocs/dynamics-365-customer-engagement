@@ -32,6 +32,8 @@ search.app:
 
 This article describes how to install the Dynamics 365 for Field Service solution for Dynamics 365 (online). The installation includes the Field Service solution for administrators and dispatchers, the mobile solution for mobile administrators, and the mobile application for field technicians.
 
+You can add the Field Service application to a Dynamics 365 organization either for a trial, or as a purchased subscription.
+
 Estimated time to complete the installation is 20 minutes.
 
 ## Prerequisites
@@ -41,42 +43,38 @@ You need a Dynamics 365 organization with system administrator access. If you do
 > [!div class="mx-imgBorder"]
 > ![Field Service trial sign-up](media/Field-Service-Installation-(Online)-image1.png)  
 
-## Add Field Service to a Dynamics 365 organization
-
-You can add the Field Service application to a Dynamics 365 organization either for a trial, or as a purchased subscription.
+## Add a Field Service trial to a Dynamics 365 organization
 
 1. Using system administrator credentials, sign in to the Dynamics 365 organization.
 
-2. To add a Field Service trial of Field Service, navigate to **Settings &gt; Microsoft AppSource**
+2. To add a Field Service trial of Field Service, go to **Settings &gt; Microsoft AppSource**. Search for Field Service, and then select Field Service free trial.
 
 ![Field Service Installation  Online  image2](media/Field-Service-Installation-(Online)-image2.png)  
 
-And select a free trial of Field Service
+3. Enter the Dynamics 365 organization name.
 
 ![Field Service Installation  Online  image3](media/Field-Service-Installation-(Online)-image3.png)  
 
-> [!Note]
-> **Hint:** make sure to choose the correct D365 organization
+## Add a purchased subscription of Field Service to a Dynamics 365 organization
 
-Alternatively, you can purchase Field Service by navigating to the **Office365 admin center &gt; Purchase Services**
+To purchase Field Service and then add it to an Dynamics 365 organization, to to the **Office365 admin center &gt; Purchase Services**. Follow the on-screen instructions to install the application. Installation may take several minutes.
 
 ![Field Service Installation  Online  image4](media/Field-Service-Installation-(Online)-image4.png)  
 
-Installation can take several minutes.
 
-## 3) Check if Field Service is installed in your D365 organization
+## Verify the Field Service installation
 
-Log into your Dynamics 365 organization **with a system administrator role**. If Field Service is installed it will appear as an app.
+1. Sign in to your Dynamics 365 organization **with a system administrator role**. If Field Service is installed it will appear as an app.
 
 ![Field Service Installation  Online  image5](media/Field-Service-Installation-(Online)-image5.png)  
 
-Additionally, if working within the Dynamics 365-custom app, Field Service will appear as a module.
+2. Additionally, if you're working within the Dynamics 365 custom app, Field Service appears as a module.
 
 ![Field Service Installation  Online  image6](media/Field-Service-Installation-(Online)-image6.png)  
 
 ![Field Service Installation  Online  image7](media/Field-Service-Installation-(Online)-image7.png)  
 
-## 4) Install the Field Service mobile solution
+## Install the Field Service mobile solution
 
 Once the Field Service solution is installed, you will need to install the mobile solution. Remember, specific roles of the Field Service solution called field technicians utilize mobile phones and tablets to view and interact with work orders and other important data. You can dispatch, route, and complete work orders, manage invoices, and more with the mobile app. The following steps will enable field technicians to use the mobile application and will allow administrators to customize the mobile experience.
 
@@ -106,7 +104,7 @@ The Woodford solution will now appear in the solutions list as well as under Set
 
 ![Field Service Installation  Online  image14](media/Field-Service-Installation-(Online)-image14.png)  
 
-## 5) Import the default mobile configurations
+## Import the default mobile configurations
 
 Next, let’s open the Woodford interface. This is done 2 ways.
 
@@ -172,7 +170,7 @@ Request a Woodford trial extension at the following link: <https://docs.microsof
 
 
 
-## 6) Download the Field Service Mobile (2017) application on your phone/tablet
+## Download the Field Service Mobile (2017) application on your phone/tablet
 
 Field technicians and mobile workers will interact with Field Service via a mobile phone/tablet.
 
@@ -180,7 +178,7 @@ Download the **Field Service Mobile (2017)** mobile app from the Windows, iOS, o
 
 ![Field Service Installation  Online  image21](media/Field-Service-Installation-(Online)-image21.png)  
 
-## 7) Perform Initial Setup
+## Perform Initial Setup
 
 At this point Dynamics 365 for Field Service is installed. Congratulations!
 
@@ -191,8 +189,5 @@ You are so close to using the application. All that is left to do is
 2.  [Add sample data](../field-service/use-demo-data.md)
 
 3.  perform initial configurations
-
-### Privacy notice  
- [!INCLUDE[cc_privacy_field_service_mobile_app](../includes/cc-privacy-field-service-mobile-app.md)]
 
 
