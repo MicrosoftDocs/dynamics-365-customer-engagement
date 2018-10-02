@@ -1,7 +1,7 @@
 ---
 title: "Delete a Dynamics 365 Customer Engagement business unit | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/02/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
