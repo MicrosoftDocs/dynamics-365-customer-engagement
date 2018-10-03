@@ -18,7 +18,7 @@ Estimated Duration: 10 minutes
 
 1.  Dynamics 365 environment with the Field Service solution and mobile solution (Resco Woodford) installed along with the mobile project imported. Instructions can be found [here](./install-field-service.md).  
 
-2.  Sample data installed (recommended) – installing sample data with the [package deployer](/install-sample-data-8-x.md) will complete many recommended initial configurations  
+2.  Sample data installed (recommended) – installing sample data with the [package deployer](./install-sample-data-8-x.md) will complete many recommended initial configurations  
 
 3.  Verify you can log into Dynamics 365 with a **system administrator** security role
 
@@ -130,7 +130,7 @@ If you do not want the system to auto geocode addresses, this can be accomplishe
 
 There are a few configurations that should be considered in relation to the mobile application that field technicians will use to carry out work orders.
 
-The following section requires you have the mobile solution (Resco Woodford) installed along with the mobile project imported. Instructions can be found [here](/install-field-service.md).  
+The following section requires you have the mobile solution (Resco Woodford) installed along with the mobile project imported. Instructions can be found [here](./install-field-service.md).  
 
 In a **non-private internet explorer browser**, log into your Dynamics 365 organization as a system administrator and navigate to **Settings > Woodford > MobileCRM Woodford**
 
