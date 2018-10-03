@@ -12,7 +12,8 @@ In the October 2018 release of Field Service, the mobile app will be updated to 
 
 ![Mobile FAQs image2](media/Mobile-FAQs-image2.png)
 
-**Pro Tip:** You can download the latest version of Woodford and simply publish to a previous version that is compatible. As an example, the org in the picture below has Woodford 11.1 installed but the mobile project is published to 9.1 to accommodate the 9.1 release of the Field Service mobile (2017). This is advantageous because when Field Service 11.1 is released you will not need to update Woodford.
+>[!Note]
+> **Pro Tip:** You can download the latest version of Woodford and simply publish to a previous version that is compatible. As an example, the org in the picture below has Woodford 11.1 installed but the mobile project is published to 9.1 to accommodate the 9.1 release of the Field Service mobile (2017). This is advantageous because when Field Service 11.1 is released you will not need to update Woodford.
 
 To view your Woodford solution version, in a non-private Internet Explorer navigate to **Settings > Woodford > MobileCRM Woodford**
 
@@ -56,7 +57,8 @@ To fix this, in a non-private Internet Explorer browser as an administrator, nav
 
 -   If you are on Dynamics CRM Online 2016 Update 1, use this [mobile project template](http://go.microsoft.com/fwlink/p/?LinkId=808250)  
 
-**Hint:** You may need to save the template file to a file location on your computer and not the Downloads folder.
+>[!Note]
+> **Hint:** You may need to save the template file to a file location on your computer and not the Downloads folder.
 
 Next, import this file into Woodford
 
@@ -214,4 +216,5 @@ Ensure your mobile user has only the **Field Service—resource** security role 
 
 ![Mobile FAQs image23](media/Mobile-FAQs-image23.png)  
 
-**Pro Tip:** Bookings are scheduled to Resources, but User records are used to log into the mobile app. This is made possible because Resources can be tied to User records.
+>[!Note]
+> **Pro Tip:** Bookings are scheduled to Resources, but User records are used to log into the mobile app. This is made possible because Resources can be tied to User records.
