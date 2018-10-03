@@ -14,7 +14,7 @@ In the October 2018 release of Field Service, the mobile app will be updated to 
 
 **Pro Tip:** You can download the latest version of Woodford and simply publish to a previous version that is compatible. As an example, the org in the picture below has Woodford 11.1 installed but the mobile project is published to 9.1 to accommodate the 9.1 release of the Field Service mobile (2017). This is advantageous because when Field Service 11.1 is released you will not need to update Woodford.
 
-To view your Woodford solution version, in a non-private Internet Explorer navigate to **Settings &gt; Woodford &gt; MobileCRM Woodford**
+To view your Woodford solution version, in a non-private Internet Explorer navigate to **Settings > Woodford > MobileCRM Woodford**
 
 ![Mobile FAQs image3](media/Mobile-FAQs-image3.png)
 
@@ -28,23 +28,23 @@ Within the mobile project…
 
 There are multiple reasons a user may not be able to sync his mobile application to the server or why the application crashes immediately.
 
-1.  Incorrect URL, username, or password. **This is the most common reason**.
+1) Incorrect URL, username, or password. **This is the most common reason**.
 
-2.  There is no mobile project in Woodford, or the mobile project is unpublished
+2)  There is no mobile project in Woodford, or the mobile project is unpublished
 
-3.  The mobile project is published to a later version than the mobile app
+3)  The mobile project is published to a later version than the mobile app
 
-4.  Your user does not have the correct security role to access the mobile application
+4)  Your user does not have the correct security role to access the mobile application
 
-### Incorrect URL, username, or password. **This is the most common reason**. 
+### 1) Incorrect URL, username, or password. **This is the most common reason**. 
 
 Edit the URL, username, and password in Setup. Note the username and password are case sensitive.
 
 ![Mobile FAQs image6](media/Mobile-FAQs-image6.png)  
 
-### There is no mobile project in Woodford, or the mobile project is unpublished
+### 2) There is no mobile project in Woodford, or the mobile project is unpublished
 
-To fix this, in a non-private Internet Explorer browser as an administrator, navigate to **Settings &gt; Woodford &gt; MobileCRM Woodford** and verify a mobile project exists. A blue circle indicates it is published.
+To fix this, in a non-private Internet Explorer browser as an administrator, navigate to **Settings > Woodford > MobileCRM Woodford** and verify a mobile project exists. A blue circle indicates it is published.
 
 ![Mobile FAQs image3](media/Mobile-FAQs-image3.png)
 
@@ -72,7 +72,7 @@ Finally, double click on the project (template) to view it.
 
 Select **Publish**
 
-### The mobile project is published to a later version than the mobile app
+### 3) The mobile project is published to a later version than the mobile app
 
 Example: if you are using mobile app version 9.1 but your mobile project in Woodford is published to 9.2+ or the latest.
 
@@ -84,7 +84,7 @@ To fix this, first check the version of your mobile app in the About section
 
 ![Mobile FAQs image1](media/Mobile-FAQs-image1.png)
 
-Next, to view your Woodford solution version, in a non-private Internet Explorer navigate to **Settings &gt; Woodford &gt; MobileCRM Woodford**
+Next, to view your Woodford solution version, in a non-private Internet Explorer navigate to **Settings > Woodford > MobileCRM Woodford**
 
 ![Mobile FAQs image3](media/Mobile-FAQs-image3.png)
 
@@ -92,11 +92,11 @@ And then enter the related mobile project and ensure it is not published to a hi
 
 ![Mobile FAQs image5](media/Mobile-FAQs-image5.png)
 
-### Your user does not have the correct security role to access the mobile application
+### 4) Your user does not have the correct security role to access the mobile application
 
 When an administrator of the mobile application sets up Woodford, he/she must assign a set of security roles to a mobile project (default configurations). This decides which users get access to the customizations of the project. If a user logs into the mobile app and does not have a security role that corresponds to a published mobile project, the user will not be able to sync to the server.
 
-In a non-private Internet Explorer browser, navigate to **Settings &gt; Woodford MobileCRM Woodford **
+In a non-private Internet Explorer browser, navigate to **Settings > Woodford MobileCRM Woodford **
 
 ![Mobile FAQs image3](media/Mobile-FAQs-image3.png)  
 
