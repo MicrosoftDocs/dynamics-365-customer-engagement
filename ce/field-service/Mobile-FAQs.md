@@ -118,13 +118,13 @@ Then, match the selected security roles above with the user’s security roles i
 
 There are typically 3 reasons bookings are not showing on the mobile app
 
-1.  You need to sync the mobile application to the server and receive data updates
+1)  You need to sync the mobile application to the server and receive data updates
 
-2.  You are in offline mode and the booking is outside the sync filters
+2)  You are in offline mode and the booking is outside the sync filters
 
-3.  Drip scheduling is enabled for the related resource and the booking is outside the *bookings to drip* number parameter
+3)  Drip scheduling is enabled for the related resource and the booking is outside the *bookings to drip* number parameter
 
-### You need to sync the mobile application to the server and receive data updates
+### 1) You need to sync the mobile application to the server and receive data updates
 
 When a dispatcher books a work order to a resource, this takes place on the server and may take time to update on the mobile application. The time it takes for the booking to show on the mobile application can depend on internet speeds, internet connection, and even configurations. As an example, the mobile app can be configured to sync data from the server every X minutes or only when connected to Wi-Fi.
 
@@ -132,13 +132,13 @@ First, try manually syncing data from the server by selecting the sync button.
 
 ![Mobile FAQs image14](media/Mobile-FAQs-image14.png)  
 
-If you have trouble syncing, try going to **Setup &gt; Delete Data** &gt; **Save** and sync again.
+If you have trouble syncing, try going to **Setup > Delete Data > **Save** and sync again.
 
 ![Mobile FAQs image15](media/Mobile-FAQs-image15.png)  
 
 Finally, there are scenarios where forcing a full sync to the device can push changes that will allow the user to see bookings. One such scenario is a change in security roles.
 
-To force a full sync to the device, in a non-private Internet Explorer browser as an administrator, navigate to **Settings &gt; Woodford &gt; MobileCRM Woodford.**
+To force a full sync to the device, in a non-private Internet Explorer browser as an administrator, navigate to **Settings > Woodford > MobileCRM Woodford.**
 
 ![Mobile FAQs image3](media/Mobile-FAQs-image3.png)
 
@@ -150,7 +150,7 @@ Next, log into the mobile app with the same user and sync the device.
 
 For more information on Forcing Full Syncs, refer to the Woodford guide: <https://www.resco.net/downloads/Woodford_Guide.pdf>
 
-### You are in offline mode in the mobile app and the booking is outside the sync filters
+### 2) You are in offline mode in the mobile app and the booking is outside the sync filters
 
 The Field Service mobile application is designed for offline scenarios. This means data is downloaded locally to the device when the user has internet access for later when the user will not have internet access. A common example is performing work in remote areas or in underground tunnels. Rather than download all data, a mobile administrator can create sync filters that will download a targeted portion of the data for offline use later. An example is only downloading this week’s work orders rather than all work orders.
 
@@ -172,11 +172,11 @@ Then navigate to Bookings to view your bookings. Not this may take a few moments
 
 A second way to fix this is to edit sync filters for offline mode.
 
-To edit sync filters for Bookings, in a non-private Internet Explorer browser as an administrator, navigate to **Settings &gt; Woodford &gt; MobileCRM Woodford.**
+To edit sync filters for Bookings, in a non-private Internet Explorer browser as an administrator, navigate to **Settings > Woodford > MobileCRM Woodford.**
 
 ![Mobile FAQs image3](media/Mobile-FAQs-image3.png)
 
-Enter the mobile project and navigate to **Bookable Resource Bookings &gt; Sync Filters**
+Enter the mobile project and navigate to **Bookable Resource Bookings > Sync Filters**
 
 ![Mobile FAQs image19](media/Mobile-FAQs-image19.png)  
 
@@ -186,13 +186,13 @@ If your booking is not showing in offline mode, make sure it meets the sync filt
 
 ![Mobile FAQs image20](media/Mobile-FAQs-image20.png)  
 
-### Drip scheduling is enabled for the related resource and the booking is outside the bookings to drip number parameter
+### 3) Drip scheduling is enabled for the related resource and the booking is outside the bookings to drip number parameter
 
 Drip scheduling is a feature that only displays the next bookings as current bookings are completed. An example is only displaying the next 2 bookings for a field technician.
 
 One reason you may not see bookings when you log into the mobile app is because drip scheduling may be preventing the booking.
 
-To fix this, navigate to **Field Service &gt; Administration &gt; Resources**
+To fix this, navigate to **Field Service > Administration > Resources**
 
 ![Mobile FAQs image21](media/Mobile-FAQs-image21.png)  
 
@@ -210,7 +210,7 @@ This typically means you are logging into the mobile app with a user who has sys
 
 **System administrators** and **Field Service—administrators** have access to all Field Service records including all bookings scheduled to all resources. In contrast, users with the security role **Field Service—resource** only have access to work orders scheduled to that resource and related user.
 
-Ensure your mobile user has only the **Field Service—resource** security role in **Settings &gt; Security &gt; Users &gt; Manage roles**
+Ensure your mobile user has only the **Field Service—resource** security role in **Settings > Security > Users > Manage roles**
 
 ![Mobile FAQs image23](media/Mobile-FAQs-image23.png)  
 
