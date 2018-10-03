@@ -122,9 +122,11 @@ If you do not want the system to auto geocode addresses, this can be accomplishe
 
 ![Perform Initial Configurations image16](media/Perform-Initial-Configurations-image16.png)  
 
-**Pro Tip \#1:** When using the Field Service application, it is uncommon to enter addresses on a work order. The standard process is to geocode accounts, and when a service account is entered on a work order as the service location, the geocoded address is pulled from the account and added to the work order.
+>[!Note]
+> **Pro Tip \#1:** When using the Field Service application, it is uncommon to enter addresses on a work order. The standard process is to geocode accounts, and when a service account is entered on a work order as the service location, the geocoded address is pulled from the account and added to the work order.
 
-**Pro Tip \#2:** It is possible to geocode multiple records at one time by selecting the records from a view. In the picture below, we are mass geocoding accounts.
+>[!Note]
+> **Pro Tip \#2:** It is possible to geocode multiple records at one time by selecting the records from a view. In the picture below, we are mass geocoding accounts.
 
 ![Perform Initial Configurations image17](media/Perform-Initial-Configurations-image17.png)  
 
@@ -138,7 +140,8 @@ In a **non-private internet explorer browser**, log into your Dynamics 365 organ
 
 ![Perform Initial Configurations image18](media/Perform-Initial-Configurations-image18.png)  
 
-**Pro Tip:** Alternatively, instead of Internet Explorer, you can download the Resco Woodford standalone application. Just once, in a **non-private internet explorer browser,** navigate to <https://www.resco.net/mobilecrm/woodford.html> and download the standalone application and launch it.
+>[!Note]
+>**Pro Tip:** Alternatively, instead of Internet Explorer, you can download the Resco Woodford standalone application. Just once, in a **non-private internet explorer browser,** navigate to <https://www.resco.net/mobilecrm/woodford.html> and download the standalone application and launch it.
 
 Whether you access from the standalone application or Internet Explorer, you will be taken to the Woodford interface
 
