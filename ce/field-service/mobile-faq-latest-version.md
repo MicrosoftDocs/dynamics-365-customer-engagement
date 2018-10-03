@@ -51,3 +51,6 @@ To view your Woodford solution version, in a non-private Internet Explorer navig
 Within the mobile project…
 
 ![Mobile FAQs image5](media/Mobile-FAQs-image5.png)
+
+>[!Note]
+> The Woodford published version CANNOT exceed the mobile app version. As an example, if you are using mobile app version 9.1, you cannot publish your Woodford mobile project to greater than 9.1
