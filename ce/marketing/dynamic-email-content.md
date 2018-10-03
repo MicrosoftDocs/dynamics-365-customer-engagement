@@ -62,8 +62,14 @@ To view, edit, or create a content-settings set:
     - **Address line 2**: Enter supplemental postal address information (if needed).
     - **Default**: Set to **Yes** to make the current content-settings set the default for all new customer journeys. There must always be exactly one default; if you change the default, the existing default will automatically be changed to **No**.
     - **LinkedIn URL**,  **Twitter URL**,  **Facebook URL**, and  **YouTube URL**: For each of these social-media services, enter the URL for the landing page for your organization.  
-    - **Subscription center**: Specify an existing marketing page that is set up as a subscription center. Select the  **&lt;/&gt;**  button to choose from a list of available pages. All marketing email messages must include a valid subscription-center link taken from a content-settings set.
-    - **Forward to a friend**: Specify an existing marketing page that is set up as a forward-to-a-friend page. Select the  **&lt;/&gt;**  button to choose from a list of available pages.
+    - **Subscription center**: Specify an existing marketing page that is set up as a subscription center. Select the  **&lt;/&gt;**  button to use [assist-edit](#assist-edit) to choose from a list of available pages. You could instead enter a custom URL or expression that links to an external subscription center here (see the notes after this list). All marketing email messages must include a valid subscription-center link taken from a content-settings set.
+    - **Forward to a friend**: Specify an existing marketing page that is set up as a forward-to-a-friend page. Select the  **&lt;/&gt;**  button to use [assist-edit](#assist-edit) to choose from a list of available pages. You could instead enter a custom URL or expression that links to an external forwarding page.
+
+    > [!NOTE]
+    > When you choose a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] marketing page for the subscription center or forwarding page, the resulting expression should resemble the following: `{{msdyncrm_marketingpage(a2d3c828-74af-e811-a95b-000d3a3655ec).msdyncrm_full_page_url}}`, where the value in parenthesis is the [record ID](record-id) of the marketing page, and `msdyncrm_full_page_url` places the URL of that page.
+
+    > [!IMPORTANT]
+    > It's possible to use an external subscription center rather than one created and hosted by [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] by entering its URL in the **Subscription center** field. You can use dynamic expressions in your URL (for example, to add the recipient's email address as a URL parameter value), but the [assist-edit](#assist-edit) button won't help you do that while working in this field, so you must type the expression manually (or you could use assist-edit to construct the expression, for example, in a text element and then copy it here). If you choose to use an external subscription center, then it is your organization's responsibility to ensure that it complies with all regulations in the countries/regions of all marketing email recipients. Custom development will most likely be required to integrate your external system with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
 1. Select **Save** in the bottom-right corner of the window to save your settings.
 
@@ -99,6 +105,8 @@ After you've selected a source, the  **Assist Edit**  drop-down list is updated 
 
 -  `{{contact.firstname}}`  
 Places the recipient's first name.
+- `{{msdyncrm_marketingpage(a2d3c828-74af-e811-a95b-000d3a3655ec).msdyncrm_full_page_url}}`  
+Places the URL for the marketing page identified by the [record ID](record-id) in parentheses.
 - `{{msdyncrm_contentsettings.msdyncrm_subscriptioncenter}}`  
 Places the URL for the subscription center page identified in the content settings configured for the customer journey that sends the message.
 - `{{msdyncrm_contentsettings.msdyncrm_forwardtoafriend}}`  
@@ -106,9 +114,11 @@ Places the URL to the forwarding page identified in the content settings configu
 - `{{Message.ViewAsWebpageURL}}`  
 Places the URL for opening the current message in a web browser.
 - `{{msevtmgt_event(8a519395-856c-4e22-b560-650ce6d6a79d).msevtmgt_webinarurl}}`  
-Places the webinar URL for the event identified by the specified event ID (in parentheses).
+Places the webinar URL for the event identified by the [record ID](record-id) in parentheses.
 - `{{msdyn_survey(39128da2-c968-4627-9595-f030b6571be4).msdyn_name}}`  
 Places the name of the survey identified by the specified survey ID (in parentheses).
+
+<a name="record-id"></a>
 
 ## Find record IDs
 
