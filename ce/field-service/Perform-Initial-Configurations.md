@@ -130,7 +130,7 @@ If you do not want the system to auto geocode addresses, this can be accomplishe
 
 There are a few configurations that should be considered in relation to the mobile application that field technicians will use to carry out work orders.
 
-The following section requires you have the [mobile solution (Resco Woodford) installed](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-the-mobile-app) and the mobile project imported.  
+The following section requires you have the mobile solution (Resco Woodford) installed along with the mobile project imported. Instructions can be found [here](/install-field-service.md).  
 
 In a **non-private internet explorer browser**, log into your Dynamics 365 organization as a system administrator and navigate to **Settings > Woodford > MobileCRM Woodford**
 
