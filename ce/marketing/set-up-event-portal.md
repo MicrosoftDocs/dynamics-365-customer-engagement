@@ -30,6 +30,9 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
+> [!IMPORTANT]
+> This topic describes the sample event portal that is included with Dynamics 365 for Marketing. *The sample event portal is intended for demo and testing purposes only.* Any customizations that you make to the sample event portal will likely get overwritten the next time you update Dynamics 365 for Marketing, so if you want to create a custom event portal to use in production, you must create a new website in your Dynamics 365 portal. You can start by recreating the sample event portal on the new site, and then apply customizations as needed. For more information about how to create a new website in the portal, see [Create and manage websites](../portals/websites.md).. The sample event portal is editable, so you can still experiment with it, but be aware that your customizations are only temporary and are likely to be entirely overwritten the next time you update the system.
+
 The event portal is a customer-facing website that people can use to read about your event and its speakers, create an account, register for the event, purchase passes, view their session schedule, and more. The following image shows a site map of your event portal as your attendees will see it.
 
 ![Sitemap for the standard event portal](media/event-portal-sitemap-ill.png "Site map for the standard event portal")
