@@ -95,7 +95,7 @@ Solve customer issues quickly with [!INCLUDE[pn_fieldservice_mobile_app_long](..
  After the Woodford solution is installed, you’ll need to download a template that will help you configure the mobile app. The template is required if you are using the Woodford solution.  
   
 > [!NOTE]
->  For the mobile app for field service capabilities for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to work, the Woodford solution and Woodford template  are required. See the steps below to download and install the Woodford template.  
+>  For the mobile app for Field Service capabilities for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to work, the Woodford solution and Woodford template  are required. See the steps below to download and install the Woodford template.  
   
  The template contains all customizations for the field service mobile app. You can use it to add, remove, and change fields, entities, views, and forms.  
   
