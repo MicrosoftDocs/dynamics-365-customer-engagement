@@ -9,6 +9,7 @@
 ## [Sample data installation (earlier app versions)](use-demo-data.md)
 ## [Activate Field Service mobile licenses](activate-fs-mobile-app-license.md)
 ## [User security roles and accounts](view-user-accounts-security-roles.md)
+## [Initial setup and configurations](perform-initial-configurations-setup.md)
 ## [Org-wide default settings](configure-default-settings.md)
 ## [AppSource add-ins for Field Service](appsource-addins.md)
 
