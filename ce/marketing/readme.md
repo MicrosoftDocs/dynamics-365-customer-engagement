@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 for Marketing Readme (Known Issues) | MicrosoftDocs"
-ms.date: 05/10/2018
+ms.date: 10/03/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
