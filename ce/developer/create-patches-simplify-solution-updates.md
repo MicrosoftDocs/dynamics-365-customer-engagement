@@ -2,7 +2,7 @@
 title: "Create patches to simplify solution updates (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Patches help you manage entities and all of its related assets when you add an entity to a solution and export that solution"
 ms.custom: ""
-ms.date: 02/20/2018
+ms.date: 09/17/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -12,7 +12,7 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: 12672159-03b1-4f18-8d8c-cf4aaf366deb
 caps.latest.revision: 14
-author: "JimDaly"
+author: "shmcarth"
 ms.author: "jdaly"
 manager: "amyla"
 search.audienceType: 
@@ -43,7 +43,7 @@ If you add an entity to a solution and export the solution, the entity and all o
   
 - You can only install a patch if the parent solution is present.  
   
-- You can’t install a patch unless the unique name and major/minor version number of the parent solution, as identified by `ParentSolutionId`, do not match those of the parent solution installed in the target organization.  
+- You can’t install a patch unless the unique name and major/minor version number of the parent solution, as identified by `ParentSolutionId`, match those of the parent solution installed in the target organization.  
   
 - A patch version must have the same major and minor number, but a higher build and release number, than the parent solution version number. The display name can be different.  
   
@@ -56,6 +56,8 @@ If you add an entity to a solution and export the solution, the entity and all o
 - Don’t use unmanaged patches for production purposes.  
   
 - Patches are only supported in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organizations of version 8.0 or later.  
+
+- When a patch is installed, it is installed just above the base solution it is patching and below any solutions on top. This means any solutions on top will override the settings in the patch for the same component type.
   
   The SolutionPackager and PackageDeployer tools in this release support solution patches. Refer to the tool's online help for any command-line options that are related to patches.  
   

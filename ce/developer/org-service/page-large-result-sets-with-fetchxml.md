@@ -2,7 +2,7 @@
 title: "Page large result sets with FetchXML (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Read how you can page the results of a FetchXML query by using the paging cookie"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 09/13/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,15 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-helpviewer_keywords: 
-  - "paging the results of FetchXML queries, code examples"
-  - "paging the results of FetchXML queries, by using the paging cookie"
-  - "paging the results of FetchXML queries, effect of nonconsecutive pages on using the paging cookie"
-  - "building queries with FetchXML, paging the results of FetchXML queries"
-  - "FetchXML queries, paging the results of FetchXML queries"
 ms.assetid: cd32c68c-fb8a-4018-90a3-49c6a80ca7b4
 caps.latest.revision: 17
-author: "KumarVivek"
+author: "mayadumesh"
 ms.author: "kvivek"
 manager: "amyla"
 search.audienceType: 
@@ -49,7 +43,25 @@ strQueryXML = @"
  The following example shows how to use the paging cookie with a FetchXML query. For the complete sample code, see [Sample: Use FetchXML with a Paging Cookie](sample-use-fetchxml-paging-cookie.md).  
   
  [!code-csharp[Query#FetchPagingWithCookie1](../../snippets/csharp/CRMV8/query/cs/fetchpagingwithcookie1.cs#fetchpagingwithcookie1)]  
-  
+
+## When not to use paging cookies
+
+Paging cookies depend on the common case where each row returned represents a unique entity record. There are some queries you can construct using `link-entity` that will provide rows that combine data from the primary entity with related entities. This will result in multiple primary entity rows that refer to the same primary key value. If you depend on paging cookies in this situation you will get inconsistent results.
+
+In this case, here are several strategies you can apply.
+
+### Write your FetchXml Query so that the primary entity ids are unique
+
+If your query includes only one link-entity and doesn't include many-to-many relationships, you can usually make the related entity the primary entity in your query to resolve this.
+
+### Don't use the paging cookie
+
+Rather than include the paging cookie in your FetchXml, simply update the `page` value. This will work but there will be some performance impact.
+
+### Split your query into multiple queries
+
+You can compose multiple queries which you then join the results together in your code.
+
 ### See also  
  [Sample: Use FetchXML with a Paging Cookie](sample-use-fetchxml-paging-cookie.md)   
  [Building Queries with FetchXML](build-queries-fetchxml.md)   
