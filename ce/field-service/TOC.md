@@ -44,10 +44,10 @@
 ## [Mixed reality integration with Remote Assist and HoloLens](remote-assist-hololens.md)
 ## FAQs
 ### [How do I extend my Woodford trial?](activate-fs-mobile-app-license.md)
-### [How do I extend my Woodford trial?](mobile-faq-latest-version.md)
-### [How do I extend my Woodford trial?](mobile-faq-sync-crash.md)
-### [How do I extend my Woodford trial?](mobile-faq-bookings-not-showing.md)
-### [How do I extend my Woodford trial?](mobile-faq-bookings-not-scheduled-to-me.md)
+### [What is the latest version of the mobile app and Woodford solution?](mobile-faq-latest-version.md)
+### [My mobile app will not sync to the server or it crashes immediately](mobile-faq-sync-crash.md)
+### [My booking is not showing when logged into the mobile app](mobile-faq-bookings-not-showing.md)
+### [Bookings not scheduled to me are showing when logged into the mobile app](mobile-faq-bookings-not-scheduled-to-me.md)
 
 # Agreements and preventive maintenance
 ## [Customer agreements](set-up-customer-agreements.md)
