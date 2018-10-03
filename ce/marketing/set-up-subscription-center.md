@@ -215,6 +215,8 @@ To set up a segment tile to target a subscription list:
 > [!IMPORTANT]
 > When a customer journey targets a subscription list, then any contact that unsubscribes from that list using a subscription center will automatically be removed from that journey within about 24 hours, even if they are already partway through it. However, if a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] users removes a contact from the list manually using the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] interface, that contact will continue to be processed by any journeys they already are on, and may continue to receive messages until all active journeys are complete. For this reason, it is usually best to request all contacts to manage their own subscriptions using the subscription center.
 
+<a name="test-sub-center"></a>
+
 ## Test your subscription center
 
 Subscription centers only work when they "know" who they are talking to. This enables the subscription center to display existing contact information in editable fields (like name and email), and also to indicate which of the available subscription lists the viewer already belongs to. The only way most people will be able to open the subscription center is by selecting a link sent to them in a marketing email from a customer journey, and links such as these include an ID that lets the subscription center know which contact has requested the page. (In fact, all links in marketing emails include an ID that's linked to both the contact and the message, which enables the system to report which link each contact has selected in each message.)
