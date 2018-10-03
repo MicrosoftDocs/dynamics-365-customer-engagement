@@ -16,7 +16,7 @@ Estimated Duration: 10 minutes
 
 ## Prerequisites
 
-1.  Dynamics 365 environment with the Field Service solution and mobile solution (Resco Woodford) installed along with the mobile project imported. Instructions can be found [here](/install-field-service.md).  
+1.  Dynamics 365 environment with the Field Service solution and mobile solution (Resco Woodford) installed along with the mobile project imported. Instructions can be found [here](./install-field-service.md).  
 
 2.  Sample data installed (recommended) – installing sample data with the [package deployer](/install-sample-data-8-x.md) will complete many recommended initial configurations  
 
