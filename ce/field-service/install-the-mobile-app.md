@@ -58,7 +58,7 @@ Solve customer issues quickly with [!INCLUDE[pn_fieldservice_mobile_app_long](..
   
 6. Click **Next** to start the import. When the import is complete, click **Close**. You should see **Woodford** listed on the **All Solutions** page.  
   
-   ![Resco Mobile Dynamics 365 solution](../field-service/media/fsm-install-woodford-solution.PNG "Resco Mobile Dynamics 365 solution")  
+   ![Resco Mobile Dynamics 365 solution](../field-service/media/fsm-install-woodford-solution.png "Resco Mobile Dynamics 365 solution")  
   
 7. To publish the Woodford solution, click **Publish All Customizations**, and then refresh the page.  
   
