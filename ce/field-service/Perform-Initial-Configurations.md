@@ -12,9 +12,7 @@ Estimated Duration: 10 minutes
 
 4.  Test Geocoding
 
-5.  Organizational Units
-
-6.  Mobile
+5.  Mobile
 
 ## Prerequisites
 
@@ -32,7 +30,7 @@ When logged in to Dynamics 365 as an administrator or Field Service role you wil
 
 ### How do I know if the mobile solution is installed?
 
-When logged in as an administrator Woodford will appear under **Settings &gt; Solutions** and as an icon under Settings
+When logged in as an administrator Woodford will appear under **Settings > Solutions** and as an icon under Settings
 
 ![Perform Initial Configurations image2](media/Perform-Initial-Configurations-image2.png)  
 
@@ -40,7 +38,7 @@ When logged in as an administrator Woodford will appear under **Settings &gt; So
 
 ### How do I know if sample data is imported?
 
-You will see multiple records under **Field Service &gt; Work Orders**
+You will see multiple records under **Field Service > Work Orders**
 
 ![Perform Initial Configurations image4](media/Perform-Initial-Configurations-image4.png)  
 
@@ -54,7 +52,7 @@ The first step is to enable mapping and location services for the application. M
 
 This is accomplished by **geocoding**, where the solution attaches a latitude and longitude to an address.
 
-Navigate to **Resource Scheduling &gt; Administration &gt; Scheduling Parameters**
+Navigate to **Resource Scheduling > Administration > Scheduling Parameters**
 
 ![Perform Initial Configurations image6](media/Perform-Initial-Configurations-image6.png)  
 
@@ -70,7 +68,7 @@ Later in this article we will test geocoding and location services.
 
 ### Enable Resource Scheduling for Entities
 
-Navigate to **Resource Scheduling &gt; Administration &gt; Enable Resource Scheduling for Entities**
+Navigate to **Resource Scheduling > Administration > Enable Resource Scheduling for Entities**
 
 ![Perform Initial Configurations image8](media/Perform-Initial-Configurations-image8.png)  
 
@@ -80,7 +78,7 @@ Verify Work Orders are enabled for Resource Scheduling.
 
 ## Field Service Settings
 
-Navigate to **Field Service &gt; Administration &gt; Field Service Settings**
+Navigate to **Field Service > Administration > Field Service Settings**
 
 ![Perform Initial Configurations image9](media/Perform-Initial-Configurations-image9.png)  
 
@@ -102,7 +100,7 @@ An example is **WO** and **100**. This is not required but recommended.
 
 Finally, let’s test Geocoding as it is a very important feature to use and understand.
 
-Navigate to **Field Service &gt; Work Orders** and select +New
+Navigate to **Field Service > Work Orders** and select +New
 
 Begin typing an address
 
@@ -134,7 +132,7 @@ There are a few configurations that should be considered in relation to the mobi
 
 The following section requires you have the [mobile solution (Resco Woodford) installed](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-the-mobile-app) and the mobile project imported.  
 
-In a **non-private internet explorer browser**, log into your Dynamics 365 organization as a system administrator and navigate to **Settings &gt; Woodford &gt; MobileCRM Woodford**
+In a **non-private internet explorer browser**, log into your Dynamics 365 organization as a system administrator and navigate to **Settings > Woodford > MobileCRM Woodford**
 
 ![Perform Initial Configurations image18](media/Perform-Initial-Configurations-image18.png)  
 
@@ -145,7 +143,7 @@ Whether you access from the standalone application or Internet Explorer, you wil
 
 ![Perform Initial Configurations image19](media/Perform-Initial-Configurations-image19.png)  
 
-Navigate to **Plugins &gt; Delete**
+Navigate to **Plugins > Delete**
 
 And select Work Orders and related Work Order entities such as Work Order Products, Services, and Service Tasks.
 
