@@ -79,7 +79,7 @@ This document provides important, late-breaking information about known issues a
 - If you reuse the same email multiple times (within the same journey or in different journeys) you will see incorrect performance results on its **Insights** pages.
 - Many email templates have placeholder images. You should replace these placeholder images with actual images so that marketing emails look professional.
 - When you save a new keyword for templates or files from a quick-create form, the keyword grid isn't displayed, but the record is created successfully. <!--- 1033440 -->
-- For certain orgs that upgraded recently, test send may not work. Please reach out to support to create a ticket for immediate redressal. <!--- 1267485 -->
+- For certain organizations that upgraded recently, test send may not work. If you encounter this issue, please contact Microsoft Support. <!--- 1267485 -->
 
 ## Marketing pages and forms
 
