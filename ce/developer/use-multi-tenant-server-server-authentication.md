@@ -2,7 +2,7 @@
 title: "Use Multi-Tenant Server-to-server authentication (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Learn how to use multi-tenant Server-to-server authentication using an Azure AD tenant"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 09/27/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -12,7 +12,7 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: a77637f4-420a-4686-9084-d0288d9154af
 caps.latest.revision: 12
-author: "JimDaly"
+author: "paulliew"
 ms.author: "jdaly"
 search.audienceType: 
   - developer
@@ -96,25 +96,8 @@ This is the most common scenario and the one which is used for apps distributed 
   
  When you register your app you must generate a key, also known as a `ClientSecret`. These keys can be configured for a 1 or 2-year duration. As the host of the application you must treat this value like a password and it is your responsibility to manage renewal of the keys before they expire. You may want to use Key Vault. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [https://azure.microsoft.com/en-us/services/key-vault/](https://azure.microsoft.com/en-us/services/key-vault/)  
   
-<a name="bkmk_GrantApplicationRights"></a>
-   
-## Grant your application rights to access [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] data
-  
- This is the reason why your [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] instance must be associated with your Azure AD tenant. If your Azure AD tenant is not associated with a [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] tenant, you will not be able to perform the following steps.  
-  
-1. Go to [https://portal.azure.com](https://portal.azure.com) and select **Azure Active Directory**.  
-  
-2. Click **App registrations** and look for the application you created using [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
-  
-3. You need to give your application privileges to access [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] data. In the **API Access** area click **Required permissions**. You should see that it already has permissions for **Windows Azure Active Directory**.  
-  
-4. Click **Add**, then **Select an API**. In the list, select **Dynamics 365** and then click the **Select** button.  
-  
-5. In **Select permissions**, select **Access Dynamics 365 as organization users**. Then click the **Select** button.  
-  
-6. Click **Done** to add these permissions. When you are done you should see the permissions applied.  
-  
-   ![Grant Dynamics 365&#45;Permissions to application](media/grant-crm-permissions-to-application.png "Grant Dynamics 365-Permissions to application")  
+> [!NOTE]
+> When registering this application you do not need to grant your application rights to access Dynamics 365 (online) data as you usually do when creating a client application. This application is bound to a application user in the system.
   
 <a name="bkmk_CreateAppUser"></a>
    
@@ -129,7 +112,7 @@ This is the most common scenario and the one which is used for apps distributed 
 |[ApplicationIdUri](entities/systemuser.md#BKMK_ApplicationIdUri)|**Application ID URI**|StringType|The URI used as a unique logical identifier for the external app. This can be used to validate the application|  
 |[AzureActiveDirectoryObjectId](entities/systemuser.md#BKMK_AzureActiveDirectoryObjectId)|**Azure AD Object ID**|UniqueidentifierType|This is the application directory object Id.|  
   
- This `systemuser``AzureActiveDirectoryObjectId` property value must be a reference to the Azure Active Directory Object Id of your registered application. This reference will be set in [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] when the application user is created based on the `ApplicationId` value.  
+ This `SystemUser.AzureActiveDirectoryObjectId` property value must be a reference to the Azure Active Directory Object Id of your registered application. This reference will be set in [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] when the application user is created based on the `ApplicationId` value.  
   
 > [!NOTE]
 >  When you are initially developing your application with your own [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] tenant and the Azure AD tenant associated with it, you can simply create the application user because the registered application is already part of your Azure AD tenant.  
@@ -209,16 +192,16 @@ This is the most common scenario and the one which is used for apps distributed 
 - [Copy a security role](../admin/copy-security-role.md)  
 - [Add solution components](../customize/create-solution.md#add-solution-components)
   
-  For information about creating a [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] solution, see the following topics:
+ For information about creating a [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] solution, see the following topics:
   
 - [Use solutions for your customizations](../customize/use-solutions-for-your-customizations.md)  
 - [Package and distribute extensions using solutions](package-distribute-extensions-use-solutions.md)  
   
-  However, the application user cannot be included with a solution so you will need to provide a way to create this application user and associate it with the custom security role.  
-  
-  There are several ways that you can achieve this, including writing your own program using the [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)] and having the subscriber run the program.  
-  
-  The [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] is an application which can be used to prepare a package to automate transferring solutions and data to a different [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create packages for the Dynamics 365 Package Deployer](create-packages-package-deployer.md)  
+However, the application user cannot be included with a solution so you will need to provide a way to create this application user and associate it with the custom security role.  
+
+There are several ways that you can achieve this, including writing your own program using the [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)] and having the subscriber run the program.  
+
+The [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] is an application which can be used to prepare a package to automate transferring solutions and data to a different [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create packages for the Dynamics 365 Package Deployer](create-packages-package-deployer.md)  
   
 ### See also  
  [Walkthrough: Multi-tenant server-to-server authentication](walkthrough-multi-tenant-server-server-authentication.md)   
