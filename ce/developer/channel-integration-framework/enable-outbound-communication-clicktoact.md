@@ -20,8 +20,7 @@ manager: shujoshi
 
 # How to enable outbound communication (ClickTOAct) in Channel Integration Framework?
 
-> [!Important]
-> [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)] 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]  
 
 To enable outbound communication for your channel, you must perform the following:
 

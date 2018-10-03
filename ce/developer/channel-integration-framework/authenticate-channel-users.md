@@ -20,8 +20,7 @@ manager: shujoshi
 
 # Authenticate channel users to the log in to the channel
 
-> [!Important]
-> [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)] 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]  
 
 The channel Integration Framework supports the SAML based Single Sign-On (SSO) for your users (agents) to log in to the channel (widget). The SAML based SSO is available for Dynamics 365 online where the communication widget hosts the channel. To enable SAML based SSO for the channel (widget), you must (administrator) register the channel (widget) in the Azure Active Directory portal as a multi-tenant application, where you have registered the Dynamics 365 Unified Interface App.
 

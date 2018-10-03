@@ -20,8 +20,7 @@ manager: shujoshi
 
 # onclicktoact event (CIF JavaScript API reference)
 
-> [!Important]
-> [!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]  
 
 The `onclicktoact` event invoked when user selects the outbound communication (ClickToAct) field in a form.
 

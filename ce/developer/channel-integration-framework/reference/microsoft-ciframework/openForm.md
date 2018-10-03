@@ -20,8 +20,7 @@ manager: shujoshi
 
 # openForm (CIF JavaScript API Reference)
 
-> [!Important]
-> [!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
 
 [!INCLUDE[openForm](includes/openForm-description.md)]
 
