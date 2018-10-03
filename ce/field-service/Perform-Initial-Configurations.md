@@ -18,13 +18,11 @@ Estimated Duration: 10 minutes
 
 ## Prerequisites
 
-1.  Dynamics 365 organization with [Field Service solution](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-field-service) installed  
+1.  Dynamics 365 environment with the Field Service solution and mobile solution (Resco Woodford) installed along with the mobile project imported. Instructions can be found [here](/install-field-service.md).  
 
-2.  [Mobile solution (Resco Woodford) installed](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-the-mobile-app) and the mobile project imported  
+2.  Sample data installed (recommended) – installing sample data with the [package deployer](/install-sample-data-8-x.md) will complete many recommended initial configurations  
 
-3.  Sample data installed (recommended) – installing sample data with the [package deployer](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/use-demo-data) will complete many recommended initial configurations  
-
-4.  Verify you can log into Dynamics 365 with a **system administrator** security role
+3.  Verify you can log into Dynamics 365 with a **system administrator** security role
 
 ### How do I know if the Field Service solution is installed?
 
