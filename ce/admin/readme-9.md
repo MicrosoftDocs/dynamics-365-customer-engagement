@@ -25,6 +25,16 @@ This document provides important information about this product version:
 
 You'll also find information about known issues and possible workarounds.
 
+Channel Integration Framework
+-----------------------------
+- Channel Integration Framework does not support Internet Explorer.
+
+- The `onsendkbarticle` event will not raise because the control is not available in Unified Interface.
+
+- The `msdyn_ciprovider` entity is accessible only for the administrator roles. As a result, the panel will not load for non-administrator roles. To load the panel for non-administrator roles, create a new role and provide read access to the `msdyn_ciprovider` entity. Then add the role to the users who will access the Channel Integration Framework.
+
+- By default, microphone and speaker access is blocked by the browser policy for the voice and video channel. You need to change the settings to enable microphone and speaker access.
+
 Transport Layer Security (TLS) Requirements
 -------------------------------------------
 

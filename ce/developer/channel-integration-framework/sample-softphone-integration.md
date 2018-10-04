@@ -20,8 +20,7 @@ manager: shujoshi
 
 ## Sample softphone integration using Channel Integration Framework
 
-> [!Important]
-> [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Go to the [Dynamics 365 Insider Portal](https://go.microsoft.com/fwlink/p/?linkid=2025867) to download the sample to integrate a softphone with Dynamics 365 using Channel Integration Framework.
 

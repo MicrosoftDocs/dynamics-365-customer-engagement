@@ -3,12 +3,12 @@ title: "Support for Unified Interface apps in Unified Service Desk (Dynamics 365
 description: "Learn about the Unified Interface apps supportability in Unified Service Desk."
 keywords: ""
 ms.date: 05/07/2018
-ms.service: 
+ms.service:
   - "usd"
-ms.custom: 
+ms.custom:
   - ""
 ms.topic: article
-applies_to: 
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2013"
@@ -18,11 +18,6 @@ ms.assetid: 7ECEC924-5089-4D9C-88B3-50D1BD7B03A9
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-search.audienceType: 
-  - admin
-search.app: 
-  - D365CE
-  - D365USD
 ---
 
 # Support for Unified Interface Apps in Unified Service Desk
@@ -82,7 +77,7 @@ After you update the **SelectAppModule** key in the **UnifiedServiceDesk.exe.con
 ## See also
  [Unified Interface Page (Hosted Control)](../../unified-service-desk/unified-interface-page-hosted-control.md)
  [Unified Service Desk and Unified Interface Configuration Walkthroughs](../../unified-service-desk/unified-service-desk-unified-interface-configuration-walkthroughs.md)
- [Walkthrough 1: Build a simple agent application for Unified Interface Apps]../../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md) 
+ [Walkthrough 1: Build a simple agent application for Unified Interface Apps](../../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md) 
  [Walkthrough 2: Display an external webpage in your agent application](../../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md)   
  [Walkthrough 3: Display Microsoft Dynamics 365 Unified Interface app records in your agent application](../../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
  [Walkthrough 4: Display a Microsoft Dynamics 365 Unified Interface app record in a session in your agent application](../../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)   
