@@ -1,7 +1,7 @@
 ---
 title: "Security roles and privileges | MicrosoftDocs"
 ms.custom: ""
-ms.date: 03/21/2018
+ms.date: 09/13/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -27,6 +27,9 @@ search.app:
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)] <br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 To control data access, you must set up an organizational structure that both protects sensitive data and enables collaboration. You do this by setting up business units, security roles, and field security profiles.  
+
+> [!TIP]
+> Check out the following video: [How to set up security roles in Dynamics 365](https://go.microsoft.com/fwlink/p/?linkid=2020433).
   
 ## Security roles  
  A security role defines how different users, such as salespeople, access different types of records. To control access to data, you can modify existing security roles, create new security roles, or change which security roles are assigned to each user. Each user can have multiple security roles.  

@@ -97,7 +97,7 @@ This section describes the form element, which is only available when you are de
 
 A form enables visitors to register for something, manage their mailing-list subscriptions, forward a marketing message, or otherwise submit information to interact with your marketing initiatives.
 
-After it is configured, each form element places a *marketing form*, which defines the actual fields and field layout that the form will contain. You'll define your marketing forms separately, and build a library of reusable forms that you can place on various marketing pages as needed. When you add a form element, you'll be able to choose from this library to decide which form to use on the current page. The form element also provides settings on its **Properties** tab that control how the form will behave and appear on the current page. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create, view and manage marketing forms](create-deploy-marketing-pages.md#create-view-and-manage-marketing-forms)
+After it is configured, each form element places a *marketing form*, which defines the actual fields and field layout that the form will contain. You'll define your marketing forms separately, and build a library of reusable forms that you can place on various marketing pages as needed. When you add a form element, you'll be able to choose from this library to decide which form to use on the current page. The form element also provides settings on its **Properties** tab that control how the form will behave and appear on the current page. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create, view, and manage marketing forms](marketing-forms.md)
 
 To configure a form element, select it in your layout, open the **Properties** tab, and make the following settings:
 
@@ -116,7 +116,7 @@ The designer provides many elements that are unique to marketing forms. They are
 
 ### Field elements
 
-Each field element creates a single form control (such as an input field, check box, or radio button set) that is mapped to the contact and/or lead entity in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. For each marketing-form field that you've set up, you'll find a unique component named after the field under the **Fields** heading of the designer's **Toolbox** tab. So, for example, if you've mapped the **First Name** field of the contact entity to a marketing-form field called "First Name", you'll also have field element called **First Name** under the **Fields** heading of the form designer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create and deploy marketing pages](create-deploy-marketing-pages.md)
+Each field element creates a single form control (such as an input field, check box, or radio button set) that is mapped to the contact and/or lead entity in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. For each marketing-form field that you've set up, you'll find a unique component named after the field under the **Fields** heading of the designer's **Toolbox** tab. So, for example, if you've mapped the **First Name** field of the contact entity to a marketing-form field called "First Name", you'll also have field element called **First Name** under the **Fields** heading of the form designer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create, view, and manage marketing forms](marketing-forms.md)
 
 ![Field-element settings](media/field-block-details.png "Field-element settings")
 
@@ -202,4 +202,6 @@ Captcha elements are only available when you are working with a landing-page for
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  
 [Prepare marketing email messages](prepare-marketing-emails.md)  
 [Work with email, page, and form templates](email-templates.md)  
-[Create and deploy marketing pages](create-deploy-marketing-pages.md)
+[Create and deploy marketing pages](create-deploy-marketing-pages.md)  
+[Create, view, and manage marketing forms](marketing-forms.md)  
+[Create and manage input fields for use in forms](marketing-fields.md)

@@ -163,7 +163,7 @@ One way to make it easy for individuals to submit GDPR requests to your organiza
 
 - Further information about the specific type of request and what the customer can expect upon submitting the form.
 - All the input fields required to uniquely identify the contact in your database. This is typically their email address and last name, but the actual requirements will depend on your de-duplication settings.
-- Any additional fields that might help your privacy officer fulfil the request (such as a field for general notes and comments or checkboxes with special options).
+- Any additional fields that might help your privacy officer fulfil the request (such as a field for general notes and comments or check boxes with special options).
 
 Then prepare a single customer journey with three parallel pipelines, one for each request type. You could set up each pipeline as follows:
 

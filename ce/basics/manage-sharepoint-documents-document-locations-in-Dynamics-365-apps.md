@@ -9,9 +9,9 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 247ced8f-f79f-4447-8690-3c22c1489544
-author: brycho
-ms.author: brycho
-manager: amyla
+author: jimholtz
+ms.author: jimholtz
+manager: kvivek
 topic-status: Editing
 search.audienceType: 
   - enduser
