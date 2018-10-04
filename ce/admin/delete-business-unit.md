@@ -1,7 +1,7 @@
 ---
 title: "Delete a Dynamics 365 Customer Engagement business unit | MicrosoftDocs"
 ms.custom: ""
-ms.date: 10/02/2018
+ms.date: 10/04/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -31,7 +31,7 @@ You can delete a business unit to completely remove it from [!INCLUDE[pn_microso
 >  Before deleting a business unit, be sure to consider the following:  
 >   
 > -   Deleting a business unit is irreversible.  
-> -   The records owned by the business unit are deleted at the same time you delete the business unit.  
+> -   The records owned by the business unit (for example: Teams, Facilities/Equipment, and Resource Groups) are deleted at the same time you delete the business unit.  
 > -   You can’t delete a business unit until you delete any associated users, teams, and child business units.  
 
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
