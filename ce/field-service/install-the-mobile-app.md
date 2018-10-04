@@ -39,10 +39,10 @@ Solve customer issues quickly with [!INCLUDE[pn_fieldservice_mobile_app_long](..
  Before you can start configuring [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] beyond what is shipped out of the box from the app store, your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin will need to install the Woodford mobile solution for your [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] account.  
   
 <a name="bkmk_step1 "></a>   
-## Step 1: Download and install the Resco Mobile Dynamics 365 Woodford mobile solution  
- You need administrator permissions to install the Mobile Dynamics 365 Woodford mobile solution for field service capabilities in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] . You also need to use [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] with [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] or [!INCLUDE[tn_Firefox](../includes/tn-firefox.md)].  
+## Step 1: Download and install the Resco Mobile Woordford solution  
+ You need administrator permissions to install the Woodford mobile solution. You also need to use [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] with [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] or [!INCLUDE[tn_Firefox](../includes/tn-firefox.md)].  
   
-1. Download and save the Woodford mobile solution from the [Resco site](http://go.microsoft.com/fwlink/p/?LinkId=808248) to your computer.  
+1. Download and save the Woodford mobile solution from [Resco's website](http://go.microsoft.com/fwlink/p/?LinkId=808248) to your computer.  
   
 2. To perform the next steps, sign in to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] account. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
   
@@ -94,11 +94,12 @@ Solve customer issues quickly with [!INCLUDE[pn_fieldservice_mobile_app_long](..
   
  The template contains all customizations for the field service mobile app. You can use it to add, remove, and change fields, entities, views, and forms.  
   
-1. Download and save the temple file.  
+1. Download and save the project template file.  
   
-   - If you are on [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], use this  [mobile project template](https://go.microsoft.com/fwlink/p/?linkid=836310)  
+   - If you are on [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)] or above and using the [!INCLUDE[pn_fieldservice_mobile_app_2017](../includes/pn-fieldservice-mobile-app-2017.md)] app, use this [mobile project template](https://go.microsoft.com/fwlink/p/?linkid=836310).
   
-   - If you are on [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)], use this  [mobile project template](http://go.microsoft.com/fwlink/p/?LinkId=808250)  
+   - If you are on [!INCLUDE[pn_crm_8_1_0_both](../includes/pn-crm-8-1-0-both.md)] and using the [!INCLUDE[pn_fieldservice_mobile_app_2016](../includes/pn-fieldservice-mobile-app-2016.md)] app, use this  [mobile project template](http://go.microsoft.com/fwlink/p/?LinkId=808250)  
+
   
 2. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Woodford** , and then click **MobileCRM Woodford**.  
   
