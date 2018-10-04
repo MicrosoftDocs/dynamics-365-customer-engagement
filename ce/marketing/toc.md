@@ -136,7 +136,10 @@
 ### [Work with marketing calendars](marketing-calendar.md)
 ### [Go live with publishable entities and track their status](go-live.md)
 ### [Set up social listening](social-listening.md)
-### [Analyze results to gain insights](insights.md)
+
+### Analyze marketing results
+#### [Analyze results to gain insights](insights.md)
+#### [Preview: Create custom analytics with Power BI](custom-analytics.md)
 
 ## [Developer Guide](developer/marketing-developer-guide.md)
 ### [Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)

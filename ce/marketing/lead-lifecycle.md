@@ -26,9 +26,6 @@ search.app:
   - D365Mktg
 ---
 
-<!--note from editor: "teleprospecting" is used in this article. I think it should be one word, similar to telemarketing, so I made it so in this article. However, I left it as two words when it is in bold because I assume that matches the UI.-->
-
-
 # The lead lifecycle
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -101,9 +98,9 @@ The standard process guides users through the following stages:
 
 1. **Inquiry**: Indicates a new lead. Open the menu to read or set the associated contact and/or account. The associated contact is usually assigned automatically if the lead was created by a landing page or event registration, but this is the only way to manually associate a lead with its contact. Once a contact is assigned, the lead is ready for the next stage.
 2. **Automated marketing qualification**: The lead waits here while Marketing nurtures and scores it. Marketing applies your lead-scoring models to the lead until it reaches the sales-ready threshold. Users can also manually mark the lead as sales-ready and/or teleprospecting ready here. If the lead gets marked as sales ready (whether by automated scoring or manual assignment), then it skips over the teleprospecting stages and goes straight to **Sales acceptance**.
-3. **Tele prospecting acceptance**: When a lead gets marked as ready for teleprospecting, it comes to the attention of your telemarketing staff, for example by showing up on their dashboard or through a generated task. If the lead meets their minimum criteria of engaging on the phone, they select the **Tele prospect accepted** check box here, which advances the lead to the next stage.
-4. **Tele prospecting qualification**: When a phone operator gets in contact with the lead, they fill out the fields here to hold important information gathered during the conversation. If the phone operator concludes that the lead is ready for sales, then they select the **Sales ready** check box, which advances the lead to the next stage.
-5. **Sales acceptance**: When a lead gets marked as sales ready, it comes to the attention of a sales manager, for example by showing up on their dashboard or through a generated task. If the lead meets their minimum criteria for qualification, the manager assigns it to a salesperson and select the **Sales accepted** check box here. The salesperson can then start working on the lead, possibly going on to convert it to an opportunity and eventually closing the sale.
+3. **Teleprospecting acceptance**: When a lead gets marked as ready for teleprospecting, it comes to the attention of one of your phone operators, for example by showing up on their dashboard or through a generated task. If the lead meets their minimum criteria of engaging on the phone, they select the **Teleprospect accepted** check box here, which advances the lead to the next stage.
+4. **Teleprospecting qualification**: When a phone operator gets in contact with the lead, they fill out the fields here to hold important information gathered during the conversation. If the phone operator concludes that the lead is promising, then they select the **Sales ready** check box, which advances the lead to the next stage.
+5. **Sales acceptance**: When a lead gets marked as sales ready, it comes to the attention of a salesperson, for example by showing up on their dashboard or through a generated task. If the lead meets their minimum criteria for qualification, the manager assigns it to a salesperson and select the **Sales accepted** check box here. The salesperson can then start working on the lead, possibly going on to convert it to an opportunity and eventually closing the sale.
 
 Business processes are highly customizable and can be used to drive further automation. They are a standard feature of many [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] customer engagement apps. You'll typically also customize your system to support other aspects of this process, such as by setting up dashboards and custom views for teleprospectors and salespeople to discover their newly qualified leads, and by setting up workflows that automate other aspects of your internal sales processes. More information: [Create custom business logic through processes](../customize/guide-staff-through-common-tasks-processes)
 

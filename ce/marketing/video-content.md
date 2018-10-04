@@ -37,7 +37,6 @@ For each video you add to your library, you'll specify a name, video URL, embed 
 When you add a video to one of your designs, the designer will automatically use the settings it needs for the type of design you are creating. For pages, the designer will embed the video, so visitors can play it without leaving the page. Most email clients don't support embedded videos, so for emails the designer will embed the thumbnail image and link it to the video URL so contacts can select the thumbnail to open the video in a new browser tab.
 
 > [!IMPORTANT]
-> This is a preview feature, so it's hidden by default. To enable it on your instance, follow the instructions given in [What are preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md).  
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
 > [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 

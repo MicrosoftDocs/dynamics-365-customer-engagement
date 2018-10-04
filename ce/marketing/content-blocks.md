@@ -42,6 +42,8 @@ You can lock the content of a content block to prevent it from being changed in 
 > [!NOTE]
 > When you first create a content block, it's considered to be in a draft state and therefore isn't available for use in your designs until you select **Go live** for that block on the command bar. This helps make sure that other users don't use your content block until you're finished designing it. However, unlike most go-live entities, content blocks aren't published to an external service when they go live, they just become available for use with other entities in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. More information: [Go live with publishable entities and track their status](go-live.md).
 
+<a name="create-block"></a>
+
 ## Create a content block and go live
 
 To create and publish a content block:
@@ -72,9 +74,7 @@ To create and publish a content block:
 
 ## View, delete, or edit your content blocks
 
-To work with your existing content blocks, go to **Marketing** > **Marketing content** > **Content blocks**. This opens a standard list view, where you can create or delete content blocks using check boxes and buttons in the command bar. Select any listed content block to view or edit it. The settings here are the same as those described in Create and publish a content block.
-
-<!--note from editor: In the last sentence above, do you mean the section titled "Create a content block and go live"? If yes, I suggest changing the sentence to avoid confusion.-->
+To work with your existing content blocks, go to **Marketing** > **Marketing content** > **Content blocks**. This opens a standard list view, where you can create or delete content blocks using check boxes and buttons in the command bar. Select any listed content block to view or edit it. The settings here are the same as those described in [Create a content block and go live](#create-block).
 
 If you open a content block that is already live, then it is locked for editing. To unlock it, choose one of the following buttons on the command bar:
 
