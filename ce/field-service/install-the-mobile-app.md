@@ -101,9 +101,9 @@ Before you can start configuring [!INCLUDE[pn_fieldservice_mobile_app_short](../
   
 1. Download and save the project template file.  
   
-   - If you are on [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)] or above and using the [!INCLUDE[pn_fieldservice_mobile_app_2017](../includes/pn-fieldservice-mobile-app-2017.md)] app, use this [mobile project template](https://go.microsoft.com/fwlink/p/?linkid=836310).
+   - [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)] or later: use the [!INCLUDE[pn_fieldservice_mobile_app_2017](../includes/pn-fieldservice-mobile-app-2017.md)] with this [mobile project template](https://go.microsoft.com/fwlink/p/?linkid=836310).
   
-   - If you are on [!INCLUDE[pn_crm_8_1_0_both](../includes/pn-crm-8-1-0-both.md)] and using the [!INCLUDE[pn_fieldservice_mobile_app_2016](../includes/pn-fieldservice-mobile-app-2016.md)] app, use this  [mobile project template](http://go.microsoft.com/fwlink/p/?LinkId=808250)  
+   - [!INCLUDE[pn_crm_8_1_0_both](../includes/pn-crm-8-1-0-both.md)]: use the [!INCLUDE[pn_fieldservice_mobile_app_2016](../includes/pn-fieldservice-mobile-app-2016.md)] app with this  [mobile project template](http://go.microsoft.com/fwlink/p/?LinkId=808250)  
 
   
 2. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Woodford** , and then select **MobileCRM Woodford**.  
