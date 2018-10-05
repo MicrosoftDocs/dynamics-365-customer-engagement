@@ -26,6 +26,8 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 > [!IMPORTANT]
 > - This feature currently has limited availability.
 > - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
@@ -34,61 +36,6 @@ search.app:
 
 If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software), you know it's the place to manage all your conversations, files, and tools in one team workspace. Create and edit documents right in the app and enjoy instant access to SharePoint, OneNote, PowerBI, and now, [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)].
 
-Begin by finding the app in the app Store.
-
-## Select the app in the app Store
-
-1. In Microsoft Teams, select **Store**. 
-
-   ![Select Store](../admin/media/select-store.png "Select Store")
-
-2. Search for **dynamics**, and then select the **Dynamics 365 (Preview)** tile.
-
-   ![Search for and select Dynamics 365](../admin/media/teams-search-select-dynamics-365-app.png "Search for and select Dynamics 365")
-
-## Install the personal app
-
-You have a choice when adding Dynamics 365 to Microsoft Teams. You can install the personal app which integrates Dynamics 365 and Teams for your own use, or you can install the Team app to use with your team members. These steps are for installing the personal app - the settings under **App for you**.
-
-Once you've selected the Dynamics 365 app (see steps above), the settings page opens. 
-
-Verify **Yes** is enabled, and then select **Install** to install the personal app.
-
-   ![Install personal app](../admin/media/teams-install-add-for-you.png "Install personal app")
-
-## Install the personal app bot
-
-There are two personal app features: the personal app bot and the personal app dashboard. The bot allows you to interact with Dynamics 365 to find and display records within Microsoft Teams. You configure the dashboard to show a Dynamics 365 dashboard view in Microsoft Teams.
-
-Use these steps to install the personal app bot.
-
-1. With the personal app installed, in the bot section, select **Open**. 
-
-   ![Select Open bot](../admin/media/teams-personal-app-installed-open-bot.png "Select Open bot")
-
-2. A Welcome message appears in the **Conversation** tab page. Select **Sign in**.
-
-   ![Bot Welcome page](../admin/media/teams-bot-welcome.png "Bot Welcome page")
-
-3. Select your organization, and then select **Next**.
-
-   Your bot is set up and ready for input.
-
-   ![Bot is ready for input](../admin/media/teams-first-bot.png "Bot is ready for input")
-
-4. You can search to find records of interest. For example, enter "search contoso" in **Search** to see Contoso records.
-
-   ![Use Search to find records](../admin/media/teams-search-contoso.png "Use Search to find records")
-
-5. Search returns a list of related Dynamics 365 records. Select a record to see details.
-
-   ![Search returns a list of records](../admin/media/teams-bot-search.png "Search returns a list of records")
-
-6. The details of the selected record are displayed in the personal app bot. You can select an activity to view and edit related record details. For example, select **Show Opportunities** to see opportunities for the Contoso account.
-
-   ![See related details and records](../admin/media/teams-bot-record-quick-action.png "See related details and records")
-
-   You can update the details of the records in the personal bot.
 
 ## Use the personal dashboard
 
@@ -104,65 +51,6 @@ If you have more than one organization or Unified Interface app, you can use the
 > - Only Dynamics 365 version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
 > - Only Unified Interface apps are listed.
 > - Only app modules licensed for the selected organization are listed. 
-
-## Install the Team app
-
-You can also install the Team app which integrates Dynamics 365 and Teams to use with your team members. These steps are for installing the Team app - the settings under **Add to a team**.
-
-Once you've selected the Dynamics 365 app (see [Select the app in the app Store](#select-the-app-in-the-app-store)), the settings page opens. 
-
-1. Choose a Team, verify **Yes** is enabled, and then select **Install** to install the Team app.
-
-   ![Install Team app](../admin/media/teams-first-settings.png "Install Team app")
-
-2. With the Team app installed, select the **Add** button (![Add button](../admin/media/plus-2.png "Add button")) to add the Dynamics 365 tab to a Microsoft Team channel. 
-
-   ![Select Add button](../admin/media/teams-add-tab.png "Select Add button")
-
-3. Select the **Dynamics 365** icon to pin a Dynamics 365 record to a Microsoft Team discussion channel.
-
-   ![Add Dynamics 365 Team channel](../admin/media/teams-add-channel.png "Add Dynamics 365 Team channel")
-
-4. Search for an entity to pin. Use **Filter by** to narrow the search to an entity type. Select **Save**.
-
-   ![Search for entity](../admin/media/teams-add-channel-pin-record.png "Search for entity")
-
-   If you have multiple organizations or app modules, select **Edit** (![Edit](../admin/media/edit-icon.png "Edit")) to specify which records to pin to the discussion channel.
- 
-   ![Specify org and app](../admin/media/teams-change-org-app.png "Specify org and app")
-
-   Enable **Remember this preference** to set the org and app selections to be the default personal dashboard that appears when you select **My Dashboard**.
-
-   Use the **Settings** tab to change these settings any time.
-
-Once you complete the above steps, the Dynamics 365 tab appears on the menu bar.
-
-![Dynamics 365 tab](../admin/media/teams-pinned-record.png "Dynamics 365 tab")
-
-You can interact with the record as if you were using the Dynamics 365 web app. Those with Write permissions can edit the record; changes will be synchronized with the Dynamics 365 web app.
-
-## Delete user data
-Your privacy is important to us! You can remove Dynamics 365 app personal data from Microsoft Teams.
-
-The following data is stored with Dynamics 365 integration with Microsoft Teams.
-
-
-|     Data      |                      Description                       |                                                                                                                                           Data classification                                                                                                                                           |                                                                    Example                                                                     |
-|---------------|--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-|    User ID    |      The user's Azure Active Directory object ID       |     EndUsePseudonymousIdentifiers<br/>(EUPI) An identifier created by Microsoft tied to the user of a Microsoft service. When EUPI is combined with other information, such as a mapping table, it identifies the end user. EUPI does not contain information uploaded or created by the customer.      |                                      <ul><li>User GUIDs, PUIDs, or SIDs</li><br/><li>Session IDs</li><ul>                                      |
-|   Tenant ID   |     The Azure Active Directory ID of user's tenant     |                                                  OrganizationIdentifiableInformation<br/>(OII) Data that can be used to identify a tenant, generally config or usage data. This data is not linkable to a user and does not contain Customer content.                                                   | <ul><li>Tenant ID (non-GUID)</li><br/><li>Domain name in e-mail address (xxx@contoso.com) or other tenant-specific domain information</li><ul> |
-|    Org URL    |            The URL of the Dynamics 365 org             |                                                  OrganizationIdentifiableInformation<br />(OII) Data that can be used to identify a tenant, generally config or usage data. This data is not linkable to a user and does not contain Customer content.                                                  | <ul><li>Tenant ID (non-GUID)</li><br/><li>Domain name in e-mail address (xxx@contoso.com) or other tenant-specific domain information</li><ul> |
-| App module ID | The ID of app module selected to show in the dashboard | EndUsePseudonymousIdentifiers         <br/>(EUPI) An identifier created by Microsoft tied to the user of a Microsoft service. When EUPI is combined with other information, such as a mapping table, it identifies the end user. EUPI does not contain information uploaded or created by the customer. |                                      <ul><li>User GUIDs, PUIDs, or SIDs</li><br/><li>Session IDs</li><ul>                                      |
-
-You can [contact support](../admin/contact-technical-support.md) to request data deletion. Run the following Windows PowerShell commands to gather the information needed by Dynamics 365 support.
-
-|Command  |Comment  |
-|---------|---------|
-|``` Connect-MsolService  ```      |Enter your credentials in the popup window         |
-|``` (Get-MsolUser -UserPrincipalName "<user email>").ObjectId  ```       |Replace <user email> with the user’s email         |
-|``` (Get-MsolCompanyInformation).ObjectId ```        |         |
-
-Record this information to provide to Dynamics 365 support.
 
 ## Privacy notice
 

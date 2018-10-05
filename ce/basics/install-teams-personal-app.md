@@ -26,8 +26,60 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-> [!IMPORTANT]
-> - This feature currently has limited availability.
-> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
-> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
-> - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+Begin by finding the app in the app Store.
+
+## Select the app in the app Store
+
+1. In Microsoft Teams, select **Store**. 
+
+   ![Select Store](../admin/media/select-store.png "Select Store")
+
+2. Search for **dynamics**, and then select the **Dynamics 365 (Preview)** tile.
+
+   ![Search for and select Dynamics 365](../admin/media/teams-search-select-dynamics-365-app.png "Search for and select Dynamics 365")
+
+## Install the personal app
+
+You have a choice when adding Dynamics 365 to Microsoft Teams. You can install the personal app which integrates Dynamics 365 and Teams for your own use, or you can install the Team app to use with your team members. These steps are for installing the personal app - the settings under **App for you**.
+
+Once you've selected the Dynamics 365 app (see steps above), the settings page opens. 
+
+Verify **Yes** is enabled, and then select **Install** to install the personal app.
+
+   ![Install personal app](../admin/media/teams-install-add-for-you.png "Install personal app")
+
+## Install the personal app bot
+
+There are two personal app features: the personal app bot and the personal app dashboard. The bot allows you to interact with Dynamics 365 to find and display records within Microsoft Teams. You configure the dashboard to show a Dynamics 365 dashboard view in Microsoft Teams.
+
+Use these steps to install the personal app bot.
+
+1. With the personal app installed, in the bot section, select **Open**. 
+
+   ![Select Open bot](../admin/media/teams-personal-app-installed-open-bot.png "Select Open bot")
+
+2. A Welcome message appears in the **Conversation** tab page. Select **Sign in**.
+
+   ![Bot Welcome page](../admin/media/teams-bot-welcome.png "Bot Welcome page")
+
+3. Select your organization, and then select **Next**.
+
+   Your bot is set up and ready for input.
+
+   ![Bot is ready for input](../admin/media/teams-first-bot.png "Bot is ready for input")
+
+4. You can search to find records of interest. For example, enter "search contoso" in **Search** to see Contoso records.
+
+   ![Use Search to find records](../admin/media/teams-search-contoso.png "Use Search to find records")
+
+5. Search returns a list of related Dynamics 365 records. Select a record to see details.
+
+   ![Search returns a list of records](../admin/media/teams-bot-search.png "Search returns a list of records")
+
+6. The details of the selected record are displayed in the personal app bot. You can select an activity to view and edit related record details. For example, select **Show Opportunities** to see opportunities for the Contoso account.
+
+   ![See related details and records](../admin/media/teams-bot-record-quick-action.png "See related details and records")
+
+   You can update the details of the records in the personal bot.
