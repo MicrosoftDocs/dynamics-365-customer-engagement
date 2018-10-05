@@ -13,8 +13,8 @@ applies_to:
 author: "jimholtz"
 ms.assetid: 4bfccb7c-c29d-4a33-900e-3b3665fa4cf4
 caps.latest.revision: 34
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "jimholtz"
+manager: "kvivek"
 search.audienceType: 
   - admin
 search.app: 

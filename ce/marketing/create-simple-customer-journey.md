@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: 45c4c442-2662-41a0-83c9-8e3149ed71ec
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
 search.audienceType: 
@@ -124,4 +124,4 @@ To create a customer journey that executes a one-time email blast:
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
-[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
+[Working with segments](segmentation-lists-subscriptions.md)

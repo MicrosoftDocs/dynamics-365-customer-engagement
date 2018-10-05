@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: b83e8cb2-38a4-462f-87bc-0fc52357f01e
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
 search.audienceType: 
@@ -29,6 +29,9 @@ search.app:
 # Set up the event portal
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+> [!IMPORTANT]
+> This topic describes the sample event portal that is included with Dynamics 365 for Marketing. *The sample event portal is intended for demo and testing purposes only.* Any customizations that you make to the sample event portal will likely get overwritten the next time you update Dynamics 365 for Marketing, so if you want to create a custom event portal to use in production, you must create a new website in your Dynamics 365 portal. You can start by recreating the sample event portal on the new site, and then apply customizations as needed. For more information about how to create a new website in the portal, see [Create and manage websites](../portals/websites.md).. The sample event portal is editable, so you can still experiment with it, but be aware that your customizations are only temporary and are likely to be entirely overwritten the next time you update the system.
 
 The event portal is a customer-facing website that people can use to read about your event and its speakers, create an account, register for the event, purchase passes, view their session schedule, and more. The following image shows a site map of your event portal as your attendees will see it.
 
@@ -62,9 +65,6 @@ The following table summarizes how to publish each publishable entity to the por
 
 The portal features a banner image for each event, and also shows speaker photos and sponsor logos.
 
-<!--
-- You can customize the banner image shown for any event by [editing the event record](set-up-event.md), going to the **General** tab and using the **Portal banner image** setting. -->
-
 - You can customize the banner image shown for any event by editing the event record, going to the **General** tab and changing the **Portal banner image** setting. (A default banner image is shown for all events that don't have their own custom banner.) For details about how to customize the banner, see this blog post: [How to Change Portal Banner Images in the Dynamics 365 for Marketing Event Portal](https://blogs.technet.microsoft.com/lystavlen/2018/02/26/how-to-change-portal-banner-images-in-the-dynamics-365-for-marketing-event-portal/).
 
 - Speaker images come from each speaker record (not from the associated contact record). To upload a speaker image, go to **Events** > **Participants** > **Speakers** and open the relevant speaker record. Then select the existing photo (or generic placeholder) in the heading area of the page to open a dialog where you can upload an image. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up an event](set-up-event.md)  
@@ -78,7 +78,7 @@ To find the URL for your event portal and open it:
 
 1. Open the relevant event record.
 1. Make sure the **Publish status** is set to **Published**.
-1. Open the **General** tab and scroll down to the **Additional Information** section. <!-- check whether this has moved -->
+1. Open the **General** tab and find the **Key information** section.
 1. The **Event URL** field here shows the address of the portal for this event. Select the globe button at the edge of this field to open the URL.
 
 ### See also

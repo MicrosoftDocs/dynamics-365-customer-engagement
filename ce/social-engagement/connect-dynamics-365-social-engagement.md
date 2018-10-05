@@ -2,7 +2,7 @@
 title: "Connect Social Engagement to Dynamics 365 | Microsoft Docs"
 description: "Learn how to set up the connection between Social Engagement and Dynamics 365."
 keywords: "connect, connection, integration, dynamice 365"
-ms.date: 01/30/2018
+ms.date: 09/19/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,7 +10,7 @@ applies_to:
 ms.assetid: f8acc707-064a-47e3-9392-85396b9dda2c
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 topic-status: Drafting
 ms.custom: 
   - dyn365-socialengagement
@@ -23,7 +23,7 @@ search.app:
   - D365SE
 ---
 
-# Connect Dynamics 365 and Social Engagement
+# Connect Dynamics 365 and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
 Set up the connection between [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] so you can link social posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Linking posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] lets you create [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records from social posts that were found in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] by using the **Automatic Record Creation and Update Rules** feature in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
@@ -59,12 +59,15 @@ The following prerequisites apply to both [!INCLUDE[pn_dynamics_crm_online](../i
   `Add-AdfsClient -Name MSE -ClientId e8ab36af-d4be-4833-a38b-4d6cf1cfd525 -RedirectUri @("https://listening-prod.dynamics.com/api/connect/version/1.0/solutions/<solution id>/crm/oauthRedirect ", "https://listening-prod.dynamics.com/api/connect/version/1.0/solutions/<solutionid>/crm/oauthRedirect") -Description "OAuth 2.0 client for MSE".`  
   
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Walkthrough: Register a CRM app with Active Directory](http://go.microsoft.com/fwlink/p/?LinkId=723356)  
+
+> [!NOTE]
+> The **Link to Dynamics 365** feature doesn't support [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] (on-premises) in combination with the [!include[](../includes/pn-internet-explorer.md)] or [!include[](../includes/pn-microsoft-edge.md)] browsers.
   
-## Establish a connection between Social Engagement and Dynamics 365
+## Establish a connection between [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and Dynamics 365
 
 To connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], both services must be part of the same organization's [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription. If you have licenses assigned to both [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you'll find both products in the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Meet the Office 365 app launcher](http://go.microsoft.com/fwlink/p/?LinkID=401421)  
   
-### Connect Social Engagement and Dynamics 365
+### Connect [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and Dynamics 365
   
 1. In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], go to **Settings** > **Connections** > **Microsoft Dynamics 365**.  
   
@@ -94,7 +97,7 @@ To connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.
 7. You can set the **Set as default** control to ON to have this instance selected by default when creating new links to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records from social posts.  
   
 8. If you changed a value in the **Dynamics 365 Instance** pane, click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
-   The connected [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance is now listed in the main pane when you go to **Settings** > **Connections** > **Microsoft Dymanics Dynamics 365**.  
+   The connected [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance is now listed in the main pane when you go to **Settings** > **Connections** > **Microsoft Dynamics 365**.  
   
 ## Next steps
 

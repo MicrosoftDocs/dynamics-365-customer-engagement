@@ -97,7 +97,7 @@
 #### [getControlType](reference/controls/getControlType.md)
 #### [getData](reference/controls/getData.md)
 #### [getDefaultView](reference/controls/getDefaultView.md)
-#### [getDisabled](reference/controls/getDefaultView.md)
+#### [getDisabled](reference/controls/getDisabled.md)
 #### [getEntityTypes](reference/controls/getEntityTypes.md)
 #### [getInitialUrl](reference/controls/getInitialUrl.md)
 #### [getLabel](reference/controls/getLabel.md)

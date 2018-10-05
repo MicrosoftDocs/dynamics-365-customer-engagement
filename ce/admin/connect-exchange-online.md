@@ -1,7 +1,8 @@
 ---
 title: "Connect Dynamics 365 (online) to Exchange Online | MicrosoftDocs"
+description: "Connect Dynamics 365 (online) to Exchange Online"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 09/08/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,14 +15,14 @@ ms.assetid: 1b2b7846-5a69-4af7-849d-0c0acc300a7e
 caps.latest.revision: 22
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - Powerplatform
 ---
-# Connect Dynamics 365 (online) to Exchange Online 
+# Connect Dynamics 365 (online) to Exchange Online
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -34,6 +35,7 @@ With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[
 > [!INCLUDE[cc_feature_requires_office_365](../includes/cc-feature-requires-office-365.md)]  
   
 <a name="BKMK_GetExchangeReady"></a>   
+
 ## Get Exchange ready  
  To use [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you must have an [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] subscription that comes as part of an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription or that can be subscribed to separately. For information on [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)], see:  
   
@@ -47,6 +49,7 @@ With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[
 >  To make sure you’ve got a good connection to [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)], run the [Microsoft Remote Connectivity Analyzer](https://testconnectivity.microsoft.com/). For information on what tests to run, see [Test mail flow with the Remote Connectivity Analyzer](https://technet.microsoft.com/library/dn305950\(v=exchg.150\).aspx).  
   
 <a name="BKMK_VerifyProfile"></a>   
+
 ## Verify you have the profile: Microsoft Exchange Online  
  If you have an [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] subscription in the same tenant as your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] subscription, [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] creates a default profile for the email connection: **Microsoft Exchange Online**. To verify this profile:  
   
@@ -61,6 +64,7 @@ With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[
 3. If there are multiple profiles, click the **Microsoft Exchange Online** profile and set it as default.  
   
 <a name="BKMK_ConfigureDefault"></a>   
+
 ## Configure default email processing and synchronization  
  Set server-side synchronization to be the default configuration method for newly created users.  
   
@@ -83,6 +87,7 @@ With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[
 All new users will have these settings applied to their mailbox.  
   
 <a name="BKMK_ConfigureMailboxes"></a>   
+
 ## Configure mailboxes  
  New users will have their mailboxes configured automatically with the settings you made in the prior section. For existing users added prior to the above settings, you must set the Server Profile and the delivery method for email, appointments, contacts, and tasks.  
   
@@ -119,11 +124,12 @@ All new users will have these settings applied to their mailbox.
 7.  Click **Change**.  
   
 <a name="BKMK_ApproveEmail"></a>   
+
 ## Approve email  
- You need to approve each user mailbox or queue before that mailbox can process email.  
+ You need to approve the email address of each user mailbox or queue before the mailbox can process email.  
   
 > [!NOTE]
->  You must be an Office 365 Global administrator to approve mailboxes.  
+>  You must be an Office 365 Global administrator to approve emails.  
   
 1.  Go to **Settings** > **Email Configuration** > **Mailboxes**.  
   
@@ -134,6 +140,7 @@ All new users will have these settings applied to their mailbox.
 4.  Click **OK**.  
   
 <a name="BKMK_TestConfiguration"></a>   
+
 ## Test configuration of mailboxes  
   
 1. Go to **Settings** > **Email Configuration** > **Mailboxes**.  
@@ -156,6 +163,7 @@ All new users will have these settings applied to their mailbox.
 >  If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](when-would-want-use-check-box.md).  
   
 <a name="BKMK_TestEmailConfig"></a>   
+
 ## Test email configuration for all mailboxes associated with an email server profile  
   
 1. Go to **Settings** > **Email Configuration** > **Email Server Profiles**.  

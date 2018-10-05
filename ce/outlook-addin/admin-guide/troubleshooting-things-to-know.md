@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
-ms.date: 01/13/2017
+ms.date: 09/17/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -31,6 +31,10 @@ This section describes how to troubleshoot [!INCLUDE[pn_crm_for_outlook_short](.
 <a name="BKMK_Issues"></a>   
 ## Potential issues and resolutions  
   
+### Common Data Service for Apps
+
+Microsoft Dynamics 365 for Outlook is not enabled on Common Data Service for Apps 2.0. 
+
 <a name="BKMK_AssignedTasks"></a>   
 ### Assigned tasks not updated in Outlook after updated in Dynamics 365  
  Consider the following scenario:  

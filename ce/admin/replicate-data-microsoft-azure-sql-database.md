@@ -1,7 +1,7 @@
 ---
 title: "Replicate Dynamics 365 (online) data to Azure SQL Database | MicrosoftDocs"
 ms.custom: ""
-ms.date: 07/11/2018
+ms.date: 09/21/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Replicate data to Azure SQL Database
+# Replicate data to Azure SQL Database 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -458,8 +458,8 @@ foreach ($orgId in $organizationIdList.Split(',')) {
 }
 
 # Add or update a secret to key vault.
-$secretVaule = ConvertTo-SecureString $connectionString -AsPlainText -Force
-$secret = Set-AzureKeyVaultSecret -VaultName $keyvaultName -Name $secretName -SecretValue $secretVaule -Tags $secretTags
+$secretValue = ConvertTo-SecureString $connectionString -AsPlainText -Force
+$secret = Set-AzureKeyVaultSecret -VaultName $keyvaultName -Name $secretName -SecretValue $secretValue -Tags $secretTags
 
 # Authorize application to access key vault.
 $servicePrincipal = 'b861dbcc-a7ef-4219-a005-0e4de4ea7dcf'

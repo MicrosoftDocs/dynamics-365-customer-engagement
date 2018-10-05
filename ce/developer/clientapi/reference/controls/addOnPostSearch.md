@@ -1,6 +1,6 @@
 ---
 title: "addOnPostSearch (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 10/04/2018
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -26,7 +26,7 @@ knowledge base search control
 ## Syntax
 
 ```
-var kbSearchControl = formContext.getControl("<name>";
+var kbSearchControl = formContext.getControl("<name>");
 kbSearchControl.addOnPostSearch(myFunction);
 ```
 

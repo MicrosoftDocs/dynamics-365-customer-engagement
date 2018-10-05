@@ -79,7 +79,7 @@ Adding social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-en
 > [!TIP]
 >  Common browsers block pop-ups by default. You should explicitly allow your browser to show pop-ups in the domain for your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] application. This ensures that the authentication dialog boxes load properly. If it doesn't, you won’t be able to add or reauthorize social profiles.  
 
-### Add a social profile to Social Engagement
+### Add a social profile to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
 Before you can work with a social profile, or use its token for data acquisition, the owner of a social profile needs to add it to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
