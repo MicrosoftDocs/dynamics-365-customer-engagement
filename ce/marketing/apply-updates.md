@@ -37,7 +37,9 @@ Read this topic to get an overview of how to update [!INCLUDE[pn-marketing-busin
 
 > [!WARNING]
 > Always update the core solutions of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] by running its setup wizard from the **Applications** tab of the Administration Center, as described in [Find and apply updates for core Marketing solutions](#update-core). Do not try to update the individual [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions by working on the **Instances** tab of the Administration Center.
+> 
 > ![Update Marketing using the Applications tab, not the Instances tab](media/purchase-app-tab.png "Update Marketing using the Applications tab, not the Instances tab")
+> 
 > However, [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] also includes two solutions ("[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] [!INCLUDE[pn-portals](../includes/pn-portals.md)] – Base Portal" and "[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)]") that *must* be updated separately using the **Instances** tab as described in [Find and apply updates for shared Marketing solutions](#update-shared). Be sure not to update any of the core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions while you are updating these shared solutions, even if they show an update is available.
 
 ## Solutions included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
@@ -95,7 +97,7 @@ To update shared (non-core [!INCLUDE[pn-marketing-app-module](../includes/pn-mar
 
 4. A list of solutions installed on your selected instance is shown. Look in the **Status** column for any solutions that show a value of "Upgrade available." The solutions that are relevant for Marketing are "[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] [!INCLUDE[pn-portals](../includes/pn-portals.md)] – Base Portal" and "[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)]". If you have many solutions installed, then use the paging controls at the bottom to check each page for available updates.  
 
-   > [!IMPORTANT]
+   > [!WARNING]
    > As mentioned at the start of this procedure, you must not update core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions from here. Always run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] update wizard first, before you start looking for shared-solution updates. Be sure not to update any of the core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions while you are updating the shared solutions, even if they show an update is available.
 
     ![Select a solution to update](media/update-select-solution.png "Select a solution to update")
