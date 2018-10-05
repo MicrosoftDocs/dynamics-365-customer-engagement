@@ -43,6 +43,9 @@ There are some feature restrictions depending on which versions of [!INCLUDE[pn_
 | [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] with [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] (on-premises) |                                                                                                                                                       <ul><li>Relationship assistant (not including cards for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)])</li> <li>Email engagement</li></ul>                                                                                                                                                       |
 |                                       [!INCLUDE[pn_crm_8_2_0_op_subsequent](../includes/pn-crm-8-2-0-op-subsequent.md)]                                        | <ul><li>Only Relationship assistant is available, and only its <em>base cards</em> are supported. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](../sales-enterprise/action-cards-reference.md)</li> <li>No features or action cards are available for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], so your [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] version isn't important.</li></ul> |
 
+> [!IMPORTANT]
+> The features Relationship assistant, Email engagement, and Auto capture are not available for legacy CRM licence. To use these features, get D365 licence.  
+
 ## How to enable embedded intelligence 
 As a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator, you can enable embedded intelligence for your organization to:
 - Enable and configure features such as Relationship assistant, Email engagement, and Auto capture.  
