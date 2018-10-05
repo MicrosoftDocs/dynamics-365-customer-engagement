@@ -99,7 +99,7 @@
         "developer/**/*.*": "bc/toc.yml",
         "sales-enterprise/**.*": "bc/toc.yml",
         "social-engagement/**.*": "bc/toc.yml",
-        "unified-service-desk/**.*": "bc/toc.yml",
+        "unified-service-desk/**.*": "unified-service-desk/bc/toc.yml",
         "versium-predict/**.*": "bc/toc.yml",
         "voice-of-customer/**.*": "bc/toc.yml",
         "channel-integration-framework/**.*": "bc/toc.yml"
