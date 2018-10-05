@@ -58,6 +58,11 @@
 ## [Add a signature for an email or queue](create-signature-dynamics-365-email-queue.md)
 ## [Send bulk email](../basics/send-bulk-email-customers.md)
 # [Collaboration](../basics/collaborate-with-team.md)
+## [Teams](../basics/integrate-with-microsoft-teams.md)
+### [Install Teams personal app](install-use-teams-app.md)
+### [Use Teams personal app](use-teams-personal-app.md)
+### [Install and use the team app](install-use-team-app.md)
+### [Troubleshoot Teams](troubleshoot-teams.md)
 ## [Yammer](../basics/collaborate-communicate-with-yammer.md)
 <!-- ## [Collaborate with GigJam](../basics/collaborate-real-time-with-gigjam.md) -->
 ## [Office 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md)

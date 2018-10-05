@@ -218,6 +218,8 @@
 #### [Validate and fix SharePoint site URLs](validate-fix-sharepoint-site-urls.md)
 <!-- #### [Set up Customer Service](../customer-service/improve-customer-service-better-automation-tracking.md)-->
 
+### [Install and enable Microsoft Teams](integrate-with-microsoft-teams.md)
+
 ### [Connect to Microsoft Social Engagement](connect-microsoft-social-engagement.md)
 #### [Install the Social Selling Assistant](install-social-selling-assistant.md)
 #### [Control social data](control-social-data.md)
