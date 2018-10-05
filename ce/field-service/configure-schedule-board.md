@@ -78,7 +78,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
    - **Teams** filters by teams that have been set up.  
   
-   - **Business Units** filters by groups that have specific access to information to do their job. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a business unit to control access to records](../admin/create-edit-business-unit-control-access-records.md)  
+   - **Business Units** filters by groups that have specific access to information to do their job. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a business unit to control access to records](../admin/create-edit-business-units.md)  
   
 ### Set default filters  
  ![Schedule Board Default Filters](../field-service/media/field-service-schedule-board-default-filters.png "Schedule Board Default Filters")  

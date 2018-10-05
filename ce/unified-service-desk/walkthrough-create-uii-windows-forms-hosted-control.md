@@ -28,7 +28,7 @@ search.app:
   - D365USD
 ---
 # Walkthrough: Create a UII Windows Forms Hosted Control in Unified Service Desk
-This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.microsoft.com/library/ms229601\(v=vs.110\).aspx)[!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] hosted control that interacts with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] and standalone or web external applications.  
+This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.microsoft.com/library/ms229601\(v=vs.110\).aspx) [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] hosted control that interacts with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] and standalone or web external applications.  
   
  In this walkthrough, you’ll:  
   

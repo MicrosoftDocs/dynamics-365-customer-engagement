@@ -2,7 +2,7 @@
 title: "Accessibility for Social Engagement | Microsoft Docs"
 description: "Learn about accessibility features in general and specifically in Social Engagement."
 keywords: "ease of access, accessibility, a11y, screen reader, color patterns"
-ms.date: 05/08/2018
+ms.date: 09/26/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,7 +10,7 @@ applies_to:
 ms.assetid: 0742a7c8-2fe9-483b-baa6-1907edad0300
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 topic-status: Drafting
 ms.custom: 
   - dyn365-a11y
@@ -104,7 +104,7 @@ Commonly used screen readers are supported, empowering the blind, visually impai
 
 - [Learn more about working with Microsoft Narrator](https://support.microsoft.com/help/22798)
 - [Learn more about working with JAWS](http://www.freedomscientific.com/Products/Blindness/JawsDocumentation)
-- [Learn more about working with NVDA](https://www.nvaccess.org/help/)
+- [Learn more about working with NVDA](https://www.nvaccess.org/get-help/)
 
 ### Use the keyboard to navigate the user interface
 
