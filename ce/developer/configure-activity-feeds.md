@@ -53,7 +53,7 @@ The following sections contain information about how to configure your system fo
   
  For activity feeds, you can enable customizable business entities and custom entities that are user-owned, team-owned or organization-owned.  
   
- For a list of entities that you can enable for activity feeds, see [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application. [!INCLUDE[cc_CRM_Settings](../includes/cc-crm-settings.md)] click **Post Configurations**. The **Post Configurations** area contains a list of entities that are configurable for activity feeds. You don’t need system administrator privileges to access the grid for viewing, but you do need administrator permissions to make modifications to items in the list, such as activating or deactivating post configurations for an entity or refreshing the list.  
+ For a list of entities that you can enable for activity feeds, see [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application. [!INCLUDE[cc_CRM_Settings](../includes/cc-crm-settings.md)] click **Post Configurations**. The **Post Configurations** area contains a list of entities that are configurable for activity feeds. You don’t need system administrator privileges to access the grid for viewing, but you do need administrator permissions to make modifications to items in the list, such as activating or deactivating post configurations for an entity or refreshing the list. Once you make changes, users will have to open a new tab or window to see these changes reflected.
   
 > [!NOTE]
 >  After you create a custom entity, you must press the **Refresh** button in the command bar of the **Post Configurations** area to include the new entity so that it can be configured.  

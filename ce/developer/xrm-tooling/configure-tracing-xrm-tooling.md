@@ -35,7 +35,7 @@ You can enable tracing to record data related to process milestones across all c
   Here is the configuration for enabling tracing for a component in XRM tooling. For example, the following configuration only enables tracing for the Microsoft.Xrm.Tooling.CrmConnectControl component:  
   
 ```xml  
-</configuration>  
+<configuration>  
   <system.diagnostics>  
     <trace autoflush="true" />  
     <sources>  

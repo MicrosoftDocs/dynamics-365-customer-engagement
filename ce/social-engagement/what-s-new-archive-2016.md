@@ -23,9 +23,9 @@ search.app:
   - D365SE
 ---
 
-# Microsoft Social Engagement 2016 Updates
+# [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] 2016 Updates
 
-## Microsoft Social Engagement 2016 Update 1.12 
+## [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] 2016 Update 1.12 
  
 ### Tag authors with custom tags 
  You can now tag any author with custom tags and filter by these tags. This means you can now segment authors in any of our apps by using filtering. For example, create a stream for posts from your group of "brand advocates", or use Analytics to see how the tone of "industry leads" authors changed. 
@@ -37,13 +37,13 @@ search.app:
 ### Increase engagement by using Disqus 
  [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] introduces [!INCLUDE[tn_disqus](../includes/tn-disqus.md)] as an additional data source. [!INCLUDE[tn_disqus](../includes/tn-disqus.md)] is used by millions of websites, including blogs and news sites, to allow comments and discussions by users on relevant topics. [!INCLUDE[tn_disqus](../includes/tn-disqus.md)] is available as a self-service source in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] and allows users to gather relevant data by defining keyword search topics. 
  
-### Secure your integration of Microsoft Dynamics 365 with Social Engagement 
+### Secure your integration of Microsoft Dynamics 365 with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 
  To ensure that only the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] domains you own can make requests to your data in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you now need to explicitly add your [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] domains as allowed domains in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. If you are a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator, you can do this by going to **Settings** > **Allowed Domains**. Add only your owned [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] domains as allowed domains to enable communication with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. 
  
 > [!NOTE]
 > With [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] 2016 Update 1.12, all *.dynamics.com domains are no longer allowed to communicate with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] by default. 
  
-## Microsoft Social Engagement 2016 Update 1.11 
+## [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] 2016 Update 1.11 
  
 ### Dynamics 365 update 
  We recently launched the new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] suite of applications. As part of this, you will now see the new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] brand name referenced throughout the [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] application. Previous references to Dynamics CRM are now replaced with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Note that this does not affect any of your existing connections or integration functionality with Dynamics CRM instances. 
@@ -51,7 +51,7 @@ search.app:
 ### New Stats panel for automation rules 
  For better visibility into the execution of your automation rules, we've added a new Stats panel. You can now see execution statistics for the last seven days to ensure the rules are working within your expectations. The panel shows the volume of posts the rules were executed on, organized by the specific actions that were taken. You can see stats across all your rules or for a specific rule. 
  
-### Display Office 365 profile photos in Social Engagement
+### Display Office 365 profile photos in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
  Identifying users is now easier with the ability to see their profile photos in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. We acquire user profile photos from [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] and display them everywhere in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] a user profile photo is shown, including on the top navigation bar and other places like the assignee on a social post, or the users a social profile is shared with. 
  
  We've added a quick link to help you upload or edit your profile photo . To find this quick link, go to your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] profile page from the [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] navigation bar, or to **Your Preferences** in **Personal Settings**. 
@@ -67,18 +67,18 @@ search.app:
 ### Display linked images and videos in tweets in<br /> [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 
  Images and videos that are uploaded on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and linked in tweets through t.co links are now shown in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], in the details of a post in the post lists. This update improves the workflow by letting users see linked images and videos right away, without leaving [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. 
  
-## Microsoft Social Engagement 2016 Update 1.10 
+## [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] 2016 Update 1.10 
  
 ### [!INCLUDE[tn_reddit](../includes/tn-reddit.md)] as a new source 
  We've added [!INCLUDE[tn_reddit](../includes/tn-reddit.md)] as a new source in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. Set up or edit keyword rules, and then choose [!INCLUDE[tn_reddit](../includes/tn-reddit.md)] as an additional search channel. You'll see [!INCLUDE[tn_reddit](../includes/tn-reddit.md)] posts and comments in a threaded view, and in the analytics widgets you already use. [!INCLUDE[tn_reddit](../includes/tn-reddit.md)] doesn't contain any location information. 
  
-### Share posts within Microsoft Social Engagement through a link 
+### Share posts within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] through a link 
  As you work with posts, you can now generate internal links to easily share posts with other [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] users in your organization. To generate a link for a post, click the **Copy Internal URL** button in the post details. 
  
 ### Refresh Dynamics 365 connections to update entity metadata 
  We recently introduced the ability to update metadata in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] by refreshing a Dynamics 365 connection. We've now extended this to also refresh Dynamics 365 entity metadata on the Dynamics 365 connection. When you refresh a connection, you'll be notified if any Dynamics 365 entities or entity attributes are no longer available, and then they'll be automatically removed from the Dynamics 365 connection. 
  
-## Microsoft Social Engagement 2016 Update 1.9 
+## [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] 2016 Update 1.9 
  
 ### New listening languages 
  You can now search four new languages in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Bosnian, Croatian, Serbian, and Slovenian are now available for keyword search rules, analytics filters, filter sets, and global settings for search languages and search topic defaults. 
@@ -87,11 +87,11 @@ search.app:
  When working with posts in Analytics, you'll now see that the posts you've recently opened are highlighted. When you use the up and down arrows in the top right corner of the post details view, the post list will adjust to the position of the post you’re looking at. This also happens in streams when you're navigating through post details. When you're ready to go back to the post list, the last post you have opened will be at the top of your post list. 
  
 ### Refresh<br /> [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] connection metadata 
- We're introducing a Refresh button to manually refresh [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] metadata in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. When you create a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] connection, Social Engagement retrieves and stores the metadata, such as [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] version, entities, and entity properties. Any changes to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance that result in changes to the metadata are not automatically updated in Social Engagement. Use the Refresh button to trigger an update of the metadata and keep your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] connection information in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] up to date. 
+ We're introducing a Refresh button to manually refresh [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] metadata in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. When you create a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] connection, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] retrieves and stores the metadata, such as [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] version, entities, and entity properties. Any changes to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance that result in changes to the metadata are not automatically updated in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Use the Refresh button to trigger an update of the metadata and keep your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] connection information in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] up to date. 
  
- For your reference, the Last Updated On date on the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] connection shows when the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] metadata in Social Engagement was last updated. 
+ For your reference, the Last Updated On date on the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] connection shows when the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] metadata in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] was last updated. 
  
-## Microsoft Social Engagement 2016 Update 1.8 
+## [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] 2016 Update 1.8 
  
 ### Simplified editing for keyword-based search rules 
  We have improved the workflow to enter keywords, inclusions, and exclusions for keyword-based search rules in search setup. Words you enter will be displayed as individual items, which allows easier deletion and editing of search rules as well as better readability. Entering a comma or pressing the Enter key will transform the keyword into an easily-removable item. Every separated item acts as an OR operator, which was formerly represented as a comma (,). 
@@ -119,9 +119,9 @@ search.app:
 ### Improved UI for filters 
  Filters are now easier to view and use. When you open the filter editor, you'll see that active filters are now bold, collapsed. and show the number of active filters, so you can easily see all of your filters. We also reduced the need to manually scroll when you open filter dimensions. In Analytics you can now conveniently view and open a specific active filter by clicking it at the top of the Analytics page. 
  
-## Microsoft Social Engagement 2016 Update 1.7 
+## [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] 2016 Update 1.7 
  
-### Introducing Instagram as a new source in Social Engagement 
+### Introducing Instagram as a new source in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 
  [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] is now available as a source in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], adding a way to engage on highly-relevant pictures and short videos from millions of posts published every day. 
  
  To gather posts that mention a specific hashtag, you can create keyword search rules for #hashtags on [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] to find public posts on [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] that contain that hashtag. 
@@ -195,7 +195,7 @@ search.app:
  
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Social Engagement Help & Training](http://go.microsoft.com/fwlink/p/?LinkID=506601) 
  
-## Microsoft Social Engagement 2016 Update 1.6 
+## [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] 2016 Update 1.6 
  
 ### Work more efficiently in streams and post lists 
  Increase your productivity and work smoothly with posts. Streams and post lists now let you quickly skip to the next post as you review post details. Click the Previous/Next arrows to quickly move between posts. And [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] now buffers all actions you apply to a post, saving you valuable time by queuing actions rather than having to complete every action before you can apply the next one. 
@@ -205,7 +205,7 @@ search.app:
  
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get relevant data using filters](use-filters.md) 
  
-## Microsoft Social Engagement 2016 Update 1.5 
+## [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] 2016 Update 1.5 
  
 ### Introducing auto tags and adaptive learning on tags 
  You can now enable adaptive learning on your custom tags by adding them to your list of auto tags. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] applies adaptive machine learning on these tags to predict tags for new incoming posts. This allows the system to learn from users' edits on tags and the tagging of posts 
@@ -217,7 +217,7 @@ search.app:
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with tags](tags.md) 
  
 ### Introducing Chinese and Japanese sentiment detection 
- [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] now includes sentiment calculation for Chinese and Japanese in addition to the already available languages. Understand at a glance how the perception of your audience is toward the terms you search for. For more information about the languages that Social Engagement is translated into and sentiment analysis, see [Microsoft Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086), [Adaptive learning based on changes to organization’s sentiment values](adaptive-learning.md). 
+ [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] now includes sentiment calculation for Chinese and Japanese in addition to the already available languages. Understand at a glance how the perception of your audience is toward the terms you search for. For more information about the languages that [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is translated into and sentiment analysis, see [Microsoft Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086), [Adaptive learning based on changes to organization’s sentiment values](adaptive-learning.md). 
  
 ### Extended source coverage: Blogs 
  We have extended the current coverage of the Blogs source. The extended source is automatically included if you set up a new search topic with a keyword rule. To avoid an unintentional surpassing of your monthly post quota, your existing search topics will continue to acquire posts with the previous source coverage. If you want to update existing search topics to include the extended coverage of the Blogs source, you can edit your existing keyword search rules, for example by adding a comma (,) and save the edited rule. 
@@ -241,7 +241,7 @@ search.app:
  
  To learn more about this feature, see [Link posts from Social Engagement to Dynamics 365](link-posts-to-dynamics-365.md) 
  
-## Microsoft Social Engagement 2016 Update 1.4 
+## [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] 2016 Update 1.4 
  
 ### Introducing custom tags 
  With our last release, we introduced intention tags—a set of predefined tags that are automatically added to posts based on author intent. We're extending the capabilities of the tags feature with custom tags. In addition to intention tags, you can now manually add one or more custom tags to posts. Custom tags allow you to freely choose the tag names and the posts you want to add them to. Tags come in very handy when you want to provide additional context to posts, highlight important announcements, build triage queues, and enable a more detailed structuring of your data set. You can also filter posts by custom tags to narrow your analysis, or define streams based on them. 
@@ -271,7 +271,7 @@ search.app:
  
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Drive business objectives using posts](publish-react-posts.md) 
  
-## Microsoft Social Engagement 2016 Update 1.3 
+## [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] 2016 Update 1.3 
  
 ### Understand an author's intent using intention analysis 
  To help increase team efficiency for sales and service organizations, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] automatically detects intentions in English social posts on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)]. Intention tags are applied to acquired posts and are analyzed by a machine-learning based algorithm to detect author’s intentions. Posts that are picked up by a search topic are scored against the algorithm and if applicable, marked with the intentions identified. In addition to the automated tagging, you can manually add tags or remove tags from posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with tags](tags.md) 
@@ -284,18 +284,18 @@ search.app:
 ### Sentiment analysis for the Arabic language 
  The updated sentiment algorithm provides you with the capability to perform sentiment analysis for posts in Arabic. Additionally, post content in Arabic, Hebrew, or Urdu now displays with a right-to-left alignment in the post list and in post details. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086), [Adaptive learning based on changes to organization’s sentiment values](adaptive-learning.md) 
  
-### Share a link from a post found in Social Engagement 
+### Share a link from a post found in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 
  When you find a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], be it on a stream in Social Center, or in the post list in Analytics, you can share this post to your peers with a few clicks. Simply click the **Post Link** button and add some text to your post. Choose the social profile to post to, and you’re done. Give it a try. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Drive business objectives using posts](publish-react-posts.md) 
  
 ### Improvements to Link-to-Dynamics 365 user experience 
  We introduced improvements when requesting information from the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] discovery service and updated the error messages when there's an issue with the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Authentication requests are now handled more smoothly when you link a post from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)]. 
  
-## Microsoft Social Engagement 2016 Update 1.2 
+## [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] 2016 Update 1.2 
  
 ### Add photos when replying to a post 
  A picture tells more than a thousand words. When you reply to a post on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can now add photos to your replies. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Drive business objectives using posts](publish-react-posts.md) 
  
-### View details about Twitter profiles in Social Engagement 
+### View details about Twitter profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 
  Social profiles are vital for the success of your social strategy. To give you a quick way to update, add, or share profiles, we moved them to their own page in the Settings area. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md) 
  
 ### Search Setup available on all devices 
@@ -310,15 +310,15 @@ search.app:
 ### New videos added 
  We’ve added the following new videos to the collection: [3 intelligent ways to engage your customers in Microsoft Social Engagement 2016 (3:00)](http://go.microsoft.com/fwlink/p/?LinkId=723351) and [New features in Microsoft Social Engagement 2016 (4:19)](http://go.microsoft.com/fwlink/p/?LinkId=723350). Check back regularly for new multimedia assets that help you to get up to speed quickly with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Have a look at the updated [Videos & eBooks page](http://go.microsoft.com/fwlink/p/?LinkId=400708) for a collection of all published multimedia content. 
  
-## Microsoft Social Engagement 2016 Update 1.1 
+## [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] 2016 Update 1.1 
  
 ### Add custom sources from public RSS and Atom feeds 
  Extend the coverage of your data sources by adding custom sources in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Custom sources offer a way to get additional data from your favorite public RSS and Atom feeds. Broaden your sources while efficiently keeping track of all of your feeds. You can create search topic rules and filters to gain further insight into all your sources. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or delete custom sources](custom-sources.md) 
  
-### View details about Twitter profiles in Social Engagement 
+### View details about Twitter profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 
  Microsoft [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] offers a built-in experience to find details about Twitter profiles. Learn about the author’s interests and who they’re interacting with. At a glance, see what media and hashtags the author posted in the past 30 days. Quickly spot the relation of your social profiles with the author and start following directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Get an idea of what’s on the author’s mind with a chronological list of their latest tweets. You can get to the author details by clicking the author details button ![View author details button in Social Engagement](media/author-details-icon.png "View author details button in Social Engagement") in the author widget, or by clicking the profile picture in the Social Center and Analytics post list. Learn about author interests and their backgrounds through author lookup to keep track of people who impact your social feed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Access author details](author-details.md) 
  
-### Collaborate with Office 365 Groups in Social Engagement 
+### Collaborate with Office 365 Groups in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 
  Help get groups collaborating in your organization. In addition to working with individual users in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can now work with [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)]. Assign posts to groups to make entire teams aware of them. Share social profiles and streams with groups to make sure the right teams have access to the relevant profiles and data. [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] can be created and managed from within the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin center or [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)], and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] synchronizes your organization’s groups for convenient usage from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with Office 365 Groups in Social Engagement](office-365-groups-social-engagement.md) 
  
 ### Add photos when publishing a post 
@@ -327,7 +327,7 @@ search.app:
 ### Create records from social posts in Microsoft Dynamics 365 (on-premises) (IFD-enabled) 
  Admins can now connect their organization's [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution to a Microsoft Dynamics 365 (on-premises) instance. The new capabilities offer another level of operational efficiency to your sales, marketing, and service teams who are using the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Link posts from Social Engagement to Dynamics 365](link-posts-to-dynamics-365.md), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkID=624394) 
  
-## Microsoft Social Engagement 2016 Update 1 
+## [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] 2016 Update 1 
  
 ### Turkish language is now supported 
  Get in touch with your audience using Turkish language. The acquisition of social posts, the application interface, and sentiment calculation are now available for Turkish in addition to the already-available languages for the application interface and sentiment calculation. For more information about the languages that [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is translated into, see the [Microsoft Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086). 

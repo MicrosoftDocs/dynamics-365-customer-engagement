@@ -73,7 +73,8 @@
         "social-engagement/**.*": "bc/toc.yml",
         "unified-service-desk/**.*": "bc/toc.yml",
         "versium-predict/**.*": "bc/toc.yml",
-        "voice-of-customer/**.*": "bc/toc.yml"
+        "voice-of-customer/**.*": "bc/toc.yml",
+        "channel-integration-framework/**.*": "bc/toc.yml"
       },
       "searchScope": {
         "**.*": [
@@ -168,6 +169,10 @@
           "Customer Engagement"
         ],
         "voice-of-customer/**.*": [
+          "Dynamics 365",
+          "Customer Engagement"
+        ],
+        "channel-integration-framework/**.*": [
           "Dynamics 365",
           "Customer Engagement"
         ]

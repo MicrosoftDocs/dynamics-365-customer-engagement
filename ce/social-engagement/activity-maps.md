@@ -155,10 +155,11 @@ The Sentiment map additionally shows the colors and shapes for the corresponding
   
 6.  When you’re done, click the area filter button again to disable it, or click ![Area filter disable](media/disable-area-filter-icon.png "Area filter disable") at the top of the selector.  
   
-## View an activity map’s data in other areas of Social Engagement  
- View the data set selected for an activity map in other areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to further understand the details and arrive at any required metrics. Click the **More options with current filters** button ![More options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters") in the header of an activity map.  
+## View an activity map’s data in other areas of [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)]
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Open a data set in other areas of Social Engagement](more-options-with-data-set.md)  
+View the data set selected for an activity map in other areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to further understand the details and arrive at any required metrics. Click the **More options with current filters** button ![More options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters") in the header of an activity map.  
+  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Open a data set in other areas of Social Engagement](more-options-with-data-set.md)  
   
 ## Delete an activity map  
  If you don't want to use an activity map anymore, you can delete it from your list.  

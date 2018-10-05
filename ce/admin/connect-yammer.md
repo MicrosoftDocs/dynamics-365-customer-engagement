@@ -1,7 +1,7 @@
 ---
 title: "Connect Customer Engagement to Yammer | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/02/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -39,7 +39,7 @@ search.app:
   
 - [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
   
-- You’ll also need to have verified system administrator privileges for your organization’s [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] account, plus both the Write Organization and Configure Yammer privileges. If you’re not an administrator, by default these privileges aren’t available, and must be added.  
+- You’ll also need to have verified system administrator privileges for your organization’s [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] account.  
   
 - Install the most recent product updates for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   

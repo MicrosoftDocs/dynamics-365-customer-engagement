@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Dynamics 365 for Outlook software requirements | MicrosoftDocs"
 ms.custom: ""
-ms.date: 01/13/2017
+ms.date: 08/17/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -107,6 +107,16 @@ search.app:
 - Microsoft SQL Server Compact 4.0.  
   
 - Reporting Services Microsoft ActiveX control. If not installed on the computer, the user will be prompted to install the software at first attempt to print a report. This installer package is named RSClientPrint.cab and can found on the [!INCLUDE[pn_SQL_Server_Reporting](../../includes/pn-sql-server-reporting.md)] server at \<drive>:\Program files\Microsoft SQL Server\\<MSSQL\>\Reporting Services\ReportServer\bin.  
+
+ > [!NOTE]
+  >  Dynamics 365 for Outlook is not supported when remote Proxy Auto-Configuration (PAC) files are used.
+
+### Offline Support
+
+The following operating systems are supported for offline mode.
+
+ ![Offline Support](../media/OfflineSupport.PNG "Offline Support") 
+
   
 ### See Also  
  [Dynamics 365 for Outlook support matrixes](support.md)   
