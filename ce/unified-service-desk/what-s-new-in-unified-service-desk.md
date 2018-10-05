@@ -39,7 +39,7 @@ Developers and customizers will be able to use the following new features in the
 
 ### General Availability: Support for Unified Interface apps in Unified Service Desk
 
-With the release of [!include[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] (online), version 9.0, we've introduced a new user experience -[Unified Interface](../admin/about-unified-interface.md), which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can load a URL or page from Dynamics 365, which is built based on the Unified Interface framework.
+With the release of [!include[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] (online), version 9.0, we've introduced a new user experience -[Unified Interface](/dynamics365/customer-engagement/admin/about-unified-interface), which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can load a URL or page from Dynamics 365, which is built based on the Unified Interface framework.
 
 A new hosted control type called **Unified Interface Page** is introduced, which you need to set as **USD Component Type** while creating a hosted control to use a URL or page from [!include[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 

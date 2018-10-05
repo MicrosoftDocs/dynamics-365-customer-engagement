@@ -43,7 +43,7 @@ The migration of Unified Service Desk configurations from Dynamics 365 Web Clien
 
 You must download the Configuration Migration Tool (DataMigrationUtility.exe), which is available as a [NuGet package](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf). 
 
-To download the tool, see [Download the tools from NuGet](../../developer/download-tools-nuget.md). Follow the steps on this page to extract the Configuration Migration Tool (DataMigrationUtility.exe).
+To download the tool, see [Download the tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget). Follow the steps on this page to extract the Configuration Migration Tool (DataMigrationUtility.exe).
 
 > [!div class="nextstepaction"]
 > [How to migrate the configurations](migration-steps-web-client-unified-interface-configuration.md)
