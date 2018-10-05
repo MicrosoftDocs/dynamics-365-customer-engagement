@@ -126,9 +126,9 @@ You can add the Social Insights controls to the existing system dashboards or to
 
 11. To publish the customizations, select **Publish All Customizations** on the command bar. After the customizations are published, you can see the Social Insights on your dashboard.
 
-   ![Social Insights example widget](media/social-insights-example-visual.PNG "Social Insights example widget")  
+    ![Social Insights example widget](media/social-insights-example-visual.PNG "Social Insights example widget")  
 
-## Configure forms: Add and configure Social Insights visuals to an entity form
+## Configure forms: Add and configure Social Insights controls
 
 ### Add a Social Insights control to an entity form
 
