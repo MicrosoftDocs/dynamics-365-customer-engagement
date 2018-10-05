@@ -59,7 +59,7 @@
 ## [Send bulk email](../basics/send-bulk-email-customers.md)
 # [Collaboration](../basics/collaborate-with-team.md)
 ## [Teams](../basics/integrate-with-microsoft-teams.md)
-### [Install Teams personal app](install-use-teams-app.md)
+### [Install Teams personal app](install-use-team-app.md)
 ### [Use Teams personal app](use-teams-personal-app.md)
 ### [Install and use the team app](install-use-team-app.md)
 ### [Troubleshoot Teams](troubleshoot-teams.md)

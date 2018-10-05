@@ -154,7 +154,7 @@ The following data is stored with Dynamics 365 integration with Microsoft Teams.
 |    Org URL    |            The URL of the Dynamics 365 org             |                                                  OrganizationIdentifiableInformation<br />(OII) Data that can be used to identify a tenant, generally config or usage data. This data is not linkable to a user and does not contain Customer content.                                                  | <ul><li>Tenant ID (non-GUID)</li><br/><li>Domain name in e-mail address (xxx@contoso.com) or other tenant-specific domain information</li><ul> |
 | App module ID | The ID of app module selected to show in the dashboard | EndUsePseudonymousIdentifiers         <br/>(EUPI) An identifier created by Microsoft tied to the user of a Microsoft service. When EUPI is combined with other information, such as a mapping table, it identifies the end user. EUPI does not contain information uploaded or created by the customer. |                                      <ul><li>User GUIDs, PUIDs, or SIDs</li><br/><li>Session IDs</li><ul>                                      |
 
-You can [contact support](contact-technical-support.md) to request data deletion. Run the following Windows PowerShell commands to gather the information needed by Dynamics 365 support.
+You can [contact support](../admin/contact-technical-support.md) to request data deletion. Run the following Windows PowerShell commands to gather the information needed by Dynamics 365 support.
 
 |Command  |Comment  |
 |---------|---------|
