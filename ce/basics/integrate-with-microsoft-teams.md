@@ -38,13 +38,13 @@ Begin by finding the app in the app Store.
 
 ## Select the app in the app Store
 
-1. In Microsoft Teams, select **Store**.
+1. In Microsoft Teams, select **Store**. 
 
-   ![Select Store](media/select-store.png "Select Store")
+   ![Select Store](../admin/media/select-store.png "Select Store")
 
 2. Search for **dynamics**, and then select the **Dynamics 365 (Preview)** tile.
 
-   ![Search for and select Dynamics 365](media/teams-search-select-dynamics-365-app.png "Search for and select Dynamics 365")
+   ![Search for and select Dynamics 365](../admin/media/teams-search-select-dynamics-365-app.png "Search for and select Dynamics 365")
 
 ## Install the personal app
 
@@ -54,7 +54,7 @@ Once you've selected the Dynamics 365 app (see steps above), the settings page o
 
 Verify **Yes** is enabled, and then select **Install** to install the personal app.
 
-   ![Install personal app](media/teams-install-add-for-you.png "Install personal app")
+   ![Install personal app](../admin/media/teams-install-add-for-you.png "Install personal app")
 
 ## Install the personal app bot
 
@@ -64,29 +64,29 @@ Use these steps to install the personal app bot.
 
 1. With the personal app installed, in the bot section, select **Open**. 
 
-   ![Select Open bot](media/teams-personal-app-installed-open-bot.png "Select Open bot")
+   ![Select Open bot](../admin/media/teams-personal-app-installed-open-bot.png "Select Open bot")
 
 2. A Welcome message appears in the **Conversation** tab page. Select **Sign in**.
 
-   ![Bot Welcome page](media/teams-bot-welcome.png "Bot Welcome page")
+   ![Bot Welcome page](../admin/media/teams-bot-welcome.png "Bot Welcome page")
 
 3. Select your organization, and then select **Next**.
 
    Your bot is set up and ready for input.
 
-   ![Bot is ready for input](media/teams-first-bot.png "Bot is ready for input")
+   ![Bot is ready for input](../admin/media/teams-first-bot.png "Bot is ready for input")
 
 4. You can search to find records of interest. For example, enter "search contoso" in **Search** to see Contoso records.
 
-   ![Use Search to find records](media/teams-search-contoso.png "Use Search to find records")
+   ![Use Search to find records](../admin/media/teams-search-contoso.png "Use Search to find records")
 
 5. Search returns a list of related Dynamics 365 records. Select a record to see details.
 
-   ![Search returns a list of records](media/teams-bot-search.png "Search returns a list of records")
+   ![Search returns a list of records](../admin/media/teams-bot-search.png "Search returns a list of records")
 
 6. The details of the selected record are displayed in the personal app bot. You can select an activity to view and edit related record details. For example, select **Show Opportunities** to see opportunities for the Contoso account.
 
-   ![See related details and records](media/teams-bot-record-quick-action.png "See related details and records")
+   ![See related details and records](../admin/media/teams-bot-record-quick-action.png "See related details and records")
 
    You can update the details of the records in the personal bot.
 
@@ -94,11 +94,11 @@ Use these steps to install the personal app bot.
 
 Select **My Dashboard** to view your Dynamics 365 dashboard in Microsoft Teams. The dashboard displayed is based on who is signed in and their user role.
 
-![Dynamics 365 dashboard](media/teams-bot-dashboard.png "Dynamics 365 dashboard")
+![Dynamics 365 dashboard](../admin/media/teams-bot-dashboard.png "Dynamics 365 dashboard")
 
 If you have more than one organization or Unified Interface app, you can use the **Settings** tab to select a different organization or app to appear as a dashboard.
 
-![Dashboard settings](media/teams-settings-page.png "Dashboard settings")
+![Dashboard settings](../admin/media/teams-settings-page.png "Dashboard settings")
 
 > [!NOTE]
 > - Only Dynamics 365 version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
@@ -113,23 +113,23 @@ Once you've selected the Dynamics 365 app (see [Select the app in the app Store]
 
 1. Choose a Team, verify **Yes** is enabled, and then select **Install** to install the Team app.
 
-   ![Install Team app](media/teams-first-settings.png "Install Team app")
+   ![Install Team app](../admin/media/teams-first-settings.png "Install Team app")
 
-2. With the Team app installed, select the **Add** button (![Add button](media/plus-2.png "Add button")) to add the Dynamics 365 tab to a Microsoft Team channel. 
+2. With the Team app installed, select the **Add** button (![Add button](../admin/media/plus-2.png "Add button")) to add the Dynamics 365 tab to a Microsoft Team channel. 
 
-   ![Select Add button](media/teams-add-tab.png "Select Add button")
+   ![Select Add button](../admin/media/teams-add-tab.png "Select Add button")
 
 3. Select the **Dynamics 365** icon to pin a Dynamics 365 record to a Microsoft Team discussion channel.
 
-   ![Add Dynamics 365 Team channel](media/teams-add-channel.png "Add Dynamics 365 Team channel")
+   ![Add Dynamics 365 Team channel](../admin/media/teams-add-channel.png "Add Dynamics 365 Team channel")
 
 4. Search for an entity to pin. Use **Filter by** to narrow the search to an entity type. Select **Save**.
 
-   ![Search for entity](media/teams-add-channel-pin-record.png "Search for entity")
+   ![Search for entity](../admin/media/teams-add-channel-pin-record.png "Search for entity")
 
-   If you have multiple organizations or app modules, select **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which records to pin to the discussion channel.
+   If you have multiple organizations or app modules, select **Edit** (![Edit](../admin/media/edit-icon.png "Edit")) to specify which records to pin to the discussion channel.
  
-   ![Specify org and app](media/teams-change-org-app.png "Specify org and app")
+   ![Specify org and app](../admin/media/teams-change-org-app.png "Specify org and app")
 
    Enable **Remember this preference** to set the org and app selections to be the default personal dashboard that appears when you select **My Dashboard**.
 
@@ -137,7 +137,7 @@ Once you've selected the Dynamics 365 app (see [Select the app in the app Store]
 
 Once you complete the above steps, the Dynamics 365 tab appears on the menu bar.
 
-![Dynamics 365 tab](media/teams-pinned-record.png "Dynamics 365 tab")
+![Dynamics 365 tab](../admin/media/teams-pinned-record.png "Dynamics 365 tab")
 
 You can interact with the record as if you were using the Dynamics 365 web app. Those with Write permissions can edit the record; changes will be synchronized with the Dynamics 365 web app.
 
