@@ -41,11 +41,15 @@ You should be aware of the following constraints when creating alternate keys:
    Only attributes of the following types can be included in alternate key definitions:  
 
 
-  |      Attribute Type      |    Display Name     |
-  |--------------------------|---------------------|
-  | DecimalAttributeMetadata |   Decimal Number    |
-  | IntegerAttributeMetadata |    Whole Number     |
-  | StringAttributeMetadata  | Single line of text |
+  |      Attribute Type         |    Display Name     |
+  |-----------------------------|---------------------|
+  | DecimalAttributeMetadata    |   Decimal Number    |
+  | IntegerAttributeMetadata    |    Whole Number     |
+  | StringAttributeMetadata     | Single line of text |
+  | DateTimeAttributeMetadata   |      Date Time      |
+  | LookupAttributeMetadata     |       Lookup        |
+  | PicklistAttributeMetadata   |      Picklist       |
+  
 
 
 - **Valid key size**  
