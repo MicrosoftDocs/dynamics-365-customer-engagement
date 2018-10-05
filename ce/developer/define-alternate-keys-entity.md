@@ -2,7 +2,7 @@
 title: "Define alternate keys for an entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The topic explains about how to create alternate keys for an entity. Alternate keys can be created programmatically or by using the customization tools"
 ms.custom: ""
-ms.date: 06/05/2018
+ms.date: 10/05/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
