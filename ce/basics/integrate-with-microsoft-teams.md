@@ -43,6 +43,7 @@ There are two faces to the of integration:
 - changes made in Dynamics 365 (online) when connected Microsoft Teams to support data flow and document management
 
 ## Dynamics 365 app in Teams
+The Dynamics tab, when added to a Teams channel, provides a fully functional page in which you edit information and navigate to related records; all this without leaving Teams.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/d365inteams.png "Dynamics 365 pinned in Teams")
