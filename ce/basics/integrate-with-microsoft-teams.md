@@ -50,15 +50,22 @@ The Dynamics tab, when added to a Teams channel, provides a fully functional pag
 
 You can also use the Dynamics 365 bot to look up and make a quick update on any record.
 
-See [Install Teams personal app](install-teams-personal-app.md) to install and configure the personal app and the bot.
-
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-bot-welcome2.png "Use Dynamics 365 bot")
 
+See [Install Teams personal app](install-teams-personal-app.md) to install and configure the personal app and the bot.
+
 ## Teams integration in Dynamics 365 (online)
 
+In Dynamics 365 (online) records, you can select **Collaborate** and then select a team or channel that has been connected to this record. Once you've made the selection, you're taken to the relevant conversation in Teams.
 
+> [!div class="mx-imgBorder"] 
+> ![](media/teams-select-collaborate.png "From Dynamics 365, open a conversation in Teams")
 
+In addition, document management actions in Dynamics 365 are integrated with Teams. For example, when you add a document to a record, that document will appear in Teams under the **Files** tab.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/teams-documents-d365.png "Dynamics 365 document management in Teams")
 
 ## Privacy notice
 
