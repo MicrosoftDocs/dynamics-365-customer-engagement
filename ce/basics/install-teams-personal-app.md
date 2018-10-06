@@ -34,11 +34,11 @@ Begin by finding the app in the app Store.
 
 1. In Microsoft Teams, select **Store**. 
 
-   ![Select Store](../admin/media/select-store.png "Select Store")
+   ![Select Store](media/select-store.png "Select Store")
 
 2. Search for **dynamics**, and then select the **Dynamics 365 (Preview)** tile.
 
-   ![Search for and select Dynamics 365](../admin/media/teams-search-select-dynamics-365-app.png "Search for and select Dynamics 365")
+   ![Search for and select Dynamics 365](media/teams-search-select-dynamics-365-app.png "Search for and select Dynamics 365")
 
 ## Install the personal app
 
@@ -48,7 +48,7 @@ Once you've selected the Dynamics 365 app (see steps above), the settings page o
 
 Verify **Yes** is enabled, and then select **Install** to install the personal app.
 
-   ![Install personal app](../admin/media/teams-install-add-for-you.png "Install personal app")
+   ![Install personal app](media/teams-install-add-for-you.png "Install personal app")
 
 ## Install the personal app bot
 
@@ -58,28 +58,28 @@ Use these steps to install the personal app bot.
 
 1. With the personal app installed, in the bot section, select **Open**. 
 
-   ![Select Open bot](../admin/media/teams-personal-app-installed-open-bot.png "Select Open bot")
+   ![Select Open bot](media/teams-personal-app-installed-open-bot.png "Select Open bot")
 
 2. A Welcome message appears in the **Conversation** tab page. Select **Sign in**.
 
-   ![Bot Welcome page](../admin/media/teams-bot-welcome.png "Bot Welcome page")
+   ![Bot Welcome page](media/teams-bot-welcome.png "Bot Welcome page")
 
 3. Select your organization, and then select **Next**.
 
    Your bot is set up and ready for input.
 
-   ![Bot is ready for input](../admin/media/teams-first-bot.png "Bot is ready for input")
+   ![Bot is ready for input](media/teams-first-bot.png "Bot is ready for input")
 
 4. You can search to find records of interest. For example, enter "search contoso" in **Search** to see Contoso records.
 
-   ![Use Search to find records](../admin/media/teams-search-contoso.png "Use Search to find records")
+   ![Use Search to find records](media/teams-search-contoso.png "Use Search to find records")
 
 5. Search returns a list of related Dynamics 365 records. Select a record to see details.
 
-   ![Search returns a list of records](../admin/media/teams-bot-search.png "Search returns a list of records")
+   ![Search returns a list of records](media/teams-bot-search.png "Search returns a list of records")
 
 6. The details of the selected record are displayed in the personal app bot. You can select an activity to view and edit related record details. For example, select **Show Opportunities** to see opportunities for the Contoso account.
 
-   ![See related details and records](../admin/media/teams-bot-record-quick-action.png "See related details and records")
+   ![See related details and records](media/teams-bot-record-quick-action.png "See related details and records")
 
    You can update the details of the records in the personal bot.
