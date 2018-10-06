@@ -48,7 +48,7 @@ The Dynamics tab, when added to a Teams channel, provides a fully functional pag
 > [!div class="mx-imgBorder"] 
 > ![](media/d365inteams.png "Dynamics 365 pinned in Teams")
 
-You can also use the Dynamics 365 bot to look up and make a quick update on any record.
+You can also use the Dynamics 365 bot to look up and make a quick update on any record. The bot essentially brings Dynamics 365 (online) to you in a chat format.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-bot-welcome2.png "Use Dynamics 365 bot")
