@@ -35,6 +35,10 @@ By using record creation and update rules in [!INCLUDE[pn_dynamics_crm](../inclu
 
  To enable the rule to update records, you must add an **Update** step to the rule. Only the entity that you select in the **Update** step is updated based on the properties you set.   
 
+> [!NOTE]
+> With the Customer Engagement apps, version 9.1 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. </br>
+Routing Rule Sets, Automatic Record Creation, and Service Level Agreements will be available in the Customer Service Hub sitemap with the January 2019 release.
+
 ## Activities and entities supported by record creation and update rules  
  By default, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] supports creating records from the following activities, also called source types in the context of record creation and update rules:  
 
@@ -107,7 +111,7 @@ If your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance mee
 3. Select **Automatic Record Creation and Update Rules**.
 
   
-4.  To create a record creation and update rule, click **New**.  
+4.  To create a record creation and update rule, select **New**.  
   
      -OR-  
   
@@ -131,13 +135,13 @@ If your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance mee
   
         > [!NOTE]
         >  You can associate only one rule per source type to a specific queue. For example: If you’re creating a rule to convert an email to a case, make sure you specify an email address for this queue. Otherwise, automatic record creation for email won’t work. 
-        [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](../customer-service/create-edit-queue.md)  
+        [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](set-up-queues-manage-activities-cases.md)
   
-6.  Click **Save**.  
+6.  Select **Save**.  
 
 ## Set Channel Properties
 
-1.  Under **Channel Properties**, in the **Additional Properties** box, click a channel property group.  
+1.  Under **Channel Properties**, in the **Additional Properties** box, select a channel property group.  
 
     > [!NOTE]
     >  When you select a property group for a record creation and update rule, you can use the channel property group’s property items in the rule item conditions or while setting properties for the target record. After you activate a rule, you can’t remove or change the selected property group. You can select another property group only after you remove the referenced property items of the previous property group from the rule items. When you try to select a new property group without removing the property references of the previous property group, you’ll see an error.  
@@ -182,7 +186,7 @@ If the source type for the rule is set to Social Activity, specify the condition
    > [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] determines what record to create based on the entity you select in the **Create Record** step under **Actions**.  
 
 ## Set record creation details
-In the **Specify Record Creation and Update Details** section, click ![Add a record button](../customer-service/media/crm-ua-add-record.gif "Add a record button") to define the conditions for creating or updating a record and specify the properties of the record.  
+In the **Specify Record Creation and Update Details** section, select ![Add a record button](../customer-service/media/crm-ua-add-record.gif "Add a record button") to define the conditions for creating or updating a record and specify the properties of the record.  
 
 1.  In the **Name** box, enter a meaningful name for the rule item.  
 
@@ -203,14 +207,14 @@ In the **Specify Record Creation and Update Details** section, click ![Add a rec
 
 3.  Add steps to create or update records for the incoming activity that matches the conditions you defined earlier.  
 
-    a.  Under **Actions**, click **Add Step** > **Create record**.  
+    a.  Under **Actions**, select **Add Step** > **Create record**.  
 
     b.  In the **Create** box, select the record type for the record you want to create from the incoming activity. For example, if you want to create a case from the social activity, select **Case**.  
 
       > [!NOTE]
       >  If the incoming activity has a regarding object set, and if the regarding object entity and the entity selected in the **Create Record** step aren’t the same, no workflow is applied and the actions defined in the rule are not executed.  
 
-    c.  Click **Set Properties**.  
+    c.  Select **Set Properties**.  
 
        The entity form is displayed. You can map the target entity fields to the social activity record data, including channel properties. Some of the mappings are available out of the box: Case title, Customer, and Origin (highlighted in yellow). The out-of-the-box mappings can be changed and new mappings can be added using the **Form Assistant** control.  
 
@@ -218,11 +222,11 @@ In the **Specify Record Creation and Update Details** section, click ![Add a rec
 
        The new record that is created will be automatically set as the regarding record of the incoming activity record. There is only one regarding object to the social activity, so, only one **Create** record action is possible in the **Actions** section.  
 
-    d.  To add more actions, under **Specify Other Actions**, click **Add Step** > \<Action>. The available actions are: Create Record, Update Record, Send Email, or Start Child Workflow.  
+    d.  To add more actions, under **Specify Other Actions**, select **Add Step** > \<Action>. The available actions are: Create Record, Update Record, Send Email, or Start Child Workflow.  
 
        Learn more about each of these actions in [Configure workflow steps](../customize/configure-workflow-steps.md).  
 
-4.  Click **Save and Close**.  
+4.  Select **Save and Close**.  
 
     > [!NOTE]
     > - Data types "Option Set" and "Two Option" are not supported in string type conditions.  
@@ -244,7 +248,7 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 
 ### Create channel property groups and add channel properties  
 
-1. After you save the record creation and update rule form, under **Channel Properties** section, in the **Additional Properties** box, click the lookup button, and then click **New**.  
+1. After you save the record creation and update rule form, under **Channel Properties** section, in the **Additional Properties** box, select the lookup button, and then select **New**.  
 
    ![Add channel properties for record creation rule](../customer-service/media/crm-ua-record-creation-rule-additional-properties.png "Add channel properties for record creation rule")  
 
@@ -259,9 +263,9 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 
 3. The **Source Type** field will be automatically set to the source type of the record creation and update rule.  
 
-4. Click **Save**.  
+4. Select **Save**.  
 
-5. In the **Channel Properties** section, click **+** to add in the group-specific channel properties.  
+5. In the **Channel Properties** section, select **+** to add in the group-specific channel properties.  
 
 6. In the **Channel Property** form, enter the following:  
 
@@ -296,7 +300,7 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 
    d. **Description**. Type details to further explain what the property is for.  
 
-7. When you’re done, click **Save & Close**.  
+7. When you’re done, select **Save & Close**.  
 
     You can see all the properties in the channel property group form.  
 
@@ -309,19 +313,19 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 
 1.  Go to **Settings** > **Service Management**. 
 
-2.  Click **Automatic Record Creation and Update Rules**.  
+2.  Select **Automatic Record Creation and Update Rules**.  
 
-3.  Open the rule you want to activate, and on the command bar, click **Activate**.  
+3.  Open the rule you want to activate, and on the command bar, select **Activate**.  
 
     > [!NOTE]
     >  You can have two record creation and update rules active at a time for any source type, except email—one with queue and one without a queue. You can have only one record creation and update rule active for the source type Email, and this rule should have a queue specified.  
 
-     After the rule is active, the only way to change the rule is to first deactivate it. Open the rule, and on the command bar, click **Deactivate**.  
+     After the rule is active, the only way to change the rule is to first deactivate it. Open the rule, and on the command bar, select **Deactivate**.  
 
 ## Manage automatic record creation and update from a queue form  
- You can create or manage an automatic record creation and update rule from a queue form, too. To do this, open the queue record, and on the command bar, click **Email Activity Conversion Settings** or **Social Activity Conversion Settings**.  
+ You can create or manage an automatic record creation and update rule from a queue form, too. To do this, open the queue record, and on the command bar, select **Email Activity Conversion Settings** or **Social Activity Conversion Settings**.  
 
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](../customer-service/create-edit-queue.md)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](set-up-queues-manage-activities-cases.md)
 
 
 ## Upgrade considerations  
@@ -341,4 +345,4 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 ### See also  
  [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   <br>
 
- [Create and edit queues](create-edit-queue.md)
+[Create or change a queue](set-up-queues-manage-activities-cases.md)

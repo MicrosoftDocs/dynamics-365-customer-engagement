@@ -22,7 +22,7 @@ search.app:
   - D365CS
 ---
 
-# Create or change a resource group (Customer Service)
+# Create or change a resource group
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

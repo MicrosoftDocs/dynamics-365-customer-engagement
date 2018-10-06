@@ -9,7 +9,7 @@ applies_to:
   - "Dynamics 365 Version 8.2"
 ms.author: anjgup
 manager: shujoshi
-ms.date: 08/07/2018
+ms.date: 10/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 16e57ec7-e14e-4ffa-9ca7-54a4fa63b4a9
@@ -36,11 +36,18 @@ See the following section to learn the types of search mechanisms available:
 
 ## Understand search mechanisms 
 
-- **Full-Text Search**: Lets you run full-text queries against character-based data in SQL Server tables. Read more: 
-[Full-Text Search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search). 
+- **Full-text search**: Lets you run full-text queries against character-based data in SQL Server tables. 
+ 
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Full-text search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search)
 
-- **Relevance Search**:  Lets you search across multiple pre-defined entities and returns result sorted by relevance.  Read more: [Relevance Search](../basics/relevance-search-results.md).
-<br> <br> See [Configure Relevance Search](../admin/configure-relevance-search-organization.md) to know how to configure relevance search to improve search results and performance.
+- **Relevance search**:  Lets you search across multiple pre-defined entities and returns result sorted by relevance.  
+
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relevance search](../basics/relevance-search-results.md)
+   <br> 
+
+   See [Configure Relevance search](../admin/configure-relevance-search-organization.md) to learn how to configure Relevance search to improve search results and performance.
+
+   To better understand the various searches used in Dynamics 365 and how they can be compared, see [Compare Dynamics 365 searches](../admin/configure-relevance-search-organization.md#compare-dynamics-365-searches).
 
 ## Search the knowledge base
 
@@ -53,34 +60,31 @@ You can search the knowledge base from the following areas in the Customer Servi
    To explore more options in the knowledge base search given in the Related section, see [Search for knowledge articles](customer-service-hub-user-guide-case-sla.md#search-for-knowledge-articles).
 
    > [!NOTE]
-   > Knowledge base search control is available out-of-the-box in case entity. The previous procedure describes how the control can be accessed in the Customer Service Hub app.
+   > Knowledge base search control is available out of the box in a case entity. The previous procedure describes how the control can be accessed in the Customer Service Hub app.
 
 - **Quick find in Grids**. In the app, go to **Service** > **Knowledge Articles**, and select the search box to search the knowledge base using keywords. 
 
    ![Quick find search](media/quick-find-search.png)
 
 
-- **Global search**. Select the **Search** icon on the navigation bar to do a global search for knowledge base articles. Global search lets you use **Categorized Search** or **Relevance Search**.
+- **Global search**. Select the **Search** icon on the navigation bar to do a global search for knowledge base articles. Global search lets you use **Categorized search** or **Relevance search**.
 
   ![Global search](media/global-search.png)
 
 
 > [!NOTE]
-> You can also search the knowledge base using Portals. See [Use faceted search to improve portal search](../portals/improve-portal-search-faceted-search.md) for more information.
+> You can also search the knowledge base using Portals. See [Use faceted search to improve portal search](../portals/improve-portal-search-faceted-search.md).
 
 
 With each of the previous search areas, the search results might vary based on the underlying search mechanism used:
 
-|Version  | App |Search areas| Search mechanism  |
+|Version  |  |Search areas| Search mechanism  |
 |---------|---------|---------|---------|
-| December 2016 Update for Dynamics 365 (online) </br> & </br> December 2016 Service Pack for Dynamics 365 (on-premises)  |   Any app (based on any client)    |     - KB search control <br>  - Quick find in Grids   |   Full-Text Search    |
-|   |     |      - Global search  |   Categorized Search     |
-|Dynamics 365 (online), version 9.0   |  Customer Service app (or any web app)     |  - KB search control      |   Relevance Search/ Full-Text Search (based on what you configure)     |
-|  |      |   - Quick find in Grids     |   Full-Text Search |
-|  |      |   - Global search     |   Relevance Search or Categorized Search     |
-| Dynamics 365 (online), version 9.0   |       Customer Service Hub (based on Unified Interface)  |   - KB search control <br> - Quick find on Grids |   Full-Text Search  |
-|  |       |      - Global search  |   Relevance Search or Categorized Search  |
-
+| December 2016 Update for Dynamics 365 (online) </br> & </br> December 2016 Service Pack for Dynamics 365 (on-premises)  |      |     - KB search control <br>  - Quick find in Grids   |   Full-text search    |
+|   |     |      - Global search  |   Categorized search     |
+|Dynamics 365 (online), version 9.0   |     |  - KB search control      |   Relevance search/ Full-text search (based on what you configure)     |
+|  |      |   - Quick find in Grids     |   Full-text search |
+|  |      |   - Global search     |   Relevance search or Categorized search (based on what you configure)    |
 
 ### See also
 
