@@ -1,1 +1,1 @@
-Choose **Queues**.
+Select **Queues**.
