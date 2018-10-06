@@ -38,7 +38,7 @@ If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-
 
 Check out the following video to get a quick overview of Dynamics 365 and Teams can work together to make easy collaboration possible: [Dynamics 365 app for Microsoft Teams Demo Video](https://www.youtube.com/watch?v=U11x5BlQlDU&feature=youtu.be)
 
-There are two faces to the of integration: 
+There are two areas of integration: 
 - the Dynamics 365 app installed in Microsoft Teams
 - changes made in Dynamics 365 (online) when connected Microsoft Teams to support data flow and document management
 
@@ -48,9 +48,15 @@ The Dynamics tab, when added to a Teams channel, provides a fully functional pag
 > [!div class="mx-imgBorder"] 
 > ![](media/d365inteams.png "Dynamics 365 pinned in Teams")
 
+You can also use the Dynamics 365 bot to look up and make a quick update on any record.
 
+See [Install Teams personal app](install-teams-personal-app.md) to install and configure the personal app and the bot.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/teams-bot-welcome2.png "Use Dynamics 365 bot")
 
 ## Teams integration in Dynamics 365 (online)
+
 
 
 

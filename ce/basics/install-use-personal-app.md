@@ -1,7 +1,7 @@
 ---
-title: "Install Teams personal app| MicrosoftDocs"
+title: "Install and use personal app and bot| MicrosoftDocs"
 ms.custom: ""
-description: Install Teams personal app.
+description: Install and use the personal app and bot.
 ms.date: 10/30/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Install Teams personal app
+# Install and use the personal app and bot
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -32,7 +32,7 @@ Begin by finding the app in the app Store.
 
 ## Select the app in the app Store
 
-1. In Microsoft Teams, select **Store**. 
+1. In Microsoft Teams, select **Store**.
 
    ![Select Store](media/select-store.png "Select Store")
 
@@ -83,3 +83,18 @@ Use these steps to install the personal app bot.
    ![See related details and records](media/teams-bot-record-quick-action.png "See related details and records")
 
    You can update the details of the records in the personal bot.
+
+## Use the personal dashboard
+
+Select **My Dashboard** to view your Dynamics 365 dashboard in Microsoft Teams. The dashboard displayed is based on who is signed in and their user role.
+
+![Dynamics 365 dashboard](media/teams-bot-dashboard.png "Dynamics 365 dashboard")
+
+If you have more than one organization or Unified Interface app, you can use the **Settings** tab to select a different organization or app to appear as a dashboard.
+
+![Dashboard settings](media/teams-settings-page.png "Dashboard settings")
+
+> [!NOTE]
+> - Only Dynamics 365 version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
+> - Only Unified Interface apps are listed.
+> - Only app modules licensed for the selected organization are listed. 
