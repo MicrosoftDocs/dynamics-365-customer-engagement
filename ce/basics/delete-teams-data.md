@@ -1,5 +1,5 @@
 ---
-title: "Preview: Delete | MicrosoftDocs"
+title: "Delete Teams data | MicrosoftDocs"
 ms.custom: ""
 description: Integrate Dynamics 365 Customer Engagement with Microsoft Teams.
 ms.date: 10/30/2018
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Preview: Integrate Dynamics 365 Customer Engagement with Microsoft Teams 
+# Delete Teams data
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
