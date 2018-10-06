@@ -53,7 +53,7 @@ You can also use the Dynamics 365 bot to look up and make a quick update on any 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-bot-welcome2.png "Use Dynamics 365 bot")
 
-See [Install Teams personal app](install-teams-personal-app.md) to install and configure the personal app and the bot.
+For more information on installing and configuring the personal app and bot, see: [Install Teams personal app](install-teams-personal-app.md). 
 
 ## Teams integration in Dynamics 365 (online)
 
@@ -66,6 +66,8 @@ In addition, document management actions in Dynamics 365 are integrated with Tea
 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-documents-d365.png "Dynamics 365 document management in Teams")
+
+For more information on enabling and using Teams integration in Dynamics 365 (online), see: [Install and use the personal app and bot](install-use-team-app.md).
 
 ## Privacy notice
 
