@@ -96,7 +96,7 @@ Select **Conversation** to have a chat-like conversation with team members who a
 Choose a message, select ... and then select **Save to Dynamics** to add the message to the **Timeline** section of a record.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/teams-save-conversation.png "Save Teams conversation message to Dynamics 365")
+> ![](media/teams-save-conversation-message.png "Save Teams conversation message to Dynamics 365")
 
 ### File tab
 
