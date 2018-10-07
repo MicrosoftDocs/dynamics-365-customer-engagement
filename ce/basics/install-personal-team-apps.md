@@ -80,3 +80,4 @@ Once you complete the above steps, the Dynamics 365 tab appears in the menu bar.
 
 You can interact with the record as if you were using the Dynamics 365 web app. Those with Write permissions can edit the record; changes will be synchronized with the Dynamics 365 web app.
 
+For information on using the Dynamics 365 app, see: [Use the personal app and bot](use-personal-app.md).

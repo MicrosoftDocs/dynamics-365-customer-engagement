@@ -1,7 +1,7 @@
 ---
 title: "Use the personal app and bot| MicrosoftDocs"
 ms.custom: ""
-description: Use personal app.
+description: "Use the personal app and bot."
 ms.date: 10/30/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -30,37 +30,28 @@ search.app:
 
 ## Use the personal app bot
 
-There are two personal app features: the personal app bot and the personal app dashboard. The bot allows you to interact with Dynamics 365 to find and display records within Microsoft Teams. You configure the dashboard to show a Dynamics 365 dashboard view in Microsoft Teams.
+There are two personal app features: the personal bot and the personal dashboard. The bot allows you to interact with Dynamics 365 to find and display records within Microsoft Teams. 
 
-Use these steps to install the personal app bot.
+Once you've completed installing the Dynamics 365 Teams app, you're taken to the **Conversation** tab with the bot ready for use. 
 
-1. With the personal app installed, in the bot section, select **Open**. 
+A Welcome message appears in the **Conversation** tab page. Select **Sign in**.
 
-   ![Select Open bot](media/teams-personal-app-installed-open-bot.png "Select Open bot")
+![Bot Welcome page](media/teams-bot-welcome.png "Bot Welcome page")
 
-2. A Welcome message appears in the **Conversation** tab page. Select **Sign in**.
+You can search to find records of interest. For example, search for Contoso records.
 
-   ![Bot Welcome page](media/teams-bot-welcome.png "Bot Welcome page")
+> [!div class="mx-imgBorder"] 
+> ![](media/teams-first-bot2.png "Search for Contoso records")
 
-3. Select your organization, and then select **Next**.
+Search returns a list of related Dynamics 365 records. Select a record to see details.
 
-   Your bot is set up and ready for input.
+![Search returns a list of records](media/teams-bot-search.png "Search returns a list of records")
 
-   ![Bot is ready for input](media/teams-first-bot.png "Bot is ready for input")
+The details of the selected record are displayed in the personal app bot. You can select an activity to view and edit related record details. For example, select **Show Opportunities** to see opportunities for the Contoso account.
 
-4. You can search to find records of interest. For example, enter "search contoso" in **Search** to see Contoso records.
+![See related details and records](media/teams-bot-record-quick-action.png "See related details and records")
 
-   ![Use Search to find records](media/teams-search-contoso.png "Use Search to find records")
-
-5. Search returns a list of related Dynamics 365 records. Select a record to see details.
-
-   ![Search returns a list of records](media/teams-bot-search.png "Search returns a list of records")
-
-6. The details of the selected record are displayed in the personal app bot. You can select an activity to view and edit related record details. For example, select **Show Opportunities** to see opportunities for the Contoso account.
-
-   ![See related details and records](media/teams-bot-record-quick-action.png "See related details and records")
-
-   You can update the details of the records in the personal bot.
+You can update the details of the records in the personal app.
 
 ## Use the personal app
 
@@ -81,6 +72,7 @@ Choose a message, select ... and then select **Save to Dynamics** to add the mes
 ### My Dashboard tab
 
 Use the personal dashboard
+You configure the dashboard to show a Dynamics 365 dashboard view in Microsoft Teams.
 
 Select **My Dashboard** to view your Dynamics 365 dashboard in Microsoft Teams. The dashboard displayed is based on who is signed in and their user role.
 
