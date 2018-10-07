@@ -50,7 +50,7 @@ Verify **Yes** is enabled, and then select **Install** to install the personal a
 
    ![Install personal app](media/teams-install-add-for-you.png "Install personal app")
 
-## Install the personal app bot
+## Install and use the personal app bot
 
 There are two personal app features: the personal app bot and the personal app dashboard. The bot allows you to interact with Dynamics 365 to find and display records within Microsoft Teams. You configure the dashboard to show a Dynamics 365 dashboard view in Microsoft Teams.
 
@@ -83,3 +83,36 @@ Use these steps to install the personal app bot.
    ![See related details and records](media/teams-bot-record-quick-action.png "See related details and records")
 
    You can update the details of the records in the personal bot.
+
+## Use the personal app
+
+### Conversation tab
+
+Select **Conversation** to have a chat-like conversation with team members who are using Dynamics 365 (online) and those who are not.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/teams-conversation.png "Teams conversation")
+
+Choose a message, select ... and then select **Save to Dynamics** to add the message to the **Timeline** section of a record.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/teams-save-conversation.png "Save Teams conversation message to Dynamics 365")
+
+### File tab
+
+### My Dashboard tab
+
+Use the personal dashboard
+
+Select **My Dashboard** to view your Dynamics 365 dashboard in Microsoft Teams. The dashboard displayed is based on who is signed in and their user role.
+
+![Dynamics 365 dashboard](../admin/media/teams-bot-dashboard.png "Dynamics 365 dashboard")
+
+If you have more than one organization or Unified Interface app, you can use the **Settings** tab to select a different organization or app to appear as a dashboard.
+
+![Dashboard settings](../admin/media/teams-settings-page.png "Dashboard settings")
+
+> [!NOTE]
+> - Only Dynamics 365 version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
+> - Only Unified Interface apps are listed.
+> - Only app modules licensed for the selected organization are listed. 

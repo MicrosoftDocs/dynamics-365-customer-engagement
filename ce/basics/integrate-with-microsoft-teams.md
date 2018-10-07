@@ -62,7 +62,7 @@ In Dynamics 365 (online) records, you can select **Collaborate** and then select
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-select-collaborate.png "From Dynamics 365, open a conversation in Teams")
 
-In addition, document management actions in Dynamics 365 are integrated with Teams. For example, when you add a document to a record, that document will appear in Teams under the **Files** tab.
+In addition, document management actions in Dynamics 365 are integrated with Teams. When you add a document to a record in Dynamics 365, that document will appear in Teams under the **Files** tab. Likewise, when you attach files to a Teams conversation, they will appear in Dynamics 365 under **Documents** for the linked record.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-documents-d365.png "Dynamics 365 document management in Teams")
