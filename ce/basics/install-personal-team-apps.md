@@ -61,7 +61,7 @@ Once you've selected the Dynamics 365 app (see steps above), the settings page o
    Enable **Post to the channel about this tab** to [need content].
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/teams-install-app-step2.png "Install the Dynamics 365 app, step 2")
+   > ![](media/teams-add-channel-pin-record2.png "Add channel to pin record")
 
    If you have multiple organizations or app modules, select **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which records to pin to the discussion channel.
  
