@@ -65,7 +65,7 @@
 
 # [Collaboration](../basics/collaborate-with-team.md)
 ## [Teams](../basics/integrate-with-microsoft-teams.md) 
-### [Install and use the personal app](install-use-personal-app.md)
+### [Install personal and team apps](install-personal-team-apps.md)
 <!-- ### [Use the personal app](use-personal-app.md) -->
 ### [Install and use the team app](install-use-team-app.md)
 ### [Delete personal data](delete-teams-data.md)
