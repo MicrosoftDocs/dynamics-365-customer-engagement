@@ -26,7 +26,7 @@ search.app:
 
 Empower your agents to work smarter and faster with a modern, interactive experience tailored to their role.
 
-The Customer Service Hub in Microsoft Dynamics 365 is optimized for the Customer service module. It is a focused, interactive interface, designed to simplify your day-to-day job. It shows you all your vital information in one place, and lets you focus on the key activities that require your attention.
+The Customer Service Hub in Microsoft Dynamics 365 is optimized for the customer service module. It is a focused, interactive interface, designed to simplify your day-to-day job. It shows you all your vital information in one place, and lets you focus on the key activities that require your attention.
 
 Customer Service Hub is based on the Unified Interface framework. Some of the key highlights are:
 
@@ -55,9 +55,11 @@ To learn how to install and use the Customer Service Hub app on a mobile device,
   
 [Use SLA on the Customers Service Hub records](customer-service-hub-user-guide-case-sla.md#use-sla-on-the-customer-service-hub-records)
   
-[Reduce call handling times with Knowledge Articles](customer-service-hub-user-guide-knowledge-article.md)
+[Reduce call handling times with knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
   
 [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
+
+[Service Management Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md)
 
 ## Accessibility and GDPR
 

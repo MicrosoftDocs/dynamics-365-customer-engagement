@@ -100,6 +100,7 @@ This document provides important, late-breaking information about known issues a
 - Even though surveys are available in the app (such as for emails, journeys, and events), this feature currently has limited functionality. Anonymous surveys can be added to emails but can't serve as triggers in customer journeys. Please contact Microsoft Support for more information.
 - Sample data is no longer available for events. We expect to provide it again in a future update.
 - The event portal included with Dynamics 365 for Marketing is intended for demo and testing purposes only. Any customizations that you make to the sample event portal will likely get overwritten the next time you update Dynamics 365 for Marketing, so if you want to create a customized event portal to use in production, you must start by creating a new website in your Dynamics 365 portal. For more information about how to create a new website in the portal, see [Create and manage websites](../portals/websites.md).
+- When you create a recurring event with a weekly cadence, the check box for **Monday** is automatically selected both when you first create the event series, and each time you open the event series for editing. Any time you create or edit a weekly series, be sure to clear the **Monday** check box if you don't mean to include it.
 
 ## General
 
