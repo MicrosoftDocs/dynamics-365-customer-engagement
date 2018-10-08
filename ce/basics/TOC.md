@@ -67,7 +67,7 @@
 ## [Teams](../basics/integrate-with-microsoft-teams.md) 
 ### [Install personal and team apps](install-personal-team-apps.md)
 ### [Use the personal app](use-personal-app.md)
-### [Install and use the team app](install-use-team-app.md)
+### [Use the team app](use-team-app.md)
 ### [Delete personal data](delete-teams-data.md)
 ### [Troubleshoot Teams](troubleshoot-teams.md)
 ## [Yammer](../basics/collaborate-communicate-with-yammer.md)

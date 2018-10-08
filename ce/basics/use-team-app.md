@@ -1,7 +1,7 @@
 ---
-title: "Install and use the team app| MicrosoftDocs"
+title: "Use the team app| MicrosoftDocs"
 ms.custom: ""
-description: Install and use the personal app and bot.
+description: Use the personal app and bot.
 ms.date: 10/30/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Install and use the team app
+# Use the team app
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
