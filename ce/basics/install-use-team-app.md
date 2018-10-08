@@ -63,3 +63,21 @@ Once you complete the above steps, the Dynamics 365 tab appears on the menu bar.
 ![Dynamics 365 tab](media/teams-pinned-record.png "Dynamics 365 tab")
 
 You can interact with the record as if you were using the Dynamics 365 web app. Those with Write permissions can edit the record; changes will be synchronized with the Dynamics 365 web app.
+
+
+
+
+
+### Conversation tab
+
+Select **Conversation** to have a chat-like conversation with team members who are using Dynamics 365 (online) and those who are not.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/teams-conversation.png "Teams conversation")
+
+Choose a message, select ... and then select **Save to Dynamics** to add the message to the **Timeline** section of a record.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/teams-save-conversation-message.png "Save Teams conversation message to Dynamics 365")
+
+### File tab

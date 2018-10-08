@@ -32,7 +32,7 @@ search.app:
 
 There are two personal app features: the personal bot and the personal dashboard. The bot allows you to interact with Dynamics 365 to find and display records within Microsoft Teams. 
 
-Once you've completed installing the Dynamics 365 Teams app, you're taken to the **Conversation** tab with the bot ready for use. 
+Once you've completed installing the Dynamics 365 Teams app, you're taken to the **Conversation** tab with the bot ready for use. If at any time in Teams you want to return to the personal app, select ... from the left-side menu, and then select **Dynamics 365 (Preview)**.
 
 A Welcome message appears in the **Conversation** tab page. Select **Sign in**.
 
@@ -55,28 +55,19 @@ You can update the details of the records in the personal app.
 
 ## Use the personal app
 
+The personal app integrates Dynamics 365 and Teams for your own use. If you want to work with other team members, consider the [team app](install-use-team-app.md).
+
 ### Conversation tab
 
-Select **Conversation** to have a chat-like conversation with team members who are using Dynamics 365 (online) and those who are not.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/teams-conversation.png "Teams conversation")
-
-Choose a message, select ... and then select **Save to Dynamics** to add the message to the **Timeline** section of a record.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/teams-save-conversation-message.png "Save Teams conversation message to Dynamics 365")
-
-### File tab
+Select the **Conversation** tab to access the bot as described above.
 
 ### My Dashboard tab
-
-Use the personal dashboard
-You configure the dashboard to show a Dynamics 365 dashboard view in Microsoft Teams.
 
 Select **My Dashboard** to view your Dynamics 365 dashboard in Microsoft Teams. The dashboard displayed is based on who is signed in and their user role.
 
 ![Dynamics 365 dashboard](../admin/media/teams-bot-dashboard.png "Dynamics 365 dashboard")
+
+### Settings tabs
 
 If you have more than one organization or Unified Interface app, you can use the **Settings** tab to select a different organization or app to appear as a dashboard.
 
