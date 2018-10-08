@@ -65,7 +65,7 @@ The following table summarizes how to publish each publishable entity to the por
 
 The portal features a banner image for each event, and also shows speaker photos and sponsor logos.
 
-- You can customize the banner image shown for any event by editing the event record, going to the **General** tab and changing the **Portal banner image** setting. (A default banner image is shown for all events that don't have their own custom banner.) For details about how to customize the banner, see this blog post: [How to Change Portal Banner Images in the Dynamics 365 for Marketing Event Portal](https://blogs.technet.microsoft.com/lystavlen/2018/02/26/how-to-change-portal-banner-images-in-the-dynamics-365-for-marketing-event-portal/).
+- You can customize the banner image shown for any event by [editing the event record](set-up-event.md), going to the **General** tab and using the **Portal banner image** setting.
 
 - Speaker images come from each speaker record (not from the associated contact record). To upload a speaker image, go to **Events** > **Participants** > **Speakers** and open the relevant speaker record. Then select the existing photo (or generic placeholder) in the heading area of the page to open a dialog where you can upload an image. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up an event](set-up-event.md)  
     ![Edit the speaker image](media/speaker-edit-image.png "Edit the speaker image")

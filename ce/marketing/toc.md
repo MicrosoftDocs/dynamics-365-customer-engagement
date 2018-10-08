@@ -136,7 +136,7 @@
 
 ### [Work with marketing calendars](marketing-calendar.md)
 ### [Go live with publishable entities and track their status](go-live.md)
-### [Set up social listening](social-listening.md)
+### [Get social-listening insights](social-listening.md)
 
 ### Analyze marketing results
 #### [Analyze results to gain insights](insights.md)
