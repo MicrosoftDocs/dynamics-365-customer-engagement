@@ -8,6 +8,8 @@
 - name: Get started
   href: get-started-sdk.md
   items:
+  - name: 'Download SDK'
+    href: download-dynamics-365-sdk-v9.md
   - name: Programming models
     href: programming-models.md
   - name: Choose your development style
@@ -1093,3 +1095,5 @@
     href: customization-xml-reference.md
 - name: Developer Guide for Connected Field Service
   href: ../field-service/developer/connected-field-service-developer-guide.md
+- name: Channel Integration Framework Guide for Dynamics 365
+  href: channel-integration-framework/channel-integration-framework.md

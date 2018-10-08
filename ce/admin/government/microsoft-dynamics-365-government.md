@@ -1,7 +1,8 @@
 ---
 title: "Dynamics 365 Government | MicrosoftDocs"
+description: "Microsoft Dynamics 365 Government is available to qualified government entities in the United States."
 ms.custom: ""
-ms.date: 08/28/2018
+ms.date: 10/02/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -83,7 +84,7 @@ In response to the unique and evolving requirements of the United States public 
  Access to [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] customer content by Microsoft administrators is restricted to personnel who are US citizens. These personnel undergo background investigations in accordance with relevant government standards.  
   
 ## Certifications and accreditations  
- [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] is designed to support the Federal Risk and Authorization Management Program (FedRAMP) accreditation at a Moderate Impact level. FedRAMP artifacts are available for review by federal customers who are required to comply with FedRAMP. Federal agencies can review these artifacts in support of their review to grant an Authority to Operate (ATO). It is important to note that, at the present time, the latest brand ([!INCLUDE[pn_CRM_Online_Government_Full](../../includes/pn-crm-online-government-full.md)]) may not show in our ATOs; however, this does not entail a degradation of the security protections afforded to the online services environment as there is application service continuity between the previous brand (Microsoft CRM Online Government) and [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)], as described above. As Microsoft moves to refresh FedRAMP artifacts as part of the standard audit cycles, branding references will be updated accordingly.  
+ [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] is designed to support the Federal Risk and Authorization Management Program (FedRAMP) accreditation at a High Impact level. FedRAMP artifacts are available for review by federal customers who are required to comply with FedRAMP. Federal agencies can review these artifacts in support of their review to grant an Authority to Operate (ATO). It is important to note that, at the present time, the latest brand ([!INCLUDE[pn_CRM_Online_Government_Full](../../includes/pn-crm-online-government-full.md)]) may not show in our ATOs; however, this does not entail a degradation of the security protections afforded to the online services environment as there is application service continuity between the previous brand (Microsoft CRM Online Government) and [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)], as described above. As Microsoft moves to refresh FedRAMP artifacts as part of the standard audit cycles, branding references will be updated accordingly.  
   
  [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] has features designed to support customer’s CJIS Policy requirements for law enforcement agencies. Please visit the [Dynamics 365 Trust Center](https://www.microsoft.com/en-us/trustcenter/cloudservices/dynamics365) for more detailed information related to certifications and accreditations.  
   

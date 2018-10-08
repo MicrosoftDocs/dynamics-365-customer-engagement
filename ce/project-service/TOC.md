@@ -1,6 +1,7 @@
 # [Overview](overview.md)
 # [New and upcoming features](new-upcoming.md)
 # Plan your implementation (app version 3.x)
+## [Sample data installation](install-sample-data-3-x.md)
 ## [Project planning and tracking guide](implementation-guides/project-planning-tracking.md)
 ## [Basic quoting, pricing, and billing guide](implementation-guides/begin-quoting-pricing-billing.md)
 ## [Advanced quoting, pricing, and billing guide](implementation-guides/adv-quoting-pricing-billing.md)

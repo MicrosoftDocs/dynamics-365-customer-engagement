@@ -1,14 +1,16 @@
+
 # [Overview](overview.md)
 # [New and upcoming features](new-upcoming.md)
 
 # Installation
 ## [Field Service installation (online)](install-field-service.md)
 ## [Mobile solution installation](install-the-mobile-app.md)
-## [Sample data installation](use-demo-data.md)
+## [Sample data installation (app version 8.x)](install-sample-data-8-x.md)
+## [Sample data installation (earlier app versions)](use-demo-data.md)
 ## [Activate Field Service mobile licenses](activate-fs-mobile-app-license.md)
 ## [User security roles and accounts](view-user-accounts-security-roles.md)
 ## [Org-wide default settings](configure-default-settings.md)
-## [Appsource for Field Service](appsource-addins.md)
+## [AppSource add-ins for Field Service](appsource-addins.md)
 
 # Work orders
 ## [Create a new work order](create-work-order.md)
@@ -37,34 +39,14 @@
 ## [Time groups](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
 
-# Mobile app for field technicians
-## [Mobile field service](field-service-mobile-app-user-guide.md)
-## [Field Resource Hub](field-resource-hub-users-guide.md)
+# [Mobile apps for field technicians](field-service-mobile-app-user-guide.md)
+## [Field Resource Hub user guide](field-resource-hub-users-guide.md)
+## [Mixed reality integration with Remote Assist and HoloLens](remote-assist-hololens.md)
+## [FAQ: Activate licenses and extend trials](activate-fs-mobile-app-license.md)
 
 # Agreements and preventive maintenance
 ## [Customer agreements](set-up-customer-agreements.md)
 ## [Agreement sub-statuses](set-up-agreement-sub-statuses.md)
-
-# [Resource Scheduling Optimization (RSO)](rso-overview.md)
-## [Deployment](rso-deployment.md)
-## [Configuration](rso-configuration.md)
-## [Schedule optimization](rso-schedule-optimization.md)
-## [FAQ and troubleshooting tips](rso-faq.md)
-
-# [Connected Field Service (IoT)](connected-field-service.md)
-## [Connected Field Service for Azure IoT Central](cfs-iot-overview.md)
-### [Tutorials - Integration scenarios](cfs-iot-tutorial-overview.md)
-#### [Prerequisites](cfs-iot-central-setup.md)
-#### [1 - Receive IoT alerts from Azure IoT Central](cfs-iot-central-alerts.md)
-#### [2 - Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
-#### [3 - Send work order updates to Azure IoT Central](cfs-iot-central-work-orders.md)
-#### [4 - Send booking updates to Azure IoT Central](cfs-iot-central-bookings.md)
-## [Connected Field Service for Azure IoT Hub](developer/connected-field-service-developer-guide.md)
-### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
-### [Installation and Setup](installation-setup-iothub.md)
-### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
-### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
-### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 
 # Assets, inventory and purchasing
 ## Customer assets
@@ -83,3 +65,31 @@
 ### [Create a purchase order](create-purchase-order.md)
 ### [Purchase order sub-statuses](set-up-purchase-order-sub-statuses.md)
 ### [Payment terms](set-up-payment-terms.md)
+
+# [Resource Scheduling Optimization (RSO) add-in](rso-overview.md)
+## [Deployment](rso-deployment.md)
+## [Configuration](rso-configuration.md)
+## [Schedule optimization](rso-schedule-optimization.md)
+## [FAQ and troubleshooting tips](rso-faq.md)
+
+# [Connected Field Service (IoT) add-in](connected-field-service.md)
+## [Connected Field Service for Azure IoT Central](cfs-iot-overview.md)
+### [Tutorials - Integration scenarios](cfs-iot-tutorial-overview.md)
+#### [Prerequisites](cfs-iot-central-setup.md)
+#### [1 - Receive IoT alerts from Azure IoT Central](cfs-iot-central-alerts.md)
+#### [2 - Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
+#### [3 - Send work order updates to Azure IoT Central](cfs-iot-central-work-orders.md)
+#### [4 - Send booking updates to Azure IoT Central](cfs-iot-central-bookings.md)
+## [Connected Field Service for Azure IoT Hub](developer/connected-field-service-developer-guide.md)
+### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
+### [Installation and Setup](installation-setup-iothub.md)
+### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
+### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
+### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
+
+
+
+
+
+
+
