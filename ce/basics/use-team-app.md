@@ -28,25 +28,17 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-## Install the Team app
+The team app allows for collaborating with others through Dynamics 365 record connections made in teams and channels in Microsoft Teams.
 
-You can also install the Team app which integrates Dynamics 365 and Teams to use with your team members. These steps are for installing the Team app - the settings under **Add to a team**.
-
-Once you've selected the Dynamics 365 app (see [Select the app in the app Store](#select-the-app-in-the-app-store)), the settings page opens. 
-
-1. Choose a Team, verify **Yes** is enabled, and then select **Install** to install the Team app.
-
-   ![Install Team app](media/teams-first-settings.png "Install Team app")
-
-2. With the Team app installed, select the **Add** button (![Add button](media/plus-2.png "Add button")) to add the Dynamics 365 tab to a Microsoft Team channel. 
+Once you've installed the team app, select a channel to add a Dynamics 365 record link as a tab. Then, select the **Add** button (![Add button](media/plus-2.png "Add button")).
 
    ![Select Add button](media/teams-add-tab.png "Select Add button")
 
-3. Select the **Dynamics 365** icon to pin a Dynamics 365 record to a Microsoft Team discussion channel.
+Select the **Dynamics 365** icon to pin a Dynamics 365 record to a channel.
 
    ![Add Dynamics 365 Team channel](media/teams-add-channel.png "Add Dynamics 365 Team channel")
 
-4. Search for an entity to pin. Use **Filter by** to narrow the search to an entity type. Select **Save**.
+Search for an entity to pin. Use **Filter by** to narrow the search to an entity type. Select **Save**.
 
    ![Search for entity](media/teams-add-channel-pin-record.png "Search for entity")
 
@@ -62,22 +54,11 @@ Once you complete the above steps, the Dynamics 365 tab appears on the menu bar.
 
 ![Dynamics 365 tab](media/teams-pinned-record.png "Dynamics 365 tab")
 
-You can interact with the record as if you were using the Dynamics 365 web app. Those with Write permissions can edit the record; changes will be synchronized with the Dynamics 365 web app.
+You can interact with the record as if you were using the Dynamics 365 web app. Those with *Write* permissions can edit the record; changes will be synchronized with the Dynamics 365 web app.
 
+### Files tab
 
-
-
-
-### Conversation tab
-
-Select **Conversation** to have a chat-like conversation with team members who are using Dynamics 365 (online) and those who are not.
+Select the **Files** tab in the team app to associate files with a Dynamics 365 record. Files added here will appear in Dynamics 365 (online) under **Documents** for the linked record. Likewise, when you add a document to a record in Dynamics 365, that document will appear in Teams under the **Files** tab.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/teams-conversation.png "Teams conversation")
-
-Choose a message, select ... and then select **Save to Dynamics** to add the message to the **Timeline** section of a record.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/teams-save-conversation-message.png "Save Teams conversation message to Dynamics 365")
-
-### File tab
+> ![](media/teams-files-tab.png "File tab in team app")
