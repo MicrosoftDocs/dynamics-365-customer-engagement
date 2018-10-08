@@ -8,10 +8,10 @@
 ## [Sample data installation (app version 8.x)](install-sample-data-8-x.md)
 ## [Sample data installation (earlier app versions)](use-demo-data.md)
 ## [Activate Field Service mobile licenses](activate-fs-mobile-app-license.md)
+## [Initial configuration](perform-initial-configurations-setup.md)
 ## [User security roles and accounts](view-user-accounts-security-roles.md)
-## [Initial setup and configurations](perform-initial-configurations-setup.md)
-## [Org-wide default settings](configure-default-settings.md)
 ## [AppSource add-ins for Field Service](appsource-addins.md)
+## [Settings for Field Service](configure-default-settings.md)
 
 # Work orders
 ## [Create a new work order](create-work-order.md)
