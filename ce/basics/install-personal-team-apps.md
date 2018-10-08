@@ -28,9 +28,13 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Begin by finding the Dynamics 365 app in the app Store.
+## For admins: enable Microsoft Teams integration
+
+[start here tomorrow]
 
 ## Select the app in the app Store
+
+Once Microsoft Teams integration is enabled in Dynamics 365 (online), find the Dynamics 365 app in the App Store.
 
 1. In Microsoft Teams, select **Store**. 
 
