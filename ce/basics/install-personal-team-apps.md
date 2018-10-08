@@ -30,9 +30,16 @@ search.app:
 
 ## For admins: enable Microsoft Teams integration
 
-[start here tomorrow]
+In order for the Dynamics 365 app to connect to Dynamics 365 (online), you need to enable two settings.
 
-## Select the app in the app Store
+1. Sign in as a System administrator to Dynamics 365 (online).
+2. Go to **Settings** > **Administration** > **System Settings** > **Previews** tab.
+3. Enable **Microsoft Teams Integration Preview** and **Dynamics 365 bot in Microsoft Teams Preview**.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/teams-system-settings.png "Enable preview settings")
+
+## Select the app in the App Store
 
 Once Microsoft Teams integration is enabled in Dynamics 365 (online), find the Dynamics 365 app in the App Store.
 
