@@ -22,7 +22,7 @@ search.app:
   - D365CS
 ---
 
-# Create a selection rule to determine how resources are selected for service activities (Customer Service)
+# Create a selection rule to determine how resources are selected for service activities
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

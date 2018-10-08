@@ -2,9 +2,9 @@
 title: Moving around Unified Interface-enabled apps in Dynamics 365 Customer Engagement using a screen reader| Microsoft Docs
 description: 
 keywords: 
-author: kathleenmcgrath
+author: ReneeW-CPub
 applies_to: Dynamics 365 (online)
-ms.author: kmcgrath
+ms.author: renwe
 manager: renwe
 ms.date: 05/30/2018
 ms.topic: article

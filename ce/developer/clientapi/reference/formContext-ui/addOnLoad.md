@@ -1,6 +1,6 @@
 ---
 title: "addOnLoad (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 10/03/2018
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -18,6 +18,10 @@ search.app:
 [!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[./includes/addOnLoad-description.md](./includes/addOnLoad-description.md)]
+
+> [!NOTE]
+> This method is supported only on Unified Interface.
+
 
 ## Syntax
 

@@ -20,8 +20,7 @@ manager: shujoshi
 
 # msdyn_ciprovider Entity Reference
 
-> [!Important]
-> [!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Base entity for Channel Integration Framework.
 

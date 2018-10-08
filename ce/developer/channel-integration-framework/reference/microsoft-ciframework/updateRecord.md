@@ -102,7 +102,7 @@ var data = {
 Microsoft.CIFramework.updateRecord(entityLogicalName,id,data).then(
     function success (result) {
           console.log("Contact updated with ID: " + result.id);
-          //perform operations on record creation
+          //the record is updated
       },
       function (error) {
           console.log(error);
