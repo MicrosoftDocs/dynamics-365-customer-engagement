@@ -57,18 +57,20 @@ You need a Dynamics 365 organization with system administrator access. If you do
 
 ## Add a purchased subscription of Field Service to a Dynamics 365 organization
 
-To purchase Field Service and then add it to an Dynamics 365 organization, to to the **Office365 admin center &gt; Purchase Services**. Follow the on-screen instructions to install the application. Installation may take several minutes.
+To purchase Field Service and then add it to an Dynamics 365 organization, go to the **Office365 Admin Center > Purchase Services**. Follow the on-screen instructions to install the application. Installation may take several minutes.
 
 ![Field Service Installation  Online  image4](media/Field-Service-Installation-(Online)-image4.png)  
 
 
 ## Verify the Field Service installation
 
-1. Sign in to your Dynamics 365 organization **with a system administrator role**. If Field Service is installed it will appear as an app.
+1. WIth system administrator credentials, sign in to the Dynamics 365 organization. 
+
+2. Verify that Field Service is available from the Dynamics 365 drop-down menu.
 
 ![Field Service Installation  Online  image5](media/Field-Service-Installation-(Online)-image5.png)  
 
-2. Additionally, if you're working within the Dynamics 365 custom app, Field Service appears as a module.
+3. Additionally, if you're working within the Dynamics 365 custom app, Field Service appears as a module.
 
 ![Field Service Installation  Online  image6](media/Field-Service-Installation-(Online)-image6.png)  
 
