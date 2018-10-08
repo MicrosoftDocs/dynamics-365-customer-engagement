@@ -34,14 +34,14 @@ The tutorials in this section are more specialized then those in the [Basic tuto
 
 When you have completed the exercises here, you'll be able to:
 
-- Create a customer journey that generates activities (such as phone calls, tasks, or appointments), assigns them to relevant staff, and associates each with a contact on that journey.
+- [Create a customer journey that generates activities](generate-activities-from-customer-journey.md) (such as phone calls, tasks, or appointments), assigns them to relevant staff, and associates each with a contact on that journey.
 
-- Manage images for use in marketing emails and pages.
+- [Manage images](manage-images.md) for use in marketing emails and pages.
 
-- Create templates for emails, pages, forms, and journeys so that other users can work more quickly while conforming to your organization's graphical identity and specific business practices.
+- [Create templates](create-templates.md) for emails, pages, forms, and journeys so that other users can work more quickly while conforming to your organization's graphical identity and specific business practices.
 
-- Track website visits, social media clicks, and banner clicks so you can use them to score leads and evaluate the effectiveness of your website and other marketing channels.
+- [Track website visits, social media clicks, and banner clicks](track-online-behavior.md) so you can use them to score leads and evaluate the effectiveness of your website and other marketing channels.
 
-- Set up a subscription center with custom subscription lists, and include it in your emails and customer journeys.
+- [Set up a subscription center](set-up-subscription-center.md) with custom subscription lists, and include it in your emails and customer journeys.
 
-The exercises in this chapter assume you are already familiar with the functionality described in the [Core scenarios](basic-tutorials.md) chapter, but they don't build on each other, so you can pick and choose the exercises that interest you most.
+The exercises in this chapter assume you are already familiar with the functionality described in the [Basic tutorials](basic-tutorials.md) chapter, but they don't build on each other, so you can pick and choose the exercises that interest you most.

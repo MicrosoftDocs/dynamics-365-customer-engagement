@@ -45,7 +45,7 @@
 
 ## [User Guide](user-guide.md)
 
-### [Learn the basics](get-started-section.md)
+### Learn the basics
 #### [Browser and system requirements](browser-requirements.md)
 #### [Find your way around](navigation.md)
 #### [Accessibility and keyboard shortcuts](designer-shortcuts.md)
@@ -105,7 +105,7 @@
 #### [Create an inbound customer journey](create-inbound-customer-journey.md)
 #### [Customer journey tiles reference](customer-journey-tiles-reference.md)
 
-### [Manage, score, and qualify leads](qualify-leads-section.md)
+### Manage, score, and qualify leads
 #### [The lead lifecycle](lead-lifecycle.md)
 #### [Market to leads](market-to-leads.md)
 #### [Account-based marketing](account-based-marketing.md)
@@ -113,7 +113,8 @@
 #### [Register contacts' engagement](register-engagement.md)
 #### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
 
-### [Event planning and management](event-management.md)
+### Event planning and management
+#### [Event management overview](event-management.md)
 #### [Set up an event](set-up-event.md)
 #### [Set up and manage an event waitlist](event-waitlist.md)
 #### [Create and manage recurring events](event-recurring.md)

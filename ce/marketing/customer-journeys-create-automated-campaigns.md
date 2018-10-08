@@ -158,9 +158,39 @@ Other settings for activity marketing templates vary by activity type and, like 
 
 Use the **General** tab to give your journey a name, assign ownership, set its execution schedule, choose content settings, view its timeline history, and more.
 
+### Target contacts or accounts
+
+You must set each customer journey to target _either_ contacts _or_ accounts. Use the **Target** setting on the **General** tab to configure this option for each journey.
+
+- When you target *contacts*, the journey will treat each contact as an individual, without considering the company (account) that the contact works for.
+- When you target *accounts*, the journey can group contacts by the company (account) that each contact works for, which can affect the way contacts are processed as they traverse the journey, for example:
+  - Trigger tiles can send all contacts from the same account down the same path.
+  - Activity tiles can generate just one activity (such as a task or phone call) for each account, even if several contacts from that account are included in the journey.
+  - Launch-workflow tiles can trigger their workflow just once for each account, even if several contacts from that account are included in the journey.
+  - Create-lead tiles can generate leads associated with accounts rather than contacts.
+  - Journey insights shown in the **Data** panel can be filtered by account.
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Account-based marketing](account-based-marketing.md)
+
+### Set the minimum consent level
+
+If data protection is enabled for your site (for example, because you need to comply with the GDPR), then use the **Minimum consent** setting to control the minimum level of consent that each contact must have provided to be included on this journey. The level you choose should depend on the types of operations your journey will execute.
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Data protection and the GDPR](gdpr.md)
+
 ### Set the execution schedule
 
 All customer journeys are active for a limited time. During this time, the journey processes all contacts that are part of its target segments, stepping them through each tile according to its settings. The journey starts by processing all contacts that are already in its segments, and it will continue to process new contacts that are added to the segment during the time it is active. At the end of the schedule, it stops processing all contacts, regardless of where they are in the journey. Use the **Start date and time** and **End date and time** settings on the **General** tab to set up the start and end dates, and use the **Time zone** setting to establish the time zone to use when interpreting these values.
+
+### Choose your content settings
+
+Content settings are sets of standard and required values that are available for use in marketing email messages. Each includes a subscription-center link, a forward-to-a-friend link, social-media links, your postal address, and other information that can be placed into the message as dynamic values by using the assist-edit feature. You'll set up each customer journey to use a specific content-settings record, which means that all messages sent by that journey will use the same content settings. However, each journey can use a different content-settings record, which means that you can use an identical marketing-email design in two or more customer journeys, each specifying a different set of content settings. 
+
+To choose the content settings used by a journey, go to its **General** tab and make a selection for the **Content settings** field.
+
+For more information about how to create and configure content-settings records, see [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#content-settings)
+
+If you have more than one set of content settings, exactly one of them will be the default and will be applied automatically to each new customer journey that you create. For more information about how to establish the default content-settings record for new journeys, see [Default marketing settings](marketing-settings.md#default-marketing-settings).
 
 ### Set up a recurring journey
 
@@ -175,20 +205,9 @@ To set up a recurring journey:
 1. Set the **Recurrence interval** to the number of days each iteration should last.
 1. Set the **Recurrence count** to the maximum number of recurrences each contact can experience.
 
-
 > [!NOTE]
 > Your recurrence schedule must fit within your start and end dates, such that:  
 **interval * count &le; end date &ndash; start date**.
-
-### Choose your content settings
-
-Content settings are sets of standard and required values that are available for use in marketing email messages. Each includes a subscription-center link, a forward-to-a-friend link, social-media links, your postal address, and other information that can be placed into the message as dynamic values by using the assist-edit feature. You'll set up each customer journey to use a specific content-settings record, which means that all messages sent by that journey will use the same content settings. However, each journey can use a different content-settings record, which means that you can use an identical marketing-email design in two or more customer journeys, each specifying a different set of content settings. 
-
-To choose the content settings used by a journey, go to its **General** tab and make a selection for the **Content settings** field.
-
-For more information about how to create and configure content-settings records, see [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#content-settings)
-
-If you have more than one set of content settings, exactly one of them will be the default and will be applied automatically to each new customer journey that you create. For more information about how to establish the default content-settings record for new journeys, see [Default marketing settings](marketing-settings.md#default-marketing-settings).
 
 <a name="suppression-segment"></a>
 
@@ -203,7 +222,7 @@ You can use any existing segment as a suppression segment. To choose a suppressi
 
 ## Go live to start running the journey and processing contacts
 
-When you first create a new customer journey, and while you're working on it, the journey stays in Draft status. (The status is displayed above the journey canvas in the **Status Reason** field.) While it's still in draft status, the journey is inactive and it won't try to send any messages or do any other processing. When everything's in place and you're ready to start running the journey, you publish it. This updates the journey's **Status Reason** to Published, and as soon as the specified **Start Date** arrives, the journey will start processing all contacts in its target segment.
+When you first create a new customer journey, and while you're working on it, the journey stays in *draft* status. (The status is displayed above the journey canvas in the **Status Reason** field.) While it's still in draft status, the journey is inactive and it won't try to send any messages or do any other processing. When everything's in place and you're ready to start running the journey, you publish it. This updates the journey's **Status Reason** to **Published**, and as soon as the specified **Start Date** arrives, the journey will start processing all contacts in its target segment.
 
 When you've finished designing your customer journey, do the following to verify and publish it:
 
@@ -211,7 +230,7 @@ When you've finished designing your customer journey, do the following to verify
 
 2. Select **Check for Errors** in the command bar to verify your campaign setup and check it for errors. This step makes sure that all required marketing emails and pages are assigned and published, and also checks for other prerequisites and common errors. If problems are found, you'll see an error message with advice for how to fix it. Continue to check, fix reported errors, and check again until your journey passes the test.
 
-3. Now you're ready to publish: select **Go Live** in the command bar. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] runs the error check one last time. If your journey passes, it is published to the active area of your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] server, which also hosts your published marketing email messages and marketing pages.
+3. Now you're ready to publish, so select **Go Live** in the command bar. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] runs the error check one last time. If your journey passes, it is published to the marketing services, which also host your published marketing email messages and marketing pages.
 
 [!INCLUDE [cc-marketing-email-size](../includes/cc-marketing-email-size.md)]
 

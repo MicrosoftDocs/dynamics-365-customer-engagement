@@ -120,7 +120,7 @@ Use dynamic content to personalize the content of your marketing email messages 
 
 Use handlebars expressions of the following form to place account information in your display text or logical expressions:
 
-**{{contact.&lt;relation&gt;.&lt;attribute-name&gt;}}**
+`{{contact.<relation>.<attribute-name>}}`
 
 Where:
 
@@ -130,11 +130,15 @@ Where:
 
 For example, use the following to place the name of the account associated with a mail recipient:
 
-**{{contact.contact\_account\_parentcustomerid.name}}**
+`{{contact.contact_account_parentcustomerid.name}}`
 
-You can type this code directly, or use assist edit to place them (by starting with the **Contact[context]** entry in assist edit).
+Another helpful expression is the following, which places the record ID for the account record that recipient belongs to:
 
-For more information about assist edit, dynamic content, and handlebars expressions, see [Add dynamic content to email messages](dynamic-email-content.md).
+`{{contact.parentcustomerid}}`
+
+Unlike the account name, the record ID is always unique and will never change for any given record.
+
+For more information about dynamic content and handlebars expressions, see [Add dynamic content to email messages](dynamic-email-content.md).
 
 ## Account-based customer journeys
 

@@ -57,6 +57,20 @@ You'll spend most of your time working on the **Design** tab, which opens when y
 
 The scoring-model canvas is similar to the customer-journey canvas. Add tiles by dragging from the **Toolbox** tab. Select a tile and open the **Properties** tab to make settings for that tile. Use the toolbar above the canvas to cut, copy, paste, and delete a selected tile; you can also add a tile and take a snapshot from here.
 
+### Name your model and choose the entity target
+
+The first thing you should do when setting up a new lead-scoring model is to give it a name and choose which type of entity it will target (accounts or contacts). Proceed as follows:
+
+1. Open the **Summary** tab.
+1. Enter a descriptive name in the **Name** field.
+1. Set the **Entity target** to **Account** or **Contact**. This setting establishes which type of leads the model will score.
+    - *Contact-based leads* are associated with a contact record, and are scored based on information and interactions related to that contact only.
+    - *Account-based leads* are associated with an account record. They are scored based on information from the account, plus information and interactions related to each contact that belongs to that account.
+    - Leads associated with both a contact and an account are treated as contact-based leads.
+1. Select **Save** to save your settings.
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Account-based marketing](account-based-marketing.md)
+
 ### Set up a condition
 
 The condition tile is a compound tile, which includes both parent and child tiles. When you add a condition, both the parent and one child are created. Use the expand/collapse button at the lower-right corner of the tile to show or hide the child tiles.
