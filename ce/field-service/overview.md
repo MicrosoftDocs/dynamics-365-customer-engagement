@@ -26,11 +26,8 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Dynamics 365 for Field Service is for organizations that must manage a mobile workforce and deliver products and services to their customers' locations. The Field Service solution is a broad set of work order management and scheduling tools that enable organizations to send the right resources with the right skill sets to the right customer locations at the right times, and provide employees the right technology to fulfill the job requirements.
+The Dynamics 365 for Field Service business application helps organizations deliver onsite support at customer locations. The Field Service application includes the tools you need to manage work orders, scheduling, and your mobile workforce. 
 
-In the following video, see how a digital interactive schedule board and other tools help coordinate a resolution for a customer's service request.
-
- <a name="heroArea"></a> [![Manage your mobile workforce Dynamics 365 for Field Service](../field-service/media/field-service-manage-mobile-workforce.png "Manage your mobile workforce Dynamics 365 for Field Service")](http://go.microsoft.com/fwlink/p/?LinkId=786689)
 
 ## Examples of Field Service organizations
 
@@ -148,3 +145,9 @@ Field Service can support any scenario where resources need to be managed to sat
 Field Service doesn’t support the following types of business processes:
 - Logistics management (for example scheduling freight delivery).
 - Multi-day projects with multiple resources and task dependencies (these scenarios are supported by Dynamics 365 for Project Service Automation).
+
+## Watch a video
+In this video, see how the digital interactive schedule board and other tools help a service team resolve a customer service issue.
+
+ <a name="heroArea"></a> [![Video showing how to manage your mobile workforce Dynamics 365 for Field Service](../field-service/media/field-service-manage-mobile-workforce.png "Manage your mobile workforce Dynamics 365 for Field Service")](http://go.microsoft.com/fwlink/p/?LinkId=786689)
+
