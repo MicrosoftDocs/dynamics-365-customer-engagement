@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 (online) Government - Feature availability | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/28/2018
+ms.date: 10/04/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -58,7 +58,7 @@ There are a number of other business application apps and services that are not 
 - [Microsoft Flow](https://docs.microsoft.com/flow/) – Please note that it is technically possible to connect to Dynamics 365 GCC from Flow.
 - [Microsoft Dynamics 365 for Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/overview)
 - [Microsoft Dynamics 365 for Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/)
-- [Microsoft Dynamics Social Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/get-started) – Please note that while this is not available in GCC, it is available to purchase and associate to a customer’s tenant running GCC services; all integration points will work as they do in our non-GCC environments.
+- [Microsoft Dynamics Social Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/get-started) – This is a feature that cannot be used by Government customers, worldwide.
 - [Microsoft Dynamics Voice of the Customer](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/voice-of-customer/get-feedback-surveys) – Please note that while this is not available in GCC, it is available to install into a customer’s Instance(s) running GCC services; all integration points will work as they do in our non-GCC environments. 
 - [Microsoft Dynamics 365 for Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/) - Please note that while this is not available in GCC, it is available to purchase and associate to a customer’s tenant running GCC services.  
 - [Microsoft Dynamics 365 for Retail](https://docs.microsoft.com/dynamics365/unified-operations/retail/) - Please note that while this is not available in GCC, it is available to purchase and associate to a customer’s tenant running GCC services.
