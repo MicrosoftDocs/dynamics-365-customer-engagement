@@ -1,5 +1,5 @@
 ---
-title: Welcome to Field Service for Dynamics 365
+title: Overview of Field Service for Dynamics 365
 description: An English-language guide to managing resources with Field Sercice for Dynamics 365.
 author: NeilWOrint
 manager: ShellyHa
@@ -22,19 +22,18 @@ search.app:
   - D365FS
 ---
 
-# Welcome to Dynamics 365 for Field Service 
+# Overview Dynamics 365 for Field Service 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-The Dynamics 365 for Field Service business application helps organizations deliver onsite support at customer locations. The Field Service application includes the tools you need to manage work orders, scheduling, and your mobile workforce. 
+The Dynamics 365 for Field Service business application helps you deliver onsite support at customer locations. With the Field Service application, you get the tools you need to manage work orders, scheduling, your mobile workforce, and more. 
 
+Here are some examples of the types of organizations that use the application to manage their field service:
 
-## Examples of Field Service organizations
-
-- A medical device manufacturer sells machines to hospitals and clinics and provides maintenance services over the lifetime of the machine.
-- A fiber optic cable utility company must respond to outages by dispatching technicians to problem areas.
-- A provider of in-home healthcare services schedules and dispatches healthcare workers to multiple patients each day to administer medicine and other care.
-- A facilities manager provides maintenance and repair services for heating and cooling equipment.
+- **Manufacturing**  A medical device manufacturer sells machines to hospitals and clinics, and uses the application to manage maintenance services over the lifetime of the machines.
+- **Utilities** A fiber optic cable utility company uses the appliation to respond to outages by dispatching technicians to problem areas.
+- **Health care** An  in-home healthcare service service provider uses the application to schedule and dispatch healthcare workers to administer medicine and other care to multiple patients.
+- **Equipment repair** A facilities manager uses the application to deliver maintenance and repair services for heating and cooling equipment.
 
 ## Field Service trends
 
