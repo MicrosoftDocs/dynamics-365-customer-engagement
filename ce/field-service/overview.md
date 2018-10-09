@@ -33,7 +33,7 @@ Here are some examples of the types of organizations that use the application to
 - **Manufacturing**  A medical device manufacturer sells machines to hospitals and clinics, and uses the application to manage maintenance services over the lifetime of the machines.
 - **Utilities** A fiber optic cable utility company uses the appliation to respond to outages by dispatching technicians to problem areas.
 - **Health care** An  in-home healthcare service service provider uses the application to schedule and dispatch healthcare workers to administer medicine and other care to multiple patients.
-- **Equipment repair** A facilities manager uses the application to deliver maintenance and repair services for heating and cooling equipment.
+- **Equipment maintenance** A facilities manager uses the application to deliver maintenance and repair services for heating and cooling equipment.
 
 ## Field Service trends
 
