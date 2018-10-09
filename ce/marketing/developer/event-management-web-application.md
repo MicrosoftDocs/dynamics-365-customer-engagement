@@ -4,7 +4,7 @@ description: "Provides information about how you can extend event management  we
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 09/06/2018
+ms.date: 10/09/2018
 ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"
@@ -114,7 +114,7 @@ let's make some simple changes on the website that you have created.
 There are some specifics that should be considered when you self-host your web application in contrast to Dynamics 365 Portal hosted.
 
 - If you prefer to implement backend using **.NET Core** technology, you need to set up **IIS** to work with **.NET Core**. More information: [Set up IIS](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-2.1&tabs=aspnetcore2x) 
-- Self-hosted type doesn’t have captcha and it’s up to you to implement your own captcha, where as Dynamics 365 Portal hosted type uses **Microsoft HIP** captcha  
+- Self-hosted type doesn’t have captcha and it’s up to you to implement your own captcha, whereas Dynamics 365 Portal hosted type uses **Microsoft HIP** captcha  
 - Portal hosted version supports localization, and self-hosted version doesn’t. If you want to support the localization you can re-use the mechanism that portal hosted version has, you just have to implement the API endpoint to return the JSON containing labels. There is an Angular directive already in place that utilizes that endpoint to get the localized content and overwrite appropriate HTML elements with translated text.
 
 
