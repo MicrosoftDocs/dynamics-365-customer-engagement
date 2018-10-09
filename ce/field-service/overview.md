@@ -26,93 +26,78 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-## What is the Field Service business application?
+Dynamics 365 for Field Service is for organizations that must manage a mobile workforce and deliver products and services to their customers' locations. The Field Service solution is a broad set of work order management and scheduling tools that enable organizations to send the right resources with the right skill sets to the right customer locations at the right times, and provide employees the right technology to fulfill the job requirements.
 
-Dynamics 365 for Field Service enables organizations to support a mobile workforce and deliver products and services to your customers' locations.
+In the following video, see how a digital interactive schedule board and other tools help coordinate a resolution for a customer's service request.
 
-The Field Service application enables you to send the right resources with the right skill sets to the right customer location at the right time, and provide your resources with the right technology to fulfill the job requirements.
+ <a name="heroArea"></a> [![Manage your mobile workforce Dynamics 365 for Field Service](../field-service/media/field-service-manage-mobile-workforce.png "Manage your mobile workforce Dynamics 365 for Field Service")](http://go.microsoft.com/fwlink/p/?LinkId=786689)
 
-## Examples of Field Service implementations
+## Examples of Field Service organizations
 
-- An MRI manufacturer sells MRI machines to hospitals and clinics and provides maintenance services over the lifetime of the machine.
+- A medical device manufacturer sells machines to hospitals and clinics and provides maintenance services over the lifetime of the machine.
 - A fiber optic cable utility company must respond to outages by dispatching technicians to problem areas.
 - A provider of in-home healthcare services schedules and dispatches healthcare workers to multiple patients each day to administer medicine and other care.
 - A facilities manager provides maintenance and repair services for heating and cooling equipment.
 
-## Why you need Field Service in your business
+## Field Service trends
 
 Field Service anticipates and solves the most common onsite scenarios. 
 
 According to [Gartner](https://www.gartner.com/doc/reprints?id=1-3KXDGG5&ct=161028&st=sb"), in 2020, two out of three large field service organizations will equip field technicians with a mobile application that drives profitability by creating revenue streams, efficiency and customer satisfaction.
 
-Gartner also say that through 2020, 80% of organizations with more than 75 field technicians will miss more than 20% of the planned efficiency gains due to incomplete integration or deployment.
+Gartner also says that through 2020, 80% of organizations with more than 75 field technicians will miss more than 20% of the planned efficiency gains due to incomplete integration or deployment.
 
 The [Aberdeen Group](http://www.aberdeen.com/about) said: “65% of incoming service requests require a field visit or dispatch. Nearly 26% of these dispatches require secondary or additional follow-up visits, thereby making the effective management of field resources and the overall field service organization extremely vital in the pursuit of service excellence.”
 
-### Watch an overview video
+## The parts of Field Service
 
- <a name="heroArea"></a> [![Manage your mobile workforce Dynamics 365 for Field Service](../field-service/media/field-service-manage-mobile-workforce.png "Manage your mobile workforce Dynamics 365 for Field Service")](http://go.microsoft.com/fwlink/p/?LinkId=786689)
-
-## Elements of Field Service
-
-Field service capabilities extend Dynamics 365 to provide a complete management solution, including service locations, customer assets, preventative maintenance, work order management, resource management, product inventory, scheduling and dispatch, mobility, collaboration, customer billing, and analytics. 
+Field service capabilities extend Dynamics 365 to provide a complete management solution for mobile workers and onsite service. 
 
 Here’s what it can do for you:
 
-### **Work orders** 
-- Define service work to be performed primarily but not exclusively at your customers’ locations.
+**Work orders** define service work to be performed primarily but not exclusively at your customers’ locations.
 
-### **Schedule and dispatch**
-- Manage resources used for service including people and equipment
-- Schedule and dispatch resources to customer locations
-- Optimize service schedules with efficient routing, resource skill matching, and reduced travel time.
+**Schedule and dispatch** tools help manage resources used for service including people and equipment, visualize onsite appointments, and optimize service schedules with efficient routing, resource skill matching, and reduced travel time.
 
-### **Communication and notifications**
-- Enhance communication and collaboration between customer service, dispatch, field technicians, customers, and other stakeholders.
+**Communication and notifications** enhance collaboration between customer service, dispatch, field technicians, customers, and other stakeholders.
 
-### **Mobility**
-- Guide resources through schedule changes and service work with an easy-to-use mobile application.
+**An easy-to-use mobile application** guides resources through schedule changes and service work.
 
-### **Asset Management**
-- Help manage customer assets and service history.
+**Asset management** keeps track of customer equipment and service history.
 
-### **Preventative maintenance**
-- Manage recurring maintenance for specific equipment at customers’ locations.
+**Preventative maintenance** automatically generates recurring maintenance for specific equipment at customers’ locations.
 
-### **Inventory,** **purchasing** **& returns**
-- Manage truck stock, purchase order requests and fulfillment, and product returns.
+**Inventory,** **purchasing** **& returns** capabilities manage truck stock, purchase order requests and fulfillment, and product returns.
 
-### **Billing**
-- Generate invoices based on products and services delivered to customers.
+**Billing** capabilities generate invoices based on products and services delivered to customers.
 
-### **Time keeping**
-- Understand how resources are spending their time traveling, on break, working, etc.
+**Time keeping** functionality understands how resources are spending their time traveling, on break, working, etc.
 
-### **Analytics**
-- Understand data flowing from work orders, scheduling activities, and customer interactions.
+**Analytics** report data flowing from work orders, scheduling activities, and customer interactions.
 
-## Typical user profiles
 
-**Customer Service Representative** Identifies incoming requests and qualifies them as work orders requiring onsite visits. Primarily uses the application via the web browser.
+## Typical roles
 
-**Dispatcher** Reviews work orders, prepares them for scheduling, and assigns them to the most appropriate resources with scheduling tools such as the schedule board (manually), resource availability search (semi-automated), and resource scheduling optimization (fully automated). Primarily uses the application via the web browser.
+**Customer service representatives** identify incoming requests and qualifies them as work orders requiring onsite visits. This role primarily uses the application via the web browser.
 
-**Field technician** Receives his or her assigned work orders and travels to customer locations to perform maintenance and repairs. Primarily uses the application via a mobile phone/tablet on iOS, Android, or Windows devices.
+**Dispatchers** review and prepare work orders for scheduling, and assigns them to the most appropriate resources with scheduling tools such as the schedule board (manually), resource availability search (semi-automated), and resource scheduling optimization (fully automated). This role primarily uses the application via the web browser.
 
-**Inventory Manager** Ensures field technicians have inventory to perform service calls, manages product returns and purchases new inventory. Primarily uses the application via the web browser.
+**Field technicians** receive assigned work orders on the mobile application and travel to customer locations to perform maintenance and repairs. This role primarily uses the application via a mobile phone/tablet on iOS, Android, or Windows devices.
 
-**Service Manager** Tracks metrics regarding customer satisfaction and resource utilization and looks for ways to promote standardization and efficiency. Primarily uses the application via the web browser.
+**Inventory managers** ensure field technicians have inventory to perform service calls, manage product returns and purchase new inventory. This role primarily uses the application via the web browser.
 
-## How does the solution improve an organization’s service delivery?
-- Better issue triage.
-- Centralized schedule board updated in real time.
-- Optimized scheduling to appropriate technicians.
-- Automatic notifications to stakeholders.
-- Ensuring technicians have information and parts to complete on site visits.
-- Set up of smart preventative maintenance schedules.
-- Standardization and measurement of onsite visits.
+**Service managers** track metrics regarding customer satisfaction and resource utilization and look for ways to promote standardization and efficiency. This role primarily uses the application via the web browser.
 
-## What are the most common outcomes for an organization? 
+## Using Field Service
+
+1. **Work Orders** - Work Orders describe in detail work that must be performed at the customer's location and are created from emails, phone calls, service agreements, web portals, Internet of Things (IoT) telemetry, cases, sales orders, and more.
+2. **Scheduling** - A digital interactive schedule board helps dispatchers assign Work Orders to the most appropriate resources based on location, availability, skill set, priority, and more.
+3. **Mobile App** - An easy to use mobile application on iOS, Windows, and Android devices guides field technicians through schedule changes and step-by-step work.
+4. **Assets & Inventory** - Equipment service history and inventory levels are updated as technicians complete and submit Work Orders. 
+
+ > ![work-order-process](media/work-order-process-4-images-work-schedule-mobile-inventory.png) 
+
+## Benefits for service delivery organizations
 
 - Improved first time fix rate.
 - More service calls per technician per week.
@@ -120,15 +105,15 @@ Here’s what it can do for you:
 - Reduced travel time, mileage and vehicle wear and tear.
 - Organized tracking of customer issues and resolutions.
 
-## What does this mean for the customers?
+## Benefits for customers
 
 - An accurate arrival time is communicated to the customer.
 - The customer interacts with a field technician that looks professional, is organized, and can speak to account and equipment history.
 - The customer is updated with the status of the job and the eventual resolution.
-- Onsite visits are scheduled when convenient for the customer.
-- Customer disappointment from equipment downtime is avoided through preventative maintenance.
+- Onsite visits are scheduled at times convenient for the customer.
+- Preventative maintenance avoids equipment downtime.
 
-## How is Microsoft’s Field Service solution unique?
+## How Microsoft's Field Service is unique
 
 Unlike other field service software providers, Microsoft Dynamics 365 for Field Service sits on top of a comprehensive business application platform. This has many advantages. First, it allows Field Service to sit in context of other business applications such as sales automation, customer service, project management, etc. This makes cross-department/cross-team collaboration easier and helps achieve better analytics of operations and data.
 
@@ -145,7 +130,6 @@ In terms of Office 365, this means field service workers can use Skype, Teams, O
 Field Service can support any scenario where resources need to be managed to satisfy customers’ work requirements. With Field Service, an organization can:
 
 - Maintain customer billing accounts and service accounts
-- Track customer assets and asset service history.
 - Automatically build and manage customer scopes of work with many potential variations:
 - Work to be done by a single resource, within a given day.
 - Work to be done by a group of resources (human or equipment) over one or more days.
@@ -157,10 +141,10 @@ Field Service can support any scenario where resources need to be managed to sat
 - Define a set of resources (human or non-human) with specific working hours, skills; and starting and ending location.
 - Schedule resources based on defined work orders, matching on availability, territory, location, distance, skills etc.
 - Manage and track inventory required for work orders and the movement of parts from order to inventory to installation at a site.
-- Enable field resources to interact with key data in real-time using the Field Service mobile application across any form factor or operating system.
+- Enable field resources to interact with key data in real-time using the Field Service mobile application with offline capabilities across any form factor or operating system.
 
 ## Business processes not supported by Field Service
 
 Field Service doesn’t support the following types of business processes:
 - Logistics management (for example scheduling freight delivery).
-- Multi-day projects with multiple resources and task dependencies (these scenarios are supported by Dynamics 365 for Project Service).
+- Multi-day projects with multiple resources and task dependencies (these scenarios are supported by Dynamics 365 for Project Service Automation).
