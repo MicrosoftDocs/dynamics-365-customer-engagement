@@ -41,7 +41,7 @@ View personal appointments, project-work bookings, and field service work order 
   
 - You will need to have [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] Global Administrator or [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator credentials.  
   
-- You [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Admin will need to configure the email server profile and each user will need to configure their mailbox. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up email processing through server-side synchronization](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)  
+- Your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Admin will need to configure the email server profile and each user will need to configure their mailbox. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up email processing through server-side synchronization](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)  
   
 ## Turn on synchronization for your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization (admin task)  
   
