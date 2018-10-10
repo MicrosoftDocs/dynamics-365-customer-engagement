@@ -21,7 +21,7 @@ search.app:
   - D365FS
 ---
 
-# Overview Dynamics 365 for Field Service 
+# Overview of Dynamics 365 for Field Service 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
