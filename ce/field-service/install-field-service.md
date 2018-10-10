@@ -81,19 +81,20 @@ To purchase Field Service and then add it to an Dynamics 365 organization, go to
 
 Once the Field Service solution is installed, you will need to install the mobile solution. Remember, specific roles of the Field Service solution called field technicians utilize mobile phones and tablets to view and interact with work orders and other important data. You can dispatch, route, and complete work orders, manage invoices, and more with the mobile app. The following steps will enable field technicians to use the mobile application and will allow administrators to customize the mobile experience.
 
-Navigate to <https://www.resco.net/mobilecrm/woodford.html> in an **Internet Explorer** web browser
+In an **Internet Explorer** web browser go to <https://www.resco.net/mobilecrm/woodford.html> 
 
 [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile) is a solution built on the Resco Mobile Dynamics 365 platform. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Frequently asked questions about the Resco app](http://www.resco.net/mobilecrm/support.aspx)  
+
 > [!div class="mx-imgBorder"]
 > ![Field Service Installation  Online  image8](media/Field-Service-Installation-(Online)-image8.png)  
 
 Install the standalone application.
 
-Next, select Download for 2013, 2015 & 2016 and save the file to a file location other than Downloads.
+Next, select Download for 2013, 2015 & 2016 and save the file to a file location other than Downloads on your PC.
 > [!div class="mx-imgBorder"]
 > ![Field Service Installation  Online  image9](media/Field-Service-Installation-(Online)-image9.png)  
 
-Navigate back to your Dynamics 365 organization as a system administrator and go to **Settings &gt; Solutions** and **import** the Woodford\_\#\_\#\_\#\_\#\_managed.zip file you downloaded.
+Navigate back to your Dynamics 365 organization as a system administrator and go to **Settings > Solutions** and **import** the Woodford\_\#\_\#\_\#\_\#\_managed.zip file you downloaded.
 > [!div class="mx-imgBorder"]
 > ![Field Service Installation  Online  image10](media/Field-Service-Installation-(Online)-image10.png)  
 > [!div class="mx-imgBorder"]
@@ -106,11 +107,12 @@ After the import has succeeded, the Woodford icon will appear under Settings. Yo
 
 ## Import the default mobile configurations
 
-Next, let’s open the Woodford interface. This is done 2 ways.
+Next, let’s open the Woodford admin interface. As a reminder, this is where mobile administrators can manage mobile devices and customize what field technicians and other users will see on the mobile app. 
 
-1.  Open the standalone application you downloaded earlier and log in with your Dynamics administrator credentials
+**In an Internet Explorer web browser that is NOT private**, navigate to **Settings > Woodford > MobileCRM Woodford**
 
-2. **In an Internet Explorer web browser that is NOT private**, navigate to **Settings &gt; Woodford &gt; MobileCRM Woodford**
+> [!Note]
+> Alternatively, the Woodford admin interface can be accessed via a standalone application that is downloaded to your PC. 
 
 Set storage quota to 100MB (this is typically only done once)
 > [!div class="mx-imgBorder"]
@@ -132,9 +134,9 @@ The template contains all customizations for the field service mobile app and is
 
 Download and save the template file.
 
--   If you are on December 2016 Update for Dynamics 365 (online), use this [mobile project template](https://go.microsoft.com/fwlink/p/?linkid=836310)  
+- [Download the mobile project template for December 2016 Update for Dynamics 365 (online) or later](https://go.microsoft.com/fwlink/p/?linkid=836310)  
 
--   If you are on Dynamics CRM Online 2016 Update 1, use this [mobile project template](http://go.microsoft.com/fwlink/p/?LinkId=808250)  
+- [Download the mobile project template for Dynamics CRM Online 2016 Update 1](http://go.microsoft.com/fwlink/p/?LinkId=808250)  
 
 > [!NOTE]
 > You may need to save the template file to a file location on your computer and not the Downloads folder.
