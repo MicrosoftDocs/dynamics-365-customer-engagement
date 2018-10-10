@@ -72,6 +72,10 @@ Use the designer to add, configure, and arrange the various fields, buttons, and
 
 - Configure each element by selecting it and going to the **Properties** tab. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design elements reference](content-blocks-reference.md)
 
+> [!IMPORTANT]
+> Forms are nearly always intended to create or update one or more database records&mdash;especially contact or lead records. However, record creation will fail if any fields required by the database are missing when the form is submitted. When you're designing a form, always be sure to identify all of the fields required by your database, and add a form element with its **Required** check box selected for each of them. That will ensure that contacts who submit the form will get an error message if any required values are missing. If you don't do this, then the form submission may simply be ignored without informing the contact of the problem. Your database could be customized to require fields that you don't expect, so be sure to talk to your system customizer or administrator if you're not sure which fields are required. Always be sure to test your form to confirm that it creates the types of records you expect it to.
+
+
 The designer also provides the usual tools for editing the HTML code and viewing previews in various screen sizes and orientations. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
 
 Design element availability and requirements vary by form type, as outlined in the following table. Be sure to include all the elements that are required for the type of form you are designing.
