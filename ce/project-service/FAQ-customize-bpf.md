@@ -30,7 +30,7 @@ search.app:
 
 There's a known limitation in earlier versions of the Project Service application that the names of the stages in the Project Stages business process flow must exactly match the expected English names (**Quote**, **Plan**, **Close**). Otherwise, the business logic, which relies on the English stage names, doesn't work as expected. That's why you don't see familiar actions such as **Switch Process** or **Edit Process** available on the project form, and customizing the business process flow isn't encouraged. 
 
-This limitation will be addressed in an upcoming release. This article provides suggested workarounds for earlier versions if you do need to customize the default business process flow. 
+This limitation has been addressed in version 2.4.5.48 and later. This article provides suggested workarounds if you need to customize the default business process flow for earlier versions.  
 
 ## Business logic requires an exact match with English stage names
 
