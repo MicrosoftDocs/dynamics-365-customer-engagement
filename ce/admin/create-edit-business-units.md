@@ -84,20 +84,15 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], a business unit 
 3. In the **Business Unit** dialog box, do one or more of the following:  
   
    -   Modify the data in one or more fields.  
-  
-   -   Make a selection on the **Actions** menu. For example, to change the parent business unit, select **Actions**, and then **Change Parent Business**.  
-  
-       > [!NOTE]
-       > Changing the parent business removes security roles for users and teams associated with the business unit. You must reassign them.  
-  
-   -   Select a record type under **Organization** to see a list of related records. For example, select **Users** to view a list of users in the selected business unit or to add a **New User** to the business unit.  
+    
+   -   Select a record type under **Organization** to see a list of related records. For example, select **Users** to view a list of users in the selected business unit.  
   
 4. When you’re done making changes select **Save and Close**.  
 
 <a name="BKMK_changebusinessunit"></a>   
 
 ## Change the business unit for a record  
- You can change the business unit for an individual facility, equipment, or user. By changing the business unit for a user, you remove all security role assignments for the user. At least one security role must be assigned to the user in the new business unit.  More information: [Security roles](../admin/security-roles-privileges.md)  
+ You can change the business unit for an individual facility, equipment, or user.   
   
 ### Change the business unit for facilities or equipment  
   
@@ -112,8 +107,11 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], a business unit 
 5. In the **Change Business Unit** dialog box, use the **Lookup** button ![Lookup button](../admin/media/lookup-4.gif "Lookup button") to select a new business unit, and then select **OK**.  
   
 6. Select **Save and Close**.  
-  
+
 ### Change the business unit for a user  
+
+> [!IMPORTANT]
+> By changing the business unit for a user, you remove all security role assignments for the user. At least one security role must be assigned to the user in the new business unit.  More information: [Security roles](../admin/security-roles-privileges.md).
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
