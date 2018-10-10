@@ -1,4 +1,4 @@
----
+>---
 title: "Install the Dynamics 365 for Field Service (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
@@ -50,17 +50,17 @@ You need a Dynamics 365 organization with system administrator access. If you do
 2. To add a Field Service trial of Field Service, go to **Settings &gt; Microsoft AppSource**. Search for Field Service, and then select Field Service free trial.
 
 > [!div class="mx-imgBorder"]
-![Sreenshot of Field Service tile in AppSource](media/Field-Service-Installation-(Online)-image2.png)  
+> ![Sreenshot of Field Service tile in AppSource](media/Field-Service-Installation-(Online)-image2.png)  
 
 3. Enter the Dynamics 365 organization name.
 > [!div class="mx-imgBorder"]
-![Field Service Installation  Online  image3](media/Field-Service-Installation-(Online)-image3.png)  
+> ![Field Service Installation  Online  image3](media/Field-Service-Installation-(Online)-image3.png)  
 
 ## Add a purchased subscription of Field Service to a Dynamics 365 organization
 
 To purchase Field Service and then add it to an Dynamics 365 organization, go to the **Office365 Admin Center > Purchase Services**. Follow the on-screen instructions to install the application. Installation may take several minutes.
 > [!div class="mx-imgBorder"]
-![Field Service Installation  Online  image4](media/Field-Service-Installation-(Online)-image4.png)  
+> ![Field Service Installation  Online  image4](media/Field-Service-Installation-(Online)-image4.png)  
 
 
 ## Verify the Field Service installation
@@ -69,13 +69,13 @@ To purchase Field Service and then add it to an Dynamics 365 organization, go to
 
 2. Verify that Field Service is available from the Dynamics 365 drop-down menu.
 > [!div class="mx-imgBorder"]
-![Field Service Installation  Online  image5](media/Field-Service-Installation-(Online)-image5.png)  
+> ![Field Service Installation  Online  image5](media/Field-Service-Installation-(Online)-image5.png)  
 
 3. Additionally, if you're working within the Dynamics 365 custom app, Field Service appears as a module.
 > [!div class="mx-imgBorder"]
-![Field Service Installation  Online  image6](media/Field-Service-Installation-(Online)-image6.png)  
+> ![Field Service Installation  Online  image6](media/Field-Service-Installation-(Online)-image6.png)  
 > [!div class="mx-imgBorder"]
-![Field Service Installation  Online  image7](media/Field-Service-Installation-(Online)-image7.png)  
+> ![Field Service Installation  Online  image7](media/Field-Service-Installation-(Online)-image7.png)  
 
 ## Install the Field Service mobile solution
 
@@ -85,27 +85,27 @@ Navigate to <https://www.resco.net/mobilecrm/woodford.html> in an **Internet Exp
 
 [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile) is a solution built on the Resco Mobile Dynamics 365 platform. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Frequently asked questions about the Resco app](http://www.resco.net/mobilecrm/support.aspx)  
 > [!div class="mx-imgBorder"]
-![Field Service Installation  Online  image8](media/Field-Service-Installation-(Online)-image8.png)  
+> ![Field Service Installation  Online  image8](media/Field-Service-Installation-(Online)-image8.png)  
 
 Install the standalone application.
 
 Next, select Download for 2013, 2015 & 2016 and save the file to a file location other than Downloads.
 > [!div class="mx-imgBorder"]
-![Field Service Installation  Online  image9](media/Field-Service-Installation-(Online)-image9.png)  
+> ![Field Service Installation  Online  image9](media/Field-Service-Installation-(Online)-image9.png)  
 
 Navigate back to your Dynamics 365 organization as a system administrator and go to **Settings &gt; Solutions** and **import** the Woodford\_\#\_\#\_\#\_\#\_managed.zip file you downloaded.
 > [!div class="mx-imgBorder"]
-![Field Service Installation  Online  image10](media/Field-Service-Installation-(Online)-image10.png)  
+> ![Field Service Installation  Online  image10](media/Field-Service-Installation-(Online)-image10.png)  
 > [!div class="mx-imgBorder"]
-![Field Service Installation  Online  image11](media/Field-Service-Installation-(Online)-image11.png)  
+> ![Field Service Installation  Online  image11](media/Field-Service-Installation-(Online)-image11.png)  
 > [!div class="mx-imgBorder"]
-![Field Service Installation  Online  image12](media/Field-Service-Installation-(Online)-image12.png)  
+> ![Field Service Installation  Online  image12](media/Field-Service-Installation-(Online)-image12.png)  
 
 The Woodford solution will now appear in the solutions list as well as under Settings
 > [!div class="mx-imgBorder"]
-![Field Service Installation  Online  image13](media/Field-Service-Installation-(Online)-image13.png)  
+> ![Field Service Installation  Online  image13](media/Field-Service-Installation-(Online)-image13.png)  
 > [!div class="mx-imgBorder"]
-![Field Service Installation  Online  image14](media/Field-Service-Installation-(Online)-image14.png)  
+> ![Field Service Installation  Online  image14](media/Field-Service-Installation-(Online)-image14.png)  
 
 ## Import the default mobile configurations
 
@@ -117,7 +117,7 @@ Next, let’s open the Woodford interface. This is done 2 ways.
 
 Set storage quota to 100MB (this is typically only done once)
 > [!div class="mx-imgBorder"]
-![Field Service Installation  Online  image15](media/Field-Service-Installation-(Online)-image15.png)  
+> ![Field Service Installation  Online  image15](media/Field-Service-Installation-(Online)-image15.png)  
 
 Register your User
 
@@ -125,7 +125,7 @@ Select **Later** if asked to update the version
 
 Whether via the web browser or via the standalone application, you will be taken to the same interface
 > [!div class="mx-imgBorder"]
-![Field Service Installation  Online  image16](media/Field-Service-Installation-(Online)-image16.png)  
+> ![Field Service Installation  Online  image16](media/Field-Service-Installation-(Online)-image16.png)  
 
 After the Woodford solution is installed, you’ll need to download a template that will help you configure the mobile app.
 
@@ -144,11 +144,11 @@ Download and save the template file.
 
 Next, import this file into Woodford
 > [!div class="mx-imgBorder"]
-![Field Service Installation  Online  image17](media/Field-Service-Installation-(Online)-image17.png)  
+> ![Field Service Installation  Online  image17](media/Field-Service-Installation-(Online)-image17.png)  
 
 And assign it a name, a priority greater than 0, and assign it to all Field Service security roles
 > [!div class="mx-imgBorder"]
-![Field Service Installation  Online  image18](media/Field-Service-Installation-(Online)-image18.png)  
+> ![Field Service Installation  Online  image18](media/Field-Service-Installation-(Online)-image18.png)  
 
 More details on projects and priorities can be found in the [Woodford Guide](https://www.resco.net/downloads/Woodford_Guide.pdf).  
 
@@ -160,11 +160,11 @@ Select **Publish** making sure the published version matches the version of your
 > Change the published version to match the version of the app you have installed. To see which version of the mobile app you have installed, open your mobile app and from the home screen, and then tap About.
 Make sure to match the first two numbers of the mobile app that you have installed to the published version in the project. If the number of the published version of the project is greater than the app version, you see an error about **unsupported metadata** when you try to sync. The version only needs to match the first decimal.
 > [!div class="mx-imgBorder"]
-![Field Service Installation  Online  image19](media/Field-Service-Installation-(Online)-image19.png)  
+> ![Field Service Installation  Online  image19](media/Field-Service-Installation-(Online)-image19.png)  
 
 At this point the mobile configurations are published as evident by the blue arrow next to the project.
 > [!div class="mx-imgBorder"]
-![Field Service Installation  Online  image20](media/Field-Service-Installation-(Online)-image20.png)  
+> ![Field Service Installation  Online  image20](media/Field-Service-Installation-(Online)-image20.png)  
 
 > [!Note]
 > **Warning:** This is a trial license for Woodford and is valid for **30 days**. The trial can be extended for development and testing purposes. Purchasing a Dynamics 365 for Field Service license entitles you to a limited Woodford license.
@@ -179,7 +179,7 @@ Field technicians and mobile workers will interact with Field Service via a mobi
 
 Download the **Field Service Mobile (2017)** mobile app from the Windows, iOS, or Android app stores onto your phone, tablet, or Windows 10 device.
 > [!div class="mx-imgBorder"]
-![Field Service Installation  Online  image21](media/Field-Service-Installation-(Online)-image21.png)  
+> ![Field Service Installation  Online  image21](media/Field-Service-Installation-(Online)-image21.png)  
 
 ## Perform Initial Setup
 
