@@ -29,10 +29,10 @@ The Dynamics 365 for Field Service business application helps you deliver onsite
 
 Here are some examples of the types of organizations that use the application to manage their field service:
 
-- **Manufacturing**  A medical device manufacturer sells machines to hospitals and clinics, and uses the application to manage maintenance services over the lifetime of the machines.
-- **Utilities** A fiber optic cable utility company uses the appliation to respond to outages by dispatching technicians to problem areas.
-- **Health care** An  in-home healthcare service service provider uses the application to schedule and dispatch healthcare workers to administer medicine and other care to multiple patients.
-- **Equipment maintenance** A facilities manager uses the application to deliver maintenance and repair services for heating and cooling equipment.
+- **Manufacturing**   A medical device manufacturer sells machines to hospitals and clinics, and uses the application to manage maintenance services over the lifetime of the machines.
+- **Utilities**   A fiber optic cable utility company uses the appliation to respond to outages by dispatching technicians to problem areas.
+- **Health care**   An  in-home health care service service provider uses the application to schedule and dispatch healthcare workers to administer medicine and other care to multiple patients.
+- **Equipment maintenance**   A facilities manager uses the application to deliver maintenance and repair services for heating and cooling equipment.
 
 ## What's included in Field Service
 
