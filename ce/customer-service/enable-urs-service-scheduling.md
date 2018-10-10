@@ -48,6 +48,15 @@ The difference between the legacy and the new experience can be explained with t
 
 Contoso bike repairs, a company that repairs bikes, schedules repair services for their customers. To facilitate this process, they compile the following inputs:
 
+ - **Define sites or organizational units**  </br>
+   Sites are the locations where Contoso will provide service to their customers. In this example, Contoso bike repair is the site for service.
+
+   |Legacy Service Scheduling  |New Service Scheduling  |
+   |---------|---------|
+   |![sites](media/sites-cs.png)  |  ![organizational units](media/org-unit-csh.png)   |
+   |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use sites to manage your service locations (Customer Service app)](use-sites-manage-service-locations.md)     |  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage organizational units](create-org-units-cs-scheduling.md) |
+   |   |         |  
+
 - **Define resources**</br>
   Contoso defines the resources in the system. For example, two resources (contacts) Bert Hair and Gilda Moss are created. Similarly, two more resources (facility/equipment) Bike repair workbench - 1 and Bike repair workbench - 2, which will be required to perform the service.
 
@@ -76,15 +85,6 @@ Contoso bike repairs, a company that repairs bikes, schedules repair services fo
    |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a resource group (Customer Service app)](create-edit-resource-group.md)     |  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md)|
    |   |         |
 
- - **Define sites or organizational units**  </br>
-   Sites are the locations where Contoso will provide service to their customers. In this example, Contoso bike repair is the site for service.
-
-   |Legacy Service Scheduling  |New Service Scheduling  |
-   |---------|---------|
-   |![sites](media/sites-cs.png)  |  ![organizational units](media/org-unit-csh.png)   |
-   |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use sites to manage your service locations (Customer Service app)](use-sites-manage-service-locations.md)     |  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage organizational units](create-org-units-cs-scheduling.md) |
-   |   |         |  
-
 
 - **Create a service record**  </br>
    Contoso now collates all the above inputs to create a bike repair service record for the customer. They also specify the resources/resource groups they will need for the service.
@@ -112,7 +112,7 @@ Make sure that you have the Customer Service Manager, System Administrator, or S
 
 To enable or migrate to the new experience, you should have the latest version of URS installed on your system.
 
-- Check the URS version. Go to **Settings** and select **About** to see the current version of URS on your machine.
+- Check the URS version. Go to **Settings** and select **Solutions** to see the current version of URS on your machine.
 - Upgrade to the latest version of URS from <<here>>. Consider the following point before you upgrade to the latest version.
 
   -	Importing the Service scheduling package will upgrade URS to the latest version. If Field Service or Project Service is already installed on your org with an older URS version, then URS will be upgraded. 
@@ -122,17 +122,28 @@ To enable or migrate to the new experience, you should have the latest version o
 
 ### Get the Service Scheduling package
 
+To avail the service scheduling pakcage, the administrator of your organization needs to fill and submit a form. 
 
 ### Enable Service Scheduling in the Customer Service Hub sitemap
 
+After you have availed the service scheduling pakcage, navigate to the Customer Service Hub sitemap and select **Enable**.
+
 ## Configure the new Service Scheduling experience
 
-You can migrate and configure all your entity records from legacy to new service scheduling experience from the user interface by creating the entity records manually. Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions before performing the steps.
+You can configure all your entity records in the new service scheduling experience either from the user interface or by running SDK code samples.
+
+### Configure from user interface
+
+Create the new entities manually in the new user interface. Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions before performing the steps in sequence as given in the section [About the new Service Scheduling experience](#about-the-new-service-scheduling-experience).
+
 
 > [!NOTE]
-> All the entity records can be migrated and configured using the user interface except Service Activity. 
+> All the entity records can be configured using the user interface except Service Activity. To migrate and configure Service Activity, see here.
 
-To migrate and configure Service Activity, see here.
+### Configure using SDK code samples
+
+To configure entities in the new interface using SDK code samples, see <link to sushant's doc>
+
 
 ### See also
 
