@@ -76,7 +76,7 @@ Before you can start configuring [!INCLUDE[pn_fieldservice_mobile_app_short](../
    > [!div class="mx-imgBorder"]
    > ![Installed Woodford solution](../field-service/media/fsm-install-wodford-subarea.PNG "Installed Woodford solution")  
   
-9. In the **Increase Quota** dialog box, set the quota to 100MB, and then select **OK**. 
+9. In the **Increase Quota** dialog box, set the quota to 100 MB, and then select **OK**. 
 
    > [!div class="mx-imgBorder"]
    > ![Increase quota](../field-service/media/field-service-increase-quota.PNG "Increase quota")  
