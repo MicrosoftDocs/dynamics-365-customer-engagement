@@ -135,6 +135,7 @@
 #### [Publish custom channel on AppSource](developer/publish-custom-channel-appsource.md)
 #### [Configure and use custom channel](developer/configure-use-custom-channel.md)
 #### [Remove custom channel](developer/remove-custom-channel.md)
+### [Preview: Extend event management to support more webinar providers](developer/extend-event-management.md)
 ### [Build and host a custom event portal](developer/event-management-web-application.md)
 ### [Retrieve interactions for a contact](developer/retrieve-interactions-contact.md)
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
