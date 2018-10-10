@@ -27,14 +27,7 @@ search.app:
 
 The Dynamics 365 for Field Service business application helps you deliver onsite support at customer locations. The Field Service application provides the tools you need to manage work orders, scheduling, your mobile workforce, and more. 
 
-Here are some examples of the types of organizations that use the application to manage their field service:
-
-- **Manufacturing** -  A medical device manufacturer sells machines to hospitals and clinics, and uses the application to manage maintenance services over the lifetime of the machines.
-- **Utilities** -  A fiber optic cable utility company uses the appliation to respond to outages by dispatching technicians to problem areas.
-- **Health care**  - An  in-home health care service service provider uses the application to schedule and dispatch healthcare workers to administer medicine and other care to multiple patients.
-- **Equipment maintenance** -  A facilities manager uses the application to deliver maintenance and repair services for heating and cooling equipment.
-
-The Field Service application helps you:
+The Field Service application anables you to:
 
 - Improve first time fix rate.
 - Complete more service calls per technician per week.
@@ -47,30 +40,36 @@ The Field Service application helps you:
 - Schedule onsite visits when it's convenient for the customer.
 - Avoid equipment downtime through preventative maintenance.
 
+Here are some examples of the types of organizations that use the application to manage their field service:
+
+- **Manufacturing** -  A medical device manufacturer sells machines to hospitals and clinics, and uses the application to manage maintenance services over the lifetime of the machines.
+- **Utilities** -  A fiber optic cable utility company uses the appliation to respond to outages by dispatching technicians to problem areas.
+- **Health care**  - An  in-home health care service service provider uses the application to schedule and dispatch healthcare workers to administer medicine and other care to multiple patients.
+- **Equipment maintenance** -  A facilities manager uses the application to deliver maintenance and repair services for heating and cooling equipment.
 
 ## What's included in Field Service
 
 Field service capabilities include: 
 
-**Work orders** define service work to be performed primarily (but not exclusively) at customer locations.
+- **Work orders** define service work to be performed primarily (but not exclusively) at customer locations.
 
-**Scheduling and dispatch** tools to manage resources and equipment needed for customer service, visualize onsite appointments, and optimize service schedules with efficient routing, resource skill matching, and reduced travel time.
+- **Scheduling and dispatch** tools to manage resources and equipment needed for customer service, visualize onsite appointments, and optimize service schedules with efficient routing, resource skill matching, and reduced travel time.
 
-**Communication and notifications** to enhance collaboration between customer service agents, dispatchers, field technicians, customers, and other stakeholders.
+- **Communication and notifications** to enhance collaboration between customer service agents, dispatchers, field technicians, customers, and other stakeholders.
 
-**An easy-to-use mobile application** that guides technicians through schedule changes and service work.
+- **An easy-to-use mobile application** that guides technicians through schedule changes and service work.
 
-**Asset management** capabilities for keeping track of customer equipment and service history.
+- **Asset management** capabilities for keeping track of customer equipment and service history.
 
-**Preventive maintenance** by automatically generating recurring maintenance appointments for equipment.
+- **Preventive maintenance** by automatically generating recurring maintenance appointments for equipment.
 
-**Inventory, purchasing, and returns** capabilities to manage truck stock, purchase order requests and fulfillment, and product returns.
+- **Inventory, purchasing, and returns** capabilities to manage truck stock, purchase order requests and fulfillment, and product returns.
 
-**Billing** capabilities to generate invoices based on products and services delivered to customers.
+- **Billing** capabilities to generate invoices based on products and services delivered to customers.
 
-**Time tracking** to help you track how resources are spending their time, whether they're traveling, on break, or working.
+- **Time tracking** to help you track how resources are spending their time, whether they're traveling, on break, or working.
 
-**Analytics** for reporting on key indicators for manageing work orders, scheduling activities, and interacting with customers.
+- **Analytics** for reporting on key indicators for manageing work orders, scheduling activities, and interacting with customers.
 
 ## Field service roles
 
@@ -99,29 +98,30 @@ As technicians submit completed work orders, equipment service history and inven
 
 ## Scenarios supported by Field Service
 
-Field Service can support any scenario where resources need to be managed to satisfy customers’ work requirements. With Field Service, an organization can:
+Field Service supports scenarios where you need to manage resources satisfy work requirements. 
 
+The Field Service application enables you to:
 - Maintain customer billing accounts and service accounts
 - Automatically build and manage customer scopes of work with many potential variations:
-- Work to be done by a single resource, within a given day.
-- Work to be done by a group of resources (human or equipment) over one or more days.
-- Define parameters to ensure that some work can only be done by certain resources (characteristics) and can define resources who should not be considered to do the work (excluded resources).
+- Manage work done by a single resource, within a given day.
+- Manage work done by a group of resources (human or equipment) over one or more days.
+- Define parameters to ensure that certain types of work can only be done by certain resources (characteristics) and can define resources who should not be considered to do the work (excluded resources).
 - Define work that must be performed at a specified geographic location, at a service depot, or work that can be done remotely, regardless of location.
-- Define a required set of skills, characteristics, and efficiencies that a resource must possess to be qualified to perform the work.
-- Drive creation of an estimated duration to complete tasks and work.
-- Include estimated parts and labor line items, as well as a list of expected tasks to complete.
-- Define a set of resources (human or non-human) with specific working hours, skills; and starting and ending location.
-- Schedule resources based on defined work orders, matching on availability, territory, location, distance, skills etc.
-- Manage and track inventory required for work orders and the movement of parts from order to inventory to installation at a site.
-- Enable field resources to interact with key data in real-time using the Field Service mobile application with offline capabilities across any form factor or operating system.
+- Define a required set of skills and characteristics that a resource needs to be qualified to perform the work.
+- Determine estimated duration to complete tasks and work.
+- Include estimated parts and labor line items, as well as a list of tasks a technician is expected to complete.
+- Define a set of resources (human or non-human) with specific working hours, skills, and a starting and ending location.
+- Schedule resources based on defined work orders, matching availability, territory, location, distance, and  skills.
+- Manage and track inventory needed for work orders, and the movement of parts from order to inventory to installation at a site.
+- Enable field technicians to interact with key data in real-time using a mobile application, across any form factor or operating system, and whether connected or offline.
 
-## Business processes not supported by Field Service
+### Scenarios not supported 
 
-Field Service doesn’t support the following types of business processes:
+The Field Service application doesn’t support the following business scenarios:
 - Logistics management (for example, scheduling freight delivery).
 - Multi-day projects with multiple resources and task dependencies. (Instead, check out Dynamics 365 for Project Service Automation.)
 
-## Watch a video
+## Watch an overview video
 In this video, see how the interactive schedule board and other tools help a service team resolve a customer service issue.
 
  <a name="heroArea"></a> [![Video showing how to manage your mobile workforce Dynamics 365 for Field Service](../field-service/media/field-service-manage-mobile-workforce.png "Manage your mobile workforce with Dynamics 365 for Field Service")](http://go.microsoft.com/fwlink/p/?LinkId=786689)
