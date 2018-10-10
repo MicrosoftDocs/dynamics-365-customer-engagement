@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-The Dynamics 365 for Field Service business application helps you deliver onsite support at customer locations. With the Field Service application, you get the tools you need to manage work orders, scheduling, your mobile workforce, and more. 
+The Dynamics 365 for Field Service business application helps you deliver onsite support at customer locations by providing the tools you need to manage work orders, scheduling, your mobile workforce, and more. 
 
 Here are some examples of the types of organizations that use the application to manage their field service:
 
@@ -60,15 +60,17 @@ Field service capabilities include:
 
 ## Field service roles
 
-**Customer service representatives** identify incoming requests and qualifies them as work orders requiring onsite visits. This role primarily uses the application via the web browser.
+The Field Service application provides tools for these key roles on your service team:
 
-**Dispatchers** review and prepare work orders for scheduling, and assigns them to the most appropriate resources with scheduling tools such as the schedule board (manually), resource availability search (semi-automated), and resource scheduling optimization (fully automated). This role primarily uses the application via the web browser.
+**Customer service agents** triage incoming requests and determine when to create work orders for onsite visits. Agents primarily use the application through a web browser.
 
-**Field technicians** receive assigned work orders on the mobile application and travel to customer locations to perform maintenance and repairs. This role primarily uses the application via a mobile phone/tablet on iOS, Android, or Windows devices.
+**Service managers** track performance metrics and oversee service delivery, finding ways to increase efficiency and standardize processes. Service managers primarily use the application through a web browser.
 
-**Inventory managers** ensure field technicians have inventory to perform service calls, manage product returns and purchase new inventory. This role primarily uses the application via the web browser.
+**Dispatchers** review and schedule work orders, and assign them to resources on the schedule board, through resource availability search, and through a fully automated resource scheduling optimization add-in. Dispatchers primarily use the application through a web browser.
 
-**Service managers** track metrics regarding customer satisfaction and resource utilization and look for ways to promote standardization and efficiency. This role primarily uses the application via the web browser.
+**Field technicians** manage their assigned work orders using the mobile app on a phone or tablet, and perform maintenance and repairs onsite at customer locations.
+
+**Inventory managers** ensure field technicians have what they need to complete their service calls. Inventory managers also handle product returns and purchase new inventory. Inventory managers primarily use the application through a web browser.
 
 ## Using Field Service
 
