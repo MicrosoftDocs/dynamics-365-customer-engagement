@@ -1,0 +1,120 @@
+---
+title: "Add a payment gateway to your event portal (Dynamics 365 for Marketing) | Microsoft Docs "
+description: "Describes how to set up a payment gateway for the event portal, so contacts can pay for a ticket while registering in  Dynamics 365 for Marketing"
+keywords: "events; payment"
+ms.date: 10/10/2018
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
+ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: ed851e33-a2db-4e1c-9420-0dc0bae227db
+author: kamaybac
+ms.author: kamaybac
+manager: shellyha
+ms.reviewer: renwe
+---
+
+# Set up online payment for events
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+If you have one or more events where contacts must purchase a pass, then your contacts will probably appreciate being able to pay for their passes online while they are registering for the event on your event portal.
+
+To enable online payment, you must make an agreement with a third-party payment provider who can authenticate and capture payment details. Your payment provider will supply you with details about how to implement their system, which you'll usually do by adding code supplied by your provider to a web page running on your event portal. You'll typically also need to tell your provider the URL to request from [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to [indicate a successful payment](#pay-confirm).
+
+Once your new payment gateway is in place on your event portal, you can configure your various events to use it, or assign it as the default for all new events.
+
+## Add a new payment gateway to your event portal
+
+To add a new payment page to your event portal:
+
+1. Make an agreement with a third-party payment provider and prepare a web page that provides a payment front end, as described in their documentation.
+
+1. Sign in to [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] and go to the custom app by choosing **Dynamics 365—custom** from the app selector.  
+
+    ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
+
+1. In the custom app, use the horizontal navigator at the top of the page to open **Portals** > **Content** > **Web Templates**.  
+
+    ![Go to your web templates](media/payment-template-nav.png "Go to your web templates")
+
+1. Select **+ New** on the control bar to create a new web template.
+
+1. Enter a **Name** for your template and set the **Website** to the **Event Portal**. Then paste the web-page code you developed for the gateway into the **Source** field.  
+
+    ![An example web template setup](media/payment-template-setup.png "An example web template setup")
+
+1. Save your template by selecting the **Save** button at the bottom-right corner of the window.
+
+1. Go to **Portals** > **Website** > **Page Template** and select **+ New** on the command bar to create a new page template.  
+
+    ![An example page template setup](media/payment-page-template-setup.png "An example page template setup")
+
+    Make the following settings:
+
+    - **Name**: Enter a name for your page template.
+    - **Website**: Select the **Event Portal**.
+    - **Type**: Set to **Web Template**.
+    - **Web Template**: Select the web template that you created earlier in this procedure.
+
+1. **Save** your page template.
+
+1. Go to **Portals** > **Content** > **Web Pages** and select **+ New** on the command bar to create a new web page.  
+
+    ![An example web page setup](media/payment-web-page-setup.png "An example web page setup")
+
+    Make the following settings:
+
+    - **Name**: Enter a name for your web page.
+    - **Website**: Select the **Event Portal**.
+    - **Parent Page**: Select **Home**.
+    - **Partial URL**: Enter a folder name that you want to show in the URL path for this page. This text must form part of a valid URL, so use only letters, numbers, hyphens, and underscores (avoid spaces, special characters, invalid URL characters, and slashes). This value becomes part of the page URL using the following pattern: `https://<YourPortalDomain>/<PartialURL>/`.
+    - **Page Template**: Select the page template that you created earlier in this procedure.
+    - **Publishing State**: Set to **Published**.
+
+1. **Save** your page. Your new payment gateway is now available to your event portal.
+
+<a name="pay-confirm"></a>
+
+## Receive payment confirmation
+
+When a contact selects the checkout button, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] creates a temporary  event registration, associates it with the current browser session, and then opens a page that links or redirects to your payment provider. The system then waits for the payment provider to confirm the payment by redirecting the contact to the success URL. When that request is received, the system converts the temporary registration into an actual registration that users can see in the system.
+
+When you sign up with a payment provider, they will ask you for the success URL, which will be embedded into the code they send back to you to include on your payment gateway. The URL you should use looks like this:
+
+`https://<portal-domain>/event/successpayment?id=<Readable_Event_ID>`
+
+Where:
+
+- *&lt;portal-domain&gt;* is the domain of your portal. It usually has the form: `<YourOrganization>.microsoftcrmportals.com`. You can see it by opening your web portal.
+- *&lt;Readable_Event_ID&gt;* is a value that uniquely identifies the event. To find it, open the relevant event record, go to the **General** tab, scroll to the **Website** section, and copy the value shown in the **Readable event ID** field.
+
+However, if you hard code the event ID, as outlined in the previous example, then you'll need a different payment gateway for each event. We recommend that you instead set up a dynamic expression, which you can script as follows in your web template:
+
+`'https://<portal-domain>/event/successpayment?id='{{ request.params['event']}};`
+
+You'll probably need to edit the script returned by your payment provider to correctly create this line of code in your web template.
+
+> [!NOTE]
+> The script example given here for adding the event ID dynamically is specific to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal. It won't work on an external website, including if you are using the downloadable AngularJS version of the event portal.
+
+## Set the payment gateway for an event
+
+To assign a payment gateway to an event:
+
+1. In the Marketing app, go to **Events** > **Event** > **Events** to open the events list.
+
+1. Find and open an existing event or create a new one.
+
+1. On the **General** tab of the **Event** form, scroll down to the **Website** section and select your payment gateway page in the **Portal payment gateway** field.  
+
+    ![The portal payment gateway setting](media/payment-gateway-setting.png "The portal payment gateway setting")
+
+1. Restart your portal to refresh its server cache and make sure your new setting takes effect right away. For instructions, see [How can I restart the portal?](setup-troubleshooting.md#restart-portal).
+
+> [!NOTE]
+> The payment gateway is only displayed for events that have at least one event pass configured for them. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up event passes](set-up-event.md#event-passes)
