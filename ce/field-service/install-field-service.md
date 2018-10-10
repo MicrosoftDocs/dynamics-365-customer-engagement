@@ -98,12 +98,9 @@ Navigate back to your Dynamics 365 organization as a system administrator and go
 > ![Field Service Installation  Online  image10](media/Field-Service-Installation-(Online)-image10.png)  
 > [!div class="mx-imgBorder"]
 > ![Field Service Installation  Online  image11](media/Field-Service-Installation-(Online)-image11.png)  
-> [!div class="mx-imgBorder"]
-> ![Field Service Installation  Online  image12](media/Field-Service-Installation-(Online)-image12.png)  
+ 
+After the import has succeeded, the Woodford icon will appear under Settings. You may have to refresh the page.
 
-The Woodford solution will now appear in the solutions list as well as under Settings
-> [!div class="mx-imgBorder"]
-> ![Field Service Installation  Online  image13](media/Field-Service-Installation-(Online)-image13.png)  
 > [!div class="mx-imgBorder"]
 > ![Field Service Installation  Online  image14](media/Field-Service-Installation-(Online)-image14.png)  
 
