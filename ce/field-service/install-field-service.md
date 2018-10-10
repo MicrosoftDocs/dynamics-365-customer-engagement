@@ -189,7 +189,7 @@ You are so close to using the application. All that is left to do is
 
 1.  [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
 
-2.  [Add sample data](../field-service/use-demo-data.md)
+2.  [Add sample data](../field-service/install-sample-data-8-x.md)
 
 3.  perform initial configurations
 
