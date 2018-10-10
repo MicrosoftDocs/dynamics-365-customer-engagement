@@ -1,12 +1,11 @@
 ---
 title: Overview of Field Service for Dynamics 365
 description: An English-language guide to managing resources with Field Sercice for Dynamics 365.
-author: NeilWOrint
-manager: ShellyHa
+author: shellyha
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 9/28/2018
+ms.date: 10/10/2018
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -35,44 +34,31 @@ Here are some examples of the types of organizations that use the application to
 - **Health care** An  in-home healthcare service service provider uses the application to schedule and dispatch healthcare workers to administer medicine and other care to multiple patients.
 - **Equipment maintenance** A facilities manager uses the application to deliver maintenance and repair services for heating and cooling equipment.
 
-## Field Service trends
+## What's included in Field Service
 
-Field Service anticipates and solves the most common onsite scenarios. 
+Field service capabilities include: 
 
-According to [Gartner](https://www.gartner.com/doc/reprints?id=1-3KXDGG5&ct=161028&st=sb"), in 2020, two out of three large field service organizations will equip field technicians with a mobile application that drives profitability by creating revenue streams, efficiency and customer satisfaction.
+**Work orders** define service work to be performed primarily (but not exclusively) at customer locations.
 
-Gartner also says that through 2020, 80% of organizations with more than 75 field technicians will miss more than 20% of the planned efficiency gains due to incomplete integration or deployment.
+**Scheduling and dispatch** tools to manage resources and equipment needed for customer service, visualize onsite appointments, and optimize service schedules with efficient routing, resource skill matching, and reduced travel time.
 
-The [Aberdeen Group](http://www.aberdeen.com/about) said: “65% of incoming service requests require a field visit or dispatch. Nearly 26% of these dispatches require secondary or additional follow-up visits, thereby making the effective management of field resources and the overall field service organization extremely vital in the pursuit of service excellence.”
+**Communication and notifications** to enhance collaboration between customer service agents, dispatchers, field technicians, customers, and other stakeholders.
 
-## The parts of Field Service
+**An easy-to-use mobile application** that guides technicians through schedule changes and service work.
 
-Field service capabilities extend Dynamics 365 to provide a complete management solution for mobile workers and onsite service. 
+**Asset management** capabilities for keeping track of customer equipment and service history.
 
-Here’s what it can do for you:
+**Preventive maintenance** by automatically generating recurring maintenance appointments for equipment.
 
-**Work orders** define service work to be performed primarily but not exclusively at your customers’ locations.
+**Inventory, purchasing, and returns** capabilities to manage truck stock, purchase order requests and fulfillment, and product returns.
 
-**Schedule and dispatch** tools help manage resources used for service including people and equipment, visualize onsite appointments, and optimize service schedules with efficient routing, resource skill matching, and reduced travel time.
+**Billing** capabilities to generate invoices based on products and services delivered to customers.
 
-**Communication and notifications** enhance collaboration between customer service, dispatch, field technicians, customers, and other stakeholders.
+**Time tracking** to help you track how resources are spending their time, whether they're traveling, on break, or working.
 
-**An easy-to-use mobile application** guides resources through schedule changes and service work.
+**Analytics** for reporting on key indicators for manageing work orders, scheduling activities, and interacting with customers.
 
-**Asset management** keeps track of customer equipment and service history.
-
-**Preventative maintenance** automatically generates recurring maintenance for specific equipment at customers’ locations.
-
-**Inventory,** **purchasing** **& returns** capabilities manage truck stock, purchase order requests and fulfillment, and product returns.
-
-**Billing** capabilities generate invoices based on products and services delivered to customers.
-
-**Time keeping** functionality understands how resources are spending their time traveling, on break, working, etc.
-
-**Analytics** report data flowing from work orders, scheduling activities, and customer interactions.
-
-
-## Typical roles
+## Field service roles
 
 **Customer service representatives** identify incoming requests and qualifies them as work orders requiring onsite visits. This role primarily uses the application via the web browser.
 
