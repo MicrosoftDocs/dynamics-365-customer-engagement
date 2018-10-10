@@ -47,7 +47,7 @@ You need a Dynamics 365 organization with system administrator access. If you do
 
 1. Using system administrator credentials, sign in to the Dynamics 365 organization.
 
-2. To add a Field Service trial of Field Service, go to **Settings &gt; Microsoft AppSource**. Search for Field Service, and then select Field Service free trial.
+2. To add a Field Service trial of Field Service, go to **Settings > Microsoft AppSource**. Search for Field Service, and then select Field Service free trial.
 
 > [!div class="mx-imgBorder"]
 > ![Sreenshot of Field Service tile in AppSource](media/Field-Service-Installation-(Online)-image2.png)  
@@ -128,7 +128,7 @@ Whether via the web browser or via the standalone application, you will be taken
 
 After the Woodford solution is installed, you’ll need to download a template that will help you configure the mobile app.
 
-The template is required if you are using the Woodford solution.
+The template is required.
 
 The template contains all customizations for the field service mobile app and is called a **project.** This is how administrators customize the mobile experience across all phones and tablets and you can use it to add, remove, and change fields, entities, views, and forms.
 
