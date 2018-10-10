@@ -49,7 +49,7 @@ In the Project Service app version 2.4.4.30 or earlier on the 9.0 platform, ther
 
 Therefore, if you want to customize the Project Stages business process flow for the project entity, you can only add brand new stages to the default business process flow for the project entity, while keeping the **Quote**, **Plan**, and **Close** stages as-is. This restriction ensures that you don’t get errors from the business logic that expects the English stage names in the business process flow.
 
-In an upcoming release, the business logic described in this article will be removed from the default business process flow for the project entity. Upgrading to that version or later will let you customize or replace the default business process flow with one of your own. 
+In version 2.4.5.48 or later, the business logic described in this article has been removed from the default business process flow for the project entity. Upgrading to that version or later will let you customize or replace the default business process flow with one of your own. 
 
 ## Workarounds for earlier versions
 
