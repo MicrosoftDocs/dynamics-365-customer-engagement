@@ -5,7 +5,7 @@ author: shellyha
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/10/2018
+ms.date: 10/11/2018
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -33,6 +33,20 @@ Here are some examples of the types of organizations that use the application to
 - **Utilities** -  A fiber optic cable utility company uses the appliation to respond to outages by dispatching technicians to problem areas.
 - **Health care**  - An  in-home health care service service provider uses the application to schedule and dispatch healthcare workers to administer medicine and other care to multiple patients.
 - **Equipment maintenance** -  A facilities manager uses the application to deliver maintenance and repair services for heating and cooling equipment.
+
+The Field Service application helps you:
+
+- Improve first time fix rate.
+- Complete more service calls per technician per week.
+- Manage follow-up work and take advantage of upsell and cross sell opportunities.
+- Reduce travel time, mileage, and vehicle wear and tear.
+- Organize and track resolution of customer issues.
+- Communicate an accurate arrival time to customers.
+- Provide accurate account and equipment history to the field technician.
+- Keep customers updated with the status of their service call and when it's resolved.
+- Schedule onsite visits when it's convenient for the customer.
+- Avoid equipment downtime through preventative maintenance.
+
 
 ## What's included in Field Service
 
@@ -83,21 +97,6 @@ As technicians submit completed work orders, equipment service history and inven
 
  > ![work-order-process](media/work-order-process-4-images-work-schedule-mobile-inventory.png) 
 
-## Benefits for service delivery organizations
-
-- Improved first time fix rate.
-- More service calls per technician per week.
-- Better management of follow up work and realization of upsell and cross sell opportunities.
-- Reduced travel time, mileage and vehicle wear and tear.
-- Organized tracking of customer issues and resolutions.
-
-## Benefits for customers
-
-- An accurate arrival time is communicated to the customer.
-- The customer interacts with a field technician that looks professional, is organized, and can speak to account and equipment history.
-- The customer is updated with the status of the job and the eventual resolution.
-- Onsite visits are scheduled at times convenient for the customer.
-- Preventative maintenance avoids equipment downtime.
 
 ## How Microsoft's Field Service is unique
 
