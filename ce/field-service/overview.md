@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-The Dynamics 365 for Field Service business application helps you deliver onsite support at customer locations. The Field Service application provides the tools you need to manage work orders, scheduling, your mobile workforce, and more. 
+The Dynamics 365 for Field Service business application helps you deliver onsite support at customer locations with the tools you need to manage work orders, scheduling, your mobile workforce, and more. 
 
 The Field Service application anables you to:
 
@@ -51,20 +51,20 @@ Here are some examples of the types of organizations that use the application to
 
 Field service capabilities include: 
 
-- **Work orders** define service work to be performed primarily (but not exclusively) at customer locations.
-- **Scheduling and dispatch** tools to manage resources and equipment needed for customer service, visualize onsite appointments, and optimize service schedules with efficient routing, resource skill matching, and reduced travel time.
-- **Communication and notifications** to enhance collaboration between customer service agents, dispatchers, field technicians, customers, and other stakeholders.
+- **Work orders** for defining the service work to be performed primarily (but not exclusively) at customer locations.
+- **Scheduling and dispatch tools** to manage resources and equipment needed for customer service, visualize onsite appointments, and optimize service schedules with efficient routing, resource skill matching, and reduced travel time.
+- **Communication tools** to enhance collaboration between customer service agents, dispatchers, field technicians, customers, and other stakeholders.
 - **An easy-to-use mobile application** that guides technicians through schedule changes and service work.
 - **Asset management** capabilities for keeping track of customer equipment and service history.
 - **Preventive maintenance** by automatically generating recurring maintenance appointments for equipment.
-- **Inventory, purchasing, and returns** capabilities to manage truck stock, purchase order requests and fulfillment, and product returns.
-- **Billing** capabilities to generate invoices based on products and services delivered to customers.
+- **Inventory, purchasing, and returns capabilities** to manage truck stock, purchase order requests and fulfillment, and product returns.
+- **Billing capabilities** to generate invoices based on products and services delivered to customers.
 - **Time tracking** to help you track how resources are spending their time, whether they're traveling, on break, or working.
-- **Analytics** for reporting on key indicators for manageing work orders, scheduling activities, and interacting with customers.
+- **Analytics for reporting** on key performance indicators for managing work orders, scheduling activities, and interacting with customers.
 
 ## Scenarios supported by Field Service
 
-Field Service supports scenarios where you need to manage resources to satisfy work requirements. 
+Field service supports scenarios where you need to manage resources to satisfy work requirements. 
 
 The Field Service application enables you to:
 
