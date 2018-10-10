@@ -76,15 +76,15 @@ Field service capabilities include:
 
 The Field Service application provides tools for these key roles on your service team:
 
-**Customer service agents** triage incoming requests and determine when to create work orders for onsite visits. Agents primarily use the application through a web browser.
+- **Customer service agents** triage incoming requests and determine when to create work orders for onsite visits. Agents primarily use the application through a web browser.
 
-**Service managers** track performance metrics and oversee service delivery, finding ways to increase efficiency and standardize processes. Service managers primarily use the application through a web browser.
+- **Service managers** track performance metrics and oversee service delivery, finding ways to increase efficiency and standardize processes. Service managers primarily use the application through a web browser.
 
-**Dispatchers** review and schedule work orders, and assign them to resources on the schedule board, through resource availability search, and through a fully automated resource scheduling optimization add-in. Dispatchers primarily use the application through a web browser.
+- **Dispatchers** review and schedule work orders, and assign them to resources on the schedule board, through resource availability search, and through a fully automated resource scheduling optimization add-in. Dispatchers primarily use the application through a web browser.
 
-**Field technicians** manage their assigned work orders using the mobile app on a phone or tablet, and perform maintenance and repairs onsite at customer locations.
+- **Field technicians** manage their assigned work orders using the mobile app on a phone or tablet, and perform maintenance and repairs onsite at customer locations.
 
-**Inventory managers** ensure field technicians have what they need to complete their service calls. Inventory managers also handle product returns and purchase new inventory. Inventory managers primarily use the application through a web browser.
+- **Inventory managers** ensure field technicians have what they need to complete their service calls. Inventory managers also handle product returns and purchase new inventory. Inventory managers primarily use the application through a web browser.
 
 ## Work order management
 Work orders describe in detail the work that a technician is to perform at a customer location. Work orders are created from service cases, sales orders, emails, phone calls, service agreements, web portals, Internet of Things (IoT) telemetry,  and more.
@@ -96,19 +96,6 @@ An easy-to-use mobile app guides field technicians through the process of resolv
 As technicians submit completed work orders, equipment service history and inventory levels are updated automatically.
 
  > ![work-order-process](media/work-order-process-4-images-work-schedule-mobile-inventory.png) 
-
-
-## How Microsoft's Field Service is unique
-
-Unlike other field service software providers, Microsoft Dynamics 365 for Field Service sits on top of a comprehensive business application platform. This has many advantages. First, it allows Field Service to sit in context of other business applications such as sales automation, customer service, project management, etc. This makes cross-department/cross-team collaboration easier and helps achieve better analytics of operations and data.
-
-Second, the Dynamics platform has advanced workflow tools that allow for sophisticated automation within Field Service and between Field Service and other solutions. Field service solutions that sit outside of a platform tend to have limited automation capabilities which means more manual work will be needed. 
-
-Finally, perhaps the greatest strength of a field service solution on a world class business application platform, is a vibrant partner ecosystem and app store. This means thousands of developers and consultants extend and augment the Microsoft Field Service solution by submitting add-ons that can be downloaded from the [Dynamics app store](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-field-services&page=1).
-
-Beyond field service on the Dynamics platform, another advantage is how Dynamics 365 for Field Service interacts with other Microsoft products and platforms. In terms of Azure, this means Field Service data can be fed into Azure Machine learning to make better use of data. A simple example being recommending solutions to field technicians based on previous work or Azure cognitive services detecting issues in pictures submitted by customers. 
-
-In terms of Office 365, this means field service workers can use Skype, Teams, Outlook, and Excel seamlessly in context with field service work.
 
 ## Scenarios supported by Field Service
 
@@ -131,11 +118,11 @@ Field Service can support any scenario where resources need to be managed to sat
 ## Business processes not supported by Field Service
 
 Field Service doesn’t support the following types of business processes:
-- Logistics management (for example scheduling freight delivery).
-- Multi-day projects with multiple resources and task dependencies (these scenarios are supported by Dynamics 365 for Project Service Automation).
+- Logistics management (for example, scheduling freight delivery).
+- Multi-day projects with multiple resources and task dependencies. (Instead, check out Dynamics 365 for Project Service Automation.)
 
 ## Watch a video
-In this video, see how the digital interactive schedule board and other tools help a service team resolve a customer service issue.
+In this video, see how the interactive schedule board and other tools help a service team resolve a customer service issue.
 
- <a name="heroArea"></a> [![Video showing how to manage your mobile workforce Dynamics 365 for Field Service](../field-service/media/field-service-manage-mobile-workforce.png "Manage your mobile workforce Dynamics 365 for Field Service")](http://go.microsoft.com/fwlink/p/?LinkId=786689)
+ <a name="heroArea"></a> [![Video showing how to manage your mobile workforce Dynamics 365 for Field Service](../field-service/media/field-service-manage-mobile-workforce.png "Manage your mobile workforce with Dynamics 365 for Field Service")](http://go.microsoft.com/fwlink/p/?LinkId=786689)
 
