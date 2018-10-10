@@ -25,14 +25,14 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-The Dynamics 365 for Field Service business application helps you deliver onsite support at customer locations by providing the tools you need to manage work orders, scheduling, your mobile workforce, and more. 
+The Dynamics 365 for Field Service business application helps you deliver onsite support at customer locations. The Field Service application provides the tools you need to manage work orders, scheduling, your mobile workforce, and more. 
 
 Here are some examples of the types of organizations that use the application to manage their field service:
 
-- **Manufacturing**   A medical device manufacturer sells machines to hospitals and clinics, and uses the application to manage maintenance services over the lifetime of the machines.
-- **Utilities**   A fiber optic cable utility company uses the appliation to respond to outages by dispatching technicians to problem areas.
-- **Health care**   An  in-home health care service service provider uses the application to schedule and dispatch healthcare workers to administer medicine and other care to multiple patients.
-- **Equipment maintenance**   A facilities manager uses the application to deliver maintenance and repair services for heating and cooling equipment.
+- **Manufacturing** -  A medical device manufacturer sells machines to hospitals and clinics, and uses the application to manage maintenance services over the lifetime of the machines.
+- **Utilities** -  A fiber optic cable utility company uses the appliation to respond to outages by dispatching technicians to problem areas.
+- **Health care**  - An  in-home health care service service provider uses the application to schedule and dispatch healthcare workers to administer medicine and other care to multiple patients.
+- **Equipment maintenance** -  A facilities manager uses the application to deliver maintenance and repair services for heating and cooling equipment.
 
 ## What's included in Field Service
 
@@ -72,12 +72,14 @@ The Field Service application provides tools for these key roles on your service
 
 **Inventory managers** ensure field technicians have what they need to complete their service calls. Inventory managers also handle product returns and purchase new inventory. Inventory managers primarily use the application through a web browser.
 
-## Using Field Service
+## Work order management
+Work orders describe in detail the work that a technician is to perform at a customer location. Work orders are created from service cases, sales orders, emails, phone calls, service agreements, web portals, Internet of Things (IoT) telemetry,  and more.
 
-1. **Work Orders** - Work Orders describe in detail work that must be performed at the customer's location and are created from emails, phone calls, service agreements, web portals, Internet of Things (IoT) telemetry, cases, sales orders, and more.
-2. **Scheduling** - A digital interactive schedule board helps dispatchers assign Work Orders to the most appropriate resources based on location, availability, skill set, priority, and more.
-3. **Mobile App** - An easy to use mobile application on iOS, Windows, and Android devices guides field technicians through schedule changes and step-by-step work.
-4. **Assets & Inventory** - Equipment service history and inventory levels are updated as technicians complete and submit Work Orders. 
+An interactive schedule board helps dispatchers assign work orders to the best resources based on location, availability, skill set, priority, and more.
+
+An easy-to-use mobile app guides field technicians through the process of resolving work orders.
+
+As technicians submit completed work orders, equipment service history and inventory levels are updated automatically.
 
  > ![work-order-process](media/work-order-process-4-images-work-schedule-mobile-inventory.png) 
 
