@@ -37,7 +37,7 @@ To customize [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldser
 Before you can start configuring [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] beyond what is shipped out of the box from the app store, your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin will need to install the Woodford mobile solution for your [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] account.  
   
 <a name="bkmk_step1 "></a>   
-## Step 1: Download and install the Resco Mobile Woordford solution  
+## Step 1: Download and install the Resco Mobile Woodford solution  
  You need administrator permissions to install the Woodford mobile solution. You also need to use [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] with [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] or [!INCLUDE[tn_Firefox](../includes/tn-firefox.md)].  
   
 1. Download and save the Woodford mobile solution from [Resco's website](http://go.microsoft.com/fwlink/p/?LinkId=808248) to your computer.  
