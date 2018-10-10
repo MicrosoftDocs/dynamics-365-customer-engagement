@@ -29,7 +29,7 @@ There are several resources available to you covering planning, operating, and u
 
 > [!NOTE]
 > To contact technical support, see:
-> - [Enter a support request through the new support center](contact-technical-support.md#enter-a-support-request-through-the-new-support-center)
+> - [Enter a support request through the new support center](https://docs.microsoft.com/power-platform/admin/get-help-support)
   
 <a name="help_for_admins"></a>  
  
