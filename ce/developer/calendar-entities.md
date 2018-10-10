@@ -1,7 +1,7 @@
 ---
-title: "Calendar entities | MicrosoftDocs"
+title: "Calendar entities (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 10/10/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
