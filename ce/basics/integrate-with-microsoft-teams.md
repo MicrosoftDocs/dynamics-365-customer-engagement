@@ -64,9 +64,14 @@ In Dynamics 365 (online) records, select **Collaborate** to display a list of al
 
 In addition, document management actions in Dynamics 365 (online) are integrated with Teams. You can see the channel file library in Dynamics 365 (online)and directly upload files; uploaded files will appear in the Teams file library under the **Files** tab. Files uploaded in the Teams app will appear in the **Documents** tab in Dynamics 365 (online).
 
-
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-documents-d365.png "Dynamics 365 document management in Teams")
+
+### Alert: Shared files exist in multiple locations. Select "Document Location" to see files in other locations.
+The record has been pinned to multiple Teams channels. In Dynamics 365 (online), select **Document Location** to specify the location of the file.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/teams-change-document-location.png "Change document location")
 
 ## Privacy notice
 

@@ -65,7 +65,7 @@
 
 # [Collaboration](../basics/collaborate-with-team.md)
 ## [Teams](../basics/integrate-with-microsoft-teams.md) 
-### [Install personal and team apps](install-personal-team-apps.md)
+### [Setup Teams integration with Dynamics 365 (online)](install-personal-team-apps.md)
 ### [Use the personal app](use-personal-app.md)
 ### [Use the team app](use-team-app.md)
 ### [Delete personal data](delete-teams-data.md)
