@@ -97,6 +97,7 @@ You can specify name and label as per your requirement. Save and publish the for
 
 <!--from editor: Can you provide links for the procedures mentioned in the following paragraph?-->
 
+
 If you do not already have an entity or web form configured, then configure one. For more information on configuring entity forms, see Add a form to your portal. If you are configuring this on a web form, see Define web form properties for portals and Define web form steps for portals.
 
 Apart from the standard configuration required for entity form or web form, you must set the following properties to enable document management:
@@ -144,92 +145,92 @@ This sample provides exact steps and configuration values to enable document man
 
     - Dynamics 365 customization
 
-      a. Go to **Settings** > **Customization** > **Customize the System**. 
+        a. Go to **Settings** > **Customization** > **Customize the System**. 
 
-      b. In the **Default Solution**, go to the **Case** entity > **Forms**. 
+        b. In the **Default Solution**, go to the **Case** entity > **Forms**. 
     
-      c. Open the **Web – Edit Case** in form editor.
+        c. Open the **Web – Edit Case** in form editor.
 
-        > [!div class="mx-imgBorder"]
-        > ![Web - Edit Case form](media/web-edit-case-form.png "Web - Edit Case form")
+           > [!div class="mx-imgBorder"]
+           > ![Web - Edit Case form](media/web-edit-case-form.png "Web - Edit Case form")
     
-      d. Select the **Created On** field on the form, and on the **Insert** tab, select **Sub-Grid**.
+        d. Select the **Created On** field on the form, and on the **Insert** tab, select **Sub-Grid**.
 
-        > [!div class="mx-imgBorder"]
-        > ![Add a subgrid to the Web - Edit Case form](media/add-sub-grid.png "Add a subgrid to the Web - Edit Case form")
+           > [!div class="mx-imgBorder"]
+           > ![Add a subgrid to the Web - Edit Case form](media/add-sub-grid.png "Add a subgrid to the Web - Edit Case form")
     
-      e. In the **Set Properties** dialog box, set the following properties, and select **OK**:
+        e. In the **Set Properties** dialog box, set the following properties, and select **OK**:
 
-         - **Name** (This can be any name): CaseDocuments 
+           - **Name** (This can be any name): CaseDocuments 
     
-         - **Label** (This can be any label name): Case Documents 
+           - **Label** (This can be any label name): Case Documents 
       
-         - **Entity**: Document Locations 
+           - **Entity**: Document Locations 
     
-         - **Default View**: Active Document Locations
+           - **Default View**: Active Document Locations
 
-        > [!div class="mx-imgBorder"]
-        > ![Subgrid properties](media/sub-grid-properties.png "Subgrid properties")
+           > [!div class="mx-imgBorder"]
+           > ![Subgrid properties](media/sub-grid-properties.png "Subgrid properties")
 
-      f. In the form editor, select **Save** and then select **Publish**.
+        f. In the form editor, select **Save** and then select **Publish**.
 
     - Dynamics 365 Portal configuration
 
-      a. In Dynamics 365, go to **Portals** > **Entity Forms**.
+        a. In Dynamics 365, go to **Portals** > **Entity Forms**.
     
-      b. Find and open **Customer Service - Edit Case** entity form.
+        b. Find and open **Customer Service - Edit Case** entity form.
     
-      c. Review and ensure the following properties are set:
+        c. Review and ensure the following properties are set:
     
-         - **Entity Name**: Case (incident)
+           - **Entity Name**: Case (incident)
     
-         - **Form Name**: Web – Edit Case
+           - **Form Name**: Web – Edit Case
     
-         - **Mode**: Edit
+           - **Mode**: Edit
     
-         - **Entity Permission**: Enabled
+           - **Entity Permission**: Enabled
     
-        > [!div class="mx-imgBorder"]
-        > ![Customer Service - Edit Case form](media/customer-service-edit-case-form.png "Customer Service - Edit Case form")
+             > [!div class="mx-imgBorder"]
+             > ![Customer Service - Edit Case form](media/customer-service-edit-case-form.png "Customer Service - Edit Case form")
     
-      d. If you’ve made any changes to the form, select **Save**.
+        d. If you’ve made any changes to the form, select **Save**.
 
 5. Follow [Step 5](#step-5-create-appropriate-entity-permission-and-assign-it-to-the-appropriate-web-role
 ) to make sure entity permissions are granted to the users.
 
-   1. Go to the **Web Role** record that is associated to the user. For this sample, we’ll assume that the user has an Administrator web role.
+  1. Go to the **Web Role** record that is associated to the user. For this sample, we’ll assume that the user has an Administrator web role.
 
-   2. Ensure that an Entity Permission record exists by the name of **Customer Service - Cases where contact is customer**. 
+  2. Ensure that an Entity Permission record exists by the name of **Customer Service - Cases where contact is customer**. 
 
-      > [!NOTE]
-      > Ensure that your web role has this entity permission added. If your user is already an Administrator, then the above entity permission need not be explicitly assigned.
+     > [!NOTE]
+     > Ensure that your web role has this entity permission added. If your user is already an Administrator, then the above entity permission need not be explicitly assigned.
 
-   3. Create a new entity permission, enter the following details, and select **Save**:
+  3. Create a new entity permission, enter the following details, and select **Save**:
 
-      - **Name** (This can be any name): Customer Service - Related Documents
+    - **Name** (This can be any name): Customer Service - Related Documents
 
-      - **Entity Name**: Document Location
+    - **Entity Name**: Document Location
         
-      - **Scope**: Parent
+    - **Scope**: Parent
         
-      - **Parent Entity Permission**: Customer Service - Cases where contact is customer
+    - **Parent Entity Permission**: Customer Service - Cases where contact is customer
         
-      - **Parent Relationship**: incident_SharePointDocumentLocations
+    - **Parent Relationship**: incident_SharePointDocumentLocations
         
-      - **Privileges**: Read, Create, Append, Write, Delete
+    - **Privileges**: Read, Create, Append, Write, Delete
 
-        > [!div class="mx-imgBorder"]
-        > ![Customer Service entity permission](media/customer-service-entity-permission.png "Customer Service entity permission")
+      > [!div class="mx-imgBorder"]
+      > ![Customer Service entity permission](media/customer-service-entity-permission.png "Customer Service entity permission")
   
-   4. Sign in to Portal to ensure document management is enabled for the Case entity.
+  4. Sign in to Portal to ensure document management is enabled for the Case entity.
 
-      a. Go to the **Support** page.
+    a. Go to the **Support** page.
 
-        > [!div class="mx-imgBorder"]
-        > ![Portal support page](media/portal-support-page.png "Portal support page")
+       > [!div class="mx-imgBorder"]
+       > ![Portal support page](media/portal-support-page.png "Portal support page")
 
-      b. Click on an existing Case record from the list. Go to the **Case Documents** section on the page and see the document list added.
+    b. Click on an existing Case record from the list. Go to the **Case Documents** section on the page and see the document list added.
 
-        > [!div class="mx-imgBorder"]
-        > ![Case document](media/case-document.png "Case document")
+       > [!div class="mx-imgBorder"]
+       > ![Case document](media/case-document.png "Case document")
 
