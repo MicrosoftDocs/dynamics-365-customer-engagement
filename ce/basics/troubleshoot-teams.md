@@ -31,7 +31,9 @@ search.app:
 The following are error messages from Dynamics 365 Teams app and possible resolutions.
 
 ### Error: This record is not connected to Dynamics 365. Repin the tab and try again.
-If retrying the connection doesn't work, try repinning the Dynamics 365 tab. To repin, delete the connection and then re-add:
+A failed connection means file synchronization is not set up between Microsoft Teams and Dynamics 365 (online). However, changes made to the record in Teams will update in Dynamics 365 (online).
+
+Try repinning the Dynamics 365 tab. To repin, delete the connection and then re-add:
 
 1. In Microsoft Teams, select the channel with the error.
 2. Select the Dynamics 365 tab with the error.

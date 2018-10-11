@@ -1,7 +1,7 @@
 ---
 title: "Use the team app| MicrosoftDocs"
 ms.custom: ""
-description: Use the personal app and bot.
+description: "Use the personal app and bot."
 ms.date: 10/30/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -50,15 +50,19 @@ Search for an entity to pin. Use **Filter by** to narrow the search to an entity
 
    Use the **Settings** tab to change these settings any time.
 
-Once you complete the above steps, the Dynamics 365 tab appears on the menu bar.
+Once you complete the above steps, you'll see a notification of a successful connection and the Dynamics 365 (online) record appears in the menu bar.
 
-![Dynamics 365 tab](media/teams-pinned-record.png "Dynamics 365 tab")
+> [!div class="mx-imgBorder"] 
+> ![](media/teams-pinned-record.png "Record successfully connected and pinned")
 
-You can interact with the record as if you were using the Dynamics 365 web app. Those with *Write* permissions can edit the record; changes will be synchronized with the Dynamics 365 web app.
+A successful connection means two-way communication now exists between Dynamics 365 (online) and Microsoft Teams. You can interact with the record as if you were using the Dynamics 365 web app and share files with the web app. Those with *Write* permissions can edit the record and changes will be synchronized with the Dynamics 365 web app.
+
+A failed connection means file synchronization is not set up between Microsoft Teams and Dynamics 365 (online). However, changes made to the record in Teams will update in Dynamics 365 (online). See: [Error: This record is not connected to Dynamics 365. Repin the tab and try again.](troubleshoot-teams.md#error-this-record-is-not-connected-to-dynamics-365-repin-the-tab-and-try-again).
+
 
 ### Files tab
 
-Select the **Files** tab in the team app to associate files with a Dynamics 365 record. Files added here will appear in Dynamics 365 (online) under **Documents** for the linked record. Likewise, when you add a document to a record in Dynamics 365, that document will appear in Teams under the **Files** tab.
+Select the connected channel **Files** tab in the team app to associate files with a Dynamics 365 record. Files added here will appear in Dynamics 365 (online) under **Documents** for the linked record. Likewise, when you add a document to a record in Dynamics 365 (online), that document will appear in Teams under the **Files** tab.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-files-tab.png "File tab in team app")

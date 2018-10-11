@@ -1,7 +1,7 @@
 ---
-title: "Install the Dynamics 365 app| MicrosoftDocs"
+title: "Setup Microsoft Teams integration with Dynamics 365 (online)| MicrosoftDocs"
 ms.custom: ""
-description: Install Teams personal app.
+description: "Setup Microsoft Teams integration with Dynamics 365 (online)"
 ms.date: 10/30/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -22,15 +22,15 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Install the Dynamics 365 app
+# Setup Microsoft Teams integration with Dynamics 365 (online)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-## For admins: enable Microsoft Teams integration
+## For admins: enable Microsoft Teams integration Preview features
 
-In order for the Dynamics 365 app to connect to Dynamics 365 (online), you need to enable two settings.
+Because this is a preview feature, you can control whether to display certain Teams integration features. For full Teams integration, the Dynamics 365 (online) admin should enable two settings.
 
 1. Sign in as a System administrator to Dynamics 365 (online).
 2. Go to **Settings** > **Administration** > **System Settings** > **Previews** tab.
@@ -38,6 +38,15 @@ In order for the Dynamics 365 app to connect to Dynamics 365 (online), you need 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-system-settings.png "Enable preview settings")
+
+The following table describes what happens when either feature is enabled.
+
+|Setting  |When enabled |
+|---------|---------|
+|Microsoft Teams Integration Preview   | When enabled, the **Collaborate** tab appears in records in Dynamics 365 (online) so you can connect the record to Microsoft Teams. In addition, in the **Documents** tab, files synchronized with Teams will appear.         |
+|Dynamics 365 bot in Microsoft Teams Preview     | When enabled, the bot appears in Microsoft Teams in the **Conversation** tab of a connected channel.  |
+
+If these settings are not enabled, you can still use much of the Teams integration with Dynamics 365 (online); the above features will be absent.
 
 ## Select the app in the App Store
 

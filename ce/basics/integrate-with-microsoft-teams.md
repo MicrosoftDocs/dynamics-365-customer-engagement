@@ -1,7 +1,7 @@
 ---
 title: "Preview: Integrate Dynamics 365 Customer Engagement with Microsoft Teams| MicrosoftDocs"
 ms.custom: ""
-description: Integrate Dynamics 365 Customer Engagement with Microsoft Teams.
+description: "Integrate Dynamics 365 Customer Engagement with Microsoft Teams."
 ms.date: 10/30/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -40,10 +40,10 @@ Check out the following video to get a quick overview of Dynamics 365 and Teams 
 
 There are two areas of integration: 
 - the Dynamics 365 app installed in Microsoft Teams
-- changes made in Dynamics 365 (online) when connected Microsoft Teams to support data flow and document management
+- in Dynamics 365 (online), you can see the connected Microsoft Teams channel and files synchronized between Teams app and Dynamics 365 (online)
 
 ## Dynamics 365 app in Teams
-The Dynamics tab, when added to a Teams channel, provides a fully functional page in which you edit information and navigate to related records; all this without leaving Teams.
+The Dynamics 365 (online) tab, when added to a Teams channel, provides a fully functional page in which you edit information and navigate to related records; all this without leaving Teams.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/d365inteams.png "Dynamics 365 pinned in Teams")
@@ -57,12 +57,13 @@ For more information on installing and configuring the personal app and bot, see
 
 ## Teams integration in Dynamics 365 (online)
 
-In Dynamics 365 (online) records, you can select **Collaborate** and then select a team or channel that has been connected to this record. Once you've made the selection, you're taken to the relevant conversation in Teams.
+In Dynamics 365 (online) records, select **Collaborate** to display a list of all the connected Team channels. Then, select a Team channel to go to the relevant conversation in Teams.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-select-collaborate.png "From Dynamics 365, open a conversation in Teams")
 
-In addition, document management actions in Dynamics 365 are integrated with Teams. When you add a document to a record in Dynamics 365, that document will appear in Teams under the **Files** tab. Likewise, when you attach files to a Teams conversation, they will appear in Dynamics 365 under **Documents** for the linked record.
+In addition, document management actions in Dynamics 365 (online) are integrated with Teams. You can see the channel file library in Dynamics 365 (online)and directly upload files; uploaded files will appear in the Teams file library under the **Files** tab. Files uploaded in the Teams app will appear in the **Documents** tab in Dynamics 365 (online).
+
 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-documents-d365.png "Dynamics 365 document management in Teams")
