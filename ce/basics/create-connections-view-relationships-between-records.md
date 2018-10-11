@@ -1,25 +1,26 @@
 ---
 title: "Create connections to define relationships between records (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service:
+  - "crm-online"
+ms.custom:
+  - ""
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 3cd98c0b-0599-4d96-8e9a-095e2d528a9c
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 29
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
-search.audienceType: 
-  - enduser
-search.app: 
-  - D365CE
 ---
+
 # Create connections to define and view relationships between records
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -63,4 +64,4 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can create a
 3.  Select the connection you want to deactivate or delete, and then click **Deactivate** or **Delete**.  
   
 ### See also  
- [Account relationships](../basics/account-relationships-hierarchical-view.md)
+ [Hierarchical relationships](../basics/hierarchical-relationship.md)

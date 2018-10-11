@@ -93,7 +93,7 @@ Three types of quota add-on subscriptions are available. They are billed on a mo
 
 [Learn more about pricing and licensing for Dynamics 365.](http://go.microsoft.com/fwlink/p/?LinkID=401462)
 
-### To buy add-on subscriptions for Social Engagement
+### To buy add-on subscriptions for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
 An Office 365 admin can buy additional post quota from the Office 365 admin center. You will only see the [!include[](../includes/pn-social-engagement-short.md)] add-on subscriptions if your Dynamics 365 plan includes [!include[](../includes/pn-social-engagement-short.md)]. Trials aren't eligible for [!include[](../includes/pn-social-engagement-short.md)]. 
 

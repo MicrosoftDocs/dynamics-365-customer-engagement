@@ -8,7 +8,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
 manager: shujoshi
-ms.date: 06/01/2018
+ms.date: 10/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: dadea8f7-c931-4cdc-8815-32f8c0f89b51
@@ -22,13 +22,15 @@ search.app:
   - D365CS
 ---
 
-# Use entitlement templates to quickly set up entitlements
+# Use entitlement templates to set up entitlements quickly
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Quickly create other entitlements prefilled with the basic information like the start and end date, service level agreement (SLA), allocation type, and total term by using an entitlement template in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. For example, create a template for a standard entitlement, and then apply this template for every standard customer in your organization.  
 
-  
+> [!NOTE]
+> With the Customer Engagement apps, version 9.1 release, entitlement templates in service management are available in the Customer Service Hub based on the Unified Interface experience. We recommend that you create and manage entitlement templates using the new experience.
+
 ## Create an entitlement template  
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
@@ -39,39 +41,36 @@ Quickly create other entitlements prefilled with the basic information like the 
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
+2. In the Customer Service Hub sitemap, go to **Service Management** and select **Templates** > **Entitlement Templates**.
+
+    > [!NOTE]
+    > In the Customer Service app, go to [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)] and select **Entitlement Templates**.
   
-3. Choose **Entitlement Templates**.  
-  
-4. To create a new entitlement template, choose **+ New**.  
-  
-    -OR-  
-  
-    To edit an entitlement template, in the list of records, select the template, and on the command bar, choose **Edit**.  
+4. To create a new entitlement template, select **New** in the entitlement template search box.  
   
 5. Type or modify information in the text boxes.  
   
     Hovertips provide hints about what to enter.  
   
-   - **Entitlement Template Name**  
+   - **Entitlement Template Name**. Enter a name for the entitlement template.
   
    - **Start Date**. Select the date from which the entitlement will be valid.  
   
    - **End Date**. Select the date until which the entitlement will be valid.  
   
-   - **Restrict based on entitlement terms**. To restrict creating case when the entitlement term is over, select Yes. Otherwise, Select **No**.  
+   - **Restrict based on entitlement terms**. To restrict creating case when the entitlement term is over, select Yes. Otherwise, select **No**.  
   
    - **SLA**. Select an SLA record to associate the service levels or key performance indicators for the support you are providing with this entitlement.  
   
      Under **Entitlement Terms**, specify the term details for the entitlement: 
   
-   - **Allocation Type**. Select whether the entitlement is for number of hours or number of cases.  
+     - **Allocation Type**. Select whether the entitlement is for number of hours or number of cases.  
   
-   - **Decrease Remaining On**. Select whether to decrease the remaining term on case creation or resolution.  
+     - **Decrease Remaining On**. Select whether to decrease the remaining term on case creation or resolution.  
   
-   - **Total Term**. Specify the total amount of support the customer is entitled for with respect to the allocation type. For example, if the allocation type is number of cases and you specify 100 in Total term, then the customer is entitled for support up to 100 cases.  
+     - **Total Term**. Specify the total amount of support the customer is entitled to with respect to the allocation type. For example, if the allocation type is number of cases and you specify 100 in Total term, then the customer is entitled to support up to 100 cases.  
   
-6. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
+6. Select **Save**. 
   
 ### Add entitlement channels  
  Use the **Entitlement Channels** section to define the channels your customers are entitled to, and track the customer support term for each channel separately. For example, to use phone and email as support channels, and restrict them to 80 and 20 hours respectively, create an entitlement channel for each of them.  
@@ -79,7 +78,7 @@ Quickly create other entitlements prefilled with the basic information like the 
 > [!NOTE]
 >  You must save the template record before you can add entitlement channels to the template.  
   
-1.  In the **Entitlement Channel** section, choose **+**.  
+1.  In the **Entitlement Channel** section, select **...** and select **Add New Entitlement Template Channel**.  
   
 2.  Specify the total terms that you want to allot to the particular channel.  
   
@@ -88,13 +87,11 @@ Quickly create other entitlements prefilled with the basic information like the 
 ### Associate a product with the entitlement template  
  If you want the entitlement template to be applicable to specific products for an individual customer, associate a product to the template.  
   
-1.  While in the template record, in the **Products** section, choose **+**.  
-2.  In the **search** box, type the first few letters of the name of the product that you want to associate with the template.  
-  
-     If a product isn’t available, choose **New** to create a new product record.  
+1. In the **Search for records** box, type the first few letters of the name of the product that you want to associate with the template.   
+2. While in the template record, in the **Products** section, select **...** and select **Add Existing Product**. 
 
 > [!NOTE]
-> You can also choose to open the template form in the **Form Editor** in case you want to add additional sections to the form.
+> In the Customer Service app, you can also select to open the template form in the **Form Editor** in case you want to add additional sections to the form.
   
 ### See also  
  [Create an entitlement to define the support terms for a customer](create-entitlement-define-support-terms-customer.md)

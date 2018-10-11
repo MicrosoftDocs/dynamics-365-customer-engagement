@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: d9a600e6-0c1c-48ac-b5dc-8b80c74e9755
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
 search.audienceType: 
@@ -59,7 +59,7 @@ There are two ways to create a lead: manual and automatic.
 
 - To view, create, or edit a lead manually, go to **Marketing** &gt; **Customers** &gt; **Leads**. This opens a standard list view, which you can use to search, sort, filter, create, and delete your leads. Open any lead to view its details. Select **New** to create a new one.
 
-- To generate leads automatically, create a marketing page that is configured to generate leads (and possibly contacts too). When a contact submits a landing page such as this, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] matches incoming form data against existing contacts and leads. It creates new contacts and leads as needed, and links them together. Auto-generated leads store information about the context where they were created, including the marketing page, marketing form, customer journey, and email message associated with it.
+- To generate leads automatically, create a [marketing page](create-deploy-marketing-pages.md) that is configured to generate leads (and possibly contacts too). When a contact submits a landing page such as this, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] matches incoming form data against existing contacts and leads. It creates new contacts and leads as needed, and links them together. The [event portal](set-up-event-portal.md)also auto-generated leads and linked contacts in a similar way. Auto-generated leads store information about the context where they were created, including the marketing page, marketing form, customer journey, and email message associated with it.
 
 ## Lead scoring
 

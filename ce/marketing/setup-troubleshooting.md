@@ -2,7 +2,7 @@
 title: "Administration and setup frequently asked questions (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Solutions to common questions and issues that can occur during the initial setup and ongoing administration of Dynamics 365 for Marketing"
 keywords: "troubleshooting;setup"
-ms.date: 07/06/2018
+ms.date: 10/10/2018
 ms.service: 
   - "dynamics-365-marketing"
 ms.custom: 
@@ -15,7 +15,7 @@ applies_to:
 ms.assetid: 4c2bc52f-595c-4728-9ef5-5e3281ca0cc0
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
 search.audienceType: 
@@ -51,19 +51,36 @@ These geographical restrictions apply both to trial and production versions of [
 
 To read the latest list of countries/regions where you can use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
 
+<a name="register-apps-azure"></a>
+
+## Do I have permissions to register applications on [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]?
+
+One of the requirements for running the [setup wizard](purchase-setup.md) for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is that you must sign in to [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] with a user account that has permissions to register applications on [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]. To find out if you have these permissions, do the following:
+
+1. Go to [portal.azure.com](https://portal.azure.com) and sign in with the [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] account that you want to use to install [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+1. Select **Azure Active Directory** in the side navigator and the **User settings** in the second side navigator.
+    ![Azure user settings](media/faq-azure-user-settings.png "Azure user settings") 
+1. Check the **App registrations** section on this page. If the **Yes** box is highlighted here, then you have permissions to register applications on [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]. If the **No** box is highlighted instead, try to select the **Yes** box and then select **Save**; if you don't have permissions to make this change, then please talk to your global administrator for assistance.
+
 <a name="why-portal"></a>
 
-## Why do I need a new portal, and how can I get one?
+## Why do I need a portal, and how can I get one?
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] requires a dedicated [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] portals solution for running marketing pages and event portals. A free portal app is included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], so usually this won't be an issue, but you can only have one free portal per [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant. Some other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] apps also include a free portal, so you might already have a configure-free portal on your tenant. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard will let you know if you need a new portal app.
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] requires a dedicated [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] portals solution for running marketing pages and event portals. Depending on the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensing plan you have chosen, your license may include a free portal (provided no other free portals are already in use on your tenant), or you may need to purchase a new portal license before you can install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app.
+
+You can have at most one free portal on your tenant, so even if your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] license includes a free portal, you may still need to purchase an additional one if  you already have a free portal configured on your tenant (probably because it was included with another  [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] app that you are already using).
+
+The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard will let you know if you need a new portal app.
+
+For complete details about [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensing options, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=874224).
 
 If you don't have any unconfigured free or paid portals available, you have two options:
 
 - Recycle an existing portal.  
-  If you have a portal that you aren't using, then you can revert it to an unconfigured portal and then run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard to set it up for use with [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. Please contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] Microsoft Support for assistance with recycling your portal.
+  If you have a portal that you aren't using, you can request to have it reverted to an unconfigured portal and then run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard to set it up for use with [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. Please contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] Microsoft Support for assistance with recycling your portal.
 
 - Purchase an additional portal.  
-  If you are using all your existing portals, then you can purchase a new one for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] as described in the following procedure.
+  If you don't have any unused portals that you can recycle, then you can purchase a new one for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] as described in the following procedure.
 
 To get a new, unconfigured portal app and then use it with [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]:
 
@@ -191,7 +208,9 @@ If you don't see the **Survey** tile in the **Toolbox** of your [customer journe
     - **[MktEmail]**: Find and select another **Dynamics 365 for Marketing** solution that has the same version, but is tagged with **[MktVocEmail]**, and then install it.
     - If no tag is shown, continue to the next step.
 
-1. Go to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and confirm that the **Survey** tile is now visible in the customer journey toolbox, and that your surveys are working correctly.
+1. Open [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], go to **Settings** > **Advanced settings** > **Marketing settings** > **Customer insights sync**, and enable syncing of the **Survey (msdyn_survey)** entity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync)
+
+1. Confirm that the **Survey** tile is now visible in the customer journey toolbox, and that your surveys are working correctly.
 
 If your surveys still aren't working after completing these steps, then please [contact Microsoft Support](#contact-support) for assistance.
 

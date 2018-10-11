@@ -2,7 +2,7 @@
 title: "Accessibility for Social Engagement | Microsoft Docs"
 description: "Learn about accessibility features in general and specifically in Social Engagement."
 keywords: "ease of access, accessibility, a11y, screen reader, color patterns"
-ms.date: 05/08/2018
+ms.date: 09/26/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,7 +10,7 @@ applies_to:
 ms.assetid: 0742a7c8-2fe9-483b-baa6-1907edad0300
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 topic-status: Drafting
 ms.custom: 
   - dyn365-a11y
@@ -24,12 +24,12 @@ search.app:
   - D365SE
 ---
 
-# Accessibility for Microsoft Social Engagement
+# Accessibility for [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]
 
 [Microsoft is committed to building software that enables people with different abilities](http://go.microsoft.com/fwlink/p/?LinkId=526256) to be productive.   
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] enables all users to be productive by providing accessible software that can be used effortlessly, regardless of abilities. 
 
-## Accessibility capabilities built into Social Engagement
+## Accessibility capabilities built into [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)]
 
 ### Switch to the table view to improve readability of data points
 
@@ -89,7 +89,7 @@ To navigate the data in the cells of the table view, select the arrow keys.
 To use the area filter with a keyboard, select Tab until you reach the **Area filter** and provide coordinates for two corner points of the rectangular area filter. Provide the latitude and longitude for Point A and for Point B. Tab to the **Save** control and select Enter to activate the area filter. Only data that matches your area filter is now shown in your map/table. 
 
 
-## Accessibility in applications that can work with Social Engagement data
+## Accessibility in applications that can work with [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] data
 
 [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] provides integrations and data export for other applications. 
 
@@ -104,7 +104,7 @@ Commonly used screen readers are supported, empowering the blind, visually impai
 
 - [Learn more about working with Microsoft Narrator](https://support.microsoft.com/help/22798)
 - [Learn more about working with JAWS](http://www.freedomscientific.com/Products/Blindness/JawsDocumentation)
-- [Learn more about working with NVDA](https://www.nvaccess.org/help/)
+- [Learn more about working with NVDA](https://www.nvaccess.org/get-help/)
 
 ### Use the keyboard to navigate the user interface
 

@@ -4,6 +4,7 @@
 ## [Terminology](online-terminology.md)
 ## [Try Dynamics 365 (online)](try-dynamics-365-online.md)
 ## [About Unified Interface](about-unified-interface.md)
+## [Enable hybrid experience](enable-hybrid-experience.md)
 ## [Onboard your organization and users](onboard-your-organization-and-users-to-dynamics-365-online.md)
 ## [Onboarding cheat sheet for admins](onboarding-cheat-sheet-admins.md)
 ## [Enabling preview features](what-are-preview-features-how-do-i-enable-them.md)
@@ -74,7 +75,7 @@
 ## [Team templates for access rights](create-team-template-add-entity-form.md)
 ## [Add teams or users to field security profile](add-teams-users-field-security-profile.md)
 ## [Synchronize user information between Dynamics 365 and Active Directory](synchronize-user-information-active-directory.md)
-## [Create or edit a business unit](create-edit-business-unit-control-access-records.md)
+<!-- removed as duplicate  ## [Create or edit a business unit](create-edit-business-unit-control-access-records.md) -->
 ## [Add or remove sales territory members](add-remove-territory-members.md)
 ## [Troubleshooting: Read-write access](troubleshooting-user-needs-read-write-access-organization.md)
 
@@ -121,6 +122,7 @@
 ## [Enhanced service level agreements](enhanced-service-level-agreements.md)
 ## [Configure Relevance Search](configure-relevance-search-organization.md)
 ## [Manage product catalog configuration](manage-product-catalog-configuration.md)
+## [Enable rich text for appointment activities](enable-rich-text-experience.md)
 
 # [Performance tuning and optimization](performance-tuning-and-optimization.md)
 ## [Verify network capacity and throughput for clients](verify-network-capacity-throughput-clients.md)

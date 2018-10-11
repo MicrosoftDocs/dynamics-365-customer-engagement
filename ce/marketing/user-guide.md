@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: 693371ae-c2a0-496c-900e-c1f96416298b
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
 search.audienceType: 
@@ -61,7 +61,6 @@ search.app:
 <li><a href="manage-images.md" data-raw-source="[Manage images for landing pages and email messages](manage-images.md)">Manage images for landing pages and email messages</a></li>
 <li><a href="create-templates.md" data-raw-source="[Create templates for emails, pages, forms, and journeys](create-templates.md)">Create templates for emails, pages, forms, and journeys</a></li>
 <li><a href="track-online-behavior.md" data-raw-source="[Track website visits, social media clicks, and banner clicks](track-online-behavior.md)">Track website visits, social media clicks, and banner clicks</a></li>
-<li><a href="create-inbound-customer-journey.md" data-raw-source="[Create an inbound customer journey](create-inbound-customer-journey.md)">Create an inbound customer journey</a></li>
 <li><a href="set-up-subscription-center.md" data-raw-source="[Set up subscription lists and subscription centers](set-up-subscription-center.md)">Set up subscription lists and subscription centers</a></li>
 
 </td><td>
@@ -73,15 +72,14 @@ search.app:
 <li><a href="prepare-marketing-emails.md" data-raw-source="[Prepare marketing email messages](prepare-marketing-emails.md)">Prepare marketing email messages</a></li>
 <li><a href="dynamic-email-content.md" data-raw-source="[Add dynamic content to email messages](dynamic-email-content.md)">Add dynamic content to email messages</a></li>
 <li><a href="create-deploy-marketing-pages.md" data-raw-source="[Create and deploy marketing pages](create-deploy-marketing-pages.md)">Create and deploy marketing pages</a></li>
-<li><a href="create-deploy-marketing-pages.md#embed-form" data-raw-source="[Embed a marketing form on your own website](create-deploy-marketing-pages.md#embed-form)">Embed a marketing form on your own website</a></li>
-<li><a href="email-templates.md" data-raw-source="[Work with email, page, and form templates](email-templates.md)">Work with email, page, and form templates</a></li>
+<li><a href="embed-forms.md" data-raw-source="[Embed a marketing form on your own website](embed-forms.md)">Embed a marketing form on your own website</a></li><li><a href="email-templates.md" data-raw-source="[Work with email, page, and form templates](email-templates.md)">Work with email, page, and form templates</a></li>
 <li><a href="custom-template-attributes.md" data-raw-source="[Use custom attributes to enable designer features](custom-template-attributes.md)">Use custom attributes to enable designer features</a></li>
 
 </td></tr>
 <tr><td>
 
 <h2>Create marketing segments and customer journeys</h2>
-<li><a href="segmentation-lists-subscriptions.md" data-raw-source="[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)">Segmentation, lists, and subscriptions</a></li>
+<li><a href="segmentation-lists-subscriptions.md" data-raw-source="[Working with segments](segmentation-lists-subscriptions.md)">Working with segments</a></li>
 <li><a href="customer-journeys-create-automated-campaigns.md" data-raw-source="[Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)">Use customer journeys to create automated campaigns</a></li>
 <li><a href="customer-journey-tiles-reference.md" data-raw-source="[Customer journey tiles reference](customer-journey-tiles-reference.md)">Customer journey tiles reference</a></li>
 

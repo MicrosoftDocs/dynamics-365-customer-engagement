@@ -2,8 +2,8 @@
 title: "Add dynamic content to marketing emails (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 for Marketing"
 keywords: "email; marketing email; dynamic content; content settings"
-ms.date: 07/06/2018
-ms.service: 
+ms.date: 08/23/2018
+ms.service:
   - "dynamics-365-marketing"
 ms.custom: 
   - "dyn365-marketing"
@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: 5134e656-31ae-4984-8045-fcd76b98719a
 author: kamaybac
 ms.author: kamaybac
-manager: sakudes
+manager: shellyha
 ms.reviewer: renwe
 topic-status: Drafting
 search.audienceType: 
@@ -77,7 +77,7 @@ Start by positioning your cursor in the field where you want to insert the dynam
 
 - **Contact[context]**: Places a field value, such as a first name, from each recipient's contact record.
 - **Content settings[context]**: Places a field value from the content settings—a subscription center URL, forwarding URL, and the sender postal address are included here.
-- **Message[context]**: Places values that relate to the message itself; currently, this includes the open-as-webpage URL<!-- and the various dynamic values used in [double opt-in emails](double-opt-in.md)-->.
+- **Message[context]**: Places values that relate to the message itself; currently, this includes the open-as-webpage URL and the various dynamic values used in [double opt-in emails](double-opt-in.md).
 - **Account**: Places a value from a specific account record.
 - **Contact**: Places a value from a specific contact record (not the recipient's record).
 - **Event**: Places a link to a specific event sign-up page, or a field value from the page.
@@ -131,7 +131,7 @@ Though these settings provide assist-edit buttons, you must only place static va
 ## Advanced dynamic content
 
 > [!NOTE]
-> The advanced dynamic-content features described in this section are scheduled to be rolled out to customer organizations gradually between July and September 2018. To see if they are available to your organization, create a message and paste in the following conditional example:
+> The advanced dynamic-content features described in this section are scheduled to be rolled out to customer organizations gradually throughout the last half of 2018. To see if they are available to your organization, create a message and paste in the following conditional example:
 > 
 > `{{#if (eq contact.contact_account_parentcustomerid.name 'abc')}} Hello. {{else if (eq '123' '123')}} Advanced dynamic content is enabled. {{/if}}`
 > 

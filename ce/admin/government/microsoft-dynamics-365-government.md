@@ -1,7 +1,8 @@
 ---
 title: "Dynamics 365 Government | MicrosoftDocs"
+description: "Microsoft Dynamics 365 Government is available to qualified government entities in the United States."
 ms.custom: ""
-ms.date: 08/14/2018
+ms.date: 10/02/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,15 +15,16 @@ ms.assetid: e4876ab0-4cc9-44fe-b3ed-ddfe04a990e2
 caps.latest.revision: 35
 author: "jimholtz"
 ms.author: "jimholtz"
+manager: "kvivek"
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - Powerplatform
 ---
-# Dynamics 365 Government
+# Dynamics 365 Government 
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 In response to the unique and evolving requirements of the United States public sector, Microsoft has created [!INCLUDE[pn_CRM_Online_Government_Full](../../includes/pn-crm-online-government-full.md)] that is available to qualified government entities in the United States. On October 11, 2016, Microsoft announced the next generation of intelligent business applications in the cloud under the brand [!INCLUDE[pn_ms_dyn_365](../../includes/pn-ms-dyn-365.md)]. To this end, [!INCLUDE[pn_CRM_Online_Government_Full](../../includes/pn-crm-online-government-full.md)] entails a continuity of the protected environment that was originally branded Microsoft CRM Online Government where the protections afforded to the government community cloud under the new brand are now represented by four discrete functions: Sales, Customer Service, Field Service, and Project Service Automation. This section provides an overview of features that are specific to [!INCLUDE[pn_CRM_Online_Government_Full](../../includes/pn-crm-online-government-full.md)].  
   
@@ -82,7 +84,7 @@ In response to the unique and evolving requirements of the United States public 
  Access to [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] customer content by Microsoft administrators is restricted to personnel who are US citizens. These personnel undergo background investigations in accordance with relevant government standards.  
   
 ## Certifications and accreditations  
- [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] is designed to support the Federal Risk and Authorization Management Program (FedRAMP) accreditation at a Moderate Impact level. FedRAMP artifacts are available for review by federal customers who are required to comply with FedRAMP. Federal agencies can review these artifacts in support of their review to grant an Authority to Operate (ATO). It is important to note that, at the present time, the latest brand ([!INCLUDE[pn_CRM_Online_Government_Full](../../includes/pn-crm-online-government-full.md)]) may not show in our ATOs; however, this does not entail a degradation of the security protections afforded to the online services environment as there is application service continuity between the previous brand (Microsoft CRM Online Government) and [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)], as described above. As Microsoft moves to refresh FedRAMP artifacts as part of the standard audit cycles, branding references will be updated accordingly.  
+ [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] is designed to support the Federal Risk and Authorization Management Program (FedRAMP) accreditation at a High Impact level. FedRAMP artifacts are available for review by federal customers who are required to comply with FedRAMP. Federal agencies can review these artifacts in support of their review to grant an Authority to Operate (ATO). It is important to note that, at the present time, the latest brand ([!INCLUDE[pn_CRM_Online_Government_Full](../../includes/pn-crm-online-government-full.md)]) may not show in our ATOs; however, this does not entail a degradation of the security protections afforded to the online services environment as there is application service continuity between the previous brand (Microsoft CRM Online Government) and [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)], as described above. As Microsoft moves to refresh FedRAMP artifacts as part of the standard audit cycles, branding references will be updated accordingly.  
   
  [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] has features designed to support customer’s CJIS Policy requirements for law enforcement agencies. Please visit the [Dynamics 365 Trust Center](https://www.microsoft.com/en-us/trustcenter/cloudservices/dynamics365) for more detailed information related to certifications and accreditations.  
   
@@ -100,4 +102,6 @@ In response to the unique and evolving requirements of the United States public 
  When a user of an organization employing [!INCLUDE[pn_adfs_short](../../includes/pn-adfs-short.md)] attempts to access [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)], the user is redirected to a login page hosted on the organization’s [!INCLUDE[pn_adfs_short](../../includes/pn-adfs-short.md)] server. The user provides his credentials to his organization's [!INCLUDE[pn_adfs_short](../../includes/pn-adfs-short.md)] server, which attempts to authenticate the credentials using the organization’s existing Active Directory infrastructure. If the credentials are authenticated, the organization’s [!INCLUDE[pn_adfs_short](../../includes/pn-adfs-short.md)] server issues a SAML (Security Assertion Markup Language) ticket containing information about the user’s identity and group membership. The customer [!INCLUDE[pn_adfs_short](../../includes/pn-adfs-short.md)] server signs this ticket using one half of an asymmetric key pair and it sends the ticket to AAD via encrypted TLS. AAD validates the signature using the other half of the asymmetric key pair and grants access based on the ticket. The user's identity and group membership information remain in an encrypted fashion in AAD; in other words, limited user-identifiable information is stored in AAD. Full details of the AAD security architecture and control implementation can be found in the [!INCLUDE[pn_Windows_Azure](../../includes/pn-windows-azure.md)] SSP. The AAD account management services are hosted on physical servers managed by the Microsoft Global Foundation Services (GFS). Network access to these servers is controlled by GFS-managed network devices using rules set by [!INCLUDE[pn_Windows_Azure](../../includes/pn-windows-azure.md)]. Users do not interact directly with AAD.  
   
 ### See also  
- [Dynamics 365 (online) Government - Feature availability](government-feature-availability.md)
+ [Dynamics 365 (online) Government - Feature availability](government-feature-availability.md)<br/>
+ [Dynamics 365 IP Address Ranges (prior to v9.x)](https://support.microsoft.com/help/2728473/microsoft-dynamics-crm-online-ip-address-ranges)<br/>
+ [Dynamics 365 IP Address Ranges (v9.x)](https://www.microsoft.com/download/confirmation.aspx?id=57063) Focus only on AzureCloud.usgovtexas and AzureCloud.usgovvirginia <br/> 

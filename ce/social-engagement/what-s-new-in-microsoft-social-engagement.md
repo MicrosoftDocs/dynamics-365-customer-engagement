@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 08/22/2018
+ms.date: 09/26/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,7 +10,7 @@ applies_to:
 ms.assetid: e8941c81-866f-4363-8ca1-fc035f9a3844
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -31,6 +31,17 @@ If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.9
+
+### Home - your new start page
+
+After signing in to [!INCLUDE [pn-social-engagement-short](../includes/pn-social-engagement-short.md)], the app presents a new start page called **Home**. It provides helpful resources and additional information in one spot. We'll be adding more features to the start page in future releases.
+
+### Quick setup and initial insights in fresh solutions
+
+[!INCLUDE [pn-social-engagement-short](../includes/pn-social-engagement-short.md)] will guide users of newly created solutions to success. This quick setup is available to you on **Home** if your solution doesn't have any search topics set up yet. 
+You will create your first search topic and get initial insights within minutes.
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.8
 
@@ -108,7 +119,7 @@ All major releases of browsers (Microsoft Edge, Internet Explorer, Firefox, Chro
 
 ### Attachments in private messages now show in the post list
 
-Social Engagement now shows attached images and videos in private messages on Facebook and direct messages on Twitter directly in the post list. To see the attachments, open the post details of a direct message that contains attachments. 
+[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] now shows attached images and videos in private messages on Facebook and direct messages on Twitter directly in the post list. To see the attachments, open the post details of a direct message that contains attachments. 
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.4
 
