@@ -48,8 +48,8 @@ To allow access to a portal from an IP address or a set of IP addresses, you can
 
 5.	In the Add an IP address window, enter the following values:
 
-  - **Select type of IP address**: Select whether the IP address is IPv4 or IPv6.
-  - **Specify IP address in CIDR notation**: Specify the IP address in CIDR notation. 
+    - **Select type of IP address**: Select whether the IP address is IPv4 or IPv6.
+    - **Specify IP address in CIDR notation**: Specify the IP address in CIDR notation. 
 
 6.	Select **Configure**.
 
