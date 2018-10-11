@@ -1,26 +1,26 @@
 ---
 title: "Set up sales territories to organize business markets by geographical area for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+description: ""
+keywords: ""
+ms.date: 10/09/2018
+ms.service:
+  - "crm-online"
+ms.custom:
+  - ""
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: a7fef06e-31ad-43d1-b4a6-c234a836b191
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 36
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
-search.audienceType: 
-  - admin
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
+
 # Set up sales territories to organize business markets by geographical area
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
@@ -28,7 +28,44 @@ search.app:
 Improve sales potential and revenues by creating territories for customer and market segments in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Then assign appropriate sales people to handle the sales and revenue opportunities for those territories.  
   
  Sales territories improve the sales potential because the members of a territory are focused on the services or sales within that territory. You can associate the financials directly with a territory and its members, which simplify business analysis. Also, based on the sales territory type and size, you can define sales methodologies and the training required for those locations.  
-  
+
+
+## Create a sales territory (Sales Hub app)
+
+1.	Make sure that you have the Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer security role or equivalent permissions.
+
+2.	Select the Site map icon ![Site map icon](../sales-enterprise/media/site-map-icon.png "Site map icon"), then select ellipsis ![Ellipses to see more options](../sales-enterprise/media/ellipsis-more-options.png "Ellipses to see more options"), and then select **Sales Territories**.
+ 
+3.	To create a new sales territory, on the command bar, select **New**.
+
+4.	In the sales territory form, hill in your information.
+
+      a.	**Name**. Enter the geographical name for the territory such as the name of a city, country/region, or a state.
+
+      b.	**Manager**. Enter the name of the user who is the manager for this territory. This person would typically assign leads to salespeople.
+
+      > [!Important]
+      > You can’t allocate the same user to multiple territories. If you need to assign a user to a larger area (more than one existing territory), create a new territory that includes the existing territories, and then assign the user to that new territory.
+      
+      c.	**Description**. Enter any details that you’d like to include for this territory, for example, “Sales territory created for education and training.”
+
+5.	When you’re done, on the command bar, select **Save**.
+
+6.	Select the **Related** tab, and then select **Members**.
+
+      ![Members option on Related tab of territory form](../sales-enterprise/media/members-option-related-tab-territory-form.png "Members option on Related tab of territory form")
+ 
+7.	On the **Members** tab, select **Add members**.
+
+8.	In the **Lookup Records** pane, select the search icon  , select a user record, and then select **Add**.
+
+      ![Lookup Records pane](../sales-enterprise/media/lookup-records.png "Lookup Records pane")
+ 
+9.	Select **Save**. 
+
+
+## Create a sales territory (Sales app)
+
 1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
   
     Check your security role  
@@ -66,4 +103,5 @@ Improve sales potential and revenues by creating territories for customer and ma
 >  To make your salesperson’s job easier, you can also set a default price list for a territory. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create price lists and price list items to define pricing of products](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)  
   
 ### See also  
+ [Administrator and sales manager guide](../sales-enterprise/admin-guide.md)   
  [Nurture sales from lead to order (Sales)](../sales-enterprise/nurture-sales-from-lead-order-sales.md)
