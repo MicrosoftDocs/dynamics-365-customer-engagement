@@ -27,7 +27,7 @@ search.app:
 
 The Dynamics 365 for Field Service business application helps you deliver onsite support at customer locations with the tools you need to manage work orders, scheduling, your mobile workforce, and more. 
 
-The Field Service application anables you to:
+The Field Service application enables you to:
 
 - Improve first time fix rate.
 - Complete more service calls per technician per week.
