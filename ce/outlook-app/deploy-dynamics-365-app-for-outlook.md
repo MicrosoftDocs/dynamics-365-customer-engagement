@@ -1,7 +1,7 @@
 ---
 title: "Deploy Dynamics 365 App for Outlook (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/29/2018
+ms.date: 09/25/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -46,6 +46,8 @@ There are two ways to install [!INCLUDE [pn-ms-office](../includes/pn-ms-office.
 
 If your organization is using a custom EWS URL on your Exchange Online configuration (in place of the default https://outlook.office365.com), Dynamics 365 App for Outlook is not supported.
 You will receive the message **Sorry, something went wrong. Please try again, or restart the application. Error code: Error_Message_0x80070000** when you use Dynamics 365 App for Outlook in Outlook Desktop and Outlook Web Access.
+
+The Outlook App is not enabled on Common Data Service for Apps 2.0.
 
 
 ## Requirements  
@@ -119,7 +121,8 @@ For example, to set privileges for the Mailbox entity:
 ### Provide security role access 
 If you have custom security roles defined in Dynamics 365, users who have that security role assigned may not be able to access Dynamics 365 App for Outlook. In addition to the custom security role containing required privileges for App for Outlook, the security role needs to be bound to the App for Outlook App. In order to achieve this, follow the steps below:
 
-1.  From the main menu navigate to **Settings** > **My Apps**.
+1.  From the main menu navigate to **Settings** > **My Apps**. (If you do not see **My Apps** section, you can navigate to **My Apps** page by going to **<your_organization_URL>/tools/AppModuleContainer/applandingtilepage.aspx**) 
+
 ![Dynamics 365 My Apps page](media/MyAppPage.png "Dynamics 365 My Apps page") 
 
 2.  On the **Dynamics 365 App for Outlook** tile click the ellipsis and then click **Manage Roles**.
@@ -250,7 +253,7 @@ If you are a system administrator or a customizer, you can choose to expose only
 
 With the PowerApps App Designer, you can control the specific entities that appear in Dynamics 365 App for Outlook’s **Quick Create** menu and the **Regarding** lookup. This helps you get to the record you are looking for faster and also modularize business logic by exposing only the relevant entities for your users in Dynamics 365 App for Outlook.
 
-1.  From the main menu navigate to **Settings** > **Customizations** > **Apps**.
+1.  From the main menu navigate to **Settings** > **Customizations** > **Customize the System** > **Apps**. 
 2.  Double-click **Dynamics 365 App for Outlook** to open the App Designer
 
    ![Dynamics 365 My Apps page](media/MyAppPage_1.png "Dynamics 365 My Apps page") 
@@ -280,7 +283,34 @@ With the PowerApps App Designer, you can control the specific entities that appe
 
 ## Limitations  
 
-#### Dashboard customization in Dynamics 365 App for Outlook 
+#### Customizing App for Outlook sitemap
+
+System customizers have access to the Sitemap Designer (within the App Designer) for Dynamics 365 App for Outlook. It is one of the App Modules in version 9.0. The Dynamics 365 App for Outlook default landing page is a dashboard that is configured in the App Module. Customizations to App for Outlook sitemap are not supported at this time. If you are unable to view the Dynamics 365 App for Outlook landing page when you open App for Outlook, please follow the steps below.
+
+1. Navigate to **Settings** > **Customizations** > **Customize the system**.
+2. From the menu on the left, expand **Components** and then select **Dashboards**.
+3. Select **App for Outlook Dashboard** and then select **Enable Security Roles**.
+
+![Dynamics 365 App for Outlook Customizations page](media/PowerApps_DefaultSolution_1.png "Dynamics 365 App for Outlook Customizations page")
+
+4. On the **Assign Sercity Roles: App for Outlook Dashboard** box select **Display to everyone** and **Enable for Fallback**.
+
+![Dynamics 365 App for Outlook Assign Sercity Roles](media/AppForOutlookDashboard_2.png "Dynamics 365 App for Outlook Assign Sercity Roles")
+
+5. Select **OK**.
+
+This issue is also seen when the sitemap for App for Outlook has been modified i.e. the sitemap for App for Outlook has an alternate dashboard in the **Default Dashboard** field. To resolve this issue, do the following:
+
+1. Open App for Outlook sitemap designer. Go to **Settings** > **Customizations** > **Customize the system** > **Apps** > **App for Outlook**.
+
+![Dynamics 365 App for Outlook sitemap designer](media/AppDesigner_AppForOutlook_3.png "Dynamics 365 App for Outlook sitemap designer")
+
+2. Make sure that the App for Outlook sitemap has **Dashboard** as the first sub area and that the default dashboard is **App for Outlook Dashboard**.
+
+![Dynamics 365 App for Outlook sitemap designer page](media/AppForOutlookSiteMap_4.png "Dynamics 365 App for Outlook sitemap designer page")
+
+
+#### Dashboard customization in Dynamics 365 App for Outlook
 
 The following dashboard customizations are not supported currently.
 

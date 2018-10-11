@@ -1,26 +1,25 @@
 ---
 title: "Unified Service Desk configurations (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about the Unified Service Desk configurations that you make in Dynamics 365 on which the Best practices Analyer performs analysis and displays a report."
-ms.custom: ""
+keywords: ""
 ms.date: 04/24/2018
-ms.service: "usd"
-ms.topic: "article"
-applies_to: 
+ms.service:
+  - "usd"
+ms.custom:
+  - ""
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
-ms.assetid: "D390F342-BDD0-4921-959D-66D2CF822A59"
-author: "kabala123"
-ms.author: "kabala"
-manager: "shujoshi"
-search.audienceType: 
-  - admin
-search.app: 
-  - D365CE
-  - D365USD
+ms.assetid: D390F342-BDD0-4921-959D-66D2CF822A59
+author: kabala123
+ms.author: kabala
+manager: shujoshi
 ---
+
 # [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Configurations
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations that you make in Dynamics 365.
@@ -188,7 +187,7 @@ Set the **InternetExplorerPooling** option to **true**:
 3. On the **Active UII Options** page, select **New**.
 4. In the **Global Option** field, select **Others**.
 5. In the **Name** field, enter **InternetExplorerPooling**.
-6. In the **Vaule** field, select **true**.
+6. In the **Value** field, select **true**.
 7. Select **Save**.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [**Enable Internet Explorer pooling**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/performance-enhancement-crm-entity-page-loads)

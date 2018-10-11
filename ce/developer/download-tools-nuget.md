@@ -85,6 +85,14 @@ You can download tools used in development from NuGet using the  powershell scri
     Remove-Item .\Tools\$pdFolder -Force -Recurse
 
     ##
+    ##Download Package Deployer PowerShell module
+    ##
+    ./nuget install Microsoft.CrmSdk.XrmTooling.PackageDeployment.PowerShell -O .\Tools
+    $pdPoshFolder = Get-ChildItem ./Tools | Where-Object {$_.Name -match 'Microsoft.CrmSdk.XrmTooling.PackageDeployment.PowerShell.'}
+    move .\Tools\$pdPoshFolder\tools\*.* .\Tools\PackageDeployment.PowerShell
+    Remove-Item .\Tools\$pdPoshFolder -Force -Recurse
+
+    ##
     ##Remove NuGet.exe
     ##
     Remove-Item nuget.exe    

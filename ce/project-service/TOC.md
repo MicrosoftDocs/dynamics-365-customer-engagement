@@ -1,6 +1,7 @@
 # [Overview](overview.md)
 # [New and upcoming features](new-upcoming.md)
 # Plan your implementation (app version 3.x)
+## [Sample data installation](install-sample-data-3-x.md)
 ## [Project planning and tracking guide](implementation-guides/project-planning-tracking.md)
 ## [Basic quoting, pricing, and billing guide](implementation-guides/begin-quoting-pricing-billing.md)
 ## [Advanced quoting, pricing, and billing guide](implementation-guides/adv-quoting-pricing-billing.md)
@@ -12,6 +13,7 @@
 ## [Project management how-to guide](how-to-guides/project-management-how-to.md)
 ## [Resource management how-to guide](how-to-guides/resource-management-how-to.md)
 ## [Reconciling assignments and bookings how-to guide](how-to-guides/reconciling-assignments-bookings-how-to.md)
+## [Time, expense, and approvals guide](how-to-guides/time-expense-approval.md)
 
 # FAQ and troubleshooting (app version 3.x)
 ## [How do I "soft book" resources?](FAQ-soft-book.md)
