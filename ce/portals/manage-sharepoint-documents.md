@@ -207,9 +207,9 @@ This sample provides exact steps and configuration values to enable document man
 
    3. Create a new entity permission, enter the following details, and select **Save**:
 
-      - **Name** (This can be any name): Customer Service - Related Documents
+    - **Name** (This can be any name): Customer Service - Related Documents
 
-      - **Entity Name**: Document Location
+    - **Entity Name**: Document Location
         
     - **Scope**: Parent
         
@@ -222,15 +222,15 @@ This sample provides exact steps and configuration values to enable document man
       > [!div class="mx-imgBorder"]
       > ![Customer Service entity permission](media/customer-service-entity-permission.png "Customer Service entity permission")
   
-  4. Sign in to Portal to ensure document management is enabled for the Case entity.
+   4. Sign in to Portal to ensure document management is enabled for the Case entity.
 
     a. Go to the **Support** page.
 
-       > [!div class="mx-imgBorder"]
-       > ![Portal support page](media/portal-support-page.png "Portal support page")
+      > [!div class="mx-imgBorder"]
+      > ![Portal support page](media/portal-support-page.png "Portal support page")
 
     b. Click on an existing Case record from the list. Go to the **Case Documents** section on the page and see the document list added.
 
-       > [!div class="mx-imgBorder"]
-       > ![Case document](media/case-document.png "Case document")
+      > [!div class="mx-imgBorder"]
+      > ![Case document](media/case-document.png "Case document")
 
