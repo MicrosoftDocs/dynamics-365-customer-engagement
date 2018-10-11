@@ -32,7 +32,7 @@ Power BI is one of the best tools to deliver insights with simple and interactiv
 
 **Set up Power BI integration**
 
-1.	Go to the Dynamics 365 Administration Center page and select the **Applications** tab.
+1.	Go to the Dynamics 365 admin center and select the **Applications** tab.
 2.	Select the name of the portal for which you want enable Power BI integration, and then select **Manage**.
 3.	Go to **Set up Power BI integration** > **Enable Power BI visualization**.
 4.	Select **Enable** in the confirmation message. While Power BI visualization is being enabled, the portal restarts and will be unavailable for a few minutes. A message appears when Power BI visualization is enabled.
