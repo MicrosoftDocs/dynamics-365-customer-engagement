@@ -104,14 +104,17 @@ The Field Service application provides tools for these key roles on your service
 - **Inventory managers** ensure field technicians have what they need to complete their service calls. Inventory managers also handle product returns and purchase new inventory. Inventory managers primarily use the application through a web browser.
 
 ## Work order management
-Work orders describe in detail the work that a technician is to perform at a customer location. Work orders are created from service cases, sales orders, emails, phone calls, service agreements, web portals, Internet of Things (IoT) telemetry,  and more.
+Work orders describe in detail the work that a technician is to perform at a customer location. In the Field Service application, a typical work order lifecycle looks like this: 
 
-An interactive schedule board helps dispatchers assign work orders to the best resources based on location, availability, skill set, priority, and more.
+1. Work orders are created from service cases, sales orders, emails, phone calls, service agreements, web portals, Internet of Things (IoT) telemetry,  and more.
 
-An easy-to-use mobile app guides field technicians through the process of resolving work orders.
+2. An interactive schedule board helps dispatchers assign work orders to the best resources based on location, availability, skill set, priority, and more.
 
-As technicians submit completed work orders, equipment service history and inventory levels are updated automatically.
+3. An easy-to-use mobile app guides field technicians through the process of resolving work orders.
 
+4. As technicians submit completed work orders, equipment service history and inventory levels are updated automatically.
+
+ > [!div class="mx-imgBorder"]
  > ![work-order-process](media/work-order-process-4-images-work-schedule-mobile-inventory.png) 
 
 ## Watch an overview video
