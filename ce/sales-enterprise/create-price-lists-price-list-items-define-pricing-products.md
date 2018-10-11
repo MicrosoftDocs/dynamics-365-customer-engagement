@@ -88,11 +88,11 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
           -  **Percent Margin - Current Cost**. Use this for the price offered in the price list to yield a percentage margin of the current cost. This is also available for Standard Cost.  
 
-       -  **Amount**. If you selected Currency Amount as the pricing method, type the amount at which the product will be sold.
+       -  **Amount**. If you selected **Currency Amount** as the pricing method, type the amount at which the product will be sold.
 
-       -  **Percentage**. If you selected any value other than Currency Amount as the pricing method, type the percentage for the pricing method that you want.
+       -  **Percentage**. If you selected any value other than **Currency Amount** as the pricing method, type the percentage for the pricing method that you want.
 
-       -  **Rounding Policy**. If you selected a pricing method other than Currency Amount, you can set up a rounding policy. For example, if you want per unit prices to be in the form of $0.99, you can select a rounding policy where all prices per unit automatically have a price that ends in 99 cents. To do this, you select the rounding policy to round the price up, and then set the price to end in a certain amount, such as 99 cents.
+       -  **Rounding Policy**. If you selected a pricing method other than **Currency Amount**, you can set up a rounding policy. For example, if you want per unit prices to be in the form of $0.99, you can select a rounding policy where all prices per unit automatically have a price that ends in 99 cents. To do this, you select the rounding policy to round the price up, and then set the price to end in a certain amount, such as 99 cents.
 
           -  **None**. Prices are not rounded.
 
@@ -102,7 +102,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
     
           -  **To Nearest**. Prices are rounded to the nearest rounding amount.
 
-       -  **Rounding Option**. Select Ends in or Multiple of if you want the price to end in a certain amount or multiples of a certain amount.
+       -  **Rounding Option**. Select **Ends in** or **Multiple of** if you want the price to end in a certain amount or multiples of a certain amount.
 
        -  **Rounding Amount**. Enter the amount.
 
@@ -110,7 +110,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
  
 7.  You can also associate default price lists for territories so that the sales reps working with accounts on contacts in certain territories have the price list selected by default. 
 
-    a.  In the price list record, select the Territory Relationship tab.
+    a.  In the price list record, select the **Territory Relationship** tab.
 
     b.	In the **Territories** section, select **Add New Connection**.
 
@@ -125,7 +125,6 @@ Price lists tie the unit, product, and pricing details together, so before you c
     d.	In the price list record, select **Save & Close**.
   
       > [!NOTE]
-      
       >  You must create at least one price list for each of the currencies that your organization does business in.  
 
 ## Create a price list  (Sales app)
@@ -154,7 +153,6 @@ Price lists tie the unit, product, and pricing details together, so before you c
   
 > [!NOTE]
 >  You must create at least one price list for each of the currencies that your organization does business in.  
-
   
 ## Add items to the price list (Sales app)
 
@@ -201,91 +199,6 @@ Create a price list item for each unit in which the product is available. For ex
 3. Select **Save**.  
   
 ## Define default price list for territories  (Sales app)
-
-Make sales agents' job easier by adding default pricelists for territories or customer segments the agents are managing. When sales agents are working on opportunities, they see the default price list. Sales agents can later select other price list that they've permission on. You can have one price list as the default for multiple territories.  
-   
-1.  In the price list record, in the **Territory Relationships** section, select the **Add Record** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button").  
-  
-2.  In the **Connection** form, in **Name**, select the **Lookup** button, and select a territory.  
-  
-3.  Select **Save & Close**.  
-  
-4.  In the price list form, select the **Auto Save** button ![Auto save button](../sales-enterprise/media/auto-save-button.png "Auto save button").  
-  
-     When the sales agents set or change the customer for an opportunity, if a default price list is added to their territory (customer segment), it is shown.  
-
-## Step 1: Create a price list  (Sales app)
-  
-1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
-  
-    #### Check your security role  
-  
-   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
-  
-   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-  
-2. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
-  
-3. In the **Product Catalog** area, select **Price Lists**.  
-  
-4. To create a new price list, select **New**.  
-  
-    -OR-  
-  
-    To edit a price list, open a price list from the list.  
-  
-5. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
-  
-6. Select **Save**.  
-  
-> [!NOTE]
->  You must create at least one price list for each of the currencies that your organization does business in.  
-  
-## Step 2: Add items to the price list (Sales app)
-
-Create a price list item for each unit in which the product is available. For example, if the product is available as a single item (each), in a dozen, and in a gross, create three list items. This lets you order the product in any quantity you want, using the same price list. You can add price list items from the product form also.  
-  
-1. In the price list record, in the **Price List Items** section, select the **Add Record** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button").  
-  
-2. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
-  
-   - In the Product and Unit box, select the product and unit for which you're creating this price list item.  
-  
-   - To offer a discount on the combination of the product and unit, select a discount list.  
-  
-   - In the **Quantity Selling Option** drop-down box, select whether the product or service can be ordered in whole, partial, or both types of quantities. This information is used in the **Quantity** field of **Quote Product**, **Order Product**, and **Invoice Product** records:  
-  
-     - **No Control**. [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] doesn't enforce a quantity selling option.  
-  
-     - **Whole**. Selling a partial product isn't allowed. For example, digital cameras cannot be sold in fractions.  
-  
-     - **Whole and Fractional**. The product can be sold both in whole and fractional units. For example, wood chips can be sold in cubic yards, or in fractions of a cubic yard.  
-  
-   - In the **Pricing Method** drop-down box, select an option that determines how the pricing will be calculated. It could be a certain amount, or a percentage of the current or standard cost.  
-  
-   - If you selected **Currency Amount** as the pricing method, in the **Amount** box, type the amount at which the product will be sold.  
-  
-      -OR-  
-  
-      If you selected any value other than **Currency Amount** as the pricing method, type the percentage for the pricing method that you want.  
-  
-   - If you selected a pricing method other than **Currency Amount**, you can set up a rounding policy. For example, if you want per unit prices to be in the form of $0.99, you can select a rounding policy where all prices per unit automatically have a price that ends in 99 cents. To do this, you select the rounding policy to round the price up, and then set the price to end in a certain amount, such as 99 cents.  
-  
-     - **None**. Prices are not rounded.  
-  
-     - **Up**. Prices are rounded up to the nearest rounding amount.  
-  
-     - **Down**. Prices are rounded down to the nearest rounding amount.  
-  
-     - **To Nearest**. Prices are rounded to the nearest rounding amount.  
-  
-   - In the **Rounding Option** drop-down box, select **Ends in** or **Multiple of** if you want the price to end in a certain amount or multiples of a certain amount.  
-  
-   - In the **Rounding Amount** box, enter the amount.  
-  
-3. Select **Save**.  
-  
-## Step 3: Define default price list for territories  (Sales app)
 
 Make sales agents' job easier by adding default pricelists for territories or customer segments the agents are managing. When sales agents are working on opportunities, they see the default price list. Sales agents can later select other price list that they've permission on. You can have one price list as the default for multiple territories.  
    

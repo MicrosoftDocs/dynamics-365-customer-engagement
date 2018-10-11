@@ -55,7 +55,6 @@ Units are the quantities or measurements that you sell your products or services
       ![Create unit group dialog box](media/create-unit-group-dialog-box.png "Create unit group dialog box")
  
       > [!NOTE]
-
       > You cannot delete the primary unit in a unit group.
 
 6.	To add units to the unit group, select the **Related** tab, and then select **Units**.
