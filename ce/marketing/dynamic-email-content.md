@@ -4,13 +4,13 @@ description: "How to add field values, set up content settings information, cond
 keywords: "email; marketing email; dynamic content; content settings"
 ms.date: 08/23/2018
 ms.service:
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 5134e656-31ae-4984-8045-fcd76b98719a
 author: kamaybac
 ms.author: kamaybac

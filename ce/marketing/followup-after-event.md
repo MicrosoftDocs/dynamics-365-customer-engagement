@@ -4,13 +4,13 @@ description: "Learn what you can do to optimize the benefits gained from your ev
 keywords: "events; event management; survey; attendance"
 ms.date: 04/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: ebd5f931-44f3-409b-836a-1c00dd17883a
 author: kamaybac
 ms.author: kamaybac

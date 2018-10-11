@@ -4,13 +4,13 @@ description: "How to create segments and lists that you can use to target custom
 keywords: "segment; marketing list; subscription; Customer Insights"
 ms.date: 09/17/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 2ff81085-af7a-455b-857a-0aa0ade61416
 author: kamaybac
 ms.author: kamaybac

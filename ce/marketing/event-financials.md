@@ -4,13 +4,13 @@ description: "Learn how to record values for event budgets, expenses, and revenu
 keywords: "events;financials;budget;costs;revenue"
 ms.date: 04/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 81db7e88-22fb-498c-b4aa-909c844886c3
 author: kamaybac
 ms.author: kamaybac

@@ -4,13 +4,13 @@ description: "How to use the connector to LinkedIn Lead Gen Forms, which imports
 keywords: "LinkedIn; Lead Gen Forms; lead; connector"
 ms.date: 03/27/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: ec81d712-2c82-4ce0-83c5-ccfbafab71bb
 author: kamaybac
 ms.author: kamaybac

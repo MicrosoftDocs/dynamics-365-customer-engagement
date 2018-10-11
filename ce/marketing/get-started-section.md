@@ -4,13 +4,13 @@ description: "How to get around in Dynamics 365 for Marketing; how to work with 
 keywords: "get started; basics"
 ms.date: 04/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 9b4ecf81-3191-48b7-b5c6-e5638e999247
 author: kamaybac
 ms.author: kamaybac

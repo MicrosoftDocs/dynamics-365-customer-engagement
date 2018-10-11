@@ -4,13 +4,13 @@ description: "Index page showing administration, system, user and app configurat
 keywords: "administration; admin; user administration; system configuration"
 ms.date: 04/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 1f1a8244-2dc5-4de2-b7f8-719a46c82861
 author: kamaybac
 ms.author: kamaybac

@@ -4,14 +4,14 @@ description: "Create Word templates that you can use to export, format, and shar
 keywords: "administration; organization settings; Word; templates; export"
 ms.date: 04/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-admin"
-  - "dyn365-marketing"
+  - dyn365-admin
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 9db7c881-4ba5-4b8d-a241-1f6ff3f5de73
 author: kamaybac
 ms.author: kamaybac

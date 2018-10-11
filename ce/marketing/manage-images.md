@@ -4,13 +4,13 @@ description: "A tutorial for how to manage keywords and upload images to the fil
 keywords: "tutorial; keywords; images; files; upload; library"
 ms.date: 04/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 2a762cef-1caa-45e2-9b7f-8721cbac10aa
 author: kamaybac
 ms.author: kamaybac

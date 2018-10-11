@@ -4,13 +4,13 @@ description: "How to add a marketing calendar to an entity or form and then cust
 keywords: "marketing execution;email;landing page;marketing page;customer journey"
 ms.date: 10/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: c6759aea-6c77-4607-8fdd-ea1f0768892f
 author: kamaybac
 ms.author: kamaybac

@@ -4,14 +4,14 @@ description: "Create account-based leads, lead scoring, and customer journeys in
 keywords: "account-based marketing; lead scoring; customer journey; email; insights"
 ms.date: 10/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-admin"
-  - "dyn365-marketing"
+  - dyn365-admin
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 3b2f6e2a-5e27-4c5b-9ba4-9d2f4598c839
 author: kamaybac
 ms.author: kamaybac

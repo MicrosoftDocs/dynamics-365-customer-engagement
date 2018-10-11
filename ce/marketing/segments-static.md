@@ -4,13 +4,13 @@ description: "How to create a static segment by selecting specific contacts indi
 keywords: "segment; compound segment"
 ms.date: 09/17/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 6620a363-8996-4d94-bbbe-fb5bffaf1ceb
 author: kamaybac
 ms.author: kamaybac

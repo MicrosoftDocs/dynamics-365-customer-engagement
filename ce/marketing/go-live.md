@@ -4,13 +4,13 @@ description: "Find out which types of records must be published (go live) before
 keywords: "publish;live;status;status reason;go live"
 ms.date: 08/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: c618e1c0-53a3-4e8a-950b-ae8bcbf28e5f
 author: kamaybac
 ms.author: kamaybac

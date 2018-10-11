@@ -4,14 +4,14 @@ description: "Find video-based information about Dynamics 365 for Marketing"
 keywords: "videos;how-to;overview"
 ms.date: 08/02/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-admin"
-  - "dyn365-marketing"
+  - dyn365-admin
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: cdf6e522-22a4-4687-a6a0-95702c6ff596
 author: kamaybac
 ms.author: kamaybac

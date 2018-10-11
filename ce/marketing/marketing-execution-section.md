@@ -4,13 +4,13 @@ description: "How to design and deliver digital marketing content in Dynamics 36
 keywords: "marketing execution;email;landing page;marketing page;customer journey"
 ms.date: 04/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 6ec542e2-4b0c-4822-bb22-10474027262d
 author: kamaybac
 ms.author: kamaybac

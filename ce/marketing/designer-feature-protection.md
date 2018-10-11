@@ -4,13 +4,13 @@ description: "How to limit access to the content designer's HTML tab and Litmus 
 keywords: "content block;design element"
 ms.date: 10/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 1893c4c9-8bfa-4156-a823-1b836199ea00
 author: kamaybac
 ms.author: kamaybac

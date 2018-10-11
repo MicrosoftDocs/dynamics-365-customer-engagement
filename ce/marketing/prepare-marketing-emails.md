@@ -4,13 +4,13 @@ description: "How to design and deliver marketing email messages in Dynamics 365
 keywords: "email; marketing email; dynamic content; go live; validation; preview; Litmus"
 ms.date: 04/25/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 021f45f6-ed70-4979-a227-0631540b2516
 author: kamaybac
 ms.author: kamaybac

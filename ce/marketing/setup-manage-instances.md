@@ -4,13 +4,13 @@ description: "How to install, manage, and uninstall Dynamics 365 for Marketing i
 keywords: "instances;setup;install;administration"
 ms.date: 04/01/2018
 ms.service: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 4f2823b8-c8ff-49ed-91bc-451fc4c902e5
 author: kamaybac
 ms.author: kamaybac

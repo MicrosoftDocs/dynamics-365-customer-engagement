@@ -4,13 +4,13 @@ description: "After your event is set up, learn how to invite attendees, registe
 keywords: "events; event management"
 ms.date: 08/28/2018
 ms.service:
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 4844cf8c-bad1-4483-ba9b-e6e83874fd2b
 author: kamaybac
 ms.author: kamaybac

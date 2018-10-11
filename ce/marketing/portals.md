@@ -4,13 +4,13 @@ description: "How the Dynamics 365 Portals solution is integrated with Dynamics 
 keywords: "portal; website; page; marketing page; event portal"
 ms.date: 04/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 465341c8-19fd-4da8-87aa-980c5ba10e26
 author: kamaybac
 ms.author: kamaybac

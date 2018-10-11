@@ -4,13 +4,13 @@ description: "Set up a Dynamics 365 for Marketing event portal, where people can
 keywords: "event;portals;event portal"
 ms.date: 04/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: b83e8cb2-38a4-462f-87bc-0fc52357f01e
 author: kamaybac
 ms.author: kamaybac

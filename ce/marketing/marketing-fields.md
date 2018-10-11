@@ -4,13 +4,13 @@ description: "How to set up an form input field and map it to a database field i
 keywords: "marketing form, fields"
 ms.date: 10/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: ff9c1046-2823-460a-ad3b-946ada3a4244
 author: kamaybac
 ms.author: kamaybac

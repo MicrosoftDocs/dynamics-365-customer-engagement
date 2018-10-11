@@ -4,13 +4,13 @@ description: "How to plan an event (including: register basic info; set up your 
 keywords: "events; event management"
 ms.date: 08/23/2018
 ms.service:
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: a3d1dc05-8a69-43dd-94ee-a36ea4de650e
 author: kamaybac
 ms.author: kamaybac

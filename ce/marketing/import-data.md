@@ -4,14 +4,14 @@ description: "Learn how to import data and control how duplicate records are ide
 keywords: "import data;import"
 ms.date: 07/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-admin"
-  - "dyn365-marketing"
+  - dyn365-admin
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 2f6cc974-db3e-4cc0-bb31-a1888802c098
 author: kamaybac
 ms.author: kamaybac

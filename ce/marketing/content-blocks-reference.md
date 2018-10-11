@@ -4,13 +4,13 @@ description: "Details for how to use each design element that is available for t
 keywords: "designer; design element; element; reference; email; form;  page"
 ms.date: 10/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: d1975d36-2383-4b88-ab84-e66930ec2dd0
 author: kamaybac
 ms.author: kamaybac

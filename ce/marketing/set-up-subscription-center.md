@@ -4,13 +4,13 @@ description: "How to create subscription lists and add them to a subscription ce
 keywords: "tutorial; subscription center; static list; subscription list; marketing page; page"
 ms.date: 04/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 21159fd7-50cc-4879-884c-888bc0d6b457
 author: kamaybac
 ms.author: kamaybac

@@ -4,13 +4,13 @@ description: "Get a quick overview of the major capabilities, features, and bene
 keywords: "features; benefits; overview"
 ms.date: 04/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 37dcb64c-e825-4242-a1bd-4bc40f512e93
 author: kamaybac
 ms.author: kamaybac

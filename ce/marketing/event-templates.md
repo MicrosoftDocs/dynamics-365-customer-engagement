@@ -4,13 +4,13 @@ description: "Describes how to create an event template and how to use templates
 keywords: "events; template"
 ms.date: 07/06/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: d557e6c9-4fc2-4546-b90a-dd9b0945fdbb
 author: kamaybac
 ms.author: kamaybac

@@ -4,14 +4,14 @@ description: "How to sign up for a trial of Dynamics 365 for Marketing, obtain p
 keywords: "trial"
 ms.date: 10/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-admin"
-  - "dyn365-marketing"
+  - dyn365-admin
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: a52e468a-b81e-4598-aa3a-b0670c333e42
 author: kamaybac
 ms.author: kamaybac

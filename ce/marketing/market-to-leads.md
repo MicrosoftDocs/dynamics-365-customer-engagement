@@ -4,13 +4,13 @@ description: "How to integrate sales-driven and marketing-driven lead processes 
 keywords: "leads;contacts;marketing;sales"
 ms.date: 04/25/2018
 ms.service: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: bce3292e-81d3-495b-bc88-9bec29c07177
 author: kamaybac
 ms.author: kamaybac

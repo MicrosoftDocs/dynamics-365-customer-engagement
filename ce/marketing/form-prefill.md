@@ -4,13 +4,13 @@ description: "How to set up your marketing forms to support prefilling of form f
 keywords: "marketing form, prefill"
 ms.date: 09/19/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: bb712806-d9a2-4eb6-8082-27d13668d1f5
 author: kamaybac
 ms.author: kamaybac

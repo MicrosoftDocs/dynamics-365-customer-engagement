@@ -4,13 +4,13 @@ description: "How to remove Dynamics 365 for Marketing from a Dynamics 365 insta
 keywords: "uninstall;solutions;administration;instances"
 ms.date: 04/01/2018
 ms.service: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 76871891-d62c-4496-81f6-60b31bf5e3e6
 author: kamaybac
 ms.author: kamaybac

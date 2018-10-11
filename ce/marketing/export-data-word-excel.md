@@ -4,13 +4,13 @@ description: "How to export data to a Microsoft Word or Excel document from Dyna
 keywords: "Word; Excel; export; template"
 ms.date: 04/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: aac5aed4-0dd6-418f-bcbe-f2380e2ecf03
 author: kamaybac
 ms.author: kamaybac

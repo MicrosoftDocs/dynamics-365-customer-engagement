@@ -4,13 +4,13 @@ description: "How to use the explore view to construct segment clauses in Dynami
 keywords: "segment; compound segment"
 ms.date: 09/17/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 71b263c7-98ac-4640-9fc8-83d177430397
 author: kamaybac
 ms.author: kamaybac

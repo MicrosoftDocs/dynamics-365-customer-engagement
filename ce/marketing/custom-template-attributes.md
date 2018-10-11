@@ -4,13 +4,13 @@ description: "How to mark up the HTML in your email and page templates to enable
 keywords: "custom attributes;templates;email;marketing pages;HTML"
 ms.date: 10/01/2018
 ms.service: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 346a437c-f9c7-47ea-94c6-c9deeadfa116
 author: kamaybac
 ms.author: kamaybac

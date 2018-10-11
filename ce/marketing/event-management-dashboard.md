@@ -4,13 +4,13 @@ description: "How to find and use the event dashboard in Dynamics 365 for Market
 keywords: "events; event management; dashboard"
 ms.date: 04/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: db6de446-f7bd-4f26-98a5-2fd495402691
 author: kamaybac
 ms.author: kamaybac

@@ -4,13 +4,13 @@ description: "How to embed a marketing form created in Dynamics 365 on a page on
 keywords: "marketing form, embed"
 ms.date: 09/17/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 8c8063dc-3d69-46f3-9e11-722098542777
 author: kamaybac
 ms.author: kamaybac

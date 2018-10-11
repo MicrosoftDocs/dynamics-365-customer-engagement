@@ -4,13 +4,13 @@ description: "Describes how to work with email, page, and form templates and giv
 keywords: "designer; email; preview; template; Litmus; marketing page; marketing form"
 ms.date: 04/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 0f661fed-315f-4932-9a06-a8de363ea42c
 author: kamaybac
 ms.author: kamaybac

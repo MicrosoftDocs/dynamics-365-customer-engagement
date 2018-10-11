@@ -4,13 +4,13 @@ description: "Learn about various types of marketing forms and how to create the
 keywords: "marketing form, fields"
 ms.date: 10/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: d27cf07f-3cef-4fdb-8d12-ffea28ed6f50
 author: kamaybac
 ms.author: kamaybac

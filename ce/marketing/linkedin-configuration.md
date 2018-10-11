@@ -4,13 +4,13 @@ description: "Map lead fields and match leads between LinkedIn to Dynamics 365 f
 keywords: "LinkedIn; Lead Gen Forms; lead; connector"
 ms.date: 03/27/2018
 ms.service: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: e41ac66c-19f6-4671-a6e4-e4363a86b898
 author: kamaybac
 ms.author: kamaybac

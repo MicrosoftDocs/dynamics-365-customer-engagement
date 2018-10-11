@@ -4,13 +4,13 @@ description: "Step-by-step tutorials for learning how to work with core user sce
 keywords: "tutorial; basic; overview"
 ms.date: 04/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 88affbfc-4a7f-44b9-abd5-0ea6c5a2b857
 author: kamaybac
 ms.author: kamaybac

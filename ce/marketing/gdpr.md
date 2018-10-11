@@ -4,13 +4,13 @@ description: "Protect customer privacy and remain compliant with GDPR regulation
 keywords: "GDPR; data protection; privacy"
 ms.date: 04/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: dbc6f586-d4ba-4cdb-aa93-c1f92d61b262
 author: kamaybac
 ms.author: kamaybac

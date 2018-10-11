@@ -4,13 +4,13 @@ description: "Add custom fields to the registration form on your event portal, a
 keywords: "custom fields;event portal;portal;registration;events"
 ms.date: 06/01/2018
 ms.service: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 1972c4d0-e335-4a0a-9747-47a020b33132
 author: kamaybac
 ms.author: kamaybac

@@ -4,14 +4,14 @@ description: "For administrators: Add or remove sample data for Dynamics 365 for
 keywords: "administration; sample data"
 ms.date: 04/01/2018
 ms.service: 
-  - "dynamics-365-marketing"
+  - dynamics-365-marketing
 ms.custom: 
-  - "dyn365-admin"
-  - "dyn365-marketing"
+  - dyn365-admin
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 9aad261a-91bb-42e6-b00b-bf0dcd5a6693
 author: kamaybac
 ms.author: kamaybac
