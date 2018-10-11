@@ -1,5 +1,5 @@
 ---
-title: "Install the Dynamics 365 for Field Service (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Install Dynamics 365 for Field Service (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/02/2018
@@ -10,9 +10,6 @@ ms.technology:
   - "field-service"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 author: krbjoran
 ms.assetid: e60e441f-535d-4b38-b371-13e22561d924
 caps.latest.revision: 13
@@ -26,11 +23,11 @@ search.app:
   - D365FS
 ---
 
-# How to install Field Service 
+# How to install Dynamics 365 for Field Service 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-This article describes how to install the Dynamics 365 for Field Service solution for Dynamics 365 (online). The installation includes the Field Service solution for administrators and dispatchers, the mobile solution for mobile administrators, and the mobile application for field technicians.
+This article describes how to install the Dynamics 365 for Field Service application for Dynamics 365 (online). It covers installing the Field Service application, the mobile solution for mobile administrators, and the mobile app for field technicians.
 
 You can add the Field Service application to a Dynamics 365 organization either for a trial, or as a purchased subscription.
 
