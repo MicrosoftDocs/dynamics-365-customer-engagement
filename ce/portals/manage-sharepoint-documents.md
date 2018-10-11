@@ -151,26 +151,26 @@ This sample provides exact steps and configuration values to enable document man
     
         c. Open the **Web – Edit Case** in form editor.
 
-           > [!div class="mx-imgBorder"]
-           > ![Web - Edit Case form](media/web-edit-case-form.png "Web - Edit Case form")
+         > [!div class="mx-imgBorder"]
+         > ![Web - Edit Case form](media/web-edit-case-form.png "Web - Edit Case form")
     
         d. Select the **Created On** field on the form, and on the **Insert** tab, select **Sub-Grid**.
 
-           > [!div class="mx-imgBorder"]
-           > ![Add a subgrid to the Web - Edit Case form](media/add-sub-grid.png "Add a subgrid to the Web - Edit Case form")
+         > [!div class="mx-imgBorder"]
+         > ![Add a subgrid to the Web - Edit Case form](media/add-sub-grid.png "Add a subgrid to the Web - Edit Case form")
     
         e. In the **Set Properties** dialog box, set the following properties, and select **OK**:
 
-           - **Name** (This can be any name): CaseDocuments 
+         - **Name** (This can be any name): CaseDocuments 
     
-           - **Label** (This can be any label name): Case Documents 
+         - **Label** (This can be any label name): Case Documents 
       
-           - **Entity**: Document Locations 
+         - **Entity**: Document Locations 
     
-           - **Default View**: Active Document Locations
+         - **Default View**: Active Document Locations
 
-           > [!div class="mx-imgBorder"]
-           > ![Subgrid properties](media/sub-grid-properties.png "Subgrid properties")
+         > [!div class="mx-imgBorder"]
+         > ![Subgrid properties](media/sub-grid-properties.png "Subgrid properties")
 
         f. In the form editor, select **Save** and then select **Publish**.
 
@@ -182,34 +182,34 @@ This sample provides exact steps and configuration values to enable document man
     
         c. Review and ensure the following properties are set:
     
-           - **Entity Name**: Case (incident)
+         - **Entity Name**: Case (incident)
     
-           - **Form Name**: Web – Edit Case
+         - **Form Name**: Web – Edit Case
     
-           - **Mode**: Edit
+         - **Mode**: Edit
     
-           - **Entity Permission**: Enabled
+         - **Entity Permission**: Enabled
     
-             > [!div class="mx-imgBorder"]
-             > ![Customer Service - Edit Case form](media/customer-service-edit-case-form.png "Customer Service - Edit Case form")
+         > [!div class="mx-imgBorder"]
+         > ![Customer Service - Edit Case form](media/customer-service-edit-case-form.png "Customer Service - Edit Case form")
     
         d. If you’ve made any changes to the form, select **Save**.
 
 5. Follow [Step 5](#step-5-create-appropriate-entity-permission-and-assign-it-to-the-appropriate-web-role
 ) to make sure entity permissions are granted to the users.
 
-  1. Go to the **Web Role** record that is associated to the user. For this sample, we’ll assume that the user has an Administrator web role.
+   1. Go to the **Web Role** record that is associated to the user. For this sample, we’ll assume that the user has an Administrator web role.
 
-  2. Ensure that an Entity Permission record exists by the name of **Customer Service - Cases where contact is customer**. 
+   2. Ensure that an Entity Permission record exists by the name of **Customer Service - Cases where contact is customer**. 
 
-     > [!NOTE]
-     > Ensure that your web role has this entity permission added. If your user is already an Administrator, then the above entity permission need not be explicitly assigned.
+      > [!NOTE]
+      > Ensure that your web role has this entity permission added. If your user is already an Administrator, then the above entity permission need not be explicitly assigned.
 
-  3. Create a new entity permission, enter the following details, and select **Save**:
+   3. Create a new entity permission, enter the following details, and select **Save**:
 
-    - **Name** (This can be any name): Customer Service - Related Documents
+      - **Name** (This can be any name): Customer Service - Related Documents
 
-    - **Entity Name**: Document Location
+      - **Entity Name**: Document Location
         
     - **Scope**: Parent
         
