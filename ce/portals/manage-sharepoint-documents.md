@@ -224,12 +224,12 @@ This sample provides exact steps and configuration values to enable document man
   
    4. Sign in to Portal to ensure document management is enabled for the Case entity.
 
-    a. Go to the **Support** page.
+      a. Go to the **Support** page.
 
       > [!div class="mx-imgBorder"]
       > ![Portal support page](media/portal-support-page.png "Portal support page")
 
-    b. Click on an existing Case record from the list. Go to the **Case Documents** section on the page and see the document list added.
+      b. Click on an existing Case record from the list. Go to the **Case Documents** section on the page and see the document list added.
 
       > [!div class="mx-imgBorder"]
       > ![Case document](media/case-document.png "Case document")
