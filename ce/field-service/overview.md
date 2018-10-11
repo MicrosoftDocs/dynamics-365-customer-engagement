@@ -62,33 +62,6 @@ Field service capabilities include:
 - **Time tracking** to help you track how resources are spending their time, whether they're traveling, on break, or working.
 - **Analytics for reporting** on key performance indicators for managing work orders, scheduling activities, and interacting with customers.
 
-## Scenarios supported by Field Service
-
-Field service supports scenarios where you need to manage resources to satisfy work requirements. 
-
-The Field Service application enables you to:
-
-- Maintain customer billing accounts and service accounts.
-- Automatically build and manage customer scopes of work with many potential variations:
-- Manage work done by a single resource, within a given day.
-- Manage work done by a group of resources (human or equipment) over one or more days.
-- Define parameters to ensure that certain types of work can only be done by certain resources (characteristics) and can define resources who should not be considered to do the work (excluded resources).
-- Define work that must be performed at a specified geographic location, at a service depot, or work that can be done remotely, regardless of location.
-- Define a required set of skills and characteristics that a resource needs to be qualified to perform the work.
-- Determine estimated duration to complete tasks and work.
-- Include estimated parts and labor line items, as well as a list of tasks a technician is expected to complete.
-- Define a set of resources (human or non-human) with specific working hours, skills, and a starting and ending location.
-- Schedule resources based on defined work orders, matching availability, territory, location, distance, and  skills.
-- Manage and track inventory needed for work orders, and the movement of parts from order to inventory to installation at a site.
-- Enable field technicians to interact with key data in real-time using a mobile application, across any form factor or operating system, and whether connected or offline.
-
-### Scenarios not supported 
-
-The Field Service application doesn’t support the following business scenarios:
-- Logistics management (for example, scheduling freight delivery).
-- Multi-day projects with multiple resources and task dependencies. (Instead, check out Dynamics 365 for Project Service Automation.)
-
-
 ## Field service roles
 
 The Field Service application provides tools for these key roles on your service team:
@@ -103,21 +76,23 @@ The Field Service application provides tools for these key roles on your service
 
 - **Inventory managers** ensure field technicians have what they need to complete their service calls. Inventory managers also handle product returns and purchase new inventory. Inventory managers primarily use the application through a web browser.
 
-## Work order management
+## Using Field Service
 Work orders describe in detail the work that a technician is to perform at a customer location. In the Field Service application, a typical work order lifecycle looks like this: 
 
-1. Work orders are created from service cases, sales orders, emails, phone calls, service agreements, web portals, Internet of Things (IoT) telemetry,  and more.
+1. Work Orders are created from service cases, sales orders, emails, phone calls, service agreements, web portals, Internet of Things (IoT) telemetry and displayed in Field Service. Work Orders are typically grouped by geographical territory as well as lines of business. The details of the work to be performed consist of a checklist of tasks, parts to use, and labor to bill to the customer as well as required skills that a resource needs to be qualified to perform the work. Most Work Orders have a location based on the related customer account and/or equipment that needs attention and this is used to route the field technician from job to job. Finally, incoming Work Orders are marked as ready for assignment and passed along to a dispatcher for scheduling. 
+ > ![Screenshot of Active Work Orders](media/work-order-process-1.png)
 
-2. An interactive schedule board helps dispatchers assign work orders to the best resources based on location, availability, skill set, priority, and more.
+2. An interactive schedule board helps dispatchers assign Work Orders to the best resources based on location, availability, skill set, priority, and more. This is done via a manual drag-and-drop method, a semi-automated scheduling assistant, or fully automated with Resource Scheduling Optimization. The schedule board displays each resource whether an employee, contractor, or equipment and their scheduled Work Orders. Additionally, resources and their assigned jobs are displayed on a map along with routes and traffic patterns in real time. The schedule board is extensible and can be used to schedule anything within Dynamics 365 including Work Orders, Sales Orders, Projects, custom entities, and an Office 365 integration allows for emailing and skype calling to available resources.
+> ![Screenshot of schedule board](media/work-order-process-2.png) 
 
-3. An easy-to-use mobile app guides field technicians through the process of resolving work orders.
+3. An easy-to-use mobile app for iOS, Android, and Windows devices guides field technicians through the process of resolving assigned Work Orders. For each Work Order the field technician can view important information such as location, step-by-step instructions, customer assets and service history, and can use his/her device to take pictures and videos or record a digital customer signature. Additionally, all important information can be automatically downloaded to the device for work in offline scenarios when internet is not available. After performing the work, the technician can mark the Work Order as complete or requiring a follow up and this change is reflected back to the dispatcher on the schedule board.
+> ![Screenshot of mobile app](media/work-order-process-3.png)
 
-4. As technicians submit completed work orders, equipment service history and inventory levels are updated automatically.
-
- > ![work-order-process](media/work-order-process-4-images-work-schedule-mobile-inventory.png) 
+4. Manage and track inventory needed for work orders, and the movement of parts from order to inventory to installation at a site. As technicians submit completed work orders, equipment service history and inventory levels are updated automatically. As an example, if an equipment part is installed at a customer's location during an installation or repair, the system will document a reduction in inventory from the related warehouse or truck and document the part as a new customer asset along with installation/repair details. Furthermore, closing a Work Order will generate an invoice for any used parts or labor.
+> ![Screenshot of completed work order](media/work-order-process-4.png) 
 
 ## Watch an overview video
-In this video, see how the interactive schedule board and other tools help a service team resolve a customer service issue.
+In this video, see how the interactive schedule board and other tools help a service team resolve a customer's issue.
 
  <a name="heroArea"></a> [![Video showing how to manage your mobile workforce Dynamics 365 for Field Service](../field-service/media/field-service-manage-mobile-workforce.PNG "Manage your mobile workforce with Dynamics 365 for Field Service")](http://go.microsoft.com/fwlink/p/?LinkId=786689)
 
