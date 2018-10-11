@@ -108,10 +108,6 @@ Your portal will be restarted and start working again.
 
 Whenever a server error occurs while trying to render a portal, a generic error page is displayed to end users along with the timestamp and activity ID of the error. Portal administrators can configure their portal to get the actual error details, which are helpful in debugging and fixing issues. To see the actual error:
 
-
-<!--from editor: In the sentence below, "You can disable the customer error ..." Do you mean customer error page? Also, the article link doesn't seem to work.-->
-
-
 - **Disable the custom error page on the portal**: This will turn off the custom error page and will allow you to see the complete stack trace of any error when navigating to that page. You can disable the custom error by following the steps in [Disable custom error](view-portal-error-log.md#disable-custom-error).
 
 It is advisable to use this only when you are developing a portal. Once your portal is live for your users, you should enable custom errors again. More information: [View portal error logs](view-portal-error-log.md)
