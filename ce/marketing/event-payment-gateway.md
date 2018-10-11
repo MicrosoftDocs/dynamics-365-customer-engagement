@@ -15,7 +15,7 @@ ms.assetid: ed851e33-a2db-4e1c-9420-0dc0bae227db
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 ---
 
 # Set up online payment for events

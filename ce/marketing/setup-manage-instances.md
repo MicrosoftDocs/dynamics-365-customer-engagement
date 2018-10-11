@@ -15,7 +15,7 @@ ms.assetid: 4f2823b8-c8ff-49ed-91bc-451fc4c902e5
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin

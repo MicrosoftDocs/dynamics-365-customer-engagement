@@ -15,7 +15,7 @@ ms.assetid: 30bb10ad-0dc4-4fce-ae5a-8c1917c7da0c
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 search.audienceType: 
   - admin
   - customizer
