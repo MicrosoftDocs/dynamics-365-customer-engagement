@@ -82,11 +82,15 @@ Price lists tie the unit, product, and pricing details together, so before you c
        -  **Pricing Method**. select an option that determines how the pricing will be calculated. It could be a certain amount, or a percentage of the current or standard cost. The available options are as follows: 
           -  **Currency Amount**. Use this to ignore a product's list price in the product catalog and to enter a different price manually for this price list.  
           
-          -  **Percent of List**. Use this to calculate a product's price in the price list as a percentage of its list price.  
+          -  **Percent of List**. Use this to calculate a product's price in the price list as a percentage of the list price of the associated product.  
         
-          -  **Percent Markup - Current Cost**. Use this to add a percent markup on top of the current cost entered in the product catalog. This is also available for the Standard Cost field.  
+          -  **Percent Markup - Current Cost**. Use this to add a percent markup on top of the current cost of the prouct.   
 
-          -  **Percent Margin - Current Cost**. Use this for the price offered in the price list to yield a percentage margin of the current cost. This is also available for Standard Cost.  
+          - **Percent Markup - Standard Cost**. Use this to add a percent markup on top of the standard cost of the prouct.
+
+          -  **Percent Margin - Current Cost**. Use this for the price offered in the price list to yield a percentage margin of the current cost of the product. 
+
+          -  **Percent Margin - Standard Cost**. Use this for the price offered in the price list to yield a percentage margin of the standard cost of the product.
 
        -  **Amount**. If you selected **Currency Amount** as the pricing method, type the amount at which the product will be sold.
 
@@ -174,8 +178,19 @@ Create a price list item for each unit in which the product is available. For ex
   
      - **Whole and Fractional**. The product can be sold both in whole and fractional units. For example, wood chips can be sold in cubic yards, or in fractions of a cubic yard.  
   
-   - In the **Pricing Method** drop-down box, select an option that determines how the pricing will be calculated. It could be a certain amount, or a percentage of the current or standard cost.  
-  
+   - In the **Pricing Method** drop-down box, select an option that determines how the pricing will be calculated. It could be a certain amount, or a percentage of the current or standard cost. The available options are as follows: 
+      -  **Currency Amount**. Use this to ignore a product's list price in the product catalog and to enter a different price manually for this price list.  
+          
+      -  **Percent of List**. Use this to calculate a product's price in the price list as a percentage of the list price of the associated product.  
+        
+      -  **Percent Markup - Current Cost**. Use this to add a percent markup on top of the current cost of the prouct.   
+
+      - **Percent Markup - Standard Cost**. Use this to add a percent markup on top of the standard cost of the prouct.
+
+      -  **Percent Margin - Current Cost**. Use this for the price offered in the price list to yield a percentage margin of the current cost of the product. 
+
+      -  **Percent Margin - Standard Cost**. Use this for the price offered in the price list to yield a percentage margin of the standard cost of the product.
+   
    - If you selected **Currency Amount** as the pricing method, in the **Amount** box, type the amount at which the product will be sold.  
   
       -OR-  
