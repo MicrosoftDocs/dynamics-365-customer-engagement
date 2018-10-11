@@ -24,13 +24,13 @@ search.app:
 
 # Set up Power BI integration
 
-Power BI is one of the best tools to deliver insights with simple and interactive visualization. To view dashboards and reports from Power BI on web pages in a portal, you must enable Power BI integration from Portal Admin Center.
+Power BI is one of the best tools to deliver insights with simple and interactive visualization. To view dashboards and reports from Power BI on web pages in a portal, you must enable Power BI integration from the Portal Admin Center.
 
 > [!NOTE]
 > - You must be a global administrator to perform this action.
-> - You must have appropriate Power BI license.
+> - You must have an appropriate Power BI license.
 
-To set up Power BI integration:
+**Set up Power BI integration**
 
 1.	Go to the Dynamics 365 Administration Center page and select the **Applications** tab.
 2.	Select the name of the portal for which you want enable Power BI integration, and then select **Manage**.
