@@ -30,7 +30,7 @@ search.app:
 
 There's a known limitation in earlier versions of the Project Service application that the names of the stages in the Project Stages business process flow must exactly match the expected English names (**Quote**, **Plan**, **Close**). Otherwise, the business logic, which relies on the English stage names, doesn't work as expected. That's why you don't see familiar actions such as **Switch Process** or **Edit Process** available on the project form, and customizing the business process flow isn't encouraged. 
 
-This limitation will be addressed in an upcoming release. This article provides suggested workarounds for earlier versions if you do need to customize the default business process flow. 
+This limitation has been addressed in version 2.4.5.48 and later. This article provides suggested workarounds if you need to customize the default business process flow for earlier versions.  
 
 ## Business logic requires an exact match with English stage names
 
@@ -49,7 +49,7 @@ In the Project Service app version 2.4.4.30 or earlier on the 9.0 platform, ther
 
 Therefore, if you want to customize the Project Stages business process flow for the project entity, you can only add brand new stages to the default business process flow for the project entity, while keeping the **Quote**, **Plan**, and **Close** stages as-is. This restriction ensures that you don’t get errors from the business logic that expects the English stage names in the business process flow.
 
-In an upcoming release, the business logic described in this article will be removed from the default business process flow for the project entity. Upgrading to that version or later will let you customize or replace the default business process flow with one of your own. 
+In version 2.4.5.48 or later, the business logic described in this article has been removed from the default business process flow for the project entity. Upgrading to that version or later will let you customize or replace the default business process flow with one of your own. 
 
 ## Workarounds for earlier versions
 
