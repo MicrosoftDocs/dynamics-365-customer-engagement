@@ -114,7 +114,6 @@ Work orders describe in detail the work that a technician is to perform at a cus
 
 4. As technicians submit completed work orders, equipment service history and inventory levels are updated automatically.
 
- > [!div class="mx-imgBorder"]
  > ![work-order-process](media/work-order-process-4-images-work-schedule-mobile-inventory.png) 
 
 ## Watch an overview video
