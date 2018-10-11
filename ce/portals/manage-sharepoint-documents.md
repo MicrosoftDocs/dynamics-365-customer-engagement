@@ -22,6 +22,9 @@ search.app:
   - D365Portals
 ---
 
+<!--from editor: The name "Veronika Quek" appears in some of the images. Is this name from the list of approved fictitious names? Also, see my question inserted within Step 4.-->
+
+
 # Manage SharePoint documents
 
 Dynamics 365 supports integration with SharePoint Online that enables you to use the document management capabilities of SharePoint from within Dynamic 365. Dynamics 365 Portal now supports uploading and displaying documents to and from SharePoint directly on an entity form or web form in a portal. This allows portal users to view, download, add, and delete documents from a portal. Portal users can also create subfolders to organize their documents.
