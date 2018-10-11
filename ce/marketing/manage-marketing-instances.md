@@ -4,7 +4,7 @@ description: "How to copy a production Dynamics 365 for Marketing instance to a 
 keywords: "administration;admin center;copy;sandbox;instances;backup;recall"
 ms.date: 04/01/2018
 ms.service: 
-  - "crm-online"
+  - "dyn365-marketing"
 ms.custom: 
   - "dyn365-admin"
   - "dyn365-marketing"

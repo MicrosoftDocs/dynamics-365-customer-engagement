@@ -4,7 +4,7 @@ description: "Add custom fields to the registration form on your event portal, a
 keywords: "custom fields;event portal;portal;registration;events"
 ms.date: 06/01/2018
 ms.service: 
-  - "crm-online"
+  - "dyn365-marketing"
 ms.custom: 
   - "dyn365-marketing"
 ms.topic: article

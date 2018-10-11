@@ -4,7 +4,7 @@ description: "How to open and use the Dynamics 365 admin center to manage your D
 keywords: "administration;admin center"
 ms.date: 04/01/2018
 ms.service: 
-  - "crm-online"
+  - "dyn365-marketing"
 ms.custom: 
   - "dyn365-marketing"
 ms.topic: article

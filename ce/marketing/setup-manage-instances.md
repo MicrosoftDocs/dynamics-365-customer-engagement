@@ -4,7 +4,7 @@ description: "How to install, manage, and uninstall Dynamics 365 for Marketing i
 keywords: "instances;setup;install;administration"
 ms.date: 04/01/2018
 ms.service: 
-  - "crm-online"
+  - "dyn365-marketing"
 ms.custom: 
   - "dyn365-marketing"
 ms.topic: article

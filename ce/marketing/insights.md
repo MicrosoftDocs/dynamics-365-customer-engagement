@@ -4,7 +4,7 @@ description: "How to find and interpret marketing results, KPIs, and analytics i
 keywords: "insights;results;KPIs;analytics"
 ms.date: 04/25/2018
 ms.service: 
-  - "crm-online"
+  - "dyn365-marketing"
 ms.custom: 
   - "dyn365-marketing"
 ms.topic: article
