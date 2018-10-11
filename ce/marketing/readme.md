@@ -76,7 +76,7 @@ This document provides important, late-breaking information about known issues a
 - Selecting **Stop** on a live email will prevent it from being used in future journeys, but it will continue to function in existing live journeys, which will continue to deliver it.
 - If you reuse the same email multiple times (within the same journey or in different journeys) you will see incorrect performance results on its **Insights** pages.
 - Many email templates have placeholder images. You should replace these placeholder images with actual images so that marketing emails look professional.
-- On some Dynamics 365 instances, test sending an email throws an error and does not send the message. <!--- 1267485 - November-->
+- For certain organizations that upgraded recently, test send may not work. If you encounter this issue, please contact Microsoft Support.<!--- 1267485 - November-->
 
 ### Fixed issues
 
