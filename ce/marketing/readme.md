@@ -46,21 +46,20 @@ This document provides important, late-breaking information about known issues a
 - Triggers set to react to a specific "link clicked" after an email tile show multiple options for the same link. These triggers might not work correctly because clicks are not always attributed to the correct link. <!--- 759533 -->
 - Deactivated contacts won't receive any emails from journeys they were participating in, but they might continue to be included in other actions, such as tasks and workflows. <!--- 759533 -->  
 - Insights for journeys, emails, and marketing pages may take up to six hours to display.
-- If you stop a live customer journey, then add contacts to the target segment, and restart the journey, those added contacts might receive emails sent by this journey more than once. <!---1196442 - November Release-->
-- On non-English instances, when you save a customer journey using the **Save as template** function, the resulting template always gets saved with its language set to English. To fix this, go to **Marketing > Customer journey templates**, open the template, and change its **Language** setting to the correct value. When you're creating a new customer journey from a template, you can use the template gallery's **Language** drop-down list to show templates in any selected language. <!--- 1287079 - November 2018 Release -->
+- If you stop a live customer journey, then add contacts to the target segment, and restart the journey, those added contacts might receive emails sent by this journey more than once. <!-- 1196442 -->
+- On non-English instances, when you save a customer journey using the **Save as template** function, the resulting template always gets saved with its language set to English. To fix this, go to **Marketing > Customer journey templates**, open the template, and change its **Language** setting to the correct value. When you're creating a new customer journey from a template, you can use the template gallery's **Language** drop-down list to show templates in any selected language. <!-- 1287079 -->
 
 ### Fixed issues
 
-- Users can now check for errors on both the **General** and **Designer** tabs of a customer journey.<br><del>*The “checking for errors” operation triggered in the customer journey’s **General** tab results in a time-out. Users can continue   to “check for errors” from the **Designer** tab.*</del> <!---1208237 dependency - pushed to production on 10th Aug 2018-->
+- Users can now check for errors on both the **General** and **Designer** tabs of a customer journey.<br><del>*The “checking for errors” operation triggered in the customer journey’s **General** tab results in a time-out. Users can continue   to “check for errors” from the **Designer** tab.*</del> <!-- 1208237 -->
 - The snapshot view generated for a customer journey now displays all tiles.<br><del>*The snapshot view generated for journeys might be missing some tiles.*</del>  <!--- 690797 -->
-
 
 ## Segmentation
 
 ### Known issues
 
 - Segment names can't have spaces&mdash;use underscores instead.<!-- 695837 -->
-- You can't include lookup fields among your segmentation criteria.<!-- 852372-->  
+- You can't include lookup fields among your segmentation criteria.<!-- 852372 -->  
 - Metadata used for building conditions and drop-downs shown on the designer isn't localized for non-English organizations. <!-- 992449 -->
 - The **Save** button isn't visible on the command bar after the initial save of the segment. Use the **Save** button in the lower-right corner of the page instead. <!-- 862491 -->
 - When trying to estimate the size of a segment where the query doesn't end in a contact, the system displays a server communication error. To correct this error, make sure your segment definition ends with a clause that links to the contact entity as described in [Define a dynamic a segment](segmentation-lists-subscriptions.md#define-dynamic). <!-- 1226384 -->
@@ -70,7 +69,7 @@ This document provides important, late-breaking information about known issues a
 ### Fixed issues
 
 - Subscription lists now remove unsubscribed contacts from running journeys.<br><del>*Dynamic segments based on subscription marketing lists don't remove unsubscribed contacts from running journeys. The unsubscribe request will be honored in future journeys.*</del>.
-- When you go live with a new segment, the **Members** tab now displays correct status messages as the segment is being provisioned.<br><del>*If you go live with a new segment and then open the **Members** tab right away, you'll see a message telling you that the segment doesn't exist (even though it does). Reload the page, or open another tab and come back, to view the correct message (that the segment is being provisioned). Later, once the segment is finished provisioning, you'll see the list of contacts it contains here.*</del> <!---  1251946 Sept 1 release-->
+- When you go live with a new segment, the **Members** tab now displays correct status messages as the segment is being provisioned.<br><del>*If you go live with a new segment and then open the **Members** tab right away, you'll see a message telling you that the segment doesn't exist (even though it does). Reload the page, or open another tab and come back, to view the correct message (that the segment is being provisioned). Later, once the segment is finished provisioning, you'll see the list of contacts it contains here.*</del> <!-- 1251946 -->
 
 ## Email marketing
 
@@ -110,8 +109,8 @@ This document provides important, late-breaking information about known issues a
 
 ## Videos
 
-- When you add a video to a marketing page, the **Designer** tab shows it as a thumbnail image rather than as an embedded video in an iframe. However, the embedded video iframe will still be shown correctly on the live page when you publish it. <!--- Provided as a tip -->
-- When you add a video to a marketing page or email, its thumbnail isn't shown on the **Preview** tab of the designer. However, the video is embedded correctly and will be shown in delivered emails and live marketing pages. <!--- 1277775 - November 2018 -->
+- When you add a video to a marketing page, the **Designer** tab shows it as a thumbnail image rather than as an embedded video in an iframe. However, the embedded video iframe will still be shown correctly on the live page when you publish it. <!-- Provided as a tip -->
+- When you add a video to a marketing page or email, its thumbnail isn't shown on the **Preview** tab of the designer. However, the video is embedded correctly and will be shown in delivered emails and live marketing pages. <!-- 1277775 -->
 
 
 ## Social listening for campaigns
