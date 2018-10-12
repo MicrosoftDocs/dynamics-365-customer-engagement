@@ -3,8 +3,7 @@ title: "Set up an online event or simulcast (Dynamics 365 for Marketing) | Micro
 description: "How to set up a webinar to create an online-only event or to simulcast a live event in Dynamics 365 for Marketing"
 keywords: "events; event management; webinar"
 ms.date: 04/01/2018
-ms.service: 
-  - dynamics-365-marketing
+ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

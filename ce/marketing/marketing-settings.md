@@ -3,8 +3,7 @@ title: "Configure core marketing functionality in Dynamics 365 for Marketing | M
 description: "Use the marketing settings to configure landing pages, email marketing, and customer-insights sync in Dynamics 365 for Marketing"
 keywords: "administration; landing page; customer-insights sync"
 ms.date: 04/01/2018
-ms.service: 
-  - dynamics-365-marketing
+ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing

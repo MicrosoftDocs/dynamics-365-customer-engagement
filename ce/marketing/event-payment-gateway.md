@@ -2,9 +2,8 @@
 title: "Add a payment gateway to your event portal (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Describes how to set up a payment gateway for the event portal, so contacts can pay for a ticket while registering in  Dynamics 365 for Marketing"
 keywords: "events; payment"
-ms.date: 10/01/2018
-ms.service:
-  - dynamics-365-marketing
+ms.date: 10/16/2018
+ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
 ms.topic: article

@@ -3,8 +3,7 @@ title: "Set up a recurring event (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Describes how recurring events work in Dynamics 365 for Marketing"
 keywords: "events; waitlist"
 ms.date: 07/06/2018
-ms.service: 
-  - dynamics-365-marketing
+ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

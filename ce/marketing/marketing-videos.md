@@ -3,8 +3,7 @@ title: "Video overviews and instructions for Marketing | Microsoft Docs"
 description: "Find video-based information about Dynamics 365 for Marketing"
 keywords: "videos;how-to;overview"
 ms.date: 08/02/2018
-ms.service: 
-  - dynamics-365-marketing
+ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing

@@ -3,8 +3,7 @@ title: "Manage Marketing instances (Dynamics 365 for Marketing) | Microsoft Docs
 description: "How to install, manage, and uninstall Dynamics 365 for Marketing instances"
 keywords: "instances;setup;install;administration"
 ms.date: 04/01/2018
-ms.service: 
-  - dyn365-marketing
+ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

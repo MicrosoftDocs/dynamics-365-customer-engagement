@@ -3,8 +3,7 @@ title: "Create segments based on interactions (Dynamics 365 for Marketing) | Mic
 description: "How to create segments based on contact interaction records in Dynamics 365 for Marketing"
 keywords: "segments; interaction segment"
 ms.date: 09/17/2018
-ms.service: 
-  - dynamics-365-marketing
+ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

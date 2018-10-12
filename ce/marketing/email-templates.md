@@ -3,8 +3,7 @@ title: "Work with email, page, and form templates (Dynamics 365 for Marketing) |
 description: "Describes how to work with email, page, and form templates and gives details about client support and known issues related to email designs in Dynamics 365 for Marketing"
 keywords: "designer; email; preview; template; Litmus; marketing page; marketing form"
 ms.date: 04/01/2018
-ms.service: 
-  - dynamics-365-marketing
+ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

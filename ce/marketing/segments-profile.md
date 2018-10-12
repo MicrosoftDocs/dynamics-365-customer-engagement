@@ -3,8 +3,7 @@ title: "Design dynamic profile segments in the standard view (Dynamics 365 for M
 description: "How to use the standard view to construct segments in Dynamics 365 for Marketing"
 keywords: "segment; compound segment"
 ms.date: 09/17/2018
-ms.service: 
-  - dynamics-365-marketing
+ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

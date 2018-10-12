@@ -3,8 +3,7 @@ title: "Manage image files (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "A tutorial for how to manage keywords and upload images to the file library in Dynamics 365 for Marketing"
 keywords: "tutorial; keywords; images; files; upload; library"
 ms.date: 04/01/2018
-ms.service: 
-  - dynamics-365-marketing
+ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: get-started-article

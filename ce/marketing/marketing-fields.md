@@ -2,9 +2,8 @@
 title: "Set up input fields to be used in marketing forms (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to set up an form input field and map it to a database field in Dynamics 365 for Marketing"
 keywords: "marketing form, fields"
-ms.date: 10/01/2018
-ms.service: 
-  - dynamics-365-marketing
+ms.date: 10/16/2018
+ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
