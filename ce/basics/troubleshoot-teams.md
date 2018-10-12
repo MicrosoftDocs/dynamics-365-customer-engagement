@@ -75,7 +75,21 @@ If document management has not been set up in Dynamics 369 (online), see: [Confi
 You need to set up document management in Dynamics 365 (online) to use SharePoint Online. See: [Set up Dynamics 365 (online) to use SharePoint Online](https://docs.microsoft.com/dynamics365/customer-engagement/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
 
 ### Error: You don't have permissions to view files in the selected location. Contact your Microsoft Teams owner or SharePoint administrator for access.
-You need to be a member of the team to view files. Contact the Teams owner or your SharePoint admin and request to be added as a member.
+> [!div class="mx-imgBorder"] 
+> ![](media/teams-error-permissions.png "You don't have permissions to view files")
+
+You need to be a member of the team to view files. Contact the Teams owner or your SharePoint admin and request to be added as a member. You need to determine the document location to which request membership.
+
+1. In Dynamics 365 (online), open the record with the permissions error message.
+2. Select **Documents**.  
+  
+   > [!div class="mx-imgBorder"] 
+   > ![](media/choose-opportunity-documents.png "Select Documents")
+
+3. Select **Document Location**. The first item in the list is the location of the record you need membership. Provide this information to your admin.
+  
+   > [!div class="mx-imgBorder"] 
+   > ![](media/onedrive-choose-document-location.PNG "Select Document Location")
 
 ### Error: File sharing is not set up. Go to [URL] to connect a Microsoft Teams channel to this record.
 
