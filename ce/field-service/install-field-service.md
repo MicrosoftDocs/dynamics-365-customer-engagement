@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-This article describes how to install the Dynamics 365 for Field Service application for Dynamics 365 (online). It also includes steps to install the mobile solution, and describes how field technicians . It also provides the steps field technicians follow to install the mobile app from their device's app store.
+This article describes how to install the Dynamics 365 for Field Service application for Dynamics 365 (online). It also includes steps to install the mobile solution, and describes how field technicians download and install the mobile app from their device's app store.
 
 You can add the Field Service application to a Dynamics 365 organization either for a trial, or as a purchased subscription.
 
@@ -31,7 +31,7 @@ Estimated time to complete the installation is 20 minutes.
 
 ## Prerequisites
 
-You need a Dynamics 365 organization with system administrator access. If you don't already have one set up, [sign up for a Field Service trial](https://trials.dynamics.com/). 
+Before you begin, you need a Dynamics 365 (online) organization with system administrator access. If you don't already have one set up, [sign up for a Field Service trial](https://trials.dynamics.com/). 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service trial sign-up](media/Field-Service-Installation-(Online)-image1.png)  
