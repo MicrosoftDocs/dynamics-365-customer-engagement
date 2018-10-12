@@ -79,24 +79,24 @@ The Field Service application provides tools for these key roles on your service
 ## Using Field Service
 Work orders describe in detail the work that a technician needs to perform at a customer location. In the Field Service application, a typical work order lifecycle looks like this: 
 
-1. Work Orders generate from service cases, sales orders, emails, phone calls, service agreements, web portals, or Internet of Things (IoT) telemetry and then display in Field Service. Work Orders are typically grouped by geographical territory and lines of business. Work order details consist of a checklist of tasks, parts to use, labor to bill to the customer, and skills required. 
+1. Work orders generate from service cases, sales orders, emails, phone calls, service agreements, web portals, or Internet of Things (IoT) telemetry and then display in Field Service. Work orders are typically grouped by geographical territory and lines of business. Work order details consist of a checklist of tasks, parts to use, labor to bill to the customer, and skills required. 
 
-    Most Work Orders also include a location based on the related customer account and/or equipment that needs attention; this location routes the field technician from job to job. Finally, incoming Work Orders that are marked as ready for assignment are passed along to a dispatcher for scheduling. 
+    Most work orders also include a location based on the related customer account and/or equipment that needs attention; this location routes the field technician from job to job. Finally, incoming work orders that are marked as ready for assignment are passed along to a dispatcher for scheduling. 
  > ![Screenshot of Active Work Orders](media/work-order-process-1.png)
 
-2. An interactive schedule board helps dispatchers assign Work Orders to the best resources based on location, availability, skill set, priority, and more. This is done via a manual drag-and-drop method, a semi-automated scheduling assistant, or fully automated with Resource Scheduling Optimization. 
+2. An interactive schedule board helps dispatchers assign work oOrders to the best resources based on location, availability, skill set, priority, and more. This is done via a manual drag-and-drop method, a semi-automated scheduling assistant, or fully automated with Resource Scheduling Optimization. 
 
-    The schedule board displays each resource--whether an employee, contractor, or equipment--and their scheduled Work Orders. Resources and their assigned jobs are also displayed on a map along with routes and traffic patterns in real time. The schedule board is extensible and can be used to schedule anything within Dynamics 365, including Work Orders, Sales Orders, Projects, custom entities. Additionally, an Office 365 integration allows for emailing and skype calling to available resources.
+    The schedule board displays each resource--whether an employee, contractor, or equipment--and their scheduled work orders. Resources and their assigned jobs are also displayed on a map along with routes and traffic patterns in real time. The schedule board is extensible and can be used to schedule anything within Dynamics 365, including work orders, sales orders, projects, and custom entities. Additionally, Office 365 integration allows for emailing and skype calling to available resources.
 > ![Screenshot of schedule board](media/work-order-process-2.png) 
 
-3. An easy-to-use mobile app for iOS, Android, and Windows devices guides field technicians through the process of resolving assigned Work Orders. For each Work Order, the field technician can view important information such as location, step-by-step instructions, customer assets, and service history, and can use his/her device to take pictures and videos or record a digital customer signature. 
+3. An easy-to-use mobile app for iOS, Android, and Windows devices guides field technicians through the process of resolving assigned work orders. For each work order, the field technician can view important information such as location, step-by-step instructions, customer assets, and service history, and can use his/her device to take pictures and videos or record a digital customer signature. 
 
-    Additionally, field technicians can automatically download important information to their devices for work in offline scenarios when internet is not available. After performing the work, the technician can mark the Work Order as complete or as requiring a follow up; this change is reflected back to the dispatcher on the schedule board.
+    Additionally, field technicians can automatically download important information to their devices for offline work when internet is not available. After performing the work, the technician can mark the work order as complete or as requiring a follow up; the dispatcher can then see this change on the schedule board.
 > ![Screenshot of mobile app](media/work-order-process-3.png)
 
 4. As technicians submit completed work orders, equipment service history and inventory levels update automatically. This allows service managers to manage and track inventory needed, as well as track movement of parts from order to inventory to onsite installation. 
 
-    As an example, if an equipment part is installed at a customer's location during an installation or repair, the system will document a reduction in inventory from the related warehouse or truck and document the part as a new customer asset along with installation/repair details. Closing a Work Order will then generate an invoice for any used parts or labor.
+    As an example, if an equipment part is installed at a customer's location during an installation or repair, the system will document a reduction in inventory from the related warehouse or truck and document the part as a new customer asset along with installation/repair details. Closing a work order will then generate an invoice for any used parts or labor.
 > ![Screenshot of completed work order](media/work-order-process-4.png) 
 
 ## Watch an overview video
