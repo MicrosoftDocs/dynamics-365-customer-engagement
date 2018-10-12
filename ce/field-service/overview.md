@@ -67,13 +67,9 @@ Field service capabilities include:
 The Field Service application provides tools for these key roles on your service team:
 
 - **Customer service agents** triage incoming requests and determine when to create work orders for onsite visits. Agents primarily use the application through a web browser.
-
 - **Service managers** track performance metrics and oversee service delivery, finding ways to increase efficiency and standardize processes. Service managers primarily use the application through a web browser.
-
 - **Dispatchers** review and schedule work orders, and assign them to resources on the schedule board through resource availability searches, and through a fully automated resource scheduling optimization add-in. Dispatchers primarily use the application through a web browser.
-
 - **Field technicians** manage their assigned work orders using the mobile app on a phone or tablet, and perform maintenance and repairs onsite at customer locations.
-
 - **Inventory managers** ensure field technicians have what they need to complete their service calls. Inventory managers also handle product returns and purchase new inventory. Inventory managers primarily use the application through a web browser.
 
 ## Using Field Service
