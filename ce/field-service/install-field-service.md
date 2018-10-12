@@ -1,27 +1,23 @@
 ---
 title: "Install Dynamics 365 for Field Service (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom: 
-  - dyn365-fieldservice
-ms.date: 10/11/2018
+ms.custom: "dyn365-fieldservice"
+ms.date: 10/12/2018
 ms.reviewer: ""
-ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "field-service"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-author: krbjoran
-ms.assetid: e60e441f-535d-4b38-b371-13e22561d924
-caps.latest.revision: 13
-ms.author: FieldServiceDave
-manager: shellyha
- search.audienceType: 
+author: "shellyhaverkamp"
+ms.author: "FieldServiceDave"
+ms.manager: "shellyhaverkamp"
+search.audienceType: 
   - admin
   - customizer
+  - enduser
 search.app: 
   - D365CE
   - D365FS
----
+--- 
 
 # How to install Dynamics 365 for Field Service 
 
