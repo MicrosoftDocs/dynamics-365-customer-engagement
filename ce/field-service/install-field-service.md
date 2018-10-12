@@ -25,42 +25,43 @@ search.app:
 
 This article describes how to install the Dynamics 365 for Field Service application for Dynamics 365 (online). It also includes steps to install the mobile solution, and describes how field technicians download and install the mobile app from their device's app store.
 
-You can add the Field Service application to a Dynamics 365 organization either for a trial, or as a purchased subscription.
-
 Estimated time to complete the installation is 20 minutes.
 
 ## Prerequisites
-
 Before you begin, you need a Dynamics 365 (online) organization with system administrator access. If you don't already have one set up, [sign up for a Field Service trial](https://trials.dynamics.com/). 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service trial sign-up](media/Field-Service-Installation-(Online)-image1.png)  
 
-## Add a Field Service trial to a Dynamics 365 organization
+
+## Install the application
+You can add a Field Service trial or a purchased subscription to a Dynamics 365 organization.
+
+### Add a Field Service trial 
 
 1. Using system administrator credentials, sign in to the Dynamics 365 organization.
 
-2. To add a Field Service trial of Field Service, go to **Settings > Microsoft AppSource**. Search for Field Service, and then select Field Service free trial.
+2. Go to **Settings > Microsoft AppSource**. Search for **field service trial**, select the tile for Dynamics 365 for Field Service trial, and then select **Free Trial**. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service tile in AppSource](media/Field-Service-Installation-(Online)-image2.png)  
 
-3. Enter the Dynamics 365 organization name.
+3. In the **Organization to add the application to** field, select the Dynamics 365 organization name. Review and agree to the terms and conditions. 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of choosing org](media/Field-Service-Installation-(Online)-image3.png)  
+> ![Screenshot showing selection of the organization name from the drop-down list](media/Field-Service-Installation-(Online)-image3.png)
 
-## Add a purchased subscription of Field Service to a Dynamics 365 organization
+4. Follow the on-screen instructions to complete the installation.
 
-To purchase Field Service and then add it to an Dynamics 365 organization, go to the **Office365 Admin Center > Purchase Services**. Follow the on-screen instructions to install the application. Installation may take several minutes.
+### Add a purchased subscription of Field Service
+
+1. Go to the **Office365 Admin Center** and select **Purchase Services**. 
+2.  Follow the on-screen instructions to install the application. Installation may take several minutes.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of purchasing Field Service from Office 365 Admin center](media/Field-Service-Installation-(Online)-image4.png)  
 
+### Verify that the installation is complete
 
-## Verify the Field Service installation
-
-1. WIth system administrator credentials, sign in to the Dynamics 365 organization. 
-
-2. Verify that Field Service is available from the Dynamics 365 drop-down menu.
+1. Verify that Field Service is available from the Dynamics 365 drop-down menu.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service in left nav bar](media/Field-Service-Installation-(Online)-image5.png)  
 
