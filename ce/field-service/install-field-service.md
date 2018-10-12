@@ -149,9 +149,9 @@ Download the **Field Service Mobile (2017)** mobile app from the Windows, iOS, o
 ## Next steps
 
 - [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
-
 - [Add sample data](../field-service/install-sample-data-8-x.md)
 
-- [Frequently asked questions about the Resco app](http://www.resco.net/mobilecrm/support.aspx)  
+### See also
 
+- [Frequently asked questions about the Resco app](http://www.resco.net/mobilecrm/support.aspx) 
 - [Woodford Guide](https://www.resco.net/downloads/Woodford_Guide.pdf).  
