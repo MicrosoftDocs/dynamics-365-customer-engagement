@@ -26,16 +26,17 @@ search.app:
   - D365Mktg
 ---
 
-# Add custom validation rules
+# Add custom validation rules for marketing pages
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 A standard feature of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
- is its ability to check published content for errors before going live. You've probably seen this feature at work when designing email messages, customer journeys, forms, lead-scoring models, and other features that use the content designer interface. The validation (**Check for Errors**) feature works by checking for missing content (such as a required setting or a subscription-center link in a marketing email) and errors (such as illogical settings, syntax errors, or messages that won't compile). After the error check, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] displays the results right on the page, including error messages that should help the user solve the issue.
+ is its ability to check marketing pages for errors before going live. The validation (**Check for Errors**) feature checks the current record for missing content and technical errors (such as missing required settings, syntax errors, or code that won't compile) and then displays the validation results, including error messages that should help the user solve any issues that were found.
 
-![The check-for-errors button and notifications](media/email-validation-result.png "The Check for Errors button and notifications")
+The validation feature works by implementing a *validation pipeline* with a series of rules that the content must pass. For each violation, an error or warning is added to the response and the content won't be allowed to go live. Customizers can extend the pipeline by adding custom validation stages that implement the required custom checks. You might use this capability, for example, to scrub for forbidden terms or to ensure that a required disclaimer is always present. Custom validation rules require custom coding to create the actual validation logic. Your code must parse the incoming text and generate messages as needed.
 
-The validation feature works by implementing a validation pipeline with a series of rules that the content must pass. For each violation, an error or warning is added to the response and the content won't be allowed to go live. Customizers can extend the pipeline by adding a custom validation stage that implements the required custom checks. You might use this capability to, for example, scrub email text for obscenities or to ensure that a required disclaimer is always present. Custom validation rules require custom coding to create the actual validation logic. Your code must parse the incoming text and generate messages as needed.
+> [!IMPORTANT]
+> Custom validation pipelines are only supported for marketing pages. You can't customize the validation pipelines for any of the other entities that also include a validation function (such as emails or customer journeys).
 
 ## Add a custom action to a validation pipeline
 
