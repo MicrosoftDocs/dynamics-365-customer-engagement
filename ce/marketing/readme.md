@@ -1,14 +1,14 @@
 ---
 title: "Dynamics 365 for Marketing Readme (Known Issues) | MicrosoftDocs"
-ms.date: 10/03/2018
-ms.service: "crm-online"
-ms.topic: "article"
+ms.date: 10/16/2018
+ms.service: dynamics-365-marketing
+ms.topic: article
 applies_to: 
 - Dynamics 365 (online)
 - Dynamics 365 Version 9.x
 ms.assetid: 78dc5157-cf1d-4e32-ace7-9e71763e7510
 author: kamaybac
-ms.author: renwe
+ms.author: kamaybac
 manager: annbe
 search.audienceType: 
   - admin
