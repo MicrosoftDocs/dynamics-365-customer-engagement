@@ -25,14 +25,11 @@ search.app:
 
 This article describes how to install the Dynamics 365 for Field Service application for Dynamics 365 (online). It also includes steps to install the mobile solution, and describes how field technicians download and install the mobile app from their device's app store.
 
-Estimated time to complete the installation is 20 minutes.
-
 ## Prerequisites
 Before you begin, you need a Dynamics 365 (online) organization with system administrator access. If you don't already have one set up, [sign up for a Field Service trial](https://trials.dynamics.com/). 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service trial sign-up](media/Field-Service-Installation-(Online)-image1.png)  
-
 
 ## Install the application
 You can add a Field Service trial or a purchased subscription of Field Service to a Dynamics 365 organization.
@@ -115,7 +112,7 @@ You use the Woodford admin interface to import the template, manage settings, se
 
 - [Download the mobile project template for Dynamics CRM Online 2016 Update 1](http://go.microsoft.com/fwlink/p/?LinkId=808250).  
 
-5. Next, import the template file.
+5. Import the template file.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of importing Woodford project template](media/Field-Service-Installation-(Online)-image17.png)  
 
@@ -131,27 +128,25 @@ You use the Woodford admin interface to import the template, manage settings, se
 > [!div class="mx-imgBorder"]
 > ![Screenshot of publishing Woodford project](media/Field-Service-Installation-(Online)-image19.png)  
 
-8. Verify that the mobile configuration is published by checking that there is a blue arrow next to the project.
+8. Verify that the mobile configuration is published by checking that there is an arrow next to the project.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of published mobile project](media/Field-Service-Installation-(Online)-image20.png)  
+> ![Screenshot of published mobile project with arrow showing status](media/Field-Service-Installation-(Online)-image20.png)  
 
 > [!Note]
-> **Warning:** This is a trial license for Woodford and is valid for **30 days**. The trial can be extended for development and testing purposes. Purchasing a Dynamics 365 for Field Service license entitles you to a limited Woodford license. Request a Woodford trial extension at the following link: <https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/activate-fs-mobile-app-license>
+> **Warning:** This is a trial license and is valid for 30 days. The trial can be extended for development and testing purposes. Purchasing a Dynamics 365 for Field Service license entitles you to a limited Woodford license. Request a Woodford trial extension at the following link: <https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/activate-fs-mobile-app-license>
 
 ## Download the Field Service Mobile (2017) app on a phone or tablet
 
 Field technicians and mobile workers interact with Field Service on a phone or tablet using the mobile app.
 
-Download the **Field Service Mobile (2017)** mobile app from the Windows, iOS, or Android app stores onto your phone, tablet, or Windows 10 device.
+Download the **Field Service Mobile (2017)** mobile app from the Windows, iOS, or Android app stores onto a phone or tablet.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service mobile app in Windows App Store](media/Field-Service-Installation-(Online)-image21.png)  
 
 ## Next steps
-
 - [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
 - [Add sample data](../field-service/install-sample-data-8-x.md)
 
 ### See also
-
 - [Frequently asked questions about the Resco app](http://www.resco.net/mobilecrm/support.aspx) 
-- [Woodford Guide](https://www.resco.net/downloads/Woodford_Guide.pdf).  
+- [Woodford guide](https://www.resco.net/downloads/Woodford_Guide.pdf).  
