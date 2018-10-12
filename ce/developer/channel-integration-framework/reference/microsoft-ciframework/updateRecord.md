@@ -2,7 +2,7 @@
 title: "updateRecord (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 10/01/2018
+ms.date: 10/12/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -19,8 +19,8 @@ manager: shujoshi
 ---
 
 # updateRecord (CIF JavaScript API Reference)
-> [!Important]
-> [!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
 
 [!INCLUDE[updateRecord](includes/updateRecord-description.md)] 
 
@@ -51,10 +51,10 @@ manager: shujoshi
 </tr>
 <tr>
 <td>data</td>
-<td>Object</td>
+<td>String</td>
 <td>Yes</td>
-<td><p>A JSON object containing <code>key: value</code> pairs, where <code>key</code> is the property of the entity and <code>value</code> is the value of the property you want to update.</p>
-<p>See examples later in this topic to see how you can define the <code>data</code> object for various update scenarios.</td>
+<td><p>String containing <code>key: value</code> pairs, where <code>key</code> is the property of the entity and <code>value</code> is the value of the property you want to update.</p>
+<p>See examples later in this topic to see how you can define the <code>data</code> string for the update scenario.</td>
 </tr>
 <tr>
 <td>successCallback</td>
@@ -95,7 +95,7 @@ var data = {
     "fullname": "Updated Sample Contact",
     "emailaddress1": "contact@contoso.com",
     "jobtitle": "Sr. Marketing Manager",
-    "phonenumber": "555-0109",
+    "phone": "555-0109",
     "description": "Updated values for this record were set programmatically."
 }
 // update contact record

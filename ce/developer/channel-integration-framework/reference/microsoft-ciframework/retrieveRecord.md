@@ -86,9 +86,9 @@ This sample code retrieves the name and phone number of a contact record with ID
 
 ```JavaScript
 // retrieve contact record
-Microsoft.CIFramework.retrieveRecord("contact", "a8a19cdd-88df-e311-b8e5-6c3be5a8b200", "?$select=fullname,phonenumber").then(
+Microsoft.CIFramework.retrieveRecord("contact", "a8a19cdd-88df-e311-b8e5-6c3be5a8b200", "?$select=fullname,phone").then(
     function success(result) {
-        console.log(`Retrieved values: Full Name: ${result.fullname}, Phone Number: ${result.phonenumber}`);
+        console.log(`Retrieved values: Full Name: ${result.fullname}, Phone Number: ${result.phone}`);
         // perform operations on record retrieval
     },
     function (error) {
@@ -96,4 +96,4 @@ Microsoft.CIFramework.retrieveRecord("contact", "a8a19cdd-88df-e311-b8e5-6c3be5a
         // handle error conditions
     }
 );
-```
+``` 

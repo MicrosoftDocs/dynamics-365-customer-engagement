@@ -2,7 +2,7 @@
 title: "createRecord (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 10/01/2018
+ms.date: 10/12/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -45,9 +45,9 @@ manager: shujoshi
 </tr>
 <tr>
 <td>data</td>
-<td>Object</td>
+<td>String</td>
 <td>Yes</td>
-<td><p>A JSON object defining the attributes and values for the new entity record.</p>
+<td><p>String defining the attributes and values for the new entity record.</p>
 </td>
 </tr>
 <tr>
@@ -88,7 +88,7 @@ var data = {
     "fullname": "Sample Contact",
     "emailaddress1": "contact@contoso.com",
     "jobtitle": "Sr. Marketing Manager",
-    "phonenumber": "555-0109",
+    "phone": "555-0109",
     "description": "Default values for this record were set programmatically."
 }
 // create contact record
@@ -102,4 +102,4 @@ Microsoft.CIFramework.createRecord("contact",data).then(
           //handle error conditions
       }
   );
-```
+``` 
