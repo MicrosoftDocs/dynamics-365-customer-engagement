@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: 
 ms.technology: 
  - "field-service"
-ms.author: daclar
+ms.author: FieldServiceDave
 audience: Admin
 search.audienceType: 
   - admin
@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-The Dynamics 365 for Field Service business application helps you deliver onsite support at customer locations with the tools you need to manage work orders, scheduling, your mobile workforce, and more. 
+The Dynamics 365 for Field Service business application helps organizations deliver onsite service to multiple customer locations each day. This involves managing incoming support requests and assigning them to the most appropriate mobile workers. The solution combines the latest technologies of business applications, workflow automation, scheduling algorithms, mobility and cloud computing. An effective field service solution will set mobile workers up for success when onsite with customers fixing issues. 
 
 The Field Service application enables you to:
 
@@ -43,7 +43,7 @@ The Field Service application enables you to:
 Here are some examples of the types of organizations that use the application to manage their field service:
 
 - **Manufacturing** -  A medical device manufacturer sells machines to hospitals and clinics, and uses the application to manage maintenance services over the lifetime of the machines.
-- **Utilities** -  A fiber optic cable utility company uses the appliation to respond to outages by dispatching technicians to problem areas.
+- **Utilities** -  A fiber optic cable utility company uses the application to respond to outages by dispatching technicians to problem areas.
 - **Health care**  - An  in-home health care service service provider uses the application to schedule and dispatch healthcare workers to administer medicine and other care to multiple patients.
 - **Equipment maintenance** -  A facilities manager uses the application to deliver maintenance and repair services for heating and cooling equipment.
 
