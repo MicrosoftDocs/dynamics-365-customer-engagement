@@ -37,7 +37,7 @@ Before you begin, you need a Dynamics 365 (online) organization with system admi
 ## Install the application
 You can add a Field Service trial or a purchased subscription to a Dynamics 365 organization.
 
-### Add a Field Service trial to an organization
+### Add a Field Service trial to a Dynamics 365 organization
 
 1. Using system administrator credentials, sign in to the Dynamics 365 organization.
 
@@ -46,17 +46,14 @@ You can add a Field Service trial or a purchased subscription to a Dynamics 365 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service tile in AppSource](media/Field-Service-Installation-(Online)-image2.png)  
 
-3. In the **Organization to add the application to** field, select the Dynamics 365 organization name. Review and agree to the terms and conditions. 
+3. In the **Organization to add the application to** field, select the Dynamics 365 organization name. Review the terms and conditions, and then select **Agree**. Installation may take several minutes. 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing selection of the organization name from the drop-down list](media/Field-Service-Installation-(Online)-image3.png)
 
-4. Follow the on-screen instructions to complete the installation.
-
-### Purchase a subscription of Field Service and add it to an organization
+### Purchase a subscription of Field Service and add it to a Dynamics 365 organization
 
 1. From the **Office365 Admin Center** go to **Billing > Purchase Services**. 
-2. Select the tile for **Dynamics 365 for Field Service Enterprise Edition**, and then select **Buy now**. 
-3. Follow the on-screen instructions to install the application. Installation may take several minutes.
+2. Select the tile for **Dynamics 365 for Field Service Enterprise Edition**, and then select **Buy now**.3. Follow the on-screen instructions to install the application. Installation may take several minutes.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of purchasing Field Service from Office 365 Admin center](media/Field-Service-Installation-(Online)-image4.png)  
 
@@ -73,11 +70,9 @@ You can add a Field Service trial or a purchased subscription to a Dynamics 365 
 
 ## Install the Field Service mobile solution
 
-Once the Field Service solution is installed, you will need to install the mobile solution. Remember, specific roles of the Field Service solution called field technicians utilize mobile phones and tablets to view and interact with work orders and other important data. You can dispatch, route, and complete work orders, manage invoices, and more with the mobile app. The following steps will enable field technicians to use the mobile application and will allow administrators to customize the mobile experience.
+The mobile solution enables field technicians to use the mobile application and allows administrators to customize the mobile experience.
 
-In an **Internet Explorer** web browser go to <https://www.resco.net/mobilecrm/woodford.html> 
-
-[!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile) is a solution built on the Resco Mobile Dynamics 365 platform. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Frequently asked questions about the Resco app](http://www.resco.net/mobilecrm/support.aspx)  
+1. Open **Internet Explorer**, and go to <https://www.resco.net/mobilecrm/woodford.html>. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of accessing Internet Explorer from Edge](media/Field-Service-Installation-(Online)-image8.png)  
@@ -187,4 +182,5 @@ You are so close to using the application. All that is left to do is
 
 3.  perform initial configurations
 
-
+### See also
+[!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile) is a solution built on the Resco Mobile Dynamics 365 platform. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Frequently asked questions about the Resco app](http://www.resco.net/mobilecrm/support.aspx)  
