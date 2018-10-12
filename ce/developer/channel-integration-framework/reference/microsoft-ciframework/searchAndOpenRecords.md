@@ -2,7 +2,7 @@
 title: "searchAndOpenRecords (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | Microsoft Docs"
 description: ""
 keywords: ""
-ms.date: 10/01/2018
+ms.date: 10/12/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -43,13 +43,13 @@ manager: shujoshi
 
 **Type:** String
 
-**Description:** Returns Promise object with the value. On success, returns the search results as per the search query.
+**Description:** Returns Promise object containing string values. On success, returns the search results as per the search query.
 
 ## Remarks
 
 When you set the query value as true, the contact is only searched but not opened. Set the query as true when the search displays a list of records based on the search context.
 
-When you set the query value as false, the conact is searched and opened. Set the query as false when the search displays a single record based on the search context.
+When you set the query value as false, the contact is searched and opened. Set the query as false when the search displays a single record based on the search context.
 
 ## Examples
 
@@ -60,9 +60,9 @@ This sample code searches the name and phone number of a contact and opens the c
 ```JavaScript
 
 // retrieve contact record
-Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,phonenumber", "false" ).then(
+Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", "false" ).then(
     function success(result) {
-        console.log(`Record values: Full Name: ${result.fullname}, Phone Number: ${result.phonenumber}`);
+        console.log(`Record values: Full Name: ${result.fullname}, Telehone Number: ${result.telephone1}`);
         // perform operations on record retrieval and opening
     },
     function (error) {
@@ -80,9 +80,9 @@ This sample code searches the name and phone number of a contact and opens the c
 
 // retrieve contact record
 // query = true, searches but do not open the record
-Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,phonenumber", "true" ).then(
+Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", "true" ).then(
     function success(result) {
-        console.log(`The caller name is: ${result.fullname}, Phone Number: ${result.phonenumber}`);
+        console.log(`The caller name is: ${result.fullname}, Telephone Number: ${result.telephone1}`);
         // perform operations on record retrieval and opening
     },
     function (error) {

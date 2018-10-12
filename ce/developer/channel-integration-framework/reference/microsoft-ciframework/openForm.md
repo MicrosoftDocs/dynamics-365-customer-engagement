@@ -2,7 +2,7 @@
 title: "openForm (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | Microsoft Docs"
 description: ""
 keywords: ""
-ms.date: 10/01/2018
+ms.date: 10/12/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -130,6 +130,10 @@ This function is passed an object as a parameter. The object has a <b>savedEntit
 </tr>
 </table>
 
+## Returns
+
+On success, returns a promise object containing string as specified earlier in the description of the **successCallback** parameter.
+
 ## Remarks
 
 You must use this method to open entity or quick create forms instead of the deprecated [Xrm.Utility.openEntityForm](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/jj602956(v=crm.8)#openentityform) and [Xrm.Utility.openQuickCreate](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/jj602956(v=crm.8)#openquickcreate) methods.
@@ -143,7 +147,7 @@ The following sample code opens a new case form with pre-populated values for ce
 var entityFormOptions = {};
     entityFormOptions["entityName"] = "case";
     
-var fp = {};
+var formParameters = {};
     //pre-populate some fields based on the context
     formParameters["customerid"] = phone.contactId;
     formParameters["customeridtype"] = "contact";

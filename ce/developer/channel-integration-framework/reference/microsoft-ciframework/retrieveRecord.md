@@ -78,7 +78,7 @@ manager: shujoshi
 
 ## Return Value
 
-On success, returns a promise containing a JSON object with the retrieved attributes and their values.
+On success, returns a promise containing a string with the retrieved attributes and their values.
 
 ## Examples
 
