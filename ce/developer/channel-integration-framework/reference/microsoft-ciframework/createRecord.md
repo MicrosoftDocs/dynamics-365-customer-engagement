@@ -82,15 +82,15 @@ The sample code demonstrates to create a sample contact record.
 
 ```JavaScript
 var entityLogicalName = "contact";
-var data = {
+var data = "{
     "firstname": "Sample",
     "lastname": "Contact",
     "fullname": "Sample Contact",
     "emailaddress1": "contact@contoso.com",
     "jobtitle": "Sr. Marketing Manager",
-    "phone": "555-0109",
+    "telephone1": "555-0109",
     "description": "Default values for this record were set programmatically."
-}
+}"
 // create contact record
 Microsoft.CIFramework.createRecord("contact",data).then(
     function success (result) {
