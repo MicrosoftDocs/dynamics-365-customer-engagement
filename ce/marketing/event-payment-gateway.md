@@ -113,7 +113,7 @@ To assign a payment gateway to an event:
 
     ![The portal payment gateway setting](media/payment-gateway-setting.png "The portal payment gateway setting")
 
-1. Restart your portal to refresh its server cache and make sure your new setting takes effect right away. For instructions, see [How can I restart the portal?](setup-troubleshooting.md#restart-portal).
+1. Restart your portal or refresh its server cache to make sure your new setting takes effect right away. For instructions, see [How can I fix occasional portal issues?](setup-troubleshooting.md#restart-portal).
 
 > [!NOTE]
 > The payment gateway is only displayed for events that have at least one event pass configured for them. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up event passes](set-up-event.md#event-passes)
