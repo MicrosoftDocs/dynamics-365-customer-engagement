@@ -67,9 +67,6 @@ and
 
 The Dynamics 365 (online) organization you are trying to connect does not support Microsoft Teams integration. You can wait for the org to be updated or pick a different org that has been updated to support Teams integration.
 
-### Error: File sharing is not set up. Go to [URL] to connect a Microsoft Teams channel to this record.
-This record has not been connected to a Teams channel. Select the URL to go to the Dynamics 365 Teams app and pin the record to a channel as documented in: [Use the team app](use-team-app.md).
-
 If document management has not been set up in Dynamics 369 (online), see: [Configure server-based authentication with Dynamics 365 (online) and SharePoint Online](https://docs.microsoft.com/dynamics365/customer-engagement/admin/configure-server-based-authentication-sharepoint-online).
 
 ## Error messages in Dynamics 365 (online)
@@ -79,3 +76,10 @@ You need to set up document management in Dynamics 365 (online) to use SharePoin
 
 ### Error: You don't have permissions to view files in the selected location. Contact your Microsoft Teams owner or SharePoint administrator for access.
 You need to be a member of the team to view files. Contact the Teams owner or your SharePoint admin and request to be added as a member.
+
+### Error: File sharing is not set up. Go to [URL] to connect a Microsoft Teams channel to this record.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/teams-error-file-sharing.png "File sharing not set up")
+
+This record has not been connected to a Teams channel. Select the URL to go to the Dynamics 365 Teams app and pin the record to a channel as documented in: [Use the team app](use-team-app.md).
