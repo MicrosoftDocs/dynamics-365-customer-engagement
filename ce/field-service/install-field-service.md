@@ -72,17 +72,21 @@ The mobile solution enables field technicians to use the mobile application and 
 
 1. Open **Internet Explorer**.
 2. Go to <https://www.resco.net/mobilecrm/woodford.html>. 
-3. On the installation screen, select **Download for 2013, 2015 & 2016**. Save the downloaded file to a location *other* than the Downloads folder on your computer.
+3. On the installation screen, select **Download for 2013, 2015 & 2016**. Save the downloaded file to a location other than the Downloads folder on your computer.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of downloading the Woodford mobile solution](media/Field-Service-Installation-(Online)-image9.png)  
 
-4. On the Dynamics 365 organization, go to **Settings > Solutions**. Select **Import**. In the **Select Solution Package** screen, select the Woodford\_\#\_\#\_\#\_\#\_managed.zip file, and then select **Next**.
+4. On the Dynamics 365 organization, go to **Settings > Solutions**. Select **Import**. 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of solution import view](media/Field-Service-Installation-(Online)-image10.png)  
+
+ 
+5. On the **Select Solution Package** screen, select the Woodford\_\#\_\#\_\#\_\#\_managed.zip file, and then select **Next**.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of selecting the Woodford solution zip file for importation](media/Field-Service-Installation-(Online)-image11.png)  
- 
-5. After the import completes, verify that the **Woodford** appears on the **Settings** menu. If you don't see it, refresh the page.
+
+6. After the import completes, verify that the **Woodford** appears on the **Settings** menu. If you don't see it, refresh the page.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Woodford under Settings menu in Dynamics 365 drop-down menu](media/Field-Service-Installation-(Online)-image14.png)  
