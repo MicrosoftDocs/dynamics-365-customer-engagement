@@ -66,3 +66,10 @@ Select the connected channel **Files** tab in the team app to associate files wi
 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-files-tab.png "File tab in team app")
+
+### Open record in Dynamics 365 (online)
+
+It's easy to use Teams to open a record in Dynamics 365 (online). From a record pinned in a Teams channel, select the **Go to website** button to open the record in Dynamics 365 (online).
+
+> [!div class="mx-imgBorder"] 
+> ![](media/teams-open-record-d365.png "Open a record in Dynamics 365 (online)")
