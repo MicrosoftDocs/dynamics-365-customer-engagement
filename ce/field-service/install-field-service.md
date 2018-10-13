@@ -29,7 +29,7 @@ This article describes how to install the Dynamics 365 for Field Service applica
 Before you begin, you need a Dynamics 365 (online) organization with system administrator access. If you don't already have one set up, [sign up for a Field Service trial](https://trials.dynamics.com/). 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service trial sign-up](media/Field-Service-Installation-(Online)-image1.png)  
+> ![Screenshot of Field Service trial sign-up](media/field-service-trial-signup.png)  
 
 ## Install the application
 You can add a trial or a purchased subscription of the Field Service application to a Dynamics 365 organization.
@@ -41,11 +41,11 @@ You can add a trial or a purchased subscription of the Field Service application
 2. Go to **Settings > Microsoft AppSource**. Search for **field service trial**, select **Dynamics 365 for Field Service trial**, and then select **Free Trial**. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service tile in AppSource](media/Field-Service-Installation-(Online)-image2.png)  
+> ![Screenshot of Field Service tile in AppSource](media/field-service-trial-appsource.png)  
 
 3. In the **Organization to add the application to** drop-down list, select the Dynamics 365 organization name. Review the terms and conditions, and then select **Agree**. Installation may take several minutes. 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing selection of the organization name from the drop-down list](media/Field-Service-Installation-(Online)-image3.png)
+> ![Screenshot showing selection of the organization name from the drop-down list](media/field-service-select-organization.png)
 
 ### Purchase a subscription of Field Service and add it to a Dynamics 365 organization
 
@@ -53,18 +53,18 @@ You can add a trial or a purchased subscription of the Field Service application
 2. Select **Dynamics 365 for Field Service Enterprise Edition**, and then select **Buy now**. 
 3. Follow the on-screen instructions to install the application. Installation may take several minutes.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of purchasing Field Service from Office 365 Admin center](media/Field-Service-Installation-(Online)-image4.png)  
+> ![Screenshot of purchasing Field Service from Office 365 Admin center](media/field-service-purchase.png)  
 
 ### Verify that the installation is complete
 
 1. Verify that the Field Service application is available from the Dynamics 365 Main Menu.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service in left nav bar](media/Field-Service-Installation-(Online)-image5.png)  
+> ![Screenshot of Field Service in navigation](media/field-service-navigation.png)  
 
 3. Verify that the Dynamics 365 custom application includes the Field Service module.
  
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service in Dynamics 365 dropdown menu](media/Field-Service-Installation-(Online)-image7.png)  
+> ![Screenshot of Field Service in Dynamics 365 dropdown menu](media/field-service-menu.png)  
 
 ## Install the Field Service mobile solution
 
@@ -74,22 +74,22 @@ The mobile solution enables field technicians to use the mobile application and 
 2. Go to <https://www.resco.net/mobilecrm/woodford.html>. 
 3. On the installation screen, select **Download for 2013, 2015 & 2016**. Save the downloaded file to a location other than the Downloads folder on your computer.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of downloading the Woodford mobile solution](media/Field-Service-Installation-(Online)-image9.png)  
+> ![Screenshot of downloading the Woodford mobile solution](media/field-service-mobile-solution-install.png)  
 
 4. On the Dynamics 365 organization, go to **Settings > Solutions**. Select **Import**. 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of solution import view](media/Field-Service-Installation-(Online)-image10.png)  
+> ![Screenshot of solution import view](media/field-service-mobile-solution-import.png)  
 
  
 5. On the **Select Solution Package** screen, select the Woodford\_\#\_\#\_\#\_\#\_managed.zip file, and then select **Next**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of selecting the Woodford solution zip file for importation](media/Field-Service-Installation-(Online)-image11.png)  
+> ![Screenshot of selecting the Woodford solution zip file for importation](media/field-service-mobile-solution-import-file.png)  
 
 6. After the import completes, verify that the **Woodford** appears on the **Settings** menu. If you don't see it, refresh the page.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Woodford under Settings menu in Dynamics 365 drop-down menu](media/Field-Service-Installation-(Online)-image14.png)  
+> ![Screenshot of Woodford under Settings menu in Dynamics 365 drop-down menu](media/field-service-mobile-solution-import-dropdown.png)  
 
 ## Import the default mobile configuration
 
@@ -102,11 +102,11 @@ You use the Woodford admin interface to import a template, manage settings, set 
 1. To open the Woodford admin interface, open Internet Explorer. In the Dynamics 365 organization, go to **Settings > Woodford > MobileCRM Woodford**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of initial Woodford interface](media/Field-Service-Installation-(Online)-image16.png)
+> ![Screenshot of Woodford admin interface](media/field-service-mobile-solution-admin-ui.png)
 
 2. Set the storage quota to 100MB, and then select **OK**.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of choosing storage quota](media/Field-Service-Installation-(Online)-image15.png)  
+> ![Screenshot of choosing storage quota](media/field-service-mobile-solution-storage-quota.png)  
 
 3. Register yourself as a user.
 
@@ -118,11 +118,11 @@ You use the Woodford admin interface to import a template, manage settings, set 
 
 5. Import the template file.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of importing Woodford project template](media/Field-Service-Installation-(Online)-image17.png)  
+> ![Screenshot of importing mobile project template](media/field-service-mobile-project-template.png)  
 
 6. In the **Add Mobile Project** dialog, enter a name and a priority. Assign the template to all field service security roles. Select **OK**.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of setting details for mobile project](media/Field-Service-Installation-(Online)-image18.png)  
+> ![Screenshot of setting details for mobile project](media/field-service-mobile-project-details.png)  
 
 7. Double-click the project template, and then select **Publish**. 
 
@@ -130,11 +130,11 @@ You use the Woodford admin interface to import a template, manage settings, set 
 > The published version number must match the version of the mobile app. To find the version of the mobile app, open the mobile app on a phone or tablet. On the home screen, select **About**. Note that the version only needs to match the first decimal.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of publishing Woodford project](media/Field-Service-Installation-(Online)-image19.png)  
+> ![Screenshot of publishing mobile project](media/field-service-mobile-project-publish.png)  
 
 8. Verify that the mobile configuration is published by checking that there is an arrow next to the project.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of published mobile project with arrow showing status](media/Field-Service-Installation-(Online)-image20.png)  
+> ![Screenshot of published mobile project with arrow showing status](media/field-service-mobile-solution-status.png)  
 
 > [!Note]
 > **Warning:** This is a trial license and is valid for 30 days. The trial can be extended for development and testing purposes. Purchasing a Dynamics 365 for Field Service license entitles you to a limited Woodford license. Request a Woodford trial extension at the following link: <https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/activate-fs-mobile-app-license>
@@ -145,7 +145,7 @@ Field technicians track work orders and on-site service calls using the mobile a
 
 To get the mobile app, download **Field Service Mobile (2017)** from the Windows, iOS, or Android app store.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service mobile app in Windows App Store](media/Field-Service-Installation-(Online)-image21.png)  
+> ![Screenshot of Field Service mobile app download example](media/field-service-mobile-app-download-example.png)  
 
 ## Next steps
 - [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
