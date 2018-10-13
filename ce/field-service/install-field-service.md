@@ -152,5 +152,5 @@ To get the mobile app, download **Field Service Mobile (2017)** from the Windows
 - [Add sample data](../field-service/install-sample-data-8-x.md)
 
 ### See also
-- [Frequently asked questions about the Resco app](http://www.resco.net/mobilecrm/support.aspx) 
+- [Frequently asked questions about the mobile solution](http://www.resco.net/mobilecrm/support.aspx) 
 - [Woodford guide](https://www.resco.net/downloads/Woodford_Guide.pdf).  
