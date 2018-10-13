@@ -45,8 +45,8 @@ There are two areas of integration:
 ## Dynamics 365 app in Teams
 The Dynamics 365 (online) tab, when added to a Teams channel, provides a fully functional page in which you edit information and navigate to related records; all this without leaving Teams.
 
-> [!div class="mx-imgBorder"] 
-> ![](media/d365inteams.png "Dynamics 365 pinned in Teams")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-pinned-record2.png "Dynamics 365 record tab")
 
 You can also use the Dynamics 365 bot to look up and make a quick update on any record. The bot essentially brings Dynamics 365 (online) to you in a chat format.
 
@@ -67,7 +67,11 @@ In addition, document management actions in Dynamics 365 (online) are integrated
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-documents-d365.png "Dynamics 365 document management in Teams")
 
-### Alert: Shared files exist in multiple locations. Select "Document Location" to see files in other locations.
+### If you see this message: Shared files exist in multiple locations. Select "Document Location" to see files in other locations.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/teams-error-multiple-locations.png "Shared files in multiple locations")
+
 The record has been pinned to multiple Teams channels. In Dynamics 365 (online), select **Document Location** to specify the location of the file.
 
 > [!div class="mx-imgBorder"] 

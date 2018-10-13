@@ -78,8 +78,6 @@ Once you've selected the Dynamics 365 app (see steps above), the settings page o
 
 3. Recently viewed records appear, if there are any. Search for and select an entity to pin. Use **Filter by** to narrow the search to an entity type. 
 
-   Enable **Post to the channel about this tab** to [need content].
-
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-add-channel-pin-record2.png "Add channel to pin record")
 
