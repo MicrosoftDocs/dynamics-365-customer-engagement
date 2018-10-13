@@ -32,13 +32,13 @@ Before you begin, you need a Dynamics 365 (online) organization with system admi
 > ![Screenshot of Field Service trial sign-up](media/Field-Service-Installation-(Online)-image1.png)  
 
 ## Install the application
-You can add a Field Service trial or a purchased subscription of Field Service to a Dynamics 365 organization.
+You can add a trial or a purchased subscription of the Field Service application to a Dynamics 365 organization.
 
 ### Add a Field Service trial to a Dynamics 365 organization
 
 1. Using system administrator credentials, sign in to the Dynamics 365 organization.
 
-2. Go to **Settings > Microsoft AppSource**. Search for **field service trial**, select the tile for Dynamics 365 for Field Service trial, and then select **Free Trial**. 
+2. Go to **Settings > Microsoft AppSource**. Search for **field service trial**, select **Dynamics 365 for Field Service trial**, and then select **Free Trial**. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service tile in AppSource](media/Field-Service-Installation-(Online)-image2.png)  
@@ -49,8 +49,8 @@ You can add a Field Service trial or a purchased subscription of Field Service t
 
 ### Purchase a subscription of Field Service and add it to a Dynamics 365 organization
 
-1. From the **Office365 Admin Center** go to **Billing > Purchase Services**. 
-2. Select the tile for **Dynamics 365 for Field Service Enterprise Edition**, and then select **Buy now**. 
+1. On the **Office365 Admin Center** go to **Billing > Purchase Services**. 
+2. Select **Dynamics 365 for Field Service Enterprise Edition**, and then select **Buy now**. 
 3. Follow the on-screen instructions to install the application. Installation may take several minutes.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of purchasing Field Service from Office 365 Admin center](media/Field-Service-Installation-(Online)-image4.png)  
@@ -61,7 +61,7 @@ You can add a Field Service trial or a purchased subscription of Field Service t
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service in left nav bar](media/Field-Service-Installation-(Online)-image5.png)  
 
-3. Verify that the Dynamics 365 custom app includes the Field Service module.
+3. Verify that the Dynamics 365 custom application includes the Field Service module.
  
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service in Dynamics 365 dropdown menu](media/Field-Service-Installation-(Online)-image7.png)  
@@ -95,9 +95,9 @@ The mobile solution enables field technicians to use the mobile application and 
 
 After you install the Field Service mobile solution, you need to download and import a template that allows you to configure the mobile app for the organization.
 
-The template contains all customizations for the Field Service mobile app, and is called a **mobile project**. A mobile project allows you to customize the mobile experience across devices. For example, you use a mobile project to add, remove, and change fields, entities, views, and forms.
+The template contains all customizations for the Field Service mobile app, and is called a **mobile project**. A mobile project allows you to customize the mobile experience across devices. For example, you use a mobile project to add, remove, and change fields, entities, views, and forms on the mobile app.
 
-You use the Woodford admin interface to import the template, manage settings, set up mobile devices, and customize what field technicians and other users see on the mobile app. 
+You use the Woodford admin interface to import a template, manage settings, set up mobile devices, and customize the mobile app for field technicians and other users. 
 
 1. To open the Woodford admin interface, open Internet Explorer. In the Dynamics 365 organization, go to **Settings > Woodford > MobileCRM Woodford**.
 
@@ -120,14 +120,14 @@ You use the Woodford admin interface to import the template, manage settings, se
 > [!div class="mx-imgBorder"]
 > ![Screenshot of importing Woodford project template](media/Field-Service-Installation-(Online)-image17.png)  
 
-6. In the **Add Mobile Project** dialog, enter a name, and a priority greater than 0. Assign the template to all field service security roles. Select **OK**.
+6. In the **Add Mobile Project** dialog, enter a name and a priority. Assign the template to all field service security roles. Select **OK**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting details for mobile project](media/Field-Service-Installation-(Online)-image18.png)  
 
 7. Double-click the project template, and then select **Publish**. 
 
 > [!Note]
-> The published version number must match the version of the mobile app. To find the version of the mobile app, on your device open the mobile app. On the home screen, select **About**. Note that the version only needs to match the first decimal.
+> The published version number must match the version of the mobile app. To find the version of the mobile app, open the mobile app on a phone or tablet. On the home screen, select **About**. Note that the version only needs to match the first decimal.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of publishing Woodford project](media/Field-Service-Installation-(Online)-image19.png)  
@@ -141,9 +141,9 @@ You use the Woodford admin interface to import the template, manage settings, se
 
 ## Download the Field Service Mobile (2017) app on a phone or tablet
 
-Field technicians and mobile workers interact with Field Service on a phone or tablet using the mobile app.
+Field technicians track work orders and on-site service calls using the mobile app on a phone or tablet.
 
-Download the **Field Service Mobile (2017)** mobile app from the Windows, iOS, or Android app stores onto a phone or tablet.
+To get the mobile app, download **Field Service Mobile (2017)** from the Windows, iOS, or Android app store.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service mobile app in Windows App Store](media/Field-Service-Installation-(Online)-image21.png)  
 
