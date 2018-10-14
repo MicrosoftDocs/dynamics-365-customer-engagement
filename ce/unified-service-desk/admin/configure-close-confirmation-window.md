@@ -72,7 +72,7 @@ To avoid the accidental closure of [!INCLUDE[pn_unified_service_desk](../../incl
 
 3. Choose **Yes** to close [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] or **No** to stay, save the changes, and continue working.
 
-![Close Confirmation widow](../../unified-service-desk/media/usd-test-close-window.PNG "Close Confirmation widow")
+![Close Confirmation Window](../../unified-service-desk/media/usd-test-close-window.PNG "Close Confirmation Window")
 
 ## See also
 
