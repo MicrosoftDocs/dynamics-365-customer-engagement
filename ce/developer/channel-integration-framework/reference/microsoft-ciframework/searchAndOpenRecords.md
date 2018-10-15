@@ -60,9 +60,10 @@ This sample code searches the name and phone number of a contact and opens the c
 ```JavaScript
 
 // retrieve contact record
-Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", "false" ).then(
-    function success(result) {
-        console.log(`Record values: Full Name: ${result.fullname}, Telehone Number: ${result.telephone1}`);
+Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", false ).then(
+    function success(result) { 
+    res=JSON.parse(result);
+        console.log(`Record values: Full Name: ${res[0].fullname}, Telephone Number: ${res[0].telephone1}`);
         // perform operations on record retrieval and opening
     },
     function (error) {
@@ -80,9 +81,10 @@ This sample code searches the name and phone number of a contact and opens the c
 
 // retrieve contact record
 // query = true, searches but do not open the record
-Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", "true" ).then(
+Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", true ).then(
     function success(result) {
-        console.log(`The caller name is: ${result.fullname}, Telephone Number: ${result.telephone1}`);
+    res=JSON.parse(result);
+        console.log(`The caller name is: ${res[0].fullname}, Telephone Number: ${res[0].telephone1}`);
         // perform operations on record retrieval and opening
     },
     function (error) {
