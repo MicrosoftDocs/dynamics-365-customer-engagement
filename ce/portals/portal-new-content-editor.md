@@ -163,12 +163,14 @@ search.app:
 
 There are two types of web templates:
 - Web templates which require no input (for example, Breadcrumb): You can add a breadcrumb on the content snippet. After adding the breadcrumb, click outside the content snippet to save changes and render the breadcrumb.
+
 - Web templates which require specific inputs:
+
     - **Ad**: For the Ad control, the advertisement placement name is required. You must specify the placement name from the portal app. If the placement name is not available, you must create it.
 
-    You cannot add an advertisement name from the Properties pane. However, you can modify it through the source code editor as follows:
+      You cannot add an advertisement name from the Properties pane. However, you can modify it through the source code editor as follows:
 
-    `{% include ‘ad’ ad_name: ‘Name’%}`
+      `{% include ‘ad’ ad_name: ‘Name’%}`
 
     - **Ad Template**: For the Ad Template control, the advertisement name is required. You must specify the name from the portal app. If the advertisement is not available, you must create it. You can also edit its value through the source code editor.
 
@@ -184,9 +186,9 @@ There are two types of web templates:
 
     - **Poll**: For the Poll control, the poll placement name is required. You must specify the placement name from the portal app. If the placement name is not available, you must create it. 
 
-    You cannot add a poll name from the Properties pane. However, you can modify it through the source code editor as follows:
+      You cannot add a poll name from the Properties pane. However, you can modify it through the source code editor as follows:
 
-    `{% include ‘poll’ poll_name: ‘Name’%}`
+      `{% include ‘poll’ poll_name: ‘Name’%}`
 
     - **Poll Template**: For the Poll Template control, the poll name is required. You must specify the name from the portal app. If the poll is not available, you must create it. You can also edit its value through the source code editor.
 
@@ -196,7 +198,7 @@ There are two types of web templates:
 
     - **Snippet**: For the Snippet control, you can go to the source code editor and insert the following code to render the content snippet:
 
-    `{% include ‘snippet’ snippet_name: ‘Name’%}`
+      `{% include ‘snippet’ snippet_name: ‘Name’%}`
     
     > [!NOTE]
     > Snippet rendering is not supported through properties of the snippet. The usability will be improved in the subsequent update.
