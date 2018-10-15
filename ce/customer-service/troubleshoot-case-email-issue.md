@@ -34,16 +34,16 @@ If the email to case conversion is not working, follow the below troubleshooting
 **Step 1**. Check if the email is syncing with the system.
 Navigate to **Activities** and look for Email activity.</br>
 
-**Comment**: If email is not syncing with the system, there may be an issue with the email router or server-side sync configuration.
+   - **Comment**: If email is not syncing with the system, there may be an issue with the email router or server-side sync configuration.
 
 **Step 2**.  Notice that an email activity is created but a related QueueItem is not found.  </br>
 
-**Comment**: If an active Automatic Record Creation and Update Rule exists for a specific queue, QueueItem is marked as inactive and hence it disappears from the QueueItem View. 
+- **Comment**: If an active Automatic Record Creation and Update Rule exists for a specific queue, QueueItem is marked as inactive and hence it disappears from the QueueItem View. 
 
 
 **Step 3**. If the email is coming from an unknown sender,  check for the **Create contact for unknown sender** option. Go to **Automatic Record Creation and Update Rule** configuration and check if the **Create contact for unknown sender** box is checked. </br>
 
-**Comment**: If **Create contact for unknown sender** check box is unchecked, incoming email from unknown sender will not be converted to a case.
+- **Comment**: If **Create contact for unknown sender** check box is unchecked, incoming email from unknown sender will not be converted to a case.
 
 **Step 4**: Check if **Automatic Record Creation and Update Rule** is configured properly. Go to system jobs and check for any failure message. 
  
