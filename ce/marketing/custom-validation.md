@@ -40,12 +40,13 @@ The validation feature works by implementing a *validation pipeline* with a seri
 
 ## Add a custom action to a validation pipeline
 
-Here's an example for how to add a custom validation step to a pipeline.
+Each custom action must accept the results of the previous validation action from the **ValidationContext**, and set the cumulative results to the **ValidationResults** output variable. In the following screenshot, **ValidationPipeline** is the envelope custom action, which holds the entire pipeline. The child actions are similar, using the same interface, outputs, and registration.
 
-1. Each custom action must accept the results of the previous validation action from the **ValidationContext**, and set the cumulative results to the **ValidationResults** output variable. In the following screenshot, **ValidationPipeline** is the envelope custom action, which holds the entire pipeline. The child actions are similar, using the same interface, outputs, and registration.  
-    ![Validation pipeline actions](media/custom-validation-actions.png "Validation pipeline actions")
+![Validation pipeline actions](media/custom-validation-actions.png "Validation pipeline actions")
 
-    Note that after adding a new validation step to the pipeline, you must update the **SetResult** step of the **ValidationPipeline** action to take results from the previously called custom action. In this case, it's **Validator2**.
+Note that after adding a new validation step to the pipeline, you must update the **SetResult** step of the **ValidationPipeline** action to take results from the previously called custom action. In this case, it's **Validator2**.
+
+Here's an example for how to add a custom validation step to a pipeline:
 
 1. Arrange the stages in the validation pipeline as indicated in the following screenshot.  
     ![Validation pipeline stages](media/custom-validation-stages.png "Validation pipeline stages")
