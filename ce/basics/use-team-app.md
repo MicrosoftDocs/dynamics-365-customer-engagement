@@ -42,7 +42,7 @@ Search for an entity to pin. Use **Filter by** to narrow the search to an entity
 
    ![Search for entity](media/teams-add-channel-pin-record.png "Search for entity")
 
-   If you have multiple organizations or app modules, select **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which records to pin to the discussion channel.
+   If you have multiple organizations or app modules, select **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which org or app module to use in Teams.
  
    ![Specify org and app](media/teams-change-org-app.png "Specify org and app")
 
@@ -55,14 +55,15 @@ Once you complete the above steps, you'll see a notification of a successful con
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-pinned-record.png "Record successfully connected and pinned")
 
-A successful connection means two-way communication now exists between Dynamics 365 (online) and Microsoft Teams. You can interact with the record as if you were using the Dynamics 365 web app and share files with the web app. Those with *Write* permissions can edit the record and changes will be synchronized with the Dynamics 365 web app.
+There are two connection states: successful and failed. The sole difference is file synchronization from Dynamics 365 (online) to Teams.
 
-A failed connection means file synchronization is not set up between Microsoft Teams and Dynamics 365 (online). However, changes made to the record in Teams will update in Dynamics 365 (online). See: [Error: This record is not connected to Dynamics 365. Repin the tab and try again.](troubleshoot-teams.md#error-this-record-is-not-connected-to-dynamics-365-repin-the-tab-and-try-again).
+A successful connection means two-way communication now exists between Dynamics 365 (online) and Microsoft Teams. You can interact with the record as if you were using the Dynamics 365 web app and share files with the web app. Those with *Write* permissions can edit the record and changes will be synchronized with the Dynamics 365 web app. Also, file synchronization occurs between both apps.
 
+A failed connection means file synchronization is not set up between Microsoft Teams and Dynamics 365 (online). File changes in Dynamics 365 (online) are not synchronized with Teams. However, changes made to the record in Teams will update in Dynamics 365 (online). See: [Error: This record is not connected to Dynamics 365. Repin the tab and try again.](troubleshoot-teams.md#error-this-record-is-not-connected-to-dynamics-365-repin-the-tab-and-try-again).
 
 ### Files tab
 
-Select the connected channel **Files** tab in the team app to associate files with a Dynamics 365 record. Files added here will appear in Dynamics 365 (online) under **Documents** for the linked record. Likewise, when you add a document to a record in Dynamics 365 (online), that document will appear in Teams under the **Files** tab.
+Select the connected channel **Files** tab in the Teams app to associate files with a Dynamics 365 (online) record. Files added here will appear in Dynamics 365 (online) under **Documents** for the linked record. Likewise, when you add a document to a record in Dynamics 365 (online), that document will appear in Teams under the **Files** tab.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-files-tab.png "File tab in team app")

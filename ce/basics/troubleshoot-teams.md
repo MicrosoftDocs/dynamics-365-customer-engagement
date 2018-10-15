@@ -40,16 +40,16 @@ This is the connection error notification bar:
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-error-connection-failed.png "Connection to Dynamics 365 (online) failed")
 
-Try repinning the Dynamics 365 tab. To repin, delete the connection and then re-add:
+Try repinning the Dynamics 365 tab. To repin, remove the tab and then re-add:
 
 1. In Microsoft Teams, select the channel with the error.
 2. Select the Dynamics 365 tab with the error.
-3. Select the down arrow next to the tab, and then select remove.
+3. Select the down arrow next to the tab, and then select **Remove**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-remove-tab.png "Remove a Dynamics 365 tab")
 
-4. Select the **Add** button (![Add button](media/plus-2.png "Add button")).
+4. On the same channel, select the **Add** button (![Add button](media/plus-2.png "Add button")).
 
    ![Select Add button](media/teams-add-tab.png "Select Add button")
 
@@ -67,18 +67,16 @@ and
 
 The Dynamics 365 (online) organization you are trying to connect does not support Microsoft Teams integration. You can wait for the org to be updated or pick a different org that has been updated to support Teams integration.
 
-If document management has not been set up in Dynamics 369 (online), see: [Configure server-based authentication with Dynamics 365 (online) and SharePoint Online](https://docs.microsoft.com/dynamics365/customer-engagement/admin/configure-server-based-authentication-sharepoint-online).
-
 ## Error messages in Dynamics 365 (online)
 
 ### Error: You cannot enable Microsoft Teams integration since the org is integrated with SharePoint on-premises.
-You need to set up document management in Dynamics 365 (online) to use SharePoint Online. See: [Set up Dynamics 365 (online) to use SharePoint Online](https://docs.microsoft.com/dynamics365/customer-engagement/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
+You are currently configured to use SharePoint on-premises for document management. You need to set up document management in Dynamics 365 (online) to use SharePoint Online. See: [Set up Dynamics 365 (online) to use SharePoint Online](https://docs.microsoft.com/dynamics365/customer-engagement/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
 
 ### Error: You don't have permissions to view files in the selected location. Contact your Microsoft Teams owner or SharePoint administrator for access.
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-error-permissions.png "You don't have permissions to view files")
 
-You need to be a member of the team to view files. Contact the Teams owner or your SharePoint admin and request to be added as a member. You need to determine the document location to which request membership.
+You need to be a member of the connected channel team to view files. Contact the connected channel team owner and request to be added as a member. You need to determine the document location to which request membership.
 
 1. In Dynamics 365 (online), open the record with the permissions error message.
 2. Select **Related** > **Documents**.  
@@ -86,7 +84,7 @@ You need to be a member of the team to view files. Contact the Teams owner or yo
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-select-documents.png "Select Documents")
 
-3. Select **Document Location**. The first item in the list is the location of the record you need membership. Provide this information to your admin.
+3. Select **Document Location**. The first item in the list is the location of the record you need membership. Request access from the channel team owner.
   
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-select-document-location.png "Select Document Location")

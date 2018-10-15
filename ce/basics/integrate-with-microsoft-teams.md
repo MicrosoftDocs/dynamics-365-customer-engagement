@@ -29,7 +29,6 @@ search.app:
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!IMPORTANT]
-> - This feature currently has limited availability.
 > - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
@@ -37,10 +36,11 @@ search.app:
 If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software), you know it's the place to manage all your conversations, files, and tools in one team workspace. Create and edit documents right in the app and enjoy instant access to SharePoint, OneNote, PowerBI, and now, [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)].
 
 Check out the following video to get a quick overview of Dynamics 365 and Teams can work together to make easy collaboration possible: [Dynamics 365 app for Microsoft Teams Demo Video](https://www.youtube.com/watch?v=U11x5BlQlDU&feature=youtu.be)
+<!-- Cyndy will provide new video when it's published. -->
 
 There are two areas of integration: 
-- the Dynamics 365 app installed in Microsoft Teams
-- in Dynamics 365 (online), you can see the connected Microsoft Teams channel and files synchronized between Teams app and Dynamics 365 (online)
+- The Dynamics 365 app installed in Microsoft Teams
+- In Dynamics 365 (online), you can see the connected Microsoft Teams channel and files synchronized between Teams app and Dynamics 365 (online)
 
 ## Dynamics 365 app in Teams
 The Dynamics 365 (online) tab, when added to a Teams channel, provides a fully functional page in which you edit information and navigate to related records; all this without leaving Teams.
@@ -57,12 +57,12 @@ For more information on installing and configuring the personal app and bot, see
 
 ## Teams integration in Dynamics 365 (online)
 
-In Dynamics 365 (online) records, select **Collaborate** to display a list of all the connected Team channels. Then, select a Team channel to go to the relevant conversation in Teams.
+In Dynamics 365 (online) records, select **Collaborate** to display a list of all the connected team channels. Then, select a team channel to go to the relevant channel conversation in Teams.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-select-collaborate.png "From Dynamics 365, open a conversation in Teams")
 
-In addition, document management actions in Dynamics 365 (online) are integrated with Teams. You can see the channel file library in Dynamics 365 (online)and directly upload files; uploaded files will appear in the Teams file library under the **Files** tab. Files uploaded in the Teams app will appear in the **Documents** tab in Dynamics 365 (online).
+In addition, document management actions in Dynamics 365 (online) are integrated with Teams. You can see the channel file library in Dynamics 365 (online) and directly upload files; uploaded files will appear in the Teams channel file library under the **Files** tab. Files uploaded in the Teams app will appear in the **Documents** tab in Dynamics 365 (online).
 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-documents-d365.png "Dynamics 365 document management in Teams")
@@ -72,7 +72,7 @@ In addition, document management actions in Dynamics 365 (online) are integrated
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-error-multiple-locations.png "Shared files in multiple locations")
 
-The record has been pinned to multiple Teams channels. In Dynamics 365 (online), select **Document Location** to specify the location of the file.
+The record has been pinned to multiple Teams channels. In Dynamics 365 (online), select **Document Location** to specify the location of the file. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-change-document-location.png "Change document location")

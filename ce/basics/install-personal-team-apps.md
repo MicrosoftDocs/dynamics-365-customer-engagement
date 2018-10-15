@@ -28,7 +28,7 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-## For admins: enable Microsoft Teams integration Preview features
+## For For Dynamics 365 (online) admins: enable Microsoft Teams integration Preview features
 
 Because this is a preview feature, you can control whether to display certain Teams integration features. For full Teams integration, the Dynamics 365 (online) admin should enable two settings.
 
@@ -39,12 +39,12 @@ Because this is a preview feature, you can control whether to display certain Te
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-system-settings.png "Enable preview settings")
 
-The following table describes what happens when either feature is enabled.
+The following table describes what happens when each feature is enabled.
 
 |Setting  |When enabled |
 |---------|---------|
-|Microsoft Teams Integration Preview   | When enabled, the **Collaborate** tab appears in records in Dynamics 365 (online) so you can connect the record to Microsoft Teams. In addition, in the **Documents** tab, files synchronized with Teams will appear.         |
-|Dynamics 365 bot in Microsoft Teams Preview     | When enabled, the bot appears in Microsoft Teams in the **Conversation** tab of a connected channel.  |
+|Microsoft Teams Integration Preview   | When enabled, the **Collaborate** button appears on records in Dynamics 365 (online) so you can see the connected team channel. In addition, in the **Documents** tab, files synchronized with Teams will appear.         |
+|Dynamics 365 bot in Microsoft Teams Preview     | When enabled, the bot appears in Microsoft Teams in the **Conversation** tab in the Dynamics 365 Teams app.  |
 
 If these settings are not enabled, you can still use much of the Teams integration with Dynamics 365 (online); the above features will be absent.
 
@@ -81,13 +81,13 @@ Once you've selected the Dynamics 365 app (see steps above), the settings page o
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-add-channel-pin-record2.png "Add channel to pin record")
 
-   If you have multiple organizations or app modules, select **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which records to pin to the discussion channel.
+   If you have multiple organizations or app modules, select **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which org or app module to use in Teams.
  
    ![Specify org and app](media/teams-change-org-app.png "Specify org and app")
 
    Enable **Remember this preference** to set the org and app selections to be the default personal dashboard that appears when you select **My Dashboard**.
 
-   Use the **Settings** tab to change these settings any time.
+   Use the **Settings** tab in the Teams app to change these settings any time.
 
  4. Select **Save**. 
 
