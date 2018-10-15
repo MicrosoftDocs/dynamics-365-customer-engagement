@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot Teams integration| MicrosoftDocs"
 ms.custom: ""
-description: Troubleshoot Teams.
+description: "Troubleshoot issues with Teams integration."
 ms.date: 10/30/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -84,7 +84,7 @@ You need to be a member of the connected channel team to view files. Contact the
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-select-documents.png "Select Documents")
 
-3. Select **Document Location**. The first item in the list is the location of the record you need membership. Request access from the channel team owner.
+3. Select **Document Location**. The first item in the list shows the team you need membership. Request access from the channel team owner.
   
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-select-document-location.png "Select Document Location")
