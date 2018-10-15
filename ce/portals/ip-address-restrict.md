@@ -3,7 +3,7 @@ title: "Restrict access to a portal by using IP address in Dynamics 365 | Micros
 description: "Instructions to restrict portal access by IP address."
 ms.custom: 
   - dyn365-portal
-ms.date: 10/01/2018
+ms.date: 10/17/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,19 +24,23 @@ search.app:
 
 # Restrict portal access by IP address
 
-<!--note from editor: The first sentence is long and kind of confusing. Could it be shortened to something like, "The Dynamics 365 Portal is public when provisioned and accessible by anyone from any computer. Now you can restrict access to your portal from a list of IP addresses." And then continue the paragraph.-->
+The Dynamics 365 Portal is public when provisioned and accessible by anyone from any computer. Now you can restrict access to your portal from a list of IP addresses. For example, a government organization might want to surface their content only within their corporate network. A commercial organization might want to display the portal only when it is published and not while it is in development to avoid any data leak.
 
+When a request to the portal is generated from any user, their IP address is evaluated against the allow list. If the IP address is not on the list, the portal displays a web page with an HTTP 403 status code.
 
-Dynamics 365 Portal is used by various customers, the provisioned portal is public, and it is accessible by anyone from any computer. This feature allows a customer to restrict access to their portals from a list of IP addresses. For example, a government organization might want to surface their content only within their corporate network. A commercial organization might want to display the portal only when it is published and not while it is in development to avoid any data leak.
-
-When a request to the portal is generated from any user, their IP address is evaluated against the allow list. If the IP address is not on the list, the portal replies with an HTTP 403 status code.
-
-> [!NOTE]
-> You must be a portal administrator to add or remove IP addresses.
+To add or remove IP addresses, you must be assigned any one of the following roles:
+- Office 365 Global Administrator 
+- [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Service Administrator. [!include[](../includes/proc-more-information.md)] [Use the service admin role to manage your tenant](https://technet.microsoft.com/en-us/library/mt793847.aspx)  
+- System Administrator of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization selected for the portal
 
 ## Add an IP address
 
 To allow access to a portal from an IP address or a set of IP addresses, you can add the IP addresses to the list. This allows the portal to be accessed only from the list of added IP addresses. If you do not add any IP address, the portal will be accessible from all IP addresses.
+
+Once you add an IP address to the restriction list, the portal will be accessible to the specified IP address only. If you try to access the portal from any other IP addresses, access will be denied and a web page with an HTTP 403 status code is displayed. The content of this web page is static and cannot be modified.
+
+> [!NOTE]
+> You must specify a public IP address that can be accessed by the portal. Private IP address can't be accessed by the portal.
 
 1.	Go to the Dynamics 365 admin center and select the **Applications** tab.
 
@@ -49,7 +53,7 @@ To allow access to a portal from an IP address or a set of IP addresses, you can
 5.	In the Add an IP address window, enter the following values:
 
     - **Select type of IP address**: Select whether the IP address is IPv4 or IPv6.
-    - **Specify IP address in CIDR notation**: Specify the IP address in CIDR notation. 
+    - **Specify IP address in CIDR notation**: Specify the IP address in CIDR notation. More information: [Classless Inter-Domain Routing](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)
 
 6.	Select **Configure**.
 

@@ -2,7 +2,7 @@
 title: "Monthly updates in portal capabilities for Dynamics 365 | MicrosoftDocs"
 description: "Learn about what's new in the latest release of portal capabilities for Dynamics 365."
 keywords: "portal new features, portal enhancements, portal user guide"
-ms.date: 10/11/2018
+ms.date: 10/17/2018
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-portal
@@ -24,19 +24,17 @@ search.app:
   - D365Portals
 ---
 
-<!--note from editor: Second heding and paragraph have place for version number but no number. Please update.-->
-
 # What's new in portal capabilities for Dynamics 365
 
 Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Here's a list of recently added features. For more information about portal capability updates for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to date, see [portal capabilities for Microsoft Dynamics 365 Releases](https://support.microsoft.com/en-us/help/3181191).
 
-## Portal capabilities version <<VersionNumber>> for Dynamics 365
+## Portal capabilities version 9.0.10 for Dynamics 365
 
-Portal capabilities version <<VersionNumber>> for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] brings these new updates and features:
+Portal capabilities version 9.0.10 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] brings these new updates and features:
 
 - **Migrate Dynamics 365 Portal configuration**: You can now migrate your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal configuration from development to testing or the production environments. Migration involves exporting the existing configuration from the source [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, and then importing it into the target [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance. To migrate configuration data, you need to use the Configuration Migration tool and a portal-specific configuration schema file. More information: [Migrate Dynamics 365 Portal configuration](migrate-portal-configuration.md)
 
-- **Add Power BI visualization**: As a portal customizer, you can now use the powerbi Liquid tag to embed Power BI dashboards and reports on web pages in a portal. More information: [Set up Power BI integration](set-up-power-bi-integration.md)
+- **Add Power BI visualization**: As a portal customizer, you can now embed Power BI visualizations (dashboard, reports, amd tiles) on web pages in a portal by using the powerbi Liquid tag. More information: [Set up Power BI integration](set-up-power-bi-integration.md)
 
 - **Restrict portal access by IP address**: As a portal administrator, you can now define a list of IP addresses that are allowed to access your portal. When a request to the portal is generated from any user, their IP address is evaluated against the allow list. If the IP address is not in the list, the portal replies with an HTTP 403 status code. More information: [Restrict portal access by IP address](ip-address-restrict.md)
 

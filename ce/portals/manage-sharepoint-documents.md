@@ -3,7 +3,7 @@ title: "Manage SharePoint documents on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to manage SharePoint document in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 10/01/2018
+ms.date: 10/17/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -21,9 +21,6 @@ search.app:
   - D365CE
   - D365Portals
 ---
-
-<!--from editor: The name "Veronika Quek" appears in some of the images. Is this name from the list of approved fictitious names? Also, see my question inserted within Step 4.-->
-
 
 # Manage SharePoint documents
 
@@ -71,7 +68,7 @@ If you do not provide your consent:
 
 - Enabling or disabling the SharePoint integration will not be complete and an error message will display.
 
-- Your Azure AD logon on the portal will not work. 
+- Your out-of-the-box Azure AD logon on the portal will not work. 
 
 ## Step 2: Enable document management functionality in Dynamics 365
 
@@ -97,11 +94,7 @@ You can specify name and label as per your requirement. Save and publish the for
 
 ### Dynamics 365 Portal configuration
 
-
-<!--from editor: Can you provide links for the procedures mentioned in the following paragraph?-->
-
-
-If you do not already have an entity or web form configured, then configure one. For more information on configuring entity forms, see Add a form to your portal. If you are configuring this on a web form, see Define web form properties for portals and Define web form steps for portals.
+If you do not already have an entity or web form configured, then configure one. For more information on configuring entity forms, see [Add a form to your portal](entity-forms-custom-logic.md#add-a-form-to-your-portal). If you are configuring this on a web form, see [Define web form properties for portals](web-form-properties.md) and [Define web form steps for portals](web-form-steps.md).
 
 Apart from the standard configuration required for entity form or web form, you must set the following properties to enable document management:
 

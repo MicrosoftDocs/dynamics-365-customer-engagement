@@ -1,7 +1,7 @@
 ---
 title: "Set up Power BI integration with Dynamics 365 portal | MicrosoftDocs"
 description: "Learn how to set up Power BI integration with your portal."
-ms.date: 10/01/2018
+ms.date: 10/17/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
