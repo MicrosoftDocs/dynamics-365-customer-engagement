@@ -46,18 +46,21 @@ search.app:
 
 2.	Select **Try new editor** to open the new editor.
 
-  > [!div class="mx-imgBorder"]
-  > ![Try new editor](media/try-new-editor.png "Try new editor")
+    > [!div class="mx-imgBorder"]
+    > ![Try new editor](media/try-new-editor.png "Try new editor")
 
     The new editor opens:
 
-   > [!div class="mx-imgBorder"]
-   > ![New editor](media/new-editor.png "New editor")
+    > [!div class="mx-imgBorder"]
+    > ![New editor](media/new-editor.png "New editor")
 
 3.	Select a content snippet to select its text, and then edit it. Format options are displayed for changing the font size and style.
 
-> [!NOTE]
-> You can also point to the content snippet and select **Edit**.
+    > [!div class="mx-imgBorder"]
+    > ![Format text](media/format-text.png "Format text")
+
+    > [!NOTE]
+    > You can also point to the content snippet and select **Edit**.
 
 4.	After making the changes, click outside the content snippet boundary to save the changes. The status is displayed in the content snippet and footer.
 
@@ -65,7 +68,15 @@ search.app:
 
 ## Add and edit a text box in a content snippet
 
-1.	Select a content snippet or a text box in the content snippet, and then select Components from the pane at the left-side of the screen. The **Components** pane opens.
+1.	Select a content snippet or a text box in the content snippet, and then select **Components** from the pane at the left-side of the screen.
+
+    > [!div class="mx-imgBorder"]
+    > ![Components icon](media/components-icon.png "Components icon")
+
+    The **Components** pane opens.
+
+    > [!div class="mx-imgBorder"]
+    > ![Components pane](media/components-pane.png "Components pane")
 
 2.	Under **HTML controls**, select **Text** to add a text box. You can edit the text as per your requirement. 
 
@@ -73,14 +84,29 @@ search.app:
 
 ## Add and edit an image in a content snippet
 
-1.	Select a content snippet or a text box in the content snippet, and then select Components from the pane at the left-side of the screen. The **Components** pane opens.
+1.	Select a content snippet or a text box in the content snippet, and then select **Components** from the pane at the left-side of the screen.
+
+    > [!div class="mx-imgBorder"]
+    > ![Components icon](media/components-icon.png "Components icon")
+
+    The **Components** pane opens.
+
+    > [!div class="mx-imgBorder"]
+    > ![Components pane](media/components-pane.png "Components pane")
 
 2.	Under **HTML controls**, select **Images**. The image placeholder is added on the canvas.
 
+    > [!div class="mx-imgBorder"]
+    > ![Image placeholder](media/image-placeholder.png "Image placeholder")
+
 3.	In the **Properties** pane, perform the following actions:
+
     - In the **URL** field, modify the link of the image. Please note that only secured links are accepted, that is, https:// is mandatory.
 
     - To resize the image, update values in the **Width** and **Height** fields.
+
+        > [!div class="mx-imgBorder"]
+        > ![Image properties](media/image-properties.png "Image properties")
     
     > [!NOTE]
     > You can also select the image on canvas and drag the handles to resize it.
@@ -89,14 +115,29 @@ search.app:
 
 ## Add and edit an iFrame in a content snippet
 
-1.	Select a content snippet or a text box in the content snippet, and then select Components from the pane at the left-side of the screen. The **Components** pane opens.
+1.	Select a content snippet or a text box in the content snippet, and then select **Components** from the pane at the left-side of the screen.
+
+    > [!div class="mx-imgBorder"]
+    > ![Components icon](media/components-icon.png "Components icon")
+
+    The **Components** pane opens.
+
+    > [!div class="mx-imgBorder"]
+    > ![Components pane](media/components-pane.png "Components pane")
 
 2.	Under **HTML controls**, select **iFrame**. The iFrame placeholder is added on the canvas.
 
+    > [!div class="mx-imgBorder"]
+    > ![iFrame placeholder](media/iframe-placeholder.png "iFrame placeholder")
+
 3.	In the **Properties** pane, perform the following actions:
+
     - In the **Link** field, modify the link of the iFrame. Please note that only secured links are accepted, that is, https:// is mandatory.
     
     - To resize the iFrame, update values in the **Width** and **Height** fields.
+
+        > [!div class="mx-imgBorder"]
+        > ![iFrame properties](media/iframe-properties.png "iFrame properties")
     
     > [!NOTE]
     > You can also select the iFrame on canvas and drag the handles to resize it.
@@ -108,7 +149,15 @@ search.app:
 > [!NOTE]
 > You cannot edit a web template or a portal component. 
 
-1.	Select a content snippet or a text box in the content snippet, and then select Components from the pane at the left-side of the screen. The **Components** pane opens.
+1.	Select a content snippet or a text box in the content snippet, and then select **Components** from the pane at the left-side of the screen.
+
+    > [!div class="mx-imgBorder"]
+    > ![Components icon](media/components-icon.png "Components icon")
+
+    The **Components** pane opens.
+
+    > [!div class="mx-imgBorder"]
+    > ![Components pane](media/components-pane.png "Components pane")
 
 2.	Select a web template or a portal component.
 
@@ -156,15 +205,24 @@ There are two types of web templates:
 
 To navigate to another page, select the required header link to see the navigation options.
 
+> [!div class="mx-imgBorder"]
+> ![Move to another page](media/move-to-another-page.png "Move to another page")
+
 ## Go back to the old editor
 
 If you want to go back to the old editor, select Back to classic editor in the header.
+
+> [!div class="mx-imgBorder"]
+> ![Go back to the old editor](media/back-to-classic-editor.png "Go back to the old editor")
 
 ## Test language change in editor
 
 To use multiple languages in the editor, you must have a language pack installed in portal solutions and also enabled it on the portal. Once multiple language is enabled for the portal, you can see the option of language change in header of portal runtime. More information: [Enable multiple languages for a portal](enable-multiple-language-support.md)
 
 After selecting the new language, navigate to the new editor to see content in the portal in the selected language.
+
+> [!div class="mx-imgBorder"]
+> ![Test language change in editor](media/language-change.png "Test language change in editor")
 
 ## Known issues
 
