@@ -55,14 +55,23 @@ To use the document management capabilities of SharePoint from within Dynamics 3
 
 3.	Go to **Set up SharePoint integration** > **Enable SharePoint integration**.
 
+    > [!div class="mx-imgBorder"]
+    > ![Enable SharePoint integration](media/enable-sharepoint-integration.png "Enable SharePoint integration")
+
 4.	Select **Enable** in the confirmation window. This will enable the portal to communicate with SharePoint. While the SharePoint integration is being enabled, the portal restarts and will be unavailable for a few minutes. A message appears when SharePoint integration is enabled.
 
 When SharePoint integration is enabled, the following action becomes available:
 
 - **Disable SharePoint integration**: Allows you to disable the SharePoint integration with your portal. While the SharePoint integration is being disabled, the portal restarts and will be unavailable for a few minutes. A message appears when SharePoint integration is disabled.
 
+    > [!div class="mx-imgBorder"]
+    > ![Disable SharePoint integration](media/disable-sharepoint-integration.png "Disable SharePoint integration")
+
 > [!NOTE]
 > Enabling or disabling the SharePoint integration will update the Azure Active Directory (Azure AD) application for the portal and add or remove the required SharePoint permissions, respectively. You will also be redirected to provide your consent for the changes to be made in the Azure AD application. 
+
+> [!div class="mx-imgBorder"]
+> ![Disable SharePoint integration](media/sharepoint-integration-consent.png "Disable SharePoint integration")
 
 If you do not provide your consent:
 

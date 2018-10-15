@@ -47,6 +47,7 @@
 ## [Use shortcuts to place child nodes](place-child-nodes.md)
 ## [Create a portal theme](create-theme.md)
 ## [Configure site settings](configure-site-settings.md)
+## [Get started with the new portal content editor](portal-new-content-editor.md)
 ## [Get started with the portal content editor](get-started-portal-content-editor.md)
 ### [Publish content by using the editing engine](publish-content-editing-engine.md)
 ## [Create and run advertisements](create-run-advertisement.md)

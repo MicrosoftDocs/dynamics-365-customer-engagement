@@ -33,8 +33,14 @@ Power BI is one of the best tools to deliver insights with simple and interactiv
 **Set up Power BI integration**
 
 1.	Go to the Dynamics 365 admin center and select the **Applications** tab.
+
 2.	Select the name of the portal for which you want enable Power BI integration, and then select **Manage**.
+
 3.	Go to **Set up Power BI integration** > **Enable Power BI visualization**.
+
+  > [!div class="mx-imgBorder"]
+  > ![Enable Power BI visualization](media/enable-power-bi-visualization.png "Enable Power BI visualization")
+
 4.	Select **Enable** in the confirmation message. While Power BI visualization is being enabled, the portal restarts and will be unavailable for a few minutes. A message appears when Power BI visualization is enabled.
 
 Customizers can use the [powerbi](dynamics-entity-tags.md#powerbi) Liquid tag to embed Power BI dashboards and reports on web pages in a portal. While embedding the Power BI content, customizers can use [filter parameters](https://docs.microsoft.com/en-us/power-bi/service-url-filters) to create personalized views. More information: [powerbi Liquid tag](dynamics-entity-tags.md#powerbi)
@@ -42,3 +48,6 @@ Customizers can use the [powerbi](dynamics-entity-tags.md#powerbi) Liquid tag to
 When Power BI visualization is enabled, the following action becomes available:
 
 - **Disable Power BI visualization**: Allows you to disable Power BI visualization on your portal. While Power BI visualization is being disabled, the portal restarts and will be unavailable for a few minutes. A message appears when Power BI visualization is disabled.
+
+  > [!div class="mx-imgBorder"]
+  > ![Disable Power BI visualization](media/disable-power-bi-visualization.png "Disable Power BI visualization")
