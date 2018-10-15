@@ -86,7 +86,7 @@ The mobile solution enables field technicians to use the mobile application and 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of selecting the Woodford solution zip file for importation](media/field-service-mobile-solution-import-file.png)  
 
-6. After the import completes, verify that the **Woodford** appears on the **Settings** menu. If you don't see it, refresh the page.
+6. After the import completes, verify that **Woodford** appears on the **Settings** menu. If you don't see it, refresh the page.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Woodford under Settings menu in Dynamics 365 drop-down menu](media/field-service-mobile-solution-import-dropdown.png)  
