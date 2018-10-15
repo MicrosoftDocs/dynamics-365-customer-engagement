@@ -55,7 +55,7 @@
 #### [Organizational Units](create-org-units-cs-scheduling.md)
 #### [Business Closure](set-when-business-closed-csh.md)
 ### [Get the new Service Scheduling experience](enable-urs-service-scheduling.md)
-
+### [Service Scheduling FAQ](service-scheduling-faq.md)
 
 ### Legacy Service Scheduling (Customer Service app)
 #### [Business closure](set-when-business-closed-cs-app.md)

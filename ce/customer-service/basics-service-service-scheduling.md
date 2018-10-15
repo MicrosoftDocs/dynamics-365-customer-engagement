@@ -45,7 +45,6 @@ Contoso bike repairs, a company that repairs bikes, schedules repair services fo
 In this case, Contoso bike repairs can benefit from the Service Scheduling feature of Dynamics 365 for Customer Service. They can quickly cater to their customers who are looking to avail their repair services. With the various service scheduling entities, they can plan service activities for their customers considering the availability of resources, facilities, and equipment.
 
 ## Access Service Scheduling in the Customer Service Hub
-
 With the Customer Engagement apps version 9.1 release, Service Scheduling built on Universal Resource Scheduling (URS) will be available in the Customer Service Hub. Upgrade and install to the latest update to avail the new service scheduling features.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable the new URS based Service Scheduling](enable-urs-service-scheduling.md)
@@ -74,19 +73,6 @@ See [Understand Service Scheduling entities](#understand-service-scheduling-enti
   
 - **Scheduling rule:** A set of criteria that specifies which personnel, equipment, facilities, or resource categories are required to perform a service, or how to select these resources, based on parameters like quantity and capacity.  
   
-### Capacity vs. effort—understand the difference  
- You can set up services and resources in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to take into account different-sized facilities or the experience levels of your users when a service is scheduled. This is known as capacity scheduling. Capacity is a relative unit that you define. 
-
-**For example**, you could define capacity in a bike repair shop as the number of bikes the shop has room to accommodate at the same time. If a repair bay has room for four bike-repair stations, the repair bay can accept four bikes for repair or inspection at the same time.  
-  
- Capacity can also measure skill level. For example, a junior bike technician has the ability to perform one bike inspection per hour, and a senior technician has the ability to perform four bike inspections per hour. If two bikes must be inspected in one hour, it takes either two junior technicians, or one senior technician who can perform the inspections in half the time.  
-  
- When you add effort required into the selection rule, every time a user searches for an available service activity time, the selection rules inspect the resources for capacity available. If the resource is scheduled, then that resource's capacity is reduced by the effort required for the service. This is repeated every time that a service is scheduled requiring that resource, until the capacity is exhausted.  
-  
- Capacity is defined in the resource’s working hours. Effort required is defined in the service. You can think of capacity as "how much money you have" and effort required as "how much something costs."  
-  
- **For example**, the repair bay has a capacity of four. A bike repair requires an effort of one and a tandem bike repair requires an effort of two. The first time the repair bay is selected, its capacity is reduced to three for that time. The next service activity scheduled is for a tandem bike. This reduces the repair bay's capacity by two. The repair bay has the capacity of one left, which means it could accept another bike repair, but not a tandem bike repair.  
-
 ## Understand Service Scheduling entities
 
 Service Scheduling entities are grouped under the following logical groups:
@@ -142,4 +128,4 @@ Service Scheduling entities are grouped under the following logical groups:
 
 [Get the new Service Scheduling experience](enable-urs-service-scheduling.md)
     
- 
+[Service Scheduling FAQ](service-scheduling-faq.md) 
