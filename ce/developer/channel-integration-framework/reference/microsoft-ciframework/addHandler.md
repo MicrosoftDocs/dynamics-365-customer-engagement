@@ -48,10 +48,10 @@ var eventData = {
   "name": "mobilephone",
   "format": "phone",
   "entityLogicalName": "contact"
+  }
 }
 
 Microsoft.CIFramework.addHandler("onclicktoact", handlerFunction);
-  }
 ```
 
 ### Example 2: addHandler method for the `onmodechanged` event
@@ -60,12 +60,11 @@ The sample code demonstrates setting addHandler method for the `onmodechanged` e
 
 ```JavaScript
 function handlerfunction(eventData) {
-var eventData = {
-  {"value": "0"}, 
+var eventData =
+  {"value": "0"},
 }
 
 Microsoft.CIFramework.addHandler("onmodechanged", handlerFunction);
-  }
 ```
 
 ### Example 3: addHandler method for the `onsizechanged` event
@@ -74,12 +73,11 @@ The sample code demonstrates setting addHandler method for the `onsizechanged` e
 
 ```JavaScript
 function handlerfunction(eventData) {
-var eventData = {
+var eventData =
   {"value": "30"}, 
 }
 
 Microsoft.CIFramework.addHandler("onsizechanged", handlerFunction);
-  }
 ```
 
 ### Example 4: addHandler method for the `onpagenavigate` event
@@ -88,12 +86,11 @@ The sample code demonstrates setting addHandler method for the `onpagenavigate` 
 
 ```JavaScript
 function handlerfunction(eventData) {
-var eventData = {
+var eventData =
   {"value": "https://mycrmorg.dynamics.com/<Org>/main.aspx?appid=25ac68f2-9ab5-e811-8149-000d3a43f05f&pagetype=entitylist&etn=contact"}, 
 }
 
 Microsoft.CIFramework.addHandler("onpagenavigate", handlerFunction);
-  }
 ```
 
 ### Example 5: addHandler method for the `onsendkbarticle` event
@@ -102,13 +99,12 @@ The sample code demonstrates setting addHandler method for the `onsendkbarticle`
 
 ```JavaScript
 function handlerfunction(eventData) {
-var eventData = {
+var eventData =
   {"title": "KB Article about phones", 
-  "link": "https://how.phones.work.com", 
+  "link": "https://how.phones.work.com"}, 
 }
 
 Microsoft.CIFramework.addHandler("onsendkbarticle", handlerFunction);
-  }
 ```
 
 ## Related topics

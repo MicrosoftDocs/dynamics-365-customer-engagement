@@ -18,7 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# remove (CIF JavaScript API Reference)
+# removeHandler (CIF JavaScript API Reference)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
 
@@ -35,81 +35,6 @@ manager: shujoshi
 | eventName | string | Yes | Name of the event for which the handler is set. <br>The supported events are as follows:<br><ul><li><b>onclicktoact:</b> The event is invoked when the outbound communication (ClickToAct) enabled filed is clicked.</li> <li><b>onmodechanged:</b> The event is invoked when the panel mode is manually toggled between Minimized (0) and Docked (1). </li><li><b>onsizechanged:</b>The event is invoked when the panel size is manually changed by dragging </li><li><b>onpagenavigate:</b>The event is triggered before a navigation event occurs on the main page </li><li><b>onsendkbarticle: </b> The event is invoked when the user clicks the send button on the KB control.</li></ul>  |
 | handlerFunction | Function | Yes | The handler function is invoked when the any of the supported events trigger. |
 
-## Examples
-
-### Example 1: removeHandler method for the `onclicktoact` event
-
-The sample code demonstrates setting removeHandler method for the `onclicktoact` event.
-
-```JavaScript
-function handlerfunction(eventData) {
-var eventData = {
-  "value": "123456789", 
-  "name": "mobilephone",
-  "format": "phone",
-  "entityLogicalName": "contact"
-}
-
-Microsoft.CIFramework.removeHandler("onclicktoact", handlerFunction);
-  }
-```
-
-### Example 2: removeHandler method for the `onmodechanged` event
-
-The sample code demonstrates setting removeHandler method for the `onmodechanged` event.
-
-```JavaScript
-function handlerfunction(eventData) {
-var eventData = {
-  {"value": "0"}, 
-}
-
-Microsoft.CIFramework.removeHandler("onmodechanged", handlerFunction);
-  }
-```
-
-### Example 3: removeHandler method for the `onsizechanged` event
-
-The sample code demonstrates setting removeHandler method for the `onsizechanged` event.
-
-```JavaScript
-function handlerfunction(eventData) {
-var eventData = {
-  {"value": "30"}, 
-}
-
-Microsoft.CIFramework.removeHandler("onsizechanged", handlerFunction);
-  }
-```
-
-### Example 4: removeHandler method for the `onpagenavigate` event
-
-The sample code demonstrates setting removeHandler method for the `onpagenavigate` event.
-
-```JavaScript
-function handlerfunction(eventData) {
-var eventData = {
-  {"value": "https://mycrmorg.dynamics.com/<Org>/main.aspx?appid=25ac68f2-9ab5-e811-8149-000d3a43f05f&pagetype=entitylist&etn=contact"}, 
-}
-
-Microsoft.CIFramework.removeHandler("onpagenavigate", handlerFunction);
-  }
-```
-
-### Example 5: removeHandler method for the `onsendkbarticle` event
-
-The sample code demonstrates setting removeHandler method for the `onsendkbarticle` event.
-
-```JavaScript
-function handlerfunction(eventData) {
-var eventData = {
-  {"title": "KB Article about phones", 
-  "link": "https://how.phones.work.com", 
-}
-
-Microsoft.CIFramework.removeHandler("onsendkbarticle", handlerFunction);
-  }
-```
 
 ## Related topics
 
