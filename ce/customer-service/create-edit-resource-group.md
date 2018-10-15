@@ -29,7 +29,7 @@ search.app:
 Use resource groups to group users, facilities, and equipment as part of the selection rules for a service.
 
 > [!NOTE]
-> With the October'18 release of Service Scheduling, Resource Groups are referred as Resource Categories. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md)
+> With the Customer Engagement apps version 9.1 release of Service Scheduling, Resource Groups are referred as Resource Categories. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md)
   
 1. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)]  
   

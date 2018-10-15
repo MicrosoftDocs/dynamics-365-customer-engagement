@@ -46,7 +46,7 @@ In this case, Contoso bike repairs can benefit from the Service Scheduling featu
 
 ## Access Service Scheduling in the Customer Service Hub
 
-With the October'18 release, Service Scheduling built on Universal Resource Scheduling (URS) will be available in the Customer Service Hub. Upgrade and install to the latest update to avail the new service scheduling features.
+With the Customer Engagement apps version 9.1 release, Service Scheduling built on Universal Resource Scheduling (URS) will be available in the Customer Service Hub. Upgrade and install to the latest update to avail the new service scheduling features.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable the new URS based Service Scheduling](enable-urs-service-scheduling.md)
 

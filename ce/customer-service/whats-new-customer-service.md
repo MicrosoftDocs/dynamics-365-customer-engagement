@@ -34,9 +34,17 @@ Customer Engagement apps version 9.1 introduces some new features for enhanced c
 
 New features introduced in this release are:
 
-
+- [Service scheduling powered by Universal Resource Scheduling](#service-scheduling-powered-by-universal-resource-scheduling)
 - [Relevance search enabled for knowledge management ](#relevance-search-enabled-for-knowledge-management)
 - [Enhanced customer service admin settings using Service Management](#enhanced-customer-service-admin-settings-using-service-management)
+
+
+### Service scheduling powered by Universal Resource Scheduling 
+Service scheduling, now built atop Universal Resource Scheduling (URS), provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipments to plan schedules accordingly. It also helps to improve service quality by preventing over-scheduling.
+
+To learn more about the new service scheduling, see [Service scheduling overview](basics-service-service-scheduling.md).
+
+See [Get the new Service Scheduling experience](enable-urs-service-scheduling.md) to explore the new experience.
 
 
 ### Relevance search enabled for knowledge management 
@@ -49,12 +57,12 @@ To learn more about Relevance search, see [Use Relevance Search for faster, comp
 
 ### Enhanced customer service admin settings using Service Management
 
-With the Customer Engagement apps, version 9.1 release, Service Management moves under the Customer Service Hub, enabling customer service managers to access and manage the configurations from inside the application. Built on the Unified Interface framework, the new Service Management helps to easily configure admin settings, enabling increased productivity.
+With the Customer Engagement apps version 9.1 release, Service Management moves under the Customer Service Hub, enabling customer service managers to access and manage the configurations from inside the application. Built on the Unified Interface framework, the new Service Management helps to easily configure admin settings, enabling increased productivity.
 
 See the [Service Manager Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md) to learn more about Customer Service admin settings.
 
 > [!NOTE]
-> With the Customer Engagement apps, version 9.1 release, you can access and manage all admin settings from the Customer Service Hub sitemap except for **Routing Rule sets**, **Automatic Record Creation,** and **Service Level Agreements**. </br> To access and manage these three admin settings, go to **Settings** > **Service Management** in the web application. <br>These three admin settings (Routing Rule sets, Automatic Record Creation, and Service Level Agreements) will be available in the Customer Service Hub sitemap beginning with the January 2019 release.
+> With the Customer Engagement apps version 9.1 release, you can access and manage all admin settings from the Customer Service Hub sitemap except for **Routing Rule sets**, **Automatic Record Creation,** and **Service Level Agreements**. </br> To access and manage these three admin settings, go to **Settings** > **Service Management** in the web application. <br>These three admin settings (Routing Rule sets, Automatic Record Creation, and Service Level Agreements) will be available in the Customer Service Hub sitemap beginning with the January 2019 release.
 
 
 ### See also

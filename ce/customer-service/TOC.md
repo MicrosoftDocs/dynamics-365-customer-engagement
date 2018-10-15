@@ -40,8 +40,7 @@
 ### [Article templates](../admin/create-templates-articles.md)
 
 
-## Service Scheduling
-### [Overview ](basics-service-service-scheduling.md)
+## [Service Scheduling Guide](basics-service-service-scheduling.md)
 ### Schedule entities
 #### [Resources](resources-service-scheduling.md)  
 ##### [Set work hours for a resource](set-work-hours-resource.md#set-work-hours-for-a-resource)

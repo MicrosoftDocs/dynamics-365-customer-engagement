@@ -33,7 +33,7 @@ You must set both the capacity of the service and the resources required for the
 When you set capacity of a resource and service, the service calendar doesn’t allow booking the resources once they reach their capacity.  
 
 > [!IMPORTANT]
-> With the October'18 release, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you set capacity using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a service in Service Scheduling](create-edit-service-csh.md)
+> With the Customer Engagement apps version 9.1 release, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you set capacity using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a service in Service Scheduling](create-edit-service-csh.md)
   
 ## Set the capacity of a service  
   

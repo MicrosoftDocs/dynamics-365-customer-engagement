@@ -29,7 +29,7 @@ search.app:
 Quickly create other entitlements prefilled with the basic information like the start and end date, service level agreement (SLA), allocation type, and total term by using an entitlement template in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. For example, create a template for a standard entitlement, and then apply this template for every standard customer in your organization.  
 
 > [!NOTE]
-> With the Customer Engagement apps, version 9.1 release, entitlement templates in service management are available in the Customer Service Hub based on the Unified Interface experience. We recommend that you create and manage entitlement templates using the new experience.
+> With the Customer Engagement apps version 9.1 release, entitlement templates in service management are available in the Customer Service Hub based on the Unified Interface experience. We recommend that you create and manage entitlement templates using the new experience.
 
 ## Create an entitlement template  
   

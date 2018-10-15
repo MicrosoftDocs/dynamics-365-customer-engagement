@@ -26,7 +26,7 @@ search.app:
 
 Service scheduling is now built atop **Universal Resource Scheduling (URS)** to provide an efficient way to schedule service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling. This is done with the help of predictable workloads for employees, and reliable time estimates for customers and clients.
 
-With the October'18 release, the new Service Scheduling will be available in the Customer Service Hub sitemap.
+With the Customer Engagement apps version 9.1 release, the new Service Scheduling will be available in the Customer Service Hub sitemap.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Access Service Scheduling in the Customer Service Hub](basics-service-service-scheduling.md#access-service-scheduling-in-the-customer-service-hub)
 

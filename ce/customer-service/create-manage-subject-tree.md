@@ -29,7 +29,7 @@ search.app:
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] includes a subject organizational structure that lets you mark and categorize service cases, knowledge base articles, and products. By using the subject hierarchy, you can classify service cases to quickly provide service to your customer.
 
 > [!NOTE]
-> With the Customer Engagement apps, version 9.1 release, subjects in service management is available in the Customer Service Hub based on Unified Interface experience. You are recommended to create and manage subjects using the new experience.
+> With the Customer Engagement apps version 9.1 release, subjects in service management is available in the Customer Service Hub based on Unified Interface experience. You are recommended to create and manage subjects using the new experience.
   
 ## Create or edit a subject  
 
