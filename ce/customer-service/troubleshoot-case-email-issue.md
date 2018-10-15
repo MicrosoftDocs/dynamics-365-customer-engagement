@@ -31,21 +31,23 @@ Incoming email is not being converted to a case.
  
 If the email to case conversion is not working, follow the below troubleshooting steps to diagnose and fix the issue:
 
-**Step 1**. Check if the email is syncing with the system.
-Navigate to **Activities** and look for Email activity.</br>
-
-   - **Comment**: If email is not syncing with the system, there may be an issue with the email router or server-side sync configuration.
+**Step 1**. Check if the email is syncing with the system. </br>
+- **Action**: Navigate to **Activities** and look for Email activity.</br>
+- **Comment**: If email is not syncing with the system, there may be an issue with the email router or server-side sync configuration. 
 
 **Step 2**.  Notice that an email activity is created but a related QueueItem is not found.  </br>
 
 - **Comment**: If an active Automatic Record Creation and Update Rule exists for a specific queue, QueueItem is marked as inactive and hence it disappears from the QueueItem View. 
 
 
-**Step 3**. If the email is coming from an unknown sender,  check for the **Create contact for unknown sender** option. Go to **Automatic Record Creation and Update Rule** configuration and check if the **Create contact for unknown sender** box is checked. </br>
+**Step 3**. If the email is coming from an unknown sender,  check for the **Create contact for unknown sender** option. 
+- **Action**: Go to **Automatic Record Creation and Update Rule** configuration and check if the **Create contact for unknown sender** box is checked. </br>
 
 - **Comment**: If **Create contact for unknown sender** check box is unchecked, incoming email from unknown sender will not be converted to a case.
 
-**Step 4**: Check if **Automatic Record Creation and Update Rule** is configured properly. Go to system jobs and check for any failure message. 
+**Step 4**: Check if **Automatic Record Creation and Update Rule** is configured properly. 
+
+- **Action**: Go to system jobs and check for any failure message. 
  
 For more information about configuration failure scenarios and resolution for sample configuration failure, see [Configuration failure scenarios and resolutions](#configuration-failure-scenarios-and-resolution).
 
@@ -54,7 +56,7 @@ For more information about configuration failure scenarios and resolution for sa
 >  The Customer field in the case entity can be a contact or an account. If a matching incoming email address is not found for a contact or an account, and **Create contact for unknown sender** box is checked, the system creates contact for incoming email address and links it to the case's customer field.
 
 **Step 5**: Check if the contact and account exist with the same incoming email address. 
-**Comment**: Case created from incoming email will resolve customer field on case as Account.
+- **Comment**: Case created from incoming email will resolve customer field on case as Account.
 
 ## Configuration failure scenarios and resolutions
 
