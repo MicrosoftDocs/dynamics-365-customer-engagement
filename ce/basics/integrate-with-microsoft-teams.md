@@ -89,3 +89,4 @@ To manage admin settings for apps in Teams, go to the Office 365 admin center an
 
 ### See also
  [Download and install Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)
+ [Microsoft Teams help center](https://support.office.com/teams)
