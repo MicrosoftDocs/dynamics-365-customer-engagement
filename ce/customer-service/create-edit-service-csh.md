@@ -66,14 +66,14 @@ Make sure that you have the System Administrator or System Customizer security r
    - Add **Resource Categories**  and define **Characteristics**.
    - Add **Preferred Resource**. You can add as many resources as you want, and they can be a mix of individual users, facilities, equipment, and teams. 
    - Define **Sort Option** to sort according to most and least business impact.
-   - Provide **Effort Required**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Capacity vs. effort—understand the difference](basics-service-service-scheduling.md#capacity-vs-effortunderstand-the-difference).
+   - Provide **Effort Required**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Capacity vs. effort—understand the difference](service-scheduling-faq.md#what-is-capacity-and-effort-what-is-the-difference).
 
-   You can add complexity to a rule by adding a subrule to it.  ]
+   You can add complexity to a rule by adding a subrule to it.  
 
    ![Resource requirement](media/resource-requirement-csh.png)
 
-> [!NOTE]
->  You can save a service without defining a selection rule, but you won’t be able to schedule that service.   
+   > [!NOTE]
+   >  You can save a service without defining a selection rule, but you won’t be able to schedule that service.   
 
 7.  When you’re ready to save your data, select **Save**.  
   
