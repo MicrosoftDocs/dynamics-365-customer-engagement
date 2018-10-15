@@ -37,7 +37,7 @@ search.app:
 >       - Manage Web Link Sets
 >       - Preview Unpublished Entities
 >       More information: [Create website access permissions](website-access-permission.md)
->   - Webpage access permission as Grant Change on the Home (root) page of the portal website needs to be enabled. More information: [Control webpage access for portals](webpage-access-control)
+>   - Webpage access permission as Grant Change on the Home (root) page of the portal website needs to be enabled. More information: [Control webpage access for portals](webpage-access-control.md)
 > - Drag and drop is not currently supported on the canvas and will be coming in one of the subsequent releases.
 
 ## Use the new editor
