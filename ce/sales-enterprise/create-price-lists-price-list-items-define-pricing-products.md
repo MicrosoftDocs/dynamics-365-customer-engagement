@@ -84,9 +84,9 @@ Price lists tie the unit, product, and pricing details together, so before you c
           
           -  **Percent of List**. Use this to calculate a product's price in the price list as a percentage of the list price of the associated product.  
         
-          -  **Percent Markup - Current Cost**. Use this to add a percent markup on top of the current cost of the prouct.   
+          -  **Percent Markup - Current Cost**. Use this to add a percent markup on top of the current cost of the product.   
 
-          - **Percent Markup - Standard Cost**. Use this to add a percent markup on top of the standard cost of the prouct.
+          - **Percent Markup - Standard Cost**. Use this to add a percent markup on top of the standard cost of the product.
 
           -  **Percent Margin - Current Cost**. Use this for the price offered in the price list to yield a percentage margin of the current cost of the product. 
 
