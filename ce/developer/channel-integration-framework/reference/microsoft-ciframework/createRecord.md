@@ -94,12 +94,13 @@ var data = "{
 // create contact record
 Microsoft.CIFramework.createRecord("contact",data).then(
     function success (result) {
-          console.log("Contact created with ID: " + result.id);
+      res=JSON.parse(result);
+          console.log("Contact created with ID: " + res[0].id);
           //perform operations on record creation
       },
       function (error) {
           console.log(error);
           //handle error conditions
       }
-  );
+  ); 
 ``` 

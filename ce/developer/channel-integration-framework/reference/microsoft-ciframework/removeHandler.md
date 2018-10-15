@@ -26,7 +26,7 @@ manager: shujoshi
 
 ## Syntax
 
-`Microsoft.CIFramework.removeHandler(eventName, handlerFunction).then(successCallback, errorCallback);`
+`Microsoft.CIFramework.removeHandler(eventName, handlerFunction);`
 
 ## Parameters
 
@@ -34,13 +34,6 @@ manager: shujoshi
 |------|------|----------|-------------|
 | eventName | string | Yes | Name of the event for which the handler is set. <br>The supported events are as follows:<br><ul><li><b>onclicktoact:</b> The event is invoked when the outbound communication (ClickToAct) enabled filed is clicked.</li> <li><b>onmodechanged:</b> The event is invoked when the panel mode is manually toggled between Minimized (0) and Docked (1). </li><li><b>onsizechanged:</b>The event is invoked when the panel size is manually changed by dragging </li><li><b>onpagenavigate:</b>The event is triggered before a navigation event occurs on the main page </li><li><b>onsendkbarticle: </b> The event is invoked when the user clicks the send button on the KB control.</li></ul>  |
 | handlerFunction | Function | Yes | The handler function is invoked when the any of the supported events trigger. |
-| successCallback | Function | No | A function to call when the request is successful. |
-| errorCallback | Function | No | A function to call when the request fails. |
-
-## Return Value
-
-On success, returns a promise object containing the attributes specified earlier in the description of the **successCallback** parameter.
-
 
 ## Examples
 
@@ -57,16 +50,7 @@ var eventData = {
   "entityLogicalName": "contact"
 }
 
-Microsoft.CIFramework.removeHandler("onclicktoact", handlerFunction).then (
-  function success (result){
-  console.log(success);
-          //the event is invoked
-        },
-        function (error) {
-          console.log(error);
-          //handle error conditions
-        }
-    );
+Microsoft.CIFramework.removeHandler("onclicktoact", handlerFunction);
   }
 ```
 
@@ -80,16 +64,7 @@ var eventData = {
   {"value": "0"}, 
 }
 
-Microsoft.CIFramework.removeHandler("onmodechanged", handlerFunction).then (
-  function success (result){
-  console.log(success);
-          //the event is invoked
-        },
-        function (error) {
-          console.log(error);
-          //handle error conditions
-        }
-    );
+Microsoft.CIFramework.removeHandler("onmodechanged", handlerFunction);
   }
 ```
 
@@ -103,16 +78,7 @@ var eventData = {
   {"value": "30"}, 
 }
 
-Microsoft.CIFramework.removeHandler("onsizechanged", handlerFunction).then (
-  function success (result){
-  console.log(success);
-          //the event is invoked
-        },
-        function (error) {
-          console.log(error);
-          //handle error conditions
-        }
-    );
+Microsoft.CIFramework.removeHandler("onsizechanged", handlerFunction);
   }
 ```
 
@@ -126,16 +92,7 @@ var eventData = {
   {"value": "https://mycrmorg.dynamics.com/<Org>/main.aspx?appid=25ac68f2-9ab5-e811-8149-000d3a43f05f&pagetype=entitylist&etn=contact"}, 
 }
 
-Microsoft.CIFramework.removeHandler("onpagenavigate", handlerFunction).then (
-  function success (result){
-  console.log(success);
-          //the event is invoked
-        },
-        function (error) {
-          console.log(error);
-          //handle error conditions
-        }
-    );
+Microsoft.CIFramework.removeHandler("onpagenavigate", handlerFunction);
   }
 ```
 
@@ -150,16 +107,7 @@ var eventData = {
   "link": "https://how.phones.work.com", 
 }
 
-Microsoft.CIFramework.removeHandler("onsendkbarticle", handlerFunction).then (
-  function success (result){
-  console.log(success);
-          //the event is invoked
-        },
-        function (error) {
-          console.log(error);
-          //handle error conditions
-        }
-    );
+Microsoft.CIFramework.removeHandler("onsendkbarticle", handlerFunction);
   }
 ```
 

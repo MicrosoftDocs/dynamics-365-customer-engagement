@@ -88,7 +88,8 @@ This sample code retrieves the name and phone number of a contact record with ID
 // retrieve contact record
 Microsoft.CIFramework.retrieveRecord("contact", "a8a19cdd-88df-e311-b8e5-6c3be5a8b200", "?$select=fullname,telephone1").then(
     function success(result) {
-        console.log(`Retrieved values: Full Name: ${result.fullname}, Telephone Number: ${result.telephone1}`);
+      res=JSON.parse(result);
+        console.log(`Retrieved values: Full Name: ${res[0].fullname}, Telephone Number: ${res[0].telephone1}`);
         // perform operations on record retrieval
     },
     function (error) {
