@@ -5,7 +5,7 @@ author: shellyhaverkamp
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/11/2018
+ms.date: 10/15/2018
 ms.topic: article
 ms.prod: 
 ms.technology: 
