@@ -103,12 +103,14 @@ See [Test your connection](#test-your-connection) for steps to verify your conne
 1. Click on the **Environment Options** gear icon in top-right corner. 
 1. In the **Manage Environments** dialog box that opens up, click on **Add** button to add a new environment.
 1. Click on **Bulk edit** in the new environment dialog box.
-1. Add a name for the environment and copy the following key-value pairs into the editing space.
+1. Add a name for the environment. Then copy the following key-value pairs into the editing space.
     ```
     url:http://yourservername/yourorgname
     version:8.2
     webapiurl:{{url}}/api/data/v{{version}}/
     ```
+![Create a new Postman environment to connect with On-premise instance](../media/postman-add-onprem-env.png "Create a new Postman environment to connect with On-premise instance")
+
 1. Replace the instance URL placeholder value with your Dynamics 365 instance URL and click **Add** to save the environment.
 1. Close the **Manage environments** dialog.
 
