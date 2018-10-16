@@ -1,5 +1,5 @@
 ---
-title: "Single Resource Optimization | MicrosoftDocs"
+title: "Single resource optimization | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/15/2018
@@ -26,7 +26,7 @@ search.app:
   - D365FS
 ---
 
-# Single Resource Optimization
+# Single resource optimization
 
 Single resource optimization provides a quick and simple way to re-optimize the schedules of a selected resource from the schedule board. This is done to ensure the resource continues to have an optimal schedule and route after schedule changes and cancellations occur during the day. For example, a resource may have overlapping bookings after getting assigned an emergency Work Order or arriving late due to traffic during the day.
 
