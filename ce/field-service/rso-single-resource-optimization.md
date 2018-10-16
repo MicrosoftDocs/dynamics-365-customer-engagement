@@ -10,7 +10,7 @@ The single resource optimization capability provides a quick way to re-optimize 
 
 - Resource scheduling optimization version 2.8 or higher
 
-- Bookable resources have the **Optimize Schedules** setting set to **Yes**
+- **Optimize Schedules** is set to **Yes** for the bookable resources
 
 - Default goal in **Resource Scheduling Optimization** > **Optimization Goals**. A default goal is created automatically when optimization runs.
 
@@ -18,56 +18,47 @@ The single resource optimization capability provides a quick way to re-optimize 
 
 There are two ways to use the schedule board to optimize the schedule for a single resource:
 
-(1) **One click with defaults:** From any schedule board view, optimize the schedule with one click by setting a time range to the end of the current day for the default goal.
+- **One click with defaults:** From any schedule board view, optimize the schedule with one click by setting a time range to the end of the current day for the default goal.
 
 **Note:** One click with defaults requires Field Service version 8.0 or higher
 
-(2) **Advanced with edits:** Optimize the schedule for a single resource by editing the goal and time range, running the optimization as a simulation, and then applying or discarding the results. This capability is only available from the schedule board view associated with the optimization scope.
+- **Advanced with edits:** Optimize the schedule for a single resource by editing the goal and time range, running the optimization as a simulation, and then applying or discarding the results. This capability is only available from the schedule board view associated with the optimization scope.
 
+### Optimize with one click
 
-
-
-(1) **Once click with defaults:**
-
-a) From the schedule board, right click the Resource's name, then click Optimize Schedule to start optimization for a selected resource
+1. From the schedule board, right click the resource's name, and then select **Optimize Schedule**. 
 >![Screenshot of triggering single resource optimization from schedule board](media/rso-single-resource-2.png)
 
-
-b) Yellow line indicates default optimization range, from NOW to end of today (12am)
-
-c) Gray mask indicates default optimization range, from NOW to end of today (12am)
-
-d) Optimization Panel showing selected resource name, default range, default goal, and optimization request status
+  a. Yellow line indicates default optimization range, from now to the end of today (12am)
+  b. Gray mask indicates default optimization range, from now to the end of today (12am)
+  c. Optimization panel showing resource name, default range, default goal, and optimization request status
+  
 >![Screenshot of single resource optimization with range and goal](media/rso-single-resource-3.png)
 
+### Perform advanced optimization with edits
 
-(2) **Advanced with edits:**
+1. Set the optimization range to the date and time.
 
-a) Customize optimization range to any date/time as needed
+2. Select the optimization goal.
 
-b) Select different optimization goal as needed
-
-c) **Run Now** will run the optimization and schedule bookings
+3. Select **Run Now** to run the optimization and schedule bookings.
 >![Screenshot of single resource optimization pane with options](media/rso-single-resource-4.png)
 
 
-d) **Run Simulation** will run the optimization and schedule simulated bookings shown as white. User can apply/discard simulation results. **Note:** Simulated bookings will not show on map with routes.
+- **Run Simulation** runs the optimization and schedules simulated bookings shown as white. Apply or discard simulation results. NOte that simulated bookings don't show on map with routes.
 
-e) Optimization Panel showing optimization request status
+- Optimization panel showing optimization request status
 >![Screenshot of running single resource optimization with simulation mode](media/rso-single-resource-5.png)
 
-## Additional Notes
+## Additional notes
 
-- A default goal is required for single resource optimization to work. A default goal is auto created when deploying optimization as seen in the image below.
+- A default goal is required for single resource optimization to work. A default goal is automatically created when deploying the optimization.
+- Single resource optimization only re-optimizes current bookings and does not create new bookings.
+- Single resource optimization can re-optimize bookings that were booked manually, booked via resource availability search, or booked from location agnostic requirements.
 
-- Single resource optimization will only re-optimize existing bookings and will not create new bookings.
-
-- Single resource optimization can be applied to, and will re-optimize, bookings that were originally booked manually or via resource availability search as well as bookings from location agnostic requirements.
-
-- This feature will show on the schedule board for all resources given optimization is deployed in the environment; however, it will only work if the selected Bookable Resource has Optimize Schedules set to Yes. This feature cannot be disabled or hidden.
+- This capability appears on the schedule board for all resources as long as optimization is deployed in the environment. However, single resource optimization only works if **Optimize Schedules** is set to **Yes** for the bookable resource. The single resource optimization capability can't be disabled or hidden.
 
 >![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-single-resource-1.png)
-The above picture is the default goal Resource Scheduling Optimization creates when deployed and can be edited.
 
 # Other Enhancements
 
