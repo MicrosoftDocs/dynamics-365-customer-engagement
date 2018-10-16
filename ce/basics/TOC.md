@@ -5,6 +5,7 @@
 ## [What are business processes](../basics/what-are-business-processes.md)
 ## [Find your administrator or support person](../basics/find-administrator-support.md)
 ## [Submit feedback or ratings](submit-feedback-ratings.md)
+
 # [Navigation and Basics](../basics/navigation-customer-engagement-enterprise.md)
 ## [Quick create](../basics/quick-create-enter-data-fast.md)
 ## [Pin frequently used items](../basics/pin-records-views-dashboards-used-frequently.md)
@@ -22,15 +23,18 @@
 ## [Use keyboard shortcuts](keyboard-shortcuts.md)
 ## [Print leads, quotes and more](../basics/print-leads-quotes-other-records.md)
 ## [Use Flow to automate processes](../basics/use-flow-automate-processes-across-services.md)
+
 # [Work with accounts and contacts](../basics/accounts-contacts.md)
 ## [Send bulk email](../basics/send-bulk-email-customers.md)
 ## [Deactivate accounts or contacts](../basics/deactivate-activate-account-contact.md)
+
 # [Dashboards and charts](../basics/start-your-day-dashboard-chart.md)
 ## [View trending info with Office Delve](../basics/view-relevant-trending-information-office-delve.md)
 ## [Add PowerBI to dashboards](../basics/add-edit-power-bi-visualizations-dashboard.md)
 ## [Track your progress with charts](../basics/track-your-progress-with-charts.md)
 ## [Create or edit a chart](../basics/create-edit-chart.md)
 ## [Drill down in a chart](../basics/drill-down-chart.md)
+
 # [Reports](../basics/run-report.md)
 ## [Share a report](../basics/share-report-users-teams.md)
 ## [Who can use a report?](../basics/determine-who-can-use-report.md)
@@ -48,6 +52,7 @@
 ### [Invoice, quotes and orders](../basics/invoice-quote-order-reports.md)
 ### [Service insights](../basics/service-insights-reports.md)
 ### [Admin reports](../basics/user-summary-report.md)
+
 # [Activities and the activities feed](../basics/work-with-activities.md)
 ## [Add an activity to a record](../basics/add-phone-call-task-email-appointment-activity-case-record.md)
 ## [Activities feed](../basics/stay-up-date-with-customer-news-with-activity-feed.md)
@@ -57,7 +62,14 @@
 ## [Workplace calendar](../basics/workplace-calendar.md)
 ## [Add a signature for an email or queue](create-signature-dynamics-365-email-queue.md)
 ## [Send bulk email](../basics/send-bulk-email-customers.md)
+
 # [Collaboration](../basics/collaborate-with-team.md)
+## [Teams](../basics/integrate-with-microsoft-teams.md) 
+### [Setup Teams integration with Dynamics 365 (online)](install-personal-team-apps.md)
+### [Use the personal app](use-personal-app.md)
+### [Use the team app](use-team-app.md)
+### [Delete personal data](delete-teams-data.md)
+### [Troubleshoot Teams](troubleshoot-teams.md)
 ## [Yammer](../basics/collaborate-communicate-with-yammer.md)
 <!-- ## [Collaborate with GigJam](../basics/collaborate-real-time-with-gigjam.md) -->
 ## [Office 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md)
@@ -66,11 +78,13 @@
 ## [OneNote](../basics/use-onenote.md)
 ## [OneNote FAQs](../basics/onenote-dynamics-365-faqs.md)
 ## [SharePoint documents](manage-sharepoint-documents-document-locations-in-Dynamics-365-apps.md)
+
 # [Import and export data](../basics/import-export-data.md)
 ## [Import contacts](../basics/import-contacts.md)
 ## [Import accounts, leads and more](../basics/import-accounts-leads-other-data.md)
 ## [Merge duplicate records for accounts, contacts, or leads](merge-duplicate-records-accounts-contacts-leads.md)
-## [Analyze with Excel Online](../basics/analyze-dynamics-365-data-excel-online.md)
 ## [Export to Excel](../basics/export-data-excel.md)
+## [Export and analyze with Excel Online](../basics/analyze-dynamics-365-data-excel-online.md)
+## [Export to Excel dynamic worksheet](../basics/export-excel-dynamic-worksheet.md)
+## [Export to Excel static worksheet](../basics/export-excel-static-worksheet.md)
 ## [Export to Excel PivotTable](../basics/export-excel-pivottable.md)
-## [Export to Excel static worksheet](../basics/export-excel-dynamic-worksheet.md)
