@@ -35,7 +35,7 @@ search.app:
 [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal allows customization by using [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entities and some WYSIWYG support through it’s front end editing tools in the portal runtime. A new and simplified portal editor is now available for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal customizers that will help to reduce the learning curve on Dynamics 365 Portal customization and increase a customizer’s productivity.
 
 > [!NOTE]
-> - Portal’s out-of-the-box administrator webrole and any contact linked to that webrole can use the new editor.
+> - Portal’s out-of-the-box administrator web role and any contact linked to that web role can use the new editor.
 > - Only contacts with a web role which has following authorizations will be able to navigate to the new editor:
 >   - Following website access permissions should be enabled:
 >       - Manage Content Snippets
@@ -65,9 +65,6 @@ search.app:
     > [!div class="mx-imgBorder"]
     > ![Format text](media/format-text.png "Format text")
 
-    > [!NOTE]
-    > You can also point to the content snippet and select **Edit**.
-
 4.	After making the changes, click outside the content snippet boundary to save the changes. The status is displayed in the content snippet and footer.
 
 5.	To view the source of the content snippet, select the content snippet, and then select the source code icon **</>** in the footer. The source code is displayed in the **Source code editor** pane at the bottom of the screen. The changes you made earlier are updated in the source code.
@@ -86,7 +83,15 @@ search.app:
 
 2.	Under **HTML controls**, select **Text** to add a text box. You can edit the text as per your requirement. 
 
-3.	Click outside the content snippet to save the changes. You can also view changes in the source code editor.
+3.  To edit the text in a text box, select the text box, and then select the **Edit** icon.
+
+    > [!div class="mx-imgBorder"]
+    > ![Edit text in a text box](media/text-edit.png "Edit text in a text box")
+
+    > [!NOTE]
+    > You can also double-click a text box to start editing the text.
+
+4.	Click outside the content snippet to save the changes. You can also view changes in the source code editor.
 
 ## Add and edit an image in a content snippet
 
