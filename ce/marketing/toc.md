@@ -33,7 +33,6 @@
 ### Customize Marketing
 #### [Customizing Marketing](customize.md)
 #### [Create and customize marketing calendars](customize-marketing-calendars.md)
-#### [Add custom validation rules](custom-validation.md)
 
 ### Privacy and compliance
 #### [Data protection and GDPR](gdpr.md)
