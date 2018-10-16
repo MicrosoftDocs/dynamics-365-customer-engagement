@@ -91,12 +91,21 @@ You'll be able to connect directly to your [!INCLUDE[pn-microsoftcrm](../include
 
 Once your [!include[](../includes/pn-azure-blob-storage.md)] is set up and connected to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], you're ready to start working in [!include[](../includes/pn-power-bi.md)] to connect to your data sources and design your analytics.
 
-1. If you haven't already, then download the [!include[](../includes/pn-power-bi.md)] template for Marketing from the Microsoft download center.
-1. Open the template in [!include[](../includes/pn-power-bi-desktop.md)]. If you don't already have [!include[](../includes/pn-power-bi-desktop.md)], you can download it for free from [https://powerbi.microsoft.com/desktop/](https://powerbi.microsoft.com/desktop/).
+1. If you haven't already, then download one or both of the following:
+
+    - [Dynamics 365 for Marketing template for Power BI](https://download.microsoft.com%2Fdownload%2FA%2F9%2F8%2FA98D7307-C531-4C1E-AB51-9F888CAE887E%2FPowerBI%20Template%20-%20Dynamics%20365%20for%20Marketing.pbit): This template is prepared to connect to your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] data sources, but doesn't include any pre-built analyzers. This is a good place to start when developing custom solutions from scratch.
+    - [Email marketing analyzer for Power BI](https://download.microsoft.com%2Fdownload%2FA%2F9%2F8%2FA98D7307-C531-4C1E-AB51-9F888CAE887E%2FPowerBI%20Template%20-%20Dynamics%20365%20for%20Marketing.pbit): This template includes a feature-rich email marketing analyzer that is ready to connect to your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] data sources.
+
+1. Open your selected template in [!include[](../includes/pn-power-bi-desktop.md)]. If you don't already have [!include[](../includes/pn-power-bi-desktop.md)], you can download it for free from [https://powerbi.microsoft.com/desktop/](https://powerbi.microsoft.com/desktop/).
+
 1. The first time you open the [!include[](../includes/pn-power-bi.md)] template you'll be asked to specify connection strings and credentials to connect to both [!include[](../includes/pn-azure-blob-storage.md)] and to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
-    - You can find connection details for your [!include[](../includes/pn-azure-blob-storage.md)] by using the Storage Explorer app.
+
+    ![The Power BI email marketing analyzer](media/custom-analytics-pbi-connect.png "The Power BI email marketing analyzer")
+
     - To connect to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database, use the same user credentials that you use to sign into Marketing.
+    - You can find connection details for your [!include[](../includes/pn-azure-blob-storage.md)] by using the Storage Explorer app.
+    - You can choose the number of files of interaction data that you want to load. The newest files are loaded first, so the more files you load, the further back in time you will be able to see.
 
-The template provides many views, charts, and analytics that marketers should find useful. Use the standard features of the [!include[](../includes/pn-power-bi-desktop.md)] to explore the data sources and analytical displays, and to customize them as required.
+The email marketing analyzer provides many views, charts, and analytics that marketers should find useful. Use the standard features of the [!include[](../includes/pn-power-bi-desktop.md)] to explore the data sources and analytical displays, and to customize them as required.
 
-![The Power BI template](media/custom-analytics-pbi-template.png "The Power BI template")
+![The Power BI email marketing analyzer](media/custom-analytics-pbi-template.png "The Power BI email marketing analyzer")
