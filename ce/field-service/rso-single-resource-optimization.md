@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "field-service"
 ms.tgt_pltfrm: ""
-author: "shellyhaverkamp"
+author: "krbjoran"
 ms.author: "FieldServiceDave"
 ms.manager: "shellyhaverkamp"
 search.audienceType: 
@@ -80,88 +80,4 @@ There are two ways to use the schedule board to optimize the schedule for a sing
 
 - This capability appears on the schedule board for all resources as long as optimization is deployed in the environment. However, single resource optimization only works if **Optimize Schedules** is set to **Yes** for the bookable resource. The single resource optimization capability can't be disabled or hidden.
 
-> [!div class="mx-imgBorder"]
->![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-single-resource-1.png)
 
-# Other Enhancements
-
-## Default optimization goal
-
-When Resource Scheduling Optimization is deployed for the first time, the system will automatically create a default goal with some constraints and objectives enabled. As a reminder, a goal in Resource Scheduling Optimization is what the tool aspires to optimize. An example of a 2 goals is to maximize working hours or minimize travel time.
-
-- Default goal has below constraints and objectives enabled, user can modify as needed
-
-> [!div class="mx-imgBorder"]
->![Screenshot of default goal in scheduling parameters](media/rso-default-goal-1.png)
-
-> [!div class="mx-imgBorder"]
->![Screenshot of ](media/rso-default-goal-2.png)
-
-
-- The default goal is used when single resource optimization is selected from the schedule board.
-
-> [!div class="mx-imgBorder"]
->![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-single-resource-1.png)
-
-- If needed, a user can create a new optimization goal and associate it as a default goal
-
-## Enabled constraint for matching resource type
-
-The latest version of Resource Scheduling Optimization has a new constraint called **Matches Resource Type**. As a reminder, a constraint is a resource and requirement attribute the optimization considers when automatically assigning jobs. With this new constraint, the optimization will match the resource type between requirements and resources to decide which type of resource can fulfill a requirement. This brings Resource Scheduling Optimization functionality closer to functionality available for Resource Availability Search.
-
-Bookable Resources can have different resource types including:
-
-• Generic *
-
-• Users *
-
-• Contacts *
-
-• Accounts *
-
-• Equipment *
-
-• Facility *
-
-• Crew
-
-• Pool
-
-\* indicates resource types the optimization will consider
-
-In general, resource types define how the resource relates to the organization. As an example, resources with resource types of User are generally employees, whereas resource types of contacts or accounts may signify contractors.
-
-Additionally, Requirements have a multi-select option to specify which resource types are desired for the given requirement.
-
-> [!div class="mx-imgBorder"]
->![Screenshot of multi-select resource type attribute on requirement](media/rso-requirement-resource-type-field.png)
-
-With the new release, the optimization will now consider resource types of requirements when assigning resources to those requirements, if the resource type is one of the following:
-
-• Generic
-
-• Users
-
-• Contacts
-
-• Accounts
-
-• Equipment
-
-• Facility
-
-To enable this feature, navigate to Optimization Goals and add it as a constraint.
-
-> [!div class="mx-imgBorder"]
->![Screenshot of match resource type constraint in optimization setup](media/rso-resource-type-constraint.png)
-
-> [!div class="mx-imgBorder"]
->![Screenshot of match resource type constraint in optimization setup close up](media/rso-resource-type-constraint-close-up.png)
-
-If the Optimization Goal is related to an active Optimization Schedule, you will need to republish the schedule.
-
-## Additional Notes
-
-• Resource Scheduling Optimization will ignore requirements where resource type = pool or crew.
-
-• If a requirement has resource type = user and crew (ie one resource type that is considered by optimization and one that is not) the optimization will attempt to find a User resource to fulfill the requirement.
