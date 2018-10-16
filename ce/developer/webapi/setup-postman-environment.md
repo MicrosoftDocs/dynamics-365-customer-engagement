@@ -2,7 +2,7 @@
 title: "Setup a Postman environment(Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Learn how to setup and configure a Postman environment that connects with Dynamics 365 online and on-premise environments."
 ms.custom: ""
-ms.date: 07/23/2018
+ms.date: 10/16/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,7 +14,7 @@ ms.assetid: 955BA444-A53D-4843-9429-833B1636E2B4
 caps.latest.revision: 7
 author: "SushantSikka"
 ms.author: "susikka"
-manager: "sakudes"
+manager: "shujoshi"
 search.audienceType: 
   - developer
 search.app: 
@@ -53,9 +53,7 @@ Use these steps to create a Postman environment that you can use to connect with
 1. In the **Manage Environments** dialog box that opens up, click on **Add** button to add a new environment.
 <br>
 ![Click on Add button to add a new Postman environment](../media/postman-manage-env.png "Click on Add button to add a new Postman environment")<br>
-1. Click on **Bulk edit** in the new environment dialog box.<br>
-![Click on Bulk Edit to paste key-value pairs](../media/postman-bulkedit.png "Click on Bulk Edit to paste key-value pairs")<br>
-1. Add a name for the environment and copy the following key-value pairs into the editing space.
+1. Add a name for the environment. Then add the the following key-value pairs into the editing space.
 
     ```
     url:https://<add your environment name, like ‘myorg.crm’>.dynamics.com
