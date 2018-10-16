@@ -1,4 +1,23 @@
-### add metadata
+---
+title: "Single resource optimization for Resource Scheduling Optimization | MicrosoftDocs"
+ms.custom: "dyn365-fieldservice"
+ms.date: 10/19/2018
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "field-service"
+ms.tgt_pltfrm: ""
+author: "shellyhaverkamp"
+ms.author: "FieldServiceDave"
+ms.manager: "shellyhaverkamp"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
+--- 
 
 # Single resource optimization
 
