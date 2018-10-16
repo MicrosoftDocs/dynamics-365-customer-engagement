@@ -36,6 +36,10 @@ To find these settings, open **Settings** > **Advanced settings** and choose one
 
 See the remaining sections of this topic for information about how to work with each page in the **Marketing settings** section.
 
+## CDS-A connector settings
+
+Use these settings to connect your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance to [!include[](../includes/pn-azure-blob-storage.md)]. This will enable you to share interaction data with external systems such as [!include[](../includes/pn-power-bi.md)]. For more information about how to use these settings, see [Create custom analytics with Power BI](custom-analytics.md).
+
 <a name="config-mkt-pages"></a>
 
 ## Configure landing pages
@@ -170,6 +174,16 @@ Use the **Marketing email** tab to set defaults that apply to your marketing ema
 ### The Customer journey tab
 
 Use the **Customer journey** tab to choose the default time zone that you will use when starting and stopping your customer journeys.
+
+### The Double opt-in tab
+
+Use the **Double opt-in** tab to enable set up the double opt-in feature. For complete details about this feature, including how to use the settings provided here, see [Set up double opt-in for new subscriptions and consent changes](double-opt-in.md).
+
+### The Bypass email deduplication tab
+
+Normally, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] deduplicates outgoing marketing email messages to ensure that each message is sent just once to each unique email address. That means that if more than one contact record in the target segment has the same email address, only one of those contacts will receive the message. Duplicate email addresses probably indicate that the same person is represented by two different records in your database (for example, because they registered at different times using two different first-name variants, such as "Bob" and "Robert"), so this is the desired behavior.
+
+However, some organizations need to send separate copies of the same email messages to multiple contacts that happen to be using the same email address; in this case, personalized content, such as account details, would probably be different for each recipient. If your organization requires this, then set **Bypass email deduplication** to **Yes**. Set it to **No** to revert to the standard deduplication behavior.
 
 ## Data protection tools
 
