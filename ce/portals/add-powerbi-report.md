@@ -3,7 +3,7 @@ title: "Add a Power BI report or dashboard to a webpage in a portal in Dynamics 
 description: "Instructions to add a Power BI report or dashboard to a webpage in the portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 10/01/2018
+ms.date: 10/17/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,11 +24,12 @@ search.app:
 
 # Add a Power BI report or dashboard to a webpage in portal
 
-You can add a Power BI report or dashboard to a webpage in portal by using the [powerbi](dynamics-entity-tags.md#powerbi) Liquid tag. You can add the tag in the Copy field on a web page or in the Source field on a web template.
+You can add a Power BI report or dashboard to a webpage in portal by using the [powerbi](dynamics-entity-tags.md#powerbi) Liquid tag. You can add the tag in the **Copy** field on a web page or in the **Source** field on a web template.
 
 For example: 
 
-```{% powerbi path:"https://app.powerbi.com/view?r=eyJrIjoiNjMzZTY1ZTItMDE2My00NGY5LWIwYmItNjUwMGY5NzEY3IiwidCI6IjU3NGMzZTU2LTQ5MjQtNDAwNC1hZDFhLWQ4NDI3ZTdkYjI0MSiOjZ9" %}
+```
+{% powerbi path:"https://app.powerbi.com/view?r=eyJrIjoiNjMzZTY1ZTItMDE2My00NGY5LWIwYmItNjUwMGY5NzEY3IiwidCI6IjU3NGMzZTU2LTQ5MjQtNDAwNC1hZDFhLWQ4NDI3ZTdkYjI0MSiOjZ9" %}
 ```
 
 > [!NOTE]
@@ -51,19 +52,12 @@ For example:
 
 2.	Open the dashboard from which you want to embed a tile in your portal.
 
-3.	Point to the tile, select **More options**, and then select **Edit details**.
+3.	Point to the tile, select **More options**, and then select **Open in focus mode**.
 
     > [!div class="mx-imgBorder"]
-    > ![See details of a Power BI dashboard tile](media/powerbi-dashboard-details.png "See details of a Power BI dashboard tile")
+    > ![Open Power BI dashboard tile in focus mode](media/powerbi-dashboard-tile-focus.png "Open Power BI dashboard tile in focus mode")
 
-4.	In the Tile details pane, select **Technical details**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Power BI dashboard tile details](media/powerbi-dashboard-tile-details.png "Power BI dashboard tile details")
-
-5.	Copy the tile ID.
+4.	Copy the tile ID from the URL in the address bar. The tile ID is the value after /tiles/.
 
     > [!div class="mx-imgBorder"]
     > ![Power BI dashboard tile ID](media/powerbi-dashboard-tile-id.png "Power BI dashboard tile ID")
-
-

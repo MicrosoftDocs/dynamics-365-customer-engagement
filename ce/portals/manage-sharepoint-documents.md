@@ -69,7 +69,7 @@ When SharePoint integration is enabled, the following action becomes available:
 
 > [!NOTE]
 > Enabling or disabling the SharePoint integration will update the Azure Active Directory (Azure AD) application for the portal and add or remove the required SharePoint permissions, respectively. You will also be redirected to provide your consent for the changes to be made in the Azure AD application. 
-
+>
 > [!div class="mx-imgBorder"]
 > ![Disable SharePoint integration](media/sharepoint-integration-consent.png "Disable SharePoint integration")
 

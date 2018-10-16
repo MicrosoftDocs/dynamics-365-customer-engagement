@@ -216,7 +216,7 @@ There are two types of web templates:
 
 ## Navigate to another page
 
-After making changes to one page, you might want to make changes to other pages in your portal. To navigate to another page, select the required header link, and then select **Go to link**.
+After making changes to a page, you might want to make changes to other pages in your portal. To navigate to another page, select the required header link, and then select **Go to link**.
 
 > [!div class="mx-imgBorder"]
 > ![Navigate to another page](media/move-to-another-page.png "Navigate to another page")

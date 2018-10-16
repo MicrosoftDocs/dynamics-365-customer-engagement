@@ -2,7 +2,7 @@
 title: "Use Dynamics 365 tags for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn about Dynamics 365 tags available in portal"
 keywords: "Dynamics 365 tags; liquid tags"
-ms.date: 10/01/2018
+ms.date: 10/17/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
