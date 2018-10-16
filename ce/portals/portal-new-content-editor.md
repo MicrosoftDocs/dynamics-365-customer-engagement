@@ -32,19 +32,19 @@ search.app:
 >
 > We'd love your feedback on the new portal content editor! To send us feedback, register your account on the [Microsoft Insider program](https://experience.dynamics.com/insider/), and then [submit your feedback](https://go.microsoft.com/fwlink/p/?linkid=2030693).
 
-[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal allows customization by using [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entities and some WYSIWYG support through it’s front end editing tools in the portal runtime. A new and simplified portal editor is now available for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal customizers that will help to reduce the learning curve on Dynamics 365 Portal customization and increase a customizer’s productivity.
+[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal allows customization by using [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entities and some WYSIWYG support through its front-end editing tools in the portal runtime. A new and simplified portal editor is now available for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal customizers that will help to reduce the learning curve on Dynamics 365 Portal customization and increase a customizer’s productivity.
 
 > [!NOTE]
 > - Portal’s out-of-the-box administrator web role and any contact linked to that web role can use the new editor.
-> - Only contacts with a web role which has following authorizations will be able to navigate to the new editor:
->   - Following website access permissions should be enabled:
+> - Only contacts with a web role that has the following authorizations will be able to navigate to the new editor:
+>   - The following website access permissions should be enabled:
 >       - Manage Content Snippets
 >       - Manage Site Markers
 >       - Manage Web Link Sets
 >       - Preview Unpublished Entities
 >       More information: [Create website access permissions](website-access-permission.md)
->   - Webpage access permission as Grant Change on the Home (root) page of the portal website needs to be enabled. More information: [Control webpage access for portals](webpage-access-control.md)
-> - Drag and drop is not currently supported on the canvas and will be coming in one of the subsequent releases.
+>   - Webpage access permission because Grant Change on the Home (root) page of the portal website needs to be enabled. More information: [Control webpage access for portals](webpage-access-control.md)
+> - Drag and drop is not currently supported on the canvas. It will come in a subsequent release.
 
 ## Use the new editor
 
