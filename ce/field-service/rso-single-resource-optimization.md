@@ -4,6 +4,12 @@
 
 The single resource optimization capability provides a quick way to re-optimize a resource's schedule and travel route after schedule changes and cancellations have occurred during the day. For example re-optimizing a resource's schedule corrects overlapping booking when the resource is assigned an emergency work order, or arrives at a customer location late due to traffic.
 
+There are two ways to use the schedule board to optimize the schedule for a single resource:
+
+- **One click with defaults:** From any schedule board view, optimize the schedule with one click by setting a time range to the end of the current day for the default goal. Optimizing with one click requires Field Service application version 8.0 or higher.
+
+- **Advanced with edits:** Optimize the schedule for a single resource by editing the goal and time range, running the optimization as a simulation, and then applying or discarding the results. This capability is only available from the schedule board view associated with the optimization scope.
+
 >![Screenshot of triggering single resource optimization from schedule board](media/rso-single-resource-1.png)
 
 ## Prerequisites
@@ -14,15 +20,7 @@ The single resource optimization capability provides a quick way to re-optimize 
 
 - Default goal in **Resource Scheduling Optimization** > **Optimization Goals**. A default goal is created automatically when optimization runs.
 
-## Optimize the schedule for a single resource
-
-There are two ways to use the schedule board to optimize the schedule for a single resource:
-
-- **One click with defaults:** From any schedule board view, optimize the schedule with one click by setting a time range to the end of the current day for the default goal. Optimizing with one click requires Field Service application version 8.0 or higher.
-
-- **Advanced with edits:** Optimize the schedule for a single resource by editing the goal and time range, running the optimization as a simulation, and then applying or discarding the results. This capability is only available from the schedule board view associated with the optimization scope.
-
-### Optimize with one click
+## Optimize with one click
 
 1. From the schedule board, right click the resource's name, and then select **Optimize Schedule**. 
 >![Screenshot of triggering single resource optimization from schedule board](media/rso-single-resource-2.png)
@@ -33,7 +31,7 @@ There are two ways to use the schedule board to optimize the schedule for a sing
   
 >![Screenshot of single resource optimization with range and goal](media/rso-single-resource-3.png)
 
-### Perform advanced optimization with edits
+## Perform advanced optimization with edits
 
 1. Set the optimization range to the date and time.
 
