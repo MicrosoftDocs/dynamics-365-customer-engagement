@@ -45,33 +45,15 @@ Contoso bike repairs, a company that repairs bikes, schedules repair services fo
 In this case, Contoso bike repairs can benefit from the Service Scheduling feature of Dynamics 365 for Customer Service. They can quickly cater to their customers who are looking to avail their repair services. With the various service scheduling entities, they can plan service activities for their customers considering the availability of resources, facilities, and equipment.
 
 ## Access Service Scheduling in the Customer Service Hub
-With the Customer Engagement apps version 9.1 release, Service Scheduling built on Universal Resource Scheduling (URS) will be available in the Customer Service Hub. Upgrade and install to the latest update to avail the new service scheduling features.
+With the Customer Engagement apps version 9.1 release, Service Scheduling, built on Universal Resource Scheduling (URS), is available from the Customer Service Hub sitemap.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable the new URS based Service Scheduling](enable-urs-service-scheduling.md)
-
-You can access the new service scheduling from the Customer Service Hub sitemap:
-
-- On the sitemap icon ![Sitemap](media/sitemap-icon.png) , select **...** to go to **Service Scheduling** and access  the scheduling entity record types
+- On the sitemap icon ![Sitemap](media/sitemap-icon.png) , select **...** to go to **Service Scheduling** and access the entity record types
 
   ![access-service-scheduling](media/access-service-scheduling-csh.png)
 
-See [Understand Service Scheduling entities](#understand-service-scheduling-entities) to know more about the entities in service scheduling.
+[!INCLUDE[proc_more_information] [Avail the new Service Scheduling experience](enable-urs-service-scheduling.md#avail-the-new-service-scheduling-experience).
 
-## Know the service terminology  
-  
-- **Service:** A type of work, such as a maintenance activity, performed for a customer by one or more resources. Services are schedulable activities.  
-  
-- **Resource:** Users, facilities or equipment, or teams that can be scheduled and have work schedules.  
-  
-- **Resource category:** Groups of resources that can be scheduled interchangeably.  
- 
-- **Work hours:** The hours that a resource is available for scheduling.  
-  
-- **Organizational units:** The location of a resource. Use organizational units to make sure that the customer and the resource are in the same location.  
-  
-- **Service activity:** A schedulable appointment to provide a service to a customer. A service activity uses one or more resources to perform a service at a specific time and place. An appointment is a schedulable activity that does not use services and does not require a resource with work hours.  
-  
-- **Scheduling rule:** A set of criteria that specifies which personnel, equipment, facilities, or resource categories are required to perform a service, or how to select these resources, based on parameters like quantity and capacity.  
+See [Understand Service Scheduling entities](#understand-service-scheduling-entities) to know more about the entities in service scheduling.
   
 ## Understand Service Scheduling entities
 
@@ -126,6 +108,6 @@ Service Scheduling entities are grouped under the following logical groups:
 
 ### See also    
 
-[Get the new Service Scheduling experience](enable-urs-service-scheduling.md)
+[Understand the new Service Scheduling experience](enable-urs-service-scheduling.md)
     
 [Service Scheduling FAQ](service-scheduling-faq.md) 

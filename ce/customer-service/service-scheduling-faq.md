@@ -26,6 +26,22 @@ search.app:
 
 Read this topic to find answers to some common questions regarding Service Scheduling, it's legacy and new experience, setup, and some key concepts.
 
+## What are some key service terminologies?
+
+- **Service:** A type of work, such as a maintenance activity, performed for a customer by one or more resources. Services are schedulable activities.  
+  
+- **Resource:** Users, facilities or equipment, or teams that can be scheduled and have work schedules.  
+  
+- **Resource category:** Groups of resources that can be scheduled interchangeably.  
+ 
+- **Work hours:** The hours that a resource is available for scheduling.  
+  
+- **Organizational units:** The location of a resource. Use organizational units to make sure that the customer and the resource are in the same location.  
+  
+- **Service activity:** A schedulable appointment to provide a service to a customer. A service activity uses one or more resources to perform a service at a specific time and place. An appointment is a schedulable activity that does not use services and does not require a resource with work hours.  
+  
+- **Scheduling rule:** A set of criteria that specifies which personnel, equipment, facilities, or resource categories are required to perform a service, or how to select these resources, based on parameters like quantity and capacity.  
+
 ## What is Capacity and effort? What is the difference?
  You can set up services and resources in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to take into account different-sized facilities or the experience levels of your users when a service is scheduled. This is known as capacity scheduling. Capacity is a relative unit that you define. 
 
