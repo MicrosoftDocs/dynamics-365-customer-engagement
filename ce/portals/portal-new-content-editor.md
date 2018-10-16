@@ -36,12 +36,12 @@ search.app:
 
 > [!NOTE]
 > - Portal’s out-of-the-box administrator web role and any contact linked to that web role can use the new editor.
-> - Only contacts with a web role that has the following authorizations will be able to navigate to the new editor:
+> - Only contacts with a web role that has the following authorizations will be able to navigate to the new editor.
 >   - The following website access permissions should be enabled:
 >       - Manage Content Snippets
 >       - Manage Site Markers
 >       - Manage Web Link Sets
->       - Preview Unpublished Entities
+>       - Preview Unpublished Entities <br/>
 >       More information: [Create website access permissions](website-access-permission.md)
 >   - Webpage access permission because Grant Change on the Home (root) page of the portal website needs to be enabled. More information: [Control webpage access for portals](webpage-access-control.md)
 > - Drag and drop is not currently supported on the canvas. It will come in a subsequent release.
@@ -50,7 +50,7 @@ search.app:
 
 1.	Sign in to the portal with administrator credentials. A message is displayed at the top of the screen to try the new editor.
 
-2.	Select **Try new editor** to open the new editor.
+2.	Select **Try new Editor** to open the new editor.
 
     > [!div class="mx-imgBorder"]
     > ![Try new editor](media/try-new-editor.png "Try new editor")
@@ -67,11 +67,14 @@ search.app:
 
 4.	After making the changes, click outside the content snippet boundary to save the changes. The status is displayed in the content snippet and footer.
 
+
+<!--from editor: Please confirm that angle bracket-forward slash-angle bracket in the following sentence is what you want viewers to see.--> 
+
 5.	To view the source of the content snippet, select the content snippet, and then select the source code icon **</>** in the footer. The source code is displayed in the **Source code editor** pane at the bottom of the screen. The changes you made earlier are updated in the source code.
 
 ## Add and edit a text box in a content snippet
 
-1.	Select a content snippet or a text box in the content snippet, and then select **Components** from the pane at the left-side of the screen.
+1.	Select a content snippet or a text box in the content snippet, and then select **Components** from the pane on the left side of the screen.
 
     > [!div class="mx-imgBorder"]
     > ![Components icon](media/components-icon.png "Components icon")
@@ -95,7 +98,7 @@ search.app:
 
 ## Add and edit an image in a content snippet
 
-1.	Select a content snippet or a text box in the content snippet, and then select **Components** from the pane at the left-side of the screen.
+1.	Select a content snippet or a text box in the content snippet, and then select **Components** from the pane on the left side of the screen.
 
     > [!div class="mx-imgBorder"]
     > ![Components icon](media/components-icon.png "Components icon")
@@ -112,7 +115,7 @@ search.app:
 
 3.	In the **Properties** pane, perform the following actions:
 
-    - In the **URL** field, modify the link of the image. Please note that only secured links are accepted, that is, https:// is mandatory.
+    - In the **URL** field, modify the link of the image. Only secured links are accepted—that is, https:// is mandatory.
 
     - To resize the image, update values in the **Width** and **Height** fields.
 
@@ -120,13 +123,13 @@ search.app:
         > ![Image properties](media/image-properties.png "Image properties")
     
     > [!NOTE]
-    > You can also select the image on canvas and drag the handles to resize it.
+    > You can also select the image on the canvas and drag the handles to resize it.
 
 4.	Click outside the content snippet to save the changes. You can also view changes in the source code editor.
 
-## Add and edit an iFrame in a content snippet
+## Add and edit an IFrame in a content snippet
 
-1.	Select a content snippet or a text box in the content snippet, and then select **Components** from the pane at the left-side of the screen.
+1.	Select a content snippet or a text box in the content snippet, and then select **Components** from the pane on the left side of the screen.
 
     > [!div class="mx-imgBorder"]
     > ![Components icon](media/components-icon.png "Components icon")
@@ -136,22 +139,22 @@ search.app:
     > [!div class="mx-imgBorder"]
     > ![Components pane](media/components-pane.png "Components pane")
 
-2.	Under **HTML controls**, select **iFrame**. The iFrame placeholder is added on the canvas.
+2.	Under **HTML controls**, select **IFrame**. The IFrame placeholder is added on the canvas.
 
     > [!div class="mx-imgBorder"]
-    > ![iFrame placeholder](media/iframe-placeholder.png "iFrame placeholder")
+    > ![IFrame placeholder](media/iframe-placeholder.png "IFrame placeholder")
 
 3.	In the **Properties** pane, perform the following actions:
 
-    - In the **Link** field, modify the link of the iFrame. Please note that only secured links are accepted, that is, https:// is mandatory.
+    - In the **Link** field, modify the link of the IFrame. Only secured links are accepted—that is, https:// is mandatory.
     
-    - To resize the iFrame, update values in the **Width** and **Height** fields.
+    - To resize the IFrame, update values in the **Width** and **Height** fields.
 
         > [!div class="mx-imgBorder"]
-        > ![iFrame properties](media/iframe-properties.png "iFrame properties")
+        > ![IFrame properties](media/iframe-properties.png "IFrame properties")
     
     > [!NOTE]
-    > You can also select the iFrame on canvas and drag the handles to resize it.
+    > You can also select the IFrame on the canvas and drag the handles to resize it.
 
 4.	Click outside the content snippet to save the changes. You can also view changes in the source code editor.
 
@@ -160,7 +163,7 @@ search.app:
 > [!NOTE]
 > You cannot edit a web template or a portal component. 
 
-1.	Select a content snippet or a text box in the content snippet, and then select **Components** from the pane at the left-side of the screen.
+1.	Select a content snippet or a text box in the content snippet, and then select **Components** from the pane on the left side of the screen.
 
     > [!div class="mx-imgBorder"]
     > ![Components icon](media/components-icon.png "Components icon")
@@ -173,9 +176,9 @@ search.app:
 2.	Select a web template or a portal component.
 
 There are two types of web templates:
-- Web templates which require no input (for example, Breadcrumb): You can add a breadcrumb on the content snippet. After adding the breadcrumb, click outside the content snippet to save changes and render the breadcrumb.
+- Web templates that require no input (for example, Breadcrumb): You can add a breadcrumb on the content snippet. After adding the breadcrumb, click outside the content snippet to save changes and render the breadcrumb.
 
-- Web templates which require specific inputs:
+- Web templates that require specific inputs:
 
     - **Ad**: For the Ad control, the advertisement placement name is required. You must specify the placement name from the portal app. If the placement name is not available, you must create it.
 
@@ -203,20 +206,20 @@ There are two types of web templates:
 
     - **Poll Template**: For the Poll Template control, the poll name is required. You must specify the name from the portal app. If the poll is not available, you must create it. You can also edit its value through the source code editor.
 
-    - **Random Ad**: For the Random Ad control, advertisement placement name is required. You must specify the name from the portal app. If the advertisement placement is not available, you must create it. You can also edit its value through the source code editor
+    - **Random Ad**: For the Random Ad control, advertisement placement name is required. You must specify the name from the portal app. If the advertisement placement is not available, you must create it. You can also edit its value through the source code editor.
 
-    - **Random Poll**: For the Random Poll control, poll placement name is required. You must specify the name from the portal app. If the poll placement is not available, you must create it. You can also edit its value through the source code editor
+    - **Random Poll**: For the Random Poll control, poll placement name is required. You must specify the name from the portal app. If the poll placement is not available, you must create it. You can also edit its value through the source code editor.
 
     - **Snippet**: For the Snippet control, you can go to the source code editor and insert the following code to render the content snippet:
 
       `{% include ‘snippet’ snippet_name: ‘Name’%}`
     
     > [!NOTE]
-    > Snippet rendering is not supported through properties of the snippet. The usability will be improved in the subsequent update.
+    > Snippet rendering is not supported through properties of the snippet. The usability will be improved in a subsequent update.
 
 ## Navigate to another page
 
-After making changes to a page, you might want to make changes to other pages in your portal. To navigate to another page, select the required header link, and then select **Go to link**.
+After making changes to a page, you might want to make changes to other pages in your portal. To navigate to another page, select the required header link, and then select **Go to Link**.
 
 > [!div class="mx-imgBorder"]
 > ![Navigate to another page](media/move-to-another-page.png "Navigate to another page")
@@ -230,7 +233,7 @@ If you want to go back to the old editor, select **Back to classic editor** in t
 
 ## Test language change in editor
 
-To use multiple languages in the editor, you must have a language pack installed in portal solutions and also enabled it on the portal. Once multiple language is enabled for the portal, you can see the option of language change in header of portal runtime. More information: [Enable multiple languages for a portal](enable-multiple-language-support.md)
+To use multiple languages in the editor, you must have a language pack installed in portal solutions and also enabled on the portal. Once multiple language is enabled for the portal, you can see the language change option in the header of the portal runtime. More information: [Enable multiple languages for a portal](enable-multiple-language-support.md)
 
 After selecting the new language, navigate to the new editor to see content in the portal in the selected language.
 
@@ -239,5 +242,5 @@ After selecting the new language, navigate to the new editor to see content in t
 
 ## Known issues
 
-- When you edit the content snippet of the page heading and press the space-bar at the end points of text block, white space is displayed over the page.
+- When you edit the content snippet of the page heading and press the spacebar at the end points of text block, white space is displayed over the page.
 - Default font size is not displayed for the selected text.
