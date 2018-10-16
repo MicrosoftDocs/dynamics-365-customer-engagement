@@ -69,6 +69,7 @@
 ## [Deployment](rso-deployment.md)
 ## [Configuration](rso-configuration.md)
 ## [Schedule optimization](rso-schedule-optimization.md)
+### [Single resource optimization](single-resource-optimization.md)
 ## [FAQ and troubleshooting tips](rso-faq.md)
 
 # [Connected Field Service (IoT) add-in](connected-field-service.md)

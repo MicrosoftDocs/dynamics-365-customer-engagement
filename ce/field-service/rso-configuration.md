@@ -272,17 +272,19 @@ The following explains how to define an optimization scope.
 
 Define the optimization goal 
 -----------------------------
-
-You can define how bookings should be optimized (constraints and objectives). The goal of the Resource Scheduling Optimization engine is to process a list of resources and a list of resource requirements, along with existing bookings, to create the optimal route/list of bookings for the resources. Bookings can be considered optimally scheduled if they:
+A goal in Resource Scheduling Optimization is what the tool aspires to optimize. An example of a 2 goals is to maximize working hours or minimize travel time. You can define how bookings should be optimized (constraints and objectives). The goal of the Resource Scheduling Optimization engine is to process a list of resources and a list of resource requirements, along with existing bookings, to create the optimal route/list of bookings for the resources. Bookings can be considered optimally scheduled if they:
 
 - Meet all company constraints.
 - Have the highest possible score for the company’s objectives.
   
   ![](media/13db00f67badee105913102fc3e121ed.png)
 
+
 **Engine Effort Level**: How much effort the RSO should make to find the best combination of resources, route, and day/time. The higher the effort, the longer RSO takes to complete the execution. For example, the effort might be very light, light, moderate, intense, or very intense. The higher the intensity, the more iterations of possible combinations the RSO engine considers.
 
+
 ### Define constraints
+
 
 - **Schedule Within Working Hours**: Creates the booking if it can be
     completed within the resource’s working hours. Verifies the booking is not
@@ -333,6 +335,20 @@ You can define how bookings should be optimized (constraints and objectives). Th
 
 - **Restricted Resources**: If marked, RSO will not schedule a restricted
     resource to the booking.
+
+### Default optimization goal
+
+Related to Resource Scheduling Optimization v2.8+
+
+When Resource Scheduling Optimization is deployed for the first time, the system will automatically create a default goal with some constraints and objectives enabled. 
+
+- Default goal has below constraints and objectives enabled, user can modify as needed or create a new optimization goal and associate it as a default goal
+
+>![Screenshot of default goal in scheduling parameters](media/rso-default-goal-1.png)
+>![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-default-goal-2.png)
+
+- The default goal is used when single resource optimization is selected from the schedule board.
+>![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-single-resource-1.png)
 
 ### Define objectives
 
@@ -386,3 +402,40 @@ You can define how bookings should be optimized (constraints and objectives). Th
     **Level of Importance**=10 for urgent priority and set **Level of
     Importance**=1 for low priority and RSO will score 1 urgent requirement the
     same as 10 low-priority requirements because both scores are 10.
+
+- **Matches resource type**: RSO will match the resource type between requirements and resources to decide which type of resource can fulfill a requirement. **Available with RSO v2.8+**
+
+Bookable Resources can have different resource types including:
+
+• Generic *
+
+• Users *
+
+• Contacts *
+
+• Accounts *
+
+• Equipment *
+
+• Facility *
+
+• Crew
+
+• Pool
+
+\* indicates resource types the optimization will consider
+
+If a requirement has resource type = user and crew (ie one resource type that is considered by optimization and one that is not) the optimization will attempt to find a User resource to fulfill the requirement.
+
+In general, resource types define how the resource relates to the organization. As an example, resources with resource types of User are generally employees, whereas resource types of contacts or accounts may signify contractors.
+
+Additionally, Requirements have a multi-select option to specify which resource types are desired for the given requirement.
+
+>![Screenshot of multi-select resource type attribute on requirement](media/rso-requirement-resource-type-field.png)
+
+To enable, navigate to Optimization Goals and add it as a constraint.
+
+>![Screenshot of match resource type constraint in optimization setup](media/rso-resource-type-constraint.png)
+>![Screenshot of match resource type constraint in optimization setup close up](media/rso-resource-type-constraint-close-up.png)
+
+
