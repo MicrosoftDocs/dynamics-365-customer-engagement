@@ -21,7 +21,7 @@ search.app:
 
 # Single resource optimization
 
-The single resource optimization capability provides a quick way to re-optimize a resource's schedule and travels route after schedule changes and cancellations have occurred during the day. For example, re-optimizing a resource's schedule corrects overlapping bookings when the resource is assigned an emergency work order, or arrives at a customer location late due to traffic.
+The single resource optimization capability provides a quick way to re-optimize a resource's schedule and travel routes after schedule changes and cancellations have occurred during the day. For example, re-optimizing a resource's schedule corrects overlapping bookings when the resource is assigned an emergency work order, or arrives at a customer location late due to traffic.
 
 There are two ways to use the schedule board to optimize the schedule for a single resource:
 
