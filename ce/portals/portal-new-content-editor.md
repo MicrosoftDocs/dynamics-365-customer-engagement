@@ -214,16 +214,16 @@ There are two types of web templates:
     > [!NOTE]
     > Snippet rendering is not supported through properties of the snippet. The usability will be improved in the subsequent update.
 
-## Move to another page
+## Navigate to another page
 
-To navigate to another page, select the required header link to see the navigation options.
+After making changes to one page, you might want to make changes to other pages in your portal. To navigate to another page, select the required header link, and then select **Go to link**.
 
 > [!div class="mx-imgBorder"]
-> ![Move to another page](media/move-to-another-page.png "Move to another page")
+> ![Navigate to another page](media/move-to-another-page.png "Navigate to another page")
 
 ## Go back to the old editor
 
-If you want to go back to the old editor, select Back to classic editor in the header.
+If you want to go back to the old editor, select **Back to classic editor** in the header.
 
 > [!div class="mx-imgBorder"]
 > ![Go back to the old editor](media/back-to-classic-editor.png "Go back to the old editor")
