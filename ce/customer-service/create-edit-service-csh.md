@@ -1,5 +1,5 @@
 ---
-title: Create or change a service in service scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
+title: Create or change a service in Service Scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Know how to create or change a service in service scheduling in Dynamics 365 for Customer Service
 keywords: Service management; Dynamics 365; Customer Service; Service scheduling
 author: anjgupta
@@ -26,11 +26,11 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-To make scheduling services quick and easy, it’s helpful to predefine the specifics of the services you’d provide to customers. By using the service records in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can define:  
+To make scheduling services quick and easy, it’s helpful to predefine the specifics of the services you provide to customers. By using the service records in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can define:  
   
--   How long a service activity would last  
+-   How long a service activity would last.
   
--   What resources are available for the service activity, like resources, facilities, or equipment  
+-   What resources are available for the service activity, like staff, facilities, or equipment.
   
 > [!NOTE]
 > A service requires at least one selection rule and one or more resources, resource groups, or teams before the service can be scheduled with a service activity.
@@ -41,7 +41,7 @@ Make sure that you have the System Administrator or System Customizer security r
 
 1. In the Customer Service Hub sitemap, go to **Service Scheduling**.
 2. From the list of entity records, select **Scheduling > Service**.
-   - The **Active Services** view is displayed. You can switch between various system views using the drop-down.
+   - The **Active Services** view is displayed. You can switch between various system views using the drop-down menu.
    - Select **Show Chart** in the command bar to see the chart view.
    - Select any existing service to see additional options in the command bar
 
@@ -60,7 +60,7 @@ Make sure that you have the System Administrator or System Customizer security r
 
      > [!NOTE]
      > The maximum duration of an appointment or service activity is 10 days.
-   - Choose if the service is **Part of Same** organizational unit, resource tree or location.
+   - Choose whether the service is **Part of Same** organizational unit, resource tree or location.
    - Lookup or quick create a **Fulfillment Preference**.
    - Specify the **Organizational Unit**.
    - Add **Resource Categories**  and define **Characteristics**.
@@ -78,12 +78,12 @@ Make sure that you have the System Administrator or System Customizer security r
 7.  When you’re ready to save your data, select **Save**.  
   
 ## Activate or deactivate a service  
- You can make a service available on unavailable for scheduling by activating or deactivating it. To do this, in the list of service records, select a service, then select **Activate** or **Deactivate** in the command bar.  
+ You can make a service available or unavailable for scheduling by activating or deactivating it. To do this, in the list of service records, select a service, and then select **Activate** or **Deactivate** in the command bar.  
 
 ## Test your service  
  Before you start using a service, test it. Create a service activity with no criteria other than the service. You can use the results to confirm that the service is selecting correctly. The message bar will also display any problems with the search.  
   
-1.  In the Customer Service hub sitemap, select **Scheduling** > **Service Activity**. This bypasses the scheduling form.  
+1.  In the Customer Service Hub sitemap, select **Scheduling** > **Service Activity**. This bypasses the scheduling form.  
   
 2.  Select the service to test.  
   

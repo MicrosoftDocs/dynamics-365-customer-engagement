@@ -24,7 +24,7 @@ search.app:
 
 # Use the schedule board to configure service activity
 
-Schedule Board in Service Scheduling lets you view resource availability before you can book them for service activities. Set up views and filters as per your preference and book service activities for each of your resources.
+Schedule board in Service Scheduling lets you view resource availability before you book them for service activities. Set up views and filters as per your preference and book service activities for each of your resources.
 
 In the schedule board, you can do the following tasks and activities:  
   
@@ -41,13 +41,13 @@ In the schedule board, you can do the following tasks and activities:
 > [!NOTE]
 > You can’t customize the schedule board or change the default view with the application. However, you can ask your system administrator to change the colors of the time blocks.  
  
-## Access Schedule Board
+## Access the schedule board
 
 In the Customer Service Hub sitemap, navigate to **Service Scheduling** > **Tools** and select **Schedule Board**.
 
-## Navigate the Schedule Board
+## Navigate the schedule board
 
-In the **Schedule Board**:
+Here’s what you’ll see when you open the schedule board:
 
 ![schedule-board](media/schedule-board.png)
 
@@ -61,7 +61,7 @@ In the **Schedule Board**:
    |6    |   View additional details of the booking in the **Details** tab.|
    |7   |   Select requirements and create a resource booking in the **Create Resource Booking** tab. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create Resource Booking](#create-resource-booking) |
    |8 | To change how much of the calendar is available to view, use the **Zoom** scale. Select specific date ranges to view in the **From** and **To** lists.  |
-   |9     |  Filter information by **Characteristics - Rating Roles**, **Territories**, **Organizational Units**, **Resource Types**, **Teams**, and **Business Units** to narrow or expand the schedule board view, suing the **Filter** tab. </br> </br> Map view shows the location of resources, organizational units, bookings, and requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure the filter and map view](#configure-the-filter-and-map-view)  |
+   |9     |  Filter information by **Characteristics - Rating, Roles**, **Territories**, **Organizational Units**, **Resource Types**, **Teams**, and **Business Units** to narrow or expand the schedule board view, using the **Filter** tab. </br> </br> Map view shows the location of resources, organizational units, bookings, and requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure the filter and map view](#configure-the-filter-and-map-view)  |
    | 10    |   To view the details of any resource, appointment, or service activity, select the record in the list to the left of the calendar, and then at the bottom of the calendar, under the **Zoom** scale, select the **Expand** button to expand the preview pane. You can also double-click a record to open it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  [Configure Booking Requirements](#configure-booking-requirements)    |
    |  |     |
  
@@ -73,7 +73,7 @@ You can create and add additional tabs in the schedule board using the  **Initia
 
 ### Scheduler settings 
 
-**Scheduler settings** in the Configuration tab helps you configure your time offset so you can synchronize dates and content with a location.
+**Scheduler settings** in the Configuration tab helps you configure your time offsite so you can synchronize dates and content with a location.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Scheduler settings](../field-service/configure-schedule-board.md#scheduler-settings)  
 
@@ -83,7 +83,7 @@ You can select requirements and create a booking for the selected resource using
 
 In the tab:
 
-- Select a resource in the **Resource** drop-down.
+- Select a resource in the **Resource** drop-down list.
 - Select the start and end date using the calendars in **Start Date** and **End Date**.
 - Choose **Booking Status** and **Booking Method**.
 - Select **Book** to create a resource booking.

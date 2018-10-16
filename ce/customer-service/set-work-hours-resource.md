@@ -1,7 +1,7 @@
 ---
 title: Set work hours to define availability (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Understand how to set work hours to define availability in Dynamics 365 for Customer Service
-keywords: Set work hours for a resource; Dynamics 365; set work hours for a facility or equipment ; Customer Service
+keywords: Set work hours for a resource; Dynamics 365; set work hours for a facility or equipment ; Customer Service; Service Scheduling
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
@@ -66,7 +66,7 @@ You can set the hours a resource works or set the operating hours for a facility
   
          This option changes this entire schedule from the start to end date.  
   
-         Selecting this option might change past days, which may affect reports regarding hours worked in the past.  
+         Selecting this option might change past days, which could affect reports regarding hours worked in the past.  
   
 10. In the **Weekly Schedule** dialog box, in the **Set the recurring weekly schedule** section, select one of the following:  
   
@@ -144,7 +144,7 @@ You can set the hours a resource works or set the operating hours for a facility
   
          This option changes this entire schedule from the start to end date.  
   
-         Selecting this option might change past days, which may affect reports regarding hours worked in the past.  
+         Selecting this option might change past days, which could affect reports regarding hours worked in the past.  
   
 8.  In the **Weekly Schedule** dialog box, in the **Set the recurring weekly schedule** section, select one of the following:  
   
@@ -192,7 +192,7 @@ You can set the hours a resource works or set the operating hours for a facility
   
 11. To define a time when a service will not be available, on the **Service Restrictions** tab, select **New**. In the **Edit a Service Restriction** dialog box, select the service, and select the start and end time between which the service will be unavailable, and then select **OK**.  
   
-12. select **Save and Close** to close the **Weekly Schedule** dialog box.  
+12. Select **Save and Close** to close the **Weekly Schedule** dialog box.  
   
 > [!NOTE]
 > - You can set the work hours for a single day by double-clicking the day, and then in the **Edit Schedule** dialog box, select **This date only**, then select **OK**. Then, perform step 10 in the procedure.  

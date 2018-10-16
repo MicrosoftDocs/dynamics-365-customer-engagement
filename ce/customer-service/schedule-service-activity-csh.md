@@ -1,5 +1,5 @@
 ---
-title: Schedule a service activity in service scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
+title: Schedule a service activity in Service Scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Know how to schedule a service activity in service scheduling in Dynamics 365 for Customer Service
 keywords: Schedule a service activity; Dynamics 365; Customer Service; service scheduling
 author: anjgupta
@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Use service activity to schedule service appointments by searching for an available time for a service activity. You can either search for an open time using search criteria that, at a minimum, includes selecting a service, or you can define a more complex set of criteria. You can also create a service activity without checking for conflicts in the scheduled service. The service activity appears as a color block on the service calendar  
+Use service activity to schedule service appointments by searching for an available time for a service activity. You can either search for an open time using search criteria that, at a minimum, include selecting a service, or you can define a more complex set of criteria. You can also create a service activity without checking for conflicts in the scheduled service. The service activity appears as a color block on the service calendar  
   
 > [!NOTE]
 > You can’t create a recurring service activity. Create individual service activities as needed.
@@ -37,17 +37,17 @@ Make sure that you have the System Administrator or System Customizer security r
 
 1. In the Customer Service Hub sitemap, go to **Service Scheduling**.
 2. From the list of entity records, select **Scheduling > Service Activity**.
-   - The **My Service Activities** view is displayed. You can switch between various system views using the drop-down.
+   - The **My Service Activities** view is displayed. You can switch between various system views using the drop-down menu.
    - Select **Show Chart** in the command bar to see the chart view.
    - Select any existing service activity to see additional options in the command bar.
 3. On the command bar, select **Service Activity** to create a new service activity.  
 
 4. In the **Service Activity** section:
     - Enter the **Subject** of the service activity.
-    - Select the type of service from the **Service** drop-down.
+    - Select the type of service from the **Service** drop-down menu.
     - Select **Customers** to specify the customer who requested the activity.
     - Specify **Location** of the activity.
-    - Select **Show Time As** Requested or Tentative.
+    - Select **Show Time As** either Requested or Tentative.
     - Provide the **Organizational Business Unit**.
 
 5. Select **Save**.

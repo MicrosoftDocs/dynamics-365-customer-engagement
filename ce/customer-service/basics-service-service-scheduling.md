@@ -1,5 +1,5 @@
 ---
-title: Overview of service and service scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
+title: Overview of Service Scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Know the basics of service and service scheduling in Dynamics 365 for Customer Service
 keywords: Service scheduling; Dynamics 365; Customer Service; Universal Resource Scheduling (URS)
 author: anjgupta
@@ -32,17 +32,17 @@ Service Scheduling, now built atop **Universal Resource Scheduling (URS)**, prov
 
 ## Understand the basics of scheduling services
 
-Using Service Scheduling, you can plan and schedule service activities for your customers by bringing together all your resources. This can be explained with the help of following scenario: 
+Using Service Scheduling, you can plan and schedule service activities for your customers by bringing together all your resources. The following scenario helps explain this: 
 
-Contoso bike repairs, a company that repairs bikes, schedules repair services for their customers. To facilitate this process, they need to bring together the following information:
+Contoso bike repairs schedules repair services for their customers. To facilitate this process, Contoso needs to bring together the following information:
 
-- The types of bike repair services they offer
-- Work hours during which they perform their services
-- The personnel and equipments they have, to perform those services 
-- Capacity and expert level for each personnel
-- Geographical locations where they offer their services
+- The types of bike repair services they offer.
+- Work hours during which they perform their services.
+- The personnel and equipments they have, to perform those services. 
+- Capacity and expert level for all personnel.
+- Geographical locations where they offer their services.
 
-In this case, Contoso bike repairs can benefit from the Service Scheduling feature of Dynamics 365 for Customer Service. They can quickly cater to their customers who are looking to avail their repair services. With the various service scheduling entities, they can plan service activities for their customers considering the availability of resources, facilities, and equipment.
+In this case, Contoso bike repairs can benefit from the Service Scheduling feature of Dynamics 365 for Customer Service. They can quickly cater to their customers who are looking to use their repair services. With the various service scheduling entities, they can plan service activities for their customers considering by the availability of resources, facilities, and equipment.
 
 ## Access Service Scheduling in the Customer Service Hub
 With the Customer Engagement apps version 9.1 release, Service Scheduling, built on Universal Resource Scheduling (URS), is available from the Customer Service Hub sitemap.
@@ -53,7 +53,7 @@ With the Customer Engagement apps version 9.1 release, Service Scheduling, built
 
 [!INCLUDE[proc_more_information] [Avail the new Service Scheduling experience](enable-urs-service-scheduling.md#avail-the-new-service-scheduling-experience).
 
-See [Understand Service Scheduling entities](#understand-service-scheduling-entities) to know more about the entities in service scheduling.
+See [Understand Service Scheduling entities](#understand-service-scheduling-entities) to learn more about the entities in service scheduling.
   
 ## Understand Service Scheduling entities
 
@@ -62,16 +62,16 @@ Service Scheduling entities are grouped under the following logical groups:
 **Scheduling**
 
 - **Resources** </br>
-   Anything that needs to be scheduled can be termed as **Resources**. This can be users, crews, service centers, company assets (equipment), accounts, or contacts. 
+   Anything that needs to be scheduled can be termed as **Resources**. This can be personnel, crews, service centers, company assets (equipment), accounts, or contacts. 
 
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and set up bookable resources](resources-service-scheduling.md)
 
-- **Resources Categories** </br>
+- **Resource Categories** </br>
    With Resource categories,  you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment. 
  
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md)
 
-- **Facilities/Equipments**  </br>
+- **Facilities/Equipment**  </br>
    Facilities and equipment are resources you’d use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. 
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add facilities and equipments to schedule service](add-facilities-equipment-ss-csh.md)
@@ -82,7 +82,7 @@ Service Scheduling entities are grouped under the following logical groups:
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a service](create-edit-service-csh.md)
 
 - **Service Activities** </br>
-   Create a service activity by finding the next available time of resources for a service or simply without checking for conflicts. 
+   Create a service activity by finding the next time resources are available for a service. 
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md)
 
@@ -96,7 +96,7 @@ Service Scheduling entities are grouped under the following logical groups:
 **Settings**
 
 - **Organizational Units** </br>
-   Your company probably organizes its consulting business by geography, function, or other areas. You can create organizational units that reflect your consulting business. 
+   Your company organizes its business by geography, function, or other areas. You can create organizational units that reflect your business. 
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage organizational units](create-org-units-cs-scheduling.md)
 

@@ -1,7 +1,7 @@
 ---
-title: Set up resource categories for service scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
+title: Set up resource categories for Service Scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Know how to create and set up resource categories for service scheduling in Dynamics 365 for Customer Service
-keywords: Resource categories; Service scheduling; Dynamics 365; Customer Service; Universal Resource Scheduling (URS)
+keywords: Resource categories; Service Scheduling; Dynamics 365; Customer Service; Universal Resource Scheduling (URS)
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Using bookable resource categories you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment.
+With bookable resource categories, you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment.
 
 ## Create a new resource category
 
@@ -34,7 +34,7 @@ Make sure that you have the System Administrator or System Customizer security r
 
 1. In the Customer Service Hub sitemap, go to **Service Scheduling**.
 2. From the list of entity records, select **Scheduling > Resource Category**.
-   - The **Active Resource Categories** view is displayed. You can switch between various system views using the drop-down.
+   - The **Active Resource Categories** view is displayed. You can switch between various system views using the drop-down menu.
    - Select **Show Chart** in the command bar to see the chart view.
    - Select any existing resource category to see additional options in the command bar
 3. On the command bar, select **New** to create a new bookable resource category. 
@@ -48,11 +48,11 @@ Make sure that you have the System Administrator or System Customizer security r
 
    ![resource categories](media/resource-categories.png)
 
-Similarly, you can create a new requirement resource category for requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a Requirement Resource Category](#create-a-requirement-resource-category).
+Similarly, you can create a new requirement resource category for requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a requirement resource category](#create-a-requirement-resource-category).
 
 ## Add resources to a resource category
 
-To assign resources to resource category:
+To assign resources to a resource category:
 
 1. In the **Related** section, go to **Resource Category Associations**.
 
@@ -60,7 +60,7 @@ To assign resources to resource category:
 
 3. Add a resource to this resource category by selecting a resource in the **Resource** box. You can either lookup for an existing resource or create a new one.
 
-## Create a Requirement Resource Category
+## Create a requirement resource category
 
 1. In the **Related** section, go to **Requirement Resource Category**.
 

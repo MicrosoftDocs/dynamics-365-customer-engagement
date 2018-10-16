@@ -1,5 +1,5 @@
 ---
-title: Service Scheduling frequently asked questions (Dynamics 365 for Customer Service) | MicrosoftDocs
+title: Service Scheduling Frequently Asked Questions (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: See some common questions about service scheduling and setting it up in Dynamics 365 for Customer Service
 keywords: Service scheduling; Dynamics 365; Customer Service; Universal Resource Scheduling (URS); FAQ
 author: anjgupta
@@ -30,7 +30,7 @@ Read this topic to find answers to some common questions regarding Service Sched
 
 - **Service:** A type of work, such as a maintenance activity, performed for a customer by one or more resources. Services are schedulable activities.  
   
-- **Resource:** Users, facilities or equipment, or teams that can be scheduled and have work schedules.  
+- **Resource:** Personnel, facilities or equipment, or teams that can be scheduled and have work schedules.  
   
 - **Resource category:** Groups of resources that can be scheduled interchangeably.  
  

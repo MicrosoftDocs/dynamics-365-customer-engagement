@@ -1,5 +1,5 @@
 ---
-title: Set up resources for service scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
+title: Set up resources for Service Scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Know how to create and set up resources for service scheduling in Dynamics 365 for Customer Service
 keywords: Resources; Service scheduling; Dynamics 365; Customer Service; Universal Resource Scheduling (URS)
 author: anjgupta
@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-A resource in service scheduling is anything that needs to be scheduled. You can set up Generic, Contact, User, Equipment, Account, Crew, Facility, or Pool as bookable resource.
+A resource in Service Scheduling is anything that needs to be scheduled. You can set up Generic, Contact, User, Equipment, Account, Crew, Facility, or Pool as bookable resource.
 
 ## Create a new bookable resource
 
@@ -34,9 +34,9 @@ Make sure that you have the System Administrator or System Customizer security r
 
 1. In the Customer Service Hub sitemap, go to **Service Scheduling**.
 2. From the list of entity records, select **Scheduling > Resources**.
-   - The **Active Bookable Resources** view is displayed. You can switch between various system views using the drop-down.
+   - The **Active Bookable Resources** view is displayed. You can switch between various system views using the drop-down menu.
    - Select **Show Chart** in the command bar to see the chart view.
-   - Select any existing bookable resource to see additional options in the command bar
+   - Select any existing bookable resource to see additional options in the command bar.
 3. On the command bar, select **New** to create a new bookable resource. 
 4. In the **General** section:
    - Select a **Resource Type**. You can choose from the following options:
@@ -50,14 +50,14 @@ Make sure that you have the System Administrator or System Customizer security r
       - Facility
       - Pool
       
-   - Look up for the resource type. You can also create a new record using the quick create dialog box. The **Name** of the resource type is automatically populated.
+   - The field name is automatically populated. Look up for the record. You can also create a new record using the **Quick Create** dialog box. 
 
-   - Select a **Time Zone**
+   - Select a **Time Zone**.
 
    - Select **Save**. A new resource is created and activated by default.
 
      **Resource Characteristics** and **Resource Categories**  sections are displayed.
-    - In the **Resource Characteristics** section, select **...** and then select **Add New Bookable Resource Characteristics** to add characteristics.
+    - In the **Resource Characteristics** section, select the ellipses  (**...**) and then select **Add New Bookable Resource Characteristics** to add characteristics.
 
       [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Specify skills for resources (Field Service)](../field-service/set-up-characteristics.md)
    
@@ -65,14 +65,14 @@ Make sure that you have the System Administrator or System Customizer security r
       - Look up and assign **Rating Value**. You can also create a new rating value.
       - Assign the characteristic to a **Resource**
 
-    - In the **Resource Categories** section, select **...** and then select **Add New Bookable Resource Category** to add a category.
+    - In the **Resource Categories** section, select the ellipses  (**...**) and then select **Add New Bookable Resource Category** to add a category.
 
 5. In the **Scheduling** section:
 
     - Select the **Start Location** and the **End Location** to specify which location the resource will be at, when starting and ending work.
     - Select an **Organizational Unit** for the resource.
-    - Select if the resource should be displayed on the schedule board in the **Display On Schedule Board** box.
-    - Select if you want to enable the resource for availability search in the **Enable for Availability Search** box.
+    - Select whether the resource should be displayed on the schedule board in the **Display On Schedule Board** box.
+    - Select whether you want to enable the resource for availability search in the **Enable for Availability Search** box.
 
 6. In the **Related** section, view and create all the common associations for the resource. You can create the following:
 

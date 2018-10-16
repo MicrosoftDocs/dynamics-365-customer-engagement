@@ -1,5 +1,5 @@
 ---
-title: Add facilities and equipments for service scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
+title: Add facilities and equipment for Service Scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Know how to add facilities and equipment for service scheduling in Dynamics 365 for Customer Service
 keywords: Dynamics 365; Customer Service; Service scheduling; Facilities and equipment
 author: anjgupta
@@ -22,29 +22,29 @@ search.app:
   - D365CS
 ---
 
-# Add facilities and equipments to schedule service
+# Add facilities and equipment to schedule service
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Facilities and equipment are resources you’d use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. Add these resources to [!INCLUDE[pn_dynamics-crm](../includes/pn-dynamics-crm.md)] to ensure optimal services to your customers.  
+Facilities and equipment are resources you use to perform services for your customers. Facilities could be physical spaces like service bays or conference rooms and equipment could be tools or other assets. Add these resources to [!INCLUDE[pn_dynamics-crm](../includes/pn-dynamics-crm.md)] to ensure optimal services for your customers.  
 
   
-## Create a new facility or equipment  
+## Create a new facility or equipment record
 
 Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
   
 1. In the Customer Service Hub sitemap, go to **Service Scheduling**.
-2. From the list of entity records, select **Scheduling > Facilities/Equipments**.
-   - The **Local Facility/Equipment** view is displayed. You can switch between various system views using the drop-down.
+2. From the list of entity records, select **Scheduling > Facilities/Equipment**.
+   - The **Local Facility/Equipment** view is displayed. You can switch between various system views using the drop-down list.
    - Select **Show Chart** in the command bar to see the chart view.
 
-3. On the command bar, select **New** to create a new facility or equipment. 
+3. On the command bar, select **New** to create a new record. 
   
 5.  In the **General** section, fill in the information as required:  
   
     - **Name**. Enter the name of the facility or equipment you want to add for service scheduling.  
   
-    - **Business Unit Id**. Enter a business unit id. To choose an id, select the **Lookup** button and then select from the list. You can also create a new business unit id.
+    - **Business Unit ID**. Enter a business unit ID. To choose an ID, select the **Lookup** button and then select from the list. You can also create a new business unit ID.
   
     - **Organizational Unit**. Select the location where the facility or equipment is located.
 
