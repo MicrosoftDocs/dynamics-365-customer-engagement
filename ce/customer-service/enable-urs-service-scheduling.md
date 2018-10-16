@@ -1,6 +1,6 @@
 ---
-title: Get the new service scheduling based on Universal Resource Scheduling | MicrosoftDocs
-description: Understand how to get the new service scheduling based on Universal Resource Scheduling (URS) in Dynamics 365 for Customer Service
+title: Understand the new service scheduling based on Universal Resource Scheduling | MicrosoftDocs
+description: Understand how to avail the new service scheduling based on Universal Resource Scheduling (URS) in Dynamics 365 for Customer Service
 keywords: Service scheduling; Dynamics 365; Customer Service; Universal Resource Scheduling (URS)
 author: anjgupta
 applies_to: 
