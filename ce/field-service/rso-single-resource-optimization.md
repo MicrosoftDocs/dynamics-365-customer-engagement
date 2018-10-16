@@ -18,9 +18,7 @@ The single resource optimization capability provides a quick way to re-optimize 
 
 There are two ways to use the schedule board to optimize the schedule for a single resource:
 
-- **One click with defaults:** From any schedule board view, optimize the schedule with one click by setting a time range to the end of the current day for the default goal.
-
-**Note:** One click with defaults requires Field Service version 8.0 or higher
+- **One click with defaults:** From any schedule board view, optimize the schedule with one click by setting a time range to the end of the current day for the default goal. Optimizing with one click requires Field Service application version 8.0 or higher.
 
 - **Advanced with edits:** Optimize the schedule for a single resource by editing the goal and time range, running the optimization as a simulation, and then applying or discarding the results. This capability is only available from the schedule board view associated with the optimization scope.
 
@@ -43,7 +41,6 @@ There are two ways to use the schedule board to optimize the schedule for a sing
 
 3. Select **Run Now** to run the optimization and schedule bookings.
 >![Screenshot of single resource optimization pane with options](media/rso-single-resource-4.png)
-
 
 - **Run Simulation** runs the optimization and schedules simulated bookings shown as white. Apply or discard simulation results. NOte that simulated bookings don't show on map with routes.
 
