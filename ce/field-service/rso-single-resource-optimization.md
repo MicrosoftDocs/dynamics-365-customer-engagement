@@ -27,9 +27,9 @@ There are two ways to use the schedule board to optimize the schedule for a sing
 1. From the schedule board, right click the resource's name, and then select **Optimize Schedule**. 
 >![Screenshot of triggering single resource optimization from schedule board](media/rso-single-resource-2.png)
 
-  a. Yellow line indicates default optimization range, from now to the end of today (12am)
-  b. Gray mask indicates default optimization range, from now to the end of today (12am)
-  c. Optimization panel showing resource name, default range, default goal, and optimization request status
+  - Yellow line indicates default optimization range, from now to the end of today (12am)
+  - Gray mask indicates default optimization range, from now to the end of today (12am)
+  - Optimization panel showing resource name, default range, default goal, and optimization request status
   
 >![Screenshot of single resource optimization with range and goal](media/rso-single-resource-3.png)
 
