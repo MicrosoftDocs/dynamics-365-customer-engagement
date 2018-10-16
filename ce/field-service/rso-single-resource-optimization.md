@@ -21,7 +21,7 @@ search.app:
 
 # Single resource optimization
 
-The single resource optimization capability provides a quick way to re-optimize a resource's schedule and travel routes after schedule changes and cancellations have occurred during the day. For example, re-optimizing a resource's schedule corrects overlapping bookings when the resource is assigned an emergency work order, or arrives at a customer location late due to traffic.
+The single resource optimization capability provides a quick way to re-optimize a resource's schedule and travel route after schedule changes and cancellations have occurred during the day. For example re-optimizing a resource's schedule corrects overlapping bookings when the resource is assigned an emergency work order, or arrives at a customer location late due to traffic.
 
 There are two ways to use the schedule board to optimize the schedule for a single resource:
 
@@ -29,6 +29,7 @@ There are two ways to use the schedule board to optimize the schedule for a sing
 
 - **Advanced with edits** Optimize the schedule for a single resource by editing the goal and time range, running the optimization as a simulation, and then applying or discarding the results. This capability is only available from the schedule board view associated with the optimization scope.
 
+> [!div class="mx-imgBorder"]
 >![Screenshot of triggering single resource optimization from schedule board](media/rso-single-resource-1.png)
 
 ## Prerequisites
@@ -42,12 +43,15 @@ There are two ways to use the schedule board to optimize the schedule for a sing
 ## Optimize with one click
 
 1. From the schedule board, right click the resource's name, and then select **Optimize Schedule**. 
+
+> [!div class="mx-imgBorder"]
 >![Screenshot of triggering single resource optimization from schedule board](media/rso-single-resource-2.png)
 
-  - Yellow line indicates default optimization range, from now to the end of today (12am)
-  - Gray mask indicates default optimization range, from now to the end of today (12am)
-  - Optimization panel showing resource name, default range, default goal, and optimization request status
-  
+  2. Yellow line indicates default optimization range, from now to the end of today (12am)
+  3. Gray mask indicates default optimization range, from now to the end of today (12am)
+  4. Optimization panel showing resource name, default range, default goal, and optimization request status
+
+> [!div class="mx-imgBorder"]
 >![Screenshot of single resource optimization with range and goal](media/rso-single-resource-3.png)
 
 ## Perform advanced optimization with edits
@@ -57,11 +61,15 @@ There are two ways to use the schedule board to optimize the schedule for a sing
 2. Select the optimization goal.
 
 3. Select **Run Now** to run the optimization and schedule bookings.
+
+> [!div class="mx-imgBorder"]
 >![Screenshot of single resource optimization pane with options](media/rso-single-resource-4.png)
 
 - **Run Simulation** runs the optimization and schedules simulated bookings shown as white. Apply or discard simulation results. NOte that simulated bookings don't show on map with routes.
 
 - Optimization panel showing optimization request status
+
+> [!div class="mx-imgBorder"]
 >![Screenshot of running single resource optimization with simulation mode](media/rso-single-resource-5.png)
 
 ## Additional notes
@@ -72,6 +80,7 @@ There are two ways to use the schedule board to optimize the schedule for a sing
 
 - This capability appears on the schedule board for all resources as long as optimization is deployed in the environment. However, single resource optimization only works if **Optimize Schedules** is set to **Yes** for the bookable resource. The single resource optimization capability can't be disabled or hidden.
 
+> [!div class="mx-imgBorder"]
 >![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-single-resource-1.png)
 
 # Other Enhancements
@@ -82,11 +91,16 @@ When Resource Scheduling Optimization is deployed for the first time, the system
 
 - Default goal has below constraints and objectives enabled, user can modify as needed
 
+> [!div class="mx-imgBorder"]
 >![Screenshot of default goal in scheduling parameters](media/rso-default-goal-1.png)
+
+> [!div class="mx-imgBorder"]
 >![Screenshot of ](media/rso-default-goal-2.png)
 
 
 - The default goal is used when single resource optimization is selected from the schedule board.
+
+> [!div class="mx-imgBorder"]
 >![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-single-resource-1.png)
 
 - If needed, a user can create a new optimization goal and associate it as a default goal
@@ -119,6 +133,7 @@ In general, resource types define how the resource relates to the organization. 
 
 Additionally, Requirements have a multi-select option to specify which resource types are desired for the given requirement.
 
+> [!div class="mx-imgBorder"]
 >![Screenshot of multi-select resource type attribute on requirement](media/rso-requirement-resource-type-field.png)
 
 With the new release, the optimization will now consider resource types of requirements when assigning resources to those requirements, if the resource type is one of the following:
@@ -137,7 +152,10 @@ With the new release, the optimization will now consider resource types of requi
 
 To enable this feature, navigate to Optimization Goals and add it as a constraint.
 
+> [!div class="mx-imgBorder"]
 >![Screenshot of match resource type constraint in optimization setup](media/rso-resource-type-constraint.png)
+
+> [!div class="mx-imgBorder"]
 >![Screenshot of match resource type constraint in optimization setup close up](media/rso-resource-type-constraint-close-up.png)
 
 If the Optimization Goal is related to an active Optimization Schedule, you will need to republish the schedule.
