@@ -2,21 +2,21 @@
 
 # Single resource optimization
 
-The single resource optimization capability provides a quick way to re-optimize a resource's schedule and travel route after schedule changes and cancellations have occurred during the day. For example re-optimizing a resource's schedule corrects overlapping booking when the resource is assigned an emergency work order, or arrives at a customer location late due to traffic.
+The single resource optimization capability provides a quick way to re-optimize a resource's schedule and travel route after schedule changes and cancellations have occurred during the day. For example re-optimizing a resource's schedule corrects overlapping bookings when the resource is assigned an emergency work order, or arrives at a customer location late due to traffic.
 
 There are two ways to use the schedule board to optimize the schedule for a single resource:
 
-- **One click with defaults:** From any schedule board view, optimize the schedule with one click by setting a time range to the end of the current day for the default goal. Optimizing with one click requires Field Service application version 8.0 or higher.
+- **One click with defaults** From any schedule board view, optimize the schedule with one click by setting a time range to the end of the current day for the default goal. Optimizing with one click requires Field Service application version 8.0 or higher.
 
-- **Advanced with edits:** Optimize the schedule for a single resource by editing the goal and time range, running the optimization as a simulation, and then applying or discarding the results. This capability is only available from the schedule board view associated with the optimization scope.
+- **Advanced with edits** Optimize the schedule for a single resource by editing the goal and time range, running the optimization as a simulation, and then applying or discarding the results. This capability is only available from the schedule board view associated with the optimization scope.
 
 >![Screenshot of triggering single resource optimization from schedule board](media/rso-single-resource-1.png)
 
 ## Prerequisites
 
-- Resource scheduling optimization version 2.8 or higher
+- Resource scheduling optimization version 2.8 or higher.
 
-- **Optimize Schedules** is set to **Yes** for the bookable resources
+- **Optimize Schedules** is set to **Yes** for the bookable resources.
 
 - Default goal in **Resource Scheduling Optimization** > **Optimization Goals**. A default goal is created automatically when optimization runs.
 
