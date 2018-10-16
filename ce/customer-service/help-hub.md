@@ -43,7 +43,7 @@ search.app:
 
   <li><a href="https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets" data-raw-source="[Dynamics 365 for phones and tablets]https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets">Dynamics 365 for phones and tablets</a></li>
 <li><a href="use-customer-service-hub-on-dynamics-365-mobile.md" data-raw-source="[Navigate app on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)">Customer Service Hub app on mobile devices</a></li>
-<li><a href="enable-urs-service-scheduling.md" data-raw-source="[Get the new Service Scheduling experience](enable-urs-service-scheduling.md)">Get the new Service Scheduling experience</a></li>
+<li><a href="enable-urs-service-scheduling.md" data-raw-source="[Understand the new Service Scheduling experience](enable-urs-service-scheduling.md)">Understand the new Service Scheduling experience</a></li>
 
   
   </li> 

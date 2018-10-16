@@ -139,9 +139,11 @@ To follow the correct sequence, see [Service Scheduling scenario](#service-sched
 
 ### Configure using SDK code samples
 
-All entity records can be configured from the user interface except Service Activity. To migrate and configure Service Activity, see here.
+All entity records can be configured from the user interface except Service Activity. To migrate and configure Service Activity, see [Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md).
 
 
 ### See also
 
 [Service Scheduling overview](basics-service-service-scheduling.md)
+
+[Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md)
