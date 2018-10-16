@@ -84,7 +84,7 @@ To find the URL for your sample event portal and open it:
 
 ## Customize the event portal and host it anywhere
 
-If you are comfortable developing web applications using the [Angular](https://angular.io/) framework, then a good way to customize the sample event portal for production is to download it as an Angular project, customize it in your preferred development environment, and then publish it either on your own website, or as a new site on your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal. For details, see [Build and host a custom event portal](/developer/event-management-web-application.md).
+If you are comfortable developing web applications using the [Angular](https://angular.io/) framework, then a good way to customize the sample event portal for production is to download it as an Angular project, customize it in your preferred development environment, and then publish it either on your own website, or as a new site on your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal. For details, see [Build and host a custom event portal](developer/event-management-web-application.md).
 
 ### See also
 
