@@ -22,10 +22,17 @@ search.app:
   - D365Portals
 ---
 
-# Get started with the new portal editor
+# Get started with the new portal content editor
 
-> [!NOTE]
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)] 
+> [!IMPORTANT]
+
+> - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+
+> **Send us feedback**
+
+> We'd love your feedback on the new portal content editor! To send us feedback, register your account on the [Microsoft Insider program](https://experience.dynamics.com/insider/), and then [submit your feedback](https://go.microsoft.com/fwlink/p/?linkid=2030693).
 
 [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal allows customization by using [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entities and some WYSIWYG support through it’s front end editing tools in the portal runtime. A new and simplified portal editor is now available for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal customizers that will help to reduce the learning curve on Dynamics 365 Portal customization and increase a customizer’s productivity.
 
