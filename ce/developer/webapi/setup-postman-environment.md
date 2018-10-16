@@ -53,7 +53,7 @@ Use these steps to create a Postman environment that you can use to connect with
 1. In the **Manage Environments** dialog box that opens up, click on **Add** button to add a new environment.
 <br>
 ![Click on Add button to add a new Postman environment](../media/postman-manage-env.png "Click on Add button to add a new Postman environment")<br>
-1. Add a name for the environment. Then add the the following key-value pairs into the editing space.
+1. In the dialog box that opens, add a name for the environment. Then add the the following key-value pairs into the editing space.
 
     ```
     url:https://<add your environment name, like ‘myorg.crm’>.dynamics.com
@@ -100,10 +100,9 @@ See [Test your connection](#test-your-connection) for steps to verify your conne
 ## Connect with an On-premise environment
 
 1. Launch the Postman desktop application.
-1. Click on the **Environment Options** gear icon in top-right corner. 
-1. In the **Manage Environments** dialog box that opens up, click on **Add** button to add a new environment.
-1. Click on **Bulk edit** in the new environment dialog box.
-1. Add a name for the environment. Then copy the following key-value pairs into the editing space.
+2. Click on the **Environment Options** gear icon in top-right corner. 
+3. In the **Manage Environments** dialog box that opens up, click on **Add** button to add a new environment.
+4. In the dialog box that opens, add a name for the environment. Then copy the following key-value pairs into the editing space.
     ```
     url:http://yourservername/yourorgname
     version:8.2
@@ -111,8 +110,8 @@ See [Test your connection](#test-your-connection) for steps to verify your conne
     ```
 ![Create a new Postman environment to connect with On-premise instance](../media/postman-add-onprem-env.png "Create a new Postman environment to connect with On-premise instance")
 
-1. Replace the instance URL placeholder value with your Dynamics 365 instance URL and click **Add** to save the environment.
-1. Close the **Manage environments** dialog.
+5. Replace the instance URL placeholder value with your Dynamics 365 instance URL and click **Add** to save the environment.
+6. Close the **Manage environments** dialog.
 
 ### Set Credentials
 
