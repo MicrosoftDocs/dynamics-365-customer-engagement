@@ -59,7 +59,7 @@ There are two connection states: successful and failed. The sole difference is f
 
 A successful connection means two-way communication now exists between Dynamics 365 (online) and Microsoft Teams. You can interact with the record as if you were using the Dynamics 365 web app and share files with the web app. Those with *Write* permissions can edit the record and changes will be synchronized with the Dynamics 365 web app. Also, file synchronization occurs between both apps.
 
-A failed connection means file synchronization is not set up between Microsoft Teams and Dynamics 365 (online). File changes in Dynamics 365 (online) are not synchronized with Teams. However, changes made to the record in Teams will update in Dynamics 365 (online). See: [Error: This record is not connected to Dynamics 365. Repin the tab and try again.](troubleshoot-teams.md#error-this-record-is-not-connected-to-dynamics-365-repin-the-tab-and-try-again).
+A failed connection means file synchronization is not set up between Microsoft Teams and Dynamics 365 (online). File changes in Dynamics 365 (online) are not synchronized with Teams. However, changes made to the record in Teams will update in Dynamics 365 (online). See: [Error: This record is not connected to Dynamics 365. Repin the tab and try again.](troubleshoot-teams.md#error-this-record-is-not-connected-to-dynamics-365-repin-the-tab-and-try-again)
 
 ### Files tab
 
