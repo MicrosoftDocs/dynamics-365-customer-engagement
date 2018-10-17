@@ -118,7 +118,7 @@ manager: shujoshi
 
 ## Returns
 
-On success, returns a promise object containing string as specified earlier in the description of the **successCallback** parameter.
+On success, returns a promise object containing string.
 
 ## Remarks
 
