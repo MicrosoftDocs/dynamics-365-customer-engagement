@@ -65,11 +65,13 @@ Make sure that you have the System Administrator or System Customizer security r
 
 8. Select **Book** to schedule a service activity in the calendar.
 
-   The **Schedule Board** is displayed.
+    - The **Schedule Board** is displayed.
+    - You can view the list of services and the associated resources.
+    - In the **Create Resource Booking** panel, select the service start date and time and end date and time.
+    - Select the **Booking Status** from the drop-down menu.
+    - Select **Book** to schedule a service activity. Select **Book and Exit** to schedule and exit the Schedule Board.
 
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the schedule board to configure service activity](use-schedule-board-configure-service-activity.md)
-
-9. Select **Book and Exit** on the Schedule Board to complete scheduling a service activity.   
+      [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the schedule board to configure service activity](use-schedule-board-configure-service-activity.md)
 
 Additionally,
 

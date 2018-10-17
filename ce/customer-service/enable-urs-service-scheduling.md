@@ -132,7 +132,7 @@ Make sure that you have the Customer Service Manager, System Administrator, or S
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Access Service Scheduling in the Customer Service Hub](basics-service-service-scheduling.md#access-service-scheduling-in-the-customer-service-hub)
 
 
-## Configure entity records in the new Service Scheduling experience
+## Configure entity records in the new experience
 
 You can configure all your entity records in the new experience manually from the user interface. Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.
 

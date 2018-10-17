@@ -55,10 +55,10 @@ Here’s what you’ll see when you open the schedule board:
 |Label  |Field  |Description  |
 |---------|---------|---------|
 |1    |    View list of resources     |  A list of resources is displayed on the left side of the calendar in alphabetical order. To view the resources, appointments, and service activities for anyone in your organization, in the **Type** list, select **Resource**, and then in the **View** list select the resource view.  </br> </br>  To find a specific resource, in the **Search** box, enter the first few letters of a name.       |
-|Row2     |         |         |
-|Row3     |         |         |
-|Row4     |         |         |
-|Row5     |         |         |
+|2    |   Initial public view      |    Add more schedule board tabs in the Initial public view section. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create additional tabs](#create-additional-tabs) </br></br> To edit an existing schedule board view or to modify tab settings, double-click the view name or select the settings icon.       |
+|3    |  Scheduler settings       |   **Scheduler settings** help you synchronize dates and content with a location. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Scheduler settings](#scheduler-settings)       |
+|4  |     Details    |     View additional details of the booking in the **Details** tab.    |
+|5     | Create Resource Booking        |   Select requirements and create a resource booking in the **Create Resource Booking** tab. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create Resource Booking](#create-resource-booking)       |
 |Row6     |         |         |
 |Row7     |         |         |
 |Row8     |         |         |
