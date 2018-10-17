@@ -36,4 +36,5 @@ To start, anyone with a Playbook manager role or equivalent permissions creates 
 [Manage playbook templates](manage-playbook-templates.md) <br>
 [Launch a playbook to carry out activities consistently](launch-playbook.md)  <br>
 [Mark playbook as completed](mark-playbook-completed.md)  <br>
-[Track playbook activities](track-playbook-activities.md) 
+[Track playbook activities](track-playbook-activities.md)  <br>
+[What's new in Dynamics 365 for Sales](whats-new.md)

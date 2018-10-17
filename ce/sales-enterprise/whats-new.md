@@ -2,11 +2,13 @@
 title: "What's new in Dynamics 365 for Sales | MicrosoftDocs"
 description: "Learn about what's new in the latest release of Dynamics 365 for Sales."
 keywords: "what's new, Dynamics 365 for Sales"
-ms.date: 04/01/2018
-ms.service: crm-online
-ms.custom: 
+ms.date: 10/16/2018
+ms.service:
+  - "crm-online"
+ms.custom:
+  - ""
 ms.topic: article
-applies_to: 
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: a87d5f37-892f-43a8-97b2-151037132f72
@@ -18,18 +20,19 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 
 topic-status: Drafting
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # What's new in Dynamics 365 for Sales
 
 Welcome to [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)]! Visit this page to see what’s added or updated recently. 
+
+## Dynamics 365 for Sales, Dynamics 365 for Customer Engagement apps, version 9.1
+
+-  Dynamics 365 for Sales introduces Playbooks, a new capability to help organizations automate repeatable sales activities and respond to external events. It provides proactive and predictive event-driven guidance that can suggest the next best actions and surface relevant activities to successfully respond to external events. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enforce best bractices with playbooks](enforce-best-practices-playbooks.md)
+
+
+   > [!NOTE]
+   > The feature is being released with version 9.1.0.0263 as part of weekly release of the product to individual geographies. 
 
 ## Dynamics 365 for Sales, Spring 2018 ([!INCLUDE[pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)])
 
