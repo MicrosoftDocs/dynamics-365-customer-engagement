@@ -32,7 +32,7 @@ search.app:
 >
 > We'd love your feedback on the new portal content editor! To send us feedback, register your account on the [Microsoft Insider program](https://experience.dynamics.com/insider/), and then [submit your feedback](https://go.microsoft.com/fwlink/p/?linkid=2030693).
 
-[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal allows customization by using [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entities and some WYSIWYG support through its front-end editing tools in the portal runtime. A new and simplified portal editor is now available for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal customizers that will help to reduce the learning curve on Dynamics 365 Portal customization and increase a customizer’s productivity.
+[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal allows customization by using [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entities and some WYSIWYG support through its front-end editing tools in the portal runtime. A new and simplified portal editor is now available for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal customizers that will help to reduce the learning curve on Dynamics 365 Portal customization and increase a customizer's productivity.
 
 > [!NOTE]
 > - Portal’s out-of-the-box administrator web role and any contact linked to that web role can use the new editor.
@@ -43,7 +43,7 @@ search.app:
 >       - Manage Web Link Sets
 >       - Preview Unpublished Entities <br/>
 >       More information: [Create website access permissions](website-access-permission.md)
->   - Webpage access permission because Grant Change on the Home (root) page of the portal website needs to be enabled. More information: [Control webpage access for portals](webpage-access-control.md)
+>   - Webpage access permission must be set to **Grant Change** on the Home (root) page of the portal website needs to be enabled. More information: [Control webpage access for portals](webpage-access-control.md)
 > - Drag and drop is not currently supported on the canvas. It will come in a subsequent release.
 
 ## Use the new editor
@@ -67,10 +67,10 @@ search.app:
 
 4.	After making the changes, click outside the content snippet boundary to save the changes. The status is displayed in the content snippet and footer.
 
-
-<!--from editor: Please confirm that angle bracket-forward slash-angle bracket in the following sentence is what you want viewers to see.--> 
-
 5.	To view the source of the content snippet, select the content snippet, and then select the source code icon **</>** in the footer. The source code is displayed in the **Source code editor** pane at the bottom of the screen. The changes you made earlier are updated in the source code.
+
+    > [!div class="mx-imgBorder"]
+    > ![Source code editor](media/source-code-editor.png "Source code editor")
 
 ## Add and edit a text box in a content snippet
 
