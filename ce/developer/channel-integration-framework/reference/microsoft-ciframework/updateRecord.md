@@ -60,21 +60,13 @@ manager: shujoshi
 <td>successCallback</td>
 <td>Function</td>
 <td>No</td>
-<td><p>A function to call when a record is updated. An object with the following properties will be passed to identify the updated record:</p>
-<ul>
-<li><b>entityType</b>: String. The entity type of the updated record.</li>
-<li><b>id</b>: String. GUID of the updated record.</li>
-</ul></td>
+<td><p>A function to call when a record is updated.</td>
 </tr>
 <tr>
 <td>errorCallback</td>
 <td>Function</td>
 <td>No</td>
-<td>A function to call when the operation fails. An object with the following properties will be passed:
-<ul>
-<li><b>errorCode</b>: Number. The error code.</li>
-<li><b>message</b>: String. An error message describing the issue.</li>
-</ul></td>
+<td>A function to call when the operation fails.</td>
 </tr>
 </table>
 

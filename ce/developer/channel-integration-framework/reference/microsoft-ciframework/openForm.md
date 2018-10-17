@@ -104,21 +104,7 @@ manager: shujoshi
 <td>successCallback</td>
 <td>Function</td>
 <td>No</td>
-<td>A function to execute when:
-<ul>
-<li>The entity form is displayed for existing records.</li>
-<li>The record is saved in the entity form displayed for a new record.</li>
-<li>The record is saved in the quick create form.</li>
-</ul>
-
-This function is passed an object as a parameter. The object has a <b>savedEntityReference</b> array with the following properties to identify the record(s) displayed or created:
-<ul>
-<li><b>entityType</b>: The logical name of the entity.</li>
-<li><b>id</b>: A string representation of a GUID value for the record.</li>
-<li><b>name</b>: The primary attribute value of the record displayed or created.</li></ul>
-
-<b>NOTE</b>:
-<ul>On <a href="/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps" data-raw-source="[Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps)">Unified Interface</a>, when you open a quick create form, and create multiple records by clicking <b>Save & New</b>, the <b>savedEntityReference</b> array will contain multiple items, each item representing the record created using the quick create form.
+<td>A function to execute when operation succeeds.
 </td>
 </tr>
 <tr>

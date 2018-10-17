@@ -53,12 +53,7 @@ manager: shujoshi
 <td>successCallback</td>
 <td>Function</td>
 <td>No</td>
-<td><p>A function to call when a record is deleted. An object with the following properties will be passed to identify the deleted record:</p>
-<ul>
-<li><b>entityType</b>: String. The entity type of the record.</li>
-<li><b>id</b>: String. GUID of the record.</li>
-<li><b>name</b>: String. Name of the record.</li>
-</ul></td>
+<td><p>A function to call when a record is deleted.</td>
 </tr>
 <tr>
 <td>errorCallback</td>

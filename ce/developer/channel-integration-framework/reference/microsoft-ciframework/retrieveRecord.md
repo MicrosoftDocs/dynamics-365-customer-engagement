@@ -65,7 +65,7 @@ manager: shujoshi
 <td>successCallback</td>
 <td>Function</td>
 <td>No</td>
-<td><p>A function to call when a record is retrieved. A JSON object with the retrieved properties and values will be passed to the function.</p>
+<td><p>A function to call when a record is retrieved.</p>
 </td>
 </tr>
 <tr>

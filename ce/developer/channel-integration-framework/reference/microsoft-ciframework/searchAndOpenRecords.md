@@ -55,7 +55,7 @@ When you set the query value as false, the contact is searched and opened. Set t
 
 ### Example 1: Search and open the contact record
 
-This sample code searches the name and phone number of a contact and opens the contact record.
+This sample code searches the name and telephone number of a contact and opens the contact record.
 
 ```JavaScript
 
