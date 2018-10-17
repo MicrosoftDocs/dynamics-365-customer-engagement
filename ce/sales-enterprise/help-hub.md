@@ -42,6 +42,7 @@ topic-status: Drafting
 <li><a href="../admin/system-settings-dialog-box-sales-tab.md" data-raw-source="[Define Sales settings](../admin/system-settings-dialog-box-sales-tab.md)">Define Sales settings</a></li>
 <li><a href="../admin/system-settings-dialog-box-goals-tab.md" data-raw-source="[Define Goals settings](../admin/system-settings-dialog-box-goals-tab.md)">Define Goals settings</a></li>
 <li><a href="create-edit-goal-sales.md" data-raw-source="[Create goals to track progress](create-edit-goal-sales.md)">Create goals to track progress</a></li>
+<li><a href="../admin/set-up-sales-territories-organize-business-markets-geographical-area.md" data-raw-source="[Set up sales territories to organize business markets by geographical area](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)">Set up sales territories to organize business markets</a></li>
 <li><a href="../sales-enterprise/configure-enable-embedded-intelligence.md" data-raw-source="[Administer Embedded intelligence](../sales-enterprise/configure-enable-embedded-intelligence.md)">Administer Embedded intelligence</a></li>
 <li><a href="../sales-enterprise/configure-enable-sales-insights-addon.md" data-raw-source="[Administer Sales insights add-on](../sales-enterprise/configure-enable-sales-insights-addon.md)">Administer Sales insights add-on</a></li>
 </td></tr>

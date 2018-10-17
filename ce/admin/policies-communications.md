@@ -1,7 +1,7 @@
 ---
 title: "Policies and Communications for Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/29/2018
+ms.date: 10/16/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -24,6 +24,13 @@ search.app:
 # Policies and Communications for service incidents
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+
+> [!IMPORTANT]
+> Starting October 15, 2018, we will be sending our service notifications from a new email address. The new email addresses may cause the notifications to bypass existing rules, or arrive in your Junk email folder. Please be sure to check your settings so you do not miss any important announcements or service communications. 
+>
+> New email addresses:
+> - Microsoft Dynamics 365 - msdynamics365@microsoft.com
+> - Microsoft Dynamics 365 for Finance and Operations - msdyn365finops@microsoft.com
 
 ## Introduction
 Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] to ensure security, performance, and availability, and to provide new features and functionality. From time to time, Microsoft also responds to service incidents. For each of these activities, the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin for your organization,  or recipients added to the notification list by the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin, receives email notifications. During a service incident, a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] customer service representative may also call and follow up with an email.  
@@ -208,7 +215,7 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
   
 If the service incident breaches your [Service Level Agreement](http://go.microsoft.com/fwlink/p/?LinkID=196557), you can claim a billing credit according to the conditions of your [Service Agreement](http://go.microsoft.com/fwlink/p/?LinkID=101174). If you need help with this, see [Billing FAQs for Dynamics 365 (online)](billing-faqs-dynamics-365-online.md).
   
-Major service incident emails can easily be identified by the orange banner.  
+Major service incident emails can easily be identified by the red banner.
   
  ![Service incident email banner](../admin/media/service-incident-banner.png "Service incident email banner")  
   
@@ -237,10 +244,10 @@ Major service incident emails can easily be identified by the orange banner.
   
 -   Next steps  
 
-### Communications and awareness  
- Communications emails are specific to managing the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Service, including changes with the service or feature offerings. They can be informational in nature, drive specific actions, or both. The target audience for these communications are [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrators or individuals designated to running the service. You can easily identify these by the light-blue banner.  
+### Communications for releases, package deployments, and awareness
+Communications emails are specific to managing the Dynamics 365 Service, including changes with the service, releases or feature offerings. They can be informational in nature, drive specific actions, or both. The target audience for these communications are Dynamics 365 System Administrators or individuals designated to running the service. You can easily identify these by the light-blue banner.
   
- ![General awareness email banner](../admin/media/general-awareness-banner.png "General awareness email banner")  
+ ![General awareness email banner](../admin/media/scheduling-banner.png "General awareness email banner") 
  
  <a name="BKMK_PostPurchase"></a>   
 
@@ -250,13 +257,7 @@ Major service incident emails can easily be identified by the orange banner.
  You can easily identify these communications by the dark-blue banner.  
   
  ![Post-purchase email banner](../admin/media/post-purchase-banner.png "Post-purchase email banner")  
-  
-<a name="BKMK_LaunchReadiness"></a>   
 
-### Launch and post launch readiness communications  
- These communications are used to inform [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrators about important information prior to a major service release. Our goal is to share information about tasks that administrators may need to perform before the release and to inform customers about new or enhanced capabilities that are coming in the release. You’ll see a green banner when receiving these types of communications.  
-  
- ![Launch readiness email banner](../admin/media/readiness-banner.png "Launch readiness email banner")  
   
 ### Notice about Online Policies
 Please review [Notice About Online Policies and Similar Documents](https://www.microsoft.com/en-us/legal/intellectualproperty/onlinedisclaimer.aspx).

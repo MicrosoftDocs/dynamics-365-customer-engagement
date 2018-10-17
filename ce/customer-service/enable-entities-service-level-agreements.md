@@ -61,15 +61,15 @@ Previously, you could only create SLAs for case records. With Dynamics CRM Onlin
   
 2. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-3. Click **Customize the System**.  
+3. Select **Customize the System**.  
   
-4. In the solution explorer, in the left nav pane, click the entity that you want to enable for SLA.  
+4. In the solution explorer, in the left nav pane, select the entity that you want to enable for SLA.  
   
 5. Under **Communication & Collaboration**, select the **Enable for SLA** check box.  
   
-6. Click **Save**.  
+6. Select **Save**.  
   
-7. Click **Publish**.  
+7. Select **Publish**.  
   
 > [!NOTE]
 > - The maximum number of entities that can have active SLAs for your organization is 7.  

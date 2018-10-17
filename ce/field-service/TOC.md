@@ -4,8 +4,8 @@
 
 # Installation
 ## [Field Service installation (online)](install-field-service.md)
-## [Mobile solution installation](install-the-mobile-app.md)
-## [Sample data installation](use-demo-data.md)
+## [Sample data installation (app version 8.x)](install-sample-data-8-x.md)
+## [Sample data installation (earlier app versions)](use-demo-data.md)
 ## [Activate Field Service mobile licenses](activate-fs-mobile-app-license.md)
 ## [User security roles and accounts](view-user-accounts-security-roles.md)
 ## [Org-wide default settings](configure-default-settings.md)
@@ -41,6 +41,7 @@
 # [Mobile apps for field technicians](field-service-mobile-app-user-guide.md)
 ## [Field Resource Hub user guide](field-resource-hub-users-guide.md)
 ## [Mixed reality integration with Remote Assist and HoloLens](remote-assist-hololens.md)
+## [FAQ: Activate licenses and extend trials](activate-fs-mobile-app-license.md)
 
 # Agreements and preventive maintenance
 ## [Customer agreements](set-up-customer-agreements.md)

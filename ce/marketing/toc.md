@@ -111,6 +111,7 @@
 #### [Manage event sponsorships](manage-event-sponsorships.md)
 #### [Manage attendee logistics and accommodation](manage-event-logistic.md)
 #### [Set up the event portal](set-up-event-portal.md)
+#### [Set up online payment for events](event-payment-gateway.md)
 #### [Add custom fields to your event registration form](custom-registration-fields.md)
 #### [Invite, register, and house event attendees](invite-register-house-event-attendees.md)
 #### [Follow up after the event](followup-after-event.md)
@@ -134,7 +135,10 @@
 #### [Publish custom channel on AppSource](developer/publish-custom-channel-appsource.md)
 #### [Configure and use custom channel](developer/configure-use-custom-channel.md)
 #### [Remove custom channel](developer/remove-custom-channel.md)
+### [Preview: Extend event management to support more webinar providers](developer/extend-event-management.md)
+### [Build and host a custom event portal](developer/event-management-web-application.md)
 ### [Retrieve interactions for a contact](developer/retrieve-interactions-contact.md)
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
 #### [Dynamics 365 for Marketing solutions](developer/marketing-solutions.md)
 #### [Dynamics 365 for Marketing entity reference](developer/marketing-entity-reference.md)
+
