@@ -27,14 +27,14 @@ search.app:
 Dynamics 365 supports integration with SharePoint Online that enables you to use the document management capabilities of SharePoint from within Dynamic 365. Dynamics 365 Portal now supports uploading and displaying documents to and from SharePoint directly on an entity form or web form in a portal. This allows portal users to view, download, add, and delete documents from a portal. Portal users can also create subfolders to organize their documents.
 
 > [!NOTE]
-> Document management works only with SharePoint Online.
+> Document management works only with SharePoint Online.<br>
 > Document management is supported with server-based integration.
 
 To work with the document management capabilities of SharePoint from within Dynamics 365, you must:
 
-1.	[Set up SharePoint integration from portal admin center](#step-1-set-up-sharepoint-integration-from-portal-admin-center)
+1.	[Enable document management functionality in Dynamics 365](#step-1-enable-document-management-functionality-in-dynamics-365)
 
-2.	[Enable document management functionality in Dynamics 365](#step-2-enable-document-management-functionality-in-dynamics-365)
+2.	[Set up SharePoint integration from portal admin center](#step-2-set-up-sharepoint-integration-from-portal-admin-center)
 
 3.	[Enable document management for entities](#step-3-enable-document-management-for-entities)
 
@@ -42,7 +42,11 @@ To work with the document management capabilities of SharePoint from within Dyna
 
 5.	[Create appropriate entity permission and assign it to the appropriate web role](#step-5-create-appropriate-entity-permission-and-assign-it-to-the-appropriate-web-role)
 
-## Step 1: Set up SharePoint integration from portal admin center
+## Step 1: Enable document management functionality in Dynamics 365
+
+You must enable document management functionality in Dynamics 365 by using server-based SharePoint integration. Server-based SharePoint integration allows Dynamics 365 (online) and SharePoint Online to perform a server-to-server connection. The default SharePoint site record is used by the portal. For information on how to enable document management functionality in Dynamics 365, see [Configure server-based authentication with Dynamics 365 (online) and SharePoint Online](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/configure-server-based-authentication-sharepoint-online).
+
+## Step 2: Set up SharePoint integration from portal admin center
 
 To use the document management capabilities of SharePoint from within Dynamics 365, you must enable SharePoint integration from the portal admin center.
 
@@ -78,9 +82,6 @@ If you do not provide your consent:
 
 - Your out-of-the-box Azure AD logon on the portal will not work. 
 
-## Step 2: Enable document management functionality in Dynamics 365
-
-You must enable document management functionality in Dynamics 365 by using server-based SharePoint integration. Server-based SharePoint integration allows Dynamics 365 (online) and SharePoint Online to perform a server-to-server connection. The default SharePoint site record is used by the portal. For information on how to enable document management functionality in Dynamics 365, see [Configure server-based authentication with Dynamics 365 (online) and SharePoint Online](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/configure-server-based-authentication-sharepoint-online).
 
 ## Step 3: Enable document management for entities
 You must enable document management for entities to store documents related to Dynamics 365 entity records in SharePoint. For information on how to enable document management for entities, see [Enable SharePoint document management for specific entities](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/enable-sharepoint-document-management-specific-entities).
@@ -139,9 +140,9 @@ By default, the file size is set to 10 MB. However, you can configure the file s
 
 This sample provides exact steps and configuration values to enable document management on the Case entity in Community portal.
 
-1.	Follow the instructions in [Step 1](#step-1-set-up-sharepoint-integration-from-portal-admin-center) to ensure that the portal has permissions to integrate with SharePoint. 
+1.	Follow the instructions in [Step 1](#step-1-enable-document-management-functionality-in-dynamics-365) to ensure that server-based configuration is complete for Dynamics 365 and SharePoint integration.
 
-2.	Follow the instructions in [Step 2](#step-2-enable-document-management-functionality-in-dynamics-365) to ensure that server-based configuration is complete for Dynamics 365 and SharePoint integration. 
+2.	Follow the instructions in [Step 2](#step-2-set-up-sharepoint-integration-from-portal-admin-center) to ensure that the portal has permissions to integrate with SharePoint. 
 
 3.	Follow the instructions in [Step 3](#step-3-enable-document-management-for-entities) to ensure Document Management is enabled for the Case entity.
 
