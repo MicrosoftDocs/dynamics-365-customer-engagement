@@ -2,7 +2,7 @@
 title: "Setup a Postman environment(Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Learn how to setup and configure a Postman environment that connects with Dynamics 365 online and on-premise environments."
 ms.custom: ""
-ms.date: 10/16/2018
+ms.date: 10/17/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -55,16 +55,6 @@ Use these steps to create a Postman environment that you can use to connect with
 ![Click on Add button to add a new Postman environment](../media/postman-manage-env.png "Click on Add button to add a new Postman environment")<br>
 1. In the dialog box that opens, add a name for the environment. Then add the the following key-value pairs into the editing space.
 
-<!--    ```
-    url:https://<add your environment name, like ‘myorg.crm’>.dynamics.com
-    clientid:51f81489-12ee-4a9e-aaae-a2591f45987d
-    version:9.0
-    webapiurl:{{url}}/api/data/v{{version}}/
-    callback:https://callbackurl
-    authurl:https://login.microsoftonline.com/common/oauth2/authorize?resource={{url}}
-    ```
--->
-
 |||
 |----|---|
 |url|`https://<add your environment name, like ‘myorg.crm’>.dynamics.com`|
@@ -113,11 +103,7 @@ See [Test your connection](#test-your-connection) for steps to verify your conne
 2. Click on the **Environment Options** gear icon in top-right corner. 
 3. In the **Manage Environments** dialog box that opens up, click on **Add** button to add a new environment.
 4. In the dialog box that opens, add a name for the environment. Then copy the following key-value pairs into the editing space.
-    <!--```
-    url:http://yourservername/yourorgname
-    version:8.2
-    webapiurl:{{url}}/api/data/v{{version}}/
-    ```-->
+
 |||
 |----|---|
 |url|`http://yourservername/yourorgname`|
