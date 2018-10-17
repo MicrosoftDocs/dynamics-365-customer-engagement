@@ -64,12 +64,15 @@ Use these steps to create a Postman environment that you can use to connect with
     authurl:https://login.microsoftonline.com/common/oauth2/authorize?resource={{url}}
     ```
 -->
-|url|https://<add your environment name, like ‘myorg.crm’>.dynamics.com|
-|clientid|51f81489-12ee-4a9e-aaae-a2591f45987d|
-|version|9.0|
-|webapiurl|{{url}}/api/data/v{{version}}/|
-|callback|https://callbackurl|
-|authurl|https://login.microsoftonline.com/common/oauth2/authorize?resource={{url}}|
+
+|||
+|----|---|
+|url|`https://<add your environment name, like ‘myorg.crm’>.dynamics.com`|
+|clientid|`51f81489-12ee-4a9e-aaae-a2591f45987d`|
+|version|`9.0`|
+|webapiurl|`{{url}}/api/data/v{{version}}/`|
+|callback|`https://callbackurl`|
+|authurl|`https://login.microsoftonline.com/common/oauth2/authorize?resource={{url}}`|
 
     ![Create a new Postman environment to connect with Online instance](../media/postman-add-online-env.png "Create a new Postman environment to connect with Online instance")
 
@@ -115,9 +118,11 @@ See [Test your connection](#test-your-connection) for steps to verify your conne
     version:8.2
     webapiurl:{{url}}/api/data/v{{version}}/
     ```-->
-|url|http://yourservername/yourorgname|
-|version|8.2|
-|webapiurl|{{url}}/api/data/v{{version}}/|
+|||
+|----|---|
+|url|`http://yourservername/yourorgname`|
+|version|`8.2`|
+|webapiurl|`{{url}}/api/data/v{{version}}/`|
 
 ![Create a new Postman environment to connect with On-premise instance](../media/postman-add-onprem-env.png "Create a new Postman environment to connect with On-premise instance")
 
