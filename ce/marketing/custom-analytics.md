@@ -48,7 +48,7 @@ You'll be able to connect directly to your [!INCLUDE[pn-microsoftcrm](../include
 
 1. If you don't already have one, then create a general-purpose storage account in the [!include[](../includes/pn-azure-blob-storage.md)] as described in [Quickstart: Upload, download, and list blobs using the Azure portal](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-portal).
 
-    > [NOTE!]
+    > [!NOTE]
     > Your general-purpose storage account can be either V1 or V2. Both will work with the [!include[](../includes/pn-power-bi.md)] template supplied by [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)], but we recommend using V2 if possible because it will support more advanced [!include[](../includes/pn-power-bi.md)] capabilities in the future.
 
 1. Create a blob storage container in your storage account, also as described in [Quickstart: Upload, download, and list blobs using the Azure portal](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-portal).
