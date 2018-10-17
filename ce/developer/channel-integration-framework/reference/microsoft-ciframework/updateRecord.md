@@ -99,10 +99,12 @@ var data = "{
     "description": "Updated values for this record were set programmatically."
 }"
 // update contact record
-Microsoft.CIFramework.updateRecord(entityLogicalName,id,data).then(
+var id = "b44d31ac-5fd1-e811-8158-000d3af97055";
+var jsonData = JSON.stringify(data);
+Microsoft.CIFramework.updateRecord(entityLogicalName,id,jsonData).then(
     function success (result) {
       res=JSON.parse(result);
-          console.log("Contact updated with ID: " + res[0].id);
+          console.log("Contact updated with ID: " + res.id);
           //the record is updated
       },
       function (error) {

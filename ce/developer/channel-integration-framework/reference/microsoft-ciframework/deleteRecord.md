@@ -81,7 +81,7 @@ This sample code deletes an existing contact record with record ID = a8a19cdd-88
 Microsoft.CIFramework.retrieveRecord("contact", "a8a19cdd-88df-e311-b8e5-6c3be5a8b200").then(
     function success(result) {
       res=JSON.parse(result);
-        console.log("Contact deleted with ID: " + res[0].id);
+        console.log("Contact deleted with ID: " + res.id);
         // the record is deleted
     },
     function (error) {
