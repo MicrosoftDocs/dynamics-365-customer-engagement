@@ -34,7 +34,7 @@ Service Scheduling, now built atop **Universal Resource Scheduling (URS)**, prov
 
 Using Service Scheduling, you can plan and schedule service activities for your customers by bringing together all your resources. The following scenario helps explain this: 
 
-Contoso bike repairs schedules repair services for their customers. To facilitate this process, Contoso needs to bring together the following information:
+Contoso bike repair schedules repair services for their customers. To facilitate this process, Contoso needs to bring together the following information:
 
 - The types of bike repair services they offer.
 - Work hours during which they perform their services.
@@ -51,10 +51,8 @@ With the Customer Engagement apps version 9.1 release, Service Scheduling, built
 
   ![access-service-scheduling](media/access-service-scheduling-csh.png)
 
-[!INCLUDE[proc_more_information] [Avail the new Service Scheduling experience](enable-urs-service-scheduling.md#avail-the-new-service-scheduling-experience).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up the new Service Scheduling experience](enable-urs-service-scheduling.md#set-up-the-new-service-scheduling-experience)
 
-See [Understand Service Scheduling entities](#understand-service-scheduling-entities) to learn more about the entities in service scheduling.
-  
 ## Understand Service Scheduling entities
 
 Service Scheduling entities are grouped under the following logical groups:

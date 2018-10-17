@@ -51,19 +51,22 @@ Here’s what you’ll see when you open the schedule board:
 
 ![schedule-board](media/schedule-board.png)
 
-   |Label |Description |
-   |---------|---------|
-   |1     |   A list of resources is displayed on the left side of the calendar in alphabetical order. To view the resources, appointments, and service activities for anyone in your organization, in the **Type** list, select **Resource**, and then in the **View** list select the resource view.  </br> </br>  To find a specific resource, in the **Search** box, enter the first few letters of a name.      |
-   |2    |   The **Calendar** appears on the top, in the **Configuration** tab . To change the date, select a date in the calendar. Use the arrows on either side of the month to change the month displayed.  </br> </br> **Configuration** tabs let you choose the time unit to be displayed, the view orientation, the time offset, and other actions like getting driving directions, moving bookings to the next day, printing the schedule, or add a booking alert.    | 
-   |3     | To sort the view on the basis of  **Hours**, **Days**, **Weeks**, and **Months**, choose an option here.   |
-   |4     | Create additional schedule board tabs in the **Initial public view**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create additional tabs](#create-additional-tabs) </br></br> To edit an existing schedule board view, double-click the view name.     |
-   |5    |   **Scheduler settings** help you synchronize dates and content with a location. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Scheduler settings](#scheduler-settings) |
-   |6    |   View additional details of the booking in the **Details** tab.|
-   |7   |   Select requirements and create a resource booking in the **Create Resource Booking** tab. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create Resource Booking](#create-resource-booking) |
-   |8 | To change how much of the calendar is available to view, use the **Zoom** scale. Select specific date ranges to view in the **From** and **To** lists.  |
-   |9     |  Filter information by **Characteristics - Rating, Roles**, **Territories**, **Organizational Units**, **Resource Types**, **Teams**, and **Business Units** to narrow or expand the schedule board view, using the **Filter** tab. </br> </br> Map view shows the location of resources, organizational units, bookings, and requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure the filter and map view](#configure-the-filter-and-map-view)  |
-   | 10    |   To view the details of any resource, appointment, or service activity, select the record in the list to the left of the calendar, and then at the bottom of the calendar, under the **Zoom** scale, select the **Expand** button to expand the preview pane. You can also double-click a record to open it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  [Configure Booking Requirements](#configure-booking-requirements)    |
-   |  |     |
+
+|Label  |Field  |Description  |
+|---------|---------|---------|
+|1    |    View list of resources     |  A list of resources is displayed on the left side of the calendar in alphabetical order. To view the resources, appointments, and service activities for anyone in your organization, in the **Type** list, select **Resource**, and then in the **View** list select the resource view.  </br> </br>  To find a specific resource, in the **Search** box, enter the first few letters of a name.       |
+|Row2     |         |         |
+|Row3     |         |         |
+|Row4     |         |         |
+|Row5     |         |         |
+|Row6     |         |         |
+|Row7     |         |         |
+|Row8     |         |         |
+|Row9     |         |         |
+|Row10     |         |         |
+
+
+ 
  
 ### Create additional tabs  
 

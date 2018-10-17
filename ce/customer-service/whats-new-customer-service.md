@@ -44,7 +44,7 @@ Service scheduling, now built atop Universal Resource Scheduling (URS), provides
 
 To learn more about the new service scheduling, see [Service scheduling overview](basics-service-service-scheduling.md).
 
-See [Get the new Service Scheduling experience](enable-urs-service-scheduling.md) to explore the new experience.
+See [Understand the new Service Scheduling experience](enable-urs-service-scheduling.md) to explore the new experience.
 
 Have some questions? See the [Service Scheduling FAQ](service-scheduling-faq.md).
 

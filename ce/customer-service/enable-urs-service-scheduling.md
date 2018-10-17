@@ -1,6 +1,6 @@
 ---
-title: Understand the new service scheduling based on Universal Resource Scheduling | MicrosoftDocs
-description: Understand how to avail the new service scheduling based on Universal Resource Scheduling (URS) in Dynamics 365 for Customer Service
+title: Understand the new Service Scheduling based on Universal Resource Scheduling | MicrosoftDocs
+description: Understand how to get the new service scheduling based on Universal Resource Scheduling (URS) in Dynamics 365 for Customer Service
 keywords: Service scheduling; Dynamics 365; Customer Service; Universal Resource Scheduling (URS)
 author: anjgupta
 applies_to: 
@@ -30,14 +30,14 @@ With the Customer Engagement apps version 9.1 release, the new Service Schedulin
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Access Service Scheduling in the Customer Service Hub](basics-service-service-scheduling.md#access-service-scheduling-in-the-customer-service-hub)
 
-- To avail and enable the new service scheduling package, see [Avail the new Service Scheduling experience](#avail-the-new-service-scheduling-experience).
-- To migrate and configure entity records from legacy to new experience, see [Configure entity records in the new Service Scheduling experience](#configure-entity-records-in-the-new-service-scheduling-experience).
+- To get the new service scheduling package, see [Set up the new Service Scheduling experience](#set-up-the-new-service-scheduling-experience).
+- To migrate and configure entity records from legacy to the new experience, see [Configure entity records in the new Service Scheduling experience](#configure-entity-records-in-the-new-service-scheduling-experience).
 
 The new experience lists the entities as follows, as compared to the legacy experience:
 
 |Legacy Service Scheduling  |New Service Scheduling  |
 |---------|---------|
-|**Settings > Service Scheduling** </br> - Business Closure </br> - Services  </br> - Facilities/Equipment </br> - Resource Groups </br> - Sites  |   **Customer Service Hub sitemap >   Service Scheduling**  </br>  Scheduling </br> - Resources </br> - Facilities/Equipments </br> - Resource Categories   </br> - Service </br> - Service Activity </br> Tools </br> - Schedule Board </br> Settings </br> - Organizational Units </br> - Business Closures  |
+|**Settings > Service Scheduling** </br> - Business Closure </br> - Services  </br> - Facilities/Equipment </br> - Resource Groups </br> - Sites  |   **Customer Service Hub sitemap >   Service Scheduling**  </br>  Scheduling </br> - Resources </br> - Facilities/Equipment </br> - Resource Categories   </br> - Service </br> - Service Activity </br> Tools </br> - Schedule Board </br> Settings </br> - Organizational Units </br> - Business Closures  |
 |     |         |
 
 - Sites are now Organizational Units.
@@ -47,7 +47,7 @@ The new experience lists the entities as follows, as compared to the legacy expe
 ## Service Scheduling scenario
 The difference between the legacy and the new experience can be explained with the help of the following scenario:
 
-Contoso bike repairs, a company that repairs bikes, schedules repair services for their customers. To facilitate this process, they compile the following inputs:
+Contoso bike repair schedules repair services for their customers. To facilitate this process, they compile the following inputs:
 
  - **Define sites or organizational units**  </br>
    Sites are the locations where Contoso will provide service to their customers. In this example, Contoso bike repair is the site for service.
@@ -59,7 +59,7 @@ Contoso bike repairs, a company that repairs bikes, schedules repair services fo
    |   |         |  
 
 - **Define resources**</br>
-  Contoso defines the resources in the system. For example, two resources (contacts) Bert Hair and Gilda Moss are created. Similarly, two more resources (facility/equipment) Bike repair workbench - 1 and Bike repair workbench - 2, which will be required to perform the service.
+  Contoso defines the resources in the system. For example, two resources (contacts) Bert Hair and Gilda Moss are created. Similarly, two more resources (facility/equipment) are created, Bike repair workbench - 1 and Bike repair workbench - 2, which will be required to perform the service.
 
   |Legacy Service Scheduling  |New Service Scheduling  |
   |---------|---------|
@@ -105,42 +105,42 @@ Contoso bike repairs, a company that repairs bikes, schedules repair services fo
    |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Navigate the service calendar (Customer Service app)](navigate-service-calendar-cs-app.md)   |   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md) </br>    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the schedule board to configure service activity](use-schedule-board-configure-service-activity.md)  |
    |   |         | 
 
-## Avail the new Service Scheduling experience
+## Set up the new Service Scheduling experience
 
 Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.
 
-1. Install or upgrade Universal Resource Scheduling (URS)
+1. Check the Universal Resource Scheduling (URS) version
 
-   For the new experience, you should have the latest version of URS installed on your system.
+   For the new experience, you should have the latest version of URS installed on your system. Check the URS version. Go to **Settings** and select **Solutions** to see the current version of URS on your machine.
 
-   - Check the URS version. Go to **Settings** and select **Solutions** to see the current version of URS on your machine.
-   - Upgrade to the latest version of URS from <<here>>. Consider that importing the service scheduling package will upgrade URS to the latest version. If Field Service or Project Service is already installed on your org with an older version of URS, then URS will also be upgraded. 
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
 
       > [!NOTE]
-      > The latest version of URS might not be compatible with the old versions of Field Service or Project Service.
+      >  Consider that importing the service scheduling package will upgrade URS to the latest version. If Field Service or Project Service is already installed on your org with an older version of URS, then URS will also be upgraded. </br> The latest version of URS might not be compatible with the old versions of Field Service or Project Service.
 
 2.  Get the Service Scheduling package
 
-    To avail the service scheduling package, the administrator of your organization needs to fill and submit a form. 
-  
-3. Enable Service Scheduling in the Customer Service Hub sitemap
+    Go to [Microsoft AppSource](https://appsource.microsoft.com/en-us/?src=dynamics365website&product=dynamics-365-business-central%3Bdynamics-365-for-customer-services%3Bdynamics-365-for-field-services%3Bdynamics-365-for-finance-and-operations%3Bdynamics-365-for-project-service-automation%3Bdynamics-365-for-sales) to access the Service Scheduling package. Search and opt for the package and fill the questionnaire. 
 
-   After you have installed the service scheduling package, navigate to the Customer Service Hub sitemap and select **Enable**.
+    You receive an email confirmation once the package is deployed for your org.
+
+    > [!NOTE]
+    > Service Scheduling deployment is similar to Field Service deployment. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install and setup [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]](../field-service/install-field-service.md).
+  
+3. Access Service Scheduling in the Customer Service Hub sitemap
+
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Access Service Scheduling in the Customer Service Hub](basics-service-service-scheduling.md#access-service-scheduling-in-the-customer-service-hub)
+
 
 ## Configure entity records in the new Service Scheduling experience
 
-If you have been using the legacy service scheduling, you can configure all your entity records in the new experience either from the user interface or by running SDK code samples.
-
-### Configure from user interface
-
-Create the new entity records manually in the new user interface. Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions
+You can configure all your entity records in the new experience manually from the user interface. Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.
 
 To follow the correct sequence, see [Service Scheduling scenario](#service-scheduling-scenario).
 
-### Configure using SDK code samples
-
-All entity records can be configured from the user interface except Service Activity. To migrate and configure Service Activity, see [Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md).
-
+> [!NOTE]
+> If you have been using the legacy service scheduling, you would still need to configure entity records in the new experience. </br> All entity records can be configured from the user interface except Service Activity. </br>
+To migrate your Service Activities by running SDK code samples. See [Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md) for more information.
 
 ### See also
 
