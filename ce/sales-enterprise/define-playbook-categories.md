@@ -2,7 +2,7 @@
 title: "Define playbook categories (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Create playbook categories to classify playbooks."
 keywords: "playbook, category, classify"
-ms.date: 10/01/2018
+ms.date: 10/16/2018
 ms.service:
   - "dynamics-365-sales"
 ms.custom:

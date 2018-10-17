@@ -2,7 +2,7 @@
 title: "Enforce best practices with playbooks (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Guide your team members with predefined activities to ensure they follow a consistent approach on recurrent events or scenarios."
 keywords: "playbook, consistent, best practice"
-ms.date: 10/01/2018
+ms.date: 10/16/2018
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
