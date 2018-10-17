@@ -32,7 +32,7 @@ Welcome to [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales
 
 
    > [!NOTE]
-   > The feature is being released with Dynamics 365 for Customer Engagement apps, version 9.1.0.0263, as part of weekly release of the product to individual geographies. 
+   > The feature is being released with Dynamics 365 for Customer Engagement apps, version 9.1.0.0263 or later, as part of weekly release of the product to individual geographies. 
 
 ## Dynamics 365 for Sales, Spring 2018 ([!INCLUDE[pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)])
 
