@@ -80,7 +80,7 @@ If you do not provide your consent:
 
 - Enabling or disabling the SharePoint integration will not be complete and an error message will display.
 
-- Your out-of-the-box Azure AD logon on the portal will not work. 
+- Your out-of-the-box Azure AD login on the portal will not work. 
 
 
 ## Step 3: Enable document management for entities
