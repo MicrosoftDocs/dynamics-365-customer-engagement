@@ -91,10 +91,10 @@ You'll be able to connect directly to your [!INCLUDE[pn-microsoftcrm](../include
 
 Once your [!include[](../includes/pn-azure-blob-storage.md)] is set up and connected to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], you're ready to start working in [!include[](../includes/pn-power-bi.md)] to connect to your data sources and design your analytics.
 
-1. If you haven't already, then download one or both of the following:
+1. If you haven't already, then [download the templates from the Microsoft download center](https://www.microsoft.com/en-us/download/details.aspx?id=57459). The download includes the following templates:
 
-    - **[Dynamics 365 for Marketing template for Power BI](https://download.microsoft.com/download/A/9/8/A98D7307-C531-4C1E-AB51-9F888CAE887E/PowerBI%20Template%20-%20Dynamics%20365%20for%20Marketing.pbit)**: This template is prepared to connect to your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] data sources, but doesn't include any pre-built analyzers. This is a good place to start when developing custom solutions from scratch.
-    - **[Email marketing analyzer for Power BI](https://download.microsoft.com/download/A/9/8/A98D7307-C531-4C1E-AB51-9F888CAE887E/PowerBI%20Template%20-%20Dynamics%20365%20for%20Marketing.pbit)**: This template includes a feature-rich email marketing analyzer that is ready to connect to your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] data sources.
+    - **Dynamics 365 for Marketing template for Power BI**: This template is prepared to connect to your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] data sources, but doesn't include any pre-built analyzers. This is a good place to start when developing custom solutions from scratch.
+    - **Email marketing analyzer for Power BI**: This template includes a feature-rich email marketing analyzer that is ready to connect to your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] data sources. It provides a comprehensive report of your email marketing results, including detailed analytics, charts, and views spread across multiple report pages. You can use this template as-is, or as inspiration for designing your own reports.
 
 1. Open your selected template in [!include[](../includes/pn-power-bi-desktop.md)]. If you don't already have [!include[](../includes/pn-power-bi-desktop.md)], you can download it for free from [https://powerbi.microsoft.com/desktop/](https://powerbi.microsoft.com/desktop/).
 
