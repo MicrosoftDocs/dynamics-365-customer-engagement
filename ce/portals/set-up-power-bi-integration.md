@@ -51,3 +51,8 @@ When Power BI visualization is enabled, the following action becomes available:
 
   > [!div class="mx-imgBorder"]
   > ![Disable Power BI visualization](media/disable-power-bi-visualization.png "Disable Power BI visualization")
+
+### See also
+
+[powerbi Liquid tag](dynamics-entity-tags.md#powerbi)<br> 
+[Add a Power BI report or dashboard to a webpage in portal](add-powerbi-report.md)
