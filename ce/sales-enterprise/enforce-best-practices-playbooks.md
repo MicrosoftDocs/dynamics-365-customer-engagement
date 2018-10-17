@@ -30,7 +30,7 @@ To start, anyone with a Playbook manager role or equivalent permissions creates 
 
 > [!NOTE]
 > The playbook capability is currently available only in the Sales Hub app in [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. It is being released with [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] application version 9.0.1810.4006 or later and the server version 9.1.0.0263 or later, as part of weekly release of the product to individual geographies. 
-> To manage your Dynamics 365 instances, see [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md) 
+> To learn about updating an app solution, see [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md) 
 
 ### See also
 [Define playbook categories](define-playbook-categories.md)  <br>
