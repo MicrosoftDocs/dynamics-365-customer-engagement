@@ -64,7 +64,7 @@ Use these steps to create a Postman environment that you can use to connect with
 |callback|`https://callbackurl`|
 |authurl|`https://login.microsoftonline.com/common/oauth2/authorize?resource={{url}}`|
 
-    ![Create a new Postman environment to connect with Online instance](../media/postman-add-online-env.png "Create a new Postman environment to connect with Online instance")
+![Create a new Postman environment to connect with Online instance](../media/postman-add-online-env.png "Create a new Postman environment to connect with Online instance")
 
 1. Replace the instance URL placeholder value with the URL of your Dynamics 365 instance and click **Add** to save the environment.
 
