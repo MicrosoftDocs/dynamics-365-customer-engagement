@@ -28,11 +28,12 @@ Welcome to [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales
 
 ## Dynamics 365 for Sales, Dynamics 365 for Customer Engagement apps, version 9.1
 
--  Dynamics 365 for Sales introduces Playbooks, a new capability to help organizations automate repeatable sales activities and respond to external events. It provides proactive and predictive event-driven guidance that can suggest the next best actions and surface relevant activities to successfully respond to external events. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enforce best bractices with playbooks](enforce-best-practices-playbooks.md)
+-  Dynamics 365 for Sales introduces Playbook, a new capability to help organizations automate repeatable sales activities and respond to external events. It provides proactive and predictive event-driven guidance that can suggest the next best actions and surface relevant activities to successfully respond to external events. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enforce best bractices with playbooks](enforce-best-practices-playbooks.md)
 
 
    > [!NOTE]
-   > The feature is being released with Dynamics 365 for Customer Engagement apps, version 9.1.0.0263 or later, as part of weekly release of the product to individual geographies. 
+   > The playbook capability is currently available only in the Sales Hub app in [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. It is being released with [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] application version 9.0.1810.4006 or later and the server version 9.1.0.0263 or later, as part of weekly release of the product to individual geographies. 
+   > To manage your Dynamics 365 instances, see [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md) 
 
 ## Dynamics 365 for Sales, Spring 2018 ([!INCLUDE[pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)])
 
