@@ -3,7 +3,7 @@ title: "Crowdsource ideas on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn how to manage Forum Ideas, Idea Comments, and Idea Votes on a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 08/30/2018
+ms.date: 10/17/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -96,16 +96,16 @@ The table below explains the standard attributes and relationships of the Idea e
 
 ### Enable voting for status reasons
 
-By default, an idea is enabled for voting only when the Status Reason is set to New. If you want to enable the voting on an idea for different status reasons,  you must create the Ideas/EnableVotingForStatusReasons site setting and set its value to the required status reason values.
+By default, an idea is enabled for voting only when the Status Reason is set to New. If you want to enable voting on an idea for different status reasons,  you must create the Ideas/EnableVotingForStatusReasons site setting and set its value to the required status reason values.
 
-For example, you want you to enable voting for New, Accepted, and Rejected status reasons. You must create the site setting and set its value as:
+For example, say you want to enable voting for New, Accepted, and Rejected status reasons. You must create the site setting and set its value as:
 
 - **Name**: Ideas/EnableVotingForStatusReasons
 
 - **Value**: 1;100000000;100000002
 
 > [!NOTE]
-> - If all the values in site setting is wrong, the voting will be disable regardless of the status reason.
+> - If all the values in site setting are wrong, voting will be disabled regardless of the status reason.
 > - If this site setting does not exist, the idea will be enabled for voting only when the Status Reason is set to New.
 
 To get the status reason values:
