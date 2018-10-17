@@ -42,6 +42,15 @@
 ### [Close an opportunity](../sales-enterprise/close-opportunity-won-lost-sales.md)
 ### [Track competitors](../sales-enterprise/create-edit-competitor-record-sales.md)
 ### [Manage sales literature](../sales-enterprise/create-sales-literature.md)
+## [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)
+### Playbook manager guide
+#### [Define playbook categories](define-playbook-categories.md)  
+#### [Manage playbook templates](manage-playbook-templates.md) 
+### Playbook user guide
+#### [Launch a playbook to carry out activities consistently](launch-playbook.md)  
+#### [Mark playbook as completed](mark-playbook-completed.md)  
+#### [Track playbook activities](track-playbook-activities.md) 
+
 ## [Mobile guide for Sales Hub](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
 ## Troubleshooting
 ### [Troubleshooting guide for sales people](troubleshooting.md)
