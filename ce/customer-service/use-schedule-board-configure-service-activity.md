@@ -54,33 +54,17 @@ Here’s what you’ll see when you open the schedule board:
 
 |Label  |Field  |Description  |
 |---------|---------|---------|
-|1    |    View list of resources     |  A list of resources is displayed on the left side of the calendar in alphabetical order. To view the resources, appointments, and service activities for anyone in your organization, in the **Type** list, select **Resource**, and then in the **View** list select the resource view.  </br> </br>  To find a specific resource, in the **Search** box, enter the first few letters of a name.       |
-|2    |   Initial public view      |    Add more schedule board tabs in the Initial public view section. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create additional tabs](#create-additional-tabs) </br></br> To edit an existing schedule board view or to modify tab settings, double-click the view name or select the settings icon.       |
-|3    |  Scheduler settings       |   **Scheduler settings** help you synchronize dates and content with a location. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Scheduler settings](#scheduler-settings)       |
+|1    |    View list of resources     |  A list of resources is displayed on the left side of the calendar in alphabetical order. To view the resources, appointments, and service activities for anyone in your organization, in the **Type** list, select **Resource**, and then in the **View** list select the resource view.  </br> </br>  To find a specific resource, enter the first few letters of the name in the **Search** box.       |
+|2    |   Initial public view      |    Add more schedule board tabs in the Initial public view section. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create additional tabs](../field-service/configure-schedule-board.md#create-additional-tabs) </br></br> To edit an existing schedule board view or to modify tab settings, double-click the view name or select the settings icon.       |
+|3    |  Scheduler settings       |   **Scheduler settings** help you synchronize dates and content with a location. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Scheduler settings](../field-service/configure-schedule-board.md#scheduler-settings)     |
 |4  |     Details    |     View additional details of the booking in the **Details** tab.    |
-|5     | Create Resource Booking        |   Select requirements and create a resource booking in the **Create Resource Booking** tab. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create Resource Booking](#create-resource-booking)       |
-|Row6     |         |         |
-|Row7     |         |         |
-|Row8     |         |         |
-|Row9     |         |         |
-|Row10     |         |         |
+|5     | Create Resource Booking     |   Select requirements and create a resource booking in the **Create Resource Booking** tab. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a booking for a service appointment](#schedule-a-booking-for-a-service-appointment)     |
+|6     |     Filter & Map view    |   Filter information by **Characteristics - Rating, Roles**, **Territories**, **Organizational Units**, **Resource Types**, **Teams**, and **Business Units** to narrow or expand the schedule board view, using the **Filter** tab. </br> </br> Map view shows the location of resources, organizational units, bookings, and requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure the filter and map view](../field-service/configure-schedule-board.md#configure-the-filter-and-map-view)       |
+|7     |   Service Appointments view      |    To view the details of any resource, appointment, or service activity, select the record in the list to the left of the calendar, and then at the bottom of the calendar, under the **Zoom** scale, select the **Expand** button to expand the preview pane. You can also double-click a record to open it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Booking Requirements](../field-service/configure-schedule-board.md#configure-booking-requirements)       |
+| |         |         |
 
 
- 
- 
-### Create additional tabs  
-
-You can create and add additional tabs in the schedule board using the  **Initial public view**.
-
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create additional tabs](../field-service/configure-schedule-board.md#create-additional-tabs)
-
-### Scheduler settings 
-
-**Scheduler settings** in the Configuration tab helps you configure your time offsite so you can synchronize dates and content with a location.
-
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Scheduler settings](../field-service/configure-schedule-board.md#scheduler-settings)  
-
-### Create resource booking
+### Schedule a booking for a service appointment
 
 You can select requirements and create a booking for the selected resource using the **Create Resource Booking** tab. 
 
@@ -90,18 +74,6 @@ In the tab:
 - Select the start and end date using the calendars in **Start Date** and **End Date**.
 - Choose **Booking Status** and **Booking Method**.
 - Select **Book** to create a resource booking.
-
-### Configure the filter and map view
-
-You can set filters to see selected information in the **Filter and Map view**. Maps shows you the location of resources.
-
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure the filter and map view](../field-service/configure-schedule-board.md#configure-the-filter-and-map-view)
-
-### Configure booking requirements
-
-See the details of all unscheduled bookings and create a schedule for them using the **Configure Booking Requirements** tab.
-
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Booking Requirements](../field-service/configure-schedule-board.md#configure-booking-requirements)
 
 
 ### See also
