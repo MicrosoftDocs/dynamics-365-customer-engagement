@@ -140,9 +140,11 @@ The first page you see shows a list of existing strategies. From here, you can c
 
 Describe your strategy by entering a **Name** and **Description**. Set the **Target** field to the type of entity your strategy applies to (lead or contact).
 
-The input field under the **Target** setting specifies which contact or lead fields to consider when looking for a match. The matching record must have identical values for *all* the fields shown here, so the more fields you use, the narrower your search will be. Often the email address alone is enough to use as a unique identifier, but you might use additional fields (such as first and last name) if you think some of your contacts might share an email address, or if you want tighter control (at the risk of creating extra contact or lead records for the same person). Enter a comma-separated list of fields to consider, and include square brackets around the list and quotes around each field name, such as:
+The list under the **Attributes** heading specifies which contact or lead attributes (fields) to consider when looking for a match. The matching record must have identical values for *all* the attributes shown here, so the more attributes you use, the narrower your search will be. Often the email address alone is enough to use as a unique identifier for contacts, but you might use additional attributes (such as first and last name) if you think some of your contacts might share an email address, or if you want tighter control (at the risk of creating extra contact records for the same person).
 
-> `["emailaddress1", "msdyncrm_marketingpageid"]`
+For lead matching, you might consider adding both **emailaddress1** and a lead-origin attribute such as **msdyncrm_marketingpageid**. This enables the system to identify leads based on the combination of email address and the specific marketing page that created the lead, so if the same contact submits a different landing page for the first time then a new lead will be created.
+
+Use the buttons in the toolbar for the **Attributes** section to add, edit, and remove attribute in the list.
 
 <a name="default-marketing-settings"></a>
 <a name="marketing-configuration"></a>
