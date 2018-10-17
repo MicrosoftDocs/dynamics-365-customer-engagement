@@ -1,7 +1,7 @@
 ---
 title: "Create or edit business units for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/02/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -13,8 +13,8 @@ applies_to:
 author: "jimholtz"
 ms.assetid: 0a7ad0db-887f-4139-b3d1-8f18a84b10d2
 caps.latest.revision: 14
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "jimholtz"
+manager: "kvivek"
 search.audienceType: 
   - admin
 search.app: 
@@ -44,6 +44,7 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], a business unit 
 - You can assign a team to just one business unit, but a team can consist of users from one or many business units. Consider using a team if you have a situation where users from different business units need to work together on a shared set of records.  
   
 <a name="BKMK_createnew"></a>   
+
 ## Create a new business unit  
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
@@ -73,6 +74,7 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], a business unit 
 7. When you’re done making entries, select **Save and Close**.  
   
 <a name="BKMK_changesettings"></a>   
+
 ## Change the settings for a business unit  
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
@@ -82,22 +84,15 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], a business unit 
 3. In the **Business Unit** dialog box, do one or more of the following:  
   
    -   Modify the data in one or more fields.  
-  
-       > [!NOTE]
-       >  You can’t change the name of a business unit or delete a business unit after it has been created. You can disable a business unit or change the parent, however. When you disable a business unit, all users and teams associated with the business unit are also disabled.  
-  
-   -   Make a selection on the **Actions** menu. For example, to change the parent business unit, select **Actions**, and then **Change Parent Business**.  
-  
-       > [!NOTE]
-       >  Changing the parent business removes security roles for users and teams associated with the business unit. You must reassign them.  
-  
-   -   Select a record type under **Organization** to see a list of related records. For example, select **Users** to view a list of users in the selected business unit or to add a **New User** to the business unit.  
+    
+   -   Select a record type under **Organization** to see a list of related records. For example, select **Users** to view a list of users in the selected business unit.  
   
 4. When you’re done making changes select **Save and Close**.  
-  
+
 <a name="BKMK_changebusinessunit"></a>   
+
 ## Change the business unit for a record  
- You can change the business unit for an individual facility, equipment, or user. By changing the business unit for a user, you remove all security role assignments for the user. At least one security role must be assigned to the user in the new business unit.  More information: [Security roles](../admin/security-roles-privileges.md)  
+ You can change the business unit for an individual facility, equipment, or user.   
   
 ### Change the business unit for facilities or equipment  
   
@@ -112,8 +107,11 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], a business unit 
 5. In the **Change Business Unit** dialog box, use the **Lookup** button ![Lookup button](../admin/media/lookup-4.gif "Lookup button") to select a new business unit, and then select **OK**.  
   
 6. Select **Save and Close**.  
-  
+
 ### Change the business unit for a user  
+
+> [!IMPORTANT]
+> By changing the business unit for a user, you remove all security role assignments for the user. At least one security role must be assigned to the user in the new business unit.  More information: [Security roles](../admin/security-roles-privileges.md).
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   

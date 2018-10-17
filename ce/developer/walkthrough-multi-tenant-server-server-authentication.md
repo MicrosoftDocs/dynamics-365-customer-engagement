@@ -2,7 +2,7 @@
 title: "Walkthrough: Multi-tenant server-to-server authentication (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This walkthrough describes the steps to create a multi-tenant web application that can connect to a December 2016 Update for Dynamics 365 (online) tenant using the Visual Studio 2015 MVC web application template"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 09/27/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -12,7 +12,7 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: 9d09f7e8-c1fc-45c8-9755-ac17785f0818
 caps.latest.revision: 8
-author: "JimDaly"
+author: "paulliew"
 ms.author: "jdaly"
 search.audienceType: 
   - developer
@@ -25,7 +25,8 @@ search.app:
 
 This walkthrough will describe the steps to create a multi-tenant web application that can connect to a [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] tenant using the [!INCLUDE[pn_microsoft_visual_studio_2015](../includes/pn-microsoft-visual-studio-2015.md)] MVC web application template.  
   
-<a name="bkmk_Requirements"></a>   
+<a name="bkmk_Requirements"></a>
+
 ## Requirements  
   
 - [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)] with web developer tools installed  
@@ -34,8 +35,10 @@ This walkthrough will describe the steps to create a multi-tenant web applicatio
   
 - A second [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] tenant associated with a different Azure AD tenant.  This tenant represents a subscriber to your application. This can be a trial [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] subscription.  
   
-<a name="bkmk_goal"></a>   
-## Goal of this walkthrough  
+<a name="bkmk_goal"></a>
+
+## Goal of this walkthrough
+
  When you complete this walkthrough you will have an MVC web application which will use the [WhoAmIRequest Class](http://msdn.microsoft.com/en-us/0daeeabf-e8ec-4df1-a320-7aadef191d4c) to retrieve data about the user the application uses to connect to the [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] Customer Engagement tenant.  
   
  When you run the app successfully you will see a **Sign in** command in the top right corner.  
@@ -54,8 +57,10 @@ This walkthrough will describe the steps to create a multi-tenant web applicatio
   
  When you query your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] tenant you will see that the results returned from the WhoAmI message refer to  a specific application user account you have configured for the web application to use rather than the user account you are currently using.  
   
-<a name="bkmk_VerifyAADTenant"></a>   
-## Verify Azure AD tenant  
+<a name="bkmk_VerifyAADTenant"></a>
+
+## Verify Azure AD tenant
+
  Before you begin, connect to your [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)][https://portal.office.com](https://portal.office.com) and in the **Admin centers** drop-down, verify that you see both [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and **Azure AD**.  
   
  ![Admin Centers with Azure Active Directory and Dynamics 365](media/admin-centers-with-aad-crm.png "Admin Centers with Azure Active Directory and Dynamics 365")  
@@ -66,8 +71,10 @@ This walkthrough will describe the steps to create a multi-tenant web applicatio
   
  If you already have an Azure subscription but it isn’t associated with your [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] account, see [Associate your Office 365 account with Azure AD](https://msdn.microsoft.com/office/office365/howto/setup-development-environment) to create and manage apps.  
   
-<a name="bkmk_createMVCWebApp"></a>   
-## Create an MVC web application  
+<a name="bkmk_createMVCWebApp"></a>
+
+## Create an MVC web application
+
  Using [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)], you can create a new MVC web application and register it with your Azure AD tenant.  
   
 1. Open [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)].  
@@ -96,8 +103,10 @@ This walkthrough will describe the steps to create a multi-tenant web applicatio
   
    ```  
   
-<a name="bkmk_RegisterAppOnAAD"></a>   
-## Register your application on Azure AD  
+<a name="bkmk_RegisterAppOnAAD"></a>
+
+## Register your application on Azure AD
+ 
  If you have followed the steps in [Create an MVC web application](#bkmk_createMVCWebApp), you should find that the web application project you created in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] is already registered in your Azure AD applications. But there is one more step that you must perform within the Azure AD portal.  
   
 1. Go to [https://portal.azure.com](https://portal.azure.com) and select **Azure Active Directory**.  
@@ -111,26 +120,25 @@ This walkthrough will describe the steps to create a multi-tenant web applicatio
 4. The **Home page URL** value should match SSL URL property in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project and should direct to a localhost URL, i.e. https://localhost:44392/.  
   
    > [!NOTE]
-   >  You will need to change this later when you actually publish your application. But you need to have this set to the correct localhost value for debugging.  
-  
-5. You need to give your application privileges to access [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data. In the **API Access** area click **Required permissions**. You should see that it already has permissions for Windows [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)].  
-  
-6. Click **Add**, then **Select an API**. In the list, select [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and then click the **Select** button.  
-  
-7. In **Select permissions**, select **Access Dynamics 365 as organization users**. Then click the **Select** button.  
-  
-8. Click **Done** to add these permissions. When you are done you should see the permissions applied:  
-  
-   ![Dynamics 365 permissions applied to application in Azure Active Directory](media/crm-permissions-applied-app-aad.png "Dynamics 365 permissions applied to application in Azure Active Directory")  
+   >  You will need to change this later when you actually publish your application. But you need to have this set to the correct localhost value for debugging.
+   >
+
   
 9. In the **API Access** area, confirm that a **Key** value has been added. The **Key** value is not visible in the Azure portal after the application has been created, but this value was added to your Web.Config appSettings as the `ClientSecret`.  
+
+> [!NOTE]
+> When registering this application you do not need to grant your application rights to access Dynamics 365 (online) data as you usually do when creating a client application. This application is bound to a application user in the system.
   
-<a name="bkmk_CreateApplicationUser"></a>   
-## Create an application user  
+<a name="bkmk_CreateApplicationUser"></a>
+
+## Create an application user
+
  Using steps in [Manually create a Dynamics 365 application user](use-multi-tenant-server-server-authentication.md#bkmk_ManuallyCreateUser), create an application user with the **Application Id** value from your application registration which is also the same as the `ClientId` value in the Web.Config.  
   
-<a name="bkmk_AddAssemblies"></a>   
+<a name="bkmk_AddAssemblies"></a>
+
 ## Add Assemblies  
+
  Add the following [!INCLUDE[tn_nuget](../includes/tn-nuget.md)] packages to your project  
   
 |Package|Version|  
@@ -145,12 +153,16 @@ This walkthrough will describe the steps to create a multi-tenant web applicatio
   
  For information about managing [!INCLUDE[tn_nuget](../includes/tn-nuget.md)] packages, see [NuGet Documentation: Managing NuGet Packages Using the UI](https://docs.nuget.org/ndocs/tools/package-manager-ui)  
   
-<a name="bkmk_ApplyCodeChanges"></a>   
-## Apply code changes to the MVC template  
+<a name="bkmk_ApplyCodeChanges"></a>
+
+## Apply code changes to the MVC template
+
  The following code changes will provide basic functionality to use the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]`WhoAmI` message and verify that the application user account identity is being used by the application.  
   
-<a name="bkmk_WebConfig"></a>   
-### Web.config  
+<a name="bkmk_WebConfig"></a>
+
+### Web.config 
+
  Add the following keys to the appSettings.  
   
 ```xml  
@@ -213,8 +225,10 @@ namespace SampleApp.Controllers
 > [!NOTE]
 >  In your web application or service, it is not expected that you will allow anonymous access. Anonymous access is used here for simplicity. Controlling access to your application is out of scope for this walkthrough.  
   
-<a name="bkmk_ViewsSharedLayout"></a>   
+<a name="bkmk_ViewsSharedLayout"></a>
+
 ### Views/Shared/_Layout.cshtml  
+
  In order to display the command link **WhoAmI** for authenticated users, you need to edit this file.  
   
  Locate the `div` element with the class `navbar-collapse collapse` and edit it to include the code below:  
@@ -236,8 +250,10 @@ namespace SampleApp.Controllers
   
 ```  
   
-<a name="bkmk_AppStartStartupAuth"></a>   
+<a name="bkmk_AppStartStartupAuth"></a>
+
 ### App_Start/Startup.Auth.cs  
+
  The following changes will invoke the consent framework when a new tenant logs into the application:  
   
 ```csharp  
@@ -348,8 +364,10 @@ public partial class Startup
   
 ```  
   
-<a name="bkmk_AddControllersCrmSdkController"></a>   
+<a name="bkmk_AddControllersCrmSdkController"></a>
+
 ### Add Controllers/CrmSdkController  
+
  Add the following CrmSdkController.cs to the Controllers folder. This code will execute the `WhoAmI` message  
   
 1.  Right click the Controllers folder and select **Add** > **Controller…**  
@@ -437,8 +455,10 @@ namespace <Your app namespace>
   
 ```  
   
-<a name="bkmk_ViewsCrmSdk"></a>   
-### Views/CrmSdk  
+<a name="bkmk_ViewsCrmSdk"></a>
+
+### Views/CrmSdk
+
  Add a new view named Index.  
   
 1. Right click the CrmSdk folder and select **Add** > **View…**  
@@ -465,8 +485,10 @@ namespace <Your app namespace>
   
    ```  
   
-<a name="bkmk_DebugApp"></a>   
-## Debug the app  
+<a name="bkmk_DebugApp"></a>
+
+## Debug the app
+
  When you press F5 to debug the application you may get error that the certificate accessing localhost using SSL is not trusted. The following are some links to resolve this issue with [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)]and IIS Express:  
   
 -   [http://stackoverflow.com/questions/20036984/how-do-i-fix-a-missing-iis-express-ssl-certificate](http://stackoverflow.com/questions/20036984/how-do-i-fix-a-missing-iis-express-ssl-certificate)  
@@ -497,12 +519,16 @@ namespace <Your app namespace>
   
 ```  
   
-<a name="bkmk_ConfigureTestSubscriber"></a>   
-## Configure test subscriber  
+<a name="bkmk_ConfigureTestSubscriber"></a>
+
+## Configure test subscriber
+
  Now that you have verified that the application works, it time to test connectivity to a different [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] tenant.  Using a different [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] organization you will need to perform the following steps.  
   
-<a name="bkmk_GiveConsentFromSubscriber"></a>   
-### Give consent from the subscribing tenant  
+<a name="bkmk_GiveConsentFromSubscriber"></a>
+
+### Give consent from the subscribing tenant
+
  To give consent, perform the following steps while logged in as the Azure AD admin:  
   
 1. While you are debugging your application, open a separate InPrivate or incognito window.  
