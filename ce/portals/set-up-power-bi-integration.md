@@ -38,8 +38,8 @@ Power BI is one of the best tools to deliver insights with simple and interactiv
 
 3.	Go to **Set up Power BI integration** > **Enable Power BI visualization**.
 
-  > [!div class="mx-imgBorder"]
-  > ![Enable Power BI visualization](media/enable-power-bi-visualization.png "Enable Power BI visualization")
+    > [!div class="mx-imgBorder"]
+    > ![Enable Power BI visualization](media/enable-power-bi-visualization.png "Enable Power BI visualization")
 
 4.	Select **Enable** in the confirmation message. While Power BI visualization is being enabled, the portal restarts and will be unavailable for a few minutes. A message appears when Power BI visualization is enabled.
 

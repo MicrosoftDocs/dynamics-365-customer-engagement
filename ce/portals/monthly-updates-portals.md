@@ -36,7 +36,7 @@ Portal capabilities version 9.0.10 for [!INCLUDE[pn-dynamics-crm](../includes/pn
 
 - **Add Power BI visualization**: As a portal customizer, you can now embed Power BI visualizations (dashboard, reports, amd tiles) on web pages in a portal by using the powerbi Liquid tag. More information: [Set up Power BI integration](set-up-power-bi-integration.md)
 
-- **Restrict portal access by IP address**: As a portal administrator, you can now define a list of IP addresses that are allowed to access your portal. When a request to the portal is generated from any user, their IP address is evaluated against the allow list. If the IP address is not in the list, the portal replies with an HTTP 403 status code. More information: [Restrict portal access by IP address](ip-address-restrict.md)
+- **Restrict portal access by IP address**: As a portal administrator, you can now define a list of IP addresses that are allowed to access your portal. When a request to the portal is generated from any user, their IP address is evaluated against the allow list. If the IP address is not on the list, the portal displays a web page with an HTTP 403 status code. More information: [Restrict portal access by IP address](ip-address-restrict.md)
 
 - **Manage SharePoint documents**: [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal now supports uploading and displaying documents to and from SharePoint directly on an entity form or web form in a portal. This allows portal users to view, download, add, and delete documents from a portal. Portal users can also create folders to organize their documents. More information: [Manage SharePoint documents](manage-sharepoint-documents.md)
 

@@ -51,8 +51,8 @@ Once you add an IP address to the restriction list, the portal will be accessibl
 
 3.	Go to **Set up IP address restriction**. A list of IP addresses and their type is displayed.
 
-  > [!div class="mx-imgBorder"]
-  > ![Set up IP address restriction](media/set-up-ip-address-restrict.png "Set up IP address restriction")
+    > [!div class="mx-imgBorder"]
+    > ![Set up IP address restriction](media/set-up-ip-address-restrict.png "Set up IP address restriction")
 
 4.	On the Set up IP address restriction page, select **Add an IP address (+)**.
 
@@ -62,8 +62,8 @@ Once you add an IP address to the restriction list, the portal will be accessibl
 
     - **Specify IP address in CIDR notation**: Specify the IP address in CIDR notation. More information: [Classless Inter-Domain Routing](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)
 
-    > [!div class="mx-imgBorder"]
-    > ![Add an IP address](media/add-ip-address.png "Add an IP address")    
+      > [!div class="mx-imgBorder"]
+      > ![Add an IP address](media/add-ip-address.png "Add an IP address")    
 
 6.	Select **Configure**.
 
@@ -77,8 +77,8 @@ To remove access to a portal from a previously allowed IP address, you can remov
 
 3.	Go to **Set up IP address restriction**. A list of IP addresses and their type is displayed.
 
-  > [!div class="mx-imgBorder"]
-  > ![Set up IP address restriction](media/set-up-ip-address-restrict.png "Set up IP address restriction")
+    > [!div class="mx-imgBorder"]
+    > ![Set up IP address restriction](media/set-up-ip-address-restrict.png "Set up IP address restriction")
 
 4.	Select **Remove an IP address (x)** next to the IP address to be removed.
 
