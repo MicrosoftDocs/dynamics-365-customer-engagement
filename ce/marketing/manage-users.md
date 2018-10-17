@@ -40,24 +40,20 @@ User accounts and licensing in [!INCLUDE[pn-marketing-business-app-module-name](
 
 <a name="assign-role"></a>
 
-## Assign a security role to a user
+## Assign and customize a security roles for users
 
-Security roles control a user's access to data through a set of access levels and privileges. The combination of access levels and privileges that are included in a specific security role sets limits on the user's view of data and on what actions the user can perform with that data.
+Security roles control users' access to data through a set of access levels and privileges. The combination of access levels and privileges that are included in a specific security role sets limits on each user's view of data and on what actions the user can perform with that data.
+
+Each security role is created by assigning various levels of access to each of a wide selection of privileges. Administrators can customize each role as needed by modifying the set of privileges it contains.
 
 You can assign more than one security role to a user. The effect of multiple security roles is cumulative, which means that the user has the permissions associated with all security roles assigned to the user.
 
 > [!IMPORTANT]
 > You must assign at least one security role to every user. The service does not allow access to any user who does not have at least one security role.
 
-In [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]:
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provides a read-only view of users who are licensed to use the system. To apply security roles to users, and to customize each role, you must work in the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app. For details about how to open this app, see [Move between apps](navigation.md#move-between-apps). For more information about managing users and working with security roles in the custom app, see [Manage security, users, and team](../admin/manage-security-users-and-teams.md) and [Create or edit a security role](../admin/create-edit-security-role.md).
 
-1. Go to **Settings** > **Advanced Settings** > **Organization** > **User Management**.
-1. Open the record for the user you want to assign a role to. To open the record, either double-click on it or select it in the list and then press the enter key.
-1. On the command bar, select **Manage Roles**.
-1. In the **Manage User Roles** flyout, select the check box for each relevant security role snd then select **OK**.
-
-> [!NOTE]
-> [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] offers limited user-management functionality, and provides access to just a few of the security roles available on your [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] system. To grant access to all types of security roles, and to customize each role, you must work in the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app. For details about how to open this app, see [Move between apps](navigation.md#move-between-apps). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage security, users, and team](../admin/manage-security-users-and-teams.md)
+When you are creating and customizing security roles in the custom app, you'll find most of the user privileges added by the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app on the **Custom Entities** tab of the **Security Role** dialog.
 
 ## Security roles added by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
@@ -69,6 +65,7 @@ The event management solution adds the following security roles:
 
 - **Event Administrator**: Can create, read, write, delete, assign, and share any Event Management record. Can also access the administration settings for Event Management.
 - **Event Planner**: Can create, read, write, and share any type of Event Management record, but can only delete and assign Event Management records that they own.
+- **EventManagement S2S Inbound**: an internal security role used by the solution to sync data.
 
 ### Core marketing security roles
 
@@ -93,7 +90,7 @@ The [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen package adds th
 
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Administrator**: Users with this role can configure lead matching strategies, [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] field mapping, and solution settings for [!INCLUDE[cc-linkedin-solution](../includes/cc-linkedin-solution.md)].
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Salesperson**: These users can authorize [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user profiles to sync data to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], and view details about the synced submissions.
-- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen S2S Inbound**: an internal security role used by the solution to sync data
+- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] LeadGen S2SInbound**: an internal security role used by the solution to sync data
 
 ### Surveys security roles
 
@@ -105,14 +102,16 @@ The surveys package adds the following security roles:
 - Survey Service
 - Survey User
 
-## Use privileges to customize access to [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] features for each security role
+## Don't modify or remove the Marketing service user
 
-Each security role established in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] is created by assigning various levels of access to each of a wide selection of privileges. Administrators can customize each role as needed by modifying the set of privileges it contains.
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes a preconfigured user called **MarketingServices ApplicationUser**, which must have the following security roles:
 
-> [!NOTE]
-> To customize security roles, you must work in the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app. For details about how to open this app, see [Move between apps](navigation.md#move-between-apps). For more information about how to customize security roles, see [Create or edit a security role](../admin/create-edit-security-role.md)
+- EventManagement S2SInbound
+- [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] LeadGen S2SInbound
+- Marketing Services User
+- Marketing, Business App Access
 
-When you are creating and customizing security roles, you'll find most of the user privileges added by the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app on the **Custom Entities** tab of the **Security Role** dialog.
+The system uses this account when performing important internal tasks, and [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] will stop working correctly if you remove the user or any of these required roles. Be sure not to remove or modify this user.
 
 ### See also
 
