@@ -27,8 +27,8 @@ search.app:
 Dynamics 365 supports integration with SharePoint Online that enables you to use the document management capabilities of SharePoint from within Dynamic 365. Dynamics 365 Portal now supports uploading and displaying documents to and from SharePoint directly on an entity form or web form in a portal. This allows portal users to view, download, add, and delete documents from a portal. Portal users can also create subfolders to organize their documents.
 
 > [!NOTE]
-> Document management works only with SharePoint Online.<br>
-> Document management is supported with server-based integration.
+> - Document management works only with SharePoint Online.
+> - Document management is supported with server-based integration.
 
 To work with the document management capabilities of SharePoint from within Dynamics 365, you must:
 
