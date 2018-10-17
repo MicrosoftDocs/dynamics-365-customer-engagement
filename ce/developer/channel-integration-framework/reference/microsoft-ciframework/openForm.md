@@ -141,18 +141,21 @@ You must use this method to open entity or quick create forms instead of the dep
 
 ## Examples
 
-The following sample code opens a new case form with pre-populated values for certain fields like contact Id and description.
+The following sample code opens a new incident form with pre-populated values for certain fields like contact Id and description.
 
 ```JavaScript
+var id = "5af02e2a-d0d1-e811-8158-000d3af97055"
+var title = "Sample Case Form"
 var entityFormOptions = {};
-    entityFormOptions["entityName"] = "case";
+    entityFormOptions["entityName"] = "incident";
     
 var formParameters = {};
     //pre-populate some fields based on the context
-    formParameters["customerid"] = phone.contactId;
+    formParameters["title"] = title;
+    formParameters["customerid"] = id;
     formParameters["customeridtype"] = "contact";
     formParameters["caseorigincode"] = 1;
-    formParameters["description"] = $('#callNotesField').text();
+    formParameters["description"] = "Opened the form with pre-populated details like title, contact id, and description.";
 
 //Open the form
 Microsoft.CIFramework.openForm(JSON.stringify(entityFormOptions), JSON.stringify(formParameters)).then(

@@ -89,7 +89,7 @@ This sample code updates an existing contact record with record ID = a8a19cdd-88
 ```JavaScript
 //// define the data to update a record
 var entityLogicalName = "contact";
-var data = "{
+var data = {
     "firstname": "Updated Sample",
     "lastname": "Contact",
     "fullname": "Updated Sample Contact",
@@ -97,7 +97,7 @@ var data = "{
     "jobtitle": "Sr. Marketing Manager",
     "telephone1": "555-0109",
     "description": "Updated values for this record were set programmatically."
-}"
+}
 // update contact record
 var id = "b44d31ac-5fd1-e811-8158-000d3af97055";
 var jsonData = JSON.stringify(data);

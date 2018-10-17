@@ -77,12 +77,14 @@ On success, returns a promise containing a string with the attributes and their 
 This sample code deletes an existing contact record with record ID = a8a19cdd-88df-e311-b8e5-6c3be5a8b200
 
 ```JavaScript
-// delete contact record
-Microsoft.CIFramework.retrieveRecord("contact", "a8a19cdd-88df-e311-b8e5-6c3be5a8b200").then(
+// delete contact record  with the id=b44d31ac-5fd1-e811-8158-000d3af97055d
+var id = "b44d31ac-5fd1-e811-8158-000d3af97055";
+var entityLogicalName = "contact";
+Microsoft.CIFramework.retrieveRecord(entityLogicalName, id).then(
     function success(result) {
       res=JSON.parse(result);
-        console.log("Contact deleted with ID: " + res.id);
-        // the record is deleted
+      console.log("Contact deleted with ID: " + res.contactid);
+      // the record is deleted
     },
     function (error) {
         console.log(error.message);
@@ -90,3 +92,4 @@ Microsoft.CIFramework.retrieveRecord("contact", "a8a19cdd-88df-e311-b8e5-6c3be5a
     }
 );
 ```
+5af02e2a-d0d1-e811-8158-000d3af97055
