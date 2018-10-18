@@ -272,7 +272,7 @@ The following explains how to define an optimization scope.
 
 Define the optimization goal 
 -----------------------------
-A goal in Resource Scheduling Optimization is what the tool aspires to optimize. An example of a goal is to maximize working hours or minimize travel time. You can define how bookings should be optimized (constraints and objectives). The goal of the Resource Scheduling Optimization engine is to process a list of resources and a list of resource requirements, along with existing bookings, to create the optimal route/list of bookings for the resources. Bookings can be considered optimally scheduled if they:
+A goal is what the tool aspires to optimize. An example of a goal is to maximize working hours or minimize travel time. You define how bookings should be optimized (constraints and objectives). The Resource Scheduling Optimization engine processes a list of resources and a list of resource requirements, along with existing bookings, to create the optimal route or list of bookings for the resources. Bookings are considered optimally scheduled if they:
 
 - Meet all company constraints.
 - Have the highest possible score for the company’s objectives.
