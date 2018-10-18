@@ -34,7 +34,7 @@ For important, late-breaking information and a list of known issues, see the [So
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.10
 
-### Introducing 5 new search languages and localization of the user interface	
+### Introducing 5 languages for the user interface	
 
 We're introducing the translations for Bosnian, Croatian, Serbian, Slovenian, and Thai across the user interface in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 For more information about the available languages, see the [Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086).
