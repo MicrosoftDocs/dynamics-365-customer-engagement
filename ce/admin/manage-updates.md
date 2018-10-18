@@ -2,7 +2,7 @@
 title: "Manage Dynamics 365 (online) updates | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 07/31/2018
+ms.date: 10/18/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -37,7 +37,7 @@ You have options for when you update your Dynamics 365 Online organization to [!
 2. Approve the update.  
 
    > [!IMPORTANT]
-   > An update in this document refers to a major version release, such as upgrading from Dynamics 365 version 8.2 to version 9.0. [Service updates](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases) do not require approval and are applied automatically to your instance.
+   > An update in this document refers to a major version release, such as upgrading from Dynamics 365 version 8.2 to version 9.x. [Service updates](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases) do not require approval and are applied automatically to your instance.
    > 
    > For major version updates, your instance will not be updated unless you approve it. This means your organization will go without the latest features and functionality until you explicitly give approval for the update to happen. Keep in mind, we do have an update policy that will make some updates mandatory, with no approval required. Please see [Update policy](../admin/manage-updates.md#BKMK_Policy) below for further details. 
 
@@ -75,7 +75,7 @@ Here are the recent versions.
 
 |  |Version  |Name  |
 |---------|---------|---------|
-|n     |9.0         |Dynamics 365, version 9.0         |
+|n     |9.x         |Dynamics 365, version 9.x         |
 |n-1     |8.2         |Dynamics 365, version 8.2         |
 |n-2     |8.1         |Microsoft Dynamics CRM Online 2016 Update 1          |
 
@@ -363,7 +363,7 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
 <a name="BKMK_PrepareforUpdate"></a>   
 
 ## Prepare your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] organization for the update  
- Dynamics 365, version 9.0 contains a number of exciting changes. To take advantage of new features, you need to ensure any customizations are compatible with this update.  
+ Dynamics 365, version 9.x contains a number of exciting changes. To take advantage of new features, you need to ensure any customizations are compatible with this update.  
 
 ### Prepare your users  
  To prepare your users for the changes to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], visit [What's new in Dynamics 365 (online), version 9](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9).  
