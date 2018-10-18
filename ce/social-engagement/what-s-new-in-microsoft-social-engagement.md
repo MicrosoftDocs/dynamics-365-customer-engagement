@@ -32,6 +32,13 @@ For a detailed list of improvements and bug fixes for the latest release, see ou
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
 
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.10
+
+### Introducing 5 new search languages and localization of the user interface	
+
+Bosnian, Croatian, Serbian, Slovenian, and Thai are now available as search languages in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Additionally, we're introducing the translations for those languages across the user interface.   	
+For more information about the available languages, see the [Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086).
+
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.9
 
 ### Home - your new start page
