@@ -403,25 +403,25 @@ When Resource Scheduling Optimization is deployed for the first time, the system
 
 - **Matches resource type**: RSO will match the resource type between requirements and resources to decide which type of resource can fulfill a requirement. **Available with RSO v2.8+**
 
-Bookable Resources include these resource type:
+    Bookable Resources include these resource type:
 
-- Generic *
-- Users *
-- Contacts *
-- Accounts *
-- Equipment *
-- Facility *
-- Crew
-- Pool
+    - Generic *
+    - Users *
+    - Contacts *
+    - Accounts *
+    - Equipment *
+    - Facility *
+    - Crew
+    - Pool
 
-* Indicates resource types the optimization will consider
+    * Indicates resource types the optimization will consider
 
-In general, resource types define how the resource relates to the organization. As an example, resources with the resource type **Users** are usually employees, whereas the resource type **Contacts** or **Accounts** are usually contractors.
+    In general, resource types define how the resource relates to the organization. As an example, resources with the resource type **Users** are usually employees, whereas the resource type **Contacts** or **Accounts** are usually contractors.
 
-Additionally, requirements allow multi-select so you can specify which resource types are needed for a given requirement.
+    Additionally, requirements allow multi-select so you can specify which resource types are needed for a given requirement.
 
->![Screenshot of multi-select resource type attribute on requirement](media/rso-requirement-resource-type-field.png)
+    >![Screenshot of multi-select resource type attribute on requirement](media/rso-requirement-resource-type-field.png)
 
-To enable, navigate to Optimization Goals and add it as a constraint.
+    To enable, navigate to Optimization Goals and add it as a constraint.
 
->![Screenshot of match resource type constraint in optimization setup](media/rso-resource-type-constraint.png)
+    >![Screenshot of match resource type constraint in optimization setup](media/rso-resource-type-constraint.png)
