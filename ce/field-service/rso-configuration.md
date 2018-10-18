@@ -403,7 +403,7 @@ When Resource Scheduling Optimization is deployed for the first time, the system
 
 - **Matches resource type**: RSO will match the resource type between requirements and resources to decide which type of resource can fulfill a requirement. **Available with RSO v2.8+**
 
-    Bookable Resources include these resource type:
+    Bookable resources include these resource type:
 
     - Generic *
     - Users *
