@@ -92,6 +92,7 @@ To view lead insights, go to **Marketing** > **Customers** > **Leads**, select a
 Most of the insights displayed for a lead are the same as those shown for contacts and are taken from the contact record associated with the current lead, as previously described in [Contact insights](#contact-insights). One exception to this is the **Insights** tab, which tracks lead-specific information such as the lead's age (how long the record has been active) and its progress over time.
 
 ## Segment insights
+
 To view segment insights, go to **Marketing** > **Customers** > **Segments** and then select a segment record. Unlike most entities, segments provide insights as part of the main form view. Go to the **Insights** tab to see them.
 
 ## Customer journey insights
