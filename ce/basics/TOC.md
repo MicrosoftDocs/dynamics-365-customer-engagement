@@ -64,13 +64,12 @@
 ## [Send bulk email](../basics/send-bulk-email-customers.md)
 
 # [Collaboration](../basics/collaborate-with-team.md)
-<!--
 ## [Teams](../basics/integrate-with-microsoft-teams.md) 
 ### [Setup Teams integration with Dynamics 365 (online)](install-personal-team-apps.md)
 ### [Use the personal app](use-personal-app.md)
 ### [Use the team app](use-team-app.md)
 ### [Delete personal data](delete-teams-data.md)
-### [Troubleshoot Teams](troubleshoot-teams.md)-->
+### [Troubleshoot Teams](troubleshoot-teams.md)
 ## [Yammer](../basics/collaborate-communicate-with-yammer.md)
 <!-- ## [Collaborate with GigJam](../basics/collaborate-real-time-with-gigjam.md) -->
 ## [Office 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md)
