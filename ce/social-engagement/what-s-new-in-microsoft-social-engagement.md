@@ -36,7 +36,7 @@ For important, late-breaking information and a list of known issues, see the [So
 
 ### Introducing 5 new search languages and localization of the user interface	
 
-Bosnian, Croatian, Serbian, Slovenian, and Thai are now available as search languages in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Additionally, we're introducing the translations for those languages across the user interface.   	
+We're introducing the translations for Bosnian, Croatian, Serbian, Slovenian, and Thai across the user interface in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 For more information about the available languages, see the [Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086).
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.9
