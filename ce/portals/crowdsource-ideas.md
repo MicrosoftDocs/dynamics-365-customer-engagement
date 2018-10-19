@@ -110,7 +110,7 @@ For example, say you want to enable voting for New, Accepted, and Rejected statu
 
 To get the status reason values:
 
-1.	Sign in to Dynamics 365.
+1.	Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
 2.	Go to **Settings** > **Customization** > **Customize the System**.
 
