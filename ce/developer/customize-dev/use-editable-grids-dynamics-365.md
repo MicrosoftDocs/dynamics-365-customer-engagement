@@ -282,4 +282,4 @@ For a list of FAQs related to editable grids, see [Editable grids FAQs](../../cu
 ### See also  
  [Grids and subgrids in Customer Engagement](../clientapi/reference/grids.md) <br/> 
  [Make grids (lists) editable using the Editable Grid custom control](../../customize/make-grids-lists-editable-custom-control.md)<br/>
- [Use keyboard shortcuts in editable grids](../basics/keyboard-shortcuts.md#editable-grids-views)
+ [Use keyboard shortcuts in editable grids](../../basics/keyboard-shortcuts.md#editable-grids-views)
