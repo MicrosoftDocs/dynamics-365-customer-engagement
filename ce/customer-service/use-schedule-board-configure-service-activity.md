@@ -76,7 +76,7 @@ You can select unscheduled service appointments and schedule a booking using the
  
 2. Select the **Find Availability** button to view the resources or resource groups that are available for booking.
 
-   The **Schedule Assistant** filter lets you filter resources on the basis of **Available Duration**, **Organizational Units**, and many other parameters.
+   The **Schedule Assistant** filter lets you filter resources based on **Available Duration**, **Organizational Units**, and many other parameters.
 
    ![select-resources](media/select-resources.png)
 

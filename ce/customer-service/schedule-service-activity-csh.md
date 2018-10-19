@@ -59,7 +59,7 @@ Make sure that you have the System Administrator or System Customizer security r
 
 7. In the **Bookable Resource Bookings** section:
 
-   - Create a new bookable resource booking or add an exiting one.
+   - Create a new bookable resource booking or add an existing one.
 
      [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and set up bookable resources](resources-service-scheduling.md)
 
