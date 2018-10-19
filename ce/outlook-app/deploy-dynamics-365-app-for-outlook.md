@@ -74,49 +74,17 @@ The Outlook App is not enabled on Common Data Service for Apps 2.0.
 
 “You haven't been authorized to use this app. Check with your system administrator to update your settings.”  
 
-In addition:
-
-1. Users must have **read/write** privileges for the following entities.  
-
-   Business Management tab:  
-
-   - **Mailbox**  
-
-   Customization tab:
-
-   - **User Application Metadata**
-
-2. Users must have **read** privileges for the following entities.  
-
-   Customization tab:  
-
-   - **App**
-
-   - **Entity**  
-
-   - **Field**  
-
-   - **Relationship**  
-
-   - **System Application Metadata**  
-
-   - **System Form**  
-
-   - **View**  
-
-#### Set the privileges for a security role  
-
-For example, to set privileges for the Mailbox entity:
+#### Set the right privileges for the security role assigned to the user accessing Dynamics 365 App for Outlook
 
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
 
 2. Click **Security Roles**.  
 
-3. Choose a security role, and then click the **Business Management** tab.  
+3. Choose a security role.  
 
-4. In the **Entity** section, review the **Mailbox** privileges settings. The security role should have User or higher settings.  
+4. In the **Business Management** tab, verify that **Mailbox** has **read/write** privileges. In the **Privacy Related Privileges** section, verify that **Use Dynamics 365 App for Outlook** is set to **Organization**. If not, click **Use Dynamics 365 App for Outlook**.
 
-5. In the **Privacy Related Privileges** section, verify that **Use Dynamics 365 App for Outlook** is set to **Organization**. If not, click **Use Dynamics 365 App for Outlook**.  
+5. In the **Customization** tab, verify that **User Application Metadata** has **read/write** privileges. Also verify that **App Config Master**, **Entity**, **Field**, **Relationship**, **System Application Metadata**, **System Form** and **View** have **read** privilege.
 
 ### Provide security role access 
 If you have custom security roles defined in Dynamics 365, users who have that security role assigned may not be able to access Dynamics 365 App for Outlook. In addition to the custom security role containing required privileges for App for Outlook, the security role needs to be bound to the App for Outlook App. In order to achieve this, follow the steps below:
