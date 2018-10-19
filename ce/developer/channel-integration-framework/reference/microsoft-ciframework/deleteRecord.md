@@ -2,7 +2,7 @@
 title: "deleteRecord (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 10/01/2018
+ms.date: 10/12/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -20,8 +20,7 @@ manager: shujoshi
 
 # deleteRecord (CIF JavaScript API Reference)
 
-> [!Important]
-> [!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
 
 [!INCLUDE[deleteRecord](includes/deleteRecord-description.md)] 
 
@@ -54,12 +53,7 @@ manager: shujoshi
 <td>successCallback</td>
 <td>Function</td>
 <td>No</td>
-<td><p>A function to call when a record is deleted. An object with the following properties will be passed to identify the deleted record:</p>
-<ul>
-<li><b>entityType</b>: String. The entity type of the record.</li>
-<li><b>id</b>: String. GUID of the record.</li>
-<li><b>name</b>: String. Name of the record.</li>
-</ul></td>
+<td><p>A function to call when a record is deleted.</td>
 </tr>
 <tr>
 <td>errorCallback</td>
@@ -71,18 +65,21 @@ manager: shujoshi
 
 ## Return Value
 
-On success, returns a promise object containing the attributes specified earlier in the description of the **successCallback** parameter.
+On success, returns a promise containing a string with the attributes and their values.
 
 ## Examples
 
 This sample code deletes an existing contact record with record ID = a8a19cdd-88df-e311-b8e5-6c3be5a8b200
 
 ```JavaScript
-// delete contact record
-Microsoft.CIFramework.retrieveRecord("contact", "a8a19cdd-88df-e311-b8e5-6c3be5a8b200").then(
+// delete contact record  with the id=b44d31ac-5fd1-e811-8158-000d3af97055d
+var id = "b44d31ac-5fd1-e811-8158-000d3af97055";
+var entityLogicalName = "contact";
+Microsoft.CIFramework.retrieveRecord(entityLogicalName, id).then(
     function success(result) {
-        console.log("Contact deleted with ID: " + result.id);
-        // the record is deleted
+      res=JSON.parse(result);
+      console.log("Contact deleted with ID: " + res.contactid);
+      // the record is deleted
     },
     function (error) {
         console.log(error.message);
@@ -90,3 +87,4 @@ Microsoft.CIFramework.retrieveRecord("contact", "a8a19cdd-88df-e311-b8e5-6c3be5a
     }
 );
 ```
+5af02e2a-d0d1-e811-8158-000d3af97055
