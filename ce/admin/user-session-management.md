@@ -153,34 +153,35 @@ To better protect user access and data privacy in Dynamics 365, when a user sign
 
 **Enable access token management**
 
-  To enable for all organizations by default, copy and run this command in PowerShell:
+To enable for all organizations by default, copy and run this command in PowerShell:
 
-    ```
-    SetAdvancedSettings.ps1 -ConfigurationEntityName ServerSettings -SettingName WSFedNonceCookieEnabled -SettingValue true
-    ```  
+```    
+SetAdvancedSettings.ps1 -ConfigurationEntityName ServerSettings -SettingName WSFedNonceCookieEnabled -SettingValue true
+```
 
-    Sample:
+Sample:
 
-    ![SetAdvancedSettings.ps1](../media/ps_setadvancedsettings.png)
+![SetAdvancedSettings.ps1](../media/ps_setadvancedsettings.png)
 
-  -OR-
+-OR-
 
-  To enable for a single organization, copy and run this command in PowerShell:
+To enable for a single organization, copy and run this command in PowerShell:
 
-     SetAdvancedSettings.ps1 -ConfigurationEntityName Organization -SettingName WSFedNonceCookieEnabled -SettingValue true -Id <Your organization ID GUID>
+```
+SetAdvancedSettings.ps1 -ConfigurationEntityName Organization -SettingName WSFedNonceCookieEnabled -SettingValue true -Id <Your organization ID GUID>
+```
+To get [Your organization ID GUID], open PowerShell, and run the following:
 
-      To get <Your organization ID GUID>, open PowerShell, and run the following:
-
-        ```
-        Add-PSSnapin Microsoft.Crm.PowerShell 
-        Get-CrmOrganization
-        ```  
+```
+Add-PSSnapin Microsoft.Crm.PowerShell 
+Get-CrmOrganization
+```
         
-        Sample:
+Sample:
 
-        ![Example Organization ID](../media/ps_orgid.png)
+![Example Organization ID](../media/ps_orgid.png)
 
-      For more information, see [Get-CrmOrganization](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn833066(v=crm.8)) for details.
+For more information, see [Get-CrmOrganization](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn833066(v=crm.8)) for details.
 
 
 
