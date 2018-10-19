@@ -146,17 +146,16 @@ Editable grids are fully accessible, and provides excellent keyboard support inc
 Below are some of the most fequently asked questions related to editable grids:
 
 ### Question: I want to configure my look-up column to a certain view, but I don't see it in the Available Columns dropdown in the configuration?
-  
+
 Ensure that the look-up column that you want to configure is not a "Regarding" column. This is a special column type and it does not have support for configuring the view definitions on the Editable Grid configuration dialog. 
 
 ### Question: Why are my business rules not working for my columns?
-  
+
 Ensure that the column where the business rule is applied on is a part of your current view. We don’t pull all the fields for an entity. But only those fields which are present in the current view. So, if your business rules are on a column which is not available, they won't run. Also note that no business rules will run in this case and not just the business rule that was applied on one column. 
 
 ### Question: My grid is still read only even if I have configured it to be editable?
 
-Ensure that you are not using legacy Form rendering. Editable grids are not supported on legacy forms. 
-
+Ensure that you are not using legacy Form rendering. Editable grids are not supported on legacy forms.
 
 ### Question: Why I don’t see editable grid on phones?
 
@@ -164,7 +163,7 @@ Due to some recent feedback, we have removed editable grid experience from phone
 
 ### Question: Why I cannot use record navigation in a form when coming for an editable grid?
 
-For web-client, this is a limitation and we have not enabled the functionality. However, this functionality is available in Unified Interface. 
+For web client, this is a limitation and we have not enabled the functionality. However, this functionality is available in Unified Interface. 
 
 
 ### See also  

@@ -28,7 +28,7 @@ Editable grid is a custom control in [!INCLUDE[pn_dynamics_crm](../../includes/p
 > [!NOTE] 
 > If you are using legacy forms (versions prior to Dynamics CRM 2016) and enable an editable grid on a subgrid, the editable subgrid will not be rendered. System administrators can turn off legacy forms in system settings, if needed. 
 
-For more information about using editable grids using the UI, see [Make grids (lists) editable in Dynamics 365 using the Editable Grid custom control](../../customize/make-grids-lists-editable-custom-control.md) 
+For more information about using editable grids using the UI, see [Make grids (lists) editable using the Editable Grid custom control](../../customize/make-grids-lists-editable-custom-control.md) 
   
   
 <a name="FormScripting"></a>   
@@ -275,10 +275,11 @@ namespace Microsoft.Crm.Sdk.Samples
 }  
 ```  
 
-### Frequently asked questions (FAQs)
+## Frequently asked questions (FAQs)
 
 For a list of FAQs related to editable grids, see [Editable grids FAQs](../../customize/make-grids-lists-editable-custom-control.md#frequently-asked-questions-faqs)
 
 ### See also  
  [Grids and subgrids in Customer Engagement](../clientapi/reference/grids.md) <br/> 
- [Make grids (lists) editable in Dynamics 365 using the Editable Grid custom control](../../customize/make-grids-lists-editable-custom-control.md)
+ [Make grids (lists) editable using the Editable Grid custom control](../../customize/make-grids-lists-editable-custom-control.md)<br/>
+ [Use keyboard shortcuts in editable grids](../basics/keyboard-shortcuts.md#editable-grids-views)
