@@ -2,7 +2,7 @@
 title: "openForm (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | Microsoft Docs"
 description: ""
 keywords: ""
-ms.date: 10/01/2018
+ms.date: 10/12/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -104,21 +104,7 @@ manager: shujoshi
 <td>successCallback</td>
 <td>Function</td>
 <td>No</td>
-<td>A function to execute when:
-<ul>
-<li>The entity form is displayed for existing records.</li>
-<li>The record is saved in the entity form displayed for a new record.</li>
-<li>The record is saved in the quick create form.</li>
-</ul>
-
-This function is passed an object as a parameter. The object has a <b>savedEntityReference</b> array with the following properties to identify the record(s) displayed or created:
-<ul>
-<li><b>entityType</b>: The logical name of the entity.</li>
-<li><b>id</b>: A string representation of a GUID value for the record.</li>
-<li><b>name</b>: The primary attribute value of the record displayed or created.</li></ul>
-
-<b>NOTE</b>:
-<ul>On <a href="/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps" data-raw-source="[Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps)">Unified Interface</a>, when you open a quick create form, and create multiple records by clicking <b>Save & New</b>, the <b>savedEntityReference</b> array will contain multiple items, each item representing the record created using the quick create form.
+<td>A function to execute when operation succeeds.
 </td>
 </tr>
 <tr>
@@ -130,6 +116,10 @@ This function is passed an object as a parameter. The object has a <b>savedEntit
 </tr>
 </table>
 
+## Returns
+
+On success, returns a promise object containing string.
+
 ## Remarks
 
 You must use this method to open entity or quick create forms instead of the deprecated [Xrm.Utility.openEntityForm](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/jj602956(v=crm.8)#openentityform) and [Xrm.Utility.openQuickCreate](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/jj602956(v=crm.8)#openquickcreate) methods.
@@ -137,18 +127,21 @@ You must use this method to open entity or quick create forms instead of the dep
 
 ## Examples
 
-The following sample code opens a new case form with pre-populated values for certain fields like contact Id and description.
+The following sample code opens a new incident form with pre-populated values for certain fields like contact Id and description.
 
 ```JavaScript
+var id = "5af02e2a-d0d1-e811-8158-000d3af97055"
+var title = "Sample Case Form"
 var entityFormOptions = {};
-    entityFormOptions["entityName"] = "case";
+    entityFormOptions["entityName"] = "incident";
     
-var fp = {};
+var formParameters = {};
     //pre-populate some fields based on the context
-    formParameters["customerid"] = phone.contactId;
+    formParameters["title"] = title;
+    formParameters["customerid"] = id;
     formParameters["customeridtype"] = "contact";
     formParameters["caseorigincode"] = 1;
-    formParameters["description"] = $('#callNotesField').text();
+    formParameters["description"] = "Opened the form with pre-populated details like title, contact id, and description.";
 
 //Open the form
 Microsoft.CIFramework.openForm(JSON.stringify(entityFormOptions), JSON.stringify(formParameters)).then(
