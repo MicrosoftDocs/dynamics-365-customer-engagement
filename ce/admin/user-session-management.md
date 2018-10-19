@@ -1,7 +1,7 @@
 ---
 title: "Security enhancements: User session and access management with Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/08/2018
+ms.date: 10/19/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -56,7 +56,7 @@ You can change this behavior.
 > 3. [!INCLUDE [pn-unified-service-desk](../includes/pn-unified-service-desk.md)] client using [WPF](https://docs.microsoft.com/dotnet/framework/wpf/) browser (Internet Explorer is supported)
 > 4. Live Assist (Chat)
 
-## Configure session timeout
+## Configure session timeout 
 
 1. In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], choose **Settings** > **Administration** > **System Settings** > **General** tab.
 2. Under **Set session timeout**, set the values to apply to all your users.
@@ -101,7 +101,6 @@ The [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] portal has its own s
 - To enforce users to re-authenticate, users are required to sign in with their credentials after they signed out within the application. 
 - To prevent users from sharing credentials to access [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], the user access token is validated to ensure that the user who was given access by the identity provider is the same user who is accessing [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].
 
-<!--
 ## Steps for enabling security enhancements for Dynamics 365 (on-premises) deployments
 
 These security enhancements are shipped disabled by default.  Administrators can enable these enhancements when using one of the supported Dynamics 365 (on-premises) builds listed below.
@@ -117,8 +116,8 @@ These security enhancements are shipped disabled by default.  Administrators can
 > 
 > **Requirement**
 > These security enhancement features require claims-based authentication for user authentication. You can configure claims-based authentication in one of two ways:
-> - With an Internet-facing deployment (IFD). See [Configure IFD for Microsoft Dynamics 365](https://technet.microsoft.com/library/dn609803.aspx).
-> - With claims-based authentication alone if Microsoft Dynamics 365 is deployed in the same domain where all Microsoft Dynamics 365 users are located, or users are in a trusted domain. See [Configure claims-based authentication](https://technet.microsoft.com/library/dn920270.aspx).
+> - With an Internet-facing deployment (IFD). See [Configure IFD for Microsoft Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn609803(v=crm.8)).
+> - With claims-based authentication alone if Microsoft Dynamics 365 is deployed in the same domain where all Microsoft Dynamics 365 users are located, or users are in a trusted domain. See [Configure claims-based authentication](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn920270(v=crm.8)).
 
 To obtain SDK sample code (for reference, not required to configure and enable session timeout):
 
@@ -131,6 +130,7 @@ To obtain SDK sample code (for reference, not required to configure and enable s
 
 After updating to a supported on-premises version, follow the steps below to enable security enhancements.
 
+<!--
 ### User session timeout
 
 System admins can now force users to re-authenticate after a set period.  You can set an active session timeout for each of your Dynamics 365 instances.  Users can only remain signed in to the application for the duration of the session.  Once the session expires, they’ll need to sign in again with their credentials.  System admins can also require sign in for users after a period of inactivity.  You can set an inactivity timeout for each of your instances.  The helps prevent unauthorized access by a malicious user from an unattended device. 
