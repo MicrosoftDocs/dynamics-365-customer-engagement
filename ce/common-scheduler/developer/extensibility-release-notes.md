@@ -48,8 +48,8 @@ The Schedule Assistant now supports a feature called intervals. When searching f
 
 > When scheduling a requirement group, the filter control is not yet extensible. Therefore, this feature will be available to everyone out of the box when scheduling requirement groups even if the schedule assistant filter layout was customized.
 
-### Schedule Assistant Filter Layout
-The default Schedule Assistant Filter Layout shipped in this update includes a new duration control to allow you to adjust the interval and the results per interval. If you have a custom Schedule Assistant Filter Layout, add the below new controls to the control section in your Schedule Assistant Filter Layout configuration record.
+#### Schedule Assistant Filter Layout
+The default Schedule Assistant Filter Layout shipped in this update includes two new duration controls to allow you to adjust the interval and the results per interval. If you have a custom Schedule Assistant Filter Layout, you can add the below new controls to the control section in your Schedule Assistant Filter Layout configuration record.
 
 The added `Interval` property:
 ```xml
@@ -59,8 +59,15 @@ The added `ResultsPerInterval` property:
 ```xml
 <control type="number" key="Requirement/msdyn_resultsperinterval" label-id="FilterControl_ResultsPerInterval" min="0" default-value="0" />
 ```
-### Retrieve Constraints Query
-The default Retrieve Constraints Query shipped in this update includes a default value for the Ignore Proposed Bookings parameter used by the Schedule Assistant. To change the default value for this parameter, or if you have a custom Retrieve Constraints Query, update or add the below new property to the `Requirement` bag transformation part in your Retrieve Constraints Query configuration record.
+#### Retrieve Constraints Query
+The default Retrieve Constraints Query shipped in this update includes the query to retrieve the `Interval` and `ResultsPerInterval` values. To change the default value for this parameter, or if you have a custom Retrieve Constraints Query, update or add the below to your Retrieve Constraints Query configuration record.
+
+```html 
+<link-entity name='msdyn_timegroup' from='msdyn_timegroupid' to='msdyn_timegroup' link-type='outer' alias="tg">
+          <attribute name='msdyn_interval' alias="msdyn_interval" />
+          <attribute name='msdyn_resultsperinterval' alias="msdyn_resultsperinterval" />
+        </link-entity>
+```
 
 <a name="May 2018"></a>
 ## May 2018
