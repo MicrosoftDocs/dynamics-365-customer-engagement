@@ -64,17 +64,29 @@ Here’s what you’ll see when you open the schedule board:
 | |         |         |
 
 
-### Schedule a booking for a service appointment
+## Schedule a booking for a service appointment
 
-You can select requirements and create a booking for the selected resource using the **Create Resource Booking** tab. 
+You can select unscheduled service appointments and schedule a booking using the **Create Resource Booking** tab:
 
-In the tab:
+1. In the **Booking Requirements** section, go to **Unscheduled Service Appointments** tab and select the appointment for which you want to schedule a booking.
 
-- Select a resource in the **Resource** drop-down list.
-- Select the start and end date using the calendars in **Start Date** and **End Date**.
-- Choose **Booking Status** and **Booking Method**.
-- Select **Book** to create a resource booking.
+   The **Find Availability** button is displayed. 
 
+     ![find-availability](media/find-availability.png)
+ 
+2. Select the **Find Availability** button to view the resources or resource groups that are available for booking.
+
+   The **Schedule Assistant** filter lets you filter resources on the basis of **Available Duration**, **Organizational Units**, and many other parameters.
+
+   ![select-resources](media/select-resources.png)
+
+3. Select a resource group from the **Teams** list.
+4. In the **Create Resource Booking** tab: 
+
+   - View the resources from the resource group that will be booked once the booking is created.
+   - Select the start and end date and time using the calendars in **Start Date** and **End Date**.
+   - Select **Booking Status** from the drop-down list.
+   - Select **Book & Exit** to create a resource booking and exit the tab.
 
 ### See also
 
