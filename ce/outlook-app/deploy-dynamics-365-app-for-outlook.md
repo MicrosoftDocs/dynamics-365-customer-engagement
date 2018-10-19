@@ -238,18 +238,6 @@ With the PowerApps App Designer, you can control the specific entities that appe
 > - You can also remove entities from Dynamics 365 App for Outlook.
 > - An entity must be Activities enabled for it to appear in the Regarding lookup. See [Enable a custom entity to appear in the Regarding lookup](dynamics-365-app-outlook-user-s-guide.md#enable-a-custom-entity-to-appear-in-the-regarding-lookup).
 
-## Track appointments from another person in your Dynamics 365 organization
-
-You can track appointments from another person in your Dynamics 365 organization using Dynamics 365 App for Outlook. To enable this capability, you need to enable the OrgDBOrgSetting in your Dynamics 365 organization. Dynamics 365 provides the OrgDBOrgSettings tool that gives administrators the ability to implement specific updates that were previously reserved for registry implementations.
-
-1. Follow the instructions [in this article](https://support.microsoft.com/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm) for steps to extract the tool.
-2. After extracting the tool, enable the *OrgDBOrgSetting TrackAppointmentsFromNonOrganizer*.
-
-You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releases/) to edit the *OrgDBOrgSetting TrackAppointmentsFromNonOrganizer*.
-
-After the *OrgDBOrgSettin*g is enabled, when you open Dynamics 365 App for Outlook on an appointment created by another user in your organization, you can track the appointment. You will no longer see the banner blocking you from tracking the calendar item.
-
- ![Track appointments](media/Trackappointments.png "Track appointments ")
 
 <a name="BKMK_Troubleshoot"></a> 
 ## Troubleshooting installation problems  
