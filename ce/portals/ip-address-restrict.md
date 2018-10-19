@@ -24,7 +24,7 @@ search.app:
 
 # Restrict portal access by IP address
 
-The Dynamics 365 Portal is public when provisioned and accessible by anyone from any computer. Now you can restrict access to your portal from a list of IP addresses. For example, a government organization might want to surface their content only within their corporate network. A commercial organization might want to display the portal only when it is published and not while it is in development to avoid any data leak.
+The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal is public when provisioned and accessible by anyone from any computer. Now you can restrict access to your portal from a list of IP addresses. For example, a government organization might want to surface their content only within their corporate network. A commercial organization might want to display the portal only when it is published and not while it is in development to avoid any data leak.
 
 When a request to the portal is generated from any user, their IP address is evaluated against the allow list. If the IP address is not on the list, the portal displays a web page with an HTTP 403 status code.
 
@@ -45,7 +45,7 @@ Once you add an IP address to the restriction list, the portal will be accessibl
 > [!NOTE]
 > You must specify a public IP address that can be accessed by the portal. Private IP address can't be accessed by the portal.
 
-1.	Go to the Dynamics 365 admin center and select the **Applications** tab.
+1.	Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center and select the **Applications** tab.
 
 2.	Select the name of the portal for which you want restrict access by IP address, and then select **Manage**.
 
@@ -71,7 +71,7 @@ Once you add an IP address to the restriction list, the portal will be accessibl
 
 To remove access to a portal from a previously allowed IP address, you can remove the IP address from the list. If you remove all IP addresses, the portal will be accessible from all IP addresses.
 
-1.	Go to the Dynamics 365 admin center and select the **Applications** tab.
+1.	Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center and select the **Applications** tab.
 
 2.	Select the name of the portal for which you want restrict access by IP address, and then select **Manage**.
 
