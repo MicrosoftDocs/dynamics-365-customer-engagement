@@ -1,5 +1,5 @@
 ---
-title: "Setup Microsoft Teams integration with Dynamics 365 (online)| MicrosoftDocs"
+title: "Set up Microsoft Teams integration with Dynamics 365 (online)| MicrosoftDocs"
 ms.custom: ""
 description: "Setup Microsoft Teams integration with Dynamics 365 (online)"
 ms.date: 10/30/2018
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Setup Microsoft Teams integration with Dynamics 365 (online)
+# Set up Microsoft Teams integration with Dynamics 365 (online)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

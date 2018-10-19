@@ -53,7 +53,7 @@ You can also use the Dynamics 365 bot to look up and make a quick update on any 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-bot-welcome2.png "Use Dynamics 365 bot")
 
-For more information on installing and configuring the personal app and bot, see: [Install the personal and team apps](install-personal-team-apps.md). 
+For more information on installing and configuring the personal app and bot, see: [Install the personal and team apps](install-personal-team-apps.md#install-the-personal-and-team-apps). 
 
 ## Teams integration in Dynamics 365 (online)
 
