@@ -130,7 +130,7 @@ To obtain SDK sample code (for reference, not required to configure and enable s
 
 After updating to a supported on-premises version, follow the steps below to enable security enhancements.
 
-<!--
+
 ### User session timeout
 
 System admins can now force users to re-authenticate after a set period.  You can set an active session timeout for each of your Dynamics 365 instances.  Users can only remain signed in to the application for the duration of the session.  Once the session expires, they’ll need to sign in again with their credentials.  System admins can also require sign in for users after a period of inactivity.  You can set an inactivity timeout for each of your instances.  The helps prevent unauthorized access by a malicious user from an unattended device. 
@@ -153,32 +153,35 @@ To better protect user access and data privacy in Dynamics 365, when a user sign
 
 **Enable access token management**
 
-  To enable for all organizations by default, copy and run this command in PowerShell:
+To enable for all organizations by default, copy and run this command in PowerShell:
 
-    ```
-    SetAdvancedSettings.ps1 -ConfigurationEntityName ServerSettings -SettingName WSFedNonceCookieEnabled -SettingValue true
-    ```  
+```    
+SetAdvancedSettings.ps1 -ConfigurationEntityName ServerSettings -SettingName WSFedNonceCookieEnabled -SettingValue true
+```
 
-    Sample:
+Sample:
 
-    ![SetAdvancedSettings.ps1](../media/ps_setadvancedsettings.png)
+![SetAdvancedSettings.ps1](media/ps_setadvancedsettings.png)
 
-  -OR-
+-OR- 
 
-  To enable for a single organization, copy and run this command in PowerShell:
+To enable for a single organization, copy and run this command in PowerShell:
 
-     SetAdvancedSettings.ps1 -ConfigurationEntityName Organization -SettingName WSFedNonceCookieEnabled -SettingValue true -Id <Your organization ID GUID>
+```
+SetAdvancedSettings.ps1 -ConfigurationEntityName Organization -SettingName WSFedNonceCookieEnabled -SettingValue true -Id <Your organization ID GUID>
+```
+To get [Your organization ID GUID], open PowerShell, and run the following:
 
-      To get <Your organization ID GUID>, open PowerShell, and run the following:
-
-        ```
-        Add-PSSnapin Microsoft.Crm.PowerShell 
-        Get-CrmOrganization
-        ```  
+```
+Add-PSSnapin Microsoft.Crm.PowerShell 
+Get-CrmOrganization
+```
         
-        Sample:
+Sample:
 
-        ![Example Organization ID](../media/ps_orgid.png)
+![Example Organization ID](media/ps_orgid.png)
 
-      For more information, see [Get-CrmOrganization](https://technet.microsoft.com/library/dn833066.aspx) for details.
--->
+For more information, see [Get-CrmOrganization](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn833066(v=crm.8)) for details.
+
+
+
