@@ -33,11 +33,15 @@ search.app:
 
 # URS extensibility release notes
 
+- [October 2018](#october-2018)
 - [May 2018](#may-2018)
 - [April 2018](#april-2018)
 - [February 2018](#february-2018)
 - [December 2017](#december-2017)
 - [July 2017](#july-2017)
+
+<a name="october-2018"></a>
+## May 2018
 
 <a name="May 2018"></a>
 ## May 2018
