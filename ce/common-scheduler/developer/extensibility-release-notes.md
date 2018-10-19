@@ -43,7 +43,20 @@ search.app:
 <a name="october-2018"></a>
 ## October 2018
 
+### Intervals
 The Schedule Assistant now supports a feature called intervals. When searching for availability using a single requirement, or a requirement group. The requirement can be related to a fulfillment preference (`msdyn_timegroup`) record, through the lookup field on the requirement called fulfillment preference (`msdyn_timegroup`). On the fulfillment preference record, there are settings to define what intervals (`msdyn_interval`) the results should be rounded to, and how many results a scheduler should see per interval (`msdyn_resultsperinterval`) when using the schedule assistant list view. There are other settings related to intervals as well such as (`msdyn_intervalsbegin`) and (`msdyn_resetpertimegroupdetail`), but there is no support to change these values in the filter control of the schedule assistant.
+
+### Schedule Assistant Filter Layout
+The default Schedule Assistant Filter Layout shipped in this update includes a new duration control to allow you to adjust the interval and the results per interval. If you have a custom Schedule Assistant Filter Layout, add the below new controls to the control section in your Schedule Assistant Filter Layout configuration record.
+
+The added `Interval` property:
+```xml
+<control type="duration" key="Requirement/msdyn_interval" label-id="Interval" min="1" default-value="1" />
+```
+The added `ResultsPerInterval` property:
+```xml
+<control type="number" key="Requirement/msdyn_resultsperinterval" label-id="FilterControl_ResultsPerInterval" min="0" default-value="0" />
+```
 
 <a name="May 2018"></a>
 ## May 2018
