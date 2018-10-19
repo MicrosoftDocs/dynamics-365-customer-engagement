@@ -161,9 +161,9 @@ SetAdvancedSettings.ps1 -ConfigurationEntityName ServerSettings -SettingName WSF
 
 Sample:
 
-![SetAdvancedSettings.ps1](../media/ps_setadvancedsettings.png)
+![SetAdvancedSettings.ps1](media/ps_setadvancedsettings.png)
 
--OR-
+-OR- 
 
 To enable for a single organization, copy and run this command in PowerShell:
 
@@ -179,7 +179,7 @@ Get-CrmOrganization
         
 Sample:
 
-![Example Organization ID](../media/ps_orgid.png)
+![Example Organization ID](media/ps_orgid.png)
 
 For more information, see [Get-CrmOrganization](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn833066(v=crm.8)) for details.
 
