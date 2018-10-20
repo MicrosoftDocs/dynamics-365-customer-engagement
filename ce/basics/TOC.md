@@ -65,11 +65,11 @@
 
 # [Collaboration](../basics/collaborate-with-team.md)
 ## [Teams](../basics/integrate-with-microsoft-teams.md) 
-### [Set up Teams integration with Dynamics 365 (online)](install-personal-team-apps.md)
-### [Use the personal app](use-personal-app.md)
-### [Use the team app](use-team-app.md)
+### [Install the app)](install-personal-team-apps.md)
+### [Get started](use-personal-app.md)
+### [Use the app](use-team-app.md)
+### [Troubleshoot](troubleshoot-teams.md)
 ### [Delete personal data](delete-teams-data.md)
-### [Troubleshoot Teams](troubleshoot-teams.md)
 ## [Yammer](../basics/collaborate-communicate-with-yammer.md)
 <!-- ## [Collaborate with GigJam](../basics/collaborate-real-time-with-gigjam.md) -->
 ## [Office 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md)
