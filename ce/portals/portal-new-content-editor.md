@@ -32,7 +32,7 @@ search.app:
 >
 > We'd love your feedback on the new portal content editor! To send us feedback, register your account on the [Microsoft Insider program](https://experience.dynamics.com/insider/), and then [submit your feedback](https://go.microsoft.com/fwlink/p/?linkid=2030693).
 
-[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal allows customization by using [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entities and some WYSIWYG support through its front-end editing tools in the portal runtime. A new and simplified portal editor is now available for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal customizers that will help to reduce the learning curve on Dynamics 365 Portal customization and increase a customizer's productivity.
+[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal allows customization by using [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entities and some WYSIWYG support through its front-end editing tools in the portal runtime. A new and simplified portal editor is now available for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal customizers that will help to reduce the learning curve on [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal customization and increase a customizer's productivity.
 
 > [!NOTE]
 > - Portal’s out-of-the-box administrator web role and any contact linked to that web role can use the new editor.
