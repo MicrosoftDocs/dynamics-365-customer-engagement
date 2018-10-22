@@ -40,6 +40,9 @@ Each scoring model includes a sales-ready threshold. When a lead's score passes 
 > 
 > Your landing pages will typically either create a lead/contact pair when they create a new contact, or associate new leads with existing contacts when they're available. But when you create a lead manually, you must also associate it with a contact manually to enable lead scoring.
 
+> [!IMPORTANT]
+> Automatic lead scoring can introduce data-privacy issues that are regulated by laws such as the GDPR. It is your organization's responsibility to ensure that it is operating in full compliance with all relevant data-privacy regulations when you use lead scoring and all other features of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Data protection and the GDPR](gdpr.md)
+
 ## Create, view, and manage your lead-scoring models
 
 Lead-scoring models provide rules for how a lead's score will automatically increase or decrease based on specific activities and interactions, demographic information, and over time. The model also establishes a schedule of grades that characterize ranges of scores in plain language (such as hot, warm, and cold), and sets a specific score threshold as "sales ready", which means that the lead can now be forwarded to a salesperson.
