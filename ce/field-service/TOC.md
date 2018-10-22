@@ -10,6 +10,7 @@
 ## [User security roles and accounts](view-user-accounts-security-roles.md)
 ## [Org-wide default settings](configure-default-settings.md)
 ## [AppSource add-ins for Field Service](appsource-addins.md)
+## [Version History](version-history.md)
 
 # Work orders
 ## [Create a new work order](create-work-order.md)
