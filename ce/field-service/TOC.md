@@ -38,7 +38,8 @@
 ## [Time groups](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
 
-# [Mobile apps for field technicians](field-service-mobile-app-user-guide.md)
+# [Mobile app for field technicians](field-service-mobile-app-user-guide.md)
+## [Customizations and configurations](mobile-app-configuration-customization.md)
 ## [Field Resource Hub user guide](field-resource-hub-users-guide.md)
 ## [Mixed reality integration with Remote Assist and HoloLens](remote-assist-hololens.md)
 ## [FAQ: Activate licenses and extend trials](activate-fs-mobile-app-license.md)
