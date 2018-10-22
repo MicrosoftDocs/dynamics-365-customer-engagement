@@ -2,7 +2,7 @@
 title: "Setup a Postman environment(Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Learn how to setup and configure a Postman environment that connects with Dynamics 365 online and on-premise environments."
 ms.custom: ""
-ms.date: 07/23/2018
+ms.date: 10/17/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,7 +14,7 @@ ms.assetid: 955BA444-A53D-4843-9429-833B1636E2B4
 caps.latest.revision: 7
 author: "SushantSikka"
 ms.author: "susikka"
-manager: "sakudes"
+manager: "shujoshi"
 search.audienceType: 
   - developer
 search.app: 
@@ -53,20 +53,18 @@ Use these steps to create a Postman environment that you can use to connect with
 1. In the **Manage Environments** dialog box that opens up, click on **Add** button to add a new environment.
 <br>
 ![Click on Add button to add a new Postman environment](../media/postman-manage-env.png "Click on Add button to add a new Postman environment")<br>
-1. Click on **Bulk edit** in the new environment dialog box.<br>
-![Click on Bulk Edit to paste key-value pairs](../media/postman-bulkedit.png "Click on Bulk Edit to paste key-value pairs")<br>
-1. Add a name for the environment and copy the following key-value pairs into the editing space.
+1. In the dialog box that opens, add a name for the environment. Then add the the following key-value pairs into the editing space.
 
-    ```
-    url:https://<add your environment name, like ‘myorg.crm’>.dynamics.com
-    clientid:51f81489-12ee-4a9e-aaae-a2591f45987d
-    version:9.0
-    webapiurl:{{url}}/api/data/v{{version}}/
-    callback:https://callbackurl
-    authurl:https://login.microsoftonline.com/common/oauth2/authorize?resource={{url}}
-    ```
+|||
+|----|---|
+|url|`https://<add your environment name, like ‘myorg.crm’>.dynamics.com`|
+|clientid|`51f81489-12ee-4a9e-aaae-a2591f45987d`|
+|version|`9.0`|
+|webapiurl|`{{url}}/api/data/v{{version}}/`|
+|callback|`https://callbackurl`|
+|authurl|`https://login.microsoftonline.com/common/oauth2/authorize?resource={{url}}`|
 
-    ![Create a new Postman environment to connect with Online instance](../media/postman-add-online-env.png "Create a new Postman environment to connect with Online instance")
+![Create a new Postman environment to connect with Online instance](../media/postman-add-online-env.png "Create a new Postman environment to connect with Online instance")
 
 1. Replace the instance URL placeholder value with the URL of your Dynamics 365 instance and click **Add** to save the environment.
 
@@ -102,17 +100,20 @@ See [Test your connection](#test-your-connection) for steps to verify your conne
 ## Connect with an On-premise environment
 
 1. Launch the Postman desktop application.
-1. Click on the **Environment Options** gear icon in top-right corner. 
-1. In the **Manage Environments** dialog box that opens up, click on **Add** button to add a new environment.
-1. Click on **Bulk edit** in the new environment dialog box.
-1. Add a name for the environment and copy the following key-value pairs into the editing space.
-    ```
-    url:http://yourservername/yourorgname
-    version:8.2
-    webapiurl:{{url}}/api/data/v{{version}}/
-    ```
-1. Replace the instance URL placeholder value with your Dynamics 365 instance URL and click **Add** to save the environment.
-1. Close the **Manage environments** dialog.
+2. Click on the **Environment Options** gear icon in top-right corner. 
+3. In the **Manage Environments** dialog box that opens up, click on **Add** button to add a new environment.
+4. In the dialog box that opens, add a name for the environment. Then copy the following key-value pairs into the editing space.
+
+|||
+|----|---|
+|url|`http://yourservername/yourorgname`|
+|version|`8.2`|
+|webapiurl|`{{url}}/api/data/v{{version}}/`|
+
+![Create a new Postman environment to connect with On-premise instance](../media/postman-add-onprem-env.png "Create a new Postman environment to connect with On-premise instance")
+
+5. Replace the instance URL placeholder value with your Dynamics 365 instance URL and click **Add** to save the environment.
+6. Close the **Manage environments** dialog.
 
 ### Set Credentials
 
