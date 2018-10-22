@@ -52,6 +52,10 @@ When Power BI visualization is enabled, the following action becomes available:
   > [!div class="mx-imgBorder"]
   > ![Disable Power BI visualization](media/disable-power-bi-visualization.png "Disable Power BI visualization")
 
+## Privacy notice  
+
+[!INCLUDE[cc_privacy_powerbi_tiles_dashboards](../includes/cc-privacy-powerbi-tiles-dashboards.md)]
+
 ### See also
 
 [powerbi Liquid tag](dynamics-entity-tags.md#powerbi)<br> 
