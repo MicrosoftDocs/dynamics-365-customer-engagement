@@ -1,7 +1,7 @@
 ---
 title: "Deploy Dynamics 365 App for Outlook (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/25/2018
+ms.date: 10/19/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -44,11 +44,7 @@ For known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](..
 
 There are two ways to install [!INCLUDE [pn-ms-office](../includes/pn-ms-office.md)]: using a Windows Installer (MSI) version or a Click-to-Run (C2R) version of [!INCLUDE [pn-office-shortest](../includes/pn-office-shortest.md)]. You might have issues accessing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in the Add-ins area of [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] if you don't have the necessary updates for your installation version. For more information, see [Issue when trying to access Dynamics 365 within the Add-ins area of Outlook](https://support.microsoft.com/help/3211586/error-message-0x8006ffff-occurs-when-you-access-dynamics-365-within-th).
 
-If your organization is using a custom EWS URL on your Exchange Online configuration (in place of the default https://outlook.office365.com), Dynamics 365 App for Outlook is not supported.
-You will receive the message **Sorry, something went wrong. Please try again, or restart the application. Error code: Error_Message_0x80070000** when you use Dynamics 365 App for Outlook in Outlook Desktop and Outlook Web Access.
-
 The Outlook App is not enabled on Common Data Service for Apps 2.0.
-
 
 ## Requirements  
  The following are required to use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]:  
@@ -74,49 +70,17 @@ The Outlook App is not enabled on Common Data Service for Apps 2.0.
 
 “You haven't been authorized to use this app. Check with your system administrator to update your settings.”  
 
-In addition:
-
-1. Users must have **read/write** privileges for the following entities.  
-
-   Business Management tab:  
-
-   - **Mailbox**  
-
-   Customization tab:
-
-   - **User Application Metadata**
-
-2. Users must have **read** privileges for the following entities.  
-
-   Customization tab:  
-
-   - **App**
-
-   - **Entity**  
-
-   - **Field**  
-
-   - **Relationship**  
-
-   - **System Application Metadata**  
-
-   - **System Form**  
-
-   - **View**  
-
-#### Set the privileges for a security role  
-
-For example, to set privileges for the Mailbox entity:
+#### Set the right privileges for the security role assigned to the user accessing Dynamics 365 App for Outlook
 
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
 
 2. Click **Security Roles**.  
 
-3. Choose a security role, and then click the **Business Management** tab.  
+3. Choose a security role.  
 
-4. In the **Entity** section, review the **Mailbox** privileges settings. The security role should have User or higher settings.  
+4. In the **Business Management** tab, verify that **Mailbox** has **read/write** privileges. In the **Privacy Related Privileges** section, verify that **Use Dynamics 365 App for Outlook** is set to **Organization**. If not, click **Use Dynamics 365 App for Outlook**.
 
-5. In the **Privacy Related Privileges** section, verify that **Use Dynamics 365 App for Outlook** is set to **Organization**. If not, click **Use Dynamics 365 App for Outlook**.  
+5. In the **Customization** tab, verify that **User Application Metadata** has **read/write** privileges. Also verify that **Model-driven App**, **Entity**, **Field**, **Relationship**, **System Application Metadata**, **System Form** and **View** have **read** privilege.
 
 ### Provide security role access 
 If you have custom security roles defined in Dynamics 365, users who have that security role assigned may not be able to access Dynamics 365 App for Outlook. In addition to the custom security role containing required privileges for App for Outlook, the security role needs to be bound to the App for Outlook App. In order to achieve this, follow the steps below:
@@ -273,6 +237,7 @@ With the PowerApps App Designer, you can control the specific entities that appe
 > [!NOTE]
 > - You can also remove entities from Dynamics 365 App for Outlook.
 > - An entity must be Activities enabled for it to appear in the Regarding lookup. See [Enable a custom entity to appear in the Regarding lookup](dynamics-365-app-outlook-user-s-guide.md#enable-a-custom-entity-to-appear-in-the-regarding-lookup).
+
 
 <a name="BKMK_Troubleshoot"></a> 
 ## Troubleshooting installation problems  

@@ -32,7 +32,7 @@ Power BI is one of the best tools to deliver insights with simple and interactiv
 
 **Set up Power BI integration**
 
-1.	Go to the Dynamics 365 admin center and select the **Applications** tab.
+1.	Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center and select the **Applications** tab.
 
 2.	Select the name of the portal for which you want enable Power BI integration, and then select **Manage**.
 
@@ -51,6 +51,10 @@ When Power BI visualization is enabled, the following action becomes available:
 
   > [!div class="mx-imgBorder"]
   > ![Disable Power BI visualization](media/disable-power-bi-visualization.png "Disable Power BI visualization")
+
+## Privacy notice  
+
+[!INCLUDE[cc_privacy_powerbi_tiles_dashboards](../includes/cc-privacy-powerbi-tiles-dashboards.md)]
 
 ### See also
 
