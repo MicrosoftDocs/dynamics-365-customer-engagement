@@ -597,7 +597,7 @@ _service.Execute(createEntityRequest);
 
   public Guid optionsetId { get { return this._optionsetId; } }
   public int optionValue { get { return this._optionValue; } }
-  public String lable { get { return this._label; } }
+  public String label { get { return this._label; } }
  }
 
 
