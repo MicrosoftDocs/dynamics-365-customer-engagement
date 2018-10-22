@@ -2,7 +2,7 @@
 title: "Define alternate keys for an entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The topic explains about how to create alternate keys for an entity. Alternate keys can be created programmatically or by using the customization tools"
 ms.custom: ""
-ms.date: 10/05/2018
+ms.date: 10/22/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -60,7 +60,7 @@ You should be aware of the following constraints when creating alternate keys:
 
    There can be a maximum of 5 alternate key definitions for an entity in a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
 
-- **Unicode characters in key value**
+- **Special characters in key value**
 
   If the data within a field that is used in an alternate key will contain one of the following characters `<`,`>`,`*`,`%`,`&`,`:`,`\\` then patch or upsert actions will not work.  If you only need uniqueness then this approach will work, but if you need to use these keys as part of data integration then it is best to create the key on fields that won't have data with those characters.
 
