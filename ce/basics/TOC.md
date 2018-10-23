@@ -64,10 +64,11 @@
 ## [Send bulk email](../basics/send-bulk-email-customers.md)
 
 # [Collaboration](../basics/collaborate-with-team.md)
-## [Teams](../basics/integrate-with-microsoft-teams.md) 
+## [Teams](../basics/teams-integration.md) 
 ### [Install the app](teams-install-app.md)
-### [Use the app]
+### Use the app
 #### [Team collaboration](teams-collaboration.md)
+#### [Search with bot](teams-bot-search.md)
 #### [Personal use](teams-personal-use.md)
 ### [Troubleshoot](teams-troubleshoot.md)
 ### [Delete personal data](teams-delete-data.md)
