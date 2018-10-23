@@ -41,11 +41,8 @@ In the schedule board, you can do the following tasks and activities:
 > [!NOTE]
 > You can’t customize the schedule board or change the default view with the application. However, you can ask your system administrator to change the colors of the time blocks.  
  
-## Access the schedule board
-
-In the Customer Service Hub sitemap, navigate to **Service Scheduling** > **Tools** and select **Schedule Board**.
-
 ## Navigate the schedule board
+In the Customer Service Hub sitemap, navigate to **Service Scheduling** > **Tools** and select **Schedule Board**.
 
 Here’s what you’ll see when you open the schedule board:
 

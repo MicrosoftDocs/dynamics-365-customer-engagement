@@ -43,7 +43,6 @@
 ## [Service Scheduling Guide](basics-service-service-scheduling.md)
 ### Schedule entities
 #### [Resources](resources-service-scheduling.md)  
-##### [Set work hours for a resource](set-work-hours-resource.md#set-work-hours-for-a-resource)
 #### [Resource Categories](resource-categories-service-scheduling.md)
 #### [Facilities and Equipments](add-facilities-equipment-ss-csh.md)
 #### [Services](create-edit-service-csh.md)

@@ -98,4 +98,4 @@ You can set work hours for the bookable resources where you can define when the 
 
 ### See also
 
-[Restrict a resource from performing a service](restrict-resource-from-performing-service.md)
+[Service Scheduling overview](basics-service-service-scheduling.md)

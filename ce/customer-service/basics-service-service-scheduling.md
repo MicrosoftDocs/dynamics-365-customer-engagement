@@ -105,7 +105,7 @@ Contoso bike repair schedules repair services for their customers. To facilitate
    |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Navigate the service calendar (Customer Service app)](navigate-service-calendar-cs-app.md)   |   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md) </br>    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the schedule board to configure service activity](use-schedule-board-configure-service-activity.md)  |
    |   |         | 
 
-## Set up the new Service Scheduling experience
+## Set up the new scheduling experience
 
 Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.
 
@@ -130,7 +130,7 @@ Make sure that you have the Customer Service Manager, System Administrator, or S
 
 ## Configure entity records in the new experience
 
-You can configure all your entity records in the new experience manually from the user interface. Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.
+Configure all your entity records in the new experience manually from the user interface. Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.
 
 To follow the correct sequence, see [Service Scheduling scenario](#service-scheduling-scenario).
 
@@ -138,7 +138,7 @@ To follow the correct sequence, see [Service Scheduling scenario](#service-sched
 > If you have been using the legacy service scheduling, you would still need to configure entity records in the new experience. </br> All entity records can be configured from the user interface except Service Activity.
 
 ### Migrate Service Activity
-To know how to migrate your Service Activities by running SDK code samples, see [Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md).
+To know how to migrate your service activity entity records from legacy to new experience by running SDK code samples, see [Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md).
 
 ## Access Service Scheduling in the Customer Service Hub
 With the Customer Engagement apps version 9.1 release, Service Scheduling, built on Universal Resource Scheduling (URS), is available from the Customer Service Hub sitemap.
@@ -147,7 +147,7 @@ With the Customer Engagement apps version 9.1 release, Service Scheduling, built
 
   ![access-service-scheduling](media/access-service-scheduling-csh.png)
 
-## Understand Service Scheduling entities
+## Understand scheduling entities
 
 Service Scheduling entities are grouped under the following logical groups:
 
