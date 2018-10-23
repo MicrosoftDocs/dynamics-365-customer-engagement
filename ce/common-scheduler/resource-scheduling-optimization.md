@@ -1,4 +1,5 @@
 ---
+redirect_url: ../field-service/rso-overview
 title: "Use Resource Scheduling Optimization to schedule multiple bookings on a recurring basis (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: 
   - dyn365-projectservice

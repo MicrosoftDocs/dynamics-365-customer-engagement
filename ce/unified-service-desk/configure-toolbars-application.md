@@ -96,7 +96,7 @@ You can configure toolbars in [!INCLUDE[pn_unified_service_desk](../includes/pn-
   
    1.  Add more buttons using the **Buttons** area. For more information, see steps 6-10 as in the previous section.  
   
-   2.  Modify an existing button by clicking the button name under the **Buttons**, This opens the button definition page where you can change information about the button, such as bname, button text (lable), order, and action call.  
+   2.  Modify an existing button by clicking the button name under the **Buttons**, This opens the button definition page where you can change information about the button, such as bname, button text (label), order, and action call.  
   
    3.  Click **Save** to save the changes.
 
