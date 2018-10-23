@@ -72,18 +72,19 @@ You have a choice when adding Dynamics 365 to Microsoft Teams. You can enable fe
 2. For **Add to a team**, choose a team to pin content and services to, and the select **Install**. This installs the personal and team app.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/teams-install-app.png "Install the Dynamics 365 app")
+   > ![](media/teams-store-install-add-team75.png "Add to team")
 
 3. In the next page, choose the channel where you want to use the Dynamics 365 app. Then, select **Set up**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-install-app-step2.png "Install the Dynamics 365 app, step 2")
 
-4. Recently viewed records appear, if there are any. Search for and select an entity to pin. Use **Filter by** to narrow the search to an entity type. 
+4. You can see confirmation of the installation on the **Conversation** tab. 
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/teams-add-channel-pin-record2.png "Add channel to pin record")
+   > ![](media/teams-store-install-done75.png "Installation confirmation")
 
+<!--
    If you have multiple organizations or app modules, select **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which org or app module to use in Teams.
  
    ![Specify org and app](media/teams-change-org-app.png "Specify org and app")
@@ -102,3 +103,4 @@ Once you complete the above steps, the Dynamics 365 tab appears in the menu bar.
 You can interact with the record as if you were using the Dynamics 365 web app. Those with Write permissions can edit the record; changes will be synchronized with the Dynamics 365 web app.
 
 For information on using the Dynamics 365 app, see: [Use the personal app and bot](use-personal-app.md).
+-->
