@@ -1,6 +1,6 @@
 ---
-title: Understand the new Service Scheduling based on Universal Resource Scheduling | MicrosoftDocs
-description: Understand how to get the new service scheduling based on Universal Resource Scheduling (URS) in Dynamics 365 for Customer Service
+title: Overview of Service Scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: Know the basics of service and service scheduling in Dynamics 365 for Customer Service
 keywords: Service scheduling; Dynamics 365; Customer Service; Universal Resource Scheduling (URS)
 author: anjgupta
 applies_to: 
@@ -12,7 +12,7 @@ ms.date: 10/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
-ms.assetid: 676f241d-6a95-490c-be27-db517389efb5
+ms.assetid: 7904d0f0-6295-4fec-a843-f1ee5267536b
 search.audienceType: 
   - admin
   - customizer
@@ -22,16 +22,17 @@ search.app:
   - D365CS
 ---
 
-# Understand the new Service Scheduling experience
+# Service Scheduling overview
 
-Service scheduling is now built atop **Universal Resource Scheduling (URS)** to provide an efficient way to schedule service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling. This is done with the help of predictable workloads for employees, and reliable time estimates for customers and clients.
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+Avoid disruptions in service by making sure that your resources are scheduled optimally and efficiently. Using Service Scheduling, you can plan and schedule service activities for your customers by bringing together all your resources.
+
+Service Scheduling, now built atop **Universal Resource Scheduling (URS)**, provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling.
 
 With the Customer Engagement apps version 9.1 release, the new Service Scheduling is available from the Customer Service Hub sitemap.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Access Service Scheduling in the Customer Service Hub](basics-service-service-scheduling.md#access-service-scheduling-in-the-customer-service-hub)
-
-- To get the new service scheduling package, see [Set up the new Service Scheduling experience](#set-up-the-new-service-scheduling-experience).
-- To migrate and configure entity records from legacy to the new experience, see [Configure entity records in the new Service Scheduling experience](#configure-entity-records-in-the-new-service-scheduling-experience).
+## Service Scheduling scenario
 
 The new experience lists the entities as follows, as compared to the legacy experience:
 
@@ -44,10 +45,18 @@ The new experience lists the entities as follows, as compared to the legacy expe
 - Resource Groups are now Resource Categories.
 - You can now create all types of bookable resources using the **Resource** entity.
 
-## Service Scheduling scenario
-The difference between the legacy and the new experience can be explained with the help of the following scenario:
+The difference between the legacy and the new experience can be explained with the help of the following scenario: 
 
-Contoso bike repair schedules repair services for their customers. To facilitate this process, they compile the following inputs:
+Contoso bike repair schedules repair services for their customers. To facilitate this process, Contoso needs to bring together the following information:
+
+- Geographical locations where they offer their services.
+- The types of bike repair services they offer.
+- Work hours during which they perform their services.
+- The personnel and equipments they have, to perform those services. 
+- Capacity and expert level for all personnel.
+
+
+To facilitate this process, they compile the following inputs:
 
  - **Define sites or organizational units**  </br>
    Sites are the locations where Contoso will provide service to their customers. In this example, Contoso bike repair is the site for service.
@@ -131,7 +140,6 @@ Make sure that you have the Customer Service Manager, System Administrator, or S
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Access Service Scheduling in the Customer Service Hub](basics-service-service-scheduling.md#access-service-scheduling-in-the-customer-service-hub)
 
-
 ## Configure entity records in the new experience
 
 You can configure all your entity records in the new experience manually from the user interface. Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.
@@ -139,11 +147,71 @@ You can configure all your entity records in the new experience manually from th
 To follow the correct sequence, see [Service Scheduling scenario](#service-scheduling-scenario).
 
 > [!NOTE]
-> If you have been using the legacy service scheduling, you would still need to configure entity records in the new experience. </br> All entity records can be configured from the user interface except Service Activity. </br>
+> If you have been using the legacy service scheduling, you would still need to configure entity records in the new experience. </br> All entity records can be configured from the user interface except Service Activity.
+
+### Migrate Service Activity
 To migrate your Service Activities by running SDK code samples. See [Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md) for more information.
 
-### See also
+## Access Service Scheduling in the Customer Service Hub
+With the Customer Engagement apps version 9.1 release, Service Scheduling, built on Universal Resource Scheduling (URS), is available from the Customer Service Hub sitemap.
 
-[Service Scheduling overview](basics-service-service-scheduling.md)
+- On the sitemap icon ![Sitemap](media/sitemap-icon.png) , select **...** to go to **Service Scheduling** and access the entity record types
 
-[Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md)
+  ![access-service-scheduling](media/access-service-scheduling-csh.png)
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up the new Service Scheduling experience](enable-urs-service-scheduling.md#set-up-the-new-service-scheduling-experience)
+
+## Understand Service Scheduling entities
+
+Service Scheduling entities are grouped under the following logical groups:
+
+**Scheduling**
+
+- **Resources** </br>
+   Anything that needs to be scheduled can be termed as **Resources**. This can be personnel, crews, service centers, company assets (equipment), accounts, or contacts. 
+
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and set up bookable resources](resources-service-scheduling.md)
+
+- **Resource Categories** </br>
+   With Resource categories,  you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment. 
+ 
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md)
+
+- **Facilities/Equipment**  </br>
+   Facilities and equipment are resources you’d use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. 
+
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add facilities and equipments to schedule service](add-facilities-equipment-ss-csh.md)
+
+- **Services**  </br>
+   To make scheduling services quick and easy, it’s helpful to predefine the specifics of the services you’d provide to customers. 
+
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a service](create-edit-service-csh.md)
+
+- **Service Activities** </br>
+   Create a service activity by finding the next time resources are available for a service. 
+
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md)
+
+**Tools**
+
+- **Schedule Board** </br>
+   The Dynamics 365 schedule board provides an overview of resource availability and bookings you can make. 
+
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the schedule board to configure service activity](use-schedule-board-configure-service-activity.md)
+
+**Settings**
+
+- **Organizational Units** </br>
+   Your company organizes its business by geography, function, or other areas. You can create organizational units that reflect your business. 
+
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage organizational units](create-org-units-cs-scheduling.md)
+
+- **Business Closure** </br>
+   Prevent scheduling resources on holidays and other non-working days by defining business closures. 
+
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set when your business is closed](set-when-business-closed-csh.md)
+
+
+### See also    
+    
+[Service Scheduling FAQ](service-scheduling-faq.md) 
