@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-For information on integrating Microsoft Teams with Dynamics 365 (online), see: [Preview: Integrate Dynamics 365 Customer Engagement with Microsoft Teams](../basics/integrate-with-microsoft-teams.md).
+For information on integrating Microsoft Teams with Dynamics 365 (online), see: [Preview: Integrate Dynamics 365 Customer Engagement with Microsoft Teams](../basics/teams-integration.md).
 
 ### See also
  [Download and install Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)
