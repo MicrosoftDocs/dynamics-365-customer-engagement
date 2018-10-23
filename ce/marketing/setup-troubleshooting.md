@@ -267,9 +267,11 @@ If you don't see the **Survey** tile in the **Toolbox** of your [customer journe
 
     ![The Manage your solutions page](media/admin-voc-solutions4.png "The Manage your solutions page")
 
-1. Still on the **Manage your solutions** page, find and select the solution called **Voice of the Customer *Link* for Dynamics 365** (not the **Voice of the Customer for Microsoft Dynamics 365** solution, which you were looking at in the previous step). Then select the **Install** button.
+1. Still on the **Manage your solutions** page, find and select the solution called **Voice of the Customer *Link* for Dynamics 365** (not the **Voice of the Customer for Microsoft Dynamics 365** solution that you were looking at in the previous step). Then select the **Install** button.
 
     ![View details about your Marketing solution](media/admin-voc-solutions5.png "View details about your Marketing solution")
+
+1. Follow the instructions on your screen and wait for the solution to finish installing.
 
 1. Open [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], go to **Settings** > **Advanced settings** > **Marketing settings** > **Customer insights sync**, and enable syncing of the **Survey (msdyn_survey)** entity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync)
 
