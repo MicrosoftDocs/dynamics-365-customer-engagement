@@ -41,6 +41,7 @@
 
 
 ## [Service Scheduling Guide](basics-service-service-scheduling.md)
+### [Understand the new Service Scheduling experience](enable-urs-service-scheduling.md)
 ### Schedule entities
 #### [Resources](resources-service-scheduling.md)  
 ##### [Set work hours for a resource](set-work-hours-resource.md#set-work-hours-for-a-resource)
@@ -54,8 +55,6 @@
 ### Work with settings
 #### [Organizational Units](create-org-units-cs-scheduling.md)
 #### [Business Closure](set-when-business-closed-csh.md)
-### [Understand the new Service Scheduling experience](enable-urs-service-scheduling.md)
-### [Migrate Service Activity entity](migrate-service-activity-org-service.md)
 ### [Service Scheduling FAQ](service-scheduling-faq.md)
 
 ### Legacy Service Scheduling (Customer Service app)
