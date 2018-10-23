@@ -55,7 +55,7 @@ You can update the details of the records in the personal app.
 
 ## Use the personal app
 
-The personal app integrates Dynamics 365 and Teams for your own use. If you want to work with other team members, consider the [team app](use-team-app.md).
+The personal app integrates Dynamics 365 and Teams for your own use. If you want to work with other team members, consider the [team app](teams-collaboration.md).
 
 ### Conversation tab
 

@@ -65,12 +65,12 @@
 
 # [Collaboration](../basics/collaborate-with-team.md)
 ## [Teams](../basics/integrate-with-microsoft-teams.md) 
-### [Install the app](team-get-started.md)
-### [Use the app](use-teams-app.md)
+### [Install the app](teams-install-app.md)
+### [Use the app]
 #### [Team collaboration](teams-collaboration.md)
 #### [Personal use](teams-personal-use.md)
-### [Troubleshoot](troubleshoot-teams.md)
-### [Delete personal data](delete-teams-data.md)
+### [Troubleshoot](teams-troubleshoot.md)
+### [Delete personal data](teams-delete-data.md)
 ## [Yammer](../basics/collaborate-communicate-with-yammer.md)
 <!-- ## [Collaborate with GigJam](../basics/collaborate-real-time-with-gigjam.md) -->
 ## [Office 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md)
