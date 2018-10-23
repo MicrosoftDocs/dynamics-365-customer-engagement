@@ -89,7 +89,7 @@ You have a choice when adding Dynamics 365 to Microsoft Teams. You can enable fe
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-settings-page.png "Select org and app")
 
-
+Teams is now connected with Dynamics 365 (online).
 
 <!--
    If you have multiple organizations or app modules, select **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which org or app module to use in Teams.
