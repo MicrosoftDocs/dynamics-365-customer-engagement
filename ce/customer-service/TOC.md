@@ -41,7 +41,6 @@
 
 
 ## [Service Scheduling Guide](basics-service-service-scheduling.md)
-### [Understand the new Service Scheduling experience](enable-urs-service-scheduling.md)
 ### Schedule entities
 #### [Resources](resources-service-scheduling.md)  
 ##### [Set work hours for a resource](set-work-hours-resource.md#set-work-hours-for-a-resource)

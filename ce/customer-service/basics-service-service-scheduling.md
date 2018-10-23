@@ -132,25 +132,22 @@ Make sure that you have the Customer Service Manager, System Administrator, or S
     Go to [Microsoft AppSource](https://appsource.microsoft.com/en-us/?src=dynamics365website&product=dynamics-365-business-central%3Bdynamics-365-for-customer-services%3Bdynamics-365-for-field-services%3Bdynamics-365-for-finance-and-operations%3Bdynamics-365-for-project-service-automation%3Bdynamics-365-for-sales) to access the Service Scheduling package. Search and opt for the package and fill the questionnaire. 
 
     You receive an email confirmation once the package is deployed for your org.
-
-    > [!NOTE]
-    > Service Scheduling deployment is similar to Field Service deployment. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install and setup [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]](../field-service/install-field-service.md).
   
 3. Access Service Scheduling in the Customer Service Hub sitemap
 
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Access Service Scheduling in the Customer Service Hub](basics-service-service-scheduling.md#access-service-scheduling-in-the-customer-service-hub)
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Access Service Scheduling in the Customer Service Hub](#access-service-scheduling-in-the-customer-service-hub)
 
 ## Configure entity records in the new experience
 
 You can configure all your entity records in the new experience manually from the user interface. Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.
 
-To follow the correct sequence, see [Service Scheduling scenario](#service-scheduling-scenario).
+To follow the correct sequence, see [Service Scheduling scenario](#service-scheduling-scenario)
 
 > [!NOTE]
 > If you have been using the legacy service scheduling, you would still need to configure entity records in the new experience. </br> All entity records can be configured from the user interface except Service Activity.
 
 ### Migrate Service Activity
-To migrate your Service Activities by running SDK code samples. See [Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md) for more information.
+To know how to migrate your Service Activities by running SDK code samples, see [Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md).
 
 ## Access Service Scheduling in the Customer Service Hub
 With the Customer Engagement apps version 9.1 release, Service Scheduling, built on Universal Resource Scheduling (URS), is available from the Customer Service Hub sitemap.
@@ -158,8 +155,6 @@ With the Customer Engagement apps version 9.1 release, Service Scheduling, built
 - On the sitemap icon ![Sitemap](media/sitemap-icon.png) , select **...** to go to **Service Scheduling** and access the entity record types
 
   ![access-service-scheduling](media/access-service-scheduling-csh.png)
-
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up the new Service Scheduling experience](enable-urs-service-scheduling.md#set-up-the-new-service-scheduling-experience)
 
 ## Understand Service Scheduling entities
 
