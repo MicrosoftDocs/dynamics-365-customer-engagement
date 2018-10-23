@@ -1,5 +1,5 @@
 ---
-title: "Use Dynamics 365 app for Teams bot to search records| MicrosoftDocs"
+title: "Use bot to search records| MicrosoftDocs"
 ms.custom: ""
 description: "Use the personal app and bot."
 ms.date: 10/30/2018
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Use Dynamics 365 app for Teams bot to search records
+# Use bot to search records
 
 There are two personal app features: the personal bot and the personal dashboard. The bot allows you to interact with Dynamics 365 to find and display records within Microsoft Teams. 
 

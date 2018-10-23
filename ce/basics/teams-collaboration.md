@@ -1,5 +1,5 @@
 ---
-title: "Use the Dynamics 365 app for Teams for collaboration| MicrosoftDocs"
+title: "Use the app for collaboration| MicrosoftDocs"
 ms.custom: ""
 description: "Use the personal app and bot."
 ms.date: 10/30/2018
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Use the Dynamics 365 app for Teams for collaboration
+# Use the app for collaboration
 
 ## Connect a Dynamics 365 (online) record to a Teams channel
 

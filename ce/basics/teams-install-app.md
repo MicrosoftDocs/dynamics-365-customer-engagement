@@ -79,10 +79,17 @@ You have a choice when adding Dynamics 365 to Microsoft Teams. You can enable fe
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-install-app-step2.png "Install the Dynamics 365 app, step 2")
 
-4. You can see confirmation of the installation on the **Conversations** tab. 
+4. Connect the app with Dynamics 365 (online). Select the Dynamics 365 app for Teams from the left-side menu.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/teams-store-install-done75.png "Installation confirmation")
+   > ![](media/teams-pick-app.png "Open the app")
+
+5. Select a version 9.x org and a Unified Interface app to connect with Dynamics 365 (online), then select **Save Changes**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-settings-page.png "Select org and app")
+
+
 
 <!--
    If you have multiple organizations or app modules, select **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which org or app module to use in Teams.
