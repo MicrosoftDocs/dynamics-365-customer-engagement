@@ -65,7 +65,7 @@
 
 # [Collaboration](../basics/collaborate-with-team.md)
 ## [Teams](../basics/integrate-with-microsoft-teams.md) 
-### [Install the app](install-personal-team-apps.md)
+### [Install the app](install-team-app.md)
 ### [Get started](use-personal-app.md)
 ### [Use the app](use-team-app.md)
 ### [Troubleshoot](troubleshoot-teams.md)

@@ -1,5 +1,5 @@
 ---
-title: "Set up Microsoft Teams integration with Dynamics 365 (online)| MicrosoftDocs"
+title: "Install and set up the Dynamics 365 app for Teams| MicrosoftDocs"
 ms.custom: ""
 description: "Setup Microsoft Teams integration with Dynamics 365 (online)"
 ms.date: 10/30/2018
@@ -22,13 +22,13 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Set up Microsoft Teams integration with Dynamics 365 (online)
+# Install and set up the Dynamics 365 app for Teams
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-## For For Dynamics 365 (online) admins: enable Microsoft Teams integration Preview features
+## For Dynamics 365 (online) admins: enable Microsoft Teams integration Preview features
 
 Because this is a preview feature, you can control whether to display certain Teams integration features. For full Teams integration, the Dynamics 365 (online) admin should enable two settings.
 
@@ -48,9 +48,9 @@ The following table describes what happens when each feature is enabled.
 
 If these settings are not enabled, you can still use much of the Teams integration with Dynamics 365 (online); the above features will be absent.
 
-## Select the app in the App Store
+## Find the app in the App Store
 
-Once Microsoft Teams integration is enabled in Dynamics 365 (online), find the Dynamics 365 app in the App Store.
+End users can find the Dynamics 365 app for Teams in the App store.
 
 1. In Microsoft Teams, select **Store**. 
 
@@ -60,23 +60,26 @@ Once Microsoft Teams integration is enabled in Dynamics 365 (online), find the D
 
    ![Search for and select Dynamics 365](media/teams-search-select-dynamics-365-app.png "Search for and select Dynamics 365")
 
-## Install the personal and team apps
+## Install the app
 
-You have a choice when adding Dynamics 365 to Microsoft Teams. You can install the personal app which integrates Dynamics 365 and Teams for your own use, and you can install the team app to use with your team members. We'll take the simplest approach and install both.
+You have a choice when adding Dynamics 365 to Microsoft Teams. You can enable features which integrates Dynamics 365 and Teams for your own use, and you can enable features that you can use to collaborate with your team members. We'll take the simplest approach and enable both.
 
-Once you've selected the Dynamics 365 app (see steps above), the settings page opens. 
+1. Verify that **Add for you** and **Add to team** are both set to **Yes**.
 
-1. For **Add to a team**, choose a team to pin content and services to, and the select **Install**. This installs the personal and team app.
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-store-install-both75.png "Enable personal and team features")
+
+2. For **Add to a team**, choose a team to pin content and services to, and the select **Install**. This installs the personal and team app.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-install-app.png "Install the Dynamics 365 app")
 
-2. In the next page, choose the channel where you want to use the Dynamics 365 app. Then, select **Set up**.
+3. In the next page, choose the channel where you want to use the Dynamics 365 app. Then, select **Set up**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-install-app-step2.png "Install the Dynamics 365 app, step 2")
 
-3. Recently viewed records appear, if there are any. Search for and select an entity to pin. Use **Filter by** to narrow the search to an entity type. 
+4. Recently viewed records appear, if there are any. Search for and select an entity to pin. Use **Filter by** to narrow the search to an entity type. 
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-add-channel-pin-record2.png "Add channel to pin record")
@@ -89,7 +92,7 @@ Once you've selected the Dynamics 365 app (see steps above), the settings page o
 
    Use the **Settings** tab in the Teams app to change these settings any time.
 
- 4. Select **Save**. 
+ 5. Select **Save**. 
 
 Once you complete the above steps, the Dynamics 365 tab appears in the menu bar.
 

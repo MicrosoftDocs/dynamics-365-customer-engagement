@@ -38,6 +38,21 @@ If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-
 Check out the following video to get a quick overview of Dynamics 365 and Teams can work together to make easy collaboration possible: [Dynamics 365 app for Microsoft Teams Demo Video](https://www.youtube.com/watch?v=U11x5BlQlDU&feature=youtu.be)
 <!-- Cyndy will provide new video when it's published. -->
 
+The Dynamics 365 app in Teams provides the following:
+
+- **Collaboration hub** – Access records together with the Office applications you need to close deals.
+- **Cross-functional collaboration** – Work together with customers and any colleague across functions, even if they aren’t Dynamics 365 users.
+- **File integration** – Co-author documents using Office 365 and automatically sync to Dynamics 365.
+- **Teams mobile app** – Search and update records from Microsoft Teams mobile app using Dynamics 365 bot while on the go. 
+
+> [!div class="mx-imgBorder"] 
+> ![](media/teams-intro.png "Features of Teams app")
+
+
+
+
+<!--
+
 There are two areas of integration: 
 - The Dynamics 365 app installed in Microsoft Teams
 - In Dynamics 365 (online), you can see the connected Microsoft Teams channel and files synchronized between Teams app and Dynamics 365 (online)
@@ -76,6 +91,8 @@ The record has been pinned to multiple Teams channels. In Dynamics 365 (online),
 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-change-document-location.png "Change document location")
+
+-->
 
 ## Privacy notice
 
