@@ -73,16 +73,6 @@ To replace the files in Dynamics 365, follow the steps below:
 7.  Rename your `main.js` to `main.es` and upload the file as attachment.
 9.	Restart the portal website and reopen your browser.
 
-## Self-hosted
-The advantage of self-hosted backend is that you have more freedom with the customization, implement the backend with the technology of  your choice. 
-
-You can use the demo frontend but you will need to implement and host the backend part, either using the existing data contract we have declared on the frontend, or define your own contract and modify the frontend accordingly.
-
-For the backend to communicate with your Dynamics 365 instance, you need to take care of the Dynamics 365 authentication and use the Dynamics 365 webservices. You need to implement the authentication mechanism by yourself, depending on the technology you have selected for the backend. If you want event registration to be linked to the appropriate user who created it, make sure that you create the Dynamics 365 contact for every new website user. 
-
-Dynamics 365 authentication and web application authentication are two different things. In the first case we are talking about Dynamics 365 user that backend needs to consume Dynamics 365 web API, and in second case we are talking about the  `local` website users, that you don’t strictly need to have. It is always a good practice to host both frontend and backend on the same domain to comply to same-origin policy. 
-
-![Self-hosted](../media/self-hosted.png "Self-hosted")
 
 ### Developing and Customizing web application on self-hosted backend
 
@@ -110,11 +100,6 @@ let's make some simple changes on the website that you have created.
 > [!NOTE]
 > For extensive customization of the frontend you need to be familiar with the [Angular framework](https://angular.io/guide/quickstart).
 
-## Considerations for self-hosted website 
-There are some specifics that should be considered when you self-host your web application in contrast to Dynamics 365 Portal hosted.
 
-- If you prefer to implement backend using **.NET Core** technology, you need to set up **IIS** to work with **.NET Core**. More information: [Set up IIS](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-2.1&tabs=aspnetcore2x) 
-- Self-hosted type doesn’t have captcha and it’s up to you to implement your own captcha, whereas Dynamics 365 Portal hosted type uses **Microsoft HIP** captcha  
-- Portal hosted version supports localization, and self-hosted version doesn’t. If you want to support the localization you can re-use the mechanism that portal hosted version has, you just have to implement the API endpoint to return the JSON containing labels. There is an Angular directive already in place that utilizes that endpoint to get the localized content and overwrite appropriate HTML elements with translated text.
 
 
