@@ -28,9 +28,9 @@ The Event Management web application consists of two parts:
 
 The frontend part is a single page application which is created using [Angular](https://angular.io) framework. The frontend part of the web application is fully customizable. Backend and customizability of the backend depends on hosting type.
 
-There are two ways in which the Event Management web application can be hosted.
+ You can host the Event Management web application using
 - [Dynamics 365 Portal hosted](#dynamics-365-portal-hosted)
-- [Self-hosted](#self-hosted)
+<!--- [Self-hosted](#self-hosted)-->
 
 ## Dynamics 365 Portal hosted
 Event Management web application comes as a Dynamics 365 Portal hosted web when you install the Event Management solution.
@@ -74,7 +74,7 @@ To replace the files in Dynamics 365, follow the steps below:
 9.	Restart the portal website and reopen your browser.
 
 
-### Developing and Customizing web application on self-hosted backend
+<!--### Developing and Customizing web application on self-hosted backend
 
 To develop and customize the frontend part of the web application:
 
@@ -87,7 +87,7 @@ To develop and customize the frontend part of the web application:
 1. Go to `\src\app\providers\url.providers.ts` in the source code to point the frontend to the correct API endpoint and change the return value in the `baseURL()` method to your API. You need to add the trailing slash at the end of the url.
 1. Run the command `ng serve` from your working directory to build the website and open the website url in the chrome instance with the shortcut you have created.
 
-After the website is build successfully, the output files will show up in `/dist/ClientApp`. You need to copy those files to the root directory of your web server, replacing the existing ones.
+After the website is build successfully, the output files will show up in `/dist/ClientApp`. You need to copy those files to the root directory of your web server, replacing the existing ones.-->
 
 ## Building and deploying website
 
