@@ -30,10 +30,10 @@ To make scheduling services quick and easy, it’s helpful to predefine the spec
   
 -   How long a service activity would last.
   
--   What resources are available for the service activity, like staff, facilities, or equipment.
+-   What resources are needed for the service activity, like resources, facilities, or equipment.
   
 > [!NOTE]
-> A service requires at least one selection rule and one or more resources, resource groups, or teams before the service can be scheduled with a service activity.
+> A service requires at least one selection criteria and one or more resources or resource groups before the service can be scheduled with a service activity.
 
 ## Create a service
   
@@ -46,47 +46,48 @@ Make sure that you have the System Administrator or System Customizer security r
 
 3. On the command bar, select **New** to create a new service. To edit a service, open a service from the list.  
   
-4. In the **General** section, enter a **Name** and **Description** to reflect the specifics of the service and describe what the service is. </br> Also, specify the initial status of the service activity when it is created. If your organization prefers to approve all service activities before committing them to the schedule, you can select **Requested** or **Tentative**.
+4. In the **General** section, enter a **Name** and **Description** to reflect the specifics of the service and describe what the service is. </br>
+
+   Also, specify the initial status of the service activity when it is created. If your organization prefers to approve all service activities before committing them to the schedule, you can select **Requested** or **Tentative**.
+
+   > [!NOTE]
+   > The status reason also reflects in the schedule board when you create a booking for the service.
+
 5. Select **Save** to save the service.
 
    ![Create a service](media/create-service-csh.png)
 
-5. In the **Resource Requirement** section, define your selection rule:
+5. In the **Resource Requirements** section, define the selection criteria.
 
-   - Add a new requirement subgroup by selecting **Subgroup**. 
-   - Add a new resource requirement by selecting **Requirement**.
+    - Here, the service forms the root node:
+      - Add a new requirement subgroup by selecting **Subgroup**. You can add subgroups inside a subgroup.
+      - Add a new resource requirement by selecting **Requirement**.
+
    - In **Duration**, enter the duration to define how long the service lasts. This can be changed when the service activity is created. 
 
      > [!NOTE]
      > The maximum duration of an appointment or service activity is 10 days.
    - Choose whether the service is **Part of Same** organizational unit, resource tree or location.
-   - Lookup or quick create a **Fulfillment Preference**.
+   - Lookup or quick create a **Fulfillment Preference**. You can also choose from a list of fulfillment preferences displayed. 
+     > [!NOTE]
+     > When you select create, a **Quick Create** form is displayed where you can quickly create a new fulfillment preference.
    - Specify the **Organizational Unit**.
-   - Add **Resource Categories**  and define **Characteristics**.
-   - Add **Preferred Resource**. You can add as many resources as you want, and they can be a mix of individual users, facilities, equipment, and teams. 
+   - Add **Resource Categories**  and define **Resource Characteristics**.
+   - Add **Preferred Resource**. 
    - Define **Sort Option** to sort according to most and least business impact.
-   - Provide **Effort Required**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Capacity vs. effort—understand the difference](service-scheduling-faq.md#what-is-capacity-and-effort-what-is-the-difference).
+   - Provide **Effort Required**. While booking, this option helps you view all the resources who satify the effort requirement. For example, if the effort required is defined as 100, only the resources with the rating value of 100 and more will be displayed in the list while booking the service in the schedule board.
 
    You can add complexity to a rule by adding a subrule to it.  
 
    ![Resource requirement](media/resource-requirement-csh.png)
 
    > [!NOTE]
-   >  You can save a service without defining a selection rule, but you won’t be able to schedule that service.   
+   >  You can save a service without defining a selection criteria, but you won’t be able to schedule that service.   
 
 7.  When you’re ready to save your data, select **Save**.  
   
 ## Activate or deactivate a service  
  You can make a service available or unavailable for scheduling by activating or deactivating it. To do this, in the list of service records, select a service, and then select **Activate** or **Deactivate** in the command bar.  
-
-## Test your service  
- Before you start using a service, test it. Create a service activity with no criteria other than the service. You can use the results to confirm that the service is selecting correctly. The message bar will also display any problems with the search.  
-  
-1.  In the Customer Service Hub sitemap, select **Scheduling** > **Service Activity**. This bypasses the scheduling form.  
-  
-2.  Select the service to test.  
-  
-3.  Select **Find Available Times**. 
   
 ### See also  
 

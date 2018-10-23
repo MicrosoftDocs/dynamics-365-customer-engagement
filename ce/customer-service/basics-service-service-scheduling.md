@@ -47,16 +47,7 @@ The new experience lists the entities as follows, as compared to the legacy expe
 
 The difference between the legacy and the new experience can be explained with the help of the following scenario: 
 
-Contoso bike repair schedules repair services for their customers. To facilitate this process, Contoso needs to bring together the following information:
-
-- Geographical locations where they offer their services.
-- The types of bike repair services they offer.
-- Work hours during which they perform their services.
-- The personnel and equipments they have, to perform those services. 
-- Capacity and expert level for all personnel.
-
-
-To facilitate this process, they compile the following inputs:
+Contoso bike repair schedules repair services for their customers. To facilitate this process, they compile the following inputs:
 
  - **Define sites or organizational units**  </br>
    Sites are the locations where Contoso will provide service to their customers. In this example, Contoso bike repair is the site for service.
