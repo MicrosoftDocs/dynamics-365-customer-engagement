@@ -46,7 +46,6 @@
 ##### [Set work hours for a resource](set-work-hours-resource.md#set-work-hours-for-a-resource)
 #### [Resource Categories](resource-categories-service-scheduling.md)
 #### [Facilities and Equipments](add-facilities-equipment-ss-csh.md)
-##### [Set work hours for a facility or equipment](set-work-hours-resource.md#set-work-hours-for-a-facility-or-equipment)
 #### [Services](create-edit-service-csh.md)
 #### [Service Activities](schedule-service-activity-csh.md)
 ### Configure using tools

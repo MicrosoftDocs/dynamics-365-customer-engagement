@@ -57,12 +57,7 @@ Make sure that you have the System Administrator or System Customizer security r
 6.  When you’re done, select **Save** or **Save and Close**.  
 
     ![facility and equipment](media/facility-equipment-csh-ss.png)
-  
-## Set work hours for a facility or equipment
 
-You can set work hours for a facility or equipment to define when it will be available to be booked.
-
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set work hours for a facility or equipment](set-work-hours-resource.md#set-work-hours-for-a-facility-or-equipment)
 
 ### See also
 

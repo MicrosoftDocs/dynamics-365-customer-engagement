@@ -1,7 +1,7 @@
 ---
 title: Set work hours to define availability (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Understand how to set work hours to define availability in Dynamics 365 for Customer Service
-keywords: Set work hours for a resource; Dynamics 365; set work hours for a facility or equipment ; Customer Service; Service Scheduling
+keywords: Set work hours for a resource; Dynamics 365; Customer Service; Service Scheduling
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
@@ -40,7 +40,7 @@ You can set up and define the hours a resource is available. By default, the res
   
 6.  Select **Show Work Hours**.  
   
-7.  From the **Set up** drop-down list, choose the schedule display as required..  
+7.  From the **Set up** drop-down list, choose the schedule display as required.
   
     > [!NOTE]
     >  Monthly schedules are the default display; you can choose weekly and daily schedules.  
