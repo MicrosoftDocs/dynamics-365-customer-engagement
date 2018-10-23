@@ -42,6 +42,16 @@ Select the **Dynamics 365** icon to pin a Dynamics 365 record to a channel.
 
    ![Add Dynamics 365 Team channel](media/teams-add-channel.png "Add Dynamics 365 Team channel")
 
+.
+.
+.
+Start new content here.
+.
+.
+.
+
+
+
 Search for an entity to pin. Use **Filter by** to narrow the search to an entity type. Select **Save**.
 
    ![Search for entity](media/teams-add-channel-pin-record.png "Search for entity")
