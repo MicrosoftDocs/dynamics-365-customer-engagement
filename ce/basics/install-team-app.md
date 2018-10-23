@@ -79,7 +79,7 @@ You have a choice when adding Dynamics 365 to Microsoft Teams. You can enable fe
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-install-app-step2.png "Install the Dynamics 365 app, step 2")
 
-4. You can see confirmation of the installation on the **Conversation** tab. 
+4. You can see confirmation of the installation on the **Conversations** tab. 
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-store-install-done75.png "Installation confirmation")

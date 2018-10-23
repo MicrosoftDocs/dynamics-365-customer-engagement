@@ -1,5 +1,5 @@
 ---
-title: "Use the personal app and bot| MicrosoftDocs"
+title: "Get started with the app| MicrosoftDocs"
 ms.custom: ""
 description: "Use the personal app and bot."
 ms.date: 10/30/2018
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Use the personal app and bot
+# Get started with the app
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
