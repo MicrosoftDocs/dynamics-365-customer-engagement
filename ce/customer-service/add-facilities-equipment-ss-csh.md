@@ -36,7 +36,7 @@ Make sure that you have the System Administrator or System Customizer security r
 1. In the Customer Service Hub sitemap, go to **Service Scheduling**.
 2. From the list of entity records, select **Scheduling > Facilities/Equipment**.
    - The **Local Facility/Equipment** view is displayed. You can switch between various system views using the drop-down list.
-   - Select **Show Chart** in the command bar to see the chart view.
+   
 
 3. On the command bar, select **New** to create a new record. 
   
@@ -47,9 +47,6 @@ Make sure that you have the System Administrator or System Customizer security r
     - **Business Unit ID**. Enter a business unit ID. To choose an ID, select the **Lookup** button and then select from the list. You can also create a new business unit ID.
   
     - **Organizational Unit**. Select the location where the facility or equipment is located.
-
-      > [!TIP]
-      > Make sure the organizational unit and the customer are in the same location. Resources for a given service activity should also be located at the same organizational unit.
   
     - **Primary Email**. Enter the email address of the site manager or equipment manager. If there are any updates or cancellations related to the schedule, facilities, or equipment, notifications are sent to this email address.  
   

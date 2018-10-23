@@ -302,4 +302,4 @@ namespace Microsoft.Crm.Sdk.Samples
 
 ### See also
 
-[Understand the new Service Scheduling experience](enable-urs-service-scheduling.md)
+[Service Scheduling overview](basics-service-service-scheduling.md#service-scheduling-overview)

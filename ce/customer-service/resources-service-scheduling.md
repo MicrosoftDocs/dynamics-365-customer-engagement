@@ -35,8 +35,8 @@ Make sure that you have the System Administrator or System Customizer security r
 1. In the Customer Service Hub sitemap, go to **Service Scheduling**.
 2. From the list of entity records, select **Scheduling > Resources**.
    - The **Active Bookable Resources** view is displayed. You can switch between various system views using the drop-down menu.
-   - Select **Show Chart** in the command bar to see the chart view.
    - Select any existing bookable resource to see additional options in the command bar.
+
 3. On the command bar, select **New** to create a new bookable resource. 
 4. In the **General** section:
    - Select a **Resource Type**. You can choose from the following options:
@@ -58,8 +58,6 @@ Make sure that you have the System Administrator or System Customizer security r
 
      **Resource Characteristics** and **Resource Categories**  sections are displayed.
     - In the **Resource Characteristics** section, select the ellipses  (**...**) and then select **Add New Bookable Resource Characteristics** to add characteristics.
-
-      [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Specify skills for resources (Field Service)](../field-service/set-up-characteristics.md)
    
       - Use the tooltips to help fill in your information and then select **Save**
       - Look up and assign **Rating Value**. You can also create a new rating value.

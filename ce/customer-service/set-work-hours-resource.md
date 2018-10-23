@@ -26,10 +26,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You can set the hours a resource works or set the operating hours for a facility or equipment. By default, users, facilities, and equipment are set up for a 7-days-a-week, 24-hour schedule. 
-  
-> [!TIP]
-> You can edit existing work hours by following steps 1 and 2 to go to the Users or Facilities/Equipment area. Then, open the resource you want to edit. Editing a schedule does not affect existing service activities created for the resource.  
+You can set up and define the hours a resource is available. By default, the resources are set up for a 7-days-a-week, 24-hour schedule. 
 
 > [!IMPORTANT]
 > With the Customer Engagement apps version 9.1 release, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you define work hours using the new experience. 
@@ -116,15 +113,15 @@ You can set the hours a resource works or set the operating hours for a facility
   
 14. To close the **Weekly Schedule** dialog box, select **Save and Close**.  
 
-## Set work hours for a facility or equipment  
+## Set work hours for a facility or equipment (Legacy Service Scheduling)
   
-1. In the Customer Service Hub sitemap, go to **Service Scheduling**.
+Make sure that you have the System Administrator, System Customizer, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager security role or equivalent permissions.
 
-2. From the list of entity records, select **Scheduling > Facility/Equipment**. 
-  
-4.  In the list, open the record you want modify.  
-  
-5.  Select **Show Work Hours**.  
+1. Go to **Settings** > **Business Management**.
+
+2. Select **Facilities/Equipment**. In the list, open the resource record you want modify.
+
+3. Select **Work Hours**.
   
 6.  On the **Monthly View** tab, double-click a date on the calendar that is the first day you want the new schedule to start, or any date that will be affected by the new schedule.  
   
@@ -199,7 +196,6 @@ You can set the hours a resource works or set the operating hours for a facility
 > - All of the options may not be available to you for selecting how much of the schedule you want to edit. The available options are based on the schedules that are already set up.  
   
 ### See also  
- [Set the capacity required for a service or resource](../customer-service/set-capacity-required-service-resource.md)   
  
 [Set when your business is closed](set-when-business-closed-csh.md)
  

@@ -141,7 +141,7 @@ Make sure that you have the Customer Service Manager, System Administrator, or S
 
 You can configure all your entity records in the new experience manually from the user interface. Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.
 
-To follow the correct sequence, see [Service Scheduling scenario](#service-scheduling-scenario)
+To follow the correct sequence, see [Service Scheduling scenario](#service-scheduling-scenario).
 
 > [!NOTE]
 > If you have been using the legacy service scheduling, you would still need to configure entity records in the new experience. </br> All entity records can be configured from the user interface except Service Activity.

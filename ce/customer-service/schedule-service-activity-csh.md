@@ -38,8 +38,8 @@ Make sure that you have the System Administrator or System Customizer security r
 1. In the Customer Service Hub sitemap, go to **Service Scheduling**.
 2. From the list of entity records, select **Scheduling > Service Activity**.
    - The **My Service Activities** view is displayed. You can switch between various system views using the drop-down menu.
-   - Select **Show Chart** in the command bar to see the chart view.
    - Select any existing service activity to see additional options in the command bar.
+
 3. On the command bar, select **Service Activity** to create a new service activity.  
 
 4. In the **Service Activity** section:

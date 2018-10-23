@@ -42,7 +42,7 @@ Read this topic to find answers to some common questions regarding Service Sched
   
 - **Scheduling rule:** A set of criteria that specifies which personnel, equipment, facilities, or resource categories are required to perform a service, or how to select these resources, based on parameters like quantity and capacity.  
 
-## What is Capacity and effort? What is the difference?
+## What is capacity and effort? What is the difference?
  You can set up services and resources in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to take into account different-sized facilities or the experience levels of your users when a service is scheduled. This is known as capacity scheduling. Capacity is a relative unit that you define. 
 
 **For example**, you could define capacity in a bike repair shop as the number of bikes the shop has room to accommodate at the same time. If a repair bay has room for four bike-repair stations, the repair bay can accept four bikes for repair or inspection at the same time.  
