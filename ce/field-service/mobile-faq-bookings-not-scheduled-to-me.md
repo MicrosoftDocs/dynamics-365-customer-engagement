@@ -1,5 +1,5 @@
 ---
-title: "Bookings not scheduled to me are showing when logged into the mobile app Dynamics 365 for Field Service | MicrosoftDocs"
+title: "Bookings not scheduled to me are appearing when logged into the mobile app Dynamics 365 for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/03/2018
@@ -26,15 +26,15 @@ search.app:
   - D365FS
 ---
 
-# Bookings not scheduled to me are showing when logged into the mobile app
+# Bookings not scheduled to me are appearing when logged into the mobile app
 
-This typically means you are logging into the mobile app with a user who has system administrator or Field Service—administrator security roles.
+If you're seeing a list of bookings that aren't scheduled to you, this typically means you're probably logged into the mobile app as a user with system administrator or Field Service administrator permissions. 
 
-**System administrators** and **Field Service—administrators** have access to all Field Service records including all bookings scheduled to all resources. In contrast, users with the security role **Field Service—resource** only have access to work orders scheduled to that resource and related user.
+**System administrators** and **Field Service administrators** have access to all Field Service records, including all bookings scheduled to all resources. Users with the security role **Field Service resource** only have access to work orders scheduled to that resource and related user.
 
-Ensure your mobile user has only the **Field Service—resource** security role in **Settings > Security > Users > Manage roles**
+Ensure your mobile user has only the **Field Service resource** security role in **Settings > Security > Users > Manage roles** in the ribbon menu.
 
-![Mobile FAQs image23](media/Mobile-FAQs-image23.png)  
+![Screenshot of a user in the Enabled users list with the Manage Roles option highlighted](media/Mobile-FAQs-image23.png)  
 
 >[!Note]
-> **Pro Tip:** Bookings are scheduled to Resources, but User records are used to log into the mobile app. This is made possible because Resources can be tied to User records.
+> **Pro Tip:** Bookings are scheduled to resources, but user records are used to log into the mobile app. This is made possible because resources can be tied to user records.
