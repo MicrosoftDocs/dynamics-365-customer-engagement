@@ -1,5 +1,5 @@
 ---
-title: "My booking is not showing when logged into the mobile app Dynamics 365 for Field Service | MicrosoftDocs"
+title: "Why can't I see my bookings when logged into the app? Dynamics 365 for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/03/2018
@@ -25,19 +25,21 @@ search.app:
   - D365CE
   - D365FS
 ---
-# My booking is not showing when logged into the mobile app
+# Why can't I see my bookings when logged into the app?
 
-There are typically 3 reasons bookings are not showing on the mobile app
+There are typically 3 possible reasons bookings don't show up in the mobile app:
 
-1)  You need to sync the mobile application to the server and receive data updates
+1. The mobile application isn't synced to the server 
 
-2)  You are in offline mode and the booking is outside the sync filters
+2. The application is in offline mode and the booking is outside the sync filters
 
-3)  Drip scheduling is enabled for the related resource and the booking is outside the *bookings to drip* number parameter
+3. Drip scheduling is enabled for the related resource and the booking is outside the *bookings to drip* number parameter
 
-### 1) You need to sync the mobile application to the server and receive data updates
+See below for details about each of these possible reasons. 
 
-When a dispatcher books a work order to a resource, this takes place on the server and may take time to update on the mobile application. The time it takes for the booking to show on the mobile application can depend on internet speeds, internet connection, and even configurations. As an example, the mobile app can be configured to sync data from the server every X minutes or only when connected to Wi-Fi.
+## 1. The mobile application isn't synced to the server
+
+When a dispatcher books a work order to a resource, this takes place on the server and may take time to update on the mobile application. The time it takes for the booking to show on the mobile application can depend on internet speeds, internet connection, and even configurations. For example, the mobile app can be configured to sync data from the server every X minutes, or only when connected to Wi-Fi.
 
 First, try manually syncing data from the server by selecting the sync button.
 
@@ -114,4 +116,3 @@ And find the resource related to the user you are attempting to log into the mob
 Under the Field Service section, set enable drip scheduling to No, or leave it to Yes and adjust the parameters.
 
 Then log into the mobile application and check if your Bookings are now showing
-
