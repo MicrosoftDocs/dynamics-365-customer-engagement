@@ -69,6 +69,8 @@ Once you complete the above steps, you'll see a notification of a successful con
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-pinned-record.png "Record successfully connected and pinned")
 
+### Two connection states
+
 There are two connection states: successful and failed. The sole difference is file synchronization from Dynamics 365 (online) to Teams.
 
 A successful connection means two-way communication now exists between Dynamics 365 (online) and Microsoft Teams. You can interact with the record as if you were using the Dynamics 365 web app and share files with the web app. Those with *Write* permissions can edit the record and changes will be synchronized with the Dynamics 365 web app. Also, file synchronization occurs between both apps.
