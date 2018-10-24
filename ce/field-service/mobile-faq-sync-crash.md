@@ -39,13 +39,13 @@ There are a few reasons why your mobile application may not be syncing (or crash
 
 See below for details on troubleshooting each possible reason.
 
-## 1) Incorrect URL, username, or password. 
+## 1. Incorrect URL, username, or password. 
 
 In the Field Service Mobile app, double check that the URL, username, and password is correct. Navigate to **Setup** to find these fields, as seen in the below screenshot. Note the username and password are case sensitive.
 
 ![Screenshot of the mobile app setup window](media/Mobile-FAQs-image6.png)  
 
-## 2) There is no mobile project in Woodford, or the mobile project is unpublished
+## 2. There is no mobile project in Woodford, or the mobile project is unpublished
 
 To fix this, login to Dynamics 365 as an administrator in a non-private Internet Explorer, and navigate to **Settings > Woodford > MobileCRM Woodford** to verify a mobile project exists. A blue circle with an upward-pointing arrow indicates it is published, as seen in the below screenshot. The value for "Is published" will also be set to "True."
 
@@ -73,7 +73,7 @@ Next, name the mobile project, set a priority greater than 0, and assign it to a
 More details on projects and priorities can be found in the [Woodford Guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf).  
 Finally, double click on the project (template) to view it. Select **Publish**
 
-## 3) The mobile project is published to a later version than the mobile app
+## 3. The mobile project is published to a later version than the mobile app
 
 In order for the mobile app to work, the Woodford solution version number must not exceed your mobile app version number. For example, if your mobile app is verion 9.1, but your Woodford solution is published to 9.2 or greater, this will result in an "Unsupported metadata version" error, as seen below.
 
@@ -91,7 +91,7 @@ Find the related mobile project and ensure it's not published to a higher versio
 
 ![Screenshot of the published version in the Woodford solution](media/Mobile-FAQs-image5.png)
 
-## 4) Your user does not have the correct security role to access the mobile application
+## 4. Your user does not have the correct security role to access the mobile application
 
 When an administrator of the mobile application sets up Woodford, they must assign a set of security roles to a mobile project (default configurations). This decides which users get access to the customizations of the project. If a user logs into the mobile app and does not have a security role that corresponds to a published mobile project, the user won't be able to sync to the server.
 
