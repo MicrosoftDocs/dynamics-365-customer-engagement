@@ -24,7 +24,26 @@ search.app:
 ---
 # Use bot to search records
 
-There are two personal app features: the personal bot and the personal dashboard. The bot allows you to interact with Dynamics 365 to find and display records within Microsoft Teams. 
+The Dynamics 365 app for Teams bot allows you to interact with Dynamics 365 (online) to find and display the records within Microsoft Teams. 
+
+1. Open the Dynamics 365 app.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/teams-pick-app.png "Open the Dynamics 365 app")
+
+2. Select the **Conversations** tab. Type in something to search, like "adventure works", and then press the **Enter** key.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-search-typed.png "Type in something to search in Dynamics 365")
+
+     A list of records from Dynamics 365 that relate to your search text are returned.
+
+3. You can use the bot menu to do some other app related things.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-bot-menu.png "Open the bot menu")
+
+
 
 Once you've completed installing the Dynamics 365 Teams app, you're taken to the **Conversation** tab with the bot ready for use. If at any time in Teams you want to return to the personal app, select ... from the left-side menu, and then select **Dynamics 365 (Preview)**.
 
