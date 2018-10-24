@@ -27,7 +27,7 @@ search.app:
 ---
 # My mobile app won't sync to the server or it crashes immediately
 
-There are a few reasons why your mobile application isn't syncing (or crashes when launched): 
+There are a few reasons why your mobile application may not be syncing (or crashes when launched): 
 
 1. Incorrect URL, username, or password. **This is the most common reason**.
 
