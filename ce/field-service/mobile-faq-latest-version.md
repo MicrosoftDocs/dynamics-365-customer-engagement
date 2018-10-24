@@ -29,28 +29,25 @@ search.app:
 
 # What is the latest version of the mobile app and related Woodford version?
 
-The latest version of the Field Service Mobile (2017) app is 9.1 and this corresponds to Woodford version 9.1.
+The latest version of the Field Service Mobile (2017) app is 9.1, which corresponds to Woodford version 9.1.
 
-You can view the version of your mobile app in the About section
+To see your mobile app's version number, find the About menu item, and select it. You'll find the version number here.
 
-![Mobile FAQs image1](media/Mobile-FAQs-image1.png)
+![Screenshot of the mobile app version number, as seen in the app](media/Mobile-FAQs-image1.png)
 
-In the October 2018 release of Field Service, the mobile app will be updated to 11.1 and will correspond to Woodford version 11.1.
+After the October 2018 Field Service release, the mobile app will be updated to 11.1 and will correspond to Woodford version 11.1.
 
-![Mobile FAQs image2](media/Mobile-FAQs-image2.png)
-
->[!Note]
-> **Pro Tip:** You can download the latest version of Woodford and simply publish to a previous version that is compatible. As an example, the org in the picture below has Woodford 11.1 installed but the mobile project is published to 9.1 to accommodate the 9.1 release of the Field Service mobile (2017). This is advantageous because when Field Service 11.1 is released you will not need to update Woodford.
-
-To view your Woodford solution version, in a non-private Internet Explorer navigate to **Settings > Woodford > MobileCRM Woodford**
-
-![Mobile FAQs image3](media/Mobile-FAQs-image3.png)
-
-![Mobile FAQs image4](media/Mobile-FAQs-image4.png)
-
-Within the mobile project…
-
-![Mobile FAQs image5](media/Mobile-FAQs-image5.png)
+![Screenshot of the 11.1 app version](media/Mobile-FAQs-image2.png)
 
 >[!Note]
-> The Woodford published version CANNOT exceed the mobile app version. As an example, if you are using mobile app version 9.1, you cannot publish your Woodford mobile project to greater than 9.1
+> **Pro Tip:** You can download the latest version of Woodford and simply publish to a previous version that is compatible. For example, the org in the screenshots below has Woodford 11.1 installed, but the mobile project is published to 9.1 to accommodate the 9.1 release of Field Service mobile (2017). This is useful because when Field Service 11.1 is released, you will not need to update Woodford.
+
+To find your installed Woodford solution version number, open a non-private Internet Explorer window and navigate to **Settings > Woodford > MobileCRM Woodford**
+
+![Screenshot of the Woodford solution in the Dynamics 365 menu](media/Mobile-FAQs-image3.png)
+
+![Screenshot of the installed and available Woodford solution version numbers](media/Mobile-FAQs-image4.png)
+
+You can find the published version number by navigating to **Mobile projects**, as seen in the below screenshot. **Note**: the published Woodford version can't exceed your mobile app version. So, if you're using the mobile app version 9.1, you must publish your Woodford mobile project with version 9.1. 
+
+![Screenshot of the published Woodford version in mobile projects](media/Mobile-FAQs-image5.png)
