@@ -99,7 +99,7 @@ If your booking isn't appearing in offline mode, make sure it meets the sync fil
 
 ![Screenshot of the sync filter edit window](media/Mobile-FAQs-image20.png)  
 
-## 3) Drip scheduling is enabled for the related resource and the booking is outside the *bookings to drip* number parameter
+## 3. Drip scheduling is enabled for the related resource and the booking is outside the *bookings to drip* number parameter
 
 Drip scheduling makes it so the app will only display upcoming bookings, as current bookings are completed. For example, an administrator can choose to only display the next 2 bookings for a field technician.
 
