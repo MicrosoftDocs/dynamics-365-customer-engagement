@@ -47,7 +47,17 @@ The new experience lists the entities as follows, as compared to the legacy expe
 
 The difference between the legacy and the new experience can be explained with the help of the following scenario: 
 
-Contoso bike repair schedules repair services for their customers. To facilitate this process, they compile the following inputs:
+Contoso bike repair schedules repair services for their customers. To facilitate this process, Contoso needs to bring together the following information:
+
+- Geographical locations where they offer their services.
+- The personnel and equipment they have to perform those services. 
+- The types of bike repair services they offer. 
+- Work hours during which they perform their services. 
+- Capacity and expert level for all personnel.
+
+Contoso can benefit from the Service Scheduling feature by quickly catering to their customers with their repair services. With the various service scheduling entities, they can plan service activities for their customers by considering the availability of resources, facilities, and equipment. 
+
+The following example explains how the entities can be configured: 
 
  - **Define sites or organizational units**  </br>
    Sites are the locations where Contoso will provide service to their customers. In this example, Contoso bike repair is the site for service.
@@ -95,14 +105,25 @@ Contoso bike repair schedules repair services for their customers. To facilitate
    |![service-cs](media/service-cs.png)  |  ![service-csh](media/service-csh.png)   |
    |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a service (Customer Service app)](create-edit-service-cs-app.md)    |  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a service in Service Scheduling](create-edit-service-csh.md) |
    |   |         | 
+ 
+- **Create a service activity**  </br>
+   A service activity is defined to look for the next available time slot to schedule the service and align resources as per requirement. 
+
+   Contoso can now book the service for their customers in the service calendar or schedule board by selecting **Book** (Schedule in legacy) in the service activity.
+
+   |Legacy Service Scheduling  |New Service Scheduling  |
+   |---------|---------|
+   |![service-activity-cs](media/service-activity-cs.png)  |  ![service-activity](media/service-activity-csh.png)  |
+   |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity (Customer Service app)](schedule-service-activity-cs-app.md)  |  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md)|
+   |   |         | 
 
 - **Book the service in the service calendar or schedule board**  </br>
-  Contoso can now book the service for their customers in the service calendar or schedule board and mark it as either Open, Scheduled, or Completed as per its status.
+  The schedule board displays all the service configurations at one place to quickly schedule a service.
 
    |Legacy Service Scheduling  |New Service Scheduling  |
    |---------|---------|
    |![service-calendar](media/service-calendar-cs.png) | ![schedule-board](media/schedule-board-csh.png)  |
-   |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Navigate the service calendar (Customer Service app)](navigate-service-calendar-cs-app.md)   |   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md) </br>    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the schedule board to configure service activity](use-schedule-board-configure-service-activity.md)  |
+   |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Navigate the service calendar (Customer Service app)](navigate-service-calendar-cs-app.md)   |    </br>    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the schedule board to configure service activity](use-schedule-board-configure-service-activity.md)  |
    |   |         | 
 
 ## Set up the new scheduling experience
