@@ -28,10 +28,7 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-
-## Use the personal app
-
-The personal app integrates Dynamics 365 and Teams for your own use. If you want to work with other team members, consider the [team app](teams-collaboration.md).
+You can use the Dynamics 365 app for Teams for your own use. If you want to work with other team members, consider the [team app](teams-collaboration.md).
 
 ### Conversation tab
 
