@@ -41,6 +41,7 @@
 
 
 ## [Service Scheduling Guide](basics-service-service-scheduling.md)
+### [Manage security roles](manage-security-roles.md)
 ### Schedule entities
 #### [Resources](resources-service-scheduling.md)  
 #### [Resource Categories](resource-categories-service-scheduling.md)

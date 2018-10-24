@@ -36,10 +36,7 @@ With the Customer Engagement apps version 9.1 release, the new Service Schedulin
 
 The new experience lists the entities as follows, as compared to the legacy experience:
 
-|Legacy Service Scheduling  |New Service Scheduling  |
-|---------|---------|
-|**Settings > Service Scheduling** </br> - Business Closure </br> - Services  </br> - Facilities/Equipment </br> - Resource Groups </br> - Sites  |   **Customer Service Hub sitemap >   Service Scheduling**  </br>  Scheduling </br> - Resources </br> - Facilities/Equipment </br> - Resource Categories   </br> - Service </br> - Service Activity </br> Tools </br> - Schedule Board </br> Settings </br> - Organizational Units </br> - Business Closures  |
-|     |         |
+![legacy-new-service-scheduling](media/legacy-new.png)
 
 - Sites are now Organizational Units.
 - Resource Groups are now Resource Categories.
