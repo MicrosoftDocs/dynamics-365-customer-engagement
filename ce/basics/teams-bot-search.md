@@ -43,6 +43,9 @@ The Dynamics 365 app for Teams bot allows you to interact with Dynamics 365 (onl
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-bot-menu.png "Open the bot menu")
 
+..........new content to follow...........
+
+
 
 
 Once you've completed installing the Dynamics 365 Teams app, you're taken to the **Conversation** tab with the bot ready for use. If at any time in Teams you want to return to the personal app, select ... from the left-side menu, and then select **Dynamics 365 (Preview)**.
