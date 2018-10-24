@@ -41,33 +41,33 @@ See below for details about each of these possible reasons.
 
 When a dispatcher books a work order to a resource, this takes place on the server and may take time to update on the mobile application. The time it takes for the booking to show on the mobile application can depend on internet speeds, internet connection, and even configurations. For example, the mobile app can be configured to sync data from the server every X minutes, or only when connected to Wi-Fi.
 
-First, try manually syncing data from the server by selecting the sync button.
+First, try manually syncing data from the server by selecting the sync button in the mobile app.
 
-![Mobile FAQs image14](media/Mobile-FAQs-image14.png)  
+![Screenshot of the mobile application sync button](media/Mobile-FAQs-image14.png)  
 
-If you have trouble syncing, try going to **Setup > Delete Data > **Save** and sync again.
+If you have trouble syncing, try going to **Setup > Delete Data > **Save** in the mobile app, and sync again.
 
-![Mobile FAQs image15](media/Mobile-FAQs-image15.png)  
+![Screenshot of the Delete Data option on the setup screen](media/Mobile-FAQs-image15.png)  
 
-Finally, there are scenarios where forcing a full sync to the device can push changes that will allow the user to see bookings. One such scenario is a change in security roles.
+Additionally, there are some scenarios where forcing a full sync to the device from Field Service can push changes that will allow the user to see bookings; one such scenario is a change in security roles.
 
-To force a full sync to the device, in a non-private Internet Explorer browser as an administrator, navigate to **Settings > Woodford > MobileCRM Woodford.**
+To force a full sync to the device, open Field Service in a non-private Internet Explorer browser, log in as an administrator, and navigate to **Settings > Woodford > MobileCRM Woodford.**
 
-![Mobile FAQs image3](media/Mobile-FAQs-image3.png)
+![Screenshot of the Field Service settings menu](media/Mobile-FAQs-image3.png)
 
-Once in the Woodford interface, navigate to Security, find the user’s device and check Force Full Sync.
+Once in the Woodford interface, navigate to Security under the Admin menu, and find the user’s device. Check **Force Full Sync**.
 
-![Mobile FAQs image16](media/Mobile-FAQs-image16.png)  
+![Screenshot of the deivce in the security menu](media/Mobile-FAQs-image16.png)  
 
-Next, log into the mobile app with the same user and sync the device.
+Next, login to the mobile app with the same user and sync the device.
 
-For more information on Forcing Full Syncs, refer to the Woodford guide: <https://www.resco.net/downloads/Woodford_Guide.pdf>
+For more information on forcing full syncs, refer to [the Woodford guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf).
 
-### 2) You are in offline mode in the mobile app and the booking is outside the sync filters
+## 2. The application is in offline mode and the booking is outside the sync filters
 
-The Field Service mobile application is designed for offline scenarios. This means data is downloaded locally to the device when the user has internet access for later when the user will not have internet access. A common example is performing work in remote areas or in underground tunnels. Rather than download all data, a mobile administrator can create sync filters that will download a targeted portion of the data for offline use later. An example is only downloading this week’s work orders rather than all work orders.
+The Field Service mobile application is designed for offline scenarios. This means data is downloaded locally to the device when the user has internet access for later when the user may not have internet access. A common example is performing work in remote areas or in underground tunnels. 
 
-For information on sync filters, refer to the Woodford guide: <https://www.resco.net/downloads/Woodford_Guide.pdf>
+Rather than download all data, a mobile administrator can create sync filters that will download a targeted portion of the data for offline use later. For example, an admininstrator can make it so the app only downloads this week’s work orders (rather than all work orders). See [the Woodford guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf) for more information on sync filters.
 
 There are 2 ways to fix this.
 
@@ -75,44 +75,44 @@ The first way is to use the mobile application in online mode, because this give
 
 Log into the mobile app and select the online/offline mode icon.
 
-![Mobile FAQs image17](media/Mobile-FAQs-image17.png)  
+![Screenshot of the Field Service Mobile home screen, with an arrow pointing to the online mode icon](media/Mobile-FAQs-image17.png)  
 
-Select the icon to change it to the following icon to use the application in online mode
+Make sure the below icon appears, indicating online mode. 
 
-![Mobile FAQs image18](media/Mobile-FAQs-image18.png)  
+![Screenshot of the online mode icon](media/Mobile-FAQs-image18.png)  
 
-Then navigate to Bookings to view your bookings. Not this may take a few moments to load.
+Then navigate to **Bookings** to view your bookings. Note that this may take a few moments to load.
 
-A second way to fix this is to edit sync filters for offline mode.
+A second way to fix this is to edit the sync filters for offline mode.
 
-To edit sync filters for Bookings, in a non-private Internet Explorer browser as an administrator, navigate to **Settings > Woodford > MobileCRM Woodford.**
+To edit sync filters for Bookings, log into Field Service as an administrator in a non-private Internet Explorer browser, and navigate to **Settings > Woodford > MobileCRM Woodford.**
 
-![Mobile FAQs image3](media/Mobile-FAQs-image3.png)
+![Screenshot of Field Service settings menu](media/Mobile-FAQs-image3.png)
 
-Enter the mobile project and navigate to **Bookable Resource Bookings > Sync Filters**
+Select the mobile project and navigate to **Bookable Resource Bookings > Sync Filters** in the header menu.
 
-![Mobile FAQs image19](media/Mobile-FAQs-image19.png)  
+![Screenshot of the Sync filter option in the Woodford interface](media/Mobile-FAQs-image19.png)  
 
-This is where an administrator can decide what Bookings will be downloaded to the mobile application when in offline mode/without internet access.
+This is where an administrator can decide what bookings will download to the mobile application when the app is offline.
 
-If your booking is not showing in offline mode, make sure it meets the sync filter criteria or change the sync filter criteria
+If your booking isn't appearing in offline mode, make sure it meets the sync filter criteria (or change the sync filter criteria to match your needs).
 
-![Mobile FAQs image20](media/Mobile-FAQs-image20.png)  
+![Screenshot of the sync filter edit window](media/Mobile-FAQs-image20.png)  
 
-### 3) Drip scheduling is enabled for the related resource and the booking is outside the bookings to drip number parameter
+## 3) Drip scheduling is enabled for the related resource and the booking is outside the *bookings to drip* number parameter
 
-Drip scheduling is a feature that only displays the next bookings as current bookings are completed. An example is only displaying the next 2 bookings for a field technician.
+Drip scheduling makes it so the app will only display upcoming bookings, as current bookings are completed. For example, an administrator can choose to only display the next 2 bookings for a field technician.
 
 One reason you may not see bookings when you log into the mobile app is because drip scheduling may be preventing the booking.
 
-To fix this, navigate to **Field Service > Administration > Resources**
+To fix this, navigate to **Field Service > Administration > Resources**.
 
-![Mobile FAQs image21](media/Mobile-FAQs-image21.png)  
+![Screenshot of the Field Service administration menu](media/Mobile-FAQs-image21.png)  
 
-And find the resource related to the user you are attempting to log into the mobile app with.
+Find the resource related to the user you are attempting to log into the mobile app with.
 
-![Mobile FAQs image22](media/Mobile-FAQs-image22.png)  
+![Screenshot of the bookable resource detail page, highlighting the drip scheduling field](media/Mobile-FAQs-image22.png)  
 
-Under the Field Service section, set enable drip scheduling to No, or leave it to Yes and adjust the parameters.
+Under the Field Service section on the resource detail page, set enable drip scheduling to **No**, or leave it as yes and adjust the parameters.
 
-Then log into the mobile application and check if your Bookings are now showing
+Finally, log into the mobile application and check if your bookings are now showing.
