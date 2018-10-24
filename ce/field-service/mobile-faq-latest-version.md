@@ -2,7 +2,7 @@
 title: "What is the latest version of the mobile app and related Woodford version? Dynamics 365 for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/03/2018
+ms.date: 10/24/2018
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
