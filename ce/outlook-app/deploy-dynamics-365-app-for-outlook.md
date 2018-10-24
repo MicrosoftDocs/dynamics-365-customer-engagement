@@ -80,7 +80,7 @@ The Outlook App is not enabled on Common Data Service for Apps 2.0.
 
 4. In the **Business Management** tab, verify that **Mailbox** has **read/write** privileges. In the **Privacy Related Privileges** section, verify that **Use Dynamics 365 App for Outlook** is set to **Organization**. If not, click **Use Dynamics 365 App for Outlook**.
 
-5. In the **Customization** tab, verify that **User Application Metadata** has **read/write** privileges. Also verify that **Model-driven App**, **Entity**, **Field**, **Relationship**, **System Application Metadata**, **System Form** and **View** have **read** privilege.
+5. In the **Customization** tab, verify that **User Application Metadata** has **read/write** privileges. Also verify that **Entity**, **Field**, **Model-driven App**, **Relationship**, **System Application Metadata**, **System Form** and **View** have **read** privilege.
 
 ### Provide security role access 
 If you have custom security roles defined in Dynamics 365, users who have that security role assigned may not be able to access Dynamics 365 App for Outlook. In addition to the custom security role containing required privileges for App for Outlook, the security role needs to be bound to the App for Outlook App. In order to achieve this, follow the steps below:
