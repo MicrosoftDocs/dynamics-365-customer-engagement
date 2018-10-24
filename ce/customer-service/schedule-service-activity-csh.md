@@ -50,12 +50,14 @@ Make sure that you have the System Administrator or System Customizer security r
     - Select **Show Time As** either Requested or Tentative.
     - Provide the **Organizational Business Unit**.
 
+    ![create service activity](media/create-service-activity.png)
+
 5. Select **Save**.
 
 6. In the **Details** section:
 
-   - Look for records in the **Regarding** box to align a record. For example, this service activity can be regarding a case, knowledge article or more.
-   - Provide **Category** and **Sub-category** for the activity.
+     - Provide the **Owner** and **Priority**.
+     - Provide **Category** and **Sub-category** for the activity.
 
 7. In the **Bookable Resource Bookings** section:
 
@@ -72,12 +74,15 @@ Make sure that you have the System Administrator or System Customizer security r
 
       [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a booking for a service appointment](use-schedule-board-configure-service-activity.md#schedule-a-booking-for-a-service-appointment)
 
+
+      ![book-service-activity](media/book-service-activity.png)
+
 Additionally,
 
 - If the service activity has been completed by the resource, select **Mark Complete** from the command bar. 
 - Select **Close Service Activity** to close a service activity.
 
-  ![create service activity](media/create-service-activity.png)
+
 
 ### See also
 

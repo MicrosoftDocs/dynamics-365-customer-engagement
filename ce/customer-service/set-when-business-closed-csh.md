@@ -59,6 +59,6 @@ Make sure that you have the System Administrator or System Customizer security r
 6.  To save this business closure, select **OK**.  
   
 ### See also  
- [Set work hours to define availability](../customer-service/set-work-hours-resource.md)   
+ [Set work hours for the resources](resources-service-scheduling.md#set-work-hours-for-the-resources)
  [Set up a holiday schedule](../customer-service/set-up-holiday-schedule.md)   
  [Create a customer service schedule and define the work hours](../customer-service/create-customer-service-schedule-define-work-hours.md)

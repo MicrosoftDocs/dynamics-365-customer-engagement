@@ -93,4 +93,4 @@ Make sure that you have the System Administrator or System Customizer security r
 
 [Create and manage resource categories](resource-categories-service-scheduling.md)
  
-[Set work hours to define availability](set-work-hours-resource.md)
+[Set work hours for the resources](resources-service-scheduling.md#set-work-hours-for-the-resources)

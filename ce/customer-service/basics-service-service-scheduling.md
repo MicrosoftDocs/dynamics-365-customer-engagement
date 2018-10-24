@@ -84,7 +84,7 @@ The following example explains how the entities can be configured:
    |Service Scheduling  |
    |---------|---------|
    |   ![set-work-hours](media/set-work-hours-csh.png)     |
-   | [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set work hours to define availability](set-work-hours-resource.md)|
+   | [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set work hours for the resources](resources-service-scheduling.md#set-work-hours-for-the-resources)|
    |   |         |
   
  - **Define resource groups** </br>
