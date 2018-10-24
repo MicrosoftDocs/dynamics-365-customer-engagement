@@ -42,12 +42,12 @@
 # [Mobile apps for field technicians](field-service-mobile-app-user-guide.md)
 ## [Field Resource Hub user guide](field-resource-hub-users-guide.md)
 ## [Mixed reality integration with Remote Assist and HoloLens](remote-assist-hololens.md)
-## FAQs
-### [How do I extend my Woodford trial?](activate-fs-mobile-app-license.md)
+## FAQs + Troubleshooting
+### [How do I extend my Woodford trial?](fs-mobile-extend-woodford-trial.md)
 ### [What is the latest version of the mobile app and Woodford solution?](mobile-faq-latest-version.md)
-### [My mobile app will not sync to the server or it crashes immediately](mobile-faq-sync-crash.md)
+### [My mobile app will not sync to the server / crashes immediately](mobile-faq-sync-crash.md)
 ### [My booking is not showing when logged into the mobile app](mobile-faq-bookings-not-showing.md)
-### [Bookings not scheduled to me are showing when logged into the mobile app](mobile-faq-bookings-not-scheduled-to-me.md)
+### [Bookings not scheduled to me show up when logged into the mobile app](mobile-faq-bookings-not-scheduled-to-me.md)
 
 # Agreements and preventive maintenance
 ## [Customer agreements](set-up-customer-agreements.md)
