@@ -50,6 +50,17 @@ End users can find the Dynamics 365 app for Teams in the App store.
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-permissions-requested.png "Accept permissions")
 
+   You have a choice when adding Dynamics 365 to Microsoft Teams. You can enable features which integrates Dynamics 365 and Teams for your own use, and you can enable features that you can use to collaborate with your team members. We'll take the simplest approach and enable both.
+
+5. Verify that **Add for you** and **Add to team** are both set to **Yes**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-store-install-both75.png "Enable personal and team features")
+
+6. For **Add to a team**, choose a team to pin content and services to, and then select **Install**. 
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-store-install-add-team75.png "Add to team")
 
 Proceed to the next section - **Set up Teams tab**.
 
@@ -104,10 +115,10 @@ Set up the personal dashboard to interact with Dynamics 365 (online) when you do
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-pick-app.png "Open the Dynamics 365 app")
 
-2. Select a Dynamics 365 org and an app module to sync with Dynamics 365 (online), then choose **Save Changes**.
+2. Select a version 9.x org and a Unified Interface app to connect with Dynamics 365 (online), then choose **Save Changes**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/teams-mydashboard-app-org.png "Select or and app module")
+   > ![](media/teams-mydashboard-org-app.png "Select or and app module")
 
 3. Select the **My Dashboard** tab.
 
