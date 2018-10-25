@@ -1,5 +1,5 @@
 ---
-title: "Use the app for personal use| MicrosoftDocs"
+title: "Use the personal dashboard| MicrosoftDocs"
 ms.custom: ""
 description: "Use the personal app and bot."
 ms.date: 10/30/2018
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Use the app for personal use
+# Use the personal dashboard
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

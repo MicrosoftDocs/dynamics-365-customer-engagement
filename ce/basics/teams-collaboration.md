@@ -1,5 +1,5 @@
 ---
-title: "Use the app for collaboration| MicrosoftDocs"
+title: "Collaborate with Teams| MicrosoftDocs"
 ms.custom: ""
 description: "Use the personal app and bot."
 ms.date: 10/30/2018
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Use the app for collaboration
+# Collaborate with Teams
 
 ## Connect a Dynamics 365 (online) record to a Teams channel
 

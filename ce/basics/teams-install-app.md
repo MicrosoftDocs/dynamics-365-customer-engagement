@@ -60,6 +60,47 @@ End users can find the Dynamics 365 app for Teams in the App store.
 
    ![Search for and select Dynamics 365](media/teams-search-select-dynamics-365-app.png "Search for and select Dynamics 365")
 
+3. Select **Review permissions**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-review-permissions75.png "Review permissions")
+
+4. Read through the permissions and select **Accept**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-permissions-requested.png.png "Accept permissions")
+
+Proceed to the next section - **Set up Team tab**.
+
+## Set up integration features
+
+### Set up Team tab
+1. Select org/app module
+teams-tab-setup.png
+
+2. No record?
+
+3. Enter text and select record
+teams-tab-setup-select-record.png
+
+Your record is pinned as a tab in the Teams channel.
+teams-pinned-record.png
+
+
+### Set up bot
+
+### Set up personal dashboard
+1. welcome message
+2. go to settings tab to select org/app module
+
+### Dynamics 365 (online) setup
+1. system settings for admin
+
+......Now move on to use topic...........
+
+
+
+
 ## Install the app
 
 You have a choice when adding Dynamics 365 to Microsoft Teams. You can enable features which integrates Dynamics 365 and Teams for your own use, and you can enable features that you can use to collaborate with your team members. We'll take the simplest approach and enable both.
@@ -69,7 +110,7 @@ You have a choice when adding Dynamics 365 to Microsoft Teams. You can enable fe
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-store-install-both75.png "Enable personal and team features")
 
-2. For **Add to a team**, choose a team to pin content and services to, and the select **Install**. This installs the personal and team app.
+2. For **Add to a team**, choose a team to pin content and services to, and then select **Install**. 
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-store-install-add-team75.png "Add to team")

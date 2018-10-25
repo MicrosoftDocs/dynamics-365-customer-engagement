@@ -64,12 +64,12 @@
 ## [Send bulk email](../basics/send-bulk-email-customers.md)
 
 # [Collaboration](../basics/collaborate-with-team.md)
-## [Teams](../basics/teams-integration.md) 
-### [Install the app](teams-install-app.md)
-### Use the app
-#### [Team collaboration](teams-collaboration.md)
-#### [Search with bot](teams-bot-search.md)
-#### [Personal use](teams-personal-use.md)
+## [Microsoft Teams integration](../basics/teams-integration.md) 
+### [Install and setup](teams-install-app.md)
+### Use Teams integration
+#### [Collaborate with Team](teams-collaboration.md)
+#### [Use the bot](teams-bot-search.md)
+#### [Use personal dashboard](teams-personal-use.md)
 ### [Troubleshoot](teams-troubleshoot.md)
 ### [Delete personal data](teams-delete-data.md)
 ## [Yammer](../basics/collaborate-communicate-with-yammer.md)
