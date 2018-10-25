@@ -146,7 +146,7 @@ If these settings are not enabled, you can still use much of the Teams integrati
 
 
 
-
+<!--
 ## Install the app
 
 You have a choice when adding Dynamics 365 to Microsoft Teams. You can enable features which integrates Dynamics 365 and Teams for your own use, and you can enable features that you can use to collaborate with your team members. We'll take the simplest approach and enable both.
@@ -178,7 +178,7 @@ You have a choice when adding Dynamics 365 to Microsoft Teams. You can enable fe
 
 Teams is now connected with Dynamics 365 (online).
 
-<!--
+
    If you have multiple organizations or app modules, select **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which org or app module to use in Teams.
  
    ![Specify org and app](media/teams-change-org-app.png "Specify org and app")

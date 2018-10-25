@@ -42,27 +42,17 @@ Select the **Dynamics 365** icon to pin a Dynamics 365 record to a channel.
 
    ![Add Dynamics 365 Team channel](media/teams-add-channel.png "Add Dynamics 365 Team channel")
 
-.
-.
-.
-Start new content here.
-.
-.
-.
+Search for an entity to pin. You can use **Filter by** to narrow the search to an entity type. Select **Save**.
 
+   ![Search for entity](media/teams-add-channel-pin-record2.png "Search for entity")
 
-
-Search for an entity to pin. Use **Filter by** to narrow the search to an entity type. Select **Save**.
-
-   ![Search for entity](media/teams-add-channel-pin-record.png "Search for entity")
-
-   If you have multiple organizations or app modules, select **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which org or app module to use in Teams.
+In the above page, if you have multiple organizations or app modules, select **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which org or app module to use in Teams.
  
-   ![Specify org and app](media/teams-change-org-app.png "Specify org and app")
+![Specify org and app](media/teams-change-org-app.png "Specify org and app")
 
-   Enable **Remember this preference** to set the org and app selections to be the default personal dashboard that appears when you select **My Dashboard**.
+You can enable **Remember this preference** to set the org and app selections to be the default personal dashboard that appears when you select **My Dashboard**.
 
-   Use the **Settings** tab to change these settings any time.
+You can return to these settings any time by selecting the **Settings** tab.
 
 Once you complete the above steps, you'll see a notification of a successful connection and the Dynamics 365 (online) record appears in the menu bar.
 
@@ -71,20 +61,20 @@ Once you complete the above steps, you'll see a notification of a successful con
 
 ### Two connection states
 
-There are two connection states: successful and failed. The sole difference is file synchronization from Dynamics 365 (online) to Teams.
+There are two connection states possible when connecting Dynamics 365 (online) and Microsoft Teams: successful and failed. The sole difference is file synchronization from Dynamics 365 (online) to Teams.
 
 A successful connection means two-way communication now exists between Dynamics 365 (online) and Microsoft Teams. You can interact with the record as if you were using the Dynamics 365 web app and share files with the web app. Those with *Write* permissions can edit the record and changes will be synchronized with the Dynamics 365 web app. Also, file synchronization occurs between both apps.
 
 A failed connection means file synchronization is not set up between Microsoft Teams and Dynamics 365 (online). File changes in Dynamics 365 (online) are not synchronized with Teams. However, changes made to the record in Teams will update in Dynamics 365 (online). See: [Error: This record is not connected to Dynamics 365. Repin the tab and try again.](teams-troubleshoot.md#error-this-record-is-not-connected-to-dynamics-365-repin-the-tab-and-try-again)
 
-### Files tab
+### View and associate files
 
-Select the connected channel **Files** tab in the Teams app to associate files with a Dynamics 365 (online) record. Files added here will appear in Dynamics 365 (online) under **Documents** for the linked record. Likewise, when you add a document to a record in Dynamics 365 (online), that document will appear in Teams under the **Files** tab.
+Select the  **Files** tab in the connected Teams channel to associate files with a Dynamics 365 (online) record. Files added here will appear in Dynamics 365 (online) under **Documents** for the linked record. Likewise, when you add a document to a record in Dynamics 365 (online), that document will appear in Teams under the **Files** tab.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-files-tab.png "File tab in team app")
 
-### Open record in Dynamics 365 (online)
+### Open a record in Dynamics 365 (online)
 
 It's easy to use Teams to open a record in Dynamics 365 (online). From a record pinned in a Teams channel, select the **Go to website** button to open the record in Dynamics 365 (online).
 
