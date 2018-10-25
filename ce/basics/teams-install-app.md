@@ -30,7 +30,7 @@ search.app:
 
 
 
-## Find the app in the App Store
+## Install the app from the App Store
 
 End users can find the Dynamics 365 app for Teams in the App store.
 
@@ -53,19 +53,33 @@ End users can find the Dynamics 365 app for Teams in the App store.
    > ![](media/teams-permissions-requested.png "Accept permissions")
 
 
-Proceed to the next section - **Set up Team tab**.
+Proceed to the next section - **Set up Teams tab**.
 
-## Set up Team tab
-1. Select org/app module
-teams-tab-setup.png
+## Set up Teams tab
+Once the Dynamics 365 app for Teams is installed in the above steps, set up the Teams tab with Dynamics 365.
 
-2. No record?
+These steps assume you're proceeding directly from the above steps. You can do this configuration at any time by selecting ... from the left-side menu, selecting **Dynamics 365**, and then selecting **Settings**.
 
-3. Enter text and select record
-teams-tab-setup-select-record.png
+1. Select a Dynamics 365 org and an app module to sync with Dynamics 365 (online), then choose **Select**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-tab-setup.png "Select org and app module")
+
+2. If there are no recently visited records, you'll need to enter an entity to search for.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-didnt-find-mru.png "Need to search for entity")
+
+3. Enter text, for example "Contoso", select the record from the list, and then select **Save**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-tab-setup-select-record.png "Select entity")
+
 
 Your record is pinned as a tab in the Teams channel.
-teams-pinned-record.png
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-pinned-record.png "Pinned record")
 
 
 ## Set up bot
