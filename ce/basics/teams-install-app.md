@@ -28,8 +28,6 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-
-
 ## Install the app from the App Store
 
 End users can find the Dynamics 365 app for Teams in the App store.
@@ -55,8 +53,8 @@ End users can find the Dynamics 365 app for Teams in the App store.
 
 Proceed to the next section - **Set up Teams tab**.
 
-## Set up Teams tab
-Once the Dynamics 365 app for Teams is installed in the above steps, set up the Teams tab with Dynamics 365.
+## Set up the Teams tab
+Once the Dynamics 365 app for Teams is installed in the above steps, set up the Teams tab to synchronize with Dynamics 365.
 
 These steps assume you're proceeding directly from the above steps. You can do this configuration at any time by selecting ... from the left-side menu, selecting **Dynamics 365**, and then selecting **Settings**.
 
@@ -81,10 +79,22 @@ Your record is pinned as a tab in the Teams channel.
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-pinned-record.png "Pinned record")
 
+## Set up the Dynamics 365 app for Teams bot
+Set up the bot to interact with Dynamics 365 (online).
 
-## Set up bot
+1. Open the Dynamics 365 app.
 
-## Set up personal dashboard
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-pick-app.png "Open the Dynamics 365 app")
+
+2. Sign in to the app.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-bot-welcome.png "Sign in to the bot")
+
+See [Use the bot](teams-bot-search.md) for information on how you can use the bot to interact with Dynamics 365 (online).
+
+## Set up the personal dashboard
 
 1. welcome message
 2. go to settings tab to select org/app module
