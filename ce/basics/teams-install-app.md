@@ -28,25 +28,7 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-## For Dynamics 365 (online) admins: enable Microsoft Teams integration Preview features
 
-Because this is a preview feature, you can control whether to display certain Teams integration features. For full Teams integration, the Dynamics 365 (online) admin should enable two settings.
-
-1. Sign in as a System administrator to Dynamics 365 (online).
-2. Go to **Settings** > **Administration** > **System Settings** > **Previews** tab.
-3. Enable **Microsoft Teams Integration Preview** and **Dynamics 365 bot in Microsoft Teams Preview**.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/teams-system-settings.png "Enable preview settings")
-
-The following table describes what happens when each feature is enabled.
-
-|Setting  |When enabled |
-|---------|---------|
-|Microsoft Teams Integration Preview   | When enabled, the **Collaborate** button appears on records in Dynamics 365 (online) so you can see the connected team channel. In addition, in the **Documents** tab, files synchronized with Teams will appear.         |
-|Dynamics 365 bot in Microsoft Teams Preview     | When enabled, the bot appears in Microsoft Teams in the **Conversation** tab in the Dynamics 365 Teams app.  |
-
-If these settings are not enabled, you can still use much of the Teams integration with Dynamics 365 (online); the above features will be absent.
 
 ## Find the app in the App Store
 
@@ -73,9 +55,7 @@ End users can find the Dynamics 365 app for Teams in the App store.
 
 Proceed to the next section - **Set up Team tab**.
 
-## Set up integration features
-
-### Set up Team tab
+## Set up Team tab
 1. Select org/app module
 teams-tab-setup.png
 
@@ -88,16 +68,32 @@ Your record is pinned as a tab in the Teams channel.
 teams-pinned-record.png
 
 
-### Set up bot
+## Set up bot
 
-### Set up personal dashboard
+## Set up personal dashboard
+
 1. welcome message
 2. go to settings tab to select org/app module
 
-### Dynamics 365 (online) setup
-1. system settings for admin
+## For Dynamics 365 (online) admins: enable Microsoft Teams integration Preview features
 
-......Now move on to use topic...........
+Because this is a preview feature, you can control whether to display certain Teams integration features. For full Teams integration, the Dynamics 365 (online) admin should enable two settings.
+
+1. Sign in as a System administrator to Dynamics 365 (online).
+2. Go to **Settings** > **Administration** > **System Settings** > **Previews** tab.
+3. Enable **Microsoft Teams Integration Preview** and **Dynamics 365 bot in Microsoft Teams Preview**.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/teams-system-settings.png "Enable preview settings")
+
+The following table describes what happens when each feature is enabled.
+
+|Setting  |When enabled |
+|---------|---------|
+|Microsoft Teams Integration Preview   | When enabled, the **Collaborate** button appears on records in Dynamics 365 (online) so you can see the connected team channel. In addition, in the **Documents** tab, files synchronized with Teams will appear.         |
+|Dynamics 365 bot in Microsoft Teams Preview     | When enabled, the bot appears in Microsoft Teams in the **Conversation** tab in the Dynamics 365 Teams app.  |
+
+If these settings are not enabled, you can still use much of the Teams integration with Dynamics 365 (online); the above features will be absent.
 
 
 
