@@ -79,6 +79,8 @@ Your record is pinned as a tab in the Teams channel.
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-pinned-record.png "Pinned record")
 
+See [Collaborate with Teams](teams-collaboration.md) for information on how you can use the Teams tab to interact with Dynamics 365 (online).
+
 ## Set up the Dynamics 365 app for Teams bot
 Set up the bot to interact with Dynamics 365 (online).
 
@@ -95,9 +97,21 @@ Set up the bot to interact with Dynamics 365 (online).
 See [Use the bot](teams-bot-search.md) for information on how you can use the bot to interact with Dynamics 365 (online).
 
 ## Set up the personal dashboard
+Set up the personal dashboard to interact with Dynamics 365 (online) when you don't need to collaborate with other team members.
 
-1. welcome message
-2. go to settings tab to select org/app module
+1. Open the Dynamics 365 app.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-pick-app.png "Open the Dynamics 365 app")
+
+2. Select a Dynamics 365 org and an app module to sync with Dynamics 365 (online), then choose **Save Changes**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-mydashboard-app-org.png "Select or and app module")
+
+3. Select the **My Dashboard** tab.
+
+See [Use the personal dashboard](teams-personal-use.md) for information on you can use **My Dashboard**.
 
 ## For Dynamics 365 (online) admins: enable Microsoft Teams integration Preview features
 
