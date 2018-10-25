@@ -59,23 +59,29 @@ Make sure that you have the System Administrator or System Customizer security r
 
 5. In the **Resource Requirements** section, define the selection criteria.
 
-    - Here, the service forms the root node:
-      - Add a new requirement subgroup by selecting **Subgroup**. You can add subgroups inside a subgroup.
-      - Add a new resource requirement by selecting **Requirement**.
+    - Here, the new service record forms the root node. In the root node, you can:
+      - Select **All** or **Any**. All selects resources for all the underlying requirements and Any selects resources for any one of underlying requirement.
+      - Select **Duration**, and enter the duration in minutes to define the duration for which resources are allocated for the service. 
 
-   - In **Duration**, enter the duration to define how long the service lasts. This can be changed when the service activity is created. 
+        > [!NOTE]
+        > The maximum duration of an appointment or service activity is 10 days.
 
-     > [!NOTE]
-     > The maximum duration of an appointment or service activity is 10 days.
+      - Lookup or quick create a **Fulfillment Preference** to define the start time and end time of the service availability in a day and intervals in which it is provided. You can also choose from a list of fulfillment preferences displayed. 
+        > [!NOTE]
+        > When you select create, a **Quick Create** form is displayed where you can quickly create a new fulfillment preference.
+
+     After configuring details in the root node: </br>
+        
+    - Add a new requirement subgroup by selecting **Subgroup**. You can add subgroups inside a subgroup.
+    - Add a new resource requirement by selecting **Requirement**. 
+
    - Choose whether the service is **Part of Same** organizational unit, resource tree or location.
-   - Lookup or quick create a **Fulfillment Preference**. You can also choose from a list of fulfillment preferences displayed. 
-     > [!NOTE]
-     > When you select create, a **Quick Create** form is displayed where you can quickly create a new fulfillment preference.
-   - Specify the **Organizational Unit**.
-   - Add **Resource Categories**  and define **Resource Characteristics**.
-   - Add **Preferred Resource**. 
+  
+   - Specify the **Organizational Unit** to define the unit to which the selected resource should belong to.
+   - Add **Resource Categories**  and define **Resource Characteristics** to define the categories for the resource.
+   - Add **Preferred Resource** to display resource options.
    - Define **Sort Option** to sort according to most and least business impact.
-   - Provide **Effort Required**. While booking, this option helps you view all the resources who satify the effort requirement. For example, if the effort required is defined as 100, only the resources with the rating value of 100 and more will be displayed in the list while booking the service in the schedule board.
+   - Provide **Effort Required**. While booking, this option helps you view all the resources who satify the minimum effort requirement. For example, if the effort required is defined as 100, only the resources with the rating value of 100 and more will be displayed in the list while booking the service in the schedule board.
 
    You can add complexity to a rule by adding a subrule to it.  
 
