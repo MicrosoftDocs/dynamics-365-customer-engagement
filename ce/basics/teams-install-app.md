@@ -63,12 +63,13 @@ End users can find the Dynamics 365 app for Teams in the App store.
 3. Select **Review permissions**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/teams-review-permissions75.png "Review permissions")
+   > ![](media/teams-review-premissions75.png "Review permissions")
 
 4. Read through the permissions and select **Accept**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/teams-permissions-requested.png.png "Accept permissions")
+   > ![](media/teams-permissions-requested.png "Accept permissions")
+
 
 Proceed to the next section - **Set up Team tab**.
 
