@@ -76,10 +76,10 @@ Note: You can do this configuration at any time by selecting ... from the left-s
 
 See [Collaborate with Teams](teams-collaboration.md) for information on how you can use the Teams tab to interact with Dynamics 365 (online).
 
-Proceed to the next section - **Set up the Dynamics 365 app for Teams bot**.
+Next, set up the Dynamics 365 app for Teams bot feature.
 
 ## Set up the Dynamics 365 app for Teams bot
-Set up the bot to interact with Dynamics 365 (online).
+Set up the bot feature to interact with Dynamics 365 (online).
 
 1. Open the Dynamics 365 app.
 

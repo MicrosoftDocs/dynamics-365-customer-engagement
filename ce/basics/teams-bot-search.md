@@ -28,47 +28,27 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Dynamics 365 app for Teams bot allows you to interact with Dynamics 365 (online) to find and display the records within Microsoft Teams. 
+The Dynamics 365 app for Teams bot feature allows you to interact with Dynamics 365 (online) to find and display the records within Microsoft Teams. 
 
 1. Open the Dynamics 365 app.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-pick-app.png "Open the Dynamics 365 app")
 
-2. Select the **Conversations** tab. Type in something to search, like "adventure works", and then press the **Enter** key.
+2. Select the **Conversations** tab. Type in something to search, like "search opportunity smart switch", and then press **Enter**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/teams-search-typed.png "Type in something to search in Dynamics 365")
+   > ![](media/teams-search-contoso.png "Type in something to search in Dynamics 365")
 
-     A list of records from Dynamics 365 that relate to your search text are returned.
+A list of records from Dynamics 365 that relate to your search text are returned. In this case, an opportunity is returned.
 
-3. You can use the bot menu to do some other app related things.
+> [!div class="mx-imgBorder"] 
+> ![](media/teams-search-typed.png "Type in something to search in Dynamics 365")
+
+The details of the selected record are displayed. You can update the details of the opportunity as if you were in the web app.
+
+You can also use the bot menu to do some other app related things.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-bot-menu.png "Open the bot menu")
 
-..........new content to follow...........
-
-
-
-
-Once you've completed installing the Dynamics 365 Teams app, you're taken to the **Conversation** tab with the bot ready for use. If at any time in Teams you want to return to the personal app, select ... from the left-side menu, and then select **Dynamics 365 (Preview)**.
-
-A Welcome message appears in the **Conversation** tab page. Select **Sign in**.
-
-![Bot Welcome page](media/teams-bot-welcome.png "Bot Welcome page")
-
-You can search to find records of interest. For example, search for Contoso records.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/teams-first-bot2.png "Search for Contoso records")
-
-Search returns a list of related Dynamics 365 records. Select a record to see details.
-
-![Search returns a list of records](media/teams-bot-search.png "Search returns a list of records")
-
-The details of the selected record are displayed in the personal app bot. You can select an activity to view and edit related record details. For example, select **Show Opportunities** to see opportunities for the Contoso account.
-
-![See related details and records](media/teams-bot-record-quick-action.png "See related details and records")
-
-You can update the details of the records in the personal app.

@@ -30,12 +30,12 @@ search.app:
 
 Once installed, the Dynamics 365 app for Teams enables collaborating with others through Dynamics 365 record connections made in teams and channels in Microsoft Teams.
 
-## Connect a Dynamics 365 (online) record to a Teams channel
+## Connect a Dynamics 365 (online) record to a team channel
 
-From a Teams channel, you can connect a Dynamics 365 record to collaborate on a customer account, an opportunity, etc. When you installed the Dynamics 365 app for Teams, you added (pinned) a record to a Teams channel as a tab. You can repeat this process any time as follows.
+From a team channel, you can connect a Dynamics 365 record to collaborate on a customer account, an opportunity, etc. When you installed the Dynamics 365 app for Teams, you added (pinned) a record to a team channel as a tab. You can repeat this process any time as follows.
 
 
-1. Open a Teams channel and select the **Add** button (![Add button](media/plus-2.png "Add button")).
+1. Open a team channel and select the **Add** button (![Add button](media/plus-2.png "Add button")).
 
    ![Select Add button](media/teams-add-tab.png "Select Add button")
 
@@ -55,7 +55,7 @@ From a Teams channel, you can connect a Dynamics 365 record to collaborate on a 
 
    You can return to these settings any time by selecting the **Settings** tab.
 
-Once you complete the above steps, you'll see a notification of a successful connection and the Dynamics 365 (online) record appears in the menu bar. You can interact with the record as if you were using the Dynamics 365 web app. Those with Write permissions can edit the record; changes will be synchronized with the Dynamics 365 web app.
+Once you complete the above steps, you'll see a notification of a successful connection and the Dynamics 365 (online) record appears in the menu bar. You can interact with the record as if you were using the Dynamics 365 web app. Those with Write permissions can edit the record. Changes will be synchronized with the Dynamics 365 web app.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-pinned-record.png "Record successfully connected and pinned")
@@ -107,4 +107,27 @@ The record has been pinned to multiple Teams channels. In Dynamics 365 (online),
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-change-document-location.png "Change document location")
 
+### Record types supporting Collaborate    
 
+Currently, the following record types support using **Collaborate**. The **Collaborate** button will not appear for record types not listed below.
+
+- account
+- annotation
+- appointment
+- businessunit
+- campaign
+- category
+- competitor
+- contact
+- email
+- incident
+- kbarticle
+- knowledgearticle
+- lead
+- opportunity
+- opportunityproduct
+- product
+- quote
+- salesorder
+- task
+- team
