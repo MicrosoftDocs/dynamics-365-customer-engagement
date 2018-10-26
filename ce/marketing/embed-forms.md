@@ -34,9 +34,8 @@ search.app:
 > [!NOTE]
 > You can't embed subscription center or forward-to-a-friend forms in external pages. For these, you must use a native [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] marketing page.
 
-
 > [!NOTE]
-> You can't assign external pages to marketing-page tiles in customer journeys. That means that you must use native [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] marketing pages for inbound campaigns, and if you want a customer-journey trigger to react to landing-page clicks and submissions. However, you *can* create a marketing email that includes a standard link to an external landing page and then set a customer-journey trigger to react to link clicks from that message.
+> You can't assign external pages to marketing-page tiles in customer journeys. That means that you must use native [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]  if you want a customer-journey trigger to react to landing-page clicks and submissions. However, you *can* create a marketing email that includes a standard link to an external landing page and then set a customer-journey trigger to react to link clicks from that message. If you want to use an externally hosted form to [launch an inbound campaign](create-inbound-customer-journey.md), then create a customer journey that starts with an [interaction segment](segments-interaction.md) that is based on form-submit interactions, and configure the segment to find interactions with your specific form ID.
 
 To set up a form for use on an external website:
 
