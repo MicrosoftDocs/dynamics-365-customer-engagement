@@ -2,7 +2,7 @@
 title: "Why can't I see my bookings when logged into the app? Dynamics 365 for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/03/2018
+ms.date: 10/25/2018
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -45,7 +45,7 @@ First, try manually syncing data from the server by selecting the sync button in
 
 ![Screenshot of the mobile application sync button](media/Mobile-FAQs-image14.png)  
 
-If you have trouble syncing, try going to **Setup > Delete Data > **Save** in the mobile app, and sync again.
+If you have trouble syncing, try going to **Setup > Delete Data > **Save** in the mobile app, and sync again. This will erase any data that is stored locally on the device. 
 
 ![Screenshot of the Delete Data option on the setup screen](media/Mobile-FAQs-image15.png)  
 
@@ -75,7 +75,11 @@ The first way is to use the mobile application in online mode, because this give
 
 Log into the mobile app and select the online/offline mode icon.
 
-![Screenshot of the Field Service Mobile home screen, with an arrow pointing to the online mode icon](media/Mobile-FAQs-image17.png)  
+![Screenshot of the Field Service Mobile home screen, with an arrow pointing to the online mode icon](media/Mobile-FAQs-image17.png) 
+
+If the icon below appears, you're in offline mode.
+
+![Screenshot of the offline mode icon](mobile-offline-mode-icon.png)
 
 Make sure the below icon appears, indicating online mode. 
 
