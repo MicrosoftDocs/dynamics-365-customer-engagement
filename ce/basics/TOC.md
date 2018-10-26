@@ -67,9 +67,9 @@
 ## [Microsoft Teams integration](../basics/teams-integration.md) 
 ### [Install and setup](teams-install-app.md)
 ### Use Teams integration
-#### [Collaborate with Team](teams-collaboration.md)
+#### [Collaborate with Teams](teams-collaboration.md)
 #### [Use the bot](teams-bot-search.md)
-#### [Use personal dashboard](teams-personal-use.md)
+#### [Use the personal dashboard](teams-personal-use.md)
 ### [Troubleshoot](teams-troubleshoot.md)
 ### [Delete personal data](teams-delete-data.md)
 ## [Yammer](../basics/collaborate-communicate-with-yammer.md)

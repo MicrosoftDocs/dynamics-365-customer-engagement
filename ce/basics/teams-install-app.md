@@ -40,27 +40,31 @@ End users can find the Dynamics 365 app for Teams in the App store.
 
    ![Search for and select Dynamics 365](media/teams-search-select-dynamics-365-app.png "Search for and select Dynamics 365")
 
-3. Select **Review permissions**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![](media/teams-review-premissions75.png "Review permissions")
-
-4. Read through the permissions and select **Accept**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![](media/teams-permissions-requested.png "Accept permissions")
+3. Verify that **Add for you** and **Add to team** are both set to **Yes**.
 
    You have a choice when adding Dynamics 365 to Microsoft Teams. You can enable features which integrates Dynamics 365 and Teams for your own use, and you can enable features that you can use to collaborate with your team members. We'll take the simplest approach and enable both.
-
-5. Verify that **Add for you** and **Add to team** are both set to **Yes**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-store-install-both75.png "Enable personal and team features")
 
-6. For **Add to a team**, choose a team to pin content and services to, and then select **Install**. 
+4. For **Add to a team**, choose a team to pin content and services to, and then select **Install**. 
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-store-install-add-team75.png "Add to team")
+
+5. Select **Review permissions**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-review-premissions75.png "Review permissions")
+
+6. Read through the permissions and select **Accept**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-permissions-requested.png "Accept permissions")
+
+
+
+
 
 Proceed to the next section - **Set up Teams tab**.
 
