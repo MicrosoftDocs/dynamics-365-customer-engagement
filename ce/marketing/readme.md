@@ -78,7 +78,7 @@ This document provides important, late-breaking information about known issues a
 - If you reuse the same email multiple times (within the same journey or in different journeys) you will see incorrect performance results on its **Insights** pages.
 - Many email templates have placeholder images. You should replace these placeholder images with actual images so that marketing emails look professional.
 - For certain organizations that upgraded recently, test send may not work. If you encounter this issue, please contact Microsoft Support.<!-- 1267485 -->
-- The email designer requires that you be very careful when entering code for advanced dynamic content. It's easy to produce non-working code. If you want to use this feature, be sure to review the notes given in [How to enter code in the designer](dynamic-email-content.md)
+- The email designer requires that you be very careful when entering code for advanced dynamic content. It's easy to produce non-working code. If you want to use this feature, be sure to review the notes given in [How to enter code in the designer](dynamic-email-content.md#enter-code)
 
 ### Fixed issues
 
