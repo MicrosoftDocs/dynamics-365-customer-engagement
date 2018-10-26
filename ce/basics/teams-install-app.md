@@ -28,9 +28,7 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-## Install the app from the App Store
-
-End users can find the Dynamics 365 app for Teams in the App store.
+## Install the app and set up the Teams tab
 
 1. In Microsoft Teams, select **Store**. 
 
@@ -62,47 +60,23 @@ End users can find the Dynamics 365 app for Teams in the App store.
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-permissions-requested.png "Accept permissions")
 
-7. You'll see a list of recently viewed records, if any exist. You can also search for records and use **Filter by** to narrow the search to an entity type. Select **Save** when done.
+7. You'll see a list of recently viewed records, if any exist. You can also type in records to search for and use **Filter by** to narrow the search to an entity type. Once you pick a record, select **Save**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-add-channel-pin-record2.png "Search for entity")
 
-   If you have multiple organizations or app modules, select **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which org or app module to use in Teams.
+   Note: If you have multiple organizations or app modules, select **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which org or app module to use in Teams.
+
+After completing the above steps, you'll see a notification of a successful connection and the Dynamics 365 (online) record appears in the menu bar.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-pinned-record.png "Record successfully connected and pinned")
 
-You'll see a notification of a successful connection and the Dynamics 365 (online) record appears in the menu bar.
-
-Proceed to the next section - **Set up Teams tab**.
-
-## Set up the Teams tab
-Once the Dynamics 365 app for Teams is installed in the above steps, set up the Teams tab to synchronize with Dynamics 365.
-
-These steps assume you're proceeding directly from the above steps. You can do this configuration at any time by selecting ... from the left-side menu, selecting **Dynamics 365**, and then selecting **Settings**.
-
-1. Select a Dynamics 365 org and an app module to sync with Dynamics 365 (online), then choose **Select**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![](media/teams-tab-setup.png "Select org and app module")
-
-2. If there are no recently visited records, you'll need to enter an entity to search for.
-
-   > [!div class="mx-imgBorder"] 
-   > ![](media/teams-didnt-find-mru.png "Need to search for entity")
-
-3. Enter text, for example "Contoso", select the record from the list, and then select **Save**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![](media/teams-tab-setup-select-record.png "Select entity")
-
-
-Your record is pinned as a tab in the Teams channel.
-
-   > [!div class="mx-imgBorder"] 
-   > ![](media/teams-pinned-record.png "Pinned record")
+Note: You can do this configuration at any time by selecting ... from the left-side menu, selecting **Dynamics 365**, and then selecting **Settings**.
 
 See [Collaborate with Teams](teams-collaboration.md) for information on how you can use the Teams tab to interact with Dynamics 365 (online).
+
+Proceed to the next section - **Set up the Dynamics 365 app for Teams bot**.
 
 ## Set up the Dynamics 365 app for Teams bot
 Set up the bot to interact with Dynamics 365 (online).
@@ -134,7 +108,7 @@ Set up the personal dashboard to interact with Dynamics 365 (online) when you do
 
 3. Select the **My Dashboard** tab.
 
-See [Use the personal dashboard](teams-personal-use.md) for information on you can use **My Dashboard**.
+See [Use the personal dashboard](teams-personal-use.md) for information on how you can use **My Dashboard**.
 
 ## For Dynamics 365 (online) admins: enable Microsoft Teams integration Preview features
 

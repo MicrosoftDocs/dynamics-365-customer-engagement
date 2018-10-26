@@ -48,51 +48,7 @@ The Dynamics 365 app in Teams provides the following:
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-intro.png "Features of Teams app")
 
-
-
-
-<!--
-
-There are two areas of integration: 
-- The Dynamics 365 app installed in Microsoft Teams
-- In Dynamics 365 (online), you can see the connected Microsoft Teams channel and files synchronized between Teams app and Dynamics 365 (online)
-
-## Dynamics 365 app in Teams
-The Dynamics 365 (online) tab, when added to a Teams channel, provides a fully functional page in which you edit information and navigate to related records; all this without leaving Teams.
-
-   > [!div class="mx-imgBorder"] 
-   > ![](media/teams-pinned-record2.png "Dynamics 365 record tab")
-
-You can also use the Dynamics 365 bot to look up and make a quick update on any record. The bot essentially brings Dynamics 365 (online) to you in a chat format.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/teams-bot-welcome2.png "Use Dynamics 365 bot")
-
-For more information on installing and configuring the personal app and bot, see: [Install the personal and team apps](install-personal-team-apps.md#install-the-personal-and-team-apps). 
-
-## Teams integration in Dynamics 365 (online)
-
-In Dynamics 365 (online) records, select **Collaborate** to display a list of all the connected team channels. Then, select a team channel to go to the relevant channel conversation in Teams.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/teams-select-collaborate.png "From Dynamics 365, open a conversation in Teams")
-
-In addition, document management actions in Dynamics 365 (online) are integrated with Teams. You can see the channel file library in Dynamics 365 (online) and directly upload files; uploaded files will appear in the Teams channel file library under the **Files** tab. Files uploaded in the Teams app will appear in the **Documents** tab in Dynamics 365 (online).
-
-> [!div class="mx-imgBorder"] 
-> ![](media/teams-documents-d365.png "Dynamics 365 document management in Teams")
-
-### If you see this message: Shared files exist in multiple locations. Select "Document Location" to see files in other locations.
-
-> [!div class="mx-imgBorder"] 
-> ![](media/teams-error-multiple-locations.png "Shared files in multiple locations")
-
-The record has been pinned to multiple Teams channels. In Dynamics 365 (online), select **Document Location** to specify the location of the file. 
-
-> [!div class="mx-imgBorder"] 
-> ![](media/teams-change-document-location.png "Change document location")
-
--->
+The Dynamics 365 app for Teams, when installed into a Teams channel, provides a fully functional page in which you can edit information and navigate to related records - all this without leaving Teams.
 
 ## Privacy notice
 

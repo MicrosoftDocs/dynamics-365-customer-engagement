@@ -24,6 +24,10 @@ search.app:
 ---
 # Use the bot
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 The Dynamics 365 app for Teams bot allows you to interact with Dynamics 365 (online) to find and display the records within Microsoft Teams. 
 
 1. Open the Dynamics 365 app.
