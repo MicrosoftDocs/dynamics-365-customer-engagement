@@ -64,7 +64,7 @@ This document provides important, late-breaking information about known issues a
 - The **Save** button isn't visible on the command bar after the initial save of the segment. Use the **Save** button in the lower-right corner of the page instead. <!-- 862491 -->
 - When trying to estimate the size of a segment where the query doesn't end in a contact, the system displays a server communication error. To correct this error, make sure your segment definition ends with a clause that links to the contact entity as described in [Design profile-based dynamic segments](segments-profile.md). <!-- 1226384 -->
 - When you're adding members to a static segment, you can filter the list of available contacts to find the ones you want to add. Sometimes, after adding some filters and selecting **Apply**, the segment definition may stop showing its members. To fix this, save the segment, go back to the segment list, and then reopen it; you should now see the list of members and can continue working on it. <!-- 1282842 -->
-
+- Static segments can contain
 
 ### Fixed issues
 
@@ -90,6 +90,7 @@ This document provides important, late-breaking information about known issues a
 - Marketing pages from the sample data might not go live for some organizations (especially on Italian or Japanese localizations). But you can still create new pages and go live with them. <!-- 1156824 -->
 - Forms submitted over HTTP (not HTTPS) generate interaction records that don't include the contact ID, which means these interactions can't be used in interaction-based segments. If you are hosting a form on an external page (not hosted on a Dynamics 365 marketing page), then make sure your page uses HTTPS.
 - Some client-side malware protection tools parse each incoming email, resolve all the links it contains, and then deliver a modified message in which the links have been replaced with their resolved destinations. This process can interfere with the mechanism that Dynamics 365 uses to identify the contact that has clicked on a subscription center link, which means the subscription center won’t work for these contacts. We are working on a fix for this issue.
+- The default lead-matching strategy for landing pages matches email address and landing-page ID. Currently, a limitation in the UI means that it's not possible to add the landing-page ID to any new or existing lead-matching strategy. Therefore, you shouldn't remove this attribute from the provided default lead-matching strategy unless you are sure you will never use this kind of strategy. More information: [Set matching strategies](marketing-settings.md#matching-strategy) <!-- 1309673 -->
 
 ## Lead scoring and management
 
@@ -113,7 +114,6 @@ This document provides important, late-breaking information about known issues a
 - When you add a video to a marketing page, the **Designer** tab shows it as a thumbnail image rather than as an embedded video in an iframe. However, the embedded video iframe will still be shown correctly on the live page when you publish it. <!-- Provided as a tip -->
 - When you add a video to a marketing page or email, its thumbnail isn't shown on the **Preview** tab of the designer. However, the video is embedded correctly and will be shown in delivered emails and live marketing pages. <!-- 1277775 -->
 
-
 ## Social listening for campaigns
 
 - The [social listening feature](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/dynamics365-marketing/marketing/social-listening-campaigns) currently requires that you set it up manually as described in [Integrate Social Engagement with Dynamics 365](../social-engagement/integrate-social-engagement-dynamics-365.md). We will soon roll out a smoother setup experience fine-tuned for the Marketing app. Keep an eye on the [Dynamics 365 Customer Engagement Team Blog](https://blogs.msdn.microsoft.com/crm/) for updates.
@@ -124,3 +124,4 @@ This document provides important, late-breaking information about known issues a
 - If you have different Dynamics 365 sessions open in other browser windows or tabs, and then open the Marketing app in the same browser, it will authenticate using the same user that you have open in the other sessions. We recommend that you restart the browser each time you need to sign in using a different Dynamics 365 user account.
 - Please refrain from deactivating publishable Marketing records. Instead, set the publishing states (Status Reason), and use **Stop** buttons to manage records that are no longer required. More information: [Go live with publishable entities and track their status](go-live.md)
 - Dynamics 365 for Marketing is currently supported only on the following browsers: Microsoft Edge, Google Chrome, and Apple Safari on Mac. More information: [Browser and system requirements](browser-requirements.md)
+- Right-to-left (RTL) language support currently has the following limitations: the segmentation designer is usable, but shows its user-interface elements in the wrong order; and the supplied content samples (marketing-page templates, email templates, form templates, and event website) aren't provided in RTL layouts.
