@@ -62,9 +62,17 @@ End users can find the Dynamics 365 app for Teams in the App store.
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-permissions-requested.png "Accept permissions")
 
+7. You'll see a list of recently viewed records, if any exist. You can also search for records and use **Filter by** to narrow the search to an entity type. Select **Save** when done.
 
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-add-channel-pin-record2.png "Search for entity")
 
+   If you have multiple organizations or app modules, select **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which org or app module to use in Teams.
 
+> [!div class="mx-imgBorder"] 
+> ![](media/teams-pinned-record.png "Record successfully connected and pinned")
+
+You'll see a notification of a successful connection and the Dynamics 365 (online) record appears in the menu bar.
 
 Proceed to the next section - **Set up Teams tab**.
 
