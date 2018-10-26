@@ -28,7 +28,7 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The following are error messages from Dynamics 365 Teams app and possible resolutions.
+The following are error messages and possible resolutions.
 
 ## Error messages in the Teams app
 

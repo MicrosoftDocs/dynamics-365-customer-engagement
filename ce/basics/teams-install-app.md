@@ -45,6 +45,8 @@ search.app:
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-store-install-both75.png "Enable personal and team features")
 
+   Note: You can do this configuration at any time by selecting ... from the left-side menu, selecting **Dynamics 365**, and then selecting **Settings**.
+
 4. For **Add to a team**, choose a team to pin content and services to, and then select **Install**. 
 
    > [!div class="mx-imgBorder"] 
@@ -72,7 +74,7 @@ After completing the above steps, you'll see a notification of a successful conn
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-pinned-record.png "Record successfully connected and pinned")
 
-Note: You can do this configuration at any time by selecting ... from the left-side menu, selecting **Dynamics 365**, and then selecting **Settings**.
+For troubleshooting, see [Troubleshoot Teams integration](teams-troubleshoot.md).
 
 See [Collaborate with Teams](teams-collaboration.md) for information on how you can use the Teams tab to interact with Dynamics 365 (online).
 
@@ -91,10 +93,10 @@ Set up the bot feature to interact with Dynamics 365 (online).
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-bot-welcome.png "Sign in to the bot")
 
-See [Use the bot](teams-bot-search.md) for information on how you can use the bot to interact with Dynamics 365 (online).
+See [Use the bot](teams-bot-search.md) for information on how you can use the bot feature to interact with Dynamics 365 (online).
 
 ## Set up the personal dashboard
-Set up the personal dashboard to interact with Dynamics 365 (online) when you don't need to collaborate with other team members.
+Set up the personal dashboard (My Dashboard) to interact with Dynamics 365 (online) without involving other team members.
 
 1. Open the Dynamics 365 app.
 
@@ -105,6 +107,11 @@ Set up the personal dashboard to interact with Dynamics 365 (online) when you do
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-mydashboard-org-app.png "Select or and app module")
+
+   > [!NOTE]
+   > - Only Dynamics 365 version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
+   > - Only Unified Interface apps are listed.
+   > - Only app modules licensed for the selected organization are listed. 
 
 3. Select the **My Dashboard** tab.
 
@@ -126,10 +133,12 @@ The following table describes what happens when each feature is enabled.
 |Setting  |When enabled |
 |---------|---------|
 |Microsoft Teams Integration Preview   | When enabled, the **Collaborate** button appears on records in Dynamics 365 (online) so you can see the connected team channel. In addition, in the **Documents** tab, files synchronized with Teams will appear.         |
-|Dynamics 365 bot in Microsoft Teams Preview     | When enabled, the bot appears in Microsoft Teams in the **Conversation** tab in the Dynamics 365 Teams app.  |
+|Dynamics 365 bot in Microsoft Teams Preview     | When enabled, the bot appears in Microsoft Teams in the **Conversation** tab in the Dynamics 365 app for Teams.  |
 
 If these settings are not enabled, you can still use much of the Teams integration with Dynamics 365 (online); the above features will be absent.
 
+### See also  
+ [Troubleshoot Teams integration](teams-troubleshoot.md)
 
 
 <!--
