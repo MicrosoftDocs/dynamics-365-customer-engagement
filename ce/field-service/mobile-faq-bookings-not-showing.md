@@ -79,7 +79,7 @@ Log into the mobile app and select the online/offline mode icon.
 
 If the icon below appears, you're in offline mode.
 
-![Screenshot of the offline mode icon](mobile-offline-mode-icon.png)
+![Screenshot of the offline mode icon](media/mobile-offline-mode-icon.png)
 
 Make sure the below icon appears, indicating online mode. 
 
