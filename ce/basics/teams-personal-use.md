@@ -1,7 +1,7 @@
 ---
 title: "Use the personal dashboard| MicrosoftDocs"
 ms.custom: ""
-description: "Use the personal app and bot."
+description: "Use the personal dashboard."
 ms.date: 10/30/2018
 ms.reviewer: ""
 ms.service: "crm-online"

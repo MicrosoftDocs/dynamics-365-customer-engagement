@@ -1,7 +1,7 @@
 ---
 title: "Delete Teams data | MicrosoftDocs"
 ms.custom: ""
-description: Integrate Dynamics 365 Customer Engagement with Microsoft Teams.
+description: "Delete Teams data."
 ms.date: 10/30/2018
 ms.reviewer: ""
 ms.service: "crm-online"
