@@ -52,22 +52,40 @@ search.app:
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-store-install-add-team75.png "Add to team")
 
-5. Select **Review permissions**.
+5. Select **Set up**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-install-app-step2.png "Add to team")
+
+6. Select **Review permissions**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-review-premissions75.png "Review permissions")
 
-6. Read through the permissions and select **Accept**.
+7. Read through the permissions and select **Accept**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-permissions-requested.png "Accept permissions")
 
+8. Select a version 9.x org and a Unified Interface app to connect with Dynamics 365 (online), then choose **Save Changes**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-fre-org-app.png "Select org and app module")
+
+   > [!NOTE]
+   > - Only Dynamics 365 version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
+   > - Only Unified Interface apps are listed.
+   > - Only app modules licensed for the selected organization are listed. 
+
+
+<!--
 7. You'll see a list of recently viewed records, if any exist. You can also type in records to search for and use **Filter by** to narrow the search to an entity type. Once you pick a record, select **Save**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-add-channel-pin-record2.png "Search for entity")
 
    Note: If you have multiple organizations or app modules, select **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which org or app module to use in Teams.
+-->
 
 After completing the above steps, you'll see a notification of a successful connection and the Dynamics 365 (online) record appears in the menu bar.
 
@@ -106,7 +124,7 @@ Set up the personal dashboard (My Dashboard) to interact with Dynamics 365 (onli
 2. Select a version 9.x org and a Unified Interface app to connect with Dynamics 365 (online), then choose **Save Changes**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/teams-mydashboard-org-app.png "Select or and app module")
+   > ![](media/teams-mydashboard-org-app.png "Select org and app module")
 
    > [!NOTE]
    > - Only Dynamics 365 version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
