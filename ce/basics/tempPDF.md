@@ -1,0 +1,8 @@
+[!include[](teams-collaboration.md)]
+[!include[](teams-bot-search.md)]
+[!include[](teams-delete-data.md)]
+[!include[](teams-install-app.md)]
+[!include[](teams-integration.md)]
+[!include[](teams-personal-use.md)]
+[!include[](teams-troubleshoot.md)]
+[!include[](teams-bot-search.md)]
