@@ -64,7 +64,7 @@ This document provides important, late-breaking information about known issues a
 - The **Save** button isn't visible on the command bar after the initial save of the segment. Use the **Save** button in the lower-right corner of the page instead. <!-- 862491 -->
 - When trying to estimate the size of a segment where the query doesn't end in a contact, the system displays a server communication error. To correct this error, make sure your segment definition ends with a clause that links to the contact entity as described in [Design profile-based dynamic segments](segments-profile.md). <!-- 1226384 -->
 - When you're adding members to a static segment, you can filter the list of available contacts to find the ones you want to add. Sometimes, after adding some filters and selecting **Apply**, the segment definition may stop showing its members. To fix this, save the segment, go back to the segment list, and then reopen it; you should now see the list of members and can continue working on it. <!-- 1282842 -->
-- Static segments can contain
+- Static segments are limited to a maximum of 1600 members.
 
 ### Fixed issues
 
@@ -78,6 +78,7 @@ This document provides important, late-breaking information about known issues a
 - If you reuse the same email multiple times (within the same journey or in different journeys) you will see incorrect performance results on its **Insights** pages.
 - Many email templates have placeholder images. You should replace these placeholder images with actual images so that marketing emails look professional.
 - For certain organizations that upgraded recently, test send may not work. If you encounter this issue, please contact Microsoft Support.<!-- 1267485 -->
+- The email designer requires that you be very careful when entering code for advanced dynamic content. It's easy to produce non-working code. If you want to use this feature, be sure to review the notes given in [How to enter code in the designer](dynamic-email-content.md)
 
 ### Fixed issues
 
@@ -118,6 +119,10 @@ This document provides important, late-breaking information about known issues a
 
 - The [social listening feature](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/dynamics365-marketing/marketing/social-listening-campaigns) currently requires that you set it up manually as described in [Integrate Social Engagement with Dynamics 365](../social-engagement/integrate-social-engagement-dynamics-365.md). We will soon roll out a smoother setup experience fine-tuned for the Marketing app. Keep an eye on the [Dynamics 365 Customer Engagement Team Blog](https://blogs.msdn.microsoft.com/crm/) for updates.
 - The social listening control may not show data on some Dynamics 365 instances. If you experience this issue, please contact Microsoft Support. <!--- This is for the UCI FCB that's required to be switched on, and requires a platform upgrade. We can also manually flip this FCB on an org by org basis by updating a DB value -->
+
+## Designer feature protection
+
+- Designer feature protection enables admins to limit access to the HTML tab and/or Litmus previews for content designers. However, the protection only applies to users who have read access to the *Designer Feature Access* entity. Users without this read access will always be able to see the HTML and Litmus features, even if you use designer feature protection to block them. To solve this, make sure all user roles provide read access to the *Designer Feature Access* entity. If you are using the out-of-box user roles supplied with the product, then these should automatically update to include this access when you apply the October 2018 (or later) update, but if you use custom user roles you need to add this access explicitly after updating. More information: [Manage security, users, and teams](../admin/manage-security-users-and-teams.md)
 
 ## General
 
