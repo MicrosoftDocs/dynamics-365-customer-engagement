@@ -111,7 +111,7 @@ You can now customize the toolbar in [!INCLUDE[pn_unified_service_desk](../inclu
 The resources in the dictionary refers to other resources that are available on [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application. Loading and parsing the XAML string is performed at runtime to create <xref:System.Windows.ResourceDictionary> and merge the resources of the toolbar control with the <xref:System.Windows.ResourceDictionary>. In addition, the <xref:System.Windows.ResourceDictionary> can have styles for button types inside a toolbar. Using the styles, you can customize the toolbars and buttons.
 
 **Sample 1:**
-  The sample XAML that defines defines <xref:System.Windows.ResourceDictionary> of <xref:System.Windows.Style> and <xref:System.Windows.Media.Brush> resources demonstrates customizing the **About Tool bar**.
+  The sample XAML that defines <xref:System.Windows.ResourceDictionary> of <xref:System.Windows.Style> and <xref:System.Windows.Media.Brush> resources demonstrates customizing the **About Tool bar**.
 
 > [!NOTE]
 > You can find this sample XAML styles in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] - Unified Interface sample package.
@@ -452,7 +452,7 @@ The resources in the dictionary refers to other resources that are available on 
   ```
   
 **Sample 2:**
-The sample XAML that defines defines <xref:System.Windows.ResourceDictionary> of <xref:System.Windows.Style> and <xref:System.Windows.Media.Brush> resources demonstrates customizing the **Main** toolbar.
+The sample XAML that defines <xref:System.Windows.ResourceDictionary> of <xref:System.Windows.Style> and <xref:System.Windows.Media.Brush> resources demonstrates customizing the **Main** toolbar.
 
 > [!NOTE]
 > You can find this sample XAML styles in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] - Unified Interface sample package.
