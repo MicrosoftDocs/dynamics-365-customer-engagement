@@ -48,7 +48,7 @@ Data Export is an add-on service made available as a [!INCLUDE[pn_CRM_Online](..
   
 - It is recommended that option “Allow access to azure services” be enabled.  
   
-- The database user, specified in the  data export connection string, must have the proper create and alter permissions on the target database.  At minimum these include: `CRTB`, `CRTY`, `CRVW`,     `CRPR`, and `ALUS`. For more information, see [Permissions (Database Engine)](https://msdn.microsoft.com/en-us/library/ms191291.aspx).  
+- The database user, specified in the  data export connection string, must have the proper create and alter permissions on the target database.  At minimum these include: `CRTB`, `CRTY`, `CRVW`,     `CRPR`, and `ALUS`. For more information, see [Permissions (Database Engine)](https://msdn.microsoft.com/library/ms191291.aspx).  
   
 - At least one user have extensive permissions on the schema. The following script creates such a new user.  
   

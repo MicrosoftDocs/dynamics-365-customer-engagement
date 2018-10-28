@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] for Customer Engagement apps. See the complete sample here [Sample: Create, retrieve, update, and delete a dialog](https://msdn.microsoft.com/en-us/library/gg334435.aspx)
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. See the complete sample here [Sample: Create, retrieve, update, and delete a dialog](https://msdn.microsoft.com/library/gg334435.aspx)
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

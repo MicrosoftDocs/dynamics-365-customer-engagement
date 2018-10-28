@@ -60,4 +60,4 @@ Track the high influencers and the customers for your business, and save them as
  You can reactivate the profile by selecting it and clicking **Activate** on the command bar.
  
  ### See also
- [Sample application using Dynamics 365 for Customer Engagement Social Care Framework](https://msdn.microsoft.com/en-us/library/dn744885(v=crm.6).aspx)
+ [Sample application using Dynamics 365 Social Care Framework](https://msdn.microsoft.com/library/dn744885(v=crm.6).aspx)

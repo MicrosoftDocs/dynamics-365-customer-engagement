@@ -49,7 +49,7 @@ This guide provides all the steps required for getting up and running with Conne
 ## Install Connected Field Service  
  Install the Connected Field Service solution from your Office 365 admin portal. The solution includes a sample thermostat simulator app that you can use to send test alerts to connected devices that are registered in field service.  
   
- Developers can also use the simulator as a sample template to further customize the app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connected Field Service Developer Guide](https://msdn.microsoft.com/en-us/library/mt790241.aspx)  
+ Developers can also use the simulator as a sample template to further customize the app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connected Field Service Developer Guide](https://msdn.microsoft.com/library/mt790241.aspx)  
   
 1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global Administrator or Dynamics 365 for Customer Engagement system administrator credentials.  
   

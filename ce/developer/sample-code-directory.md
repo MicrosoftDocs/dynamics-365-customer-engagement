@@ -103,7 +103,7 @@ The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../i
 
 
 [Sample: Xrm.Page.data.process.getEnabledProcesses](https://msdn.microsoft.com/en-in/library/dn817865.aspx)<br />
-[Sample: Xrm.Page.data.process.getActivePath](https://msdn.microsoft.com/en-us/library/dn817884.aspx)<br />
+[Sample: Xrm.Page.data.process.getActivePath](https://msdn.microsoft.com/library/dn817884.aspx)<br />
   
 <a name="BKMK_Charts"></a>   
 ## Charts and dashboards  

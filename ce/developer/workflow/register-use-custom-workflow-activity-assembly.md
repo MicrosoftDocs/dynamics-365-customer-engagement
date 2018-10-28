@@ -31,7 +31,7 @@ After you compile your custom workflow activity to create an assembly, you have 
 ## Enable or disable custom code
 
 [!INCLUDE[cc_sdk_onpremises_note](../../includes/cc-sdk-onpremises-note.md)]
- You can use [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] to enable or disable custom workflow activities and plug-in execution for an on-premises server as described here. Alternatively, you can use the Deployment web service. For more information, see [Deployment Entities and Deployment Configuration Settings](https://msdn.microsoft.com/en-us/library/gg328063.aspx) to learn how to set the <xref:Microsoft.Xrm.Sdk.Deployment.CustomCodeSettings>.<xref:Microsoft.Xrm.Sdk.Deployment.CustomCodeSettings.AllowExternalCode> property.  
+ You can use [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] to enable or disable custom workflow activities and plug-in execution for an on-premises server as described here. Alternatively, you can use the Deployment web service. For more information, see [Deployment Entities and Deployment Configuration Settings](https://msdn.microsoft.com/library/gg328063.aspx) to learn how to set the <xref:Microsoft.Xrm.Sdk.Deployment.CustomCodeSettings>.<xref:Microsoft.Xrm.Sdk.Deployment.CustomCodeSettings.AllowExternalCode> property.  
 
 ### To enable custom code
 

@@ -42,7 +42,7 @@ search.app:
   
  [OAuth 2.0](http://oauth.net/2/)  
   
- [Authorization Code Grant Flow](https://msdn.microsoft.com/en-us/library/azure/dn645542.aspx)  
+ [Authorization Code Grant Flow](https://msdn.microsoft.com/library/azure/dn645542.aspx)  
   
  [Use the Dynamics 365 for Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md)  
   

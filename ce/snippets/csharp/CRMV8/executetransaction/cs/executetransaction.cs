@@ -27,7 +27,7 @@ namespace Microsoft.Crm.Sdk.Samples
         /// This sample demonstrates how to execute a collection of message requests in a single database transaction, 
         /// by using a single web service call and optionally return the results. 
         /// </summary>
-        /// <seealso cref="https://msdn.microsoft.com/en-us/library/gg328075.aspx#bkmk_transaction"/>
+        /// <seealso cref="https://msdn.microsoft.com/library/gg328075.aspx#bkmk_transaction"/>
         /// <param name="serverConfig">Contains server connection information.</param>
         /// <param name="promptforDelete">When True, the user will be prompted to delete all
         /// created entities.</param>

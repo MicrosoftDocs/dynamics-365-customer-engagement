@@ -146,7 +146,7 @@ throw new CrmHttpResponseException(response.Content);
   
 ```  
   
- [HttpStatusCode](https://msdn.microsoft.com/library/hh435235.aspx).NoContent is equivalent to an HTTP status code 204, “No content”. Here, this status code indicates that the POST request succeeded. For more information, see [Compose HTTP requests and handle errors](https://msdn.microsoft.com/en-us/library/gg334391.aspx).  
+ [HttpStatusCode](https://msdn.microsoft.com/library/hh435235.aspx).NoContent is equivalent to an HTTP status code 204, “No content”. Here, this status code indicates that the POST request succeeded. For more information, see [Compose HTTP requests and handle errors](https://msdn.microsoft.com/library/gg334391.aspx).  
   
 ### Characteristics and methods  
  Most of the samples have the same general architectural pattern, with the following characteristics:  
@@ -193,7 +193,7 @@ Console.ReadLine();
   
 <a name="bkmk_connectToCrm"></a>   
 #### ConnectToCRM method  
- This method calls upon the helper libraries to read the application configuration file and then establishes a connection to the specified Dynamics 365 for Customer Engagement server. The result of these steps is the initialization of a [HttpClient](https://msdn.microsoft.com/en-us/library/system.net.http.httpclient\(v=vs.110\).aspx) class property that is used throughout the program to send web requests and receive responses.  Note the following properties are set on this object:  
+ This method calls upon the helper libraries to read the application configuration file and then establishes a connection to the specified Dynamics 365 server. The result of these steps is the initialization of a [HttpClient](https://msdn.microsoft.com/library/system.net.http.httpclient\(v=vs.110\).aspx) class property that is used throughout the program to send web requests and receive responses.  Note the following properties are set on this object:  
   
 ```csharp  
   
