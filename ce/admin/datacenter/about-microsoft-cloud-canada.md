@@ -68,8 +68,8 @@ search.app:
 ### What is the customer experience if I use both Dynamics CRM Online from the Canada regions while using Microsoft Dynamics Marketing, Microsoft Social Engagement, and Parature from other regions?  
  The customer experience will be unchanged, the workloads for the other services will simply be provisioned from other regions.  
   
-### When will ExpressRoute be available in Canada for Dynamics 365 for Customer Engagement apps Online customers, and through which partners?  
- [!INCLUDE[pn_expressroute](../../includes/pn-expressroute.md)] is currently available in Canada. [View a current list of ExpressRoute locations and partners](https://azure.microsoft.com/documentation/articles/expressroute-locations). [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] is currently working to enable customers to use [!INCLUDE[pn_expressroute](../../includes/pn-expressroute.md)] with [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] from the Canada regions.  
+### When will ExpressRoute be available in Canada for Dynamics 365 Online customers, and through which partners?  
+ [!INCLUDE[pn_expressroute](../../includes/pn-expressroute.md)] is currently available in Canada. [View a current list of ExpressRoute locations and partners](https://azure.microsoft.com/documentation/articles/expressroute-locations/). [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] is currently working to enable customers to use [!INCLUDE[pn_expressroute](../../includes/pn-expressroute.md)] with [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] from the Canada regions.  
   
 ### Where can I find more about Microsoft Dynamics 365 for Customer Engagement apps (online) security, data privacy, and compliance?  
  You can find more information at the  [Microsoft Dynamics 365 for Customer Engagement apps Trust Center](http://go.microsoft.com/fwlink/p/?LinkID=393409).  

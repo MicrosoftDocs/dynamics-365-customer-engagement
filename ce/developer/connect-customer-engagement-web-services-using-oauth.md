@@ -28,7 +28,7 @@ OAuth is the authentication method supported by the [!INCLUDE[pn_dynamics_crm](.
   
  Method calls to the web services must be authorized with the identity provider for that service endpoint. Authorization is approved when a valid              OAuth 2.0 (user) access token, issued by [!INCLUDE[pn_microsoft_azure_active_directory](../includes/pn-microsoft-azure-active-directory.md)], is provided in the headers of the message requests.  
   
- The recommended authentication API for use with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Web API is [Azure Active Directory Authentication Library (ADAL)](https://azure.microsoft.com/en-us/documentation/articles/active-directory-authentication-libraries/), which is available for a wide variety of platforms and programming languages. The ADAL API manages OAuth 2.0 authentication with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web service identity provider. For more details on the actual OAuth protocol used, see [Use OAuth to Authenticate with the CRM Service](http://blogs.msdn.com/b/crm/archive/2013/12/12/use-oauth-to-authenticate-with-the-crm-service.aspx).  
+ The recommended authentication API for use with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Web API is [Azure Active Directory Authentication Library (ADAL)](https://azure.microsoft.com/documentation/articles/active-directory-authentication-libraries/), which is available for a wide variety of platforms and programming languages. The ADAL API manages OAuth 2.0 authentication with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web service identity provider. For more details on the actual OAuth protocol used, see [Use OAuth to Authenticate with the CRM Service](http://blogs.msdn.com/b/crm/archive/2013/12/12/use-oauth-to-authenticate-with-the-crm-service.aspx).  
  
 > [!NOTE]
 > You must use the ADAL 2.0 libraries. All Dynamics 365 for Customer Engagement tools, assemblies, and utilities require the patterns supported by ADAL 2.0.
@@ -112,6 +112,6 @@ httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("
 ```  
   
 ### See also  
- [Walkthrough: Register a Dynamics 365 for Customer Engagement app with Azure Active Directory](walkthrough-register-dynamics-365-app-azure-active-directory.md)   
- [Multi-Factor Authentication documentation](https://azure.microsoft.com/en-us/documentation/services/multi-factor-authentication/)   
+ [Walkthrough: Register a Dynamics 365 app with Azure Active Directory](walkthrough-register-dynamics-365-app-azure-active-directory.md)   
+ [Multi-Factor Authentication documentation](https://azure.microsoft.com/documentation/services/multi-factor-authentication/)   
  [OAuth 2.0](http://oauth.net/2/)

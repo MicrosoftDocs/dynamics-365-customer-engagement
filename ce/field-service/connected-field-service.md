@@ -40,7 +40,7 @@ Key benefits of Connected Field Service:
 
 There are two offerings you can use to connect IoT-enabled devices into the Field Service solution:
 - Connected Field Service for [**Azure IoT Central**](https://azure.microsoft.com/services/iot-central/)
-- Connected Field Service for [**Azure IoT Hub**](https://azure.microsoft.com/en-us/services/iot-hub/)
+- Connected Field Service for [**Azure IoT Hub**](https://azure.microsoft.com/services/iot-hub/)
 
 See below for the differences between the two offerings.
 
