@@ -75,6 +75,11 @@ search.app:
    > - Only Unified Interface apps are listed.
    > - Only app modules licensed for the selected organization are listed. 
 
+9. Select an entity to connect. You can pick a recently viewed record or use search to find records. You can use **Filter by** to narrow the search to an entity type. Once you've picked a record select **Save**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-add-channel-pin-record2.png "Select an entity")
+
 After completing the above steps, you can select Dynamics 365 only record to connect to the Microsoft teams channel. For more information, see [Collaborate with Teams](teams-collaboration.md). 
 
 > [!div class="mx-imgBorder"] 

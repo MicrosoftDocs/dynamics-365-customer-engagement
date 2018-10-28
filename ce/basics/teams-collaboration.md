@@ -45,11 +45,13 @@ From a team channel, you can connect a Dynamics 365 (online) record to collabora
 
 3. Search for an entity to connect. You can pick a recently viewed record or use search to find records. You can use **Filter by** to narrow the search to an entity type. Once you've picked a record select **Save**.
 
-   ![Search for entity](media/teams-add-channel-pin-record2.png "Search for entity")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-add-channel-pin-record2.png "Search for entity")
 
    In the above page, if you have multiple organizations or app modules, you can change the org and app module by selecting **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which org or app module to use in Teams.
  
-   ![Specify org and app](media/teams-change-org-app.png "Specify org and app")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-change-org-app.png "Specify org and app")
 
    You can enable **Remember this preference** to set the org and app selections to be the default personal dashboard that appears when you select **My Dashboard**.
 
@@ -70,6 +72,7 @@ The successful connection state indicates that the connection was successfully s
 
 A failed connection means the connection was not successfully saved. When seeing this message, you should remove and connect the record again. See: [Error: This record is not connected to Dynamics 365. Repin the tab and try again.](teams-troubleshoot.md#error-this-record-is-not-connected-to-dynamics-365-repin-the-tab-and-try-again)
 
+
 ### View and associate files
 
 Select the  **Files** tab in the connected Teams channel to associate files with a Dynamics 365 (online) record. Files added here will appear in Dynamics 365 (online) under **Documents** for the linked record. Likewise, when you add a document to a record in Dynamics 365 (online), that document will appear in Teams under the **Files** tab.
@@ -83,6 +86,12 @@ It's easy to use Teams to open a record in Dynamics 365 (online). From a record 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-open-record-d365.png "Open a record in Dynamics 365 (online)")
+
+### Have a conversation
+You can chat with your team members side-by-side with the Dynamics 365 record page. From a record pinned in a Teams channel, select the **Show tab converation** button to open the conversation tab.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/teams-start-conversation.png "Start a conversation")
 
 ## Teams integration in Dynamics 365 (online)
 In Dynamics 365 (online), you can see the connected Microsoft Teams channel and files from the Microsoft Teams channel.
