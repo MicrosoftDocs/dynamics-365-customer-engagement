@@ -267,7 +267,7 @@ Best practices for securing your implementation of [!INCLUDE[pn_dynamics_crm](..
 - Require that all users use strong passwords for their accounts.
 
 <!-- This is an on-prem topic, not yet migrated. Put in a different link for a placeholder
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security Considerations for Dynamics 365 for Customer Engagement](https://technet.microsoft.com/en-us/library/hh699825.aspx)  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security Considerations for Dynamics 365](https://technet.microsoft.com/library/hh699825.aspx)  
 -->
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security Concepts for Dynamics 365 for Customer Engagement apps](../admin/security-concepts.md)  
 

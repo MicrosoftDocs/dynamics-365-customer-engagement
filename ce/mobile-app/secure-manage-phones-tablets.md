@@ -51,8 +51,8 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobil
   
 -   [Documentation for Microsoft Intune](https://technet.microsoft.com/library/jj676587.aspx)  
   
-## Set up  conditional access to Dynamics 365 for Customer Engagement apps  
- You can use [!INCLUDE[pn_ms_System_Center_Config_Mgr_short](../includes/pn-ms-system-center-config-mgr-short.md)] conditional access to manage access to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from mobile devices based on conditions you specify. For more information about setting up conditional access, see [Conditional Access in Configuration Manager](https://technet.microsoft.com/en-us/library/dn919655.aspx).  
+## Set up  conditional access to Dynamics 365 (online)  
+ You can use [!INCLUDE[pn_ms_System_Center_Config_Mgr_short](../includes/pn-ms-system-center-config-mgr-short.md)] conditional access to manage access to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from mobile devices based on conditions you specify. For more information about setting up conditional access, see [Conditional Access in Configuration Manager](https://technet.microsoft.com/library/dn919655.aspx).  
   
 > [!NOTE]
 >  To use conditional access, you must have an Azure Active Directory premium subscription.  

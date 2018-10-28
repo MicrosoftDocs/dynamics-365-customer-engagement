@@ -30,7 +30,7 @@ When a request to the portal is generated from any user, their IP address is eva
 
 To add or remove IP addresses, you must be assigned any one of the following roles:
 - Office 365 Global Administrator 
-- [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Service Administrator. [!include[](../includes/proc-more-information.md)] [Use the service admin role to manage your tenant](https://technet.microsoft.com/en-us/library/mt793847.aspx)  
+- [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Service Administrator. [!include[](../includes/proc-more-information.md)] [Use the service admin role to manage your tenant](https://technet.microsoft.com/library/mt793847.aspx)  
 - System Administrator of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization selected for the portal
 
 ## Add an IP address

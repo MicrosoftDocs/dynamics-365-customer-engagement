@@ -30,7 +30,7 @@ After provisioning a portal, you can perform various actions such as setting up 
 
 To manage an existing portal, you must be assigned any one of the following roles:
 - Office 365 Global Administrator 
-- [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Service Administrator. [!include[](../includes/proc-more-information.md)] [Use the service admin role to manage your tenant](https://technet.microsoft.com/en-us/library/mt793847.aspx)  
+- [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Service Administrator. [!include[](../includes/proc-more-information.md)] [Use the service admin role to manage your tenant](https://technet.microsoft.com/library/mt793847.aspx)  
 - System Administrator of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization selected for the portal
 
 If you haven't been assigned any of the above-mentioned roles, the following message is displayed: You need to be a global administrator, Dynamics 365 for Customer Engagement service administrator, or system administrator for this organization in order to manage this portal.

@@ -31,7 +31,7 @@ Data Export is an add-on service made available as a [!INCLUDE[pn_CRM_Online](..
   
  Your [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] apps service must be configured so that:  
   
-- You must have [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] or a later instance with the original or full data copy. For more information, see [Copy an instance](https://technet.microsoft.com/en-us/library/dn659832.aspx).  
+- You must have [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] or a later instance with the original or full data copy. For more information, see [Copy an instance](https://technet.microsoft.com/library/dn659832.aspx).  
   
 - The entities that will be exported are enabled with change tracking. For more information, see [Use change tracking to synchronize data with external systems](use-change-tracking-synchronize-data-external-systems.md).  
   

@@ -18,7 +18,7 @@ This section provides you the steps to install the [!INCLUDE[pn-voice-of-the-cus
 
 ## Install the Voice of the Customer solution earlier than 9.0
 
-[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] is a preferred solution that you install from [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]. To learn how to install preferred solutions, see [TechNet: Install a preferred solution](https://technet.microsoft.com/en-us/library/dn878909).  
+[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] is a preferred solution that you install from [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]. To learn how to install preferred solutions, see [TechNet: Install a preferred solution](https://technet.microsoft.com/library/dn878909).  
   
 After you've installed the [!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)] preferred solution, you need to accept the terms and conditions to configure it in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. 
  
