@@ -65,7 +65,7 @@ search.app:
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-permissions-requested.png "Accept permissions")
 
-8. Select a version 9.x org and a Unified Interface app to connect, then choose **Save Changes**.
+8. Select a version 9.x org and a Unified Interface app to connect, then choose **Save**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-fre-org-app.png "Select org and app module")
