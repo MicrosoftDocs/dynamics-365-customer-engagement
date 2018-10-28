@@ -40,19 +40,17 @@ search.app:
 
 3. Verify that **Add for you** and **Add to team** are both set to **Yes**.
 
-   You have a choice when adding Dynamics 365 to Microsoft Teams. You can enable features which integrates Dynamics 365 and Teams for your own use, and you can enable features that you can use to collaborate with your team members. We'll take the simplest approach and enable both.
+   You can use Dynamics 365 for your own use or use on a Microsoft Teams channel to collaborate with others. If you have an existing Microsoft Teams channel, select both options. Otherwise, you can start installing for your personal use and install the app for your Teams later.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-store-install-both75.png "Enable personal and team features")
 
-   Note: You can do this configuration at any time by selecting ... from the left-side menu, selecting **Dynamics 365**, and then selecting **Settings**.
-
-4. For **Add to a team**, choose a team to pin content and services to, and then select **Install**. 
+4. For **Add to a team**, choose a team and then select **Install**. 
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-store-install-add-team75.png "Add to team")
 
-5. Select **Set up**.
+5. Pick a channel in Microsoft Teams to connect to a Dynamics record then select **Set up**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-install-app-step2.png "Add to team")
@@ -67,7 +65,7 @@ search.app:
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-permissions-requested.png "Accept permissions")
 
-8. Select a version 9.x org and a Unified Interface app to connect with Dynamics 365 (online), then choose **Save Changes**.
+8. Select a version 9.x org and a Unified Interface app to connect, then choose **Save Changes**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-fre-org-app.png "Select org and app module")
@@ -77,26 +75,12 @@ search.app:
    > - Only Unified Interface apps are listed.
    > - Only app modules licensed for the selected organization are listed. 
 
-
-<!--
-7. You'll see a list of recently viewed records, if any exist. You can also type in records to search for and use **Filter by** to narrow the search to an entity type. Once you pick a record, select **Save**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![](media/teams-add-channel-pin-record2.png "Search for entity")
-
-   Note: If you have multiple organizations or app modules, select **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which org or app module to use in Teams.
--->
-
-After completing the above steps, you'll see a notification of a successful connection and the Dynamics 365 (online) record appears in the menu bar.
+After completing the above steps, you can select Dynamics 365 only record to connect to the Microsoft teams channel. For more information, see [Collaborate with Teams](teams-collaboration.md). 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-pinned-record.png "Record successfully connected and pinned")
 
 For troubleshooting, see [Troubleshoot Teams integration](teams-troubleshoot.md).
-
-See [Collaborate with Teams](teams-collaboration.md) for information on how you can use the Teams tab to interact with Dynamics 365 (online).
-
-Next, set up the Dynamics 365 app for Teams bot feature.
 
 ## Set up the Dynamics 365 app for Teams bot
 Set up the bot feature to interact with Dynamics 365 (online).
@@ -110,6 +94,13 @@ Set up the bot feature to interact with Dynamics 365 (online).
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-bot-welcome.png "Sign in to the bot")
+
+3. Go through the consent pages.
+
+4. Select a Dynamics 365 org to connect to.
+
+> [!NOTE]
+> Only Dynamics 365 version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed.
 
 See [Use the bot](teams-bot-search.md) for information on how you can use the bot feature to interact with Dynamics 365 (online).
 
@@ -137,7 +128,7 @@ See [Use the personal dashboard](teams-personal-use.md) for information on how y
 
 ## For Dynamics 365 (online) admins: enable Microsoft Teams integration Preview features
 
-Because this is a preview feature, you can control whether to display certain Teams integration features. For full Teams integration, the Dynamics 365 (online) admin should enable two settings.
+Because this is a preview feature, you can control whether to display Teams integration in Dynamics 365 (online). For full Teams integration, the Dynamics 365 (online) admin should enable two settings.
 
 1. Sign in as a System administrator to Dynamics 365 (online).
 2. Go to **Settings** > **Administration** > **System Settings** > **Previews** tab.
@@ -153,7 +144,7 @@ The following table describes what happens when each feature is enabled.
 |Microsoft Teams Integration Preview   | When enabled, the **Collaborate** button appears on records in Dynamics 365 (online) so you can see the connected team channel. In addition, in the **Documents** tab, files synchronized with Teams will appear.         |
 |Dynamics 365 bot in Microsoft Teams Preview     | When enabled, the bot appears in Microsoft Teams in the **Conversation** tab in the Dynamics 365 app for Teams.  |
 
-If these settings are not enabled, you can still use much of the Teams integration with Dynamics 365 (online); the above features will be absent.
+If these settings are not enabled, users can still connect Dynamics 365 (online) record to Microsoft Teams but the related Microsoft Teams channel and document do not appear in Dynamics 365 (online).  
 
 ### See also  
  [Troubleshoot Teams integration](teams-troubleshoot.md)

@@ -28,7 +28,7 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Dynamics 365 app for Teams bot feature allows you to interact with Dynamics 365 (online) to find and display the records within Microsoft Teams. 
+The Dynamics 365 app for Teams bot feature allows you to interact with Dynamics 365 (online) to find, display, and update the records within Microsoft Teams conversations.
 
 1. Open the Dynamics 365 app.
 
@@ -40,7 +40,7 @@ The Dynamics 365 app for Teams bot feature allows you to interact with Dynamics 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-search-contoso.png "Type in something to search in Dynamics 365")
 
-A list of records from Dynamics 365 that relate to your search text are returned. In this case, an opportunity is returned.
+A list of records from Dynamics 365 (online) that relate to your search text are returned. In this case, an opportunity is returned.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-search-typed.png "Type in something to search in Dynamics 365")

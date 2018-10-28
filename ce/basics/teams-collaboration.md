@@ -28,26 +28,26 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Once installed, the Dynamics 365 app for Teams enables collaborating with others through Dynamics 365 record connections made in teams and channels in Microsoft Teams.
+Once installed, the Dynamics 365 app for Teams enables collaborating with others through Dynamics 365 (online) record connections made in teams and channels in Microsoft Teams.
 
 ## Connect a Dynamics 365 (online) record to a team channel
 
-From a team channel, you can connect a Dynamics 365 record to collaborate on a customer account, an opportunity, etc. When you installed the Dynamics 365 app for Teams, you added (pinned) a record to a team channel as a tab. You can repeat this process any time as follows.
+From a team channel, you can connect a Dynamics 365 (online) record to collaborate on a customer account, an opportunity, etc. as follows.
 
 
 1. Open a team channel and select the **Add** button (![Add button](media/plus-2.png "Add button")).
 
    ![Select Add button](media/teams-add-tab.png "Select Add button")
 
-2. Select the **Dynamics 365** icon to pin a Dynamics 365 record to a channel.
+2. Select the **Dynamics 365** icon to pin a Dynamics 365 (online) record to a channel.
 
    ![Add Dynamics 365 Team channel](media/teams-add-channel.png "Add Dynamics 365 Team channel")
 
-3. Search for an entity to pin. You can pick a recently viewed record or use search to find records. You can use **Filter by** to narrow the search to an entity type. Once you've picked a record select **Save**.
+3. Search for an entity to connect. You can pick a recently viewed record or use search to find records. You can use **Filter by** to narrow the search to an entity type. Once you've picked a record select **Save**.
 
    ![Search for entity](media/teams-add-channel-pin-record2.png "Search for entity")
 
-   In the above page, if you have multiple organizations or app modules, select **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which org or app module to use in Teams.
+   In the above page, if you have multiple organizations or app modules, you can change the org and app module by selecting **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which org or app module to use in Teams.
  
    ![Specify org and app](media/teams-change-org-app.png "Specify org and app")
 
@@ -64,11 +64,11 @@ The following section provides information about connections between Dynamics 36
 
 ### Two connection states
 
-There are two connection states possible when connecting Dynamics 365 (online) and Microsoft Teams: successful and failed. The sole difference is file synchronization from Dynamics 365 (online) to Teams.
+There are two connection states possible when connecting Dynamics 365 (online) and Microsoft Teams: successful and failed. 
 
-A successful connection means two-way communication now exists between Dynamics 365 (online) and Microsoft Teams. You can interact with the record as if you were using the Dynamics 365 web app and share files with the web app. Those with *Write* permissions can edit the record and changes will be synchronized with the Dynamics 365 web app. Also, file synchronization occurs between both apps.
+The successful connection state indicates that the connection was successfully saved in Dynamics 365 (online) so that the link to the connected Microsoft Teams channel appears on the Dynamics 365 (online) page and the files used on this channel also appear on the **Documents** tab in Dynamics 365 (online). 
 
-A failed connection means file synchronization is not set up between Microsoft Teams and Dynamics 365 (online). File changes in Dynamics 365 (online) are not synchronized with Teams. However, changes made to the record in Teams will update in Dynamics 365 (online). See: [Error: This record is not connected to Dynamics 365. Repin the tab and try again.](teams-troubleshoot.md#error-this-record-is-not-connected-to-dynamics-365-repin-the-tab-and-try-again)
+A failed connection means the connection was not successfully saved. When seeing this message, you should remove and connect the record again. See: [Error: This record is not connected to Dynamics 365. Repin the tab and try again.](teams-troubleshoot.md#error-this-record-is-not-connected-to-dynamics-365-repin-the-tab-and-try-again)
 
 ### View and associate files
 
@@ -85,7 +85,7 @@ It's easy to use Teams to open a record in Dynamics 365 (online). From a record 
 > ![](media/teams-open-record-d365.png "Open a record in Dynamics 365 (online)")
 
 ## Teams integration in Dynamics 365 (online)
-In Dynamics 365 (online), you can see the connected Microsoft Teams channel and files synchronized between Teams and Dynamics 365 (online)
+In Dynamics 365 (online), you can see the connected Microsoft Teams channel and files from the Microsoft Teams channel.
 
 In Dynamics 365 (online) records, select **Collaborate** to display a list of all the connected team channels. Then, select a team channel to go to the relevant channel conversation in Teams.
 
@@ -102,7 +102,7 @@ In addition, document management actions in Dynamics 365 (online) are integrated
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-error-multiple-locations.png "Shared files in multiple locations")
 
-The record has been pinned to multiple Teams channels. In Dynamics 365 (online), select **Document Location** to specify the location of the file. 
+When there is more than one Microsoft Teams channel connected to a Dynamics 365 (online) record, each of the channel appears as separate document location in Dynamics. You can switch to a different location by selecting **Document Location** to specify the location of the file.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-change-document-location.png "Change document location")
