@@ -26,7 +26,7 @@ search.app:
 
 # What's new in portal capabilities for Dynamics 365 for Customer Engagement
 
-Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Here's a list of recently added features. For more information about portal capability updates for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to date, see [portal capabilities for Microsoft Dynamics 365 for Customer Engagement Releases](https://support.microsoft.com/en-us/help/3181191).
+Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Here's a list of recently added features. For more information about portal capability updates for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to date, see [portal capabilities for Microsoft Dynamics 365 Releases](https://support.microsoft.com/help/3181191).
 
 ## Portal capabilities version 9.0.10 for Dynamics 365 for Customer Engagement
 
