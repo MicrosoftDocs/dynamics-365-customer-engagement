@@ -27,6 +27,15 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 You can restrict a resource from performing a service and define the service capacity for the resource. You can also restrict when a resource is available to be scheduled for a specific service. The resource is still available for scheduling service activities for other services.
+
+> [!IMPORTANT]
+> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+  
+1. [!INCLUDE[proc_permissions_mgr_vp_sys_admin_sys_cust](../includes/proc-permissions-mgr-vp-sys-admin-sys-cust.md)]  
+  
+    #### Check your security role  
+  
+    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
 1. In the Customer Service Hub sitemap, go to **Service Scheduling**.
 

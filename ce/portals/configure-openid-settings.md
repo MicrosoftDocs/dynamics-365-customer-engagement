@@ -39,7 +39,7 @@ Each OpenID Connect provider also involves registering an application (similar t
 
 ## OpenID settings for [!INCLUDE[pn-azure-active-directory](../includes/pn-azure-active-directory.md)]
 
-To get started, sign into the [[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Management Portal](https://msdn.microsoft.com/library/azure/hh967611.aspx#bkmk_azureportal) and create or select an existing directory. When a directory is available follow the instructions to [add an application](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications) to the directory.  
+To get started, sign into the [[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Management Portal](https://msdn.microsoft.com/library/azure/hh967611.aspx#bkmk_azureportal) and create or select an existing directory. When a directory is available follow the instructions to [add an application](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications) to the directory.  
 
 1. Under the **Applications** menu of the directory, select **Add**.
 2. Choose **Add an application my organization is developing**.

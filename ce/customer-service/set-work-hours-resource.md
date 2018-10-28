@@ -29,7 +29,7 @@ search.app:
 You can set up and define the hours a resource is available. By default, the resources are set up for a 7-days-a-week, 24-hour schedule. 
 
 > [!IMPORTANT]
-> In the new scheduling experience, you can set work hours for resource types in the **Resources** entity. To know more about setting up work hours, see [Set work hours for the resources](resources-service-scheduling.md#set-work-hours-for-the-resources).
+> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
 ## Set work hours for a facility or equipment
   

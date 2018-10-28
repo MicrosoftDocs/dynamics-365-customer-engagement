@@ -36,8 +36,8 @@ Additionally, product documentation with annotations is displayed in the technic
 To learn more about using the Field Service application with Remote Assist, see the [Remote Assist User Guide](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/user-guide#use-dynamics-365-for-field-service-from-remote-assist).
 
 ### See also
-[Buy and deploy Remote Assist](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/licensing/buy-and-deploy)
+[Buy and deploy Remote Assist](https://docs.microsoft.com/dynamics365/mixed-reality/licensing/buy-and-deploy)
 
-[Remote Assist FAQ](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/remote-assist/faq)
+[Remote Assist FAQ](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/faq)
 
-[Remote Assist User Guide](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/remote-assist/user-guide/)
+[Remote Assist User Guide](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/user-guide/)

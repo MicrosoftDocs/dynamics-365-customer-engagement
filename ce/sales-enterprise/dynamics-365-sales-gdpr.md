@@ -57,4 +57,4 @@ It is also possible to update the read-only records programmatically with the SD
 
 - In case of [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps integration with any third-party system, there is a chance of GDPR requested changes to be overwritten if correct sequence of updates is not followed. It is the responsibility of the system administrator of [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps to follow the correct order. 
 
-To know more about GDPR compliance, see [Microsoft Dynamics 365 for Customer Engagement and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index).
+To know more about GDPR compliance, see [Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/dynamics365/get-started/gdpr/index).

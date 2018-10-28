@@ -81,9 +81,9 @@ Looking for more developer resources? Here are some other sources of information
 
 Looking for more than just developer information? Here are other sites and pointers to social media you can use:
 
-- [Dynamics 365 for Customer Engagement Documentation](https://docs.microsoft.com/en-us/dynamics365/)
-- [Dynamics 365 for Customer Engagement pre-sales information](http://www.microsoft.com/dynamics/default.aspx)
-- [Dynamics 365 for Customer Engagement: Deployment Forum](http://social.microsoft.com/Forums/crmdeployment/home/)
+- [Dynamics 365 Documentation](https://docs.microsoft.com/dynamics365/)
+- [Dynamics 365 pre-sales information](http://www.microsoft.com/dynamics/default.aspx)
+- [Dynamics 365: Deployment Forum](http://social.microsoft.com/Forums/crmdeployment/home/)
 - [Certification Training](https://www.microsoft.com/learning/en-us/dynamics-certification.aspx)
 - [Contact Dynamics 365 for Customer Engagement Customer Support](http://go.microsoft.com/fwlink/p/?LinkID=394391)
 - [Dynamics 365 for Customer Engagement on Facebook](https://www.facebook.com/msftdynamics)

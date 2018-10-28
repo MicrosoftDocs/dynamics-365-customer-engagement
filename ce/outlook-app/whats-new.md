@@ -29,7 +29,7 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 ## July 21, 2018
-1. [Filter entities and views that appear in Dynamics 365 App for Outlook.](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/outlook-app/deploy-dynamics-365-app-for-outlook#filter-entities-and-views-that-appear-in-dynamics-365-app-for-outlook) 
+1. [Filter entities and views that appear in Dynamics 365 App for Outlook.](https://docs.microsoft.com/dynamics365/customer-engagement/outlook-app/deploy-dynamics-365-app-for-outlook#filter-entities-and-views-that-appear-in-dynamics-365-app-for-outlook) 
 2. Fixed issues with App for Outlook not loading in Internet Explorer with Exchange on premise. 
 3. Untrack confirmation dialog will now be displayed when tracking an appointment in Outlook desktop in read mode. 
 4. App for Outlook will honor business rules (like required fields on a contact) when contacts are tracked. 

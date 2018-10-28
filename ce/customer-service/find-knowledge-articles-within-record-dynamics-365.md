@@ -35,7 +35,7 @@ For any customer service team, it’s important to give customers the right info
 - [!INCLUDE[pn_parature](../includes/pn-parature.md)] knowledge base: This option is available only for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] users. 
   
 > [!IMPORTANT]
-> [!INCLUDE[pn_parature](../includes/pn-parature.md)] knowledge base as a knowledge management solution has been deprecated for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. For more information, see [Important changes coming](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> [!INCLUDE[pn_parature](../includes/pn-parature.md)] knowledge base as a knowledge management solution has been deprecated for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. For more information, see [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
  Depending on the knowledge solution your organization chooses, you’ll see knowledge articles residing either in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] or in [!INCLUDE[pn_parature](../includes/pn-parature.md)].  
   

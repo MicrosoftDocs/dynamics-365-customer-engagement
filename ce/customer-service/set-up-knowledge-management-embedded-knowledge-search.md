@@ -35,7 +35,7 @@ A comprehensive knowledge base is a key to increased customer satisfaction and i
 - [!INCLUDE[pn_parature](../includes/pn-parature.md)] knowledgebase. This option is available only for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] users. 
 
 > [!IMPORTANT]
-> Usage of [!INCLUDE[pn_parature](../includes/pn-parature.md)] knowledgebase as a knowledge management solution for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> Usage of [!INCLUDE[pn_parature](../includes/pn-parature.md)] knowledgebase as a knowledge management solution for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
 After knowledge management is set up, users will be able to:  
   

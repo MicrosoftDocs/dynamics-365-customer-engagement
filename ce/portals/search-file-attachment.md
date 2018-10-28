@@ -44,7 +44,7 @@ When you search for a term, the search results also include attachments. If the 
 ![Download attachment](media/search-attachment-content.png "Download attachment") 
 
 > [!NOTE]
-> - To use this functionality, you must [enable relevance search](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/configure-relevance-search-organization) in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. More information: [Relevance search](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/relevance-search-results)
+> - To use this functionality, you must [enable relevance search](https://docs.microsoft.com/dynamics365/customer-engagement/admin/configure-relevance-search-organization) in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. More information: [Relevance search](https://docs.microsoft.com/dynamics365/customer-engagement/basics/relevance-search-results)
 > - For the search to function within attachments, the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] version must be 9.0.1.x or later.
  
 ## Update portal configurations

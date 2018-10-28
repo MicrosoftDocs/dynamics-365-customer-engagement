@@ -87,7 +87,7 @@ When you install Voice of the Customer version 9.0.1162 and higher, the Voice of
 3. Select the Voice of the Customer app.
 
 > [!NOTE]
-> - To use the Voice of the Customer app, a user must be assigned the **Voice of the Customer app access role** security role. If this role is not assigned, users will see the web client behavior in Voice of the Customer app. More information on how to assign a security role to a user: [Assign a security role to a user](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user)
+> - To use the Voice of the Customer app, a user must be assigned the **Voice of the Customer app access role** security role. If this role is not assigned, users will see the web client behavior in Voice of the Customer app. More information on how to assign a security role to a user: [Assign a security role to a user](https://docs.microsoft.com/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user)
 > - When you assign the **Voice of the Customer app access role** security role to a user, the user will see duplicate forms for a few entities (survey, theme, and image) in web client. These forms are built for the Unified Client interface and must be used from the Voice of the Customer app only.
 
 ### See also

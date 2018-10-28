@@ -27,9 +27,9 @@ search.app:
   
  Dynamics 365 for Customer Engagement apps includes additional capabilities for Operations and Financials. For developer documentation using these capabilities, see:  
   
--   [Dynamics 365 for Customer Engagement apps Operations developer documentation](https://docs.microsoft.com/en-us/dynamics365/)  
+-   [Dynamics 365 Operations developer documentation](https://docs.microsoft.com/dynamics365/)  
   
--   [Dynamics 365 for Customer Engagement apps Financials developer documentation](https://docs.microsoft.com/en-us/dynamics365/)  
+-   [Dynamics 365 Financials developer documentation](https://docs.microsoft.com/dynamics365/)  
   
 ## What does xRM mean for a developer?  
  Business applications typically model and track connections between various types of business data (people, places, and things). [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] provides for declarative development of relational business applications with flexible data models and dynamic services. In addition to  the declarative application capabilities, business applications built on [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] can be extended and integrated with external systems through a rich Software Development Kit (SDK).  

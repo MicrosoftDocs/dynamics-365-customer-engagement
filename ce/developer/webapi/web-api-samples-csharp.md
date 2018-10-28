@@ -43,7 +43,7 @@ This topic provides information about the Web API samples implemented with C#. W
 - In order to run samples against [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps, you must register your application with Azure Active Directory to obtain a client ID and redirect URL. For more information, see [Walkthrough: Register a Dynamics 365 for Customer Engagement app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md).  
 
 > [!NOTE]
-> These samples require version 2.x of assembly [Microsoft.IdentityModel.Client.ActiveDirectory](https://docs.microsoft.com/en-us/dotnet/api/microsoft.identitymodel.clients.activedirectory?view=azure-dotnet) for OAuth based authentication with [!INCLUDE[](../../includes/pn-crm-online.md)] apps.
+> These samples require version 2.x of assembly [Microsoft.IdentityModel.Client.ActiveDirectory](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory?view=azure-dotnet) for OAuth based authentication with [!INCLUDE[](../../includes/pn-crm-online.md)].
   
 <a name="bkmk_webApiSamplesListing"></a>   
 ## Web API samples listing (C#)  
@@ -69,7 +69,7 @@ This topic provides information about the Web API samples implemented with C#. W
 ### Utilized libraries and frameworks  
  This C# implementation depends upon the following helper code for HTTP communication, application configuration, authentication, error handling, and JSON serialization.  
   
--   The standard .NET Framework HTTP messaging classes that are contained in the  [System.Net.Http namespace](https://msdn.microsoft.com/library/system.net.http\(v=vs.110\).aspx), particularly [HttpClient](https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=netframework-4.7.1), [HttpRequestMessage](https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httprequestmessage?view=netframework-4.7.1), and [HttpResponseMessage](https://msdn.microsoft.com/library/system.net.http.httpresponsemessage\(v=vs.110\).aspx), are used for HTTP messaging.  
+-   The standard .NET Framework HTTP messaging classes that are contained in the  [System.Net.Http namespace](https://msdn.microsoft.com/library/system.net.http\(v=vs.110\).aspx), particularly [HttpClient](https://docs.microsoft.com/dotnet/api/system.net.http.httpclient?view=netframework-4.7.1), [HttpRequestMessage](https://docs.microsoft.com/dotnet/api/system.net.http.httprequestmessage?view=netframework-4.7.1), and [HttpResponseMessage](https://msdn.microsoft.com/library/system.net.http.httpresponsemessage\(v=vs.110\).aspx), are used for HTTP messaging.  
   
 -   The Dynamics 365 for Customer Engagement Web API Helper Library is used to read the application configuration file, authenticate with the Dynamics 365 for Customer Engagement server, and assist in operation error handling.  For more information, see [Use the Dynamics 365 for Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md).  
   

@@ -29,7 +29,7 @@ search.app:
 Facilities and equipment are resources you’d use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. Add these resources to [!INCLUDE[pn_dynamics-crm](../includes/pn-dynamics-crm.md)] to ensure optimal services to your customers.  
 
 > [!IMPORTANT]
-> With the Customer Engagement apps version 9.1 release, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you create facilities and equipments using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add facilities and equipments to schedule service](add-facilities-equipment-ss-csh.md)
+> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
 ## Add a facility or equipment  
   

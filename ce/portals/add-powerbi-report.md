@@ -33,7 +33,7 @@ For example:
 ```
 
 > [!NOTE]
-> Before adding the secure Power BI report or dashboard to a webpage in portal, you must share it with the required users. More information: [Share Power BI workspace](https://docs.microsoft.com/en-us/power-bi/service-how-to-collaborate-distribute-dashboards-reports#collaborate-with-coworkers-in-an-app-workspace) and [Share Power BI dashboard and report](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards).
+> Before adding the secure Power BI report or dashboard to a webpage in portal, you must share it with the required users. More information: [Share Power BI workspace](https://docs.microsoft.com/power-bi/service-how-to-collaborate-distribute-dashboards-reports#collaborate-with-coworkers-in-an-app-workspace) and [Share Power BI dashboard and report](https://docs.microsoft.com/power-bi/service-share-dashboards).
 
 ## Get the path of a dashboard or report
 

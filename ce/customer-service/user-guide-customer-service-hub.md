@@ -71,8 +71,8 @@ Customer Service Hub advocates inclusive design and accessible content. The app 
 
 Refer below to know how the Customer Service Hub app complies to accessibility and GDPR guidelines:
 
-- [Accessibility features for Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/get-started/accessibility/customer-engagement/accessibility)
-- [Microsoft Dynamics 365 for Customer Engagement and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index)
+- [Accessibility features for Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility)
+- [Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/dynamics365/get-started/gdpr/index)
 - [Keyboard navigation support for the Customer Service Hub](keyboard-navigation-support-customer-service-hub.md)
 
 ### See also

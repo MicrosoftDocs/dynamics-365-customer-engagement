@@ -167,7 +167,7 @@ The mobile project template contains all customizations for the Field Service Mo
 > ![Screenshot of published mobile project with arrow showing status](media/mobile-install-project-verify-publish.png)  
 
 > [!Note]
-> This is a trial license and is valid for 30 days. The trial can be extended by following the guidance in this topic: [Extend Field Service Mobile configuration tool trial](../field-service/activate-fs-mobile-app-license.md).
+> **Warning:** This is a trial license and is valid for 30 days. The trial can be extended for development and testing purposes. Purchasing a Dynamics 365 for Field Service license entitles you to a limited Woodford license. Request a Woodford trial extension at the following link: <https://docs.microsoft.com/dynamics365/customer-engagement/field-service/activate-fs-mobile-app-license>
 
 
 
