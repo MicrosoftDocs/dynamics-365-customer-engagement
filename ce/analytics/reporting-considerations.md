@@ -89,7 +89,7 @@ search.app:
 <!--  Topic does not exist in OP
  [Developers guide to reports for Dynamics 365 for Customer Engagement](https://msdn.microsoft.com/library/gg328097.aspx)   
 -->   
- [Introduction to Microsoft Power Query for Excel](http://office.microsoft.com/en-ca/excel-help/introduction-to-microsoft-power-query-for-excel-HA104003940.aspx?CTT=5&origin=HA104003813)   
- [Dynamics 365 for Customer Engagement OData Feeds and Power Query: What’s the &#91;Record&#93;?](https://community.dynamics.com/crm/b/survivingcrm/archive/2014/02/16/dynamics-crm-odata-feeds-and-power-query-what-s-the-record.aspx)   
+ [Introduction to Microsoft Power Query for Excel](http://office.microsoft.com/excel-help/introduction-to-microsoft-power-query-for-excel-HA104003940.aspx?CTT=5&origin=HA104003813)   
+ [Dynamics 365 OData Feeds and Power Query: What’s the &#91;Record&#93;?](https://community.dynamics.com/crm/b/survivingcrm/archive/2014/02/16/dynamics-crm-odata-feeds-and-power-query-what-s-the-record.aspx)   
  [Using Power View in Excel 2013 to Analyze CRM Data](http://blogs.msdn.com/b/crm/archive/2013/04/17/using-power-view-in-excel-2013-to-analyze-crm-data.aspx)   
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)
