@@ -148,8 +148,8 @@
       href: admin/terminologies-performance-report.md
     - name: View, read, and compare performance report
       href: admin/view-read-compare-performance-report.md
-    - name: Operations and categories
-      href: admin/operations-categories.md
+    - name: Categories and operations
+      href: admin/categories-operations.md
 - name: Analyze best practices in Unified Service Desk
   href: admin/analyze-best-practices-unified-service-desk.md
   items:

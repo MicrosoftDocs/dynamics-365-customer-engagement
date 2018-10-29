@@ -27,4 +27,47 @@ monikerRange : '>= dynamics-usd-3'
 
 # View, read, and compare Unified Service Desk performance report
 
-HI
+## View the performance report for a performance session
+
+You can see a report with the performance session Id in the left pane. Selecting the report, you can see all the operations from various categories, and time consumed for the different percentiles in milliseconds.
+
+![View the performance report for performance session](../media/individual-perf-report.PNG "View the performance report for performance session")
+
+## Compare operations from different reports (performance session)
+
+Use the **Reports comparison** tab to review the comparative analysis of different operations based on the individual reports displayed in the performance report. The Report comparison tab displays sub tabs that has comparative analysis based on the percentiles. You can view the comparative analysis for 50th, 75th, 90th, 95th, and 99th percentile. The report shows **Operations ID** with an alphabet suffix and displays the comparison in terms of percentage. 
+
+For example, time taken for the **Unified Service Desk Cold** operation under the category, **Unified Service Desk Start Boot** from the two different reports shows with the Operation ID. You can see the comparison between these operations displayed as **(a) vs (b)** in terms of percentage.
+
+![Compare the performance report for different performance session](../media/compare-reports.PNG "Compare the performance report for different performance session")
+
+> [!NOTE]
+> The readability and legibility of the comparison works best when you view three performance sessions in a report.
+
+## View performance timeline graph and Performance details table
+
+1. Select a performance session ID from the left pane of the report.
+
+2. Select an operation from the list.<br>
+![Select a operation from the list of opertaions](../media/operation-navigation.PNG "Select a operation from the list of opertaions")
+
+3. Select the correlation ID from the list.<br>
+![Select a correlation ID from the list](../media/operation-navigation-correlationid.PNG "Select a correlation ID from the list")
+
+The report displays the Performance timeline graph and Performance details table.
+
+![Performance timeline graph](../media/performance-timeline-graph.PNG "Performance timeline graph")
+
+![Performance details table](../media/performance-details-table.PNG "Performance details table")
+
+## Read the performance timeline graph and the details table
+
+The timeline graph displays the time taken for an operation in terms of time consumed by each method under every class. The Y-axis displays the operation name and the X-axis displays the timeline.
+
+![Read the Performance report](../media/performance-details-table.PNG "Read the Performance report")
+
+Hover the cursor on any method name to see the time consumed.
+
+![Hover the cursor on any method to see the duration and name of the method](../media/hover-graph-details.PNG "Hover the cursor on any method to see the duration and name of the method")
+
+## See also
