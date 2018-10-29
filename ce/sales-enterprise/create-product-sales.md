@@ -3,11 +3,12 @@ title: "Create a product (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Use products in Dynamics 365 for Sales to define the products or services that your organization offers."
 keywords: "product, service"
 ms.date: 04/01/2018
-ms.service: dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: 
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 8847977e-3768-4859-bce4-821c259aa79a
@@ -19,13 +20,6 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 22
 topic-status: Drafting
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Set up products (Sales and Sales Hub)
@@ -34,7 +28,7 @@ search.app:
 
 Products are the backbone of your business. They can be physical products or services—whatever your organization sells. Your sales reps use the products you create in [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)] to generate sales quotes, marketing campaigns, orders, and invoices. Your customer service reps might also use them when they create customer service cases.  
 
-## Create a product (Sales Hub app)
+## Create a product (Sales Hub)
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]
 
@@ -88,7 +82,7 @@ Products are the backbone of your business. They can be physical products or ser
 > Previewing the properties of product is currently not supported in the Sales Hub app.
 
 
-## Create a product (Sales app)
+## Create a product (Sales)
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   

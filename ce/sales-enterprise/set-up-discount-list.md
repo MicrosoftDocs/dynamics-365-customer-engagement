@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: afdf269e-613e-4949-ab6a-d1e9c02d8370
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -28,7 +28,7 @@ topic-status: Drafting
 
 Motivate customers to buy more by offering them discounts on bulk purchases. To offer discounts, you need to set up a discount list.  
 
-## Set up a discount list (Sales Hub app)
+## Set up a discount list (Sales Hub)
 
 1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
@@ -74,7 +74,7 @@ Motivate customers to buy more by offering them discounts on bulk purchases. To 
  
 
 
-## Set up a discount list (Sales app)
+## Set up a discount list (Sales)
   
 1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   

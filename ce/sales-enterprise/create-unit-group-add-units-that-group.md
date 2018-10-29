@@ -30,7 +30,7 @@ Units are the quantities or measurements that you sell your products or services
   
  In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you first create a unit group and then create units within that group. Let's look at both of these tasks, using seeds as our example.  
  
-## Create a unit group and add units (Sales Hub app)
+## Create a unit group and add units (Sales Hub)
 
 1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
@@ -107,7 +107,7 @@ Units are the quantities or measurements that you sell your products or services
 > [!NOTE]
 >  You cannot delete the primary unit in a unit group.  
   
-## Create units in a unit group  (Sales app)
+## Create units in a unit group (Sales)
   
 1. In the unit group record you want to add the units to, on the nav bar, select the arrow next to the record name, and then under **Common**, select **Units**.
 
