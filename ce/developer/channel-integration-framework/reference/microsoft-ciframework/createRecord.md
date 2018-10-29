@@ -2,7 +2,7 @@
 title: "createRecord (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 10/01/2018
+ms.date: 10/12/2018
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -45,36 +45,28 @@ manager: shujoshi
 </tr>
 <tr>
 <td>data</td>
-<td>Object</td>
+<td>String</td>
 <td>Yes</td>
-<td><p>A JSON object defining the attributes and values for the new entity record.</p>
+<td><p>String defining the attributes and values for the new entity record.</p>
 </td>
 </tr>
 <tr>
 <td>successCallback</td>
 <td>Function</td>
 <td>No</td>
-<td><p>A function to call when a record is created. An object with the following properties will be passed to identify the new record:</p>
-<ul>
-<li><b>entityType</b>: String. The entity logical name of the new record.</li>
-<li><b>id</b>: String. GUID of the new record.</li>
-</ul></td>
+<td><p>A function to call when a record is created.</td>
 </tr>
 <tr>
 <td>errorCallback</td>
 <td>Function</td>
 <td>No</td>
-<td>A function to call when the operation fails. An object with the following properties will be passed:
-<ul>
-<li><b>errorCode</b>: Number. The error code.</li>
-<li><b>message</b>: String. An error message describing the issue.</li>
-</ul></td>
+<td>A function to call when the operation fails.</td>
 </tr>
 </table>
 
 ## Return Value
 
-On success, returns a promise object containing the attributes specified earlier in the description of the **successCallback** parameter.
+On success, returns a promise containing a string with the attributes and their values.
 
 ## Examples
 
@@ -88,18 +80,20 @@ var data = {
     "fullname": "Sample Contact",
     "emailaddress1": "contact@contoso.com",
     "jobtitle": "Sr. Marketing Manager",
-    "phonenumber": "555-0109",
+    "telephone1": "555-0109",
     "description": "Default values for this record were set programmatically."
 }
 // create contact record
-Microsoft.CIFramework.createRecord("contact",data).then(
+var jsonData = JSON.stringify(data);
+Microsoft.CIFramework.createRecord(entityLogicalName,jsonData).then(
     function success (result) {
-          console.log("Contact created with ID: " + result.id);
+      res=JSON.parse(result);
+          console.log("Contact created with ID: " + res.id);
           //perform operations on record creation
       },
       function (error) {
           console.log(error);
           //handle error conditions
       }
-  );
-```
+  ); 
+``` 

@@ -4,7 +4,6 @@
 
 # Installation
 ## [Field Service installation (online)](install-field-service.md)
-## [Mobile solution installation](install-the-mobile-app.md)
 ## [Sample data installation (app version 8.x)](install-sample-data-8-x.md)
 ## [Sample data installation (earlier app versions)](use-demo-data.md)
 ## [Activate Field Service mobile licenses](activate-fs-mobile-app-license.md)
@@ -70,6 +69,7 @@
 ## [Deployment](rso-deployment.md)
 ## [Configuration](rso-configuration.md)
 ## [Schedule optimization](rso-schedule-optimization.md)
+### [Single resource optimization](single-resource-optimization.md)
 ## [FAQ and troubleshooting tips](rso-faq.md)
 
 # [Connected Field Service (IoT) add-in](connected-field-service.md)

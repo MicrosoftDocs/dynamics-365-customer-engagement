@@ -569,7 +569,7 @@ With Dynamics 365 App for Outlook in pinned mode, you can select an email messag
   
  ![Down arrow button](../media/down-arrow.png "Down arrow button") [What Dynamics 365 App for Outlook offers](dynamics-365-app-outlook-user-s-guide-v8.md#Overview2)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Prerequisites for adding and using Dynamics Dynamics 365 App for Outlook](dynamics-365-app-outlook-user-s-guide-v8.md#Prerequisites2)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Prerequisites for adding and using Dynamics 365 App for Outlook](dynamics-365-app-outlook-user-s-guide-v8.md#Prerequisites2)  
   
  ![Down arrow button](../media/down-arrow.png "Down arrow button") [Add the app to Outlook](dynamics-365-app-outlook-user-s-guide-v8.md#Install2)  
   
@@ -610,7 +610,7 @@ With Dynamics 365 App for Outlook in pinned mode, you can select an email messag
 - Open                          [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] records directly to find or enter more detailed information.  
   
 <a name="Prerequisites2"></a>   
-### Prerequisites for adding and using Dynamics Dynamics 365 App for Outlook  
+### Prerequisites for adding and using Dynamics 365 App for Outlook  
  Your                  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] system administrator can deploy                  [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] to your organization or you can add it yourself as long as you have the required security privileges (the                  **Use Dynamics 365 App for Outlook** privilege) and if your organization synchronizes incoming email with                  [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)]. The system will let you know if these prerequisites have not been met when you attempt to add the app. If you’re an admin, and you want to learn about deploying the app, see                  [Deploy Dynamics 365 App for Outlook (lightweight app)](https://technet.microsoft.com/library/dn946901.aspx).  
   
 <a name="Install2"></a>   

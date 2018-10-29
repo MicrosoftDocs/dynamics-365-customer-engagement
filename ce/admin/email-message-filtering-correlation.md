@@ -1,7 +1,7 @@
 ---
 title: "Email message filtering and correlation for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 07/17/2018
+ms.date: 10/16/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -35,7 +35,7 @@ Server-side synchronization, [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](..
 
 - **Email messages from Microsoft Dynamics 365 records that are email enabled**. Email messages are tracked from any record type that contains an email address, including customized record types (entities).  
 
-By default, the **Email messages in response to Dynamics 365 email** option is enabled. Correlation occurs after an email message is filtered. System administrators can turn off all message tracking for a particular user by setting the **Email Access Type - Incoming** value to **None** on the **General** tab on the **User** form.  
+By default, the **Email messages in response to Dynamics 365 email** option is enabled. Correlation occurs after an email message is filtered. System administrators can turn off all message tracking for a particular user by setting **Incoming Email** under **Synchronization Method** to **None** on the Mailbox form.  
 
 Email correlation is set on the **Email** tab of the System Settings page and can be enabled or disabled for the entire [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses two kinds of correlation, tracking tokens and smart matching. By default, both correlation types are enabled.  
 

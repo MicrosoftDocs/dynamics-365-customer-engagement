@@ -254,7 +254,7 @@ Use the [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[cc-linke
 - **Analyze lead performance across sources**  
     Track and analyze the performance of leads captured on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] versus other sources.
 
-[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] integration relies on the Lead Gen Forms capability of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] to capture leads. This is a paid [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] service, which you must subscribe to to enable the integration.
+[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] integration relies on the Lead Gen Forms capability of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] to capture leads. This is a paid [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] service, which you must subscribe to enable the integration.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [LinkedIn Lead Gen integration](linkedin-lead-gen-integration.md)
 
