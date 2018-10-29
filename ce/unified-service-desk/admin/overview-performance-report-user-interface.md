@@ -27,3 +27,24 @@ monikerRange : '>= dynamics-usd-3'
 
 # Overview of Unified Service Desk performance report user interface
 
+The report you launch in the Unified Service Desk Performance Analyzer opens in a web browser. Also, you can access the performance report using the **Copy report folder path** option in the performance analyzer tool and pasting it in the **File Explorer** address bar.
+
+The landing page of the performance report displays the following:
+
+- **Report location:** The location where the report is stored in your computer.
+
+- **Report area:** The operation details for various category and details like, timeline graph, table, are displayed in this area.
+
+- **Left pane:** The left pane holds the Home, Report comparison, Performance report for all sessions, and individual reports.
+
+- **Home:** Use the Home button to navigate to the home page of the report.
+
+- **Report comparison:** The tab provides the comparative analysis all the operations from different reports for each percentile.
+
+- **Performance report for all sessions:** See the details of the common operations and percentiles for different categories of all the sessions across the other reports.
+
+- **Individual reports:** See the details of the operations, percentiles, action, and time taken for the different methods in the form a timeline graph and table.
+
+![Performance report user interface](../media/performance-report-interface.PNG "Performance report user interface")
+
+## See also
