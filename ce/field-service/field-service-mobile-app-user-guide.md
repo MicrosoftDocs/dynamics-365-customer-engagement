@@ -175,8 +175,9 @@ search.app:
  The map shows the location of your accounts and contacts on a map.  
   
  To filter the view, tap **Accounts** or **Contacts**.  
-  
- ![Map view](../field-service/media/field-service-map-view.png "Map view")  
+ 
+> [!div class="mx-imgBorder"]
+> ![Map view](../field-service/media/field-service-map-view.png "Map view")  
   
 ## Calendar  
  The calendar shows your appointments on a calendar.  
