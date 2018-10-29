@@ -381,7 +381,7 @@ else
   
  [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] takes many of the Main form elements and presents them in a way that is optimized for tablets, as shown in the following diagram.  
   
- ![Diagram of a form in Dynamics Dynamics 365 for tablets](../../../admin/media/crm-itpro-cust-mocaformdiagram.png "Diagram of a form in Dynamics Dynamics 365 for tablets")  
+ ![Diagram of a form in Dynamics 365 for tablets](../../../admin/media/crm-itpro-cust-mocaformdiagram.png "Diagram of a form in Dynamics 365 for tablets")  
   
  **Relationships**  
   
@@ -412,7 +412,7 @@ else
   
  To further simplify forms, you can hide components from appearing in the phone app. You can hide tabs, sections, subgrids, fields, and charts. For example, to hide the Details tab in the Contact form, click **Settings** > **Customizations** > **Customize the System** > **Components** > expand **Entities** > expand the **Contact** entity > **Forms**. Select the **Contact** form, then scroll down and click **Details**. Click **Change Properties** and clear the **Available on phone** check box to hide the Detail tab from appearing on the Contact form for phone users.  
   
- ![Hide the Detail tab on Dynamics  Dynamics 365 for phones](../../../admin/media/crm-itpro-phonehidedetailtab.png "Hide the Detail tab on Dynamics  Dynamics 365 for phones")  
+ ![Hide the Detail tab on Dynamics 365 for phones](../../../admin/media/crm-itpro-phonehidedetailtab.png "Hide the Detail tab on Dynamics 365 for phones")  
   
 ### Other differences with [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]  
  There are a few differences between [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]:  
