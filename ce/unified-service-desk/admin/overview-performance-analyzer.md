@@ -26,3 +26,34 @@ search.app:
 
 # Overview of Unified Service Desk Performance Analyzer
 
+Unified Service Desk Performance Analyzer is a powerful performance monitoring tool that analyzes the
+operations of your Unified Service Desk client from the performance data logs and generates in-depth
+report to identify the problematic areas. The report provides a detailed analysis like the duration of
+every operation so that you focus on these areas to troubleshoot the issues effectively.
+
+## Challenges
+Unified Service Desk provides a configurable framework for quickly building the contact center agent
+application. You configure various elements like hosted controls, events, action calls, custom scripts to
+define the user experience in the client application. However, if you encounter performance issues with
+Unified Service Desk, it is hard to identify due to which elements the issue occurred. The issues may
+have occurred due network, Dynamics 365, Unified Service Desk configuration elements like hosted
+controls, custom scripts, action calls and so on.
+
+## Advantages or value proposition of the performance analyzer
+
+The advantages or value proposition of the Unified Service Desk performance analyzer are as follows:
+- Graphical representation of performance data logs, in charts and table.
+- Reduction in the time spent on troubleshooting.
+E- asy analysis of the problematic areas.
+- Better visualization of execution time for each operations.
+- Report for operations performed in the client application.
+- Review the performance of the client application end-to-end.
+- Provides classes and methods level analysis.
+- Comparative analysis of the different performance reports (generated out of performance data logs).
+- Ease of access to the reports for future reference.
+
+## Support matrix
+The Unified Service Desk Performance Analyzer supports Unified Service Desk 3.2 and higher.
+
+## See also
+
