@@ -38,9 +38,12 @@ The Dynamics 365 app for Teams bot feature allows you to interact with Dynamics 
 2. Select the **Conversations** tab and sign in to the bot. You'll see some pre-loaded options.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/teams-bot-select-opportunity.png "Select opportunity")
+   > ![](media/teams-bot-welcome.png "Sign in to the bot")
 
 3. For example, select **Opportunity** to have the bot return a list view of records from your default view.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-bot-select-opportunity.png "Select opportunity")
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-bot-list-opportunities.png "List of open opportunities")
