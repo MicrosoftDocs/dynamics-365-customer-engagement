@@ -50,3 +50,6 @@ If you have more than one organization or Unified Interface app, you can use the
 > - Only Dynamics 365 version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
 > - Only Unified Interface apps are listed.
 > - Only app modules licensed for the selected organization are listed. 
+
+### See also  
+ [Set up the personal dashboard](teams-install-app.md#set-up-the-personal-dashboard)

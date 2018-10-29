@@ -32,23 +32,41 @@ The Dynamics 365 app for Teams bot feature allows you to interact with Dynamics 
 
 1. Open the Dynamics 365 app.
 
-> [!div class="mx-imgBorder"] 
-> ![](media/teams-pick-app.png "Open the Dynamics 365 app")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-pick-app.png "Open the Dynamics 365 app")
 
-2. Select the **Conversations** tab. Type in something to search, like "search opportunity smart switch", and then press **Enter**.
+2. Select the **Conversations** tab and sign in to the bot. You'll see some pre-loaded options.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/teams-search-contoso.png "Type in something to search in Dynamics 365")
+   > ![](media/teams-bot-select-opportunity.png "Select opportunity")
 
-A list of records from Dynamics 365 (online) that relate to your search text are returned. In this case, an opportunity is returned.
+3. For example, select **Opportunity** to have the bot return a list view of records from your default view.
 
-> [!div class="mx-imgBorder"] 
-> ![](media/teams-search-typed.png "Type in something to search in Dynamics 365")
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-bot-list-opportunities.png "List of open opportunities")
 
-The details of the selected record are displayed. You can update the details of the opportunity as if you were in the web app.
+4. Enter text like "contoso" in the search field to find related records.
 
-You can also use the bot menu to do some other app related things.
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-bot-search-contoso.png "Type contoso")
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-bot-search-results.png "Related records returned")
+
+5. You can use the bot to edit and update a record.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-bot-edit-record.png "Update a record")
+
+6. Use the bot to create a post in Dynamics 365 (online).
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/teams-bot-create-post.png "Create a post")
+
+7. You can use the bot menu for other actions such as change org or app module.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-bot-menu.png "Open the bot menu")
 
+### See also  
+ [Set up the Dynamics 365 bot](teams-install-app.md#set-up-the-dynamics-365-bot)

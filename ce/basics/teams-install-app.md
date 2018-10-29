@@ -87,7 +87,7 @@ After completing the above steps, you can select Dynamics 365 only record to con
 
 For troubleshooting, see [Troubleshoot Teams integration](teams-troubleshoot.md).
 
-## Set up the Dynamics 365 bot in Teams
+## Set up the Dynamics 365 bot
 Set up the bot feature to interact with Dynamics 365 (online).
 
 1. Open the Dynamics 365 app.
@@ -112,7 +112,7 @@ Set up the bot feature to interact with Dynamics 365 (online).
 
 4. Enter credentials and sign in.
 
-The Dynamics 365 bot setup is complete and a recently used record is displayed to help you get started.
+The Dynamics 365 bot setup is complete and some pre-loaded options are available for getting started.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-bot-confirmation.png "Bot is set up")
