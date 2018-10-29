@@ -141,16 +141,15 @@
     href: admin/performance-data-collection-using-keyboard-shortcut.md
   - name: Generate performance report
     href: admin/generate-performance-report.md
-  - name: Unified Service Desk performance report
-    href: admin/performance-report.md
+  - name: Overview of performance report user interface
+    href: admin/overview-performance-report-user-interface.md
     items:
-    - name: Overview of performance report user interface
-      href: admin/overview-performance-report-user-interface.md
-      items:
-      - name: Terminologies in the performance report
-        href: admin/terminologies-performance-report.md
+    - name: Terminologies in the performance report
+      href: admin/terminologies-performance-report.md
     - name: View, read, and compare performance report
       href: admin/view-read-compare-performance-report.md
+    - name: Operations and categories
+      href: admin/operations-categories.md
 - name: Analyze best practices in Unified Service Desk
   href: admin/analyze-best-practices-unified-service-desk.md
   items:

@@ -1,6 +1,6 @@
 ---
-title: "Unified Service Desk performance report | MicrosoftDocs"
-description: "Learn about the Unified Service Desk performance report generated using the Unified Service Desk Performance Analyzer."
+title: " Categories and operations in Unified Service Desk performance report | MicrosoftDocs"
+description: "Learn about the operations and categories based on which the Unified Service Desk performance report is generated using the Unified Service Desk Performance Analyzer."
 ms.date: 10/31/2018
 ms.service: 
   - "dynamics-365-customerservice"
@@ -25,6 +25,6 @@ search.app:
 monikerRange : '>= dynamics-usd-3'
 ---
 
-# Performance report of Unified Service Desk
+# Categories and opertaions
 
 HI
