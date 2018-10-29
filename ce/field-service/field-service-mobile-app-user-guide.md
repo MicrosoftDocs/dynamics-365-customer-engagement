@@ -193,9 +193,6 @@ search.app:
  ![About the Field Service Mobile app device](../field-service/media/field-service-about-mobile-device.PNG "About the Field Service Mobile app device")  
   
 <a name="bkmk_fieldagents"></a>   
-### For field agents  
- Field agents can use the mobile app to review work orders and get the information they need to complete a job.  
-  
 ## Review work order bookings  
  When a work order is assigned to you, it shows up in [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile).  
   
