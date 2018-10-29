@@ -67,7 +67,7 @@ Namespace Microsoft.Crm.Sdk.Samples
          Directory.CreateDirectory(exportFolder)
      End If
 
-     'Retrieve the Appliation Ribbon
+     'Retrieve the Application Ribbon
      Dim appribReq As New RetrieveApplicationRibbonRequest()
      Dim appribResp As RetrieveApplicationRibbonResponse = CType(_serviceProxy.Execute(appribReq), RetrieveApplicationRibbonResponse)
 
@@ -114,7 +114,7 @@ Namespace Microsoft.Crm.Sdk.Samples
   End Sub
 
   ''' <summary>
-  ''' A helper method that decompresses the the Ribbon data returned
+  ''' A helper method that decompresses the Ribbon data returned
   ''' </summary>
   ''' <param name="data">The compressed ribbon data</param>
   ''' <returns></returns>
