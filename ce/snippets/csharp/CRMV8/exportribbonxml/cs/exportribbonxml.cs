@@ -141,7 +141,7 @@ namespace Microsoft.Crm.Sdk.Samples
      if (!Directory.Exists(exportFolder))
          Directory.CreateDirectory(exportFolder);
 
-     //Retrieve the Appliation Ribbon
+     //Retrieve the Application Ribbon
      RetrieveApplicationRibbonRequest appribReq = new RetrieveApplicationRibbonRequest();
      RetrieveApplicationRibbonResponse appribResp = (RetrieveApplicationRibbonResponse)_serviceProxy.Execute(appribReq);
 
