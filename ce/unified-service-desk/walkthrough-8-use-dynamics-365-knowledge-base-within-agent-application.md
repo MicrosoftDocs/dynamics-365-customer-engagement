@@ -135,7 +135,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
    ![Add action to event](../unified-service-desk/media/usd-addactiontoevent.png "Add action to event")  
 
-9. Type `Sample: Open KB Search Control` in the search box, and press ENTER or click the search button to add the action to the event. Change the order of the added action to 1, and then click the the **Save**![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
+9. Type `Sample: Open KB Search Control` in the search box, and press ENTER or click the search button to add the action to the event. Change the order of the added action to 1, and then click the **Save**![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
 
 <a name="Step3"></a>   
 ## Step 3: Configure action calls to automatically display and hide the knowledge base search panel  
