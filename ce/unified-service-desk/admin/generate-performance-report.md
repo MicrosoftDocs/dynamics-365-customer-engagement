@@ -22,6 +22,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+monikerRange : '>= dynamics-usd-3'
 ---
 
 # Generate Unified Service Desk performance report

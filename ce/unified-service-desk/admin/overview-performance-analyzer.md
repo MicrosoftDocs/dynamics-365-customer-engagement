@@ -22,6 +22,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+monikerRange : '>= dynamics-usd-3'
 ---
 
 # Overview of Unified Service Desk Performance Analyzer
