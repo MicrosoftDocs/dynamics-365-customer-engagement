@@ -56,17 +56,17 @@ The Dynamics 365 app for Teams bot feature allows you to interact with Dynamics 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-bot-search-results.png "Related records returned")
 
-5. You can use the bot to edit and update a record.
+5. Edit and update a record.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-bot-edit-record.png "Update a record")
 
-6. Use the bot to create a post in Dynamics 365 (online).
+6. Create a post in Dynamics 365 (online).
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-bot-create-post.png "Create a post")
 
-7. You can use the bot menu for other actions such as change org or app module.
+7. Use the bot menu for other actions such as change the org or app module.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-bot-menu.png "Open the bot menu")
