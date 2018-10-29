@@ -129,7 +129,7 @@ When you import the solution, it creates the **min prv apps use** role which you
   
 - When logging in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]:  
   
-  -   Assign the the min prv apps use security role or a copy of this security role to your user.
+  -   Assign the min prv apps use security role or a copy of this security role to your user.
   
   -   To render an entity grid (that is, to view lists of records and other data), assign the following privileges on the Core Records tab: Read privilege on the entity, Read Saved View, Create/Read/Write User Entity UI Settings
       and assign the following privilege on the Business Management tab: Read User   

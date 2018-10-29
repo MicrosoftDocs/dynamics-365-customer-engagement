@@ -50,7 +50,7 @@ search.app:
 ## For admins: Get to the admin center through the Office 365 app launcher  
  If you're a [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] system administrator or an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] global administrator, click the app launcher to see the **Admin** tile.  
   
- ![Admin tile on the the Office 365 app launcher](../admin/media/select-admin-from-app-launcher.png "Admin tile on the the Office 365 app launcher")  
+ ![Admin tile on the Office 365 app launcher](../admin/media/select-admin-from-app-launcher.png "Admin tile on the Office 365 app launcher")  
   
  Click the **Admin** tile to go to the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], where you can add users and change passwords.  
   

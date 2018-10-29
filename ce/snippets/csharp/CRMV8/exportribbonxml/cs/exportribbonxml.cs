@@ -141,7 +141,7 @@ namespace Microsoft.Crm.Sdk.Samples
      if (!Directory.Exists(exportFolder))
          Directory.CreateDirectory(exportFolder);
 
-     //Retrieve the Appliation Ribbon
+     //Retrieve the Application Ribbon
      RetrieveApplicationRibbonRequest appribReq = new RetrieveApplicationRibbonRequest();
      RetrieveApplicationRibbonResponse appribResp = (RetrieveApplicationRibbonResponse)_serviceProxy.Execute(appribReq);
 
@@ -193,7 +193,7 @@ namespace Microsoft.Crm.Sdk.Samples
   }
 
   /// <summary>
-  /// A helper method that decompresses the the Ribbon data returned
+  /// A helper method that decompresses the Ribbon data returned
   /// </summary>
   /// <param name="data">The compressed ribbon data</param>
   /// <returns></returns>
