@@ -59,6 +59,9 @@ To create and publish a content block:
     - If you are comfortable working with HTML code, and if a single design element won't meet your needs for the content block, then you can create much more complex content by working on the **Design** > **HTML** tab instead of the **Design** > **Designer** tab. However, you still can't add code to create more than one design element within the content block.
 
     > [!NOTE]
+    > Any CSS styles that you include in your content block could be overruled by styles in the document where you eventually host the content. If you want to prevent this, design your content blocks with inline styles that include the `!important` attribute.
+
+    > [!NOTE]
     > When you are designing a content block in the graphical designer, the image element requires that you specify the image using a URL rather than select one from the file browser. You can still use images stored in your file library, but you must look up the URL first by going to **Marketing** > **Marketing content** > **Files**.
 
 1. Select **Save** in the toolbar to save your work.
