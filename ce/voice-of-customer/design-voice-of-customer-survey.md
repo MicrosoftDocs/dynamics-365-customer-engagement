@@ -1,6 +1,6 @@
 ---
 title: "Design your Voice of the Customer for Dynamics 365 survey | MicrosoftDocs"
-description: ""
+description: "Developing a personal relationship with your customers helps to understand when they are being taken care of where there are areas for improvement.  Being able to perform a lightweight check-up with a VOC survey can help to maintain your relationship with the customer and verify that they are being delighted and cared for."
 ms.assetid: e5b40c86-a518-48d0-9bf5-88915e73bf5b
 ms.custom:
   - dyn365-VoC
