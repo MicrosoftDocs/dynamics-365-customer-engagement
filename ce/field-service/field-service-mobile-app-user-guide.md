@@ -89,12 +89,12 @@ search.app:
 > [!NOTE]
 >  If you have a [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] admin, dispatcher,  inventory purchase, or resource (field agent) security role, you can use [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile). However, depending on your security role, you may not have permission to access or change certain data in the app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 administrator or support person](../basics/find-administrator-support.md)  
   
-## Dashboard  
+### Dashboard  
  Your dashboard provides a quick overview of business data. Depending on how things are set up in [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile), you may see a default system dashboard or one that you created. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or customize dashboards](../customize/create-edit-dashboards.md)  
   
  ![Dashboard screen in the Field Service Mobile app](../field-service/media/field-service-dashboard-sceen.PNG "Dashboard screen in the Field Service Mobile app")  
   
-## Accounts  
+### Accounts  
  In Accounts you can see a list of your service accounts.  
   
  To see where all of the accounts are located on a map view, tap the **Map View** button.  
@@ -111,14 +111,14 @@ search.app:
   
  ![Edit account view in the Field Service Mobile app](../field-service/media/field-service-edit-account-view.PNG "Edit account view in the Field Service Mobile app")  
   
-## Bookable resources  
+### Bookable resources  
  In Bookable Resources shows your work order bookings.  
   
  By default, work orders are listed in the **Agenda** view. To change views, tap **Day**, **Week**, or **Month**.  
   
  ![Bookable Resource Bookings in the agenda view](../field-service/media/field-service-booking-view.PNG "Bookable Resource Bookings in the agenda view")  
   
-## Contacts  
+### Contacts  
  Contacts shows a list of all your account contacts.  
   
  To see where your contacts are located on a map, tap the **Map** button.  
@@ -135,7 +135,7 @@ search.app:
   
  ![Edit a contact](../field-service/media/field-service-edit-contact.PNG "Edit a contact")  
   
-## Customer assets  
+### Customer assets  
  In Customer Assets you'll see which products a customer uses.  
   
  To add new customer assets, tap the **+**  button, and then add the asset information.  
@@ -146,7 +146,7 @@ search.app:
   
  ![Edit customer assets](../field-service/media/field-service-edit-customer-assets.PNG "Edit customer assets")  
   
-## Products  
+### Products  
  Products shows a list of your products, including the price, type of product, quantity on hand, and more.  
   
  To add a new product, tap the **+**  button, and then add the product information.  
@@ -157,10 +157,10 @@ search.app:
   
  ![View more product info](../field-service/media/field-service-view-more-porduct-info.PNG "View more product info")  
   
-## Agreements  
+### Agreements  
  Agreements is where you can see customer contracts.  
   
-## Time off requests  
+### Time off requests  
   
 1. If you need to take time off or you are not available to take a new work order, tap **Time Off Requests**, and then tap the **+**  button.  
   
@@ -171,7 +171,7 @@ search.app:
   
    ![Request time off](../field-service/media/field-service-request-time-off.PNG "Request time off")  
   
-## Map  
+### Map  
  The map shows the location of your accounts and contacts on a map.  
   
  To filter the view, tap **Accounts** or **Contacts**.  
@@ -179,13 +179,13 @@ search.app:
 > [!div class="mx-imgBorder"]
 > ![Map view](../field-service/media/field-service-map-view.png "Map view")  
   
-## Calendar  
+### Calendar  
  The calendar shows your appointments on a calendar.  
   
-## Settings and sign-in  
+### Change settings and sign-in info
  To see or update your setup or sign-in information, tap **Setup**.  
   
-## About this version
+### About this version
  To see which version of the app you’re using, tap **About**.  
   
  Tap the **Menu** button in the top right to send logs, view privacy info, and more.  
@@ -194,7 +194,7 @@ search.app:
   
 <a name="bkmk_fieldagents"></a>   
 ### For field agents  
- Field agents can use the mobile app to review work orders and get all the information they need to complete the job.  
+ Field agents can use the mobile app to review work orders and get the information they need to complete a job.  
   
 ## Review work order bookings  
  When a work order is assigned to you, it shows up in [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile).  
