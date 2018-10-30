@@ -31,4 +31,13 @@ The Unified Service Desk Performance Analyzer is an executable file that you can
 
 Download the [Unified Service Desk Performance Analyzer](https://go.microsoft.com/fwlink/p/?linkid=2034281).
 
+> [!div class ="nextstepaction"]
+> [Generate (collect) performance data log](performance-data-collection-using-keyboard-shortcut.md)
+
 ## See also
+
+[Overview of Unified Service Desk Performance Analyzer](overview-performance-analyzer.md)
+
+[Generate performance report](generate-performance-report.md)
+
+[Overview of performance report user interface](overview-performance-report-user-interface.md)

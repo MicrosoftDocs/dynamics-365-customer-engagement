@@ -146,7 +146,16 @@ To configure a new performance data collection keyboard shortcut:
 
 7. Click **Save & Close**.
 
+> [!div class="nextstepaction"]
+> [Generate performance report](generate-performance-report.md)
+
 ## See also
+
+[Overview of Unified Service Desk Performance Analyzer](overview-performance-analyzer.md)
+
+[Download Unified Service Desk Performance Analyzer](download-performance-analyzer.md)
+
+[Overview of performance report user interface](overview-performance-report-user-interface.md)
 
 [Configure auditing and diagnostics in Unified Service Desk](../admin/configure-auditing-diagnostics-unified-service-desk.md)
 
