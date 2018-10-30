@@ -28,11 +28,11 @@ search.app:
 
 Avoid disruptions in service by making sure that your resources are scheduled optimally and efficiently. Using Service Scheduling, you can plan and schedule service activities for your customers by bringing together all your resources.
 
+## Understand the new Service Scheduling experience
+
 Service Scheduling, now built atop **Universal Resource Scheduling (URS)**, provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling.
 
 With the Customer Engagement apps version 9.1 release, the new Service Scheduling is available from the Customer Service Hub sitemap.
-
-## Understand the new Service Scheduling experience
 
 The new experience lists the entities as follows, as compared to the legacy experience:
 
@@ -47,7 +47,6 @@ The new experience lists the entities as follows, as compared to the legacy expe
 |Business Closure     |      Business Closure    |
 |Schedule Board     |      Schedule Board       |
 |   |           |
-
 
 - Sites are now Organizational Units.
 - Resource Groups are now Resource Categories.
@@ -157,7 +156,9 @@ Let's see how Contoso accomplishes the task:
 
 ## Set up the new scheduling experience
 
-Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.
+Make sure that you have the required security role or equivalent permissions. 
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
 1. Check the Universal Resource Scheduling (URS) version
 
@@ -178,7 +179,7 @@ Make sure that you have the Customer Service Manager, System Administrator, or S
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Access Service Scheduling in the Customer Service Hub](#access-service-scheduling-in-the-customer-service-hub)
 
-## Configure entity records in the new experience
+## Configure entity records in the new scheduling experience
 
 Configure all your entity records in the new experience manually from the user interface. Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.
 

@@ -37,7 +37,9 @@ To make scheduling services quick and easy, it’s helpful to predefine the spec
 
 ## Create a service
   
-Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
+Make sure that you have the required security role or equivalent permissions. 
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
 1. In the Customer Service Hub sitemap, go to **Service Scheduling**.
 2. From the list of entity records, select **Scheduling > Service**.

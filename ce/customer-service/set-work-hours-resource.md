@@ -33,7 +33,9 @@ You can set up and define the hours a resource is available. By default, the res
   
 ## Set work hours for a facility or equipment
   
-Make sure that you have the System Administrator, System Customizer, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager security role or equivalent permissions.
+Make sure that you have the required security role or equivalent permissions. 
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
 1. Go to **Settings** > **Business Management**.
 

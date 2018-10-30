@@ -30,7 +30,9 @@ With bookable resource categories, you can group your bookable resources by type
 
 ## Create a new resource category
 
-Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
+Make sure that you have the required security role or equivalent permissions. 
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
 1. In the Customer Service Hub sitemap, go to **Service Scheduling**.
 2. From the list of entity records, select **Scheduling > Resource Category**.

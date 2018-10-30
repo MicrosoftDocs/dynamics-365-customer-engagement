@@ -28,7 +28,9 @@ Create organizational units to organize and maintain a company's business by geo
 
 ## Create a new organizational unit
 
-Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
+Make sure that you have the required security role or equivalent permissions. 
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
 1. In the Customer Service Hub sitemap, go to **Service Scheduling**.
 
