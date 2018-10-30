@@ -113,6 +113,7 @@
 #### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
 
 ### Event planning and management
+#### [Open the event management work area](open-events.md)
 #### [Event management overview](event-management.md)
 #### [Set up an event](set-up-event.md)
 #### [Set up and manage an event waitlist](event-waitlist.md)
