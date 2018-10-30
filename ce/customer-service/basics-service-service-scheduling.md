@@ -162,7 +162,7 @@ Make sure that you have the required security role or equivalent permissions.
 
 1. Check the Universal Resource Scheduling (URS) version
 
-   For the new experience, you should have the latest version of URS installed on your system. Check the URS version. Go to **Settings** and select **Solutions** to see the current version of URS on your machine.
+   For the new experience, you should have the latest version of URS installed on your system. To check the URS version, go to **Settings** and select **Solutions** to see the current version of URS on your system.
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
 
@@ -170,10 +170,6 @@ Make sure that you have the required security role or equivalent permissions.
       >  Consider that importing the service scheduling package will upgrade URS to the latest version. If Field Service or Project Service is already installed on your org with an older version of URS, then URS will also be upgraded. </br> The latest version of URS might not be compatible with the old versions of Field Service or Project Service.
 
 2.  Get the Service Scheduling package
-
-    Go to [Microsoft AppSource](https://appsource.microsoft.com/en-us/?src=dynamics365website&product=dynamics-365-business-central%3Bdynamics-365-for-customer-services%3Bdynamics-365-for-field-services%3Bdynamics-365-for-finance-and-operations%3Bdynamics-365-for-project-service-automation%3Bdynamics-365-for-sales) to access the Service Scheduling package. Search and opt for the package and fill the questionnaire. 
-
-    You receive an email confirmation once the package is deployed for your org.
   
 3. Access Service Scheduling in the Customer Service Hub sitemap
 
