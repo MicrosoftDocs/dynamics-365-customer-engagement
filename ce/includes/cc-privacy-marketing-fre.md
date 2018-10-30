@@ -21,40 +21,40 @@ Data flows involving the customer-insights services include the following:
 
 ### Marketing services
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses these [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] services:
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses these Azure services:
 
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Data Lake Store
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Data Lake Analytics
-- [!INCLUDE[pn-azure-key-vault](../includes/pn-azure-key-vault.md)]
-- [!INCLUDE[pn_azure_service_fabric](../includes/pn_azure_service_fabric.md)]
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] DocumentDB
-- [!INCLUDE[pn-microsoft-azure-active-directory](../includes/pn-microsoft-azure-active-directory.md)]
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Storage
+- Azure Data Lake Store
+- Azure Data Lake Analytics
+- Azure Key Vault
+- Azure Service Fabric
+- Azure DocumentDB
+- Azure Active Directory
+- Azure Storage
 
 > [!NOTE]
-> For more information about additional [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] service offerings, see the [!INCLUDE[cc_privacy_note_azure_trust_center](../includes/cc_privacy_note_azure_trust_center.md)] (<https://azure.microsoft.com/support/trust-center/>).
+> For more information about additional Azure service offerings, see the [!INCLUDE[cc_privacy_note_azure_trust_center](../includes/cc_privacy_note_azure_trust_center.md)] (<https://azure.microsoft.com/support/trust-center/>).
 
 ### Customer-insights services for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
 By using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you are activating the transfer of customer data into the customer-insights services for further processing. Your use of the customer-insights services might require compliance with specific privacy laws. Please direct any questions to the appropriate representative in your organization.
 
-The customer-insights services are natively built on [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] services, and respective compliance and security standards for each applicable [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] service apply. For more information, go to the [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Trust Center: [https://azure.microsoft.com/support/trust-center/](https://azure.microsoft.com/support/trust-center/)
+The customer-insights services are natively built on Azure services, and respective compliance and security standards for each applicable Azure service apply. For more information, go to the [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Trust Center: [https://azure.microsoft.com/support/trust-center/](https://azure.microsoft.com/support/trust-center/)
 
-The customer-insights services use these [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] services:
+The customer-insights services use these Azure services:
 
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Data Lake Store
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Data Lake Analytics
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] HDInsight (Spark, Phoenix, HBase)
-- [!INCLUDE[pn-ms-azure-sql-database](../includes/pn-ms-azure-sql-database.md)]
-- [!INCLUDE[pn-azure-key-vault](../includes/pn-azure-key-vault.md)]
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Secret Store
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Event Hub
-- [!INCLUDE[pn-azure-stream-analytics](../includes/pn-azure-stream-analytics.md)]
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Redis Cache
-- [!INCLUDE[pn_azure_service_fabric](../includes/pn_azure_service_fabric.md)]
-- [!INCLUDE[pn-microsoft-azure-active-directory](../includes/pn-microsoft-azure-active-directory.md)]
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Monitoring
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Metrics
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Websites
-- [!INCLUDE[pn_azure_service_bus](../includes/pn_azure_service_bus.md)]
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Storage
+- Azure Data Lake Store
+- Azure Data Lake Analytics
+- Azure HDInsight (Spark, Phoenix, HBase)
+- Azure SQL Database
+- Azure Key Vault
+- Azure Secret Store
+- Azure Event Hub
+- Azure Stream Analytics
+- Azure Redis Cache
+- Azure Service Fabric
+- Azure Active Directory
+- Azure Monitoring
+- Azure Metrics
+- Azure Websites
+- Azure Service Bus
+- Azure Storage

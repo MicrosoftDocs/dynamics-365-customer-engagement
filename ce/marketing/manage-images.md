@@ -3,19 +3,18 @@ title: "Manage image files (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "A tutorial for how to manage keywords and upload images to the file library in Dynamics 365 for Marketing"
 keywords: "tutorial; keywords; images; files; upload; library"
 ms.date: 04/01/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 2a762cef-1caa-45e2-9b7f-8721cbac10aa
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -45,7 +44,7 @@ To help you organize your images, and to help other users find them, [!INCLUDE[p
 
 To manage keywords:
 
-1. Go to **Marketing** &gt; **Internet Marketing** &gt; **Keywords**. You now see a list of all existing keywords.
+1. Go to **Marketing** > **Marketing content** > **Keywords**. You now see a list of all existing keywords.
 
 1. On the command bar, select **New** to create a new keyword. Its only setting is **Name**.  
     ![Enter the keyword name](media/keyword-name.png "Enter the keyword name")
@@ -56,7 +55,7 @@ To manage keywords:
 
 To view and edit your image library:
 
-1. Go to **Marketing** &gt; **Internet Marketing** &gt; **Files**. You now see a list of all existing images and files. Choose any row in the table here to view information about the file and edit its settings (including keywords).
+1. Go to **Marketing** > **Marketing content** > **Files**. You now see a list of all existing images and files. Choose any row in the table here to view information about the file and edit its settings (including keywords).
 
 2. On the command bar, select **New** to upload a new file. The **Upload Files** dialog box opens.
 
@@ -71,7 +70,7 @@ To view and edit your image library:
 
 5. Select **Save** to upload your images to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
-6. If you want to edit the display name for an image, go back to **Marketing** &gt; **Internet Marketing** &gt; **Files**.
+6. If you want to edit the display name for an image, go back to **Marketing** > **Marketing content** > **Files**.
 
 ### See also
 
