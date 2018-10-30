@@ -30,12 +30,9 @@ search.app:
 
 The Dynamics 365 app for Teams bot feature allows you to interact with Dynamics 365 (online) to find, display, and update the records within Microsoft Teams conversations.
 
-1. Open the Dynamics 365 app.
+1. Find and open the Dynamics 365 bot. Open **Chat** on the left side of the Teams app, and then select **Dynamics 365**.
 
-   > [!div class="mx-imgBorder"] 
-   > ![](media/teams-pick-app.png "Open the Dynamics 365 app")
-
-2. Select the **Conversations** tab and sign in to the bot. 
+2. The **Conversation** tab opens with the welcome message sent by the bot. Select **Sign in**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-bot-welcome.png "Sign in to the bot")

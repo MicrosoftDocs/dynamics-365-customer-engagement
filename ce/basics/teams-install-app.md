@@ -90,10 +90,7 @@ For troubleshooting, see [Troubleshoot Teams integration](teams-troubleshoot.md)
 ## Set up the Dynamics 365 bot
 Set up the bot feature to interact with Dynamics 365 (online).
 
-1. Open the Dynamics 365 app.
-
-   > [!div class="mx-imgBorder"] 
-   > ![](media/teams-pick-app.png "Open the Dynamics 365 app")
+1. Find and open the Dynamics 365 bot. Open **Chat** on the left side of the Teams app, and then select **Dynamics 365**.
 
 2. The **Conversation** tab opens with the welcome message sent by the bot which provides an overview of the bot’s abilities. Select **Sign in**.
 
