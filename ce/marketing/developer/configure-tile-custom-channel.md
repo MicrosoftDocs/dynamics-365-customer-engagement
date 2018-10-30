@@ -28,7 +28,7 @@ Custom channel is exposed as a “tile” in the customer journey designer. You 
 
 ## Define the Tile XML file
 
-Define tile properties of the custom Tile in in an XML file. The XML file name should be in the following format: **\<SolutionPublisherPrefix>_\<FileNamePrefix>CustomerJourneyDesignerTileConfig.xml**.
+Define tile properties of the custom Tile in an XML file. The XML file name should be in the following format: **\<SolutionPublisherPrefix>_\<FileNamePrefix>CustomerJourneyDesignerTileConfig.xml**.
 
 For example if you want to use **SpecialTile** as the name for your XML file then the file name will be the following assuming the [solution publisher prefix](../../customize/change-solution-publisher-prefix.md) in your Customer Engagement instance is "sample": **sample_SpecialTileCustomerJourneyDesignerTileConfig.xml** 
 
@@ -174,7 +174,7 @@ The XML file has the following elements:
     </tr>
     </table>
 
-- **ResponseTypes**: Add information about the expected reponse types. The **id** property defines the name or the Id of a response type. The **Labels** element lets you specify localized labels for the response type. Use the **locId** property in the **Label** element to specify localized lable names. For example:
+- **ResponseTypes**: Add information about the expected reponse types. The **id** property defines the name or the Id of a response type. The **Labels** element lets you specify localized labels for the response type. Use the **locId** property in the **Label** element to specify localized label names. For example:
 
     ```xml
     <ResponseTypes>

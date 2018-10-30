@@ -2,7 +2,7 @@
 title: "About Unified Interface Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Introducing the new Unified Interface."
 ms.custom: ""
-ms.date: 10/01/2018
+ms.date: 10/24/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -122,6 +122,7 @@ We released some capabilities of the legacy web client in the Unified Interface 
 
 There are certain capabilities that continue to be unavailable in the Unified Interface and we are working to provide these in future releases:
 
+- Audit Trail
 -	Creating personal charts
 -	Custom styling of advanced chart properties (excluding colors and basic formatting)
 -	Reports entity (experiences to create and manage SSRS reports; excludes Run Report)
@@ -143,7 +144,6 @@ There are certain entities that are currently read-only on Unified Interface. Us
 
 The following are entities that are currently read-only in Unified Interface:
 
-- Audit Trail
 - Connection Role
 - EmailSignature
 - Entitlement

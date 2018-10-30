@@ -1,7 +1,7 @@
 ---
 title: "Create or edit a security role for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 10/11/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -116,24 +116,31 @@ You can create new security roles to accommodate changes in your business requir
 6. When you have finished configuring the security role, on the toolbar, click or tap **Save and Close**.  
   
 ## Minimum privileges for common tasks  
- It's helpful to keep in mind the minimum privileges that are needed for some common tasks. These include:  
+ It's helpful to keep in mind the minimum privileges that are needed for some common tasks. We've created a solution you can import that provides a security role with the required minimum privileges.
+
+Start by downloading the solution from the Download Center: [CDS for Apps minimum privilege security role](http://download.microsoft.com/download/6/5/5/6552A30E-05F4-45F0-AEE3-9BB01E13118A/MinprivilegeSecRole_1_0_0_0.zip).
+
+Then, follow the directions to import the solution: [Import, update, and export solutions](../customize/import-update-export-solutions.md).
+
+When you import the solution, it creates the **min prv apps use** role which you can copy (see: [Create a security role by Copy Role](#create-a-security-role-by-copy-role)). When Copying Role is complete, navigate to each tab - Core Records, Business Management, Customization, etc - and set the appropriate privileges. 
+
+> [!IMPORTANT]
+> You should try out the solution in a development environment before importing into a production environment. 
   
 - When logging in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]:  
   
-  -   Assign the following privileges on the Customization tab: Read Customizations, Read Process, Read System Form, Read View, and Read Web Resource.
+  -   Assign the min prv apps use security role or a copy of this security role to your user.
   
   -   To render an entity grid (that is, to view lists of records and other data), assign the following privileges on the Core Records tab: Read privilege on the entity, Read Saved View, Create/Read/Write User Entity UI Settings
       and assign the following privilege on the Business Management tab: Read User   
-  
-- When running PowerApps
 
-- When logging in to [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]:  
+- When logging in to [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]:
+
+   - To render navigation for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and all [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] buttons: assign the min prv apps use security role or a copy of this security role to your user   
   
-  - To render navigation for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and all [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] buttons: Read Entity and Read View on the Customizations tab  
+  - To render an entity grid: assign Read privilege on the entity  
   
-  - To render an entity grid: Read privilege on the entity, Read Customizations and Read Web Resource on the Customization tab,  and Read Saved View on the Core Records tab  
-  
-  - To render entities: Read privilege on the entity, Read System Form on the Customization tab, and Create, Read, and Write User Entity UI Settings on the Core Records tab  
+  - To render entities: assign Read privilege on the entity  
   
 ## Privacy notices  
 [!INCLUDE[cc_privacy_crm_for_phones](../includes/cc-privacy-crm-for-phones.md)]

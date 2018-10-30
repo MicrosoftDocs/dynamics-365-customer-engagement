@@ -89,6 +89,10 @@ This document provides important, late-breaking information about known issues a
 - Forms submitted over HTTP (not HTTPS) generate interaction records that don't include the contact ID, which means these interactions can't be used in interaction-based segments. If you are hosting a form on an external page (not hosted on a Dynamics 365 marketing page), then make sure your page uses HTTPS.
 - Some client-side malware protection tools parse each incoming email, resolve all the links it contains, and then deliver a modified message in which the links have been replaced with their resolved destinations. This process can interfere with the mechanism that Dynamics 365 uses to identify the contact that has clicked on a subscription center link, which means the subscription center won’t work for these contacts. We are working on a fix for this issue.
 
+## Reusable content blocks
+
+- Any CSS styles that you include in your reusable content blocks could be overruled by styles in the document where you eventually host the content. If you want to prevent this, design your content blocks with inline styles that include the `!important` attribute.
+
 ## Lead scoring and management
 
 - Lead scoring results might take up to one hour to be calculated.

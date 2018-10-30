@@ -88,6 +88,7 @@ If you are comfortable developing web applications using the [Angular](https://a
 
 ### See also
 
-[Engage customers online with portals](portals.md)
+[Set up online payment for events](event-payment-gateway.md)  
+[Engage customers online with portals](portals.md)  
 [Set up an event](set-up-event.md)  
-[Go live with publishable entities and track their status](go-live.md) 
+[Go live with publishable entities and track their status](go-live.md)

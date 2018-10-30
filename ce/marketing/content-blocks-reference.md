@@ -47,7 +47,7 @@ You can edit the text of any new or existing text element by working directly in
 
 Select a text element and use the settings provided on the **Properties** tabs to stylize the element itself by using colors, fonts, margins, borders, and backgrounds. Many of the settings on the **Style** tab (which apply to the overall page, form, or message design) also affect the styling of text-element content unless overruled locally.
 
-For email messages, the text toolbar includes an assist-edit button, which is marked with **</>**. Use this to place dynamic text, including field values such as the recipient's name. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add dynamic content to email messages](dynamic-email-content.md)
+For email messages, the text toolbar includes an **Assist-edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button"). Use this to place dynamic text, including field values such as the recipient's name. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add dynamic content to email messages](dynamic-email-content.md)
 
 ### Image elements
 
@@ -55,7 +55,10 @@ Image elements add an image to a column, outside a text element. Image elements 
 
 When you first add an image element, an image placeholder appears at the location where you dropped the element. Select the image placeholder and open the **Properties** tab, where you can set the following options.
 
-- **Source**: Select the **Image Gallery** button next to this field to select an existing image from the gallery, or to upload a new one. When an image is selected, its file name is shown here.
+- **Source**: Specify the image you want to display using a combination of the following:
+  - Enter a URL directly in the field.
+  - Select the **Image Gallery** button ![The image gallery button](media/button-image-gallery.png "The image gallery button") next to this field to select an existing image from the gallery, or to upload a new one. When an image is selected, its URL is shown here.
+  - If you are using the image in an email message, then you can use the **Assist-edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") to place dynamic text as part of the URL. For example, you could include the recipient's contact ID or company name to select an image that is relevant for each individual recipient. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add dynamic content to email messages](dynamic-email-content.md)
 - **Alt text**: Enter a short description of the image. This text will be read aloud to contacts that are using a screen reader, and will also be shown to contacts that have images disabled in their browser or email client. 
 - **Link**: Enter a URL here if you'd like the image to function as a link.
 - **Alignment**: Choose how the image should be aligned relative to its column (left, right, or center).

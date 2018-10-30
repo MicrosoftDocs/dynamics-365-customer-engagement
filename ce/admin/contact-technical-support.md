@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/power-platform/admin/get-help-support
 title: "Contact Dynamics 365 Customer Engagement Technical Support | MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/08/2018

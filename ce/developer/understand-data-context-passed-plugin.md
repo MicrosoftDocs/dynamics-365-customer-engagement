@@ -2,7 +2,7 @@
 title: "Understand the data context passed to a plug-in (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "IPluginExecutionContext contains information that describes the run-time environment that the plug-in executes, information related to the execution pipeline, and entity business information. The context is contained in the System.IServiceProvider parameter that is passed at run time to a plug-in through its IServiceProvider) method. "
 ms.custom: ""
-ms.date: 09/17/2018
+ms.date: 10/16/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -46,6 +46,8 @@ The <xref:Microsoft.Xrm.Sdk.IPluginExecutionContext.ParentContext> contains info
 
 > [!CAUTION]
 > You should avoid taking a dependency on values that you find in the `ParentContext` to apply your business logic. The specific order in which operations occur is not guaranteed and may change over time.
+>
+> If you do choose to take a dependency on values found in the `ParentContext`, you should take steps to ensure that your code is resilient to adapt to potential changes. You should test the logic regularly to verify that the conditions you depend on remain in effect over time.
   
 <a name="bkmk_access"></a>
 
