@@ -49,7 +49,7 @@ For example, time taken for the **Unified Service Desk Cold** operation under th
 1. Select a performance session ID from the left pane of the report.
 
 2. Select an operation from the list.<br>
-![Select a operation from the list of opertaions](../media/operation-navigation.PNG "Select a operation from the list of opertaions")
+![Select a operation from the list of operations](../media/operation-navigation.PNG "Select a operation from the list of operations")
 
 3. Select the correlation ID from the list.<br>
 ![Select a correlation ID from the list](../media/operation-navigation-correlationid.PNG "Select a correlation ID from the list")
