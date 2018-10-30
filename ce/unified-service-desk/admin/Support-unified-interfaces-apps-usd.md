@@ -44,6 +44,7 @@ The experience of the supportability is that the Unified Interface Page hosted c
 
 To deploy the Unified Interface sample application package, refer [Deploy a sample Unified Service Desk package using Package Deployer](../admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)
 
+::: moniker range="dynamics-usd-3"
 ## Configure application selection window in Unified Service Desk
 
 > [!IMPORTANT]
@@ -73,6 +74,8 @@ The application selection window appears when you login to [!INCLUDE[pn_unified_
 After you update the **SelectAppModule** key in the **UnifiedServiceDesk.exe.config** file, you need to login to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to select an web or Unified Interface app.
 
 ![Select App Module](../media/select-app-module-new.PNG "Select App Module")
+
+::: moniker-end
 
 ## See also
  [Unified Interface Page (Hosted Control)](../../unified-service-desk/unified-interface-page-hosted-control.md)
