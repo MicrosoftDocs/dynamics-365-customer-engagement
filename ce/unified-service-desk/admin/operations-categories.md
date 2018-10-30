@@ -25,9 +25,9 @@ search.app:
 monikerRange : '>= dynamics-usd-3'
 ---
 
-# Categories and opertaions
+# Categories and operations
 
-The categories under which the operations you perform are classified. The following are the list of categories and opertaions:
+The categories under which the operations you perform are classified. The following are the list of categories and operations:
 
 ## Categories
 - CRM Entity Navigate
@@ -82,3 +82,17 @@ The categories under which the operations you perform are classified. The follow
 - Load CTI {ApplicationName}
 - Load CRM Application {ApplicationName}
 - Load Browser Application {ApplicationName}
+
+## See also
+
+[Overview of Unified Service Desk Performance Analyzer](overview-performance-analyzer.md)
+
+[Download Unified Service Desk Performance Analyzer](download-performance-analyzer.md)
+
+[Generate (collect) performance data log](performance-data-collection-using-keyboard-shortcut.md)
+
+[Generate performance report](generate-performance-report.md)
+
+[Overview of performance report user interface](overview-performance-report-user-interface.md)
+
+[View, read, and compare performance report](view-read-compare-performance-report.md)

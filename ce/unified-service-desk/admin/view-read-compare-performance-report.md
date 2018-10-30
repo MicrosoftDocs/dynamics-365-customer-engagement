@@ -70,4 +70,19 @@ Hover the cursor on any method name to see the time consumed.
 
 ![Hover the cursor on any method to see the duration and name of the method](../media/hover-graph-details.PNG "Hover the cursor on any method to see the duration and name of the method")
 
+> [!div class="nextstepaction"]
+> [Categories and operations](operations-categories.md)
+
 ## See also
+
+[Overview of Unified Service Desk Performance Analyzer](overview-performance-analyzer.md)
+
+[Download Unified Service Desk Performance Analyzer](download-performance-analyzer.md)
+
+[Generate (collect) performance data log](performance-data-collection-using-keyboard-shortcut.md)
+
+[Generate performance report](generate-performance-report.md)
+
+[Overview of performance report user interface](overview-performance-report-user-interface.md)
+
+[Terminologies in the performance report](terminologies-performance-report.md)
