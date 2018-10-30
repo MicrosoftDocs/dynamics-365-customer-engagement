@@ -30,14 +30,14 @@ search.app:
 
 The Dynamics 365 app for Teams bot feature allows you to interact with Dynamics 365 (online) to find, display, and update the records within Microsoft Teams conversations.
 
-1. Find and open the Dynamics 365 bot. Open **Chat** on the left side of the Teams app, and then select **Dynamics 365**.
+Find and open the Dynamics 365 bot. Open **Chat** on the left side of the Teams app, and then select **Dynamics 365**.
 
-2. The **Conversation** tab opens with the welcome message sent by the bot. Select **Sign in**.
+The **Conversation** tab opens with the welcome message sent by the bot. Select **Sign in**.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-bot-welcome.png "Sign in to the bot")
 
-3. You'll see some pre-loaded options. For example, select **Opportunities** to have the bot return a list view of records from your default view.
+You'll see some pre-loaded options. For example, select **Opportunities** to have the bot return a list view of records from your default view.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-bot-select-opportunity.png "Select opportunity")
@@ -45,7 +45,10 @@ The Dynamics 365 app for Teams bot feature allows you to interact with Dynamics 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-bot-list-opportunities.png "List of open opportunities")
 
-4. Enter text like "contoso" in the search field to find related records.
+Here are things you can do with the bot feature.
+
+### Search
+Enter text like "contoso" in the search field to find related records.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-bot-search-contoso.png "Type contoso")
@@ -53,17 +56,20 @@ The Dynamics 365 app for Teams bot feature allows you to interact with Dynamics 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-bot-search-results.png "Related records returned")
 
-5. Edit and update a record.
+### Edit
+Edit and update a record.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-bot-edit-record.png "Update a record")
 
-6. Create a post in Dynamics 365 (online).
+### Post
+Create a post in Dynamics 365 (online).
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-bot-create-post.png "Create a post")
 
-7. Use the bot menu for other actions such as change the org or app module.
+### Other
+Use the bot menu for other actions such as change the org or app module.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-bot-menu.png "Open the bot menu")
