@@ -3,19 +3,18 @@ title: "Create online surveys to collect feedback from customers (Dynamics 365 f
 description: "How the Surveys app makes Voice of the Customer online surveys available in Dynamics 365 for Marketing"
 keywords: "Voice of the Customer; Surveys; survey"
 ms.date: 04/01/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: f424d10e-3e6e-43a1-86e2-8639c40d2013
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -47,9 +46,9 @@ Go to **Voice of the Customer** to design your surveys. The functionality provid
 
 Go to **Marketing** to access your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] dashboards, activities, and customer data. This is the same data you'll find in your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app and is provided here for convenience. These entities work just like they do in other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] applications, including [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Voice of the Customer online help](https://docs.microsoft.com/dynamics365/customer-engagement/voice-of-customer/create-voice-of-customer-survey)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Voice of the Customer online help](../voice-of-customer/create-voice-of-customer-survey.md)
 
 ### See also
 
-[Get feedback by using Voice of the Customer surveys](https://docs.microsoft.com/dynamics365/customer-engagement/voice-of-customer/create-voice-of-customer-survey)  
+[Get feedback by using Voice of the Customer surveys](../voice-of-customer/create-voice-of-customer-survey.md) 
 [Find your way around](navigation.md)

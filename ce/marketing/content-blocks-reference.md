@@ -2,20 +2,19 @@
 title: "Design elements reference (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Details for how to use each design element that is available for the design tool in Dynamics 365 for Marketing"
 keywords: "designer; design element; element; reference; email; form;  page"
-ms.date: 04/01/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.date: 10/16/2018
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: reference
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: d1975d36-2383-4b88-ab84-e66930ec2dd0
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -48,7 +47,7 @@ You can edit the text of any new or existing text element by working directly in
 
 Select a text element and use the settings provided on the **Properties** tabs to stylize the element itself by using colors, fonts, margins, borders, and backgrounds. Many of the settings on the **Style** tab (which apply to the overall page, form, or message design) also affect the styling of text-element content unless overruled locally.
 
-For email messages, the text toolbar includes an assist-edit button, which is marked with **</>**. Use this to place dynamic text, including field values such as the recipient's name. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add dynamic content to email messages](dynamic-email-content.md)
+For email messages, the text toolbar includes an **Assist-edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button"). Use this to place dynamic text, including field values such as the recipient's name. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add dynamic content to email messages](dynamic-email-content.md)
 
 ### Image elements
 
@@ -56,12 +55,33 @@ Image elements add an image to a column, outside a text element. Image elements 
 
 When you first add an image element, an image placeholder appears at the location where you dropped the element. Select the image placeholder and open the **Properties** tab, where you can set the following options.
 
-- **Source**: Select the **Image Gallery** button next to this field to select an existing image from the gallery, or to upload a new one. When an image is selected, its file name is shown here.
+- **Source**: Specify the image you want to display using a combination of the following:
+  - Enter a URL directly in the field.
+  - Select the **Image Gallery** button ![The image gallery button](media/button-image-gallery.png "The image gallery button") next to this field to select an existing image from the gallery, or to upload a new one. When an image is selected, its URL is shown here.
+  - If you are using the image in an email message, then you can use the **Assist-edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") to place dynamic text as part of the URL. For example, you could include the recipient's contact ID or company name to select an image that is relevant for each individual recipient. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add dynamic content to email messages](dynamic-email-content.md)
 - **Alt text**: Enter a short description of the image. This text will be read aloud to contacts that are using a screen reader, and will also be shown to contacts that have images disabled in their browser or email client. 
 - **Link**: Enter a URL here if you'd like the image to function as a link.
 - **Alignment**: Choose how the image should be aligned relative to its column (left, right, or center).
 
 When you select an image element, you can use an inline toolbar to delete, clone, or move the element.
+
+### Video elements
+
+Video elements position videos from your video library in your design. Each video record in your library stores a name, video URL, embed code, and thumbnail URL. The library doesn't contain the videos themselves, just these references to them, so you must host your videos somewhere else, such as on one of the major video platforms like YouTube or Vimeo.
+
+When you first add a video element, an placeholder icon is shown at the location where you dropped it. To choose the video to show at that location, select the new video element, open the **Properties** panel, and use the **Source** lookup field to find and select the block that contains the content you want to include here. If you are creating an email, then the video element places a thumbnail image with a link to the video; if you are creating a marketing page, then it places an embed code instead.
+
+For more information about how to set up your video library and use videos in your content, see [Create a video library and add videos to your designs](video-content.md).
+
+### Content-block elements
+
+Content blocks let you establish a block of common content that you can reuse in multiple emails, forms, and/or pages. Use them to establish common headers, footers and other blocks of content that you would like to standardize across your communications.
+
+Content blocks work like templates. They include a fixed collection of content that you add all at once to a design. Once added, the content is copied into your design and doesn't maintain any connection to the original block content, which means that if you edit a content block itself, or its content in a particular design, other designs that already use that block won't be affected.
+
+Use the content-block element to add a content block to your design. When you first add the element, a placeholder icon appears at the location where you dropped the element. Select the new content-block element, open the **Properties** panel, and use the **Content block** lookup field to find and select the block that contains the content you want to include here.
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create content blocks that you can reuse in multiple designs](content-blocks.md)
 
 ### Divider elements
 
@@ -116,7 +136,7 @@ The designer provides many elements that are unique to marketing forms. They are
 
 ### Field elements
 
-Each field element creates a single form control (such as an input field, check box, or radio button set) that is mapped to the contact and/or lead entity in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. For each marketing-form field that you've set up, you'll find a unique component named after the field under the **Fields** heading of the designer's **Toolbox** tab. So, for example, if you've mapped the **First Name** field of the contact entity to a marketing-form field called "First Name", you'll also have field element called **First Name** under the **Fields** heading of the form designer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create, view, and manage marketing forms](marketing-forms.md)
+Each field element creates a single form control (such as an input field, check box, or radio button set) that is mapped to the contact and/or lead entity in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. For each marketing-form field that you've set up, you'll find a unique design element named after the field under the **Fields** heading of the designer's **Toolbox** tab. So, for example, if you've mapped the **First Name** field of the contact entity to a marketing-form field called "First Name", you'll also have field element called **First Name** under the **Fields** heading of the form designer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create, view, and manage marketing forms](marketing-forms.md)
 
 ![Field-element settings](media/field-block-details.png "Field-element settings")
 
@@ -129,7 +149,10 @@ When you add or select a field in your form, you can read and set the following 
 - **Placeholder**: Displays "ghost text" in the field until a value is entered, typically shown in a gray color. You can use this as an alternative to, or in addition to, the field label. This isn't a default value because if the user doesn't enter a value, the field is submitted as blank.
 - **Required**: Marks the field as mandatory. Mandatory fields display an asterisk in the form, and the form will be rejected if somebody tries to submit it without filling out all the required fields.
 - **Required Error Message**: Specifies the error message shown if somebody tries to submit the form without filling out all the required fields.
-- **Prefill**: Select this box to enable prefilling for this field. When enabled, the form will try to display a prefilled value for this field when it recognizes the visitor (because the visitor previously submitted a form with the remember-me box checked).
+- **Prefill**: Select this box to enable prefilling for this field. When enabled, the form will try to display a prefilled value for this field when it recognizes the visitor (because the visitor previously submitted a form with the remember-me box checked). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable prefilling for forms](form-prefill.md)
+
+> [!IMPORTANT]
+> Forms are nearly always intended to create or update one or more database records&mdash;especially contact or lead records. However, record creation will fail if any fields required by the database are missing when the form is submitted. When you're designing a form, always be sure to identify all of the fields required by your database, and add a form element with its **Required** check box selected for each of them. That will ensure that contacts who submit the form will get an error message if any required values are missing. If you don't do this, then form submissions may simply be ignored without informing contacts of the problem. Your database could be customized to require fields that you don't expect, so be sure to talk to your system customizer or administrator if you're not sure which fields are required. The **Check for errors** function for forms doesn't identify all of the fields required by your database, especially custom fields, so you can't depend on it to inform you of this issue. Always be sure to test your form to confirm that it creates the types of records you expect it to.
 
 ### Subscription-list elements
 
