@@ -40,7 +40,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  This sample code requires that you have administrator rights to create a new user. [!INCLUDE[sdk_SeeConnectionHelper](../../includes/sdk-seeconnectionhelper.md)]  
   
 ## Example  
- This sample shows how to assign an account to another user by using the <xref:Microsoft.Xrm.Sdk.IOrganizationService.Update> message.  
+ This sample shows how to assign an account to another user by using the [IOrganizationService.Update](https://docs.microsoft.com/en-us/dotnet/api/microsoft.xrm.sdk.iorganizationservice.update?view=dynamics-general-ce-9) message.  
   
 ```csharp
 using System;
@@ -110,9 +110,11 @@ namespace Microsoft.Crm.Sdk.Samples
 
                     // Call the method to create any data that this sample requires.
                     CreateRequiredRecords();
-
+                    
+		    // Retrieve the account record created
                     Entity accountRecord = _service.Retrieve("account", _accountId, new ColumnSet(true));
-
+                    
+		    //Updated the ownerid attribute to the user who want to own the record
                     accountRecord["ownerid"] = new EntityReference(SystemUser.EntityLogicalName, _otherUserId);
 
                     // Execute the Request
@@ -296,9 +298,7 @@ namespace Microsoft.Crm.Sdk.Samples
   
 ### See also  
  [Use the Early Bound Entity Classes in Code](use-early-bound-entity-classes-code.md)   
- [Sample: Serialize and Deserialize an Entity Instance](sample-serialize-deserialize-entity-instance.md)   
- <xref:Microsoft.Crm.Sdk.Messages.AssignRequest>   
- <!--[Assign](../introduction-entities.md#assign)-->   
+ [Sample: Serialize and Deserialize an Entity Instance](sample-serialize-deserialize-entity-instance.md)     
  [Entity ownership](../introduction-entities.md#entity-ownership)   
  <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
  [Sample: CrmServiceHelper Class](helper-code-serverconnection-class.md)
