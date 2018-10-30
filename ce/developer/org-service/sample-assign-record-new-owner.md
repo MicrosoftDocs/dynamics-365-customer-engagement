@@ -38,7 +38,10 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
   
 ## Requirements  
  This sample code requires that you have administrator rights to create a new user. [!INCLUDE[sdk_SeeConnectionHelper](../../includes/sdk-seeconnectionhelper.md)]  
-  
+ 
+> [!NOTE]
+> This sample uses the `IOrganization.Update` method rather than the `AssignRequest` because there is an effort to remove specialized messages. More information: [Perform speciliazed operations using update](perform-specialized-operations-using-update.md)
+
 ## Example  
  This sample shows how to assign an account to another user by using the [IOrganizationService.Update](https://docs.microsoft.com/en-us/dotnet/api/microsoft.xrm.sdk.iorganizationservice.update?view=dynamics-general-ce-9) message.  
   
