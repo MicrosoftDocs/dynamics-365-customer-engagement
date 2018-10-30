@@ -32,11 +32,10 @@ Service Scheduling, now built atop **Universal Resource Scheduling (URS)**, prov
 
 With the Customer Engagement apps version 9.1 release, the new Service Scheduling is available from the Customer Service Hub sitemap.
 
-## Service Scheduling scenario
+## Understand the new Service Scheduling experience
 
 The new experience lists the entities as follows, as compared to the legacy experience:
 
-![legacy-new-service-scheduling](media/legacy-new.png)
 
 - Sites are now Organizational Units.
 - Resource Groups are now Resource Categories.
@@ -56,17 +55,28 @@ Contoso can benefit from the Service Scheduling feature by quickly catering to t
 
 The following example explains how the entities can be configured: 
 
- - **Define sites or organizational units**  </br>
-   Sites are the locations where Contoso will provide service to their customers. In this example, Contoso bike repair is the site for service.
+**A. Create organizational units**  </br>
+   Organizational units are the locations where Contoso provides service to their customers. 
 
-   |Legacy Service Scheduling  |New Service Scheduling  |
-   |---------|---------|
-   |![sites](media/sites-cs.png)  |  ![organizational units](media/org-unit-csh.png)   |
-   |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use sites to manage your service locations (Customer Service app)](use-sites-manage-service-locations.md)     |  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage organizational units](create-org-units-cs-scheduling.md) |
-   |   |         |  
+   > [!NOTE]
+   > In the legacy experience the locations are referred as Sites, while in the new experience they are called Organizational units.
 
-- **Define resources**</br>
-  Contoso defines the resources in the system. For example, two resources (contacts) Bert Hair and Gilda Moss are created. Similarly, two more resources (facility/equipment) are created, Bike repair workbench - 1 and Bike repair workbench - 2, which will be required to perform the service.
+   In this example, Contoso bike repair is the site for service.
+
+   |Legacy Service Scheduling    |
+   |---------|
+   |![sites](media/sites-cs.png)      |
+   |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use sites to manage your service locations (Customer Service app)](use-sites-manage-service-locations.md)   |
+   ||
+
+   |New Service Scheduling     |
+   |---------|
+   |![organizational units](media/org-unit-csh.png)      |
+   |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage organizational units](create-org-units-cs-scheduling.md)   |
+   ||
+
+- **Create resources**</br>
+  Contoso lists the resources in the system. For example, two resources (contacts) Bert Hair and Gilda Moss are created. Similarly, two more resources (facility/equipment) are created as Bike repair workbench - 1 and Bike repair workbench - 2, which will be required to perform the service.
 
   |Legacy Service Scheduling  |New Service Scheduling  |
   |---------|---------|
