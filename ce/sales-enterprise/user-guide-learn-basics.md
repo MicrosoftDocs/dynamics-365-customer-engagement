@@ -3,9 +3,12 @@ title: "Learn the basics of Dynamics 365 for Sales | Microsoft Docs"
 description: "Quickly onboard and learn about Dynamics 365 for Sales and its user interface."
 keywords: "Get started; understand data; quick create; Sales"
 ms.date: 04/01/2018
-ms.service: dynamics-365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: get-started-article
-applies_to: 
+applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: 928b39d6-4b1a-4b7b-b056-f4b7868c3a57
 author: shubhadaj
@@ -13,22 +16,13 @@ ms.author: shujoshi
 manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
-ms.custom: 
-  - dyn365-sales
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]
 
-Start here to onboard quickly and learn about the Sales app and its user interface.
+Start here to onboard quickly and learn about the different offerings of Sales and their user interface.
 
-## Go to the Sales app
+## Go to the Sales
 
 1. Sign in to [!INCLUDE[pn-office-365](../includes/pn-office-365.md)], select the [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] app launcher, and then select the icon for **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)]**.
 
