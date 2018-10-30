@@ -32,6 +32,7 @@ search.app:
 # Release history for Unified Service Desk
 This is the release history page for the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Guide.  
 
+::: moniker range="dynamics-usd-4"
 
 |          Release           |                                        Information                                         |
 |----------------------------|--------------------------------------------------------------------------------------------|
@@ -67,6 +68,9 @@ The list provides an overview of documentation updates made in [!INCLUDE [pn-uni
 | [Unified Interface Page (Hosted Control)](unified-interface-page-hosted-control.md) | General Availability of the Unified Interface Support in Unified Service Desk. |
 | [Release notes of Unified Service Desk 4.0](release-notes-unified-service-desk-40.md) | This section describes the known issues and limitations in Unified Service Desk 4.0. <br><br> New topic under [Unified Service Desk Release Notes](release-notes.md). |
 
+::: moniker-end
+
+::: moniker range="dynamics-usd-3"
 
 <a name="Release_3_3"></a>   
 ## Release history for [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)], April 2018
@@ -135,6 +139,7 @@ Content for earlier version of Unified Service Desk continues to be available on
 
 [What's new for Developers](what-s-new-in-unified-service-desk.md)
 
+::: moniker-end
 
 <!--| Version 3.3, April 2018    | [!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)] update |
 | Version 3.2, February 2018 | [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)] update |
