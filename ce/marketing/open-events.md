@@ -28,15 +28,15 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-The event-management features of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] are collected into their own work area to make it easy to find all the relevant entities and settings while you are focusing on events.
+The event management features of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] are collected into their own work area to make it easy to find all the relevant entities and settings while you are focusing on events.
 
 To find the event management work area:
 
-1. If you haven't done so already, sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] as a user with [event-management privileges](manage-users.md). Then use the app-selector menu to open the **Marketing** app.
+1. If you haven't already done so, sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] as a user with [event-management privileges](manage-users.md). Then use the app-selector menu to open the **Marketing** app.
 
     ![The app-selector menu](media/nav-apps-ill.png "The app-selector menu")
 
-1. Expand the side navigator bar and select the ellipsis (**…**) to open the work area menu, and then choose the **Events** work area.
+1. Expand the side navigator bar,  select the ellipsis (**…**) button to open the work area menu, and then choose **Events**.
 
     ![Open the work area menu](media/open-events-work-area.png "Open the work area menu")
 
