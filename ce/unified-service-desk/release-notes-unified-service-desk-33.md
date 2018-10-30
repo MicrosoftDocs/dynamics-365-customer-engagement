@@ -24,6 +24,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+  monikerRange : '= dynamics-usd-3'
 ---
 
 # Release notes of Unified Service Desk 3.3
