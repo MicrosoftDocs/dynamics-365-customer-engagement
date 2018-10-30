@@ -36,12 +36,26 @@ With the Customer Engagement apps version 9.1 release, the new Service Schedulin
 
 The new experience lists the entities as follows, as compared to the legacy experience:
 
+|Legacy Service Scheduling    |New Service Scheduling    |
+|---------|---------|
+|Resources     |    Resources     |
+|Facilities/Equipment     |   Facilities/Equipment      |
+|Service     |   Service      |
+|Service Activity     |     Service Activity     |
+|Resource Groups     |      Resource Categories      |
+|Sites     |      Organizational Units   |
+|Business Closure     |      Business Closure    |
+|Schedule Board     |      Schedule Board       |
+|   |           |
+
 
 - Sites are now Organizational Units.
 - Resource Groups are now Resource Categories.
-- You can now create all types of bookable resources using the **Resource** entity.
+- You can now create all types of bookable resources using the **Resources** entity.
 
-The difference between the legacy and the new experience can be explained with the help of the following scenario: 
+### Service Scheduling scenario
+
+The legacy and the new experience can be explained with the help of the following scenario: 
 
 Contoso bike repair schedules repair services for their customers. To facilitate this process, Contoso needs to bring together the following information:
 
@@ -53,9 +67,9 @@ Contoso bike repair schedules repair services for their customers. To facilitate
 
 Contoso can benefit from the Service Scheduling feature by quickly catering to their customers with their repair services. With the various service scheduling entities, they can plan service activities for their customers by considering the availability of resources, facilities, and equipment. 
 
-The following example explains how the entities can be configured: 
+Let's see how Contoso accomplishes the task:
 
-**A. Create organizational units**  </br>
+**Step 1: Create organizational units**  </br>
    Organizational units are the locations where Contoso provides service to their customers. 
 
    > [!NOTE]
@@ -63,20 +77,20 @@ The following example explains how the entities can be configured:
 
    In this example, Contoso bike repair is the site for service.
 
-   |Legacy Service Scheduling    |
-   |---------|
-   |![sites](media/sites-cs.png)      |
-   |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use sites to manage your service locations (Customer Service app)](use-sites-manage-service-locations.md)   |
-   ||
+   |Legacy Service Scheduling  |New Service Scheduling  |
+   |---------|---------|
+   |![sites](media/sites-cs.png)  |  ![organizational units](media/org-unit-csh.png)   |
+   |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use sites to manage your service locations (Customer Service app)](use-sites-manage-service-locations.md)     |  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage organizational units](create-org-units-cs-scheduling.md) |
+   |   |         | 
 
-   |New Service Scheduling     |
-   |---------|
-   |![organizational units](media/org-unit-csh.png)      |
-   |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage organizational units](create-org-units-cs-scheduling.md)   |
-   ||
 
-- **Create resources**</br>
-  Contoso lists the resources in the system. For example, two resources (contacts) Bert Hair and Gilda Moss are created. Similarly, two more resources (facility/equipment) are created as Bike repair workbench - 1 and Bike repair workbench - 2, which will be required to perform the service.
+**Step 2: Create resources**</br>
+  Contoso lists the resources required to perform the services. 
+
+  > [!NOTE]
+  > Unlike in the legacy experience, you can create all resource types from the resource entity in the new experience.
+
+  In this example, two resources (contacts) Bert Hair and Gilda Moss are created. Similarly, two more resources (facility/equipment) are created as Bike repair workbench - 1 and Bike repair workbench - 2, which are required to perform the service.
 
   |Legacy Service Scheduling  |New Service Scheduling  |
   |---------|---------|
@@ -85,7 +99,7 @@ The following example explains how the entities can be configured:
   |   |         |
 
 
- - **Define work hours for the resource, resource group or facility/equipment** </br>
+**Step 3: Set work hours for the resource, resource group or facility/equipment** </br>
    The availability of the resources is defined in the work hours section. 
 
    |Service Scheduling  |
@@ -94,8 +108,13 @@ The following example explains how the entities can be configured:
    | [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set work hours for the resources](resources-service-scheduling.md#set-work-hours-for-the-resources)|
    |   |         |
   
- - **Define resource groups** </br>
-   The resources are aligned to the resource groups. For example, Bert Hair and Gilda Moss are grouped as Technicians and Bike repair workbench - 1 and Bike repair workbench - 2 are grouped as Workbenches.
+**Step 4: Create resource groups** </br>
+   The resources are aligned in resource groups. 
+
+   > [!NOTE]
+   > Resource Groups are referred as Resource Categories in the new experience.
+
+   In the example, Bert Hair and Gilda Moss are grouped as Technicians and Bike repair workbench - 1 and Bike repair workbench - 2 are grouped as Workbenches.
 
    |Legacy Service Scheduling  |New Service Scheduling  |
    |---------|---------|
@@ -104,7 +123,7 @@ The following example explains how the entities can be configured:
    |   |         |
 
 
-- **Create a service record**  </br>
+**Step 5: Create a service record**  </br>
    Contoso now collates all the above inputs to create a bike repair service record for the customer. They also specify the resources/resource groups they will need for the service.
 
    |Legacy Service Scheduling  |New Service Scheduling  |
@@ -113,10 +132,12 @@ The following example explains how the entities can be configured:
    |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a service (Customer Service app)](create-edit-service-cs-app.md)    |  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a service in Service Scheduling](create-edit-service-csh.md) |
    |   |         | 
  
-- **Create a service activity**  </br>
+**Step 6: Create a service activity**  </br>
    A service activity is defined to look for the next available time slot to schedule the service and align resources as per requirement. 
 
-   Contoso can now book the service for their customers in the service calendar or schedule board by selecting **Book** (Schedule in legacy) in the service activity.
+   > [!NOTE]
+   > In the service activity: </br> - In the new experience, select **Book** to access schedule board. </br> - In the legacy experience, select **Schedule** to access schedule board.
+
 
    |Legacy Service Scheduling  |New Service Scheduling  |
    |---------|---------|
@@ -124,7 +145,8 @@ The following example explains how the entities can be configured:
    |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity (Customer Service app)](schedule-service-activity-cs-app.md)  |  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md)|
    |   |         | 
 
-- **Book the service in the service calendar or schedule board**  </br>
+
+**Step 7: Book the service in the schedule board**  </br>
   The schedule board displays all the service configurations at one place to quickly schedule a service.
 
    |Legacy Service Scheduling  |New Service Scheduling  |
