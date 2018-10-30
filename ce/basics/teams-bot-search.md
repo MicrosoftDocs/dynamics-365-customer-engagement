@@ -45,7 +45,7 @@ You'll see some pre-loaded options. For example, select **Opportunities** to hav
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-bot-list-opportunities.png "List of open opportunities")
 
-Here are things you can do with the bot feature.
+Here are more things you can do with the bot feature.
 
 ### Search
 Enter text like "contoso" in the search field to find related records.
