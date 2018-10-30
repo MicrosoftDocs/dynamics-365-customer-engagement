@@ -79,12 +79,17 @@ Make sure that you have the required security role or equivalent permissions.
 
       ![book-service-activity](media/book-service-activity.png)
 
-Additionally,
+   The bookings that you schedule appear in the **Bookable Resource Bookings** tab.
 
-- If the service activity has been completed by the resource, select **Mark Complete** from the command bar. 
-- Select **Close Service Activity** to close a service activity.
+   ![bookable-resource-bookings](media/resource-bookings-tab.png)
 
+   You can select an existing booking and edit, activate, or deactivate it from the **Bookable Resource Bookings** tab.
 
+9. To close or cancel a service activity, select **Close Service Activity** from the command bar.
+
+   Select the status as Closed or Canceled in the **Close Service Activity** dialog box.
+
+10. If the service activity has been completed, select **Mark Complete** from the command bar. 
 
 ### See also
 
