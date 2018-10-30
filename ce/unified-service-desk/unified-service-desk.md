@@ -97,5 +97,6 @@ search.app:
 See the video to know [What's New in Unified Service Desk 3.3](https://go.microsoft.com/fwlink/?linkid=2008774).
 ::: moniker-end
 
-### See also<br/>
+### See also
+
  <a href="http://blogs.msdn.com/b/usd/" data-raw-source="[Unified Service Desk Team Blog](http://blogs.msdn.com/b/usd/)">Unified Service Desk Team Blog</a>
