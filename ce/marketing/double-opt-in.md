@@ -2,20 +2,19 @@
 title: "Set up double opt-in (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to set up the double opt-in system to let contacts confirm their new subscriptions and consent changes in Dynamics 365 for Marketing"
 keywords: "double opt-in;gdpr;subscriptions;consent"
-ms.date: 08/23/2018
-ms.service:
-  - "dynamics-365-marketing"
+ms.date: 10/16/2018
+ms.service: dynamics-365-marketing
 ms.custom:
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: dacfc72e-978c-41d1-b4c6-8c5b66042770
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 ---
 
@@ -175,10 +174,10 @@ To set up and enable the double opt-in system:
 1. Make the following settings:
 
     - **Enable double opt-in**: Set to **Yes** to enable double opt-in on your instance. Set to **No** to disable it.
-    - **New subscription**: Identify the marketing email message you created to send to contacts when they add themselves to a subscription list.
-    - **Increase consent**: Identify the marketing email message you created to send to contacts when they submit a request to increase their consent level.
+    - **Subscriptions**: Identify the marketing email message you created to send to contacts when they add themselves to a subscription list.
+    - **Consent**: Identify the marketing email message you created to send to contacts when they submit a request to increase their consent level.
+    - **Thank-you page for newsletters**: Select a marketing page to show to contacts after they confirm a new subscription.
+    - **Thank-you page**: Select a marketing page to show to contacts after they confirm an increase of their consent level.
     - **Content settings**: Identify the content-settings record you chose to use for all double opt-in messages.
-    - **Thank-you page for subscriptions**: Select a marketing page to show to contacts after they confirm a new subscription.
-    - **Thank-you page for consent**: Select a marketing page to show to contacts after they confirm an increase of their consent level.
 
 1. Select the **Save** button in the bottom-right corner to save your settings.

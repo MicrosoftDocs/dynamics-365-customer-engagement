@@ -42,4 +42,8 @@ To go to the customization settings in [!INCLUDE[pn-marketing-business-app-modul
 
 For complete details about how to customize [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], see the [Customization Guide for Dynamics 365 Customer Engagement](../customize/overview.md). That guide describes the interface as you see it in the [!include[](../includes/pn-custom-app-module.md)] app, but the customization features that are also provided in the **Settings** work area of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] implement similar concepts, operate on the same database, and work similarly. 
 
+For details about customizations that apply only to the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app (but not other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] apps), see the following topic:
+
+- [Create and customize marketing calendars](customize-marketing-calendars.md)
+
 For more information about writing code and developing for [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], see the [Developer Guide for Dynamics 365 Customer Engagement](../developer/developer-guide.md).
