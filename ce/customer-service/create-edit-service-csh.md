@@ -60,6 +60,9 @@ Make sure that you have the System Administrator or System Customizer security r
 5. In the **Resource Requirements** section, define the selection criteria.
 
     - Here, the new service record forms the root node. In the root node, you can:
+
+      ![Resource requirement](media/resource-requirement-csh.png)
+
       - Select **All** or **Any**. All selects resources for all the underlying requirements and Any selects resources for any one of underlying requirement.
       - Select **Duration**, and enter the duration in minutes to define the duration for which resources are allocated for the service. 
 
@@ -70,6 +73,8 @@ Make sure that you have the System Administrator or System Customizer security r
         > [!NOTE]
         > When you select create, a **Quick Create** form is displayed where you can quickly create a new fulfillment preference.
 
+    
+
      After configuring details in the root node: </br>
         
     - Add a new requirement subgroup by selecting **Subgroup**. You can add subgroups inside a subgroup.
@@ -77,16 +82,13 @@ Make sure that you have the System Administrator or System Customizer security r
 
    - Choose whether the service is **Part of Same** organizational unit, resource tree or location.
   
-   - Specify the **Organizational Unit** to define the unit to which the selected resource should belong to.
-   - Add **Resource Categories**  and define **Resource Characteristics** to define the categories for the resource.
-   - Add **Preferred Resource** to display resource options.
-   - Define **Sort Option** to sort according to most and least business impact.
+   - Choose the **Organizational Unit** to define the unit to which the selected resource should belong to.
+   - Select **Resource Categories**  and choose **Resource Characteristics** to define the categories for the resource.
+   - Choose **Preferred Resource** to display resource options.
+   - Choose **Sort Option** to sort according to most and least business impact.
    - Provide **Effort Required**. While booking, this option helps you view all the resources who satify the minimum effort requirement. For example, if the effort required is defined as 100, only the resources with the rating value of 100 and more will be displayed in the list while booking the service in the schedule board.
 
    You can add complexity to a rule by adding a subrule to it.  
-
-   ![Resource requirement](media/resource-requirement-csh.png)
-
    > [!NOTE]
    >  You can save a service without defining a selection criteria, but you won’t be able to schedule that service.   
 

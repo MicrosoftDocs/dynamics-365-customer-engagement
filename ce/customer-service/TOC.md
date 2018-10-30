@@ -57,6 +57,7 @@
 
 ### Legacy Service Scheduling (Customer Service app)
 #### [Business closure](set-when-business-closed-cs-app.md)
+#### [Set work hours to define availability](set-work-hours-resource.md)
 #### [Create or change a service](create-edit-service-cs-app.md)
 #### [Schedule a service activity](schedule-service-activity-cs-app.md)
 #### [Facilities/Equipment](add-facilities-equipment-cs-app.md)

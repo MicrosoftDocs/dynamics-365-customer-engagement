@@ -27,13 +27,15 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 
-Security roles help to identify the privileges a user can exercise in the system. Security roles also define which entities a user can view or configure. For example, a user may have permission to see accounts but not to see specific fields for an account.
+A user in Customer Service is a member of your organization who will use a Service Scheduling license. Security roles help to identify the privileges a user can exercise in the system. Security roles also define which entities a user can view or configure. For example, a user may have permission to see accounts but not to see specific fields for an account.
+
+The predefined roles in service scheduling are:
   
-- **Customer Service Manager**
-- **Customer Service Representative**
-- **System Customizer** 
-- **System Administrator**
+- **Customer Service Manager**. The Customer Service Manager role can setup the service scheduling experience. This role has access to all service scheduling entities.
+- **Customer Service Representative**. The Customer Service Representative can create and schedule service activities. 
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security roles and privileges](../admin/security-roles-privileges.md)
 
 ### See also  
 
-[Service Scheduling overview](basics-service-service-scheduling.md)
+[Create or edit a security role to manage access](../admin/create-edit-security-role.md)

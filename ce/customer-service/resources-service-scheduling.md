@@ -77,19 +77,6 @@ Make sure that you have the System Administrator or System Customizer security r
 
     ![service-resources-scheduling](media/service-resources-scheduling-section.png)
 
-6. In the **Related** section, view and create all the common associations for the resource. You can create the following:
-
-   - Bookable Resource Associations
-   - Resource Bookings
-   - Resource Booking Headers
-   - Resource Characteristics
-   - Resource Category Associations
-   - Resource Territories
-   - Actuals
-   - Work Templates
-   - Resource's Children
-   - Resource's Parents
-
 7. Once you are ready, select **Save**.
 
 ## Set work hours for the resources

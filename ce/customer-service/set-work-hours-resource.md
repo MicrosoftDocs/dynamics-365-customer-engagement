@@ -27,6 +27,9 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 You can set up and define the hours a resource is available. By default, the resources are set up for a 7-days-a-week, 24-hour schedule. 
+
+> [!IMPORTANT]
+> In the new service scheduling experience, you can set work hours for resource types in the **Resources** entity. To know more about setting up work hours, see [Set work hours for the resources](resources-service-scheduling.md#set-work-hours-for-the-resources).
   
 ## Set work hours for a facility or equipment
   
