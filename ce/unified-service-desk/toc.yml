@@ -137,7 +137,7 @@
     href: admin/overview-performance-analyzer.md
   - name: Download Unified Service Desk Performance Analyzer
     href: admin/download-performance-analyzer.md
-  - name: Collect performance data
+  - name: Generate (collect) performance data log
     href: admin/performance-data-collection-using-keyboard-shortcut.md
   - name: Generate performance report
     href: admin/generate-performance-report.md
