@@ -40,7 +40,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  This sample code requires that you have administrator rights to create a new user. [!INCLUDE[sdk_SeeConnectionHelper](../../includes/sdk-seeconnectionhelper.md)]  
   
 ## Example  
- This sample shows how to assign an account to another user by using the <xref:Microsoft.Crm.Sdk.Messages.AssignRequest> message.  
+ This sample shows how to assign an account to another user by using the <xref:Microsoft.Xrm.Sdk.IOrganizationService.Update> message.  
   
 ```csharp
 using System;
@@ -111,18 +111,12 @@ namespace Microsoft.Crm.Sdk.Samples
                     // Call the method to create any data that this sample requires.
                     CreateRequiredRecords();
 
-                    // Create the Request Object and Set the Request Object's Properties
-                    AssignRequest assign = new AssignRequest
-                        {
-                            Assignee = new EntityReference(SystemUser.EntityLogicalName,
-                                _otherUserId),
-                            Target = new EntityReference(Account.EntityLogicalName,
-                                _accountId)
-                        };
+                    Entity accountRecord = _service.Retrieve("account", _accountId, new ColumnSet(true));
 
+                    accountRecord["ownerid"] = new EntityReference(SystemUser.EntityLogicalName, _otherUserId);
 
                     // Execute the Request
-                    _service.Execute(assign);
+                   _service.Update(accountRecord);
 
                     Console.WriteLine("The account is owned by new owner.");
 
@@ -304,7 +298,7 @@ namespace Microsoft.Crm.Sdk.Samples
  [Use the Early Bound Entity Classes in Code](use-early-bound-entity-classes-code.md)   
  [Sample: Serialize and Deserialize an Entity Instance](sample-serialize-deserialize-entity-instance.md)   
  <xref:Microsoft.Crm.Sdk.Messages.AssignRequest>   
- [Assign](../introduction-entities.md#assign)   
+ <!--[Assign](../introduction-entities.md#assign)-->   
  [Entity ownership](../introduction-entities.md#entity-ownership)   
  <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
  [Sample: CrmServiceHelper Class](helper-code-serverconnection-class.md)
