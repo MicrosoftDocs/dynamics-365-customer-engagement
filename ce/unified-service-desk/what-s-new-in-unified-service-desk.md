@@ -32,6 +32,8 @@ search.app:
 # What's new in Unified Service Desk for developers and customizers
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for developers and system customizers.
 
+::: moniker range="dynamics-usd-4"
+
 <a name="NewIn40"></a>
 ## What's new in [!INCLUDE[pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)]
 
@@ -63,6 +65,10 @@ When you are working on a case (local session) and want to review your Dashboard
 Using **SwitchSession** action, you can now switch between local sessions. Also, you can switch sessions between local and global by passing the global session ID retrieved from the context using the replacement parameter.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [SwitchSession Action](session-tabs-hosted-control.md#switchsession)
+
+::: moniker-end
+
+::: moniker range="dynamics-usd-3"
 
 <a name="WhatsNew33"></a>   
 ## What's new in [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)]  
@@ -207,6 +213,8 @@ as a workaround, you can create the non-focusable control as a user control
 Also, [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reader doesn’t support reading button tooltip text. But, you can create [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] custom scripts and use  in [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] to enable [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reader to read tooltip text.
 
 More information: [Configure JAWS screen reader support](configure-jaws-screen-reader-support.md)
+
+::: moniker-end
 
 ### See also  
  [What’s New in Unified Service Desk for administrators](admin/whats-new-unified-service-desk-administrators.md)   

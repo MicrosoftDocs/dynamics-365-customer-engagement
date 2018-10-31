@@ -101,8 +101,6 @@
         href: admin/comply-unified-service-desk-data-gdpr.md
   - name: Configure auditing and diagnostics in Unified Service Desk
     href: admin/configure-auditing-diagnostics-unified-service-desk.md
-  - name: Performance data collection using keyboard shortcut
-    href: admin/performance-data-collection-using-keyboard-shortcut.md
   - name: Distribute custom hosted controls using Customization Files
     href: admin/distribute-custom-hosted-controls-using-customization-files.md
   - name: Access management in Unified Service Desk
@@ -132,7 +130,26 @@
   - name: Recover Internet Explorer process instance
     href: admin/recover-internet-explorer-process-instance.md
   - name: Configure close confirmation window
-    href: admin/configure-close-confirmation-window.md    
+    href: admin/configure-close-confirmation-window.md
+- name: Analyze performance of Unified Service Desk
+  items:
+  - name: Overview of Unified Service Desk Performance Analyzer
+    href: admin/overview-performance-analyzer.md
+  - name: Download Unified Service Desk Performance Analyzer
+    href: admin/download-performance-analyzer.md
+  - name: Generate (collect) performance data log
+    href: admin/performance-data-collection-using-keyboard-shortcut.md
+  - name: Generate performance report
+    href: admin/generate-performance-report.md
+  - name: Overview of performance report user interface
+    href: admin/overview-performance-report-user-interface.md
+    items:
+    - name: Terminologies in the performance report
+      href: admin/terminologies-performance-report.md
+    - name: View, read, and compare performance report
+      href: admin/view-read-compare-performance-report.md
+    - name: Categories and operations
+      href: admin/operations-categories.md
 - name: Analyze best practices in Unified Service Desk
   href: admin/analyze-best-practices-unified-service-desk.md
   items:
@@ -499,10 +516,5 @@
     href: session-timer-custom-hosted-control.md
 - name: Accessibility in Unified Service Desk for Microsoft Dynamics 365
   href: admin/accessibility-unified-service-desk-microsoft-dynamics-365.md
-- name: Release notes of Unified Service Desk
+- name: Known issues and limitations of Unified Service Desk
   href: release-notes.md
-  items:
-  - name: Release notes of Unified Service Desk 4.0
-    href: release-notes-unified-service-desk-40.md    
-  - name: Release notes of Unified Service Desk 3.3
-    href: release-notes-unified-service-desk-33.md
