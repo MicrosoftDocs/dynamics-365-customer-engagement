@@ -22,7 +22,7 @@ topic-status: Drafting
 
 Start here to onboard quickly and learn about the different offerings of Sales and their user interface.
 
-## Go to the Sales
+## Go to the Sales apps 
 
 1. Sign in to [!INCLUDE[pn-office-365](../includes/pn-office-365.md)], select the [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] app launcher, and then select the icon for **[!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)]**.
 
@@ -32,7 +32,15 @@ Start here to onboard quickly and learn about the different offerings of Sales a
    > 
    > The apps available to you in the app launcher depend on your subscription.
 
-2. In the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Home page, select the tile for **Sales** (WEB).
+2. In the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] Home page, select the tile for **Dynamics 365 — custom**.
+
+   This provides access to the full suite of capabilities, including sales and its settings.
+
+   ![Tile for Dynamics 365 — custom](media/dynamics365-custom-tile.png "Tile for Dynamics 365 — custom")     
+
+   -OR-
+
+   To open the Sales app (web), select the tile for **Sales**.
 
    ![Tile for Dynamics 365 for Sales web app](media/sales_tile_web.png "Tile for Dynamics 365 for Sales web app")
 
@@ -43,7 +51,6 @@ Start here to onboard quickly and learn about the different offerings of Sales a
    ![Tile for Sales Hub](media/saleshub_tile_unified_interface.png "Tile for Sales Hub")
 
    
-
 ## Understand the data in the app
 
 Every day, you’ll work with different customer records and record types as you move customers through your business processes, collecting the data you need to fill in the fields for their records—and ultimately to win their business.
