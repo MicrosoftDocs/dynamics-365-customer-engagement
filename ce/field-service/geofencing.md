@@ -39,7 +39,7 @@ The push notification scenario is delivered out-of-the-box with the geofencing f
 
 1. Field Service v8.3+
 
-2. Field Service mobile 11.3+
+2. Field Service Mobile 11.2+
 
 3. Enable geo-auditing in Woodford
 
@@ -57,6 +57,14 @@ The push notification scenario is delivered out-of-the-box with the geofencing f
 4) Create geofence
 5) Activate default workflow or create custom Dynamics workflow or Microsoft Flow
 6) Consent to sharing GPS data from mobile app. A message will appear after a geofence is active. 
+
+
+default settings and configure them (radius)
+workflow that generates geofences
+edit geofence worflow and when its triggered
+geofence events
+
+
 
 ## Configuration
 
