@@ -37,7 +37,7 @@ You can see a report with the performance session Id in the left pane. Selecting
 
 Use the **Reports comparison** tab to review the comparative analysis of different operations based on the individual reports displayed in the performance report. The Report comparison tab displays sub tabs that has comparative analysis based on the percentiles. You can view the comparative analysis for 50th, 75th, 90th, 95th, and 99th percentile. The report shows **Operations ID** with an alphabet suffix and displays the comparison in terms of percentage. 
 
-For example, time taken for the **Unified Service Desk Cold** operation under the category, **Unified Service Desk Start Boot** from the two different reports shows with the Operation ID. You can see the comparison between these operations displayed as **(a) vs (b)** in terms of percentage.
+For example, time taken for the **Browser Navigation** operation under the category, **Load Dashboard** from the two different reports shows with the Operation ID. You can see the comparison between these operations displayed as **(a) vs (b)** in terms of percentage.
 
 ![Compare the performance report for different performance session](../media/compare-reports.PNG "Compare the performance report for different performance session")
 
