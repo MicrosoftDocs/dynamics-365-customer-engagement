@@ -2,21 +2,20 @@
 title: "Set up Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to run the setup wizard for Dynamics 365 for Marketing"
 keywords: "setup; licensing; FRE; Azure; privacy; marketing services; customer-insights services"
-ms.date: 06/01/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.date: 10/10/2018
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-admin"
-  - "dyn365-marketing"
+  - dyn365-admin
+  - dyn365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: f722b098-be63-412a-aadc-7b34d11fa668
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -48,10 +47,12 @@ After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-nam
 > 
 > - You must already have an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
 > - **You must be running [!include[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or higher** (supplied together with most trial and stand-alone [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setups).
-> - You must already have a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] license assigned to your user account on your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
+> - You must sign into your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant with a user account that has all the following:
+>   - A [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] license assigned to you on your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
+>   - Admin privileges on the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance where you are installing [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
+>   - Permissions to register applications in [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]. The global administrator always has this right, but other accounts can also have it. See [Do I have permissions to register applications on Azure?](setup-troubleshooting.md#register-apps-azure) for information about how to confirm this setting for your account.
 > - An unconfigured [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app must be available on your tenant.
-> - An unconfigured portal app must be available on your tenant. Usually this is included with [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], provided no other free portals are already in use on your tenant. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Why do I need a new portal, and how can I get one?](setup-troubleshooting.md#why-portal)
-> - You must run the setup wizard as a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] user with admin privileges on the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance where you are installing Marketing.
+> - An unconfigured portal app must be available on your tenant. Depending on the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensing plan you have chosen, your license may include a free portal (provided no other free portals are already in use on your tenant), or you may need to purchase a portal license before you can install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Why do I need a portal, and how can I get one?](setup-troubleshooting.md#why-portal)
 > - You must be located in a country/region where the product is supported. To read the latest list of countries/regions where you can use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
 > - Close all other browser windows and tabs before starting.
 > - Clear your browser cache before starting.
@@ -76,7 +77,7 @@ The first page of the wizard lets you choose where you will install the app and 
 
 Choose an instance and name your portal:
 
-1. Select the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] organization where you want to add [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. (A [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] *organization* is another name for a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] *instance*.) If you aren't already using any other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] apps, you'll set up a new instance now. If you already have one or more instances, you'll be able to select an existing one that you want to integrate with the Marketing app, or create a new one.
+1. Select the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] organization where you want to add [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. (A [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] *organization* is another name for a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] *instance*.) If you aren't already using any other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] apps, you'll set up a new instance now. If you already have one or more instances, you'll be able to select an existing one that you want to integrate with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, or create a new one.
 
 2. Enter a prefix for your portal URL and enter it in the field provided. You can also see what the full URL will be here. The portals feature enables [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] to host webpages, accept values submitted by page visitors, and to update its database directly based on those values. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses the portals feature to publish marketing pages, subscription centers, event portals, surveys, and more. All your portals are hosted on a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] server, which uses a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)]-owned domain name, plus the subdomain name that you choose here. Your contacts and customers can see the URL when they open a portal, so you should choose a subdomain name that they will recognize, such as your organization's name. The subdomain that you choose must also be unique among all other subdomains in the same [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] server; you'll be notified to try again if you pick one that's already in use.
 

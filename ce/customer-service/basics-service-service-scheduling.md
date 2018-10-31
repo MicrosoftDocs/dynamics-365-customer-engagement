@@ -22,7 +22,7 @@ search.app:
   - D365CS
 ---
 
-# Overview of service and service scheduling (Customer Service)
+# Service scheduling overview
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

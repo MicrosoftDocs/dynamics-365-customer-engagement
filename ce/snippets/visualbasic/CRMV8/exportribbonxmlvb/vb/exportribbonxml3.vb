@@ -1,7 +1,7 @@
 ' <snippetexportribbonxml3>
 
 
- 'Retrieve the Appliation Ribbon
+ 'Retrieve the Application Ribbon
  Dim appribReq As New RetrieveApplicationRibbonRequest()
  Dim appribResp As RetrieveApplicationRibbonResponse = CType(_serviceProxy.Execute(appribReq), RetrieveApplicationRibbonResponse)
 

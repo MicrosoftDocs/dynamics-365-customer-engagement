@@ -2,11 +2,13 @@
 title: "Define a goal metric (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Define how you want to measure your goals by using goal metrics in Dynamics 365 for Sales."
 keywords: "goal, metric"
-ms.date: 04/10/2018
-ms.service: crm-online
-ms.custom: 
+ms.date: 10/09/2018
+ms.service:
+  - "crm-online"
+ms.custom:
+  - ""
 ms.topic: article
-applies_to: 
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 2251e5a0-fb76-48fb-82ec-73fe6263e3bd
@@ -18,13 +20,6 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 
 topic-status: Drafting
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Define a goal metric (Sales & Sales Hub)
@@ -35,9 +30,75 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
 
 ## Create a goal metric (Sales Hub app)
 
-> [!IMPORTANT]
-> 
-> Currently, you can't create a goal metric in the Sales Hub app. To create a goal metric, use the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] - custom app.
+1.	Make sure that you have the Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer security role or equivalent permissions.
+
+2.	Select the **Site map** icon  ![Image alt text](media/site-map-icon.png "Image hover text"), then select ellipsis ![Ellipsis to open more options](media/ellipsis-more-options.png "Ellipsis to open more options"), and then select **Goal Metrics**.
+
+![Goal Metrics in the site map](media/site-map-goal-management.png "Goal Metrics in the site map")
+ 
+3.	To create a new goal metric, on the command bar, select **New**.
+
+4.	Under **Step 1: Define the metric**, fill in the information:
+
+    a.	**Name**. Required. Enter a name between 1 and 100 characters.
+    
+    b.	**Metric Type**. Required. To track a monetary amount, select Amount. To track another type of amount, such as how many new contacts are added, select Count.
+
+    
+    > [!NOTE]
+
+    > After you save the goal metric, you will no longer be able to edit this field.
+    
+    c.	**Amount Data Type**. Required. This option is not available if the Metric Type you chose is **Count** because Dynamics 365 automatically sets the data type to integer.
+    
+    > [!NOTE]
+
+    > After you save the goal metric, you will no longer be able to edit this field.
+    
+    d.	**Track Stretch Target**. Select this check box if you want this metric to track an additional target beyond the primary goal.
+
+    ![Goal metric form](media/goal-metric-form.png "Goal metric form")
+ 
+5.	Select **Save**.
+
+6.	Define the rollup fields for this metric to track the target's actual and in-progress values.
+
+    a.	On the **Rollup Fields** tab, select **Add New Rollup Field**.
+
+    b.	In the New Rollup Field form, under **Step 1: Specify the rollup field to track against goals**, fill in the information:
+
+      -  **Rollup Field**. Select a rollup field where the metric rollup data will be displayed in the goal. You can display an integer or money, depending on the Metric Type you chose. You can't select a field you already added to the metric.
+
+      ![Rollup fields tab on goal metric form](media/rollup-fields-tab-goal-metric-form.png "Rollup fields tab on goal metric form")
+ 
+    c. Under **Step 2: Specify the details about the source data that rolls up**, fill in the information:
+
+      - **Source Record Type**. Required. Select the record type to use as the source of the rollup data for the metric.
+
+        > [!NOTE]
+
+        > A custom record type (entity) that is organization-owned isn't available in the Source Record Type drop-down list for selection. For more information about entity ownership, see Types of entities.
+
+      - **Source Record Type State**. Required. Select the record state you want to use as the source of the rollup data for the metric.
+
+      - **Source Record Type Status**. Required. Select the status of the records you want to use as the source of the rollup data for the metric. State and status may be identical, depending on the record type you selected.
+ 
+          ![Rollup fields tab](media/rollup-fields-tab-source-data-goal-metric-form.png "Rollup fields tab")
+
+    d. Under **Step 3: Specify the date field that determines the goal period that the records will roll up into**, fill in the information:
+
+      - **Record Type**. Required. Select the entity that contains the date field you want. Typically, you can only choose the same record type you selected as the Source Record Type.
+
+      - **Date Field**. Select a date field. The options available in the list are from the entity you selected in the Record Type field.
+
+         ![Specify a date field that determines the goal period](media/rollup-fields-tab-goal-period-goal-metric-form.png "Specify a date field that determines the goal period")
+ 
+    e. Select **Save & Close**.
+
+7.	On the **Description** tab, enter a description for the goal metric to enable other users to understand what metrics are being tracked.
+
+8.	Select **Save**.
+
 
 ## Create a goal metric (Sales app)
   

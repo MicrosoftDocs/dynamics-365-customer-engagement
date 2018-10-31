@@ -3,12 +3,12 @@ title: "Administrator & Sales Manager Guide (Dynamics 365 for Sales) | Microsoft
 description: "A starting point for browsing admin and sales manager content for Dynamics 365 for Sales."
 keywords: "Sales Hub, Sales, Index, sales manager, admin, administrator"
 ms.date: 07/18/2018
-ms.service: 
+ms.service:
   - "crm-online"
-ms.custom: 
+ms.custom:
   - ""
 ms.topic: get-started-article
-applies_to: 
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: d43cde80-1e19-4001-ad4b-e45f5a3205be
@@ -19,13 +19,6 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 topic-status: Drafting
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Administrator and Sales Manager Guide
@@ -34,8 +27,9 @@ search.app:
 
 <tr><td>
 
-<h2>Product catalog setup </h2>
+<h2>Sales & product catalog setup </h2>
 <ul>
+<li><a href="../admin/set-up-sales-territories-organize-business-markets-geographical-area.md" data-raw-source="[Set up sales territories to organize business markets by geographical area](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)">Set up sales territories to organize business markets</a></li>
 <li><a href="set-up-product-catalog-walkthrough.md" data-raw-source="[Set up a product catalog](set-up-product-catalog-walkthrough.md)">Set up a product catalog</a></li>
 <li><a href="set-up-discount-list.md" data-raw-source="[Set up a discount list](set-up-discount-list.md)">Set up a discount list</a></li>
 <li><a href="create-unit-group-add-units-that-group.md" data-raw-source="[Create unit and unit groups](create-unit-group-add-units-that-group.md)">Create unit and unit groups</a></li>

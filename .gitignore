@@ -8,3 +8,4 @@ _themes*/
 CODEOWNERS
 
 .openpublishing.buildcore.ps1
+.DS_Store

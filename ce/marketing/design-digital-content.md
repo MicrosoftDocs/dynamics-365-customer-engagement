@@ -2,20 +2,19 @@
 title: "Use the designer tool (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Basics of how to use the designer tool to create emails, landing pages, and forms in Dynamics 365 for Marketing"
 keywords: "designer; design element; element; template"
-ms.date: 04/01/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.date: 10/16/2018
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 28762c17-02f7-4883-a9d8-e606858de7bd
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -100,9 +99,9 @@ If you prefer to work directly with HTML code, open the designer's **HTML** tab.
     - Set field values based on values passed in the calling URL
     - Set field values based on values passed in the calling URL.
 
-Be careful when working here, though, because the graphical editor expects specific types of markup to implement its drag-and-drop components. Without this markup, you won't be able to edit your design elements any more and might even break them.
+Be careful when working here, though, because the graphical editor expects specific types of markup to implement its drag-and-drop elements. Without this markup, you won't be able to edit your design elements any more and might even break them. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use custom attributes to enable designer features in emails, pages, and forms](custom-template-attributes.md)
 
-The HTML editor provides a few handy code-editing features such as syntax coloring and line numbers.
+The HTML editor provides a few handy code-editing features such as syntax coloring and line numbers. You can also apply formatting to add line breaks and indents to make the code more readable; to do this, right-click anywhere in the editor and select **Format document** from the context menu.
 
 ### Preview your design
 

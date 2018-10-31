@@ -3,19 +3,18 @@ title: "Overview (Dynamics 365 for Marketing)"
 description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 for Marketing"
 keywords: "features; benefits; overview"
 ms.date: 04/01/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: get-started-article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 37dcb64c-e825-4242-a1bd-4bc40f512e93
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -238,7 +237,7 @@ To establish what happens when a condition is met, drag an **Action** tile from 
 
 Regardless of how many condition/action pairs your scoring rule has, you must also establish a single set of grades that apply for the entire rule. Each grade applies to a range of scores and has a name. Grades can't overlap. Though you can establish as many grades as you want, the most important distinction will be the sales-ready grade. When a lead achieves this grade, it is considered marketing-qualified and can be submitted to a salesperson for acceptance and further attention. Use the **Grades** tab to set up a grade schedule and sales-ready threshold for your rule.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Score and manage leads](score-manage-leads.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design lead-scoring models](score-manage-leads.md)
 
 ## Connect to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] to import promising new leads straight into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
 
@@ -255,7 +254,7 @@ Use the [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[cc-linke
 - **Analyze lead performance across sources**  
     Track and analyze the performance of leads captured on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] versus other sources.
 
-[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] integration relies on the Lead Gen Forms capability of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] to capture leads. This is a paid [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] service, which you must subscribe to to enable the integration.
+[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] integration relies on the Lead Gen Forms capability of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] to capture leads. This is a paid [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] service, which you must subscribe to enable the integration.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [LinkedIn Lead Gen integration](linkedin-lead-gen-integration.md)
 

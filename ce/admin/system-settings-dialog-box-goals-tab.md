@@ -2,28 +2,23 @@
 title: "System Settings dialog box - Goals tab for Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 07/18/2018
-ms.service: 
+ms.date: 10/09/2018
+ms.service:
   - "crm-online"
-ms.custom: 
+ms.custom:
   - ""
 ms.topic: article
-applies_to: 
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 14c34660-19df-40cb-bf84-3878dcfa3787
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 12
-search.audienceType: 
-  - admin
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
 
 # System Settings dialog box - Goals tab
@@ -31,8 +26,6 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Set the duration and frequency of the automatic rollup of goals. These settings only affect the automatic handling of all goals set in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can always perform a manual rollup for any goal at any time.  
-  
-## Open the System Settings dialog box (if it isn’t already open)  
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   
@@ -42,9 +35,12 @@ Set the duration and frequency of the automatic rollup of goals. These settings 
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
+2. If you are using a Sales web application, go to **Settings** > **Administration** > **System Settings**, and then select the **Goals** tab.
+
+   OR
+
+   If you are using the Sales Hub App, select the Site map icon ![Site map icon](../sales-enterprise/media/site-map-icon.png "Site map icon"), then select ellipsis ![Ellipsis to open more options](../sales-enterprise/media/ellipsis-more-options.png "Ellipsis to open more options") , then select **App Settings**, and then select **Goals Settings**.
   
-3. Click the **System Settings** > **Goals** tab.  
   
 |                            Settings                            |                                                                                  Description                                                                                   |
 |----------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

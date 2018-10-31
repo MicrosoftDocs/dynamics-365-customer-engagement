@@ -1,6 +1,6 @@
 ---
 title: "Unified Interface Page (Hosted Control) (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Learn about the the Unified Interface Page hosted control type to load a URL or page from Dynamics 365. When a Dynamics 365 page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
+description: "Learn about the Unified Interface Page hosted control type to load a URL or page from Dynamics 365. When a Dynamics 365 page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
 keywords: ""
 ms.date: 04/24/2018
 ms.service: 
