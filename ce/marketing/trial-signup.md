@@ -33,6 +33,9 @@ search.app:
 You can install and use a trial version of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] for free.
 
 > [!IMPORTANT]
+> This topic describes how to sign up for a self-service trial. However, self-service trials are not available in all countries/regions. Instead, Microsoft is rolling out *concierge trials*, in which a consultant will help you set up and get started with your trial. If you don't see the **Marketing** tile on [trials.dynamics.com](https://trials.dynamics.com/), then go instead to [this sign-up page](https://dynamics.microsoft.com/en-us/get-started/?appname=marketing) to request a call back and get started with a concierge trial.
+
+> [!IMPORTANT]
 > - You will receive a trial [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance together with your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial. You must run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on a trial instance, and can't install it on a production instance.
 > - You can install, at most, one [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial per [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
 > - You can only install the trial if you are located in a country/region where the product is supported. To read the latest list of countries/regions where you can use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
@@ -57,6 +60,9 @@ To sign up for a free trial of [!INCLUDE[pn-marketing-business-app-module-name](
 
 2. Find and select the **[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]** tile.  
     ![The Marketing trial tile](media/trial-signup-tile.png "The Marketing trial tile")
+
+    > [!NOTE]
+    > In some countries/regions, Microsoft offers concierge trials instead of self-service trials. If you don't see the **Marketing** tile on [trials.dynamics.com](https://trials.dynamics.com/), then go instead to [this sign-up page](https://dynamics.microsoft.com/en-us/get-started/?appname=marketing) to request a call back and get started with a concierge trial, in which a consultant will help you set up and get started with your trial.
 
 3. Enter your email address and phone number and choose **Get Started**.
 
