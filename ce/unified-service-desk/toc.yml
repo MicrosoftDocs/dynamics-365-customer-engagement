@@ -516,10 +516,5 @@
     href: session-timer-custom-hosted-control.md
 - name: Accessibility in Unified Service Desk for Microsoft Dynamics 365
   href: admin/accessibility-unified-service-desk-microsoft-dynamics-365.md
-- name: Release notes of Unified Service Desk
+- name: Known issues and limitations of Unified Service Desk
   href: release-notes.md
-  items:
-  - name: Release notes of Unified Service Desk 4.0
-    href: release-notes-unified-service-desk-40.md    
-  - name: Release notes of Unified Service Desk 3.3
-    href: release-notes-unified-service-desk-33.md
