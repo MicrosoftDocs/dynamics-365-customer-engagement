@@ -25,7 +25,9 @@ search.app:
 monikerRange : '>= dynamics-usd-3'
 ---
 
-# Categories and operations
+# Public Preview: Categories and operations
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 The categories under which the operations you perform are classified. The following are the list of categories and operations:
 
