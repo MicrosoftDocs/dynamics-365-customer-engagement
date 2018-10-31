@@ -25,7 +25,9 @@ search.app:
 monikerRange : '>= dynamics-usd-3' 
 ---
 
-# View, read, and compare Unified Service Desk performance report
+# Public Preview: View, read, and compare Unified Service Desk performance report
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## View the performance report for a performance session
 

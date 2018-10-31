@@ -25,7 +25,9 @@ search.app:
 monikerRange : '>= dynamics-usd-3'
 ---
 
-# Overview of Unified Service Desk performance report user interface
+# Public Preview: Overview of Unified Service Desk performance report user interface
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 The report you launch in the Unified Service Desk Performance Analyzer opens in a web browser. Also, you can access the performance report using the **Copy report folder path** option in the performance analyzer tool and pasting it in the **File Explorer** address bar.
 
