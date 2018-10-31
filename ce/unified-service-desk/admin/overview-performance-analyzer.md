@@ -25,7 +25,9 @@ search.app:
 monikerRange : '>= dynamics-usd-3'
 ---
 
-# Overview of Unified Service Desk Performance Analyzer
+# Public Preview: Overview of Unified Service Desk Performance Analyzer
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Unified Service Desk Performance Analyzer is a powerful performance monitoring tool that analyzes the
 operations of your Unified Service Desk client from the performance data logs and generates in-depth
