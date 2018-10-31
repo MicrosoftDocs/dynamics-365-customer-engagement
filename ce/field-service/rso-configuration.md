@@ -1,13 +1,14 @@
 ---
-title: Configuration
-author: shellyhaverkamp
+title: Resource Scheduling Optimization (RSO) configuration
+author: fieldservicedave
+ms.author: daclar
+ms.reviewer: krbjoran
 manager: shellyha
-ms.date: 6/08/2018
+ms.date: 10/31/2018
 ms.topic: article
 ms.custom: 
   - dyn365-fieldservice
 ms.service: dynamics-365-customerservice
-ms.author: shellyha
 search.audienceType: 
   - admin
   - customizer
@@ -17,23 +18,18 @@ search.app:
   - D365FS
 ---
 
-Configuration 
-==============
+# Resource Scheduling Optimization (RSO) configuration
 
-RSO system settings 
---------------------
-
-The following settings must be configured after deploying RSO.
+Perform these configuration steps after deploying the RSO solution.
 
 1. Go to **Resource Scheduling Optimization** \> **Administration** \>
     **Resource Scheduling Parameters**.
 
-   - Set **Enable Resource Scheduling Optimization** as **Yes**.
+   - Set **Enable Resource Scheduling Optimization** to **Yes**.
 
-   - Set **Default Goal** if needed. It can help you speed up interactions with
-     RSO through the schedule board by predefining how the engine should optimize
-     data. Users can still pick different goals. For more details, see “4.3
-     Leverage schedule board to review optimization results.”
+   - Set **Default Goal** if needed. A default goal helps speed up interactions with
+     RSO through the schedule board by predefining how the engine optimizes
+     data. Users can still pick different goals. 
 
    - Set **Connect to Maps** as **Yes**. The connect to maps feature allows this
      organization to interact with the Bing Maps service that the schedule board
@@ -44,7 +40,7 @@ The following settings must be configured after deploying RSO.
      ![Screenshot of "Connect to Maps" set as "Yes"](media/c2e5f7299860832f2823f285d0fcd113.png)
 
      > [!NOTE]
-     > Only a user with the System Administrator role can enable this. 
+     > Only a user with the system administrator role can enable this setting. 
 
 2. Go to **Settings** \> **Security** \> **Users**, navigate to the
     **Application Users** view, and assign the Field Service - Administrator
@@ -52,10 +48,10 @@ The following settings must be configured after deploying RSO.
 
 3. Go to **Settings** \> **Security** \> **Field Security Profiles**, open
     **Field Service – Administrator**, and add **Resource Scheduling
-    Optimization** into the Field Security Profile.
+    Optimization** to the field security profile.
 
    > [!NOTE]
-   > Steps 2 and 3 help ensure that RSO is able to optimize work order-related requirements and bookings. For Field Service dispatchers who want to interact with RSO:
+   > Steps 2 and 3 help ensure that RSO is able to optimize work order-related requirements and bookings. For dispatchers who want to interact with RSO:
    > 
    > 1. Go to **Settings** \> **Security** \> **Users**.
    > 2. Locate the user or team of dispatchers.
@@ -69,26 +65,26 @@ The following settings must be configured after deploying RSO.
 Settings to prepare data for optimization 
 ------------------------------------------
 
-The basic settings here will be checked and respected by all optimization scopes.
+The settings described here are selected and applied to all optimization scopes.
 
-1. Update **Optimize Schedule** to **Yes** for resources. To do so, go to
+1. Update **Optimize Schedule** to **Yes** for resources. Go to
     **Resource Scheduling Optimization** \> **Resources**. Navigate to the
     **Scheduling Summary** view, select one or more resource records, and then
-    click **EDIT** to bulk edit the Optimize Schedule field to YES.
+    click **Edit** to bulk edit the **Optimize Schedule** field to **Yes**.
 
    > [!NOTE]
-   > - Once you have enabled your resources for RSO, you need to set the latitude
+   > - After you enable your resources for RSO, you need to set the latitude
     and longitude for the resources’ organizational unit or personal address,
     depending on whether their start/end location is an organizational unit or a
     personal address.
-   > - Start location and end location should have the same setting. For example,
+   > - Start location and end location must have the same setting. For example,
     you cannot have the start location be a personal address and the end
     location be location agnostic. 
   
    > [!div class="mx-imgBorder"]
-   > ![Screenshot showing the Resource Scheduling OPtimization set to Yes on a resource](media/rso-set-to-yes.png)
+   > ![Screenshot showing the Resource Scheduling Optimization set to Yes on a resource](media/rso-set-to-yes.png)
    
-2. Configure BOOKING SETUP METADATA for the desired entity. To do this, set
+2. Configure booking setup metadata for the entity. Set
     **Default Scheduling Method** to **Optimize**. For example, if enabled for
     work order entity’s booking setup metadata, every newly created work order
     and related resource requirement will be configured to optimize
@@ -96,18 +92,17 @@ The basic settings here will be checked and respected by all optimization scopes
     
     ![Screenshot showing the Booking Setup Metadata, with Default Scheduling Method set to "Optimize"](media/f0d624969f46a29e897670479a546ef6.png)
 
-3. For existing resource requirement records in your system, update Resource
-    Requirements Scheduling Method. To do this, go to **Resource Scheduling
+3. For existing resource requirement records, update the resource
+    requirements scheduling Method. Go to **Resource Scheduling
     Optimization** \> **Resource Requirements,** navigate to the **Unscheduled
     Work Order Requirements** view, select some or all records, and click
-    **EDIT** to bulk edit Optimize Schedule to YES.
+    **Edit** to bulk edit the **Optimize Schedule** field to **Yes**.
 
     > [!NOTE]
-    > Work Location must be either On Site or Location Agnostic. If On Site is the requirement, you need to specify latitude and longitude. More details on this are available in section 5.12. 
+    > Work location must be set to **On Site** or **Location Agnostic**. If **On Site** is the requirement, you must specify latitude and longitude.  
     
     > [!div class="mx-imgBorder"]
     > ![Screenshot showing a resource requirement, showing the important or required fields](media/c6ddfd243951a9a69073065ebbf2e0cb.png)    
-
 4. Check **From Date** and **To Date** for resource requirements to make sure
     the dates fall into the window you would like to schedule. You can use the
     bulk edit feature to update values for selected records as well.
@@ -120,9 +115,8 @@ The basic settings here will be checked and respected by all optimization scopes
     > [!NOTE]
     > Any booking status with an empty scheduling method will be treated as Do Not Move.
     
-   - **Optimize**: This means RSO is free to move this booking around. 
-   - **Do Not Move**: This means RSO will not alter the booking (RSO will
-    preserve the estimated arrival time and assigned resource. The booking’s
+   - **Optimize**: This status means RSO is free to move this booking around. 
+   - **Do Not Move**: This means RSO doesn't alter the booking. RSO preserves the estimated arrival time and assigned resource. The booking’s
     start time and estimated travel duration may be changed if RSO schedules a
     booking in a new location before the Do Not Move booking). This operates the
     same as if the user set the booking to **Locked to resource + time** on the
@@ -131,26 +125,25 @@ The basic settings here will be checked and respected by all optimization scopes
     location and time, meaning there will be overlaps. It is as if the booking
     doesn’t exist. Use this when the booking status is in the state of proposed or canceled.
 
-Create an optimization schedule 
---------------------------------
+## Create an optimization schedule 
 
-You can define when RSO should optimize requirements and/or bookings for selected resources—for example, at 1 AM on weekdays. Creating a schedule also entails creating a scope and a goal.
+You can define when RSO should optimize requirements and bookings for selected resources, for example, at 1 AM on weekdays. Creating a schedule also includes creating a scope and a goal.
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing an optimization schedule](media/88139c6831f34eb47709a44bc6d3dd6e.png)
 
-Give the schedule a logical name to express which resource requirements and bookable resources will be optimized. If a scope and goal have not been created, you will need to create those for this schedule. See the next section for details about scope and goals.
+Give the schedule a logical name to express which resource requirements and bookable resources will be optimized. If a scope and goal have not been created, you will need to create those for this schedule. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the schedule name](media/rso-wa-job.png)
 
 - **Timer**: Defines how often this schedule will run.
-- **Timer Mode**: The reference instant from when the schedule will start the
-    timer (Fixed or After Job Completion). For example, if timer is set to 30
-    minutes, the first run will start 30 minutes from the publish date/time.
-    Fixed = run every 30 minutes. After Job Completion = run 30 minutes from the
-    end of the last RSO job execution. Job refers to the RSO job.
+- **Timer Mode**: The reference instant when the schedule starts the
+    timer (**Fixed** or **After Job Completion**). For example, if a timer is set to 30
+    minutes, the first run starts 30 minutes from the publish date/time.
+    **Fixed** mode means the optimization runs every 30 minutes. **After Job Completion** mode means the optimization runs 30 minutes from the
+    end of the last RSO job execution. **Job** refers to the RSO job.
 - **Valid From** and **Valid To**: The first/last date and time when this
-    schedule will be valid for execution.
+    schedule is valid for execution.
 
 Filter is used to set a variety of combinations. For example, the schedule will run at 1 AM and 7 PM every Monday through Friday.
 
@@ -162,9 +155,9 @@ The Filter section of the schedule is an advanced feature. The Filter window all
     to a configured time zone.
 - Leaving all filters blank means no filters will be applied.
 
-### How does Timer work with Filter?
+### How does a timer work with a filter?
 
-If you configure your Timer and Filter as shown here, it means that RSO will run every 30 minutes after the previous job is completed—from 12/3/2016 at 9 AM to 12/4/2018 at 9 AM except on Saturdays and Sundays.
+If you configure your timer and filter as shown here, RSO will run every 30 minutes after the previous job is completed, from 12/3/2016 at 9 AM to 12/4/2018 at 9 AM, except on Saturdays and Sundays.
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the Washington territory](media/rso-wa-territory.png)
 > [!div class="mx-imgBorder"]
@@ -175,7 +168,7 @@ If you configure your Timer and Filter as shown here, it means that RSO will run
 Define the optimization scope
 -----------------------------
 
-You can define what RSO should optimize. This includes resources, requirements, and bookings.
+You can define what RSO optimizes, including resources, requirements, or bookings.
 
 Scope is the RSO mechanism for defining the relevant inputs: resource requirements, resources, and existing resource bookings. It also includes the timeframes to be considered for optimization. Extensible scope leverages Dynamics 365 entity views, providing an easy and flexible way to define what to optimize (resource requirements, resources, and existing resource bookings).
 
