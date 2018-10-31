@@ -64,7 +64,7 @@ The report displays the Performance timeline graph and Performance details table
 
 The timeline graph displays the time taken for an operation in terms of time consumed by each method under every class. The Y-axis displays the operation name and the X-axis displays the timeline.
 
-![Read the Performance report](../media/performance-details-table.PNG "Read the Performance report")
+![Read the Performance report](../media/read-perf-timline.PNG "Read the Performance report")
 
 Hover the cursor on any method name to see the time consumed.
 

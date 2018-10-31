@@ -45,13 +45,10 @@ controls, custom scripts, action calls and so on.
 
 The advantages or value proposition of the Unified Service Desk performance analyzer are as follows:
 
-- Graphical representation of performance data logs, in charts and table.
+- Visual representation of performance data logs, in charts and table.
 - Reduction in the time spent on troubleshooting.
-- Easy analysis of the problematic areas.
-- Better visualization of execution time for each operations.
 - Report for operations performed in the client application.
-- Review the performance of the client application end-to-end.
-- Provides classes and methods level analysis.
+- Review the end-to-end performance of the client application.
 - Comparative analysis of the different performance reports (generated out of performance data logs).
 - Ease of access to the reports for future reference.
 
