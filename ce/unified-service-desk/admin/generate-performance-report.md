@@ -25,7 +25,9 @@ search.app:
 monikerRange : '>= dynamics-usd-3'
 ---
 
-# Generate Unified Service Desk performance report 
+# Public Preview: Generate Unified Service Desk performance report 
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 1. Go to location where you have downloaded the **Unified Service Desk Performance Analyzer**.
 

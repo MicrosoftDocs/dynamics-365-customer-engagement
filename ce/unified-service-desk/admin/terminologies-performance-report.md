@@ -25,7 +25,9 @@ search.app:
 monikerRange : '>= dynamics-usd-3'
 ---
 
-# Terminologies in the performance report
+# Public Preview: Terminologies in the performance report
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 When you view the performance report, you may come across certain terminologies. Understanding the terminologies help you to read and analyze the performance report effectively and take a better course of action.
 
