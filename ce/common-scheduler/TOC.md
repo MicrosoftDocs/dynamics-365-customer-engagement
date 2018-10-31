@@ -1,6 +1,4 @@
 # [Schedule anything with Universal Resource Scheduling](schedule-anything-with-universal-resource-scheduling.md)
-# [Use Resource Scheduling Optimization](resource-scheduling-optimization.md)
-
 # URS extensibility
 ## Preferred geospatial data provider
 ### [Use your preferred geospatial data provider](developer/use-preferred-geospatial-data-provider.md)
