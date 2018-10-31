@@ -4,4 +4,4 @@
 [!include[](teams-bot-search.md)]
 [!include[](teams-personal-use.md)]
 [!include[](teams-troubleshoot.md)]
-[!include[](teams-delete-data.md)]
+[!include[](teams-delete-data.md)] 
