@@ -80,9 +80,6 @@ The settings described here are selected and applied to all optimization scopes.
     you cannot have the start location be a personal address and the end
     location be location agnostic. 
   
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot showing the Resource Scheduling Optimization set to Yes on a resource](media/rso-set-to-yes.png)
-   
 2. Configure booking setup metadata for the entity. Set
     **Default Scheduling Method** to **Optimize**. For example, if enabled for
     work order entity’s booking setup metadata, every newly created work order
@@ -100,8 +97,7 @@ The settings described here are selected and applied to all optimization scopes.
     > [!NOTE]
     > Work location must be set to **On Site** or **Location Agnostic**. If **On Site** is the requirement, you must specify latitude and longitude.  
     
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot showing a resource requirement, showing the important or required fields](media/c6ddfd243951a9a69073065ebbf2e0cb.png)    
+    
 4. Check **From Date** and **To Date** for resource requirements to make sure
     the dates fall into the window you would like to schedule. You can use the
     bulk edit feature to update values for selected records as well.
