@@ -52,6 +52,9 @@ The advantages or value proposition of the Unified Service Desk performance anal
 - Comparative analysis of the different performance reports (generated out of performance data logs).
 - Ease of access to the reports for future reference.
 
+> [!div class="mx-imageBorder"]
+> ![Performance analyzer value propositions](../media/performance-analyzer-value-propositions.PNG "Performance analyzer value propositions")
+
 ## Support matrix
 The Unified Service Desk Performance Analyzer supports Unified Service Desk 3.2 and higher.
 
