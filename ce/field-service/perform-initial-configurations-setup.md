@@ -23,9 +23,9 @@ search.app:
   - D365FS
 ---
 
-# Perform Initial Configurations 
+# Perform initial configurations 
 
-After installing Dynamics 365 for Field Service, there are a few important initial configurations, whether you're using the application for learning, development, testing, demonstrations, or go-live.
+After installing Dynamics 365 for Field Service, there are a few important initial configurations, whether you're using the application for learning, development, testing, demonstrations, or live usage.
 
 Estimated Duration: 10 minutes
 
@@ -70,7 +70,7 @@ If sample data has already been imported, you'll see multiple records under **Fi
 
 ### Scheduling parameters
 
-First, you need to enable mapping and location services for the application. Maps and locations are very important in Field Service because knowing the location of Work Orders and Resources allows the solution to effectively route the closest field technician (Resource) to the service request (Work Order).
+First, you need to enable mapping and location services for the application. Maps and locations are very important in Field Service because knowing the location of work orders and resources allows the solution to effectively route the closest field technician (resource) to the service request (work order).
 
 This is all accomplished by **geocoding**, where the solution associates a latitude and longitude to an address.
 
