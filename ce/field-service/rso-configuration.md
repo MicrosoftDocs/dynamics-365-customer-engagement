@@ -20,7 +20,7 @@ search.app:
 
 # Resource Scheduling Optimization (RSO) configuration
 
-Perform these configuration steps after deploying the RSO solution.
+Perform these configuration steps after you deploy the RSO solution.
 
 1. Go to **Resource Scheduling Optimization** \> **Administration** \>
     **Resource Scheduling Parameters**.
@@ -155,7 +155,7 @@ The Filter section of the schedule is an advanced feature. The Filter window all
     to a configured time zone.
 - Leaving all filters blank means no filters will be applied.
 
-### How does a timer work with a filter?
+### How timers work with filters
 
 If you configure your timer and filter as shown here, RSO will run every 30 minutes after the previous job is completed, from 12/3/2016 at 9 AM to 12/4/2018 at 9 AM, except on Saturdays and Sundays.
 > [!div class="mx-imgBorder"]
@@ -179,13 +179,11 @@ Scope is the RSO mechanism for defining the relevant inputs: resource requiremen
 > - Geographically defined: neighborhoods, cities.
 > - Logically defined: support level, incident type.
 
-Upon opening the **Scheduling Optimization Scope** form, users can select existing system views or personal views (for which they have read permissions) from the Resource, Requirement, and Booking view drop-down menus. If personal view is selected, it will be shared with the Resource Scheduling Optimization application user and other users who have access to the scope.
+After opening the **Scheduling Optimization Scope** form, users can select existing system views or personal views (for which they have read permissions) from the Resource, Requirement, and Booking view drop-down menus. If a personal view is selected, it is shared with the Resource Scheduling Optimization application user and other users who have access to the scope.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the scheduling optimization scope](media/92069616c79fb0f7fe9c4adc6683f50b.png)
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a modal with system view options](media/e7dd89ff112dcae60489d52534c564f2.png)
-
-The following explains how to define an optimization scope.
 
 1. Using **Resource View** as an example, 0_WA Resources has been defined with
     the filter conditions shown in the following screenshot. This is equivalent
@@ -265,7 +263,7 @@ The following explains how to define an optimization scope.
 
 Define the optimization goal 
 -----------------------------
-A goal is what the tool aspires to optimize. An example of a goal is to maximize working hours or minimize travel time. You define how bookings should be optimized (constraints and objectives). The Resource Scheduling Optimization engine processes a list of resources and a list of resource requirements, along with existing bookings, to create the optimal route or list of bookings for the resources. Bookings are considered optimally scheduled if they:
+A goal is what the RSO solution aspires to optimize. An example of a goal is to maximize working hours or minimize travel time. You define how bookings should be optimized (constraints and objectives). The Resource Scheduling Optimization engine processes a list of resources and a list of resource requirements, along with existing bookings, to create the optimal route or list of bookings for the resources. Bookings are considered optimally scheduled if they:
 
 - Meet all company constraints.
 - Have the highest possible score for the company’s objectives.
@@ -348,8 +346,6 @@ A goal is what the tool aspires to optimize. An example of a goal is to maximize
     resource to the booking.
 
 ### Default optimization goal
-
-Related to Resource Scheduling Optimization v2.8+
 
 When Resource Scheduling Optimization is deployed for the first time, the system will automatically create a default goal with some constraints and objectives enabled. 
 
