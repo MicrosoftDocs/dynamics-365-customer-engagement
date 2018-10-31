@@ -54,7 +54,7 @@ The new experience lists the entities as follows, as compared to the legacy expe
 
 ### Service Scheduling scenario
 
-The legacy and the new experience can be explained with the help of the following scenario: 
+The following scenario helps to understand how the new service scheduling experience lets you manage your service activities seamlessly: 
 
 Contoso bike repair schedules repair services for their customers. To facilitate this process, Contoso needs to bring together the following information:
 
