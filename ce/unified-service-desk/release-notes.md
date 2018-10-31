@@ -168,7 +168,7 @@ This section describes the known issues and limitations in [!INCLUDE[pn_unified_
 
 ## Known issues
 
-### Best Practices Analyzer
+## Best Practices Analyzer
 
 - **Warning for HelpImproveUSD parameter in Dynamics 365 (on-premises)**
 
@@ -178,7 +178,7 @@ This section describes the known issues and limitations in [!INCLUDE[pn_unified_
 
   If you are using [!include[pn-windows-7](../includes/pn-windows-7.md)] operating system, the **Enable Enhanced Protected Mode** option is not available in Internet Explorer options. Hence, you can see an error message for the **Enable Enhanced Protected Mode** parameter in the report.
 
-### Provide Feedback
+## Provide Feedback
 
 - **Insufficient permissions to provide feedback**
 
@@ -198,7 +198,7 @@ This section describes the known issues and limitations in [!INCLUDE[pn_unified_
 
 This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
-### RunScript
+## RunScript
 
 > [!IMPORTANT]
 > This also applies to:
@@ -219,7 +219,7 @@ Accounts and Contacts tabs are open and focus is on Accounts tab. You execute `w
 
 If you open several tabs and want to execute a RunScript action on a tab that is not in focus, set the focus on the tab you want to work and then execute the RunScript action.
 
-### Performance enhancement for CRM entity page loads
+## Performance enhancement for CRM entity page loads
 
 > [!IMPORTANT]
 > This also applies to:
@@ -248,7 +248,7 @@ _Image 1: Right-click on the CRM entity page and select Forward from the context
 > [!Note]
 > The session that you are working is fine and there is no data loss.
 
-### Clicking back button in a session does not perform navigation to original URL
+## Clicking back button in a session does not perform navigation to original URL
 
 If you open any webpage in the browser with hosted controls using IE Process hosting method, the webpage opens in a new window within the same-hosted control overlaying the existing page/window. 
 
@@ -258,7 +258,7 @@ Since the webpage is opened in the new window within the same hosted control ove
 
 Configure **Show Outside** action call to show the webpage in an **IE process** outside of the hosted control space in the popup window.
 
-#### Step 1: Configure ShowOutside action call
+### Step 1: Configure ShowOutside action call
 
 In this step, you will create an action call to show the webpage.
 
@@ -278,7 +278,7 @@ In this step, you will create an action call to show the webpage.
    ![Show outside Action Call](media/show-outside-action-call.PNG "Show outside Action Call")
 6. Click **Save**.
 
-#### Step 2: Configure Window Navigation Rules and add the Action Call
+### Step 2: Configure Window Navigation Rules and add the Action Call
 
 In this step you will create a navigation rule and set the order before other default rules. After creating the navigation rule, add the **ShowOutside** action call that you created in Step 1 to the **Show Outside Rule** window navigation rule.
 
