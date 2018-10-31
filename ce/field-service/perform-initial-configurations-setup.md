@@ -1,26 +1,53 @@
+---
+title: "Perform initial configurations (Dynamics 365 for Field Service) | MicrosoftDocs"
+ms.custom: "dyn365-fieldservice"
+ms.date: 10/31/2018
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "field-service"
+ms.tgt_pltfrm: ""
+ms.topic: "activate-fs-mobile-app-license"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+author: "krbjoran"
+ms.author: FieldServiceDave
+ms.manager: "shellyhaverkamp"
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365FS
+---
+
 # Perform Initial Configurations 
 
-After installing Dynamics 365 for Field Service, there are a few initial configurations that are important whether you are using the application for learning, development, testing, demonstrations, or go-live.
+After installing Dynamics 365 for Field Service, there are a few important initial configurations, whether you're using the application for learning, development, testing, demonstrations, or go-live.
 
 Estimated Duration: 10 minutes
 
 ## Prerequisites
 
-1.  Dynamics 365 environment with the Field Service solution and mobile solution (Resco Woodford) installed along with the mobile project imported. Instructions can be found [here](./install-field-service.md).  
+1. A Dynamics 365 environment with the Field Service solution and the mobile solution (Resco Woodford) installed. You'll also need to import the mobile project. [Instructions for importing the mobile project can be found here](./install-field-service.md).  
 
-2.  Sample data installed (recommended) – installing sample data with the [package deployer](./install-sample-data-8-x.md) will complete many recommended initial configurations  
+2. Sample data installed (recommended). Installing sample data with the [package deployer](./install-sample-data-8-x.md) will complete many recommended initial configurations.  
 
-3.  Verify you can log into Dynamics 365 with a **system administrator** security role
+3. Verify you can log into Dynamics 365 with a **system administrator** security role.
+
+See below for common prerequisite troubleshooting questions.
 
 ### How do I know if the Field Service solution is installed?
 
-When logged in to Dynamics 365 as an administrator or Field Service role you will see the Field Service module
+When logged in to Dynamics 365 as an administrator or Field Service role, you'll see the Field Service module, as seen in the screenshot below.
 
 ![Screenshot of Field Service in left navigation bar](media/Perform-Initial-Configurations-image1.png)  
 
 ### How do I know if the mobile solution is installed?
 
-When logged in as an administrator Woodford will appear under **Settings > Solutions** and as an icon under Settings
+When logged in as an administrator, Woodford will appear under **Settings > Solutions** and as an icon under Settings.
 
 ![Screenshot of Woodford solution in solutions views](media/Perform-Initial-Configurations-image2.png)  
 
@@ -28,122 +55,122 @@ When logged in as an administrator Woodford will appear under **Settings > Solut
 
 ### How do I know if sample data is imported?
 
-You will see multiple records under **Field Service > Work Orders**
+If sample data has already been imported, you'll see multiple records under **Field Service > Work Orders**.
 
 ![Screenshot of Work orders in left navigatiion bar](media/Perform-Initial-Configurations-image4.png)  
 
 ![Screenshot of Active Work orders view](media/Perform-Initial-Configurations-image5.png)  
 
-## Resource Scheduling
+## Step 1: Resource scheduling
 
-### Scheduling Parameters
+### Scheduling parameters
 
-The first step is to enable mapping and location services for the application. Maps and locations are very important in Field Service because knowing the location of Work Orders and Resources allows the solution to effectively route the closest field technician (Resource) to the service request (Work Order).
+First, you need to enable mapping and location services for the application. Maps and locations are very important in Field Service because knowing the location of Work Orders and Resources allows the solution to effectively route the closest field technician (Resource) to the service request (Work Order).
 
-This is accomplished by **geocoding**, where the solution attaches a latitude and longitude to an address.
+This is all accomplished by **geocoding**, where the solution associates a latitude and longitude to an address.
 
-Navigate to **Resource Scheduling > Administration > Scheduling Parameters**
+Navigate to **Resource Scheduling > Administration > Scheduling Parameters**.
 
 ![Screenshot of Resource Scheduling Administration in Dynamics 365 dropdown menu](media/Perform-Initial-Configurations-image6.png)  
 
 Set **Connect to Maps** to **Yes**.
 
-The API key will be filled out automatically and uses Bing Maps API.
+The API key will populate automatically and use the Bing Maps API.
 
 ![Screenshot of setting COnnect to Maps to yes](media/Perform-Initial-Configurations-image7.png)  
 
-Save & Close
+Save and close.
 
-Later in this article we will test geocoding and location services.
+Later in this topic, we'll test geocoding and location services to make sure they're working properly.
 
-### Enable Resource Scheduling for Entities
+### Enable resource scheduling for entities
 
-Navigate to **Resource Scheduling > Administration > Enable Resource Scheduling for Entities**
+Next up, navigate to **Resource Scheduling > Administration > Enable Resource Scheduling for Entities**.
 
 ![Screenshot of Enabling entities for scheduling](media/Perform-Initial-Configurations-image8.png)  
 
-This is where administrators can decide which entities can be scheduled to Resources. When Field Service is installed, Work Orders are enabled for Resource Scheduling, and when Project Service Automation is installed, Projects are enabled. This is made possible by a solution called Universal Resource Scheduling that adds scheduling capabilities to entities and makes use of the Schedule Board. Any entity including custom entities can be enabled for scheduling and typical examples include Cases, Opportunities, and Orders.
+This is where administrators decide which entities can be scheduled to Resources. When Field Service is installed, work orders are enabled for resource scheduling, and when Project Service is installed, projects are enabled. This is made possible by a solution called [Universal Resource Scheduling](universal-resource-scheduling.md) that adds scheduling capabilities to entities and makes use of the schedule board. Any entity (including custom entities) can be enabled for scheduling; typical examples include cases, opportunities, and orders.
 
-Verify Work Orders are enabled for Resource Scheduling.
+Next, verify that work orders are enabled for resource scheduling.
 
-## Field Service Settings
+## Step 2: Field Service settings
 
-Navigate to **Field Service > Administration > Field Service Settings**
+Navigate to **Field Service > Administration > Field Service Settings**.
 
 ![Screenshot of Field Service Administration from Dynamics 365 dropdown menu](media/Perform-Initial-Configurations-image9.png)  
 
 ![Screenshot of Field Service Settings](media/Perform-Initial-Configurations-image10.png)  
 
-In the **Other** section, decide if you would like the application to auto geocode addresses. Recommended setting is **Yes.**
+In the **Other** section, decide if you would like the application to auto geocode addresses. The recommended setting is **Yes.**
 
 ![Screenshot of setting Auto Geocode Addresses to Yes](media/Perform-Initial-Configurations-image11.png)  
 
-This means after entering an address on entities such as Accounts, Contacts, Users, and Work Orders, the system will automatically attempt to locate the address and populate latitude and longitude values. Not auto geocoding addresses would require the user to select a Geocode button.
+"Auto geocode addresses" means that after entering an address on entities such as accounts, contacts, users, and work orders, the system will automatically attempt to locate the address and populate latitude and longitude values. Disallowing auto geocoding for addresses  requires the user to select a Geocode button.
 
-Next, navigate to the **Work Order / Booking** section and enter a Work Order Prefix and Work Order Starting Number.
+Next, navigate to the **Work Order / Booking** section and enter a work order prefix and work order starting number.
 
-An example is **WO** and **100**. This is not required but recommended.
+An example, as seen below, is **WO** and **100**. This is recommended, but not required.
 
 ![Screenshot of Work Order Prefix and starting number](media/Perform-Initial-Configurations-image12.png)  
 
-## Test Geocoding
+## Step 3: Test Geocoding
 
-Finally, let’s test Geocoding as it is a very important feature to use and understand.
+Finally, let’s test geocoding, as it's a very important feature to use and understand.
 
-Navigate to **Field Service > Work Orders** and select +New
+Navigate to **Field Service > Work Orders** and select **+New**.
 
-Begin typing an address
+Begin typing an address.
 
 ![Screenshot of Work Order address form](media/Perform-Initial-Configurations-image13.png)  
 
-The system will find the address
+The system will find the address and present it as a suggestion.
 
 ![Screenshot of address](media/Perform-Initial-Configurations-image14.png)  
 
-And after selecting, it will populate the rest of the address **including the latitude and longitude**.
+After selecting the correct address, the form will populate the rest of the address, **including the latitude and longitude**.
 
 ![Screenshot of address with latitude and longitude populated on work order form](media/Perform-Initial-Configurations-image15.png)  
 
-If you do not want the system to auto geocode addresses, this can be accomplished by selecting the Geocode button in the top ribbon.
+If you don't want the system to auto geocode addresses, select the geocode button in the top ribbon.
 
 ![Screenshot of Geocode button](media/Perform-Initial-Configurations-image16.png)  
 
 >[!Note]
-> **Pro Tip \#1:** When using the Field Service application, it is uncommon to enter addresses on a work order. The standard process is to geocode accounts, and when a service account is entered on a work order as the service location, the geocoded address is pulled from the account and added to the work order.
+> **Pro Tip \#1:** When using the Field Service application, it's uncommon to enter addresses on a work order. The standard process is to geocode accounts, and when a service account is entered on a work order as the service location, the geocoded address is pulled from the account and added to the work order.
 
 >[!Note]
-> **Pro Tip \#2:** It is possible to geocode multiple records at one time by selecting the records from a view. In the picture below, we are mass geocoding accounts.
+> **Pro Tip \#2:** It's possible to geocode multiple records at one time by selecting the records from a view. In the screenshot below, we are mass geocoding accounts.
 
 ![Screenshot of mass Geocoding multiple account records](media/Perform-Initial-Configurations-image17.png)  
 
-## Mobile
+## Step 4: Mobile
 
-There are a few configurations that should be considered in relation to the mobile application that field technicians will use to carry out work orders.
+There are a few mobile application configurations worth considering that field technicians will use to carry out work orders.
 
-The following section requires you have the mobile solution (Resco Woodford) installed along with the mobile project imported. Instructions can be found [here](./install-field-service.md).  
+The following steps in this section require that you have the mobile solution (Resco Woodford) installed, along with the imported mobile project. [Instructions can be found here](./install-field-service.md).  
 
-In a **non-private internet explorer browser**, log into your Dynamics 365 organization as a system administrator and navigate to **Settings > Woodford > MobileCRM Woodford**
+In a **non-private Internet Explorer browser**, log into your Dynamics 365 organization as a system administrator and navigate to **Settings > Woodford > MobileCRM Woodford**.
 
 ![Screenshot of opening Internet Explorer from Edge](media/Perform-Initial-Configurations-image18.png)  
 
 >[!Note]
 >**Pro Tip:** Alternatively, instead of Internet Explorer, you can download the Resco Woodford standalone application. Just once, in a **non-private internet explorer browser,** navigate to <https://www.resco.net/mobilecrm/woodford.html> and download the standalone application and launch it.
 
-Whether you access from the standalone application or Internet Explorer, you will be taken to the Woodford interface
+Whether you access from Internet Explorer or the standalone application, you will land on the Woodford interface, as seen below.
 
 ![Screenshot of Woodford interface](media/Perform-Initial-Configurations-image19.png)  
 
-Navigate to **Plugins > Delete**
+Next, navigate to **Plugins > Delete**.
 
-And select Work Orders and related Work Order entities such as Work Order Products, Services, and Service Tasks.
+Select work orders and related work order entities, such as work order products, services, and service tasks.
 
-This helps ensure that when Work Orders or related records are deleted on the server they are removed from the mobile app as well. For more details see the Woodford Guide: <https://www.resco.net/downloads/Woodford_Guide.pdf>
+This helps ensure that when work orders or related records are deleted on the server, they are removed from the mobile app too. For more details, [see the Woodford Guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf).
 
 ![Screenshot of Delete plugins section of Woodford](media/Perform-Initial-Configurations-image20.png)  
 
 **Save**.
 
-Next, navigate to Mobile Projects and double click on your mobile project template
+Next up, navigate to Mobile Projects and double-click on your mobile project template.
 
 Select **Configuration** in the left pane.
 
@@ -151,10 +178,10 @@ Select **Configuration** in the left pane.
 
 This section details many configurations regarding the Field Service Mobile (2017) app user interface and how data passes back and forth between the mobile application and the server.
 
-Here are a few important configurations to consider when initially setting up the mobile app from an administrator’s perspective.
+Here are a few important configurations for administrators to consider when initially setting up the mobile app.
 
-**Auto Sync:** dictates when the mobile app sends data to the server. Setting to **OnStart** is recommended for learning and demonstration purposes.
+**Auto Sync** dictates when the mobile app sends data to the server. Setting auto sync to **OnStart** is recommended for learning and demonstration purposes.
 
-**Auto Sync Delay:** is a timer that dictates when the mobile app will automatically try to send and receive data from the server.
+**Auto Sync Delay** is a timer that dictates when the mobile app will automatically try to send and receive data from the server.
 
-**Save Password:** dictates whether the mobile app will remember a user’s password. Setting to **True** is recommended for learning and demonstration purposes.
+**Save Password** dictates whether the mobile app will remember a user’s password. Setting to **True** is recommended for learning and demonstration purposes.
