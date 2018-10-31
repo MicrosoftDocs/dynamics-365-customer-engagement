@@ -1,7 +1,7 @@
 ---
 title: "Policies and Communications for Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/28/2018
+ms.date: 10/25/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -120,7 +120,7 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
  
 - OCE: 11 AM to 9 PM
 - JPN: 10 AM to 7 PM
-- APJ: 11 AM to 8 PM
+- APJ: 2 PM to 8 PM
 - IND: 12 PM to 9 PM
 - EUR: 6 PM to 3 AM
 - GBR: 6 PM to 3 AM
@@ -215,7 +215,7 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
   
 If the service incident breaches your [Service Level Agreement](http://go.microsoft.com/fwlink/p/?LinkID=196557), you can claim a billing credit according to the conditions of your [Service Agreement](http://go.microsoft.com/fwlink/p/?LinkID=101174). If you need help with this, see [Billing FAQs for Dynamics 365 (online)](billing-faqs-dynamics-365-online.md).
   
-Major service incident emails can easily be identified by the orange banner.  
+Major service incident emails can easily be identified by the red banner.
   
  ![Service incident email banner](../admin/media/service-incident-banner.png "Service incident email banner")  
   
@@ -244,8 +244,8 @@ Major service incident emails can easily be identified by the orange banner.
   
 -   Next steps  
 
-### Communications and awareness  
- Communications emails are specific to managing the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Service, including changes with the service or feature offerings. They can be informational in nature, drive specific actions, or both. The target audience for these communications are [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrators or individuals designated to running the service. You can easily identify these by the light-blue banner.  
+### Communications for releases, package deployments, and awareness
+Communications emails are specific to managing the Dynamics 365 Service, including changes with the service, releases or feature offerings. They can be informational in nature, drive specific actions, or both. The target audience for these communications are Dynamics 365 System Administrators or individuals designated to running the service. You can easily identify these by the light-blue banner.
   
  ![General awareness email banner](../admin/media/scheduling-banner.png "General awareness email banner") 
  
@@ -257,13 +257,7 @@ Major service incident emails can easily be identified by the orange banner.
  You can easily identify these communications by the dark-blue banner.  
   
  ![Post-purchase email banner](../admin/media/post-purchase-banner.png "Post-purchase email banner")  
-  
-<a name="BKMK_LaunchReadiness"></a>   
 
-### Launch and post launch readiness communications  
- These communications are used to inform [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrators about important information prior to a major service release. Our goal is to share information about tasks that administrators may need to perform before the release and to inform customers about new or enhanced capabilities that are coming in the release. You’ll see a green banner when receiving these types of communications.  
-  
- ![Launch readiness email banner](../admin/media/readiness-banner.png "Launch readiness email banner")  
   
 ### Notice about Online Policies
 Please review [Notice About Online Policies and Similar Documents](https://www.microsoft.com/en-us/legal/intellectualproperty/onlinedisclaimer.aspx).

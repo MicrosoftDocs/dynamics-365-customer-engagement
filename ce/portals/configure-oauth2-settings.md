@@ -74,7 +74,7 @@ In general, if an OAuth provider uses app settings that require a redirect URI v
 
 6. Select **Save Changes**.
 7. Go to **Status & Review** &gt; **Status** tab.
-8. Select **Yes** when prompted to make the app and all its features available to the general public. You must have filled in the valid data in Step 5 above to to enable this setting.
+8. Select **Yes** when prompted to make the app and all its features available to the general public. You must have filled in the valid data in Step 5 above to enable this setting.
 
 ### [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] application settings
 

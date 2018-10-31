@@ -3,19 +3,18 @@ title: "Set up an event portal (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Set up a Dynamics 365 for Marketing event portal, where people can read about your event and its speakers, create an account, register for the event, purchase passes, view their session schedule, and more."
 keywords: "event;portals;event portal"
 ms.date: 04/01/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: b83e8cb2-38a4-462f-87bc-0fc52357f01e
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -31,7 +30,7 @@ search.app:
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 > [!IMPORTANT]
-> This topic describes the sample event portal that is included with Dynamics 365 for Marketing. *The sample event portal is intended for demo and testing purposes only.* Any customizations that you make to the sample event portal will likely get overwritten the next time you update Dynamics 365 for Marketing, so if you want to create a custom event portal to use in production, you must create a new website in your Dynamics 365 portal. You can start by recreating the sample event portal on the new site, and then apply customizations as needed. For more information about how to create a new website in the portal, see [Create and manage websites](../portals/websites.md).. The sample event portal is editable, so you can still experiment with it, but be aware that your customizations are only temporary and are likely to be entirely overwritten the next time you update the system.
+> This topic describes the sample event portal that is included with Dynamics 365 for Marketing. *The sample event portal is intended for demo and testing purposes only.* Any customizations that you make to the sample event portal will likely get overwritten the next time you update Dynamics 365 for Marketing, so if you want to create a custom event portal to use in production, you must create a new website in your Dynamics 365 portal. You can start by recreating the sample event portal on the new site, and then apply customizations as needed. For more information about how to create a new website in the portal, see [Create and manage websites](../portals/websites.md). Alternatively, you could download the event portal as an Angular project, customize as required, and then publish as a new site on your portal or on your own website, as described in [Customize the event portal and host it anywhere](#angular). The sample event portal is editable, so you can still experiment with it, but be aware that your customizations are only temporary and are likely to be entirely overwritten the next time you update the system.
 
 The event portal is a customer-facing website that people can use to read about your event and its speakers, create an account, register for the event, purchase passes, view their session schedule, and more. The following image shows a site map of your event portal as your attendees will see it.
 
@@ -65,24 +64,31 @@ The following table summarizes how to publish each publishable entity to the por
 
 The portal features a banner image for each event, and also shows speaker photos and sponsor logos.
 
-- You can customize the banner image shown for any event by editing the event record, going to the **General** tab and changing the **Portal banner image** setting. (A default banner image is shown for all events that don't have their own custom banner.) For details about how to customize the banner, see this blog post: [How to Change Portal Banner Images in the Dynamics 365 for Marketing Event Portal](https://blogs.technet.microsoft.com/lystavlen/2018/02/26/how-to-change-portal-banner-images-in-the-dynamics-365-for-marketing-event-portal/).
+- You can customize the banner image shown for any event by [editing the event record](set-up-event.md), going to the **General** tab and using the **Portal banner image** setting.
 
 - Speaker images come from each speaker record (not from the associated contact record). To upload a speaker image, go to **Events** > **Participants** > **Speakers** and open the relevant speaker record. Then select the existing photo (or generic placeholder) in the heading area of the page to open a dialog where you can upload an image. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up an event](set-up-event.md)  
     ![Edit the speaker image](media/speaker-edit-image.png "Edit the speaker image")
 
 - Sponsor images come from each sponsorship record, which you can edit by working in the event record where the sponsorship applies (found on the **Agenda** tab, which links to related sponsorship records), or by finding the appropriate sponsorship record under **Events** > **Sponsorship management** > **Sponsorships**. As with speaker images, you can edit the image by selecting the existing photo (or generic placeholder) in the heading area of the sponsorship record page.
 
-## Open the event portal
+## Open the sample event portal
 
-To find the URL for your event portal and open it:
+To find the URL for your sample event portal and open it:
 
 1. Open the relevant event record.
 1. Make sure the **Publish status** is set to **Published**.
 1. Open the **General** tab and find the **Key information** section.
 1. The **Event URL** field here shows the address of the portal for this event. Select the globe button at the edge of this field to open the URL.
 
+<a name="angular"></a>
+
+## Customize the event portal and host it anywhere
+
+If you are comfortable developing web applications using the [Angular](https://angular.io/) framework, then a good way to customize the sample event portal for production is to download it as an Angular project, customize it in your preferred development environment, and then publish it either on your own website, or as a new site on your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal. For details, see [Build and host a custom event portal](developer/event-management-web-application.md).
+
 ### See also
 
-[Engage customers online with portals](portals.md)
+[Set up online payment for events](event-payment-gateway.md)  
+[Engage customers online with portals](portals.md)  
 [Set up an event](set-up-event.md)  
-[Go live with publishable entities and track their status](go-live.md) 
+[Go live with publishable entities and track their status](go-live.md)

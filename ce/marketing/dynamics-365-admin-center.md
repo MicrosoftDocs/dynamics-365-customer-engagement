@@ -3,19 +3,18 @@ title: "Open and use the Dynamics 365 admin center (Dynamics 365 for Marketing) 
 description: "How to open and use the Dynamics 365 admin center to manage your Dynamics 365 for Marketing instances"
 keywords: "administration;admin center"
 ms.date: 04/01/2018
-ms.service: 
-  - "crm-online"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: d74807df-2fc2-41fc-9a68-f2f557455794
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -27,6 +26,8 @@ search.app:
 ---
 
 # Open the Dynamics 365 admin center
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] to review the status of your apps and solutions, apply updates, and manage your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instances, solutions, and apps. To open the admin center:
 

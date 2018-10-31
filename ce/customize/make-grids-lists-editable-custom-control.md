@@ -2,12 +2,12 @@
 title: "Make grids (lists) editable by using the Editable Grid custom control with PowerApps | MicrosoftDocs"
 description: "Learn how to use the editable grid custom control"
 ms.custom: ""
-ms.date: 04/10/2018
+ms.date: 10/19/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-In previous releases of Dynamics CRM, users couldn’t enter data directly in grids (sometimes called lists) or subgrids on forms. They had to select the record in the grid to open a form, edit the data, and then save, which required multiple steps. With editable grids, users can do rich in-line editing directly from grids and sub-grids whether they’re using a web app, tablet, or phone.  
+In previous releases of Dynamics 365 Customer Engagement, users couldn’t enter data directly in grids (sometimes called lists) or subgrids on forms. They had to select the record in the grid to open a form, edit the data, and then save, which required multiple steps. With editable grids, users can do rich in-line editing directly from grids and sub-grids whether they’re using a web app, tablet, or phone.  
   
  ![Editable grid examples](../customize/media/editable-grid-examples.png "Editable grid examples")  
   
@@ -137,9 +137,39 @@ In previous releases of Dynamics CRM, users couldn’t enter data directly in gr
 ##  Data types that aren’t editable in an editable grid
 The following data types aren’t editable in editable grids: Customer and Partylist Lookup fields; Composite (address) fields; State/Status fields; Lookup entity-related fields (for example, the Account entity includes a contact lookup, where the Contact field is editable but the EmailAdress(Contact) field is not editable).  
  
+## Keyboard support and shortcuts for editable grids
+
+Editable grids are fully accessible, and provides excellent keyboard support including several keyboard shortcuts for improved productivity. The list of available shortcuts can be found here: [Use keyboard shortcuts in editable grids](../basics/keyboard-shortcuts.md#editable-grids-views)
+
+## Frequently asked questions (FAQs)
+
+Below are some of the most fequently asked questions related to editable grids:
+
+### Question: I want to configure my look-up column to a certain view, but I don't see it in the Available Columns dropdown in the configuration?
+
+Ensure that the look-up column that you want to configure is not a "Regarding" column. This is a special column type and it does not have support for configuring the view definitions on the Editable Grid configuration dialog. 
+
+### Question: Why are my business rules not working for my columns?
+
+Ensure that the column where the business rule is applied on is a part of your current view. We don’t pull all the fields for an entity. But only those fields which are present in the current view. So, if your business rules are on a column which is not available, they won't run. Also note that no business rules will run in this case and not just the business rule that was applied on one column. 
+
+### Question: My grid is still read only even if I have configured it to be editable?
+
+Ensure that you are not using legacy Form rendering. Editable grids are not supported on legacy forms.
+
+### Question: Why I don’t see editable grid on phones?
+
+Due to some recent feedback, we have removed editable grid experience from phones. In this case, you will see a read only version of a list control. We are looking to improve the experience in the future. 
+
+### Question: Why I cannot use record navigation in a form when coming for an editable grid?
+
+For web client, this is a limitation and we have not enabled the functionality. However, this functionality is available in Unified Interface. 
+
+
 ### See also  
- [Use keyboard shortcuts in editable grids](../basics/keyboard-shortcuts.md#editable-grids-views)
- [Create and edit views](../customize/create-edit-views.md)   
- [Create a business rule or business recommendation](../customize/create-business-rules-recommendations-apply-logic-form.md)        
- [Customize Dynamics 365 for phones and tablets](../customize/customize-phones-tablets.md)
- [Use editable grids (developer)](../developer/customize-dev/use-editable-grids-dynamics-365.md)
+ [Use keyboard shortcuts in editable grids](../basics/keyboard-shortcuts.md#editable-grids-views)<br/>
+  [Use editable grids (developer)](../developer/customize-dev/use-editable-grids-dynamics-365.md)<br/>
+ [Create and edit views](../customize/create-edit-views.md)<br/>
+ [Create a business rule or business recommendation](../customize/create-business-rules-recommendations-apply-logic-form.md)<br/> 
+ [Customize Dynamics 365 for phones and tablets](../customize/customize-phones-tablets.md)<br/>
+

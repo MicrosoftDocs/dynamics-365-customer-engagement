@@ -1,7 +1,7 @@
 ---
 title: "Create users in Dynamics 365 (online) and assign security roles | MicrosoftDocs"
 ms.custom: ""
-ms.date: 07/25/2018
+ms.date: 10/11/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -269,7 +269,10 @@ All application users are created with a non-interactive user account, however t
  ![Application user](../admin/media/application-user.png "Application user")  
 
 ## How stub users are created
-A stub user is a user record that has been created as a placeholder. For example, records have been imported that refer to this user but the user does not exist in Dynamics 365 (online). This user cannot log in, cannot be enabled, and cannot be synchronized to Office 365. This type of user can only be created through data import. Data import always creates stub users.
+A stub user is a user record that has been created as a placeholder. For example, records have been imported that refer to this user but the user does not exist in Dynamics 365 (online). This user cannot log in, cannot be enabled, and cannot be synchronized to Office 365. This type of user can only be created through data import. 
+
+A default security role is automatically assigned to these imported users. The **Salesperson** security role is assigned in a Dynamics 365 Customer Engagement instance and the **Common Data Service User** security role is assigned in a PowerApps environment.
+
   
 ### See also  
  [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)   
