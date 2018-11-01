@@ -42,9 +42,9 @@ In this topic, we'll take a look at some **common display customizations** for t
 There are many customizable elements in the Field Service mobile app, including but not limited to: 
 
 - the home screen
+- views
 - fields
 - forms
-- what technicians see when logged in
 
 These customizations can differ based on the security roles of logged in users.
 
@@ -56,7 +56,7 @@ You can edit how entities are displayed and ordered upon logging into the mobile
 > ![Screenshot of mobile home](media/mobile-home.png)
 
 ### Views
-After selecting an entity, you can decide records are displayed. For instance, as in the account view below, mobile administrators can customize the fields displayed and the position, how the view is sorted, size and color of fonts.
+After selecting an entity, you can decide how records are displayed. For instance, as in the account view below, mobile administrators can customize the fields displayed and the position, how the view is sorted, size and color of fonts.
 > ![Screenshot of mobile view](media/mobile-account-view.png)
 
 ### Fields and forms
