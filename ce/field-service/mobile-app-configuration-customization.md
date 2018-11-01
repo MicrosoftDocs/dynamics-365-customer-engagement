@@ -1,5 +1,5 @@
 ---
-title: "Configuring and customizing the Field Service mobile app | MicrosoftDocs"
+title: "Customizations and configurations for the Field Service mobile app | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/19/2018
@@ -27,25 +27,36 @@ search.app:
   - D365FS
 ---
 
-# Customizing and configuring the Field Service mobile app
+# Customizations and configurations for the Field Service mobile app
 
-After setting up the [Field Service mobile application](install-field-service.md), it is common to customize and configure the mobile user interface and data based on your business needs. 
+After setting up the [Field Service mobile application](install-field-service.md), you can customize and configure the mobile user interface and data based on your business needs. 
 
 The [Woodford guide](https://www.resco.net/downloads/Woodford_Guide.pdf) provides guidance for customizing and configuring the mobile application via the Woodford solution. All mobile customizations and configurations including the examples below are performed via the Woodford solution by navigating to **Settings > Woodford > MobileCRM Woodford**.
 
-The [Field Service mobile project](https://go.microsoft.com/fwlink/p/?linkid=836310) is a template of customizations and configurations to begin with and should be imported into Woodford.
+Additionally, the [Field Service mobile project](https://go.microsoft.com/fwlink/p/?linkid=836310) is a template of customizations and configurations to begin with and should be imported into Woodford.
 
-## Mobile customization examples
+In this topic, we'll take a look at some **common display customizations** for the mobile app, along with some examples of how you can **configure how the app works**. 
 
-The most common customizations are to edit the home screen, fields, forms, and views field technicians see when logged into the Field Service mobile app. Additionally, these customizations can differ based on the security roles of logged in users.
+## Common display customizations
+
+There are many customizable elements in the Field Service mobile app, including but not limited to: 
+
+- the home screen
+- fields
+- forms
+- what technicians see when logged in
+
+These customizations can differ based on the security roles of logged in users.
+
+See below for some common customization examples.
 
 ### Home screen
-Edit the entities displayed upon logging into the mobile app. For instance, in the Home screen below, mobile administrators can be move Time Off Requests to the top of the list or remove it from the screen completely.
+You can edit how entities are displayed and ordered upon logging into the mobile app. For instance, as seen in the screenshot below, mobile administrators can move "Time Off Requests" to the top of the list, or remove it from the screen completely.
 
 > ![Screenshot of mobile home](media/mobile-home.png)
 
 ### Views
-After selecting an entity, edit the view of records displayed. For instance, in the Account view below, mobile administrators can customize the fields displayed and the position, how the view is sorted, size and color of fonts.
+After selecting an entity, you can decide records are displayed. For instance, as in the account view below, mobile administrators can customize the fields displayed and the position, how the view is sorted, size and color of fonts.
 > ![Screenshot of mobile view](media/mobile-account-view.png)
 
 ### Fields and forms
@@ -56,19 +67,37 @@ After selecting a record in the view, edit the forms and fields. For instance, i
 
 Moving beyond the traditional entity-view-form layout, mobile customizers can replace the entire mobile interface using custom HTML and JavaScript that works offline.
 
+In the screenshot example below, the mobile app has been customized to display Dynamics 365 data for real estate properties as tiles with images, so that an agent can discuss with potential buyers onsite.
+
 > ![Screenshot of offline html example on the mobile app](media/mobile-offline-html-example.png)
 
-## Mobile configuration examples
+## Common configurations
 
-**Security-** users of the mobile app have access to data based on their Dynamics 365 security roles; however, mobile administrators can further restrict security at the entity and field level. As an example, a specific security role may grant a user access to view and create Purchase Orders in the web browser, but when logged into the mobile app, the user is restricted to only viewing Purchase Orders. Furthermore, a user may be allowed to edit the Work Order sub status field in the browser, but is restricted to read only for this field in the mobile app.
+Now that we've looked at a few of the common display customizations, let's take a look at how you can configure the app to work in ways that suit your business and security needs. 
 
-**Sync options-** configure when data is sent from the device to the server and vice versa. Common examples include each time the mobile app is launched or each time a field is updated.
+### Security controls
+By default, mobile app users have access to data based on their Dynamics 365 security roles; however, mobile administrators can further restrict security at the entity and field level. 
 
-**Sync filters-** configure which subset of server data is downloaded locally to the device when in offline mode when there is no internet access. As an example, when connected to the internet, a mobile user may be able to see all booked work orders for this calendar year, but when in offline mode can only view this week's booked work orders that have been donwloaded to the device.
+For example, a specific security role may grant a user access to view *and create* purchase orders in the web browser, but when logged into the mobile app, the user is restricted to only *viewing* purchase orders. Additionally, a user may be allowed to edit the work order sub status field in the browser, but can only view the field in the mobile app.
 
-**Workflows-** create mobile workflows called form rules. Common examples include auto-populating data when specific fields are edited or displaying warning messages in the mobile interface.
+### Data sync options 
+With the data sync options, administrators can configure when data is sent from the device to the server and vice versa. 
 
-**Commands-** configure actions and workflows to be performed when custom buttons (commands) are selected. A common example of a command is a camera icon button that when selected triggers the device's camera.
+For instance, you can configure the app to sync whenever it is launched, or each time a specific field is updated.
+
+### Sync filters 
+Sync filters allow administrators to configure which subset of server data is downloaded locally to the device when in offline mode. 
+
+For example, when connected to the internet, a mobile user may be able to see all booked work orders for this calendar year; when that user is in *offline* mode, they can only view the current week's booked work orders, which have been donwloaded to the device, thanks to a sync filter.
+
+### Workflows
+Administrators can also create mobile workflows called **form rules**. Common examples include auto-populating data when specific form fields are edited, or displaying warning messages for fields in the mobile interface.
+
+### Commands
+
+Administrators can configure the app to trigger actions and workflows when custom buttons (commands) are selected. A common example of a command is a camera icon button that when selected, triggers the device's camera.
+
+For detailed information on customizing and configuring the Field Service mobile app, be sure to check out the detailed [Woodford guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf). 
 
 ## See also
 [Install Field Service with mobile](../field-service/install-field-service.md)
