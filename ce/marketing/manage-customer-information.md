@@ -3,19 +3,18 @@ title: "Work with contact, account, and lead records (Dynamics 365 for Marketing
 description: "How to find, create and use contact, account, and lead records in Dynamics 365 for Marketing"
 keywords: "contact; account; lead"
 ms.date: 04/25/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 16024056-9750-4b6f-854a-da454e2c3a3f
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -68,10 +67,12 @@ To view, create, or edit an account, go to **Marketing** &gt; **Customers** &gt;
 
 A primary goal of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is to generate interest and then find, nurture, and qualify leads for salespeople. As mentioned, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is centered around contacts, which is the only type of customer entity that you can target by using a customer journey. When a contact shows interest in one of your products or services, you'll either generate a lead record that relates to that contact or allow a landing page to generate the lead automatically. The lead represents an expressed interest by the related contact in some specific product. A given contact might have several leads associated with it, each representing a different level of interest in a different product or offer.
 
+You can associate each lead with either a contact or an account. If you choose to create account-based leads, then each account must be associated with one or more contact records because your segments and customer journeys still need to include and target contacts, not accounts. In this regard, accounts are essentially treated as collections of one or more contacts. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Account-based marketing](account-based-marketing.md).
+
 Salespeople sometimes use leads differently and might therefore create leads that aren't related to any contact record, but you can easily customize your system to work with both types of leads. For details about how to integrate sales-driven (lead-centered) and marketing-driven (contact-centered) workflows, see [Market to leads](market-to-leads.md).
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] keeps an eye on your leads and can automatically score each of them based on how they interact with your marketing initiatives. For example, the lead score might increase each time the related contact opens a relevant email, signs up for a download, or attends a sales event. After a lead reaches a "sales-ready" score threshold, it's considered marketing-qualified and is ready to be taken over by a salesperson. The salesperson might eventually promote the lead to an opportunity and then go on to close the sale. Or the salesperson might decide to send it back to marketing for further nurturing.
 
 To view, create, or edit a lead, go to **Marketing** &gt; **Customers** &gt; **Leads**. This brings to you a standard list view, which you can use to search, sort, filter, create, and delete your leads. Open any lead to view its details. Select **New** in the command bar to create a new lead.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Score and manage leads](score-manage-leads.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [The lead lifecycle](lead-lifecycle.md)

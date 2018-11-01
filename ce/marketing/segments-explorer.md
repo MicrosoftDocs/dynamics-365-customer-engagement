@@ -3,19 +3,18 @@ title: "Design dynamic profile segments in explore view (Dynamics 365 for Market
 description: "How to use the explore view to construct segment clauses in Dynamics 365 for Marketing"
 keywords: "segment; compound segment"
 ms.date: 09/17/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 71b263c7-98ac-4640-9fc8-83d177430397
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -27,6 +26,8 @@ search.app:
 ---
 
 # Use the explore view for designing dynamic profile segments
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 The **Explore** view provides a graphical map of the path you're creating when you are adding a query clause for a dynamic profile segment. It isn't available when you are working with an interaction segment. The **Explore** view provides an alternative to the [standard method for adding query clauses](segments-profile.md) to a dynamic profile segment, but the results are the same as when using the standard method. The explorer can sometimes help you visualize the database structure as you work. You are free to choose the method you prefer.
 

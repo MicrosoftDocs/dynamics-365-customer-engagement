@@ -1,14 +1,14 @@
 ---
 title: "Dynamics 365 for Marketing Readme (Known Issues) | MicrosoftDocs"
-ms.date: 10/03/2018
-ms.service: "crm-online"
-ms.topic: "article"
+ms.date: 10/16/2018
+ms.service: dynamics-365-marketing
+ms.topic: article
 applies_to: 
-- "Dynamics 365 (online)"
-- "Dynamics 365 Version 9.x"
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
 ms.assetid: 78dc5157-cf1d-4e32-ace7-9e71763e7510
 author: kamaybac
-ms.author: renwe
+ms.author: kamaybac
 manager: annbe
 search.audienceType: 
   - admin
@@ -88,6 +88,10 @@ This document provides important, late-breaking information about known issues a
 - Marketing pages from the sample data might not go live for some organizations (especially on Italian or Japanese localizations). But can still create new pages and go live with them. <!--- 1156824 -->
 - Forms submitted over HTTP (not HTTPS) generate interaction records that don't include the contact ID, which means these interactions can't be used in interaction-based segments. If you are hosting a form on an external page (not hosted on a Dynamics 365 marketing page), then make sure your page uses HTTPS.
 - Some client-side malware protection tools parse each incoming email, resolve all the links it contains, and then deliver a modified message in which the links have been replaced with their resolved destinations. This process can interfere with the mechanism that Dynamics 365 uses to identify the contact that has clicked on a subscription center link, which means the subscription center won’t work for these contacts. We are working on a fix for this issue.
+
+## Reusable content blocks
+
+- Any CSS styles that you include in your reusable content blocks could be overruled by styles in the document where you eventually host the content. If you want to prevent this, design your content blocks with inline styles that include the `!important` attribute.
 
 ## Lead scoring and management
 

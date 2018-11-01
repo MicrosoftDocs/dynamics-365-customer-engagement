@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: dd53d178-2cd2-4aeb-beb5-be538585d297
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -31,7 +31,7 @@ Price lists tell your sales agents what to charge for your products or services.
 Price lists tie the unit, product, and pricing details together, so before you create a price list, make sure the units and products are in place.  
  
 
-## Create a price list and price list items and add default price list for a territory (Sales Hub app)
+## Create a price list and price list items and add default price list for a territory (Sales Hub)
 
 1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
@@ -131,7 +131,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
       > [!NOTE]
       >  You must create at least one price list for each of the currencies that your organization does business in.  
 
-## Create a price list  (Sales app)
+## Create a price list  (Sales)
   
 1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
@@ -158,7 +158,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
 > [!NOTE]
 >  You must create at least one price list for each of the currencies that your organization does business in.  
   
-## Add items to the price list (Sales app)
+## Add items to the price list (Sales)
 
 Create a price list item for each unit in which the product is available. For example, if the product is available as a single item (each), in a dozen, and in a gross, create three list items. This lets you order the product in any quantity you want, using the same price list. You can add price list items from the product form also.  
   
@@ -213,7 +213,7 @@ Create a price list item for each unit in which the product is available. For ex
   
 3. Select **Save**.  
   
-## Define default price list for territories  (Sales app)
+## Define default price list for territories  (Sales)
 
 Make sales agents' job easier by adding default pricelists for territories or customer segments the agents are managing. When sales agents are working on opportunities, they see the default price list. Sales agents can later select other price list that they've permission on. You can have one price list as the default for multiple territories.  
    

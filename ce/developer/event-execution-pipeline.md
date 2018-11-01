@@ -47,7 +47,7 @@ The event execution pipeline processes events either synchronously or asynchrono
 
 ## Pipeline stages
 
-The event pipeline is divided into multiple stages, of which three are available to register custom developed or 3rd party plug-ins. Multiple plug-ins that are registered in each stage can be further be ordered (ranked) within that stage during plug-in registration.  
+The event pipeline is divided into multiple stages, of which three are available to register custom developed or 3rd party plug-ins. Multiple plug-ins that are registered in each stage can be further ordered (ranked) within that stage during plug-in registration.  
 
 
 |          Event          |   Stage name   | Stage number |                                                                                                                                                                                    Description                                                                                                                                                                                    |

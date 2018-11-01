@@ -138,6 +138,6 @@ Welcome to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Custo
 
 [Customization Guide](../customize/overview.md)
 
-[Unified Service Desk Guide](../unified-service-desk/unified-service-desk.md)
+[Unified Service Desk Guide](/dynamics365/customer-engagement/unified-service-desk/unified-service-desk)
 
 

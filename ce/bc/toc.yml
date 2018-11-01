@@ -101,9 +101,6 @@
       - name: Extend Outlook Client
         tocHref: /dynamics365/customer-engagement/developer/outlook-client/
         topicHref: /dynamics365/customer-engagement/developer/extend-customer-engagement-outlook
-    - name: Unified Service Desk
-      tocHref: /dynamics365/customer-engagement/unified-service-desk/
-      topicHref: /dynamics365/customer-engagement/unified-service-desk/index
     - name: Guidance
       tocHref: /dynamics365/customer-engagement/guidance/
       topicHref: /dynamics365/customer-engagement/guidance/

@@ -7,7 +7,7 @@
       "build_output_subfolder": "customer-engagement",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [],
+      "moniker_ranges": [">= dynamics-usd-3"],
       "xref_query_tags": [
         "/dotnet",
         "/dynamics365/customer-engagement/web-api"
