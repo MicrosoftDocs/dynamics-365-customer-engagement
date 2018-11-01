@@ -28,7 +28,6 @@ search.app:
 ---
 
 # Set up field service users and security roles
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] comes with security roles and field security profiles unique to the Field Service application.
 
@@ -50,7 +49,7 @@ By setting security roles for users, you control the types of data and entities 
 
 ## Set up a user for field service 
   
-1.  Go to **Dynamics 365** > **Settings** > **Security** > **Users**, and then set the fields used in the Field Service application. Refer to the table to learn how the fields are used in the Field service application.  
+- Go to **Dynamics 365** > **Settings** > **Security** > **Users**, and then set the fields used in the Field Service application. Refer to the table to learn how the fields are used in the Field service application.  
   
 |                              |                                                                                                                                                                                                                                                                                                                                  |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -71,7 +70,7 @@ Follow these steps to set up a dispatcher who schedules work orders for field te
 
 1. Navigate to **Settings** > **Security** > **Users**.
 
-2. Select a user and then **Manage Roles**.
+2. Select a user, and then choose **Manage Roles**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of adding a security role to a User](media/users-3.png) 
@@ -92,52 +91,43 @@ Follow these steps to set up a dispatcher who schedules work orders for field te
 
 1. Navigate to **Settings** > **Security** > **Users**.
 
-2. Select the user other than your dispatcher/administrator user to be a field technician, and then assign the **Field Service – Resource** and **Field Service—App Access** security roles.
+2. Select a user other than your dispatcher/administrator user to be a field technician, and then assign the **Field Service – Resource** and **Field Service—App Access** security roles.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of adding secuirty roles for resources (field technicians)](media/users-6.png) 
 
-3. Open the user record, and then select **Field Security Profiles**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of user record](media/users-7.png) 
+3. For the same user, select **Field Security Profiles**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of accessing field security profiles from the dynamics 365 dropdown menu](media/users-8.png) 
 
-4. Assign the field technician user the **Field Service – Resource** field security profile. 
+5. Assign the field technician user the **Field Service – Resource** field security profile. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of adding the resource field security profiles to a user record](media/users-9.png) 
 
 > [!Note]
-> Field technicians aren't able to edit fields on the mobile work order form unless you complete this step.
+> Field technicians aren't able to edit fields on the mobile work order form untl you complete this step.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of field security profile](media/users-10.png) 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Office 365 User record](media/users-13.png) 
 
 ## Set up geocoding for a field technician user
 To set up geocoding to enable location awareness for scheduling and routing, define where each resource starts and/or ends the day. 
 
 1.  Navigate to **Settings** > **Users**, and then select the field technician's record.
 
-2.  Verify that the record includes an address. If not, navigate to the Office 365 admin center and enter an address.
+2.  Verify that the record includes an address. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Dynamics 365 user record address](media/users-14.png) 
 
+If there isn't already an address for the user, navigate to the Office 365 admin center and enter one. To display the address in the Dynamics 365 organization, refresh the page.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of office 365 user](media/users-15.png) 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of editing address for office 365 user](media/users-16.png) 
-
-If you need to enter the address for a user, refresh the page in the Dynamics 365 organization to display the updated address.
-
-3.  To enable geocoding in the Dynamics 365 organization navigate to **Resource Scheduling** > **Administration** > **Scheduling Parameters**.
+3.  To enable geocoding in the Dynamics 365 organization, navigate to **Resource Scheduling** > **Administration** > **Scheduling Parameters**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Resource Scheduling Administration in Dynamics 365 dropdown menu](media/users-17.png) 
@@ -145,23 +135,26 @@ If you need to enter the address for a user, refresh the page in the Dynamics 36
 > [!div class="mx-imgBorder"]
 > ![Screenshot of how to access scheduling parameters](media/users-18.png) 
 
-4.  To tag a latitude and longitude to the address on the user record, set **Connect to Maps** to **Yes**. The API key is filled out automatically and uses Bing Maps API.
+4.  To tag a latitude and longitude for the address on the user record, set **Connect to Maps** to **Yes**. The API key is filled out automatically to use Bing Maps API.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of connecting to maps and Bing Maps API in Dynamics](media/users-19.png) 
 
-5. Navigate to the user record, and then select **Geocode**.
+5. Navigate to the user record, and then select **Geo Code**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of geocoding user record](media/users-20.png) 
 
+6. On the **Found Places** dialog, choose the address.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of system finding address](media/users-21.png) 
+
+7.  Select **Change**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of latitiude and longitude from geocoding process](media/users-22.png)
 
-6.  Select **Change** to populate the latitude and longitude in the **Scheduling** section.
+8. Verify that the latitude and longitude display in the **Scheduling** section.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of latitiude and longitude being populated on user record](media/users-23.png) 
