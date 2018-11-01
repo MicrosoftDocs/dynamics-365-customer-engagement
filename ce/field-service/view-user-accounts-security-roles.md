@@ -115,10 +115,7 @@ Follow these steps to set up a dispatcher who schedules work orders for field te
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of field security profile](media/users-10.png) 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of office 365 menu](media/users-11.png) 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of office 365 Admin center](media/users-12.png) 
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Office 365 User record](media/users-13.png) 
 
