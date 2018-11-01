@@ -36,7 +36,7 @@ Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]!
 
 Here are the flavors [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] is available in: 
 
-- The Sales module in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] is the full-featured, desktop-optimized module for sales scenarios. 
+- The Sales module in Dynamics 365 for Customer Engagement is the full-featured, desktop-optimized module for sales scenarios. 
 
 - The Sales Pro app is similar to the Sales module, but the entities included in the Sales Pro app are a subset of the entities included in the Sales module in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. 
 
