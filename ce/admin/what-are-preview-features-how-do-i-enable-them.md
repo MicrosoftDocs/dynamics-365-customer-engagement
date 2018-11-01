@@ -1,7 +1,7 @@
 ---
 title: "What are Preview features and how do I enable them for Dynamics 365 Customer Engagement? | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 11/01/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -37,6 +37,7 @@ Preview features are features that aren’t complete, but are made available on 
   
 - May be available only in selected geographic areas.  
 
+<!--
 ## What preview features are included in [!INCLUDE [pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)]
 
 The following table lists preview features as well as learning resources for each.
@@ -44,9 +45,7 @@ The following table lists preview features as well as learning resources for eac
 |||  
 |-|-|  
 |**Preview feature**|**Learning resource**|  
-|Relationship analytics|[Preview feature: Relationship analytics](../sales-enterprise/relationship-analytics.md)|  
-
-<!--|Predective lead scoring|[Preview feature: Work with Predictive lead scoring](work-predictive-lead-scoring.md)|-->
+-->
 
 
 ## What preview features are included in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]?   
@@ -64,7 +63,6 @@ The following table lists preview features as well as learning resources for eac
 |||  
 |-|-|  
 |**Preview feature**|**Learning resource**|  
-|Relationship Insights|[Preview feature: Relationship Insights](../sales-enterprise/embedded-intelligence.md)|  
 |Document recommendations, product recommendations, knowledge article suggestions, case suggestions, and topic analysis|[Preview feature: Microsoft Cognitive Services integration](public-preview-microsoft-cognitive-services-integration.md)|  
   
 ## What preview features were included in [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)]?  
