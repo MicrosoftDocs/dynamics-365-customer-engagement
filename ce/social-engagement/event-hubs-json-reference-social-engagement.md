@@ -116,7 +116,7 @@ Use this table to get a quick link to post object properties.
 |                [post.tags](#document.tags)                 | Array of JSON objects representing tags on a post that were added through [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. |
 |          [post.externalId](#document.externalId)           |                                                            ID of the post on the source.                                                             |
 |        [post.postLocation](#document.postLocation)         |                                          JSON object describing the location on which a post was published.                                          |
-|   [post.fullContentLength](#document.fullContentLenght)    |                                                    Length in characters of a post's text content.                                                    |
+|   [post.fullContentLength](#document.fullContentLength)    |                                                    Length in characters of a post's text content.                                                    |
 |              [post.origin](#document.origin)               |                     JSON object describing the origin of a content. For example: Facebook page on which the post was published.                      |
 | [post.matchingSearchTopics](#document.matchingSeachTopics) |                                      Array of JSON objects describing the list of search topics a post matches.                                      |
 |  [post.externalCategories](#document.externalCategories)   |                                                Array of categories as delivered by the data provider.                                                |
@@ -1460,7 +1460,7 @@ Quadtree key of a location, or “quadkey” for short. Identifies a single tile
 
  Back to [top](#overview)  
 
-<a name="document.fullContentLenght"></a>   
+<a name="document.fullContentLength"></a>   
 ### post.fullContentLength  
 Length in characters of the text-only content in a post.  
 
