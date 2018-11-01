@@ -3,29 +3,23 @@ title: "Create a product family (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Make it easier for sales agents to find products and services in a product catalog by creating a product family and classifying similar products in it in Dynamics 365 for Sales."
 keywords: "Product family"
 ms.date: 04/01/2018
-ms.service: dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: 
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: c5844aaf-a77f-4097-bfb5-1022ad53dcea
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 25
 topic-status: Drafting
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Set up a product family (Sales and Sales Hub)
@@ -47,7 +41,7 @@ Make it easier for sales agents to find products and services in a product catal
 > [!NOTE]
 >  The product family that you use for creating a product, bundle, or another product family becomes the parent family. You can't change the parent family for the child products, bundles, or families. In the preceding example, "Televisions" is the parent family for "LED TVs" and "Plasma TVs," and you can't change these to have a different parent family.  
 
-## Create a product family (Sales Hub app)
+## Create a product family (Sales Hub)
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
@@ -72,7 +66,7 @@ Make it easier for sales agents to find products and services in a product catal
   
 7. On the **Product Properties** tab, select the **Add New Property** button, and add the required properties. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
 
-## Create a product family (Sales app)
+## Create a product family (Sales)
   
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
