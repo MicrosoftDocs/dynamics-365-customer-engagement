@@ -1,5 +1,5 @@
 ---
-title: "Set up users and security roles for Dynamics 365 for Field Service | MicrosoftDocs"
+title: "Set up field service users and security roles | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/31/2018
@@ -27,7 +27,7 @@ search.app:
   - D365FS
 ---
 
-# Set up users and security roles
+# Set up field service users and security roles
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] comes with security roles and field security profiles unique to the field service application.
@@ -48,11 +48,9 @@ By setting security roles for users, you control the types of data and entities 
 
 **Field Service—Inventory Purchase** is designed for inventory managers who are responsible for managing truck stocks, purchasing and reordering inventory, and processing product returns. It is characterized by limited CRUD abilities for inventory related entities within his/her business unit. An example is processing a product return for one or many lines of business.
 
-## Update a user account for field service 
+## Set up a user for field service 
   
-1.  Go to **Dynamics 365** > **Settings** > **Security** > **Users**.  
-  
-  The following table describes how the fields are used in the field service application.  
+1.  Go to **Dynamics 365** > **Settings** > **Security** > **Users**, and then set the fields used in the Field Service application. Refer to the table to learn how the fields are used in the Field service application.  
   
 |                              |                                                                                                                                                                                                                                                                                                                                  |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -67,7 +65,7 @@ After assigning a user a security role, you must assign the user the correspondi
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Security profiles](media/users-2.png) 
 
-## Dispatcher
+## Set up a dispatcher user
 
 Follow these steps to set up a dispatcher who schedules work orders for field technicians.
 
@@ -90,9 +88,7 @@ Follow these steps to set up a dispatcher who schedules work orders for field te
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Security profile for dispatchers](media/users-5.png) 
 
-## Field technician
-
-First, let's designate one of our users as a field technician.
+## Set up a field technician user
 
 1. Navigate to **Settings** > **Security** > **Users**.
 
