@@ -119,7 +119,7 @@ Follow these steps to set up a dispatcher who schedules work orders for field te
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Office 365 User record](media/users-13.png) 
 
-## Set up geocoding for a field technician
+## Set up geocoding for a field technician user
 To set up geocoding to enable location awareness for scheduling and routing, define where each resource starts and/or ends the day. 
 
 1.  Navigate to **Settings** > **Users**, and then select the field technician's record.
