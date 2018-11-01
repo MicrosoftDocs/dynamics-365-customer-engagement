@@ -1,7 +1,7 @@
 ---
 title: "The workspace, your personalized action hub in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-10-31"
+ms.date: 11/01/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
