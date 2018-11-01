@@ -137,7 +137,7 @@ To set up geocoding to enable location awareness for scheduling and routing, def
 
 If you need to enter the address for a user, refresh the page in the Dynamics 365 organization to display the updated address.
 
-3.  To enable geocoding in the Dynamics 365 organization navigate to **Resource Scheduling* > **Administration** > **Scheduling Parameters**.
+3.  To enable geocoding in the Dynamics 365 organization navigate to **Resource Scheduling** > **Administration** > **Scheduling Parameters**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Resource Scheduling Administration in Dynamics 365 dropdown menu](media/users-17.png) 
