@@ -2,7 +2,7 @@
 title: "Create an entity with PowerApps | MicrosoftDocs"
 description: "Learn how to create an entity"
 ms.custom: ""
-ms.date: 04/05/2018
+ms.date: 11/01/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -31,10 +31,6 @@ search.app:
 
  Part of the name of any custom entity you create is the customization prefix. This is set based on the solution publisher for the solution you’re working in. If you care about the customization prefix, make sure that you are working in an unmanaged solution or the default solution where the customization prefix is the one you want for this entity. For information about how to change the customization prefix, see [Solution Publisher](../customize/change-solution-publisher-prefix.md#BKMK_SolutionPublisher).  
 
-
-> [!NOTE]
->  If you are using [!INCLUDE[tn_Safari](../includes/tn-safari.md)] as your browser, you may receive a timeout error when trying to save or publish a new custom entity. If this occurs we recommend you use a different browser to create entities.  
-
  The minimum required fields to create a custom entity are:  
 
 
@@ -42,10 +38,14 @@ search.app:
 |------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Display Name** |                                                                       This is the singular name for the entity that will be shown in the app.                                                                       |
 | **Plural Name**  |                                                                        This is the plural name for the entity that will be shown in the app.                                                                        |
-|     **Name**     |                                              This field is pre-populated based on the display name you enter. It includes the solution publisher customization prefix.                                              |
+|     **Name**     |                                              This field is pre-populated based on the display name you enter. It includes the solution publisher customization prefix.      |
 |  **Ownership**   | You can choose either user or team-owned or organization owned. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Entity ownership](../customize/types-of-entities.md#BKMK_EntityOwnership). |
 
- To create an activity entity, select **Define as an activity entity** before you save the entity. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Activity entities](../customize/types-of-entities.md#BKMK_ActivityEntities)  
+> [!NOTE]
+>  - If you are using [!INCLUDE[tn_Safari](../includes/tn-safari.md)] as your browser, you may receive a timeout error when trying to save or publish a new custom entity. If this occurs we recommend you use a different browser to create entities.  
+>  - In order for the entity name to work with [Dynamics 365 for Customer Service embedded knowledge search](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/set-up-knowledge-management-embedded-knowledge-search), the maximum entity name length including the publisher prefix can’t exceed 24 characters.
+ 
+To create an activity entity, select **Define as an activity entity** before you save the entity. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Activity entities](../customize/types-of-entities.md#BKMK_ActivityEntities)  
 
  Under **Areas that display this entity**, select which of the areas available in the navigation bar you want this entity to be available from. This isn’t required, but if you need people to be able to discover the entity easily, choose one of these. Making changes here updates the data that defines the navigation pane. You can’t change the settings for system entities. However, you can edit this data to modify where each entity is displayed and how it is displayed by editing the sitemap.  
 
