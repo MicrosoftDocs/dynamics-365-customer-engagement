@@ -98,7 +98,7 @@ search.app:
 <li><a href="set-up-webinar.md" data-raw-source="[Set up a webinar](set-up-webinar.md)">Set up a webinar</a></li>
 <li><a href="manage-event-sponsorships.md" data-raw-source="[Manage event sponsorships](manage-event-sponsorships.md)">Manage event sponsorships</a></li>
 <li><a href="manage-event-logistic.md" data-raw-source="[Manage attendee logistics and accommodation](manage-event-logistic.md)">Manage attendee logistics and accommodation</a></li>
-<li><a href="set-up-event-portal.md" data-raw-source="[Set up the event portal](set-up-event-portal.md)">Set up the event portal</a></li>
+<li><a href="set-up-event-portal.md" data-raw-source="[Set up the event website](set-up-event-portal.md)">Set up the event website</a></li>
 <li><a href="invite-register-house-event-attendees.md" data-raw-source="[Invite, register, and house event attendees](invite-register-house-event-attendees.md)">Invite, register, and house event attendees</a></li>
 <li><a href="followup-after-event.md" data-raw-source="[Follow up after the event](followup-after-event.md)">Follow up after the event</a></li>
 

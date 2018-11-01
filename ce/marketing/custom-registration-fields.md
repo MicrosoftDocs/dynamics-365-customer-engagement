@@ -1,7 +1,7 @@
 ---
 title: "Add custom event-registration fields (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Add custom fields to the registration form on your event portal, and read the submitted values in Dynamics 365 for Marketing"
-keywords: "custom fields;event portal;portal;registration;events"
+description: "Add custom fields to the registration form on your event website, and read the submitted values in Dynamics 365 for Marketing"
+keywords: "custom fields;event website;portal;registration;events"
 ms.date: 06/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -29,7 +29,7 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-The default registration form presented by the event portal includes fields for first name, last name, email address, and pass type (for paid events with at least one pass). If you'd like to receive additional information from attendees, such as for special needs, food allergies, or a gift preference, then you can easily add these as custom fields to your registration form. You can choose which custom fields to add to each event, and your registration records will include the values submitted by registrants.
+The default registration form presented by the event website includes fields for first name, last name, email address, and pass type (for paid events with at least one pass). If you'd like to receive additional information from attendees, such as for special needs, food allergies, or a gift preference, then you can easily add these as custom fields to your registration form. You can choose which custom fields to add to each event, and your registration records will include the values submitted by registrants.
 
 ## Set up a custom registration field
 

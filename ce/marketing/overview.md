@@ -49,7 +49,7 @@ search.app:
   Develop a deeper understanding of your market with a 360-degree view of every lead and customer. Connected processes and a single source of information ensure that both sales and marketing have the latest data, including key contacts, recent activities, past purchases, and open opportunities.
 
 - **Organize and publicize events**  
-  Keep all the information about your event venues, logistics, ticketing, sessions, speakers, sponsors, and more in one place so your whole team can coordinate while working on them. Then generate an online event portal where attendees can review event information and register online. Integrate your events into your marketing email messages and customer journeys to help get the word out.
+  Keep all the information about your event venues, logistics, ticketing, sessions, speakers, sponsors, and more in one place so your whole team can coordinate while working on them. Then generate an online event website where attendees can review event information and register online. Integrate your events into your marketing email messages and customer journeys to help get the word out.
 
 - **Analyze and document your marketing return on investment (MROI)**  
   Use dashboards and reports to track the performance of your marketing initiatives, and to identify your best lead sources and marketing activities. Bring together sales and marketing results to track and increase their impact on your business.
@@ -75,7 +75,7 @@ search.app:
 - **[!INCLUDE[cc-linkedin-solution](../includes/cc-linkedin-solution.md)]**  
   Import leads generated with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]'s lead tools into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. This feature is bundled with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, but is also available separately as an add-on for other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] products.
 - **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Portals**  
-  The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app uses [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals to publish its event, marketing pages, and online surveys. The portals feature is bundled with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, but is also available separately as an add-on for other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] products. A ready-to-use, feature-rich event portal is also included, and is unique to the event-management feature.
+  The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app uses [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals to publish its event, marketing pages, and online surveys. The portals feature is bundled with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, but is also available separately as an add-on for other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] products. A ready-to-use, feature-rich event website is also included, and is unique to the event-management feature.
 
 All these features are fully integrated and work together to create a comprehensive marketing solution.
 
@@ -158,7 +158,7 @@ Key campaign-automation features include:
 
 When creating or editing a journey, you'll assemble a pipeline by dragging various types of journey tiles from the column on the right side of the canvas area. You configure each tile in the pipeline by selecting it, and then opening the **Properties** tab.
 
-Each journey starts with a segment or landing-page tile, which establishes which contacts will be engaged in the journey. Then, you'll typically add an email tile, which sends a marketing email message to everyone in the segment. The message might include links to an event portal or marketing page. Later in the pipeline, you can add a trigger, which branches the path and waits for each contact to open a message, select a link, or submit a related marketing page. Depending on what each contact does with the message, the trigger will send them down a different path, where you can add appropriate follow-up actions. Triggers can react to a wide variety of contact interactions, including email opens, email clicks, event registrations, survey responses, and more.
+Each journey starts with a segment or landing-page tile, which establishes which contacts will be engaged in the journey. Then, you'll typically add an email tile, which sends a marketing email message to everyone in the segment. The message might include links to an event website or marketing page. Later in the pipeline, you can add a trigger, which branches the path and waits for each contact to open a message, select a link, or submit a related marketing page. Depending on what each contact does with the message, the trigger will send them down a different path, where you can add appropriate follow-up actions. Triggers can react to a wide variety of contact interactions, including email opens, email clicks, event registrations, survey responses, and more.
 
 After you're done with the journey design, click **Check for Errors** to check for missing content, unpublished content, and other errors. After the journey is validated, you must publish the customer journey to enable it to run (though you can set its actual start and end dates in the future).
 
@@ -174,7 +174,7 @@ Custom channel development takes advantage of the existing extensibility infrast
 
 Live events and webinars are often a vital sales-and-marketing channel, but they can be very complex to arrange, execute, and follow up on. The [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] event management feature helps you every step of the way, from initial planning and budgeting, through promotion and publication, attendee registration, webinar broadcasting, final analytics, lead generation, and evaluation of ROI.
 
-![Event portal screenshot](media/event-portal.png "The event portal")  
+![Event website screenshot](media/event-portal.png "The event website")  
 
 Key event-management features include:
 
@@ -188,7 +188,7 @@ Key event-management features include:
 - Creating webinars and simulcasts with attendance metrics (in partnership with industry-leading webinar provider ON24)
 - Reviewing the attendance history of each contact, including events and sessions attended
 - Voice of the Customer survey integration
-- Publishing a fully functioning event portal with:
+- Publishing a fully functioning event website with:
   - Self-service attendee registration
   - Important details about all published events, including event name, venue, passes, session schedule, and speakers
   - All information drawn directly from your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] event-planning records, with updates automatically reflected on the portal
@@ -197,7 +197,7 @@ To create, view, and edit your events and all event-related records, go to the *
 
 Use other parts of the **Event** work area to work with specific record types that relate to event planning, such as logistics, sessions, attendees, sponsors, and more. Depending on what you are doing at the time, you might access these records when working in the parent event record, or you might go to a dedicated area to work only with a specific record type, or to work across events.
 
-After your event, session, track, speaker, and pass records are all in place for an event, you are ready to publish it on the event portal, where attendees can read about the event and register for it. You can set up the registration to be available to anyone or by invitation-only. Open an event record and change its status to **Published** to publish it on the portal.
+After your event, session, track, speaker, and pass records are all in place for an event, you are ready to publish it on the event website, where attendees can read about the event and register for it. You can set up the registration to be available to anyone or by invitation-only. Open an event record and change its status to **Published** to publish it on the portal.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Event planning and management in Dynamics 365](event-management.md)
 

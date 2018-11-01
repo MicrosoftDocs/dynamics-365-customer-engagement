@@ -42,7 +42,7 @@ Key event-management features include:
 - Creating webinars and simulcasts with attendance metrics (in partnership with industry-leading webinar provider ON24).
 - Reviewing the attendance history of each contact, including events and sessions attended.
 - Voice of the Customer survey integration.
-- A fully functioning event portal you can publish that includes:
+- A fully functioning event website you can publish that includes:
   - Self-service attendee registration.
   - Important details about all published events, including event name, venue, passes, session schedule, and speakers.
   - All information drawn directly from your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] event-planning records, with updates automatically reflected on the portal.
@@ -51,4 +51,4 @@ To create, view, and edit your events and all event-related records, go to the *
 
 Use other parts of the **Events** work area to work with specific record types that relate to event planning, such as logistics, sessions, attendees, sponsors, and more. Depending on what you are doing at the time, you might access these types of records when working in the parent event record, or you could go to the area dedicated to a specific record type to work with that type of record only, or work across events.
 
-After your event, session, track, speaker, and pass records are all in place for an event, you are ready to publish it on the event portal, where attendees can read about the event and register for it. Open an event record and change its status to **Published** to publish it on the portal.
+After your event, session, track, speaker, and pass records are all in place for an event, you are ready to publish it on the event website, where attendees can read about the event and register for it. Open an event record and change its status to **Published** to publish it on the portal.

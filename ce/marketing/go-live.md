@@ -198,9 +198,9 @@ The **Status reason** field for marketing forms doesn't track the publish state;
 
 ## Events, session, and tracks go-live operations and status
 
-The event go-live functionality works a bit differently from the other entities described in this topic. When you publish an event, [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] generates an event portal for that event rather than going live with the event record itself. The generated portal displays many types of information that are defined on, and linked to, the event record. The event and all its settings remain editable even after you publish the portal, and any changes you make to a published event, and its related published records, will immediately be reflected on the portal too.
+The event go-live functionality works a bit differently from the other entities described in this topic. When you publish an event, [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] generates an event website for that event rather than going live with the event record itself. The generated portal displays many types of information that are defined on, and linked to, the event record. The event and all its settings remain editable even after you publish the portal, and any changes you make to a published event, and its related published records, will immediately be reflected on the portal too.
 
-Event sessions work similarly to the event itself, and essentially function as sub-events that, taken together, create the overall event schedule. The event portal shows a schedule of sessions that belong to each event. An event can include both published and unpublished sessions, but only published sessions belonging to published events are shown on the portal.
+Event sessions work similarly to the event itself, and essentially function as sub-events that, taken together, create the overall event schedule. The event website shows a schedule of sessions that belong to each event. An event can include both published and unpublished sessions, but only published sessions belonging to published events are shown on the portal.
 
 Event tracks are collections of sessions, usually related by theme or audience. Tracks provide a convenient way for attendees to register for several related sessions at once. Like event sessions, you must publish each track to make it appear on the portal for its related event. An event can include both published and unpublished tracks, but only the published tracks belonging to published events are shown on the portal.
 
@@ -219,4 +219,4 @@ The default values for **Publish status** are _Draft_, _Ready to publish_, _In p
 [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)  
 [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)  
 [Design lead-scoring models](score-manage-leads.md)  
-[Set up the event portal](set-up-event-portal.md)
+[Set up the event website](set-up-event-portal.md)

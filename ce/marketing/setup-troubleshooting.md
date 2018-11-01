@@ -65,7 +65,7 @@ One of the requirements for running the [setup wizard](purchase-setup.md) for [!
 
 ## Why do I need a portal, and how can I get one?
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] requires a dedicated [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] portals solution for running marketing pages and event portals. Depending on the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensing plan you have chosen, your license may include a free portal (provided no other free portals are already in use on your tenant), or you may need to purchase a new portal license before you can install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app.
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] requires a dedicated [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] portals solution for running marketing pages and event websites. Depending on the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] licensing plan you have chosen, your license may include a free portal (provided no other free portals are already in use on your tenant), or you may need to purchase a new portal license before you can install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app.
 
 You can have at most one free portal on your tenant, so even if your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] license includes a free portal, you may still need to purchase an additional one if  you already have a free portal configured on your tenant (probably because it was included with another  [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] app that you are already using).
 
@@ -128,7 +128,7 @@ If your setup fails for some reason, you'll be notified by email and/or by a sta
 
 ## How can I fix occasional portal issues?
 
-Marketing pages and the event portal both run on the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] portals app. Sometimes, you may notice that settings you make in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] aren't reflected on the portal right away, such as (for the event portal): updates to banner images, speaker images, or payment gateway assignments&mdash;or, your portal may become unresponsive or otherwise unreliable. You can often solve all of these issues either by [clearing the portal cache](#portal-cache), or [restarting it](#restart-portal). It's faster to clear the cache, but restarting it will sometimes solve more or other issues.
+Marketing pages and the event website both run on the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] portals app. Sometimes, you may notice that settings you make in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] aren't reflected on the portal right away, such as (for the event website): updates to banner images, speaker images, or payment gateway assignments&mdash;or, your portal may become unresponsive or otherwise unreliable. You can often solve all of these issues either by [clearing the portal cache](#portal-cache), or [restarting it](#restart-portal). It's faster to clear the cache, but restarting it will sometimes solve more or other issues.
 
 <a name="portal-cache"></a>
 
@@ -142,9 +142,9 @@ The subsections below explain how to set up the required portal user and then ru
 
 Start by adding yourself as a portal user, just as your contacts would do when registering themselves and others for an event (this is not the same as your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] user account). To do this:
 
-1. Open your event portal, for example by opening any event record and selecting the globe button next to the **Event URL** field.
+1. Open your event website, for example by opening any event record and selecting the globe button next to the **Event URL** field.
 
-1. On the event portal, select the **Sign In** button at the top of the page.
+1. On the event website, select the **Sign In** button at the top of the page.
 
 1. On the sign-in page, go the **Register** tab and fill out the fields to create a new account. Note that you must use an email address that doesn&#39;t already belong to a contact in your database. Be sure to make a note of your user name and password.
 
@@ -176,7 +176,7 @@ Once you have your account and password set up, you must go into Dynamics 365 an
 
     ![Assign the admin role](media/faq-portal-admin.png "Assign the admin role")
 
-1. Select the **Save** icon in the bottom corner. Your user account is now an administrator for your event portal.
+1. Select the **Save** icon in the bottom corner. Your user account is now an administrator for your event website.
 
 <a name="cache-only"></a>
 
@@ -184,8 +184,8 @@ Once you have your account and password set up, you must go into Dynamics 365 an
 
 Once you have your portal-administration account set up, you can use it to clear the portal cache at any time. To do this:
 
-1. Open your event portal, for example by opening any event record and selecting the globe button next to the **Event URL** field.
-1. On the event portal, select the **Sign In** button at the top of the page.
+1. Open your event website, for example by opening any event record and selecting the globe button next to the **Event URL** field.
+1. On the event website, select the **Sign In** button at the top of the page.
 1. Sign in as a user that you have set up as an event-portal administrator.
 1. Enter the following URL:
 

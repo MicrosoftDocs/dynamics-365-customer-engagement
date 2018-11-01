@@ -1,6 +1,6 @@
 ---
-title: "Add a payment gateway to your event portal (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "Describes how to set up a payment gateway for the event portal, so contacts can pay for a ticket while registering in  Dynamics 365 for Marketing"
+title: "Add a payment gateway to your event website (Dynamics 365 for Marketing) | Microsoft Docs "
+description: "Describes how to set up a payment gateway for the event website, so contacts can pay for a ticket while registering in  Dynamics 365 for Marketing"
 keywords: "events; payment"
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
@@ -21,15 +21,15 @@ ms.reviewer:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-If you have one or more events where contacts must purchase a pass, then your contacts will probably appreciate being able to pay for their passes online while they are registering for the event on your event portal.
+If you have one or more events where contacts must purchase a pass, then your contacts will probably appreciate being able to pay for their passes online while they are registering for the event on your event website.
 
-To enable online payment, you must make an agreement with a third-party payment provider who can authenticate and capture payment details. Your payment provider will supply you with details about how to implement their system, which you'll usually do by adding code supplied by your provider to a web page running on your event portal. You'll typically also need to tell your provider the URL to request from [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to [indicate a successful payment](#pay-confirm).
+To enable online payment, you must make an agreement with a third-party payment provider who can authenticate and capture payment details. Your payment provider will supply you with details about how to implement their system, which you'll usually do by adding code supplied by your provider to a web page running on your event website. You'll typically also need to tell your provider the URL to request from [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to [indicate a successful payment](#pay-confirm).
 
-Once your new payment gateway is in place on your event portal, you can configure your various events to use it, or assign it as the default for all new events.
+Once your new payment gateway is in place on your event website, you can configure your various events to use it, or assign it as the default for all new events.
 
-## Add a new payment gateway to your event portal
+## Add a new payment gateway to your event website
 
-To add a new payment page to your event portal:
+To add a new payment page to your event website:
 
 1. Make an agreement with a third-party payment provider and prepare a web page that provides a payment front end, as described in their documentation.
 
@@ -75,7 +75,7 @@ To add a new payment page to your event portal:
     - **Page Template**: Select the page template that you created earlier in this procedure.
     - **Publishing State**: Set to **Published**.
 
-1. **Save** your page. Your new payment gateway is now available to your event portal.
+1. **Save** your page. Your new payment gateway is now available to your event website.
 
 <a name="pay-confirm"></a>
 
@@ -99,7 +99,7 @@ However, if you hard code the event ID, as outlined in the previous example, the
 You'll probably need to edit the script returned by your payment provider to correctly create this line of code in your web template.
 
 > [!NOTE]
-> The script example given here for adding the event ID dynamically is specific to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal. It won't work on an external website, including if you are using the downloadable AngularJS version of the event portal.
+> The script example given here for adding the event ID dynamically is specific to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal. It won't work on an external website, including if you are using the downloadable AngularJS version of the event website.
 
 ## Set the payment gateway for an event
 
