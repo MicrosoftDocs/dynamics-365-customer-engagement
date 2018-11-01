@@ -3,29 +3,23 @@ title: "Set up product bundles to sell multiple items together (Dynamics 365 for
 description: "Combine products in a bundle in Dynamics 365 for Sales to sell multiple items together."
 keywords: "Bundle, Product Bundle"
 ms.date: 04/01/2018
-ms.service: dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: get-started-article
-applies_to: 
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 1b15ac3d-9cce-4ad8-8014-5e89e0a709f4
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 28
 topic-status: Drafting
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Set up product bundles to sell multiple items together (Sales and Sales Hub)
@@ -49,7 +43,7 @@ Encourage customers to buy more products instead of a single product by combinin
 - Grouping products in a way that customers get more benefit from the full line of products, for example Microsoft Office Suite or a digital camera with lenses  
 
 
-## Create a product bundle (Sales Hub app)
+## Create a product bundle (Sales Hub)
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
@@ -116,7 +110,7 @@ Encourage customers to buy more products instead of a single product by combinin
 > 
 > Price lists and price list items are not supported in the apps built on Unified Interface framework. You can't create or add price list items in the Sales Hub app. To do this, use the Sales app instead. 
 
-## Pricing of bundles  (Sales Hub app)
+## Pricing of bundles  (Sales Hub)
  Typically, the pricing of products in bundles is different than the individual products. You can set a total and potentially discounted price for the bundle or if the bundle has optional products, add those products to the price list as price list items. Then the total for a bundle in an opportunity is calculated by adding up the prices for each price list item, including optional bundle products that your customer selects. If you don't add an optional product in the price list, its price will be considered as zero.  
   
 > [!TIP]
@@ -124,7 +118,7 @@ Encourage customers to buy more products instead of a single product by combinin
 > To create a new product bundle based on an existing one, on the command bar, select **Clone**. This opens a new product bundle record with the same information as the original product bundle record, except for the name and ID.  
 
    
-## Create a product bundle  (Sales app)
+## Create a product bundle  (Sales)
   
 1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
@@ -177,7 +171,7 @@ Encourage customers to buy more products instead of a single product by combinin
   
 13. In the **Product Relationships** section, select ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button"), and select a related product. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define related products to increase chances of sales](../sales-enterprise/define-related-products-increase-chances-sales.md)  
   
-## Pricing of bundles (Sales app)
+## Pricing of bundles (Sales)
  Typically, the pricing of products in bundles is different than the individual products. You can set a total and potentially discounted price for the bundle or if the bundle has optional products, add those products to the price list as price list items. Then the total for a bundle in an opportunity is calculated by adding up the prices for each price list item, including optional bundle products that your customer selects. If you don't add an optional product in the price list, its price will be considered as zero.  
   
 > [!TIP]

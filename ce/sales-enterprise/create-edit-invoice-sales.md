@@ -3,30 +3,23 @@ title: "Create or edit an invoice (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "An invoice is an order that has been billed to the customer."
 keywords: "Invoice, bill, sale"
 ms.date: 09/22/2017
-ms.service: 
+ms.service:
   - "dynamics-365-sales"
-ms.custom: 
+ms.custom:
   - "dyn365-sales"
 ms.topic: article
-applies_to: 
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: b58780fa-4e39-4925-99ad-e2e1bbfb5fa4
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 34
 topic-status: Drafting
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Create or edit an invoice (Sales and Sales Hub)
