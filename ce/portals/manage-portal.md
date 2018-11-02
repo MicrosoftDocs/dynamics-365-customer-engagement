@@ -2,7 +2,7 @@
 title: "Administer a portal for Dynamics 365 | MicrosoftDocs"
 description: "Instructions to administer your portal."
 keywords: "portal administration, portal admin center"
-ms.date: 06/08/2018
+ms.date: 11/02/2018
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-portal
@@ -45,9 +45,9 @@ If you are not a global administrator and you try to manage a portal that has al
 
 3. Go to Azure AD associated with your tenant. [!include[](../includes/proc-more-information.md)] [Take over an unmanaged directory as administrator in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-manage-o365-subscription)
 
-4. In Azure AD, search for the application by using the app ID you copied from the error message.
+4. In Azure AD, search for the app registration by using the app ID you copied from the error message. You might need to switch from **My apps** to **All apps**.
 
-5. Add users or groups as owners of this application. [!include[](../includes/proc-more-information.md)] [Managing access to apps](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-managing-access-to-apps)
+5. Add users or groups as owners of this app registration. [!include[](../includes/proc-more-information.md)] [Managing access to apps](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-managing-access-to-apps)
 
     > [!Note]
     > This task can be performed either by a global administrator of your organization or the existing owner of this application.

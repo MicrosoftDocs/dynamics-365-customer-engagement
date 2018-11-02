@@ -3,7 +3,7 @@ title: "Crowdsource ideas on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn how to manage Forum Ideas, Idea Comments, and Idea Votes on a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 10/17/2018
+ms.date: 11/02/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -96,7 +96,7 @@ The table below explains the standard attributes and relationships of the Idea e
 
 ### Enable voting for status reasons
 
-By default, an idea is enabled for voting only when the Status Reason is set to New. If you want to enable voting on an idea for different status reasons,  you must create the Ideas/EnableVotingForStatusReasons site setting and set its value to the required status reason values.
+By default, an idea is enabled for voting only when the Status Reason is set to New. If you want to enable voting on an idea for different status reasons, you must create the `Ideas/EnableVotingForStatusReasons` site setting and set its value to the required status reason values.
 
 For example, say you want to enable voting for New, Accepted, and Rejected status reasons. You must create the site setting and set its value as:
 
@@ -121,6 +121,13 @@ To get the status reason values:
 5.	Select the **statuscode** field from the list and open it in field editor.
 
 6.	Under the **Type** section, open the statuses to see their respective values.
+
+### Enable autocomplete for ideas
+
+While creating a new idea, there might be a scenario where a similar idea already exists in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. As an administrator, you can configure your portal to display a list of similar ideas when a portal user tries to create a new idea. This avoids creation of duplicate ideas in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. To enable a portal to display a list of similar ideas when a new idea is being created, you must create the `Ideas/EnableAutoComplete` site setting and set its value to **True**.
+
+> [!div class="mx-imgBorder"]
+> ![Autocomplete ideas](media/idea-autocomplete.png "Autocomplete ideas")
 
 ## Manage idea comments in Dynamics 365
 
