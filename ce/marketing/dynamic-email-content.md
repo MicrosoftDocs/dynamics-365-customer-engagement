@@ -128,6 +128,8 @@ Though these settings provide assist-edit buttons, you must only place static va
 > [!TIP]
 > You can include conditional statements in the **Advanced Header** fields—for example, to use `contact.emailaddress2` if `contact.emailaddress1` is empty. But you can still only refer to the contact entity in your conditional expressions and displayed fields.
 
+<a name="advanced-dynamic-content"></a>
+
 ## Advanced dynamic content
 
 > [!NOTE]
