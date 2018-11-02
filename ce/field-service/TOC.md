@@ -7,7 +7,7 @@
 ## [Sample data installation (app version 8.x)](install-sample-data-8-x.md)
 ## [Sample data installation (earlier app versions)](use-demo-data.md)
 ## [Activate Field Service mobile licenses](activate-fs-mobile-app-license.md)
-## [User security roles and accounts](view-user-accounts-security-roles.md)
+## [Set up users and security roles](view-user-accounts-security-roles.md)
 ## [Org-wide default settings](configure-default-settings.md)
 ## [AppSource add-ins for Field Service](appsource-addins.md)
 
@@ -41,7 +41,12 @@
 # [Mobile apps for field technicians](field-service-mobile-app-user-guide.md)
 ## [Field Resource Hub user guide](field-resource-hub-users-guide.md)
 ## [Mixed reality integration with Remote Assist and HoloLens](remote-assist-hololens.md)
-## [FAQ: Activate licenses and extend trials](activate-fs-mobile-app-license.md)
+## FAQs + troubleshooting
+### [How do I extend my Woodford trial?](fs-mobile-extend-woodford-trial.md)
+### [What is the latest version of the mobile app and Woodford solution?](mobile-faq-latest-version.md)
+### [My mobile app will not sync to the server / crashes immediately](mobile-faq-sync-crash.md)
+### [Why can't I see my bookings when logged into the app?](mobile-faq-bookings-not-showing.md)
+### [Bookings not scheduled to me show up when logged into the mobile app](mobile-faq-bookings-not-scheduled-to-me.md)
 
 # Agreements and preventive maintenance
 ## [Customer agreements](set-up-customer-agreements.md)

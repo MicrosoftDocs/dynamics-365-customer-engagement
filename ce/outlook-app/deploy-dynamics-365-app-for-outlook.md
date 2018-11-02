@@ -1,7 +1,7 @@
 ---
 title: "Deploy Dynamics 365 App for Outlook (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 10/19/2018
+ms.date: 10/30/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -140,7 +140,24 @@ Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs ins
 
 (4) Supported on iPhones 6S or higher, with iOS 8 or higher.
 
+### Supported browsers for Outlook on the web  
+ You can use Dynamics 365 App for Outlook with Outlook on the web on the following browsers: 
 
+-   Internet Explorer 11, or Microsoft Edge 
+  
+     The following configuration is supported:  
+  
+    -   Protected Mode is enabled for **Internet** security zone. To enable Protected Mode: in IE 11, go to **Tools** > **Internet options** > **Security tab** > **Internet**.  
+  
+    -   Protected Mode is enabled for **Local intranet**  security zone. To enable Protected Mode: in IE 11, go to **Tools** > **Internet options** > **Security tab** > **Local Internet**.  
+  
+    -   Your Dynamics 365 URL is in the **Local intranet** security zone list of trusted websites. In IE 11, go to **Tools** > **Internet options** > **Security tab** > **Local intranet** > **Sites** > **Advanced**.  
+  
+-   Google Chrome (latest version) on Windows 
+  
+-   Firefox (latest version) on Window 
+  
+-   Apple Safari (version 9 or version 10) on Mac or on OSX
 
 ### Supported servers  
  The [server requirements for using Office Add-ins](https://dev.office.com/docs/add-ins/overview/requirements-for-running-office-add-ins) are [!INCLUDE[pn_Exchange_Server_2013_short](../includes/pn-exchange-server-2013-short.md)], [!INCLUDE[pn_exchange_server_2016_short](../includes/pn-exchange-server-2016-short.md)], or [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)].  

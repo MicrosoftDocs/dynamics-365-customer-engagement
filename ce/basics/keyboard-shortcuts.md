@@ -183,7 +183,7 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 
 [Dynamics 365 for Marketing: Keyboard shortcuts and accessibility features for content designers](../marketing/designer-shortcuts.md)
 
-[Unified Service Desk](../unified-service-desk/admin/accessibility-unified-service-desk-microsoft-dynamics-365.md)
+[Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/accessibility-unified-service-desk-microsoft-dynamics-365)
 
 [App designer, site map designer, and My Apps page](../customize/accessibility-app-designer-site-map-designer-my-apps-page.md)
 
