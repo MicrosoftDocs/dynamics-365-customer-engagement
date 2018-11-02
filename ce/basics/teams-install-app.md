@@ -80,7 +80,7 @@ search.app:
    > [!div class="mx-imgBorder"] 
    > ![](media/teams-add-channel-pin-record2.png "Select an entity")
 
-After completing the above steps, you can select Dynamics 365 only record to connect to the Microsoft teams channel. For more information, see [Collaborate with Teams](teams-collaboration.md). 
+After completing the above steps, you can select a Dynamics 365 (online) record to connect to the Microsoft teams channel. For more information, see [Collaborate with Teams](teams-collaboration.md). 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/teams-pinned-record.png "Record successfully connected and pinned")

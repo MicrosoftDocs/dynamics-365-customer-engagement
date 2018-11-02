@@ -41,8 +41,7 @@ This is the connection error notification bar:
 > ![](media/teams-error-connection-failed.png "Connection to Dynamics 365 (online) failed")
 
 > [!IMPORTANT]
-> When you first create a new team and channel in Microsoft Teams, you should wait for several minutes before attempting to 
-it takes some time for the SharePoint file library to be set up.  
+> When you first create a new team and channel in Microsoft Teams, you might see this error because it takes some time to make the SharePoint file library connection. Wait a few minutes and then refresh your browser to retry the connection.
 
 Try repinning the Dynamics 365 tab. To repin, remove the tab and then re-add:
 
