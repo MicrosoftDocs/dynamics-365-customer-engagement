@@ -72,16 +72,11 @@ Below find instructions to set up intervals, time groups, and intervals + time g
 
 Navigate to **Universal Resource Scheduling > Fulfillment preferences > +New**
 
-> ![Screenshot of ](./media/scheduling-fulfillment-navbar.png)
-
 Enter a **name**
 
 #### 2) add interval
 
 Navigate to the **Intervals** tab
-
-> ![Screenshot of ](./media/scheduling-fulfillment-30min-interval.png)
-> 
 
 **Interval** - enter a duration. This is the duration between available time slots. Typical examples include 30 min, 1 hour, 2 hours.
 
@@ -95,11 +90,7 @@ Navigate to the **Intervals** tab
 
 Navigate to the requirement you would like to schedule and specify the fulfillment preference.
 
-> ![Screenshot of ](./media/scheduling-fulfillment-requirement-form.png)
-
 This can also be done from the requirement group control
-
-> ![Screenshot of ](./media/scheduling-fulfillment-requirement-group.png)
 
 > [!Note]
 > Each requirement can be linked to a single fulfillment preference record, and when scheduling that requirement, the fulfillment preferences are respected. Either manually or with workflows, fulfillment preferences can be added to requirements based on type of requirement, the location of the branch fulfilling the requirement, or any other variable the business may have.
@@ -107,8 +98,6 @@ This can also be done from the requirement group control
 4) Book the requirement via Resource Availabilty Search (Schedule Assistant)
 
 Select **Book** from the requirement ribbon
-
-> ![Screenshot of ](./media/scheduling-fulfillment-30min-schedule-assistant.png)
 
 Note the start times appearing in 30 minute intervals.
 
