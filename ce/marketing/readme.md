@@ -80,6 +80,7 @@ This document provides important, late-breaking information about known issues a
 - Many email templates have placeholder images. You should replace these placeholder images with actual images so that marketing emails look professional.
 - When you save a new keyword for templates or files from a quick-create form, the keyword grid isn't displayed, but the record is created successfully. <!--- 1033440 -->
 - For certain organizations that upgraded recently, test send may not work. If you encounter this issue, please contact Microsoft Support. <!--- 1267485 -->
+- Support for dynamic email content is being expanded to include look-up values, relations, and logical functions like conditionals and for-each loops. We are rolling this capability out gradually, so it may not yet be available on your tenant. For more information about this feature, and how to find out if it's available to you, see [Advanced dynamic content](dynamic-email-content.md#advanced-dynamic-content). Be sure also to read [How to enter advanced dynamic content in the designer](dynamic-email-content.md#enter-code) for important tips on how to mix these dynamic features into your designs.
 
 ## Marketing pages and forms
 
