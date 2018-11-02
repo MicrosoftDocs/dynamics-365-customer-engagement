@@ -2,7 +2,7 @@
 title: "Unified Service Desk for Dynamics 365 Customer Engagement system requirements | MicrosoftDocs"
 description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk for Dynamics 365 Customer Engagement. "
 keywords: ""
-ms.date: 02/06/2018
+ms.date: 11/02/2018
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -34,9 +34,11 @@ This topic provides information about the system requirements for installing the
 | Component |                                           Minimum                                           |                                                                                                                                                                            Recommended                                                                                                                                                                            |
 |-----------|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Processor | x86- or x64-bit 1.9 gigahertz (GHz) dual core with SSE2 instruction set or faster processor |                                                                                                                                    x86- or x64-bit 1.9 gigahertz (GHz) dual core with SSE2 instruction set or faster processor                                                                                                                                    |
-|  Memory   |                                      2-GB RAM or more                                       |                                                                                                                                                                         4-GB RAM or more                                                                                                                                                                          |
+|  Memory   |                                      ^2-GB RAM or more                                       |                                                                                                                                                                         ^4-GB RAM or more                                                                                                                                                                          |
 | Hard disk |                            \*1.5 GB of available hard disk space                            | 12 GB of available hard disk space: 2 GB of available hard disk space for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application files and 10 GB additional available hard disk space for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client log files<br /><br /> 7200 RPM or more |
 
+ ^The minimum and recommended memory are for running basic scenarios. The actual memory required for Unified Service Desk increases with the complex configurations and custom development (UI experience).
+ 
  *Requires disabling [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client logging. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure client diagnostic logging in Unified Service Desk](../../unified-service-desk/admin/configure-client-diagnostic-logging-unified-service-desk.md)  
 
 <a name="client"></a>   
