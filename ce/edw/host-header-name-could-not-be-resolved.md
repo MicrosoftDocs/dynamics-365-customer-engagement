@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: f3b25635-16a0-43ee-95cc-2b47b278a994
 caps.latest.revision: 3
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Host header name could not be resolved
 

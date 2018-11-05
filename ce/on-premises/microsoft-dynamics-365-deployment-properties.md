@@ -11,6 +11,8 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 8b73f1ac-51ac-4e18-bb4c-19b427fcb141
 caps.latest.revision: 24
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft Dynamics 365 deployment properties
 

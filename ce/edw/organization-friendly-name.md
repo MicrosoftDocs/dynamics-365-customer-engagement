@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 7f2aee1d-f5d6-4aa5-bb8f-0291bfea992c
 caps.latest.revision: 3
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # The organization friendly name must be less than 160 characters
 

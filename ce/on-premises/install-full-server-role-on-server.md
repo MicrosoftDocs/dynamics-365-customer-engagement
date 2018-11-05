@@ -11,6 +11,8 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: a9325e0d-b020-4f0f-a339-9eaf2d6387d2
 caps.latest.revision: 38
+author: Mattp123
+ms.author: matp
 ---
 # Install Dynamics 365 Full Server role on a server without Dynamics 365 installed
 

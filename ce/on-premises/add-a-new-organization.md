@@ -11,6 +11,8 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 0370ff17-bcb8-41d4-ba58-5dda590d8949
 caps.latest.revision: 18
+author: Mattp123
+ms.author: matp
 ---
 # Add a new organization
 

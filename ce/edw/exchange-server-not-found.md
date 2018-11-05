@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 386f5a9f-d38b-4252-9d23-c05031f71b75
 caps.latest.revision: 8
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft Exchange Server not found or is not a supported version
 

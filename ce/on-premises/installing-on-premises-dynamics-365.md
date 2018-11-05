@@ -12,6 +12,8 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: 9f201f30-245a-458e-b15f-961a9d049ea7
 caps.latest.revision: 28
+author: Mattp123
+ms.author: matp
 ---
 # Installing Dynamics 365 for Customer Engagement (on-premises)
 

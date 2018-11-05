@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: b07fc992-0525-441f-b2bc-1310e9883f42
 caps.latest.revision: 9
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # We recommend a dedicated domain user account for this Microsoft Dynamics 365 service
 

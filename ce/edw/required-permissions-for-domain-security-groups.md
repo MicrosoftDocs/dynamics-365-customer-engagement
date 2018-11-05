@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 8d967f0d-bba9-40b2-96dd-cdb7c01279bc
 caps.latest.revision: 4
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Required permissions for domain security groups
 

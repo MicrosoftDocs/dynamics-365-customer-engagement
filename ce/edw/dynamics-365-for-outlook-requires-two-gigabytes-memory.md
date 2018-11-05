@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 7abfacb4-62e8-4b52-8115-087fbe22e9d2
 caps.latest.revision: 3
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft Dynamics 365 for Outlook requires at least 2 gigabytes of memory
 

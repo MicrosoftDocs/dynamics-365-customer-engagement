@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: fc7325d6-deef-47b2-bcdd-2dae1338bc3f
 caps.latest.revision: 7
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft Dynamics 365 Reporting Extensions must be installed
 

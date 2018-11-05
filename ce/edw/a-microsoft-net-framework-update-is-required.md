@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 0bbd1854-ab00-4373-95bd-a7ee62680ac3
 caps.latest.revision: 4
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # A Microsoft .NET Framework update is required 
 ## Cause  

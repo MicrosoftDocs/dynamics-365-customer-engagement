@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: ef40507a-722f-4d85-a29a-27a0f70d7a80
 caps.latest.revision: 7
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Windows NT Authentication Provider
 

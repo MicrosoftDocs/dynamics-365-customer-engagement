@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 05315101-e80a-4bf7-bb1e-92e1c01fb4e9
 caps.latest.revision: 8
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Encrypted fields in the organization database
 

@@ -12,6 +12,8 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: e3e8a7d4-54ac-423b-a168-2c28678f9ef6
 caps.latest.revision: 24
+author: Mattp123
+ms.author: matp
 ---
 # Active Directory and network requirements for Microsoft Dynamics 365
 

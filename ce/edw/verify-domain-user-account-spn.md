@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 5ef8e438-71a5-4142-ac83-36ea92c49bdc
 caps.latest.revision: 6
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Verify domain user account SPN for the service or website
 

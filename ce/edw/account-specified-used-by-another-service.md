@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 3df0d9f1-9d56-4565-b948-bf52ed303226
 caps.latest.revision: 2
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # The account specified for the service is a member of the PrivUserGroup and is used by another service
 

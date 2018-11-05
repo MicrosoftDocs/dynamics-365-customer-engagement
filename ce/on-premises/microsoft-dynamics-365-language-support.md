@@ -11,6 +11,8 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 4d5a67ea-55ab-4bdc-b905-3ba75d3889d3
 caps.latest.revision: 20
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft Dynamics 365 language support
 

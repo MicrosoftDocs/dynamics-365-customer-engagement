@@ -12,6 +12,8 @@ f1_keywords:
 ms.assetid: 7db09b6b-2044-463e-a69a-7b391a128b37
 caps.latest.revision: 4
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Cannot Connect to the Specified Microsoft SQL Server
 

@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 610b5dcb-bf1b-4933-920a-81b4b80e1f18
 caps.latest.revision: 11
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Operating system requirements
 

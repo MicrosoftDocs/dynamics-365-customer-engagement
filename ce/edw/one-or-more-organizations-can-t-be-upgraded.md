@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: e633cad0-3cfd-4327-85dd-25859c47b802
 caps.latest.revision: 6
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # One or more organizations can't be upgraded
 

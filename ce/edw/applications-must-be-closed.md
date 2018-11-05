@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 4614b641-c2c4-464d-9b65-182c2bc0fdb8
 caps.latest.revision: 6
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Applications must be closed
 

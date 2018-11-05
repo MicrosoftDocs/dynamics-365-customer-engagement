@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 4d26c434-d40d-434c-8ad1-c7ca3e2f6063
 caps.latest.revision: 5
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft Dynamics 365 applications cannot be installed in the same folder
 

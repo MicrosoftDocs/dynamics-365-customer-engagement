@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 0f7e232b-c808-4cc4-a667-d4cc3df9c615
 caps.latest.revision: 7
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # One or more Microsoft SQL Server views is missing
 
