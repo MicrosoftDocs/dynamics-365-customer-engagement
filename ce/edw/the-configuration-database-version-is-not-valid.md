@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 021bc738-4f11-4442-9c2b-e49a6f2aee45
 caps.latest.revision: 6
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # The configuration database version is not valid
 

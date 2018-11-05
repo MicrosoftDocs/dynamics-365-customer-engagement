@@ -10,6 +10,8 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: fdcb7532-2a86-462e-aaa1-c59cbbc85d33
 caps.latest.revision: 149
+author: Mattp123
+ms.author: matp
 ---
 # Deploy and operate Dynamics 365 for Customer Engagement (on-premises)
 

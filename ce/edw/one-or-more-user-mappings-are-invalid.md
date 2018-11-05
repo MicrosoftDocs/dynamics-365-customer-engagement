@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 97eace4e-604d-4267-926a-8011a7ca2b99
 caps.latest.revision: 3
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # One or more user mappings are invalid
 

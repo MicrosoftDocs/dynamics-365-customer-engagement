@@ -12,6 +12,8 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: 605bb886-116a-4275-83fe-e9fdc83d2f2f
 caps.latest.revision: 24
+author: Mattp123
+ms.author: matp
 ---
 # Operating Dynamics 365 for Customer Engagement (on-premises)
 

@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: e210ef8a-3e72-4022-8d15-b4e1a7aa23cc
 caps.latest.revision: 8
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # There is a problem with the federation metadata URL
 There is a problem with the federation metadata. Either it could not be accessed by using the specified URL or the URL is valid but there is some other problem with the federation metadata. The metadata is a feature of claims-based authentication, which is required to let users connect to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] by using the internet.  

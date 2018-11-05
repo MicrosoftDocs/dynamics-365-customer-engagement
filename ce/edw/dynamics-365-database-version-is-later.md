@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 198806bc-f5ed-4084-a274-c8dd34096f8b
 caps.latest.revision: 5
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft Dynamics 365 database version is later than expected
 

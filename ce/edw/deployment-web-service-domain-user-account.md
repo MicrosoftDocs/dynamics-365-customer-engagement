@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: a9ec9bc9-d94d-4859-be9b-0de2fd93556a
 caps.latest.revision: 7
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Deployment Web service domain user account
   

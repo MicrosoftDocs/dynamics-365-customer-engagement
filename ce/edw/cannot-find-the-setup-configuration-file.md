@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 54e163ea-ca95-43ee-a300-30f4d696df99
 caps.latest.revision: 4
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Cannot find the Setup configuration file
 

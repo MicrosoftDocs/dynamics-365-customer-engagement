@@ -12,6 +12,8 @@ f1_keywords:
 ms.assetid: d0ceba1f-b25a-40e7-b0fd-2e439b65bade
 caps.latest.revision: 4
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft SQL Server Reporting Services server was not found
 

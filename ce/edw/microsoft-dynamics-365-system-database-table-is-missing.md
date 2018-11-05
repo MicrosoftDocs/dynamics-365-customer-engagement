@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 35f89b36-0622-49f4-822f-86d3ab78269f
 caps.latest.revision: 6
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft Dynamics 365 system database table is missing
 

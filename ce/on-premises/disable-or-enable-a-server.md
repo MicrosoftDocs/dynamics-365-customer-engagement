@@ -11,6 +11,8 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 15b52516-5f58-4cfc-b597-6f8209bb4a6b
 caps.latest.revision: 14
+author: Mattp123
+ms.author: matp
 ---
 # Disable or enable a server
 

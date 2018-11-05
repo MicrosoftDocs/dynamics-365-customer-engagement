@@ -12,6 +12,8 @@ f1_keywords:
 ms.assetid: 6d200486-7216-491f-bb84-bedda2ee5aa9
 caps.latest.revision: 6
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Cannot connect to SQL Server
 

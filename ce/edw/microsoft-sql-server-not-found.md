@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: b611cc51-afe7-4aeb-a057-1e5dff466c25
 caps.latest.revision: 4
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft SQL Server not found
 

@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 84cc701b-1157-4139-9813-d575401665b7
 caps.latest.revision: 3
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Setup cannot verify that the SQLSERVERAGENT service is running on the specified computer
 

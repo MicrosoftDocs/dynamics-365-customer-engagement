@@ -11,6 +11,8 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: b2b31148-4a96-45a8-9958-e2fb6bce8384
 caps.latest.revision: 12
+author: Mattp123
+ms.author: matp
 ---
 # Manage organizations
 

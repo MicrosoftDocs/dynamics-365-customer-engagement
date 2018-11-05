@@ -11,6 +11,8 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: e610c004-0b85-4662-a903-6d4b1ba16d44
 caps.latest.revision: 13
+author: Mattp123
+ms.author: matp
 ---
 # Delete an organization
 

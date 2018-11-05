@@ -12,6 +12,8 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: fdeb81bd-ee6a-4a8c-9e33-311297c585ed
 caps.latest.revision: 17
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft Dynamics 365 Server hardware requirements
 

@@ -11,6 +11,8 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: fb4cfdb3-c71f-454e-8ae8-966a47106aaa
 caps.latest.revision: 25
+author: Mattp123
+ms.author: matp
 ---
 # Install Microsoft Dynamics 365 Reporting Extensions
 

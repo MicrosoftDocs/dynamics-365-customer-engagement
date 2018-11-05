@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: b63affa8-0290-4ee4-a410-10f095bfa173
 caps.latest.revision: 2
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft SQL Express service is not running
 

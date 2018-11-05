@@ -11,6 +11,8 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 88335e4a-14d3-4431-82b8-b13ce7f4694b
 caps.latest.revision: 12
+author: Mattp123
+ms.author: matp
 ---
 # Add a new Deployment Administrator
 

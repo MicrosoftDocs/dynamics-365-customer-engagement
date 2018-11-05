@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 0ff70af7-ac3e-4dd9-a870-feaae03199c0
 caps.latest.revision: 3
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # The SQL Server word breaker for the selected language is not installed
 

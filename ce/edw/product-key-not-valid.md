@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: b97ef971-05e5-40cc-9ca7-8ea7afa64fb8
 caps.latest.revision: 7
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft Dynamics 365 product key is not valid or cannot be used with the current deployment
 

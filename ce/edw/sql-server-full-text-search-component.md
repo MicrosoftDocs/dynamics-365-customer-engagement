@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 765e9c0e-3045-4d28-bc73-a3b9e58db3d4
 caps.latest.revision: 4
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft SQL Server full-text search component is not installed
 

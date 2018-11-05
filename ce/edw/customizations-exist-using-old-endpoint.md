@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 36e9d26a-2dd7-4815-9510-748812eefa6f
 caps.latest.revision: 15
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Customizations exist that are using the Microsoft Dynamics 4.0 (2007) endpoint
 

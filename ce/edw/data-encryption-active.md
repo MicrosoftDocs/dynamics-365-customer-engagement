@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 8ffd2e56-4961-4aa9-ac22-e52455fbfdbf
 caps.latest.revision: 8
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Data encryption will be active after the install or upgrade
 

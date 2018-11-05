@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 80e8d771-8575-4f75-913a-1e2c3f0de6b8
 caps.latest.revision: 3
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Windows Search Service is installed
 

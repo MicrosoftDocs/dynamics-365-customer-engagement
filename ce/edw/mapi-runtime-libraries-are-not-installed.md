@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: ca4aeef7-bccb-4e56-b510-ce08c92e2d86
 caps.latest.revision: 4
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # MAPI runtime libraries are not installed
 

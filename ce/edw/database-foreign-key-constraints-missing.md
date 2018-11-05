@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 29424c71-4e80-4ec4-a440-6fb734ec6c34
 caps.latest.revision: 9
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft Dynamics 365 database foreign key constraints are missing
 The original system database table foreign key constraints from the previous version of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] are missing.  

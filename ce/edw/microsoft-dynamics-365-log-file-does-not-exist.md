@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 16796962-c7f9-4830-8fa6-f95ef91828cb
 caps.latest.revision: 3
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft Dynamics 365 log file does not exist
 

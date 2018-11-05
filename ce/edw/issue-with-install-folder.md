@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 59e4e570-a944-4dcc-ab79-829605e26bf9
 caps.latest.revision: 4
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Setup detected an issue with the install folder specified
 
