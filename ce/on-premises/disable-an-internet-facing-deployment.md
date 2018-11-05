@@ -11,6 +11,8 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 0e94f871-ba0f-48e0-ba2f-7c98b11fe7a2
 caps.latest.revision: 5
+author: Mattp123
+ms.author: matp
 ---
 # Disable an Internet-facing deployment
 

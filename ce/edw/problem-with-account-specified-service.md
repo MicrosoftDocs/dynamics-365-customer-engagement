@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 9cc64bc6-d542-4700-888d-219b5c35dac7
 caps.latest.revision: 10
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # There is a problem with the account specified to run the Microsoft Dynamics 365 service
 Review the message in the [!INCLUDE [pn-environment-diagnostics-wizard](../includes/pn-environment-diagnostics-wizard.md)] and select the cause and associated solution that is most appropriate.  

@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 890850e8-bee3-437a-9b2e-5037dd6ac57a
 caps.latest.revision: 3
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Triggers are detected in the Microsoft Dynamics 365 database
 

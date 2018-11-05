@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 943ca5a3-afdd-4fd4-8462-a0fdcdbd58f9
 caps.latest.revision: 10
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Verify Service Principal Name for Microsoft Dynamics 365 service accounts
 The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] services are described below. For information on permissions for service accounts, see [Minimum permissions required for Microsoft Dynamics CRM Setup and services](http://go.microsoft.com/fwlink/p/?LinkID=306136).  

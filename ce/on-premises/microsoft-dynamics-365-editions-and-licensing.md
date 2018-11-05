@@ -12,6 +12,8 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: 3bd04575-1193-4fe4-92e1-dc0c91a1bebe
 caps.latest.revision: 30
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft Dynamics 365 editions and licensing
 

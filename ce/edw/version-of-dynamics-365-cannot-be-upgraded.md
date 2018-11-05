@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 33f9d43c-dd5a-4679-82d6-51ad953461b8
 caps.latest.revision: 7
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # The version of Microsoft Dynamics 365 that is installed cannot be upgraded
 

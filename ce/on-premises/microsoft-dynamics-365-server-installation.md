@@ -11,6 +11,8 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 8a64a413-857f-40bd-b12b-f2c3fd68c591
 caps.latest.revision: 20
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft Dynamics 365 Server installation
 

@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: c78144ef-8463-46b9-96c1-b3f6e96b3ea1
 caps.latest.revision: 3
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # SQL Server plan guides were detected
 

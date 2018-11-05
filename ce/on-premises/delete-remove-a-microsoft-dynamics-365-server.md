@@ -11,6 +11,8 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: de32c74a-906b-444d-92f1-028d73637eab
 caps.latest.revision: 13
+author: Mattp123
+ms.author: matp
 ---
 # Delete (remove) a Microsoft Dynamics 365 Server
 

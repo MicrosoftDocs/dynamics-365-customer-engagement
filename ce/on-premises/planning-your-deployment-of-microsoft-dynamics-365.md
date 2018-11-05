@@ -11,6 +11,8 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 21421486-ec16-44ed-ae95-fc3554a573d7
 caps.latest.revision: 24
+author: Mattp123
+ms.author: matp
 ---
 # Planning your deployment of Microsoft Dynamics 365
 

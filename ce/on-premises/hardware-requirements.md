@@ -11,6 +11,8 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: d656262d-7828-443d-bebc-52c4170341f5
 caps.latest.revision: 9
+author: Mattp123
+ms.author: matp
 ---
 # Hardware requirements
 

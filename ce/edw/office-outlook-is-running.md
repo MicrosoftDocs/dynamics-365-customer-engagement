@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 2a497777-17f6-4301-a157-dc901b312103
 caps.latest.revision: 4
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Office Outlook is running
 

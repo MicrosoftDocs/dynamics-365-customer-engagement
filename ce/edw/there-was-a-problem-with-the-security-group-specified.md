@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 7a2bdf7a-20e6-45c6-9b77-2f8a8298859c
 caps.latest.revision: 6
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # There was a problem with the security group specified
 

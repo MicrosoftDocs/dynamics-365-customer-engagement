@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 166f0873-37db-4026-a848-8277560b9b26
 caps.latest.revision: 5
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # One or more Microsoft SQL Server stored procedures are missing
 

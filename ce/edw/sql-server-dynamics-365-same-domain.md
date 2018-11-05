@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 2b0bbb6b-753d-41c7-b958-b9c5042e05b4
 caps.latest.revision: 6
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft SQL Server and Microsoft Dynamics 365 Server must be in the same domain
 

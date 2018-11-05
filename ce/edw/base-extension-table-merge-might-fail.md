@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 47b3d6c9-a2f6-4cd6-8174-885e6e405b98
 caps.latest.revision: 2
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # The Base Extension table merge process might fail due to limits on SQL Server table row size
 

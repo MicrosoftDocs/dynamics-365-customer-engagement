@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: f207aaf9-354b-433f-bc05-162242f5306f
 caps.latest.revision: 11
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # You've encountered a check that does not have a Help topic
 There is currently no Help topic associated with this environment diagnostics check. If this topic is displayed when you run [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Setup, you can try the following options:  

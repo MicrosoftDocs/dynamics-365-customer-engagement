@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: aad03a11-ce75-40dc-883a-370b03e4a5dc
 caps.latest.revision: 6
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # User who is running Microsoft Dynamics 365 Server Setup is not a domain user
 

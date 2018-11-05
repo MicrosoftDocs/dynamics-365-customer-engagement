@@ -12,6 +12,8 @@ f1_keywords:
 ms.assetid: 7fdded02-0c2a-4487-a6f0-62682b06b89e
 caps.latest.revision: 4
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # A Microsoft Dynamics 365 database already exists with the specified name
 

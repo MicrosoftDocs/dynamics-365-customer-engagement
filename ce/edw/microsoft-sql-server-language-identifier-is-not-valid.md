@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 63057338-b2a1-4acb-9413-11975281472b
 caps.latest.revision: 7
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft SQL Server language identifier is not valid
 

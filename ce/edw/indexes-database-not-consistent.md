@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 9a96d3c7-7d16-4c39-907f-5b6a23777049
 caps.latest.revision: 7
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Indexes on the Microsoft Dynamics 365 database are not consistent
 

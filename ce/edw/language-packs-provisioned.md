@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 4935cc4a-6b26-42d2-8771-33181fb98789
 caps.latest.revision: 10
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # One or more Microsoft Dynamics 365 Language Packs are provisioned for this organization
 
