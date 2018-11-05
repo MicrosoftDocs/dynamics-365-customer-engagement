@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 211692df-d41a-48b0-ac60-324436e99db7
 caps.latest.revision: 6
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # The configuration database does not exist on the specified SQL Server
 

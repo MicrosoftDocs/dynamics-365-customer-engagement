@@ -11,6 +11,8 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 0b3e7c09-10c6-4c63-84e0-7ff6aeca17a3
 caps.latest.revision: 12
+author: Mattp123
+ms.author: matp
 ---
 # Disable or enable an organization
 

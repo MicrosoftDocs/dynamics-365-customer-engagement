@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 800de76f-37f2-4e88-a367-0f4d0d9361eb
 caps.latest.revision: 3
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # One or more services are not set to start automatically
 

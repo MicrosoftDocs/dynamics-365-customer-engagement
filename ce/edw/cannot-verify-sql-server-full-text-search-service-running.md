@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: dcd7bf41-86d8-4055-88d8-7e1cdebf3547
 caps.latest.revision: 4
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Setup cannot verify that the SQL Server Full-Text Search Service is running
 

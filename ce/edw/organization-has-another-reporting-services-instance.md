@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 8d8c07eb-9247-478b-a1bb-eb39bdc517cb
 caps.latest.revision: 3
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # The organization already has another Reporting Services instance configured
 

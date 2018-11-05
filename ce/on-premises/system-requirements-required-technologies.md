@@ -11,6 +11,8 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: e2c85d76-2b14-4d80-b6a7-5ea53fafcc8d
 caps.latest.revision: 35
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft Dynamics 365 system requirements and required technologies
 

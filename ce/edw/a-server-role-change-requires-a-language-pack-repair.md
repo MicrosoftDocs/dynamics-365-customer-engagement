@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 912e20bb-71b0-4980-ad8f-ca76dcc0411e
 caps.latest.revision: 5
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # A server role change requires a Language Pack repair
 ## Cause

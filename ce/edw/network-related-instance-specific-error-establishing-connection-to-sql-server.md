@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 6b7df465-8379-46ea-b2cb-59fa9b4173fb
 caps.latest.revision: 3
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # A network-related or instance-specific error occurred while establishing a connection to SQL Server
 

@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: c8d97293-e51d-4954-8cba-663c666e01cc
 caps.latest.revision: 2
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # The Discovery Web Service URL could not be resolved
 

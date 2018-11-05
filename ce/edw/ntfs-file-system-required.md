@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: ff57d928-676f-4468-9b8b-567ace243476
 caps.latest.revision: 6
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # NTFS file system required
 

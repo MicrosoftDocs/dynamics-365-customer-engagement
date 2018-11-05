@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 0075dd46-f150-4c46-9204-4af5e73eaa00
 caps.latest.revision: 4
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Active Directory organizational unit cannot be found
 

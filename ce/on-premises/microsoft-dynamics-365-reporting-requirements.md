@@ -11,6 +11,8 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 6d0d42e2-0ad0-4dfa-aa42-72ab4e92b001
 caps.latest.revision: 54
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft Dynamics 365 reporting requirements
 

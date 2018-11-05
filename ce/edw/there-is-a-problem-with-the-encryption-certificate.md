@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 379e429f-2485-4a15-9e18-3672eccc5748
 caps.latest.revision: 9
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # There is a problem with the encryption certificate
 

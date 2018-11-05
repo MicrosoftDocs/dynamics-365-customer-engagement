@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 45c877d0-2255-4fd6-b0d5-95c1a558f071
 caps.latest.revision: 6
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Microsoft SQL Server Reporting Services server was not found
 

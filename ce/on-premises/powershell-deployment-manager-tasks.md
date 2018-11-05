@@ -11,6 +11,8 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.assetid: 54cc820e-ddb6-4c0f-803f-eed5093359c7
 caps.latest.revision: 14
+author: Mattp123
+ms.author: matp
 ---
 # Using Windows PowerShell to perform Deployment Manager tasks
 

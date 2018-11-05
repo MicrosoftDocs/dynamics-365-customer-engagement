@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 470bc02b-ea44-49af-a6f7-2e08337f6a5f
 caps.latest.revision: 8
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Setup cannot find the Microsoft Dynamics 365 database primary key constraints
 The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] previous version system database table primary key constraints are missing. This is a warning and Setup can continue.  

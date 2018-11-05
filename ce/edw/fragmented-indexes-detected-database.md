@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 3c5ae9ab-a17b-4600-9c53-21f069853d67
 caps.latest.revision: 4
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Fragmented indexes were detected in the Microsoft Dynamics 365 database
 

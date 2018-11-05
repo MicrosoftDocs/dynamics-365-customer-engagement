@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: fcd867bd-2687-4be0-8f4e-fc0ade94bd36
 caps.latest.revision: 8
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Missing database table columns
 One or more table columns are missing from the original [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] system database table on the specified computer that is running [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)].  

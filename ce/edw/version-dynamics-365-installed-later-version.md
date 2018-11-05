@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 96080f97-6339-4e2f-85aa-a34196a09e50
 caps.latest.revision: 3
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # The version of Microsoft Dynamics 365 that is installed is a later version
 

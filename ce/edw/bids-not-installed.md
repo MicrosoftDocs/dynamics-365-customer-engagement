@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 8674e45c-707c-435b-8359-0cb9b9c16983
 caps.latest.revision: 4
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Business Intelligence Development Studio is not installed for Microsoft SQL Server Reporting Services
 

@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: b1bc0700-82dd-4680-8671-93a87afb4dd3
 caps.latest.revision: 5
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # One or more Microsoft Dynamics 365 Servers are disabled
 

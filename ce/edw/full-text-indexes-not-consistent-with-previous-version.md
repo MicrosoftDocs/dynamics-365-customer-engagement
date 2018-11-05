@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: a8c46a63-ef00-4ccf-8893-ee362598f230
 caps.latest.revision: 7
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # The full-text indexes on the Microsoft Dynamics 365 database are not consistent with previous versions' full-text indexes
 

@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: 53d1006e-162a-4fb1-b494-35e781363af0
 caps.latest.revision: 7
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Not all base and extensionbase tables were merged
 

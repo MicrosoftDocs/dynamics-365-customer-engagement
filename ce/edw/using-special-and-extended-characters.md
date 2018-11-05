@@ -9,6 +9,8 @@ ms.topic: "article"
 ms.assetid: bb43b8b3-a439-470f-8cf4-fe14876d14dd
 caps.latest.revision: 11
 robots: noindex,nofollow
+author: Mattp123
+ms.author: matp
 ---
 # Using special and extended characters
 The following table lists the requirements for using special and extended characters in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] features:  
