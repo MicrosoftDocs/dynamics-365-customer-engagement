@@ -2,8 +2,8 @@
 # [New and upcoming features](new-upcoming.md)
 # Project Service Product documentation
 ## Customize the working of Pricing and Costing in Project Service 
-### [Pricing and costing dimensions for professional services](Pricing-and-costing-dimensions-for-professional-services.md)
-#### [Identify your organization’s pricing dimension needs](Identify-your-pricing-needs.md)
+### [Pricing and costing dimensions for professional services](PD-Pricing-and-costing-dimensions-for-professional-services.md)
+#### [Identify your organization’s pricing dimension needs](PD-Identify-your-pricing-needs.md)
 #### Default pricing dimensions in Project Service
 ### Set up pricing dimensions for your organization
 #### Using custom fields or entities as resource pricing dimensions
