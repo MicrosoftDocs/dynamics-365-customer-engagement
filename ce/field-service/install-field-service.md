@@ -148,8 +148,10 @@ To get the mobile app, download **Field Service Mobile (2017)** from the Windows
 > ![Screenshot of Field Service mobile app download example](media/field-service-mobile-app-download-example.png)  
 
 ## Next steps
-- [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
-- [Add sample data](../field-service/install-sample-data-8-x.md)
+1. [Add sample data](../field-service/install-sample-data-8-x.md) 
+2. [Perform initial configurations](../field-service/perform-initial-configurations-setup.md)
+3. [Set up users and security roles](../field-service/view-user-accounts-security-roles.md)
+- 
 
 ### See also
 - [Frequently asked questions about the mobile solution](http://www.resco.net/mobilecrm/support.aspx) 
