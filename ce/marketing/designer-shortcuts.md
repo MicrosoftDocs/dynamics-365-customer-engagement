@@ -37,6 +37,9 @@ search.app:
 - [Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities.md)
 - [Keyboard shortcuts in Dynamics 365 Customer Engagement applications](../basics/keyboard-shortcuts.md)
 
+> [!IMPORTANT]
+> If you're working on an iOS device and using an attached keyboard, then use option+tab to move between user-interface elements (such as links, buttons, tabs, etc.). The standard keyboard navigation technique for this is to use tab alone, but because [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] sometimes uses specialized HTML constructs to create its feature (especially for the content and pipeline designers), some buttons and links will be skipped if you use tab alone. But if you use option+tab, you'll be able to navigate to everything.
+
 ## Accessibility and keyboard shortcuts for content designers
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provides advanced digital-content designers for creating, styling, and previewing the various types of digital content that you can produce and manage with the system. This section lists keyboard shortcuts and accessibility features are available for working with the designers for marketing email messages, marketing pages, and marketing forms.
