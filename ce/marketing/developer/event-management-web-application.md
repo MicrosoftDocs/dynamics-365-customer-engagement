@@ -18,22 +18,22 @@ manager: kvivek
 ---
 
 # Build and host a custom event portal
+The Dynamics 365 Event Management feature helps you to organize, manage and process the events. When you install the Event Management solution, you will get an **Event Portal** which gives the users a web application where they can get to know more about the event details. More information: [Event Portal](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/set-up-event-portal).
 
-The Dynamics 365 Event Management feature helps you to organize, manage and process the events. When you install the Event Management solution, you will get an **Event Portal** which gives the users a web application where they can know more about the event details. More information: [Event Portal](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/set-up-event-portal).
-
-
-The Event Management web application consists of two parts:
+The Event Management custom event portal consists of two parts:
 - Angular frontend
 - REST API backend
 
-The frontend part is a single page application which is created using [Angular](https://angular.io) framework. The frontend part of the web application is fully customizable. Backend and customizability of the backend depends on hosting type.
+The frontend part is a single page application which is created using the [Angular](https://angular.io) framework. The frontend part of the web application is fully customizable. The backend and the customizability of the backend depend on the hosting type.
 
- You can host the Event Management web application using
+There are two hosting types for the custom event portal:
 - [Dynamics 365 Portal hosted](#dynamics-365-portal-hosted)
-<!--- [Self-hosted](#self-hosted)-->
+- [Self-hosted](#self-hosted)
 
-## Dynamics 365 Portal hosted
-Event Management web application comes as a Dynamics 365 Portal hosted web when you install the Event Management solution.
+
+
+## (Dynamics 365 Portal hosted)[#dynamics-365-portal-hosted]
+The Event Management custom event portal comes as a Dynamics 365 Portal hosted web application when you install the Event Management solution.
 
 The frontend part of the application is bundled into two resource files that are stored as Dynamics 365 Portal web files, and the main single page application entry-point is stored as Dynamics 365 Portal web template. More information [web files](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/web-files) and [web templates](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/store-content-web-templates).
 
