@@ -1,5 +1,18 @@
 # [Overview](overview.md)
 # [New and upcoming features](new-upcoming.md)
+# Project Service Product documentation
+## Customize the working of Pricing and Costing in Project Service 
+### Pricing and costing dimensions for professional services
+#### Identify your organization’s pricing dimension needs
+#### Default pricing dimensions in Project Service
+### Set up pricing dimensions for your organization
+#### Using custom fields or entities as resource pricing dimensions
+#### Use an existing PSA field as a pricing dimension
+##### Bookable resource as a pricing dimension
+##### Transaction category as a pricing dimension
+### Turning off a default or a custom pricing dimension
+### Walkthrough of PSA Opportunity to Invoice Flow using the pricing dimension setup
+
 # Plan your implementation (app version 3.x)
 ## [Sample data installation](install-sample-data-3-x.md)
 ## [Project planning and tracking guide](implementation-guides/project-planning-tracking.md)
