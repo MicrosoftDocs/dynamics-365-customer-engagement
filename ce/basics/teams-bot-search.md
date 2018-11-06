@@ -1,8 +1,8 @@
 ---
 title: "Use the bot| MicrosoftDocs"
 ms.custom: ""
-description: "Use the bot."
-ms.date: 10/30/2018
+description: "Use the bot to interact with Dynamics 365 (online)."
+ms.date: 11/06/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
