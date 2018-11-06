@@ -73,15 +73,7 @@
 ## [View message interactions with email engagement](../sales-enterprise/email-engagement.md)
 ## [Display related emails with auto capture](../sales-enterprise/auto-capture.md)
 
-# [Sales insights add-on](../sales-enterprise/sales-insights-addon.md)
-## [Overview](../sales-enterprise/sales-insights-addon.md)
-## [Administer Sales insights add-on](../sales-enterprise/configure-enable-sales-insights-addon.md)
-## [GDPR for Sales insights add-on](../sales-enterprise/embedded-intelligence-gdpr.md)
-## [Opt out of relationship analytics (GDPR)](../sales-enterprise/optout-relationship-analytics-gdpr.md)
-## [View and export KPI data (GDPR)](../sales-enterprise/view-export-KPI-data-gdpr.md)
-## [Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](../sales-enterprise/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
-## [View customer activity history](../sales-enterprise/relationship-analytics.md)
-<!--## [Work with predictive lead scoring](../sales-enterprise/work-predictive-lead-scoring.md)-->
+# [Dynamics 365 AI for Sales](../sales-enterprise/dynamics365-ai-sales.md)
 
 
 
