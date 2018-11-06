@@ -33,30 +33,29 @@ search.app:
 A team is a group of users who share and collaborate on business records. A user can be associated with multiple teams.
 
 1. Go to **Settings** > **Advanced Settings** > **Organization** > **Team Management**.
-1. Select **Add Team**.
-1. Enter the following details, and then select **Add**.
-    - Team Name
-    - Business Unit Name: This default value is your organization name.
-    - Team Manager: Select a manager for the team.
-    - Team Administrator: Select the person who will perform administrative tasks for the team, such as adding or removing members.
+1. Select the **Add Team** button in the heading of the page.
+1. Enter the following details.
+    - **Team Name**: Give the team a name
+    - **Business Unit Name**: This read-only value is your organization name.
+    - **Team Description**: Describe the team.
+    - **Team Administrator**: Select the person who will perform administrative tasks for the team, such as adding or removing members.
+1. Select the **Add** button.
 
-## Add members to the team
+## Add or remove members to the team
 
-1. On the **Team Management** page, select the team you want to add members to, and then on the command bar, select **Add Members**.
-1. Select the members, and then select **Add**.
+1. On the **Team Management** page and select the team you want to add members to.
+1. The **Team members** section lists the current team members. Do one of the following here:
+    - To add a member, select the **Add existing user** button at the top of the **Team members** section and then select one or more existing users to add.
+    - To remove a member, select the target member to highlight it, then select the **Remove** button at the top of the **Team members** section.
+1. Save your settings.
 
-## Remove members from the team
+## Manage roles for a team
 
-1. On the **Team Management** page, select the team you want to remove the members from, and then on the command bar, select **Remove Members**.
-1. Select the members you want to remove, and then select **Remove**.
+You can assign any number of security roles to each team. When a team is assigned a role, all team members inherit the privileges associated with that role so long as they remain on that team.
 
-## Manage Roles
+To apply security roles to teams, and to customize each role, you must work in the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app. For details about how to open this app, see [Move between apps](navigation.md#move-between-apps). For more information about managing teams and working with security roles in the custom app, see [Manage security, users, and team](../admin/manage-security-users-and-teams.md) and [Create or edit a security role](../admin/create-edit-security-role.md).
 
-When a team is assigned a role, all team members are assigned the set of privileges associated with that role.
-
-1. Go to **Settings** > **Advanced Settings** > **Organization** > **Team Management**.
-1. Select a team you want to assign a role to, and then on the command bar, select **Manage Roles**.
-1. In the **Manage Roles** dialog box, select the security role you want for the team, and then select **OK**.
+For more information about the security roles included with the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], see [Manage users](manage-users.md).
 
 ### See also
 
