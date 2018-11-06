@@ -87,7 +87,7 @@ The relationship assistant is constantly at work, keeping an eye on your activit
 
 ## Privacy notices  
 
-For specific privacy information about Embedded intelligence, see [Privacy notice](../sales/privacy-notice-ee.md).
+For specific privacy information about Embedded intelligence, see [Privacy notice](../sales-enterprise/privacy-notice-ee.md).
 
 ### See also
 

@@ -89,30 +89,6 @@ Action cards are made up of the following elements, as labeled in the figure:
   
 3. Select **Save** to save your settings and close the window.  
   
-## How suggested actions assists you with suggestions
-
-[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] allows you to view and quickly enter notes on **Timeline** control (formerly known as activity wall). When you enter notes regarding a recent meeting or discussion with your customer, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] monitors these notes and gives you intelligent suggestions. With these suggestions, you can save time and effort by taking actions such as creating a meeting request and adding a contact then and there on the note.<br>
-**Timeline** control is available on contacts, opportunities, leads, accounts, and case forms.<br> 
-![Action card preview button](media/notesanalysis-timelinecontrol.png "Action card preview button")<br>
-When you save a note, the text in the note is highlighted and when selected, suggestions are displayed. These suggestions include: Creating activities, tasks, contacts, meeting, content requests, and issue detection. <br>
-For example, you created a note “Meet the customer on the May 4 at 4:00 PM”. When you select this text, Dynamics 365 provides an automatic suggestion to create an appointment.<br>
-![Suggenstion to create an appointment](media/notesanalysis_createappointment.png "Suggenstion to create an appointment")<br>
-When you have multiple suggestions associated with a note, Dynamics 365 displays those multiple suggestions—you can take timely actions depending on your requirements. For example, you have created a note to contact your customer regarding pricing and schedule a meeting to further discuss the deal. The note shows suggestions to create an appointment and schedule a phone call. Let's look this example to see how suggestion-based notes work with multiple suggestions:<br>
-1.	Open a record with the note and select the note text.<br> 
-    In this example, the note specifies to call Debra to discuss the pricing of deal and schedule a meeting to discuss meeting.<br>
-    ![Suggenstion to create an appointment](media/notesanalysis-schedulemeeting.png "Suggenstion to create an appointment")<br>
-    Suggestions to create an appointment and a phone call are displayed.<br>
-    ![Multiple suggenstions](media/notesanalysis-multiplesuggestions.png "Multiple suggenstions")<br>
-    Use the arrow icon to switch between the suggestions.<br>
-2.  On the **New Appointment suggestion** card, select **Edit and Create**.<br>
-    The **Quick Create: Appointment** form opens with prefilled information from the note.<br>
-    ![Quick create appointment](media/notesanalysis-quickcreateappointment.png "Quick create appointment")<br>
-3.	Edit the necessary information and select **Save**.
-4.	Similarly, repeat step 2 and 3 for New phone call suggestion.<br>
-    A new appointment and a call are scheduled for the record.
-
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with activities](https://go.microsoft.com/fwlink/p/?linkid=2007200)  
-
 ## Privacy notice  
 
 For specific privacy information about Relationship assistant, see [Privacy notice](privacy-notice-ee.md).
