@@ -74,19 +74,3 @@
 ## [Display related emails with auto capture](../sales-enterprise/auto-capture.md)
 
 # [Dynamics 365 AI for Sales](../sales-enterprise/dynamics365-ai-sales.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
