@@ -1,13 +1,12 @@
 ---
 
-title: Why is the price defaulting to zero on expense cost actuals? (Dynamics 365 for Project Service) | MicrosoftDocs
-description: Troubleshooting why a price is defaulting to 0 on expense cost actuals.
-author: NeilWOrint
-manager: ShellyHa
-ms.service: dynamics-365-customerservice
+title: Pricing and costing dimensions for professional services (Dynamics 365 for Project Service) | MicrosoftDocs
+description: Introduction to the concept of pricing dimensions
+author: Rumant
+manager: eichimur
 ms.custom:
   - dyn365-projectservice
-ms.date: 8/22/2018
+ms.date: 11/06/2018
 ms.topic: article
 ms.prod: Project Service
 ms.service: business-applications
@@ -19,8 +18,7 @@ search.audienceType:
   - customizer
   - enduser
 search.app: 
-  - D365CE
-  - D365PS
+    - D365PS
 ---
 
 Dimensions used for pricing and costing human resources in professional service firms are a finite set of categorizations of:
