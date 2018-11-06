@@ -94,7 +94,9 @@ You can run the [!INCLUDE[pn_moca_CRM_Android](../includes/pn-moca-crm-android.m
   
 - [!INCLUDE[pn_yammer](../includes/pn-yammer.md)]  
   
-- Reports  
+- Reports
+
+- Service Calendar 
   
 - Customization/Editors  
   
