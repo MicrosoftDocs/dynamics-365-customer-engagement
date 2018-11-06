@@ -1,0 +1,30 @@
+---
+
+title: Why can’t I delete records from the Actuals Entity? (Dynamics 365 for Project Service) | MicrosoftDocs
+description: This document explains why you can't delete records from the actuals entity.
+author: Jburrows
+manager: ShellyHa
+ms.service: dynamics-365-customerservice
+ms.custom:
+  - dyn365-projectservice
+ms.date: 11/6/2018
+ms.topic: article
+ms.prod: Applies to all versions of Project Service
+ms.service: business-applications
+ms.technology: Applies to all versions of Project Service
+ms.author: Jburrows
+audience: Admin
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+---
+
+# Why can’t I delete records from the Actuals Entity?
+
+[!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+
+By design, PSA does not permit the deletion of actuals as their function is to serve as the source of truth for transactions that have financial implications to downstream systems such as a general ledger. Allowing the deletion of actuals would call into question the integrity of the transactions for financial reporting.  Customers should use journals to make compensating transactions so that an audit trail is established for traceability.
