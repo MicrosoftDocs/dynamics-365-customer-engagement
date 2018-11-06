@@ -41,9 +41,6 @@ Applies to Dynamics 365 (online), version 9.1.0 <br>
   
 The administrator must enable email engagement before you can try it out. Email engagement uses the relationship assistant to deliver alerts and other messages, so we strongly recommend that you also enable the assistant if you are using email engagement. For complete details about prerequisites, how to enable the feature, see [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md).
 
-[Watch a short video (3:01) about email engagement](https://go.microsoft.com/fwlink/p/?linkid=839817).  
- 
-  
 > [!NOTE]
 >  Some aspects of the email engagement feature may be visible in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] even when the feature is turned off. These include:  
 > 

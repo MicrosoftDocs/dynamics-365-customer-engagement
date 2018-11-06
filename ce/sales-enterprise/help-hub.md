@@ -67,7 +67,7 @@ topic-status: Drafting
 
 <tr><td>
 
-<h2>AI for sales</h2>
+<h2>AI for Sales</h2>
 
 <li><a href="../sales-enterprise/dynamics365-ai-sales.md" data-raw-source="[Dynamics 365 AI for Sales](../sales-enterprise/dynamics365-ai-sales.md)">Dynamics 365 AI for Sales</a></li>
 

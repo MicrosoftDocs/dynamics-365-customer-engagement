@@ -51,9 +51,21 @@
 ### Playbook user guide
 #### [Launch a playbook to carry out activities consistently](launch-playbook.md)  
 #### [Mark playbook as completed](mark-playbook-completed.md)  
-#### [Track playbook activities](track-playbook-activities.md) 
+#### [Track playbook activities](track-playbook-activities.md)
+ 
+## [Embedded intelligence](../sales-enterprise/embedded-intelligence.md)
+### [Administrator guide](../sales-enterprise/configure-enable-embedded-intelligence.md)
+### User guide
+#### [Guide customer communications with relationship assistant](../sales-enterprise/relationship-assistant.md)
+#### [Stay updated with Action cards](../sales-enterprise/action-cards-reference.md)
+#### [View message interactions with email engagement](../sales-enterprise/email-engagement.md)
+#### [Display related emails with auto capture](../sales-enterprise/auto-capture.md)
+### [Create custom cards in Relationship assistant](../sales-enterprise/extend-relationship-assistant-card.md)
+#### [Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/sample-extend-relationship-assistant-card-type.md)
+### [Privacy notice](../sales-enterprise/privacy-notice-ee.md)
 
 ## [Mobile guide for Sales Hub](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
+
 ## Troubleshooting
 ### [Troubleshooting guide for sales people](troubleshooting.md)
 ### [Troubleshooting guide for administrators](troubleshooting-admin.md)
@@ -64,16 +76,5 @@
 ### [Create or edit a campaign](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)
 ### [Add an activity to a campaign](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)
 ### [Track a marketing campaign response](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)
-
-# [Embedded intelligence](../sales-enterprise/embedded-intelligence.md)
-## [Administrator guide](../sales-enterprise/configure-enable-embedded-intelligence.md)
-## User guide
-### [Guide customer communications with relationship assistant](../sales-enterprise/relationship-assistant.md)
-### [Stay updated with Action cards](../sales-enterprise/action-cards-reference.md)
-### [View message interactions with email engagement](../sales-enterprise/email-engagement.md)
-### [Display related emails with auto capture](../sales-enterprise/auto-capture.md)
-## [Create custom cards in Relationship assistant](../sales-enterprise/extend-relationship-assistant-card.md)
-### [Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/sample-extend-relationship-assistant-card-type.md)
-##[Privacy notice](../sales-enterprise/privacy-notice-ee.md)
 
 # [Dynamics 365 AI for Sales](../sales-enterprise/dynamics365-ai-sales.md)
