@@ -38,9 +38,7 @@ There are some feature restrictions depending on which versions of [!INCLUDE[pn_
 
 ## How to enable Embedded intelligence 
 
-As a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator, you can enable Embedded intelligence for your organization to:
-- Enable and configure features such as Relationship assistant, Email engagement, and Auto capture.  
-- Enable Dynamics 365 AI for Sales. 
+As a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator, you can enable Embedded intelligence for your organization to use features such as Relationship assistant, Email engagement, and Auto capture.  
 
 > [!IMPORTANT]
 > Sales AI provides features that track behavior and collect information about contacts. Make sure you understand the related privacy issues that these features raise and enable the features only if you're certain that they don't violate any privacy policies already in place in your organization. Always take steps to protect the privacy of your contacts. 
@@ -52,7 +50,7 @@ To enable, follow these steps:
 2. On the **Overview** tab, select **I Accept** to accept the privacy statement for **Sales AI**.<br>
 ![Accept privacy statement of Embedded intelligence](media/accept-privacy-statement-embedded-intelligence.png "Accept privacy statement of Embedded intelligence") <br>
 
-Sales AI is enabled for your organization and you can configure features such as Relationship assistant, Email engagement, Auto capture, and Dynamics 365 AI for Sales.
+Sales AI is enabled for your organization and you can configure features such as Relationship assistant, Email engagement, and Auto capture.
 
 ## Enable and configure Relationship assistant
 
@@ -87,7 +85,7 @@ Assign user privileges to give access to the Relationship assistant features. Th
    ![Relationship assistant configuration page](media/relationship-assistant-configuration-page.png "Relationship assistant configuration page") <br>
    
     > [!NOTE]
-    > When custom action cards are created in your organization, an option to enable these cards are displayed under **Extended Cards** section. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create custom cards in Relationship assistant](../sales/extend-relationship-assistant-card.md)  
+    > When custom action cards are created in your organization, an option to enable these cards are displayed under **Extended Cards** section. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create custom cards in Relationship assistant](extend-relationship-assistant-card.md)  
 
 4. On top of the page, select **Save** to save your settings.<br> 
 
