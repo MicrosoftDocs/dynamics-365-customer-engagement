@@ -154,7 +154,7 @@ To create a segment that finds contacts who _have already_ been registered autom
 
 To deliver messages to your waitlist members, set up a customer journey that uses an appropriate segment (such as those described in the previous sections) followed by an email tile that sends a message that matches that segment. Set the journey to run for the entire registration period of your event. That way, each time a waitlist record gets moved to invited = true, the related contact will be added to the segment and will get processed by the journey.
 
-Each email message should inform the recipient about what has happened (auto registered, or invited to register), and include an event element to link to the relevant event website. The event link is especially important for invites where auto-register is not enabled, but even auto-registered attendees may still need to purchase a ticket on the portal.
+Each email message should inform the recipient about what has happened (auto registered, or invited to register), and include an event element to link to the relevant event website. The event link is especially important for invites where auto-register is not enabled, but even auto-registered attendees may still need to purchase a ticket on the event website.
 
 For a journey sending invites to waitlist contacts who aren't auto-registered, consider adding an event tile as a child of the email-message tile so you can add a trigger that reacts to registration and follows up as needed.
 

@@ -37,7 +37,7 @@ The first thing you'll do when setting up your event in [!INCLUDE[pn-microsoftcr
 
 Though the solution offers many different views into other record types, you'll probably do most of your work directly in the relevant event record because you'll be able to view and create most types of related records from here, and everything that you do will automatically be related to that event.
 
-You can see a list of all your event records by going to **Events** &gt; **Event** &gt; **Events**, and from here you use the standard list-view controls to search, sort, and filter the list to find and open an existing event, or to create a new event record.
+You can see a list of all your event records by [opening the **Events** work area](open-events.md) and going to **Events** > **Event** > **Events**. From here you can use the standard list-view controls to search, sort, and filter the list to find and open an existing event, or to create a new event record.
 
 If you often run similar events, then you can save time by setting up one or more [event templates](event-templates.md) and then choosing an appropriate template when you first create a new event. 
 
@@ -55,11 +55,19 @@ The main body of the page repeats all the important information requested by, an
 
 Here you can see and edit your basic event information, including
 
-- **Key information**: Includes the name of your event and other basic details. Note especially the **Format** setting, which is where you can set up your event to be a [webinar](set-up-webinar.md),  webinar simulcast, or on-site only.
-- **Website**: Use these settings to configure your event website. Settings include:
-  - **Portal banner image**: Choose a banner image to show on the portal when browsing this event. You can choose any image that is already [uploaded to your file library](upload-images-files.md), or upload a new one from here.
+- **Key information**: Includes the name of your event and other basic details. The following settings are provided:
+  - **Event name**: Enter a name for the event.
+  - **Event type**: Choose which type of event this is. This is for information only and won't affect any features. Use it to make your event easier to find and identify.
+  - **Format** Set up your event as a [webinar](set-up-webinar.md),  webinar simulcast, or on-site only.
+  - **Registration count**: Shows the number of people who registered for the event.
+  - **Check-in count**: Shows the number of attendees that checked in during the event.
+  - **Custom event URL**: If you are hosting your event website on your own server, or in a custom location of your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portals solution, then select this check box and edith the **Event URL** as needed.
+  - **Event URL**: Shows the address of your [event website](set-up-event-portal.md). If you're using the default location on your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portals solution, then this value is read-only and provided automatically. If you are hosting your website at a custom location, then select the **Custom event URL** check box and edit the value here. Select the globe button next this field to open the site.
+  - **Create leads for event registrations**: Set to **Yes** to create a new lead for each contact that registers for the event. <!-- what if this is no? -->
+- **Website**: Use these settings to configure your [event website](set-up-event-portal.md). The following settings are provided:
+  - **Portal image**: Choose a banner image to show on the portal when browsing this event. You can choose any image that is already [uploaded to your file library](upload-images-files.md), or upload a new one from here.
   - **Allow anonymous registrations**: Controls whether contacts can freely register themselves for an event on the portal, or if they must first set up an account with a user name and password. Contacts who create an account have several advantages including: the ability to register any number of attendees and the ability to return to view schedules or edit their registrations at any time.
-  - **Portal payment gateway**: To enable online payment during online event registration, set up an account with a third-party online payment provider and then prepare a payment page on your portal according to their instructions. Then choose that page here. 
+  - **Portal payment gateway**: To enable online payment during online event registration, set up an account with a third-party online payment provider and then [prepare a payment page](event-payment-gateway.md) on your portal according to their instructions. Then choose that page here. 
 - **Schedule**: Provides settings for specifying the time zone, start, and end dates for your event. You can also set up a [recurring event](event-recurring.md) here.
 - **Timeline**: As with most types of entities in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)], you can use this section to build a record of the activities (such as calls, emails, and appointments) that you and others do in relation to the current record. You can also share notes here. Use the links, buttons, and menus at the top of this area to create new items and to search and sort the list.
 - **Location**: Specify the location where your event will take place. The location is hierarchical, and you can specify only as much detail as you need. For example, you can specify just a building, but to specify a room, you must first choose the building that contains that room. You'll also be able to assign a separate location to each session if applicable. You can create location records from here, or choose from among existing [venue records](#venues). Each location record can hold useful information such as address, facilities, capacity, and more.
@@ -105,8 +113,8 @@ Surveys are provided by the [Voice of the Customer](../voice-of-customer/help-hu
 
 Your event team includes coworkers and external contacts who are helping you organize the event. Each event record lists each team member's name and role, plus links for more information, so you can easily see who to call and find their contact info when needed.
 
-- You can view and edit the list of all team members who worked, are working, or will work on all your events by going to **Events** &gt; **Event** &gt; **Event Team Members**. Use this area to set up a database of people who are available to help with your various events.
-- You can view and edit the list of team members associated with a specific event by going to **Events** &gt; **Event** &gt; **Events**, opening the appropriate event, and looking at the **Event Team Members** section of the **Additional information** tab. The list on the **Events** page works the same as the list on the **Event Team Members** page, except that it only shows and adds team members who are assigned to the current event.
+- You can view and edit the list of all team members who worked, are working, or will work on all your events by going to **Events** > **Event** > **Event Team Members**. Use this area to set up a database of people who are available to help with your various events.
+- You can view and edit the list of team members associated with a specific event by going to **Events** > **Event** > **Events**, opening the appropriate event, and looking at the **Event Team Members** section of the **Additional information** tab. The list on the **Events** page works the same as the list on the **Event Team Members** page, except that it only shows and adds team members who are assigned to the current event.
 
 Each team member record can be associated with a contact or user record.
 
@@ -142,8 +150,8 @@ Use the **Agenda** tab of an event record to view and set up sessions and sessio
 
 Use the following pages to manage your speakers and speaker engagements:
 
-- **Events** &gt; **Participants** &gt; **Speakers**: Lists all speakers who are available for previous, current, or future events, and lets you set up new speakers.
-- **Events** &gt; **Event** &gt; **Events**: Work on the **Agenda** tab of the appropriate event record to set up speaker engagements for that event. You can also create new speaker records here if needed while setting up speaker engagements.
+- **Events** > **Participants** > **Speakers**: Lists all speakers who are available for previous, current, or future events, and lets you set up new speakers.
+- **Events** > **Event** > **Events**: Work on the **Agenda** tab of the appropriate event record to set up speaker engagements for that event. You can also create new speaker records here if needed while setting up speaker engagements.
 
 Each speaker record can include a photo, contact details, and biographical details that you can eventually publish to the event website for attendees to review. It also includes a record of all speaking engagements and sessions where the speaker has presented or will present. You can choose to link a speaker to a contact record, but it's not required. The contact, photo, and biographical information in the speaker record is independent from the contact record, so you can safely keep private contact information (possibly stored in the contact record) away from the public speaker information (stored in the speaker record) that will be published to your event website. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up the event website](set-up-event-portal.md)
 
@@ -172,10 +180,10 @@ When setting up a pass, pay attention to the **Passes Allocated** field, where y
 
 A venue is any physical location where you hold an event or session. It might be a single building with just one room, or one of several rooms in a building. For each venue, you can register many types of important details, including name, location, facilities, capacity, layout, events that will or have occurred there, and more. After you've set up a venue, you can assign events and sessions to it as needed.
 
-Use the various types of venue entities in the **Events** &gt; **Venue Management** area to construct a hierarchical model of your event location. Later, you'll be able to assign events and sessions to each venue space from your model. You only need to include as much detail as you need, so a simple building with just one room doesn't need to have any rooms defined for it, and a simple room with just one layout doesn't need to have any layouts defined for it. But you can't set up a room without a building or a layout without a room.
+Use the various types of venue entities in the **Events** > **Venue Management** area to construct a hierarchical model of your event location. Later, you'll be able to assign events and sessions to each venue space from your model. You only need to include as much detail as you need, so a simple building with just one room doesn't need to have any rooms defined for it, and a simple room with just one layout doesn't need to have any layouts defined for it. But you can't set up a room without a building or a layout without a room.
 
 Use the following entities to model your venues:
 
-- **Events** &gt; **Venue Management** &gt; **Buildings**: Buildings represent free-standing structures that might or might not be divided into rooms.
-- **Events** &gt; **Venue Management** &gt; **Rooms**: Rooms represent subdivisions of buildings, and each must be assigned to a building record also stored in the system.
-- **Events** &gt; **Venue Management** &gt; **Layouts**: During an event, you might use a single room to host several types of sessions, each of which might require a different arrangement of chairs and other facilities. The room layout might have practical consequences that affect, for example, seating capacity. Each layout must be associated with a particular room, but you can set up any number of layouts for each room.
+- **Events** > **Venue Management** > **Buildings**: Buildings represent free-standing structures that might or might not be divided into rooms.
+- **Events** > **Venue Management** > **Rooms**: Rooms represent subdivisions of buildings, and each must be assigned to a building record also stored in the system.
+- **Events** > **Venue Management** > **Layouts**: During an event, you might use a single room to host several types of sessions, each of which might require a different arrangement of chairs and other facilities. The room layout might have practical consequences that affect, for example, seating capacity. Each layout must be associated with a particular room, but you can set up any number of layouts for each room.

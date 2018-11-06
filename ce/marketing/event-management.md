@@ -45,10 +45,10 @@ Key event-management features include:
 - A fully functioning event website you can publish that includes:
   - Self-service attendee registration.
   - Important details about all published events, including event name, venue, passes, session schedule, and speakers.
-  - All information drawn directly from your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] event-planning records, with updates automatically reflected on the portal.
+  - All information drawn directly from your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] event-planning records, with updates automatically reflected on the event website.
 
 To create, view, and edit your events and all event-related records, go to the **Events** work area of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], where you can create a new event and&mdash;working from this single event record&mdash;add most of the other types of records and information that you need to plan, publish, promote, and analyze it. Like many types of records in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], the event record provides a customizable business process workflow that helps guide you through each step of the process.
 
 Use other parts of the **Events** work area to work with specific record types that relate to event planning, such as logistics, sessions, attendees, sponsors, and more. Depending on what you are doing at the time, you might access these types of records when working in the parent event record, or you could go to the area dedicated to a specific record type to work with that type of record only, or work across events.
 
-After your event, session, track, speaker, and pass records are all in place for an event, you are ready to publish it on the event website, where attendees can read about the event and register for it. Open an event record and change its status to **Published** to publish it on the portal.
+After your event, session, track, speaker, and pass records are all in place for an event, you are ready to publish it on the event website, where attendees can read about the event and register for it. Open an event record and change its status to **Published** to publish it on the event website.
