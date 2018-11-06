@@ -1,4 +1,4 @@
-
+---
 title: Identify your organization’s pricing dimension needs (Dynamics 365 for Project Service) | MicrosoftDocs
 description: How to think about your pricing needs
 author: Rumant
