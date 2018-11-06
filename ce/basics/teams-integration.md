@@ -17,7 +17,7 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
 search.audienceType: 
-  - admin
+  - enduser
 search.app: 
   - D365CE
   - Powerplatform
