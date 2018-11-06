@@ -62,7 +62,7 @@ A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](..
 - Remove an instance containing Personally Identifiable Information (PII) data  
   
 > [!NOTE]
-You can only reset Sandbox instances.  
+> You can only reset Sandbox instances.  
   
  **An example scenario**  
   
