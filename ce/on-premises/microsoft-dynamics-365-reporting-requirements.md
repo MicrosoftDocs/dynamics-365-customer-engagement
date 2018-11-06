@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Dynamics 365 reporting requirements | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/01/2018"
+ms.date: "11/06/2018"
 ms.prod: "crm-2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,11 +35,12 @@ ms.author: matp
   
  You can use the following [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] editions for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] reporting:  
   
--   Microsoft SQL Server 2016, Enterprise with Cumulative Update 2 (CU2)  
-  
--   Microsoft SQL Server 2016, Standard with Cumulative Update 2 (CU2)  
-  
--   Microsoft SQL Server 2016, Developer, with Cumulative Update 2 (CU2) (for non-production use only)  
+-   Microsoft SQL Server 2017 Enterprise   
+-   Microsoft SQL Server 2017 Standard   
+-   Microsoft SQL Server 2017 Developer (for non-production use only)  
+-   Microsoft SQL Server 2016 Enterprise, with Cumulative Update 2  
+-   Microsoft SQL Server 2016 Standard, Cumulative Update 2   
+-   Microsoft SQL Server 2016 Developer, with Cumulative Update 2 (for non-production use only) 
   
   
 > [!IMPORTANT]
