@@ -15,7 +15,7 @@ ms.author: mhart
 manager: shellyha
 ---
 
-# Maintain Live Org Charts for accounts
+# Organize contacts in live org charts for accounts
 
 The live org chart lets salespeople maintain external organization charts for their accounts. Dynamics 365 users can build a hierarchy for existing accounts or use it as a starting point for adding contacts to a new account. The org chart also provides easy access to an embedded LinkedIn Sales Navigator widget, helping to ensure that contacts are kept up to date.
 
@@ -79,3 +79,8 @@ To remove a contact from the org chart, select it and select the **Remove** butt
 When a contact is removed, the direct reports (if available) of that contact will move to the level of the deleted contact.
  
 <!-- image -->
+
+### See also
+- Link to Accounts topic in basics guide
+- Link to Sales User Guide
+- Link to Hierarchy setting (if documented)
