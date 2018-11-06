@@ -170,6 +170,10 @@ Once you have your account and password set up, you must go into Dynamics 365 an
 
 1. Find your portal user in the list and open it.
 
+1. Open the form-view selector and switch to the **Portal contact** form view.
+
+    ![Switch to the 'Portal contact' form view](media/faq-portal-form-view.png "Switch to the 'Portal contact' form view")
+
 1. Scroll down to the **Web Roles** section for your contact.
 
 1. Select the add (**+**) button to add a role, then select the magnifying glass icon to open the role menu, and finally select the **Administrators Event Portal** role to add that role to your contact.

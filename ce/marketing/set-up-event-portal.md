@@ -80,7 +80,7 @@ When a visitor to the website decides to register for your event, they proceed a
 1. Select the **Register** button.
 1. The registration page opens. If you've enabled anonymous registration, then the visitor can enter registration details right away, or they can choose to sign in (or to create an account first). If you've disabled anonymous registration, then they must sign in or create an account before they can register anyone.
     - The registration form allows several people to be registered at once.
-    - If the visitor chooses to create a registration account, then they must do so using an email address that does not belong to any contact already in your database.
+    - If the visitor chooses to create a registration account, then they must do so using an email address that doesn't belong to any contact already in your database.
     - One advantage of creating a registration account is that those contacts can sign in again to view their event schedules and to cancel registrations if needed.
     - If you've chosen to enable a CAPTCHA, then the visitor must fill out the CAPTCHA field to continue after entering details about each registrant.
 1. If your event requires payment, a payment gateway opens and the visitor must enter their payment details.  The following must be in place to enable the payment gateway:
