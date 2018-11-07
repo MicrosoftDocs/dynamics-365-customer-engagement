@@ -128,7 +128,7 @@ To learn more about how to add [!INCLUDE[pn_power_bi_for_office_365_short](../in
    > [!NOTE]
    >  If you aren't signed in to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance, click **Sign-in** on the Access OData feed dialog before you click Connect.  
   
-6. The organization database entity tables appear in the [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] Navigator window. You can select both default and custom entities. For more information about creating reports with [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)], see [Power BI Support: Report View in Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-report-view/).  
+6. The organization database entity tables appear in the [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] Navigator window. You can select both default and custom entities. For more information about creating reports with [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)], see [Power BI Support: Report View in Power BI Desktop](https://powerbi.microsoft.com/documentation/powerbi-desktop-report-view/).  
   
    ![Select entity table](../admin/media/pbi-select-entity-table.PNG "Select entity table")  
   
