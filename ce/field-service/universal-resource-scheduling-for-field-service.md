@@ -42,7 +42,7 @@ URS assigns the best resources to jobs/tasks based on:
 - business unit
 - geographic territory and more
 
-For more information go to the [Universal Resource Scheduling docs sits](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
+For more information go to the [Universal Resource Scheduling docs site](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
 
 **For field service organizations**, the main application of URS is scheduling location specific jobs/tasks (work orders) to mobile resources as they travel to various customer locations each day. Because work orders are generally performed onsite at customers' locations, URS helps schedule the **closest proximity** resources to work orders; reducing travel time/costs and saving organizations money. 
 
@@ -67,7 +67,7 @@ More specifically, field service work orders define **what** work needs to be do
 - Resource Scheduling Optimization (installed separately) (**Universal Resource Scheduling**)
 
 
-For more information go to the [Universal Resource Scheduling docs sits](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
+For more information go to the [Universal Resource Scheduling docs site](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
 
 
 ## How work orders are compatible with URS 
@@ -216,6 +216,10 @@ As an example, in the image above, the bookable resource has resource type = Con
 > ![Screenshot of resource address](media/scheduling-urs-resource-organizational-unit.png)
 
 **Pro Tip:** You may have to add the latitude/longitude fields to the organizational unit entity form.
+
+### See also
+- [Frequently asked questions about the mobile solution](http://www.resco.net/mobilecrm/support.aspx) 
+- [Woodford guide](https://www.resco.net/downloads/Woodford_Guide.pdf) 
 
 
 
