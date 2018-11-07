@@ -57,11 +57,7 @@ Try repinning the Dynamics 365 tab. To repin, remove the tab and then re-add, as
    > [!div class="mx-imgBorder"] 
    > ![Select Add button](media/teams-add-tab.png "Select Add button")
 
-
-<!--from editor: Should the text in the following link be "Use the Teams app"? Also, it points to a page titled "Collaborate with Teams" - maybe that's what the link text should be.-->
-
-
-5. Continue through the steps as in [Use the team app](teams-collaboration.md).
+5. Continue through the steps as in [Collaborate with Teams](teams-collaboration.md).
 
 ### Error: Sorry, the org you selected is not up-to-date. Please select another org.
 
@@ -105,7 +101,4 @@ You need to be a member of the connected channel team to view files. Contact the
 > [!div class="mx-imgBorder"] 
 > ![File sharing not set up](media/teams-error-file-sharing.png "File sharing not set up")
 
-
-<!--from editor: Same comment about "Use the team app" as above.-->
-
-This record has not been connected to a Teams channel. Select the URL to go to the Dynamics 365 Teams app and pin the record to a channel as documented in [Use the team app](teams-collaboration.md).
+This record has not been connected to a Teams channel. Select the URL to go to the Dynamics 365 Teams app and pin the record to a channel as documented in [Collaborate with Teams](teams-collaboration.md).
