@@ -1,4 +1,5 @@
 ---
+redirect_url: ../basics/teams-integration
 title: "Private Preview: Integrate Dynamics 365 Customer Engagement with Microsoft Teams| MicrosoftDocs"
 ms.custom: ""
 description: Integrate Dynamics 365 Customer Engagement with Microsoft Teams.
