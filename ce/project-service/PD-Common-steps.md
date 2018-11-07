@@ -1,6 +1,6 @@
 ---
-title: 1. Common steps for creating option sets and entities on the Power Apps Platform | MicrosoftDocs
-description: 9-step walkthrough for using custom fields and/or custom entities as pricing dimensions  
+title: Common steps for creating option sets and entities on the Power Apps Platform | MicrosoftDocs
+description: Thus page explains how to create option sets and entities in your own solution in the Power Apps platform  
 author: Rumant
 manager: eichimur
 ms.custom:
