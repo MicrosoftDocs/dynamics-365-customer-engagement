@@ -1,7 +1,7 @@
 ---
 title: "Software requirements for Microsoft Dynamics 365 Server | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/01/2018"
+ms.date: "11/06/2018"
 ms.prod: "crm-2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,6 +25,13 @@ This topic lists the software and application requirements for this version of [
 ## Windows Server operating system  
  This version of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] can be installed only on [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)] 64-bit-based computers. The specific versions and editions of [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)] that are supported for installing and running this version of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] are listed in the following sections.  
   
+### Supported Windows Server 2016 editions  
+ The following editions of the [!INCLUDE[pn_windowsserver2016](../includes/pn-windowsserver2016.md)] operating system are supported for installing and running [!INCLUDE[pn_crm_2016_server](../includes/pn-crm-2016-server.md)]:  
+  
+-   [!INCLUDE[pn_windowsserver2016](../includes/pn-windowsserver2016.md)] Standard  
+  
+-   [!INCLUDE[pn_windowsserver2016](../includes/pn-windowsserver2016.md)] Datacenter  
+
 > [!IMPORTANT]
 >  The following [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)] versions are not supported for installing and running this version of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]:  
 >   
@@ -32,14 +39,6 @@ This topic lists the software and application requirements for this version of [
 > -   [!INCLUDE[pn_windowsserver2012](../includes/pn-windowsserver2012.md)]  family of operating systems  
 >  -  [!INCLUDE[pn_windows_server_2012_r2](../includes/pn-windows-server-2012-r2.md)] family of operating systems   
 > -   [!INCLUDE[pn_WinSer2008](../includes/pn-winser2008.md)] family of operating systems  
-
-  
-### Supported Windows Server 2016 editions  
- The following editions of the [!INCLUDE[pn_windowsserver2016](../includes/pn-windowsserver2016.md)] operating system are supported for installing and running [!INCLUDE[pn_crm_2016_server](../includes/pn-crm-2016-server.md)]:  
-  
--   [!INCLUDE[pn_windowsserver2016](../includes/pn-windowsserver2016.md)] Standard  
-  
--   [!INCLUDE[pn_windowsserver2016](../includes/pn-windowsserver2016.md)] Datacenter  
   
 <!-- >> [!IMPORTANT]
 >  To use [!INCLUDE[pn_windowsserver2016](../includes/pn-windowsserver2016.md)] [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] with Microsoft Dynamics 365 Server, see [Configure the AD FS server for claims-based authentication](configure-the-ad-fs-server-for-claims-based-authentication.md) and [Configure the AD FS server for IFD](configure-the-ad-fs-server-for-ifd.md).  -->
@@ -91,9 +90,12 @@ This topic lists the software and application requirements for this version of [
 ## SQL Server editions  
  Any one of the following [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] editions is required, running, and available for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]:  
   
--   Microsoft SQL Server 2017, Enterprise    
--   Microsoft SQL Server 2017, Standard   
--   Microsoft SQL Server 2017, Developer (for non-production use only)  
+-   Microsoft SQL Server 2017 Enterprise    
+-   Microsoft SQL Server 2017 Standard   
+-   Microsoft SQL Server 2017 Developer (for non-production use only)  
+-   Microsoft SQL Server 2016 Enterprise, with Cumulative Update 2    
+-   Microsoft SQL Server 2016 Standard, with Cumulative Update 2   
+-   Microsoft SQL Server 2016 Developer, with Cumulative Update 2 (for non-production use only)   
   
 > [!IMPORTANT] 
 > -  [!INCLUDE[pn_ms_SQL_Server_Express_long](../includes/pn-ms-sql-server-express-long.md)] editions are not supported for use with this version of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].  
