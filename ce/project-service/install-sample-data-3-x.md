@@ -39,7 +39,7 @@ The sample setup/reference data packages are:
 - [**V902FPSMasterData** - Field Service 8.x and Project Service 3.x](https://go.microsoft.com/fwlink/?linkid=2026041&clcid=0x409)
 
 The latest **demo** data package is:
- - [**FPSDemoData_v3007** - Field Service 8.x and Project Service 3.x](https://aka.ms/fpsdemodatapackage)
+ - [**FPSDemoData** - Field Service 8.x and Project Service 3.x](https://aka.ms/fpsdemodatapackage)
  - Installation instructions differ very slightly in the users to create and configure section but the rest is the same as the previous [**blog post**](https://aka.ms/fpsdemodatablog).
 
 These sample data packages are available in English only.
@@ -70,7 +70,7 @@ The installation protocol assumes the following about your target instance (org)
 
 - The correct version of the business application is already installed:
        
-    - **For FPSDemoData_v3007 or v902FPSMasterData:** The org has Field Service version 8.x and Project Service version 3.x installed.
+    - **For FPSDemoData or v902FPSMasterData:** The org has Field Service version 8.x and Project Service version 3.x installed.
 
     - **For v902PSMasterData:** The org has Project Service version 3.x installed.
 
