@@ -37,10 +37,10 @@ There are two hosting types for the event portal:
 You either can build your own frontend or customize the provided demo event portal. 
 To get started with customizing the provided demo event portal you need to follow this steps:
 1. Install [Node](https://nodejs.org/en/download).
-2. Open Node cmd (or reopen if you have it opened) and run `Node -v` to check whether the installation is successful or not. More information: [Node](https://nodejs.org/en/about).
-3. Run the command `npm install -g @angular/cli` to install Angular command line interface (cli). This is required to build and run the angular app. More information: [Angular](https://angular.io).
-4. Download the [Source code](https://go.microsoft.com/fwlink/?linkid=2020107).
-5. Go to the directory where you have downloaded the source code and run the command `npm install` to fetch all the necessary packages that are required to run the website.
+1. Open Node cmd (or reopen if you have it opened) and run `Node -v` to check whether the installation is successful or not. More information: [Node](https://nodejs.org/en/about).
+1. Run the command `npm install -g @angular/cli` to install Angular command line interface (cli). This is required to build and run the angular app. More information: [Angular](https://angular.io).
+1. Download the [Source code](https://go.microsoft.com/fwlink/?linkid=2020107).
+1. Go to the directory where you have downloaded the source code and run the command `npm install` to fetch all the necessary packages that are required to run the website.
 
 ## Configuration
 All configuration for your custom event portal can be made by modifying the relating `environment.*.ts` files, which can be found in `\src\environments`. This directory contains configuration files for different environments (self hosted, portal hosted, development). You can find instructions on how to change the configuration in the related sections [Environment configuration for portal hosted](#environment-configuration-for-portal-hosted) and [Environment configuration for self hosted](#environment-configuration-for-self-hosted) 
@@ -58,11 +58,10 @@ Although, the frontend definition is hosted on Dynamics 365 Portal, you can stil
 ![Portal Hosted](../media/portal-hosted.png "Portal Hosted")
 
 ### Additional project setup
-1. Create a new Google Chrome shortcut and add `--disable-web-security --user-data-dir="C:\chromeTest"` to bypass the same origin policy.
-> [!NOTE]
-> Don't forget to always open the custom event portal with the newly created shortcut for Google Chrome with disabled web security during development!
-1. You need to bypass the anti-CSRF token for local development. To do that, you need to go to **Dynamics 365 > Portals > Web Templates** and open the **PortalAPI** web template and flip the flag `bypassTokenVerification` to `true`. 
-2.  Restart the Dynamics 365 Portal website to see the changes.
+1. To avoid CORS errors you need to add your origin in Portals. To do so, go to **Dynamics 365 > Portals > Site Settings** and add a new setting.
+   Insert `HTTP/Access-Control-Allow-Origin` in the name field and the origins that should be allowed in the value field.
+3. You need to bypass the anti-CSRF token for local development. To do that, you need to go to **Dynamics 365 > Portals > Web Templates** and open the **PortalAPI** web template and flip the flag `bypassTokenVerification` to `true`. 
+4.  Restart the Dynamics 365 Portal website to see the changes.
 
 ### Environment configuration for portal hosted
 1. Open the `environment.d365.ts` configuration file (located in `\src\environments`) for modification.
