@@ -53,6 +53,10 @@ Enter text like "contoso" in the search field to find related records.
 > [!div class="mx-imgBorder"] 
 > ![Type contoso](media/teams-bot-search-contoso.png "Type contoso")
 
+
+<!-from editor: For the following image, please ensure that Adrian and Ryan's names are from an approved fictitious names list.-->
+
+
 > [!div class="mx-imgBorder"] 
 > ![Related records returned](media/teams-bot-search-results.png "Related records returned")
 
