@@ -1,6 +1,6 @@
 # [Overview](overview.md)
 # [New and upcoming features](new-upcoming.md)
-# Project Service Product documentation
+# Project Service Product documentation (app version 3.x)
 ## Customize the working of Pricing and Costing in Project Service 
 ### [Pricing and costing dimensions for professional services](PD-Pricing-and-costing-dimensions-for-professional-services.md)
 #### [Identify your organization’s pricing dimension needs](PD-Identify-your-pricing-needs.md)
