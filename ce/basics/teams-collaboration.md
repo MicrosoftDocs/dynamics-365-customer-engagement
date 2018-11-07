@@ -76,6 +76,9 @@ A failed connection means the connection was not successfully saved. When seeing
 
 ### View and associate files
 
+> [!NOTE]
+> This feature is currently only available for organizations in the North American region.
+
 Select the  **Files** tab in the connected Teams channel to associate files with a Dynamics 365 (online) record. Files added here will appear in Dynamics 365 (online) under **Documents** for the linked record. Likewise, when you add a document to a record in Dynamics 365 (online), that document will appear in Teams under the **Files** tab.
 
 > [!div class="mx-imgBorder"] 
@@ -95,6 +98,10 @@ You can chat with your team members side-by-side with the Dynamics 365 record pa
 > ![Start a conversation](media/teams-start-conversation.png "Start a conversation")
 
 ## Teams integration in Dynamics 365 (online)
+
+> [!NOTE]
+> This feature is currently only available for organizations in the North American region.
+
 In Dynamics 365 (online), you can see the connected Microsoft Teams channel and files from the Microsoft Teams channel.
 
 In Dynamics 365 (online) records, select **Collaborate** to display a list of all the connected team channels. Then, select a team channel to go to the relevant channel conversation in Teams.
@@ -119,7 +126,7 @@ When there is more than one Microsoft Teams channel connected to a Dynamics 365 
 
 ### Record types supporting Collaborate    
 
-Currently, the following record types support using **Collaborate**. The **Collaborate** button will not appear for record types not listed below.
+Currently, the following record types support using **Collaborate**. The **Collaborate** button will only appear for record types listed below.
 
 - account
 - annotation
