@@ -31,12 +31,12 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online
 > [!IMPORTANT]
 > We've improved how you view metrics for your organization. You no longer need to install or update a solution. Instead, you can view Customer Data Service for Apps analytics right from the [Power platform Admin center](https://admin.powerplatform.microsoft.com) to quickly view adoption ad user metrics for your organization.
 >
-> For more information, see [Common Data Service for Apps analytics](https://docs.microsoft.com/en-us/power-platform/admin/analytics-common-data-service)
+> For more information, see [Common Data Service for Apps analytics](https://docs.microsoft.com/power-platform/admin/analytics-common-data-service)
 
 ![CDS for Apps analytics](media/organization-insights-home-section-cds.png "CDS for Apps analytics")
 <!--
 > [!IMPORTANT]
->  To comply with the [General Data Protection Regulation](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx) (GDPR), we are changing the time the Organization Insights solution will retain data from 90 days to 30 days.
+>  To comply with the [General Data Protection Regulation](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx) (GDPR), we are changing the time the Organization Insights solution will retain data from 90 days to 30 days.
 > 
 >  Check your version of the Organization Insights solution. In [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)], go to **Settings** > **Solutions**, and determine the version of OrganizationInsightsSolution.  
 > 

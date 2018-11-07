@@ -33,7 +33,7 @@ Your Dynamics CRM Online plan is being retired. When it's time to renew, you'll 
 
  **Dynamics 365 information**  
 
--   [Dynamics 365](https://www.microsoft.com/en-us/dynamics365/home)  
+-   [Dynamics 365](https://www.microsoft.com/dynamics365/home)  
 
 -   [Dynamics 365 pricing](https://www.microsoft.com/dynamics365/pricing)
 
