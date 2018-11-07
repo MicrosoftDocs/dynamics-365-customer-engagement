@@ -7,8 +7,8 @@
 #### [Default pricing dimensions in Project Service](PD-Default-pricing-dimensions-in-Project-Service.md)
 ### [Set up pricing dimensions for your organization](PD-Intro-PD.md)
 #### [Using custom fields or entities as resource pricing dimensions](PD-Using-Custom-field-entities-as-PD.md)
-##### 1. Common steps for creating a custom field or custom entity in the Power Apps platform (Steps 1-4)
-##### 2. Add custom fields to price setup and transactional entities of Project Service (Steps 5-7)
+##### [1. Common steps for creating a custom field or custom entity in the Power Apps platform (Steps 1-4)](PD-Common-Steps.md)
+##### [2. Add custom fields to price setup and transactional entities of Project Service (Steps 5-7)]
 ##### 3. Setup pricing dimensions (Steps 8)
 ##### 4. Register plug-ins if using Quote and Project Contracts (Step 9)
 #### Use an existing PSA field as a pricing dimension
