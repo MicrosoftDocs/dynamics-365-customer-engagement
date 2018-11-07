@@ -21,6 +21,7 @@ search.app:
 
 
 Below is a step-by-step walk-through of how to setup custom fields/entities as pricing dimensions.
+
 **Important: It is highly recommended that you make all the changes for custom pricing dimensions in a separate solution as shown here. This is an important best practice guideline that can give you a lot of flexibility on removing these changes in the future if you need to and will also help with re-use of your work and make it easy to port these changes to another instance. Once you have made all the required changes, export this solution as a Managed solution and import it into other instances to reuse your pricing setup.**
 
 **1. Create a solution for pricing dimension changes:**
