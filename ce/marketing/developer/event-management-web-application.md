@@ -43,7 +43,7 @@ To get started with customizing the provided demo event portal you need to follo
 1. Go to the directory where you have downloaded the source code and run the command `npm install` to fetch all the necessary packages that are required to run the website.
 
 ## Configuration
-All configuration for your custom event portal can be made by modifying the relating `environment.*.ts` files, which can be found in `\src\environments`. This directory contains configuration files for different environments (self hosted, portal hosted, development). You can find instructions on how to change the configuration in the related sections [Environment configuration for portal hosted](#environment-configuration-for-portal-hosted) and [Environment configuration for self hosted](#environment-configuration-for-self-hosted) 
+All configuration for your custom event portal can be made by creating an `environment.ts` file in `\src\environments`. This directory contains sample configuration files for different environments (self hosted, portal hosted, development). You can find instructions on how to change the configuration in the related sections [Environment configuration for self hosted](#environment-configuration-for-self-hosted) and [Environment configuration for portal hosted](#environment-configuration-for-portal-hosted).
 
 ## Development
 Run the command `ng serve` from your working directory to build and locally serve the website. Additionally, this command prints the URL and port where you can reach the application (default is `localhost:4200`). 
@@ -68,11 +68,23 @@ In order to do so a few additional steps need to be done.
 1. After the changes are saved the fields `Token` and `Endpoint` should contain values.
 
 ### Environment configuration for self hosted
-1. Open the `environment.selfhosted.ts` configuration file (located in `\src\environments`) for modification.
-2. Change the value of the `apiEndpoint` variable to the following endpoint: `{web-application-endpoint}/EvtMgmt/api/v1.0/` where `{web-application-endpoint}` needs to be replaced with value from the `Endpoint` field in the newly created **Dynamics 365 Web Application**.
-3. Make sure that the `useRestStack` variable is set to true.
-4. Change the `emApplicationtoken` variable to point to the URL from the `Token` field in the newly created **Dynamics 365 Web Application**. 
-5. If you want to use the [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis) you need to modify the `aadB2CConfig`. You can find detailed instructions on how to do so in section [Configure Azure Active Directory](#configuration-for-azure-active-directory).
+1. Duplicate the `environment.selfhosted.ts` configuration file (located in `\src\environments`) and name it `environment.ts`.
+2. Open the `environment.ts` configuration file for modification.
+3. Change the value of the `apiEndpoint` variable to the following endpoint: `{web-application-endpoint}/EvtMgmt/api/v1.0/` where `{web-application-endpoint}` needs to be replaced with value from the `Endpoint` field in the newly created **Dynamics 365 Web Application**.
+4. Make sure that the `useRestStack` variable is set to true.
+5. Change the `emApplicationtoken` variable to point to the URL from the `Token` field in the newly created **Dynamics 365 Web Application**. 
+6. If you want to use the [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis) you need to set the `useAadB2C` variable to `true` and modify the `aadB2CConfig`. You can find detailed instructions on how to do so in section [Configure Azure Active Directory](#configuration-for-azure-active-directory).
+
+### Configuration for Azure Active Directory
+The event portal is capable of integrating the Azure Active Directory B2C. To integrate it you need follow this steps:
+
+1. Create B2C tenant. You can find detailed instructions on how to configure and set it up in the [Azure AD B2C documentation](https://docs.microsoft.com/en-us/azure/active-directory-b2c/). 
+1. Go to **Dynamics 365 > Settings > Event settings > Web Applications** and select the earlier created **Web Application**.
+1. Insert your client ID in the `AAD Client ID` field.
+1. Insert your metadata endpoint in the `AAD Metadata Endpoint` field.
+1. Save the changes.
+1. Open the `environment.ts` configuration file (located in `\src\environments`) for modification.
+1. Enter all required values in the `aadB2cConfig` variable.
 
 ## Dynamics 365 Portal hosted
 The Event Management custom event portal comes as a Dynamics 365 Portal hosted web application when you install the Event Management solution.
@@ -86,17 +98,17 @@ Although, the frontend definition is hosted on Dynamics 365 Portal, you can stil
 ### Additional project setup
 1. To avoid CORS errors you need to add your origin in Portals. To do so, go to **Dynamics 365 > Portals > Site Settings** and add a new setting.
    Insert `HTTP/Access-Control-Allow-Origin` in the name field and the origins that should be allowed in the value field.
-3. You need to bypass the anti-CSRF token for local development. To do that, you need to go to **Dynamics 365 > Portals > Web Templates** and open the **PortalAPI** web template and flip the flag `bypassTokenVerification` to `true`. 
-4.  Restart the Dynamics 365 Portal website to see the changes.
-
-### Environment configuration for portal hosted
-1. Open the `environment.d365.ts` configuration file (located in `\src\environments`) for modification.
-1. Change the `apiEndpoint` variable to point to the in **Portal Website Binding** configured URL. _Note:_ You need to add a trailing slash at the end of the URL. 
-1. Make sure that the `useRestStack` variable is set to false.
-1. If you want to use the [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis) you need to modify the `aadB2CConfig`. You can find detailed instructions on how to do so in section [Configure Azure Active Directory](#configuration-for-azure-active-directory).
+2. You need to bypass the anti-CSRF token for local development. To do that, you need to go to **Dynamics 365 > Portals > Web Templates** and open the **PortalAPI** web template and flip the flag `bypassTokenVerification` to `true`. 
+3.  Restart the Dynamics 365 Portal website to see the changes.
 
 > [!NOTE]
 > The **PortalAPI** web template is added by default when you install the Event Management data.
+
+### Environment configuration for portal hosted
+1. Duplicate the `environment.d365.ts` configuration file (located in `\src\environments`) and name it `environment.ts`.
+1. Open the `environment.ts` configuration file (located in `\src\environments`) for modification.
+2. Change the `apiEndpoint` variable to point to the in **Portal Website Binding** configured URL. _Note:_ You need to add a trailing slash at the end of the URL. 
+3. Make sure that the `useRestStack` variable is set to false.
 
 ### Building
 1. Run `npm install` to make sure that your dependencies are installed and up-to-date.
@@ -118,14 +130,3 @@ To replace the files in Dynamics 365, follow the steps below:
 1.  Now, open the web file `main.es` and scroll down to **Notes** section and delete the existing attachment.
 1.  Upload your `main.es` file as attachment.
 1.	Restart the portal website and reopen your browser.
-
-## Configuration for Azure Active Directory
-The event portal is capable of integrating the Azure Active Directory B2C. To integrate it you need follow this steps:
-
-1. Create B2C tenant. You can find detailed instructions on how to configure and set it up in the [Azure AD B2C documentation](https://docs.microsoft.com/en-us/azure/active-directory-b2c/). 
-1. Go to **Dynamics 365 > Settings > Event settings > Web Applications** and select the earlier created **Web Application**.
-1. Insert your client ID in the `AAD Client ID` field.
-1. Insert your metadata endpoint in the `AAD Metadata Endpoint` field.
-1. Save the changes.
-1. Open the related `environment.*.ts` configuration file (located in `\src\environments`) for modification.
-1. Enter all required values in the `aadB2cConfig` variable.
