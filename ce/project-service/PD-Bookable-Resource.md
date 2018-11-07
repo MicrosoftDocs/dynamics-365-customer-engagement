@@ -38,10 +38,9 @@ Open the Solution Explorer for the pricing dimension solution and “Publish All
 |4. Project Contract line detail|• Project Information<br>• Project Quick Create|• Combined Invoice line Details<br>• Active Invoice Line Details<br>• Invoice Line Detail associated view|
 |5. Project Team Member|• Information<br>• New Form|• Active Project Team Members<br>• Project Team Members<br>• Project Team members associated View|
 |6. Time Entry|• Information<br>• Create Time Entry|• My Time Entries By Date<br>• My time Entries for this week<br>• Time entries for approval|
-|7. Project Approval|• Information|• Time entries for approval|
-|8. Journal Line|• Information<br>• Quick create|• Active journal lines<br>• Journal Line associated view|
-|9. Invoice Line Detail|• Information<br>• Quick create|• Active Invoice Line Details<br>• Chargeable Invoice Transactions<br>• Complimentary Invoice Transactions<br>• Invoice Line Detail associated view<br>• Non-Chargeable Invoice Transactions|
-|10. Actual|• Information<br>• Active Actuals|• Actual Associated view|
+|7. Journal Line|• Information<br>• Quick create|• Active journal lines<br>• Journal Line associated view|
+|8. Invoice Line Detail|• Information<br>• Quick create|• Active Invoice Line Details<br>• Chargeable Invoice Transactions<br>• Complimentary Invoice Transactions<br>• Invoice Line Detail associated view<br>• Non-Chargeable Invoice Transactions|
+|9. Actual|• Information<br>• Active Actuals|• Actual Associated view|
 
 **3. Set up bookable resource as a pricing dimension**
 Navigate to Project Service->Settings->Parameters and open the Parameter page. Then open the tab “Amount-Based Pricing Dimensions.” The grid on the tab shows the records in the Pricing Dimensions entity in Project Service. Add Bookable Resource to this list of Pricing Dimensions with applicable to cost and applicable to sale set to “Yes”. Dimension Type should be “amount-based”. Decide the priority for Bookable Resource in the cost and sales context. Usually when present as a pricing dimension, Bookable Resource has the highest priority so setting this to 1 (or 0 depending on how you count the priority) would ensure that behavior.
