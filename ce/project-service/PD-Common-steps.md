@@ -29,7 +29,7 @@ We will first start with some common steps that you will need to take any time y
 Using the web interface, create a new solution from the Solutions page: Settings->Solutions. Enter all the required fields and save the solution. You can name the solution “<your organization name> Pricing Dimensions.”
 
 *Creating a custom solution for pricing dimensions*
-> ![Creating a custom pricing dimensions solution](media/Creation-of-custom-pricing-dimension-solution.png )
+> ![Creating a custom pricing dimensions solution](media/Creation-of-custom-pricing-dimension-solution.png)
   
   
 **2. Create custom fields and Options sets in the pricing dimension solution**
@@ -39,7 +39,7 @@ Your pricing dimension may be an option set or an entity. In either case, create
 a. Entity-based dimension called “Standard Title” that has all the standard titles that Contoso uses.
 
 *Standard Title entity definition*
-> ![Standard title entity definition](media/Standard Title-entity-definition.png)
+> ![Standard title entity definition](media/Standard-Title-entity-definition.png)
 
 b. Option-set based dimension called “Resource Work Location” where Contoso would like to track the price of “Home” location work and “Onsite” work.
 
