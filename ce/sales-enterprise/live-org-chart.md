@@ -26,18 +26,18 @@ The live org chart lets salespeople maintain external organization charts for th
 
 The org chart is accessible from the account form. Select **Open Org Chart** from the command bar to open the org chart for the account.
  
-<!-- image -->
+![Open the live org chart on account form](media/org-chart-open-control.png)
 
 When entering the org chart for a new account with no contacts, a placeholder org chart will be presented. The contacts are placeholders, representing a manager and direct reports which can be added to the chart.
 
-<!-- image -->
+![Org chart for new account](media/org-chart-new-account.png)
 
 ## Add a contact to the org chart
 
 1. Double-click the manager node which is represented with a ‘plus’ icon.   
 This will open a **Lookup Records** side panel where you can search for contacts, or quickly create a new one. The search for contacts will return results for contacts which are currently not associated with another account to avoid disrupting another hierarchy. All contact searches behave in this manner.
 
-<!-- image -->
+   ![Lookup Records side panel to add contacts](media/org-chart-lookup-records.png)
  
 2. To create a new contact, select **New** and enter the contact details in the quick create form.
 
@@ -51,13 +51,13 @@ This will open a **Lookup Records** side panel where you can search for contacts
 
 If you have a Sales Navigator Seat, LinkedIn profiles are always just a few clicks away and can be used to ensure contact details remain up to date. Sign in to the service by selecting the **Sales Navigator** button. You’ll then be presented with the embedded LinkedIn Sales Navigator widget, where you can match the contact and see their LinkedIn profile. These 
 
-<!-- image -->
+![Sign in to Sales Navigator from the side panel](media/org-chart-sales-navigator-control.png)
 
 ## Org chart for accounts without hierarchy
 
 If an organization has no hierarchy associated with the contacts, then the contacts will all be on the same level and report to a placeholder contact. You can edit the contact details to manage the hierarchy.
 
-<!-- image -->
+![Org chart for contacts without hierarchy](media/org-chart-no-hierachy.png)
  
 ## Manage the org chart
 
@@ -78,9 +78,9 @@ Use the mouse wheel to zoom the org chart in and out. By clicking and dragging o
 To remove a contact from the org chart, select it and select the **Remove** button from the command bar. This will remove the contact from the org chart, but it will not delete the contact, just the association the contact has with the account.
 When a contact is removed, the direct reports (if available) of that contact will move to the level of the deleted contact.
  
-<!-- image -->
+![Control to remove a contact from an org chart](media/org-chart-remove-contact.png)
 
 ### See also
-- Link to Accounts topic in basics guide
-- Link to Sales User Guide
-- Link to Hierarchy setting (if documented)
+[Work with accounts and contacts in Customer Engagement apps](../basics/accounts-contacts.md)    
+[User Guide (Sales and Sales Hub)](user-guide.md)    
+[Administrator and Sales Manager Guide](admin-guide.md)
