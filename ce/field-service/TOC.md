@@ -4,13 +4,16 @@
 
 # Installation
 ## [Field Service installation (online)](install-field-service.md)
+## [Activate Field Service mobile licenses](activate-fs-mobile-app-license.md)
+## [AppSource add-ins for Field Service](appsource-addins.md)
+
+# Administration
 ## [Sample data installation (app version 8.x)](install-sample-data-8-x.md)
 ## [Sample data installation (earlier app versions)](use-demo-data.md)
-## [Activate Field Service mobile licenses](activate-fs-mobile-app-license.md)
 ## [Initial configuration](perform-initial-configurations-setup.md)
 ## [Set up users and security roles](view-user-accounts-security-roles.md)
-## [Org-wide default settings](configure-default-settings.md)
-## [AppSource add-ins for Field Service](appsource-addins.md)
+## [Field Service Settings](configure-default-settings.md)
+
 
 # Work orders
 ## [Create a new work order](create-work-order.md)
@@ -33,6 +36,7 @@
 ## [Tutorial: Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
 # [Scheduling](universal-resource-scheduling.md)
+## [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md) 
 ## [Configure the schedule board](configure-schedule-board.md)
 ## [Geocoding for travel time](turn-on-auto-geocoding.md)
 ## [Booking statuses](set-up-booking-statuses.md)
