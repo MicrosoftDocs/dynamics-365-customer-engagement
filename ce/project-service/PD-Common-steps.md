@@ -32,7 +32,7 @@ Using the web interface, create a new solution from the Solutions page: Settings
 > ![Creating a custom pricing dimensions solution](media/Creation-of-custom-pricing-dimension-solution.png)
   
   
-**2. Create custom fields and Options sets in the pricing dimension solution**
+**2. Create custom fields and option sets in the pricing dimension solution**
 
 Your pricing dimension may be an option set or an entity. In either case, create them in your pricing solution. Let’s work with an example for this flow. In this walkthrough, we will create 3 pricing dimensions for a fictious company called Contoso:
 
@@ -41,16 +41,18 @@ a. Entity-based dimension called “Standard Title” that has all the standard 
 *Standard Title entity definition*
 > ![Standard title entity definition](media/Standard-Title-entity-definition.png)
 
+
 b. Option-set based dimension called “Resource Work Location” where Contoso would like to track the price of “Home” location work and “Onsite” work.
 
 *Resource Work Location definition*
-> ![Option set based pricing dimension called Resource Work Hours ](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Option set based pricing dimension called Resource Work Location ](media/Option-set-PD-called-Resource-Work-Location.png)
+
 
 
 c. Option-set based dimension called “Resource Work hours” with values “Regular” and “Overtime” where Contoso can apply a markup when work is done.
 
 *Resource Work Hours definition*
-> ![Option set based pricing dimension called Resource Work Location ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Option set based pricing dimension called Resource Work Hours ](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 
 **3. Create data for your entity-based dimensions:**
