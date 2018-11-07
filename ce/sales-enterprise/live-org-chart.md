@@ -20,7 +20,7 @@ manager: shellyha
 The live org chart lets salespeople maintain external organization charts for their accounts. [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] users can build a hierarchy for existing accounts or use it as a starting point for adding contacts to a new account. The org chart also provides easy access to an embedded [!INCLUDE [pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator widget, helping to ensure that contacts are kept up to date.
 
 > [!IMPORTANT]
-> To use the org chart, hierarchy settings must be enabled for contacts.
+> To use the org chart, [hierarchy settings must be enabled](https://blogs.technet.microsoft.com/lystavlen/2014/10/02/how-to-enable-hierarchy-to-contacts-in-dynamics-crm-2015/) for contacts.
 
 ## Accessing the Org Chart
 
@@ -83,4 +83,5 @@ When a contact is removed, the direct reports (if available) of that contact wil
 ### See also
 [Work with accounts and contacts in Customer Engagement apps](../basics/accounts-contacts.md)    
 [User Guide (Sales and Sales Hub)](user-guide.md)    
-[Administrator and Sales Manager Guide](admin-guide.md)
+[Administrator and Sales Manager Guide](admin-guide.md)    
+[How to enable hierarchy for contacts](https://blogs.technet.microsoft.com/lystavlen/2014/10/02/how-to-enable-hierarchy-to-contacts-in-dynamics-crm-2015/)
