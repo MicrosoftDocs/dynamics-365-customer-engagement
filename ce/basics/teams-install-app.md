@@ -148,8 +148,8 @@ Because this is a preview feature, you can control whether to display Teams inte
 2. Go to **Settings** > **Administration** > **System Settings** > **Previews** tab.
 3. Enable **Microsoft Teams Integration Preview** and **Dynamics 365 bot in Microsoft Teams Preview**.
 
-> [!div class="mx-imgBorder"] 
-> ![Enable preview settings](media/teams-system-settings.png "Enable preview settings")
+   > [!div class="mx-imgBorder"] 
+   > ![Enable preview settings](media/teams-system-settings.png "Enable preview settings")
 
 The following table describes what happens when each feature is enabled.
 
