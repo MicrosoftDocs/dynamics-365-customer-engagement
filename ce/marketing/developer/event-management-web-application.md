@@ -27,8 +27,8 @@ The Event Management event portal consists of two parts:
 The frontend part is a single page application which is created using the [Angular](https://angular.io) framework. The frontend part of the web application is fully customizable. The backend and the customizability of the backend depend on the hosting type.
 
 There are two hosting types for the event portal:
-- [Dynamics 365 Portal hosted](#dynamics-365-portal-hosted)
 - [Self-hosted](#self-hosted)
+- [Dynamics 365 Portal hosted](#dynamics-365-portal-hosted)
 
 > [!NOTE]
 > For the provided demo event portal the [Angular framework](https://angular.io/guide/quickstart) is used. However, since the backend is not dependent of the frontend you can use whatever framework you would like to use.
@@ -47,6 +47,32 @@ All configuration for your custom event portal can be made by modifying the rela
 
 ## Development
 Run the command `ng serve` from your working directory to build and locally serve the website. Additionally, this command prints the URL and port where you can reach the application (default is `localhost:4200`). 
+
+## Self hosted
+To give our customers full control of the event portal you can host the frontend by yourself.
+
+In order to do so a few additional steps need to be done.
+
+### Dynamics 365 configuration
+1. Go to **Dynamics 365 > Settings > Event settings > Web Applications** 
+1. Create a new web application
+> [!NOTE]
+> You need to create a new web application for each origin of which the custom event portal is accessible (most probably you need at least two web applications (for development and production)).
+
+1. Enter an arbitrary `Name`.
+1. Enter the `Origin` URL of the custom event portal (e.g. `http://localhost:4200`)  
+  > [!NOTE]
+  > The origin URL may not contain a trailing slash!
+1. If you want to use the [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis) you need to enter the `AAD Client ID` and `AAD Metadata Endpoint`. For more information see section [Configuration for Azure Active Directory](#configuration-for-azure-active-directory).
+1. Click save. 
+1. After the changes are saved the fields `Token` and `Endpoint` should contain values.
+
+### Environment configuration for self hosted
+1. Open the `environment.selfhosted.ts` configuration file (located in `\src\environments`) for modification.
+2. Change the value of the `apiEndpoint` variable to the following endpoint: `{web-application-endpoint}/EvtMgmt/api/v1.0/` where `{web-application-endpoint}` needs to be replaced with value from the `Endpoint` field in the newly created **Dynamics 365 Web Application**.
+3. Make sure that the `useRestStack` variable is set to true.
+4. Change the `emApplicationtoken` variable to point to the URL from the `Token` field in the newly created **Dynamics 365 Web Application**. 
+5. If you want to use the [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis) you need to modify the `aadB2CConfig`. You can find detailed instructions on how to do so in section [Configure Azure Active Directory](#configuration-for-azure-active-directory).
 
 ## Dynamics 365 Portal hosted
 The Event Management custom event portal comes as a Dynamics 365 Portal hosted web application when you install the Event Management solution.
@@ -92,32 +118,6 @@ To replace the files in Dynamics 365, follow the steps below:
 1.  Now, open the web file `main.es` and scroll down to **Notes** section and delete the existing attachment.
 1.  Upload your `main.es` file as attachment.
 1.	Restart the portal website and reopen your browser.
-
-## Self hosted
-To give our customers full control of the event portal you can host the frontend by yourself.
-
-In order to do so a few additional steps need to be done.
-
-### Dynamics 365 configuration
-1. Go to **Dynamics 365 > Settings > Event settings > Web Applications** 
-1. Create a new web application
-> [!NOTE]
-> You need to create a new web application for each origin of which the custom event portal is accessible (most probably you need at least two web applications (for development and production)).
-
-1. Enter an arbitrary `Name`.
-1. Enter the `Origin` URL of the custom event portal (e.g. `http://localhost:4200`)  
-  > [!NOTE]
-  > The origin URL may not contain a trailing slash!
-1. If you want to use the [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis) you need to enter the `AAD Client ID` and `AAD Metadata Endpoint`. For more information see section [Configuration for Azure Active Directory](#configuration-for-azure-active-directory).
-1. Click save. 
-1. After the changes are saved the fields `Token` and `Endpoint` should contain values.
-
-### Environment configuration for self hosted
-1. Open the `environment.selfhosted.ts` configuration file (located in `\src\environments`) for modification.
-2. Change the value of the `apiEndpoint` variable to the following endpoint: `{web-application-endpoint}/EvtMgmt/api/v1.0/` where `{web-application-endpoint}` needs to be replaced with value from the `Endpoint` field in the newly created **Dynamics 365 Web Application**.
-3. Make sure that the `useRestStack` variable is set to true.
-4. Change the `emApplicationtoken` variable to point to the URL from the `Token` field in the newly created **Dynamics 365 Web Application**. 
-5. If you want to use the [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis) you need to modify the `aadB2CConfig`. You can find detailed instructions on how to do so in section [Configure Azure Active Directory](#configuration-for-azure-active-directory).
 
 ## Configuration for Azure Active Directory
 The event portal is capable of integrating the Azure Active Directory B2C. To integrate it you need follow this steps:
