@@ -11,10 +11,10 @@
 ##### [2. Add custom fields to price setup and transactional entities of Project Service (Steps 5-7)](PD-field-references-PS.md)
 ##### [3. Setup pricing dimensions (Steps 8)](PD-SetupPD.md)
 ##### [4. Register plug-ins if using Quote and Project Contracts (Step 9)](PD-Using-PRT.md)
-#### Use an existing PSA field as a pricing dimension
-##### Bookable resource as a pricing dimension
-##### Transaction category as a pricing dimension
-### Turning off a default or a custom pricing dimension
+#### [Use an existing PSA field as a pricing dimension](PD-Existing-Field.md)
+##### [Bookable resource as a pricing dimension](PD-Bookable-Resource.md)
+##### [Transaction category as a pricing dimension](PD-Transaction-Category.md)
+### [Turning off a default or a custom pricing dimension](PD-TurnOff.md)
 # Plan your implementation (app version 3.x)
 ## [Sample data installation](install-sample-data-3-x.md)
 ## [Project planning and tracking guide](implementation-guides/project-planning-tracking.md)
