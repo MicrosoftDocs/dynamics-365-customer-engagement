@@ -33,22 +33,26 @@ search.app:
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
 
-If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software), you know it's the place to manage all your conversations, files, and tools in one team workspace. Create and edit documents right in the app and enjoy instant access to SharePoint, OneNote, PowerBI, and now, [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)]. With Dynamics 365 app for Teams integration, you add the Dynamics 365 Customer Engagement  features you rely on to the Teams app you collaborate with.
+If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software), you know it's the place to manage all your conversations, files, and tools in one team workspace. Create and edit documents right in the app and enjoy instant access to SharePoint, OneNote, Power BI, and now, [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)]. With the Dynamics 365 app for Teams integration, you add the Dynamics 365 Customer Engagement  features you rely on to the Teams app you collaborate with.
 
-Check out the following video to get a quick overview of Dynamics 365 and Teams can work together to make easy collaboration possible: [Dynamics 365 app for Microsoft Teams Demo Video](https://go.microsoft.com/fwlink/p/?linkid=2038623).
+Check out the following video to get a quick overview of how Dynamics 365 and Teams can work together to make easy collaboration possible: [Dynamics 365 app for Microsoft Teams Demo Video](https://go.microsoft.com/fwlink/p/?linkid=2038623).
 <!-- Cindy will provide new video when it's published. -->
 
-The Dynamics 365 app in Teams provides the following:
+The Dynamics 365 app for Teams provides the following:
 
-- **Collaboration hub** – Access records together with the Office applications you need to close deals.
-- **Cross-functional collaboration** – Work together with customers and any colleague across functions, even if they aren’t Dynamics 365 users.
-- **File integration** – Co-author documents using Office 365 and automatically sync to Dynamics 365.
-- **Teams mobile app** – Search and update records from Microsoft Teams mobile app using Dynamics 365 bot while on the go. 
+- **Collaboration hub**: Access records together with the Office applications you need to close deals.
+- **Cross-functional collaboration**: Work together with customers and any colleague across functions, even if they aren’t Dynamics 365 users.
+- **File integration**: Co-author documents using Office 365 and automatically sync to Dynamics 365.
+- **Teams mobile app**: Search and update records from Microsoft Teams mobile app using the Dynamics 365 bot while on the go. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/teams-intro.png "Features of Teams app")
+> ![Features of Teams app](media/teams-intro.png "Features of Teams app")
 
-The Dynamics 365 app for Teams, when installed into a Teams channel, provides a fully functional page in which you can edit information and navigate to related records - all this without leaving Teams.
+The Dynamics 365 app for Teams, when installed into a Teams channel, provides a fully functional page in which you can edit information and navigate to related records—all this without leaving Teams.
+
+
+<!--from editor: I read but made no changes to the following section, assuming it was provided by legal. If that's not the case, I'd edit it a little. Also, are you sure it's called Azure bot framework? The link takes me to Azure Bot Service, and there's mention on that page of Microsoft Bot Framework. -->
+
 
 ## Privacy notice
 

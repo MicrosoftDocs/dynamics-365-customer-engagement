@@ -30,20 +30,26 @@ search.app:
 
 You can use the Dynamics 365 app for Teams for your own use. If you want to work with other team members, consider the [team app](teams-collaboration.md).
 
-### Conversation tab
+## Conversation tab
+
+
+<!--from editor: Not much is described above, so the following sentence seems like something is missing.-->
 
 Select the **Conversation** tab to access the bot as described above.
 
-### My Dashboard tab
+## My Dashboard tab
 
-Select **My Dashboard** to view your Dynamics 365 dashboard in Microsoft Teams. The dashboard displayed is based on who is signed in and their user role.
+Select the **My Dashboard** tab to view your Dynamics 365 dashboard in Microsoft Teams. The dashboard displayed is based on who is signed in and their user role.
 
+> [!div class="mx-imgBorder"]
 ![Dynamics 365 dashboard](media/teams-bot-dashboard.png "Dynamics 365 dashboard")
 
-### Settings tabs
+
+## Settings tab
 
 If you have more than one organization or Unified Interface app, you can use the **Settings** tab to select a different organization or app to appear as a dashboard.
 
+> [!div class="mx-imgBorder"]
 ![Dashboard settings](media/teams-settings-page.png "Dashboard settings")
 
 > [!NOTE]
