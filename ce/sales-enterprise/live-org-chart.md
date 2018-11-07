@@ -17,7 +17,7 @@ manager: shellyha
 
 # Organize contacts in live org charts for accounts
 
-The live org chart lets salespeople maintain external organization charts for their accounts. Dynamics 365 users can build a hierarchy for existing accounts or use it as a starting point for adding contacts to a new account. The org chart also provides easy access to an embedded LinkedIn Sales Navigator widget, helping to ensure that contacts are kept up to date.
+The live org chart lets salespeople maintain external organization charts for their accounts. [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] users can build a hierarchy for existing accounts or use it as a starting point for adding contacts to a new account. The org chart also provides easy access to an embedded [!INCLUDE [pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator widget, helping to ensure that contacts are kept up to date.
 
 > [!IMPORTANT]
 > To use the org chart, hierarchy settings must be enabled for contacts.
@@ -43,13 +43,13 @@ This will open a **Lookup Records** side panel where you can search for contacts
 
 3. Select **Save**.
 
-4. In the Lookup Records side panel, select **Add**. After the contact is saved, the org chart will show the contact which is now associated with the account with their full name and their job title.
+4. In the **Lookup Records** side panel, select **Add**. After the contact is saved, the org chart will show the contact which is now associated with the account with their full name and their job title.
 
 5. Double-click the the contact to add more contacts to the chart or edit the contact details. A contact can only have a single manager but may have many direct reports. 
  
-## Embedded LinkedIn Sales Navigator control
+## Embedded [!INCLUDE [pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator control
 
-If you have a Sales Navigator Seat, LinkedIn profiles are always just a few clicks away and can be used to ensure contact details remain up to date. Sign in to the service by selecting the **Sales Navigator** button. You’ll then be presented with the embedded LinkedIn Sales Navigator widget, where you can match the contact and see their LinkedIn profile. These 
+If you have a Sales Navigator seat, [!INCLUDE [pn-linkedin](../includes/pn-linkedin.md)] profiles are always just a few clicks away and can be used to ensure contact details remain up to date. Sign in to the service by selecting the **Sales Navigator** button. You’ll then be presented with the embedded [!INCLUDE [pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator widget, where you can match the contact and see their [!INCLUDE [pn-linkedin](../includes/pn-linkedin.md)] profile. These 
 
 ![Sign in to Sales Navigator from the side panel](media/org-chart-sales-navigator-control.png)
 
