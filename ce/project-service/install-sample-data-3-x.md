@@ -147,7 +147,7 @@ The demo data package requires 6 users. For the package to install correctly, pl
 
 **4.** If your "Spencer Low" full name user has a different user id than **"spencerl"**, then you need to update an additional file. Open the **DemoDataPreImportConfig.xml**, find the **userstocreateandconfigure** tag. Update the **\<login\>** tag with the loginId (case-sensitive). 
 
-**5.** The first user's(in userstocreateandconfigure) calendar is used to populate the work hours for all bookable resources on import of demo data. Navigate to **Settings > Security > Users",** find your "Spencer Low" user and open the "Work Hours" option. Edit the existing work hours, selcting the "Entire recurring weekly schedule from start to end" option. Ensure the **Work hours are set to 8 AM - 5 PM(9 Hours), Monday to Friday and with the Timezone set to "Pacific Time (US & Canada)**. This is needed to ensure that the Project and Schedule board show as expected.
+**5.** The first user's calendar (in the **userstocreateandconfigure** tag) is used to populate the work hours for all bookable resources on import of demo data. Navigate to **Settings > Security > Users",** find your "Spencer Low" user and open the "Work Hours" option. Edit the existing work hours, selcting the "Entire recurring weekly schedule from start to end" option. Ensure the **Work hours are set to 8 AM - 5 PM(9 Hours), Monday to Friday and with the Timezone set to "Pacific Time (US & Canada)**. This is needed to ensure that the Project and Schedule board show as expected.
 
 **Recommendation:** Consider creating a backup of your org now, in case you need to revert to your starting point if something goes wrong during the sample data installation. For more information, see [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
@@ -243,7 +243,7 @@ There are a number of other configuration components in this pre-import configur
 
 ### Fabrikam Robotics fictitious scenario
 
-The Field Service and Project Service sample data packages install the **Fabrikam Manufacturing Master Data (v3.0.0.0) solution**, along with approximately 4,000 records and approximately 40 different entities. The separate sample data packages for Field Service or Project Service contain a subset of the **v902FPSMasterData** sample data for that application.
+The Field Service and Project Service sample reference data packages install the **Fabrikam Manufacturing Master Data (v3.0.0.0) solution**, along with approximately 4,000 records and approximately 40 different entities. The separate sample data packages for Field Service or Project Service contain a subset of the **v902FPSMasterData** sample data for that application. The **Demo Data** package installs the **Fabrikam Manufacturing Demo Data (v3.0.0.7) solution** with ~22k records across 148 entities.
 
 The fictional company, Fabrikam Robotics, is a manufacturer of electronic device assembly line robots and is known for their product quality, innovation and solid customer service, including installation planning, implementation, and ongoing maintenance services. Fabrikam is headquartered in the United States (Fabrikam US), and has project-based service operations in France, India, the United Kingdom, and Switzerland.
 
@@ -284,6 +284,8 @@ A high-level overview of the sample data is as follows:
     - 22 customer assets
 
     - 9 incident types with a range of associated resource characteristics (9), services (13) and service tasks (13)
+   
+The **Demo Data** package installs around 179 Work Orders, 12 Projects and associated transactional data. 
 
 ### Change the work hours for sample resources
 
