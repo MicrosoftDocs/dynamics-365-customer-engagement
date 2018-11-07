@@ -1,7 +1,7 @@
 ---
 title: "Create or edit an appointment (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/15/2017
+ms.date: 11/17/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -46,9 +46,12 @@ To remove an appointment or service activity from the calendar, delete the recor
   
 4. If this is a recurring appointment, click **Recurrence**, and then select the time, pattern, and date range you want.  
   
-5. Click **Save**.  
-  
-    If any participants have a schedule conflict, a warning appears. You can click **Ignore and Save** to save the appointment anyway.  
+5. Click **Save**. If any participants have a schedule conflict, a warning appears. You can click **Ignore and Save** to save the appointment anyway.  
+
+> [!Note]
+>  You may have the option to create appointments in Dynamics 365 and **Save as Draft** without synchronizing with Exchange. The appointment form will have a **Save as Draft** option and a **Send** option, so that you can save, add details and update an appointment activity without synchronizing to Exchange. You will only see these options if your admin as enabled a specific setting. For more information, [OrgDBOrgSettings tool for Microsoft Dynamics CRM](https://support.microsoft.com/en-us/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm).
+
+
   
 If you want to add an attachment, make sure you save the appointment first. Then, in the **Attachments** section, click the **Add attachment record** button ![Add Appointment button](../basics/media/plus-sign-icon.png "Add Appointment button") (you may have to scroll to the right to see the button) and browse for the file. The attachment size limitation is the same as the email attachment size limitation, which can be changed by your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](../admin/system-settings-dialog-box-email-tab.md)
 
