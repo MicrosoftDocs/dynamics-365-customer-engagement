@@ -1,6 +1,6 @@
 ---
-title: Setup pricing dimensions in Project Service (Dynamics 365 for Project Service) | MicrosoftDocs
-description: Introduction to setup of pricing dimensions in project service solution 
+title: Using an existing Project Service field as a pricing dimension | MicrosoftDocs
+description: Project Service has many resource attributes that can be made to work as pricing dimensions 
 author: Rumant
 manager: eichimur
 ms.custom:
