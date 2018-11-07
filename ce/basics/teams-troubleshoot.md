@@ -57,6 +57,10 @@ Try repinning the Dynamics 365 tab. To repin, remove the tab and then re-add, as
    > [!div class="mx-imgBorder"] 
    > ![Select Add button](media/teams-add-tab.png "Select Add button")
 
+
+<!--from editor: Should the text in the following link be "Use the Teams app"? Also, it points to a page titled "Collaborate with Teams" - maybe that's what the link text should be.-->
+
+
 5. Continue through the steps as in [Use the team app](teams-collaboration.md).
 
 ### Error: Sorry, the org you selected is not up-to-date. Please select another org.
@@ -78,7 +82,7 @@ The Dynamics 365 (online) organization you are trying to connect does not suppor
 ### Error: You cannot enable Microsoft Teams integration since the org is integrated with SharePoint on-premises.
 You are currently configured to use SharePoint on-premises for document management. You need to set up document management in Dynamics 365 (online) to use SharePoint Online. See [Set up Dynamics 365 (online) to use SharePoint Online](https://docs.microsoft.com/dynamics365/customer-engagement/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
 
-### Error: You don't have permissions to view files in the selected location. Contact your Microsoft Teams owner or SharePoint administrator for access.
+### Error: You don't have permissions to view files in this location. Contact your Microsoft Teams owner or SharePoint administrator for access.
 
 > [!div class="mx-imgBorder"] 
 > ![You don't have permissions to view files](media/teams-error-permissions.png "You don't have permissions to view files")
@@ -100,5 +104,8 @@ You need to be a member of the connected channel team to view files. Contact the
 
 > [!div class="mx-imgBorder"] 
 > ![File sharing not set up](media/teams-error-file-sharing.png "File sharing not set up")
+
+
+<!--from editor: Same comment about "Use the team app" as above.-->
 
 This record has not been connected to a Teams channel. Select the URL to go to the Dynamics 365 Teams app and pin the record to a channel as documented in [Use the team app](teams-collaboration.md).
