@@ -23,17 +23,24 @@ search.app:
 
 # Sample data installation for the Project Service application
 
-To help you build your own demo environments, Microsoft provides downloadable sample data packages that showcase the capabilities of Dynamics 365 for Project Service and Dynamics 365 for Field Service.
+To help you build your own demo environments, Microsoft provides downloadable sample data packages that showcase the capabilities of Dynamics 365 for Project Service and Dynamics 365 for Field Service. The sample data packages come in 2 categories:
 
-The sample data is installable in three separate packages, so you can install data only for Project Service, or only for Field Service, or you can install sample data for both applications at once.
+1) reference/setup data
+2) demo data (reference/setup + transactional data such as Work Orders and Projects)
 
-The sample data packages are:
+The sample **reference** data packages are installable in three separate packages, so you can install data only for Project Service, or only for Field Service, or you can install sample data for both applications at once.
+
+The sample setup/reference data packages are:
 
 - [**V902PSMasterData** - Project Service version 3.x only](https://go.microsoft.com/fwlink/?linkid=2026540&clcid=0x409)
 
 - [**V902FSMasterData** - Field Service version 8.x only](https://go.microsoft.com/fwlink/?linkid=2026536&clcid=0x409)
 
 - [**V902FPSMasterData** - Field Service 8.x and Project Service 3.x](https://go.microsoft.com/fwlink/?linkid=2026041&clcid=0x409)
+
+The latest **demo** data package is:
+ - [**FPSDemoData_v3007** - Field Service 8.x and Project Service 3.x](https://aka.ms/fpsdemodatapackage)
+ - Installation instructions differ very slightly in the users to create and configure section but the rest is the same as the previous [**blog post**](https://aka.ms/fpsdemodatablog).
 
 These sample data packages are available in English only.
 
@@ -44,6 +51,8 @@ When you install any of the sample data packages, the installation process perfo
 - Creates or sets default parameters for using Project Service, Field Service, or both applications (if applicable).
 
 - Imports sample data for the applications, such as bookable resources, application-specific roles, sales and cost price lists, organizational units, sales process records, and other entities to demonstrate key capabilities.  
+
+With the **demo data** package, you get the above and additional transactional data such as Work Orders and Projects.
 
 Wondering what capabilities you can demo with the sample data? See the Fabrikam Robotics fictitious scenario below, under Technical notes.
 
@@ -60,8 +69,8 @@ The installation protocol assumes the following about your target instance (org)
 - The org has no Project Service or Field Service data already, or only has barebones default data that comes with any new org
 
 - The correct version of the business application is already installed:
-
-    - **For v902FPSMasterData:** The org has Field Service version 8.x and Project Service version 3.x installed.
+       
+    - **For FPSDemoData_v3007 or v902FPSMasterData:** The org has Field Service version 8.x and Project Service version 3.x installed.
 
     - **For v902PSMasterData:** The org has Project Service version 3.x installed.
 
@@ -73,7 +82,7 @@ The installation protocol assumes the following about your target instance (org)
 
 You need to run the installer on a computer with a recent version of Windows (Windows 10 preferred).
 
-You should plan for the computer to remain connected to a network, and for the installation to run for up to one hour. (Normally the installation takes around 30 minutes for **FPSMasterData**, which includes sample data for both applications.)
+You should plan for the computer to remain connected to a network, and for the installation to run for up to **1 hour** for **setup/reference data**. (Normally the installation takes around 30 minutes for **FPSMasterData**, which includes sample data for both applications.) For the **FPSDemoData**, the installation will take around **3 hours**.
 
 The computer should have the screen saver function turned off. Otherwise, session credentials for the installation may be lost when the screen saver engages (unless you keep your session active throughout).
 
@@ -88,7 +97,7 @@ After downloading a package, run the EXE file, and then accept terms and conditi
 
 Depending on the operating system and security settings, you may need to perform the following steps after unpacking the zip file:
 
-1. Find and right-click the **FPSDemoData.dll** file in the **v902FPSMasterData** folder.
+1. Find and right-click the **FPSDemoData.dll** file in the **v902FPSMasterData** / **PackageDeployer_FPSDemoData** folder.
 
 2. Choose **Unblock**.
 
@@ -99,6 +108,10 @@ Depending on the operating system and security settings, you may need to perform
 
 ## Create or configure users
 
+The **FPSDemoData** package requires 6 users while **FPSMasterData** packages require 1 user. 
+Please refer to correct one for your respective sample data package.
+
+## Create or configure users - setup/reference data packages
 The **FPSMasterData** package is designed to install with one user named Spencer Low with the settings described here. To install the package correctly, you need to create (or temporarily rename) users in your Dynamics 365 to match the incoming sample data configuration.
 
 To create or configure users, go to **Settings > Security > Users**, and do the following:
@@ -111,11 +124,41 @@ To create or configure users, go to **Settings > Security > Users**, and do the 
 
 4. If you aren't using Spencer Low with username **spencerl**, you need to update an additional file. Open the **DemoDataPreImportConfig.xml** file, and then find the **userstocreateandconfigure** tag. Update the **\<login\>** tag with the username of your Spencer Low user. For additional details, see the technical notes below.
 
+## Create or configure users - demo data package
+
+The demo data package requires 6 users. For the package to install correctly, please do the following:
+ **1.** Create or temporarily rename existing users to match incoming sample data configuration by going to **Settings > Security > Users**.
+ 
+ The roles below are only needed for persona based demos.
+ 
+  a. User Fullname="David So" as Field Service Technician
+  
+  b. User Fullname="Jamie Reding" Customer Service & Field Service Dispatcher
+  
+  c. User Fullname="Molly Clark" as Account Manager
+  
+  d. User Fullname="Spencer Low" Practice and Project Manager
+  
+  e. User Fullname="Veronica Quek" Team Member
+  
+  f. User Fullname="William Contoso"
+  
+**2.** For the purposes of demo data import, please assign the 6 users above the Administrator role for the purposes of import so sample records import correctly. 
+
+**3.** Open **PkgFolder**, find and open the **ImportUserMapFile.xml**. Update the **New=** fields to the email addresses of corresponding Users in your system
+
+> [!div class="mx-imgBorder"]
+> ![Screen shot of UserMapFile](media/sample-data-7.png)
+
+**4.** If your "Spencer Low" full name user has a different user id than **"spencerl"**, then you need to update an additional file. Open the **DemoDataPreImportConfig.xml**, find the **userstocreateandconfigure** tag. Update the **\<login\>** tag with the loginId (case-sensitive). 
+
+**5.** The first user's(in userstocreateandconfigure) calendar is used to populate the work hours for all bookable resources on import of demo data. Navigate to **Settings > Security > Users",** find your "Spencer Low" user and open the "Work Hours" option. Edit the existing work hours, selcting the "Entire recurring weekly schedule from start to end" option. Ensure the **Work hours are set to 8 AM - 5 PM(9 Hours), Monday to Friday and with the Timezone set to "Pacific Time (US & Canada)**. This is needed to ensure that the Project and Schedule board show as expected.
+
 **Recommendation:** Consider creating a backup of your org now, in case you need to revert to your starting point if something goes wrong during the sample data installation. For more information, see [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## Run the Package Deployer
 
-1. Find and run the **PackageDeployer.exe** in the **v902FPSMasterData** folder.
+1. Find and run the **PackageDeployer.exe** in the **v902FPSMasterData OR PackageDeployer_FPSDemoData** folder.
 
 2. Accept the terms and conditions.
 
