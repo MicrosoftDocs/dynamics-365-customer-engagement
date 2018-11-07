@@ -130,7 +130,7 @@ The demo data package requires 6 users. For the package to install correctly, pl
 
  **1.** Create or temporarily rename existing users to match incoming sample data configuration by going to **Settings > Security > Users**.
  
- The roles below are only needed for persona based demos. 
+ The roles below are only needed for persona based demos.  
   a. User Fullname="David So" as Field Service Technician   
   b. User Fullname="Jamie Reding" Customer Service & Field Service Dispatcher   
   c. User Fullname="Molly Clark" as Account Manager   
