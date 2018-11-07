@@ -43,7 +43,7 @@ search.app:
   
 - Install the most recent product updates for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
-- Meet [browser and system requirements](https://support.office.com/en-us/article/Yammer-admin-guide-a9c206d4-fb18-4250-bec6-e783b926e4f6).  
+- Meet [browser and system requirements](https://support.office.com/article/Yammer-admin-guide-a9c206d4-fb18-4250-bec6-e783b926e4f6).  
   
 ### Connect Dynamics 365 to Yammer  
   
