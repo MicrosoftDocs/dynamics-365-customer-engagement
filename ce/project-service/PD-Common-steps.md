@@ -37,27 +37,27 @@ Using the web interface, create a new solution from the Solutions page: Settings
 Your pricing dimension may be an option set or an entity. In either case, create them in your pricing solution. Let’s work with an example for this flow. In this walkthrough, we will create 3 pricing dimensions for a fictious company called Contoso:
 
 a. Entity-based dimension called “Standard Title” that has all the standard titles that Contoso uses.
+
 *Standard Title entity definition*
-> [!div class="mx-imgBorder"] 
 > ![Standard title entity definition](media/Standard Title-entity-definition.png)
 
 b. Option-set based dimension called “Resource Work Location” where Contoso would like to track the price of “Home” location work and “Onsite” work.
+
 *Resource Work Location definition*
-> [!div class="mx-imgBorder"] 
 > ![Option set based pricing dimension called Resource Work Hours ](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 
 c. Option-set based dimension called “Resource Work hours” with values “Regular” and “Overtime” where Contoso can apply a markup when work is done.
+
 *Resource Work Hours definition*
-> [!div class="mx-imgBorder"] 
 > ![Option set based pricing dimension called Resource Work Location ](media/Option-set-PD-called-Resource-Work-Location.png)
 
 
 **3. Create data for your entity-based dimensions:**
 This can be done manually or by using Excel import or service calls. For this walkthrough, we have used “Standard Title” as an entity-based dimension. Let’s create 2 standard titles: Systems Engineer and Senior Systems Engineer. If the data to create is small as in the example, you can use a standard form.
 
-*Sample Data for Standard Title entity *
-> [!div class="mx-imgBorder"] 
+*Sample Data for Standard Title entity*
+
 > ![Sample Data for Standard Title entity](media/ST-data.png)
 
 **4. Add all the required PSA entities and related components to the Pricing Dimension Solution**
