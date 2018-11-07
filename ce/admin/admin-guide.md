@@ -87,7 +87,7 @@ Implementers and administrators for [!INCLUDE[pn_microsoftcrm](../includes/pn-dy
 
 <h2> Product updates </h2>
 
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/" data-raw-source="[What&#39;s new in Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/)">What&#39;s new in Dynamics 365</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/get-started/whats-new/" data-raw-source="[What&#39;s new in Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/whats-new/)">What&#39;s new in Dynamics 365</a></li>
 <li><a href="release-history.md" data-raw-source="[Release history](release-history.md)">Release history</a></li>
 <li><a href="readme-9.md" data-raw-source="[Dynamics 365 Customer Engagement Readme](readme-9.md)">Dynamics 365 Customer Engagement Readme</a></li>
 </td>

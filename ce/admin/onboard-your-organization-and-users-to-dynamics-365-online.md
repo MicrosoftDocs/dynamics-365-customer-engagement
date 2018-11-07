@@ -185,7 +185,7 @@ For more advanced scenarios, consider the following development tools: [Solution
   
 <a name="Import"></a>   
 ### Import and export data  
- [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] provides an import tool for importing simple data stored in files. If the import tool doesn't satisfy your data import requirements, you may want to contact a partner. [Find a partner if you don’t have one.](https://partnercenter.microsoft.com/en-us/pcv/search)  
+ [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] provides an import tool for importing simple data stored in files. If the import tool doesn't satisfy your data import requirements, you may want to contact a partner. [Find a partner if you don’t have one.](https://partnercenter.microsoft.com/pcv/search)  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
