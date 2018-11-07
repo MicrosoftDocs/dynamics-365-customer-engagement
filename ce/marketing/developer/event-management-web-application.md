@@ -21,7 +21,7 @@ manager: kvivek
 The Dynamics 365 Event Management feature helps you to organize, manage and process the events. When you install the Event Management solution, you will get an **Event Portal** which gives the users a web application where they can get to know more about the event details. More information: [Event Portal](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/set-up-event-portal).
 
 The Event Management event portal consists of two parts:
-- Angular frontend
+- Frontend (e.g. Angular, Vanilla JS, ..)
 - REST API backend
 
 The frontend part is a single page application which is created using the [Angular](https://angular.io) framework. The frontend part of the web application is fully customizable. The backend and the customizability of the backend depend on the hosting type.
@@ -31,15 +31,16 @@ There are two hosting types for the event portal:
 - [Self-hosted](#self-hosted)
 
 > [!NOTE]
-> For extensive customization of the frontend you need to be familiar with the [Angular framework](https://angular.io/guide/quickstart).
+> For the provided demo event portal the [Angular framework](https://angular.io/guide/quickstart) is used. However, since the backend is not dependent of the frontend you can use whatever framework you would like to use.
 
 ## Prerequisites
-To get started with customizing the event portal you need to follow this steps:
+You either can build your own frontend or customize the provided demo event portal. 
+To get started with customizing the provided demo event portal you need to follow this steps:
 1. Install [Node](https://nodejs.org/en/download).
-1. Open Node cmd (or reopen if you have it opened) and run `Node -v` to check whether the installation is successful or not. More information: [Node](https://nodejs.org/en/about).
-1. Run the command `npm install -g @angular/cli` to install Angular command line interface (cli). This is required to build and run the angular app. More information: [Angular](https://angular.io).
-1. Download the [Source code](https://go.microsoft.com/fwlink/?linkid=2020107).
-1. Go to the directory where you have downloaded the source code and run the command `npm install` to fetch all the necessary packages that are required to run the website.
+2. Open Node cmd (or reopen if you have it opened) and run `Node -v` to check whether the installation is successful or not. More information: [Node](https://nodejs.org/en/about).
+3. Run the command `npm install -g @angular/cli` to install Angular command line interface (cli). This is required to build and run the angular app. More information: [Angular](https://angular.io).
+4. Download the [Source code](https://go.microsoft.com/fwlink/?linkid=2020107).
+5. Go to the directory where you have downloaded the source code and run the command `npm install` to fetch all the necessary packages that are required to run the website.
 
 ## Configuration
 All configuration for your custom event portal can be made by modifying the relating `environment.*.ts` files, which can be found in `\src\environments`. This directory contains configuration files for different environments (self hosted, portal hosted, development). You can find instructions on how to change the configuration in the related sections [Environment configuration for portal hosted](#environment-configuration-for-portal-hosted) and [Environment configuration for self hosted](#environment-configuration-for-self-hosted) 
@@ -114,7 +115,7 @@ In order to do so a few additional steps need to be done.
 
 ### Environment configuration for self hosted
 1. Open the `environment.selfhosted.ts` configuration file (located in `\src\environments`) for modification.
-2. Change the `apiEndpoint` variable to point to the URL from the `Endpoint` field in the newly created **Dynamics 365 Web Application**.
+2. Change the value of the `apiEndpoint` variable to the following endpoint: `{web-application-endpoint}/EvtMgmt/api/v1.0/` where `{web-application-endpoint}` needs to be replaced with value from the `Endpoint` field in the newly created **Dynamics 365 Web Application**.
 3. Make sure that the `useRestStack` variable is set to true.
 4. Change the `emApplicationtoken` variable to point to the URL from the `Token` field in the newly created **Dynamics 365 Web Application**. 
 5. If you want to use the [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis) you need to modify the `aadB2CConfig`. You can find detailed instructions on how to do so in section [Configure Azure Active Directory](#configuration-for-azure-active-directory).
