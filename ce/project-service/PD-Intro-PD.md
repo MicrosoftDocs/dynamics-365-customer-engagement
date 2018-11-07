@@ -1,6 +1,6 @@
 ---
-title: Setup pricing dimensions in Project Service (Dynamics 365 for Project Service) | MicrosoftDocs
-description: Introduction to setup of pricing dimensions in project service solution 
+title: Types of custom pricing dimensions in Project Service (Dynamics 365 for Project Service) | MicrosoftDocs
+description: Introducing the 2 cannonical types of pricing dimensions 
 author: Rumant
 manager: eichimur
 ms.custom:
