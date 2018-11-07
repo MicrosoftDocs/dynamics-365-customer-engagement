@@ -6,7 +6,7 @@
 #### [Identify your organization’s pricing dimension needs](PD-Identify-your-pricing-needs.md)
 #### [Default pricing dimensions in Project Service](PD-Default-pricing-dimensions-in-Project-Service.md)
 ### [Set up pricing dimensions for your organization](PD-Setup-PD.md)
-#### Using custom fields or entities as resource pricing dimensions
+#### [Using custom fields or entities as resource pricing dimensions](PD-Using-Custom-field-entities-as-PD.md)
 #### Use an existing PSA field as a pricing dimension
 ##### Bookable resource as a pricing dimension
 ##### Transaction category as a pricing dimension
