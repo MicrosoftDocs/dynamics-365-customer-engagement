@@ -19,7 +19,7 @@ search.app:
     - D365PS
 ---
 
-**8. Set up custom fields as pricing dimensions**
+# 8. Set up custom fields as pricing dimensions
 
 Navigate to Project Service->Settings->Parameters and open the Parameter page. Then open the tab “Amount-Based Pricing Dimensions.” The grid on the tab show the records in the Pricing Dimensions entity in Project Service.
 
@@ -50,21 +50,21 @@ Notice that Resource Work hours has been added as a Markup-based dimension and h
 
 **_Any change to pricing dimension data in this table, existing or newly created is propagated to the Project Service pricing business logic only after the cache is refreshed. The cache refresh time can be upto 10 minutes. So, allow that length of time to see the changes in price defaulting logic that must result from changes to the Pricing Dimension data._**
 
-**Understanding the attributes of the Pricing dimensions table**
+## Understanding the attributes of the Pricing dimensions table
 
-*Pricing Dimension Name:*
+### Pricing Dimension Name:
 
 This value should be the exact same as the schema name of the field added to the Role Price table for custom pricing dimensions. Adding fields to Role Price table was detailed in sections Option-set based custom pricing dimensions and Entity-based custom pricing dimensions.
 
-*Type of dimension:*
+### Type of dimension:
 
   There can be 2 types of pricing dimensions:
   
-   *Amount-based dimensions:* 
+   #### Amount-based dimensions
   
    These are dimensions where Project Service will match the dimension values from the input context to the dimension values on Role       Price line and default the price/cost directly from the Role Price table.
       
-   *Markup-based dimensions:*
+   #### Markup-based dimensions
   
    These are dimensions where Project Service will adopt a 3-step process to get the price/cost.
        1. Project Service will match the non-markup-based dimension values from the input context to the Role Price line to get the base rate.
@@ -89,13 +89,22 @@ This value should be the exact same as the schema name of the field added to the
 
 If a resource from Contoso India working onsite whose base rate is 100 USD, logs 8 hours of Regular time and 2 hours of overtime on the time entry, the Project Service pricing engine will use the base rate of 100 for the 8 hours to record 800 USD. For the 2 hours overtime, Project Service will apply a markup of 15% to the base rate of 100 to get a unit price of 115 USD and will record a total cost of 230 USD.
 
-Applicable to Cost: Setting this flag to Yes indicates to the Project Service’s engine that it must use this dimension value from the input context to match to the Role Price and Role Price markup when retrieving the cost and/or markup rates.
-Application to Sales: Setting this flag to Yes indicates to the Project Service’s engine that it must use this dimension value from the input context to match to the Role Price and Role Price markup when retrieving the bill rate or markup rates.
-August 2018 Pricing dimension setup for Dynamics 365 for Project Service 23
-Applicable to Purchase: Setting this flag to Yes indicates to the Project Service’s engine that it must use this dimension value from the input context to match to the Role Price and Role Price markup when retrieving the purchase price. Currently Project Service does not have support for Subcontracting scenarios, so this field is not used. Once there is support for subcontracted pricing scenarios, this field will be used.
-Priority
+### Applicable to Cost: 
+
+Setting this flag to Yes indicates to the Project Service’s engine that it must use this dimension value from the input context to match to the Role Price and Role Price markup when retrieving the cost and/or markup rates.
+
+### Application to Sales:
+
+Setting this flag to Yes indicates to the Project Service’s engine that it must use this dimension value from the input context to match to the Role Price and Role Price markup when retrieving the bill rate or markup rates.
+
+### Applicable to Purchase:
+Setting this flag to Yes indicates to the Project Service’s engine that it must use this dimension value from the input context to match to the Role Price and Role Price markup when retrieving the purchase price. Currently Project Service does not have support for Subcontracting scenarios, so this field is not used. Once there is support for subcontracted pricing scenarios, this field will be used.
+
+### Priority
 Setting the Priority of a dimension helps Project Service pricing engine produce a price even when it cannot find an exact match between the input dimension values and the values from the Role Price or Role Price Markup tables. In this scenario, Project Service will use null values for unmatched dimension values by giving weightage to the dimensions in order of their priority.
-Cost priority
+
+#### Cost priority
 The value of the cost priority of a dimension will indicate the weightage of that dimension when matching against the setup of cost prices. The value of Cost Priority must be unique across Dimensions that are “applicable to cost.”
-Sales priority
+
+#### Sales priority
 The value of the sales priority of a dimension will indicate the weightage of that dimension when matching against the setup of sales prices or bill rates. The value of Sales Priority must be unique across Dimensions that are “applicable to sales.”
