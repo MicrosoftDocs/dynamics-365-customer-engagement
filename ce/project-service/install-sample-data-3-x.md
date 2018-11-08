@@ -138,12 +138,12 @@ The demo data package requires six users. For the package to install correctly, 
  1. Create or temporarily rename existing users to match incoming sample data configuration by going to **Settings** > **Security** > **Users**.
  
     These roles are only needed for persona-based demos.  
-    1. User Fullname="David So" as Field Service Technician   
-    1. User Fullname="Jamie Reding" as Customer Service & Field Service Dispatcher   
-    1. User Fullname="Molly Clark" as Account Manager   
-    1. User Fullname="Spencer Low" as Practice and Project Manager  
-    1. User Fullname="Veronica Quek" as Team Member   
-    1. User Fullname="William Contoso"
+    - User Fullname="David So" as Field Service Technician   
+    - User Fullname="Jamie Reding" as Customer Service & Field Service Dispatcher   
+    - User Fullname="Molly Clark" as Account Manager   
+    - User Fullname="Spencer Low" as Practice and Project Manager  
+    - User Fullname="Veronica Quek" as Team Member   
+    - User Fullname="William Contoso"
   
 2. For the purposes of demo data import, assign the six users above the Administrator role so sample records import correctly. 
 
