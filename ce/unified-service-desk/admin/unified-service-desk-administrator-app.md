@@ -29,7 +29,13 @@ search.app:
 monikerRange: ">=dynamics-usd-4"
 ---
 
+::: moniker range="dynamics-usd-4"
 # Preview feature: Administer and manage Unified Service Desk using the Administrator app
+::: moniker-end
+
+::: moniker range="dynamics-usd-41"
+# Administer and manage Unified Service Desk using the Administrator app
+::: moniker-end
 
 ## Overview
 

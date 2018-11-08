@@ -71,13 +71,13 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 The Administrator app, built based on the Unified Interface framework has the same configurational capabilities as the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrator in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client. 
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Preview Feature: Unified Service Desk Administrator App](../admin/unified-service-desk-administrator-app.md)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Service Desk Administrator App](../admin/unified-service-desk-administrator-app.md)
 
 ### Unified Interface Settings
 
 Unified Interface Settings is a new configuration element introduced under the **Advanced Settings** in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app. Unified Interface Settings enables you as an administrator to configure the default Unified Interface App for your agents and transform the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in experience.
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Preview Feature: Unified Interface Settings](../admin/unified-interface-settings.md)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Interface Settings](../admin/unified-interface-settings.md)
 
 ### Show feedback window to agents
 A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to help an agent to provide feedback while closing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. Agents can provide feedback comments with the score and submit it to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. The comments are assessed and considered for improving the products and services.

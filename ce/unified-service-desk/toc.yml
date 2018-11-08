@@ -80,9 +80,9 @@
   items:
   - name: Support for Unified Interface Apps
     href: admin/Support-unified-interfaces-apps-usd.md
-  - name: Preview feature - Unified Service Desk Administrator app
+  - name: Unified Service Desk Administrator app
     href: admin/unified-service-desk-administrator-app.md
-  - name: Preview feature - Unified Interface Settings
+  - name: Unified Interface Settings
     href: admin/unified-interface-settings.md
   - name: Manage Options for Unified Service Desk
     href: admin/manage-options-unified-service-desk.md
