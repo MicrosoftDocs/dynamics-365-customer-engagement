@@ -24,7 +24,7 @@ search.app:
 ## Step 1. Create a pricing dimension solution
 As a first step, we will need to create a Solution for the Pricing dimensions. If you already have a pricing dimension solution, then you can make your changes in that solution. If you have not created a new Pricing Dimension solution for your Organization, follow all of the instructions in Create a solution for pricing dimension changes: and Add all the required PSA entities and related components to the Pricing Dimension Solution
 
-## Step 2. Add Bookable Resource to forms and views**
+## Step 2. Add Bookable Resource to forms and views
 
 The next step is to make these fields visible on the UI in Pricing dimension solution. For this, you will need to walkthrough all the forms and views of the key Project Service entities and add these fields to the forms and views of those entities.
 Below is the comprehensive list of the out-of-thebox forms and views by entity that will need to be updated with the new fields. -If you have any additional views or forms in your customizations on these entities, please add the new fields to those as well.
