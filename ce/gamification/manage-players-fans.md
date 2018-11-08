@@ -2,14 +2,13 @@
 title: "Import and manage players and fans in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to import players from your Azure Active Directory and how to assign them the appropriate security roles for the games."
 keywords: "gamification, player, fan, import, importing, azure active directory, user, license"
-ms.date: 05/03/2018
+ms.date: 08/11/2018
 ms.service: dynamics-365-sales
 ms.topic: article
 ms.assetid: 4df5e61b-0d7b-4cef-b741-14bed0637756
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-gamification
 search.audienceType: 
@@ -39,14 +38,9 @@ After users are imported, an administrator can [change the security role](unders
 
 ## Delete a user from Dynamics 365 - Gamification
 
-You can delete users from [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] once an admin has removed their [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] licenses in the connected organization. If the user is still active in your organization, you can't remove them in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] and need to remove their license first. 
+You can delete users from [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] by removing their [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] licenses in the connected organization. If the user is still active in your organization, you can't remove them in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] and need to remove their license first. 
 
-1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Users**.
-
-2. On the **Microsoft Dynamics 365 Users** page, search for the user you want to delete.
-
-3. Select the **Delete** symbol ![Delete user symbol](media/delete-symbol-gamification.png "Delete user symbol") and confirm the deletion.    
-   You can't undo this action. 
+For step-by-step instructions, see [Remove licenses from users in Office 365 ](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users)
 
 ### See also
 
