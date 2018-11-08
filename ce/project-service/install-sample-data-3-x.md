@@ -41,10 +41,6 @@ The latest **demo** data package is:
 
  - [**FPSDemoData** - Field Service 8.x and Project Service 3.x](https://aka.ms/fpsdemodatapackage)
 
-
-<!--from editor: I wasn't sure why the following was a bullet point. I removed the bullet but left it indented, in case it applies only to the demo package. If it applies to all of the packages, it should not be indented.-->
-
-
    Installation instructions differ slightly in the users to create and configure section but the rest is the same as in the previous [**blog post**](https://aka.ms/fpsdemodatablog). This package features a reduced demo data set and takes approximately 3 hours to install.
 
 These sample data packages are available in English only.
