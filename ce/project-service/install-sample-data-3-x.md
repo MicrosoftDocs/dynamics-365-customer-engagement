@@ -108,7 +108,7 @@ Depending on the operating system and security settings, you may need to perform
 ## Create or configure users
 
 The **FPSDemoData** package requires 6 users while **FPSMasterData** packages require 1 user. 
-Please refer to correct one for your respective sample data package.
+Refer to correct one for your sample data package.
 
 ## Create or configure users - setup/reference data packages
 The **FPSMasterData** package is designed to install with one user named Spencer Low with the settings described here. To install the package correctly, you need to create (or temporarily rename) users in your Dynamics 365 to match the incoming sample data configuration.
@@ -242,11 +242,11 @@ There are a number of other configuration components in this pre-import configur
 
 ### Fabrikam Robotics fictitious scenario
 
-The Field Service and Project Service sample reference data packages install the **Fabrikam Manufacturing Master Data (v3.0.0.0) solution**, along with approximately 4,000 records and approximately 40 different entities. The separate sample data packages for Field Service or Project Service contain a subset of the **v902FPSMasterData** sample data for that application. The **Demo Data** package installs the **Fabrikam Manufacturing Demo Data (v3.0.0.7) solution** with ~22k records across 148 entities.
+The Field Service and Project Service sample reference data packages install the **Fabrikam Manufacturing Master Data (v3.0.0.0) solution**, along with approximately 4,000 records and approximately 40 different entities. The separate sample data packages for Field Service or Project Service contain a subset of the **v902FPSMasterData** sample data for that application. The **Demo Data** package installs the **Fabrikam Manufacturing Demo Data (v3.0.0.7) solution** with approximately 22,000 records across 148 entities.
 
 The fictional company, Fabrikam Robotics, is a manufacturer of electronic device assembly line robots and is known for their product quality, innovation and solid customer service, including installation planning, implementation, and ongoing maintenance services. Fabrikam is headquartered in the United States (Fabrikam US), and has project-based service operations in France, India, the United Kingdom, and Switzerland.
 
-Field service operations are centered in the United State, mostly in the greater Seattle area. The company is focused on leveraging Internet of Things (IoT) connectivity to monitor customer asset performance and deliver increasingly proactive onsite services.
+Field service operations are centered in the United States, mostly in the greater Seattle area. The company is focused on leveraging Internet of Things (IoT) connectivity to monitor customer asset performance and deliver increasingly proactive onsite services.
 
 A high-level overview of the sample data is as follows:
 
@@ -284,7 +284,7 @@ A high-level overview of the sample data is as follows:
 
     - 9 incident types with a range of associated resource characteristics (9), services (13) and service tasks (13)
    
-The **Demo Data** package installs around 179 Work Orders, 12 Projects and associated transactional data. 
+The **Demo Data** package installs approximately 179 work orders, 12 projects, and associated transactional data. 
 
 ### Change the work hours for sample resources
 
