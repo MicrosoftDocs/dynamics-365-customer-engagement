@@ -93,18 +93,19 @@ If a resource from Contoso India working onsite whose base rate is 100 USD, logs
 
 Setting this flag to Yes indicates to the Project Service’s engine that it must use this dimension value from the input context to match to the Role Price and Role Price markup when retrieving the cost and/or markup rates.
 
-### Application to Sales:
+### Applicable to Sales:
 
 Setting this flag to Yes indicates to the Project Service’s engine that it must use this dimension value from the input context to match to the Role Price and Role Price markup when retrieving the bill rate or markup rates.
 
 ### Applicable to Purchase:
+
 Setting this flag to Yes indicates to the Project Service’s engine that it must use this dimension value from the input context to match to the Role Price and Role Price markup when retrieving the purchase price. Currently Project Service does not have support for Subcontracting scenarios, so this field is not used. Once there is support for subcontracted pricing scenarios, this field will be used.
 
 ### Priority
 Setting the Priority of a dimension helps Project Service pricing engine produce a price even when it cannot find an exact match between the input dimension values and the values from the Role Price or Role Price Markup tables. In this scenario, Project Service will use null values for unmatched dimension values by giving weightage to the dimensions in order of their priority.
 
-#### Cost priority
+  #### Cost priority
 The value of the cost priority of a dimension will indicate the weightage of that dimension when matching against the setup of cost prices. The value of Cost Priority must be unique across Dimensions that are “applicable to cost.”
 
-#### Sales priority
+  #### Sales priority
 The value of the sales priority of a dimension will indicate the weightage of that dimension when matching against the setup of sales prices or bill rates. The value of Sales Priority must be unique across Dimensions that are “applicable to sales.”
