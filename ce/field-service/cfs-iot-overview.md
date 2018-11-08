@@ -57,6 +57,6 @@ Connect Azure IoT Central to Connected Field Service using Microsoft Flow in jus
 - [Create a new application in Azure IoT Central - tutorial](https://docs.microsoft.com/azure/iot-central/quick-deploy-iot-central)
 
 ## Privacy details for Connected Field Service
-[!INCLUDEcc_privacy_crm_connected_field_service](../includes/cc_privacy_crm_connected_field_service.md)]
+[!INCLUDEcc_privacy_crm_connected_field_service](../includes/cc-privacy-crm-connected-field-service.md)]
 
 
