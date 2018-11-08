@@ -2,7 +2,7 @@
 title: "Design, preview, check, and send marketing emails (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to design and deliver marketing email messages in Dynamics 365 for Marketing"
 keywords: "email; marketing email; dynamic content; go live; validation; preview; Litmus"
-ms.date: 04/25/2018
+ms.date: 11/16/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -138,10 +138,10 @@ In addition to the message description and plain-text version, the **Summary** t
 
 The following **Advanced Header** settings are available:
 
-* **Email from name**: This is the name shown to recipients as the person who sent the email. By default, this is the name of the **From** contact chosen at the top of the form. You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
-* **Email from address**: This is the email address shown to recipients as the address of the person who sent the email. By default, this is the address of the **From** contact chosen at the top of the form. You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
-* **To**: This should almost always be set to **{{ contact.emailaddress1 }}**, which sends the message to each contact included in the customer journey that sends the email. You might change this to use a different email address field (such as emailaddress2), or enter a dynamic expression that chooses the best of several available email fields.
-* **Reply-to email**: This should usually be blank, which means that replies to the message will be sent to the address of the **From** contact (or the **Email from address**, if it's different). If you set a value here, replies to your message will be sent to this address rather than the displayed from address. You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
+- **Email from name**: This is the name shown to recipients as the person who sent the email. By default, this is the name of the **From** contact chosen at the top of the form (which is initially set to the user who created the message). You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
+- **Email from address**: This is the email address shown to recipients as the address of the person who sent the email. By default, this is the address of the **From** contact chosen at the top of the form (which is initially set to the user who created the message). You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
+- **To**: This should almost always be set to **{{ contact.emailaddress1 }}**, which sends the message to each contact included in the customer journey that sends the email. You might change this to use a different email address field (such as emailaddress2), or enter a dynamic expression that chooses the best of several available email fields.
+- **Reply-to email**: This should usually be blank, which means that replies to the message will be sent to the address of the **From** contact (or the **Email from address**, if it's different). If you set a value here, replies to your message will be sent to this address rather than the displayed from address. You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
 
 <a name="designation"></a>
 
