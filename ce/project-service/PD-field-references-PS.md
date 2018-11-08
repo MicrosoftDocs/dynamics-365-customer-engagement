@@ -26,7 +26,7 @@ Assuming you have completed the common steps 1 to 4 and created your pricing dim
 
 Once custom fields and entities have been created, the next step is to make Project Service price setup and business transactional entities aware of your custom entities or option sets by creating reference fields. Depending on whether your pricing dimensions list includes option set dimensions or entity dimensions or both, follow only the steps in Option set custom pricing dimensions OR only Entity-based custom pricing dimensions, OR follow both.
 
-a. Option-set based custom pricing dimensions
+**a. Option-set based custom pricing dimensions:**
 
 In the scenario where a custom pricing dimension is an option-set, you will simply be adding it as a field to key Project Service entities. In our example scenario, Resource Work Location and Resource Work Hours are option-set based pricing dimensions. We will first need to add these as fields to the Project Service Pricing entities: Role Price and Role Price Markup entities.
 
@@ -50,15 +50,33 @@ Taking the scenario through to Delivery and Invoicing phases, we need to price t
 
 This completes the schema changes required for Option-set based custom dimensions
 
-b. Entity-based custom pricing dimensions
+**b. Entity-based custom pricing dimensions**
+
 In the scenario where the custom pricing dimension is an entity, you will be adding 1:N relationships between the dimension entity and key Project Service entities. In our example, it is reasonable to expect that Contoso assigns a standard title to each of its employees. So we will need a 1:N relationship from Standard Title to Bookable Resource.
+
+*Standard Title to Bookable Resource*
+> ![Adding Standard Title as a reference field to Bookable Resource](media/ST-BR.png)
+
 As the next step, Standard Title will also need to be added to Project Service Pricing entities: Role Price and Role Price Markup entities. This will also be done using 1:N relationships between Standard Title entities and the Role Price entity and Standard Title and Role Price Markup entities.
 And to extend the example scenario, to the sales and estimation phases, we will need to estimate work effort required for each standard title to price the Quote/Project. So we will need 1:N relationships from Standard Title to each of these estimation entities in Project Service: Quote line Detail, Project Contract Line Detail, Project Team Member, and Estimate Line
 
+
+*Standard Title to Estimate Line*
+> ![Adding Standard Title as a reference field to Estimate Line](media/ST-Estimate-Line.png)
+
+
 Continuing the scenario through to Delivery and Invoicing phases, we will need to price the work done by each standard title accurately on the Project Actuals, so we will need 1:N relationships from Standard Title to Time Entry, Project Approval, Actual, Invoice Line Detail, and Journal Line entities.
+
+*Standard Title to Time Entry*
+> ![Adding Standard Title as a reference field to Time Entry](media/ST-Mapping.png)
 
 6. Setup Dimension value defaulting using the mappings features of the platform:
 In the context of Time Entry, it would be great to have the system default the standard title on the Time Entry from the Bookable Resource that is recording the time entry, so we will also add field mappings on the 1:N relationship from Bookable Resource to Time Entry.
+
+*Standard Title on Bookable Rsource to Standard Title on Time Entry - Field Mappings for defaulting*
+> ![Setup field mappings to allow defaulting of Standard Title from Bookable Resource to Time Entry](media/ST-Mapping2.png)
+
+
 This completes the schema changes required for Entity-based custom dimensions
 
 7. Add custom fields to forms and views
