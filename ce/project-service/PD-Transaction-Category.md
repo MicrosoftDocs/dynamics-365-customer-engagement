@@ -41,6 +41,6 @@ Below is the comprehensive list of the out-of-the box forms and views by entity 
 |8. Invoice Line Detail|• Information<br>• Quick create|• Active Invoice Line Details<br>• Chargeable Invoice Transactions<br>• Complimentary Invoice Transactions<br>• Invoice Line Detail associated view<br>• Non-Chargeable Invoice Transactions|
 |9. Actual|• Information<br>• Active Actuals|• Actual Associated view|
 
-**Set up transaction category as a pricing dimension**
+**3. Set up transaction category as a pricing dimension**
 
 Navigate to Project Service->Settings->Parameters and open the Parameter page. Then open the tab “Amount-Based Pricing Dimensions.” The grid on the tab shows the records in the Pricing Dimensions entity in Project Service. Add Transaction Category to this list of Pricing Dimensions with applicable to cost and applicable to sale set to “Yes”. Dimension Type should be “amount-based”. Decide the priority for Transaction Category in the cost and sales context.
