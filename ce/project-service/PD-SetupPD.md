@@ -42,12 +42,12 @@ For a field to become a pricing dimension, it should be
 Because the section Add custom pricing dimension fields to price setup and transactional entities already covered adding the fields to Role Price entity, we only need to add rows into the pricing dimensions table. For our example, we will add pricing dimension rows as follows:
 
 *Amount - based Pricing Dimension Rows*
-> ![Amount - based Pricing Dimension Rows](media/Amt-based-PD.png)
+![Amount - based Pricing Dimension Rows](media/Amt-based-PD.png)
 
 Notice that Resource Work hours has been added as a Markup-based dimension and hence shows up in the tab for Markup based dimension.
 
 *Markup - based Pricing Dimension Rows*
-> ![Markup - based Pricing Dimension Rows](media/Markup-based-PD.png)
+![Markup - based Pricing Dimension Rows](media/Markup-based-PD.png)
 
 
 >**_Any change to pricing dimensions, existing or newly created is propagated to the Project Service pricing business logic only after the cache is refreshed. The cache refresh time can be upto 10 minutes. So, allow that length of time to see the changes in price defaulting logic that must result from changes to the Pricing Dimension data._**
