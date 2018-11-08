@@ -19,17 +19,15 @@ search.app:
     - D365PS
 ---
 
-
 **8. Set up custom fields as pricing dimensions**
 
 Navigate to Project Service->Settings->Parameters and open the Parameter page. Then open the tab “Amount-Based Pricing Dimensions.” The grid on the tab show the records in the Pricing Dimensions entity in Project Service.
 
 By default, Project Service installation creates 2 rows in the grid on this tab:
 
-• Msdyn_resourcecategory (Role)
-
-• Msdyn_OrganizationalUnit (Organizational Unit)
-
+  •   Msdyn_resourcecategory (Role)
+  
+  •   Msdyn_OrganizationalUnit (Organizational Unit)
 
 These two rows in the pricing dimension table should not be deleted; however, if you do not need them, you can make them not applicable in a specific context by setting “Applicable to Cost”=No, “Applicable to Sales” = No, “Applicable to Purchase” = No. Setting these attribute values to “No” for a pricing dimension has the same effect of not having this field as a pricing dimensions.
 
@@ -39,7 +37,7 @@ For a field to become a pricing dimension, it should be
 
 2. Created as a row in the Pricing Dimension table
 
-Because the section Add custom pricing dimension fields to price setup and transactional entities already covered adding the fields to Role Price entity, we only need to add rows into the pricing dimensions table. For our example, we will add pricing dimension rows as follows:
+For our example, we will add pricing dimension rows as follows:
 
 *Amount - based Pricing Dimension Rows*
 ![Amount - based Pricing Dimension Rows](media/Amt-based-PD.png)
@@ -50,9 +48,9 @@ Notice that Resource Work hours has been added as a Markup-based dimension and h
 ![Markup - based Pricing Dimension Rows](media/Markup-based-PD.png)
 
 
->**_Any change to pricing dimensions, existing or newly created is propagated to the Project Service pricing business logic only after the cache is refreshed. The cache refresh time can be upto 10 minutes. So, allow that length of time to see the changes in price defaulting logic that must result from changes to the Pricing Dimension data._**
+>**_Any change to pricing dimension data in this table, existing or newly created is propagated to the Project Service pricing business logic only after the cache is refreshed. The cache refresh time can be upto 10 minutes. So, allow that length of time to see the changes in price defaulting logic that must result from changes to the Pricing Dimension data._**
 
-**Attributes of the Pricing dimensions table**
+**Understanding the attributes of the Pricing dimensions table**
 
 *Pricing Dimension Name:*
 This value should be the exact same as the schema name of the field added to the Role Price table for custom pricing dimensions. Adding fields to Role Price table was detailed in sections Option-set based custom pricing dimensions and Entity-based custom pricing dimensions.
@@ -61,17 +59,18 @@ This value should be the exact same as the schema name of the field added to the
 
   There can be 2 types of pricing dimensions:
   
-  **Amount-based dimensions:** 
+    **Amount-based dimensions:** 
   
-  These are dimensions where Project Service will match the dimension values from the input context to the dimension values on Role       Price line and default the price/cost directly from the Role Price table.
+    These are dimensions where Project Service will match the dimension values from the input context to the dimension values on Role       Price line and default the price/cost directly from the Role Price table.
       
-   **Markup-based dimensions:**
+    **Markup-based dimensions:**
   
-   These are dimensions where Project Service will adopt a 3-step process to get the price/cost.
-   1. Project Service will match the non-markup-based dimension values from the input context to the Role Price line to get the base rate.
-   2. Project Service will match ALL dimension values from the input context to the Role Price Markup line to get a markup %.
-   3. Project Service will then apply the markup % from the second step to the base rate obtained from the Role price table in the first step to arrive at final price/cost.
-      Let’s look at a simple example to illustrate the calculation of price markups.
+      These are dimensions where Project Service will adopt a 3-step process to get the price/cost.
+        1. Project Service will match the non-markup-based dimension values from the input context to the Role Price line to get the base rate.
+        2. Project Service will match ALL dimension values from the input context to the Role Price Markup line to get a markup %.
+        3. Project Service will then apply the markup % from the second step to the base rate obtained from the Role price table in the first step to arrive at final price/cost.
+   
+   Let’s look at a simple example to illustrate the calculation of price markups.
       ROLE
       ORG UNIT
       WORK LOCATION
