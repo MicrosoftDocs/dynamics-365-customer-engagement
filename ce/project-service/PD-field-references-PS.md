@@ -82,3 +82,17 @@ This completes the schema changes required for Entity-based custom dimensions
 7. Add custom fields to forms and views
 Once you have made all the required schema changes, the next step is to make these fields visible on the UI. For this, you will need to walkthrough the relevant forms and views of these entities and add these fields to the forms and views.
 Below is the comprehensive list of the out-of-the-box forms and views by entity that will need to be updated with the new fields. If you have any additional views or forms in your customizations on these entities, please add the new fields to those as well.
+
+| Project Service Entity        | Forms that need the new field   |Views that nee the new field      |
+| ------------------------------|---------------------------------|----------------------------------|
+|1. Role Price|• Information |• Active Resource Category Prices<br> • Resource Category Price Associated View|
+|2. Role Price Markup|• Information|• Active Role Price Markup<br>• Role Price Markup Associated View|
+|3. Quote line detail|• Project Information<br>• Project Quick Create|• Active Quote Line Detail<br>• Combined Quote Line Details<br>• Quote Line Detail associated view|
+|4. Project Contract line detail|• Project Information<br>• Project Quick Create|• Combined Invoice line Details<br>• Active Invoice Line Details<br>• Invoice Line Detail associated view|
+|5. Project Team Member|• Information<br>• New Form|• Active Project Team Members<br>• Project Team Members<br>• Project Team members associated View|
+|6. Time Entry|• Information<br>• Create Time Entry|• My Time Entries By Date<br>• My time Entries for this week<br>• Time entries for approval|
+|7. Journal Line|• Information<br>• Quick create|• Active journal lines<br>• Journal Line associated view|
+|8. Invoice Line Detail|• Information<br>• Quick create|• Active Invoice Line Details<br>• Chargeable Invoice Transactions<br>• Complimentary Invoice Transactions<br>• Invoice Line Detail associated view<br>• Non-Chargeable Invoice Transactions|
+|9. Actual|• Information<br>• Active Actuals|• Actual Associated view|
+
+
