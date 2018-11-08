@@ -48,7 +48,7 @@ Notice that Resource Work hours has been added as a Markup-based dimension and h
 ![Markup - based Pricing Dimension Rows](media/Markup-based-PD.png)
 
 
-`**_Any change to pricing dimension data in this table, existing or newly created is propagated to the Project Service pricing business logic only after the cache is refreshed. The cache refresh time can be upto 10 minutes. So, allow that length of time to see the changes in price defaulting logic that must result from changes to the Pricing Dimension data._**`
+>>**_Any change to pricing dimension data in this table, existing or newly created is propagated to the Project Service pricing business logic only after the cache is refreshed. The cache refresh time can be upto 10 minutes. So, allow that length of time to see the changes in price defaulting logic that must result from changes to the Pricing Dimension data._**
 
 ## Understanding the attributes of the Pricing dimensions table
 
