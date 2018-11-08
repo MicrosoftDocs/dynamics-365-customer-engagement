@@ -41,6 +41,15 @@ You can delete users from [!INCLUDE[pn_gamification](../includes/pn-gamification
 
 For step-by-step instructions, see [Delete a user from your organization](https://docs.microsoft.com/office365/admin/add-users/delete-a-user)
 
+### Remove a deleted user from Gamification
+
+1. In **Gamification**, go to **Users**.
+
+2. On the **Microsoft Dynamics 365 Users** page, search for the user you want to delete.
+
+3. Select the Delete symbol ![Delete user symbol](media/delete-symbol-gamification.png) and confirm the deletion.
+You can't undo this action.
+
 ### See also
 
  [Overview for commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
