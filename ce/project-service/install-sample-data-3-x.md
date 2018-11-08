@@ -23,12 +23,11 @@ search.app:
 
 # Sample data installation for the Project Service application
 
-To help you build your own demo environments, Microsoft provides downloadable sample data packages that showcase the capabilities of Dynamics 365 for Project Service and Dynamics 365 for Field Service. The sample data packages come in 2 categories:
+To help you build your own demo environments, Microsoft provides downloadable sample data packages that showcase the capabilities of Dynamics 365 for Project Service and Dynamics 365 for Field Service. There are two types of sample data packages:
+- reference/setup data
+- demo data (reference/setup and transactional data such as work orders and projects)
 
-1) reference/setup data
-2) demo data (reference/setup + transactional data such as Work Orders and Projects)
-
-The sample **reference** data packages are installable in three separate packages, so you can install data only for Project Service, or only for Field Service, or you can install sample data for both applications at once.
+The sample **reference** data packages are downloadable in three different packages, so you can install data only for Project Service, or only for Field Service, or you can install sample data for both applications at once.
 
 The sample setup/reference data packages are:
 
@@ -52,9 +51,9 @@ When you install any of the sample data packages, the installation process perfo
 
 - Imports sample data for the applications, such as bookable resources, application-specific roles, sales and cost price lists, organizational units, sales process records, and other entities to demonstrate key capabilities.  
 
-With the **demo data** package, you get the above and additional transactional data such as Work Orders and Projects.
+With the **demo data** package, you get the above and additional transactional data such as work orders and projects.
 
-Wondering what capabilities you can demo with the sample data? See the Fabrikam Robotics fictitious scenario below, under Technical notes.
+Wondering what capabilities you can demo with the sample data? See the Fabrikam Robotics fictitious scenario in [Technical notes](#technical-notes).
 
 If you have questions about installing these sample data packages, [send us an email at fpsdemodata@microsoft.com](mailto:fpsdemodata@microsoft.com).
 
@@ -93,7 +92,7 @@ The computer should have the screen saver function turned off. Otherwise, sessio
 
 The Project Service and Field Service sample data installer is distributed as a self-extracting executable. The file names may vary depending on the sample data package, but otherwise the steps are the same no matter which package you install.
 
-After downloading a package, run the EXE file, and then accept terms and conditions to unpack the compressed zip file. You then need to extract contents of that file to a folder on the computer.
+After downloading a package, run the .EXE file, and then accept terms and conditions to unpack the compressed zip file. You then need to extract contents of that file to a folder on the computer.
 
 Depending on the operating system and security settings, you may need to perform the following steps after unpacking the zip file:
 
@@ -122,15 +121,15 @@ To create or configure users, go to **Settings > Security > Users**, and do the 
 
 3. From the downloaded package, you need to update a data mapping file with email addresses of the default user context. To do this, open **PkgFolder**, and then find and open the **ImportUserMapFile.xml** file in Notepad (or Visual Studio or another XML editor). Set the **DefaultUserToMapTo=** field to the email address of the Spencer Low user.
 
-4. If you aren't using Spencer Low with username **spencerl**, you need to update an additional file. Open the **DemoDataPreImportConfig.xml** file, and then find the **userstocreateandconfigure** tag. Update the **\<login\>** tag with the username of your Spencer Low user. For additional details, see the technical notes below.
+4. If you aren't using Spencer Low with username **spencerl**, you need to update an additional file. Open the **DemoDataPreImportConfig.xml** file, and then find the **userstocreateandconfigure** tag. Update the **\<login\>** tag with the username of your Spencer Low user. For additional details, see [Technical notes](#technical-notes).
 
 ## Create or configure users - demo data package
 
-The demo data package requires 6 users. For the package to install correctly, please do the following:
+The demo data package requires six users. For the package to install correctly, do the following:
 
  **1.** Create or temporarily rename existing users to match incoming sample data configuration by going to **Settings > Security > Users**.
  
- The roles below are only needed for persona based demos.  
+ These roles are only needed for persona based demos.  
   a. User Fullname="David So" as Field Service Technician   
   b. User Fullname="Jamie Reding" Customer Service & Field Service Dispatcher   
   c. User Fullname="Molly Clark" as Account Manager   
