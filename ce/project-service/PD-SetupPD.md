@@ -60,14 +60,14 @@ This value should be the exact same as the schema name of the field added to the
 
   There can be 2 types of pricing dimensions:
   
-    **Amount-based dimensions:** 
+   *Amount-based dimensions:* 
   
-    These are dimensions where Project Service will match the dimension values from the input context to the dimension values on Role       Price line and default the price/cost directly from the Role Price table.
+   These are dimensions where Project Service will match the dimension values from the input context to the dimension values on Role       Price line and default the price/cost directly from the Role Price table.
       
-    **Markup-based dimensions:**
+   *Markup-based dimensions:*
   
-      These are dimensions where Project Service will adopt a 3-step process to get the price/cost.
-        1. Project Service will match the non-markup-based dimension values from the input context to the Role Price line to get the base rate.
+   These are dimensions where Project Service will adopt a 3-step process to get the price/cost.
+       1. Project Service will match the non-markup-based dimension values from the input context to the Role Price line to get the base rate.
         2. Project Service will match ALL dimension values from the input context to the Role Price Markup line to get a markup %.
         3. Project Service will then apply the markup % from the second step to the base rate obtained from the Role price table in the first step to arrive at final price/cost.
    
