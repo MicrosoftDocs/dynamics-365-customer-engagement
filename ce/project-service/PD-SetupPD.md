@@ -31,10 +31,8 @@ By default, Project Service installation creates 2 rows in the grid on this tab:
 
 These two rows in the pricing dimension table should not be deleted; however, if you do not need them, you can make them not applicable in a specific context by setting “Applicable to Cost”=No, “Applicable to Sales” = No, “Applicable to Purchase” = No. Setting these attribute values to “No” for a pricing dimension has the same effect of not having this field as a pricing dimensions.
 
-For a field to become a pricing dimension, it should be 
-
+For a field to become a pricing dimension, it should be
 1. Created as a field in the Role Price AND Role Price markup entities (as shown in Add custom pricing dimension fields to price setup and transactional entities)
-
 2. Created as a row in the Pricing Dimension table
 
 For our example, we will add pricing dimension rows as follows:
@@ -48,7 +46,8 @@ Notice that Resource Work hours has been added as a Markup-based dimension and h
 ![Markup - based Pricing Dimension Rows](media/Markup-based-PD.png)
 
 
-<font color=red> Any change to pricing dimension data in this table, existing or newly created is propagated to the Project Service pricing business logic only after the cache is refreshed. The cache refresh time can be upto 10 minutes. So, allow that length of time to see the changes in price defaulting logic that must result from changes to the Pricing Dimension data.</font>
+**_Any change to pricing dimension data in this table, existing or newly created is propagated to the Project Service pricing business logic only after the cache is refreshed. The cache refresh time can be upto 10 minutes. So, allow that length of time to see the changes in price defaulting logic that must result from changes to the Pricing Dimension data._**
+
 
 ## Understanding the attributes of the Pricing dimensions table
 
