@@ -35,7 +35,7 @@ The default registration form presented by the event website includes fields for
 
 Go to the **Custom registration fields** page to view and create all the custom registration fields that are available for use with your various events. You'll be able to choose which of these to include for each of your events. To set up your custom fields:
 
-1. Go to **Events** > **Event** > **Custom registration fields**.
+1. [Open the Events work area](open-events.md) and go to **Events** > **Event** > **Custom registration fields**.
 
 2. A list of your current custom fields is shown. Select **New** from the command bar to add a new field or select any listed field to edit that field.  
     ![Example custom registration field setup](media/event-reg-field-setup.png "Example custom registration field setup")

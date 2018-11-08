@@ -49,7 +49,7 @@ When new space becomes available, the waitlist reacts as follows:
 
 To enable or disable the waitlist for any event:
 
-1. Go to the events list (**Events** > **Event** > **Events**), and then open or create an event.
+1. [Open the Events work area](open-events.md), go to the events list (**Events** > **Event** > **Events**), and then open or create an event.
 
 1. Open the **General** tab and find the **Venue constraints** area.
 
@@ -67,7 +67,7 @@ To enable or disable the waitlist for any event:
 
 To see who is currently on the waitlist for any event:
 
-1. Go to the events list (**Events** > **Event** > **Events**), and then open or create an event.
+1. [Open the Events work area](open-events.md), go to the events list (**Events** > **Event** > **Events**), and then open or create an event.
 
 1. Open the **Registration and attendance** tab and scroll down to the **Waitlist** section. (Note that the **Waitlist** section is only shown for events where the waitlist is enabled.)  
 
@@ -95,7 +95,7 @@ Talk to your system administrator to make sure the waitlisted entity is being sy
 
 To create a segment that finds contacts who _are not_ using automatic registration, but who should now be invited to register, do the following:
 
-1. Go to the events list ( **Events** > **Event** > **Events** ), and then open your event.
+1. [Open the Events work area](open-events.md), go to the events list ( **Events** > **Event** > **Events** ), and then open your event.
 
 1. Check the address bar in your browser, which should show a URL such as:  
 

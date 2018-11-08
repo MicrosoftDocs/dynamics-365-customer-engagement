@@ -101,6 +101,7 @@
 
 ### Work with customer journeys
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
+#### [Create and manage customer journey templates](journey-templates.md)
 #### [Create an inbound customer journey](create-inbound-customer-journey.md)
 #### [Customer journey tiles reference](customer-journey-tiles-reference.md)
 
@@ -113,8 +114,8 @@
 #### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
 
 ### Event planning and management
-#### [Open the event management work area](open-events.md)
 #### [Event management overview](event-management.md)
+#### [Open the event management work area](open-events.md)
 #### [Set up an event](set-up-event.md)
 #### [Set up and manage an event waitlist](event-waitlist.md)
 #### [Create and manage recurring events](event-recurring.md)

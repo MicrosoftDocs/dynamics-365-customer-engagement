@@ -2,7 +2,7 @@
 title: "Evaluate your event and follow up with attendees (Dynamics 365 for Marketing) | Microsoft Docs  "
 description: "Learn what you can do to optimize the benefits gained from your event by collecting feedback, analyzing attendance data, and handing leads off to sales from Dynamics 365 for Marketing"
 keywords: "events; event management; survey; attendance"
-ms.date: 04/01/2018
+ms.date: 11/16/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -57,7 +57,7 @@ Event and session attendance records are available for all contacts. This inform
 By the time your event is finished, you'll have generated a wealth of new data in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], and the system is well-equipped to help you analyze that data by using detailed analytics. Here are a few places where you can look for event analytics:
 
 - **The event management dashboard**: This dashboard gives a broad overview of your event planning activities and results from all your events. You can view it by choosing **Event Management Dashboard** from the view selector at the top of any dashboard page in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [The event management dashboard](event-management-dashboard.md)
-- **Event records**: Go to **Events** &gt; **Event** &gt; **Events** and open the main event record for your event to see results and analytics that relate to that event only. These offer much more detail than the dashboard does about many aspects of the event.
+- **Event records**: [Open the Events work area](open-events.md), go to **Events** > **Event** > **Events**, and open the main event record for your event to see results and analytics that relate to that event only. These offer much more detail than the dashboard does about many aspects of the event.
 
 ### See also
 

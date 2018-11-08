@@ -2,7 +2,7 @@
 title: "Marketing to accounts (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Create account-based leads, lead scoring, and customer journeys in Dynamics 365 for Marketing."
 keywords: "account-based marketing; lead scoring; customer journey; email; insights"
-ms.date: 10/16/2018
+ms.date: 11/16/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -138,6 +138,8 @@ Another helpful expression is the following, which places the record ID for the 
 Unlike the account name, the record ID is always unique and will never change for any given record.
 
 For more information about dynamic content and handlebars expressions, see [Add dynamic content to email messages](dynamic-email-content.md).
+
+<a name="abm-journeys"></a>
 
 ## Account-based customer journeys
 

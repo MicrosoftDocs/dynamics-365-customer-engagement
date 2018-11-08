@@ -106,7 +106,7 @@ Here's how to configure each of the options that's described as optional in this
 
 To find the URL for your sample event website and open it:
 
-1. Open the relevant event record.
+1. Open the relevant [event record](set-up-event.md).
 1. Make sure the **Publish status** is set to **Published**.
 1. Open the **General** tab and find the **Key information** section.
 1. The **Event URL** field here shows the address of the website for this event. This URL is provided automatically if you're using the event website that was installed together with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but if you're hosting the site somewhere else, you (or another user) must mark the **Custom event URL** check box and specify this value as required. Select the globe button at the edge of this field to open the URL.
