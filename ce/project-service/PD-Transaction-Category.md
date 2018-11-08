@@ -23,6 +23,7 @@ search.app:
 **1. Create a pricing dimension solution:**
 
 As a first step, we will need to create a Solution for the Pricing dimensions. If you already have a pricing dimension solution, then you can make your changes in that solution. If you have not created a new Pricing Dimension solution for your Organization, follow all of the instructions in Create a solution for pricing dimension changes: and Add all the required PSA entities and related components to the Pricing Dimension Solution
+
 **2. Add Transaction Category to forms and views**
 
 The next step is to make Transaction Category visible on the UI in Pricing dimension solution. For this, you will need to walkthrough all the forms and views of the key Project Service entities and add these fields to the forms and views of those entities.
