@@ -1,7 +1,7 @@
 ---
 title: "Add ready-to-use business processes (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 11/08/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -12,9 +12,9 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: e9810459-224b-4bde-851a-e581cf5fb8a4
 caps.latest.revision: 21
-author: "rdubois"
-ms.author: "rdubois"
-manager: "brycho"
+author: "mattpe123"
+ms.author: "matp"
+manager: "kvivek"
 search.audienceType: 
   - customizer
 search.app: 

@@ -1,8 +1,8 @@
 ---
-title: "Change custom entity icons in PowerApps | MicrosoftDocs"
+title: "Change custom entity icons in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 definition: "Learn how to change the icon for a custom entity"
 ms.custom: ""
-ms.date: 04/02/2018
+ms.date: 11/08/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,8 +11,7 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+ author: "Mattp123"
 ms.assetid: 477f9792-8207-49ef-8968-45274b5355a8
 caps.latest.revision: 19
 ms.author: "matp"
