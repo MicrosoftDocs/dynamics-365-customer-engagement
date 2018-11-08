@@ -49,14 +49,14 @@ Notice that Resource Work hours has been added as a Markup-based dimension and h
 > ![Markup - based Pricing Dimension Rows](media/Markup-based-PD.png)
 
 
-**Any change to pricing dimensions, existing or newly created is propagated to the Project Service pricing business logic only after the cache is refreshed. The cache refresh time can be upto 10 minutes. So, allow that length of time to see the changes in price defaulting logic that must result from changes to the Pricing Dimension data.**
+`Any change to pricing dimensions, existing or newly created is propagated to the Project Service pricing business logic only after the cache is refreshed. The cache refresh time can be upto 10 minutes. So, allow that length of time to see the changes in price defaulting logic that must result from changes to the Pricing Dimension data.`
 
-It will be useful at this point to understand the attributes of the Pricing dimensions table.
+**Attributes of the Pricing dimensions table**
 
-**Pricing Dimension Name:**
+*Pricing Dimension Name:*
 This value should be the exact same as the schema name of the field added to the Role Price table for custom pricing dimensions. Adding fields to Role Price table was detailed in sections Option-set based custom pricing dimensions and Entity-based custom pricing dimensions.
 
-**Type of dimension:**
+*Type of dimension:*
 
   There can be 2 types of pricing dimensions:
   
@@ -64,7 +64,7 @@ This value should be the exact same as the schema name of the field added to the
   
   These are dimensions where Project Service will match the dimension values from the input context to the dimension values on Role       Price line and default the price/cost directly from the Role Price table.
       
-  **Markup-based dimensions:**
+   **Markup-based dimensions:**
   
    These are dimensions where Project Service will adopt a 3-step process to get the price/cost.
    1. Project Service will match the non-markup-based dimension values from the input context to the Role Price line to get the base rate.
