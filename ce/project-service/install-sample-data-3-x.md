@@ -91,10 +91,10 @@ You need to run the installer on a computer with a recent version of Windows (Wi
 
 You should plan for the computer to remain connected to a network, and for the installation to run for up to **1 hour** for **setup/reference data**. (Normally the installation takes around 30 minutes for **FPSMasterData**, which includes sample data for both applications.) For the **FPSDemoData**, the installation will take around **3 hours**.
 
-The computer should have the screensaver function turned off. Otherwise, session credentials for the installation may be lost when the screensaver engages (unless you keep your session active throughout).
+The computer should have the screen saver function turned off. Otherwise, session credentials for the installation may be lost when the screen saver engages (unless you keep your session active throughout).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of screensaver settings, with screensaver turned off](media/sample-data-1.png)
+> ![Screenshot of screen saver settings, with screen saver turned off](media/sample-data-1.png)
 
 ## Download and unpack
 
@@ -138,12 +138,12 @@ The demo data package requires six users. For the package to install correctly, 
  1. Create or temporarily rename existing users to match incoming sample data configuration by going to **Settings** > **Security** > **Users**.
  
     These roles are only needed for persona-based demos.  
-    a. User Fullname="David So" as Field Service Technician   
-    b. User Fullname="Jamie Reding" as Customer Service & Field Service Dispatcher   
-    c. User Fullname="Molly Clark" as Account Manager   
-    d. User Fullname="Spencer Low" as Practice and Project Manager  
-    e. User Fullname="Veronica Quek" as Team Member   
-    f. User Fullname="William Contoso"
+    1. User Fullname="David So" as Field Service Technician   
+    1. User Fullname="Jamie Reding" as Customer Service & Field Service Dispatcher   
+    1. User Fullname="Molly Clark" as Account Manager   
+    1. User Fullname="Spencer Low" as Practice and Project Manager  
+    1. User Fullname="Veronica Quek" as Team Member   
+    1. User Fullname="William Contoso"
   
 2. For the purposes of demo data import, assign the six users above the Administrator role so sample records import correctly. 
 
