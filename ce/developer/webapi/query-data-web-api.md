@@ -789,12 +789,44 @@ Instead of returning the related entities for entity sets, you can also return r
 
 ## Filter results based on values of collection-valued navigation properties
 
-You cannot use OData $filter to set criteria that applies to values in collection valued navigation properties in a single operation.
-You have two options:
+You can use OData $filter to set criteria that applies to values in collection valued navigation properties in a single operation by three ways.
+
+Your options:
+*   Create an expand which contains a filter (and as best practise also a select)
 *	Construct a query using FetchXML.  More information: Use custom FetchXML
 *	Iterate over results filtering individual entities based on values in the collection using multiple operations.
 
-Generally, using FetchXML should provide better performance because the filtering can be applied server-side in a single operation. The example shown below illustrates how to apply filter on values of collection properties for a link-entity.
+Generally, using one of the first two options should provide better performance because the filtering can be applied server-side in a single operation. 
+
+**Request**
+
+    ```http 
+    GET [Organization URI]/api/data/v9.0/accounts([Guid])?$select=name&$expand=contact_customer_accounts($select%3Dfirstname,lastname;$filter=emailaddress1 ne '')  HTTP/1.1  
+    Accept: application/json  
+    OData-MaxVersion: 4.0  
+    OData-Version: 4.0  
+    ```  
+  
+     **Response**  
+
+    ```http 
+    HTTP/1.1 200 OK  
+    Content-Type: application/json; odata.metadata=minimal  
+    OData-Version: 4.0  
+
+    { 
+  "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#accounts(name,contact_customer_accounts,contact_customer_accounts(firstname,lastname))/$entity","@odata.etag":"W/\"625503367\"","name":"Account Name","accountid":"[Guid]","contact_customer_accounts":[ 
+    { 
+      "@odata.etag":"W/\"631241376\"","firstname":"Steve","lastname":"Ballmer","contactid":"[Guid]" 
+    },{ 
+      "@odata.etag":"W/\"631241312\"","firstname":"Bill","lastname":"Gates","contactid":"[Guid]" 
+    } 
+    ] 
+    }
+    ```
+**Hint**: The filter parameter in the expand should not contain any ampersand characters. You can also see, that the filter option is seperated from the select option by a semicolon. Some of the Web API functions use them for defining parameters, which will not work here. You will need to insert them inline instead.
+
+The example shown below illustrates how to apply filter on values of collection properties for a link-entity using Fetch XML.
 
 ```xml
 <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
