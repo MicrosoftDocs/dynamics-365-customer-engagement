@@ -2,7 +2,7 @@
 title: "Install and set up the Dynamics 365 app for Teams| MicrosoftDocs"
 ms.custom: ""
 description: "Install and set up the Dynamics 365 app for Teams."
-ms.date: 11/06/2018
+ms.date: 11/08/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -90,6 +90,10 @@ After completing the above steps, you can select a Dynamics 365 (online) record 
 For troubleshooting, see [Troubleshoot Teams integration](teams-troubleshoot.md).
 
 ## Set up the Dynamics 365 bot
+
+> [!NOTE]
+> THe Dynamics 365 bot for Teams is currently only available for organizations in the North American region.
+
 Set up the bot feature to interact with Dynamics 365 (online).
 
 1. Find and open the Dynamics 365 bot. Open **Chat** on the left side of the Teams app, and then select **Dynamics 365**.
