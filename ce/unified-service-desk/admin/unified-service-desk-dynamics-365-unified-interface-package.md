@@ -36,9 +36,15 @@ search.app:
 - To demonstrate the rich set of customer service capabilities in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and simplify the customization of your agent desktop application.  
   
   With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Dynamics 365 Web Client sample application package, the following components are installed:  
-  
-- Unified Service Desk Administrator App (Public preview feature)
 
+::: moniker range="dynamics-usd-4"  
+- Unified Service Desk Administrator App (Public preview feature)
+::: moniker-end
+
+Unified Service Desk Administrator App
+::: moniker range="dynamics-usd-41"
+- 
+::: moniker-end
 - User Interface Integration Solution 
   
 - Unified Service Desk Solution
