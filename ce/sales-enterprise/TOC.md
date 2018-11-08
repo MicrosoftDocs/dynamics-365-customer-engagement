@@ -44,6 +44,7 @@
 ### [Close an opportunity](../sales-enterprise/close-opportunity-won-lost-sales.md)
 ### [Track competitors](../sales-enterprise/create-edit-competitor-record-sales.md)
 ### [Manage sales literature](../sales-enterprise/create-sales-literature.md)
+### [Manage org charts for accounts](live-org-chart.md)
 ## [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)
 ### Playbook manager guide
 #### [Define playbook categories](define-playbook-categories.md)  
