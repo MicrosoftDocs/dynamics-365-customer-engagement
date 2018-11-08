@@ -27,7 +27,9 @@ Navigate to Project Service->Settings->Parameters and open the Parameter page. T
 By default, Project Service installation creates 2 rows in the grid on this tab:
 
 • Msdyn_resourcecategory (Role)
+
 • Msdyn_OrganizationalUnit (Organizational Unit)
+
 
 These two rows in the pricing dimension table should not be deleted; however, if you do not need them, you can make them not applicable in a specific context by setting “Applicable to Cost”=No, “Applicable to Sales” = No, “Applicable to Purchase” = No. Setting these attribute values to “No” for a pricing dimension has the same effect of not having this field as a pricing dimensions.
 
@@ -55,34 +57,37 @@ It will be useful at this point to understand the attributes of the Pricing dime
 This value should be the exact same as the schema name of the field added to the Role Price table for custom pricing dimensions. Adding fields to Role Price table was detailed in sections Option-set based custom pricing dimensions and Entity-based custom pricing dimensions.
 
 **Type of dimension:**
+
   There can be 2 types of pricing dimensions:
   
   **Amount-based dimensions:** 
   
-      These are dimensions where Project Service will match the dimension values from the input context to the dimension values on Role       Price line and default the price/cost directly from the Role Price table.
+  These are dimensions where Project Service will match the dimension values from the input context to the dimension values on Role       Price line and default the price/cost directly from the Role Price table.
       
   **Markup-based dimensions:**
   
-      These are dimensions where Project Service will adopt a 3-step process to get the price/cost.
-      1. Project Service will match the non-markup-based dimension values from the input context to the Role Price line to get the base          rate.
-      2. Project Service will match ALL dimension values from the input context to the Role Price Markup line to get a markup %.
-      3. Project Service will then apply the markup % from the second step to the base rate obtained from the Role price table in the            first step to arrive at final price/cost.
-Let’s look at a simple example to illustrate the calculation of price markups.
-ROLE
-ORG UNIT
-WORK LOCATION
-STD. TITLE
-RESOURCE WORK HOURS(REGULAR TIME, OVERTIME)
-MARK UP
-Contoso India Onsite
-Overtime 15
-Contoso India
-Local
-Overtime
-10
-Contoso US Onsite
-Overtime 20
+   These are dimensions where Project Service will adopt a 3-step process to get the price/cost.
+   1. Project Service will match the non-markup-based dimension values from the input context to the Role Price line to get the base rate.
+   2. Project Service will match ALL dimension values from the input context to the Role Price Markup line to get a markup %.
+   3. Project Service will then apply the markup % from the second step to the base rate obtained from the Role price table in the first step to arrive at final price/cost.
+      Let’s look at a simple example to illustrate the calculation of price markups.
+      ROLE
+      ORG UNIT
+      WORK LOCATION
+      STD. TITLE
+      RESOURCE WORK HOURS(REGULAR TIME, OVERTIME)
+      MARK UP
+      Contoso India Onsite
+      Overtime 15
+      Contoso India
+      Local
+      Overtime
+      10
+      Contoso US Onsite
+      Overtime 20
+
 If a resource from Contoso India working onsite whose base rate is 100 USD, logs 8 hours of Regular time and 2 hours of overtime on the time entry, the Project Service pricing engine will use the base rate of 100 for the 8 hours to record 800 USD. For the 2 hours overtime, Project Service will apply a markup of 15% to the base rate of 100 to get a unit price of 115 USD and will record a total cost of 230 USD.
+
 Applicable to Cost: Setting this flag to Yes indicates to the Project Service’s engine that it must use this dimension value from the input context to match to the Role Price and Role Price markup when retrieving the cost and/or markup rates.
 Application to Sales: Setting this flag to Yes indicates to the Project Service’s engine that it must use this dimension value from the input context to match to the Role Price and Role Price markup when retrieving the bill rate or markup rates.
 August 2018 Pricing dimension setup for Dynamics 365 for Project Service 23
