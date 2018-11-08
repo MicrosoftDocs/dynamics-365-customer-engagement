@@ -1,7 +1,7 @@
 ---
 title: "Sample data installation (Dynamics 365 for Project Service) | MicrosoftDocs"
 ms.custom: "dyn365-projectservice"
-ms.date: 09/28/2018
+ms.date: 11/08/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,8 +10,8 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: "krbjoran"
-ms.author: "shellyha"
-ms.manager: "shellyha"
+ms.author: "ankashya"
+ms.reviewer: "shellyha"
 search.audienceType: 
   - admin
   - customizer
