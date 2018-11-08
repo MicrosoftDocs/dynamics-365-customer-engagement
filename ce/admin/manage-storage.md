@@ -30,7 +30,7 @@ You can manage your organization’s data storage capacity in connection with yo
   
  You can also gain storage by deleting certain types of unnecessary data in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. For information on deleting data, see: [Free storage space in Dynamics 365](free-storage-space.md).  
   
- For information on storage amounts included with the various [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] plans, see: [Dynamics 365 pricing](https://www.microsoft.com/en-us/dynamics365/pricing).  
+ For information on storage amounts included with the various [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] plans, see: [Dynamics 365 pricing](https://www.microsoft.com/dynamics365/pricing).  
   
 ## Monitor the amount of storage your organization is using  
  Monitor your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] storage to make sure you’ve got lots of capacity for growth.  

@@ -50,13 +50,13 @@ Set up the Social Selling Assistant  and onboard your users in just a few minute
 <a name="installFromAppSource"></a>   
 
 ## Install the Social Selling Assistant app from AppSource  
- Before users can start working with the app, you need to install it from [AppSource](https://appsource.microsoft.com/en-us/marketplace?product=dynamics-365-for-sales%3Bdynamics-365-for-field-services%3Bdynamics-365-for-project-services-automation%3Bdynamics-365-for-customer-services) in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+ Before users can start working with the app, you need to install it from [AppSource](https://appsource.microsoft.com/marketplace?product=dynamics-365-for-sales%3Bdynamics-365-for-field-services%3Bdynamics-365-for-project-services-automation%3Bdynamics-365-for-customer-services) in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
 ### Get it from Microsoft AppSource  
   
 1. As a system administrator in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Dynamics Marketplace**.  
   
-2. In the [AppSource](https://appsource.microsoft.com/en-us/marketplace?product=dynamics-365-for-sales%3Bdynamics-365-for-field-services%3Bdynamics-365-for-project-services-automation%3Bdynamics-365-for-customer-services) dialog, search for **Social Selling Assistant**.  
+2. In the [AppSource](https://appsource.microsoft.com/marketplace?product=dynamics-365-for-sales%3Bdynamics-365-for-field-services%3Bdynamics-365-for-project-services-automation%3Bdynamics-365-for-customer-services) dialog, search for **Social Selling Assistant**.  
   
 3. Click **Get** to start the installation, accept the disclaimer and follow the dialog guiding you through the installation.  
   

@@ -33,7 +33,7 @@ search.app:
 > -   [Important information for CRM Online customers](../admin/important-information-customers.md)  
 > -   Download: [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544)  
 > -   ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Video: [How to buy Dynamics 365](https://www.youtube.com/embed/WOacBzpHwGU?rel=0)  
-> -   [Dynamics 365 Pricing](https://www.microsoft.com/en-us/dynamics365/pricing)  
+> -   [Dynamics 365 Pricing](https://www.microsoft.com/dynamics365/pricing)  
 > -   Download: [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544)  
   
 <a name="BKMK_PurchaseLicense"></a>   

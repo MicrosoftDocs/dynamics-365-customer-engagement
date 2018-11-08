@@ -70,7 +70,7 @@ One of the main reasons people use [!INCLUDE[pn_microsoftcrm](../includes/pn-mic
   
  
 ### See also  
-[Microsoft Dynamics CRM: How it works documentation ](https://www.microsoft.com/en-us/download/details.aspx?id=48718) 
+[Microsoft Dynamics CRM: How it works documentation ](https://www.microsoft.com/download/details.aspx?id=48718) 
  
 [Integrate your email system using server-side synchronization](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
 
