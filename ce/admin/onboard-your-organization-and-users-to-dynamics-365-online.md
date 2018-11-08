@@ -210,8 +210,9 @@ For more advanced scenarios, consider the following development tools: [Solution
 - [Dynamics 365 for phones and tablets User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
   
 - [Customize Dynamics 365 for phones and tablets to work for your business](../customize/customize-phones-tablets.md)
-  <!--  
-- [Configure mobile offline synchronization for Dynamics 365 for phones and tablets](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  -->
+<!--  
+- [Configure mobile offline synchronization for Dynamics 365 for phones and tablets](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
+-->
   
 <a name="Outlook"></a>   
 ### Set up Dynamics 365 App for Outlook  
