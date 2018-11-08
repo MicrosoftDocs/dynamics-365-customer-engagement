@@ -71,8 +71,7 @@ This value should be the exact same as the schema name of the field added to the
         3. Project Service will then apply the markup % from the second step to the base rate obtained from the Role price table in the first step to arrive at final price/cost.
    
    Let’s look at a simple example to illustrate the calculation of price markups.
-   **Sample bill rates**
-
+  
 | Role        | Org Unit    |Work Location      |Standard Title      |Resource Work Hours      |  Mark Up|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Onsite            |                    |Overtime                 |15     |
