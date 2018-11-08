@@ -71,20 +71,14 @@ This value should be the exact same as the schema name of the field added to the
         3. Project Service will then apply the markup % from the second step to the base rate obtained from the Role price table in the first step to arrive at final price/cost.
    
    Let’s look at a simple example to illustrate the calculation of price markups.
-      ROLE
-      ORG UNIT
-      WORK LOCATION
-      STD. TITLE
-      RESOURCE WORK HOURS(REGULAR TIME, OVERTIME)
-      MARK UP
-      Contoso India Onsite
-      Overtime 15
-      Contoso India
-      Local
-      Overtime
-      10
-      Contoso US Onsite
-      Overtime 20
+   **Sample bill rates**
+
+| Role        | Org Unit    |Work Location      |Standard Title      |Resource Work Hours      |  Mark Up|
+| ------------|-------------|-------------------|--------------------|-------------------------|--------:|
+|             | Contoso India|Onsite            |                    |Overtime                 |15     |
+|             | Contoso India|Local             |                    |Overtime                 |10     |
+|             | Contoso US   |Local             |                    |Overtime                 |20     |
+
 
 If a resource from Contoso India working onsite whose base rate is 100 USD, logs 8 hours of Regular time and 2 hours of overtime on the time entry, the Project Service pricing engine will use the base rate of 100 for the 8 hours to record 800 USD. For the 2 hours overtime, Project Service will apply a markup of 15% to the base rate of 100 to get a unit price of 115 USD and will record a total cost of 230 USD.
 
