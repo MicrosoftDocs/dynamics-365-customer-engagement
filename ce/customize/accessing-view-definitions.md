@@ -1,8 +1,8 @@
 ---
-title: "Quickstart to access a view definition | MicrosoftDocs"
-description: In this quickstart you learn how to access entity views
+title: "Access a view definition | MicrosoftDocs"
+description: Learn how to access entity views
 ms.custom: ""
-ms.date: 03/30/2018
+ms.date: 08/08/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "PowerApps"
 author: "Mattp123"
 ms.assetid: 034c8bef-0d1c-4ef9-8da7-f81343c4553a
 caps.latest.revision: 25
@@ -22,13 +21,13 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Access a view definition in a PowerApps app
+# Access a view definition in Dynamics 365 for Customer Engagement
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 <a name="BKMK_AccessingViewDefinitions"></a>   
 
- There are several ways you can access view definitions in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)]. On any list view for an entity, in the command bar you will find the following commands after you click or tap the ellipsis (![More Commands button in Appointment Activity](../customize/media/more-commands.gif "More Commands button in Appointment Activity")) button:  
+ There are several ways you can access view definitions in Dynamics 365 for Customer Engagement. On any list view for an entity, in the command bar you will find the following commands after you click or tap the ellipsis (![More Commands button in Appointment Activity](../customize/media/more-commands.gif "More Commands button in Appointment Activity")) button:  
   
 - **View**: Opens the definition of the current view in the default solution.  
   
