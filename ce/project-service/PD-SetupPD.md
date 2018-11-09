@@ -19,7 +19,7 @@ search.app:
     - D365PS
 ---
 
-# Part 3: Set up custom fields as pricing dimensions (Step 8)
+# Step 8: Set up custom fields as pricing dimensions 
 
 Navigate to Project Service->Settings->Parameters and open the Parameter page. Then open the tab “Amount-Based Pricing Dimensions.” The grid on the tab show the records in the Pricing Dimensions entity in Project Service.
 
