@@ -19,6 +19,7 @@ search.app:
     - D365PS
 ---
 
+# Using an existing field in Project Service solution as a Pricing dimension
 
 Project Service has many fields on the Actuals entity that can work as pricing dimensions for resource-based pricing in project organizations. One common example is Bookable Resource. Companies that are small and have fewer than 20-30 billable resources can find that having a bill rate and cost rate that is specific to each resource may be a simpler approach. As the billable workforce grows, this may become unmaintainable quickly since resource cost and bill rates may begin to vary as the resource gets promoted, gains more experience, or acquires a different skill set, etc. However, since this approach still works for companies of certain size, the below steps will use this (using Bookable Resource as a Pricing Dimension) example to illustrate how an existing Project Service field can be used as a Pricing Dimension.
 Another example is that of transaction category. Customers and Implementers have used the Transaction Category in PSA to classify work and use that field to price and cost differently based on the category of work.
