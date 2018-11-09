@@ -22,6 +22,8 @@ search.app:
 
 # Step 9: Update plug-in attributes to include newly created pricing dimensions
 
+**If you are not using the Project Service Quoting, Contracting features, you can skip this section**
+
 Whenever a Quote line detail is created on the Quote line form for a Project Quote line, the system creates two estimate lines in the background: one for the cost-side of the estimate and one for sales-side of the estimate. This is true in Project Contract line detail context as well.
 
 Whenever the user makes a change to the quantity or a field on the cost side, that change is propagated to the sales side as well. This is made possible by two plug-ins that will need to be re-registered after a change to pricing dimensions:
@@ -34,7 +36,6 @@ Step: Update of msdyn_orderlinetransaction
 
 Step: Update of msdyn_quotelinetransaction
 
-**If you are not using the Project Service Quoting, Contracting features, you can skip this section**
 
 Below are the steps to walk through the process of registering the plugins:
 
