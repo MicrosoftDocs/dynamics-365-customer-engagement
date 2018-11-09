@@ -54,24 +54,24 @@ For Bookable Resource, the project team members entity in Project Service has a 
 The Main page for the pricing dimension of msdyn_bookableresource will open. On this page, find the "Related" tab and click on "Pricing Dimension Field Names".
 
 *Choosing the allocation method when adding a team member to a project*
- ![Choosing the allocation method when adding a team member to a project](media/FAQ-Allocation-Methods-1.png)
+ ![Choosing the allocation method when adding a team member to a project](media/PD-fieldname.png)
 
 On the associated view that opens, click on "Add New Pricing Dimension Field Names".
 
 *Choosing the allocation method when adding a team member to a project*
- ![Choosing the allocation method when adding a team member to a project](media/FAQ-Allocation-Methods-1.png)
+ ![Choosing the allocation method when adding a team member to a project](media/Add-NewPD-fieldname.png)
 
 
 This opens the "New Pricing dimension field name" page for msdyn_bookableresource
 
 *Choosing the allocation method when adding a team member to a project*
- ![Choosing the allocation method when adding a team member to a project](media/FAQ-Allocation-Methods-1.png)
+ ![Choosing the allocation method when adding a team member to a project](media/Add-NewPD-fieldname.png)
 
 
 Add the msdyn_projectteam to the "Entity Locigal Name" field and msdyn_bookableresourceid to the "Field Name" field. Save the record.
 
 *Choosing the allocation method when adding a team member to a project*
- ![Choosing the allocation method when adding a team member to a project](media/FAQ-Allocation-Methods-1.png)
+ ![Choosing the allocation method when adding a team member to a project](media/PD-fieldname-Added.png)
 
 
 
