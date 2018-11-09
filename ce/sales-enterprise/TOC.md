@@ -44,6 +44,7 @@
 ### [Close an opportunity](../sales-enterprise/close-opportunity-won-lost-sales.md)
 ### [Track competitors](../sales-enterprise/create-edit-competitor-record-sales.md)
 ### [Manage sales literature](../sales-enterprise/create-sales-literature.md)
+### [Manage org charts for accounts](live-org-chart.md)
 ## [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)
 ### Playbook manager guide
 #### [Define playbook categories](define-playbook-categories.md)  
@@ -51,9 +52,21 @@
 ### Playbook user guide
 #### [Launch a playbook to carry out activities consistently](launch-playbook.md)  
 #### [Mark playbook as completed](mark-playbook-completed.md)  
-#### [Track playbook activities](track-playbook-activities.md) 
+#### [Track playbook activities](track-playbook-activities.md)
+ 
+## [Embedded intelligence](../sales-enterprise/embedded-intelligence.md)
+### [Administrator guide](../sales-enterprise/configure-enable-embedded-intelligence.md)
+### User guide
+#### [Guide customer communications with relationship assistant](../sales-enterprise/relationship-assistant.md)
+#### [Stay updated with Action cards](../sales-enterprise/action-cards-reference.md)
+#### [View message interactions with email engagement](../sales-enterprise/email-engagement.md)
+#### [Display related emails with auto capture](../sales-enterprise/auto-capture.md)
+### [Create custom cards in Relationship assistant](../sales-enterprise/extend-relationship-assistant-card.md)
+#### [Sample: Extend Relationship assistant card type (custom card)](../sales-enterprise/sample-extend-relationship-assistant-card-type.md)
+### [Privacy notice](../sales-enterprise/privacy-notice-ee.md)
 
 ## [Mobile guide for Sales Hub](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
+
 ## Troubleshooting
 ### [Troubleshooting guide for sales people](troubleshooting.md)
 ### [Troubleshooting guide for administrators](troubleshooting-admin.md)
@@ -65,36 +78,4 @@
 ### [Add an activity to a campaign](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)
 ### [Track a marketing campaign response](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)
 
-# [Embedded intelligence](../sales-enterprise/embedded-intelligence.md)
-## [Overview](../sales-enterprise/embedded-intelligence.md)
-## [Administer Embedded intelligence](../sales-enterprise/configure-enable-embedded-intelligence.md)
-## [Guide customer communications with relationship assistant](../sales-enterprise/relationship-assistant.md)
-## [Stay updated with Action cards](../sales-enterprise/action-cards-reference.md)
-## [View message interactions with email engagement](../sales-enterprise/email-engagement.md)
-## [Display related emails with auto capture](../sales-enterprise/auto-capture.md)
-
-# [Sales insights add-on](../sales-enterprise/sales-insights-addon.md)
-## [Overview](../sales-enterprise/sales-insights-addon.md)
-## [Administer Sales insights add-on](../sales-enterprise/configure-enable-sales-insights-addon.md)
-## [GDPR for Sales insights add-on](../sales-enterprise/embedded-intelligence-gdpr.md)
-## [Opt out of relationship analytics (GDPR)](../sales-enterprise/optout-relationship-analytics-gdpr.md)
-## [View and export KPI data (GDPR)](../sales-enterprise/view-export-KPI-data-gdpr.md)
-## [Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](../sales-enterprise/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
-## [View customer activity history](../sales-enterprise/relationship-analytics.md)
-<!--## [Work with predictive lead scoring](../sales-enterprise/work-predictive-lead-scoring.md)-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# [Dynamics 365 AI for Sales](../sales-enterprise/dynamics365-ai-sales.md)

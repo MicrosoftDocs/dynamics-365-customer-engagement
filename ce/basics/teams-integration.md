@@ -50,9 +50,7 @@ The Dynamics 365 app for Teams provides the following:
 
 The Dynamics 365 app for Teams, when installed into a Teams channel, provides a fully functional page in which you can edit information and navigate to related records—all this without leaving Teams.
 
-
 <!--from editor: I read but made no changes to the following section, assuming it was provided by legal. If that's not the case, I'd edit it a little. Also, are you sure it's called Azure bot framework? The link takes me to Azure Bot Service, and there's mention on that page of Microsoft Bot Framework. -->
-
 
 ## Privacy notice
 
@@ -67,3 +65,4 @@ To manage admin settings for apps in Teams, go to the Office 365 admin center an
 ### See also
  [Download and install Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)<br/>
  [Microsoft Teams help center](https://support.office.com/teams)
+

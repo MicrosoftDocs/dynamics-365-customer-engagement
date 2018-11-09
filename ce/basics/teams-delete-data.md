@@ -33,7 +33,6 @@ Your privacy is important to us. You can remove Dynamics 365 app personal data f
 
 The following data is stored with Dynamics 365 integration with Microsoft Teams.
 
-
 |     Data |  Description  | Data classification    |  Example   |
 |----|-----|-------|--------|
 |    User ID    |      The user's Azure Active Directory object ID       |  EndUsePseudonymousIdentifiers (EUPI) -<br/>An identifier created by Microsoft tied to the user of a Microsoft service. When EUPI is combined with other information, such as a mapping table, it identifies the end user. EUPI does not contain information uploaded or created by the customer.      |                                      <ul><li>User GUIDs, PUIDs, or SIDs</li><li>Session IDs</li><ul>                                      |

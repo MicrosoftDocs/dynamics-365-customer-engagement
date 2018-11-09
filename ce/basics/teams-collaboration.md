@@ -151,3 +151,4 @@ Currently, the following record types support using **Collaborate**. The **Colla
 
 ### See also  
  [Install the app and set up the Teams tab](teams-install-app.md#install-the-app-and-set-up-the-teams-tab)
+

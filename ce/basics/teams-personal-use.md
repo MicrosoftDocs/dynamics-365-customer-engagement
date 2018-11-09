@@ -32,9 +32,6 @@ You can use the Dynamics 365 app for Teams for your own use. If you want to work
 
 ## Conversation tab
 
-
-<!--from editor: Not much is described above, so the following sentence seems like something is missing.-->
-
 Select the **Conversation** tab to access the bot as described above.
 
 ## My Dashboard tab
@@ -43,7 +40,6 @@ Select the **My Dashboard** tab to view your Dynamics 365 dashboard in Microsoft
 
 > [!div class="mx-imgBorder"]
 ![Dynamics 365 dashboard](media/teams-bot-dashboard.png "Dynamics 365 dashboard")
-
 
 ## Settings tab
 
@@ -59,3 +55,4 @@ If you have more than one organization or Unified Interface app, you can use the
 
 ### See also  
  [Set up the personal dashboard](teams-install-app.md#set-up-the-personal-dashboard)
+

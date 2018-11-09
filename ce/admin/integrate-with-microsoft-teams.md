@@ -1,4 +1,5 @@
 ---
+redirect_url: ../basics/teams-integration
 title: "Preview: Setup Microsoft Teams integration| MicrosoftDocs"
 ms.custom: ""
 description: Setup Microsoft Teams integration with Dynamics 365 (online).
