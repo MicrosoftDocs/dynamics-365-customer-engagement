@@ -20,6 +20,8 @@ search.app:
     - D365PS
 ---
 
+# Pricing and costing dimensions for Human Resource time in Professional Service Organizations
+
 Dimensions used for pricing and costing human resources in professional service firms are a finite set of categorizations of:
 1. People
 2. Work they are to perform
