@@ -19,7 +19,7 @@ search.app:
     - D365PS
 ---
 
-# Understanding default pricing dimensions in the Project Service Solution
+# Default pricing dimensions in  Project Service
 
 Project Service ships with a default set of pricing dimensions. You can verify this by navigating to Project Service -> Parameters and 
 open the parameter record and click on the tab “Amount-based pricing dimensions”. Role represented as “msdyn_resourcecategory” and Resourcing Organizational Unit represented as “msdyn_organizationalunit” are entries in the table and they have the fields “Applicable to sales” and “Applicable to cost” set to yes. “msdyn_resourcecategory” and “msdyn_organizationalunit” are the field names of Role and Organizational Unit respectively. 
