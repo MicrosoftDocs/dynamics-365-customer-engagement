@@ -1,1 +1,1 @@
-Applies to Dynamics 365 for Customer Engagement (on-premises), version 9.x
+Applies to [!include[](../includes/pn-crm-9-x-onprem.md)]
