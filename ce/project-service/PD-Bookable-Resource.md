@@ -53,25 +53,19 @@ Whenever the field name of a pricing dmension in the Role Price table is differe
 For Bookable Resource, the project team members entity in Project Service has a slightly different field name it(msdyn_bookableresourceid) from what it is called on the Role price entity (msdyn_bookableresource). So the pricing dimension record for msydn_bookableresource must be made aware of this. Navigate to the dimension page of msdyn_bookableresource by double-clicking on the row in the pricing dimensions grid.
 The Main page for the pricing dimension of msdyn_bookableresource will open. On this page, find the "Related" tab and click on "Pricing Dimension Field Names".
 
-*Choosing the allocation method when adding a team member to a project*
- ![Choosing the allocation method when adding a team member to a project](media/PD-fieldname.png)
+*Pricing dimension field names tab*
+ ![Pricing dimension field names tab](media/PD-fieldname.png)
 
 On the associated view that opens, click on "Add New Pricing Dimension Field Names".
 
-*Choosing the allocation method when adding a team member to a project*
- ![Choosing the allocation method when adding a team member to a project](media/Add-NewPD-fieldname.png)
+*Add New Pricing Dimension Field Names*
+ ![Add New Pricing Dimension Field Names](media/Add-NewPD-fieldname.png)
 
 
-This opens the "New Pricing dimension field name" page for msdyn_bookableresource
+This opens the "New Pricing dimension field name" page for msdyn_bookableresource. Add the msdyn_projectteam to the "Entity Locigal Name" field and msdyn_bookableresourceid to the "Field Name" field. Save the record.
 
-*Choosing the allocation method when adding a team member to a project*
- ![Choosing the allocation method when adding a team member to a project](media/Add-NewPD-fieldname.png)
-
-
-Add the msdyn_projectteam to the "Entity Locigal Name" field and msdyn_bookableresourceid to the "Field Name" field. Save the record.
-
-*Choosing the allocation method when adding a team member to a project*
- ![Choosing the allocation method when adding a team member to a project](media/PD-fieldname-Added.png)
+*New Pricing dimension field name form*
+ ![New Pricing dimension field name form](media/PD-fieldname-Added.png)
 
 
 
