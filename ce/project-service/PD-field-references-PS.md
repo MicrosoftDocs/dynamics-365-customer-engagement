@@ -19,10 +19,11 @@ search.app:
     - D365PS
 ---
 
+# 2. Add custom fields to price setup and transactional entities of Project Service (Steps 5-7)
 
 Assuming you have completed the common steps 1 to 4 and created your pricing dimension solution, we will proceed to adding the required references for these custom fields to entities and the User Interface elements such as Forms and Views in Project Service solution
 
-**5. Add custom pricing dimension fields to price setup and transactional entities**
+## 5. Add custom pricing dimension fields to price setup and transactional entities
 
 Once custom fields and entities have been created, the next step is to make Project Service price setup and business transactional entities aware of your custom entities or option sets by creating reference fields. Depending on whether your pricing dimensions list includes option set dimensions or entity dimensions or both, follow only the steps in Option set custom pricing dimensions OR only Entity-based custom pricing dimensions, OR follow both.
 
@@ -70,7 +71,8 @@ Continuing the scenario through to Delivery and Invoicing phases, we will need t
 *Standard Title to Time Entry*
 > ![Adding Standard Title as a reference field to Time Entry](media/ST-Mapping.png)
 
-6. Setup Dimension value defaulting using the mappings features of the platform:
+## Step 6. Setup Dimension value defaulting using the mappings features of the platform
+
 In the context of Time Entry, it would be great to have the system default the standard title on the Time Entry from the Bookable Resource that is recording the time entry, so we will also add field mappings on the 1:N relationship from Bookable Resource to Time Entry.
 
 *Standard Title on Bookable Rsource to Standard Title on Time Entry - Field Mappings for defaulting*
@@ -79,7 +81,8 @@ In the context of Time Entry, it would be great to have the system default the s
 
 This completes the schema changes required for Entity-based custom dimensions
 
-7. Add custom fields to forms and views
+## Step 7. Add custom fields to forms and views
+
 Once you have made all the required schema changes, the next step is to make these fields visible on the UI. For this, you will need to walkthrough the relevant forms and views of these entities and add these fields to the forms and views.
 Below is the comprehensive list of the out-of-the-box forms and views by entity that will need to be updated with the new fields. If you have any additional views or forms in your customizations on these entities, please add the new fields to those as well.
 
