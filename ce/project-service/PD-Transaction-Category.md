@@ -1,6 +1,6 @@
 ---
 title: Using Transaction Category in PSA as a pricing dimension for Time  | MicrosoftDocs
-description: Introduction to setup of pricing dimensions in project service solution 
+description: Step by step for using Transaction Category in PSA as a pricing dimension
 author: Rumant
 manager: eichimur
 ms.custom:
