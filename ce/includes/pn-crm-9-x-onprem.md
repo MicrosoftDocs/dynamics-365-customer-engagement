@@ -1,1 +1,1 @@
-Dynamics 365 for Customer Engagement version 9.x (on-premises)
+Dynamics 365 for Customer Engagement apps version 9.x (on-premises)
