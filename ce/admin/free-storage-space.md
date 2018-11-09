@@ -1,7 +1,7 @@
 ---
 title: "Free storage space in Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/23/2018
+ms.date: 11/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -35,6 +35,9 @@ These are ways to reduce the amount of storage space used by removing or deletin
 >
 >  After performing actions to free up storage, the system can take up to 24 hours to update storage information. We recommend waiting up to 24 hours and monitoring your storage.  
   
+> [!NOTE]
+> Some platform operations require you to wait 24-36 hours to confirm data size changes. Such operations include but are not limited to upgrades to new versions and introduction of new workflows. Such operations require system adjustments that might result in a momentary size increase report.
+
 <a name="BKMK_Method1"></a>   
 ## Method 1: Delete bulk email and workflow instances using a bulk deletion job  
   
