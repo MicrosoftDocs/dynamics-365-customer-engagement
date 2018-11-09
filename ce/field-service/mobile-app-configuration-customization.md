@@ -88,7 +88,7 @@ For instance, you can configure the app to sync whenever it is launched, or each
 ### Sync filters 
 Sync filters allow administrators to configure which subset of server data is downloaded locally to the device when in offline mode. 
 
-For example, when connected to the internet, a mobile user may be able to see all booked work orders for this calendar year; when that user is in *offline* mode, they can only view the current week's booked work orders, which have been donwloaded to the device, thanks to a sync filter.
+For example, when connected to the internet, a mobile user may be able to see all booked work orders for this calendar year; when that user is in *offline* mode, they can only view the current week's booked work orders, which have been downloaded to the device, thanks to a sync filter.
 
 ### Workflows
 Administrators can also create mobile workflows called **form rules**. Common examples include auto-populating data when specific form fields are edited, or displaying warning messages for fields in the mobile interface.
