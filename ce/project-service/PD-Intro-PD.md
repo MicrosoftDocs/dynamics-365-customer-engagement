@@ -19,6 +19,7 @@ search.app:
     - D365PS
 ---
 
+# 2 Basic dimension types for pricing and costing human resource time
 
 Once you have a clear mental map of how you would like to set up your bill and cost rates, you can start setting up your Project Service solution. Pricing dimensions could fall broadly into 2 categories:
 
