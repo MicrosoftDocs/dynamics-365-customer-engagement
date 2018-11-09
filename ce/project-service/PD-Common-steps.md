@@ -19,7 +19,7 @@ search.app:
     - D365PS
 ---
 
-# Part 1. Steps for creating a custom field or entity in the Power Apps platform (Steps 1-4)
+# Steps 1-4: Create custom fields and entities in the Power Apps platform 
 
 We will first start with some common steps that you will need to take any time you want to a custom Option set or a custom entity on the Power Apps platform.  
 
