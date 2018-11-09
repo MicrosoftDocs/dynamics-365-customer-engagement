@@ -20,6 +20,10 @@ search.app:
 ---
 
 
+# Turning off a default or a custom pricing dimension
+
+You may need to revisit your pricing strategy every few years and that may necessitate turning off an exisitng pricing dimension and creating a new one. For eg: May be that you priced by role but after a few years, you may decide to price by Work Experience level and not Role. This may require you to turn off Role as a pricing dimension and create "Work Expereince" as a pricing dimension. 
+
 Turning off a pricing dimension, either the out-of-the-box Project Service dimensions such as msdyn_resourcecategory (Role) and msdyn_organizationalunit (Organizational Unit) or any other custom pricing dimension can be done by setting Applicable to Cost and/or Applicable to Sales fields of the Pricing Dimension to “No”
 
 However, doing so will bring up this error message:
