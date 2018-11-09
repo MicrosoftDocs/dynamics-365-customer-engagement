@@ -526,6 +526,9 @@ Follow these steps to enable a custom entity to appear in Quick create.
 2. Choose the custom entity. Under **Communication & Collaboration**, enable **Activities**, and then choose **Save** > **Publish** on the **Home** tab.
 
    ![Communication and collaboration activity enabled](media/communication-collaboration-activities.png "Communication and collaboration activity enabled")
+   
+    > [!NOTE]
+   > To add a custom entity, see [Filter entities and views that appear in Dynamics 365 App for Outlook](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/outlook-app/deploy-dynamics-365-app-for-outlook#filter-entities-and-views-that-appear-in-dynamics-365-app-for-outlook).
 
 ## Search on custom field in Regarding lookup
 

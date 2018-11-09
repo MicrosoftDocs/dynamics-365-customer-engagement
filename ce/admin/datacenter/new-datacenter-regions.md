@@ -50,5 +50,5 @@ The following table lists the newest datacenter regions. Checkout the interactiv
   
 ### See also  
  [Geo to geo migrations for Dynamics 365 (online)](geo-to-geo-migrations.md)   
- [Products by region](https://azure.microsoft.com/en-us/regions/services/)   
+ [Products by region](https://azure.microsoft.com/regions/services/)   
  [Terminology used in the product and documentation](../../admin/online-terminology.md)

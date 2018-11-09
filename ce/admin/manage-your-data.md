@@ -25,5 +25,5 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
-Managing data in in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] includes importing data into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], cleaning up duplicate records, deleting data in bulk, and securing sensitive data through data encryption.  
+Managing data in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] includes importing data into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], cleaning up duplicate records, deleting data in bulk, and securing sensitive data through data encryption.  
   

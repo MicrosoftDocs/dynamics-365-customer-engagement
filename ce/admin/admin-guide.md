@@ -1,7 +1,7 @@
 ---
 title: "Administrator Guide (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 10/30/2017
+ms.date: 11/08/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -87,7 +87,7 @@ Implementers and administrators for [!INCLUDE[pn_microsoftcrm](../includes/pn-dy
 
 <h2> Product updates </h2>
 
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/" data-raw-source="[What&#39;s new in Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/)">What&#39;s new in Dynamics 365</a></li>
+<li><a href="https://docs.microsoft.com/dynamics365/get-started/whats-new/" data-raw-source="[What&#39;s new in Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/whats-new/)">What&#39;s new in Dynamics 365</a></li>
 <li><a href="release-history.md" data-raw-source="[Release history](release-history.md)">Release history</a></li>
 <li><a href="readme-9.md" data-raw-source="[Dynamics 365 Customer Engagement Readme](readme-9.md)">Dynamics 365 Customer Engagement Readme</a></li>
 </td>
@@ -98,4 +98,5 @@ Implementers and administrators for [!INCLUDE[pn_microsoftcrm](../includes/pn-dy
 
 [Customization Guide](../customize/overview.md)<br />
 [Developer Guide](../developer/developer-guide.md)<br />
-[Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)
+[Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md) <br />
+[Deploy and operate (on-premises)](../on-premises/deploy-and-operate-dynamics-365-on-premises.md)

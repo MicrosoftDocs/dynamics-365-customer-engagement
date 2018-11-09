@@ -39,7 +39,7 @@ search.app:
 >  Check out the following for a quick introduction to [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)]:  
 > 
 > - ![Video button](../admin/media/video--button.PNG "Video button") Video: [Introducing Groups in Office 365](https://youtu.be/t3OLvYXepvE).  
-> -   [Learn more about groups](https://support.office.com/en-us/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)  
+> -   [Learn more about groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)  
   
 <a name="BKMK_Requirements"></a>   
 
@@ -154,7 +154,7 @@ search.app:
 > - The activity appears as a new conversation in a card format in the Group.  
 > - The fields in the card shown in the Group conversation are not customizable.  
 > - Nothing is required in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to make the connector work.  
-> - For sensitive information, you should connect your Dynamics 365 record to a private group where only approved members can view contents. For public groups, everyone in the org has access to view contents. See "Public and private Office 365 groups" in [Learn more about groups](https://support.office.com/en-us/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).  
+> - For sensitive information, you should connect your Dynamics 365 record to a private group where only approved members can view contents. For public groups, everyone in the org has access to view contents. See "Public and private Office 365 groups" in [Learn more about groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).  
   
 <a name="BKMK_KnownIssues"></a>   
 ## Known issues  

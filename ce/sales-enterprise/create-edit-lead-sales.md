@@ -3,29 +3,23 @@ title: "Create or edit a lead (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Use leads to track business prospects that you haven't yet qualified."
 keywords: "lead, qualify, sales process, activities"
 ms.date: 04/01/2018
-ms.service: dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: 
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 8c65b7d5-b1bc-4dd7-bf10-c8bdc6334491
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 69
 topic-status: Tech Reviewing
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Create or edit a lead (Sales and Sales Hub)
@@ -35,7 +29,7 @@ search.app:
 In the Sales app, you use leads to keep track of business prospects that you haven't yet qualified through your sales process. A lead can be an existing client or someone you've never done business before. You might get leads from different sources, such as advertising, networking, or email campaigns.  
   
 <a name="bkmk1"></a>   
-## Create a lead  (Sales Hub app)
+## Create a lead  (Sales Hub)
   
 1. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Leads**. 
   
@@ -60,7 +54,7 @@ In the Sales app, you use leads to keep track of business prospects that you hav
 8. On the command bar, select **Save**.  
 
 <a name="bkmk2"></a>   
-## Create a lead  (Sales app)
+## Create a lead  (Sales)
   
 1. [!INCLUDE[proc_sales_leads](../includes/proc-sales-leads.md)]  
   

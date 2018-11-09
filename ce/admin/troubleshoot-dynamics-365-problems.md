@@ -79,7 +79,7 @@ We're sorry you're having a problem with [!INCLUDE[pn_microsoftcrm](../includes/
   
 ## Unified Service Desk  
   
--   [Troubleshoot Unified Service Desk](../unified-service-desk/admin/troubleshoot-unified-service-desk.md)  
+-   [Troubleshoot Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/troubleshoot-unified-service-desk)  
   
 ## Other  
   

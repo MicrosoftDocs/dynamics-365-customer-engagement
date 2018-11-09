@@ -3,19 +3,18 @@ title: "Capture leads generated on LinkedIn (Dynamics 365 for Marketing) | Micro
 description: "How to use the connector to LinkedIn Lead Gen Forms, which imports leads from LinkedIn to Dynamics 365 for Marketing"
 keywords: "LinkedIn; Lead Gen Forms; lead; connector"
 ms.date: 03/27/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: ec81d712-2c82-4ce0-83c5-ccfbafab71bb
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -34,7 +33,7 @@ search.app:
 
 To see the information collected by [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen, open a lead and go to its **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Info** tab.
 
-To sync leads from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] and run campaigns on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)], you need access to a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] account that can manage sponsored content by using [LinkedIn Campaign Manager](https://www.linkedin.com/help/lms/answer/56969).
+[!INCLUDE [cc-linkedin-disclaimer](../includes/cc-linkedin-disclaimer.md)]
 
 ## Enable lead sync from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
@@ -84,8 +83,10 @@ To see all form submissions in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamic
 
 ## See the sync status for [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data 
 
-When you go to **Marketing** > **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** > **Sync Status**, you'll find an aggregated overview about the data that was pulled from all [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user profiles to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. At a glance, you can see when the most recent synchronization took place and find out how many leads were created or updated. 
+When you go to **Marketing** > **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** > **Sync Status**, you'll find an aggregated overview about the data that was pulled from all [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user profiles to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. At a glance, you can see when the most recent synchronization took place and find out how many leads were created or updated.
 
 ### See also
-[Configure LinkedIn Lead Gen](linkedin-configuration.md)    
-[Manage customer information](manage-customer-information.md)
+[Working with segments](segmentation-lists-subscriptions.md)  
+[Configure LinkedIn Lead Gen](linkedin-configuration.md)  
+[Manage customer information](manage-customer-information.md)  
+[Market to Dynamics 365 segments on LinkedIn ](linkedin-matched-audience.md)

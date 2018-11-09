@@ -185,7 +185,7 @@ For more advanced scenarios, consider the following development tools: [Solution
   
 <a name="Import"></a>   
 ### Import and export data  
- [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] provides an import tool for importing simple data stored in files. If the import tool doesn't satisfy your data import requirements, you may want to contact a partner. [Find a partner if you don’t have one.](https://partnercenter.microsoft.com/en-us/pcv/search)  
+ [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] provides an import tool for importing simple data stored in files. If the import tool doesn't satisfy your data import requirements, you may want to contact a partner. [Find a partner if you don’t have one.](https://partnercenter.microsoft.com/pcv/search)  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
@@ -210,8 +210,13 @@ For more advanced scenarios, consider the following development tools: [Solution
 - [Dynamics 365 for phones and tablets User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
   
 - [Customize Dynamics 365 for phones and tablets to work for your business](../customize/customize-phones-tablets.md)
-  <!--  
-- [Configure mobile offline synchronization for Dynamics 365 for phones and tablets](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  -->
+
+
+<!--  This was originally a mistake to comment out the rest of this document. But restoring the below will take a major review and edit so not going to do that now. 
+
+
+- [Configure mobile offline synchronization for Dynamics 365 for phones and tablets](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
+
   
 <a name="Outlook"></a>   
 ### Set up Dynamics 365 App for Outlook  
@@ -478,3 +483,5 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
 -   [Watch videos on YouTube](https://go.microsoft.com/fwlink/p/?linkid=825366)  
   
 -   [Dynamics 365 community](https://go.microsoft.com/fwlink/p/?linkid=825368)
+
+-->

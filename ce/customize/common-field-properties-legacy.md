@@ -1,12 +1,11 @@
 ---
-title: Common field properties in PowerApps | MicrosoftDocs
+title: Common field properties in Dynamics 365 for Customer Engagement | MicrosoftDocs
 description: Understand the Common field properties for Main form in Dynamics 365 for Customer Engagement
 Keywords: Main form; Common field properties; Dynamics 365
 author: Mattp123
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 ms.author: matp
 manager: kvivek
 ms.date: 04/02/2018

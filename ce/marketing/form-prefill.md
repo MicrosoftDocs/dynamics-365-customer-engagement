@@ -3,19 +3,18 @@ title: "Enable prefilling for marketing forms (Dynamics 365 for Marketing) | Mic
 description: "How to set up your marketing forms to support prefilling of form fields for returning contacts in Dynamics 365 for Marketing"
 keywords: "marketing form, prefill"
 ms.date: 09/19/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: bb712806-d9a2-4eb6-8082-27d13668d1f5
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -28,9 +27,11 @@ search.app:
 
 # Enable prefilling for forms
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
 The prefill feature for marketing-page forms provides returning contacts with a form that already shows their previously entered information, like their name and email address. Contacts will usually find prefilled forms to be more convenient, which is likely to improve the submission rate. Prefilled forms can also help lower data-entry errors, thereby improving the quality of your data. However, you must also consider your contacts' privacy, so you'll be able to control precisely which fields on which forms will allow prefilling, and each contact can choose for themselves whether or not to allow prefilled landing-page forms. Subscription center forms, however, always support prefilling due to the role they play in the system.
 
-For general information about how to create, design, and work with marketing pages, see [Create and deploy marketing pages](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/create-deploy-marketing-pages).
+For general information about how to create, design, and work with marketing pages, see [Create and deploy marketing pages](create-deploy-marketing-pages.md).
 
 ## How prefilling works for different types of forms
 

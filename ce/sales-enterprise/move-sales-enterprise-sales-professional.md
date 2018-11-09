@@ -53,7 +53,7 @@ search.app:
 
 3.  Select **Add subscriptions**.
 
-    The **Purchase Services** page opens. You’ll see a tile for [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional Professional Edition.
+    The **Purchase Services** page opens. You’ll see a tile for [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional Edition.
 
 4.	In the **[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional Edition** tile, move your mouse over the Ellipses icon and select **Buy Now**, and then follow the steps to purchase new licenses. 
 

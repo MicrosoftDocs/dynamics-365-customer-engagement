@@ -96,7 +96,7 @@ The Service Manager Guide helps you set up everything related to customer servic
 
 - **[!include[](../includes/pn-unified-service-desk.md)]**: [!include[](../includes/pn-unified-service-desk-for-crm.md)] Customer Engagement provides a configurable framework for quickly building applications for call centers so that agents can get a unified view of the customer data stored in [!include[](../includes/pn-dynamics-crm.md)]. You can aggregate customer information from different areas in [!include[](../includes/pn-dynamics-crm.md)] into an integrated desktop that provides a 360° view of the customer interactions. This gives your customer service agents immediate access to business-critical information so they can quickly engage with customers and address queries and issues.
    
-   Learn more about [Unified Service Desk](../unified-service-desk/admin/overview-unified-service-desk.md).
+   Learn more about [Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/overview-unified-service-desk).
 
 ### See also  
 

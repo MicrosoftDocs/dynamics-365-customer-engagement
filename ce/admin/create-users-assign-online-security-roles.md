@@ -277,6 +277,6 @@ A default security role is automatically assigned to these imported users. The *
 ### See also  
  [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)   
  [Assigning Admin Roles](http://go.microsoft.com/fwlink/p/?LinkId=255444)   
- [Add users to Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc?ui=en-US&rs=en-US&ad=US)   
+ [Add users to Office 365 for business](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc?ui=en-US&rs=en-US&ad=US)   
  [Security roles and privileges](../admin/security-roles-privileges.md)   
  [Manage Microsoft Dynamics 365 (online) licenses](../admin/manage-licenses.md)

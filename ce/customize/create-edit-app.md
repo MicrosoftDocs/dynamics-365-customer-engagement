@@ -1,15 +1,14 @@
 ---
-title: "Create or edit a model-driven app using the app designer in PowerApps | MicrosoftDocs"
+title: "Create or edit a model-driven app using the app designer in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn how to create or edit apps using the app designer"
 keywords: ""
-ms.date: 04/04/2018
+ms.date: 11/09/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 author: "Mattp123"
 ms.assetid: 2a44229e-44f0-4c4e-ba21-a476210d0a12
 ms.author: "matp"
@@ -25,15 +24,13 @@ search.app:
   - D365CE
 ---
 
-# Create or edit a model-driven app by using the app designer
+# Create or edit an app by using the app designer
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 Create single-entity or multiple-entity apps quickly by using the tile-based app designer.  
   
-On web.powerapps.com, to edit an existing or create a new app in the app designer select **Model-driven** (lower left of the navigation pane), and then select **Apps**. 
-
-In Dynamics 365 customer enagement, open the app designer from the **My Apps** page or from the **Apps** area in the solution window.
+In Dynamics 365 for Customer Engagement, open the app designer from the **My Apps** page or from the **Apps** area in the solution window.
 
 ## Prerequisites
 Verify the following prerequisites before you start creating an app:
@@ -72,6 +69,7 @@ Verify the following prerequisites before you start creating an app:
   
      > [!NOTE]
      >  If you clear the **App URL Suffix** field and then save the app, the app URL will be automatically generated with the app ID.  
+
   
    - **Use existing solution to create the App**: Select this option to create the app from a list of installed solutions. When you select this option, **Done** switches to **Next** on the header. If you select **Next**, the **Create app from existing solution** page opens. From the **Select Solution** drop-down list, select a solution from which you want to create the app. If any site map is available for the selected solution, the **Select Sitemap** drop-down list will appear. Select the site map, and then select **Done**.
 
@@ -112,9 +110,9 @@ From within an app, the following features include filtering by record type:
 
   
 ### See also  
- [Add or edit app components](../customize/add-edit-app-components.md)   
+ [Add or edit app components](add-edit-app-components.md)   
 
  [Design custom business apps by using the app designer](design-custom-business-apps-using-app-designer.md)
 
- [Quickstart: Run a model-driven app on a mobile device](https://docs.microsoft.com/powerapps/user/run-app-client-model-driven)
+
 

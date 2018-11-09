@@ -1,7 +1,7 @@
 ---
 title: "Policies and Communications for Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 10/16/2018
+ms.date: 10/25/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -62,7 +62,7 @@ The [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] te
   
  Because the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] team strives to apply risk mitigations in a way that doesn’t require service downtime, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrators usually don’t receive emails for security updates. If a security update does require service downtime, it is considered planned maintenance.  
   
- For more information about [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] security, see [Dynamics 365 (online) Trust Center](https://www.microsoft.com/en-us/TrustCenter/CloudServices/Dynamics365).
+ For more information about [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] security, see [Dynamics 365 (online) Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/Dynamics365).
  
  <a name="bkmk_ServiceUpdates"></a>   
 
@@ -97,7 +97,7 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
  
   Minor service updates contain customization changes to support new features, product improvements, and bug fixes.
   
-  A list of minor service updates can be found on our [Releases page](https://support.microsoft.com/en-us/help/2925359/microsoft-dynamics-crm-online-releases).
+  A list of minor service updates can be found on our [Releases page](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases).
   
 ## System maintenance
 
@@ -120,7 +120,7 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
  
 - OCE: 11 AM to 9 PM
 - JPN: 10 AM to 7 PM
-- APJ: 11 AM to 8 PM
+- APJ: 2 PM to 8 PM
 - IND: 12 PM to 9 PM
 - EUR: 6 PM to 3 AM
 - GBR: 6 PM to 3 AM
@@ -260,4 +260,4 @@ Communications emails are specific to managing the Dynamics 365 Service, includi
 
   
 ### Notice about Online Policies
-Please review [Notice About Online Policies and Similar Documents](https://www.microsoft.com/en-us/legal/intellectualproperty/onlinedisclaimer.aspx).
+Please review [Notice About Online Policies and Similar Documents](https://www.microsoft.com/legal/intellectualproperty/onlinedisclaimer.aspx).
