@@ -20,6 +20,8 @@ search.app:
 ---
 
 
+# Using custom fields or entities as resource pricing dimensions in Project service
+
 Once you have a clear mental map of how you would like to set up your bill and cost rates, you can start setting up your Project Service solution. Pricing dimensions could fall broadly into 2 categories:
 
 • Custom fields and entities
