@@ -1,8 +1,8 @@
 ---
-title: "Entities and metadata overview in PowerApps | MicrosoftDocs"
+title: "Entities and metadata overview in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about entities and metadata"
 ms.custom: ""
-ms.date: 04/04/2018
+ms.date: 11/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 author: "Mattp123"
 ms.assetid: 88b18946-474c-4c94-8e4c-27532f930757
 caps.latest.revision: 28
@@ -27,12 +26,12 @@ search.app:
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-This topic looks at metadata and how you can use it to create [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] apps or customize [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+This topic looks at metadata and how you can use it to create Dynamics 365 for Customer Engagement apps or customize an existing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] app.  
 
 <a name="BKMK_Metadata"></a>
 
 ## Metadata used with customization  
- *Metadata* means data about data. [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] provides a flexible platform for you because it is relatively easy to edit the definitions of the data that the environment will use. In [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] the metadata is a collection of entities. Entities describe the kinds of data which is stored in the database.  Each entity corresponds to a database table and each field (also known as attribute) within an entity represents a column in that table. Entity metadata is what controls the kinds of records you can create and what kind of actions can be performed on them. Using only the entity metadata and web services a developer can write code to perform actions with data on your environment. You have the ability to edit this metadata with the customization tools to create or edit entities, fields, and entity relationships.  
+ *Metadata* means data about data. Dynamics 365 for Customer Engagement provides a flexible platform for you because it is relatively easy to edit the definitions of the data that the environment will use. In Dynamics 365 for Customer Engagement the metadata is a collection of entities. Entities describe the kinds of data which is stored in the database.  Each entity corresponds to a database table and each field (also known as attribute) within an entity represents a column in that table. Entity metadata is what controls the kinds of records you can create and what kind of actions can be performed on them. Using only the entity metadata and web services a developer can write code to perform actions with data on your environment. You have the ability to edit this metadata with the customization tools to create or edit entities, fields, and entity relationships.  
 
  The web application or different clients people use to interact with the data in your environment depend on the entity metadata and adapt as the entity metadata changes. But these clients also depend on other data to control what visual elements to display, any custom logic to apply, and how to apply security. This system data is also stored within entities but the entities themselves are not available for customization.  
 
@@ -109,7 +108,7 @@ You can perform the following actions:
 <a name="BKMK_CreateNewOrUseExistingMetadata"></a>
 
 ## Create new metadata or use existing metadata  
- [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] comes with a number of system entities that support core business application capabilities. For example, data about your customers or potential customers is intended to be stored using the account or contact entities. The lead entity is where information about prospects or potential sales opportunities should be kept. The opportunity entity is intended to be used to track potential revenue generating events.  
+ Dynamics 365 for Customer Engagement comes with a number of system entities that support core business application capabilities. For example, data about your customers or potential customers is intended to be stored using the account or contact entities. The lead entity is where information about prospects or potential sales opportunities should be kept. The opportunity entity is intended to be used to track potential revenue generating events.  
 
  Each of these entities also contain a number of fields that represent common data that the system may need to store for the respective entity.  
 
@@ -139,8 +138,6 @@ You can perform the following actions:
 
 ### See also  
  [Create and edit entities](../customize/create-edit-entities.md)   
- [Create and edit virtual entities](../customize/create-edit-virtual-entities.md)   
  [Create and edit entity relationships](../customize/create-edit-entity-relationships.md)   
- [Create and edit fields](../customize/create-edit-fields.md) <br/>
- [Create and edit global option sets](../customize/create-edit-global-option-sets.md)       
+ [Create and edit fields](../customize/create-edit-fields.md) <br/>      
  [Create and design forms](../customize/create-design-forms.md)
