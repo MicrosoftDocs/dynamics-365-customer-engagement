@@ -19,6 +19,7 @@ search.app:
     - D365PS
 ---
 
+# Using Transaction Category as a Pricing Dimension
 
 **1. Create a pricing dimension solution:**
 
