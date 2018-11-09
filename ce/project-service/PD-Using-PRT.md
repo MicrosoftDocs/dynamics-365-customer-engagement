@@ -25,11 +25,12 @@ search.app:
 Whenever a Quote line detail is created on the Quote line form for a Project Quote line, the system creates two estimate lines in the background: one for the cost-side of the estimate and one for sales-side of the estimate. This is true in Project Contract line detail context as well.
 
 Whenever the user makes a change to the quantity or a field on the cost side, that change is propagated to the sales side as well. This is made possible by two plug-ins that will need to be re-registered after a change to pricing dimensions:
-*1. PreOperationContractLineDetailUpdate
+
+*1. PreOperationContractLineDetailUpdate*
 
 Step: Update of msdyn_orderlinetransaction
 
-*2. PreOperationQuoteLineDetailUpdate
+*2. PreOperationQuoteLineDetailUpdate*
 
 Step: Update of msdyn_quotelinetransaction
 
