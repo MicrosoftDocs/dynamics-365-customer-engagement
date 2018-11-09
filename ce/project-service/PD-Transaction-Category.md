@@ -1,5 +1,5 @@
 ---
-title: Setup pricing dimensions in Project Service (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Using Transaction Category in PSA as a pricing dimension for Time  | MicrosoftDocs
 description: Introduction to setup of pricing dimensions in project service solution 
 author: Rumant
 manager: eichimur
