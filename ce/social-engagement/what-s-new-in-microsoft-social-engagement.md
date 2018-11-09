@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 10/19/2018
+ms.date: 11/21/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -31,6 +31,17 @@ If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.11
+
+### Announcing search rules for [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] business accounts and removal of [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search
+
+As of December 11, 2018, we will introduce the ability to track your own [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] business accounts in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. You will be able to acquire posts and comments on your own [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] business accounts. To use this new functionality the [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] Business Account needs to be linked to the respective Facebook page. Users in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will need to authenticate or re-authenticate their Facebook Acquisition profile and setup [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] Account search rules. 
+
+[!INCLUDE [tn-instagram](../includes/tn-instagram.md)] is retiring keyword searches on December 11, 2018 and users will not be able to create new keyword search rules in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] for [!INCLUDE [tn-instagram](../includes/tn-instagram.md)]. Existing keyword search rules containing [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] as a source will continue to exist as is, and the data acquired for these rules is preserved, as long as the rules are not changed. However, no new [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] data will be acquired for these rules. If the user changes such a rule, [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] needs to be removed as a source to be able to save the edited search rule. In case you want to preserve your [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] data acquired to date, we recommend that you create a separate search rule with the changes and keep the rule with [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] data untouched.
+ 
+We are going to share more detailed information through our help center when the new functionality is available and the [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search has been removed. 
+
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.10
 
