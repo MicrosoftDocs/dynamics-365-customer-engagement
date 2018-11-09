@@ -41,7 +41,7 @@ Make sure that you have the required security role or equivalent permissions.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
-1. In the Customer Service Hub sitemap, go to **Service Scheduling**.
+1. In the Customer Service Hub sitemap, go to **Scheduling**.
 2. From the list of entity records, select **Scheduling > Service**.
    - The **Active Services** view is displayed. You can switch between various system views using the drop-down menu.
    - Select any existing service to see additional options in the command bar
@@ -86,9 +86,9 @@ Make sure that you have the required security role or equivalent permissions.
   
    - Choose the **Organizational Unit** to define the unit to which the selected resource should belong to.
    - Select **Resource Categories**  and choose **Resource Characteristics** to define the categories for the resource.
-   - Choose **Preferred Resource** to display resource options.
+   - Choose **Preferred Resource** to display resource options. When only preferred resources are selected on a requirement, any one of the available resources from the list of preferred resources will be selected as per the time slot. When preferred resources are selected along with the resource category on a requirement, any one of the available resources from the list of preferred resource and which belongs to the resource category will be selected as per the time slot.
    - Choose **Sort Option** to sort according to most and least business impact.
-   - Provide **Effort Required**. While booking, this option helps you view all the resources who satify the minimum effort requirement. For example, if the effort required is defined as 100, only the resources with the rating value of 100 and more will be displayed in the list while booking the service in the schedule board.
+   - Provide **Effort Required**. While booking, this option helps you view all the resources who satify the minimum effort requirement. For example, if the effort required is defined as 100, only the resources with the capacity value of 100 and more will be displayed in the list while booking the service in the schedule board.
 
    You can add complexity to a rule by adding a subrule to it.  
    > [!NOTE]
@@ -98,6 +98,9 @@ Make sure that you have the required security role or equivalent permissions.
   
 ## Activate or deactivate a service  
  You can make a service available or unavailable for scheduling by activating or deactivating it. To do this, in the list of service records, select a service, and then select **Activate** or **Deactivate** in the command bar.  
+
+> [!NOTE]
+> If there are open or scheduled service activities associated with a service, then the service cannot be deactivated.
   
 ### See also  
 

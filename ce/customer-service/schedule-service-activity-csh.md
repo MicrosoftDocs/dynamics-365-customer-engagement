@@ -26,7 +26,8 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Use service activity to schedule service appointments by searching for an available time for a service activity. You can either search for an open time using search criteria that, at a minimum, include selecting a service, or you can define a more complex set of criteria. You can also create a service activity without checking for conflicts in the scheduled service. The service activity appears as a color block on the service calendar  
+
+Use service activity to schedule service appointments by finding the next time resources are available for a service. With the help of service activity, you can coordinate and schedule resources for a service. 
   
 > [!NOTE]
 > You can’t create a recurring service activity. Create individual service activities as needed.
@@ -37,7 +38,7 @@ Make sure that you have the required security role or equivalent permissions.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
-1. In the Customer Service Hub sitemap, go to **Service Scheduling**.
+1. In the Customer Service Hub sitemap, go to **Scheduling**.
 2. From the list of entity records, select **Scheduling > Service Activity**.
    - The **My Service Activities** view is displayed. You can switch between various system views using the drop-down menu.
    - Select any existing service activity to see additional options in the command bar.
@@ -61,11 +62,9 @@ Make sure that you have the required security role or equivalent permissions.
      - Provide the **Owner** and **Priority**.
      - Provide **Category** and **Sub-category** for the activity.
 
-7. In the **Bookable Resource Bookings** section:
+7. In the **Bookings** section:
 
-   - Create a new bookable resource booking or add an existing one.
-
-     [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and set up bookable resources](resources-service-scheduling.md)
+   - View the bookings that you have scheduled in this section.
 
 8. Select **Book** to schedule a service activity in the calendar.
 
@@ -76,14 +75,13 @@ Make sure that you have the required security role or equivalent permissions.
 
       [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a booking for a service appointment](use-schedule-board-configure-service-activity.md#schedule-a-booking-for-a-service-appointment)
 
-
       ![book-service-activity](media/book-service-activity.png)
 
-   The bookings that you schedule appear in the **Bookable Resource Bookings** tab.
+   The bookings that you schedule appear in the **Bookings** tab.
 
    ![bookable-resource-bookings](media/resource-bookings-tab.png)
 
-   You can select an existing booking and edit, activate, or deactivate it from the **Bookable Resource Bookings** tab.
+   You can select an existing booking and edit, activate, or deactivate it from the **Bookings** tab.
 
 9. To close or cancel a service activity, select **Close Service Activity** from the command bar.
 

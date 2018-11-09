@@ -28,29 +28,26 @@ search.app:
 
 Avoid disruptions in service by making sure that your resources are scheduled optimally and efficiently. Using Service Scheduling, you can plan and schedule service activities for your customers by bringing together all your resources.
 
-## Understand the new Service Scheduling experience
+## Understand the new Scheduling experience
 
 Service Scheduling, now built atop **Universal Resource Scheduling (URS)**, provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling.
 
-With the Customer Engagement apps version 9.1 release, the new Service Scheduling is available from the Customer Service Hub sitemap.
+With the Customer Engagement apps version 9.1 release, the new Service Scheduling can be enabled from the Customer Service Hub sitemap.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up the new scheduling experience](#set-up-the-new-scheduling-experience)
 
 The new experience lists the entities as follows, as compared to the legacy experience:
 
 |Legacy Service Scheduling    |New Service Scheduling    |
 |---------|---------|
-|Resources     |    Resources     |
-|Facilities/Equipment     |   Facilities/Equipment      |
-|Service     |   Service      |
-|Service Activity     |     Service Activity     |
+|Facilities/Equipment     |   Resources      |
+|Service     |   Service,  Requirement Groups    |
 |Resource Groups     |      Resource Categories      |
 |Sites     |      Organizational Units   |
 |Business Closure     |      Business Closure    |
-|Schedule Board     |      Schedule Board       |
+|Service Calendar    |      Schedule Board       |
+|Service Activity     |     Service Activity     |
 |   |           |
-
-- Sites are now Organizational Units.
-- Resource Groups are now Resource Categories.
-- You can now create all types of bookable resources using the **Resources** entity.
 
 ### Service Scheduling scenario
 
@@ -160,7 +157,7 @@ Make sure that you have the required security role or equivalent permissions.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
-1. Check the Universal Resource Scheduling (URS) version
+1. Check the Universal Resource Scheduling (URS) version.
 
    For the new experience, you should have the latest version of URS installed on your system. To check the URS version, go to **Settings** and select **Solutions** to see the current version of URS on your system.
 
@@ -169,15 +166,27 @@ Make sure that you have the required security role or equivalent permissions.
       > [!NOTE]
       >  Consider that importing the service scheduling package will upgrade URS to the latest version. If Field Service or Project Service is already installed on your org with an older version of URS, then URS will also be upgraded. </br> The latest version of URS might not be compatible with the old versions of Field Service or Project Service.
 
-2.  Get the Service Scheduling package
+2.  Get the Scheduling package.
+
+      A. Go to the
+        [Microsoft Insider Program](https://experience.dynamics.com/insider/campaign/?id=0FAAC2DF-32DB-E811-A96B-000D3A1BECE3).
+
+      B. Sign in and join the program by selecting **Join now** and follow the instructions. 
+
+      C. As we receive your details, we will enable the Service Scheduling package on your Dynamics 365 org and you will recieve a confirmation email from Microsoft.
+
+      D. Once you receive the email, go to your org’s admin center to install Service scheduling.
+
   
-3. Access Service Scheduling in the Customer Service Hub sitemap
+3. Access Scheduling in the Customer Service Hub sitemap.
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Access Service Scheduling in the Customer Service Hub](#access-service-scheduling-in-the-customer-service-hub)
 
 ## Configure entity records in the new scheduling experience
 
-Configure all your entity records in the new experience manually from the user interface. Make sure that you have the Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.
+Configure all your entity records in the new experience manually from the user interface. 
+
+Make sure that you have the correct security role or equivalent permissions. Know more about security roles: [Manage security roles in service scheduling](manage-security-roles.md).
 
 To follow the correct sequence, see [Service Scheduling scenario](#service-scheduling-scenario).
 
@@ -187,16 +196,16 @@ To follow the correct sequence, see [Service Scheduling scenario](#service-sched
 ### Migrate Service Activity
 To know how to migrate your service activity entity records from legacy to new experience by running SDK code samples, see [Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md).
 
-## Access Service Scheduling in the Customer Service Hub
-With the Customer Engagement apps version 9.1 release, Service Scheduling, built on Universal Resource Scheduling (URS), is available from the Customer Service Hub sitemap.
+## Access Scheduling in the Customer Service Hub
+With the Customer Engagement apps version 9.1 release, Scheduling is built on Universal Resource Scheduling (URS), and is available from the Customer Service Hub sitemap.
 
-- On the sitemap icon ![Sitemap](media/sitemap-icon.png) , select **...** to go to **Service Scheduling** and access the entity record types
+- On the sitemap icon ![Sitemap](media/sitemap-icon.png) , select **...** to go to **Scheduling** and access the entity record types
 
   ![access-service-scheduling](media/access-service-scheduling-csh.png)
 
 ## Understand scheduling entities
 
-Service Scheduling entities are grouped under the following logical groups:
+Scheduling entities are grouped under the following logical groups:
 
 **Scheduling**
 

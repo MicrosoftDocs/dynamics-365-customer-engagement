@@ -33,6 +33,8 @@ The predefined roles in service scheduling are:
   
 - **Customer Service Manager**. The Customer Service Manager role can setup the service scheduling experience. This role has access to all service scheduling entities.
 - **Customer Service Representative**. The Customer Service Representative can create and schedule service activities. 
+- **Customer Service Scheduler**.
+- **Customer Service Schedule Administrator**. 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security roles and privileges](../admin/security-roles-privileges.md)
 

@@ -35,7 +35,7 @@ Make sure that you have the required security role or equivalent permissions.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
   
-1. In the Customer Service Hub sitemap, go to **Service Scheduling**.
+1. In the Customer Service Hub sitemap, go to **Scheduling**.
 2. From the list of entity records, select **Scheduling > Facilities/Equipment**.
    - The **Local Facility/Equipment** view is displayed. You can switch between various system views using the drop-down list.
    

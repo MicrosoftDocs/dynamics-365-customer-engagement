@@ -34,7 +34,7 @@ Make sure that you have the required security role or equivalent permissions.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
-1. In the Customer Service Hub sitemap, go to **Service Scheduling**.
+1. In the Customer Service Hub sitemap, go to **Scheduling**.
 2. From the list of entity records, select **Scheduling > Resource Category**.
    - The **Active Resource Categories** view is displayed. You can switch between various system views using the drop-down menu.
    - Select any existing resource category to see additional options in the command bar
@@ -61,13 +61,6 @@ To assign resources to a resource category:
 2. Select **Add New Bookable Resource Category Association**. A resource category is populated. 
 
 3. Add a resource to this resource category by selecting a resource in the **Resource** box. You can either lookup for an existing resource or create a new one.
-
-## Create a requirement resource category
-
-1. In the **Related** section, go to **Requirement Resource Category**.
-
-2. Select **Add New Requirement Resource Category** and fill the required fields. A requirement resource category is created.
-
 
 ### See also 
 [Service Scheduling overview](basics-service-service-scheduling.md)

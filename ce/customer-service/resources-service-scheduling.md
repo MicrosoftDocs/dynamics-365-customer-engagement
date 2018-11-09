@@ -34,7 +34,7 @@ Make sure that you have the required security role or equivalent permissions.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
-1. In the Customer Service Hub sitemap, go to **Service Scheduling**.
+1. In the Customer Service Hub sitemap, go to **Scheduling**.
 2. From the list of entity records, select **Scheduling > Resources**.
    - The **Active Bookable Resources** view is displayed. You can switch between various system views using the drop-down menu.
    - Select any existing bookable resource to see additional options in the command bar.
@@ -56,6 +56,9 @@ Make sure that you have the required security role or equivalent permissions.
 
    - Select a **Time Zone**.
 
+     > [!NOTE]
+     > If the Resource Type is Facility or Equipment, the time zone is  automatically populated as per the facility’s or equipment’s time zone and it is not editable.
+
    - Select **Save**. A new resource is created and activated by default.
 
      **Resource Characteristics** and **Resource Categories**  sections are displayed.
@@ -73,7 +76,7 @@ Make sure that you have the required security role or equivalent permissions.
 5. In the **Scheduling** section:
 
     - Select the **Start Location** and the **End Location** to specify which location the resource will be at, when starting and ending work.
-    - Select an **Organizational Unit** for the resource.
+    - Select an **Organizational Unit** for the resource. 
     - Select whether the resource should be displayed on the schedule board in the **Display On Schedule Board** box.
     - Select whether you want to enable the resource for availability search in the **Enable for Availability Search** box.
 
@@ -85,7 +88,7 @@ Make sure that you have the required security role or equivalent permissions.
 
 You can set work hours for the bookable resources where you can define when the resources will be available to be booked for services. 
 
-1. In the Customer Service Hub sitemap, go to **Service Scheduling**.
+1. In the Customer Service Hub sitemap, go to **Scheduling**.
 2. From the list of entity records, select **Scheduling > Resources**. 
   
 4.  Open the resource record you want to set work hours for.  
@@ -159,13 +162,14 @@ You can set work hours for the bookable resources where you can define when the 
   
          Select the time the work day ends.  
   
-         To add a break in the work hours, such as a lunch break, select **Add Break**, and then select the start and end time of the break.  
-  
-13. To define a time when a service won’t be available, on the **Service Restrictions** tab, select **New**. In the **Edit a Service Restriction** dialog box, select the service, and select the start and end time between which the service will be unavailable, and then select **OK**.  
+         To add a break in the work hours, such as a lunch break, select **Add Break**, and then select the start and end time of the break. 
   
 14. To close the **Weekly Schedule** dialog box, select **Save and Close**.
 
     ![set-work-hours](media/set-work-hours-csh.png) 
+
+> [!NOTE]
+> To define a time when a service won’t be available, on the **Service Restrictions** tab, select **New**. In the **Edit a Service Restriction** dialog box, select the service, and select the start and end time between which the service will be unavailable, and then select **OK**.  
 
 ### See also
 
