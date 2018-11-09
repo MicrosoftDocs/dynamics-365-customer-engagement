@@ -21,13 +21,6 @@ search.app:
 
 # Create custom entities and option sets in the Power Apps platform
 
-
-Once you have a clear mental map of how you would like to set up your bill and cost rates, you can start setting up your Project Service solution. Pricing dimensions could fall broadly into 2 categories:
-
-• Custom fields and entities
-
-• Fields or entities that already exist in Project Service
-
 We will first start with some common steps that you will need to take any time you want to a custom Option set or a custom entity on the Power Apps platform.  
 
 **Important: It is highly recommended that you make all the changes for custom pricing dimensions in a separate solution as shown here. This is an important best practice guideline that can give you a lot of flexibility in removing these changes in the future if you need to and will also help with re-use of your work and make it easy to port these changes to another instance. Once you have made all the required changes, export this solution as a Managed solution and import it into other instances to reuse your pricing setup.**
