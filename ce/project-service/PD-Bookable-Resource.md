@@ -45,4 +45,19 @@ Open the Solution Explorer for the pricing dimension solution and “Publish All
 
 ## Step 3. Set up bookable resource as a pricing dimension
 
-Navigate to Project Service->Settings->Parameters and open the Parameter page. Then open the tab “Amount-Based Pricing Dimensions.” The grid on the tab shows the records in the Pricing Dimensions entity in Project Service. Add Bookable Resource to this list of Pricing Dimensions with applicable to cost and applicable to sale set to “Yes”. Dimension Type should be “amount-based”. Decide the priority for Bookable Resource in the cost and sales context. Usually when present as a pricing dimension, Bookable Resource has the highest priority so setting this to 1 (or 0 depending on how you count the priority) would ensure that behavior.
+Navigate to Project Service->Settings->Parameters and open the Parameter page. Then open the tab “Amount-Based Pricing Dimensions.” The grid on the tab shows the records in the Pricing Dimensions entity in Project Service. Add Bookable Resource to this list of Pricing Dimensions as msydyn_bookableresource. Decide the context in which Bookable Resource works as a pricing dimension and set "Applicable to cost" and "Applicable to sales" values. Dimension Type should be “amount-based”. Decide the priority for Bookable Resource in the cost and sales context. Usually when present as a pricing dimension, Bookable Resource has the highest priority so setting this to 1 (or 0 depending on how you count the priority) would ensure that behavior.
+
+## Step 4. Set up pricing dimension field names
+
+Whenever the field name of a pricing dmension in the Role Price table is different from its field name in any of other entities where price defaulting needs to work, the Pricing dimension record for that needs to be made aware of the entity in which it is named differently.    
+For Bookable Resource, the project team members entity in Project Service has a slightly different field name it(msdyn_bookableresourceid) from what it is called on the Role price entity (msdyn_bookableresource). So the pricing dimension record for msydn_bookableresource must be made aware of this. Navigate to the dimension page of msdyn_bookableresource by double-clicking on the row in the pricing dimensions grid.
+The Main page for the pricing dimension of msdyn_bookableresource will open. On this page, find the "Related" tab and click on "Pricing Dimension Field Names".
+
+On the associated view that opens, click on "Add New Pricing Dimension Field Names".
+
+This opens the "New Pricing dimension field name" page for msdyn_bookableresource
+
+Add the msdyn_projectteam to the "Entity Locigal Name" field and msdyn_bookableresourceid to the "Field Name" field. Save the record.
+
+
+
