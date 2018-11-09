@@ -19,7 +19,7 @@ search.app:
     - D365PS
 ---
 
-# Understand your Organization's strategy for pricing human resource time
+# Understand your organization's strategy for pricing human resource time
 
 Identify how your organization would like to setup bill rates and cost rates for human resource time. To do this, it helps to discuss with finance teams and practice heads. How project organizations price for human resource time is often an important strategic consideration that directly affects the profitability of the project organization. Also, given the importance of this decision, it also helps to revisit this once every 2-3 years to see if your pricing strategy is giving you adequate results.
 
