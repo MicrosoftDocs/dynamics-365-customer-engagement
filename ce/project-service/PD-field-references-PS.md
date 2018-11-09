@@ -19,7 +19,7 @@ search.app:
     - D365PS
 ---
 
-# 2. Add custom fields to price setup and transactional entities of Project Service (Steps 5-7)
+# Part 2. Add custom fields to price setup and transactional entities of Project Service (Steps 5-7)
 
 Assuming you have completed the common steps 1 to 4 and created your pricing dimension solution, we will proceed to adding the required references for these custom fields to entities and the User Interface elements such as Forms and Views in Project Service solution
 
