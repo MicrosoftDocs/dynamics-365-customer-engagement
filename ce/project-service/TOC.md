@@ -3,7 +3,7 @@
 # Project Service Product documentation (app version 3.x)
 ## Customize the working of Pricing and Costing in Project Service 
 ### [Pricing and costing dimensions for professional services](PD-Pricing-and-costing-dimensions-for-professional-services.md)
-#### [Understand your Organization's strategy for pricing human resource time](PD-Identify-your-pricing-needs.md)
+#### [Understand your organization's strategy for pricing human resource time](PD-Identify-your-pricing-needs.md)
 #### [Default pricing dimensions in Project Service](PD-Default-pricing-dimensions-in-Project-Service.md)
 ### [Using custom fields or entities as resource pricing dimensions](PD-Using-Custom-field-entities-as-PD.md)
 #### [1. Steps for creating a custom field or entity in the Power Apps platform (Steps 1-4)](PD-Common-steps.md)
