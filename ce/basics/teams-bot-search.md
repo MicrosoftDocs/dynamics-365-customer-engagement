@@ -29,7 +29,7 @@ search.app:
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!NOTE]
-> THe Dynamics 365 bot for Teams is currently only available for organizations in the North American region.
+> The Dynamics 365 bot for Teams is currently only available for organizations in the North American region.
 
 The Dynamics 365 app for Teams bot feature allows you to interact with Dynamics 365 (online) to find, display, and update the records within Microsoft Teams conversations.
 

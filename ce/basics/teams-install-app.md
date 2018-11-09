@@ -92,7 +92,7 @@ For troubleshooting, see [Troubleshoot Teams integration](teams-troubleshoot.md)
 ## Set up the Dynamics 365 bot
 
 > [!NOTE]
-> THe Dynamics 365 bot for Teams is currently only available for organizations in the North American region.
+> The Dynamics 365 bot for Teams is currently only available for organizations in the North American region.
 
 Set up the bot feature to interact with Dynamics 365 (online).
 
