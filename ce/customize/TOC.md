@@ -62,6 +62,7 @@
 ## [Create or edit dashboards](create-edit-dashboards.md)
 ### [Set properties for a chart or list](set-properties-chart-list-included-dashboard.md)
 ### [Manage components](manage-dashboard-components.md)
+### [Configure interactive experience dashboards](configure-interactive-experience-dashboards.md)
 ## [Create or edit a system chart](create-edit-system-chart.md)
 ## [Create or edit a report](customize-organize-reports.md)
 
