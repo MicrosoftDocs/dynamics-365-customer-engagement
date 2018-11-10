@@ -1533,7 +1533,7 @@ Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E4
 						<xs:element name="ReportVisibilities" minOccurs="0" maxOccurs="1">
 							<xs:complexType>
 								<xs:sequence>
-									<xs:element name="ReportVisbility" minOccurs="0" maxOccurs="unbounded">
+									<xs:element name="ReportVisibility" minOccurs="0" maxOccurs="unbounded">
 										<xs:simpleType>
 											<xs:restriction base="xs:integer">
 												<xs:enumeration value="1" />
