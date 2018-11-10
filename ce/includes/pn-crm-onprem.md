@@ -1,1 +1,1 @@
-Dynamics 365 for Customer Engagement (on-premises)
+Dynamics 365 (on-premises)
