@@ -1,7 +1,7 @@
 ---
 title: "Key preparation and configuration tasks | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 11/11/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -112,7 +112,7 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
   
 6. Click the **BrowserStorage** subkey, and in the right pane, right-click, and then click **New** > **DWORD Value**.  
   
-7. Type `DeafultDomainCacheLimitInMB` as the name.  
+7. Type `DefaultDomainCacheLimitInMB` as the name.  
   
 8. Double-click the DWORD item you just created.  
   
