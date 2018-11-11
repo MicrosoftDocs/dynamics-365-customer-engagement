@@ -1,8 +1,8 @@
 ---
-title: "Create or edit quick create forms in PowerApps | MicrosoftDocs"
+title: "Create or edit quick create forms in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn how to create or edit a quick create form"
 ms.custom: ""
-ms.date: 04/04/2018
+ms.date: 11/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 author: "Mattp123"
 ms.assetid: 68ca9059-cc5a-45e7-88bd-cc57186bbb48
 caps.latest.revision: 18

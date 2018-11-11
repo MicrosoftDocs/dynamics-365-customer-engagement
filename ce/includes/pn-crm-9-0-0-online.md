@@ -1,1 +1,1 @@
-Dynamics 365 (online), version 9.0
+Dynamics 365 for Customer Engagement apps version 9.0
