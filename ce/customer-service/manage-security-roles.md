@@ -31,12 +31,33 @@ A user in Customer Service is a member of your organization who will use a Servi
 
 The predefined roles in service scheduling are:
   
-- **Customer Service Manager**. The Customer Service Manager role can setup the service scheduling experience. This role has access to all service scheduling entities.
-- **Customer Service Representative**. The Customer Service Representative can create and schedule service activities. 
+- **Customer Service Manager (CSM)**. The Customer Service Manager role can setup the service scheduling experience. This role has access to all service scheduling entities.
+- **Customer Service Representative (CSR)**. The Customer Service Representative can create and schedule service activities. 
 - **Customer Service Scheduler**.
 - **Customer Service Schedule Administrator**. 
 
+> [!NOTE]
+> To ensure that all CSR users are able to schedule using the scheduling experience, they should also be assigned the Customer Service Scheduler role. </br>  </br>
+Similarly, to ensure that all CSM users are able to set up the scheduling experience, they should also be assigned the Customer Service Schedule Administrator role.
+
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security roles and privileges](../admin/security-roles-privileges.md)
+
+## Understand roles and their functionalities
+
+Each role in the scheduling experience is expected to perform a set of functionalities. Refer the table below to know more about the privileges of the CSM and CSR role:
+
+|Role  |Functionality  |
+|---------|---------|
+|Customer Service Manager (CSM)     |     Can create, access, and perform CRUD operations on Services    |
+|      |   Can create, access, and perform CRUD operations on Service Activities      |
+|     |    Can access Schedule Board     |
+|   |   Can create, and access Facilities and Equipment      |
+|Customer Service Representative (CSR)     |    Can create, access, and perform CRUD operations on Service Activities      |
+|    | Can access Schedule Board         |
+|    |   Can create, and access Facilities and Equipment      |
+
+
+
 
 ### See also  
 
