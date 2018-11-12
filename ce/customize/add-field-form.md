@@ -1,7 +1,7 @@
 ---
-title: "Add a field to a form in PowerApps | MicrosoftDocs"
+title: "Add a field to a form in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 03/30/2018
+ms.date: 11/08/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,7 +10,6 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "PowerApps"
 author: "Mattp123"
 ms.assetid: 29499887-6e7b-44a1-86a7-eaad33f3075d
 caps.latest.revision: 30
@@ -25,7 +24,7 @@ search.app:
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-If a [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] form doesn’t meet your organization’s business requirements, you can customize the form by changing existing fields or by adding new fields. While it might be simpler to edit the existing fields on a form, sometimes it’s better to add a field to address a specific business scenario.  
+If a Dynamics 365 for Customer Engagement form doesn’t meet your organization’s business requirements, you can customize the form by changing existing fields or by adding new fields. While it might be simpler to edit the existing fields on a form, sometimes it’s better to add a field to address a specific business scenario.  
   
 1. Open solution explorer.
   

@@ -1,7 +1,7 @@
 ---
 title: "Administrator Guide (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 10/30/2017
+ms.date: 11/08/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -98,4 +98,5 @@ Implementers and administrators for [!INCLUDE[pn_microsoftcrm](../includes/pn-dy
 
 [Customization Guide](../customize/overview.md)<br />
 [Developer Guide](../developer/developer-guide.md)<br />
-[Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)
+[Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md) <br />
+[Deploy and operate (on-premises)](../on-premises/deploy-and-operate-dynamics-365-on-premises.md)

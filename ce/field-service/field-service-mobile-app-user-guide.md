@@ -1,5 +1,5 @@
 ---
-title: "Field Service Mobile App User Guide (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Field Service Mobile Setup (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 10/29/2018
@@ -26,7 +26,7 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Field Service Mobile App User Guide
+# Field Service Mobile Setup
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
