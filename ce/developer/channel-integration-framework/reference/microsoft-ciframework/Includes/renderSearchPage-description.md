@@ -1,0 +1,1 @@
+Allows you to search among records of a particular entity type.
