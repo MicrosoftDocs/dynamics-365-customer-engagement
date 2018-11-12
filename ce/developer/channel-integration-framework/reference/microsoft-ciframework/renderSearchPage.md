@@ -17,6 +17,7 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 ---
+# renderSearchPage (CIF JavaScript API Reference)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
 
