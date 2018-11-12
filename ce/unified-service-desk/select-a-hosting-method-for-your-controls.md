@@ -3,10 +3,8 @@ title: "Select a hosting method for your controls in Unified Service Desk for Dy
 description: "Learn about different types of hosting methods for your controls in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
-ms.date: 08/23/2017
-ms.reviewer: ""
+ms.date: 12/01/2018
 ms.service: dynamics-365-customerservice
-ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
@@ -16,7 +14,6 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 90ee21c6-d686-4845-9567-800c25008bfc
-caps.latest.revision: 17
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -33,8 +30,8 @@ monikerRange: '>= dynamics-usd-3'
   
  ![Hosting type in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-samplehostedcontrol.PNG "Hosting type in Unified Service Desk") 
 
-::: moniker range="dynamics-usd-4"
-## Edge process
+::: moniker range="dynamics-usd-41"
+## Edge Process
 
 The Edge Process browser control hosts your controls in individual Edge process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Edge, it will work in Unified Service Desk. You can select Edge Process as the hosting method for the **CRM Dialog**, **CRM Page**, **KM Control**, and **Standard Web Application** type of hosted controls.
 

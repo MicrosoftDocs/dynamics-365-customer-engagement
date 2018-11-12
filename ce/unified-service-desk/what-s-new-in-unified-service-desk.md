@@ -2,7 +2,7 @@
 title: "What's new in Unified Service Desk for developers and customizers | MicrosoftDocs"
 description: "Learn about the new features for developers and customizers in Unified Service Desk."
 keywords: ""
-ms.date: 08/17/2018
+ms.date: 12/01/2018
 ms.service: 
   - "dynamics-365-customerservice"
 ms.custom: 
@@ -18,8 +18,6 @@ ms.assetid: 1c6da924-cfef-4cbf-a6d5-63af8f1a640d
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
 ms.tgt_pltfrm: 
 search.audienceType: 
   - customizer
@@ -28,28 +26,13 @@ search.app:
   - D365CE
   - D365USD
 ---
+::: moniker range="dynamics-usd-41"
 
-# What's new in Unified Service Desk for developers and customizers
+#  What's new in [!INCLUDE[pn-unified-service-desk-4-1](../../includes/pn-unified-service-desk-4-1.md)] for developers and customizers
+
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for developers and system customizers.
 
-::: moniker range="dynamics-usd-4"
-
-<a name="NewIn40"></a>
-## What's new in [!INCLUDE[pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)]
-
-Developers and customizers will be able to use the following new features in the [!INCLUDE[pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)] release. 
-
-### General Availability: Support for Unified Interface apps in Unified Service Desk
-
-With the release of [!include[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] (online), version 9.0, we've introduced a new user experience -[Unified Interface](/dynamics365/customer-engagement/admin/about-unified-interface), which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can load a URL or page from Dynamics 365, which is built based on the Unified Interface framework.
-
-A new hosted control type called **Unified Interface Page** is introduced, which you need to set as **USD Component Type** while creating a hosted control to use a URL or page from [!include[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
-
-The experience of the supportability is that the Unified Interface Page hosted control type exposes number of predefined UII actions and events that are unique to handling of Dynamics 365 windows built using Unified Interface framework including list manipulation actions, and a find action for displaying a quick search or advanced search page.
-
-## Preview features
-
-### Stack notification in Unified Service Desk
+## Stack notification in Unified Service Desk
 
 You can configure stack notifications in Unified Service Desk to display popup notification messages to your customer service agents that contains general information or some customer or process-related information that the agent can act on.
 This facilitates simultaneous toast notifications in a multi-session environment. 
@@ -58,7 +41,40 @@ Two new parameters are introduced: **stack** and **stackHeight**, for which you 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stack Notifications](configure-notifications-unified-service-desk.md#stack-notifications) and [Popup Notification Hosted Control](popup-notification-hosted-control.md)
 
-### Switch between local sessions, and between local and global sessions
+## Switch between local sessions, and between local and global sessions
+
+When you are working on a case (local session) and want to review your Dashboard (global session) or another case (local session), you can easily switch from the case to Dashboard or another case, without affecting your session timer. That is, when you switch from local session, your session timer will not be counted until you switch back to the session. This helps in efficiently measure the agents' productivity.
+
+Using **SwitchSession** action, you can now switch between local sessions. Also, you can switch sessions between local and global by passing the global session ID retrieved from the context using the replacement parameter.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [SwitchSession Action](session-tabs-hosted-control.md#switchsession)
+
+::: moniker-end
+
+::: moniker range="dynamics-usd-4"
+
+# What's new in [!INCLUDE[pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)] for developers and customizers
+
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for developers and system customizers. 
+
+## General Availability: Support for Unified Interface apps in Unified Service Desk
+
+With the release of [!include[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] (online), version 9.0, we've introduced a new user experience -[Unified Interface](/dynamics365/customer-engagement/admin/about-unified-interface), which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can load a URL or page from Dynamics 365, which is built based on the Unified Interface framework.
+
+A new hosted control type called **Unified Interface Page** is introduced, which you need to set as **USD Component Type** while creating a hosted control to use a URL or page from [!include[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+
+The experience of the supportability is that the Unified Interface Page hosted control type exposes number of predefined UII actions and events that are unique to handling of Dynamics 365 windows built using Unified Interface framework including list manipulation actions, and a find action for displaying a quick search or advanced search page.
+
+### Preview features: Stack notification in Unified Service Desk
+
+You can configure stack notifications in Unified Service Desk to display popup notification messages to your customer service agents that contains general information or some customer or process-related information that the agent can act on.
+This facilitates simultaneous toast notifications in a multi-session environment. 
+
+Two new parameters are introduced: **stack** and **stackHeight**, for which you can set the values to show the notifications in a stack with a certain height.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stack Notifications](configure-notifications-unified-service-desk.md#stack-notifications) and [Popup Notification Hosted Control](popup-notification-hosted-control.md)
+
+## Preview features: Switch between local sessions, and between local and global sessions
 
 When you are working on a case (local session) and want to review your Dashboard (global session) or another case (local session), you can easily switch from the case to Dashboard or another case, without affecting your session timer. That is, when you switch from local session, your session timer will not be counted until you switch back to the session. This helps in efficiently measure the agents' productivity.
 
@@ -69,6 +85,8 @@ Using **SwitchSession** action, you can now switch between local sessions. Also,
 ::: moniker-end
 
 ::: moniker range="dynamics-usd-3"
+
+# What's New in Unified Service Desk for developers and customizers
 
 <a name="WhatsNew33"></a>   
 ## What's new in [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)]  
@@ -127,7 +145,6 @@ to help you perform actions as soon as the related information for an entity
 record is loaded in the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] context. 
 
 More information: [CRM Page (Hosted Control)](crm-page-hosted-control.md)
-
 
 ### Asynchronously create entity records to prevent execution blocking
 

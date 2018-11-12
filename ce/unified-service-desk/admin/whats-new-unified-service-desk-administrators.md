@@ -2,7 +2,7 @@
 title: "What's new in Unified Service Desk for Dynamics 365 Customer Engagement for administrators | MicrosoftDocs"
 description: "Learn about new Unified Service Desk features for Dynamics 365 Customer Engagement"
 keywords: ""
-ms.date: 08/17/2018
+ms.date: 12/01/2018
 ms.service: 
   - "dynamics-365-customerservice"
 ms.custom: 
@@ -18,8 +18,6 @@ ms.assetid: 57f18bf9-1e28-481b-9d78-f2adaf281e16
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
 ms.tgt_pltfrm: 
 search.audienceType: 
   - admin
@@ -34,7 +32,12 @@ search.app:
 
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
 
-## 
+## Hosting application in Microsoft using the Edge Process hosting type
+
+Use the Microsoft Edge, the modern, faster, safer and responsive web browser to host applications in Unified Service Desk.
+Select Edge Process as the hosting method for the CRM Dialog, CRM Page, KM Control, and Standard Web Application type of hosted controls.
+
+More information: [Edge process](select-a-hosting-method-for your-controls.md#edge-process)
 
 ::: moniker-end
 
@@ -95,9 +98,11 @@ A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../incl
 
 ::: moniker range="dynamics-usd-3"
 
+# What's new in Unified Service Desk for administrators
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
+
 ## What's new in [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)]
 
-This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
 
 #### Videos
 
@@ -165,7 +170,6 @@ In this case, you hold the responsibility to delete the Diagnostic log files.
 
 ## What's new in [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)]
 
-This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
 
 ### Performance enhancement for CRM page loads
 
@@ -221,9 +225,6 @@ New UII options introduced in [!INCLUDE [pn-unified-service-desk-3-2](../../incl
 
 ## What's new in [!INCLUDE[pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)]
 
-This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
-
-
 ### Support for the latest
 
 [!INCLUDE [pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)] is compatible with the [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)].
@@ -254,9 +255,7 @@ These are the limitations:
 - **Multi-select option sets**: Although multi-select option sets display fine when hosted in Unified Service Desk (using [CRM Page](../crm-page-hosted-control.md) type of hosted control), you cannot change selections in multi-select option sets using the Unified Service Desk APIs.
 - **URL addressability in business apps**:  Business apps (app modules) use the appid value in the URLs to refer to resources displayed in an app. For example: “https://<OrgName>.crm.dynamics.com/main.aspx?appid=b0f40cd2-22a6-e711-a94e-000d3a1a7a9b&pagetype=entitylist&etn=bookableresourcebooking.” Unified Service Desk does not support the usage of appid values in URLs to refer to a resource. More information: [Design custom business apps by using the app designer](/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
 
-## What's new in [!INCLUDE [pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)] 
-
-This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.   
+## What's new in [!INCLUDE [pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)]  
 
 ### Error  diagnostics reporting settings moved to Audit & Diagnostics Settings area  
  Previous versions maintained the error diagnostics reporting settings in the Options area of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution. With this release, to simplify configuration the error diagnostics reporting settings have been moved to the Audit & Diagnostics Settings area. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Diagnostics](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md#BKMK_Diagnostics)  
