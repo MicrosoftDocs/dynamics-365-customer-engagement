@@ -265,9 +265,23 @@ A goal is what the RSO solution aspires to optimize. An example of a goal is to 
 
 - Meet all company constraints.
 - Have the highest possible score for the company’s objectives.
+
+### Default optimization goal
+
+When Resource Scheduling Optimization is deployed for the first time, the system automatically creates a default goal with some constraints and objectives enabled. 
+
+- The default goal has the following constraints and objectives enabled. The user can modify as needed or create a new optimization goal and associate it as a default goal.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of default goal in scheduling parameters](media/rso-default-goal-1.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-default-goal-2.png)
+
+- The default goal is used when single resource optimization is selected from the schedule board.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-single-resource-1.png)
   
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of a scheduling optimization goal](media/13db00f67badee105913102fc3e121ed.png)
 
 **Engine Effort Level**: How much effort the RSO should make to find the best combination of resources, route, and day/time. The higher the effort, the longer RSO takes to complete the execution. For example, the effort might be very light, light, moderate, intense, or very intense. The higher the intensity, the more iterations of possible combinations the RSO engine considers.
 
@@ -341,27 +355,37 @@ A goal is what the RSO solution aspires to optimize. An example of a goal is to 
     > - RSO will ensure the **Estimated Arrival Time** falls into the window
     > specified above. It does not guarantee that the booking’s end time will fall
     > within the time window.
+    - **Empty time values (v3.0+)** 
+
+    > RSO will respect scenarios when only a start or end time is defined on a requirement.
+
+    > In the example below where a requirement has only a time window start value, RSO schedule the requirement anytime after 1:00 PM regardless of date.
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-empty-time-promised.png)
+
+    > This logic applies to the below fields 
+
+    > On Resource Requirement entity 
+     > -	Time Window Start/End 
+     > -	Time From Promised/ Time To Promised 
+     > -	From Date/ To Date 
+
+    > On Resource Booking entity 
+     >   -	Time Window Start/End 
+     >   -	Time From Promised/ Time To Promised 
+     >   -	From Date/ To Date 
 
 - **Restricted Resources**: If marked, RSO will not schedule a restricted
     resource to the booking.
 
-### Default optimization goal
-
-When Resource Scheduling Optimization is deployed for the first time, the system automatically creates a default goal with some constraints and objectives enabled. 
-
-- The default goal has the following constraints and objectives enabled. The user can modify as needed or create a new optimization goal and associate it as a default goal.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of default goal in scheduling parameters](media/rso-default-goal-1.png)
-> [!div class="mx-imgBorder"]
-> ![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-default-goal-2.png)
-
-- The default goal is used when single resource optimization is selected from the schedule board.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-single-resource-1.png)
-
 ### Define objectives
+
+Add and rank the objectives of RSO scheduling by using the Move Up, Move Down buttons
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-order-objectives.png)
 
 - **Maximize total working hours**: The combination of the engine results
     (iteration) with the total highest aggregate work time will best meet this
@@ -414,4 +438,50 @@ When Resource Scheduling Optimization is deployed for the first time, the system
     Importance**=1 for low priority and RSO will score 1 urgent requirement the
     same as 10 low-priority requirements because both scores are 10.
 
+- **Maximize Preferred Resources (v3.0+)** -  RSO will consider the list of preferred resources noted on related requirements. The optimizer will try to assign bookings to preferred resources first while meeting other constraints and objectives.
 
+This is achieved by adding the "Maximize Preferred Resources" objective in your RSO goal and adding a preferred resource(s) on the requirement that will be optimized.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of maximize preferred resource objective in a goal](./media/scheduling-rso-3-0-maximize-preferred-resources.png)
+
+
+Below is an example of adding a resource (e,g: Jorge Gault) as a preferred resource to a requirement.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of requirement with preferred resource](./media/scheduling-rso-3-0-requirement-preferred-resources.png)
+
+
+After running an Optimization Schedule, the requirement is scheduled to the preferred resource. In the example below, work order 00100 is scheduled to Jorge Gault.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-preferred-resource-optimized.png)
+
+> [!Note]
+> The Maximize Preferred Resources objective only applies to **preferred** resources. **Restricted** resources is a constraint that can be added to the goal.
+
+
+- **Best Matching Skill Level (v3.0+)** - RSO will consider the proficiency rating when matching the characteristics required by requirements and the resources who possess those characteristics. This is dependent on the **Meets Required Characteristic** constraint within the Optimization Goal.
+
+
+  - If ‘Meets Required Characteristics’ constraint **is checked** 
+    - resources without the characteristic (skill) or less qualified (less proficiency rating than required) are not eligible at all
+    - resources with the exact skill level (best matching) get the highest score
+    - the more overqualified a resource is, the less score they will get 
+ 
+
+  - If ‘Meets Required Characteristics’ constraint **is unchecked**, resources without the skill or less qualified can still be booked
+    - overqualified resources get a higher score than less qualified ones
+    - the more overqualified a resource is, the less score they will get 
+    - the less-qualified a resource is, the less score they will get 
+    - Resource without the skill get the lowest score but not zero
+
+**For example:** If a characteristic (skill) rating model is from 1 to 10, and the requirement asks for a skill level of 4, below is the score distribution based on skill level of the resource 
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-characteristic-proficiency-chart.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-characteristic-proficiency-objective.png)
