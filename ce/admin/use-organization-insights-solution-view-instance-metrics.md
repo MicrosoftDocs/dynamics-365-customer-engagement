@@ -29,7 +29,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online
 -->
 
 > [!IMPORTANT]
-> We've improved how you view metrics for your organization. You no longer need to install or update a solution. Instead, you can view Customer Data Service for Apps analytics right from the [Power platform Admin center](https://admin.powerplatform.microsoft.com) to quickly view adoption ad user metrics for your organization.
+> We've improved how you view metrics for your organization. You no longer need to install or update a solution. Instead, you can view Common Data Service for Apps analytics right from the [Power platform Admin center](https://admin.powerplatform.microsoft.com) to quickly view adoption ad user metrics for your organization.
 >
 > For more information, see [Common Data Service for Apps analytics](https://docs.microsoft.com/power-platform/admin/analytics-common-data-service)
 
