@@ -70,7 +70,7 @@ You can also filter the report on one or more values. The syntax to filter a rep
 
 URL?filter=**Table**/**Field** eq '**value**'
 
-For example, say you want to filter the report to see data for a contact name Bert Hair, append the URL with the following:
+For example, say you want to filter the report to see data for a contact named Bert Hair. You must append the URL with the following:
 
 ?filter=Executives/Executive eq 'Bert Hair'
 
