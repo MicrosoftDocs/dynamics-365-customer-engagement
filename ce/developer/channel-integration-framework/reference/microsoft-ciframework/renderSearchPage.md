@@ -25,14 +25,20 @@ manager: shujoshi
 
 ## Syntax
 
-`Microsoft.CIFramework.renderSearchPage(entityName, searchString).then(successCallback, errorCallback);`
+`Microsoft.CIFramework.renderSearchPage(entityLogicalName, searchString).then(successCallback, errorCallback);`
 
 ## Parameters
 
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
-| entityName | String | Yes | Name of the entity that is to be queried.  |
+| entityLogicalName | String | Yes | Logical name of the entity that is to be queried. For example: "account". |
 | searchString | String | Yes | String to search among the attributes of the entity records. |
+| options | String | No | <p>OData system query options, <b>$select</b> and <b>$expand</b>, to retrieve your data.</p>
+<ul><li>Use the <b>$select</b> system query option to limit the properties returned by including a comma-separated list of property names. This is an important performance best practice. If properties aren’t specified using <b>$select</b>, all properties will be returned.</li>
+<li>Use the <b>$expand</b> system query option to control what data from related entities is returned. If you just include the name of the navigation property, you’ll receive all the properties for related records. You can limit the properties returned for related records using the <b>$select</b> system query option in parentheses after the navigation property name. Use this for both <i>single-valued</i> and <i>collection-valued</i> navigation properties.</li>
+</ul>
+<p>You specify the query options starting with <code>?</code>. You can also specify multiple query options by using <code>&amp;</code> to separate the query options. For example:</p>
+<code>?$select=name&amp;$expand=primarycontactid($select=contactid,fullname)</code> |
 | successCallback | Function | No | A function to call when the request is successful. |
 | errorCallback | Function | No | A function to call when the request fails. |
 
