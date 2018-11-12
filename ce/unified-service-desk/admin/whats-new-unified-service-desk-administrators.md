@@ -31,6 +31,13 @@ search.app:
 # New feature information for administrators
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
 
+::: moniker range="dynamics-usd-41"
+
+## What's new in [!INCLUDE[pn-unified-service-desk-4-1](../../includes/pn-unified-service-desk-4-1.md)]
+
+::: moniker-end
+
+
 ::: moniker range="dynamics-usd-4"
 
 <a name="NewIn40"></a>
