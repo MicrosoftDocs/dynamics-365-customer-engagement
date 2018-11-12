@@ -31,8 +31,8 @@ manager: shujoshi
 
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
-| entityName | string | Yes | Name of the entity that is to be queried.  |
-| searchString | string | Yes | String to search among the attributes of the entity records. |
+| entityName | String | Yes | Name of the entity that is to be queried.  |
+| searchString | String | Yes | String to search among the attributes of the entity records. |
 | successCallback | Function | No | A function to call when the request is successful. |
 | errorCallback | Function | No | A function to call when the request fails. |
 
