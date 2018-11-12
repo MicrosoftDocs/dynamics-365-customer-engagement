@@ -27,7 +27,7 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 
-Use service activity to schedule service appointments by finding the next time resources are available for a service. With the help of service activity, you can coordinate and schedule resources for a service. 
+Use service activity to schedule service appointments by finding the next time resources are available for a service. With the help of service activity, you can coordinate and schedule resources for a service required by your customers.
   
 > [!NOTE]
 > You can’t create a recurring service activity. Create individual service activities as needed.
@@ -73,7 +73,7 @@ Make sure that you have the required security role or equivalent permissions.
     - Select the **Booking Status** from the drop-down menu.
     - Select **Book** to schedule a service activity. Select **Book and Exit** to schedule and exit the tab.
 
-      [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a booking for a service appointment](use-schedule-board-configure-service-activity.md#schedule-a-booking-for-a-service-appointment)
+      [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a booking for a service activity](use-schedule-board-configure-service-activity.md#schedule-a-booking-for-a-service-activity)
 
       ![book-service-activity](media/book-service-activity.png)
 

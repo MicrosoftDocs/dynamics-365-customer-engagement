@@ -69,7 +69,7 @@ Make sure that you have the required security role or equivalent permissions.
       - Select **Duration**, and enter the duration in minutes to define the duration for which resources are allocated for the service. 
 
         > [!NOTE]
-        > The maximum duration of an appointment or service activity is 10 days.
+        > The maximum duration of a service activity is 10 days.
 
       - Lookup or quick create a **Fulfillment Preference** to define the start time and end time of the service availability in a day and intervals in which it is provided. You can also choose from a list of fulfillment preferences displayed. 
         > [!NOTE]

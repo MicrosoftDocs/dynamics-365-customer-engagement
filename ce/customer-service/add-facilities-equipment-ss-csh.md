@@ -44,7 +44,7 @@ Make sure that you have the required security role or equivalent permissions.
   
 5.  In the **General** section, fill in the information as required:  
   
-    - **Name**. Enter the name of the facility or equipment you want to add for service scheduling.  
+    - **Name**. Enter the name of the facility or equipment you want to add for scheduling.  
   
     - **Business Unit ID**. Enter a business unit ID. To choose an ID, select the **Lookup** button and then select from the list. You can also create a new business unit ID.
   

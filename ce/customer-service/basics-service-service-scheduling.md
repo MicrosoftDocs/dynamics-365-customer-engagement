@@ -51,7 +51,7 @@ The new experience lists the entities as follows, as compared to the legacy expe
 
 ### Service Scheduling scenario
 
-The following scenario helps to understand how the new service scheduling experience lets you manage your service activities seamlessly: 
+The following scenario helps to understand how the new scheduling experience lets you manage your service activities seamlessly: 
 
 Contoso bike repair schedules repair services for their customers. To facilitate this process, Contoso needs to bring together the following information:
 
@@ -61,7 +61,7 @@ Contoso bike repair schedules repair services for their customers. To facilitate
 - Work hours during which they perform their services. 
 - Capacity and expert level for all personnel.
 
-Contoso can benefit from the Service Scheduling feature by quickly catering to their customers with their repair services. With the various service scheduling entities, they can plan service activities for their customers by considering the availability of resources, facilities, and equipment. 
+Contoso can benefit from the Service Scheduling feature by quickly catering to their customers with their repair services. With the various scheduling entities, they can plan service activities for their customers by considering the availability of resources, facilities, and equipment. 
 
 Let's see how Contoso accomplishes the task:
 
@@ -164,7 +164,7 @@ Make sure that you have the required security role or equivalent permissions.
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
 
       > [!NOTE]
-      >  Consider that importing the service scheduling package will upgrade URS to the latest version. If Field Service or Project Service is already installed on your org with an older version of URS, then URS will also be upgraded. </br> The latest version of URS might not be compatible with the old versions of Field Service or Project Service.
+      >  Consider that importing the scheduling package will upgrade URS to the latest version. If Field Service or Project Service is already installed on your org with an older version of URS, then URS will also be upgraded. </br> The latest version of URS might not be compatible with the old versions of Field Service or Project Service.
 
 2.  Get the Scheduling package.
 

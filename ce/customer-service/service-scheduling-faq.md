@@ -38,9 +38,9 @@ Read this topic to find answers to some common questions regarding Service Sched
   
 - **Organizational units:** The location of a resource. Use organizational units to make sure that the customer and the resource are in the same location.  
   
-- **Service activity:** A schedulable appointment to provide a service to a customer. A service activity uses one or more resources to perform a service at a specific time and place. An appointment is a schedulable activity that does not use services and does not require a resource with work hours.  
+- **Service activity:** A schedulable activity to provide a service to a customer. A service activity uses one or more resources to perform a service at a specific time and place.  
   
-- **Scheduling rule:** A set of criteria that specifies which personnel, equipment, facilities, or resource categories are required to perform a service, or how to select these resources, based on parameters like quantity and capacity.  
+- **Resource requirements:** A set of criteria that specifies which personnel, equipment, facilities, or resource categories are required to perform a service, or how to select these resources, based on parameters like quantity and capacity.  
 
 ## What is capacity and effort? What is the difference?
  You can set up services and resources in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to take into account different-sized facilities or the experience levels of your users when a service is scheduled. This is known as capacity scheduling. Capacity is a relative unit that you define. 

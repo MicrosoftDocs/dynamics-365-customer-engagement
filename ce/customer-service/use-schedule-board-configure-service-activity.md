@@ -28,11 +28,11 @@ Schedule board in Service Scheduling lets you view resource availability before 
 
 In the schedule board, you can do the following tasks and activities:  
   
-- View your organization's daily, weekly, and monthly schedule of appointments and service activities.  
+- View your organization's daily, weekly, and monthly schedule of service activities.  
   
 - View work schedules and service activity schedules for a variety of resources.  
   
-- Create new appointments and schedule service activities.  
+- Schedule service activities.  
   
 - Change the status of an existing service activity.  
   
@@ -42,7 +42,7 @@ In the schedule board, you can do the following tasks and activities:
 > You can’t customize the schedule board or change the default view with the application. However, you can ask your system administrator to change the colors of the time blocks.  
  
 ## Navigate the schedule board
-In the Customer Service Hub sitemap, navigate to **Service Scheduling** > **Tools** and select **Schedule Board**.
+In the Customer Service Hub sitemap, navigate to **Scheduling** > **Tools** and select **Schedule Board**.
 
 Here’s what you’ll see when you open the schedule board:
 
@@ -51,21 +51,21 @@ Here’s what you’ll see when you open the schedule board:
 
 |Label  |Field  |Description  |
 |---------|---------|---------|
-|1    |    View list of resources     |  A list of resources is displayed on the left side of the calendar in alphabetical order. To view the resources, appointments, and service activities for anyone in your organization, in the **Type** list, select **Resource**, and then in the **View** list select the resource view.  </br> </br>  To find a specific resource, enter the first few letters of the name in the **Search** box.       |
+|1    |    View list of resources     |  A list of resources is displayed on the left side of the calendar in alphabetical order. To view the resources, and service activities for anyone in your organization, in the **Type** list, select **Resource**, and then in the **View** list select the resource view.  </br> </br>  To find a specific resource, enter the first few letters of the name in the **Search** box.       |
 |2    |   Initial public view      |    Add more schedule board tabs in the Initial public view section. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create additional tabs](../field-service/configure-schedule-board.md#create-additional-tabs) </br></br> To edit an existing schedule board view or to modify tab settings, double-click the view name or select the settings icon.       |
 |3    |  Scheduler settings       |   **Scheduler settings** help you synchronize dates and content with a location. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Scheduler settings](../field-service/configure-schedule-board.md#scheduler-settings)     |
 |4  |     Details    |     View additional details of the booking in the **Details** tab.    |
-|5     | Create Resource Booking     |   Select requirements and create a resource booking in the **Create Resource Booking** tab. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a booking for a service appointment](#schedule-a-booking-for-a-service-appointment)     |
+|5     | Create Resource Booking     |   Select requirements and create a resource booking in the **Create Resource Booking** tab. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a booking for a service activity](#schedule-a-booking-for-a-service-activity)     |
 |6     |     Filter & Map view    |   Filter information by **Characteristics - Rating, Roles**, **Territories**, **Organizational Units**, **Resource Types**, **Teams**, and **Business Units** to narrow or expand the schedule board view, using the **Filter** tab. </br> </br> Map view shows the location of resources, organizational units, bookings, and requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure the filter and map view](../field-service/configure-schedule-board.md#configure-the-filter-and-map-view)       |
-|7     |   Service Appointments view      |    To view the details of any resource, appointment, or service activity, select the record in the list to the left of the calendar, and then at the bottom of the calendar, under the **Zoom** scale, select the **Expand** button to expand the preview pane. You can also double-click a record to open it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Booking Requirements](../field-service/configure-schedule-board.md#configure-booking-requirements)       |
+|7     |   Service Activities view      |    To view the details of any resource, or service activity, select the record in the list to the left of the calendar, and then at the bottom of the calendar, under the **Zoom** scale, select the **Expand** button to expand the preview pane. You can also double-click a record to open it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Booking Requirements](../field-service/configure-schedule-board.md#configure-booking-requirements)       |
 | |         |         |
 
 
-## Schedule a booking for a service appointment
+## Schedule a booking for a service activity
 
-You can select unscheduled service appointments and schedule a booking using the **Create Resource Booking** tab:
+You can select unscheduled service activities and schedule a booking using the **Create Resource Booking** tab:
 
-1. In the **Booking Requirements** section, go to **Unscheduled Service Appointments** tab and select the appointment for which you want to schedule a booking.
+1. In the **Booking Requirements** section, go to **Unscheduled Service Activities** tab and select the activity for which you want to schedule a booking.
 
    The **Find Availability** button is displayed. 
 

@@ -42,7 +42,7 @@ New features introduced in this release are:
 ### Service scheduling powered by Universal Resource Scheduling 
 Service scheduling, now built atop Universal Resource Scheduling (URS), provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipments to plan schedules accordingly. It also helps to improve service quality by preventing over-scheduling.
 
-To learn more about the new service scheduling, see [Service scheduling overview](basics-service-service-scheduling.md).
+To learn more about the new scheduling in Customer Service, see [Service scheduling overview](basics-service-service-scheduling.md).
 
 Have some questions? See the [Service Scheduling FAQ](service-scheduling-faq.md).
 

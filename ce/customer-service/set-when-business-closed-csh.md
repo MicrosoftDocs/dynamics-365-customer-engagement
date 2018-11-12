@@ -33,7 +33,7 @@ Make sure that you have the required security role or equivalent permissions.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
-1. In the Customer Service Hub sitemap, go to **Service Scheduling**.
+1. In the Customer Service Hub sitemap, go to **Scheduling**.
 2. From the list of entity records, select **Settings > Business Closures**.
    - The **Business Closures** view is displayed. You can switch between various system views using the drop-down menu.
    - Select any existing record to see additional options in the command bar
