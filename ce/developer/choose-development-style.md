@@ -2,7 +2,7 @@
 title: "Choose your development style for Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Learn about the various options available to developers to make use of Dynamics 365 Customer Engagement web services (SDK) or to extend the application."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 11/11/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -64,7 +64,7 @@ The SDK offers a variety of methods and technologies to use when you write code 
 
      If you write plug-ins and custom workflow activities from scratch, you must use the Plug-in Registration Tool to register them. This tool provides a graphical user interface and supports registering plug-ins and custom workflow activities with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Plug-in Development](plugin-development.md) and [Custom Workflow Activities (Workflow Assemblies)](custom-workflow-activities-workflow-assemblies.md)  
 
-- **Create and deploy custom XAML workflows**: [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] on-premises and IFD supports the ability to create custom XAML workflows. Using the Microsoft Visual Studio Workflow Designer, you can create custom XAML workflows, also called declarative workflows, by dragging workflow activities from the toolbox onto the design surface, creating variables, and setting properties of these activities to implement the workflow' functionality. You can use built-in Windows Workflow Foundation activities or the process activities that are specific to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] 
+- **Create and deploy custom XAML workflows**: [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] on-premises and IFD supports the ability to create custom XAML workflows. Using the Microsoft Visual Studio Workflow Designer, you can create custom XAML workflows, also called declarative workflows, by dragging workflow activities from the toolbox onto the design surface, creating variables, and setting properties of these activities to implement the workflow' functionality. You can use built-in Windows Workflow Foundation activities or the process activities that are specific to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [XAML workflows](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/gg309458(v=crm.8))
 
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
 
