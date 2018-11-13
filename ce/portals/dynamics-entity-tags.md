@@ -108,7 +108,7 @@ More information on Liquid variable: [Variable tags](variable-tags.md)
 Displays the specified tile of the dashboard. You must provide the ID of the tile.
 
 ```
-{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/dashboards/00000000-0000-0000-0000-000000000001" tileid:"0000005" %}
+{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/dashboards/00000000-0000-0000-0000-000000000001" tileid:"00000000-0000-0000-0000-000000000002" %}
 ```
 
 ## editable
