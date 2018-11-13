@@ -31,11 +31,11 @@ search.app:
 
 ::: moniker range="dynamics-usd-4"
 
-##  What's new in [!INCLUDE[pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)] for developers and customizers
+##  What's new in [!INCLUDE[pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)]
 
 There are no developer/customizer-specific changes in this release. For a list of new features in this release, see [New feature information for administrators](admin/whats-new-unified-service-desk-administrators.md)
 
-## What's new in [!INCLUDE[pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)] for developers and customizers
+## What's new in [!INCLUDE[pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)]
 
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for developers and system customizers. 
 
@@ -47,7 +47,9 @@ A new hosted control type called **Unified Interface Page** is introduced, which
 
 The experience of the supportability is that the Unified Interface Page hosted control type exposes number of predefined UII actions and events that are unique to handling of Dynamics 365 windows built using Unified Interface framework including list manipulation actions, and a find action for displaying a quick search or advanced search page.
 
-### Preview features: Stack notification in Unified Service Desk
+## Preview features
+
+### Stack notification in Unified Service Desk
 
 You can configure stack notifications in Unified Service Desk to display popup notification messages to your customer service agents that contains general information or some customer or process-related information that the agent can act on.
 This facilitates simultaneous toast notifications in a multi-session environment. 
@@ -56,7 +58,7 @@ Two new parameters are introduced: **stack** and **stackHeight**, for which you 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stack Notifications](configure-notifications-unified-service-desk.md#stack-notifications) and [Popup Notification Hosted Control](popup-notification-hosted-control.md)
 
-### Preview features: Switch between local sessions, and between local and global sessions
+### Switch between local sessions, and between local and global sessions
 
 When you are working on a case (local session) and want to review your Dashboard (global session) or another case (local session), you can easily switch from the case to Dashboard or another case, without affecting your session timer. That is, when you switch from local session, your session timer will not be counted until you switch back to the session. This helps in efficiently measure the agents' productivity.
 
@@ -70,7 +72,7 @@ Using **SwitchSession** action, you can now switch between local sessions. Also,
 
 <a name="WhatsNew33"></a>   
 
-## What's new in [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)] for developers and customizers
+## What's new in [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)]
 
 Developers and customizers will be able to use the following new features in the [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)] release.
 

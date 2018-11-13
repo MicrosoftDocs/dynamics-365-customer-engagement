@@ -30,33 +30,33 @@ search.app:
 
 ::: moniker range="dynamics-usd-4"
 
-## What's new in Unified Service Desk 4.1 for administrators
+## What's new in Unified Service Desk 4.1
 
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
 
-## Hosting application in Microsoft using the Edge Process hosting type
+### Hosting application in Microsoft using the Edge Process hosting type
 
 Use the Microsoft Edge, the modern, faster, safer and responsive web browser to host applications in Unified Service Desk.
 Select Edge Process as the hosting method for the CRM Dialog, CRM Page, KM Control, and Standard Web Application type of hosted controls.
 
-More information: [Edge process](select-a-hosting-method-for your-controls.md#edge-process)
+More information: [Edge process](select-a-hosting-method-for-your-controls.md#edge-process)
 
-# What's new in [!INCLUDE[pn-unified-service-desk-4-0](../../includes/pn-unified-service-desk-4-0.md)] for administrators
+## What's new in [!INCLUDE[pn-unified-service-desk-4-0](../../includes/pn-unified-service-desk-4-0.md)]
 
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
 
-## Web Client - Unified Interface Migration Assistant
+### Web Client - Unified Interface Migration Assistant
 The Web Client - Unified Interface Migration Assistant for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] helps you migrate your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client to a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Unified Interface App.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Web Client - Unified Interface Migration Assistant](../admin/overview-migration-assistant.md)
 
-## Prevent Accidental Closure of Unified Service Desk Unified Service Desk
+### Prevent Accidental Closure of Unified Service Desk Unified Service Desk
 
 While working on [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], accidentally if you select the **x** Close button, you may lose all the unsaved work. The Close Confirmation Window is introduced to prevent the accidental closure of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure close confirmation window for Unified Service Desk](../admin/configure-close-confirmation-window.md)
 
-## Unified Interface KM Control
+### Unified Interface KM Control
 
 The **Unified Interface KM Control** hosted control is introduced for your knowledge base search experience with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. You must configure the Unified Interface KM Control when you are using a Unified Interface App in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. 
 
@@ -64,11 +64,13 @@ Your service agents can use the **Unified Interface KM Control** hosted control 
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Interface KM Control (hosted control)](../unified-interface-km-control-hosted-control.md)
 
-## Unified Blue theme for Unified Service Desk
+### Unified Blue theme for Unified Service Desk
 
 The Unified Blue theme is the predefined theme for Unified Service Desk when you are using a Unified Interface App.
 
-## Preview Features: Unified Service Desk Administrator App
+## Preview features
+
+### Unified Service Desk Administrator App
 
 With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] 4.0, you can use the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator App built on the Unified Interface framework to administer and manage the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
 
@@ -80,13 +82,13 @@ The Administrator app, built based on the Unified Interface framework has the sa
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Service Desk Administrator App](../admin/unified-service-desk-administrator-app.md)
 
-## Preview Features: Unified Interface Settings
+### Unified Interface Settings
 
 Unified Interface Settings is a new configuration element introduced under the **Advanced Settings** in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app. Unified Interface Settings enables you as an administrator to configure the default Unified Interface App for your agents and transform the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in experience.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Interface Settings](../admin/unified-interface-settings.md)
 
-## Preview Features: Show feedback window to agents
+### Show feedback window to agents
 A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to help an agent to provide feedback while closing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. Agents can provide feedback comments with the score and submit it to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. The comments are assessed and considered for improving the products and services.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Mange options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
@@ -95,11 +97,9 @@ A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../incl
 
 ::: moniker range="dynamics-usd-3"
 
-# What's new in Unified Service Desk for administrators
-This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
-
 ## What's new in [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)]
 
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
 
 #### Videos
 
