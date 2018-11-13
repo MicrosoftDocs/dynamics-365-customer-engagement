@@ -29,7 +29,7 @@ search.app:
 
 # Universal Resource Scheduling for Field Service
 
-The purpose of this article is to understand how Field Service utilizes Universal Resource Scheduling (URS) and configure URS for onsite field service scenarios.
+This article describes how Field Service utilizes Universal Resource Scheduling (URS), and to demonstrate how to configure URS for onsite field service scenarios.
 
 ## Overview
 
