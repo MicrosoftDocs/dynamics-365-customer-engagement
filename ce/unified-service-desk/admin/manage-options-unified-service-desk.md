@@ -76,8 +76,8 @@ The **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-
 
 ::: moniker range=">=dynamics-usd-4"
 
-      |           Option Name            |  Value and Description  |
-   |----------------------------------|--------------------------|
+   |           Option Name            |  Value and Description  |
+   |----------------------------------|-------------------------|
    |     `HideSessionCloseButton`     | Set the value to **true** to hide the close button on the session tabs. If you use this option, you should plan to provide a button or some other method to close a session. You may call the **CloseSession** action on the **Session Tabs** hosted control to close the session. |
    |        `CRM UI Base Url`         | If the URL for accessing the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] web services is different than the URL for accessing the web UI, you may need to use this option to specify an override. When a user logs in, the system uses the discovery server to determine the web services endpoints but can only imply the URL used for the UI. This option can be used to specify what the URL should be when accessing the GUI.|
    |     `AutoUseExternalBrowser`     | If this is set to **true**, the system will use the embedded WPF `WebBrowser` control until the memory reaches a threshold, and then it will switch to launching the browser in an iexplorer.exe process and attach it to the window. **Warning:**  This option is known to have some issues with security. If you want to activate this mode, it should be thoroughly tested in the target environment. This mode is considered unsupported. |
