@@ -28,7 +28,7 @@ search.app:
 
 ::: moniker range="dynamics-usd-41"
 
-# What's new in [!INCLUDE[pn-unified-service-desk-4-1](../../includes/pn-unified-service-desk-4-1.md)] for administrators
+# What's new in Unified Service Desk 4.1 for administrators
 
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
 
