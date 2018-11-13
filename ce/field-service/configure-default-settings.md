@@ -30,7 +30,24 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
- Set default settings for work orders, bookings, schedule board settings, agreements, and more in [!INCLUDE[pn-dyn-365-field_service](../includes/pn-dyn-365-field-service.md)].  
+
+ Navigate to **Field Service > Field Service Settings > Field Service Settings**  
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/admin-fs-uci-nav.png)
+
+ In previous versions, navigate to **Field Service > Administration > Field Service Settings**
+
+ 
+ > [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/admin-fs-non-uci-nav.png)
+
+ The Field Service Settings page allows system administrators to set default settings for work orders, bookings, schedule board settings, agreements, and more in [!INCLUDE[pn-dyn-365-field_service](../includes/pn-dyn-365-field-service.md)].
+ 
+ 
+ > [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/admin-FS-settings-uci.png)
   
  For example, in the **Other** section, you may want to set **Auto Geo Code Addresses** to **Yes**. This will automatically geocode addresses.  
   
