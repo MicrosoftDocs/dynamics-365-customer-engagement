@@ -66,6 +66,15 @@ Path of the Power BI report or dashboard. If the Power BI report or dashboard is
 {% powerbi path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01" %}
 ```
 
+**authentication_type**
+
+Type of authentication required for the Power BI report or dashboard. Valid values for this parameter are Anonymous or AAD. The default value is Anonymous.
+While adding the secure Power BI report or dashboard, ensure that it is shared with Dynamics 365 Portal Azure Active Directory authenticated users. 
+
+```
+{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01" %}
+```
+
 You can also filter the report on one or more values. The syntax to filter a report is:
 
 URL?filter=**Table**/**Field** eq '**value**'
@@ -77,19 +86,22 @@ For example, say you want to filter the report to see data for a contact named B
 The complete code will be:
 
 ```
-{% powerbi path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01?filter=Executives/Executive eq 'Bert Hair'" %}
+{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01?filter=Executives/Executive eq 'Bert Hair'" %}
 ```
 
-More information: [Filter a report using query string parameters in the URL](https://docs.microsoft.com/en-us/power-bi/service-url-filters)
+More information on filtering a report: [Filter a report using query string parameters in the URL](https://docs.microsoft.com/en-us/power-bi/service-url-filters)
 
-**authentication_type**
+> [!NOTE]
+> Anonymous report doesn't support filtering. 
 
-Type of authentication required for the Power BI report or dashboard. Valid values for this parameter are Anonymous or AAD. The default value is Anonymous.
-While adding the secure Power BI report or dashboard, ensure that it is shared with Dynamics 365 Portal Azure Active Directory authenticated users. 
+You can also create a dynamic path by using the `capture ` Liquid variable as below:
 
 ```
-{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01" %}
+{% capture pbi_path %}https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01?filter=Executives/Executive eq '{{user.id}}'{% endcapture %}
+{% powerbi authentication_type:"AAD" path:pbi_path %}
 ```
+
+More information on Liquid variable: [Variable tags](variable-tags.md)
 
 **tileid**
 
