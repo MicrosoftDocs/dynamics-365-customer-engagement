@@ -23,7 +23,7 @@ search.app:
 ---
 # Switch from Dynamics CRM Online to Dynamics 365 (online)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Your Dynamics CRM Online plan is being retired. When it's time to renew, you'll need to renew using the new Dynamics 365 plans. To learn more about your options, see [Important information for CRM Online customers](../admin/important-information-customers.md).  
 
