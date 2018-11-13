@@ -23,7 +23,7 @@ ms.reviewer:
 
 If you have one or more events where contacts must purchase a pass, then your contacts will probably appreciate being able to pay for their passes online while they are registering for the event on your event website.
 
-To enable online payment, you must make an agreement with a third-party payment provider who can authenticate and capture payment details. Your payment provider will supply you with details about how to implement their system, which you'll usually do by adding code supplied by your provider to a web page running on your event website. You'll typically also need to tell your provider the URL to request from [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to [indicate a successful payment](#pay-confirm).
+To enable online payment, you must make an agreement with a third-party payment provider who can authenticate and capture payment details. Your payment provider will supply you with details about how to implement their system, which you'll usually do by adding code supplied by your provider to a web page running on your event website. You'll typically also need to tell your provider the URL to request from [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to indicate a successful payment.
 
 Once your new payment gateway is in place on your event website, you can configure your various events to use it, or assign it as the default for all new events.
 
