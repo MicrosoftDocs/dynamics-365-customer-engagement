@@ -26,9 +26,11 @@ search.app:
   - D365USD
 ---
 
-::: moniker range="dynamics-usd-41"
+# What's new in Unified Service Desk for administrators
 
-# What's new in Unified Service Desk 4.1 for administrators
+::: moniker range="dynamics-usd-4"
+
+## What's new in Unified Service Desk 4.1 for administrators
 
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
 
@@ -39,34 +41,7 @@ Select Edge Process as the hosting method for the CRM Dialog, CRM Page, KM Contr
 
 More information: [Edge process](select-a-hosting-method-for your-controls.md#edge-process)
 
-## Unified Service Desk Administrator App
-
-With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] 4.0, you can use the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator App built on the Unified Interface framework to administer and manage the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
-
-The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app is built on the Unified Interface framework, which has a new user experience - **Unified Interface** - that uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
-
-The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app brings rich experience to administer and manage your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
-
-The Administrator app, built based on the Unified Interface framework has the same configurational capabilities as the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrator in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client. 
-
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Service Desk Administrator App](../admin/unified-service-desk-administrator-app.md)
-
-## Unified Interface Settings
-
-Unified Interface Settings is a new configuration element introduced under the **Advanced Settings** in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app. Unified Interface Settings enables you as an administrator to configure the default Unified Interface App for your agents and transform the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in experience.
-
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Interface Settings](../admin/unified-interface-settings.md)
-
-## Show feedback window to agents
-A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to help an agent to provide feedback while closing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. Agents can provide feedback comments with the score and submit it to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. The comments are assessed and considered for improving the products and services.
-
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Mange options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
-
-::: moniker-end
-
-::: moniker range="dynamics-usd-4"
-
-# What's new in [!INCLUDE[pn-unified-service-desk-4-0](../../includes/pn-unified-service-desk-4-0.md)]
+# What's new in [!INCLUDE[pn-unified-service-desk-4-0](../../includes/pn-unified-service-desk-4-0.md)] for administrators
 
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
 

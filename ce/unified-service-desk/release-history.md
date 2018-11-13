@@ -34,7 +34,8 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 
 ::: moniker range="dynamics-usd-4"
 
-<a name="Release_4_0"></a>   
+<a name="Release_4_0"></a> 
+
 ## Release history for [!INCLUDE [pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)], August 2018
 
 The list provides an overview of documentation updates made in [!INCLUDE [pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)].

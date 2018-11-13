@@ -41,10 +41,6 @@ search.app:
 - Unified Service Desk Administrator App (Public preview feature)
 ::: moniker-end
 
-Unified Service Desk Administrator App
-::: moniker range="dynamics-usd-41"
-- 
-::: moniker-end
 - User Interface Integration Solution 
   
 - Unified Service Desk Solution

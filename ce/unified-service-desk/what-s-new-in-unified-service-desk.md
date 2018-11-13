@@ -26,38 +26,20 @@ search.app:
   - D365CE
   - D365USD
 ---
-::: moniker range="dynamics-usd-41"
 
-#  What's new in [!INCLUDE[pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)] for developers and customizers
-
-This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for developers and system customizers.
-
-## Stack notification in Unified Service Desk
-
-You can configure stack notifications in Unified Service Desk to display popup notification messages to your customer service agents that contains general information or some customer or process-related information that the agent can act on.
-This facilitates simultaneous toast notifications in a multi-session environment. 
-
-Two new parameters are introduced: **stack** and **stackHeight**, for which you can set the values to show the notifications in a stack with a certain height.
-
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stack Notifications](configure-notifications-unified-service-desk.md#stack-notifications) and [Popup Notification Hosted Control](popup-notification-hosted-control.md)
-
-## Switch between local sessions, and between local and global sessions
-
-When you are working on a case (local session) and want to review your Dashboard (global session) or another case (local session), you can easily switch from the case to Dashboard or another case, without affecting your session timer. That is, when you switch from local session, your session timer will not be counted until you switch back to the session. This helps in efficiently measure the agents' productivity.
-
-Using **SwitchSession** action, you can now switch between local sessions. Also, you can switch sessions between local and global by passing the global session ID retrieved from the context using the replacement parameter.
-
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [SwitchSession Action](session-tabs-hosted-control.md#switchsession)
-
-::: moniker-end
+# What's new in Unified Service Desk for developers and customizers
 
 ::: moniker range="dynamics-usd-4"
 
-# What's new in [!INCLUDE[pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)] for developers and customizers
+##  What's new in [!INCLUDE[pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)] for developers and customizers
+
+There are no developer/customizer-specific changes in this release. For a list of new features in this release, see [New feature information for administrators](admin/whats-new-unified-service-desk-administrators.md)
+
+## What's new in [!INCLUDE[pn-unified-service-desk-4-0](../includes/pn-unified-service-desk-4-0.md)] for developers and customizers
 
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for developers and system customizers. 
 
-## General Availability: Support for Unified Interface apps in Unified Service Desk
+### General Availability: Support for Unified Interface apps in Unified Service Desk
 
 With the release of [!include[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] (online), version 9.0, we've introduced a new user experience -[Unified Interface](/dynamics365/customer-engagement/admin/about-unified-interface), which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can load a URL or page from Dynamics 365, which is built based on the Unified Interface framework.
 
@@ -74,7 +56,7 @@ Two new parameters are introduced: **stack** and **stackHeight**, for which you 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stack Notifications](configure-notifications-unified-service-desk.md#stack-notifications) and [Popup Notification Hosted Control](popup-notification-hosted-control.md)
 
-## Preview features: Switch between local sessions, and between local and global sessions
+### Preview features: Switch between local sessions, and between local and global sessions
 
 When you are working on a case (local session) and want to review your Dashboard (global session) or another case (local session), you can easily switch from the case to Dashboard or another case, without affecting your session timer. That is, when you switch from local session, your session timer will not be counted until you switch back to the session. This helps in efficiently measure the agents' productivity.
 
@@ -86,11 +68,10 @@ Using **SwitchSession** action, you can now switch between local sessions. Also,
 
 ::: moniker range="dynamics-usd-3"
 
-# What's New in Unified Service Desk for developers and customizers
-
 <a name="WhatsNew33"></a>   
-## What's new in [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)]  
- 
+
+## What's new in [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)] for developers and customizers
+
 Developers and customizers will be able to use the following new features in the [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)] release.
 
 ### Videos
@@ -116,6 +97,7 @@ The resources in the dictionary refers to other resources that are available on 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure toolbars in your application](../unified-service-desk/configure-toolbars-application.md) and [Toolbars in Unified Service Desk](../unified-service-desk/toolbars-unified-service-desk.md)
 
 <a name="WhatsNew32"></a>   
+
 ## What's new in [!INCLUDE [pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)] 
 
 There are no developer/customizer-specific changes in this release. For a list of new features in this release, see [New feature information for administrators](admin/whats-new-unified-service-desk-administrators.md)
