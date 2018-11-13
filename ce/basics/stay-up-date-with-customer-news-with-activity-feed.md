@@ -12,8 +12,9 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 2396d3f3-ca6b-4a44-99dd-bdbaf9b22a58
 caps.latest.revision: 29
-ms.author: "anbichse"
-manager: "brycho"
+ms.author: "anjgup"
+author: "anjgupta"
+manager: "shellyha"
 search.audienceType: 
   - enduser
 search.app: 
