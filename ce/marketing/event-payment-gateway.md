@@ -27,7 +27,16 @@ To enable online payment, you must make an agreement with a third-party payment 
 
 Once your new payment gateway is in place on your event website, you can configure your various events to use it, or assign it as the default for all new events.
 
-## Add a new payment gateway to your event website
+The procedure for building and enabling a payment gateway depends on [how you host your event website](set-up-event-portal.md):
+
+- If you are hosting the event website on a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal, then see  [Create a payment gateway when hosting on the Dynamics 365 portal](#portal) for instructions.
+- If you are hosting the event website on an external server, then see [Create a payment gateway when hosting on an external site](#external) for instructions.
+
+<a name="portal"></a>
+
+## Create a payment gateway when hosting on the Dynamics 365 portal
+
+### Add a new payment gateway to your event website
 
 To add a new payment page to your event website:
 
@@ -79,29 +88,7 @@ To add a new payment page to your event website:
 
 <a name="pay-confirm"></a>
 
-## Receive payment confirmation
-
-When a contact selects the checkout button, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] creates a temporary  event registration, associates it with the current browser session, and then opens a page that links or redirects to your payment provider. The system then waits for the payment provider to confirm the payment by redirecting the contact to the success URL. When that request is received, the system converts the temporary registration into an actual registration that users can see in the system.
-
-When you sign up with a payment provider, they will ask you for the success URL, which will be embedded into the code they send back to you to include on your payment gateway. The URL you should use looks like this:
-
-`https://<portal-domain>/event/successpayment?id=<Readable_Event_ID>`
-
-Where:
-
-- *&lt;portal-domain&gt;* is the domain of your portal. It usually has the form: `<YourOrganization>.microsoftcrmportals.com`. You can see it by opening your web portal.
-- *&lt;Readable_Event_ID&gt;* is a value that uniquely identifies the event. To find it, open the relevant event record, go to the **General** tab, scroll to the **Website** section, and copy the value shown in the **Readable event ID** field.
-
-However, if you hard code the event ID, as outlined in the previous example, then you'll need a different payment gateway for each event. We recommend that you instead set up a dynamic expression, which you can script as follows in your web template:
-
-`'https://<portal-domain>/event/successpayment?id='{{ request.params['event']}};`
-
-You'll probably need to edit the script returned by your payment provider to correctly create this line of code in your web template.
-
-> [!NOTE]
-> The script example given here for adding the event ID dynamically is specific to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal. It won't work on an external website, including if you are using the downloadable AngularJS version of the event website.
-
-## Set the payment gateway for an event
+### Set the payment gateway for an event
 
 To assign a payment gateway to an event:
 
@@ -117,3 +104,48 @@ To assign a payment gateway to an event:
 
 > [!NOTE]
 > The payment gateway is only displayed for events that have at least one event pass configured for them. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up event passes](set-up-event.md#event-passes)
+
+### Receive payment confirmation
+
+When a contact selects the checkout button, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] creates a temporary  event registration, associates it with the current browser session, and then opens a page that links or redirects to your payment provider. The system then waits for the payment provider to confirm the payment by redirecting the contact to the success URL. When that request is received, the system converts the temporary registration into an actual registration that users can see in the system.
+
+When you sign up with a payment provider, they will ask you for the success URL, which will be embedded into the code they send back to you to include on your payment gateway. The URL you should use looks like this:
+
+`https://<portal-domain>/event/successpayment?id=<Readable_Event_ID>`
+
+Where:
+
+- _&lt;portal-domain&gt;_ is the domain name for your portal. You can see it by opening the event website.
+- *&lt;Readable_Event_ID&gt;* is a value that uniquely identifies the event. To find it, open the relevant event record, go to the **General** tab, scroll to the **Website** section, and copy the value shown in the **Readable event ID** field.
+
+If you hard code the event ID in the confirmation URL, then you'll need a different payment gateway for each event. We recommend that you instead set up a dynamic expression, which you can script as follows in your web template:
+
+`'https://<portal-domain>/event/successpayment?id='{{ request.params['event']}};`
+
+You'll probably need to edit the script returned by your payment provider to correctly create this line of code in your web template.
+
+> [!NOTE]
+> This script example is specific to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal. It won't work if you use directly within a customized Angular site, including if you are hosting the event website externally.
+
+<a name="external"></a>
+
+## Create a payment gateway when hosting on an external site
+
+If you are hosting the event website on your own web server, then you must download and customize the event website to include the payment option as needed. Your payment provider will give you the instructions you need to interact with their system.
+
+When a contact selects the checkout button, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] creates a temporary  event registration, associates it with the current browser session, and then opens a page that links or redirects to your payment provider. The system then waits for the payment provider to confirm the payment by redirecting the contact to the success URL. When that request is received, the system converts the temporary registration into an actual registration that users can see in the system.
+
+When you sign up with a payment provider, they will ask you for the success URL, which will be embedded into the code they send back to you to include on your payment gateway. The URL you should use looks like this:
+
+`https://<domainAndPath>/event/successpayment?id=<Readable_Event_ID>`
+
+Where:
+
+- _&lt;domainAndPath&gt;_ is the location where you installed the event website on your portal or external site. You can see it by opening the website.
+- *&lt;Readable_Event_ID&gt;* is a value that uniquely identifies the event. To find it, open the relevant event record, go to the **General** tab, scroll to the **Website** section, and copy the value shown in the **Readable event ID** field.
+
+The readable event ID is different for each event, so you should customize your site to add this dynamically to the URL to reflect the event being registered for.
+
+When you are hosting on an external site, the **Payment gateway** and **Allow anonymous registration** settings for the event record have no effect. You can implement these preferences by customizing the site directly.
+
+For more information about how to download the latest version of the event website, customize it, build it, and then deploy it on a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal or external website, see [Build and host a custom event website](developer/event-management-web-application.md).

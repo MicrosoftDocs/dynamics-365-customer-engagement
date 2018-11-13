@@ -35,7 +35,25 @@ The event website provides an online resource where people can read about your e
 
 The event site is preconfigured to fetch all the relevant graphics and information for each published event from [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], and to enable visitors to create a registration account (including username and password), edit their profile, register themselves and others for an event, choose session passes, view their event schedule, and modify or cancel an event registration.
 
-The first time you install [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], the event website is installed onto your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals solution and is ready to use right out of the box. The website is built using the [Angular](https://angular.io/) framework (which makes it easy to [customize](#customize)) and you can choose to [host it anywhere](#customize) (not just on the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals solution). 
+## Customize and host the event website
+
+The first time you install [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], the event website is installed onto your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals solution and is ready to use right out of the box. The website is built using the [Angular](https://angular.io/) framework (which makes it easy to customize) and you can choose to host it anywhere (not just on the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals solution). The following table describes the hosting options.
+
+| | Dynamics&nbsp;365<br/>native portal | Angular site hosted by<br/>Dynamics&nbsp;365 portals | Angular site<br>hosted externally |
+|--|--|--|--|
+|Availability | Discontinued (no longer available) | Installed out-of-the-box | Download, customize, and deploy |
+| Event information and graphics | n/a | Fetched directly from [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] event records | Fetched directly from [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] event records |
+| Payment gateway | n/a | [Build a gateway page](event-payment-gateway.md) using native [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal entities and customize it according to instructions from your third-party payment provider. | [Customize the Angular app](developer/event-management-web-application.md) according to instructions from your third-party payment provider. |
+| Registration account and sign-in | n/a | Implemented using native [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal features; works out-of-the-box | You must [integrate the event website with Azure Active Directory (AAD)](developer/event-management-web-application.md) to enable registration accounts |
+| The **Payment gateway** setting of the event record | n/a | Use this setting to select a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal page to use as the payment gateway for each event | This setting has no effect for externally hosted event websites |
+| The **Allow anonymous registration** setting of the event record | n/a | Use this setting to control whether attendees can register without first creating a registration account | This setting has no effect for externally hosted event websites |
+| Link to the event website | n/a | The URL is generated automatically for each event. Check the **Event URL** field of the event record to find it. | The URL depends on where you host the site. You can store the URL in the event record by selecting the **Custom event URL** check box and then filling in the **Event URL** field.
+
+The event website is built using the [Angular](https://angular.io/) framework. You can download the site from the Microsoft download center, customize it in your preferred development environment, and then overwrite the version on your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal, set it up as a new site on your portal, or host it on your own server. The entire site comprises just two files: a JavaScript file (named `main.js`) and a stylesheet (named `styles.css`).
+
+The first time you install [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], the then-current event website is installed onto your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals solution and is ready to use right out of the box. The website won't be updated or overwritten when you update [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], so you can freely customize the copy that's installed on your portal. However, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] will continue to develop the event website and improve it with with each new release of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], so if you want to take advantage of the latest features, you can always download it, compare it with your own customized site, and add any of the new features that you like.
+
+For more information about how to download the latest version of the event website, customize it, build it, and then deploy it on a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal or external website, see [Build and host a custom event website](developer/event-management-web-application.md).
 
 ## Publish events, sessions, tracks, and related records to the website
 
@@ -46,7 +64,6 @@ To publish an event, session, or track, open the relevant record and set its **P
 ![The Publish Status menu](media/event-publish-ill.png "How to set the publish status of an event to the website")
 
 The following table summarizes how to publish each publishable entity to the website, and which types of information are publish for each of them. Be especially careful and thorough when entering values for published fields, because they are exposed to the public.
-
 
 |   **Entity**   |  **How and where it gets published**   |  **Which fields get published** |
 |-------|----|-----------|
@@ -80,27 +97,31 @@ When a visitor to the website decides to register for your event, they proceed a
 1. Select the **Register** button.
 1. The registration page opens. If you've enabled anonymous registration, then the visitor can enter registration details right away, or they can choose to sign in (or to create an account first). If you've disabled anonymous registration, then they must sign in or create an account before they can register anyone.
     - The registration form allows several people to be registered at once.
-    - If the visitor chooses to create a registration account, then they must do so using an email address that doesn't belong to any contact already in your database.
     - One advantage of creating a registration account is that those contacts can sign in again to view their event schedules and to cancel registrations if needed.
     - If you've chosen to enable a CAPTCHA, then the visitor must fill out the CAPTCHA field to continue after entering details about each registrant.
+    - If you are hosting the event website on a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal, then visitors who use the site to create a registration account must do so using an email address that doesn't belong to any contact already in your database.
 1. If your event requires payment, a payment gateway opens and the visitor must enter their payment details.  The following must be in place to enable the payment gateway:
     - You must create an account with a third-party payment provider and integrate their system into the event website as described in their documentation.
-    - The event must have at least one pass.
-    - The pass must have a price assigned to it.
-    <!-- configure payment gateway page on the event? -->
+    - The event must have at least one pass. (To disable payment integration, either customize the site, or don't create any passes for your free events.)
 1. When payment confirmation is received (or right away, if no payment is required), contact records are matched or created (as required) and registration records are created for each new or existing contact that was entered into the registration form.
-1. If you've enabled lead generation for the event, then a new lead record will be generated for each registered contact. <!-- matching strategy for existing contacts? -->
+1. If you've enabled lead generation for the event, then a new lead record will be generated for each registered contact.
 
-Here's how to configure each of the options that's described as optional in this procedure:
+Here's how to configure each of the options that's described as optional in the previous procedure:
 
 1. Go to **Events** > **Event** > **Events** to open the events list.
 1. Find and select a listed event (or create a new one) to open the event form.
 1. On the **General** tab of the event form, go to the **Key information** section. If you want to generate a lead for each contact that gets registered for this event, set **Create leads for event registrations** to **Yes**. <!-- What happens if this is "no"? -->
 1. Scroll down to the **Website** section and make the following settings:
-    - **Allow anonymous registrations**: Set this to **No** to require all visitors to create an event-website account before they can register themselves or others for an event. Set to **Yes** to allow visitors to register without creating an event-website account.
-    - **Portal payment gateway**: <!-- how do we use this now? -->
-    - **Enable CAPTCHA**: Set to **Yes** to include a CAPTCHA field on the registration page. Set to **No** to hide it.
+    - **Allow anonymous registrations**: If you are hosting the event website on a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal, set this to **No** to require all visitors to create an event-website account before they can register themselves or others for an event; set to **Yes** to allow visitors to register without creating an event-website account. This setting has no effect if you are hosting your event website externally; see [Build and host a custom event website](developer/event-management-web-application.md) for details about how to enable registration accounts on externally hosted sites.
+    - **Portal payment gateway**:  If you are hosting the event website on a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal, set this to the name of portal page that you set up to implement a payment gateway as required by your payment provider. This setting has no effect if you are hosting your event website externally. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up online payment for events](event-payment-gateway.md).
+    - **Enable CAPTCHA**: Set to **Yes** to include a CAPTCHA field on the registration page. Set to **No** to hide it. This setting works for both portal hosted and externally hosted event websites.
 1. Save your settings.
+
+## Generate and match contacts and leads from event registrations
+
+When a new event registration is submitted to your site, [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] looks to see if a matching contact already exists. A match is identified when the incoming email, first name, and last name all match an existing contact. If a match is found, then a new event registration is created and linked to that contact. If no match is found, a new contact is created and linked to the new registration.
+
+If you choose to enable lead generation for events, then a new lead will also be generated for each registration and linked to the appropriate contact. The system won't attempt to match to an existing lead. To control whether or not to generate new leads for any event, open the event record and set the **Create leads for event registrations** option to **Yes** or **No**.
 
 ## Open the event website
 
@@ -111,15 +132,14 @@ To find the URL for your sample event website and open it:
 1. Open the **General** tab and find the **Key information** section.
 1. The **Event URL** field here shows the address of the website for this event. This URL is provided automatically if you're using the event website that was installed together with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but if you're hosting the site somewhere else, you (or another user) must mark the **Custom event URL** check box and specify this value as required. Select the globe button at the edge of this field to open the URL.
 
-<a name="angular"></a>
+The URL for any specific event takes the following form:
 
-## Customize the event website and host it anywhere
+`https://<domainAndPath>/?event=<ReadableEventID>`
 
-If you are comfortable developing web applications using the [Angular](https://angular.io/) framework, then a good way to customize the event website for production is to download it from the Microsoft download center, customize it in your preferred development environment, and then overwrite the version on your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal, set it up as a new site on your portal, or host it on your own server. The entire site comprises just two files: a JavaScript file (named `main.js`) and a stylesheet (named `styles.css`).
+Where:
 
-The first time you install [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], the then-current event website is installed onto your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals solution and is ready to use right out of the box. The website won't be updated or overwritten when you update [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], so you can freely customize the copy that's installed on your portal. However, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] will continue to develop the event website and improve it with with each new release of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], so if you want to take advantage of the latest features, you can always download it, compare it with your own customized site, and add any of the new features that you like.
-
-For more information about how to customize the event website, and how to download the latest version, see [Build and host a custom event website](developer/event-management-web-application.md).
+- _&lt;domainAndPath&gt;_ is the location where you installed the event website on your portal or external site.
+- _&lt;ReadableEventID&gt;_ is a readable ID that was generated the first time you saved the event record (based on the event name). To find this value, open the relevant event record, go to the **General** tab, scroll to the **Website** section, where you'll find the **Readable event ID**. If you leave off this ID then the event website opens to a list of available events.
 
 ## Privacy notice
 
