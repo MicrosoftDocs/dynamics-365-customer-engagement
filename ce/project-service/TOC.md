@@ -15,6 +15,10 @@
 ## [Reconciling assignments and bookings how-to guide](how-to-guides/reconciling-assignments-bookings-how-to.md)
 ## [Time, expense, and approvals guide](how-to-guides/time-expense-approval.md)
 
+# [Upgrade (app version 3.x)](upgrade-psa-home-page.md) 
+## [What's new or changed in Project Service Automation version 3](whats-new-changed-v3.md)
+## [Upgrade considerations - PSA v2 to v3](upgrade-v3.md)
+
 # FAQ and troubleshooting (app version 3.x)
 ## [How do I "soft book" resources?](FAQ-soft-book.md)
 ## [How do I see chargeable utilization for resources?](FAQ-utilization-view.md)
