@@ -68,7 +68,7 @@ The following image shows the same design in full-page-edit mode (left) and drag
 
 ## Create a container where users can add design elements
 
-On the **Designer** tab, users can only edit content contained within a design element, and can only drag new design elements into those parts of the document that are set up as _data containers_. Therefore, you can create templates where some elements are locked to editing on the **Design** tab, while others will accept edits and dragged content.
+On the **Designer** tab, users can only edit content contained within a design element, and can only drag new design elements into those parts of the document that are set up as _data containers_. Therefore, you can create templates where some areas (outside of containers) are locked to editing on the **Design** tab, while other ares (inside unlocked containers) will accept edits and dragged content.
 
 Use `<div>` tags that include the attribute `data-container="true"` to create data containers, such as:
 
@@ -97,6 +97,27 @@ Any text or HTML tags that are nested within a **data-container** div-tag pair, 
 
 > [!NOTE]
 > When the full-page editor is enabled, all drag-and-drop features are disabled, and you can edit all the content on the **Designer** tab, including content outside of `data-container` div tags (which have no effect in the full-page editor).
+
+<a name="lock-container"></a>
+
+## Lock a container in Designer view
+
+You can lock a [container](#containers) to make all of its content read-only on the **Designer** tab. If a locked container contains [design elements](#elements), then all content and settings for those elements will remain locked, and the **Properties** tab will never be shown for them, even if you select them.
+
+You might use the container-locking feature to lock a container after you are done adding and configuring design components for it.
+
+To lock a container, add the `data-locked="hard"` attribute to the container tag, like this:
+
+```xml
+<div data-container="true" data-locked="hard">
+    <!-- All elements and content here are locked, with no properties shown -->
+</div>
+```
+
+> [!NOTE]
+> You can also lock content at the design-element level. If content is locked at the container level, then that setting overrules the locked/unlocked status of all the design elements inside that container. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Lock elements in Designer view](#lock-element) 
+
+To further enforce container locking, you can limit access to the **HTML** tab, which will prevent selected users from accessing the code (where they could otherwise defeat this setting). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Control access to designer features](designer-feature-protection.md) 
 
 <a name="elements"></a>
 
@@ -150,7 +171,6 @@ You can lock the content and properties of any design element by adding the foll
 
 For example:
 
-
 ```xml
 <div data-editorblocktype="Divider" data-protected="true">
     …
@@ -159,8 +179,10 @@ For example:
 </div>
 ```
 
-
 When a design element is marked as protected, users working in the **Designer** tab for a page or email won't be able to edit the element's properties or content. This attribute is always included for the content-block element, but you can add it to any type of design element to protect it. Any design element that includes this attribute is shown as shaded on the **HTML** tab to indicate that it's protected, but you can still edit it there if you insist. Set this attribute to "false" (or just remove it) to remove protection from a design element.
+
+> [!NOTE]
+> You can also lock content at the container level, which will overrule the locked/unlocked status of all the design elements inside that container. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Lock a container in Designer view](#lock-container) 
 
 To further enforce content locking, you can limit access to the **HTML** tab, which will prevent selected users from accessing the code (where they could otherwise defeat this setting). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Control access to designer features](designer-feature-protection.md)
 
