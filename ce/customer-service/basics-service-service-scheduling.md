@@ -28,7 +28,7 @@ search.app:
 
 Avoid disruptions in service by making sure that your resources are scheduled optimally and efficiently. Using Service Scheduling, you can plan and schedule service activities for your customers by bringing together all your resources.
 
-## Understand the new Scheduling experience
+## Understand the new scheduling experience
 
 Service Scheduling, now built atop **Universal Resource Scheduling (URS)**, provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling.
 
@@ -159,26 +159,26 @@ Make sure that you have the required security role or equivalent permissions.
 
 1. Check the Universal Resource Scheduling (URS) version.
 
-   For the new experience, you should have the latest version of URS installed on your system. To check the URS version, go to **Settings** and select **Solutions** to see the current version of URS on your system.
+   For the new experience, you should have the latest version of URS installed on your system. To check the URS version installed on your system, go to **Settings** and select **Solutions**.
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
 
       > [!NOTE]
       >  Consider that importing the scheduling package will upgrade URS to the latest version. If Field Service or Project Service is already installed on your org with an older version of URS, then URS will also be upgraded. </br> The latest version of URS might not be compatible with the old versions of Field Service or Project Service.
 
-2.  Get the Scheduling package.
+2.  Get the scheduling package.
 
-      A. Go to the
+      a. Go to the
         [Microsoft Insider Program](https://experience.dynamics.com/insider/campaign/?id=0FAAC2DF-32DB-E811-A96B-000D3A1BECE3).
 
-      B. Sign in and join the program by selecting **Join now** and follow the instructions. 
+      b. Sign in and join the program by selecting **Join now** and follow the instructions. 
 
-      C. As we receive your details, we will enable the Service Scheduling package on your Dynamics 365 org and you will recieve a confirmation email from Microsoft.
+      c. As we receive your details, we will enable the Service Scheduling package on your Dynamics 365 org and you will recieve a confirmation email from Microsoft.
 
-      D. Once you receive the email, go to your org’s admin center to install Service scheduling.
+      d. Once you receive the email, go to your org’s admin center to install Service scheduling.
 
   
-3. Access Scheduling in the Customer Service Hub sitemap.
+3. Access scheduling in the Customer Service Hub sitemap.
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Access Service Scheduling in the Customer Service Hub](#access-service-scheduling-in-the-customer-service-hub)
 
@@ -196,7 +196,7 @@ To follow the correct sequence, see [Service Scheduling scenario](#service-sched
 ### Migrate Service Activity
 To know how to migrate your service activity entity records from legacy to new experience by running SDK code samples, see [Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md).
 
-## Access Scheduling in the Customer Service Hub
+## Access scheduling in the Customer Service Hub
 With the Customer Engagement apps version 9.1 release, Scheduling is built on Universal Resource Scheduling (URS), and is available from the Customer Service Hub sitemap.
 
 - On the sitemap icon ![Sitemap](media/sitemap-icon.png) , select **...** to go to **Scheduling** and access the entity record types

@@ -48,10 +48,6 @@ Make sure that you have the required security role or equivalent permissions.
 
    - Provide **Latitude** and **Longitude** for the organizational unit.
 
-6. In the **Core Services Scheduling** section:
-
-   -  Fill in other contacts details for the unit like phone number and address.
-
 7. Select **Save** to save the new organizational unit. The new record is saved and activated by default.
 
    Active organizational units can be edited, assigned, shared, or viewed from the **Active Organizational Units** system view.
