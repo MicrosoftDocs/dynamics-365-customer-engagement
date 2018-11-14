@@ -44,7 +44,7 @@ URS assigns the best resources to jobs and tasks based on:
 - geographic territory and more
 
 
-**Field service organizations** primarily apply URS to scheduling location-specific jobs and tasks (as work orders) to mobile resources as they travel daily to various customer locations. Because work orders are generally performed onsite, URS schedules the **closest proximity** resources to work orders, reducing travel time and costs. 
+**Field service organizations** most frequently use URS to schedule mobile resources to location-specific jobs and tasks (as work orders) as the resources travel to various customer locations. Because work orders are generally performed onsite, URS schedules the  resources with **closest proximity** to work orders, reducing travel time and costs. 
 
 In this topic, we'll take a quick look at: 
 
@@ -126,8 +126,8 @@ After a work order requirement is booked, a bookable resource booking record is 
 
 There are several ways to book with URS. You can book from: 
 
-- Work orders
-- Requirements
+- work orders
+- requirements
 - the schedule board
 - Resource Scheduling Optimization (RSO)
 
@@ -159,7 +159,7 @@ The requirement can be manually dragged and dropped or clicked to "search availa
 
 ### Book via Resource Scheduling Optimization
 
-Resource Scheduling Optimization can automatically schedule requirements related to work orders based on a predefined schedule or triggers, or can be done manually.
+[Resource Scheduling Optimization](rso-overview.md) can automatically schedule requirements related to work orders based on a predefined schedule or triggers, or can be done manually.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Resource scheduling Optimization schedule](media/scheduling-urs-rso-schedule.png)
@@ -210,7 +210,7 @@ See the image below for the recommended out-of-the-box values.
 
 Work order locations are defined by the latitude / longitude of either the work order form, or the related service account. It's important to also geo-locate resources.
 
-Navigate to **Resource Scheduling > Resources**
+Navigate to **Resource Scheduling > Resources**.
 
 To ensure resources can appear on the schedule board map, they must have a geocoded starting and ending location. 
 
