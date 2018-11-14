@@ -23,7 +23,7 @@ search.app:
 ---
 # Synchronize user information with Active Directory
 
-Applies to [!INCLUDE[pn-dyn-365-op](../includes/pn-dyn-365-op.md)]
+[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] supports two methods for authenticating users:  
   
