@@ -46,7 +46,7 @@ This is also true for line tasks that were assigned to named resources when you 
 ## Tasks assigned to generic resources
 In version 2 and version 1, you can set the role and org unit on a task and then use the **Generate team** feature to generate generic resources based on the attributes set on the task. In version 3, you create the generic team members with role and org unit, and then assign the team members to tasks.
 
-In version 2 and version 1, projects with generic resources can be in two states, or a mix of both at the task level. For exmaple, this means you can have the following scenarios:
+In version 2 and version 1, projects with generic resources can be in two states, or a mix of both at the task level. For example, you can have the following scenarios:
 
 - Tasks with roles and org units set, but no affiliated resource assignment has been generated.
 - Tasks with generic team member resource assignments that were assigned by creating generic resource using the **Generate team** feature.
