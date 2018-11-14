@@ -24,7 +24,7 @@ search.app:
 # Create templates for email
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]</br>
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Save time when creating multiple email messages by making email templates. Email templates contain prefilled data that you specify, so you don’t have to re-enter the same information for each article.  
   
