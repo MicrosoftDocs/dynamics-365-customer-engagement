@@ -169,6 +169,7 @@ LinkedIn-campaign tiles provide the following settings in the **Properties** pan
 - **Tile name**: A local name for the tile. This name identifies the tile in the pipeline, but isn't used anywhere else.
 - **LinkedIn campaign**: Use this lookup field to select the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaign to monitor with this tile. You can choose from among all [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaigns that you've synced using the  [LinkedIn Lead Gen feature](linkedin-lead-gen-integration.md) in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Be sure to choose a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaign that includes a Lead Gen Form.
 - **Description**: Add a description or other notes here (optional).
+- **Go to LinkedIn campaign**: Once you've configured a campaign for the tile, you can select this link to go straight to that campaign on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)].
 
 When you use this tile, you'll nearly always arrange it in a pipeline that starts with a segment followed by the LinkedIn-campaign tile and then a trigger tile, as shown in the following illustration. Then, you'll follow the trigger with follow-up activities as needed for each true/false path (such as by sending messages, triggering workflows and/or assigning tasks).
 

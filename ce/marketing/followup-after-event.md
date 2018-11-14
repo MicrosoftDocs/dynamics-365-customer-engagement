@@ -34,7 +34,7 @@ After an event is over, you'll want to evaluate how it went and start following 
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes Voice of the Customer, which is a feature for creating online surveys and analyzing the results. We recommend that you take advantage of this feature by creating a follow-up survey for attendees to give feedback on the event.
 
-To promote the survey, you might create a marketing email message that links to it and deliver that message to a marketing list of attendees that you've set up. You might even provide an incentive for submitting the survey, such as a free download. You can include this message in the same customer journey that you used to promote the event, but use trigger and scheduler tiles to ensure the message is only sent after the event, and only to people who attended.
+To promote the survey, you might create a marketing email message that links to it and deliver that message to a segment of attendees that you've set up. You might even provide an incentive for submitting the survey, such as a free download. You can include this message in the same customer journey that you used to promote the event, but use trigger and scheduler tiles to ensure the message is only sent after the event, and only to people who attended.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)]
 
