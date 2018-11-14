@@ -3,7 +3,7 @@ title: "Universal Resource Scheduling for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 11/06/2018
-ms.reviewer: ""
+ms.reviewer: "krbjoran"
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
@@ -44,7 +44,7 @@ URS assigns the best resources to jobs and tasks based on:
 - geographic territory and more
 
 
-**Field service organizations** most frequently use URS to schedule mobile resources to location-specific jobs and tasks (as work orders) as the resources travel to various customer locations. Because work orders are generally performed onsite, URS schedules the  resources with **closest proximity** to work orders, reducing travel time and costs. 
+**Field service organizations** most frequently use URS to schedule mobile resources to location-specific jobs and tasks (known as work orders) as the resources travel to various customer locations. Because work orders are generally performed onsite, URS schedules the  resources with **closest proximity** to work orders, reducing travel time and costs. 
 
 In this topic, we'll take a quick look at: 
 
