@@ -35,7 +35,7 @@
 ## [Resource pay types](set-up-resource-pay-types.md)
 ## [Tutorial: Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
-# [Scheduling](universal-resource-scheduling.md)
+# Scheduling
 ## [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md) 
 ## [Configure the schedule board](configure-schedule-board.md)
 ## [Geocoding for travel time](turn-on-auto-geocoding.md)
