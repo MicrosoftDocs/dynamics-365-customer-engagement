@@ -1,7 +1,6 @@
-# [Schedule anything with Universal Resource Scheduling](schedule-anything-with-universal-resource-scheduling.md)
-# [Use Resource Scheduling Optimization](resource-scheduling-optimization.md)
-
+# [Overview of Universal Resource Scheduling (URS)](schedule-anything-with-universal-resource-scheduling.md)
 # URS extensibility
+## [Extensibility updates](developer/extensibility-release-notes.md)
 ## Preferred geospatial data provider
 ### [Use your preferred geospatial data provider](developer/use-preferred-geospatial-data-provider.md)
 ### [Create custom plug-in to use your preferred geospatial data provider](developer/create-custom-plugin-preferred-geospatial-data-provider.md)
@@ -11,4 +10,4 @@
 ### [Understanding and customizing resource matching](developer/understanding-and-customizing-resource-matching-in-urs.md)
 ### [Find resources by language - A step by step guide](developer/extending-urs-step-by-step.md)
 ### [Universal FetchXML](developer/universal-fetchxml.md)
-## [URS Extensibility Release Notes](developer/extensibility-release-notes.md)
+
