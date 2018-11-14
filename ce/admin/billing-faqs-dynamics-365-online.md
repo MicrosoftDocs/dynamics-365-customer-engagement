@@ -24,7 +24,7 @@ search.app:
 ---
 # Billing FAQs for Dynamics 365 (online) Customer Engagement
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Billing support agents for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] often hear similar questions from our customers. To help answer your billing and subscription management questions as quickly as possible, we’ve put together this list of the most frequently asked questions.  
   

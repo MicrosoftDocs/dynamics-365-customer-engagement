@@ -23,7 +23,7 @@ search.app:
 ---
 # Contact information for billing support
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 If you're using [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] through an Enterprise Agreement (EA) or Campus Agreement/School Agreement (CASA) and need to contact [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] with a billing question, see [Contact support for business products - Admin Help](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?ui=en-US&rs=en-US&ad=US#BKMK_call_support&ID0EAAEAAA=Phone_support_).  
   
