@@ -27,6 +27,6 @@ This means that Project Service Pricing allows the setup of prices and costs for
 
 ![Screenshot of Project Service parameters with “Applicable to Sales” highlighted](media/PS-OOB-parameters.png)
 
-** Important: For customers of Project Service that have been using these out-of-the box fields of role and organizational unit as pricing dimensions before this feature was released, there will not be any observable change. They can continue to use Project Service as usual. 
+**Important: For customers of Project Service that have been using these out-of-the box fields of role and organizational unit as pricing dimensions before this feature was released, there will not be any observable change. They can continue to use Project Service as usual. 
 If, however, you see the need to price or cost for your resources using any other additional attribute,
 then the below sections of this document will help explain that process.**
