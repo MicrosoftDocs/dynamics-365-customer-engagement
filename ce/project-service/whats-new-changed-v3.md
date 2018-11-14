@@ -88,7 +88,7 @@ When you move the schedule of existing project forward, the following happens:
 
 ## Estimates
 Estimates have been split into two tabs, **Resource assignment** and **Estimates**. The **Resource assignment** tab contains the effort estimates and shows the resource assignments for the tasks in a time-phased view. You can edit the estimates based on what the scheduling engine has generated.
-
+from the version 2 and version 1 releases
 ![Resouce assignments tab showing effort estimates and resource assignments for tasks](media/resource-assignments-tab-02.png)
 
 The **Estimates** tab shows the cost and sales amounts for resource assignments. The amounts are read-only. The costing and sales pricing are now driven from the team member assignments on the schedule. This means that if you have a task without any assignment, the task will show under the unassigned bucket. This also means that without **role**, which is a default pricing dimension, there will be no estimated cost or sales if you have a customer or contract/quote associated with the project. 
@@ -102,7 +102,7 @@ Expense estimates can be entered in the grid on the **Expense estimates** tab.
 ![Expense estimates tab showing expense estimates grid](media/expense-estimates-tab-04.png)
 
 ## Resource management
-In PSA version 3, staffing a project with generic or real resources has changed dramatically from the version 2 and version 1 releases. With the new Unified Client UI and changes in the relationship between bookings and assignments, staffing a project with generic or real resources has changed dramatically in the PSA version 3 release. However, the concepts of bookable resources, both **real** and **generic** remain the same, as do team members, requirements, assignments, and bookings.   
+In PSA version 3, with the new Unified Client UI and changes in the relationship between bookings and assignments, staffing a project with generic or real resources has changed dramatically from the version 2 and version 1 releases. However, the concepts of bookable resources, both **real** and **generic** remain the same, as do team members, requirements, assignments, and bookings.   
 
 ![Using the resource picker](media/resource-management-05.png)
 
@@ -130,7 +130,7 @@ The **Reconciliation** tab shows bookings and all assignments for each project t
 
 ![Reconciliation tab showing bookings and assignments for project team members](media/resource-reconciliation-tab-06.png)
 
-For each resource, the view takes the difference between a team member's bookings and a rollup of their resources’ assignments and shows the following two differences that can occur with bookings and assignments in a project: 
+For each resource, the view takes the difference between a team member's bookings and a rollup of their task assignments and shows the following two differences that can occur with bookings and assignments in a project: 
 
 - **Booking shortage** - Booking shortages occur when a resource has more assignments than bookings. Because this capacity has not been reserved, a project manager can correct this by extending the resource’s bookings to cover the deficit. 
 - **Excess bookings** - Excessive booking occurs when a resource has been booked to the project but has not been assigned to tasks.  This may be an acceptable occurrence, for example if the resource has been booked prior to task assignment. However in other cases, the resource may not be planned to be assigned, and the PM should consider canceling the resource’s bookings to allow the capacity to be used for another project. 
@@ -161,7 +161,7 @@ After a few time entries have been created, you can use the copy functionality t
 Assignments and exchange follow the same UI pattern which allow the user to specify the date range from when bookings need to be imported. You must then explicitly choose the bookings that should be copied into **Draft** time entries. In version 3, you can no longer see the pattern of **Suggested** time entries on the grid and calendar.  
 
 ### Change in calendar control
-In v3, we have moved away from the custom calendar control and are now using the OOB UC Calendar to display time entries for the week. With this calendar, you can view day, week, and month. A limitation to note on the Calendar is that this control does not support actions on individual calendar items. For example, you will not be able to select one or more calendar items and submit or delete those items. Clicking on a calendar item will open the **Time entry entity** form for additional actions. 
+In v3, we have moved away from the custom calendar control and are now using the UC Calendar to display time entries for the week. With this calendar, you can view day, week, and month. A limitation to note on the Calendar is that this control does not support actions on individual calendar items. For example, you will not be able to select one or more calendar items and submit or delete those items. Clicking on a calendar item will open the **Time entry entity** form for additional actions. 
 
 ### Extensibility
 **Capture data on custom fields in time and expense entry entities only** - Time entry uses an editable grid, a read-only grid, and calendar controls from the platform. All of these controls are native and therefore will support customizations. In PSA v3, you can add additional custom fields, set up lookup fields, and back them up with custom views. You can also set custom business logic based on selected values in custom fields.  
