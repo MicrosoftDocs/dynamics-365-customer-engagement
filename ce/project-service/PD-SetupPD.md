@@ -33,7 +33,7 @@ These two rows in the pricing dimension table should not be deleted; however, if
 
 For a field to become a pricing dimension, it should be
 1. Created as a field in the Role Price AND Role Price markup entities (as shown in [Steps 5-7: Add custom fields to price setup and transactional entities of Project Service](PD-field-references-PS.md)
-2. Created as a row in the Pricing Dimension table
+2. Created as a row in the Pricing Dimension table: This Step explains how to do this.
 
 For our example, we will add pricing dimension rows as follows:
 
