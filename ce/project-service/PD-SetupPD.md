@@ -32,7 +32,7 @@ By default, Project Service installation creates 2 rows in the grid on this tab:
 These two rows in the pricing dimension table should not be deleted; however, if you do not need them, you can make them not applicable in a specific context by setting “Applicable to Cost”=No, “Applicable to Sales” = No, “Applicable to Purchase” = No. Setting these attribute values to “No” for a pricing dimension has the same effect of not having this field as a pricing dimensions.
 
 For a field to become a pricing dimension, it should be
-1. Created as a field in the Role Price AND Role Price markup entities (as shown in Add custom pricing dimension fields to price setup and transactional entities)
+1. Created as a field in the Role Price AND Role Price markup entities (as shown in [Steps 5-7: Add custom fields to price setup and transactional entities of Project Service](PD-field-references-PS.md)
 2. Created as a row in the Pricing Dimension table
 
 For our example, we will add pricing dimension rows as follows:
