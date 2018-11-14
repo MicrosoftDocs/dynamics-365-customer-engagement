@@ -37,9 +37,10 @@ In case you want to preserve your Instagram data acquired to date, we recommend 
 ## Introduction of Instagram Business Account search
 
 With December 11th a new functionality for Instagram is available in Microsoft Social Engagement. Users will now be able to acquire posts and comments from their own Instagram Business accounts. To be able to acquire data from owned Instagram accounts, those accounts need to be Instagram Business accounts and need to be connected to the corresponding Facebook page. Find more information on how to connect an Instagram Business account with a Facebook page. 
-The acquisition of posts and comments from owned Instagram accounts is done through the Facebook GRAPH API. 
+The acquisition of posts and comments from owned Instagram accounts is done through the Facebook GRAPH API using a user token and thus relying on individual user permissions. All Instagram tokens must have admin permissions on all Facebook pages and linked Instagram business accounts used in Social Engagement.
 To be able to acquire Instagram posts and comments the user needs to re-authenticate (or authenticate in case of new users) his Facebook Acquisition accounts in Social Profiles in Microsoft Social Engagement. The Facebook Acquisition profile in Social Profiles has been renamed to Facebook and Instagram Acquisition. Users need to be Administrator of the Facebook Page where their Instagram Business Account is linked to, to be able to authenticate within Microsoft Social Engagement. To be able to acquire the posts and identify the Instagram accounts linked to the Facebook page, we are requesting the following two permissions: Instagram_Basic and Manage_Pages. During the authentication the user has the choice to disallow the use of those permissions, but will not be able to use the Instagram functionality in Microsoft Social Engagement by doing so. 
 To acquire posts and comments, you also will need to setup Instagram account rules in Search Setup. The Instagram accounts linked to your Facebook pages are listed in the Instagram account rules setup and can be simply chosen with a click for the setup. 
 In case you are not interested in using the Instagram functionality you don’t have to re-authenticate your Facebook Acquisition accounts immediately. 
 
 ### See also
+
