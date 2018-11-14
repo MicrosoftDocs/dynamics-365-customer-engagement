@@ -1,6 +1,6 @@
 ---
-title: Upgrade considerations - PSA version 2 or version 1 to version 3
-description: This topic provides information about the considerations you must make when you upgrade from PSA version 2 or version 1 to version 3.
+title: Upgrade considerations - PSA version 2.x or 1.x to version 3
+description: This topic provides information about the considerations you must make when you upgrade from PSA version 2.x or 1.x to version 3.
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom:
@@ -22,7 +22,7 @@ search.app:
   
 ---
 
-# Upgrade considerations - PSA version 2 or version 1 to version 3
+# Upgrade considerations - PSA version 2.x or 1.x to version 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 In Project Service Automation (PSA) version 2 and version 1, task assignments were stored as child tasks (also called line tasks) in the **Task entity**, and indirectly related to the **Resource Assignment** entity. The line task was visible in the assignment pop-up window on the WBS. In version 3 of PSA, the underlying schema of assigning bookable resources to tasks has changed. The line task has been deprecated and there is a direct 1:1 relationship between the task in the **Task entity** and the team member in the **Resource Assignment** entity. Tasks that are assigned to a project team member are now stored directly in the Resource Assignment entity.  
