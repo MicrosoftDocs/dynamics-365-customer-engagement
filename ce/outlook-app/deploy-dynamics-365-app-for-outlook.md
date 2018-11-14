@@ -256,6 +256,7 @@ With the PowerApps App Designer, you can control the specific entities that appe
 > [!NOTE]
 > - You can also remove entities from Dynamics 365 App for Outlook.
 > - An entity must be Activities enabled for it to appear in the Regarding lookup. See [Enable a custom entity to appear in the Regarding lookup](dynamics-365-app-outlook-user-s-guide.md#enable-a-custom-entity-to-appear-in-the-regarding-lookup).
+> - An entity must also be enabled for Unified Interface for it to appear in the Regarding lookup.
 
 
 <a name="BKMK_Troubleshoot"></a> 
