@@ -28,7 +28,7 @@ manager: shujoshi
   
 3. Select the **Instances** tab, and then select the instance to add the solution to.  
   
-4. Select **Manage your solutions** ![Manage your solutions](media/manage-solution.png "Manage your solutions").  
+4. Select **Manage your solutions** ![Manage your solutions](../../admin/media/manage-solution.png "Manage your solutions").  
   
 5. Select the solution you want to install and select **Install**.  
   
@@ -46,13 +46,13 @@ manager: shujoshi
   
 3. Select the **Instances** tab.  
   
-4. Select the instance with the solution to update, and then select **Manage your solutions** ![Manage your solutions](media/manage-solution.png "Manage your solutions").  
+4. Select the instance with the solution to update, and then select **Manage your solutions** ![Manage your solutions](../../admin/media/manage-solution.png "Manage your solutions").  
   
-   ![Select an instance and Manage your solutions](media/select-instance-solution.png "Select an instance and Manage your solutions")
+   ![Select an instance and Manage your solutions](../../admin/media/select-instance-solution.png "Select an instance and Manage your solutions")
 
 5. Select the solution you want to update, and then select **Upgrade**.  
   
-   ![Select solution and upgrade](media/select-solution-upgrade.png "Select solution and upgrade")
+   ![Select solution and upgrade](../../admin/media/select-solution-upgrade.png "Select solution and upgrade")
 
 6. Proceed through **Terms of service** to accept the terms and start the upgrade. 
 
