@@ -23,8 +23,7 @@ search.app:
 ---
 # Add Office 365 Online services
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
-
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 Integrating [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] is a great way to enhance your customer relationship management with the power of cloud services: easier maintenance, broader availability, and better coordination across multiple devices.  
   
  ![Office 365 Services](../admin/media/office365services.png "Office 365 Services")  
