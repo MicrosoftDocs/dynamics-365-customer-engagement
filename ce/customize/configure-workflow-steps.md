@@ -1,8 +1,8 @@
 ---
-title: "Configure workflow steps in PowerApps | MicrosoftDocs"
+title: "Configure workflow steps in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn how to configure workflow steps"
 ms.custom: ""
-ms.date: 04/20/2018
+ms.date: 11/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
