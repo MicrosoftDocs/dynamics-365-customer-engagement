@@ -129,7 +129,7 @@ There are several ways to book with URS. You can book from:
 - Work orders
 - Requirements
 - the schedule board
-- via Resource Scheduling Optimization (RSO)
+- Resource Scheduling Optimization (RSO)
 
 See below for details.  
 
@@ -147,7 +147,7 @@ Like with work orders, the same booking experience can be triggered from the req
 > [!div class="mx-imgBorder"]
 > ![Screenshot of booking requirement](media/scheduling-urs-work-order-related-requirement-book.png) 
 
-### - Book from the schedule board
+### Book from the schedule board
 
 The lower schedule board pane displays requirement records and can be configured to show only requirements related to work orders with a simple view filter.
 
@@ -157,7 +157,7 @@ The lower schedule board pane displays requirement records and can be configured
 
 The requirement can be manually dragged and dropped or clicked to "search availability" with the schedule assistant. 
 
-### - Book via Resource Scheduling Optimization
+### Book via Resource Scheduling Optimization
 
 Resource Scheduling Optimization can automatically schedule requirements related to work orders based on a predefined schedule or triggers, or can be done manually.
 
@@ -214,7 +214,7 @@ Navigate to **Resource Scheduling > Resources**
 
 To ensure resources can appear on the schedule board map, they must have a geocoded starting and ending location. 
 
-This is done 2 ways:
+This is done one of two ways:
 
 1. Set resource start/end location to **Resource address** and ensure the related resource record (User, Account, Contact) as defined by the resource type has latitude and longitude values.
 
