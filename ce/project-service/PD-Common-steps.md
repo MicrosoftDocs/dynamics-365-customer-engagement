@@ -93,5 +93,4 @@ On the last step, the platform will prompt you to include any dependent entities
 *Do not include all related components*
 > ![Do not include all related components](media/Do-not-include-required.png)
 
-Chnages done
 
