@@ -31,7 +31,7 @@ Once custom fields and entities have been created, the next step is to make Proj
 
 In the scenario where a custom pricing dimension is an option-set, you will simply be adding it as a field to key Project Service entities. In our example scenario, Resource Work Location and Resource Work Hours are option-set based pricing dimensions. We will first need to add these as fields to the Project Service Pricing entities: Role Price and Role Price Markup entities.
 
-**Important: When you add fields on the entities, it is important to keep the field name the same across all the entities that you will be adding it to. This will help to simplify the setup.**
+**_Important: When you add fields on the entities, it is important to keep the field name the same across all the entities that you will be adding it to. This will help to simplify the setup._**
  
 
 *Adding Resource Work Location to Role Price*
