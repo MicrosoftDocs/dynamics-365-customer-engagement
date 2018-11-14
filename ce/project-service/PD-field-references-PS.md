@@ -81,7 +81,7 @@ In the context of Time Entry, it would be great to have the system default the s
 
 This completes the schema changes required for Entity-based custom dimensions
 
-## Step 7. Add custom fields to forms and views
+## Step 7. Add custom fields to forms, views and business rules
 
 Once you have made all the required schema changes, the next step is to make these fields visible on the UI. For this, you will need to walkthrough the relevant forms and views of these entities and add these fields to the forms and views.
 Below is the comprehensive list of the out-of-the-box forms and views by entity that will need to be updated with the new fields. If you have any additional views or forms in your customizations on these entities, please add the new fields to those as well.
@@ -98,4 +98,4 @@ Below is the comprehensive list of the out-of-the-box forms and views by entity 
 |8. Invoice Line Detail|• Information<br>• Quick create|• Active Invoice Line Details<br>• Chargeable Invoice Transactions<br>• Complimentary Invoice Transactions<br>• Invoice Line Detail associated view<br>• Non-Chargeable Invoice Transactions|
 |9. Actual|• Information<br>• Active Actuals|• Actual Associated view|
 
-
+Your custom fields may also need to be added on Business rule depending on what business rules you have defined. One out-of-the-box example is for the Business Rule "Editablity of Time Entry based on status". This rule defines which fields need to be locked when the Time Entry is in a non-editbale status such as "Approved". Add fields to this business rule so that the fields are locked for editing when the Time Entry is in a status other than Draft or Returned.
