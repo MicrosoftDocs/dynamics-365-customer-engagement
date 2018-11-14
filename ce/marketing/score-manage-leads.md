@@ -1,21 +1,20 @@
 ---
-title: "Generate, score, and qualify leads (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "How to work with leads, set up automatic scoring rules, and identify sales-ready prospects in Dynamics 365 for Marketing"
+title: "Create lead scoring models (Dynamics 365 for Marketing) | Microsoft Docs "
+description: "How to set up automatic scoring rules and identify sales-ready leads in Dynamics 365 for Marketing"
 keywords: "lead; lead-scoring rule; grade; qualify; sales ready"
-ms.date: 04/01/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.date: 10/16/2018
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: d9a600e6-0c1c-48ac-b5dc-8b80c74e9755
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -26,49 +25,23 @@ search.app:
   - D365Mktg
 ---
 
-# Score and manage leads
+# Design lead-scoring models
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/ae6596f2-4df4-420e-9635-df776e4e5398" frameborder="0" allowfullscreen=""></iframe></div>
 
-Using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you can:
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can calculate a score for each lead based on demographic details, firmographic details, and actions taken by the associated contact (or for account-based leads, contacts belonging to the associated account). Scorable interactions include, for example: opening an email, submitting a landing page, visiting your website, or attending an event.
 
-- Generate leads manually or automatically by using landing pages.
-- Set up automatic lead-scoring models.
-- Set lead-scoring grades and the sales-ready threshold.
-
-## Leads and the lead life cycle
-
-A *lead* is an expression of interest in a product or service made within s specific marketing context. The lead life cycle is the journey that a lead takes from creation, through nurturing, and on to opportunity and eventual sale.
-
-When you're doing marketing in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], you'll start with a set of contact records that provide names and contact information about people who you'll be targeting with your marketing initiatives. Some of these contacts might be new or completely unknown to you, whereas others are well-known customers who have a history of purchases and interactions with your organization.
-
-When a contact submits a marketing page that is set up to create contacts and leads, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] generates a new contact record (or finds an existing record, if a matching contact exists), and then generates a lead (or finds an existing lead, if a matching lead exists) and links the lead and contact records together as required. If a matching lead already exists, a lead scoring rule might automatically increase the score of the lead in response to the submission. The lead represents an expressed interest in that specific campaign or initiative (this is called the *marketing context* of the lead). Some contacts might have several lead records activated at the same time, each tracking a different level of interest in a different campaign or product. Even a well-known contact with a long history of purchases might get a new lead created when they interact with a newer campaign.
-
-After a single interaction, a new lead is usually still considered *unqualified*, which means that you don't have enough confidence in it to ask a salesperson to engage. Marketers typically put contacts with leads like these into a *nurturing campaign*, which seeks to build interest by supplying additional information and new offers.
-
-Each lead has a score, and each time the associated contact interacts with an initiative in that lead's marketing context, it increases the lead score until it reaches a certain threshold, at which time it's considered marketing-qualified (sales-ready). At that point, the lead is sent to a salesperson, who decides whether to accept the lead. After the lead is accepted by sales, the lead might go on to become a sales-qualified lead, then converted to an opportunity and, finally, become a closed sale. Or, the salesperson might decide that the lead isn't ready and might reject the lead or recycle it by sending it back to marketing. Other leads might eventually get marked as lost, but the contact will remain in your database to be included in future marketing campaigns.
-
-> [!NOTE]
-> If you are integrating [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] with [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], then you should probably also customize the lead views and dashboards shown to salespeople to ensure that only sales-ready leads are shown to them. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create or edit views](../customize/create-edit-views.md) and [Create or edit dashboards](../customize/create-edit-dashboards.md)
-
-## Lead generation
-
-There are two ways to create a lead: manual and automatic.
-
-- To view, create, or edit a lead manually, go to **Marketing** &gt; **Customers** &gt; **Leads**. This opens a standard list view, which you can use to search, sort, filter, create, and delete your leads. Open any lead to view its details. Select **New** to create a new one.
-
-- To generate leads automatically, create a [marketing page](create-deploy-marketing-pages.md) that is configured to generate leads (and possibly contacts too). When a contact submits a landing page such as this, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] matches incoming form data against existing contacts and leads. It creates new contacts and leads as needed, and links them together. The [event portal](set-up-event-portal.md)also auto-generated leads and linked contacts in a similar way. Auto-generated leads store information about the context where they were created, including the marketing page, marketing form, customer journey, and email message associated with it.
-
-## Lead scoring
-
-After a lead exists, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] can start scoring it based on demographic data, firmographic data, and contact interactions. Scoring occurs automatically according to rules that you establish as lead-scoring models.
+Each scoring model includes a sales-ready threshold. When a lead's score passes this threshold, it gets marked as sales ready, which can trigger other events within Dynamics 365, including advancing the lead through its business process and alerting tele prospectors or salespeople to pick it up.
 
 > [!IMPORTANT]
-> Automatic lead scoring only works for leads that are associated with a contact. Scoring fails for leads that don't have a contact associated with them. Also, segments in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can only include contacts, not leads, which means that you can only address marketing emails to contacts.
+> Automatic lead scoring only works for leads that are associated with a contact or account. Scoring fails for leads that don't have a contact or account associated with them. Also, segments in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can only include contacts, not leads or accounts, which means that you can only address marketing emails to contacts.
 > 
 > Your landing pages will typically either create a lead/contact pair when they create a new contact, or associate new leads with existing contacts when they're available. But when you create a lead manually, you must also associate it with a contact manually to enable lead scoring.
+
+> [!IMPORTANT]
+> Automatic lead scoring can introduce data-privacy issues that are regulated by laws such as the GDPR. It is your organization's responsibility to ensure that it is operating in full compliance with all relevant data-privacy regulations when you use lead scoring and all other features of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Data protection and the GDPR](gdpr.md)
 
 ## Create, view, and manage your lead-scoring models
 
@@ -85,6 +58,20 @@ To view, edit, and create lead-scoring models, go to **Marketing** &gt; **Lead M
 You'll spend most of your time working on the **Design** tab, which opens when you first open or create the model. This is where you define the model's logic by dragging tiles from the **Toolbox** tab to the canvas to construct one or more condition/action tile pairs. Each pair starts with a **Condition** tile, which establishes a rule (such as email clicked) and ends with an **Action**, which defines how the score should be adjusted when the condition is met. Your model can include any number of condition/action pairs.
 
 The scoring-model canvas is similar to the customer-journey canvas. Add tiles by dragging from the **Toolbox** tab. Select a tile and open the **Properties** tab to make settings for that tile. Use the toolbar above the canvas to cut, copy, paste, and delete a selected tile; you can also add a tile and take a snapshot from here.
+
+### Name your model and choose the entity target
+
+The first thing you should do when setting up a new lead-scoring model is to give it a name and choose which type of entity it will target (accounts or contacts). Proceed as follows:
+
+1. Open the **Summary** tab.
+1. Enter a descriptive name in the **Name** field.
+1. Set the **Entity target** to **Account** or **Contact**. This setting establishes which type of leads the model will score.
+    - *Contact-based leads* are associated with a contact record, and are scored based on information and interactions related to that contact only.
+    - *Account-based leads* are associated with an account record. They are scored based on information from the account, plus information and interactions related to each contact that belongs to that account.
+    - Leads associated with both a contact and an account are treated as contact-based leads.
+1. Select **Save** to save your settings.
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Account-based marketing](account-based-marketing.md)
 
 ### Set up a condition
 

@@ -1,5 +1,5 @@
 ---
-title: "Migrate Microsoft Dynamics 365 (online) to Microsoft Dynamics 365 (on-premises) | MicrosoftDocs"
+title: "Migrate Dynamics 365 (online) to Dynamics 365 (on-premises) | MicrosoftDocs"
 description: "Follow theses steps to migrate from Microsoft Dynamics 365 (online) to Microsoft Dynamics 365 (on-premises)."
 ms.custom: ""
 ms.date: 08/21/2018
@@ -17,9 +17,9 @@ caps.latest.revision: 15
 ms.author: "matp"
 manager: "kvivek"
 ---
-# Migrate Microsoft Dynamics 365 (online) to Microsoft Dynamics 365 (on-premises)
+# Migrate Dynamics 365 (online) to Dynamics 365 (on-premises)
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 This document describes the steps needed to migrate from an instance of [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] to a [!INCLUDE[pn-crm-2016](../includes/pn-crm-2016.md)] on-premises deployment. To complete the migration, follow the steps provided here in the order presented..  
   

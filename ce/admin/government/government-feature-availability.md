@@ -39,13 +39,13 @@ There are certain experiences that are currently not available with Dynamics 365
 
 - [Activity Logging](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-use-comprehensive-auditing)
 - [AppSource](https://appsource.microsoft.com/?product=dynamics-365-business-central%3Bdynamics-365-for-customer-services%3Bdynamics-365-for-field-services%3Bdynamics-365-for-finance-and-operations%3Bdynamics-365-for-project-service-automation%3Bdynamics-365-for-sales) (ability to install Applications directly from AppSource)
-- [Data Export Service](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.44f192ec-e387-436c-886c-879923d8a448)
+- [Data Export Service](https://appsource.microsoft.com/product/dynamics-365/mscrm.44f192ec-e387-436c-886c-879923d8a448)
 - [Organization Insights](https://appsource.microsoft.com/product/dynamics-365/mscrm.04931187-431c-415d-8777-f7f482ba8095)
 - [CAFEx Integration](https://appsource.microsoft.com/product/dynamics-365/cafexliveassistfor365.27ac7522-68b2-44a2-9f36-da66a47e2b19)
 - [Connected Field Service](https://msdn.microsoft.com/library/mt744253.aspx)
 - [Gamification](https://docs.microsoft.com/dynamics365/customer-engagement/gamification/manage-gamification-in-dynamics-365-online)
 - [Home.Dynamics.com](http://home.dynamics.com/)
-- [Insights, powered by InsideView](https://appsource.microsoft.com/en-us/product/dynamics-365/insideviewinc.b5386882-4312-4d69-879a-23081897c012)
+- [Insights, powered by InsideView](https://appsource.microsoft.com/product/dynamics-365/insideviewinc.b5386882-4312-4d69-879a-23081897c012)
 - [Mobile offline](https://docs.microsoft.com/dynamics365/customer-engagement/mobile-app/configure-mobile-offline-synchronization-dynamics-365-phones-tablets)
 - [PowerBI “embedded” user dashboard experience](https://docs.microsoft.com/power-bi/service-connect-to-microsoft-dynamics-crm)
 - [Relevance Search](https://docs.microsoft.com/dynamics365/customer-engagement/basics/relevance-search-results)
@@ -59,7 +59,7 @@ There are a number of other business application apps and services that are not 
 - [Microsoft Dynamics 365 for Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/overview)
 - [Microsoft Dynamics 365 for Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/)
 - [Microsoft Dynamics Social Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/get-started) – This is a feature that cannot be used by Government customers, worldwide.
-- [Microsoft Dynamics Voice of the Customer](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/voice-of-customer/get-feedback-surveys) – Please note that while this is not available in GCC, it is available to install into a customer’s Instance(s) running GCC services; all integration points will work as they do in our non-GCC environments. 
+- [Microsoft Dynamics Voice of the Customer](https://docs.microsoft.com/dynamics365/customer-engagement/voice-of-customer/get-feedback-surveys) – Please note that while this is not available in GCC, it is available to install into a customer’s Instance(s) running GCC services; all integration points will work as they do in our non-GCC environments. 
 - [Microsoft Dynamics 365 for Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/) - Please note that while this is not available in GCC, it is available to purchase and associate to a customer’s tenant running GCC services.  
 - [Microsoft Dynamics 365 for Retail](https://docs.microsoft.com/dynamics365/unified-operations/retail/) - Please note that while this is not available in GCC, it is available to purchase and associate to a customer’s tenant running GCC services.
 

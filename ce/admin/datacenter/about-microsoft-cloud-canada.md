@@ -22,7 +22,7 @@ search.app:
 ---
 # About the Microsoft Cloud Canada datacenter
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 <a name="BKMK_NewCloud"></a>   
 ## New Microsoft Cloud Services in Canada  
@@ -69,7 +69,7 @@ search.app:
  The customer experience will be unchanged, the workloads for the other services will simply be provisioned from other regions.  
   
 ### When will ExpressRoute be available in Canada for Dynamics 365 Online customers, and through which partners?  
- [!INCLUDE[pn_expressroute](../../includes/pn-expressroute.md)] is currently available in Canada. [View a current list of ExpressRoute locations and partners](https://azure.microsoft.com/en-us/documentation/articles/expressroute-locations/). [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] is currently working to enable customers to use [!INCLUDE[pn_expressroute](../../includes/pn-expressroute.md)] with [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] from the Canada regions.  
+ [!INCLUDE[pn_expressroute](../../includes/pn-expressroute.md)] is currently available in Canada. [View a current list of ExpressRoute locations and partners](https://azure.microsoft.com/documentation/articles/expressroute-locations). [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] is currently working to enable customers to use [!INCLUDE[pn_expressroute](../../includes/pn-expressroute.md)] with [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] from the Canada regions.  
   
 ### Where can I find more about Microsoft Dynamics 365 (online) security, data privacy, and compliance?  
  You can find more information at the  [Microsoft Dynamics 365 Trust Center](http://go.microsoft.com/fwlink/p/?LinkID=393409).  

@@ -80,7 +80,7 @@ If your organization maintains multiple [!INCLUDE[pn_dynamics_crm](../includes/p
 
 - If you maintain more than one connected [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, you can delete one connection and still use the other connections.  
 
-- If you delete a specific connection, all posts that had links pointing to that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance will have that link removed. Those posts will look like any other posts without an active link to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and can be linked to any other enabled [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Dynamics Dynamics 365 (online) and Social Engagement](connect-dynamics-365-social-engagement.md)  
+- If you delete a specific connection, all posts that had links pointing to that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance will have that link removed. Those posts will look like any other posts without an active link to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and can be linked to any other enabled [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Dynamics 365 (online) and Social Engagement](connect-dynamics-365-social-engagement.md)  
 
 - No new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records can be created after deleting a connection to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, unless a connection is re-established.  
 

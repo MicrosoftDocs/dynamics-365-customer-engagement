@@ -1,13 +1,14 @@
 ---
-title: Configuration
-author: shellyhaverkamp
+title: Resource Scheduling Optimization (RSO) configuration
+author: fieldservicedave
+ms.author: daclar
+ms.reviewer: krbjoran
 manager: shellyha
-ms.date: 6/08/2018
+ms.date: 10/31/2018
 ms.topic: article
 ms.custom: 
   - dyn365-fieldservice
 ms.service: dynamics-365-customerservice
-ms.author: shellyha
 search.audienceType: 
   - admin
   - customizer
@@ -17,34 +18,29 @@ search.app:
   - D365FS
 ---
 
-Configuration 
-==============
+# Resource Scheduling Optimization (RSO) configuration
 
-RSO system settings 
---------------------
-
-The following settings must be configured after deploying RSO.
+Perform these configuration steps after you deploy the RSO solution.
 
 1. Go to **Resource Scheduling Optimization** \> **Administration** \>
     **Resource Scheduling Parameters**.
 
-   - Set **Enable Resource Scheduling Optimization** as **Yes**.
+   - Set **Enable Resource Scheduling Optimization** to **Yes**.
 
-   - Set **Default Goal** if needed. It can help you speed up interactions with
-     RSO through the schedule board by predefining how the engine should optimize
-     data. Users can still pick different goals. For more details, see “4.3
-     Leverage schedule board to review optimization results.”
+   - Set **Default Goal** if needed. A default goal helps speed up interactions with
+     RSO through the schedule board by predefining how the engine optimizes
+     data. Users can still pick different goals. 
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of "Enable Resource Scheduling Optimization" field set to "Yes" ](media/9311df68c981d7f4c5e984622ca1e244.png)
 
    - Set **Connect to Maps** as **Yes**. The connect to maps feature allows this
      organization to interact with the Bing Maps service that the schedule board
      uses.
-
-     ![Screenshot of "Enable Resource Scheduling Optimization" field set to "Yes" ](media/9311df68c981d7f4c5e984622ca1e244.png)
-
-     ![Screenshot of "Connect to Maps" set as "Yes"](media/c2e5f7299860832f2823f285d0fcd113.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of "Connect to Maps" set as "Yes"](media/c2e5f7299860832f2823f285d0fcd113.png)
 
      > [!NOTE]
-     > Only a user with the System Administrator role can enable this. 
+     > Only a user with the system administrator role can enable this setting. 
 
 2. Go to **Settings** \> **Security** \> **Users**, navigate to the
     **Application Users** view, and assign the Field Service - Administrator
@@ -52,43 +48,39 @@ The following settings must be configured after deploying RSO.
 
 3. Go to **Settings** \> **Security** \> **Field Security Profiles**, open
     **Field Service – Administrator**, and add **Resource Scheduling
-    Optimization** into the Field Security Profile.
+    Optimization** to the field security profile.
 
-   > [!NOTE]
-   > Steps 2 and 3 help ensure that RSO is able to optimize work order-related requirements and bookings. For Field Service dispatchers who want to interact with RSO:
-   > 
-   > 1. Go to **Settings** \> **Security** \> **Users**.
-   > 2. Locate the user or team of dispatchers.
-   > 3. Click **Manage Roles**.
-   > 4. Grant **RSO Dispatcher** a security role.
-   > 5. Click **Save**.
-   > 6. Go to **Settings** \> **Security** \> **Field Security Profiles**.
-   > 7. Open **Resource Scheduling Optimization - Dispatcher** and add the user or
-   >  team to the profile and then click **Save**.
+  Steps 2 and 3 help ensure that RSO is able to optimize work order-related requirements and bookings. 
+  
+  For dispatchers who want to interact with RSO:
+   1. Go to **Settings** \> **Security** \> **Users**.
+  2. Locate the user or team of dispatchers.
+   3. Click **Manage Roles**.
+   4. Grant **RSO Dispatcher** a security role.
+  5. Click **Save**.
+   6. Go to **Settings** \> **Security** \> **Field Security Profiles**.
+   7. Open **Resource Scheduling Optimization - Dispatcher** and add the user or
+team to the profile and then click **Save**.
 
-Settings to prepare data for optimization 
-------------------------------------------
+## Settings to prepare data for optimization 
 
-The basic settings here will be checked and respected by all optimization scopes.
+The settings described here are selected and applied to all optimization scopes.
 
-1. Update **Optimize Schedule** to **Yes** for resources. To do so, go to
+1. Update **Optimize Schedule** to **Yes** for resources. Go to
     **Resource Scheduling Optimization** \> **Resources**. Navigate to the
     **Scheduling Summary** view, select one or more resource records, and then
-    click **EDIT** to bulk edit the Optimize Schedule field to YES.
+    click **Edit** to bulk edit the **Optimize Schedule** field to **Yes**.
 
    > [!NOTE]
-   > - Once you have enabled your resources for RSO, you need to set the latitude
+   > - After you enable your resources for RSO, you need to set the latitude
     and longitude for the resources’ organizational unit or personal address,
     depending on whether their start/end location is an organizational unit or a
     personal address.
-   > - Start location and end location should have the same setting. For example,
+   > - Start location and end location must have the same setting. For example,
     you cannot have the start location be a personal address and the end
     location be location agnostic. 
   
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot showing the Resource Scheduling OPtimization set to Yes on a resource](media/rso-set-to-yes.png)
-   
-2. Configure BOOKING SETUP METADATA for the desired entity. To do this, set
+2. Configure booking setup metadata for the entity. Set
     **Default Scheduling Method** to **Optimize**. For example, if enabled for
     work order entity’s booking setup metadata, every newly created work order
     and related resource requirement will be configured to optimize
@@ -96,18 +88,16 @@ The basic settings here will be checked and respected by all optimization scopes
     
     ![Screenshot showing the Booking Setup Metadata, with Default Scheduling Method set to "Optimize"](media/f0d624969f46a29e897670479a546ef6.png)
 
-3. For existing resource requirement records in your system, update Resource
-    Requirements Scheduling Method. To do this, go to **Resource Scheduling
+3. For existing resource requirement records, update the resource
+    requirements scheduling Method. Go to **Resource Scheduling
     Optimization** \> **Resource Requirements,** navigate to the **Unscheduled
     Work Order Requirements** view, select some or all records, and click
-    **EDIT** to bulk edit Optimize Schedule to YES.
+    **Edit** to bulk edit the **Optimize Schedule** field to **Yes**.
 
     > [!NOTE]
-    > Work Location must be either On Site or Location Agnostic. If On Site is the requirement, you need to specify latitude and longitude. More details on this are available in section 5.12. 
+    > Work location must be set to **On Site** or **Location Agnostic**. If **On Site** is the requirement, you must specify latitude and longitude.  
     
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot showing a resource requirement, showing the important or required fields](media/c6ddfd243951a9a69073065ebbf2e0cb.png)    
-
+    
 4. Check **From Date** and **To Date** for resource requirements to make sure
     the dates fall into the window you would like to schedule. You can use the
     bulk edit feature to update values for selected records as well.
@@ -120,9 +110,8 @@ The basic settings here will be checked and respected by all optimization scopes
     > [!NOTE]
     > Any booking status with an empty scheduling method will be treated as Do Not Move.
     
-   - **Optimize**: This means RSO is free to move this booking around. 
-   - **Do Not Move**: This means RSO will not alter the booking (RSO will
-    preserve the estimated arrival time and assigned resource. The booking’s
+   - **Optimize**: This status means RSO is free to move this booking around. 
+   - **Do Not Move**: This means RSO doesn't alter the booking. RSO preserves the estimated arrival time and assigned resource. The booking’s
     start time and estimated travel duration may be changed if RSO schedules a
     booking in a new location before the Do Not Move booking). This operates the
     same as if the user set the booking to **Locked to resource + time** on the
@@ -131,26 +120,25 @@ The basic settings here will be checked and respected by all optimization scopes
     location and time, meaning there will be overlaps. It is as if the booking
     doesn’t exist. Use this when the booking status is in the state of proposed or canceled.
 
-Create an optimization schedule 
---------------------------------
+## Create an optimization schedule 
 
-You can define when RSO should optimize requirements and/or bookings for selected resources—for example, at 1 AM on weekdays. Creating a schedule also entails creating a scope and a goal.
+You can define when RSO should optimize requirements and bookings for selected resources, for example, at 1 AM on weekdays. Creating a schedule also includes creating a scope and a goal.
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing an optimization schedule](media/88139c6831f34eb47709a44bc6d3dd6e.png)
 
-Give the schedule a logical name to express which resource requirements and bookable resources will be optimized. If a scope and goal have not been created, you will need to create those for this schedule. See the next section for details about scope and goals.
+Give the schedule a logical name to express which resource requirements and bookable resources will be optimized. If a scope and goal have not been created, you will need to create those for this schedule. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the schedule name](media/rso-wa-job.png)
 
 - **Timer**: Defines how often this schedule will run.
-- **Timer Mode**: The reference instant from when the schedule will start the
-    timer (Fixed or After Job Completion). For example, if timer is set to 30
-    minutes, the first run will start 30 minutes from the publish date/time.
-    Fixed = run every 30 minutes. After Job Completion = run 30 minutes from the
-    end of the last RSO job execution. Job refers to the RSO job.
+- **Timer Mode**: The reference instant when the schedule starts the
+    timer (**Fixed** or **After Job Completion**). For example, if a timer is set to 30
+    minutes, the first run starts 30 minutes from the publish date/time.
+    **Fixed** mode means the optimization runs every 30 minutes. **After Job Completion** mode means the optimization runs 30 minutes from the
+    end of the last RSO job execution. **Job** refers to the RSO job.
 - **Valid From** and **Valid To**: The first/last date and time when this
-    schedule will be valid for execution.
+    schedule is valid for execution.
 
 Filter is used to set a variety of combinations. For example, the schedule will run at 1 AM and 7 PM every Monday through Friday.
 
@@ -162,9 +150,9 @@ The Filter section of the schedule is an advanced feature. The Filter window all
     to a configured time zone.
 - Leaving all filters blank means no filters will be applied.
 
-### How does Timer work with Filter?
+### How timers work with filters
 
-If you configure your Timer and Filter as shown here, it means that RSO will run every 30 minutes after the previous job is completed—from 12/3/2016 at 9 AM to 12/4/2018 at 9 AM except on Saturdays and Sundays.
+If you configure your timer and filter as shown here, RSO will run every 30 minutes after the previous job is completed, from 12/3/2016 at 9 AM to 12/4/2018 at 9 AM, except on Saturdays and Sundays.
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the Washington territory](media/rso-wa-territory.png)
 > [!div class="mx-imgBorder"]
@@ -172,10 +160,9 @@ If you configure your Timer and Filter as shown here, it means that RSO will run
 > [!div class="mx-imgBorder"]
 >![Screenshot showing the pertinent days of the week](media/3fca5eb9becad2a8a08ae76057a03cf1.png)
 
-Define the optimization scope
------------------------------
+## Define the optimization scope
 
-You can define what RSO should optimize. This includes resources, requirements, and bookings.
+You can define what RSO optimizes, including resources, requirements, or bookings.
 
 Scope is the RSO mechanism for defining the relevant inputs: resource requirements, resources, and existing resource bookings. It also includes the timeframes to be considered for optimization. Extensible scope leverages Dynamics 365 entity views, providing an easy and flexible way to define what to optimize (resource requirements, resources, and existing resource bookings).
 
@@ -186,13 +173,11 @@ Scope is the RSO mechanism for defining the relevant inputs: resource requiremen
 > - Geographically defined: neighborhoods, cities.
 > - Logically defined: support level, incident type.
 
-Upon opening the **Scheduling Optimization Scope** form, users can select existing system views or personal views (for which they have read permissions) from the Resource, Requirement, and Booking view drop-down menus. If personal view is selected, it will be shared with the Resource Scheduling Optimization application user and other users who have access to the scope.
+After opening the **Scheduling Optimization Scope** form, users can select existing system views or personal views (for which they have read permissions) from the Resource, Requirement, and Booking view drop-down menus. If a personal view is selected, it is shared with the Resource Scheduling Optimization application user and other users who have access to the scope.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the scheduling optimization scope](media/92069616c79fb0f7fe9c4adc6683f50b.png)
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a modal with system view options](media/e7dd89ff112dcae60489d52534c564f2.png)
-
-The following explains how to define an optimization scope.
 
 1. Using **Resource View** as an example, 0_WA Resources has been defined with
     the filter conditions shown in the following screenshot. This is equivalent
@@ -208,7 +193,8 @@ The following explains how to define an optimization scope.
 2. Select at least one requirement or booking view for what needs to be
     optimized.
     
-    ![Screenshot showing that users must select on requirement or booking view](media/843748f6ea067de2163318e71ac4851d.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot showing that users must select on requirement or booking view](media/843748f6ea067de2163318e71ac4851d.png)
 
 3. If you select booking view, you can set it to **Now or After**. For example,
     maybe you want to optimize bookings for the next 5 days, from 2 hours on
@@ -217,14 +203,16 @@ The following explains how to define an optimization scope.
     this Now or After condition; RSO enabled this additional setting on top of
     whatever filter conditions are defined for that booking view.
     
-    ![Screenshot of Bookings for this Optimization](media/322f8b809e438d032b150b13fde88148.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of Bookings for this Optimization](media/322f8b809e438d032b150b13fde88148.png)
 
 4. Optimization Range Settings is the time range where bookings can be created,
     updated, and deleted.
 
    **Example 1:** You want to have a booking created/moved ahead 24 hours but from 1 hour on; in other words, bookings will be moved into a range starting Now+1hour and ending Now+1hour+1day (which might partly still be today).
   
-   ![Screenshot of optimization range settings](media/62ab888c08dfc0bdd81587535de73d5d.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of optimization range settings](media/62ab888c08dfc0bdd81587535de73d5d.png)
 
    - **Range Reference**: The start moment for all subsequent work order range
      calculation (Job current time or Beginning of the Job’s current day).
@@ -237,12 +225,13 @@ The following explains how to define an optimization scope.
 
    **Example 2**: You want to have a booking created/moved into the next two days.
   
-   ![Screenshot of optimization range settings](media/6a06b7a1a69c2f493686442af5e44520.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of optimization range settings](media/6a06b7a1a69c2f493686442af5e44520.png)
    > [!div class="mx-imgBorder"]
    > ![Image showing range offset and duration](media/5d265da65e27891ebab3319627e9a3fa.png)
 
    > [!NOTE]
-   > If bookings or resource requirements are defined in the Requirement/Booking view, but the promised date/time windows are outside the optimization range, RSO will NOT create/update these requirements/bookings after respecting the scheduling window constraint. If the promised date/time windows are overlapping the optimization range, RSO will create/update these requirements/bookings after respecting the scheduling window constraint.
+   > If bookings or resource requirements are defined in the Requirement/Booking view, but the promised date/time windows are outside the optimization range, RSO won't create or update these requirements or bookings after respecting the scheduling window constraint. If the promised date/time windows are overlapping the optimization range, RSO will create/update these requirements/bookings after respecting the scheduling window constraint.
 
 5. You can preview resources, requirements, and bookings for optimization scope
     through the schedule board:
@@ -270,14 +259,15 @@ The following explains how to define an optimization scope.
      > [!div class="mx-imgBorder"]
      > ![Screenshot of the schedule board with modified filters](media/d3b94e01e4d75db77d4f06e20b8d83d9.png)
 
-Define the optimization goal 
------------------------------
-A goal is what the tool aspires to optimize. An example of a goal is to maximize working hours or minimize travel time. You define how bookings should be optimized (constraints and objectives). The Resource Scheduling Optimization engine processes a list of resources and a list of resource requirements, along with existing bookings, to create the optimal route or list of bookings for the resources. Bookings are considered optimally scheduled if they:
+## Define the optimization goal 
+
+A goal is what the RSO solution aspires to optimize. An example of a goal is to maximize working hours or minimize travel time. You define how bookings should be optimized (constraints and objectives). The Resource Scheduling Optimization engine processes a list of resources and a list of resource requirements, along with existing bookings, to create the optimal route or list of bookings for the resources. Bookings are considered optimally scheduled if they:
 
 - Meet all company constraints.
 - Have the highest possible score for the company’s objectives.
   
-  ![Screenshot of a scheduling optimization goal](media/13db00f67badee105913102fc3e121ed.png)
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of a scheduling optimization goal](media/13db00f67badee105913102fc3e121ed.png)
 
 **Engine Effort Level**: How much effort the RSO should make to find the best combination of resources, route, and day/time. The higher the effort, the longer RSO takes to complete the execution. For example, the effort might be very light, light, moderate, intense, or very intense. The higher the intensity, the more iterations of possible combinations the RSO engine considers.
 
@@ -296,7 +286,29 @@ A goal is what the tool aspires to optimize. An example of a goal is to maximize
 
 - **Scheduling Lock Option**: If marked, this will respect lock options
     configured on a booking record.
+    
+- **Matches resource type**: RSO will match the resource type between requirements and resources to decide which type of resource can fulfill a requirement. **Available with RSO v2.8+**
 
+    Bookable resources include these resource types:
+
+    - Generic *
+    - Users *
+    - Contacts *
+    - Accounts *
+    - Equipment *
+    - Facility *
+    - Crew
+    - Pool
+
+    * Indicates resource types the optimization will consider
+
+    In general, resource types define how the resource relates to the organization. As an example, resources with the resource type **Users** are usually employees, whereas the resource type **Contacts** or **Accounts** are usually contractors.
+
+    Additionally, requirements allow multi-select so you can specify which resource types are needed for a given requirement.
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of multi-select resource type attribute on requirement](media/rso-requirement-resource-type-field.png)
+    
 - **Scheduling Windows**: If marked, RSO will schedule work to comply within
     the time window start and end fields on the resource requirement or booking
     record.
@@ -323,7 +335,7 @@ A goal is what the tool aspires to optimize. An example of a goal is to maximize
     > 
     > [!NOTE]
     > 
-    > - If the above fields are conflicted, RSO will use **Time From Promised** and
+    > - If the above fields are conflicting, RSO uses **Time From Promised** and
     > **Time To Promised** first. Then it will use one or a combination of other
     > fields.
     > - RSO will ensure the **Estimated Arrival Time** falls into the window
@@ -335,18 +347,19 @@ A goal is what the tool aspires to optimize. An example of a goal is to maximize
 
 ### Default optimization goal
 
-Related to Resource Scheduling Optimization v2.8+
-
-When Resource Scheduling Optimization is deployed for the first time, the system will automatically create a default goal with some constraints and objectives enabled. 
+When Resource Scheduling Optimization is deployed for the first time, the system automatically creates a default goal with some constraints and objectives enabled. 
 
 - The default goal has the following constraints and objectives enabled. The user can modify as needed or create a new optimization goal and associate it as a default goal.
 
->![Screenshot of default goal in scheduling parameters](media/rso-default-goal-1.png)
->![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-default-goal-2.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of default goal in scheduling parameters](media/rso-default-goal-1.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-default-goal-2.png)
 
 - The default goal is used when single resource optimization is selected from the schedule board.
 
->![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-single-resource-1.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-single-resource-1.png)
 
 ### Define objectives
 
@@ -401,27 +414,4 @@ When Resource Scheduling Optimization is deployed for the first time, the system
     Importance**=1 for low priority and RSO will score 1 urgent requirement the
     same as 10 low-priority requirements because both scores are 10.
 
-- **Matches resource type**: RSO will match the resource type between requirements and resources to decide which type of resource can fulfill a requirement. **Available with RSO v2.8+**
 
-    Bookable resources include these resource types:
-
-    - Generic *
-    - Users *
-    - Contacts *
-    - Accounts *
-    - Equipment *
-    - Facility *
-    - Crew
-    - Pool
-
-    * Indicates resource types the optimization will consider
-
-    In general, resource types define how the resource relates to the organization. As an example, resources with the resource type **Users** are usually employees, whereas the resource type **Contacts** or **Accounts** are usually contractors.
-
-    Additionally, requirements allow multi-select so you can specify which resource types are needed for a given requirement.
-
-    >![Screenshot of multi-select resource type attribute on requirement](media/rso-requirement-resource-type-field.png)
-
-    To enable, navigate to Optimization Goals and add it as a constraint.
-
-    >![Screenshot of match resource type constraint in optimization setup](media/rso-resource-type-constraint.png)

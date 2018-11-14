@@ -3,29 +3,23 @@ title: "Publish a product or bundle to make it available for selling (Dynamics 3
 description: "Publish a product or bundle in Dynamics 365 for Sales to make it available to the sales agents so they can build orders or create opportunities for customers."
 keywords: "Publish, product, make available"
 ms.date: 04/01/2018
-ms.service: dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: 
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "shubhadaj"
 ms.assetid: 9d60813a-0bc8-4dd2-be3f-084812c6ba5c
+author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 19
 topic-status: Drafting
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Publish a product, family, or bundle to make it available for selling (Sales)
@@ -37,7 +31,7 @@ When you're ready to sell a product or bundle, publish it to make it available t
 > [!NOTE]
 >  You can only publish a product or bundle with a parent family if the parent product family is active.  
      
-## Publish a product, family, or bundle (Sales Hub app)
+## Publish a product, family, or bundle (Sales Hub)
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
@@ -53,7 +47,7 @@ When you're ready to sell a product or bundle, publish it to make it available t
 > 
 > You can't publish multiple product records at the same time. To publish all child products and families of a parent family at once, open the family, and choose **Publish** > **Publish Hierarchy**. For product records that don't belong to a product family, publish them individually after creating or editing them to make them available to your sales agents.
 
-## Publish a product or bundle (Sales app)
+## Publish a product or bundle (Sales)
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   

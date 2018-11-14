@@ -3,29 +3,23 @@ title: "Clone a product (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Quickly create a copy of an existing product in Dynamics 365 for Sales including all its details by cloning it."
 keywords: "Clone, copy"
 ms.date: 04/01/2018
-ms.service: dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: 
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "shubhadaj"
 ms.assetid: 0abe6dc4-c8bc-4d09-aa4f-e41218e08927
+author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 9
 topic-status: Drafting
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Clone a product (Sales and Sales Hub)
@@ -34,7 +28,7 @@ search.app:
 
 When you're creating a new product, family or bundle, save time by cloning an existing one. This creates a copy of the original record with all the details except for the name and ID. If the product, bundle or family has any properties, they're also copied to the cloned record.  
   
-## Clone a product in the Sales Hub app
+## Clone a product (Sales Hub)
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
@@ -55,7 +49,7 @@ When you're creating a new product, family or bundle, save time by cloning an ex
     The new record is created under the same parent node as the original one.  
 
 
-## Clone a product in the Sales app
+## Clone a product (Sales)
 
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  

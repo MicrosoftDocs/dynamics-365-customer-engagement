@@ -3,19 +3,18 @@ title: "Set up a recurring event (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Describes how recurring events work in Dynamics 365 for Marketing"
 keywords: "events; waitlist"
 ms.date: 07/06/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 5ac46cc6-beef-45b3-941e-38c66519d144
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 search.audienceType: 
   - admin
   - customizer
@@ -26,6 +25,8 @@ search.app:
 ---
 
 # Create and manage recurring events
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 If you host an event that occurs regularly, such as a monthly partner call, annual developers conference, or quarterly earnings presentation, then you might benefit by setting up a recurring event. Recurring events provide many benefits in situations like these, including:
 

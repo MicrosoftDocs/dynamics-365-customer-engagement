@@ -23,7 +23,7 @@ search.app:
 ---
 # Use the Office 365 admin center to manage your subscription 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 [The Office 365 admin center](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23) is a portal site rich in features for the administrator. [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] takes advantage of the features on this site to simplify and consolidate management of user accounts, billing, licensing, and more.  
   
@@ -110,7 +110,7 @@ More information: [Contact Technical Support](contact-technical-support.md)
   
 <a name="BKMK_PasswordSelfSet"></a>   
 ## Configure self-service password reset and other settings in Azure  
- If you have an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] Basic or Premium subscription, you can set it up so users can do their own password reset. You can access [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] configuration from the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable users to reset their Azure AD passwords](https://azure.microsoft.com/en-us/documentation/articles/active-directory-passwords-getting-started/#enable-users-to-reset-their-azure-ad-passwords)  
+ If you have an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] Basic or Premium subscription, you can set it up so users can do their own password reset. You can access [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] configuration from the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable users to reset their Azure AD passwords](https://azure.microsoft.com/documentation/articles/active-directory-passwords-getting-started/#enable-users-to-reset-their-azure-ad-passwords)  
   
  On the left-side menu of the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], choose **Admin centers** > **Azure AD**. Select your subscription in [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] and then choose **Configure**.  
   

@@ -59,6 +59,19 @@ Use the **Popup Notification** hosted control type to display notifications in [
 ### Show  
  Displays a notification.  
 
+::: moniker range="=dynamics-usd-3"
+
+|   Parameter   | Description  |
+|---------------|--------------|
+|   formname    | Name of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] form to display. |
+| placementmode | Specifies whether or not to display the notification relative to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] window. Valid values are `absolute` or `relative`.<br /><br /> -   `absolute`: Specifies that the notification will be displayed based on your screen coordinates. The values that you specify in the `left` and `top` parameters for the notification location are absolute percentage values for your computer screen.</br><br/>-   `relative`:  Specifies that the notification will be displayed based on [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client window coordinates. The values that you specify in the `left` and `top` parameters for the notification location are  percentage values relative to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client window. |
+|     left      | Specifies the position, in percentage, from the left of either your screen or the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client window where the notification should be displayed. If you don’t specify this parameter, 0 is passed by default. |
+|      top      | Specifies the position, in percentage, from the top of either your screen or the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client window where the notification should be displayed. If you don’t specify this parameter, 0 is passed by default. |
+|    timeout    | Duration in seconds for the notification to be available without any interaction. If you do not specify a valid value for this parameter, the notification will continue to appear, and won't hide/close automatically. If you want a notification to be explicitly closed, you might leave out this value but should add a cancel/close button to close the notification if the user wants to close the notification. |
+
+::: moniker-end
+
+::: moniker range=">=dynamics-usd-4"
 
 |   Parameter   | Description  |
 |---------------|--------------|
@@ -69,6 +82,8 @@ Use the **Popup Notification** hosted control type to display notifications in [
 |    timeout    | Duration in seconds for the notification to be available without any interaction. If you do not specify a valid value for this parameter, the notification will continue to appear, and won't hide/close automatically. If you want a notification to be explicitly closed, you might leave out this value but should add a cancel/close button to close the notification if the user wants to close the notification. |
 |    stack    | Specifies whether Unified Service Desk shows the notifications as a stack.<br> Set **true** to show the notification in stack.<br>Set **false** to not to show the notifications in stack. |
 |    stackHeight    | Height the notification in pixels in the collapsed state.<br> The range of the value is between 1 - 100. The default is 50. If you do not specify any value, the default value (50) is passed. Also, if you specify 0 or specify more than 100, default value (50) is passed.|
+
+::: moniker-end
 
 
 <a name="Hide"></a>   

@@ -23,9 +23,9 @@ search.app:
 ---
 # Create or edit a security role to manage access
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-You can create new security roles to accommodate changes in your business requirements or you can edit the privileges associated with an existing security role.  
+You can create new security roles to accommodate changes in your business requirements or you can edit the privileges associated with an existing security role.
   
  If you need to back up your security role changes, or export security roles for use in a different implementation of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can export them as part of exporting customizations. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Export your customizations as a solution](../customize/use-solutions-for-your-customizations.md)  
   
@@ -129,7 +129,7 @@ When you import the solution, it creates the **min prv apps use** role which you
   
 - When logging in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]:  
   
-  -   Assign the the min prv apps use security role or a copy of this security role to your user.
+  -   Assign the min prv apps use security role or a copy of this security role to your user.
   
   -   To render an entity grid (that is, to view lists of records and other data), assign the following privileges on the Core Records tab: Read privilege on the entity, Read Saved View, Create/Read/Write User Entity UI Settings
       and assign the following privilege on the Business Management tab: Read User   

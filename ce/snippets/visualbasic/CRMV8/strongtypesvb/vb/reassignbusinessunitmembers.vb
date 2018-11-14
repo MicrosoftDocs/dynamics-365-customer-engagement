@@ -36,7 +36,7 @@ Namespace Microsoft.Crm.Sdk.Samples
 		Private _users As List(Of Guid)
 		Private _team As Team
 		Private _leads(3) As Lead
-		Private _buisnessUnit As BusinessUnit
+		Private _businessUnit As BusinessUnit
 		Private _rootBusinessUnit As BusinessUnit
 		Private _originalRolesIds As List(Of Guid)
 
@@ -153,7 +153,7 @@ Namespace Microsoft.Crm.Sdk.Samples
                         ' add user to the created business unit
                         _serviceProxy.Execute(New SetBusinessSystemUserRequest() With
                                               {
-                                                  .BusinessId = _buisnessUnit.Id,
+                                                  .BusinessId = _businessUnit.Id,
                                                   .ReassignPrincipal = New EntityReference(SystemUser.EntityLogicalName,
                                                                                            _users(2)),
                                                   .UserId = _users(2)
@@ -191,13 +191,13 @@ Namespace Microsoft.Crm.Sdk.Samples
                         ' mark the state as inactive (value 1)
                         _serviceProxy.Execute(New SetStateRequest() With
                                               {
-                                                  .EntityMoniker = _buisnessUnit.ToEntityReference(),
+                                                  .EntityMoniker = _businessUnit.ToEntityReference(),
                                                   .State = New OptionSetValue(1),
                                                   .Status = New OptionSetValue(-1)
                                               })
 
                         ' delete business unit
-                        _serviceProxy.Delete(BusinessUnit.EntityLogicalName, _buisnessUnit.Id)
+                        _serviceProxy.Delete(BusinessUnit.EntityLogicalName, _businessUnit.Id)
 
                         '					#End Region
 
@@ -302,12 +302,12 @@ Namespace Microsoft.Crm.Sdk.Samples
 '			#Region "create new business unit"
 
 			Console.WriteLine("  Creating new business unit")
-            _buisnessUnit = New BusinessUnit() With
+            _businessUnit = New BusinessUnit() With
                             {
                                 .Name = "A Sample Business Unit",
                                 .ParentBusinessUnitId = _rootBusinessUnit.ToEntityReference()
                             }
-			_buisnessUnit.Id = _serviceProxy.Create(_buisnessUnit)
+			_businessUnit.Id = _serviceProxy.Create(_businessUnit)
 
 '			#End Region
 

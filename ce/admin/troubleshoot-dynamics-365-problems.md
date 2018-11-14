@@ -23,7 +23,7 @@ search.app:
 ---
 # Troubleshoot problems
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 We're sorry you're having a problem with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Use the following list of troubleshooting topics to quickly find information to solve your issue.  
   
@@ -79,7 +79,7 @@ We're sorry you're having a problem with [!INCLUDE[pn_microsoftcrm](../includes/
   
 ## Unified Service Desk  
   
--   [Troubleshoot Unified Service Desk](../unified-service-desk/admin/troubleshoot-unified-service-desk.md)  
+-   [Troubleshoot Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/troubleshoot-unified-service-desk)  
   
 ## Other  
   

@@ -34,7 +34,7 @@ search.app:
 ### Signing in and signing out  
  To sign in, you’ll need your [!INCLUDE[pn_microsoftcrm](../../../../includes/pn-microsoftcrm.md)] web address, user name, and password. If you don’t have any of these, contact your [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] admin.  
   
-1. Open your app, enter your [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] web address, and tap ![Dynamics Dynamics 365 for phones and tablets continue sign](../../../media/mobile-signin-arrow.png "Dynamics Dynamics 365 for phones and tablets continue sign").  
+1. Open your app, enter your [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] web address, and tap ![Dynamics 365 for phones and tablets continue sign](../../../media/mobile-signin-arrow.png "Dynamics 365 for phones and tablets continue sign").  
   
     ![Enter URL to sign into Dynamics 365 for phones and tablets](../../../media/mobile-signin-enter-url.png "Enter URL to sign into Dynamics 365 for phones and tablets")  
   

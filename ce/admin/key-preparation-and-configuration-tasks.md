@@ -1,7 +1,7 @@
 ---
 title: "Key preparation and configuration tasks | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 11/11/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -23,7 +23,7 @@ search.app:
 ---
 # Key preparation and configuration tasks
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 This topic, which is intended for administrators and business users of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], describes common configuration settings and tasks that can help you keep your organization optimized so that you can focus on what’s important. It’s designed to improve your overall experience with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], even before your business begins to use it.  
   
@@ -112,7 +112,7 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
   
 6. Click the **BrowserStorage** subkey, and in the right pane, right-click, and then click **New** > **DWORD Value**.  
   
-7. Type `DeafultDomainCacheLimitInMB` as the name.  
+7. Type `DefaultDomainCacheLimitInMB` as the name.  
   
 8. Double-click the DWORD item you just created.  
   

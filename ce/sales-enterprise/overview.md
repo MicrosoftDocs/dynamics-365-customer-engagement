@@ -2,30 +2,24 @@
 title: "Sales Overview (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Get an overview of the sales offerings from Dynamics 365."
 keywords: "Sales Hub, Sales, overview, lead, opportunity, mobile, mobile-optimized, desktop, deal, device, Dynamics 365, sales person, sales manager"
-ms.date: 04/01/2018
-ms.service: dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.date: 10/29/2018
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: get-started-article
-applies_to: 
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 0abe6dc4-c8bc-4d09-a29f-e41218e08927
 author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 9
 topic-status: Drafting
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Overview of Sales and Sales Hub
@@ -34,7 +28,7 @@ search.app:
 
 Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! 
 
-[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, create sales collateral, create marketing lists and campaigns, and even follow service cases associated with specific accounts or opportunities. The following image shows the menu for the Sales app.
+[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, create sales collateral, create marketing lists and campaigns, and even follow service cases associated with specific accounts or opportunities. The following image shows the menu for the Sales module in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
 ![Menu of the Sales app](../sales-enterprise/media/sales_overview_intro.png "Menu of the Sales app")
 
@@ -42,27 +36,25 @@ Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]!
 
 Here are the flavors [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] is available in: 
 
-- The Sales app is the current full-featured, desktop-optimized app for sales scenarios. 
+- The Sales module in Dynamics 365 for Customer Engagement is the full-featured, desktop-optimized module for sales scenarios. 
 
-- The Sales Pro app is similar to the Sales app, but the entities included in the Sales Pro app are a subset of the entities included in the Sales app. 
+- The Sales Pro app is similar to the Sales module, but the entities included in the Sales Pro app are a subset of the entities included in the Sales module in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. 
 
-- The Sales Hub is built on the Unified Interface framework. 
-
-  The Unified Interface framework uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. With [!INCLUDE[pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)], the Sales Hub app is optimized to work on mobile devices as well as desktops.
+- The Sales Hub app is built on the Unified Interface framework. The Unified Interface framework uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. With [!INCLUDE[pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)], the Sales Hub app is optimized to work on mobile devices as well as desktops.
 
   > [!NOTE]
   > 
   > For mobile devices, you'll also need to [install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
 
-If you're using a desktop browser, you'll see the Sales app in the app switcher as shown in the following image.
+If you're using a desktop browser, you'll see the Sales Hub app in the app switcher as shown in the following image.
 
-![Sales desktop app switcher](../sales-enterprise/media/sales_desktop_browser.png "Sales desktop app switcher")
+![Sales Hub in app switcher on desktop](../sales-enterprise/media/sales-hub-desktop-app-switcher.png "Sales Hub in app switcher on desktop")
 
 If you're using a mobile device with [!include[](../includes/pn-dynamics-crm.md)] for phones and tablets installed, you'll see the Sales Hub in the app switcher as shown in the following image.
 
 ![Sales Hub app switcher](../sales-enterprise/media/sales_hub_app_switcher.png "Sales Hub app switcher")
 
-The following image shows the Sales Hub screen on a tablet.
+The following image shows the Sales Hub app screen on a tablet.
 
 ![Sales Hub example](../sales-enterprise/media/sales_hub_example.png "Sales Hub example")
 
@@ -98,4 +90,4 @@ The following image shows the Sales Hub screen on a tablet.
 [User Guide (Sales and Sales Hub)](../sales-enterprise/user-guide.md)  
 [Business process flows overview](../customize/business-process-flows-overview.md)  
 [Set up a product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)    
-[Set up sales territories](../admin/add-remove-territory-members.md) (applies to the Sales app only)
+[Set up sales territories](../admin/add-remove-territory-members.md)
