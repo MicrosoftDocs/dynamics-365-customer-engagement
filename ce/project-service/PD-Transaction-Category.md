@@ -23,7 +23,7 @@ search.app:
 
 **1. Create a pricing dimension solution:**
 
-As a first step, we will need to create a Solution for the Pricing dimensions. If you already have a pricing dimension solution, then you can make your changes in that solution. If you have not created a new Pricing Dimension solution for your Organization, follow all of the instructions in Create a solution for pricing dimension changes: and Add all the required PSA entities and related components to the Pricing Dimension Solution
+As a first step, we will need to create a Solution for the Pricing dimensions. If you already have a pricing dimension solution, then you can make your changes in that solution. If you have not created a new Pricing Dimension solution for your Organization, follow all of the instructions in [Steps 1-4: Create custom fields and entities in the Power Apps platform](PD-Common-steps.md)
 
 **2. Add Transaction Category to forms and views**
 
