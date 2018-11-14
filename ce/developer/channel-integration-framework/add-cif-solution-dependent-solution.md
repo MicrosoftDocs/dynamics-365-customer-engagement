@@ -22,7 +22,7 @@ manager: shujoshi
 
 ## Install a CIF solution  
   
-1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global administrator or [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator credentials.  
+1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global administrator or [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] System Administrator credentials.  
   
 2. Select **Admin centers** > **Dynamics 365**  
   
@@ -40,7 +40,7 @@ manager: shujoshi
 
 ## Update a CIF solution
 
-1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global administrator or [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator credentials.  
+1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global administrator or [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] System Administrator credentials.  
   
 2. Select **Admin centers** > **Dynamics 365**  
   
@@ -58,9 +58,9 @@ manager: shujoshi
 
 ## Delete a CIF solution  
   
-1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
+1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../../includes/proc-permissions-system-admin-and-customizer.md)]  
   
-2. Sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+2. Sign in to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
   
 3. Select **Settings** > **Solutions**.  
   
