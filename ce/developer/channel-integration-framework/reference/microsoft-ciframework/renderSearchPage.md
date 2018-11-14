@@ -69,6 +69,8 @@ On success, returns a promise object containing the attributes specified earlier
 
 ## Example
 
+The following example shows how to query for the term "Contoso" among records of Account entity.
+
 ```JavaScript
 var entityname = "account"
 var searchterm = "Contoso"
