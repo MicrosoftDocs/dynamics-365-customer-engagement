@@ -159,12 +159,12 @@ Make sure that you have the required security role or equivalent permissions.
 
 1. Check the Universal Resource Scheduling (URS) version.
 
-   For the new experience, you should have the latest version of URS installed on your system. To check the URS version installed on your system, go to **Settings** and select **Solutions**.
+   For the new scheduling experience, you should have the minimum specific version (3.2.0.405) of URS installed on your system. To check the URS version installed on your system, go to **Settings** and select **Solutions**.
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
 
       > [!NOTE]
-      >  Consider that importing the scheduling package will upgrade URS to the latest version. If Field Service or Project Service is already installed on your org with an older version of URS, then URS will also be upgraded. </br> The latest version of URS might not be compatible with the old versions of Field Service or Project Service.
+      >  Consider that importing the scheduling package will upgrade URS to the required version. If Field Service or Project Service is already installed on your org with an older version of URS, then URS will also be upgraded. </br> The latest version of URS might not be compatible with the old versions of Field Service or Project Service.
 
 2.  Get the scheduling package.
 

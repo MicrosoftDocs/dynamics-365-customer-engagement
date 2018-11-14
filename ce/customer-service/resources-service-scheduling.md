@@ -77,6 +77,10 @@ Make sure that you have the required security role or equivalent permissions.
 
     - Select the **Start Location** and the **End Location** to specify which location the resource will be at, when starting and ending work.
     - Select an **Organizational Unit** for the resource. 
+
+      > [!NOTE]
+      > If the Resource Type is Facility or Equipment, the organizational unit is automatically populated as per the facility’s or equipment’s organizational unit and it is not editable.
+
     - Select whether the resource should be displayed on the schedule board in the **Display On Schedule Board** box.
     - Select whether you want to enable the resource for availability search in the **Enable for Availability Search** box.
 
