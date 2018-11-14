@@ -5,7 +5,7 @@ keywords: Universal Resource scheduling; Dynamics 365 for Field Service, Dynamic
 author: yonalow
 ms.author: yolow
 manager: shellyha
-ms.date: 06/14/2018
+ms.date: 11/14/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
