@@ -23,7 +23,7 @@ search.app:
 ---
 # Create or edit business units to improve security and control
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], a business unit is a logical grouping of related business activities.  
   
