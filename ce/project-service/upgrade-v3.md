@@ -86,7 +86,7 @@ After the implementation phase, the integration test task is assigned to the rol
 
 When you generate a team for the project, two generic team members are created due to the different org units on the tasks. Technical consultant 1 will be assigned the Contoso India tasks and Technical consultant 2 will have the Contoso US tasks.  
 
-![Generated generic team members](media/org-unit-assignments-mulitple-resources-11.png)
+![Generated generic team members](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > In PSA version 2 and version 1, the team member does not hold the organization unit, that is maintained on the line task.
