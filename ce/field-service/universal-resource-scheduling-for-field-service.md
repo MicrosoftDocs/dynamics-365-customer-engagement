@@ -56,7 +56,7 @@ In this topic, we'll take a quick look at:
 For more detailed information on URS, visit the [Universal Resource Scheduling documentation](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
 
 ## Components 
-When Dynamics 365 for Field Service is installed, URS will install automatically, and will appear in the menu as shown below.
+When Dynamics 365 for Field Service is installed, URS installs automatically, and appears in the menu as shown in the following screenshot.
  
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Screenshot of URS and Field Service apps](media/scheduling-urs-apps.png) 
@@ -199,7 +199,7 @@ Resources (field technicians) interact with booking statuses to communicate to s
 
 Navigate to **Resource Scheduling > Booking Statuses**
 
-See the image below for the recommended out-of-the-box values.
+See the following screenshot for the recommended out-of-the-box values.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Booking Statuses](media/scheduling-booking-status-fs.png)
@@ -237,7 +237,7 @@ Set resource start/end location to **Organizational Unit Address** and ensure th
 
 **Pro Tip:** You may have to add the latitude/longitude fields to the organizational unit entity form.
 
-#### Find resources on the map
+#### Confirm geocoding works appropriately
 
 To make sure resources are geocoded properly, navigate to **Universal Resource Scheduling > Schedule Board**. The resource should appear on the map. Select a resource's name to highlight their location pin on the map.
 
