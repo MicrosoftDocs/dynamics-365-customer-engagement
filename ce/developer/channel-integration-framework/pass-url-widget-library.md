@@ -24,10 +24,10 @@ There are two ways to pass Dynamics 365 URL to widget library:
 
 ### 1. Add attributes to the script tag
 
-The widget provider will have to add the following attributes to the script tag that loads msdyn_cilibrary.js to pass the Dynamics 365 domain:
+The widget provider will have to add the following attributes to the script tag that loads `msdyn_cilibrary.js` to pass the Dynamics 365 domain:
 
-'data-cifid: CIFMainLibrary'
-'data-crmurl: <CRM domain name>'
+`data-cifid: CIFMainLibrary` <br />
+`data-crmurl: <CRM domain name>`
 
 #### Example
 
