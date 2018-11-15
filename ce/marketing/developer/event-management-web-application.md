@@ -4,7 +4,7 @@ description: "Provides information about how you can extend event management  we
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 10/09/2018
+ms.date: 11/15/2018
 ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"
@@ -27,10 +27,6 @@ The Event Management web application consists of two parts:
 - REST API backend
 
 The frontend part is a single page application which is created using [Angular](https://angular.io) framework. The frontend part of the web application is fully customizable. Backend and customizability of the backend depends on hosting type.
-
- You can host the Event Management web application using
-- [Dynamics 365 Portal hosted](#dynamics-365-portal-hosted)
-<!--- [Self-hosted](#self-hosted)-->
 
 ## Dynamics 365 Portal hosted
 Event Management web application comes as a Dynamics 365 Portal hosted web when you install the Event Management solution.
