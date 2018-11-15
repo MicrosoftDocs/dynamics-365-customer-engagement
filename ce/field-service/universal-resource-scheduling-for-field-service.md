@@ -149,17 +149,17 @@ Like with work orders, the same booking experience can be triggered from the req
 
 ### Book from the schedule board
 
-The lower schedule board pane displays requirement records and can be configured to show only requirements related to work orders with a  view filter.
+The lower schedule board pane displays requirement records and can be configured to show only requirements related to work orders with a view filter.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of schedule board](media/scheduling-urs-schedule-board-schedule-assistant.png) 
 
-The requirement can be manually dragged and dropped or clicked to "search availability" with the schedule assistant. 
+The requirement can be dragged and dropped on a resource above to manually schedule the work order. Alternatively, clicking on **search availability** on the requirement in the lower pane will trigger the schedule assistant which will recommend the most appropriate resources. 
 
 ### Book with Resource Scheduling Optimization
 
-[Resource Scheduling Optimization](rso-overview.md) can automatically schedule requirements related to work orders based on a predefined schedule or triggers, or can be done manually.
+[Resource Scheduling Optimization](rso-overview.md) can automatically schedule work order requirements based on predefined schedules, triggers, or manually with a **Run Now** button.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Resource scheduling Optimization schedule](media/scheduling-urs-rso-schedule.png)
@@ -238,6 +238,14 @@ Set resource start/end location to **Organizational Unit Address** and ensure th
 > ![Screenshot of resource address](media/scheduling-urs-resource-organizational-unit.png)
 
 **Pro Tip:** You may have to add the latitude/longitude fields to the organizational unit entity form.
+
+#### Find resources on the map
+
+To understand if the resources are geocoded properly. Navigate to **Universal Resource Scheduling > Schedule Board** and the resource should appear on the map. Select a resource's name to highlight their location pin on the map.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of geo coded resource on map](media/scheduling-urs-schedule-board-locate-resource.png)
 
 ### See also
 - [Frequently asked questions about the mobile solution](http://www.resco.net/mobilecrm/support.aspx) 
