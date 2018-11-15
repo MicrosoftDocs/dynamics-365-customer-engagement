@@ -4,7 +4,7 @@
 ## [Omni-channel Engagement Hub for agent](agent/omni-channel-engagement-hub-agent.md)
 ### [Sign in to Omni-channel Engagement Hub](agent/signin-unified-service-desk-omni-channel-engagement-hub.md)
 ### [Introduction to the agent interface](agent/introduction-agent-interface-omni-channel-engagement-hub.md)
-### [Introduction to agent dashboard](admin/introduction-agent-dashboard.md)
+### [Introduction to agent dashboard](agent/introduction-agent-dashboard.md)
 ### [Notifications and Screen pop](agent/notifications-screen-pop.md)
 ### [Customer 360 - overview of the existing challenges](agent/customer360-overview-existing-challenges.md)
 ### [Left control panel](agent/left-control-panel.md)
@@ -15,7 +15,7 @@
 ## [Omni-channel Engagement Hub for supervisor](supervisor/omni-channel-engagement-hub-supervisor.md)
 
 ## [Omni-channel Engagement Hub for customizer](customizer/omni-channel-engagement-hub-customizer.md)
-### [Customize customer 360](customize-customer-360-page.md)
+### [Customize customer 360](customizer/customize-customer-360-page.md)
 ### [How to modify the position or alignment of the section](customizer/how-modify-position-alignment-form-section-customer360.md)
 ### [How to modify the section properties of the form](customizer/how-modify-section-properties-form-section.md)
 ### [Add or remove the fields in the form](customizer/add-remove-fields-form-section.md)
