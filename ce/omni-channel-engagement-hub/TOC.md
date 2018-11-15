@@ -15,5 +15,15 @@
 ## [Omni-channel Engagement Hub for supervisor](supervisor/omni-channel-engagement-hub-supervisor.md)
 
 ## [Omni-channel Engagement Hub for customizer](customizer/omni-channel-engagement-hub-customizer.md)
+### [Customize customer 360](customize-customer-360-page.md)
+### [How to modify the position or alignment of the section](customizer/how-modify-position-alignment-form-section-customer360.md)
+### [How to modify the section properties of the form](customizer/how-modify-section-properties-form-section.md)
+### [Add or remove the fields in the form](customizer/add-remove-fields-form-section.md)
+### [Customize the conversation form](customizer/customize-live-work-item-form.md)
+### [How to add or remove fields](customizer/how-add-remove-fields.md)
+### [Configure agent and supervisor configurations in Unified Service Desk](customizer/create-agent-supervisor-configurations-unified-service-desk.md)
+### [Configure notification (Screen pop) for agents](customizer/configure-notification-screen-pop-agents.md)
+#### [Configure alert notification in Unified Service Desk](customizer/configure-alert-notification-unified-service-desk-.md)
+#### [Step 1: Create forms to define layout and behavior of the notification](customizer/alertnotification-step1-create-forms-define-layout-behavior-notification.md)
 
 ## [Omni-channel Engagement Hub for customer](customer/omni-channel-engagement-hub-customer.md)
