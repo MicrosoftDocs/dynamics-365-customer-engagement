@@ -35,8 +35,8 @@ Service Activity entity in Service Scheduling cannot be migrated through UI. Thi
 
 The below sample performs the following actions:
 1. [Fetch Service Activity entity record](#bkmk_retrieve): It fetches Service Activity entity records from `serviceappointment` table.
-2. [Create a new Requirement group by cloning or copying the existing Requirement group](#bkmk_requirementmapping): Then, for each of the retrieved `serviceappointment` records, we create a mapping between `newRequirementGroup` and `existingRequirementGroup`.
-3. [Create new Resource Requirement record by copying or cloning the existing Resource Requirement record](#bkmk_resourcemapping): As we did in the above step, similarly, we will create a mapping between `newResourceRequirement` and `existingResourceRequirement`.
+2. [Create a new Requirement group by cloning or copying the existing Selection Rules](#bkmk_requirementmapping): Then, for each of the retrieved `serviceappointment` records, we create a mapping between `newRequirementGroup` and `existingSelectionRule`.
+3. [Create new Resource Requirement record by copying or cloning the existing Selection Rules](#bkmk_resourcemapping): As we did in the above step, similarly, we will create a mapping between `newResourceRequirement` and `existingSelectionRule`.
 4. [Create a new Bookable Resource entity record for each Activity Party entity record](#bkmk_newbookableresourcerecord): We now create a new `BookableResourceBooking` entity record for each `ActivityParty` entity record, and map their attributes.
 
 The complete sample for migrating Service Activity entity records, can be found here [Complete Service Activity migration sample](#bkmk_complete).
@@ -72,18 +72,18 @@ serviceQuery.Criteria.AddCondition("serviceid", ConditionOperator.Equal, service
 Entity service = _serviceProxy.Retrieve("service", new Guid(serviceID.ToString()), new ColumnSet(true));
 
 //Fetch the requirementGroupID for the service and clone the Requirement Group and resource requirement
-EntityReference existingRequirementGroupID = service.GetAttributeValue<EntityReference>("msdyn_requirementgroupid");
-Entity existingRequirementGroup = _serviceProxy.Retrieve("msdyn_requirementgroup", existingRequirementGroupID.Id, new ColumnSet(true));
+EntityReference existingSelectionRuleID = service.GetAttributeValue<EntityReference>("msdyn_requirementgroupid");
+Entity existingSelectionRule = _serviceProxy.Retrieve("msdyn_requirementgroup", existingSelectionRuleID.Id, new ColumnSet(true));
 
 
 Entity newRequirementGroup = new Entity("msdyn_resourcerequirement");
-EntityReference rgOwnerID = existingRequirementGroup.GetAttributeValue<EntityReference>("ownerid");
+EntityReference rgOwnerID = existingSelectionRule.GetAttributeValue<EntityReference>("ownerid");
 newRequirementGroup["ownerid"] = rgOwnerID.Id;
-int rgOwnerIDType = existingRequirementGroup.GetAttributeValue<int>("owneridtype");
+int rgOwnerIDType = existingSelectionRule.GetAttributeValue<int>("owneridtype");
 newRequirementGroup["owneridtype"] = rgOwnerIDType;
-var rgStateCode = existingRequirementGroup.GetAttributeValue<OptionSetValue>("statecode");
+var rgStateCode = existingSelectionRule.GetAttributeValue<OptionSetValue>("statecode");
 newRequirementGroup["statecode"] = rgStateCode;
-string rgName = existingRequirementGroup.GetAttributeValue<string>("msdyn_name");
+string rgName = existingSelectionRule.GetAttributeValue<string>("msdyn_name");
 newRequirementGroup["msdyn_name"] = rgName;
 newRequirementGroup["msdyn_istemplate"] = 0;
                         
@@ -92,15 +92,15 @@ Guid _newRequirementGroupID = _service.Create(newRequirementGroup);
 ```
 <a name="bkmk_resourcemapping"></a>
 
-#### Create new Resource Requirement record by copying or cloning the existing Resource Requirement record
+#### Create new Resource Requirement record by copying or cloning the existing Selection Rules
 
-As we created a mapping between `newRequirementGroup` and `existingRequirementGroup` in the above code snippet, similarly, we will create a mapping between `newResourceRequirement` and `existingResourceRequirement`, that are records of entity `msdyn_resourcerequirement`.
+As we created a mapping between `newRequirementGroup` and `existingSelectionRule` in the above code snippet, similarly, we will create a mapping between `newResourceRequirement` and `existingResourceRequirement`, that are records of entity `msdyn_resourcerequirement`.
 
 ```csharp
 QueryExpression existingResourceRequirementQuery = new QueryExpression("msdyn_resourcerequirement");
 existingResourceRequirementQuery.ColumnSet = new ColumnSet(true);
 existingResourceRequirementQuery.Criteria = new FilterExpression();
-existingResourceRequirementQuery.Criteria.AddCondition("msdyn_requirementgroupid", ConditionOperator.Equal, existingRequirementGroupID.Id);
+existingResourceRequirementQuery.Criteria.AddCondition("msdyn_requirementgroupid", ConditionOperator.Equal, existingSelectionRuleID.Id);
 EntityCollection existingResourceRequirement = _serviceProxy.RetrieveMultiple(existingResourceRequirementQuery);
 
 // Create/clone records for each msdyn_resourcerequirement entity record
@@ -228,18 +228,18 @@ namespace Microsoft.Crm.Sdk.Samples
                         Entity service = _serviceProxy.Retrieve("service", new Guid(serviceID.ToString()), new ColumnSet(true));
 
                         //Fetch the requirementGroupID for the service and clone the Requirement Group and resource requirement
-                        EntityReference existingRequirementGroupID = service.GetAttributeValue<EntityReference>("msdyn_requirementgroupid");
-                        Entity existingRequirementGroup = _serviceProxy.Retrieve("msdyn_requirementgroup", existingRequirementGroupID.Id, new ColumnSet(true));
+                        EntityReference existingSelectionRuleID = service.GetAttributeValue<EntityReference>("msdyn_requirementgroupid");
+                        Entity existingSelectionRule = _serviceProxy.Retrieve("msdyn_requirementgroup", existingSelectionRuleID.Id, new ColumnSet(true));
 
 
                         Entity newRequirementGroup = new Entity("msdyn_resourcerequirement");
-                        EntityReference rgOwnerID = existingRequirementGroup.GetAttributeValue<EntityReference>("ownerid");
+                        EntityReference rgOwnerID = existingSelectionRule.GetAttributeValue<EntityReference>("ownerid");
                         newRequirementGroup["ownerid"] = rgOwnerID.Id;
-                        int rgOwnerIDType = existingRequirementGroup.GetAttributeValue<int>("owneridtype");
+                        int rgOwnerIDType = existingSelectionRule.GetAttributeValue<int>("owneridtype");
                         newRequirementGroup["owneridtype"] = rgOwnerIDType;
-                        var rgStateCode = existingRequirementGroup.GetAttributeValue<OptionSetValue>("statecode");
+                        var rgStateCode = existingSelectionRule.GetAttributeValue<OptionSetValue>("statecode");
                         newRequirementGroup["statecode"] = rgStateCode;
-                        string rgName = existingRequirementGroup.GetAttributeValue<string>("msdyn_name");
+                        string rgName = existingSelectionRule.GetAttributeValue<string>("msdyn_name");
                         newRequirementGroup["msdyn_name"] = rgName;
                         newRequirementGroup["msdyn_istemplate"] = 0;
                         
@@ -251,7 +251,7 @@ namespace Microsoft.Crm.Sdk.Samples
                         QueryExpression existingResourceRequirementQuery = new QueryExpression("msdyn_resourcerequirement");
                         existingResourceRequirementQuery.ColumnSet = new ColumnSet(true);
                         existingResourceRequirementQuery.Criteria = new FilterExpression();
-                        existingResourceRequirementQuery.Criteria.AddCondition("msdyn_requirementgroupid", ConditionOperator.Equal, existingRequirementGroupID.Id);
+                        existingResourceRequirementQuery.Criteria.AddCondition("msdyn_requirementgroupid", ConditionOperator.Equal, existingSelectionRuleID.Id);
                         EntityCollection existingResourceRequirement = _serviceProxy.RetrieveMultiple(existingResourceRequirementQuery);
 
                         // Create/clone records for each msdyn_resourcerequirement
