@@ -232,7 +232,7 @@ As of version 3, creating and using a custom project price list on a PSA quote a
   
 The following graphic is before custom price lists have been created.
 
-![Time entry processing flow](media/before-custom-prices-lists-13.png)
+![Time entry processing flow](media/before-custom-price-lists-13.png)
 
 The following graphic shows after custom price lists have been created.
 
