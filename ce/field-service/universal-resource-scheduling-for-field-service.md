@@ -159,14 +159,14 @@ The requirement can be dragged and dropped on a resource above to manually sched
 
 ### Book with Resource Scheduling Optimization
 
-[Resource Scheduling Optimization](rso-overview.md) can automatically schedule work order requirements based on predefined schedules, triggers, or manually with a **Run Now** button.
+Resource Scheduling Optimization can automatically schedule work order requirements based on predefined schedules or triggers. You can also manually accomplish this by selecting the **Run Now** button.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Resource scheduling Optimization schedule](media/scheduling-urs-rso-schedule.png)
 
 ## Configure URS for Field Service 
 
-Here are a few things you'll need to configure before getting started with URS for Field Service.
+There are a few things you'll need to configure before getting started with URS for Field Service.
 
 ### Enable work orders for scheduling
 
@@ -187,14 +187,12 @@ Connecting to a mapping service is critical if you want to geographically displa
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Resource Scheduling Administration in Dynamics 365 dropdown menu](media/Perform-Initial-Configurations-image6.png)  
 
-2. Set **Connect to Maps** to **Yes**.
+2. Set **Connect to Maps** to **Yes**. Then save and close.
 
 The API key will populate automatically and use the Bing Maps API.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting Connect to Maps to yes](media/Perform-Initial-Configurations-image7.png)  
-
-3. **Save and close.**
 
 ### Configure booking statuses 
 Resources (field technicians) interact with booking statuses to communicate to stakeholders the progress of their work. For field service, booking statuses can update work order system statuses. This is done by noting a Field Service Status on the Booking Status.
@@ -241,12 +239,14 @@ Set resource start/end location to **Organizational Unit Address** and ensure th
 
 #### Find resources on the map
 
-To understand if the resources are geocoded properly. Navigate to **Universal Resource Scheduling > Schedule Board** and the resource should appear on the map. Select a resource's name to highlight their location pin on the map.
+To make sure resources are geocoded properly, navigate to **Universal Resource Scheduling > Schedule Board**. The resource should appear on the map. Select a resource's name to highlight their location pin on the map.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of geo coded resource on map](media/scheduling-urs-schedule-board-locate-resource.png)
 
 ### See also
+- [Universal Resource Scheduling documentation](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
+- [Resource Scheduling Optimization overview](rso-overview.md)
 - [Frequently asked questions about the mobile solution](http://www.resco.net/mobilecrm/support.aspx) 
 - [Woodford guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf) 
