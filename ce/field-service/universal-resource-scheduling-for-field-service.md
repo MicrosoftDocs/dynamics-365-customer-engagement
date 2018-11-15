@@ -155,7 +155,7 @@ The lower schedule board pane displays requirement records and can be configured
 > [!div class="mx-imgBorder"]
 > ![Screenshot of schedule board](media/scheduling-urs-schedule-board-schedule-assistant.png) 
 
-The requirement can be dragged and dropped on a resource above to manually schedule the work order. Alternatively, clicking on **search availability** on the requirement in the lower pane will trigger the schedule assistant which will recommend the most appropriate resources. 
+The requirement can be dragged and dropped onto a resource on the schdedule board to schedule the work order. Alternatively, selecting  **search availability** on the requirement in the lower pane will trigger the schedule assistant, which recommends the most appropriate resources. 
 
 ### Book with Resource Scheduling Optimization
 
