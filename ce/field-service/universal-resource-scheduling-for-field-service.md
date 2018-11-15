@@ -115,7 +115,7 @@ When a requirement is created, it inherits attributes from the work order, inclu
 
 Updating work order attributes will update requirement attributes. Manual edits to requirements can be made before scheduling, too.
 
-> ![Note]
+> [!NOTE]
 > Many work order attributes are added to the work order when work order incident types are created, including duration and characteristics. 
 
 ## Scheduling work orders with URS
