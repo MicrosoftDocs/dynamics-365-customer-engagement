@@ -188,7 +188,8 @@ Configure all your entity records in the new experience manually from the user i
 
 Make sure that you have the correct security role or equivalent permissions. Know more about security roles: [Manage security roles in service scheduling](manage-security-roles.md).
 
-To follow the correct sequence, see [Service Scheduling scenario](#service-scheduling-scenario).
+> [!IMPORTANT]
+> The admin must follow the order as given in the [Service Scheduling scenario](#service-scheduling-scenario) while configuring entity records in the new scheduling experience.
 
 > [!NOTE]
 > If you have been using the legacy service scheduling, you would still need to configure entity records in the new experience. </br> All entity records can be configured from the user interface except Service Activity.

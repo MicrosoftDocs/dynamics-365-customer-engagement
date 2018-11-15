@@ -27,16 +27,26 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 
-A user in Customer Service is a member of your organization who will use a Service Scheduling license. Security roles help to identify the privileges a user can exercise in the system. Security roles also define which entities a user can view or configure. For example, a user may have permission to see accounts but not to see specific fields for an account.
+Security roles help to identify the privileges a user can exercise in the system. Security roles also define which entities a user can view or configure. For example, a user may have permission to see accounts but cannot see specific fields for an account.
 
-The predefined roles in service scheduling are leveraged from the Dynamics eco-system:
+The following standard security roles are leveraged in service scheduling:
   
-- **Customer Service Manager (CSM)**. The Customer Service Manager role can setup the service scheduling experience. This role has access to all service scheduling entities.
+- **Customer Service Manager (CSM)**. The Customer Service Manager role can setup the service scheduling experience. This role can access and setup all service scheduling entities in the system:
+
+   - Resources
+   - Resource Categories
+   - Facilites/Equipment
+   - Services
+   - Service Activities
+   - Schedule Board
+   - Organizational Units
+   - Business Closure
+
+   However, to ensure that all CSM users are able to set up the new scheduling experience and access the new scheduling entities, they should also be assigned the **Customer Service Schedule Administrator** role.
+
 - **Customer Service Representative (CSR)**. The Customer Service Representative can create and schedule service activities. 
 
-However, to ensure that all CSM users are able to set up the new scheduling experience and access the new scheduling entities, they should also be assigned the **Customer Service Schedule Administrator** role.
-
-Similarly, to ensure that all CSR users are able to schedule services using the new scheduling experience, they should also be assigned the **Customer Service Scheduler** role. 
+  To ensure that all CSR users are able to schedule services using the new scheduling experience, they should also be assigned the **Customer Service Scheduler** role. 
 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security roles and privileges](../admin/security-roles-privileges.md)
