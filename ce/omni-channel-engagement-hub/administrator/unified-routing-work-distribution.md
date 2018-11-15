@@ -12,7 +12,8 @@ ms.topic: article
 ms.assetid: dcb07f11-106d-4368-87e9-015da0999f06
 ms.custom: 
 ---
-# Unified routing and work distribution 
+
+# Understand unified routing and work distribution 
 
 Unified routing and work distribution in Omni-channel Engagement Hub helps ensure effective allocation of work. This benefits both agents and supervisors as agents can prioritize their most urgent tasks and supervisors can help load balance using real-time monitoring.
 
