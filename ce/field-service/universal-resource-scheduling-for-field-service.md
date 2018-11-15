@@ -2,7 +2,7 @@
 title: "Universal Resource Scheduling for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/06/2018
+ms.date: 11/15/2018
 ms.reviewer: "krbjoran"
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -124,7 +124,7 @@ After a work order and related requirement are ready to be scheduled, URS schedu
 
 After a work order requirement is booked, a bookable resource booking record is created documenting the resource, travel time, and start/end time. The booking relates to both the work order and requirement.
 
-There are several ways to book with URS. You can book from: 
+You can book from: 
 
 - work orders
 - requirements
@@ -149,7 +149,7 @@ Like with work orders, the same booking experience can be triggered from the req
 
 ### Book from the schedule board
 
-The lower schedule board pane displays requirement records and can be configured to show only requirements related to work orders with a simple view filter.
+The lower schedule board pane displays requirement records and can be configured to show only requirements related to work orders with a  view filter.
 
 
 > [!div class="mx-imgBorder"]
@@ -157,7 +157,7 @@ The lower schedule board pane displays requirement records and can be configured
 
 The requirement can be manually dragged and dropped or clicked to "search availability" with the schedule assistant. 
 
-### Book via Resource Scheduling Optimization
+### Book with Resource Scheduling Optimization
 
 [Resource Scheduling Optimization](rso-overview.md) can automatically schedule requirements related to work orders based on a predefined schedule or triggers, or can be done manually.
 
@@ -182,19 +182,19 @@ Double click on work orders to define default behavior when scheduling work orde
 ### Connect to maps
 Connecting to a mapping service is critical if you want to geographically display work orders and route field technicians.
 
-To connect a mapping service, navigate to **Resource Scheduling > Administration > Scheduling Parameters**.
+1. To connect a mapping service, navigate to **Resource Scheduling > Administration > Scheduling Parameters**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Resource Scheduling Administration in Dynamics 365 dropdown menu](media/Perform-Initial-Configurations-image6.png)  
 
-Set **Connect to Maps** to **Yes**.
+2. Set **Connect to Maps** to **Yes**.
 
 The API key will populate automatically and use the Bing Maps API.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting Connect to Maps to yes](media/Perform-Initial-Configurations-image7.png)  
 
-**Save and close.**
+3. **Save and close.**
 
 ### Configure booking statuses 
 Resources (field technicians) interact with booking statuses to communicate to stakeholders the progress of their work. For field service, booking statuses can update work order system statuses. This is done by noting a Field Service Status on the Booking Status.
@@ -214,23 +214,24 @@ Navigate to **Resource Scheduling > Resources**.
 
 To ensure resources can appear on the schedule board map, they must have a geocoded starting and ending location. 
 
-This is done one of two ways:
+You can geocode your resources in one of two ways.
 
-1. Set resource start/end location to **Resource address** and ensure the related resource record (User, Account, Contact) as defined by the resource type has latitude and longitude values.
+#### Option one
+Set resource start/end location to **Resource address** and ensure the related resource record (User, Account, Contact) as defined by the resource type has latitude and longitude values.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of resource address](media/scheduling-resource-address.png)
 
+For example, in the following screenshot, the bookable resource has resource type = Contact; this means the related contact record must be geo-coded, meaning latitude and longitude fields must have values. 
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of resource address](media/scheduling-urs-resource-type.png)
-
-
-For example, in the image above, the bookable resource has resource type = Contact; this means the related contact record must be geo-coded, meaning latitude and longitude fields must have values. 
 
 > ![Note]
 > For routing purposes, the location of a resource is defined as the current work order location, current location of the mobile device, or the start/end location defined here when the other options are not applicable.
 
-2. Set resource start/end location to **Organizational Unit Address** and ensure the related organizational unit record is geo-coded, meaning latitude and longitude fields must have values.
+#### Option two
+Set resource start/end location to **Organizational Unit Address** and ensure the related organizational unit record is geo-coded, meaning latitude and longitude fields must have values.
 
 
 > [!div class="mx-imgBorder"]
