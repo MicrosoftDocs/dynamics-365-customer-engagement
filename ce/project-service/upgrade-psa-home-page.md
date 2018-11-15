@@ -5,7 +5,7 @@ manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-projectservice
-ms.date: 11/13/2018
+ms.date: 11/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: business-applications
@@ -31,7 +31,7 @@ The release of Project Service Automation (PSA) version 3 includes significant c
 The following topics provide information about the major changes in PSA, along with considerations and recommendations for planning your upgrade to version 3.
 
 > [!IMPORTANT]
-> Before you begin your upgrade process, carefully review the "What's new or changed in Project Service Automation version 3" and "Upgrade considerations" topics. An awareness and understanding of the changes between versions will help you with the upgrade process. 
+> Before you begin your upgrade process, carefully review the "What's new or changed in Project Service Automation version 3" and "Upgrade considerations" topics below. An awareness and understanding of the changes between versions will help you with the upgrade process. 
 
 - [What's new or changed in Project Service Automation version 3](whats-new-changed-v3.md)
 - [Upgrade considerations - Project Service Automation version 2.x or 1.x to version 3](upgrade-v3.md)
