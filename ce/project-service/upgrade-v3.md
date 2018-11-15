@@ -25,6 +25,10 @@ search.app:
 # Upgrade considerations - PSA version 2.x or 1.x to version 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
+## Project service automation and Field service
+Both Project Service Automation and Field Service (FS) use the Universal Resourcing Scheduling (URS) solution for resource scheduling. If you have both PSA and FS in your instance, you should plan on upgrading both solutions to the latest version (version 3.x for PSA, version 8.x for FS). Upgrading PSA or FS will install the latest version of URS, which means that inconsistent behavior is possible if both PSA and FS solutions in the same instance aren’t upgraded to the latest version.
+
+## Resource assignments
 In Project Service Automation (PSA) version 2 and version 1, task assignments were stored as child tasks (also called line tasks) in the **Task entity**, and indirectly related to the **Resource Assignment** entity. The line task was visible in the assignment pop-up window on the Work Breadown Structure (WBS).
 
 ![Line tasks on the WBS in PSA version 2 and version 1](media/upgrade-line-task-01.png)
@@ -33,10 +37,7 @@ In version 3 of PSA, the underlying schema of assigning bookable resources to ta
 
 These changes impact the upgrade of any existing projects that have resource assignments for named bookable resources and generic resources on a project team. This topic provides the considerations that you will need to take into account for your projects when you upgrade to version 3. 
 
-## Project service automation and Field service
-Both Project Service Automation and Field Service (FS) use the Universal Resourcing Scheduling (URS) solution for resource scheduling. If you have both PSA and FS in your instance, you should plan on upgrading both solutions to the latest version (version 3.x for PSA, version 8.x for FS). Upgrading PSA or FS will install the latest version of URS, which means that inconsistent behavior is possible if both PSA and FS solutions in the same instance aren’t upgraded to the latest version.
-
-## Tasks assigned to named resources
+### Tasks assigned to named resources
 Using the underlying task entity, tasks in version 2 and version 1 allowed team members to portray a role other than their default defined role. For example, Gracie George, who’s by default assigned the role of Program Manager, could be assigned to a task with the role of Developer. In version 3, the role of a named team member is always the default, so any task that Gracie George is assigned to uses her default role of Program Manager.
 
 If you have assigned a resource to a task outside of their default role in version 2 and version 1, when you upgrade, the named resource will be assigned the default role for all task assignments, regardless of role assignment in version 2. This will result in differences in the calculated estimates from version 2 or version 1 to version 3 because estimates are calculated based on the role of the resource and not the line task assignment. For example, in version 2, two tasks have been assigned to Ashley Chinn. The role on the line task for task 1 is Developer and for task 2, Program Manager. Ashley Chinn has the default role of Program Manager.
@@ -64,7 +65,7 @@ After upgrade is complete, you can edit a team member's role to be something oth
 
 This is also true for line tasks that were assigned to named resources when you change the resource’s organization unit from the default to another organization unit. After the version 3 upgrade is complete, the assignment will use the resource’s default organization unit instead of the one set on the line task.
 
-## Tasks assigned to generic resources
+### Tasks assigned to generic resources
 In version 2 and version 1, you can set the role and org unit on a task and then use the **Generate team** feature to generate generic resources based on the attributes set on the task. In version 3, you create the generic team members with role and org unit, and then assign the team members to tasks.
 
 In version 2 and version 1, projects with generic resources can be in two states, or a mix of both at the task level. For example, you can have the following scenarios:
