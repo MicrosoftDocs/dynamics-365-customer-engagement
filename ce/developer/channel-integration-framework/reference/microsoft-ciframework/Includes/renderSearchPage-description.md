@@ -1,1 +1,1 @@
-Allows you to search among records of a particular entity type.
+Allows you to search among the records of a particular entity type. It opens the UCI entity page with the search field on it prepopulated with the search string that is passed as a parameter in this API.

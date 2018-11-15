@@ -21,7 +21,16 @@ manager: shujoshi
 # Add a Channel Integration Framework (CIF) solution as a dependent solution
 
 ## Install a CIF solution  
-  
+
+1. Add the Channel Integration Framework application to your Dynamics 365 instance that has an unmanaged dependent solution(say solution "X") installed. More information: [Get Channel Integration Framework](get-channel-integration-framework.md).
+2. Login to your Dynamics 365 instance and go to **Settings** > **Solutions**.
+3. Click on "X" solution to open it.
+4. Click on **Add Existing** and select **Model Driven App**.
+5. Select the CIF Model Driven App and click OK.
+6. Click on **Publish all customizations**.
+7. Close the solution window.
+8. Export the solution.
+<!--
 1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global administrator or [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] System Administrator credentials.  
   
 2. Select **Admin centers** > **Dynamics 365**  
@@ -37,6 +46,7 @@ manager: shujoshi
    The status for the solution changes to **Installation pending**.  
   
    The status for the solution will change to **Installed** when the solution is ready.  
+-->
 
 ## Update a CIF solution
 
