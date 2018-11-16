@@ -234,11 +234,11 @@ Navigate to **Field Service** &gt; **Schedule Board**
 
 ![Screenshot of Schedule a work order and view it on the mobile application image32](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image32.png)
 
-In the left pane of the Schedule Board, select **Options** &gt; **Select Resources**
+In the left pane of the schedule board, select **Options** &gt; **Select Resources**
 
 ![Screenshot of Schedule a work order and view it on the mobile application image33](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image33.png)
 
-Find your new **Field Technician** with a Resource Type = **User** and move him/her to the right to selected resources, then choose **Apply**
+Find your new **field technician** with a Resource Type = **User** and move him/her to the right to selected resources, then choose **Apply**
 
 ![Screenshot of Schedule a work order and view it on the mobile application image34](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image34.png)![Screenshot of Schedule a work order and view it on the mobile application image35](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image35.png)
 
