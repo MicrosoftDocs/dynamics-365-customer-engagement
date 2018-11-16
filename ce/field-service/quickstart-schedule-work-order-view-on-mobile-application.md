@@ -35,27 +35,25 @@ Estimated Duration: 20 minutes
 
 Steps:
 
-1.  Prerequisites
+1.  Set up a dispatcher role
 
-2.  Set up a dispatcher role
+2.  Create a work order or select a sample one
 
-3.  Create a work order or select a sample one
+3.  Set up a resource (field technician) role
 
-4.  Set up a resource (field technician) role
+4.  Create a bookable resource
 
-5.  Create a bookable resource
+5.  Add the bookable resource to the schedule board
 
-6.  Add the bookable resource to the schedule board
+6.  Schedule the work order to the bookable resource
 
-7.  Schedule the work order to the bookable resource
+7.  Download the Field Service Mobile (2017) mobile app
 
-8.  Download the Field Service Mobile (2017) mobile app
+8.  Sign into the mobile application as a technician
 
-9.  Sign into the mobile application as a technician
+9. View the work order on the mobile application
 
-10. View the work order on the mobile application
-
-## 1. Prerequisites
+## Prerequisites
 
 This quickstart assumes you have the Field Service solution and the mobile solution installed. We strongly recommend using the sample data imported from the package deployer. You will also need access to a mobile device with access to the Windows, Apple, or Android app stores.
 
@@ -85,7 +83,7 @@ If the sample data has been imported, you'll see multiple records under **Field 
 
 See these [instructions for importing sample data](install-sample-data-8-x.md) for more information. 
 
-## 2. Set up a dispatcher role 
+## 1. Set up a dispatcher role 
 
 - Within Dynamics 365, navigate to **Settings** &gt; **Security** &gt; **Users**
 
@@ -95,7 +93,7 @@ See these [instructions for importing sample data](install-sample-data-8-x.md) f
 
 - Assign the user the **Field Service – Administrator** role. This will give your user scheduling, dispatching, and configuration capabilities. If this user is solely a dispatcher, then assign the **Field Service—Dispatcher** role.
 
-## 3. Create a work order or select a sample one
+## 2. Create a work order or select a sample one
 
 If you have sample data, skip this step.
 
@@ -122,7 +120,7 @@ If you have sample data, skip this step.
 
 - Save and close the work order
 
-## 4. Set up a resource (field technician) role 
+## 3. Set up a resource (field technician) role 
 
 Now we need to designate one of our users as a field technician.
 
@@ -201,7 +199,7 @@ Next, we need to enable geocoding in your Dynamics 365 organization. Geocoding a
 
 Congratulations! You have successfully set up key users and security roles. You're well on your way to using Field Service. 
 
-## 5. Create a bookable resource
+## 4. Create a bookable resource
 
 Now it's time to create a bookable resource that relates to the field technician user set up in the previous step. This lets you schedule work orders for the field technician, which he/she can see in the mobile application.
 
@@ -226,7 +224,7 @@ Now it's time to create a bookable resource that relates to the field technician
 
 ![Screenshot of Schedule a work order and view it on the mobile application image30](media/qs-1-img30.png)   
 
-## 6. Add the bookable resource to the schedule board
+## 5. Add the bookable resource to the schedule board
 
 Lets add this new field technician to the schedule board
 
@@ -242,7 +240,7 @@ Find your new **field technician** with a Resource Type = **User** and move him/
 
 ![Screenshot of Schedule a work order and view it on the mobile application image34](media/qs-1-img34.png)![Screenshot of Schedule a work order and view it on the mobile application image35](media/qs-1-img35.png)
 
-## 7. Schedule the work order to the bookable resource
+## 6. Schedule the work order to the bookable resource
 
 In the lower pane, find the work order you created or select a sample work order. This work order should be found in both the Open Requirements view and the Unscheduled Work Orders view, click and drag the work order from the bottom to the new Field technician
 
@@ -250,13 +248,13 @@ In the lower pane, find the work order you created or select a sample work order
 
 Let’s now view this scheduled work order on the mobile application as a field technician.
 
-## 8. Download the Field Service Mobile (2017) mobile app
+## 7. Download the Field Service Mobile (2017) mobile app
 
 Download the **Field Service Mobile (2017)** mobile app from the Windows, Apple, or Android app stores onto a phone, tablet, or Windows 10 device.
 
 ![Screenshot of Schedule a work order and view it on the mobile application image37](media/qs-1-img37.png)
 
-## 9. Sign into the mobile application as a technician
+## 8. Sign into the mobile application as a technician
 
 Navigate to the **Field Service Mobile (2017)** mobile app on your Windows, iOS, or Android device, then **Setup** and sign in with the credentials of the User record of your Field Technician
 
@@ -275,7 +273,7 @@ Password: **\[enter the password of the User associated with your Field Technici
 
 ![Screenshot of Schedule a work order and view it on the mobile application image40](media/qs-1-img40.png)
 
-##  10. View the work order on the mobile application 
+##  9. View the work order on the mobile application 
 
 In the **Booking** tab, the booking (work order) is scheduled to the field technician.
 
