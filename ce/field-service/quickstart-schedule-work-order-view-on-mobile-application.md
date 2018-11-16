@@ -87,13 +87,13 @@ See these [instructions for importing sample data](install-sample-data-8-x.md) f
 
 ## 2. Set up a dispatcher role 
 
-Within Dynamics 365, navigate to **Settings** &gt; **Security** &gt; **Users**
+- Within Dynamics 365, navigate to **Settings** &gt; **Security** &gt; **Users**
 
-Select your user and then **Manage Roles** at the top.
+- Select a user and then **Manage Roles**
 
 ![Screenshot of Schedule a work order and view it on the mobile application image6](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image6.png)
 
-Assign your User the **Field Service – Administrator** role. This will give your User schedule and dispatch capabilities as well as configuration abilities. If this user is solely a dispatcher, then assign the **Field Service—Dispatcher** role.
+- Assign the user the **Field Service – Administrator** role. This will give your user scheduling, dispatching, and configuration capabilities. If this user is solely a dispatcher, then assign the **Field Service—Dispatcher** role.
 
 ## 3. Create a work order or select a sample one
 
@@ -103,18 +103,17 @@ If you have sample data, skip this step.
 
 - Select +New
 
-- Create new work order with the following parameters: 
+- On the work order summary tab, set up the following parameters: 
 
-    - Service Account = **\[select from list or create a new one. Ex: Contoso\]**
-    - Work Order Type = **\[select from list or create a new one. Ex: Inspection\]**
+    - Service Account = **\[select from list or create a new one. Eg. Contoso\]**
+    - Work Order Type = **\[select from list or create a new one. Eg. Inspection\]**
     - System Status = **Open-Unscheduled**
-    - Price List = **\[select from list or create new one. Ex: Default Price List\]**
+ 
+- On the work order settings tab, set up the following parameters: 
+    - Price List = **\[select from list or create new one. Eg. Default Price List\]**
     - Taxable = **No**
 
 ![Screenshot of Schedule a work order and view it on the mobile application image7](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image7.png)  
-
-> [!NOTE]
-> **Hint:** You may have to click on another tab to access more required fields. In this example, the **Settings** tab.
 
 ![Screenshot of Schedule a work order and view it on the mobile application image8](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image8.png)  
 
@@ -122,42 +121,40 @@ If you have sample data, skip this step.
 
 ![Screenshot of Schedule a work order and view it on the mobile application image9](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image9.png)  
 
-- Save your work and close
+- Save and close the work order
 
 ## 4. Set up a resource (field technician) role 
 
-First, let’s designate one of our users as a field technician.
+Now we will designate one of our users as a field technician.
 
-Navigate to **Settings** > **Security** > **Users**
+- Navigate to **Settings** > **Security** > **Users**
 
-Select the D365 User (different than your dispatcher/administrator User) that will be a field technician and assign him/her the **Field Service – Resource** security role (and only this role).
+- Select the D365 User (different than your dispatcher/administrator user) that will be a field technician and assign him/her the **Field Service – Resource** security role (and only this role).
 
 ![Screenshot of Schedule a work order and view it on the mobile application image10](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image10.png)
 
-Next, open the Field technician’s User record and select “**Field Security Profiles**” in the ribbon
+- Open the field technician’s user record and select “**Field Security Profiles**” in the ribbon, as seen in the following screenshots.
 
 ![Screenshot of Schedule a work order and view it on the mobile application image11](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image11.png)
 
 ![Screenshot of Schedule a work order and view it on the mobile application image12](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image12.png)
 
-Then assign your Field technician User the **Field Service – Resource** Field Security Profile
+- Assign the field technician user the **Field Service – Resource** field security profile. This step is very important; field technicians can't edit fields on mobile work orders without being assigned this secruity profile. 
 
 ![Screenshot of Schedule a work order and view it on the mobile application image13](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image13.png)
 
-**WARNING:** This is a very important step. Field Technicians will not be able to edit fields on the mobile work order form without completing this step.
-
 ![Screenshot of Schedule a work order and view it on the mobile application image14](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image14.png)
 
-If you do not have a User to assign this role to, you can create a new one by navigating to the Admin center in the Office 365 interface from <https://login.microsoftonline.com>.
+If you don't have a user to assign this role, create a new one by navigating to the [admin center in the Office 365 interface](https://login.microsoftonline.com).
 
 ![Screenshot of Schedule a work order and view it on the mobile application image15](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image15.png)![Screenshot of Schedule a work order and view it on the mobile application image16](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image16.png)
 
 ![Screenshot of Schedule a work order and view it on the mobile application image17](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image17.png)
 
 > [!NOTE]
-> **Hint:** This user must have a Dynamics 365 license that is valid for Field Service. It is recommended to verify you can log into D365 with the new user record as you may need to reset a temporary password.
+> This user must have a valid Dynamics 365 for Field Service license. Verify you can log into D365 with the new user record as you may need to reset a temporary password.
 
-Finally, we want to **geocode** our field technician user record. Field technician locations are very important in Field Service because it is used for scheduling and routing. We want every field technician user record to be geocoded, so we can use this information to define where each resource starts and/or ends his/her day.
+- Finally, we want to **geocode** our field technician user record. Field technician locations are very important in Field Service because it is used for scheduling and routing. We want every field technician user record to be geocoded, so we can use this information to define where each resource starts and/or ends his/her day.
 
 > [!NOTE]
 > **Pro Tip:** the solution can also accommodate scenarios where field technicians begin and/or end their day at a central location.
