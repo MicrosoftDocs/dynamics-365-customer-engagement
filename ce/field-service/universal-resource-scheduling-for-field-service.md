@@ -212,7 +212,7 @@ Navigate to **Resource Scheduling > Resources**.
 
 To ensure resources can appear on the schedule board map, they must have a geocoded starting and ending location. 
 
-You can geocode your resources in one of two ways.
+There are **two ways** to geocode your resources.
 
 #### Option one
 Set resource start/end location to **Resource address** and ensure the related resource record (User, Account, Contact) as defined by the resource type has latitude and longitude values.
