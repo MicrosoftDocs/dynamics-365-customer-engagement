@@ -57,7 +57,7 @@ Steps:
 
 ## 1. Prerequisites
 
-This quickstart assumes you have the Field Service solution and the mobile solution installed. Sample data imported from the package deployer is **highly recommended**.  
+This quickstart assumes you have the Field Service solution and the mobile solution installed. We strongly recommend using the sample data imported from the package deployer. You will also need access to a mobile device with access to the Windows, Apple, or Android app stores.
 
 ### Ensure the Field Service application is installed
 
@@ -252,13 +252,13 @@ Let’s now view this scheduled work order on the mobile application as a field 
 
 ## 8. Download the Field Service Mobile (2017) mobile app
 
-First, download the **Field Service Mobile (2017)** mobile app from the Windows, iOS, or Android app stores onto your phone, tablet, or Windows 10 device.
+Download the **Field Service Mobile (2017)** mobile app from the Windows, Apple, or Android app stores onto a phone, tablet, or Windows 10 device.
 
 ![Screenshot of Schedule a work order and view it on the mobile application image37](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image37.png)
 
 ## 9. Sign into the mobile application as a technician
 
-Navigate to the **Field Service Mobile (2017)** mobile application on your Windows, iOS, or Android device, then **Setup** and sign in with the credentials of the User record of your Field Technician
+Navigate to the **Field Service Mobile (2017)** mobile app on your Windows, iOS, or Android device, then **Setup** and sign in with the credentials of the User record of your Field Technician
 
 ![Screenshot of Schedule a work order and view it on the mobile application image38](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image38.png)
 
@@ -271,17 +271,15 @@ Username: **\[enter the username of the User associated with your Field Technici
 Password: **\[enter the password of the User associated with your Field Technician\]**
 
 > [!NOTE]
-> If you recently created a User to be a field technician, it is recommended to log in to the web browser with this user first as you may need to reset a temporary password.
+> If you recently created a User to be a field technician, log in to the web browser with this user first as you may need to reset a temporary password.
 
 ![Screenshot of Schedule a work order and view it on the mobile application image40](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image40.png)
 
 ##  10. View the work order on the mobile application 
 
-In the **Booking** tab you will now see the Booking (Work Order) scheduled to the field technician.
+In the **Booking** tab, the booking (work order) is scheduled to the field technician.
 
 ![Screenshot of Schedule a work order and view it on the mobile application image41](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image41.png)
 
 > [!NOTE]
-> You should see only bookings assigned to the Field Technician resource, in the above example only a single booking. This is because the Field Technician has a security role of Field Service – Resource. If you are seeing many bookings for many different resources, this most likely means you are signed in to the mobile application as an administrator.
-
-**Congratulations!** You are now on your way to using Field Service!
+> You should see only bookings assigned to the field technician resource. This is because the field technician has a security role of Field Service – Resource. If you see many bookings for many different resources, it most likely means you're signed in to the mobile application as an administrator.
