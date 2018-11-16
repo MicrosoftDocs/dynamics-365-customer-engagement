@@ -29,7 +29,7 @@ search.app:
 
 # Quickstart \#1: Schedule a work order and view it on the mobile application
 
-This quickstart will demonstrate how to create and schedule a work order as a dispatcher, and view the work order on the mobile application as a field technician.
+This quickstart demonstrates how to create and schedule a work order as a dispatcher, and view the work order on the mobile application as a field technician.
 
 Estimated Duration: 20 minutes
 
@@ -57,7 +57,7 @@ Steps:
 
 ## 1. Prerequisites
 
-This quickstart assumes you have the [Field Service solution](install-field-service.md) and the mobile solution installed. Sample data imported from the [package deployer](install-sample-data-8-x.md) is **highly recommended**.  
+This quickstart assumes you have the Field Service solution and the mobile solution installed. Sample data imported from the package deployer is **highly recommended**.  
 
 ### Ensure the Field Service application is installed
 
@@ -104,18 +104,17 @@ If you have sample data, skip this step.
 - Select +New
 
 - On the work order summary tab, set up the following parameters: 
-
     - Service Account = **\[select from list or create a new one. Eg. Contoso\]**
     - Work Order Type = **\[select from list or create a new one. Eg. Inspection\]**
     - System Status = **Open-Unscheduled**
+    
+![Screenshot of Schedule a work order and view it on the mobile application image7](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image7.png)  
  
 - On the work order settings tab, set up the following parameters: 
     - Price List = **\[select from list or create new one. Eg. Default Price List\]**
     - Taxable = **No**
-
-![Screenshot of Schedule a work order and view it on the mobile application image7](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image7.png)  
-
-![Screenshot of Schedule a work order and view it on the mobile application image8](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image8.png)  
+    
+![Screenshot of Schedule a work order and view it on the mobile application image8](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image8.png) 
 
 - On the work order address tab, enter a valid address
 
@@ -125,7 +124,7 @@ If you have sample data, skip this step.
 
 ## 4. Set up a resource (field technician) role 
 
-Now we will designate one of our users as a field technician.
+Now we need to designate one of our users as a field technician.
 
 - Navigate to **Settings** > **Security** > **Users**
 
@@ -154,45 +153,41 @@ If you don't have a user to assign this role, create a new one by navigating to 
 > [!NOTE]
 > This user must have a valid Dynamics 365 for Field Service license. Verify you can log into D365 with the new user record as you may need to reset a temporary password.
 
-Finally, we want to **geocode** our field technician user record. Field technician locations are very important in Field Service because it is used for scheduling and routing. We want every field technician user record to be geocoded, so we can use this information to define where each resource starts and/or ends his/her day.
+Finally, we want to **geocode** our field technician user record. Field technician locations are very important in Field Service because they are used for scheduling and routing.
 
-- Back in Dynamics 365, navigate to the field technician’s user record in **Settings &gt; Users**
+- In Dynamics 365, navigate to the field technician’s user record in **Settings &gt; Users**
 
 - Every user record has an address taken from the user record in Office 365. Ensure an address is present.
 
 ![Screenshot of Schedule a work order and view it on the mobile application image18](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image18.png)  
 
-    - If there is no address, navigate to the Office 365 admin center and enter an address for the user
+   - If there is no address, navigate to the Office 365 admin center and enter an address for the user
 
 ![Screenshot of Schedule a work order and view it on the mobile application image19](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image19.png)  
 
 ![Screenshot of Schedule a work order and view it on the mobile application image20](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image20.png)  
 
-    - In Dynamics 365, refresh the field technician user record to see the address from Office 365
+   - In Dynamics 365, refresh the field technician user record to see the address from Office 365
 
 Next, we need to enable geocoding in your Dynamics 365 organization. Geocoding allows the solution to stamp latitudes and longitudes to addresses.
 
 - Navigate to **Resource Scheduling &gt; Administration &gt; Scheduling Parameters**
 
-![Screenshot of Schedule a work order and view it on the mobile application image21](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image21.png)  
-
 ![Screenshot of Schedule a work order and view it on the mobile application image22](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image22.png)  
 
 - Set **Connect to Maps** to **Yes**.
 
-- The API key should be filled out automatically and uses Bing Maps API
+- The API key should be filled out automatically and uses Bing Maps API. This allows us to attach a latitude and longitude to the user record's address
 
 ![Screenshot of Schedule a work order and view it on the mobile application image23](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image23.png)  
 
-This will allow us to tag a latitude and longitude to the address on the user record.
-
-Navigate back to the user record and select **Geocode** in the ribbon.
+- Navigate back to the user record and select **Geocode** in the ribbon. This geocodes the address on the user record taken from Office 365.
 
 ![Screenshot of Schedule a work order and view it on the mobile application image24](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image24.png)  
 
 ![Screenshot of Schedule a work order and view it on the mobile application image25](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image25.png)  
 
-This will geocode the address on the user record taken from Office 365
+
 
 ![Screenshot of Schedule a work order and view it on the mobile application image26](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image26.png)  
 
