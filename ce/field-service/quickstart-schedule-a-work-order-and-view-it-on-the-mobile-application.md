@@ -55,7 +55,7 @@ Steps:
 
 10. View the Work Order on the mobile application
 
-## Prerequisites
+## 1. Prerequisites
 
 This quickstart assumes you have the [Field Service solution](install-field-service.md) and the mobile solution installed. Sample data imported from the [package deployer](install-sample-data-8-x.md) is **highly recommended**.  
 
@@ -81,7 +81,7 @@ If the sample data has been properly imported, you'll see multiple records under
 
 ### ![Screenshot of Schedule a work order and view it on the mobile application image5](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image5.png)  
 
-## Set up a dispatcher role 
+## 2. Set up a dispatcher role 
 
 Within Dynamics 365, navigate to **Settings** &gt; **Security** &gt; **Users**
 
@@ -91,7 +91,7 @@ Select your user and then **Manage Roles** at the top.
 
 Assign your User the **Field Service – Administrator** role. This will give your User schedule and dispatch capabilities as well as configuration abilities. If this user is solely a dispatcher, then assign the **Field Service—Dispatcher** role.
 
-## Create a work order or select a sample one
+## 3. Create a work order or select a sample one
 
 If you have sample data, skip this step.
 
@@ -113,7 +113,7 @@ Taxable = **No**
 
 ![Screenshot of Schedule a work order and view it on the mobile application image7](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image7.png)  
 
-> [!Note]
+> [!NOTE]
 > **Hint:** You may have to click on another tab to access more required fields. In this example, the **Settings** tab.
 
 ![Screenshot of Schedule a work order and view it on the mobile application image8](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image8.png)  
@@ -124,7 +124,7 @@ Enter a valid address
 
 Click Save
 
-## Set up a resource (field technician) role 
+## 4. Set up a resource (field technician) role 
 
 First, let’s designate one of our users as a field technician.
 
@@ -154,12 +154,12 @@ If you do not have a User to assign this role to, you can create a new one by na
 
 ![Screenshot of Schedule a work order and view it on the mobile application image17](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image17.png)
 
-> [!Note]
+> [!NOTE]
 > **Hint:** This user must have a Dynamics 365 license that is valid for Field Service. It is recommended to verify you can log into D365 with the new user record as you may need to reset a temporary password.
 
 Finally, we want to **geocode** our field technician user record. Field technician locations are very important in Field Service because it is used for scheduling and routing. We want every field technician user record to be geocoded, so we can use this information to define where each resource starts and/or ends his/her day.
 
-> [!Note]
+> [!NOTE]
 > **Pro Tip:** the solution can also accommodate scenarios where field technicians begin and/or end their day at a central location.
 
 Back in Dynamics 365…
@@ -213,7 +213,7 @@ Select **Change** and the Latitude and Longitude will be populated under the Sch
 
 Congratulations! You have successfully set up a dispatcher and resource (field technician) users and security roles. You are on your way to using Field Service. A recommended next step is to create a bookable resource related to your resource (field technician) user to schedule work orders that he/she will view on the mobile application.
 
-## Create a bookable resource
+## 5. Create a bookable resource
 
 Back in Dynamics 365…
 
@@ -253,7 +253,7 @@ Resource Territory: **\[Add an existing one or create a new one: Ex: WA\]**
 
 ### ![Screenshot of Schedule a work order and view it on the mobile application image31](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image31.png)  
 
-## Add the bookable resource to the schedule board
+## 6. Add the bookable resource to the schedule board
 
 Lets add this new field technician to the schedule board
 
@@ -269,7 +269,7 @@ Find your new **Field Technician** with a Resource Type = **User** and move him/
 
 ![Screenshot of Schedule a work order and view it on the mobile application image34](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image34.png)![Screenshot of Schedule a work order and view it on the mobile application image35](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image35.png)
 
-## Schedule the work order to the bookable resource
+## 7. Schedule the work order to the bookable resource
 
 In the lower pane, find the work order you created or select a sample work order. This work order should be found in both the Open Requirements view and the Unscheduled Work Orders view, click and drag the work order from the bottom to the new Field technician
 
@@ -277,13 +277,13 @@ In the lower pane, find the work order you created or select a sample work order
 
 Let’s now view this scheduled work order on the mobile application as a field technician.
 
-## Download the Field Service Mobile (2017) mobile app
+## 8. Download the Field Service Mobile (2017) mobile app
 
 First, download the **Field Service Mobile (2017)** mobile app from the Windows, iOS, or Android app stores onto your phone, tablet, or Windows 10 device.
 
 ![Screenshot of Schedule a work order and view it on the mobile application image37](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image37.png)
 
-## Sign into the mobile application as a technician
+## 9. Sign into the mobile application as a technician
 
 Navigate to the **Field Service Mobile (2017)** mobile application on your Windows, iOS, or Android device, then **Setup** and sign in with the credentials of the User record of your Field Technician
 
@@ -302,7 +302,7 @@ Password: **\[enter the password of the User associated with your Field Technici
 
 ![Screenshot of Schedule a work order and view it on the mobile application image40](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image40.png)
 
-##  View the Work Order on the mobile application 
+##  10. View the Work Order on the mobile application 
 
 In the **Booking** tab you will now see the Booking (Work Order) scheduled to the field technician.
 
