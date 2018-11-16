@@ -1949,7 +1949,7 @@
           "description": "Name of the template"
         },
         "LocalizedName": {
-          "type": "string"
+          "type": "string",
           "description": "Localized name of the template"
         },
         "LocalizedDescription": {
