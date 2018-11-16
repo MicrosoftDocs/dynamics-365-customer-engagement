@@ -55,7 +55,7 @@ Steps:
 
 ## Prerequisites
 
-This quickstart assumes you have the Field Service solution and the mobile solution installed. We strongly recommend using the sample data imported from the package deployer. You will also need access to a mobile device with access to the Windows, Apple, or Android app stores.
+This quickstart assumes you have the Field Service solution and the mobile solution installed. We strongly recommend using the sample data imported from the package deployer. You will also need a mobile device with access to the Windows, Apple, or Android app stores.
 
 ### Ensure the Field Service application is installed
 
