@@ -132,7 +132,7 @@ resources, etc.
 
 ![](media/dfa38b56bd18fdbb4698fc6411eb3d5e.png)
 
-## Booking a resource directly 
+## Booking a resource directly to the project team
 
 You can click Book on either the Team tab of the project or on the resource
 requirement.
