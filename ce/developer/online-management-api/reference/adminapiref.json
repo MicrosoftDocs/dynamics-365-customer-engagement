@@ -1946,14 +1946,15 @@
       "properties": {
         "Name": {
           "type": "string",
-          "description": "Name of the currency"
+          "description": "Name of the template"
         },
         "LocalizedName": {
           "type": "string"
+          "description": "Localized name of the template"
         },
         "LocalizedDescription": {
           "type": "string",
-          "description": "Localized name of the currency"
+          "description": "Localized description of the template"
         },
         "SupportedReleases": {
           "type": "array",
@@ -1969,7 +1970,7 @@
         "Id": {
           "format": "uuid",
           "type": "string",
-          "description": "Releases supported by the currency"
+          "description": "Releases supported by the template"
         },
         "Name": {
           "type": "string"
