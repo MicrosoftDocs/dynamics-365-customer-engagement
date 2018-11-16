@@ -185,58 +185,51 @@ Next, we need to enable geocoding in your Dynamics 365 organization. Geocoding a
 
 ![Screenshot of Schedule a work order and view it on the mobile application image24](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image24.png)  
 
+- Confirm the address
+
 ![Screenshot of Schedule a work order and view it on the mobile application image25](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image25.png)  
 
 
+- Select **Change** and the Latitude and Longitude will be populated under the Scheduling section of the user record
 
 ![Screenshot of Schedule a work order and view it on the mobile application image26](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image26.png)  
 
-Select **Change** and the Latitude and Longitude will be populated under the Scheduling section of the user record
-
 ![Screenshot of Schedule a work order and view it on the mobile application image27](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image27.png)  
 
-> [!Note]
-> **Pro Tip:** if you are having trouble populating an address or geocoding an address, it is acceptable to manually enter a latitude and longitude into the fields on the user record.
+> [!NOTE]
+> If you have trouble populating an address or geocoding an address, you can manually enter a latitude and longitude into the fields on the user record.
 
-Congratulations! You have successfully set up a dispatcher and resource (field technician) users and security roles. You are on your way to using Field Service. A recommended next step is to create a bookable resource related to your resource (field technician) user to schedule work orders that he/she will view on the mobile application.
+Congratulations! You have successfully set up key users and security roles. You're well on your way to using Field Service. 
 
 ## 5. Create a bookable resource
 
-Back in Dynamics 365…
+Now it's time to create a bookable resource that relates to the field technician user set up in the previous step. This lets you schedule work orders for the field technician, which he/she can see in the mobile application.
 
-Navigate to **Field Service** &gt; **Administration** &gt; **Resources**
+- In Dynamics 365, navigate to **Field Service** &gt; **Administration** &gt; **Resources**
 
 ![Screenshot of Schedule a work order and view it on the mobile application image28](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image28.png)
 
-Select **+New**
+- Select **+New**
 
-Create new Resource (Field Technician) with..
+- Create a new resource (Field Technician) with the following parameters: 
 
-Resource Type = **User**
-
-User = **\[User record you assigned Resource role to\]**
-
-Warehouse = **\[assign a warehouse or create a new one. Ex: Truck 1\]**
-
-Hourly Rate = **$60**
-
-Start Location = **Resource Address**
-
-End Location = **Resource Address**
-
-Display on Schedule Board = **Yes**
-
-Enable for Availability Search = **Yes**
+    - Resource Type = **User**
+    - User = **\[User record you assigned Resource role to\]**
+    - Warehouse = **\[assign a warehouse or create a new one. Ex: Truck 1\]**
+    - Hourly Rate = **$60**
+    - Start Location = **Resource Address**
+    - End Location = **Resource Address**
+    - Display on Schedule Board = **Yes**
+    - Enable for Availability Search = **Yes**
 
 ![Screenshot of Schedule a work order and view it on the mobile application image29](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image29.png)
 
 ![Screenshot of Schedule a work order and view it on the mobile application image30](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image30.png)  
 
-**Optional:** Related to the Resource (Field technician) assign a…
-
-Resource Characteristic: **\[Add an existing one or create a new one: Ex: Electrical\]**
-
-Resource Territory: **\[Add an existing one or create a new one: Ex: WA\]**
+> [!NOTE]**Optional:** Related to the resource (Field technician) assign a:
+>
+> - Resource Characteristic: **\[Add an existing one or create a new one: Ex: Electrical\]**
+> - Resource Territory: **\[Add an existing one or create a new one: Ex: WA\]**
 
 ### ![Screenshot of Schedule a work order and view it on the mobile application image31](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image31.png)  
 
