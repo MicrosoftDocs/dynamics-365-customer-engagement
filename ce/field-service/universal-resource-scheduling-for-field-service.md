@@ -29,7 +29,7 @@ search.app:
 
 # Universal Resource Scheduling for Field Service
 
-This article describes how Field Service utilizes Universal Resource Scheduling (URS). We'll also take a look at how to configure URS for onsite field service scenarios.
+This article describes how Field Service uses Universal Resource Scheduling (URS). We'll also take a look at how to configure URS for onsite field service scenarios.
 
 ## Overview
 
@@ -37,11 +37,11 @@ This article describes how Field Service utilizes Universal Resource Scheduling 
 
 URS assigns the best resources to jobs and tasks based on:
 
-- resource availability
-- required skills
-- promised time windows
-- business unit
-- geographic territory and more
+- Resource availability
+- Required skills
+- Promised time windows
+- Business unit
+- Geographic territory and more
 
 
 **Field service organizations** most frequently use URS to schedule mobile resources to location-specific jobs and tasks (known as work orders) as the resources travel to various customer locations. Because work orders are generally performed onsite, URS schedules the  resources with **closest proximity** to work orders, reducing travel time and costs. 
@@ -49,9 +49,9 @@ URS assigns the best resources to jobs and tasks based on:
 In this topic, we'll take a quick look at: 
 
 - URS components
-- how URS works with Field Service work orders
-- how to schedule work orders with URS
-- and basic configuration 
+- How URS works with Field Service work orders
+- How to schedule work orders with URS
+- Basic configuration 
 
 For more detailed information on URS, visit the [Universal Resource Scheduling documentation](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
 
@@ -69,9 +69,9 @@ The following list shows which components correspond to Field Service and URS:
 
 - Work orders (**Field Service**)
 - Bookable resources (**Universal Resource Scheduling**) 
-- Resource Requirements (**Universal Resource Scheduling**)
-- Resource Bookings (**Universal Resource Scheduling**)
-- Schedule tools - Schedule Board, Schedule Assistant (**Universal Resource Scheduling**)
+- Resource requirements (**Universal Resource Scheduling**)
+- Resource rookings (**Universal Resource Scheduling**)
+- Schedule tools - schedule board, schedule assistant (**Universal Resource Scheduling**)
 - Resource Scheduling Optimization (installed separately) (**Universal Resource Scheduling**)
 
 For more information, visit the [Universal Resource Scheduling documentation](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
@@ -126,12 +126,10 @@ After a work order requirement is booked, a bookable resource booking record is 
 
 You can book from: 
 
-- work orders
-- requirements
-- the schedule board
+- Work orders
+- Requirements
+- Schedule board
 - Resource Scheduling Optimization (RSO)
-
-See below for details.  
 
 ### Book from the work order
 
@@ -177,7 +175,7 @@ Navigate to **Resource Scheduling > Administration > Enable Resource Scheduling 
 
 This is where administrators decide which entities can be scheduled to resources. When Field Service is installed, work orders are enabled for resource scheduling by default. 
 
-Double click on work orders to define default behavior when scheduling work order requirements.
+Double-click work orders to define default behavior when scheduling work order requirements.
 
 ### Connect to maps
 Connecting to a mapping service is critical if you want to geographically display work orders and route field technicians.
