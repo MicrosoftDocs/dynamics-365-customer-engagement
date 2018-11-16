@@ -28,18 +28,18 @@ Third party channel providers can add Channel Integration Framework (CIF) soluti
 
 2. Login to your Dynamics 365 instance and go to **Settings** > **Solutions**.
 
-3. Click on "X" solution to open it.
+3. From the list of solutions, click on "X" solution to open it.
 
-4. Click on **Add Existing** and select **Model Driven App**.
+4. In the window that opens up, select **Model Driven App** from the left panel.
 
-5. Select the **CIF Model Driven App** and click **OK**.
+5. Select **Channel Integration Framework** and click **OK**.
 
 6. Click on **Publish all customizations**.
 
 7. Close the solution window.
 
 8. Export the solution.
-
+<!--
 ## Update a CIF solution
 
 1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global administrator or [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] System Administrator credentials.  
@@ -57,8 +57,8 @@ Third party channel providers can add Channel Integration Framework (CIF) soluti
    ![Select solution and upgrade](../../admin/media/select-solution-upgrade.png "Select solution and upgrade")
 
 6. Proceed through **Terms of service** to accept the terms and start the upgrade. 
-
-## Delete a CIF solution  
+-->
+## Remove Channel Integration Framework solution as a dependent solution
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../../includes/proc-permissions-system-admin-and-customizer.md)]  
   
@@ -66,7 +66,11 @@ Third party channel providers can add Channel Integration Framework (CIF) soluti
   
 3. Select **Settings** > **Solutions**.  
   
-4. Select a solution and select **Delete**.
+4. Select solution 'X'.
+
+5. In thwindow that opens, select **Channel Integration Framework** solution.
+
+6. Click on **Delete**. Then, click on **Delete** button in the dialog box that opens to confirm that you want to remove CIF as a dependent solution.
 
 ## See Also
 
