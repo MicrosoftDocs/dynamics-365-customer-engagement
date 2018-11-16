@@ -1,14 +1,14 @@
 ---
-title: "Dynamics 365 Customer Engagement Readme (Known Issues) | MicrosoftDocs"
+title: "Dynamics 365 for Customer Engagement Readme (Known Issues) | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 09/25/2018
+ms.date: 11/15/2018
 ms.service:
   - "crm-online"
 ms.topic: article
 applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
+  - "Dynamics 365 for Customer Engagement apps version 9.x (on-premises)"
 ms.assetid: 99ea6ece-c35a-4f0e-85a4-26622cd87031
 author: ReneeW-CPub
 ms.author: renwe
@@ -16,12 +16,15 @@ manager: annbe
 
 ---
 
-Dynamics 365 Customer Engagement<br>Readme / Known Issues
+Dynamics 365 for Customer Engagement<br>Readme / Known Issues
 =========================================================
 
-This document provides important information about this product version:
+This document provides important information about these product versions:
 
--   Dynamics 365 (online), Enterprise edition, version 9.0
+-   Dynamics 365 for Customer Engagement apps version 9.0
+-   Dynamics 365 for Customer Engagement apps version 9.0.1
+-   Dynamics 365 for Customer Engagement apps version 9.0.2
+-   Dynamics 365 for Customer Engagement apps version 9.0.2 (on-premises)
 
 You'll also find information about known issues and possible workarounds.
 
@@ -38,7 +41,7 @@ Channel Integration Framework
 Transport Layer Security (TLS) Requirements
 -------------------------------------------
 
-Starting with Dynamics 365 (online), version 9.0, connections to Customer
+Starting with Dynamics 365 for Customer Engagement apps version 9.0, connections to Customer
 Engagement applications are required to use TLS 1.2 (or later) security
 protocols. This aligns with updated Microsoft and industry security policies and
 best practices. To prevent any disruption to your organization, you might be
@@ -54,14 +57,14 @@ required to take the following actions to maintain the connectivity to Dynamics
 2.  Recompile your custom Windows clients that were built using the .NET
     Framework 4.5.2 to use the .NET Framework 4.6.2 or later.
 
-3.  Download and update your Dynamics 365 for Outlook to [version
+3.  Download and update Dynamics 365 for Outlook to [version
     8.2.2.137](https://www.microsoft.com/download/details.aspx?id=56327).
 
 4.  Download the [latest version of developer
     tools](https://docs.microsoft.com/dynamics365/customer-engagement/developer/download-tools-nuget)
     from NuGet.
 
-5.  Download and update your Unified Service Desk to [the latest
+5.  Download and update Unified Service Desk to [the latest
     version](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/download-unified-service-desk)
     (versions 3.1, 3.2, and 3.3 are TLS 1.2 compliant). If you want to continue
     to use older versions of Unified Service Desk, you must [update the client
@@ -148,7 +151,7 @@ Sales and Customer Service web client apps
 -   If a Knowledge Article is in read-only mode, links in the article will not
     work.
     
--   Knowledge Articles creation and authoring is not supported on the web client, and is supported only in the Unified Interface. When you click the out-of-the-box Knowledge Article node in the Dynamics 365 custom web app sitemap, the page auto refreshes and redirects to the default landing page after seven seconds. Knowledge Articles open in a new tab in the Customer Service Hub application. Please see the new tab in your browser for accessing, creating, and managing your Knowledge articles with enhanced capabilities. If the new tab does not open automatically, check your browser’s settings to allow pop-ups. Also, check your security role privilege for accessing the Customer Service Hub application. 
+-   Knowledge Articles creation and authoring is not supported on the web client, and is supported only in the Unified Interface. When you click the out-of-the-box Knowledge Article node in the Dynamics 365 for Customer Engagement custom web app sitemap, the page auto refreshes and redirects to the default landing page after seven seconds. Knowledge Articles open in a new tab in the Customer Service Hub application. Please see the new tab in your browser for accessing, creating, and managing your Knowledge articles with enhanced capabilities. If the new tab does not open automatically, check your browser’s settings to allow pop-ups. Also, check your security role privilege for accessing the Customer Service Hub application. 
 
 
 Sales Hub and Customer Service Hub apps 
@@ -462,8 +465,7 @@ Dynamics 365 for Outlook
 
 -   Microsoft has released Dynamics 365 for Outlook version 8.2.2.137 update.
     This update includes support for Transport Layer Security (TLS) 1.2, which
-    is required for connecting Dynamics 365 for Outlook with Dynamics 365
-    (online), version 9.0. See [Version 8.2.2.137 Update for Dynamics 365 for
+    is required for connecting Dynamics 365 for Outlook with Dynamics 365 for Customer Engagement apps version 9.0. See [Version 8.2.2.137 Update for Dynamics 365 for
     Outlook](https://www.microsoft.com/download/details.aspx?id=56327).
 
 -   In offline mode, adding an attachment to a Note in Dynamics 365 for Outlook
@@ -486,7 +488,7 @@ Inactivity timeout
 
     -   Live Assist (Chat)
 
--   Portal capabilities for Dynamics 365 has its own session and inactivity
+-   Portal capabilities for Dynamics 365 for Customer Engagement has its own session and inactivity
     timeout settings that are independent of the timeout settings in System
     Settings. This is by design.
 
@@ -560,11 +562,11 @@ Web client visual refresh
         changes and might leave an empty space. However, this empty space will
         disappear on refresh.
 
-Important note for Field Service or Project Service Automation organizations that update to Dynamics 365 version 9.0, or later 
+Important note for Field Service or Project Service Automation organizations that update to Dynamics 365 for Customer Engagement version 9.0, or later 
 -------------------------------------------------------------------------------------------------------------------------------
 
 When you update to version 9.0, or later, you must also update the Project
-Service Automation and Field Service Solutions. After updating to version 9.0,
+Service Automation and Field Service solutions. After updating to version 9.0,
 or later, go to the Dynamics 365 Administration Center, Manage Solutions page to
 update the preferred solution.
 
@@ -583,7 +585,7 @@ mobile offline capabilities for existing and new customers.
 
 Unified Service Desk
 --------------------
-- The next version of Dynamics 365 for Customer Engagement on-premises release will support only Unified Service Desk 4.0 and later versions. If you are using Unified Service Desk 3.3, then the next version of Dynamics 365 for Customer Engagement on-premises release will not be supported.
+- The next version of Dynamics 365 for Customer Engagement (on-premises) release will support only Unified Service Desk 4.0 and later versions. If you are using Unified Service Desk 3.3, then the next version of Dynamics 365 for Customer Engagement (on-premises) will not be supported.
 
 - Download and update your Unified Service Desk to the [latest version](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/download-unified-service-desk).
 
@@ -597,7 +599,7 @@ Unified Service Desk
 
     To learn more about the features, see the [Unified Service Desk Guide](/dynamics365/customer-engagement/unified-service-desk/unified-service-desk).
 
--   **Interactive Service Hub**: With the Dynamics 365 (online) version 9.0 release, Interactive Service Hub has been rebuilt as a Unified Interface app and is called Customer Service Hub. This implies that [support](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/interactive-service-hub-page-hosted-control) for the Interactive Service Hub in Unified Service Desk is available only if you are running Dynamics 365, version 8.2 or an earlier supported version of Microsoft Dynamics CRM. You can integrate with Customer Service Hub in Unified Service Desk in the same way as any other Unified Interface app.
+-   **Interactive Service Hub**: With the Dynamics 365 for Customer Engagement apps version 9.0 release, Interactive Service Hub has been rebuilt as a Unified Interface app and is called Customer Service Hub. This implies that [support](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/interactive-service-hub-page-hosted-control) for the Interactive Service Hub in Unified Service Desk is available only if you are running Dynamics 365, version 8.2 or an earlier supported version of Microsoft Dynamics CRM. You can integrate with Customer Service Hub in Unified Service Desk in the same way as any other Unified Interface app.
 
     More information: [Support for Unified Interface Apps in Unified Service Desk](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/admin/support-unified-interfaces-apps-usd)
 
