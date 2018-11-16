@@ -28,7 +28,7 @@ ms.author: matp
 ### Licensing  
  A [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment operates by using a single product key. However, each [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] in a  deployment requires a server license.   
   
- You can view and upgrade a license by using the `Get-CrmAccessLicense` and `Set-CrmProductKey` [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] commands or in [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)]. [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] is a [!INCLUDE[pn_Microsoft_Management_Console](../includes/pn-microsoft-management-console.md)] snap-in that system administrators can use to manage organizations, servers, and licenses for deployments of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md). 
+ You can view and upgrade a license by using the `Get-CrmAccessLicense` and `Set-CrmProductKey` [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] commands or in [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)]. [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] is a [!INCLUDE[pn_Microsoft_Management_Console](../includes/pn-microsoft-management-console.md)] snap-in that system administrators can use to manage organizations, servers, and licenses for deployments of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. 
 
  For more information about licensing, see [Microsoft Dynamics 365 (On-premises) Licensing Guide](https://mbs.microsoft.com/Files/public/365/Dynamics365EnterpriseEditionOnPremisesLicensingGuide.pdf). 
   
