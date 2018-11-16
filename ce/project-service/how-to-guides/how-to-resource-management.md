@@ -132,7 +132,7 @@ resources, etc.
 
 ![](media/dfa38b56bd18fdbb4698fc6411eb3d5e.png)
 
-## Booking a resource directly to the project team
+### Booking a named resource directly
 
 You can click Book on either the Team tab of the project or on the resource
 requirement.
@@ -153,7 +153,7 @@ The assignment on the schedule is updated with the named resource as well.
 
 ![](media/dfa38b56bd18fdbb4698fc6411eb3d5e.png)
 
-## Submitting a resource request 
+### Submitting a resource request 
 
 You can also submit a generated resource requirement as a resource request for
 fulfillment by a resource manager persona.
@@ -172,7 +172,7 @@ replaced by a named resource if the resource manager has fulfilled the request
 or the request status of the generic resource will change to Needs Review, if
 the resource manager has proposed a named resource.
 
-## Accepting or rejecting a proposed resource 
+### Accepting or rejecting a proposed resource 
 
 When the resource manager proposes a named resource back to the project manager,
 the generic team member’s request status changes to Needs Review.
