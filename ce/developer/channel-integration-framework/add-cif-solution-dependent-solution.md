@@ -1,5 +1,5 @@
 ---
-title: "Add a Channel Integration Framework (CIF) solution as a dependent solution| Microsoft Docs"
+title: "Add Channel Integration Framework (CIF) solution as a dependent solution| Microsoft Docs"
 description: "Read how you can add CIF solution as a dependent solution and use CIF solution's capabilities in your own solution."
 keywords: ""
 ms.date: 10/01/2018
@@ -18,11 +18,11 @@ ms.author: susikka
 manager: shujoshi
 ---
 
-# Add a Channel Integration Framework (CIF) solution as a dependent solution
+# Add Channel Integration Framework (CIF) solution as a dependent solution
 
 Third party channel providers can add Channel Integration Framework (CIF) solution as a dependent solution to use CIF's capabilites in the solutions they develop for Dynamics 365. This doc illustrates how users can install, update and delete a CIF solution as a dependent solution.
 
-## Install a CIF solution  
+## Add Channel Integration Framework solution as a dependent solution  
 
 1. Add the Channel Integration Framework application to your Dynamics 365 instance that has an unmanaged dependent solution(say solution "X") installed. More information: [Get Channel Integration Framework](get-channel-integration-framework.md).
 
@@ -32,7 +32,7 @@ Third party channel providers can add Channel Integration Framework (CIF) soluti
 
 4. Click on **Add Existing** and select **Model Driven App**.
 
-5. Select the CIF Model Driven App and click OK.
+5. Select the **CIF Model Driven App** and click **OK**.
 
 6. Click on **Publish all customizations**.
 
