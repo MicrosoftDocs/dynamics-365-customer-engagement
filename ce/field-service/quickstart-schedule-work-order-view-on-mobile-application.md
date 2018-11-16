@@ -29,7 +29,7 @@ search.app:
 
 # Quickstart \#1: Schedule a work order and view it on the mobile application
 
-This quickstart will show you how to create and schedule a work order as a dispatcher, and view the work order on the mobile application as a field technician.
+This quickstart will demonstrate how to create and schedule a work order as a dispatcher, and view the work order on the mobile application as a field technician.
 
 Estimated Duration: 20 minutes
 
@@ -61,25 +61,29 @@ This quickstart assumes you have the [Field Service solution](install-field-serv
 
 ### Ensure the Field Service application is installed
 
-When logged in to Dynamics 365 as a system administrator, you will see the Field Service module.
+When logged in as a Dynamics 365 system administrator, you should see the Field Service module in the menu, as seen in the following screenshot.
 
 ![Quickstart 1 Schedule a work order and view it on the mobile application image1](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image1.png)  
 
+See the [Field Service installation walkthrough](install-field-service.md) if you don't see Field Service in the menu.   
+
 ### Ensure the mobile solution is installed
 
-When logged in as a system administrator, Woodford will appear under **Settings > Solutions** and as an icon under Settings.
+When logged in as a system administrator, Woodford appears under **Settings > Solutions** (and as an icon under Settings). See the following screenshots for reference.
 
 ![Screenshot of Schedule a work order and view it on the mobile application image2](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image2.png)  
 
 ![Screenshot of Schedule a work order and view it on the mobile application image3](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image3.png)  
 
+See the [mobile solution activation walkthrough](activate-fs-mobile-app-license.md) if you don't see Woodford in the menu.
+
 ### Ensure the sample data is imported
 
-If the sample data has been properly imported, you'll see multiple records under **Field Service &gt; Work Orders**.
+If the sample data has been imported, you'll see multiple records under **Field Service &gt; Work Orders**.
 
-![Screenshot of Schedule a work order and view it on the mobile application image4](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image4.png)  
+![Screenshot of Schedule a work order and view it on the mobile application image4](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image4.png)
 
-### ![Screenshot of Schedule a work order and view it on the mobile application image5](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image5.png)  
+See these [instructions for importing sample data](install-sample-data-8-x.md) for more information. 
 
 ## 2. Set up a dispatcher role 
 
@@ -95,21 +99,17 @@ Assign your User the **Field Service – Administrator** role. This will give yo
 
 If you have sample data, skip this step.
 
-Navigate to **Field Service &gt; Work Orders**
+- Navigate to **Field Service &gt; Work Orders**
 
-Select +New
+- Select +New
 
-Create new Work Order with…
+- Create new work order with the following parameters: 
 
-Service Account = **\[select from list or create a new one. Ex: Contoso\]**
-
-Work Order Type = **\[select from list or create a new one. Ex: Inspection\]**
-
-System Status = **Open-Unscheduled**
-
-Price List = **\[select from list or create new one. Ex: Default Price List\]**
-
-Taxable = **No**
+    - Service Account = **\[select from list or create a new one. Ex: Contoso\]**
+    - Work Order Type = **\[select from list or create a new one. Ex: Inspection\]**
+    - System Status = **Open-Unscheduled**
+    - Price List = **\[select from list or create new one. Ex: Default Price List\]**
+    - Taxable = **No**
 
 ![Screenshot of Schedule a work order and view it on the mobile application image7](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image7.png)  
 
@@ -118,11 +118,11 @@ Taxable = **No**
 
 ![Screenshot of Schedule a work order and view it on the mobile application image8](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image8.png)  
 
-Enter a valid address
+- Enter a valid address
 
 ![Screenshot of Schedule a work order and view it on the mobile application image9](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image9.png)  
 
-Click Save
+- Save your work and close
 
 ## 4. Set up a resource (field technician) role 
 
