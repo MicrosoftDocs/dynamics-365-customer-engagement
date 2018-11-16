@@ -90,7 +90,7 @@ bookings or use the Schedule Board directly to manage their bookings.
 
 ![](media/0c76de23ef9cd384f3272be217887e7b.png)
 
-##Assigning a generic bookable resource on a task and project team and then fulfilling with a “named” resource via Schedule Board 
+## Assigning a generic bookable resource on a task and project team and then fulfilling with a “named” resource via Schedule Board 
 
 In addition to booking and assigning named or real resources to your project,
 you can assign generic resources. These resources can serve as placeholders for
