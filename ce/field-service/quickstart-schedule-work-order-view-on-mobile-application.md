@@ -61,13 +61,13 @@ This quickstart assumes you have the [Field Service solution](install-field-serv
 
 ### Ensure the Field Service application is installed
 
-When logged in to Dynamics 365 as a system administrator, you will see the Field Service module
+When logged in to Dynamics 365 as a system administrator, you will see the Field Service module.
 
 ![Quickstart 1 Schedule a work order and view it on the mobile application image1](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image1.png)  
 
 ### Ensure the mobile solution is installed
 
-When logged in as a system administrator, Woodford will appear under **Settings > Solutions** and as an icon under Settings
+When logged in as a system administrator, Woodford will appear under **Settings > Solutions** and as an icon under Settings.
 
 ![Screenshot of Schedule a work order and view it on the mobile application image2](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image2.png)  
 
