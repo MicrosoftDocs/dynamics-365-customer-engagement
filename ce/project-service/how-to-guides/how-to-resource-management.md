@@ -30,8 +30,8 @@ assign team members and manage their bookings and assignments.
 
 ## Booking and assigning a “named” bookable resource on a task and project team
 
-You can directly add a real or named resource to your project by booking them
-directly.
+You can  add a named (or real) resource to your project team by booking them
+directly onto the team.
 
 ![](media/2f262714c96c7325abd1e2d2007184f7.png)
 
@@ -59,9 +59,9 @@ Once the resource is part of the team, you can switch to the schedule tab and
 assign them to tasks. The resource picker that is launched from the task grid
 will show the team members for the project under Team Members.
 
-Resource bookings and task assignments are not tightly coupled. This means that
-when you use the resource picker in the schedule, you can assign tasks to team
-members more than their bookings on the project.
+In version 3, resource bookings and task assignments are not tightly coupled. This means that
+when you use the resource picker in the schedule, you can potentially assign tasks to team
+members for more hours than their bookings cover on the project.
 
 ![](media/30219f2698badeaeab18b800bc7c5da1.png)
 
@@ -69,13 +69,13 @@ You can see differences in team member bookings and assignments in either the
 team tab or the reconciliation tab, where you can reconcile differences between
 bookings and assignments for resources at a detailed level.
 
-You can also use the resource picker in the schedule tab to select resources
-that are not already part of the team. They show on the resource pickers as
+You can also use the resource picker in the schedule tab to select bookable resources
+that are not already part of the project team. They show on the resource picker as
 Other Resources
 
 ![](media/376961383a6b6f866f04f63f6207211d.png)
 
-When you do this, the resource is added to the project team, but no bookings are
+When you do this, the resource is added to the project team and assigned to the task, but no bookings are
 made for them.
 
 ![](media/30219f2698badeaeab18b800bc7c5da1.png)
@@ -93,13 +93,13 @@ bookings or use the Schedule Board directly to manage their bookings.
 ## Assigning a generic bookable resource on a task and project team and then fulfilling with a “named” resource via Schedule Board 
 
 In addition to booking and assigning named or real resources to your project,
-you can assign generic resources. These resources can serve as placeholders for
-named resources until you are ready to staff your project. This manifests itself
+you can assign generic resources to project tasks. These resources can serve as placeholders for
+named resources until you are ready to staff your project with named resources. This manifests itself
 mainly in the generic resource assignment and fulfilment scenario.
 
 To do this you can type the position name of the generic resource in the
 resource cell of the schedule or click the resource icon in the cell and open
-the resource picker and type the name of the generic you wish to create.
+the resource picker and type the name of the generic resource you wish to create.
 
 ![](media/376961383a6b6f866f04f63f6207211d.png)
 
@@ -109,43 +109,43 @@ and organization unit of the generic resource team member.
 ![](media/2b6c13d7480d09cec866c33405d17e7d.png)
 
 Once created, it is assigned to the task and you can continue to assign that
-generic resource to other tasks in the WBS schedule.
+generic resource to other tasks in the task schedule.
 
 ![](media/d8c768c0f124862621c82b9b1e606c23.png)
 
-Once you have assigned the generic you can generate a resource requirement for
+Once you have assigned the generic resource you can generate a resource requirement for
 it and fulfil it either by directly booking or submitting a resource request to
-a resource manager. Additionally, on the team member grid, generic resources can
+a resource manager. Also, on the team member grid, generic resources can
 be added directly in addition to the resource picker experience as documented
 above. They are added with a resource requirement that is based on the start/end
-dates and allocation method specified in the quick create form .
+dates and allocation method specified in the quick create form.
 
 ![](media/30219f2698badeaeab18b800bc7c5da1.png)
 
 You can see a difference if you add the generic team member directly and then
-assign more tasks to the generic resource than they have bookings to cover. You
-can click Generate Requirement to regenerate the requirement to true it up
+assign more tasks to the generic resource than they have required hours to cover. You
+can click Generate Requirement to regenerate the requirement to true up the required hours 
 against assignments.
 
-You can click the link to open the requirement and add skills, preferred
+You can also click the resource requirement link in the team grid to open the requirement and add skills, preferred
 resources, etc.
 
 ![](media/dfa38b56bd18fdbb4698fc6411eb3d5e.png)
 
 ### Booking a named resource directly
 
-You can click Book on either the Team tab of the project or on the resource
-requirement.
+You can select a generic resource with a requirement and click Book on the Team tab of the project or open the resource
+requirement and click the book button there.
 
 ![](media/dfa38b56bd18fdbb4698fc6411eb3d5e.png)
 
-This will open the Schedule Assistant which you use to select and book a real
+This will open the Schedule Assistant which you use to select and book a named
 resource onto your project team.
 
 ![](media/00514ba537ffe069e2d3b8ae3236ce0a.png)
 
 When the booking is complete and totally fulfilled by a named resource, the
-generic is replaced with the named resource on the team.
+generic resource is replaced with the named resource on the team.
 
 ![](media/7a92bf18953e1dd64b84e5c7f92dcfbf.png)
 
@@ -158,7 +158,7 @@ The assignment on the schedule is updated with the named resource as well.
 You can also submit a generated resource requirement as a resource request for
 fulfillment by a resource manager persona.
 
-Once you have a resource requirement for a generic team member, click on the
+Once you have generated a resource requirement for a generic team member, click on the
 Submit Request button.
 
 ![](media/94d4a65675b02692180f948651b7ae34.png)
@@ -167,9 +167,9 @@ The request status of the generic team member will change to Submitted.
 
 ![](media/f736aa1e89eba46a752113a76446dadc.png)
 
-Once the request is fulfilled by the resource manager, the generic will be
+Once the request is fulfilled by the resource manager, the generic resource will be
 replaced by a named resource if the resource manager has fulfilled the request
-or the request status of the generic resource will change to Needs Review, if
+or the generic resource will remain on the team and the request status will change to Needs Review, if
 the resource manager has proposed a named resource.
 
 ### Accepting or rejecting a proposed resource 
@@ -186,12 +186,12 @@ Resources tab.
 
 The grid shows the proposed resource’s current bookings and bookings once the
 proposal is accepted. From here you can select the proposed resource and click
-Accept Proposals for them to be booked onto your team.
+Accept Proposals for them to be booked onto your team.  You can also reject the resource and resubmit the request.
 
 ![](media/376961383a6b6f866f04f63f6207211d.png)
 
 As with directly fulfilling a generic resource with a named resource, the
-generic resource will be replaced and the assigned tasks will be updated.
+generic resource will be replaced and the assigned tasks will be updated with the named team member.
 
 ## Multiple named resources fulfilling a generic resource 
 
