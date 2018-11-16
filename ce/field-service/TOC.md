@@ -12,7 +12,7 @@
 ## [Sample data installation (earlier app versions)](use-demo-data.md)
 ## [Initial configuration](perform-initial-configurations-setup.md)
 ## [Set up users and security roles](view-user-accounts-security-roles.md)
-## [Field Service Settings](configure-default-settings.md)
+## [Field Service settings](configure-default-settings.md)
 
 # Work orders
 ## [Create a new work order](create-work-order.md)
@@ -35,6 +35,7 @@
 ## [Tutorial: Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
 # Scheduling
+## [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md) 
 ## [Configure the schedule board](configure-schedule-board.md)
 ## [Geocoding for travel time](turn-on-auto-geocoding.md)
 ## [Booking statuses](set-up-booking-statuses.md)

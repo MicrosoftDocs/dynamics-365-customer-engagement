@@ -71,6 +71,9 @@ Connected Field Service for Azure IoT Hub is an add-on solution that brings Azur
 
 All Azure IoT services run in your own Azure cloud subscription. Additionally, we provide an enterprise-ready template that you can customize for each Azure IoT service.
 
+## Privacy details for Connected Field Service
+[!INCLUDE[cc-privacy-crm-connected-field-service](../includes/cc-privacy-crm-connected-field-service.md)]
+
 ### See also  
  [Overview of Dynamics 365 for Field Service](../field-service/overview.md)    
  [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)   
