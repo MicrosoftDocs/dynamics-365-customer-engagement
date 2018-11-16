@@ -67,13 +67,11 @@ See the [Field Service installation walkthrough](install-field-service.md) if yo
 
 ### Ensure the mobile solution is installed
 
-When logged in as a system administrator, Woodford appears under **Settings > Solutions** (and as an icon under Settings). See the following screenshots for reference.
+When logged in as a system administrator, Woodford appears under **Settings > Solutions**. See the following screenshot for reference.
 
 ![Screenshot of Schedule a work order and view it on the mobile application image2](media/qs-1-img2.png)  
 
-![Screenshot of Schedule a work order and view it on the mobile application image3](media/qs-1-img3.png)  
-
-See the [mobile solution activation walkthrough](activate-fs-mobile-app-license.md) if you don't see Woodford in the menu.
+See the [mobile solution activation walkthrough](activate-fs-mobile-app-license.md) if you can't find Woodford in the menu.
 
 ### Ensure the sample data is imported
 
