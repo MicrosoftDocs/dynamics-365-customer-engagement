@@ -1,8 +1,8 @@
 ---
-title: "Create custom business logic through processes with PowerApps | MicrosoftDocs"
+title: "Create custom business logic through processes with Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about the different types of business logic you can use in your app"
 ms.custom: ""
-ms.date: 05/01/2018
+ms.date: 11/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 ms.assetid: 0b4e6602-5701-4859-81cc-6f6fe50901b2
 caps.latest.revision: 44
 author: "Mattp123"
@@ -26,9 +25,9 @@ search.app:
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-Defining and enforcing consistent business processes is one of the main reasons people use model-driven apps. Consistent processes help make sure people using the system can focus on their work and not on remembering to perform a set of manual steps. Processes can be simple or complex and can change over time.  
+Defining and enforcing consistent business processes is one of the main reasons people use Dynamics 365 for Customer Engagement apps. Consistent processes help make sure people using the system can focus on their work and not on remembering to perform a set of manual steps. Processes can be simple or complex and can change over time.  
   
-[!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] includes five  types of processes, each designed for a different purpose:  
+Dynamics 365 for Customer Engagement includes five  types of processes, each designed for a different purpose:  
   
 - Business process flows  
   
@@ -40,8 +39,8 @@ Defining and enforcing consistent business processes is one of the main reasons 
   
   Similar to processes, you can also create  business rules and recommendations. For more information, see [Create business rules and recommendations to apply logic in a form](../customize/create-business-rules-recommendations-apply-logic-form.md)  
 
-> [!NOTE]
->  Using processes can impact the license requirements for PowerApps and flows. For more information, see [Entity license requirements](/powerapps/maker/common-data-service/data-platform-entity-licenses). 
+<!-- >> [!NOTE]
+>  Using processes can impact the license requirements for Dynamics 365 for Customer Engagement and flows. For more information, see [Entity license requirements](/powerapps/maker/common-data-service/data-platform-entity-licenses).  -->
 
 
 <a name="BKMK_BP"></a>   

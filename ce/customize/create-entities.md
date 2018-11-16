@@ -1,8 +1,8 @@
 ---
-title: "Create an entity with PowerApps | MicrosoftDocs"
+title: "Create an entity with Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn how to create an entity"
 ms.custom: ""
-ms.date: 11/01/2018
+ms.date: 11/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
