@@ -1,8 +1,8 @@
 ---
-title: "Create or edit quick view forms in PowerApps | MicrosoftDocs"
+title: "Create or edit quick view forms in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn how to create or edit a quick view form"
 ms.custom: ""
-ms.date: 04/04/2018
+ms.date: 11/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 author: "Mattp123"
 ms.assetid: 9b101734-cc11-4d05-bd45-eb611eae9931
 caps.latest.revision: 14

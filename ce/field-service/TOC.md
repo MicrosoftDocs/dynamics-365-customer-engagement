@@ -4,13 +4,15 @@
 
 # Installation
 ## [Field Service installation (online)](install-field-service.md)
+## [Activate Field Service mobile licenses](activate-fs-mobile-app-license.md)
+## [AppSource add-ins for Field Service](appsource-addins.md)
+
+# Administration
 ## [Sample data installation (app version 8.x)](install-sample-data-8-x.md)
 ## [Sample data installation (earlier app versions)](use-demo-data.md)
-## [Activate Field Service mobile licenses](activate-fs-mobile-app-license.md)
 ## [Initial configuration](perform-initial-configurations-setup.md)
 ## [Set up users and security roles](view-user-accounts-security-roles.md)
-## [Org-wide default settings](configure-default-settings.md)
-## [AppSource add-ins for Field Service](appsource-addins.md)
+## [Field Service settings](configure-default-settings.md)
 
 # Work orders
 ## [Create a new work order](create-work-order.md)
@@ -32,14 +34,17 @@
 ## [Resource pay types](set-up-resource-pay-types.md)
 ## [Tutorial: Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
-# [Scheduling](universal-resource-scheduling.md)
+# Scheduling
+## [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md) 
 ## [Configure the schedule board](configure-schedule-board.md)
 ## [Geocoding for travel time](turn-on-auto-geocoding.md)
 ## [Booking statuses](set-up-booking-statuses.md)
 ## [Time groups](set-up-time-groups.md)
 ## [Booking rules](set-up-booking-rules.md)
 
-# [Mobile apps for field technicians](field-service-mobile-app-user-guide.md)
+# Mobile app for field technicians
+## [Setup Mobile Field Service](field-service-mobile-app-user-guide.md)
+## [Customizations and configurations](mobile-app-configuration-customization.md)
 ## [Field Resource Hub user guide](field-resource-hub-users-guide.md)
 ## [Mixed reality integration with Remote Assist and HoloLens](remote-assist-hololens.md)
 ## FAQs + troubleshooting
@@ -92,10 +97,6 @@
 ### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
-
-
-
-
 
 
 

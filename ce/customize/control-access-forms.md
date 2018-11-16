@@ -1,8 +1,8 @@
 ---
-title: "Control access to forms in PowerApps | MicrosoftDocs"
+title: "Control access to forms in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn how to control acces to main forms"
 ms.custom: ""
-ms.date: 04/03/2018
+ms.date: 11/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 author: "Mattp123"
 ms.assetid: 15d123e0-b604-45dd-ab34-0b37787a04bb
 caps.latest.revision: 33

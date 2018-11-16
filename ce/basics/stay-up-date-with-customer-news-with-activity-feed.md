@@ -12,8 +12,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 2396d3f3-ca6b-4a44-99dd-bdbaf9b22a58
 caps.latest.revision: 29
-ms.author: "anbichse"
-manager: "brycho"
+ms.author: "jimholtz"
+manager: "kvivek"
 search.audienceType: 
   - enduser
 search.app: 
@@ -105,9 +105,10 @@ Monitor real-time updates in the activity feed to stay current with fast-moving 
 |Submit a post|Alt + P|  
 |Post a status update|Alt + S|  
 |Follow or unfollow|Alt + L|  
+<!-- Removed as couldn't find a keyboard command for delete post.
 |Delete a selected post or comment|Alt + L|  
 |Cancel a deletion|Alt + C|  
-
+-->
 More information:
 
 - [Use keyboard shortcuts in Dynamics 365 Customer Engagement applications](keyboard-shortcuts.md)   
