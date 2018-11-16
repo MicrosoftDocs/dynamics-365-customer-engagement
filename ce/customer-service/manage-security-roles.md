@@ -26,8 +26,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-
-Security roles help to identify the privileges a user can exercise in the system. Security roles also define which entities a user can view or configure. For example, a user may have permission to see accounts but cannot see specific fields for an account.
+Security roles help to identify the privileges a user can exercise in the system. Security roles also define which entities a user can view or configure. For example, a user may have permission to see accounts but cannot see specific fields of an account.
 
 The following standard security roles are leveraged in service scheduling:
   
@@ -42,11 +41,17 @@ The following standard security roles are leveraged in service scheduling:
    - Organizational Units
    - Business Closure
 
-   However, to ensure that all CSM users are able to set up the new scheduling experience and access the new scheduling entities, they should also be assigned the **Customer Service Schedule Administrator** role.
+   However, to ensure that all CSM users are able to set up the new scheduling experience and access the new scheduling entities, they should also be assigned the **Customer Service Schedule Administrator** and the **Customer Service App Access** role.
+
+   ![csm-role](media/csm-role.PNG)
+
+   To know more about how to create users and assign role to them, see [Create users in Dynamics 365 (online) and assign security roles](../admin/create-users-assign-online-security-roles.md). 
 
 - **Customer Service Representative (CSR)**. The Customer Service Representative can create and schedule service activities. 
 
-  To ensure that all CSR users are able to schedule services using the new scheduling experience, they should also be assigned the **Customer Service Scheduler** role. 
+  To ensure that all CSR users are able to schedule services using the new scheduling experience, they should also be assigned the **Customer Service Scheduler** and **Customer Service App Access** role. 
+
+  ![csr-role](media/csr-role.png)
 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security roles and privileges](../admin/security-roles-privileges.md)
