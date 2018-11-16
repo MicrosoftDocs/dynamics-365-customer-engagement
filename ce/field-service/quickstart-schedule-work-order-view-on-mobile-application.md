@@ -224,14 +224,7 @@ Now it's time to create a bookable resource that relates to the field technician
 
 ![Screenshot of Schedule a work order and view it on the mobile application image29](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image29.png)
 
-![Screenshot of Schedule a work order and view it on the mobile application image30](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image30.png)  
-
-> [!NOTE]**Optional:** Related to the resource (Field technician) assign a:
->
-> - Resource Characteristic: **\[Add an existing one or create a new one: Ex: Electrical\]**
-> - Resource Territory: **\[Add an existing one or create a new one: Ex: WA\]**
-
-### ![Screenshot of Schedule a work order and view it on the mobile application image31](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image31.png)  
+![Screenshot of Schedule a work order and view it on the mobile application image30](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image30.png)   
 
 ## 6. Add the bookable resource to the schedule board
 
@@ -278,7 +271,7 @@ Username: **\[enter the username of the User associated with your Field Technici
 Password: **\[enter the password of the User associated with your Field Technician\]**
 
 > [!NOTE]
-> **Hint:** If you recently created a User to be a field technician, it is recommended to log in to the web browser with this user first as you may need to reset a temporary password.
+> If you recently created a User to be a field technician, it is recommended to log in to the web browser with this user first as you may need to reset a temporary password.
 
 ![Screenshot of Schedule a work order and view it on the mobile application image40](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image40.png)
 
@@ -289,6 +282,6 @@ In the **Booking** tab you will now see the Booking (Work Order) scheduled to th
 ![Screenshot of Schedule a work order and view it on the mobile application image41](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image41.png)
 
 > [!NOTE]
-> **Hint:** You should see only bookings assigned to the Field Technician resource, in the above example only a single booking. This is because the Field Technician has a security role of Field Service – Resource. If you are seeing many bookings for many different resources, this most likely means you are signed in to the mobile application as an administrator.
+> You should see only bookings assigned to the Field Technician resource, in the above example only a single booking. This is because the Field Technician has a security role of Field Service – Resource. If you are seeing many bookings for many different resources, this most likely means you are signed in to the mobile application as an administrator.
 
 **Congratulations!** You are now on your way to using Field Service!
