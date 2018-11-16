@@ -1,4 +1,5 @@
 ---
+redirect_url: settings-privacy-security
 title: "Set privacy preferences for a Dynamics 365 Customer Engagement organization | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
