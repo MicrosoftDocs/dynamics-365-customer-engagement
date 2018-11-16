@@ -2,7 +2,7 @@
 title: "Configure default settings (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 1/15/2018
+ms.date: 11/15/2018
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -37,7 +37,7 @@ The Field Service Settings page allows system administrators to set default sett
  > [!div class="mx-imgBorder"]
 > ![Screenshot showing location of field service settings in the Unified Interface framework app](./media/admin-FS-settings-uci.png)
   
-2.  Fill in the information, as required.  Select a tab for information on the settings.  
+2.  Fill in the information, as required.  Refer to the following table for a description of the settings.  
   
 3.  Choose **Save**.  
   
