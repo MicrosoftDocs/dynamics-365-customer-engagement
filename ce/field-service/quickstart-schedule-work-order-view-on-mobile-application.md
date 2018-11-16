@@ -53,7 +53,7 @@ Steps:
 
 9.  Sign into the mobile application as a technician
 
-10. View the Work Order on the mobile application
+10. View the work order on the mobile application
 
 ## 1. Prerequisites
 
@@ -302,7 +302,7 @@ Password: **\[enter the password of the User associated with your Field Technici
 
 ![Screenshot of Schedule a work order and view it on the mobile application image40](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image40.png)
 
-##  10. View the Work Order on the mobile application 
+##  10. View the work order on the mobile application 
 
 In the **Booking** tab you will now see the Booking (Work Order) scheduled to the field technician.
 
