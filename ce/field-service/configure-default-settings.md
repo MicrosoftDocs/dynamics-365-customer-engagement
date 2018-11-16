@@ -2,7 +2,7 @@
 title: "Configure default settings (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
+ms.date: 1/15/2018
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -16,8 +16,8 @@ applies_to:
 author: krbjoran
 ms.assetid: 58255fc0-9e0f-4467-9719-175024e9a424
 caps.latest.revision: 19
-ms.author: krbjoran
-manager: shellyha
+ms.author: daclar
+ms.reviewer: krbjoran
 search.audienceType: 
   - admin
   - customizer
@@ -26,40 +26,22 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Configure default settings for work orders, bookings, schedule board, and agreements (Field Service)
+# Set defaults for work orders, bookings, the schedule board, and agreements (Field Service)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+The Field Service Settings page allows system administrators to set default settings for work orders, bookings, the schedule board, agreements, and more.
 
- Navigate to **Field Service > Field Service Settings > Field Service Settings**  
+ 1. In the Unified Interface framework app, navigate to **Field Service** > **Field Service Settings**. Or, in earlier web browser versions, navigate to **Field Service** > **Administration** > **Field Service Settings**.
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/admin-fs-uci-nav.png)
-
- In previous versions, navigate to **Field Service > Administration > Field Service Settings**
-
- 
  > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/admin-fs-non-uci-nav.png)
-
- The Field Service Settings page allows system administrators to set default settings for work orders, bookings, schedule board settings, agreements, and more in [!INCLUDE[pn-dyn-365-field_service](../includes/pn-dyn-365-field-service.md)].
- 
- 
- > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/admin-FS-settings-uci.png)
+> ![Screenshot showing location of field service settings in the Unified Interface framework app](./media/admin-FS-settings-uci.png)
   
- For example, in the **Other** section, you may want to set **Auto Geo Code Addresses** to **Yes**. This will automatically geocode addresses.  
+2.  Fill in the information, as required.  Select a tab for information on the settings.  
   
-### To set default settings  
+3.  Choose **Save**.  
   
-1.  From the main menu, click **Field Service** > **Administration**, and then choose **Field Service Settings**.  
-  
-2.  Fill in the information, as required.  Click a tab to see information on settings.  
-  
-3.  When you’re done, click **Save**.  
-  
-### Work Order / Booking  
+## Work order and bookings settings 
   
 |                Options                |                                                                                                                                                                                                                                     Description                                                                                                                                                                                                                                      |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -89,7 +71,7 @@ search.app:
 |         Default radius value          |                                                                                                               Select a default radius the schedule assistant will use when searching for resources for  work orders. For example, if you choose a 20 mile radius, then the schedule assistant will find resources within 20 miles of the work order  booking location.                                                                                                               |
 |          Default radius unit          |                                                                                                                                                                                                                             Select miles or kilometers.                                                                                                                                                                                                                              |
   
-### Schedule board setting  
+## Schedule board settings  
   
 |                                          Options                                           |                                                                                                                                                               Description                                                                                                                                                                |
 |--------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -137,7 +119,7 @@ search.app:
 | Generate agreement work order X days in advance |                                                        When auto generate work orders is set to **Yes**, the system will generate work order records based on the recurrence schedule and the existing booking dates. This setting determines how many days in advance of the booking date to generate the work order record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up customer agreements](../field-service/set-up-customer-agreements.md)                                                         |
 |  Generate agreement invoices X days in advance  |                                                                                The system will generate invoice records based on the invoice recurrence schedule and the existing invoice dates. This setting determines how many days in advance of the invoice date to generate the invoice record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up customer agreements](../field-service/set-up-customer-agreements.md)                                                                                 |
   
-### Purchase  
+## Purchase order settings 
   
 |             Options             |                                                                                                                      Description                                                                                                                       |
 |---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -146,7 +128,7 @@ search.app:
 | Purchase order starting number  |                                          Select a starting number for purchase orders. For example, if you choose 4000, then your first purchase order will be 4000, and second one will be 4001, and so on.                                           |
 |   Use of product out of stock   | Select how the system reacts when a work order product is used for a product that is not currently in stock. **Confirm** will prompt the user to decide whether to continue or not, and **Restrict** will keep the work order product from being used. |
   
-### Inventory  
+## Inventory settings
   
 |Options|Description|  
 |-------------|-----------------|  
@@ -155,7 +137,7 @@ search.app:
 |inventory transfer starting number|Select a starting number for inventory transfer numbers. For example, if you choose 5000, then your first inventory transfer number will be 5000, and second one will be 5001, and so on.|  
 |inventory adjustment starting number|Select a starting number for inventory adjustment numbers. For example, if you choose 6000, then your first inventory adjustment number will be 6000, and second one will be 6001, and so on.|  
   
-### Other  
+## Other settings
   
 |             Options             |                                                                                                                                                 Description                                                                                                                                                 |
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -165,7 +147,7 @@ search.app:
 |     Auto geo code addresses     |               Specify whether the system should automatically add the appropriate latitude and longitude values based on the account's address. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Turn on auto geocoding](../field-service/turn-on-auto-geocoding.md)                |
 |       Product cost order        |                                                                                                                                     Select the order for product cost.                                                                                                                                      |
   
-### GPS Data  
+## GPS data settings
  [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] can be integrated with third-party GPS providers to allow the real-time location of resources or vehicles on schedule maps. These settings allow you to map the integrated GPS data to the [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] system.  
   
 |Options|Description|  
@@ -178,11 +160,11 @@ search.app:
 |Custom GPS timestamp field|Shows the logical name of the timestamp to use for geo locations.|  
 |Custom GPS longitude field|Show the logical name of the longitude to be used for geo locations.|  
   
-### Notes  
- Use this area  to add any notes for yourself.  
+## Notes  
+ Use this area to add any notes for yourself.  
   
 ### See also  
  [Overview](../field-service/overview.md)   
- [Install](../field-service/install-field-service.md)   
+ [Installation](../field-service/install-field-service.md)   
  [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)   
  [Turn on auto geocoding](../field-service/turn-on-auto-geocoding.md)
