@@ -73,7 +73,7 @@ When logged in as a system administrator, Woodford will appear under **Settings 
 
 ![Screenshot of Schedule a work order and view it on the mobile application image3](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image3.png)  
 
-### Ensure the sample data in imported
+### Ensure the sample data is imported
 
 If the sample data has been properly imported, you'll see multiple records under **Field Service &gt; Work Orders**.
 
