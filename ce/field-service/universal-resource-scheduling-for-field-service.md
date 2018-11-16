@@ -225,7 +225,7 @@ For example, in the following screenshot, the bookable resource has resource typ
 > [!div class="mx-imgBorder"]
 > ![Screenshot of resource address](media/scheduling-urs-resource-type.png)
 
-> ![Note]
+> [!NOTE]
 > For routing purposes, the location of a resource is defined as the current work order location, current location of the mobile device, or the start/end location defined here when the other options are not applicable.
 
 #### Option two
@@ -235,7 +235,8 @@ Set resource start/end location to **Organizational Unit Address** and ensure th
 > [!div class="mx-imgBorder"]
 > ![Screenshot of resource address](media/scheduling-urs-resource-organizational-unit.png)
 
-**Pro Tip:** You may have to add the latitude/longitude fields to the organizational unit entity form.
+> [!NOTE] 
+> You may need to add the latitude/longitude fields to the organizational unit entity form.
 
 #### Confirm geocoding works appropriately
 
