@@ -117,7 +117,7 @@ If you have sample data, skip this step.
 
 ![Screenshot of Schedule a work order and view it on the mobile application image8](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image8.png)  
 
-- Enter a valid address
+- On the work order address tab, enter a valid address
 
 ![Screenshot of Schedule a work order and view it on the mobile application image9](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image9.png)  
 
@@ -154,38 +154,33 @@ If you don't have a user to assign this role, create a new one by navigating to 
 > [!NOTE]
 > This user must have a valid Dynamics 365 for Field Service license. Verify you can log into D365 with the new user record as you may need to reset a temporary password.
 
-- Finally, we want to **geocode** our field technician user record. Field technician locations are very important in Field Service because it is used for scheduling and routing. We want every field technician user record to be geocoded, so we can use this information to define where each resource starts and/or ends his/her day.
+Finally, we want to **geocode** our field technician user record. Field technician locations are very important in Field Service because it is used for scheduling and routing. We want every field technician user record to be geocoded, so we can use this information to define where each resource starts and/or ends his/her day.
 
-> [!NOTE]
-> **Pro Tip:** the solution can also accommodate scenarios where field technicians begin and/or end their day at a central location.
+- Back in Dynamics 365, navigate to the field technician’s user record in **Settings &gt; Users**
 
-Back in Dynamics 365…
-
-Navigate to your field technician’s user record in **Settings &gt; Users**
-
-Every user record has an address that is taken from the user record in Office 365. Ensure an address is present.
+- Every user record has an address taken from the user record in Office 365. Ensure an address is present.
 
 ![Screenshot of Schedule a work order and view it on the mobile application image18](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image18.png)  
 
-If one is not present, navigate to the Office 365 admin center and enter an address for the user.
+    - If there is no address, navigate to the Office 365 admin center and enter an address for the user
 
 ![Screenshot of Schedule a work order and view it on the mobile application image19](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image19.png)  
 
 ![Screenshot of Schedule a work order and view it on the mobile application image20](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image20.png)  
 
-Back in Dynamics 365, refresh the field technician user record to see the address from Office 365 appear.
+    - In Dynamics 365, refresh the field technician user record to see the address from Office 365
 
 Next, we need to enable geocoding in your Dynamics 365 organization. Geocoding allows the solution to stamp latitudes and longitudes to addresses.
 
-Navigate to **Resource Scheduling &gt; Administration &gt; Scheduling Parameters**
+- Navigate to **Resource Scheduling &gt; Administration &gt; Scheduling Parameters**
 
 ![Screenshot of Schedule a work order and view it on the mobile application image21](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image21.png)  
 
 ![Screenshot of Schedule a work order and view it on the mobile application image22](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image22.png)  
 
-Set **Connect to Maps** to **Yes**.
+- Set **Connect to Maps** to **Yes**.
 
-The API key should be filled out automatically and uses Bing Maps API
+- The API key should be filled out automatically and uses Bing Maps API
 
 ![Screenshot of Schedule a work order and view it on the mobile application image23](media/Quickstart--1-Schedule-a-work-order-and-view-it-on-the-mobile-application-image23.png)  
 
