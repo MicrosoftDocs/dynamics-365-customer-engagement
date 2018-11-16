@@ -53,20 +53,20 @@
 #### [Import data](import-data.md)
 #### [Export data](export-data-word-excel.md)
 
-### [Basic tutorials](basic-tutorials.md)
-#### [Create a segment](create-segment.md)
-#### [Create a marketing email](create-marketing-email.md)
-#### [Create a simple customer journey](create-simple-customer-journey.md)
-#### [Create a landing page](create-landing-page.md)
-#### [Create an interactive customer journey](create-interactive-customer-journey.md)
-#### [Set up lead scoring](set-up-lead-scoring.md)
+### Marketing tutorials
+#### [Core marketing tutorials](basic-tutorials.md)
+##### [Create a segment](create-segment.md)
+##### [Create a marketing email](create-marketing-email.md)
+##### [Create a simple customer journey](create-simple-customer-journey.md)
+##### [Create a landing page](create-landing-page.md)
+##### [Create an interactive customer journey](create-interactive-customer-journey.md)
 
-### [Advanced tutorials](advanced-tutorials.md)
-#### [Generate activities from a customer journey](generate-activities-from-customer-journey.md)
-#### [Manage images](manage-images.md)
-#### [Create templates](create-templates.md)
-#### [Track online behavior](track-online-behavior.md)
-#### [Set up a subscription center](set-up-subscription-center.md)
+#### [Tutorials for specific scenarios](advanced-tutorials.md)
+##### [Set up lead scoring](set-up-lead-scoring.md)
+##### [Set up a subscription center](set-up-subscription-center.md)
+##### [Generate activities from a customer journey](generate-activities-from-customer-journey.md)
+##### [Manage images](manage-images.md)
+##### [Track online behavior](track-online-behavior.md)
 
 ### Work with content designers
 #### [Design your digital content](design-digital-content.md)

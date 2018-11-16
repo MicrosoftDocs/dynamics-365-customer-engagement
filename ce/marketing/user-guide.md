@@ -44,25 +44,20 @@ search.app:
 
 </td><td>
 
-<h2>Basic tutorials</h2>
+<h2>Tutorials</h2>
 <li><a href="create-segment.md" data-raw-source="[Create a dynamic segment](create-segment.md)">Create a dynamic segment</a></li>
 <li><a href="create-marketing-email.md" data-raw-source="[Create a marketing email and go live](create-marketing-email.md)">Create a marketing email and go live</a></li>
 <li><a href="create-simple-customer-journey.md" data-raw-source="[Create a simple customer journey with email messaging](create-simple-customer-journey.md)">Create a simple customer journey with email messaging</a></li>
 <li><a href="create-landing-page.md" data-raw-source="[Create a landing page with a form](create-landing-page.md)">Create a landing page with a form</a></li>
 <li><a href="create-interactive-customer-journey.md" data-raw-source="[Create an interactive customer journey with triggers and signup](create-interactive-customer-journey.md)">Create an interactive customer journey with triggers and signup</a></li>
 <li><a href="set-up-lead-scoring.md" data-raw-source="[Set up automatic lead generation and scoring](set-up-lead-scoring.md)">Set up automatic lead generation and scoring</a></li>
+<li><a href="set-up-subscription-center.md" data-raw-source="[Set up subscription lists and subscription centers](set-up-subscription-center.md)">Set up subscription lists and subscription centers</a></li>
+<li><a href="generate-activities-from-customer-journey.md" data-raw-source="[Generate activities from a customer journey](generate-activities-from-customer-journey.md)">Generate activities from a customer journey</a></li>
+<li><a href="manage-images.md" data-raw-source="[Manage images for landing pages and email messages](manage-images.md)">Manage images for landing pages and email messages</a></li>
+<li><a href="track-online-behavior.md" data-raw-source="[Track website visits, social media clicks, and banner clicks](track-online-behavior.md)">Track website visits, social media clicks, and banner clicks</a></li>
 
 </td></tr>
 <tr><td>
-
-<h2>Advanced tutorials</h2>
-<li><a href="generate-activities-from-customer-journey.md" data-raw-source="[Generate activities from a customer journey](generate-activities-from-customer-journey.md)">Generate activities from a customer journey</a></li>
-<li><a href="manage-images.md" data-raw-source="[Manage images for landing pages and email messages](manage-images.md)">Manage images for landing pages and email messages</a></li>
-<li><a href="create-templates.md" data-raw-source="[Create templates for emails, pages, forms, and journeys](create-templates.md)">Create templates for emails, pages, forms, and journeys</a></li>
-<li><a href="track-online-behavior.md" data-raw-source="[Track website visits, social media clicks, and banner clicks](track-online-behavior.md)">Track website visits, social media clicks, and banner clicks</a></li>
-<li><a href="set-up-subscription-center.md" data-raw-source="[Set up subscription lists and subscription centers](set-up-subscription-center.md)">Set up subscription lists and subscription centers</a></li>
-
-</td><td>
 
 <h2>Design marketing emails and landing pages</h2>
 <li><a href="design-digital-content.md" data-raw-source="[Design your digital content](design-digital-content.md)">Design your digital content</a></li>
@@ -74,15 +69,15 @@ search.app:
 <li><a href="embed-forms.md" data-raw-source="[Embed a marketing form on your own website](embed-forms.md)">Embed a marketing form on your own website</a></li><li><a href="email-templates.md" data-raw-source="[Work with email, page, and form templates](email-templates.md)">Work with email, page, and form templates</a></li>
 <li><a href="custom-template-attributes.md" data-raw-source="[Use custom attributes to enable designer features](custom-template-attributes.md)">Use custom attributes to enable designer features</a></li>
 
-</td></tr>
-<tr><td>
+</td><td>
 
 <h2>Create marketing segments and customer journeys</h2>
 <li><a href="segmentation-lists-subscriptions.md" data-raw-source="[Working with segments](segmentation-lists-subscriptions.md)">Working with segments</a></li>
 <li><a href="customer-journeys-create-automated-campaigns.md" data-raw-source="[Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)">Use customer journeys to create automated campaigns</a></li>
 <li><a href="customer-journey-tiles-reference.md" data-raw-source="[Customer journey tiles reference](customer-journey-tiles-reference.md)">Customer journey tiles reference</a></li>
 
-</td><td>
+</td></tr>
+<tr><td>
 
 <h2>Manage, score, and qualify leads</h2>
 <li><a href="market-to-leads.md" data-raw-source="[Market to leads](market-to-leads.md)">Market to leads</a></li>
@@ -90,8 +85,7 @@ search.app:
 <li><a href="register-engagement.md" data-raw-source="[Register contacts&#39; engagement](register-engagement.md)">Register contacts&#39; engagement</a></li>
 <li><a href="LinkedIn-Lead-Gen-integration.md" data-raw-source="[Integrate with LinkedIn Lead Gen](LinkedIn-Lead-Gen-integration.md)">Integrate with LinkedIn Lead Gen</a></li>
 
-</td></tr>
-<tr><td>
+</td><td>
 
 <h2>Plan and manage events</h2>
 <li><a href="set-up-event.md" data-raw-source="[Set up an event](set-up-event.md)">Set up an event</a></li>
@@ -102,7 +96,8 @@ search.app:
 <li><a href="invite-register-house-event-attendees.md" data-raw-source="[Invite, register, and house event attendees](invite-register-house-event-attendees.md)">Invite, register, and house event attendees</a></li>
 <li><a href="followup-after-event.md" data-raw-source="[Follow up after the event](followup-after-event.md)">Follow up after the event</a></li>
 
-</td><td>
+</td></tr>
+<tr><td>
 
 <h2>Engage with contacts online</h2>
 <li><a href="portals.md" data-raw-source="[Engage customers online with portals](portals.md)">Engage customers online with portals</a></li>
@@ -110,13 +105,10 @@ search.app:
 <li><a href="create-deploy-marketing-pages.md" data-raw-source="[Create and deploy marketing pages](create-deploy-marketing-pages.md)">Create and deploy marketing pages</a></li>
 <li><a href="LinkedIn-Lead-Gen-integration.md" data-raw-source="[Integrate with LinkedIn Lead Gen](LinkedIn-Lead-Gen-integration.md)">Integrate with LinkedIn Lead Gen</a></li>
 
-</td></tr>
-<tr><td>
+</td><td>
 
 <h2>Gain insights</h2>
 <li><a href="insights.md" data-raw-source="[Analyze results to gain insights](insights.md)">Analyze results to gain insights</a></li>
 
-
-</td><td>
 </td></tr>
 </table>

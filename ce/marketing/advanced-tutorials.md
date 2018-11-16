@@ -25,22 +25,22 @@ search.app:
   - D365Mktg
 ---
 
-# Advanced tutorials for specialized scenarios
+# Tutorials for specific scenarios
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-The tutorials in this section are more specialized then those in the [Basic tutorials](basic-tutorials.md) section. The features described here are all important parts of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but they're targeted for more specialized needs and therefore serve a somewhat smaller audience.  
+The tutorials in this section are more general then those in the [Core marketing tutorials](basic-tutorials.md) section. The features covered here are all important parts of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but they are more specialized so some may only be needed occasionally, and you don't need to do the tutorials in order.
 
 When you have completed the exercises here, you'll be able to:
+
+- [Set up automatic lead scoring](set-up-lead-scoring.md), which can score leads based on demographic information and interaction records.
+
+- [Set up a subscription center](set-up-subscription-center.md) with custom subscription lists, and include it in your emails and customer journeys.
 
 - [Create a customer journey that generates activities](generate-activities-from-customer-journey.md) (such as phone calls, tasks, or appointments), assigns them to relevant staff, and associates each with a contact on that journey.
 
 - [Manage images](manage-images.md) for use in marketing emails and pages.
 
-- [Create templates](create-templates.md) for emails, pages, forms, and journeys so that other users can work more quickly while conforming to your organization's graphical identity and specific business practices.
-
 - [Track website visits, social media clicks, and banner clicks](track-online-behavior.md) so you can use them to score leads and evaluate the effectiveness of your website and other marketing channels.
-
-- [Set up a subscription center](set-up-subscription-center.md) with custom subscription lists, and include it in your emails and customer journeys.
 
 The exercises in this chapter assume you are already familiar with the functionality described in the [Basic tutorials](basic-tutorials.md) chapter, but they don't build on each other, so you can pick and choose the exercises that interest you most.
