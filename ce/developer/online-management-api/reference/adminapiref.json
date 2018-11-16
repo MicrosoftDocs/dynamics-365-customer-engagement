@@ -10,7 +10,7 @@
     ""
   ],
   "paths": {
-    "/api/v1/Currencies": {
+    "/api/v1.1/Currencies": {
       "get": {
         "tags": [
           "Currencies"
@@ -37,7 +37,7 @@
         }
       }
     },
-    "/api/v1/InstanceBackups": {
+    "/api/v1.1/InstanceBackups": {
       "get": {
         "tags": [
           "InstanceBackups"
@@ -117,7 +117,7 @@
         }
       }
     },
-    "/api/v1/InstanceBackups/{instanceId}/{restorePointId}": {
+    "/api/v1.1/InstanceBackups/{instanceId}/{restorePointId}": {
       "get": {
         "tags": [
           "InstanceBackups"
@@ -161,7 +161,7 @@
         }
       }
     },
-    "/api/v1/Instances": {
+    "/api/v1.1/Instances": {
       "get": {
         "tags": [
           "Instances"
@@ -188,7 +188,7 @@
         }
       }
     },
-    "/api/v1/Instances/{id}": {
+    "/api/v1.1/Instances/{id}": {
       "get": {
         "tags": [
           "Instances"
@@ -224,7 +224,7 @@
         }
       }
     },
-    "/api/v1/Instances/Provision": {
+    "/api/v1.1/Instances/Provision": {
       "put": {
         "tags": [
           "Instances"
@@ -268,14 +268,14 @@
               "application/json": [
                 {
                   "operationId": "00000000-0000-0000-0000-000000000000",
-                  "status": 6,
+                  "status": "Succeeded",
                   "errors": [],
                   "information": [],
                   "operationLocation": null,
                   "resourceLocation": null,
                   "context": {
                     "items": {
-                      "instanceState": 2,
+                      "instanceState": "Pending",
                       "admin.InstanceId": "b12d586f-8ffc-4b0f-97f7-7fb89bcc3f26"
                     }
                   }
@@ -292,14 +292,14 @@
               "application/json": [
                 {
                   "operationId": "accac4b5-2478-4fc7-b8b0-6b979e837bb1",
-                  "status": 2,
+                  "status": "NotStarted",
                   "errors": [],
                   "information": [],
                   "operationLocation": null,
                   "resourceLocation": null,
                   "context": {
                     "items": {
-                      "instanceState": 2,
+                      "instanceState": "Pending",
                       "admin.InstanceId": "e2a9c8b3-2ead-4a83-b8ad-d1587b6415de"
                     }
                   }
@@ -316,11 +316,12 @@
               "application/json": [
                 {
                   "operationId": "00000000-0000-0000-0000-000000000000",
-                  "status": 1,
+                  "status": "FailedToCreate",
                   "errors": [
                     {
                       "subject": "ProvisioningJobCreation",
-                      "description": "There was an error creating the provisioning job."
+                      "description": "There was an error creating the provisioning job.",
+                      "code": null
                     }
                   ],
                   "information": [],
@@ -328,7 +329,7 @@
                   "resourceLocation": null,
                   "context": {
                     "items": {
-                      "instanceState": 5
+                      "instanceState": "FailedProvisioning"
                     }
                   }
                 }
@@ -338,7 +339,66 @@
         }
       }
     },
-    "/api/v1/Instances/{targetInstanceId}/Restore": {
+    "/api/v1.1/Instances/{targetInstanceId}/Reset": {
+      "post": {
+        "tags": [
+          "Instances"
+        ],
+        "summary": "Resets a Customer Engagement instance in your Office 365 tenant.",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "operationId": "ResetInstance",
+        "consumes": [
+          "application/json",
+          "text/json"
+        ],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "targetInstanceId",
+            "in": "path",
+            "description": "ID of the Customer Engagement instance that you want to reset.",
+            "required": true,
+            "type": "string",
+            "format": "uuid"
+          },
+          {
+            "name": "resetRequest",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/ResetRequest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Sandbox Operation completed",
+            "schema": {
+              "$ref": "#/definitions/OperationStatus"
+            }
+          },
+          "202": {
+            "description": "Reset Instance Operation Started",
+            "schema": {
+              "$ref": "#/definitions/OperationStatus"
+            }
+          },
+          "400": {
+            "description": "There was an issue either validating or starting the reset operation",
+            "schema": {
+              "$ref": "#/definitions/OperationStatus"
+            }
+          },
+          "404": {
+            "description": "NotFound"
+          }
+        }
+      }
+    },
+    "/api/v1.1/Instances/{targetInstanceId}/Restore": {
       "post": {
         "tags": [
           "Instances"
@@ -392,14 +452,14 @@
         }
       }
     },
-    "/api/v1/Instances/{id}/Delete": {
-      "delete": {
+    "/api/v1.1/Instances/{id}/Users/{userObjectId}/ApplyUser": {
+      "post": {
         "tags": [
           "Instances"
         ],
-        "summary": "Deletes a Customer Engagement instance in your Office 365 tenant.",
+        "summary": "Force applies a user on a Customer Engagement instance.",
         "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
-        "operationId": "DeleteInstance",
+        "operationId": "ApplyUser",
         "consumes": [],
         "produces": [
           "application/json",
@@ -409,34 +469,29 @@
           {
             "name": "id",
             "in": "path",
-            "description": "ID of the Customer Engagement instance to delete.",
+            "description": "ID of the Customer Engagement instance to force apply the user.",
             "required": true,
             "type": "string",
             "format": "uuid"
           },
           {
-            "name": "validate",
-            "in": "query",
-            "description": "Indicates whether to validate or delete an instance. Set True to validate; set False to delete.",
-            "required": false,
-            "type": "boolean"
+            "name": "userObjectId",
+            "in": "path",
+            "description": "UserObjectID of the user to force apply on the instance.",
+            "required": true,
+            "type": "string",
+            "format": "uuid"
           }
         ],
         "responses": {
-          "200": {
-            "description": "If validate was set, validation was executed.",
-            "schema": {
-              "$ref": "#/definitions/OperationStatus"
-            }
-          },
           "202": {
-            "description": "Delete Instance Operation Started.",
+            "description": "The ApplyUser operation started.",
             "schema": {
               "$ref": "#/definitions/OperationStatus"
             }
           },
           "400": {
-            "description": "There was an issue either validating or starting the delete operation.",
+            "description": "There was an issue either validating or starting the ApplyUser operation.",
             "schema": {
               "$ref": "#/definitions/OperationStatus"
             }
@@ -447,7 +502,7 @@
         }
       }
     },
-    "/api/v1/Instances/{id}/UpdateAdminMode": {
+    "/api/v1.1/Instances/{id}/UpdateAdminMode": {
       "post": {
         "tags": [
           "Instances"
@@ -508,7 +563,123 @@
         }
       }
     },
-    "/api/v1/InstanceTypeInfo": {
+    "/api/v1.1/Instances/{id}/ConfigureInstance": {
+      "post": {
+        "tags": [
+          "Instances"
+        ],
+        "summary": "Updates instance settings for the specified Customer Engagement instance.",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "operationId": "ConfigureInstance",
+        "consumes": [
+          "application/json",
+          "text/json"
+        ],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of the instance to update the settings.",
+            "required": true,
+            "type": "string",
+            "format": "uuid"
+          },
+          {
+            "name": "settings",
+            "in": "body",
+            "description": "The instance settings to update.",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/ConfigureInstanceSettings"
+            }
+          },
+          {
+            "name": "validate",
+            "in": "query",
+            "description": "Indicates whether to validate or update an instance. Set True to validate; set False to update.",
+            "required": false,
+            "type": "boolean"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Configure Instance Operation Executed",
+            "schema": {
+              "$ref": "#/definitions/OperationStatus"
+            }
+          },
+          "400": {
+            "description": "There was an issue either validating or executing the configure instance operation.",
+            "schema": {
+              "$ref": "#/definitions/OperationStatus"
+            }
+          },
+          "404": {
+            "description": "NotFound"
+          }
+        }
+      }
+    },
+    "/api/v1.1/Instances/{id}/Delete": {
+      "delete": {
+        "tags": [
+          "Instances"
+        ],
+        "summary": "Deletes a Customer Engagement instance in your Office 365 tenant.",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "operationId": "DeleteInstance",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of the Customer Engagement instance to delete.",
+            "required": true,
+            "type": "string",
+            "format": "uuid"
+          },
+          {
+            "name": "validate",
+            "in": "query",
+            "description": "Indicates whether to validate or delete an instance. Set True to validate; set False to delete.",
+            "required": false,
+            "type": "boolean"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "If validate was set, validation was executed.",
+            "schema": {
+              "$ref": "#/definitions/OperationStatus"
+            }
+          },
+          "202": {
+            "description": "Delete Instance Operation Started.",
+            "schema": {
+              "$ref": "#/definitions/OperationStatus"
+            }
+          },
+          "400": {
+            "description": "There was an issue either validating or starting the delete operation.",
+            "schema": {
+              "$ref": "#/definitions/OperationStatus"
+            }
+          },
+          "404": {
+            "description": "NotFound"
+          }
+        }
+      }
+    },
+    "/api/v1.1/InstanceTypeInfo": {
       "get": {
         "tags": [
           "InstanceTypeInfo"
@@ -535,7 +706,7 @@
         }
       }
     },
-    "/api/v1/InstanceTypeInfo/{type}": {
+    "/api/v1.1/InstanceTypeInfo/{type}": {
       "get": {
         "tags": [
           "InstanceTypeInfo"
@@ -561,7 +732,9 @@
               "Sandbox",
               "Support",
               "Preview",
-              "Trial"
+              "Trial",
+              "Default",
+              "Developer"
             ],
             "x-ms-enum": {
               "name": "InstanceType"
@@ -581,7 +754,7 @@
         }
       }
     },
-    "/api/v1/Languages": {
+    "/api/v1.1/Languages": {
       "get": {
         "tags": [
           "Languages"
@@ -620,7 +793,109 @@
         }
       }
     },
-    "/api/v1/Operation/{id}": {
+    "/api/v1.1/Notifications/{tenantId}/{userObjectId}": {
+      "get": {
+        "tags": [
+          "Notification"
+        ],
+        "summary": "Retrieves notifications from the Notification service.",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "operationId": "GetAllNotifications",
+        "consumes": [
+          "application/json",
+          "text/json"
+        ],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "userObjectId",
+            "in": "path",
+            "description": "The userObjectId, which is the same as the adminId.",
+            "required": true,
+            "type": "string",
+            "format": "uuid"
+          },
+          {
+            "name": "tenantId",
+            "in": "path",
+            "description": "ID of the tenant.",
+            "required": true,
+            "type": "string",
+            "format": "uuid"
+          },
+          {
+            "name": "environments",
+            "in": "query",
+            "description": "IDs of the instances you want notifications for.",
+            "required": true,
+            "type": "array",
+            "items": {},
+            "collectionFormat": "multi"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Notifications",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/UserNotification"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1.1/Notifications": {
+      "post": {
+        "tags": [
+          "Notification"
+        ],
+        "summary": "Post user notifications to the Notification service.",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "operationId": "PostUserNotification",
+        "consumes": [
+          "application/json",
+          "text/json"
+        ],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "userNotification",
+            "in": "body",
+            "description": "The user notification to be posted.",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/UserNotification"
+            }
+          }
+        ],
+        "responses": {
+          "202": {
+            "description": "PostUserNotification Operation Started",
+            "schema": {
+              "$ref": "#/definitions/OperationStatus"
+            }
+          },
+          "400": {
+            "description": "There was an issue either validating or starting the PostUserNotification operation.",
+            "schema": {
+              "$ref": "#/definitions/OperationStatus"
+            }
+          },
+          "404": {
+            "description": "NotFound"
+          }
+        }
+      }
+    },
+    "/api/v1.1/Operation/{id}": {
       "get": {
         "tags": [
           "OperationStatus"
@@ -656,7 +931,7 @@
         }
       }
     },
-    "/api/v1/ServiceVersions": {
+    "/api/v1.1/ServiceVersions": {
       "get": {
         "tags": [
           "ServiceVersions"
@@ -683,7 +958,7 @@
         }
       }
     },
-    "/api/v1/Templates": {
+    "/api/v1.1/Templates": {
       "get": {
         "tags": [
           "Templates"
@@ -710,7 +985,7 @@
         }
       }
     },
-    "/api/v1/TenantApplicationIdentities": {
+    "/api/v1.1/TenantApplicationIdentities": {
       "get": {
         "tags": [
           "TenantApplicationIdentities"
@@ -771,7 +1046,7 @@
         }
       }
     },
-    "/api/v1/TenantApplicationIdentities/{id}": {
+    "/api/v1.1/TenantApplicationIdentities/{id}": {
       "get": {
         "tags": [
           "TenantApplicationIdentities"
@@ -834,7 +1109,7 @@
         }
       }
     },
-    "/api/v1/TenantApplicationIdentities/{id}/Enable": {
+    "/api/v1.1/TenantApplicationIdentities/{id}/Enable": {
       "post": {
         "tags": [
           "TenantApplicationIdentities"
@@ -863,7 +1138,7 @@
         }
       }
     },
-    "/api/v1/TenantApplicationIdentities/{id}/Disable": {
+    "/api/v1.1/TenantApplicationIdentities/{id}/Disable": {
       "post": {
         "tags": [
           "TenantApplicationIdentities"
@@ -903,10 +1178,12 @@
       "type": "object",
       "properties": {
         "RegionCode": {
-          "type": "string"
+          "type": "string",
+          "description": "Code of the region"
         },
         "Name": {
-          "type": "string"
+          "type": "string",
+          "description": "Name of the region"
         },
         "Currencies": {
           "type": "array",
@@ -920,7 +1197,7 @@
       "type": "object",
       "properties": {
         "Code": {
-          "description": "Code of the Currency in customer Engagement",
+          "description": "Code of the Currency in Customer Engagement",
           "maxLength": 3,
           "minLength": 3,
           "type": "string"
@@ -933,7 +1210,7 @@
           "type": "integer"
         },
         "Symbol": {
-          "description": "Code of the Currency in Customer Engagement",
+          "description": "Symbol of the Currency in Customer Engagement",
           "maxLength": 4,
           "minLength": 0,
           "type": "string"
@@ -941,6 +1218,75 @@
         "Name": {
           "description": "Name of the Currency in Customer Engagement",
           "type": "string"
+        }
+      }
+    },
+    "InstanceBackup": {
+      "required": [
+        "Id",
+        "Status",
+        "CreatedBy",
+        "CreatedOn",
+        "ExpiresOn",
+        "Version",
+        "Label"
+      ],
+      "type": "object",
+      "properties": {
+        "Id": {
+          "format": "uuid",
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "CreatedBy": {
+          "type": "string"
+        },
+        "CreatedOn": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "ExpiresOn": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "Version": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        },
+        "Label": {
+          "type": "string"
+        },
+        "IsAzureBackup": {
+          "type": "boolean"
+        },
+        "AzureStorageInformation": {
+          "$ref": "#/definitions/AzureStorage"
+        }
+      }
+    },
+    "AzureStorage": {
+      "required": [
+        "ContainerName",
+        "StorageAccountKey",
+        "StorageAccountName"
+      ],
+      "type": "object",
+      "properties": {
+        "ContainerName": {
+          "type": "string",
+          "description": "For internal use only."
+        },
+        "StorageAccountKey": {
+          "type": "string",
+          "description": "For internal use only."
+        },
+        "StorageAccountName": {
+          "type": "string",
+          "description": "For internal use only."
         }
       }
     },
@@ -970,28 +1316,6 @@
         },
         "AzureStorageInformation": {
           "$ref": "#/definitions/AzureStorage"
-        }
-      }
-    },
-    "AzureStorage": {
-      "required": [
-        "ContainerName",
-        "StorageAccountKey",
-        "StorageAccountName"
-      ],
-      "type": "object",
-      "properties": {
-        "ContainerName": {
-          "type": "string",
-          "description": "For internal use only."
-        },
-        "StorageAccountKey": {
-          "type": "string",
-          "description": "For internal use only."
-        },
-        "StorageAccountName": {
-          "type": "string",
-          "description": "For internal use only."
         }
       }
     },
@@ -1079,53 +1403,6 @@
         }
       }
     },
-    "InstanceBackup": {
-      "required": [
-        "Id",
-        "Status",
-        "CreatedBy",
-        "CreatedOn",
-        "ExpiresOn",
-        "Version",
-        "Label"
-      ],
-      "type": "object",
-      "properties": {
-        "Id": {
-          "format": "uuid",
-          "type": "string"
-        },
-        "Status": {
-          "type": "string"
-        },
-        "CreatedBy": {
-          "type": "string"
-        },
-        "CreatedOn": {
-          "format": "date-time",
-          "type": "string"
-        },
-        "ExpiresOn": {
-          "format": "date-time",
-          "type": "string"
-        },
-        "Version": {
-          "type": "string"
-        },
-        "Notes": {
-          "type": "string"
-        },
-        "Label": {
-          "type": "string"
-        },
-        "IsAzureBackup": {
-          "type": "boolean"
-        },
-        "AzureStorageInformation": {
-          "$ref": "#/definitions/AzureStorage"
-        }
-      }
-    },
     "Instance": {
       "description": "A representation of an organization",
       "required": [
@@ -1138,7 +1415,6 @@
         "Type",
         "FriendlyName",
         "DomainName",
-        "BaseLanguage",
         "InitialUserEmail"
       ],
       "type": "object",
@@ -1182,6 +1458,10 @@
             "name": "InstanceState"
           }
         },
+        "InitialUserPrincipalName": {
+          "description": "UserPrincipalName of the initial user",
+          "type": "string"
+        },
         "StateIsSupportedForDelete": {
           "description": "Indicates whether the instance can be deleted",
           "type": "boolean"
@@ -1198,7 +1478,9 @@
             "Sandbox",
             "Support",
             "Preview",
-            "Trial"
+            "Trial",
+            "Default",
+            "Developer"
           ],
           "type": "string",
           "x-ms-enum": {
@@ -1230,6 +1512,12 @@
           "format": "uuid",
           "description": "The (optional) security group set for the instance.",
           "type": "string"
+        },
+        "AdditionalProperties": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
         }
       }
     },
@@ -1240,7 +1528,6 @@
         "Type",
         "FriendlyName",
         "DomainName",
-        "BaseLanguage",
         "InitialUserEmail"
       ],
       "type": "object",
@@ -1251,7 +1538,7 @@
         },
         "ServiceVersionId": {
           "format": "uuid",
-          "description": "ID of the available CRM service to use for the new instance",
+          "description": "ID of the available service to use for the new instance",
           "type": "string"
         },
         "Templates": {
@@ -1269,7 +1556,9 @@
             "Sandbox",
             "Support",
             "Preview",
-            "Trial"
+            "Trial",
+            "Default",
+            "Developer"
           ],
           "type": "string",
           "x-ms-enum": {
@@ -1277,11 +1566,11 @@
           }
         },
         "Purpose": {
-          "description": "The purpose of the instance",
+          "description": "The purpose of the instance.",
           "type": "string"
         },
         "FriendlyName": {
-          "description": "The friendly name of the instance",
+          "description": "The friendly name of the instance.",
           "type": "string"
         },
         "DomainName": {
@@ -1294,13 +1583,72 @@
           "type": "integer"
         },
         "InitialUserEmail": {
-          "description": "The object id of the user that created the instance.",
+          "description": "The object ID of the user who created the instance.",
           "type": "string"
         },
         "SecurityGroupId": {
           "format": "uuid",
           "description": "The (optional) security group set for the instance.",
           "type": "string"
+        },
+        "AdditionalProperties": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ResetRequest": {
+      "type": "object",
+      "properties": {
+        "FriendlyName": {
+          "description": "Friendly name of the instance.\r\nThis value is from the required \"Name\" input of the Reset UI and is mapped to OrganizationLifecycle.OrganizationFriendlyName in Geo config db.",
+          "type": "string"
+        },
+        "DomainName": {
+          "description": "The domain name portion for the org in the org URL, such as \"contoso\".\r\nThis value is from the required \"URL\" input of the Reset UI and is mapped to OrganizationLifecycle.DomainName in Geo config db.",
+          "type": "string"
+        },
+        "Purpose": {
+          "description": "Purpose specified for this instance in the Rest UI.\r\nThis value is from the optional \"Purpose\" input of the Reset UI and is mapped to OrganizationLifecycle.Purpose in Geo config db.",
+          "type": "string"
+        },
+        "SecurityGroupId": {
+          "format": "uuid",
+          "description": "Guid of the security group for which members will sync to this instance\r\nThis value is from the optional Security Group input of the Reset UI and is mapped to OrganizationLifecycle.SecurityGroup in Geo config db.",
+          "type": "string"
+        },
+        "TargetRelease": {
+          "description": "The name of the target release.\r\nThis is mapped a specific ReleaseName defined in ScaleGroupReleases table.",
+          "type": "string"
+        },
+        "BaseLanguageCode": {
+          "format": "int32",
+          "description": "Base language code LCID of the new instance\r\nFor example, 1033 for English.",
+          "type": "integer"
+        },
+        "Currency": {
+          "$ref": "#/definitions/Currency",
+          "description": "Gets or sets the currency."
+        },
+        "ApplicationNames": {
+          "description": "Applications to have installed initially for the new instance.",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "PreferredCulture": {
+          "format": "int32",
+          "description": "Indicates if the customer prefers a certain culture for formatting for the new instance.",
+          "type": "integer"
+        },
+        "AdditionalProperties": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
         }
       }
     },
@@ -1337,7 +1685,7 @@
       "properties": {
         "OverrideUserObjectId": {
           "format": "uuid",
-          "description": "If set, will be used instead of the user object id of the calling user.",
+          "description": "If set, will be used instead of the UserObjectID of the calling user.",
           "type": "string"
         },
         "AdminMode": {
@@ -1345,11 +1693,42 @@
           "type": "boolean"
         },
         "BackgroundOperationsEnabled": {
-          "description": "Indicates whether to enable or disable the background operatiojs.",
+          "description": "Indicates whether to enable or disable the background operations.",
           "type": "boolean"
         },
         "NotificationText": {
           "type": "string"
+        }
+      }
+    },
+    "DomainNameSettings": {
+      "required": [
+        "DomainName"
+      ],
+      "type": "object",
+      "properties": {
+        "DomainName": {
+          "type": "string"
+        },
+        "AdditionalProperties": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ConfigureInstanceSettings": {
+      "type": "object",
+      "properties": {
+        "Purpose": {
+          "type": "string"
+        },
+        "AdditionalProperties": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
         }
       }
     },
@@ -1368,7 +1747,9 @@
             "Sandbox",
             "Support",
             "Preview",
-            "Trial"
+            "Trial",
+            "Default",
+            "Developer"
           ],
           "type": "string",
           "x-ms-enum": {
@@ -1396,15 +1777,127 @@
         "LCID": {
           "format": "int32",
           "type": "integer",
-          "description": "Locale ID of the language"
+          "description": "Locale ID of the language."
         },
         "Name": {
           "type": "string",
-          "description": "Name of the language"
+          "description": "The language name."
         },
         "LocalizedName": {
+          "type": "string"
+        }
+      }
+    },
+    "EnvironmentMetadata": {
+      "description": "A representation of an EnvironmentMetadata of an UserNotification.",
+      "type": "object",
+      "properties": {
+        "Id": {
+          "format": "uuid",
+          "description": "The id of the EnvironmentMetadata.",
+          "type": "string"
+        },
+        "Name": {
+          "description": "The name of the EnvironmentMetadata.",
+          "type": "string"
+        },
+        "Geo": {
+          "description": "The geo of the EnvironmentMetadata.",
+          "type": "string"
+        }
+      }
+    },
+    "UserNotification": {
+      "description": "A representation of a notification that has been retrieved from/already exists in the Notification Service.",
+      "type": "object",
+      "properties": {
+        "NotificationId": {
+          "format": "uuid",
+          "description": "The id of the current notification.",
+          "type": "string"
+        },
+        "AdminId": {
+          "format": "uuid",
+          "description": "The id of the admin associated with the notification.",
+          "type": "string"
+        },
+        "TenantId": {
+          "format": "uuid",
+          "description": "The id of the tenant associated with the notification.",
+          "type": "string"
+        },
+        "CreatedAt": {
+          "format": "date-time",
+          "description": "The date and time of when the notification was created.",
+          "type": "string"
+        },
+        "Environments": {
+          "description": "The environments associated with the notification.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/EnvironmentMetadata"
+          }
+        },
+        "State": {
+          "description": "The state of the notification.",
+          "enum": [
+            "None",
+            "Ready",
+            "Unread",
+            "Read",
+            "Pending",
+            "Inactive",
+            "Disabled",
+            "FailedProvisioning",
+            "ReadyToConfigure",
+            "Locked"
+          ],
           "type": "string",
-          "description": "Localized name of the language"
+          "x-ms-enum": {
+            "name": "NotificationState"
+          }
+        },
+        "Priority": {
+          "description": "The priority of the notification.",
+          "enum": [
+            "Unknown",
+            "High",
+            "Low"
+          ],
+          "type": "string",
+          "x-ms-enum": {
+            "name": "NotificationPriority"
+          }
+        },
+        "OrgId": {
+          "format": "uuid",
+          "description": "The id of the org associated with the notification.",
+          "type": "string"
+        },
+        "Content": {
+          "$ref": "#/definitions/NotificationContent",
+          "description": "The content associated with the notification."
+        }
+      }
+    },
+    "NotificationContent": {
+      "description": "A representation of the content associated with a notification.",
+      "type": "object",
+      "properties": {
+        "TemplateId": {
+          "description": "The id of the template associated with this NotificationContent.",
+          "type": "string"
+        },
+        "TemplateType": {
+          "description": "The type of the template associated with this NotificationContent.",
+          "type": "string"
+        },
+        "Slugs": {
+          "description": "The slugs to be populated into the NotificationContent.",
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
         }
       }
     },
@@ -1447,27 +1940,55 @@
         "Name",
         "LocalizedName",
         "LocalizedDescription",
-        "SupportedServiceVersions"
+        "SupportedReleases"
       ],
       "type": "object",
       "properties": {
         "Name": {
           "type": "string",
-          "description": "Name of the currency"
+          "description": "Name of the template"
         },
         "LocalizedName": {
           "type": "string"
+          "description": "Localized name of the template"
         },
         "LocalizedDescription": {
           "type": "string",
-          "description": "Localized name of the currency"
+          "description": "Localized description of the template"
         },
-        "SupportedServiceVersions": {
+        "SupportedReleases": {
           "type": "array",
           "items": {
-            "format": "uuid",
-            "type": "string",
-            "description": "Versions supported by the currency"
+            "$ref": "#/definitions/SupportedReleases"
+          }
+        }
+      }
+    },
+    "SupportedReleases": {
+      "type": "object",
+      "properties": {
+        "Id": {
+          "format": "uuid",
+          "type": "string",
+          "description": "Releases supported by the template"
+        },
+        "Name": {
+          "type": "string"
+        },
+        "Types": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "None",
+              "Production",
+              "Sandbox",
+              "Support",
+              "Preview",
+              "Trial",
+              "Default",
+              "Developer"
+            ],
+            "type": "string"
           }
         }
       }
