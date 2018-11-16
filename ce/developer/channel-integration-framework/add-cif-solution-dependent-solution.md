@@ -1,6 +1,6 @@
 ---
 title: "Add a Channel Integration Framework (CIF) solution as a dependent solution| Microsoft Docs"
-description: "Learn the architecture overview of Channel Integration Framework (CIF) for Microsoft Dynamics 365."
+description: "Read how you can add CIF solution as a dependent solution and use CIF solution's capabilities in your own solution."
 keywords: ""
 ms.date: 10/01/2018
 ms.service:
@@ -20,33 +20,25 @@ manager: shujoshi
 
 # Add a Channel Integration Framework (CIF) solution as a dependent solution
 
+Third party channel providers can add Channel Integration Framework (CIF) solution as a dependent solution to use CIF's capabilites in the solutions they develop for Dynamics 365. This doc illustrates how users can install, update and delete a CIF solution as a dependent solution.
+
 ## Install a CIF solution  
 
 1. Add the Channel Integration Framework application to your Dynamics 365 instance that has an unmanaged dependent solution(say solution "X") installed. More information: [Get Channel Integration Framework](get-channel-integration-framework.md).
+
 2. Login to your Dynamics 365 instance and go to **Settings** > **Solutions**.
+
 3. Click on "X" solution to open it.
+
 4. Click on **Add Existing** and select **Model Driven App**.
+
 5. Select the CIF Model Driven App and click OK.
+
 6. Click on **Publish all customizations**.
+
 7. Close the solution window.
+
 8. Export the solution.
-<!--
-1. Sign in to [https://portal.office.com](https://portal.office.com) with your Global administrator or [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] System Administrator credentials.  
-  
-2. Select **Admin centers** > **Dynamics 365**  
-  
-3. Select the **Instances** tab, and then select the instance to add the solution to.  
-  
-4. Select **Manage your solutions** ![Manage your solutions](../../admin/media/manage-solution.png "Manage your solutions").  
-  
-5. Select the solution you want to install and select **Install**.  
-  
-    Proceed through **Terms of service** to accept the terms.  
-  
-   The status for the solution changes to **Installation pending**.  
-  
-   The status for the solution will change to **Installed** when the solution is ready.  
--->
 
 ## Update a CIF solution
 
@@ -75,3 +67,7 @@ manager: shujoshi
 3. Select **Settings** > **Solutions**.  
   
 4. Select a solution and select **Delete**.
+
+## See Also
+
+[Get Channel Integration Framework](get-channel-integration-framework.md)

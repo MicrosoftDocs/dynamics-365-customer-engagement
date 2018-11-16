@@ -1,6 +1,6 @@
 ---
 title: "Pass Dynamics 365 URL to widget library| Microsoft Docs"
-description: "Learn the architecture overview of Channel Integration Framework (CIF) for Microsoft Dynamics 365."
+description: "Read how you can pass the URL of your Dynamics 365 instance to the widget library inside your widget iframe to be able to use CIF's APIs."
 keywords: ""
 ms.date: 10/01/2018
 ms.service:
@@ -19,6 +19,8 @@ manager: shujoshi
 ---
 
 # Pass Dynamics 365 URL to widget library
+
+To access the Channel Integration Framework(CIF) APIs, you need to load the `msdyn_cilibrary.js` file inside your widget iframe. This library needs to know what Dynamics 365 domain it should talk to since the widget iframe is in a different domain. For this you need to pass your Dynamics 365 instance URL to the widget library. 
 
 There are two ways to pass Dynamics 365 URL to widget library:
 
