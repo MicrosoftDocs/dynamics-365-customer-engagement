@@ -29,7 +29,7 @@ search.app:
 
 # Universal Resource Scheduling for Field Service
 
-This article describes how Field Service uses Universal Resource Scheduling (URS). We'll also take a look at how to configure URS for onsite field service scenarios.
+This article describes how Dynamics 365 for Field Service uses Universal Resource Scheduling (URS). We'll also take a look at how to configure URS for onsite field service scenarios.
 
 ## Overview
 
@@ -153,7 +153,7 @@ The lower schedule board pane displays requirement records and can be configured
 > [!div class="mx-imgBorder"]
 > ![Screenshot of schedule board](media/scheduling-urs-schedule-board-schedule-assistant.png) 
 
-The requirement can be dragged and dropped onto a resource on the schdedule board to schedule the work order. Alternatively, selecting  **search availability** on the requirement in the lower pane will trigger the schedule assistant, which recommends the most appropriate resources. 
+The requirement can be dragged and dropped onto a resource on the schdedule board to schedule the work order. Alternatively, selecting  **find availability** on the requirement in the lower pane will trigger the schedule assistant, which recommends the most appropriate resources. 
 
 ### Book with Resource Scheduling Optimization
 
