@@ -14,6 +14,9 @@
 ## [Set up users and security roles](view-user-accounts-security-roles.md)
 ## [Field Service settings](configure-default-settings.md)
 
+# Quickstarts
+## [Schedule a work order and view it on the mobile application](quickstart-schedule-a-work-order-and-view-it-on-the-mobile-application.md)
+
 # Work orders
 ## [Create a new work order](create-work-order.md)
 ## [Work order types](create-work-order-types.md)
