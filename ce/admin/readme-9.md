@@ -142,14 +142,7 @@ Sales and Customer Service web client apps
 -   Knowledge Articles are displayed unformatted when relevance search is
     enabled.
 
--   When you give a long name (more than 41 characters) to a custom entity
-    enabled for Knowledge Management, you might get an error.
-
--   Only the first keyword added to a Knowledge Article returns results in a
-    quick find search.
-
--   If a Knowledge Article is in read-only mode, links in the article will not
-    work.
+-   In order for the entity name to work with Customer Service embedded knowledge search, the maximum entity name length including the       publisher prefix can’t exceed 24 characters.
     
 -   Knowledge Articles creation and authoring is not supported on the web client, and is supported only in the Unified Interface. When you click the out-of-the-box Knowledge Article node in the Dynamics 365 for Customer Engagement custom web app sitemap, the page auto refreshes and redirects to the default landing page after seven seconds. Knowledge Articles open in a new tab in the Customer Service Hub application. Please see the new tab in your browser for accessing, creating, and managing your Knowledge articles with enhanced capabilities. If the new tab does not open automatically, check your browser’s settings to allow pop-ups. Also, check your security role privilege for accessing the Customer Service Hub application. 
 
@@ -220,11 +213,9 @@ in the browser or on mobile devices for each scenario. 
         vertical space on the Reference Panel section in forms. Scroll downwards
         to see more fields.
 
-    -   In the Knowledge Article form, related articles are opened in a new form
-        instead of within the subgrid.
-
-    -   The page background color changes when you select Related Product or
-        Related Article in the Knowledge Article form.
+    -   In the Knowledge Article form summary section, related articles and products fail to open within the subgrid, if the related
+        section is in the loaded as list
+        Workaround - Reduce the screen resolution to load the related section as grid instead of list
 
 -   Other
 
@@ -244,6 +235,11 @@ in the browser or on mobile devices for each scenario. 
 
     -   When an opened article is closed in the KB search control, recent cases
         and entitlements are opened instead of the KB search control.
+        
+    -   Only the first keyword added to a Knowledge Article returns results in a
+        quick find search.
+        
+    -   A subject associated with any knowledge article and cannot be deleted
 
 ### Customer Service Hub (Internet Explorer 11 only)
 
