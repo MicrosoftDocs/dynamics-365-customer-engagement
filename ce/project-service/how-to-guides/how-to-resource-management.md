@@ -33,8 +33,8 @@ assign team members and manage their bookings and assignments.
 You can  add a named (or real) resource to your project team by booking them
 directly onto the team.
 
-> [!div class="mx-imgBorder"] 
-> ![Screenshot of adding adding a new team member from the team grid](media/RM-how-to-1.png)
+    > [!div class="mx-imgBorder"] 
+    > ![Screenshot of adding a placeholder resource's name](media/FAQ-Resources-to-Tasks-2.png "Screenshot of adding a placeholder resource's name")
 
 To do this, select New on the Team tab of your project.
 
