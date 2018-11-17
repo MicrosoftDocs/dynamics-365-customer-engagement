@@ -72,6 +72,9 @@ You can see differences in team member bookings and assignments in either the
 team tab or the reconciliation tab, where you can reconcile differences between
 bookings and assignments for resources at a detailed level.
 
+> [!div class="mx-imgBorder"] 
+> ![Screenshot of the resource reconciliation tab](../media/RM-how-to-4.png "Screenshot of the resource reconciliation tab")
+
 You can also use the resource picker in the schedule tab to select bookable resources
 that are not already part of the project team. They show on the resource picker as
 Other Resources
