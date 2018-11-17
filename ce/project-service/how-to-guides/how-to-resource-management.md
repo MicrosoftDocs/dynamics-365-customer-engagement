@@ -61,11 +61,12 @@ Once the resource is part of the team, you can switch to the schedule tab and
 assign them to tasks. The resource picker that is launched from the task grid
 will show the team members for the project under Team Members.
 
+> [!div class="mx-imgBorder"] 
+> ![Screenshot of assigning a team member to a task on the schedule tab](../media/RM-how-to-3.png "Screenshot of assigning a team member to a task on the schedule tab")
+
 In version 3, resource bookings and task assignments are not tightly coupled. This means that
 when you use the resource picker in the schedule, you can potentially assign tasks to team
 members for more hours than their bookings cover on the project.
-
-![](media/30219f2698badeaeab18b800bc7c5da1.png)
 
 You can see differences in team member bookings and assignments in either the
 team tab or the reconciliation tab, where you can reconcile differences between
