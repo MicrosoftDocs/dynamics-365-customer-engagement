@@ -34,7 +34,7 @@ You can  add a named (or real) resource to your project team by booking them
 directly onto the team.
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot of adding a team member from the team tab](../ce/project-service/media/RM-how-to-1.png "Screenshot of adding a team member from the team tab")
+> ![Screenshot of adding a team member from the team tab](../media/RM-how-to-1.png "Screenshot of adding a team member from the team tab")
 
 To do this, select New on the Team tab of your project.
 
