@@ -158,7 +158,7 @@ Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with
   
     -   If the Citrix application process could not be identified, the server-side executable remains running, and sends a message to the client about the same. You can view the message if you have turned on tracing.  
   
-    -   If the Citrix application process is identified,  the server-side executable acquires the process, and proceeds with identifying the designated top-window for the application. The  configuration commonly used for External Applications is referenced by the server-side executable and can be leveraged to select a non-default top-window. If the top-window could not be found, the erver-side executable remains running, and sends an Info  message to the client that can be seen when tracing has been turned on.  
+    -   If the Citrix application process is identified,  the server-side executable acquires the process, and proceeds with identifying the designated top-window for the application. The  configuration commonly used for External Applications is referenced by the server-side executable and can be leveraged to select a non-default top-window. If the top-window could not be found, the server-side executable remains running, and sends an Info  message to the client that can be seen when tracing has been turned on.  
   
 5.  Finally, the application adapter for the hosted control is instantiated. The acquired process and top-window are provided to the adapter, and all adapter operations are routed between client and server at this point.  
   
