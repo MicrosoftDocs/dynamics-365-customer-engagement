@@ -79,7 +79,8 @@ You can also use the resource picker in the schedule tab to select bookable reso
 that are not already part of the project team. They show on the resource picker as
 Other Resources
 
-![](media/376961383a6b6f866f04f63f6207211d.png)
+> [!div class="mx-imgBorder"] 
+> ![Screenshot of assigning a non-team member resource to a task](../media/RM-how-to-5.png "Screenshot of a non-team member resource to a task")
 
 When you do this, the resource is added to the project team and assigned to the task, but no bookings are
 made for them.
