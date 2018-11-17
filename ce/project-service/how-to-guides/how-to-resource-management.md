@@ -91,7 +91,8 @@ made for them.
 You can use the reconciliation tab’s extend bookings capability or the schedule
 board to book the resource’s capacity to the project.
 
-![](media/94d4a65675b02692180f948651b7ae34.png)
+> [!div class="mx-imgBorder"] 
+> ![Screenshot of extending bookings for a team member on the resource reconciliation tab](../media/RM-how-to-7.png "Screenshot of extending bookings for a team member on the resource reconcilation tab")
 
 Once a team member is booked on your project, you can either use maintain
 bookings or use the Schedule Board directly to manage their bookings.
