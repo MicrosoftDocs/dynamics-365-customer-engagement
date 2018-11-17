@@ -35,29 +35,27 @@ Estimated duration: 20 minutes
 
 Steps:
 
-1.  Prerequisites
+1.  Set up a dispatcher role
 
-2.  Set up a dispatcher role
+2.  Create a work order or select a sample one
 
-3.  Create a work order or select a sample one
+3.  Set up a resource (field technician) role
 
-4.  Set up a resource (field technician) role
+4.  Create a bookable resource
 
-5.  Create a bookable resource
+5.  Add the bookable resource to the schedule board
 
-6.  Add the bookable resource to the schedule board
+6.  Schedule the work order to the bookable resource
 
-7.  Schedule the work order to the bookable resource
+7.  Download the Field Service Mobile (2017) mobile app
 
-8.  Download the Field Service Mobile (2017) mobile app
+8.  Sign into the mobile application as a technician
 
-9.  Sign into the mobile application as a technician
+9. View the work order on the mobile application
 
-10. View the work order on the mobile application
+## Prerequisites
 
-## 1. Prerequisites
-
-This quickstart assumes you have the Field Service solution and the mobile solution installed. We strongly recommend using the sample data imported from the package deployer. You will also need access to a mobile device with access to the Windows, Apple, or Android app stores.
+This quickstart assumes you have the Field Service solution and the mobile solution installed. We strongly recommend using the sample data imported from the package deployer. You will also need a mobile device with access to the Windows, Apple, or Android app stores.
 
 ### Make sure the Field Service application is installed
 
@@ -91,7 +89,7 @@ If the sample data is installed, you'll see multiple records in **Field Service*
 
 - Assign the user the **Field Service – Administrator** role to give the user scheduling, dispatching, and configuration capabilities. If this user is solely a dispatcher, then assign the **Field Service—Dispatcher** role.
 
-## 3. Create a work order or use a sample one
+## 3. Create a work order or select a sample one
 
 If you have sample data, skip this step.
 
@@ -244,7 +242,8 @@ Next, you need to add the new field technician to the schedule board.
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the Apply command for a selected resource](media/qs-1-img35.png)
 
-## 7. Schedule the work order for the bookable resource
+
+## 7. Schedule the work order to the bookable resource
 
 In the lower pane, find the work order you created or select a sample work order. This work order should be found in both the **Open Requirements** view and the **Unscheduled Work Orders** view. Drag the work order from the bottom to the new field technician.
 
@@ -252,8 +251,6 @@ In the lower pane, find the work order you created or select a sample work order
 > ![Screenshot showing how to schedule the work order for the bookable resource](media/qs-1-img36.png)
 
 ## 8. View the work order on the mobile application
-
-### Download the Field Service Mobile (2017) mobile app.
 
 Download the **Field Service Mobile (2017)** mobile app from the Windows, Apple, or Android app stores onto a phone, tablet, or Windows 10 device.
 
