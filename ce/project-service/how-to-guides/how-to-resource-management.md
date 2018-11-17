@@ -38,7 +38,8 @@ directly onto the team.
 
 To do this, select New on the Team tab of your project.
 
-![](media/2f262714c96c7325abd1e2d2007184f7.png)
+> [!div class="mx-imgBorder"] 
+> ![Screenshot of adding a team member on the quick create form](../media/RM-how-to-2.png "Screenshot of adding a team member on the quick create form")
 
 Select the bookable resource. The role will be populated with their default role
 (if they have one), but you can change it if needed. Select the from and to
