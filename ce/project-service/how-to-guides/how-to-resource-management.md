@@ -85,7 +85,8 @@ Other Resources
 When you do this, the resource is added to the project team and assigned to the task, but no bookings are
 made for them.
 
-![](media/30219f2698badeaeab18b800bc7c5da1.png)
+> [!div class="mx-imgBorder"] 
+> ![Screenshot of team member with assignments and no bookings](../media/RM-how-to-6.png "Screenshot of a team member with assignements and no bookings")
 
 You can use the reconciliation tab’s extend bookings capability or the schedule
 board to book the resource’s capacity to the project.
