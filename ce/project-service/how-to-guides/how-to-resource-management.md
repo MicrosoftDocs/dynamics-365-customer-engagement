@@ -97,7 +97,8 @@ board to book the resource’s capacity to the project.
 Once a team member is booked on your project, you can either use maintain
 bookings or use the Schedule Board directly to manage their bookings.
 
-![](media/0c76de23ef9cd384f3272be217887e7b.png)
+> [!div class="mx-imgBorder"] 
+> ![Screenshot of maintaining bookings for a team member](../media/RM-how-to-8.png "Screenshot of maintaining bookings for a team member")
 
 ## Assigning a generic bookable resource on a task and project team and then fulfilling with a “named” resource via Schedule Board 
 
