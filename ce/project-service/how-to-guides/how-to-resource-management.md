@@ -69,7 +69,7 @@ when you use the resource picker in the schedule, you can potentially assign tas
 members for more hours than their bookings cover on the project.
 
 You can see differences in team member bookings and assignments in either the
-team tab or the reconciliation tab, where you can reconcile differences between
+team tab or the resource reconciliation tab, where you can reconcile differences between
 bookings and assignments for resources at a detailed level.
 
 > [!div class="mx-imgBorder"] 
