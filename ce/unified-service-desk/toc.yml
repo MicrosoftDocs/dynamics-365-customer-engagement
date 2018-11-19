@@ -205,7 +205,16 @@
       href: manage-hosted-controls-actions-events.md
       items:
       - name: 'Select a hosting method for your controls '
-        href: select-a-hosting-method-for-your-controls.md
+        href: select-hosting-method-controls.md
+        items:
+        - name: Edge process
+          href: edge-process.md
+        - name: IE process
+          href: ie-process.md
+        - name: Internal WPF
+          href: internal-wpf.md
+        - name: Web hosted application
+          href: web-hosted-application.md
       - name: Create or edit a hosted control
         href: create-edit-hosted-control.md
       - name: Add a UII action to a hosted control

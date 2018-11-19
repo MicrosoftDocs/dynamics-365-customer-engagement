@@ -40,7 +40,7 @@ Use the **CRM Dialog** hosted control type to work with Dynamics 365 dialogs. Yo
 
 - Under **Unified Service Desk** area, select **CRM Dialog** from the **USD Component Type** drop-down list.  
 
-- The **Hosting Type** drop-down list specifies how you want this control to be hosted. You can choose **Internal WPF** (default) or **IE Process**. For more information, see [Select a hosting method for hosted controls](../unified-service-desk/select-a-hosting-method-for-your-controls.md).  
+- The **Hosting Type** drop-down list specifies how you want this control to be hosted. You can choose **Internal WPF** (default) or **IE Process**. For more information, see [Select a hosting method for hosted controls](../unified-service-desk/select-hosting-method-controls.md).  
 
 - Under the **Common Properties** area, select the **Application is Global** check box to set the hosted control as global. Global hosted controls can be displayed outside of a customer session. Controls like the agents’ dashboard, wall or search are common uses for global hosted controls. Global hosted controls do not have do not have session-specific state so when you change sessions, these same global hosted controls remain. If the check box is not selected, the hosted control becomes session based. Session-based controls exist in the context of the customer session. If the user changes to another session, all the session pages from the previous session are hidden.  
 
