@@ -42,19 +42,19 @@ Toast notification or floating notification is a notification message type where
 
 Toast notifications or floating notifications appear for SMS, email, whisper, and barge scenarios. This kind of notification may or may not have buttons that require your actions, which depends on your business requirements.
 
-![omni-channel toast notification](media/oc-usd-toast-notification.png "Omni-channel toast notification")  
+![omni-channel toast notification](../media/oc-usd-toast-notification.png "Omni-channel toast notification")  
 
 #### Alert notifications
 
 Alert notification is a type of notification where a dialog appears with actionable buttons, when you select the accept button, a screen pops with Customer 360 details. You need to take an action within the stipulated time and screen pop dialog vanishes when the time is out. If your business demands an auto-accept request for an incoming request based on the routing rules, you see the notification with no buttons.
 
-![omni-channel alert notification](media/oc-usd-alert-notification.png "omni-channel alert notification")  
+![omni-channel alert notification](../media/oc-usd-alert-notification.png "omni-channel alert notification")  
 
 ##### Incoming chat notification
 
 You see a notification for an incoming chat engagement request. When you accept the chat request, a screen pop with the details of the customer in the Customer 360 page. Simultaneously, session is started, and chat window expands in the left panel of Unified Service Desk.
 
-![omni-channel incoming chat alert notification](media/oc-usd-incoming-chat-request-notification.png "Omni-channel incoming chat alert notification")  
+![omni-channel incoming chat alert notification](../media/oc-usd-incoming-chat-request-notification.png "Omni-channel incoming chat alert notification")  
 
 The details you see for a chat channel are as follows:
 
@@ -68,5 +68,5 @@ The details you see for a chat channel are as follows:
 
 -   Recent activities
 
-![omni-channel customer 360 page for chat](media/oc-usd-chat-customer360.png "Omni-channel customer 360 page for chat")  
+![omni-channel customer 360 page for chat](../media/oc-usd-chat-customer360.png "Omni-channel customer 360 page for chat")  
 

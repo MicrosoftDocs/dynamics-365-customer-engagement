@@ -22,11 +22,11 @@ You must add users in the supervisor configuration to access the configured dash
 
 3.  On the configuration page, select **Supervisor Configuration**.
 
- ![select supervisor configuration ](media/oc-usd-supervisor-select-supervisor-configuration.png "Select supervisor configuration ")  
+ ![select supervisor configuration ](../media/oc-usd-supervisor-select-supervisor-configuration.png "Select supervisor configuration ")  
 
 4.  On the **Users** section, select **+ Add User record** and enter the user name to add the user.
 
- ![add users for supervisor configurations](media/oc-usd-supervisor-configuration-add-users.png "Add users for supervisor configurations")  
+ ![add users for supervisor configurations](../media/oc-usd-supervisor-configuration-add-users.png "Add users for supervisor configurations")  
 
 5.  Save and close the configuration.
 

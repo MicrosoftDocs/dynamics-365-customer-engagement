@@ -24,7 +24,7 @@ The **Overview** dashboard provides information about agents on health and KPIs 
 
 Displays information such as latest KPIs that is automatically refreshed to reflect the latest status on health parameters. This information refreshes within two to three minutes of a change in the app data. The following page is an example of how a live data monitoring dashboard displays: 
 
-![live work monitoring for supervisor](media/oc-usd-supervisor-overview-live-monitoring.png "Live work monitoring for supervisor") The dashboard consists of the following KPIs:   
+![live work monitoring for supervisor](../media/oc-usd-supervisor-overview-live-monitoring.png "Live work monitoring for supervisor") The dashboard consists of the following KPIs:   
 
 | **KPI **                                           | **Description **                                                                                                                                                                                    |
 |----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@ Displays information such as latest KPIs that is automatically refreshed to refl
 
 Provides information on latest KPIs, health of queues on the status of the agents in the given day, and the information refreshes every 15 minutes. The following page is an example of how an intraday monitoring dashboard displays: 
 
-![intraday work monitoring for supervisor](media/oc-usd-supervisor-overview-intraday-monitoring.png "Intraday work monitoring for supervisor")   
+![intraday work monitoring for supervisor](../media/oc-usd-supervisor-overview-intraday-monitoring.png "Intraday work monitoring for supervisor")   
 
 The dashboard consists of the following KPIs: 
 

@@ -36,7 +36,7 @@ You can create a contact or account using the quick create option. After you cre
 
 However, there are no records present in Omni-channel Engagement Hub based on the contextual information obtained from the notification (screen pop).
 
-![omni-channel create record search page](media/oc-usd-crm-create-record-search-page.png "Omni-channel create record search page")  
+![omni-channel create record search page](../media/oc-usd-crm-create-record-search-page.png "Omni-channel create record search page")  
 
 ## Scenario 3: Incoming engagement request where you find no customer records in the Omni-channel Engagement Hub
 
@@ -66,7 +66,7 @@ When you choose to search, the application launches the **Search** in the toolba
 
 Once the search is complete, you can see the results in the form of a list.
 
-![omni-channel create record](media/oc-usd-crm-create-record.png "Omni-channel create record")  
+![omni-channel create record](../media/oc-usd-crm-create-record.png "Omni-channel create record")  
 
 If you select a case, the contact or account opens the Customer 360 page by prepopulating the details.
 
@@ -80,5 +80,5 @@ When there is no record found in the Omni-channel Engagement Hub, you can create
 
 However, there are no records present in Omni-channel Engagement Hub based on the contextual information obtained from the notification (screen pop).
 
-![omni-channel create record search page](media/oc-usd-crm-create-record-search-page.png "Omni-channel create record search page")  
+![omni-channel create record search page](../media/oc-usd-crm-create-record-search-page.png "Omni-channel create record search page")  
 
