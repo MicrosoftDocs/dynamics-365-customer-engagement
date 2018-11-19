@@ -1,5 +1,5 @@
 ---
-title: Using Transaction Category in PSA as a pricing dimension for Time  | MicrosoftDocs
+title: Use a transaction category as a pricing dimension
 description: Step by step for using Transaction Category in PSA as a pricing dimension
 author: Rumant
 manager: eichimur
@@ -19,7 +19,7 @@ search.app:
     - D365PS
 ---
 
-# Using Transaction Category as a Pricing Dimension
+# Use a transaction category as a pricing dimension
 
 **1. Create a pricing dimension solution:**
 
