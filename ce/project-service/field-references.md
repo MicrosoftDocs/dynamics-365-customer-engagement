@@ -1,5 +1,5 @@
 ---
-title: Creating custom field references to entities and User Interface elements of Project Service Solution  | MicrosoftDocs
+title: Add custom fields to price setup and transactional entities 
 description: 9-step walkthrough for using custom fields and/or custom entities as pricing dimensions  
 author: Rumant
 manager: eichimur
@@ -19,8 +19,7 @@ search.app:
     - D365PS
 ---
 
-# Steps 5-7: Add custom fields to price setup and transactional entities of Project Service 
-
+# Add custom fields to price setup and transactional entities 
 Assuming you have completed the common steps 1 to 4 and created your pricing dimension solution, we will proceed to adding the required references for these custom fields to entities and the User Interface elements such as Forms and Views in Project Service solution
 
 ## 5. Add custom pricing dimension fields to price setup and transactional entities
