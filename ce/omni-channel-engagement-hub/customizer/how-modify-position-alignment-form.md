@@ -22,7 +22,7 @@ ms.custom:
 
 4.  Select the **Conversation Form** or **Omni-channel Stream Form** from the list.
 
- ![modify live work item form](media/oc-crm-modify-position-live-work-item-form.png "Modify live work item form")  
+ ![modify live work item form](../media/oc-crm-modify-position-live-work-item-form.png "Modify live work item form")  
 
 5.  Drag and drop the field in the order you want to align. You can align the fields within the same section or from one section to another section.
 
