@@ -22,7 +22,7 @@ search.app:
 # Use transaction category as a pricing dimension
 Before you begin, if you have not already created a pricing dimension solution, you will need to create a new one. If you already have a pricing dimension solution, then you can make your changes in that solution. If you have not created a new Pricing Dimension solution for your Organization, complete the procedures in the topic, [Create custom fields and entities](create-custom-fields-entities.md)
 
-## Add transaction Category to forms and views
+## Add transaction category to forms and views
 To make transaction category visible on the UI in the pricing dimension solution, you will need to walk through all the forms and views of the key entities and add these fields to the forms and views of those entities.
 The following table is a comprehensive list of the out-of-the box forms and views by entity that will need to be updated with the new fields. If there any additional views or forms in your customizations on these entities, add the new fields to those as well.
 
