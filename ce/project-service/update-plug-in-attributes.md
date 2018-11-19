@@ -1,5 +1,5 @@
 ---
-title: Setup pricing dimensions in Project Service (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Update plug-in attributes to include new pricing dimensions
 description: Introduction to setup of pricing dimensions in project service solution 
 author: Rumant
 manager: eichimur
@@ -20,7 +20,7 @@ search.app:
 ---
 
 
-# Step 9: Update plug-in attributes to include newly created pricing dimensions
+# Step 9: Update plug-in attributes to include new pricing dimensions
 
 **If you are not using the Project Service Quoting, Contracting features, you can skip this section**
 
