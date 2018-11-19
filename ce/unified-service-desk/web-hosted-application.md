@@ -26,7 +26,7 @@ search.app:
 monikerRange: '>= dynamics-usd-3'
 ---
 
-# Web Hosted Application
+# Web hosted application
 
  The `Web Hosted Application` browser control is applicable only for the legacy `CCA Hosted Application` type of hosted control. This browser control doesn’t provide native features of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] such as events and toolbars.
 

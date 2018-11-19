@@ -41,11 +41,11 @@ The advantages of Edge process are as follows:
 > [!NOTE]
 > To use Edge process, you must have the latest Windows 10 operating system (Windows 10 October 2018 release).
 
-### Enable Edge process
+## Enable Edge process
 
 You can enable Edge process for individual client desktops and/or for entire organizations.
 
-#### Enable Edge for Unified Service Desk on client desktop
+### Enable Edge for Unified Service Desk on client desktop
 
 1. Go to directory where you have installed Unified Service Desk and double-click to open the UnifiedServiceDesk.exe.config file.
 Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
@@ -57,7 +57,7 @@ Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 
 3. Save the file.
 
-#### Enable Edge for entire organization
+### Enable Edge for entire organization
 
 Add a new Global UI option for your organization named GlobalBrowserMode with value as Edge
 
@@ -75,7 +75,7 @@ Add a new Global UI option for your organization named GlobalBrowserMode with va
 
 7. Select **Save**.
 
-### Create hosted control with hosting type as Edge
+## Create hosted control with hosting type as Edge
 
 You can select Edge Process as the **Hosting Type** while creating a hosted control.
 
