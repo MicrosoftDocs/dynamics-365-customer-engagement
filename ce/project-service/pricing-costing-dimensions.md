@@ -32,7 +32,7 @@ Because of this, there are two types of pricing dimension values available in Pr
 - **Option sets** - Dimensions that are fixed enumerations of a set of values.
 - **Entity-based values** - Dimensions that can be a varied set of values.
 
-## Default pricing dimensions
+## Pricing dimensions
 
 PSA ships with a default set of pricing dimensions. You can view these by going to **Project Service** > **Parameters**. In the parameter record, on the **Amount-based pricing dimensions** tab, verify that the role, **msdyn_resourcecategory** and resourcing organizational unit, **msdyn_organizationalunit** have the fields **Applicable to sales** and **Applicable to cost** set to **Yes**. 
 This will allow you to set up the price and cost for each role and organizational unit combination.
@@ -40,11 +40,17 @@ This will allow you to set up the price and cost for each role and organizationa
 ![Screenshot of Project Service parameters with “Applicable to Sales” highlighted](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
-> If you have been using out-of-the box fields of role and organizational unit as pricing dimensions prior to version 3 of PSA, there will not be any observable change. They can continue to use Project Service as usual. If, however, you see the need to price or cost for your resources using additional attributes, you can create customized dimensions. For more information, see [Create custom fields and entities](create-custom-fields-entities.md).
+> If you have been using out-of-the box fields of role and organizational unit as pricing dimensions prior to version 3 of PSA, there will not be any observable change. They can continue to use Project Service as usual. 
 
+If, you see the need to price or cost for your resources using additional attributes, you can create customized fields, entities, and dimensions. For more information, see the following topics:
+
+- [Create custom fields and entities](create-custom-fields-entities.md)
+- [Add custom fields to price setup and transactional entities](field-references.md)
+- [Set up custom fields as pricing dimensions](set-up-pricing-dimensions.md)
+- [Update plug-in attributes to include new pricing dimensions](update-plug-in-attributes.md)
 
 ## Pricing human resource time
-How an organization prices human resource time is often an important strategic consideration that directly affects the prganization's profitability. Work with the finance teams and practice heads when your organization is ready to identify how it wants to set up bill and cost rates for human resource time.
+How an organization prices human resource time is often an important strategic consideration that directly affects the organization's profitability. Work with the finance teams and practice heads when your organization is ready to identify how it wants to set up bill and cost rates for human resource time.
 
 Other considerations for pricing include whether to re-use fields or entities that are not currently pricing dimensions but apply as a pricing dimension for your organization. Fields like **Transaction Category** (**msdyn_transactioncategory**) and **Bookable Resource** (**bookableresource**) are examples of candidate dimensions.
 
