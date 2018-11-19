@@ -1,11 +1,11 @@
 ---
-title: Use a transaction category as a pricing dimension
-description: Step by step for using Transaction Category in PSA as a pricing dimension
+title: Use transaction category as a pricing dimension
+description: This topic provides information about using a transaction category as a pricing dimension.
 author: Rumant
 manager: eichimur
 ms.custom:
   - dyn365-projectservice
-ms.date: 11/06/2018
+ms.date: 11/19/2018
 ms.topic: article
 ms.prod: Project Service
 ms.service: business-applications
@@ -19,29 +19,28 @@ search.app:
     - D365PS
 ---
 
-# Use a transaction category as a pricing dimension
+# Use transaction category as a pricing dimension
+Before you begin, if you have not already created a pricing dimension solution, you will need to create a new one. If you already have a pricing dimension solution, then you can make your changes in that solution. If you have not created a new Pricing Dimension solution for your Organization, complete the procedures in the topic, [Create custom fields and entities](create-custom-fields-entities.md)
 
-**1. Create a pricing dimension solution:**
+## Add transaction Category to forms and views
+To make transaction category visible on the UI in the pricing dimension solution, you will need to walk through all the forms and views of the key entities and add these fields to the forms and views of those entities.
+The following table is a comprehensive list of the out-of-the box forms and views by entity that will need to be updated with the new fields. If there any additional views or forms in your customizations on these entities, add the new fields to those as well.
 
-As a first step, we will need to create a Solution for the Pricing dimensions. If you already have a pricing dimension solution, then you can make your changes in that solution. If you have not created a new Pricing Dimension solution for your Organization, follow all of the instructions in [Create custom fields and entities](create-custom-fields-entities.md)
-
-**2. Add Transaction Category to forms and views**
-
-The next step is to make Transaction Category visible on the UI in Pricing dimension solution. For this, you will need to walkthrough all the forms and views of the key Project Service entities and add these fields to the forms and views of those entities.
-Below is the comprehensive list of the out-of-the box forms and views by entity that will need to be updated with the new fields. -If you have any additional views or forms in your customizations on these entities, please add the new fields to those as well.
-
-| Project Service Entity        | Forms that need the new field   |Views that nee the new field      |
+|  Entity        | Forms     |Views        |
 | ------------------------------|---------------------------------|----------------------------------|
-|1. Role Price|• Information |• Active Resource Category Prices<br> • Resource Category Price Associated View|
-|2. Role Price Markup|• Information|• Active Role Price Markup<br>• Role Price Markup Associated View|
-|3. Quote line detail|• Project Information<br>• Project Quick Create|• Active Quote Line Detail<br>• Combined Quote Line Details<br>• Quote Line Detail associated view|
-|4. Project Contract line detail|• Project Information<br>• Project Quick Create|• Combined Invoice line Details<br>• Active Invoice Line Details<br>• Invoice Line Detail associated view|
-|5. Project Team Member|• Information<br>• New Form|• Active Project Team Members<br>• Project Team Members<br>• Project Team members associated View|
-|6. Time Entry|• Information<br>• Create Time Entry|• My Time Entries By Date<br>• My time Entries for this week<br>• Time entries for approval|
-|7. Journal Line|• Information<br>• Quick create|• Active journal lines<br>• Journal Line associated view|
-|8. Invoice Line Detail|• Information<br>• Quick create|• Active Invoice Line Details<br>• Chargeable Invoice Transactions<br>• Complimentary Invoice Transactions<br>• Invoice Line Detail associated view<br>• Non-Chargeable Invoice Transactions|
-|9. Actual|• Information<br>• Active Actuals|• Actual Associated view|
+|  Role Price|• Information |• Active Resource Category Prices<br> • Resource Category Price Associated View|
+|  Role Price Markup|• Information|• Active Role Price Markup<br>• Role Price Markup Associated View|
+|  Quote line detail|• Project Information<br>• Project Quick Create|• Active Quote Line Detail<br>• Combined Quote Line Details<br>• Quote Line Detail associated view|
+|  Project Contract line detail|• Project Information<br>• Project Quick Create|• Combined Invoice line Details<br>• Active Invoice Line Details<br>• Invoice Line Detail associated view|
+|  Project Team Member|• Information<br>• New Form|• Active Project Team Members<br>• Project Team Members<br>• Project Team members associated View|
+|  Time Entry|• Information<br>• Create Time Entry|• My Time Entries By Date<br>• My time Entries for this week<br>• Time entries for approval|
+|  Journal Line|• Information<br>• Quick create|• Active journal lines<br>• Journal Line associated view|
+|  Invoice Line Detail|• Information<br>• Quick create|• Active Invoice Line Details<br>• Chargeable Invoice Transactions<br>• Complimentary Invoice Transactions<br>• Invoice Line Detail associated view<br>• Non-Chargeable Invoice Transactions|
+|  Actual|• Information<br>• Active Actuals|• Actual Associated view|
 
-**3. Set up transaction category as a pricing dimension**
+## Set up transaction category as a pricing dimension
 
-Navigate to Project Service->Settings->Parameters and open the Parameter page. Then open the tab “Amount-Based Pricing Dimensions.” The grid on the tab shows the records in the Pricing Dimensions entity in Project Service. Add Transaction Category to this list of Pricing Dimensions with applicable to cost and applicable to sale set to “Yes”. Dimension Type should be “amount-based”. Decide the priority for Transaction Category in the cost and sales context.
+1. In the web interface, go to **Project Service** > **Settings** > **Parameters**. 
+2. On the **Parameters** page, on the **Amount-Based Pricing Dimensions** tab, note the grid on the tab shows the records in the **Pricing Dimensions** entity.
+3. Add **Transaction Category** to this list and set the **Applicable to Cost** and **Applicable to Sale** fields set to **Yes**.
+4. In the **Dimension Type** field, select **Amount-based** and the select the priority for **Transaction Category** related to cost and sales.
