@@ -24,7 +24,7 @@ search.app:
 
 # Use the schedule board to configure service activity
 
-Schedule board in Service Scheduling lets you view resource availability before you book them for service activities. Set up views and filters as per your preference and book service activities for each of your resources.
+Schedule board in service scheduling lets you view resource availability before you book them for service activities. Set up views and filters as per your preference and book service activities for each of your resources.
 
 In the schedule board, you can do the following tasks and activities:  
   
@@ -52,14 +52,15 @@ Here’s what you’ll see when you open the schedule board:
 |Label  |Field  |Description  |
 |---------|---------|---------|
 |1    |    View list of resources     |  A list of resources is displayed on the left side of the calendar in alphabetical order. To view the resources, and service activities for anyone in your organization, in the **Type** list, select **Resource**, and then in the **View** list select the resource view.  </br> </br>  To find a specific resource, enter the first few letters of the name in the **Search** box.       |
-|2    |   Initial public view      |    Add more schedule board tabs in the Initial public view section. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create additional tabs](../field-service/configure-schedule-board.md#create-additional-tabs) </br></br> To edit an existing schedule board view or to modify tab settings, double-click the view name or select the settings icon.       |
-|3    |  Scheduler settings       |   **Scheduler settings** help you synchronize dates and content with a location. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Scheduler settings](../field-service/configure-schedule-board.md#scheduler-settings)     |
+|2    |   Initial public view      |    Add more schedule board tabs in the Initial public view section. </br></br> To edit an existing schedule board view or to modify tab settings, double-click the view name or select the settings icon.       |
+|3    |  Scheduler settings       |   **Scheduler settings** help you synchronize dates and content with a location.    |
 |4  |     Details    |     View additional details of the booking in the **Details** tab.    |
-|5     | Create Resource Booking     |   Select requirements and create a resource booking in the **Create Resource Booking** tab. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a booking for a service activity](#schedule-a-booking-for-a-service-activity)     |
-|6     |     Filter & Map view    |   Filter information by **Characteristics - Rating, Roles**, **Territories**, **Organizational Units**, **Resource Types**, **Teams**, and **Business Units** to narrow or expand the schedule board view, using the **Filter** tab. </br> </br> Map view shows the location of resources, organizational units, bookings, and requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure the filter and map view](../field-service/configure-schedule-board.md#configure-the-filter-and-map-view)       |
-|7     |   Service Activities view      |    To view the details of any resource, or service activity, select the record in the list to the left of the calendar, and then at the bottom of the calendar, under the **Zoom** scale, select the **Expand** button to expand the preview pane. You can also double-click a record to open it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Booking Requirements](../field-service/configure-schedule-board.md#configure-booking-requirements)       |
+|5     | Create Resource Booking     |   Select requirements and create a resource booking in the **Create Resource Booking** tab.     |
+|6     |     Filter & Map view    |   Filter information by **Characteristics - Rating, Roles**, **Territories**, **Organizational Units**, **Resource Types**, **Teams**, and **Business Units** to narrow or expand the schedule board view, using the **Filter** tab. </br> </br> Map view shows the location of resources, organizational units, bookings, and requirements.       |
+|7     |   Service Activities view      |    To view the details of any resource, or service activity, select the record in the list to the left of the calendar, and then at the bottom of the calendar, under the **Zoom** scale, select the **Expand** button to expand the preview pane. You can also double-click a record to open it.  |
 | |         |         |
 
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure the schedule board for resource availability](../field-service/configure-schedule-board.md)
 
 ## Schedule a booking for a service activity
 
@@ -84,6 +85,8 @@ You can select unscheduled service activities and schedule a booking using the *
    - Select the start and end date and time using the calendars in **Start Date** and **End Date**.
    - Select **Booking Status** from the drop-down list.
    - Select **Book & Exit** to create a resource booking and exit the tab.
+
+   ![booking-from schedule-board](media/sb-booking.png)
 
 ### See also
 
