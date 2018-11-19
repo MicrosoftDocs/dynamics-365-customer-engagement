@@ -25,7 +25,7 @@ search.app:
 
 # App making and customization overview
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 The way your organization works is unique. Some organizations have well-defined business processes that they apply using an app. Others aren’t happy with their current business processes and use a custom app or [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to apply new data and processes to their business. Whatever situation you find yourself in, you’ll find a lot of app design and customization capabilities in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] so that it can work for your organization.  
   
