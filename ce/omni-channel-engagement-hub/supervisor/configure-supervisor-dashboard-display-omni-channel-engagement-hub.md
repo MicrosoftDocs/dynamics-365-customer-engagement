@@ -16,7 +16,7 @@ ms.custom:
 
 The following diagram explains how to configure supervisor dashboard to display in Omni-channel Engagement Hub.
 
-![steps to configure supervisor dashboard](media/oc-usd-supervisor-dashboard-configuration.png "Steps to configure supervisor dashboard")  
+![steps to configure supervisor dashboard](../media/oc-usd-supervisor-dashboard-configuration.png "Steps to configure supervisor dashboard")  
 
 ### Step 1: Prerequisites 
 
@@ -121,19 +121,19 @@ To provision your supervisor reports, follow these steps: 
 
 1.  Log in to **Dynamics 365** and open **Omni Channel Engagement Hub** app. 
 
-![open omni channel engagement hub](media/oc-usd-supervisor-dashboard-configuration-open-oceh.png "Open omni channel engagement hub")
+![open omni channel engagement hub](../media/oc-usd-supervisor-dashboard-configuration-open-oceh.png "Open omni channel engagement hub")
 
-1.  Select **Site Map** ![site map icon](media/oc-usd-supervisor-dashboard-site-map.png "Site map icon"), and then select **Supervisor experience**, **Overview dashboard**.    
+1.  Select **Site Map** ![site map icon](../media/oc-usd-supervisor-dashboard-site-map.png "Site map icon"), and then select **Supervisor experience**, **Overview dashboard**.    
 
 The analytics view opens.
 
-![active analytics view to coinfigure power bi](media/oc-usd-supervisor-dashboard-active-analytics-view.png "Active analytics view to coinfigure power BI")
+![active analytics view to coinfigure power bi](../media/oc-usd-supervisor-dashboard-active-analytics-view.png "Active analytics view to coinfigure power BI")
 
 1.  Select **+ New**. 
 
 The **Power BI Analytics Configuration** page opens.
 
-![coinfigure power bi values](media/oc-usd-supervisor-dashboard-configure-powerbi-values.png "Coinfigure power BI values")
+![coinfigure power bi values](../media/oc-usd-supervisor-dashboard-configure-powerbi-values.png "Coinfigure power BI values")
 
 1.  Enter the following information: 
 
@@ -201,7 +201,7 @@ Now, reports are created.
 
 The following page is an example of how a dashboard displays when you pin tiles: 
 
-![live work monitoring for supervisor](media/oc-usd-supervisor-overview-live-monitoring.png "Live work monitoring for supervisor")  
+![live work monitoring for supervisor](../media/oc-usd-supervisor-overview-live-monitoring.png "Live work monitoring for supervisor")  
 
 1.  Select **Set as featured** for the created dashboard.
 

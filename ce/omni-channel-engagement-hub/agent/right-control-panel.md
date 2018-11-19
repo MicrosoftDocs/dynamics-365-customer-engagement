@@ -20,7 +20,7 @@ The right control panel consists of Agent Scripts, Notes, and Knowledge manageme
 
 Call scripting in Omni-channel right reference panel provides guidance about what you should say on calls or what you should type on chat conversations.
 
-![omni-channel call script](media/oc-usd-call-script.png "Omni-channel call script")  
+![omni-channel call script](../media/oc-usd-call-script.png "Omni-channel call script")  
 
 ### KB articles control
 
@@ -30,5 +30,5 @@ Omni-channel Engagement Hub enables you to use the rich knowledge base in Dynami
 
 You can search for the KB articles, open the articles as a tab in the Application tab management toolbar. Also, you can share the link of the KB article to the customer with whom you are engaging using the Send Link option. When you select the Send Link option, the link is pasted in the chat window (conversation control).
 
-![omni-channel kb articles](media/oc-usd-kbartciles.png "Omni-channel KB articles")  
+![omni-channel kb articles](../media/oc-usd-kbartciles.png "Omni-channel KB articles")  
 

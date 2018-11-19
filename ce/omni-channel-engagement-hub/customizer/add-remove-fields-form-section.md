@@ -28,7 +28,7 @@ You add or remove the fields from the form (card) by navigating to the respectiv
 
 5.  In the form, click the section you want to add a field to, and then in the **Field Explorer** pane, double-click the field you want add to the form. For example, double-click the **Address 1: Address Type** field from the **Field Explorer** pane. The field is added to section.
 
- ![add or revmoe fields from customer 360 form](media/oc-crm-add-remove-fields-customer360.png "Add or revmoe fields from customer 360 form")  
+ ![add or revmoe fields from customer 360 form](../media/oc-crm-add-remove-fields-customer360.png "Add or revmoe fields from customer 360 form")  
 
 6.  Select **Save** and select **Publish**.
 
