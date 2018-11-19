@@ -1,5 +1,5 @@
 ---
-title: Turn off a default or custom pricing dimension
+title: Turn off a pricing dimension
 description: Introduction to setup of pricing dimensions in project service solution 
 author: Rumant
 manager: eichimur
@@ -20,7 +20,7 @@ search.app:
 ---
 
 
-# Turn off a default or a custom pricing dimension
+# Turn off a pricing dimension
 
 You may need to revisit your pricing strategy every few years and that may necessitate turning off an exisitng pricing dimension and creating a new one. For eg: May be that you priced by role but after a few years, you may decide to price by Work Experience level and not Role. This may require you to turn off Role as a pricing dimension and create "Work Expereince" as a pricing dimension. 
 
