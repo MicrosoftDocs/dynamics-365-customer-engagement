@@ -5,7 +5,7 @@ author: Rumant
 manager: eichimur
 ms.custom:
   - dyn365-projectservice
-ms.date: 11/06/2018
+ms.date: 11/19/2018
 ms.topic: article
 ms.prod: Project Service
 ms.service: business-applications
@@ -19,24 +19,23 @@ search.app:
     - D365PS
 ---
 
-# Steps 1-4: Create custom fields and entities in the Power Apps platform 
+# Create custom fields and entities 
 
-We will first start with some common steps that you will need to take any time you want to a custom Option set or a custom entity on the Power Apps platform.  
+Complete the following steps any time you want to create a custom option set or entity on the PowerApps platform.  
+The procedures in this topic should be completed using the web interface of Project Service Automation (PSA).
 
-**_Important: It is highly recommended that you make all the changes for custom pricing dimensions in a separate solution as shown here. This is an important best practice guideline that can give you a lot of flexibility in removing these changes in the future if you need to and will also help with re-use of your work and make it easy to port these changes to another instance. Once you have made all the required changes, export this solution as a Managed solution and import it into other instances to reuse your pricing setup._**
+> [!IMPORTANT]
+> We recommend that you make all custom pricing dimension changes in a separate solution. This important best practice guideline provides flexibility in the future to update or remove changes as needed, will help with re-use of your work, and makes it easier to port these changes to another instance. After you have made all of the required changes, export this solution as a **Managed solution** and import it into other instances to reuse your pricing setup.
 
 
-## Step 1. Create a solution for pricing dimension changes
+## Create a custom solution for pricing dimensions
+1. In PSA, click **Settings** > **Solutions**, and then click **New** to create a new solution. 
+2. Name the solution, **\<your organization name> pricing dimensions**, enter the remaining required information, and then click **Save**.
 
-Using the web interface, create a new solution from the Solutions page: Settings->Solutions. Enter all the required fields and save the solution. You can name the solution “<your organization name> Pricing Dimensions.”
-
-*Creating a custom solution for pricing dimensions*
-> ![Creating a custom pricing dimensions solution](media/Creation-of-custom-pricing-dimension-solution.png)
+> ![Creating a custom solution for pricing dimensions](media/Creation-of-custom-pricing-dimension-solution.png)
   
-  
-## Step 2. Create custom fields and option sets in the pricing dimension solution
-
-Your pricing dimension may be an option set or an entity. In either case, create them in your pricing solution. Let’s work with an example for this flow. In this walkthrough, we will create 3 pricing dimensions for a fictious company called Contoso:
+## Create custom fields and option sets in the pricing dimension solution
+A pricing dimension can be an option set or an entity. Both must be created in your pricing solution. The steps in this procedure explain how to create Let’s work with an example for this flow. In this walkthrough, we will create 3 pricing dimensions for a fictious company called Contoso:
 
 a. Entity-based dimension called “Standard Title” that has all the standard titles that Contoso uses.
 
@@ -57,13 +56,13 @@ c. Option-set based dimension called “Resource Work hours” with values “Re
 > ![Option set based pricing dimension called Resource Work Hours ](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 
-## Step 3. Create data for your entity-based dimensions:
+## Create data for your entity-based dimensions:
 This can be done manually or by using Excel import or service calls. For this walkthrough, we have used “Standard Title” as an entity-based dimension. Let’s create 2 standard titles: Systems Engineer and Senior Systems Engineer. If the data to create is small as in the example, you can use a standard form.
 
 *Sample Data for Standard Title entity*
 > ![Sample Data for Standard Title entity ](media/ST-data.png)
 
-## Step 4. Add all the required PSA entities and related components to the Pricing Dimension Solution
+## Add all the required PSA entities and related components to the Pricing Dimension Solution
 As a next step, you will need to add the following entities in the Project Service to your pricing solution. This step will allow us to make some important schema changes in the pricing solution so that these entities become aware of our new pricing dimensions.
 
 **List of entities to add**
