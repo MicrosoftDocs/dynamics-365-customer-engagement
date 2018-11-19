@@ -47,11 +47,8 @@ Steps:
 
 6.  Schedule the work order to the bookable resource
 
-7.  Download the Field Service Mobile (2017) mobile app
+7.  Sign into the mobile application as a technician
 
-8.  Sign into the mobile application as a technician
-
-9. View the work order on the mobile application
 
 ## Prerequisites
 
