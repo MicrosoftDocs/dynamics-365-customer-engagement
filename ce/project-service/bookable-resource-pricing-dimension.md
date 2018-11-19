@@ -23,7 +23,7 @@ search.app:
 Before you begin, if you have not already created a pricing dimension solution, you will need to create a new one. If you already have a pricing dimension solution, then you can make your changes in that solution. If you have not created a new Pricing Dimension solution for your Organization, complete the procedures in the topic, [Create custom fields and entities](create-custom-fields-entities.md)
 
 ## Add a bookable resource to forms and views
-To make the fields visible on the UI in the Pricing dimension solution, you will need to walkthrough all of the forms and views of the key Project Service entities and add these fields to the forms and views of those entities.
+To make the fields visible on the UI in the Pricing dimension solution, you will need to walk through all of the forms and views of the key Project Service entities and add these fields to the forms and views of those entities.
 The following table is a comprehensive list of the out-of-the box forms and views listed by entity that will need to be updated. If there are any additional views or forms in your customizations on these entities, add the new fields to those as well.
 Open Solution Explorer for the pricing dimension solution and then click **Publish All Customizations**.
 
@@ -42,7 +42,7 @@ Open Solution Explorer for the pricing dimension solution and then click **Publi
 
 ## Set up a bookable resource as a pricing dimension
 
-1. In the web application, go to **Project Service** > **Settings** > **Parameters**. On the **Parameter** page, on the **Amount-Based Pricing Dimensions** tab, notice that the grid on the tab shows the records in the pricing dimensions entity. 
+1. In the web interface, go to **Project Service** > **Settings** > **Parameters**. On the **Parameter** page, on the **Amount-Based Pricing Dimensions** tab, notice that the grid on the tab shows the records in the pricing dimensions entity. 
 2. Add **Bookable Resource** to this list of pricing dimensions as **msydyn_bookableresource**. 
 3. Indicate the context in which bookable resource works as a pricing dimension and set the **Applicable to cost** and **Applicable to sales** values.
 4. In the **Dimension Type** field, select **Amount-based**. 
