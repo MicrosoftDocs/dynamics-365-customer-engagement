@@ -18,7 +18,7 @@ The left control panel is a communication or conversation control panel. The con
 
 Using the chat conversation channel, you can send Quick responses and KB Articles to the customer with whom you are interacting.
 
-![omni-channel chat panel](../media/oc-usd-chat-control-left-panel "Omni-channel chat panel")  
+![omni-channel chat panel](../media/oc-usd-chat-control-left-panel.png "Omni-channel chat panel")  
 
 ### Reply message as Internal and Public
 
