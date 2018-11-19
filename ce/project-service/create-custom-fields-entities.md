@@ -1,5 +1,5 @@
 ---
-title: Common steps for creating option sets and entities on the Power Apps Platform | MicrosoftDocs
+title: Create custom fields and entities 
 description: Thus page explains how to create option sets and entities in your own solution in the Power Apps platform  
 author: Rumant
 manager: eichimur
