@@ -1,5 +1,5 @@
 ---
-title: Setup pricing dimensions in Project Service (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Set up custom fields as pricing dimensions 
 description: Introduction to setup of pricing dimensions in project service solution 
 author: Rumant
 manager: eichimur
@@ -19,7 +19,7 @@ search.app:
     - D365PS
 ---
 
-# Step 8: Set up custom fields as pricing dimensions 
+# Set up custom fields as pricing dimensions 
 
 Navigate to Project Service->Settings->Parameters and open the Parameter page. Then open the tab “Amount-Based Pricing Dimensions.” The grid on the tab show the records in the Pricing Dimensions entity in Project Service.
 
