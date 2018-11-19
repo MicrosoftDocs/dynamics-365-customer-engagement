@@ -1,5 +1,5 @@
 ---
-title: Bookable Resource as a Pricing Dimension (Dynamics 365 for Project Service) | MicrosoftDocs
+title: Use a bookable resource as a pricing dimension
 description: Setup required for using Bookable Resource as a pricing dimension in project service solution 
 author: Rumant
 manager: eichimur
@@ -19,7 +19,7 @@ search.app:
     - D365PS
 ---
 
-# Using Bookable Resource as a Pricing Dimension
+# Use a bookable resource as a pricing dimension
 
 ## Step 1. Create a pricing dimension solution
 As a first step, we will need to create a Solution for the Pricing dimensions. If you already have a pricing dimension solution, then you can make your changes in that solution. If you have not created a new Pricing Dimension solution for your Organization, follow all of the instructions in [Steps 1-4: Create custom fields and entities in the Power Apps platform](PD-Common-steps.md)
