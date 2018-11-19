@@ -24,7 +24,7 @@ search.app:
 ---
 # Categorize and display reports in different languages
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 You can enable additional languages in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] by enabling Language Packs. This lets you display text in the user interface, Help, and reports in different languages. For more information about how to enable Language Packs, see [Enable Languages](https://technet.microsoft.com/library/dn832148.aspx).  
   
