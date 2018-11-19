@@ -26,7 +26,7 @@ search.app:
 
 # Create and edit public or system views by using the app designer
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 In Dynamics 365 for Customer Engagement, views define how records for a specific entity are  displayed. A view defines the following:
 -  The columns (attributes) to display

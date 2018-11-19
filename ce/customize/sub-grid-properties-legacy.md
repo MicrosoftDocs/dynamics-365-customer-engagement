@@ -20,7 +20,7 @@ search.app:
 ---
 # Sub-Grid properties overview
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 You can configure a sub-grid on a form to display a list of records or a chart. Select **Show Chart Only** on the **Display** tab to show a chart instead of a list.  
 

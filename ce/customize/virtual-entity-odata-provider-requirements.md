@@ -25,7 +25,7 @@ search.app:
 
 # OData v4 Data Provider configuration, requirements, and best practices
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 This topic describes how to configure the OData v4 data provider as well as the requirements and recommended best practices for using the OData v4 data provider to connect with an OData v4 web service. 
 
