@@ -57,12 +57,13 @@ For bookable resource, the **Project Team Members** entity has a slightly differ
 
  ![Pricing dimension field names tab](media/PD-fieldname.png)
 
-4. On the associated view that opens, click **Add New Pricing Dimension Field Names**.
+4. On the associated view that opens, click **Add New Pricing Dimension Field Name**.
 
  ![Add New Pricing Dimension Field Names](media/Add-NewPD-fieldname.png)
 
 
 This opens the **New Pricing dimension field name** page for **msdyn_bookableresource**. 
+
 5. Add the **msdyn_projectteam** to the **Entity Locigal Name** field and **msdyn_bookableresourceid** to the **Field Name** field. Save the record.
 
  ![New Pricing dimension field name form](media/PD-fieldname-Added.png)
