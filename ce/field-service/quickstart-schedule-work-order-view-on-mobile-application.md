@@ -2,7 +2,7 @@
 title: "Quickstart: Schedule a work order and view it on the mobile application - Dynamics 365 for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/02/2018
+ms.date: 11/21/2018
 ms.reviewer: "krbjoran"
 ms.service: dynamics-365-customerservice
 ms.suite: ""
