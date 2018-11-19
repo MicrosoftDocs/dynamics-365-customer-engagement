@@ -9,7 +9,7 @@
 ## [Use an existing field in Project Service as a pricing dimension](use-existing-field.md)
 ### [Use a bookable resource as a pricing dimension](bookable-resource-pricing-dimension.md)
 ### [Use a transaction category as a pricing dimension](transaction-category-pricing-dimension.md)
-## [Turn off a default or custom pricing dimension](turn-off-pricing-dimension.md)
+## [Turn off a pricing dimension](turn-off-pricing-dimension.md)
 
 # Plan your implementation (app version 3.x)
 ## [Sample data installation](install-sample-data-3-x.md)
