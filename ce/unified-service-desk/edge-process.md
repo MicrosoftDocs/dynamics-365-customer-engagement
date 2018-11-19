@@ -43,7 +43,15 @@ The advantages of Edge process are as follows:
 
 ## Enable Edge process
 
-You can enable Edge process for individual client desktops and/or for entire organizations.
+Enable the edge process using any of the following ways:
+
+- Enable for individual client desktops
+- Enable for entire organization
+
+> [!NOTE]
+> Use any one of the methods to enable edge process.
+
+
 
 ### Enable Edge for Unified Service Desk on client desktop
 
@@ -77,7 +85,7 @@ Add a new Global UI option for your organization named GlobalBrowserMode with va
 
 ## Create hosted control with hosting type as Edge
 
-You can select Edge Process as the **Hosting Type** while creating a hosted control.
+When you are creating new hosted control, you can select **Edge Process** as the **Hosting Type**.
 
 1. Sign in to Dynamics 365.
 
