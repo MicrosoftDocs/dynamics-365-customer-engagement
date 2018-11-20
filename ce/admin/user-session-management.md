@@ -1,7 +1,7 @@
 ---
 title: "Security enhancements: User session and access management with Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 08/08/2018
+ms.date: 10/19/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -23,7 +23,7 @@ search.app:
 ---
 # Security enhancements: User session and access management 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 New for Customer Engagement in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], you can use new security enhancements to better secure the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] application. 
 
@@ -56,7 +56,7 @@ You can change this behavior.
 > 3. [!INCLUDE [pn-unified-service-desk](../includes/pn-unified-service-desk.md)] client using [WPF](https://docs.microsoft.com/dotnet/framework/wpf/) browser (Internet Explorer is supported)
 > 4. Live Assist (Chat)
 
-## Configure session timeout
+## Configure session timeout 
 
 1. In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], choose **Settings** > **Administration** > **System Settings** > **General** tab.
 2. Under **Set session timeout**, set the values to apply to all your users.
@@ -101,7 +101,6 @@ The [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] portal has its own s
 - To enforce users to re-authenticate, users are required to sign in with their credentials after they signed out within the application. 
 - To prevent users from sharing credentials to access [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], the user access token is validated to ensure that the user who was given access by the identity provider is the same user who is accessing [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].
 
-<!--
 ## Steps for enabling security enhancements for Dynamics 365 (on-premises) deployments
 
 These security enhancements are shipped disabled by default.  Administrators can enable these enhancements when using one of the supported Dynamics 365 (on-premises) builds listed below.
@@ -117,8 +116,8 @@ These security enhancements are shipped disabled by default.  Administrators can
 > 
 > **Requirement**
 > These security enhancement features require claims-based authentication for user authentication. You can configure claims-based authentication in one of two ways:
-> - With an Internet-facing deployment (IFD). See [Configure IFD for Microsoft Dynamics 365](https://technet.microsoft.com/library/dn609803.aspx).
-> - With claims-based authentication alone if Microsoft Dynamics 365 is deployed in the same domain where all Microsoft Dynamics 365 users are located, or users are in a trusted domain. See [Configure claims-based authentication](https://technet.microsoft.com/library/dn920270.aspx).
+> - With an Internet-facing deployment (IFD). See [Configure IFD for Microsoft Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn609803(v=crm.8)).
+> - With claims-based authentication alone if Microsoft Dynamics 365 is deployed in the same domain where all Microsoft Dynamics 365 users are located, or users are in a trusted domain. See [Configure claims-based authentication](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn920270(v=crm.8)).
 
 To obtain SDK sample code (for reference, not required to configure and enable session timeout):
 
@@ -130,6 +129,7 @@ To obtain SDK sample code (for reference, not required to configure and enable s
 6. Open the SampleCode\PS folder.
 
 After updating to a supported on-premises version, follow the steps below to enable security enhancements.
+
 
 ### User session timeout
 
@@ -153,32 +153,35 @@ To better protect user access and data privacy in Dynamics 365, when a user sign
 
 **Enable access token management**
 
-  To enable for all organizations by default, copy and run this command in PowerShell:
+To enable for all organizations by default, copy and run this command in PowerShell:
 
-    ```
-    SetAdvancedSettings.ps1 -ConfigurationEntityName ServerSettings -SettingName WSFedNonceCookieEnabled -SettingValue true
-    ```  
+```    
+SetAdvancedSettings.ps1 -ConfigurationEntityName ServerSettings -SettingName WSFedNonceCookieEnabled -SettingValue true
+```
 
-    Sample:
+Sample:
 
-    ![SetAdvancedSettings.ps1](../media/ps_setadvancedsettings.png)
+![SetAdvancedSettings.ps1](media/ps_setadvancedsettings.png)
 
-  -OR-
+-OR- 
 
-  To enable for a single organization, copy and run this command in PowerShell:
+To enable for a single organization, copy and run this command in PowerShell:
 
-     SetAdvancedSettings.ps1 -ConfigurationEntityName Organization -SettingName WSFedNonceCookieEnabled -SettingValue true -Id <Your organization ID GUID>
+```
+SetAdvancedSettings.ps1 -ConfigurationEntityName Organization -SettingName WSFedNonceCookieEnabled -SettingValue true -Id <Your organization ID GUID>
+```
+To get [Your organization ID GUID], open PowerShell, and run the following:
 
-      To get <Your organization ID GUID>, open PowerShell, and run the following:
-
-        ```
-        Add-PSSnapin Microsoft.Crm.PowerShell 
-        Get-CrmOrganization
-        ```  
+```
+Add-PSSnapin Microsoft.Crm.PowerShell 
+Get-CrmOrganization
+```
         
-        Sample:
+Sample:
 
-        ![Example Organization ID](../media/ps_orgid.png)
+![Example Organization ID](media/ps_orgid.png)
 
-      For more information, see [Get-CrmOrganization](https://technet.microsoft.com/library/dn833066.aspx) for details.
--->
+For more information, see [Get-CrmOrganization](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn833066(v=crm.8)) for details.
+
+
+

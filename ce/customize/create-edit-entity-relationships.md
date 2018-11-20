@@ -1,7 +1,7 @@
 ---
 title: "Create and edit entity relationships | MicrosoftDocs"
 ms.custom: ""
-ms.date: 03/21/2018
+ms.date: 11/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,11 +10,10 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "PowerApps"
 ms.assetid: c765b6d9-4d87-4c2d-aae2-5b1c3b664a71
 caps.latest.revision: 28
 ms.author: "matp"
-manager: "brycho"
+manager: "kvivek"
 search.audienceType: 
   - customizer
 search.app: 
@@ -56,8 +55,8 @@ Entity relationships define how records can be related to each other in the data
  The **N:1 (many-to-one)** relationship type exists in the solution explorer user interface because the solution explorer shows you a view grouped by entities. 1:N relationships actually exist between entities and refer to each entity as either a **Primary Entity** or **Related Entity**. The related entity, sometimes called the child entity, has a lookup field that allows storing a reference to a record from the primary entity, sometimes called the parent entity. A N:1 relationship is just a 1:N relationship viewed from the related entity.  
  
 ### See also  
- [Entities and metadata overview](../customize/create-edit-metadata.md)   
- [Create and edit entities](../customize/create-edit-entities.md)   
- [Create and edit fields](../customize/create-edit-fields.md)   
+ [Entities and metadata overview](../customize/create-edit-metadata.md)  <br/> 
+ [Create and edit entities](../customize/create-edit-entities.md)   <br/>
+ [Create and edit fields](../customize/create-edit-fields.md)   <br/>
  [Create and edit global option sets](../customize/create-edit-global-option-sets.md)   
 

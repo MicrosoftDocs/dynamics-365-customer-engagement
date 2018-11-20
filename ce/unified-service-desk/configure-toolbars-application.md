@@ -29,7 +29,8 @@ search.app:
 # Configure toolbars in your application
 You can configure toolbars in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to create or manage buttons in an existing toolbar, or create new toolbars altogether. For an overview of toolbars, see [Toolbars in Unified Service Desk](../unified-service-desk/toolbars-unified-service-desk.md).  
   
-<a name="Create"></a>   
+<a name="Create"></a>  
+
 ## Create a toolbar  
  Before creating a toolbar, ensure that there is a toolbar container hosted control already configured. For more information, see [Toolbar Container (Hosted Control)](../unified-service-desk/toolbar-container-hosted-control.md).  
   
@@ -81,7 +82,8 @@ You can configure toolbars in [!INCLUDE[pn_unified_service_desk](../includes/pn-
 
 16. Click **Save**. 
   
-<a name="EditToolbar"></a>   
+<a name="EditToolbar"></a> 
+
 ## Add/remove button from existing toolbar  
   
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
@@ -96,11 +98,12 @@ You can configure toolbars in [!INCLUDE[pn_unified_service_desk](../includes/pn-
   
    1.  Add more buttons using the **Buttons** area. For more information, see steps 6-10 as in the previous section.  
   
-   2.  Modify an existing button by clicking the button name under the **Buttons**, This opens the button definition page where you can change information about the button, such as bname, button text (lable), order, and action call.  
+   2.  Modify an existing button by clicking the button name under the **Buttons**, This opens the button definition page where you can change information about the button, such as bname, button text (label), order, and action call.  
   
    3.  Click **Save** to save the changes.
 
-<a name="StylesToolbar"></a>   
+<a name="StylesToolbar"></a>  
+ 
 ## Styles in toolbar
 
 You can now customize the toolbar in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the custom styles field in the Toolbar configuration window.  The Custom Styles field supports Extensible Application Markup Language (XAML) that defines <xref:System.Windows.ResourceDictionary> of <xref:System.Windows.Style> and <xref:System.Windows.Media.Brush> resources.

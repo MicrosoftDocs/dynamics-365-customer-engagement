@@ -27,10 +27,7 @@ search.app:
 The Customer Service Hub’s intuitive interface brings together vital information in one place, so you can focus on the things that matter.  
 
 ## Customer Service Hub application requirements  
- Here’s a list of operating systems and browsers that are supported by the Customer Service Hub:  
-  
-- **Desktop operating system**  
-    - Windows 10 (for knowledge management on Unified Interface)
+ Here’s a list of browsers and mobile versions that are supported by the Customer Service Hub:  
   
 - **Browsers** 
     - Google Chrome

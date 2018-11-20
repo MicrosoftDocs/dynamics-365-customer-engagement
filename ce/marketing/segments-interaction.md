@@ -3,19 +3,18 @@ title: "Create segments based on interactions (Dynamics 365 for Marketing) | Mic
 description: "How to create segments based on contact interaction records in Dynamics 365 for Marketing"
 keywords: "segments; interaction segment"
 ms.date: 09/17/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 332e95b3-82fa-4fdd-834c-3fda05caa3bd
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -27,6 +26,8 @@ search.app:
 ---
 
 # Design interaction-based dynamic segments
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 The segmentation tool always works in one of two modes, which enable it to create either of the following two types of segments:
 

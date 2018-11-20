@@ -2,20 +2,19 @@
 title: "Set up an event portal (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Set up a Dynamics 365 for Marketing event portal, where people can read about your event and its speakers, create an account, register for the event, purchase passes, view their session schedule, and more."
 keywords: "event;portals;event portal"
-ms.date: 10/10/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.date: 04/01/2018
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: b83e8cb2-38a4-462f-87bc-0fc52357f01e
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -85,10 +84,11 @@ To find the URL for your sample event portal and open it:
 
 ## Customize the event portal and host it anywhere
 
-If you are comfortable developing web applications using the [Angular](https://angular.io/) framework, then a good way to customize the sample event portal for production is to download it as an Angular project, customize it in your preferred development environment, and then publish it either on your own website, or as a new site on your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal. For details, see [Build and host a custom event portal](/developer/event-management-web-application.md).
+If you are comfortable developing web applications using the [Angular](https://angular.io/) framework, then a good way to customize the sample event portal for production is to download it as an Angular project, customize it in your preferred development environment, and then publish it either on your own website, or as a new site on your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portal. For details, see [Build and host a custom event portal](developer/event-management-web-application.md).
 
 ### See also
 
-[Engage customers online with portals](portals.md)
+[Set up online payment for events](event-payment-gateway.md)  
+[Engage customers online with portals](portals.md)  
 [Set up an event](set-up-event.md)  
-[Go live with publishable entities and track their status](go-live.md) 
+[Go live with publishable entities and track their status](go-live.md)

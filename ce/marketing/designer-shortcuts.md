@@ -2,21 +2,20 @@
 title: "Accessibility features and keyboard shortcuts (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Provides an overview of accessibility features and keyboard shortcuts in Dynamics 365 for Marketing"
 keywords: "accessibility; keyboard shortcuts"
-ms.date: 04/01/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.date: 10/16/2018
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-marketing"
+  - dyn365-a11y
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: f0dec7ab-009f-432a-8618-53708615aa6a
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -38,16 +37,13 @@ search.app:
 - [Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities.md)
 - [Keyboard shortcuts in Dynamics 365 Customer Engagement applications](../basics/keyboard-shortcuts.md)
 
-
 ## Accessibility and keyboard shortcuts for content designers
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provides advanced digital-content designers for creating, styling, and previewing the various types of digital content that you can produce and manage with the system. This section lists keyboard shortcuts and accessibility features are available for working with the designers for marketing email messages, marketing pages, and marketing forms.
 
 ![The designer toolbar and content area](media/designer-tools-ill.png "The designer toolbar and content area")
 
-
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
-
 
 > [!IMPORTANT]
 > For keyboard shortcuts that include a number, you usually need to use the standard number keys, not the number pad.
@@ -73,9 +69,9 @@ search.app:
 - **Alt+Ctrl+3**: Open the tablet landscape preview.
 - **Alt+Ctrl+4**: Open the mobile portrait preview.
 - **Alt+Ctrl+5**: Open the mobile landscape preview.
-- **Alt+1**: Open the design editor.
-- **Alt+2**: Open the HTML editor.
-- **Alt+3**: Open the preview tab.
+- **Alt+1**: Open the **Designer** editor tab.
+- **Alt+2**: Open the **HTML** editor tab.
+- **Alt+3**: Open the **Preview** tab.
 - **Alt+11**: Toggle the full screen view of the design editor.
 
 ### Manipulate design elements
@@ -83,6 +79,8 @@ search.app:
 - **Alt+M**: Move the selected element.
 - **Alt+Shift+C**: Clone the selected element.
 - **Alt+Shift+D**: Delete the selected element.
+- **Alt+4**: Open the **Toolbox** panel.
+- **Alt+5**: Open the **Properties** panel.
 - **Alt+X**: Go back to the active element (for example, from the **Properties** panel).
 
 ### Working with text element content
@@ -229,4 +227,4 @@ To move quickly between the main areas of the customer journey and lead-scoring 
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
-[Score and manage leads](score-manage-leads.md)
+[Design lead-scoring models](score-manage-leads.md)

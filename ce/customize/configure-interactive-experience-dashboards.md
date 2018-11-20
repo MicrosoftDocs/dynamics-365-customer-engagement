@@ -1,12 +1,12 @@
 ---
-title: "Configure interactive experience dashboards in PowerApps | Microsoft Docs"
-description: "Know how to configure interactive experience dashboards in PowerApps"
+title: "Configure interactive experience dashboards in Dynamics 365 for Customer Engagement | Microsoft Docs"
+description: "Know how to configure interactive experience dashboards in Dynamics 365 for Customer Engagement"
 keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365; Interactive service hub
 author: Mattp123
 ms.author: matp
 manager: kvivek
 ms.custom: ""
-ms.date: 05/21/2018
+ms.date: 11/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,7 +15,6 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 ms.assetid: d1446a95-14bf-4b15-a905-72fce07f4c76
 search.audienceType: 
   - customizer
@@ -155,15 +154,15 @@ The following procedure provides the steps to enable the security roles for the 
   
 ### Configure a multi-stream interactive dashboard using the 4-column layout  
  
-1. Sign in to [PowerApps](https://web.powerapps.com).
+1. Sign in to Dynamics 365 for Customer Engagement.
 
-2. Select **Model-driven** (lower left).  
+2. Go to **Settings** > **Customizations** > **Customize the System**.  
   
-3. Select **Data** > **Entities** > select the entity you want. 
+3. Under **Components**, select **Dashboards**. 
 
-4. Select the **Dashboards** tab, and then on the toolbar select **Add dashboard**.  
+4. In the grid, select **New**, and then select Interactive experience dashboard in the drop-down list.  
   
-5. Choose the layout, either 2, 3, or 4 column width.  
+5. Choose the layout, either 2, 3, or 4 column width, and then select **Create**.  
   
 6. When the dashboard form opens, fill in the filtering information at the top of form, as shown here.  
   
@@ -211,14 +210,12 @@ The following procedure provides the steps to enable the security roles for the 
   
 #### Edit or delete individual streams of an existing dashboard  
   
-1. Sign in to [PowerApps](https://web.powerapps.com).   
+1. Go to **Settings** > **Customizations** > **Customize the System**.   
   
-2. Select **Model-driven** (lower left), **Data** > **Entities** > select the entity you want. Select the **Dashboards** tab.  
+2. Under **Components** select **Dashboards**.
   
-     -OR-  
-   
-   Open solution explorer, and then under **Components** select **Dashboards**.
-  
+    If you want to edit the stream of an entity dashboard, then under **Components**, expand **Entities** and select the entity you want. Select **Dashboards** under the entity, in the navigation pane.
+
 3. In the grid, select the interactive dashboard that you want to edit to open it.  
   
 4. Select the stream that you want to edit to select it, and then select **Edit Component**.  
@@ -232,17 +229,15 @@ The following procedure provides the steps to enable the security roles for the 
 ### Configure an entity-specific dashboard  
  An entity-specific dashboard is a multi-stream dashboard. Configuring this dashboard is similar to configuring a home page multi-stream dashboard, but you do it in the different place in the UI and there are other minor differences. For example, instead of selecting an entity, some fields in the entity-specific dashboard are preset to the entity for which you are creating the dashboard.  
   
-1. Sign in to [PowerApps](https://web.powerapps.com).
+1. Go to **Settings** > **Customizations** > **Customize the System**. 
 
-2. Select **Model-driven** (lower left).  
+2. Under **Components**, expand **Entities** and select the entity you want. Select **Dashboards** under the entity, in the navigation pane.  
   
-3. Select **Data** > **Entities** > select the entity you want. 
+3. In the grid, select **New**, and then select **Interactive experience dashboard** in the drop-down list. 
 
-4. Select the **Dashboards** tab, and then on the toolbar select **Add dashboard**.  
+4. Choose the layout, either 2, 3, or 4 column width.    
   
-5. Choose the layout, either 2, 3, or 4 column width.    
-  
-6. When the dashboard form opens, the **Filter Entity** is preset to the entity for which you are creating the dashboard. The **Entity View** drop-down list contains the available views for the entity. Select the view and fill in the rest of the required information on the page.  
+5. When the dashboard form opens, the **Filter Entity** is preset to the entity for which you are creating the dashboard. The **Entity View** drop-down list contains the available views for the entity. Select the view and fill in the rest of the required information on the page.  
   
    The rest of the setup is very similar to the home page multi-stream dashboard setup described in the previous section.  
   

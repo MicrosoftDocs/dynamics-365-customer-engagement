@@ -2,7 +2,7 @@
 title: "Define alternate keys for an entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The topic explains about how to create alternate keys for an entity. Alternate keys can be created programmatically or by using the customization tools"
 ms.custom: ""
-ms.date: 10/05/2018
+ms.date: 10/22/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -12,7 +12,7 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: fb4a93d6-590b-4913-96f7-25d351dc52ab
 caps.latest.revision: 23
-author: "JimDaly"
+author: "mayadumesh"
 ms.author: "jdaly"
 manager: "amyla"
 search.audienceType: 
@@ -36,7 +36,7 @@ To define alternate keys programmatically, you first have to create an object of
 
 You should be aware of the following constraints when creating alternate keys:  
 
-- **Valid attributes in key definitions**  
+- **Valid attribute types in key definitions**  
 
    Only attributes of the following types can be included in alternate key definitions:  
 
@@ -50,17 +50,25 @@ You should be aware of the following constraints when creating alternate keys:
   | LookupAttributeMetadata     |       Lookup        |
   | PicklistAttributeMetadata   |      Picklist       |
   
+ - **Attributes must be valid for create and update**  
 
+   Each attribute used in a key must support both create and update. More information: [Valid operations on attributes](introduction-entity-attributes.md#valid-operations-on-attributes)
+   
+- **Attributes must not have Field-level security applied**  
 
+- **Attributes must not be logical or inherited**  
+
+   Most logical and inherited attributes are configured as read-only. However, many of the attributes that contain address information in entities such as Account and Contact are logical and cannot be used in a key, even though they are writable. More information: [Logical attributes](introduction-entity-attributes.md#logical-attributes)
+   
 - **Valid key size**  
 
-   When a key is created, the system validates that the key can be supported by the platform, including that the total key size does not violate SQL-based index constraints like 900 bytes per key and 16 columns per key. If the key size doesn’t meet the constraints, an error message will be displayed.  
+   When a key is created, the system validates that the key can be supported by the platform, including that the total key size does not violate SQL-based index constraints like 900 bytes per key and 16 columns per key. If the key size doesn’t meet the constraints, an error message will be displayed. 
 
 - **Maximum number of alternate key definitions for an entity**  
 
    There can be a maximum of 5 alternate key definitions for an entity in a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
 
-- **Unicode characters in key value**
+- **Special characters in key value**
 
   If the data within a field that is used in an alternate key will contain one of the following characters `<`,`>`,`*`,`%`,`&`,`:`,`\\` then patch or upsert actions will not work.  If you only need uniqueness then this approach will work, but if you need to use these keys as part of data integration then it is best to create the key on fields that won't have data with those characters.
 

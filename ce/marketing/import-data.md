@@ -3,20 +3,19 @@ title: "Import data (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Learn how to import data and control how duplicate records are identified in Dynamics 365 for Marketing"
 keywords: "import data;import"
 ms.date: 07/01/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-admin"
-  - "dyn365-marketing"
+  - dyn365-admin
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 2f6cc974-db3e-4cc0-bb31-a1888802c098
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -28,6 +27,8 @@ search.app:
 ---
 
 # Import data
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Bring your customer and sales data quickly into your app by importing it. You can import data into most record types.
 

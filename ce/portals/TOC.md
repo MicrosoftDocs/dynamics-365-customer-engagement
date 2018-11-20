@@ -13,6 +13,8 @@
 ## [Change base URL of a portal](change-base-url.md)
 ## [Upgrade a portal](upgrade-portal.md)
 ## [Migrate Dynamics 365 Portal configuration](migrate-portal-configuration.md)
+## [Set up Power BI integration](set-up-power-bi-integration.md)
+## [Restrict portal access by IP address](ip-address-restrict.md)
 
 # [Configure a portal](configure-portal.md)
 ## [Enable multiple-language support](enable-multiple-language-support.md)
@@ -45,6 +47,7 @@
 ## [Use shortcuts to place child nodes](place-child-nodes.md)
 ## [Create a portal theme](create-theme.md)
 ## [Configure site settings](configure-site-settings.md)
+## [Get started with the new portal content editor](portal-new-content-editor.md)
 ## [Get started with the portal content editor](get-started-portal-content-editor.md)
 ### [Publish content by using the editing engine](publish-content-editing-engine.md)
 ## [Create and run advertisements](create-run-advertisement.md)
@@ -111,6 +114,7 @@
 ## [Configure notes](configure-notes.md)
 ## [Enable Azure storage](enable-azure-storage.md) 
 ### [Add the Azure Storage web resource to a form](add-web-resource.md)
+## [Manage SharePoint documents](manage-sharepoint-documents.md)
 
 # Additional resources
 ## [Walkthrough: Get data on the portal](walkthrough-get-data-on-portal.md)
@@ -121,6 +125,7 @@
 ## [View email records in portal timeline](view-email-in-timeline.md)
 ## [Rate a webpage or blog article](rate-webpage-blog-post.md)
 ## [Enable header and footer output caching on a portal](enable-header-footer-output-caching.md)
+## [Add a Power BI report or dashboard to a webpage in portal](add-powerbi-report.md)
 
 # [Dynamics 365 Portal FAQ](portal-faq.md)
 

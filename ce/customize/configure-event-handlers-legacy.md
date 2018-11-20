@@ -1,14 +1,13 @@
 ---
-title: Configure event handlers for Main forms in PowerApps | MicrosoftDocs
+title: Configure event handlers for Main forms in Dynamics 365 for Customer Engagement | MicrosoftDocs
 description: Understand how to configure event handlers in Dynamics 365 for Customer Engagement
 Keywords: Main form; Configure event handlers; Dynamics 365
 author: Mattp123
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 ms.author: matp
-manager: sakudes
+manager: kvivek
 ms.date: 04/03/2018
 ms.service: crm-online
 ms.topic: article
@@ -22,7 +21,7 @@ search.app:
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
- Form event handlers for [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] forms can be configured for the following areas in a form:  
+ Form event handlers for Dynamics 365 for Customer Engagement forms can be configured for the following areas in a form:  
 
 |Element|Event|Description|  
 |-------------|-----------|-----------------|  

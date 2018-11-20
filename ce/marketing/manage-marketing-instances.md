@@ -3,20 +3,19 @@ title: "Manage marketing instances (Dynamics 365 for Marketing) | Microsoft Docs
 description: "How to copy a production Dynamics 365 for Marketing instance to a sandbox instance for experiments and testing"
 keywords: "administration;admin center;copy;sandbox;instances;backup;recall"
 ms.date: 04/01/2018
-ms.service: 
-  - "crm-online"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-admin"
-  - "dyn365-marketing"
+  - dyn365-admin
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: c692a378-bf2f-42f6-81cd-8273cda9c695
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -28,6 +27,8 @@ search.app:
 ---
 
 # Manage your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instances
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 General instructions for how to manage [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instances are available in [Manage instances](../admin/manage-online-instances.md) and its subtopics, but for instances where you also have [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installed, some exceptions and added procedures apply. This topic provides details about the exceptions&mdash;for all other management tasks, see [Manage instances](../admin/manage-online-instances.md), but read this topic first.
 

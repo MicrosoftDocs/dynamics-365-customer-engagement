@@ -501,7 +501,7 @@
         href: customize-dev/customization-solutions-file-schema.md
     - name: Query and edit an organization theme
       href: customize-dev/query-and-edit-an-organization-theme.md
-    - name: Use editable grids in Dynamics 365
+    - name: Use editable grids
       href: customize-dev/use-editable-grids-dynamics-365.md
   - name: Package and distribute extensions using solutions
     href: package-distribute-extensions-use-solutions.md

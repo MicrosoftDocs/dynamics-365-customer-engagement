@@ -2,7 +2,7 @@
 title: "Monthly updates in portal capabilities for Dynamics 365 | MicrosoftDocs"
 description: "Learn about what's new in the latest release of portal capabilities for Dynamics 365."
 keywords: "portal new features, portal enhancements, portal user guide"
-ms.date: 07/04/2018
+ms.date: 10/17/2018
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-portal
@@ -26,7 +26,23 @@ search.app:
 
 # What's new in portal capabilities for Dynamics 365
 
-Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Here's a list of features we added recently. For more information about portal capability updates for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to date, see [portal capabilities for Microsoft Dynamics 365 Releases](https://support.microsoft.com/en-us/help/3181191).
+Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Here's a list of recently added features. For more information about portal capability updates for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to date, see [portal capabilities for Microsoft Dynamics 365 Releases](https://support.microsoft.com/en-us/help/3181191).
+
+## Portal capabilities version 9.0.10 for Dynamics 365
+
+Portal capabilities version 9.0.10 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] brings these new updates and features:
+
+- **Migrate Dynamics 365 Portal configuration**: You can now migrate your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal configuration from development to testing or the production environments. Migration involves exporting the existing configuration from the source [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, and then importing it into the target [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance. To migrate configuration data, you need to use the Configuration Migration tool and a portal-specific configuration schema file. More information: [Migrate Dynamics 365 Portal configuration](migrate-portal-configuration.md)
+
+- **Add Power BI visualization**: As a portal customizer, you can now embed Power BI visualizations (dashboard, reports, amd tiles) on web pages in a portal by using the powerbi Liquid tag. More information: [Set up Power BI integration](set-up-power-bi-integration.md)
+
+- **Restrict portal access by IP address**: As a portal administrator, you can now define a list of IP addresses that are allowed to access your portal. When a request to the portal is generated from any user, their IP address is evaluated against the allow list. If the IP address is not on the list, the portal displays a web page with an HTTP 403 status code. More information: [Restrict portal access by IP address](ip-address-restrict.md)
+
+- **Manage SharePoint documents**: [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal now supports uploading and displaying documents to and from SharePoint directly on an entity form or web form in a portal. This allows portal users to view, download, add, and delete documents from a portal. Portal users can also create folders to organize their documents. More information: [Manage SharePoint documents](manage-sharepoint-documents.md)
+
+- **New portal content editor (preview)**: In this preview, a new and simplified portal editor is available for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal customizers to reduce the learning curve on Dynamics 365 Portal customization and increase a customizer's productivity. More information: [Get started with the new portal content editor](portal-new-content-editor.md)
+
+- **Enable voting for status reasons**: By default, an idea is enabled for voting only when the Status Reason is set to New. You can now enable the voting on an idea for different status reasons. To enable voting for different status reasons, you must create the Ideas/EnableVotingForStatusReasons site setting and set its value to the required status reason values. More information: [Enable voting for status reasons](crowdsource-ideas.md#enable-voting-for-status-reasons)
 
 ## Portal capabilities version 9.0.6 for Dynamics 365
 
@@ -38,9 +54,10 @@ Portal capabilities version 9.0.6 for [!INCLUDE[pn-dynamics-crm](../includes/pn-
 
 - **Change the base URL of a portal**: You can now change the base URL of a portal after it is provisioned. For example, if you choose contosocommunity.microsoftcrmportals.com as the base URL while provision the portal, you can later change it to contosocommunityportal.microsoftcrmportals.com as per your requirement. More information: [Change base URL](change-base-url.md)
 
+
 ## Portal capabilities version 8.4.1 for Dynamics 365
 
-Portal capabilities version 8.4.1 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] brings in bunch of bug fixes, as well as performance improvements, along with the following features:
+Portal capabilities version 8.4.1 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] brings in a bunch of bug fixes, as well as performance improvements, along with the following features:
 
 - **Search within attachment content of knowledge articles and web files**: Attachment content of knowledge articles and web files are now searchable to increase the likelihood of relevant search results. More information: [Search within file attachment content](search-file-attachment.md)
 - **Accessibility**: The out-of-the-box portals (Community portal, Partner portal, Customer portal, Employee self-service portal) are now accessible. However, customizer should ensure that the portal remains accessible after any customization or changes.
@@ -48,7 +65,7 @@ Portal capabilities version 8.4.1 for [!INCLUDE[pn-dynamics-crm](../includes/pn-
 
 ## Portal capabilities version 8.4 for Dynamics 365
 
-Portal capabilities version 8.4 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] brings in bunch of bug fixes, as well as performance improvements, along with the following features:
+Portal capabilities version 8.4 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] brings in a bunch of bug fixes, as well as performance improvements, along with the following features:
 - **Access portal error logs**: As a portal developer, you can now access detailed error logs for any issues on your portal. This helps you to debug the issues while developing the portal. Once your portal is live, you can configure the portal to send all application errors to an Azure Blob storage account owned by you. This will help you to debug the issues reported by your customers. More information: [Access portal error logs](view-portal-error-log.md)
 - **Renew portal authentication key**: A portal connects to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization using Azure active directory application. To do this, it requires an authentication key connected to Azure Active Directory application. This key is added when you provision your portal and it must be renewed every two years. This version of portal brings in the capability for administrators to be notified about key expiration and renew this key from Portal Admin Center. More information: [Renew portal authentication key](connect-with-dynamics.md)
 - **Implement General Data Protection Regulation in portals**: As a portal administrator, you can now configure your portal to meet the GDPR standards. You can also provide certain terms and conditions that must be agreed by the portal users to use a portal. You can also setup checks such as, if a portal is accessed by a minor user, the user must have parental consent to access the portal. Implementing GDPR allows obtaining consent from portal users regarding use of their personal data, identifying minor users, and obtaining parental consent for minor users. More information: [Implement GDPR in portals](implement-gdpr.md)

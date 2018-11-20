@@ -1,8 +1,8 @@
 ---
-title: "Create 1:N (one-to-many) or N:1 (many-to-one) relationships in PowerApps | MicrosoftDocs"
+title: "Create 1:N (one-to-many) or N:1 (many-to-one) relationships in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn how to create one-to-many or many-to-one relationships"
 ms.custom: ""
-ms.date: 04/03/2018
+ms.date: 11/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 author: "Mattp123"
 ms.assetid: 52c00707-b2bc-4950-abec-89baefd94f6e
 caps.latest.revision: 33

@@ -1,7 +1,7 @@
 ---
 title: "Create and edit global option sets | MicrosoftDocs"
 ms.custom: ""
-ms.date: 03/21/2018
+ms.date: 11/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,11 +10,10 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "PowerApps"
 ms.assetid: f06b8941-8dca-4601-b965-341cfb6fc3b2
 caps.latest.revision: 11
 ms.author: "matp"
-manager: "brycho"
+manager: "kvivek"
 search.audienceType: 
   - customizer
 search.app: 
@@ -33,7 +32,7 @@ An option set is a type of field that can be included in an entity. It defines a
   
 #### Create a global option set  
   
-1.  Choose **Customize the System**.  
+1.  Go to **Settings** > **Customizations** > **Customize the System**.  
   
 2.  In the solution explorer, choose **Option Sets**.  
   

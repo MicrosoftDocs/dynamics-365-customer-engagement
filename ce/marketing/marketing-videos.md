@@ -3,20 +3,19 @@ title: "Video overviews and instructions for Marketing | Microsoft Docs"
 description: "Find video-based information about Dynamics 365 for Marketing"
 keywords: "videos;how-to;overview"
 ms.date: 08/02/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-admin"
-  - "dyn365-marketing"
+  - dyn365-admin
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: cdf6e522-22a4-4687-a6a0-95702c6ff596
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -75,7 +74,7 @@ For an even more detailed video overview of the features and benefits of [!INCLU
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)]
 
 - Tutorial: [Set up lead scoring](set-up-lead-scoring.md)
-- [Score and manage leads](score-manage-leads.md)  
+- [Design lead-scoring models](score-manage-leads.md)  
 - [Register contacts' engagement](register-engagement.md)  
 - [Manage customer information](manage-customer-information.md)
 

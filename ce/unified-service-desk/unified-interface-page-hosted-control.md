@@ -1,6 +1,6 @@
 ---
 title: "Unified Interface Page (Hosted Control) (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Learn about the the Unified Interface Page hosted control type to load a URL or page from Dynamics 365. When a Dynamics 365 page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
+description: "Learn about the Unified Interface Page hosted control type to load a URL or page from Dynamics 365. When a Dynamics 365 page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
 keywords: ""
 ms.date: 04/24/2018
 ms.service: 
@@ -61,7 +61,7 @@ This action loads a specific associated view of Dynamics 365. These views are ty
 |-------------------|-------------------------------------------------------------------------------------------------------------------------|
 | etn               | The name of the entity for which you want to load list of records of the associated entity.  This is a mandatory parameter|
 | Id                | The ID of the main entity record for which to display the associated entity records.                                    |
-| navItemId         | Id of the navigation item corresponding to the associated entity. More information: [formContext.ui.navigation](../developer/clientapi/reference/formcontext-ui-navigation.md)      |
+| navItemId         | Id of the navigation item corresponding to the associated entity. More information: [formContext.ui.navigation](/dynamics365/customer-engagement/developer/clientapi/reference/formcontext-ui-navigation)      |
 | hideCommandBar    | If this parameter is supplied and False, the page will be displayed along with the Dynamics 365 command bar. |
 | hideNavigationBar | If this parameter is supplied and False, the page will be displayed along with the Dynamics 365 navigation bar.     |
 
@@ -246,12 +246,12 @@ This action refreshes the current page.
 
   
 ### RunXrmCommand  
- This action is used to run JavaScript code that uses [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] [Client API Reference](../developer/clientapi/reference.md) into the Unified Interface Pages (entity forms and grids). 
+ This action is used to run JavaScript code that uses [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] [Client API Reference](/dynamics365/customer-engagement/developer/clientapi/reference) into the Unified Interface Pages (entity forms and grids). 
 
  You must configure the script as a function of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] JavaScript webResource. The function's first parameter is a context parameter (reserved parameter) which may have one of the following values:
 
- - [FormContext](../developer/clientapi/clientapi-form-context.md) on entity form pages
- - [GridContext](../developer/clientapi/clientapi-grid-context.md) on entity grid pages
+ - [FormContext](/dynamics365/customer-engagement/developer/clientapi/clientapi-form-context) on entity form pages
+ - [GridContext](/dynamics365/customer-engagement/developer/clientapi/clientapi-grid-context) on entity grid pages
  - **undefined** on other pages
   
 |Parameter|Description|  

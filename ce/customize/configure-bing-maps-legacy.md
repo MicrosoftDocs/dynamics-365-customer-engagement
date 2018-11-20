@@ -1,7 +1,7 @@
 ---
-title: "Configure Bing maps in PowerApps | MicrosoftDocs"
+title: "Configure Bing maps in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 04/02/2018
+ms.date: 11/08/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,7 +10,6 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 ms.assetid: f9729664-561c-4758-86ce-7216d68075d9
 caps.latest.revision: 63
 ms.author: "matp"

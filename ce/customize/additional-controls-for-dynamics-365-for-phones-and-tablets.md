@@ -2,7 +2,7 @@
 title: "Additional controls for Dynamics 365 for phones and tablets | MicrosoftDocs"
 description: "A list of controls available for use with Dynamics 365 for phones and tablets"
 ms.custom: ""
-ms.date: 04/02/2018
+ms.date: 11/08/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 author: "Mattp123"
 ms.assetid: 7920ef78-2540-48ad-ba25-9ce9cb995ed1
 caps.latest.revision: 63

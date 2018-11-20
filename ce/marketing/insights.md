@@ -3,19 +3,18 @@ title: "Analyze marketing results and gain insights (Dynamics 365 for Marketing)
 description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 for Marketing"
 keywords: "insights;results;KPIs;analytics"
 ms.date: 04/25/2018
-ms.service: 
-  - "crm-online"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 2f5016aa-540a-4366-94a3-205d985c8da9
 author: kamaybac
 ms.author: kamaybac
 manager: shellyha
-ms.reviewer: renwe
+ms.reviewer:
 topic-status: Drafting
 search.audienceType: 
   - admin
@@ -27,6 +26,8 @@ search.app:
 ---
 
 # Analyze results to gain insights from your marketing activities
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] keeps track of the way your contacts react to your various marketing initiatives and provides detailed analytical views to help you understand your impact and learn what works best. For example, each of the following entities provides statistics, analytics, and key performance indicators (KPIs) based on your marketing results:
 
@@ -91,6 +92,7 @@ To view lead insights, go to **Marketing** > **Customers** > **Leads**, select a
 Most of the insights displayed for a lead are the same as those shown for contacts and are taken from the contact record associated with the current lead, as previously described in [Contact insights](#contact-insights). One exception to this is the **Insights** tab, which tracks lead-specific information such as the lead's age (how long the record has been active) and its progress over time.
 
 ## Segment insights
+
 To view segment insights, go to **Marketing** > **Customers** > **Segments** and then select a segment record. Unlike most entities, segments provide insights as part of the main form view. Go to the **Insights** tab to see them.
 
 ## Customer journey insights

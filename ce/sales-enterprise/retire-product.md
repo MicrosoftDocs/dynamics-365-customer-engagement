@@ -3,29 +3,23 @@ title: "Retire a product (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Retire a product in Dynamics 365 for Sales so that it is no longer available to your sales agents for selling."
 keywords: "retire, retire product"
 ms.date: 04/01/2018
-ms.service: dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: 
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "shubhadaj"
 ms.assetid: 14603f94-a8bc-4c63-8f87-6042bb6c3787
+author: shubhadaj
 ms.author: shujoshi
-manager: sakudes
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 12
 topic-status: Drafting
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Retire a product (Sales and Sales Hub)
@@ -34,7 +28,7 @@ search.app:
 
 If your organization doesn't sell a product anymore, retire it so that the product is no longer available to your sales agents.  
 
-## Retire a product in the Sales Hub app
+## Retire a product (Sales Hub)
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
@@ -49,7 +43,7 @@ If your organization doesn't sell a product anymore, retire it so that the produ
    ![Confirm retire](media/confirm-retire.png "Confirm retire")
 
 
-## Retire a product in the Sales app
+## Retire a product (Sales)
   
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   

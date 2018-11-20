@@ -23,6 +23,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+monikerRange: ">=dynamics-usd-4"
 ---
 
 # Preview feature - Set default Unified Interface App using Unified Interface Settings

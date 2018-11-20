@@ -56,6 +56,6 @@ The migration assistant helps with the migration of:
 
 [Migration steps of the configurations from Dynamics 365 Web Client to Unified Interface App](migration-steps-web-client-unified-interface-configuration.md)
 
-[Download the tools from NuGet](../../developer/download-tools-nuget.md)
+[Download the tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget)
 
-[Import configuration data](../../admin/import-configuration-data.md)
+[Import configuration data](/dynamics365/customer-engagement/admin/import-configuration-data)

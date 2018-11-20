@@ -23,7 +23,7 @@ search.app:
 ---
 # Use Power BI
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 The [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-office-365-long.md)] cloud service works with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to provide a self-service analytics solution. [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] automatically refreshes the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] data displayed. With [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] or [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] Power Query for authoring reports and [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] for sharing dashboards and refreshing data from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], sales, marketing, and service personnel in your organization have a powerful new way to work with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data.  
   
@@ -128,7 +128,7 @@ To learn more about how to add [!INCLUDE[pn_power_bi_for_office_365_short](../in
    > [!NOTE]
    >  If you aren't signed in to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance, click **Sign-in** on the Access OData feed dialog before you click Connect.  
   
-6. The organization database entity tables appear in the [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] Navigator window. You can select both default and custom entities. For more information about creating reports with [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)], see [Power BI Support: Report View in Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-report-view/).  
+6. The organization database entity tables appear in the [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)] Navigator window. You can select both default and custom entities. For more information about creating reports with [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)], see [Power BI Support: Report View in Power BI Desktop](https://powerbi.microsoft.com/documentation/powerbi-desktop-report-view/).  
   
    ![Select entity table](../admin/media/pbi-select-entity-table.PNG "Select entity table")  
   

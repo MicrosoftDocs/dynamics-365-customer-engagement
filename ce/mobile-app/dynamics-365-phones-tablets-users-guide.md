@@ -42,7 +42,7 @@ Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!IN
 To sign in, you’ll need your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web address, user name, and
 password. If you don’t have any of these, contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin.
 
-1.  Open your app, enter your Dynamics 365 web address, and tap ![Dynamics Dynamics 365 for phones and tablets continue sign](../mobile-app/media/mobile-signin-arrow.png "Dynamics Dynamics 365 for phones and tablets continue sign").
+1.  Open your app, enter your Dynamics 365 web address, and tap ![Dynamics 365 for phones and tablets continue sign](../mobile-app/media/mobile-signin-arrow.png "Dynamics 365 for phones and tablets continue sign").
 
     ![Dynamics 365 for phones and tablets signing in screen](media/SignIn_1.png "Dynamics 365 for phones and tablets signing in screen") 
 

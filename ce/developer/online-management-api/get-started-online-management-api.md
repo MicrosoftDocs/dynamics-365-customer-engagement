@@ -1,14 +1,13 @@
 ---
 title: "Get started with Online Management API for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Provides basic information to help you get started with the Online Admin API for Customer Engagement."
-ms.date: 11/27/2017
+ms.date: 11/16/2018
 ms.service: "crm-online"
 ms.topic: "conceptual"
-applies_to: "Dynamics 365 (online)"
 ms.assetid: c292c148-01f0-41f6-a2fe-7ed05a01a733
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "amyla"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
@@ -33,11 +32,11 @@ For information about these roles, see [About Office 365 admin roles](https://su
 
 The service URL defines the endpoint address for accessing REST API. To perform any operation using the Online Management API, you need to specify the request URL in the following format:
 
-`{ServiceUrl}/api/v1/{resource}`
+`{ServiceUrl}/api/v1.1/{resource}`
 
 For example, you can pass in the following URL with a **GET** request to retrieve the instances in your Office 365 tenant in North America:
 
-`https://admin.services.crm.dynamics.com/api/v1/instances`
+`https://admin.services.crm.dynamics.com/api/v1.1/instances`
 
 
 The following table lists the service URL of Online Management API for worldwide Office 365 data centers.

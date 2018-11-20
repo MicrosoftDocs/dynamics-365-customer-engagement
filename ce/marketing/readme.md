@@ -1,14 +1,14 @@
 ---
 title: "Dynamics 365 for Marketing Readme (Known Issues) | MicrosoftDocs"
-ms.date: 10/03/2018
-ms.service: "crm-online"
-ms.topic: "article"
+ms.date: 10/16/2018
+ms.service: dynamics-365-marketing
+ms.topic: article
 applies_to: 
-- "Dynamics 365 (online)"
-- "Dynamics 365 Version 9.x"
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
 ms.assetid: 78dc5157-cf1d-4e32-ace7-9e71763e7510
 author: kamaybac
-ms.author: renwe
+ms.author: kamaybac
 manager: annbe
 search.audienceType: 
   - admin
@@ -80,6 +80,7 @@ This document provides important, late-breaking information about known issues a
 - Many email templates have placeholder images. You should replace these placeholder images with actual images so that marketing emails look professional.
 - When you save a new keyword for templates or files from a quick-create form, the keyword grid isn't displayed, but the record is created successfully. <!--- 1033440 -->
 - For certain organizations that upgraded recently, test send may not work. If you encounter this issue, please contact Microsoft Support. <!--- 1267485 -->
+- Support for dynamic email content is being expanded to include look-up values, relations, and logical functions like conditionals and for-each loops. We are rolling this capability out gradually, so it may not yet be available on your tenant. For more information about this feature, and how to find out if it's available to you, see [Advanced dynamic content](dynamic-email-content.md#advanced-dynamic-content). Be sure also to read [How to enter advanced dynamic content in the designer](dynamic-email-content.md#enter-code) for important tips on how to mix these dynamic features into your designs.
 
 ## Marketing pages and forms
 
@@ -88,6 +89,10 @@ This document provides important, late-breaking information about known issues a
 - Marketing pages from the sample data might not go live for some organizations (especially on Italian or Japanese localizations). But can still create new pages and go live with them. <!--- 1156824 -->
 - Forms submitted over HTTP (not HTTPS) generate interaction records that don't include the contact ID, which means these interactions can't be used in interaction-based segments. If you are hosting a form on an external page (not hosted on a Dynamics 365 marketing page), then make sure your page uses HTTPS.
 - Some client-side malware protection tools parse each incoming email, resolve all the links it contains, and then deliver a modified message in which the links have been replaced with their resolved destinations. This process can interfere with the mechanism that Dynamics 365 uses to identify the contact that has clicked on a subscription center link, which means the subscription center won’t work for these contacts. We are working on a fix for this issue.
+
+## Reusable content blocks
+
+- Any CSS styles that you include in your reusable content blocks could be overruled by styles in the document where you eventually host the content. If you want to prevent this, design your content blocks with inline styles that include the `!important` attribute.
 
 ## Lead scoring and management
 
@@ -101,6 +106,10 @@ This document provides important, late-breaking information about known issues a
 - Sample data is no longer available for events. We expect to provide it again in a future update.
 - The event portal included with Dynamics 365 for Marketing is intended for demo and testing purposes only. Any customizations that you make to the sample event portal will likely get overwritten the next time you update Dynamics 365 for Marketing, so if you want to create a customized event portal to use in production, you must start by creating a new website in your Dynamics 365 portal. For more information about how to create a new website in the portal, see [Create and manage websites](../portals/websites.md).
 - When you create a recurring event with a weekly cadence, the check box for **Monday** is automatically selected both when you first create the event series, and each time you open the event series for editing. Any time you create or edit a weekly series, be sure to clear the **Monday** check box if you don't mean to include it.
+
+## Websites
+
+- The *websites* feature records all visits to any web page that has a Dynamics 365 for Marketing tracking script on it. Each log entry includes a timestamp and, if possible, links to a known contact. If the visitor isn’t a known contact, then that visit is logged as anonymous. The website tracking script sets a cookie, so the system can group visits into sessions, even for anonymous visits. When a contact submits a landing-page form, the system sets the same cookie (if not present already) and can thereafter match the cookie ID to a contact ID because the landing-page submission will either create or match a contact. Once a visitor is known, all future website visits will be logged with that user's ID. However, previous visits will remain anonymous (the system doesn't back-fill the contact ID to the existing visitor log).
 
 ## General
 

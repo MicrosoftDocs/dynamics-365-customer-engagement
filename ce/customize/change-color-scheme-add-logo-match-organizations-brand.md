@@ -1,8 +1,8 @@
 ---
-title: "Change the color scheme or add a logo  in PowerApps | MicrosoftDocs"
+title: "Change the color scheme or add a logo  in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn how to change the color scheme or add a logo to match your organization’s brand"
 s.custom: ""
-ms.date: 04/02/2018
+ms.date: 11/08/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 author: "Mattp123"
 ms.assetid: 21a166a0-d25e-4260-a1e4-2ddc528787c2
 caps.latest.revision: 17

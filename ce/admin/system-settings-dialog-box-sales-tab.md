@@ -2,13 +2,13 @@
 title: "System Settings dialog box - Sales tab for Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 07/18/2018
-ms.service: 
+ms.date: 10/09/2018
+ms.service:
   - "crm-online"
-ms.custom: 
+ms.custom:
   - ""
 ms.topic: article
-applies_to: 
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 08b3057d-03ad-41d0-a6b3-4770add682b2
@@ -19,16 +19,11 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 14
-search.audienceType: 
-  - admin
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
 
 # System Settings dialog box - Sales tab
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>
 
 Use the settings on this page to configure system-level settings for the sales area of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
@@ -39,11 +34,14 @@ Use the settings on this page to configure system-level settings for the sales a
   
    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
-2. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
-  
-3. Click **System Settings** and then select the **Sales** tab.  
+2. If you are using a Sales web application, go to **Settings** > **Administration** > **System Settings**, and then select the **Sales** tab.
 
-|                                            Settings                                             |                                                                                                                                                                                             Description                                                                                                                                                                                              |
+   OR
+
+   If you are using the Sales Hub App, select the Site map icon ![Site map icon](../sales-enterprise/media/site-map-icon.png "Site map icon"), then select ellipsis ![Ellipsis to open more options](../sales-enterprise/media/ellipsis-more-options.png "Ellipsis to open more options") , then select **App Settings**, and then select **Product Catalog Settings**.
+
+  
+  |                                            Settings                                             |                                                                                                                                                                                             Description                                                                                                                                                                                              |
 |-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                **Select whether products should be created in the active state**                |                                                                                                                                                                                                                                                                                                                                                                                                      |
 |                                 Create products in active state                                 |                                                                                           To set the products to active state by default after creation, click **Yes**. This option applies only to products that don’t have a parent product family. To create products in the Draft state, click **No**.                                                                                           |

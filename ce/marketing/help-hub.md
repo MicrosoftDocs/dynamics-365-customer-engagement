@@ -3,14 +3,13 @@ title: "Documentation resources for Dynamics 365 for Marketing | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 for Marketing."
 keywords: "marketing;help"
 ms.date: 04/01/2018
-ms.service: 
-  - "dynamics-365-marketing"
+ms.service: dynamics-365-marketing
 ms.custom: 
-  - "dyn365-marketing"
+  - dyn365-marketing
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 0736ed6b-7931-1899-28a2-9f84a03fc568
 author: kamaybac
 ms.author: kamaybac

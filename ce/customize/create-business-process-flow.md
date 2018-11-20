@@ -1,8 +1,8 @@
 ---
-title: "Create a business process flow in PowerApps | MicrosoftDocs"
+title: "Create a business process flow in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn how to create a business process flow"
 ms.custom: ""
-ms.date: 08/17/2018
+ms.date: 11/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
 ms.assetid: efe86ab3-430f-485a-b924-6ed82cfbb449
 caps.latest.revision: 39
 author: "Mattp123"
@@ -26,13 +25,13 @@ search.app:
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-This topic shows how to create a business process flow with [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)]. To learn more about why you use business process flows, see [Business process flows overview](../customize/business-process-flows-overview.md). For information on creating a mobile task flow, see [Create a mobile task flow](../customize/create-mobile-task-flow.md).  
+This topic shows how to create a business process flow with Dynamics 365 for Customer Engagement. To learn more about why you use business process flows, see [Business process flows overview](../customize/business-process-flows-overview.md). For information on creating a mobile task flow, see [Create a mobile task flow](../customize/create-mobile-task-flow.md).  
   
  When a user starts a business process flow, the stages and steps of the process are displayed in the process bar at the top of a form:  
   
  ![Business process with stages](../customize/media/business-process-stages.png "Business process with stages")  
   
- [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] comes with several ready-to-use business process flows for common business scenarios. Add them to your system and use as is, or modify them to fit your business needs. To find out how to add ready-to-use business process flows, see [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md).  
+ Dynamics 365 for Customer Engagement comes with several ready-to-use business process flows for common business scenarios. Add them to your system and use as is, or modify them to fit your business needs. To find out how to add ready-to-use business process flows, see [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md).  
   
 <a name="BKMK_Createbusinessprocessflows"></a>   
 ## Create a business process flow  
