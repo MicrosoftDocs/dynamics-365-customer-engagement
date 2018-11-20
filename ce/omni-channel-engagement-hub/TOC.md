@@ -13,6 +13,8 @@
 ### [View Customer 360 for an incoming engagement request](agent/view-customer360-incoming-engagement-request.md)
 
 ## [Omni-channel Engagement Hub for supervisor](supervisor/omni-channel-engagement-hub-supervisor.md)
+### [Administer supervisor dashboard](configure-supervisor-dashboard.md)
+### [Introduction to supervisor dashboard](Omni-channel Engagement Hub for supervisor.md)
 
 ## [Omni-channel Engagement Hub for customizer](customizer/omni-channel-engagement-hub-customizer.md)
 ### [Customize customer 360](customizer/customize-customer-360-page.md)

@@ -19,5 +19,5 @@ Supervisors have a dual responsibility towards the agents and the customers: T
 - Real-time monitoring and Intraday health tracking of agent productivity and performance. 
 
 As an administrator, you must enable and configure the supervisor dashboard in your organization for supervisor to use it. To configure the dashboard, follow the steps: 
-1. [Configure supervisor dashboard to display in Omni-channel Engagement Hub](#configure-supervisor-dashboard-to-display-in-omni-channel-engagement-hub).   
+1. [Configure supervisor dashboard to display in Omni-channel Engagement Hub](configure-supervisor-dashboard-to-display-in-omni-channel-engagement-hub.md).   
 2. [Add users to supervisor configuration](add-users-supervisor-configuration.md).

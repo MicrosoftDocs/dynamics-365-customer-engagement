@@ -24,8 +24,8 @@ Dynamics 365 Omni-channel Engagement Hub provides you with a dashboard that help
 - View detailed reports
 
 As a supervisor, when you open the Omni-channel Engagement Hub app in Unified Service Desk  
-- **Overview:** Provides overall information about the health and KPIs of agents in your organization. More information: [View overall performance](#_View_overall_performance).   
-- **My dashboard:** provides information about the work items that you are handling such as your active work items, items available for you to pick, and closed work items. More information: [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md).   
+- **Overview:** Provides overall information about the health and KPIs of agents in your organization. More information: [View overall performance](introduction-supervisor-dashboards.md).   
+- **My dashboard:** provides information about the work items that you are handling such as your active work items, items available for you to pick, and closed work items. More information: [Introduction to the agent interface in Omni-channel Engagement Hub](../agent/introduction-agent-dashboard.md).   
 
 > [!NOTE]
 > Contact your system administrator, for configuration errors or if you are unable to view the dashboards.

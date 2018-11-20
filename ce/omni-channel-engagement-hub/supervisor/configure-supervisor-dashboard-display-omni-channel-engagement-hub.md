@@ -36,21 +36,21 @@ Create a native app in Azure AD and provide access to Power BI REST APIs to this
     
     For example, the client ID value will be displayed as *2da2165-0def-4252-b4cb-760534af096d.*
 
-More information: [Register with the Power BI App Registration Tool](power-bi/developer/register-app)
+More information: [Register with the Power BI App Registration Tool](/power-bi/developer/register-app)
 
 Now, you are ready to create an Azure Key Vault for your application. 
 
 ## Step 3: Create Azure Key Vault 
 Creating the Key Vault for your tenant helps you in securely store the passwords, certificates, and other secrets. Perform the following steps to create Azure Key Vault: 
 1. Log in to [*Azure Portal*](http://portal.azure.com).  
-2. Create Key Vault. More information: [Create a vault](azure/key-vault/quick-create-portal#create-a-vault)  
+2. Create Key Vault. More information: [Create a vault](/azure/key-vault/quick-create-portal#create-a-vault)  
 3. Add the following secrets to your created key vault.
     |**Key**|**Value (Secret)**|
     |-------|------------------|
     |**PowerBiUser**|Your admin username. For example, *admin@contoso.onmicrosoft.com*|
     |**PowerBiPass**|Your administrator password.|
 
-More information: [Add a secret to Key Vault](azure/key-vault/quick-create-portal#add-a-secret-to-key-vault)   
+More information: [Add a secret to Key Vault](/azure/key-vault/quick-create-portal#add-a-secret-to-key-vault)   
 
 ## Step 4: Grant access to the Omni-channel app for the created Key Vault 
 To provide access to your native app for the created Key Vault, follow these steps: 
@@ -60,7 +60,7 @@ To provide access to your native app for the created Key Vault, follow these ste
 4. Save and close.
 5. Go to the **Overview** section and copy the **DNS Name**. This helps in provision Power BI reports in your workspace.
 
-More information: [*Authorize the application to use the key or secret*](azure/key-vault/key-vault-get-started)
+More information: [*Authorize the application to use the key or secret*](/azure/key-vault/key-vault-get-started)
 
 Now your application is secured and ready to use in the Dynamics 365.
 
@@ -81,7 +81,7 @@ When you provision the Power BI reports, the **SupervisorOverviewComputational**
 To provision your supervisor reports, follow these steps: 
 1. Log in to **Dynamics 365** and open **Omni Channel Engagement Hub** app. 
     ![open omni channel engagement hub](../media/oc-usd-supervisor-dashboard-configuration-open-oceh.png "Open omni channel engagement hub")
-2. Select **Site Map** ![site map icon](media/oc-usd-supervisor-dashboard-site-map.png "Site map icon"), and then select **Supervisor experience**, **Overview dashboard**.
+2. Select **Site Map** ![site map icon](../media/oc-usd-supervisor-dashboard-site-map.png "Site map icon"), and then select **Supervisor experience**, **Overview dashboard**.
     The analytics view opens.
     ![active analytics view to configure power bi](../media/oc-usd-supervisor-dashboard-active-analytics-view.png "Active analytics view to configure power BI")
 3. Select **+ New**. 
@@ -94,11 +94,11 @@ To provision your supervisor reports, follow these steps: 
         For example: Power BI workspace ID as 1d3b66s1-650f-44f7-8bc9-d9bdc67e8540
     - **Azure Key Vault URI:** Enter the URI that you have obtained while creating the Power BI application registration as specified in [Step 4: Grant access to the Omni-channel app for the created Key Vault](#_Step_4:_Grant).   
         For example: Azure Key Vault URI as https://yourkeyvault.vault.azure.net/
-5.  Save and close the configuration. 
-    You should now have the **SupervisorOverviewComputational** report available in your workspace.
-    > [IMPORTANT]
-    > Do not create more than one analytics configuration in your Dynamics 365. If you have more than one, the application uses only the latest analytics that you have created. However, if you want to add new analytics configuration, delete or deactivate the existing and add the new.
-6.  Download the **SupervisorOverviewOperational** report file (.pbit) from [GitHub] (https://github.com/Microsoft/BusinessPlatformApps/tree/dev/Samples/D365OmniChannel/Preview).  
+5. Save and close the configuration. 
+   You should now have the **SupervisorOverviewComputational** report available in your workspace.
+   > [IMPORTANT]
+   > Do not create more than one analytics configuration in your Dynamics 365. If you have more than one, the application uses only the latest analytics that you have created. However, if you want to add new analytics configuration, delete or deactivate the existing and add the new.
+6. Download the **SupervisorOverviewOperational** report file (.pbit) from [GitHub] (https://github.com/Microsoft/BusinessPlatformApps/tree/dev/Samples/D365OmniChannel/Preview).  
 
 Now, you have the necessary reports to configure the dashboards in Power BI. 
 
@@ -110,7 +110,7 @@ Create the Power BI dashboard out of the two reports that are available to you *
 - SupervisorOverviewOperational (report) 
 
 > [IMPORTANT]
-> In PowerBI, share the dashboards with all supervisors who use Omini-channel Engagement Hub. If not shared, the supervisors cannot view the dashboards when logged in to the Omni-channel Engagement Hub. More information: [*Share your Power BI dashboards and reports with coworkers and others*](power-bi/service-share-dashboards).
+> In PowerBI, share the dashboards with all supervisors who use Omini-channel Engagement Hub. If not shared, the supervisors cannot view the dashboards when logged in to the Omni-channel Engagement Hub. More information: [*Share your Power BI dashboards and reports with coworkers and others*](/power-bi/service-share-dashboards).
 
 Follow the steps: 
 1. Open the **Power BI Desktop** app and log in with your credentials.
@@ -124,8 +124,8 @@ Follow the steps: 
     > The **MicrosoftDynamicsOCAnalytics** dataset may take up to 15 minutes to appear in the created workspace. 
 7. Publish and save the pbix file to the created workspace. 
     Now, reports are created.
-8. Open the reports that are available in the workspace. More information: [Open a report in Power BI service](power-bi/service-report-open)   
-9. Pin the required tiles to dashboards. More information: [Pin a tile to a Power BI dashboard from a report](power-bi/service-dashboard-pin-tile-from-report)    
+8. Open the reports that are available in the workspace. More information: [Open a report in Power BI service](/power-bi/service-report-open)   
+9. Pin the required tiles to dashboards. More information: [Pin a tile to a Power BI dashboard from a report](/power-bi/service-dashboard-pin-tile-from-report)    
     The following page is an example of how a dashboard displays when you pin tiles: 
     ![live work monitoring for supervisor](../media/oc-usd-supervisor-overview-live-monitoring.png "Live work monitoring for supervisor")  
 10. Select **Set as featured** for the created dashboard.
