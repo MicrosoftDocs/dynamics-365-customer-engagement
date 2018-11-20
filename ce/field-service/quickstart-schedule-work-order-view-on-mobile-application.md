@@ -88,7 +88,7 @@ If the sample data is installed, you'll see multiple records in **Field Service*
 
 ## 2. Create a work order or select a sample one
 
-If you have sample data, skip this step.
+If you're not using the sample data for this quickstart, you'll need to create a work order. If you have sample data, you can skip this step. 
 
 1. Navigate to **Field Service** > **Work Orders**.
 
@@ -118,7 +118,7 @@ If you have sample data, skip this step.
 
 ## 3. Set up a resource (field technician) role 
 
-Next you'll set up one user as a field technician.
+Next you'll set up one user as a field technician by assigning them a role.
 
 1. Navigate to **Settings** > **Security** > **Users**.
 
@@ -165,7 +165,7 @@ Next you need to set up geo-coding for the field technician user. Field technici
 
 ### Set up geo-coding for the organization
 
-Setting up geocoding for an organization enables the system to stamp latitudes and longitudes for addresses.
+Setting up geocoding for an organization enables the system to attach latitudes and longitudes to addresses.
 
 1. Navigate to **Resource Scheduling** > **Administration** > **Scheduling Parameters**.
 
