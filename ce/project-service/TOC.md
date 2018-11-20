@@ -7,7 +7,7 @@
 ### [Set up custom fields as pricing dimensions ](set-up-pricing-dimensions.md)
 ### [Update plug-in attributes to include new pricing dimensions](update-plug-in-attributes.md)
 ## [Use an existing field in Project Service as a pricing dimension](use-existing-field.md)
-### [Use a bookable resource as a pricing dimension](bookable-resource-pricing-dimension.md)
+### [Use bookable resource as a pricing dimension](bookable-resource-pricing-dimension.md)
 ### [Use transaction category as a pricing dimension](transaction-category-pricing-dimension.md)
 ## [Turn off a pricing dimension](turn-off-pricing-dimension.md)
 
