@@ -54,7 +54,7 @@ For example, you could create separate queues for first tier and second tier pro
 - **Public queues:** Create public queues to let everyone in the organization view the items in a queue
 
 > [!NOTE]
-> With the Customer Engagement apps, version 9.1 release, queues in service management are available in the Customer Service Hub, based on the Unified Interface experience. We recommend that you create and manage queues using the new experience.
+> With the Customer Engagement apps version 9.1 release, queues in service management are available in the Customer Service Hub, based on the Unified Interface experience. We recommend that you create and manage queues using the new experience.
   
 ## Create a queue (Customer Service Hub) 
   

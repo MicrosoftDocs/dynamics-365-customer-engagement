@@ -29,7 +29,7 @@ search.app:
 In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)],  you can track multiple issues for a customer, or track the same issue that's affecting multiple customers, using parent and child cases. For example, you could track a case where work needs to be done by other departments. The primary case or issue is called the **Parent** case. Any related cases are called **Child** cases. Before your service team can start using this feature, you need to go to service management and set up a few rules about how information is inherited. 
 
 > [!NOTE]
-> With the Customer Engagement apps, version 9.1 release, parent child case settings in service management are available in the Customer Service Hub based on the Unified Interface experience. We recommend that you create and manage parent child case settings using the new experience.
+> With the Customer Engagement apps version 9.1 release, parent child case settings in service management are available in the Customer Service Hub based on the Unified Interface experience. We recommend that you create and manage parent child case settings using the new experience.
   
 ## Set parent and child case attributes  (Customer Service Hub)
   

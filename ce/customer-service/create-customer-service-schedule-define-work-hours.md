@@ -31,7 +31,7 @@ To define when your service or support team is available for providing support t
  For SLA time tracking, make sure you add a holiday schedule to the customer service schedule, and associate this customer service schedule to the SLA record.  
 
 > [!NOTE]
-> With the Customer Engagement apps, version 9.1 release, customer service schedule in service management is available in the Customer Service Hub based on the Unified Interface experience. We recommend that you create and manage customer service schedule using the new experience.
+> With the Customer Engagement apps version 9.1 release, customer service schedule in service management is available in the Customer Service Hub based on the Unified Interface experience. We recommend that you create and manage customer service schedule using the new experience.
   
 ## Create a customer service schedule  
   

@@ -34,7 +34,7 @@ The Service Management module empowers the admin to set up everything related to
 With the new release, the Service Management moves under the Customer Service Hub, enabling customer service managers to access the configurations from inside the application. Built on Unified Interface, the new Service Management helps to easily configure service tasks, enabling increased productivity.
   
 > [!NOTE]
-> With the Customer Engagement apps, version 9.1 release, you can access and manage all admin settings from the Customer Service Hub sitemap except for **Routing Rule Sets**, **Automatic Record Creation,** and **Service Level Agreements**. </br> To access and manage these three admin settings, go to **Settings** > **Service Management** in the Customer Service web application app. <br>These three admin settings (Routing Rule sets, Automatic Record Creation, and Service Level Agreements) will be available in the Customer Service Hub sitemap beginning with the January 2019 release.
+> With the Customer Engagement apps version 9.1 release, you can access and manage all admin settings from the Customer Service Hub sitemap except for **Routing Rule Sets**, **Automatic Record Creation,** and **Service Level Agreements**. </br> To access and manage these three admin settings, go to **Settings** > **Service Management** in the Customer Service web application app. <br>These three admin settings (Routing Rule sets, Automatic Record Creation, and Service Level Agreements) will be available in the Customer Service Hub sitemap beginning with the January 2019 release.
 
 ## Access Service Management
 
