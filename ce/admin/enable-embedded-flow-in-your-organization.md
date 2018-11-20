@@ -33,7 +33,7 @@ The embedded Flow feature is not available in the following service or geographi
 - Microsoft Dynamics 365 Government
 - Germany
 
-  Once the embedded Flows feature is enabled, the following privileges are added in the **Miscellaneous** section of the **Customization** tab for security roles.  
+Once the embedded Flows feature is enabled, the following privileges are added in the **Miscellaneous** section of the **Customization** tab for security roles.  
   
 - Name: prvFlow  
   
