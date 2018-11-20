@@ -32,7 +32,7 @@ Customer 360 is a page where you can get the complete information about the cust
 
 -   All activities
 
-![omni-channel customer 360 page](media/oc-usd-customer360-page.png "Omni-channel Customer 360 page")  
+![omni-channel customer 360 page](../media/oc-usd-customer360-page.png "Omni-channel Customer 360 page")  
 
 #### Customer profile
 
