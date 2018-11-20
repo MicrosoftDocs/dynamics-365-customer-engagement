@@ -101,7 +101,7 @@ When you are creating new hosted control, you can select **Edge Process** as the
 
 ## Debug Edge process using Microsoft edge DevTools Preview
 
-With Edge process, you can use the Microsoft Edge DevTools Preview tool as a debugger. The Edge DevTools help you debug the webpage locally or remotely.
+With Edge process, you can use the **Microsoft Edge DevTools Preview** tool as a JavaScript debugger. The Edge DevTools help you debug the webpage locally or remotely.
 
 In the panel, you can all the active Edge process. select the desired webpage to from the active list to open a new instance.
 
