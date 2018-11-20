@@ -132,7 +132,7 @@ The Edge process doesn't support the native JavaScript alert dialog in the WebVi
 
 ### Confirm dialog support
 
-The Edge process doesn't support the confirm dialog in the WebView. If your custom code uses the confirm dialog, the Edge process in the WebView 
+The Edge process doesn't support the confirm dialog in the WebView. If your custom code uses the confirm dialog, the Edge process in the WebView does not support the execution and your code may fail.
 
 ## See also  
  [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)  
