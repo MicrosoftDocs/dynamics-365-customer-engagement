@@ -1,7 +1,7 @@
 ---
 title: "Enable embedded Flow in your Dynamics 365 Customer Engagement organization | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 11/20/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -32,8 +32,6 @@ Flow lets you create automated processes between your favorite apps and services
 The embedded Flow feature is not available in the following service or geographic regions.
 - Microsoft Dynamics 365 Government
 - Germany
-- United Kingdom (UK)
-- South America
 
   Once the embedded Flows feature is enabled, the following privileges are added in the **Miscellaneous** section of the **Customization** tab for security roles.  
   
