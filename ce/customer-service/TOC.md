@@ -30,21 +30,39 @@
 ### [Service Level Agreements](define-service-level-agreements.md)
 #### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
 ### [Entitlements](create-entitlement-define-support-terms-customer.md)
-### [Holiday Schedule](set-up-holiday-schedule.md)
-### [Customer Service Schedule](create-customer-service-schedule-define-work-hours.md)
-### [Service Configuration Settings](../admin/system-settings-dialog-box-service-tab.md)
-### [Embedded Knowledge Search](set-up-knowledge-management-embedded-knowledge-search.md)
+### [Holiday schedule](set-up-holiday-schedule.md)
+### [Service configuration settings](../admin/system-settings-dialog-box-service-tab.md)
+### [Customer service schedule](create-customer-service-schedule-define-work-hours.md)
+### [Embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
 ### [Categories](create-manage-categories.md)
-### [Entitlement Templates](set-up-entitlements-templates.md)
+### [Entitlement templates](set-up-entitlements-templates.md)
+### [Email templates](../admin/create-templates-email.md)
+### [Article templates](../admin/create-templates-articles.md)
 
 
 ## [Service Scheduling Guide](basics-service-service-scheduling.md)
-### [Business closure](set-when-business-closed.md)
-### [Create or change a service](create-edit-service.md)
-### [Schedule a service activity](schedule-service-activity.md)
-### [Facilities/Equipment](add-facilities-equipment-service-scheduling.md)
-### [Resource Groups](create-edit-resource-group.md)
-### [Sites](use-sites-manage-service-locations.md)
+### [Manage security roles](manage-security-roles.md)
+### Schedule entities
+#### [Resources](resources-service-scheduling.md)  
+#### [Resource Categories](resource-categories-service-scheduling.md)
+#### [Facilities and Equipments](add-facilities-equipment-ss-csh.md)
+#### [Services](create-edit-service-csh.md)
+#### [Service Activities](schedule-service-activity-csh.md)
+### Configure using tools
+#### [Schedule Board](use-schedule-board-configure-service-activity.md) 
+### Work with settings
+#### [Organizational Units](create-org-units-cs-scheduling.md)
+#### [Business Closure](set-when-business-closed-csh.md)
+### [Service Scheduling FAQ](service-scheduling-faq.md)
+
+### Legacy Service Scheduling (Customer Service app)
+#### [Business closure](set-when-business-closed-cs-app.md)
+#### [Set work hours to define availability](set-work-hours-resource.md)
+#### [Create or change a service](create-edit-service-cs-app.md)
+#### [Schedule a service activity](schedule-service-activity-cs-app.md)
+#### [Facilities/Equipment](add-facilities-equipment-cs-app.md)
+#### [Resource Groups](create-edit-resource-group.md)
+#### [Sites](use-sites-manage-service-locations.md)
 
 
 ## Customize

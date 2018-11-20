@@ -22,14 +22,14 @@ search.app:
   - D365CS
 ---
 
-# Set when your business is closed
+# Set when your business is closed (Customer Service app)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Prevent scheduling resources on holidays and other nonworking days by defining business closures in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can set both the days and times that your organization will be closed. 
 
 > [!IMPORTANT]
-> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> With the Customer Engagement apps version 9.1 release, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you set business closures using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set when your business is closed](set-when-business-closed-csh.md)
   
 1.  Make sure you have the Schedule Manager Security role or equivalent permissions to update the business closures.  
   
@@ -41,9 +41,9 @@ Prevent scheduling resources on holidays and other nonworking days by defining b
   
 2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
   
-3.  Click **Business Closure**.  
+3.  Select **Business Closure**.  
   
-4.  To create a new business closure, on the command bar, click **New**.  
+4.  To create a new business closure, on the command bar, select **New**.  
   
      -OR-  
   
@@ -63,7 +63,10 @@ Prevent scheduling resources on holidays and other nonworking days by defining b
   
          If you want to enter a specific time period, clear the **All Day Event** check box. You can then specify the hours during which your organization will be closed.  
   
-6.  To save this business closure, click **OK**.  
+6.  To save this business closure, select **OK**.  
+
+
+    ![business-closure-cs](media/business-closure-cs-app.png)
   
 ### See also  
  [Set work hours for a resource](../customer-service/set-work-hours-resource.md)   

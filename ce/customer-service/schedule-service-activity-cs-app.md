@@ -22,16 +22,20 @@ search.app:
   - D365CS
 ---
 
-# Schedule a service activity
+# Schedule a service activity (Customer Service app)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Use this form to search for an available time for a service activity. You can either search for an open time using search criteria that, at a minimum, includes selecting a service, or you can define a more complex set of criteria. You can also create a service activity without checking for conflicts in the scheduled service. The service activity appears as a color block on the service calendar  
-  
+ 
+> [!NOTE]
+> With the Customer Engagement apps version 9.1 release, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you create service activities using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md)
+
+ 
 You can’t create a recurring service activity. Create individual service activities as needed. 
 
-Use the following links to learn more about service scheduling:
+Use the following links to learn more about service scheduling using service activity:
  
-[Navigate the service calendar](navigate-service-calendar.md)<br>
-[Find the next available time before creating a service activity](../customer-service/find-next-available-time-before-create-service-activity.md)<br/>
-[Force an activity into a time slot](../customer-service/create-service-activity-without-checking-conflicts.md)
+[Navigate the service calendar](navigate-service-calendar-cs-app.md)<br>
+[Find the next available time before creating a service activity](../customer-service/find-next-available-time-before-create-service-activity-cs-app.md)<br/>
+[Force an activity into a time slot](../customer-service/create-service-activity-without-checking-conflicts-cs-app.md)

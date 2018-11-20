@@ -22,14 +22,11 @@ search.app:
   - D365CS
 ---
 
-# Create a selection rule to determine how resources are selected for service activities
+# Create a selection rule to determine how resources are selected for service activities (Customer Service app)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Before you can add a resource to a service, you must define a selection rule to determine how resources are selected for service activities. 
-
-> [!IMPORTANT]
-> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
 You can create a simple rule that selects resources from a list, and nest selection rules and sub-rules to create compound and complex rules. A compound rule selects a combination of resources, and a complex tree of selection rules selects from groups of equivalent resources.  
   
@@ -93,5 +90,5 @@ You can also add resources to existing selection rules.
 >  After you set up the selection rule, create a service activity for the service rule and check the search results to verify that the results are what you expect.  
   
 ### See also     
- [Schedule a service activity](schedule-service-activity.md)   
+ [Schedule a service activity](schedule-service-activity-csh.md)   
  [Create or change a resource group](create-edit-resource-group.md)

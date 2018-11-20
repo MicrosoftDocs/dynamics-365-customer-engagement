@@ -8,7 +8,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
 manager: shujoshi
-ms.date: 09/15/2017
+ms.date: 10/01/2018
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
 ms.topic: article
@@ -22,18 +22,18 @@ search.app:
   - D365CS
 ---
 
-# Set the capacity (number of activities in stipulated time) for a service or resource
+# Set the capacity for a service or resource (Customer Service app)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Define a limit to the number of activities a resource can perform in a stipulated time by setting the capacity of the resource and services in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] for Customer Service. 
-
-> [!IMPORTANT]
-> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
 You must set both the capacity of the service and the resources required for the service.  
   
 When you set capacity of a resource and service, the service calendar doesn’t allow booking the resources once they reach their capacity.  
+
+> [!IMPORTANT]
+> With the Customer Engagement apps version 9.1 release, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you set capacity using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a service in Service Scheduling](create-edit-service-csh.md)
   
 ## Set the capacity of a service  
   
