@@ -2,7 +2,7 @@
 title: "Use Dynamics 365 tags for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn about Dynamics 365 tags available in portal"
 keywords: "Dynamics 365 tags; liquid tags"
-ms.date: 10/17/2018
+ms.date: 11/20/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -54,10 +54,6 @@ Adds the Power BI dashboards and reports within pages. The tag can be added in t
 > [!NOTE]
 > For the tag to work, you must [enable Power BI integration](set-up-power-bi-integration.md) from Portal Admin Center. If the Power BI integration is not enabled, dashboard or report will not be displayed.
 
-```
-{% powerbi path:"https://app.powerbi.com/view?r=eyJrIjoiNjMzZTY1ZTItMDE2My00NGY5LWIwYmItNjUwMGY5NzEY3IiwidCI6IjU3NGMzZTU2LTQ5MjQtNDAwNC1hZDFhLWQ4NDI3ZTdkYjI0MSiOjZ9" %}
-```
-
 ### Parameters
 
 The powerbi tag accepts the following parameters:
@@ -66,21 +62,53 @@ The powerbi tag accepts the following parameters:
 
 Path of the Power BI report or dashboard. If the Power BI report or dashboard is secure, you must provide the authentication type.
 
+```
+{% powerbi path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01" %}
+```
+
 **authentication_type**
 
 Type of authentication required for the Power BI report or dashboard. Valid values for this parameter are Anonymous or AAD. The default value is Anonymous.
 While adding the secure Power BI report or dashboard, ensure that it is shared with Dynamics 365 Portal Azure Active Directory authenticated users. 
 
 ```
-{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSectionc01" %}
+{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01" %}
 ```
+
+You can also filter the report on one or more values. The syntax to filter a report is:
+
+URL?filter=**Table**/**Field** eq '**value**'
+
+For example, say you want to filter the report to see data for a contact named Bert Hair. You must append the URL with the following:
+
+?filter=Executives/Executive eq 'Bert Hair'
+
+The complete code will be:
+
+```
+{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01?filter=Executives/Executive eq 'Bert Hair'" %}
+```
+
+More information on filtering a report: [Filter a report using query string parameters in the URL](https://docs.microsoft.com/en-us/power-bi/service-url-filters)
+
+> [!NOTE]
+> Anonymous report doesn't support filtering. 
+
+You can also create a dynamic path by using the `capture ` Liquid variable as below:
+
+```
+{% capture pbi_path %}https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01?filter=Executives/Executive eq '{{user.id}}'{% endcapture %}
+{% powerbi authentication_type:"AAD" path:pbi_path %}
+```
+
+More information on Liquid variable: [Variable tags](variable-tags.md)
 
 **tileid**
 
 Displays the specified tile of the dashboard. You must provide the ID of the tile.
 
 ```
-{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/dashboards/00000000-0000-0000-0000-000000000001" tileid:"0000005" %}
+{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/dashboards/00000000-0000-0000-0000-000000000001" tileid:"00000000-0000-0000-0000-000000000002" %}
 ```
 
 ## editable
