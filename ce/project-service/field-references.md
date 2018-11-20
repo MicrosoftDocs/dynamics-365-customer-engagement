@@ -1,11 +1,11 @@
 ---
 title: Add custom fields to price setup and transactional entities 
-description: 9-step walkthrough for using custom fields and/or custom entities as pricing dimensions  
+description: This topic provides information about adding custom fields to price setup and transactional entities. 
 author: Rumant
 manager: eichimur
 ms.custom:
   - dyn365-projectservice
-ms.date: 11/06/2018
+ms.date: 11/20/2018
 ms.topic: article
 ms.prod: Project Service
 ms.service: business-applications
@@ -20,27 +20,21 @@ search.app:
 ---
 
 # Add custom fields to price setup and transactional entities 
-Assuming you have completed the common steps 1 to 4 and created your pricing dimension solution, we will proceed to adding the required references for these custom fields to entities and the User Interface elements such as Forms and Views in Project Service solution
+This topic assumes that you have completed the procedures in the topic, [Create custom fields and entities](create-custom-fields-entities.md). If you haven't completed those procedures, go back and complete them and then return to this topic. In this topic, the procedures will show you how to add the required custom field references to entities and to the UI elements such as forms and views.
 
-## 5. Add custom pricing dimension fields to price setup and transactional entities
+## Add custom pricing dimension fields 
+After custom fields and entities have been created, the next step is to make price setup and transactional entities aware of your custom entities or option sets by creating reference fields. Depending on whether your pricing dimensions list includes option set dimensions or entity dimensions or both, follow only the steps in **Option-set based custom pricing dimensions** or **Entity-based custom pricing dimensions**, or both, respectively.
 
-Once custom fields and entities have been created, the next step is to make Project Service price setup and business transactional entities aware of your custom entities or option sets by creating reference fields. Depending on whether your pricing dimensions list includes option set dimensions or entity dimensions or both, follow only the steps in a. Option-set based custom pricing dimensions OR only b. Entity-based custom pricing dimensions, OR follow both.
+### Option-set based custom pricing dimensions:
+When a custom pricing dimension is an option-set, you will add it as a field to key Project Service entities. In our example, **Resource Work Location** and **Resource Work Hours** are option-set based pricing dimensions. These first must be added as fields to the pricing entities, **Role Price** and **Role Price Markup** entities.
 
-### a. Option-set based custom pricing dimensions:
+[!IMPORTANT]
+> When you add fields on entities, keep the field name the same across all of the entities that you are adding the field to. 
 
-In the scenario where a custom pricing dimension is an option-set, you will simply be adding it as a field to key Project Service entities. In our example scenario, Resource Work Location and Resource Work Hours are option-set based pricing dimensions. We will first need to add these as fields to the Project Service Pricing entities: Role Price and Role Price Markup entities.
-
-**_Important: When you add fields on the entities, it is important to keep the field name the same across all the entities that you will be adding it to. This will help to simplify the setup._**
- 
-
-*Adding Resource Work Location to Role Price*
 > ![Adding Resource Work Location to Role Price](media/RWL-Field.png)
  
+In the sales and estimation phases for a project, estimates of the work effort that is required to complete **Local** and **Onsite**, and in **Regular hours** and **Overtime hours** to estimate the value of the Quote/Project accurately. The fields **Resource Work Location** and **Resource Work Hours** will be added to the estimation entities, **Quote Line Detail**, **Contract Line detail**, **Project Team Member**, and **Estimate Line**.
 
-
-In the sales and estimation phases for a project, we will need to estimate work effort required to be done “Local” and “Onsite,” and in “Regular hours” and “Overtime hours” to estimate the value of the Quote/Project accurately. So, we will need to add “Resource Work Location” and “Resource Work Hours” as fields to each of these estimation entities in Project Service: Quote line Detail, Contract line detail, Project Team Member, and Estimate Line.
-
-*Adding Resource Work Location to Estimate Line*
 > ![Adding Resource Work Location to Estimate Line](media/RWL-Default-Value.png)
 
 Taking the scenario through to Delivery and Invoicing phases, we need to price the work done accurately based on whether it was “Local” or “Onsite” performed during “Regular hours” or “Overtime” on the Project Actuals. We will need to add “Resource Work Location” and “Resource Work hours” as fields to Time Entry, Approval, Actual, Invoice Line Detail, and Journal Line entities.
@@ -50,7 +44,7 @@ Taking the scenario through to Delivery and Invoicing phases, we need to price t
 
 This completes the schema changes required for Option-set based custom dimensions
 
-### b. Entity-based custom pricing dimensions
+### Entity-based custom pricing dimensions
 
 In the scenario where the custom pricing dimension is an entity, you will be adding 1:N relationships between the dimension entity and key Project Service entities. In our example, it is reasonable to expect that Contoso assigns a standard title to each of its employees. So we will need a 1:N relationship from Standard Title to Bookable Resource.
 
