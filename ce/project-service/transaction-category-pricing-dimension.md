@@ -22,8 +22,8 @@ search.app:
 # Use transaction category as a pricing dimension
 This topic shows how to use a transaction category as a pricing dimension. Before you begin, if you have not already created a pricing dimension solution, you will need to create a new one. If you already have a pricing dimension solution, then you can make your changes in that solution. If you have not created a new pricing dimension solution for your organization, complete the procedures in the [Create custom fields and entities](create-custom-fields-entities.md) topic.
 
-## Add a transaction category to forms and views
-To make a transaction category visible in the UI in the pricing dimension solution, you will need to walk through all the forms and views of the key entities and add these fields to the forms and views of those entities.
+## Add transaction category to forms and views
+To make transaction category visible in the UI in the pricing dimension solution, you will need to walk through all the forms and views of the key entities and add these fields to the forms and views of those entities.
 The following table is a comprehensive list of the out-of-the box forms and views, listed by entity, that will need to be updated with the new fields. If there any additional views or forms in your customizations on these entities, add the new fields to those as well.
 
 |  Entity        | Forms     |Views        |
@@ -38,7 +38,7 @@ The following table is a comprehensive list of the out-of-the box forms and view
 |  Invoice Line Detail|• Information<br>• Quick create|• Active Invoice Line Details<br>• Chargeable Invoice Transactions<br>• Complimentary Invoice Transactions<br>• Invoice Line Detail associated view<br>• Non-Chargeable Invoice Transactions|
 |  Actual|• Information<br>• Active Actuals|• Actual Associated view|
 
-## Set up a transaction category as a pricing dimension
+## Set up transaction category as a pricing dimension
 
 1. In the web interface, go to **Project Service** > **Settings** > **Parameters**. 
 2. On the **Parameters** page, on the **Amount-Based Pricing Dimensions** tab, note the grid on the tab shows the records in the **Pricing Dimensions** entity.
