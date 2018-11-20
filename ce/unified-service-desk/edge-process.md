@@ -128,7 +128,11 @@ The Edge process does not support the **CloseAndPrompt** action for Dynamics 365
 
 ### Alert dialog support with WebView control
 
-The Edge process doesn't support the native JavaScript alert dialog in the WebView.  When you use Edge WebView control, the alert dialog shows the information. However, the alert does not stop the JavaScript execution. That is, even though you do not perform an action on the alert dialog, the JavaScript execution continues.
+The Edge process doesn't support the native JavaScript alert dialog in the WebView. When you use Edge WebView control, the alert dialog shows the information. However, the alert does not stop the JavaScript execution. That is, even though you do not perform an action on the alert dialog, the JavaScript execution continues.
+
+### Confirm dialog support
+
+The Edge process doesn't support the confirm dialog in the WebView. If your custom code uses the confirm dialog, the Edge process in the WebView 
 
 ## See also  
  [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)  
