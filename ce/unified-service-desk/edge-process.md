@@ -41,6 +41,8 @@ The advantages of Edge process are as follows:
 > [!NOTE]
 > To use Edge process, you must have the latest Windows 10 operating system (Windows 10 October 2018 release).
 
+Setting the **GlobalBrowser** mode key to **Edge** in the application configuration file (UnifiedServiceDesk.exe.config) for a particular client desktop takes the precedence over other settings. That is, even though at the organization level or if the hosted controls have different hosting type such as **IE Process** and/or **Internal WPF**, the settings from the application configuration file (UnifiedServiceDesk.exe.config) takes the precedence and uses the edge process to host the applications.
+
 ## Enable Edge process
 
 Enable the edge process using any of the following ways:
@@ -49,9 +51,7 @@ Enable the edge process using any of the following ways:
 - Enable for entire organization
 
 > [!NOTE]
-> Use any one of the methods to enable edge process.
-
-
+> Enable the edge process either for individual client desktops or for entire organization.
 
 ### Enable Edge for Unified Service Desk on client desktop
 
@@ -67,7 +67,7 @@ Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 
 ### Enable Edge for entire organization
 
-Add a new Global UI option for your organization named GlobalBrowserMode with value as Edge
+Add a new Global UI option for your organization named **GlobalBrowserMode** with value as **Edge**.
 
 1. Sing-in to Dynamics 365.
 
@@ -98,6 +98,37 @@ When you are creating new hosted control, you can select **Edge Process** as the
 5. In the **New Hosted Control** page, specify the details and select **Edge process** from the **Hosting Type** drop-down.
 
 6. Select **Save** to create the hosted control.
+
+## Debug Edge process using Microsoft edge DevTools Preview
+
+With Edge process, you can use the Microsoft Edge DevTools Preview tool as a debugger. The Edge DevTools help you debug the webpage locally or remotely.
+
+In the panel, you can all the active Edge process. select the desired webpage to from the active list to open a new instance.
+
+More information: [Microsoft Edge DevTools Preview](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide)
+
+## Limitations of Edge process
+
+### RunScript action
+
+The Edge browser support only the asynchronous operations, and the RunScript action will be asynchronous.
+If your custom code execution is dependent on the return value provided by RunScript action that injects JavaScript into the main frame of the application, then your custom code execution may fail.
+
+For example, Your custom code has a RunScript actions that injects the JavaScript into the main frame of the application followed by an operation or another RunScript action. The RunScript action is invoked and returns a value after the JavaScript injection. If the subsequent operation or another RunScript action executes based on the return value provided by the executed RunScript action, then subsequent operations of your custom code will fail.
+
+#### Scenario example 
+
+You create a new record using the CreateEntity on Global Manager in Dynamics 365. After the record is created and you get a return value, which is the GUID of the new record. This new GUID  is a string that will in the form `[[$Return.ActionCallName]]` and placed in replacement parameter list. If you use this return value as input to the next operation, then your custom execution will fail.
+
+To mitigate the code execution failure, you can create custom event and the action call fires the custom event. You need to move the subsequent operations or actions to this custom event to ensure the custom code execution doesn't fail.
+
+### CloseAndPrompt action
+
+The Edge process does not support the **CloseAndPrompt** action for Dynamics 365 for Customer Engagement Web Client. When you make changes in a webpage or a form on Web Client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
+
+### Alert dialog support with WebView control
+
+The Edge process doesn't support the native JavaScript alert dialog in the WebView.  When you use Edge WebView control, the alert dialog shows the information. However, the alert does not stop the JavaScript execution. That is, even though you do not perform an action on the alert dialog, the JavaScript execution continues.
 
 ## See also  
  [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)  
