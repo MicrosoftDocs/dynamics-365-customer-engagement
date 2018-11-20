@@ -21,7 +21,7 @@ search.app:
 
 # Set up custom fields as pricing dimensions 
 
-In the Project Service web interface, on the **Parameters** page, the **Amount-Based Pricing Dimensions** tab shows the records in the pricing dimension entities. By default, Project Service installation creates 2 rows in the grid on this tab:
+This topic provides information about setting up custom pricing dimensions. In the Project Service web interface, on the **Parameters** page, the **Amount-Based Pricing Dimensions** tab shows the records in the pricing dimension entities. By default, Project Service installation creates 2 rows in the grid on this tab:
 
 - **msdyn_resourcecategory** (Role)
 - **msdyn_OrganizationalUnit** (Organizational Unit)
@@ -41,7 +41,7 @@ Notice that Resource Work hours (**msdyn-resourceworkhours**) has been added as 
 ![Markup - based Pricing Dimension Rows](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
-> Any change to pricing dimension data in this table, existing or new, is propagated to the Project Service pricing business logic only after the cache is refreshed. The cache refresh time can be upto 10 minutes. Allow that length of time to see the changes in price defaulting logic that must result from changes to the Pricing Dimension data.
+> Any change to pricing dimension data in this table, existing or new, is propagated to the Project Service pricing business logic only after the cache is refreshed. The cache refresh time may take up to 10 minutes. Allow that length of time to see the changes in price defaulting logic that must result from changes to the Pricing Dimension data.
 
 
 ## Attributes of the Pricing Dimensions table
@@ -72,13 +72,13 @@ There are two types of pricing dimensions:
 If a resource from Contoso India whose base rate is 100 USD is working onsite, and they log 8 hours of Regular time and 2 hours of overtime on the time entry, the Project Service pricing engine will use the base rate of 100 for the 8 hours to record 800 USD. For the 2 hours overtime, a markup of 15% will be applied to the base rate of 100 to get a unit price of 115 USD and will record a total cost of 230 USD.
 
 ### Applicable to Cost 
-When this is set to **Yes**, it indicates that the dimension value from the input context should be used to match to the **Role Price** and **Role Price Markup** when retrieving the cost and markup rates.
+If this is set to **Yes**, it indicates that the dimension value from the input context should be used to match to the **Role Price** and **Role Price Markup** when retrieving the cost and markup rates.
 
 ### Applicable to Sales
-When this is set to **Yes**, it indicates that the dimension value from the input context should be used to match to the **Role Price** and **Role Price Markup** when retrieving the bill and markup rates.
+If this is set to **Yes**, it indicates that the dimension value from the input context should be used to match to the **Role Price** and **Role Price Markup** when retrieving the bill and markup rates.
 
 ### Applicable to Purchase
-When this is set to **Yes**, it indicates that the dimension value from the input context should be used to match to the **Role Price** and **Role Price Markup** when retrieving the purchase price. Currently Project Service does not support Subcontracting scenarios, so this field is not used. 
+If this is set to **Yes**, it indicates that the dimension value from the input context should be used to match to the **Role Price** and **Role Price Markup** when retrieving the purchase price. Currently Project Service does not support subcontracting scenarios, so this field is not used. 
 
 ### Priority
 Setting the dimension priority helps Project Service pricing produce a price even when it can't find an exact match between the input dimension values and the values from the **Role Price** or **Role Price Markup** tables. In this scenario, Project Service will use null values for unmatched dimension values by weighing the dimensions in order of their priority.
