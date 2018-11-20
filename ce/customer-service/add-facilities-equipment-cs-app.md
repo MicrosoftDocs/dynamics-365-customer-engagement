@@ -22,14 +22,14 @@ search.app:
   - D365CS
 ---
 
-# Add facilities and equipment for service scheduling
+# Add facilities and equipment for service scheduling (Customer Service app)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Facilities and equipment are resources you’d use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. Add these resources to [!INCLUDE[pn_dynamics-crm](../includes/pn-dynamics-crm.md)] to ensure optimal services to your customers.  
 
 > [!IMPORTANT]
-> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> With the Customer Engagement apps version 9.1 release, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you create facilities and equipments using the new experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add facilities and equipments to schedule service](add-facilities-equipment-ss-csh.md)
   
 ## Add a facility or equipment  
   
@@ -47,15 +47,15 @@ Facilities and equipment are resources you’d use to perform services for your 
   
    [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)]
   
-3.  Choose **Facilities/Equipment**.  
+3.  Select **Facilities/Equipment**.  
   
-4.  On the command bar, choose **New**.  
+4.  On the command bar, select **New**.  
   
 5.  Fill in the information as required:  
   
     - **Name**. Enter the name of the facility or equipment you want to add for service scheduling.  
   
-    - **Business Unit**. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] enters the business unit automatically. To choose a different business unit, choose the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button") and then select from the list.  
+    - **Business Unit**. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] enters the business unit automatically. To select a different business unit, select the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button") and then select from the list.  
   
     - **Site**. Select the location where the facility or equipment is located.  
   
@@ -68,7 +68,9 @@ Facilities and equipment are resources you’d use to perform services for your 
   
     - **Description**. Add details about the facility or equipment, such as the numbers, size, make, or model.  
   
-6.  When you’re done, choose **Save** or **Save and Close**.  
+6.  When you’re done, select **Save** or **Save and Close**.  
+
+    ![facility-cs-app](media/facility-equipment-cs-app.png)
   
 ### See also  
  [Basics of service and service scheduling](../customer-service/basics-service-service-scheduling.md)
