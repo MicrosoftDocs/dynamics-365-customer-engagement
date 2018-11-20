@@ -25,17 +25,17 @@ search.app:
 > [!NOTE]
 > If you are not using the Project Service Automation (PSA) Quoting and Contracting features, you can skip this topic.
 
-When a quote line detail is created on the **Quote Line** page for a project quote line, the system creates two estimate lines in the background. One line for the cost-side of the estimate and one for sales-side. This is true for project contract lines as well.
+When a quote line detail is created on the **Quote Line** page for a project quote line, the system creates two estimate lines in the background -- one line for the cost side of the estimate and one for sales side. This is the same  for project contract lines.
 
-When you make a change to the quantity or a field on the cost side, that change is propagated to the sales side. This is possible because of the two plug-ins that must be re-registered after a change to pricing dimensions:
+When you make a change to the quantity or a field on the cost side, that change is propagated to the sales side. This is possible because of the following plug-ins that must be re-registered after a change to pricing dimensions.
 
-- PreOperationContractLineDetailUpdate - Update **msdyn_orderlinetransaction**
-- PreOperationQuoteLineDetailUpdate - Update of msdyn_quotelinetransaction
+- PreOperationContractLineDetailUpdate - Updates **msdyn_orderlinetransaction**.
+- PreOperationQuoteLineDetailUpdate - Updates **msdyn_quotelinetransaction**.
 
-The followign steps will walk you through the process of registering the plug-ins.
+The following steps walk you through the process of registering the plug-ins.
 
 1. Open the **PluginRegistrationTool** and connect to your online instance.
-2. Click **Search** and search for the plug-in to be updated:
+2. Click **Search** and search for the plug-in to be updated.
 
  ![Screenshot of the search tree](media/PRT-1.png)
 
@@ -45,7 +45,7 @@ The followign steps will walk you through the process of registering the plug-in
 
  ![Screenshot of the plug-in to be updated](media/PRT-2.png)
  
-5. In the update window, click **...** in the filtering attributes.
+5. In the update window, click the ellipsis (**...**) in the filtering attributes.
 
  ![Screenshot of the Update existing step config information](media/PRT-3.png)
  
@@ -53,7 +53,7 @@ The followign steps will walk you through the process of registering the plug-in
 
  ![Screenshot showing checkbox selection for pricing attributes](media/PRT-4.png)
 
-7. Click **OK** to close the form and then select **Update Step**.
+7. Click **OK** to close the page and then select **Update Step**.
 
  ![Screenshot showing the “Update Step” button](media/PRT-5.png)
  
