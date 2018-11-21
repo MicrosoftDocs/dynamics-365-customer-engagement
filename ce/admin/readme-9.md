@@ -139,7 +139,7 @@ Sales and Customer Service web client apps
 
 -   The relationship assistant control is not supported for custom dashboards.    
 
--   Knowledge Articles are displayed unformatted when relevance search is
+-   Knowledge Articles are displayed unformatted when Relevance Search is
     enabled.
 
 -   In order for the entity name to work with Customer Service embedded knowledge search, the maximum entity name length, including the       publisher prefix, can’t exceed 24 characters.
@@ -212,9 +212,9 @@ in the browser or on mobile devices for each scenario. 
     -   Quick forms with multiple lines of text occupy a large amount of
         vertical space on the Reference Panel section in forms. Scroll downwards
         to see more fields.
-<!-- Meaning unclear in Lines 216/217. Change "if the related section is in the loaded as a list" to "if the related section is loaded as a list"? -->
+
     -   In the Knowledge Article form summary section, related articles and products will not open within the subgrid if the related
-        section is in the loaded as list.
+        section is loaded as a list.
         To work around this issue, reduce the screen resolution to load the related section as a grid instead of a list.
 
 -   Other
@@ -238,8 +238,8 @@ in the browser or on mobile devices for each scenario. 
         
     -   Only the first keyword added to a Knowledge Article returns results in a
         quick find search.
-        <!-- In line 242, delete "and"? -->
-    -   A subject associated with any Knowledge Article and cannot be deleted.
+        
+    -   A subject associated with any Knowledge Article cannot be deleted.
 
 ### Customer Service Hub (Internet Explorer 11 only)
 
