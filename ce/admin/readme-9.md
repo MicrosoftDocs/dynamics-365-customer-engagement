@@ -2,7 +2,7 @@
 title: "Dynamics 365 for Customer Engagement Readme (Known Issues) | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 11/15/2018
+ms.date: 11/19/2018
 ms.service:
   - "crm-online"
 ms.topic: article
@@ -142,7 +142,7 @@ Sales and Customer Service web client apps
 -   Knowledge Articles are displayed unformatted when relevance search is
     enabled.
 
--   In order for the entity name to work with Customer Service embedded knowledge search, the maximum entity name length including the       publisher prefix can’t exceed 24 characters.
+-   In order for the entity name to work with Customer Service embedded knowledge search, the maximum entity name length, including the       publisher prefix, can’t exceed 24 characters.
     
 -   Knowledge Articles creation and authoring is not supported on the web client, and is supported only in the Unified Interface. When you click the out-of-the-box Knowledge Article node in the Dynamics 365 for Customer Engagement custom web app sitemap, the page auto refreshes and redirects to the default landing page after seven seconds. Knowledge Articles open in a new tab in the Customer Service Hub application. Please see the new tab in your browser for accessing, creating, and managing your Knowledge articles with enhanced capabilities. If the new tab does not open automatically, check your browser’s settings to allow pop-ups. Also, check your security role privilege for accessing the Customer Service Hub application. 
 
@@ -212,10 +212,10 @@ in the browser or on mobile devices for each scenario. 
     -   Quick forms with multiple lines of text occupy a large amount of
         vertical space on the Reference Panel section in forms. Scroll downwards
         to see more fields.
-
-    -   In the Knowledge Article form summary section, related articles and products fail to open within the subgrid, if the related
-        section is in the loaded as list
-        Workaround - Reduce the screen resolution to load the related section as grid instead of list
+<!-- Meaning unclear in Lines 216/217. Change "if the related section is in the loaded as a list" to "if the related section is loaded as a list"? -->
+    -   In the Knowledge Article form summary section, related articles and products will not open within the subgrid if the related
+        section is in the loaded as list.
+        To work around this issue, reduce the screen resolution to load the related section as a grid instead of a list.
 
 -   Other
 
@@ -238,8 +238,8 @@ in the browser or on mobile devices for each scenario. 
         
     -   Only the first keyword added to a Knowledge Article returns results in a
         quick find search.
-        
-    -   A subject associated with any knowledge article and cannot be deleted
+        <!-- In line 242, delete "and"? -->
+    -   A subject associated with any Knowledge Article and cannot be deleted.
 
 ### Customer Service Hub (Internet Explorer 11 only)
 
