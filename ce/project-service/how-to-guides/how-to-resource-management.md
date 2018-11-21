@@ -164,9 +164,9 @@ generic resource is replaced with the named resource on the team.
 
 > ![Screenshot of named team member replacing a generic team member](../media/RM-how-to-16.png "Screenshot of a named team member replacing a generic team member")
 
-The assignment on the schedule is updated with the named resource as well.
+The assignments on the schedule are updated with the named resource as well.
 
-![](media/dfa38b56bd18fdbb4698fc6411eb3d5e.png)
+> ![Screenshot of named team member assigned to project tasks](../media/RM-how-to-17.png "Screenshot of a named team member assigned to project tasks")
 
 ### Submitting a resource request 
 
