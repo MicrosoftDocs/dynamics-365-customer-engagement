@@ -176,7 +176,7 @@ fulfillment by a resource manager persona.
 Once you have generated a resource requirement for a generic team member, click on the
 Submit Request button.
 
-![](media/94d4a65675b02692180f948651b7ae34.png)
+> ![Screenshot of submitting a resource request](../media/RM-how-to-18.png "Screenshot of a submitting a resource request")
 
 The request status of the generic team member will change to Submitted.
 
