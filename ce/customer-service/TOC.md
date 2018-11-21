@@ -41,6 +41,7 @@
 
 
 ## [Service Scheduling Guide](basics-service-service-scheduling.md)
+### [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-new-scheduling-experience)
 ### [Manage security roles](manage-security-roles.md)
 ### Schedule entities
 #### [Resources](resources-service-scheduling.md)  
