@@ -74,32 +74,29 @@ This completes the schema changes required for Option-set based custom dimension
 In the scenario where the custom pricing dimension is an entity, you will be adding 1:N relationships between the dimension entity and key Project Service entities. In our example, it is reasonable to expect that Contoso assigns a standard title to each of its employees. So we will need a 1:N relationship from Standard Title to Bookable Resource or N:1 releationship if it were created from Bookable REsource to Standard Title.
 
 1. In PSA, click **Settings** > **Solutions**, and then double-click to open  **\<your organization name> pricing dimensions** 
-2. In the left navigation on the Solution Explorer, select  **Entities > Bookable Resource**.
-3. Expand the entity **Bookable Resource** on the left navigation pane and select **N:1 Relationships**
-4. Click **New** to create a new N:1 relationship called **Bookable Resource to Standard Title**, and then click **Save**.
+2. In the left navigation on the Solution Explorer, select  **Entities > Standard Title**.
+3. Expand the entity **Standard Title** on the left navigation pane and select **1:N Relationships**
+4. Click **New** to create a new 1:N relationship called **Standard Title to Bookable Resource**, with the required information and then click **Save**.
 
 *Standard Title to Bookable Resource*
 > ![Adding Standard Title as a reference field to Bookable Resource](media/ST-BR.png)
 
 As the next step, Standard Title will also need to be added to Project Service Pricing entities: Role Price and Role Price Markup entities. This will also be done using 1:N relationships between Standard Title entities and the Role Price entity and Standard Title and Role Price Markup entities.
 
-1. In the left navigation on the Solution Explorer, select  **Entities > Role Price**.
-2. Expand the entity **Role Price** on the left navigation pane and select **1:N Relationships**
-3. Click **New** to create a new 1:N relationship called **Standard Title to role price**, and then click **Save**.
-4. Repeat these steps to create a new  also for Role Price Markup entity 
+1. In the left navigation on the Solution Explorer, select  **Entities > Standard Title**.
+3. Expand the entity **Standard Title** on the left navigation pane and select **1:N Relationships**
+4. Click **New** to create a new 1:N relationship called **Standard Title to Role Price**, with the required information and then click **Save**.
+5. Repeat these steps to create 1:N relationships from Standard Title to Role Price Markup entities
 
 And to extend the example scenario, to the sales and estimation phases, we will need to estimate work effort required for each standard title to price the Quote/Project. So we will need 1:N relationships from Standard Title to each of these estimation entities in Project Service: Quote line Detail, Project Contract Line Detail, Project Team Member, and Estimate Line
-5.
-6.
 
+6. Repeat these steps to create 1:N relationships from Standard Title to Quote line Detail, Project Contract Line Detail, Project Team Member, and Estimate Line
 
 *Standard Title to Estimate Line*
 > ![Adding Standard Title as a reference field to Estimate Line](media/ST-Estimate-Line.png)
 
-
-Continuing the scenario through to Delivery and Invoicing phases, we will need to price the work done by each standard title accurately on the Project Actuals, so we will need 1:N relationships from Standard Title to Time Entry, Project Approval, Actual, Invoice Line Detail, and Journal Line entities.
-7.
-8.
+Continuing the scenario through to Delivery and Invoicing phases, we will need to price the work done by each standard title accurately on the Project Actuals, so we will need 1:N relationships from Standard Title to Time Entry, Actual, Invoice Line Detail, and Journal Line entities.
+7. Repeat these steps to create 1:N relationships from Standard Title to Time Entry, Actual, Invoice Line Detail, and Journal Line entities.
 
 *Standard Title to Time Entry*
 > ![Adding Standard Title as a reference field to Time Entry](media/ST-Mapping.png)
@@ -107,10 +104,12 @@ Continuing the scenario through to Delivery and Invoicing phases, we will need t
 ## Step 6. Setup Dimension value defaulting using the mappings features of the platform
 
 In the context of Time Entry, it would be great to have the system default the standard title on the Time Entry from the Bookable Resource that is recording the time entry, so we will also add field mappings on the 1:N relationship from Bookable Resource to Time Entry.
-1.
-2.
 
-*Standard Title on Bookable Rsource to Standard Title on Time Entry - Field Mappings for defaulting*
+1.In the left navigation on the Solution Explorer, select  **Entities > Standard Title**.
+3. Expand the entity **Standard Title** on the left navigation pane and select **1:N Relationships**
+4. Click **Bookable Resource to Time Entry** relationship and double click to open it. On the relationship window, left navigation, click on **Use Field mappings** and click on **New** to create a new field mapping between the **Standard Titile** field on Bookable Resource entity to the **Standard Title** reference field on **Time Entry** entity 
+
+*Standard Title on Bookable Resource to Standard Title on Time Entry - Field Mappings for defaulting*
 > ![Setup field mappings to allow defaulting of Standard Title from Bookable Resource to Time Entry](media/ST-Mapping2.png)
 
 
@@ -119,8 +118,8 @@ This completes the schema changes required for Entity-based custom dimensions
 ## Step 7. Add custom fields to forms, views and business rules
 
 Once you have made all the required schema changes, the next step is to make these fields visible on the UI. For this, you will need to walkthrough the relevant forms and views of these entities and add these fields to the forms and views.
-1.
-2.
+1. Open the form or the view 
+2. On the right navigation pane, select the field and drag it on to the form canvas. If it is a view that you are editing, use the right navigation page and click on **Add fields** and in the Field lisitng dilaog select that fields that you need and click on **Ok**
 
 Below is the comprehensive list of the out-of-the-box forms and views by entity that will need to be updated with the new fields. If you have any additional views or forms in your customizations on these entities, please add the new fields to those as well.
 
