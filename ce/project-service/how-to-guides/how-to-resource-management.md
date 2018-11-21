@@ -111,7 +111,8 @@ To do this you can type the position name of the generic resource in the
 resource cell of the schedule or click the resource icon in the cell and open
 the resource picker and type the name of the generic resource you wish to create.
 
-![](media/376961383a6b6f866f04f63f6207211d.png)
+> [!div class="mx-imgBorder"] 
+> ![Screenshot of creating and assigning a generic team member](../media/RM-how-to-9.png "Screenshot of creating and assigning a generic team member")
 
 This will open a team member quick create panel that allows you to set the role
 and organization unit of the generic resource team member.
