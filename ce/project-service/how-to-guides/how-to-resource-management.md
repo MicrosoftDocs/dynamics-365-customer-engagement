@@ -215,9 +215,9 @@ day over a 5 day week.
 
 > ![Screenshot of a task needing 120hrs of effort over 5 days](../media/RM-how-to-21.png "Screenshot of a task needing 120hrs of effort over 5 days")
 
-The requirement is for 120hrs of a Robotics engineert over 5 days.
+The requirement is for 120hrs of a Robotics engineert over 5 days, which is 24hrs per day.
 
-![](media/307bbe5dfda2ccbd800bdd305f513ee5.png)
+> ![Screenshot of the per day requirement](../media/RM-how-to-22.png "Screenshot of the per day requirement")
 
 Thus, you will need to book multiple resources to fulfill the requirement.
 
