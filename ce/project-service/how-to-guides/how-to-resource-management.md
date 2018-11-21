@@ -117,7 +117,8 @@ the resource picker and type the name of the generic resource you wish to create
 This will open a team member quick create panel that allows you to set the role
 and organization unit of the generic resource team member.
 
-![](media/2b6c13d7480d09cec866c33405d17e7d.png)
+> [!div class="mx-imgBorder"] 
+> ![Screenshot of generic team member quick create](../media/RM-how-to-10.png "Screenshot of generic team member quick create")
 
 Once created, it is assigned to the task and you can continue to assign that
 generic resource to other tasks in the task schedule.
