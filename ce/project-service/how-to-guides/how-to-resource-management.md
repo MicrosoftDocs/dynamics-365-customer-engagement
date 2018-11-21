@@ -180,8 +180,6 @@ Submit Request button.
 
 The request status of the generic team member will change to Submitted.
 
-![](media/f736aa1e89eba46a752113a76446dadc.png)
-
 Once the request is fulfilled by the resource manager, the generic resource will be
 replaced by a named resource if the resource manager has fulfilled the request
 or the generic resource will remain on the team and the request status will change to Needs Review, if
@@ -192,7 +190,7 @@ the resource manager has proposed a named resource.
 When the resource manager proposes a named resource back to the project manager,
 the generic team member’s request status changes to Needs Review.
 
-![](media/f736aa1e89eba46a752113a76446dadc.png)
+> ![Screenshot of a generic team member with a proposal](../media/RM-how-to-19.png "Screenshot of a generic team member with a proposal")
 
 Click on the arrow to open to open the team member and click on the Proposed
 Resources tab.
