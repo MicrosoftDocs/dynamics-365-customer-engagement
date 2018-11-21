@@ -43,6 +43,7 @@
 ## [Service Scheduling Guide](basics-service-service-scheduling.md)
 ### [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-new-scheduling-experience)
 ### [Manage security roles](manage-security-roles.md)
+### [Developer guide: Migrate Service Activity entity](migrate-service-activity-org-service.md)
 ### Schedule entities
 #### [Resources](resources-service-scheduling.md)  
 #### [Resource Categories](resource-categories-service-scheduling.md)
@@ -56,7 +57,7 @@
 #### [Business Closure](set-when-business-closed-csh.md)
 ### [Service Scheduling FAQ](service-scheduling-faq.md)
 
-### Legacy Service Scheduling (Customer Service app)
+### Service Scheduling (Customer Service app)
 #### [Business closure](set-when-business-closed-cs-app.md)
 #### [Set work hours to define availability](set-work-hours-resource.md)
 #### [Create or change a service](create-edit-service-cs-app.md)
