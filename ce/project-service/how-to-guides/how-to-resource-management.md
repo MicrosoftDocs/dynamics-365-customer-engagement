@@ -108,7 +108,7 @@ named resources until you are ready to staff your project with named resources. 
 mainly in the generic resource assignment and fulfilment scenario.
 
 To do this you can type the position name of the generic resource in the
-resource cell of the schedule or click the resource icon in the cell and open
+> [!div class="mx-imgBorder"] resource cell of the schedule or click the resource icon in the cell and open
 the resource picker and type the name of the generic resource you wish to create.
 
 > [!div class="mx-imgBorder"] 
@@ -128,12 +128,14 @@ generic resource to other tasks in the task schedule.
 
 Once you have assigned the generic resource you can generate a resource requirement for
 it and fulfil it either by directly booking or submitting a resource request to
-a resource manager. Also, on the team member grid, generic resources can
+a resource manager. 
+
+> ![Screenshot of generating a requirement for a generic team member](../media/RM-how-to-12.png "Screenshot of generating a requirement for a generic team member")
+
+Also, on the team member grid, generic resources can
 be added directly in addition to the resource picker experience as documented
 above. They are added with a resource requirement that is based on the start/end
 dates and allocation method specified in the quick create form.
-
-![](media/30219f2698badeaeab18b800bc7c5da1.png)
 
 You can see a difference if you add the generic team member directly and then
 assign more tasks to the generic resource than they have required hours to cover. You
