@@ -35,9 +35,13 @@ The procedures in this topic should be completed using the web interface of Proj
 > ![Creating a custom solution for pricing dimensions](media/Creation-of-custom-pricing-dimension-solution.png)
   
 ## Create custom fields and option sets in the pricing dimension solution
+
 A pricing dimension can be an option set or an entity. Both must be created in your pricing solution. The steps in this procedure explain how to create Let’s work with an example for this flow. In this walkthrough, we will create 3 pricing dimensions for a fictious company called Contoso:
 
 a. Entity-based dimension called “Standard Title” that has all the standard titles that Contoso uses.
+
+1. In PSA, click **Settings** > **Solutions**, and then double-click to open  **\<your organization name> pricing dimensions** 
+2. In the left navigation on the Solution Explorer, select  **Entities**, click New to create a new entity called **Standard Title** enter the remaining required information, and then click **Save**.
 
 *Standard Title entity definition*
 > ![Standard title entity definition](media/Standard-Title-entity-definition.png)
@@ -46,24 +50,41 @@ a. Entity-based dimension called “Standard Title” that has all the standard 
 b. Option-set based dimension called “Resource Work Location” where Contoso would like to track the price of “Home” location work and “Onsite” work.
 
 *Resource Work Location definition*
+
+1. In PSA, click **Settings** > **Solutions**, and then double-click to open  **\<your organization name> pricing dimensions** 
+2. In the left navigation on the Solution Explorer, select  **Option Sets**, click New to create a new option set called **Resource Work Location** enter the remaining required information, and then click **Save**.
+
 > ![Option set based pricing dimension called Resource Work Location ](media/Option-set-PD-called-Resource-Work-Location.png)
 
 
 
 c. Option-set based dimension called “Resource Work hours” with values “Regular” and “Overtime” where Contoso can apply a markup when work is done.
 
+1. In PSA, click **Settings** > **Solutions**, and then double-click to open  **\<your organization name> pricing dimensions** 
+2. In the left navigation on the Solution Explorer, select  **Option Sets**, click New to create a new option set called **Resource Work Hours** enter the remaining required information, and then click **Save**.
+
 *Resource Work Hours definition*
 > ![Option set based pricing dimension called Resource Work Hours ](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 
 ## Create data for your entity-based dimensions:
+
 This can be done manually or by using Excel import or service calls. For this walkthrough, we have used “Standard Title” as an entity-based dimension. Let’s create 2 standard titles: Systems Engineer and Senior Systems Engineer. If the data to create is small as in the example, you can use a standard form.
+
+1. In PSA, click **Advanced Find** > select the entity **Standard Title** and then click **Results**. All the rows in the Standard Title entity will be listed.
+2. Click **New** to open  the form to create a new Standard Title, enter the text **Systems Engineer** in the name field and click **Save** 
+3. Close the form 
+4. Repeat the same steps for the other **Standard Title** _Senior Systems Engineer_
 
 *Sample Data for Standard Title entity*
 > ![Sample Data for Standard Title entity ](media/ST-data.png)
 
 ## Add all the required PSA entities and related components to the Pricing Dimension Solution
 As a next step, you will need to add the following entities in the Project Service to your pricing solution. This step will allow us to make some important schema changes in the pricing solution so that these entities become aware of our new pricing dimensions.
+
+1. In PSA, click **Settings** > **Solutions**, and then double-click to open  **\<your organization name> pricing dimensions** 
+2. In the left navigation on the Solution Explorer, select **Add Existing** and then click on  **Entities**.
+3. In the **Solution Components** dialog, select the following entities
 
 **List of entities to add**
 1. Actual
