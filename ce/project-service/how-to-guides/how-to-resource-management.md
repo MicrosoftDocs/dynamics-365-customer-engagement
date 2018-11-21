@@ -123,7 +123,8 @@ and organization unit of the generic resource team member.
 Once created, it is assigned to the task and you can continue to assign that
 generic resource to other tasks in the task schedule.
 
-![](media/d8c768c0f124862621c82b9b1e606c23.png)
+> [!div class="mx-imgBorder"] 
+> ![Screenshot of assigning existing generic team member to tasks](../media/RM-how-to-11.png "Screenshot of assigning existing generic team member to tasks")
 
 Once you have assigned the generic resource you can generate a resource requirement for
 it and fulfil it either by directly booking or submitting a resource request to
