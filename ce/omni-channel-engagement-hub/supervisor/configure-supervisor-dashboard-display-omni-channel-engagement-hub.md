@@ -73,7 +73,7 @@ Create app workspace in Power BI to add and refine collections of dashboards and
     *https://msit.powerbi.com/groups/7b712501-788g-41e9-a136-30484a39f09f/groupWelcome*<br>
     The workspace ID value is *7b712501-788g-41e9-a136-30484a39f09f*.
 
-More information: [*Create workspaces with your colleagues in Power BI*](power-bi/service-create-workspaces).   
+More information: [*Create workspaces with your colleagues in Power BI*](/power-bi/service-create-workspaces).   
 
 ## Step 6: Provision Power BI reports in your workspace 
 When you provision the Power BI reports, the **SupervisorOverviewComputational** and **SupervisorOverviewOperational** reports will be available in your workspace. These reports are necessary to create dashboards for supervisor.  
