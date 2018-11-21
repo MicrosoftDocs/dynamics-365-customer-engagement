@@ -100,7 +100,7 @@ bookings or use the Schedule Board directly to manage their bookings.
 > [!div class="mx-imgBorder"] 
 > ![Screenshot of maintaining bookings for a team member](../media/RM-how-to-8.png "Screenshot of maintaining bookings for a team member")
 
-## Assigning a generic bookable resource on a task and project team and then fulfilling with a “named” resource via Schedule Board 
+> ![Screenshot of generating a requirement for a generic team member](../media/RM-how-to-12.png "Screenshot of generating a requirement for a generic team member")## Assigning a generic bookable resource on a task and project team and then fulfilling with a “named” resource via Schedule Board 
 
 In addition to booking and assigning named or real resources to your project,
 you can assign generic resources to project tasks. These resources can serve as placeholders for
@@ -145,7 +145,7 @@ against assignments.
 You can also click the resource requirement link in the team grid to open the requirement and add skills, preferred
 resources, etc.
 
-![](media/dfa38b56bd18fdbb4698fc6411eb3d5e.png)
+> ![Screenshot of a resource requirement](../media/RM-how-to-13.png "Screenshot of a resource requirement")
 
 ### Booking a named resource directly
 
