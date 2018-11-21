@@ -168,14 +168,17 @@ Make sure that you have the required security role or equivalent permissions.
 
 2.  Get the scheduling package.
 
-      a. Go to the
-        [Microsoft Insider Program](https://experience.dynamics.com/insider/campaign/?id=0FAAC2DF-32DB-E811-A96B-000D3A1BECE3).
+    a. Access the [Dynamics Insider Portal](http://experience.dynamics.com/insider). </br>
+    b. Log in with your Insider credentials. </br>
+    c. On the Insider home page, search for **Dynamics 365 Service Scheduling**. </br>
+    d. Select the program link in the search results and select **Join Now**. 
+    This will add you as a participant to the program. </br>
+    e. On the program page, sign-up to enable Service Scheduling on URS. The link will open a simple questionnaire and one of the questions is the instance URL; provide the URL of the instance. </br>
+    
+    As we receive your details, we will enable the Service Scheduling package on your Dynamics 365 instance and you will recieve a confirmation email from Microsoft.
 
-      b. Sign in and join the program by selecting **Join now** and follow the instructions. 
+    Once you receive the email, you can access your Dynamics 365 Admin portal to install Dynamics 365 Service Scheduling on the enabled instance. 
 
-      c. As we receive your details, we will enable the Service Scheduling package on your Dynamics 365 org and you will recieve a confirmation email from Microsoft.
-
-      d. Once you receive the email, go to your org’s admin center to install Service scheduling.
 
   
 3. Access scheduling in the Customer Service Hub sitemap.
@@ -198,7 +201,7 @@ Make sure that you have the correct security role or equivalent permissions. Kno
 To know how to migrate your service activity entity records from legacy to new experience by running SDK code samples, see [Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md).
 
 ## Access scheduling in the Customer Service Hub
-With the Customer Engagement apps version 9.1 release, Scheduling is built on Universal Resource Scheduling (URS), and is available from the Customer Service Hub sitemap.
+With the Customer Engagement apps version 9.1 release, Scheduling is powered by Universal Resource Scheduling (URS), and is available from the Customer Service Hub sitemap.
 
 - On the sitemap icon ![Sitemap](media/sitemap-icon.png) , select **...** to go to **Scheduling** and access the entity record types
 

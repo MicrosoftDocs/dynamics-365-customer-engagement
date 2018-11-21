@@ -67,10 +67,6 @@ After selecting a record in the view, edit the forms and fields. For instance, i
 
 Moving beyond the traditional entity-view-form layout, mobile customizers can replace the entire mobile interface using custom HTML and JavaScript that works offline.
 
-In the screenshot example below, the mobile app has been customized to display Dynamics 365 data for real estate properties as tiles with images, so that an agent can discuss with potential buyers onsite.
-
-> ![Screenshot of offline html example on the mobile app](media/mobile-offline-html-example.png)
-
 ## Common configurations
 
 Now that we've looked at a few of the common display customizations, let's take a look at how you can configure the app to work in ways that suit your business and security needs. 
