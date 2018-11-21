@@ -61,6 +61,6 @@ Make sure that you have the required security role or equivalent permissions.
 6.  To save this business closure, select **OK**.  
   
 ### See also  
- [Set work hours for the resources](resources-service-scheduling.md#set-work-hours-for-the-resources)
- [Set up a holiday schedule](../customer-service/set-up-holiday-schedule.md)   
+ [Set work hours for the resources](resources-service-scheduling.md#set-work-hours-for-the-resources) </br>
+ [Set up a holiday schedule](../customer-service/set-up-holiday-schedule.md)   </br>
  [Create a customer service schedule and define the work hours](../customer-service/create-customer-service-schedule-define-work-hours.md)

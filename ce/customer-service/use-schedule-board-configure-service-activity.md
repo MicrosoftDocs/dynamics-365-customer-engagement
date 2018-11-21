@@ -85,8 +85,7 @@ You can select unscheduled service activities and schedule a booking using the *
    - Select the start and end date and time using the calendars in **Start Date** and **End Date**.
    - Select **Booking Status** from the drop-down list.
    - Select **Book & Exit** to create a resource booking and exit the tab.
-
-   ![booking-from schedule-board](media/sb-booking.png)
+     ![booking-from schedule-board](media/sb-booking.png)
 
 ### See also
 
