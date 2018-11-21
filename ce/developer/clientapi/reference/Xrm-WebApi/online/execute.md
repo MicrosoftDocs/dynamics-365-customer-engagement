@@ -183,7 +183,6 @@ Xrm.WebApi.online.execute(whoAmIRequest).then(
     function (result) {
         if (result.ok) {
             console.log("Status: %s %s", result.status, result.statusText);
-            console.log(result);
             result.json().then(
                 function (response) {
                     console.log("User Id: %s", response.UserId);
