@@ -157,7 +157,7 @@ requirement and click the book button there.
 This will open the Schedule Assistant which you use to select and book a named
 resource onto your project team.
 
-![](media/00514ba537ffe069e2d3b8ae3236ce0a.png)
+> ![Screenshot of booking a generic team member using schedule assistant](../media/RM-how-to-15.png "Screenshot of booking a generic team member using schedule assistant")
 
 When the booking is complete and totally fulfilled by a named resource, the
 generic resource is replaced with the named resource on the team.
