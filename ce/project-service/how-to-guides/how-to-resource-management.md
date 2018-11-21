@@ -221,7 +221,7 @@ The requirement is for 120hrs of a Robotics engineert over 5 days, which is 24hr
 
 Thus, you will need to book multiple resources to fulfill the requirement.
 
-![](media/f764852a1f13dc1130010b7fd1cd908c.png)
+> ![Screenshot of booking multiple resources to fulfill the requirement](../media/RM-how-to-23.png "Screenshot of booking multiple resources to fulfill the requirement")
 
 The main difference in this scenario is that the generic resource remains on the
 team with the assignment to the task and the booked real team members are not
