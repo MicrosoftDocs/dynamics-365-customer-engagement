@@ -2,7 +2,7 @@
 title: "Troubleshoot Teams integration| MicrosoftDocs"
 ms.custom: ""
 description: "Troubleshoot issues with Teams integration."
-ms.date: 11/06/2018
+ms.date: 11/20/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -28,7 +28,16 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The following are error messages and possible resolutions.
+The following are issues and error messages with possible resolutions.
+
+## Issues
+
+### My Dashboard page freezes
+
+If you select **Create a Dynamics 365 Dashboard** when on the **My Dashboard** page, the page will freeze and you can't select anything in the dashboard. To remedy, select another tab such as **Settings** and then re-select **My Dashboard**. This is a known issue and will be fixed in a future release.
+
+> [!div class="mx-imgBorder"] 
+> ![Dashboard page freezes](media/teams-mydashboard-freeze.png "Dashboard page freezes")
 
 ## Error messages in the Teams app
 
