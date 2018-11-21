@@ -128,7 +128,7 @@ generic resource to other tasks in the task schedule.
 
 Once you have assigned the generic resource you can generate a resource requirement for
 it and fulfil it either by directly booking or submitting a resource request to
-a resource manager. 
+> ![Screenshot of booking a generic team member using schedule assistant](../media/RM-how-to-15.png "Screenshot of booking a generic team member using schedule assistant")a resource manager. 
 
 > ![Screenshot of generating a requirement for a generic team member](../media/RM-how-to-12.png "Screenshot of generating a requirement for a generic team member")
 
@@ -162,7 +162,7 @@ resource onto your project team.
 When the booking is complete and totally fulfilled by a named resource, the
 generic resource is replaced with the named resource on the team.
 
-![](media/7a92bf18953e1dd64b84e5c7f92dcfbf.png)
+> ![Screenshot of named team member replacing a generic team member](../media/RM-how-to-16.png "Screenshot of a named team member replacing a generic team member")
 
 The assignment on the schedule is updated with the named resource as well.
 
