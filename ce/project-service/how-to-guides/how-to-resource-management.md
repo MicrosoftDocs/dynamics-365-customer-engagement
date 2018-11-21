@@ -152,7 +152,7 @@ resources, etc.
 You can select a generic resource with a requirement and click Book on the Team tab of the project or open the resource
 requirement and click the book button there.
 
-![](media/dfa38b56bd18fdbb4698fc6411eb3d5e.png)
+> ![Screenshot of booking a generic team member](../media/RM-how-to-14.png "Screenshot of booking a generic team member")
 
 This will open the Schedule Assistant which you use to select and book a named
 resource onto your project team.
