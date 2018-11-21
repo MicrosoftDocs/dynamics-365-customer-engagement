@@ -28,16 +28,41 @@ After custom fields and entities have been created, the next step is to make pri
 ### Option-set based custom pricing dimensions:
 When a custom pricing dimension is an option-set, you will add it as a field to key Project Service entities. In our example, **Resource Work Location** and **Resource Work Hours** are option-set based pricing dimensions. These first must be added as fields to the pricing entities, **Role Price** and **Role Price Markup** entities.
 
+1.In PSA, click **Settings** > **Solutions**, and then double-click to open  **\<your organization name> pricing dimensions** 
+2. In the left navigation on the Solution Explorer, select  **Entities > Role Price**.
+3. Expand the entity **Role Price** on the left navigation pane and select **Fields**
+4. Click **New** to create a new field called **Resource Work Location** select **Option set** as the type of field 
+5. Then select to **"Use an existing Option set"** and pick the **Resource Work Location** option set that was created, and then click **Save**.
+6. Repeat the same steps for adding this field to **Role Price Markup** entity 
+7. Repeat the steps 1-5 correspondingly for **Resource Work Hours** option set.
+
 [!IMPORTANT]
 > When you add fields on entities, keep the field name the same across all of the entities that you are adding the field to. 
 
 > ![Adding Resource Work Location to Role Price](media/RWL-Field.png)
- 
+
 In the sales and estimation phases for a project, estimates of the work effort that is required to complete **Local** and **Onsite**, and in **Regular hours** and **Overtime hours** to estimate the value of the Quote/Project accurately. The fields **Resource Work Location** and **Resource Work Hours** will be added to the estimation entities, **Quote Line Detail**, **Contract Line detail**, **Project Team Member**, and **Estimate Line**.
+
+1. In PSA, click **Settings** > **Solutions**, and then double-click to open  **\<your organization name> pricing dimensions** 
+2. In the left navigation on the Solution Explorer, select  **Entities > Quote Line Detail**.
+3. Expand the entity **Quote Line Detail** on the left navigation pane and select **Fields**
+4. Click **New** to create a new field called **Resource Work Location** select **Option set** as the type of field 
+5. Then select to **"Use an existing Option set"** and pick the **Resource Work Location** option set that was created, and then click **Save**.
+6. Repeat the same steps for adding this field to **Project Contract line detail**, **Project Team Member** and **Estimate Line** entities
+7. Repeat the steps 1-6 correspondingly for **Resource Work Hours** option set. 
 
 > ![Adding Resource Work Location to Estimate Line](media/RWL-Default-Value.png)
 
-Taking the scenario through to Delivery and Invoicing phases, we need to price the work done accurately based on whether it was “Local” or “Onsite” performed during “Regular hours” or “Overtime” on the Project Actuals. We will need to add “Resource Work Location” and “Resource Work hours” as fields to Time Entry, Approval, Actual, Invoice Line Detail, and Journal Line entities.
+
+Taking the scenario through to Delivery and Invoicing phases, we need to price the work done accurately based on whether it was “Local” or “Onsite” performed during “Regular hours” or “Overtime” on the Project Actuals. We will need to add “Resource Work Location” and “Resource Work hours” as fields to Time Entry, Actual, Invoice Line Detail, and Journal Line entities.
+
+1. In PSA, click **Settings** > **Solutions**, and then double-click to open  **\<your organization name> pricing dimensions** 
+2. In the left navigation on the Solution Explorer, select  **Entities > Time Entry**.
+3. Expand the entity **Quote Line Detail** on the left navigation pane and select **Fields**
+4. Click **New** to create a new field called **Resource Work Location** select **Option set** as the type of field 
+5. Then select to **"Use an existing Option set"** and pick the **Resource Work Location** option set that was created, and then click **Save**.
+6. Repeat the same steps for adding this field to **Actual**, **Invoice Line Detail** and **Journal Line** entities
+7. Repeat the steps 1-6 correspondingly for **Resource Work Hours** option set. 
 
 *Adding Resource Work Location to time entry*
 > ![Adding Resource Work Location to Time Entry](media/RWL-time-entry.png)
@@ -46,13 +71,26 @@ This completes the schema changes required for Option-set based custom dimension
 
 ### Entity-based custom pricing dimensions
 
-In the scenario where the custom pricing dimension is an entity, you will be adding 1:N relationships between the dimension entity and key Project Service entities. In our example, it is reasonable to expect that Contoso assigns a standard title to each of its employees. So we will need a 1:N relationship from Standard Title to Bookable Resource.
+In the scenario where the custom pricing dimension is an entity, you will be adding 1:N relationships between the dimension entity and key Project Service entities. In our example, it is reasonable to expect that Contoso assigns a standard title to each of its employees. So we will need a 1:N relationship from Standard Title to Bookable Resource or N:1 releationship if it were created from Bookable REsource to Standard Title.
+
+1. In PSA, click **Settings** > **Solutions**, and then double-click to open  **\<your organization name> pricing dimensions** 
+2. In the left navigation on the Solution Explorer, select  **Entities > Bookable Resource**.
+3. Expand the entity **Bookable Resource** on the left navigation pane and select **N:1 Relationships**
+4. Click **New** to create a new N:1 relationship called **Bookable Resource to Standard Title**, and then click **Save**.
 
 *Standard Title to Bookable Resource*
 > ![Adding Standard Title as a reference field to Bookable Resource](media/ST-BR.png)
 
 As the next step, Standard Title will also need to be added to Project Service Pricing entities: Role Price and Role Price Markup entities. This will also be done using 1:N relationships between Standard Title entities and the Role Price entity and Standard Title and Role Price Markup entities.
+
+1. In the left navigation on the Solution Explorer, select  **Entities > Role Price**.
+2. Expand the entity **Role Price** on the left navigation pane and select **1:N Relationships**
+3. Click **New** to create a new 1:N relationship called **Standard Title to role price**, and then click **Save**.
+4. Repeat these steps to create a new  also for Role Price Markup entity 
+
 And to extend the example scenario, to the sales and estimation phases, we will need to estimate work effort required for each standard title to price the Quote/Project. So we will need 1:N relationships from Standard Title to each of these estimation entities in Project Service: Quote line Detail, Project Contract Line Detail, Project Team Member, and Estimate Line
+5.
+6.
 
 
 *Standard Title to Estimate Line*
@@ -60,6 +98,8 @@ And to extend the example scenario, to the sales and estimation phases, we will 
 
 
 Continuing the scenario through to Delivery and Invoicing phases, we will need to price the work done by each standard title accurately on the Project Actuals, so we will need 1:N relationships from Standard Title to Time Entry, Project Approval, Actual, Invoice Line Detail, and Journal Line entities.
+7.
+8.
 
 *Standard Title to Time Entry*
 > ![Adding Standard Title as a reference field to Time Entry](media/ST-Mapping.png)
@@ -67,6 +107,8 @@ Continuing the scenario through to Delivery and Invoicing phases, we will need t
 ## Step 6. Setup Dimension value defaulting using the mappings features of the platform
 
 In the context of Time Entry, it would be great to have the system default the standard title on the Time Entry from the Bookable Resource that is recording the time entry, so we will also add field mappings on the 1:N relationship from Bookable Resource to Time Entry.
+1.
+2.
 
 *Standard Title on Bookable Rsource to Standard Title on Time Entry - Field Mappings for defaulting*
 > ![Setup field mappings to allow defaulting of Standard Title from Bookable Resource to Time Entry](media/ST-Mapping2.png)
@@ -77,6 +119,9 @@ This completes the schema changes required for Entity-based custom dimensions
 ## Step 7. Add custom fields to forms, views and business rules
 
 Once you have made all the required schema changes, the next step is to make these fields visible on the UI. For this, you will need to walkthrough the relevant forms and views of these entities and add these fields to the forms and views.
+1.
+2.
+
 Below is the comprehensive list of the out-of-the-box forms and views by entity that will need to be updated with the new fields. If you have any additional views or forms in your customizations on these entities, please add the new fields to those as well.
 
 | Project Service Entity        | Forms that need the new field   |Views that need the new field      |
