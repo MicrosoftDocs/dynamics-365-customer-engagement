@@ -195,13 +195,11 @@ the generic team member’s request status changes to Needs Review.
 Click on the arrow to open to open the team member and click on the Proposed
 Resources tab.
 
-![](media/30219f2698badeaeab18b800bc7c5da1.png)
-
 The grid shows the proposed resource’s current bookings and bookings once the
 proposal is accepted. From here you can select the proposed resource and click
 Accept Proposals for them to be booked onto your team.  You can also reject the resource and resubmit the request.
 
-![](media/376961383a6b6f866f04f63f6207211d.png)
+> ![Screenshot of accpeting a resource proposal](../media/RM-how-to-20.png "Screenshot of accepting a resource proposal")
 
 As with directly fulfilling a generic resource with a named resource, the
 generic resource will be replaced and the assigned tasks will be updated with the named team member.
