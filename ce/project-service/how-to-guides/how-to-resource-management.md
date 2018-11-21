@@ -6,7 +6,7 @@ manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 11/15/2018
+ms.date: 11/21/2018
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -213,9 +213,9 @@ For example, here is a task with a duration of 5 days and effort hours of
 120hrs. This task cannot be completed by one resource that works a typical 8hr
 day over a 5 day week.
 
-![](media/e07afe06cbd51a1401c163dd77ea02e1.png)
+> ![Screenshot of a task needing 120hrs of effort over 5 days](../media/RM-how-to-21.png "Screenshot of a task needing 120hrs of effort over 5 days")
 
-The requirement is for 120hrs of a technical consultant over 5 days.
+The requirement is for 120hrs of a Robotics engineert over 5 days.
 
 ![](media/307bbe5dfda2ccbd800bdd305f513ee5.png)
 
