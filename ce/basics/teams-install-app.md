@@ -2,7 +2,7 @@
 title: "Install and set up the Dynamics 365 app for Teams| MicrosoftDocs"
 ms.custom: ""
 description: "Install and set up the Dynamics 365 app for Teams."
-ms.date: 11/08/2018
+ms.date: 11/21/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -150,19 +150,14 @@ Because this is a preview feature, you can control whether to display Teams inte
 
 1. Sign in as a System administrator to Dynamics 365 (online).
 2. Go to **Settings** > **Administration** > **System Settings** > **Previews** tab.
-3. Enable **Microsoft Teams Integration Preview** and **Dynamics 365 bot in Microsoft Teams Preview**.
+3. Enable **Microsoft Teams Integration Preview**.
 
    > [!div class="mx-imgBorder"] 
    > ![Enable preview settings](media/teams-system-settings.png "Enable preview settings")
 
-The following table describes what happens when each feature is enabled.
+When Microsoft Teams Integration Preview is enabled, the **Collaborate** button appears on records in Dynamics 365 (online) so you can see the connected team channel. In addition, in the **Documents** tab, files synchronized with Teams will appear.   
 
-|Setting  |When enabled |
-|---------|---------|
-|Microsoft Teams Integration Preview   | When enabled, the **Collaborate** button appears on records in Dynamics 365 (online) so you can see the connected team channel. In addition, in the **Documents** tab, files synchronized with Teams will appear.         |
-|Dynamics 365 bot in Microsoft Teams Preview     | When enabled, the bot appears in Microsoft Teams in the **Conversation** tab in the Dynamics 365 app for Teams.  |
-
-If these settings are not enabled, users can still connect Dynamics 365 (online) records to Microsoft Teams but the related Microsoft Teams channel and document do not appear in Dynamics 365 (online).  
+If not enabled, users can still connect Dynamics 365 (online) records to Microsoft Teams but the related Microsoft Teams channel and document do not appear in Dynamics 365 (online).  
 
 ### See also  
  [Troubleshoot Teams integration](teams-troubleshoot.md)
