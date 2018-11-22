@@ -106,24 +106,25 @@ search.app:
    <li><a href="add-knowledge-base-search-control-forms.md" data-raw-source="[Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)">Add the Knowledge Base Search control to forms</a></li>
 
 <li><a href="configure-interactive-dashboards-customer-service-hub.md" data-raw-source="[Configure interactive dashboards in the Customer Service Hub](configure-interactive-dashboards-customer-service-hub.md)">Configure interactive dashboards in the Customer Service Hub</a></li>
-
-
+</ul>
 </td>
+
 <td>&#160;</td>
 </tr>
 
 <td><h2>FAQ</h2>
-
+</ul>
 <li><a href="service-scheduling-faq.md" data-raw-source="[Service Scheduling FAQ](service-scheduling-faq.md)">Service Scheduling FAQ</a></li>
+</ul>
+</td>
 
 <td><h2>Developer guide</h2>
-
+</ul>
 <li><a href="migrate-service-activity-org-service.md" data-raw-source="[Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md)">Migrate Service Activity entity</a></li>
 
   </ul><br/>  </td>
 
-<td>&#160;</td>
-</table>
+
 
 
 
