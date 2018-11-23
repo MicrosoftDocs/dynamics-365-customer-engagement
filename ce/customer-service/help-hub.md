@@ -33,23 +33,20 @@ search.app:
 <li><a href="whats-new-customer-service.md" data-raw-source="[What's new in Dynamics 365 for Customer Service](whats-new-customer-service.md)">What's new in Dynamics 365 for Customer Service</a></li>
   <li><a href="overview.md" data-raw-source="[Explore Customer Service Hub and Customer Service](overview.md)">Explore Customer Service Hub and Customer Service</a></li>
 <li> <a href="upgrade-ish-csh.md" data-raw-source="[[Upgrade to the Customer Service Hub app](upgrade-ish-csh.md)]">Upgrade to the Customer Service Hub app</a>
-  
   </ul>
   </td>
 
   <td><h2>Setup</h2>
   <ul>
- 
-
   <li><a href="https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets" data-raw-source="[Dynamics 365 for phones and tablets]https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets">Dynamics 365 for phones and tablets</a></li>
 <li><a href="use-customer-service-hub-on-dynamics-365-mobile.md" data-raw-source="[Navigate app on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)">Customer Service Hub app on mobile devices</a></li>
 <li><a href="basics-service-service-scheduling.md#set-up-the-new-scheduling-experience" data-raw-source="[New scheduling experience based on URS](basics-service-service-scheduling.md#set-up-the-new-scheduling-experience)">New scheduling experience based on URS</a></li>
-
-  
   </li> 
   </ul>
   </td>
 </tr>
+
+
 <tr> 
  <td><h2>Manage</h2>
    <ul>
@@ -88,9 +85,9 @@ search.app:
  <li><a href="https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index" data-raw-source="[Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index)">Microsoft Dynamics 365 and GDPR</a></li>
 </ul>
 </td>
-<td>&#160;</td>
 </tr>
 
+<tr>
 <td><h2>Troubleshoot</h2>
    <ul>
   <li><a href="troubleshoot-case-email-issue.md" data-raw-source="[Issue converting an email to a case](troubleshoot-case-email-issue.md)">Issue converting an email to a case</a>
@@ -108,21 +105,21 @@ search.app:
 <li><a href="configure-interactive-dashboards-customer-service-hub.md" data-raw-source="[Configure interactive dashboards in the Customer Service Hub](configure-interactive-dashboards-customer-service-hub.md)">Configure interactive dashboards in the Customer Service Hub</a></li>
 </ul>
 </td>
-
-<td>&#160;</td>
 </tr>
 
+<tr>
 <td><h2>FAQ</h2>
-</ul>
+<ul>
 <li><a href="service-scheduling-faq.md" data-raw-source="[Service Scheduling FAQ](service-scheduling-faq.md)">Service Scheduling FAQ</a></li>
 </ul>
 </td>
 
 <td><h2>Developer guide</h2>
-</ul>
+<ul>
 <li><a href="migrate-service-activity-org-service.md" data-raw-source="[Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md)">Migrate Service Activity entity</a></li>
 
-  </ul><br/>  </td>
+  </ul>  </td>
+</tr>
 
 
 
