@@ -122,6 +122,17 @@ search.app:
 </tr>
 
 
+<tr>
+<td><h2>Blogs</h2>
+<ul>
+<li><a href="https://blogs.msdn.microsoft.com/crm/2018/11/22/get-started-with-dynamics-365-service-scheduling/" data-raw-source="[Get started with Dynamics 365 Service Scheduling](https://blogs.msdn.microsoft.com/crm/2018/11/22/get-started-with-dynamics-365-service-scheduling/)">Get started with Dynamics 365 Service Scheduling</a></li>
+</ul>
+</td>
+
+<td>&#160;</td>
+
+</tr>
+
 
 
 

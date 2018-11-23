@@ -24,8 +24,8 @@
 ### [Parent Child Case Settings](define-settings-parent-child-cases.md)
 ### [Routing Rule Sets](create-rules-automatically-route-cases.md)
 ### Automatic Record Creation and Update Rules
-#### [Automatically create a case from an email](automatically-create-case-from-email.md)
 #### [Automatically create and update records](set-up-rules-to-automatically-create-or-update-records.md)
+#### [Automatically create a case from an email](automatically-create-case-from-email.md)
 ### [Subjects](../admin/define-subjects-categorize-cases-products-articles.md)
 ### [Service Level Agreements](define-service-level-agreements.md)
 #### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
