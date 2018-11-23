@@ -26,22 +26,6 @@ search.app:
 
 Read this topic to find answers to some common questions regarding Service Scheduling, it's legacy and new experience, setup, and some key concepts.
 
-## What are some key service scheduling terminologies?
-
-- **Service:** A type of work, such as a maintenance activity, performed for a customer by one or more resources. Services are schedulable activities.  
-  
-- **Resource:** Personnel, facilities or equipment, or teams that can be scheduled and have work schedules.  
-  
-- **Resource category:** Groups of resources that can be scheduled interchangeably.  
- 
-- **Work hours:** The hours that a resource is available for scheduling.  
-  
-- **Organizational units:** The location of a resource. Use organizational units to make sure that the customer and the resource are in the same location.  
-  
-- **Service activity:** A schedulable activity to provide a service to a customer. A service activity uses one or more resources to perform a service at a specific time and place.  
-  
-- **Resource requirements:** A set of criteria that specifies which personnel, equipment, facilities, or resource categories are required to perform a service, or how to select these resources, based on parameters like quantity and capacity.  
-
 ## Do I need Field Service or Project Service license to enable service scheduling for my org?
  
 The new scheduling experience is available to you if you have Dynamics 365 for Customer Service Enterprise, Customer Engagement Plan, or Dynamics 365 Plan licenses.
