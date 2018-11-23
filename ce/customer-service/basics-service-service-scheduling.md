@@ -26,19 +26,19 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Avoid disruptions in service by making sure that your resources are scheduled optimally and efficiently. Using Service Scheduling, you can plan and schedule service activities for your customers by bringing together all your resources.
+Avoid disruptions in service by making sure that your resources are scheduled optimally and efficiently. Using Scheduling in Customer Service Hub, you can plan and schedule service activities for your customers by bringing together all your resources.
 
 ## Understand the new scheduling experience
 
-Service Scheduling, now built atop **Universal Resource Scheduling (URS)**, provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling.
+Scheduling, now built atop **Universal Resource Scheduling (URS)**, provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling.
 
-With the Customer Engagement apps version 9.1 release, the new Service Scheduling can be enabled from the Customer Service Hub sitemap.
+With the Customer Engagement apps version 9.1 release, the new scheduling experience can be enabled from the Customer Service Hub sitemap.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up the new scheduling experience](#set-up-the-new-scheduling-experience)
 
 The new experience lists the entities as follows, as compared to the legacy experience:
 
-|Legacy Service Scheduling    |New Service Scheduling    |
+|Legacy Scheduling    |New Scheduling    |
 |---------|---------|
 |Facilities/Equipment     |   Resources      |
 |Service     |   Service,  Requirement Groups    |
@@ -49,7 +49,7 @@ The new experience lists the entities as follows, as compared to the legacy expe
 |Service Activity     |     Service Activity     |
 |   |           |
 
-### Service Scheduling scenario
+### Scheduling scenario
 
 The following scenario helps to understand how the new scheduling experience lets you manage your service activities seamlessly: 
 
@@ -61,7 +61,7 @@ Contoso bike repair schedules repair services for their customers. To facilitate
 - Work hours during which they perform their services. 
 - Capacity and expert level for all personnel.
 
-Contoso can benefit from the Service Scheduling feature by quickly catering to their customers with their repair services. With the various scheduling entities, they can plan service activities for their customers by considering the availability of resources, facilities, and equipment. 
+Contoso can benefit from the scheduling feature by quickly catering to their customers with their repair services. With the various scheduling entities, they can plan service activities for their customers by considering the availability of resources, facilities, and equipment. 
 
 Let's see how Contoso accomplishes the task:
 
@@ -73,7 +73,7 @@ Let's see how Contoso accomplishes the task:
 
    In this example, Contoso bike repair is the site for service.
 
-   |Legacy Service Scheduling  |New Service Scheduling  |
+   |Legacy Scheduling  |New Scheduling  |
    |---------|---------|
    |![sites](media/sites-cs.png)  |  ![organizational units](media/org-unit-csh.png)   |
    |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use sites to manage your service locations (Customer Service app)](use-sites-manage-service-locations.md)     |  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage organizational units](create-org-units-cs-scheduling.md) |
@@ -88,7 +88,7 @@ Let's see how Contoso accomplishes the task:
 
   In this example, two resources (contacts) Bert Hair and Gilda Moss are created. Similarly, two more resources (facility/equipment) are created as Bike repair workbench - 1 and Bike repair workbench - 2, which are required to perform the service.
 
-  |Legacy Service Scheduling  |New Service Scheduling  |
+  |Legacy Scheduling  |New Scheduling  |
   |---------|---------|
   |![resources-cs](media/resources-cs.png)   |   ![resouces-csh](media/resources-csh.png)      |
   |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a resource group (Customer Service app)](create-edit-resource-group.md)     | [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and set up bookable resources](resources-service-scheduling.md)  </br> |
@@ -98,7 +98,7 @@ Let's see how Contoso accomplishes the task:
 **Step 3: Set work hours for the resource, resource group or facility/equipment** </br>
    The availability of the resources is defined in the work hours section. 
 
-   |Service Scheduling  |
+   |Scheduling  |
    |---------|---------|
    |   ![set-work-hours](media/set-work-hours-csh.png)     |
    | [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set work hours for the resources](resources-service-scheduling.md#set-work-hours-for-the-resources)|
@@ -112,7 +112,7 @@ Let's see how Contoso accomplishes the task:
 
    In the example, Bert Hair and Gilda Moss are grouped as Technicians and Bike repair workbench - 1 and Bike repair workbench - 2 are grouped as Workbenches.
 
-   |Legacy Service Scheduling  |New Service Scheduling  |
+   |Legacy Scheduling  |New Scheduling  |
    |---------|---------|
    |![resource-groups](media/res-group-cs.png)  |   ![resource group](media/res-groups-csh.png)     |
    |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a resource group (Customer Service app)](create-edit-resource-group.md)     |  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md)|
@@ -122,7 +122,7 @@ Let's see how Contoso accomplishes the task:
 **Step 5: Create a service record**  </br>
    Contoso now collates all the above inputs to create a bike repair service record for the customer. They also specify the resources/resource groups they will need for the service.
 
-   |Legacy Service Scheduling  |New Service Scheduling  |
+   |Legacy Scheduling  |New Scheduling  |
    |---------|---------|
    |![service-cs](media/service-cs.png)  |  ![service-csh](media/service-csh.png)   |
    |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a service (Customer Service app)](create-edit-service-cs-app.md)    |  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a service in Service Scheduling](create-edit-service-csh.md) |
@@ -135,7 +135,7 @@ Let's see how Contoso accomplishes the task:
    > In the service activity: </br> - In the new experience, select **Book** to access schedule board. </br> - In the legacy experience, select **Schedule** to access schedule board.
 
 
-   |Legacy Service Scheduling  |New Service Scheduling  |
+   |Legacy Scheduling  |New Scheduling  |
    |---------|---------|
    |![service-activity-cs](media/service-activity-cs.png)  |  ![service-activity](media/service-activity-csh.png)  |
    |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity (Customer Service app)](schedule-service-activity-cs-app.md)  |  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md)|
@@ -145,7 +145,7 @@ Let's see how Contoso accomplishes the task:
 **Step 7: Book the service in the schedule board**  </br>
   The schedule board displays all the service configurations at one place to quickly schedule a service.
 
-   |Legacy Service Scheduling  |New Service Scheduling  |
+   |Legacy Scheduling  |New Scheduling  |
    |---------|---------|
    |![service-calendar](media/service-calendar-cs.png) | ![schedule-board](media/schedule-board-csh.png)  |
    |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Navigate the service calendar (Customer Service app)](navigate-service-calendar-cs-app.md)   |    </br>    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the schedule board to configure service activity](use-schedule-board-configure-service-activity.md)  |
@@ -183,7 +183,7 @@ Make sure that you have the required security role or equivalent permissions.
   
 3. Access scheduling in the Customer Service Hub sitemap.
 
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Access Service Scheduling in the Customer Service Hub](#access-service-scheduling-in-the-customer-service-hub)
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Access Scheduling in the Customer Service Hub](#access-scheduling-in-the-customer-service-hub)
 
 ## Configure entity records in the new scheduling experience
 
@@ -192,10 +192,10 @@ Configure all your entity records in the new experience manually from the user i
 Make sure that you have the correct security role or equivalent permissions. Know more about security roles: [Manage security roles in service scheduling](manage-security-roles.md).
 
 > [!IMPORTANT]
-> The admin must follow the order as given in the [Service Scheduling scenario](#service-scheduling-scenario) while configuring entity records in the new scheduling experience.
+> The admin must follow the order as given in the [Scheduling scenario](#scheduling-scenario) while configuring entity records in the new scheduling experience.
 
 > [!NOTE]
-> If you have been using the legacy service scheduling, you would still need to configure entity records in the new experience. </br> All entity records can be configured from the user interface except Service Activity.
+> If you have been using the legacy scheduling, you would still need to configure entity records in the new experience. </br> All entity records can be configured from the user interface except Service Activity.
 
 ### Migrate Service Activity
 To know how to migrate your service activity entity records from legacy to new experience by running SDK code samples, see [Sample: Migrate Service Activity entity](migrate-service-activity-org-service.md).
