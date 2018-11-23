@@ -57,7 +57,7 @@ search.app:
   </ul>
   </td>
 
- <td><h2>User Guide</h2>
+ <td><h2>User Guides</h2>
    <ul>
   <li><a href="user-guide-customer-service-hub.md" data-raw-source="[Customer Service Hub](user-guide-customer-service-hub.md)">Customer Service Hub</a></li>
    <li><a href="user-guide-customer-service.md" data-raw-source="[Customer Service](user-guide-customer-service.md)">Customer Service app</a></li>
