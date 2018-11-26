@@ -1,7 +1,7 @@
 ---
 title: "Enable embedded Flow in your Dynamics 365 Customer Engagement organization | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 11/20/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -23,7 +23,7 @@ search.app:
 ---
 # Enable embedded Flow to automate processes
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Flow lets you create automated processes between your favorite apps and services. The ability to run flows from within [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] makes it simple for users to combine a broad spectrum of services that can be initiated from within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], such as messaging, social engagement, and document routing services.  
 
@@ -32,10 +32,8 @@ Flow lets you create automated processes between your favorite apps and services
 The embedded Flow feature is not available in the following service or geographic regions.
 - Microsoft Dynamics 365 Government
 - Germany
-- United Kingdom (UK)
-- South America
 
-  Once the embedded Flows feature is enabled, the following privileges are added in the **Miscellaneous** section of the **Customization** tab for security roles.  
+Once the embedded Flows feature is enabled, the following privileges are added in the **Miscellaneous** section of the **Customization** tab for security roles.  
   
 - Name: prvFlow  
   
