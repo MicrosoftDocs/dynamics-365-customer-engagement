@@ -36,7 +36,7 @@ For a field to become a pricing dimension, it must be:
 
 ![Amount - based Pricing Dimension Rows](media/Amt-based-PD.png)
 
-Notice that Resource Work hours (**msdyn-resourceworkhours**) has been added as a markup-based dimension and has been added to the grid on the**Markup Based Pricing Dimension** tab.
+Notice that Resource Work hours (**msdyn_resourceworkhours**) has been added as a markup-based dimension and has been added to the grid on the **Markup Based Pricing Dimension** tab.
 
 ![Markup - based Pricing Dimension Rows](media/Markup-based-PD.png)
 
