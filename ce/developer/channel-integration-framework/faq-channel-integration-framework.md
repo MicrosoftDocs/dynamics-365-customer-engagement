@@ -20,8 +20,6 @@ manager: shujoshi
 
 # Frequently asked questions (FAQs) for Channel Integration Framework (CIF)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)] 
-
 ## What is Channel Integration Framework?
 Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party channel providers with Dynamics 365 Unified Interface Apps using a browser-based JavaScript API library.
 

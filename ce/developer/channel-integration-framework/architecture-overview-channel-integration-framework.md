@@ -18,9 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# Architecture overview of Channel Integration Framework
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)] 
+# Architecture overview of Channel Integration Framework 
 
 Channel Integration Framework provides an extensible framework to integrate third-party Computer Telephony Integration (CTI) systems to serve your customers with more focus and agility.
 

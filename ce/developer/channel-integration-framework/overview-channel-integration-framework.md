@@ -20,8 +20,6 @@ manager: shujoshi
 
 # What is Channel Integration Framework for Microsoft Dynamics 365
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)] 
-
 Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party channel providers with Dynamics 365 Unified Interface Apps using a browser-based JavaScript API library.
 
 With this framework, you can integrate any third-party channel provider or channel aggregators into Unified Interface Apps, where the Channel Integration Framework acts as an interface between the providers or aggregators and Unified Interface Apps.

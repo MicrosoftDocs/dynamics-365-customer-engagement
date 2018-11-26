@@ -18,13 +18,7 @@ ms.author: kabala
 manager: shujoshi
 ---
 
-# Preview: Dynamics 365 Channel Integration Framework Guide
-
-> [!IMPORTANT]
-> - This feature currently has limited availability.
-> - [!INCLUDE[cc_preview_features_definition](../../includes/cc-preview-features-definition.md)]  
-> - [!INCLUDE[cc_preview_features_expect_changes](../../includes/cc-preview-features-expect-changes.md)]  
-> - [!INCLUDE[cc_preview_features_no_MS_support](../../includes/cc-preview-features-no-ms-support.md)]
+# Dynamics 365 Channel Integration Framework Guide
 
 <table>
 <tr>
@@ -49,9 +43,10 @@ manager: shujoshi
 <h2> How-to </h2>
 
 <li><a href="configure-channel-provider-channel-integration-framework.md" data-raw-source="[How to configure a channel provider ifor your organization](configure-channel-provide-channel-integration-framework.md)">How to configure a channel provider for your organization</a></li>
-<li><a href="authenticate-channel-users.md" data-raw-source="[Authenticate channel users to the channel (widget)](authenticate-channel-users.md)">Authenticate channel users to the channel (widget)</a></li>
 <li><a href="enable-outbound-communication-clicktoact.md" data-raw-source="[How to enable outbound communication (ClickTOAct)](enable-outbound-communication-clicktoact.md)">How to enable outbound communication (ClickTOAct)</a></li>
-
+<li><a href="add-cif-solution-dependent-solution.md" data-raw-source="[Add CIF solution as a dependent solution](add-cif-solution-dependent-solution.md)">Add CIF solution as a dependent solution</a></li>
+<li><a href="authenticate-channel-users.md" data-raw-source="[Authenticate channel users to the channel (widget)](authenticate-channel-users.md)">Authenticate channel users to the channel (widget)</a></li>
+<li><a href="pass-url-widget-library.md" data-raw-source="[Pass Dynamics 365 URL to widget library](pass-url-widget-library.md)">Pass Dynamics 365 URL to widget library</a></li>
 </td>
 <td>
 
