@@ -20,8 +20,6 @@ manager: shujoshi
 
 # getWidth (CIF JavaScript API Reference)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
-
 [!INCLUDE[getWidth](includes/getWidth-description.md)]
 
 ## Syntax

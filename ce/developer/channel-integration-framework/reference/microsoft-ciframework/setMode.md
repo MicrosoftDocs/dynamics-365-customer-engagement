@@ -20,8 +20,6 @@ manager: shujoshi
 
 # setMode (CIF JavaScript API Reference)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
-
 [!INCLUDE[setMode](includes/setMode-description.md)]
 
 ## Syntax

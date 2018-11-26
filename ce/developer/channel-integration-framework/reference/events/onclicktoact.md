@@ -20,8 +20,6 @@ manager: shujoshi
 
 # onclicktoact event (CIF JavaScript API reference)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]  
-
 The `onclicktoact` event invoked when user selects the outbound communication (ClickToAct) field in a form.
 
 You can also write custom controls to raise the Channel Integration ClickToAct window event and pass any eventData as the business requirement.

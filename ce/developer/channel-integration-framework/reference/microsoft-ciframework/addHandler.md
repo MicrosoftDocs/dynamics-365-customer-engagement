@@ -20,8 +20,6 @@ manager: shujoshi
 
 # addHandler (CIF JavaScript API Reference)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]  
-
 [!INCLUDE[addHandler-description](includes/addHandler-description.md)] 
 
 ## Syntax

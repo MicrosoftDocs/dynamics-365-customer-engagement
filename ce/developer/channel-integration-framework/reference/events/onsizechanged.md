@@ -20,8 +20,6 @@ manager: shujoshi
 
 # onsizechanged event (CIF JavaScript API reference)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
-
 The `onsizechanged` event is invoked when the side panel width is changed.
 
 ## eventData

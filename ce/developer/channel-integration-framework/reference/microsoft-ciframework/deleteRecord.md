@@ -20,8 +20,6 @@ manager: shujoshi
 
 # deleteRecord (CIF JavaScript API Reference)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
-
 [!INCLUDE[deleteRecord](includes/deleteRecord-description.md)] 
 
 ## Syntax

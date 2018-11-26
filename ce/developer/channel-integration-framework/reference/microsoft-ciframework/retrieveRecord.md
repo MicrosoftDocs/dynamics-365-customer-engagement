@@ -20,8 +20,6 @@ manager: shujoshi
 
 # retrieveRecord (CIF JavaScript API Reference)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
-
 [!INCLUDE[retrieveRecord](includes/retrieveRecord-description.md)] 
 
 ## Syntax

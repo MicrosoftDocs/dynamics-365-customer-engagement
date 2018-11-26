@@ -20,8 +20,6 @@ manager: shujoshi
 
 # removeHandler (CIF JavaScript API Reference)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
-
 [!INCLUDE[removeHandler-description](includes/removeHandler-description.md)] 
 
 ## Syntax

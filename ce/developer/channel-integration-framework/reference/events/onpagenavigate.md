@@ -20,8 +20,6 @@ manager: shujoshi
 
 # onpagenavigate event (CIF JavaScript API reference)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
-
 The `onpagenavigate` event is invoked when the main Unified Interface page navigation occurs. The eventData URL is the navigated Unified Interface page URl.
 
 ## eventData

@@ -20,8 +20,6 @@ manager: shujoshi
 
 # onsendkbarticle event (CIF JavaScript API reference)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)] 
-
 The `onsendkbarticle` event is invoked when the user selects the **Send** button in the Knowledge Base control. The eventData are the URL and the title of KB article that you need to pass.
 
 ## eventData
