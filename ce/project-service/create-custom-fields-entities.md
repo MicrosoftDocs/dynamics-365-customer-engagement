@@ -32,7 +32,7 @@ The procedures in this topic should be completed using the web interface of Proj
 1. In PSA, click **Settings** > **Solutions**, and then click **New** to create a new solution. 
 2. Name the solution, **\<your organization name> pricing dimensions**, enter the remaining required information, and then click **Save**.
 
-> ![Creating a custom solution for pricing dimensions](media/Creation-of-custom-pricing-dimension-solution.png)
+> ![Creating a custom solution for pricing dimensions](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## Create custom fields and option sets in the pricing dimension solution
 
