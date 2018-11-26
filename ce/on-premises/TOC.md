@@ -80,6 +80,7 @@
 ##### [Dynamics 365 Report Authoring Extension XML configuration file](dynamics-365-report-authoring-extension-xml-config-file.md)
 ###### [Sample Dynamics 365 Report Authoring Extension XML configuration file](sample-report-authoring-extension-xml-config-file.md) -->
 ### [Post-installation and configuration guidelines for Dynamics 365 for Customer Engagement](post-installation-configuration-guidelines-dynamics-365.md)
+### [Available apps for Dynamics 365 for Customer Engagement (on-premises)](available-apps.md)
 <!-- ### [Uninstall, repair, and change Dynamics 365 for Customer Engagement](uninstall-repair-and-change-microsoft-dynamics-365.md)
 #### [Uninstall, change, or repair Dynamics 365 Server](uninstall-change-repair-dynamics-365-server.md)
 #### [Uninstall or repair Dynamics 365 Reporting Extensions](uninstall-repair-dynamics-365-reporting-extensions.md)
