@@ -57,7 +57,7 @@ You can create two option set-based dimensions. Use **Resource Work Location** t
 
 > ![Option set based pricing dimension called Resource Work Location ](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Option set based pricing dimension called Resource Work Hours ](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Option set based pricing dimension called Resource Work Hours ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## Create data for entity-based dimensions
