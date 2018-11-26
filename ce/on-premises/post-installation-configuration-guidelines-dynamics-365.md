@@ -63,8 +63,10 @@ This section describes several of the tasks that the [!INCLUDE[pn_microsoftcrm](
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up a Dynamics 365 organization](../admin/set-up-a-dynamics-365-organization.md)  
   
 <a name="install_solution"></a>   
-## Import a solution from the Microsoft Dynamics Marketplace  
- Use solutions to extend functionality and the user interface. Customizers and developers distribute their work as solutions. Organizations use [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to import the solution. Find a solution in the [Microsoft AppSource](https://appsource.microsoft.com/).  
+## Import apps and solutions   
+  Sales and Field Service apps are available to you. More information: [Available apps for Dynamics 365 for Customer Engagement (on-premises)](available-apps.md)
+
+  Use solutions to extend functionality and the user interface. Customizers and developers distribute their work as solutions. Organizations use [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to import the solution. Find a solution in the [Microsoft AppSource](https://appsource.microsoft.com/).  
   
 > [!IMPORTANT]
 >  Importing a solution or publishing customizations can interfere with normal system operation. We recommend that you schedule solution imports when it’s least disruptive to users.  
