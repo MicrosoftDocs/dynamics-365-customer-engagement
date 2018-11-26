@@ -2,7 +2,7 @@
 title: "Enable the hybrid experience | MicrosoftDocs"
 Description: Some features are not yet present in the Unified Interface but can be enabled for display as legacy dialogs in the Unified Interface through the hybrid experience.
 ms.custom: ""
-ms.date: 09/05/2018
+ms.date: 11/26/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -23,6 +23,8 @@ search.app:
   - Powerplatform
 ---
 # Enable the hybrid experience
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Most of the core functionalities of sales and customer service have moved to the [Unified Interface](about-unified-interface.md) experience. Some of the features that are not yet on Unified Interface can now be accessed in the Unified Interface client. 
 
